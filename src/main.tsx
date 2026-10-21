@@ -1,10 +1,14 @@
 import { render } from 'preact';
 import { App } from './app.tsx';
 import { unlockSpeech } from './lib/tts.ts';
+import '@fontsource/rubik/hebrew-400.css';
+import '@fontsource/rubik/hebrew-500.css';
+import '@fontsource/rubik/hebrew-700.css';
 import './styles.css';
 
 declare const __SINGLE__: boolean;
 
+if (__SINGLE__) document.documentElement.classList.add('in-artifact');
 render(<App />, document.getElementById('app')!);
 
 // iOS needs a first user gesture before speech works.

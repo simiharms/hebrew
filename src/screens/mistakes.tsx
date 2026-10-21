@@ -95,7 +95,7 @@ function MistakePractice({ onExit }: { onExit: () => void }) {
   }
   const m = items[i];
   const check = () => {
-    const r = checkHebrew(value, [m.answer]);
+    const r = checkHebrew(value, [m.answer], { strict: m.kind !== 'vocab' });
     setResult(r);
     if (r.verdict === 'correct' || r.verdict === 'close') {
       clearMistake(m.kind, m.ref);

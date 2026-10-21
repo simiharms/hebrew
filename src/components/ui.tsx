@@ -216,3 +216,18 @@ export function Table({ rows }: { rows: string[][] }) {
     </div>
   );
 }
+
+/** A destructive action that asks for a second tap instead of a browser dialog. */
+export function ConfirmButton({ label, confirmLabel, onConfirm, cls = 'btn small ghost' }: { label: string; confirmLabel: string; onConfirm: () => void; cls?: string }) {
+  const [armed, setArmed] = useState(false);
+  useEffect(() => {
+    if (!armed) return;
+    const t = setTimeout(() => setArmed(false), 4000);
+    return () => clearTimeout(t);
+  }, [armed]);
+  return (
+    <button class={`${cls} ${armed ? 'danger' : ''}`} onClick={() => (armed ? (setArmed(false), onConfirm()) : setArmed(true))}>
+      {armed ? confirmLabel : label}
+    </button>
+  );
+}

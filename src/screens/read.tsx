@@ -1,6 +1,6 @@
 import { useState } from 'preact/hooks';
 import { OpenQuestion, WritingBox } from '../components/answer.tsx';
-import { HeText } from '../components/hebrew.tsx';
+import { HeText, learnGlossary } from '../components/hebrew.tsx';
 import { Item, LevelBadge, SpeakBtn, TopBar } from '../components/ui.tsx';
 import type { Level, Question } from '../content/types.ts';
 import { LEVELS } from '../content/types.ts';
@@ -120,6 +120,11 @@ export function Reader({ id }: { id: string }) {
               📚 Key words ({r.glossary.length})
             </button>
           </div>
+          {showGloss && (
+            <button class="btn small mt" onClick={() => learnGlossary(r.glossary)}>
+              ＋ Add these to my word reviews
+            </button>
+          )}
           {showGloss && (
             <table class="grid mt">
               <tbody>

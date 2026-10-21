@@ -202,7 +202,7 @@ export function NumbersPage() {
       if (ok) setScore((s) => s + 1);
       else addMistake({ kind: 'number', ref: `listen:${listenItem.say}`, prompt: listenItem.say, answer: listenItem.answer, given: value });
     } else {
-      const r = checkHebrew(value, writeItem.accepted);
+      const r = checkHebrew(value, writeItem.accepted, { strict: true });
       setResult(r);
       if (r.verdict === 'latin') return;
       if (r.verdict !== 'wrong') {

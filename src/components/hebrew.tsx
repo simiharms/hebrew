@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'preact/hooks';
 import { displayRoot, findVocab, invalidateDictionary, lookup, rootFamily } from '../lib/content.ts';
-import { splitWords, stripNiqqud } from '../lib/hebrew.ts';
+import type { VocabItem } from '../content/types.ts';
+import { lenient, splitWords, stripNiqqud } from '../lib/hebrew.ts';
 import { go } from '../lib/router.ts';
 import { getState, setState, useAppState } from '../lib/store.ts';
 import { speak } from '../lib/tts.ts';
@@ -45,6 +46,38 @@ export function queueWord(vocabId: string) {
     st.queue.push(vocabId);
   });
   toast('Added — it will come up in your next word session');
+}
+
+/** Queue glossary words for learning: known vocab is queued, unknown entries become "My words". */
+export function learnGlossary(entries: { he: string; en: string; tr?: string }[]): number {
+  let added = 0;
+  const s = getState();
+  const newCustom: VocabItem[] = [];
+  const queue: string[] = [];
+  for (const g of entries) {
+    const hit = lookup(g.he).entries.find((e) => e.vocabId && lenient(e.he) === lenient(g.he));
+    if (hit?.vocabId) {
+      if (!s.cards[`v:${hit.vocabId}`] && !s.queue.includes(hit.vocabId)) {
+        queue.push(hit.vocabId);
+        added++;
+      }
+      continue;
+    }
+    if (s.custom.some((c) => lenient(c.he) === lenient(g.he))) continue;
+    const id = `u_${Date.now().toString(36)}_${newCustom.length}`;
+    newCustom.push({ id, he: g.he, tr: g.tr ?? '', en: g.en, pos: 'phrase', level: 'B1', topic: 'custom', ex: { he: g.he, en: g.en } });
+    queue.push(id);
+    added++;
+  }
+  if (added) {
+    setState((st) => {
+      st.custom.push(...newCustom);
+      st.queue.push(...queue);
+    });
+    invalidateDictionary();
+  }
+  toast(added ? `${added} added — they'll come up in your next word session` : 'Already in your words');
+  return added;
 }
 
 export function GlossSheet() {

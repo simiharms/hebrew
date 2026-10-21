@@ -230,7 +230,7 @@ export function VerbSession({ only }: { only?: string }) {
 
   const check = () => {
     if (!value.trim()) return;
-    const r = checkHebrew(value, [t.answer[0]]);
+    const r = checkHebrew(value, [t.answer[0]], { strict: true });
     setResult(r);
     if (r.verdict === 'latin') return;
     const g: Rating = r.verdict === 'correct' ? 3 : r.verdict === 'close' ? 2 : 1;

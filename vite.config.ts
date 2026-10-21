@@ -26,11 +26,17 @@ function serviceWorker(): Plugin {
   };
 }
 
+// The single-file build has no manifest or icon files to link to.
+const stripPwaLinks: Plugin = {
+  name: 'strip-pwa-links',
+  transformIndexHtml: (html) => html.replace(/\s*<link rel="(manifest|apple-touch-icon|icon)"[^>]*>/g, ''),
+};
+
 export default defineConfig(({ mode }) => {
   const single = mode === 'single';
   return {
     base: './',
-    plugins: [preact(), ...(single ? [viteSingleFile()] : [serviceWorker()])],
+    plugins: [preact(), ...(single ? [viteSingleFile(), stripPwaLinks] : [serviceWorker()])],
     define: { __SINGLE__: JSON.stringify(single) },
     publicDir: single ? false : 'public',
     build: {

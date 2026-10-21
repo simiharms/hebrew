@@ -20,6 +20,11 @@ describe('checkHebrew', () => {
   it('rejects wrong answers', () => {
     expect(checkHebrew('ספר', ['פגישה']).verdict).toBe('wrong');
   });
+  it('strict mode does not forgive a wrong ending', () => {
+    expect(checkHebrew('שלושה', ['שלוש'], { strict: true }).verdict).toBe('wrong');
+    expect(checkHebrew('שלוש', ['שלוש'], { strict: true }).verdict).toBe('correct');
+    expect(checkHebrew('שלושה', ['שלוש']).verdict).toBe('close');
+  });
   it('detects latin keyboard', () => {
     expect(checkHebrew('pgisha', ['פגישה']).verdict).toBe('latin');
   });
@@ -56,6 +61,10 @@ describe('keywords', () => {
   it('scores groups', () => {
     const s = scoreKeywords('הפגישה נדחתה ליום ראשון', [['פגישה'], ['ראשון'], ['מנהל']]);
     expect(s.matched).toEqual([true, true, false]);
+  });
+  it('treats maqaf as a word break, not a vowel', () => {
+    expect(lenient('בית\u05BEספר')).toBe('בית ספר');
+    expect(splitWords('בית\u05BEספר').filter((p) => p.isWord).map((p) => p.w)).toEqual(['בית', 'ספר']);
   });
   it('lenient', () => {
     expect(lenient('ךםןףץ')).toBe('כמנפצ');

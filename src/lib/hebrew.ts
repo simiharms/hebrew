@@ -1,7 +1,8 @@
 // Hebrew text utilities: normalisation, answer checking, keyword matching.
 // Uses only erasable TypeScript so Node can run it directly (validator).
 
-const NIQQUD_RE = /[֑-ׇ]/g;
+// Vowel points and cantillation, but not maqaf (05BE), paseq (05C0), sof pasuq (05C3) or nun hafukha (05C6).
+const NIQQUD_RE = /[\u0591-\u05BD\u05BF\u05C1\u05C2\u05C4\u05C5\u05C7]/g;
 const HEB_LETTER_RE = /[א-ת]/;
 const LATIN_RE = /[a-zA-Z]/;
 const UNFINAL: Record<string, string> = { 'ך': 'כ', 'ם': 'מ', 'ן': 'נ', 'ף': 'פ', 'ץ': 'צ' };
@@ -117,8 +118,12 @@ export interface CheckResult {
   note?: string;
 }
 
-/** Check a typed Hebrew answer against a list of accepted answers. */
-export function checkHebrew(input: string, acceptedRaw: string[]): CheckResult {
+/**
+ * Check a typed Hebrew answer against a list of accepted answers.
+ * strict: for grammar, verb and number drills, where a one-letter difference
+ * (שלושה/שלוש, חדש/חדשה) is the point of the exercise, so typos aren't forgiven.
+ */
+export function checkHebrew(input: string, acceptedRaw: string[], opts: { strict?: boolean } = {}): CheckResult {
   const raw = input.trim();
   const first = acceptedRaw[0] ?? '';
   const accepted = [...new Set(acceptedRaw.flatMap((a) => [a, ...expandVariants(a)]))];
@@ -148,6 +153,7 @@ export function checkHebrew(input: string, acceptedRaw: string[]): CheckResult {
     }
   }
   if (bestD <= typoBudget(lenient(best).length)) {
+    if (opts.strict) return { verdict: 'wrong', expected: best, note: 'Very close, but here the exact form matters — compare the ending.' };
     return { verdict: 'close', expected: best, note: 'Almost — check the spelling.' };
   }
   return { verdict: 'wrong', expected: best };
@@ -263,7 +269,7 @@ export function wordCount(s: string): number {
 /** Split text into word and non-word chunks for tap-to-gloss rendering. */
 export function splitWords(text: string): { w: string; isWord: boolean }[] {
   const out: { w: string; isWord: boolean }[] = [];
-  const re = /([א-ת֑-ׇ'"׳״]+)|([^א-ת֑-ׇ]+)/g;
+  const re = /([\u05D0-\u05EA\u0591-\u05BD\u05BF\u05C1\u05C2\u05C4\u05C5\u05C7'"\u05F3\u05F4]+)|([^\u05D0-\u05EA\u0591-\u05BD\u05BF\u05C1\u05C2\u05C4\u05C5\u05C7]+)/g;
   let m: RegExpExecArray | null;
   while ((m = re.exec(text))) {
     if (m[1]) {

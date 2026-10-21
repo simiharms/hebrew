@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'preact/hooks';
 import { HeText } from '../components/hebrew.tsx';
-import { Item, TopBar, toast } from '../components/ui.tsx';
+import { ConfirmButton, Item, TopBar, toast } from '../components/ui.tsx';
 import { lookup } from '../lib/content.ts';
 import { checkHebrew, hasHebrew, splitWords } from '../lib/hebrew.ts';
 import { go } from '../lib/router.ts';
@@ -101,19 +101,18 @@ export function OwnText({ id }: { id: string }) {
             ))}
           </div>
         )}
-        <button
-          class="btn ghost block mt"
-          onClick={() => {
-            if (confirm('Delete this text?')) {
+        <div class="center mt">
+          <ConfirmButton
+            label="Delete text"
+            confirmLabel="Tap again to delete"
+            onConfirm={() => {
               setState((st) => {
                 st.own = st.own.filter((x) => x.id !== id);
               });
               go('own');
-            }
-          }}
-        >
-          Delete text
-        </button>
+            }}
+          />
+        </div>
       </main>
     </>
   );

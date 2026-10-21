@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'preact/hooks';
 import { Dictation } from '../components/answer.tsx';
-import { HeText } from '../components/hebrew.tsx';
+import { HeText, learnGlossary } from '../components/hebrew.tsx';
 import { Item, LevelBadge, Seg, TopBar } from '../components/ui.tsx';
 import { LEVELS } from '../content/types.ts';
 import { levelRank, scenes } from '../lib/content.ts';
@@ -183,6 +183,9 @@ export function ScenePlayer({ id }: { id: string }) {
           <>
             <div class="section-title">Expressions from this scene</div>
             <div class="card">
+              <button class="btn small mb" onClick={() => learnGlossary(sc.expressions)}>
+                ＋ Add to my word reviews
+              </button>
               {sc.expressions.map((e) => (
                 <div class="mb">
                   <div class="row">

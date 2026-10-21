@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'preact/hooks';
+import { useEffect, useLayoutEffect, useMemo, useState } from 'preact/hooks';
 import type { VocabItem } from '../content/types.ts';
 import { AnswerInput, Feedback } from '../components/answer.tsx';
 import { HeText } from '../components/hebrew.tsx';
@@ -7,7 +7,7 @@ import { allVocab, displayRoot, rootFamily } from '../lib/content.ts';
 import { type Rating, review } from '../lib/fsrs.ts';
 import { type CheckResult, checkEnglish, checkHebrew, normalizeEn } from '../lib/hebrew.ts';
 import { go } from '../lib/router.ts';
-import { acceptedHebrew, buildWordSession, findCloze, type WordTask } from '../lib/session.ts';
+import { acceptedHebrew, buildWordSession, findCloze, pickNewWords, type WordTask } from '../lib/session.ts';
 import { getState, markTask, setState, todayLog } from '../lib/store.ts';
 import { speak } from '../lib/tts.ts';
 
@@ -24,12 +24,12 @@ const POS_LABEL: Record<string, string> = {
   expr: 'expression',
 };
 
-function rateCard(cardId: string, g: Rating) {
+function rateCard(cardId: string, g: Rating, countsAsNew = true) {
   setState((s) => {
     const prev = s.cards[cardId];
     s.cards[cardId] = review(prev, g, Date.now(), s.settings.retention);
     const log = todayLog(s);
-    if (!prev) log.newWords++;
+    if (!prev && countsAsNew) log.newWords++;
     s.queue = s.queue.filter((id) => `v:${id}` !== cardId);
     log.reviews++;
     if (g >= 3) log.correct++;
@@ -75,9 +75,21 @@ export function WordSession() {
     if (task.mode === 'intro' && result !== 'skip') {
       // test it a few items later
       q.splice(Math.min(idx + 3, q.length), 0, { ...task, mode: 'en2he' });
-    } else if (result === 'wrong') {
-      q.splice(Math.min(idx + 4, q.length), 0, { ...task, mode: 'en2he', retry: true });
+    } else if (result === 'wrong' && (task.tries ?? 0) < 2) {
+      q.splice(Math.min(idx + 4, q.length), 0, { ...task, mode: 'en2he', retry: true, tries: (task.tries ?? 0) + 1 });
     }
+    setQueue(q);
+    setIdx(idx + 1);
+  };
+
+  // Words the learner already knows don't use up the daily quota: swap in another new word.
+  const skipKnown = () => {
+    rated.add(task.cardId);
+    rateCard(task.cardId, 4, false);
+    const inQueue = new Set(queue.map((t) => t.cardId));
+    const [extra] = pickNewWords(queue.length + 1).filter((v) => !inQueue.has(`v:${v.id}`) && !getState().cards[`v:${v.id}`]);
+    const q = [...queue];
+    if (extra) q.push({ cardId: `v:${extra.id}`, item: extra, mode: 'intro', isNew: true });
     setQueue(q);
     setIdx(idx + 1);
   };
@@ -87,11 +99,7 @@ export function WordSession() {
       <TopBar title="Words" backTo="today" right={<span class="small muted">{idx + 1}/{queue.length}</span>} />
       <main class="page">
         <Progress value={idx / queue.length} />
-        {task.mode === 'intro' ? (
-          <Intro key={`${idx}-intro`} task={task} onNext={() => next('right')} onKnown={() => (rated.add(task.cardId), rateCard(task.cardId, 4), next('skip'))} />
-        ) : (
-          <Exercise key={`${idx}-${task.mode}`} task={task} onNext={next} />
-        )}
+        <Exercise task={task} step={idx} onNext={next} onKnown={skipKnown} />
       </main>
     </>
   );
@@ -138,24 +146,19 @@ function WordMeta({ item }: { item: WordTask['item'] }) {
   );
 }
 
-function Intro({ task, onNext, onKnown }: { task: WordTask; onNext: () => void; onKnown: () => void }) {
-  const { item } = task;
+function IntroBody({ item }: { item: VocabItem }) {
   const fam = rootFamily(item.root);
-  const relatives = [...fam.vocab.filter((v) => v.id !== item.id).map((v) => ({ he: v.he, en: v.en })), ...fam.verbs.filter((v) => v.inf !== item.he).map((v) => ({ he: v.inf, en: v.en }))].slice(0, 5);
+  const relatives = [
+    ...fam.vocab.filter((v) => v.id !== item.id).map((v) => ({ he: v.he, en: v.en })),
+    ...fam.verbs.filter((v) => v.inf !== item.he).map((v) => ({ he: v.inf, en: v.en })),
+  ].slice(0, 5);
   const showTr = getState().settings.showTr;
-  useEffect(() => {
-    speak(item.he);
-  }, []);
   return (
-    <div class="card">
-      <div class="row">
-        <span class="badge accent">New word</span>
-        <span class="badge level">{item.level}</span>
-        <div class="spacer" />
-        <SpeakBtn text={item.he} />
-      </div>
+    <>
       <div class="center mt">
-        <div class="he he-xl">{item.he}</div>
+        <div class="he he-xl" style={{ textAlign: 'center' }}>
+          {item.he}
+        </div>
         {showTr && item.tr && <div class="tr">{item.tr}</div>}
         <div class="big-en" style={{ fontSize: 22, fontWeight: 650, marginTop: 6 }}>
           {item.en}
@@ -188,30 +191,39 @@ function Intro({ task, onNext, onKnown }: { task: WordTask; onNext: () => void; 
           </div>
         </div>
       )}
-      <div class="btn-row">
-        <button class="btn ghost" onClick={onKnown}>
-          I already know it
-        </button>
-        <button class="btn primary" onClick={onNext}>
-          Got it →
-        </button>
-      </div>
-    </div>
+      <hr class="sep" />
+    </>
   );
 }
 
-function Exercise({ task, onNext }: { task: WordTask; onNext: (r: 'right' | 'wrong', g?: Rating) => void }) {
+// One component for every step (including new-word intros) and not keyed per
+// task: the same <input> stays mounted from one step to the next, so on iPhone
+// the keyboard stays open (type → Return to check → Return to continue).
+function Exercise({
+  task,
+  step,
+  onNext,
+  onKnown,
+}: {
+  task: WordTask;
+  step: number;
+  onNext: (r: 'right' | 'wrong', g?: Rating) => void;
+  onKnown: () => void;
+}) {
   const { item, mode } = task;
   const [value, setValue] = useState('');
   const [result, setResult] = useState<CheckResult | null>(null);
   const cloze = mode === 'cloze' ? findCloze(item) : null;
   const synonyms = useMemo(() => sameMeaning(item), [item]);
   const effectiveMode = mode === 'cloze' && !cloze ? 'en2he' : mode;
+  const intro = effectiveMode === 'intro';
   const showTr = getState().settings.showTr;
 
-  useEffect(() => {
-    if (effectiveMode === 'listen' || effectiveMode === 'he2en') speak(item.he);
-  }, []);
+  useLayoutEffect(() => {
+    setValue('');
+    setResult(null);
+    if (intro || effectiveMode === 'listen' || effectiveMode === 'he2en') speak(item.he);
+  }, [step]);
 
   const check = () => {
     if (!value.trim()) return;
@@ -219,14 +231,16 @@ function Exercise({ task, onNext }: { task: WordTask; onNext: (r: 'right' | 'wro
     if (effectiveMode === 'he2en') r = checkEnglish(value, [item.en, ...(item.enAlt ?? [])]);
     else if (effectiveMode === 'cloze' && cloze) r = checkHebrew(value, [cloze.answer, ...acceptedHebrew(item, task.cardId)]);
     else r = checkHebrew(value, acceptedHebrew(item, task.cardId));
+    if (intro) {
+      // Copying the new word once: continue straight away when it's right.
+      if (r.verdict === 'correct' || r.verdict === 'close') onNext('right');
+      else setResult(r.verdict === 'latin' ? r : { ...r, note: 'Copy it exactly as shown above.' });
+      return;
+    }
     if (r.verdict === 'wrong' && effectiveMode !== 'he2en') {
       // A synonym with the same English meaning is not a mistake.
       const syn = synonyms.find((o) => checkHebrew(value, [o.he, ...(o.alt ?? [])]).verdict === 'correct');
       if (syn) r = { verdict: 'close', expected: item.he, note: `“${syn.he}” also means “${item.en}” — the word practised here is ${item.he}.` };
-    }
-    if (r.verdict === 'latin') {
-      setResult(r);
-      return;
     }
     setResult(r);
     if (r.verdict === 'correct') speak(effectiveMode === 'cloze' ? item.ex.he : item.he);
@@ -249,76 +263,87 @@ function Exercise({ task, onNext }: { task: WordTask; onNext: (r: 'right' | 'wro
     onNext('right', 3);
   };
 
-  const done = result && result.verdict !== 'latin';
+  const done = !intro && result && result.verdict !== 'latin';
 
   return (
     <div class="card">
       <div class="row">
-        <span class="badge">
+        <span class={`badge ${intro ? 'warn' : ''}`}>
+          {intro && 'New word'}
           {effectiveMode === 'en2he' && 'English → Hebrew'}
           {effectiveMode === 'he2en' && 'What does it mean?'}
           {effectiveMode === 'listen' && 'Type what you hear'}
           {effectiveMode === 'cloze' && 'Fill the gap'}
         </span>
+        {intro && <span class="badge level">{item.level}</span>}
         {task.retry && <span class="badge warn">again</span>}
+        <div class="spacer" />
+        {intro && <SpeakBtn text={item.he} />}
       </div>
 
-      <div class="prompt-box">
-        {effectiveMode === 'en2he' && (
-          <>
-            <div class="big-en">{item.en}</div>
-            <WordMeta item={item} />
-            {synonyms.length > 0 && (
-              <div class="hint">
-                starts with <span class="he">{item.he[0]}</span>
+      {intro ? (
+        <IntroBody item={item} />
+      ) : (
+        <div class="prompt-box">
+          {effectiveMode === 'en2he' && (
+            <>
+              <div class="big-en">{item.en}</div>
+              <WordMeta item={item} />
+              {synonyms.length > 0 && (
+                <div class="hint">
+                  starts with <span class="he">{item.he[0]}</span>
+                </div>
+              )}
+            </>
+          )}
+          {effectiveMode === 'he2en' && (
+            <>
+              <div class="he he-xl" style={{ textAlign: 'center' }}>
+                {item.he}
               </div>
-            )}
-          </>
-        )}
-        {effectiveMode === 'he2en' && (
-          <>
-            <div class="he he-xl center" style={{ textAlign: 'center' }}>{item.he}</div>
-            <SpeakBtn text={item.he} small />
-          </>
-        )}
-        {effectiveMode === 'listen' && (
-          <>
-            <button class="btn primary" onClick={() => speak(item.he)}>
-              🔊 Play again
-            </button>
-            <button class="btn ghost" onClick={() => speak(item.he, { rate: 0.6 })}>
-              🐢 Slow
-            </button>
-            {done && <div class="mt">{item.en}</div>}
-          </>
-        )}
-        {effectiveMode === 'cloze' && cloze && (
-          <>
-            <div class="he he-lg" dir="rtl">
-              {cloze.before}
-              {cloze.prefix}
-              <span style={{ borderBottom: '2px solid var(--primary)', padding: '0 24px' }}>{done ? cloze.answer : ' '}</span>
-              {cloze.after}
-            </div>
-            <div class="en mt">{item.ex.en}</div>
-            <div class="hint">missing word: “{item.en}”</div>
-          </>
-        )}
-      </div>
+              <SpeakBtn text={item.he} small />
+            </>
+          )}
+          {effectiveMode === 'listen' && (
+            <>
+              <button class="btn primary" onClick={() => speak(item.he)}>
+                🔊 Play again
+              </button>
+              <button class="btn ghost" onClick={() => speak(item.he, { rate: 0.6 })}>
+                🐢 Slow
+              </button>
+              {done && <div class="mt">{item.en}</div>}
+            </>
+          )}
+          {effectiveMode === 'cloze' && cloze && (
+            <>
+              <div class="he he-lg" dir="rtl">
+                {cloze.before}
+                {cloze.prefix}
+                <span style={{ borderBottom: '2px solid var(--primary)', padding: '0 24px' }}>{done ? cloze.answer : ' '}</span>
+                {cloze.after}
+              </div>
+              <div class="en mt">{item.ex.en}</div>
+              <div class="hint">missing word: “{item.en}”</div>
+            </>
+          )}
+        </div>
+      )}
 
       <AnswerInput
         value={value}
         onInput={setValue}
-        onEnter={done ? proceed : check}
+        onEnter={done ? proceed : intro && !value.trim() ? () => onNext('right') : check}
         ltr={effectiveMode === 'he2en'}
         autoFocus
+        placeholder={intro ? 'Type it once to lock it in…' : undefined}
         status={!result ? '' : result.verdict === 'correct' ? 'ok' : result.verdict === 'close' ? 'close' : result.verdict === 'latin' ? '' : 'bad'}
       />
 
       {result && (
         <Feedback
           result={effectiveMode === 'he2en' && result.verdict !== 'correct' ? { ...result, expected: item.en } : result}
-          onOverride={override}
+          onOverride={intro ? undefined : override}
           extra={
             done && (
               <div class="mt" style={{ color: 'var(--text)' }}>
@@ -332,7 +357,16 @@ function Exercise({ task, onNext }: { task: WordTask; onNext: (r: 'right' | 'wro
       )}
 
       <div class="btn-row">
-        {!done ? (
+        {intro ? (
+          <>
+            <button class="btn ghost" onClick={onKnown}>
+              I already know it
+            </button>
+            <button class="btn primary" onClick={() => (value.trim() ? check() : onNext('right'))}>
+              {value.trim() ? 'Check' : 'Got it →'}
+            </button>
+          </>
+        ) : !done ? (
           <>
             <button class="btn ghost" onClick={() => setResult({ verdict: 'wrong', expected: effectiveMode === 'he2en' ? item.en : item.he })}>
               I don't know

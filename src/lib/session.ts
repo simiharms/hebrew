@@ -14,6 +14,7 @@ export interface WordTask {
   mode: WordMode;
   isNew: boolean;
   retry?: boolean;
+  tries?: number; // in-session retries after a wrong answer
 }
 
 export function dueWordCards(now = Date.now()): [string, CardState][] {

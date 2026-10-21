@@ -1,5 +1,5 @@
 import { useState } from 'preact/hooks';
-import { Seg, TopBar, toast } from '../components/ui.tsx';
+import { ConfirmButton, Seg, TopBar, toast } from '../components/ui.tsx';
 import type { Level } from '../content/types.ts';
 import { LEVELS } from '../content/types.ts';
 import { allVocab, grammar, readings, scenes, verbs } from '../lib/content.ts';
@@ -73,8 +73,13 @@ export function MePage() {
   const totalReviews = s.days.reduce((a, d) => a + d.reviews, 0);
   const totalCorrect = s.days.reduce((a, d) => a + d.correct, 0);
 
+  const [exported, setExported] = useState<string | null>(null);
   const doExport = async () => {
     const data = exportState();
+    if (__SINGLE__) {
+      setExported(data);
+      return;
+    }
     const name = `shoresh-backup-${new Date().toISOString().slice(0, 10)}.json`;
     const file = new File([data], name, { type: 'application/json' });
     const nav = navigator as Navigator & { canShare?: (d: unknown) => boolean };
@@ -290,8 +295,8 @@ export function MePage() {
           )}
         </div>
 
-        <div class="section-title">Experimental: on-device AI grading</div>
-        <div class="card small">
+        {!__SINGLE__ && <div class="section-title">Experimental: on-device AI grading</div>}
+        {!__SINGLE__ && <div class="card small">
           <p>
             Downloads a small multilingual neural network (~120 MB, once) that runs <strong>on your phone</strong> and compares the
             meaning of your answers with the model answer — so a correct paraphrase gets credit even without the exact keywords.
@@ -310,11 +315,27 @@ export function MePage() {
             </button>
           )}
           {semErr && <div class="feedback bad">{semErr}</div>}
-        </div>
+        </div>}
 
         <div class="section-title">Backup</div>
         <div class="card small">
           <p>Your progress lives only on this device. Export a backup now and then (e.g. to Files or iCloud Drive).</p>
+          {exported !== null && (
+            <>
+              <textarea class="answer ltr" style={{ fontSize: 12, minHeight: 90 }} readOnly value={exported} onFocus={(e) => (e.target as HTMLTextAreaElement).select()} />
+              <button
+                class="btn small"
+                onClick={() =>
+                  navigator.clipboard
+                    ?.writeText(exported)
+                    .then(() => toast('Copied — paste it into a note or file'))
+                    .catch(() => toast('Select the text above and copy it'))
+                }
+              >
+                Copy backup text
+              </button>
+            </>
+          )}
           <div class="btn-row">
             <button class="btn small" onClick={doExport}>
               ⬇️ Export backup
@@ -324,17 +345,16 @@ export function MePage() {
               <input type="file" accept="application/json,.json" style={{ display: 'none' }} onChange={doImport} />
             </label>
           </div>
-          <button
-            class="btn small ghost mt"
-            onClick={() => {
-              if (confirm('Erase all progress on this device? This cannot be undone.')) {
+          <div class="mt">
+            <ConfirmButton
+              label="Reset everything"
+              confirmLabel="Tap again: erase all progress"
+              onConfirm={() => {
                 resetState();
                 go('onboarding');
-              }
-            }}
-          >
-            Reset everything
-          </button>
+              }}
+            />
+          </div>
         </div>
         <p class="small muted center">
           {vocab.length} words · {verbs.length} verbs · {readings.length} articles · {scenes.length} scenes · {grammar.length} grammar lessons

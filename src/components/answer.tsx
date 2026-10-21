@@ -297,7 +297,7 @@ export function WritingBox({ task, id }: { task: WritingTask; id: string }) {
       </div>
       {showModel && (
         <div class="card tight primary">
-          <div class="row">
+          <div class="pre">
             <HeText text={task.model} />
           </div>
           <SpeakBtn text={task.model} small />
@@ -374,7 +374,7 @@ export function Dictation({ text, gender, onDone }: { text: string; gender?: 'm'
     <div class="card">
       <div class="row">
         <SpeakBtn text={text} gender={gender} label="Play" />
-        <span class="small muted">Type exactly what you hear</span>
+        <span class="small muted">Type exactly what you hear — or repeat it aloud with the keyboard's 🎤 to test your pronunciation</span>
       </div>
       <div class="mt">
         <AnswerInput value={given} onInput={setGiven} onEnter={check} disabled={!!result} />

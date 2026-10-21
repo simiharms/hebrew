@@ -556,7 +556,7 @@
           ]
         }
       ],
-      "model": "שלום לכל הדיירים! ביום רביעי בערב תהיה לי מסיבה קטנה בדירה 7. סליחה מראש על הרעש! המסיבה תיגמר עד 23:00. ומי שצריך עזרה עם הקניות ביום שני, כשהמעלית לא עובדת, יכול לכתוב לי. אשמח לעזור! תודה, אלכס",
+      "model": "שלום לכל הדיירים! ביום רביעי בערב תהיה לי מסיבה קטנה בדירה 7. סליחה מראש על הרעש! המסיבה תיגמר עד 23:00. ומי שצריך עזרה עם הקניות ביום שני, כשהמעלית לא תעבוד, יכול לכתוב לי. אשמח לעזור! תודה, אלכס",
       "modelEn": "Hello to all residents! On Wednesday evening I'm having a small party in apartment 7. Sorry in advance for the noise! The party will end by 23:00. And anyone who needs help with shopping on Monday, when the elevator isn't working, can write to me. I'll be happy to help! Thanks, Alex"
     }
   },
@@ -856,9 +856,9 @@
         ]
       },
       {
-        "q": "למה העירייה פתחה את הקו החדש? כתבו שתי סיבות.",
-        "qEn": "Why did the municipality open the new line? Give two reasons.",
-        "answer": "כי הרבה תושבים ביקשו אותו, וכי יש פקקים בבוקר.",
+        "q": "למה העירייה פותחת את הקו החדש? כתבו שתי סיבות.",
+        "qEn": "Why is the municipality opening the new line? Give two reasons.",
+        "answer": "כי הרבה תושבים ביקשו אותו, וגם כי יש פקקים בבוקר.",
         "answerEn": "Because many residents asked for it, and because there are traffic jams in the morning.",
         "keywords": [
           [
@@ -953,7 +953,7 @@
   {
     "id": "r_a2p_friday_dinner",
     "level": "A2+",
-    "title": "ארוחת שישי הראשונה שלי",
+    "title": "ארוחת השישי הראשונה שלי",
     "titleEn": "My first Friday-night dinner",
     "topic": "social",
     "kind": "blog",
@@ -983,7 +983,7 @@
       },
       {
         "he": "חברה",
-        "en": "(female) friend; girlfriend (also: company)",
+        "en": "(female) friend; girlfriend (same spelling: company, pronounced khevrá)",
         "tr": "khaverá"
       },
       {

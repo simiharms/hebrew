@@ -88,7 +88,7 @@ export function DrillCard({
 
   const check = () => {
     if (!value.trim()) return;
-    const r = checkHebrew(value, drill.answer);
+    const r = checkHebrew(value, drill.answer, { strict: true });
     setResult(r);
     if (r.verdict === 'latin') return;
     const ok = r.verdict !== 'wrong';

@@ -204,7 +204,7 @@
     "writing": {
       "prompt": "חבר שלכם, עומר, מתראיין בשבוע הבא לתפקיד חדש ושאל אתכם איך לדבר על שכר. כתבו לו הודעה עם שלושה טיפים לפחות, והסבירו למה כל טיפ חשוב.",
       "promptEn": "Your friend Omer has a job interview for a new position next week and asked you how to talk about salary. Write him a message with at least three tips, and explain why each tip matters.",
-      "minWords": 50,
+      "minWords": 60,
       "useWords": [
         "טווח",
         "ברוטו",
@@ -300,7 +300,7 @@
       },
       {
         "he": "תואר",
-        "en": "title (also: academic degree)",
+        "en": "title (pl. תארים); also: academic degree",
         "tr": "tó'ar"
       },
       {
@@ -310,12 +310,12 @@
       },
       {
         "he": "להיתפס כ",
-        "en": "to be perceived as",
+        "en": "to be perceived as (נתפס = is perceived)",
         "tr": "lehitapés ke"
       },
       {
         "he": "לבלוט",
-        "en": "to stand out",
+        "en": "to stand out (בולט = stands out)",
         "tr": "livlót"
       },
       {
@@ -345,7 +345,7 @@
       },
       {
         "he": "להיעלב",
-        "en": "to be offended",
+        "en": "to be offended (אל תיעלבו = don't be offended)",
         "tr": "lehe'alév"
       }
     ],
@@ -414,7 +414,7 @@
             "כנים",
             "כנה",
             "אמת",
-            "ישרים"
+            "יושר"
           ],
           [
             "זמן",
@@ -445,7 +445,7 @@
     "writing": {
       "prompt": "עמיתה שלכם מהמשרד בברלין, ליזה, טסה בשבוע הבא לפגישה ראשונה עם שותף עסקי בתל אביב. כתבו לה מייל עם עצות: למה לצפות בפגישה, ואיך כדאי להתנהג.",
       "promptEn": "Your colleague from the Berlin office, Lisa, is flying next week to a first meeting with a business partner in Tel Aviv. Write her an email with advice: what to expect at the meeting, and how best to behave.",
-      "minWords": 50,
+      "minWords": 55,
       "useWords": [
         "שם פרטי",
         "ישיר",
@@ -500,7 +500,7 @@
     "paragraphs": [
       {
         "he": "עובדות ועובדים יקרים, שלום רב. כפי שידוע לכם, החברה גדלה מאוד בשנתיים האחרונות: מספר הלקוחות שלנו הוכפל, ופתחנו סניף חדש בחיפה. זו בשורה טובה, אבל צמיחה מהירה מחייבת גם שינויים. ברצוני לעדכן אתכם על שני שינויים משמעותיים שייכנסו לתוקף ברבעון הבא.",
-        "en": "Dear employees, warm greetings. As you know, the company has grown a great deal over the past two years: the number of our customers has doubled, and we've opened a new branch in Haifa. This is good news, but rapid growth also requires changes. I would like to update you on two significant changes that will take effect next quarter."
+        "en": "Dear employees, greetings to you all. As you know, the company has grown a great deal over the past two years: the number of our customers has doubled, and we've opened a new branch in Haifa. This is good news, but rapid growth also requires changes. I would like to update you on two significant changes that will take effect next quarter."
       },
       {
         "he": "השינוי הראשון נוגע למבנה הארגוני. במקום שלוש מחלקות נפרדות – מכירות, שיווק ושירות לקוחות – תוקם חטיבה אחת, \"חטיבת לקוחות\", בראשות אבי מזרחי. המטרה היא לקצר את תהליכי קבלת ההחלטות ולמנוע כפילויות בעבודה. ראשי הצוותים ידווחו ישירות לאבי, וכל העובדים במחלקות אלה ייפגשו עם המנהלים הישירים שלהם לשיחה אישית במהלך השבועיים הקרובים. חשוב לי להדגיש: אף עובד לא יפוטר במסגרת השינוי.",
@@ -795,7 +795,7 @@
       },
       {
         "he": "להקיש",
-        "en": "to press (a key), to type in",
+        "en": "to press (a key), to dial (הקישו = press!)",
         "tr": "lehakísh"
       },
       {
@@ -937,9 +937,9 @@
       }
     ],
     "writing": {
-      "prompt": "גם לכם הייתה חוויה דומה עם חברת אינטרנט. כתבו מייל תלונה קצר לשירות הלקוחות: תארו מה קרה, הסבירו למה אתם לא מרוצים ובקשו פתרון ברור.",
-      "promptEn": "You had a similar experience with an internet company. Write a short complaint email to customer service: describe what happened, explain why you're not satisfied and ask for a clear solution.",
-      "minWords": 50,
+      "prompt": "דמיינו שגם לכם הייתה חוויה דומה עם חברת אינטרנט. כתבו מייל תלונה קצר לשירות הלקוחות: תארו מה קרה, הסבירו למה אתם לא מרוצים ובקשו פתרון ברור.",
+      "promptEn": "Imagine you had a similar experience with an internet company. Write a short complaint email to customer service: describe what happened, explain why you're not satisfied and ask for a clear solution.",
+      "minWords": 45,
       "useWords": [
         "מנוי",
         "נציג",
@@ -1004,12 +1004,12 @@
         "en": "\"When we started, everyone told us: if you want to raise money, move to Tel Aviv,\" Avraham told us. \"We decided to stay in the Negev, and today I can say proudly that it was the right decision.\" According to her, being close to the farmers allows the team to test every new product in real conditions, not just in the lab."
       },
       {
-        "he": "כיום מועסקים בחברה 35 עובדים, ובכוונתה להכפיל את המספר הזה עד סוף השנה הבאה. \"אנחנו מחפשים מהנדסי תוכנה, אנשי דאטה ואנשי מכירות,\" אומר נחום, \"אבל לא רק אנשים עם ניסיון. אם מישהו מוכשר ובאמת רוצה ללמוד, יהיה לו מקום אצלנו.\" חלק מהמשרות יהיו היברידיות, עם שני ימי עבודה מהבית בשבוע, והן כבר מפורסמות באתר החברה.",
-        "en": "Today the company employs 35 people, and it intends to double that number by the end of next year. \"We're looking for software engineers, data people and salespeople,\" says Nahum, \"but not only people with experience. If someone is talented and really wants to learn, there will be a place for them with us.\" Some of the positions will be hybrid, with two days a week working from home, and they are already posted on the company's website."
+        "he": "כיום מועסקים בחברה 35 עובדים, ובכוונתה להכפיל את המספר הזה עד סוף השנה הבאה. \"אנחנו מחפשים מהנדסי תוכנה, אנשי דאטה ואנשי מכירות,\" אומר נחום, \"אבל לא רק אנשים עם ניסיון. אם מישהו מוכשר ובאמת רוצה ללמוד, יהיה לו מקום אצלנו.\" חלק מהמשרות יהיו היברידיות, עם שני ימי עבודה מהבית בשבוע, והן כבר מפורסמות באתר החברה. בנוסף, החברה תפתח בקיץ תוכנית התמחות בתשלום לסטודנטים מהאזור.",
+        "en": "Today the company employs 35 people, and it intends to double that number by the end of next year. \"We're looking for software engineers, data people and salespeople,\" says Nahum, \"but not only people with experience. If someone is talented and really wants to learn, there will be a place for them with us.\" Some of the positions will be hybrid, with two days a week working from home, and they are already posted on the company's website. In addition, this summer the company will launch a paid internship program for students from the region."
       },
       {
-        "he": "בשלב הבא מתכננת החברה לפתוח משרד מכירות באירופה ולהתחיל פיילוטים עם חקלאים בכמה מדינות חדשות. \"ההשקעה היא הבעת אמון גדולה בנו,\" סיכמה אברהם, \"אבל אנחנו יודעים שהעבודה האמיתית מתחילה עכשיו.\"",
-        "en": "In the next stage, the company plans to open a sales office in Europe and to start pilots with farmers in several new countries. \"The investment is a big vote of confidence in us,\" Avraham summed up, \"but we know that the real work starts now.\""
+        "he": "בשלב הבא מתכננת החברה לפתוח משרד מכירות באירופה ולהתחיל פיילוטים עם חקלאים בכמה מדינות חדשות. לדברי נחום, חלק מהכסף ישמש גם לתרגום האפליקציה לשפות נוספות, כדי שחקלאים בכל העולם יוכלו להשתמש בה. \"ההשקעה היא הבעת אמון גדולה בנו,\" סיכמה אברהם, \"אבל אנחנו יודעים שהעבודה האמיתית מתחילה עכשיו.\"",
+        "en": "In the next stage, the company plans to open a sales office in Europe and to start pilots with farmers in several new countries. According to Nahum, part of the money will also go toward translating the app into more languages, so that farmers all over the world can use it. \"The investment is a big vote of confidence in us,\" Avraham summed up, \"but we know that the real work starts now.\""
       }
     ],
     "glossary": [
@@ -1148,11 +1148,18 @@
           [
             "בלי",
             "ללא",
-            "חסרי"
+            "חסרי",
+            "אין ניסיון",
+            "מתחילים",
+            "סטודנטים"
           ],
           [
             "לקבל",
+            "מקבלים",
+            "מקבל",
+            "יקבלו",
             "יתקבלו",
+            "מתקבלים",
             "להתקבל",
             "לעבוד",
             "יעבדו",
@@ -1239,11 +1246,11 @@
     "paragraphs": [
       {
         "he": "שאלו כל זוג צעיר בישראל מה מדאיג אותו, וסביר להניח שתשמעו שתי מילים: \"סוף החודש\". שכר דירה, מעון לילדים, קניות בסופר, דלק, חשבונות – ולפני שמספיקים לשים לב, חשבון הבנק כבר במינוס. אז איך משפחות צעירות מצליחות לגמור את החודש? שוחחנו עם כמה מהן, וגם עם יועצת כלכלית.",
-        "en": "Ask any young couple in Israel what worries them, and you'll most likely hear three words: \"the end of the month\". Rent, daycare for the kids, supermarket shopping, fuel, bills – and before you even notice, the bank account is already in overdraft. So how do young families manage to make ends meet? We talked to a few of them, and to a financial advisor as well."
+        "en": "Ask any young couple in Israel what worries them, and you'll most likely hear two words: \"sof ha-chodesh\" – \"the end of the month\". Rent, daycare for the kids, supermarket shopping, fuel, bills – and before you even notice, the bank account is already in overdraft. So how do young families manage to make ends meet? We talked to a few of them, and to a financial advisor as well."
       },
       {
         "he": "נוי ואלון, בני שלושים וקצת מראשון לציון, הם הורים לשני ילדים קטנים. היא מורה, הוא טכנאי מחשבים. \"שנינו עובדים במשרה מלאה ומרוויחים לא רע,\" מספרת נוי, \"אבל כל חודש מחדש מצאנו את עצמנו במינוס, ולא הבנו לאן הכסף נעלם.\" לפני שנה הם החליטו שנמאס להם: הם ישבו ערב אחד מול המחשב ורשמו את כל ההוצאות שלהם, אפילו את הקטנות ביותר.",
-        "en": "Noy and Alon, thirty-somethings from Rishon LeZion, are the parents of two small children. She's a teacher, he's a computer technician. \"We both work full-time and don't earn badly,\" says Noy, \"but month after month we found ourselves in overdraft, and we didn't understand where the money was disappearing to.\" A year ago they decided they'd had enough: they sat down one evening in front of the computer and wrote down all their expenses, even the smallest ones."
+        "en": "Noy and Alon, thirty-somethings from Rishon LeZion, are the parents of two small children. She's a teacher, he's a computer technician. \"We both work full-time and make decent money,\" says Noy, \"but month after month we found ourselves in overdraft, and we didn't understand where the money was disappearing to.\" A year ago they decided they'd had enough: they sat down one evening in front of the computer and wrote down all their expenses, even the smallest ones."
       },
       {
         "he": "התוצאות הפתיעו אותם. \"גילינו שאנחנו מוציאים המון על משלוחים של אוכל ועל מנויים שאף אחד לא משתמש בהם,\" אומר אלון. מאז הם מתכננים מראש מה יאכלו בכל שבוע, עושים קנייה גדולה אחת בשבוע עם רשימה מסודרת, קונים לילדים בגדים יד שנייה ועברו לחבילה סלולרית זולה יותר. \"לא כיף לוותר על דברים,\" הוא מודה, \"אבל להיות במינוס זה הרבה פחות כיף.\"",
@@ -1254,8 +1261,8 @@
         "en": "Orit Sagi, a financial advisor who works with young families, isn't surprised. \"Most people don't know where their money goes,\" she says. \"If you don't write down your expenses, you get surprised all over again at the end of every month.\" Her most important piece of advice: transfer a fixed sum to savings the moment your salary comes in, and don't wait for the end of the month. \"Even a small sum helps build a safety cushion for an unexpected expense, like a car repair or a visit to the dentist.\""
       },
       {
-        "he": "לא כולם משוכנעים שזה מספיק. משפחות רבות טוענות שבלי עזרה מההורים כמעט אי אפשר לחסוך לדירה, גם אם מתכננים כל שקל. נוי מסכימה, אבל מבחינתה השינוי הגדול הוא בראש. \"אנחנו לא עשירים,\" היא אומרת, \"אבל היום אנחנו ישנים טוב יותר בלילה. אם יש חודש עם הוצאה גדולה, לפחות אנחנו לא נכנסים ללחץ.\"",
-        "en": "Not everyone is convinced that's enough. Many families argue that without help from their parents it's almost impossible to save for an apartment, even if you plan every shekel. Noy agrees, but for her the big change is in the mindset. \"We're not rich,\" she says, \"but today we sleep better at night. If there's a month with a big expense, at least we don't panic.\""
+        "he": "לא כולם משוכנעים שזה מספיק מול יוקר המחיה. משפחות רבות טוענות שבלי עזרה מההורים כמעט אי אפשר לחסוך לדירה, גם אם מתכננים כל שקל. נוי מסכימה, אבל מבחינתה השינוי הגדול הוא בראש. \"אנחנו לא עשירים,\" היא אומרת, \"אבל היום אנחנו ישנים טוב יותר בלילה. אם יש חודש עם הוצאה גדולה, לפחות אנחנו לא נכנסים ללחץ.\"",
+        "en": "Not everyone is convinced that's enough, given the cost of living. Many families argue that without help from their parents it's almost impossible to save for an apartment, even if you plan every shekel. Noy agrees, but for her the big change is in the mindset. \"We're not rich,\" she says, \"but today we sleep better at night. If there's a month with a big expense, at least we don't panic.\""
       }
     ],
     "glossary": [
@@ -1421,7 +1428,7 @@
     "writing": {
       "prompt": "קולגה חדש בצוות שלכם, ז׳וליאן, עבר לישראל עם המשפחה שלו. הוא אומר שהכול כאן יקר ושואל איך משפחות צעירות מסתדרות. כתבו לו הודעה עם שלוש עצות לפחות, והסבירו למה כל עצה עוזרת.",
       "promptEn": "A new colleague on your team, Julien, has moved to Israel with his family. He says everything here is expensive and asks how young families manage. Write him a message with at least three tips, and explain why each tip helps.",
-      "minWords": 50,
+      "minWords": 55,
       "useWords": [
         "הוצאה",
         "חיסכון",

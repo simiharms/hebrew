@@ -1,0 +1,2160 @@
+[
+  {
+    "id": "g_smichut",
+    "level": "B1",
+    "title": "Construct state (smichut)",
+    "titleHe": "סמיכות",
+    "summary": "Join two nouns into one unit — חדר ישיבות, ישיבת צוות — and put ה in the right place.",
+    "sections": [
+      {
+        "h": "Two nouns, one idea",
+        "body": "Hebrew often glues two nouns into one unit called סמיכות (smikhút). The first noun says what the thing is, the second one narrows it down — the opposite order from English:\n• בית ספר (beit séfer) — school (lit. “house of book”)\n• חדר ישיבות (khéder yeshivót) — meeting room\n• מנהל מכירות (menahél mekhirót) — sales manager\n• כרטיס אשראי (kartís ashrái) — credit card\n• שעות עבודה (she'ót avodá) — working hours\nThe second noun never changes. Only the first one can change its form, and in speech its vowels often shorten: báyit → beit, sha'ót → she'ót."
+      },
+      {
+        "h": "What changes in the first noun",
+        "body": "• Feminine -ה becomes -ת: ישיבה → ישיבת צוות (team meeting), פגישה → פגישת עבודה (work meeting), חברה → חברת ביטוח (insurance company).\n• Masculine plural -ים becomes -י: עובדים → עובדי החברה (the company's employees), מנהלים → מנהלי פרויקטים (project managers), חדרים → חדרי ישיבות (meeting rooms).\n• Feminine plural -ות stays the same: שעות עבודה, ישיבות צוות.\n• Everything else keeps its spelling, even when the vowels shift: בית ספר, שדה תעופה (airport). שדה is masculine, so its final ה does not turn into ת.",
+        "table": [
+          [
+            "Noun",
+            "In smichut",
+            "Example",
+            "Meaning"
+          ],
+          [
+            "ישיבה (yeshivá)",
+            "ישיבת (yeshivát)",
+            "ישיבת צוות",
+            "team meeting"
+          ],
+          [
+            "מחלקה (makhlaká)",
+            "מחלקת (makhléket)",
+            "מחלקת שיווק",
+            "marketing department"
+          ],
+          [
+            "חברה (khevrá)",
+            "חברת (khevrát)",
+            "חברת ביטוח",
+            "insurance company"
+          ],
+          [
+            "עובדים (ovdím)",
+            "עובדי (ovdéi)",
+            "עובדי החברה",
+            "the company's employees"
+          ],
+          [
+            "חדרים (khadarím)",
+            "חדרי (khadréi)",
+            "חדרי ישיבות",
+            "meeting rooms"
+          ],
+          [
+            "בית (báyit)",
+            "בית (beit)",
+            "בית ספר",
+            "school"
+          ]
+        ]
+      },
+      {
+        "h": "Where does ה go?",
+        "body": "To make the whole unit definite (“the …”), put ה on the second noun only — never on the first:\n• חדר ישיבות — a meeting room → חדר הישיבות — the meeting room\n• ישיבת צוות — a team meeting → ישיבת הצוות — the team meeting\n• בית ספר — a school → בית הספר — the school\nA preposition attaches to the first noun, and ה stays on the second: בחדר הישיבות (in the meeting room). After את, or with a possessive של, use the definite form: שכחתי את כרטיס האשראי שלי (I forgot my credit card).\nIn casual speech you'll hear הבית ספר or התעודת זהות all the time, but at work and in writing use the standard forms: בית הספר, תעודת הזהות."
+      },
+      {
+        "h": "Smichut or של?",
+        "body": "Possession can be expressed both ways: המשרד של המנהלת = משרד המנהלת (the manager's office).\n• Fixed compound nouns — names for a kind of thing — are always smichut: חדר ישיבות, כרטיס ביקור (business card), מספר טלפון. Nobody says “חדר של ישיבות”.\n• For who owns a specific thing, של is the natural choice in conversation: הרכב של דנה, הלקוחות שלנו.\n• In writing, news and business documents smichut is very common and sounds more formal: רכב החברה (the company car), מנכ״ל החברה (the company's CEO), תוצאות הרבעון (the quarter's results)."
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "יש לנו ___ כל יום ראשון בעשר. (ישיבה + צוות)",
+        "en": "We have a team meeting every Sunday at ten.",
+        "answer": [
+          "ישיבת צוות"
+        ],
+        "hint": "-ה → -ת",
+        "explain": "In smichut, a feminine first noun ending in -ה changes to -ת: ישיבה → ישיבת."
+      },
+      {
+        "prompt": "קבענו ___ עם הספק ליום שלישי. (פגישה + עבודה)",
+        "en": "We set up a work meeting with the supplier for Tuesday.",
+        "answer": [
+          "פגישת עבודה"
+        ],
+        "hint": "-ה → -ת",
+        "explain": "פגישה is the first noun, so its -ה becomes -ת: פגישת עבודה."
+      },
+      {
+        "prompt": "___ תפוס עד שתיים. (חדר + ישיבות, definite: “the meeting room”)",
+        "en": "The meeting room is taken until two.",
+        "answer": [
+          "חדר הישיבות"
+        ],
+        "hint": "ה on the second noun",
+        "explain": "In smichut the definite article goes only on the second noun: חדר הישיבות."
+      },
+      {
+        "prompt": "כל ___ קיבלו בונוס בסוף השנה. (עובדים + החברה)",
+        "en": "All the company's employees got a bonus at the end of the year.",
+        "answer": [
+          "עובדי החברה"
+        ],
+        "hint": "-ים → -י",
+        "explain": "A masculine plural first noun drops its final ם: עובדים → עובדי."
+      },
+      {
+        "prompt": "דנה מנהלת ___ גדולה. (חברה + ביטוח)",
+        "en": "Dana runs a big insurance company.",
+        "answer": [
+          "חברת ביטוח"
+        ],
+        "hint": "-ה → -ת",
+        "explain": "חברה becomes חברת in smichut, and the adjective גדולה agrees with חברה, the first noun."
+      },
+      {
+        "prompt": "אנחנו מחפשים שני ___ מנוסים. (מנהלים + פרויקטים)",
+        "en": "We're looking for two experienced project managers.",
+        "answer": [
+          "מנהלי פרויקטים"
+        ],
+        "hint": "-ים → -י",
+        "explain": "מנהלים becomes מנהלי when it is the first noun of a smichut."
+      },
+      {
+        "prompt": "שכחתי את ___ שלי בבית. (כרטיס + אשראי, definite)",
+        "en": "I forgot my credit card at home.",
+        "answer": [
+          "כרטיס האשראי"
+        ],
+        "hint": "את needs a definite noun",
+        "explain": "After את the unit must be definite, and the ה goes on the second noun: כרטיס האשראי."
+      },
+      {
+        "prompt": "___ שלנו מתשע עד שש. (שעות + עבודה, definite)",
+        "en": "Our working hours are from nine to six.",
+        "answer": [
+          "שעות העבודה"
+        ],
+        "hint": "-ות stays the same",
+        "explain": "A feminine plural in -ות doesn't change; you only add ה to the second noun."
+      },
+      {
+        "prompt": "___ של הילדים מתחיל בשמונה. (בית + ספר, definite)",
+        "en": "The kids' school starts at eight.",
+        "answer": [
+          "בית הספר"
+        ],
+        "hint": "Not הבית ספר",
+        "explain": "Standard Hebrew puts the ה on the second noun — בית הספר — even though you'll hear הבית ספר in casual speech."
+      },
+      {
+        "prompt": "___ רחוק מהעיר. (שדה + תעופה, definite)",
+        "en": "The airport is far from the city.",
+        "answer": [
+          "שדה התעופה"
+        ],
+        "hint": "שדה is masculine",
+        "explain": "שדה is masculine, so its final ה stays, and only the second noun gets the article: שדה התעופה."
+      },
+      {
+        "prompt": "___ נמצא בקומה השלישית. (משרד + המנהלת)",
+        "en": "The manager's office is on the third floor.",
+        "answer": [
+          "משרד המנהלת"
+        ],
+        "hint": "No ה on the first noun",
+        "explain": "Smichut can replace של: המשרד של המנהלת = משרד המנהלת."
+      },
+      {
+        "prompt": "המנכ״לית ביקשה לדבר עם כל ___. (מנהלים + המחלקות)",
+        "en": "The CEO asked to speak with all the department managers.",
+        "answer": [
+          "מנהלי המחלקות"
+        ],
+        "hint": "-ים → -י",
+        "explain": "The first noun drops its ם (מנהלי) and the ה stays on the second noun (המחלקות)."
+      }
+    ]
+  },
+  {
+    "id": "g_numbers",
+    "level": "B1",
+    "title": "Numbers and gender",
+    "titleHe": "מספרים: זכר ונקבה",
+    "summary": "Count with the right gender — שלושה עובדים, שלוש פגישות — plus dual forms, the time and prices.",
+    "sections": [
+      {
+        "h": "1–10: the “upside-down” rule",
+        "body": "Numbers agree with the noun's gender — and the endings look upside down: with masculine nouns the number ends in -ה, with feminine nouns it doesn't.\n• שלושה עובדים (shloshá ovdím) — three employees (עובד is masculine)\n• שלוש פגישות (shalósh pgishót) — three meetings (פגישה is feminine)\n• 1 comes after the noun and agrees with it: עובד אחד, פגישה אחת.\n• 2 has a short form before a noun: שני עובדים, שתי פגישות. The full forms שניים / שתיים are used on their own (כמה? — שניים) and inside bigger numbers.\n• All the other numbers come before the noun.\nGender comes from the singular noun, not from the plural ending: שנה (year) is feminine, so שלוש שנים; לילה (night) is masculine, so שלושה לילות. Also watch: שלושה מקומות (m), שני רעיונות (m), שתי מילים (f), שלוש פעמים (f).",
+        "table": [
+          [
+            "",
+            "With masculine nouns",
+            "With feminine nouns"
+          ],
+          [
+            "1",
+            "עובד אחד (ekhád)",
+            "פגישה אחת (akhát)"
+          ],
+          [
+            "2",
+            "שני עובדים (shnei)",
+            "שתי פגישות (shtei)"
+          ],
+          [
+            "3",
+            "שלושה (shloshá)",
+            "שלוש (shalósh)"
+          ],
+          [
+            "4",
+            "ארבעה (arba'á)",
+            "ארבע (árba)"
+          ],
+          [
+            "5",
+            "חמישה (khamishá)",
+            "חמש (khámesh)"
+          ],
+          [
+            "6",
+            "שישה (shishá)",
+            "שש (shesh)"
+          ],
+          [
+            "7",
+            "שבעה (shiv'á)",
+            "שבע (shéva)"
+          ],
+          [
+            "8",
+            "שמונה (shmoná)",
+            "שמונה (shmóne)"
+          ],
+          [
+            "9",
+            "תשעה (tish'á)",
+            "תשע (tésha)"
+          ],
+          [
+            "10",
+            "עשרה (asará)",
+            "עשר (éser)"
+          ]
+        ]
+      },
+      {
+        "h": "11–19, tens, hundreds and thousands",
+        "body": "11–19 have a masculine set ending in עשר (asár) and a feminine set ending in עשרה (esré). The feminine set is the one you'll hear most, because it's also used for plain counting, the time and prices: שלושה עשר עובדים, but שלוש עשרה פגישות.\n• Tens are the same for both genders: עשרים, שלושים, ארבעים, חמישים, שישים, שבעים, שמונים, תשעים.\n• In compounds ו goes before the last part, and the unit agrees with the noun: עשרים ושלושה עובדים, עשרים ושלוש פגישות. Inside a compound, 2 uses the full form: עשרים ושניים עובדים, עשרים ושתיים פגישות.\n• Hundreds: מאה is feminine, so 300 is שלוש מאות whatever the noun; 200 is the dual מאתיים (matáyim).\n• Thousands: אלף, the dual אלפיים (alpáyim) for 2,000, then שלושת אלפים, ארבעת אלפים … עשרת אלפים; from 11,000 on it's singular אלף again: אחד עשר אלף, מאה אלף.\nExample: ₪1,250 = אלף מאתיים וחמישים שקל.",
+        "table": [
+          [
+            "",
+            "Masculine",
+            "Feminine"
+          ],
+          [
+            "11",
+            "אחד עשר",
+            "אחת עשרה"
+          ],
+          [
+            "12",
+            "שנים עשר",
+            "שתים עשרה"
+          ],
+          [
+            "13",
+            "שלושה עשר",
+            "שלוש עשרה"
+          ],
+          [
+            "14",
+            "ארבעה עשר",
+            "ארבע עשרה"
+          ],
+          [
+            "15",
+            "חמישה עשר",
+            "חמש עשרה"
+          ],
+          [
+            "16",
+            "שישה עשר",
+            "שש עשרה"
+          ],
+          [
+            "17",
+            "שבעה עשר",
+            "שבע עשרה"
+          ],
+          [
+            "18",
+            "שמונה עשר",
+            "שמונה עשרה"
+          ],
+          [
+            "19",
+            "תשעה עשר",
+            "תשע עשרה"
+          ]
+        ]
+      },
+      {
+        "h": "Dual forms: two days, two weeks, twice",
+        "body": "A few common time words (plus 100 and 1,000) have a special “dual” form ending in -יים, used instead of שני / שתי:\n• יום → יומיים (yomáyim) — two days\n• שבוע → שבועיים (shvu'áyim) — two weeks\n• חודש → חודשיים (khodsháyim) — two months\n• שנה → שנתיים (shnatáyim) — two years\n• שעה → שעתיים (sha'atáyim) — two hours\n• פעם → פעמיים (pa'amáyim) — twice\n• מאה → מאתיים — 200; אלף → אלפיים — 2,000\nSo it's הפרויקט ייקח שבועיים rather than שני שבועות. With other nouns use שני / שתי as usual: שני חדרים, שתי דקות."
+      },
+      {
+        "h": "Time, prices — and what you'll hear on the street",
+        "body": "Time uses the feminine numbers (שעה is feminine):\n• השעה שלוש (3:00), שלוש ורבע (3:15), שלוש וחצי (3:30), רבע לארבע (3:45), עשרים לחמש (4:40)\n• באחת, בשתיים, באחת עשרה, בשתים עשרה בצהריים\nPrices: שקל is masculine and אגורה is feminine (חמישים אגורות is half a shekel, also called חצי שקל). Formally, ₪12.50 is שנים עשר שקלים וחמישים אגורות; in everyday speech people say שתים עשרה וחצי or שתים עשרה חמישים. After a number you'll often hear singular שקל: מאה שקל, חמישים שקל.\nOn the street: many Israelis use the feminine forms for everything — “שלוש שקלים”, “חמש אחוז”, “שלוש ילדים”, “חמש אלף”. It's extremely common in casual speech, but in meetings, presentations and anything written use the correct forms: שלושה שקלים, חמישה אחוזים, שלושה ילדים, חמשת אלפים. Getting this right makes you sound educated."
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "יש לנו ___ בשבוע הבא. (3, פגישה)",
+        "en": "We have three meetings next week.",
+        "answer": [
+          "שלוש פגישות"
+        ],
+        "hint": "פגישה is feminine",
+        "explain": "With a feminine noun the number has no -ה: שלוש פגישות."
+      },
+      {
+        "prompt": "בצוות שלי יש ___. (5, עובד)",
+        "en": "There are five employees on my team.",
+        "answer": [
+          "חמישה עובדים"
+        ],
+        "hint": "עובד is masculine",
+        "explain": "With a masculine noun the number ends in -ה: חמישה עובדים."
+      },
+      {
+        "prompt": "הזמנתי ___ לישיבה. (2, לקוח)",
+        "en": "I invited two clients to the meeting.",
+        "answer": [
+          "שני לקוחות"
+        ],
+        "hint": "Short form, masculine",
+        "explain": "Before a masculine noun 2 is שני — the plural לקוחות ends in -ות, but לקוח is masculine."
+      },
+      {
+        "prompt": "קיבלנו ___ מספקים שונים. (2, הצעה)",
+        "en": "We received two offers from different suppliers.",
+        "answer": [
+          "שתי הצעות"
+        ],
+        "hint": "Short form, feminine",
+        "explain": "Before a feminine noun 2 is שתי, not שתיים."
+      },
+      {
+        "prompt": "הפרויקט ייקח בערך ___. (2, שבוע)",
+        "en": "The project will take about two weeks.",
+        "answer": [
+          "שבועיים"
+        ],
+        "hint": "Dual form",
+        "explain": "For two days, weeks, months, years or hours Hebrew uses the dual form: שבועיים."
+      },
+      {
+        "prompt": "אני עובדת בחברה הזאת כבר ___. (7, שנה)",
+        "en": "I've been working at this company for seven years.",
+        "answer": [
+          "שבע שנים"
+        ],
+        "hint": "שנה is feminine",
+        "explain": "שנה is feminine even though its plural ends in -ים, so it's שבע שנים."
+      },
+      {
+        "prompt": "הזמנו ___ במלון באילת. (3, לילה)",
+        "en": "We booked three nights at a hotel in Eilat.",
+        "answer": [
+          "שלושה לילות"
+        ],
+        "hint": "לילה is masculine",
+        "explain": "לילה is masculine even though its plural ends in -ות, so it's שלושה לילות."
+      },
+      {
+        "prompt": "הישיבה מתחילה בשעה ___. (3:15)",
+        "en": "The meeting starts at a quarter past three.",
+        "answer": [
+          "שלוש ורבע"
+        ],
+        "hint": "Hours are feminine",
+        "explain": "Telling the time uses the feminine numbers, and “a quarter past” is ורבע."
+      },
+      {
+        "prompt": "הרכבת שלי יוצאת ב___. (3:45)",
+        "en": "My train leaves at a quarter to four.",
+        "answer": [
+          "רבע לארבע",
+          "שלוש ארבעים וחמש"
+        ],
+        "hint": "A quarter to the next hour",
+        "explain": "“A quarter to” is רבע ל + the next hour: רבע לארבע."
+      },
+      {
+        "prompt": "המנוי עולה ___ לחודש. (300, שקל)",
+        "en": "The subscription costs 300 shekels a month.",
+        "answer": [
+          "שלוש מאות שקל",
+          "שלוש מאות שקלים"
+        ],
+        "hint": "מאה is feminine",
+        "explain": "מאה is feminine, so 300 is always שלוש מאות; after it both שקל and שקלים are fine."
+      },
+      {
+        "prompt": "יש בבניין ___. (23, דירה)",
+        "en": "There are 23 apartments in the building.",
+        "answer": [
+          "עשרים ושלוש דירות"
+        ],
+        "hint": "ו before the last part",
+        "explain": "In a compound ו comes before the last number, which agrees with the noun: דירה is feminine, so שלוש."
+      },
+      {
+        "prompt": "קיבלנו הנחה של ___. (5, אחוז — the correct written form)",
+        "en": "We got a five percent discount.",
+        "answer": [
+          "חמישה אחוזים"
+        ],
+        "hint": "אחוז is masculine",
+        "explain": "אחוז is masculine, so the correct form is חמישה אחוזים, even though you'll often hear חמש אחוז in speech."
+      }
+    ]
+  },
+  {
+    "id": "g_adjectives",
+    "level": "A2+",
+    "title": "Adjectives: agreement and definiteness",
+    "titleHe": "שם התואר: התאמה ויידוע",
+    "summary": "The adjective follows the noun and copies its gender, number — and its ה.",
+    "sections": [
+      {
+        "h": "After the noun, matching gender and number",
+        "body": "Adjectives come after the noun and have four forms — masculine or feminine, singular or plural:\n• פרויקט חשוב — an important project\n• פגישה חשובה — an important meeting\n• פרויקטים חשובים — important projects\n• פגישות חשובות — important meetings\nAdjectives ending in -י add -ת for the feminine and -יים for the masculine plural: כלכלי, כלכלית, כלכליים, כלכליות (economic).\nThe adjective follows the noun's real gender, not its plural ending: שנים רבות (many years — שנה is feminine), רעיונות טובים (good ideas — רעיון is masculine), מקומות פנויים (free seats).",
+        "table": [
+          [
+            "Meaning",
+            "m. sg.",
+            "f. sg.",
+            "m. pl.",
+            "f. pl."
+          ],
+          [
+            "new",
+            "חדש",
+            "חדשה",
+            "חדשים",
+            "חדשות"
+          ],
+          [
+            "important",
+            "חשוב",
+            "חשובה",
+            "חשובים",
+            "חשובות"
+          ],
+          [
+            "difficult",
+            "קשה",
+            "קשה",
+            "קשים",
+            "קשות"
+          ],
+          [
+            "free, available",
+            "פנוי",
+            "פנויה",
+            "פנויים",
+            "פנויות"
+          ],
+          [
+            "economic",
+            "כלכלי",
+            "כלכלית",
+            "כלכליים",
+            "כלכליות"
+          ]
+        ]
+      },
+      {
+        "h": "ה on both: הפגישה החשובה",
+        "body": "When the noun is definite, the adjective gets ה too:\n• פגישה חשובה — an important meeting\n• הפגישה החשובה — the important meeting\n• הפגישה חשובה — the meeting is important (a full sentence!)\nThat last line is the key: an adjective without ה after a definite noun is not a description but a statement. Compare הלקוח החדש (the new client) with הלקוח חדש (the client is new).\nWatch for the ה hidden in ב, ל, כ: בפגישה = ב + ה + פגישה, so it's בפגישה החשובה (at the important meeting). A possessive comes after the adjective: הלקוח החדש שלנו (our new client).\nDemonstratives work the same way: הפרויקט הזה (this project), הפגישה הזאת (this meeting), הלקוחות האלה (these clients)."
+      },
+      {
+        "h": "Smichut + adjective",
+        "body": "With a smichut, the adjective comes after the whole unit but agrees with the first noun (the head). If the smichut is definite — ה on the second noun — the adjective gets ה as well:\n• ישיבת צוות חשובה — an important team meeting (חשובה agrees with ישיבה)\n• ישיבת הצוות החשובה — the important team meeting\n• חדר הישיבות הגדול — the big meeting room (גדול agrees with חדר)\nGender can tell you what the adjective describes: ישיבת הצוות החדשה is “the new team meeting”, while ישיבת הצוות החדש is “the meeting of the new team”."
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "אנחנו מחפשים מנהלת ___ למחלקת השיווק. (חדש)",
+        "en": "We're looking for a new (female) manager for the marketing department.",
+        "answer": [
+          "חדשה"
+        ],
+        "hint": "מנהלת is feminine",
+        "explain": "The adjective agrees with the noun: מנהלת is feminine singular, so חדשה."
+      },
+      {
+        "prompt": "אלה החלטות ___ מאוד. (קשה)",
+        "en": "These are very difficult decisions.",
+        "answer": [
+          "קשות"
+        ],
+        "hint": "החלטה is feminine",
+        "explain": "החלטות is feminine plural, so the adjective is קשות."
+      },
+      {
+        "prompt": "שלחתי לך את המסמכים ___ במייל. (חדש)",
+        "en": "I sent you the new documents by email.",
+        "answer": [
+          "החדשים"
+        ],
+        "hint": "The noun has ה",
+        "explain": "A definite noun needs a definite adjective: המסמכים החדשים."
+      },
+      {
+        "prompt": "הפגישה ___ נדחתה ליום רביעי. (חשוב)",
+        "en": "The important meeting was postponed to Wednesday.",
+        "answer": [
+          "החשובה"
+        ],
+        "hint": "ה on both",
+        "explain": "Here the adjective describes the noun, so it copies the ה: הפגישה החשובה."
+      },
+      {
+        "prompt": "הפגישה ___. (חשוב — as a full sentence: “the meeting is important”)",
+        "en": "The meeting is important.",
+        "answer": [
+          "חשובה"
+        ],
+        "hint": "No ה = “is”",
+        "explain": "An adjective without ה after a definite noun makes a sentence: הפגישה חשובה = the meeting is important."
+      },
+      {
+        "prompt": "בפגישה ___ דיברנו על התקציב. (אחרון)",
+        "en": "At the last meeting we talked about the budget.",
+        "answer": [
+          "האחרונה"
+        ],
+        "hint": "ה is hidden in ב",
+        "explain": "בפגישה = ב + ה + פגישה, so the noun is definite and the adjective needs ה: בפגישה האחרונה."
+      },
+      {
+        "prompt": "קיבלנו תשובה ___ מהבנק. (חיובי)",
+        "en": "We got a positive answer from the bank.",
+        "answer": [
+          "חיובית"
+        ],
+        "hint": "-י → -ית",
+        "explain": "Adjectives ending in -י take -ית in the feminine: תשובה חיובית."
+      },
+      {
+        "prompt": "אנחנו עובדים רק עם ספקים ___. (מקומי)",
+        "en": "We only work with local suppliers.",
+        "answer": [
+          "מקומיים"
+        ],
+        "hint": "-י → -יים",
+        "explain": "Adjectives ending in -י form the masculine plural with -יים: ספקים מקומיים."
+      },
+      {
+        "prompt": "עבדתי בחברה הזאת שנים ___. (רב)",
+        "en": "I worked at this company for many years.",
+        "answer": [
+          "רבות"
+        ],
+        "hint": "שנה is feminine",
+        "explain": "שנה is feminine, so even with the -ים plural the adjective is feminine: שנים רבות."
+      },
+      {
+        "prompt": "יש לי כמה רעיונות ___ לקמפיין. (טוב)",
+        "en": "I have a few good ideas for the campaign.",
+        "answer": [
+          "טובים"
+        ],
+        "hint": "רעיון is masculine",
+        "explain": "רעיון is masculine, so it's רעיונות טובים despite the -ות ending."
+      },
+      {
+        "prompt": "ישיבת הצוות ___ תהיה ביום ראשון. (שבועי)",
+        "en": "The weekly team meeting will be on Sunday.",
+        "answer": [
+          "השבועית"
+        ],
+        "hint": "Agree with ישיבה",
+        "explain": "The adjective agrees with the first noun ישיבה (feminine) and takes ה because the smichut is definite."
+      },
+      {
+        "prompt": "חדר הישיבות ___ פנוי היום. (גדול)",
+        "en": "The big meeting room is free today.",
+        "answer": [
+          "הגדול"
+        ],
+        "hint": "Agree with חדר",
+        "explain": "גדול agrees with חדר, the first noun, and gets ה because הישיבות is definite."
+      }
+    ]
+  },
+  {
+    "id": "g_relative_she",
+    "level": "B1",
+    "title": "ש-clauses: that, who, when, what",
+    "titleHe": "משפטים עם ש",
+    "summary": "ש, כש, מה ש, מי ש, איפה ש — and the pronoun Hebrew adds back in: הלקוח שדיברתי איתו.",
+    "sections": [
+      {
+        "h": "ש = that, who, which",
+        "body": "One letter, ש, does the job of English “that / who / which”. It attaches to the next word and works for people and things alike:\n• הלקוח שהתקשר אתמול — the client who called yesterday\n• הדוח ששלחתי לך — the report (that) I sent you\n• אני חושבת שזה רעיון טוב — I think (that) it's a good idea\nUnlike English, Hebrew can't leave it out: “I think it's fine” is always אני חושב שזה בסדר.\nIn formal writing you'll see אשר instead: הלקוח אשר פנה אלינו (the client who contacted us)."
+      },
+      {
+        "h": "כש, מה ש, מי ש, איפה ש",
+        "body": "ש combines with כ and with question words to start other kinds of clauses:\n• כש — when: כשהגעתי למשרד, כולם כבר היו בישיבה. For the future, use the future tense after כש: תתקשר אליי כשתגיע (call me when you arrive). In writing: כאשר.\n• מה ש — what (= the thing that): מה שאמרת חשוב מאוד. / זה בדיוק מה שחיפשתי.\n• מי ש — whoever, the one who: מי שרוצה יכול להצטרף.\n• איפה ש — wherever, where: בואו נשב איפה שנוח לכם. (Formal: היכן ש.)\n• כל מה ש / כל מי ש — everything that / everyone who: יש פה כל מה שצריך. / כל מי שהגיע קיבל מתנה."
+      },
+      {
+        "h": "The pronoun that comes back",
+        "body": "When the verb in the clause needs a preposition, Hebrew keeps the preposition and adds a pronoun ending that points back to the noun:\n• הלקוח שדיברתי איתו — the client I talked to (lit. “that I talked with him”)\n• החברה שעבדתי בה — the company I worked at (lit. “that I worked in it”)\n• המנהלת שסיפרתי לך עליה — the manager I told you about\n• העובד שנתנו לו את הבונוס — the employee we gave the bonus to\nThe pronoun matches the noun's gender and number. With a direct object (את) it's usually left out: הדוח ששלחתי rather than הדוח ששלחתי אותו.\nIn formal writing the preposition + pronoun often moves up next to ש: החברה שבה עבדתי, החדר שבו תתקיים הישיבה (the room in which the meeting will be held).",
+        "table": [
+          [
+            "Preposition",
+            "him / it (m)",
+            "her / it (f)",
+            "them (m)",
+            "them (f)"
+          ],
+          [
+            "עם",
+            "איתו",
+            "איתה",
+            "איתם",
+            "איתן"
+          ],
+          [
+            "ב",
+            "בו",
+            "בה",
+            "בהם",
+            "בהן"
+          ],
+          [
+            "ל",
+            "לו",
+            "לה",
+            "להם",
+            "להן"
+          ],
+          [
+            "על",
+            "עליו",
+            "עליה",
+            "עליהם",
+            "עליהן"
+          ],
+          [
+            "מ",
+            "ממנו",
+            "ממנה",
+            "מהם",
+            "מהן"
+          ],
+          [
+            "את",
+            "אותו",
+            "אותה",
+            "אותם",
+            "אותן"
+          ]
+        ]
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "זה הלקוח ___ אתמול. (ש + התקשר)",
+        "en": "This is the client who called yesterday.",
+        "answer": [
+          "שהתקשר"
+        ],
+        "hint": "ש attaches to the verb",
+        "explain": "ש means “who / that” and is written together with the next word."
+      },
+      {
+        "prompt": "אני חושבת ___ רעיון מצוין. (that + זה)",
+        "en": "I think it's an excellent idea.",
+        "answer": [
+          "שזה"
+        ],
+        "hint": "Hebrew can't drop “that”",
+        "explain": "After verbs like חושב, אומר and יודע Hebrew always needs ש: חושבת שזה…"
+      },
+      {
+        "prompt": "זה הספק שעבדנו ___ בשנה שעברה. (עם + pronoun)",
+        "en": "This is the supplier we worked with last year.",
+        "answer": [
+          "איתו",
+          "אתו"
+        ],
+        "hint": "Points back to הספק",
+        "explain": "The preposition stays and gets a pronoun ending that refers back to the noun: שעבדנו איתו."
+      },
+      {
+        "prompt": "החברה שעבדתי ___ לפני כן נסגרה. (ב + pronoun)",
+        "en": "The company I worked at before has closed down.",
+        "answer": [
+          "בה"
+        ],
+        "hint": "החברה is feminine",
+        "explain": "You work ב a company, so the pronoun is בה, feminine like החברה."
+      },
+      {
+        "prompt": "זאת המנהלת שסיפרתי לך ___. (על + pronoun)",
+        "en": "This is the manager I told you about.",
+        "answer": [
+          "עליה"
+        ],
+        "hint": "לספר על",
+        "explain": "לספר על + a pronoun for המנהלת gives עליה."
+      },
+      {
+        "prompt": "זה העובד שנתנו ___ את הבונוס. (ל + pronoun)",
+        "en": "This is the employee we gave the bonus to.",
+        "answer": [
+          "לו"
+        ],
+        "hint": "לתת ל",
+        "explain": "לתת ל + a pronoun for העובד gives לו."
+      },
+      {
+        "prompt": "זה החדר ___ תתקיים הישיבה. (in which — formal)",
+        "en": "This is the room in which the meeting will be held.",
+        "answer": [
+          "שבו",
+          "אשר בו"
+        ],
+        "hint": "ש + ב + pronoun",
+        "explain": "In formal style the preposition + pronoun moves up next to ש: החדר שבו."
+      },
+      {
+        "prompt": "___ בישיבה היה חשוב מאוד. (what + you said: אמרת)",
+        "en": "What you said in the meeting was very important.",
+        "answer": [
+          "מה שאמרת"
+        ],
+        "hint": "what = מה ש",
+        "explain": "מה ש means “what / the thing that”, and the ש attaches to the verb."
+      },
+      {
+        "prompt": "___ יכול ללכת הביתה מוקדם היום. (whoever + finished: סיים)",
+        "en": "Whoever has finished can go home early today.",
+        "answer": [
+          "מי שסיים"
+        ],
+        "hint": "whoever = מי ש",
+        "explain": "מי ש means “whoever / the person who”."
+      },
+      {
+        "prompt": "___ למשרד, כולם כבר היו בישיבה. (when + I arrived: הגעתי)",
+        "en": "When I got to the office, everyone was already in the meeting.",
+        "answer": [
+          "כשהגעתי",
+          "כאשר הגעתי"
+        ],
+        "hint": "when = כש",
+        "explain": "כש means “when” and attaches to the verb; כאשר is the written equivalent."
+      },
+      {
+        "prompt": "תתקשרי אליי ___ לשדה התעופה. (when + you, f, arrive: להגיע)",
+        "en": "Call me when you get to the airport.",
+        "answer": [
+          "כשתגיעי",
+          "כאשר תגיעי"
+        ],
+        "hint": "Future after כש",
+        "explain": "For a future event Hebrew uses the future after כש, where English uses the present."
+      },
+      {
+        "prompt": "בואו נשב ___ לכם. (wherever + comfortable: נוח)",
+        "en": "Let's sit wherever is comfortable for you.",
+        "answer": [
+          "איפה שנוח",
+          "היכן שנוח"
+        ],
+        "hint": "where(ever) = איפה ש",
+        "explain": "איפה ש starts a clause of place: “wherever / where”."
+      }
+    ]
+  },
+  {
+    "id": "g_conditionals",
+    "level": "B1+",
+    "title": "Conditionals: if, would, had I known",
+    "titleHe": "משפטי תנאי",
+    "summary": "אם + future for real plans, היה + verb for “would”, polite הייתי רוצה / הייתי שמח אם, and formal לו / אילו.",
+    "sections": [
+      {
+        "h": "Real conditions: אם + future",
+        "body": "For something that may really happen, Hebrew uses the future in both halves — where English uses the present after “if”:\n• אם הלקוח יאשר, נתחיל ביום ראשון. — If the client approves, we'll start on Sunday.\n• אם יהיו בעיות, אני אודיע לך. — If there are any problems, I'll let you know.\nFor general truths, use the present: אם אתה צריך עזרה, אני כאן. (If you need help, I'm here.)\nFor something that may already have happened, use the past: אם כבר שלחת את החשבונית, אעביר את התשלום היום.\nאז (then) is optional: אם הם לא יענו עד מחר, (אז) נתקשר אליהם."
+      },
+      {
+        "h": "Hypothetical: היה + present-tense form",
+        "body": "For imagined or missed situations — “if I knew…, I would…” and “if I had known…, I would have…” — use היה in the right person + the present-tense form of the verb, in both halves:\n• אם הייתי יודע, הייתי בא. — If I knew, I'd come. / If I had known, I'd have come.\n• אם היה לי יותר זמן, הייתי עוזרת לך. — If I had more time, I'd help you. (a woman speaking)\n• אם היא הייתה מבקשת, היינו מסכימים. — If she had asked, we would have agreed.\nThe same form covers the present and the past; context decides. With יש / אין, היה agrees with the thing you'd have: אם היה לנו תקציב, אם הייתה לנו אפשרות, אם היו לנו עוד אנשים.\nIn casual speech the אם half often uses the simple past instead: אם ידעתי, הייתי בא.",
+        "table": [
+          [
+            "Person",
+            "would know (m)",
+            "would know (f)"
+          ],
+          [
+            "אני",
+            "הייתי יודע",
+            "הייתי יודעת"
+          ],
+          [
+            "אתה / את",
+            "היית יודע",
+            "היית יודעת"
+          ],
+          [
+            "הוא / היא",
+            "היה יודע",
+            "הייתה יודעת"
+          ],
+          [
+            "אנחנו",
+            "היינו יודעים",
+            "היינו יודעות"
+          ],
+          [
+            "אתם / אתן",
+            "הייתם יודעים",
+            "הייתן יודעות"
+          ],
+          [
+            "הם / הן",
+            "היו יודעים",
+            "היו יודעות"
+          ]
+        ]
+      },
+      {
+        "h": "Polite “would”",
+        "body": "The same structure softens requests and wishes — very useful at work:\n• הייתי רוצה לקבוע פגישה. — I'd like to set up a meeting. (softer than אני רוצה)\n• הייתי שמח / שמחה אם תוכלו לשלוח הצעת מחיר. — I'd be glad if you could send a quote. (future after אם)\n• היית יכול / יכולה לבדוק את זה? — Could you check this?\n• היה עדיף לדחות את זה. — It would be better to postpone it.\nIn emails you'll also see the shorter אשמח אם… (see the business register lesson)."
+      },
+      {
+        "h": "Formal writing: לו / אילו",
+        "body": "In formal writing, speeches and news analysis, לו or אילו replace אם for unreal conditions:\n• לו ידענו מראש, היינו נערכים אחרת. — Had we known in advance, we would have prepared differently.\n• אילו החברה הייתה משקיעה בפיתוח, היא הייתה מצליחה יותר. — Had the company invested in development, it would have done better.\nFor “if it weren't for”, use אלמלא or לולא: אלמלא עזרתכם, לא היינו מסיימים בזמן. (If it weren't for your help, we wouldn't have finished on time.)\nYou mainly need to recognize these; in conversation אם is all you need."
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "אם הלקוח ___ את ההצעה, נתחיל לעבוד בשבוע הבא. (לאשר)",
+        "en": "If the client approves the offer, we'll start working next week.",
+        "answer": [
+          "יאשר"
+        ],
+        "hint": "Future after אם",
+        "explain": "For a real future condition Hebrew uses the future after אם, not the present."
+      },
+      {
+        "prompt": "אם יהיו בעיות, אני ___ לך מיד. (להודיע)",
+        "en": "If there are any problems, I'll let you know right away.",
+        "answer": [
+          "אודיע"
+        ],
+        "hint": "Future in both halves",
+        "explain": "Both halves of a real future condition are in the future: יהיו… אודיע."
+      },
+      {
+        "prompt": "אם המחירים ___, נצטרך לחפש ספק אחר. (לעלות)",
+        "en": "If prices go up, we'll have to look for another supplier.",
+        "answer": [
+          "יעלו"
+        ],
+        "hint": "They — future",
+        "explain": "A possible future event after אם takes the future: יעלו."
+      },
+      {
+        "prompt": "אם כבר ___ את החשבונית, אעביר את התשלום היום. (לשלוח — you, m)",
+        "en": "If you've already sent the invoice, I'll transfer the payment today.",
+        "answer": [
+          "שלחת"
+        ],
+        "hint": "It may already have happened",
+        "explain": "אם + past is for something that may already have happened."
+      },
+      {
+        "prompt": "אם ___ על זה קודם, הייתי מתקשר אליך. (לדעת — I, m; with היה)",
+        "en": "If I had known about it earlier, I would have called you.",
+        "answer": [
+          "הייתי יודע"
+        ],
+        "hint": "הייתי + present form",
+        "explain": "Unreal conditions use היה in the right person + the present-tense form: הייתי יודע."
+      },
+      {
+        "prompt": "אם היה לי יותר זמן, ___ ללמוד ערבית. (להתחיל — I, f; “would”)",
+        "en": "If I had more time, I would start learning Arabic.",
+        "answer": [
+          "הייתי מתחילה"
+        ],
+        "hint": "הייתי + present form",
+        "explain": "The result half also uses הייתי + the present form, agreeing with the speaker: מתחילה."
+      },
+      {
+        "prompt": "אם ___ עוד שני מתכנתים, היינו מסיימים בזמן. (יש לנו — hypothetical)",
+        "en": "If we had two more programmers, we would finish on time.",
+        "answer": [
+          "היו לנו"
+        ],
+        "hint": "Agree with מתכנתים",
+        "explain": "יש לנו becomes היו לנו, agreeing with the plural thing you would have."
+      },
+      {
+        "prompt": "אם דנה לא ___ את הטעות, היינו מפסידים הרבה כסף. (למצוא — with היה)",
+        "en": "If Dana hadn't found the mistake, we would have lost a lot of money.",
+        "answer": [
+          "הייתה מוצאת"
+        ],
+        "hint": "she → הייתה",
+        "explain": "For “she”, the hypothetical is הייתה + the feminine present form: הייתה מוצאת."
+      },
+      {
+        "prompt": "___ לקבוע פגישה עם מנהל המכירות. (I'd like — polite, m)",
+        "en": "I'd like to schedule a meeting with the sales manager.",
+        "answer": [
+          "הייתי רוצה"
+        ],
+        "hint": "Softer than אני רוצה",
+        "explain": "הייתי רוצה is the polite “I would like”."
+      },
+      {
+        "prompt": "הייתי שמחה אם ___ לי את המצגת עד מחר. (לשלוח — you, m)",
+        "en": "I'd be glad if you sent me the presentation by tomorrow.",
+        "answer": [
+          "תשלח"
+        ],
+        "hint": "Future after אם",
+        "explain": "After הייתי שמח / שמחה אם the verb is in the future: תשלח."
+      },
+      {
+        "prompt": "___ לבדוק את זה בשבילי? (could you — את, f; with היה)",
+        "en": "Could you check this for me?",
+        "answer": [
+          "היית יכולה"
+        ],
+        "hint": "Polite “could you”",
+        "explain": "היית יכול / יכולה + infinitive is a polite way to ask someone to do something."
+      },
+      {
+        "prompt": "___ ידענו על הבעיה מראש, היינו נערכים אחרת. (formal “if” for an unreal condition)",
+        "en": "Had we known about the problem in advance, we would have prepared differently.",
+        "answer": [
+          "לו",
+          "אילו"
+        ],
+        "hint": "Formal writing",
+        "explain": "In formal Hebrew לו or אילו introduce an unreal condition."
+      }
+    ]
+  },
+  {
+    "id": "g_modals",
+    "level": "B1",
+    "title": "Modals: need to, must, can, may",
+    "titleHe": "צריך, יכול, אפשר, אסור",
+    "summary": "צריך, חייב, יכול, רוצה, אפשר, אסור, מותר, כדאי + infinitive — personal, impersonal and in the past.",
+    "sections": [
+      {
+        "h": "Modals that agree with the subject",
+        "body": "These behave like adjectives: they agree with the subject and are followed by an infinitive.\n• אני צריכה לסיים את הדוח היום. — I (f) need to finish the report today.\n• אתה חייב לחתום כאן. — You must sign here. (חייב is stronger than צריך)\n• אנחנו יכולים להתחיל? — Can we start?\n• הם רוצים לדחות את הפגישה. — They want to postpone the meeting.\nצריך can also take a noun: אני צריך עזרה (I need help).",
+        "table": [
+          [
+            "",
+            "m. sg.",
+            "f. sg.",
+            "m. pl.",
+            "f. pl."
+          ],
+          [
+            "need to, have to",
+            "צריך (tsaríkh)",
+            "צריכה (tsrikhá)",
+            "צריכים (tsrikhím)",
+            "צריכות (tsrikhót)"
+          ],
+          [
+            "must",
+            "חייב (khayáv)",
+            "חייבת (khayévet)",
+            "חייבים (khayavím)",
+            "חייבות (khayavót)"
+          ],
+          [
+            "can",
+            "יכול (yakhól)",
+            "יכולה (yekholá)",
+            "יכולים (yekholím)",
+            "יכולות (yekholót)"
+          ],
+          [
+            "want",
+            "רוצה (rotsé)",
+            "רוצה (rotsá)",
+            "רוצים (rotsím)",
+            "רוצות (rotsót)"
+          ]
+        ]
+      },
+      {
+        "h": "Impersonal modals: one form for everyone",
+        "body": "These never change. With no subject they mean “one can / you're allowed / it's worth…” — perfect for rules, signs and polite questions:\n• אפשר לשלם בכרטיס? — Can I pay by card? / אי אפשר לחנות פה. — You can't park here.\n• אסור לעשן בבניין. — Smoking is not allowed in the building.\n• מותר להביא כלבים? — Are dogs allowed?\n• כדאי להזמין מקום מראש. — It's a good idea to book in advance.\n• צריך למלא טופס. — You need to fill in a form. (impersonal צריך)\n• חייבים לסיים היום. — We have to finish today. (the plural used impersonally)\nTo say who, add ל: כדאי לך לבדוק (you'd better check), אסור לנו לפרסם את זה (we're not allowed to publish it), אפשר לקבל את החשבון? (Could we have the bill?).\nCareful: לא צריך / לא חייב = you don't have to; אסור = you mustn't. “You don't have to come” is לא צריך לבוא, never אסור לבוא."
+      },
+      {
+        "h": "Past and future",
+        "body": "Impersonal modals and צריך / חייב form the past with היה and the future with יהיה:\n• היה צריך להזמין מראש. — We should have booked in advance. / It was necessary to book.\n• הייתי צריך / צריכה להישאר עד מאוחר. — I had to stay late.\n• היה אפשר לסיים מוקדם יותר. — It could have been finished earlier.\n• יהיה אפשר להירשם מחר. — It will be possible to register tomorrow.\nיכול and רוצה are real verbs with their own past and future:\n• לא יכולתי להגיע. — I couldn't come. (הייתי יכול = I could have / I would be able to)\n• תוכל לשלוח לי את הקובץ? — Could you send me the file? (a polite future)\n• רציתי לשאול… — I wanted to ask… (a polite way to start a question)\nFor the future of צריך, the verb להצטרך is common: נצטרך לדחות את הפגישה (we'll have to postpone the meeting).",
+        "table": [
+          [
+            "Present",
+            "Past",
+            "Future"
+          ],
+          [
+            "צריך / צריכה",
+            "היה צריך, הייתי צריך / צריכה",
+            "יהיה צריך, אצטרך, נצטרך"
+          ],
+          [
+            "אפשר",
+            "היה אפשר",
+            "יהיה אפשר"
+          ],
+          [
+            "אסור / מותר",
+            "היה אסור / היה מותר",
+            "יהיה אסור / יהיה מותר"
+          ],
+          [
+            "כדאי",
+            "היה כדאי",
+            "יהיה כדאי"
+          ],
+          [
+            "יכול / יכולה",
+            "יכולתי, יכולת, יכלה, יכלו",
+            "אוכל, תוכל, יוכל, נוכל"
+          ],
+          [
+            "רוצה",
+            "רציתי, רצית, רצה, רצתה",
+            "ארצה, תרצה, ירצה"
+          ]
+        ]
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "אני ___ לסיים את הדוח עד הצהריים. (need to — the speaker is a woman)",
+        "en": "I need to finish the report by noon.",
+        "answer": [
+          "צריכה"
+        ],
+        "hint": "Agrees with the subject",
+        "explain": "צריך agrees with the subject, so a woman says צריכה."
+      },
+      {
+        "prompt": "שני המנהלים ___ לחתום על החוזה היום. (must)",
+        "en": "Both managers must sign the contract today.",
+        "answer": [
+          "חייבים"
+        ],
+        "hint": "Masculine plural",
+        "explain": "חייב agrees with the subject: שני המנהלים → חייבים."
+      },
+      {
+        "prompt": "___ לעשן בתוך הבניין. (forbidden)",
+        "en": "Smoking is not allowed inside the building.",
+        "answer": [
+          "אסור"
+        ],
+        "hint": "One form only",
+        "explain": "אסור + infinitive = it's forbidden; impersonal modals never change."
+      },
+      {
+        "prompt": "___ לשלם בכרטיס אשראי? (is it possible)",
+        "en": "Can I pay by credit card?",
+        "answer": [
+          "אפשר"
+        ],
+        "hint": "The everyday “Can I…?”",
+        "explain": "אפשר + infinitive is the most common way to ask whether something is possible or allowed."
+      },
+      {
+        "prompt": "___ להזמין שולחן מראש, כי בערב המסעדה מלאה. (it's a good idea)",
+        "en": "It's a good idea to book a table in advance — the restaurant is full in the evening.",
+        "answer": [
+          "כדאי"
+        ],
+        "hint": "It's worth it",
+        "explain": "כדאי + infinitive = it's worth it / you'd better."
+      },
+      {
+        "prompt": "___ להשתמש בחדר הישיבות בלי להזמין מראש? (allowed)",
+        "en": "Is it allowed to use the meeting room without booking in advance?",
+        "answer": [
+          "מותר"
+        ],
+        "hint": "The opposite of אסור",
+        "explain": "מותר = allowed; like אסור, it never changes form."
+      },
+      {
+        "prompt": "אתה לא ___ להביא מחשב, יש לנו מחשבים בחדר. (need to)",
+        "en": "You don't need to bring a laptop — we have computers in the room.",
+        "answer": [
+          "צריך",
+          "חייב"
+        ],
+        "hint": "Not אסור!",
+        "explain": "לא צריך / לא חייב = you don't have to, which is not the same as אסור (you mustn't)."
+      },
+      {
+        "prompt": "___ להזמין כרטיסים מוקדם יותר, עכשיו הכול תפוס. (one should have — impersonal צריך in the past)",
+        "en": "We should have booked tickets earlier; now everything is taken.",
+        "answer": [
+          "היה צריך"
+        ],
+        "hint": "Add היה",
+        "explain": "The past of impersonal צריך is היה צריך."
+      },
+      {
+        "prompt": "אתמול ___ להישאר במשרד עד מאוחר. (had to: צריך in the past — the speaker is a man)",
+        "en": "Yesterday I had to stay at the office late.",
+        "answer": [
+          "הייתי צריך"
+        ],
+        "hint": "הייתי + צריך",
+        "explain": "Personal past: הייתי + צריך, with צריך agreeing with the speaker."
+      },
+      {
+        "prompt": "לא ___ להגיע לישיבה בגלל הפקקים. (could — I, past of יכול)",
+        "en": "I couldn't make it to the meeting because of the traffic.",
+        "answer": [
+          "יכולתי"
+        ],
+        "hint": "יכול has its own past",
+        "explain": "For a real past “couldn't” use יכולתי; הייתי יכול means “I could have”."
+      },
+      {
+        "prompt": "___ לשלוח לי את הקובץ שוב? (could you — אתה, future of יכול)",
+        "en": "Could you send me the file again?",
+        "answer": [
+          "תוכל"
+        ],
+        "hint": "Future of יכול",
+        "explain": "The future of יכול (תוכל / תוכלי) is a very common polite request."
+      },
+      {
+        "prompt": "___ לשאול אם יש עדכון לגבי ההזמנה. (wanted — I, past of רוצה)",
+        "en": "I wanted to ask whether there's any update on the order.",
+        "answer": [
+          "רציתי"
+        ],
+        "hint": "Past of רוצה",
+        "explain": "רוצה has its own past (רציתי), and רציתי לשאול is a polite way to open a question."
+      }
+    ]
+  },
+  {
+    "id": "g_connectors",
+    "level": "B1+",
+    "title": "Connectors for writing and meetings",
+    "titleHe": "מילות קישור",
+    "summary": "כי, בגלל, לכן, למרות, אולם, עם זאת, כדי ש… — link your ideas like a professional.",
+    "sections": [
+      {
+        "h": "Cause and result",
+        "body": "• כי — because (+ a full clause): הישיבה נדחתה כי המנהלת חולה.\n• בגלל — because of (+ a noun): הישיבה נדחתה בגלל מחלה. It also takes endings: בגללי, בגללו (because of me / him).\n• בגלל ש — because (+ a clause). Very common in speech; in writing prefer כי or מכיוון ש.\n• לכן — therefore, so: המחירים עלו, לכן נצטרך לעדכן את התקציב.\n• כך ש — so, with the result that: שינינו את לוח הזמנים, כך שהפרויקט יסתיים במרץ.\nTypical mistake: בגלל right before a verb. Say בגלל הגשם or כי ירד גשם — not “בגלל ירד גשם”."
+      },
+      {
+        "h": "Contrast and concession",
+        "body": "• אבל — but (everyday).\n• למרות — despite (+ noun): למרות הקשיים, סיימנו בזמן.\n• למרות ש / אף על פי ש — although (+ clause): למרות שהיה עומס, סיימנו בזמן. אף על פי ש is more formal.\n• אולם — however (formal, opens a sentence): התוצאות טובות. אולם יש עוד מה לשפר.\n• עם זאת — that said, nevertheless: המוצר יקר. עם זאת, הלקוחות מרוצים מאוד.\n• לעומת זאת — on the other hand, by contrast: בצפון המכירות עלו. בדרום, לעומת זאת, הן ירדו.\nעם זאת limits or softens what you just said; לעומת זאת sets two different things side by side."
+      },
+      {
+        "h": "Adding, explaining, purpose, alternatives",
+        "body": "• בנוסף — in addition: בנוסף, נצטרך עוד שני מתכנתים. With a noun: בנוסף למשכורת… (in addition to the salary…)\n• כלומר — that is, meaning: הפרויקט יתעכב בחודש, כלומר נסיים רק באפריל.\n• כדי — in order to (+ infinitive): אני מתקשר כדי לאשר את הפגישה.\n• כדי ש — so that (+ future, when the subject changes): שלחתי לך את החומר כדי שתוכל להתכונן.\n• במקום — instead of (+ noun or infinitive): במקום לשלוח עוד מייל, פשוט תתקשר אליו. / במקום פגישה, נדבר בטלפון."
+      },
+      {
+        "h": "Cheat sheet",
+        "body": "What comes after each connector — a noun, an infinitive or a full clause with a verb — and where it fits. Neutral words work everywhere; formal ones belong in emails, reports and presentations.",
+        "table": [
+          [
+            "Connector",
+            "Meaning",
+            "Followed by",
+            "Register"
+          ],
+          [
+            "כי",
+            "because",
+            "clause",
+            "neutral"
+          ],
+          [
+            "בגלל",
+            "because of",
+            "noun",
+            "neutral"
+          ],
+          [
+            "בגלל ש",
+            "because",
+            "clause",
+            "spoken"
+          ],
+          [
+            "לכן",
+            "therefore, so",
+            "clause",
+            "neutral"
+          ],
+          [
+            "כך ש",
+            "so, with the result that",
+            "clause",
+            "neutral"
+          ],
+          [
+            "למרות",
+            "despite",
+            "noun",
+            "neutral"
+          ],
+          [
+            "למרות ש",
+            "although",
+            "clause",
+            "neutral"
+          ],
+          [
+            "אף על פי ש",
+            "although",
+            "clause",
+            "formal"
+          ],
+          [
+            "אולם",
+            "however",
+            "clause",
+            "formal"
+          ],
+          [
+            "עם זאת",
+            "that said, nevertheless",
+            "clause",
+            "formal"
+          ],
+          [
+            "לעומת זאת",
+            "on the other hand, by contrast",
+            "clause",
+            "neutral"
+          ],
+          [
+            "בנוסף (ל)",
+            "in addition (to)",
+            "clause / noun",
+            "neutral"
+          ],
+          [
+            "כלומר",
+            "that is, meaning",
+            "clause",
+            "neutral"
+          ],
+          [
+            "כדי",
+            "in order to",
+            "infinitive",
+            "neutral"
+          ],
+          [
+            "כדי ש",
+            "so that",
+            "clause (future)",
+            "neutral"
+          ],
+          [
+            "במקום",
+            "instead of",
+            "noun / infinitive",
+            "neutral"
+          ]
+        ]
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "הטיסה בוטלה ___ מזג האוויר. (because of)",
+        "en": "The flight was cancelled because of the weather.",
+        "answer": [
+          "בגלל",
+          "בשל",
+          "עקב"
+        ],
+        "hint": "+ noun",
+        "explain": "בגלל is followed by a noun; before a full clause use כי."
+      },
+      {
+        "prompt": "הספק העלה את המחירים, ___ אנחנו מחפשים ספק אחר. (therefore)",
+        "en": "The supplier raised its prices, so we're looking for another supplier.",
+        "answer": [
+          "לכן",
+          "ולכן"
+        ],
+        "hint": "Result",
+        "explain": "לכן introduces the result of what was said before."
+      },
+      {
+        "prompt": "___ הגשם, כל העובדים הגיעו לאירוע. (despite)",
+        "en": "Despite the rain, all the employees came to the event.",
+        "answer": [
+          "למרות",
+          "על אף"
+        ],
+        "hint": "+ noun",
+        "explain": "למרות + noun = despite."
+      },
+      {
+        "prompt": "___ שההצעה שלהם זולה יותר, בחרנו בחברה אחרת. (although — formal, three words)",
+        "en": "Although their offer is cheaper, we chose a different company.",
+        "answer": [
+          "אף על פי",
+          "למרות",
+          "על אף"
+        ],
+        "hint": "The ש is already there",
+        "explain": "אף על פי ש is the formal “although”; למרות ש means the same."
+      },
+      {
+        "prompt": "ההצעה מעניינת מאוד. ___ התקציב שלנו לא מאפשר את זה כרגע. (however — formal, one word)",
+        "en": "The proposal is very interesting. However, our budget doesn't allow it at the moment.",
+        "answer": [
+          "אולם",
+          "אך"
+        ],
+        "hint": "Formal “however”",
+        "explain": "אולם opens a sentence that contrasts with the previous one, in formal style."
+      },
+      {
+        "prompt": "התוצאות ברבעון היו טובות. ___, עדיין לא הגענו ליעד. (that said — two words)",
+        "en": "The quarter's results were good. That said, we still haven't reached the target.",
+        "answer": [
+          "עם זאת",
+          "יחד עם זאת"
+        ],
+        "hint": "Limits the previous point",
+        "explain": "עם זאת adds a reservation to what was just said."
+      },
+      {
+        "prompt": "בצפון המכירות עלו. בדרום, ___, הן ירדו. (by contrast)",
+        "en": "In the north, sales went up. In the south, by contrast, they went down.",
+        "answer": [
+          "לעומת זאת"
+        ],
+        "hint": "Comparing two things",
+        "explain": "לעומת זאת sets two different things side by side."
+      },
+      {
+        "prompt": "___ למשכורת, העובדים מקבלים רכב צמוד. (in addition)",
+        "en": "In addition to their salary, the employees get a company car.",
+        "answer": [
+          "בנוסף"
+        ],
+        "hint": "+ ל",
+        "explain": "בנוסף ל + noun = in addition to."
+      },
+      {
+        "prompt": "הפרויקט יתעכב בחודש, ___ נסיים רק באפריל. (that is / meaning)",
+        "en": "The project will be delayed by a month, meaning we'll only finish in April.",
+        "answer": [
+          "כלומר"
+        ],
+        "hint": "Rephrasing",
+        "explain": "כלומר explains or rephrases what was just said."
+      },
+      {
+        "prompt": "שלחתי לך את החומר מראש ___ להתכונן. (so that + you, m, can: יכול in the future)",
+        "en": "I sent you the material in advance so that you can prepare.",
+        "answer": [
+          "כדי שתוכל",
+          "על מנת שתוכל"
+        ],
+        "hint": "Future after ש",
+        "explain": "כדי ש introduces a purpose with a new subject and takes the future: כדי שתוכל."
+      },
+      {
+        "prompt": "___ לשלוח עוד מייל, פשוט תתקשר אליו. (instead of)",
+        "en": "Instead of sending another email, just call him.",
+        "answer": [
+          "במקום"
+        ],
+        "hint": "+ infinitive",
+        "explain": "במקום + infinitive or noun = instead of."
+      },
+      {
+        "prompt": "שינינו את לוח הזמנים, ___ שהפרויקט יסתיים בזמן. (so — as a result)",
+        "en": "We changed the schedule, so the project will finish on time.",
+        "answer": [
+          "כך"
+        ],
+        "hint": "The ש is already there",
+        "explain": "כך ש introduces a result: “so, with the result that”."
+      }
+    ]
+  },
+  {
+    "id": "g_time_aspect",
+    "level": "B1",
+    "title": "Already, not yet, still, never: time words",
+    "titleHe": "כבר, עוד לא, עדיין",
+    "summary": "Hebrew has no perfect tense — כבר, עוד לא, עדיין, אף פעם and time clauses do that job.",
+    "sections": [
+      {
+        "h": "Already, not yet, still, just",
+        "body": "Hebrew has only three tenses, so “have done”, “haven't yet” and “have just” are expressed with time words:\n• כבר — already: כבר שלחתי את הדוח. — I've already sent the report. / כבר אכלת? — Have you eaten yet?\n• עוד לא / עדיין לא — not yet: עוד לא קיבלתי תשובה. — I haven't had an answer yet.\n• עדיין — still: הוא עדיין בישיבה. — He's still in the meeting. (In speech also עוד: הוא עוד בישיבה.)\n• כבר לא — not anymore: היא כבר לא עובדת פה. — She doesn't work here anymore.\n• בדיוק — just (a moment ago), and also “exactly”: הוא בדיוק יצא. — He's just left. / בדיוק! — Exactly!\nFor something that started in the past and is still going on, use the present tense + כבר: אני עובדת פה כבר שלוש שנים. — I've been working here for three years."
+      },
+      {
+        "h": "Ever, never, once",
+        "body": "• אף פעם לא — never. Hebrew needs both words: אף פעם לא הייתי באילת. — I've never been to Eilat. As a short answer, אף פעם! on its own is fine. Formal: מעולם לא.\n• פעם — once, ever, at some point: היית פעם בחו״ל? (Have you ever been abroad?) / פעם עבדתי בבנק. (I once worked at a bank.) / פעם היה פה בית קפה. (There used to be a café here.)\n• לפעמים — sometimes; בפעם הבאה — next time; כל פעם — every time.\nThe same double negative works with “nobody” and “nothing”: אף אחד לא התקשר. שום דבר לא השתנה."
+      },
+      {
+        "h": "Before, after, since, until, as soon as, within",
+        "body": "Use the word alone before a noun or a time, and add ש before a full clause (see the table).\n• ברגע ש — as soon as, the moment: ברגע שאקבל אישור, אעדכן אותך.\n• תוך — within: נחזור אליכם תוך שבוע. (תוך כדי = while: תוך כדי עבודה)\nFor future events, Hebrew uses the future after these words, where English uses the present: עד שכולם יגיעו (until everyone arrives), ברגע שאקבל (as soon as I get).\nWith מאז, a situation that is still true is in the present: אני עובדת פה מאז ינואר. — I've been working here since January.",
+        "table": [
+          [
+            "",
+            "+ noun / time",
+            "+ clause (with ש)"
+          ],
+          [
+            "before",
+            "לפני הישיבה",
+            "לפני שהישיבה מתחילה"
+          ],
+          [
+            "after",
+            "אחרי הישיבה",
+            "אחרי שהישיבה נגמרה"
+          ],
+          [
+            "since",
+            "מאז ינואר",
+            "מאז שהתחלתי לעבוד פה"
+          ],
+          [
+            "until",
+            "עד יום חמישי",
+            "עד שכולם יגיעו"
+          ],
+          [
+            "as soon as",
+            "—",
+            "ברגע שאקבל תשובה"
+          ],
+          [
+            "within",
+            "תוך שבוע",
+            "—"
+          ]
+        ]
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "אני עובדת בחברה הזאת ___ שלוש שנים. (already)",
+        "en": "I've been working at this company for three years.",
+        "answer": [
+          "כבר"
+        ],
+        "hint": "Present tense + כבר",
+        "explain": "For something still going on, Hebrew uses the present tense + כבר + the time period."
+      },
+      {
+        "prompt": "___ קיבלנו תשובה מהבנק. (not yet)",
+        "en": "We haven't received an answer from the bank yet.",
+        "answer": [
+          "עוד לא",
+          "עדיין לא"
+        ],
+        "hint": "Two words",
+        "explain": "עוד לא + past = haven't … yet."
+      },
+      {
+        "prompt": "דני ___ בישיבה, הוא יחזור אליך אחר כך. (still)",
+        "en": "Danny is still in the meeting; he'll get back to you later.",
+        "answer": [
+          "עדיין",
+          "עוד"
+        ],
+        "hint": "still",
+        "explain": "עדיין = still (in speech also עוד)."
+      },
+      {
+        "prompt": "הוא ___ יצא מהמשרד, אולי תתפסי אותו בחניון. (just — a moment ago)",
+        "en": "He's just left the office — maybe you'll catch him in the parking lot.",
+        "answer": [
+          "בדיוק",
+          "רק עכשיו"
+        ],
+        "hint": "A moment ago",
+        "explain": "בדיוק + past = has just done something; רק עכשיו also works."
+      },
+      {
+        "prompt": "___ לא הייתי באילת. (never)",
+        "en": "I've never been to Eilat.",
+        "answer": [
+          "אף פעם",
+          "מעולם"
+        ],
+        "hint": "+ לא",
+        "explain": "“Never” is אף פעם + לא — Hebrew needs both words."
+      },
+      {
+        "prompt": "היית ___ בפגישה עם המנכ״ל? (ever)",
+        "en": "Have you ever been in a meeting with the CEO?",
+        "answer": [
+          "פעם"
+        ],
+        "hint": "One word",
+        "explain": "In questions, פעם means “ever”."
+      },
+      {
+        "prompt": "תקרא את כל החוזה ___ שאתה חותם עליו. (before)",
+        "en": "Read the whole contract before you sign it.",
+        "answer": [
+          "לפני"
+        ],
+        "hint": "The ש is already there",
+        "explain": "לפני ש + clause = before."
+      },
+      {
+        "prompt": "___ שסיימנו את הישיבה, הלכנו לאכול צהריים. (after)",
+        "en": "After we finished the meeting, we went for lunch.",
+        "answer": [
+          "אחרי",
+          "לאחר"
+        ],
+        "hint": "The ש is already there",
+        "explain": "אחרי ש + clause = after; לאחר ש is the formal version."
+      },
+      {
+        "prompt": "___ שהתחלתי לעבוד מהבית, אני ישן הרבה יותר טוב. (since)",
+        "en": "Since I started working from home, I've been sleeping much better.",
+        "answer": [
+          "מאז"
+        ],
+        "hint": "The ש is already there",
+        "explain": "מאז ש + past = since something happened."
+      },
+      {
+        "prompt": "נחכה ___ שכולם יגיעו, ואז נתחיל. (until)",
+        "en": "We'll wait until everyone arrives, and then we'll start.",
+        "answer": [
+          "עד"
+        ],
+        "hint": "Future after ש",
+        "explain": "עד ש = until; for a future event the verb is in the future (יגיעו)."
+      },
+      {
+        "prompt": "___ שאקבל את האישור, אעדכן אותך. (as soon as)",
+        "en": "As soon as I get the approval, I'll update you.",
+        "answer": [
+          "ברגע"
+        ],
+        "hint": "The moment that…",
+        "explain": "ברגע ש = as soon as, followed by the future for future events."
+      },
+      {
+        "prompt": "נחזור אליכם ___ שבוע. (within)",
+        "en": "We'll get back to you within a week.",
+        "answer": [
+          "תוך",
+          "בתוך"
+        ],
+        "hint": "+ a period of time",
+        "explain": "תוך + a period of time = within."
+      }
+    ]
+  },
+  {
+    "id": "g_verbal_nouns",
+    "level": "B1+",
+    "title": "Verbal nouns: from “decide” to “decision”",
+    "titleHe": "שם פעולה",
+    "summary": "Turn verbs into nouns — להחליט → החלטה, לבטל → ביטול — the backbone of business and news Hebrew.",
+    "sections": [
+      {
+        "h": "Why verbal nouns matter",
+        "body": "A שם פעולה (shem pe'ulá) is the noun that names a verb's action: לכתוב → כתיבה (writing), להחליט → החלטה (decision). Business and news Hebrew is full of them, usually inside a smichut:\n• ביטול הטיסה — the cancellation of the flight\n• הגשת הדוח — the submission of the report\n• קבלת החלטות — decision-making\n• שיפור השירות — improving the service\nEach binyan has its own pattern, so once you know a verb you can usually recognize — and often build — its noun."
+      },
+      {
+        "h": "The patterns by binyan",
+        "body": "• Pa'al → CCiCa: לכתוב → כתיבה, לנסוע → נסיעה (trip, ride), לבדוק → בדיקה (check, test), לחתום → חתימה (signing, signature)\n• Pi'el → CiCuC: לדבר → דיבור (speech), לבטל → ביטול (cancellation), לטפל → טיפול (treatment, handling), לשפר → שיפור (improvement), לעדכן → עדכון (update)\n• Hif'il → haCCaCa: להגיע → הגעה (arrival), להשקיע → השקעה (investment), להחליט → החלטה (decision), להציע → הצעה (offer, proposal). Careful: להתחיל looks like hitpa'el but is hif'il (root ת.ח.ל), so its noun is התחלה (beginning).\n• Hitpa'el → hitCaCCut: להתקדם → התקדמות (progress), להתפתח → התפתחות (development), להתחייב → התחייבות (commitment), להתייעץ → התייעצות (consultation)\n• Nif'al → hiCaCCut, less common: להירשם → הירשמות (registration — in everyday use also הרשמה), להיעדר → היעדרות (absence), להיערך → היערכות (preparation)\nPu'al and huf'al are passive and have no verbal nouns of their own.",
+        "table": [
+          [
+            "Binyan",
+            "Pattern",
+            "Verb",
+            "Verbal noun",
+            "Meaning"
+          ],
+          [
+            "pa'al",
+            "CCiCa",
+            "לנסוע",
+            "נסיעה",
+            "trip, ride"
+          ],
+          [
+            "pi'el",
+            "CiCuC",
+            "לבטל",
+            "ביטול",
+            "cancellation"
+          ],
+          [
+            "hif'il",
+            "haCCaCa",
+            "להחליט",
+            "החלטה",
+            "decision"
+          ],
+          [
+            "hitpa'el",
+            "hitCaCCut",
+            "להתקדם",
+            "התקדמות",
+            "progress"
+          ],
+          [
+            "nif'al",
+            "hiCaCCut",
+            "להירשם",
+            "הירשמות",
+            "registration"
+          ]
+        ]
+      },
+      {
+        "h": "Using them in sentences",
+        "body": "• They keep the verb's preposition: לטפל ב → טיפול בתלונות (handling complaints), להשקיע ב → השקעה בפיתוח (investment in development).\n• In smichut, nouns ending in -ה switch to -ת: הגשה → הגשת הדוח, בדיקה → בדיקת המסמכים, הצעה → הצעת מחיר (a price quote). Nouns in -ות stay the same: התקדמות הפרויקט.\n• Formal Hebrew uses a verbal noun where speech uses a clause: אחרי שבדקנו את המסמכים… (spoken) → לאחר בדיקת המסמכים… (written); לפני שחותמים על החוזה… → לפני חתימת החוזה…\n• Many come with a fixed verb: לקבל החלטה (to make a decision), לבצע בדיקה (to carry out a check), להגיש הצעה (to submit an offer), לאשר הגעה (to RSVP)."
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "יש לי ___ ארוכה מחר בבוקר. (לנסוע)",
+        "en": "I have a long drive tomorrow morning.",
+        "answer": [
+          "נסיעה"
+        ],
+        "hint": "Pa'al: CCiCa",
+        "explain": "Pa'al verbal nouns follow the CCiCa pattern: לנסוע → נסיעה."
+      },
+      {
+        "prompt": "___ החוזה נקבעה למחר בעשר. (לחתום — in smichut)",
+        "en": "The contract signing has been set for tomorrow at ten.",
+        "answer": [
+          "חתימת"
+        ],
+        "hint": "-ה → -ת",
+        "explain": "לחתום → חתימה, and as the first noun of a smichut it becomes חתימת."
+      },
+      {
+        "prompt": "קיבלנו הודעה על ___ הטיסה. (לבטל)",
+        "en": "We got a notice about the flight cancellation.",
+        "answer": [
+          "ביטול"
+        ],
+        "hint": "Pi'el: CiCuC",
+        "explain": "Pi'el verbal nouns follow CiCuC: לבטל → ביטול."
+      },
+      {
+        "prompt": "יש ___ גדול בשירות מאז השנה שעברה. (לשפר)",
+        "en": "There's been a big improvement in the service since last year.",
+        "answer": [
+          "שיפור"
+        ],
+        "hint": "Pi'el: CiCuC",
+        "explain": "לשפר is pi'el, so its noun is שיפור."
+      },
+      {
+        "prompt": "המחלקה שלנו אחראית על ___ בתלונות של לקוחות. (לטפל)",
+        "en": "Our department is responsible for handling customer complaints.",
+        "answer": [
+          "טיפול",
+          "הטיפול"
+        ],
+        "hint": "Keeps the ב",
+        "explain": "לטפל ב → טיפול ב: the verbal noun keeps the verb's preposition."
+      },
+      {
+        "prompt": "ההנהלה עוד לא קיבלה ___. (להחליט)",
+        "en": "Management hasn't made a decision yet.",
+        "answer": [
+          "החלטה"
+        ],
+        "hint": "Hif'il: haCCaCa",
+        "explain": "Hif'il verbal nouns follow haCCaCa (להחליט → החלטה), and “to make a decision” is לקבל החלטה."
+      },
+      {
+        "prompt": "זאת ___ טובה לטווח הארוך. (להשקיע)",
+        "en": "It's a good long-term investment.",
+        "answer": [
+          "השקעה"
+        ],
+        "hint": "Hif'il: haCCaCa",
+        "explain": "להשקיע → השקעה, the hif'il pattern."
+      },
+      {
+        "prompt": "שלחנו ללקוח ___ מחיר. (להציע — in smichut)",
+        "en": "We sent the client a price quote.",
+        "answer": [
+          "הצעת"
+        ],
+        "hint": "-ה → -ת",
+        "explain": "להציע → הצעה, which becomes הצעת in the smichut הצעת מחיר."
+      },
+      {
+        "prompt": "נא לאשר ___ עד יום חמישי. (להגיע)",
+        "en": "Please confirm your attendance by Thursday.",
+        "answer": [
+          "הגעה"
+        ],
+        "hint": "Hif'il: haCCaCa",
+        "explain": "להגיע → הגעה, and לאשר הגעה is the standard way to RSVP."
+      },
+      {
+        "prompt": "יש ___ יפה בפרויקט. (להתקדם)",
+        "en": "There's good progress on the project.",
+        "answer": [
+          "התקדמות"
+        ],
+        "hint": "Hitpa'el: hitCaCCut",
+        "explain": "Hitpa'el verbal nouns end in -ות: להתקדם → התקדמות."
+      },
+      {
+        "prompt": "החוזה כולל ___ לשנתיים. (להתחייב)",
+        "en": "The contract includes a two-year commitment.",
+        "answer": [
+          "התחייבות"
+        ],
+        "hint": "Hitpa'el: hitCaCCut",
+        "explain": "להתחייב → התחייבות, the hitpa'el pattern."
+      },
+      {
+        "prompt": "כל ___ מהעבודה דורשת אישור של המנהל. (להיעדר)",
+        "en": "Every absence from work requires the manager's approval.",
+        "answer": [
+          "היעדרות"
+        ],
+        "hint": "Nif'al: hiCaCCut",
+        "explain": "Nif'al verbal nouns follow hiCaCCut: להיעדר → היעדרות."
+      }
+    ]
+  },
+  {
+    "id": "g_passive",
+    "level": "B2",
+    "title": "The passive in news and business",
+    "titleHe": "סביל: נפעל, פועל, הופעל",
+    "summary": "Recognize and use passive verbs — נחתם, אושר, הוחלט, מצורף — the voice of news and official emails.",
+    "sections": [
+      {
+        "h": "Who uses the passive?",
+        "body": "In everyday conversation Israelis usually avoid the passive and say “they” with no subject: שלחו לך מייל (an email was sent to you), אמרו לי (I was told), סגרו את הכביש (the road was closed).\nIn news, reports, official emails and on websites the passive is everywhere: הפגישה נדחתה (the meeting was postponed), ההזמנה אושרה (the order was confirmed), הוחלט לסגור את הסניף (it was decided to close the branch).\nEach active binyan has a passive partner:\n• pa'al → nif'al: חתמו על החוזה → החוזה נחתם (was signed)\n• pi'el → pu'al: ביטלו את הפגישה → הפגישה בוטלה (was cancelled)\n• hif'il → huf'al: החליטו → הוחלט (it was decided)\nTo say who did it, add על ידי (by): התקציב אושר על ידי ההנהלה."
+      },
+      {
+        "h": "Nif'al: the passive of pa'al",
+        "body": "Nif'al verbs start with נ in the past and the present:\n• לשלוח → נשלח, נשלחה, נשלחו (was / were sent)\n• לחתום → נחתם (was signed), לבדוק → נבדק (was checked), לסגור → נסגר (was closed), למכור → נמכר (was sold)\n• Present: נשלח, נשלחת, נשלחים, נשלחות — המסמכים נבדקים עכשיו (the documents are being checked now).\n• Future: יישלח, תישלח, יישלחו — התשובה תישלח אליכם תוך שבוע (the answer will be sent to you within a week).\nIn the masculine singular the past and the present look the same (נשלח), so context decides."
+      },
+      {
+        "h": "Pu'al and huf'al: the passive of pi'el and hif'il",
+        "body": "Pu'al has a ‘u’ sound (written ו) after the first root letter:\n• לבטל → בוטל (was cancelled), לאשר → אושר (was approved), לעדכן → עודכן (was updated), לסדר → סודר (was arranged), לתקן → תוקן (was fixed), לפרסם → פורסם (was published)\n• Present: מבוטל, מאושר, מעודכן, מתוקן, מסודר, מצורף (attached). These often work as adjectives: הגרסה המעודכנת (the updated version), הקובץ המצורף (the attached file).\nHuf'al starts with הו in the past and מו in the present:\n• להחליט → הוחלט (it was decided), להזמין → הוזמן (was ordered, invited), להגיש → הוגש (was submitted, served), להציע → הוצע (was offered, proposed), להעביר → הועבר (was transferred)\n• Present: מוזמן (invited — אתם מוזמנים!), מוצע (offered, proposed — המחיר המוצע), מוכן (ready)\n• Future: יוחלט, יוגש, יוזמן, יוצע",
+        "table": [
+          [
+            "Active",
+            "Passive past",
+            "Passive present",
+            "Passive future",
+            "Meaning"
+          ],
+          [
+            "לשלוח (pa'al)",
+            "נשלח / נשלחה",
+            "נשלח / נשלחת",
+            "יישלח / תישלח",
+            "be sent"
+          ],
+          [
+            "לחתום (pa'al)",
+            "נחתם / נחתמה",
+            "נחתם / נחתמת",
+            "ייחתם / תיחתם",
+            "be signed"
+          ],
+          [
+            "לבטל (pi'el)",
+            "בוטל / בוטלה",
+            "מבוטל / מבוטלת",
+            "יבוטל / תבוטל",
+            "be cancelled"
+          ],
+          [
+            "לאשר (pi'el)",
+            "אושר / אושרה",
+            "מאושר / מאושרת",
+            "יאושר / תאושר",
+            "be approved"
+          ],
+          [
+            "להזמין (hif'il)",
+            "הוזמן / הוזמנה",
+            "מוזמן / מוזמנת",
+            "יוזמן / תוזמן",
+            "be ordered, invited"
+          ],
+          [
+            "להגיש (hif'il)",
+            "הוגש / הוגשה",
+            "מוגש / מוגשת",
+            "יוגש / תוגש",
+            "be submitted, served"
+          ]
+        ]
+      },
+      {
+        "h": "Using it in your own emails",
+        "body": "You mainly need to recognize the passive, but a handful of forms are worth using yourself:\n• Status updates: ההזמנה נשלחה, החוזה נחתם, הבעיה תוקנה, התשלום התקבל (the payment was received — hitpa'el often works as a passive too).\n• Attachments: מצורף הקובץ / מצורפת ההצעה / מצורפים המסמכים — the form agrees with what is attached.\n• Decisions: הוחלט ל + infinitive, or הוחלט ש…: הוחלט לדחות את ההשקה (it was decided to postpone the launch).\nTo make an active sentence passive, the object becomes the subject and the verb agrees with it: ההנהלה אישרה את התקציב → התקציב אושר. / ביטלו את הפגישה → הפגישה בוטלה."
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "החוזה ___ אתמול בצהריים. (לחתום — passive, past)",
+        "en": "The contract was signed yesterday at noon.",
+        "answer": [
+          "נחתם"
+        ],
+        "hint": "Nif'al",
+        "explain": "Nif'al is the passive of pa'al: חתמו על החוזה → החוזה נחתם."
+      },
+      {
+        "prompt": "ההזמנה שלך ___ בהצלחה. (לאשר — passive, past)",
+        "en": "Your order has been successfully confirmed.",
+        "answer": [
+          "אושרה"
+        ],
+        "hint": "Pu'al, feminine",
+        "explain": "Pu'al is the passive of pi'el, and ההזמנה is feminine: אושרה."
+      },
+      {
+        "prompt": "הפגישה של יום שני ___ בגלל מחלה. (לבטל — passive, past)",
+        "en": "Monday's meeting was cancelled because of illness.",
+        "answer": [
+          "בוטלה"
+        ],
+        "hint": "Pu'al, feminine",
+        "explain": "לבטל (pi'el) → בוטל, and with a feminine subject בוטלה."
+      },
+      {
+        "prompt": "הכול ___, אפשר להתחיל. (לסדר — passive, past)",
+        "en": "Everything has been arranged; we can start.",
+        "answer": [
+          "סודר"
+        ],
+        "hint": "Pu'al",
+        "explain": "לסדר (pi'el) → סודר (pu'al): was arranged."
+      },
+      {
+        "prompt": "___ לסגור את הסניף בחיפה. (להחליט — passive, past: “it was decided”)",
+        "en": "It was decided to close the Haifa branch.",
+        "answer": [
+          "הוחלט"
+        ],
+        "hint": "Huf'al",
+        "explain": "Huf'al is the passive of hif'il: הוחלט = it was decided."
+      },
+      {
+        "prompt": "הדוח ___ למנכ״ל ביום חמישי. (להגיש — passive, past)",
+        "en": "The report was submitted to the CEO on Thursday.",
+        "answer": [
+          "הוגש"
+        ],
+        "hint": "Huf'al",
+        "explain": "להגיש (hif'il) → הוגש (huf'al): was submitted."
+      },
+      {
+        "prompt": "כל העובדים ___ למסיבת סוף השנה. (להזמין — passive, present)",
+        "en": "All employees are invited to the end-of-year party.",
+        "answer": [
+          "מוזמנים"
+        ],
+        "hint": "Huf'al present",
+        "explain": "The huf'al present works like an adjective: מוזמנים = invited."
+      },
+      {
+        "prompt": "___ הקובץ המעודכן. (לצרף — passive, present)",
+        "en": "The updated file is attached.",
+        "answer": [
+          "מצורף"
+        ],
+        "hint": "Agrees with הקובץ",
+        "explain": "מצורף is the pu'al present of לצרף and agrees with the masculine הקובץ."
+      },
+      {
+        "prompt": "המסמכים ___ עכשיו על ידי עורכת הדין. (לבדוק — passive, present)",
+        "en": "The documents are now being checked by the lawyer.",
+        "answer": [
+          "נבדקים"
+        ],
+        "hint": "Nif'al present",
+        "explain": "Nif'al present plural: נבדקים = are being checked."
+      },
+      {
+        "prompt": "התשובה ___ אליכם תוך שבוע. (לשלוח — passive, future)",
+        "en": "The answer will be sent to you within a week.",
+        "answer": [
+          "תישלח"
+        ],
+        "hint": "Nif'al future",
+        "explain": "Nif'al future, feminine to agree with התשובה: תישלח."
+      },
+      {
+        "prompt": "הגרסה ___ של המצגת נמצאת בתיקייה המשותפת. (לתקן — passive present, used as an adjective)",
+        "en": "The corrected version of the presentation is in the shared folder.",
+        "answer": [
+          "המתוקנת"
+        ],
+        "hint": "Agree + ה",
+        "explain": "The pu'al present מתוקן works as an adjective here, so it is feminine and takes ה like הגרסה."
+      },
+      {
+        "prompt": "המוצר החדש ___ למכירה בכל הסניפים החל מיום ראשון. (להציע — passive, future)",
+        "en": "The new product will be offered for sale in all branches starting Sunday.",
+        "answer": [
+          "יוצע"
+        ],
+        "hint": "Huf'al future",
+        "explain": "The huf'al future of להציע is יוצע (will be offered)."
+      }
+    ]
+  },
+  {
+    "id": "g_formal_register",
+    "level": "B1+",
+    "title": "Business register: polite requests and email Hebrew",
+    "titleHe": "עברית רשמית לעבודה",
+    "summary": "אשמח אם, אודה לך אם, נא, ניתן, בהמשך ל, מצורף, בברכה — and the formal twins of everyday words.",
+    "sections": [
+      {
+        "h": "Polite requests",
+        "body": "• אשמח אם + future — the standard polite request in Israeli emails: אשמח אם תשלח לי את הפרטים. Also אשמח ל + noun or infinitive: אשמח לתשובה (I'd appreciate a reply), אשמח לקבל הצעת מחיר.\n• אודה לך / לכם אם + future — more formal, “I'd be grateful if”: אודה לכם אם תאשרו את קבלת המייל.\n• נא + infinitive — the written “please” of notices, forms and invitations: נא לאשר הגעה, נא לא לעשן. Don't use it face to face — it sounds like a sign.\n• ניתן — the formal אפשר: ניתן לשלם בכרטיס אשראי. / לא ניתן לבטל את ההזמנה.\n• האם ניתן…? — a formal yes/no question: האם ניתן לדחות את הפגישה ליום ראשון? (In speech: אפשר לדחות…?)\n• תודה מראש — thanks in advance, a very common last line before the sign-off."
+      },
+      {
+        "h": "Email formulas",
+        "body": "• לכבוד — “To” at the top of a formal letter: לכבוד גב׳ מיכל אדלר / לכבוד מר רון שחר\n• שלום רב — the formal greeting (with colleagues: היי or שלום + first name)\n• הנדון: — “Re:”, the subject line of a formal letter\n• בהמשך ל — further to: בהמשך לשיחתנו הטלפונית / בהמשך למייל הקודם\n• מצורף / מצורפת / מצורפים — attached, agreeing with what is attached: מצורפת הצעת המחיר\n• לגבי / בנוגע ל — regarding: בנוגע לפגישה של מחר…\n• נשמח לעמוד לרשותכם — we'll be happy to help (lit. “to be at your disposal”)\n• בברכה — Regards. Very formal: בכבוד רב. Friendlier: תודה ויום טוב.\nA short example:\nשלום רב,\nבהמשך לשיחתנו מאתמול, מצורפת הצעת המחיר לפרויקט.\nאשמח אם תוכלי לעבור עליה ולחזור אליי עד יום חמישי.\nבברכה,\nרון שחר"
+      },
+      {
+        "h": "Formal and everyday equivalents",
+        "body": "Formal words make an email or a presentation sound professional; in conversation they can sound stiff. A few usage notes:\n• טרם takes no לא: טרם קיבלנו תשובה (we have not yet received an answer).\n• מעוניין ב + noun or ל + infinitive: אנו מעוניינים בפרטים נוספים / אנו מעוניינים לרכוש עשרה מחשבים.\n• באמצעות + noun: ניתן לשלם באמצעות העברה בנקאית.\n• כמו כן usually opens a sentence: כמו כן, נבקש לקבל עותק של החשבונית.\n• אנו is the formal אנחנו.",
+        "table": [
+          [
+            "Formal",
+            "Everyday",
+            "Meaning"
+          ],
+          [
+            "כיצד",
+            "איך",
+            "how"
+          ],
+          [
+            "מדוע",
+            "למה",
+            "why"
+          ],
+          [
+            "היכן",
+            "איפה",
+            "where"
+          ],
+          [
+            "כעת",
+            "עכשיו",
+            "now"
+          ],
+          [
+            "ניתן",
+            "אפשר",
+            "it's possible"
+          ],
+          [
+            "לרכוש",
+            "לקנות",
+            "to purchase, buy"
+          ],
+          [
+            "טרם",
+            "עוד לא",
+            "not yet"
+          ],
+          [
+            "מעוניין / מעוניינת",
+            "רוצה",
+            "interested, would like"
+          ],
+          [
+            "באמצעות",
+            "עם, דרך",
+            "by means of, via"
+          ],
+          [
+            "כמו כן",
+            "גם",
+            "also, in addition"
+          ],
+          [
+            "לאחר",
+            "אחרי",
+            "after"
+          ],
+          [
+            "על מנת",
+            "כדי",
+            "in order to"
+          ],
+          [
+            "מספר",
+            "כמה",
+            "several"
+          ],
+          [
+            "אנו",
+            "אנחנו",
+            "we"
+          ]
+        ]
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "___ אם תשלחו לי את הפרטים עד מחר. (I'd be happy — one word)",
+        "en": "I'd appreciate it if you sent me the details by tomorrow.",
+        "answer": [
+          "אשמח"
+        ],
+        "hint": "Future of לשמוח",
+        "explain": "אשמח אם + future is the standard polite request in emails."
+      },
+      {
+        "prompt": "___ לכם אם תאשרו את קבלת המייל. (I'd be grateful)",
+        "en": "I'd be grateful if you could confirm receipt of this email.",
+        "answer": [
+          "אודה"
+        ],
+        "hint": "Future of להודות",
+        "explain": "אודה ל + person + אם is an even more formal “I'd be grateful if”."
+      },
+      {
+        "prompt": "___ למלא את הטופס בכתב ברור. (please — a written instruction)",
+        "en": "Please fill in the form legibly.",
+        "answer": [
+          "נא"
+        ],
+        "hint": "+ infinitive",
+        "explain": "נא + infinitive is the written “please” of forms, signs and invitations."
+      },
+      {
+        "prompt": "___ לבטל את ההזמנה ללא עלות עד יום לפני ההגעה. (it's possible — formal)",
+        "en": "The booking can be cancelled free of charge up to one day before arrival.",
+        "answer": [
+          "ניתן"
+        ],
+        "hint": "Formal אפשר",
+        "explain": "ניתן is the formal equivalent of אפשר."
+      },
+      {
+        "prompt": "___ ניתן לדחות את הפגישה ליום ראשון? (formal question word)",
+        "en": "Would it be possible to postpone the meeting to Sunday?",
+        "answer": [
+          "האם"
+        ],
+        "hint": "Opens a yes/no question",
+        "explain": "האם opens a formal yes/no question; in speech you'd just say אפשר לדחות…?"
+      },
+      {
+        "prompt": "___ לשיחתנו הטלפונית, אני שולח לך את ההצעה המעודכנת. (further to)",
+        "en": "Further to our phone conversation, I'm sending you the updated proposal.",
+        "answer": [
+          "בהמשך"
+        ],
+        "hint": "+ ל",
+        "explain": "בהמשך ל = further to, a classic way to open a follow-up email."
+      },
+      {
+        "prompt": "___ הצעת המחיר לפרויקט. (attached)",
+        "en": "Attached is the price quote for the project.",
+        "answer": [
+          "מצורפת"
+        ],
+        "hint": "Agrees with הצעה",
+        "explain": "מצורף agrees with what is attached: הצעה is feminine, so מצורפת."
+      },
+      {
+        "prompt": "___ קיבלנו את התשלום. (not yet — formal)",
+        "en": "We have not yet received the payment.",
+        "answer": [
+          "טרם"
+        ],
+        "hint": "No לא after it",
+        "explain": "טרם is the formal עוד לא, and it is not followed by לא."
+      },
+      {
+        "prompt": "אנו ___ לרכוש עשרים מחשבים ניידים. (interested — formal, plural)",
+        "en": "We are interested in purchasing twenty laptops.",
+        "answer": [
+          "מעוניינים"
+        ],
+        "hint": "Plural with אנו",
+        "explain": "מעוניין ל + infinitive is the formal “would like to”; with אנו it's plural."
+      },
+      {
+        "prompt": "___ ניתן להירשם לכנס? (how — formal)",
+        "en": "How can one register for the conference?",
+        "answer": [
+          "כיצד"
+        ],
+        "hint": "Formal איך",
+        "explain": "כיצד is the formal איך."
+      },
+      {
+        "prompt": "___, נבקש לקבל עותק של החשבונית. (also — formal, opens a sentence)",
+        "en": "We would also like to receive a copy of the invoice.",
+        "answer": [
+          "כמו כן"
+        ],
+        "hint": "Formal גם",
+        "explain": "כמו כן adds a further point in formal writing (= גם)."
+      },
+      {
+        "prompt": "ניתן לשלם ___ אפליקציית הבנק. (by means of — formal)",
+        "en": "You can pay via the bank's app.",
+        "answer": [
+          "באמצעות"
+        ],
+        "hint": "Formal עם / דרך",
+        "explain": "באמצעות = by means of, the formal way to say how something is done."
+      }
+    ]
+  }
+]

@@ -15,7 +15,7 @@ const LEVELS = ['A2', 'A2+', 'B1', 'B1+', 'B2'];
 const VOCAB_LEVELS = ['A2', 'B1', 'B2'];
 const POS = ['noun', 'verb', 'adj', 'adv', 'prep', 'conj', 'phrase', 'num', 'pron', 'expr'];
 const BINYANIM = ['paal', 'piel', 'hifil', 'hitpael', 'nifal', 'pual', 'hufal'];
-const NIQQUD = /[ְ-ׇ]/;
+const NIQQUD = /[\u05B0-\u05BD\u05BF\u05C1\u05C2\u05C4\u05C5\u05C7]/; // vowel points, not maqaf
 
 function err(where: string, msg: string) {
   errors.push(`${where}: ${msg}`);

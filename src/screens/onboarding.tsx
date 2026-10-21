@@ -217,7 +217,7 @@ export function Placement() {
   const done = result && result.verdict !== 'latin';
 
   const submit = (given: string) => {
-    const r = given ? checkHebrew(given, accepted) : ({ verdict: 'wrong', expected: accepted[0] } as CheckResult);
+    const r = given ? checkHebrew(given, accepted, { strict: q.kind === 'drill' }) : ({ verdict: 'wrong', expected: accepted[0] } as CheckResult);
     setResult(r);
     if (r.verdict === 'latin') return;
     const ok = r.verdict !== 'wrong';

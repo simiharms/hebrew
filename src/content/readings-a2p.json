@@ -179,6 +179,8 @@
           "keywords": [
             "הרגשתי",
             "לחץ",
+            "לחוץ",
+            "שמח",
             "שמחתי",
             "פחדתי",
             "התרגשתי"
@@ -261,7 +263,7 @@
       },
       {
         "he": "תיווך",
-        "en": "real-estate agent's fee",
+        "en": "brokerage (real-estate agent's fee)",
         "tr": "tivúkh"
       },
       {
@@ -773,12 +775,12 @@
         "en": "Starting next Sunday, Beersheba will have a new bus line, line 14. The line will run from the new neighborhoods in the north of the city, through the city center, to the university and the hospital."
       },
       {
-        "he": "האוטובוס יגיע כל עשר דקות בבוקר ובערב, וכל עשרים דקות בשאר היום. האוטובוסים ייסעו מחמש וחצי בבוקר עד חצות. המחיר כמו בכל קו אחר בעיר, ואפשר לשלם ברב-קו או באפליקציה.",
-        "en": "The bus will come every ten minutes in the morning and in the evening, and every twenty minutes the rest of the day. The buses will run from 5:30 in the morning until midnight. The fare is the same as on any other line in the city, and you can pay with a Rav-Kav card or with an app."
+        "he": "האוטובוס יגיע כל עשר דקות בבוקר ובערב, וכל עשרים דקות בשאר היום. האוטובוסים ייסעו מחמש וחצי בבוקר עד חצות. המחיר כמו בכל קו אחר בעיר. אפשר לשלם ברב-קו או באפליקציה.",
+        "en": "The bus will come every ten minutes in the morning and in the evening, and every twenty minutes the rest of the day. The buses will run from 5:30 in the morning until midnight. The fare is the same as on any other line in the city. You can pay with a Rav-Kav card or with an app."
       },
       {
-        "he": "בעירייה אומרים שהרבה תושבים ביקשו את הקו. עד היום, מי שגר בשכונות החדשות היה צריך לנסוע בשני אוטובוסים, או ברכב פרטי. בבוקר יש פקקים בכניסה לעיר, ובעירייה מקווים שעכשיו יהיו פחות מכוניות בכבישים.",
-        "en": "The municipality says that many residents asked for the line. Until now, people living in the new neighborhoods had to take two buses or go by private car. In the morning there are traffic jams at the entrance to the city, and the municipality hopes there will now be fewer cars on the roads."
+        "he": "בעירייה אומרים שהרבה תושבים ביקשו את הקו. עד היום, מי שגר בשכונות החדשות היה צריך לנסוע בשני אוטובוסים, או ברכב פרטי. בבוקר יש פקקים בכניסה לעיר. בעירייה מקווים שעכשיו יהיו פחות מכוניות בכבישים.",
+        "en": "The municipality says that many residents asked for the line. Until now, people living in the new neighborhoods had to take two buses or go by private car. In the morning there are traffic jams at the entrance to the city. The municipality hopes there will now be fewer cars on the roads."
       },
       {
         "he": "ליאת, סטודנטית בת 23 מאחת השכונות, שמחה מאוד: \"עד היום הנסיעה לאוניברסיטה לקחה לי שעה. עכשיו היא תיקח רק עשרים דקות!\" אבל לא כולם מרוצים. כמה תושבים ברחוב הרצל אומרים שהאוטובוסים יעשו שם הרבה רעש.",
@@ -1126,6 +1128,7 @@
           "en": "Say how you felt",
           "keywords": [
             "הרגשתי",
+            "שמח",
             "שמחתי",
             "נהניתי",
             "אהבתי"

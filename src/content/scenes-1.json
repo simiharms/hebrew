@@ -1,0 +1,688 @@
+[
+  {
+    "id": "s_roommates_milk",
+    "level": "A2+",
+    "title": "מי גמר את החלב?",
+    "titleEn": "Who Finished the Milk?",
+    "genre": "sitcom",
+    "synopsis": "Noa opens the fridge and finds an empty milk carton — again. She and her roommate Itay argue about whose turn it is, until their third roommate walks into the kitchen.",
+    "speakers": {
+      "A": { "name": "נועה", "gender": "f" },
+      "B": { "name": "איתי", "gender": "m" },
+      "C": { "name": "שירה", "gender": "f" }
+    },
+    "lines": [
+      { "s": "A", "he": "איתי! למה אין חלב במקרר?", "en": "Itay! Why is there no milk in the fridge?" },
+      { "s": "B", "he": "מה זה אין? קניתי אתמול.", "en": "What do you mean, no milk? I bought some yesterday." },
+      { "s": "A", "he": "נו, באמת. יש פה רק קרטון ריק.", "en": "Oh, come on. There's just an empty carton here." },
+      { "s": "B", "he": "רגע, זה לא אני. אני בכלל שותה קפה שחור.", "en": "Wait, that wasn't me. I drink black coffee anyway." },
+      { "s": "A", "he": "וחוץ מזה, השבוע התור שלך לנקות את המטבח.", "en": "And besides, this week it's your turn to clean the kitchen." },
+      { "s": "B", "he": "אין מצב! ניקיתי בשבוע שעבר.", "en": "No way! I cleaned last week." },
+      { "s": "A", "he": "ניקית? שטפת צלחת אחת, איתי.", "en": "Cleaned? You washed one plate, Itay." },
+      { "s": "B", "he": "שתי צלחות ומחבת. תכלס, זה נחשב.", "en": "Two plates and a pan. Technically, that counts." },
+      { "s": "A", "he": "כאילו, אתה רציני עכשיו?", "en": "Like, are you serious right now?" },
+      { "s": "B", "he": "תשמעי, בואי נעשה טבלה. מי עושה מה ומתי.", "en": "Listen, let's make a chart. Who does what, and when." },
+      { "s": "A", "he": "עוד טבלה? יש לנו כבר שלוש טבלאות!", "en": "Another chart? We already have three charts!" },
+      { "s": "C", "he": "בוקר טוב! מי רוצה קפה הפוך?", "en": "Good morning! Who wants a latte?" },
+      { "s": "A", "he": "רגע, שירה... מאיפה יש לך חלב?", "en": "Wait, Shira... where did you get milk?" },
+      { "s": "C", "he": "מהמקרר. היה שם קצת, אז גמרתי אותו.", "en": "From the fridge. There was a little left, so I finished it." },
+      { "s": "B", "he": "את רואה? אמרתי לך שזה לא אני!", "en": "See? I told you it wasn't me!" },
+      { "s": "A", "he": "יאללה, שירה. היום את קונה חלב.", "en": "Right, Shira. Today you're buying the milk." },
+      { "s": "C", "he": "סבבה, בקטנה. אני אקנה בדרך הביתה.", "en": "Sure, no big deal. I'll pick some up on the way home." }
+    ],
+    "questions": [
+      {
+        "q": "מה נועה מוצאת במקרר?",
+        "qEn": "What does Noa find in the fridge?",
+        "answer": "רק קרטון חלב ריק.",
+        "answerEn": "Only an empty milk carton.",
+        "keywords": [["ריק", "ריקה", "אין חלב", "נגמר"]]
+      },
+      {
+        "q": "למה איתי אומר שזה לא הוא?",
+        "qEn": "Why does Itay say it wasn't him?",
+        "answer": "כי הוא שותה קפה שחור, בלי חלב.",
+        "answerEn": "Because he drinks black coffee, without milk.",
+        "keywords": [["שחור", "בלי חלב"]]
+      },
+      {
+        "q": "מה איתי מציע, ולמה נועה לא אוהבת את הרעיון?",
+        "qEn": "What does Itay suggest, and why doesn't Noa like the idea?",
+        "answer": "לעשות טבלה, אבל יש להם כבר שלוש טבלאות.",
+        "answerEn": "To make a chart — but they already have three charts.",
+        "keywords": [["טבלה", "טבלאות"], ["שלוש", "הרבה"]]
+      },
+      {
+        "q": "מי גמר את החלב, ולמה?",
+        "qEn": "Who finished the milk, and why?",
+        "answer": "שירה גמרה אותו, כי היא הכינה קפה הפוך.",
+        "answerEn": "Shira finished it, because she made herself a latte.",
+        "keywords": [["שירה"], ["קפה", "הפוך"]]
+      },
+      {
+        "q": "מה מחליטים בסוף?",
+        "qEn": "What do they decide at the end?",
+        "answer": "ששירה תקנה חלב בדרך הביתה.",
+        "answerEn": "That Shira will buy milk on the way home.",
+        "keywords": [["שירה"], ["תקנה", "קונה", "לקנות", "קנה", "אקנה"]]
+      }
+    ],
+    "dictation": [5, 11, 14],
+    "expressions": [
+      { "he": "מה זה אין?", "en": "What do you mean, 'none'?", "note": "מה זה + the other person's word protests or questions what they just said: מה זה לא? מה זה מאוחר? Very common in casual speech." },
+      { "he": "נו, באמת", "en": "Oh, come on", "note": "Exasperated or impatient; the tone carries most of the meaning. Casual." },
+      { "he": "אין מצב", "en": "No way", "note": "Informal refusal or disbelief. Also works as a frame: אין מצב שאני מנקה שוב = there's no way I'm cleaning again." },
+      { "he": "תכלס", "en": "Technically / bottom line", "note": "Slang for 'in practice, what actually counts'. Very common in speech; keep it out of formal writing." },
+      { "he": "בקטנה", "en": "No big deal / sure, easy", "note": "Casual reply when someone asks a small favour or thanks you. It can also mean 'slightly'." },
+      { "he": "קפה הפוך", "en": "latte (Israeli style)", "note": "Literally 'upside-down coffee' — the standard milky coffee in any Israeli café." }
+    ]
+  },
+  {
+    "id": "s_doctor_appointment",
+    "level": "A2+",
+    "title": "לקבוע תור לרופא",
+    "titleEn": "Booking a Doctor's Appointment",
+    "genre": "phone",
+    "synopsis": "Yossi isn't feeling well and calls his health fund's appointment line to see a family doctor. The first free slot is a long way off — can the agent find him something sooner?",
+    "speakers": {
+      "A": { "name": "שירן", "gender": "f" },
+      "B": { "name": "יוסי", "gender": "m" }
+    },
+    "lines": [
+      { "s": "A", "he": "מוקד זימון תורים, שלום, מדברת שירן. במה אפשר לעזור?", "en": "Appointments line, hello, this is Shiran. How can I help?" },
+      { "s": "B", "he": "שלום, אני רוצה לקבוע תור לרופא משפחה.", "en": "Hello, I'd like to book an appointment with a family doctor." },
+      { "s": "A", "he": "בשמחה. אפשר מספר תעודת זהות?", "en": "Gladly. Can I have your ID number?" },
+      { "s": "B", "he": "כן, שנייה... שלוש, אחת, שבע, שתיים, חמש, שמונה, אפס, ארבע, תשע.", "en": "Yes, one second... three, one, seven, two, five, eight, zero, four, nine." },
+      { "s": "A", "he": "תודה, יוסי. אתה רשום אצל דוקטור רוזן, נכון?", "en": "Thanks, Yossi. You're registered with Dr. Rosen, right?" },
+      { "s": "B", "he": "נכון. מה התור הכי קרוב שיש?", "en": "Right. What's the earliest appointment you have?" },
+      { "s": "A", "he": "רגע, אני בודקת... יש ביום חמישי, בעוד שבועיים.", "en": "One moment, I'm checking... There's one on Thursday, two weeks from now." },
+      { "s": "B", "he": "שבועיים?! אין משהו יותר מוקדם? יש לי חום מאתמול.", "en": "Two weeks?! Isn't there anything sooner? I've had a fever since yesterday." },
+      { "s": "A", "he": "אה, עם חום לא מחכים שבועיים.", "en": "Oh, with a fever you don't wait two weeks." },
+      { "s": "B", "he": "כן, אני ממש לא מרגיש טוב.", "en": "Yeah, I really don't feel well." },
+      { "s": "A", "he": "שנייה... יש תור היום בארבע וחצי, אצל רופאה אחרת.", "en": "One second... There's an appointment today at four-thirty, with a different doctor." },
+      { "s": "B", "he": "היום? אחלה! היא באותה מרפאה?", "en": "Today? Great! Is she at the same clinic?" },
+      { "s": "A", "he": "לא, היא במרפאה ברחוב הרצל, עשר דקות ממך.", "en": "No, she's at the clinic on Herzl Street, ten minutes from you." },
+      { "s": "B", "he": "סבבה, אין בעיה. אני לוקח.", "en": "Fine, no problem. I'll take it." },
+      { "s": "A", "he": "מעולה, קבעתי לך. תקבל הודעה לנייד עם כל הפרטים.", "en": "Excellent, you're booked. You'll get a text on your phone with all the details." },
+      { "s": "B", "he": "תודה רבה, את אלופה!", "en": "Thank you so much, you're a star!" },
+      { "s": "A", "he": "בכיף. רפואה שלמה!", "en": "My pleasure. Feel better soon!" }
+    ],
+    "questions": [
+      {
+        "q": "למה יוסי מתקשר למוקד?",
+        "qEn": "Why does Yossi call the appointments line?",
+        "answer": "כי הוא רוצה לקבוע תור לרופא.",
+        "answerEn": "Because he wants to book an appointment with a doctor.",
+        "keywords": [["תור"], ["רופא", "רופאה", "דוקטור"]]
+      },
+      {
+        "q": "למה יוסי לא רוצה את התור ביום חמישי?",
+        "qEn": "Why doesn't Yossi want the Thursday appointment?",
+        "answer": "כי זה רק בעוד שבועיים, ויש לו חום.",
+        "answerEn": "Because it's only in two weeks, and he has a fever.",
+        "keywords": [["שבועיים", "שבוע", "מאוחר", "רחוק"], ["חום", "חולה"]]
+      },
+      {
+        "q": "מתי התור החדש של יוסי?",
+        "qEn": "When is Yossi's new appointment?",
+        "answer": "היום בארבע וחצי.",
+        "answerEn": "Today at four-thirty.",
+        "keywords": [["היום"], ["ארבע"]]
+      },
+      {
+        "q": "איך יוסי יקבל את כל הפרטים?",
+        "qEn": "How will Yossi get all the details?",
+        "answer": "הוא יקבל הודעה לנייד.",
+        "answerEn": "He'll get a text message on his mobile.",
+        "keywords": [["הודעה", "מסרון", "סמס"], ["נייד", "טלפון", "פלאפון"]]
+      }
+    ],
+    "dictation": [1, 5, 9],
+    "expressions": [
+      { "he": "לקבוע תור", "en": "to book an appointment", "note": "תור means both a queue and an appointment. You 'set' one: לקבוע תור לרופא / לספר / למוסך." },
+      { "he": "מדברת שירן", "en": "This is Shiran (speaking)", "note": "Standard way to answer a work phone: מדבר / מדברת + your name. Neutral and polite." },
+      { "he": "התור הכי קרוב", "en": "the earliest available appointment", "note": "Literally 'the closest appointment' — the phrase to use whenever you call a clinic or any service." },
+      { "he": "את אלופה!", "en": "You're a star!", "note": "Literally 'you're a champion'. Warm, casual thanks to someone who helped you. To a man: אתה אלוף!" },
+      { "he": "בכיף", "en": "My pleasure / gladly", "note": "Casual reply to תודה, or a cheerful yes to a request." },
+      { "he": "רפואה שלמה", "en": "Get well soon", "note": "Literally 'a complete recovery'. The standard wish to anyone who is ill, in any register." }
+    ]
+  },
+  {
+    "id": "s_falafel_stand",
+    "level": "A2+",
+    "title": "פלאפל עם הכל",
+    "titleEn": "Falafel with Everything",
+    "genre": "street",
+    "synopsis": "Maya stops at a falafel stand for lunch. Shimon, the seller, has an opinion about everything — from the size of her pita to how much hot sauce she can handle.",
+    "speakers": {
+      "A": { "name": "שמעון", "gender": "m" },
+      "B": { "name": "מאיה", "gender": "f" }
+    },
+    "lines": [
+      { "s": "A", "he": "כן, נשמה, מה בשבילך?", "en": "Yes, sweetheart, what can I get you?" },
+      { "s": "B", "he": "שלום, פלאפל בפיתה, בבקשה.", "en": "Hi, falafel in a pita, please." },
+      { "s": "A", "he": "פיתה? למה לא לאפה? זה יותר גדול!", "en": "A pita? Why not a laffa? It's bigger!" },
+      { "s": "B", "he": "לא, תודה, פיתה זה מספיק.", "en": "No, thanks, a pita is enough." },
+      { "s": "A", "he": "סבבה. עם הכל?", "en": "OK. With everything?" },
+      { "s": "B", "he": "עם הכל, אבל בלי חמוצים.", "en": "With everything, but no pickles." },
+      { "s": "A", "he": "בלי חמוצים? מה, את לא אוהבת?", "en": "No pickles? What, you don't like them?" },
+      { "s": "B", "he": "לא ממש. וקצת חריף, בבקשה.", "en": "Not really. And a little hot sauce, please." },
+      { "s": "A", "he": "קצת? אצלי קצת זה הרבה. תיזהרי!", "en": "A little? At my place, a little is a lot. Careful!" },
+      { "s": "B", "he": "וואלה? אז רק טיפה.", "en": "Really? Then just a drop." },
+      { "s": "A", "he": "את חדשה בשכונה? לא ראיתי אותך פה.", "en": "Are you new in the neighborhood? I haven't seen you around." },
+      { "s": "B", "he": "כן, עברתי לפה לפני חודש.", "en": "Yes, I moved here a month ago." },
+      { "s": "A", "he": "ברוכה הבאה! אז היום זה עליי.", "en": "Welcome! So today it's on me." },
+      { "s": "B", "he": "באמת? אין מצב!", "en": "Really? No way!" },
+      { "s": "A", "he": "סתם, סתם! אבל שמתי לך עוד כדור.", "en": "Just kidding, just kidding! But I put an extra ball in for you." },
+      { "s": "B", "he": "אחלה, תודה רבה!", "en": "Great, thanks a lot!" },
+      { "s": "A", "he": "בתיאבון! ותגידי לכולם: הפלאפל הכי טוב בעיר!", "en": "Enjoy! And tell everyone: the best falafel in town!" }
+    ],
+    "questions": [
+      {
+        "q": "מה מאיה מזמינה, ומה היא לא רוצה בפנים?",
+        "qEn": "What does Maya order, and what doesn't she want in it?",
+        "answer": "פלאפל בפיתה עם הכל, אבל בלי חמוצים.",
+        "answerEn": "Falafel in a pita with everything, but no pickles.",
+        "keywords": [["פיתה"], ["חמוצים", "חמוץ"]]
+      },
+      {
+        "q": "למה שמעון אומר למאיה להיזהר?",
+        "qEn": "Why does Shimon tell Maya to be careful?",
+        "answer": "כי אצלו קצת חריף זה הרבה.",
+        "answerEn": "Because at his stand, 'a little' hot sauce is a lot.",
+        "keywords": [["חריף"], ["הרבה", "מאוד", "חזק"]]
+      },
+      {
+        "q": "מתי מאיה עברה לשכונה?",
+        "qEn": "When did Maya move to the neighborhood?",
+        "answer": "היא עברה לשכונה לפני חודש.",
+        "answerEn": "She moved to the neighborhood a month ago.",
+        "keywords": [["חודש"]]
+      },
+      {
+        "q": "האם הפלאפל באמת בחינם? מה שמעון עושה בסוף?",
+        "qEn": "Is the falafel really free? What does Shimon do in the end?",
+        "answer": "לא, הוא רק צחק. אבל הוא שם לה עוד כדור.",
+        "answerEn": "No, he was only joking. But he puts an extra falafel ball in for her.",
+        "keywords": [["צחק", "צוחק", "סתם", "בדיחה"], ["כדור"]]
+      }
+    ],
+    "dictation": [3, 7, 11],
+    "expressions": [
+      { "he": "מה בשבילך?", "en": "What can I get you?", "note": "What a seller or waiter says to a customer. Friendly and everyday." },
+      { "he": "נשמה", "en": "sweetheart, dear", "note": "Literally 'soul'. Sellers and strangers use it warmly with anyone, men and women alike. Informal." },
+      { "he": "עם הכל", "en": "with everything", "note": "At a falafel or shawarma stand: all the salads and sauces. Add בלי... to leave something out." },
+      { "he": "טיפה", "en": "a tiny bit", "note": "Literally 'a drop'. Colloquial for 'a little': טיפה חריף, טיפה מאוחר." },
+      { "he": "זה עליי", "en": "It's on me", "note": "I'm paying. To say it's on someone else: זה עליך (to a man) / זה עלייך (to a woman)." },
+      { "he": "סתם!", "en": "Just kidding!", "note": "Takes back a joke you just made. סתם also means 'just / for no reason': סתם שאלתי = I was just asking." }
+    ]
+  },
+  {
+    "id": "s_first_day_names",
+    "level": "A2+",
+    "title": "היום הראשון במשרד",
+    "titleEn": "First Day at the Office",
+    "genre": "sitcom",
+    "synopsis": "It's Daniel's first day at a small company, and his manager introduces him to the team. Too bad half of them seem to have the same name.",
+    "speakers": {
+      "A": { "name": "רונית", "gender": "f" },
+      "B": { "name": "דניאל", "gender": "m" },
+      "C": { "name": "מיכל", "gender": "f" },
+      "D": { "name": "דני", "gender": "m" }
+    },
+    "lines": [
+      { "s": "A", "he": "בוקר טוב לכולם! זה דניאל, הוא מתחיל אצלנו היום.", "en": "Good morning, everyone! This is Daniel — he's starting with us today." },
+      { "s": "B", "he": "היי, נעים מאוד. אני קצת לחוץ.", "en": "Hi, nice to meet you. I'm a little nervous." },
+      { "s": "A", "he": "אל תדאג, כולם פה נחמדים. זאת מיכל מהשיווק.", "en": "Don't worry, everyone here is nice. This is Michal from marketing." },
+      { "s": "C", "he": "היי, ברוך הבא! ושם, ליד החלון, זאת גם מיכל.", "en": "Hi, welcome! And over there by the window — that's also Michal." },
+      { "s": "B", "he": "רגע, יש פה שתי מיכל? איך אני אזכור?", "en": "Wait, there are two Michals here? How am I going to remember?" },
+      { "s": "C", "he": "קל. אני מיכל מהשיווק, והיא מיכל מהכספים.", "en": "Easy. I'm Michal from marketing, and she's Michal from finance." },
+      { "s": "A", "he": "ופה זה דני, איש המחשבים שלנו.", "en": "And this is Danny, our computer guy." },
+      { "s": "D", "he": "אהלן, אחי! סליחה, לא שמעתי. איך קוראים לך?", "en": "Hey, bro! Sorry, I didn't catch that. What's your name?" },
+      { "s": "B", "he": "דניאל. אבל כולם קוראים לי דני.", "en": "Daniel. But everyone calls me Danny." },
+      { "s": "D", "he": "וואלה? גם אני דני! אז מי זה מי?", "en": "Seriously? I'm Danny too! So who's who?" },
+      { "s": "A", "he": "תכלס, זה פשוט: אתה דני, והוא דניאל.", "en": "Bottom line, it's simple: you're Danny, and he's Daniel." },
+      { "s": "B", "he": "סבבה, בקטנה. דניאל זה גם בסדר.", "en": "Sure, no big deal. Daniel's fine too." },
+      { "s": "A", "he": "מעולה. אז דני, בוא, אני מראה לך את השולחן שלך.", "en": "Great. So, Danny, come on, I'll show you your desk." },
+      { "s": "D", "he": "השולחן שלי? אבל אני פה כבר שלוש שנים!", "en": "My desk? But I've been here for three years!" },
+      { "s": "A", "he": "לא אתה! הוא! דניאל!", "en": "Not you! Him! Daniel!" },
+      { "s": "C", "he": "כאילו, זה החזיק פחות מדקה.", "en": "Like, that lasted less than a minute." },
+      { "s": "A", "he": "אוף... מחר כולם מקבלים תג עם שם.", "en": "Ugh... tomorrow everyone gets a name tag." }
+    ],
+    "questions": [
+      {
+        "q": "איך דניאל מרגיש ביום הראשון?",
+        "qEn": "How does Daniel feel on his first day?",
+        "answer": "הוא קצת לחוץ.",
+        "answerEn": "He's a little nervous.",
+        "keywords": [["לחוץ", "לחוצה", "לחץ", "מתוח", "מתרגש", "עצבני"]]
+      },
+      {
+        "q": "יש שתי מיכל. איך יודעים מי זאת מי?",
+        "qEn": "There are two Michals. How can you tell who's who?",
+        "answer": "אחת מהשיווק, והשנייה מהכספים.",
+        "answerEn": "One is from marketing and the other is from finance.",
+        "keywords": [["שיווק"], ["כספים", "כסף"]]
+      },
+      {
+        "q": "מה הבעיה עם השם של דניאל?",
+        "qEn": "What's the problem with Daniel's name?",
+        "answer": "כולם קוראים לו דני, וגם איש המחשבים הוא דני.",
+        "answerEn": "Everyone calls him Danny, and the computer guy is also Danny.",
+        "keywords": [["דני"], ["מחשבים", "מחשב", "עוד דני", "שני דני"]]
+      },
+      {
+        "q": "למה דני מופתע כשרונית מדברת על השולחן?",
+        "qEn": "Why is Danny surprised when Ronit talks about the desk?",
+        "answer": "כי הוא עובד שם כבר שלוש שנים.",
+        "answerEn": "Because he has already been working there for three years.",
+        "keywords": [["שלוש"], ["שנים", "שנה"]]
+      },
+      {
+        "q": "מה רונית מחליטה בסוף?",
+        "qEn": "What does Ronit decide at the end?",
+        "answer": "שמחר כולם יקבלו תג עם שם.",
+        "answerEn": "That tomorrow everyone will get a name tag.",
+        "keywords": [["תג", "תגים", "תגית"]]
+      }
+    ],
+    "dictation": [1, 8, 13],
+    "expressions": [
+      { "he": "נעים מאוד", "en": "Nice to meet you", "note": "Said when you're introduced to someone. The reply is נעים מאוד or גם לי." },
+      { "he": "לחוץ / לחוצה", "en": "stressed, nervous", "note": "Everyday word: אני לחוץ מהראיון. Telling someone אל תהיה לחוץ means 'relax'." },
+      { "he": "אהלן, אחי!", "en": "Hey, bro!", "note": "Very casual greeting; אהלן comes from Arabic. אחי ('my brother') is used between friends and colleagues — not with your CEO in a meeting." },
+      { "he": "איך קוראים לך?", "en": "What's your name?", "note": "Literally 'how do they call you?'. Answer with קוראים לי + name, or just the name." },
+      { "he": "מי זה מי", "en": "who's who", "note": "Handy when there are too many names or faces: אני עוד לא יודע מי זה מי." },
+      { "he": "איש המחשבים", "en": "the computer guy", "note": "איש ה... = the person in charge of something: איש המכירות (the sales guy), איש הקשר (the contact person)." }
+    ]
+  },
+  {
+    "id": "s_standup_delay",
+    "level": "B1",
+    "title": "ישיבת בוקר",
+    "titleEn": "The Morning Stand-up",
+    "genre": "meeting",
+    "synopsis": "At the morning stand-up, team lead Galit goes around the table. One task is running late, and the team has to agree on a new deadline the client can live with.",
+    "speakers": {
+      "A": { "name": "גלית", "gender": "f" },
+      "B": { "name": "עומר", "gender": "m" },
+      "C": { "name": "תמר", "gender": "f" }
+    },
+    "lines": [
+      { "s": "A", "he": "בוקר טוב, יאללה, נתחיל. תמר, את ראשונה.", "en": "Good morning, come on, let's start. Tamar, you're first." },
+      { "s": "C", "he": "כן. סיימתי את דף ההרשמה, והוא כבר בבדיקות.", "en": "Sure. I finished the sign-up page, and it's already in testing." },
+      { "s": "A", "he": "מעולה, תודה. עומר, מה עם מסך התשלומים?", "en": "Great, thanks. Omer, what's happening with the payments screen?" },
+      { "s": "B", "he": "אז ככה... יש עיכוב. זה לא יהיה מוכן ביום רביעי.", "en": "So, here's the thing... there's a delay. It won't be ready on Wednesday." },
+      { "s": "A", "he": "נו, מה קרה? אמרת שזה בקטנה.", "en": "Come on, what happened? You said it was a small job." },
+      { "s": "B", "he": "כן, אבל אני מחכה לצוות של השרתים כבר שבוע.", "en": "Yeah, but I've been waiting for the server team for a week." },
+      { "s": "C", "he": "רגע, דיברת עם יואב? הוא אחראי על זה.", "en": "Wait, did you talk to Yoav? He's in charge of that." },
+      { "s": "B", "he": "שלחתי לו שלושה מיילים. הוא לא עונה.", "en": "I sent him three emails. He's not answering." },
+      { "s": "A", "he": "טוב, אני אדבר איתו היום. אבל תכלס, מתי זה יהיה מוכן?", "en": "OK, I'll talk to him today. But bottom line — when will it be ready?" },
+      { "s": "B", "he": "אם הוא יחזור אליי היום, אז אולי ביום ראשון.", "en": "If he gets back to me today, then maybe on Sunday." },
+      { "s": "A", "he": "אולי? אני צריכה תאריך, עומר. הלקוח מחכה.", "en": "Maybe? I need a date, Omer. The client is waiting." },
+      { "s": "C", "he": "תשמעי, בואי ניתן לו עד יום שלישי. עם באפר.", "en": "Listen, let's give him until Tuesday. With a buffer." },
+      { "s": "B", "he": "יום שלישי זה ריאלי. אני סוגר את זה עד אז.", "en": "Tuesday is realistic. I'll get it done by then." },
+      { "s": "A", "he": "סגרנו. יום שלישי. ואם יש עוד עיכוב, אתה מעדכן אותי מיד.", "en": "Deal. Tuesday. And if there's another delay, you update me right away." },
+      { "s": "B", "he": "אין בעיה. אני על זה.", "en": "No problem. I'm on it." },
+      { "s": "A", "he": "יופי. תודה לכולם, יאללה לעבודה.", "en": "Great. Thanks, everyone — back to work." }
+    ],
+    "questions": [
+      {
+        "q": "למה המשימה של עומר מתעכבת?",
+        "qEn": "Why is Omer's task delayed?",
+        "answer": "כי הוא מחכה לצוות השרתים כבר שבוע.",
+        "answerEn": "Because he's been waiting for the server team for a week.",
+        "keywords": [["מחכה", "לחכות", "חיכה", "מחכים", "חיכיתי"], ["שרתים", "שרת", "יואב"]]
+      },
+      {
+        "q": "מה עומר כבר עשה כדי לקבל תשובה מיואב?",
+        "qEn": "What has Omer already done to get an answer from Yoav?",
+        "answer": "הוא שלח לו שלושה מיילים.",
+        "answerEn": "He sent him three emails.",
+        "keywords": [["מייל", "מיילים", "אימייל", "הודעות"]]
+      },
+      {
+        "q": "מה גלית מבטיחה לעשות היום?",
+        "qEn": "What does Galit promise to do today?",
+        "answer": "היא תדבר עם יואב.",
+        "answerEn": "She'll talk to Yoav.",
+        "keywords": [["תדבר", "לדבר", "אדבר", "מדברת", "להתקשר"], ["יואב"]]
+      },
+      {
+        "q": "על איזה תאריך חדש מסכימים, ולמה דווקא אז?",
+        "qEn": "What new date do they agree on, and why that one?",
+        "answer": "על יום שלישי, כי זה ריאלי ויש באפר.",
+        "answerEn": "Tuesday, because it's realistic and leaves a buffer.",
+        "keywords": [["שלישי"], ["ריאלי", "באפר", "מרווח"]]
+      },
+      {
+        "q": "מה עומר צריך לעשות אם יש עוד עיכוב?",
+        "qEn": "What does Omer have to do if there's another delay?",
+        "answer": "לעדכן את גלית מיד.",
+        "answerEn": "Let Galit know right away.",
+        "keywords": [["לעדכן", "מעדכן", "יעדכן", "תעדכן", "עדכון"], ["מיד", "ישר", "מהר"]]
+      }
+    ],
+    "dictation": [7, 10, 14],
+    "expressions": [
+      { "he": "אז ככה...", "en": "So, here's the thing...", "note": "Opener before a longer explanation — often bad news. Very common in meetings." },
+      { "he": "זה בקטנה", "en": "It's no big deal / a quick job", "note": "Casual promise that something is easy. At work it is sometimes a little too optimistic." },
+      { "he": "לחזור אל מישהו", "en": "to get back to someone", "note": "אני אחזור אליך עד הצהריים = I'll get back to you by noon. Standard in business, spoken and written." },
+      { "he": "סגרנו", "en": "Deal / it's settled", "note": "Literally 'we closed'. Ends a negotiation or a plan. Also: סגור? — סגור! (Deal? — Deal!)" },
+      { "he": "אני על זה", "en": "I'm on it", "note": "Borrowed from English and extremely common at work and in WhatsApp groups." },
+      { "he": "באפר", "en": "buffer (extra time)", "note": "High-tech jargon from English. A more Hebrew alternative: מרווח ביטחון." }
+    ]
+  },
+  {
+    "id": "s_internet_support",
+    "level": "B1",
+    "title": "שיחתך חשובה לנו",
+    "titleEn": "Your Call Is Important to Us",
+    "genre": "phone",
+    "synopsis": "Avi's internet is down, so he calls his provider: a phone menu, a long wait, and finally a human being. Will the agent actually help — and what's the first thing she asks him to do?",
+    "speakers": {
+      "A": { "name": "מענה קולי", "gender": "f" },
+      "B": { "name": "אבי", "gender": "m" },
+      "C": { "name": "מורן", "gender": "f" }
+    },
+    "lines": [
+      { "s": "A", "he": "שלום, הגעת למוקד שירות הלקוחות. שיחתך חשובה לנו.", "en": "Hello, you've reached the customer service center. Your call is important to us." },
+      { "s": "A", "he": "לתמיכה טכנית, הקש שתיים. לניתוק השירות, הקש תשע.", "en": "For technical support, press two. To cancel your service, press nine." },
+      { "s": "B", "he": "שתיים... נו, יאללה, שמישהו יענה כבר.", "en": "Two... come on, somebody answer already." },
+      { "s": "A", "he": "זמן ההמתנה המשוער הוא ארבעים דקות.", "en": "The estimated waiting time is forty minutes." },
+      { "s": "B", "he": "ארבעים דקות?! אולי אני אלחץ תשע... שם תמיד עונים מהר.", "en": "Forty minutes?! Maybe I'll press nine... they always answer fast there." },
+      { "s": "C", "he": "שלום, מדברת מורן, במה אפשר לעזור?", "en": "Hello, this is Moran, how can I help?" },
+      { "s": "B", "he": "היי, מורן. אין לי אינטרנט כבר יומיים.", "en": "Hi, Moran. I haven't had internet for two days." },
+      { "s": "C", "he": "אני מצטערת לשמוע. ניסית לכבות ולהדליק את...", "en": "I'm sorry to hear that. Have you tried switching off and on the..." },
+      { "s": "B", "he": "את הראוטר? כן! חמש פעמים. וגם ניתקתי את כל הכבלים.", "en": "The router? Yes! Five times. And I unplugged all the cables too." },
+      { "s": "C", "he": "אוקיי... אז בוא ננסה עוד פעם, ביחד.", "en": "OK... so let's try one more time, together." },
+      { "s": "B", "he": "תשמעי, אני עובד מהבית. אני לא יכול ככה.", "en": "Listen, I work from home. I can't go on like this." },
+      { "s": "C", "he": "רגע... אני רואה פה שיש תקלה באזור שלך.", "en": "Wait... I can see here that there's an outage in your area." },
+      { "s": "B", "he": "וואלה? אז למה ביקשת שאני אכבה את הראוטר?", "en": "Oh, really? So why did you ask me to turn off the router?" },
+      { "s": "C", "he": "זה הנוהל, מה לעשות. הטכנאים כבר עובדים על זה.", "en": "That's the procedure, what can you do. The technicians are already working on it." },
+      { "s": "B", "he": "ומתי זה יחזור לעבוד? כי תכלס, אני משלם כל חודש.", "en": "And when will it work again? Because bottom line, I pay every month." },
+      { "s": "C", "he": "עד מחר בבוקר, אני מקווה. ואני נותנת לך זיכוי על הימים האלה.", "en": "By tomorrow morning, I hope. And I'm giving you a credit for these days." },
+      { "s": "B", "he": "טוב, לפחות משהו. תודה, מורן.", "en": "Well, at least that's something. Thanks, Moran." },
+      { "s": "C", "he": "בשמחה. ושוב, סליחה על אי הנוחות.", "en": "My pleasure. And again, sorry for the inconvenience." }
+    ],
+    "questions": [
+      {
+        "q": "מה הבעיה של אבי?",
+        "qEn": "What is Avi's problem?",
+        "answer": "אין לו אינטרנט כבר יומיים.",
+        "answerEn": "He hasn't had internet for two days.",
+        "keywords": [["אינטרנט"], ["יומיים", "ימים", "יום"]]
+      },
+      {
+        "q": "למה אבי חושב ללחוץ תשע?",
+        "qEn": "Why does Avi think about pressing nine?",
+        "answer": "כי בניתוק השירות תמיד עונים מהר.",
+        "answerEn": "Because the cancellations line always answers quickly.",
+        "keywords": [["מהר", "מיד"], ["עונים", "עונה", "לענות", "יענו", "ענו"]]
+      },
+      {
+        "q": "מה אבי כבר עשה לפני השיחה?",
+        "qEn": "What had Avi already done before the call?",
+        "answer": "הוא כיבה והדליק את הראוטר חמש פעמים.",
+        "answerEn": "He switched the router off and on five times.",
+        "keywords": [["ראוטר", "נתב"], ["כיבה", "לכבות", "כיביתי", "הדליק", "להדליק", "הדלקתי", "ניתק", "ניתקתי", "כבלים", "ריסט", "אתחל", "אתחול"]]
+      },
+      {
+        "q": "מה מורן רואה במחשב?",
+        "qEn": "What does Moran see on her computer?",
+        "answer": "שיש תקלה באזור של אבי.",
+        "answerEn": "That there's an outage in Avi's area.",
+        "keywords": [["תקלה"], ["אזור"]]
+      },
+      {
+        "q": "מתי האינטרנט אמור לחזור, ומה אבי מקבל?",
+        "qEn": "When should the internet be back, and what does Avi get?",
+        "answer": "עד מחר בבוקר, והוא מקבל זיכוי.",
+        "answerEn": "By tomorrow morning, and he gets a credit.",
+        "keywords": [["מחר"], ["זיכוי"]]
+      }
+    ],
+    "dictation": [6, 10, 16],
+    "expressions": [
+      { "he": "שיחתך חשובה לנו", "en": "Your call is important to us", "note": "The formal recorded phrase every Israeli knows (and jokes about). שיחתך is the formal way to say השיחה שלך." },
+      { "he": "לכבות ולהדליק", "en": "to switch off and on again", "note": "The first thing any support agent asks. The technical verb is לאתחל (to restart)." },
+      { "he": "תקלה", "en": "fault, outage", "note": "The standard word for any technical problem: יש תקלה בקו, תקלה במערכת." },
+      { "he": "מה לעשות", "en": "What can you do / that's how it is", "note": "A shrug in words — accepting something you can't change. Casual." },
+      { "he": "לפחות משהו", "en": "At least that's something", "note": "Grudging acceptance of a small consolation or compensation." },
+      { "he": "סליחה על אי הנוחות", "en": "Sorry for the inconvenience", "note": "Fixed formal phrase used by companies, on signs and in announcements." }
+    ]
+  },
+  {
+    "id": "s_weather_traffic",
+    "level": "B1",
+    "title": "מזג האוויר והתנועה",
+    "titleEn": "Weather and Traffic",
+    "genre": "news",
+    "synopsis": "The evening news opens with the first big rain of the winter. Reporter Roi is out in the field next to a closed road, and then anchor Dana brings the forecast for the weekend.",
+    "speakers": {
+      "A": { "name": "דנה", "gender": "f" },
+      "B": { "name": "רועי", "gender": "m" },
+      "C": { "name": "אורית", "gender": "f" }
+    },
+    "lines": [
+      { "s": "A", "he": "ערב טוב. הגשם הראשון של החורף הגיע, ובגדול.", "en": "Good evening. The first rain of the winter is here — big time." },
+      { "s": "A", "he": "הכתב שלנו, רועי, נמצא בכניסה לעיר. רועי, מה המצב?", "en": "Our reporter, Roi, is at the entrance to the city. Roi, what's the situation?" },
+      { "s": "B", "he": "ערב טוב, דנה. כמו שאת רואה, פה הכל מוצף.", "en": "Good evening, Dana. As you can see, everything here is flooded." },
+      { "s": "B", "he": "הכביש הראשי סגור כבר שעתיים, והפקק מגיע עד הצומת.", "en": "The main road has been closed for two hours, and the traffic jam goes all the way back to the junction." },
+      { "s": "A", "he": "ומה אומרים במשטרה? מתי פותחים את הכביש?", "en": "And what are the police saying? When will the road reopen?" },
+      { "s": "B", "he": "בינתיים אין תשובה. מבקשים מהנהגים לנסוע בדרך אחרת.", "en": "No answer yet. Drivers are being asked to take a different route." },
+      { "s": "B", "he": "גברתי, כמה זמן את כבר תקועה פה?", "en": "Ma'am, how long have you been stuck here?" },
+      { "s": "C", "he": "שעה וחצי! יאללה, שיפתחו כבר. הילדים מחכים לי בגן.", "en": "An hour and a half! Come on, just open it already. My kids are waiting for me at kindergarten." },
+      { "s": "B", "he": "וזה המצב, דנה. בחזרה אלייך לאולפן.", "en": "And that's the situation, Dana. Back to you in the studio." },
+      { "s": "A", "he": "תודה, רועי. ותגיד, איפה המטרייה שלך?", "en": "Thanks, Roi. And tell me — where's your umbrella?" },
+      { "s": "B", "he": "האמת? הרוח לקחה אותה לפני שעה.", "en": "Honestly? The wind took it an hour ago." },
+      { "s": "A", "he": "אוי... שמור על עצמך, רועי!", "en": "Oh dear... take care of yourself, Roi!" },
+      { "s": "A", "he": "ועכשיו לתחזית. מחר ימשיך לרדת גשם, בעיקר בצפון ובמרכז.", "en": "And now for the forecast. Tomorrow the rain will continue, mainly in the north and the center." },
+      { "s": "A", "he": "בשבת יתבהר, ויהיה קצת יותר חם.", "en": "On Saturday it will clear up and get a little warmer." },
+      { "s": "A", "he": "אז אם אתם מתכננים טיול, חכו לשבת. ובינתיים, סעו בזהירות.", "en": "So if you're planning a trip, wait for Saturday. And in the meantime, drive carefully." }
+    ],
+    "questions": [
+      {
+        "q": "מה המצב בכביש הראשי?",
+        "qEn": "What's the situation on the main road?",
+        "answer": "הכביש סגור כבר שעתיים, ויש פקק ארוך.",
+        "answerEn": "The road has been closed for two hours, and there's a long traffic jam.",
+        "keywords": [["סגור", "סגרו", "נסגר", "סגורה"], ["פקק", "פקקים", "מוצף", "הצפה"]]
+      },
+      {
+        "q": "מה מבקשים מהנהגים?",
+        "qEn": "What are drivers being asked to do?",
+        "answer": "לנסוע בדרך אחרת.",
+        "answerEn": "To take a different route.",
+        "keywords": [["אחרת", "אחר"], ["דרך", "כביש", "מסלול"]]
+      },
+      {
+        "q": "למה אורית ממהרת?",
+        "qEn": "Why is Orit in a hurry?",
+        "answer": "כי הילדים שלה מחכים לה בגן.",
+        "answerEn": "Because her kids are waiting for her at kindergarten.",
+        "keywords": [["ילדים", "ילד", "ילדה"], ["גן"]]
+      },
+      {
+        "q": "מה קרה למטרייה של רועי?",
+        "qEn": "What happened to Roi's umbrella?",
+        "answer": "הרוח לקחה אותה לפני שעה.",
+        "answerEn": "The wind took it an hour ago.",
+        "keywords": [["רוח"], ["לקחה", "לקח", "עפה", "נלקחה", "העיפה"]]
+      },
+      {
+        "q": "מתי כדאי לצאת לטיול, ולמה?",
+        "qEn": "When is it best to go on a trip, and why?",
+        "answer": "בשבת, כי יתבהר ויהיה יותר חם.",
+        "answerEn": "On Saturday, because it will clear up and be warmer.",
+        "keywords": [["שבת"], ["יתבהר", "מתבהר", "חם", "בהיר", "שמש"]]
+      }
+    ],
+    "dictation": [6, 10, 13],
+    "expressions": [
+      { "he": "ובגדול", "en": "big time", "note": "Colloquial intensifier added at the end of a sentence: הגשם הגיע, ובגדול; הוא טעה בגדול." },
+      { "he": "מה המצב?", "en": "What's the situation? / How's it going?", "note": "On the news it means 'what's happening there?'. Between friends it simply means 'how are you?'." },
+      { "he": "תקוע / תקועה", "en": "stuck", "note": "In traffic, in a lift, in a job: אני תקוע בפקק כבר שעה." },
+      { "he": "שיפתחו כבר!", "en": "Let them open it already!", "note": "ש + future = an impatient wish about other people: שיבוא כבר, שיענו כבר." },
+      { "he": "בחזרה אלייך לאולפן", "en": "Back to you in the studio", "note": "The fixed phrase a reporter uses to hand back to the anchor. To a male anchor: בחזרה אליך." },
+      { "he": "האמת?", "en": "Honestly? / Truth is...", "note": "Introduces a frank, often surprising or embarrassing answer. Casual." }
+    ]
+  },
+  {
+    "id": "s_startup_interview",
+    "level": "B1",
+    "title": "ראיון בסטארט-אפ",
+    "titleEn": "The Startup Interview",
+    "genre": "drama",
+    "synopsis": "Yael is interviewing for a product manager job at a small startup. The CEO is friendly and informal — until his last, very direct question.",
+    "speakers": {
+      "A": { "name": "אלון", "gender": "m" },
+      "B": { "name": "יעל", "gender": "f" }
+    },
+    "lines": [
+      { "s": "A", "he": "היי, יעל, שבי, שבי. רוצה קפה? מים?", "en": "Hi, Yael, sit down, sit down. Would you like coffee? Water?" },
+      { "s": "B", "he": "לא, תודה, הכל בסדר. תודה שהזמנתם אותי.", "en": "No, thanks, I'm fine. Thank you for inviting me." },
+      { "s": "A", "he": "בכיף. אז ספרי לי קצת על עצמך.", "en": "Of course. So tell me a bit about yourself." },
+      { "s": "B", "he": "אני מנהלת מוצר כבר ארבע שנים, בעיקר באפליקציות בריאות.", "en": "I've been a product manager for four years, mostly on health apps." },
+      { "s": "A", "he": "יפה. ולמה את רוצה לעזוב את העבודה הנוכחית?", "en": "Nice. And why do you want to leave your current job?" },
+      { "s": "B", "he": "האמת? אני מרגישה שהפסקתי ללמוד. אני מחפשת אתגר חדש.", "en": "Honestly? I feel like I've stopped learning. I'm looking for a new challenge." },
+      { "s": "A", "he": "אתגרים יש פה הרבה. אנחנו רק שמונה אנשים, אז כל אחד עושה הכל.", "en": "Challenges we have plenty of. We're only eight people, so everyone does everything." },
+      { "s": "B", "he": "זה דווקא מתאים לי. אני לא אוהבת להשתעמם.", "en": "That actually suits me. I don't like being bored." },
+      { "s": "A", "he": "ואיך את מסתדרת עם לחץ? לפעמים יש פה לילות ארוכים.", "en": "And how do you handle pressure? Sometimes there are long nights here." },
+      { "s": "B", "he": "אני יודעת לעבוד תחת לחץ, אבל חשוב לי גם איזון.", "en": "I can work under pressure, but balance is important to me too." },
+      { "s": "A", "he": "מבין אותך לגמרי. יש לך שאלות אליי?", "en": "Totally get it. Do you have any questions for me?" },
+      { "s": "B", "he": "כן. איך נראה יום עבודה רגיל אצלכם?", "en": "Yes. What does a normal workday look like here?" },
+      { "s": "A", "he": "תכלס? אין יום רגיל. וזה מה שכיף פה.", "en": "Honestly? There's no such thing as a normal day. And that's what's fun here." },
+      { "s": "B", "he": "נשמע לי מעולה.", "en": "Sounds great to me." },
+      { "s": "A", "he": "יופי. שאלה אחרונה, והיא קצת לא נעימה: כמה את רוצה להרוויח?", "en": "Good. Last question, and it's a bit awkward: how much do you want to earn?" },
+      { "s": "B", "he": "אה... אני מעדיפה לשמוע קודם מה אתם מציעים.", "en": "Um... I'd rather hear first what you're offering." },
+      { "s": "A", "he": "חכמה. אוקיי, אני שולח לך הצעה עד יום חמישי.", "en": "Smart. OK, I'll send you an offer by Thursday." },
+      { "s": "B", "he": "מצוין. תודה רבה, אני מחכה לשמוע ממך.", "en": "Excellent. Thank you very much — I look forward to hearing from you." }
+    ],
+    "questions": [
+      {
+        "q": "מה התפקיד של יעל היום?",
+        "qEn": "What is Yael's job right now?",
+        "answer": "היא מנהלת מוצר, בעיקר באפליקציות בריאות.",
+        "answerEn": "She's a product manager, mostly working on health apps.",
+        "keywords": [["מוצר"], ["בריאות", "אפליקציות", "אפליקציה"]]
+      },
+      {
+        "q": "למה יעל רוצה לעזוב את העבודה שלה?",
+        "qEn": "Why does Yael want to leave her job?",
+        "answer": "כי היא הפסיקה ללמוד ומחפשת אתגר חדש.",
+        "answerEn": "Because she has stopped learning and is looking for a new challenge.",
+        "keywords": [["ללמוד", "לומדת", "למידה", "לימוד"], ["אתגר", "אתגרים"]]
+      },
+      {
+        "q": "מה יעל עונה כשאלון שואל על לחץ?",
+        "qEn": "What does Yael say when Alon asks about pressure?",
+        "answer": "שהיא יודעת לעבוד תחת לחץ, אבל חשוב לה איזון.",
+        "answerEn": "That she can work under pressure, but balance is important to her.",
+        "keywords": [["יודעת", "יכולה", "מסתדרת", "מסוגלת"], ["איזון", "מאוזן"]]
+      },
+      {
+        "q": "איך יעל עונה על שאלת השכר, ומה אלון חושב על זה?",
+        "qEn": "How does Yael answer the salary question, and what does Alon think of that?",
+        "answer": "היא רוצה לשמוע קודם מה הם מציעים. הוא חושב שזה חכם.",
+        "answerEn": "She wants to hear what they're offering first. He thinks that's smart.",
+        "keywords": [["מציעים", "מציע", "להציע", "יציעו", "הצעה"], ["חכם", "חכמה"]]
+      },
+      {
+        "q": "מה יקרה עד יום חמישי?",
+        "qEn": "What will happen by Thursday?",
+        "answer": "אלון ישלח ליעל הצעת עבודה.",
+        "answerEn": "Alon will send Yael a job offer.",
+        "keywords": [["הצעה", "הצעת"], ["ישלח", "שולח", "לשלוח", "שלח", "תקבל", "מקבלת"]]
+      }
+    ],
+    "dictation": [2, 7, 11],
+    "expressions": [
+      { "he": "שבי, שבי", "en": "Sit down, sit down", "note": "Repeating an imperative sounds warm and welcoming. To a man: שב, שב." },
+      { "he": "ספרי לי על עצמך", "en": "Tell me about yourself", "note": "The classic interview opener. To a man: ספר לי על עצמך." },
+      { "he": "דווקא", "en": "actually (contrary to what you'd expect)", "note": "Signals a contrast: זה דווקא מתאים לי = that actually suits me (even if it sounds hard)." },
+      { "he": "להסתדר עם", "en": "to cope with / to get along with", "note": "About situations: איך את מסתדרת עם לחץ? About people: אני מסתדר איתו מצוין." },
+      { "he": "חשוב לי", "en": "It's important to me", "note": "A polite, clear way to state priorities in interviews and negotiations: חשוב לי גם איזון." },
+      { "he": "אני מחכה לשמוע ממך", "en": "I look forward to hearing from you", "note": "Polite closing after an interview or at the end of an email. Neutral register." }
+    ]
+  },
+  {
+    "id": "s_friday_dinner",
+    "level": "B1",
+    "title": "ארוחת שישי",
+    "titleEn": "Friday Night Dinner",
+    "genre": "sitcom",
+    "synopsis": "Every Friday, Ido has dinner at his parents' place, and every Friday his mother Tzipi has questions — about his job, his salary and his love life. Tonight, Ido has some news of his own.",
+    "speakers": {
+      "A": { "name": "ציפי", "gender": "f" },
+      "B": { "name": "עידו", "gender": "m" },
+      "C": { "name": "שלמה", "gender": "m" }
+    },
+    "lines": [
+      { "s": "A", "he": "עידו, מותק, קח עוד שניצל. אתה נראה רזה.", "en": "Ido, sweetie, have another schnitzel. You look thin." },
+      { "s": "B", "he": "אמא, זה כבר השלישי. אני מפוצץ.", "en": "Mom, this is already my third. I'm stuffed." },
+      { "s": "A", "he": "נו, אז רק קצת סלט. ותגיד, מה עם העבודה?", "en": "Fine, then just a little salad. And tell me, how's work?" },
+      { "s": "B", "he": "הכל טוב. יש לחץ, אבל סבבה.", "en": "All good. There's pressure, but it's fine." },
+      { "s": "A", "he": "לחץ? והם משלמים לך מספיק? קיבלת העלאה?", "en": "Pressure? And are they paying you enough? Did you get a raise?" },
+      { "s": "C", "he": "ציפי, תני לילד לאכול בשקט.", "en": "Tzipi, let the kid eat in peace." },
+      { "s": "A", "he": "אני רק שואלת! ומה עם הבחורה מהחתונה של שירה?", "en": "I'm just asking! And what about that girl from Shira's wedding?" },
+      { "s": "B", "he": "אמא, די, את חופרת.", "en": "Mom, enough, you're nagging." },
+      { "s": "A", "he": "אני לא חופרת. אתה בן שלושים ושתיים, עידו!", "en": "I'm not nagging. You're thirty-two, Ido!" },
+      { "s": "B", "he": "טוב, האמת... יש לי משהו לספר לכם.", "en": "OK, actually... I have something to tell you." },
+      { "s": "A", "he": "מה, אתה מתחתן?!", "en": "What, you're getting married?!" },
+      { "s": "B", "he": "לא, רגע. אני עובר לגור עם נוי.", "en": "No, wait. I'm moving in with Noy." },
+      { "s": "A", "he": "נוי? מי זאת נוי?", "en": "Noy? Who's Noy?" },
+      { "s": "B", "he": "החברה שלי. אנחנו ביחד כבר שנה.", "en": "My girlfriend. We've been together for a year." },
+      { "s": "A", "he": "שנה?! ואני שומעת על זה רק עכשיו?", "en": "A year?! And I'm only hearing about it now?" },
+      { "s": "C", "he": "אני דווקא ידעתי.", "en": "Actually, I knew." },
+      { "s": "A", "he": "ידעת?! שלמה! ...טוב, נו. אז מתי החתונה?", "en": "You knew?! Shlomo! ...Well, fine. So when's the wedding?" },
+      { "s": "B", "he": "אמא! אנחנו רק עוברים לגור ביחד!", "en": "Mom! We're only moving in together!" }
+    ],
+    "questions": [
+      {
+        "q": "למה עידו לא רוצה עוד שניצל?",
+        "qEn": "Why doesn't Ido want another schnitzel?",
+        "answer": "כי הוא כבר אכל שלושה, והוא מפוצץ.",
+        "answerEn": "Because he's already eaten three and he's stuffed.",
+        "keywords": [["מפוצץ", "שבע", "מלא", "שלושה", "שלישי"]]
+      },
+      {
+        "q": "מה אמא שואלת על העבודה של עידו?",
+        "qEn": "What does Mom ask about Ido's job?",
+        "answer": "אם משלמים לו מספיק, ואם הוא קיבל העלאה.",
+        "answerEn": "Whether they pay him enough, and whether he got a raise.",
+        "keywords": [["משלמים", "לשלם", "משלם", "משכורת", "שכר", "כסף"], ["העלאה"]]
+      },
+      {
+        "q": "מה החדשות של עידו?",
+        "qEn": "What is Ido's news?",
+        "answer": "הוא עובר לגור עם החברה שלו, נוי.",
+        "answerEn": "He's moving in with his girlfriend, Noy.",
+        "keywords": [["עובר", "לעבור", "עוברים", "לגור", "גרים"], ["נוי", "חברה"]]
+      },
+      {
+        "q": "למה אמא מופתעת כשהיא שומעת על נוי?",
+        "qEn": "Why is Mom surprised when she hears about Noy?",
+        "answer": "כי הם ביחד כבר שנה, והיא לא ידעה.",
+        "answerEn": "Because they've been together for a year and she didn't know.",
+        "keywords": [["שנה"], ["ידעה", "יודעת", "ידע", "שמעה", "שומעת"]]
+      },
+      {
+        "q": "מי במשפחה כבר ידע על נוי?",
+        "qEn": "Who in the family already knew about Noy?",
+        "answer": "אבא של עידו, שלמה.",
+        "answerEn": "Ido's father, Shlomo.",
+        "keywords": [["אבא", "שלמה", "אב"]]
+      }
+    ],
+    "dictation": [1, 5, 13],
+    "expressions": [
+      { "he": "מותק", "en": "sweetie, honey", "note": "Affectionate address for children, partners and close friends — used for both genders." },
+      { "he": "אני מפוצץ / מפוצצת", "en": "I'm stuffed", "note": "Slang, literally 'I'm bursting'. The neutral way to say it: אני שבע / שבעה." },
+      { "he": "תני לילד לאכול בשקט", "en": "Let the kid eat in peace", "note": "בשקט = in peace / quietly. A useful frame: תן לי לעבוד בשקט. Parents call their children הילד at any age." },
+      { "he": "את חופרת", "en": "You're nagging / you're going on and on", "note": "Slang: לחפור (to dig) = to talk too much or pester someone. A bit rude — fine with family and friends." },
+      { "he": "אני רק שואלת!", "en": "I'm just asking!", "note": "The classic defensive reply when someone says you ask too much. A man says: אני רק שואל!" },
+      { "he": "לעבור לגור עם", "en": "to move in with", "note": "לעבור דירה = to move house; לעבור לגור עם מישהו = to move in with someone." }
+    ]
+  }
+]

@@ -25,6 +25,8 @@ self.addEventListener('fetch', (event) => {
   if (req.method !== 'GET') return;
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
+  // The offline package's local server answers these live (never cache them).
+  if (url.pathname.includes('/__shoresh/')) return;
 
   // Daily headlines: always try the network first so they stay fresh.
   if (url.pathname.endsWith('/news.json')) {

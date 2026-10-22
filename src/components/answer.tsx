@@ -7,6 +7,8 @@ import { getState, markDone, markTask, setState } from '../lib/store.ts';
 import { HeText } from './hebrew.tsx';
 import { SpeakBtn } from './ui.tsx';
 
+declare const __HOSTED__: boolean;
+
 interface InputProps {
   value: string;
   onInput: (v: string) => void;
@@ -112,7 +114,7 @@ export function OpenQuestion({
   const [showEn, setShowEn] = useState(false);
 
   const kw = scoreKeywords(text, q.keywords);
-  const useSem = getState().settings.semantic;
+  const useSem = __HOSTED__ && getState().settings.semantic;
 
   const check = async () => {
     setChecked(true);

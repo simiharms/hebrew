@@ -8,6 +8,7 @@ import { go } from '../lib/router.ts';
 import { getState, useAppState } from '../lib/store.ts';
 import { hebrewVoices, speak, speakerPitches, speakSequence, stopSpeaking, ttsSupported } from '../lib/tts.ts';
 import { NextUp, QuestionSet } from './read.tsx';
+import { setupHelp } from '../lib/platform.ts';
 
 const GENRE_EMOJI: Record<string, string> = {
   sitcom: '😂',
@@ -135,7 +136,7 @@ export function ScenePlayer({ id }: { id: string }) {
           )}
           {voices === 0 && ttsSupported() && (
             <div class="card tight accent small">
-              No Hebrew voice found. On iPhone: Settings → Accessibility → Spoken Content → Voices → Hebrew → download “Carmit”.
+              No Hebrew voice found. {setupHelp.device}: {setupHelp.voice} ({setupHelp.voiceAfter}).
             </div>
           )}
         </div>

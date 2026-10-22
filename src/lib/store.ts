@@ -62,6 +62,7 @@ export interface AppState {
   queue: string[]; // vocab ids the learner picked to learn next
   profile: Profile; // skill estimates (see skills.ts)
   courseUnit: number; // index of the course unit the learner is on
+  updatedAt?: number; // time of the last change (ms), to tell which saved copy is newer
 }
 
 const KEY = 'shoresh-state-v1';
@@ -94,18 +95,28 @@ export function defaultState(): AppState {
   };
 }
 
+/** Fills in fields that older saved states don't have yet. */
+function withDefaults(saved: AppState): AppState {
+  const base = defaultState();
+  return {
+    ...base,
+    ...saved,
+    settings: { ...base.settings, ...saved.settings },
+    profile: { ...base.profile, ...saved.profile },
+  };
+}
+
+/** Whether a parsed JSON value looks like a Shoresh state. */
+export function isAppState(x: unknown): x is AppState {
+  const s = x as AppState | null;
+  return !!s && s.version === 1 && typeof s.cards === 'object';
+}
+
 function load(): AppState {
   try {
     const raw = localStorage.getItem(KEY);
     if (!raw) return defaultState();
-    const parsed = JSON.parse(raw);
-    const base = defaultState();
-    return {
-      ...base,
-      ...parsed,
-      settings: { ...base.settings, ...parsed.settings },
-      profile: { ...base.profile, ...parsed.profile },
-    };
+    return withDefaults(JSON.parse(raw));
   } catch {
     return defaultState();
   }
@@ -121,6 +132,16 @@ export function getState(): AppState {
 export function setState(update: (s: AppState) => void): void {
   const next = structuredClone(state);
   update(next);
+  next.updatedAt = Date.now();
+  commit(next);
+}
+
+/** Takes over a state saved elsewhere as it is, keeping its updatedAt. */
+export function restoreState(saved: AppState): void {
+  commit(withDefaults(saved));
+}
+
+function commit(next: AppState): void {
   state = next;
   try {
     localStorage.setItem(KEY, JSON.stringify(state));
@@ -134,15 +155,17 @@ export function replaceState(next: AppState): void {
   setState((s) => Object.assign(s, next));
 }
 
+/** Calls `l` after every change; returns the unsubscribe function. */
+export function subscribe(l: () => void): () => void {
+  listeners.add(l);
+  return () => {
+    listeners.delete(l);
+  };
+}
+
 export function useAppState(): AppState {
   const [, force] = useState(0);
-  useEffect(() => {
-    const l = () => force((n) => n + 1);
-    listeners.add(l);
-    return () => {
-      listeners.delete(l);
-    };
-  }, []);
+  useEffect(() => subscribe(() => force((n) => n + 1)), []);
   return state;
 }
 
@@ -212,16 +235,8 @@ export function exportState(): string {
 export function importState(json: string): void {
   const parsed = JSON.parse(json);
   const incoming = parsed?.state ?? parsed;
-  if (!incoming || incoming.version !== 1 || typeof incoming.cards !== 'object') {
-    throw new Error('This file is not a Shoresh backup.');
-  }
-  const base = defaultState();
-  replaceState({
-    ...base,
-    ...incoming,
-    settings: { ...base.settings, ...incoming.settings },
-    profile: { ...base.profile, ...incoming.profile },
-  });
+  if (!isAppState(incoming)) throw new Error('This file is not a Shoresh backup.');
+  replaceState(withDefaults(incoming));
 }
 
 export function resetState(): void {

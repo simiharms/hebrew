@@ -10,6 +10,8 @@ import { record } from '../lib/skills.ts';
 import { getState, markDone, markTask, useAppState } from '../lib/store.ts';
 import { speakSequence, stopSpeaking } from '../lib/tts.ts';
 
+declare const __HOSTED__: boolean;
+
 const KIND_EMOJI: Record<string, string> = {
   news: '🗞️',
   article: '📄',
@@ -31,7 +33,7 @@ export function ReadList() {
         <div class="card primary small">
           Tap any word for its meaning, root and prefixes. Answer the questions <strong>in Hebrew</strong> — that's where the learning happens.
         </div>
-        <Item emoji="🗞️" title="News" sub="This week's news in easy Hebrew, plus today's real headlines ranked for your level" onClick={() => go('news')} />
+        <Item emoji="🗞️" title="News" sub={__HOSTED__ ? "This week's news in easy Hebrew, plus today's real headlines ranked for your level" : 'Short news articles in easy Hebrew'} onClick={() => go('news')} />
         <Item emoji="📋" title="Your own text" sub="Paste any Hebrew: news, subtitles, messages" onClick={() => go('own')} />
         {order.map((lvl) => {
           const list = readings.filter((r) => r.level === lvl && !r.date);

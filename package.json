@@ -7,12 +7,14 @@
     "dev": "vite",
     "build": "npm run validate && tsc --noEmit && vite build",
     "build:single": "vite build --mode single",
+    "package": "npm run validate && tsc --noEmit && vite build --mode offline && node scripts/package-offline.mjs",
     "preview": "vite preview",
     "test": "vitest run",
     "validate": "vite-node scripts/validate-content.ts",
     "e2e": "node scripts/e2e.mjs",
     "e2e:single": "node scripts/single-smoke.mjs",
-    "e2e:offline": "node scripts/offline-smoke.mjs"
+    "e2e:offline": "node scripts/offline-smoke.mjs",
+    "e2e:package": "node scripts/package-smoke.mjs"
   },
   "dependencies": {
     "@fontsource/rubik": "5.2.8",

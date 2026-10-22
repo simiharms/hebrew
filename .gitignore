@@ -4,3 +4,5 @@ dist-single
 *.log
 .DS_Store
 public/news.json
+dist-offline
+release

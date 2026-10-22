@@ -29,6 +29,26 @@ sentence-embedding neural network (~120 MB, once) that runs in the browser. It c
 your free-text answers with the model answer, so a correct paraphrase gets credit. Nothing is sent to a
 server.
 
+## Run it on your Mac (offline, no hosting)
+
+Like a desktop program: unzip, double-click, practise. Nothing goes online and nothing updates from outside.
+
+1. Get the package: `npm run package` builds `release/Shoresh-mac-<date>.zip` (or use a zip you were sent).
+2. Unzip it and double-click **start_shoresh.command**. A small Terminal window opens, and Shoresh opens in your
+   browser at `http://localhost:8790/`. Keep that window open while you practise.
+3. To stop, close the window, press Ctrl+C, or double-click **stop_shoresh.command**. Starting it again while it
+   runs stops the old copy first.
+
+Progress is saved in the browser and in the `progress` folder inside the Shoresh folder, with a copy per day in
+`progress/backups`. Clearing the browser's data or switching browsers doesn't lose it: Shoresh restores it from the
+folder. The package has everything except the features that need the internet (live headlines and the optional AI
+grading). `README.txt` in the zip covers the one-time macOS security prompt, the Hebrew keyboard and voice, and
+updating.
+
+Why can't the iPhone run it the same way? iOS only runs programs from the App Store. Safari can't open a web app
+saved in Files, and it only keeps an offline copy of a web app that comes from an `https://` address. So the iPhone
+needs the hosted version below; once it's added to the Home Screen, it runs offline on the phone.
+
 ## Install on your iPhone (free)
 
 The app is a static website. Host it for free once, then add it to your home screen.
@@ -94,6 +114,8 @@ npm test             # unit tests (answer checking, numbers, scheduler)
 npm run validate     # checks all content JSON (schema + answer keys match model answers)
 npm run build        # validate + typecheck + production build into dist/
 npm run build:single # one self-contained HTML file in dist-single/ (no offline support)
+npm run package      # Mac package (offline/ + the app) as release/Shoresh-mac-<date>.zip
+npm run e2e:package  # tests that package end to end: server, progress folder, takeover, stop
 ```
 
 Stack: Preact + TypeScript + Vite. There is no backend. Speech uses the device's built-in Hebrew voice (Web

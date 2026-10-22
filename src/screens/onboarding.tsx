@@ -8,6 +8,7 @@ import { go } from '../lib/router.ts';
 import { type Focus, getState, setState } from '../lib/store.ts';
 import { hebrewVoices, speak, ttsSupported } from '../lib/tts.ts';
 import { InstallCard } from './me.tsx';
+import { isMac, setupHelp } from '../lib/platform.ts';
 
 export function Onboarding() {
   const [step, setStep] = useState(0);
@@ -61,7 +62,7 @@ export function Onboarding() {
                 <strong>Smart reviews:</strong> a spaced-repetition scheduler brings each word back right before you would forget it.
               </li>
             </ul>
-            <p class="small muted">Free, works offline, no account. Progress stays on your phone.</p>
+            <p class="small muted">Free, works offline, no account. Progress stays on your device.</p>
             <button class="btn primary block" onClick={() => setStep(1)}>
               Let's set up →
             </button>
@@ -71,11 +72,11 @@ export function Onboarding() {
           <div class="card">
             <h3>1. Hebrew keyboard & voice</h3>
             <p class="small">
-              Type <span class="he">שלום</span> below. No Hebrew keyboard yet? iPhone: <strong>Settings → General → Keyboard →
-              Keyboards → Add New Keyboard → Hebrew</strong>. Then switch with the 🌐 key.
+              Type <span class="he">שלום</span> below. No Hebrew keyboard yet? {setupHelp.device}: <strong>{setupHelp.keyboard}</strong>.
+              Then switch with {setupHelp.switchKey}.
             </p>
             <AnswerInput value={kb} onInput={setKb} placeholder="שלום" />
-            {kb && (hasHebrew(kb) ? <div class="feedback ok">✓ Hebrew keyboard works</div> : <div class="feedback bad">That's not Hebrew yet — tap 🌐 to switch keyboards.</div>)}
+            {kb && (hasHebrew(kb) ? <div class="feedback ok">✓ Hebrew keyboard works</div> : <div class="feedback bad">That's not Hebrew yet — switch keyboards with {setupHelp.switchKey}.</div>)}
             <hr class="sep" />
             <p class="small">Now check the voice:</p>
             <button
@@ -90,13 +91,14 @@ export function Onboarding() {
             </button>
             {voiceTried && hebrewVoices().length === 0 && (
               <div class="feedback close small">
-                No Hebrew voice detected. iPhone: <strong>Settings → Accessibility → Spoken Content → Voices → Hebrew</strong> and
-                download <strong>Carmit</strong> (Enhanced sounds best).
+                No Hebrew voice detected. {setupHelp.device}: <strong>{setupHelp.voice}</strong> ({setupHelp.voiceAfter}).
               </div>
             )}
-            <p class="small muted mt">
-              Tip: the 🎤 key on the Hebrew keyboard lets you dictate answers — free speaking practice.
-            </p>
+            {!isMac && (
+              <p class="small muted mt">
+                Tip: the 🎤 key on the Hebrew keyboard lets you dictate answers — free speaking practice.
+              </p>
+            )}
             <InstallCard />
             <div class="btn-row">
               <button class="btn ghost" onClick={() => setStep(0)}>

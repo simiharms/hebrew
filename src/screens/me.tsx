@@ -1,4 +1,4 @@
-import { useState } from 'preact/hooks';
+import { useEffect, useState } from 'preact/hooks';
 import { ConfirmButton, Seg, TopBar, toast } from '../components/ui.tsx';
 import type { Level } from '../content/types.ts';
 import { LEVELS } from '../content/types.ts';
@@ -8,18 +8,44 @@ import { verbFocusLabel } from '../lib/plan.ts';
 import { SKILLS, skillLevel, weakTopics } from '../lib/skills.ts';
 import { SkillBar } from './assessment.tsx';
 import { go } from '../lib/router.ts';
+import { folderStatus, watchFolderStatus } from '../lib/localsave.ts';
 import { loadSemantic, semanticReady } from '../lib/semantic.ts';
 import { exportState, type Focus, importState, resetState, setState, streak, useAppState } from '../lib/store.ts';
 import { hebrewVoices, speak, ttsSupported } from '../lib/tts.ts';
+import { setupHelp } from '../lib/platform.ts';
 
 declare const __SINGLE__: boolean;
+declare const __HOSTED__: boolean;
 
 function isStandalone(): boolean {
   return (navigator as { standalone?: boolean }).standalone === true || matchMedia('(display-mode: standalone)').matches;
 }
 
+/** Mac package: where progress is saved (see lib/localsave.ts). */
+function FolderNote() {
+  const [, force] = useState(0);
+  useEffect(() => watchFolderStatus(() => force((n) => n + 1)), []);
+  const { running, savedAt } = folderStatus();
+  if (!running) {
+    return (
+      <p class="feedback close">
+        Shoresh isn't running right now, so progress is only saved in this browser. Double-click{' '}
+        <strong>start_shoresh.command</strong> to save it in the Shoresh folder too.
+      </p>
+    );
+  }
+  const at = savedAt ? ` (last saved ${new Date(savedAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })})` : '';
+  return (
+    <p>
+      Progress is saved in this browser and in the <strong>progress</strong> folder inside your Shoresh folder{at}. If the
+      browser's data is cleared, it comes back from there by itself. A copy from each day is kept in progress/backups: import
+      one below to go back to that day.
+    </p>
+  );
+}
+
 export function InstallCard() {
-  if (isStandalone() || __SINGLE__) return null;
+  if (isStandalone() || !__HOSTED__) return null;
   const ios = /iPhone|iPad|iPod/.test(navigator.userAgent);
   return (
     <div class="card accent small">
@@ -327,16 +353,15 @@ export function MePage() {
               </div>
               {voices.length === 0 && (
                 <div class="small mt">
-                  No Hebrew voice found. iPhone: Settings → Accessibility → Spoken Content → Voices → Hebrew → Carmit (choose
-                  “Enhanced” for better quality).
+                  No Hebrew voice found. {setupHelp.device}: {setupHelp.voice} ({setupHelp.voiceAfter}).
                 </div>
               )}
             </>
           )}
         </div>
 
-        {!__SINGLE__ && <div class="section-title">Experimental: on-device AI grading</div>}
-        {!__SINGLE__ && <div class="card small">
+        {__HOSTED__ && <div class="section-title">Experimental: on-device AI grading</div>}
+        {__HOSTED__ && <div class="card small">
           <p>
             Downloads a small multilingual neural network (~120 MB, once) that runs <strong>on your phone</strong> and compares the
             meaning of your answers with the model answer — so a correct paraphrase gets credit even without the exact keywords.
@@ -359,7 +384,11 @@ export function MePage() {
 
         <div class="section-title">Backup</div>
         <div class="card small">
-          <p>Your progress lives only on this device. Export a backup now and then (e.g. to Files or iCloud Drive).</p>
+          {__HOSTED__ || __SINGLE__ ? (
+            <p>Your progress lives only on this device. Export a backup now and then (e.g. to Files or iCloud Drive).</p>
+          ) : (
+            <FolderNote />
+          )}
           {exported !== null && (
             <>
               <textarea class="answer ltr" style={{ fontSize: 12, minHeight: 90 }} readOnly value={exported} onFocus={(e) => (e.target as HTMLTextAreaElement).select()} />

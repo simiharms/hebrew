@@ -32,15 +32,20 @@ const stripPwaLinks: Plugin = {
   transformIndexHtml: (html) => html.replace(/\s*<link rel="(manifest|apple-touch-icon|icon)"[^>]*>/g, ''),
 };
 
+// Modes: default is the hosted website; 'single' is one self-contained HTML
+// file; 'offline' is the download-and-run package (scripts/package-offline.mjs).
+// Only the hosted build has features that reach the internet (live headlines,
+// the AI grading model).
 export default defineConfig(({ mode }) => {
   const single = mode === 'single';
+  const offline = mode === 'offline';
   return {
     base: './',
     plugins: [preact(), ...(single ? [viteSingleFile(), stripPwaLinks] : [serviceWorker()])],
-    define: { __SINGLE__: JSON.stringify(single) },
+    define: { __SINGLE__: JSON.stringify(single), __HOSTED__: JSON.stringify(!single && !offline) },
     publicDir: single ? false : 'public',
     build: {
-      outDir: single ? 'dist-single' : 'dist',
+      outDir: single ? 'dist-single' : offline ? 'dist-offline' : 'dist',
       target: 'es2020',
       chunkSizeWarningLimit: 2000,
     },

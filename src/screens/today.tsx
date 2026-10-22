@@ -6,9 +6,10 @@ import { levelUpSuggestion, todaysPlan } from '../lib/plan.ts';
 import { SKILLS, weakestSkills } from '../lib/skills.ts';
 import { go } from '../lib/router.ts';
 import { setState, streak, today, useAppState } from '../lib/store.ts';
+import { isMac } from '../lib/platform.ts';
 
 const TIPS = [
-  'Answer by voice: tap the 🎤 on the Hebrew keyboard and speak — it trains pronunciation and iOS types it for you.',
+  ...(isMac ? [] : ['Answer by voice: tap the 🎤 on the Hebrew keyboard and speak — it trains pronunciation and iOS types it for you.']),
   'Tap any Hebrew word in an article to see its root, its prefixes (ו, ה, ב, ל, מ, ש) and the dictionary form.',
   'Got marked wrong but you were right? Tap “I was right” — your answer will be accepted from now on.',
   'Watch Kan 11 or Kan Educational shows on YouTube with Hebrew subtitles, then paste a line you liked into “Your own text”.',

@@ -8,6 +8,7 @@ import { GrammarLessonPage, GrammarList } from './screens/grammar.tsx';
 import { ListenList, ScenePlayer } from './screens/listen.tsx';
 import { MePage } from './screens/me.tsx';
 import { MistakesPage } from './screens/mistakes.tsx';
+import { NewsPage } from './screens/news.tsx';
 import { NumbersPage } from './screens/numbers.tsx';
 import { Onboarding } from './screens/onboarding.tsx';
 import { OwnList, OwnText } from './screens/own.tsx';
@@ -29,6 +30,7 @@ const TAB_OF: Record<string, string> = {
   verb: 'words',
   read: 'read',
   own: 'read',
+  news: 'read',
   listen: 'listen',
   numbers: 'practice',
   practice: 'practice',
@@ -65,6 +67,8 @@ function screen(route: string[]) {
       return <VerbPage id={b ?? ''} />;
     case 'read':
       return b ? <Reader id={b} /> : <ReadList />;
+    case 'news':
+      return <NewsPage />;
     case 'listen':
       return b ? <ScenePlayer id={b} /> : <ListenList />;
     case 'practice':

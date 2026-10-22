@@ -1,0 +1,349 @@
+[
+  {
+    "id": "r_news_20261022_elections",
+    "level": "B1",
+    "date": "2026-10-22",
+    "title": "ביום שלישי יש בחירות: מה צריך לדעת?",
+    "titleEn": "Elections on Tuesday: what do you need to know?",
+    "topic": "news",
+    "kind": "news",
+    "paragraphs": [
+      {
+        "he": "ביום שלישי הקרוב, 27 באוקטובר, יתקיימו בישראל בחירות לכנסת. האזרחים יבחרו את כל 120 חברי הכנסת ה-26. אחרי הבחירות, המפלגות ינסו להקים ממשלה חדשה.",
+        "en": "This coming Tuesday, October 27, Israel will hold elections for the Knesset. Citizens will elect all 120 members of the 26th Knesset. After the elections, the parties will try to form a new government."
+      },
+      {
+        "he": "יום הבחירות הוא יום שבתון. זה אומר שרוב העובדים לא עובדים ביום הזה, והם מקבלים משכורת רגילה. אבל יש מקומות עבודה שממשיכים לעבוד, למשל שירותים חיוניים.",
+        "en": "Election day is a statutory day off. That means most employees don't work that day, and they get their regular pay. But some workplaces keep working, for example essential services."
+      },
+      {
+        "he": "כדי להצביע, צריך להיות אזרח ישראלי בן 18 ומעלה. צריך להביא תעודה מזהה עם תמונה, למשל תעודת זהות או דרכון, וללכת לקלפי שלכם. ברוב המקומות הקלפיות פתוחות משבע בבוקר עד עשר בלילה.",
+        "en": "To vote, you need to be an Israeli citizen aged 18 or over. You need to bring photo ID, for example an ID card or a passport, and go to your own polling station. In most places the polling stations are open from seven in the morning until ten at night."
+      },
+      {
+        "he": "ישראלים שגרים בחו״ל בדרך כלל לא יכולים להצביע מחו״ל. מי שרוצה להצביע צריך להגיע לישראל ביום הבחירות. רק אנשים מסוימים, כמו דיפלומטים, מצביעים בחו״ל.",
+        "en": "Israelis who live abroad usually can't vote from abroad. Anyone who wants to vote has to come to Israel on election day. Only certain people, such as diplomats, vote abroad."
+      },
+      {
+        "he": "בערב, כשהקלפיות נסגרות, ערוצי הטלוויזיה מפרסמים מדגמים: תוצאות ראשונות, לא רשמיות. התוצאות הרשמיות מתפרסמות רק כמה ימים אחר כך.",
+        "en": "In the evening, when the polling stations close, the TV channels publish exit polls: first, unofficial results. The official results are published only a few days later."
+      }
+    ],
+    "glossary": [
+      { "he": "בחירות", "en": "elections", "tr": "bkhirót" },
+      { "he": "להצביע", "en": "to vote", "tr": "lehatsbía" },
+      { "he": "קלפי", "en": "polling station / ballot box", "tr": "kálpi" },
+      { "he": "יום שבתון", "en": "statutory day off", "tr": "yom shabatón" },
+      { "he": "מפלגה", "en": "(political) party", "tr": "miflagá" },
+      { "he": "להקים ממשלה", "en": "to form a government", "tr": "lehakím memshalá" },
+      { "he": "אזרח", "en": "citizen", "tr": "ezrákh" },
+      { "he": "תעודה מזהה", "en": "ID document", "tr": "teudá mezahá" },
+      { "he": "שירותים חיוניים", "en": "essential services", "tr": "sherutím khiyuniyím" },
+      { "he": "מדגם", "en": "exit poll (lit. sample)", "tr": "midgám" },
+      { "he": "רשמי", "en": "official", "tr": "rishmí" }
+    ],
+    "questions": [
+      {
+        "q": "מתי יתקיימו הבחירות לכנסת?",
+        "qEn": "When will the Knesset elections take place?",
+        "answer": "ביום שלישי, 27 באוקטובר.",
+        "answerEn": "On Tuesday, October 27.",
+        "keywords": [["שלישי", "27", "עשרים ושבעה"]]
+      },
+      {
+        "q": "למה רוב העובדים לא עובדים ביום הבחירות?",
+        "qEn": "Why don't most employees work on election day?",
+        "answer": "כי יום הבחירות הוא יום שבתון.",
+        "answerEn": "Because election day is a statutory day off.",
+        "keywords": [["שבתון", "חופש", "חופשה", "חג"]]
+      },
+      {
+        "q": "מה צריך להביא לקלפי?",
+        "qEn": "What do you need to bring to the polling station?",
+        "answer": "תעודה מזהה עם תמונה, למשל תעודת זהות או דרכון.",
+        "answerEn": "Photo ID, for example an ID card or a passport.",
+        "keywords": [["תעודה", "תעודת זהות", "דרכון"]]
+      },
+      {
+        "q": "מה זה מדגם?",
+        "qEn": "What is an exit poll (מדגם)?",
+        "answer": "תוצאות ראשונות ולא רשמיות שמתפרסמות בערב הבחירות.",
+        "answerEn": "First, unofficial results published on election night.",
+        "keywords": [["תוצאות", "תוצאה"], ["ראשונות", "ראשונה", "לא רשמיות", "לא רשמי"]]
+      }
+    ],
+    "writing": {
+      "prompt": "האם יש בחירות גם במדינה שלכם? כתבו 2–3 משפטים: מתי הן מתקיימות, ואיך מצביעים.",
+      "promptEn": "Are there elections in your country too? Write 2–3 sentences: when they take place and how people vote.",
+      "minWords": 20,
+      "useWords": ["בחירות", "להצביע", "קלפי"],
+      "checklist": [
+        { "en": "Say when elections take place", "keywords": ["פעם", "שנים", "בחודש", "בשנת"] },
+        { "en": "Say how people vote", "keywords": ["מצביעים", "להצביע", "הצבעה", "קלפי"] }
+      ],
+      "model": "במדינה שלי יש בחירות לפרלמנט פעם בארבע שנים. אפשר להצביע בקלפי ביום הבחירות, או לשלוח את ההצבעה בדואר כמה שבועות לפני כן. הרבה אנשים מעדיפים להצביע בדואר.",
+      "modelEn": "In my country there are parliamentary elections once every four years. You can vote at a polling station on election day, or send your vote by post a few weeks before. Many people prefer to vote by post."
+    },
+    "sources": [
+      { "name": "Wikipedia: 2026 Israeli legislative election", "url": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election" },
+      { "name": "Israel Hayom: election date set", "url": "https://www.israelhayom.com/2026/07/12/israels-next-official-election-date-set" },
+      { "name": "Ynet voter guide (polling hours)", "url": "https://www.ynet.co.il/news/article/5485104" }
+    ]
+  },
+  {
+    "id": "r_news_20261022_winter_time",
+    "level": "A2+",
+    "date": "2026-10-22",
+    "title": "בלילה שבין שבת לראשון עוברים לשעון חורף",
+    "titleEn": "Saturday night the clocks go back to winter time",
+    "topic": "news",
+    "kind": "news",
+    "paragraphs": [
+      {
+        "he": "בלילה שבין שבת ליום ראשון, 25 באוקטובר, ישראל עוברת לשעון חורף. בשעה שתיים בלילה השעון יזוז שעה אחת אחורה, לשעה אחת.",
+        "en": "On the night between Saturday and Sunday, October 25, Israel switches to winter time. At two in the morning the clock will move one hour back, to one o'clock."
+      },
+      {
+        "he": "מה זה אומר? בבוקר יהיה אור מוקדם יותר, אבל בערב יהיה חושך מוקדם יותר. השמש תשקע בסביבות חמש אחר הצהריים.",
+        "en": "What does that mean? In the morning it will be light earlier, but in the evening it will get dark earlier. The sun will set at around five in the afternoon."
+      },
+      {
+        "he": "רוב הטלפונים והמחשבים משנים את השעה לבד. אבל כדאי לבדוק את השעון בתנור, במיקרוגל וברכב.",
+        "en": "Most phones and computers change the time by themselves. But it's worth checking the clock on the oven, the microwave and in the car."
+      },
+      {
+        "he": "שעון החורף יימשך עד סוף מרץ. אז ישראל תחזור לשעון קיץ, והשעון יזוז שעה קדימה.",
+        "en": "Winter time will last until the end of March. Then Israel will go back to summer time, and the clock will move an hour forward."
+      }
+    ],
+    "glossary": [
+      { "he": "שעון חורף", "en": "winter time (standard time)", "tr": "sha'ón khóref" },
+      { "he": "שעון קיץ", "en": "summer time (daylight saving)", "tr": "sha'ón káyits" },
+      { "he": "לזוז", "en": "to move", "tr": "lazúz" },
+      { "he": "אחורה", "en": "back, backwards", "tr": "akhóra" },
+      { "he": "קדימה", "en": "forward", "tr": "kadíma" },
+      { "he": "חושך", "en": "darkness", "tr": "khóshekh" },
+      { "he": "לשקוע", "en": "to set (sun)", "tr": "lishkóa" },
+      { "he": "לבד", "en": "by itself, alone", "tr": "levád" },
+      { "he": "תנור", "en": "oven", "tr": "tanúr" },
+      { "he": "להימשך", "en": "to last", "tr": "lehimashékh" }
+    ],
+    "questions": [
+      {
+        "q": "מתי ישראל עוברת לשעון חורף?",
+        "qEn": "When does Israel switch to winter time?",
+        "answer": "בלילה שבין שבת ליום ראשון, 25 באוקטובר.",
+        "answerEn": "On the night between Saturday and Sunday, October 25.",
+        "keywords": [["ראשון", "שבת", "25"]]
+      },
+      {
+        "q": "לאן זז השעון: קדימה או אחורה?",
+        "qEn": "Which way does the clock move: forward or back?",
+        "answer": "השעון זז שעה אחת אחורה.",
+        "answerEn": "The clock moves one hour back.",
+        "keywords": [["אחורה"]]
+      },
+      {
+        "q": "מה יקרה בערב אחרי המעבר לשעון חורף?",
+        "qEn": "What will happen in the evening after the switch to winter time?",
+        "answer": "יהיה חושך מוקדם יותר.",
+        "answerEn": "It will get dark earlier.",
+        "keywords": [["חושך", "חשוך", "חשכה"]]
+      },
+      {
+        "q": "איפה כדאי לבדוק את השעה?",
+        "qEn": "Where is it worth checking the time?",
+        "answer": "בתנור, במיקרוגל וברכב.",
+        "answerEn": "On the oven, the microwave and in the car.",
+        "keywords": [["תנור", "מיקרוגל", "רכב", "מכונית", "אוטו"]]
+      }
+    ],
+    "writing": {
+      "prompt": "מה אתם אוהבים יותר: שעון קיץ או שעון חורף? למה? כתבו 2–3 משפטים.",
+      "promptEn": "Which do you like more: summer time or winter time? Why? Write 2–3 sentences.",
+      "minWords": 15,
+      "useWords": ["אור", "חושך", "מוקדם"],
+      "checklist": [
+        { "en": "Say which one you prefer", "keywords": ["קיץ", "חורף"] },
+        { "en": "Give a reason", "keywords": ["כי", "בגלל"] }
+      ],
+      "model": "לדעתי שעון קיץ יותר נעים, כי בערב יש אור ואפשר לטייל אחרי העבודה. בחורף חושך מוקדם, וקשה לי לצאת מהבית.",
+      "modelEn": "In my opinion summer time is nicer, because in the evening it's light and you can go for a walk after work. In winter it gets dark early, and it's hard for me to leave the house."
+    },
+    "sources": [
+      { "name": "timeanddate.com: Israel time change 2026", "url": "https://www.timeanddate.com/time/change/israel?year=2026" },
+      { "name": "Ynetnews: daylight saving time", "url": "https://www.ynetnews.com/topics/Daylight_savings_time" }
+    ]
+  },
+  {
+    "id": "r_news_20261022_imf_growth",
+    "level": "B1",
+    "date": "2026-10-22",
+    "title": "קרן המטבע: הכלכלה הישראלית תצמח השנה ב-4.5%",
+    "titleEn": "IMF: Israel's economy will grow 4.5% this year",
+    "topic": "economy",
+    "kind": "news",
+    "paragraphs": [
+      {
+        "he": "קרן המטבע הבינלאומית פרסמה באמצע אוקטובר תחזית חדשה לכלכלה העולמית. לפי התחזית, הכלכלה של ישראל תצמח השנה ב-4.5 אחוזים. זו אחת התחזיות הגבוהות בין המדינות המפותחות.",
+        "en": "The International Monetary Fund published a new forecast for the world economy in mid-October. According to the forecast, Israel's economy will grow by 4.5 percent this year. That's one of the highest forecasts among the developed countries."
+      },
+      {
+        "he": "בשנה הבאה, לפי הקרן, הצמיחה תהיה קצת נמוכה יותר: 4.4 אחוזים. הקרן צופה גם שהאינפלציה תהיה נמוכה, 1.8 אחוזים בשנת 2026.",
+        "en": "Next year, according to the IMF, growth will be a little lower: 4.4 percent. The IMF also expects inflation to be low: 1.8 percent in 2026."
+      },
+      {
+        "he": "מה זה צמיחה? כשהכלכלה צומחת, המדינה מייצרת יותר מוצרים ושירותים. בדרך כלל זה אומר יותר מקומות עבודה ויותר הכנסות למדינה.",
+        "en": "What is growth? When the economy grows, the country produces more goods and services. Usually that means more jobs and more income for the state."
+      },
+      {
+        "he": "חשוב לזכור: תחזית היא לא הבטחה. גופים אחרים פרסמו תחזיות נמוכות יותר, והמספרים יכולים להשתנות במהלך השנה.",
+        "en": "It's important to remember: a forecast is not a promise. Other organisations have published lower forecasts, and the numbers can change during the year."
+      }
+    ],
+    "glossary": [
+      { "he": "קרן המטבע הבינלאומית", "en": "International Monetary Fund (IMF)", "tr": "kéren hamatbéa habeinleumít" },
+      { "he": "תחזית", "en": "forecast", "tr": "takhazít" },
+      { "he": "לצמוח", "en": "to grow", "tr": "litsmóakh" },
+      { "he": "צמיחה", "en": "growth", "tr": "tsmikhá" },
+      { "he": "אחוז", "en": "percent", "tr": "akhúz" },
+      { "he": "לצפות", "en": "to expect, to forecast", "tr": "litspót" },
+      { "he": "מדינות מפותחות", "en": "developed countries", "tr": "medinót mefutakhót" },
+      { "he": "לייצר", "en": "to produce", "tr": "leyatsér" },
+      { "he": "מוצרים ושירותים", "en": "goods and services", "tr": "mutsarím ve-sherutím" },
+      { "he": "הכנסות", "en": "income, revenue", "tr": "hakhnasót" },
+      { "he": "הבטחה", "en": "promise", "tr": "havtakhá" },
+      { "he": "גוף", "en": "body, organisation", "tr": "guf" }
+    ],
+    "questions": [
+      {
+        "q": "בכמה אחוזים תצמח הכלכלה הישראלית השנה, לפי הקרן?",
+        "qEn": "By how many percent will Israel's economy grow this year, according to the IMF?",
+        "answer": "ב-4.5 אחוזים.",
+        "answerEn": "By 4.5 percent.",
+        "keywords": [["4.5", "ארבעה וחצי", "ארבע וחצי"]]
+      },
+      {
+        "q": "מה הקרן צופה לגבי האינפלציה?",
+        "qEn": "What does the IMF expect about inflation?",
+        "answer": "שהאינפלציה תהיה נמוכה, 1.8 אחוזים.",
+        "answerEn": "That inflation will be low, 1.8 percent.",
+        "keywords": [["נמוכה", "נמוך", "1.8"]]
+      },
+      {
+        "q": "מה קורה כשהכלכלה צומחת?",
+        "qEn": "What happens when the economy grows?",
+        "answer": "המדינה מייצרת יותר מוצרים ושירותים, ויש יותר מקומות עבודה.",
+        "answerEn": "The country produces more goods and services, and there are more jobs.",
+        "keywords": [["מוצרים", "שירותים", "מייצרת", "לייצר"], ["עבודה", "משרות"]]
+      },
+      {
+        "q": "למה הכתבה אומרת שתחזית היא לא הבטחה?",
+        "qEn": "Why does the article say a forecast isn't a promise?",
+        "answer": "כי יש גם תחזיות נמוכות יותר, והמספרים יכולים להשתנות.",
+        "answerEn": "Because there are also lower forecasts, and the numbers can change.",
+        "keywords": [["להשתנות", "משתנים", "ישתנו", "שינוי", "נמוכות"]]
+      }
+    ],
+    "writing": {
+      "prompt": "כתבו 2–3 משפטים: איך המצב הכלכלי משפיע על החיים שלכם? (מחירים, עבודה, שכר דירה)",
+      "promptEn": "Write 2–3 sentences: how does the economy affect your life? (prices, work, rent)",
+      "minWords": 20,
+      "useWords": ["מחירים", "עבודה", "לדעתי"],
+      "checklist": [
+        { "en": "Mention prices or pay", "keywords": ["מחירים", "מחיר", "משכורת", "שכר"] },
+        { "en": "Give your opinion", "keywords": ["לדעתי", "נראה לי", "אני חושב", "אני חושבת"] }
+      ],
+      "model": "לדעתי המחירים בישראל גבוהים מאוד, במיוחד שכר הדירה והאוכל בסופר. אם הכלכלה צומחת, אולי יהיו יותר מקומות עבודה, אבל זה לא אומר שהמחירים יירדו.",
+      "modelEn": "In my opinion prices in Israel are very high, especially rent and food at the supermarket. If the economy grows, maybe there will be more jobs, but that doesn't mean prices will go down."
+    },
+    "sources": [
+      { "name": "The Star (Xinhua): IMF expects Israel's economy to grow 4.5% in 2026", "url": "https://www.thestar.com.my/news/world/2026/10/14/imf-expects-israel039s-economy-to-grow-45-percent-in-2026" },
+      { "name": "Jerusalem Post: other forecasts", "url": "https://www.jpost.com/business-and-innovation/banking-and-finance/article-903090" }
+    ]
+  },
+  {
+    "id": "r_news_20261022_after_holidays",
+    "level": "A2+",
+    "date": "2026-10-22",
+    "title": "אחרי החגים: חוזרים לשגרה",
+    "titleEn": "After the holidays: back to routine",
+    "topic": "news",
+    "kind": "news",
+    "paragraphs": [
+      {
+        "he": "בישראל יש ביטוי מפורסם: ״אחרי החגים״. בספטמבר ובתחילת אוקטובר יש הרבה חגים: ראש השנה, יום כיפור, סוכות ושמחת תורה. השנה החג האחרון, שמחת תורה, היה ב-3 באוקטובר.",
+        "en": "In Israel there's a famous expression: \"after the holidays\". In September and early October there are many holidays: Rosh Hashanah, Yom Kippur, Sukkot and Simchat Torah. This year the last holiday, Simchat Torah, was on October 3."
+      },
+      {
+        "he": "בזמן החגים הרבה אנשים בחופש, הילדים לא הולכים לבית הספר כל יום, ובמשרדים קשה לקבוע פגישות. לכן ישראלים אומרים הרבה: ״נדבר על זה אחרי החגים״.",
+        "en": "During the holidays many people are on vacation, the children don't go to school every day, and in offices it's hard to set up meetings. So Israelis often say: \"We'll talk about it after the holidays.\""
+      },
+      {
+        "he": "עכשיו החגים נגמרו, והכול חוזר לשגרה: פרויקטים חדשים מתחילים, אנשים חוזרים לחדר הכושר, ומשפחות מתכננות את החורף.",
+        "en": "Now the holidays are over, and everything goes back to routine: new projects start, people go back to the gym, and families plan the winter."
+      },
+      {
+        "he": "טיפ לעבודה: אם מישהו אמר לכם ״אחרי החגים״, עכשיו זה הזמן לשלוח לו מייל ולהזכיר לו.",
+        "en": "A tip for work: if someone told you \"after the holidays\", now is the time to send them an email and remind them."
+      }
+    ],
+    "glossary": [
+      { "he": "ביטוי", "en": "expression", "tr": "bitúy" },
+      { "he": "חג", "en": "holiday", "tr": "khag" },
+      { "he": "שגרה", "en": "routine", "tr": "shigrá" },
+      { "he": "בחופש", "en": "on vacation, off", "tr": "be-khófesh" },
+      { "he": "לקבוע פגישה", "en": "to set up a meeting", "tr": "likbóa pgishá" },
+      { "he": "נגמר", "en": "ended, over", "tr": "nigmár" },
+      { "he": "חדר כושר", "en": "gym", "tr": "khéder kósher" },
+      { "he": "לתכנן", "en": "to plan", "tr": "letakhnén" },
+      { "he": "להזכיר", "en": "to remind", "tr": "lehazkír" }
+    ],
+    "questions": [
+      {
+        "q": "מה החג האחרון בתקופת החגים, ומתי הוא היה השנה?",
+        "qEn": "What is the last holiday of the holiday season, and when was it this year?",
+        "answer": "שמחת תורה, ב-3 באוקטובר.",
+        "answerEn": "Simchat Torah, on October 3.",
+        "keywords": [["שמחת תורה"], ["3", "שלושה"]]
+      },
+      {
+        "q": "למה קשה לקבוע פגישות בזמן החגים?",
+        "qEn": "Why is it hard to set up meetings during the holidays?",
+        "answer": "כי הרבה אנשים בחופש.",
+        "answerEn": "Because many people are on vacation.",
+        "keywords": [["חופש", "חופשה", "לא עובדים", "לא בעבודה"]]
+      },
+      {
+        "q": "מה ישראלים אומרים כשהם רוצים לדחות משהו?",
+        "qEn": "What do Israelis say when they want to postpone something?",
+        "answer": "״נדבר על זה אחרי החגים״.",
+        "answerEn": "\"We'll talk about it after the holidays.\"",
+        "keywords": [["אחרי החגים", "אחרי החג"]]
+      },
+      {
+        "q": "מה כדאי לעשות עכשיו, לפי הטיפ?",
+        "qEn": "What should you do now, according to the tip?",
+        "answer": "לשלוח מייל ולהזכיר.",
+        "answerEn": "Send an email and remind them.",
+        "keywords": [["מייל", "הודעה", "להזכיר", "תזכורת"]]
+      }
+    ],
+    "writing": {
+      "prompt": "איזה חג אתם הכי אוהבים, ולמה? כתבו 2–3 משפטים.",
+      "promptEn": "Which holiday do you like most, and why? Write 2–3 sentences.",
+      "minWords": 15,
+      "useWords": ["חג", "משפחה", "ביחד"],
+      "checklist": [
+        { "en": "Name a holiday", "keywords": ["חג", "פסח", "חנוכה", "סוכות", "ראש השנה", "כריסמס", "קריסמס"] },
+        { "en": "Say why", "keywords": ["כי", "בגלל"] }
+      ],
+      "model": "החג שהכי אהבתי בילדות היה חנוכה, כי כל המשפחה הייתה מדליקה נרות ואוכלת סופגניות ביחד. גם היום זה החג שלי.",
+      "modelEn": "The holiday I loved most as a child was Hanukkah, because the whole family would light candles and eat doughnuts together. It's still my holiday today."
+    },
+    "sources": [
+      { "name": "Hebcal: Sukkot 2026", "url": "https://www.hebcal.com/holidays/sukkot-2026" },
+      { "name": "timeanddate.com: holidays in Israel 2026", "url": "https://timeanddate.com/holidays/israel/2026" }
+    ]
+  }
+]

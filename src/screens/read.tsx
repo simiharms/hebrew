@@ -31,9 +31,10 @@ export function ReadList() {
         <div class="card primary small">
           Tap any word for its meaning, root and prefixes. Answer the questions <strong>in Hebrew</strong> — that's where the learning happens.
         </div>
+        <Item emoji="🗞️" title="News" sub="This week's news in easy Hebrew, plus today's real headlines ranked for your level" onClick={() => go('news')} />
         <Item emoji="📋" title="Your own text" sub="Paste any Hebrew: news, subtitles, messages" onClick={() => go('own')} />
         {order.map((lvl) => {
-          const list = readings.filter((r) => r.level === lvl);
+          const list = readings.filter((r) => r.level === lvl && !r.date);
           if (!list.length) return null;
           return (
             <>
@@ -166,6 +167,20 @@ export function Reader({ id }: { id: string }) {
             <WritingBox task={r.writing} id={`${r.id}:w`} />
           </>
         )}
+        {r.sources && (
+          <div class="card tight small">
+            <div class="muted">
+              {r.date && <>Easy-news issue of {new Date(`${r.date}T12:00:00`).toLocaleDateString()}. </>}Facts from:
+            </div>
+            {r.sources.map((src) => (
+              <div>
+                <a href={src.url} target="_blank" rel="noopener">
+                  {src.name} ↗
+                </a>
+              </div>
+            ))}
+          </div>
+        )}
         <NextUp level={r.level} currentId={r.id} kind="read" />
       </main>
     </>
@@ -174,7 +189,7 @@ export function Reader({ id }: { id: string }) {
 
 export function NextUp({ level, currentId, kind }: { level: Level; currentId: string; kind: 'read' | 'listen' }) {
   const s = getState();
-  const list: { id: string; level: Level; titleEn: string }[] = kind === 'read' ? readings : scenes;
+  const list: { id: string; level: Level; titleEn: string }[] = kind === 'read' ? readings.filter((x) => !x.date) : scenes;
   const next = list.find((x) => x.id !== currentId && !s.done[x.id] && levelRank(x.level) >= levelRank(level));
   if (!next) return null;
   return (

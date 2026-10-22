@@ -26,6 +26,20 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
 
+  // Daily headlines: always try the network first so they stay fresh.
+  if (url.pathname.endsWith('/news.json')) {
+    event.respondWith(
+      fetch(req)
+        .then((res) => {
+          const copy = res.clone();
+          if (res.ok) caches.open(CACHE).then((c) => c.put(req, copy));
+          return res;
+        })
+        .catch(() => caches.match(req, { ignoreSearch: true })),
+    );
+    return;
+  }
+
   if (req.mode === 'navigate') {
     // Network first so updates arrive; fall back to the cached shell offline.
     event.respondWith(

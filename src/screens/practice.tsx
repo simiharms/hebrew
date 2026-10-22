@@ -2,6 +2,7 @@ import { Item, TopBar } from '../components/ui.tsx';
 import { emails, grammar, verbs } from '../lib/content.ts';
 import { UNITS } from '../lib/course.ts';
 import { go } from '../lib/router.ts';
+import { EASY_NEWS_LINKS } from './news.tsx';
 import { dueVerbCount } from '../lib/session.ts';
 import { useAppState } from '../lib/store.ts';
 
@@ -46,6 +47,10 @@ const RESOURCES: { group: string; items: { name: string; url: string; note: stri
       { name: 'Kan Educational', url: 'https://www.youtube.com/results?search_query=%D7%9B%D7%90%D7%9F+%D7%97%D7%99%D7%A0%D7%95%D7%9B%D7%99%D7%AA', note: 'Clear, slower Hebrew for teens — perfect at B1.' },
       { name: 'Easy Hebrew news', url: 'https://www.youtube.com/results?search_query=%D7%97%D7%93%D7%A9%D7%95%D7%AA+%D7%91%D7%A2%D7%91%D7%A8%D7%99%D7%AA+%D7%A7%D7%9C%D7%94', note: 'Search “חדשות בעברית קלה” for simplified news bulletins.' },
     ],
+  },
+  {
+    group: 'Easy news',
+    items: EASY_NEWS_LINKS,
   },
   {
     group: 'Reading (B1+ → business)',

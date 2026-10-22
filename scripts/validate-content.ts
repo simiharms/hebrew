@@ -51,7 +51,7 @@ function questions(where: string, qs: any, sourceText: string) {
     str(w, q.answerEn, 'answerEn');
     if (!Array.isArray(q.keywords) || !q.keywords.length) return err(w, 'keywords missing');
     q.keywords.forEach((g: any, gi: number) => {
-      if (!Array.isArray(g) || !g.length || !g.every((x: any) => typeof x === 'string' && (hasHebrew(x) || /^\d+$/.test(x))))
+      if (!Array.isArray(g) || !g.length || !g.every((x: any) => typeof x === 'string' && (hasHebrew(x) || /^[\d.,]+$/.test(x))))
         return err(w, `keyword group ${gi + 1} must be a non-empty array of Hebrew strings (or plain numbers)`);
       if (!g.some((v: string) => containsKeyword(q.answer, v)))
         err(w, `keyword group ${JSON.stringify(g)} does not match the model answer "${q.answer}"`);

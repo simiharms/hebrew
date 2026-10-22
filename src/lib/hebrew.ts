@@ -153,7 +153,14 @@ export function checkHebrew(input: string, acceptedRaw: string[], opts: { strict
     }
   }
   if (bestD <= typoBudget(lenient(best).length)) {
-    if (opts.strict) return { verdict: 'wrong', expected: best, note: 'Very close, but here the exact form matters — compare the ending.' };
+    if (opts.strict) {
+      const bare = (x: string) => lenient(x).replace(/[יו]/g, '');
+      const note =
+        bare(raw) === bare(best)
+          ? 'Close — the difference is a vowel letter (י or ו). Compare with the standard form below.'
+          : 'Very close, but here the exact form matters — compare the ending.';
+      return { verdict: 'wrong', expected: best, note };
+    }
     return { verdict: 'close', expected: best, note: 'Almost — check the spelling.' };
   }
   return { verdict: 'wrong', expected: best };

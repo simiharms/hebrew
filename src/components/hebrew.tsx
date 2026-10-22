@@ -131,6 +131,9 @@ export function GlossSheet() {
           <button class="btn small" onClick={() => speak(clean)}>
             🔊
           </button>
+          <button class="icon-btn" aria-label="Close" onClick={close}>
+            ✕
+          </button>
         </div>
         {res.prefix && (
           <div class="small muted mt">

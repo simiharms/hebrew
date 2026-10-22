@@ -134,7 +134,7 @@ if (r) {
   await page.waitForTimeout(150);
   check(await page.locator('.sheet').isVisible(), 'tap-to-gloss sheet opens');
   await shot('e2e-gloss');
-  await page.locator('.sheet-backdrop').click();
+  await page.getByRole('button', { name: 'Close' }).click();
   const q = r.questions[0];
   await page.locator('input.answer').first().fill(q.answer);
   await page.getByRole('button', { name: 'Check' }).first().click();

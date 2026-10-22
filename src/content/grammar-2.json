@@ -1392,7 +1392,7 @@
           "זאת אומרת"
         ],
         "hint": "Rephrasing",
-        "explain": "כלומר explains or rephrases what was just said."
+        "explain": "כלומר explains or rephrases what was just said; in speech also זאת אומרת."
       },
       {
         "prompt": "שלחתי לך את החומר מראש ___ להתכונן. (so that + you, m, can: יכול in the future)",
@@ -2160,7 +2160,7 @@
           "בנוסף"
         ],
         "hint": "Formal גם",
-        "explain": "כמו כן adds a further point in formal writing (= גם)."
+        "explain": "כמו כן adds a further point in formal writing (= גם); בנוסף also works."
       },
       {
         "prompt": "ניתן לשלם ___ אפליקציית הבנק. (by means of — formal)",

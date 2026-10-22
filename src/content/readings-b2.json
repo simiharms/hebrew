@@ -226,8 +226,8 @@
         ]
       },
       {
-        "q": "בפסקה האחרונה נאמר: \"רוכשים רבים מחכים לראות לאן נושבת הרוח\". מה פירוש הביטוי בהקשר הזה?",
-        "qEn": "The last paragraph says: \"רוכשים רבים מחכים לראות לאן נושבת הרוח\". What does the expression mean in this context?",
+        "q": "בפסקה האחרונה נאמר: \"רוכשים רבים מחכים כרגע לראות לאן נושבת הרוח\". מה פירוש הביטוי בהקשר הזה?",
+        "qEn": "The last paragraph says: \"רוכשים רבים מחכים כרגע לראות לאן נושבת הרוח\". What does the expression mean in this context?",
         "answer": "הם מחכים לראות מה יקרה בהמשך ולאיזה כיוון השוק הולך.",
         "answerEn": "They are waiting to see what will happen next and which direction the market is heading.",
         "keywords": [
@@ -298,8 +298,8 @@
           ]
         }
       ],
-      "model": "לכבוד מחלקת המשכנתאות, שלום רב. בעקבות החלטת הבנק המרכזי להפחית את הריבית, ברצוני לבחון את האפשרות למחזר את המשכנתא שלי. כיום חלק מההלוואה נמצא במסלול הפריים, והיתר בריבית קבועה. אבקש לקבל הצעה לתמהיל חדש, וכן פירוט של העמלות הצפויות, ובכלל זה עמלת פירעון מוקדם. חשוב לי להבין מראש את העלות הכוללת של המהלך, כדי לוודא שהוא אכן משתלם. אודה לכם אם תוכלו לקבוע איתי פגישה בשבועות הקרובים. בכבוד רב, אלכס",
-      "modelEn": "To the mortgage department, hello. Following the central bank's decision to cut the interest rate, I would like to look into the possibility of refinancing my mortgage. At the moment part of the loan is in the prime track and the rest is at a fixed rate. I would like to receive an offer for a new mix, as well as a breakdown of the expected fees, including the early repayment fee. It is important for me to understand the total cost of the move in advance, to make sure it really pays off. I would be grateful if you could set up a meeting with me in the coming weeks. Sincerely, Alex"
+      "model": "לכבוד\nמחלקת המשכנתאות\n\nשלום רב,\n\nבעקבות החלטת הבנק המרכזי להפחית את הריבית, ברצוני לבחון את האפשרות למחזר את המשכנתא שלי. כיום חלק מההלוואה נמצא במסלול הפריים, והיתר בריבית קבועה.\nאבקש לקבל הצעה לתמהיל חדש, וכן פירוט של העמלות הצפויות, ובכלל זה עמלת פירעון מוקדם. חשוב לי להבין מראש את העלות הכוללת של המהלך, כדי לוודא שהוא אכן משתלם.\n\nאודה לכם אם תוכלו לקבוע איתי פגישה בשבועות הקרובים.\n\nבכבוד רב,\nאלכס",
+      "modelEn": "To the Mortgage Department. Dear Sir or Madam, Following the central bank's decision to cut the interest rate, I would like to look into the possibility of refinancing my mortgage. At the moment part of the loan is in the prime track and the rest is at a fixed rate. I would like to receive an offer for a new mix, as well as a breakdown of the expected fees, including the early repayment fee. It is important for me to understand the total cost of the move in advance, to make sure it really pays off. I would be grateful if you could set up a meeting with me in the coming weeks. Sincerely, Alex"
     }
   },
   {
@@ -617,7 +617,7 @@
         "en": "Another key field is desalination. Several large desalination plants operate along the Mediterranean coast, turning seawater into drinking water and now supplying a considerable share of the water used in homes. In addition, Israel recycles most of its wastewater and uses it for agricultural irrigation, at one of the highest rates in the world. The combination of the three fields has turned Israel into a kind of \"living laboratory\" that delegations from all over the world come to visit."
       },
       {
-        "he": "על פי הערכות בענף, פועלות כיום בישראל מאות חברות בתחום המים, רובן קטנות ובינוניות. לצד חברות ותיקות צמחו בשנים האחרונות סטארט-אפים המפתחים חיישנים לאיתור דליפות, מערכות השקיה חכמות המנוהלות מהטלפון וטכנולוגיות לטיהור מים בעזרת אנרגיה סולארית. \"העולם מתחיל להבין שמים הם משאב שאסור לבזבז\", אומר רון אלמוג, מנכ״ל חברת טיפה חכמה, המפתחת חיישנים לרשתות מים עירוניות. \"בערים רבות הולכות לאיבוד כמויות עצומות של מים בגלל צנרת ישנה, וזה בדיוק המקום שבו אנחנו נכנסים\".",
+        "he": "על פי הערכות בענף, פועלות כיום בישראל מאות חברות בתחום המים, רובן קטנות ובינוניות. לצד חברות ותיקות צמחו בשנים האחרונות סטארט-אפים המפתחים חיישנים לאיתור דליפות, מערכות השקיה חכמות המנוהלות מהטלפון וטכנולוגיות לטיהור מים בעזרת אנרגיה סולארית. \"העולם מתחיל להבין שמים הם משאב שאסור לבזבז\", אומר רון אלמוג, מנכ״ל חברת טיפה חכמה, המפתחת חיישנים לרשתות מים עירוניות. \"בערים רבות הולכות לאיבוד כמויות עצומות של מים בגלל צנרת ישנה, וזה בדיוק המקום שבו אנחנו נכנסים לתמונה\".",
         "en": "According to industry estimates, hundreds of water companies operate in Israel today, most of them small and medium-sized. Alongside the veteran companies, startups have sprung up in recent years developing sensors for detecting leaks, smart irrigation systems controlled from a phone, and technologies for purifying water with solar energy. \"The world is starting to understand that water is a resource that must not be wasted,\" says Ron Almog, CEO of Smart Drop, which develops sensors for municipal water networks. \"In many cities huge amounts of water are lost because of old pipes, and that's exactly where we come in.\""
       },
       {
@@ -883,7 +883,7 @@
           ]
         }
       ],
-      "model": "שלום נעמה, להלן סיכום קצר של הכתבה על תעשיית המים הישראלית. על פי הכתבה, ישראל מובילה בתחומי ההשקיה בטפטוף, ההתפלה ומחזור מי השפכים, ופועלות בה מאות חברות בתחום. בנוסף, הביקוש לפתרונות מים צפוי לגדול בעקבות משבר האקלים, וזו הזדמנות לא מבוטלת גם עבורנו. עם זאת, התחרות הבינלאומית הולכת ומחריפה, ומדינות נוספות משקיעות סכומים גדולים בטכנולוגיות מים. לפיכך, מומלץ לבחון שיתוף פעולה עם חברת טכנולוגיה ישראלית, כדי להציע ללקוחות שלנו פתרון משולב של ציוד וחיישנים חכמים. בברכה, אלכס",
+      "model": "שלום נעמה,\n\nלהלן סיכום קצר של הכתבה על תעשיית המים הישראלית.\nעל פי הכתבה, ישראל מובילה בתחומי ההשקיה בטפטוף, ההתפלה ומחזור מי השפכים, ופועלות בה מאות חברות בתחום. בנוסף, הביקוש לפתרונות מים צפוי לגדול בעקבות משבר האקלים, וזו הזדמנות לא מבוטלת גם עבורנו. עם זאת, התחרות הבינלאומית הולכת ומחריפה, ומדינות נוספות משקיעות סכומים גדולים בטכנולוגיות מים.\nלפיכך, מומלץ לבחון שיתוף פעולה עם חברת טכנולוגיה ישראלית, כדי להציע ללקוחות שלנו פתרון משולב של ציוד וחיישנים חכמים.\n\nבברכה,\nאלכס",
       "modelEn": "Hello Naama, here is a short summary of the article on the Israeli water industry. According to the article, Israel is a leader in drip irrigation, desalination and wastewater recycling, and hundreds of companies are active in the field there. In addition, demand for water solutions is expected to grow because of the climate crisis, and that is a considerable opportunity for us too. However, international competition is getting fiercer, and other countries are investing large sums in water technologies. Therefore, it is recommended that we look into a partnership with an Israeli technology company, so that we can offer our customers a combined solution of equipment and smart sensors. Best regards, Alex"
     }
   },
@@ -1168,7 +1168,7 @@
           ]
         }
       ],
-      "model": "שלום דורית, ביקשת שאבדוק את הרעיון להפעיל צ׳אטבוט באתר החנות, ולהלן עיקרי הדברים. היתרון המרכזי הוא מענה מהיר ללקוחות בכל שעות היממה, גם כשהחנות סגורה. כך נוכל לחסוך זמן רב, ואולי אף להגדיל את המכירות באתר. עם זאת, קיים סיכון שהמערכת תמסור ללקוחות מידע שגוי על מחירים או על מועדי משלוח. לפיכך, מומלץ להתחיל בתקופת ניסיון של חודש ולהגביל את הצ׳אטבוט לשאלות פשוטות בלבד. בנוסף, יש להקפיד שלא להזין למערכת פרטים אישיים של לקוחות. בברכה, אלכס",
+      "model": "שלום דורית,\n\nביקשת שאבדוק את הרעיון להפעיל צ׳אטבוט באתר החנות, ולהלן עיקרי הדברים.\nהיתרון המרכזי הוא מענה מהיר ללקוחות בכל שעות היממה, גם כשהחנות סגורה. כך נוכל לחסוך זמן רב, ואולי אף להגדיל את המכירות באתר.\nעם זאת, קיים סיכון שהמערכת תמסור ללקוחות מידע שגוי על מחירים או על מועדי משלוח.\nלפיכך, מומלץ להתחיל בתקופת ניסיון של חודש ולהגביל את הצ׳אטבוט לשאלות פשוטות בלבד. בנוסף, יש להקפיד שלא להזין למערכת פרטים אישיים של לקוחות.\n\nבברכה,\nאלכס",
       "modelEn": "Hello Dorit, you asked me to look into the idea of running a chatbot on the shop's website, and here are the main points. The main advantage is a quick response to customers around the clock, even when the shop is closed. That way we can save a lot of time, and perhaps even increase online sales. However, there is a risk that the system will give customers wrong information about prices or delivery dates. Therefore, it is recommended to start with a one-month trial period and to limit the chatbot to simple questions only. In addition, we must make sure not to enter customers' personal details into the system. Best regards, Alex"
     }
   },
@@ -1450,8 +1450,8 @@
           ]
         }
       ],
-      "model": "לכבוד עיריית גבעת שקמה. הנדון: בקשה לסיוע לעסקים לאורך תוואי הרכבת הקלה. חנות הספרים שבבעלותי פועלת ברחוב הראשי כבר יותר מעשר שנים. בעקבות ביטול מקומות החנייה ברחוב, ההכנסות ירדו בחודשים האחרונים באופן חד, ולקוחות קבועים רבים הפסיקו להגיע. לאור זאת, אבקש שתבחנו את זכאותנו לקרן הסיוע שאושרה לאחרונה. כמו כן, ברצוני להציע להקצות מקומות חנייה קצרי מועד בסמוך לחנויות, לטובת לקוחות מבוגרים ובעלי מוגבלויות. אודה לכם על טיפולכם המהיר. בכבוד רב, אלכס",
-      "modelEn": "To the Givat Shikma Municipality. Re: request for assistance for businesses along the light-rail route. The bookshop I own has been operating on the main street for more than ten years. Following the removal of the parking spaces on the street, our revenue has dropped sharply in recent months, and many regular customers have stopped coming. In light of this, I ask that you examine our eligibility for the aid fund that was recently approved. In addition, I would like to propose setting aside some short-term parking spaces near the shops, for the benefit of elderly customers and people with disabilities. I would be grateful for your prompt handling of this matter. Sincerely, Alex"
+      "model": "לכבוד\nעיריית גבעת שקמה\n\nהנדון: בקשה לסיוע לעסקים לאורך תוואי הרכבת הקלה\n\nשלום רב,\n\nחנות הספרים שבבעלותי פועלת ברחוב הראשי כבר יותר מעשר שנים. בעקבות ביטול מקומות החנייה ברחוב, ההכנסות ירדו בחודשים האחרונים באופן חד, ולקוחות קבועים רבים הפסיקו להגיע.\nלאור זאת, אבקש שתבחנו את זכאותנו לקרן הסיוע שאושרה לאחרונה. כמו כן, ברצוני להציע להקצות מקומות חנייה לזמן קצר בסמוך לחנויות, לטובת לקוחות מבוגרים ובעלי מוגבלויות.\n\nאודה לכם על טיפולכם המהיר.\n\nבכבוד רב,\nאלכס",
+      "modelEn": "To the Givat Shikma Municipality. Re: request for assistance for businesses along the light-rail route. Dear Sir or Madam, The bookshop I own has been operating on the main street for more than ten years. Following the removal of the parking spaces on the street, our revenue has dropped sharply in recent months, and many regular customers have stopped coming. In light of this, I ask that you examine our eligibility for the aid fund that was recently approved. In addition, I would like to propose setting aside some short-term parking spaces near the shops, for the benefit of elderly customers and people with disabilities. I would be grateful for your prompt handling of this matter. Sincerely, Alex"
     }
   },
   {
@@ -1467,7 +1467,7 @@
         "en": "Five years ago, Orit Shimoni was considered one of the most promising entrepreneurs in the industry. The company she founded, Kav Yashar (\"Straight Line\"), developed a delivery-management system, raised millions of dollars from investors and employed dozens of people. Two years later it shut down. Today Shimoni heads a new venture, and in this interview she talks candidly about the failure, what she learned from it, and the Israeli attitude to risk."
       },
       {
-        "he": "מה בעצם השתבש? \"על הנייר הכול נראה מצוין\", היא אומרת. \"היו לנו מוצר טוב, צוות מעולה וכסף בבנק. אבל גדלנו מהר מדי: גייסנו עובדים לפני שהיו לנו מספיק לקוחות משלמים, ונכנסנו לשווקים שלא הכרנו. כשהשוק השתנה והמשקיעים הפסיקו להזרים כסף, פשוט לא הייתה לנו רשת ביטחון\".",
+        "he": "מה בעצם השתבש? \"על הנייר הכול נראה מצוין\", היא אומרת. \"היה לנו מוצר טוב, צוות מעולה וכסף בבנק. אבל גדלנו מהר מדי: גייסנו עובדים לפני שהיו לנו מספיק לקוחות משלמים, ונכנסנו לשווקים שלא הכרנו. כשהשוק השתנה והמשקיעים הפסיקו להזרים כסף, פשוט לא הייתה לנו רשת ביטחון\".",
         "en": "So what actually went wrong? \"On paper everything looked great,\" she says. \"We had a good product, an excellent team and money in the bank. But we grew too fast: we hired people before we had enough paying customers, and we went into markets we didn't know. When the market changed and investors stopped pouring in money, we simply had no safety net.\""
       },
       {
@@ -1480,7 +1480,7 @@
       },
       {
         "he": "יש מי שיטענו שהיחס הסלחני לכישלון הוא גם חיסרון. \"נכון, יש לזה צד שני\", היא מודה. \"התרבות הישראלית מעודדת לקחת סיכונים, לפעמים בלי לחשוב מספיק. 'יהיה בסדר' הוא משפט נהדר כשצריך אומץ, אבל הוא משפט מסוכן כשצריך תוכנית עסקית. בחברה החדשה אני משתדלת לשלב בין השניים: לחלום בגדול, אבל לבדוק כל שקל\".",
-        "en": "Some would argue that the forgiving attitude to failure is also a weakness. \"True, there's another side to it,\" she admits. \"Israeli culture encourages taking risks, sometimes without enough thought. 'Yihye beseder' — 'it'll be fine' — is a great phrase when you need courage, but a dangerous one when you need a business plan. In the new company I try to combine the two: dream big, but check every shekel.\""
+        "en": "Some would argue that the forgiving attitude to failure is also a drawback. \"True, there's another side to it,\" she admits. \"Israeli culture encourages taking risks, sometimes without enough thought. 'Yihye beseder' — 'it'll be fine' — is a great phrase when you need courage, but a dangerous one when you need a business plan. In the new company I try to combine the two: dream big, but check every shekel.\""
       },
       {
         "he": "החברה החדשה, \"טרי\", מפתחת תוכנה שעוזרת למסעדות לצמצם בזבוז מזון. לאחרונה נחתם הסכם עם רשת מסעדות גדולה, והחברה כבר רווחית. \"הפעם גדלנו לאט, לקוח אחרי לקוח\", מסבירה שמעוני. ומה היא אומרת למי שחושש לנסות? \"אל תפחדו להיכשל. רק תדאגו שזה יקרה מהר ובזול, ושתלמדו מכל טעות. הכישלון הגדול ביותר הוא לא לנסות בכלל\".",

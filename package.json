@@ -9,7 +9,7 @@
     "build:single": "vite build --mode single",
     "preview": "vite preview",
     "test": "vitest run",
-    "validate": "node --no-warnings scripts/validate-content.ts",
+    "validate": "vite-node scripts/validate-content.ts",
     "e2e": "node scripts/e2e.mjs",
     "e2e:single": "node scripts/single-smoke.mjs"
   },
@@ -22,6 +22,7 @@
     "playwright-core": "1.56.1",
     "typescript": "5.9.3",
     "vite": "6.4.5",
+    "vite-node": "3.2.4",
     "vite-plugin-singlefile": "2.1.0",
     "vitest": "3.2.7"
   }

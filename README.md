@@ -18,7 +18,7 @@ your phone, and you can export a backup.
 | No verb tables | **64 verbs** with full present/past/future/imperative tables and transliteration. A spaced-repetition verb drill covers them. |
 | Numbers are never practised | A numbers trainer covers prices, phone numbers, times, years and budgets **by ear**, plus writing numbers with correct gender (שלושה לקוחות, but שלוש שנים). |
 | No business Hebrew | Business vocabulary and phrases, formal-register lessons, and **12 workplace writing tasks**: replying to a client, a supplier, a landlord or HR. A live checklist shows what your reply covers, and you can compare it with a model answer. |
-| Streak-driven, shallow reviews | An FSRS spaced-repetition scheduler covers words and verbs. A **mistake bank** brings back every grammar, verb and number error. A daily plan mixes words, verbs, grammar, reading, listening, numbers and writing. |
+| Streak-driven, shallow reviews | An FSRS spaced-repetition scheduler covers **about 700 words and phrases** (business, daily life, news) and the verbs. A **mistake bank** brings back every grammar, verb and number error. A daily plan mixes words, verbs, grammar, reading, listening, numbers and writing. |
 | Can't use your own material | **"Your own text"**: paste any Hebrew (news, subtitles, WhatsApp) to get tap-to-translate, read-aloud and a fill-the-gap exercise. |
 | Lessons in a random tree, no syllabus | A **17-unit course** in grammar order, from A2+ to B2. Its structure is inspired by university Hebrew textbooks such as Etzion's *Routledge Introductory Course in Modern Hebrew*. Each unit is one grammar point with a text, a scene, verbs and a writing task built around it, then a strict unit check. |
 | One XP number, no idea what you're weak at | A **skills check** (about 10 min) gives you a level per skill: vocabulary, verb forms, grammar, listening, reading and writing. After that, every exercise updates a live profile, including weak spots by grammar topic, binyan and tense. The daily plan adds marked "focus" practice for your weakest skill. |
@@ -31,34 +31,59 @@ server.
 
 ## Install on your iPhone (free)
 
-The app is a static website, so it needs free static hosting. Pick one:
+The app is a static website. Host it for free once, then add it to your home screen.
 
-1. **GitHub Pages.** This is free if the repository is **public**. Pages is not available for private
-   repos on the free GitHub plan.
-   - Settings → General → Change visibility → Public.
-   - Settings → Pages → Source: **GitHub Actions**.
-   - Push to `main`. The workflow in `.github/workflows/deploy.yml` tests, builds and deploys the app to
-     `https://<user>.github.io/<repo>/`.
-2. **Cloudflare Pages or Netlify (free tiers), keeping the repo private.** Connect the repository. Use
-   build command `npm run build` and output directory `dist`.
+### 1. Put the app on `main`
 
-**Daily headlines.** The workflow also runs every morning (04:17 UTC). It fetches Hebrew RSS headlines
-into `news.json` and redeploys. GitHub pauses scheduled workflows in repositories with no activity for 60
-days; one click on *Actions → Build & deploy → Run workflow* restarts it. On Cloudflare Pages or Netlify,
-use the build command `node scripts/fetch-news.mjs public/news.json; npm run build` and trigger a daily
-rebuild with a deploy hook.
+On GitHub: **Pull requests → New pull request → base: `main` ← compare: `claude/hebrew-learning-pwa` →
+Create pull request → Merge**.
 
-**Easy-news issues** are content files named `src/content/readings-news-YYYY-MM-DD.json`. To get a new
-issue, ask Claude Code to "write this week's easy news issue for Shoresh". It searches current news, writes
-4–5 short easy-Hebrew articles with sources, validates them and commits.
+### 2. Host it, choosing one option
 
-Then, on the iPhone:
+**Option A: GitHub Pages (simplest; the repository must be public).** Pages is not available for private
+repositories on the free GitHub plan. The repo only holds the app's code and content.
 
-- Open the URL in **Safari** → Share → **Add to Home Screen**.
-- Add the Hebrew keyboard: Settings → General → Keyboard → Keyboards → Add New Keyboard → Hebrew.
-- For better speech: Settings → Accessibility → Spoken Content → Voices → Hebrew → download **Carmit
-  (Enhanced)**.
-- Tip: the 🎤 key on the Hebrew keyboard lets you dictate answers, which is free speaking practice.
+1. Repository **Settings → General → Danger Zone → Change visibility → Public**.
+2. **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+3. **Actions → Build & deploy → Run workflow** (merging to `main` also starts it). After about 2 minutes
+   the app is live at `https://simiharms.github.io/hebrew/`.
+
+**Option B: Cloudflare Pages (free; the repository stays private).**
+
+1. In the Cloudflare dashboard: **Workers & Pages → Create → Pages → Connect to Git** → pick
+   `simiharms/hebrew`.
+2. Production branch: `main`. Build command: `node scripts/fetch-news.mjs public/news.json; npm run build`.
+   Output directory: `dist`. Under environment variables, set `NODE_VERSION` = `22`.
+3. **Save and Deploy**. You get an address like `https://hebrew.pages.dev`. Headlines refresh on every
+   rebuild, which happens at least weekly when the new easy-news issue is pushed.
+
+### 3. On the iPhone
+
+1. Open the app's address in **Safari** (not Chrome; only Safari can install web apps on iOS).
+2. Tap **Share** (the square with the arrow) → scroll down → **Add to Home Screen** → **Add**.
+3. Open **Shoresh** from the home screen. It runs full-screen and works offline.
+
+### 4. One-time setup on the iPhone
+
+- **Hebrew keyboard:** Settings → General → Keyboard → Keyboards → Add New Keyboard → Hebrew. In the app,
+  switch to it with the 🌐 key.
+- **Better Hebrew voice:** Settings → Accessibility → Spoken Content → Voices → Hebrew → Carmit → download
+  the **Enhanced** version.
+- **First launch:** take the 10-minute skills check. It places you in the course and tailors the daily
+  plan.
+- **Speaking practice:** the 🎤 key on the Hebrew keyboard lets you answer by voice.
+- **Backups:** progress is stored only on the phone. Now and then use ⚙️ → Backup → Export backup and
+  save it to Files or iCloud Drive.
+
+### News
+
+- **Daily headlines:** the deploy workflow also runs every morning (04:17 UTC). It fetches Hebrew RSS
+  headlines into `news.json` and redeploys. GitHub pauses scheduled workflows after 60 days without
+  repository activity; *Actions → Build & deploy → Run workflow* restarts it.
+- **Weekly easy-news issue:** a scheduled Claude task ("Shoresh weekly easy news") runs every Friday
+  morning. It writes 4–5 short easy-Hebrew articles with sources as
+  `src/content/readings-news-YYYY-MM-DD.json`, validates them and pushes to `main`, which redeploys the
+  app. You can also ask Claude Code any time to "write this week's easy news issue for Shoresh".
 
 ## Develop
 

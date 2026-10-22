@@ -20,6 +20,9 @@ your phone, and you can export a backup.
 | No business Hebrew | Business vocabulary and phrases, formal-register lessons, and **12 workplace writing tasks**: replying to a client, a supplier, a landlord or HR. A live checklist shows what your reply covers, and you can compare it with a model answer. |
 | Streak-driven, shallow reviews | An FSRS spaced-repetition scheduler covers words and verbs. A **mistake bank** brings back every grammar, verb and number error. A daily plan mixes words, verbs, grammar, reading, listening, numbers and writing. |
 | Can't use your own material | **"Your own text"**: paste any Hebrew (news, subtitles, WhatsApp) to get tap-to-translate, read-aloud and a fill-the-gap exercise. |
+| Lessons in a random tree, no syllabus | A **17-unit course** in grammar order, from A2+ to B2. Its structure is inspired by university Hebrew textbooks such as Etzion's *Routledge Introductory Course in Modern Hebrew*. Each unit is one grammar point with a text, a scene, verbs and a writing task built around it, then a strict unit check. |
+| One XP number, no idea what you're weak at | A **skills check** (about 10 min) gives you a level per skill: vocabulary, verb forms, grammar, listening, reading and writing. After that, every exercise updates a live profile, including weak spots by grammar topic, binyan and tense. The daily plan adds marked "focus" practice for your weakest skill. |
+| Nothing current to read | **Easy news.** Short current-news articles rewritten in easy Hebrew (A2+/B1) with sources, a glossary and questions. Plus **today's real headlines**, fetched once a day from Hebrew news sites and ranked by how many of the words you already know. |
 
 **Optional on-device AI grading.** You can turn this on in settings. It downloads a small multilingual
 sentence-embedding neural network (~120 MB, once) that runs in the browser. It compares the *meaning* of
@@ -38,6 +41,16 @@ The app is a static website, so it needs free static hosting. Pick one:
      `https://<user>.github.io/<repo>/`.
 2. **Cloudflare Pages or Netlify (free tiers), keeping the repo private.** Connect the repository. Use
    build command `npm run build` and output directory `dist`.
+
+**Daily headlines.** The workflow also runs every morning (04:17 UTC). It fetches Hebrew RSS headlines
+into `news.json` and redeploys. GitHub pauses scheduled workflows in repositories with no activity for 60
+days; one click on *Actions → Build & deploy → Run workflow* restarts it. On Cloudflare Pages or Netlify,
+use the build command `node scripts/fetch-news.mjs public/news.json; npm run build` and trigger a daily
+rebuild with a deploy hook.
+
+**Easy-news issues** are content files named `src/content/readings-news-YYYY-MM-DD.json`. To get a new
+issue, ask Claude Code to "write this week's easy news issue for Shoresh". It searches current news, writes
+4–5 short easy-Hebrew articles with sources, validates them and commits.
 
 Then, on the iPhone:
 
@@ -73,6 +86,10 @@ All learning content lives in `src/content/*.json`, typed by `src/content/types.
 - `scenes-*.json`: dialogues with speakers, comprehension questions, dictation lines and expressions.
 - `grammar-*.json`: lessons with explanations, tables and fill-the-gap drills.
 - `emails.json`: workplace writing tasks.
+- `readings-news-YYYY-MM-DD.json`: easy-news issues. These are readings with a `date` and `sources`.
+
+The course structure (which lesson, text, scene, verbs and email belong to each unit) is in
+`src/lib/course.ts`.
 
 `npm run validate` rejects niqqud, malformed items and duplicate ids. It also rejects any question whose
 answer keywords don't match its own model answer. To add content, add items to any of these files (or a

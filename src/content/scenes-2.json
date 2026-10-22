@@ -315,8 +315,8 @@
       },
       {
         "s": "B",
-        "he": "בפועל, מחר בבוקר אני יושבת עם ההנהלה ומציגה להם את המקרה שלך.",
-        "en": "In practice, tomorrow morning I'm sitting down with management and presenting your case to them."
+        "he": "בפועל, מחר בבוקר אני יושבת עם ההנהלה ומציגה להם את הבקשה שלך.",
+        "en": "In practice, tomorrow morning I'm sitting down with management and presenting your request to them."
       },
       {
         "s": "A",
@@ -363,8 +363,8 @@
       {
         "q": "מה אורנה עונה כשתומר מבקש חמישה עשר אחוז?",
         "qEn": "What does Orna answer when Tomer asks for fifteen percent?",
-        "answer": "שזה הרבה, ושהיא לא יכולה לאשר את זה לבד.",
-        "answerEn": "That it's a lot, and that she can't approve it on her own.",
+        "answer": "שזה הרבה, ושהיא לא בטוחה שהיא יכולה לאשר את זה לבד.",
+        "answerEn": "That it's a lot, and that she's not sure she can approve it on her own.",
         "keywords": [
           [
             "לאשר",
@@ -399,8 +399,8 @@
       {
         "q": "מה אורנה תעשה מחר בבוקר?",
         "qEn": "What will Orna do tomorrow morning?",
-        "answer": "היא תשב עם ההנהלה ותציג להם את המקרה של תומר.",
-        "answerEn": "She'll sit down with management and present Tomer's case to them.",
+        "answer": "היא תשב עם ההנהלה ותציג להם את הבקשה של תומר.",
+        "answerEn": "She'll sit down with management and present Tomer's request to them.",
         "keywords": [
           [
             "הנהלה",

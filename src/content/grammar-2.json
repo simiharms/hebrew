@@ -8,7 +8,7 @@
     "sections": [
       {
         "h": "Two nouns, one idea",
-        "body": "Hebrew often glues two nouns into one unit called סמיכות (smikhút). The first noun says what the thing is, the second one narrows it down — the opposite order from English:\n• בית ספר (beit séfer) — school (lit. “house of book”)\n• חדר ישיבות (khéder yeshivót) — meeting room\n• מנהל מכירות (menahél mekhirót) — sales manager\n• כרטיס אשראי (kartís ashrái) — credit card\n• שעות עבודה (she'ót avodá) — working hours\nThe second noun never changes. Only the first one can change its form, and in speech its vowels often shorten: báyit → beit, sha'ót → she'ót."
+        "body": "Hebrew often glues two nouns into one unit called סמיכות (smikhút). The first noun says what the thing is, the second one narrows it down — the opposite order from English:\n• בית ספר (beit séfer) — school (lit. “house of book”)\n• חדר ישיבות (khadár yeshivót) — meeting room\n• מנהל מכירות (menahél mekhirót) — sales manager\n• כרטיס אשראי (kartís ashrái) — credit card\n• שעות עבודה (she'ót avodá) — working hours\nThe second noun never changes. Only the first one can change its form, and its vowels often shorten when you say it: báyit → beit, khéder → khadár, sha'ót → she'ót."
       },
       {
         "h": "What changes in the first noun",
@@ -187,7 +187,7 @@
     "sections": [
       {
         "h": "1–10: the “upside-down” rule",
-        "body": "Numbers agree with the noun's gender — and the endings look upside down: with masculine nouns the number ends in -ה, with feminine nouns it doesn't.\n• שלושה עובדים (shloshá ovdím) — three employees (עובד is masculine)\n• שלוש פגישות (shalósh pgishót) — three meetings (פגישה is feminine)\n• 1 comes after the noun and agrees with it: עובד אחד, פגישה אחת.\n• 2 has a short form before a noun: שני עובדים, שתי פגישות. The full forms שניים / שתיים are used on their own (כמה? — שניים) and inside bigger numbers.\n• All the other numbers come before the noun.\nGender comes from the singular noun, not from the plural ending: שנה (year) is feminine, so שלוש שנים; לילה (night) is masculine, so שלושה לילות. Also watch: שלושה מקומות (m), שני רעיונות (m), שתי מילים (f), שלוש פעמים (f).",
+        "body": "Numbers agree with the noun's gender — and from 3 to 10 the endings look upside down: with masculine nouns the number ends in -ה, with feminine nouns it doesn't.\n• שלושה עובדים (shloshá ovdím) — three employees (עובד is masculine)\n• שלוש פגישות (shalósh pgishót) — three meetings (פגישה is feminine)\n• 1 comes after the noun and agrees with it: עובד אחד, פגישה אחת.\n• 2 has a short form before a noun: שני עובדים, שתי פגישות. The full forms שניים / שתיים are used on their own (כמה? — שניים) and inside bigger numbers.\n• All the other numbers come before the noun.\nGender comes from the singular noun, not from the plural ending: שנה (year) is feminine, so שלוש שנים; לילה (night) is masculine, so שלושה לילות. Also watch: שלושה מקומות (m), שני רעיונות (m), שתי מילים (f), שלוש פעמים (f).",
         "table": [
           [
             "",
@@ -248,7 +248,7 @@
       },
       {
         "h": "11–19, tens, hundreds and thousands",
-        "body": "11–19 have a masculine set ending in עשר (asár) and a feminine set ending in עשרה (esré). The feminine set is the one you'll hear most, because it's also used for plain counting, the time and prices: שלושה עשר עובדים, but שלוש עשרה פגישות.\n• Tens are the same for both genders: עשרים, שלושים, ארבעים, חמישים, שישים, שבעים, שמונים, תשעים.\n• In compounds ו goes before the last part, and the unit agrees with the noun: עשרים ושלושה עובדים, עשרים ושלוש פגישות. Inside a compound, 2 uses the full form: עשרים ושניים עובדים, עשרים ושתיים פגישות.\n• Hundreds: מאה is feminine, so 300 is שלוש מאות whatever the noun; 200 is the dual מאתיים (matáyim).\n• Thousands: אלף, the dual אלפיים (alpáyim) for 2,000, then שלושת אלפים, ארבעת אלפים … עשרת אלפים; from 11,000 on it's singular אלף again: אחד עשר אלף, מאה אלף.\nExample: ₪1,250 = אלף מאתיים וחמישים שקל.",
+        "body": "11–19 have a masculine set ending in עשר (asár) and a feminine set ending in עשרה (esré). The feminine set is the one you'll hear most, because it's also used for plain counting, the time and (in everyday speech) prices: שלושה עשר עובדים, but שלוש עשרה פגישות.\n• Tens are the same for both genders: עשרים, שלושים, ארבעים, חמישים, שישים, שבעים, שמונים, תשעים.\n• In compounds ו goes before the last part, and the unit agrees with the noun: עשרים ושלושה עובדים, עשרים ושלוש פגישות. Inside a compound, 2 uses the full form: עשרים ושניים עובדים, עשרים ושתיים פגישות.\n• Hundreds: מאה is feminine, so 300 is שלוש מאות whatever the noun; 200 is the dual מאתיים (matáyim).\n• Thousands: אלף, the dual אלפיים (alpáyim) for 2,000, then שלושת אלפים, ארבעת אלפים … עשרת אלפים; from 11,000 on it's singular אלף again: אחד עשר אלף, מאה אלף.\nExample: ₪1,250 = אלף מאתיים וחמישים שקל.",
         "table": [
           [
             "",
@@ -331,7 +331,7 @@
         "explain": "With a masculine noun the number ends in -ה: חמישה עובדים."
       },
       {
-        "prompt": "הזמנתי ___ לישיבה. (2, לקוח)",
+        "prompt": "הזמנתי ___ לפגישה. (2, לקוח)",
         "en": "I invited two clients to the meeting.",
         "answer": [
           "שני לקוחות"
@@ -379,7 +379,8 @@
         "prompt": "הישיבה מתחילה בשעה ___. (3:15)",
         "en": "The meeting starts at a quarter past three.",
         "answer": [
-          "שלוש ורבע"
+          "שלוש ורבע",
+          "שלוש חמש עשרה"
         ],
         "hint": "Hours are feminine",
         "explain": "Telling the time uses the feminine numbers, and “a quarter past” is ורבע."
@@ -481,7 +482,7 @@
       },
       {
         "h": "ה on both: הפגישה החשובה",
-        "body": "When the noun is definite, the adjective gets ה too:\n• פגישה חשובה — an important meeting\n• הפגישה החשובה — the important meeting\n• הפגישה חשובה — the meeting is important (a full sentence!)\nThat last line is the key: an adjective without ה after a definite noun is not a description but a statement. Compare הלקוח החדש (the new client) with הלקוח חדש (the client is new).\nWatch for the ה hidden in ב, ל, כ: בפגישה = ב + ה + פגישה, so it's בפגישה החשובה (at the important meeting). A possessive comes after the adjective: הלקוח החדש שלנו (our new client).\nDemonstratives work the same way: הפרויקט הזה (this project), הפגישה הזאת (this meeting), הלקוחות האלה (these clients)."
+        "body": "When the noun is definite, the adjective gets ה too:\n• פגישה חשובה — an important meeting\n• הפגישה החשובה — the important meeting\n• הפגישה חשובה — the meeting is important (a full sentence!)\nThat last line is the key: an adjective without ה after a definite noun is not a description but a statement. Compare הלקוח החדש (the new client) with הלקוח חדש (the client is new).\nWatch for the ה hidden in ב, ל, כ: “at the meeting” is בפגישה (ב + ה + פגישה), so “at the important meeting” is בפגישה החשובה. A possessive comes after the adjective: הלקוח החדש שלנו (our new client).\nDemonstratives work the same way: הפרויקט הזה (this project), הפגישה הזאת (this meeting), הלקוחות האלה (these clients)."
       },
       {
         "h": "Smichut + adjective",
@@ -541,7 +542,7 @@
           "האחרונה"
         ],
         "hint": "ה is hidden in ב",
-        "explain": "בפגישה = ב + ה + פגישה, so the noun is definite and the adjective needs ה: בפגישה האחרונה."
+        "explain": "Here בפגישה is ב + ה + פגישה (“at the meeting”), so the noun is definite and the adjective needs ה: בפגישה האחרונה."
       },
       {
         "prompt": "קיבלנו תשובה ___ מהבנק. (חיובי)",
@@ -749,7 +750,8 @@
         "prompt": "___ יכול ללכת הביתה מוקדם היום. (whoever + finished: סיים)",
         "en": "Whoever has finished can go home early today.",
         "answer": [
-          "מי שסיים"
+          "מי שסיים",
+          "כל מי שסיים"
         ],
         "hint": "whoever = מי ש",
         "explain": "מי ש means “whoever / the person who”."
@@ -924,7 +926,8 @@
         "prompt": "___ לקבוע פגישה עם מנהל המכירות. (I'd like — polite, m)",
         "en": "I'd like to schedule a meeting with the sales manager.",
         "answer": [
-          "הייתי רוצה"
+          "הייתי רוצה",
+          "הייתי מעוניין"
         ],
         "hint": "Softer than אני רוצה",
         "explain": "הייתי רוצה is the polite “I would like”."
@@ -1009,7 +1012,7 @@
       },
       {
         "h": "Impersonal modals: one form for everyone",
-        "body": "These never change. With no subject they mean “one can / you're allowed / it's worth…” — perfect for rules, signs and polite questions:\n• אפשר לשלם בכרטיס? — Can I pay by card? / אי אפשר לחנות פה. — You can't park here.\n• אסור לעשן בבניין. — Smoking is not allowed in the building.\n• מותר להביא כלבים? — Are dogs allowed?\n• כדאי להזמין מקום מראש. — It's a good idea to book in advance.\n• צריך למלא טופס. — You need to fill in a form. (impersonal צריך)\n• חייבים לסיים היום. — We have to finish today. (the plural used impersonally)\nTo say who, add ל: כדאי לך לבדוק (you'd better check), אסור לנו לפרסם את זה (we're not allowed to publish it), אפשר לקבל את החשבון? (Could we have the bill?).\nCareful: לא צריך / לא חייב = you don't have to; אסור = you mustn't. “You don't have to come” is לא צריך לבוא, never אסור לבוא."
+        "body": "These never change. With no subject they mean “one can / you're allowed / it's worth…” — perfect for rules, signs and polite questions:\n• אפשר לשלם בכרטיס? — Can I pay by card? / אי אפשר לחנות פה. — You can't park here.\n• אסור לעשן בבניין. — Smoking is not allowed in the building.\n• מותר להביא כלבים? — Are dogs allowed?\n• כדאי להזמין מקום מראש. — It's a good idea to book in advance.\n• צריך למלא טופס. — You need to fill in a form. (impersonal צריך)\n• חייבים לסיים היום. — We have to finish today. (the plural used impersonally)\nTo say who, add ל: כדאי לך לבדוק (you'd better check), אסור לנו לפרסם את זה (we're not allowed to publish it), מותר לי לשאול משהו? (May I ask something?).\nCareful: לא צריך / לא חייב = you don't have to; אסור = you mustn't. “You don't have to come” is לא צריך לבוא, never אסור לבוא."
       },
       {
         "h": "Past and future",
@@ -1085,23 +1088,25 @@
         "prompt": "___ לשלם בכרטיס אשראי? (is it possible)",
         "en": "Can I pay by credit card?",
         "answer": [
-          "אפשר"
+          "אפשר",
+          "ניתן"
         ],
         "hint": "The everyday “Can I…?”",
-        "explain": "אפשר + infinitive is the most common way to ask whether something is possible or allowed."
+        "explain": "אפשר + infinitive is the most common way to ask whether something is possible or allowed (formal: ניתן)."
       },
       {
         "prompt": "___ להזמין שולחן מראש, כי בערב המסעדה מלאה. (it's a good idea)",
         "en": "It's a good idea to book a table in advance — the restaurant is full in the evening.",
         "answer": [
-          "כדאי"
+          "כדאי",
+          "מומלץ"
         ],
         "hint": "It's worth it",
-        "explain": "כדאי + infinitive = it's worth it / you'd better."
+        "explain": "כדאי + infinitive = it's worth it / you'd better. מומלץ (it's recommended) also works."
       },
       {
         "prompt": "___ להשתמש בחדר הישיבות בלי להזמין מראש? (allowed)",
-        "en": "Is it allowed to use the meeting room without booking in advance?",
+        "en": "Are we allowed to use the meeting room without booking in advance?",
         "answer": [
           "מותר"
         ],
@@ -1300,7 +1305,9 @@
         "answer": [
           "בגלל",
           "בשל",
-          "עקב"
+          "עקב",
+          "בעקבות",
+          "מפאת"
         ],
         "hint": "+ noun",
         "explain": "בגלל is followed by a noun; before a full clause use כי."
@@ -1320,7 +1327,8 @@
         "en": "Despite the rain, all the employees came to the event.",
         "answer": [
           "למרות",
-          "על אף"
+          "על אף",
+          "חרף"
         ],
         "hint": "+ noun",
         "explain": "למרות + noun = despite."
@@ -1347,11 +1355,13 @@
         "explain": "אולם opens a sentence that contrasts with the previous one, in formal style."
       },
       {
-        "prompt": "התוצאות ברבעון היו טובות. ___, עדיין לא הגענו ליעד. (that said — two words)",
+        "prompt": "תוצאות הרבעון היו טובות. ___, עדיין לא הגענו ליעד. (that said — two words)",
         "en": "The quarter's results were good. That said, we still haven't reached the target.",
         "answer": [
           "עם זאת",
-          "יחד עם זאת"
+          "יחד עם זאת",
+          "למרות זאת",
+          "למרות זה"
         ],
         "hint": "Limits the previous point",
         "explain": "עם זאת adds a reservation to what was just said."
@@ -1378,7 +1388,8 @@
         "prompt": "הפרויקט יתעכב בחודש, ___ נסיים רק באפריל. (that is / meaning)",
         "en": "The project will be delayed by a month, meaning we'll only finish in April.",
         "answer": [
-          "כלומר"
+          "כלומר",
+          "זאת אומרת"
         ],
         "hint": "Rephrasing",
         "explain": "כלומר explains or rephrases what was just said."
@@ -1485,10 +1496,11 @@
         "en": "We haven't received an answer from the bank yet.",
         "answer": [
           "עוד לא",
-          "עדיין לא"
+          "עדיין לא",
+          "טרם"
         ],
         "hint": "Two words",
-        "explain": "עוד לא + past = haven't … yet."
+        "explain": "עוד לא + past = haven't … yet (formal: טרם, with no לא)."
       },
       {
         "prompt": "דני ___ בישיבה, הוא יחזור אליך אחר כך. (still)",
@@ -1505,29 +1517,32 @@
         "en": "He's just left the office — maybe you'll catch him in the parking lot.",
         "answer": [
           "בדיוק",
-          "רק עכשיו"
+          "רק עכשיו",
+          "הרגע"
         ],
         "hint": "A moment ago",
-        "explain": "בדיוק + past = has just done something; רק עכשיו also works."
+        "explain": "בדיוק + past = has just done something; רק עכשיו and הרגע also work."
       },
       {
         "prompt": "___ לא הייתי באילת. (never)",
         "en": "I've never been to Eilat.",
         "answer": [
           "אף פעם",
-          "מעולם"
+          "מעולם",
+          "בחיים"
         ],
         "hint": "+ לא",
-        "explain": "“Never” is אף פעם + לא — Hebrew needs both words."
+        "explain": "“Never” is אף פעם + לא — Hebrew needs both words. Formal: מעולם לא; casual: בחיים לא."
       },
       {
         "prompt": "היית ___ בפגישה עם המנכ״ל? (ever)",
         "en": "Have you ever been in a meeting with the CEO?",
         "answer": [
-          "פעם"
+          "פעם",
+          "אי פעם"
         ],
         "hint": "One word",
-        "explain": "In questions, פעם means “ever”."
+        "explain": "In questions, פעם (or אי פעם) means “ever”."
       },
       {
         "prompt": "תקרא את כל החוזה ___ שאתה חותם עליו. (before)",
@@ -1549,7 +1564,7 @@
         "explain": "אחרי ש + clause = after; לאחר ש is the formal version."
       },
       {
-        "prompt": "___ שהתחלתי לעבוד מהבית, אני ישן הרבה יותר טוב. (since)",
+        "prompt": "___ שהתחלתי לעבוד מהבית, אני ישן הרבה יותר טוב. (since — time, not “because”)",
         "en": "Since I started working from home, I've been sleeping much better.",
         "answer": [
           "מאז"
@@ -2141,7 +2156,8 @@
         "prompt": "___, נבקש לקבל עותק של החשבונית. (also — formal, opens a sentence)",
         "en": "We would also like to receive a copy of the invoice.",
         "answer": [
-          "כמו כן"
+          "כמו כן",
+          "בנוסף"
         ],
         "hint": "Formal גם",
         "explain": "כמו כן adds a further point in formal writing (= גם)."

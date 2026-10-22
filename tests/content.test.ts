@@ -17,7 +17,7 @@ describe('content integrity', () => {
   });
 
   it('vocabulary words are found with prefixes attached', () => {
-    for (const v of vocab.filter((x) => !x.he.includes(' ') && !x.he.includes('/')).slice(0, 300)) {
+    for (const v of vocab.filter((x) => !/[ /\-\u05BE]/.test(x.he))) {
       const res = lookup(`ו${v.he}`);
       expect(res.entries.some((e) => e.vocabId === v.id || e.he === v.he), `ו${v.he}`).toBe(true);
     }

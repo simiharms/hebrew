@@ -28,6 +28,8 @@ export function normalize(s: string): string {
   return stripNiqqud(s)
     .replace(/[׳’‘`´]/g, "'")
     .replace(/[״“”]/g, '"')
+    // ״ or " between letters is an abbreviation mark (מנכ״ל, ת״א), not a quotation mark.
+    .replace(/([\u05D0-\u05EA])"(?=[\u05D0-\u05EA])/g, '$1')
     .replace(/[־\-–—/]/g, ' ')
     .replace(/[.,!?;:()[\]{}«»"…‎‏‪-‮⁦-⁩₪%+=*&#@~^|<>]/g, ' ')
     .toLowerCase()

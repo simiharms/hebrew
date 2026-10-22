@@ -133,7 +133,14 @@ function add(map: Map<string, DictEntry[]>, key: string, e: DictEntry) {
 function addWord(word: string, e: DictEntry) {
   for (const w of expandVariants(word)) {
     const key = lenient(w);
-    if (key && !key.includes(' ')) add(primary, key, e);
+    if (!key) continue;
+    if (!key.includes(' ')) {
+      add(primary, key, e);
+      continue;
+    }
+    // Compounds and phrases (סטארט-אפ, שכר דירה): findable from their first word.
+    const first = key.split(' ')[0];
+    if (first.length >= 3) add(primary, first, { ...e, form: e.form ?? 'phrase' });
   }
 }
 

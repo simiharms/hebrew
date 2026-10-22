@@ -8,7 +8,8 @@ import { type Rating, review } from '../lib/fsrs.ts';
 import { type CheckResult, checkEnglish, checkHebrew, normalizeEn } from '../lib/hebrew.ts';
 import { go } from '../lib/router.ts';
 import { acceptedHebrew, buildWordSession, findCloze, pickNewWords, type WordTask } from '../lib/session.ts';
-import { getState, markTask, setState, todayLog } from '../lib/store.ts';
+import { record } from '../lib/skills.ts';
+import { getState, markDone, markTask, setState, todayLog } from '../lib/store.ts';
 import { speak } from '../lib/tts.ts';
 
 const POS_LABEL: Record<string, string> = {
@@ -69,6 +70,10 @@ export function WordSession() {
     if (first && g) {
       rated.add(task.cardId);
       rateCard(task.cardId, g);
+      const v = g >= 3 ? 1 : g === 2 ? 0.6 : 0;
+      record('vocab', v);
+      if (task.mode === 'listen') record('listening', v, [], 0.5);
+      if (task.mode === 'cloze') record('reading', v, [], 0.3);
       setStats((s) => ({ right: s.right + (g >= 3 ? 1 : 0), total: s.total + 1 }));
     }
     const q = [...queue];
@@ -105,8 +110,11 @@ export function WordSession() {
   );
 }
 
-export function SessionDone({ task, right, total }: { task: string; right: number; total: number }) {
-  useEffect(() => markTask(task), []);
+export function SessionDone({ task, right, total, doneId }: { task: string; right: number; total: number; doneId?: string }) {
+  useEffect(() => {
+    markTask(doneId ?? task);
+    if (doneId) markDone(doneId, total ? right / total : 1);
+  }, []);
   return (
     <>
       <TopBar title="Session done" backTo="today" />

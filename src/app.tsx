@@ -2,12 +2,14 @@ import { GlossSheet } from './components/hebrew.tsx';
 import { TabBar, ToastHost } from './components/ui.tsx';
 import { useRoute } from './lib/router.ts';
 import { useAppState } from './lib/store.ts';
+import { AssessmentPage } from './screens/assessment.tsx';
+import { CoursePage, UnitCheck, UnitPage } from './screens/course.tsx';
 import { GrammarLessonPage, GrammarList } from './screens/grammar.tsx';
 import { ListenList, ScenePlayer } from './screens/listen.tsx';
 import { MePage } from './screens/me.tsx';
 import { MistakesPage } from './screens/mistakes.tsx';
 import { NumbersPage } from './screens/numbers.tsx';
-import { Onboarding, Placement } from './screens/onboarding.tsx';
+import { Onboarding } from './screens/onboarding.tsx';
 import { OwnList, OwnText } from './screens/own.tsx';
 import { PracticeHub, Resources } from './screens/practice.tsx';
 import { ReadList, Reader } from './screens/read.tsx';
@@ -20,6 +22,8 @@ import { WriteList, WriteTask } from './screens/write.tsx';
 const TAB_OF: Record<string, string> = {
   today: 'today',
   me: 'today',
+  course: 'today',
+  unit: 'today',
   words: 'words',
   verbs: 'practice',
   verb: 'words',
@@ -40,13 +44,20 @@ function screen(route: string[]) {
     case 'onboarding':
       return <Onboarding />;
     case 'placement':
-      return <Placement />;
+    case 'assessment':
+      return <AssessmentPage />;
+    case 'course':
+      return <CoursePage />;
+    case 'unit':
+      if (c === 'check') return <UnitCheck n={Number(b)} />;
+      return <UnitPage n={Number(b)} />;
     case 'words':
       if (b === 'topic' && c) return <TopicPage topic={c} />;
       if (b === 'root' && c) return <RootPage root={c} />;
       return <WordsHome />;
     case 'session':
       if (b === 'verbs') return <VerbSession only={c} />;
+      if (b === 'unit') return <VerbSession unit={Number(c)} />;
       return <WordSession />;
     case 'verbs':
       return <VerbList />;
@@ -81,8 +92,8 @@ export function App() {
   const route = useRoute();
   const s = useAppState();
   const first = route[0] ?? 'today';
-  const effective = !s.onboarded && first !== 'placement' ? ['onboarding'] : route;
-  const focusMode = ['session', 'onboarding', 'placement'].includes(effective[0] ?? '');
+  const effective = !s.onboarded && first !== 'placement' && first !== 'assessment' ? ['onboarding'] : route;
+  const focusMode = ['session', 'onboarding', 'placement', 'assessment'].includes(effective[0] ?? '') || (effective[0] === 'unit' && effective[2] === 'check');
   return (
     <div class="app">
       <div key={effective.join('/')} style={{ display: 'contents' }}>

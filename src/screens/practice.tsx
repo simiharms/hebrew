@@ -1,5 +1,6 @@
 import { Item, TopBar } from '../components/ui.tsx';
 import { emails, grammar, verbs } from '../lib/content.ts';
+import { UNITS } from '../lib/course.ts';
 import { go } from '../lib/router.ts';
 import { dueVerbCount } from '../lib/session.ts';
 import { useAppState } from '../lib/store.ts';
@@ -12,6 +13,8 @@ export function PracticeHub() {
       <TopBar title="Practice" />
       <main class="page">
         <div class="list">
+          <Item emoji="📘" title="Course" sub={`${UNITS.length} units from A2+ to B2, one grammar point each`} onClick={() => go('course')} />
+          <Item emoji="📊" title="Skills check" sub={s.profile.assessment ? 'Retake it to update your profile' : '10 minutes — find your level in each skill'} onClick={() => go('assessment')} />
           <Item emoji="🔁" title="Verb drill" sub={`${verbs.length} verbs · ${dueVerbCount()} due`} onClick={() => go('session/verbs')} />
           <Item emoji="📋" title="Conjugation tables" sub="Every form, with transliteration and audio" onClick={() => go('verbs')} />
           <Item emoji="🧩" title="Grammar" sub={`${gDone}/${grammar.length} lessons done`} onClick={() => go('grammar')} />

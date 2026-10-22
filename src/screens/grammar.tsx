@@ -6,6 +6,7 @@ import { LEVELS } from '../content/types.ts';
 import { grammar } from '../lib/content.ts';
 import { type CheckResult, checkHebrew } from '../lib/hebrew.ts';
 import { go } from '../lib/router.ts';
+import { record } from '../lib/skills.ts';
 import { addMistake, clearMistake, markDone, markTask, useAppState } from '../lib/store.ts';
 import { speak } from '../lib/tts.ts';
 
@@ -92,6 +93,7 @@ export function DrillCard({
     setResult(r);
     if (r.verdict === 'latin') return;
     const ok = r.verdict !== 'wrong';
+    record('grammar', ok ? 1 : 0, [refId.split('#')[0]]);
     if (ok) {
       clearMistake('drill', refId);
       speak(drill.prompt.replace('___', r.expected).replace(/\s*\([^)]*\)\s*$/, ''));

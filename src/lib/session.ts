@@ -3,6 +3,7 @@ import type { Form, Verb, VocabItem } from '../content/types.ts';
 import { findVocab, levelRank, newWordOrder, verbById, verbs } from './content.ts';
 import type { CardState } from './fsrs.ts';
 import { lenient, prefixVariants, splitWords } from './hebrew.ts';
+import { weakTopics } from './skills.ts';
 import { getState, today } from './store.ts';
 import { ttsSupported } from './tts.ts';
 
@@ -211,8 +212,14 @@ export function buildVerbSession(onlyVerb?: string, size = 12): VerbTask[] {
     })
     .filter((x) => x.verb);
   const half = Math.ceil(size / 2);
+  // Weak spots from the skill profile (e.g. hif'il, future) come first.
+  const weakB = weakTopics('binyan:', s)[0]?.topic.slice(7);
+  const weakT = weakTopics('tense:', s)[0]?.topic.slice(6);
+  const focusKey = (x: { verb: Verb; tense: Tense }) => (x.verb.binyan === weakB ? 0 : 1) + (x.tense === weakT ? 0 : 1);
+  if (weakB || weakT) due.sort((a, b) => focusKey(a) - focusKey(b));
   const picked = due.slice(0, half);
   const fresh = verbCardOrder().filter((x) => !s.cards[`c:${x.verb.id}:${x.tense}`]);
+  if (weakB || weakT) fresh.sort((a, b) => focusKey(a) - focusKey(b));
   const newCap = picked.length >= half ? 1 : Math.min(4, half - picked.length);
   picked.push(...fresh.slice(0, newCap));
   const tasks: VerbTask[] = [];
@@ -227,6 +234,19 @@ export function buildVerbSession(onlyVerb?: string, size = 12): VerbTask[] {
     [tasks[i], tasks[j]] = [tasks[j], tasks[i]];
   }
   return tasks.slice(0, size);
+}
+
+/** A drill over a fixed list of verbs (a course unit), rotating tenses. */
+export function buildVerbListSession(ids: string[], size = 12): VerbTask[] {
+  const list = ids.map((id) => verbById.get(id)).filter(Boolean) as Verb[];
+  if (!list.length) return [];
+  const tasks: VerbTask[] = [];
+  for (let i = 0; i < size; i++) tasks.push(makeVerbTask(list[i % list.length], TENSES[(i + Math.floor(i / list.length)) % 3]));
+  for (let i = tasks.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [tasks[i], tasks[j]] = [tasks[j], tasks[i]];
+  }
+  return tasks;
 }
 
 export function dueVerbCount(now = Date.now()): number {

@@ -4,6 +4,9 @@ import type { Level } from '../content/types.ts';
 import { LEVELS } from '../content/types.ts';
 import { allVocab, grammar, readings, scenes, verbs } from '../lib/content.ts';
 import { strength } from '../lib/fsrs.ts';
+import { verbFocusLabel } from '../lib/plan.ts';
+import { SKILLS, skillLevel, weakTopics } from '../lib/skills.ts';
+import { SkillBar } from './assessment.tsx';
 import { go } from '../lib/router.ts';
 import { loadSemantic, semanticReady } from '../lib/semantic.ts';
 import { exportState, type Focus, importState, resetState, setState, streak, useAppState } from '../lib/store.ts';
@@ -72,6 +75,11 @@ export function MePage() {
   const maxN = Math.max(10, ...last14.map((x) => x.n));
   const totalReviews = s.days.reduce((a, d) => a + d.reviews, 0);
   const totalCorrect = s.days.reduce((a, d) => a + d.correct, 0);
+  const weakGrammar = weakTopics('g_', s)
+    .slice(0, 3)
+    .map((t) => grammar.find((g) => g.id === t.topic))
+    .filter(Boolean) as typeof grammar;
+  const verbFocus = verbFocusLabel(s);
 
   const [exported, setExported] = useState<string | null>(null);
   const doExport = async () => {
@@ -160,6 +168,43 @@ export function MePage() {
           </div>
         </div>
 
+        <div class="section-title">Your Hebrew profile</div>
+        <div class="card">
+          {s.profile.assessment ? (
+            <>
+              {SKILLS.map((k) => {
+                const lvl = skillLevel(k.id, s);
+                const live = s.profile.skills[k.id];
+                return lvl ? <SkillBar label={`${k.emoji} ${k.label}`} level={lvl} live={live && live.n >= 5 ? live.score : undefined} /> : null;
+              })}
+              <div class="small muted">
+                Skills check on {new Date(s.profile.assessment.at).toLocaleDateString()}; levels move with your practice since then.
+              </div>
+            </>
+          ) : (
+            <div class="small">No skills check yet — it takes about 10 minutes and tailors your plan.</div>
+          )}
+          {weakGrammar.length > 0 && (
+            <div class="mt small">
+              <strong>Weak spots:</strong>{' '}
+              {weakGrammar.map((g, i) => (
+                <>
+                  {i > 0 && ', '}
+                  <a href="#" onClick={(e) => (e.preventDefault(), go(`grammar/${g.id}`))}>
+                    {g.title}
+                  </a>
+                </>
+              ))}
+              {verbFocus && <> · verbs: {verbFocus}</>}
+            </div>
+          )}
+          <div class="btn-row">
+            <button class="btn small primary" onClick={() => go('assessment')}>
+              {s.profile.assessment ? 'Retake skills check' : 'Take the skills check'}
+            </button>
+          </div>
+        </div>
+
         <div class="section-title">Progress</div>
         <div class="card">
           <table class="grid">
@@ -212,11 +257,6 @@ export function MePage() {
         <div class="card">
           <div class="small muted">Your level</div>
           <Seg value={s.level} options={LEVELS.map((l) => ({ v: l, label: l }))} onChange={(v: Level) => set((st) => void (st.level = v))} />
-          <div class="btn-row">
-            <button class="btn small" onClick={() => go('placement')}>
-              Retake placement test
-            </button>
-          </div>
           <div class="small muted mt">Focus</div>
           <Seg
             value={s.settings.focus}

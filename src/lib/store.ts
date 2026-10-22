@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'preact/hooks';
 import type { CardState } from './fsrs.ts';
 import type { Level, VocabItem } from '../content/types.ts';
+import type { Profile } from './skills.ts';
 
 export type Focus = 'business' | 'daily' | 'both';
 
@@ -59,6 +60,8 @@ export interface AppState {
   writings: Record<string, { text: string; at: number; self?: number }>;
   own: OwnText[];
   queue: string[]; // vocab ids the learner picked to learn next
+  profile: Profile; // skill estimates (see skills.ts)
+  courseUnit: number; // index of the course unit the learner is on
 }
 
 const KEY = 'shoresh-state-v1';
@@ -86,6 +89,8 @@ export function defaultState(): AppState {
     writings: {},
     own: [],
     queue: [],
+    profile: { skills: {}, topics: {} },
+    courseUnit: 0,
   };
 }
 
@@ -95,7 +100,12 @@ function load(): AppState {
     if (!raw) return defaultState();
     const parsed = JSON.parse(raw);
     const base = defaultState();
-    return { ...base, ...parsed, settings: { ...base.settings, ...parsed.settings } };
+    return {
+      ...base,
+      ...parsed,
+      settings: { ...base.settings, ...parsed.settings },
+      profile: { ...base.profile, ...parsed.profile },
+    };
   } catch {
     return defaultState();
   }
@@ -206,7 +216,12 @@ export function importState(json: string): void {
     throw new Error('This file is not a Shoresh backup.');
   }
   const base = defaultState();
-  replaceState({ ...base, ...incoming, settings: { ...base.settings, ...incoming.settings } });
+  replaceState({
+    ...base,
+    ...incoming,
+    settings: { ...base.settings, ...incoming.settings },
+    profile: { ...base.profile, ...incoming.profile },
+  });
 }
 
 export function resetState(): void {

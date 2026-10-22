@@ -6,6 +6,7 @@ import type { Level, Question } from '../content/types.ts';
 import { LEVELS } from '../content/types.ts';
 import { levelRank, readings, scenes } from '../lib/content.ts';
 import { go } from '../lib/router.ts';
+import { record } from '../lib/skills.ts';
 import { getState, markDone, markTask, useAppState } from '../lib/store.ts';
 import { speakSequence, stopSpeaking } from '../lib/tts.ts';
 
@@ -62,11 +63,12 @@ export function ReadList() {
   );
 }
 
-export function QuestionSet({ id, questions }: { id: string; questions: Question[] }) {
+export function QuestionSet({ id, questions, skill }: { id: string; questions: Question[]; skill: 'reading' | 'listening' }) {
   const [scores, setScores] = useState<(number | undefined)[]>(() => questions.map(() => undefined));
   const answered = scores.filter((x) => x !== undefined).length;
   const set = (i: number, v: number) => {
     const next = [...scores];
+    if (next[i] === undefined) record(skill, v);
     next[i] = v;
     setScores(next);
     if (next.every((x) => x !== undefined)) {
@@ -157,7 +159,7 @@ export function Reader({ id }: { id: string }) {
             </>
           ))}
         </div>
-        <QuestionSet id={r.id} questions={r.questions} />
+        <QuestionSet id={r.id} questions={r.questions} skill="reading" />
         {r.writing && (
           <>
             <div class="section-title">Your turn</div>

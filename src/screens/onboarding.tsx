@@ -1,14 +1,12 @@
-import { useMemo, useState } from 'preact/hooks';
-import { AnswerInput, Feedback } from '../components/answer.tsx';
+import { useState } from 'preact/hooks';
+import { AnswerInput } from '../components/answer.tsx';
 import { Progress, Seg, TopBar } from '../components/ui.tsx';
-import type { Drill, Level, VocabItem } from '../content/types.ts';
+import type { Level } from '../content/types.ts';
 import { LEVELS } from '../content/types.ts';
-import { grammar, vocab } from '../lib/content.ts';
-import { type CheckResult, checkHebrew, hasHebrew } from '../lib/hebrew.ts';
+import { hasHebrew } from '../lib/hebrew.ts';
 import { go } from '../lib/router.ts';
 import { type Focus, getState, setState } from '../lib/store.ts';
 import { hebrewVoices, speak, ttsSupported } from '../lib/tts.ts';
-import { renderPrompt } from './grammar.tsx';
 import { InstallCard } from './me.tsx';
 
 export function Onboarding() {
@@ -27,7 +25,7 @@ export function Onboarding() {
       st.settings.newPerDay = perDay;
       st.onboarded = true;
     });
-    go(placement ? 'placement' : 'today');
+    go(placement ? 'assessment' : 'today');
   };
 
   return (
@@ -136,7 +134,7 @@ export function Onboarding() {
             <Seg value={perDay} options={[5, 8, 12, 15].map((n) => ({ v: n, label: String(n) }))} onChange={setPerDay} />
             <div class="btn-row">
               <button class="btn" onClick={() => finish(true)}>
-                Take 3-min placement test
+                Take the 10-min skills check
               </button>
               <button class="btn primary" onClick={() => finish(false)}>
                 Start at {level} →
@@ -144,130 +142,6 @@ export function Onboarding() {
             </div>
           </div>
         )}
-      </main>
-    </>
-  );
-}
-
-// ---------- Placement test ----------
-
-type PQ = { tier: number; kind: 'vocab'; item: VocabItem } | { tier: number; kind: 'drill'; drill: Drill };
-
-const shuffle = <T,>(xs: T[]): T[] => xs.map((x) => [Math.random(), x] as const).sort((a, b) => a[0] - b[0]).map((x) => x[1]);
-
-function buildPlacement(): PQ[] {
-  const out: PQ[] = [];
-  const tiers: { vocab: string; grammar: Level[] }[] = [
-    { vocab: 'A2', grammar: ['A2', 'A2+'] },
-    { vocab: 'B1', grammar: ['B1'] },
-    { vocab: 'B2', grammar: ['B1+', 'B2'] },
-  ];
-  tiers.forEach((t, tier) => {
-    const words = shuffle(vocab.filter((v) => v.level === t.vocab && ['noun', 'verb', 'adj'].includes(v.pos) && !v.he.includes(' ')));
-    const drills = shuffle(grammar.filter((g) => t.grammar.includes(g.level)).flatMap((g) => g.drills));
-    const nDrills = Math.min(2, drills.length);
-    words.slice(0, 5 - nDrills).forEach((item) => out.push({ tier, kind: 'vocab', item }));
-    drills.slice(0, nDrills).forEach((drill) => out.push({ tier, kind: 'drill', drill }));
-  });
-  return out;
-}
-
-export function Placement() {
-  const qs = useMemo(buildPlacement, []);
-  const [i, setI] = useState(0);
-  const [value, setValue] = useState('');
-  const [result, setResult] = useState<CheckResult | null>(null);
-  const [score, setScore] = useState<number[]>([0, 0, 0]);
-  const [count, setCount] = useState<number[]>([0, 0, 0]);
-
-  if (i >= qs.length) {
-    const r = score.map((x, k) => (count[k] ? x / count[k] : 0));
-    const level: Level = r[0] < 0.6 ? 'A2' : r[1] < 0.6 ? 'A2+' : r[2] < 0.4 ? 'B1' : r[2] < 0.8 ? 'B1+' : 'B2';
-    return (
-      <>
-        <TopBar title="Placement result" />
-        <main class="page">
-          <div class="card center">
-            <div class="small muted">Suggested level</div>
-            <div style={{ fontSize: 48, fontWeight: 800 }}>{level}</div>
-            <p class="small muted">
-              Basics {Math.round(r[0] * 100)}% · Intermediate {Math.round(r[1] * 100)}% · Advanced {Math.round(r[2] * 100)}%
-            </p>
-            <button
-              class="btn primary block"
-              onClick={() => {
-                setState((st) => {
-                  st.level = level;
-                  st.onboarded = true;
-                });
-                go('today');
-              }}
-            >
-              Start at {level}
-            </button>
-            <p class="small muted mt">You can change the level any time in settings.</p>
-          </div>
-        </main>
-      </>
-    );
-  }
-
-  const q = qs[i];
-  const accepted = q.kind === 'vocab' ? [q.item.he, ...(q.item.alt ?? [])] : q.drill.answer;
-  const done = result && result.verdict !== 'latin';
-
-  const submit = (given: string) => {
-    const r = given ? checkHebrew(given, accepted, { strict: q.kind === 'drill' }) : ({ verdict: 'wrong', expected: accepted[0] } as CheckResult);
-    setResult(r);
-    if (r.verdict === 'latin') return;
-    const ok = r.verdict !== 'wrong';
-    setScore((s) => s.map((x, k) => (k === q.tier && ok ? x + 1 : x)));
-    setCount((c) => c.map((x, k) => (k === q.tier ? x + 1 : x)));
-  };
-  const next = () => {
-    setI(i + 1);
-    setValue('');
-    setResult(null);
-  };
-
-  return (
-    <>
-      <TopBar title={`Placement ${i + 1}/${qs.length}`} backTo="today" />
-      <main class="page">
-        <Progress value={i / qs.length} />
-        <div class="card">
-          {q.kind === 'vocab' ? (
-            <div class="prompt-box">
-              <div class="small muted">How do you say…</div>
-              <div class="big-en">{q.item.en}</div>
-              <div class="hint">{q.item.pos}</div>
-            </div>
-          ) : (
-            <div class="prompt-box">
-              <div class="small muted">Fill the gap</div>
-              {renderPrompt(q.drill.prompt)}
-              <div class="hint">{q.drill.en}</div>
-            </div>
-          )}
-          <AnswerInput value={value} onInput={setValue} onEnter={done ? next : () => submit(value)} autoFocus disabled={!!done} />
-          {result && <Feedback result={result} />}
-          <div class="btn-row">
-            {!done ? (
-              <>
-                <button class="btn ghost" onClick={() => submit('')}>
-                  I don't know
-                </button>
-                <button class="btn primary" onClick={() => submit(value)} disabled={!value.trim()}>
-                  Check
-                </button>
-              </>
-            ) : (
-              <button class="btn primary block" onClick={next}>
-                Next →
-              </button>
-            )}
-          </div>
-        </div>
       </main>
     </>
   );

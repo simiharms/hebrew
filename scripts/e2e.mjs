@@ -179,11 +179,40 @@ await page.getByRole('button', { name: 'Check' }).click();
 check(await page.locator('.feedback').isVisible(), 'numbers gives feedback');
 await shot('e2e-numbers');
 
+// --- skills check: answer everything with "I don't know" and save the profile
+await nav('#/assessment');
+await page.getByRole('button', { name: 'Start' }).click();
+for (let k = 0; k < 60; k++) {
+  if (await page.getByRole('button', { name: 'Save and start' }).isVisible().catch(() => false)) break;
+  const next = page.getByRole('button', { name: 'Next →' });
+  if (await next.isVisible().catch(() => false)) {
+    await next.click();
+    continue;
+  }
+  await page.getByRole('button', { name: "I don't know" }).click();
+}
+check(await page.getByText('Your Hebrew profile').isVisible(), 'skills check reaches the profile');
+await shot('e2e-assessment-result');
+await page.getByRole('button', { name: 'Save and start' }).click();
+await page.waitForTimeout(300);
+const profile = await page.evaluate(() => JSON.parse(localStorage.getItem('shoresh-state-v1') ?? '{}').profile);
+check(!!profile?.assessment?.level, `assessment saved (overall ${profile?.assessment?.level})`);
+check(await page.locator('.section-title', { hasText: /focus:/i }).isVisible(), 'today plan shows a focus skill');
+await shot('e2e-today-tailored');
+
+// --- course
+await nav('#/course');
+check((await page.locator('.item').count()) >= 15, 'course lists its units');
+await nav('#/unit/0/check');
+const firstDrill = grammar.find((g) => g.id === 'g_roots') ?? grammar[0];
+check(await page.locator('.prompt-box').isVisible(), `unit check opens (${firstDrill.id})`);
+await shot('e2e-unit-check');
+
 // --- persistence across reload
 await page.reload();
 await page.waitForTimeout(300);
-const cards = await page.evaluate(() => Object.keys(JSON.parse(localStorage.getItem('shoresh-state-v1') ?? '{}').cards ?? {}).length);
-check(cards > 0, `progress persisted (${cards} cards)`);
+const saved = await page.evaluate(() => JSON.parse(localStorage.getItem('shoresh-state-v1') ?? '{}'));
+check(!!saved.profile?.assessment && Object.keys(saved.profile?.skills ?? {}).length > 2 && saved.days?.length > 0, 'progress persisted across reload');
 
 check(errors.length === 0, `no page errors${errors.length ? ':\n' + errors.join('\n') : ''}`);
 await browser.close();

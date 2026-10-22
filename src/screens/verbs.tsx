@@ -7,7 +7,9 @@ import { displayRoot, verbById, verbs } from '../lib/content.ts';
 import { type Rating, review, strength } from '../lib/fsrs.ts';
 import { type CheckResult, checkHebrew } from '../lib/hebrew.ts';
 import { go } from '../lib/router.ts';
-import { buildVerbSession, dueVerbCount, TENSES, type VerbTask } from '../lib/session.ts';
+import { UNITS } from '../lib/course.ts';
+import { buildVerbListSession, buildVerbSession, dueVerbCount, TENSES, type VerbTask } from '../lib/session.ts';
+import { record } from '../lib/skills.ts';
 import { addMistake, getState, setState, todayLog, useAppState } from '../lib/store.ts';
 import { speak } from '../lib/tts.ts';
 import { SessionDone } from './session-words.tsx';
@@ -204,8 +206,8 @@ export function VerbList() {
 
 const TENSE_EN: Record<string, string> = { present: 'present', past: 'past', future: 'future' };
 
-export function VerbSession({ only }: { only?: string }) {
-  const tasks = useMemo(() => buildVerbSession(only), [only]);
+export function VerbSession({ only, unit }: { only?: string; unit?: number }) {
+  const tasks = useMemo(() => (unit !== undefined ? buildVerbListSession(UNITS[unit]?.verbs ?? []) : buildVerbSession(only)), [only, unit]);
   const [idx, setIdx] = useState(0);
   const [value, setValue] = useState('');
   const [result, setResult] = useState<CheckResult | null>(null);
@@ -223,7 +225,7 @@ export function VerbSession({ only }: { only?: string }) {
       </>
     );
   }
-  if (idx >= tasks.length) return <SessionDone task="verbs" right={right} total={tasks.length} />;
+  if (idx >= tasks.length) return <SessionDone task="verbs" right={right} total={tasks.length} doneId={unit !== undefined ? `unit:${unit}:verbs` : undefined} />;
 
   const t: VerbTask = tasks[idx];
   const isNewCard = !getState().cards[t.cardId];
@@ -234,6 +236,7 @@ export function VerbSession({ only }: { only?: string }) {
     setResult(r);
     if (r.verdict === 'latin') return;
     const g: Rating = r.verdict === 'correct' ? 3 : r.verdict === 'close' ? 2 : 1;
+    record('verbs', g >= 3 ? 1 : g === 2 ? 0.6 : 0, [`binyan:${t.verb.binyan}`, `tense:${t.tense}`]);
     if (g >= 3) setRight((n) => n + 1);
     else addMistake({ kind: 'verb', ref: `${t.verb.id}:${t.tense}:${t.person}`, prompt: `${t.pronoun} · ${t.verb.inf} · ${TENSE_HE[t.tense]}`, answer: t.answer[0], given: value });
     const prev = verdicts.get(t.cardId);
@@ -244,7 +247,7 @@ export function VerbSession({ only }: { only?: string }) {
   const proceed = () => {
     // Rate the card once all of its prompts in this session are done.
     const remaining = tasks.slice(idx + 1).some((x) => x.cardId === t.cardId);
-    if (!remaining && !only) {
+    if (!remaining && !only && unit === undefined) {
       const g = verdicts.get(t.cardId) ?? 1;
       setState((s) => {
         s.cards[t.cardId] = review(s.cards[t.cardId], g, Date.now(), s.settings.retention);

@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'preact/hooks';
 import type { Question, WritingTask } from '../content/types.ts';
 import { type CheckResult, containsKeyword, hasHebrew, lenient, scoreKeywords, wordCount } from '../lib/hebrew.ts';
 import { loadSemantic, similarity, similarityToScore } from '../lib/semantic.ts';
+import { record } from '../lib/skills.ts';
 import { getState, markDone, markTask, setState } from '../lib/store.ts';
 import { HeText } from './hebrew.tsx';
 import { SpeakBtn } from './ui.tsx';
@@ -235,6 +236,7 @@ export function WritingBox({ task, id }: { task: WritingTask; id: string }) {
     });
     markDone(id, v / 3);
     markTask(id);
+    record('writing', (v - 1) / 2);
   };
 
   return (
@@ -368,6 +370,7 @@ export function Dictation({ text, gender, onDone }: { text: string; gender?: 'm'
   const check = () => {
     const r = wordDiff(text, given);
     setResult(r);
+    record('listening', r.score);
     onDone?.(r.score);
   };
   return (

@@ -140,7 +140,7 @@ export function ScenePlayer({ id }: { id: string }) {
           )}
         </div>
 
-        <QuestionSet id={sc.id} questions={sc.questions} />
+        <QuestionSet id={sc.id} questions={sc.questions} skill="listening" />
 
         <div class="section-title">Transcript</div>
         {!showText ? (

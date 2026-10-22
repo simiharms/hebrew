@@ -12,6 +12,7 @@ import {
   timeWords,
   yearWords,
 } from '../lib/numbers.ts';
+import { record } from '../lib/skills.ts';
 import { addMistake, markTask } from '../lib/store.ts';
 import { speak } from '../lib/tts.ts';
 
@@ -199,12 +200,15 @@ export function NumbersPage() {
     if (mode === 'listen') {
       const ok = listenItem.matches(value);
       setOkListen(ok);
+      record('numbers', ok ? 1 : 0, ['numbers:listen']);
+      record('listening', ok ? 1 : 0, [], 0.5);
       if (ok) setScore((s) => s + 1);
       else addMistake({ kind: 'number', ref: `listen:${listenItem.say}`, prompt: listenItem.say, answer: listenItem.answer, given: value });
     } else {
       const r = checkHebrew(value, writeItem.accepted, { strict: true });
       setResult(r);
       if (r.verdict === 'latin') return;
+      record('numbers', r.verdict === 'correct' ? 1 : 0, ['numbers:write', 'g_numbers']);
       if (r.verdict !== 'wrong') {
         setScore((s) => s + 1);
         speak(r.expected);

@@ -124,6 +124,12 @@ const validators: Record<string, (item: any, where: string) => void> = {
     const text = r.paragraphs.map((p: any) => p.he).join(' ');
     questions(w, r.questions, text);
     writing(w, r.writing);
+    if (r.date !== undefined && !/^\d{4}-\d{2}-\d{2}$/.test(r.date)) err(w, `date must be YYYY-MM-DD, got "${r.date}"`);
+    if (r.date !== undefined && (!Array.isArray(r.sources) || !r.sources.length)) err(w, 'news items need sources');
+    (r.sources ?? []).forEach((s: any, i: number) => {
+      str(w, s?.name, `sources[${i}].name`);
+      if (!/^https:\/\//.test(s?.url ?? '')) err(w, `sources[${i}].url must be an https URL`);
+    });
   },
   scenes(s, w) {
     id(w, s.id);

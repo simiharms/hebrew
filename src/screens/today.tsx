@@ -1,7 +1,9 @@
-import { Item, TopBar } from '../components/ui.tsx';
+import { Item, Progress, TopBar } from '../components/ui.tsx';
 import { allVocab } from '../lib/content.ts';
+import { currentUnit, UNITS, unitProgress } from '../lib/course.ts';
 import { strength } from '../lib/fsrs.ts';
 import { levelUpSuggestion, todaysPlan } from '../lib/plan.ts';
+import { SKILLS, weakestSkills } from '../lib/skills.ts';
 import { go } from '../lib/router.ts';
 import { setState, streak, today, useAppState } from '../lib/store.ts';
 
@@ -34,6 +36,11 @@ export function Today() {
   const known = vocab.filter((v) => ['known', 'mature'].includes(strength(s.cards[`v:${v.id}`]))).length;
   const up = levelUpSuggestion(s);
   const tip = TIPS[new Date(today()).getTime() / 86_400_000 % TIPS.length | 0];
+  const n = currentUnit(s);
+  const unit = UNITS[n];
+  const up_ = unitProgress(s, n);
+  const weak = weakestSkills(s)[0];
+  const weakLabel = weak && SKILLS.find((x) => x.id === weak)!.label.toLowerCase();
 
   return (
     <>
@@ -88,12 +95,44 @@ export function Today() {
           </div>
         )}
 
-        <div class="section-title">Today's plan</div>
+        {!s.profile.assessment && (
+          <div class="card accent">
+            <strong>Find your level in each skill</strong>
+            <p class="small">A 10-minute skills check (vocabulary, verbs, grammar, listening, reading, writing) tailors the plan to you.</p>
+            <button class="btn primary small" onClick={() => go('assessment')}>
+              Take the skills check
+            </button>
+          </div>
+        )}
+
+        {unit && (
+          <button class="item mt" onClick={() => go(`unit/${n}`)}>
+            <span class="emoji">📘</span>
+            <span class="grow">
+              <div class="sub">
+                Course · Unit {n + 1} of {UNITS.length} · {unit.level}
+              </div>
+              <div class="title">{unit.title}</div>
+              <div class="mt">
+                <Progress value={up_.done / up_.total} />
+              </div>
+            </span>
+            <span class="muted">›</span>
+          </button>
+        )}
+
+        <div class="section-title">
+          Today's plan{weakLabel ? ` · focus: ${weakLabel}` : ''}
+        </div>
         <div class="list">
           {plan.map((p) => (
             <Item
               emoji={p.emoji}
-              title={p.title}
+              title={
+                <>
+                  {p.title} {p.focus && <span class="badge warn">focus</span>}
+                </>
+              }
               sub={p.sub}
               done={p.done}
               onClick={() => go(p.route)}

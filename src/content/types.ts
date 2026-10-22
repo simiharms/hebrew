@@ -90,6 +90,8 @@ export interface Reading {
   glossary: GlossEntry[];
   questions: Question[];
   writing?: WritingTask;
+  date?: string; // easy-news issues: publication date (YYYY-MM-DD)
+  sources?: { name: string; url: string }[]; // easy-news issues: where the facts come from
 }
 
 export interface SceneLine {

@@ -11,7 +11,8 @@
     "test": "vitest run",
     "validate": "vite-node scripts/validate-content.ts",
     "e2e": "node scripts/e2e.mjs",
-    "e2e:single": "node scripts/single-smoke.mjs"
+    "e2e:single": "node scripts/single-smoke.mjs",
+    "e2e:offline": "node scripts/offline-smoke.mjs"
   },
   "dependencies": {
     "@fontsource/rubik": "5.2.8",

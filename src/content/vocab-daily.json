@@ -1,0 +1,4985 @@
+[
+  {
+    "id": "vd_teudat_zehut",
+    "he": "תעודת זהות",
+    "tr": "te'udát zehút",
+    "en": "ID card",
+    "enAlt": [
+      "identity card",
+      "teudat zehut"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "תעודות זהות",
+    "level": "A2",
+    "topic": "bureaucracy",
+    "ex": {
+      "he": "שכחתי את תעודת הזהות בבית, אז לא יכולתי לפתוח חשבון.",
+      "en": "I forgot my ID card at home, so I couldn't open an account."
+    },
+    "note": "Often written ת״ז on forms. With \"the\", the ה goes on the second word: תעודת הזהות."
+  },
+  {
+    "id": "vd_darkon",
+    "he": "דרכון",
+    "tr": "darkón",
+    "en": "passport",
+    "enAlt": [
+      "travel document"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "דרכונים",
+    "root": "ד.ר.כ",
+    "level": "A2",
+    "topic": "bureaucracy",
+    "ex": {
+      "he": "הדרכון שלי כבר לא בתוקף, אז אני צריך לחדש אותו.",
+      "en": "My passport is no longer valid, so I need to renew it."
+    },
+    "note": "Same root as דרך (way, road). להוציא דרכון = to get a passport issued."
+  },
+  {
+    "id": "vd_misrad_hapnim",
+    "he": "משרד הפנים",
+    "tr": "misrád hapním",
+    "en": "the Interior Ministry",
+    "enAlt": [
+      "Ministry of the Interior",
+      "population office"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "level": "A2",
+    "topic": "bureaucracy",
+    "ex": {
+      "he": "קבעתי תור במשרד הפנים כדי להוציא דרכון חדש.",
+      "en": "I booked an appointment at the Interior Ministry to get a new passport."
+    },
+    "note": "The services are officially run by רשות האוכלוסין (the Population Authority), but everyone still says משרד הפנים for ID cards, passports and visas."
+  },
+  {
+    "id": "vd_tor",
+    "he": "תור",
+    "tr": "tor",
+    "en": "queue; appointment",
+    "enAlt": [
+      "line",
+      "turn",
+      "appointment"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "תורים",
+    "root": "ת.ו.ר",
+    "level": "A2",
+    "topic": "bureaucracy",
+    "ex": {
+      "he": "עמדתי בתור בדואר חצי שעה רק כדי לאסוף חבילה.",
+      "en": "I stood in line at the post office for half an hour just to pick up a package."
+    },
+    "note": "לעמוד בתור = to stand in line; לקבוע תור = to make an appointment; של מי התור? = whose turn is it?"
+  },
+  {
+    "id": "vd_pakid",
+    "he": "פקיד",
+    "tr": "pakíd",
+    "en": "clerk",
+    "enAlt": [
+      "official",
+      "bank teller"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "פקידים",
+    "root": "פ.ק.ד",
+    "level": "B1",
+    "topic": "bureaucracy",
+    "ex": {
+      "he": "הפקיד אמר לי לחזור מחר עם צילום של תעודת הזהות.",
+      "en": "The clerk told me to come back tomorrow with a copy of my ID card."
+    },
+    "note": "Feminine: פקידה. צילום = a photocopy (lit. a photo)."
+  },
+  {
+    "id": "vd_tofes",
+    "he": "טופס",
+    "tr": "tófes",
+    "en": "form",
+    "enAlt": [
+      "application form",
+      "document"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "טפסים",
+    "level": "A2",
+    "topic": "bureaucracy",
+    "ex": {
+      "he": "צריך למלא את הטופס ולהחזיר אותו עד סוף השבוע.",
+      "en": "You need to fill in the form and return it by the end of the week."
+    },
+    "note": "The plural changes its vowels: טפסים (tfasím)."
+  },
+  {
+    "id": "vd_lemale",
+    "he": "למלא",
+    "tr": "lemalé",
+    "en": "to fill in, to fill out",
+    "enAlt": [
+      "to complete (a form)",
+      "to fill up"
+    ],
+    "pos": "verb",
+    "root": "מ.ל.א",
+    "binyan": "piel",
+    "gov": "את",
+    "level": "B1",
+    "topic": "bureaucracy",
+    "ex": {
+      "he": "אפשר למלא את הבקשה באתר, בלי להגיע לסניף.",
+      "en": "You can fill in the application on the website, without coming to the branch."
+    },
+    "note": "Same root as מלא (full)."
+  },
+  {
+    "id": "vd_lakhtom",
+    "he": "לחתום",
+    "tr": "lakhtóm",
+    "en": "to sign",
+    "enAlt": [
+      "to sign (a document)",
+      "to put one's signature"
+    ],
+    "pos": "verb",
+    "root": "ח.ת.מ",
+    "binyan": "paal",
+    "gov": "על",
+    "level": "B1",
+    "topic": "bureaucracy",
+    "ex": {
+      "he": "צריך לחתום על הטופס בשני מקומות, פה ופה.",
+      "en": "You need to sign the form in two places, here and here."
+    },
+    "note": "לחתום על = to sign something. Don't forget the על."
+  },
+  {
+    "id": "vd_khatima",
+    "he": "חתימה",
+    "tr": "khatimá",
+    "en": "signature",
+    "enAlt": [
+      "signing"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "חתימות",
+    "root": "ח.ת.מ",
+    "level": "B1",
+    "topic": "bureaucracy",
+    "ex": {
+      "he": "בלי החתימה של בעל הדירה אי אפשר להגיש את הבקשה.",
+      "en": "Without the landlord's signature you can't submit the application."
+    }
+  },
+  {
+    "id": "vd_bakasha",
+    "he": "בקשה",
+    "tr": "bakashá",
+    "en": "request; application",
+    "enAlt": [
+      "application",
+      "favor"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "בקשות",
+    "root": "ב.ק.ש",
+    "level": "B1",
+    "topic": "bureaucracy",
+    "ex": {
+      "he": "הגשתי בקשה להנחה בארנונה, ועכשיו אני מחכה לתשובה.",
+      "en": "I submitted an application for an arnona discount, and now I'm waiting for an answer."
+    },
+    "note": "להגיש בקשה = to submit an application; יש לי בקשה קטנה = I have a small favor to ask. Same root as בבקשה."
+  },
+  {
+    "id": "vd_lehagish",
+    "he": "להגיש",
+    "tr": "lehagísh",
+    "en": "to submit",
+    "enAlt": [
+      "to hand in",
+      "to serve (food)"
+    ],
+    "pos": "verb",
+    "root": "נ.ג.ש",
+    "binyan": "hifil",
+    "gov": "את",
+    "level": "B2",
+    "topic": "bureaucracy",
+    "ex": {
+      "he": "צריך להגיש את הבקשה עד סוף החודש, אחרת היא לא תטופל.",
+      "en": "The application must be submitted by the end of the month, otherwise it won't be processed."
+    },
+    "note": "Also \"to serve\" in restaurants: מה מגישים פה? Formal, but everywhere in bureaucracy."
+  },
+  {
+    "id": "vd_ishur",
+    "he": "אישור",
+    "tr": "ishúr",
+    "en": "confirmation; approval",
+    "enAlt": [
+      "permit",
+      "certificate",
+      "authorization"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "אישורים",
+    "root": "א.ש.ר",
+    "level": "B1",
+    "topic": "bureaucracy",
+    "ex": {
+      "he": "קיבלתי אישור במייל שהתשלום עבר בהצלחה, אז הכול בסדר.",
+      "en": "I got a confirmation by email that the payment went through, so everything's fine."
+    },
+    "note": "אישור מחלה = sick note; אישור הגעה = RSVP; לאשר = to approve, to confirm."
+  },
+  {
+    "id": "vd_kheshbon",
+    "he": "חשבון",
+    "tr": "kheshbón",
+    "en": "account; bill",
+    "enAlt": [
+      "bank account",
+      "check (restaurant)",
+      "invoice"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "חשבונות",
+    "root": "ח.ש.ב",
+    "level": "A2",
+    "topic": "bureaucracy",
+    "ex": {
+      "he": "פתחתי חשבון בנק חדש, כי בבנק הקודם גבו ממני עמלות גבוהות.",
+      "en": "I opened a new bank account because my previous bank charged me high fees."
+    },
+    "note": "Plural with -ות: חשבונות. Also the restaurant bill: אפשר את החשבון?"
+  },
+  {
+    "id": "vd_kheshbonit",
+    "he": "חשבונית",
+    "tr": "kheshbonít",
+    "en": "invoice",
+    "enAlt": [
+      "tax invoice",
+      "receipt"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "חשבוניות",
+    "root": "ח.ש.ב",
+    "level": "B1",
+    "topic": "bureaucracy",
+    "ex": {
+      "he": "תשלחו לי בבקשה חשבונית במייל, אני צריכה אותה בשביל הביטוח.",
+      "en": "Please email me an invoice, I need it for the insurance."
+    },
+    "note": "The official tax invoice (חשבונית מס); an ordinary shop receipt is usually קבלה."
+  },
+  {
+    "id": "vd_amla",
+    "he": "עמלה",
+    "tr": "amlá",
+    "en": "fee (bank); commission",
+    "enAlt": [
+      "service charge",
+      "bank charge"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "עמלות",
+    "root": "ע.מ.ל",
+    "level": "B2",
+    "topic": "bureaucracy",
+    "ex": {
+      "he": "על כל משיכה מהכספומט הזה גובים עמלה של כמה שקלים.",
+      "en": "Every withdrawal from this ATM costs a fee of a few shekels."
+    },
+    "note": "לגבות עמלה = to charge a fee. A fee paid to the state is אגרה."
+  },
+  {
+    "id": "vd_arnona",
+    "he": "ארנונה",
+    "tr": "arnóna",
+    "en": "municipal property tax (arnona)",
+    "enAlt": [
+      "city tax",
+      "council tax",
+      "arnona"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "level": "B1",
+    "topic": "bureaucracy",
+    "ex": {
+      "he": "את הארנונה משלמים לעירייה, ובדרך כלל השוכר משלם אותה.",
+      "en": "Arnona is paid to the municipality, and usually the tenant is the one who pays it."
+    },
+    "note": "Paid by whoever lives in the property, so tenants register with the city when they move in. Some residents are entitled to a discount (הנחה)."
+  },
+  {
+    "id": "vd_iriya",
+    "he": "עירייה",
+    "tr": "iriyá",
+    "en": "municipality",
+    "enAlt": [
+      "city hall",
+      "town council"
+    ],
+    "alt": [
+      "עיריה"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "עיריות",
+    "root": "ע.י.ר",
+    "level": "B1",
+    "topic": "bureaucracy",
+    "ex": {
+      "he": "התקשרתי לעירייה כי לא פינו את הזבל כבר שלושה ימים.",
+      "en": "I called the municipality because the garbage hasn't been collected for three days."
+    },
+    "note": "מוקד העירייה = the city's hotline for complaints and problems. Same root as עיר (city)."
+  },
+  {
+    "id": "vd_bituakh",
+    "he": "ביטוח",
+    "tr": "bitúakh",
+    "en": "insurance",
+    "enAlt": [
+      "insurance policy",
+      "coverage"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "ביטוחים",
+    "root": "ב.ט.ח",
+    "level": "A2",
+    "topic": "bureaucracy",
+    "ex": {
+      "he": "כדאי לעשות ביטוח נסיעות לפני שטסים לחו״ל.",
+      "en": "It's a good idea to get travel insurance before you fly abroad."
+    },
+    "note": "לעשות ביטוח = to take out insurance. Same root as בטוח (sure, safe)."
+  },
+  {
+    "id": "vd_bituakh_leumi",
+    "he": "ביטוח לאומי",
+    "tr": "bitúakh le'umí",
+    "en": "National Insurance (social security)",
+    "enAlt": [
+      "social security",
+      "Bituach Leumi"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "root": "ב.ט.ח",
+    "level": "B1",
+    "topic": "bureaucracy",
+    "ex": {
+      "he": "כל עובד משלם ביטוח לאומי, וזה מופיע בתלוש המשכורת.",
+      "en": "Every employee pays National Insurance, and it shows up on the payslip."
+    },
+    "note": "The national social-security institute: it handles things like child allowance, unemployment pay and maternity pay."
+  },
+  {
+    "id": "vd_kupat_kholim",
+    "he": "קופת חולים",
+    "tr": "kupát kholím",
+    "en": "health fund (HMO)",
+    "enAlt": [
+      "kupat holim",
+      "HMO",
+      "health maintenance organization"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "קופות חולים",
+    "level": "A2",
+    "topic": "bureaucracy",
+    "ex": {
+      "he": "אני מבוטחת באותה קופת חולים כבר עשר שנים, ומרוצה מהשירות.",
+      "en": "I've been insured with the same health fund for ten years, and I'm happy with the service."
+    },
+    "note": "Every resident belongs to one; people usually just say הקופה. It runs clinics and covers basic medical care."
+  },
+  {
+    "id": "vd_ole_khadash",
+    "he": "עולה חדש",
+    "tr": "olé khadásh",
+    "en": "new immigrant",
+    "enAlt": [
+      "oleh",
+      "new oleh"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "עולים חדשים",
+    "root": "ע.ל.ה",
+    "level": "A2",
+    "topic": "bureaucracy",
+    "ex": {
+      "he": "כעולה חדשה, הייתי צריכה עזרה עם כל הטפסים בשנה הראשונה.",
+      "en": "As a new immigrant, I needed help with all the forms in the first year."
+    },
+    "note": "Feminine: עולה חדשה. From לעלות (to go up): immigrating to Israel is עלייה, \"going up\"."
+  },
+  {
+    "id": "vd_levatel",
+    "he": "לבטל",
+    "tr": "levatél",
+    "en": "to cancel",
+    "enAlt": [
+      "to call off",
+      "to annul"
+    ],
+    "pos": "verb",
+    "root": "ב.ט.ל",
+    "binyan": "piel",
+    "gov": "את",
+    "level": "A2",
+    "topic": "bureaucracy",
+    "ex": {
+      "he": "אם אין לך זמן, אפשר לבטל את התור באתר של הקופה.",
+      "en": "If you don't have time, you can cancel the appointment on the health fund's website."
+    }
+  },
+  {
+    "id": "vd_lehirashem",
+    "he": "להירשם",
+    "tr": "lehirashém",
+    "en": "to register; to sign up",
+    "enAlt": [
+      "to enroll",
+      "to sign up (for)"
+    ],
+    "pos": "verb",
+    "root": "ר.ש.מ",
+    "binyan": "nifal",
+    "gov": "ל",
+    "level": "B1",
+    "topic": "bureaucracy",
+    "ex": {
+      "he": "כל עולה חדש צריך להירשם לקופת חולים בהקדם.",
+      "en": "Every new immigrant needs to register with a health fund as soon as possible."
+    },
+    "note": "נרשמתי ל... = I signed up for... (a course, a gym, a list). הרשמה = registration."
+  },
+  {
+    "id": "vd_sherut_lekokhot",
+    "he": "שירות לקוחות",
+    "tr": "sherút lekokhót",
+    "en": "customer service",
+    "enAlt": [
+      "customer support",
+      "help desk"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "root": "ש.ר.ת",
+    "level": "B1",
+    "topic": "bureaucracy",
+    "ex": {
+      "he": "חיכיתי לשירות הלקוחות ארבעים דקות, ואז השיחה התנתקה.",
+      "en": "I waited forty minutes for customer service, and then the call got cut off."
+    },
+    "note": "Phone menus say הקישו 1 (press 1) and השיחה מוקלטת (the call is recorded)."
+  },
+  {
+    "id": "vd_haavara",
+    "he": "העברה",
+    "tr": "ha'avará",
+    "en": "transfer",
+    "enAlt": [
+      "bank transfer",
+      "wire transfer"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "העברות",
+    "root": "ע.ב.ר",
+    "level": "B1",
+    "topic": "bureaucracy",
+    "ex": {
+      "he": "עשיתי לבעל הדירה העברה בנקאית, אבל הכסף עוד לא הגיע.",
+      "en": "I made a bank transfer to the landlord, but the money hasn't arrived yet."
+    },
+    "note": "העברה בנקאית = bank transfer; להעביר כסף = to transfer money."
+  },
+  {
+    "id": "vd_minus",
+    "he": "מינוס",
+    "tr": "mínus",
+    "en": "overdraft",
+    "enAlt": [
+      "negative balance",
+      "in the red"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "register": "colloquial",
+    "level": "B1",
+    "topic": "bureaucracy",
+    "ex": {
+      "he": "החודש נכנסתי למינוס בגלל כל ההוצאות של החגים.",
+      "en": "This month I went into overdraft because of all the holiday expenses."
+    },
+    "note": "להיות במינוס = to be overdrawn, a very common everyday expression."
+  },
+  {
+    "id": "vd_agra",
+    "he": "אגרה",
+    "tr": "agrá",
+    "en": "(government) fee",
+    "enAlt": [
+      "official fee",
+      "charge",
+      "toll"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "אגרות",
+    "root": "א.ג.ר",
+    "level": "B2",
+    "topic": "bureaucracy",
+    "ex": {
+      "he": "בנוסף לטופס, צריך לשלם אגרה בסניף הדואר.",
+      "en": "In addition to the form, you have to pay a fee at the post office."
+    },
+    "note": "A fee paid to the state (passport, license, court). A bank's fee is עמלה."
+  },
+  {
+    "id": "vd_zakai",
+    "he": "זכאי",
+    "tr": "zakái",
+    "en": "entitled; eligible",
+    "enAlt": [
+      "eligible",
+      "qualified"
+    ],
+    "pos": "adj",
+    "root": "ז.כ.ה",
+    "level": "B2",
+    "topic": "bureaucracy",
+    "ex": {
+      "he": "בדקתי באתר של העירייה, ואני זכאית להנחה בארנונה.",
+      "en": "I checked the municipality's website, and I'm entitled to an arnona discount."
+    },
+    "note": "זכאי ל = entitled to; feminine זכאית; זכאות = eligibility."
+  },
+  {
+    "id": "vd_tokef",
+    "he": "תוקף",
+    "tr": "tókef",
+    "en": "validity",
+    "enAlt": [
+      "validity period",
+      "force (legal)"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "root": "ת.ק.פ",
+    "level": "B2",
+    "topic": "bureaucracy",
+    "ex": {
+      "he": "שימו לב לתאריך התוקף של הכרטיס לפני שאתם יוצאים לחו״ל.",
+      "en": "Check the card's expiry date before you go abroad."
+    },
+    "note": "בתוקף = valid; פג תוקף = expired; on food the expiry date is תאריך תפוגה."
+  },
+  {
+    "id": "vd_learer",
+    "he": "לערער",
+    "tr": "le'ar'ér",
+    "en": "to appeal (a decision)",
+    "enAlt": [
+      "to contest",
+      "to undermine"
+    ],
+    "pos": "verb",
+    "root": "ע.ר.ע.ר",
+    "binyan": "piel",
+    "gov": "על",
+    "level": "B2",
+    "topic": "bureaucracy",
+    "ex": {
+      "he": "החלטתי לערער על הקנס, כי השלט בכלל לא היה ברור.",
+      "en": "I decided to appeal the fine, because the sign wasn't clear at all."
+    },
+    "note": "ערעור = an appeal; להגיש ערעור = to file an appeal."
+  },
+  {
+    "id": "vd_lekhadesh",
+    "he": "לחדש",
+    "tr": "lekhadésh",
+    "en": "to renew",
+    "enAlt": [
+      "to update",
+      "to innovate"
+    ],
+    "pos": "verb",
+    "root": "ח.ד.ש",
+    "binyan": "piel",
+    "gov": "את",
+    "level": "B1",
+    "topic": "bureaucracy",
+    "ex": {
+      "he": "צריך לחדש את רישיון הנהיגה כל כמה שנים.",
+      "en": "You have to renew your driver's license every few years."
+    },
+    "note": "Same root as חדש (new): to renew is \"to make new again\"."
+  },
+  {
+    "id": "vd_khidush",
+    "he": "חידוש",
+    "tr": "khidúsh",
+    "en": "renewal; innovation",
+    "enAlt": [
+      "novelty",
+      "something new"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "חידושים",
+    "root": "ח.ד.ש",
+    "level": "B2",
+    "topic": "bureaucracy",
+    "ex": {
+      "he": "החידוש של הדרכון לקח חודש שלם, אז אל תשאירו את זה לרגע האחרון.",
+      "en": "The passport renewal took a whole month, so don't leave it to the last minute."
+    },
+    "note": "זה חידוש בשבילי = that's new to me."
+  },
+  {
+    "id": "vd_dira",
+    "he": "דירה",
+    "tr": "dirá",
+    "en": "apartment",
+    "enAlt": [
+      "flat",
+      "home"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "דירות",
+    "root": "ד.ו.ר",
+    "level": "A2",
+    "topic": "home",
+    "ex": {
+      "he": "אנחנו מחפשים דירת שלושה חדרים קרוב לעבודה.",
+      "en": "We're looking for a three-room apartment close to work."
+    },
+    "note": "Israelis count the living room too: דירת 3 חדרים = two bedrooms plus a living room (סלון)."
+  },
+  {
+    "id": "vd_dayar",
+    "he": "דייר",
+    "tr": "dayár",
+    "en": "tenant; resident (of a building)",
+    "enAlt": [
+      "occupant",
+      "lodger"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "דיירים",
+    "root": "ד.ו.ר",
+    "level": "B1",
+    "topic": "home",
+    "ex": {
+      "he": "הדיירים בבניין החליטו לצבוע את חדר המדרגות.",
+      "en": "The residents of the building decided to paint the stairwell."
+    },
+    "note": "Feminine: דיירת. Used for anyone living in the building, owner or renter. Same root as דירה."
+  },
+  {
+    "id": "vd_liskor",
+    "he": "לשכור",
+    "tr": "liskór",
+    "en": "to rent (as a tenant)",
+    "enAlt": [
+      "to hire",
+      "to lease"
+    ],
+    "pos": "verb",
+    "root": "ש.כ.ר",
+    "binyan": "paal",
+    "gov": "את",
+    "level": "A2",
+    "topic": "home",
+    "ex": {
+      "he": "שכרנו דירה קטנה ליד הים לשנה הראשונה שלנו בארץ.",
+      "en": "We rented a small apartment near the sea for our first year in Israel."
+    },
+    "note": "You שוכר from the owner, who משכיר (rents out). Also לשכור רכב = to rent a car."
+  },
+  {
+    "id": "vd_lehaskir",
+    "he": "להשכיר",
+    "tr": "lehaskír",
+    "en": "to rent out",
+    "enAlt": [
+      "to let",
+      "to lease (out)"
+    ],
+    "pos": "verb",
+    "root": "ש.כ.ר",
+    "binyan": "hifil",
+    "gov": "את",
+    "level": "B1",
+    "topic": "home",
+    "ex": {
+      "he": "השכנים שלנו משכירים את הדירה שלהם לתיירים בקיץ.",
+      "en": "Our neighbors rent out their apartment to tourists in the summer."
+    },
+    "note": "להשכרה = for rent (on signs and ads)."
+  },
+  {
+    "id": "vd_skhirut",
+    "he": "שכירות",
+    "tr": "skhirút",
+    "en": "rental; lease",
+    "enAlt": [
+      "tenancy",
+      "renting"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "root": "ש.כ.ר",
+    "level": "B2",
+    "topic": "home",
+    "ex": {
+      "he": "חוזה השכירות שלנו נגמר באוגוסט, ועוד לא החלטנו אם להאריך.",
+      "en": "Our lease ends in August, and we haven't decided yet whether to extend it."
+    },
+    "note": "חוזה שכירות = lease (rental contract); להאריך = to extend."
+  },
+  {
+    "id": "vd_skhar_dira",
+    "he": "שכר דירה",
+    "tr": "skhar dirá",
+    "en": "rent (the payment)",
+    "enAlt": [
+      "monthly rent",
+      "rent money"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "root": "ש.כ.ר",
+    "level": "B1",
+    "topic": "home",
+    "ex": {
+      "he": "שכר הדירה עלה שוב, אז אנחנו חושבים לעבור לשכונה אחרת.",
+      "en": "The rent went up again, so we're thinking of moving to another neighborhood."
+    },
+    "note": "With \"the\": שכר הדירה (the ה goes on the second word)."
+  },
+  {
+    "id": "vd_baal_habayit",
+    "he": "בעל הבית",
+    "tr": "ba'ál habáyit",
+    "en": "landlord",
+    "enAlt": [
+      "owner",
+      "the boss (colloquial)"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "בעלי הבית",
+    "level": "B1",
+    "topic": "home",
+    "ex": {
+      "he": "בעל הבית הבטיח לתקן את הדוד עד סוף השבוע.",
+      "en": "The landlord promised to fix the water heater by the end of the week."
+    },
+    "note": "Feminine: בעלת הבית. Also בעל הדירה. Colloquially also \"the boss, the one in charge\"."
+  },
+  {
+    "id": "vd_lavor_dira",
+    "he": "לעבור דירה",
+    "tr": "la'avór dirá",
+    "en": "to move (to a new home)",
+    "enAlt": [
+      "to move house",
+      "to relocate"
+    ],
+    "pos": "verb",
+    "root": "ע.ב.ר",
+    "binyan": "paal",
+    "level": "B1",
+    "topic": "home",
+    "ex": {
+      "he": "עברנו דירה בחודש שעבר, ועדיין יש ארגזים בכל מקום.",
+      "en": "We moved last month, and there are still boxes everywhere."
+    },
+    "note": "Just לעבור also works: עברנו לחיפה = we moved to Haifa. מעבר דירה = a move."
+  },
+  {
+    "id": "vd_shutaf",
+    "he": "שותף",
+    "tr": "shutáf",
+    "en": "roommate; partner",
+    "enAlt": [
+      "flatmate",
+      "business partner"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "שותפים",
+    "root": "ש.ת.פ",
+    "level": "A2",
+    "topic": "home",
+    "ex": {
+      "he": "יש לי שני שותפים לדירה, ואנחנו מתחלקים בכל החשבונות.",
+      "en": "I have two roommates, and we split all the bills."
+    },
+    "note": "Feminine: שותפה. דירת שותפים = a shared apartment."
+  },
+  {
+    "id": "vd_meshutaf",
+    "he": "משותף",
+    "tr": "meshutáf",
+    "en": "shared; common",
+    "enAlt": [
+      "joint",
+      "mutual"
+    ],
+    "pos": "adj",
+    "root": "ש.ת.פ",
+    "level": "B1",
+    "topic": "home",
+    "ex": {
+      "he": "יש לנו מטבח משותף, אבל כל אחד קונה את האוכל שלו.",
+      "en": "We have a shared kitchen, but everyone buys their own food."
+    },
+    "note": "Feminine: משותפת. חבר משותף = a mutual friend."
+  },
+  {
+    "id": "vd_shkhuna",
+    "he": "שכונה",
+    "tr": "shkhuná",
+    "en": "neighborhood",
+    "enAlt": [
+      "area",
+      "district"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "שכונות",
+    "root": "ש.כ.נ",
+    "level": "A2",
+    "topic": "home",
+    "ex": {
+      "he": "זאת שכונה שקטה עם הרבה גינות ובתי ספר טובים.",
+      "en": "It's a quiet neighborhood with lots of small parks and good schools."
+    },
+    "note": "Same root as שכן (neighbor)."
+  },
+  {
+    "id": "vd_vaad_bayit",
+    "he": "ועד בית",
+    "tr": "vá'ad báyit",
+    "en": "building committee; building fee",
+    "enAlt": [
+      "house committee",
+      "HOA fee"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "ועדי בית",
+    "level": "B1",
+    "topic": "home",
+    "ex": {
+      "he": "כל חודש משלמים ועד בית, והכסף הולך לניקיון ולמעלית.",
+      "en": "Every month you pay the building fee, and the money goes to cleaning and the elevator."
+    },
+    "note": "Means both the residents' committee and the monthly fee paid to it."
+  },
+  {
+    "id": "vd_maalit",
+    "he": "מעלית",
+    "tr": "ma'alít",
+    "en": "elevator",
+    "enAlt": [
+      "lift"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "מעליות",
+    "root": "ע.ל.ה",
+    "level": "A2",
+    "topic": "home",
+    "ex": {
+      "he": "המעלית שוב תקועה, אז עלינו ברגל לקומה השישית.",
+      "en": "The elevator is stuck again, so we walked up to the sixth floor."
+    },
+    "note": "מעלית שבת = Shabbat elevator, which stops at every floor automatically. Same root as לעלות (to go up)."
+  },
+  {
+    "id": "vd_mazgan",
+    "he": "מזגן",
+    "tr": "mazgán",
+    "en": "air conditioner",
+    "enAlt": [
+      "AC",
+      "air conditioning"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מזגנים",
+    "root": "מ.ז.ג",
+    "level": "A2",
+    "topic": "home",
+    "ex": {
+      "he": "בלי מזגן אי אפשר לישון פה באוגוסט.",
+      "en": "Without an air conditioner it's impossible to sleep here in August."
+    },
+    "note": "להדליק / לכבות את המזגן = to turn the AC on / off."
+  },
+  {
+    "id": "vd_dud",
+    "he": "דוד",
+    "tr": "dud",
+    "en": "water heater",
+    "enAlt": [
+      "boiler",
+      "hot-water tank"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "דודים",
+    "level": "B1",
+    "topic": "home",
+    "ex": {
+      "he": "תדליק את הדוד חצי שעה לפני שאתה נכנס להתקלח.",
+      "en": "Turn on the water heater half an hour before you get in the shower."
+    },
+    "note": "Also means \"uncle\". דוד שמש = solar water heater on the roof; in winter you switch on the electric boiler."
+  },
+  {
+    "id": "vd_lehadlik",
+    "he": "להדליק",
+    "tr": "lehadlík",
+    "en": "to turn on (a light or device)",
+    "enAlt": [
+      "to switch on",
+      "to light"
+    ],
+    "pos": "verb",
+    "root": "ד.ל.ק",
+    "binyan": "hifil",
+    "gov": "את",
+    "level": "A2",
+    "topic": "home",
+    "ex": {
+      "he": "אתה יכול להדליק את האור? לא רואים פה כלום.",
+      "en": "Can you turn on the light? You can't see anything here."
+    },
+    "note": "Opposite: לכבות (to turn off). Used for lights, the AC, the boiler, even the TV. Same root as דלק (fuel)."
+  },
+  {
+    "id": "vd_lenakot",
+    "he": "לנקות",
+    "tr": "lenakót",
+    "en": "to clean",
+    "enAlt": [
+      "to tidy up"
+    ],
+    "pos": "verb",
+    "root": "נ.ק.ה",
+    "binyan": "piel",
+    "gov": "את",
+    "level": "A2",
+    "topic": "home",
+    "ex": {
+      "he": "בשישי בבוקר אנחנו מנקים את כל הבית ביחד.",
+      "en": "On Friday mornings we clean the whole house together."
+    },
+    "note": "Related: נקי (clean), ניקיון (cleaning)."
+  },
+  {
+    "id": "vd_nikayon",
+    "he": "ניקיון",
+    "tr": "nikayón",
+    "en": "cleaning; cleanliness",
+    "enAlt": [
+      "cleanup"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "ניקיונות",
+    "root": "נ.ק.ה",
+    "level": "B1",
+    "topic": "home",
+    "ex": {
+      "he": "לפני פסח כל המשפחה עסוקה בניקיונות של הבית.",
+      "en": "Before Passover the whole family is busy cleaning the house."
+    },
+    "note": "ניקיונות לפסח = the big pre-Passover clean; חומרי ניקיון = cleaning products."
+  },
+  {
+    "id": "vd_letaken",
+    "he": "לתקן",
+    "tr": "letakén",
+    "en": "to fix, to repair",
+    "enAlt": [
+      "to correct"
+    ],
+    "pos": "verb",
+    "root": "ת.ק.נ",
+    "binyan": "piel",
+    "gov": "את",
+    "level": "A2",
+    "topic": "home",
+    "ex": {
+      "he": "האינסטלטור בא לתקן את הברז, אבל הוא עדיין מטפטף.",
+      "en": "The plumber came to fix the tap, but it's still dripping."
+    },
+    "note": "Also \"to correct\": תתקן אותי אם אני טועה = correct me if I'm wrong."
+  },
+  {
+    "id": "vd_tikun",
+    "he": "תיקון",
+    "tr": "tikún",
+    "en": "repair",
+    "enAlt": [
+      "fix",
+      "correction"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "תיקונים",
+    "root": "ת.ק.נ",
+    "level": "B1",
+    "topic": "home",
+    "ex": {
+      "he": "לפי החוזה, תיקונים גדולים בדירה הם באחריות בעל הבית.",
+      "en": "According to the contract, major repairs in the apartment are the landlord's responsibility."
+    }
+  },
+  {
+    "id": "vd_takin",
+    "he": "תקין",
+    "tr": "takín",
+    "en": "in working order; normal",
+    "enAlt": [
+      "OK",
+      "functioning",
+      "proper"
+    ],
+    "pos": "adj",
+    "root": "ת.ק.נ",
+    "level": "B2",
+    "topic": "home",
+    "ex": {
+      "he": "לפני שחותמים, כדאי לבדוק שכל המכשירים בדירה תקינים.",
+      "en": "Before signing, it's worth checking that all the appliances in the apartment work properly."
+    },
+    "note": "Feminine: תקינה. הכול תקין = everything is in order (also said about test results)."
+  },
+  {
+    "id": "vd_instalator",
+    "he": "אינסטלטור",
+    "tr": "instalátor",
+    "en": "plumber",
+    "enAlt": [
+      "plumbing technician"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "אינסטלטורים",
+    "level": "B1",
+    "topic": "home",
+    "ex": {
+      "he": "יש נזילה מתחת לכיור, אני חייב להזמין אינסטלטור דחוף.",
+      "en": "There's a leak under the sink, I have to call a plumber urgently."
+    },
+    "note": "The more formal word is שרברב. נזילה = a leak."
+  },
+  {
+    "id": "vd_lekhabes",
+    "he": "לכבס",
+    "tr": "lekhabés",
+    "en": "to do the laundry",
+    "enAlt": [
+      "to wash (clothes)",
+      "to launder"
+    ],
+    "pos": "verb",
+    "root": "כ.ב.ס",
+    "binyan": "piel",
+    "gov": "את",
+    "level": "B1",
+    "topic": "home",
+    "ex": {
+      "he": "אני מכבסת פעמיים בשבוע ותולה את הכביסה במרפסת.",
+      "en": "I do the laundry twice a week and hang it out on the balcony."
+    }
+  },
+  {
+    "id": "vd_kvisa",
+    "he": "כביסה",
+    "tr": "kvisá",
+    "en": "laundry",
+    "enAlt": [
+      "washing"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "כביסות",
+    "root": "כ.ב.ס",
+    "level": "B1",
+    "topic": "home",
+    "ex": {
+      "he": "תוריד בבקשה את הכביסה מהחבל לפני שיתחיל לרדת גשם.",
+      "en": "Please take the laundry off the line before it starts to rain."
+    },
+    "note": "מכונת כביסה = washing machine; לתלות כביסה = to hang out the laundry."
+  },
+  {
+    "id": "vd_sponja",
+    "he": "ספונג׳ה",
+    "tr": "spónja",
+    "en": "floor mopping (Israeli-style)",
+    "enAlt": [
+      "floor washing",
+      "mopping"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "register": "colloquial",
+    "level": "B1",
+    "topic": "home",
+    "ex": {
+      "he": "אחרי הספונג׳ה כל הבית מריח טוב, אז אל תדרכו על הרצפה.",
+      "en": "After the floor mopping the whole house smells nice, so don't walk on the floor."
+    },
+    "note": "לעשות ספונג׳ה = to wash the floors the Israeli way: water on the floor, a squeegee (מגב) and a floor cloth (סמרטוט)."
+  },
+  {
+    "id": "vd_merohat",
+    "he": "מרוהט",
+    "tr": "merohát",
+    "en": "furnished",
+    "enAlt": [
+      "with furniture"
+    ],
+    "pos": "adj",
+    "root": "ר.ה.ט",
+    "level": "B2",
+    "topic": "home",
+    "ex": {
+      "he": "הדירה מרוהטת חלקית: יש מקרר ומכונת כביסה, אבל אין ספה.",
+      "en": "The apartment is partly furnished: there's a fridge and a washing machine, but no sofa."
+    },
+    "note": "Feminine: מרוהטת. Same root as רהיטים (furniture)."
+  },
+  {
+    "id": "vd_pikadon",
+    "he": "פיקדון",
+    "tr": "pikadón",
+    "en": "deposit",
+    "enAlt": [
+      "security deposit"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "פיקדונות",
+    "root": "פ.ק.ד",
+    "level": "B2",
+    "topic": "home",
+    "ex": {
+      "he": "בעל הבית החזיר לנו את הפיקדון רק חודשיים אחרי שעזבנו.",
+      "en": "The landlord returned our deposit only two months after we moved out."
+    },
+    "note": "Landlords often ask for a guarantee (ערבות) or a security check (צ׳ק ביטחון) instead of cash."
+  },
+  {
+    "id": "vd_shiputs",
+    "he": "שיפוץ",
+    "tr": "shipúts",
+    "en": "renovation",
+    "enAlt": [
+      "refurbishment",
+      "remodeling"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "שיפוצים",
+    "root": "ש.פ.צ",
+    "level": "B1",
+    "topic": "home",
+    "ex": {
+      "he": "השכנים באמצע שיפוץ, ויש רעש מהבוקר עד הערב.",
+      "en": "The neighbors are in the middle of a renovation, and there's noise from morning to evening."
+    },
+    "note": "משופץ = renovated (in ads: דירה משופצת)."
+  },
+  {
+    "id": "vd_leshapets",
+    "he": "לשפץ",
+    "tr": "leshapéts",
+    "en": "to renovate",
+    "enAlt": [
+      "to refurbish",
+      "to do up"
+    ],
+    "pos": "verb",
+    "root": "ש.פ.צ",
+    "binyan": "piel",
+    "gov": "את",
+    "level": "B2",
+    "topic": "home",
+    "ex": {
+      "he": "אנחנו רוצים לשפץ את המטבח, אבל זה יקר מדי כרגע.",
+      "en": "We want to renovate the kitchen, but it's too expensive right now."
+    }
+  },
+  {
+    "id": "vd_retivut",
+    "he": "רטיבות",
+    "tr": "retivút",
+    "en": "damp; moisture",
+    "enAlt": [
+      "dampness",
+      "humidity"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "root": "ר.ט.ב",
+    "level": "B2",
+    "topic": "home",
+    "ex": {
+      "he": "יש רטיבות בקיר של חדר השינה, ובחורף יש עובש.",
+      "en": "There's damp in the bedroom wall, and in winter there's mold."
+    },
+    "note": "A common problem in older apartments; עובש = mold. Same root as רטוב (wet)."
+  },
+  {
+    "id": "vd_metavekh",
+    "he": "מתווך",
+    "tr": "metavékh",
+    "en": "real-estate agent",
+    "enAlt": [
+      "broker",
+      "agent",
+      "middleman"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מתווכים",
+    "root": "ת.ו.כ",
+    "level": "B2",
+    "topic": "home",
+    "ex": {
+      "he": "המתווך ביקש דמי תיווך של חודש שכירות.",
+      "en": "The agent asked for a broker's fee of one month's rent."
+    },
+    "note": "דמי תיווך = broker's fee. Feminine: מתווכת."
+  },
+  {
+    "id": "vd_lehazmin",
+    "he": "להזמין",
+    "tr": "lehazmín",
+    "en": "to order",
+    "enAlt": [
+      "to invite",
+      "to book",
+      "to reserve"
+    ],
+    "pos": "verb",
+    "root": "ז.מ.נ",
+    "binyan": "hifil",
+    "gov": "את",
+    "level": "A2",
+    "topic": "food",
+    "ex": {
+      "he": "הזמנו שולחן לשמונה בערב, אבל הגענו קצת באיחור.",
+      "en": "We booked a table for eight p.m., but we arrived a bit late."
+    },
+    "note": "Also \"to invite\" (הזמנתי אותם לארוחת שישי) and \"to book\". Same root as זמן (time) and מזומן (cash)."
+  },
+  {
+    "id": "vd_mana",
+    "he": "מנה",
+    "tr": "maná",
+    "en": "dish; portion",
+    "enAlt": [
+      "course",
+      "serving"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "מנות",
+    "root": "מ.נ.ה",
+    "level": "A2",
+    "topic": "food",
+    "ex": {
+      "he": "המנה הזאת מספיקה לשניים, אז בואו נזמין רק אחת.",
+      "en": "This dish is enough for two, so let's order just one."
+    },
+    "note": "מנה ראשונה = starter; מנה עיקרית = main course; מנה אחרונה = dessert."
+  },
+  {
+    "id": "vd_arukha",
+    "he": "ארוחה",
+    "tr": "arukhá",
+    "en": "meal",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "ארוחות",
+    "root": "א.ר.ח",
+    "level": "A2",
+    "topic": "food",
+    "ex": {
+      "he": "ארוחת שישי אצל ההורים היא מסורת קבועה במשפחה שלנו.",
+      "en": "Friday dinner at my parents' is a fixed tradition in our family."
+    },
+    "note": "Construct form: ארוחת בוקר / צהריים / ערב. ארוחת שישי = the Friday-night family dinner."
+  },
+  {
+    "id": "vd_levashel",
+    "he": "לבשל",
+    "tr": "levashél",
+    "en": "to cook",
+    "enAlt": [
+      "to make (food)"
+    ],
+    "pos": "verb",
+    "root": "ב.ש.ל",
+    "binyan": "piel",
+    "gov": "את",
+    "level": "A2",
+    "topic": "food",
+    "ex": {
+      "he": "אני אוהב לבשל בשישי, כשיש לי יותר זמן.",
+      "en": "I like to cook on Fridays, when I have more time."
+    },
+    "note": "לבשל ארוחת ערב = to make dinner; מבושל = cooked."
+  },
+  {
+    "id": "vd_bishul",
+    "he": "בישול",
+    "tr": "bishúl",
+    "en": "cooking",
+    "enAlt": [
+      "cuisine"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "root": "ב.ש.ל",
+    "level": "B1",
+    "topic": "food",
+    "ex": {
+      "he": "נרשמתי לסדנת בישול טבעוני כדי ללמוד מתכונים חדשים.",
+      "en": "I signed up for a vegan cooking workshop to learn new recipes."
+    },
+    "note": "ספר בישול = cookbook."
+  },
+  {
+    "id": "vd_litom",
+    "he": "לטעום",
+    "tr": "lit'óm",
+    "en": "to taste",
+    "enAlt": [
+      "to try (food)",
+      "to sample"
+    ],
+    "pos": "verb",
+    "root": "ט.ע.מ",
+    "binyan": "paal",
+    "gov": "את",
+    "level": "A2",
+    "topic": "food",
+    "ex": {
+      "he": "אפשר לטעום לפני שאני קונה? אף פעם לא אכלתי את זה.",
+      "en": "Can I taste it before I buy? I've never eaten this."
+    },
+    "note": "תטעם / תטעמי! = taste it! (what every Israeli grandmother says)."
+  },
+  {
+    "id": "vd_taam",
+    "he": "טעם",
+    "tr": "tá'am",
+    "en": "taste",
+    "enAlt": [
+      "flavor"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "טעמים",
+    "root": "ט.ע.מ",
+    "level": "B1",
+    "topic": "food",
+    "ex": {
+      "he": "יש לגלידה הזאת טעם של פיסטוק אמיתי.",
+      "en": "This ice cream tastes of real pistachio."
+    },
+    "note": "Idiom: אין טעם = there's no point (אין טעם להתווכח = there's no point arguing)."
+  },
+  {
+    "id": "vd_shtiya",
+    "he": "שתייה",
+    "tr": "shtiyá",
+    "en": "drinks; drinking",
+    "enAlt": [
+      "beverages",
+      "something to drink"
+    ],
+    "alt": [
+      "שתיה"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "root": "ש.ת.ה",
+    "level": "B1",
+    "topic": "food",
+    "ex": {
+      "he": "מה תרצו לשתות? יש לנו שתייה קרה וגם קפה.",
+      "en": "What would you like to drink? We have cold drinks and coffee."
+    },
+    "note": "A collective noun: שתייה קלה = soft drinks; שתייה חמה = hot drinks. Same root as לשתות."
+  },
+  {
+    "id": "vd_tsimkhoni",
+    "he": "צמחוני",
+    "tr": "tsimkhoní",
+    "en": "vegetarian",
+    "enAlt": [
+      "veggie"
+    ],
+    "pos": "adj",
+    "root": "צ.מ.ח",
+    "level": "A2",
+    "topic": "food",
+    "ex": {
+      "he": "יש לכם מנה צמחונית? אני לא אוכלת בשר.",
+      "en": "Do you have a vegetarian dish? I don't eat meat."
+    },
+    "note": "Feminine: צמחונית. From צמח (plant). Vegan = טבעוני."
+  },
+  {
+    "id": "vd_tivoni",
+    "he": "טבעוני",
+    "tr": "tiv'oní",
+    "en": "vegan",
+    "enAlt": [
+      "plant-based"
+    ],
+    "pos": "adj",
+    "root": "ט.ב.ע",
+    "level": "B1",
+    "topic": "food",
+    "ex": {
+      "he": "תל אביב מלאה במסעדות טבעוניות, אז קל למצוא מה לאכול.",
+      "en": "Tel Aviv is full of vegan restaurants, so it's easy to find something to eat."
+    },
+    "note": "Feminine: טבעונית. From טבע (nature)."
+  },
+  {
+    "id": "vd_kasher",
+    "he": "כשר",
+    "tr": "kashér",
+    "en": "kosher",
+    "pos": "adj",
+    "root": "כ.ש.ר",
+    "level": "A2",
+    "topic": "food",
+    "ex": {
+      "he": "המסעדה כשרה, אז היא סגורה מיום שישי בצהריים עד מוצאי שבת.",
+      "en": "The restaurant is kosher, so it's closed from Friday afternoon until Saturday night."
+    },
+    "note": "A kosher restaurant is either בשרי (meat) or חלבי (dairy). Colloquially also \"legit\": זה לא כשר = that's not kosher (not right)."
+  },
+  {
+    "id": "vd_khalavi",
+    "he": "חלבי",
+    "tr": "khalaví",
+    "en": "dairy (kosher category)",
+    "enAlt": [
+      "milk-based"
+    ],
+    "pos": "adj",
+    "root": "ח.ל.ב",
+    "level": "B1",
+    "topic": "food",
+    "ex": {
+      "he": "זאת מסעדה חלבית, אז אין בתפריט בשר בכלל.",
+      "en": "It's a dairy restaurant, so there's no meat on the menu at all."
+    },
+    "note": "From חלב (milk). The meat equivalent is בשרי."
+  },
+  {
+    "id": "vd_kharif",
+    "he": "חריף",
+    "tr": "kharíf",
+    "en": "spicy",
+    "enAlt": [
+      "hot (spicy)",
+      "hot sauce"
+    ],
+    "pos": "adj",
+    "root": "ח.ר.פ",
+    "level": "A2",
+    "topic": "food",
+    "ex": {
+      "he": "אפשר בלי חריף? הילדים לא אוהבים את זה.",
+      "en": "Can I have it without hot sauce? The kids don't like it."
+    },
+    "note": "At falafel stands: עם חריף? = with hot sauce? Feminine: חריפה."
+  },
+  {
+    "id": "vd_shuk",
+    "he": "שוק",
+    "tr": "shuk",
+    "en": "market",
+    "enAlt": [
+      "open-air market",
+      "souk"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "שווקים",
+    "level": "A2",
+    "topic": "food",
+    "ex": {
+      "he": "ביום שישי בבוקר השוק מלא אנשים, אז אני הולכת מוקדם.",
+      "en": "On Friday mornings the market is packed, so I go early."
+    },
+    "note": "Plural with a double vav: שווקים."
+  },
+  {
+    "id": "vd_dukhan",
+    "he": "דוכן",
+    "tr": "dukhán",
+    "en": "stall, stand",
+    "enAlt": [
+      "booth",
+      "kiosk"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "דוכנים",
+    "level": "B1",
+    "topic": "food",
+    "ex": {
+      "he": "בדוכן הזה מוכרים את הפלאפל הכי טוב בשוק.",
+      "en": "This stall sells the best falafel in the market."
+    }
+  },
+  {
+    "id": "vd_lehamlits",
+    "he": "להמליץ",
+    "tr": "lehamlíts",
+    "en": "to recommend",
+    "enAlt": [
+      "to suggest"
+    ],
+    "pos": "verb",
+    "root": "מ.ל.צ",
+    "binyan": "hifil",
+    "gov": "על",
+    "level": "B1",
+    "topic": "food",
+    "ex": {
+      "he": "מה אתה ממליץ לנו להזמין? אנחנו פה בפעם הראשונה.",
+      "en": "What do you recommend we order? We're here for the first time."
+    },
+    "note": "להמליץ על = to recommend (something); המלצה = a recommendation."
+  },
+  {
+    "id": "vd_mishloakh",
+    "he": "משלוח",
+    "tr": "mishlóakh",
+    "en": "delivery",
+    "enAlt": [
+      "shipping"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "משלוחים",
+    "root": "ש.ל.ח",
+    "level": "B1",
+    "topic": "food",
+    "ex": {
+      "he": "הזמנו פיצה במשלוח, והיא הגיעה אחרי שעה וחצי.",
+      "en": "We ordered pizza for delivery, and it arrived after an hour and a half."
+    },
+    "note": "במשלוח = by delivery; איסוף עצמי = pickup; משלוח חינם = free shipping. Same root as לשלוח (to send)."
+  },
+  {
+    "id": "vd_hafukh",
+    "he": "הפוך",
+    "tr": "hafúkh",
+    "en": "latte (Israeli café latte)",
+    "enAlt": [
+      "cafe latte",
+      "milky coffee"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "הפוכים",
+    "level": "A2",
+    "topic": "food",
+    "ex": {
+      "he": "אפשר הפוך גדול עם חלב שקדים, בבקשה?",
+      "en": "Can I have a large latte with almond milk, please?"
+    },
+    "note": "Lit. \"upside down\" (קפה הפוך); Israel's default café order. As an adjective it means \"upside down, reversed\"."
+  },
+  {
+    "id": "vd_iskit",
+    "he": "עסקית",
+    "tr": "iskít",
+    "en": "business lunch (set menu)",
+    "enAlt": [
+      "lunch special",
+      "set lunch"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "עסקיות",
+    "level": "B1",
+    "topic": "food",
+    "ex": {
+      "he": "בצהריים יש עסקית: מנה ראשונה, מנה עיקרית ושתייה.",
+      "en": "At lunchtime there's a set menu: a starter, a main course and a drink."
+    },
+    "note": "Short for ארוחה עסקית: a fixed-price lunch deal, usually on weekdays."
+  },
+  {
+    "id": "vd_laffa",
+    "he": "לאפה",
+    "tr": "láfa",
+    "en": "laffa (large flatbread)",
+    "enAlt": [
+      "flatbread wrap",
+      "Iraqi pita"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "לאפות",
+    "level": "B1",
+    "topic": "food",
+    "ex": {
+      "he": "תן לי שווארמה בלאפה עם הכול, בלי חריף.",
+      "en": "Give me a shawarma in a laffa with everything, no hot sauce."
+    },
+    "note": "Ordered as בפיתה או בלאפה? (in a pita or a laffa?). עם הכול = with all the salads."
+  },
+  {
+    "id": "vd_maafiya",
+    "he": "מאפייה",
+    "tr": "ma'afiyá",
+    "en": "bakery",
+    "enAlt": [
+      "bakehouse"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "מאפיות",
+    "root": "א.פ.ה",
+    "level": "A2",
+    "topic": "food",
+    "ex": {
+      "he": "ביום שישי יש תור ארוך במאפייה בשביל חלות.",
+      "en": "On Fridays there's a long line at the bakery for challahs."
+    },
+    "note": "From לאפות (to bake); מאפה = a pastry."
+  },
+  {
+    "id": "vd_matkon",
+    "he": "מתכון",
+    "tr": "matkón",
+    "en": "recipe",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מתכונים",
+    "root": "ת.כ.נ",
+    "level": "B1",
+    "topic": "food",
+    "ex": {
+      "he": "חיפשתי באינטרנט מתכון לשקשוקה, ומצאתי אחד ממש פשוט.",
+      "en": "I looked online for a shakshuka recipe and found a really simple one."
+    }
+  },
+  {
+    "id": "vd_sheeriyot",
+    "he": "שאריות",
+    "tr": "she'eriyót",
+    "en": "leftovers",
+    "enAlt": [
+      "remains",
+      "scraps"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "root": "ש.א.ר",
+    "level": "B2",
+    "topic": "food",
+    "ex": {
+      "he": "נשארו הרבה שאריות מהחג, אז לא צריך לבשל השבוע.",
+      "en": "There are lots of leftovers from the holiday, so there's no need to cook this week."
+    },
+    "note": "Usually plural; the singular שארית means \"remainder\". Same root as להישאר (to remain)."
+  },
+  {
+    "id": "vd_mangal",
+    "he": "מנגל",
+    "tr": "mangál",
+    "en": "barbecue (grill)",
+    "enAlt": [
+      "BBQ",
+      "grill"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מנגלים",
+    "level": "A2",
+    "topic": "food",
+    "ex": {
+      "he": "ביום העצמאות כל המשפחה עושה מנגל בפארק.",
+      "en": "On Independence Day the whole family has a barbecue in the park."
+    },
+    "note": "לעשות מנגל = to have a barbecue. Grilled meat is בשר על האש."
+  },
+  {
+    "id": "vd_metubal",
+    "he": "מתובל",
+    "tr": "metubál",
+    "en": "seasoned; spiced",
+    "enAlt": [
+      "flavored"
+    ],
+    "pos": "adj",
+    "root": "ת.ב.ל",
+    "level": "B2",
+    "topic": "food",
+    "ex": {
+      "he": "העוף היה מתובל מדי בשבילי, אבל הילדים דווקא אהבו אותו.",
+      "en": "The chicken was too heavily seasoned for me, but the kids actually loved it."
+    },
+    "note": "Same root as תבלין (spice) and לתבל (to season)."
+  },
+  {
+    "id": "vd_kniyot",
+    "he": "קניות",
+    "tr": "kniyót",
+    "en": "shopping",
+    "enAlt": [
+      "groceries",
+      "purchases"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "root": "ק.נ.ה",
+    "level": "A2",
+    "topic": "shopping",
+    "ex": {
+      "he": "אני עושה קניות גדולות פעם בשבוע, בדרך כלל ביום חמישי.",
+      "en": "I do a big shop once a week, usually on Thursday."
+    },
+    "note": "Plural of קנייה (a purchase). לעשות קניות = to do the shopping."
+  },
+  {
+    "id": "vd_kanyon",
+    "he": "קניון",
+    "tr": "kanyón",
+    "en": "shopping mall",
+    "enAlt": [
+      "mall"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "קניונים",
+    "root": "ק.נ.ה",
+    "level": "A2",
+    "topic": "shopping",
+    "ex": {
+      "he": "בימים חמים אנחנו הולכים לקניון בגלל המזגן.",
+      "en": "On hot days we go to the mall because of the air conditioning."
+    },
+    "note": "Same root as לקנות (to buy)."
+  },
+  {
+    "id": "vd_lehakhzir",
+    "he": "להחזיר",
+    "tr": "lehakhzír",
+    "en": "to return (something)",
+    "enAlt": [
+      "to give back",
+      "to bring back"
+    ],
+    "pos": "verb",
+    "root": "ח.ז.ר",
+    "binyan": "hifil",
+    "gov": "את",
+    "level": "A2",
+    "topic": "shopping",
+    "ex": {
+      "he": "אני רוצה להחזיר את החולצה הזאת, היא קטנה עליי.",
+      "en": "I want to return this shirt, it's too small for me."
+    },
+    "note": "Same root as לחזור (to come back). Careful: as slang, קטן עליי means \"easy for me\"."
+  },
+  {
+    "id": "vd_hekhzer",
+    "he": "החזר",
+    "tr": "hekhzér",
+    "en": "refund",
+    "enAlt": [
+      "reimbursement",
+      "repayment"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "החזרים",
+    "root": "ח.ז.ר",
+    "level": "B2",
+    "topic": "shopping",
+    "ex": {
+      "he": "אמרו לי שאין החזר כספי, רק זיכוי לחנות.",
+      "en": "They told me there's no cash refund, only store credit."
+    },
+    "note": "החזר כספי = money back; החזר מס = tax refund."
+  },
+  {
+    "id": "vd_zikui",
+    "he": "זיכוי",
+    "tr": "zikúy",
+    "en": "store credit",
+    "enAlt": [
+      "credit note",
+      "credit"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "זיכויים",
+    "root": "ז.כ.ה",
+    "level": "B2",
+    "topic": "shopping",
+    "ex": {
+      "he": "קיבלתי זיכוי על המעיל, ואני צריכה להשתמש בו עד סוף השנה.",
+      "en": "I got store credit for the coat, and I have to use it by the end of the year."
+    },
+    "note": "Also a credit on a bank or card statement. In court, זיכוי = acquittal."
+  },
+  {
+    "id": "vd_lehakhlif",
+    "he": "להחליף",
+    "tr": "lehakhlíf",
+    "en": "to exchange, to change",
+    "enAlt": [
+      "to replace",
+      "to swap"
+    ],
+    "pos": "verb",
+    "root": "ח.ל.פ",
+    "binyan": "hifil",
+    "gov": "את",
+    "level": "B1",
+    "topic": "shopping",
+    "ex": {
+      "he": "אפשר להחליף את זה למידה אחרת? זה לא עולה עליי.",
+      "en": "Can I exchange this for another size? It doesn't fit me."
+    },
+    "note": "לא עולה עליי = doesn't fit me (lit. doesn't go up on me). Also להחליף בגדים = to change clothes."
+  },
+  {
+    "id": "vd_hakhlafa",
+    "he": "החלפה",
+    "tr": "hakhlafá",
+    "en": "exchange",
+    "enAlt": [
+      "replacement",
+      "swap"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "החלפות",
+    "root": "ח.ל.פ",
+    "level": "B1",
+    "topic": "shopping",
+    "ex": {
+      "he": "החלפה רק עם קבלה ותוך שבועיים מיום הקנייה.",
+      "en": "Exchanges only with a receipt and within two weeks of purchase."
+    },
+    "note": "פתק החלפה = gift receipt (lit. exchange note); ask for one when you buy a present."
+  },
+  {
+    "id": "vd_kabala",
+    "he": "קבלה",
+    "tr": "kabalá",
+    "en": "receipt",
+    "enAlt": [
+      "sales slip"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "קבלות",
+    "root": "ק.ב.ל",
+    "level": "A2",
+    "topic": "shopping",
+    "ex": {
+      "he": "תשמור את הקבלה, אולי תצטרך להחזיר את המכשיר.",
+      "en": "Keep the receipt, you might need to return the device."
+    },
+    "note": "Same root as לקבל (to receive). קבלת קהל = office hours for the public."
+  },
+  {
+    "id": "vd_mida",
+    "he": "מידה",
+    "tr": "midá",
+    "en": "size",
+    "enAlt": [
+      "measurement"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "מידות",
+    "root": "מ.ד.ד",
+    "level": "A2",
+    "topic": "shopping",
+    "ex": {
+      "he": "יש לכם את הנעליים האלה במידה ארבעים ושתיים?",
+      "en": "Do you have these shoes in size 42?"
+    },
+    "note": "באיזו מידה? = what size? במידה = in moderation."
+  },
+  {
+    "id": "vd_limdod",
+    "he": "למדוד",
+    "tr": "limdód",
+    "en": "to try on; to measure",
+    "enAlt": [
+      "to try (clothes)",
+      "to measure"
+    ],
+    "pos": "verb",
+    "root": "מ.ד.ד",
+    "binyan": "paal",
+    "gov": "את",
+    "level": "B1",
+    "topic": "shopping",
+    "ex": {
+      "he": "אפשר למדוד את השמלה? איפה תאי המדידה?",
+      "en": "Can I try on the dress? Where are the fitting rooms?"
+    },
+    "note": "In shops למדוד = to try on clothes; למדוד חום = to take a temperature."
+  },
+  {
+    "id": "vd_hanakha",
+    "he": "הנחה",
+    "tr": "hanakhá",
+    "en": "discount",
+    "enAlt": [
+      "reduction"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "הנחות",
+    "level": "A2",
+    "topic": "shopping",
+    "ex": {
+      "he": "יש הנחה לסטודנטים? יש לי תעודת סטודנט בתיק.",
+      "en": "Is there a student discount? I have a student card in my bag."
+    },
+    "note": "לתת הנחה = to give a discount; תעשה לי הנחה? = will you give me a discount?"
+  },
+  {
+    "id": "vd_yakar",
+    "he": "יקר",
+    "tr": "yakár",
+    "en": "expensive",
+    "enAlt": [
+      "costly",
+      "dear"
+    ],
+    "pos": "adj",
+    "root": "י.ק.ר",
+    "level": "A2",
+    "topic": "shopping",
+    "ex": {
+      "he": "החיים בתל אביב יקרים, במיוחד שכר הדירה.",
+      "en": "Life in Tel Aviv is expensive, especially the rent."
+    },
+    "note": "Also \"dear\" in letters: יקרים שלי = my dear ones. Cheap = זול."
+  },
+  {
+    "id": "vd_yoker_hamikhya",
+    "he": "יוקר המחיה",
+    "tr": "yóker hamikhyá",
+    "en": "the cost of living",
+    "enAlt": [
+      "living costs"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "root": "י.ק.ר",
+    "level": "B2",
+    "topic": "shopping",
+    "ex": {
+      "he": "כולם מדברים על יוקר המחיה, אבל המחירים רק עולים.",
+      "en": "Everyone talks about the cost of living, but prices just keep going up."
+    },
+    "note": "יוקר = expensiveness; מחיה = livelihood. A phrase you'll hear constantly on the news."
+  },
+  {
+    "id": "vd_mokher",
+    "he": "מוכר",
+    "tr": "mokhér",
+    "en": "salesperson, seller",
+    "enAlt": [
+      "shop assistant",
+      "vendor"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מוכרים",
+    "root": "מ.כ.ר",
+    "level": "B1",
+    "topic": "shopping",
+    "ex": {
+      "he": "המוכר בחנות עזר לי לבחור מתנה לאמא שלי.",
+      "en": "The salesman in the shop helped me choose a present for my mother."
+    },
+    "note": "Feminine: מוכרת. Same spelling, different word: מוכר (mukár) = familiar (זה נשמע לי מוכר)."
+  },
+  {
+    "id": "vd_mekhira",
+    "he": "מכירה",
+    "tr": "mekhirá",
+    "en": "sale (selling)",
+    "enAlt": [
+      "selling"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "מכירות",
+    "root": "מ.כ.ר",
+    "level": "B1",
+    "topic": "shopping",
+    "ex": {
+      "he": "בסוף העונה יש מכירה גדולה, ואפשר למצוא בגדים בחצי מחיר.",
+      "en": "At the end of the season there's a big sale, and you can find clothes at half price."
+    },
+    "note": "למכירה = for sale; סוף עונה = end-of-season sale."
+  },
+  {
+    "id": "vd_mivtsa",
+    "he": "מבצע",
+    "tr": "mivtsá",
+    "en": "special offer; sale",
+    "enAlt": [
+      "deal",
+      "promotion"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מבצעים",
+    "root": "ב.צ.ע",
+    "level": "A2",
+    "topic": "shopping",
+    "ex": {
+      "he": "יש מבצע על הקפה: שתי חבילות במחיר של אחת.",
+      "en": "There's a deal on coffee: two packs for the price of one."
+    },
+    "note": "במבצע = on special offer; 1+1 = buy one, get one free."
+  },
+  {
+    "id": "vd_lishloakh",
+    "he": "לשלוח",
+    "tr": "lishlóakh",
+    "en": "to send",
+    "enAlt": [
+      "to ship",
+      "to mail"
+    ],
+    "pos": "verb",
+    "root": "ש.ל.ח",
+    "binyan": "paal",
+    "gov": "את",
+    "level": "A2",
+    "topic": "shopping",
+    "ex": {
+      "he": "המוכר אמר שהוא ישלח לי את ההזמנה עד יום חמישי.",
+      "en": "The seller said he'd send me the order by Thursday."
+    },
+    "note": "לשלוח הודעה = to send a message; משלוח = delivery."
+  },
+  {
+    "id": "vd_mezuman",
+    "he": "מזומן",
+    "tr": "mezumán",
+    "en": "cash",
+    "enAlt": [
+      "ready money"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מזומנים",
+    "root": "ז.מ.נ",
+    "level": "A2",
+    "topic": "shopping",
+    "ex": {
+      "he": "בשוק הרבה דוכנים מעדיפים מזומן, אבל היום אפשר לשלם גם באפליקציה.",
+      "en": "At the market many stalls prefer cash, but these days you can also pay with an app."
+    },
+    "note": "במזומן = in cash; באשראי = by card. Same root as להזמין (to order)."
+  },
+  {
+    "id": "vd_leshalem",
+    "he": "לשלם",
+    "tr": "leshalém",
+    "en": "to pay",
+    "enAlt": [
+      "to pay for"
+    ],
+    "pos": "verb",
+    "root": "ש.ל.מ",
+    "binyan": "piel",
+    "gov": "על",
+    "level": "A2",
+    "topic": "shopping",
+    "ex": {
+      "he": "שילמתי יותר מדי על התיקון של המזגן, ועדיין הוא לא עובד.",
+      "en": "I paid way too much for the AC repair, and it still doesn't work."
+    },
+    "note": "לשלם על = to pay for something; לשלם ל = to pay someone."
+  },
+  {
+    "id": "vd_tashlum",
+    "he": "תשלום",
+    "tr": "tashlúm",
+    "en": "payment",
+    "enAlt": [
+      "installment",
+      "charge"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "תשלומים",
+    "root": "ש.ל.מ",
+    "level": "B1",
+    "topic": "shopping",
+    "ex": {
+      "he": "אפשר לחלק את התשלום לשלושה תשלומים בלי ריבית?",
+      "en": "Can I split the payment into three installments without interest?"
+    },
+    "note": "בתשלומים = in installments, very common in Israeli shops."
+  },
+  {
+    "id": "vd_akhrayut",
+    "he": "אחריות",
+    "tr": "akhrayút",
+    "en": "warranty; responsibility",
+    "enAlt": [
+      "guarantee"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "root": "א.ח.ר",
+    "level": "B2",
+    "topic": "shopping",
+    "ex": {
+      "he": "למכונה יש שנתיים אחריות, אז אל תזרוק את הקבלה.",
+      "en": "The machine has a two-year warranty, so don't throw away the receipt."
+    },
+    "note": "Also \"responsibility\": זה באחריותך = that's your responsibility."
+  },
+  {
+    "id": "vd_khinam",
+    "he": "חינם",
+    "tr": "khinám",
+    "en": "free (of charge)",
+    "enAlt": [
+      "for free",
+      "gratis"
+    ],
+    "pos": "adv",
+    "level": "A2",
+    "topic": "shopping",
+    "ex": {
+      "he": "הכניסה למוזיאון הזה חינם ביום שלישי אחרי ארבע.",
+      "en": "Entry to this museum is free on Tuesdays after four."
+    },
+    "note": "בחינם = for free. \"Free\" in the sense of not busy is פנוי or חופשי."
+  },
+  {
+    "id": "vd_lehitmakeakh",
+    "he": "להתמקח",
+    "tr": "lehitmakéakh",
+    "en": "to haggle, to bargain",
+    "enAlt": [
+      "to negotiate (a price)"
+    ],
+    "pos": "verb",
+    "root": "מ.ק.ח",
+    "binyan": "hitpael",
+    "gov": "עם",
+    "level": "B2",
+    "topic": "shopping",
+    "ex": {
+      "he": "ניסיתי להתמקח עם המוכר בשוק הפשפשים, והוא הוריד עשרים שקל.",
+      "en": "I tried to haggle with the seller at the flea market, and he knocked off twenty shekels."
+    },
+    "note": "A useful line: תוריד קצת? = can you go a bit lower?"
+  },
+  {
+    "id": "vd_latus",
+    "he": "לטוס",
+    "tr": "latús",
+    "en": "to fly",
+    "enAlt": [
+      "to travel by plane"
+    ],
+    "pos": "verb",
+    "root": "ט.ו.ס",
+    "binyan": "paal",
+    "gov": "ל",
+    "level": "A2",
+    "topic": "travel",
+    "ex": {
+      "he": "אנחנו טסים לאיטליה בפסח, כבר קנינו כרטיסים.",
+      "en": "We're flying to Italy for Passover; we've already bought tickets."
+    },
+    "note": "Israelis say לטוס לחו״ל for any trip abroad. Hollow root: טס, טסתי, אטוס."
+  },
+  {
+    "id": "vd_tisat_hemshekh",
+    "he": "טיסת המשך",
+    "tr": "tisát hemshékh",
+    "en": "connecting flight",
+    "enAlt": [
+      "connection"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "טיסות המשך",
+    "root": "ט.ו.ס",
+    "level": "B2",
+    "topic": "travel",
+    "ex": {
+      "he": "יש לנו רק שעה בין הטיסות, מקווה שלא נפספס את טיסת ההמשך.",
+      "en": "We only have an hour between flights; hopefully we won't miss the connecting flight."
+    },
+    "note": "המשך = continuation. A direct flight is טיסה ישירה."
+  },
+  {
+    "id": "vd_khul",
+    "he": "חו״ל",
+    "tr": "khul",
+    "en": "abroad",
+    "enAlt": [
+      "overseas",
+      "foreign countries"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "level": "A2",
+    "topic": "travel",
+    "ex": {
+      "he": "הם גרו חמש שנים בחו״ל וחזרו לארץ בשנה שעברה.",
+      "en": "They lived abroad for five years and came back to Israel last year."
+    },
+    "note": "Short for חוץ לארץ (\"outside the Land\"). בחו״ל = abroad (location), לחו״ל = abroad (direction). הארץ = Israel."
+  },
+  {
+    "id": "vd_tsimer",
+    "he": "צימר",
+    "tr": "tsímer",
+    "en": "guest cabin (zimmer)",
+    "enAlt": [
+      "B&B",
+      "holiday cabin"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "צימרים",
+    "level": "B1",
+    "topic": "travel",
+    "ex": {
+      "he": "שכרנו צימר בגליל לסוף שבוע רומנטי בלי הילדים.",
+      "en": "We rented a zimmer in the Galilee for a romantic weekend without the kids."
+    },
+    "note": "From German Zimmer: a rural cabin, often with a jacuzzi, and a classic Israeli getaway."
+  },
+  {
+    "id": "vd_letayel",
+    "he": "לטייל",
+    "tr": "letayél",
+    "en": "to travel (for fun); to hike",
+    "enAlt": [
+      "to tour",
+      "to go for a walk"
+    ],
+    "pos": "verb",
+    "root": "ט.י.ל",
+    "binyan": "piel",
+    "level": "A2",
+    "topic": "travel",
+    "ex": {
+      "he": "אחרי התואר היא טיילה חצי שנה בדרום אמריקה.",
+      "en": "After her degree she traveled around South America for six months."
+    },
+    "note": "לטייל = to travel for pleasure, hike or stroll; לנסוע = to go somewhere by vehicle."
+  },
+  {
+    "id": "vd_tiyul",
+    "he": "טיול",
+    "tr": "tiyúl",
+    "en": "trip; hike",
+    "enAlt": [
+      "excursion",
+      "outing"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "טיולים",
+    "root": "ט.י.ל",
+    "level": "A2",
+    "topic": "travel",
+    "ex": {
+      "he": "בשבת יצאנו לטיול בנחל, והמים היו קרים מאוד.",
+      "en": "On Saturday we went on a hike along a stream, and the water was very cold."
+    },
+    "note": "לצאת לטיול = to go on a trip or hike; טיול שנתי = the annual school trip."
+  },
+  {
+    "id": "vd_khufsha",
+    "he": "חופשה",
+    "tr": "khufshá",
+    "en": "vacation",
+    "enAlt": [
+      "holiday",
+      "leave (from work)"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "חופשות",
+    "root": "ח.פ.ש",
+    "level": "A2",
+    "topic": "travel",
+    "ex": {
+      "he": "לקחתי שבוע חופשה מהעבודה, ואני לא עונה למיילים.",
+      "en": "I took a week off work, and I'm not answering emails."
+    },
+    "note": "חופשת לידה = maternity leave. The casual word is חופש (החופש הגדול = the summer school break)."
+  },
+  {
+    "id": "vd_khofshi",
+    "he": "חופשי",
+    "tr": "khofshí",
+    "en": "free (not busy, unrestricted)",
+    "enAlt": [
+      "available",
+      "off (work)"
+    ],
+    "pos": "adj",
+    "root": "ח.פ.ש",
+    "level": "B1",
+    "topic": "travel",
+    "ex": {
+      "he": "אתה חופשי מחר בערב? רציתי להזמין אותך לארוחה.",
+      "en": "Are you free tomorrow evening? I wanted to invite you to dinner."
+    },
+    "note": "Not \"free of charge\" (that's חינם). יום חופשי = a day off. Feminine: חופשית."
+  },
+  {
+    "id": "vd_bitul",
+    "he": "ביטול",
+    "tr": "bitúl",
+    "en": "cancellation",
+    "enAlt": [
+      "canceling"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "ביטולים",
+    "root": "ב.ט.ל",
+    "level": "B1",
+    "topic": "travel",
+    "ex": {
+      "he": "בהזמנה הזאת אין דמי ביטול עד יומיים לפני ההגעה.",
+      "en": "With this booking there's no cancellation fee up to two days before arrival."
+    },
+    "note": "דמי ביטול = cancellation fee; לבטל = to cancel."
+  },
+  {
+    "id": "vd_ir",
+    "he": "עיר",
+    "tr": "ir",
+    "en": "city",
+    "enAlt": [
+      "town"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "ערים",
+    "root": "ע.י.ר",
+    "level": "A2",
+    "topic": "travel",
+    "ex": {
+      "he": "גרנו שנתיים בעיר קטנה בצפון, ואז עברנו לתל אביב.",
+      "en": "We lived for two years in a small town in the north, and then moved to Tel Aviv."
+    },
+    "note": "Feminine despite having no ending (עיר גדולה); the plural is ערים. העיר העתיקה = the Old City."
+  },
+  {
+    "id": "vd_lehitareakh",
+    "he": "להתארח",
+    "tr": "lehitaré'akh",
+    "en": "to stay (as a guest)",
+    "enAlt": [
+      "to be hosted",
+      "to stay over"
+    ],
+    "pos": "verb",
+    "root": "א.ר.ח",
+    "binyan": "hitpael",
+    "gov": "אצל",
+    "level": "B1",
+    "topic": "travel",
+    "ex": {
+      "he": "בחג אנחנו מתארחים אצל המשפחה של אשתי בירושלים.",
+      "en": "For the holiday we're staying with my wife's family in Jerusalem."
+    },
+    "note": "להתארח אצל = to stay at someone's place; לארח = to host; אורח = guest."
+  },
+  {
+    "id": "vd_mitan",
+    "he": "מטען",
+    "tr": "mit'án",
+    "en": "charger; luggage",
+    "enAlt": [
+      "cargo",
+      "baggage"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מטענים",
+    "root": "ט.ע.נ",
+    "level": "B1",
+    "topic": "travel",
+    "ex": {
+      "he": "שכחתי את המטען של הטלפון במלון, ואין לי סוללה.",
+      "en": "I left my phone charger at the hotel, and my battery is dead."
+    },
+    "note": "Both a phone charger and luggage or cargo: מטען יד = hand luggage. Same root as לטעון (to charge, to load)."
+  },
+  {
+    "id": "vd_yaad",
+    "he": "יעד",
+    "tr": "yá'ad",
+    "en": "destination",
+    "enAlt": [
+      "target",
+      "goal"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "יעדים",
+    "root": "י.ע.ד",
+    "level": "B2",
+    "topic": "travel",
+    "ex": {
+      "he": "יוון היא יעד פופולרי מאוד בקרב ישראלים בקיץ.",
+      "en": "Greece is a very popular destination for Israelis in the summer."
+    },
+    "note": "Also a goal or target at work: להגיע ליעד = to reach the target."
+  },
+  {
+    "id": "vd_rav_kav",
+    "he": "רב-קו",
+    "tr": "rav-káv",
+    "en": "Rav-Kav (public transport card)",
+    "enAlt": [
+      "travel card",
+      "transit card"
+    ],
+    "alt": [
+      "רב קו"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "level": "A2",
+    "topic": "transport",
+    "ex": {
+      "he": "צריך לטעון את הרב-קו לפני שעולים לאוטובוס.",
+      "en": "You need to top up your Rav-Kav before you get on the bus."
+    },
+    "note": "The smart card for buses, trains and the light rail. לטעון את הרב-קו = to load (top up) the card; you can also do it in an app."
+  },
+  {
+    "id": "vd_liton",
+    "he": "לטעון",
+    "tr": "lit'ón",
+    "en": "to charge; to load (a card)",
+    "enAlt": [
+      "to top up",
+      "to claim (argue)"
+    ],
+    "pos": "verb",
+    "root": "ט.ע.נ",
+    "binyan": "paal",
+    "gov": "את",
+    "level": "B1",
+    "topic": "transport",
+    "ex": {
+      "he": "אני חייב לטעון את הטלפון, יש לך מטען?",
+      "en": "I have to charge my phone, do you have a charger?"
+    },
+    "note": "Also \"to claim, to argue\": הוא טוען ש... = he claims that... Same root as מטען (charger)."
+  },
+  {
+    "id": "vd_takhana",
+    "he": "תחנה",
+    "tr": "takhaná",
+    "en": "station; stop",
+    "enAlt": [
+      "bus stop",
+      "train station"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "תחנות",
+    "root": "ח.נ.ה",
+    "level": "A2",
+    "topic": "transport",
+    "ex": {
+      "he": "באיזו תחנה אני צריך לרדת כדי להגיע לבית החולים?",
+      "en": "Which stop do I need to get off at to get to the hospital?"
+    },
+    "note": "תחנת אוטובוס / רכבת / דלק = bus stop / train station / gas station. Same root as לחנות (to park)."
+  },
+  {
+    "id": "vd_lakhanot",
+    "he": "לחנות",
+    "tr": "lakhanót",
+    "en": "to park",
+    "enAlt": [
+      "to park (a car)"
+    ],
+    "pos": "verb",
+    "root": "ח.נ.ה",
+    "binyan": "paal",
+    "level": "B1",
+    "topic": "transport",
+    "ex": {
+      "he": "אי אפשר לחנות פה, זה רק לתושבי השכונה.",
+      "en": "You can't park here, it's only for neighborhood residents."
+    },
+    "note": "Don't confuse with חנות (khanút) = a shop."
+  },
+  {
+    "id": "vd_khanaya",
+    "he": "חנייה",
+    "tr": "khanayá",
+    "en": "parking; parking space",
+    "enAlt": [
+      "parking spot"
+    ],
+    "alt": [
+      "חניה"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "חניות",
+    "root": "ח.נ.ה",
+    "level": "A2",
+    "topic": "transport",
+    "ex": {
+      "he": "לקח לי חצי שעה למצוא חנייה ליד הבית.",
+      "en": "It took me half an hour to find parking near home."
+    },
+    "note": "Also spelled חניה. חניון = a parking lot."
+  },
+  {
+    "id": "vd_linsoa",
+    "he": "לנסוע",
+    "tr": "linsó'a",
+    "en": "to go (by vehicle); to travel",
+    "enAlt": [
+      "to drive",
+      "to ride",
+      "to leave (on a trip)"
+    ],
+    "pos": "verb",
+    "root": "נ.ס.ע",
+    "binyan": "paal",
+    "gov": "ל",
+    "level": "A2",
+    "topic": "transport",
+    "ex": {
+      "he": "אני נוסעת לעבודה ברכבת, כי בבוקר יש פקקים נוראיים.",
+      "en": "I go to work by train, because in the morning there are terrible traffic jams."
+    },
+    "note": "Use לנסוע, not ללכת, for any trip by car, bus or train. סע! = go! (drive!)."
+  },
+  {
+    "id": "vd_nesia",
+    "he": "נסיעה",
+    "tr": "nesi'á",
+    "en": "ride; trip",
+    "enAlt": [
+      "drive",
+      "journey",
+      "commute"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "נסיעות",
+    "root": "נ.ס.ע",
+    "level": "A2",
+    "topic": "transport",
+    "ex": {
+      "he": "נסיעה טובה! תתקשר אליי כשאתה מגיע הביתה, טוב?",
+      "en": "Have a good trip! Call me when you get home, OK?"
+    },
+    "note": "נסיעה טובה! = have a safe trip. ביטוח נסיעות = travel insurance."
+  },
+  {
+    "id": "vd_nosea",
+    "he": "נוסע",
+    "tr": "nosé'a",
+    "en": "passenger",
+    "enAlt": [
+      "traveler",
+      "rider"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "נוסעים",
+    "root": "נ.ס.ע",
+    "level": "B1",
+    "topic": "transport",
+    "ex": {
+      "he": "הנהג ביקש מכל הנוסעים להתקדם אחורה, כי האוטובוס היה מלא.",
+      "en": "The driver asked all the passengers to move to the back, because the bus was full."
+    },
+    "note": "Feminine: נוסעת. Bus drivers really do shout תתקדמו אחורה! (move forward to the back!)."
+  },
+  {
+    "id": "vd_linhog",
+    "he": "לנהוג",
+    "tr": "linhóg",
+    "en": "to drive",
+    "enAlt": [
+      "to be the driver"
+    ],
+    "pos": "verb",
+    "root": "נ.ה.ג",
+    "binyan": "paal",
+    "level": "B1",
+    "topic": "transport",
+    "ex": {
+      "he": "אני לא אוהבת לנהוג בתל אביב, אין איפה לחנות.",
+      "en": "I don't like driving in Tel Aviv, there's nowhere to park."
+    },
+    "note": "לנהוג = to be at the wheel; for \"go by car\" use לנסוע. נהג = driver; רישיון נהיגה = driver's license."
+  },
+  {
+    "id": "vd_pkak",
+    "he": "פקק",
+    "tr": "pkak",
+    "en": "traffic jam",
+    "enAlt": [
+      "cork",
+      "bottle cap"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "פקקים",
+    "root": "פ.ק.ק",
+    "level": "B1",
+    "topic": "transport",
+    "ex": {
+      "he": "נתקעתי בפקק בכניסה לעיר כמעט שעה, אז איחרתי לפגישה.",
+      "en": "I was stuck in a traffic jam at the entrance to the city for almost an hour, so I was late for the meeting."
+    },
+    "note": "Also a cork or bottle cap. לעמוד בפקק = to be stuck in traffic."
+  },
+  {
+    "id": "vd_lifnot",
+    "he": "לפנות",
+    "tr": "lifnót",
+    "en": "to turn; to contact",
+    "enAlt": [
+      "to address",
+      "to approach (formally)"
+    ],
+    "pos": "verb",
+    "root": "פ.נ.ה",
+    "binyan": "paal",
+    "gov": "ל",
+    "level": "B1",
+    "topic": "transport",
+    "ex": {
+      "he": "תפנה שמאלה אחרי הכיכר, ואז תחפש חנייה.",
+      "en": "Turn left after the roundabout, and then look for parking."
+    },
+    "note": "In formal Hebrew לפנות ל... = to contact (an office): לפנות לשירות הלקוחות. Same root as פנוי (free)."
+  },
+  {
+    "id": "vd_kikar",
+    "he": "כיכר",
+    "tr": "kikár",
+    "en": "roundabout; square (plaza)",
+    "enAlt": [
+      "traffic circle",
+      "plaza"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "כיכרות",
+    "level": "B1",
+    "topic": "transport",
+    "ex": {
+      "he": "בכיכר השנייה צא ביציאה השלישית, לכיוון הים.",
+      "en": "At the second roundabout take the third exit, toward the sea."
+    },
+    "note": "Feminine (כיכר גדולה); plural כיכרות."
+  },
+  {
+    "id": "vd_monit",
+    "he": "מונית",
+    "tr": "monít",
+    "en": "taxi",
+    "enAlt": [
+      "cab"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "מוניות",
+    "level": "A2",
+    "topic": "transport",
+    "ex": {
+      "he": "הזמנתי מונית באפליקציה, היא תגיע בעוד חמש דקות.",
+      "en": "I ordered a taxi through the app; it'll arrive in five minutes."
+    },
+    "note": "מונית שירות = a shared taxi on a fixed route. Ask for the meter: עם מונה, בבקשה."
+  },
+  {
+    "id": "vd_rakevet",
+    "he": "רכבת",
+    "tr": "rakévet",
+    "en": "train",
+    "enAlt": [
+      "railway"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "רכבות",
+    "root": "ר.כ.ב",
+    "level": "A2",
+    "topic": "transport",
+    "ex": {
+      "he": "הרכבת התעכבה עשרים דקות, אז פספסתי את האוטובוס.",
+      "en": "The train was twenty minutes late, so I missed the bus."
+    },
+    "note": "רכבת קלה = light rail. Same root as רכב (vehicle)."
+  },
+  {
+    "id": "vd_rekhev",
+    "he": "רכב",
+    "tr": "rékhev",
+    "en": "vehicle; car",
+    "enAlt": [
+      "automobile"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "רכבים",
+    "root": "ר.כ.ב",
+    "level": "B1",
+    "topic": "transport",
+    "ex": {
+      "he": "אנחנו משפחה עם רכב אחד, אז מתחלקים בו כל יום.",
+      "en": "We're a one-car family, so we share it every day."
+    },
+    "note": "More formal than אוטו. השכרת רכב = car rental. In formal Hebrew the plural is כלי רכב."
+  },
+  {
+    "id": "vd_delek",
+    "he": "דלק",
+    "tr": "délek",
+    "en": "fuel",
+    "enAlt": [
+      "gas",
+      "petrol"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "root": "ד.ל.ק",
+    "level": "B1",
+    "topic": "transport",
+    "ex": {
+      "he": "נגמר לי הדלק באמצע הכביש, איזו פדיחה.",
+      "en": "I ran out of gas in the middle of the road, how embarrassing."
+    },
+    "note": "תחנת דלק = gas station; לתדלק = to refuel. Same root as להדליק (to light, to turn on)."
+  },
+  {
+    "id": "vd_lefaspes",
+    "he": "לפספס",
+    "tr": "lefaspés",
+    "en": "to miss (a bus, a chance)",
+    "enAlt": [
+      "to miss out on"
+    ],
+    "pos": "verb",
+    "root": "פ.ס.פ.ס",
+    "binyan": "piel",
+    "gov": "את",
+    "register": "colloquial",
+    "level": "B1",
+    "topic": "transport",
+    "ex": {
+      "he": "פספסתי את הרכבת האחרונה, אז נשארתי לישון אצל חברים.",
+      "en": "I missed the last train, so I stayed over at friends'."
+    },
+    "note": "The everyday word for missing a bus, a call or an opportunity. Missing a person is להתגעגע."
+  },
+  {
+    "id": "vd_takhbura",
+    "he": "תחבורה ציבורית",
+    "tr": "takhburá tsiburít",
+    "en": "public transport",
+    "enAlt": [
+      "public transportation",
+      "transit"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "root": "ח.ב.ר",
+    "level": "B1",
+    "topic": "transport",
+    "ex": {
+      "he": "בשבת אין כמעט תחבורה ציבורית ברוב הערים.",
+      "en": "On Shabbat there's almost no public transport in most cities."
+    },
+    "note": "Plan Friday trips early: buses and trains stop on Friday afternoon and start again on Saturday evening."
+  },
+  {
+    "id": "vd_knas",
+    "he": "קנס",
+    "tr": "knas",
+    "en": "fine (penalty)",
+    "enAlt": [
+      "penalty",
+      "ticket"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "קנסות",
+    "root": "ק.נ.ס",
+    "level": "B1",
+    "topic": "transport",
+    "ex": {
+      "he": "אתמול קיבלתי קנס של העירייה על חנייה במקום אסור.",
+      "en": "Yesterday I got a fine from the municipality for parking in a no-parking spot."
+    },
+    "note": "Plural with -ות: קנסות. A parking ticket is also called a דו״ח (pronounced dokh)."
+  },
+  {
+    "id": "vd_maavar_khatsaya",
+    "he": "מעבר חצייה",
+    "tr": "ma'avár khatsayá",
+    "en": "crosswalk",
+    "enAlt": [
+      "pedestrian crossing",
+      "zebra crossing"
+    ],
+    "alt": [
+      "מעבר חציה"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מעברי חצייה",
+    "root": "ע.ב.ר",
+    "level": "B1",
+    "topic": "transport",
+    "ex": {
+      "he": "תחצו רק במעבר החצייה, הנהגים פה לא תמיד עוצרים.",
+      "en": "Only cross at the crosswalk; drivers here don't always stop."
+    },
+    "note": "מעבר = passage (from לעבור, to pass); לחצות = to cross."
+  },
+  {
+    "id": "vd_laakof",
+    "he": "לעקוף",
+    "tr": "la'akóf",
+    "en": "to overtake; to bypass",
+    "enAlt": [
+      "to pass (a car)",
+      "to get around"
+    ],
+    "pos": "verb",
+    "root": "ע.ק.פ",
+    "binyan": "paal",
+    "gov": "את",
+    "level": "B2",
+    "topic": "transport",
+    "ex": {
+      "he": "אסור לעקוף בקו לבן רצוף, זה מסוכן מאוד.",
+      "en": "You mustn't overtake across a solid white line; it's very dangerous."
+    },
+    "note": "Also figurative: לעקוף את התור = to cut the line; לעקוף את הפקק = to get around the traffic jam."
+  },
+  {
+    "id": "vd_panui",
+    "he": "פנוי",
+    "tr": "panúy",
+    "en": "free, available; vacant",
+    "enAlt": [
+      "unoccupied",
+      "single (unattached)"
+    ],
+    "pos": "adj",
+    "root": "פ.נ.ה",
+    "level": "B1",
+    "topic": "transport",
+    "ex": {
+      "he": "סליחה, המקום ליד החלון פנוי? אפשר לשבת?",
+      "en": "Excuse me, is the window seat free? Can I sit down?"
+    },
+    "note": "For seats, rooms and time: אני פנוי מחר = I'm free tomorrow. Also \"single\" (not in a relationship). Feminine: פנויה."
+  },
+  {
+    "id": "vd_rofe",
+    "he": "רופא",
+    "tr": "rofé",
+    "en": "doctor",
+    "enAlt": [
+      "physician",
+      "GP"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "רופאים",
+    "root": "ר.פ.א",
+    "level": "A2",
+    "topic": "health",
+    "ex": {
+      "he": "אני צריך ללכת לרופא, כבר שבוע שאני משתעל.",
+      "en": "I need to go to the doctor, I've been coughing for a week."
+    },
+    "note": "Feminine: רופאה. רופא משפחה = family doctor (GP); רופא שיניים = dentist."
+  },
+  {
+    "id": "vd_trufa",
+    "he": "תרופה",
+    "tr": "trufá",
+    "en": "medicine, medication",
+    "enAlt": [
+      "drug",
+      "cure"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "תרופות",
+    "root": "ר.פ.א",
+    "level": "A2",
+    "topic": "health",
+    "ex": {
+      "he": "צריך לקחת את התרופה שלוש פעמים ביום אחרי האוכל.",
+      "en": "You need to take the medicine three times a day after meals."
+    },
+    "note": "לקחת תרופה = to take medicine. Same root as רופא (doctor) and רפואה (medicine as a field)."
+  },
+  {
+    "id": "vd_mirpaa",
+    "he": "מרפאה",
+    "tr": "mirpa'á",
+    "en": "clinic",
+    "enAlt": [
+      "medical center"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "מרפאות",
+    "root": "ר.פ.א",
+    "level": "B1",
+    "topic": "health",
+    "ex": {
+      "he": "המרפאה של הקופה נמצאת ממש ליד הבית שלנו.",
+      "en": "The health-fund clinic is right next to our home."
+    },
+    "note": "Health-fund clinics have a nurse (אחות), family doctors and often a lab for blood tests."
+  },
+  {
+    "id": "vd_mirsham",
+    "he": "מרשם",
+    "tr": "mirshám",
+    "en": "prescription",
+    "enAlt": [
+      "script",
+      "Rx"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מרשמים",
+    "root": "ר.ש.מ",
+    "level": "B1",
+    "topic": "health",
+    "ex": {
+      "he": "את האנטיביוטיקה הזאת אפשר לקנות רק עם מרשם מהרופא.",
+      "en": "You can only buy this antibiotic with a doctor's prescription."
+    },
+    "note": "בלי מרשם = over the counter. Same root as להירשם (to register)."
+  },
+  {
+    "id": "vd_bet_mirkakhat",
+    "he": "בית מרקחת",
+    "tr": "beit mirkákhat",
+    "en": "pharmacy",
+    "enAlt": [
+      "drugstore",
+      "chemist's"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "בתי מרקחת",
+    "level": "A2",
+    "topic": "health",
+    "ex": {
+      "he": "אתה יודע אם יש בית מרקחת תורן שפתוח בשבת?",
+      "en": "Do you know if there's an on-duty pharmacy open on Shabbat?"
+    },
+    "note": "בית מרקחת תורן = the pharmacy on duty at night and on weekends. רוקח / רוקחת = pharmacist."
+  },
+  {
+    "id": "vd_livdok",
+    "he": "לבדוק",
+    "tr": "livdók",
+    "en": "to check, to examine",
+    "enAlt": [
+      "to test",
+      "to look into"
+    ],
+    "pos": "verb",
+    "root": "ב.ד.ק",
+    "binyan": "paal",
+    "gov": "את",
+    "level": "A2",
+    "topic": "health",
+    "ex": {
+      "he": "הרופאה בדקה את הגרון שלי ואמרה שזה רק וירוס.",
+      "en": "The doctor examined my throat and said it's just a virus."
+    },
+    "note": "Very common at work too: אני אבדוק ואחזור אליך = I'll check and get back to you."
+  },
+  {
+    "id": "vd_bdika",
+    "he": "בדיקה",
+    "tr": "bdiká",
+    "en": "test; check-up",
+    "enAlt": [
+      "examination",
+      "inspection"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "בדיקות",
+    "root": "ב.ד.ק",
+    "level": "B1",
+    "topic": "health",
+    "ex": {
+      "he": "צריך לעשות בדיקת דם בבוקר, לפני שאוכלים משהו.",
+      "en": "You need to do the blood test in the morning, before eating anything."
+    },
+    "note": "בדיקת דם = blood test; לעשות בדיקה = to have a test."
+  },
+  {
+    "id": "vd_keev",
+    "he": "כאב",
+    "tr": "ke'év",
+    "en": "pain",
+    "enAlt": [
+      "ache"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "כאבים",
+    "root": "כ.א.ב",
+    "level": "A2",
+    "topic": "health",
+    "ex": {
+      "he": "יש לי כאב ראש נוראי מאז הבוקר.",
+      "en": "I've had a terrible headache since this morning."
+    },
+    "note": "כאב ראש / בטן / גרון = headache / stomachache / sore throat. כאב ראש is also \"a hassle\"."
+  },
+  {
+    "id": "vd_likhov",
+    "he": "לכאוב",
+    "tr": "likh'óv",
+    "en": "to hurt",
+    "enAlt": [
+      "to ache",
+      "to be painful"
+    ],
+    "pos": "verb",
+    "root": "כ.א.ב",
+    "binyan": "paal",
+    "gov": "ל",
+    "level": "A2",
+    "topic": "health",
+    "ex": {
+      "he": "כואב לי הגב מאז שהזזנו את הספה.",
+      "en": "My back has been hurting since we moved the sofa."
+    },
+    "note": "The pattern is כואב לי + body part, and the verb agrees with it: כואב לי הראש, כואבת לי הבטן."
+  },
+  {
+    "id": "vd_khole",
+    "he": "חולה",
+    "tr": "kholé",
+    "en": "sick, ill; patient",
+    "enAlt": [
+      "unwell",
+      "a patient"
+    ],
+    "pos": "adj",
+    "root": "ח.ל.ה",
+    "level": "A2",
+    "topic": "health",
+    "ex": {
+      "he": "הבן שלי חולה היום, אז אני עובדת מהבית.",
+      "en": "My son is sick today, so I'm working from home."
+    },
+    "note": "The feminine is also written חולה (pronounced kholá). Slang: חולה על = crazy about (אני חולה על הסדרה הזאת)."
+  },
+  {
+    "id": "vd_makhala",
+    "he": "מחלה",
+    "tr": "makhalá",
+    "en": "illness, disease",
+    "enAlt": [
+      "sickness"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "מחלות",
+    "root": "ח.ל.ה",
+    "level": "B1",
+    "topic": "health",
+    "ex": {
+      "he": "בחורף יש הרבה מחלות בגן, והילדים כל הזמן בבית.",
+      "en": "In winter lots of bugs go around the kindergarten, and the kids are home all the time."
+    },
+    "note": "ימי מחלה = sick days; אישור מחלה = doctor's note for work."
+  },
+  {
+    "id": "vd_briut",
+    "he": "בריאות",
+    "tr": "briút",
+    "en": "health",
+    "enAlt": [
+      "wellbeing"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "root": "ב.ר.א",
+    "level": "B1",
+    "topic": "health",
+    "ex": {
+      "he": "אל תדאג בגלל העבודה, העיקר הבריאות וכל השאר יסתדר.",
+      "en": "Don't worry about work; health is what matters, and everything else will work out."
+    },
+    "note": "העיקר הבריאות = health is the main thing, a very common Israeli saying. Healthy = בריא."
+  },
+  {
+    "id": "vd_lehavri",
+    "he": "להבריא",
+    "tr": "lehavrí",
+    "en": "to recover, to get well",
+    "enAlt": [
+      "to get better",
+      "to heal"
+    ],
+    "pos": "verb",
+    "root": "ב.ר.א",
+    "binyan": "hifil",
+    "level": "B2",
+    "topic": "health",
+    "ex": {
+      "he": "לקח לי כמעט שבועיים להבריא אחרי השפעת הזאת.",
+      "en": "It took me almost two weeks to recover from that flu."
+    },
+    "note": "תבריא / תבריאי! = get well! (to a man / a woman). שפעת = flu."
+  },
+  {
+    "id": "vd_khom",
+    "he": "חום",
+    "tr": "khom",
+    "en": "fever; heat",
+    "enAlt": [
+      "temperature"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "root": "ח.מ.מ",
+    "level": "A2",
+    "topic": "health",
+    "ex": {
+      "he": "יש לה חום כבר יומיים, אולי כדאי לקחת אותה לרופא.",
+      "en": "She's had a fever for two days; maybe we should take her to the doctor."
+    },
+    "note": "Also \"heat\": בגלל החום = because of the heat. למדוד חום = to take someone's temperature. Same root as חם (hot)."
+  },
+  {
+    "id": "vd_shiul",
+    "he": "שיעול",
+    "tr": "shi'úl",
+    "en": "cough",
+    "enAlt": [
+      "coughing"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "root": "ש.ע.ל",
+    "level": "B1",
+    "topic": "health",
+    "ex": {
+      "he": "יש לי שיעול כבר שבוע, והוא לא עובר.",
+      "en": "I've had a cough for a week, and it isn't going away."
+    },
+    "note": "להשתעל = to cough. סירופ נגד שיעול = cough syrup."
+  },
+  {
+    "id": "vd_hitstanenut",
+    "he": "הצטננות",
+    "tr": "hitstanenút",
+    "en": "a cold",
+    "enAlt": [
+      "common cold",
+      "chill"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "root": "צ.נ.נ",
+    "level": "B2",
+    "topic": "health",
+    "ex": {
+      "he": "זאת רק הצטננות, תשתה הרבה ותנוח כמה ימים.",
+      "en": "It's just a cold; drink a lot and rest for a few days."
+    },
+    "note": "להצטנן = to catch a cold; אני מצונן / מצוננת = I have a cold."
+  },
+  {
+    "id": "vd_khadar_miyun",
+    "he": "חדר מיון",
+    "tr": "khadár miyún",
+    "en": "emergency room",
+    "enAlt": [
+      "ER",
+      "A&E"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "חדרי מיון",
+    "level": "B1",
+    "topic": "health",
+    "ex": {
+      "he": "חיכינו בחדר המיון חמש שעות עד שרופא ראה אותנו.",
+      "en": "We waited in the ER for five hours until a doctor saw us."
+    },
+    "note": "Often just מיון: הוא במיון = he's in the ER. מיון literally means \"sorting\" (triage)."
+  },
+  {
+    "id": "vd_skharkhoret",
+    "he": "סחרחורת",
+    "tr": "skharkhóret",
+    "en": "dizziness",
+    "enAlt": [
+      "vertigo",
+      "lightheadedness"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "level": "B2",
+    "topic": "health",
+    "ex": {
+      "he": "קמתי מהר מדי מהמיטה, והייתה לי סחרחורת.",
+      "en": "I got out of bed too fast and felt dizzy."
+    },
+    "note": "יש לי סחרחורת = I feel dizzy; מסוחרר = dizzy."
+  },
+  {
+    "id": "vd_bkhila",
+    "he": "בחילה",
+    "tr": "bkhilá",
+    "en": "nausea",
+    "enAlt": [
+      "sick feeling",
+      "disgust"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "בחילות",
+    "level": "B2",
+    "topic": "health",
+    "ex": {
+      "he": "יש לי בחילה מהנסיעה, אפשר לעצור רגע?",
+      "en": "I feel sick from the drive; can we stop for a moment?"
+    },
+    "note": "Also disgust: זה עושה לי בחילה = it makes me sick."
+  },
+  {
+    "id": "vd_alergi",
+    "he": "אלרגי",
+    "tr": "alérgi",
+    "en": "allergic",
+    "enAlt": [
+      "having an allergy"
+    ],
+    "pos": "adj",
+    "level": "B1",
+    "topic": "health",
+    "ex": {
+      "he": "אני אלרגית לאגוזים, יש אגוזים בעוגה הזאת?",
+      "en": "I'm allergic to nuts; are there nuts in this cake?"
+    },
+    "note": "אלרגי ל = allergic to; feminine אלרגית; אלרגיה = allergy."
+  },
+  {
+    "id": "vd_tofaat_levai",
+    "he": "תופעת לוואי",
+    "tr": "tofá'at levái",
+    "en": "side effect",
+    "enAlt": [
+      "adverse effect"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "תופעות לוואי",
+    "level": "B2",
+    "topic": "health",
+    "ex": {
+      "he": "שאלתי את הרוקחת אם יש לתרופה הזאת תופעות לוואי.",
+      "en": "I asked the pharmacist whether this medicine has side effects."
+    },
+    "note": "Usually plural: תופעות לוואי. Also used figuratively about any unwanted result."
+  },
+  {
+    "id": "vd_hafnaya",
+    "he": "הפנייה",
+    "tr": "hafnayá",
+    "en": "referral",
+    "enAlt": [
+      "doctor's referral"
+    ],
+    "alt": [
+      "הפניה"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "הפניות",
+    "root": "פ.נ.ה",
+    "level": "B2",
+    "topic": "health",
+    "ex": {
+      "he": "רופאת המשפחה נתנה לי הפנייה לרופא עור.",
+      "en": "My family doctor gave me a referral to a dermatologist."
+    },
+    "note": "To see a specialist through the health fund you usually need a הפנייה from your family doctor. Same root as לפנות (to turn to)."
+  },
+  {
+    "id": "vd_lehargish",
+    "he": "להרגיש",
+    "tr": "lehargísh",
+    "en": "to feel",
+    "enAlt": [
+      "to sense"
+    ],
+    "pos": "verb",
+    "root": "ר.ג.ש",
+    "binyan": "hifil",
+    "level": "A2",
+    "topic": "social",
+    "ex": {
+      "he": "אני לא מרגישה טוב היום, אז נשארתי בבית.",
+      "en": "I don't feel well today, so I stayed home."
+    },
+    "note": "איך אתה מרגיש? / איך את מרגישה? = how do you feel? להרגיש בנוח = to feel comfortable."
+  },
+  {
+    "id": "vd_hargasha",
+    "he": "הרגשה",
+    "tr": "hargashá",
+    "en": "feeling",
+    "enAlt": [
+      "sense",
+      "sensation"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "הרגשות",
+    "root": "ר.ג.ש",
+    "level": "B1",
+    "topic": "social",
+    "ex": {
+      "he": "יש לי הרגשה שהוא לא יגיע הערב.",
+      "en": "I have a feeling he won't come tonight."
+    },
+    "note": "יש לי הרגשה ש... = I have a feeling that... Emotions in general are רגשות."
+  },
+  {
+    "id": "vd_lehitragesh",
+    "he": "להתרגש",
+    "tr": "lehitragésh",
+    "en": "to get excited; to be moved",
+    "enAlt": [
+      "to be emotional",
+      "to be thrilled"
+    ],
+    "pos": "verb",
+    "root": "ר.ג.ש",
+    "binyan": "hitpael",
+    "gov": "מ",
+    "level": "B1",
+    "topic": "social",
+    "ex": {
+      "he": "אני מתרגשת לקראת הטיול, אף פעם לא הייתי ביפן.",
+      "en": "I'm excited about the trip; I've never been to Japan."
+    },
+    "note": "Covers both excitement and being emotionally moved: התרגשתי עד דמעות = I was moved to tears. מרגש = exciting, moving."
+  },
+  {
+    "id": "vd_lidog",
+    "he": "לדאוג",
+    "tr": "lid'óg",
+    "en": "to worry; to take care (of)",
+    "enAlt": [
+      "to look after",
+      "to make sure"
+    ],
+    "pos": "verb",
+    "root": "ד.א.ג",
+    "binyan": "paal",
+    "gov": "ל",
+    "level": "B1",
+    "topic": "social",
+    "ex": {
+      "he": "אל תדאגי, אני אדאג שהכול יהיה מוכן בזמן.",
+      "en": "Don't worry, I'll make sure everything is ready on time."
+    },
+    "note": "לדאוג ל = to worry about / to take care of: אני אדאג לזה = I'll take care of it."
+  },
+  {
+    "id": "vd_deaga",
+    "he": "דאגה",
+    "tr": "de'agá",
+    "en": "worry, concern",
+    "enAlt": [
+      "care"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "דאגות",
+    "root": "ד.א.ג",
+    "level": "B1",
+    "topic": "social",
+    "ex": {
+      "he": "אין דאגה, אני אאסוף את הילדים מהגן היום.",
+      "en": "No worries, I'll pick up the kids from kindergarten today."
+    },
+    "note": "אין דאגה = no worries."
+  },
+  {
+    "id": "vd_lehitgaagea",
+    "he": "להתגעגע",
+    "tr": "lehitga'agé'a",
+    "en": "to miss (someone or something)",
+    "enAlt": [
+      "to long for",
+      "to be homesick for"
+    ],
+    "pos": "verb",
+    "root": "ג.ע.ג.ע",
+    "binyan": "hitpael",
+    "gov": "ל",
+    "level": "B1",
+    "topic": "social",
+    "ex": {
+      "he": "אני מתגעגעת להורים שלי, הם גרים רחוק.",
+      "en": "I miss my parents; they live far away."
+    },
+    "note": "To miss a person or a place = להתגעגע ל. To miss a bus or a chance = לפספס."
+  },
+  {
+    "id": "vd_gaaguim",
+    "he": "געגועים",
+    "tr": "ga'agu'ím",
+    "en": "longing; homesickness",
+    "enAlt": [
+      "nostalgia",
+      "missing (someone)"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "root": "ג.ע.ג.ע",
+    "level": "B2",
+    "topic": "social",
+    "ex": {
+      "he": "בחגים יש לי הרבה געגועים למשפחה בחו״ל.",
+      "en": "During the holidays I really miss my family abroad."
+    },
+    "note": "Almost always plural. Ending a message: מתגעגע / מתגעגעת = missing you."
+  },
+  {
+    "id": "vd_lehitkhaten",
+    "he": "להתחתן",
+    "tr": "lehitkhatén",
+    "en": "to get married",
+    "enAlt": [
+      "to marry"
+    ],
+    "pos": "verb",
+    "root": "ח.ת.נ",
+    "binyan": "hitpael",
+    "gov": "עם",
+    "level": "B1",
+    "topic": "social",
+    "ex": {
+      "he": "אחי מתחתן בחודש הבא, וכל המשפחה מגיעה מחו״ל.",
+      "en": "My brother is getting married next month, and the whole family is coming from abroad."
+    },
+    "note": "להתחתן עם (not את): היא התחתנה עם חבר מהתיכון. Same root as חתונה and חתן (groom)."
+  },
+  {
+    "id": "vd_khatuna",
+    "he": "חתונה",
+    "tr": "khatuná",
+    "en": "wedding",
+    "enAlt": [
+      "marriage ceremony"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "חתונות",
+    "root": "ח.ת.נ",
+    "level": "A2",
+    "topic": "social",
+    "ex": {
+      "he": "בחתונות בישראל בדרך כלל נותנים צ׳ק במקום מתנה.",
+      "en": "At Israeli weddings people usually give a check instead of a gift."
+    },
+    "note": "Guests normally give money (a check or a transfer) rather than a present."
+  },
+  {
+    "id": "vd_ledaati",
+    "he": "לדעתי",
+    "tr": "leda'atí",
+    "en": "in my opinion",
+    "enAlt": [
+      "I think",
+      "as I see it"
+    ],
+    "pos": "adv",
+    "root": "י.ד.ע",
+    "level": "A2",
+    "topic": "social",
+    "ex": {
+      "he": "לדעתי כדאי לחכות עם זה עד אחרי החגים.",
+      "en": "In my opinion it's better to wait with this until after the holidays."
+    },
+    "note": "From דעה (opinion): לדעתך? = in your opinion? מה דעתך? = what do you think?"
+  },
+  {
+    "id": "vd_lakhuts",
+    "he": "לחוץ",
+    "tr": "lakhúts",
+    "en": "stressed",
+    "enAlt": [
+      "under pressure",
+      "tense"
+    ],
+    "pos": "adj",
+    "root": "ל.ח.צ",
+    "level": "B1",
+    "topic": "social",
+    "ex": {
+      "he": "אני קצת לחוצה לפני הראיון, יש לך טיפים?",
+      "en": "I'm a bit stressed before the interview, do you have any tips?"
+    },
+    "note": "Feminine: לחוצה. אל תהיה לחוץ = don't stress. לחץ = pressure, stress."
+  },
+  {
+    "id": "vd_meshaamem",
+    "he": "משעמם",
+    "tr": "mesha'amém",
+    "en": "boring",
+    "enAlt": [
+      "dull"
+    ],
+    "pos": "adj",
+    "root": "ש.ע.מ.מ",
+    "level": "A2",
+    "topic": "social",
+    "ex": {
+      "he": "הסרט היה כל כך משעמם שנרדמתי באמצע.",
+      "en": "The movie was so boring that I fell asleep in the middle."
+    },
+    "note": "Don't confuse with משועמם (bored). משעמם לי = I'm bored (lit. it's boring to me)."
+  },
+  {
+    "id": "vd_meshuamam",
+    "he": "משועמם",
+    "tr": "meshu'amám",
+    "en": "bored",
+    "enAlt": [
+      "fed up"
+    ],
+    "pos": "adj",
+    "root": "ש.ע.מ.מ",
+    "level": "B1",
+    "topic": "social",
+    "ex": {
+      "he": "הילדים משועממים בחופש הגדול, צריך למצוא להם משהו לעשות.",
+      "en": "The kids are bored during the summer break; we need to find them something to do."
+    },
+    "note": "Feminine: משועממת."
+  },
+  {
+    "id": "vd_bilui",
+    "he": "בילוי",
+    "tr": "bilúy",
+    "en": "going out; a good time",
+    "enAlt": [
+      "entertainment",
+      "leisure",
+      "outing"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "בילויים",
+    "root": "ב.ל.ה",
+    "level": "B1",
+    "topic": "social",
+    "ex": {
+      "he": "תל אביב היא עיר של בילויים, יש מה לעשות כל לילה.",
+      "en": "Tel Aviv is a city for going out; there's something to do every night."
+    },
+    "note": "Same root as לבלות (to have a good time)."
+  },
+  {
+    "id": "vd_levalot",
+    "he": "לבלות",
+    "tr": "levalót",
+    "en": "to have a good time; to spend time",
+    "enAlt": [
+      "to go out",
+      "to hang out"
+    ],
+    "pos": "verb",
+    "root": "ב.ל.ה",
+    "binyan": "piel",
+    "gov": "עם",
+    "level": "B1",
+    "topic": "social",
+    "ex": {
+      "he": "בילינו כל השבת בים עם החברים מהעבודה.",
+      "en": "We spent all of Saturday at the beach with friends from work."
+    },
+    "note": "Israelis' favorite verb for going out: תבלו! = have fun! Also לבלות זמן = to spend time."
+  },
+  {
+    "id": "vd_lehistader",
+    "he": "להסתדר",
+    "tr": "lehistadér",
+    "en": "to manage; to work out; to get along",
+    "enAlt": [
+      "to cope",
+      "to sort oneself out"
+    ],
+    "pos": "verb",
+    "root": "ס.ד.ר",
+    "binyan": "hitpael",
+    "gov": "עם",
+    "level": "B1",
+    "topic": "social",
+    "ex": {
+      "he": "אל תדאג, אני אסתדר לבד עם הטפסים.",
+      "en": "Don't worry, I'll manage the forms on my own."
+    },
+    "note": "יהיה בסדר, נסתדר = it'll be fine, we'll manage. להסתדר עם מישהו = to get along with someone. Same root as בסדר."
+  },
+  {
+    "id": "vd_lefargen",
+    "he": "לפרגן",
+    "tr": "lefargén",
+    "en": "to praise generously; to be happy for someone",
+    "enAlt": [
+      "to give credit",
+      "to not begrudge"
+    ],
+    "pos": "verb",
+    "root": "פ.ר.ג.נ",
+    "binyan": "piel",
+    "gov": "ל",
+    "register": "colloquial",
+    "level": "B2",
+    "topic": "social",
+    "ex": {
+      "he": "היא תמיד מפרגנת לאנשים בצוות, וכולם אוהבים לעבוד איתה.",
+      "en": "She always gives credit to people on the team, and everyone loves working with her."
+    },
+    "note": "From Yiddish. To be genuinely glad about someone's success and say so; פרגון = that kind of support. No exact English equivalent."
+  },
+  {
+    "id": "vd_metuskal",
+    "he": "מתוסכל",
+    "tr": "metuskál",
+    "en": "frustrated",
+    "enAlt": [
+      "fed up"
+    ],
+    "pos": "adj",
+    "root": "ת.ס.כ.ל",
+    "level": "B2",
+    "topic": "social",
+    "ex": {
+      "he": "אני מתוסכלת, כבר שבוע אני מנסה לדבר עם הבנק.",
+      "en": "I'm frustrated; I've been trying to talk to the bank for a week."
+    },
+    "note": "Feminine: מתוסכלת; תסכול = frustration; מתסכל = frustrating."
+  },
+  {
+    "id": "vd_shvuayim",
+    "he": "שבועיים",
+    "tr": "shvu'áyim",
+    "en": "two weeks",
+    "enAlt": [
+      "a fortnight"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "root": "ש.ב.ע",
+    "level": "A2",
+    "topic": "time",
+    "ex": {
+      "he": "אני בחופשה בעוד שבועיים, ואני כבר סופרת את הימים.",
+      "en": "I'm on vacation in two weeks, and I'm already counting the days."
+    },
+    "note": "Dual forms need no number: יומיים (2 days), שבועיים (2 weeks), חודשיים (2 months), שנתיים (2 years). Same root as שבוע (week)."
+  },
+  {
+    "id": "vd_yomayim",
+    "he": "יומיים",
+    "tr": "yomáyim",
+    "en": "two days",
+    "enAlt": [
+      "a couple of days"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "level": "A2",
+    "topic": "time",
+    "ex": {
+      "he": "החבילה תגיע תוך יומיים, אם הכול יהיה בסדר.",
+      "en": "The package will arrive within two days, if all goes well."
+    },
+    "note": "Also useful: שלשום = the day before yesterday; מחרתיים = the day after tomorrow."
+  },
+  {
+    "id": "vd_meukhar",
+    "he": "מאוחר",
+    "tr": "me'ukhár",
+    "en": "late",
+    "enAlt": [
+      "late (in the day)"
+    ],
+    "pos": "adv",
+    "root": "א.ח.ר",
+    "level": "A2",
+    "topic": "time",
+    "ex": {
+      "he": "כבר מאוחר, אני חייבת לזוז. נדבר מחר?",
+      "en": "It's already late, I have to go. Talk tomorrow?"
+    },
+    "note": "מאוחר יותר = later; מאוחר מדי = too late. Early = מוקדם."
+  },
+  {
+    "id": "vd_leakher",
+    "he": "לאחר",
+    "tr": "le'akhér",
+    "en": "to be late",
+    "enAlt": [
+      "to arrive late",
+      "to run late"
+    ],
+    "pos": "verb",
+    "root": "א.ח.ר",
+    "binyan": "piel",
+    "gov": "ל",
+    "level": "B1",
+    "topic": "time",
+    "ex": {
+      "he": "סליחה שאיחרתי, האוטובוס פשוט לא הגיע בזמן.",
+      "en": "Sorry I'm late, the bus just didn't come on time."
+    },
+    "note": "לאחר ל... = to be late for: איחרתי לפגישה. In formal writing לאחר also means \"after\"."
+  },
+  {
+    "id": "vd_ikhur",
+    "he": "איחור",
+    "tr": "ikhúr",
+    "en": "delay; lateness",
+    "enAlt": [
+      "late arrival"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "איחורים",
+    "root": "א.ח.ר",
+    "level": "B1",
+    "topic": "time",
+    "ex": {
+      "he": "הטיסה יצאה באיחור של שלוש שעות, אז הגענו באמצע הלילה.",
+      "en": "The flight left three hours late, so we arrived in the middle of the night."
+    },
+    "note": "באיחור = late (adverb): הגיע באיחור = arrived late. סליחה על האיחור = sorry for the delay."
+  },
+  {
+    "id": "vd_lehakdim",
+    "he": "להקדים",
+    "tr": "lehakdím",
+    "en": "to bring forward; to be early",
+    "enAlt": [
+      "to move up (an appointment)",
+      "to come early"
+    ],
+    "pos": "verb",
+    "root": "ק.ד.מ",
+    "binyan": "hifil",
+    "gov": "את",
+    "level": "B1",
+    "topic": "time",
+    "ex": {
+      "he": "אפשר להקדים את התור ליום שני? התפנה לי זמן.",
+      "en": "Can I move the appointment up to Monday? I've got some free time now."
+    },
+    "note": "Opposite: לדחות (to postpone). הקדמתי = I came early. Same root as מוקדם (early)."
+  },
+  {
+    "id": "vd_bahekdem",
+    "he": "בהקדם",
+    "tr": "bahekdém",
+    "en": "as soon as possible",
+    "enAlt": [
+      "soon",
+      "at your earliest convenience"
+    ],
+    "pos": "adv",
+    "root": "ק.ד.מ",
+    "register": "formal",
+    "level": "B2",
+    "topic": "time",
+    "ex": {
+      "he": "אשמח אם תחזרו אליי בהקדם, זה די דחוף.",
+      "en": "I'd appreciate it if you got back to me as soon as possible; it's fairly urgent."
+    },
+    "note": "Formal; common in emails and official letters. In speech: כמה שיותר מהר."
+  },
+  {
+    "id": "vd_lidkhot",
+    "he": "לדחות",
+    "tr": "lidkhót",
+    "en": "to postpone",
+    "enAlt": [
+      "to put off",
+      "to reject"
+    ],
+    "pos": "verb",
+    "root": "ד.ח.ה",
+    "binyan": "paal",
+    "gov": "את",
+    "level": "B1",
+    "topic": "time",
+    "ex": {
+      "he": "נצטרך לדחות את המסיבה לשבוע הבא, חצי מהאנשים חולים.",
+      "en": "We'll have to postpone the party to next week; half the people are sick."
+    },
+    "note": "Also \"to reject\": הבקשה נדחתה = the application was rejected."
+  },
+  {
+    "id": "vd_sof_shavua",
+    "he": "סוף שבוע",
+    "tr": "sof shavú'a",
+    "en": "weekend",
+    "enAlt": [
+      "the weekend"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "סופי שבוע",
+    "level": "A2",
+    "topic": "time",
+    "ex": {
+      "he": "מה אתם עושים בסוף השבוע? רוצים לבוא אלינו?",
+      "en": "What are you doing this weekend? Want to come over?"
+    },
+    "note": "In Israel the weekend is Friday–Saturday, and Sunday is a workday. Abbreviated סופ״ש (sofásh)."
+  },
+  {
+    "id": "vd_motsaei_shabat",
+    "he": "מוצאי שבת",
+    "tr": "motsa'éi shabát",
+    "en": "Saturday night (after Shabbat ends)",
+    "enAlt": [
+      "Saturday evening",
+      "motzei Shabbat"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "level": "B1",
+    "topic": "time",
+    "ex": {
+      "he": "הרבה חנויות בקניון נפתחות שוב במוצאי שבת, אחרי החשכה.",
+      "en": "Many shops in the mall open again on Saturday night, after dark."
+    },
+    "note": "Abbreviated מוצ״ש (motsásh). Friday evening is ערב שבת."
+  },
+  {
+    "id": "vd_merosh",
+    "he": "מראש",
+    "tr": "merósh",
+    "en": "in advance",
+    "enAlt": [
+      "beforehand",
+      "ahead of time"
+    ],
+    "pos": "adv",
+    "root": "ר.א.ש",
+    "level": "B1",
+    "topic": "time",
+    "ex": {
+      "he": "כדאי להזמין מקום מראש, בשישי המסעדה מלאה.",
+      "en": "It's worth booking ahead; on Fridays the restaurant is full."
+    },
+    "note": "תודה מראש = thanks in advance. From ראש (head, beginning)."
+  },
+  {
+    "id": "vd_likboa",
+    "he": "לקבוע",
+    "tr": "likbó'a",
+    "en": "to set (a time); to arrange",
+    "enAlt": [
+      "to schedule",
+      "to decide",
+      "to determine"
+    ],
+    "pos": "verb",
+    "root": "ק.ב.ע",
+    "binyan": "paal",
+    "gov": "את",
+    "level": "B1",
+    "topic": "time",
+    "ex": {
+      "he": "קבענו להיפגש ביום שלישי אחרי העבודה, בבית קפה ליד הבית.",
+      "en": "We arranged to meet on Tuesday after work, at a café near home."
+    },
+    "note": "לקבוע תור = to make an appointment. קבענו! = it's a plan! Related: קבוע = fixed, permanent."
+  },
+  {
+    "id": "vd_beintayim",
+    "he": "בינתיים",
+    "tr": "beintáyim",
+    "en": "meanwhile; for now",
+    "enAlt": [
+      "in the meantime",
+      "so far"
+    ],
+    "pos": "adv",
+    "level": "B1",
+    "topic": "time",
+    "ex": {
+      "he": "האינסטלטור יגיע רק מחר, אז בינתיים אין לנו מים חמים.",
+      "en": "The plumber is only coming tomorrow, so for now we have no hot water."
+    },
+    "note": "Also \"so far\": בינתיים הכול בסדר = so far so good."
+  },
+  {
+    "id": "vd_bediavad",
+    "he": "בדיעבד",
+    "tr": "bedi'avád",
+    "en": "in hindsight; after the fact",
+    "enAlt": [
+      "looking back",
+      "retroactively"
+    ],
+    "pos": "adv",
+    "level": "B2",
+    "topic": "time",
+    "ex": {
+      "he": "בדיעבד, היה עדיף להזמין את הכרטיסים מראש.",
+      "en": "In hindsight, it would have been better to book the tickets in advance."
+    },
+    "note": "Opposite: לכתחילה = from the outset."
+  },
+  {
+    "id": "vd_tokh",
+    "he": "תוך",
+    "tr": "tokh",
+    "en": "within (a period of time)",
+    "enAlt": [
+      "in the course of",
+      "during"
+    ],
+    "pos": "prep",
+    "level": "B1",
+    "topic": "time",
+    "ex": {
+      "he": "החבילה אמורה להגיע תוך שלושה ימי עסקים.",
+      "en": "The package should arrive within three business days."
+    },
+    "note": "תוך כדי = while (doing something): הוא דיבר בטלפון תוך כדי נהיגה. בתוך = inside."
+  },
+  {
+    "id": "vd_efshar_lekabel",
+    "he": "אפשר לקבל...?",
+    "tr": "efshár lekabél",
+    "en": "Could I have...?",
+    "enAlt": [
+      "Can I get...?",
+      "May I have...?"
+    ],
+    "pos": "phrase",
+    "root": "ק.ב.ל",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "סליחה, אפשר לקבל עוד כוס מים ומפית, בבקשה?",
+      "en": "Excuse me, could I have another glass of water and a napkin, please?"
+    },
+    "note": "The all-purpose polite request, with no verb to conjugate. Even shorter: אפשר + noun (אפשר את החשבון? = can we have the check?)."
+  },
+  {
+    "id": "vd_kama_ze_ole",
+    "he": "כמה זה עולה?",
+    "tr": "káma ze olé",
+    "en": "How much does it cost?",
+    "enAlt": [
+      "How much is it?",
+      "What's the price?"
+    ],
+    "pos": "phrase",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "סליחה, כמה זה עולה? לא ראיתי מחיר על המדף.",
+      "en": "Excuse me, how much is this? I didn't see a price on the shelf."
+    },
+    "note": "At the shuk a simple כמה? with a pointing finger also works. For several items: כמה הם עולים?"
+  },
+  {
+    "id": "vd_ani_mekhapes",
+    "he": "אני מחפש/ת...",
+    "tr": "aní mekhapés / mekhapéset",
+    "en": "I'm looking for...",
+    "enAlt": [
+      "I'm searching for...",
+      "I need..."
+    ],
+    "alt": [
+      "אני מחפש...",
+      "אני מחפשת..."
+    ],
+    "pos": "phrase",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "סליחה, אני מחפשת את המחלקה של מוצרי הניקיון.",
+      "en": "Excuse me, I'm looking for the cleaning products section."
+    },
+    "note": "A man says מחפש, a woman מחפשת. Just browsing in a shop: אני רק מסתכל / מסתכלת, תודה."
+  },
+  {
+    "id": "vd_slikha",
+    "he": "סליחה",
+    "tr": "slikhá",
+    "en": "Excuse me; sorry",
+    "enAlt": [
+      "pardon",
+      "I'm sorry"
+    ],
+    "pos": "phrase",
+    "root": "ס.ל.ח",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "סליחה, אתה יודע איפה התחנה של קו ארבע?",
+      "en": "Excuse me, do you know where the stop for the number 4 bus is?"
+    },
+    "note": "Both \"excuse me\" (to get attention or to get past someone) and \"sorry\". For a bigger apology: אני מצטער / מצטערת."
+  },
+  {
+    "id": "vd_eifo_hasherutim",
+    "he": "איפה השירותים?",
+    "tr": "éifo hasherutím",
+    "en": "Where's the restroom?",
+    "enAlt": [
+      "Where's the bathroom?",
+      "Where's the toilet?"
+    ],
+    "pos": "phrase",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "סליחה, איפה השירותים? — בסוף המסדרון, בצד שמאל.",
+      "en": "Excuse me, where's the restroom? — At the end of the corridor, on the left."
+    },
+    "note": "שירותים is plural (lit. \"services\"). איפה + anything: איפה התחנה? איפה הקופה?"
+  },
+  {
+    "id": "vd_ze_lo_meshane",
+    "he": "זה לא משנה",
+    "tr": "ze lo meshané",
+    "en": "It doesn't matter",
+    "enAlt": [
+      "never mind",
+      "whatever you prefer"
+    ],
+    "pos": "phrase",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "זה לא משנה לי אם נלך לסרט או למסעדה, תחליטי את.",
+      "en": "It doesn't matter to me whether we go to a movie or a restaurant; you decide."
+    },
+    "note": "לא משנה on its own = never mind (when you give up explaining something)."
+  },
+  {
+    "id": "vd_ein_beaya",
+    "he": "אין בעיה",
+    "tr": "ein be'ayá",
+    "en": "No problem",
+    "enAlt": [
+      "sure",
+      "no worries"
+    ],
+    "pos": "phrase",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "אין בעיה, אני אאסוף אותך מהתחנה בשבע.",
+      "en": "No problem, I'll pick you up from the station at seven."
+    },
+    "note": "The standard yes to a request; also בלי בעיה."
+  },
+  {
+    "id": "vd_beteavon",
+    "he": "בתיאבון",
+    "tr": "bete'avón",
+    "en": "Bon appétit",
+    "enAlt": [
+      "enjoy your meal"
+    ],
+    "pos": "phrase",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "הנה הסלט והחומוס, בתיאבון! אם חסר משהו, תקראו לי.",
+      "en": "Here's the salad and the hummus, enjoy! If anything's missing, call me."
+    },
+    "note": "Said by waiters, hosts, or anyone who sees you eating. תיאבון = appetite."
+  },
+  {
+    "id": "vd_refua_shlema",
+    "he": "רפואה שלמה",
+    "tr": "refu'á shlemá",
+    "en": "Get well soon",
+    "enAlt": [
+      "wishing you a full recovery"
+    ],
+    "pos": "phrase",
+    "root": "ר.פ.א",
+    "level": "B1",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "שמעתי שאבא שלך בבית חולים, רפואה שלמה!",
+      "en": "I heard your dad is in the hospital; wishing him a full recovery!"
+    },
+    "note": "Lit. \"a complete healing\". Said to the sick person or to their family. Lighter: תרגיש / תרגישי טוב = feel better."
+  },
+  {
+    "id": "vd_behatslakha",
+    "he": "בהצלחה",
+    "tr": "behatslakhá",
+    "en": "Good luck",
+    "enAlt": [
+      "best of luck"
+    ],
+    "pos": "phrase",
+    "root": "צ.ל.ח",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "בהצלחה מחר בראיון! תספר לי איך היה.",
+      "en": "Good luck at the interview tomorrow! Tell me how it went."
+    },
+    "note": "Lit. \"with success\". For exams, interviews, moves and new jobs."
+  },
+  {
+    "id": "vd_shabat_shalom",
+    "he": "שבת שלום",
+    "tr": "shabát shalóm",
+    "en": "Have a good Shabbat",
+    "enAlt": [
+      "Shabbat shalom",
+      "have a nice weekend"
+    ],
+    "pos": "phrase",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "שבת שלום לכולם, נתראה ביום ראשון במשרד.",
+      "en": "Shabbat shalom everyone, see you on Sunday at the office."
+    },
+    "note": "Said from Thursday afternoon through Saturday. After Shabbat ends: שבוע טוב (have a good week)."
+  },
+  {
+    "id": "vd_khag_sameakh",
+    "he": "חג שמח",
+    "tr": "khag saméakh",
+    "en": "Happy holiday",
+    "enAlt": [
+      "happy holidays",
+      "chag sameach"
+    ],
+    "pos": "phrase",
+    "root": "ש.מ.ח",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "חג שמח! מה אתם עושים בפסח, נוסעים לאנשהו?",
+      "en": "Happy holiday! What are you doing for Passover, going anywhere?"
+    },
+    "note": "Works for any Jewish holiday. Around Rosh Hashanah say שנה טובה (happy new year)."
+  },
+  {
+    "id": "vd_labriut",
+    "he": "לבריאות",
+    "tr": "labriút",
+    "en": "Bless you! (after a sneeze)",
+    "enAlt": [
+      "gesundheit",
+      "to your health"
+    ],
+    "pos": "phrase",
+    "root": "ב.ר.א",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "אפצ׳י! — לבריאות! — תודה, אני חושב שאני מצטנן.",
+      "en": "Achoo! — Bless you! — Thanks, I think I'm coming down with a cold."
+    },
+    "note": "Mainly after a sneeze; also \"enjoy, to your health\" to someone eating or drinking. The toast is לחיים!"
+  },
+  {
+    "id": "vd_ani_baderekh",
+    "he": "אני בדרך",
+    "tr": "aní badérekh",
+    "en": "I'm on my way",
+    "enAlt": [
+      "on my way",
+      "coming"
+    ],
+    "pos": "phrase",
+    "root": "ד.ר.כ",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "אני בדרך, אבל יש פקק, אז אגיע בעוד רבע שעה.",
+      "en": "I'm on my way, but there's traffic, so I'll be there in a quarter of an hour."
+    },
+    "note": "An Israeli אני בדרך can mean anything from \"I'm at the door\" to \"I'm about to leave home\"."
+  },
+  {
+    "id": "vd_bli_lakhats",
+    "he": "בלי לחץ",
+    "tr": "bli lákhats",
+    "en": "No rush",
+    "enAlt": [
+      "take your time",
+      "no pressure"
+    ],
+    "pos": "phrase",
+    "root": "ל.ח.צ",
+    "level": "B1",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "תחזיר לי את הספר מתי שנוח לך, בלי לחץ.",
+      "en": "Give me back the book whenever it suits you, no rush."
+    },
+    "note": "לחץ = pressure, stress; לחוץ = stressed."
+  },
+  {
+    "id": "vd_lashevet_o_lakakhat",
+    "he": "לשבת או לקחת?",
+    "tr": "lashévet o lakákhat",
+    "en": "For here or to go?",
+    "enAlt": [
+      "eat in or take away?"
+    ],
+    "alt": [
+      "פה או לקחת?"
+    ],
+    "pos": "phrase",
+    "level": "B1",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "— לשבת או לקחת? — לקחת, בבקשה, ואם אפשר עם הרבה טחינה.",
+      "en": "— For here or to go? — To go, please, and with lots of tahini if possible."
+    },
+    "note": "Answer with just לשבת or לקחת. Also heard: פה או לקחת?"
+  },
+  {
+    "id": "vd_efshar_ledaber_leat",
+    "he": "אפשר לדבר יותר לאט?",
+    "tr": "efshár ledabér yotér le'át",
+    "en": "Could you speak more slowly?",
+    "enAlt": [
+      "Slower, please?",
+      "Can you slow down?"
+    ],
+    "pos": "phrase",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "סליחה, אני עדיין לומד עברית, אפשר לדבר יותר לאט?",
+      "en": "Sorry, I'm still learning Hebrew; could you speak more slowly?"
+    },
+    "note": "A learner's lifesaver. Also: אפשר לחזור על זה? = could you repeat that?"
+  },
+  {
+    "id": "vd_ma_zot_omeret",
+    "he": "מה זאת אומרת?",
+    "tr": "ma zot oméret",
+    "en": "What do you mean?",
+    "enAlt": [
+      "meaning?",
+      "how so?"
+    ],
+    "pos": "phrase",
+    "level": "B1",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "מה זאת אומרת אין תורים? כבר התקשרתי שלוש פעמים!",
+      "en": "What do you mean there are no appointments? I've already called three times!"
+    },
+    "note": "A neutral \"what do you mean?\", but also a common way to protest. Without מה, זאת אומרת... = that is, I mean..."
+  },
+  {
+    "id": "vd_mazal_tov",
+    "he": "מזל טוב",
+    "tr": "mazál tov",
+    "en": "Congratulations!",
+    "enAlt": [
+      "congrats",
+      "mazel tov"
+    ],
+    "pos": "phrase",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "שמעתי שנולדה לכם בת, מזל טוב! איך קוראים לה?",
+      "en": "I heard you had a baby girl, congratulations! What's her name?"
+    },
+    "note": "For births, weddings, birthdays and new jobs. It does not mean \"good luck\"; that's בהצלחה."
+  },
+  {
+    "id": "vd_beshaa_tova",
+    "he": "בשעה טובה",
+    "tr": "besha'á tová",
+    "en": "Congratulations (on a happy milestone)",
+    "enAlt": [
+      "at long last",
+      "good timing"
+    ],
+    "pos": "phrase",
+    "level": "B1",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "סוף סוף עברתם לדירה משלכם? בשעה טובה!",
+      "en": "You finally moved into your own place? Congratulations!"
+    },
+    "note": "Said about a happy event, especially one that took time: an engagement, a pregnancy, a new home."
+  },
+  {
+    "id": "vd_ani_mazmin",
+    "he": "אני מזמין",
+    "tr": "aní mazmín",
+    "en": "It's on me (my treat)",
+    "enAlt": [
+      "my treat",
+      "I'm paying"
+    ],
+    "alt": [
+      "אני מזמינה"
+    ],
+    "pos": "phrase",
+    "level": "B1",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "— כמה אני חייב לך? — עזוב, הפעם אני מזמין.",
+      "en": "— How much do I owe you? — Forget it, this time it's on me."
+    },
+    "note": "A woman says אני מזמינה. Literally \"I'm inviting\", from להזמין (to order, to invite)."
+  },
+  {
+    "id": "vd_im_kol_hakavod",
+    "he": "עם כל הכבוד",
+    "tr": "im kol hakavód",
+    "en": "With all due respect",
+    "enAlt": [
+      "all due respect, but..."
+    ],
+    "pos": "phrase",
+    "level": "B2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "עם כל הכבוד, זה לא מה שסיכמנו בטלפון.",
+      "en": "With all due respect, that's not what we agreed on the phone."
+    },
+    "note": "Introduces polite but firm disagreement. Not to be confused with כל הכבוד! = well done!"
+  },
+  {
+    "id": "vd_sababa",
+    "he": "סבבה",
+    "tr": "sabába",
+    "en": "cool; OK",
+    "enAlt": [
+      "great",
+      "sure",
+      "fine"
+    ],
+    "pos": "expr",
+    "register": "colloquial",
+    "level": "A2",
+    "topic": "slang",
+    "ex": {
+      "he": "— נפגשים בשמונה ליד הקולנוע? — סבבה, נתראה שם.",
+      "en": "— Meeting at eight by the cinema? — Cool, see you there."
+    },
+    "note": "From Arabic. The all-purpose \"OK, cool\": agreeing to plans, or answering מה נשמע? Fine with friends and relaxed coworkers; avoid it in formal emails."
+  },
+  {
+    "id": "vd_yalla",
+    "he": "יאללה",
+    "tr": "yálla",
+    "en": "come on; let's go",
+    "enAlt": [
+      "OK then",
+      "hurry up"
+    ],
+    "pos": "expr",
+    "register": "colloquial",
+    "level": "A2",
+    "topic": "slang",
+    "ex": {
+      "he": "יאללה, תתלבשו מהר, אנחנו כבר מאחרים לחתונה.",
+      "en": "Come on, get dressed quickly, we're already late for the wedding."
+    },
+    "note": "From Arabic. Urges someone on, or wraps things up: יאללה, אני זז = OK, I'm off. Used by everyone, all day long."
+  },
+  {
+    "id": "vd_akhla",
+    "he": "אחלה",
+    "tr": "akhlá",
+    "en": "great; awesome",
+    "enAlt": [
+      "excellent",
+      "super"
+    ],
+    "pos": "expr",
+    "register": "colloquial",
+    "level": "A2",
+    "topic": "slang",
+    "ex": {
+      "he": "אחלה מסעדה! האוכל טעים, והמחירים ממש בסדר.",
+      "en": "Great restaurant! The food is tasty and the prices are really fair."
+    },
+    "note": "From Arabic. Goes before a noun and never changes: אחלה בחור, אחלה דירה, אחלה יום. On its own: אחלה! = great!"
+  },
+  {
+    "id": "vd_takhles",
+    "he": "תכלס",
+    "tr": "tákhles",
+    "en": "basically; bottom line",
+    "enAlt": [
+      "in practice",
+      "actually",
+      "let's get to the point"
+    ],
+    "pos": "expr",
+    "register": "colloquial",
+    "level": "B1",
+    "topic": "slang",
+    "ex": {
+      "he": "תכלס, אין לנו מספיק כסף לדירה כזאת, בוא נחפש משהו אחר.",
+      "en": "Bottom line, we don't have enough money for an apartment like that; let's look for something else."
+    },
+    "note": "From Yiddish (originally Hebrew תכלית, \"purpose\"). Cuts to the chase: תכלס, מה אתה רוצה? = so what do you actually want? Common even in meetings."
+  },
+  {
+    "id": "vd_bektana",
+    "he": "בקטנה",
+    "tr": "bektaná",
+    "en": "no big deal; it's nothing",
+    "enAlt": [
+      "don't mention it",
+      "small thing"
+    ],
+    "pos": "expr",
+    "register": "slang",
+    "level": "B1",
+    "topic": "slang",
+    "ex": {
+      "he": "— תודה שהקפצת אותי הביתה! — בקטנה, זה בדרך שלי.",
+      "en": "— Thanks for dropping me off at home! — No big deal, it's on my way."
+    },
+    "note": "Lit. \"in a small way\". Downplays a favor or a problem: אל תדאג, זה בקטנה. להקפיץ = to give someone a quick ride."
+  },
+  {
+    "id": "vd_walla",
+    "he": "וואלה",
+    "tr": "wálla",
+    "en": "really?; wow; honestly",
+    "enAlt": [
+      "seriously?",
+      "I swear"
+    ],
+    "pos": "expr",
+    "register": "slang",
+    "level": "B1",
+    "topic": "slang",
+    "ex": {
+      "he": "— עברתי לגור ליד הים. — וואלה? איזה כיף לך!",
+      "en": "— I moved near the beach. — Really? Lucky you!"
+    },
+    "note": "From Arabic (\"by God\"). As a question = really?; as a statement = honestly, I swear: וואלה, לא ידעתי. Very casual."
+  },
+  {
+    "id": "vd_khaval_al_hazman",
+    "he": "חבל על הזמן",
+    "tr": "khavál al hazmán",
+    "en": "amazing; awesome",
+    "enAlt": [
+      "incredible",
+      "out of this world"
+    ],
+    "pos": "expr",
+    "register": "slang",
+    "level": "B1",
+    "topic": "slang",
+    "ex": {
+      "he": "היינו בצימר בגליל, הנוף היה חבל על הזמן.",
+      "en": "We stayed at a zimmer in the Galilee; the view was amazing."
+    },
+    "note": "Lit. \"a pity about the time\", yet it almost always means \"incredible\". Occasionally it means \"awful\", so listen to the tone."
+  },
+  {
+    "id": "vd_al_hapanim",
+    "he": "על הפנים",
+    "tr": "al hapaním",
+    "en": "awful; terrible",
+    "enAlt": [
+      "lousy",
+      "the pits"
+    ],
+    "pos": "expr",
+    "register": "slang",
+    "level": "B1",
+    "topic": "slang",
+    "ex": {
+      "he": "השירות במלון היה על הפנים, אף אחד לא ענה לנו.",
+      "en": "The service at the hotel was awful; nobody answered us."
+    },
+    "note": "Lit. \"on the face\". אני מרגיש על הפנים = I feel terrible. Casual only."
+  },
+  {
+    "id": "vd_ein_matsav",
+    "he": "אין מצב",
+    "tr": "ein matsáv",
+    "en": "no way",
+    "enAlt": [
+      "not a chance",
+      "no way! (amazed)"
+    ],
+    "pos": "expr",
+    "register": "slang",
+    "level": "B1",
+    "topic": "slang",
+    "ex": {
+      "he": "אין מצב שאני עולה במדרגות לקומה העשירית!",
+      "en": "There's no way I'm taking the stairs to the tenth floor!"
+    },
+    "note": "Also amazed disbelief: אין מצב! באמת קיבלת את הדירה? The opposite, יש מצב, means \"maybe, there's a chance\": יש מצב שאני אאחר."
+  },
+  {
+    "id": "vd_bekef",
+    "he": "בכיף",
+    "tr": "bekéf",
+    "en": "gladly; with pleasure",
+    "enAlt": [
+      "sure",
+      "my pleasure"
+    ],
+    "pos": "expr",
+    "register": "colloquial",
+    "level": "A2",
+    "topic": "slang",
+    "ex": {
+      "he": "— תוכל להשקות לי את העציצים בשבוע הבא? — בכיף!",
+      "en": "— Could you water my plants next week? — Gladly!"
+    },
+    "note": "A warm \"sure!\" or \"you're welcome\". Related: כיף = fun (היה כיף!); איזה כיף לך = lucky you."
+  },
+  {
+    "id": "vd_balagan",
+    "he": "בלאגן",
+    "tr": "balagán",
+    "en": "mess; chaos",
+    "enAlt": [
+      "disorder",
+      "muddle"
+    ],
+    "pos": "expr",
+    "register": "colloquial",
+    "level": "A2",
+    "topic": "slang",
+    "ex": {
+      "he": "יש בלאגן בכל הבית, כי אנחנו באמצע מעבר דירה.",
+      "en": "The whole house is a mess because we're in the middle of moving."
+    },
+    "note": "A masculine noun (from Russian): איזה בלאגן! = what a mess! לעשות בלאגן = to make trouble, or to party hard."
+  },
+  {
+    "id": "vd_fadikha",
+    "he": "פדיחה",
+    "tr": "fadíkha",
+    "en": "embarrassing moment",
+    "enAlt": [
+      "faux pas",
+      "embarrassment"
+    ],
+    "pos": "expr",
+    "register": "slang",
+    "level": "B1",
+    "topic": "slang",
+    "ex": {
+      "he": "קראתי לבוס בשם הלא נכון כל הפגישה, איזו פדיחה!",
+      "en": "I called the boss by the wrong name the whole meeting, how embarrassing!"
+    },
+    "note": "From Arabic. A feminine noun: איזו פדיחה! = how embarrassing! להתפדח = to embarrass yourself."
+  },
+  {
+    "id": "vd_khafif",
+    "he": "חפיף",
+    "tr": "khafíf",
+    "en": "sloppy; half-hearted",
+    "enAlt": [
+      "careless",
+      "superficial"
+    ],
+    "pos": "expr",
+    "register": "slang",
+    "level": "B2",
+    "topic": "slang",
+    "ex": {
+      "he": "הוא ניקה את הדירה בחפיף, ובעל הבית לא החזיר לו את הפיקדון.",
+      "en": "He cleaned the apartment half-heartedly, and the landlord didn't give him back his deposit."
+    },
+    "note": "From Arabic \"light\". בחפיף = superficially, without real effort; someone who always works like that is a חפיפניק."
+  },
+  {
+    "id": "vd_laasot_khayim",
+    "he": "לעשות חיים",
+    "tr": "la'asót kháyim",
+    "en": "to have a great time",
+    "enAlt": [
+      "to live it up",
+      "to enjoy life"
+    ],
+    "pos": "expr",
+    "register": "slang",
+    "level": "B1",
+    "topic": "slang",
+    "ex": {
+      "he": "בקיץ טסנו ליוון ועשינו חיים, רק ים ואוכל טוב.",
+      "en": "In the summer we flew to Greece and had a blast: just sea and good food."
+    },
+    "note": "Conjugate the verb: עשינו חיים, תעשו חיים! = have a blast!"
+  },
+  {
+    "id": "vd_shvitser",
+    "he": "שוויצר",
+    "tr": "shvítser",
+    "en": "show-off",
+    "enAlt": [
+      "bragger",
+      "poser"
+    ],
+    "pos": "expr",
+    "register": "slang",
+    "level": "B1",
+    "topic": "slang",
+    "ex": {
+      "he": "הוא שוויצר גדול, כל יום הוא מעלה תמונות של האוטו החדש שלו.",
+      "en": "He's a big show-off; every day he posts photos of his new car."
+    },
+    "note": "From Yiddish. Feminine: שוויצרית. Verb: להשוויץ = to show off (מה אתה משוויץ?)."
+  },
+  {
+    "id": "vd_keta",
+    "he": "קטע",
+    "tr": "kéta",
+    "en": "thing; bit; funny situation",
+    "enAlt": [
+      "deal",
+      "scene",
+      "moment"
+    ],
+    "pos": "expr",
+    "register": "colloquial",
+    "level": "B1",
+    "topic": "slang",
+    "ex": {
+      "he": "מה הקטע שלו? הוא לא מדבר עם אף אחד במשרד.",
+      "en": "What's his deal? He doesn't talk to anyone at the office."
+    },
+    "note": "Lit. \"segment\". מה הקטע? = what's the deal?; איזה קטע! = how funny / how weird!; זה לא הקטע שלי = it's not my thing."
+  },
+  {
+    "id": "vd_dai_nu",
+    "he": "די נו",
+    "tr": "dai nu",
+    "en": "come on, stop it!",
+    "enAlt": [
+      "enough already",
+      "oh please"
+    ],
+    "pos": "expr",
+    "register": "colloquial",
+    "level": "A2",
+    "topic": "slang",
+    "ex": {
+      "he": "די נו, תפסיק לשאול מתי אנחנו מגיעים!",
+      "en": "Oh come on, stop asking when we're getting there!"
+    },
+    "note": "Impatient \"enough!\". Also playful disbelief: די נו, באמת? = no way, really?"
+  },
+  {
+    "id": "vd_keilu",
+    "he": "כאילו",
+    "tr": "ke'ílu",
+    "en": "like; as if",
+    "enAlt": [
+      "sort of",
+      "kind of"
+    ],
+    "pos": "expr",
+    "register": "colloquial",
+    "level": "B1",
+    "topic": "slang",
+    "ex": {
+      "he": "כאילו, אני לא נגד, אבל זה קצת יקר לנו עכשיו.",
+      "en": "Like, I'm not against it, but it's a bit expensive for us right now."
+    },
+    "note": "A filler word like English \"like\". Its proper meaning is \"as if\": הוא מתנהג כאילו הוא הבוס."
+  },
+  {
+    "id": "vd_bediyuk",
+    "he": "בדיוק",
+    "tr": "bediyúk",
+    "en": "exactly",
+    "enAlt": [
+      "precisely",
+      "just (now)"
+    ],
+    "pos": "expr",
+    "register": "colloquial",
+    "level": "A2",
+    "topic": "slang",
+    "ex": {
+      "he": "— אז אתה אומר שעדיף לחכות? — בדיוק, אין סיבה למהר.",
+      "en": "— So you're saying it's better to wait? — Exactly, there's no reason to rush."
+    },
+    "note": "בדיוק! = exactly! Also \"just now\": בדיוק יצאתי = I've just left. לא בדיוק = not exactly."
+  },
+  {
+    "id": "vd_magniv",
+    "he": "מגניב",
+    "tr": "magnív",
+    "en": "cool",
+    "enAlt": [
+      "neat",
+      "awesome"
+    ],
+    "pos": "expr",
+    "register": "slang",
+    "level": "A2",
+    "topic": "slang",
+    "ex": {
+      "he": "קנית אופניים חשמליים? מגניב, תן לי לנסות!",
+      "en": "You bought an electric bike? Cool, let me try!"
+    },
+    "note": "Works like an adjective: מגניבה (f), מגניבים (pl). Teen-ish, but adults use it too."
+  },
+  {
+    "id": "vd_titkhadesh",
+    "he": "תתחדש/י",
+    "tr": "titkhadésh / titkhadeshí",
+    "en": "Enjoy your new (thing)!",
+    "enAlt": [
+      "congrats on the new purchase",
+      "wear it well"
+    ],
+    "alt": [
+      "תתחדש",
+      "תתחדשי",
+      "תתחדשו"
+    ],
+    "pos": "expr",
+    "root": "ח.ד.ש",
+    "register": "colloquial",
+    "level": "B1",
+    "topic": "slang",
+    "ex": {
+      "he": "— קניתי מעיל חדש. — תתחדשי! הצבע ממש מתאים לך.",
+      "en": "— I bought a new coat. — Enjoy it! The color really suits you."
+    },
+    "note": "Said to anyone with something new: clothes, a phone, a car, a haircut. To a man תתחדש, to a woman תתחדשי, to a group תתחדשו. Same root as חדש (new)."
+  },
+  {
+    "id": "vd_katan_alay",
+    "he": "קטן עליי",
+    "tr": "katán aláy",
+    "en": "piece of cake; easy for me",
+    "enAlt": [
+      "no problem for me",
+      "child's play"
+    ],
+    "pos": "expr",
+    "register": "slang",
+    "level": "B1",
+    "topic": "slang",
+    "ex": {
+      "he": "— אתה יכול להרכיב את הארון לבד? — קטן עליי, תביא לי מברג.",
+      "en": "— Can you put the wardrobe together by yourself? — Piece of cake, bring me a screwdriver."
+    },
+    "note": "Confident \"that's nothing for me\". Careful: about clothes, קטן עליי literally means \"too small for me\"."
+  },
+  {
+    "id": "vd_ba_li",
+    "he": "בא לי",
+    "tr": "ba li",
+    "en": "I feel like; I want",
+    "enAlt": [
+      "I'm in the mood for",
+      "I fancy"
+    ],
+    "pos": "expr",
+    "register": "colloquial",
+    "level": "A2",
+    "topic": "slang",
+    "ex": {
+      "he": "בא לי לאכול פיצה הערב, בא לך להזמין?",
+      "en": "I feel like having pizza tonight; do you want to order?"
+    },
+    "note": "With a verb it stays בא: בא לי לישון. With a noun it agrees in careful speech (באה לי גלידה), though many people say בא לי for everything. לא בא לי = I don't feel like it."
+  },
+  {
+    "id": "vd_khaval",
+    "he": "חבל",
+    "tr": "khavál",
+    "en": "too bad; what a pity",
+    "enAlt": [
+      "it's a shame",
+      "what a waste"
+    ],
+    "pos": "expr",
+    "register": "colloquial",
+    "level": "A2",
+    "topic": "slang",
+    "ex": {
+      "he": "חבל שלא באת למסיבה, היה ממש שמח.",
+      "en": "Too bad you didn't come to the party, it was really fun."
+    },
+    "note": "חבל! = what a shame! חבל על הכסף = a waste of money. Different from the slang חבל על הזמן (amazing)."
+  },
+  {
+    "id": "vd_yalla_bye",
+    "he": "יאללה ביי",
+    "tr": "yálla bai",
+    "en": "OK, bye!",
+    "enAlt": [
+      "bye then",
+      "see ya"
+    ],
+    "pos": "expr",
+    "register": "colloquial",
+    "level": "A2",
+    "topic": "slang",
+    "ex": {
+      "he": "טוב, אני חייב לזוז. יאללה ביי, נדבר מחר!",
+      "en": "OK, I've got to go. Bye then, talk tomorrow!"
+    },
+    "note": "The classic Israeli way to end a phone call: Arabic plus English in two words."
+  },
+  {
+    "id": "vd_betakh",
+    "he": "בטח",
+    "tr": "bétakh",
+    "en": "sure; of course",
+    "enAlt": [
+      "definitely",
+      "probably"
+    ],
+    "pos": "expr",
+    "root": "ב.ט.ח",
+    "register": "colloquial",
+    "level": "A2",
+    "topic": "slang",
+    "ex": {
+      "he": "— אפשר לשבת פה? — בטח, תשב, המקום פנוי.",
+      "en": "— Can I sit here? — Sure, have a seat, it's free."
+    },
+    "note": "בטח! = sure! Before a verb it means \"probably\": הוא בטח תקוע בפקק = he's probably stuck in traffic. Same root as בטוח (sure) and ביטוח (insurance)."
+  },
+  {
+    "id": "vd_fraier",
+    "he": "פרייר",
+    "tr": "fráyer",
+    "en": "sucker; pushover",
+    "enAlt": [
+      "someone who gets taken advantage of",
+      "naive person"
+    ],
+    "pos": "expr",
+    "register": "slang",
+    "level": "B2",
+    "topic": "slang",
+    "ex": {
+      "he": "אני לא פרייר, אני לא משלם על משהו שלא הזמנתי.",
+      "en": "I'm not a sucker; I'm not paying for something I didn't order."
+    },
+    "note": "From Yiddish. Not being a פרייר is a core Israeli value, and it explains a lot about queues and bargaining."
+  }
+]

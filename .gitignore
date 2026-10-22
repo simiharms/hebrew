@@ -6,3 +6,4 @@ dist-single
 public/news.json
 dist-offline
 release
+__pycache__/

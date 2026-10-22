@@ -568,8 +568,8 @@
       },
       {
         "s": "B",
-        "he": "זה אמיתי. אני ממליצה על חלל עבודה משותף, אפילו פעמיים בשבוע.",
-        "en": "That's real. I recommend a shared workspace, even just twice a week."
+        "he": "זו בעיה אמיתית. אני ממליצה על חלל עבודה משותף, אפילו פעמיים בשבוע.",
+        "en": "That's a real problem. I recommend a shared workspace, even just twice a week."
       },
       {
         "s": "A",
@@ -1012,8 +1012,8 @@
       },
       {
         "s": "B",
-        "he": "ומה עם מקום? חדר הישיבות קטן מדי, ואולם זה לא בא בחשבון.",
-        "en": "And what about a venue? The meeting room is too small, and a hall is out of the question."
+        "he": "ומה עם מקום? חדר הישיבות קטן מדי, ולשכור אולם זה לא בא בחשבון.",
+        "en": "And what about a venue? The meeting room is too small, and renting a hall is out of the question."
       },
       {
         "s": "A",
@@ -1708,7 +1708,7 @@
     "title": "לדחות את ההשקה?",
     "titleEn": "Delay the Launch?",
     "genre": "meeting",
-    "synopsis": "Two weeks before a big launch, R&D head Ido has found a serious bug. In a tense board meeting chaired by Orit, he clashes with marketing head Hila over whether to postpone.",
+    "synopsis": "Two weeks before a big launch, R&D head Ido has found a serious bug. In a tense management meeting chaired by Orit, he clashes with marketing head Hila over whether to postpone.",
     "speakers": {
       "A": {
         "name": "אורית",
@@ -1989,7 +1989,7 @@
       {
         "s": "A",
         "he": "ראשית, רשומה על הדירה משכנתא של המוכר, והיא עדיין לא סולקה.",
-        "en": "First, there's a mortgage of the seller's registered on the apartment, and it hasn't been paid off yet."
+        "en": "First, the seller has a mortgage registered on the apartment, and it hasn't been paid off yet."
       },
       {
         "s": "B",
@@ -2085,7 +2085,7 @@
         "q": "מה הבעיה הראשונה שדפנה מצאה בחוזה?",
         "qEn": "What is the first problem Dafna found in the contract?",
         "answer": "יש על הדירה משכנתא של המוכר, שעוד לא סולקה.",
-        "answerEn": "There's a mortgage of the seller's on the apartment that hasn't been paid off yet.",
+        "answerEn": "The seller has a mortgage on the apartment that hasn't been paid off yet.",
         "keywords": [
           [
             "משכנתא",
@@ -2135,8 +2135,8 @@
       {
         "q": "מה הזוג מחליט בסוף?",
         "qEn": "What does the couple decide in the end?",
-        "answer": "לא לחתום היום, ולחכות לתשובה של המוכר על התיקונים.",
-        "answerEn": "Not to sign today, and to wait for the seller's answer about the amendments.",
+        "answer": "לא לחתום בלי התיקונים, ולחכות לתשובה של המוכר.",
+        "answerEn": "Not to sign without the amendments, and to wait for the seller's answer.",
         "keywords": [
           [
             "לחתום",

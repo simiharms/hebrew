@@ -8,12 +8,12 @@
     "kind": "article",
     "paragraphs": [
       {
-        "he": "בישראל לא מתביישים לדבר על כסף. כבר בראיון הראשון, ולפעמים אפילו בשיחת הטלפון הראשונה עם המגייסת, סביר להניח שתשמעו את השאלה \"מה ציפיות השכר שלך?\" הרבה מועמדים נלחצים, זורקים את המספר הראשון שעולה להם לראש ומתחרטים על זה אחר כך. אז איך עושים את זה נכון? ביקשנו מכמה אנשי משאבי אנוש לשתף אותנו בטיפים שלהם.",
-        "en": "In Israel, people aren't shy about talking money. Already in the first interview, and sometimes even in the first phone call with the recruiter, you'll most likely hear the question \"What are your salary expectations?\" Many candidates get stressed, throw out the first number that comes to mind and regret it later. So how do you do it right? We asked several HR people to share their tips with us."
+        "he": "בישראל לא מתביישים לדבר על כסף. כבר בראיון הראשון, ולפעמים אפילו בשיחת הטלפון הראשונה עם המגייסת, סביר להניח שתשמעו את השאלה \"מה ציפיות השכר שלך?\" הרבה מועמדים נלחצים, זורקים את המספר הראשון שעולה להם בראש ומתחרטים על זה אחר כך. אז איך עושים את זה נכון? ביקשנו מכמה אנשי משאבי אנוש לשתף אותנו בטיפים שלהם.",
+        "en": "In Israel, people aren't shy about talking money. As early as the first interview, and sometimes even in the first phone call with the recruiter, you'll most likely hear the question \"What are your salary expectations?\" Many candidates get stressed, throw out the first number that comes to mind and regret it later. So how do you do it right? We asked several HR people to share their tips with us."
       },
       {
         "he": "הטיפ הראשון: לעשות שיעורי בית. לפני הראיון כדאי לבדוק כמה מקובל להרוויח בתפקיד דומה – אפשר לשאול חברים מהתחום, לחפש בקבוצות ברשתות החברתיות או לדבר עם חברת השמה. חשוב לזכור שבישראל מדברים בדרך כלל על שכר חודשי ברוטו, ולא על שכר שנתי כמו בהרבה מדינות אחרות. \"אל תגידו מספר אחד, תנו טווח,\" ממליצה מיכל, מנהלת משאבי אנוש בחברת תוכנה. \"אבל שימו לב: המספר הנמוך בטווח צריך להיות מספר שבאמת תשמחו לקבל, כי ברוב המקרים זה בדיוק מה שיציעו לכם.\"",
-        "en": "Tip number one: do your homework. Before the interview, it's worth checking how much people usually earn in a similar role – you can ask friends in the field, search in groups on social media or talk to a recruitment agency. It's important to remember that in Israel people usually talk about a monthly gross salary, not an annual one as in many other countries. \"Don't say one number, give a range,\" recommends Michal, an HR manager at a software company. \"But be careful: the low number in the range should be a number you'd really be happy to get, because in most cases that's exactly what they'll offer you.\""
+        "en": "Tip number one: do your homework. Before the interview, it's worth checking how much people usually earn in a similar role – you can ask friends in the field, search in groups on social media or talk to a recruitment agency. It's important to remember that in Israel people usually talk about a monthly gross salary, not an annual one as in many other countries. \"Don't say one number, give a range,\" recommends Michal, an HR manager at a software company. \"But be careful: the lower number in the range should be a number you'd really be happy to get, because in most cases that's exactly what they'll offer you.\""
       },
       {
         "he": "הטיפ השני: לא להסתכל רק על המשכורת. חבילת השכר כוללת גם דברים כמו קרן השתלמות, ימי חופשה, אופציות, החזר נסיעות ואפשרות לעבוד מהבית. לפעמים למעסיק קל יותר להוסיף הטבה מאשר להעלות את שכר הבסיס, כי התקציב לתפקיד כבר נקבע מראש. אם הסכום שהציעו לכם נמוך ממה שציפיתם, נסו לבקש משהו אחר במקום: עוד כמה ימי חופשה, למשל, או מימון של קורס מקצועי.",
@@ -882,8 +882,8 @@
         ]
       },
       {
-        "q": "למה, לדעתכם, מורן התקשרה מיד אחרי שדנה שלחה בקשה בכתב?",
-        "qEn": "Why, in your opinion, did Moran call right after Dana sent a written request?",
+        "q": "למה, לדעתכם, מורן התקשרה יום אחרי שדנה שלחה בקשה בכתב?",
+        "qEn": "Why, in your opinion, did Moran call the day after Dana sent a written request?",
         "answer": "כי בקשה בכתב היא רצינית, והחברה לא רצתה לאבד לקוחה.",
         "answerEn": "Because a written request is serious, and the company didn't want to lose a customer.",
         "keywords": [
@@ -1035,7 +1035,7 @@
       },
       {
         "he": "לשמש ל",
-        "en": "to be used for, to serve as",
+        "en": "to be used for, to serve (a purpose)",
         "tr": "leshamésh le"
       },
       {
@@ -1246,11 +1246,11 @@
     "paragraphs": [
       {
         "he": "שאלו כל זוג צעיר בישראל מה מדאיג אותו, וסביר להניח שתשמעו שתי מילים: \"סוף החודש\". שכר דירה, מעון לילדים, קניות בסופר, דלק, חשבונות – ולפני שמספיקים לשים לב, חשבון הבנק כבר במינוס. אז איך משפחות צעירות מצליחות לגמור את החודש? שוחחנו עם כמה מהן, וגם עם יועצת כלכלית.",
-        "en": "Ask any young couple in Israel what worries them, and you'll most likely hear two words: \"sof ha-chodesh\" – \"the end of the month\". Rent, daycare for the kids, supermarket shopping, fuel, bills – and before you even notice, the bank account is already in overdraft. So how do young families manage to make ends meet? We talked to a few of them, and to a financial advisor as well."
+        "en": "Ask any young couple in Israel what worries them, and you'll most likely hear two words: \"sof ha-khodesh\" – \"the end of the month\". Rent, daycare for the kids, supermarket shopping, fuel, bills – and before you even notice, the bank account is already in overdraft. So how do young families manage to make ends meet? We talked to a few of them, and to a financial advisor as well."
       },
       {
         "he": "נוי ואלון, בני שלושים וקצת מראשון לציון, הם הורים לשני ילדים קטנים. היא מורה, הוא טכנאי מחשבים. \"שנינו עובדים במשרה מלאה ומרוויחים לא רע,\" מספרת נוי, \"אבל כל חודש מחדש מצאנו את עצמנו במינוס, ולא הבנו לאן הכסף נעלם.\" לפני שנה הם החליטו שנמאס להם: הם ישבו ערב אחד מול המחשב ורשמו את כל ההוצאות שלהם, אפילו את הקטנות ביותר.",
-        "en": "Noy and Alon, thirty-somethings from Rishon LeZion, are the parents of two small children. She's a teacher, he's a computer technician. \"We both work full-time and make decent money,\" says Noy, \"but month after month we found ourselves in overdraft, and we didn't understand where the money was disappearing to.\" A year ago they decided they'd had enough: they sat down one evening in front of the computer and wrote down all their expenses, even the smallest ones."
+        "en": "Noy and Alon from Rishon LeZion, both in their early thirties, are the parents of two small children. She's a teacher, he's a computer technician. \"We both work full-time and make decent money,\" says Noy, \"but month after month we found ourselves in overdraft, and we didn't understand where the money was disappearing to.\" A year ago they decided they'd had enough: they sat down one evening in front of the computer and wrote down all their expenses, even the smallest ones."
       },
       {
         "he": "התוצאות הפתיעו אותם. \"גילינו שאנחנו מוציאים המון על משלוחים של אוכל ועל מנויים שאף אחד לא משתמש בהם,\" אומר אלון. מאז הם מתכננים מראש מה יאכלו בכל שבוע, עושים קנייה גדולה אחת בשבוע עם רשימה מסודרת, קונים לילדים בגדים יד שנייה ועברו לחבילה סלולרית זולה יותר. \"לא כיף לוותר על דברים,\" הוא מודה, \"אבל להיות במינוס זה הרבה פחות כיף.\"",

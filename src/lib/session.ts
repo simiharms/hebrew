@@ -107,7 +107,11 @@ export function buildWordSession(maxReviews = 40): WordTask[] {
     mode: 'intro',
     isNew: true,
   }));
-  // Interleave: two reviews, then one new word.
+  return interleave(reviews, fresh);
+}
+
+// Two reviews, then one new word.
+function interleave(reviews: WordTask[], fresh: WordTask[]): WordTask[] {
   const out: WordTask[] = [];
   let ri = 0;
   let ni = 0;
@@ -116,6 +120,29 @@ export function buildWordSession(maxReviews = 40): WordTask[] {
     if (ni < fresh.length) out.push(fresh[ni++]);
   }
   return out;
+}
+
+/**
+ * Typed practice over one deck's words: due ones first, then a few new ones.
+ * When nothing is due and every word has been seen, it practises the weakest.
+ */
+export function buildDeckWordSession(items: VocabItem[], maxNew = 8, maxReviews = 30): WordTask[] {
+  const cards = getState().cards;
+  const now = Date.now();
+  const task = (item: VocabItem, isNew: boolean): WordTask => ({
+    cardId: `v:${item.id}`,
+    item,
+    mode: isNew ? 'intro' : pickMode(item, cards[`v:${item.id}`]),
+    isNew,
+  });
+  const seen = items.filter((v) => cards[`v:${v.id}`]);
+  let reviews = seen.filter((v) => cards[`v:${v.id}`].due <= now).slice(0, maxReviews);
+  const fresh = items.filter((v) => !cards[`v:${v.id}`]).slice(0, maxNew);
+  if (!reviews.length && !fresh.length) reviews = [...seen].sort((a, b) => cards[`v:${a.id}`].s - cards[`v:${b.id}`].s).slice(0, 12);
+  return interleave(
+    reviews.map((v) => task(v, false)),
+    fresh.map((v) => task(v, true)),
+  );
 }
 
 export function acceptedHebrew(item: VocabItem, cardId: string): string[] {
@@ -137,13 +164,13 @@ export interface VerbTask {
   answer: Form;
 }
 
-const PRESENT_PRONOUNS: Record<string, [string, string][]> = {
+export const PRESENT_PRONOUNS: Record<string, [string, string][]> = {
   ms: [['אני', 'I (m)'], ['אתה', 'you (m)'], ['הוא', 'he']],
   fs: [['אני', 'I (f)'], ['את', 'you (f)'], ['היא', 'she']],
   mp: [['אנחנו', 'we (m)'], ['אתם', 'you (m pl)'], ['הם', 'they (m)']],
   fp: [['אנחנו', 'we (f)'], ['אתן', 'you (f pl)'], ['הן', 'they (f)']],
 };
-const PERSON_PRONOUNS: Record<string, [string, string][]> = {
+export const PERSON_PRONOUNS: Record<string, [string, string][]> = {
   '1s': [['אני', 'I']],
   '2ms': [['אתה', 'you (m)']],
   '2fs': [['את', 'you (f)']],
@@ -154,7 +181,7 @@ const PERSON_PRONOUNS: Record<string, [string, string][]> = {
   '2fp': [['אתן', 'you (f pl)']],
   '3p': [['הם', 'they (m)'], ['הן', 'they (f)']],
 };
-const FUTURE_PRONOUNS: Record<string, [string, string][]> = {
+export const FUTURE_PRONOUNS: Record<string, [string, string][]> = {
   ...PERSON_PRONOUNS,
   '2mp': [['אתם', 'you (m pl)'], ['אתן', 'you (f pl)']],
 };
@@ -177,6 +204,11 @@ export function makeVerbTask(verb: Verb, tense: Tense, exclude?: string): VerbTa
   };
 }
 
+/** Whether a tense of this verb is in normal use (the present of להיות isn't). */
+export function drillable(v: Verb, t: Tense | 'imp'): boolean {
+  return !!(t === 'imp' ? v.imp : v[t]) && !v.rare?.includes(t);
+}
+
 /** Verb-tense combinations in teaching order: chunks of 6 verbs, present → past → future. */
 export function verbCardOrder(): { verb: Verb; tense: Tense }[] {
   const lr = levelRank(getState().level);
@@ -188,7 +220,7 @@ export function verbCardOrder(): { verb: Verb; tense: Tense }[] {
   const out: { verb: Verb; tense: Tense }[] = [];
   for (let i = 0; i < sorted.length; i += 6) {
     const chunk = sorted.slice(i, i + 6);
-    for (const t of TENSES) for (const v of chunk) out.push({ verb: v, tense: t });
+    for (const t of TENSES) for (const v of chunk) if (drillable(v, t)) out.push({ verb: v, tense: t });
   }
   return out;
 }
@@ -199,8 +231,9 @@ export function buildVerbSession(onlyVerb?: string, size = 12): VerbTask[] {
   if (onlyVerb) {
     const v = verbById.get(onlyVerb);
     if (!v) return [];
+    const tenses = TENSES.filter((t) => drillable(v, t));
     const tasks: VerbTask[] = [];
-    for (let i = 0; i < size; i++) tasks.push(makeVerbTask(v, TENSES[i % 3]));
+    for (let i = 0; i < size; i++) tasks.push(makeVerbTask(v, tenses[i % tenses.length]));
     return tasks;
   }
   const due = Object.entries(s.cards)
@@ -241,7 +274,11 @@ export function buildVerbListSession(ids: string[], size = 12): VerbTask[] {
   const list = ids.map((id) => verbById.get(id)).filter(Boolean) as Verb[];
   if (!list.length) return [];
   const tasks: VerbTask[] = [];
-  for (let i = 0; i < size; i++) tasks.push(makeVerbTask(list[i % list.length], TENSES[(i + Math.floor(i / list.length)) % 3]));
+  for (let i = 0; i < size; i++) {
+    const v = list[i % list.length];
+    const tenses = TENSES.filter((t) => drillable(v, t));
+    tasks.push(makeVerbTask(v, tenses[(i + Math.floor(i / list.length)) % tenses.length]));
+  }
   for (let i = tasks.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [tasks[i], tasks[j]] = [tasks[j], tasks[i]];

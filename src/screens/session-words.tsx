@@ -7,7 +7,8 @@ import { allVocab, displayRoot, rootFamily } from '../lib/content.ts';
 import { type Rating, review } from '../lib/fsrs.ts';
 import { type CheckResult, checkEnglish, checkHebrew, normalizeEn } from '../lib/hebrew.ts';
 import { go } from '../lib/router.ts';
-import { acceptedHebrew, buildWordSession, findCloze, pickNewWords, type WordTask } from '../lib/session.ts';
+import { deckById } from '../lib/decks.ts';
+import { acceptedHebrew, buildDeckWordSession, buildWordSession, findCloze, pickNewWords, type WordTask } from '../lib/session.ts';
 import { record } from '../lib/skills.ts';
 import { getState, markDone, markTask, setState, todayLog } from '../lib/store.ts';
 import { speak } from '../lib/tts.ts';
@@ -37,8 +38,13 @@ function rateCard(cardId: string, g: Rating, countsAsNew = true) {
   });
 }
 
-export function WordSession() {
-  const initial = useMemo(() => buildWordSession(), []);
+/** Deck words (or, without a deck, the daily reviews and new words). */
+function deckWords(deckId: string): VocabItem[] {
+  return (deckById(deckId)?.cards() ?? []).map((c) => c.vocab).filter(Boolean) as VocabItem[];
+}
+
+export function WordSession({ deck }: { deck?: string }) {
+  const initial = useMemo(() => (deck ? buildDeckWordSession(deckWords(deck)) : buildWordSession()), [deck]);
   const [queue, setQueue] = useState<WordTask[]>(initial);
   const [idx, setIdx] = useState(0);
   const [stats, setStats] = useState({ right: 0, total: 0 });
@@ -61,7 +67,7 @@ export function WordSession() {
     );
   }
 
-  if (idx >= queue.length) return <SessionDone task="words" right={stats.right} total={stats.total} />;
+  if (idx >= queue.length) return <SessionDone task={deck ? `deck:${deck}` : 'words'} right={stats.right} total={stats.total} doneId={deck ? `deck:${deck}` : undefined} />;
 
   const task = queue[idx];
 
@@ -92,7 +98,8 @@ export function WordSession() {
     rated.add(task.cardId);
     rateCard(task.cardId, 4, false);
     const inQueue = new Set(queue.map((t) => t.cardId));
-    const [extra] = pickNewWords(queue.length + 1).filter((v) => !inQueue.has(`v:${v.id}`) && !getState().cards[`v:${v.id}`]);
+    const pool = deck ? deckWords(deck) : pickNewWords(queue.length + 1);
+    const [extra] = pool.filter((v) => !inQueue.has(`v:${v.id}`) && !getState().cards[`v:${v.id}`]);
     const q = [...queue];
     if (extra) q.push({ cardId: `v:${extra.id}`, item: extra, mode: 'intro', isNew: true });
     setQueue(q);

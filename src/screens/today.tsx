@@ -122,8 +122,17 @@ export function Today() {
           </button>
         )}
 
-        <div class="section-title">
-          Today's plan{weakLabel ? ` · focus: ${weakLabel}` : ''}
+        <div class="row mt">
+          <div class="section-title grow" style={{ margin: 0 }}>
+            {s.settings.verbsOnly ? 'Today: verbs only' : `Today's plan${weakLabel ? ` · focus: ${weakLabel}` : ''}`}
+          </div>
+          <button
+            class={`chip ${s.settings.verbsOnly ? 'on' : ''}`}
+            onClick={() => setState((x) => void (x.settings.verbsOnly = !x.settings.verbsOnly))}
+            title="Make today's plan all verb practice"
+          >
+            🎯 Verbs only
+          </button>
         </div>
         <div class="list">
           {plan.map((p) => (

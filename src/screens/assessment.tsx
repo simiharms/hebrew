@@ -15,8 +15,8 @@ import { speak, ttsSupported } from '../lib/tts.ts';
 import { renderPrompt } from './grammar.tsx';
 
 // Difficulty bands used to turn answers into a level estimate.
-type Band = 0 | 1 | 2; // 0 = A2/A2+, 1 = B1/B1+, 2 = B2
-const bandOf = (l: Level | string): Band => (levelRank(l) <= 1 ? 0 : levelRank(l) <= 3 ? 1 : 2);
+type Band = 0 | 1 | 2 | 3; // 0 = A1/A2, 1 = A2+/B1, 2 = B1+/B2, 3 = C1
+const BANDS: Band[] = [0, 1, 2, 3];
 
 type Item =
   | { kind: 'vocab'; band: Band; item: VocabItem }
@@ -50,14 +50,16 @@ function buildSections(): Section[] {
   const single = (v: VocabItem) => ['noun', 'verb', 'adj'].includes(v.pos) && !/[ /]/.test(v.he);
   const words = (lvl: string, n: number) => shuffle(vocab.filter((v) => v.level === lvl && single(v))).slice(0, n);
   const vocabItems: Item[] = [
-    ...words('A2', 4).map((item) => ({ kind: 'vocab' as const, band: 0 as Band, item })),
-    ...words('B1', 4).map((item) => ({ kind: 'vocab' as const, band: 1 as Band, item })),
+    ...words('A1', 2).map((item) => ({ kind: 'vocab' as const, band: 0 as Band, item })),
+    ...words('A2', 3).map((item) => ({ kind: 'vocab' as const, band: 0 as Band, item })),
+    ...words('B1', 3).map((item) => ({ kind: 'vocab' as const, band: 1 as Band, item })),
     ...words('B2', 3).map((item) => ({ kind: 'vocab' as const, band: 2 as Band, item })),
+    ...words('C1', 2).map((item) => ({ kind: 'vocab' as const, band: 3 as Band, item })),
   ];
 
   const verbItems: Item[] = [];
-  const easy = shuffle(verbs.filter((v) => v.binyan === 'paal' && v.level === 'A2'));
-  const harder = shuffle(verbs.filter((v) => v.binyan !== 'paal'));
+  const easy = shuffle(verbs.filter((v) => v.binyan === 'paal' && ['A1', 'A2'].includes(v.level) && !v.rare?.length));
+  const harder = shuffle(verbs.filter((v) => v.binyan !== 'paal' && !v.rare?.length));
   const persons = shuffle(PERSONS);
   [...easy.slice(0, 3), ...harder.slice(0, 4)].forEach((verb, i) => {
     const [tense, person, pronoun] = persons[i % persons.length];
@@ -79,7 +81,7 @@ function buildSections(): Section[] {
     shuffle(grammar.filter((g) => levels.includes(g.level)))
       .slice(0, n)
       .map((g) => ({ kind: 'drill' as const, band, drill: shuffle(g.drills)[0], lesson: g.id }));
-  const grammarItems = [...drillsFrom(['A2', 'A2+'], 3, 0), ...drillsFrom(['B1'], 3, 1), ...drillsFrom(['B1+', 'B2'], 2, 2)];
+  const grammarItems = [...drillsFrom(['A1', 'A2'], 3, 0), ...drillsFrom(['A2+', 'B1'], 3, 1), ...drillsFrom(['B1+', 'B2'], 2, 2), ...drillsFrom(['C1'], 2, 3)];
 
   const dict = (lvl: Level, band: Band): Item[] => {
     const sc = shuffle(scenes.filter((s) => s.level === lvl && s.dictation.length))[0];
@@ -87,7 +89,9 @@ function buildSections(): Section[] {
     const line = sc.lines[sc.dictation[0]];
     return [{ kind: 'dictation', band, text: line.he, gender: sc.speakers[line.s]?.gender }];
   };
-  const listeningItems = ttsSupported() ? [...dict('A2+', 0), ...dict('B1', 1), ...dict('B1+', 1), ...dict('B2', 2)] : [];
+  const listeningItems = ttsSupported()
+    ? [...dict('A1', 0), ...dict('A2', 0), ...dict('A2+', 1), ...dict('B1', 1), ...dict('B1+', 2), ...dict('B2', 2), ...dict('C1', 3)]
+    : [];
 
   const read = (lvl: Level, band: Band): Item[] => {
     const r = shuffle(readings.filter((x) => x.level === lvl))[0];
@@ -97,7 +101,7 @@ function buildSections(): Section[] {
     const q = r.questions.find((qq) => qq.keywords.every((g) => g.some((k) => containsKeyword(text, k)))) ?? r.questions[0];
     return [{ kind: 'reading', band, text, q }];
   };
-  const readingItems = [...read('A2+', 0), ...read('B1', 1), ...read('B2', 2)];
+  const readingItems = [...read('A2', 0), ...read('B1', 1), ...read('B2', 2), ...read('C1', 3)];
 
   return [
     { skill: 'vocab', title: 'Vocabulary', intro: 'Type the Hebrew word. They get harder as you go — “I don’t know” is fine.', items: vocabItems },
@@ -109,15 +113,18 @@ function buildSections(): Section[] {
   ].filter((s) => s.items.length) as Section[];
 }
 
-/** Level from per-band accuracy (0 = A2/A2+, 1 = B1/B1+, 2 = B2). */
-function levelFromBands(acc: (number | null)[]): Level {
-  const [low, mid, high] = acc;
-  if (low !== null && low < 0.6) return 'A2';
-  if (mid === null) return low === null ? 'A2+' : low >= 0.85 ? 'B1' : 'A2+';
-  if (mid < 0.4) return 'A2+';
-  if (mid < 0.75) return 'B1';
-  if (high === null) return 'B1+';
-  return high >= 0.5 ? 'B2' : 'B1+';
+/** Level from per-band accuracy (0 = A1/A2, 1 = A2+/B1, 2 = B1+/B2, 3 = C1). */
+export function levelFromBands(acc: (number | null)[]): Level {
+  const [b0, b1, b2, b3] = acc;
+  if (b0 !== null && b0 < 0.4) return 'A1';
+  if (b0 !== null && b0 < 0.7) return 'A2';
+  if (b1 === null) return b0 !== null && b0 >= 0.9 ? 'A2+' : 'A2';
+  if (b1 < 0.4) return 'A2';
+  if (b1 < 0.75) return 'A2+';
+  if (b2 === null || b2 < 0.4) return 'B1';
+  if (b2 < 0.75) return 'B1+';
+  if (b3 === null || b3 < 0.6) return 'B2';
+  return 'C1';
 }
 
 const CONNECTORS = ['כי', 'אבל', 'לכן', 'למרות', 'בגלל', 'כש', 'אם', 'גם', 'אחרי', 'לפני', 'בנוסף', 'אולם', 'כדי', 'בזמן', 'עם זאת'];
@@ -412,7 +419,7 @@ function AssessmentResult({
   for (const s of sections) {
     const list = scores[s.skill];
     if (!list?.length) continue;
-    const acc = ([0, 1, 2] as Band[]).map((b) => {
+    const acc = BANDS.map((b) => {
       const xs = list.filter((x) => x.band === b);
       return xs.length ? xs.reduce((a, x) => a + x.v, 0) / xs.length : null;
     });

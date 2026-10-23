@@ -24,7 +24,19 @@ for (const v of vocab) if (!byEn.has(v.en)) byEn.set(v.en, v);
 
 const browser = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
 const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true });
+// Remember what the app reads aloud, so listening exercises can be answered.
+await ctx.addInitScript(() => {
+  const synth = window.speechSynthesis;
+  if (!synth) return;
+  const orig = synth.speak.bind(synth);
+  window.__spoken = [];
+  synth.speak = (u) => {
+    window.__spoken.push(u.text);
+    orig(u);
+  };
+});
 const page = await ctx.newPage();
+const lastSpoken = () => page.evaluate(() => window.__spoken?.at(-1) ?? '');
 const errors = [];
 page.on('pageerror', (e) => errors.push(`pageerror: ${e.message}`));
 page.on('console', (m) => m.type() === 'error' && errors.push(`console: ${m.text()}`));
@@ -96,8 +108,8 @@ else {
   check(await page.getByText('Session done').isVisible(), 'word session completes');
 }
 
-// --- verb drill
-await nav('#/session/verbs');
+// --- verb drill (conjugation only)
+await nav('#/session/vkind/conjugate');
 let vOk = 0;
 let vTotal = 0;
 const TENSE = { present: 'present', past: 'past', future: 'future' };
@@ -126,6 +138,81 @@ for (let i = 0; i < 4; i++) {
 }
 check(vTotal === 4 && vOk === 4, `verb drill: ${vOk}/${vTotal} correct`);
 
+const tablesOf = (v) => ['present', 'past', 'future', 'imp'].flatMap((t) => Object.values(v[t] ?? {}).map((f) => [t, f[0]]));
+
+// --- verbs in a sentence: the gap is the form used in one of the verb's examples
+await nav('#/session/vkind/context');
+let cOk = 0;
+for (let i = 0; i < 3; i++) {
+  const inf = (await page.locator('.prompt-box .hint .he').textContent())?.trim();
+  const verb = verbs.find((v) => v.inf === inf);
+  const [before, after] = await page.locator('.prompt-box [dir=rtl]').evaluate((el) => {
+    const span = el.querySelector('span');
+    const text = el.textContent;
+    const gap = span?.textContent ?? '';
+    const k = text.indexOf(gap);
+    return [text.slice(0, k), text.slice(k + gap.length)];
+  });
+  const sentences = [verb?.ex, ...(verb?.exs ?? [])].filter(Boolean).map((e) => e.he);
+  const form = tablesOf(verb ?? {}).map(([, f]) => f).find((f) => sentences.includes(before + f + after)) ?? tablesOf(verb ?? {}).map(([, f]) => f).find((f) => (before + f + after).trim().endsWith('.') && before.split(' ').length <= 3);
+  await page.locator('input.answer').fill(form ?? '?');
+  await page.getByRole('button', { name: 'Check' }).click();
+  if (await page.getByText('✓ Correct').isVisible()) cOk++;
+  if (i === 0) await shot('e2e-verb-context');
+  await page.getByRole('button', { name: 'Continue →' }).click();
+}
+check(cOk === 3, `verbs in a sentence: ${cOk}/3 correct`);
+
+// --- recognise the form: pick the tense and person
+await nav('#/session/vkind/identify');
+let idOk = 0;
+for (let i = 0; i < 3; i++) {
+  const form = (await page.locator('.prompt-box .he-xl').textContent())?.trim();
+  const en = (await page.locator('.prompt-box .small.muted').first().textContent())?.trim();
+  const verb = verbs.find((v) => v.en === en && tablesOf(v).some(([, f]) => f === form));
+  const [tense] = tablesOf(verb).find(([, f]) => f === form);
+  const label = { present: 'Present', past: 'Past', future: 'Future', imp: 'Command' }[tense];
+  await page.getByRole('button', { name: new RegExp(`^${label}`) }).click();
+  const person = Object.entries(verb[tense]).find(([, f]) => f[0] === form)[0];
+  const buttons = page.locator('.choice-grid').nth(1).locator('button');
+  const keys = tense === 'present' ? ['ms', 'fs', 'mp', 'fp'] : tense === 'imp' ? ['ms', 'fs', 'mp'] : Object.keys(verb[tense]);
+  await buttons.nth(keys.indexOf(person)).click();
+  if (await page.getByText('Right!').isVisible()) idOk++;
+  if (i === 0) await shot('e2e-verb-identify');
+  await page.getByRole('button', { name: 'Continue →' }).click();
+}
+check(idOk === 3, `recognise the form: ${idOk}/3 right`);
+
+// --- table challenge: fill the whole past tense of the first verb
+const tv = verbs.find((v) => v.past && !v.rare?.includes('past'));
+await nav(`#/verbs/table/${tv.id}/past`);
+const order = ['1s', '2ms', '2fs', '3ms', '3fs', '1p', '2mp', '2fp', '3p'];
+const inputs = page.locator('input.answer');
+for (let k = 0; k < order.length; k++) await inputs.nth(k).fill(tv.past[order[k]][0]);
+await page.getByRole('button', { name: 'Check the table' }).click();
+check(await page.getByText(`${order.length} / ${order.length} forms right`).isVisible(), `table challenge: whole past of ${tv.inf}`);
+await shot('e2e-table');
+
+// --- card decks: flip through the alphabet
+await nav('#/deck/alpha');
+await page.getByRole('button', { name: /Flip cards/ }).click();
+for (let k = 0; k < 40; k++) {
+  if (await page.getByText('Session done').isVisible().catch(() => false)) break;
+  await page.getByRole('button', { name: 'Show answer' }).click();
+  if (k === 0) await shot('e2e-deck-card');
+  await page.getByRole('button', { name: 'Good' }).click();
+}
+check(await page.getByText('Session done').isVisible(), 'alphabet deck: flip session completes');
+const decksSaved = await page.evaluate(() => Object.keys(JSON.parse(localStorage.getItem('shoresh-state-v1') ?? '{}').cards ?? {}).filter((k) => k.startsWith('a:')).length);
+check(decksSaved >= 10, `alphabet cards scheduled (${decksSaved})`);
+
+// --- verbs-only mode turns Today into verb practice
+await nav('#/today');
+await page.getByRole('button', { name: /Verbs only/ }).click();
+check(await page.getByText('Today: verbs only').isVisible() && (await page.getByText(/Table challenge:/).isVisible()), 'verbs-only mode: the plan is all verbs');
+await shot('e2e-verbs-only');
+await page.getByRole('button', { name: /Verbs only/ }).click();
+
 // --- reading: tap a word, answer a question with the model answer
 const r = readings.find((x) => x.level === 'B1') ?? readings[0];
 if (r) {
@@ -143,6 +230,49 @@ if (r) {
   await page.getByRole('button', { name: '✓ Got it' }).first().click();
   await shot('e2e-reading-question');
 } else check(false, 'readings present');
+
+// --- reading exercises: true/false, find the word, summary
+const rx = readings.find((x) => x.tf?.length && x.find?.length && x.summary?.length);
+if (rx) {
+  await nav(`#/read/${rx.id}`);
+  const tfCards = page.locator('.card.tight', { has: page.locator('.choice-grid') });
+  for (let k = 0; k < rx.tf.length; k++) await tfCards.nth(k).getByRole('button', { name: rx.tf[k].a ? /true/ : /false/ }).click();
+  check((await page.locator('.feedback.ok', { hasText: /^(True|False)\./ }).count()) === rx.tf.length, `true/false: all ${rx.tf.length} right (${rx.id})`);
+  const findCard = page.locator('.card', { hasText: 'Find the Hebrew word' });
+  for (let k = 0; k < rx.find.length; k++) {
+    await findCard.locator('input.answer').nth(k).fill(rx.find[k].answer[0]);
+    await findCard.getByRole('button', { name: 'Check' }).first().click();
+  }
+  check((await findCard.locator('input.answer.ok').count()) === rx.find.length, `find the word: all ${rx.find.length} found`);
+  const sumTitle = page.locator('.section-title', { hasText: 'Complete the summary' });
+  await sumTitle.scrollIntoViewIfNeeded();
+  const drillCards = page.locator('.section-title:has-text("Complete the summary") ~ .card');
+  await drillCards.first().locator('input.answer').fill(rx.summary[0].answer[0]);
+  await drillCards.first().getByRole('button', { name: 'Check' }).click();
+  check(await drillCards.first().getByText('✓ Correct').isVisible(), 'summary gap accepts the canonical answer');
+  await shot('e2e-reading-exercises');
+} else check(false, 'a reading with true/false, find and summary');
+
+// --- listening practice: hear a sentence, pick its meaning
+const sentences = [
+  ...scenes.flatMap((x) => x.lines),
+  ...vocab.map((v) => v.ex),
+  ...verbs.flatMap((v) => [v.ex, ...(v.exs ?? [])]),
+  ...readings.flatMap((x) => x.paragraphs),
+];
+await nav('#/listen/train');
+await page.getByRole('button', { name: /What does it mean/ }).click();
+await page.getByRole('button', { name: 'Start' }).click();
+let lOk = 0;
+for (let k = 0; k < 3; k++) {
+  await page.waitForTimeout(400);
+  const he = await lastSpoken();
+  const en = sentences.find((x) => x.he === he)?.en;
+  await page.getByRole('button', { name: en, exact: true }).click();
+  if (await page.locator('.btn.choice.right', { hasText: en }).isVisible()) lOk++;
+  await page.getByRole('button', { name: 'Next →' }).click();
+}
+check(lOk === 3, `listening practice: ${lOk}/3 meanings right`);
 
 // --- scene: transcript and dictation
 const sc = scenes[0];
@@ -202,7 +332,7 @@ await shot('e2e-today-tailored');
 
 // --- course
 await nav('#/course');
-check((await page.locator('.item').count()) >= 15, 'course lists its units');
+check((await page.locator('.item').count()) >= 36, 'course lists all A1–C1 units');
 await nav('#/unit/0/check');
 const firstDrill = grammar.find((g) => g.id === 'g_roots') ?? grammar[0];
 check(await page.locator('.prompt-box').isVisible(), `unit check opens (${firstDrill.id})`);

@@ -28,20 +28,6 @@ self.addEventListener('fetch', (event) => {
   // The offline package's local server answers these live (never cache them).
   if (url.pathname.includes('/__shoresh/')) return;
 
-  // Daily headlines: always try the network first so they stay fresh.
-  if (url.pathname.endsWith('/news.json')) {
-    event.respondWith(
-      fetch(req)
-        .then((res) => {
-          const copy = res.clone();
-          if (res.ok) caches.open(CACHE).then((c) => c.put(req, copy));
-          return res;
-        })
-        .catch(() => caches.match(req, { ignoreSearch: true })),
-    );
-    return;
-  }
-
   if (req.mode === 'navigate') {
     // Network first so updates arrive; fall back to the cached shell offline.
     event.respondWith(

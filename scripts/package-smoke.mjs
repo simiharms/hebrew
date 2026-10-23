@@ -54,7 +54,6 @@ const readProgress = () => JSON.parse(readFileSync(progressFile, 'utf8')).state;
 
 // The package itself
 check('start/stop are executable', [statSync(join(dir, 'start_shoresh.command')), statSync(join(dir, 'stop_shoresh.command'))].every((s) => s.mode & 0o111));
-check('no headlines file', !existsSync(join(dir, 'app', 'news.json')));
 check('README has the version', !readFileSync(join(dir, 'README.txt'), 'utf8').includes('{{VERSION}}'));
 check('nothing running yet', execFileSync(python, ['serve.py', '--stop'], { cwd: dir }).toString().includes("wasn't running"));
 
@@ -99,9 +98,6 @@ await first.p.evaluate(() => (location.hash = '#/me'));
 check('settings show the folder copy', await first.p.getByText('in the progress folder inside your Shoresh folder').isVisible());
 check('no iPhone install card', !(await first.p.getByText('Install on your iPhone').count()));
 check('no AI download offered', !(await first.p.getByText('on-device AI grading').count()));
-await first.p.evaluate(() => (location.hash = '#/news'));
-await first.p.waitForTimeout(300);
-check('no live headlines section', !(await first.p.getByText("Today's real headlines").count()) && (await first.p.getByText('This version never goes online').isVisible()));
 
 // Browser data cleared (a fresh profile): progress comes back from the folder
 const fresh = await newContext();

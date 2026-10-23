@@ -14,7 +14,6 @@ rmSync('release', { recursive: true, force: true });
 mkdirSync(dir, { recursive: true });
 
 cpSync('dist-offline', `${dir}/app`, { recursive: true });
-rmSync(`${dir}/app/news.json`, { force: true }); // live headlines are for the hosted app only
 
 const serve = readFileSync('offline/serve.py', 'utf8');
 if (!serve.includes('VERSION = "dev"')) throw new Error('serve.py: VERSION line not found');

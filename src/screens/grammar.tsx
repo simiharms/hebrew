@@ -75,11 +75,13 @@ export function DrillCard({
   n,
   refId,
   onDone,
+  skill = 'grammar',
 }: {
   drill: Drill;
   n?: number;
   refId: string;
   onDone: (correct: boolean) => void;
+  skill?: 'grammar' | 'reading';
 }) {
   const [value, setValue] = useState('');
   const [result, setResult] = useState<CheckResult | null>(null);
@@ -93,7 +95,7 @@ export function DrillCard({
     setResult(r);
     if (r.verdict === 'latin') return;
     const ok = r.verdict !== 'wrong';
-    record('grammar', ok ? 1 : 0, [refId.split('#')[0]]);
+    record(skill, ok ? 1 : 0, skill === 'grammar' ? [refId.split('#')[0]] : []);
     if (ok) {
       clearMistake('drill', refId);
       speak(drill.prompt.replace('___', r.expected).replace(/\s*\([^)]*\)\s*$/, ''));

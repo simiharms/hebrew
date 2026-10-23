@@ -2,7 +2,6 @@ import { Item, TopBar } from '../components/ui.tsx';
 import { emails, grammar, verbs } from '../lib/content.ts';
 import { UNITS } from '../lib/course.ts';
 import { go } from '../lib/router.ts';
-import { EASY_NEWS_LINKS } from './news.tsx';
 import { dueVerbCount } from '../lib/session.ts';
 import { useAppState } from '../lib/store.ts';
 
@@ -14,10 +13,11 @@ export function PracticeHub() {
       <TopBar title="Practice" />
       <main class="page">
         <div class="list">
-          <Item emoji="📘" title="Course" sub={`${UNITS.length} units from A2+ to B2, one grammar point each`} onClick={() => go('course')} />
+          <Item emoji="📘" title="Course" sub={`${UNITS.length} units from A1 to C1, one grammar point each`} onClick={() => go('course')} />
           <Item emoji="📊" title="Skills check" sub={s.profile.assessment ? 'Retake it to update your profile' : '10 minutes — find your level in each skill'} onClick={() => go('assessment')} />
-          <Item emoji="🔁" title="Verb drill" sub={`${verbs.length} verbs · ${dueVerbCount()} due`} onClick={() => go('session/verbs')} />
-          <Item emoji="📋" title="Conjugation tables" sub="Every form, with transliteration and audio" onClick={() => go('verbs')} />
+          <Item emoji="🔁" title="Verbs" sub={`${verbs.length} verbs · ${dueVerbCount()} due · drills, decks, tables, verbs-only mode`} onClick={() => go('verbs')} />
+          <Item emoji="🃏" title="Card decks" sub="Alphabet, topics, levels and verb decks" onClick={() => go('decks')} />
+          <Item emoji="👂" title="Listening practice" sub="Short sentences from A1 to C1" onClick={() => go('listen/train')} />
           <Item emoji="🧩" title="Grammar" sub={`${gDone}/${grammar.length} lessons done`} onClick={() => go('grammar')} />
           <Item emoji="🔢" title="Numbers" sub="By ear and in writing — gender, prices, time" onClick={() => go('numbers')} />
           <Item emoji="✉️" title="Writing at work" sub={`${emails.length} realistic emails & messages to answer`} onClick={() => go('write')} />
@@ -50,7 +50,18 @@ const RESOURCES: { group: string; items: { name: string; url: string; note: stri
   },
   {
     group: 'Easy news',
-    items: EASY_NEWS_LINKS,
+    items: [
+      {
+        name: 'Hadshon — easy Hebrew news (Ministry of Education)',
+        url: 'https://pop.education.gov.il/tchumey_daat/ivrit_chinhch_leshony/yesodi/hadshon-ivrit',
+        note: 'Weekly online newspaper in simplified Hebrew with partial niqqud, word explanations and audio for some articles.',
+      },
+      {
+        name: 'Hebrew for new immigrants: learning materials',
+        url: 'https://pop.education.gov.il/new-immigrants/hebrew-second-language/learning-teaching-materials/',
+        note: 'Ministry of Education page with easy-Hebrew reading material.',
+      },
+    ],
   },
   {
     group: 'Reading (B1+ → business)',

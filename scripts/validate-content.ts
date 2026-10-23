@@ -4,6 +4,8 @@ import { readdirSync, readFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { containsKeyword, hasHebrew } from '../src/lib/hebrew.ts';
+import { LEVELS, WORD_LEVELS } from '../src/content/types.ts';
+import { TOPIC_LABELS } from '../src/lib/topics.ts';
 
 const dir = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'content');
 const only = process.argv[2];
@@ -11,8 +13,9 @@ const errors: string[] = [];
 const warnings: string[] = [];
 const ids = new Map<string, string>();
 
-const LEVELS = ['A2', 'A2+', 'B1', 'B1+', 'B2'];
-const VOCAB_LEVELS = ['A2', 'B1', 'B2'];
+const VOCAB_LEVELS: string[] = WORD_LEVELS;
+const KINDS = ['news', 'article', 'email', 'blog', 'story', 'ad', 'interview', 'notice', 'chat', 'recipe', 'letter', 'review', 'essay'];
+const GENRES = ['sitcom', 'drama', 'news', 'interview', 'phone', 'meeting', 'podcast', 'ad', 'street', 'class', 'lecture', 'story'];
 const POS = ['noun', 'verb', 'adj', 'adv', 'prep', 'conj', 'phrase', 'num', 'pron', 'expr'];
 const BINYANIM = ['paal', 'piel', 'hifil', 'hitpael', 'nifal', 'pual', 'hufal'];
 const NIQQUD = /[\u05B0-\u05BD\u05BF\u05C1\u05C2\u05C4\u05C5\u05C7]/; // vowel points, not maqaf
@@ -74,6 +77,24 @@ function writing(where: string, t: any) {
       err(where, `checklist[${i}] keywords ${JSON.stringify(c.keywords)} not found in model answer`);
   });
 }
+function drill(where: string, d: any) {
+  he(where, d.prompt, 'prompt');
+  str(where, d.en, 'en');
+  if (!Array.isArray(d.answer) || !d.answer.length) return err(where, 'answer must be a non-empty array');
+  d.answer.forEach((a: string) => he(where, a, 'answer'));
+  if (typeof d.prompt === 'string' && !d.prompt.includes('___')) warn(where, 'prompt has no ___ gap');
+}
+function trueFalse(where: string, tf: any) {
+  if (tf === undefined) return;
+  if (!Array.isArray(tf) || tf.length < 3) return err(where, 'tf needs at least 3 statements');
+  tf.forEach((t: any, i: number) => {
+    he(`${where} tf${i + 1}`, t.s, 's');
+    str(`${where} tf${i + 1}`, t.sEn, 'sEn');
+    str(`${where} tf${i + 1}`, t.why, 'why');
+    if (typeof t.a !== 'boolean') err(`${where} tf${i + 1}`, 'a must be true or false');
+  });
+  if (tf.every((t: any) => t.a === tf[0].a)) warn(where, 'tf statements are all true or all false');
+}
 function form(where: string, f: any, name: string) {
   if (!Array.isArray(f) || f.length !== 2) return err(where, `${name} must be [hebrew, translit]`);
   he(where, f[0], name);
@@ -91,6 +112,7 @@ const validators: Record<string, (item: any, where: string) => void> = {
     str(w, v.en, 'en');
     if (!POS.includes(v.pos)) err(w, `bad pos "${v.pos}"`);
     if (!VOCAB_LEVELS.includes(v.level)) err(w, `bad level "${v.level}"`);
+    if (!(v.topic in TOPIC_LABELS) || v.topic === 'custom') err(w, `unknown topic "${v.topic}" (see src/lib/topics.ts)`);
     if (v.pos === 'noun' && !['m', 'f'].includes(v.gender)) err(w, 'noun needs gender m/f');
     if (v.pos === 'verb' && !BINYANIM.includes(v.binyan)) err(w, 'verb needs binyan');
     if (v.plural !== undefined) he(w, v.plural, 'plural');
@@ -111,10 +133,23 @@ const validators: Record<string, (item: any, where: string) => void> = {
     for (const k of FUT) form(w, v.future?.[k], `future.${k}`);
     if (v.imp) for (const k of ['ms', 'fs', 'mp']) form(w, v.imp[k], `imp.${k}`);
     example(w, v.ex);
+    if (v.rare !== undefined && !(Array.isArray(v.rare) && v.rare.every((t: string) => ['present', 'past', 'future', 'imp'].includes(t))))
+      err(w, 'rare must list tenses: present, past, future, imp');
+    if (v.exs !== undefined) {
+      if (!Array.isArray(v.exs)) return err(w, 'exs must be an array');
+      const forms = new Set<string>([v.inf]);
+      for (const t of ['present', 'past', 'future', 'imp']) for (const f of Object.values<any>(v[t] ?? {})) forms.add(f?.[0]);
+      v.exs.forEach((e: any, i: number) => {
+        example(`${w} exs${i + 1}`, e);
+        if (!forms.has(e.form)) err(`${w} exs${i + 1}`, `form "${e.form}" is not one of this verb's forms`);
+        else if (typeof e.he === 'string' && !containsKeyword(e.he, e.form)) err(`${w} exs${i + 1}`, `form "${e.form}" does not appear in "${e.he}"`);
+      });
+    }
   },
   readings(r, w) {
     id(w, r.id);
     if (!LEVELS.includes(r.level)) err(w, `bad level "${r.level}"`);
+    if (!KINDS.includes(r.kind)) err(w, `bad kind "${r.kind}"`);
     he(w, r.title, 'title');
     str(w, r.titleEn, 'titleEn');
     if (!Array.isArray(r.paragraphs) || !r.paragraphs.length) return err(w, 'paragraphs missing');
@@ -123,6 +158,14 @@ const validators: Record<string, (item: any, where: string) => void> = {
     else r.glossary.forEach((g: any, i: number) => (he(w, g.he, `glossary[${i}].he`), str(w, g.en, `glossary[${i}].en`)));
     const text = r.paragraphs.map((p: any) => p.he).join(' ');
     questions(w, r.questions, text);
+    trueFalse(w, r.tf);
+    (r.find ?? []).forEach((f: any, i: number) => {
+      str(w, f.en, `find[${i}].en`);
+      if (!Array.isArray(f.answer) || !f.answer.length) return err(w, `find[${i}].answer must be a non-empty array`);
+      f.answer.forEach((a: string) => he(w, a, `find[${i}].answer`));
+      if (!f.answer.some((a: string) => containsKeyword(text, a))) err(w, `find[${i}] answer ${JSON.stringify(f.answer)} is not in the text`);
+    });
+    (r.summary ?? []).forEach((d: any, i: number) => drill(`${w} summary ${i + 1}`, d));
     writing(w, r.writing);
     if (r.date !== undefined && !/^\d{4}-\d{2}-\d{2}$/.test(r.date)) err(w, `date must be YYYY-MM-DD, got "${r.date}"`);
     if (r.date !== undefined && (!Array.isArray(r.sources) || !r.sources.length)) err(w, 'news items need sources');
@@ -134,6 +177,7 @@ const validators: Record<string, (item: any, where: string) => void> = {
   scenes(s, w) {
     id(w, s.id);
     if (!LEVELS.includes(s.level)) err(w, `bad level "${s.level}"`);
+    if (!GENRES.includes(s.genre)) err(w, `bad genre "${s.genre}"`);
     he(w, s.title, 'title');
     str(w, s.titleEn, 'titleEn');
     str(w, s.synopsis, 'synopsis');
@@ -152,6 +196,7 @@ const validators: Record<string, (item: any, where: string) => void> = {
     else s.dictation.forEach((n: any) => (typeof n !== 'number' || !s.lines[n]) && err(w, `dictation index ${n} out of range`));
     (s.expressions ?? []).forEach((e: any, i: number) => (he(w, e.he, `expressions[${i}].he`), str(w, e.en, `expressions[${i}].en`)));
     questions(w, s.questions, s.lines.map((l: any) => l.he).join(' '));
+    trueFalse(w, s.tf);
   },
   grammar(g, w) {
     id(w, g.id);
@@ -168,14 +213,7 @@ const validators: Record<string, (item: any, where: string) => void> = {
           err(w, `sections[${i}].table must be string[][]`);
       });
     if (!Array.isArray(g.drills) || g.drills.length < 6) return err(w, 'needs at least 6 drills');
-    g.drills.forEach((d: any, i: number) => {
-      const dw = `${w} drill ${i + 1}`;
-      he(dw, d.prompt, 'prompt');
-      str(dw, d.en, 'en');
-      if (!Array.isArray(d.answer) || !d.answer.length) return err(dw, 'answer must be a non-empty array');
-      d.answer.forEach((a: string) => he(dw, a, 'answer'));
-      if (!d.prompt.includes('___')) warn(dw, 'prompt has no ___ gap');
-    });
+    g.drills.forEach((d: any, i: number) => drill(`${w} drill ${i + 1}`, d));
   },
   emails(e, w) {
     id(w, e.id);

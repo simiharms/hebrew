@@ -2,6 +2,7 @@ import { useState } from 'preact/hooks';
 import { queueWord, showGloss } from '../components/hebrew.tsx';
 import { Item, LevelBadge, Seg, SpeakBtn, TopBar } from '../components/ui.tsx';
 import type { VocabItem } from '../content/types.ts';
+import { WORD_LEVELS } from '../content/types.ts';
 import { allRoots, allVocab, displayRoot, rootFamily, TOPIC_LABELS } from '../lib/content.ts';
 import { strength } from '../lib/fsrs.ts';
 import { lenient, normalizeEn } from '../lib/hebrew.ts';
@@ -84,6 +85,7 @@ export function WordsHome() {
             </button>
           </div>
         </div>
+        <Item emoji="🃏" title="Card decks" sub="Flip cards by topic, level and binyan, plus the alphabet" onClick={() => go('decks')} />
         <div class="stats">
           <div class="stat">
             <div class="num">{counts.learning}</div>
@@ -167,7 +169,7 @@ export function WordsHome() {
 export function TopicPage({ topic }: { topic: string }) {
   const s = useAppState();
   const items = allVocab().filter((v) => v.topic === topic);
-  const levels = ['A2', 'B1', 'B2'];
+  const levels = WORD_LEVELS;
   return (
     <>
       <TopBar title={TOPIC_LABELS[topic] ?? topic} backTo="words" />

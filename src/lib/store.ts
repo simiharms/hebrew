@@ -15,6 +15,8 @@ export interface Settings {
   focus: Focus;
   semantic: boolean; // experimental on-device AI grading
   dailyMinutes: number;
+  deckDir: 'he2en' | 'en2he'; // which side of a flash card you see first
+  verbsOnly: boolean; // the daily plan is all verb practice
 }
 
 export interface DoneEntry {
@@ -60,8 +62,10 @@ export interface AppState {
   writings: Record<string, { text: string; at: number; self?: number }>;
   own: OwnText[];
   queue: string[]; // vocab ids the learner picked to learn next
+  starred: string[]; // card ids starred in the card decks
   profile: Profile; // skill estimates (see skills.ts)
   courseUnit: number; // index of the course unit the learner is on
+  courseVersion?: number; // 2 = the A1–C1 course (see migrate)
   updatedAt?: number; // time of the last change (ms), to tell which saved copy is newer
 }
 
@@ -80,6 +84,8 @@ export function defaultState(): AppState {
       focus: 'both',
       semantic: false,
       dailyMinutes: 20,
+      deckDir: 'he2en',
+      verbsOnly: false,
     },
     cards: {},
     custom: [],
@@ -90,20 +96,42 @@ export function defaultState(): AppState {
     writings: {},
     own: [],
     queue: [],
+    starred: [],
     profile: { skills: {}, topics: {} },
     courseUnit: 0,
+    courseVersion: 2,
+  };
+}
+
+// The first course had these 17 units, saved by index (unit:3:check). The
+// A1–C1 course put 14 units in front of them and saves progress by unit id.
+const LEGACY_UNIT_IDS = ['u_roots_present', 'u_et_prepositions', 'u_describing', 'u_binyanim', 'u_numbers_time', 'u_hifil', 'u_smichut', 'u_hitpael_nifal', 'u_weak_roots', 'u_she_time', 'u_modals', 'u_conditionals', 'u_connectors', 'u_formal', 'u_verbal_nouns', 'u_passive', 'u_opinion'];
+const UNITS_BEFORE_LEGACY = 14;
+
+function migrate(s: AppState): AppState {
+  if ((s.courseVersion ?? 1) >= 2) return s;
+  const rename = (k: string) => k.replace(/^unit:(\d+):/, (m, n) => (LEGACY_UNIT_IDS[Number(n)] ? `unit:${LEGACY_UNIT_IDS[Number(n)]}:` : m));
+  const done: AppState['done'] = {};
+  for (const [k, v] of Object.entries(s.done)) done[rename(k)] = v;
+  return {
+    ...s,
+    done,
+    days: s.days.map((d) => ({ ...d, tasks: d.tasks.map(rename) })),
+    courseUnit: s.onboarded ? s.courseUnit + UNITS_BEFORE_LEGACY : s.courseUnit,
+    courseVersion: 2,
   };
 }
 
 /** Fills in fields that older saved states don't have yet. */
 function withDefaults(saved: AppState): AppState {
   const base = defaultState();
-  return {
+  return migrate({
     ...base,
     ...saved,
+    courseVersion: saved.courseVersion,
     settings: { ...base.settings, ...saved.settings },
     profile: { ...base.profile, ...saved.profile },
-  };
+  });
 }
 
 /** Whether a parsed JSON value looks like a Shoresh state. */

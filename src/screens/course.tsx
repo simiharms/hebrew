@@ -6,7 +6,7 @@ import { grammar, verbById } from '../lib/content.ts';
 import { currentUnit, stepDone, type UnitStep, UNITS, unitProgress, unitSteps } from '../lib/course.ts';
 import { type CheckResult, checkHebrew } from '../lib/hebrew.ts';
 import { go } from '../lib/router.ts';
-import { makeVerbTask } from '../lib/session.ts';
+import { drillable, makeVerbTask, TENSES } from '../lib/session.ts';
 import { record } from '../lib/skills.ts';
 import { markDone, markTask, setState, useAppState } from '../lib/store.ts';
 import { speak } from '../lib/tts.ts';
@@ -19,6 +19,7 @@ const STEP_EMOJI: Record<UnitStep['kind'], string> = {
   write: '✉️',
   verbs: '🔁',
   numbers: '🔢',
+  deck: '🃏',
   check: '✅',
 };
 
@@ -30,15 +31,18 @@ export function CoursePage() {
       <TopBar title="Course" backTo="today" />
       <main class="page">
         <div class="card primary small">
-          {UNITS.length} units in grammar order, from A2+ to B2. Each unit is one grammar point with a text, a scene, verbs and a
-          writing task built around it, then a short check. Start wherever the skills check placed you; earlier units stay open
-          for review.
+          {UNITS.length} units in grammar order, from the alphabet (A1) to formal and literary Hebrew (C1), in the spirit of a
+          university course book. Each unit is one grammar point with a text, a scene, verbs and often a card deck and a writing
+          task built around it, then a short check. Start wherever the skills check placed you; every unit stays open.
         </div>
         <div class="list">
           {UNITS.map((u, n) => {
             const p = unitProgress(s, n);
             const complete = p.done === p.total;
+            const heading = n === 0 || UNITS[n - 1].level !== u.level;
             return (
+              <>
+              {heading && <div class="section-title">{u.level}</div>}
               <Item
                 emoji={complete ? '✅' : n === cur ? '▶️' : String(n + 1)}
                 title={
@@ -55,6 +59,7 @@ export function CoursePage() {
                 right={<LevelBadge level={u.level} />}
                 onClick={() => go(`unit/${n}`)}
               />
+              </>
             );
           })}
         </div>
@@ -140,7 +145,7 @@ export function UnitCheck({ n }: { n: number }) {
     if (!u) return [];
     const drills = shuffle(grammar.filter((g) => u.grammar.includes(g.id)).flatMap((g) => g.drills.map((d) => ({ kind: 'drill' as const, drill: d, lesson: g.id }))));
     const verbs = shuffle(u.verbs.map((id) => verbById.get(id)).filter(Boolean)).slice(0, 3).map((v) => {
-      const t = makeVerbTask(v!, shuffle(['present', 'past', 'future'] as const)[0]);
+      const t = makeVerbTask(v!, shuffle(TENSES.filter((x) => drillable(v!, x)))[0]);
       return { kind: 'verb' as const, label: `${t.pronoun} · ${TENSE_HE[t.tense]}`, inf: v!.inf, en: v!.en, answer: t.answer, binyan: v!.binyan, tense: t.tense };
     });
     return shuffle([...drills.slice(0, 8 - verbs.length), ...verbs]);
@@ -213,8 +218,8 @@ export function UnitCheck({ n }: { n: number }) {
     if (i + 1 >= items.length) {
       const total = right;
       const score = total / items.length;
-      markDone(`unit:${n}:check`, score);
-      markTask(`unit:${n}:check`);
+      markDone(`unit:${UNITS[n].id}:check`, score);
+      markTask(`unit:${UNITS[n].id}:check`);
       if (score >= 0.7)
         setState((st) => {
           if (st.courseUnit <= n) st.courseUnit = Math.min(n + 1, UNITS.length - 1);

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'preact/hooks';
 import { ConfirmButton, Seg, TopBar, toast } from '../components/ui.tsx';
 import type { Level } from '../content/types.ts';
-import { LEVELS } from '../content/types.ts';
+import { LEVELS, WORD_LEVELS } from '../content/types.ts';
 import { allVocab, grammar, readings, scenes, verbs } from '../lib/content.ts';
 import { strength } from '../lib/fsrs.ts';
 import { verbFocusLabel } from '../lib/plan.ts';
@@ -84,7 +84,7 @@ export function MePage() {
       grammar: `${gr.filter((r) => s.done[r.id]).length}/${gr.length}`,
     };
   });
-  const wordLevels = ['A2', 'B1', 'B2'].map((l) => {
+  const wordLevels = WORD_LEVELS.map((l) => {
     const items = vocab.filter((v) => v.level === l);
     const known = items.filter((v) => ['known', 'mature'].includes(strength(s.cards[`v:${v.id}`]))).length;
     return { l, known, total: items.length };
@@ -282,7 +282,19 @@ export function MePage() {
         <div class="section-title">Learning</div>
         <div class="card">
           <div class="small muted">Your level</div>
-          <Seg value={s.level} options={LEVELS.map((l) => ({ v: l, label: l }))} onChange={(v: Level) => set((st) => void (st.level = v))} />
+          <div class="chip-row">
+            {LEVELS.map((l: Level) => (
+              <button class={`chip ${s.level === l ? 'on' : ''}`} onClick={() => set((st) => void (st.level = l))}>
+                {l}
+              </button>
+            ))}
+          </div>
+          <label class="row mt" style={{ cursor: 'pointer' }}>
+            <input type="checkbox" checked={s.settings.verbsOnly} onChange={(e) => set((st) => void (st.settings.verbsOnly = (e.target as HTMLInputElement).checked))} />
+            <span class="grow">
+              🎯 Verbs-only mode <span class="small muted">· the daily plan is all verb practice</span>
+            </span>
+          </label>
           <div class="small muted mt">Focus</div>
           <Seg
             value={s.settings.focus}

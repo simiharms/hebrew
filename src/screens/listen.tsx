@@ -8,6 +8,7 @@ import { go } from '../lib/router.ts';
 import { getState, useAppState } from '../lib/store.ts';
 import { hebrewVoices, speak, speakerPitches, speakSequence, stopSpeaking, ttsSupported } from '../lib/tts.ts';
 import { NextUp, QuestionSet } from './read.tsx';
+import { TrueFalseSet } from '../components/exercises.tsx';
 import { setupHelp } from '../lib/platform.ts';
 
 const GENRE_EMOJI: Record<string, string> = {
@@ -20,6 +21,9 @@ const GENRE_EMOJI: Record<string, string> = {
   podcast: '🎧',
   ad: '📣',
   street: '🥙',
+  class: '🏫',
+  lecture: '🎓',
+  story: '📻',
 };
 
 export function ListenList() {
@@ -34,6 +38,7 @@ export function ListenList() {
           first, answer in Hebrew, then check the transcript.
         </div>
         {!ttsSupported() && <div class="card accent small">This browser has no speech output. On iPhone use Safari.</div>}
+        <Item emoji="👂" title="Listening practice" sub="Short sentences at any level, A1 to C1: type them or pick the meaning" onClick={() => go('listen/train')} />
         <Item emoji="🔢" title="Numbers by ear" sub="Prices, phone numbers, times — type the digits" onClick={() => go('numbers')} />
         {order.map((lvl) => {
           const list = scenes.filter((x) => x.level === lvl);
@@ -141,6 +146,7 @@ export function ScenePlayer({ id }: { id: string }) {
           )}
         </div>
 
+        {sc.tf && sc.tf.length > 0 && <TrueFalseSet id={sc.id} items={sc.tf} skill="listening" />}
         <QuestionSet id={sc.id} questions={sc.questions} skill="listening" />
 
         <div class="section-title">Transcript</div>

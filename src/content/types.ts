@@ -1,8 +1,12 @@
 // Content schemas. Every JSON file in src/content must match these
 // (checked by scripts/validate-content.mjs).
 
-export type Level = 'A2' | 'A2+' | 'B1' | 'B1+' | 'B2';
-export const LEVELS: Level[] = ['A2', 'A2+', 'B1', 'B1+', 'B2'];
+export type Level = 'A1' | 'A2' | 'A2+' | 'B1' | 'B1+' | 'B2' | 'C1';
+export const LEVELS: Level[] = ['A1', 'A2', 'A2+', 'B1', 'B1+', 'B2', 'C1'];
+
+// Words and verbs use the coarser CEFR bands.
+export type WordLevel = 'A1' | 'A2' | 'B1' | 'B2' | 'C1';
+export const WORD_LEVELS: WordLevel[] = ['A1', 'A2', 'B1', 'B2', 'C1'];
 
 export type Binyan = 'paal' | 'piel' | 'hifil' | 'hitpael' | 'nifal' | 'pual' | 'hufal';
 
@@ -25,8 +29,8 @@ export interface VocabItem {
   binyan?: Binyan; // verbs
   gov?: string; // verbs: governed preposition, e.g. "את", "ל", "עם", "על"
   register?: 'formal' | 'neutral' | 'colloquial' | 'slang';
-  level: 'A2' | 'B1' | 'B2';
-  topic: string;
+  level: WordLevel;
+  topic: string; // one of the keys of TOPIC_LABELS (src/lib/topics.ts)
   ex: Example;
   note?: string; // usage tip in English
 }
@@ -43,12 +47,18 @@ export interface Verb {
   binyan: Binyan;
   gizra?: string; // weak-root class in English, e.g. "ל״ה (final-heh)"
   gov?: string;
-  level: 'A2' | 'B1' | 'B2';
+  level: WordLevel;
   present: { ms: Form; fs: Form; mp: Form; fp: Form };
   past: Record<'1s' | '2ms' | '2fs' | '3ms' | '3fs' | '1p' | '2mp' | '2fp' | '3p', Form>;
   future: Record<'1s' | '2ms' | '2fs' | '3ms' | '3fs' | '1p' | '2mp' | '3p', Form>;
   imp?: { ms: Form; fs: Form; mp: Form };
   ex: Example;
+  // More example sentences; `form` is the conjugated form used in `he`
+  // (exactly as in the tables above), so drills can blank it out.
+  exs?: (Example & { form: string })[];
+  // Tenses that exist on paper but aren't in normal use (the present of
+  // להיות, the past of להגיד): shown in the table, never drilled.
+  rare?: ('present' | 'past' | 'future' | 'imp')[];
   note?: string;
 }
 
@@ -73,6 +83,20 @@ export interface WritingTask {
   modelEn: string;
 }
 
+// A true/false statement about a text or scene.
+export interface TrueFalse {
+  s: string; // Hebrew statement
+  sEn: string;
+  a: boolean; // true if the statement is correct
+  why: string; // English: where the text says so, or what it really says
+}
+
+// "Find in the text the Hebrew for …": answer forms exactly as they appear.
+export interface FindWord {
+  en: string;
+  answer: string[];
+}
+
 export interface GlossEntry {
   he: string;
   en: string;
@@ -85,10 +109,13 @@ export interface Reading {
   title: string;
   titleEn: string;
   topic: string;
-  kind: 'news' | 'article' | 'email' | 'blog' | 'story' | 'ad' | 'interview' | 'notice';
+  kind: 'news' | 'article' | 'email' | 'blog' | 'story' | 'ad' | 'interview' | 'notice' | 'chat' | 'recipe' | 'letter' | 'review' | 'essay';
   paragraphs: Example[];
   glossary: GlossEntry[];
   questions: Question[];
+  tf?: TrueFalse[]; // true or false?
+  find?: FindWord[]; // find the word in the text
+  summary?: Drill[]; // complete the summary of the text
   writing?: WritingTask;
   date?: string; // easy-news issues: publication date (YYYY-MM-DD)
   sources?: { name: string; url: string }[]; // easy-news issues: where the facts come from
@@ -105,11 +132,12 @@ export interface Scene {
   level: Level;
   title: string;
   titleEn: string;
-  genre: 'sitcom' | 'drama' | 'news' | 'interview' | 'phone' | 'meeting' | 'podcast' | 'ad' | 'street';
+  genre: 'sitcom' | 'drama' | 'news' | 'interview' | 'phone' | 'meeting' | 'podcast' | 'ad' | 'street' | 'class' | 'lecture' | 'story';
   synopsis: string; // English, shown before watching
   speakers: Record<string, { name: string; gender: 'm' | 'f' }>;
   lines: SceneLine[];
   questions: Question[];
+  tf?: TrueFalse[]; // true or false? (answered after listening)
   dictation: number[]; // line indexes good for dictation
   expressions: { he: string; en: string; note?: string }[];
 }

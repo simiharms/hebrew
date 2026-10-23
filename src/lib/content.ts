@@ -3,6 +3,7 @@ import type { EmailTask, GrammarLesson, Level, Reading, Scene, Verb, VocabItem }
 import { LEVELS } from '../content/types.ts';
 import { expandVariants, lenient, lookupKeys, prefixVariants } from './hebrew.ts';
 import { getState } from './store.ts';
+import { BUSINESS_TOPICS, TOPIC_LABELS } from './topics.ts';
 
 const mods = import.meta.glob('../content/*.json', { eager: true, import: 'default' }) as Record<string, unknown[]>;
 
@@ -34,44 +35,15 @@ export function findVocab(id: string): VocabItem | undefined {
   return vocabById.get(id) ?? getState().custom.find((c) => c.id === id);
 }
 
-export const TOPIC_LABELS: Record<string, string> = {
-  work: 'Work & office',
-  meetings: 'Meetings',
-  email: 'Email & calls',
-  money: 'Money & banking',
-  sales: 'Sales & clients',
-  tech: 'Tech & startups',
-  'phrases-biz': 'Business phrases',
-  bureaucracy: 'Bureaucracy',
-  home: 'Home & renting',
-  food: 'Food',
-  shopping: 'Shopping',
-  transport: 'Transport',
-  health: 'Health',
-  social: 'People & feelings',
-  time: 'Time',
-  travel: 'Travel',
-  'phrases-daily': 'Everyday phrases',
-  slang: 'Slang',
-  news: 'News',
-  society: 'Society',
-  abstract: 'Ideas & abstract',
-  connectors: 'Connectors',
-  economy: 'Economy',
-  environment: 'Environment & science',
-  custom: 'My words',
-};
-
-const BUSINESS_TOPICS = new Set(['work', 'meetings', 'email', 'money', 'sales', 'tech', 'phrases-biz', 'economy']);
+export { TOPIC_LABELS };
 
 /** Order in which new words are introduced, based on focus and level. */
 export function newWordOrder(): VocabItem[] {
   const { focus, } = getState().settings;
   const userRank = levelRank(getState().level);
-  const vocabLevelRank = (l: string) => (l === 'A2' ? 0 : l === 'B1' ? 2 : 4);
   const score = (v: VocabItem) => {
     // distance from the learner's level, slightly preferring easier words
-    const lr = vocabLevelRank(v.level);
+    const lr = levelRank(v.level);
     let s = lr <= userRank ? (userRank - lr) * 0.6 : (lr - userRank) * 1.5;
     const biz = BUSINESS_TOPICS.has(v.topic);
     if (focus === 'business' && !biz) s += 1.2;
@@ -213,7 +185,16 @@ export function lookup(word: string): LookupResult {
   const variants = prefixVariants(l);
   for (const v of variants) {
     const hit = primary.get(v);
-    if (hit) return withPrefix(l, v, hit);
+    if (!hit) continue;
+    // The whole word may only match another word's spelling variant (ואלה ~ וואלה);
+    // then "ו + אלה" is the likelier reading, so it comes first.
+    if (v === variants[0] && spellingVariantOnly(word, hit)) {
+      for (const v2 of variants.slice(1)) {
+        const hit2 = primary.get(v2);
+        if (hit2) return { ...withPrefix(l, v2, hit2), entries: [...hit2, ...hit.filter((e) => !hit2.includes(e))] };
+      }
+    }
+    return withPrefix(l, v, hit);
   }
   for (const k of lookupKeys(word)) {
     const hit = primary.get(k) ?? secondary.get(k);
@@ -223,6 +204,14 @@ export function lookup(word: string): LookupResult {
     }
   }
   return { entries: [], prefix: '', prefixMeaning: '' };
+}
+
+const letters = (s: string) => s.replace(/[^\u05D0-\u05EA]/g, '');
+const undoubled = (s: string) => letters(s).replace(/וו/g, 'ו').replace(/יי/g, 'י');
+
+function spellingVariantOnly(word: string, entries: DictEntry[]): boolean {
+  const w = letters(word);
+  return entries.every((e) => letters(e.he) !== w) && entries.some((e) => undoubled(e.he) === undoubled(word));
 }
 
 function withPrefix(full: string, base: string, entries: DictEntry[]): LookupResult {

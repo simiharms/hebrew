@@ -2,9 +2,12 @@
 // skill profile: the weakest skill gets an extra, clearly marked item.
 import type { Level } from '../content/types.ts';
 import { LEVELS } from '../content/types.ts';
-import { emails, grammar, levelRank, readings, scenes } from './content.ts';
+import { emails, grammar, levelRank, readings, scenes, verbById, verbs } from './content.ts';
 import { currentUnit, stepDone, UNITS, unitSteps } from './course.ts';
-import { dueVerbCount, dueWordCards, newWordsLeft } from './session.ts';
+import { deckById, deckQueue } from './decks.ts';
+import { dueVerbCount, dueWordCards, newWordsLeft, TENSES } from './session.ts';
+import { ttsSupported } from './tts.ts';
+import { type VKind, VKINDS } from './verbdrill.ts';
 import { type Skill, SKILLS, skillLevel, weakestSkills, weakTopics } from './skills.ts';
 import { type AppState, today } from './store.ts';
 
@@ -19,9 +22,9 @@ export interface PlanItem {
   focus?: boolean; // extra practice for the weakest skill
 }
 
-const STEP_EMOJI: Record<string, string> = { grammar: '🧩', read: '📰', listen: '📺', write: '✉️', verbs: '🔁', numbers: '🔢', check: '✅' };
-const STEP_SKILL: Record<string, Skill> = { grammar: 'grammar', read: 'reading', listen: 'listening', write: 'writing', verbs: 'verbs', numbers: 'numbers', check: 'grammar' };
-const STEP_MIN: Record<string, number> = { grammar: 8, read: 10, listen: 8, write: 8, verbs: 4, numbers: 3, check: 4 };
+const STEP_EMOJI: Record<string, string> = { grammar: '🧩', read: '📰', listen: '📺', write: '✉️', verbs: '🔁', numbers: '🔢', deck: '🃏', check: '✅' };
+const STEP_SKILL: Record<string, Skill> = { grammar: 'grammar', read: 'reading', listen: 'listening', write: 'writing', verbs: 'verbs', numbers: 'numbers', deck: 'vocab', check: 'grammar' };
+const STEP_MIN: Record<string, number> = { grammar: 8, read: 10, listen: 8, write: 8, verbs: 4, numbers: 3, deck: 5, check: 4 };
 
 function preferenceKey(itemLevel: Level, target: Level): number {
   const d = levelRank(itemLevel) - levelRank(target);
@@ -50,11 +53,75 @@ export function verbFocusLabel(s: AppState): string | null {
   return parts.length ? parts.join(' · ') : null;
 }
 
-export function newsItems() {
-  return readings.filter((r) => r.date).sort((a, b) => (b.date ?? '').localeCompare(a.date ?? ''));
+// Grammar lessons about verbs, in course order.
+const VERB_LESSONS = ['g_a1_present', 'g_a1_infinitive', 'g_a2_past_paal', 'g_a2_future_paal', 'g_a2_imperative', 'g_paal', 'g_binyanim_map', 'g_piel', 'g_hifil', 'g_hitpael', 'g_nifal', 'g_weak_roots', 'g_passive', 'g_c1_pual_hufal'];
+const BINYAN_LESSON: Record<string, string> = { paal: 'g_paal', piel: 'g_piel', hifil: 'g_hifil', hitpael: 'g_hitpael', nifal: 'g_nifal' };
+
+/** Verbs-only mode: the whole day is verb practice, aimed at the weakest binyan and tense. */
+export function verbPlan(s: AppState): PlanItem[] {
+  const tasks = s.days.find((d) => d.date === today())?.tasks ?? [];
+  const weakB = weakTopics('binyan:', s)[0]?.topic.slice(7);
+  const vfocus = verbFocusLabel(s);
+  const vdue = dueVerbCount();
+  const items: PlanItem[] = [];
+  items.push({
+    id: 'verbs',
+    emoji: '🔁',
+    title: 'Verb review',
+    sub: vfocus ? `focus on ${vfocus}${vdue ? ` · ${vdue} due` : ''}` : vdue ? `${vdue} verb-tenses due` : '12 mixed exercises',
+    route: 'session/verbs',
+    done: tasks.includes('verbs'),
+    minutes: 5,
+  });
+
+  const deckId = levelRank(s.level) <= 1 ? 'v:essential' : weakB && deckById(`v:${weakB}`) ? `v:${weakB}` : 'v:weak';
+  const deck = deckById(deckId) ?? deckById('v:essential');
+  if (deck) {
+    const left = deckQueue(deck).length;
+    items.push({
+      id: `deck:${deck.id}`,
+      emoji: '🃏',
+      title: `Verb cards: ${deck.title}`,
+      sub: left ? `${left} cards: infinitive, meaning and key forms` : 'All caught up',
+      route: `session/deck/${deck.id}`,
+      done: tasks.includes(`deck:${deck.id}`) || !left,
+      minutes: 5,
+    });
+  }
+
+  const day = Math.floor(Date.now() / 86_400_000);
+  const rotating: VKind[] = ttsSupported() ? ['listen', 'infinitive', 'binyan'] : ['infinitive', 'binyan'];
+  for (const kind of ['context', 'identify', rotating[day % rotating.length]] as VKind[]) {
+    const k = VKINDS.find((x) => x.id === kind)!;
+    items.push({ id: `vkind:${kind}`, emoji: k.emoji, title: k.label, sub: k.sub, route: `session/vkind/${kind}`, done: tasks.includes(`vkind:${kind}`), minutes: 4 });
+  }
+
+  // Table challenge: the verb-tense you know least well.
+  const shaky = Object.entries(s.cards)
+    .filter(([id]) => id.startsWith('c:'))
+    .sort((a, b) => a[1].s - b[1].s)[0];
+  const [, vid, tense] = shaky ? shaky[0].split(':') : [];
+  const target = vid && verbById.get(vid) ? { v: verbById.get(vid)!, t: tense } : { v: verbs.find((v) => ['A1', 'A2'].includes(v.level))!, t: 'past' };
+  if (target.v && TENSES.includes(target.t as 'past')) {
+    items.push({
+      id: 'vtable',
+      emoji: '📋',
+      title: `Table challenge: ${target.v.inf}`,
+      sub: `Fill in the whole ${target.t} tense`,
+      route: `verbs/table/${target.v.id}/${target.t}`,
+      done: tasks.includes('vtable'),
+      minutes: 3,
+    });
+  }
+
+  const lessonId = (weakB && BINYAN_LESSON[weakB] && !s.done[BINYAN_LESSON[weakB]] ? BINYAN_LESSON[weakB] : undefined) ?? VERB_LESSONS.find((id) => grammar.some((g) => g.id === id) && (!s.done[id] || tasks.includes(id)));
+  const lesson = lessonId && grammar.find((g) => g.id === lessonId);
+  if (lesson) items.push({ id: lesson.id, emoji: '🧩', title: `Lesson: ${lesson.title}`, sub: `${lesson.level} · the grammar behind the forms`, route: `grammar/${lesson.id}`, done: tasks.includes(lesson.id), minutes: 8 });
+  return items;
 }
 
 export function todaysPlan(s: AppState): PlanItem[] {
+  if (s.settings.verbsOnly) return verbPlan(s);
   const log = s.days.find((d) => d.date === today());
   const tasks = log?.tasks ?? [];
   const due = dueWordCards().length;
@@ -114,13 +181,6 @@ export function todaysPlan(s: AppState): PlanItem[] {
     focus: focus === 'verbs',
   });
 
-  // This week's easy news.
-  const news = newsItems().find((r) => tasks.includes(r.id) || !s.done[r.id]);
-  if (news) {
-    used.add(news.id);
-    items.push({ id: news.id, emoji: '🗞️', title: `News: ${news.titleEn}`, sub: `${news.level} · ${news.title}`, route: `read/${news.id}`, done: !!s.done[news.id] && tasks.includes(news.id), minutes: 6 });
-  }
-
   // Extra practice for the weakest skill, at that skill's own level.
   const lvl = (k: Skill) => skillLevel(k, s) ?? s.level;
   const extra = focusItem(s, focus, lvl, tasks, used);
@@ -142,7 +202,7 @@ function focusItem(s: AppState, focus: Skill | undefined, lvl: (k: Skill) => Lev
       return sc && { id: sc.item.id, emoji: '📺', title: `Watch: ${sc.item.titleEn}`, sub: sub(sc.item.level), route: `listen/${sc.item.id}`, done: sc.done, minutes: 8, focus: true };
     }
     case 'reading': {
-      const r = nextOf(readings.filter((x) => !x.date), s, tasks, lvl('reading'), used);
+      const r = nextOf(readings, s, tasks, lvl('reading'), used);
       return r && { id: r.item.id, emoji: '📰', title: `Read: ${r.item.titleEn}`, sub: sub(r.item.level), route: `read/${r.item.id}`, done: r.done, minutes: 10, focus: true };
     }
     case 'grammar': {
@@ -173,7 +233,7 @@ function focusItem(s: AppState, focus: Skill | undefined, lvl: (k: Skill) => Lev
 export function levelUpSuggestion(s: AppState): Level | null {
   const idx = levelRank(s.level);
   if (idx >= LEVELS.length - 1) return null;
-  const pool = [...readings.filter((r) => !r.date), ...scenes].filter((x) => x.level === s.level);
+  const pool = [...readings, ...scenes].filter((x) => x.level === s.level);
   if (pool.length < 3) return null;
   const done = pool.filter((x) => (s.done[x.id]?.score ?? 0) >= 0.6).length;
   return done / pool.length >= 0.75 ? LEVELS[idx + 1] : null;

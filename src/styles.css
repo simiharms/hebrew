@@ -749,3 +749,52 @@ select.select {
   padding: 8px 10px;
   max-width: 100%;
 }
+
+/* Flash cards and choice buttons */
+.big-en {
+  font-size: 24px;
+  font-weight: 650;
+}
+.rate-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+}
+.btn.rate {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.btn.rate.bad {
+  background: var(--bad-soft);
+  color: var(--bad);
+}
+.btn.rate.close {
+  background: var(--warn-soft);
+  color: var(--warn);
+}
+.btn.rate.ok {
+  background: var(--good-soft);
+  color: var(--good);
+}
+.choice-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+.choice-grid.one {
+  grid-template-columns: 1fr;
+}
+.btn.choice.right {
+  background: var(--good-soft);
+  color: var(--good);
+  border-color: var(--good);
+}
+.btn.choice.wrong {
+  background: var(--bad-soft);
+  color: var(--bad);
+  border-color: var(--bad);
+}
+.btn.choice.on {
+  border-color: var(--primary);
+  background: var(--primary-soft);
+}

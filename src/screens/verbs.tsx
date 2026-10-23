@@ -1,20 +1,18 @@
-import { useMemo, useState } from 'preact/hooks';
-import { AnswerInput, Feedback } from '../components/answer.tsx';
+import { useState } from 'preact/hooks';
 import { HeText } from '../components/hebrew.tsx';
-import { Item, LevelBadge, Progress, SpeakBtn, TopBar } from '../components/ui.tsx';
+import { Item, LevelBadge, SpeakBtn, TopBar } from '../components/ui.tsx';
 import type { Form, Verb } from '../content/types.ts';
+import { WORD_LEVELS } from '../content/types.ts';
 import { displayRoot, verbById, verbs } from '../lib/content.ts';
-import { type Rating, review, strength } from '../lib/fsrs.ts';
-import { type CheckResult, checkHebrew } from '../lib/hebrew.ts';
+import { allDecks } from '../lib/decks.ts';
+import { strength } from '../lib/fsrs.ts';
 import { go } from '../lib/router.ts';
-import { UNITS } from '../lib/course.ts';
-import { buildVerbListSession, buildVerbSession, dueVerbCount, TENSES, type VerbTask } from '../lib/session.ts';
-import { record } from '../lib/skills.ts';
-import { addMistake, getState, setState, todayLog, useAppState } from '../lib/store.ts';
+import { drillable, dueVerbCount, TENSES } from '../lib/session.ts';
+import { getState, setState, useAppState } from '../lib/store.ts';
 import { speak } from '../lib/tts.ts';
-import { SessionDone } from './session-words.tsx';
+import { VKINDS } from '../lib/verbdrill.ts';
 
-const BINYAN_LABEL: Record<string, string> = {
+export const BINYAN_LABEL: Record<string, string> = {
   paal: "Pa'al",
   piel: "Pi'el",
   hifil: "Hif'il",
@@ -23,7 +21,7 @@ const BINYAN_LABEL: Record<string, string> = {
   pual: "Pu'al",
   hufal: "Huf'al",
 };
-const TENSE_HE: Record<string, string> = { present: 'הווה', past: 'עבר', future: 'עתיד', imp: 'ציווי' };
+export const TENSE_HE: Record<string, string> = { present: 'הווה', past: 'עבר', future: 'עתיד', imp: 'ציווי' };
 
 const PRESENT_ROWS: [string, string][] = [
   ['ms', 'אני/אתה/הוא'],
@@ -94,6 +92,7 @@ export function VerbTables({ verb, only, highlight }: { verb: Verb; only?: strin
           <div class="mt">
             <div class="section-title" style={{ margin: '8px 0 0' }}>
               {t} · <span class="he">{TENSE_HE[t]}</span>
+              {verb.rare?.includes(t as 'past') && <span class="badge warn">rarely used</span>}
             </div>
             <FormTable rows={rows} table={tab!} highlight={only ? highlight : undefined} />
           </div>
@@ -137,6 +136,12 @@ export function VerbPage({ id }: { id: string }) {
             <HeText text={verb.ex.he} />
             <div class="en">{verb.ex.en}</div>
           </div>
+          {verb.exs?.map((e) => (
+            <div class="mt">
+              <HeText text={e.he} />
+              <div class="en">{e.en}</div>
+            </div>
+          ))}
           <div class="btn-row">
             <button class="btn primary" onClick={() => go(`session/verbs/${verb.id}`)}>
               Drill this verb
@@ -144,6 +149,16 @@ export function VerbPage({ id }: { id: string }) {
             <button class="btn" onClick={() => go(`words/root/${verb.root}`)}>
               🌱 Root family
             </button>
+          </div>
+          <div class="small muted mt">Table challenge: fill in a whole tense</div>
+          <div class="chip-row">
+            {(['present', 'past', 'future', 'imp'] as const)
+              .filter((t) => drillable(verb, t))
+              .map((t) => (
+                <button class="chip" onClick={() => go(`verbs/table/${verb.id}/${t}`)}>
+                  {t === 'imp' ? 'command' : t} · <span class="he">{TENSE_HE[t]}</span>
+                </button>
+              ))}
           </div>
         </div>
         <div class="card">
@@ -157,21 +172,50 @@ export function VerbPage({ id }: { id: string }) {
 export function VerbList() {
   const s = useAppState();
   const [binyan, setBinyan] = useState<string>('all');
-  const list = verbs.filter((v) => binyan === 'all' || v.binyan === binyan);
+  const [level, setLevel] = useState<string>('all');
+  const list = verbs.filter((v) => (binyan === 'all' || v.binyan === binyan) && (level === 'all' || v.level === level));
   const due = dueVerbCount();
+  const verbDecks = allDecks().filter((d) => d.kind === 'verbs');
   return (
     <>
       <TopBar title="Verbs" backTo="practice" />
       <main class="page">
         <div class="card primary">
-          <h3>Verb drill</h3>
+          <h3>Verb practice</h3>
           <p class="small">
-            Type the right form: pronoun + verb + tense. {due ? `${due} verb-tenses are due.` : 'New verb-tenses are introduced gradually.'}
+            A mix of conjugating, using verbs in sentences, recognising forms and listening.{' '}
+            {due ? `${due} verb-tenses are due.` : 'New verb-tenses are introduced gradually.'}
           </p>
           <button class="btn primary block" onClick={() => go('session/verbs')}>
-            Start drill (12)
+            Start (12)
           </button>
         </div>
+        <div class="card">
+          <label class="row" style={{ cursor: 'pointer' }}>
+            <input
+              type="checkbox"
+              checked={s.settings.verbsOnly}
+              onChange={(e) => setState((x) => void (x.settings.verbsOnly = (e.target as HTMLInputElement).checked))}
+            />
+            <span class="grow">
+              <strong>🎯 Verbs-only mode</strong>
+              <div class="small muted">Today's plan becomes all verbs: reviews, new verbs, sentences, recognition, listening and table challenges.</div>
+            </span>
+          </label>
+        </div>
+        <div class="section-title">Practise one skill</div>
+        <div class="list">
+          {VKINDS.map((k) => (
+            <Item emoji={k.emoji} title={k.label} sub={k.sub} onClick={() => go(`session/vkind/${k.id}`)} />
+          ))}
+        </div>
+        <div class="section-title">Verb card decks</div>
+        <div class="list">
+          {verbDecks.map((d) => (
+            <Item emoji="🃏" title={d.title} sub={d.sub} onClick={() => go(`deck/${d.id}`)} />
+          ))}
+        </div>
+        <div class="section-title">All {verbs.length} verbs · conjugation tables</div>
         <div class="chip-row">
           {['all', 'paal', 'piel', 'hifil', 'hitpael', 'nifal'].map((b) => (
             <button class={`chip ${binyan === b ? 'on' : ''}`} onClick={() => setBinyan(b)}>
@@ -179,9 +223,17 @@ export function VerbList() {
             </button>
           ))}
         </div>
+        <div class="chip-row">
+          {['all', ...WORD_LEVELS].map((l) => (
+            <button class={`chip ${level === l ? 'on' : ''}`} onClick={() => setLevel(l)}>
+              {l === 'all' ? 'All levels' : l}
+            </button>
+          ))}
+        </div>
         <div class="list mt">
           {list.map((v) => {
-            const known = TENSES.filter((t) => {
+            const tenses = TENSES.filter((t) => drillable(v, t));
+            const known = tenses.filter((t) => {
               const st = strength(s.cards[`c:${v.id}:${t}`]);
               return st === 'known' || st === 'mature';
             }).length;
@@ -192,129 +244,12 @@ export function VerbList() {
                     <span class="he he-md">{v.inf}</span> <span class="muted">· {v.en}</span>
                   </>
                 }
-                sub={`${BINYAN_LABEL[v.binyan]}${v.gov ? ` · + ${v.gov}` : ''} · ${known}/3 tenses solid`}
+                sub={`${BINYAN_LABEL[v.binyan]}${v.gov ? ` · + ${v.gov}` : ''} · ${known}/${tenses.length} tenses solid`}
                 right={<LevelBadge level={v.level} />}
                 onClick={() => go(`verb/${v.id}`)}
               />
             );
           })}
-        </div>
-      </main>
-    </>
-  );
-}
-
-const TENSE_EN: Record<string, string> = { present: 'present', past: 'past', future: 'future' };
-
-export function VerbSession({ only, unit }: { only?: string; unit?: number }) {
-  const tasks = useMemo(() => (unit !== undefined ? buildVerbListSession(UNITS[unit]?.verbs ?? []) : buildVerbSession(only)), [only, unit]);
-  const [idx, setIdx] = useState(0);
-  const [value, setValue] = useState('');
-  const [result, setResult] = useState<CheckResult | null>(null);
-  const [showTable, setShowTable] = useState(false);
-  const verdicts = useMemo(() => new Map<string, Rating>(), []);
-  const [right, setRight] = useState(0);
-
-  if (!tasks.length) {
-    return (
-      <>
-        <TopBar title="Verbs" backTo="practice" />
-        <main class="page">
-          <div class="card">No verbs available yet.</div>
-        </main>
-      </>
-    );
-  }
-  if (idx >= tasks.length) return <SessionDone task="verbs" right={right} total={tasks.length} doneId={unit !== undefined ? `unit:${unit}:verbs` : undefined} />;
-
-  const t: VerbTask = tasks[idx];
-  const isNewCard = !getState().cards[t.cardId];
-
-  const check = () => {
-    if (!value.trim()) return;
-    const r = checkHebrew(value, [t.answer[0]], { strict: true });
-    setResult(r);
-    if (r.verdict === 'latin') return;
-    const g: Rating = r.verdict === 'correct' ? 3 : r.verdict === 'close' ? 2 : 1;
-    record('verbs', g >= 3 ? 1 : g === 2 ? 0.6 : 0, [`binyan:${t.verb.binyan}`, `tense:${t.tense}`]);
-    if (g >= 3) setRight((n) => n + 1);
-    else addMistake({ kind: 'verb', ref: `${t.verb.id}:${t.tense}:${t.person}`, prompt: `${t.pronoun} · ${t.verb.inf} · ${TENSE_HE[t.tense]}`, answer: t.answer[0], given: value });
-    const prev = verdicts.get(t.cardId);
-    verdicts.set(t.cardId, prev ? (Math.min(prev, g) as Rating) : g);
-    if (r.verdict === 'correct') speak(`${t.pronoun} ${t.answer[0]}`);
-  };
-
-  const proceed = () => {
-    // Rate the card once all of its prompts in this session are done.
-    const remaining = tasks.slice(idx + 1).some((x) => x.cardId === t.cardId);
-    if (!remaining && !only && unit === undefined) {
-      const g = verdicts.get(t.cardId) ?? 1;
-      setState((s) => {
-        s.cards[t.cardId] = review(s.cards[t.cardId], g, Date.now(), s.settings.retention);
-        const log = todayLog(s);
-        log.reviews++;
-        if (g >= 3) log.correct++;
-      });
-    }
-    setIdx(idx + 1);
-    setValue('');
-    setResult(null);
-    setShowTable(false);
-  };
-
-  const done = result && result.verdict !== 'latin';
-
-  return (
-    <>
-      <TopBar title="Verb drill" backTo="practice" right={<span class="small muted">{idx + 1}/{tasks.length}</span>} />
-      <main class="page">
-        <Progress value={idx / tasks.length} />
-        <div class="card">
-          <div class="row">
-            <span class="badge">{BINYAN_LABEL[t.verb.binyan]}</span>
-            {isNewCard && <span class="badge warn">new</span>}
-            <div class="spacer" />
-            <button class="btn small ghost" onClick={() => setShowTable(!showTable)}>
-              {showTable ? 'Hide' : 'Peek'} table
-            </button>
-          </div>
-          <div class="prompt-box">
-            <div class="he he-lg">{t.verb.inf}</div>
-            <div class="small muted">{t.verb.en}</div>
-            <div class="big-en mt">
-              {t.pronounEn} · {TENSE_EN[t.tense]}
-            </div>
-            <div class="he he-md muted">
-              {t.pronoun} · {TENSE_HE[t.tense]}
-            </div>
-          </div>
-          <AnswerInput
-            value={value}
-            onInput={setValue}
-            onEnter={done ? proceed : check}
-            autoFocus
-            status={!result ? '' : result.verdict === 'correct' ? 'ok' : result.verdict === 'close' ? 'close' : result.verdict === 'latin' ? '' : 'bad'}
-          />
-          {result && <Feedback result={result} extra={done && <div class="tr mt">{t.answer[1]}</div>} />}
-          <div class="btn-row">
-            {!done ? (
-              <>
-                <button class="btn ghost" onClick={() => (setValue(value || '?'), setResult({ verdict: 'wrong', expected: t.answer[0] }), verdicts.set(t.cardId, 1))}>
-                  Show me
-                </button>
-                <button class="btn primary" onClick={check} disabled={!value.trim()}>
-                  Check
-                </button>
-              </>
-            ) : (
-              <button class="btn primary block" onClick={proceed}>
-                Continue →
-              </button>
-            )}
-          </div>
-          {(showTable || (done && result?.verdict !== 'correct')) && (
-            <VerbTables verb={t.verb} only={t.tense} highlight={t.person} />
-          )}
         </div>
       </main>
     </>

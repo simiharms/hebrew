@@ -1,5 +1,6 @@
 import { useState } from 'preact/hooks';
 import { OpenQuestion, WritingBox } from '../components/answer.tsx';
+import { FindSet, SummarySet, TrueFalseSet } from '../components/exercises.tsx';
 import { HeText, learnGlossary } from '../components/hebrew.tsx';
 import { Item, LevelBadge, SpeakBtn, TopBar } from '../components/ui.tsx';
 import type { Level, Question } from '../content/types.ts';
@@ -10,8 +11,6 @@ import { record } from '../lib/skills.ts';
 import { getState, markDone, markTask, useAppState } from '../lib/store.ts';
 import { speakSequence, stopSpeaking } from '../lib/tts.ts';
 
-declare const __HOSTED__: boolean;
-
 const KIND_EMOJI: Record<string, string> = {
   news: '🗞️',
   article: '📄',
@@ -21,6 +20,11 @@ const KIND_EMOJI: Record<string, string> = {
   ad: '🏷️',
   interview: '🎙️',
   notice: '📌',
+  chat: '💬',
+  recipe: '🍳',
+  letter: '💌',
+  review: '⭐',
+  essay: '🖋️',
 };
 
 export function ReadList() {
@@ -33,10 +37,9 @@ export function ReadList() {
         <div class="card primary small">
           Tap any word for its meaning, root and prefixes. Answer the questions <strong>in Hebrew</strong> — that's where the learning happens.
         </div>
-        <Item emoji="🗞️" title="News" sub={__HOSTED__ ? "This week's news in easy Hebrew, plus today's real headlines ranked for your level" : 'Short news articles in easy Hebrew'} onClick={() => go('news')} />
         <Item emoji="📋" title="Your own text" sub="Paste any Hebrew: news, subtitles, messages" onClick={() => go('own')} />
         {order.map((lvl) => {
-          const list = readings.filter((r) => r.level === lvl && !r.date);
+          const list = readings.filter((r) => r.level === lvl);
           if (!list.length) return null;
           return (
             <>
@@ -162,7 +165,10 @@ export function Reader({ id }: { id: string }) {
             </>
           ))}
         </div>
+        {r.tf && <TrueFalseSet id={r.id} items={r.tf} skill="reading" />}
         <QuestionSet id={r.id} questions={r.questions} skill="reading" />
+        {r.find && r.find.length > 0 && <FindSet id={r.id} items={r.find} />}
+        {r.summary && r.summary.length > 0 && <SummarySet id={r.id} drills={r.summary} />}
         {r.writing && (
           <>
             <div class="section-title">Your turn</div>
@@ -191,7 +197,7 @@ export function Reader({ id }: { id: string }) {
 
 export function NextUp({ level, currentId, kind }: { level: Level; currentId: string; kind: 'read' | 'listen' }) {
   const s = getState();
-  const list: { id: string; level: Level; titleEn: string }[] = kind === 'read' ? readings.filter((x) => !x.date) : scenes;
+  const list: { id: string; level: Level; titleEn: string }[] = kind === 'read' ? readings : scenes;
   const next = list.find((x) => x.id !== currentId && !s.done[x.id] && levelRank(x.level) >= levelRank(level));
   if (!next) return null;
   return (

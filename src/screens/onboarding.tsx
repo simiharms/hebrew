@@ -113,14 +113,22 @@ export function Onboarding() {
         {step === 2 && (
           <div class="card">
             <h3>2. Your level & goals</h3>
-            <p class="small">Finished the Duolingo course or stuck around its end? That's usually A2 to A2+.</p>
-            <Seg value={level} options={LEVELS.map((l) => ({ v: l, label: l }))} onChange={setLevel} />
+            <p class="small">Finished the Duolingo course or stuck around its end? That's usually A2 to A2+. Not sure? The skills check finds out.</p>
+            <div class="chip-row">
+              {LEVELS.map((l) => (
+                <button class={`chip ${level === l ? 'on' : ''}`} onClick={() => setLevel(l)}>
+                  {l}
+                </button>
+              ))}
+            </div>
             <ul class="small muted">
+              <li>A1 — starting out: the letters, greetings, simple sentences</li>
               <li>A2 — basic sentences, present tense, simple past</li>
               <li>A2+ — past & future, but real texts are hard</li>
               <li>B1 — can follow easy articles and slow conversation</li>
               <li>B1+ — work emails and meetings with effort</li>
               <li>B2 — news and business press with a dictionary</li>
+              <li>C1 — formal, literary and academic Hebrew; idioms and nuance</li>
             </ul>
             <div class="small muted mt">Focus</div>
             <Seg

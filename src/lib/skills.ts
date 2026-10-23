@@ -60,8 +60,9 @@ export function levelFromScore(score: number): Level {
   if (score >= 0.85) return 'B2';
   if (score >= 0.7) return 'B1+';
   if (score >= 0.55) return 'B1';
-  if (score >= 0.35) return 'A2+';
-  return 'A2';
+  if (score >= 0.4) return 'A2+';
+  if (score >= 0.25) return 'A2';
+  return 'A1';
 }
 
 /** Current estimate per skill: the assessment, nudged by practice since then. */

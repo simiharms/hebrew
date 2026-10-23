@@ -1,0 +1,1392 @@
+[
+  {
+    "id": "va1_shalom",
+    "he": "שלום",
+    "tr": "shalóm",
+    "en": "hello; goodbye",
+    "enAlt": ["hi", "bye", "peace"],
+    "pos": "expr",
+    "root": "ש.ל.מ",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "שלום, אני מיכל. ואתה?",
+      "en": "Hello, I'm Michal. And you?"
+    },
+    "note": "Literally \"peace\". Used both to say hello and to say goodbye, at any time of day."
+  },
+  {
+    "id": "va1_boker_tov",
+    "he": "בוקר טוב",
+    "tr": "bóker tov",
+    "en": "good morning",
+    "enAlt": ["morning"],
+    "pos": "phrase",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "בוקר טוב! רוצה קפה?",
+      "en": "Good morning! Want some coffee?"
+    },
+    "note": "The classic reply is בוקר אור (bóker or, lit. \"morning of light\"), but answering בוקר טוב is fine too."
+  },
+  {
+    "id": "va1_erev_tov",
+    "he": "ערב טוב",
+    "tr": "érev tov",
+    "en": "good evening",
+    "enAlt": ["evening"],
+    "pos": "phrase",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "ערב טוב, אפשר שולחן לשניים?",
+      "en": "Good evening, could we have a table for two?"
+    },
+    "note": "Said when you arrive somewhere from late afternoon on. When you leave at night, say לילה טוב."
+  },
+  {
+    "id": "va1_laila_tov",
+    "he": "לילה טוב",
+    "tr": "láyla tov",
+    "en": "good night",
+    "enAlt": ["night"],
+    "pos": "phrase",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "לילה טוב, ילדים! הולכים לישון.",
+      "en": "Good night, kids! Off to bed."
+    },
+    "note": "Gender surprise: לילה is masculine even though it ends in ה, so it is לילה טוב, not טובה. Plural: לילות."
+  },
+  {
+    "id": "va1_ma_shlomkha",
+    "he": "מה שלומך?",
+    "tr": "ma shlomkhá? / ma shlomékh?",
+    "en": "how are you?",
+    "enAlt": ["how are you", "how are you doing?"],
+    "alt": ["מה שלומכם?"],
+    "pos": "phrase",
+    "root": "ש.ל.מ",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "— שלום רונית, מה שלומך? — מצוין, תודה!",
+      "en": "— Hi Ronit, how are you? — Great, thanks!"
+    },
+    "note": "Lit. \"what is your peace?\". Written the same for both genders, but said shlomkhá to a man and shlomékh to a woman. To a group: מה שלומכם? (ma shlomkhém). More casual: מה נשמע?"
+  },
+  {
+    "id": "va1_ma_nishma",
+    "he": "מה נשמע?",
+    "tr": "ma nishmá?",
+    "en": "how's it going?",
+    "enAlt": ["what's up?", "how are things?", "how are you?"],
+    "pos": "phrase",
+    "register": "colloquial",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "— היי, מה נשמע? — הכול טוב, ואצלך?",
+      "en": "— Hey, how's it going? — All good, and with you?"
+    },
+    "note": "Lit. \"what is heard?\". The everyday greeting with friends and colleagues; the same form for everyone. Typical answers: בסדר, הכול טוב, סבבה."
+  },
+  {
+    "id": "va1_beseder",
+    "he": "בסדר",
+    "tr": "beséder",
+    "en": "OK; fine",
+    "enAlt": ["okay", "all right", "fine", "in order"],
+    "pos": "expr",
+    "root": "ס.ד.ר",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "— מחר בתשע? — בסדר, אין בעיה.",
+      "en": "— Tomorrow at nine? — OK, no problem."
+    },
+    "note": "Lit. \"in order\". Answers both \"how are you?\" (fine) and a suggestion (OK). לא בסדר = not OK, and also \"not fair, out of line\"."
+  },
+  {
+    "id": "va1_toda",
+    "he": "תודה",
+    "tr": "todá",
+    "en": "thank you",
+    "enAlt": ["thanks"],
+    "pos": "expr",
+    "root": "י.ד.ה",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "תודה על העזרה!",
+      "en": "Thanks for the help!"
+    },
+    "note": "תודה רבה = thank you very much. To thank for something: תודה על + the thing."
+  },
+  {
+    "id": "va1_bevakasha",
+    "he": "בבקשה",
+    "tr": "bevakashá",
+    "en": "please; you're welcome",
+    "enAlt": ["please", "you're welcome", "here you are", "here you go"],
+    "pos": "expr",
+    "root": "ב.ק.ש",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "אפשר מים, בבקשה?",
+      "en": "Could I have some water, please?"
+    },
+    "note": "Three jobs: \"please\" when you ask, \"here you are\" when you hand something over, and \"you're welcome\" in answer to תודה."
+  },
+  {
+    "id": "va1_ein_baad_ma",
+    "he": "אין בעד מה",
+    "tr": "ein bá'ad ma",
+    "en": "you're welcome; don't mention it",
+    "enAlt": ["you're welcome", "don't mention it", "not at all"],
+    "pos": "phrase",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "— תודה רבה! — אין בעד מה.",
+      "en": "— Thank you very much! — You're welcome."
+    },
+    "note": "Lit. \"there's nothing to thank for\". A little more polite than בבקשה; in casual speech people also say בכיף or אין בעיה."
+  },
+  {
+    "id": "va1_lehitraot",
+    "he": "להתראות",
+    "tr": "lehitra'ót",
+    "en": "goodbye; see you",
+    "enAlt": ["goodbye", "bye", "see you", "see you later"],
+    "pos": "expr",
+    "root": "ר.א.ה",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "להתראות, נדבר מחר!",
+      "en": "Goodbye, talk to you tomorrow!"
+    },
+    "note": "Lit. \"to see each other\" (an infinitive used as a greeting). Casual: ביי or יאללה ביי. נתראה = see you (soon)."
+  },
+  {
+    "id": "va1_naim_meod",
+    "he": "נעים מאוד",
+    "tr": "na'ím me'ód",
+    "en": "nice to meet you",
+    "enAlt": ["pleased to meet you", "very nice"],
+    "pos": "phrase",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "— אני עמית. — נעים מאוד, אני נדיה.",
+      "en": "— I'm Amit. — Nice to meet you, I'm Nadia."
+    },
+    "note": "Said when you are introduced to someone. Reply with נעים מאוד or גם לי (me too). On its own, נעים means \"pleasant\"."
+  },
+  {
+    "id": "va1_barukh_haba",
+    "he": "ברוך הבא",
+    "tr": "barúkh habá",
+    "en": "welcome",
+    "enAlt": ["welcome!"],
+    "alt": ["ברוכה הבאה", "ברוכים הבאים", "ברוכות הבאות"],
+    "pos": "phrase",
+    "root": "ב.ר.כ",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "ברוך הבא לישראל, מקס!",
+      "en": "Welcome to Israel, Max!"
+    },
+    "note": "Lit. \"blessed is the one who comes\". It agrees with the person: ברוכה הבאה (to a woman), ברוכים הבאים (to a group), ברוכות הבאות (to women)."
+  },
+  {
+    "id": "va1_korim_li",
+    "he": "קוראים לי",
+    "tr": "kor'ím li",
+    "en": "my name is",
+    "enAlt": ["I'm called", "my name's"],
+    "pos": "phrase",
+    "root": "ק.ר.א",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "שלום, קוראים לי אלכס. איך קוראים לך?",
+      "en": "Hi, my name is Alex. What's your name?"
+    },
+    "note": "Lit. \"(they) call me\". To ask: איך קוראים לך? (lit. \"how do they call you?\"). More formal: שמי... = my name is..."
+  },
+  {
+    "id": "va1_shem",
+    "he": "שם",
+    "tr": "shem",
+    "en": "name",
+    "enAlt": ["first name"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "שמות",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "מה השם שלך?",
+      "en": "What's your name?"
+    },
+    "note": "Masculine, but the plural ends in -ot: שמות (shemót). Same spelling as שם (sham) = there. שם פרטי = first name, שם משפחה = surname."
+  },
+  {
+    "id": "va1_ken",
+    "he": "כן",
+    "tr": "ken",
+    "en": "yes",
+    "enAlt": ["yeah", "yep"],
+    "pos": "expr",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "— את סטודנטית? — כן, אני לומדת באוניברסיטה.",
+      "en": "— Are you a student? — Yes, I study at the university."
+    },
+    "note": "Don't confuse it with כאן (kan) = here."
+  },
+  {
+    "id": "va1_lo",
+    "he": "לא",
+    "tr": "lo",
+    "en": "no; not",
+    "enAlt": ["no", "not", "don't", "doesn't"],
+    "pos": "adv",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "לא, אני לא גר פה.",
+      "en": "No, I don't live here."
+    },
+    "note": "Both \"no\" and \"not\". It goes right before the word it negates: אני לא יודע = I don't know. לא נכון = not true."
+  },
+  {
+    "id": "va1_ulai",
+    "he": "אולי",
+    "tr": "uláy",
+    "en": "maybe; perhaps",
+    "enAlt": ["maybe", "perhaps", "possibly"],
+    "pos": "adv",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "אולי מחר? היום אני עסוק.",
+      "en": "Maybe tomorrow? Today I'm busy."
+    },
+    "note": "אולי כן, אולי לא = maybe yes, maybe no."
+  },
+  {
+    "id": "va1_mi",
+    "he": "מי",
+    "tr": "mi",
+    "en": "who",
+    "enAlt": ["whom"],
+    "pos": "pron",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "מי זה? אח שלך?",
+      "en": "Who's that? Your brother?"
+    },
+    "note": "With prepositions: של מי? = whose?, עם מי? = with whom? מי זה? / מי זאת? = who is that? (m./f.)"
+  },
+  {
+    "id": "va1_ma",
+    "he": "מה",
+    "tr": "ma",
+    "en": "what",
+    "enAlt": ["what?"],
+    "pos": "pron",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "מה זה? עוגה?",
+      "en": "What's this? A cake?"
+    },
+    "note": "מה? on its own = what? / sorry? (when you didn't hear). מה זה? = what is this?"
+  },
+  {
+    "id": "va1_eifo",
+    "he": "איפה",
+    "tr": "éifo",
+    "en": "where",
+    "pos": "adv",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "איפה אתה גר?",
+      "en": "Where do you live?"
+    },
+    "note": "For direction use לאן? (where to?); for origin, מאיפה? (where from?)."
+  },
+  {
+    "id": "va1_meeifo",
+    "he": "מאיפה",
+    "tr": "me'éifo",
+    "en": "where from",
+    "enAlt": ["from where"],
+    "pos": "adv",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "— מאיפה את? — אני מחיפה.",
+      "en": "— Where are you from? — I'm from Haifa."
+    },
+    "note": "מ + איפה. The answer takes מ too: מחיפה, מרוסיה, מאתיופיה, מצרפת."
+  },
+  {
+    "id": "va1_lean",
+    "he": "לאן",
+    "tr": "le'án",
+    "en": "where to",
+    "enAlt": ["where", "to where"],
+    "pos": "adv",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "לאן אתם נוסעים בשבת?",
+      "en": "Where are you going on Saturday?"
+    },
+    "note": "Used with verbs of movement (ללכת, לנסוע). In casual speech you may hear לאיפה, but לאן is the standard form."
+  },
+  {
+    "id": "va1_matai",
+    "he": "מתי",
+    "tr": "matáy",
+    "en": "when",
+    "pos": "adv",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "מתי השיעור? בעשר?",
+      "en": "When is the lesson? At ten?"
+    },
+    "note": "Only for questions. In a statement, \"when\" is כש־ (kshe-): כשאני בבית... = when I'm at home..."
+  },
+  {
+    "id": "va1_lama",
+    "he": "למה",
+    "tr": "láma",
+    "en": "why",
+    "enAlt": ["what for"],
+    "pos": "adv",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "למה אתה עצוב?",
+      "en": "Why are you sad?"
+    },
+    "note": "Answer with כי (because): כי אני עייף. Formal and written: מדוע."
+  },
+  {
+    "id": "va1_eikh",
+    "he": "איך",
+    "tr": "eikh",
+    "en": "how",
+    "pos": "adv",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "איך אומרים את זה בעברית?",
+      "en": "How do you say this in Hebrew?"
+    },
+    "note": "איך קוראים לך? = what's your name? איך היה? = how was it?"
+  },
+  {
+    "id": "va1_kama",
+    "he": "כמה",
+    "tr": "káma",
+    "en": "how much; how many",
+    "enAlt": ["how much", "how many", "a few", "several"],
+    "pos": "adv",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "כמה ילדים יש לכם?",
+      "en": "How many children do you have?"
+    },
+    "note": "Also \"a few\" before a noun: כמה דקות = a few minutes. כמה זה עולה? = how much does it cost?"
+  },
+  {
+    "id": "va1_eize",
+    "he": "איזה",
+    "tr": "éize",
+    "en": "which; what (kind of)",
+    "enAlt": ["which", "what", "which one", "what a"],
+    "alt": ["איזו", "אילו"],
+    "pos": "pron",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "איזה יום היום?",
+      "en": "What day is it today?"
+    },
+    "note": "Standard forms: איזה (m.), איזו (éizo, f.), אילו (éilu, pl.); in casual speech איזה often covers all three. As an exclamation: איזה כיף! = how nice!"
+  },
+  {
+    "id": "va1_ani",
+    "he": "אני",
+    "tr": "aní",
+    "en": "I",
+    "enAlt": ["me"],
+    "pos": "pron",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "אני סטודנט, ואני גר בבאר שבע.",
+      "en": "I'm a student, and I live in Be'er Sheva."
+    },
+    "note": "There is no word for \"am/is/are\" in the present: אני סטודנט = I (am a) student."
+  },
+  {
+    "id": "va1_ata",
+    "he": "אתה",
+    "tr": "atá",
+    "en": "you (m. sg.)",
+    "enAlt": ["you"],
+    "pos": "pron",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "אתה מורה? גם אני!",
+      "en": "Are you a teacher? Me too!"
+    },
+    "note": "To one man. To one woman: את. Hebrew has no polite \"you\", so אתה is fine even with your boss."
+  },
+  {
+    "id": "va1_at",
+    "he": "את",
+    "tr": "at",
+    "en": "you (f. sg.)",
+    "enAlt": ["you"],
+    "pos": "pron",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "את רוצה תה או קפה?",
+      "en": "Do you want tea or coffee?"
+    },
+    "note": "To one woman. Same spelling as the object marker את (et), which has no English equivalent: אני רואה את הים. Context tells them apart."
+  },
+  {
+    "id": "va1_hu",
+    "he": "הוא",
+    "tr": "hu",
+    "en": "he; it (m.)",
+    "enAlt": ["he", "it"],
+    "pos": "pron",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "זה יוסף. הוא אח שלי.",
+      "en": "This is Yosef. He's my brother."
+    },
+    "note": "Also \"it\" for masculine things: — איפה הטלפון? — הוא על השולחן."
+  },
+  {
+    "id": "va1_hi",
+    "he": "היא",
+    "tr": "hi",
+    "en": "she; it (f.)",
+    "enAlt": ["she", "it"],
+    "pos": "pron",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "זאת רחל. היא רופאה.",
+      "en": "This is Rachel. She's a doctor."
+    },
+    "note": "Also \"it\" for feminine things: — איפה העוגה? — היא במקרר."
+  },
+  {
+    "id": "va1_anakhnu",
+    "he": "אנחנו",
+    "tr": "anákhnu",
+    "en": "we",
+    "enAlt": ["us"],
+    "pos": "pron",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "אנחנו מרוסיה, ועכשיו אנחנו גרים בחולון.",
+      "en": "We're from Russia, and now we live in Holon."
+    },
+    "note": "Formal and written: אנו (ánu)."
+  },
+  {
+    "id": "va1_atem",
+    "he": "אתם",
+    "tr": "atém",
+    "en": "you (m. pl.)",
+    "enAlt": ["you", "you all", "you guys"],
+    "pos": "pron",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "אתם רעבים? יש פיצה.",
+      "en": "Are you hungry? There's pizza."
+    },
+    "note": "To a group of men or a mixed group. To women only: אתן."
+  },
+  {
+    "id": "va1_aten",
+    "he": "אתן",
+    "tr": "atén",
+    "en": "you (f. pl.)",
+    "enAlt": ["you", "you all"],
+    "pos": "pron",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "בנות, אתן מוכנות?",
+      "en": "Girls, are you ready?"
+    },
+    "note": "Only for a group of women. In everyday speech many people use אתם for women too, but the standard form is אתן."
+  },
+  {
+    "id": "va1_hem",
+    "he": "הם",
+    "tr": "hem",
+    "en": "they (m.)",
+    "enAlt": ["they", "them"],
+    "pos": "pron",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "ההורים שלי בבית. הם לא עובדים היום.",
+      "en": "My parents are at home. They aren't working today."
+    },
+    "note": "For men or a mixed group. For women only: הן."
+  },
+  {
+    "id": "va1_hen",
+    "he": "הן",
+    "tr": "hen",
+    "en": "they (f.)",
+    "enAlt": ["they", "them"],
+    "pos": "pron",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "ליאת ורים חברות. הן לומדות ביחד.",
+      "en": "Liat and Rim are friends. They study together."
+    },
+    "note": "Only for an all-female group. In casual speech הם often replaces הן."
+  },
+  {
+    "id": "va1_ze",
+    "he": "זה",
+    "tr": "ze",
+    "en": "this; it (m.)",
+    "enAlt": ["this", "that", "it"],
+    "pos": "pron",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "זה הבית שלי.",
+      "en": "This is my house."
+    },
+    "note": "For masculine nouns, and for \"it/that\" in general: זה טוב = that's good. After a noun it means \"this\": הבית הזה = this house."
+  },
+  {
+    "id": "va1_zot",
+    "he": "זאת",
+    "tr": "zot",
+    "en": "this (f.)",
+    "enAlt": ["this", "that"],
+    "alt": ["זו"],
+    "pos": "pron",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "זאת אמא שלי, דינה.",
+      "en": "This is my mother, Dina."
+    },
+    "note": "For feminine nouns. זו means the same and is a little more formal. After a noun: הדירה הזאת = this apartment."
+  },
+  {
+    "id": "va1_ele",
+    "he": "אלה",
+    "tr": "éle",
+    "en": "these",
+    "enAlt": ["those"],
+    "alt": ["אלו"],
+    "pos": "pron",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "אלה הילדים שלנו.",
+      "en": "These are our children."
+    },
+    "note": "The same for both genders. אלו (élu) means the same. After a noun: הספרים האלה = these books."
+  },
+  {
+    "id": "va1_gam",
+    "he": "גם",
+    "tr": "gam",
+    "en": "also; too",
+    "enAlt": ["also", "too", "as well"],
+    "pos": "adv",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "אני מתל אביב. גם אתה?",
+      "en": "I'm from Tel Aviv. You too?"
+    },
+    "note": "It goes before the word it refers to: גם אני = me too. גם... וגם... = both... and..."
+  },
+  {
+    "id": "va1_rak",
+    "he": "רק",
+    "tr": "rak",
+    "en": "only; just",
+    "enAlt": ["only", "just"],
+    "pos": "adv",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "יש לי רק עשרה שקלים.",
+      "en": "I only have ten shekels."
+    },
+    "note": "It comes before the word it limits. רק רגע = just a moment."
+  },
+  {
+    "id": "va1_akhshav",
+    "he": "עכשיו",
+    "tr": "akhsháv",
+    "en": "now",
+    "enAlt": ["right now"],
+    "pos": "adv",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "אני לא יכול לדבר עכשיו.",
+      "en": "I can't talk now."
+    },
+    "note": "Related words: כרגע = at the moment, for now; מיד = right away."
+  },
+  {
+    "id": "va1_po",
+    "he": "פה",
+    "tr": "po",
+    "en": "here",
+    "enAlt": ["over here"],
+    "alt": ["כאן"],
+    "pos": "adv",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "המשרד שלי פה, בקומה השנייה.",
+      "en": "My office is here, on the second floor."
+    },
+    "note": "כאן (kan) means the same and is a bit more formal. מפה / מכאן = from here."
+  },
+  {
+    "id": "va1_sham",
+    "he": "שם",
+    "tr": "sham",
+    "en": "there",
+    "enAlt": ["over there"],
+    "pos": "adv",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "הבנק שם, ליד הסופר.",
+      "en": "The bank is there, next to the supermarket."
+    },
+    "note": "Same spelling as שם (shem) = name. משם = from there."
+  },
+  {
+    "id": "va1_meod",
+    "he": "מאוד",
+    "tr": "me'ód",
+    "en": "very",
+    "enAlt": ["very much", "really", "a lot"],
+    "alt": ["מאד"],
+    "pos": "adv",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "הדירה קטנה, אבל מאוד יפה.",
+      "en": "The apartment is small but very nice."
+    },
+    "note": "With adjectives it can go before or after: מאוד יפה = יפה מאוד. With verbs it goes after: אני אוהב את זה מאוד. The older spelling מאד is also seen."
+  },
+  {
+    "id": "va1_hakol",
+    "he": "הכול",
+    "tr": "hakól",
+    "en": "everything; all",
+    "enAlt": ["everything", "all", "all of it"],
+    "alt": ["הכל"],
+    "pos": "pron",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "הכול בסדר, תודה.",
+      "en": "Everything's fine, thanks."
+    },
+    "note": "Also spelled הכל. Without ה, כל + noun = every / all: כל יום = every day, כל הילדים = all the children."
+  },
+  {
+    "id": "va1_od",
+    "he": "עוד",
+    "tr": "od",
+    "en": "more; another; still",
+    "enAlt": ["more", "another", "still", "else"],
+    "pos": "adv",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "אפשר עוד כוס מים?",
+      "en": "Can I have another glass of water?"
+    },
+    "note": "עוד + noun = more / another; עוד לא = not yet; מה עוד? = what else?"
+  },
+  {
+    "id": "va1_yesh",
+    "he": "יש",
+    "tr": "yesh",
+    "en": "there is; there are",
+    "enAlt": ["there is", "there are", "have", "has"],
+    "pos": "expr",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "יש לי אח ושתי אחיות.",
+      "en": "I have a brother and two sisters."
+    },
+    "note": "Hebrew has no verb \"to have\": יש לי = I have (lit. \"there is to me\"), יש לך = you have. The negative is אין."
+  },
+  {
+    "id": "va1_ein",
+    "he": "אין",
+    "tr": "ein",
+    "en": "there isn't; there aren't",
+    "enAlt": ["there is no", "there are no", "don't have", "doesn't have"],
+    "pos": "expr",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "אין לי זמן היום.",
+      "en": "I don't have time today."
+    },
+    "note": "The negative of יש: אין לי = I don't have. אין בעיה = no problem."
+  },
+  {
+    "id": "va1_shel",
+    "he": "של",
+    "tr": "shel",
+    "en": "of; belonging to",
+    "enAlt": ["of", "'s", "belonging to"],
+    "pos": "prep",
+    "level": "A1",
+    "topic": "basics",
+    "ex": {
+      "he": "זה התיק של דני.",
+      "en": "This is Danny's bag."
+    },
+    "note": "The owner comes after the thing: הספר של נועה = Noa's book. With endings: שלי (mine), שלך (yours), שלו (his), שלה (hers), שלנו (ours)."
+  },
+  {
+    "id": "va1_mishpakha",
+    "he": "משפחה",
+    "tr": "mishpakhá",
+    "en": "family",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "משפחות",
+    "root": "ש.פ.ח",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "יש לי משפחה גדולה.",
+      "en": "I have a big family."
+    },
+    "note": "\"My family\": המשפחה שלי, or more formally משפחתי (mishpakhtí)."
+  },
+  {
+    "id": "va1_aba",
+    "he": "אבא",
+    "tr": "ába",
+    "en": "dad; father",
+    "enAlt": ["dad", "father", "daddy"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "אבות",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "אבא שלי עובד בבנק.",
+      "en": "My dad works at a bank."
+    },
+    "note": "Masculine even though it ends in א. Often used like a name, without ה: אבא בבית = Dad is home. The formal word is אב; plural אבות."
+  },
+  {
+    "id": "va1_ima",
+    "he": "אמא",
+    "tr": "íma",
+    "en": "mom; mother",
+    "enAlt": ["mom", "mum", "mother", "mommy"],
+    "alt": ["אימא"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "אמהות",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "אמא שלי מאתיופיה.",
+      "en": "My mother is from Ethiopia."
+    },
+    "note": "Like אבא, often used as a name without ה. The formal word is אם (em); plural אמהות (imahót), with an extra ה."
+  },
+  {
+    "id": "va1_horim",
+    "he": "הורים",
+    "tr": "horím",
+    "en": "parents",
+    "pos": "noun",
+    "gender": "m",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "ההורים שלי גרים בירושלים.",
+      "en": "My parents live in Jerusalem."
+    },
+    "note": "Almost always plural. The singular הורה (horé) = a parent is used mostly in official language."
+  },
+  {
+    "id": "va1_akh",
+    "he": "אח",
+    "tr": "akh",
+    "en": "brother",
+    "enAlt": ["sibling", "male nurse"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "אחים",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "יש לי אח קטן. הוא בן שש.",
+      "en": "I have a little brother. He's six."
+    },
+    "note": "אחים = brothers, or siblings of both genders. Also means a male nurse. Colloquially, אחי (akhí) = bro."
+  },
+  {
+    "id": "va1_akhot",
+    "he": "אחות",
+    "tr": "akhót",
+    "en": "sister",
+    "enAlt": ["nurse"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "אחיות",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "האחות שלי לומדת באוניברסיטה.",
+      "en": "My sister studies at the university."
+    },
+    "note": "Irregular plural: אחיות (akhayót). Also means a nurse: האחות במרפאה = the nurse at the clinic."
+  },
+  {
+    "id": "va1_ben",
+    "he": "בן",
+    "tr": "ben",
+    "en": "son; boy",
+    "enAlt": ["son", "boy"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "בנים",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "יש להם בן ובת.",
+      "en": "They have a son and a daughter."
+    },
+    "note": "Also used for age: הוא בן עשר = he is ten (lit. \"a son of ten\"). בנים = sons, and also boys in general."
+  },
+  {
+    "id": "va1_bat",
+    "he": "בת",
+    "tr": "bat",
+    "en": "daughter; girl",
+    "enAlt": ["daughter", "girl"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "בנות",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "הבת שלנו בכיתה א׳.",
+      "en": "Our daughter is in first grade."
+    },
+    "note": "Irregular plural: בנות (banót) = daughters, girls. For age: היא בת שבע = she is seven."
+  },
+  {
+    "id": "va1_yeled",
+    "he": "ילד",
+    "tr": "yéled",
+    "en": "child; boy",
+    "enAlt": ["child", "boy", "kid"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "ילדים",
+    "root": "י.ל.ד",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "הילד משחק בפארק.",
+      "en": "The boy is playing in the park."
+    },
+    "note": "ילדים = children of both genders. Same root as יום הולדת (birthday)."
+  },
+  {
+    "id": "va1_yalda",
+    "he": "ילדה",
+    "tr": "yaldá",
+    "en": "girl; child (f.)",
+    "enAlt": ["girl", "little girl", "daughter"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "ילדות",
+    "root": "י.ל.ד",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "יש לנו ילדה מתוקה בת שלוש.",
+      "en": "We have a sweet three-year-old girl."
+    },
+    "note": "The plural ילדות (yeladót) is spelled like ילדות (yaldút) = childhood."
+  },
+  {
+    "id": "va1_tinok",
+    "he": "תינוק",
+    "tr": "tinók",
+    "en": "baby",
+    "enAlt": ["infant", "baby boy"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "תינוקות",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "שקט, התינוק ישן!",
+      "en": "Quiet, the baby's sleeping!"
+    },
+    "note": "A masculine noun with a feminine-looking plural: תינוקות (tinokót). A baby girl: תינוקת."
+  },
+  {
+    "id": "va1_saba",
+    "he": "סבא",
+    "tr": "sába",
+    "en": "grandpa; grandfather",
+    "enAlt": ["grandfather", "grandpa", "granddad"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "סבים",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "סבא שלי בן תשעים.",
+      "en": "My grandpa is ninety."
+    },
+    "note": "Like אבא: masculine despite the א, and used as a name without ה. Grandparents: סבא וסבתא, or סבים וסבתות."
+  },
+  {
+    "id": "va1_savta",
+    "he": "סבתא",
+    "tr": "sávta",
+    "en": "grandma; grandmother",
+    "enAlt": ["grandmother", "grandma", "granny"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "סבתות",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "בשישי אנחנו אוכלים אצל סבתא.",
+      "en": "On Fridays we eat at Grandma's."
+    },
+    "note": "אצל סבתא = at Grandma's (place). Plural: סבתות (savtót)."
+  },
+  {
+    "id": "va1_nekhed",
+    "he": "נכד",
+    "tr": "nékhed",
+    "en": "grandson; grandchild",
+    "enAlt": ["grandson", "grandchild"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "נכדים",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "יש להם חמישה נכדים.",
+      "en": "They have five grandchildren."
+    },
+    "note": "Granddaughter: נכדה (nekhdá). נכדים = grandchildren of both genders."
+  },
+  {
+    "id": "va1_baal",
+    "he": "בעל",
+    "tr": "bá'al",
+    "en": "husband",
+    "enAlt": ["owner"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "בעלים",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "הבעל שלי עובד בהייטק.",
+      "en": "My husband works in high-tech."
+    },
+    "note": "\"My husband\": הבעל שלי or בעלי (ba'alí). The word also means \"owner\" (בעל הבית = landlord), so some people prefer בן זוג (partner)."
+  },
+  {
+    "id": "va1_isha",
+    "he": "אישה",
+    "tr": "ishá",
+    "en": "woman; wife",
+    "enAlt": ["woman", "wife", "lady"],
+    "alt": ["אשה"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "נשים",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "האישה הזאת היא המנהלת שלי.",
+      "en": "That woman is my manager."
+    },
+    "note": "Irregular plural: נשים (nashím). \"My wife\": אשתי (ishtí) or האישה שלי."
+  },
+  {
+    "id": "va1_ish",
+    "he": "איש",
+    "tr": "ish",
+    "en": "man; person",
+    "enAlt": ["man", "person"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "אנשים",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "האיש הזה הוא השכן שלנו.",
+      "en": "That man is our neighbor."
+    },
+    "note": "Irregular plural: אנשים (anashím) = people. In speech, גבר or בחור are more common for \"a man\"."
+  },
+  {
+    "id": "va1_gever",
+    "he": "גבר",
+    "tr": "géver",
+    "en": "man",
+    "enAlt": ["male", "guy"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "גברים",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "בצוות שלנו יש שלוש נשים ושני גברים.",
+      "en": "Our team has three women and two men."
+    },
+    "note": "The everyday word for an adult man. On restroom doors: גברים / נשים."
+  },
+  {
+    "id": "va1_khaver",
+    "he": "חבר",
+    "tr": "khavér",
+    "en": "friend; boyfriend",
+    "enAlt": ["friend", "boyfriend", "member", "buddy"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "חברים",
+    "root": "ח.ב.ר",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "זה עומר, חבר שלי מהעבודה.",
+      "en": "This is Omer, a friend of mine from work."
+    },
+    "note": "Female friend / girlfriend: חברה (khaverá), spelled like חברה (khevrá) = company. החבר שלי usually means \"my boyfriend\", while חבר שלי = a friend of mine. Also \"member\": חבר במועדון."
+  },
+  {
+    "id": "va1_shakhen",
+    "he": "שכן",
+    "tr": "shakhén",
+    "en": "neighbor",
+    "enAlt": ["neighbour"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "שכנים",
+    "root": "ש.כ.נ",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "השכן שלנו נחמד מאוד.",
+      "en": "Our neighbor is very nice."
+    },
+    "note": "Feminine: שכנה (shkhená). Same root as שכונה (neighborhood)."
+  },
+  {
+    "id": "va1_doda",
+    "he": "דודה",
+    "tr": "dodá",
+    "en": "aunt",
+    "enAlt": ["auntie"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "דודות",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "הדודה שלי גרה בקנדה.",
+      "en": "My aunt lives in Canada."
+    },
+    "note": "Uncle: דוד (dod), plural דודים. It is spelled the same as דוד (dud) = water heater."
+  },
+  {
+    "id": "va1_ben_dod",
+    "he": "בן דוד",
+    "tr": "ben dod",
+    "en": "cousin (m.)",
+    "enAlt": ["cousin"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "בני דודים",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "יש לי בן דוד בברלין.",
+      "en": "I have a cousin in Berlin."
+    },
+    "note": "Lit. \"son of an uncle\", but used for any male cousin. A female cousin: בת דודה (or בת דוד). Cousins: בני דודים."
+  },
+  {
+    "id": "va1_ben_zug",
+    "he": "בן זוג",
+    "tr": "ben zug",
+    "en": "partner (m.)",
+    "enAlt": ["partner", "boyfriend", "husband", "spouse"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "בני זוג",
+    "root": "ז.ו.ג",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "יש לך בן זוג?",
+      "en": "Do you have a partner?"
+    },
+    "note": "Female partner: בת זוג. A neutral, very common word for a husband or wife, boyfriend or girlfriend. בני זוג = a couple."
+  },
+  {
+    "id": "va1_nasui",
+    "he": "נשוי",
+    "tr": "nasúy",
+    "en": "married",
+    "pos": "adj",
+    "root": "נ.ש.א",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "— אתה נשוי? — כן, ויש לנו שני ילדים.",
+      "en": "— Are you married? — Yes, and we have two children."
+    },
+    "note": "Feminine: נשואה (nesu'á); plural: נשואים. Married to: נשוי ל־ (נשוי לרינה = married to Rina)."
+  },
+  {
+    "id": "va1_ravak",
+    "he": "רווק",
+    "tr": "ravák",
+    "en": "single (unmarried)",
+    "enAlt": ["single", "unmarried", "bachelor"],
+    "pos": "adj",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "הוא רווק וגר לבד.",
+      "en": "He's single and lives alone."
+    },
+    "note": "Feminine: רווקה (ravaká). Also a noun: רווק = a bachelor. On forms, the options are usually רווק, נשוי, גרוש, אלמן (widowed)."
+  },
+  {
+    "id": "va1_garush",
+    "he": "גרוש",
+    "tr": "garúsh",
+    "en": "divorced",
+    "enAlt": ["divorcé", "divorcee"],
+    "pos": "adj",
+    "root": "ג.ר.ש",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "הוא גרוש ויש לו שני בנים.",
+      "en": "He's divorced and has two sons."
+    },
+    "note": "Feminine: גרושה (grushá). Don't confuse it with גרוש (grush), an old small coin: אין לי גרוש = I don't have a penny."
+  },
+  {
+    "id": "va1_bakhur",
+    "he": "בחור",
+    "tr": "bakhúr",
+    "en": "guy; young man",
+    "enAlt": ["guy", "young man", "lad", "fellow"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "בחורים",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "הוא בחור נחמד מאוד.",
+      "en": "He's a very nice guy."
+    },
+    "note": "Feminine: בחורה (bakhurá) = young woman. Very common in speech: אחלה בחור = a great guy."
+  },
+  {
+    "id": "va1_ben_kama_ata",
+    "he": "בן כמה אתה?",
+    "tr": "ben káma atá?",
+    "en": "how old are you?",
+    "enAlt": ["how old are you", "what's your age?"],
+    "alt": ["בת כמה את?"],
+    "pos": "phrase",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "— בן כמה אתה? — אני בן שלושים.",
+      "en": "— How old are you? — I'm thirty."
+    },
+    "note": "Lit. \"son of how many are you?\". To a woman: בת כמה את? The answer uses the feminine form of the number for everyone (because שנים is feminine): בן שלוש, בת שלוש."
+  },
+  {
+    "id": "va1_shem_mishpakha",
+    "he": "שם משפחה",
+    "tr": "shem mishpakhá",
+    "en": "surname; last name",
+    "enAlt": ["surname", "last name", "family name"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "שמות משפחה",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "יש לנו אותו שם משפחה.",
+      "en": "We have the same last name."
+    },
+    "note": "On forms: שם פרטי (first name) and שם משפחה. With \"the\", the ה goes on the second word: שם המשפחה."
+  },
+  {
+    "id": "va1_gil",
+    "he": "גיל",
+    "tr": "gil",
+    "en": "age",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "גילים",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "בגיל שש ילדים הולכים לכיתה א׳.",
+      "en": "At age six, children start first grade."
+    },
+    "note": "בגיל + number = at the age of: בגיל עשרים. Gil is also a common Israeli first name."
+  },
+  {
+    "id": "va1_yom_huledet",
+    "he": "יום הולדת",
+    "tr": "yom hulédet",
+    "en": "birthday",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "ימי הולדת",
+    "root": "י.ל.ד",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "יום הולדת שמח, סבתא!",
+      "en": "Happy birthday, Grandma!"
+    },
+    "note": "With \"the\", the ה goes on the second word: יום ההולדת. Plural: ימי הולדת. Same root as ילד (child)."
+  },
+  {
+    "id": "va1_adon",
+    "he": "אדון",
+    "tr": "adón",
+    "en": "Mr.; sir",
+    "enAlt": ["mister", "sir", "gentleman"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "אדונים",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "אדון לוי, הרופא מחכה לך.",
+      "en": "Mr. Levy, the doctor is waiting for you."
+    },
+    "note": "Addressing a man directly: אדוני (adoní) = sir. In writing the title is usually מר (Mr.): מר לוי. Feminine: גברת."
+  },
+  {
+    "id": "va1_gveret",
+    "he": "גברת",
+    "tr": "gvéret",
+    "en": "Mrs.; Ms.; lady",
+    "enAlt": ["Mrs.", "Ms.", "lady", "madam", "ma'am"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "גברות",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "גברת אברהם, יש לך שאלה?",
+      "en": "Mrs. Avraham, do you have a question?"
+    },
+    "note": "Used before a surname or on its own to address a woman politely; גברתי (gvirtí) = madam. גבירותיי ורבותיי = ladies and gentlemen."
+  },
+  {
+    "id": "va1_khevre",
+    "he": "חבר׳ה",
+    "tr": "khévre",
+    "en": "guys; folks",
+    "enAlt": ["guys", "folks", "the gang", "people"],
+    "pos": "noun",
+    "gender": "m",
+    "register": "colloquial",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "חבר׳ה, האוכל מוכן!",
+      "en": "Guys, the food is ready!"
+    },
+    "note": "Plural in meaning and takes a plural verb: החבר׳ה מהעבודה באים = the people from work are coming. Used for mixed groups too."
+  },
+  {
+    "id": "va1_ben_adam",
+    "he": "בן אדם",
+    "tr": "ben adám",
+    "en": "person; human being",
+    "enAlt": ["person", "human", "human being"],
+    "alt": ["בנאדם"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "בני אדם",
+    "level": "A1",
+    "topic": "family",
+    "ex": {
+      "he": "הוא בן אדם טוב.",
+      "en": "He's a good person."
+    },
+    "note": "The everyday word for \"a person\", used for women too (היא בן אדם טוב). Plural: בני אדם = people, human beings. In casual writing: בנאדם."
+  }
+]

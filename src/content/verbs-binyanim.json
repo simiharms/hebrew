@@ -45,6 +45,23 @@
       "he": "אני צריך לדבר איתך על הפרויקט. יש לך דקה?",
       "en": "I need to talk to you about the project. Do you have a minute?"
     },
+    "exs": [
+      {
+        "he": "דיברתי עם אמא שלי בטלפון כמעט שעה.",
+        "en": "I talked with my mother on the phone for almost an hour.",
+        "form": "דיברתי"
+      },
+      {
+        "he": "הילדים של יעל מדברים עברית ורוסית בבית.",
+        "en": "Yael's children speak Hebrew and Russian at home.",
+        "form": "מדברים"
+      },
+      {
+        "he": "נדבר על זה מחר בישיבה, בסדר?",
+        "en": "We'll talk about it tomorrow at the meeting, OK?",
+        "form": "נדבר"
+      }
+    ],
     "note": "לדבר עם + person, לדבר על + topic. On the phone: 'מי מדבר?' = who's speaking? Many Israelis end a call with 'מדברים!' = talk soon."
   },
   {
@@ -93,6 +110,23 @@
       "he": "אנחנו עדיין מחכים לתשובה מהלקוח.",
       "en": "We're still waiting for an answer from the client."
     },
+    "exs": [
+      {
+        "he": "חיכינו לרופא יותר משעה.",
+        "en": "We waited for the doctor for more than an hour.",
+        "form": "חיכינו"
+      },
+      {
+        "he": "אחמד מחכה לך למטה, ליד הכניסה.",
+        "en": "Ahmad is waiting for you downstairs, by the entrance.",
+        "form": "מחכה"
+      },
+      {
+        "he": "חכי רגע, אני כבר יורדת.",
+        "en": "Wait a second, I'm coming right down.",
+        "form": "חכי"
+      }
+    ],
     "note": "Always with ל: מחכה לך, חיכינו לאוטובוס. 'רגע, חכה!' or 'תחכה רגע' = wait a moment. Final-heh pattern: the past has י (חיכיתי) except 3rd person (חיכה, חיכתה, חיכו); 'you (f.) will wait' = תחכי."
   },
   {
@@ -141,6 +175,23 @@
       "he": "הלקוח עוד לא שילם לנו על ההזמנה האחרונה.",
       "en": "The client still hasn't paid us for the last order."
     },
+    "exs": [
+      {
+        "he": "שילמתי שלוש מאות שקל על הנעליים האלה.",
+        "en": "I paid three hundred shekels for these shoes.",
+        "form": "שילמתי"
+      },
+      {
+        "he": "כמה אתם משלמים על הדירה בחודש?",
+        "en": "How much do you pay for the apartment a month?",
+        "form": "משלמים"
+      },
+      {
+        "he": "החברה תשלם לך על השעות הנוספות.",
+        "en": "The company will pay you for the overtime.",
+        "form": "תשלם"
+      }
+    ],
     "note": "לשלם על + thing, לשלם ל + person: שילמתי לספק על המשלוח. 'אני משלם' at a restaurant = it's on me. לשלם במזומן / באשראי = to pay cash / by card. תשלום = payment."
   },
   {
@@ -189,6 +240,23 @@
       "he": "ביקשתי מהמנהלת יום חופש ביום חמישי.",
       "en": "I asked the manager for a day off on Thursday."
     },
+    "exs": [
+      {
+        "he": "המלצרית ביקשה מאיתנו לחכות כמה דקות.",
+        "en": "The waitress asked us to wait a few minutes.",
+        "form": "ביקשה"
+      },
+      {
+        "he": "אנחנו מבקשים מכל העובדים להגיע בזמן.",
+        "en": "We ask all employees to arrive on time.",
+        "form": "מבקשים"
+      },
+      {
+        "he": "אבקש מהמנהל עוד יום כדי לסיים את הדוח.",
+        "en": "I'll ask the manager for one more day to finish the report.",
+        "form": "אבקש"
+      }
+    ],
     "note": "לבקש מ + person: ביקשתי ממנו עזרה (I asked him for help). To ask a question is לשאול, not לבקש. Same root: בבקשה (please), בקשה (request)."
   },
   {
@@ -237,6 +305,23 @@
       "he": "סיפרתי לצוות על הלקוח החדש.",
       "en": "I told the team about the new client."
     },
+    "exs": [
+      {
+        "he": "ג׳ניפר סיפרה לנו על הטיול שלה ליפן.",
+        "en": "Jennifer told us about her trip to Japan.",
+        "form": "סיפרה"
+      },
+      {
+        "he": "סבא שלי תמיד מספר את אותם הסיפורים.",
+        "en": "My grandfather always tells the same stories.",
+        "form": "מספר"
+      },
+      {
+        "he": "אל תדאג, לא אספר לאף אחד.",
+        "en": "Don't worry, I won't tell anyone.",
+        "form": "אספר"
+      }
+    ],
     "note": "לספר ל + person, על + topic: סיפרתי לה על הפגישה. Watch out for look-alikes: מספר can also be mispár (number), and לספר also means to cut someone's hair (ספר = barber)."
   },
   {
@@ -285,6 +370,23 @@
       "he": "אל תדאגו, אני כבר מטפלת בזה.",
       "en": "Don't worry, I'm already taking care of it."
     },
+    "exs": [
+      {
+        "he": "האחות במיון טיפלה בי מהר ובסבלנות.",
+        "en": "The nurse in the ER treated me quickly and patiently.",
+        "form": "טיפלה"
+      },
+      {
+        "he": "מי מטפל בילדים כשאתם בעבודה?",
+        "en": "Who looks after the children when you're at work?",
+        "form": "מטפל"
+      },
+      {
+        "he": "שירות הלקוחות יטפל בתלונה שלך תוך יומיים.",
+        "en": "Customer service will deal with your complaint within two days.",
+        "form": "יטפל"
+      }
+    ],
     "note": "Always with ב: לטפל בבעיה / בלקוח / בילדים. 'אני מטפל בזה' / 'אני אטפל בזה' = I'm on it / I'll take care of it. Also = to treat (medically); מטפל/ת = therapist or caregiver, טיפול = treatment."
   },
   {
@@ -333,6 +435,23 @@
       "he": "קיבלנו את ההצעה שלכם ונחזור אליכם עד סוף השבוע.",
       "en": "We've received your proposal and will get back to you by the end of the week."
     },
+    "exs": [
+      {
+        "he": "קיבלתי את המייל שלך, תודה רבה.",
+        "en": "I got your email, thanks a lot.",
+        "form": "קיבלתי"
+      },
+      {
+        "he": "עובדים חדשים מקבלים מחשב נייד ביום הראשון.",
+        "en": "New employees get a laptop on their first day.",
+        "form": "מקבלים"
+      },
+      {
+        "he": "תקבלי הודעה ברגע שהחבילה תגיע.",
+        "en": "You'll get a message as soon as the package arrives.",
+        "form": "תקבלי"
+      }
+    ],
     "note": "Also = to accept: לקבל את ההצעה (to accept the offer). From someone: לקבל מ. 'התקבלתי לעבודה' = I got the job (lit. I was accepted). קבלה = receipt, or a reception desk."
   },
   {
@@ -381,6 +500,23 @@
       "he": "היא מנהלת צוות של עשרה אנשים.",
       "en": "She manages a team of ten people."
     },
+    "exs": [
+      {
+        "he": "אבא שלי ניהל את החנות של המשפחה עשרים שנה.",
+        "en": "My father ran the family shop for twenty years.",
+        "form": "ניהל"
+      },
+      {
+        "he": "אנחנו מנהלים את כל ההזמנות במערכת אחת.",
+        "en": "We manage all the orders in a single system.",
+        "form": "מנהלים"
+      },
+      {
+        "he": "מי ינהל את הפגישה כשרונית בחופשה?",
+        "en": "Who will run the meeting while Ronit is on vacation?",
+        "form": "ינהל"
+      }
+    ],
     "note": "מנהל/ת (menahél/et) is also the noun 'manager'; ניהול = management. לנהל פגישה = to run a meeting, לנהל משא ומתן = to negotiate. The guttural ה keeps an 'a' where other pi'el verbs drop the vowel: מנהלים (menahalím), ניהלה (nihalá)."
   },
   {
@@ -429,6 +565,23 @@
       "he": "הלקוח ביטל את הפגישה של מחר.",
       "en": "The client cancelled tomorrow's meeting."
     },
+    "exs": [
+      {
+        "he": "ביטלנו את הטיסה בגלל מזג האוויר.",
+        "en": "We cancelled the flight because of the weather.",
+        "form": "ביטלנו"
+      },
+      {
+        "he": "אני מבטלת את המנוי לחדר הכושר מהחודש הבא.",
+        "en": "I'm cancelling my gym membership as of next month.",
+        "form": "מבטלת"
+      },
+      {
+        "he": "אם תבטלו עד יום חמישי, תקבלו החזר מלא.",
+        "en": "If you cancel by Thursday, you'll get a full refund.",
+        "form": "תבטלו"
+      }
+    ],
     "note": "ביטול = cancellation; 'הפגישה בוטלה' = the meeting was cancelled. Typical objects: לבטל הזמנה / מנוי / טיסה (to cancel an order / a subscription / a flight)."
   },
   {
@@ -477,6 +630,23 @@
       "he": "החברה מחפשת מנהל מכירות עם ניסיון.",
       "en": "The company is looking for an experienced sales manager."
     },
+    "exs": [
+      {
+        "he": "חיפשתי את המפתחות שלי בכל הבית.",
+        "en": "I looked for my keys all over the house.",
+        "form": "חיפשתי"
+      },
+      {
+        "he": "אנחנו מחפשים דירת שלושה חדרים בחיפה.",
+        "en": "We're looking for a three-room apartment in Haifa.",
+        "form": "מחפשים"
+      },
+      {
+        "he": "סבטלנה תחפש עבודה חדשה אחרי החגים.",
+        "en": "Svetlana will look for a new job after the holidays.",
+        "form": "תחפש"
+      }
+    ],
     "note": "No preposition, unlike English 'look for': לחפש עבודה, לחפש דירה. 'אנחנו מחפשים עובדים' = we're hiring. The ש here is pronounced s (sin): khipásti."
   },
   {
@@ -525,6 +695,23 @@
       "he": "הטכנאי יבוא מחר בבוקר לתקן את המדפסת.",
       "en": "The technician will come tomorrow morning to fix the printer."
     },
+    "exs": [
+      {
+        "he": "השכן תיקן לנו את הברז במטבח.",
+        "en": "The neighbour fixed the kitchen tap for us.",
+        "form": "תיקן"
+      },
+      {
+        "he": "המורה מתקנת את הטעויות שלנו בחיבורים.",
+        "en": "The teacher corrects our mistakes in our essays.",
+        "form": "מתקנת"
+      },
+      {
+        "he": "אתקן את הקובץ ואשלח לך אותו שוב.",
+        "en": "I'll fix the file and send it to you again.",
+        "form": "אתקן"
+      }
+    ],
     "note": "Also = to correct: תתקן אותי אם אני טועה (correct me if I'm wrong). תיקון = repair / correction. The root ends in נ, so 'we fixed' (tikánu) and 'they fixed' (tiknú) are both spelled תיקנו."
   },
   {
@@ -573,6 +760,23 @@
       "he": "סליחה, לא הבנתי. אפשר להסביר שוב?",
       "en": "Sorry, I didn't understand. Could you explain again?"
     },
+    "exs": [
+      {
+        "he": "בהתחלה לא הבנו מה הוא רוצה מאיתנו.",
+        "en": "At first we didn't understand what he wanted from us.",
+        "form": "הבנו"
+      },
+      {
+        "he": "אני מבינה עברית, אבל עדיין קשה לי לדבר.",
+        "en": "I understand Hebrew, but speaking is still hard for me.",
+        "form": "מבינה"
+      },
+      {
+        "he": "אם תקרא את ההוראות, תבין מה לעשות.",
+        "en": "If you read the instructions, you'll understand what to do.",
+        "form": "תבין"
+      }
+    ],
     "note": "'הבנתי' = got it; 'לא הבנתי' = I didn't get that. להבין ב = to know about: הוא מבין במחשבים. Hollow verb: the root's י disappears in the past (הבנתי) but shows in the present and future (מבין, אבין). The imperative הבן is rare."
   },
   {
@@ -621,6 +825,23 @@
       "he": "הגעתי למשרד מאוחר בגלל הפקקים.",
       "en": "I got to the office late because of the traffic jams."
     },
+    "exs": [
+      {
+        "he": "האורחים הגיעו בשמונה בדיוק.",
+        "en": "The guests arrived at eight on the dot.",
+        "form": "הגיעו"
+      },
+      {
+        "he": "האוטובוס לירושלים מגיע כל עשרים דקות.",
+        "en": "The bus to Jerusalem comes every twenty minutes.",
+        "form": "מגיע"
+      },
+      {
+        "he": "נגיע אליכם בערך בשבע וחצי.",
+        "en": "We'll get to your place at about seven thirty.",
+        "form": "נגיע"
+      }
+    ],
     "note": "The destination takes ל: הגעתי לעבודה / לתל אביב. 'מגיע לך!' = you deserve it. The root's נ disappears (נ.ג.ע): הגעתי, מגיע, אגיע. 'You (f.) arrived' is pronounced higá'at."
   },
   {
@@ -669,6 +890,23 @@
       "he": "הפגישה מתחילה בעשר בדיוק.",
       "en": "The meeting starts at ten sharp."
     },
+    "exs": [
+      {
+        "he": "התחלתי ללמוד עברית באולפן לפני שנתיים.",
+        "en": "I started learning Hebrew at an ulpan two years ago.",
+        "form": "התחלתי"
+      },
+      {
+        "he": "שנת הלימודים מתחילה באחד בספטמבר.",
+        "en": "The school year starts on the first of September.",
+        "form": "מתחילה"
+      },
+      {
+        "he": "נתחיל בעוד חמש דקות, כשכולם יגיעו.",
+        "en": "We'll start in five minutes, when everyone arrives.",
+        "form": "נתחיל"
+      }
+    ],
     "note": "Looks like hitpa'el, but it's hif'il of the root ת.ח.ל. With an infinitive: התחלתי לעבוד פה לפני שנה. Works with or without an object: התחלנו את הישיבה / הישיבה התחילה. התחלה = beginning."
   },
   {
@@ -717,6 +955,23 @@
       "he": "בואו נמשיך את הדיון מחר בבוקר.",
       "en": "Let's continue the discussion tomorrow morning."
     },
+    "exs": [
+      {
+        "he": "היא המשיכה לעבוד גם אחרי שהבן שלה נולד.",
+        "en": "She kept working even after her son was born.",
+        "form": "המשיכה"
+      },
+      {
+        "he": "המחירים ממשיכים לעלות כל שנה.",
+        "en": "Prices keep going up every year.",
+        "form": "ממשיכים"
+      },
+      {
+        "he": "אמשיך לעבוד על זה מחר בבוקר.",
+        "en": "I'll keep working on it tomorrow morning.",
+        "form": "אמשיך"
+      }
+    ],
     "note": "ל + infinitive = to keep doing: הוא המשיך לדבר. With an object: להמשיך את הדיון. 'המשך יום נעים!' = have a nice rest of the day (המשך = continuation)."
   },
   {
@@ -765,6 +1020,23 @@
       "he": "הזמנתי חדר ישיבות לשעה שתיים.",
       "en": "I booked a meeting room for two o'clock."
     },
+    "exs": [
+      {
+        "he": "הזמנו פיצה כי לא היה לנו כוח לבשל.",
+        "en": "We ordered pizza because we didn't have the energy to cook.",
+        "form": "הזמנו"
+      },
+      {
+        "he": "אני מזמינה אותך לארוחת ערב ביום שישי.",
+        "en": "I'm inviting you to dinner on Friday.",
+        "form": "מזמינה"
+      },
+      {
+        "he": "נזמין שולחן לשישה אנשים בשמונה בערב.",
+        "en": "We'll book a table for six people at eight in the evening.",
+        "form": "נזמין"
+      }
+    ],
     "note": "Three meanings: to invite (הזמנתי אותם לישיבה), to order (להזמין אוכל / ציוד), to book (להזמין חדר / שולחן). הזמנה = invitation / order / booking. 'אני מזמין' = it's on me."
   },
   {
@@ -813,6 +1085,23 @@
       "he": "אתה יכול להסביר לי איך המערכת עובדת?",
       "en": "Can you explain to me how the system works?"
     },
+    "exs": [
+      {
+        "he": "המורה הסבירה את התרגיל שלוש פעמים.",
+        "en": "The teacher explained the exercise three times.",
+        "form": "הסבירה"
+      },
+      {
+        "he": "הסרטון הזה מסביר איך למלא את הטופס.",
+        "en": "This video explains how to fill in the form.",
+        "form": "מסביר"
+      },
+      {
+        "he": "אסביר לך הכול כשניפגש.",
+        "en": "I'll explain everything to you when we meet.",
+        "form": "אסביר"
+      }
+    ],
     "note": "The person you explain to takes ל: להסביר ללקוח, תסביר לי. In speech, 'תסביר לי' / 'תסבירי לי' (future form) is the usual way to say 'explain to me'. הסבר = explanation."
   },
   {
@@ -861,6 +1150,23 @@
       "he": "עוד לא החלטנו על התקציב לשנה הבאה.",
       "en": "We haven't decided on next year's budget yet."
     },
+    "exs": [
+      {
+        "he": "אחרי הרבה מחשבה, סמיר החליט לפתוח מסעדה משלו.",
+        "en": "After a lot of thought, Samir decided to open his own restaurant.",
+        "form": "החליט"
+      },
+      {
+        "he": "בדרך כלל אני מחליטה מהר, אבל הפעם קשה לי.",
+        "en": "I usually decide quickly, but this time it's hard for me.",
+        "form": "מחליטה"
+      },
+      {
+        "he": "תחשבי על זה ותחליטי עד יום ראשון.",
+        "en": "Think it over and decide by Sunday.",
+        "form": "תחליטי"
+      }
+    ],
     "note": "להחליט על + noun, להחליט ל + infinitive: החלטתי לעזוב. The guttural ח turns the past prefix into he- (not hi-): החלטתי = hekhlátti. החלטה = decision; לקבל החלטה = to make a decision."
   },
   {
@@ -909,6 +1215,23 @@
       "he": "הספק השני הציע לנו מחיר טוב יותר.",
       "en": "The other supplier offered us a better price."
     },
+    "exs": [
+      {
+        "he": "אורי הציע לי לבוא לעבוד בחברה שלו.",
+        "en": "Uri suggested I come and work at his company.",
+        "form": "הציע"
+      },
+      {
+        "he": "המלון מציע ארוחת בוקר חינם לכל האורחים.",
+        "en": "The hotel offers free breakfast to all guests.",
+        "form": "מציע"
+      },
+      {
+        "he": "נציע להם הנחה של עשרה אחוזים.",
+        "en": "We'll offer them a ten percent discount.",
+        "form": "נציע"
+      }
+    ],
     "note": "Both 'offer' and 'suggest': להציע מחיר (to offer a price), להציע ש + future (אני מציע שנחכה = I suggest we wait). הצעה = offer / proposal; הצעת מחיר = price quote. Like להגיע, the root's נ disappears."
   },
   {
@@ -957,6 +1280,23 @@
       "he": "אני צריכה להכין מצגת לישיבה של מחר.",
       "en": "I need to prepare a presentation for tomorrow's meeting."
     },
+    "exs": [
+      {
+        "he": "סבתא הכינה לנו מרק עוף כשהיינו חולים.",
+        "en": "Grandma made us chicken soup when we were sick.",
+        "form": "הכינה"
+      },
+      {
+        "he": "בבוקר אני מכין קפה לכל המשפחה.",
+        "en": "In the morning I make coffee for the whole family.",
+        "form": "מכין"
+      },
+      {
+        "he": "תכינו את המסמכים לפני הפגישה בבנק.",
+        "en": "Get the documents ready before the meeting at the bank.",
+        "form": "תכינו"
+      }
+    ],
     "note": "To prepare or make something: להכין קפה, להכין דוח. Same root as מוכן (ready) and להתכונן (to get ready). Conjugates like להבין: הכנתי, מכין, אכין."
   },
   {
@@ -1005,6 +1345,23 @@
       "he": "החברה השקיעה הרבה כסף בפיתוח המוצר החדש.",
       "en": "The company invested a lot of money in developing the new product."
     },
+    "exs": [
+      {
+        "he": "השקענו הרבה זמן בשיפוץ הדירה.",
+        "en": "We put a lot of time into renovating the apartment.",
+        "form": "השקענו"
+      },
+      {
+        "he": "טיגיסט משקיעה בלימודים ומקבלת ציונים מצוינים.",
+        "en": "Tigist works hard at her studies and gets excellent grades.",
+        "form": "משקיעה"
+      },
+      {
+        "he": "בשנה הבאה החברה תשקיע יותר בהדרכת עובדים.",
+        "en": "Next year the company will invest more in staff training.",
+        "form": "תשקיע"
+      }
+    ],
     "note": "להשקיע ב + thing: להשקיע בחברה / בפרסום. Also = to put real effort in: היא ממש השקיעה בפרויקט. משקיע = investor; השקעה = investment."
   },
   {
@@ -1053,6 +1410,23 @@
       "he": "אני אתקשר לספק אחרי הישיבה.",
       "en": "I'll call the supplier after the meeting."
     },
+    "exs": [
+      {
+        "he": "התקשרתי אלייך פעמיים, אבל לא ענית.",
+        "en": "I called you twice, but you didn't answer.",
+        "form": "התקשרתי"
+      },
+      {
+        "he": "הבנק מתקשר אליי כל יום עם הצעות חדשות.",
+        "en": "The bank calls me every day with new offers.",
+        "form": "מתקשר"
+      },
+      {
+        "he": "תתקשרי אליי כשתגיעי הביתה.",
+        "en": "Call me when you get home.",
+        "form": "תתקשרי"
+      }
+    ],
     "note": "להתקשר ל + person = to phone someone: התקשרתי לרופא. With pronouns you'll also hear אל: תתקשר אליי. Speakers mostly use the future forms as the imperative: תתקשר / תתקשרי / תתקשרו (the standard התקשר! sounds formal). שיחה = a call."
   },
   {
@@ -1101,6 +1475,23 @@
       "he": "אנחנו משתמשים בתוכנה חדשה לניהול פרויקטים.",
       "en": "We use new project-management software."
     },
+    "exs": [
+      {
+        "he": "השתמשתי במתכון של אמא שלי לעוגה הזאת.",
+        "en": "I used my mother's recipe for this cake.",
+        "form": "השתמשתי"
+      },
+      {
+        "he": "דבורה משתמשת באפליקציה כדי ללמוד מילים חדשות.",
+        "en": "Dvora uses an app to learn new words.",
+        "form": "משתמשת"
+      },
+      {
+        "he": "מהשבוע הבא כל העובדים ישתמשו במערכת החדשה.",
+        "en": "From next week all the employees will use the new system.",
+        "form": "ישתמשו"
+      }
+    ],
     "note": "Always with ב (never את): להשתמש במחשב / בכרטיס אשראי. משתמש = user. The ת of הת- swaps places with the root's ש: השתמשתי, not התשמשתי."
   },
   {
@@ -1149,6 +1540,23 @@
       "he": "כל הצוות מתכונן לכנס בשבוע הבא.",
       "en": "The whole team is getting ready for next week's conference."
     },
+    "exs": [
+      {
+        "he": "התכוננתי לראיון העבודה כל סוף השבוע.",
+        "en": "I prepared for the job interview all weekend.",
+        "form": "התכוננתי"
+      },
+      {
+        "he": "הסטודנטים מתכוננים למבחן בספרייה.",
+        "en": "The students are preparing for the exam in the library.",
+        "form": "מתכוננים"
+      },
+      {
+        "he": "בשבוע הבא אתכונן למצגת יחד עם עדי.",
+        "en": "Next week I'll prepare for the presentation together with Adi.",
+        "form": "אתכונן"
+      }
+    ],
     "note": "להתכונן ל = to get ready for: להתכונן לראיון עבודה / למצגת. Compare להכין את (to prepare something), same root כ.ו.ן. The נ is doubled throughout, so 'we got ready' (hitkonánu) and 'they got ready' (hitkonenú) are both spelled התכוננו."
   },
   {
@@ -1197,6 +1605,23 @@
       "he": "אני מתעניינת במשרה שפרסמתם באתר.",
       "en": "I'm interested in the position you posted on the website."
     },
+    "exs": [
+      {
+        "he": "כמה לקוחות התעניינו במוצר החדש בתערוכה.",
+        "en": "Several customers showed interest in the new product at the exhibition.",
+        "form": "התעניינו"
+      },
+      {
+        "he": "הבן שלי מתעניין מאוד באסטרונומיה.",
+        "en": "My son is very interested in astronomy.",
+        "form": "מתעניין"
+      },
+      {
+        "he": "אני בטוחה שהם יתעניינו בהצעה שלך.",
+        "en": "I'm sure they'll be interested in your proposal.",
+        "form": "יתעניינו"
+      }
+    ],
     "note": "Always with ב: להתעניין במשרה / במחיר. 'רציתי להתעניין לגבי...' = I wanted to ask about... (a classic way to open an inquiry call). Same root as מעניין (interesting). The consonant y is written יי."
   },
   {
@@ -1245,6 +1670,23 @@
       "he": "אני רוצה להתייעץ עם עורכת הדין לפני שנחתום על החוזה.",
       "en": "I want to consult the lawyer before we sign the contract."
     },
+    "exs": [
+      {
+        "he": "לפני שקניתי את הרכב, התייעצתי עם חבר שמבין במכוניות.",
+        "en": "Before I bought the car, I consulted a friend who knows about cars.",
+        "form": "התייעצתי"
+      },
+      {
+        "he": "אנחנו תמיד מתייעצים זה עם זה לפני החלטות גדולות.",
+        "en": "We always consult each other before big decisions.",
+        "form": "מתייעצים"
+      },
+      {
+        "he": "אתייעץ עם בעלי ואחזור אלייך מחר.",
+        "en": "I'll talk it over with my husband and get back to you tomorrow.",
+        "form": "אתייעץ"
+      }
+    ],
     "note": "להתייעץ עם = to consult, to ask advice from: התייעצתי עם המנהלת. 'אפשר להתייעץ איתך רגע?' = can I ask your advice for a moment? יועץ = consultant, ייעוץ = consulting."
   },
   {
@@ -1293,6 +1735,23 @@
       "he": "אנחנו מתנצלים על העיכוב במשלוח.",
       "en": "We apologize for the delay in the delivery."
     },
+    "exs": [
+      {
+        "he": "הנהג התנצל ואמר שהיה פקק ענק.",
+        "en": "The driver apologized and said there had been a huge traffic jam.",
+        "form": "התנצל"
+      },
+      {
+        "he": "אני מתנצלת, לא שמתי לב לשעה.",
+        "en": "I'm sorry, I didn't notice the time.",
+        "form": "מתנצלת"
+      },
+      {
+        "he": "אם תתנצל, היא תסלח לך.",
+        "en": "If you apologize, she'll forgive you.",
+        "form": "תתנצל"
+      }
+    ],
     "note": "להתנצל על + reason, בפני + person: התנצלתי בפני הלקוח על הטעות. 'אני מתנצל/ת' is more formal than 'סליחה'. התנצלות = apology."
   },
   {
@@ -1341,6 +1800,23 @@
       "he": "בואו ניפגש ביום שני בעשר כדי לסגור את הפרטים.",
       "en": "Let's meet on Monday at ten to finalize the details."
     },
+    "exs": [
+      {
+        "he": "נפגשנו בפעם הראשונה באוניברסיטה.",
+        "en": "We met for the first time at university.",
+        "form": "נפגשנו"
+      },
+      {
+        "he": "אנחנו נפגשים כל יום שלישי לארוחת צהריים.",
+        "en": "We meet every Tuesday for lunch.",
+        "form": "נפגשים"
+      },
+      {
+        "he": "מתי תיפגשי עם עורכת הדין?",
+        "en": "When will you meet with the lawyer?",
+        "form": "תיפגשי"
+      }
+    ],
     "note": "להיפגש עם = to meet up with (by arrangement): נפגשתי עם הלקוחה. Compare pa'al לפגוש את = to meet / run into someone. פגישה = meeting."
   },
   {
@@ -1389,6 +1865,23 @@
       "he": "אפשר להיכנס? יש לי שאלה קצרה.",
       "en": "May I come in? I have a quick question."
     },
+    "exs": [
+      {
+        "he": "נכנסתי לחנות רק כדי לקנות מים.",
+        "en": "I went into the shop just to buy water.",
+        "form": "נכנסתי"
+      },
+      {
+        "he": "הילדים נכנסים לכיתה בשמונה בבוקר.",
+        "en": "The children go into class at eight in the morning.",
+        "form": "נכנסים"
+      },
+      {
+        "he": "תיכנסו, הדלת פתוחה!",
+        "en": "Come in, the door's open!",
+        "form": "תיכנסו"
+      }
+    ],
     "note": "להיכנס ל + place: נכנסתי למשרד. Also = to log in: להיכנס למערכת. When someone knocks, say 'כן, תיכנס!' / 'תיכנסי!'; היכנס is the formal, written imperative. כניסה = entrance."
   },
   {
@@ -1437,6 +1930,23 @@
       "he": "אני נשאר היום במשרד עד מאוחר.",
       "en": "I'm staying late at the office today."
     },
+    "exs": [
+      {
+        "he": "בגלל הגשם נשארנו בבית כל השבת.",
+        "en": "Because of the rain we stayed at home all Saturday.",
+        "form": "נשארנו"
+      },
+      {
+        "he": "הם נשארים אצל ההורים שלה עד סוף החודש.",
+        "en": "They're staying with her parents until the end of the month.",
+        "form": "נשארים"
+      },
+      {
+        "he": "כמה זמן תישארי בארץ?",
+        "en": "How long will you stay in Israel?",
+        "form": "תישארי"
+      }
+    ],
     "note": "Also = to be left: נשארו לנו יומיים (we have two days left). Recorded phone menus say 'אנא הישארו על הקו' = please stay on the line; in conversation people say תישאר / תישארי."
   },
   {
@@ -1485,6 +1995,23 @@
       "he": "נרשמתי לקורס ניהול פרויקטים דרך העבודה.",
       "en": "I signed up for a project management course through work."
     },
+    "exs": [
+      {
+        "he": "יותר ממאה איש נרשמו לכנס השנה.",
+        "en": "More than a hundred people signed up for the conference this year.",
+        "form": "נרשמו"
+      },
+      {
+        "he": "הרבה סטודנטים נרשמים לקורס הזה בגלל המרצה.",
+        "en": "Lots of students sign up for this course because of the lecturer.",
+        "form": "נרשמים"
+      },
+      {
+        "he": "הבת שלי תירשם לחוג ציור בשנה הבאה.",
+        "en": "My daughter will sign up for an art class next year.",
+        "form": "תירשם"
+      }
+    ],
     "note": "להירשם ל = to sign up / register for: להירשם לכנס, לאתר. הרשמה = registration. Because ר can't be doubled, the standard pronunciation has e (leherashém, terashém); in everyday speech you'll also hear lehirashém, tirashém."
   },
   {
@@ -1533,6 +2060,23 @@
       "he": "צריך להיזהר ממיילים חשודים שמבקשים סיסמה.",
       "en": "You have to watch out for suspicious emails that ask for a password."
     },
+    "exs": [
+      {
+        "he": "נזהרנו מאוד לא להעיר את התינוק.",
+        "en": "We were very careful not to wake the baby.",
+        "form": "נזהרנו"
+      },
+      {
+        "he": "כשיורד גשם, הנהגים נזהרים יותר בכביש.",
+        "en": "When it rains, drivers are more careful on the road.",
+        "form": "נזהרים"
+      },
+      {
+        "he": "תיזהרי, הצלחת חמה מאוד!",
+        "en": "Careful, the plate is very hot!",
+        "form": "תיזהרי"
+      }
+    ],
     "note": "להיזהר מ = to beware of; להיזהר עם = to be careful with. In speech: 'תיזהר!' / 'תיזהרי!' = careful! (היזהר is the formal form). זהירות = caution, as on signs: זהירות, רצפה רטובה."
   }
 ]

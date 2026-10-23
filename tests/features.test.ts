@@ -7,7 +7,7 @@ import { allDecks, deckById, deckQueue } from '../src/lib/decks.ts';
 import { allSentences, sentencesAt } from '../src/lib/listening.ts';
 import { drillable, makeVerbTask, TENSES } from '../src/lib/session.ts';
 import { getState, importState } from '../src/lib/store.ts';
-import { analyses, asKind, contextSentence, personChoices } from '../src/lib/verbdrill.ts';
+import { analyses, asKind, blankForm, contextSentence, personChoices } from '../src/lib/verbdrill.ts';
 import { levelFromBands } from '../src/screens/assessment.tsx';
 
 describe('verb recognition', () => {
@@ -28,10 +28,15 @@ describe('verb recognition', () => {
     for (const v of verbs) {
       for (const t of TENSES.filter((x) => drillable(v, x))) {
         const s = contextSentence(makeVerbTask(v, t));
-        expect(s.he.includes(s.form), `${v.inf} ${t}: ${s.he}`).toBe(true);
+        expect(s.gap.includes('___') && s.gap.replace('___', s.form) === s.he, `${v.inf} ${t}: ${s.he}`).toBe(true);
         expect(analyses(v, s.form).some((a) => a.tense === t), `${v.inf} ${t}: ${s.form}`).toBe(true);
       }
     }
+  });
+  it('blanks whole words only', () => {
+    expect(blankForm('במקום הזה קם בבוקר', 'קם')).toBe('במקום הזה ___ בבוקר');
+    expect(blankForm('אמרתי שקם מוקדם', 'קם')).toBe('אמרתי ש___ מוקדם');
+    expect(blankForm('אין פה', 'קם')).toBeNull();
   });
   it('turns a conjugation task into other kinds', () => {
     const t = makeVerbTask(write, 'future');
@@ -75,7 +80,7 @@ describe('course', () => {
   it('every unit ends with a check and has something to study', () => {
     UNITS.forEach((u, n) => {
       const steps = unitSteps(u, n);
-      expect(steps.at(-1)!.kind).toBe('check');
+      expect(steps[steps.length - 1].kind).toBe('check');
       expect(steps.length, u.id).toBeGreaterThan(2);
     });
   });

@@ -4,7 +4,7 @@
 // update the skill profile.
 import type { Binyan, Form, Verb } from '../content/types.ts';
 import { verbById } from './content.ts';
-import { lenient } from './hebrew.ts';
+import { lenient, splitWords } from './hebrew.ts';
 import {
   buildVerbSession,
   drillable,
@@ -36,7 +36,7 @@ export const PRODUCTION: VKind[] = ['conjugate', 'context', 'listen'];
 export interface VTask extends VerbTask {
   kind: VKind;
   shown?: Form; // identify / infinitive / binyan: the form on screen
-  sentence?: { he: string; en: string; form: string }; // context
+  sentence?: { he: string; en: string; form: string; gap: string }; // context: gap = he with ___
 }
 
 const rand = <T,>(xs: T[]): T => xs[Math.floor(Math.random() * xs.length)];
@@ -61,21 +61,51 @@ const TIME_CUE: Record<Tense, [string, string]> = {
   future: ['מחר', 'Tomorrow'],
 };
 
-/** A sentence with this verb in this tense: one of the verb's examples, or a simple time-cue sentence. */
-export function contextSentence(t: VerbTask): { he: string; en: string; form: string } {
-  const v = t.verb;
-  const examples = [...(v.exs ?? []), ...(v.ex ? [{ ...v.ex, form: '' }] : [])];
-  const fits = examples.filter((e) => {
-    const form = e.form || Object.values(tableOf(v, t.tense) ?? {}).find((f) => e.he.includes(f[0]))?.[0];
-    return form && analyses(v, form).some((a) => a.tense === t.tense) && e.he.includes(form);
-  });
-  if (fits.length) {
-    const e = rand(fits);
-    const form = e.form || Object.values(tableOf(v, t.tense)!).find((f) => e.he.includes(f[0]))![0];
-    return { he: e.he, en: e.en, form };
+/**
+ * The sentence with the verb form replaced by ___ (a one-letter prefix such as
+ * ו or ש stays in front of the gap), or null if the form isn't a word in it.
+ */
+export function blankForm(sentence: string, form: string): string | null {
+  const target = lenient(form);
+  let out = '';
+  let found = false;
+  for (const p of splitWords(sentence)) {
+    if (!found && p.isWord) {
+      if (lenient(p.w) === target) {
+        out += '___';
+        found = true;
+        continue;
+      }
+      if (/^[ושהכלבמ]/.test(p.w) && lenient(p.w.slice(1)) === target) {
+        out += `${p.w[0]}___`;
+        found = true;
+        continue;
+      }
+    }
+    out += p.w;
   }
+  return found ? out : null;
+}
+
+/** A sentence with this verb in this tense: one of the verb's examples, or a simple time-cue sentence. */
+export function contextSentence(t: VerbTask): { he: string; en: string; form: string; gap: string } {
+  const v = t.verb;
+  const forms = Object.values(tableOf(v, t.tense) ?? {}).map((f) => f[0]);
+  const options: { he: string; en: string; form: string; gap: string }[] = [];
+  for (const e of [...(v.exs ?? []), ...(v.ex ? [{ ...v.ex, form: '' }] : [])]) {
+    for (const form of e.form ? [e.form] : forms) {
+      if (!analyses(v, form).some((a) => a.tense === t.tense)) continue;
+      const gap = blankForm(e.he, form);
+      if (gap) {
+        options.push({ he: e.he, en: e.en, form, gap });
+        break;
+      }
+    }
+  }
+  if (options.length) return rand(options);
   const [cue, cueEn] = TIME_CUE[t.tense];
-  return { he: `${cue} ${t.pronoun} ${t.answer[0]}.`, en: `${cueEn}, ${t.pronounEn} … (${v.en.replace(/^to /, '')}).`, form: t.answer[0] };
+  const he = `${cue} ${t.pronoun} ${t.answer[0]}.`;
+  return { he, en: `${cueEn}, ${t.pronounEn} … (${v.en.replace(/^to /, '')}).`, form: t.answer[0], gap: `${cue} ${t.pronoun} ___.` };
 }
 
 /** Turn a conjugation task into a task of another kind about the same verb and tense. */

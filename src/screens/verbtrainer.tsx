@@ -192,7 +192,7 @@ function TypedTask({ t, onAnswer }: { t: VTask; onAnswer: (g: Rating, given: str
     const s = t.sentence;
     prompt = (
       <div class="prompt-box">
-        {renderPrompt(s.he.replace(s.form, '___'), done ? s.form : undefined)}
+        {renderPrompt(s.gap, done ? s.form : undefined)}
         <div class="small muted mt">{s.en}</div>
         <div class="hint">
           <span class="he">{t.verb.inf}</span> · {TENSE_EN[t.tense]}

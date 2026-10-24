@@ -13,6 +13,7 @@ import { loadSemantic, semanticReady } from '../lib/semantic.ts';
 import { exportState, type Focus, importState, resetState, setState, streak, useAppState } from '../lib/store.ts';
 import { hebrewVoices, speak, ttsSupported } from '../lib/tts.ts';
 import { setupHelp } from '../lib/platform.ts';
+import { drillable, TENSES } from '../lib/session.ts';
 
 declare const __SINGLE__: boolean;
 declare const __HOSTED__: boolean;
@@ -89,7 +90,7 @@ export function MePage() {
     const known = items.filter((v) => ['known', 'mature'].includes(strength(s.cards[`v:${v.id}`]))).length;
     return { l, known, total: items.length };
   });
-  const verbSolid = verbs.filter((v) => ['present', 'past', 'future'].every((t) => ['known', 'mature'].includes(strength(s.cards[`c:${v.id}:${t}`])))).length;
+  const verbSolid = verbs.filter((v) => TENSES.filter((t) => drillable(v, t)).every((t) => ['known', 'mature'].includes(strength(s.cards[`c:${v.id}:${t}`])))).length;
 
   const last14 = Array.from({ length: 14 }, (_, i) => {
     const d = new Date();

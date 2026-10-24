@@ -9,6 +9,7 @@ import { type Focus, getState, setState } from '../lib/store.ts';
 import { hebrewVoices, speak, ttsSupported } from '../lib/tts.ts';
 import { InstallCard } from './me.tsx';
 import { isMac, setupHelp } from '../lib/platform.ts';
+import { startUnitForLevel } from '../lib/course.ts';
 
 export function Onboarding() {
   const [step, setStep] = useState(0);
@@ -25,6 +26,8 @@ export function Onboarding() {
       st.settings.focus = focus;
       st.settings.newPerDay = perDay;
       st.onboarded = true;
+      // Start the course at the chosen level (the skills check may move it again).
+      if (!placement) st.courseUnit = startUnitForLevel(level);
     });
     go(placement ? 'assessment' : 'today');
   };

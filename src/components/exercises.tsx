@@ -72,14 +72,12 @@ function TrueFalseCard({ t, onDone }: { t: TrueFalse; onDone: (ok: boolean) => v
   );
 }
 
-/** The input counts if it is one of the answers, with or without a one-letter prefix. */
+/** The input counts if it is one of the answers, also with an extra prefix (ו + בבית). */
 export function matchesFind(input: string, answers: string[]): boolean {
   const v = lenient(input);
   if (!v) return false;
-  return answers.some((a) => {
-    const forms = new Set([lenient(a), ...prefixVariants(lenient(a))]);
-    return forms.has(v) || prefixVariants(v).some((x) => forms.has(x)) || checkHebrew(input, [a]).verdict === 'correct';
-  });
+  const forms = new Set(answers.map(lenient));
+  return prefixVariants(v).some((x) => forms.has(x)) || answers.some((a) => checkHebrew(input, [a]).verdict === 'correct');
 }
 
 export function FindSet({ id, items }: { id: string; items: FindWord[] }) {
@@ -102,8 +100,16 @@ export function FindSet({ id, items }: { id: string; items: FindWord[] }) {
 function FindRow({ f, onDone }: { f: FindWord; onDone: (ok: boolean) => void }) {
   const [value, setValue] = useState('');
   const [state, setStateV] = useState<'ok' | 'bad' | null>(null);
+  const [note, setNote] = useState('');
   const check = () => {
     if (!value.trim() || state) return;
+    const r = checkHebrew(value, f.answer);
+    if (r.verdict === 'latin') {
+      // English keyboard still on: let them switch and try again.
+      setNote(r.note ?? 'Switch to the Hebrew keyboard.');
+      return;
+    }
+    setNote('');
     const ok = matchesFind(value, f.answer);
     setStateV(ok ? 'ok' : 'bad');
     onDone(ok);
@@ -123,6 +129,7 @@ function FindRow({ f, onDone }: { f: FindWord; onDone: (ok: boolean) => void }) 
           </button>
         )}
       </div>
+      {note && <div class="small muted">{note}</div>}
       {state === 'bad' && (
         <div class="small">
           In the text: <span class="he he-md">{f.answer[0]}</span>

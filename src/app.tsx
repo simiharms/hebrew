@@ -88,7 +88,7 @@ function screen(route: string[]) {
     case 'grammar':
       return b ? <GrammarLessonPage id={b} /> : <GrammarList />;
     case 'numbers':
-      return <NumbersPage />;
+      return <NumbersPage unitId={b === 'unit' ? c : undefined} />;
     case 'write':
       return b ? <WriteTask id={b} /> : <WriteList />;
     case 'mistakes':

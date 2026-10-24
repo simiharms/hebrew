@@ -370,6 +370,7 @@ export function Dictation({ text, gender, onDone }: { text: string; gender?: 'm'
   const [given, setGiven] = useState('');
   const [result, setResult] = useState<ReturnType<typeof wordDiff> | null>(null);
   const check = () => {
+    if (!given.trim()) return;
     const r = wordDiff(text, given);
     setResult(r);
     record('listening', r.score);

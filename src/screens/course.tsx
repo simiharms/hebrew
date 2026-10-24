@@ -146,7 +146,7 @@ export function UnitCheck({ n }: { n: number }) {
     const drills = shuffle(grammar.filter((g) => u.grammar.includes(g.id)).flatMap((g) => g.drills.map((d) => ({ kind: 'drill' as const, drill: d, lesson: g.id }))));
     const verbs = shuffle(u.verbs.map((id) => verbById.get(id)).filter(Boolean)).slice(0, 3).map((v) => {
       const t = makeVerbTask(v!, shuffle(TENSES.filter((x) => drillable(v!, x)))[0]);
-      return { kind: 'verb' as const, label: `${t.pronoun} · ${TENSE_HE[t.tense]}`, inf: v!.inf, en: v!.en, answer: t.answer, binyan: v!.binyan, tense: t.tense };
+      return { kind: 'verb' as const, label: `${t.pronoun} (${t.pronounEn}) · ${TENSE_HE[t.tense]}`, inf: v!.inf, en: v!.en, answer: t.answer, binyan: v!.binyan, tense: t.tense };
     });
     return shuffle([...drills.slice(0, 8 - verbs.length), ...verbs]);
   }, [n]);

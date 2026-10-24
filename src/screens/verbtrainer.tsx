@@ -1,9 +1,10 @@
-import { useMemo, useState } from 'preact/hooks';
+import { useLayoutEffect, useMemo, useRef, useState } from 'preact/hooks';
 import { AnswerInput, Feedback } from '../components/answer.tsx';
 import { HeText } from '../components/hebrew.tsx';
 import { Progress, SpeakBtn, TopBar } from '../components/ui.tsx';
 import type { Form } from '../content/types.ts';
 import { verbById } from '../lib/content.ts';
+import { drillable } from '../lib/session.ts';
 import { UNITS } from '../lib/course.ts';
 import { deckById } from '../lib/decks.ts';
 import { type Rating, review } from '../lib/fsrs.ts';
@@ -98,7 +99,7 @@ export function VerbSession({ mode }: { mode: VerbMode }) {
       addMistake({
         kind: 'verb',
         ref: `${t.verb.id}:${t.tense}:${t.person}`,
-        prompt: `${t.pronoun} · ${t.verb.inf} · ${TENSE_HE[t.tense]}`,
+        prompt: `${t.pronoun} (${t.pronounEn}) · ${t.verb.inf} · ${TENSE_HE[t.tense]}`,
         answer: t.answer[0],
         given,
       });
@@ -112,6 +113,7 @@ export function VerbSession({ mode }: { mode: VerbMode }) {
     const remaining = tasks.slice(idx + 1).some((x) => x.cardId === t.cardId && PRODUCTION.includes(x.kind));
     const g = verdicts.get(t.cardId);
     if (schedules(mode) && g && !remaining) {
+      verdicts.delete(t.cardId); // a card is reviewed at most once per session
       setState((s) => {
         s.cards[t.cardId] = review(s.cards[t.cardId], g, Date.now(), s.settings.retention);
         const log = todayLog(s);
@@ -143,7 +145,12 @@ export function VerbSession({ mode }: { mode: VerbMode }) {
               {showTable ? 'Hide' : 'Peek'} table
             </button>
           </div>
-          <TaskBody key={idx} t={t} onAnswer={finish} />
+          {t.kind === 'identify' || t.kind === 'binyan' ? (
+            <TaskBody key={idx} t={t} onAnswer={finish} />
+          ) : (
+            // One input stays mounted from task to task so the iPhone keyboard stays open.
+            <TypedTask idx={idx} t={t} onAnswer={finish} onContinue={proceed} />
+          )}
           {answered !== null && (
             <div class="btn-row">
               <button class="btn primary block" onClick={proceed}>
@@ -160,20 +167,17 @@ export function VerbSession({ mode }: { mode: VerbMode }) {
 }
 
 function TaskBody({ t, onAnswer }: { t: VTask; onAnswer: (g: Rating, given: string) => void }) {
-  switch (t.kind) {
-    case 'identify':
-      return <IdentifyTask t={t} onAnswer={onAnswer} />;
-    case 'binyan':
-      return <BinyanTask t={t} onAnswer={onAnswer} />;
-    default:
-      return <TypedTask t={t} onAnswer={onAnswer} />;
-  }
+  return t.kind === 'identify' ? <IdentifyTask t={t} onAnswer={onAnswer} /> : <BinyanTask t={t} onAnswer={onAnswer} />;
 }
 
-/** conjugate, context, listen and infinitive: type a Hebrew answer. */
-function TypedTask({ t, onAnswer }: { t: VTask; onAnswer: (g: Rating, given: string) => void }) {
+/** conjugate, context, listen and infinitive: type a Hebrew answer. Return checks, then continues. */
+function TypedTask({ idx, t, onAnswer, onContinue }: { idx: number; t: VTask; onAnswer: (g: Rating, given: string) => void; onContinue: () => void }) {
   const [value, setValue] = useState('');
   const [result, setResult] = useState<CheckResult | null>(null);
+  useLayoutEffect(() => {
+    setValue('');
+    setResult(null);
+  }, [idx]);
   const done = !!result && result.verdict !== 'latin';
   const spoken = `${t.pronoun} ${t.answer[0]}`;
   const accepted =
@@ -247,10 +251,9 @@ function TypedTask({ t, onAnswer }: { t: VTask; onAnswer: (g: Rating, given: str
       {prompt}
       <AnswerInput
         value={value}
-        onInput={setValue}
-        onEnter={() => !done && check()}
+        onInput={(v) => !done && setValue(v)}
+        onEnter={() => (done ? onContinue() : check())}
         autoFocus
-        disabled={done}
         status={!result ? '' : result.verdict === 'correct' ? 'ok' : result.verdict === 'close' ? 'close' : result.verdict === 'latin' ? '' : 'bad'}
       />
       {result && <Feedback result={result} extra={done && t.kind !== 'infinitive' && <div class="tr mt">{t.answer[1]}</div>} />}
@@ -419,6 +422,7 @@ export function TableChallenge({ id, tense }: { id: string; tense: TenseKey }) {
   const rows = ROW_PRONOUNS[tense]?.filter(([k]) => table?.[k]) ?? [];
   const [values, setValues] = useState<Record<string, string>>({});
   const [results, setResults] = useState<Record<string, CheckResult> | null>(null);
+  const rated = useRef(false); // retries after seeing the corrections don't count
   if (!verb || !table) return <TopBar title="Not found" backTo="verbs" />;
 
   const check = () => {
@@ -428,13 +432,15 @@ export function TableChallenge({ id, tense }: { id: string; tense: TenseKey }) {
       const r = checkHebrew(values[k] ?? '', [table[k][0]], { strict: true });
       res[k] = r;
       score += r.verdict === 'correct' ? 1 : r.verdict === 'close' ? 0.5 : 0;
-      if (r.verdict !== 'correct')
+      if (r.verdict !== 'correct' && !rated.current)
         addMistake({ kind: 'verb', ref: `${verb.id}:${tense}:${k}`, prompt: `${verb.inf} · ${TENSE_HE[tense]}`, answer: table[k][0], given: values[k] ?? '' });
     }
     setResults(res);
+    if (rated.current) return;
+    rated.current = true;
     const acc = score / rows.length;
     record('verbs', acc, [`binyan:${verb.binyan}`, `tense:${tense}`], 2);
-    if (tense !== 'imp') {
+    if (tense !== 'imp' && drillable(verb, tense)) {
       const g: Rating = acc >= 0.9 ? 3 : acc >= 0.6 ? 2 : 1;
       setState((s) => {
         const key = `c:${verb.id}:${tense}`;

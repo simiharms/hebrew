@@ -67,7 +67,8 @@ export function DeckPage({ id }: { id: string }) {
   if (!deck) return <TopBar title="Deck not found" backTo="decks" />;
   const st = deckStats(deck, s);
   const cards = deck.cards();
-  const typeRoute = deck.kind === 'words' ? `session/words/${deck.id}` : deck.kind === 'verbs' ? `session/vdeck/${deck.id}` : null;
+  // Typed practice for the cards that can be typed: words, or else verbs.
+  const typeRoute = cards.some((c) => c.vocab) ? `session/words/${deck.id}` : cards.some((c) => c.verb) ? `session/vdeck/${deck.id}` : null;
   return (
     <>
       <TopBar title={deck.title} backTo="decks" />
@@ -107,7 +108,7 @@ export function DeckPage({ id }: { id: string }) {
             </button>
             {typeRoute && (
               <button class="btn" onClick={() => go(typeRoute)} disabled={!cards.length}>
-                ⌨️ {deck.kind === 'verbs' ? 'Drill these verbs' : 'Type the answers'}
+                ⌨️ {typeRoute.startsWith('session/vdeck') ? 'Drill these verbs' : 'Type the answers'}
               </button>
             )}
           </div>

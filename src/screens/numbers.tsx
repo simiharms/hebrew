@@ -13,7 +13,7 @@ import {
   yearWords,
 } from '../lib/numbers.ts';
 import { record } from '../lib/skills.ts';
-import { addMistake, markTask } from '../lib/store.ts';
+import { addMistake, markDone, markTask } from '../lib/store.ts';
 import { speak } from '../lib/tts.ts';
 
 const ri = (a: number, b: number) => a + Math.floor(Math.random() * (b - a + 1));
@@ -159,7 +159,7 @@ function genWrite(): WriteItem {
 
 const ROUNDS = 10;
 
-export function NumbersPage() {
+export function NumbersPage({ unitId }: { unitId?: string }) {
   const [mode, setMode] = useState<'listen' | 'write'>('listen');
   const [round, setRound] = useState(0);
   const [score, setScore] = useState(0);
@@ -174,7 +174,13 @@ export function NumbersPage() {
     if (mode === 'listen' && round < ROUNDS) setTimeout(() => speak(listenItem.say), 150);
   }, [listenItem]);
   useEffect(() => {
-    if (round === ROUNDS) markTask('numbers');
+    if (round !== ROUNDS) return;
+    markTask('numbers');
+    // Opened from a course unit: that unit's numbers step is done.
+    if (unitId) {
+      markDone(`unit:${unitId}:numbers`, score / ROUNDS);
+      markTask(`unit:${unitId}:numbers`);
+    }
   }, [round]);
 
   const reset = (m: 'listen' | 'write') => {

@@ -458,7 +458,7 @@ export const UNITS: Unit[] = [
 ];
 
 export interface UnitStep {
-  id: string; // content id, or "unit:<n>:verbs" / ":numbers" / ":check"
+  id: string; // content id, or "unit:<unit id>:verbs" / ":numbers" / ":check"
   kind: 'grammar' | 'read' | 'listen' | 'write' | 'verbs' | 'numbers' | 'deck' | 'check';
   title: string;
   route: string;
@@ -483,17 +483,18 @@ export function unitSteps(u: Unit, n: number): UnitStep[] {
   if (verbs.length) steps.push({ id: `unit:${u.id}:verbs`, kind: 'verbs', title: `Verbs: ${verbs.map((id) => verbById.get(id)!.inf).join(', ')}`, route: `session/unit/${n}` });
   const deck = u.deck ? deckById(u.deck) : undefined;
   if (deck) steps.push({ id: `deck:${deck.id}`, kind: 'deck', title: `Cards: ${deck.title}`, route: `deck/${deck.id}` });
-  if (u.numbers) steps.push({ id: 'numbers', kind: 'numbers', title: 'Numbers by ear and in writing', route: 'numbers' });
+  if (u.numbers) steps.push({ id: `unit:${u.id}:numbers`, kind: 'numbers', title: 'Numbers by ear and in writing', route: `numbers/unit/${u.id}` });
   if (u.write) {
     const e = emails.find((x) => x.id === u.write);
     if (e) steps.push({ id: `${e.id}:w`, kind: 'write', title: e.title, route: `write/${e.id}` });
   }
-  steps.push({ id: `unit:${u.id}:check`, kind: 'check', title: 'Unit check', route: `unit/${n}/check` });
+  // The check asks the unit's grammar drills and verbs; a unit with neither has no check.
+  const drills = u.grammar.some((id) => grammar.find((g) => g.id === id)?.drills.length);
+  if (drills || verbs.length) steps.push({ id: `unit:${u.id}:check`, kind: 'check', title: 'Unit check', route: `unit/${n}/check` });
   return steps;
 }
 
 export function stepDone(s: AppState, step: UnitStep): boolean {
-  if (step.kind === 'numbers') return s.days.some((d) => d.tasks.includes('numbers'));
   return !!s.done[step.id];
 }
 

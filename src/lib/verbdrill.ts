@@ -3,7 +3,7 @@
 // context, listen) feed the c:<verb>:<tense> schedule; recognition tasks only
 // update the skill profile.
 import type { Binyan, Form, Verb } from '../content/types.ts';
-import { verbById } from './content.ts';
+import { verbById, verbs } from './content.ts';
 import { lenient, splitWords } from './hebrew.ts';
 import {
   buildVerbSession,
@@ -136,7 +136,7 @@ const MIX: [VKind, number][] = [
 function pickKind(isNew: boolean, only?: VKind[]): VKind {
   const allowed = (only ?? MIX.map(([k]) => k)).filter((k) => k !== 'listen' || ttsSupported());
   if (!allowed.length) return 'conjugate';
-  if (!only && isNew) return Math.random() < 0.6 ? 'conjugate' : 'context';
+  if (isNew && allowed.includes('conjugate') && allowed.includes('context')) return Math.random() < 0.6 ? 'conjugate' : 'context';
   const weighted = MIX.filter(([k]) => allowed.includes(k));
   let r = Math.random() * weighted.reduce((a, [, w]) => a + w, 0);
   for (const [k, w] of weighted) if ((r -= w) <= 0) return k;
@@ -149,7 +149,13 @@ function pickKind(isNew: boolean, only?: VKind[]): VKind {
  */
 export function buildVerbTrainer(only?: VKind[], size = 12): VTask[] {
   const cards = getState().cards;
-  return buildVerbSession(undefined, size).map((t) => asKind(t, pickKind(!cards[t.cardId], only)));
+  const seen = new Set<string>();
+  return buildVerbSession(undefined, size).map((t) => {
+    // In the mixed session a card's first task produces the form, so the card gets rescheduled.
+    const first = !seen.has(t.cardId);
+    seen.add(t.cardId);
+    return asKind(t, pickKind(!cards[t.cardId], only ?? (first ? PRODUCTION : undefined)));
+  });
 }
 
 /** Mixed practice over a fixed set of verbs (a deck, a unit, one verb). */
@@ -193,10 +199,15 @@ export function personChoices(t: TenseKey): [string, string, string][] {
   return Object.entries(map).map(([k, prs]) => [k, prs.map((p) => p[0]).join(' / '), prs.map((p) => p[1]).join(' / ')]);
 }
 
-export const BINYAN_CHOICES: [Binyan, string, string][] = [
+const ALL_BINYAN_CHOICES: [Binyan, string, string][] = [
   ['paal', "Pa'al", 'כתב · כותב · יכתוב'],
   ['piel', "Pi'el", 'דיבר · מדבר · ידבר'],
   ['hifil', "Hif'il", 'הזמין · מזמין · יזמין'],
   ['hitpael', "Hitpa'el", 'התלבש · מתלבש · יתלבש'],
   ['nifal', "Nif'al", 'נכנס · נכנס · ייכנס'],
+  ['pual', "Pu'al", 'סודר · מסודר · יסודר'],
+  ['hufal', "Huf'al", 'הוזמן · מוזמן · יוזמן'],
 ];
+
+/** Binyan buttons: only binyanim that some verb in the app is in. */
+export const BINYAN_CHOICES = ALL_BINYAN_CHOICES.filter(([b]) => verbs.some((v) => v.binyan === b));

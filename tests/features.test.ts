@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { matchesFind } from '../src/components/exercises.tsx';
 import { LEVELS } from '../src/content/types.ts';
-import { emails, grammar, levelRank, readings, scenes, verbById, verbs } from '../src/lib/content.ts';
+import { emails, grammar, levelRank, lookup, readings, scenes, verbById, verbs } from '../src/lib/content.ts';
 import { UNITS, unitSteps } from '../src/lib/course.ts';
 import { allDecks, deckById, deckQueue } from '../src/lib/decks.ts';
 import { allSentences, sentencesAt } from '../src/lib/listening.ts';
@@ -70,6 +70,15 @@ describe('decks', () => {
     expect(ids).toEqual(expect.arrayContaining(['t:food', 'l:B1', 'v:paal', 'v:piel', 'v:hifil', 'v:essential', 'my:starred']));
     for (const d of allDecks()) if (!d.id.startsWith('my:')) expect(d.cards().length, d.id).toBeGreaterThan(0);
   });
+  it('puts the irregular verbs in the weak-verbs deck', () => {
+    const ids = deckById('v:weak')!.cards().map((c) => c.verb!.id);
+    expect(ids).toEqual(expect.arrayContaining(['verb_lalekhet', 'verb_latet']));
+  });
+  it('never shows a rare tense as a key form', () => {
+    for (const c of deckById('v:essential')!.cards()) {
+      if (c.verb!.rare?.includes('present')) expect(c.forms!.some(([l]) => l.includes('הווה'))).toBe(false);
+    }
+  });
   it('queues due cards first and caps new ones', () => {
     const deck = deckById('alpha')!;
     expect(deckQueue(deck, 5)).toHaveLength(5);
@@ -93,11 +102,12 @@ describe('course', () => {
     }
     expect(missing).toEqual([]);
   });
-  it('every unit ends with a check and has something to study', () => {
+  it('every unit has something to study, and a check whenever there is something to check', () => {
     UNITS.forEach((u, n) => {
       const steps = unitSteps(u, n);
-      expect(steps[steps.length - 1].kind).toBe('check');
       expect(steps.length, u.id).toBeGreaterThan(2);
+      const checkable = u.grammar.some((id) => grammar.find((g) => g.id === id)?.drills.length) || u.verbs.some((id) => verbById.has(id));
+      expect(steps[steps.length - 1].kind === 'check', u.id).toBe(checkable);
     });
   });
 });
@@ -122,11 +132,19 @@ describe('saved progress from the first course', () => {
   });
 });
 
+describe('dictionary', () => {
+  it('a real verb form beats a prefix reading', () => {
+    expect(lookup('שמים').entries[0].verbId).toBe('verb_lasim');
+  });
+});
+
 describe('find the word', () => {
   it('accepts the form with or without a one-letter prefix', () => {
     expect(matchesFind('בבית', ['בבית'])).toBe(true);
     expect(matchesFind('ובבית', ['בבית'])).toBe(true);
-    expect(matchesFind('בית', ['בבית'])).toBe(true);
+    expect(matchesFind('בית', ['בבית', 'בית'])).toBe(true);
+    // root letters are not prefixes: מחשב is not ב + חשב
+    expect(matchesFind('חשב', ['מחשב'])).toBe(false);
     expect(matchesFind('ספר', ['בבית'])).toBe(false);
     expect(matchesFind('', ['בבית'])).toBe(false);
   });

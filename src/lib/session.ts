@@ -245,7 +245,7 @@ export function buildVerbSession(onlyVerb?: string, size = 12): VerbTask[] {
       const [, vid, tense] = id.split(':');
       return { verb: verbById.get(vid)!, tense: tense as Tense };
     })
-    .filter((x) => x.verb);
+    .filter((x) => x.verb && drillable(x.verb, x.tense));
   const half = Math.ceil(size / 2);
   // Weak spots from the skill profile (e.g. hif'il, future) come first.
   const weakB = weakTopics('binyan:', s)[0]?.topic.slice(7);

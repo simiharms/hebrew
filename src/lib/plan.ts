@@ -5,7 +5,7 @@ import { LEVELS } from '../content/types.ts';
 import { emails, grammar, levelRank, readings, scenes, verbById, verbs } from './content.ts';
 import { currentUnit, stepDone, UNITS, unitSteps } from './course.ts';
 import { deckById, deckQueue } from './decks.ts';
-import { dueVerbCount, dueWordCards, newWordsLeft, TENSES } from './session.ts';
+import { drillable, dueVerbCount, dueWordCards, newWordsLeft, TENSES } from './session.ts';
 import { ttsSupported } from './tts.ts';
 import { type VKind, VKINDS } from './verbdrill.ts';
 import { type Skill, SKILLS, skillLevel, weakestSkills, weakTopics } from './skills.ts';
@@ -89,20 +89,26 @@ export function verbPlan(s: AppState): PlanItem[] {
     });
   }
 
-  const day = Math.floor(Date.now() / 86_400_000);
+  const day = Math.round(new Date(today()).getTime() / 86_400_000); // local date, not UTC
   const rotating: VKind[] = ttsSupported() ? ['listen', 'infinitive', 'binyan'] : ['infinitive', 'binyan'];
-  for (const kind of ['context', 'identify', rotating[day % rotating.length]] as VKind[]) {
+  const kinds: VKind[] = ['context', 'identify', rotating[day % rotating.length]];
+  for (const t of tasks) if (t.startsWith('vkind:') && !kinds.includes(t.slice(6) as VKind)) kinds.push(t.slice(6) as VKind);
+  for (const kind of kinds) {
     const k = VKINDS.find((x) => x.id === kind)!;
     items.push({ id: `vkind:${kind}`, emoji: k.emoji, title: k.label, sub: k.sub, route: `session/vkind/${kind}`, done: tasks.includes(`vkind:${kind}`), minutes: 4 });
   }
 
   // Table challenge: the verb-tense you know least well.
   const shaky = Object.entries(s.cards)
-    .filter(([id]) => id.startsWith('c:'))
+    .filter(([id]) => {
+      const [k, vid, t] = id.split(':');
+      const v = verbById.get(vid);
+      return k === 'c' && v && TENSES.includes(t as 'past') && drillable(v, t as 'past');
+    })
     .sort((a, b) => a[1].s - b[1].s)[0];
   const [, vid, tense] = shaky ? shaky[0].split(':') : [];
-  const target = vid && verbById.get(vid) ? { v: verbById.get(vid)!, t: tense } : { v: verbs.find((v) => ['A1', 'A2'].includes(v.level))!, t: 'past' };
-  if (target.v && TENSES.includes(target.t as 'past')) {
+  const target = vid ? { v: verbById.get(vid)!, t: tense } : { v: verbs.find((v) => ['A1', 'A2'].includes(v.level) && drillable(v, 'past'))!, t: 'past' };
+  if (target.v) {
     items.push({
       id: 'vtable',
       emoji: '📋',
@@ -161,7 +167,7 @@ export function todaysPlan(s: AppState): PlanItem[] {
         title: `Unit ${n + 1}: ${st.title}`,
         sub: unit.title,
         route: st.route,
-        done: stepDone(s, st) && (tasks.includes(st.id) || st.kind === 'numbers'),
+        done: stepDone(s, st) && tasks.includes(st.id),
         minutes: STEP_MIN[st.kind],
         focus: !!focus && STEP_SKILL[st.kind] === focus,
       });

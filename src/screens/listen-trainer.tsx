@@ -80,6 +80,7 @@ export function ListenTrainer() {
               text={s.he}
               gender={s.gender}
               onDone={(score) => {
+                if (answered) return; // "Try again" doesn't count twice
                 setAnswered(true);
                 if (score >= 0.99) setRight((n) => n + 1);
               }}

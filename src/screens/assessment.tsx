@@ -58,16 +58,16 @@ function buildSections(): Section[] {
   ];
 
   const verbItems: Item[] = [];
-  const easy = shuffle(verbs.filter((v) => v.binyan === 'paal' && ['A1', 'A2'].includes(v.level) && !v.rare?.length));
-  const harder = shuffle(verbs.filter((v) => v.binyan !== 'paal' && !v.rare?.length));
+  const pool = (levels: string[], paal?: boolean) =>
+    shuffle(verbs.filter((v) => levels.includes(v.level) && !v.rare?.length && (paal === undefined || (v.binyan === 'paal') === paal)));
   const persons = shuffle(PERSONS);
-  [...easy.slice(0, 3), ...harder.slice(0, 4)].forEach((verb, i) => {
+  [...pool(['A1', 'A2'], true).slice(0, 3), ...pool(['A2', 'B1'], false).slice(0, 2), ...pool(['B2', 'C1']).slice(0, 2)].forEach((verb, i) => {
     const [tense, person, pronoun] = persons[i % persons.length];
     const table = verb[tense as 'past'] as Record<string, Form>;
     if (!table?.[person]) return;
     verbItems.push({
       kind: 'verb',
-      band: verb.binyan === 'paal' ? 0 : 1,
+      band: (['A1', 'A2'].includes(verb.level) ? 0 : verb.level === 'B1' ? 1 : verb.level === 'B2' ? 2 : 3) as Band,
       verb,
       tense: tense as 'past',
       person,
@@ -440,7 +440,8 @@ function AssessmentResult({
       // Seed the live profile so the first days of practice don't swing it wildly.
       for (const [skill, v] of Object.entries(raw)) applyRecord(st, skill as Skill, v!, [], 3);
       for (const t of topicHits) applyRecord(st, 'grammar', t.v, [t.topic], 0);
-      if (!st.courseUnit) st.courseUnit = startUnitForLevel(overall);
+      // Place the learner in the course unless they have already passed a unit check.
+      if (!Object.keys(st.done).some((k) => /^unit:.*:check$/.test(k))) st.courseUnit = startUnitForLevel(overall);
     });
     go('today');
   };

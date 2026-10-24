@@ -5,6 +5,7 @@ import type { Verb, VocabItem } from '../content/types.ts';
 import { WORD_LEVELS } from '../content/types.ts';
 import { LETTERS } from './alphabet.ts';
 import { allVocab, findVocab, levelRank, TOPIC_LABELS, verbById, verbs } from './content.ts';
+import { drillable } from './session.ts';
 import { getState } from './store.ts';
 
 export type DeckGroup = 'Start here' | 'Words by topic' | 'Words by level' | 'Verbs' | 'Yours';
@@ -37,12 +38,12 @@ export function vocabCard(v: VocabItem): Card {
 }
 
 export function verbCard(v: Verb): Card {
-  const forms: [string, string][] = [
-    ['הוא · הווה', v.present.ms[0]],
-    ['הוא · עבר', v.past['3ms'][0]],
-    ['הוא · עתיד', v.future['3ms'][0]],
-  ];
-  if (v.imp) forms.push(['ציווי (אתה)', v.imp.ms[0]]);
+  // The key forms to memorise; tenses not in normal use are left out.
+  const forms: [string, string][] = [];
+  if (drillable(v, 'present')) forms.push(['הוא · הווה', v.present.ms[0]]);
+  if (drillable(v, 'past')) forms.push(['הוא · עבר', v.past['3ms'][0]]);
+  if (drillable(v, 'future')) forms.push(['הוא · עתיד', v.future['3ms'][0]]);
+  if (drillable(v, 'imp')) forms.push(['ציווי (אתה)', v.imp!.ms[0]]);
   return {
     id: `vp:${v.id}`,
     he: v.inf,
@@ -111,7 +112,7 @@ export function allDecks(): Deck[] {
     list.length && decks.push({ id, group: 'Verbs', title, sub: `${list.length} verbs · ${sub}`, kind: 'verbs', cards: () => sortByLevel(list).map(verbCard) });
   verbDeck('v:essential', 'Essential verbs', 'the A1–A2 verbs you need first', verbs.filter((v) => ['A1', 'A2'].includes(v.level)));
   for (const [b, title, sub] of BINYANIM) verbDeck(`v:${b}`, title, sub, verbs.filter((v) => v.binyan === b));
-  verbDeck('v:weak', 'Irregular & weak verbs', 'the ones that break the pattern', verbs.filter((v) => v.gizra && !/regular|שלמים/.test(v.gizra)));
+  verbDeck('v:weak', 'Irregular & weak verbs', 'the ones that break the pattern', verbs.filter((v) => v.gizra && !/^regular\b/.test(v.gizra)));
   verbDeck('v:prep', 'Verbs + preposition', 'מחכה ל, מתקשר ל, משתמש ב', verbs.filter((v) => v.gov && v.gov !== 'את'));
   verbDeck('v:advanced', 'Advanced verbs', 'B2–C1', verbs.filter((v) => ['B2', 'C1'].includes(v.level)));
   decks.push({

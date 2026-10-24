@@ -70,6 +70,7 @@ export interface DictEntry {
   root?: string;
   pos?: string;
   form?: string; // e.g. "past · we"
+  surface?: string; // the word as written when it isn't `he` (a plural, a verb form)
   vocabId?: string;
   verbId?: string;
   note?: string;
@@ -128,8 +129,8 @@ export function buildDictionary() {
   for (const v of allVocab()) {
     const e: DictEntry = { he: v.he, en: v.en, tr: v.tr, root: v.root, pos: v.pos, vocabId: v.id, note: v.note };
     addWord(v.he, e);
-    v.alt?.forEach((a) => addWord(a, e));
-    if (v.plural) addWord(v.plural, { ...e, form: 'plural' });
+    v.alt?.forEach((a) => addWord(a, { ...e, surface: a }));
+    if (v.plural) addWord(v.plural, { ...e, form: 'plural', surface: v.plural });
   }
   for (const vb of verbs) {
     const base: DictEntry = { he: vb.inf, en: vb.en, tr: vb.tr, root: vb.root, pos: 'verb', verbId: vb.id };
@@ -143,7 +144,7 @@ export function buildDictionary() {
     for (const [tense, table] of tenses) {
       if (!table) continue;
       for (const [p, f] of Object.entries(table)) {
-        addWord(f[0], { ...base, form: `${tense} · ${PRONOUN_LABEL[p] ?? p}`, tr: f[1] });
+        addWord(f[0], { ...base, form: `${tense} · ${PRONOUN_LABEL[p] ?? p}`, tr: f[1], surface: f[0] });
       }
     }
   }
@@ -195,7 +196,9 @@ export function lookup(word: string): LookupResult {
         if (hit2) return { ...withPrefix(l, v2, hit2), entries: [...hit2, ...hit.filter((e) => !hit2.includes(e))] };
       }
     }
-    const res = withPrefix(l, v, hit);
+    // Entries spelled exactly like the tapped word come before near-spellings (שמים before שמיים).
+    const exact = (e: DictEntry) => (letters(e.surface ?? e.he) === letters(word).slice(l.length - v.length) ? 0 : 1);
+    const res = withPrefix(l, v, [...hit].sort((a, b) => exact(a) - exact(b)));
     if (v === variants[0]) {
       const v2 = variants.slice(1).find((x) => x.length >= 2 && primary.get(x)?.some((e) => !hit.includes(e)));
       if (v2) res.also = withPrefix(l, v2, primary.get(v2)!.filter((e) => !hit.includes(e)));
@@ -217,7 +220,7 @@ const undoubled = (s: string) => letters(s).replace(/וו/g, 'ו').replace(/יי
 
 function spellingVariantOnly(word: string, entries: DictEntry[]): boolean {
   const w = letters(word);
-  return entries.every((e) => letters(e.he) !== w) && entries.some((e) => undoubled(e.he) === undoubled(word));
+  return entries.every((e) => letters(e.surface ?? e.he) !== w) && entries.some((e) => undoubled(e.surface ?? e.he) === undoubled(word));
 }
 
 function withPrefix(full: string, base: string, entries: DictEntry[]): LookupResult {

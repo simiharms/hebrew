@@ -798,3 +798,8 @@ select.select {
   border-color: var(--primary);
   background: var(--primary-soft);
 }
+/* Answered choices stay readable: the colours carry the feedback. */
+.btn.choice:disabled {
+  opacity: 1;
+  cursor: default;
+}

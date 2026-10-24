@@ -147,11 +147,10 @@ for (let i = 0; i < 3; i++) {
   const inf = (await page.locator('.prompt-box .hint .he').textContent())?.trim();
   const verb = verbs.find((v) => v.inf === inf);
   const [before, after] = await page.locator('.prompt-box [dir=rtl]').evaluate((el) => {
-    const span = el.querySelector('span');
-    const text = el.textContent;
-    const gap = span?.textContent ?? '';
-    const k = text.indexOf(gap);
-    return [text.slice(0, k), text.slice(k + gap.length)];
+    const nodes = [...el.childNodes];
+    const k = nodes.findIndex((n) => n.nodeName === 'SPAN');
+    const text = (xs) => xs.map((n) => n.textContent).join('');
+    return [text(nodes.slice(0, k)), text(nodes.slice(k + 1))];
   });
   const sentences = [verb?.ex, ...(verb?.exs ?? [])].filter(Boolean).map((e) => e.he);
   const form = tablesOf(verb ?? {}).map(([, f]) => f).find((f) => sentences.includes(before + f + after)) ?? tablesOf(verb ?? {}).map(([, f]) => f).find((f) => (before + f + after).trim().endsWith('.') && before.split(' ').length <= 3);
@@ -312,7 +311,7 @@ await shot('e2e-numbers');
 // --- skills check: answer everything with "I don't know" and save the profile
 await nav('#/assessment');
 await page.getByRole('button', { name: 'Start' }).click();
-for (let k = 0; k < 60; k++) {
+for (let k = 0; k < 120; k++) {
   if (await page.getByRole('button', { name: 'Save and start' }).isVisible().catch(() => false)) break;
   const next = page.getByRole('button', { name: 'Next →' });
   if (await next.isVisible().catch(() => false)) {

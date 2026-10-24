@@ -16,7 +16,7 @@
       "he": "מספר הטלפון שלי מתחיל באפס חמש.",
       "en": "My phone number starts with zero five."
     },
-    "note": "Same for both genders. Phone numbers are read digit by digit with the counting forms, and Israeli mobile numbers start with 05: אפס חמש…"
+    "note": "Same for both genders. Phone numbers are usually read digit by digit with the counting forms, and Israeli mobile numbers start with 05: אפס חמש…"
   },
   {
     "id": "va1n_akhat",
@@ -393,7 +393,7 @@
       "he": "אני נוסעת לעבודה בקו תשע עשרה.",
       "en": "I take bus number nineteen to work."
     },
-    "note": "Masculine: תשעה עשר (tish'a asár). Bus lines are read in the counting form: קו תשע עשרה = bus number 19."
+    "note": "Masculine: תשעה עשר (tish'a asár). The vowels change, as in 17: on its own it's tésha, in 19 it's tsha. Bus lines are read in the counting form: קו תשע עשרה = bus number 19."
   },
   {
     "id": "va1n_esrim",
@@ -576,7 +576,7 @@
     "en": "number",
     "enAlt": [
       "figure",
-      "size (shoes)"
+      "size"
     ],
     "pos": "noun",
     "gender": "m",
@@ -623,7 +623,7 @@
       "he": "הבן השני של מרינה בן שש.",
       "en": "Marina's second son is six."
     },
-    "note": "Feminine שנייה (shniyá), which also means 'a second' of time: רגע, שנייה! = just a sec! יום שני = Monday."
+    "note": "Feminine שנייה (shniyá), which also means 'a second' of time: שנייה! / רק שנייה! = just a sec! יום שני = Monday. Don't confuse it with שני (shnei), the form of 'two' before a masculine noun: שני ילדים."
   },
   {
     "id": "va1n_shlishi",
@@ -694,7 +694,7 @@
       "he": "זה הקפה השישי שלי היום!",
       "en": "This is my sixth coffee today!"
     },
-    "note": "Feminine שישית (shishít). יום שישי = Friday; שישי-שבת = the weekend."
+    "note": "Feminine שישית (shishít). יום שישי = Friday; שישי-שבת or סוף שבוע (סופ״ש) = the weekend."
   },
   {
     "id": "va1n_shvii",
@@ -712,7 +712,7 @@
       "he": "שבת היא היום השביעי בשבוע.",
       "en": "Shabbat is the seventh day of the week."
     },
-    "note": "Feminine שביעית (shvi'ít). Saturday has its own name, שבת, so nobody calls it יום שביעי."
+    "note": "Feminine שביעית (shvi'ít). Saturday is simply called שבת, not יום שביעי."
   },
   {
     "id": "va1n_shmini",
@@ -842,6 +842,7 @@
       "a lot of"
     ],
     "pos": "adv",
+    "root": "ר.ב.ה",
     "level": "A1",
     "topic": "numbers",
     "ex": {
@@ -1013,7 +1014,7 @@
       "he": "אני שותה קפה שחור בלי סוכר.",
       "en": "I drink black coffee without sugar."
     },
-    "note": "Feminine שחורה (shkhorá); plural שחורים, שחורות. In a café, קפה שחור usually means Turkish-style coffee, also called בוץ ('mud')."
+    "note": "Feminine שחורה (shkhorá); plural שחורים, שחורות. In Israel קפה שחור usually means Turkish-style coffee, also called קפה בוץ ('mud coffee')."
   },
   {
     "id": "va1n_khum",
@@ -1251,6 +1252,7 @@
       "tight"
     ],
     "pos": "adj",
+    "root": "צ.ר.ר",
     "level": "A1",
     "topic": "describing",
     "ex": {

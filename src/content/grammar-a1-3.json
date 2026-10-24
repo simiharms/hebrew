@@ -1,0 +1,552 @@
+[
+  {
+    "id": "g_a1_numbers_basic",
+    "level": "A1",
+    "title": "Numbers 1–20, days and time",
+    "titleHe": "מספרים, ימים ושעות",
+    "summary": "Count from 1 to 20 with masculine and feminine nouns, tell the time, name the days of the week and say prices.",
+    "sections": [
+      {
+        "h": "Two sets of numbers",
+        "body": "Hebrew numbers come in two sets, masculine and feminine, and you choose by the gender of the noun you are counting. The feminine set is also the one for plain counting, phone numbers, bus lines and the time: אחת, שתיים, שלוש… (akhát, shtáyim, shalósh).\n\nFrom 3 to 10 the endings look “upside down”: the masculine number ends in -ה, which usually marks feminine words, while the feminine number has no ending.\n• שלושה ילדים (shloshá yeladím) — three children (ילד is masculine)\n• שלוש ילדות (shalósh yeladót) — three girls (ילדה is feminine)\n\n8 is spelled שמונה in both sets; only the stress differs: shmóne (f), shmoná (m). Zero is אפס (éfes).",
+        "table": [
+          ["", "Feminine (counting)", "Say it", "Masculine", "Say it"],
+          ["1", "אחת", "akhát", "אחד", "ekhád"],
+          ["2", "שתיים / שתי", "shtáyim / shtei", "שניים / שני", "shnáyim / shnei"],
+          ["3", "שלוש", "shalósh", "שלושה", "shloshá"],
+          ["4", "ארבע", "árba", "ארבעה", "arba'á"],
+          ["5", "חמש", "khámesh", "חמישה", "khamishá"],
+          ["6", "שש", "shesh", "שישה", "shishá"],
+          ["7", "שבע", "shéva", "שבעה", "shiv'á"],
+          ["8", "שמונה", "shmóne", "שמונה", "shmoná"],
+          ["9", "תשע", "tésha", "תשעה", "tish'á"],
+          ["10", "עשר", "éser", "עשרה", "asará"]
+        ]
+      },
+      {
+        "h": "Counting things: 1 and 2 are special",
+        "body": "• 1 comes after the noun and agrees with it, like an adjective: ספר אחד (séfer ekhád) — one book; שאלה אחת (she'elá akhát) — one question.\n• 2 has a short form before a noun: שני ספרים (shnei sfarím) — two books; שתי שאלות (shtei she'elót) — two questions. The long forms שניים and שתיים stand on their own: כמה ילדים יש לך? — שניים.\n• All the other numbers come before the noun, and the noun is plural: חמישה ספרים, חמש שאלות.\n\nThe gender comes from the singular noun, so learn every noun together with its gender: בית (m) → שלושה בתים; כוס (f) → שלוש כוסות; שנה (f) → שלוש שנים, even though שנים ends in -ים.\n\nHow many? is כמה? (káma): כמה ילדים יש לכם? — יש לנו שלושה ילדים (How many children do you have? — We have three children).\n\nOn the street you will often hear the feminine forms used for everything (“שלוש ילדים”). It's very common in casual speech but counts as a mistake, so learn the standard forms from the start: שלושה ילדים."
+      },
+      {
+        "h": "11 to 20",
+        "body": "11–19 are the unit plus “ten”, and again there are two sets:\n• feminine: unit + עשרה (esré) — for counting, the time and feminine nouns: אחת עשרה שעות (eleven hours), שתים עשרה קומות (twelve floors)\n• masculine: unit + עשר (asár) — for masculine nouns: אחד עשר שחקנים (eleven players), שמונה עשר שקל (eighteen shekels)\n\nNotice that “ten” swaps too: עשר is the feminine 10 but the masculine ending in 11–19, and עשרה is the masculine 10 but the feminine ending.\n\n12 is usually spelled שתים עשרה and שנים עשר; you will also see שתיים עשרה and שניים עשר. 20, עשרים (esrím), is the same for both genders: עשרים ילדים, עשרים ילדות.",
+        "table": [
+          ["", "Feminine (counting)", "Say it", "Masculine", "Say it"],
+          ["11", "אחת עשרה", "akhát esré", "אחד עשר", "akhád asár"],
+          ["12", "שתים עשרה", "shtem esré", "שנים עשר", "shnem asár"],
+          ["13", "שלוש עשרה", "shlosh esré", "שלושה עשר", "shloshá asár"],
+          ["14", "ארבע עשרה", "arba esré", "ארבעה עשר", "arba'á asár"],
+          ["15", "חמש עשרה", "khamesh esré", "חמישה עשר", "khamishá asár"],
+          ["16", "שש עשרה", "shesh esré", "שישה עשר", "shishá asár"],
+          ["17", "שבע עשרה", "shva esré", "שבעה עשר", "shiv'á asár"],
+          ["18", "שמונה עשרה", "shmone esré", "שמונה עשר", "shmoná asár"],
+          ["19", "תשע עשרה", "tsha esré", "תשעה עשר", "tish'á asár"],
+          ["20", "עשרים", "esrím", "עשרים", "esrím"]
+        ]
+      },
+      {
+        "h": "What time is it?",
+        "body": "מה השעה? (ma ha-sha'á?) — What time is it? Answer with השעה + a feminine number, because שעה (hour) is feminine: השעה שלוש (ha-sha'á shalósh) — it's three o'clock.\n\n• ו means “and”, i.e. past the hour: שלוש ורבע, שלוש וחצי, שש ועשרים.\n• ל means “to”: רבע לארבע (a quarter to four), עשרים לשבע (twenty to seven).\n• אחרי (akharéi, after) is another way to say “past”: עשרים אחרי שש = שש ועשרים.\n• For 5 and 10 minutes, add דקות (minutes): חמש דקות לשמונה, שבע ועשר דקות.\n\nTo say “at”, attach ב-: באיזו שעה? (be-éyzo sha'á?) — at what time? בשמונה (be-shmóne) — at eight; בשתיים וחצי — at half past two. Add the part of the day when needed: בשבע בבוקר (at seven in the morning), בשלוש אחרי הצהריים, בתשע בערב, באחת בלילה. Timetables and announcements use the 24-hour clock, still with feminine numbers: הרכבת יוצאת בשמונה עשרה ושלושים (The train leaves at 18:30).",
+        "table": [
+          ["Time", "Hebrew", "Say it"],
+          ["3:00", "שלוש", "shalósh"],
+          ["3:15", "שלוש ורבע", "shalósh ve-réva"],
+          ["3:30", "שלוש וחצי", "shalósh ve-khétsi"],
+          ["3:45", "רבע לארבע", "réva le-árba"],
+          ["6:20", "שש ועשרים / עשרים אחרי שש", "shesh ve-esrím / esrím akharéi shesh"],
+          ["6:40", "עשרים לשבע", "esrím le-shéva"],
+          ["7:55", "חמש דקות לשמונה", "khámesh dakót le-shmóne"],
+          ["12:00", "שתים עשרה בצהריים", "shtem esré ba-tsohoráyim"]
+        ]
+      },
+      {
+        "h": "Days of the week",
+        "body": "The Hebrew days are simply numbered, starting from Sunday, which is the first working day of the Israeli week. Only Saturday has its own name, שבת. Many offices work Sunday to Thursday, and the weekend, סוף שבוע (sof shavú'a), written סופ״ש, is Friday and Saturday.\n\n“On” a day is ב-: ביום שני (be-yom shení) — on Monday; בשבת — on Saturday. In speech יום is often dropped: נתראה בשלישי (See you on Tuesday).\n\nThe days use the ordinal numbers (first, second, third…), not the counting ones: שני in יום שני is shení (second), not shnei (two) — same spelling, different word.",
+        "table": [
+          ["Hebrew", "Say it", "English", "Literally"],
+          ["יום ראשון", "yom rishón", "Sunday", "first day"],
+          ["יום שני", "yom shení", "Monday", "second day"],
+          ["יום שלישי", "yom shlishí", "Tuesday", "third day"],
+          ["יום רביעי", "yom revi'í", "Wednesday", "fourth day"],
+          ["יום חמישי", "yom khamishí", "Thursday", "fifth day"],
+          ["יום שישי", "yom shishí", "Friday", "sixth day"],
+          ["שבת", "shabát", "Saturday", "the day of rest"]
+        ]
+      },
+      {
+        "h": "How much is it? Prices",
+        "body": "כמה זה עולה? (káma ze olé?) — How much is it? The verb agrees with the thing: כמה עולה החולצה? (How much is the shirt?); כמה עולות הנעליים? (How much are the shoes?)\n\nThe shekel, שקל (shékel), is masculine, so prices take the masculine numbers: שני שקלים, חמישה שקלים, שמונה עשר שקל.\n• With 2–10 the noun is plural: שלושה שקלים, עשרה שקלים.\n• From 11 up, שקל usually stays singular, as a few other very common nouns do (עשרים שנה, twenty years): שמונה עשר שקל (shmoná asár shékel), עשרים שקל.\n• שקל or שקל אחד — one shekel; שקל וחצי — one and a half shekels.\n• אגורה (agorá, f) is a hundredth of a shekel: עשר אגורות (ten agorot); חצי שקל is fifty agorot.\n\nIn speech you will often hear the feminine set here too (“שמונה עשרה שקל”), but the standard form is שמונה עשר שקל. In writing, the sign ₪ or the abbreviation ש״ח (shékel khadásh, “new shekel”) follows the number: 18 ₪, 18 ש״ח."
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "יש לי ___ ילדים. (3)",
+        "en": "I have three children.",
+        "answer": ["שלושה"],
+        "hint": "ילד is masculine",
+        "explain": "With a masculine noun, 3–10 end in -ה: שלושה ילדים (shloshá yeladím)."
+      },
+      {
+        "prompt": "בכיתה שלנו יש ___ בנות. (4)",
+        "en": "There are four girls in our class.",
+        "answer": ["ארבע"],
+        "hint": "בת is feminine",
+        "explain": "With a feminine noun the number has no ending: ארבע בנות (árba banót)."
+      },
+      {
+        "prompt": "יש לי רק ספר ___. (1)",
+        "en": "I only have one book.",
+        "answer": ["אחד"],
+        "hint": "ספר is masculine; 1 comes after the noun",
+        "explain": "1 follows the noun and agrees with it like an adjective: ספר אחד (séfer ekhád)."
+      },
+      {
+        "prompt": "יש לי שאלה ___. (1)",
+        "en": "I have one question.",
+        "answer": ["אחת"],
+        "hint": "שאלה is feminine",
+        "explain": "שאלה is feminine, so 1 is אחת (akhát): שאלה אחת."
+      },
+      {
+        "prompt": "בדירה שלנו יש ___ חדרים. (2)",
+        "en": "There are two rooms in our apartment.",
+        "answer": ["שני"],
+        "hint": "2 right before a masculine noun",
+        "explain": "Before a noun, 2 takes its short form: שני (shnei) with masculine nouns. שניים is used only on its own."
+      },
+      {
+        "prompt": "אני שותה ___ כוסות קפה ביום. (2)",
+        "en": "I drink two cups of coffee a day.",
+        "answer": ["שתי"],
+        "hint": "2 right before a feminine noun (כוס)",
+        "explain": "כוס is feminine, so 2 before it is שתי (shtei). שתיים is used only on its own."
+      },
+      {
+        "prompt": "— כמה ילדים יש לך? — ___. (2)",
+        "en": "How many children do you have? — Two.",
+        "answer": ["שניים", "יש לי שניים"],
+        "hint": "2 on its own, masculine",
+        "explain": "With no noun after it, 2 takes the long form: שניים (shnáyim), masculine because ילדים is masculine."
+      },
+      {
+        "prompt": "המחברת עולה ___ שקלים. (7)",
+        "en": "The notebook costs seven shekels.",
+        "answer": ["שבעה"],
+        "hint": "שקל is masculine",
+        "explain": "שקל is masculine, so 7 is שבעה (shiv'á): שבעה שקלים."
+      },
+      {
+        "prompt": "— מה השעה? — ___ וחצי. (3)",
+        "en": "What time is it? — Half past three.",
+        "answer": ["שלוש", "השעה שלוש"],
+        "hint": "the time uses the feminine numbers",
+        "explain": "שעה is feminine, so the time is told with the feminine (counting) numbers: שלוש וחצי (shalósh ve-khétsi)."
+      },
+      {
+        "prompt": "הפגישה ___ ורבע. (at 9)",
+        "en": "The meeting is at a quarter past nine.",
+        "answer": ["בתשע", "בשעה תשע"],
+        "hint": "“at” = ב- attached to a feminine number",
+        "explain": "“At” a time is ב- + the feminine number: בתשע ורבע (be-tésha ve-réva), 9:15."
+      },
+      {
+        "prompt": "השעה רבע ___. (to 8)",
+        "en": "It's a quarter to eight.",
+        "answer": ["לשמונה"],
+        "hint": "“to” = ל- attached to the hour",
+        "explain": "רבע ל- + the next hour means a quarter to: רבע לשמונה (réva le-shmóne) is 7:45."
+      },
+      {
+        "prompt": "השעה עשרים אחרי ___. (6)",
+        "en": "It's twenty past six.",
+        "answer": ["שש"],
+        "hint": "the time uses the feminine numbers",
+        "explain": "The hour is a feminine number: שש (shesh), not שישה. You can also say שש ועשרים."
+      },
+      {
+        "prompt": "היום יום ___, ומחר שבת. (Friday)",
+        "en": "Today is Friday, and tomorrow is Saturday.",
+        "answer": ["שישי"],
+        "hint": "the sixth day",
+        "explain": "The days are numbered from Sunday, so Friday is יום שישי (yom shishí), “the sixth day”."
+      },
+      {
+        "prompt": "בישראל שבוע העבודה מתחיל ביום ___. (Sunday)",
+        "en": "In Israel the working week starts on Sunday.",
+        "answer": ["ראשון"],
+        "hint": "the first day",
+        "explain": "Sunday is יום ראשון (yom rishón), “the first day” — the first working day of the Israeli week."
+      },
+      {
+        "prompt": "פלאפל בפיתה עולה ___ שקל. (18)",
+        "en": "Falafel in a pita costs eighteen shekels.",
+        "answer": ["שמונה עשר"],
+        "hint": "שקל is masculine",
+        "explain": "שקל is masculine, so 11–19 take the masculine set ending in עשר: שמונה עשר שקל (shmoná asár shékel). You'll hear שמונה עשרה in the street, but it isn't standard."
+      },
+      {
+        "prompt": "בבניין שלנו יש ___ קומות. (12)",
+        "en": "Our building has twelve floors.",
+        "answer": ["שתים עשרה", "שתיים עשרה"],
+        "hint": "קומה is feminine",
+        "explain": "קומה is feminine, so 12 takes the feminine set: שתים עשרה (shtem esré). With a masculine noun it would be שנים עשר."
+      }
+    ]
+  },
+  {
+    "id": "g_a1_infinitive",
+    "level": "A1",
+    "title": "Want to, can, need to: verb + infinitive",
+    "titleHe": "רוצה, יכול, צריך + שם הפועל",
+    "summary": "Use רוצה, יכול, צריך, אוהב and מתכנן with an infinitive, recognise the shapes of infinitives, and say what is allowed, forbidden, possible or worth doing.",
+    "sections": [
+      {
+        "h": "Two verbs: the first agrees, the second doesn't",
+        "body": "To say “I want to eat” or “she can come”, Hebrew does just what English does: a conjugated verb followed by an infinitive (שם הפועל, shem ha-pó'al). The first verb agrees with the subject; the infinitive never changes.\n• אני רוצה לאכול. (aní rotsé le'ekhól) — I (m) want to eat.\n• היא רוצה לאכול. (hi rotsá le'ekhól) — She wants to eat.\n• הם רוצים לאכול. (hem rotsím le'ekhól) — They want to eat.\n\nIn the present tense the first verb has only four forms: masculine or feminine, singular or plural. The pronoun alone doesn't decide: אני and אנחנו take the masculine forms for men and the feminine forms for women, and a mixed group takes the masculine plural.\n\nWord order is simple: subject, conjugated verb, infinitive, then the rest: דנה צריכה לקנות חלב (Dana needs to buy milk).",
+        "table": [
+          ["", "m. sg. (אני, אתה, הוא)", "f. sg. (אני, את, היא)", "m. pl. (אנחנו, אתם, הם)", "f. pl. (אנחנו, אתן, הן)"],
+          ["want to", "רוצה (rotsé)", "רוצה (rotsá)", "רוצים (rotsím)", "רוצות (rotsót)"],
+          ["can", "יכול (yakhól)", "יכולה (yekholá)", "יכולים (yekholím)", "יכולות (yekholót)"],
+          ["need to", "צריך (tsaríkh)", "צריכה (tsrikhá)", "צריכים (tsrikhím)", "צריכות (tsrikhót)"],
+          ["like / love to", "אוהב (ohév)", "אוהבת (ohévet)", "אוהבים (ohavím)", "אוהבות (ohavót)"],
+          ["plan to", "מתכנן (metakhnén)", "מתכננת (metakhnénet)", "מתכננים (metakhnením)", "מתכננות (metakhnenót)"],
+          ["know how to", "יודע (yodé'a)", "יודעת (yodá'at)", "יודעים (yod'ím)", "יודעות (yod'ót)"]
+        ]
+      },
+      {
+        "h": "Six verbs to start with",
+        "body": "• רוצה + infinitive — want to: אני רוצה ללמוד עברית (I want to learn Hebrew). With a noun: אני רוצה קפה (I want coffee).\n• יכול + infinitive — can, be able to: אתה יכול לעזור לי? (atá yakhól la'azór li?) — Can you help me? This is also the everyday way to ask a favour.\n• צריך + infinitive — need to, have to: אני צריכה לעבוד מחר (aní tsrikhá la'avód makhár) — I (f) have to work tomorrow. With a noun it means “need”: אני צריך עזרה (I need help).\n• אוהב + infinitive — like or love doing: הם אוהבים לבשל (hem ohavím levashél) — They love cooking. With a noun: אני אוהבת שוקולד.\n• מתכנן + infinitive — plan to: אנחנו מתכננים לנסוע לאילת (anákhnu metakhnením linsó'a le-eilát) — We're planning to go to Eilat.\n• יודע + infinitive — know how to: היא יודעת לשחות (hi yodá'at liskhót) — She can swim.\n\nNotice that רוצה is spelled the same for a man and a woman; only the pronunciation differs (rotsé / rotsá). In writing, the subject tells you which one is meant."
+      },
+      {
+        "h": "What infinitives look like",
+        "body": "Almost every infinitive starts with ל-, and its shape tells you a lot about the verb. You don't need the binyanim yet; for now, learn to recognise the patterns:\n• Regular pa'al: ל + the root, with ו before the last letter: לכתוב (likhtóv), ללמוד (lilmód), לעבוד (la'avód). When the root ends in ח or ע you hear an extra a at the end: לשמוע (lishmó'a), לפתוח (liftó'akh).\n• Roots ending in ה: the ה becomes -ות: לקנות (liknót), לשתות (lishtót), לראות (lir'ót), לעשות (la'asót).\n• Roots with ו or י in the middle: just ל + the root: לגור (lagúr), לקום (lakúm), לבוא (lavó), לשים (lasím).\n• Short, irregular-looking ones that lose their first root letter: לשבת (lashévet), לרדת (larédet), לצאת (latsét), לדעת (ladá'at), לתת (latét). Learn these as words.\n• Infinitives starting with le- + a stem, or with לה-, belong to the other binyanim: לדבר (ledabér), להבין (lehavín), להתקשר (lehitkashér), להיכנס (lehikanés).",
+        "table": [
+          ["Pattern", "Examples", "Say it"],
+          ["ל + root, ו before the last letter (pa'al)", "לכתוב, ללמוד, לעבוד", "likhtóv, lilmód, la'avód"],
+          ["root ends in ח or ע", "לשמוע, לפתוח, לנסוע", "lishmó'a, liftó'akh, linsó'a"],
+          ["root ends in ה → -ות", "לקנות, לשתות, לראות", "liknót, lishtót, lir'ót"],
+          ["ו or י in the middle", "לגור, לקום, לשים", "lagúr, lakúm, lasím"],
+          ["short forms (first letter gone)", "לשבת, לרדת, לצאת, לתת", "lashévet, larédet, latsét, latét"],
+          ["le- + stem (pi'el)", "לדבר, לבשל, לטייל", "ledabér, levashél, letayél"],
+          ["לה- + stem with י (hif'il)", "להבין, להזמין, להתחיל", "lehavín, lehazmín, lehatkhíl"],
+          ["להת- (hitpa'el)", "להתקשר, להתלבש", "lehitkashér, lehitlabésh"],
+          ["להי- (nif'al)", "להיכנס, להירשם", "lehikanés, lehirashém"]
+        ]
+      },
+      {
+        "h": "One form for everyone: אסור, מותר, אפשר, כדאי",
+        "body": "These words never change for gender or number. Followed by an infinitive, they state a rule or a possibility for everyone, which makes them ideal for signs, rules and polite questions:\n• אסור (asúr) — it's forbidden: אסור לעשן כאן. — Smoking is not allowed here.\n• מותר (mutár) — it's allowed: מותר להיכנס עם כלב? — Can you come in with a dog?\n• אפשר (efshár) — it's possible, one can: אפשר לשלם בכרטיס? — Can I pay by card?\n• כדאי (kedái) — it's worth it, it's a good idea: כדאי לבוא מוקדם. — It's a good idea to come early.\n• צריך can work the same way, with no subject: צריך לקנות חלב. — We need to buy milk.\n\nTo say who, add ל- with a personal ending: אסור לי לאכול סוכר (I'm not allowed to eat sugar), כדאי לך לנסות (You should try it), מותר לנו לשבת כאן? (Are we allowed to sit here?)."
+      },
+      {
+        "h": "Saying no",
+        "body": "לא goes before the verb that agrees with the subject:\n• אני לא יכול לבוא היום. (aní lo yakhól lavó ha-yóm) — I (m) can't come today.\n• היא לא רוצה לאכול. — She doesn't want to eat.\n• הם לא אוהבים לחכות. — They don't like waiting.\n\nWith the one-form words:\n• לא כדאי — it's not a good idea: לא כדאי לנסוע עכשיו, יש פקקים (It's not a good idea to drive now; there are traffic jams).\n• לא צריך — there's no need: לא צריך לשלם, זה בחינם (No need to pay, it's free).\n• אי אפשר (i efshár) — it's impossible, you can't; never ✗ לא אפשר: אי אפשר לחנות כאן (You can't park here).\n\nCareful: לא צריך means “you don't have to”, but אסור means “you mustn't”. “You don't have to come” is לא צריך לבוא; אסור לבוא would mean you are forbidden to come.\n\nלא can also stand before the infinitive, negating only the second verb: כדאי לא לשכוח את הדרכון (Better not to forget your passport). On signs, a bare infinitive gives the instruction: לא לעשן (No smoking), לא לגעת (Do not touch)."
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "היא ___ ללמוד עברית. (want)",
+        "en": "She wants to learn Hebrew.",
+        "answer": ["רוצה"],
+        "hint": "present, feminine singular",
+        "explain": "רוצה is spelled the same for a man and a woman (rotsé / rotsá); the infinitive ללמוד doesn't change."
+      },
+      {
+        "prompt": "דנה, את ___ לעזור לי? (can)",
+        "en": "Dana, can you help me?",
+        "answer": ["יכולה"],
+        "hint": "feminine singular",
+        "explain": "יכול agrees with the subject: את → יכולה (yekholá). The infinitive לעזור stays the same."
+      },
+      {
+        "prompt": "יוסי ___ לעבוד היום עד שש. (need to)",
+        "en": "Yossi needs to work until six today.",
+        "answer": ["צריך"],
+        "hint": "masculine singular",
+        "explain": "יוסי is a man, so צריך (tsaríkh); the infinitive לעבוד never changes."
+      },
+      {
+        "prompt": "הבנות שלי ___ לרקוד. (love)",
+        "en": "My daughters love to dance.",
+        "answer": ["אוהבות"],
+        "hint": "feminine plural",
+        "explain": "אוהב agrees with הבנות, feminine plural: אוהבות (ohavót)."
+      },
+      {
+        "prompt": "מיכל ואנה ___ לנסוע לאילת בקיץ. (plan to)",
+        "en": "Michal and Anna are planning to go to Eilat in the summer.",
+        "answer": ["מתכננות"],
+        "hint": "two women: feminine plural",
+        "explain": "Two women take the feminine plural: מתכננות (metakhnenót). With even one man in the group it would be מתכננים."
+      },
+      {
+        "prompt": "אתה צריך ___ מייל למנהל. (to write)",
+        "en": "You need to write an email to the manager.",
+        "answer": ["לכתוב"],
+        "hint": "pa'al: ל + root, with ו before the last letter",
+        "explain": "כ.ת.ב → לכתוב (likhtóv): ל + the root, with ו before the last letter."
+      },
+      {
+        "prompt": "אני רוצה ___ מחשב חדש. (to buy)",
+        "en": "I want to buy a new computer.",
+        "answer": ["לקנות"],
+        "hint": "root ק.נ.ה",
+        "explain": "Roots ending in ה form the infinitive with -ות: ק.נ.ה → לקנות (liknót)."
+      },
+      {
+        "prompt": "אנחנו רוצים ___ ליד הים. (to live)",
+        "en": "We want to live near the sea.",
+        "answer": ["לגור"],
+        "hint": "root ג.ו.ר",
+        "explain": "ג.ו.ר has ו in the middle, so the infinitive is simply ל + the root: לגור (lagúr)."
+      },
+      {
+        "prompt": "הילדים לא רוצים ___ בשקט. (to sit)",
+        "en": "The children don't want to sit quietly.",
+        "answer": ["לשבת"],
+        "hint": "root י.ש.ב: the י disappears",
+        "explain": "י.ש.ב has a short infinitive without its first letter: לשבת (lashévet), like לרדת and לצאת."
+      },
+      {
+        "prompt": "אני לא יכולה ___ אותו, הוא מדבר מהר מדי. (to understand)",
+        "en": "I can't understand him; he talks too fast.",
+        "answer": ["להבין"],
+        "hint": "starts with לה-",
+        "explain": "להבין (lehavín) is a hif'il infinitive: לה- + the root letters, with י before the last one."
+      },
+      {
+        "prompt": "___ לדבר בטלפון בספרייה. (it's forbidden)",
+        "en": "You're not allowed to talk on the phone in the library.",
+        "answer": ["אסור"],
+        "hint": "one form for everyone",
+        "explain": "אסור (asúr) + infinitive = it's forbidden. It never changes for gender or number."
+      },
+      {
+        "prompt": "___ לשבת כאן? (is it allowed)",
+        "en": "Is it OK to sit here?",
+        "answer": ["מותר"],
+        "hint": "the opposite of אסור",
+        "explain": "מותר (mutár) + infinitive = it's allowed. Like אסור, it has only one form."
+      },
+      {
+        "prompt": "___ לקבל עוד כוס מים? (is it possible)",
+        "en": "Could I have another glass of water?",
+        "answer": ["אפשר"],
+        "hint": "the everyday “Can I…?”",
+        "explain": "אפשר (efshár) + infinitive is the standard polite way to ask for something: אפשר לקבל…?"
+      },
+      {
+        "prompt": "___ לקחת מטרייה, היום יורד גשם. (it's a good idea)",
+        "en": "It's a good idea to take an umbrella; it's raining today.",
+        "answer": ["כדאי"],
+        "hint": "“it's worth it”",
+        "explain": "כדאי (kedái) + infinitive = it's worth it, it's a good idea. It never changes."
+      },
+      {
+        "prompt": "אני ___ לבוא למסיבה, אני עובד בערב. (can't)",
+        "en": "I can't come to the party; I'm working in the evening.",
+        "answer": ["לא יכול"],
+        "hint": "לא + masculine singular",
+        "explain": "לא goes before the verb that agrees with the subject: לא יכול (lo yakhól). The speaker is a man (אני עובד)."
+      },
+      {
+        "prompt": "אתם ___ להביא אוכל, יש הרבה. (don't need to)",
+        "en": "You don't need to bring food; there's plenty.",
+        "answer": ["לא צריכים", "לא חייבים"],
+        "hint": "לא + masculine plural — not אסור!",
+        "explain": "לא צריכים = you don't have to. אסור would mean you are forbidden to bring food."
+      }
+    ]
+  },
+  {
+    "id": "g_a2_past_paal",
+    "level": "A2",
+    "title": "The past tense of pa'al",
+    "titleHe": "זמן עבר בבניין פעל",
+    "summary": "Build the past of pa'al verbs with the endings every binyan shares, put the stress in the right place, and handle common weak verbs such as היה, בא, ישב and נתן.",
+    "sections": [
+      {
+        "h": "One stem plus an ending",
+        "body": "The past tense (עבר, avár) is a stem plus an ending that shows the person. In pa'al the stem is simply the three root letters: ל.מ.ד → למד (lamád), “he studied”. The הוא form has no ending at all, and it's the form under which verbs are listed in Hebrew dictionaries.\n\nThese endings are worth learning perfectly, because they are exactly the same in every binyan: דיברתי (I talked), הזמנתי (I invited) and התקשרתי (I phoned) all end in -תי, just like למדתי.\n\nSince the ending already shows the person, אני, אתה, את, אנחנו, אתם and אתן are often left out: למדתי = I studied, גמרנו = we finished. With הוא, היא, הם and הן you normally say who: הוא למד, דנה למדה, הילדים למדו.",
+        "table": [
+          ["Person", "Ending", "ללמוד (to study)", "Say it"],
+          ["אני", "-תי", "למדתי", "lamádti"],
+          ["אתה", "-ת", "למדת", "lamádta"],
+          ["את", "-ת", "למדת", "lamádt"],
+          ["הוא", "—", "למד", "lamád"],
+          ["היא", "-ה", "למדה", "lamdá"],
+          ["אנחנו", "-נו", "למדנו", "lamádnu"],
+          ["אתם", "-תם", "למדתם", "lmadtém (speech: lamádtem)"],
+          ["אתן", "-תן", "למדתן", "lmadtén (speech: lamádten)"],
+          ["הם / הן", "-ו", "למדו", "lamdú"]
+        ]
+      },
+      {
+        "h": "Stress, and כתבת for both אתה and את",
+        "body": "Where the stress falls is part of the form:\n• With -תי, -ת and -נו the stress stays on the stem: lamádti, lamádta, lamádnu.\n• With -ה and -ו the stem's second vowel drops and the stress moves to the ending: lamdá, lamdú. (Compare the present: לומדת, lomédet.)\n• For אתם / אתן the textbook form is lmadtém, stressed on the ending; in everyday speech almost everyone says lamádtem.\n\nאתה and את share one written form: כתבת is katávta (you, m.) or katávt (you, f.). You hear the difference; in writing, the context or the pronoun tells you: אתה כתבת את המייל? / את כתבת את המייל? (Did you write the email?) In the second sentence the first את is “you” and the second is the object marker.\n\nOne more pair to watch: כתבה is both katvá, “she wrote”, and katavá, “an article”: היא כתבה כתבה על העיר (She wrote an article about the city)."
+      },
+      {
+        "h": "Final-heh verbs: היה, קנה, שתה",
+        "body": "Verbs whose root ends in ה are among the most common in the language: להיות (to be), לקנות (to buy), לשתות (to drink), לראות (to see), לעשות (to do). Their past has three twists:\n• Before -תי, -ת, -נו, -תם and -תן the ה becomes י: קניתי (kaníti), ראינו (ra'ínu).\n• With היא the ה becomes ת, and then -ה is added: קנתה (kantá), שתתה (shatetá), הייתה (haytá).\n• With הם / הן the ה simply drops: קנו (kanú), היו (hayú).\n\nלהיות is spelled with a double י in most forms: הייתי, היית, הייתה, היינו, הייתם. It gives the past of sentences that have no verb in the present: אני בבית → הייתי בבית; הוא עייף → הוא היה עייף (he was tired).\n\nIt also turns יש לי into the past. Here היה agrees with the thing you have, not with the person: היה לי יום ארוך (m.), הייתה לי פגישה (f.), היו לי שאלות (pl.). In the negative, אין לי becomes לא היה לי / לא הייתה לי / לא היו לי.",
+        "table": [
+          ["Person", "לקנות (to buy)", "Say it", "להיות (to be)", "Say it"],
+          ["אני", "קניתי", "kaníti", "הייתי", "hayíti"],
+          ["אתה", "קנית", "kaníta", "היית", "hayíta"],
+          ["את", "קנית", "kanít", "היית", "hayít"],
+          ["הוא", "קנה", "kaná", "היה", "hayá"],
+          ["היא", "קנתה", "kantá", "הייתה", "haytá"],
+          ["אנחנו", "קנינו", "kanínu", "היינו", "hayínu"],
+          ["אתם / אתן", "קניתם / קניתן", "kanítem / kaníten", "הייתם / הייתן", "hayítem / hayíten"],
+          ["הם / הן", "קנו", "kanú", "היו", "hayú"]
+        ]
+      },
+      {
+        "h": "Hollow verbs: בא, קם, גר",
+        "body": "Roots with ו or י in the middle (ב.ו.א, ק.ו.ם, ג.ו.ר, ש.י.ם) lose that letter in the past, so the stem has only two letters: בא, קם, גר, שם. The endings are the usual ones, but the stress stays on the stem in every form: gárti, gára, gáru.\n\nIn the third person singular the past and the present are written the same: הוא גר is “he lives” or “he lived”, and היא גרה is gará in the present but gára in the past. Time words remove the doubt: אתמול הוא בא מאוחר (Yesterday he came late). In the plural there's no confusion: הם גרים (they live), הם גרו (they lived).\n\nIn בא the א is silent: באתי (báti), באנו (bánu), באו (bá'u).",
+        "table": [
+          ["Person", "לבוא (to come)", "Say it", "לגור (to live)", "Say it"],
+          ["אני", "באתי", "báti", "גרתי", "gárti"],
+          ["אתה", "באת", "báta", "גרת", "gárta"],
+          ["את", "באת", "bat", "גרת", "gart"],
+          ["הוא", "בא", "ba", "גר", "gar"],
+          ["היא", "באה", "bá'a", "גרה", "gára"],
+          ["אנחנו", "באנו", "bánu", "גרנו", "gárnu"],
+          ["אתם / אתן", "באתם / באתן", "bátem / báten", "גרתם / גרתן", "gártem / gárten"],
+          ["הם / הן", "באו", "bá'u", "גרו", "gáru"]
+        ]
+      },
+      {
+        "h": "Verbs beginning with י or נ: ישב, ירד, נסע, נתן",
+        "body": "In the infinitive and the future some verbs lose their first root letter (לשבת, לרדת, לתת; אשב, אסע), which makes them look irregular. The good news: in the past they are completely regular, and the first letter is back: ישבתי (yashávti), ירדנו (yarádnu), נסעתי (nasáti), נסעו (nas'ú).\n\nThe one real twist is נתן (to give). Its last root letter is נ, and before an ending that starts with ת it merges with that ת: נתתי (natáti), נתת (natáta / natát), נתתם (natátem). Notice, too, that נתנו is both natánu, “we gave”, and natnú, “they gave”.",
+        "table": [
+          ["Person", "לשבת (to sit)", "Say it", "לתת (to give)", "Say it"],
+          ["אני", "ישבתי", "yashávti", "נתתי", "natáti"],
+          ["אתה", "ישבת", "yashávta", "נתת", "natáta"],
+          ["את", "ישבת", "yashávt", "נתת", "natát"],
+          ["הוא", "ישב", "yasháv", "נתן", "natán"],
+          ["היא", "ישבה", "yashvá", "נתנה", "natná"],
+          ["אנחנו", "ישבנו", "yashávnu", "נתנו", "natánu"],
+          ["אתם / אתן", "ישבתם / ישבתן", "yashávtem / yashávten", "נתתם / נתתן", "natátem / natáten"],
+          ["הם / הן", "ישבו", "yashvú", "נתנו", "natnú"]
+        ]
+      },
+      {
+        "h": "When? Time words for the past",
+        "body": "• אתמול (etmól) — yesterday; שלשום (shilshóm) — the day before yesterday\n• הבוקר (ha-bóker) — this morning; אתמול בערב — yesterday evening, last night\n• לפני (lifnéi) + a period of time = ago: לפני שבוע (a week ago), לפני חודש, לפני שלוש שנים, לפני שנתיים (two years ago), לפני רגע (a moment ago)\n• בשבוע שעבר (ba-shavú'a she-avár) — last week; בחודש שעבר — last month; בשנה שעברה (ba-shaná she-avrá) — last year\n• כבר (kvar) — already; עוד לא (od lo) — not yet: כבר אכלתי. / עוד לא אכלתי.\n\nשעבר is ש- (that) + עבר, itself a pa'al past verb meaning “passed”. So it agrees like any verb: שבוע and חודש are masculine (שעבר), שנה is feminine (שעברה).\n\nTime words usually open the sentence, and לא goes straight before the verb: אתמול לא נסענו לחיפה, נשארנו בבית (Yesterday we didn't go to Haifa; we stayed at home)."
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "אתמול ___ שלוש שעות. (ללמוד, אני)",
+        "en": "Yesterday I studied for three hours.",
+        "answer": ["למדתי", "אני למדתי"],
+        "hint": "past, אני → -תי",
+        "explain": "Past with אני adds -תי to the stem: למדתי (lamádti)."
+      },
+      {
+        "prompt": "רונית ___ את החלון, כי היה קר. (לסגור)",
+        "en": "Ronit closed the window because it was cold.",
+        "answer": ["סגרה"],
+        "hint": "past, היא → -ה",
+        "explain": "היא adds -ה and the stem's second vowel drops: סגרה (sagrá)."
+      },
+      {
+        "prompt": "___ בבית קפה ליד הים. (לשבת, אנחנו)",
+        "en": "We sat in a café by the sea.",
+        "answer": ["ישבנו", "אנחנו ישבנו"],
+        "hint": "the י of the root is back in the past",
+        "explain": "In the past ישב is regular, first letter included: ישבנו (yashávnu)."
+      },
+      {
+        "prompt": "דוד, ___ את הסרט החדש? (לראות, אתה)",
+        "en": "David, did you see the new film?",
+        "answer": ["ראית", "אתה ראית"],
+        "hint": "final-heh verb: ה → י before -ת",
+        "explain": "ראה is a final-heh verb, so the ה becomes י: ראית (ra'íta). את ראית (ra'ít) is written the same."
+      },
+      {
+        "prompt": "הם ___ מהאוטובוס בתחנה המרכזית. (לרדת)",
+        "en": "They got off the bus at the central bus station.",
+        "answer": ["ירדו"],
+        "hint": "past, הם → -ו",
+        "explain": "The past of לרדת has its י back: ירדו (yardú)."
+      },
+      {
+        "prompt": "בשבוע שעבר ___ לאילת עם המשפחה. (לנסוע, אני)",
+        "en": "Last week I went to Eilat with my family.",
+        "answer": ["נסעתי", "אני נסעתי"],
+        "hint": "the נ of the root is there in the past",
+        "explain": "נסעתי (nasáti): the נ that disappears in the future (אסע) is part of the past stem."
+      },
+      {
+        "prompt": "מירב ___ בירושלים חמש שנים. (לגור)",
+        "en": "Merav lived in Jerusalem for five years.",
+        "answer": ["גרה"],
+        "hint": "hollow verb, היא",
+        "explain": "Hollow verbs have a two-letter stem: גרה (gára). The present גרה is said gará, so here only the stress shows the tense."
+      },
+      {
+        "prompt": "___ מוקדם הבוקר? (לקום, אתם)",
+        "en": "Did you get up early this morning?",
+        "answer": ["קמתם", "אתם קמתם"],
+        "hint": "hollow verb, אתם → -תם",
+        "explain": "Two-letter stem + -תם: קמתם (kámtem)."
+      },
+      {
+        "prompt": "האורחים ___ בשמונה בערב. (לבוא)",
+        "en": "The guests came at eight in the evening.",
+        "answer": ["באו"],
+        "hint": "hollow verb, הם",
+        "explain": "בא + -ו = באו (bá'u); in hollow verbs the stress stays on the stem."
+      },
+      {
+        "prompt": "אתמול ___ חולה, אז לא באתי לשיעור. (להיות, אני)",
+        "en": "Yesterday I was sick, so I didn't come to class.",
+        "answer": ["הייתי", "אני הייתי"],
+        "hint": "final-heh verb, spelled with יי",
+        "explain": "להיות is a final-heh verb: הייתי (hayíti), written with a double י."
+      },
+      {
+        "prompt": "מה ___ אתמול בסופר? (לקנות, את)",
+        "en": "What did you buy at the supermarket yesterday?",
+        "answer": ["קנית", "את קנית"],
+        "hint": "final-heh verb, את",
+        "explain": "The ה becomes י before -ת: קנית (kanít), written exactly like אתה קנית (kaníta)."
+      },
+      {
+        "prompt": "היא ___ שתי כוסות קפה הבוקר. (לשתות)",
+        "en": "She drank two cups of coffee this morning.",
+        "answer": ["שתתה"],
+        "hint": "final-heh verb, היא: ה → ת",
+        "explain": "With היא the ה turns into ת before -ה: שתתה (shatetá), like קנתה and הייתה."
+      },
+      {
+        "prompt": "אתמול ___ לי פגישה חשובה. (להיות)",
+        "en": "Yesterday I had an important meeting.",
+        "answer": ["הייתה"],
+        "hint": "agrees with פגישה",
+        "explain": "יש לי becomes היה / הייתה / היו לי, agreeing with the thing you had: פגישה is feminine, so הייתה (haytá)."
+      },
+      {
+        "prompt": "___ לו את המספר שלי. (לתת, אני)",
+        "en": "I gave him my number.",
+        "answer": ["נתתי", "אני נתתי"],
+        "hint": "the last נ of the root merges with the ending",
+        "explain": "נ.ת.ן + -תי: the final נ merges with the ת of the ending, giving נתתי (natáti)."
+      },
+      {
+        "prompt": "___ עברנו לדירה חדשה. (a month ago)",
+        "en": "A month ago we moved to a new apartment.",
+        "answer": ["לפני חודש"],
+        "hint": "“ago” = לפני + the time",
+        "explain": "לפני + a period of time means “ago”: לפני חודש (lifnéi khódesh)."
+      },
+      {
+        "prompt": "התחתנו בשנה ___. (last)",
+        "en": "We got married last year.",
+        "answer": ["שעברה"],
+        "hint": "עבר agrees with שנה, which is feminine",
+        "explain": "בשנה שעברה (ba-shaná she-avrá): עבר is a past verb, “that passed”, so it agrees with the feminine שנה. With שבוע it's בשבוע שעבר."
+      }
+    ]
+  }
+]

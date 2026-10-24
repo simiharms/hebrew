@@ -141,6 +141,100 @@
         ]
       }
     ],
+    "tf": [
+      {
+        "s": "המשרד של נועה נמצא בתל אביב.",
+        "sEn": "Noa's office is in Tel Aviv.",
+        "a": false,
+        "why": "The office is in Ramat Gan, close to the train station."
+      },
+      {
+        "s": "בצהריים נועה אוכלת עם הצוות במטבח של המשרד.",
+        "sEn": "At lunchtime Noa eats with the team in the office kitchen.",
+        "a": true,
+        "why": "She writes that at lunchtime \"we eat together in the office kitchen\"."
+      },
+      {
+        "s": "נועה כבר עובדת על הפרויקט הראשון שלה.",
+        "sEn": "Noa is already working on her first project.",
+        "a": false,
+        "why": "Ronit told her that she will start working on her first project next week."
+      },
+      {
+        "s": "נועה רוצה להיפגש עם יעל בשבת.",
+        "sEn": "Noa wants to meet Yael on Saturday.",
+        "a": true,
+        "why": "She suggests meeting on Saturday for coffee, and says she'll tell Yael everything."
+      }
+    ],
+    "find": [
+      {
+        "en": "I got, I received",
+        "answer": [
+          "קיבלתי"
+        ]
+      },
+      {
+        "en": "I met",
+        "answer": [
+          "פגשתי"
+        ]
+      },
+      {
+        "en": "busy (feminine)",
+        "answer": [
+          "עסוקה"
+        ]
+      },
+      {
+        "en": "I'll tell (you)",
+        "answer": [
+          "אספר"
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "נועה לא כתבה ליעל כל השבוע, כי היא ___ עבודה חדשה.",
+        "en": "Noa didn't write to Yael all week, because she started a new job.",
+        "answer": [
+          "התחילה"
+        ],
+        "hint": "started (התחיל, past, she)"
+      },
+      {
+        "prompt": "המנהלת של נועה, ___, נחמדה מאוד, אבל גם רצינית.",
+        "en": "Noa's manager, Ronit, is very nice, but also serious.",
+        "answer": [
+          "רונית"
+        ],
+        "hint": "the manager's name"
+      },
+      {
+        "prompt": "האנשים בצוות מדברים מהר, אבל הם ___ בהרבה מילים באנגלית.",
+        "en": "The people on the team talk fast, but they use lots of English words.",
+        "answer": [
+          "משתמשים"
+        ],
+        "hint": "use (להשתמש, present, they)"
+      },
+      {
+        "prompt": "בשבוע הבא נועה ___ לעבוד על הפרויקט הראשון שלה.",
+        "en": "Next week Noa will start working on her first project.",
+        "answer": [
+          "תתחיל"
+        ],
+        "hint": "will start (להתחיל, future, she)"
+      },
+      {
+        "prompt": "נועה רוצה ___ עם יעל בשבת לקפה.",
+        "en": "Noa wants to meet up with Yael on Saturday for coffee.",
+        "answer": [
+          "להיפגש"
+        ],
+        "hint": "to meet up (infinitive)"
+      }
+    ],
     "writing": {
       "prompt": "ספרו על היום הראשון שלכם בעבודה חדשה או בלימודים: איפה הייתם, את מי פגשתם, ואיך הרגשתם?",
       "promptEn": "Write about your first day at a new job or at school: where were you, whom did you meet, and how did you feel?",
@@ -339,6 +433,102 @@
         ]
       }
     ],
+    "tf": [
+      {
+        "s": "בבניין יש מעלית.",
+        "sEn": "The building has an elevator.",
+        "a": false,
+        "why": "The ad says: 2nd floor, no elevator (ללא מעלית)."
+      },
+      {
+        "s": "בכל חדר בדירה יש מזגן.",
+        "sEn": "Every room in the apartment has air conditioning.",
+        "a": true,
+        "why": "The ad says: air conditioning in every room."
+      },
+      {
+        "s": "נוי רוצה לבוא לראות את הדירה מחר בבוקר.",
+        "sEn": "Noy wants to come and see the apartment tomorrow morning.",
+        "a": false,
+        "why": "She asks to come tomorrow evening, and Avi tells her to come at six."
+      },
+      {
+        "s": "אבי מוכן לדבר עם נוי על החתולה.",
+        "sEn": "Avi is willing to talk with Noy about the cat.",
+        "a": true,
+        "why": "The ad says no pets, but Avi answers \"but OK\" and says they'll talk about it tomorrow."
+      }
+    ],
+    "find": [
+      {
+        "en": "available, free (feminine)",
+        "answer": [
+          "פנויה"
+        ]
+      },
+      {
+        "en": "noisy",
+        "answer": [
+          "רועש"
+        ]
+      },
+      {
+        "en": "gladly, with pleasure",
+        "answer": [
+          "בשמחה"
+        ]
+      },
+      {
+        "en": "we'll talk",
+        "answer": [
+          "נדבר"
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "בחיפה יש דירת שלושה חדרים ___, עם מרפסת ונוף לים.",
+        "en": "In Haifa there's a three-room apartment for rent, with a balcony and a sea view.",
+        "answer": [
+          "להשכרה"
+        ],
+        "hint": "for rent"
+      },
+      {
+        "prompt": "נוי עובדת מהבית, ולכן חשוב לה ___.",
+        "en": "Noy works from home, so quiet is important to her.",
+        "answer": [
+          "שקט"
+        ],
+        "hint": "the opposite of noise"
+      },
+      {
+        "prompt": "ליד הבניין יש ___, אז בבוקר יש קצת רעש.",
+        "en": "Next to the building there's a kindergarten, so in the morning there's a bit of noise.",
+        "answer": [
+          "גן ילדים",
+          "גן"
+        ],
+        "hint": "a place for small children"
+      },
+      {
+        "prompt": "לנוי יש ___ קטנה, אבל במודעה כתוב: ללא בעלי חיים.",
+        "en": "Noy has a small cat, but the ad says: no pets.",
+        "answer": [
+          "חתולה"
+        ],
+        "hint": "which animal? (feminine)"
+      },
+      {
+        "prompt": "אבי אומר לנוי ___ מחר בשש.",
+        "en": "Avi tells Noy to come tomorrow at six.",
+        "answer": [
+          "לבוא",
+          "להגיע"
+        ],
+        "hint": "to come (infinitive)"
+      }
+    ],
     "writing": {
       "prompt": "כתבו הודעת וואטסאפ קצרה לאבי: ספרו שראיתם את המודעה, שאלו שתי שאלות חדשות על הדירה, ובקשו לבוא לראות אותה.",
       "promptEn": "Write a short WhatsApp message to Avi: say that you saw the ad, ask two new questions about the apartment, and ask to come and see it.",
@@ -518,6 +708,100 @@
             "תיקונים"
           ]
         ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "ביום שני המעלית לא תעבוד כל היום.",
+        "sEn": "On Monday the elevator won't work all day.",
+        "a": false,
+        "why": "It will be out of service only from 8:00 to 14:00."
+      },
+      {
+        "s": "חברת הניקיון תגיע פעמיים בשבוע.",
+        "sEn": "The cleaning company will come twice a week.",
+        "a": true,
+        "why": "From now on it will come twice a week, on Sunday and on Wednesday."
+      },
+      {
+        "s": "מותר להשאיר אופניים בלובי.",
+        "sEn": "It's allowed to leave bikes in the lobby.",
+        "a": false,
+        "why": "It's forbidden, because there's no room to get through; there's a new bike room next to the parking area."
+      },
+      {
+        "s": "בשנה שעברה היו הרבה בעיות במעלית.",
+        "sEn": "Last year there were a lot of problems with the elevator.",
+        "a": true,
+        "why": "The notice says the elevator was repaired six times last year."
+      }
+    ],
+    "find": [
+      {
+        "en": "to fix, to repair",
+        "answer": [
+          "לתקן"
+        ]
+      },
+      {
+        "en": "twice a week",
+        "answer": [
+          "פעמיים בשבוע"
+        ]
+      },
+      {
+        "en": "it is forbidden, you may not",
+        "answer": [
+          "אסור"
+        ]
+      },
+      {
+        "en": "from now on",
+        "answer": [
+          "מעכשיו"
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "ביום שני הבא המעלית לא ___ מ-8:00 עד 14:00.",
+        "en": "Next Monday the elevator won't work from 8:00 to 14:00.",
+        "answer": [
+          "תעבוד"
+        ],
+        "hint": "will work (לעבוד, future, she/it)"
+      },
+      {
+        "prompt": "דני מדירה 6 ישמח ___ לדיירים עם קניות או עם עגלה.",
+        "en": "Danny from apartment 6 will be happy to help the residents with shopping or with a stroller.",
+        "answer": [
+          "לעזור"
+        ],
+        "hint": "to help (infinitive)"
+      },
+      {
+        "prompt": "ועד הבית מבקש לא להשאיר שקיות ___ ליד הדלתות.",
+        "en": "The building committee asks that garbage bags not be left next to the doors.",
+        "answer": [
+          "זבל"
+        ],
+        "hint": "garbage"
+      },
+      {
+        "prompt": "המפתח לחדר האופניים ___ משפחת לוי, בדירה 3.",
+        "en": "The key to the bike room is with the Levi family, in apartment 3.",
+        "answer": [
+          "אצל"
+        ],
+        "hint": "at / with (someone)"
+      },
+      {
+        "prompt": "מינואר התשלום לוועד הבית ___ ל-150 ₪ לחודש, כי המעלית ישנה.",
+        "en": "From January the building committee fee will go up to 150 NIS a month, because the elevator is old.",
+        "answer": [
+          "יעלה"
+        ],
+        "hint": "will go up (לעלות, future, he/it)"
       }
     ],
     "writing": {
@@ -710,6 +994,100 @@
         ]
       }
     ],
+    "tf": [
+      {
+        "s": "עידו הולך לשוק עם סבתא כל שבוע.",
+        "sEn": "Ido goes to the market with Grandma every week.",
+        "a": false,
+        "why": "Grandma goes every Friday, but this week Ido went with her for the first time."
+      },
+      {
+        "s": "בשמונה בבוקר השוק עוד היה ריק.",
+        "sEn": "At eight in the morning the market was still empty.",
+        "a": false,
+        "why": "At eight the market was already full of people."
+      },
+      {
+        "s": "משה לא לקח כסף על התאנה.",
+        "sEn": "Moshe didn't take money for the fig.",
+        "a": true,
+        "why": "He let Ido taste a sweet fig and didn't want any money."
+      },
+      {
+        "s": "עידו רוצה לבוא לשוק גם בשבוע הבא.",
+        "sEn": "Ido wants to come to the market next week too.",
+        "a": true,
+        "why": "At the end he says: \"Grandma, I'll come with you next week too!\""
+      }
+    ],
+    "find": [
+      {
+        "en": "(they) shouted",
+        "answer": [
+          "צעקו"
+        ]
+      },
+      {
+        "en": "(she) stopped",
+        "answer": [
+          "עצרה"
+        ]
+      },
+      {
+        "en": "(he) laughed",
+        "answer": [
+          "צחק"
+        ]
+      },
+      {
+        "en": "heavy (feminine plural)",
+        "answer": [
+          "כבדות"
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "עידו לא אוהב לקום מוקדם, אבל סבתא ___ לו רוגלך חם.",
+        "en": "Ido doesn't like getting up early, but Grandma promised him a warm rugelach.",
+        "answer": [
+          "הבטיחה"
+        ],
+        "hint": "promised (הבטיח, past, she)"
+      },
+      {
+        "prompt": "בשוק היה ריח של ___ ושל לחם.",
+        "en": "In the market there was a smell of coffee and bread.",
+        "answer": [
+          "קפה"
+        ],
+        "hint": "a hot drink"
+      },
+      {
+        "prompt": "משה נתן לעידו ___ תאנה מתוקה, ולא רצה כסף.",
+        "en": "Moshe let Ido taste a sweet fig, and didn't want money.",
+        "answer": [
+          "לטעום"
+        ],
+        "hint": "to taste (infinitive)"
+      },
+      {
+        "prompt": "סבתא ___ את העגבניות אחת אחת, ומשה צחק.",
+        "en": "Grandma checked the tomatoes one by one, and Moshe laughed.",
+        "answer": [
+          "בדקה"
+        ],
+        "hint": "checked (בדק, past, she)"
+      },
+      {
+        "prompt": "בסוף, במאפייה, עידו אכל ___ רוגלך.",
+        "en": "In the end, at the bakery, Ido ate three rugelach.",
+        "answer": [
+          "שלושה"
+        ],
+        "hint": "how many? (number word)"
+      }
+    ],
     "writing": {
       "prompt": "ספרו על שוק או חנות שאתם אוהבים: איפה זה, מה מוכרים שם, ומה מיוחד שם?",
       "promptEn": "Write about a market or a shop you like: where is it, what do they sell there, and what's special about it?",
@@ -858,6 +1236,21 @@
         ]
       },
       {
+        "q": "איך אפשר לשלם על הנסיעה בקו החדש?",
+        "qEn": "How can you pay for a ride on the new line?",
+        "answer": "אפשר לשלם ברב-קו או באפליקציה.",
+        "answerEn": "You can pay with a Rav-Kav card or with an app.",
+        "keywords": [
+          [
+            "רב-קו",
+            "רב קו"
+          ],
+          [
+            "אפליקציה"
+          ]
+        ]
+      },
+      {
         "q": "למה העירייה פותחת את הקו החדש? כתבו שתי סיבות.",
         "qEn": "Why is the municipality opening the new line? Give two reasons.",
         "answer": "כי הרבה תושבים ביקשו אותו, וגם כי יש פקקים בבוקר.",
@@ -878,19 +1271,6 @@
         ]
       },
       {
-        "q": "הנסיעה של ליאת לאוניברסיטה תהיה קצרה יותר. בכמה דקות?",
-        "qEn": "Liat's ride to the university will be shorter. By how many minutes?",
-        "answer": "בארבעים דקות: קודם שעה, ועכשיו עשרים דקות.",
-        "answerEn": "By forty minutes: before it was an hour, and now it's twenty minutes.",
-        "keywords": [
-          [
-            "ארבעים",
-            "40 דקות",
-            "40"
-          ]
-        ]
-      },
-      {
         "q": "מי לא מרוצה מהקו החדש, ולמה?",
         "qEn": "Who isn't pleased with the new line, and why?",
         "answer": "תושבים ברחוב הרצל, כי האוטובוסים יעשו רעש.",
@@ -903,6 +1283,102 @@
             "רעש"
           ]
         ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "הקו החדש ייסע דרך מרכז העיר.",
+        "sEn": "The new line will run through the city center.",
+        "a": true,
+        "why": "It will run from the new neighborhoods in the north, through the city center, to the university and the hospital."
+      },
+      {
+        "s": "בצהריים האוטובוס יגיע כל עשר דקות.",
+        "sEn": "At midday the bus will come every ten minutes.",
+        "a": false,
+        "why": "Every ten minutes only in the morning and in the evening; the rest of the day every twenty minutes."
+      },
+      {
+        "s": "בקו 14 צריך לשלם יותר מאשר בקווים אחרים בעיר.",
+        "sEn": "On line 14 you have to pay more than on other lines in the city.",
+        "a": false,
+        "why": "The fare is the same as on any other line in the city."
+      },
+      {
+        "s": "עם הקו החדש ליאת תגיע לאוניברסיטה מהר יותר.",
+        "sEn": "With the new line Liat will get to the university faster.",
+        "a": true,
+        "why": "Her ride used to take an hour; now it will take only twenty minutes."
+      }
+    ],
+    "find": [
+      {
+        "en": "(they) asked for",
+        "answer": [
+          "ביקשו"
+        ]
+      },
+      {
+        "en": "(they) hope",
+        "answer": [
+          "מקווים"
+        ]
+      },
+      {
+        "en": "private car",
+        "answer": [
+          "רכב פרטי"
+        ]
+      },
+      {
+        "en": "(in) the rest of the day",
+        "answer": [
+          "בשאר היום"
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "קו 14 ___ מהשכונות החדשות בצפון העיר עד האוניברסיטה ובית החולים.",
+        "en": "Line 14 will run from the new neighborhoods in the north of the city to the university and the hospital.",
+        "answer": [
+          "ייסע"
+        ],
+        "hint": "will travel (לנסוע, future, he/it)"
+      },
+      {
+        "prompt": "האוטובוסים ייסעו מחמש וחצי בבוקר עד ___.",
+        "en": "The buses will run from 5:30 in the morning until midnight.",
+        "answer": [
+          "חצות",
+          "שתיים עשרה בלילה"
+        ],
+        "hint": "12 at night"
+      },
+      {
+        "prompt": "בבוקר יש ___ בכניסה לעיר, ובעירייה מקווים שעכשיו יהיו פחות מכוניות.",
+        "en": "In the morning there are traffic jams at the entrance to the city, and the municipality hopes there will now be fewer cars.",
+        "answer": [
+          "פקקים"
+        ],
+        "hint": "traffic jams"
+      },
+      {
+        "prompt": "עד היום הנסיעה של ליאת לאוניברסיטה לקחה שעה, ועכשיו היא ___ רק עשרים דקות.",
+        "en": "Until now Liat's ride to the university took an hour, and now it will take only twenty minutes.",
+        "answer": [
+          "תיקח"
+        ],
+        "hint": "will take (לקחת, future, she/it)"
+      },
+      {
+        "prompt": "כמה תושבים ברחוב הרצל לא ___, כי האוטובוסים יעשו שם רעש.",
+        "en": "Some residents of Herzl Street aren't pleased, because the buses will make noise there.",
+        "answer": [
+          "מרוצים",
+          "שמחים"
+        ],
+        "hint": "pleased (plural)"
       }
     ],
     "writing": {
@@ -1088,6 +1564,101 @@
             "לאכול"
           ]
         ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "הכותב גר בישראל כבר שנה.",
+        "sEn": "The writer has been living in Israel for a year.",
+        "a": false,
+        "why": "He has been living in Israel for half a year."
+      },
+      {
+        "s": "הכותב הביא לארוחה יין ופרחים.",
+        "sEn": "The writer brought wine and flowers to the dinner.",
+        "a": true,
+        "why": "He arrived at seven with a bottle of wine and flowers."
+      },
+      {
+        "s": "בארוחה היו מעט אנשים, והיה שקט.",
+        "sEn": "There were few people at the dinner, and it was quiet.",
+        "a": false,
+        "why": "There were about fifteen people, and everyone talked at the same time and loudly."
+      },
+      {
+        "s": "בסוף הערב הכותב הרגיש טוב עם המשפחה של שירה.",
+        "sEn": "By the end of the evening the writer felt good with Shira's family.",
+        "a": true,
+        "why": "At first he was a bit confused, but in the end he felt at home."
+      }
+    ],
+    "find": [
+      {
+        "en": "I arrived",
+        "answer": [
+          "הגעתי"
+        ]
+      },
+      {
+        "en": "loudly",
+        "answer": [
+          "בקול רם"
+        ]
+      },
+      {
+        "en": "we were sitting, we sat",
+        "answer": [
+          "ישבנו"
+        ]
+      },
+      {
+        "en": "confused (masculine)",
+        "answer": [
+          "מבולבל"
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "שירה, חברה מהעבודה, ___ את הכותב לארוחת שישי.",
+        "en": "Shira, a friend from work, invited the writer to a Friday-night dinner.",
+        "answer": [
+          "הזמינה"
+        ],
+        "hint": "invited (הזמין, past, she)"
+      },
+      {
+        "prompt": "בבית היו בערך ___ אנשים, וכולם דיברו בקול רם.",
+        "en": "There were about fifteen people in the house, and everyone talked loudly.",
+        "answer": [
+          "חמישה עשר"
+        ],
+        "hint": "how many? (number in words)"
+      },
+      {
+        "prompt": "אמא של שירה אמרה לכותב לאכול, כי לדעתה הוא ___ מדי.",
+        "en": "Shira's mom told the writer to eat, because in her opinion he's too thin.",
+        "answer": [
+          "רזה"
+        ],
+        "hint": "thin"
+      },
+      {
+        "prompt": "הכותב ___ שלוש צלחות, ובסוף הוא כמעט לא יכול היה לזוז.",
+        "en": "The writer ate three plates, and in the end he could hardly move.",
+        "answer": [
+          "אכל"
+        ],
+        "hint": "ate (אכל, past, he)"
+      },
+      {
+        "prompt": "בפעם הבאה הכותב ___ לארוחה רעב.",
+        "en": "Next time the writer will come to the dinner hungry.",
+        "answer": [
+          "יגיע",
+          "יבוא"
+        ],
+        "hint": "will arrive (להגיע, future, he)"
       }
     ],
     "writing": {

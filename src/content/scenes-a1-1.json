@@ -1,0 +1,329 @@
+[
+  {
+    "id": "s_a1_shalom",
+    "level": "A1",
+    "title": "שלום, מה נשמע?",
+    "titleEn": "Hi, How's It Going?",
+    "genre": "street",
+    "synopsis": "Early morning at a bus stop. Dana spots Alex and stops to chat with him for a minute. Alex isn't alone: he has someone to introduce.",
+    "speakers": {
+      "A": { "name": "דנה", "gender": "f" },
+      "B": { "name": "אלכס", "gender": "m" },
+      "C": { "name": "סמיר", "gender": "m" }
+    },
+    "lines": [
+      { "s": "A", "he": "אלכס! שלום, מה נשמע?", "en": "Alex! Hi, how's it going?" },
+      { "s": "B", "he": "היי, דנה! הכול טוב. מה שלומך?", "en": "Hi, Dana! Everything's fine. How are you?" },
+      { "s": "A", "he": "בסדר, תודה. אתה הולך לעבודה?", "en": "Okay, thanks. Are you going to work?" },
+      { "s": "B", "he": "כן. ואת?", "en": "Yes. And you?" },
+      { "s": "A", "he": "לא, אני הולכת לאוניברסיטה.", "en": "No, I'm going to the university." },
+      { "s": "B", "he": "דנה, זה סמיר, חבר מהעבודה.", "en": "Dana, this is Samir, a friend from work." },
+      { "s": "C", "he": "שלום, נעים מאוד.", "en": "Hello, nice to meet you." },
+      { "s": "A", "he": "נעים מאוד, אני דנה.", "en": "Nice to meet you, I'm Dana." },
+      { "s": "C", "he": "דנה? גם לאחותי קוראים דנה!", "en": "Dana? My sister's name is Dana too!" },
+      { "s": "A", "he": "באמת? שם יפה, נכון?", "en": "Really? It's a nice name, isn't it?" },
+      { "s": "C", "he": "נכון! אוי, הנה האוטובוס שלנו.", "en": "It is! Oh, here's our bus." },
+      { "s": "B", "he": "להתראות, דנה! יום טוב!", "en": "Bye, Dana! Have a good day!" }
+    ],
+    "questions": [
+      {
+        "q": "מה שלום אלכס?",
+        "qEn": "How is Alex?",
+        "answer": "הכול טוב.",
+        "answerEn": "Everything's fine.",
+        "keywords": [["טוב", "בסדר"]]
+      },
+      {
+        "q": "לאן דנה הולכת?",
+        "qEn": "Where is Dana going?",
+        "answer": "היא הולכת לאוניברסיטה.",
+        "answerEn": "She's going to the university.",
+        "keywords": [["אוניברסיטה"]]
+      },
+      {
+        "q": "מי זה סמיר?",
+        "qEn": "Who is Samir?",
+        "answer": "הוא חבר של אלכס מהעבודה.",
+        "answerEn": "He's a friend of Alex's from work.",
+        "keywords": [["חבר", "חברים"], ["עבודה", "עובד", "עובדים"]]
+      }
+    ],
+    "tf": [
+      {
+        "s": "אלכס הולך לעבודה.",
+        "sEn": "Alex is going to work.",
+        "a": true,
+        "why": "Dana asks him אתה הולך לעבודה? and he answers כן."
+      },
+      {
+        "s": "דנה וסמיר כבר מכירים.",
+        "sEn": "Dana and Samir already know each other.",
+        "a": false,
+        "why": "They meet for the first time: Alex introduces Samir, and they both say נעים מאוד."
+      },
+      {
+        "s": "לאחות של סמיר קוראים דנה.",
+        "sEn": "Samir's sister is called Dana.",
+        "a": true,
+        "why": "Samir says גם לאחותי קוראים דנה, 'my sister is also called Dana'."
+      },
+      {
+        "s": "בסוף מגיע האוטובוס של דנה.",
+        "sEn": "At the end, Dana's bus arrives.",
+        "a": false,
+        "why": "The bus that arrives belongs to Alex and Samir: Samir says הנה האוטובוס שלנו, 'here's our bus', and they say goodbye to Dana."
+      }
+    ],
+    "dictation": [2, 4, 8],
+    "expressions": [
+      {
+        "he": "מה נשמע?",
+        "en": "How's it going?",
+        "note": "A friendly, informal 'how are you?' for people you know. Typical answers: הכול טוב, בסדר, or טוב, תודה."
+      },
+      {
+        "he": "מה שלומך?",
+        "en": "How are you?",
+        "note": "Literally 'what is your peace?'. Written the same for a man and a woman, but said ma shlomkhá to a man and ma shlomékh to a woman. Polite enough for any situation."
+      },
+      {
+        "he": "נעים מאוד",
+        "en": "Nice to meet you",
+        "note": "Said when you are introduced to someone new. The other person just says it back."
+      },
+      {
+        "he": "גם לאחותי קוראים דנה",
+        "en": "My sister is also called Dana",
+        "note": "קוראים ל + person + name tells you someone's name: קוראים לי דנה (my name is Dana), איך קוראים לך? (what's your name?)."
+      },
+      {
+        "he": "הנה האוטובוס",
+        "en": "Here's the bus",
+        "note": "הנה points at something that has just appeared or that you are handing over: הנה הוא! הנה הכסף."
+      },
+      {
+        "he": "להתראות",
+        "en": "Goodbye / See you",
+        "note": "Literally 'to see each other (again)'. Among friends ביי is just as common."
+      }
+    ]
+  },
+  {
+    "id": "s_a1_ulpan_first_day",
+    "level": "A1",
+    "title": "היום הראשון באולפן",
+    "titleEn": "The First Day at the Ulpan",
+    "genre": "class",
+    "synopsis": "It's the first lesson of a new ulpan class. The teacher goes around the room, and the new students introduce themselves one by one.",
+    "speakers": {
+      "A": { "name": "אורנה", "gender": "f" },
+      "B": { "name": "מרקוס", "gender": "m" },
+      "C": { "name": "ז׳ולי", "gender": "f" },
+      "D": { "name": "דייוויד", "gender": "m" }
+    },
+    "lines": [
+      { "s": "A", "he": "בוקר טוב! אני אורנה, המורה. מה השם שלך?", "en": "Good morning! I'm Orna, the teacher. What's your name?" },
+      { "s": "B", "he": "שלום, אני מרקוס.", "en": "Hello, I'm Marcus." },
+      { "s": "A", "he": "נעים מאוד, מרקוס. מאיפה אתה?", "en": "Nice to meet you, Marcus. Where are you from?" },
+      { "s": "B", "he": "אני מברזיל, מסאו פאולו.", "en": "I'm from Brazil, from São Paulo." },
+      { "s": "A", "he": "ומה אתה עושה בישראל?", "en": "And what do you do in Israel?" },
+      { "s": "B", "he": "אני מהנדס. אני עובד בהייטק.", "en": "I'm an engineer. I work in high-tech." },
+      { "s": "A", "he": "תודה, מרקוס. מי הבא?", "en": "Thank you, Marcus. Who's next?" },
+      { "s": "C", "he": "אני ז׳ולי, מצרפת. אני סטודנטית.", "en": "I'm Julie, from France. I'm a student." },
+      { "s": "A", "he": "ומה את לומדת, ז׳ולי?", "en": "And what do you study, Julie?" },
+      { "s": "C", "he": "מוזיקה. אני גם מורה לפסנתר.", "en": "Music. I'm also a piano teacher." },
+      { "s": "D", "he": "ואני דייוויד, מלונדון. אני רופא.", "en": "And I'm David, from London. I'm a doctor." },
+      { "s": "A", "he": "יופי! אתם באים מכל העולם. ברוכים הבאים!", "en": "Wonderful! You come from all over the world. Welcome!" }
+    ],
+    "questions": [
+      {
+        "q": "מאיפה מרקוס?",
+        "qEn": "Where is Marcus from?",
+        "answer": "הוא מברזיל, מסאו פאולו.",
+        "answerEn": "He's from Brazil, from São Paulo.",
+        "keywords": [["ברזיל", "סאו פאולו"]]
+      },
+      {
+        "q": "מה ז׳ולי לומדת?",
+        "qEn": "What does Julie study?",
+        "answer": "היא לומדת מוזיקה.",
+        "answerEn": "She studies music.",
+        "keywords": [["מוזיקה"]]
+      },
+      {
+        "q": "מה דייוויד עושה?",
+        "qEn": "What does David do?",
+        "answer": "הוא רופא.",
+        "answerEn": "He's a doctor.",
+        "keywords": [["רופא"]]
+      }
+    ],
+    "tf": [
+      {
+        "s": "אורנה סטודנטית.",
+        "sEn": "Orna is a student.",
+        "a": false,
+        "why": "Orna is the teacher: she says אני אורנה, המורה."
+      },
+      {
+        "s": "מרקוס מהנדס.",
+        "sEn": "Marcus is an engineer.",
+        "a": true,
+        "why": "He says אני מהנדס and adds that he works in high-tech."
+      },
+      {
+        "s": "ז׳ולי ודייוויד מצרפת.",
+        "sEn": "Julie and David are from France.",
+        "a": false,
+        "why": "Only Julie is from France; David is from London."
+      },
+      {
+        "s": "גם ז׳ולי מורה.",
+        "sEn": "Julie is a teacher too.",
+        "a": true,
+        "why": "She studies music, and she says אני גם מורה לפסנתר, 'I'm also a piano teacher'."
+      }
+    ],
+    "dictation": [4, 5, 11],
+    "expressions": [
+      {
+        "he": "מה השם שלך?",
+        "en": "What's your name?",
+        "note": "A direct way to ask; איך קוראים לך? is just as common. Answer: אני מרקוס, or השם שלי מרקוס."
+      },
+      {
+        "he": "מאיפה אתה? / מאיפה את?",
+        "en": "Where are you from? (to a man / to a woman)",
+        "note": "מאיפה = מ (from) + איפה (where). Answer with מ + the place: אני מברזיל, אני מלונדון."
+      },
+      {
+        "he": "מה אתה עושה?",
+        "en": "What do you do?",
+        "note": "Asks about someone's job. Hebrew has no word for 'a': אני מהנדס = I'm an engineer, אני רופא = I'm a doctor."
+      },
+      {
+        "he": "מי הבא?",
+        "en": "Who's next?",
+        "note": "Heard in classes, clinics and queues. The feminine is הבאה: את הבאה = you're next (to a woman)."
+      },
+      {
+        "he": "ברוכים הבאים!",
+        "en": "Welcome! (to a group)",
+        "note": "To one man: ברוך הבא. To one woman: ברוכה הבאה."
+      },
+      {
+        "he": "מורה לפסנתר",
+        "en": "piano teacher",
+        "note": "מורה ל + subject: מורה לעברית, מורה למתמטיקה. Spelled the same for a man (moré) and a woman (morá)."
+      }
+    ]
+  },
+  {
+    "id": "s_a1_family_photo",
+    "level": "A1",
+    "title": "תמונות של המשפחה",
+    "titleEn": "Family Photos",
+    "genre": "sitcom",
+    "synopsis": "Almaz has some new photos of her family on her phone and shows them to her friend Roy. Roy tries to guess who's who.",
+    "speakers": {
+      "A": { "name": "אלמז", "gender": "f" },
+      "B": { "name": "רועי", "gender": "m" }
+    },
+    "lines": [
+      { "s": "A", "he": "רועי, בוא! יש לי תמונות חדשות.", "en": "Roy, come here! I've got some new photos." },
+      { "s": "B", "he": "יופי. מי זה?", "en": "Great. Who's this?" },
+      { "s": "A", "he": "זה אבא שלי. הוא טבח במלון.", "en": "This is my dad. He's a cook at a hotel." },
+      { "s": "B", "he": "וזאת? זאת אחותך?", "en": "And this one? Is this your sister?" },
+      { "s": "A", "he": "לא! זאת אמא שלי!", "en": "No! That's my mom!" },
+      { "s": "B", "he": "באמת? היא נראית צעירה מאוד!", "en": "Really? She looks very young!" },
+      { "s": "A", "he": "נכון. וזאת אחותי, ואלה הילדים שלה.", "en": "She does. And this is my sister, and these are her kids." },
+      { "s": "B", "he": "הם חמודים! בני כמה הם?", "en": "They're cute! How old are they?" },
+      { "s": "A", "he": "הבן בן שש, והבת בת ארבע.", "en": "The boy is six, and the girl is four." },
+      { "s": "B", "he": "ומי הילדה הזאת? היא מתוקה מאוד.", "en": "And who's this little girl? She's really sweet." },
+      { "s": "A", "he": "זאת? זאת אני, בגיל שלוש!", "en": "Her? That's me, at age three!" },
+      { "s": "B", "he": "אלמז, את ממש דומה לאמא שלך!", "en": "Almaz, you really look like your mom!" }
+    ],
+    "questions": [
+      {
+        "q": "מה אבא של אלמז עושה?",
+        "qEn": "What does Almaz's father do?",
+        "answer": "הוא טבח במלון.",
+        "answerEn": "He's a cook at a hotel.",
+        "keywords": [["טבח", "מבשל"], ["מלון"]]
+      },
+      {
+        "q": "רועי חושב שזאת אחות של אלמז. מי זאת באמת?",
+        "qEn": "Roy thinks it's Almaz's sister. Who is it really?",
+        "answer": "זאת אמא שלה.",
+        "answerEn": "It's her mom.",
+        "keywords": [["אמא", "אם"]]
+      },
+      {
+        "q": "מי הילדה בתמונה האחרונה?",
+        "qEn": "Who is the little girl in the last photo?",
+        "answer": "זאת אלמז, בגיל שלוש.",
+        "answerEn": "It's Almaz, at age three.",
+        "keywords": [["אלמז"], ["שלוש", "3"]]
+      }
+    ],
+    "tf": [
+      {
+        "s": "אבא של אלמז עובד במלון.",
+        "sEn": "Almaz's father works at a hotel.",
+        "a": true,
+        "why": "Almaz says הוא טבח במלון, 'he's a cook at a hotel'."
+      },
+      {
+        "s": "רועי יודע מי האישה בתמונה השנייה.",
+        "sEn": "Roy knows who the woman in the second photo is.",
+        "a": false,
+        "why": "He guesses she's Almaz's sister (זאת אחותך?), but she's her mother."
+      },
+      {
+        "s": "לאחות של אלמז יש שלושה ילדים.",
+        "sEn": "Almaz's sister has three children.",
+        "a": false,
+        "why": "She has two: a boy of six and a girl of four."
+      },
+      {
+        "s": "בתמונה האחרונה אלמז בת שלוש.",
+        "sEn": "In the last photo, Almaz is three years old.",
+        "a": true,
+        "why": "Almaz says זאת אני, בגיל שלוש, 'that's me, at age three'."
+      }
+    ],
+    "dictation": [2, 6, 8],
+    "expressions": [
+      {
+        "he": "זה / זאת / אלה",
+        "en": "this is (m) / this is (f) / these are",
+        "note": "Choose by what you point at: זה אבא שלי, זאת אמא שלי, אלה הילדים שלה. Pointing at herself in a photo, Almaz says זאת אני; in casual speech you'll also hear זה אני."
+      },
+      {
+        "he": "אחותי / אחותך",
+        "en": "my sister / your sister",
+        "note": "Short for האחות שלי / האחות שלך, and very common with family words. With אבא and אמא people normally say אבא שלי, אמא שלי."
+      },
+      {
+        "he": "בני כמה הם?",
+        "en": "How old are they?",
+        "note": "Literally 'sons of how many?'. It agrees: בן כמה הוא? בת כמה היא? בני כמה הם? The answer works the same way: הבן בן שש, הבת בת ארבע."
+      },
+      {
+        "he": "היא נראית צעירה",
+        "en": "She looks young",
+        "note": "נראה / נראית / נראים = looks (m / f / plural): הוא נראה עייף, הם נראים שמחים."
+      },
+      {
+        "he": "את דומה לאמא שלך",
+        "en": "You look like your mom",
+        "note": "דומה ל = similar to, looks like. Spelled the same for a man (domé) and a woman (domá); plural דומים."
+      },
+      {
+        "he": "בגיל שלוש",
+        "en": "at age three",
+        "note": "ב + גיל + number, with the plain counting form of the number: בגיל שלוש, בגיל עשרים."
+      }
+    ]
+  }
+]

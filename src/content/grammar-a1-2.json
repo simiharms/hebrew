@@ -1,0 +1,511 @@
+[
+  {
+    "id": "g_a1_present",
+    "level": "A1",
+    "title": "The present tense",
+    "titleHe": "זמן הווה",
+    "summary": "Four forms for every verb (masculine, feminine, singular, plural): the regular pa'al pattern, guttural endings, hollow and final-heh verbs, and לא for 'not'.",
+    "sections": [
+      {
+        "h": "Four forms, and the pronoun does the rest",
+        "body": "The Hebrew present tense is simpler than it looks: every verb has just four present forms. They change for gender (masculine or feminine) and number (singular or plural), but not for person. So אני כותב (aní kotév, I write — said by a man), אתה כותב (atá kotév, you write — to a man) and הוא כותב (hu kotév, he writes) all use the same verb form.\n\nBecause the verb doesn't show who is acting, the pronoun or subject is never left out in the present: אני גר בחיפה (aní gar be-khéifa, I live in Haifa) — not ✗ גר בחיפה.\n\n• A woman says אני כותבת (aní kotévet); a man says אני כותב.\n• A mixed group of men and women takes the masculine plural: דני ומיכל כותבים (dáni u-mikhál kotvím, Danny and Michal are writing).\n• The feminine plural is only for a group that is entirely female: נועה ושירה כותבות (nó'a ve-shíra kotvót).\n• One Hebrew form covers English 'I work', 'I'm working' and 'I do work': היא עובדת עכשיו (hi ovédet akhsháv, she is working now); היא עובדת בבנק (hi ovédet ba-bank, she works at a bank).",
+        "table": [
+          ["Pronoun", "Say it", "Meaning", "Present form"],
+          ["אני", "aní", "I", "כותב / כותבת"],
+          ["אתה", "atá", "you (m. sg.)", "כותב"],
+          ["את", "at", "you (f. sg.)", "כותבת"],
+          ["הוא", "hu", "he, it", "כותב"],
+          ["היא", "hi", "she, it", "כותבת"],
+          ["אנחנו", "anákhnu", "we", "כותבים / כותבות"],
+          ["אתם", "atém", "you (m. pl.)", "כותבים"],
+          ["אתן", "atén", "you (f. pl.)", "כותבות"],
+          ["הם", "hem", "they (m.)", "כותבים"],
+          ["הן", "hen", "they (f.)", "כותבות"]
+        ]
+      },
+      {
+        "h": "The regular pattern: kotév, kotévet, kotvím, kotvót",
+        "body": "Most Hebrew verbs are built on a root of three consonants: לכתוב (to write) comes from the root כ.ת.ב. In pa'al, the basic binyan (verb pattern), the present tense puts ו, pronounced o, after the first root letter and the vowel e after the second: כותב (kotév).\n\n• Masculine singular: the bare form — כותב (kotév)\n• Feminine singular: add -ת — כותבת (kotévet)\n• Masculine plural: add -ים — כותבים (kotvím)\n• Feminine plural: add -ות — כותבות (kotvót)\n\nIn the plural the e between the second and third root letters drops out, and the stress moves to the ending: kotév but kotvím.\n\nThe infinitive (the dictionary form, 'to write') is ל + the root, with ו before the last letter: לכתוב (likhtóv). Other everyday verbs that follow the pattern exactly: לעבוד (to work) → עובד, ללמוד (to learn, study) → לומד, לסגור (to close) → סוגר, לחשוב (to think) → חושב, לגמור (to finish) → גומר, לאכול (to eat) → אוכל.",
+        "table": [
+          ["Form", "לכתוב (to write)", "Say it", "ללמוד (to learn)", "Say it"],
+          ["m. sg. (אני, אתה, הוא)", "כותב", "kotév", "לומד", "loméd"],
+          ["f. sg. (אני, את, היא)", "כותבת", "kotévet", "לומדת", "lomédet"],
+          ["m. pl. (אנחנו, אתם, הם)", "כותבים", "kotvím", "לומדים", "lomdím"],
+          ["f. pl. (אנחנו, אתן, הן)", "כותבות", "kotvót", "לומדות", "lomdót"]
+        ]
+      },
+      {
+        "h": "Gutturals: shomá'at, sho'alím",
+        "body": "The letters א, ה, ח and ע are called gutturals ('throat letters'). They change the vowels around them, but the spelling stays perfectly regular.\n\n• When the last root letter is ח or ע, the feminine singular ends in -at, not -et: שומעת (shomá'at, hears), יודעת (yodá'at, knows), נוסעת (nosá'at, travels, goes by vehicle), פותחת (potákhat, opens), שולחת (sholákhat, sends). The masculine slips a short a in before the guttural: שומע (shoméa), פותח (potéakh).\n• When the middle root letter is a guttural, the plural keeps a short a after it: שואלים (sho'alím, ask), אוהבים (ohavím, love), בוחרים (bokharím, choose). Compare כותבים (kotvím), with no vowel in that place.\n• A guttural as the first root letter changes nothing in the present: עובד, אוכל, חושב are fully regular.\n\nFor example: נגה יודעת את התשובה (nóga yodá'at et ha-tshuvá) — Noga knows the answer.",
+        "table": [
+          ["Form", "לשמוע (to hear)", "Say it", "לשאול (to ask)", "Say it"],
+          ["m. sg.", "שומע", "shoméa", "שואל", "sho'él"],
+          ["f. sg.", "שומעת", "shomá'at", "שואלת", "sho'élet"],
+          ["m. pl.", "שומעים", "shom'ím", "שואלים", "sho'alím"],
+          ["f. pl.", "שומעות", "shom'ót", "שואלות", "sho'alót"]
+        ]
+      },
+      {
+        "h": "Hollow verbs: gar, gára, garím, garót",
+        "body": "Some roots have ו or י as their middle letter: ג.ו.ר (live, reside), ב.ו.א (come), ק.ו.ם (get up), ש.י.ר (sing). In the present tense that middle letter disappears completely, leaving a one-syllable masculine form with the vowel a: גר (gar), בא (ba), קם (kam), שר (shar).\n\n• Feminine singular: add -ה, with the stress on the first syllable: גרה (gára), קמה (káma), באה (bá'a). שרה (sára, she sings) is spelled just like the name Sarah.\n• The plurals are regular: גרים (garím), גרות (garót).\n\nThe infinitive keeps the middle letter — לגור, לבוא, לקום, לשיר — and that is how you recognise these verbs in a dictionary. Other common ones: לרוץ (to run) → רץ, לשים (to put) → שם, לטוס (to fly) → טס.",
+        "table": [
+          ["Infinitive", "m. sg.", "f. sg.", "m. pl.", "f. pl."],
+          ["לגור (to live)", "גר (gar)", "גרה (gára)", "גרים (garím)", "גרות (garót)"],
+          ["לבוא (to come)", "בא (ba)", "באה (bá'a)", "באים (ba'ím)", "באות (ba'ót)"],
+          ["לקום (to get up)", "קם (kam)", "קמה (káma)", "קמים (kamím)", "קמות (kamót)"],
+          ["לשיר (to sing)", "שר (shar)", "שרה (sára)", "שרים (sharím)", "שרות (sharót)"]
+        ]
+      },
+      {
+        "h": "Verbs ending in ה: osé, osá",
+        "body": "Verbs whose infinitive ends in -ות — לעשות, לקנות, לרצות, לשתות — have ה as their last root letter (they are called ל״ה, 'final-heh' verbs). Their present tense ends in a vowel:\n\n• Masculine singular: -ה, said -e — עושה (osé)\n• Feminine singular: -ה, said -a — עושה (osá)\n• Plurals: the ה drops before -ים and -ות — עושים (osím), עושות (osót)\n\nSo הוא עושה and היא עושה look exactly the same in writing. You hear the difference (osé / osá), and in a text the subject tells you which one it is. Other verbs like this: רואה (ro'é, sees), עונה (oné, answers), בונה (boné, builds).",
+        "table": [
+          ["Infinitive", "m. sg.", "f. sg.", "m. pl.", "f. pl."],
+          ["לעשות (to do, make)", "עושה (osé)", "עושה (osá)", "עושים (osím)", "עושות (osót)"],
+          ["לקנות (to buy)", "קונה (koné)", "קונה (koná)", "קונים (koním)", "קונות (konót)"],
+          ["לרצות (to want)", "רוצה (rotsé)", "רוצה (rotsá)", "רוצים (rotsím)", "רוצות (rotsót)"],
+          ["לשתות (to drink)", "שותה (shoté)", "שותה (shotá)", "שותים (shotím)", "שותות (shotót)"]
+        ]
+      },
+      {
+        "h": "Saying 'not', and asking yes/no questions",
+        "body": "To make a present-tense sentence negative, put לא (lo) directly before the verb. Nothing else changes, and there is no helper verb like English 'do':\n\n• אני לא גר בתל אביב (aní lo gar be-tel avív) — I don't live in Tel Aviv.\n• היא לא שותה קפה (hi lo shotá kafé) — She doesn't drink coffee.\n• הם לא עובדים בשבת (hem lo ovdím be-shabát) — They don't work on Shabbat.\n\nA yes/no question needs no change in word order at all — just a rising tone in speech and a question mark in writing: אתה גר פה? (atá gar po?) — Do you live here? Answer with כן (ken, yes) or לא (lo, no): לא, אני לא גר פה.\n\nIn formal writing and on signs you will also meet אינו / אינה ('is not') before a present-tense verb: המעלית אינה עובדת (ha-ma'alít einá ovédet) — The lift is out of order. Recognise it, but in speech use לא."
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "יונתן ___ ספר על ההיסטוריה של ירושלים. (לכתוב)",
+        "en": "Yonatan is writing a book about the history of Jerusalem.",
+        "answer": ["כותב"],
+        "hint": "masculine singular",
+        "explain": "Yonatan is a man, so the bare masculine singular form: כותב (kotév)."
+      },
+      {
+        "prompt": "מאיה ___ עברית באולפן. (ללמוד)",
+        "en": "Maya is learning Hebrew at an ulpan.",
+        "answer": ["לומדת"],
+        "hint": "feminine singular",
+        "explain": "Maya is a woman: add -ת to get the feminine singular, לומדת (lomédet)."
+      },
+      {
+        "prompt": "יוסי ואני ___ במשרד בתל אביב. (לעבוד)",
+        "en": "Yossi and I work in an office in Tel Aviv.",
+        "answer": ["עובדים"],
+        "hint": "masculine plural",
+        "explain": "יוסי ואני is plural and includes a man, so it takes the masculine plural עובדים (ovdím), whether the speaker is a man or a woman."
+      },
+      {
+        "prompt": "הבנות ___ מכתב לסבתא. (לכתוב)",
+        "en": "The girls are writing a letter to Grandma.",
+        "answer": ["כותבות"],
+        "hint": "feminine plural",
+        "explain": "הבנות is feminine plural, so add -ות: כותבות (kotvót). The e of kotév drops in the plural."
+      },
+      {
+        "prompt": "ג׳סיקה, את ___ אותי? הקו לא טוב. (לשמוע)",
+        "en": "Jessica, can you hear me? The line is bad.",
+        "answer": ["שומעת"],
+        "hint": "feminine singular",
+        "explain": "With את the feminine singular: שומעת. Because the last root letter is ע, it's said shomá'at, not shoméet."
+      },
+      {
+        "prompt": "ראניה ___ איפה התחנה. (לדעת)",
+        "en": "Rania knows where the station is.",
+        "answer": ["יודעת"],
+        "hint": "feminine singular",
+        "explain": "Feminine singular of יודע. The final ע gives the ending -at: יודעת (yodá'at), like שומעת."
+      },
+      {
+        "prompt": "אתם ___ שאלות טובות. (לשאול)",
+        "en": "You ask good questions. (to a group)",
+        "answer": ["שואלים"],
+        "hint": "masculine plural",
+        "explain": "With אתם the masculine plural. The middle root letter א is a guttural, so the plural keeps a short a: שואלים (sho'alím)."
+      },
+      {
+        "prompt": "סרגיי ___ בחיפה, ליד הים. (לגור)",
+        "en": "Sergei lives in Haifa, near the sea.",
+        "answer": ["גר"],
+        "hint": "masculine singular",
+        "explain": "לגור is a hollow verb: the ו disappears in the present, so the masculine singular is just גר (gar)."
+      },
+      {
+        "prompt": "אמא שלי ___ כל יום בחמש וחצי בבוקר. (לקום)",
+        "en": "My mother gets up at half past five every morning.",
+        "answer": ["קמה"],
+        "hint": "feminine singular",
+        "explain": "A hollow verb in the feminine singular adds -ה: קמה (káma), stressed on the first syllable."
+      },
+      {
+        "prompt": "האורחים ___ בשבע וחצי. (לבוא)",
+        "en": "The guests are coming at half past seven.",
+        "answer": ["באים"],
+        "hint": "masculine plural",
+        "explain": "האורחים is masculine plural: בא + -ים = באים (ba'ím)."
+      },
+      {
+        "prompt": "מירב ושירה ___ במקהלה. (לשיר)",
+        "en": "Meirav and Shira sing in a choir.",
+        "answer": ["שרות"],
+        "hint": "feminine plural",
+        "explain": "Two women, so the feminine plural: שר + -ות = שרות (sharót)."
+      },
+      {
+        "prompt": "מה את ___ הערב? (לעשות)",
+        "en": "What are you doing this evening? (to a woman)",
+        "answer": ["עושה"],
+        "hint": "feminine singular",
+        "explain": "With את the feminine singular עושה, said osá. It is spelled exactly like the masculine עושה (osé)."
+      },
+      {
+        "prompt": "ברהנו ויעל ___ דירה בבאר שבע. (לקנות)",
+        "en": "Berhanu and Yael are buying an apartment in Be'er Sheva.",
+        "answer": ["קונים"],
+        "hint": "masculine plural",
+        "explain": "A man and a woman together take the masculine plural. The ה of קונה drops before -ים: קונים (koním)."
+      },
+      {
+        "prompt": "אתן ___ קפה או תה? (לרצות)",
+        "en": "Do you want coffee or tea? (to a group of women)",
+        "answer": ["רוצות"],
+        "hint": "feminine plural",
+        "explain": "With אתן the feminine plural: רוצות (rotsót)."
+      },
+      {
+        "prompt": "עומר ___ קפה אחרי שש בערב. (לשתות)",
+        "en": "Omer doesn't drink coffee after six in the evening.",
+        "answer": ["לא שותה"],
+        "hint": "negative: 'not' + masculine singular",
+        "explain": "לא goes straight before the verb: לא שותה (lo shoté). Hebrew needs no helper like English 'does'."
+      },
+      {
+        "prompt": "אנחנו ___ בתל אביב, אנחנו גרים ברמת גן. (לגור)",
+        "en": "We don't live in Tel Aviv; we live in Ramat Gan.",
+        "answer": ["לא גרים"],
+        "hint": "negative, masculine plural (as in the second half)",
+        "explain": "The second half shows the masculine plural גרים, and the negative is לא + verb: לא גרים (lo garím)."
+      }
+    ]
+  },
+  {
+    "id": "g_a1_yesh_ein_shel",
+    "level": "A1",
+    "title": "יש, אין and של",
+    "titleHe": "יש, אין ושל",
+    "summary": "How to say 'there is', 'there isn't', 'I have' and 'my, your, his' — Hebrew does it all without a verb.",
+    "sections": [
+      {
+        "h": "יש and אין: there is, there isn't",
+        "body": "יש (yesh) means 'there is' or 'there are'; אין (ein) means 'there isn't' or 'there aren't'. Neither word ever changes — not for gender, not for number:\n\n• יש חלב במקרר (yesh khaláv ba-mekarér) — There's milk in the fridge.\n• יש שני בנקים ברחוב הזה (yesh shnei bankím ba-rekhóv ha-zé) — There are two banks on this street.\n• אין חנייה ליד המשרד (ein khanayá le-yád ha-misrád) — There's no parking near the office.\n• אין בעיה (ein be'ayá) — No problem.\n\nThe thing that exists comes after יש / אין and is normally indefinite (no ה). In fast speech אין often sounds like en.\n\nיש and אין are for the present. In the past and the future Hebrew uses forms of 'to be' instead (היה, יהיה) — you'll meet those at A2."
+      },
+      {
+        "h": "Having: יש לי, אין לנו",
+        "body": "Hebrew has no verb 'to have'. Instead it says 'there is to me': יש + ל + the owner.\n\n• יש לי אח ושתי אחיות (yesh li akh u-shtéi akhayót) — I have a brother and two sisters.\n• אין לי זמן היום (ein li zman ha-yóm) — I don't have time today.\n• לדנה יש אוטו חדש (le-dána yesh óto khadásh) — Dana has a new car.\n\nWith a pronoun, ל takes an ending: לי, לך, לו… (see the table). With a name or a noun, ל is attached at the front: לדנה יש…, לאבא שלי יש… (le-ába shelí yesh…, my dad has…).\n\nThe word order is flexible: יש לי שאלה and לי יש שאלה both mean 'I have a question'. Putting the owner first (לדנה יש…, לנו אין…) gives the owner a little extra weight, rather like 'As for Dana, she has…'.",
+        "table": [
+          ["Owner", "ל + owner", "Say it", "Example"],
+          ["אני", "לי", "li", "יש לי אח"],
+          ["אתה", "לך", "lekhá", "יש לך זמן?"],
+          ["את", "לך", "lakh", "יש לך מפתח?"],
+          ["הוא", "לו", "lo", "יש לו כלב"],
+          ["היא", "לה", "la", "אין לה אוטו"],
+          ["אנחנו", "לנו", "lánu", "יש לנו פגישה"],
+          ["אתם", "לכם", "lakhém", "יש לכם ילדים?"],
+          ["אתן", "לכן", "lakhén", "יש לכן שאלות?"],
+          ["הם", "להם", "lahém", "יש להם דירה בחיפה"],
+          ["הן", "להן", "lahén", "אין להן חתול"]
+        ]
+      },
+      {
+        "h": "של: of, belonging to",
+        "body": "של (shel) means 'of' or 'belonging to'. The thing owned comes first, then של, then the owner — the reverse of English 'Dana's book':\n\n• הספר של דנה (ha-séfer shel dána) — Dana's book (literally 'the book of Dana')\n• המשרד של החברה (ha-misrád shel ha-khevrá) — the company's office\n• הבית של ההורים שלי (ha-báyit shel ha-horím shelí) — my parents' house\n\nThe owned thing normally takes ה, because it is a specific one: הטלפון שלי (my phone), not ✗ טלפון שלי. Without ה the meaning becomes 'a … of mine': חבר שלי (khavér shelí) is 'a friend of mine'. Careful: with ה, החבר שלי often means 'my boyfriend', and החברה שלי (ha-khaverá shelí) 'my girlfriend' — the same letters, said khevrá, also mean 'company', so context decides.\n\nThe של form can also stand on its own, like English 'mine, yours': זה שלי (ze shelí) — It's mine."
+      },
+      {
+        "h": "שלי, שלך, שלו…: של with endings",
+        "body": "Like ל, של takes personal endings instead of a separate pronoun — the same endings you met on לי, לך, לו.\n\nThe form agrees with the owner, never with the thing owned. This is where English speakers slip, because 'his' and 'her' depend on who owns it, not on the noun:\n\n• הבת שלו (ha-bát sheló) — his daughter (בת is feminine, but the owner is a man)\n• הבן שלה (ha-bén shelá) — her son\n• הילדים שלנו (ha-yeladím shelánu) — our children\n\nNote the two forms for singular 'your': שלך is shelkhá to a man and shelákh to a woman — spelled the same.\n\nIn formal writing you'll also see the owner as an ending on the noun itself (ביתי = my house, ספרו = his book). In everyday Hebrew the של form is the normal one.",
+        "table": [
+          ["Owner", "של + ending", "Say it", "Example"],
+          ["אני", "שלי", "shelí", "הטלפון שלי"],
+          ["אתה", "שלך", "shelkhá", "התיק שלך"],
+          ["את", "שלך", "shelákh", "המפתחות שלך"],
+          ["הוא", "שלו", "sheló", "האוטו שלו"],
+          ["היא", "שלה", "shelá", "המשפחה שלה"],
+          ["אנחנו", "שלנו", "shelánu", "הדירה שלנו"],
+          ["אתם", "שלכם", "shelakhém", "המורה שלכם"],
+          ["אתן", "שלכן", "shelakhén", "הכיתה שלכן"],
+          ["הם", "שלהם", "shelahém", "הילדים שלהם"],
+          ["הן", "שלהן", "shelahén", "הבית שלהן"]
+        ]
+      },
+      {
+        "h": "Questions and short answers",
+        "body": "Questions with יש are made by intonation alone, and the short answers repeat יש or אין:\n\n• יש לך עט? — כן, יש לי. / לא, אין לי. (yesh lekhá et? — ken, yesh li. / lo, ein li.) — Do you have a pen? — Yes, I do. / No, I don't.\n• יש פה שירותים? — כן, בסוף המסדרון. (yesh po sherutím? — ken, be-sóf ha-misdarón.) — Is there a restroom here? — Yes, at the end of the corridor.\n• כמה ילדים יש לכם? — יש לנו שלושה. (káma yeladím yesh lakhém? — yesh lánu shloshá.) — How many children do you have? — We have three.\n\nTo ask who owns something, use של מי (shel mi, 'whose', literally 'of whom') and answer with the right form of של:\n\n• של מי המפתחות האלה? — שלי! (shel mi ha-mafteakhót ha-éle? — shelí!) — Whose keys are these? — Mine!\n\nUseful fixed phrases: יש לי שאלה (I have a question), אין לי מושג (I have no idea), אין בעיה (no problem), אין דבר (never mind, it's nothing), אין מה לעשות (there's nothing to be done)."
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "___ חלב במקרר? — כן, יש.",
+        "en": "Is there milk in the fridge? — Yes, there is.",
+        "answer": ["יש"],
+        "hint": "there is",
+        "explain": "יש = there is / there are. A question needs no change in word order, and the short answer repeats יש."
+      },
+      {
+        "prompt": "___ חנייה ליד המשרד, אז אני בא באוטובוס.",
+        "en": "There's no parking near the office, so I come by bus.",
+        "answer": ["אין"],
+        "hint": "there isn't",
+        "explain": "אין = there isn't / there aren't. Like יש, it never changes."
+      },
+      {
+        "prompt": "יש ___ אח ושתי אחיות. (אני)",
+        "en": "I have a brother and two sisters.",
+        "answer": ["לי"],
+        "hint": "ל + אני",
+        "explain": "Having is יש + ל + the owner. ל + אני = לי (li)."
+      },
+      {
+        "prompt": "מיכל, יש ___ זמן לקפה? (את)",
+        "en": "Michal, do you have time for a coffee?",
+        "answer": ["לך"],
+        "hint": "ל + את",
+        "explain": "ל + את = לך, said lakh. To a man it is spelled the same but said lekhá."
+      },
+      {
+        "prompt": "לסמיר אין אוטו, אבל יש ___ אופניים. (הוא)",
+        "en": "Samir doesn't have a car, but he has a bicycle.",
+        "answer": ["לו"],
+        "hint": "ל + הוא",
+        "explain": "ל + הוא = לו (lo): יש לו = he has."
+      },
+      {
+        "prompt": "יש ___ פגישה עם הלקוח בעשר. (אנחנו)",
+        "en": "We have a meeting with the client at ten.",
+        "answer": ["לנו"],
+        "hint": "ל + אנחנו",
+        "explain": "ל + אנחנו = לנו (lánu): יש לנו = we have."
+      },
+      {
+        "prompt": "כמה ילדים יש ___? (אתם)",
+        "en": "How many children do you have?",
+        "answer": ["לכם"],
+        "hint": "ל + אתם",
+        "explain": "ל + אתם = לכם (lakhém)."
+      },
+      {
+        "prompt": "___ לי מושג איפה המפתחות.",
+        "en": "I have no idea where the keys are.",
+        "answer": ["אין"],
+        "hint": "'not having' — a fixed phrase",
+        "explain": "אין לי מושג = I have no idea (literally 'there is no idea to me'). Not having is אין + ל."
+      },
+      {
+        "prompt": "זה הטלפון ___. (אני)",
+        "en": "This is my phone.",
+        "answer": ["שלי"],
+        "hint": "של + אני",
+        "explain": "של + אני = שלי (shelí). The thing owned comes first, with ה: הטלפון שלי."
+      },
+      {
+        "prompt": "דנה, זה התיק ___? (את)",
+        "en": "Dana, is this your bag?",
+        "answer": ["שלך"],
+        "hint": "של + את",
+        "explain": "של + את = שלך, said shelákh to a woman (shelkhá to a man)."
+      },
+      {
+        "prompt": "יוסף גר בנתניה עם המשפחה ___. (הוא)",
+        "en": "Yosef lives in Netanya with his family.",
+        "answer": ["שלו"],
+        "hint": "של + הוא",
+        "explain": "Yosef is the owner: של + הוא = שלו (sheló)."
+      },
+      {
+        "prompt": "טיגיסט אוהבת את העבודה ___. (היא)",
+        "en": "Tigist loves her job.",
+        "answer": ["שלה"],
+        "hint": "של + היא",
+        "explain": "Tigist is the owner: של + היא = שלה (shelá)."
+      },
+      {
+        "prompt": "הדירה ___ קטנה, אבל יש לנו מרפסת גדולה. (אנחנו)",
+        "en": "Our apartment is small, but we have a big balcony.",
+        "answer": ["שלנו"],
+        "hint": "של + אנחנו",
+        "explain": "של + אנחנו = שלנו (shelánu). Note the two structures side by side: הדירה שלנו (our apartment) and יש לנו (we have)."
+      },
+      {
+        "prompt": "אבי והבת ___ באים מחר לארוחת ערב.",
+        "en": "Avi and his daughter are coming to dinner tomorrow.",
+        "answer": ["שלו"],
+        "hint": "'his' — think about who the owner is",
+        "explain": "בת is feminine, but the form of של agrees with the owner, Avi: שלו. (הבת שלה would mean 'her daughter'.)"
+      },
+      {
+        "prompt": "___ מי המפתחות האלה? — שלי.",
+        "en": "Whose keys are these? — Mine.",
+        "answer": ["של"],
+        "hint": "'whose' = 'of whom'",
+        "explain": "'Whose' is של מי, literally 'of whom'. The answer uses the matching form: שלי."
+      },
+      {
+        "prompt": "לאולגה ולאנה יש חנות פרחים. החנות ___ ליד התחנה המרכזית. (הן)",
+        "en": "Olga and Anna have a flower shop. Their shop is next to the central bus station.",
+        "answer": ["שלהן"],
+        "hint": "של + הן",
+        "explain": "Two women own the shop: של + הן = שלהן (shelahén). The sentence 'X is next to Y' needs no word for 'is'."
+      }
+    ]
+  },
+  {
+    "id": "g_a1_prep_article",
+    "level": "A1",
+    "title": "ב, ל, מ and the article",
+    "titleHe": "ב, ל, מ וה״א הידיעה",
+    "summary": "The one-letter words for 'the', 'in', 'to' and 'from', how they join the next word and swallow ה, and how to say where things are: ליד, מול, בין, ימינה, שמאלה.",
+    "sections": [
+      {
+        "h": "ה: the only article",
+        "body": "Hebrew has one article, ה (ha-), meaning 'the'. It is written as part of the next word and never changes for gender or number. There is no word for 'a' — a noun without ה is simply indefinite:\n\n• בית (báyit) — a house; הבית (ha-báyit) — the house\n• עבודה (avodá) — a job, work; העבודה (ha-avodá) — the job\n• ילדים (yeladím) — children; הילדים (ha-yeladím) — the children\n\nNames of people, cities and countries are definite already and take no ה: דנה, חיפה, ישראל.\n\nHebrew sometimes uses ה where English has none: החיים יפים (ha-khayím yafím) — life is beautiful; העברית שלי (ha-ivrít shelí) — my Hebrew. And an adjective after a definite noun takes ה too: הבית הגדול (ha-báyit ha-gadól) — the big house."
+      },
+      {
+        "h": "ב, ל, מ: in, to, from",
+        "body": "Three of the most common prepositions are single letters, written joined to the next word:\n\n• ב (be-) — in, at; also 'on' a day and 'by' a means of transport: בתל אביב (be-tel avív, in Tel Aviv), ביום ראשון (be-yom rishón, on Sunday), במונית (be-monít, by taxi)\n• ל (le-) — to, for: לאילת (le-eilát, to Eilat), לדנה (le-dána, to / for Dana)\n• מ (mi-) — from: מנתניה (mi-netánya, from Netanya), מברלין (mi-berlín, from Berlin)\n\nThe vowel shifts with the sounds around it, but the spelling doesn't. Before two consonants in a row, ב and ל are said bi-, li-: בשמונה (bi-shmoné, at eight). Before the gutturals א, ה, ח, ע and also ר, מ is said me-: מחיפה (me-khéifa), מעכו (me-akó), מרחובות (me-rekhovót).\n\nThere is never a space after these letters: ✗ ב תל אביב, ✓ בתל אביב."
+      },
+      {
+        "h": "ב and ל swallow the ה; מ doesn't",
+        "body": "When ב or ל comes before a word with the article, the ה disappears from writing and its a-sound moves onto the preposition:\n\n• ב + הבית → בבית (ba-báyit) — at home, in the house\n• ב + המשרד → במשרד (ba-misrád) — at the office\n• ל + העבודה → לעבודה (la-avodá) — to work\n• ל + הבית → לבית (la-báyit) — to the house: אני בא לבית של דנה (I'm coming to Dana's house)\n\nSo in writing במשרד can mean 'in an office' (be-misrád) or 'in the office' (ba-misrád): you only hear the difference, or work it out from context. It is never ✗ בהמשרד or ✗ להעבודה.\n\nמ behaves differently: it keeps the ה, so 'from the …' is מה- (me-ha-):\n\n• מ + הבית → מהבית (me-ha-báyit) — from home\n• מ + העבודה → מהעבודה (me-ha-avodá) — from work\n\nIn formal Hebrew you may also see מן (min) as a separate word: מן הבית.",
+        "table": [
+          ["", "No ה (a …)", "Say it", "With ה (the …)", "Say it"],
+          ["ב + בית", "בבית — in a house", "be-váyit", "בבית — at home, in the house", "ba-báyit"],
+          ["ל + חנות", "לחנות — to a shop", "le-khanút", "לחנות — to the shop", "la-khanút"],
+          ["מ + משרד", "ממשרד — from an office", "mi-misrád", "מהמשרד — from the office", "me-ha-misrád"]
+        ]
+      },
+      {
+        "h": "ל for direction and for people, ב for location",
+        "body": "ל marks where you are going, ב where you are:\n\n• אני בירושלים (aní bi-yerushaláyim) — I'm in Jerusalem.\n• אני נוסעת לירושלים (aní nosá'at li-yerushaláyim) — I'm going to Jerusalem.\n\nThe same split shows up in the question words איפה (éifo, where — location), לאן (le'án, where to) and מאיפה (me-éifo, where from):\n\n• איפה אתה גר? — בחולון. — Where do you live? — In Holon.\n• לאן את נוסעת? — לים. — Where are you going? — To the beach.\n• מאיפה אתם? — מצרפת. — Where are you from? — From France.\n\nל also means 'to' or 'for' a person: אני כותב למנהלת (aní kotév la-menahélet) — I'm writing to the manager; המתנה הזאת לאמא (ha-mataná ha-zót le-íma) — this present is for Mom.\n\nOne exception to learn now: 'home' as a destination is הביתה (ha-báyta), not ✗ לבית: אני הולך הביתה (I'm going home). Other directions can take the same ending -ה: ימינה (yamína, to the right), שמאלה (smóla, to the left), צפונה (tsafóna, northward)."
+      },
+      {
+        "h": "Where is it? ליד, מול, בין, ימינה, שמאלה",
+        "body": "These words describe position. They come before the noun, and a sentence like 'the bank is next to the post office' needs no verb 'is':\n\n• הבנק ליד הדואר (ha-bank le-yád ha-dóar) — The bank is next to the post office.\n• אני גרה על יד הים (aní gára al yád ha-yám) — I live by the sea. על יד means the same as ליד.\n• בית הקפה מול התחנה (beit ha-kafé mul ha-takhaná) — The café is opposite the station.\n• החנייה בין הבניין לגינה (ha-khanayá bein ha-binyán la-giná) — The parking lot is between the building and the garden. Note the pattern: בין X ל-Y (or בין X ובין Y).\n\nFor directions, ימינה (yamína) and שמאלה (smóla) mean 'to the right / to the left': they go with movement. For position use מימין (mi-yamín, on the right) and משמאל (mi-smól, on the left):\n\n• ברמזור פונים שמאלה (ba-ramzór poním smóla) — At the traffic lights, you turn left.\n• הכניסה משמאל (ha-knisá mi-smól) — The entrance is on the left.",
+        "table": [
+          ["Word", "Say it", "Meaning", "Example"],
+          ["ליד", "le-yád", "next to, near", "הבנק ליד הדואר"],
+          ["על יד", "al yád", "next to, by", "אני גרה על יד הים"],
+          ["מול", "mul", "opposite, facing", "בית הקפה מול התחנה"],
+          ["בין", "bein", "between", "בין הבנק לסופר"],
+          ["על", "al", "on", "המפתחות על השולחן"],
+          ["מימין / משמאל", "mi-yamín / mi-smól", "on the right / on the left", "הכניסה משמאל"],
+          ["ימינה / שמאלה", "yamína / smóla", "to the right / to the left", "ברמזור פונים ימינה"]
+        ]
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "סליחה, איפה ___ הקרוב? (בנק)",
+        "en": "Excuse me, where's the nearest bank?",
+        "answer": ["הבנק"],
+        "hint": "definite: add 'the'",
+        "explain": "'The nearest bank' is definite: ה + בנק = הבנק (ha-bank). The adjective after it takes ה too: הקרוב."
+      },
+      {
+        "prompt": "נור גרה ___. (ב + חיפה)",
+        "en": "Nour lives in Haifa.",
+        "answer": ["בחיפה"],
+        "hint": "in + Haifa, one word",
+        "explain": "ב is joined to the word: בחיפה (be-khéifa). A city name is already definite, so there is no ה to swallow."
+      },
+      {
+        "prompt": "בעוד שבוע אנחנו טסים ___. (ל + אילת)",
+        "en": "In a week we're flying to Eilat.",
+        "answer": ["לאילת"],
+        "hint": "to + Eilat, one word",
+        "explain": "ל = to, written joined to the word: לאילת (le-eilát)."
+      },
+      {
+        "prompt": "מאיפה את? — אני ___. (מ + נתניה)",
+        "en": "Where are you from? — I'm from Netanya.",
+        "answer": ["מנתניה"],
+        "hint": "from + Netanya, one word",
+        "explain": "מ = from: מנתניה (mi-netánya)."
+      },
+      {
+        "prompt": "אבא שלי עובד ___. (ב + הבנק)",
+        "en": "My father works at the bank.",
+        "answer": ["בבנק"],
+        "hint": "ב + ה merge",
+        "explain": "ב + הבנק → בבנק (ba-bank): the ה disappears and its a moves to the ב. Never ✗ בהבנק."
+      },
+      {
+        "prompt": "אני נוסע ___ באוטובוס. (ל + העבודה)",
+        "en": "I go to work by bus.",
+        "answer": ["לעבודה"],
+        "hint": "ל + ה merge",
+        "explain": "ל + העבודה → לעבודה (la-avodá): the ה is swallowed, just as with ב."
+      },
+      {
+        "prompt": "דימה חוזר ___ בשש. (מ + העבודה)",
+        "en": "Dima gets back from work at six.",
+        "answer": ["מהעבודה"],
+        "hint": "מ + ה: does it merge?",
+        "explain": "מ does not swallow the article: מהעבודה (me-ha-avodá)."
+      },
+      {
+        "prompt": "אני כותבת מייל ___. (ל + המנהל)",
+        "en": "I'm writing an email to the manager.",
+        "answer": ["למנהל"],
+        "hint": "to + the manager, one word",
+        "explain": "ל for a person, merged with ה: למנהל (la-menahél)."
+      },
+      {
+        "prompt": "הסופר ___ הבנק.",
+        "en": "The supermarket is next to the bank.",
+        "answer": ["ליד", "על יד"],
+        "hint": "next to",
+        "explain": "ליד (le-yád) and על יד (al yád) both mean 'next to'. No verb 'is' is needed."
+      },
+      {
+        "prompt": "בית הקפה ___ התחנה, בצד השני של הרחוב.",
+        "en": "The café is opposite the station, on the other side of the street.",
+        "answer": ["מול"],
+        "hint": "opposite",
+        "explain": "מול (mul) = opposite, facing."
+      },
+      {
+        "prompt": "המשרד שלנו ___ הבנק לדואר.",
+        "en": "Our office is between the bank and the post office.",
+        "answer": ["בין"],
+        "hint": "between",
+        "explain": "בין X ל-Y = between X and Y: בין הבנק לדואר (bein ha-bank la-dóar)."
+      },
+      {
+        "prompt": "מוחמד, ___ אתה נוסע בחופש? — לאילת.",
+        "en": "Mohammed, where are you going on vacation? — To Eilat.",
+        "answer": ["לאן"],
+        "hint": "'where to' — direction",
+        "explain": "The answer is a destination (לאילת), so the question word is לאן (le'án), not איפה. You'll hear לאיפה in casual speech, but לאן is the correct form."
+      },
+      {
+        "prompt": "ברמזור פונים ___ ואז נוסעים ישר.",
+        "en": "At the traffic lights you turn right and then drive straight on.",
+        "answer": ["ימינה"],
+        "hint": "to the right (movement)",
+        "explain": "Direction after a verb of movement takes the -ה ending: ימינה (yamína)."
+      },
+      {
+        "prompt": "השירותים ___, בסוף המסדרון.",
+        "en": "The restrooms are on the left, at the end of the corridor.",
+        "answer": ["משמאל", "בצד שמאל", "מצד שמאל"],
+        "hint": "on the left (position, not movement)",
+        "explain": "Position takes מ-: משמאל (mi-smól), or בצד שמאל (on the left side). שמאלה is for movement: פונים שמאלה."
+      },
+      {
+        "prompt": "אני עייפה, אני הולכת ___.",
+        "en": "I'm tired; I'm going home.",
+        "answer": ["הביתה"],
+        "hint": "home (as a destination), one word",
+        "explain": "'Home' as a destination is הביתה (ha-báyta), not ✗ לבית."
+      }
+    ]
+  }
+]

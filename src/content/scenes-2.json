@@ -192,6 +192,32 @@
         ]
       }
     ],
+    "tf": [
+      {
+        "s": "אבי מוכן לתת הנחה בלי שום תנאי.",
+        "sEn": "Avi is willing to give a discount with no strings attached.",
+        "a": false,
+        "why": "At first he says אין לי לאן לרדת, 'I have no room to go lower'. He offers ten percent off only after Michal suggests ordering two thousand boxes instead of a thousand."
+      },
+      {
+        "s": "קו הייצור של אבי מלא עד אמצע החודש הבא.",
+        "sEn": "Avi's production line is full until the middle of next month.",
+        "a": true,
+        "why": "Avi says קו הייצור שלנו מלא עד אמצע החודש הבא, which is why the end of the month is tight for him."
+      },
+      {
+        "s": "מיכל רוצה שתאריכי המשלוחים ייכתבו בהסכם.",
+        "sEn": "Michal wants the delivery dates written into the agreement.",
+        "a": true,
+        "why": "She says אני צריכה את התאריכים האלה בכתב, בתוך ההסכם, 'I need these dates in writing, in the agreement'."
+      },
+      {
+        "s": "בסוף הם סוגרים על שוטף פלוס שישים.",
+        "sEn": "In the end they settle on net sixty.",
+        "a": false,
+        "why": "Michal hoped for net sixty, but Avi answers בואי לא נגזים, and they close the deal on שוטף פלוס שלושים, net thirty."
+      }
+    ],
     "dictation": [
       4,
       13,
@@ -433,6 +459,32 @@
             "תואר"
           ]
         ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "אחרי שגלית עזבה, הלקוחות הגדולים עברו לתומר.",
+        "sEn": "After Galit left, the big clients were passed to Tomer.",
+        "a": true,
+        "why": "Orna confirms it: מאז שגלית עזבה, אתה מנהל את כל הלקוחות הגדולים, 'since Galit left, you've been managing all the big clients'."
+      },
+      {
+        "s": "אורנה מבטיחה לתומר העלאה של חמישה עשר אחוז.",
+        "sEn": "Orna promises Tomer a fifteen percent raise.",
+        "a": false,
+        "why": "She says חמישה עשר אני לא יכולה להבטיח, 'fifteen I can't promise'. She only promises to fight for him with management."
+      },
+      {
+        "s": "תומר רוצה לעזוב ולעבור לחברה האחרת.",
+        "sEn": "Tomer wants to leave and move to the other company.",
+        "a": false,
+        "why": "He says אני לא רוצה לעזוב. טוב לי פה. He just needs to feel that he is appreciated."
+      },
+      {
+        "s": "תומר צריך לענות לחברה האחרת עד יום ראשון.",
+        "sEn": "Tomer has to give the other company an answer by Sunday.",
+        "a": true,
+        "why": "He says אני צריך לתת להם תשובה עד יום ראשון, so he asks Orna for her answer by the end of the week."
       }
     ],
     "dictation": [
@@ -681,6 +733,32 @@
         ]
       }
     ],
+    "tf": [
+      {
+        "s": "יואב חושב שעצמאי מתחיל יכול להסתדר בלי רואה חשבון.",
+        "sEn": "Yoav thinks a beginner freelancer can manage without an accountant.",
+        "a": false,
+        "why": "Yoav says the opposite: find a good accountant from day one, because זה לא מותרות, זה חובה, 'it's not a luxury, it's a must'."
+      },
+      {
+        "s": "פעם יואב חיכה ארבעה חודשים לתשלום מלקוח.",
+        "sEn": "Yoav once waited four months for a payment from a client.",
+        "a": true,
+        "why": "When Maya says that clients don't always pay on time, he answers פעם חיכיתי ארבעה חודשים לתשלום אחד."
+      },
+      {
+        "s": "מאיה ממליצה לעבוד בחינם בהתחלה, כדי לקבל חשיפה.",
+        "sEn": "Maya recommends working for free at the beginning, to get exposure.",
+        "a": false,
+        "why": "She calls it a mistake: מי שעובד בחינם בשביל חשיפה, מקבל עוד עבודה בחינם, 'whoever works for free for exposure just gets more free work'."
+      },
+      {
+        "s": "לפי מאיה, הרבה מתחילים מרגישים עשירים אחרי התשלום הראשון.",
+        "sEn": "According to Maya, many beginners feel rich after their first payment.",
+        "a": true,
+        "why": "She says מקבלים את התשלום הראשון, ומרגישים מיליונרים, 'you get your first payment and feel like a millionaire', until income tax and National Insurance show up."
+      }
+    ],
     "dictation": [
       10,
       12,
@@ -917,6 +995,32 @@
             "מתנה"
           ]
         ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "אסף מרגיש רגוע לגמרי באולפן.",
+        "sEn": "Asaf feels completely relaxed in the studio.",
+        "a": false,
+        "why": "He says אני קצת לחוץ, 'I'm a bit nervous', because it's his first time on TV."
+      },
+      {
+        "s": "לפני שפתח את המסעדה שלו, אסף עבד שנה במטבח של מסעדה בתל אביב.",
+        "sEn": "Before he opened his restaurant, Asaf worked for a year in a restaurant kitchen in Tel Aviv.",
+        "a": true,
+        "why": "He didn't just quit high-tech: קודם למדתי בישול, ועבדתי שנה במטבח של מסעדה בתל אביב."
+      },
+      {
+        "s": "אסף שינה קצת את המתכון של סבתא שלו לקובה סלק.",
+        "sEn": "Asaf changed his grandmother's recipe for beet kubbeh soup a little.",
+        "a": false,
+        "why": "The other dishes are light, modern versions, but the kubbeh soup is בדיוק המתכון של סבתא, בלי שום שינוי, 'exactly grandma's recipe, without a single change'."
+      },
+      {
+        "s": "מי שיגיע למסעדה ויגיד שראה את אסף בתוכנית, יקבל קינוח מתנה.",
+        "sEn": "Anyone who comes to the restaurant and says they saw Asaf on the show will get a free dessert.",
+        "a": true,
+        "why": "That is his offer at the very end: מי שמגיע ואומר שראה אותי פה, מקבל קינוח מתנה."
       }
     ],
     "dictation": [
@@ -1169,6 +1273,32 @@
         ]
       }
     ],
+    "tf": [
+      {
+        "s": "התקציב למסיבה הוא אלף שקל.",
+        "sEn": "The party budget is a thousand shekels.",
+        "a": false,
+        "why": "It's only חמש מאות שקל, five hundred shekels, for forty employees. Shira had guessed 'less than a thousand'."
+      },
+      {
+        "s": "לשמוליק מהמחשוב יש רמקול ופלייליסט של שנות התשעים.",
+        "sEn": "Shmulik from IT has a speaker and a nineties playlist.",
+        "a": true,
+        "why": "Nir says Shmulik told him he has a speaker and a nineties playlist, so the music is taken care of."
+      },
+      {
+        "s": "המסיבה תהיה ביום חמישי אחרי הצהריים.",
+        "sEn": "The party will be on Thursday afternoon.",
+        "a": true,
+        "why": "Shira sums up: יום חמישי אחרי הצהריים, על הגג, וכל אחד מביא מנה."
+      },
+      {
+        "s": "לשירה ולניר יש תוכנית גיבוי למקרה שירד גשם.",
+        "sEn": "Shira and Nir have a backup plan in case it rains.",
+        "a": false,
+        "why": "When Nir asks about rain, Shira says אין לנו תקציב לתוכנית גיבוי, 'we have no budget for a backup plan', so he'll just have to pray."
+      }
+    ],
     "dictation": [
       2,
       12,
@@ -1410,6 +1540,32 @@
             "משכורת"
           ]
         ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "מדד המחירים לצרכן עלה פחות מכפי שציפו הכלכלנים.",
+        "sEn": "The consumer price index rose less than economists had expected.",
+        "a": false,
+        "why": "The anchor says it rose יותר ממה שציפו הכלכלנים, 'more than economists expected'."
+      },
+      {
+        "s": "לפי דנה, העלייה נבעה בעיקר מהמזון, משכר הדירה ומהטיסות לחוץ לארץ.",
+        "sEn": "According to Dana, the rise came mainly from food, rent and flights abroad.",
+        "a": true,
+        "why": "She names exactly these three areas: מזון, שכר דירה וטיסות לחוץ לארץ."
+      },
+      {
+        "s": "כל הכלכלנים מסכימים שיש להעלות את הריבית כבר עכשיו.",
+        "sEn": "All economists agree that interest rates should be raised right now.",
+        "a": false,
+        "why": "Dana says הכלכלנים חלוקים, 'economists are divided': some want to curb inflation now, others warn that a hike would hurt families with a mortgage."
+      },
+      {
+        "s": "דנה צופה שסל הקניות ימשיך להתייקר, לפחות בטווח הקצר.",
+        "sEn": "Dana expects the shopping basket to keep getting more expensive, at least in the short term.",
+        "a": true,
+        "why": "Asked for the bottom line, she says סל הקניות כנראה ימשיך להתייקר, לפחות בטווח הקצר."
       }
     ],
     "dictation": [
@@ -1664,6 +1820,32 @@
         ]
       }
     ],
+    "tf": [
+      {
+        "s": "אבנר מכחיש שיש בעיה עם האוטובוסים בעיר.",
+        "sEn": "Avner denies that there is a problem with the city's buses.",
+        "a": false,
+        "why": "He says אני לא מתווכח עם זה, 'I'm not arguing with that', and explains that the city has added three new lines and more evening buses."
+      },
+      {
+        "s": "תושבי המרכז שיש להם תו חנייה לא יצטרכו לשלם על חנייה ליד הבית.",
+        "sEn": "Center residents who have a parking permit won't have to pay to park near home.",
+        "a": true,
+        "why": "Avner says תושבים עם תו חנייה ימשיכו לחנות בחינם, כמו היום."
+      },
+      {
+        "s": "השאטל מהחניון הזמני ייצא כל חצי שעה.",
+        "sEn": "The shuttle from the temporary parking lot will leave every half hour.",
+        "a": false,
+        "why": "It will run כל עשר דקות, every ten minutes, from the lot near the stadium. Half an hour is how long drivers now spend looking for parking."
+      },
+      {
+        "s": "אילנה מתכוונת להזמין את אבנר שוב לתוכנית בעוד חצי שנה.",
+        "sEn": "Ilana intends to invite Avner back on the show in six months.",
+        "a": true,
+        "why": "She ends with אז נזמין אותך שוב בעוד חצי שנה, the point when Avner promised to check the data."
+      }
+    ],
     "dictation": [
       1,
       5,
@@ -1911,6 +2093,32 @@
         ]
       }
     ],
+    "tf": [
+      {
+        "s": "עידו מעדיף להגיע ראשון לשוק, גם עם מוצר שיש בו תקלות.",
+        "sEn": "Ido would rather reach the market first, even with a product that has faults.",
+        "a": false,
+        "why": "He says the opposite: עדיף להגיע למקום השני עם מוצר שעובד, מאשר לראשון עם מוצר תקול."
+      },
+      {
+        "s": "עידו הוא זה שביקש את הישיבה.",
+        "sEn": "Ido is the one who asked for the meeting.",
+        "a": true,
+        "why": "Orit opens with עידו, אתה ביקשת את הישיבה הזאת. הבמה שלך."
+      },
+      {
+        "s": "אורית מחליטה לבטל את האירוע לעיתונאים.",
+        "sEn": "Orit decides to cancel the press event.",
+        "a": false,
+        "why": "She says האירוע נשאר בתאריך שלו, 'the event stays on its date'. Only the launch itself is scaled down to a limited one with a waiting list."
+      },
+      {
+        "s": "הילה מגיבה בחיוב לרעיון של רשימת המתנה.",
+        "sEn": "Hila reacts positively to the idea of a waiting list.",
+        "a": true,
+        "why": "She says it could actually create buzz, and adds אני יכולה לעבוד עם זה, 'I can work with that'."
+      }
+    ],
     "dictation": [
       1,
       10,
@@ -2155,6 +2363,32 @@
             "שינויים"
           ]
         ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "דפנה ממליצה לזוג לוותר על הדירה.",
+        "sEn": "Dafna advises the couple to give up on the apartment.",
+        "a": false,
+        "why": "She says explicitly אני לא אומרת לוותר על הדירה. אני אומרת לא לחתום על החוזה הזה."
+      },
+      {
+        "s": "אלעד חשש עוד לפני הפגישה שהם ממהרים מדי.",
+        "sEn": "Even before the meeting, Elad was worried that they were rushing.",
+        "a": true,
+        "why": "He reminds Liat: אמרתי לך שאנחנו ממהרים מדי, 'I told you we were rushing'."
+      },
+      {
+        "s": "ליאת ואלעד חיפשו דירה במשך שנה וחצי.",
+        "sEn": "Liat and Elad spent a year and a half looking for an apartment.",
+        "a": true,
+        "why": "Liat says חיפשנו שנה וחצי, which is why she is afraid of losing this apartment."
+      },
+      {
+        "s": "ליאת מסכימה לתוכנית של דפנה בלי שום היסוס.",
+        "sEn": "Liat agrees to Dafna's plan without any hesitation.",
+        "a": false,
+        "why": "She agrees בלב כבד, 'with a heavy heart', and asks Dafna to act fast."
       }
     ],
     "dictation": [

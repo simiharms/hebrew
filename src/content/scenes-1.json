@@ -184,6 +184,32 @@
         ]
       }
     ],
+    "tf": [
+      {
+        "s": "איתי אומר שהוא קנה חלב אתמול.",
+        "sEn": "Itay says he bought milk yesterday.",
+        "a": true,
+        "why": "He protests מה זה אין? קניתי אתמול, 'what do you mean, none? I bought some yesterday'."
+      },
+      {
+        "s": "איתי שותה קפה עם חלב.",
+        "sEn": "Itay drinks coffee with milk.",
+        "a": false,
+        "why": "He says אני בכלל שותה קפה שחור, 'I drink black coffee anyway', so the milk wasn't for him."
+      },
+      {
+        "s": "לנועה ולאיתי עוד אין טבלה של מי עושה מה בבית.",
+        "sEn": "Noa and Itay don't have a chart yet of who does what at home.",
+        "a": false,
+        "why": "When Itay suggests making one, Noa protests עוד טבלה? יש לנו כבר שלוש טבלאות!, 'another chart? We already have three charts!'"
+      },
+      {
+        "s": "שירה מסכימה בלי בעיה לקנות חלב.",
+        "sEn": "Shira agrees to buy milk without any fuss.",
+        "a": true,
+        "why": "When Noa tells her היום את קונה חלב, she answers סבבה, בקטנה, 'sure, no big deal', and says she'll buy some on the way home."
+      }
+    ],
     "dictation": [
       5,
       11,
@@ -394,6 +420,32 @@
         ]
       }
     ],
+    "tf": [
+      {
+        "s": "יוסי רשום אצל דוקטור רוזן.",
+        "sEn": "Yossi is registered with Dr. Rosen.",
+        "a": true,
+        "why": "Shiran asks אתה רשום אצל דוקטור רוזן, נכון? and Yossi answers נכון."
+      },
+      {
+        "s": "ליוסי יש חום כבר שבוע.",
+        "sEn": "Yossi has had a fever for a week.",
+        "a": false,
+        "why": "He says יש לי חום מאתמול, 'I've had a fever since yesterday'. The two weeks are the wait for the first free appointment."
+      },
+      {
+        "s": "התור של היום הוא אצל דוקטור רוזן.",
+        "sEn": "Today's appointment is with Dr. Rosen.",
+        "a": false,
+        "why": "Shiran finds a slot אצל רופאה אחרת, 'with a different doctor', at another clinic, on Herzl Street."
+      },
+      {
+        "s": "המרפאה ברחוב הרצל לא רחוקה מיוסי.",
+        "sEn": "The clinic on Herzl Street isn't far from Yossi.",
+        "a": true,
+        "why": "Shiran tells him it is עשר דקות ממך, 'ten minutes from you'."
+      }
+    ],
     "dictation": [
       1,
       5,
@@ -595,6 +647,32 @@
             "כדור"
           ]
         ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "שמעון מציע למאיה לאפה במקום פיתה.",
+        "sEn": "Shimon suggests a laffa to Maya instead of a pita.",
+        "a": true,
+        "why": "He asks פיתה? למה לא לאפה? זה יותר גדול!, 'why not a laffa? It's bigger!', but Maya says a pita is enough."
+      },
+      {
+        "s": "מאיה אוהבת חמוצים.",
+        "sEn": "Maya likes pickles.",
+        "a": false,
+        "why": "She orders her falafel בלי חמוצים, and when Shimon asks whether she doesn't like them, she answers לא ממש, 'not really'."
+      },
+      {
+        "s": "מאיה גרה בשכונה כבר הרבה שנים.",
+        "sEn": "Maya has lived in the neighborhood for many years.",
+        "a": false,
+        "why": "She is new there: עברתי לפה לפני חודש, 'I moved here a month ago'."
+      },
+      {
+        "s": "בסוף מאיה משלמת על הפלאפל.",
+        "sEn": "In the end Maya pays for the falafel.",
+        "a": true,
+        "why": "Shimon's היום זה עליי, 'today it's on me', was a joke, and he takes it back with סתם, סתם! All she gets for free is an extra falafel ball."
       }
     ],
     "dictation": [
@@ -823,6 +901,32 @@
             "תגית"
           ]
         ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "מיכל מהשיווק יושבת ליד החלון.",
+        "sEn": "Michal from marketing sits by the window.",
+        "a": false,
+        "why": "Michal from marketing is the one talking to Daniel. The Michal by the window is the other one, מיכל מהכספים, from finance."
+      },
+      {
+        "s": "דני שמע את השם של העובד החדש.",
+        "sEn": "Danny heard the new employee's name.",
+        "a": false,
+        "why": "He says סליחה, לא שמעתי. איך קוראים לך?, 'sorry, I didn't catch that. What's your name?'"
+      },
+      {
+        "s": "דניאל מסכים שיקראו לו דניאל.",
+        "sEn": "Daniel agrees to be called Daniel.",
+        "a": true,
+        "why": "He answers סבבה, בקטנה. דניאל זה גם בסדר, 'sure, no big deal. Daniel's fine too'."
+      },
+      {
+        "s": "גם רונית מתבלבלת בין דני לדניאל.",
+        "sEn": "Ronit also mixes up Danny and Daniel.",
+        "a": true,
+        "why": "Right after setting the rule, she says to Daniel דני, בוא, אני מראה לך את השולחן שלך, and the real Danny thinks she means him."
       }
     ],
     "dictation": [
@@ -1054,6 +1158,32 @@
             "מהר"
           ]
         ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "תמר כבר סיימה את דף ההרשמה.",
+        "sEn": "Tamar has already finished the sign-up page.",
+        "a": true,
+        "why": "She reports סיימתי את דף ההרשמה, והוא כבר בבדיקות, 'I finished the sign-up page, and it's already in testing'."
+      },
+      {
+        "s": "מסך התשלומים יהיה מוכן ביום רביעי, כמו שתכננו.",
+        "sEn": "The payments screen will be ready on Wednesday, as planned.",
+        "a": false,
+        "why": "Omer announces a delay: זה לא יהיה מוכן ביום רביעי, 'it won't be ready on Wednesday'."
+      },
+      {
+        "s": "לגלית מספיק לשמוע שזה יהיה מוכן אולי ביום ראשון.",
+        "sEn": "For Galit, hearing that it might be ready on Sunday is good enough.",
+        "a": false,
+        "why": "She objects: אולי? אני צריכה תאריך, עומר. הלקוח מחכה, 'maybe? I need a date, Omer. The client is waiting'."
+      },
+      {
+        "s": "תמר מציעה לתת לעומר זמן עד יום שלישי.",
+        "sEn": "Tamar suggests giving Omer until Tuesday.",
+        "a": true,
+        "why": "It is Tamar who says בואי ניתן לו עד יום שלישי. עם באפר, and Omer agrees that Tuesday is realistic."
       }
     ],
     "dictation": [
@@ -1298,6 +1428,32 @@
         ]
       }
     ],
+    "tf": [
+      {
+        "s": "בתפריט הקולי, לתמיכה טכנית מקישים תשע.",
+        "sEn": "In the phone menu, you press nine for technical support.",
+        "a": false,
+        "why": "Technical support is two: לתמיכה טכנית, הקש שתיים. Nine is for cancelling the service, לניתוק השירות."
+      },
+      {
+        "s": "אבי צריך את האינטרנט לעבודה, כי הוא עובד מהבית.",
+        "sEn": "Avi needs the internet for his job, because he works from home.",
+        "a": true,
+        "why": "He tells Moran אני עובד מהבית. אני לא יכול ככה, 'I work from home. I can't go on like this'."
+      },
+      {
+        "s": "הבעיה היא בראוטר של אבי.",
+        "sEn": "The problem is in Avi's router.",
+        "a": false,
+        "why": "Moran finds תקלה באזור שלך, an outage in his area. She only asked about the router because זה הנוהל, it's the procedure."
+      },
+      {
+        "s": "מורן לא בטוחה לגמרי שהאינטרנט יחזור עד מחר בבוקר.",
+        "sEn": "Moran isn't completely sure that the internet will be back by tomorrow morning.",
+        "a": true,
+        "why": "She says עד מחר בבוקר, אני מקווה, 'by tomorrow morning, I hope', so it is a hope, not a promise."
+      }
+    ],
     "dictation": [
       6,
       10,
@@ -1523,6 +1679,32 @@
             "שמש"
           ]
         ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "הכביש הראשי סגור כבר חצי שעה.",
+        "sEn": "The main road has been closed for half an hour.",
+        "a": false,
+        "why": "Roi reports הכביש הראשי סגור כבר שעתיים, 'the main road has been closed for two hours'."
+      },
+      {
+        "s": "המשטרה עוד לא אמרה מתי יפתחו את הכביש.",
+        "sEn": "The police haven't said yet when the road will reopen.",
+        "a": true,
+        "why": "Asked what the police are saying, Roi answers בינתיים אין תשובה, 'no answer yet', and drivers are asked to take another route."
+      },
+      {
+        "s": "אורית תקועה בפקק כבר שעה וחצי.",
+        "sEn": "Orit has been stuck in the traffic jam for an hour and a half.",
+        "a": true,
+        "why": "Roi asks her כמה זמן את כבר תקועה פה? and she answers שעה וחצי!"
+      },
+      {
+        "s": "מחר ירד גשם בעיקר בדרום.",
+        "sEn": "Tomorrow it will rain mainly in the south.",
+        "a": false,
+        "why": "The forecast says the rain will continue בעיקר בצפון ובמרכז, 'mainly in the north and the center'."
       }
     ],
     "dictation": [
@@ -1765,6 +1947,32 @@
         ]
       }
     ],
+    "tf": [
+      {
+        "s": "יעל שותה קפה בתחילת הראיון.",
+        "sEn": "Yael has a coffee at the start of the interview.",
+        "a": false,
+        "why": "Alon offers her coffee or water, but she answers לא, תודה, הכל בסדר, 'no, thanks, I'm fine'."
+      },
+      {
+        "s": "בסטארט-אפ של אלון עובדים רק שמונה אנשים.",
+        "sEn": "Only eight people work at Alon's startup.",
+        "a": true,
+        "why": "Alon says אנחנו רק שמונה אנשים, אז כל אחד עושה הכל, 'we're only eight people, so everyone does everything'."
+      },
+      {
+        "s": "ליעל מתאים שבחברה כל אחד עושה הכל.",
+        "sEn": "It suits Yael that everyone at the company does everything.",
+        "a": true,
+        "why": "She answers זה דווקא מתאים לי. אני לא אוהבת להשתעמם, 'that actually suits me. I don't like being bored'."
+      },
+      {
+        "s": "לפי אלון, בחברה שלו יש יום עבודה רגיל וקבוע.",
+        "sEn": "According to Alon, there is a normal, fixed workday at his company.",
+        "a": false,
+        "why": "When Yael asks what a normal workday looks like, he says אין יום רגיל, 'there's no normal day', and that this is what's fun there."
+      }
+    ],
     "dictation": [
       2,
       7,
@@ -2000,6 +2208,32 @@
             "אב"
           ]
         ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "עידו בן שלושים ושתיים.",
+        "sEn": "Ido is thirty-two.",
+        "a": true,
+        "why": "His mother reminds him: אתה בן שלושים ושתיים, עידו!"
+      },
+      {
+        "s": "עידו אומר שאין לו לחץ בעבודה בכלל.",
+        "sEn": "Ido says he has no pressure at all at work.",
+        "a": false,
+        "why": "He says הכל טוב. יש לחץ, אבל סבבה, 'all good. There's pressure, but it's fine'."
+      },
+      {
+        "s": "שלמה רוצה שציפי תפסיק לשאול את עידו שאלות.",
+        "sEn": "Shlomo wants Tzipi to stop asking Ido questions.",
+        "a": true,
+        "why": "He tells her ציפי, תני לילד לאכול בשקט, 'Tzipi, let the kid eat in peace'."
+      },
+      {
+        "s": "עידו מספר להורים שלו שהוא מתחתן עם נוי.",
+        "sEn": "Ido tells his parents that he is marrying Noy.",
+        "a": false,
+        "why": "That is only his mother's guess. His real news is אני עובר לגור עם נוי, 'I'm moving in with Noy', and at the end he repeats: אנחנו רק עוברים לגור ביחד!"
       }
     ],
     "dictation": [

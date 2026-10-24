@@ -1,0 +1,340 @@
+[
+  {
+    "id": "s_a1_taxi",
+    "level": "A1",
+    "title": "במונית",
+    "titleEn": "In the Taxi",
+    "genre": "street",
+    "synopsis": "One evening, Neta gets into a taxi. She has a train to catch, so she asks the driver a few practical questions. Then the traffic gets in the way.",
+    "speakers": {
+      "A": { "name": "ג׳מאל", "gender": "m" },
+      "B": { "name": "נטע", "gender": "f" }
+    },
+    "lines": [
+      { "s": "A", "he": "ערב טוב. לאן?", "en": "Good evening. Where to?" },
+      { "s": "B", "he": "ערב טוב. לתחנת הרכבת, בבקשה.", "en": "Good evening. To the train station, please." },
+      { "s": "A", "he": "בסדר. את ממהרת?", "en": "Okay. Are you in a hurry?" },
+      { "s": "B", "he": "כן, יש לי רכבת בשמונה. כמה זמן זה לוקח?", "en": "Yes, I have a train at eight. How long does it take?" },
+      { "s": "A", "he": "בדרך כלל רבע שעה.", "en": "Usually a quarter of an hour." },
+      { "s": "B", "he": "וכמה זה עולה?", "en": "And how much does it cost?" },
+      { "s": "A", "he": "לפי המונה. בערך ארבעים שקל.", "en": "By the meter. About forty shekels." },
+      { "s": "B", "he": "אוי, תראה, יש פקק גדול!", "en": "Oh, look, there's a big traffic jam!" },
+      { "s": "A", "he": "אין בעיה, אני מכיר דרך קצרה.", "en": "No problem, I know a shortcut." },
+      { "s": "B", "he": "יופי, הנה התחנה! אפשר לשלם בכרטיס?", "en": "Great, here's the station! Can I pay by card?" },
+      { "s": "A", "he": "בטח. שלושים ושמונה שקל, ונסיעה טובה!", "en": "Sure. Thirty-eight shekels, and have a good trip!" },
+      { "s": "B", "he": "תודה רבה, ערב טוב!", "en": "Thanks a lot, have a good evening!" }
+    ],
+    "questions": [
+      {
+        "q": "לאן נטע נוסעת?",
+        "qEn": "Where is Neta going?",
+        "answer": "לתחנת הרכבת.",
+        "answerEn": "To the train station.",
+        "keywords": [["רכבת", "הרכבת"]]
+      },
+      {
+        "q": "כמה זמן לוקחת הנסיעה, בדרך כלל?",
+        "qEn": "How long does the ride usually take?",
+        "answer": "בדרך כלל רבע שעה.",
+        "answerEn": "Usually a quarter of an hour.",
+        "keywords": [["רבע שעה", "רבע", "חמש עשרה דקות", "15 דקות"]]
+      },
+      {
+        "q": "כמה נטע משלמת בסוף?",
+        "qEn": "How much does Neta pay in the end?",
+        "answer": "שלושים ושמונה שקל.",
+        "answerEn": "Thirty-eight shekels.",
+        "keywords": [["שלושים ושמונה", "38"]]
+      }
+    ],
+    "tf": [
+      {
+        "s": "לנטע יש רכבת בשמונה.",
+        "sEn": "Neta has a train at eight.",
+        "a": true,
+        "why": "She tells the driver יש לי רכבת בשמונה, 'I have a train at eight'."
+      },
+      {
+        "s": "בדרך כלל הנסיעה לוקחת שעה.",
+        "sEn": "The ride usually takes an hour.",
+        "a": false,
+        "why": "The driver says בדרך כלל רבע שעה: usually a quarter of an hour."
+      },
+      {
+        "s": "יש פקק, אבל הנהג מכיר דרך קצרה.",
+        "sEn": "There's a traffic jam, but the driver knows a shortcut.",
+        "a": true,
+        "why": "Neta sees a big jam (יש פקק גדול), and the driver answers אין בעיה, אני מכיר דרך קצרה."
+      },
+      {
+        "s": "נטע משלמת במזומן.",
+        "sEn": "Neta pays in cash.",
+        "a": false,
+        "why": "She asks אפשר לשלם בכרטיס?, 'can I pay by card?', and the driver says בטח, 'sure'."
+      }
+    ],
+    "dictation": [1, 3, 8],
+    "expressions": [
+      {
+        "he": "לאן?",
+        "en": "Where to?",
+        "note": "לאן asks about direction, 'to where?'. For a location, ask איפה? Taxi drivers often greet you with just לאן?"
+      },
+      {
+        "he": "כמה זמן זה לוקח?",
+        "en": "How long does it take?",
+        "note": "Literally 'how much time does it take?'. Answer with a length of time: עשר דקות, רבע שעה, חצי שעה."
+      },
+      {
+        "he": "כמה זה עולה?",
+        "en": "How much does it cost?",
+        "note": "עולה (costs) is masculine to agree with זה. With a feminine noun it changes: כמה עולה הנסיעה?"
+      },
+      {
+        "he": "יש פקק",
+        "en": "There's a traffic jam",
+        "note": "פקק also means a cork or a bottle cap. The plural, פקקים, is a word you hear on the radio every morning."
+      },
+      {
+        "he": "אפשר לשלם בכרטיס?",
+        "en": "Can I pay by card?",
+        "note": "אפשר + infinitive asks 'is it possible to…?': אפשר לשבת? אפשר לשלם במזומן? (in cash)."
+      },
+      {
+        "he": "נסיעה טובה!",
+        "en": "Have a good trip!",
+        "note": "Said to anyone setting off on a journey, short or long."
+      }
+    ]
+  },
+  {
+    "id": "s_a1_meet_neighbor",
+    "level": "A1",
+    "title": "השכן החדש",
+    "titleEn": "The New Neighbour",
+    "genre": "sitcom",
+    "synopsis": "Michal meets a new neighbour on the stairs while he is carrying in his boxes. They introduce themselves and talk about family and work, until one small detail worries Michal.",
+    "speakers": {
+      "A": { "name": "מיכל", "gender": "f" },
+      "B": { "name": "דימה", "gender": "m" }
+    },
+    "lines": [
+      { "s": "A", "he": "שלום! אתה השכן החדש?", "en": "Hi! Are you the new neighbour?" },
+      { "s": "B", "he": "כן, שלום. אני דימה, מדירה שבע.", "en": "Yes, hello. I'm Dima, from apartment seven." },
+      { "s": "A", "he": "נעים מאוד, אני מיכל. כל הארגזים האלה שלך?", "en": "Nice to meet you, I'm Michal. Are all these boxes yours?" },
+      { "s": "B", "he": "כן, אנחנו משפחה גדולה.", "en": "Yes, we're a big family." },
+      { "s": "A", "he": "כמה ילדים יש לכם?", "en": "How many children do you have?" },
+      { "s": "B", "he": "שלושה ילדים, וגם כלב אחד גדול.", "en": "Three kids, and one big dog too." },
+      { "s": "A", "he": "איזה כיף! ובמה אתה עובד?", "en": "How fun! And what do you do for work?" },
+      { "s": "B", "he": "אני אופה. אני עובד בלילה וישן ביום.", "en": "I'm a baker. I work at night and sleep during the day." },
+      { "s": "A", "he": "ביום? אוי, זאת בעיה.", "en": "During the day? Oh, that's a problem." },
+      { "s": "B", "he": "למה? מה הבעיה?", "en": "Why? What's the problem?" },
+      { "s": "A", "he": "בעלי מתופף, והוא מנגן כל בוקר.", "en": "My husband is a drummer, and he plays every morning." },
+      { "s": "B", "he": "כל בוקר? טוב, גם הכלב שלי אוהב מוזיקה.", "en": "Every morning? Well, my dog loves music too." }
+    ],
+    "questions": [
+      {
+        "q": "כמה ילדים יש לדימה?",
+        "qEn": "How many children does Dima have?",
+        "answer": "שלושה ילדים.",
+        "answerEn": "Three children.",
+        "keywords": [["שלושה", "שלוש", "3"]]
+      },
+      {
+        "q": "במה דימה עובד?",
+        "qEn": "What does Dima do for work?",
+        "answer": "הוא אופה. הוא עובד בלילה.",
+        "answerEn": "He's a baker. He works at night.",
+        "keywords": [["אופה"], ["לילה", "בלילה"]]
+      },
+      {
+        "q": "מה הבעיה?",
+        "qEn": "What is the problem?",
+        "answer": "דימה ישן ביום, ובעלה של מיכל מנגן כל בוקר.",
+        "answerEn": "Dima sleeps during the day, and Michal's husband plays every morning.",
+        "keywords": [["ישן", "ישנים", "לישון"], ["מנגן", "מתופף", "תופים", "מוזיקה"]]
+      }
+    ],
+    "tf": [
+      {
+        "s": "דימה גר בדירה שבע.",
+        "sEn": "Dima lives in apartment seven.",
+        "a": true,
+        "why": "He introduces himself: אני דימה, מדירה שבע, 'I'm Dima, from apartment seven'."
+      },
+      {
+        "s": "לדימה יש שני ילדים.",
+        "sEn": "Dima has two children.",
+        "a": false,
+        "why": "He has three: שלושה ילדים, and a dog as well."
+      },
+      {
+        "s": "הכלב של דימה קטן.",
+        "sEn": "Dima's dog is small.",
+        "a": false,
+        "why": "Dima says כלב אחד גדול, 'one big dog'."
+      },
+      {
+        "s": "בעלה של מיכל מתופף.",
+        "sEn": "Michal's husband is a drummer.",
+        "a": true,
+        "why": "Michal says בעלי מתופף, 'my husband is a drummer', and he plays every morning."
+      }
+    ],
+    "dictation": [1, 4, 7],
+    "expressions": [
+      {
+        "he": "אתה השכן החדש?",
+        "en": "Are you the new neighbour?",
+        "note": "A woman neighbour is שכנה, and neighbours are שכנים. To a woman: את השכנה החדשה?"
+      },
+      {
+        "he": "כמה ילדים יש לכם?",
+        "en": "How many children do you have?",
+        "note": "יש ל + person means 'to have': יש לי, יש לך, יש לכם (you, plural). The negative is אין: אין לי ילדים."
+      },
+      {
+        "he": "במה אתה עובד?",
+        "en": "What do you do for a living?",
+        "note": "Literally 'in what do you work?'. To a woman: במה את עובדת? Answer with just the job: אני אופה, אני מורה."
+      },
+      {
+        "he": "איזה כיף!",
+        "en": "How fun! / How great!",
+        "note": "A very common reaction to good news. איזה + noun means 'what a …!': איזה יופי! איזה יום!"
+      },
+      {
+        "he": "בעלי",
+        "en": "my husband",
+        "note": "בעל + the ending ־י (my). 'My wife' is אשתי. Many people also say בן הזוג שלי / בת הזוג שלי, 'my partner'."
+      }
+    ]
+  },
+  {
+    "id": "s_a2_what_did_you_do",
+    "level": "A2",
+    "title": "מה עשית בסוף השבוע?",
+    "titleEn": "What Did You Do on the Weekend?",
+    "genre": "sitcom",
+    "synopsis": "It's Sunday morning, the start of the Israeli work week. In the office kitchen, Tal and Omer swap stories about their weekends: one quiet, one less so. Then their colleague Nadia comes in with news of her own.",
+    "speakers": {
+      "A": { "name": "טל", "gender": "f" },
+      "B": { "name": "עומר", "gender": "m" },
+      "C": { "name": "נדיה", "gender": "f" }
+    },
+    "lines": [
+      { "s": "A", "he": "בוקר טוב, עומר! איך היה סוף השבוע?", "en": "Good morning, Omer! How was the weekend?" },
+      { "s": "B", "he": "היה... מעניין.", "en": "It was... interesting." },
+      { "s": "A", "he": "למה? מה עשית?", "en": "Why? What did you do?" },
+      { "s": "B", "he": "נסעתי עם חברים לצפון. ישנו באוהל ליד הכנרת.", "en": "I went up north with friends. We slept in a tent near the Sea of Galilee." },
+      { "s": "A", "he": "וואו, איזה כיף!", "en": "Wow, how fun!" },
+      { "s": "B", "he": "כיף? בלילה ירד גשם חזק, והאוהל נפל.", "en": "Fun? At night it rained hard, and the tent fell down." },
+      { "s": "A", "he": "מה? ואיפה ישנתם?", "en": "What? So where did you sleep?" },
+      { "s": "B", "he": "באוטו. ארבעה אנשים באוטו קטן! ואת?", "en": "In the car. Four people in a small car! And you?" },
+      { "s": "A", "he": "אני הייתי בבית. בשבת קראתי ספר וישנתי עד הצהריים.", "en": "I was at home. On Saturday I read a book and slept till noon." },
+      { "s": "B", "he": "נשמע מושלם. היי, נדיה! מה עשית בסוף השבוע?", "en": "Sounds perfect. Hi, Nadia! What did you do over the weekend?" },
+      { "s": "C", "he": "עבדתי. גמרתי את המצגת לפגישה עם הלקוח.", "en": "I worked. I finished the presentation for the meeting with the client." },
+      { "s": "A", "he": "איזו פגישה?", "en": "What meeting?" },
+      { "s": "C", "he": "הפגישה היום, בעשר! שלחתי לכם מייל ביום חמישי.", "en": "The meeting's today, at ten! I sent you both an email on Thursday." },
+      { "s": "B", "he": "אוי, לא! שכחתי לגמרי.", "en": "Oh no! I completely forgot." },
+      { "s": "C", "he": "אל תדאגו, כתבתי גם את החלקים שלכם.", "en": "Don't worry, I wrote your parts too." },
+      { "s": "A", "he": "נדיה, את מלאך! היום אנחנו קונים לך קפה.", "en": "Nadia, you're an angel! Today we're buying you coffee." }
+    ],
+    "questions": [
+      {
+        "q": "לאן נסע עומר בסוף השבוע?",
+        "qEn": "Where did Omer go over the weekend?",
+        "answer": "הוא נסע עם חברים לצפון, ליד הכנרת.",
+        "answerEn": "He went up north with friends, near the Sea of Galilee.",
+        "keywords": [["צפון", "כנרת", "הכנרת"]]
+      },
+      {
+        "q": "מה קרה בלילה?",
+        "qEn": "What happened during the night?",
+        "answer": "ירד גשם חזק, והאוהל נפל.",
+        "answerEn": "It rained hard, and the tent fell down.",
+        "keywords": [["גשם"], ["אוהל", "נפל"]]
+      },
+      {
+        "q": "מה טל עשתה בשבת?",
+        "qEn": "What did Tal do on Saturday?",
+        "answer": "היא קראה ספר וישנה עד הצהריים.",
+        "answerEn": "She read a book and slept till noon.",
+        "keywords": [["ספר", "קראה"], ["ישנה", "ישנתי", "ישן", "לישון"]]
+      },
+      {
+        "q": "מה נדיה עשתה בסוף השבוע?",
+        "qEn": "What did Nadia do over the weekend?",
+        "answer": "היא עבדה וגמרה את המצגת לפגישה עם הלקוח.",
+        "answerEn": "She worked and finished the presentation for the meeting with the client.",
+        "keywords": [["עבדה", "עבדתי", "עובדת"], ["מצגת", "המצגת"]]
+      },
+      {
+        "q": "למה טל ועומר קונים לנדיה קפה?",
+        "qEn": "Why are Tal and Omer buying Nadia coffee?",
+        "answer": "כי נדיה כתבה גם את החלקים שלהם במצגת.",
+        "answerEn": "Because Nadia wrote their parts of the presentation too.",
+        "keywords": [["כתבה", "כתבתי", "כתב"], ["חלקים", "החלקים", "חלק"]]
+      }
+    ],
+    "tf": [
+      {
+        "s": "עומר ישן באוהל כל הלילה.",
+        "sEn": "Omer slept in the tent all night.",
+        "a": false,
+        "why": "The tent fell down in the rain (האוהל נפל), so they slept in the car: באוטו."
+      },
+      {
+        "s": "טל הייתה בבית בסוף השבוע.",
+        "sEn": "Tal was at home over the weekend.",
+        "a": true,
+        "why": "Tal says אני הייתי בבית, and on Saturday she read a book."
+      },
+      {
+        "s": "הפגישה עם הלקוח מחר.",
+        "sEn": "The meeting with the client is tomorrow.",
+        "a": false,
+        "why": "Nadia says הפגישה היום, בעשר: the meeting is today, at ten."
+      },
+      {
+        "s": "נדיה שלחה מייל ביום חמישי.",
+        "sEn": "Nadia sent an email on Thursday.",
+        "a": true,
+        "why": "She says שלחתי לכם מייל ביום חמישי, 'I sent you an email on Thursday'."
+      }
+    ],
+    "dictation": [3, 5, 8, 13],
+    "expressions": [
+      {
+        "he": "איך היה סוף השבוע?",
+        "en": "How was the weekend?",
+        "note": "The classic Sunday-morning question in an Israeli office, where the work week starts on Sunday. In speech the weekend is often סופ״ש (sofásh)."
+      },
+      {
+        "he": "ירד גשם",
+        "en": "It rained",
+        "note": "Literally 'rain came down'. Present: יורד גשם (it's raining). The future, ירד גשם (it will rain), is written the same as the past but said yeréd."
+      },
+      {
+        "he": "שכחתי לגמרי",
+        "en": "I completely forgot",
+        "note": "לגמרי means 'completely'. On its own, לגמרי! is also a casual 'totally!' when you agree with someone."
+      },
+      {
+        "he": "אל תדאגו",
+        "en": "Don't worry (to several people)",
+        "note": "אל + future form gives a negative command. To one man: אל תדאג; to one woman: אל תדאגי."
+      },
+      {
+        "he": "את מלאך!",
+        "en": "You're an angel!",
+        "note": "Warm thanks for a big favour. To a man: אתה מלאך! The noun מלאך stays the same for both."
+      },
+      {
+        "he": "נשמע מושלם",
+        "en": "Sounds perfect",
+        "note": "נשמע (sounds) + adjective is a quick reaction to what someone tells you: נשמע טוב, נשמע מעניין."
+      }
+    ]
+  }
+]

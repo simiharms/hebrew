@@ -1,0 +1,536 @@
+[
+  {
+    "id": "r_b2_startup_nation_myth",
+    "level": "B2",
+    "title": "אומת הסטארט-אפ: בין מיתוס למציאות",
+    "titleEn": "Start-up nation: between myth and reality",
+    "topic": "economy",
+    "kind": "essay",
+    "paragraphs": [
+      {
+        "he": "לפני שנים רבות הודבק לישראל הכינוי \"אומת הסטארט-אפ\", ומאז הוא חוזר כמעט בכל כתבה על הכלכלה הישראלית. אין ספק שיש בו לא מעט אמת: ביחס לגודל האוכלוסייה, ריכוז חברות ההזנק בישראל הוא מהגבוהים בעולם, וגם ההוצאה הלאומית על מחקר ופיתוח, כאחוז מהתוצר, נמנית עם הגבוהות ביותר. ועם זאת, כמו כל סיסמה מוצלחת, גם הכינוי הזה מסתיר לא פחות ממה שהוא מגלה.",
+        "en": "Many years ago Israel was given the nickname \"start-up nation\", and ever since it has come up in almost every article about the Israeli economy. There is no doubt that it contains a good deal of truth: relative to the size of the population, Israel's concentration of start-up companies is among the highest in the world, and its national spending on research and development, as a percentage of GDP, is also among the very highest. And yet, like every successful slogan, this nickname hides no less than it reveals."
+      },
+      {
+        "he": "מה עומד מאחורי ההצלחה? חוקרים מצביעים בדרך כלל על שילוב של כמה גורמים. ראשית, תרבות עסקית ישירה ובלתי פורמלית, שבה עובד צעיר אינו חושש לחלוק על המנהל שלו, וכישלון אינו נחשב לסוף הדרך אלא לשלב בתהליך הלמידה. שנית, ההון האנושי: האוניברסיטאות ומכוני המחקר מכשירים מהנדסים ומדענים ברמה גבוהה, וגל העלייה הגדול של שנות התשעים הביא איתו עשרות אלפי אנשי מקצוע מוכשרים. שלישית, מדיניות ממשלתית שכבר באותן שנים עודדה השקעות של קרנות הון סיכון ומימנה מחקר ופיתוח בתעשייה.",
+        "en": "What lies behind the success? Researchers usually point to a combination of several factors. First, a direct and informal business culture, in which a young employee is not afraid to disagree with his manager, and failure is seen not as the end of the road but as a stage in the learning process. Second, human capital: the universities and research institutes train engineers and scientists to a high standard, and the great wave of immigration of the 1990s brought with it tens of thousands of talented professionals. Third, government policy which, already in those years, encouraged investment by venture capital funds and financed research and development in industry."
+      },
+      {
+        "he": "אולם מאחורי התמונה הנוצצת מסתתרת מציאות מורכבת יותר. כלכלנים מדברים לא פעם על \"משק של שתי מהירויות\": מצד אחד ענף טכנולוגי מתקדם, שבו הפריון והשכר גבוהים במיוחד, ומצד שני ענפים מסורתיים כמו מסחר, שירותים ובנייה, שבהם הפריון נמוך מהממוצע במדינות המפותחות. ההייטק מעסיק רק חלק קטן יחסית מכלל העובדים, ולכן רוב הציבור אינו נהנה ישירות מפירות ההצלחה. יש אף הטוענים שהוא משלם חלק ממחירה, למשל בעליית מחירי הדיור באזורי הביקוש.",
+        "en": "However, behind the glittering picture lies a more complex reality. Economists often speak of a \"two-speed economy\": on the one hand an advanced technology sector, in which productivity and wages are particularly high, and on the other hand traditional sectors such as retail, services and construction, in which productivity is below the average in developed countries. High-tech employs only a relatively small share of all workers, so most of the public does not benefit directly from the fruits of the success. Some even argue that it pays part of the price, for example through rising housing prices in high-demand areas."
+      },
+      {
+        "he": "חולשה נוספת נוגעת למבנה הענף עצמו. חברות רבות נוסדות מתוך כוונה להימכר לתאגיד בינלאומי בתוך כמה שנים, וה\"אקזיט\" נתפס בעיני רבים כפסגת ההצלחה. מכירה כזאת אמנם מעשירה את המייסדים ואת המשקיעים, אך לעיתים קרובות מרכז הפעילות והידע עובר בעקבותיה לחו״ל. בנוסף, הענף תלוי במידה רבה בהון זר ובמצב השווקים העולמיים, כך שהאטה בכלכלה האמריקאית, למשל, מורגשת כאן כמעט מיד. גם המחסור בעובדים מיומנים מעיב על הצמיחה, בין היתר משום שנשים וקבוצות שונות באוכלוסייה עדיין מיוצגות בחסר במקצועות ההנדסה.",
+        "en": "Another weakness concerns the structure of the sector itself. Many companies are founded with the intention of being sold to an international corporation within a few years, and the \"exit\" is seen by many as the peak of success. Such a sale does enrich the founders and the investors, but often the centre of activity and knowledge moves abroad as a result. In addition, the sector depends to a great extent on foreign capital and on the state of world markets, so that a slowdown in the American economy, for example, is felt here almost immediately. The shortage of skilled workers also casts a shadow over growth, partly because women and various groups in the population are still underrepresented in engineering professions."
+      },
+      {
+        "he": "האם מדובר, אם כן, במיתוס? נראה שהתשובה מורכבת. ההישגים אמיתיים, והם מקור לגאווה ולהכנסות ממסים שהמדינה כולה נשענת עליהן. עם זאת, הצלחה של ענף אחד אינה מבטיחה שגשוג לכלל החברה. האתגר של השנים הקרובות הוא אפוא לא רק להקים עוד חברות הזנק, אלא להפיץ את הידע, את ההכשרה ואת ההזדמנויות גם אל מחוץ למגדלי המשרדים של תל אביב והרצליה – כדי שהכינוי \"אומת הסטארט-אפ\" יתאר את האומה כולה, ולא רק חלק ממנה.",
+        "en": "Is it, then, a myth? The answer seems to be complex. The achievements are real, and they are a source of pride and of tax revenue on which the whole country relies. Nevertheless, the success of one sector does not guarantee prosperity for society as a whole. The challenge of the coming years is therefore not only to set up more start-ups, but to spread knowledge, training and opportunities beyond the office towers of Tel Aviv and Herzliya too – so that the nickname \"start-up nation\" describes the whole nation, and not just part of it."
+      }
+    ],
+    "glossary": [
+      { "he": "חברת הזנק", "en": "start-up company (the official Hebrew term; plural חברות הזנק)", "tr": "khevrát heznék" },
+      { "he": "מחקר ופיתוח", "en": "research and development (R&D)", "tr": "mekhkár ufitúakh" },
+      { "he": "תוצר", "en": "output; התוצר = the GDP", "tr": "totsár" },
+      { "he": "סיסמה", "en": "slogan", "tr": "sismá" },
+      { "he": "לחלוק על", "en": "to disagree with", "tr": "lakhalók al" },
+      { "he": "הון אנושי", "en": "human capital (people's skills and knowledge)", "tr": "hon enoshí" },
+      { "he": "הון סיכון", "en": "venture capital (קרנות הון סיכון = venture capital funds)", "tr": "hon sikún" },
+      { "he": "פריון", "en": "productivity", "tr": "piryón" },
+      { "he": "ענף", "en": "sector, branch (of the economy)", "tr": "anáf" },
+      { "he": "תאגיד", "en": "corporation", "tr": "ta'agíd" },
+      { "he": "להעיב על", "en": "to cast a shadow over (מעיב = casts a shadow)", "tr": "leha'ív al" },
+      { "he": "מיוצגות בחסר", "en": "underrepresented (feminine plural)", "tr": "meyutsagót bekhéser" },
+      { "he": "שגשוג", "en": "prosperity, flourishing", "tr": "sigsúg" },
+      { "he": "אפוא", "en": "therefore, then (formal)", "tr": "efó" }
+    ],
+    "questions": [
+      {
+        "q": "אילו נתונים מראים שיש אמת בכינוי \"אומת הסטארט-אפ\"?",
+        "qEn": "What figures show that there is truth in the nickname \"start-up nation\"?",
+        "answer": "ריכוז גבוה של חברות הזנק והוצאה גבוהה על מחקר ופיתוח.",
+        "answerEn": "A high concentration of start-up companies and high spending on research and development.",
+        "keywords": [
+          ["הזנק", "חברות", "סטארט-אפים", "ריכוז"],
+          ["מחקר", "פיתוח", "הוצאה", "השקעה"]
+        ]
+      },
+      {
+        "q": "מהם שלושת הגורמים להצלחה שהכותב מונה בפסקה השנייה?",
+        "qEn": "What are the three factors behind the success that the writer lists in the second paragraph?",
+        "answer": "תרבות עסקית ישירה, הון אנושי ומדיניות ממשלתית תומכת.",
+        "answerEn": "A direct business culture, human capital and supportive government policy.",
+        "keywords": [
+          ["תרבות", "ישירה", "ישירות", "כישלון"],
+          ["הון אנושי", "אנושי", "מהנדסים", "מדענים", "אוניברסיטאות", "עלייה", "עולים"],
+          ["מדיניות", "ממשלתית", "ממשלה", "הון סיכון", "מימון"]
+        ]
+      },
+      {
+        "q": "מה הכוונה בביטוי \"משק של שתי מהירויות\"?",
+        "qEn": "What is meant by the expression \"two-speed economy\"?",
+        "answer": "בהייטק הפריון והשכר גבוהים, ובענפים המסורתיים הפריון נמוך.",
+        "answerEn": "In high-tech productivity and wages are high, while in the traditional sectors productivity is low.",
+        "keywords": [
+          ["הייטק", "טכנולוגי", "טכנולוגיה"],
+          ["מסורתיים", "מסורתי", "מסחר", "שירותים", "בנייה"],
+          ["פריון", "שכר"]
+        ]
+      },
+      {
+        "q": "למה ה\"אקזיט\" אינו תמיד טוב למשק הישראלי?",
+        "qEn": "Why is the \"exit\" not always good for the Israeli economy?",
+        "answer": "כי לעיתים קרובות הפעילות והידע עוברים לחו״ל.",
+        "answerEn": "Because the activity and the knowledge often move abroad.",
+        "keywords": [
+          ["חו״ל", "חוץ לארץ", "מחוץ"],
+          ["ידע", "פעילות", "מרכז"]
+        ]
+      },
+      {
+        "q": "מהו, לדעת הכותב, האתגר של השנים הקרובות?",
+        "qEn": "In the writer's view, what is the challenge of the coming years?",
+        "answer": "להפיץ את הידע וההזדמנויות גם מחוץ לתל אביב.",
+        "answerEn": "To spread knowledge and opportunities beyond Tel Aviv too.",
+        "keywords": [
+          ["להפיץ", "הפצה", "לפזר", "להרחיב"],
+          ["ידע", "הכשרה", "הזדמנויות", "הזדמנות"]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "לפי הכותב, אין שום אמת בכינוי \"אומת הסטארט-אפ\".",
+        "sEn": "According to the writer, there is no truth at all in the nickname \"start-up nation\".",
+        "a": false,
+        "why": "The writer says the nickname contains a good deal of truth, though it also hides as much as it reveals."
+      },
+      {
+        "s": "בתרבות העסקית בישראל, לפי הכותב, כישלון נחשב לשלב בתהליך הלמידה.",
+        "sEn": "In Israeli business culture, according to the writer, failure is seen as a stage in the learning process.",
+        "a": true,
+        "why": "Paragraph 2: failure is seen not as the end of the road but as a stage in the learning process."
+      },
+      {
+        "s": "ענף ההייטק מעסיק את רוב העובדים בישראל.",
+        "sEn": "The high-tech sector employs most workers in Israel.",
+        "a": false,
+        "why": "High-tech employs only a relatively small share of all workers."
+      },
+      {
+        "s": "האטה בכלכלה האמריקאית מורגשת בענף הטכנולוגיה הישראלי כמעט מיד.",
+        "sEn": "A slowdown in the American economy is felt in the Israeli tech sector almost immediately.",
+        "a": true,
+        "why": "Because the sector depends on foreign capital and world markets, an American slowdown is felt here almost immediately."
+      }
+    ],
+    "find": [
+      { "en": "(the) start-up companies", "answer": ["חברות ההזנק", "חברות הזנק"] },
+      { "en": "(the) productivity", "answer": ["הפריון"] },
+      { "en": "underrepresented (fem. pl.)", "answer": ["מיוצגות בחסר"] },
+      { "en": "a source of pride", "answer": ["מקור לגאווה"] }
+    ],
+    "summary": [
+      {
+        "prompt": "לפי הכותב, הכינוי \"אומת הסטארט-אפ\" מסתיר לא פחות ממה שהוא ___.",
+        "en": "According to the writer, the nickname \"start-up nation\" hides no less than it reveals.",
+        "answer": ["מגלה"],
+        "hint": "reveals (present, masc.)"
+      },
+      {
+        "prompt": "בין הגורמים להצלחה: תרבות עסקית ישירה, הון ___ ומדיניות ממשלתית.",
+        "en": "Among the factors behind the success: a direct business culture, human capital and government policy.",
+        "answer": ["אנושי"],
+        "hint": "human (capital)"
+      },
+      {
+        "prompt": "בענפים המסורתיים הפריון ___ מהממוצע במדינות המפותחות.",
+        "en": "In the traditional sectors productivity is lower than the average in developed countries.",
+        "answer": ["נמוך"],
+        "hint": "low (נמוך מ = lower than)"
+      },
+      {
+        "prompt": "כשחברה נמכרת לתאגיד בינלאומי, הידע עובר לעיתים קרובות ___.",
+        "en": "When a company is sold to an international corporation, the knowledge often moves abroad.",
+        "answer": ["לחו״ל", "לחו\"ל", "לחוץ לארץ"],
+        "hint": "abroad"
+      },
+      {
+        "prompt": "הכותב רוצה שהכינוי יתאר את האומה ___, ולא רק חלק ממנה.",
+        "en": "The writer wants the nickname to describe the whole nation, and not just part of it.",
+        "answer": ["כולה"],
+        "hint": "all of it, whole"
+      }
+    ],
+    "writing": {
+      "prompt": "בחרו ענף כלכלי שאתם מכירים מקרוב (למשל התחום שבו אתם עובדים) וכתבו חיבור קצר על החוזקות והחולשות שלו בישראל. סיימו במסקנה.",
+      "promptEn": "Choose an economic sector you know well (for example the field you work in) and write a short essay on its strengths and weaknesses in Israel. Finish with a conclusion.",
+      "minWords": 100,
+      "useWords": ["מצד אחד", "מצד שני", "בנוסף", "מעבר לכך", "לסיכום"],
+      "checklist": [
+        { "en": "Present at least one strength", "keywords": ["חוזקות", "חוזקה", "יתרון", "יתרונות"] },
+        { "en": "Present at least one weakness", "keywords": ["חולשות", "חולשה", "חיסרון", "חסרונות"] },
+        { "en": "Contrast the two sides (מצד שני / עם זאת / אולם)", "keywords": ["מצד שני", "עם זאת", "אולם", "לעומת זאת"] },
+        { "en": "End with a conclusion (לסיכום / אפוא / לכן)", "keywords": ["לסיכום", "אפוא", "לכן"] }
+      ],
+      "model": "המקצוע שלי הוא הדרכת תיירים, ולכן בחרתי לכתוב על ענף התיירות בישראל. מצד אחד, לענף יש חוזקות ברורות: מדינה קטנה שבה אפשר לטייל בבוקר במדבר ולשחות בערב בים, אוכל מגוון ואתרים היסטוריים מתקופות רבות. בנוסף, התיירות מספקת פרנסה לאלפי משפחות, גם באזורים הרחוקים מהמרכז. מצד שני, יש לענף גם חולשות לא מבוטלות. המחירים בבתי המלון גבוהים בהשוואה ליעדים אחרים באזור הים התיכון, והשירות אינו תמיד ברמה שהתיירים מצפים לה. מעבר לכך, הענף רגיש מאוד לשינויים בעולם: כשמספר הטיסות יורד, התיירים נעלמים כמעט בן לילה. לסיכום, נראה שלענף יש פוטנציאל גדול, אך כדי שתיירים ירצו לחזור, עליו להשקיע יותר בשירות ולהציע מחירים הוגנים.",
+      "modelEn": "My profession is tour guiding, so I chose to write about the tourism sector in Israel. On the one hand, the sector has clear strengths: a small country where you can hike in the desert in the morning and swim in the sea in the evening, varied food, and historical sites from many periods. In addition, tourism provides a living for thousands of families, including in areas far from the centre. On the other hand, the sector also has considerable weaknesses. Hotel prices are high compared with other destinations in the Mediterranean, and the service is not always at the level tourists expect. Beyond that, the sector is very sensitive to changes in the world: when the number of flights goes down, the tourists disappear almost overnight. In conclusion, the sector seems to have great potential, but if it wants tourists to come back, it needs to invest more in service and offer fair prices."
+    }
+  },
+  {
+    "id": "r_b2_consumer_rights",
+    "level": "B2",
+    "title": "התחרטתם? מה כדאי לדעת לפני שמבטלים עסקה",
+    "titleEn": "Changed your mind? What to know before cancelling a purchase",
+    "topic": "consumer",
+    "kind": "article",
+    "paragraphs": [
+      {
+        "he": "כשאלכסנדר קנה באתר אינטרנט מכונת קפה יקרה, הוא היה בטוח שקיבל החלטה נבונה. אלא שכבר אחרי יומיים התברר לו שהמכונה רועשת מדי ותופסת חצי מהשיש במטבח. \"הייתי משוכנע שאין לי מה לעשות\", הוא מספר. \"רק כשחבר הציע לי לבדוק מה הזכויות שלי, הבנתי שאפשר לבטל את העסקה.\" סיפורו של אלכסנדר אינו יוצא דופן: צרכנים רבים מתחרטים על קנייה, אך רק מעטים יודעים למה הם זכאים.",
+        "en": "When Alexander bought an expensive coffee machine on a website, he was sure he had made a wise decision. But after just two days he realised that the machine was too noisy and took up half the kitchen counter. \"I was convinced there was nothing I could do,\" he says. \"Only when a friend suggested I check what my rights were did I understand that the deal could be cancelled.\" Alexander's story is not unusual: many consumers regret a purchase, but only a few know what they are entitled to."
+      },
+      {
+        "he": "מומחים לדיני צרכנות מסבירים כי זכות הביטול תלויה קודם כול בדרך שבה בוצעה הרכישה. כאשר מוצר נרכש בעסקת מכר מרחוק – באינטרנט, בטלפון או מתוך קטלוג – הצרכן רשאי בדרך כלל לבטל את העסקה בתוך שבועיים מקבלת המוצר, גם אם הוא תקין לחלוטין ופשוט לא מצא חן בעיניו. ההיגיון פשוט: מי שקונה בלי לראות את המוצר ולגעת בו אינו יכול לדעת מראש אם הוא מתאים לצרכיו.",
+        "en": "Consumer-law experts explain that the right to cancel depends first of all on the way the purchase was made. When a product is bought in a distance sale – online, by phone or from a catalogue – the consumer is usually entitled to cancel the deal within two weeks of receiving the product, even if it is in perfect working order and they simply didn't like it. The logic is simple: someone who buys without seeing and touching the product cannot know in advance whether it suits their needs."
+      },
+      {
+        "he": "המצב מורכב יותר כשהקנייה נעשית בחנות. כאן הכללים משתנים לפי סוג המוצר ונסיבות הקנייה, ולכן כדאי לבדוק מראש את מדיניות ההחזרה של העסק. העסקים מחויבים להציג את המדיניות הזאת במקום בולט, כדי שהלקוחות יוכלו להכיר אותה לפני התשלום. לא מעט קונים מגלים בשלב הזה שבמקום כסף הם יקבלו רק זיכוי לקנייה הבאה. חשוב גם להבחין בין מוצר שפשוט לא מצא חן בעיני הקונה לבין מוצר פגום: על מוצר פגום חלים כללים אחרים, ובדרך כלל העסק נדרש לתקן אותו או להחליף אותו.",
+        "en": "The situation is more complicated when the purchase is made in a shop. Here the rules vary according to the type of product and the circumstances of the purchase, so it is worth checking the business's return policy in advance. Businesses are obliged to display this policy prominently, so that customers can become familiar with it before paying. Quite a few shoppers discover at this stage that instead of money they will only receive a credit note for their next purchase. It is also important to distinguish between a product the buyer simply didn't like and a defective product: different rules apply to a defective product, and the business is usually required to repair or replace it."
+      },
+      {
+        "he": "איך מבטלים בפועל? יש להודיע לעסק על הביטול – בטלפון, בדואר אלקטרוני או באמצעות טופס באתר – ולשמור אסמכתא לכך שההודעה נשלחה. לאחר שהודעת הביטול התקבלה, הכסף אמור להיות מוחזר בתוך זמן קצר, והעסק רשאי לגבות דמי ביטול, שגובהם מוגבל בחוק. עם זאת, לא כל מוצר ניתן להחזרה. בין החריגים המוכרים נמנים מוצרי מזון, מוצרים שיוצרו במיוחד לפי הזמנת הלקוח, ותוכנות או משחקים שאריזתם נפתחה.",
+        "en": "How do you actually cancel? You must notify the business of the cancellation – by phone, by email or through a form on the website – and keep proof that the notice was sent. Once the cancellation notice has been received, the money is supposed to be refunded within a short time, and the business may charge a cancellation fee, the amount of which is limited by law. However, not every product can be returned. The well-known exceptions include food products, products made specially to the customer's order, and software or games whose packaging has been opened."
+      },
+      {
+        "he": "עו״ד נדיה חורי, המתמחה בדיני צרכנות, ממליצה לא לוותר מראש. \"אם הצרכנים היו מכירים את הזכויות שלהם, הם היו חוסכים לעצמם הרבה כסף ועוגמת נפש\", היא אומרת. \"לפני כל קנייה גדולה כדאי לקרוא את תנאי העסקה, לשמור את החשבונית ולצלם את המוצר ברגע שהוא מגיע. ואם העסק מסרב לכבד את החוק, אפשר לפנות לרשות להגנת הצרכן או להגיש תביעה קטנה.\" ואלכסנדר? הוא החזיר את המכונה, שילם דמי ביטול סמליים וקנה במקומה מכונה קטנה יותר – הפעם בחנות, אחרי שבדק אותה מכל הכיוונים.",
+        "en": "Advocate Nadia Khoury, who specialises in consumer law, recommends not giving up in advance. \"If consumers knew their rights, they would save themselves a lot of money and aggravation,\" she says. \"Before any big purchase it's worth reading the terms of the deal, keeping the receipt and photographing the product the moment it arrives. And if the business refuses to respect the law, you can turn to the Consumer Protection Authority or file a small claim.\" And Alexander? He returned the machine, paid a token cancellation fee and bought a smaller machine instead – this time in a shop, after examining it from every angle."
+      }
+    ],
+    "glossary": [
+      { "he": "להתחרט", "en": "to regret, change one's mind (מתחרטים = regret, plural)", "tr": "lehitkharét" },
+      { "he": "עסקה", "en": "deal, transaction (here: a purchase)", "tr": "iská" },
+      { "he": "זכאי ל", "en": "entitled to (זכאים = plural)", "tr": "zakáy le-" },
+      { "he": "עסקת מכר מרחוק", "en": "distance sale (a purchase online, by phone or from a catalogue)", "tr": "iskát mékher merakhók" },
+      { "he": "רשאי", "en": "permitted, entitled (formal)", "tr": "rasháy" },
+      { "he": "תקין", "en": "in working order, without faults", "tr": "takín" },
+      { "he": "מדיניות החזרה", "en": "return policy", "tr": "mediniyút hakhzará" },
+      { "he": "זיכוי", "en": "credit note, store credit", "tr": "zikúy" },
+      { "he": "פגום", "en": "defective, faulty", "tr": "pagúm" },
+      { "he": "אסמכתא", "en": "proof, written record, reference", "tr": "asmakhtá" },
+      { "he": "דמי ביטול", "en": "cancellation fee", "tr": "dméi bitúl" },
+      { "he": "חריג", "en": "exception (plural חריגים)", "tr": "kharíg, kharigím" },
+      { "he": "עוגמת נפש", "en": "aggravation, distress", "tr": "ogmát néfesh" },
+      { "he": "תביעה קטנה", "en": "small claim (in the small-claims court)", "tr": "tvi'á ktaná" }
+    ],
+    "questions": [
+      {
+        "q": "למה אלכסנדר רצה לבטל את הקנייה?",
+        "qEn": "Why did Alexander want to cancel the purchase?",
+        "answer": "כי המכונה הייתה רועשת מדי ותפסה חצי מהשיש.",
+        "answerEn": "Because the machine was too noisy and took up half the counter.",
+        "keywords": [
+          ["רועשת", "רועש", "רעש"],
+          ["שיש", "מקום", "תופסת", "תפסה", "גדולה"]
+        ]
+      },
+      {
+        "q": "מתי, לפי הכתבה, הצרכן רשאי בדרך כלל לבטל עסקה גם אם המוצר תקין?",
+        "qEn": "According to the article, when is the consumer usually entitled to cancel a deal even if the product is in working order?",
+        "answer": "כשהמוצר נקנה מרחוק, למשל באינטרנט, בתוך שבועיים.",
+        "answerEn": "When the product was bought at a distance, for example online, within two weeks.",
+        "keywords": [
+          ["מרחוק", "אינטרנט", "טלפון", "קטלוג", "אתר"],
+          ["שבועיים", "14", "ארבעה עשר"]
+        ]
+      },
+      {
+        "q": "מה כדאי לבדוק לפני קנייה בחנות, ולמה קל לעשות את זה?",
+        "qEn": "What is worth checking before buying in a shop, and why is it easy to do?",
+        "answer": "את מדיניות ההחזרה; העסקים חייבים להציג אותה במקום בולט.",
+        "answerEn": "The return policy; businesses must display it prominently.",
+        "keywords": [
+          ["מדיניות", "החזרה"],
+          ["להציג", "מציגים", "מציגות", "הצגה", "בולט"]
+        ]
+      },
+      {
+        "q": "מה ההבדל בין מוצר שלא מצא חן בעיני הקונה לבין מוצר פגום?",
+        "qEn": "What is the difference between a product the buyer didn't like and a defective product?",
+        "answer": "על מוצר פגום חלים כללים אחרים: העסק צריך לתקן או להחליף אותו.",
+        "answerEn": "Different rules apply to a defective product: the business has to repair or replace it.",
+        "keywords": [
+          ["לתקן", "תיקון", "מתקן"],
+          ["להחליף", "החלפה", "מחליף"]
+        ]
+      },
+      {
+        "q": "מה ממליצה עו״ד חורי לעשות לפני קנייה גדולה? כתבו שני דברים.",
+        "qEn": "What does Advocate Khoury recommend doing before a big purchase? Write two things.",
+        "answer": "לקרוא את תנאי העסקה ולשמור את החשבונית.",
+        "answerEn": "To read the terms of the deal and keep the receipt.",
+        "keywords": [
+          ["לקרוא", "תנאי", "תנאים", "לצלם", "צילום"],
+          ["חשבונית", "לשמור", "קבלה", "לצלם"]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "אלכסנדר קנה את מכונת הקפה הראשונה בחנות.",
+        "sEn": "Alexander bought the first coffee machine in a shop.",
+        "a": false,
+        "why": "He bought it on a website; only the second, smaller machine was bought in a shop."
+      },
+      {
+        "s": "העסקים צריכים להציג את מדיניות ההחזרה שלהם במקום בולט.",
+        "sEn": "Businesses have to display their return policy prominently.",
+        "a": true,
+        "why": "Paragraph 3: businesses are obliged to display the policy prominently so customers can see it before paying."
+      },
+      {
+        "s": "כל מוצר שנקנה באינטרנט אפשר להחזיר.",
+        "sEn": "Any product bought online can be returned.",
+        "a": false,
+        "why": "Not every product can be returned: food, made-to-order products and opened software or games are exceptions."
+      },
+      {
+        "s": "העסק רשאי לגבות דמי ביטול, אבל הגובה שלהם מוגבל.",
+        "sEn": "The business may charge a cancellation fee, but the amount is limited.",
+        "a": true,
+        "why": "The business may charge a cancellation fee whose amount is limited by law."
+      }
+    ],
+    "find": [
+      { "en": "convinced (masc.)", "answer": ["משוכנע"] },
+      { "en": "the return policy", "answer": ["מדיניות ההחזרה"] },
+      { "en": "a credit note", "answer": ["זיכוי"] },
+      { "en": "the exceptions", "answer": ["החריגים"] }
+    ],
+    "summary": [
+      {
+        "prompt": "אלכסנדר ___ על הקנייה של מכונת הקפה כבר אחרי יומיים.",
+        "en": "Alexander regretted buying the coffee machine after just two days.",
+        "answer": ["התחרט"],
+        "hint": "regretted (past, he)"
+      },
+      {
+        "prompt": "בעסקת מכר ___ אפשר בדרך כלל לבטל את העסקה בתוך שבועיים.",
+        "en": "In a distance sale you can usually cancel the deal within two weeks.",
+        "answer": ["מרחוק"],
+        "hint": "at a distance"
+      },
+      {
+        "prompt": "בחנות, לפעמים הלקוח לא מקבל כסף בחזרה אלא רק ___ לקנייה הבאה.",
+        "en": "In a shop, the customer sometimes doesn't get money back but only a credit note for the next purchase.",
+        "answer": ["זיכוי"],
+        "hint": "credit note"
+      },
+      {
+        "prompt": "על מוצר ___ חלים כללים אחרים, ובדרך כלל צריך לתקן או להחליף אותו.",
+        "en": "Different rules apply to a defective product, and it usually has to be repaired or replaced.",
+        "answer": ["פגום"],
+        "hint": "defective"
+      },
+      {
+        "prompt": "כדי לבטל, יש להודיע לעסק ולשמור ___ לכך שההודעה נשלחה.",
+        "en": "To cancel, you must notify the business and keep proof that the notice was sent.",
+        "answer": ["אסמכתא", "אסמכתה"],
+        "hint": "proof, record"
+      }
+    ],
+    "writing": {
+      "prompt": "כתבו מכתב רשמי לשירות הלקוחות של חנות אינטרנטית: הסבירו מה קניתם ולמה אתם רוצים לבטל, ציינו מתי המוצר התקבל ובקשו החזר כספי.",
+      "promptEn": "Write a formal letter to the customer service of an online shop: explain what you bought and why you want to cancel, say when the product arrived and ask for a refund.",
+      "minWords": 100,
+      "useWords": ["ברצוני", "לבטל את העסקה", "התקבל", "החזר כספי", "אבקש"],
+      "checklist": [
+        { "en": "Say that you want to cancel the purchase", "keywords": ["לבטל", "ביטול"] },
+        { "en": "Say when the product arrived", "keywords": ["התקבל", "קיבלתי", "הגיע"] },
+        { "en": "Ask for a refund", "keywords": ["החזר", "להחזיר", "זיכוי"] },
+        { "en": "Close the letter formally", "keywords": ["בכבוד רב", "בברכה", "אודה"] }
+      ],
+      "model": "לכבוד\nשירות הלקוחות\n\nשלום רב,\n\nביום ראשון האחרון הזמנתי באתר שלכם שואב אבק רובוטי (הזמנה מספר 48213). המוצר התקבל ביום רביעי, אך כבר בניסיון הראשון התברר שהוא אינו מתאים לדירה שלי: הוא נתקע מתחת לרהיטים ואינו מצליח לעבור מחדר לחדר. ניסיתי לשנות את ההגדרות לפי ההוראות, אך הבעיה לא נפתרה.\n\nברצוני לבטל את העסקה. מאחר שמדובר בעסקת מכר מרחוק, והפנייה נשלחת בתוך שבועיים מקבלת המוצר, אבקש לקבל החזר כספי לכרטיס האשראי, בניכוי דמי הביטול המותרים על פי החוק. המוצר שמור באריזתו המקורית, ואשמח לדעת אם שליח יאסוף אותו או שעליי להביא אותו לנקודת איסוף.\n\nאודה לכם על אישור בכתב שהבקשה התקבלה.\n\nבכבוד רב,\nעמית לוי",
+      "modelEn": "To Customer Service,\n\nDear Sir or Madam,\n\nLast Sunday I ordered a robot vacuum cleaner on your website (order number 48213). The product arrived on Wednesday, but on the very first try it turned out that it is not suitable for my flat: it gets stuck under the furniture and can't get from one room to another. I tried changing the settings according to the instructions, but the problem wasn't solved.\n\nI would like to cancel the transaction. Since this is a distance sale, and this request is being sent within two weeks of receiving the product, I request a refund to my credit card, minus the cancellation fee permitted by law. The product is kept in its original packaging, and I would be glad to know whether a courier will collect it or whether I should bring it to a collection point.\n\nI would be grateful for written confirmation that the request has been received.\n\nSincerely,\nAmit Levi"
+    }
+  },
+  {
+    "id": "r_b2_short_story_waiting",
+    "level": "B2",
+    "title": "מספר 247",
+    "titleEn": "Number 247",
+    "topic": "literature",
+    "kind": "story",
+    "paragraphs": [
+      {
+        "he": "המספר על הפתק שעמוס קיבל בכניסה היה 247. על המסך שמעל הדלפקים הבהב המספר 198. הוא עשה חשבון מהיר: ארבעים ותשעה אנשים, ארבעה פקידים, נגיד חמש דקות לכל אחד. \"שעה, אולי יותר\", אמר לעצמו, והתיישב על כיסא פלסטיק כתום, אחד מתוך שורה ארוכה של כיסאות זהים. הוא בא ללשכה רק כדי לחדש דרכון. עניין של רבע שעה, כך חשב בבוקר.",
+        "en": "The number on the slip Amos had been given at the entrance was 247. On the screen above the counters the number 198 was flashing. He did a quick calculation: forty-nine people, four clerks, say five minutes each. \"An hour, maybe more,\" he told himself, and sat down on an orange plastic chair, one of a long row of identical chairs. He had come to the office only to renew his passport. A quarter of an hour's business, or so he had thought that morning."
+      },
+      {
+        "he": "בדקות הראשונות הוא ניסה לעבוד. הוא קרא מיילים בטלפון, ענה על שניים מהם ומחק שלושה. אחר כך הסוללה כמעט נגמרה, והוא כיבה את הטלפון. מה הם עושים שם כל כך הרבה זמן? הוא הביט בפקידה שישבה מאחורי הדלפק השלישי ובדקה כל מסמך פעמיים, לאט, כאילו יש לה את כל הזמן שבעולם. בראשו כבר נכתב מכתב תלונה חריף לעיתון: \"במדינה שמתגאה בהייטק שלה, אזרח נאלץ לבזבז בוקר שלם בגלל טופס אחד...\" המשפט מצא חן בעיניו, והוא חזר עליו בלב כמה פעמים.",
+        "en": "For the first few minutes he tried to work. He read emails on his phone, answered two of them and deleted three. Then the battery almost ran out, and he switched the phone off. What are they doing there for so long? He looked at the clerk sitting behind the third counter, who checked every document twice, slowly, as if she had all the time in the world. In his head a scathing letter of complaint to the newspaper was already being written: \"In a country that prides itself on its high-tech, a citizen is forced to waste a whole morning because of one form...\" He liked the sentence, and repeated it to himself silently several times."
+      },
+      {
+        "he": "לידו ישב איש זקן במעיל חום, אף שבחוץ היה חם מאוד. על ברכיו החזיק תיקייה עבה, קשורה בגומייה. כשהאיש זז בכיסא, הגומייה נקרעה, ועשרות דפים התפזרו על הרצפה: תעודות, טפסים, מכתבים בכתב יד. עמוס התכופף בלי לחשוב ועזר לו לאסוף אותם. בין הדפים הייתה תמונה ישנה בשחור-לבן: זוג צעיר מחייך על רקע הים.",
+        "en": "Next to him sat an old man in a brown coat, although it was very hot outside. On his knees he held a thick folder, tied with a rubber band. When the man shifted in his chair, the rubber band snapped, and dozens of pages scattered across the floor: certificates, forms, handwritten letters. Without thinking, Amos bent down and helped him gather them up. Among the pages was an old black-and-white photograph: a young couple smiling against the background of the sea."
+      },
+      {
+        "he": "\"זאת אשתי\", אמר האיש כשראה שעמוס מסתכל על התמונה. \"היא נפטרה לפני שנתיים, ומאז אני מסדר את הניירות שלה. זאת הפעם השלישית שאני בא לכאן. כל פעם חסר משהו אחר.\" עמוס חיכה שהאיש יתחיל לכעוס, שיתלונן על הפקידים, על הבירוקרטיה, על הכול. אבל האיש רק חייך. \"אתה יודע\", אמר, \"כל זמן שאני יושב פה, אני עדיין עושה משהו בשבילה.\"",
+        "en": "\"That's my wife,\" said the man when he saw Amos looking at the photo. \"She passed away two years ago, and since then I've been sorting out her papers. This is the third time I've come here. Each time something else is missing.\" Amos waited for the man to start getting angry, to complain about the clerks, about the bureaucracy, about everything. But the man only smiled. \"You know,\" he said, \"as long as I'm sitting here, I'm still doing something for her.\""
+      },
+      {
+        "he": "עמוס לא ידע מה לענות. הוא חשב על הבוקר שלו, על כל הדקות שניסה \"להרוויח\", ועל כך שהוא תמיד מחכה למשהו: לסוף הפרויקט, לחופשה הבאה, ליום שבו יהיה לו סוף סוף זמן. פתאום עלתה בו מחשבה מוזרה: אולי השעות האלה, שהוא תמיד מנסה לדלג עליהן, הן בעצם החיים עצמם.",
+        "en": "Amos didn't know what to answer. He thought about his morning, about all the minutes he had tried to \"gain\", and about how he is always waiting for something: for the end of the project, for the next holiday, for the day when he will finally have time. Suddenly a strange thought rose in him: perhaps these hours, which he always tries to skip, are in fact life itself."
+      },
+      {
+        "he": "על המסך הופיע המספר 213. האיש הזקן קם, הניח לרגע יד על כתפו של עמוס ופנה אל הדלפק. עמוס נשאר לשבת, והפעם לא חיפש במה להעסיק את עצמו. הוא הסתכל סביבו: אמא צעירה שניסתה להרדים תינוק, נער ששינן משהו מתוך מחברת, פקידה שהסבירה בסבלנות, בפעם המי יודע כמה, איזה טופס צריך למלא. כשהמספר 247 הבהב סוף סוף על המסך, הוא הופתע לגלות שהוא כמעט מצטער שהגיע תורו.",
+        "en": "The number 213 appeared on the screen. The old man stood up, rested a hand on Amos's shoulder for a moment and turned to the counter. Amos stayed seated, and this time he didn't look for something to keep himself busy. He looked around him: a young mother trying to get a baby to sleep, a teenage boy memorising something from a notebook, a clerk explaining patiently, for the umpteenth time, which form had to be filled in. When the number 247 finally flashed on the screen, he was surprised to discover that he was almost sorry his turn had come."
+      }
+    ],
+    "glossary": [
+      { "he": "להבהב", "en": "to flash, flicker (הבהב = flashed)", "tr": "lehavhév" },
+      { "he": "דלפק", "en": "counter (in an office, shop or bar)", "tr": "dalpák" },
+      { "he": "פקיד, פקידה", "en": "clerk (m., f.)", "tr": "pakíd, pkidá" },
+      { "he": "לחדש", "en": "to renew (לחדש דרכון = to renew a passport)", "tr": "lekhadésh" },
+      { "he": "חריף", "en": "sharp, scathing (also: spicy)", "tr": "kharíf" },
+      { "he": "להתגאות ב", "en": "to take pride in (מתגאה = prides itself)", "tr": "lehitga'ót be-" },
+      { "he": "להיאלץ", "en": "to be forced (נאלץ = is/was forced)", "tr": "lehe'aléts" },
+      { "he": "גומייה", "en": "rubber band", "tr": "gumiyá" },
+      { "he": "להתפזר", "en": "to scatter (התפזרו = scattered, plural)", "tr": "lehitpazér" },
+      { "he": "להתכופף", "en": "to bend down (התכופף = he bent down)", "tr": "lehitkoféf" },
+      { "he": "להיפטר", "en": "to pass away (נפטרה = she passed away)", "tr": "lehipatér" },
+      { "he": "לדלג על", "en": "to skip", "tr": "ledalég al" },
+      { "he": "לשנן", "en": "to memorise, go over again and again (שינן = memorised)", "tr": "leshanén" },
+      { "he": "בפעם המי יודע כמה", "en": "for the umpteenth time", "tr": "bapá'am ha-mi yodé'a kamá" }
+    ],
+    "questions": [
+      {
+        "q": "בשביל מה עמוס הגיע ללשכה, וכמה זמן חשב בבוקר שזה ייקח?",
+        "qEn": "What did Amos come to the office for, and how long did he think in the morning it would take?",
+        "answer": "כדי לחדש דרכון; הוא חשב שזה ייקח רבע שעה.",
+        "answerEn": "To renew his passport; he thought it would take a quarter of an hour.",
+        "keywords": [
+          ["דרכון"],
+          ["רבע שעה", "רבע"]
+        ]
+      },
+      {
+        "q": "מה עמוס עשה בדקות הראשונות, ולמה הפסיק?",
+        "qEn": "What did Amos do in the first few minutes, and why did he stop?",
+        "answer": "הוא קרא מיילים בטלפון, אבל הסוללה כמעט נגמרה.",
+        "answerEn": "He read emails on his phone, but the battery almost ran out.",
+        "keywords": [
+          ["מיילים", "מייל", "לעבוד", "עבד", "טלפון"],
+          ["סוללה", "נגמרה", "כיבה"]
+        ]
+      },
+      {
+        "q": "מה היה בתיקייה של האיש הזקן, ולמה הוא בא ללשכה?",
+        "qEn": "What was in the old man's folder, and why did he come to the office?",
+        "answer": "הניירות של אשתו; הוא מסדר אותם אחרי שהיא נפטרה.",
+        "answerEn": "His wife's papers; he is sorting them out after she passed away.",
+        "keywords": [
+          ["ניירות", "מסמכים", "תעודות", "דפים", "טפסים", "מכתבים"],
+          ["אשתו", "אשתי", "אישה", "נפטרה", "מתה"]
+        ]
+      },
+      {
+        "q": "האיש הזקן לא מתלונן. איך הוא מסביר את זה?",
+        "qEn": "The old man doesn't complain. How does he explain this?",
+        "answer": "כל זמן שהוא יושב שם, הוא עושה משהו בשבילה.",
+        "answerEn": "As long as he is sitting there, he is doing something for her.",
+        "keywords": [
+          ["בשבילה", "בשביל", "עבורה", "אשתו"],
+          ["יושב", "לשבת", "עושה"]
+        ]
+      },
+      {
+        "q": "מה עמוס מבין בסוף, ואיך זה משנה את ההתנהגות שלו?",
+        "qEn": "What does Amos realise at the end, and how does it change his behaviour?",
+        "answer": "שהשעות שהוא מדלג עליהן הן החיים; הוא מסתכל על האנשים סביבו.",
+        "answerEn": "That the hours he skips are life itself; he looks at the people around him.",
+        "keywords": [
+          ["חיים", "החיים"],
+          ["מסתכל", "הסתכל", "אנשים", "סביבו", "מצטער", "ממהר"]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "בבוקר עמוס חשב שהעניין בלשכה ייקח הרבה זמן.",
+        "sEn": "In the morning Amos thought the business at the office would take a long time.",
+        "a": false,
+        "why": "That morning he thought it would be a quarter of an hour's business."
+      },
+      {
+        "s": "עמוס כתב מכתב תלונה ושלח אותו לעיתון.",
+        "sEn": "Amos wrote a letter of complaint and sent it to the newspaper.",
+        "a": false,
+        "why": "The letter was only being written in his head; he never sent anything."
+      },
+      {
+        "s": "אשתו של האיש הזקן נפטרה לפני שנתיים.",
+        "sEn": "The old man's wife passed away two years ago.",
+        "a": true,
+        "why": "The old man says: \"She passed away two years ago.\""
+      },
+      {
+        "s": "בסוף הסיפור עמוס כמעט מצטער שהגיע תורו.",
+        "sEn": "At the end of the story Amos is almost sorry that his turn has come.",
+        "a": true,
+        "why": "When 247 flashes on the screen, he is surprised to find he is almost sorry his turn has come."
+      }
+    ],
+    "find": [
+      { "en": "flashed, was flashing", "answer": ["הבהב"] },
+      { "en": "is forced", "answer": ["נאלץ"] },
+      { "en": "scattered (plural)", "answer": ["התפזרו"] },
+      { "en": "for the umpteenth time", "answer": ["בפעם המי יודע כמה"] }
+    ],
+    "summary": [
+      {
+        "prompt": "עמוס הגיע ללשכה כדי ___ את הדרכון שלו.",
+        "en": "Amos came to the office to renew his passport.",
+        "answer": ["לחדש"],
+        "hint": "to renew"
+      },
+      {
+        "prompt": "בזמן ההמתנה הוא כתב בראש שלו מכתב ___ חריף לעיתון.",
+        "en": "While waiting he wrote a scathing letter of complaint to the newspaper in his head.",
+        "answer": ["תלונה"],
+        "hint": "complaint"
+      },
+      {
+        "prompt": "כשהתיקייה של האיש הזקן נפלה, עמוס עזר לו ___ את הדפים.",
+        "en": "When the old man's folder fell, Amos helped him gather up the pages.",
+        "answer": ["לאסוף"],
+        "hint": "to gather, collect"
+      },
+      {
+        "prompt": "האיש סיפר שאשתו ___ לפני שנתיים.",
+        "en": "The man said that his wife had passed away two years earlier.",
+        "answer": ["נפטרה", "מתה"],
+        "hint": "passed away"
+      },
+      {
+        "prompt": "בסוף עמוס חשב שאולי השעות שהוא מנסה לדלג עליהן הן ___ עצמם.",
+        "en": "In the end Amos thought that perhaps the hours he tries to skip are life itself.",
+        "answer": ["החיים", "חיים"],
+        "hint": "life"
+      }
+    ],
+    "writing": {
+      "prompt": "ספרו על פעם שבה חיכיתם הרבה זמן – בתור, בשדה התעופה או במקום אחר. מה הרגשתם, ומה ראיתם או הבנתם בזמן ההמתנה?",
+      "promptEn": "Write about a time when you waited for a long time – in a queue, at the airport or somewhere else. How did you feel, and what did you see or realise while you were waiting?",
+      "minWords": 100,
+      "useWords": ["בזמן ש", "פתאום", "שמתי לב", "כאילו", "בסופו של דבר"],
+      "checklist": [
+        { "en": "Say where you waited and for how long", "keywords": ["חיכיתי", "המתנתי", "שעות", "תור"] },
+        { "en": "Describe your feelings (patience, anger, boredom)", "keywords": ["סבלנות", "כעס", "כועסות", "הרגשתי", "שעמום"] },
+        { "en": "Say what you noticed (שמתי לב / ראיתי)", "keywords": ["שמתי לב", "ראיתי", "הבנתי"] },
+        { "en": "Say how it ended (בסופו של דבר / בסוף)", "keywords": ["בסופו של דבר", "בסוף"] }
+      ],
+      "model": "בקיץ שעבר חיכיתי כמעט חמש שעות בשדה התעופה, כי הטיסה שלי לאתונה התעכבה שוב ושוב. בהתחלה איבדתי את הסבלנות: כל חצי שעה הלכתי ללוח הטיסות, בדקתי את הטלפון ושלחתי הודעות כועסות לכל מי שהכרתי. אחר כך הסוללה נגמרה, ולא הייתה לי ברירה אלא לשבת ולהסתכל. פתאום שמתי לב לדברים שלא ראיתי קודם: משפחה גדולה ששיחקה קלפים על הרצפה, דיילת צעירה ששתתה קפה לבד, ילד שבכה כאילו העולם נגמר ואחר כך נרדם על מזוודה. בזמן שחיכיתי, התחלתי לדבר עם זוג מבוגרים מחיפה, והתברר שהם נוסעים לאותו כנס כמוני. בסופו של דבר הטיסה המריאה רק בחצות, אבל הגעתי לאתונה עם חברים חדשים ועם הרבה פחות כעס ממה שציפיתי.",
+      "modelEn": "Last summer I waited almost five hours at the airport, because my flight to Athens was delayed again and again. At first I lost my patience: every half hour I went to the departures board, checked my phone and sent angry messages to everyone I knew. Then the battery died, and I had no choice but to sit and watch. Suddenly I noticed things I hadn't seen before: a big family playing cards on the floor, a young flight attendant drinking coffee alone, a child crying as if the world had ended and then falling asleep on a suitcase. While I was waiting, I started talking to an older couple from Haifa, and it turned out they were going to the same conference as me. In the end the flight only took off at midnight, but I arrived in Athens with new friends and with much less anger than I had expected."
+    }
+  }
+]

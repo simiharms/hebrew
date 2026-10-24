@@ -1,0 +1,372 @@
+[
+  {
+    "id": "g_a2_comparison",
+    "level": "A2",
+    "title": "Comparing: יותר, פחות, הכי",
+    "titleHe": "השוואה: יותר, פחות, הכי",
+    "summary": "Comparing with יותר / פחות … מ (and ממני, ממך…), כמו and אותו … כמו, the superlative with הכי or ה… ביותר, and saying what you prefer with מעדיף / מעדיפה.",
+    "sections": [
+      {
+        "h": "More than: יותר … מ",
+        "body": "Hebrew adjectives have no special comparative form like English bigger or better. You simply add יותר (yotér, more), before or after the adjective, and bring in the thing you compare with using מ (than):\n\n• הדירה הזאת יותר גדולה. / הדירה הזאת גדולה יותר. (hadirá hazót yotér gdolá / gdolá yotér) — This apartment is bigger.\n• תל אביב יותר יקרה מחיפה. (tel avív yotér yekará mekheifá) — Tel Aviv is more expensive than Haifa.\n\nBoth orders are correct. יותר + adjective is the everyday spoken order; adjective + יותר sounds a little more careful and is common in writing. 'Better' and 'worse' are regular too: יותר טוב / טוב יותר (yotér tov), יותר גרוע (yotér garú'a). The adjective still agrees with its noun as usual (see the table).\n\nמ is a prefix. Before a name or a noun without ה it is simply מ-: מדני (midáni), than Danny. Before ה it keeps the ה: מהדירה (mehadirá), מהאוטובוס (meha'otobús). This is different from ב and ל, which swallow the ה: בדירה (badirá), לדירה.\n\nWhen מ follows, you can often drop יותר, especially with age and size, and the difference comes with ב:\n• הוא מבוגר ממני. (hu mevugár miméni) — He's older than me.\n• היא צעירה ממנו בשנתיים. (hi tse'irá miménu bishnatáyim) — She's two years younger than him.\n\nMore useful pieces:\n• הרבה יותר (harbé yotér) — much more; קצת יותר (ktsat yotér) — a bit more: הרכבת הרבה יותר מהירה מהאוטובוס. (harakével harbé yotér mehirá meha'otobús) — The train is much faster than the bus.\n• יותר with a noun or a verb: יש לה יותר ניסיון ממני. (yesh la yotér nisayón miméni) — She has more experience than me.\n• With numbers: יותר מעשרים אנשים (yotér me'esrím anashím) — more than twenty people.\n• Careful: יותר מדי (yotér midái) means 'too much', not 'more': אני עובד יותר מדי. (ani ovéd yotér midái) — I work too much.",
+        "table": [
+          ["Noun", "'bigger'", "Say it", "Also correct"],
+          ["החדר (m.)", "יותר גדול", "yotér gadól", "גדול יותר"],
+          ["הדירה (f.)", "יותר גדולה", "yotér gdolá", "גדולה יותר"],
+          ["החדרים (m. pl.)", "יותר גדולים", "yotér gdolím", "גדולים יותר"],
+          ["הדירות (f. pl.)", "יותר גדולות", "yotér gdolót", "גדולות יותר"]
+        ]
+      },
+      {
+        "h": "Than me, than you: ממני, ממך…",
+        "body": "A pronoun can't stand on its own after מ: you never say ✗ יותר מאני. Like other prepositions, מ takes a pronoun ending, and in the singular it doubles itself first: ממני (miméni) — than me, from me.\n\n• אחי גבוה ממני. (akhí gavóha miméni) — My brother is taller than me.\n• את מדברת עברית יותר טוב ממני. (at medabéret ivrít yotér tov miméni) — You speak Hebrew better than me.\n• הם מרוויחים יותר מאיתנו. (hem marvikhím yotér me'itánu) — They earn more than us.\n\nממך is mimkhá to a man and mimékh to a woman; the spelling is the same. ממנו means both 'than him' and 'than us', so for 'us' people usually say מאיתנו (me'itánu). With אתם, אתן, הם and הן there's no doubling: מכם, מכן, מהם, מהן.",
+        "table": [
+          ["Pronoun", "מ + ending", "Say it", "Example", "In English"],
+          ["אני", "ממני", "miméni", "הוא מבוגר ממני", "He's older than me."],
+          ["אתה", "ממך", "mimkhá", "אני גבוה ממך", "I'm taller than you. (m.)"],
+          ["את", "ממך", "mimékh", "היא צעירה ממך", "She's younger than you. (f.)"],
+          ["הוא", "ממנו", "miménu", "את חכמה ממנו", "You're smarter than him."],
+          ["היא", "ממנה", "miména", "הוא מהיר ממנה", "He's faster than her."],
+          ["אנחנו", "מאיתנו (ממנו)", "me'itánu", "הם עשירים מאיתנו", "They're richer than us."],
+          ["אתם", "מכם", "mikém", "אנחנו מוכנים יותר מכם", "We're better prepared than you."],
+          ["אתן", "מכן", "mikén", "הן צעירות מכן", "They're younger than you. (f. pl.)"],
+          ["הם", "מהם", "mehém", "אנחנו לא פחות טובים מהם", "We're no worse than them."],
+          ["הן", "מהן", "mehén", "אתן מהירות יותר מהן", "You're faster than them. (f. pl.)"]
+        ]
+      },
+      {
+        "h": "Less, as … as, the same as: פחות, כמו, אותו … כמו",
+        "body": "פחות (pakhót, less) works exactly like יותר: פחות + adjective + מ. It also means 'fewer' with plural nouns.\n• החורף בתל אביב פחות קר מהחורף בירושלים. (hakhóref betel avív pakhót kar mehakhóref birushaláyim) — Winter in Tel Aviv is less cold than winter in Jerusalem.\n• הוא עובד פחות שעות ממני. (hu ovéd pakhót sha'ót miméni) — He works fewer hours than me.\n• פחות מחמש דקות (pakhót mekhamésh dakót) — less than five minutes.\n\nכמו (kmo) means 'like' and 'as … as'. Hebrew has no word for the first 'as': just adjective + כמו.\n• הבן שלי גבוה כמו אבא שלו. (habén shelí gavóha kmo ába shelo) — My son is as tall as his father.\n• היא מדברת עברית כמו ישראלית. (hi medabéret ivrít kmo israelít) — She speaks Hebrew like an Israeli.\nWith pronouns: כמוני (kamóni), כמוך (kamókha / kamókh), כמוהו (kamóhu), כמוה (kamóha), כמונו (kamónu), כמוכם (kmokhém), כמוכן (kmokhén), כמוהם (kmohém), כמוהן (kmohén). אין כמוך! (ein kamókha) — There's no one like you!\n\n'The same' is אותו (otó) before a masculine noun, אותה (otá) before a feminine one, אותם (otám) and אותן (otán) in the plural. 'The same … as' adds כמו. (This אותו looks exactly like אותו 'him', but here it stands before a noun.)\n• אנחנו גרים באותו בניין. (anákhnu garím be'otó binyán) — We live in the same building.\n• יש לי אותה שמלה כמו שלך. (yesh li otá simlá kmo shelákh) — I have the same dress as yours.\n• זה עולה אותו דבר. (ze olé otó davár) — It costs the same.\n• לגור בכפר זה לא אותו דבר כמו לגור בעיר. (lagúr bakfár ze lo otó davár kmo lagúr ba'ír) — Living in a village isn't the same as living in the city.\n\nTwo neighbours with their own prepositions: שונה מ (shoné / shoná mi-) — different from, and דומה ל (domé / domá le-) — similar to.\n• העבודה החדשה שלי שונה מאוד מהקודמת. (ha'avodá hakhadashá shelí shoná me'ód mehakodémet) — My new job is very different from the previous one.\n• הבת דומה מאוד לאבא שלה. (habát domá me'ód le'ába shelá) — The daughter looks very much like her father.\nNever ✗ שונה כמו."
+      },
+      {
+        "h": "The most: הכי and ה… ביותר",
+        "body": "In everyday Hebrew the superlative is just הכי (hakhí) before the adjective:\n• זאת המסעדה הכי טובה בעיר. (zot hamis'adá hakhí tová ba'ír) — This is the best restaurant in town.\n• מי הכי גבוה במשפחה? (mi hakhí gavóha bamishpakhá?) — Who's the tallest in the family?\n• מה את הכי אוהבת לאכול? (ma at hakhí ohévet le'ekhól?) — What do you like eating most?\n• הכי הרבה (hakhí harbé) — the most; הכי פחות (hakhí pakhót) — the least: מי עבד הכי הרבה השבוע? (mi avád hakhí harbé hashavú'a?) — Who worked the most this week?\n• 'Of all' is מכולם (mikulám), or מכולן for a group of women: היא הכי מהירה מכולם. (hi hakhí mehirá mikulám) — She's the fastest of all.\n\nNote the article: the noun has ה, but the adjective after הכי does not — המסעדה הכי טובה. You will hear ✗ המסעדה הכי הטובה in casual speech, but avoid it.\n\nIn writing, in the news and in formal speech, the superlative is ה + adjective + ביותר (beyotér). Here the adjective does take ה, like any adjective after a definite noun, and it agrees as usual:\n• המסעדה הטובה ביותר בעיר (hamis'adá hatová beyotér ba'ír) — the best restaurant in the city\n• הדירות הזולות ביותר באזור (hadirót hazolót beyotér ba'ezór) — the cheapest apartments in the area\n\nWithout ה, ביותר after an adjective means 'extremely': זה עניין חשוב ביותר. (ze inyán khashúv beyotér) — This is an extremely important matter.",
+        "table": [
+          ["Everyday", "Formal", "In English"],
+          ["המסעדה הכי טובה", "המסעדה הטובה ביותר", "the best restaurant"],
+          ["הבניין הכי גבוה", "הבניין הגבוה ביותר", "the tallest building"],
+          ["העונה הכי חמה", "העונה החמה ביותר", "the hottest season"],
+          ["הפתרונות הכי פשוטים", "הפתרונות הפשוטים ביותר", "the simplest solutions"],
+          ["הדירות הכי זולות", "הדירות הזולות ביותר", "the cheapest apartments"]
+        ]
+      },
+      {
+        "h": "Preferring: מעדיף, מעדיפה",
+        "body": "להעדיף (leha'adíf, to prefer) is a hif'il verb. In the present it has the usual four forms: מעדיף (ma'adíf), מעדיפה (ma'adifá), מעדיפים (ma'adifím), מעדיפות (ma'adifót).\n\n• + a noun: אני מעדיף תה. (ani ma'adíf te) — I prefer tea. Before a definite noun add את: אני מעדיפה את החולצה האדומה. (ani ma'adifá et hakhultsá ha'adumá) — I prefer the red shirt.\n• + an infinitive: היא מעדיפה לעבוד מהבית. (hi ma'adifá la'avód mehabáyit) — She prefers to work from home.\n• X to Y with nouns: על — אני מעדיף תה על קפה. (ani ma'adíf te al kafé) — I prefer tea to coffee. Formal writing also uses על פני.\n• X rather than Y with infinitives: מאשר (me'ashér) — אנחנו מעדיפים ללכת ברגל מאשר לחכות לאוטובוס. (anákhnu ma'adifím lalékhet barégel me'ashér lekhakót la'otobús) — We'd rather walk than wait for the bus.\n• Asking: מה אתה מעדיף, קפה או תה? (ma atá ma'adíf, kafé o te?) — What would you prefer, coffee or tea?\n\nThe past and future follow hif'il: העדפתי (he'edáfti) — I preferred; אעדיף (a'adíf) — I'll prefer. A very common relative is עדיף (adíf), 'it's better': עדיף לנסוע ברכבת, אין פקקים. (adíf linsó'a barakével, ein pkakím) — It's better to go by train; there are no traffic jams.",
+        "table": [
+          ["Form", "להעדיף", "Say it"],
+          ["m. sg. (אני, אתה, הוא)", "מעדיף", "ma'adíf"],
+          ["f. sg. (אני, את, היא)", "מעדיפה", "ma'adifá"],
+          ["m. pl. (אנחנו, אתם, הם)", "מעדיפים", "ma'adifím"],
+          ["f. pl. (אנחנו, אתן, הן)", "מעדיפות", "ma'adifót"]
+        ]
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "הדירה החדשה גדולה ___ מהדירה הישנה.",
+        "en": "The new apartment is bigger than the old one.",
+        "answer": ["יותר"],
+        "hint": "more",
+        "explain": "Hebrew has no -er ending: add יותר (yotér). It can come after the adjective, as here (גדולה יותר), or before it (יותר גדולה)."
+      },
+      {
+        "prompt": "החורף בתל אביב ___ קר מהחורף בירושלים.",
+        "en": "Winter in Tel Aviv is less cold than winter in Jerusalem.",
+        "answer": ["פחות"],
+        "hint": "less",
+        "explain": "פחות (pakhót) works exactly like יותר: פחות + adjective + מ."
+      },
+      {
+        "prompt": "הקפה כאן טוב יותר ___ במשרד. (מ + הקפה)",
+        "en": "The coffee here is better than the coffee at the office.",
+        "answer": ["מהקפה"],
+        "hint": "than + the coffee, one word",
+        "explain": "מ is a prefix and keeps the ה of a definite noun: מהקפה (mehakafé). Unlike ב and ל, it doesn't swallow the ה."
+      },
+      {
+        "prompt": "רון מבוגר ___ בשלוש שנים. (מ + אני)",
+        "en": "Ron is three years older than me.",
+        "answer": ["ממני"],
+        "hint": "than me",
+        "explain": "מ + אני = ממני (miméni). With מ, יותר can be left out, and the difference comes with ב: בשלוש שנים."
+      },
+      {
+        "prompt": "אל תדאגי, הוא לא יותר חכם ___. (מ + את)",
+        "en": "Don't worry, he's no smarter than you.",
+        "answer": ["ממך"],
+        "hint": "than you (f.)",
+        "explain": "מ + את = ממך, said mimékh to a woman (and mimkhá to a man); the spelling is the same."
+      },
+      {
+        "prompt": "מיכל ויונתן עובדים באותה חברה. יונתן מרוויח פחות ___, אבל הוא גם עובד פחות שעות. (מ + היא)",
+        "en": "Michal and Yonatan work at the same company. Yonatan earns less than her, but he also works fewer hours.",
+        "answer": ["ממנה"],
+        "hint": "than her",
+        "explain": "מ + היא = ממנה (miména). Notice that פחות means both 'less' and 'fewer'."
+      },
+      {
+        "prompt": "המתחרים שלנו עובדים הרבה יותר ___. (מ + אנחנו)",
+        "en": "Our competitors work much more than we do.",
+        "answer": ["מאיתנו", "ממנו"],
+        "hint": "than us",
+        "explain": "'Than us' is usually מאיתנו (me'itánu), because ממנו also means 'than him'. ממנו is correct too, just ambiguous."
+      },
+      {
+        "prompt": "הבת שלי כבר גבוהה ___ אבא שלה.",
+        "en": "My daughter is already as tall as her father.",
+        "answer": ["כמו"],
+        "hint": "as … as",
+        "explain": "'As tall as' is just adjective + כמו (kmo): Hebrew has no word for the first 'as'."
+      },
+      {
+        "prompt": "בחנות הקטנה החלב עולה ___ דבר כמו בסופר.",
+        "en": "In the little shop, milk costs the same as in the supermarket.",
+        "answer": ["אותו"],
+        "hint": "the same",
+        "explain": "אותו דבר (otó davár) = the same (thing); 'the same as' is אותו דבר כמו."
+      },
+      {
+        "prompt": "תראי, יש לי ___ שמלה כמו שלך!",
+        "en": "Look, I have the same dress as yours!",
+        "answer": ["אותה"],
+        "hint": "the same; שמלה is feminine",
+        "explain": "'The same' agrees with its noun: אותו before a masculine noun, אותה (otá) before a feminine one like שמלה."
+      },
+      {
+        "prompt": "יעל היא הסטודנטית ___ טובה בקורס.",
+        "en": "Yael is the best student on the course.",
+        "answer": ["הכי"],
+        "hint": "the most (everyday style)",
+        "explain": "The everyday superlative is הכי (hakhí) + adjective, and the adjective has no ה: הסטודנטית הכי טובה."
+      },
+      {
+        "prompt": "זאת המסעדה ___ ביותר בעיר. (טוב)",
+        "en": "This is the best restaurant in the city.",
+        "answer": ["הטובה"],
+        "hint": "formal: ה + adjective + ביותר; מסעדה is feminine",
+        "explain": "In the formal superlative the adjective takes ה and agrees with its noun: המסעדה הטובה ביותר (hatová beyotér)."
+      },
+      {
+        "prompt": "אלה הדירות ___ ביותר באזור. (זול)",
+        "en": "These are the cheapest apartments in the area.",
+        "answer": ["הזולות"],
+        "hint": "formal superlative, feminine plural",
+        "explain": "דירות is feminine plural, so the adjective is הזולות (hazolót) + ביותר."
+      },
+      {
+        "prompt": "אני ___ לעבוד מהבית, זה חוסך לי שעה בפקקים. (להעדיף; the speaker is a woman)",
+        "en": "I prefer to work from home; it saves me an hour in traffic.",
+        "answer": ["מעדיפה"],
+        "hint": "present, feminine singular",
+        "explain": "להעדיף in the present: מעדיף, מעדיפה (ma'adifá), מעדיפים, מעדיפות. An infinitive can follow directly."
+      },
+      {
+        "prompt": "הילדים שלי מעדיפים פיצה ___ פסטה.",
+        "en": "My kids prefer pizza to pasta.",
+        "answer": ["על", "על פני"],
+        "hint": "prefer X to Y, with nouns",
+        "explain": "With nouns, 'prefer X to Y' is מעדיף X על Y (in formal writing also על פני)."
+      },
+      {
+        "prompt": "אני מעדיף ללכת ברגל ___ לחכות חצי שעה לאוטובוס.",
+        "en": "I'd rather walk than wait half an hour for the bus.",
+        "answer": ["מאשר"],
+        "hint": "'rather than' before an infinitive",
+        "explain": "Between two infinitives, 'rather than' is מאשר (me'ashér)."
+      }
+    ]
+  },
+  {
+    "id": "g_a2_dative",
+    "level": "A2",
+    "title": "Cold to me: feelings with ל",
+    "titleHe": "קר לי: תחושות עם ל",
+    "summary": "Saying you're cold, bored, in pain or fed up: ל + ending (לי, לך, לו…) with a state word that never changes, כואב and חסר that agree with their subject, נמאס לי, and the past and future with היה / יהיה.",
+    "sections": [
+      {
+        "h": "ל with endings: a quick reminder",
+        "body": "You already know ל + a pronoun ending from יש לי (I have). Exactly the same forms are used to say how someone feels, so it's worth having them at your fingertips (see the table).\n\nIn unvocalised writing לך is lekhá (to a man) or lakh (to a woman); only the context tells you which.\n\nWith a name or a noun, ל is simply a prefix:\n• לדני קר. (ledáni kar) — Danny is cold.\n• לילדים משעמם. (layeladím mesha'amém) — The kids are bored.\nBefore ה, ל swallows the ה: ל + הילדים = לילדים.",
+        "table": [
+          ["Pronoun", "ל + ending", "Say it", "Example", "In English"],
+          ["אני", "לי", "li", "קר לי", "I'm cold."],
+          ["אתה", "לך", "lekhá", "חם לך?", "Are you hot? (m.)"],
+          ["את", "לך", "lakh", "נוח לך?", "Are you comfortable? (f.)"],
+          ["הוא", "לו", "lo", "קשה לו", "It's hard for him."],
+          ["היא", "לה", "la", "טוב לה פה", "She's happy here."],
+          ["אנחנו", "לנו", "lánu", "משעמם לנו", "We're bored."],
+          ["אתם", "לכם", "lakhém", "קר לכם?", "Are you cold? (m. pl.)"],
+          ["אתן", "לכן", "lakhén", "חם לכן?", "Are you hot? (f. pl.)"],
+          ["הם", "להם", "lahém", "עצוב להם", "They feel sad."],
+          ["הן", "להן", "lahén", "קל להן", "It's easy for them. (f.)"]
+        ]
+      },
+      {
+        "h": "קר לי, not אני קר",
+        "body": "To say how you feel — cold, hot, bored, comfortable — Hebrew doesn't make you the subject. It says, literally, 'it's cold to me': קר לי (kar li). In the present there is no 'it' and no verb, just a state word plus ל + the person.\n\nThe state word is always in its basic masculine singular form, whoever feels it: קר לי, קר לה, קר לנו — never ✗ קרה לה or ✗ קרים לנו.\n\nThis matters, because with the person as the subject the meaning changes:\n• משעמם לי (mesha'amém li) — I'm bored. But אני משעמם (ani mesha'amém) — I'm boring!\n• קר לו (kar lo) — He feels cold. But הוא קר (hu kar) — He's cold to the touch, or cold and unfriendly.\n\nWord order: קר לי and לי קר are both fine; putting לי first stresses the person: לי קר, לך לא? (li kar, lekhá lo?) — I'm cold, aren't you? With a name, the name often comes first: לדני קר.\n\nMany of these words take an infinitive:\n• קשה לי לקום בבוקר. (kashé li lakúm babóker) — I find it hard to get up in the morning.\n• נוח לך להיפגש ביום שני? (nó'akh lekhá lehipagésh beyóm shení?) — Is Monday convenient for you to meet? — a very common question at work.\n• לא נעים לי לבקש. (lo na'ím li levakésh) — I feel awkward asking.",
+        "table": [
+          ["Hebrew", "Say it", "In English"],
+          ["קר לי", "kar li", "I'm cold"],
+          ["חם לה", "kham la", "she's hot"],
+          ["משעמם לנו", "mesha'amém lánu", "we're bored"],
+          ["נעים לי", "na'ím li", "it's pleasant for me, I feel at ease"],
+          ["לא נעים לי", "lo na'ím li", "I feel awkward, I'm embarrassed"],
+          ["קשה לו", "kashé lo", "it's hard for him"],
+          ["קל לי", "kal li", "it's easy for me"],
+          ["נוח לך?", "nó'akh lekhá?", "are you comfortable? does it suit you?"],
+          ["טוב לי", "tov li", "I'm happy, I feel good"],
+          ["עצוב לה", "atsúv la", "she feels sad"],
+          ["חשוב לי", "khashúv li", "it matters to me"],
+          ["ברור לך?", "barúr lakh?", "is that clear to you? (f.)"]
+        ]
+      },
+      {
+        "h": "כואב לי: the verb agrees with what hurts",
+        "body": "Pain works differently. כואב (ko'év) is a real verb, 'to hurt', and its subject is the body part. So it agrees with the body part in gender and number, while the person in pain is still ל + ending. The body part takes ה (the), not 'my':\n• כואב לי הראש. (ko'év li harósh) — My head hurts. ראש is masculine.\n• כואבת לי הבטן. (ko'évet li habéten) — My stomach hurts. בטן is feminine.\n• כואבים לו השרירים. (ko'avím lo hashrirím) — His muscles ache. Masculine plural.\n• כואבות לה הרגליים. (ko'avót la haragláyim) — Her feet hurt. Feminine plural.\n\nMost paired body parts are feminine — יד, רגל, עין, אוזן, ברך, כתף — and so are שן and בטן. So their plural usually takes כואבות: כואבות לי העיניים (ko'avót li ha'eináyim) — My eyes hurt.\n\nThe verb usually comes first, but הראש כואב לי (harósh ko'év li) is fine too. In casual speech you will often hear plain כואב for everything (כואב לי הבטן), but that isn't standard: careful Hebrew agrees, and that is what you should write. With no body part at all, use the masculine singular: איפה כואב לך? (éifo ko'év lekhá?) — Where does it hurt?\n\nBecause כואב is a verb, it has its own past and future, without היה:\n• כאב לי הראש. (ka'áv li harósh) — I had a headache.\n• כאבה לי הבטן (ka'avá li habéten); כאבו לי הרגליים (ka'avú li haragláyim).\n• אם תשב ככה כל היום, יכאב לך הגב. (im teshév kakhá kol hayóm, yikh'áv lekhá hagáv) — If you sit like that all day, your back will hurt.",
+        "table": [
+          ["Body part", "Gender", "It hurts", "Say it"],
+          ["ראש (head)", "m.", "כואב לי הראש", "ko'év li harósh"],
+          ["גב (back)", "m.", "כואב לי הגב", "ko'év li hagáv"],
+          ["גרון (throat)", "m.", "כואב לי הגרון", "ko'év li hagarón"],
+          ["בטן (stomach)", "f.", "כואבת לי הבטן", "ko'évet li habéten"],
+          ["שן (tooth)", "f.", "כואבת לי השן", "ko'évet li hashén"],
+          ["שרירים (muscles)", "m. pl.", "כואבים לי השרירים", "ko'avím li hashrirím"],
+          ["רגליים (legs, feet)", "f. pl.", "כואבות לי הרגליים", "ko'avót li haragláyim"],
+          ["עיניים (eyes)", "f. pl.", "כואבות לי העיניים", "ko'avót li ha'eináyim"]
+        ]
+      },
+      {
+        "h": "חסר לי, נמאס לי and friends",
+        "body": "• חסר (khasér) — missing, lacking. Like כואב, it agrees with the thing that is missing, because that thing is the subject: חסר לי עט (khasér li et) — I don't have a pen, I'm missing a pen; חסרה לנו חתימה (khaserá lánu khatimá) — we're missing a signature; חסרים לי שני מסמכים (khaserím li shnei mismakhím) — I'm missing two documents; חסרות לנו שתי חתימות (khaserót lánu shtei khatimót) — we're missing two signatures. With a person it means 'I miss…': את חסרה לי (at khaserá li) — I miss you (f.).\n\n• נמאס לי (nim'ás li) — I'm fed up, I've had enough. In this use it never changes form. Add מ + a noun, or an infinitive: נמאס לי מהפקקים (nim'ás li mehapkakím) — I'm sick of the traffic jams; נמאס לי לחכות (nim'ás li lekhakót) — I'm tired of waiting.\n\nThree everyday favourites with the same shape:\n• לא אכפת לי (lo ikhpát li) — I don't mind, I don't care: לא אכפת לי איפה נשב. — I don't mind where we sit.\n• בא לי (ba li) — I feel like: בא לי גלידה (ba li glída) — I feel like ice cream; בא לי לישון (ba li lishón) — I feel like sleeping.\n• נראה לי (nir'é li) — I think, it seems to me: נראה לי שהוא צודק. (nir'é li shehú tsodék) — I think he's right."
+      },
+      {
+        "h": "Past and future: היה לי קר, יהיה לך חם",
+        "body": "In the present there's no verb, so the past and future add היה (hayá, was) and יהיה (yihyé, will be). With the state words the verb is always masculine singular, just like the state word itself:\n• היה לי קר. (hayá li kar) — I was cold.\n• היה לה משעמם בסרט. (hayá la mesha'amém baséret) — She was bored during the film.\n• יהיה לך חם במעיל הזה. (yihyé lekhá kham bame'íl hazé) — You'll be hot in that coat.\n• לא יהיה לכם קשה. (lo yihyé lakhém kashé) — It won't be hard for you.\n\nThe usual order is היה + לי + state, exactly as in היה לי (I had). Don't say ✗ הייתי קר: that would describe you as a cold person. And without ל it's about the weather: היה קר אתמול (hayá kar etmól) — It was cold yesterday.\n\nWith חסר, the verb agrees with the missing thing, because that is the subject: היה חסר לי עט, הייתה חסרה לנו חתימה (haytá khaserá lánu khatimá), היו חסרים לנו כיסאות (hayú khaserím lánu kis'ót). And כואב, as you saw, uses its own past and future: כאב, יכאב.",
+        "table": [
+          ["Present", "Past", "Future", "In English (present)"],
+          ["קר לי", "היה לי קר", "יהיה לי קר", "I'm cold"],
+          ["משעמם לה", "היה לה משעמם", "יהיה לה משעמם", "she's bored"],
+          ["קשה לנו", "היה לנו קשה", "יהיה לנו קשה", "it's hard for us"],
+          ["חסר לי עט", "היה חסר לי עט", "יהיה חסר לי עט", "I'm missing a pen"],
+          ["חסרה לי חתימה", "הייתה חסרה לי חתימה", "תהיה חסרה לי חתימה", "I'm missing a signature"],
+          ["חסרים לנו כיסאות", "היו חסרים לנו כיסאות", "יהיו חסרים לנו כיסאות", "we're short of chairs"],
+          ["כואב לי הראש", "כאב לי הראש", "יכאב לי הראש", "my head hurts"]
+        ]
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "תסגור את החלון, בבקשה, קר ___. (ל + אני)",
+        "en": "Close the window, please, I'm cold.",
+        "answer": ["לי"],
+        "hint": "ל + אני",
+        "explain": "'I'm cold' is literally 'it's cold to me': קר לי (kar li)."
+      },
+      {
+        "prompt": "רונית, מתי נוח ___ להיפגש, ביום שני או ביום שלישי? (ל + את)",
+        "en": "Ronit, when is it convenient for you to meet, Monday or Tuesday?",
+        "answer": ["לך"],
+        "hint": "ל + את",
+        "explain": "ל + את = לך (lakh). נוח לך + infinitive is the standard way to ask what suits someone."
+      },
+      {
+        "prompt": "הילדים אומרים שחם ___ בחדר. (ל + הם)",
+        "en": "The kids say they feel hot in the room.",
+        "answer": ["להם"],
+        "hint": "ל + הם",
+        "explain": "ל + הם = להם (lahém). The state word חם doesn't change: חם להם."
+      },
+      {
+        "prompt": "טוב ___ בדירה החדשה? (ל + אתם)",
+        "en": "Are you happy in the new apartment?",
+        "answer": ["לכם"],
+        "hint": "ל + אתם",
+        "explain": "ל + אתם = לכם (lakhém). טוב לכם = you're happy, things are good for you."
+      },
+      {
+        "prompt": "___ לי! אין פה מה לעשות.",
+        "en": "I'm bored! There's nothing to do here.",
+        "answer": ["משעמם"],
+        "hint": "bored: literally 'it's boring to me'",
+        "explain": "משעמם לי (mesha'amém li) = I'm bored. אני משעמם would mean 'I'm boring'!"
+      },
+      {
+        "prompt": "לסבתא שלי ___ לעלות במדרגות.",
+        "en": "My grandmother finds it hard to climb the stairs.",
+        "answer": ["קשה"],
+        "hint": "hard",
+        "explain": "קשה ל… + infinitive = it's hard for someone to do something. With a noun, ל is a prefix: לסבתא שלי."
+      },
+      {
+        "prompt": "___ לי הבטן, אני לא רוצה לאכול. (לכאוב, הווה)",
+        "en": "My stomach hurts; I don't want to eat.",
+        "answer": ["כואבת"],
+        "hint": "present; בטן is feminine",
+        "explain": "כואב agrees with the body part, which is its subject. בטן is feminine, so כואבת (ko'évet)."
+      },
+      {
+        "prompt": "אחרי האימון ___ לי כל השרירים. (לכאוב, הווה)",
+        "en": "After the workout all my muscles ache.",
+        "answer": ["כואבים"],
+        "hint": "present; שרירים is masculine plural",
+        "explain": "שרירים is masculine plural, so the verb is כואבים (ko'avím)."
+      },
+      {
+        "prompt": "הלכנו כל היום, ועכשיו ___ לנו הרגליים. (לכאוב, הווה)",
+        "en": "We walked all day, and now our feet hurt.",
+        "answer": ["כואבות"],
+        "hint": "present; רגליים is feminine plural",
+        "explain": "רגל is feminine, like most paired body parts, so the plural takes כואבות (ko'avót)."
+      },
+      {
+        "prompt": "אתמול ___ לי הראש כל היום. (לכאוב, עבר)",
+        "en": "Yesterday I had a headache all day.",
+        "answer": ["כאב"],
+        "hint": "past; ראש is masculine",
+        "explain": "כואב is a real verb, so its past is its own form: כאב (ka'áv). (היה כואב would mean 'used to hurt'.)"
+      },
+      {
+        "prompt": "סליחה, ___ לי עט. יש לך אחד?",
+        "en": "Sorry, I don't have a pen. Do you have one?",
+        "answer": ["חסר"],
+        "hint": "missing; עט is masculine",
+        "explain": "חסר agrees with the missing thing, its subject: עט is masculine singular, so חסר (khasér)."
+      },
+      {
+        "prompt": "בטופס עדיין ___ לנו שתי חתימות.",
+        "en": "We're still missing two signatures on the form.",
+        "answer": ["חסרות"],
+        "hint": "missing; חתימות is feminine plural",
+        "explain": "חתימות is feminine plural, so חסרות (khaserót)."
+      },
+      {
+        "prompt": "___ לי מהפקקים בדרך לעבודה!",
+        "en": "I'm sick of the traffic jams on the way to work!",
+        "answer": ["נמאס"],
+        "hint": "fed up",
+        "explain": "נמאס לי (nim'ás li) = I'm fed up. It doesn't change form, and it takes מ + what you're sick of."
+      },
+      {
+        "prompt": "אתמול בערב ___ לי קר, אז שתיתי תה חם. (להיות, עבר)",
+        "en": "Last night I was cold, so I drank hot tea.",
+        "answer": ["היה"],
+        "hint": "past of the impersonal 'it is'",
+        "explain": "Past: היה (hayá) + לי + state, always masculine singular: היה לי קר. Never ✗ הייתי קר."
+      },
+      {
+        "prompt": "קחי סוודר, בערב ___ לך קר. (להיות, עתיד)",
+        "en": "Take a sweater; you'll be cold in the evening.",
+        "answer": ["יהיה"],
+        "hint": "future of the impersonal 'it is'",
+        "explain": "Future: יהיה (yihyé) + ל + state: יהיה לך קר."
+      },
+      {
+        "prompt": "בכנס ___ חסרים לנו כיסאות, וחלק מהאנשים עמדו. (להיות, עבר)",
+        "en": "At the conference we were short of chairs, and some of the people stood.",
+        "answer": ["היו"],
+        "hint": "past; agrees with כיסאות",
+        "explain": "With חסר the missing thing is the subject, so the past of להיות agrees with it: כיסאות is masculine plural, so היו (hayú) חסרים."
+      }
+    ]
+  }
+]

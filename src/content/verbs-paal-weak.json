@@ -1,0 +1,3294 @@
+[
+  {
+    "id": "verb_lihyot",
+    "inf": "להיות",
+    "tr": "lihyót",
+    "en": "to be",
+    "root": "ה.י.ה",
+    "binyan": "paal",
+    "gizra": "ל״ה (final heh) + guttural (initial ה)",
+    "level": "A1",
+    "present": {
+      "ms": [
+        "הווה",
+        "hové"
+      ],
+      "fs": [
+        "הווה",
+        "hová"
+      ],
+      "mp": [
+        "הווים",
+        "hovím"
+      ],
+      "fp": [
+        "הוות",
+        "hovót"
+      ]
+    },
+    "past": {
+      "1s": [
+        "הייתי",
+        "hayíti"
+      ],
+      "2ms": [
+        "היית",
+        "hayíta"
+      ],
+      "2fs": [
+        "היית",
+        "hayít"
+      ],
+      "3ms": [
+        "היה",
+        "hayá"
+      ],
+      "3fs": [
+        "הייתה",
+        "haytá"
+      ],
+      "1p": [
+        "היינו",
+        "hayínu"
+      ],
+      "2mp": [
+        "הייתם",
+        "hayitém"
+      ],
+      "2fp": [
+        "הייתן",
+        "hayitén"
+      ],
+      "3p": [
+        "היו",
+        "hayú"
+      ]
+    },
+    "future": {
+      "1s": [
+        "אהיה",
+        "ehyé"
+      ],
+      "2ms": [
+        "תהיה",
+        "tihyé"
+      ],
+      "2fs": [
+        "תהיי",
+        "tihyí"
+      ],
+      "3ms": [
+        "יהיה",
+        "yihyé"
+      ],
+      "3fs": [
+        "תהיה",
+        "tihyé"
+      ],
+      "1p": [
+        "נהיה",
+        "nihyé"
+      ],
+      "2mp": [
+        "תהיו",
+        "tihyú"
+      ],
+      "3p": [
+        "יהיו",
+        "yihyú"
+      ]
+    },
+    "imp": {
+      "ms": [
+        "היה",
+        "heyé"
+      ],
+      "fs": [
+        "היי",
+        "hayí"
+      ],
+      "mp": [
+        "היו",
+        "hayú"
+      ]
+    },
+    "ex": {
+      "he": "היום אני מהנדסת, אבל פעם הייתי מורה.",
+      "en": "Today I'm an engineer, but I used to be a teacher."
+    },
+    "exs": [
+      {
+        "he": "בשנה שעברה היא הייתה מנהלת צוות בחברת הייטק.",
+        "en": "Last year she was a team leader at a high-tech company.",
+        "form": "הייתה"
+      },
+      {
+        "he": "אחותי רופאה, והיא רוצה להיות מנהלת מחלקה.",
+        "en": "My sister is a doctor, and she wants to be head of a department.",
+        "form": "להיות"
+      },
+      {
+        "he": "מחר יהיה חם מאוד, אז תשתו הרבה מים.",
+        "en": "Tomorrow it'll be very hot, so drink plenty of water.",
+        "form": "יהיה"
+      }
+    ],
+    "rare": [
+      "present"
+    ],
+    "note": "The present tense is normally left out: אני מורה (I'm a teacher), הוא בבית (he's at home). The participles הווה / הווים (hové / hovím) belong to literary style only — for 'constitutes' modern Hebrew uses the pi'el מהווה — so learn them for recognition. Past הייתי, הייתה (haytá), with a double yod in ktiv male. With ל it means 'to have': היה לי רכב, תהיה לנו פגישה; on its own 'there was / there will be': היו שם הרבה אנשים. In speech the imperative is the future (תהיה בשקט! / תהיי רגועה); היה / היו appear in writing and set phrases like היו בריאים."
+  },
+  {
+    "id": "verb_likhyot",
+    "inf": "לחיות",
+    "tr": "likhyót",
+    "en": "to live, to be alive",
+    "root": "ח.י.ה",
+    "binyan": "paal",
+    "gizra": "ל״ה (final heh) + guttural (initial ח)",
+    "level": "A2",
+    "present": {
+      "ms": [
+        "חי",
+        "khay"
+      ],
+      "fs": [
+        "חיה",
+        "khayá"
+      ],
+      "mp": [
+        "חיים",
+        "khayím"
+      ],
+      "fp": [
+        "חיות",
+        "khayót"
+      ]
+    },
+    "past": {
+      "1s": [
+        "חייתי",
+        "khayíti"
+      ],
+      "2ms": [
+        "חיית",
+        "khayíta"
+      ],
+      "2fs": [
+        "חיית",
+        "khayít"
+      ],
+      "3ms": [
+        "חי",
+        "khay"
+      ],
+      "3fs": [
+        "חיה",
+        "khayá"
+      ],
+      "1p": [
+        "חיינו",
+        "khayínu"
+      ],
+      "2mp": [
+        "חייתם",
+        "khayitém"
+      ],
+      "2fp": [
+        "חייתן",
+        "khayitén"
+      ],
+      "3p": [
+        "חיו",
+        "khayú"
+      ]
+    },
+    "future": {
+      "1s": [
+        "אחיה",
+        "ekhyé"
+      ],
+      "2ms": [
+        "תחיה",
+        "tikhyé"
+      ],
+      "2fs": [
+        "תחיי",
+        "tikhyí"
+      ],
+      "3ms": [
+        "יחיה",
+        "yikhyé"
+      ],
+      "3fs": [
+        "תחיה",
+        "tikhyé"
+      ],
+      "1p": [
+        "נחיה",
+        "nikhyé"
+      ],
+      "2mp": [
+        "תחיו",
+        "tikhyú"
+      ],
+      "3p": [
+        "יחיו",
+        "yikhyú"
+      ]
+    },
+    "imp": {
+      "ms": [
+        "חיה",
+        "kheyé"
+      ],
+      "fs": [
+        "חיי",
+        "khayí"
+      ],
+      "mp": [
+        "חיו",
+        "khayú"
+      ]
+    },
+    "ex": {
+      "he": "כמה זמן חיית בצרפת?",
+      "en": "How long did you live in France?"
+    },
+    "exs": [
+      {
+        "he": "חיינו בברלין חמש שנים ואז חזרנו לארץ.",
+        "en": "We lived in Berlin for five years and then came back to Israel.",
+        "form": "חיינו"
+      },
+      {
+        "he": "בישראל אנשים חיים בממוצע יותר משמונים שנה.",
+        "en": "In Israel people live more than eighty years on average.",
+        "form": "חיים"
+      },
+      {
+        "he": "אני לא יודעת איך נחיה ממשכורת אחת.",
+        "en": "I don't know how we'll live on one salary.",
+        "form": "נחיה"
+      }
+    ],
+    "note": "ל״ה verb with a guttural ח. In the past the 3rd person singular usually looks like the present: הוא חי (khay), היא חיה (khayá); in writing you'll also see חייתה (khaytá, she lived). חיים (khayím) is also the noun 'life' (החיים שלי). לגור = to live somewhere (your address); לחיות = to be alive, to live a life, to live on (לחיות ממשכורת). Set phrase: חיה ותן לחיות (live and let live)."
+  },
+  {
+    "id": "verb_livnot",
+    "inf": "לבנות",
+    "tr": "livnót",
+    "en": "to build",
+    "root": "ב.נ.ה",
+    "binyan": "paal",
+    "gizra": "ל״ה (final heh)",
+    "gov": "את",
+    "level": "A2",
+    "present": {
+      "ms": [
+        "בונה",
+        "boné"
+      ],
+      "fs": [
+        "בונה",
+        "boná"
+      ],
+      "mp": [
+        "בונים",
+        "boním"
+      ],
+      "fp": [
+        "בונות",
+        "bonót"
+      ]
+    },
+    "past": {
+      "1s": [
+        "בניתי",
+        "baníti"
+      ],
+      "2ms": [
+        "בנית",
+        "baníta"
+      ],
+      "2fs": [
+        "בנית",
+        "banít"
+      ],
+      "3ms": [
+        "בנה",
+        "baná"
+      ],
+      "3fs": [
+        "בנתה",
+        "bantá"
+      ],
+      "1p": [
+        "בנינו",
+        "banínu"
+      ],
+      "2mp": [
+        "בניתם",
+        "banitém"
+      ],
+      "2fp": [
+        "בניתן",
+        "banitén"
+      ],
+      "3p": [
+        "בנו",
+        "banú"
+      ]
+    },
+    "future": {
+      "1s": [
+        "אבנה",
+        "evné"
+      ],
+      "2ms": [
+        "תבנה",
+        "tivné"
+      ],
+      "2fs": [
+        "תבני",
+        "tivní"
+      ],
+      "3ms": [
+        "יבנה",
+        "yivné"
+      ],
+      "3fs": [
+        "תבנה",
+        "tivné"
+      ],
+      "1p": [
+        "נבנה",
+        "nivné"
+      ],
+      "2mp": [
+        "תבנו",
+        "tivnú"
+      ],
+      "3p": [
+        "יבנו",
+        "yivnú"
+      ]
+    },
+    "imp": {
+      "ms": [
+        "בנה",
+        "bne"
+      ],
+      "fs": [
+        "בני",
+        "bni"
+      ],
+      "mp": [
+        "בנו",
+        "bnu"
+      ]
+    },
+    "ex": {
+      "he": "החברה בונה מגדל משרדים חדש ליד התחנה.",
+      "en": "The company is building a new office tower near the station."
+    },
+    "exs": [
+      {
+        "he": "בניתי את הארון הזה לבד, לפי ההוראות.",
+        "en": "I built this wardrobe by myself, following the instructions.",
+        "form": "בניתי"
+      },
+      {
+        "he": "אנחנו בונים עכשיו אפליקציה חדשה ללקוח גדול.",
+        "en": "Right now we're building a new app for a big client.",
+        "form": "בונים"
+      },
+      {
+        "he": "בשנה הבאה העירייה תבנה גן ילדים חדש בשכונה.",
+        "en": "Next year the municipality will build a new kindergarten in the neighborhood.",
+        "form": "תבנה"
+      }
+    ],
+    "note": "ל״ה verb like לקנות: בנתה (bantá), יבנה (yivné). Watch the ב: b at the start of the word (בונה boné, בניתי baníti) but v after a prefix (לבנות livnót, אבנה evné). Colloquial: לבנות על = to count on (אני בונה עליך — I'm counting on you). 'To be built' is the nif'al: הבניין נבנה לפני עשר שנים."
+  },
+  {
+    "id": "verb_livkot",
+    "inf": "לבכות",
+    "tr": "livkót",
+    "en": "to cry",
+    "root": "ב.כ.ה",
+    "binyan": "paal",
+    "gizra": "ל״ה (final heh)",
+    "level": "A2",
+    "present": {
+      "ms": [
+        "בוכה",
+        "bokhé"
+      ],
+      "fs": [
+        "בוכה",
+        "bokhá"
+      ],
+      "mp": [
+        "בוכים",
+        "bokhím"
+      ],
+      "fp": [
+        "בוכות",
+        "bokhót"
+      ]
+    },
+    "past": {
+      "1s": [
+        "בכיתי",
+        "bakhíti"
+      ],
+      "2ms": [
+        "בכית",
+        "bakhíta"
+      ],
+      "2fs": [
+        "בכית",
+        "bakhít"
+      ],
+      "3ms": [
+        "בכה",
+        "bakhá"
+      ],
+      "3fs": [
+        "בכתה",
+        "bakhtá"
+      ],
+      "1p": [
+        "בכינו",
+        "bakhínu"
+      ],
+      "2mp": [
+        "בכיתם",
+        "bakhitém"
+      ],
+      "2fp": [
+        "בכיתן",
+        "bakhitén"
+      ],
+      "3p": [
+        "בכו",
+        "bakhú"
+      ]
+    },
+    "future": {
+      "1s": [
+        "אבכה",
+        "evké"
+      ],
+      "2ms": [
+        "תבכה",
+        "tivké"
+      ],
+      "2fs": [
+        "תבכי",
+        "tivkí"
+      ],
+      "3ms": [
+        "יבכה",
+        "yivké"
+      ],
+      "3fs": [
+        "תבכה",
+        "tivké"
+      ],
+      "1p": [
+        "נבכה",
+        "nivké"
+      ],
+      "2mp": [
+        "תבכו",
+        "tivkú"
+      ],
+      "3p": [
+        "יבכו",
+        "yivkú"
+      ]
+    },
+    "imp": {
+      "ms": [
+        "בכה",
+        "bkhe"
+      ],
+      "fs": [
+        "בכי",
+        "bkhi"
+      ],
+      "mp": [
+        "בכו",
+        "bkhu"
+      ]
+    },
+    "ex": {
+      "he": "התינוקת בכתה כל הלילה.",
+      "en": "The baby girl cried all night."
+    },
+    "exs": [
+      {
+        "he": "בסוף הסרט כולנו בכינו.",
+        "en": "At the end of the movie we all cried.",
+        "form": "בכינו"
+      },
+      {
+        "he": "התינוק בוכה כי הוא רעב.",
+        "en": "The baby is crying because he's hungry.",
+        "form": "בוכה"
+      },
+      {
+        "he": "אל תבכי, הכול יהיה בסדר.",
+        "en": "Don't cry, everything will be fine.",
+        "form": "תבכי"
+      }
+    ],
+    "note": "ל״ה verb in which both ב and כ change sound: בוכה (bokhé) but לבכות (livkót), אבכה (evké). Past 3fs בכתה (bakhtá). 'Don't cry' uses the future: אל תבכה / אל תבכי. Don't confuse the imperative בכי (bkhi) with the noun בכי (bekhí, crying)."
+  },
+  {
+    "id": "verb_liskhot",
+    "inf": "לשחות",
+    "tr": "liskhót",
+    "en": "to swim",
+    "root": "ש.ח.ה",
+    "binyan": "paal",
+    "gizra": "ל״ה (final heh) + guttural (middle ח)",
+    "level": "A2",
+    "present": {
+      "ms": [
+        "שוחה",
+        "sokhé"
+      ],
+      "fs": [
+        "שוחה",
+        "sokhá"
+      ],
+      "mp": [
+        "שוחים",
+        "sokhím"
+      ],
+      "fp": [
+        "שוחות",
+        "sokhót"
+      ]
+    },
+    "past": {
+      "1s": [
+        "שחיתי",
+        "sakhíti"
+      ],
+      "2ms": [
+        "שחית",
+        "sakhíta"
+      ],
+      "2fs": [
+        "שחית",
+        "sakhít"
+      ],
+      "3ms": [
+        "שחה",
+        "sakhá"
+      ],
+      "3fs": [
+        "שחתה",
+        "sakhatá"
+      ],
+      "1p": [
+        "שחינו",
+        "sakhínu"
+      ],
+      "2mp": [
+        "שחיתם",
+        "sakhitém"
+      ],
+      "2fp": [
+        "שחיתן",
+        "sakhitén"
+      ],
+      "3p": [
+        "שחו",
+        "sakhú"
+      ]
+    },
+    "future": {
+      "1s": [
+        "אשחה",
+        "eskhé"
+      ],
+      "2ms": [
+        "תשחה",
+        "tiskhé"
+      ],
+      "2fs": [
+        "תשחי",
+        "tiskhí"
+      ],
+      "3ms": [
+        "ישחה",
+        "yiskhé"
+      ],
+      "3fs": [
+        "תשחה",
+        "tiskhé"
+      ],
+      "1p": [
+        "נשחה",
+        "niskhé"
+      ],
+      "2mp": [
+        "תשחו",
+        "tiskhú"
+      ],
+      "3p": [
+        "ישחו",
+        "yiskhú"
+      ]
+    },
+    "imp": {
+      "ms": [
+        "שחה",
+        "skhe"
+      ],
+      "fs": [
+        "שחי",
+        "skhi"
+      ],
+      "mp": [
+        "שחו",
+        "skhu"
+      ]
+    },
+    "ex": {
+      "he": "אני שוחה בבריכה פעמיים בשבוע.",
+      "en": "I swim in the pool twice a week."
+    },
+    "exs": [
+      {
+        "he": "בקיץ שעבר שחינו כל בוקר בים.",
+        "en": "Last summer we swam in the sea every morning.",
+        "form": "שחינו"
+      },
+      {
+        "he": "הילדים שוחים בבריכה עם המדריך.",
+        "en": "The kids are swimming in the pool with the instructor.",
+        "form": "שוחים"
+      },
+      {
+        "he": "אל תשחו בים כשאין מציל.",
+        "en": "Don't swim in the sea when there's no lifeguard.",
+        "form": "תשחו"
+      }
+    ],
+    "note": "The ש is a sin (s): שוחה (sokhé), לשחות (liskhót). ל״ה verb with a guttural ח, so past 3fs is שחתה (sakhatá). Swimming as a sport is שחייה; a swimmer is שחיין / שחיינית. Don't confuse it with לשחק (to play)."
+  },
+  {
+    "id": "verb_litot",
+    "inf": "לטעות",
+    "tr": "lit'ót",
+    "en": "to make a mistake, to be wrong",
+    "root": "ט.ע.ה",
+    "binyan": "paal",
+    "gizra": "ל״ה (final heh) + guttural (middle ע)",
+    "gov": "ב",
+    "level": "B1",
+    "present": {
+      "ms": [
+        "טועה",
+        "to'é"
+      ],
+      "fs": [
+        "טועה",
+        "to'á"
+      ],
+      "mp": [
+        "טועים",
+        "to'ím"
+      ],
+      "fp": [
+        "טועות",
+        "to'ót"
+      ]
+    },
+    "past": {
+      "1s": [
+        "טעיתי",
+        "ta'íti"
+      ],
+      "2ms": [
+        "טעית",
+        "ta'íta"
+      ],
+      "2fs": [
+        "טעית",
+        "ta'ít"
+      ],
+      "3ms": [
+        "טעה",
+        "ta'á"
+      ],
+      "3fs": [
+        "טעתה",
+        "ta'atá"
+      ],
+      "1p": [
+        "טעינו",
+        "ta'ínu"
+      ],
+      "2mp": [
+        "טעיתם",
+        "ta'itém"
+      ],
+      "2fp": [
+        "טעיתן",
+        "ta'itén"
+      ],
+      "3p": [
+        "טעו",
+        "ta'ú"
+      ]
+    },
+    "future": {
+      "1s": [
+        "אטעה",
+        "et'é"
+      ],
+      "2ms": [
+        "תטעה",
+        "tit'é"
+      ],
+      "2fs": [
+        "תטעי",
+        "tit'í"
+      ],
+      "3ms": [
+        "יטעה",
+        "yit'é"
+      ],
+      "3fs": [
+        "תטעה",
+        "tit'é"
+      ],
+      "1p": [
+        "נטעה",
+        "nit'é"
+      ],
+      "2mp": [
+        "תטעו",
+        "tit'ú"
+      ],
+      "3p": [
+        "יטעו",
+        "yit'ú"
+      ]
+    },
+    "ex": {
+      "he": "סליחה, טעיתי במספר.",
+      "en": "Sorry, I dialed the wrong number."
+    },
+    "exs": [
+      {
+        "he": "ג׳וש טעה בכתובת והגיע לבניין הלא נכון.",
+        "en": "Josh got the address wrong and arrived at the wrong building.",
+        "form": "טעה"
+      },
+      {
+        "he": "אם אני לא טועה, הפגישה ביום שלישי.",
+        "en": "If I'm not mistaken, the meeting is on Tuesday.",
+        "form": "טועה"
+      },
+      {
+        "he": "תבדקי את המספרים פעמיים כדי שלא תטעי.",
+        "en": "Check the numbers twice so you don't make a mistake.",
+        "form": "תטעי"
+      }
+    ],
+    "note": "ל״ה verb with a middle guttural ע: past 3fs טעתה (ta'atá), future יטעה (yit'é). לטעות ב = to get something wrong (טעיתי בכתובת). Very common: אם אני לא טועה (if I'm not mistaken), טעות (a mistake), בטעות (by mistake). There is no imperative in use."
+  },
+  {
+    "id": "verb_laalot",
+    "inf": "לעלות",
+    "tr": "la'alót",
+    "en": "to go up; to get on; to cost",
+    "root": "ע.ל.ה",
+    "binyan": "paal",
+    "gizra": "ל״ה (final heh) + guttural (initial ע)",
+    "gov": "על / ל",
+    "level": "A2",
+    "present": {
+      "ms": [
+        "עולה",
+        "olé"
+      ],
+      "fs": [
+        "עולה",
+        "olá"
+      ],
+      "mp": [
+        "עולים",
+        "olím"
+      ],
+      "fp": [
+        "עולות",
+        "olót"
+      ]
+    },
+    "past": {
+      "1s": [
+        "עליתי",
+        "alíti"
+      ],
+      "2ms": [
+        "עלית",
+        "alíta"
+      ],
+      "2fs": [
+        "עלית",
+        "alít"
+      ],
+      "3ms": [
+        "עלה",
+        "alá"
+      ],
+      "3fs": [
+        "עלתה",
+        "altá"
+      ],
+      "1p": [
+        "עלינו",
+        "alínu"
+      ],
+      "2mp": [
+        "עליתם",
+        "alitém"
+      ],
+      "2fp": [
+        "עליתן",
+        "alitén"
+      ],
+      "3p": [
+        "עלו",
+        "alú"
+      ]
+    },
+    "future": {
+      "1s": [
+        "אעלה",
+        "e'elé"
+      ],
+      "2ms": [
+        "תעלה",
+        "ta'alé"
+      ],
+      "2fs": [
+        "תעלי",
+        "ta'alí"
+      ],
+      "3ms": [
+        "יעלה",
+        "ya'alé"
+      ],
+      "3fs": [
+        "תעלה",
+        "ta'alé"
+      ],
+      "1p": [
+        "נעלה",
+        "na'alé"
+      ],
+      "2mp": [
+        "תעלו",
+        "ta'alú"
+      ],
+      "3p": [
+        "יעלו",
+        "ya'alú"
+      ]
+    },
+    "imp": {
+      "ms": [
+        "עלה",
+        "alé"
+      ],
+      "fs": [
+        "עלי",
+        "alí"
+      ],
+      "mp": [
+        "עלו",
+        "alú"
+      ]
+    },
+    "ex": {
+      "he": "כמה עולה כרטיס לאילת?",
+      "en": "How much is a ticket to Eilat?"
+    },
+    "exs": [
+      {
+        "he": "השנה המשכורת שלי עלתה בחמישה אחוזים.",
+        "en": "This year my salary went up by five percent.",
+        "form": "עלתה"
+      },
+      {
+        "he": "אנחנו עולים במעלית לקומה השלישית.",
+        "en": "We're taking the elevator up to the third floor.",
+        "form": "עולים"
+      },
+      {
+        "he": "תעלי על קו 5 ותרדי בתחנה המרכזית.",
+        "en": "Get on bus number 5 and get off at the central bus station.",
+        "form": "תעלי"
+      }
+    ],
+    "note": "ל״ה verb with an initial guttural ע: עלתה (altá), יעלה (ya'alé), 1s אעלה (e'elé). Uses: to go up (לעלות במדרגות), to get on (לעלות על האוטובוס), to cost (כמה זה עולה?), to occur to (עלה לי רעיון — I had an idea) and to immigrate to Israel (לעלות לארץ; עולה חדש = a new immigrant). The opposite is לרדת."
+  },
+  {
+    "id": "verb_likrot",
+    "inf": "לקרות",
+    "tr": "likrót",
+    "en": "to happen",
+    "root": "ק.ר.ה",
+    "binyan": "paal",
+    "gizra": "ל״ה (final heh)",
+    "gov": "ל",
+    "level": "A2",
+    "present": {
+      "ms": [
+        "קורה",
+        "koré"
+      ],
+      "fs": [
+        "קורה",
+        "korá"
+      ],
+      "mp": [
+        "קורים",
+        "korím"
+      ],
+      "fp": [
+        "קורות",
+        "korót"
+      ]
+    },
+    "past": {
+      "1s": [
+        "קריתי",
+        "karíti"
+      ],
+      "2ms": [
+        "קרית",
+        "karíta"
+      ],
+      "2fs": [
+        "קרית",
+        "karít"
+      ],
+      "3ms": [
+        "קרה",
+        "kará"
+      ],
+      "3fs": [
+        "קרתה",
+        "kartá"
+      ],
+      "1p": [
+        "קרינו",
+        "karínu"
+      ],
+      "2mp": [
+        "קריתם",
+        "karitém"
+      ],
+      "2fp": [
+        "קריתן",
+        "karitén"
+      ],
+      "3p": [
+        "קרו",
+        "karú"
+      ]
+    },
+    "future": {
+      "1s": [
+        "אקרה",
+        "ekré"
+      ],
+      "2ms": [
+        "תקרה",
+        "tikré"
+      ],
+      "2fs": [
+        "תקרי",
+        "tikrí"
+      ],
+      "3ms": [
+        "יקרה",
+        "yikré"
+      ],
+      "3fs": [
+        "תקרה",
+        "tikré"
+      ],
+      "1p": [
+        "נקרה",
+        "nikré"
+      ],
+      "2mp": [
+        "תקרו",
+        "tikrú"
+      ],
+      "3p": [
+        "יקרו",
+        "yikrú"
+      ]
+    },
+    "ex": {
+      "he": "מה קורה? איך היה החופש?",
+      "en": "What's up? How was the vacation?"
+    },
+    "exs": [
+      {
+        "he": "מה קרה, אבבה? למה אתה מאחר?",
+        "en": "What happened, Abebe? Why are you late?",
+        "form": "קרה"
+      },
+      {
+        "he": "דברים כאלה קורים לכולם.",
+        "en": "Things like that happen to everyone.",
+        "form": "קורים"
+      },
+      {
+        "he": "אל תדאגי, זה לא יקרה שוב.",
+        "en": "Don't worry, it won't happen again.",
+        "form": "יקרה"
+      }
+    ],
+    "note": "ל״ה verb used almost only in the 3rd person; the 1st and 2nd person forms exist mainly on paper. קורה (koré, happens) sounds exactly like קורא (koré, reads), and לקרות (likrót) differs from לקרוא (likró) only by the final ת. מה קורה? = what's up?; מה קרה לך? = what happened to you? There is no imperative."
+  },
+  {
+    "id": "verb_lizkot",
+    "inf": "לזכות",
+    "tr": "lizkót",
+    "en": "to win (a prize); to be privileged",
+    "root": "ז.כ.ה",
+    "binyan": "paal",
+    "gizra": "ל״ה (final heh)",
+    "gov": "ב",
+    "level": "B1",
+    "present": {
+      "ms": [
+        "זוכה",
+        "zokhé"
+      ],
+      "fs": [
+        "זוכה",
+        "zokhá"
+      ],
+      "mp": [
+        "זוכים",
+        "zokhím"
+      ],
+      "fp": [
+        "זוכות",
+        "zokhót"
+      ]
+    },
+    "past": {
+      "1s": [
+        "זכיתי",
+        "zakhíti"
+      ],
+      "2ms": [
+        "זכית",
+        "zakhíta"
+      ],
+      "2fs": [
+        "זכית",
+        "zakhít"
+      ],
+      "3ms": [
+        "זכה",
+        "zakhá"
+      ],
+      "3fs": [
+        "זכתה",
+        "zakhtá"
+      ],
+      "1p": [
+        "זכינו",
+        "zakhínu"
+      ],
+      "2mp": [
+        "זכיתם",
+        "zakhitém"
+      ],
+      "2fp": [
+        "זכיתן",
+        "zakhitén"
+      ],
+      "3p": [
+        "זכו",
+        "zakhú"
+      ]
+    },
+    "future": {
+      "1s": [
+        "אזכה",
+        "ezké"
+      ],
+      "2ms": [
+        "תזכה",
+        "tizké"
+      ],
+      "2fs": [
+        "תזכי",
+        "tizkí"
+      ],
+      "3ms": [
+        "יזכה",
+        "yizké"
+      ],
+      "3fs": [
+        "תזכה",
+        "tizké"
+      ],
+      "1p": [
+        "נזכה",
+        "nizké"
+      ],
+      "2mp": [
+        "תזכו",
+        "tizkú"
+      ],
+      "3p": [
+        "יזכו",
+        "yizkú"
+      ]
+    },
+    "ex": {
+      "he": "מאיה זכתה בפרס על הספר הראשון שלה.",
+      "en": "Maya won a prize for her first book."
+    },
+    "exs": [
+      {
+        "he": "זכינו בשני כרטיסים להופעה בהגרלה של הרדיו.",
+        "en": "We won two tickets to the concert in the radio raffle.",
+        "form": "זכינו"
+      },
+      {
+        "he": "כל מי שקונה היום זוכה בהנחה של עשרה אחוזים.",
+        "en": "Everyone who buys today gets a ten percent discount.",
+        "form": "זוכה"
+      },
+      {
+        "he": "מי שיענה נכון יזכה בפרס.",
+        "en": "Whoever answers correctly will win a prize.",
+        "form": "יזכה"
+      }
+    ],
+    "note": "ל״ה verb: זכתה (zakhtá). The כ is kh after a vowel but k after a consonant: זוכה (zokhé), אזכה (ezké). לזכות ב = to win a prize, a tender or a contract (החברה זכתה במכרז); to win a game Israelis say לנצח. Formal: זכה ל + noun = received (זכה לביקורת), זכיתי להכיר אותו = I had the privilege of knowing him. זכות = a right. There is no imperative in use."
+  },
+  {
+    "id": "verb_laruts",
+    "inf": "לרוץ",
+    "tr": "larúts",
+    "en": "to run",
+    "root": "ר.ו.ץ",
+    "binyan": "paal",
+    "gizra": "ע״ו (hollow)",
+    "level": "A2",
+    "present": {
+      "ms": [
+        "רץ",
+        "rats"
+      ],
+      "fs": [
+        "רצה",
+        "ratsá"
+      ],
+      "mp": [
+        "רצים",
+        "ratsím"
+      ],
+      "fp": [
+        "רצות",
+        "ratsót"
+      ]
+    },
+    "past": {
+      "1s": [
+        "רצתי",
+        "rátsti"
+      ],
+      "2ms": [
+        "רצת",
+        "rátsta"
+      ],
+      "2fs": [
+        "רצת",
+        "ratst"
+      ],
+      "3ms": [
+        "רץ",
+        "rats"
+      ],
+      "3fs": [
+        "רצה",
+        "rátsa"
+      ],
+      "1p": [
+        "רצנו",
+        "rátsnu"
+      ],
+      "2mp": [
+        "רצתם",
+        "ratstém"
+      ],
+      "2fp": [
+        "רצתן",
+        "ratstén"
+      ],
+      "3p": [
+        "רצו",
+        "rátsu"
+      ]
+    },
+    "future": {
+      "1s": [
+        "ארוץ",
+        "arúts"
+      ],
+      "2ms": [
+        "תרוץ",
+        "tarúts"
+      ],
+      "2fs": [
+        "תרוצי",
+        "tarútsi"
+      ],
+      "3ms": [
+        "ירוץ",
+        "yarúts"
+      ],
+      "3fs": [
+        "תרוץ",
+        "tarúts"
+      ],
+      "1p": [
+        "נרוץ",
+        "narúts"
+      ],
+      "2mp": [
+        "תרוצו",
+        "tarútsu"
+      ],
+      "3p": [
+        "ירוצו",
+        "yarútsu"
+      ]
+    },
+    "imp": {
+      "ms": [
+        "רוץ",
+        "ruts"
+      ],
+      "fs": [
+        "רוצי",
+        "rútsi"
+      ],
+      "mp": [
+        "רוצו",
+        "rútsu"
+      ]
+    },
+    "ex": {
+      "he": "כמה קילומטרים רצת היום?",
+      "en": "How many kilometers did you run today?"
+    },
+    "exs": [
+      {
+        "he": "רצתי לתחנה, אבל האוטובוס כבר נסע.",
+        "en": "I ran to the bus stop, but the bus had already left.",
+        "form": "רצתי"
+      },
+      {
+        "he": "הילדים רצים בחצר של בית הספר.",
+        "en": "The kids are running around the schoolyard.",
+        "form": "רצים"
+      },
+      {
+        "he": "נרוץ מחר ביחד בפארק הירקון?",
+        "en": "Shall we run together in Yarkon Park tomorrow?",
+        "form": "נרוץ"
+      }
+    ],
+    "note": "Hollow (ע״ו) verb like לקום: רצתי (rátsti), רץ, ארוץ (arúts). רצה is ratsá (she runs) or rátsa (she ran) — and ratsá is also רצה 'he wanted', from לרצות. Also: הזמן רץ (time flies), לרוץ לעשות משהו (to rush off to do something)."
+  },
+  {
+    "id": "verb_lashir",
+    "inf": "לשיר",
+    "tr": "lashír",
+    "en": "to sing",
+    "root": "ש.י.ר",
+    "binyan": "paal",
+    "gizra": "ע״י (hollow, middle yod)",
+    "level": "A2",
+    "present": {
+      "ms": [
+        "שר",
+        "shar"
+      ],
+      "fs": [
+        "שרה",
+        "shará"
+      ],
+      "mp": [
+        "שרים",
+        "sharím"
+      ],
+      "fp": [
+        "שרות",
+        "sharót"
+      ]
+    },
+    "past": {
+      "1s": [
+        "שרתי",
+        "shárti"
+      ],
+      "2ms": [
+        "שרת",
+        "shárta"
+      ],
+      "2fs": [
+        "שרת",
+        "shart"
+      ],
+      "3ms": [
+        "שר",
+        "shar"
+      ],
+      "3fs": [
+        "שרה",
+        "shára"
+      ],
+      "1p": [
+        "שרנו",
+        "shárnu"
+      ],
+      "2mp": [
+        "שרתם",
+        "shartém"
+      ],
+      "2fp": [
+        "שרתן",
+        "shartén"
+      ],
+      "3p": [
+        "שרו",
+        "sháru"
+      ]
+    },
+    "future": {
+      "1s": [
+        "אשיר",
+        "ashír"
+      ],
+      "2ms": [
+        "תשיר",
+        "tashír"
+      ],
+      "2fs": [
+        "תשירי",
+        "tashíri"
+      ],
+      "3ms": [
+        "ישיר",
+        "yashír"
+      ],
+      "3fs": [
+        "תשיר",
+        "tashír"
+      ],
+      "1p": [
+        "נשיר",
+        "nashír"
+      ],
+      "2mp": [
+        "תשירו",
+        "tashíru"
+      ],
+      "3p": [
+        "ישירו",
+        "yashíru"
+      ]
+    },
+    "imp": {
+      "ms": [
+        "שיר",
+        "shir"
+      ],
+      "fs": [
+        "שירי",
+        "shíri"
+      ],
+      "mp": [
+        "שירו",
+        "shíru"
+      ]
+    },
+    "ex": {
+      "he": "שרתי במקהלה של האוניברסיטה שלוש שנים.",
+      "en": "I sang in the university choir for three years."
+    },
+    "exs": [
+      {
+        "he": "בחתונה כולם שרו ורקדו עד הבוקר.",
+        "en": "At the wedding everyone sang and danced until morning.",
+        "form": "שרו"
+      },
+      {
+        "he": "בערבי שישי אנחנו שרים ביחד שירים ישנים.",
+        "en": "On Friday evenings we sing old songs together.",
+        "form": "שרים"
+      },
+      {
+        "he": "שירו איתנו, אתם יודעים את המילים!",
+        "en": "Sing with us, you know the words!",
+        "form": "שירו"
+      }
+    ],
+    "note": "Hollow (ע״י) verb like לשים: שרתי, שר, אשיר. שרה is shará (she sings) or shára (she sang); the name שרה is pronounced Sára. שיר = a song or a poem; זמר / זמרת = a singer."
+  },
+  {
+    "id": "verb_latus",
+    "inf": "לטוס",
+    "tr": "latús",
+    "en": "to fly (by plane)",
+    "root": "ט.ו.ס",
+    "binyan": "paal",
+    "gizra": "ע״ו (hollow)",
+    "gov": "ל",
+    "level": "A2",
+    "present": {
+      "ms": [
+        "טס",
+        "tas"
+      ],
+      "fs": [
+        "טסה",
+        "tasá"
+      ],
+      "mp": [
+        "טסים",
+        "tasím"
+      ],
+      "fp": [
+        "טסות",
+        "tasót"
+      ]
+    },
+    "past": {
+      "1s": [
+        "טסתי",
+        "tásti"
+      ],
+      "2ms": [
+        "טסת",
+        "tásta"
+      ],
+      "2fs": [
+        "טסת",
+        "tast"
+      ],
+      "3ms": [
+        "טס",
+        "tas"
+      ],
+      "3fs": [
+        "טסה",
+        "tása"
+      ],
+      "1p": [
+        "טסנו",
+        "tásnu"
+      ],
+      "2mp": [
+        "טסתם",
+        "tastém"
+      ],
+      "2fp": [
+        "טסתן",
+        "tastén"
+      ],
+      "3p": [
+        "טסו",
+        "tásu"
+      ]
+    },
+    "future": {
+      "1s": [
+        "אטוס",
+        "atús"
+      ],
+      "2ms": [
+        "תטוס",
+        "tatús"
+      ],
+      "2fs": [
+        "תטוסי",
+        "tatúsi"
+      ],
+      "3ms": [
+        "יטוס",
+        "yatús"
+      ],
+      "3fs": [
+        "תטוס",
+        "tatús"
+      ],
+      "1p": [
+        "נטוס",
+        "natús"
+      ],
+      "2mp": [
+        "תטוסו",
+        "tatúsu"
+      ],
+      "3p": [
+        "יטוסו",
+        "yatúsu"
+      ]
+    },
+    "imp": {
+      "ms": [
+        "טוס",
+        "tus"
+      ],
+      "fs": [
+        "טוסי",
+        "túsi"
+      ],
+      "mp": [
+        "טוסו",
+        "túsu"
+      ]
+    },
+    "ex": {
+      "he": "טסתי לכנס בברלין בשבוע שעבר.",
+      "en": "I flew to a conference in Berlin last week."
+    },
+    "exs": [
+      {
+        "he": "טסנו לאתונה לסוף שבוע ארוך.",
+        "en": "We flew to Athens for a long weekend.",
+        "form": "טסנו"
+      },
+      {
+        "he": "בקיץ הרבה ישראלים טסים לחו״ל.",
+        "en": "In the summer a lot of Israelis fly abroad.",
+        "form": "טסים"
+      },
+      {
+        "he": "מתי תטוסו לבקר את המשפחה בקנדה?",
+        "en": "When are you flying to visit the family in Canada?",
+        "form": "תטוסו"
+      }
+    ],
+    "note": "Hollow (ע״ו) verb like לגור: טסתי, טס, אטוס. Used for people travelling by plane and for planes themselves; birds and insects fly with לעוף. As with other verbs of motion, the present often means the near future: אני טס מחר. טיסה = a flight."
+  },
+  {
+    "id": "verb_lanuakh",
+    "inf": "לנוח",
+    "tr": "lanúakh",
+    "en": "to rest",
+    "root": "נ.ו.ח",
+    "binyan": "paal",
+    "gizra": "ע״ו (hollow) + guttural (final ח)",
+    "level": "A2",
+    "present": {
+      "ms": [
+        "נח",
+        "nakh"
+      ],
+      "fs": [
+        "נחה",
+        "nakhá"
+      ],
+      "mp": [
+        "נחים",
+        "nakhím"
+      ],
+      "fp": [
+        "נחות",
+        "nakhót"
+      ]
+    },
+    "past": {
+      "1s": [
+        "נחתי",
+        "nákhti"
+      ],
+      "2ms": [
+        "נחת",
+        "nákhta"
+      ],
+      "2fs": [
+        "נחת",
+        "nakht"
+      ],
+      "3ms": [
+        "נח",
+        "nakh"
+      ],
+      "3fs": [
+        "נחה",
+        "nákha"
+      ],
+      "1p": [
+        "נחנו",
+        "nákhnu"
+      ],
+      "2mp": [
+        "נחתם",
+        "nakhtém"
+      ],
+      "2fp": [
+        "נחתן",
+        "nakhtén"
+      ],
+      "3p": [
+        "נחו",
+        "nákhu"
+      ]
+    },
+    "future": {
+      "1s": [
+        "אנוח",
+        "anúakh"
+      ],
+      "2ms": [
+        "תנוח",
+        "tanúakh"
+      ],
+      "2fs": [
+        "תנוחי",
+        "tanúkhi"
+      ],
+      "3ms": [
+        "ינוח",
+        "yanúakh"
+      ],
+      "3fs": [
+        "תנוח",
+        "tanúakh"
+      ],
+      "1p": [
+        "ננוח",
+        "nanúakh"
+      ],
+      "2mp": [
+        "תנוחו",
+        "tanúkhu"
+      ],
+      "3p": [
+        "ינוחו",
+        "yanúkhu"
+      ]
+    },
+    "imp": {
+      "ms": [
+        "נוח",
+        "núakh"
+      ],
+      "fs": [
+        "נוחי",
+        "núkhi"
+      ],
+      "mp": [
+        "נוחו",
+        "núkhu"
+      ]
+    },
+    "ex": {
+      "he": "נחתי קצת אחרי העבודה, ועכשיו אני מרגיש הרבה יותר טוב.",
+      "en": "I rested a bit after work, and now I feel much better."
+    },
+    "exs": [
+      {
+        "he": "בשבת נחנו כל היום ולא עשינו כלום.",
+        "en": "On Saturday we rested all day and did nothing.",
+        "form": "נחנו"
+      },
+      {
+        "he": "בצהריים הילדים נחים בגן.",
+        "en": "At midday the children rest at the kindergarten.",
+        "form": "נחים"
+      },
+      {
+        "he": "את נראית עייפה, תשבי ותנוחי קצת.",
+        "en": "You look tired — sit down and rest a bit.",
+        "form": "תנוחי"
+      }
+    ],
+    "note": "Hollow (ע״ו) verb with a final ח: נחתי (nákhti), נח (nakh); in the future a short a slips in before the ח: אנוח (anúakh). נחה is nakhá (she rests) or nákha (she rested). Don't confuse the imperative נוח (núakh) with the adjective נוח (nóakh, comfortable). In speech the command is usually the future: תנוח / תנוחי. מנוחה = rest."
+  },
+  {
+    "id": "verb_lazuz",
+    "inf": "לזוז",
+    "tr": "lazúz",
+    "en": "to move, to budge",
+    "root": "ז.ו.ז",
+    "binyan": "paal",
+    "gizra": "ע״ו (hollow)",
+    "level": "A2",
+    "present": {
+      "ms": [
+        "זז",
+        "zaz"
+      ],
+      "fs": [
+        "זזה",
+        "zazá"
+      ],
+      "mp": [
+        "זזים",
+        "zazím"
+      ],
+      "fp": [
+        "זזות",
+        "zazót"
+      ]
+    },
+    "past": {
+      "1s": [
+        "זזתי",
+        "zázti"
+      ],
+      "2ms": [
+        "זזת",
+        "zázta"
+      ],
+      "2fs": [
+        "זזת",
+        "zazt"
+      ],
+      "3ms": [
+        "זז",
+        "zaz"
+      ],
+      "3fs": [
+        "זזה",
+        "záza"
+      ],
+      "1p": [
+        "זזנו",
+        "záznu"
+      ],
+      "2mp": [
+        "זזתם",
+        "zaztém"
+      ],
+      "2fp": [
+        "זזתן",
+        "zaztén"
+      ],
+      "3p": [
+        "זזו",
+        "zázu"
+      ]
+    },
+    "future": {
+      "1s": [
+        "אזוז",
+        "azúz"
+      ],
+      "2ms": [
+        "תזוז",
+        "tazúz"
+      ],
+      "2fs": [
+        "תזוזי",
+        "tazúzi"
+      ],
+      "3ms": [
+        "יזוז",
+        "yazúz"
+      ],
+      "3fs": [
+        "תזוז",
+        "tazúz"
+      ],
+      "1p": [
+        "נזוז",
+        "nazúz"
+      ],
+      "2mp": [
+        "תזוזו",
+        "tazúzu"
+      ],
+      "3p": [
+        "יזוזו",
+        "yazúzu"
+      ]
+    },
+    "imp": {
+      "ms": [
+        "זוז",
+        "zuz"
+      ],
+      "fs": [
+        "זוזי",
+        "zúzi"
+      ],
+      "mp": [
+        "זוזו",
+        "zúzu"
+      ]
+    },
+    "ex": {
+      "he": "תזוז רגע, בבקשה, אני לא רואה את המסך.",
+      "en": "Move over for a second, please, I can't see the screen."
+    },
+    "exs": [
+      {
+        "he": "בגלל הפקק לא זזנו עשרים דקות.",
+        "en": "Because of the traffic jam we didn't move for twenty minutes.",
+        "form": "זזנו"
+      },
+      {
+        "he": "טוב, אנחנו זזים. להתראות!",
+        "en": "OK, we're off. Bye!",
+        "form": "זזים"
+      },
+      {
+        "he": "זוזו קצת ימינה, שכולם ייכנסו לתמונה.",
+        "en": "Move a bit to the right so everyone fits in the picture.",
+        "form": "זוזו"
+      }
+    ],
+    "note": "Hollow (ע״ו) verb: זזתי, זז, אזוז. It is intransitive — to move something is the hif'il להזיז (תזיז את הרכב). In speech אני זז / אנחנו זזים means 'I'm off / we're heading out'. Moving house is לעבור דירה, not לזוז."
+  },
+  {
+    "id": "verb_lishon",
+    "inf": "לישון",
+    "tr": "lishón",
+    "en": "to sleep",
+    "root": "י.ש.ן",
+    "binyan": "paal",
+    "gizra": "פ״י (initial yod), irregular",
+    "level": "A1",
+    "present": {
+      "ms": [
+        "ישן",
+        "yashén"
+      ],
+      "fs": [
+        "ישנה",
+        "yeshená"
+      ],
+      "mp": [
+        "ישנים",
+        "yeshením"
+      ],
+      "fp": [
+        "ישנות",
+        "yeshenót"
+      ]
+    },
+    "past": {
+      "1s": [
+        "ישנתי",
+        "yashánti"
+      ],
+      "2ms": [
+        "ישנת",
+        "yashánta"
+      ],
+      "2fs": [
+        "ישנת",
+        "yashánt"
+      ],
+      "3ms": [
+        "ישן",
+        "yashán"
+      ],
+      "3fs": [
+        "ישנה",
+        "yashná"
+      ],
+      "1p": [
+        "ישנו",
+        "yashánu"
+      ],
+      "2mp": [
+        "ישנתם",
+        "yashantém"
+      ],
+      "2fp": [
+        "ישנתן",
+        "yashantén"
+      ],
+      "3p": [
+        "ישנו",
+        "yashnú"
+      ]
+    },
+    "future": {
+      "1s": [
+        "אישן",
+        "ishán"
+      ],
+      "2ms": [
+        "תישן",
+        "tishán"
+      ],
+      "2fs": [
+        "תישני",
+        "tishní"
+      ],
+      "3ms": [
+        "יישן",
+        "yishán"
+      ],
+      "3fs": [
+        "תישן",
+        "tishán"
+      ],
+      "1p": [
+        "נישן",
+        "nishán"
+      ],
+      "2mp": [
+        "תישנו",
+        "tishnú"
+      ],
+      "3p": [
+        "יישנו",
+        "yishnú"
+      ]
+    },
+    "ex": {
+      "he": "כמה שעות ישנת הלילה?",
+      "en": "How many hours did you sleep last night?"
+    },
+    "exs": [
+      {
+        "he": "בטיסה ישנתי רק שעתיים.",
+        "en": "I slept only two hours on the flight.",
+        "form": "ישנתי"
+      },
+      {
+        "he": "הילדים כבר ישנים, תדברו בשקט.",
+        "en": "The kids are already asleep — talk quietly.",
+        "form": "ישנים"
+      },
+      {
+        "he": "הלילה אני אישן אצל ההורים שלי.",
+        "en": "Tonight I'll sleep at my parents' place.",
+        "form": "אישן"
+      }
+    ],
+    "note": "Irregular פ״י verb: unlike לשבת (אשב), the י stays in the future and gives i: אישן, תישן, יישן (yishán). The present ישן / ישנה (yashén / yeshená) behaves like an adjective, and ישן (yashán) is both 'he slept' and 'old'. The final נ merges with the ending: past 1p ישנו (yashánu, we slept) is spelled like 3p ישנו (yashnú). There is no imperative in use: say לך לישון / לכי לישון (go to sleep) or תישן טוב / תישני טוב (sleep well)."
+  },
+  {
+    "id": "verb_laredet",
+    "inf": "לרדת",
+    "tr": "larédet",
+    "en": "to go down, to get off",
+    "root": "י.ר.ד",
+    "binyan": "paal",
+    "gizra": "פ״י (initial yod)",
+    "gov": "מ",
+    "level": "A2",
+    "present": {
+      "ms": [
+        "יורד",
+        "yoréd"
+      ],
+      "fs": [
+        "יורדת",
+        "yorédet"
+      ],
+      "mp": [
+        "יורדים",
+        "yordím"
+      ],
+      "fp": [
+        "יורדות",
+        "yordót"
+      ]
+    },
+    "past": {
+      "1s": [
+        "ירדתי",
+        "yarádti"
+      ],
+      "2ms": [
+        "ירדת",
+        "yarádta"
+      ],
+      "2fs": [
+        "ירדת",
+        "yarádt"
+      ],
+      "3ms": [
+        "ירד",
+        "yarád"
+      ],
+      "3fs": [
+        "ירדה",
+        "yardá"
+      ],
+      "1p": [
+        "ירדנו",
+        "yarádnu"
+      ],
+      "2mp": [
+        "ירדתם",
+        "yaradtém"
+      ],
+      "2fp": [
+        "ירדתן",
+        "yaradtén"
+      ],
+      "3p": [
+        "ירדו",
+        "yardú"
+      ]
+    },
+    "future": {
+      "1s": [
+        "ארד",
+        "eréd"
+      ],
+      "2ms": [
+        "תרד",
+        "teréd"
+      ],
+      "2fs": [
+        "תרדי",
+        "terdí"
+      ],
+      "3ms": [
+        "ירד",
+        "yeréd"
+      ],
+      "3fs": [
+        "תרד",
+        "teréd"
+      ],
+      "1p": [
+        "נרד",
+        "neréd"
+      ],
+      "2mp": [
+        "תרדו",
+        "terdú"
+      ],
+      "3p": [
+        "ירדו",
+        "yerdú"
+      ]
+    },
+    "imp": {
+      "ms": [
+        "רד",
+        "red"
+      ],
+      "fs": [
+        "רדי",
+        "redí"
+      ],
+      "mp": [
+        "רדו",
+        "redú"
+      ]
+    },
+    "ex": {
+      "he": "סליחה, איפה אני צריכה לרדת?",
+      "en": "Excuse me, where do I need to get off?"
+    },
+    "exs": [
+      {
+        "he": "ירדנו מהרכבת בתחנה הלא נכונה.",
+        "en": "We got off the train at the wrong station.",
+        "form": "ירדנו"
+      },
+      {
+        "he": "בלילה הטמפרטורה יורדת לעשר מעלות.",
+        "en": "At night the temperature drops to ten degrees.",
+        "form": "יורדת"
+      },
+      {
+        "he": "אני ארד למטה בעוד חמש דקות.",
+        "en": "I'll come down in five minutes.",
+        "form": "ארד"
+      }
+    ],
+    "note": "פ״י verb like לשבת: the י drops in the future and imperative (ארד, תרדי, רד). ירד is yarád (went down) or yeréd (will go down). Uses: to go down, to get off (לרדת מהאוטובוס), to drop (המחירים ירדו), to lose weight (ירדתי שלושה קילו) and for rain (ירד גשם). In casual speech you may hear yarádeti for ירדתי."
+  },
+  {
+    "id": "verb_laledet",
+    "inf": "ללדת",
+    "tr": "lalédet",
+    "en": "to give birth",
+    "root": "י.ל.ד",
+    "binyan": "paal",
+    "gizra": "פ״י (initial yod)",
+    "gov": "את",
+    "level": "B1",
+    "present": {
+      "ms": [
+        "יולד",
+        "yoléd"
+      ],
+      "fs": [
+        "יולדת",
+        "yolédet"
+      ],
+      "mp": [
+        "יולדים",
+        "yoldím"
+      ],
+      "fp": [
+        "יולדות",
+        "yoldót"
+      ]
+    },
+    "past": {
+      "1s": [
+        "ילדתי",
+        "yaládti"
+      ],
+      "2ms": [
+        "ילדת",
+        "yaládta"
+      ],
+      "2fs": [
+        "ילדת",
+        "yaládt"
+      ],
+      "3ms": [
+        "ילד",
+        "yalád"
+      ],
+      "3fs": [
+        "ילדה",
+        "yaldá"
+      ],
+      "1p": [
+        "ילדנו",
+        "yaládnu"
+      ],
+      "2mp": [
+        "ילדתם",
+        "yaladtém"
+      ],
+      "2fp": [
+        "ילדתן",
+        "yaladtén"
+      ],
+      "3p": [
+        "ילדו",
+        "yaldú"
+      ]
+    },
+    "future": {
+      "1s": [
+        "אלד",
+        "eléd"
+      ],
+      "2ms": [
+        "תלד",
+        "teléd"
+      ],
+      "2fs": [
+        "תלדי",
+        "teldí"
+      ],
+      "3ms": [
+        "ילד",
+        "yeléd"
+      ],
+      "3fs": [
+        "תלד",
+        "teléd"
+      ],
+      "1p": [
+        "נלד",
+        "neléd"
+      ],
+      "2mp": [
+        "תלדו",
+        "teldú"
+      ],
+      "3p": [
+        "ילדו",
+        "yeldú"
+      ]
+    },
+    "ex": {
+      "he": "אחותי ילדה בן בשבוע שעבר.",
+      "en": "My sister had a baby boy last week."
+    },
+    "exs": [
+      {
+        "he": "ילדתי את שני הילדים שלי בבית חולים בחיפה.",
+        "en": "I gave birth to both my children in a hospital in Haifa.",
+        "form": "ילדתי"
+      },
+      {
+        "he": "היום נשים רבות יולדות בגיל מאוחר יותר מבעבר.",
+        "en": "Today many women give birth at a later age than in the past.",
+        "form": "יולדות"
+      },
+      {
+        "he": "מתי רנא תלד? — בעוד חודש בערך.",
+        "en": "When is Rana due? — In about a month.",
+        "form": "תלד"
+      }
+    ],
+    "note": "פ״י verb like לרדת: the י drops in the future (אלד, תלד teléd). ילדה (yaldá) means both 'she gave birth' and 'a girl'. The present is nearly always feminine: יולדת (yolédet), which is also the noun for a woman who has just given birth. 'To be born' is the nif'al להיוולד: נולדתי בחיפה. In casual speech you may hear yaládeti for ילדתי. There is no imperative in use."
+  },
+  {
+    "id": "verb_lipol",
+    "inf": "ליפול",
+    "tr": "lipól",
+    "en": "to fall",
+    "root": "נ.פ.ל",
+    "binyan": "paal",
+    "gizra": "פ״נ (initial nun)",
+    "level": "A2",
+    "present": {
+      "ms": [
+        "נופל",
+        "nofél"
+      ],
+      "fs": [
+        "נופלת",
+        "nofélet"
+      ],
+      "mp": [
+        "נופלים",
+        "noflím"
+      ],
+      "fp": [
+        "נופלות",
+        "noflót"
+      ]
+    },
+    "past": {
+      "1s": [
+        "נפלתי",
+        "nafálti"
+      ],
+      "2ms": [
+        "נפלת",
+        "nafálta"
+      ],
+      "2fs": [
+        "נפלת",
+        "nafált"
+      ],
+      "3ms": [
+        "נפל",
+        "nafál"
+      ],
+      "3fs": [
+        "נפלה",
+        "naflá"
+      ],
+      "1p": [
+        "נפלנו",
+        "nafálnu"
+      ],
+      "2mp": [
+        "נפלתם",
+        "nafaltém"
+      ],
+      "2fp": [
+        "נפלתן",
+        "nafaltén"
+      ],
+      "3p": [
+        "נפלו",
+        "naflú"
+      ]
+    },
+    "future": {
+      "1s": [
+        "אפול",
+        "epól"
+      ],
+      "2ms": [
+        "תיפול",
+        "tipól"
+      ],
+      "2fs": [
+        "תיפלי",
+        "tiplí"
+      ],
+      "3ms": [
+        "ייפול",
+        "yipól"
+      ],
+      "3fs": [
+        "תיפול",
+        "tipól"
+      ],
+      "1p": [
+        "ניפול",
+        "nipól"
+      ],
+      "2mp": [
+        "תיפלו",
+        "tiplú"
+      ],
+      "3p": [
+        "ייפלו",
+        "yiplú"
+      ]
+    },
+    "ex": {
+      "he": "הטלפון נפל לי למים.",
+      "en": "I dropped my phone in the water."
+    },
+    "exs": [
+      {
+        "he": "נפלתי במדרגות ושברתי את היד.",
+        "en": "I fell on the stairs and broke my arm.",
+        "form": "נפלתי"
+      },
+      {
+        "he": "בסתיו העלים נופלים מהעצים.",
+        "en": "In autumn the leaves fall from the trees.",
+        "form": "נופלים"
+      },
+      {
+        "he": "תיזהר, אתה תיפול!",
+        "en": "Careful, you'll fall!",
+        "form": "תיפול"
+      }
+    ],
+    "note": "פ״נ verb like לנסוע: the נ drops in the infinitive and the future (ליפול, אפול, ייפול — double yod in ktiv male) but stays in the past and present (נפלתי, נופל). Common: נפל לי … (I dropped …), החג נופל ביום שישי (the holiday falls on a Friday), נפל לי האסימון (the penny dropped). There is no imperative in use."
+  },
+  {
+    "id": "verb_lagaat",
+    "inf": "לגעת",
+    "tr": "lagá'at",
+    "en": "to touch",
+    "root": "נ.ג.ע",
+    "binyan": "paal",
+    "gizra": "פ״נ (initial nun) + guttural (final ע)",
+    "gov": "ב",
+    "level": "B1",
+    "present": {
+      "ms": [
+        "נוגע",
+        "nogéa"
+      ],
+      "fs": [
+        "נוגעת",
+        "nogá'at"
+      ],
+      "mp": [
+        "נוגעים",
+        "nog'ím"
+      ],
+      "fp": [
+        "נוגעות",
+        "nog'ót"
+      ]
+    },
+    "past": {
+      "1s": [
+        "נגעתי",
+        "nagáti"
+      ],
+      "2ms": [
+        "נגעת",
+        "nagáta"
+      ],
+      "2fs": [
+        "נגעת",
+        "nagá'at"
+      ],
+      "3ms": [
+        "נגע",
+        "nagá"
+      ],
+      "3fs": [
+        "נגעה",
+        "nag'á"
+      ],
+      "1p": [
+        "נגענו",
+        "nagánu"
+      ],
+      "2mp": [
+        "נגעתם",
+        "nagatém"
+      ],
+      "2fp": [
+        "נגעתן",
+        "nagatén"
+      ],
+      "3p": [
+        "נגעו",
+        "nag'ú"
+      ]
+    },
+    "future": {
+      "1s": [
+        "אגע",
+        "egá"
+      ],
+      "2ms": [
+        "תיגע",
+        "tigá"
+      ],
+      "2fs": [
+        "תיגעי",
+        "tig'í"
+      ],
+      "3ms": [
+        "ייגע",
+        "yigá"
+      ],
+      "3fs": [
+        "תיגע",
+        "tigá"
+      ],
+      "1p": [
+        "ניגע",
+        "nigá"
+      ],
+      "2mp": [
+        "תיגעו",
+        "tig'ú"
+      ],
+      "3p": [
+        "ייגעו",
+        "yig'ú"
+      ]
+    },
+    "imp": {
+      "ms": [
+        "גע",
+        "ga"
+      ],
+      "fs": [
+        "געי",
+        "ge'í"
+      ],
+      "mp": [
+        "געו",
+        "ge'ú"
+      ]
+    },
+    "ex": {
+      "he": "אסור לגעת במוצגים.",
+      "en": "Touching the exhibits is not allowed."
+    },
+    "exs": [
+      {
+        "he": "מישהו נגע במחשב שלי?",
+        "en": "Did someone touch my computer?",
+        "form": "נגע"
+      },
+      {
+        "he": "הסיפור שלה ממש נוגע ללב.",
+        "en": "Her story is really touching.",
+        "form": "נוגע"
+      },
+      {
+        "he": "אל תיגעי בקיר, הצבע עוד רטוב.",
+        "en": "Don't touch the wall, the paint is still wet.",
+        "form": "תיגעי"
+      }
+    ],
+    "note": "פ״נ verb with a final guttural ע, like לנסוע: נגעתי (nagáti), אגע, תיגע; past 2fs נגעת is nagá'at. Always לגעת ב (to touch something). Figurative: נוגע ללב (touching, moving), בכל הנוגע ל… (as far as … is concerned, formal), זה לא נוגע לך (it's none of your business). The everyday command is negative: אל תיגע / אל תיגעי."
+  },
+  {
+    "id": "verb_limtso",
+    "inf": "למצוא",
+    "tr": "limtsó",
+    "en": "to find",
+    "root": "מ.צ.א",
+    "binyan": "paal",
+    "gizra": "ל״א (final aleph)",
+    "gov": "את",
+    "level": "A2",
+    "present": {
+      "ms": [
+        "מוצא",
+        "motsé"
+      ],
+      "fs": [
+        "מוצאת",
+        "motsét"
+      ],
+      "mp": [
+        "מוצאים",
+        "mots'ím"
+      ],
+      "fp": [
+        "מוצאות",
+        "mots'ót"
+      ]
+    },
+    "past": {
+      "1s": [
+        "מצאתי",
+        "matsáti"
+      ],
+      "2ms": [
+        "מצאת",
+        "matsáta"
+      ],
+      "2fs": [
+        "מצאת",
+        "matsát"
+      ],
+      "3ms": [
+        "מצא",
+        "matsá"
+      ],
+      "3fs": [
+        "מצאה",
+        "mats'á"
+      ],
+      "1p": [
+        "מצאנו",
+        "matsánu"
+      ],
+      "2mp": [
+        "מצאתם",
+        "matsatém"
+      ],
+      "2fp": [
+        "מצאתן",
+        "matsatén"
+      ],
+      "3p": [
+        "מצאו",
+        "mats'ú"
+      ]
+    },
+    "future": {
+      "1s": [
+        "אמצא",
+        "emtsá"
+      ],
+      "2ms": [
+        "תמצא",
+        "timtsá"
+      ],
+      "2fs": [
+        "תמצאי",
+        "timtse'í"
+      ],
+      "3ms": [
+        "ימצא",
+        "yimtsá"
+      ],
+      "3fs": [
+        "תמצא",
+        "timtsá"
+      ],
+      "1p": [
+        "נמצא",
+        "nimtsá"
+      ],
+      "2mp": [
+        "תמצאו",
+        "timtse'ú"
+      ],
+      "3p": [
+        "ימצאו",
+        "yimtse'ú"
+      ]
+    },
+    "imp": {
+      "ms": [
+        "מצא",
+        "metsá"
+      ],
+      "fs": [
+        "מצאי",
+        "mits'í"
+      ],
+      "mp": [
+        "מצאו",
+        "mits'ú"
+      ]
+    },
+    "ex": {
+      "he": "מצאתי את המפתחות מתחת לספה.",
+      "en": "I found the keys under the sofa."
+    },
+    "exs": [
+      {
+        "he": "סבטלנה מצאה עבודה חדשה בהייטק.",
+        "en": "Svetlana found a new job in high-tech.",
+        "form": "מצאה"
+      },
+      {
+        "he": "אני לא מוצא את הקובץ ששלחת לי.",
+        "en": "I can't find the file you sent me.",
+        "form": "מוצא"
+      },
+      {
+        "he": "אני בטוחה שתמצא דירה טובה בקרוב.",
+        "en": "I'm sure you'll find a good apartment soon.",
+        "form": "תמצא"
+      }
+    ],
+    "note": "ל״א verb like לקרוא: the final א is silent (מצאתי matsáti, אמצא emtsá). Very common: למצוא חן בעיני… (to be liked by: הדירה מצאה חן בעיניי — I liked the apartment). The nif'al נמצא (nimtsá) means 'is located' (איפה נמצא הבנק?) and is spelled like the future נמצא (we will find). The imperative appears in written instructions: מצאו בטקסט… (find in the text…)."
+  },
+  {
+    "id": "verb_leehov",
+    "inf": "לאהוב",
+    "tr": "le'ehóv",
+    "en": "to love, to like",
+    "root": "א.ה.ב",
+    "binyan": "paal",
+    "gizra": "פ״א (initial aleph) + guttural (middle ה)",
+    "gov": "את",
+    "level": "A1",
+    "present": {
+      "ms": [
+        "אוהב",
+        "ohév"
+      ],
+      "fs": [
+        "אוהבת",
+        "ohévet"
+      ],
+      "mp": [
+        "אוהבים",
+        "ohavím"
+      ],
+      "fp": [
+        "אוהבות",
+        "ohavót"
+      ]
+    },
+    "past": {
+      "1s": [
+        "אהבתי",
+        "ahávti"
+      ],
+      "2ms": [
+        "אהבת",
+        "ahávta"
+      ],
+      "2fs": [
+        "אהבת",
+        "ahávt"
+      ],
+      "3ms": [
+        "אהב",
+        "aháv"
+      ],
+      "3fs": [
+        "אהבה",
+        "ahavá"
+      ],
+      "1p": [
+        "אהבנו",
+        "ahávnu"
+      ],
+      "2mp": [
+        "אהבתם",
+        "ahavtém"
+      ],
+      "2fp": [
+        "אהבתן",
+        "ahavtén"
+      ],
+      "3p": [
+        "אהבו",
+        "ahavú"
+      ]
+    },
+    "future": {
+      "1s": [
+        "אוהב",
+        "oháv"
+      ],
+      "2ms": [
+        "תאהב",
+        "toháv"
+      ],
+      "2fs": [
+        "תאהבי",
+        "tohaví"
+      ],
+      "3ms": [
+        "יאהב",
+        "yoháv"
+      ],
+      "3fs": [
+        "תאהב",
+        "toháv"
+      ],
+      "1p": [
+        "נאהב",
+        "noháv"
+      ],
+      "2mp": [
+        "תאהבו",
+        "tohavú"
+      ],
+      "3p": [
+        "יאהבו",
+        "yohavú"
+      ]
+    },
+    "ex": {
+      "he": "אני מאוד אוהבת את העבודה החדשה שלי.",
+      "en": "I really love my new job."
+    },
+    "exs": [
+      {
+        "he": "אהבנו מאוד את המסעדה שהמלצת עליה.",
+        "en": "We really loved the restaurant you recommended.",
+        "form": "אהבנו"
+      },
+      {
+        "he": "הילדים שלי אוהבים לשחק כדורגל.",
+        "en": "My kids love playing soccer.",
+        "form": "אוהבים"
+      },
+      {
+        "he": "אני בטוח שתאהבי את הספר הזה.",
+        "en": "I'm sure you'll love this book.",
+        "form": "תאהבי"
+      }
+    ],
+    "note": "פ״א verb like לאכול, with a guttural ה that takes a vowel: אוהבים (ohavím), אהבה (ahavá, she loved — also the noun 'love'). The future has o: תאהב (toháv); 1s אוהב (oháv) is spelled like the present אוהב (ohév). לאהוב also means 'to like' (אני אוהב קפה); about a person אני אוהב אותך is strong — for liking someone say הוא מוצא חן בעיניי or אני מחבב אותו. There is no imperative in use."
+  },
+  {
+    "id": "verb_leesof",
+    "inf": "לאסוף",
+    "tr": "le'esóf",
+    "en": "to pick up (someone); to collect",
+    "root": "א.ס.ף",
+    "binyan": "paal",
+    "gizra": "guttural (initial א)",
+    "gov": "את",
+    "level": "A2",
+    "present": {
+      "ms": [
+        "אוסף",
+        "oséf"
+      ],
+      "fs": [
+        "אוספת",
+        "oséfet"
+      ],
+      "mp": [
+        "אוספים",
+        "osfím"
+      ],
+      "fp": [
+        "אוספות",
+        "osfót"
+      ]
+    },
+    "past": {
+      "1s": [
+        "אספתי",
+        "asáfti"
+      ],
+      "2ms": [
+        "אספת",
+        "asáfta"
+      ],
+      "2fs": [
+        "אספת",
+        "asáft"
+      ],
+      "3ms": [
+        "אסף",
+        "asáf"
+      ],
+      "3fs": [
+        "אספה",
+        "asfá"
+      ],
+      "1p": [
+        "אספנו",
+        "asáfnu"
+      ],
+      "2mp": [
+        "אספתם",
+        "asaftém"
+      ],
+      "2fp": [
+        "אספתן",
+        "asaftén"
+      ],
+      "3p": [
+        "אספו",
+        "asfú"
+      ]
+    },
+    "future": {
+      "1s": [
+        "אאסוף",
+        "e'esóf"
+      ],
+      "2ms": [
+        "תאסוף",
+        "te'esóf"
+      ],
+      "2fs": [
+        "תאספי",
+        "te'esfí"
+      ],
+      "3ms": [
+        "יאסוף",
+        "ye'esóf"
+      ],
+      "3fs": [
+        "תאסוף",
+        "te'esóf"
+      ],
+      "1p": [
+        "נאסוף",
+        "ne'esóf"
+      ],
+      "2mp": [
+        "תאספו",
+        "te'esfú"
+      ],
+      "3p": [
+        "יאספו",
+        "ye'esfú"
+      ]
+    },
+    "imp": {
+      "ms": [
+        "אסוף",
+        "esóf"
+      ],
+      "fs": [
+        "אספי",
+        "isfí"
+      ],
+      "mp": [
+        "אספו",
+        "isfú"
+      ]
+    },
+    "ex": {
+      "he": "מי אוסף היום את הילדים מהגן?",
+      "en": "Who's picking the kids up from kindergarten today?"
+    },
+    "exs": [
+      {
+        "he": "אספנו כסף למתנה ליום ההולדת של סמיר.",
+        "en": "We collected money for Samir's birthday present.",
+        "form": "אספנו"
+      },
+      {
+        "he": "הבן שלי אוסף מדבקות של שחקני כדורגל.",
+        "en": "My son collects stickers of soccer players.",
+        "form": "אוסף"
+      },
+      {
+        "he": "אני אאסוף אותך מהעבודה בשש.",
+        "en": "I'll pick you up from work at six.",
+        "form": "אאסוף"
+      }
+    ],
+    "note": "Initial guttural א, but not the o-type of לאכול: the future is יאסוף (ye'esóf), 1s אאסוף (e'esóf). The everyday meaning is to pick someone up (לאסוף את הילדים מהגן); also to collect or gather (לאסוף בולים, לאסוף מידע). אסיפה = a meeting (אסיפת הורים — a parents' meeting)."
+  },
+  {
+    "id": "verb_lisno",
+    "inf": "לשנוא",
+    "tr": "lisnó",
+    "en": "to hate",
+    "root": "ש.נ.א",
+    "binyan": "paal",
+    "gizra": "ל״א (final aleph)",
+    "gov": "את",
+    "level": "B1",
+    "present": {
+      "ms": [
+        "שונא",
+        "soné"
+      ],
+      "fs": [
+        "שונאת",
+        "sonét"
+      ],
+      "mp": [
+        "שונאים",
+        "son'ím"
+      ],
+      "fp": [
+        "שונאות",
+        "son'ót"
+      ]
+    },
+    "past": {
+      "1s": [
+        "שנאתי",
+        "sanéti"
+      ],
+      "2ms": [
+        "שנאת",
+        "sanéta"
+      ],
+      "2fs": [
+        "שנאת",
+        "sanét"
+      ],
+      "3ms": [
+        "שנא",
+        "sané"
+      ],
+      "3fs": [
+        "שנאה",
+        "san'á"
+      ],
+      "1p": [
+        "שנאנו",
+        "sanénu"
+      ],
+      "2mp": [
+        "שנאתם",
+        "sanetém"
+      ],
+      "2fp": [
+        "שנאתן",
+        "sanetén"
+      ],
+      "3p": [
+        "שנאו",
+        "san'ú"
+      ]
+    },
+    "future": {
+      "1s": [
+        "אשנא",
+        "esná"
+      ],
+      "2ms": [
+        "תשנא",
+        "tisná"
+      ],
+      "2fs": [
+        "תשנאי",
+        "tisne'í"
+      ],
+      "3ms": [
+        "ישנא",
+        "yisná"
+      ],
+      "3fs": [
+        "תשנא",
+        "tisná"
+      ],
+      "1p": [
+        "נשנא",
+        "nisná"
+      ],
+      "2mp": [
+        "תשנאו",
+        "tisne'ú"
+      ],
+      "3p": [
+        "ישנאו",
+        "yisne'ú"
+      ]
+    },
+    "ex": {
+      "he": "אני שונאת לחכות בתור.",
+      "en": "I hate waiting in line."
+    },
+    "exs": [
+      {
+        "he": "כשהייתי ילדה שנאתי ירקות, והיום אני צמחונית.",
+        "en": "When I was a girl I hated vegetables, and today I'm a vegetarian.",
+        "form": "שנאתי"
+      },
+      {
+        "he": "החתול שלנו שונא את שואב האבק.",
+        "en": "Our cat hates the vacuum cleaner.",
+        "form": "שונא"
+      },
+      {
+        "he": "אם תספר לה, היא תשנא אותך.",
+        "en": "If you tell her, she'll hate you.",
+        "form": "תשנא"
+      }
+    ],
+    "note": "ל״א verb whose ש is a sin (s): שונא (soné), לשנוא (lisnó). The past has e because שנא is a stative verb: שנאתי (sanéti), שנא (sané). It's a strong word: for everyday dislike say אני לא אוהב, or אני לא סובל (I can't stand). שנאה = hatred. There is no imperative in use."
+  },
+  {
+    "id": "verb_lomar",
+    "inf": "לומר",
+    "tr": "lomár",
+    "en": "to say",
+    "root": "א.מ.ר",
+    "binyan": "paal",
+    "gizra": "פ״א (initial aleph), irregular",
+    "gov": "ל",
+    "level": "A2",
+    "present": {
+      "ms": [
+        "אומר",
+        "omér"
+      ],
+      "fs": [
+        "אומרת",
+        "oméret"
+      ],
+      "mp": [
+        "אומרים",
+        "omrím"
+      ],
+      "fp": [
+        "אומרות",
+        "omrót"
+      ]
+    },
+    "past": {
+      "1s": [
+        "אמרתי",
+        "amárti"
+      ],
+      "2ms": [
+        "אמרת",
+        "amárta"
+      ],
+      "2fs": [
+        "אמרת",
+        "amárt"
+      ],
+      "3ms": [
+        "אמר",
+        "amár"
+      ],
+      "3fs": [
+        "אמרה",
+        "amrá"
+      ],
+      "1p": [
+        "אמרנו",
+        "amárnu"
+      ],
+      "2mp": [
+        "אמרתם",
+        "amartém"
+      ],
+      "2fp": [
+        "אמרתן",
+        "amartén"
+      ],
+      "3p": [
+        "אמרו",
+        "amrú"
+      ]
+    },
+    "future": {
+      "1s": [
+        "אומר",
+        "omár"
+      ],
+      "2ms": [
+        "תאמר",
+        "tomár"
+      ],
+      "2fs": [
+        "תאמרי",
+        "tomrí"
+      ],
+      "3ms": [
+        "יאמר",
+        "yomár"
+      ],
+      "3fs": [
+        "תאמר",
+        "tomár"
+      ],
+      "1p": [
+        "נאמר",
+        "nomár"
+      ],
+      "2mp": [
+        "תאמרו",
+        "tomrú"
+      ],
+      "3p": [
+        "יאמרו",
+        "yomrú"
+      ]
+    },
+    "imp": {
+      "ms": [
+        "אמור",
+        "emór"
+      ],
+      "fs": [
+        "אמרי",
+        "imrí"
+      ],
+      "mp": [
+        "אמרו",
+        "imrú"
+      ]
+    },
+    "ex": {
+      "he": "מה הוא אמר לך על הפרויקט?",
+      "en": "What did he tell you about the project?"
+    },
+    "exs": [
+      {
+        "he": "אמרתי לתמר שאאחר קצת.",
+        "en": "I told Tamar I'd be a bit late.",
+        "form": "אמרתי"
+      },
+      {
+        "he": "כמו שאומרים, אין ארוחות חינם.",
+        "en": "As they say, there's no such thing as a free lunch.",
+        "form": "אומרים"
+      },
+      {
+        "he": "המנכ״ל יאמר כמה מילים בפתיחת הכנס.",
+        "en": "The CEO will say a few words at the opening of the conference.",
+        "form": "יאמר"
+      }
+    ],
+    "note": "פ״א verb like לאכול: the future has o — יאמר (yomár); 1s אומר (omár) is spelled like the present אומר (omér). In speech the infinitive, future and imperative usually come from להגיד (אני אגיד לך, תגיד לי), while the past and present come from לומר (אמרתי, אומרים); the forms יאמר and אמור sound formal. The infinitive לומר is pronounced lomár, with no א sound; in formal texts you'll also see לאמור (le'emór), 'namely'. Set phrases: כלומר (that is), אין מה לומר (there's nothing to say)."
+  },
+  {
+    "id": "verb_lifkhod",
+    "inf": "לפחוד",
+    "tr": "lifkhód",
+    "en": "to be afraid",
+    "root": "פ.ח.ד",
+    "binyan": "paal",
+    "gizra": "guttural (middle ח)",
+    "gov": "מ",
+    "level": "A2",
+    "present": {
+      "ms": [
+        "פוחד",
+        "pokhéd"
+      ],
+      "fs": [
+        "פוחדת",
+        "pokhédet"
+      ],
+      "mp": [
+        "פוחדים",
+        "pokhadím"
+      ],
+      "fp": [
+        "פוחדות",
+        "pokhadót"
+      ]
+    },
+    "past": {
+      "1s": [
+        "פחדתי",
+        "pakhádti"
+      ],
+      "2ms": [
+        "פחדת",
+        "pakhádta"
+      ],
+      "2fs": [
+        "פחדת",
+        "pakhádt"
+      ],
+      "3ms": [
+        "פחד",
+        "pakhád"
+      ],
+      "3fs": [
+        "פחדה",
+        "pakhadá"
+      ],
+      "1p": [
+        "פחדנו",
+        "pakhádnu"
+      ],
+      "2mp": [
+        "פחדתם",
+        "pakhadtém"
+      ],
+      "2fp": [
+        "פחדתן",
+        "pakhadtén"
+      ],
+      "3p": [
+        "פחדו",
+        "pakhadú"
+      ]
+    },
+    "future": {
+      "1s": [
+        "אפחד",
+        "efkhád"
+      ],
+      "2ms": [
+        "תפחד",
+        "tifkhád"
+      ],
+      "2fs": [
+        "תפחדי",
+        "tifkhadí"
+      ],
+      "3ms": [
+        "יפחד",
+        "yifkhád"
+      ],
+      "3fs": [
+        "תפחד",
+        "tifkhád"
+      ],
+      "1p": [
+        "נפחד",
+        "nifkhád"
+      ],
+      "2mp": [
+        "תפחדו",
+        "tifkhadú"
+      ],
+      "3p": [
+        "יפחדו",
+        "yifkhadú"
+      ]
+    },
+    "ex": {
+      "he": "הרבה אנשים פוחדים לטוס.",
+      "en": "A lot of people are afraid of flying."
+    },
+    "exs": [
+      {
+        "he": "בהתחלה פחדתי לדבר עברית בעבודה.",
+        "en": "At first I was afraid to speak Hebrew at work.",
+        "form": "פחדתי"
+      },
+      {
+        "he": "הבן שלי פוחד מהחושך.",
+        "en": "My son is afraid of the dark.",
+        "form": "פוחד"
+      },
+      {
+        "he": "אל תפחדי, הכלב לא נושך.",
+        "en": "Don't be afraid, the dog doesn't bite.",
+        "form": "תפחדי"
+      }
+    ],
+    "note": "Pa'al verb with a middle guttural ח: פוחדים (pokhadím), פחדה (pakhadá); the future has a: תפחד (tifkhád). Use לפחוד מ + noun (פוחד מכלבים) or + infinitive (פחדתי לשאול). In everyday speech the infinitive and present often come from the pi'el instead: לפחד (lefakhéd), אני מפחד / מפחדת (mefakhéd / mefakhédet) — both sets are correct, while the past פחדתי and the future אל תפחד are pa'al. פחד = fear. There is no imperative in use."
+  }
+]

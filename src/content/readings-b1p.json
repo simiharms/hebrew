@@ -201,6 +201,102 @@
         ]
       }
     ],
+    "tf": [
+      {
+        "s": "לפי הכתבה, בישראל נהוג לדבר בראיון עבודה על שכר שנתי.",
+        "sEn": "According to the article, in Israel it's customary to talk about an annual salary in a job interview.",
+        "a": false,
+        "why": "In Israel people usually talk about a monthly gross salary, not an annual one as in many other countries."
+      },
+      {
+        "s": "לדברי מיכל, ברוב המקרים המעסיק יציע את המספר הנמוך בטווח.",
+        "sEn": "According to Michal, in most cases the employer will offer the lower number in the range.",
+        "a": true,
+        "why": "Michal says the lower number should be one you'd really be happy to get, because in most cases that's exactly what they'll offer you."
+      },
+      {
+        "s": "כשמקבלים הצעה טובה, חשוב לענות עליה מיד, אחרת זה נשמע חצוף.",
+        "sEn": "When you get a good offer, it's important to answer right away, otherwise it sounds cheeky.",
+        "a": false,
+        "why": "You don't have to answer right away: saying you'd like to think about it until tomorrow sounds professional, not cheeky."
+      },
+      {
+        "s": "מועמד שמקבל את ההצעה הראשונה בלי לשאול שאלות לא תמיד נראה בטוח בעצמו.",
+        "sEn": "A candidate who accepts the first offer without asking questions doesn't always seem self-confident.",
+        "a": true,
+        "why": "Michal says such a candidate doesn't always come across as confident (לא תמיד משדר ביטחון)."
+      }
+    ],
+    "find": [
+      {
+        "en": "most likely (lit. it's reasonable to assume)",
+        "answer": [
+          "סביר להניח"
+        ]
+      },
+      {
+        "en": "travel reimbursement",
+        "answer": [
+          "החזר נסיעות"
+        ]
+      },
+      {
+        "en": "cheeky, impudent",
+        "answer": [
+          "חצוף"
+        ]
+      },
+      {
+        "en": "if you don't ask, you don't get",
+        "answer": [
+          "מי שלא מבקש – לא מקבל"
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "בישראל לא מתביישים לדבר על כסף, ושאלת השכר עולה כבר ___ הראשון.",
+        "en": "In Israel people aren't shy about money, and the salary question comes up as early as the first interview.",
+        "answer": [
+          "בראיון"
+        ],
+        "hint": "at the interview"
+      },
+      {
+        "prompt": "מיכל ממליצה לא להגיד מספר אחד, אלא לתת ___.",
+        "en": "Michal recommends not saying one number but giving a range.",
+        "answer": [
+          "טווח"
+        ],
+        "hint": "a range (of numbers)"
+      },
+      {
+        "prompt": "אם הסכום נמוך, אפשר לבקש ___ במקום העלאה בשכר הבסיס, למשל עוד כמה ימי חופשה.",
+        "en": "If the amount is low, you can ask for a benefit instead of a raise in the base salary, for example a few more vacation days.",
+        "answer": [
+          "הטבה",
+          "הטבות",
+          "משהו אחר"
+        ],
+        "hint": "a benefit, a perk"
+      },
+      {
+        "prompt": "לא חייבים לענות על ההצעה מיד: מותר לבקש זמן כדי ___ עליה.",
+        "en": "You don't have to answer the offer right away: it's fine to ask for time to think about it.",
+        "answer": [
+          "לחשוב"
+        ],
+        "hint": "to think"
+      },
+      {
+        "prompt": "הבטחה לשיחת שכר אחרי חצי שנה צריכה להיות כתובה ___, ולא רק בעל פה.",
+        "en": "A promise of a salary talk in six months should be written in the contract, not only given verbally.",
+        "answer": [
+          "בחוזה"
+        ],
+        "hint": "in the contract"
+      }
+    ],
     "writing": {
       "prompt": "חבר שלכם, עומר, מתראיין בשבוע הבא לתפקיד חדש ושאל אתכם איך לדבר על שכר. כתבו לו הודעה עם שלושה טיפים לפחות, והסבירו למה כל טיפ חשוב.",
       "promptEn": "Your friend Omer has a job interview for a new position next week and asked you how to talk about salary. Write him a message with at least three tips, and explain why each tip matters.",
@@ -440,6 +536,100 @@
             "מחיר"
           ]
         ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "הפגישה הראשונה של אנה בתל אביב התחילה בדיוק בזמן.",
+        "sEn": "Anna's first meeting in Tel Aviv started exactly on time.",
+        "a": false,
+        "why": "The meeting was set for ten but started at ten twenty."
+      },
+      {
+        "s": "כבר בסוף הפגישה הראשונה הצדדים סיכמו על פיילוט.",
+        "sEn": "By the end of the first meeting, the two sides had already agreed on a pilot.",
+        "a": true,
+        "why": "Anna says that by the end of the meeting they had already agreed on a pilot."
+      },
+      {
+        "s": "בחברה ישראלית, עובד צעיר שמתווכח עם המנכ״ל בישיבה נחשב לחסר כבוד.",
+        "sEn": "In an Israeli company, a young employee who argues with the CEO in a meeting is considered disrespectful.",
+        "a": false,
+        "why": "The hierarchy is relatively flat: a young employee can argue with the CEO, and it isn't seen as disrespect."
+      },
+      {
+        "s": "היום, כשאנה בשווייץ, היא מתגעגעת קצת לקצב של תל אביב.",
+        "sEn": "Today, when Anna is in Switzerland, she misses Tel Aviv's pace a little.",
+        "a": true,
+        "why": "She says that when she goes back to Zurich she kind of misses the pace and the warmth of Tel Aviv."
+      }
+    ],
+    "find": [
+      {
+        "en": "at once, all at the same time",
+        "answer": [
+          "בבת אחת"
+        ]
+      },
+      {
+        "en": "are made (of decisions)",
+        "answer": [
+          "מתקבלות"
+        ]
+      },
+      {
+        "en": "straight to your face",
+        "answer": [
+          "ישר בפנים"
+        ]
+      },
+      {
+        "en": "voice messages",
+        "answer": [
+          "הודעות קוליות"
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "בפגישה הראשונה של אנה בתל אביב אף אחד לא לבש ___.",
+        "en": "At Anna's first meeting in Tel Aviv nobody wore a suit.",
+        "answer": [
+          "חליפה"
+        ],
+        "hint": "formal business clothing"
+      },
+      {
+        "prompt": "ההיררכיה בחברות ישראליות נחשבת ___ יחסית, ועובד צעיר יכול להתווכח עם המנכ״ל.",
+        "en": "The hierarchy in Israeli companies is considered relatively flat, and a young employee can argue with the CEO.",
+        "answer": [
+          "שטוחה"
+        ],
+        "hint": "flat: make it agree with היררכיה (feminine)"
+      },
+      {
+        "prompt": "החלטות מתקבלות בישראל מהר, אבל גם התוכניות ___ תוך כדי תנועה.",
+        "en": "Decisions are made quickly in Israel, but plans also change on the go.",
+        "answer": [
+          "משתנות"
+        ],
+        "hint": "change: present tense, feminine plural"
+      },
+      {
+        "prompt": "אם שותף ישראלי אומר \"זה לא הגיוני\", אין סיבה ___: בדרך כלל זו הזמנה לוויכוח.",
+        "en": "If an Israeli partner says \"that doesn't make sense\", there's no reason to be offended: it's usually an invitation to a debate.",
+        "answer": [
+          "להיעלב"
+        ],
+        "hint": "to be offended"
+      },
+      {
+        "prompt": "בקבוצות הוואטסאפ מגיעות הודעות גם בערב, ולכן אנה למדה להגדיר מראש מתי היא ___.",
+        "en": "In the WhatsApp groups messages arrive in the evening too, so Anna learned to set in advance when she's available.",
+        "answer": [
+          "זמינה"
+        ],
+        "hint": "available (feminine)"
       }
     ],
     "writing": {
@@ -697,6 +887,101 @@
         ]
       }
     ],
+    "tf": [
+      {
+        "s": "בשנתיים האחרונות מספר הלקוחות של החברה גדל פי שניים.",
+        "sEn": "Over the past two years the number of the company's customers has doubled.",
+        "a": true,
+        "why": "The CEO writes that the number of customers has doubled (הוכפל)."
+      },
+      {
+        "s": "במסגרת השינוי, חלק מהעובדים במחלקות המכירות והשיווק יפוטרו.",
+        "sEn": "As part of the change, some of the employees in the sales and marketing departments will be laid off.",
+        "a": false,
+        "why": "The CEO stresses that no employee will be laid off as part of the change."
+      },
+      {
+        "s": "כל עובד יצטרך להעביר בעצמו את המחשב שלו למשרדים החדשים.",
+        "sEn": "Every employee will have to move their own computer to the new offices.",
+        "a": false,
+        "why": "Employees only pack their personal belongings; the IT team will move the computers and screens."
+      },
+      {
+        "s": "גם מי שעובד מהבית יוכל להשתתף במפגש הפתוח.",
+        "sEn": "Those working from home will also be able to take part in the open meeting.",
+        "a": true,
+        "why": "The open meeting will also be held on a video call for those working from home."
+      }
+    ],
+    "find": [
+      {
+        "en": "will take effect",
+        "answer": [
+          "ייכנסו לתוקף",
+          "שייכנסו לתוקף"
+        ]
+      },
+      {
+        "en": "good news (glad tidings)",
+        "answer": [
+          "בשורה טובה"
+        ]
+      },
+      {
+        "en": "smoothly",
+        "answer": [
+          "בצורה חלקה"
+        ]
+      },
+      {
+        "en": "will be held (of a meeting)",
+        "answer": [
+          "ייערך"
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "החברה גדלה מאוד בשנתיים האחרונות ופתחה סניף חדש בעיר ___.",
+        "en": "The company has grown a lot over the past two years and opened a new branch in the city of Haifa.",
+        "answer": [
+          "חיפה"
+        ],
+        "hint": "a city in the north"
+      },
+      {
+        "prompt": "במקום שלוש מחלקות נפרדות תוקם ___ אחת, ואבי מזרחי יעמוד בראשה.",
+        "en": "Instead of three separate departments, a single division will be set up, and Avi Mizrahi will head it.",
+        "answer": [
+          "חטיבה"
+        ],
+        "hint": "division (a feminine noun)"
+      },
+      {
+        "prompt": "המשרדים החדשים יהיו בפתח תקווה, במרחק חמש דקות ___ מתחנת הרכבת.",
+        "en": "The new offices will be in Petah Tikva, a five-minute walk from the train station.",
+        "answer": [
+          "הליכה"
+        ],
+        "hint": "walking (noun)"
+      },
+      {
+        "prompt": "בשני הימים הראשונים של שבוע המעבר כולם יעבדו ___.",
+        "en": "On the first two days of moving week (Sunday and Monday) everyone will work from home.",
+        "answer": [
+          "מהבית"
+        ],
+        "hint": "from home"
+      },
+      {
+        "prompt": "ביום שלישי הבא ייערך ___ פתוח, שבו המנכ״לית תענה על שאלות העובדים.",
+        "en": "Next Tuesday an open meeting will be held, at which the CEO will answer the employees' questions.",
+        "answer": [
+          "מפגש"
+        ],
+        "hint": "a meeting, a gathering (masculine)"
+      }
+    ],
     "writing": {
       "prompt": "כתבו תשובה קצרה ורשמית למנכ״לית: הודו לה על העדכון, שאלו שתי שאלות על המבנה החדש או על המעבר, ובקשו דבר אחד (למשל: יום נוסף של עבודה מהבית או מקום חנייה).",
       "promptEn": "Write a short, formal reply to the CEO: thank her for the update, ask two questions about the new structure or the move, and ask for one thing (for example, an extra day of working from home or a parking space).",
@@ -934,6 +1219,102 @@
             "להאמין"
           ]
         ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "בהתחלה דנה חשבה שהביטול ייקח הרבה זמן.",
+        "sEn": "At first Dana thought the cancellation would take a long time.",
+        "a": false,
+        "why": "She told herself it would take five minutes – she had no idea how wrong she was."
+      },
+      {
+        "s": "בשיחה השנייה הציעו לדנה אינטרנט מהיר יותר באותו מחיר.",
+        "sEn": "On the second call they offered Dana faster internet for the same price.",
+        "a": true,
+        "why": "The customer-retention representative offered her double the speed for the same price."
+      },
+      {
+        "s": "הנציגה מהשיחה השנייה חזרה לדנה תוך שעה, כמו שהבטיחה.",
+        "sEn": "The representative from the second call got back to Dana within an hour, as she had promised.",
+        "a": false,
+        "why": "She promised to call back within an hour, but nobody got back to Dana."
+      },
+      {
+        "s": "בגלל השיחות עם החברה, דנה הפסידה זמן עבודה.",
+        "sEn": "Because of the calls with the company, Dana lost working time.",
+        "a": true,
+        "why": "She spent almost three hours on the line, during which she didn't work on a single project."
+      }
+    ],
+    "find": [
+      {
+        "en": "a matter of making a living",
+        "answer": [
+          "עניין של פרנסה"
+        ]
+      },
+      {
+        "en": "shortly, as soon as possible",
+        "answer": [
+          "בהקדם"
+        ]
+      },
+      {
+        "en": "she lost her patience",
+        "answer": [
+          "איבדה את הסבלנות"
+        ]
+      },
+      {
+        "en": "long ago",
+        "answer": [
+          "כבר מזמן",
+          "מזמן"
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "דנה עובדת מהבית, ולכן היא צריכה ___ טוב לאינטרנט.",
+        "en": "Dana works from home, so she needs a good internet connection.",
+        "answer": [
+          "חיבור"
+        ],
+        "hint": "a connection"
+      },
+      {
+        "prompt": "בשיחה הראשונה היא חיכתה ___ דקות עד שנציג ענה לה.",
+        "en": "On the first call she waited forty minutes until a representative answered her.",
+        "answer": [
+          "ארבעים"
+        ],
+        "hint": "a number: how long was the music?"
+      },
+      {
+        "prompt": "בשיחה השנייה הנציגה הציעה לה מהירות ___, אבל דנה רצתה מחיר נמוך יותר.",
+        "en": "On the second call the representative offered her double the speed, but Dana wanted a lower price.",
+        "answer": [
+          "כפולה"
+        ],
+        "hint": "double: make it agree with מהירות (feminine)"
+      },
+      {
+        "prompt": "אחרי שדנה שלחה בקשת ביטול ___, הציעו לה את החבילה בחצי מחיר.",
+        "en": "After Dana sent a cancellation request in writing, they offered her the package at half price.",
+        "answer": [
+          "בכתב",
+          "דרך האתר"
+        ],
+        "hint": "in writing"
+      },
+      {
+        "prompt": "היום דנה מתקשרת לחברה פעם ___ ומחכה להצעה.",
+        "en": "Today Dana calls the company once a year and waits for an offer.",
+        "answer": [
+          "בשנה"
+        ],
+        "hint": "a year"
       }
     ],
     "writing": {
@@ -1189,6 +1570,101 @@
         ]
       }
     ],
+    "tf": [
+      {
+        "s": "את סבב הגיוס הובילה קרן הון סיכון מבאר שבע.",
+        "sEn": "The funding round was led by a venture capital fund from Be'er Sheva.",
+        "a": false,
+        "why": "The round was led by Inbar Ventures, a venture capital fund from Tel Aviv; it's the startup that is from Be'er Sheva."
+      },
+      {
+        "s": "שני המייסדים של טלסנס הם מהנדסי מים.",
+        "sEn": "Both of TalSense's founders are water engineers.",
+        "a": false,
+        "why": "Dr. Yael Avraham is a water engineer, but Ido Nahum is a software developer."
+      },
+      {
+        "s": "כשהחברה רק התחילה, אמרו למייסדים שקל יותר לגייס כסף בתל אביב.",
+        "sEn": "When the company was just starting out, the founders were told it's easier to raise money in Tel Aviv.",
+        "a": true,
+        "why": "Everyone told them that if they wanted to raise money, they should move to Tel Aviv."
+      },
+      {
+        "s": "סטודנטים שישתתפו בתוכנית ההתמחות יקבלו תשלום.",
+        "sEn": "Students who take part in the internship program will be paid.",
+        "a": true,
+        "why": "The company will open a paid internship program (תוכנית התמחות בתשלום) for students from the region."
+      }
+    ],
+    "find": [
+      {
+        "en": "announced (of a company)",
+        "answer": [
+          "הודיעה"
+        ]
+      },
+      {
+        "en": "existing investors",
+        "answer": [
+          "משקיעים קיימים"
+        ]
+      },
+      {
+        "en": "proudly",
+        "answer": [
+          "בגאווה"
+        ]
+      },
+      {
+        "en": "a paid internship program",
+        "answer": [
+          "תוכנית התמחות בתשלום"
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "החברה מפתחת ___ קטנים שמודדים את הלחות באדמה.",
+        "en": "The company develops small sensors that measure the moisture in the soil.",
+        "answer": [
+          "חיישנים"
+        ],
+        "hint": "sensors"
+      },
+      {
+        "prompt": "על סמך הנתונים, המערכת ממליצה לחקלאי מתי ___ וכמה.",
+        "en": "Based on the data, the system recommends to the farmer when to irrigate and how much.",
+        "answer": [
+          "להשקות"
+        ],
+        "hint": "to irrigate, to water"
+      },
+      {
+        "prompt": "המייסדים לא עברו לתל אביב, והחברה נשארה ___.",
+        "en": "The founders didn't move to Tel Aviv, and the company stayed in the Negev.",
+        "answer": [
+          "בנגב",
+          "בבאר שבע"
+        ],
+        "hint": "in the south of Israel"
+      },
+      {
+        "prompt": "חלק מהמשרות החדשות יהיו ___, עם יומיים של עבודה מהבית בשבוע.",
+        "en": "Some of the new positions will be hybrid, with two days a week of working from home.",
+        "answer": [
+          "היברידיות"
+        ],
+        "hint": "hybrid: make it agree with משרות (feminine plural)"
+      },
+      {
+        "prompt": "בשלב הבא החברה תפתח משרד מכירות ___ ותתרגם את האפליקציה לשפות נוספות.",
+        "en": "In the next stage the company will open a sales office in Europe and translate the app into more languages.",
+        "answer": [
+          "באירופה"
+        ],
+        "hint": "on which continent?"
+      }
+    ],
     "writing": {
       "prompt": "ראיתם שחברת טלסנס מגייסת עובדים חדשים. כתבו מייל קצר לצוות הגיוס של החברה: הציגו את עצמכם, ספרו על הניסיון או הכישורים שלכם, והסבירו למה החברה מעניינת אתכם.",
       "promptEn": "You saw that TalSense is recruiting new employees. Write a short email to the company's recruitment team: introduce yourself, describe your experience or skills, and explain why the company interests you.",
@@ -1423,6 +1899,100 @@
             "תשלומים"
           ]
         ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "נוי ואלון נכנסו למינוס כי רק אחד מהם עבד.",
+        "sEn": "Noy and Alon went into overdraft because only one of them was working.",
+        "a": false,
+        "why": "They both work full-time and earn decent money; the problem was that they didn't know where the money was going."
+      },
+      {
+        "s": "היום נוי ואלון עושים קנייה גדולה אחת בשבוע לפי רשימה.",
+        "sEn": "Today Noy and Alon do one big shop a week, using a list.",
+        "a": true,
+        "why": "Since then they do one big shop a week with an organized list."
+      },
+      {
+        "s": "היועצת אורית שגיא הופתעה מאוד מהמקרה של נוי ואלון.",
+        "sEn": "The advisor Orit Sagi was very surprised by Noy and Alon's case.",
+        "a": false,
+        "why": "She isn't surprised: she says most people don't know where their money goes."
+      },
+      {
+        "s": "לפי הכתבה, משפחות רבות חושבות שקשה מאוד לחסוך לדירה בלי עזרה מההורים.",
+        "sEn": "According to the article, many families think it's very hard to save for an apartment without help from their parents.",
+        "a": true,
+        "why": "Many families argue that without help from their parents it's almost impossible to save for an apartment, even if they plan every shekel."
+      }
+    ],
+    "find": [
+      {
+        "en": "thirty-something (lit. thirty and a bit years old)",
+        "answer": [
+          "בני שלושים וקצת"
+        ]
+      },
+      {
+        "en": "he admits",
+        "answer": [
+          "מודה"
+        ]
+      },
+      {
+        "en": "an unexpected expense",
+        "answer": [
+          "הוצאה לא צפויה"
+        ]
+      },
+      {
+        "en": "we don't panic (lit. we don't go into stress)",
+        "answer": [
+          "לא נכנסים ללחץ"
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "נוי ואלון עובדים שניהם במשרה ___, ובכל זאת הם היו במינוס כל חודש.",
+        "en": "Noy and Alon both work full-time, and yet they were in overdraft every month.",
+        "answer": [
+          "מלאה"
+        ],
+        "hint": "full: make it agree with משרה (feminine)"
+      },
+      {
+        "prompt": "לפני שנה הם ישבו ורשמו את כל ___ שלהם, אפילו את הקטנות ביותר.",
+        "en": "A year ago they sat down and wrote down all their expenses, even the smallest ones.",
+        "answer": [
+          "ההוצאות"
+        ],
+        "hint": "the expenses"
+      },
+      {
+        "prompt": "היום הם קונים לילדים בגדים יד ___ ועברו לחבילה סלולרית זולה יותר.",
+        "en": "Today they buy second-hand clothes for the kids and have switched to a cheaper mobile plan.",
+        "answer": [
+          "שנייה"
+        ],
+        "hint": "second-hand: יד ___"
+      },
+      {
+        "prompt": "אורית ממליצה להעביר סכום ___ לחיסכון ברגע שהמשכורת נכנסת.",
+        "en": "Orit recommends transferring a fixed sum to savings the moment the salary comes in.",
+        "answer": [
+          "קבוע"
+        ],
+        "hint": "fixed"
+      },
+      {
+        "prompt": "נוי אומרת שהם לא עשירים, אבל היום הם ___ טוב יותר בלילה.",
+        "en": "Noy says they're not rich, but today they sleep better at night.",
+        "answer": [
+          "ישנים"
+        ],
+        "hint": "sleep: present tense, plural"
       }
     ],
     "writing": {

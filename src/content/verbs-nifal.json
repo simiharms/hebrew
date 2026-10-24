@@ -1,0 +1,1205 @@
+[
+  {
+    "id": "verb_leheradem",
+    "inf": "להירדם",
+    "tr": "leheradém",
+    "en": "to fall asleep",
+    "root": "ר.ד.ם",
+    "binyan": "nifal",
+    "gizra": "guttural (initial ר)",
+    "level": "B1",
+    "present": {
+      "ms": ["נרדם", "nirdám"],
+      "fs": ["נרדמת", "nirdémet"],
+      "mp": ["נרדמים", "nirdamím"],
+      "fp": ["נרדמות", "nirdamót"]
+    },
+    "past": {
+      "1s": ["נרדמתי", "nirdámti"],
+      "2ms": ["נרדמת", "nirdámta"],
+      "2fs": ["נרדמת", "nirdámt"],
+      "3ms": ["נרדם", "nirdám"],
+      "3fs": ["נרדמה", "nirdemá"],
+      "1p": ["נרדמנו", "nirdámnu"],
+      "2mp": ["נרדמתם", "nirdamtém"],
+      "2fp": ["נרדמתן", "nirdamtén"],
+      "3p": ["נרדמו", "nirdemú"]
+    },
+    "future": {
+      "1s": ["אירדם", "eradém"],
+      "2ms": ["תירדם", "teradém"],
+      "2fs": ["תירדמי", "teradmí"],
+      "3ms": ["יירדם", "yeradém"],
+      "3fs": ["תירדם", "teradém"],
+      "1p": ["נירדם", "neradém"],
+      "2mp": ["תירדמו", "teradmú"],
+      "3p": ["יירדמו", "yeradmú"]
+    },
+    "ex": {
+      "he": "אני לא מצליח להירדם כשיש רעש ברחוב.",
+      "en": "I can't fall asleep when there's noise in the street."
+    },
+    "exs": [
+      {
+        "he": "נרדמתי מול הטלוויזיה באמצע הסרט.",
+        "en": "I fell asleep in front of the TV in the middle of the film.",
+        "form": "נרדמתי"
+      },
+      {
+        "he": "התינוקות במעון נרדמים אחרי ארוחת הצהריים.",
+        "en": "The babies at the daycare centre fall asleep after lunch.",
+        "form": "נרדמים"
+      },
+      {
+        "he": "אם תשתי קפה עכשיו, לא תירדמי בלילה.",
+        "en": "If you drink coffee now, you won't fall asleep tonight.",
+        "form": "תירדמי"
+      }
+    ],
+    "note": "ר can't be doubled, so the future and infinitive have e (teradém, leheradém); in everyday speech you'll hear tiradém, lehiradém. There is no imperative in use: 'go to sleep!' is לך לישון / תלכי לישון, and an impatient parent says תירדם כבר! Also: נרדמה לי הרגל = my leg fell asleep."
+  },
+  {
+    "id": "verb_lehigamer",
+    "inf": "להיגמר",
+    "tr": "lehigamér",
+    "en": "to end, to be over; to run out",
+    "root": "ג.מ.ר",
+    "binyan": "nifal",
+    "gizra": "regular (שלמים)",
+    "gov": "ל",
+    "level": "A2",
+    "present": {
+      "ms": ["נגמר", "nigmár"],
+      "fs": ["נגמרת", "nigméret"],
+      "mp": ["נגמרים", "nigmarím"],
+      "fp": ["נגמרות", "nigmarót"]
+    },
+    "past": {
+      "1s": ["נגמרתי", "nigmárti"],
+      "2ms": ["נגמרת", "nigmárta"],
+      "2fs": ["נגמרת", "nigmárt"],
+      "3ms": ["נגמר", "nigmár"],
+      "3fs": ["נגמרה", "nigmerá"],
+      "1p": ["נגמרנו", "nigmárnu"],
+      "2mp": ["נגמרתם", "nigmartém"],
+      "2fp": ["נגמרתן", "nigmartén"],
+      "3p": ["נגמרו", "nigmerú"]
+    },
+    "future": {
+      "1s": ["אגמר", "egamér"],
+      "2ms": ["תיגמר", "tigamér"],
+      "2fs": ["תיגמרי", "tigamrí"],
+      "3ms": ["ייגמר", "yigamér"],
+      "3fs": ["תיגמר", "tigamér"],
+      "1p": ["ניגמר", "nigamér"],
+      "2mp": ["תיגמרו", "tigamrú"],
+      "3p": ["ייגמרו", "yigamrú"]
+    },
+    "ex": {
+      "he": "נגמר לנו החלב, אתה יכול לקנות בדרך?",
+      "en": "We've run out of milk. Can you buy some on the way?"
+    },
+    "exs": [
+      {
+        "he": "הפגישה נגמרה מאוחר, ולא הספקתי לאכול.",
+        "en": "The meeting ended late, and I didn't have time to eat.",
+        "form": "נגמרה"
+      },
+      {
+        "he": "השיעורים בבית הספר נגמרים בשתיים וחצי.",
+        "en": "Lessons at school end at half past two.",
+        "form": "נגמרים"
+      },
+      {
+        "he": "החופש הגדול ייגמר בעוד שבועיים.",
+        "en": "The summer holidays will be over in two weeks.",
+        "form": "ייגמר"
+      }
+    ],
+    "note": "Something ends by itself: הסרט נגמר. To finish something yourself is pa'al לגמור את: גמרתי את הדוח. With ל it means 'to run out': נגמר לי הכסף, נגמרה לי הסוללה. The verb agrees with the thing that runs out, not with the person. זהו, נגמר = that's it, it's over."
+  },
+  {
+    "id": "verb_lehipatakh",
+    "inf": "להיפתח",
+    "tr": "lehipatákh",
+    "en": "to open (intr.), to be opened",
+    "root": "פ.ת.ח",
+    "binyan": "nifal",
+    "gizra": "guttural (final ח)",
+    "level": "B1",
+    "present": {
+      "ms": ["נפתח", "niftákh"],
+      "fs": ["נפתחת", "niftákhat"],
+      "mp": ["נפתחים", "niftakhím"],
+      "fp": ["נפתחות", "niftakhót"]
+    },
+    "past": {
+      "1s": ["נפתחתי", "niftákhti"],
+      "2ms": ["נפתחת", "niftákhta"],
+      "2fs": ["נפתחת", "niftákhat"],
+      "3ms": ["נפתח", "niftákh"],
+      "3fs": ["נפתחה", "niftekhá"],
+      "1p": ["נפתחנו", "niftákhnu"],
+      "2mp": ["נפתחתם", "niftakhtém"],
+      "2fp": ["נפתחתן", "niftakhtén"],
+      "3p": ["נפתחו", "niftekhú"]
+    },
+    "future": {
+      "1s": ["אפתח", "epatákh"],
+      "2ms": ["תיפתח", "tipatákh"],
+      "2fs": ["תיפתחי", "tipatkhí"],
+      "3ms": ["ייפתח", "yipatákh"],
+      "3fs": ["תיפתח", "tipatákh"],
+      "1p": ["ניפתח", "nipatákh"],
+      "2mp": ["תיפתחו", "tipatkhú"],
+      "3p": ["ייפתחו", "yipatkhú"]
+    },
+    "ex": {
+      "he": "החנות נפתחת כל יום בתשע בבוקר.",
+      "en": "The shop opens every day at nine in the morning."
+    },
+    "exs": [
+      {
+        "he": "השבוע נפתחה בשכונה מספרה חדשה.",
+        "en": "A new hair salon opened in the neighbourhood this week.",
+        "form": "נפתחה"
+      },
+      {
+        "he": "הדלתות נפתחות אוטומטית כשמישהו מתקרב.",
+        "en": "The doors open automatically when someone approaches.",
+        "form": "נפתחות"
+      },
+      {
+        "he": "ההרשמה לקורס תיפתח ביום ראשון.",
+        "en": "Registration for the course will open on Sunday.",
+        "form": "תיפתח"
+      }
+    ],
+    "note": "Final guttural ח: the future and infinitive end in a (ייפתח yipatákh) and past 2fs is niftákhat. Use it when something opens and nobody is named as opening it: הדלת נפתחה, החנות נפתחת בתשע; when someone opens it, use pa'al לפתוח את. Figurative: להיפתח ל = to open up to (new ideas, people)."
+  },
+  {
+    "id": "verb_lehisager",
+    "inf": "להיסגר",
+    "tr": "lehisagér",
+    "en": "to close (intr.), to be closed",
+    "root": "ס.ג.ר",
+    "binyan": "nifal",
+    "gizra": "regular (שלמים)",
+    "level": "B1",
+    "present": {
+      "ms": ["נסגר", "nisgár"],
+      "fs": ["נסגרת", "nisgéret"],
+      "mp": ["נסגרים", "nisgarím"],
+      "fp": ["נסגרות", "nisgarót"]
+    },
+    "past": {
+      "1s": ["נסגרתי", "nisgárti"],
+      "2ms": ["נסגרת", "nisgárta"],
+      "2fs": ["נסגרת", "nisgárt"],
+      "3ms": ["נסגר", "nisgár"],
+      "3fs": ["נסגרה", "nisgerá"],
+      "1p": ["נסגרנו", "nisgárnu"],
+      "2mp": ["נסגרתם", "nisgartém"],
+      "2fp": ["נסגרתן", "nisgartén"],
+      "3p": ["נסגרו", "nisgerú"]
+    },
+    "future": {
+      "1s": ["אסגר", "esagér"],
+      "2ms": ["תיסגר", "tisagér"],
+      "2fs": ["תיסגרי", "tisagrí"],
+      "3ms": ["ייסגר", "yisagér"],
+      "3fs": ["תיסגר", "tisagér"],
+      "1p": ["ניסגר", "nisagér"],
+      "2mp": ["תיסגרו", "tisagrú"],
+      "3p": ["ייסגרו", "yisagrú"]
+    },
+    "ex": {
+      "he": "הסופר נסגר בעשר, אז כדאי למהר.",
+      "en": "The supermarket closes at ten, so we'd better hurry."
+    },
+    "exs": [
+      {
+        "he": "המסעדה האהובה עלינו נסגרה לחודש לשיפוצים.",
+        "en": "Our favourite restaurant has closed for a month for renovations.",
+        "form": "נסגרה"
+      },
+      {
+        "he": "ביום שישי רוב המשרדים נסגרים בצהריים.",
+        "en": "On Fridays most offices close at midday.",
+        "form": "נסגרים"
+      },
+      {
+        "he": "הכביש ייסגר לתנועה בלילה בגלל עבודות תשתית.",
+        "en": "The road will be closed to traffic at night because of infrastructure work.",
+        "form": "ייסגר"
+      }
+    ],
+    "note": "Something closes or gets closed: הדלת נסגרה, הסופר נסגר בעשר. When someone closes it, use pa'al לסגור את, which in speech also means 'to settle, finalise': סגרנו על יום שלישי. Don't mix up the future: ייסגר (yisagér, it will be closed) vs. pa'al יסגור (yisgór, he will close)."
+  },
+  {
+    "id": "verb_lehizakher",
+    "inf": "להיזכר",
+    "tr": "lehizakhér",
+    "en": "to remember, to recall",
+    "root": "ז.כ.ר",
+    "binyan": "nifal",
+    "gizra": "regular (שלמים)",
+    "gov": "ב",
+    "level": "B1",
+    "present": {
+      "ms": ["נזכר", "nizkár"],
+      "fs": ["נזכרת", "nizkéret"],
+      "mp": ["נזכרים", "nizkarím"],
+      "fp": ["נזכרות", "nizkarót"]
+    },
+    "past": {
+      "1s": ["נזכרתי", "nizkárti"],
+      "2ms": ["נזכרת", "nizkárta"],
+      "2fs": ["נזכרת", "nizkárt"],
+      "3ms": ["נזכר", "nizkár"],
+      "3fs": ["נזכרה", "nizkerá"],
+      "1p": ["נזכרנו", "nizkárnu"],
+      "2mp": ["נזכרתם", "nizkartém"],
+      "2fp": ["נזכרתן", "nizkartén"],
+      "3p": ["נזכרו", "nizkerú"]
+    },
+    "future": {
+      "1s": ["אזכר", "ezakhér"],
+      "2ms": ["תיזכר", "tizakhér"],
+      "2fs": ["תיזכרי", "tizakhrí"],
+      "3ms": ["ייזכר", "yizakhér"],
+      "3fs": ["תיזכר", "tizakhér"],
+      "1p": ["ניזכר", "nizakhér"],
+      "2mp": ["תיזכרו", "tizakhrú"],
+      "3p": ["ייזכרו", "yizakhrú"]
+    },
+    "imp": {
+      "ms": ["היזכר", "hizakhér"],
+      "fs": ["היזכרי", "hizakhrí"],
+      "mp": ["היזכרו", "hizakhrú"]
+    },
+    "ex": {
+      "he": "אני מנסה להיזכר איפה החניתי את האוטו.",
+      "en": "I'm trying to remember where I parked the car."
+    },
+    "exs": [
+      {
+        "he": "יוליה נזכרה בשם של הספר רק בדרך הביתה.",
+        "en": "Yulia only remembered the name of the book on the way home.",
+        "form": "נזכרה"
+      },
+      {
+        "he": "כשהם שומעים את השיר הזה, הם נזכרים בטיול לאילת.",
+        "en": "When they hear this song, they're reminded of the trip to Eilat.",
+        "form": "נזכרים"
+      },
+      {
+        "he": "אם תיזכר בעוד משהו, תכתוב לי.",
+        "en": "If you remember anything else, write to me.",
+        "form": "תיזכר"
+      }
+    ],
+    "note": "להיזכר ב = to recall something that had slipped your mind (a moment of remembering): פתאום נזכרתי בפגישה. לזכור = to remember, keep in mind: אני זוכר את הכתובת. The כ is k in nizkár but kh in the future and infinitive (tizakhér, lehizakhér). The imperative היזכר / היזכרו is written style (ads: היזכרו בטעם של פעם); in speech: תנסה להיזכר."
+  },
+  {
+    "id": "verb_lehealem",
+    "inf": "להיעלם",
+    "tr": "lehe'além",
+    "en": "to disappear, to vanish",
+    "root": "ע.ל.ם",
+    "binyan": "nifal",
+    "gizra": "guttural (initial ע)",
+    "level": "B1",
+    "present": {
+      "ms": ["נעלם", "ne'elám"],
+      "fs": ["נעלמת", "ne'elémet"],
+      "mp": ["נעלמים", "ne'elamím"],
+      "fp": ["נעלמות", "ne'elamót"]
+    },
+    "past": {
+      "1s": ["נעלמתי", "ne'elámti"],
+      "2ms": ["נעלמת", "ne'elámta"],
+      "2fs": ["נעלמת", "ne'elámt"],
+      "3ms": ["נעלם", "ne'elám"],
+      "3fs": ["נעלמה", "ne'elmá"],
+      "1p": ["נעלמנו", "ne'elámnu"],
+      "2mp": ["נעלמתם", "ne'elamtém"],
+      "2fp": ["נעלמתן", "ne'elamtén"],
+      "3p": ["נעלמו", "ne'elmú"]
+    },
+    "future": {
+      "1s": ["איעלם", "e'além"],
+      "2ms": ["תיעלם", "te'além"],
+      "2fs": ["תיעלמי", "te'almí"],
+      "3ms": ["ייעלם", "ye'além"],
+      "3fs": ["תיעלם", "te'além"],
+      "1p": ["ניעלם", "ne'além"],
+      "2mp": ["תיעלמו", "te'almú"],
+      "3p": ["ייעלמו", "ye'almú"]
+    },
+    "ex": {
+      "he": "איך הקובץ יכול פשוט להיעלם מהמחשב?",
+      "en": "How can the file just disappear from the computer?"
+    },
+    "exs": [
+      {
+        "he": "המפתחות שלי נעלמו, ובסוף מצאתי אותם במקרר.",
+        "en": "My keys disappeared, and in the end I found them in the fridge.",
+        "form": "נעלמו"
+      },
+      {
+        "he": "הכתמים נעלמים אחרי כביסה אחת בלבד.",
+        "en": "The stains disappear after just one wash.",
+        "form": "נעלמים"
+      },
+      {
+        "he": "הכאב ייעלם תוך יומיים, אבל בינתיים תנוח.",
+        "en": "The pain will go away within two days, but rest in the meantime.",
+        "form": "ייעלם"
+      }
+    ],
+    "note": "Initial guttural ע can't be doubled, so the future and infinitive have e (ye'além, lehe'além), and the present and past start with ne-: נעלם ne'elám, נעלמה ne'elmá. No imperative in everyday use: an annoyed 'get lost!' is the future, תיעלם לי מהעיניים!"
+  },
+  {
+    "id": "verb_lehipared",
+    "inf": "להיפרד",
+    "tr": "lehiparéd",
+    "en": "to part, to say goodbye; to break up",
+    "root": "פ.ר.ד",
+    "binyan": "nifal",
+    "gizra": "regular (שלמים)",
+    "gov": "מ",
+    "level": "B1",
+    "present": {
+      "ms": ["נפרד", "nifrád"],
+      "fs": ["נפרדת", "nifrédet"],
+      "mp": ["נפרדים", "nifradím"],
+      "fp": ["נפרדות", "nifradót"]
+    },
+    "past": {
+      "1s": ["נפרדתי", "nifrádti"],
+      "2ms": ["נפרדת", "nifrádta"],
+      "2fs": ["נפרדת", "nifrádt"],
+      "3ms": ["נפרד", "nifrád"],
+      "3fs": ["נפרדה", "nifredá"],
+      "1p": ["נפרדנו", "nifrádnu"],
+      "2mp": ["נפרדתם", "nifradtém"],
+      "2fp": ["נפרדתן", "nifradtén"],
+      "3p": ["נפרדו", "nifredú"]
+    },
+    "future": {
+      "1s": ["אפרד", "eparéd"],
+      "2ms": ["תיפרד", "tiparéd"],
+      "2fs": ["תיפרדי", "tipardí"],
+      "3ms": ["ייפרד", "yiparéd"],
+      "3fs": ["תיפרד", "tiparéd"],
+      "1p": ["ניפרד", "niparéd"],
+      "2mp": ["תיפרדו", "tipardú"],
+      "3p": ["ייפרדו", "yipardú"]
+    },
+    "ex": {
+      "he": "קשה לי להיפרד מהצוות אחרי חמש שנים.",
+      "en": "It's hard for me to say goodbye to the team after five years."
+    },
+    "exs": [
+      {
+        "he": "מישל ודימה נפרדו אחרי שלוש שנים, אבל הם נשארו חברים.",
+        "en": "Michelle and Dima broke up after three years, but they stayed friends.",
+        "form": "נפרדו"
+      },
+      {
+        "he": "בשדה התעופה הם נפרדים בחיבוק ארוך.",
+        "en": "At the airport they say goodbye with a long hug.",
+        "form": "נפרדים"
+      },
+      {
+        "he": "ניפרד בכניסה, ואני אמשיך ברגל.",
+        "en": "We'll part at the entrance, and I'll go on on foot.",
+        "form": "ניפרד"
+      }
+    ],
+    "note": "להיפרד מ = to say goodbye to, to part from: נפרדתי מההורים בשדה התעופה. Of a couple it means 'to break up': הם נפרדו, היא נפרדה ממנו. The adjective נפרד = separate (חדר נפרד). פרידה = goodbye, break-up; מסיבת פרידה = farewell party."
+  },
+  {
+    "id": "verb_lehipatsa",
+    "inf": "להיפצע",
+    "tr": "lehipatsá",
+    "en": "to be injured, to get hurt",
+    "root": "פ.צ.ע",
+    "binyan": "nifal",
+    "gizra": "guttural (final ע)",
+    "level": "B1",
+    "present": {
+      "ms": ["נפצע", "niftsá"],
+      "fs": ["נפצעת", "niftsá'at"],
+      "mp": ["נפצעים", "niftsa'ím"],
+      "fp": ["נפצעות", "niftsa'ót"]
+    },
+    "past": {
+      "1s": ["נפצעתי", "niftsáti"],
+      "2ms": ["נפצעת", "niftsáta"],
+      "2fs": ["נפצעת", "niftsá'at"],
+      "3ms": ["נפצע", "niftsá"],
+      "3fs": ["נפצעה", "niftse'á"],
+      "1p": ["נפצענו", "niftsánu"],
+      "2mp": ["נפצעתם", "niftsatém"],
+      "2fp": ["נפצעתן", "niftsatén"],
+      "3p": ["נפצעו", "niftse'ú"]
+    },
+    "future": {
+      "1s": ["אפצע", "epatsá"],
+      "2ms": ["תיפצע", "tipatsá"],
+      "2fs": ["תיפצעי", "tipats'í"],
+      "3ms": ["ייפצע", "yipatsá"],
+      "3fs": ["תיפצע", "tipatsá"],
+      "1p": ["ניפצע", "nipatsá"],
+      "2mp": ["תיפצעו", "tipats'ú"],
+      "3p": ["ייפצעו", "yipats'ú"]
+    },
+    "ex": {
+      "he": "השחקן נפצע ברגל ולא ישחק בשבוע הבא.",
+      "en": "The player hurt his leg and won't play next week."
+    },
+    "exs": [
+      {
+        "he": "נפצעתי בברך באימון ריצה, אז החודש אני לא רצה.",
+        "en": "I hurt my knee at running practice, so I'm not running this month.",
+        "form": "נפצעתי"
+      },
+      {
+        "he": "בכל שנה הרבה מטיילים נפצעים כי הם לא נזהרים בשבילים.",
+        "en": "Every year many hikers get hurt because they aren't careful on the trails.",
+        "form": "נפצעים"
+      },
+      {
+        "he": "תלבשי קסדה, כדי שלא תיפצעי אם תיפלי.",
+        "en": "Wear a helmet so you don't get hurt if you fall.",
+        "form": "תיפצעי"
+      }
+    ],
+    "note": "Final guttural ע: the future and infinitive end in a (ייפצע yipatsá, lehipatsá) and past 2fs is niftsá'at. Say נפצעתי ב + body part: נפצעתי ביד. For a minor bump people usually say קיבלתי מכה. פצע = wound, פציעה = injury, פצוע = injured."
+  },
+  {
+    "id": "verb_lehikashel",
+    "inf": "להיכשל",
+    "tr": "lehikashél",
+    "en": "to fail",
+    "root": "כ.ש.ל",
+    "binyan": "nifal",
+    "gizra": "regular (שלמים)",
+    "gov": "ב",
+    "level": "B1",
+    "present": {
+      "ms": ["נכשל", "nikhshál"],
+      "fs": ["נכשלת", "nikhshélet"],
+      "mp": ["נכשלים", "nikhshalím"],
+      "fp": ["נכשלות", "nikhshalót"]
+    },
+    "past": {
+      "1s": ["נכשלתי", "nikhshálti"],
+      "2ms": ["נכשלת", "nikhshálta"],
+      "2fs": ["נכשלת", "nikhshált"],
+      "3ms": ["נכשל", "nikhshál"],
+      "3fs": ["נכשלה", "nikhshelá"],
+      "1p": ["נכשלנו", "nikhshálnu"],
+      "2mp": ["נכשלתם", "nikhshaltém"],
+      "2fp": ["נכשלתן", "nikhshaltén"],
+      "3p": ["נכשלו", "nikhshelú"]
+    },
+    "future": {
+      "1s": ["אכשל", "ekashél"],
+      "2ms": ["תיכשל", "tikashél"],
+      "2fs": ["תיכשלי", "tikashlí"],
+      "3ms": ["ייכשל", "yikashél"],
+      "3fs": ["תיכשל", "tikashél"],
+      "1p": ["ניכשל", "nikashél"],
+      "2mp": ["תיכשלו", "tikashlú"],
+      "3p": ["ייכשלו", "yikashlú"]
+    },
+    "ex": {
+      "he": "אל תפחד להיכשל, ככה לומדים.",
+      "en": "Don't be afraid to fail; that's how you learn."
+    },
+    "exs": [
+      {
+        "he": "נכשלתי במבחן הנהיגה בפעם הראשונה, אבל בפעם השנייה עברתי.",
+        "en": "I failed my driving test the first time, but I passed the second time.",
+        "form": "נכשלתי"
+      },
+      {
+        "he": "הרבה סטארט־אפים נכשלים בשנים הראשונות.",
+        "en": "Many start-ups fail in their first years.",
+        "form": "נכשלים"
+      },
+      {
+        "he": "בלי תוכנית עסקית ברורה, הפרויקט ייכשל.",
+        "en": "Without a clear business plan, the project will fail.",
+        "form": "ייכשל"
+      }
+    ],
+    "note": "להיכשל ב = to fail (at): נכשלה בבחינה. Opposite: להצליח ב; to pass a test is לעבור (עברתי את הטסט). Watch the כ: kh in the present and past (nikhshál), k in the future and infinitive, where it is doubled (tikashél, lehikashél). כישלון = failure."
+  },
+  {
+    "id": "verb_lehivatser",
+    "inf": "להיווצר",
+    "tr": "lehivatsér",
+    "en": "to be created, to form, to arise",
+    "root": "י.צ.ר",
+    "binyan": "nifal",
+    "gizra": "פ״י (initial yod)",
+    "level": "B2",
+    "present": {
+      "ms": ["נוצר", "notsár"],
+      "fs": ["נוצרת", "notséret"],
+      "mp": ["נוצרים", "notsarím"],
+      "fp": ["נוצרות", "notsarót"]
+    },
+    "past": {
+      "1s": ["נוצרתי", "notsárti"],
+      "2ms": ["נוצרת", "notsárta"],
+      "2fs": ["נוצרת", "notsárt"],
+      "3ms": ["נוצר", "notsár"],
+      "3fs": ["נוצרה", "notsrá"],
+      "1p": ["נוצרנו", "notsárnu"],
+      "2mp": ["נוצרתם", "notsartém"],
+      "2fp": ["נוצרתן", "notsartén"],
+      "3p": ["נוצרו", "notsrú"]
+    },
+    "future": {
+      "1s": ["אווצר", "evatsér"],
+      "2ms": ["תיווצר", "tivatsér"],
+      "2fs": ["תיווצרי", "tivatsrí"],
+      "3ms": ["ייווצר", "yivatsér"],
+      "3fs": ["תיווצר", "tivatsér"],
+      "1p": ["ניווצר", "nivatsér"],
+      "2mp": ["תיווצרו", "tivatsrú"],
+      "3p": ["ייווצרו", "yivatsrú"]
+    },
+    "ex": {
+      "he": "נוצרה בעיה במערכת, ואנחנו כבר מטפלים בה.",
+      "en": "A problem has come up in the system, and we're already dealing with it."
+    },
+    "exs": [
+      {
+        "he": "בזכות המפעל החדש נוצרו בעיר מאות מקומות עבודה.",
+        "en": "Thanks to the new factory, hundreds of jobs were created in the town.",
+        "form": "נוצרו"
+      },
+      {
+        "he": "כשאוויר חם ולח מתקרר, נוצרים עננים.",
+        "en": "When warm, humid air cools, clouds form.",
+        "form": "נוצרים"
+      },
+      {
+        "he": "אם לא נדבר על זה עכשיו, ייווצרו אי־הבנות.",
+        "en": "If we don't talk about it now, misunderstandings will arise.",
+        "form": "ייווצרו"
+      }
+    ],
+    "note": "פ״י root (י.צ.ר): the present and past have o (נוצר notsár, נוצרה notsrá), while the future and infinitive have a doubled ו (ייווצר yivatsér, להיווצר). Almost always third person: נוצר מצב, נוצרה הזדמנות, נוצר קשר. Pa'al ליצור את = to create; יצירה = creation, work of art."
+  },
+  {
+    "id": "verb_lehivaled",
+    "inf": "להיוולד",
+    "tr": "lehivaléd",
+    "en": "to be born",
+    "root": "י.ל.ד",
+    "binyan": "nifal",
+    "gizra": "פ״י (initial yod)",
+    "level": "A2",
+    "present": {
+      "ms": ["נולד", "nolád"],
+      "fs": ["נולדת", "nolédet"],
+      "mp": ["נולדים", "noladím"],
+      "fp": ["נולדות", "noladót"]
+    },
+    "past": {
+      "1s": ["נולדתי", "noládti"],
+      "2ms": ["נולדת", "noládta"],
+      "2fs": ["נולדת", "noládt"],
+      "3ms": ["נולד", "nolád"],
+      "3fs": ["נולדה", "noldá"],
+      "1p": ["נולדנו", "noládnu"],
+      "2mp": ["נולדתם", "noladtém"],
+      "2fp": ["נולדתן", "noladtén"],
+      "3p": ["נולדו", "noldú"]
+    },
+    "future": {
+      "1s": ["אוולד", "evaléd"],
+      "2ms": ["תיוולד", "tivaléd"],
+      "2fs": ["תיוולדי", "tivaldí"],
+      "3ms": ["ייוולד", "yivaléd"],
+      "3fs": ["תיוולד", "tivaléd"],
+      "1p": ["ניוולד", "nivaléd"],
+      "2mp": ["תיוולדו", "tivaldú"],
+      "3p": ["ייוולדו", "yivaldú"]
+    },
+    "ex": {
+      "he": "נולדתי בנתניה, אבל גדלתי בבאר שבע.",
+      "en": "I was born in Netanya, but I grew up in Be'er Sheva."
+    },
+    "exs": [
+      {
+        "he": "הבת של אלמז ויוסף נולדה ביום חמישי בבוקר.",
+        "en": "Almaz and Yosef's daughter was born on Thursday morning.",
+        "form": "נולדה"
+      },
+      {
+        "he": "בבית החולים הזה נולדים כמה עשרות תינוקות בכל יום.",
+        "en": "Several dozen babies are born in this hospital every day.",
+        "form": "נולדים"
+      },
+      {
+        "he": "אם הכול יהיה בסדר, התינוק ייוולד באמצע מאי.",
+        "en": "If all goes well, the baby will be born in mid-May.",
+        "form": "ייוולד"
+      }
+    ],
+    "note": "פ״י root (י.ל.ד): the present and past have o (נולד nolád, נולדה noldá, נולדתי noládti), the future a doubled ו (ייוולד yivaléd). נולד is both 'is born' and 'was born'. איפה נולדת? (noládta / noládt) = where were you born? For the mother, use pa'al ללדת = to give birth (היא ילדה בת); יום הולדת = birthday."
+  },
+  {
+    "id": "verb_lehishaver",
+    "inf": "להישבר",
+    "tr": "lehishavér",
+    "en": "to break (intr.), to get broken",
+    "root": "ש.ב.ר",
+    "binyan": "nifal",
+    "gizra": "regular (שלמים)",
+    "level": "A2",
+    "present": {
+      "ms": ["נשבר", "nishbár"],
+      "fs": ["נשברת", "nishbéret"],
+      "mp": ["נשברים", "nishbarím"],
+      "fp": ["נשברות", "nishbarót"]
+    },
+    "past": {
+      "1s": ["נשברתי", "nishbárti"],
+      "2ms": ["נשברת", "nishbárta"],
+      "2fs": ["נשברת", "nishbárt"],
+      "3ms": ["נשבר", "nishbár"],
+      "3fs": ["נשברה", "nishberá"],
+      "1p": ["נשברנו", "nishbárnu"],
+      "2mp": ["נשברתם", "nishbartém"],
+      "2fp": ["נשברתן", "nishbartén"],
+      "3p": ["נשברו", "nishberú"]
+    },
+    "future": {
+      "1s": ["אשבר", "eshavér"],
+      "2ms": ["תישבר", "tishavér"],
+      "2fs": ["תישברי", "tishavrí"],
+      "3ms": ["יישבר", "yishavér"],
+      "3fs": ["תישבר", "tishavér"],
+      "1p": ["נישבר", "nishavér"],
+      "2mp": ["תישברו", "tishavrú"],
+      "3p": ["יישברו", "yishavrú"]
+    },
+    "ex": {
+      "he": "הכוס נפלה מהשולחן ונשברה.",
+      "en": "The glass fell off the table and broke."
+    },
+    "exs": [
+      {
+        "he": "שתי צלחות נשברו בהובלה לדירה החדשה.",
+        "en": "Two plates broke in the move to the new flat.",
+        "form": "נשברו"
+      },
+      {
+        "he": "הכוסות האלה לא נשברות גם כשהן נופלות.",
+        "en": "These glasses don't break even when they fall.",
+        "form": "נשברות"
+      },
+      {
+        "he": "תחזיק את הקופסה בזהירות, אחרת היא תישבר.",
+        "en": "Hold the box carefully, or it'll break.",
+        "form": "תישבר"
+      }
+    ],
+    "note": "The nif'al: something breaks (הכוס נשברה). The pa'al לשבור את: someone breaks it (שברתי את הכוס). Watch b/v: nishbár (b) but tishavér, lehishavér (v). Slang: נשבר לי = I've had it, I'm fed up (נשבר לי מהפקקים)."
+  },
+  {
+    "id": "verb_leheraot",
+    "inf": "להיראות",
+    "tr": "lehera'ót",
+    "en": "to look, to seem, to appear",
+    "root": "ר.א.ה",
+    "binyan": "nifal",
+    "gizra": "ל״ה (final heh) + guttural (initial ר, middle א)",
+    "level": "A2",
+    "present": {
+      "ms": ["נראה", "nir'é"],
+      "fs": ["נראית", "nir'ét"],
+      "mp": ["נראים", "nir'ím"],
+      "fp": ["נראות", "nir'ót"]
+    },
+    "past": {
+      "1s": ["נראיתי", "nir'éti"],
+      "2ms": ["נראית", "nir'éta"],
+      "2fs": ["נראית", "nir'ét"],
+      "3ms": ["נראה", "nir'á"],
+      "3fs": ["נראתה", "nir'atá"],
+      "1p": ["נראינו", "nir'énu"],
+      "2mp": ["נראיתם", "nir'etém"],
+      "2fp": ["נראיתן", "nir'etén"],
+      "3p": ["נראו", "nir'ú"]
+    },
+    "future": {
+      "1s": ["איראה", "era'é"],
+      "2ms": ["תיראה", "tera'é"],
+      "2fs": ["תיראי", "tera'í"],
+      "3ms": ["ייראה", "yera'é"],
+      "3fs": ["תיראה", "tera'é"],
+      "1p": ["ניראה", "nera'é"],
+      "2mp": ["תיראו", "tera'ú"],
+      "3p": ["ייראו", "yera'ú"]
+    },
+    "ex": {
+      "he": "את נראית עייפה, הכול בסדר?",
+      "en": "You look tired. Is everything OK?"
+    },
+    "exs": [
+      {
+        "he": "הדירה נראתה הרבה יותר גדולה בתמונות.",
+        "en": "The flat looked much bigger in the photos.",
+        "form": "נראתה"
+      },
+      {
+        "he": "הילדים נראים שמחים בגן החדש.",
+        "en": "The kids seem happy at the new kindergarten.",
+        "form": "נראים"
+      },
+      {
+        "he": "עם הז׳קט הזה תיראה מצוין בראיון.",
+        "en": "You'll look great at the interview in this jacket.",
+        "form": "תיראה"
+      }
+    ],
+    "note": "ל״ה verb with initial ר: present נראה / נראית (nir'é / nir'ét), past נראה / נראתה (nir'á / nir'atá), future ייראה (yera'é; in speech yira'é). נראה לי = I think, it seems to me: by far the most common form. להיראות כמו = to look like. Don't confuse it with pa'al נראה = we'll see (נראה מה יהיה), or with להתראות (to see each other; להתראות! = bye)."
+  },
+  {
+    "id": "verb_lehitaka",
+    "inf": "להיתקע",
+    "tr": "lehitaká",
+    "en": "to get stuck",
+    "root": "ת.ק.ע",
+    "binyan": "nifal",
+    "gizra": "guttural (final ע)",
+    "level": "B1",
+    "present": {
+      "ms": ["נתקע", "nitká"],
+      "fs": ["נתקעת", "nitká'at"],
+      "mp": ["נתקעים", "nitka'ím"],
+      "fp": ["נתקעות", "nitka'ót"]
+    },
+    "past": {
+      "1s": ["נתקעתי", "nitkáti"],
+      "2ms": ["נתקעת", "nitkáta"],
+      "2fs": ["נתקעת", "nitká'at"],
+      "3ms": ["נתקע", "nitká"],
+      "3fs": ["נתקעה", "nitke'á"],
+      "1p": ["נתקענו", "nitkánu"],
+      "2mp": ["נתקעתם", "nitkatém"],
+      "2fp": ["נתקעתן", "nitkatén"],
+      "3p": ["נתקעו", "nitke'ú"]
+    },
+    "future": {
+      "1s": ["אתקע", "etaká"],
+      "2ms": ["תיתקע", "titaká"],
+      "2fs": ["תיתקעי", "titak'í"],
+      "3ms": ["ייתקע", "yitaká"],
+      "3fs": ["תיתקע", "titaká"],
+      "1p": ["ניתקע", "nitaká"],
+      "2mp": ["תיתקעו", "titak'ú"],
+      "3p": ["ייתקעו", "yitak'ú"]
+    },
+    "ex": {
+      "he": "האתר נתקע לי כל פעם שאני מנסה לשלם.",
+      "en": "The website freezes on me every time I try to pay."
+    },
+    "exs": [
+      {
+        "he": "המעלית נתקעה בין הקומות, אבל הטכנאי הגיע מהר.",
+        "en": "The lift got stuck between floors, but the technician came quickly.",
+        "form": "נתקעה"
+      },
+      {
+        "he": "בשעות העומס הרבה נהגים נתקעים בכניסה לעיר.",
+        "en": "At rush hour many drivers get stuck at the entrance to the city.",
+        "form": "נתקעים"
+      },
+      {
+        "he": "אם ניסע עכשיו, ניתקע בפקקים.",
+        "en": "If we leave now, we'll get stuck in traffic.",
+        "form": "ניתקע"
+      }
+    ],
+    "note": "Final guttural ע: the future and infinitive end in a (ייתקע yitaká) and past 2fs is nitká'at. Everyday uses: נתקעתי בפקק (stuck in traffic), המחשב נתקע (the computer froze), נתקעתי בתרגיל (I'm stuck on the exercise). With ל the problem 'happens to you': הטלפון נתקע לי."
+  },
+  {
+    "id": "verb_leheraga",
+    "inf": "להירגע",
+    "tr": "leheragá",
+    "en": "to calm down, to relax",
+    "root": "ר.ג.ע",
+    "binyan": "nifal",
+    "gizra": "guttural (initial ר, final ע)",
+    "level": "B1",
+    "present": {
+      "ms": ["נרגע", "nirgá"],
+      "fs": ["נרגעת", "nirgá'at"],
+      "mp": ["נרגעים", "nirga'ím"],
+      "fp": ["נרגעות", "nirga'ót"]
+    },
+    "past": {
+      "1s": ["נרגעתי", "nirgáti"],
+      "2ms": ["נרגעת", "nirgáta"],
+      "2fs": ["נרגעת", "nirgá'at"],
+      "3ms": ["נרגע", "nirgá"],
+      "3fs": ["נרגעה", "nirge'á"],
+      "1p": ["נרגענו", "nirgánu"],
+      "2mp": ["נרגעתם", "nirgatém"],
+      "2fp": ["נרגעתן", "nirgatén"],
+      "3p": ["נרגעו", "nirge'ú"]
+    },
+    "future": {
+      "1s": ["אירגע", "eragá"],
+      "2ms": ["תירגע", "teragá"],
+      "2fs": ["תירגעי", "terag'í"],
+      "3ms": ["יירגע", "yeragá"],
+      "3fs": ["תירגע", "teragá"],
+      "1p": ["נירגע", "neragá"],
+      "2mp": ["תירגעו", "terag'ú"],
+      "3p": ["יירגעו", "yerag'ú"]
+    },
+    "imp": {
+      "ms": ["הירגע", "heragá"],
+      "fs": ["הירגעי", "herag'í"],
+      "mp": ["הירגעו", "herag'ú"]
+    },
+    "ex": {
+      "he": "אחרי יום עבודה ארוך אני צריכה להירגע קצת.",
+      "en": "After a long day at work I need to relax a bit."
+    },
+    "exs": [
+      {
+        "he": "התינוקת בכתה, אבל נרגעה כשסבתא שרה לה.",
+        "en": "The baby was crying, but calmed down when Grandma sang to her.",
+        "form": "נרגעה"
+      },
+      {
+        "he": "הרבה אנשים נרגעים כשהם מטיילים בטבע.",
+        "en": "Many people relax when they go walking in nature.",
+        "form": "נרגעים"
+      },
+      {
+        "he": "תירגעי, יש לנו מספיק זמן להגיע לטיסה.",
+        "en": "Calm down, we have plenty of time to make the flight.",
+        "form": "תירגעי"
+      }
+    ],
+    "note": "Initial ר and final ע: the future has e…a (teragá, terag'í; in speech tiragá), the present and past nirgá, nirge'á. In conversation 'calm down!' is the future: תירגע! / תירגעי! / תירגעו!; הירגע / הירגעי / הירגעו is the formal imperative. Same root: רגע (moment), רגוע (calm)."
+  },
+  {
+    "id": "verb_lehipaga",
+    "inf": "להיפגע",
+    "tr": "lehipagá",
+    "en": "to be hurt, to be offended; to be damaged",
+    "root": "פ.ג.ע",
+    "binyan": "nifal",
+    "gizra": "guttural (final ע)",
+    "gov": "מ",
+    "level": "B1",
+    "present": {
+      "ms": ["נפגע", "nifgá"],
+      "fs": ["נפגעת", "nifgá'at"],
+      "mp": ["נפגעים", "nifga'ím"],
+      "fp": ["נפגעות", "nifga'ót"]
+    },
+    "past": {
+      "1s": ["נפגעתי", "nifgáti"],
+      "2ms": ["נפגעת", "nifgáta"],
+      "2fs": ["נפגעת", "nifgá'at"],
+      "3ms": ["נפגע", "nifgá"],
+      "3fs": ["נפגעה", "nifge'á"],
+      "1p": ["נפגענו", "nifgánu"],
+      "2mp": ["נפגעתם", "nifgatém"],
+      "2fp": ["נפגעתן", "nifgatén"],
+      "3p": ["נפגעו", "nifge'ú"]
+    },
+    "future": {
+      "1s": ["אפגע", "epagá"],
+      "2ms": ["תיפגע", "tipagá"],
+      "2fs": ["תיפגעי", "tipag'í"],
+      "3ms": ["ייפגע", "yipagá"],
+      "3fs": ["תיפגע", "tipagá"],
+      "1p": ["ניפגע", "nipagá"],
+      "2mp": ["תיפגעו", "tipag'ú"],
+      "3p": ["ייפגעו", "yipag'ú"]
+    },
+    "ex": {
+      "he": "אל תיפגע, אבל אני חושבת שהרעיון לא מתאים ללקוח.",
+      "en": "No offence, but I don't think the idea is right for the client."
+    },
+    "exs": [
+      {
+        "he": "נפגעתי מאוד מההערה שלה בישיבה.",
+        "en": "I was really hurt by her remark at the meeting.",
+        "form": "נפגעתי"
+      },
+      {
+        "he": "כשהמחירים עולים, משפחות עם הכנסה נמוכה נפגעות יותר מכולן.",
+        "en": "When prices rise, low-income families are hit hardest.",
+        "form": "נפגעות"
+      },
+      {
+        "he": "אל תדאגי, הקבצים לא ייפגעו בזמן העדכון.",
+        "en": "Don't worry, the files won't be damaged during the update.",
+        "form": "ייפגעו"
+      }
+    ],
+    "note": "Final guttural ע: the future and infinitive end in a (ייפגע yipagá) and past 2fs is nifgá'at. להיפגע מ = to be hurt or offended by: נפגעתי ממה שאמרת. Also physical: נפגע בתאונה. אל תיפגע / אל תיפגעי, אבל… = no offence, but…. Pa'al לפגוע ב = to hurt someone."
+  },
+  {
+    "id": "verb_lehilakhem",
+    "inf": "להילחם",
+    "tr": "lehilakhém",
+    "en": "to fight, to struggle (against)",
+    "root": "ל.ח.ם",
+    "binyan": "nifal",
+    "gizra": "guttural (middle ח)",
+    "gov": "ב / על",
+    "level": "B2",
+    "present": {
+      "ms": ["נלחם", "nilkhám"],
+      "fs": ["נלחמת", "nilkhémet"],
+      "mp": ["נלחמים", "nilkhamím"],
+      "fp": ["נלחמות", "nilkhamót"]
+    },
+    "past": {
+      "1s": ["נלחמתי", "nilkhámti"],
+      "2ms": ["נלחמת", "nilkhámta"],
+      "2fs": ["נלחמת", "nilkhámt"],
+      "3ms": ["נלחם", "nilkhám"],
+      "3fs": ["נלחמה", "nilkhamá"],
+      "1p": ["נלחמנו", "nilkhámnu"],
+      "2mp": ["נלחמתם", "nilkhamtém"],
+      "2fp": ["נלחמתן", "nilkhamtén"],
+      "3p": ["נלחמו", "nilkhamú"]
+    },
+    "future": {
+      "1s": ["אלחם", "elakhém"],
+      "2ms": ["תילחם", "tilakhém"],
+      "2fs": ["תילחמי", "tilakhamí"],
+      "3ms": ["יילחם", "yilakhém"],
+      "3fs": ["תילחם", "tilakhém"],
+      "1p": ["נילחם", "nilakhém"],
+      "2mp": ["תילחמו", "tilakhamú"],
+      "3p": ["יילחמו", "yilakhamú"]
+    },
+    "imp": {
+      "ms": ["הילחם", "hilakhém"],
+      "fs": ["הילחמי", "hilakhamí"],
+      "mp": ["הילחמו", "hilakhamú"]
+    },
+    "ex": {
+      "he": "העירייה מנסה להילחם בזיהום האוויר בעזרת אוטובוסים חשמליים.",
+      "en": "The municipality is trying to fight air pollution with electric buses."
+    },
+    "exs": [
+      {
+        "he": "נלחמנו שנה שלמה עם חברת הביטוח, ובסוף קיבלנו את הכסף.",
+        "en": "We battled with the insurance company for a whole year, and in the end we got the money.",
+        "form": "נלחמנו"
+      },
+      {
+        "he": "החוקרים במעבדה נלחמים במחלה נדירה.",
+        "en": "The researchers in the lab are fighting a rare disease.",
+        "form": "נלחמים"
+      },
+      {
+        "he": "הילחמו על מה שחשוב לכם!",
+        "en": "Fight for what matters to you!",
+        "form": "הילחמו"
+      }
+    ],
+    "note": "Middle guttural ח takes a where other verbs have a silent shva: נלחמה, נלחמו (nilkhamá, nilkhamú), תילחמי, יילחמו (tilakhamí, yilakhamú). Prepositions: נלחם ב = to fight against (להילחם בעישון), נלחם על = to fight for (על הזכויות שלך), נלחם עם = to struggle with. The imperative הילחמו! belongs to slogans and speeches. Same root: מלחמה (war)."
+  },
+  {
+    "id": "verb_lehimatse",
+    "inf": "להימצא",
+    "tr": "lehimatsé",
+    "en": "to be located, to be (somewhere); to be found",
+    "root": "מ.צ.א",
+    "binyan": "nifal",
+    "gizra": "ל״א (final aleph)",
+    "level": "A2",
+    "present": {
+      "ms": ["נמצא", "nimtsá"],
+      "fs": ["נמצאת", "nimtsét"],
+      "mp": ["נמצאים", "nimtsa'ím"],
+      "fp": ["נמצאות", "nimtsa'ót"]
+    },
+    "past": {
+      "1s": ["נמצאתי", "nimtséti"],
+      "2ms": ["נמצאת", "nimtséta"],
+      "2fs": ["נמצאת", "nimtsét"],
+      "3ms": ["נמצא", "nimtsá"],
+      "3fs": ["נמצאה", "nimtse'á"],
+      "1p": ["נמצאנו", "nimtsénu"],
+      "2mp": ["נמצאתם", "nimtsetém"],
+      "2fp": ["נמצאתן", "nimtsetén"],
+      "3p": ["נמצאו", "nimtse'ú"]
+    },
+    "future": {
+      "1s": ["אמצא", "ematsé"],
+      "2ms": ["תימצא", "timatsé"],
+      "2fs": ["תימצאי", "timats'í"],
+      "3ms": ["יימצא", "yimatsé"],
+      "3fs": ["תימצא", "timatsé"],
+      "1p": ["נימצא", "nimatsé"],
+      "2mp": ["תימצאו", "timats'ú"],
+      "3p": ["יימצאו", "yimats'ú"]
+    },
+    "ex": {
+      "he": "המשרד שלנו נמצא בקומה השלישית.",
+      "en": "Our office is on the third floor."
+    },
+    "exs": [
+      {
+        "he": "המזוודה של סמיר נמצאה אחרי יומיים בשדה התעופה.",
+        "en": "Samir's suitcase was found two days later at the airport.",
+        "form": "נמצאה"
+      },
+      {
+        "he": "כל המסמכים נמצאים בתיקייה המשותפת.",
+        "en": "All the documents are in the shared folder.",
+        "form": "נמצאים"
+      },
+      {
+        "he": "אני בטוחה שהפתרון יימצא בקרוב.",
+        "en": "I'm sure a solution will be found soon.",
+        "form": "יימצא"
+      }
+    ],
+    "note": "ל״א root: the א is silent (nimtsá, nimtséti). In the present it's the everyday word for 'is (located)': איפה נמצא הבנק? אני נמצאת בפגישה. In the past and future it usually means 'was / will be found': הארנק נמצא. For 'I was at the office' just say הייתי במשרד. Pa'al למצוא את = to find; note that אמצא is also pa'al 'I'll find'."
+  },
+  {
+    "id": "verb_lehibakher",
+    "inf": "להיבחר",
+    "tr": "lehibakhér",
+    "en": "to be chosen, to be elected",
+    "root": "ב.ח.ר",
+    "binyan": "nifal",
+    "gizra": "guttural (middle ח)",
+    "gov": "ל",
+    "level": "B1",
+    "present": {
+      "ms": ["נבחר", "nivkhár"],
+      "fs": ["נבחרת", "nivkhéret"],
+      "mp": ["נבחרים", "nivkharím"],
+      "fp": ["נבחרות", "nivkharót"]
+    },
+    "past": {
+      "1s": ["נבחרתי", "nivkhárti"],
+      "2ms": ["נבחרת", "nivkhárta"],
+      "2fs": ["נבחרת", "nivkhárt"],
+      "3ms": ["נבחר", "nivkhár"],
+      "3fs": ["נבחרה", "nivkhará"],
+      "1p": ["נבחרנו", "nivkhárnu"],
+      "2mp": ["נבחרתם", "nivkhartém"],
+      "2fp": ["נבחרתן", "nivkhartén"],
+      "3p": ["נבחרו", "nivkharú"]
+    },
+    "future": {
+      "1s": ["אבחר", "ebakhér"],
+      "2ms": ["תיבחר", "tibakhér"],
+      "2fs": ["תיבחרי", "tibakharí"],
+      "3ms": ["ייבחר", "yibakhér"],
+      "3fs": ["תיבחר", "tibakhér"],
+      "1p": ["ניבחר", "nibakhér"],
+      "2mp": ["תיבחרו", "tibakharú"],
+      "3p": ["ייבחרו", "yibakharú"]
+    },
+    "ex": {
+      "he": "נבחרתי לייצג את החברה בכנס בברלין.",
+      "en": "I was chosen to represent the company at the conference in Berlin."
+    },
+    "exs": [
+      {
+        "he": "ראניה נבחרה לעובדת החודש במחלקה שלנו.",
+        "en": "Rania was chosen as employee of the month in our department.",
+        "form": "נבחרה"
+      },
+      {
+        "he": "בכל שנה נבחרים עשרה סטודנטים למלגה.",
+        "en": "Every year ten students are chosen for the scholarship.",
+        "form": "נבחרים"
+      },
+      {
+        "he": "חברי ועד הבית ייבחרו באסיפת הדיירים בחודש הבא.",
+        "en": "The building committee members will be elected at the residents' meeting next month.",
+        "form": "ייבחרו"
+      }
+    ],
+    "note": "Middle guttural ח: נבחרה, נבחרו (nivkhará, nivkharú), תיבחרי (tibakharí). Watch v/b: nivkhár (v) but tibakhér (b). להיבחר ל = to be chosen / elected as or for: נבחרה ליו״ר. Pa'al לבחור ב / את = to choose; בחירות = elections; נבחרת = national team (נבחרת ישראל)."
+  },
+  {
+    "id": "verb_lehekhashev",
+    "inf": "להיחשב",
+    "tr": "lehekhashév",
+    "en": "to be considered; to count",
+    "root": "ח.ש.ב",
+    "binyan": "nifal",
+    "gizra": "guttural (initial ח)",
+    "gov": "ל",
+    "level": "B2",
+    "present": {
+      "ms": ["נחשב", "nekhsháv"],
+      "fs": ["נחשבת", "nekhshévet"],
+      "mp": ["נחשבים", "nekhshavím"],
+      "fp": ["נחשבות", "nekhshavót"]
+    },
+    "past": {
+      "1s": ["נחשבתי", "nekhshávti"],
+      "2ms": ["נחשבת", "nekhshávta"],
+      "2fs": ["נחשבת", "nekhshávt"],
+      "3ms": ["נחשב", "nekhsháv"],
+      "3fs": ["נחשבה", "nekhshevá"],
+      "1p": ["נחשבנו", "nekhshávnu"],
+      "2mp": ["נחשבתם", "nekhshavtém"],
+      "2fp": ["נחשבתן", "nekhshavtén"],
+      "3p": ["נחשבו", "nekhshevú"]
+    },
+    "future": {
+      "1s": ["איחשב", "ekhashév"],
+      "2ms": ["תיחשב", "tekhashév"],
+      "2fs": ["תיחשבי", "tekhashví"],
+      "3ms": ["ייחשב", "yekhashév"],
+      "3fs": ["תיחשב", "tekhashév"],
+      "1p": ["ניחשב", "nekhashév"],
+      "2mp": ["תיחשבו", "tekhashvú"],
+      "3p": ["ייחשבו", "yekhashvú"]
+    },
+    "ex": {
+      "he": "תל אביב נחשבת לאחת הערים היקרות בעולם.",
+      "en": "Tel Aviv is considered one of the most expensive cities in the world."
+    },
+    "exs": [
+      {
+        "he": "בשנות התשעים טלפונים ניידים נחשבו למותרות.",
+        "en": "In the nineties mobile phones were considered a luxury.",
+        "form": "נחשבו"
+      },
+      {
+        "he": "ימי מחלה לא נחשבים לימי חופשה.",
+        "en": "Sick days don't count as vacation days.",
+        "form": "נחשבים"
+      },
+      {
+        "he": "אם תגיש את הטופס אחרי המועד האחרון, הוא לא ייחשב.",
+        "en": "If you submit the form after the deadline, it won't count.",
+        "form": "ייחשב"
+      }
+    ],
+    "note": "Initial guttural ח: the present and past start with ne- (נחשב nekhsháv, נחשבה nekhshevá), the future and infinitive with e (ייחשב yekhashév, lehekhashév). נחשב ל = is considered (to be): היא נחשבת למומחית. Also 'to count': זה לא נחשב! (that doesn't count!). Pa'al לחשוב = to think."
+  }
+]

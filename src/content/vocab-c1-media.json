@@ -1,0 +1,1507 @@
+[
+  {
+    "id": "vc1m_tur_daat",
+    "he": "טור דעה",
+    "tr": "tur dá'at",
+    "en": "opinion column",
+    "enAlt": [
+      "op-ed",
+      "column",
+      "opinion piece"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "טורי דעה",
+    "level": "C1",
+    "topic": "media",
+    "ex": {
+      "he": "בטור הדעה שלה השבוע טוענת הכותבת כי העבודה מהבית פוגעת ביצירתיות של צוותים צעירים.",
+      "en": "In her opinion column this week, the writer argues that working from home harms the creativity of young teams."
+    },
+    "note": "טור also means a column in a table and a line of people. בעל טור / בעלת טור = columnist. An opinion article is also called מאמר דעה."
+  },
+  {
+    "id": "vc1m_orekh",
+    "he": "עורך",
+    "tr": "orékh",
+    "en": "editor",
+    "enAlt": [
+      "news editor",
+      "copy editor"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "עורכים",
+    "root": "ע.ר.כ",
+    "level": "B2",
+    "topic": "media",
+    "ex": {
+      "he": "העורך ביקש מהכתבת לקצר את הכתבה לשש מאות מילים.",
+      "en": "The editor asked the reporter to shorten the article to six hundred words."
+    },
+    "note": "Feminine: עורכת. עורך ראשי = editor-in-chief. Same root as לערוך (to edit; to arrange, to hold an event). Not to be confused with עורך דין (lawyer)."
+  },
+  {
+    "id": "vc1m_mahadura",
+    "he": "מהדורה",
+    "tr": "mahadurá",
+    "en": "edition; newscast",
+    "enAlt": [
+      "news bulletin",
+      "news broadcast",
+      "issue"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "מהדורות",
+    "level": "B2",
+    "topic": "media",
+    "ex": {
+      "he": "במהדורת החדשות של שמונה בערב דיווחו על פתיחת קו הרכבת החדש.",
+      "en": "On the 8 p.m. news they reported on the opening of the new train line."
+    },
+    "note": "מהדורת חדשות = a news broadcast; המהדורה המרכזית = the main evening news. Also an edition of a book: מהדורה שנייה, מהדורה מוגבלת (limited edition)."
+  },
+  {
+    "id": "vc1m_shidur",
+    "he": "שידור",
+    "tr": "shidúr",
+    "en": "broadcast",
+    "enAlt": [
+      "broadcasting",
+      "transmission",
+      "airing"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "שידורים",
+    "root": "ש.ד.ר",
+    "level": "B2",
+    "topic": "media",
+    "ex": {
+      "he": "את משחק הגמר אפשר יהיה לראות בשידור חי באתר של הערוץ.",
+      "en": "You will be able to watch the final live on the channel's website."
+    },
+    "note": "בשידור חי = live; שידור חוזר = a rerun. לשדר = to broadcast; ישודר = will be broadcast."
+  },
+  {
+    "id": "vc1m_parshanut",
+    "he": "פרשנות",
+    "tr": "parshanút",
+    "en": "commentary, interpretation",
+    "enAlt": [
+      "analysis"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "פרשנויות",
+    "root": "פ.ר.ש",
+    "level": "C1",
+    "topic": "media",
+    "ex": {
+      "he": "חשוב להבחין בין הדיווח עצמו לבין הפרשנות שהכתב מוסיף לו.",
+      "en": "It is important to distinguish between the report itself and the commentary the reporter adds to it."
+    },
+    "note": "Also the interpretation of a text or a law: פרשנות משפטית (legal interpretation). Traditional commentary on the Bible is פרשנות too."
+  },
+  {
+    "id": "vc1m_parshan",
+    "he": "פרשן",
+    "tr": "parshán",
+    "en": "commentator, analyst",
+    "enAlt": [
+      "pundit"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "פרשנים",
+    "root": "פ.ר.ש",
+    "level": "C1",
+    "topic": "media",
+    "ex": {
+      "he": "הפרשן הכלכלי של הערוץ הסביר בפשטות מה המשמעות של העלאת הריבית.",
+      "en": "The channel's economic commentator explained in simple terms what the interest-rate rise means."
+    },
+    "note": "Feminine: פרשנית. Usually with a field: פרשן ספורט, פרשנית כלכלית, פרשן משפטי."
+  },
+  {
+    "id": "vc1m_sikur",
+    "he": "סיקור",
+    "tr": "sikúr",
+    "en": "coverage (in the media)",
+    "enAlt": [
+      "media coverage",
+      "coverage",
+      "reporting"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "root": "ס.ק.ר",
+    "level": "C1",
+    "topic": "media",
+    "ex": {
+      "he": "הפסטיבל זכה לסיקור נרחב בעיתונות המקומית ובחו״ל.",
+      "en": "The festival received wide coverage in the local press and abroad."
+    },
+    "note": "לזכות לסיקור = to get coverage; לסקר = to cover (a story). Same root as סקירה (review, overview) and סקר (survey)."
+  },
+  {
+    "id": "vc1m_aminut",
+    "he": "אמינות",
+    "tr": "aminút",
+    "en": "credibility, reliability",
+    "enAlt": [
+      "trustworthiness"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "root": "א.מ.נ",
+    "level": "C1",
+    "topic": "media",
+    "ex": {
+      "he": "טעות אחת בכתבה יכולה לפגוע באמינות של העיתון כולו.",
+      "en": "A single mistake in an article can damage the credibility of the whole newspaper."
+    },
+    "note": "From אמין (reliable, credible). Same root as אמונה (faith), נאמן (loyal) and אמן (amen)."
+  },
+  {
+    "id": "vc1m_hadlafa",
+    "he": "הדלפה",
+    "tr": "hadlafá",
+    "en": "leak (of information)",
+    "enAlt": [
+      "leak",
+      "leaking"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "הדלפות",
+    "root": "ד.ל.פ",
+    "level": "C1",
+    "topic": "media",
+    "ex": {
+      "he": "בעקבות ההדלפה, החברה הודיעה על המוצר החדש שבוע לפני המועד המתוכנן.",
+      "en": "Following the leak, the company announced the new product a week before the planned date."
+    },
+    "note": "להדליף = to leak (information). A leak of water from a roof or a pipe is נזילה or דליפה."
+  },
+  {
+    "id": "vc1m_tsenzura",
+    "he": "צנזורה",
+    "tr": "tsenzúra",
+    "en": "censorship; the censor",
+    "enAlt": [
+      "censoring"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "level": "C1",
+    "topic": "media",
+    "ex": {
+      "he": "בעבר נדרשו מחזות לעבור צנזורה לפני שהועלו על הבמה.",
+      "en": "In the past, plays had to pass censorship before they were staged."
+    },
+    "note": "Also the official body itself: הצנזורה. לצנזר = to censor; מצונזר = censored; צנזור = a censor (the person)."
+  },
+  {
+    "id": "vc1m_reshet_khevratit",
+    "he": "רשת חברתית",
+    "tr": "réshet khevratít",
+    "en": "social network",
+    "enAlt": [
+      "social media",
+      "social networking site"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "רשתות חברתיות",
+    "level": "B2",
+    "topic": "media",
+    "ex": {
+      "he": "צעירים רבים מקבלים היום את החדשות שלהם מהרשתות החברתיות, ולא מהטלוויזיה.",
+      "en": "Many young people today get their news from social media, not from television."
+    },
+    "note": "Usually plural: ברשתות החברתיות = on social media, often shortened to ברשתות or ברשת (online). רשת alone is also a chain of shops."
+  },
+  {
+    "id": "vc1m_siakh",
+    "he": "שיח",
+    "tr": "síakh",
+    "en": "discourse",
+    "enAlt": [
+      "public debate",
+      "conversation",
+      "dialogue"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "root": "ש.י.ח",
+    "level": "C1",
+    "topic": "media",
+    "ex": {
+      "he": "השיח הציבורי על בריאות הנפש השתנה מאוד בעשור האחרון.",
+      "en": "Public discourse on mental health has changed a great deal in the last decade."
+    },
+    "note": "Same root as שיחה (conversation). Same spelling as שיח (bush, shrub), whose plural is שיחים. Very common in media and academic Hebrew: השיח הציבורי, שיח מכבד (respectful discourse)."
+  },
+  {
+    "id": "vc1m_narativ",
+    "he": "נרטיב",
+    "tr": "naratív",
+    "en": "narrative",
+    "enAlt": [
+      "account",
+      "version (of events)",
+      "story"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "נרטיבים",
+    "level": "C1",
+    "topic": "media",
+    "ex": {
+      "he": "כל צד בסכסוך העסקי ניסה להציג לתקשורת נרטיב משלו.",
+      "en": "Each side in the business dispute tried to present its own narrative to the media."
+    },
+    "note": "A loanword typical of media and academic Hebrew. More everyday alternatives: גרסה (version), סיפור, תיאור."
+  },
+  {
+    "id": "vc1m_takhkir",
+    "he": "תחקיר",
+    "tr": "takhkír",
+    "en": "investigative report; debriefing",
+    "enAlt": [
+      "investigation",
+      "exposé",
+      "inquiry"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "תחקירים",
+    "root": "ח.ק.ר",
+    "level": "C1",
+    "topic": "media",
+    "ex": {
+      "he": "תחקיר שערכה תוכנית הצרכנות חשף שחלק מהמוצרים נמכרו אחרי תאריך התפוגה.",
+      "en": "An investigation by the consumer affairs programme revealed that some of the products were being sold after their expiry date."
+    },
+    "note": "At work and in the army, a תחקיר is a debriefing after an event, to learn lessons. תחקירן / תחקירנית = a researcher on a TV programme."
+  },
+  {
+    "id": "vc1m_maamar_maarekhet",
+    "he": "מאמר מערכת",
+    "tr": "ma'amár ma'arékhet",
+    "en": "editorial",
+    "enAlt": [
+      "leading article",
+      "leader"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מאמרי מערכת",
+    "level": "C1",
+    "topic": "media",
+    "ex": {
+      "he": "במאמר המערכת קרא העיתון לעירייה להשקיע יותר בגינות ציבוריות.",
+      "en": "In its editorial, the newspaper called on the municipality to invest more in public gardens."
+    },
+    "note": "מערכת here is the editorial board or newsroom (the same word as \"system\"). מכתב למערכת = a letter to the editor. Definite: מאמר המערכת."
+  },
+  {
+    "id": "vc1m_yedia",
+    "he": "ידיעה",
+    "tr": "yedi'á",
+    "en": "news item, report",
+    "enAlt": [
+      "piece of news",
+      "news story",
+      "knowledge"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "ידיעות",
+    "root": "י.ד.ע",
+    "level": "B2",
+    "topic": "media",
+    "ex": {
+      "he": "הידיעה על סגירת המפעל התפרסמה קודם ברשתות ורק אחר כך בעיתונים.",
+      "en": "The news of the factory closure appeared first on social media and only later in the newspapers."
+    },
+    "note": "Also \"knowledge\": למיטב ידיעתי = to the best of my knowledge; בידיעה ש... = knowing that... Same root as לדעת."
+  },
+  {
+    "id": "vc1m_biladi",
+    "he": "בלעדי",
+    "tr": "bil'adí",
+    "en": "exclusive",
+    "enAlt": [
+      "sole"
+    ],
+    "pos": "adj",
+    "level": "C1",
+    "topic": "media",
+    "ex": {
+      "he": "בראיון בלעדי לאתר סיפרה המנכ״לית על תוכניות החברה לשנה הבאה.",
+      "en": "In an exclusive interview with the website, the CEO talked about the company's plans for next year."
+    },
+    "note": "Feminine: בלעדית. בלעדיות = exclusivity, also in contracts: זכויות בלעדיות (exclusive rights), נציג בלעדי (sole agent)."
+  },
+  {
+    "id": "vc1m_mute",
+    "he": "מוטה",
+    "tr": "muté",
+    "en": "biased, slanted",
+    "enAlt": [
+      "skewed",
+      "one-sided"
+    ],
+    "pos": "adj",
+    "root": "נ.ט.ה",
+    "level": "C1",
+    "topic": "media",
+    "ex": {
+      "he": "הקוראים התלוננו שהסיקור של המשחק היה מוטה לטובת הקבוצה המארחת.",
+      "en": "Readers complained that the coverage of the match was biased in favour of the home team."
+    },
+    "note": "A huf'al participle of להטות (to tilt). Feminine also מוטה (mutá), plural מוטים / מוטות. The noun is הטיה (bias; in grammar also \"inflection\")."
+  },
+  {
+    "id": "vc1m_daat_kahal",
+    "he": "דעת קהל",
+    "tr": "dá'at kahál",
+    "en": "public opinion",
+    "enAlt": [
+      "popular opinion"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "level": "C1",
+    "topic": "media",
+    "ex": {
+      "he": "סקרי דעת קהל מראים שרוב תושבי העיר תומכים בהרחבת שבילי האופניים.",
+      "en": "Public opinion polls show that most of the city's residents support expanding the bike paths."
+    },
+    "note": "דעת is the construct form of דעה (opinion). Definite: דעת הקהל, as in להשפיע על דעת הקהל (to sway public opinion)."
+  },
+  {
+    "id": "vc1m_hodaa_laitonut",
+    "he": "הודעה לעיתונות",
+    "tr": "hoda'á la'itonút",
+    "en": "press release",
+    "enAlt": [
+      "press statement",
+      "news release"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "הודעות לעיתונות",
+    "level": "C1",
+    "topic": "media",
+    "ex": {
+      "he": "בהודעה לעיתונות מסרה החברה כי השירות יחזור לפעול כרגיל עד מחר בבוקר.",
+      "en": "In a press release, the company said that the service would be back to normal by tomorrow morning."
+    },
+    "note": "Spokespeople (דוברים) send them out. מסיבת עיתונאים = a press conference. מסר / מסרה here = stated (formal reporting verb)."
+  },
+  {
+    "id": "vc1m_mashpian",
+    "he": "משפיען",
+    "tr": "mashpi'án",
+    "en": "influencer",
+    "enAlt": [
+      "social media influencer"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "משפיענים",
+    "root": "ש.פ.ע",
+    "level": "C1",
+    "topic": "media",
+    "ex": {
+      "he": "חברות רבות משלמות למשפיענים כדי שימליצו על המוצרים שלהן.",
+      "en": "Many companies pay influencers to recommend their products."
+    },
+    "note": "Feminine: משפיענית. A newer coinage from להשפיע (to influence); many people simply say אינפלואנסר."
+  },
+  {
+    "id": "vc1m_virali",
+    "he": "ויראלי",
+    "tr": "viráli",
+    "en": "viral",
+    "enAlt": [
+      "gone viral"
+    ],
+    "pos": "adj",
+    "level": "B2",
+    "topic": "media",
+    "ex": {
+      "he": "הסרטון שבו גננת שרה עם הילדים הפך לוויראלי תוך יום אחד.",
+      "en": "The video of a kindergarten teacher singing with the children went viral within a single day."
+    },
+    "note": "Feminine: ויראלית. להפוך לוויראלי = to go viral; note the doubled ו after a prefix (לוויראלי). In medicine \"viral\" is usually נגיפי."
+  },
+  {
+    "id": "vc1m_kozev",
+    "he": "כוזב",
+    "tr": "kozév",
+    "en": "false, fake (untrue)",
+    "enAlt": [
+      "fake",
+      "untrue",
+      "deceptive"
+    ],
+    "pos": "adj",
+    "root": "כ.ז.ב",
+    "register": "formal",
+    "level": "C1",
+    "topic": "media",
+    "ex": {
+      "he": "מחקרים מראים שידיעות כוזבות מתפשטות ברשת מהר יותר מידיעות אמיתיות.",
+      "en": "Studies show that false news stories spread online faster than true ones."
+    },
+    "note": "Feminine: כוזבת. From כזב (a lie, falsehood). Everyday Hebrew says לא נכון, שקרי or פייק."
+  },
+  {
+    "id": "vc1m_bdikat_uvdot",
+    "he": "בדיקת עובדות",
+    "tr": "bdikát uvdót",
+    "en": "fact-checking",
+    "enAlt": [
+      "fact check",
+      "fact checking"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "בדיקות עובדות",
+    "level": "C1",
+    "topic": "media",
+    "ex": {
+      "he": "לפני הפרסום, כל ציטוט בכתבה עובר בדיקת עובדות.",
+      "en": "Before publication, every quote in the article goes through fact-checking."
+    },
+    "note": "עובדה = fact, plural עובדות. בודק עובדות / בודקת עובדות = fact-checker."
+  },
+  {
+    "id": "vc1m_tokbek",
+    "he": "טוקבק",
+    "tr": "tókbek",
+    "en": "reader comment (online)",
+    "enAlt": [
+      "talkback",
+      "comment",
+      "online comment"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "טוקבקים",
+    "register": "colloquial",
+    "level": "C1",
+    "topic": "media",
+    "ex": {
+      "he": "עדיף לא לקרוא את הטוקבקים מתחת לכתבות, הם רק מעצבנים.",
+      "en": "It's better not to read the comments under the articles; they're just annoying."
+    },
+    "note": "An Israeli coinage from English \"talkback\". Someone who writes them is a טוקבקיסט. The neutral word is תגובה."
+  },
+  {
+    "id": "vc1m_khomat_tashlum",
+    "he": "חומת תשלום",
+    "tr": "khomát tashlúm",
+    "en": "paywall",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "חומות תשלום",
+    "level": "C1",
+    "topic": "media",
+    "ex": {
+      "he": "יותר ויותר עיתונים מסתירים את הכתבות שלהם מאחורי חומת תשלום.",
+      "en": "More and more newspapers are hiding their articles behind a paywall."
+    },
+    "note": "חומה is a massive wall, like a city wall; the wall of a room is קיר. מנוי דיגיטלי = a digital subscription."
+  },
+  {
+    "id": "vc1m_magish",
+    "he": "מגיש",
+    "tr": "magísh",
+    "en": "presenter, host (TV, radio)",
+    "enAlt": [
+      "host",
+      "anchor"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מגישים",
+    "root": "נ.ג.ש",
+    "level": "B2",
+    "topic": "media",
+    "ex": {
+      "he": "המגיש פתח את התוכנית בשאלה לקהל באולפן.",
+      "en": "The presenter opened the show with a question to the studio audience."
+    },
+    "note": "Feminine: מגישה. From להגיש (to serve, to hand in, to present). מגיש החדשות = the newsreader."
+  },
+  {
+    "id": "vc1m_tsitut",
+    "he": "ציטוט",
+    "tr": "tsitút",
+    "en": "quotation, quote",
+    "enAlt": [
+      "citation"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "ציטוטים",
+    "level": "B2",
+    "topic": "media",
+    "ex": {
+      "he": "הכתבה כללה ציטוט מדויק מדברי המנהלת, וגם קישור להקלטה המלאה.",
+      "en": "The article included an exact quote from the director, as well as a link to the full recording."
+    },
+    "note": "לצטט = to quote; מצוטט = quoted. ציטוט שהוצא מהקשרו = a quote taken out of context. In academic writing also a citation."
+  },
+  {
+    "id": "vc1m_hakhkhasha",
+    "he": "הכחשה",
+    "tr": "hakhkhashá",
+    "en": "denial",
+    "enAlt": [
+      "refutation",
+      "disavowal"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "הכחשות",
+    "root": "כ.ח.ש",
+    "level": "C1",
+    "topic": "media",
+    "ex": {
+      "he": "אחרי שהכתבה עלתה לאוויר, החברה פרסמה הכחשה רשמית וטענה שהנתונים בה שגויים.",
+      "en": "After the story went live, the company issued an official denial and claimed that the figures in it were wrong."
+    },
+    "note": "להכחיש = to deny (a claim). \"To refuse\" is a different verb: לסרב. The opposite of להכחיש is להודות (to admit)."
+  },
+  {
+    "id": "vc1m_khofesh_haitonut",
+    "he": "חופש העיתונות",
+    "tr": "khófesh ha'itonút",
+    "en": "freedom of the press",
+    "enAlt": [
+      "press freedom"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "level": "C1",
+    "topic": "media",
+    "ex": {
+      "he": "חופש העיתונות נחשב לאחד מעקרונות היסוד של כל חברה דמוקרטית.",
+      "en": "Freedom of the press is considered one of the basic principles of any democratic society."
+    },
+    "note": "חופש = freedom (and in everyday speech also a vacation). Related: חופש הביטוי (freedom of expression), חופש המידע (freedom of information)."
+  },
+  {
+    "id": "vc1m_tikshoret",
+    "he": "תקשורת",
+    "tr": "tikshóret",
+    "en": "the media; communication",
+    "enAlt": [
+      "media",
+      "communications",
+      "mass media"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "root": "ק.ש.ר",
+    "level": "B2",
+    "topic": "media",
+    "ex": {
+      "he": "המנהלת סירבה להתראיין לתקשורת עד לסיום הבדיקה.",
+      "en": "The director refused to give interviews to the media until the review was over."
+    },
+    "note": "With ה it usually means \"the media\" (התקשורת). Without it, communication in general: תקשורת בין אישית (interpersonal communication), לימודי תקשורת (media studies). Same root as קשר (connection)."
+  },
+  {
+    "id": "vc1m_kli_tikshoret",
+    "he": "כלי תקשורת",
+    "tr": "kli tikshóret",
+    "en": "media outlet",
+    "enAlt": [
+      "news outlet",
+      "media organization"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "כלי תקשורת",
+    "level": "B2",
+    "topic": "media",
+    "ex": {
+      "he": "ההודעה נשלחה לכל כלי התקשורת באותו הזמן.",
+      "en": "The announcement was sent to all the media outlets at the same time."
+    },
+    "note": "The plural is spelled the same but pronounced kley tikshóret. Definite: כלי התקשורת."
+  },
+  {
+    "id": "vc1m_mivzak",
+    "he": "מבזק",
+    "tr": "mivzák",
+    "en": "news flash, bulletin",
+    "enAlt": [
+      "newsflash",
+      "news bulletin",
+      "breaking news"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מבזקים",
+    "root": "ב.ז.ק",
+    "level": "C1",
+    "topic": "media",
+    "ex": {
+      "he": "ברדיו יש מבזק חדשות קצר בכל שעה עגולה.",
+      "en": "On the radio there is a short news bulletin every hour on the hour."
+    },
+    "note": "From בזק (a flash of lightning). The same idea gives ביקור בזק (a flying visit) and מבצע בזק (a lightning operation)."
+  },
+  {
+    "id": "vc1m_parasha",
+    "he": "פרשה",
+    "tr": "parashá",
+    "en": "affair (a news story)",
+    "enAlt": [
+      "affair",
+      "case",
+      "saga",
+      "scandal"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "פרשות",
+    "root": "פ.ר.ש",
+    "level": "C1",
+    "topic": "media",
+    "ex": {
+      "he": "הפרשה התחילה בפוסט קטן ברשת והגיעה בסוף למהדורה המרכזית.",
+      "en": "The affair started with a small post online and eventually made it to the main evening news."
+    },
+    "note": "In the news, פרשת X = \"the X affair\". The same word is the weekly Torah portion: פרשת השבוע."
+  },
+  {
+    "id": "vc1m_khasifa",
+    "he": "חשיפה",
+    "tr": "khasifá",
+    "en": "exposé, revelation; exposure",
+    "enAlt": [
+      "disclosure"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "חשיפות",
+    "root": "ח.ש.פ",
+    "level": "C1",
+    "topic": "media",
+    "ex": {
+      "he": "בעקבות החשיפה בעיתון, משרד הבריאות פתח בבדיקה.",
+      "en": "Following the exposé in the newspaper, the Health Ministry launched an inquiry."
+    },
+    "note": "From לחשוף (to expose, to reveal). Also exposure to something: חשיפה לשמש (sun exposure), חשיפה למסכים (screen exposure)."
+  },
+  {
+    "id": "vc1m_beilum_shem",
+    "he": "בעילום שם",
+    "tr": "be'ilúm shem",
+    "en": "anonymously",
+    "enAlt": [
+      "on condition of anonymity",
+      "without being named",
+      "anonymous"
+    ],
+    "pos": "phrase",
+    "register": "formal",
+    "level": "C1",
+    "topic": "media",
+    "ex": {
+      "he": "אחד העובדים, שביקש להישאר בעילום שם, סיפר לנו על התנאים במחסן.",
+      "en": "One of the employees, who asked to remain anonymous, told us about the conditions in the warehouse."
+    },
+    "note": "עילום = concealment (root ע.ל.ם, as in נעלם, vanished). להישאר בעילום שם = to remain anonymous. Everyday: בלי שם, אנונימי."
+  },
+  {
+    "id": "vc1m_itonut",
+    "he": "עיתונות",
+    "tr": "itonút",
+    "en": "journalism; the press",
+    "enAlt": [
+      "press"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "level": "B2",
+    "topic": "media",
+    "ex": {
+      "he": "היא למדה עיתונות באוניברסיטה ועבדה שנים ככתבת בעיתון מקומי.",
+      "en": "She studied journalism at university and worked for years as a reporter on a local paper."
+    },
+    "note": "From עיתון (newspaper), which comes from עת (time), like \"periodical\". עיתונות חוקרת = investigative journalism; עיתונאי / עיתונאית = journalist."
+  },
+  {
+    "id": "vc1m_tovea",
+    "he": "תובע",
+    "tr": "tové'a",
+    "en": "plaintiff; prosecutor",
+    "enAlt": [
+      "claimant"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "תובעים",
+    "root": "ת.ב.ע",
+    "level": "C1",
+    "topic": "law",
+    "ex": {
+      "he": "התובע טען שהדירה נמסרה לו באיחור של חצי שנה.",
+      "en": "The plaintiff claimed that the apartment had been handed over to him six months late."
+    },
+    "note": "Feminine: תובעת. In a civil case, the person who sues; in a criminal case, the prosecutor (on behalf of the state). Same root as תביעה."
+  },
+  {
+    "id": "vc1m_nitba",
+    "he": "נתבע",
+    "tr": "nitbá",
+    "en": "defendant (in a civil case)",
+    "enAlt": [
+      "respondent",
+      "defendant"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "נתבעים",
+    "root": "ת.ב.ע",
+    "level": "C1",
+    "topic": "law",
+    "ex": {
+      "he": "הנתבע לא הגיע לדיון, ולכן השופטת קיבלה את התביעה.",
+      "en": "The defendant didn't come to the hearing, so the judge accepted the claim."
+    },
+    "note": "A nif'al form: \"the one being sued\". Feminine: נתבעת. In a criminal case the accused is נאשם."
+  },
+  {
+    "id": "vc1m_orekh_din",
+    "he": "עורך דין",
+    "tr": "orékh dín",
+    "en": "lawyer",
+    "enAlt": [
+      "attorney",
+      "advocate",
+      "solicitor"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "עורכי דין",
+    "level": "B2",
+    "topic": "law",
+    "ex": {
+      "he": "לפני שחותמים על חוזה לקניית דירה, כדאי להתייעץ עם עורך דין.",
+      "en": "Before signing a contract to buy an apartment, it's a good idea to consult a lawyer."
+    },
+    "note": "Feminine: עורכת דין. Abbreviated עו״ד, also as a title before a name. Definite: עורך הדין."
+  },
+  {
+    "id": "vc1m_psak_din",
+    "he": "פסק דין",
+    "tr": "psak dín",
+    "en": "verdict, ruling, judgment",
+    "enAlt": [
+      "judgement",
+      "court ruling"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "פסקי דין",
+    "root": "פ.ס.ק",
+    "level": "C1",
+    "topic": "law",
+    "ex": {
+      "he": "פסק הדין קבע שבעל הדירה חייב להחזיר לשוכרים את הפיקדון.",
+      "en": "The ruling stated that the landlord must return the deposit to the tenants."
+    },
+    "note": "Definite: פסק הדין. Abbreviated פס״ד. לפסוק = to rule; לערער על פסק הדין = to appeal against the ruling."
+  },
+  {
+    "id": "vc1m_irur",
+    "he": "ערעור",
+    "tr": "ir'úr",
+    "en": "appeal",
+    "enAlt": [
+      "objection",
+      "challenge"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "ערעורים",
+    "root": "ע.ר.ר",
+    "level": "C1",
+    "topic": "law",
+    "ex": {
+      "he": "החברה הגישה ערעור לבית המשפט המחוזי על ההחלטה.",
+      "en": "The company filed an appeal against the decision with the district court."
+    },
+    "note": "להגיש ערעור = to file an appeal; לערער על = to appeal against; to call into question. Also outside court: ערעור על ציון (appealing a grade)."
+  },
+  {
+    "id": "vc1m_edut",
+    "he": "עדות",
+    "tr": "edút",
+    "en": "testimony",
+    "enAlt": [
+      "evidence",
+      "witness statement"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "עדויות",
+    "level": "C1",
+    "topic": "law",
+    "ex": {
+      "he": "לפי עדות של שכנה, הצינור דלף כבר כמה שבועות.",
+      "en": "According to a neighbour's testimony, the pipe had already been leaking for several weeks."
+    },
+    "note": "למסור עדות = to give testimony. Figuratively a sign or proof: עדות לכך ש... (evidence that...). Do not confuse with עדות (edót), the plural of עדה (community)."
+  },
+  {
+    "id": "vc1m_ed",
+    "he": "עד",
+    "tr": "ed",
+    "en": "witness",
+    "enAlt": [
+      "eyewitness"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "עדים",
+    "level": "B2",
+    "topic": "law",
+    "ex": {
+      "he": "העד סיפר לבית המשפט שראה את הרכב עובר באור אדום.",
+      "en": "The witness told the court that he had seen the car go through a red light."
+    },
+    "note": "Feminine: עדה. Same spelling as the preposition עד (until). עד ראייה = eyewitness."
+  },
+  {
+    "id": "vc1m_reaya",
+    "he": "ראיה",
+    "tr": "re'ayá",
+    "en": "evidence, proof",
+    "enAlt": [
+      "piece of evidence"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "ראיות",
+    "level": "C1",
+    "topic": "law",
+    "ex": {
+      "he": "בלי קבלה או צילום מסך, אין לך ראיה שהתשלום בוצע.",
+      "en": "Without a receipt or a screenshot, you have no proof that the payment was made."
+    },
+    "note": "Do not confuse with ראייה (re'iyá, eyesight), spelled with a double י. In court usually plural: ראיות חדשות = new evidence."
+  },
+  {
+    "id": "vc1m_pitsui",
+    "he": "פיצוי",
+    "tr": "pitsúi",
+    "en": "compensation",
+    "enAlt": [
+      "damages",
+      "indemnity",
+      "reimbursement"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "פיצויים",
+    "root": "פ.צ.ה",
+    "level": "B2",
+    "topic": "law",
+    "ex": {
+      "he": "חברת התעופה שילמה לנוסעים פיצוי על הטיסה שבוטלה.",
+      "en": "The airline paid the passengers compensation for the cancelled flight."
+    },
+    "note": "לפצות = to compensate. The plural פיצויים also means damages awarded by a court, and severance pay: פיצויי פיטורים (often just פיצויים)."
+  },
+  {
+    "id": "vc1m_saif",
+    "he": "סעיף",
+    "tr": "sa'íf",
+    "en": "clause, section",
+    "enAlt": [
+      "article",
+      "paragraph",
+      "item"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "סעיפים",
+    "level": "B2",
+    "topic": "law",
+    "ex": {
+      "he": "סעיף 12 בחוזה השכירות קובע מי אחראי לתיקונים בדירה.",
+      "en": "Clause 12 of the lease states who is responsible for repairs in the apartment."
+    },
+    "note": "Also an item on a list or an agenda, and part of an exam question. סעיף קטן = subsection."
+  },
+  {
+    "id": "vc1m_zkhut",
+    "he": "זכות",
+    "tr": "zkhút",
+    "en": "right",
+    "enAlt": [
+      "entitlement",
+      "privilege",
+      "credit"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "זכויות",
+    "root": "ז.כ.ה",
+    "level": "B2",
+    "topic": "law",
+    "ex": {
+      "he": "כל עובד צריך לדעת מה הזכויות שלו לגבי חופשה וימי מחלה.",
+      "en": "Every employee should know what their rights are regarding vacation and sick days."
+    },
+    "note": "זכות ל... = the right to; זכויות יוצרים = copyright. On a bank statement זכות is credit, as opposed to חובה (debit)."
+  },
+  {
+    "id": "vc1m_khova",
+    "he": "חובה",
+    "tr": "khová",
+    "en": "duty, obligation",
+    "enAlt": [
+      "requirement",
+      "must",
+      "debit"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "חובות",
+    "root": "ח.ו.ב",
+    "level": "B2",
+    "topic": "law",
+    "ex": {
+      "he": "חובה על המעסיק להפריש כסף לפנסיה של העובדים.",
+      "en": "The employer is obliged to put money aside for the employees' pension."
+    },
+    "note": "Also \"compulsory\" after a noun: קורס חובה (a required course). חובות is also the plural of חוב (debt). On a bank statement חובה is debit: יתרת חובה = overdrawn balance."
+  },
+  {
+    "id": "vc1m_hafara",
+    "he": "הפרה",
+    "tr": "hafará",
+    "en": "breach, violation",
+    "enAlt": [
+      "infringement"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "הפרות",
+    "root": "פ.ר.ר",
+    "level": "C1",
+    "topic": "law",
+    "ex": {
+      "he": "עיכוב של שלושה חודשים בתשלום נחשב להפרה של החוזה.",
+      "en": "A three-month delay in payment is considered a breach of the contract."
+    },
+    "note": "להפר = to break (a law, a promise, a contract). הפרת חוזה = breach of contract; הפרת זכויות יוצרים = copyright infringement."
+  },
+  {
+    "id": "vc1m_yipui_koakh",
+    "he": "ייפוי כוח",
+    "tr": "yipúi kóakh",
+    "en": "power of attorney",
+    "enAlt": [
+      "proxy",
+      "authorization",
+      "authorisation"
+    ],
+    "alt": [
+      "יפוי כוח",
+      "ייפוי כח"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "ייפויי כוח",
+    "level": "C1",
+    "topic": "law",
+    "ex": {
+      "he": "אמא שלי חתמה על ייפוי כוח, כדי שאוכל לטפל בענייני הבנק שלה.",
+      "en": "My mother signed a power of attorney so that I can handle her banking matters."
+    },
+    "note": "Older spellings יפוי כח / ייפוי כח are still seen. ייפוי כוח מתמשך = a lasting (enduring) power of attorney, for when someone can no longer manage their own affairs."
+  },
+  {
+    "id": "vc1m_tsavaa",
+    "he": "צוואה",
+    "tr": "tsava'á",
+    "en": "will, testament",
+    "enAlt": [
+      "last will"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "צוואות",
+    "root": "צ.ו.ה",
+    "level": "C1",
+    "topic": "law",
+    "ex": {
+      "he": "הוא כתב צוואה כבר בגיל ארבעים, כדי שלא יהיו ויכוחים במשפחה.",
+      "en": "He wrote a will as early as forty, so that there would be no arguments in the family."
+    },
+    "note": "לערוך צוואה = to draw up a will. Same root as לצוות (to command) and מצווה. יורש / יורשת = heir."
+  },
+  {
+    "id": "vc1m_yerusha",
+    "he": "ירושה",
+    "tr": "yerushá",
+    "en": "inheritance",
+    "enAlt": [
+      "estate",
+      "legacy",
+      "heritage"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "ירושות",
+    "root": "י.ר.ש",
+    "level": "B2",
+    "topic": "law",
+    "ex": {
+      "he": "את הדירה הם קיבלו בירושה מסבתא שלהם.",
+      "en": "They inherited the apartment from their grandmother."
+    },
+    "note": "לקבל בירושה = to inherit. צו ירושה = a court order of inheritance, issued when there is no will. Figuratively: heritage, legacy."
+  },
+  {
+    "id": "vc1m_leshon_hara",
+    "he": "לשון הרע",
+    "tr": "leshón hará",
+    "en": "defamation, libel",
+    "enAlt": [
+      "slander",
+      "malicious gossip"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "level": "C1",
+    "topic": "law",
+    "ex": {
+      "he": "פוסט שפוגע בשמו הטוב של אדם עלול להיחשב לשון הרע.",
+      "en": "A post that damages a person's good name may be considered defamation."
+    },
+    "note": "In law, from חוק איסור לשון הרע (the Defamation Law). In religious and everyday language it is any harmful talk about others. לשון (tongue, language) is feminine."
+  },
+  {
+    "id": "vc1m_borerut",
+    "he": "בוררות",
+    "tr": "borerút",
+    "en": "arbitration",
+    "pos": "noun",
+    "gender": "f",
+    "root": "ב.ר.ר",
+    "level": "C1",
+    "topic": "law",
+    "ex": {
+      "he": "הצדדים הסכימו להעביר את המחלוקת לבוררות במקום לפנות לבית משפט.",
+      "en": "The parties agreed to take the dispute to arbitration instead of going to court."
+    },
+    "note": "בורר / בוררת = arbitrator, whose decision binds both sides. Many business contracts include a סעיף בוררות (arbitration clause)."
+  },
+  {
+    "id": "vc1m_gishur",
+    "he": "גישור",
+    "tr": "gishúr",
+    "en": "mediation",
+    "enAlt": [
+      "bridging"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "root": "ג.ש.ר",
+    "level": "C1",
+    "topic": "law",
+    "ex": {
+      "he": "בגישור, שני הצדדים מנסים להגיע להסכמה בעזרת אדם ניטרלי.",
+      "en": "In mediation, both sides try to reach an agreement with the help of a neutral person."
+    },
+    "note": "Literally \"bridging\", from גשר (bridge). מגשר / מגשרת = mediator. Unlike in בוררות, the mediator does not decide; the parties do."
+  },
+  {
+    "id": "vc1m_rashlanut",
+    "he": "רשלנות",
+    "tr": "rashlanút",
+    "en": "negligence",
+    "enAlt": [
+      "carelessness",
+      "malpractice"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "root": "ר.ש.ל",
+    "level": "C1",
+    "topic": "law",
+    "ex": {
+      "he": "המשפחה תבעה את בית החולים בטענה לרשלנות רפואית.",
+      "en": "The family sued the hospital, alleging medical negligence."
+    },
+    "note": "רשלן = a careless person; רשלני = negligent, sloppy. רשלנות רפואית = medical malpractice."
+  },
+  {
+    "id": "vc1m_hityashnut",
+    "he": "התיישנות",
+    "tr": "hityashnút",
+    "en": "statute of limitations",
+    "enAlt": [
+      "limitation period",
+      "prescription"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "root": "י.ש.ן",
+    "level": "C1",
+    "topic": "law",
+    "ex": {
+      "he": "בדרך כלל, תקופת ההתיישנות לתביעה אזרחית בישראל היא שבע שנים.",
+      "en": "Generally, the limitation period for a civil claim in Israel is seven years."
+    },
+    "note": "Literally \"becoming old\" (ישן = old). התביעה התיישנה = the claim is time-barred."
+  },
+  {
+    "id": "vc1m_takanon",
+    "he": "תקנון",
+    "tr": "takanón",
+    "en": "terms and conditions; bylaws",
+    "enAlt": [
+      "regulations",
+      "rules",
+      "terms of use"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "תקנונים",
+    "root": "ת.ק.ן",
+    "level": "C1",
+    "topic": "law",
+    "ex": {
+      "he": "לפני שמצטרפים למבצע, כדאי לקרוא את התקנון עד הסוף.",
+      "en": "Before you sign up for a promotion, it's worth reading the terms and conditions all the way through."
+    },
+    "note": "The rules of an organisation, a building or a promotion: תקנון המבצע, תקנון הבית המשותף. Compare תקנה (a government regulation)."
+  },
+  {
+    "id": "vc1m_tviot_ktanot",
+    "he": "בית משפט לתביעות קטנות",
+    "tr": "beit mishpát litvi'ót ktanót",
+    "en": "small claims court",
+    "enAlt": [
+      "small claims"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "בתי משפט לתביעות קטנות",
+    "level": "C1",
+    "topic": "law",
+    "ex": {
+      "he": "בבית משפט לתביעות קטנות אפשר לתבוע חברה גם בלי עורך דין.",
+      "en": "In small claims court you can sue a company even without a lawyer."
+    },
+    "note": "Usually just תביעות קטנות: הגשתי תביעה קטנה (I filed a small claim). Lawyers normally do not appear there, so it is built for ordinary people."
+  },
+  {
+    "id": "vc1m_hotsaa_lapoal",
+    "he": "הוצאה לפועל",
+    "tr": "hotsa'á lapó'al",
+    "en": "enforcement and collection office",
+    "enAlt": [
+      "debt collection",
+      "enforcement",
+      "bailiffs",
+      "execution office"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "level": "C1",
+    "topic": "law",
+    "ex": {
+      "he": "כשהלקוח לא שילם את החוב, החברה פתחה נגדו תיק בהוצאה לפועל.",
+      "en": "When the customer didn't pay the debt, the company opened a file against him at the enforcement and collection office."
+    },
+    "note": "Literally \"bringing into action\". With ה (ההוצאה לפועל) it is the state body that enforces court rulings and collects debts. Also general: הוצאה לפועל של תוכנית = carrying out a plan."
+  },
+  {
+    "id": "vc1m_tsav",
+    "he": "צו",
+    "tr": "tsav",
+    "en": "order (official), injunction",
+    "enAlt": [
+      "court order",
+      "decree",
+      "warrant"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "צווים",
+    "root": "צ.ו.ה",
+    "level": "C1",
+    "topic": "law",
+    "ex": {
+      "he": "בית המשפט הוציא צו שאוסר על החברה לבנות במגרש עד סוף הדיון.",
+      "en": "The court issued an order forbidding the company to build on the lot until the end of the proceedings."
+    },
+    "note": "צו מניעה = an injunction; צו הריסה = a demolition order; צו ירושה = an inheritance order. Same root as צוואה and מצווה."
+  },
+  {
+    "id": "vc1m_takdim",
+    "he": "תקדים",
+    "tr": "takdím",
+    "en": "precedent",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "תקדימים",
+    "root": "ק.ד.ם",
+    "level": "C1",
+    "topic": "law",
+    "ex": {
+      "he": "פסק הדין יוצר תקדים שישפיע על אלפי עובדים במקרים דומים.",
+      "en": "The ruling sets a precedent that will affect thousands of workers in similar cases."
+    },
+    "note": "תקדימי = precedent-setting, landmark (פסק דין תקדימי). ללא תקדים / חסר תקדים = unprecedented."
+  },
+  {
+    "id": "vc1m_samkhut",
+    "he": "סמכות",
+    "tr": "samkhút",
+    "en": "authority; jurisdiction",
+    "enAlt": [
+      "power",
+      "competence"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "סמכויות",
+    "root": "ס.מ.כ",
+    "level": "C1",
+    "topic": "law",
+    "ex": {
+      "he": "לבית המשפט לתביעות קטנות יש סמכות לדון רק בתביעות עד סכום מסוים.",
+      "en": "The small claims court has jurisdiction only over claims up to a certain amount."
+    },
+    "note": "בסמכות... = within the authority of; חוסר סמכות = lack of jurisdiction. Same root as לסמוך (to rely on) and מוסמך (qualified, authorized)."
+  },
+  {
+    "id": "vc1m_siyua_mishpati",
+    "he": "סיוע משפטי",
+    "tr": "siyúa mishpatí",
+    "en": "legal aid",
+    "enAlt": [
+      "legal assistance"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "level": "C1",
+    "topic": "law",
+    "ex": {
+      "he": "תושבים עם הכנסה נמוכה יכולים לבקש סיוע משפטי במקרים מסוימים.",
+      "en": "Low-income residents can apply for legal aid in certain cases."
+    },
+    "note": "סיוע = aid, assistance (formal; everyday עזרה). In Israel the Justice Ministry's legal aid department (הסיוע המשפטי) represents eligible people for free."
+  },
+  {
+    "id": "vc1m_zakaut",
+    "he": "זכאות",
+    "tr": "zaka'út",
+    "en": "eligibility, entitlement",
+    "pos": "noun",
+    "gender": "f",
+    "root": "ז.כ.ה",
+    "level": "C1",
+    "topic": "law",
+    "ex": {
+      "he": "כדי לבדוק את הזכאות שלך להנחה בארנונה, צריך להגיש אישור על ההכנסות.",
+      "en": "To check your eligibility for an arnona discount, you need to submit proof of income."
+    },
+    "note": "From זכאי (entitled). תעודת זכאות = a certificate of eligibility, for example for a housing subsidy; זכאות לבגרות = qualifying for the matriculation certificate."
+  },
+  {
+    "id": "vc1m_avera",
+    "he": "עבירה",
+    "tr": "averá",
+    "en": "offence, violation",
+    "enAlt": [
+      "offense",
+      "infraction"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "עבירות",
+    "root": "ע.ב.ר",
+    "level": "C1",
+    "topic": "law",
+    "ex": {
+      "he": "נסיעה בנתיב התחבורה הציבורית היא עבירת תנועה שגוררת קנס.",
+      "en": "Driving in the public transport lane is a traffic offence that carries a fine."
+    },
+    "note": "עבירת תנועה = a traffic offence; עבירה פלילית = a criminal offence. Same root as לעבור על החוק (to break the law). In religious language the word means \"a sin\"."
+  },
+  {
+    "id": "vc1m_halikh",
+    "he": "הליך",
+    "tr": "halíkh",
+    "en": "proceeding, procedure",
+    "enAlt": [
+      "proceedings",
+      "process"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "הליכים",
+    "root": "ה.ל.כ",
+    "level": "C1",
+    "topic": "law",
+    "ex": {
+      "he": "הצדדים העדיפו גישור, כי הליך משפטי ארוך עולה הרבה כסף.",
+      "en": "The parties preferred mediation, because long legal proceedings cost a lot of money."
+    },
+    "note": "Often plural: הליכים משפטיים = legal proceedings; לנקוט הליכים נגד = to take legal action against. Do not confuse with הליכה (walking)."
+  },
+  {
+    "id": "vc1m_aflaya",
+    "he": "אפליה",
+    "tr": "aflayá",
+    "en": "discrimination",
+    "alt": [
+      "הפליה"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "אפליות",
+    "root": "פ.ל.ה",
+    "level": "C1",
+    "topic": "law",
+    "ex": {
+      "he": "החוק אוסר על אפליה בקבלה לעבודה על רקע גיל, מין או הריון.",
+      "en": "The law prohibits discrimination in hiring on the grounds of age, sex or pregnancy."
+    },
+    "note": "Also spelled הפליה, with the same meaning. להפלות = to discriminate; על רקע = on the grounds of. The opposite: שוויון (equality)."
+  },
+  {
+    "id": "vc1m_haganat_hatsarkhan",
+    "he": "הגנת הצרכן",
+    "tr": "haganát hatsarkhán",
+    "en": "consumer protection",
+    "enAlt": [
+      "consumer rights"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "level": "C1",
+    "topic": "law",
+    "ex": {
+      "he": "לפי חוק הגנת הצרכן, בקנייה באינטרנט אפשר בדרך כלל לבטל את העסקה תוך ארבעה עשר יום.",
+      "en": "Under the Consumer Protection Law, when you buy online you can usually cancel the transaction within fourteen days."
+    },
+    "note": "הרשות להגנת הצרכן = the Consumer Protection Authority, where you can file a complaint. צרכן = consumer."
+  },
+  {
+    "id": "vc1m_mikhtav_hatraa",
+    "he": "מכתב התראה",
+    "tr": "mikhtáv hatra'á",
+    "en": "letter of demand, warning letter",
+    "enAlt": [
+      "demand letter",
+      "letter before action",
+      "formal notice"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מכתבי התראה",
+    "level": "C1",
+    "topic": "law",
+    "ex": {
+      "he": "לפני שהגשתי תביעה, שלחתי לחברה מכתב התראה דרך עורכת דין.",
+      "en": "Before I filed a lawsuit, I sent the company a letter of demand through a lawyer."
+    },
+    "note": "Usually sent before legal action, often by a lawyer. התראה alone = a warning or an alert (also a phone notification)."
+  },
+  {
+    "id": "vc1m_mishpati",
+    "he": "משפטי",
+    "tr": "mishpatí",
+    "en": "legal, judicial",
+    "enAlt": [
+      "juridical"
+    ],
+    "pos": "adj",
+    "root": "ש.פ.ט",
+    "level": "B2",
+    "topic": "law",
+    "ex": {
+      "he": "לפני שאתם חותמים, כדאי לקבל ייעוץ משפטי.",
+      "en": "Before you sign, it's worth getting legal advice."
+    },
+    "note": "Feminine: משפטית. \"Legal\" in the sense of \"allowed by law\" is חוקי. יועץ משפטי / יועצת משפטית = legal adviser."
+  },
+  {
+    "id": "vc1m_khaf_mipesha",
+    "he": "חף מפשע",
+    "tr": "khaf mipésha",
+    "en": "innocent (not guilty)",
+    "enAlt": [
+      "not guilty",
+      "blameless",
+      "innocent"
+    ],
+    "pos": "adj",
+    "register": "formal",
+    "level": "C1",
+    "topic": "law",
+    "ex": {
+      "he": "כל אדם נחשב לחף מפשע עד שהוכחה אשמתו.",
+      "en": "Every person is considered innocent until proven guilty."
+    },
+    "note": "Feminine: חפה מפשע; plural: חפים מפשע. \"Innocent\" in the sense of naive is תמים."
+  },
+  {
+    "id": "vc1m_nispakh",
+    "he": "נספח",
+    "tr": "nispákh",
+    "en": "appendix, annex (to a document)",
+    "enAlt": [
+      "annex",
+      "schedule",
+      "attaché"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "נספחים",
+    "root": "ס.פ.ח",
+    "level": "C1",
+    "topic": "law",
+    "ex": {
+      "he": "רשימת הרהיטים שנשארים בדירה מופיעה בנספח לחוזה.",
+      "en": "The list of furniture that stays in the apartment appears in the annex to the contract."
+    },
+    "note": "Also a diplomatic attaché: נספח תרבות (cultural attaché). Different from ספח, the appendix to the Israeli ID card that lists spouse and children."
+  },
+  {
+    "id": "vc1m_pratiyut",
+    "he": "פרטיות",
+    "tr": "pratiyút",
+    "en": "privacy",
+    "pos": "noun",
+    "gender": "f",
+    "level": "B2",
+    "topic": "law",
+    "ex": {
+      "he": "הזכות לפרטיות חלה גם בעבודה: המעסיק לא יכול סתם לקרוא את המייל הפרטי של העובד.",
+      "en": "The right to privacy applies at work too: an employer can't just read an employee's private email."
+    },
+    "note": "From פרטי (private). חוק הגנת הפרטיות = the Privacy Protection Law; פגיעה בפרטיות = invasion of privacy; הגדרות פרטיות = privacy settings."
+  }
+]

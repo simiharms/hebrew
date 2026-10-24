@@ -721,7 +721,7 @@
     "en": "to understand",
     "root": "ב.י.ן",
     "binyan": "hifil",
-    "gizra": "ע״ו/ע״י (hollow)",
+    "gizra": "ע״י (hollow, middle yod)",
     "gov": "את",
     "level": "A2",
     "present": {
@@ -756,6 +756,7 @@
       "fs": ["הביני", "havíni"],
       "mp": ["הבינו", "havínu"]
     },
+    "rare": ["imp"],
     "ex": {
       "he": "סליחה, לא הבנתי. אפשר להסביר שוב?",
       "en": "Sorry, I didn't understand. Could you explain again?"
@@ -777,7 +778,7 @@
         "form": "תבין"
       }
     ],
-    "note": "'הבנתי' = got it; 'לא הבנתי' = I didn't get that. להבין ב = to know about: הוא מבין במחשבים. Hollow verb: the root's י disappears in the past (הבנתי) but shows in the present and future (מבין, אבין). The imperative הבן is rare."
+    "note": "'הבנתי' = got it; 'לא הבנתי' = I didn't get that. להבין ב = to know about: הוא מבין במחשבים. Hollow verb: the root's י disappears in the past (הבנתי) but shows in the present and future (מבין, אבין). The imperative (הבן, הביני, הבינו) is rare; people say תבין / תביני instead."
   },
   {
     "id": "verb_lehagia",
@@ -967,8 +968,8 @@
         "form": "ממשיכים"
       },
       {
-        "he": "אמשיך לעבוד על זה מחר בבוקר.",
-        "en": "I'll keep working on it tomorrow morning.",
+        "he": "אחרי ההפסקה אמשיך לעבוד על הדוח.",
+        "en": "After the break I'll carry on working on the report.",
         "form": "אמשיך"
       }
     ],
@@ -1552,8 +1553,8 @@
         "form": "מתכוננים"
       },
       {
-        "he": "בשבוע הבא אתכונן למצגת יחד עם עדי.",
-        "en": "Next week I'll prepare for the presentation together with Adi.",
+        "he": "אתכונן למצגת בסוף השבוע, כשיהיה לי שקט.",
+        "en": "I'll prepare for the presentation at the weekend, when it's quiet.",
         "form": "אתכונן"
       }
     ],
@@ -1566,7 +1567,7 @@
     "en": "to be interested (in)",
     "root": "ע.נ.י.ן",
     "binyan": "hitpael",
-    "gizra": "4-letter root (from עניין)",
+    "gizra": "4-letter root (מרובעים)",
     "gov": "ב",
     "level": "B1",
     "present": {

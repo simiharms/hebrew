@@ -1,0 +1,1500 @@
+[
+  {
+    "id": "va2d_koes",
+    "he": "כועס",
+    "tr": "ko'és",
+    "en": "angry",
+    "enAlt": [
+      "mad",
+      "cross",
+      "upset"
+    ],
+    "pos": "adj",
+    "root": "כ.ע.ס",
+    "level": "A2",
+    "topic": "social",
+    "ex": {
+      "he": "למה אתה כועס עליי? לא עשיתי כלום!",
+      "en": "Why are you angry with me? I didn't do anything!"
+    },
+    "note": "Feminine: כועסת; plural: כועסים. Angry at someone = כועס על: היא כועסת על הבוס שלה. כעס = anger."
+  },
+  {
+    "id": "va2d_mitragesh",
+    "he": "מתרגש",
+    "tr": "mitragésh",
+    "en": "excited; moved",
+    "enAlt": [
+      "thrilled",
+      "emotional",
+      "nervous"
+    ],
+    "pos": "adj",
+    "root": "ר.ג.ש",
+    "level": "A2",
+    "topic": "social",
+    "ex": {
+      "he": "הבת שלי מאוד מתרגשת, מחר היא מתחילה כיתה א׳.",
+      "en": "My daughter is very excited: tomorrow she starts first grade."
+    },
+    "note": "The present tense of להתרגש, used like an adjective. Feminine: מתרגשת. It covers excitement, being touched and pre-event nerves: אני מתרגש לפני הנאום = I'm nervous before the speech."
+  },
+  {
+    "id": "va2d_boded",
+    "he": "בודד",
+    "tr": "bodéd",
+    "en": "lonely",
+    "enAlt": [
+      "alone",
+      "isolated",
+      "solitary",
+      "single"
+    ],
+    "pos": "adj",
+    "root": "ב.ד.ד",
+    "level": "A2",
+    "topic": "social",
+    "ex": {
+      "he": "מאז שהילדים שלה עברו לחיפה, סבתא שלי מרגישה קצת בודדה.",
+      "en": "Since her children moved to Haifa, my grandmother has been feeling a bit lonely."
+    },
+    "note": "Feminine: בודדה. Also single, individual: מקרה בודד = an isolated case. Alone (by oneself) is לבד."
+  },
+  {
+    "id": "va2d_matana",
+    "he": "מתנה",
+    "tr": "mataná",
+    "en": "gift",
+    "enAlt": [
+      "present"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "מתנות",
+    "root": "נ.ת.נ",
+    "level": "A2",
+    "topic": "social",
+    "ex": {
+      "he": "קניתי לאבא שלי מתנה ליום ההולדת: ספר בישול.",
+      "en": "I bought my dad a birthday present: a cookbook."
+    },
+    "note": "Same root as לתת (to give). במתנה = as a gift, or free with a purchase: קיבלתי את התיק במתנה = I got the bag as a gift / for free."
+  },
+  {
+    "id": "va2d_meushar",
+    "he": "מאושר",
+    "tr": "me'ushár",
+    "en": "happy (deeply), content",
+    "enAlt": [
+      "happy",
+      "delighted",
+      "overjoyed"
+    ],
+    "pos": "adj",
+    "root": "א.ש.ר",
+    "level": "A2",
+    "topic": "social",
+    "ex": {
+      "he": "הם נשואים כבר שלושים שנה, והם עדיין זוג מאושר.",
+      "en": "They've been married for thirty years, and they're still a happy couple."
+    },
+    "note": "Feminine: מאושרת. Deeper than שמח (glad, cheerful): happiness as a state of life. אושר = happiness."
+  },
+  {
+    "id": "va2d_gee",
+    "he": "גאה",
+    "tr": "ge'é",
+    "en": "proud",
+    "enAlt": [
+      "very proud"
+    ],
+    "pos": "adj",
+    "root": "ג.א.ה",
+    "level": "A2",
+    "topic": "social",
+    "ex": {
+      "he": "אני כל כך גאה בך, עבדת קשה בשביל זה.",
+      "en": "I'm so proud of you, you worked hard for this."
+    },
+    "note": "Proud of = גאה ב. The masculine and feminine are spelled the same but said differently: ge'é (m), ge'á (f); plural גאים. גאווה = pride."
+  },
+  {
+    "id": "va2d_atsbani",
+    "he": "עצבני",
+    "tr": "atsbaní",
+    "en": "irritable, annoyed",
+    "enAlt": [
+      "grumpy",
+      "on edge",
+      "angry",
+      "nervous"
+    ],
+    "pos": "adj",
+    "root": "ע.צ.ב",
+    "level": "A2",
+    "topic": "social",
+    "ex": {
+      "he": "אל תדבר איתו לפני הקפה, בבוקר הוא תמיד עצבני.",
+      "en": "Don't talk to him before his coffee; in the morning he's always grumpy."
+    },
+    "note": "Feminine: עצבנית. A false friend: it usually means irritated or angry, not nervous; nervous before an exam is לחוץ. עצבים = nerves: זה עולה לי על העצבים = it gets on my nerves."
+  },
+  {
+    "id": "va2d_mudag",
+    "he": "מודאג",
+    "tr": "mud'ág",
+    "en": "worried",
+    "enAlt": [
+      "concerned",
+      "anxious"
+    ],
+    "pos": "adj",
+    "root": "ד.א.ג",
+    "level": "A2",
+    "topic": "social",
+    "ex": {
+      "he": "דניאל לא עונה לטלפון כל היום, ואמא שלו מודאגת.",
+      "en": "Daniel hasn't been answering his phone all day, and his mother is worried."
+    },
+    "note": "Feminine: מודאגת. Same root as לדאוג (to worry) and דאגה (worry). מדאיג = worrying: זה מדאיג אותי = it worries me."
+  },
+  {
+    "id": "va2d_ragua",
+    "he": "רגוע",
+    "tr": "ragú'a",
+    "en": "calm",
+    "enAlt": [
+      "relaxed",
+      "quiet",
+      "peaceful"
+    ],
+    "pos": "adj",
+    "root": "ר.ג.ע",
+    "level": "A2",
+    "topic": "social",
+    "ex": {
+      "he": "אחרי שבוע בצפון חזרתי הביתה רגועה יותר.",
+      "en": "After a week up north I came home calmer."
+    },
+    "note": "Feminine: רגועה. Calm down! = תירגע (to a man) / תירגעי (to a woman). רוגע = calm, peace and quiet."
+  },
+  {
+    "id": "va2d_mufta",
+    "he": "מופתע",
+    "tr": "muftá",
+    "en": "surprised",
+    "enAlt": [
+      "astonished",
+      "amazed"
+    ],
+    "pos": "adj",
+    "root": "פ.ת.ע",
+    "level": "A2",
+    "topic": "social",
+    "ex": {
+      "he": "כשפתחתי את הדלת וראיתי את כל החברים שלי, הייתי ממש מופתעת.",
+      "en": "When I opened the door and saw all my friends, I was really surprised."
+    },
+    "note": "Feminine: מופתעת. מפתיע = surprising; הפתעה = a surprise; להפתיע = to surprise."
+  },
+  {
+    "id": "va2d_hafta_a",
+    "he": "הפתעה",
+    "tr": "hafta'á",
+    "en": "surprise",
+    "enAlt": [
+      "a surprise"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "הפתעות",
+    "root": "פ.ת.ע",
+    "level": "A2",
+    "topic": "social",
+    "ex": {
+      "he": "אנחנו מכינים מסיבת הפתעה לשירן, אז אל תגיד לה כלום!",
+      "en": "We're planning a surprise party for Shiran, so don't tell her anything!"
+    },
+    "note": "מסיבת הפתעה = surprise party. איזו הפתעה! = what a surprise! The verb is להפתיע (to surprise)."
+  },
+  {
+    "id": "va2d_mesiba",
+    "he": "מסיבה",
+    "tr": "mesibá",
+    "en": "party",
+    "enAlt": [
+      "celebration",
+      "get-together"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "מסיבות",
+    "root": "ס.ב.ב",
+    "level": "A2",
+    "topic": "social",
+    "ex": {
+      "he": "ביום חמישי יש מסיבה אצל יוסי, אתה בא?",
+      "en": "There's a party at Yossi's on Thursday, are you coming?"
+    },
+    "note": "מסיבת יום הולדת = birthday party; לעשות מסיבה = to throw a party. A political party is a different word: מפלגה."
+  },
+  {
+    "id": "va2d_oreakh",
+    "he": "אורח",
+    "tr": "oré'akh",
+    "en": "guest",
+    "enAlt": [
+      "visitor"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "אורחים",
+    "root": "א.ר.ח",
+    "level": "A2",
+    "topic": "social",
+    "ex": {
+      "he": "בשבת באים אלינו אורחים לארוחת צהריים, אז ביום שישי אני מבשלת.",
+      "en": "We have guests coming for lunch on Saturday, so I'm cooking on Friday."
+    },
+    "note": "Feminine: אורחת. A hotel guest is also אורח. הכנסת אורחים = hospitality."
+  },
+  {
+    "id": "va2d_brakha",
+    "he": "ברכה",
+    "tr": "brakhá",
+    "en": "blessing; good wishes",
+    "enAlt": [
+      "greeting",
+      "congratulations",
+      "wishes",
+      "blessing"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "ברכות",
+    "root": "ב.ר.כ",
+    "level": "A2",
+    "topic": "social",
+    "ex": {
+      "he": "כל המשפחה כתבה ברכות לסבא על כרטיס גדול.",
+      "en": "The whole family wrote good wishes to Grandpa on a big card."
+    },
+    "note": "ברכות! = congratulations! כרטיס ברכה = greeting card. The blessing said over food or wine is also a ברכה, and the letter sign-off בברכה means with regards."
+  },
+  {
+    "id": "va2d_matsav_ruakh",
+    "he": "מצב רוח",
+    "tr": "matsáv rú'akh",
+    "en": "mood",
+    "enAlt": [
+      "frame of mind",
+      "spirits"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מצבי רוח",
+    "level": "A2",
+    "topic": "social",
+    "ex": {
+      "he": "מה קרה? אתה במצב רוח רע היום.",
+      "en": "What happened? You're in a bad mood today."
+    },
+    "note": "במצב רוח טוב / רע = in a good / bad mood. אין לי מצב רוח לזה = I'm not in the mood for it. מצב = situation; רוח = spirit (also wind)."
+  },
+  {
+    "id": "va2d_ahava",
+    "he": "אהבה",
+    "tr": "ahavá",
+    "en": "love",
+    "enAlt": [
+      "romance"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "אהבות",
+    "root": "א.ה.ב",
+    "level": "A2",
+    "topic": "social",
+    "ex": {
+      "he": "זאת הייתה אהבה ממבט ראשון: הם נפגשו בתור בבנק.",
+      "en": "It was love at first sight: they met in line at the bank."
+    },
+    "note": "Same root as לאהוב (to love). אהבה ממבט ראשון = love at first sight. Signing off a message to family: באהבה = with love."
+  },
+  {
+    "id": "va2d_khatan",
+    "he": "חתן",
+    "tr": "khatán",
+    "en": "groom",
+    "enAlt": [
+      "bridegroom",
+      "son-in-law"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "חתנים",
+    "root": "ח.ת.נ",
+    "level": "A2",
+    "topic": "social",
+    "ex": {
+      "he": "החתן כל כך התרגש שהוא שכח את הטבעת בבית.",
+      "en": "The groom was so nervous that he forgot the ring at home."
+    },
+    "note": "Also son-in-law: החתן שלנו = our son-in-law. Same root as חתונה (wedding) and להתחתן (to get married). The couple: החתן והכלה."
+  },
+  {
+    "id": "va2d_kala",
+    "he": "כלה",
+    "tr": "kalá",
+    "en": "bride",
+    "enAlt": [
+      "daughter-in-law"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "כלות",
+    "level": "A2",
+    "topic": "social",
+    "ex": {
+      "he": "הכלה הייתה יפה מאוד בשמלה לבנה ופשוטה.",
+      "en": "The bride looked very beautiful in a simple white dress."
+    },
+    "note": "Also daughter-in-law: הכלה שלי גרה בירושלים = my daughter-in-law lives in Jerusalem."
+  },
+  {
+    "id": "va2d_yom_nisuim",
+    "he": "יום נישואים",
+    "tr": "yom nisu'ím",
+    "en": "wedding anniversary",
+    "enAlt": [
+      "anniversary"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "ימי נישואים",
+    "level": "A2",
+    "topic": "social",
+    "ex": {
+      "he": "ביום הנישואים שלנו אנחנו תמיד הולכים לאותה מסעדה.",
+      "en": "On our wedding anniversary we always go to the same restaurant."
+    },
+    "note": "נישואים (marriage) is always plural. With \"the\", the ה goes on the second word: יום הנישואים."
+  },
+  {
+    "id": "va2d_meukhzav",
+    "he": "מאוכזב",
+    "tr": "me'ukhzáv",
+    "en": "disappointed",
+    "enAlt": [
+      "let down"
+    ],
+    "pos": "adj",
+    "level": "A2",
+    "topic": "social",
+    "ex": {
+      "he": "יעל קצת מאוכזבת, כי היא לא קיבלה את התפקיד.",
+      "en": "Yael is a bit disappointed because she didn't get the job."
+    },
+    "note": "Feminine: מאוכזבת. Disappointed in someone = מאוכזב מ: אני מאוכזב ממך. אכזבה = disappointment; מאכזב = disappointing."
+  },
+  {
+    "id": "va2d_nekhmad",
+    "he": "נחמד",
+    "tr": "nekhmád",
+    "en": "nice",
+    "enAlt": [
+      "kind",
+      "pleasant",
+      "friendly",
+      "sweet"
+    ],
+    "pos": "adj",
+    "root": "ח.מ.ד",
+    "level": "A2",
+    "topic": "social",
+    "ex": {
+      "he": "השכנים החדשים מאוד נחמדים, הם הביאו לנו עוגה.",
+      "en": "The new neighbors are very nice; they brought us a cake."
+    },
+    "note": "Feminine: נחמדה. For people and things alike: מקום נחמד = a nice place. איזה נחמד! = how nice!"
+  },
+  {
+    "id": "va2d_kupa",
+    "he": "קופה",
+    "tr": "kupá",
+    "en": "checkout; cash register",
+    "enAlt": [
+      "till",
+      "register",
+      "cash desk"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "קופות",
+    "level": "A2",
+    "topic": "shopping",
+    "ex": {
+      "he": "בקופה מספר שלוש אין תור, בואי נלך לשם.",
+      "en": "There's no line at checkout number three, let's go there."
+    },
+    "note": "קופה עצמית = self-checkout. Also a fund: קופת חולים (health fund), קופת גמל (provident fund)."
+  },
+  {
+    "id": "va2d_kupai",
+    "he": "קופאי",
+    "tr": "kupái",
+    "en": "cashier",
+    "enAlt": [
+      "checkout assistant",
+      "checkout operator"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "קופאים",
+    "level": "A2",
+    "topic": "shopping",
+    "ex": {
+      "he": "הקופאית שאלה אותי אם אני צריכה שקית.",
+      "en": "The cashier asked me if I needed a bag."
+    },
+    "note": "Feminine: קופאית. From קופה (checkout). At the bank, the person behind the counter is a פקיד / פקידה."
+  },
+  {
+    "id": "va2d_arnak",
+    "he": "ארנק",
+    "tr": "arnák",
+    "en": "wallet",
+    "enAlt": [
+      "purse"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "ארנקים",
+    "level": "A2",
+    "topic": "shopping",
+    "ex": {
+      "he": "אוי, שכחתי את הארנק באוטו! אתה יכול לשלם בינתיים?",
+      "en": "Oh no, I left my wallet in the car! Can you pay for now?"
+    },
+    "note": "Many people now pay with their phone: ארנק דיגיטלי = digital wallet."
+  },
+  {
+    "id": "va2d_sakit",
+    "he": "שקית",
+    "tr": "sakít",
+    "en": "bag (plastic or paper)",
+    "enAlt": [
+      "plastic bag",
+      "carrier bag",
+      "bag"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "שקיות",
+    "level": "A2",
+    "topic": "shopping",
+    "ex": {
+      "he": "— אתה צריך שקית? — לא, תודה, יש לי תיק.",
+      "en": "— Do you need a bag? — No thanks, I have a bag."
+    },
+    "note": "A small, light bag; a handbag, backpack or schoolbag is a תיק. In big supermarkets plastic bags are not free, so many people bring a reusable one: שקית רב-פעמית."
+  },
+  {
+    "id": "va2d_agala",
+    "he": "עגלה",
+    "tr": "agalá",
+    "en": "shopping cart",
+    "enAlt": [
+      "trolley",
+      "cart",
+      "stroller",
+      "pram"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "עגלות",
+    "level": "A2",
+    "topic": "shopping",
+    "ex": {
+      "he": "קח עגלה, אנחנו קונים הרבה היום.",
+      "en": "Take a cart, we're buying a lot today."
+    },
+    "note": "Also a baby stroller (עגלת תינוק) and any cart or wagon. In many supermarkets you need a coin to unlock a cart."
+  },
+  {
+    "id": "va2d_sal",
+    "he": "סל",
+    "tr": "sal",
+    "en": "basket",
+    "enAlt": [
+      "shopping basket",
+      "cart (online)"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "סלים",
+    "level": "A2",
+    "topic": "shopping",
+    "ex": {
+      "he": "אני קונה רק חלב ולחם, אז מספיק לי סל.",
+      "en": "I'm only buying milk and bread, so a basket is enough for me."
+    },
+    "note": "On shopping websites the cart is also the סל: הוספתי לסל = I added it to the cart. סל קניות = shopping basket."
+  },
+  {
+    "id": "va2d_kartis_ashrai",
+    "he": "כרטיס אשראי",
+    "tr": "kartís ashrái",
+    "en": "credit card",
+    "enAlt": [
+      "card",
+      "credit"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "כרטיסי אשראי",
+    "level": "A2",
+    "topic": "shopping",
+    "ex": {
+      "he": "אפשר לשלם בכרטיס אשראי, או רק במזומן?",
+      "en": "Can I pay by credit card, or only in cash?"
+    },
+    "note": "In shops people often just say אשראי: באשראי או במזומן? = card or cash? Israeli credit cards are usually charged once a month, on a fixed date."
+  },
+  {
+    "id": "va2d_odef",
+    "he": "עודף",
+    "tr": "ódef",
+    "en": "change (money given back)",
+    "enAlt": [
+      "change",
+      "surplus",
+      "excess"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "עודפים",
+    "root": "ע.ד.פ",
+    "level": "A2",
+    "topic": "shopping",
+    "ex": {
+      "he": "שילמתי במזומן ושכחתי לקחת את העודף.",
+      "en": "I paid in cash and forgot to take the change."
+    },
+    "note": "Also surplus, excess: עודף משקל = excess weight. Coins and small notes are כסף קטן: יש לך כסף קטן? = do you have change?"
+  },
+  {
+    "id": "va2d_madaf",
+    "he": "מדף",
+    "tr": "madáf",
+    "en": "shelf",
+    "enAlt": [
+      "rack"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מדפים",
+    "level": "A2",
+    "topic": "shopping",
+    "ex": {
+      "he": "החלב נגמר, המדף ריק לגמרי.",
+      "en": "The milk is sold out; the shelf is completely empty."
+    },
+    "note": "על המדף = on the shelf. מוצר מדף = an off-the-shelf product."
+  },
+  {
+    "id": "va2d_ta_medida",
+    "he": "תא מדידה",
+    "tr": "ta medidá",
+    "en": "fitting room",
+    "enAlt": [
+      "changing room",
+      "dressing room"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "תאי מדידה",
+    "root": "מ.ד.ד",
+    "level": "A2",
+    "topic": "shopping",
+    "ex": {
+      "he": "סליחה, איפה תאי המדידה? אני רוצה למדוד את המכנסיים.",
+      "en": "Excuse me, where are the fitting rooms? I want to try on the trousers."
+    },
+    "note": "From למדוד (to try on; to measure). תא = booth, cell. With \"the\": תא המדידה."
+  },
+  {
+    "id": "va2d_petek_hakhlafa",
+    "he": "פתק החלפה",
+    "tr": "pétek hakhlafá",
+    "en": "exchange slip (gift receipt)",
+    "enAlt": [
+      "gift receipt",
+      "exchange note"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "פתקי החלפה",
+    "level": "A2",
+    "topic": "shopping",
+    "ex": {
+      "he": "זאת מתנה, אפשר לקבל פתק החלפה?",
+      "en": "It's a present, could I have an exchange slip?"
+    },
+    "note": "Lets the person who gets the gift exchange it without seeing the price. פתק = a note, a slip of paper; החלפה = exchange."
+  },
+  {
+    "id": "va2d_betashlumim",
+    "he": "בתשלומים",
+    "tr": "betashlumím",
+    "en": "in installments",
+    "enAlt": [
+      "in instalments",
+      "on an installment plan"
+    ],
+    "pos": "adv",
+    "root": "ש.ל.מ",
+    "level": "A2",
+    "topic": "shopping",
+    "ex": {
+      "he": "— אפשר לשלם בתשלומים? — כן, עד שישה תשלומים בלי ריבית.",
+      "en": "— Can I pay in installments? — Yes, up to six interest-free installments."
+    },
+    "note": "Very common in Israel, even for clothes and electronics. כמה תשלומים? = how many installments? Paying all at once = בתשלום אחד."
+  },
+  {
+    "id": "va2d_muzal",
+    "he": "מוזל",
+    "tr": "muzál",
+    "en": "discounted, reduced",
+    "enAlt": [
+      "marked down",
+      "on sale",
+      "reduced price"
+    ],
+    "pos": "adj",
+    "root": "ז.ו.ל",
+    "level": "A2",
+    "topic": "shopping",
+    "ex": {
+      "he": "כל הנעליים בחנות מוזלות בשלושים אחוז.",
+      "en": "All the shoes in the store are reduced by thirty percent."
+    },
+    "note": "Feminine: מוזלת. במחיר מוזל = at a reduced price. Same root as זול (cheap)."
+  },
+  {
+    "id": "va2d_matbea",
+    "he": "מטבע",
+    "tr": "matbé'a",
+    "en": "coin; currency",
+    "enAlt": [
+      "coin",
+      "currency"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מטבעות",
+    "root": "ט.ב.ע",
+    "level": "A2",
+    "topic": "shopping",
+    "ex": {
+      "he": "יש לך מטבע של חמישה שקלים בשביל העגלה?",
+      "en": "Do you have a five-shekel coin for the cart?"
+    },
+    "note": "Masculine, but the plural ends in -ות: מטבעות. מטבע חוץ = foreign currency."
+  },
+  {
+    "id": "va2d_shtar",
+    "he": "שטר",
+    "tr": "shtar",
+    "en": "banknote, bill",
+    "enAlt": [
+      "note",
+      "bill"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "שטרות",
+    "level": "A2",
+    "topic": "shopping",
+    "ex": {
+      "he": "אין לי כסף קטן, רק שטר של מאתיים.",
+      "en": "I don't have any change, only a two-hundred-shekel note."
+    },
+    "note": "Masculine, but the plural is שטרות. Israeli banknotes come in 20, 50, 100 and 200 shekels."
+  },
+  {
+    "id": "va2d_snif",
+    "he": "סניף",
+    "tr": "snif",
+    "en": "branch (of a chain, bank, etc.)",
+    "enAlt": [
+      "branch",
+      "outlet",
+      "location"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "סניפים",
+    "level": "A2",
+    "topic": "shopping",
+    "ex": {
+      "he": "בסניף הזה אין את המידה שלי, אבל בסניף בקניון יש.",
+      "en": "This branch doesn't have my size, but the branch in the mall does."
+    },
+    "note": "Used for store chains, banks, the post office and health-fund clinics: באיזה סניף? = which branch?"
+  },
+  {
+    "id": "va2d_sheot_ptikha",
+    "he": "שעות פתיחה",
+    "tr": "she'ót ptikhá",
+    "en": "opening hours",
+    "enAlt": [
+      "business hours",
+      "hours"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "level": "A2",
+    "topic": "shopping",
+    "ex": {
+      "he": "לפני שאת נוסעת, תבדקי את שעות הפתיחה באתר.",
+      "en": "Before you go, check the opening hours on the website."
+    },
+    "note": "Always plural (שעה = hour). With \"the\": שעות הפתיחה. Many shops close early on Friday and stay closed on Shabbat."
+  },
+  {
+    "id": "va2d_nazelet",
+    "he": "נזלת",
+    "tr": "nazélet",
+    "en": "runny nose",
+    "enAlt": [
+      "the sniffles",
+      "nasal congestion"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "root": "נ.ז.ל",
+    "level": "A2",
+    "topic": "health",
+    "ex": {
+      "he": "יש לי נזלת ושיעול, אבל אין לי חום.",
+      "en": "I have a runny nose and a cough, but no fever."
+    },
+    "note": "No plural in normal use. Same root as נוזל (liquid). A blocked nose is אף סתום."
+  },
+  {
+    "id": "va2d_keev_garon",
+    "he": "כאב גרון",
+    "tr": "ke'év garón",
+    "en": "sore throat",
+    "enAlt": [
+      "throat pain"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "כאבי גרון",
+    "level": "A2",
+    "topic": "health",
+    "ex": {
+      "he": "קמתי עם כאב גרון, אז שתיתי תה עם דבש.",
+      "en": "I woke up with a sore throat, so I drank tea with honey."
+    },
+    "note": "Lit. pain of throat. Also common: כואב לי הגרון = my throat hurts. In the same pattern: כאב בטן = stomachache, כאב אוזניים = earache."
+  },
+  {
+    "id": "va2d_keev_rosh",
+    "he": "כאב ראש",
+    "tr": "ke'év rosh",
+    "en": "headache",
+    "enAlt": [
+      "hassle"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "כאבי ראש",
+    "level": "A2",
+    "topic": "health",
+    "ex": {
+      "he": "יש לך משהו נגד כאב ראש? אני מול המחשב כבר שמונה שעות.",
+      "en": "Do you have anything for a headache? I've been in front of the computer for eight hours."
+    },
+    "note": "Also a hassle, as in English: הבירוקרטיה הזאת היא כאב ראש. נגד = against; כדור נגד כאבים = a painkiller."
+  },
+  {
+    "id": "va2d_shapaat",
+    "he": "שפעת",
+    "tr": "shapá'at",
+    "en": "flu",
+    "enAlt": [
+      "influenza"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "level": "A2",
+    "topic": "health",
+    "ex": {
+      "he": "כל המשרד חולה בשפעת, ורק אני עוד בריא.",
+      "en": "The whole office has the flu, and only I'm still healthy."
+    },
+    "note": "Sick with = חולה ב: חולה בשפעת. The health funds offer a flu shot (חיסון נגד שפעת) every autumn."
+  },
+  {
+    "id": "va2d_rofe_mishpakha",
+    "he": "רופא משפחה",
+    "tr": "rofé mishpakhá",
+    "en": "family doctor, GP",
+    "enAlt": [
+      "GP",
+      "general practitioner",
+      "primary care doctor"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "רופאי משפחה",
+    "level": "A2",
+    "topic": "health",
+    "ex": {
+      "he": "קבעתי תור אצל רופאת המשפחה שלי ליום ראשון.",
+      "en": "I booked an appointment with my family doctor for Sunday."
+    },
+    "note": "Feminine: רופאת משפחה. With \"the\": רופא המשפחה. Your first stop at the health fund; the GP gives referrals (הפניות) to specialists."
+  },
+  {
+    "id": "va2d_rofe_shinayim",
+    "he": "רופא שיניים",
+    "tr": "rofé shináyim",
+    "en": "dentist",
+    "enAlt": [
+      "dental surgeon"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "רופאי שיניים",
+    "level": "A2",
+    "topic": "health",
+    "ex": {
+      "he": "אני הולך לרופא שיניים פעם בחצי שנה, לבדיקה.",
+      "en": "I go to the dentist every six months for a checkup."
+    },
+    "note": "Feminine: רופאת שיניים. Lit. doctor of teeth: שן (tooth) is feminine, plural שיניים."
+  },
+  {
+    "id": "va2d_ishur_makhala",
+    "he": "אישור מחלה",
+    "tr": "ishúr makhalá",
+    "en": "sick note, doctor's note",
+    "enAlt": [
+      "medical certificate",
+      "sick certificate"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "אישורי מחלה",
+    "level": "A2",
+    "topic": "health",
+    "ex": {
+      "he": "אם את חולה יותר מיום אחד, תביאי אישור מחלה מהרופא.",
+      "en": "If you're sick for more than one day, bring a sick note from the doctor."
+    },
+    "note": "Employers usually ask for one for sick days. אישור = confirmation, certificate."
+  },
+  {
+    "id": "va2d_yom_makhala",
+    "he": "יום מחלה",
+    "tr": "yom makhalá",
+    "en": "sick day",
+    "enAlt": [
+      "day of sick leave"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "ימי מחלה",
+    "level": "A2",
+    "topic": "health",
+    "ex": {
+      "he": "לקחתי יום מחלה, כי היה לי חום.",
+      "en": "I took a sick day because I had a fever."
+    },
+    "note": "Plural: ימי מחלה = sick leave. Employees in Israel build up sick days for every month they work."
+  },
+  {
+    "id": "va2d_kadur",
+    "he": "כדור",
+    "tr": "kadúr",
+    "en": "pill; ball",
+    "enAlt": [
+      "tablet",
+      "ball",
+      "capsule"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "כדורים",
+    "level": "A2",
+    "topic": "health",
+    "ex": {
+      "he": "הרופא אמר לקחת כדור אחד בבוקר ואחד בערב.",
+      "en": "The doctor said to take one pill in the morning and one in the evening."
+    },
+    "note": "The everyday word for a pill. Also a ball: כדורגל = football (soccer). כדור נגד כאבים = a painkiller."
+  },
+  {
+    "id": "va2d_zrika",
+    "he": "זריקה",
+    "tr": "zriká",
+    "en": "injection, shot",
+    "enAlt": [
+      "shot",
+      "jab",
+      "throw"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "זריקות",
+    "root": "ז.ר.ק",
+    "level": "A2",
+    "topic": "health",
+    "ex": {
+      "he": "האחות נתנה לי זריקה, וזה בכלל לא כאב.",
+      "en": "The nurse gave me a shot, and it didn't hurt at all."
+    },
+    "note": "Also a throw (לזרוק = to throw). The nurse is אחות, the same word as sister."
+  },
+  {
+    "id": "va2d_khisun",
+    "he": "חיסון",
+    "tr": "khisún",
+    "en": "vaccine; vaccination",
+    "enAlt": [
+      "vaccination",
+      "immunization",
+      "shot"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "חיסונים",
+    "root": "ח.ס.נ",
+    "level": "A2",
+    "topic": "health",
+    "ex": {
+      "he": "התינוקת קיבלה את החיסונים שלה בטיפת חלב.",
+      "en": "The baby got her vaccinations at the mother-and-child clinic."
+    },
+    "note": "טיפת חלב (lit. a drop of milk) = the mother-and-baby clinic where babies get their routine vaccines. Same root as חסין (immune)."
+  },
+  {
+    "id": "va2d_bdikat_dam",
+    "he": "בדיקת דם",
+    "tr": "bdikát dam",
+    "en": "blood test",
+    "enAlt": [
+      "blood work"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "בדיקות דם",
+    "root": "ב.ד.ק",
+    "level": "A2",
+    "topic": "health",
+    "ex": {
+      "he": "לבדיקת דם צריך להגיע בבוקר, בלי לאכול.",
+      "en": "For a blood test you have to come in the morning, without eating."
+    },
+    "note": "Many blood tests are done fasting: בצום. The results usually show up in the health fund's app."
+  },
+  {
+    "id": "va2d_madkhom",
+    "he": "מדחום",
+    "tr": "madkhóm",
+    "en": "thermometer",
+    "enAlt": [
+      "fever thermometer"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מדחומים",
+    "level": "A2",
+    "topic": "health",
+    "ex": {
+      "he": "איפה המדחום? אני רוצה למדוד לה חום.",
+      "en": "Where's the thermometer? I want to take her temperature."
+    },
+    "note": "A blend of מד (meter) and חום (heat, fever). למדוד חום = to take a temperature."
+  },
+  {
+    "id": "va2d_daleket",
+    "he": "דלקת",
+    "tr": "daléket",
+    "en": "infection; inflammation",
+    "enAlt": [
+      "inflammation",
+      "infection"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "דלקות",
+    "root": "ד.ל.ק",
+    "level": "A2",
+    "topic": "health",
+    "ex": {
+      "he": "לילד יש דלקת אוזניים, והרופאה נתנה לו אנטיביוטיקה.",
+      "en": "The boy has an ear infection, and the doctor gave him antibiotics."
+    },
+    "note": "Same root as להדליק (to light) and דלק (fuel): the body is burning. דלקת גרון = throat infection; דלקת ריאות = pneumonia."
+  },
+  {
+    "id": "va2d_antibiyotika",
+    "he": "אנטיביוטיקה",
+    "tr": "antibiyótika",
+    "en": "antibiotics",
+    "enAlt": [
+      "antibiotic"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "level": "A2",
+    "topic": "health",
+    "ex": {
+      "he": "צריך לגמור את כל האנטיביוטיקה, גם אם מרגישים טוב.",
+      "en": "You have to finish all the antibiotics, even if you feel well."
+    },
+    "note": "Singular and feminine in Hebrew: האנטיביוטיקה עוזרת = the antibiotics are helping."
+  },
+  {
+    "id": "va2d_menukha",
+    "he": "מנוחה",
+    "tr": "menukhá",
+    "en": "rest",
+    "enAlt": [
+      "break",
+      "relaxation"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "root": "נ.ו.ח",
+    "level": "A2",
+    "topic": "health",
+    "ex": {
+      "he": "הרופא אמר שאני צריך שלושה ימי מנוחה בבית.",
+      "en": "The doctor said I need three days of rest at home."
+    },
+    "note": "Same root as לנוח (to rest) and נוח (comfortable). שעות מנוחה = quiet hours, traditionally in the early afternoon, when neighbors expect no noise."
+  },
+  {
+    "id": "va2d_ambulans",
+    "he": "אמבולנס",
+    "tr": "ámbulans",
+    "en": "ambulance",
+    "enAlt": [
+      "paramedics"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "אמבולנסים",
+    "level": "A2",
+    "topic": "health",
+    "ex": {
+      "he": "השכן שלנו הרגיש לא טוב, אז הזמנו אמבולנס.",
+      "en": "Our neighbor felt unwell, so we called an ambulance."
+    },
+    "note": "להזמין אמבולנס = to call an ambulance. Israel's emergency medical service is מד״א (Magen David Adom), number 101."
+  },
+  {
+    "id": "va2d_nire_li",
+    "he": "נראה לי",
+    "tr": "nir'é li",
+    "en": "I think; it seems to me",
+    "enAlt": [
+      "I guess",
+      "I suppose",
+      "looks like"
+    ],
+    "pos": "phrase",
+    "root": "ר.א.ה",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "— יוני בא היום? — נראה לי שלא, הוא חולה.",
+      "en": "— Is Yoni coming today? — I don't think so, he's sick."
+    },
+    "note": "The most common spoken way to say I think. נראה לי שכן / שלא = I think so / I don't think so. As a question, נראה לך? = do you really think so? (often doubtful)."
+  },
+  {
+    "id": "va2d_ma_pitom",
+    "he": "מה פתאום",
+    "tr": "ma pit'óm",
+    "en": "Of course not! Not at all!",
+    "enAlt": [
+      "no way",
+      "what are you talking about",
+      "don't mention it",
+      "not at all"
+    ],
+    "pos": "phrase",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "— אני מפריע לך? — מה פתאום, תיכנס!",
+      "en": "— Am I disturbing you? — Not at all, come in!"
+    },
+    "note": "Lit. what suddenly. A firm no to a suggestion, a worry or a thank-you. In a sharper tone it means you must be kidding!"
+  },
+  {
+    "id": "va2d_kol_hakavod",
+    "he": "כל הכבוד",
+    "tr": "kol hakavód",
+    "en": "Well done!",
+    "enAlt": [
+      "good job",
+      "great job",
+      "bravo",
+      "kudos"
+    ],
+    "pos": "phrase",
+    "root": "כ.ב.ד",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "סיימת את המרתון? כל הכבוד!",
+      "en": "You finished the marathon? Well done!"
+    },
+    "note": "Lit. all the respect. כל הכבוד לך = good for you. Not to be confused with עם כל הכבוד (with all due respect), which introduces disagreement."
+  },
+  {
+    "id": "va2d_leat_leat",
+    "he": "לאט לאט",
+    "tr": "le'át le'át",
+    "en": "little by little; slowly",
+    "enAlt": [
+      "gradually",
+      "step by step",
+      "slowly but surely",
+      "take it easy"
+    ],
+    "pos": "phrase",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "העברית שלי משתפרת לאט לאט.",
+      "en": "My Hebrew is improving little by little."
+    },
+    "note": "Also said to calm someone down: לאט לאט, אין לחץ = easy, no rush. לאט on its own = slowly."
+  },
+  {
+    "id": "va2d_shana_tova",
+    "he": "שנה טובה",
+    "tr": "shaná tová",
+    "en": "Happy New Year",
+    "enAlt": [
+      "have a good year",
+      "shana tova"
+    ],
+    "pos": "phrase",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "שנה טובה לכולם! שתהיה לנו שנה בריאה ושקטה.",
+      "en": "Happy New Year, everyone! May we have a healthy and quiet year."
+    },
+    "note": "Said before and during Rosh Hashanah, in September or October. Before the holiday many workplaces give employees a gift: מתנה לחג."
+  },
+  {
+    "id": "va2d_tsohorayim_tovim",
+    "he": "צהריים טובים",
+    "tr": "tsohoráyim tovím",
+    "en": "Good afternoon",
+    "enAlt": [
+      "good day"
+    ],
+    "pos": "phrase",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "צהריים טובים, אפשר לדבר עם מישהו משירות הלקוחות?",
+      "en": "Good afternoon, could I speak to someone from customer service?"
+    },
+    "note": "The adjective is plural because צהריים (noon) is grammatically plural. Used from about noon into the afternoon; later in the day, ערב טוב."
+  },
+  {
+    "id": "va2d_boker_or",
+    "he": "בוקר אור",
+    "tr": "bóker or",
+    "en": "Good morning (in reply)",
+    "enAlt": [
+      "good morning to you",
+      "morning"
+    ],
+    "pos": "phrase",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "— בוקר טוב! — בוקר אור! רוצה קפה?",
+      "en": "— Good morning! — Good morning to you! Want some coffee?"
+    },
+    "note": "The traditional answer to בוקר טוב (lit. a morning of light). Many people simply answer בוקר טוב back."
+  },
+  {
+    "id": "va2d_targish_tov",
+    "he": "תרגיש/י טוב",
+    "tr": "targísh / targíshi tov",
+    "en": "Feel better!",
+    "enAlt": [
+      "get well soon",
+      "hope you feel better"
+    ],
+    "alt": [
+      "תרגיש טוב",
+      "תרגישי טוב",
+      "תרגישו טוב"
+    ],
+    "pos": "phrase",
+    "root": "ר.ג.ש",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "שמעתי שאת חולה. תרגישי טוב, ואל תדאגי לעבודה!",
+      "en": "I heard you're sick. Feel better, and don't worry about work!"
+    },
+    "note": "To a man תרגיש טוב, to a woman תרגישי טוב, to several people תרגישו טוב. Lighter and more everyday than רפואה שלמה."
+  },
+  {
+    "id": "va2d_ad_mea_veesrim",
+    "he": "עד מאה ועשרים",
+    "tr": "ad me'á ve'esrím",
+    "en": "May you live to 120!",
+    "enAlt": [
+      "many happy returns",
+      "long life",
+      "happy birthday"
+    ],
+    "pos": "phrase",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "יום הולדת שמח, סבא! עד מאה ועשרים!",
+      "en": "Happy birthday, Grandpa! May you live to a hundred and twenty!"
+    },
+    "note": "The classic birthday wish, after the age of Moses in the Bible. Also added when someone mentions an older person's age: היא בת תשעים, עד מאה ועשרים."
+  },
+  {
+    "id": "va2d_ein_davar",
+    "he": "אין דבר",
+    "tr": "ein davár",
+    "en": "Never mind; it's nothing",
+    "enAlt": [
+      "no worries",
+      "that's okay",
+      "no harm done"
+    ],
+    "pos": "phrase",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "— סליחה, שפכתי קפה על השולחן. — אין דבר, זה רק קפה.",
+      "en": "— Sorry, I spilled coffee on the table. — Never mind, it's only coffee."
+    },
+    "note": "Lit. there is no thing. A kind answer to an apology. Similar: לא נורא, זה בסדר."
+  },
+  {
+    "id": "va2d_lo_nora",
+    "he": "לא נורא",
+    "tr": "lo norá",
+    "en": "No big deal; never mind",
+    "enAlt": [
+      "it's not so bad",
+      "it's okay",
+      "no worries"
+    ],
+    "pos": "phrase",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "פספסנו את האוטובוס? לא נורא, יש עוד אחד בעוד עשר דקות.",
+      "en": "We missed the bus? No big deal, there's another one in ten minutes."
+    },
+    "note": "Lit. not terrible. Plays something down or comforts someone: לא נורא, יהיה בסדר = never mind, it'll be fine. נורא on its own = terrible, and also very: נורא חם = terribly hot."
+  },
+  {
+    "id": "va2d_besimkha",
+    "he": "בשמחה",
+    "tr": "besimkhá",
+    "en": "Gladly; with pleasure",
+    "enAlt": [
+      "with pleasure",
+      "happy to",
+      "I'd love to"
+    ],
+    "pos": "phrase",
+    "root": "ש.מ.ח",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "— תוכלי לעזור לי עם הטופס? — בשמחה, תראי לי.",
+      "en": "— Could you help me with the form? — Gladly, show me."
+    },
+    "note": "Lit. with joy. A warm yes to a request or an invitation: — תבואו אלינו בשבת? — בשמחה!"
+  },
+  {
+    "id": "va2d_kamuvan",
+    "he": "כמובן",
+    "tr": "kamuván",
+    "en": "of course",
+    "enAlt": [
+      "naturally",
+      "obviously",
+      "certainly"
+    ],
+    "pos": "adv",
+    "root": "ב.י.נ",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "כמובן שאפשר לשלם באשראי.",
+      "en": "Of course you can pay by card."
+    },
+    "note": "Lit. as understood (same root as להבין, to understand). Often followed by ש: כמובן ש... In casual speech ברור or בטח are more common."
+  },
+  {
+    "id": "va2d_derekh_tslekha",
+    "he": "דרך צלחה",
+    "tr": "dérekh tslekhá",
+    "en": "Have a safe trip!",
+    "enAlt": [
+      "bon voyage",
+      "safe travels",
+      "have a good trip"
+    ],
+    "pos": "phrase",
+    "root": "צ.ל.ח",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "אתם טסים הלילה? דרך צלחה, תשלחו תמונות!",
+      "en": "You're flying tonight? Have a safe trip, send pictures!"
+    },
+    "note": "Lit. a successful road; same root as בהצלחה. A bit elevated but used by everyone. More casual: נסיעה טובה / טיסה טובה."
+  },
+  {
+    "id": "va2d_rak_rega",
+    "he": "רק רגע",
+    "tr": "rak réga",
+    "en": "Just a moment",
+    "enAlt": [
+      "one moment",
+      "hold on",
+      "just a second",
+      "wait a minute"
+    ],
+    "pos": "phrase",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "רק רגע, אני מסיימת שיחה ואני איתך.",
+      "en": "Just a moment, I'm finishing a call and then I'm all yours."
+    },
+    "note": "Also just רגע! = wait! / hold on! רגע אחד = one moment; בעוד רגע = in a moment."
+  },
+  {
+    "id": "va2d_ma_hainyanim",
+    "he": "מה העניינים?",
+    "tr": "ma ha'inyaním",
+    "en": "What's up? How's it going?",
+    "enAlt": [
+      "what's up",
+      "how's it going",
+      "how are things"
+    ],
+    "alt": [
+      "מה העניינים"
+    ],
+    "pos": "phrase",
+    "register": "colloquial",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "היי, מה העניינים? מזמן לא ראיתי אותך!",
+      "en": "Hi, how's it going? I haven't seen you in ages!"
+    },
+    "note": "Lit. what are the matters. Typical answers: בסדר, הכול טוב or סבבה. עניין = matter, affair."
+  },
+  {
+    "id": "va2d_lekhayim",
+    "he": "לחיים",
+    "tr": "lekháyim",
+    "en": "Cheers!",
+    "enAlt": [
+      "to life",
+      "l'chaim"
+    ],
+    "pos": "phrase",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "לחיים! לכבוד העבודה החדשה של נועה!",
+      "en": "Cheers! To Noa's new job!"
+    },
+    "note": "Lit. to life, said when raising a glass. Before a holiday, workplaces often hold a small toast called הרמת כוסית (lit. raising a glass)."
+  },
+  {
+    "id": "va2d_ikhpat_lekha",
+    "he": "אכפת לך?",
+    "tr": "ikhpát lekhá / lakh",
+    "en": "Do you mind?",
+    "enAlt": [
+      "would you mind",
+      "do you care"
+    ],
+    "alt": [
+      "אכפת לך"
+    ],
+    "pos": "phrase",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "אכפת לך לסגור את החלון? קצת קר לי.",
+      "en": "Would you mind closing the window? I'm a bit cold."
+    },
+    "note": "To a man lekhá, to a woman lakh (same spelling). לא אכפת לי = I don't mind / I don't care; אכפת לי = I care."
+  },
+  {
+    "id": "va2d_nitrae",
+    "he": "נתראה",
+    "tr": "nitra'é",
+    "en": "See you!",
+    "enAlt": [
+      "see you later",
+      "see you soon"
+    ],
+    "pos": "phrase",
+    "root": "ר.א.ה",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "יאללה, נתראה מחר בבוקר בתחנה.",
+      "en": "Okay, see you tomorrow morning at the station."
+    },
+    "note": "Lit. we'll see each other: the future of the verb להתראות, which is also the word for goodbye. נתראה בקרוב = see you soon."
+  },
+  {
+    "id": "va2d_beezrat_hashem",
+    "he": "בעזרת השם",
+    "tr": "be'ezrát hashém",
+    "en": "God willing",
+    "enAlt": [
+      "with God's help",
+      "hopefully"
+    ],
+    "alt": [
+      "בע״ה"
+    ],
+    "pos": "phrase",
+    "level": "A2",
+    "topic": "phrases-daily",
+    "ex": {
+      "he": "בעזרת השם, בשנה הבאה נקנה דירה.",
+      "en": "God willing, next year we'll buy an apartment."
+    },
+    "note": "Lit. with the help of the Name (God). Heard when people talk about plans, and not only from religious speakers; also written בע״ה. Similar: אם ירצה השם."
+  }
+]

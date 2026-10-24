@@ -1,0 +1,446 @@
+[
+  {
+    "id": "r_a1_my_day",
+    "level": "A1",
+    "title": "יום רגיל של מרינה",
+    "titleEn": "Marina's ordinary day",
+    "topic": "routine",
+    "kind": "story",
+    "paragraphs": [
+      {
+        "he": "מרינה גרה בחיפה. היא אחות בבית חולים גדול. כל יום היא קמה בשש בבוקר. היא שותה קפה ואוכלת לחם עם גבינה.",
+        "en": "Marina lives in Haifa. She is a nurse at a big hospital. Every day she gets up at six in the morning. She drinks coffee and eats bread with cheese."
+      },
+      {
+        "he": "בשבע היא הולכת לתחנה ונוסעת באוטובוס לבית החולים. העבודה קשה, אבל מעניינת. בצהריים היא אוכלת עם חברה מהעבודה. היא עובדת עד שלוש.",
+        "en": "At seven she walks to the bus stop and takes the bus to the hospital. The work is hard, but interesting. At lunchtime she eats with a friend from work. She works until three."
+      },
+      {
+        "he": "בארבע מרינה חוזרת הביתה. בערב היא ובעלה, עומר, מבשלים ביחד. הם אוכלים ארוחת ערב ומדברים על היום. אחר כך הם רואים טלוויזיה, ובעשר הם הולכים לישון.",
+        "en": "At four Marina comes back home. In the evening she and her husband, Omer, cook together. They eat dinner and talk about the day. After that they watch TV, and at ten they go to bed."
+      }
+    ],
+    "glossary": [
+      { "he": "אחות", "en": "nurse (also: sister)", "tr": "akhót" },
+      { "he": "בית חולים", "en": "hospital (literally 'house of the sick')", "tr": "beit kholím" },
+      { "he": "קמה", "en": "gets up (f.; infinitive לקום)", "tr": "káma" },
+      { "he": "שותה", "en": "drinks (f.; infinitive לשתות)", "tr": "shotá" },
+      { "he": "תחנה", "en": "(bus) stop, station", "tr": "takhaná" },
+      { "he": "נוסעת", "en": "travels, goes by bus or car (f.; infinitive לנסוע)", "tr": "nosá'at" },
+      { "he": "בצהריים", "en": "at noon, at lunchtime", "tr": "batsohoráyim" },
+      { "he": "עד", "en": "until", "tr": "ad" },
+      { "he": "חוזרת", "en": "comes back, returns (f.; infinitive לחזור)", "tr": "khozéret" },
+      { "he": "הביתה", "en": "home (with verbs of movement: חוזרת הביתה)", "tr": "habáyta" },
+      { "he": "בעלה", "en": "her husband (בעל + ־ה 'her')", "tr": "ba'alá" },
+      { "he": "מבשלים", "en": "cook (plural, also for a couple; infinitive לבשל)", "tr": "mevashlím" },
+      { "he": "ארוחת ערב", "en": "dinner, supper", "tr": "arukhát érev" },
+      { "he": "לישון", "en": "to sleep; הולכים לישון = go to bed", "tr": "lishón" }
+    ],
+    "questions": [
+      {
+        "q": "איפה מרינה עובדת?",
+        "qEn": "Where does Marina work?",
+        "answer": "היא עובדת בבית חולים בחיפה.",
+        "answerEn": "She works at a hospital in Haifa.",
+        "keywords": [["בית חולים", "בית החולים", "חולים"]]
+      },
+      {
+        "q": "איך מרינה נוסעת לעבודה?",
+        "qEn": "How does Marina get to work?",
+        "answer": "היא נוסעת באוטובוס.",
+        "answerEn": "She takes the bus.",
+        "keywords": [["אוטובוס"]]
+      },
+      {
+        "q": "מה מרינה ועומר עושים בערב?",
+        "qEn": "What do Marina and Omer do in the evening?",
+        "answer": "הם מבשלים ביחד, אוכלים ורואים טלוויזיה.",
+        "answerEn": "They cook together, eat and watch TV.",
+        "keywords": [
+          ["מבשלים", "מבשל", "מבשלת", "לבשל", "אוכלים", "ארוחת ערב"],
+          ["טלוויזיה", "רואים", "מדברים"]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "מרינה גרה בתל אביב.",
+        "sEn": "Marina lives in Tel Aviv.",
+        "a": false,
+        "why": "She lives in Haifa: מרינה גרה בחיפה."
+      },
+      {
+        "s": "מרינה קמה בשש בבוקר.",
+        "sEn": "Marina gets up at six in the morning.",
+        "a": true,
+        "why": "The text says: כל יום היא קמה בשש בבוקר."
+      },
+      {
+        "s": "מרינה חוזרת הביתה בשלוש.",
+        "sEn": "Marina comes back home at three.",
+        "a": false,
+        "why": "She works until three and comes back home at four (בארבע מרינה חוזרת הביתה)."
+      },
+      {
+        "s": "בערב מרינה ועומר מבשלים ביחד.",
+        "sEn": "In the evening Marina and Omer cook together.",
+        "a": true,
+        "why": "The text says: בערב היא ובעלה, עומר, מבשלים ביחד."
+      }
+    ],
+    "find": [
+      { "en": "she gets up", "answer": ["קמה"] },
+      { "en": "to the hospital", "answer": ["לבית החולים"] },
+      { "en": "(she) comes back home", "answer": ["חוזרת הביתה"] },
+      { "en": "(they) cook", "answer": ["מבשלים"] }
+    ],
+    "summary": [
+      {
+        "prompt": "מרינה ___ בבית חולים בחיפה.",
+        "en": "Marina works at a hospital in Haifa.",
+        "answer": ["עובדת"],
+        "hint": "works (f.)"
+      },
+      {
+        "prompt": "בבוקר היא ___ קפה ואוכלת לחם עם גבינה.",
+        "en": "In the morning she drinks coffee and eats bread with cheese.",
+        "answer": ["שותה"],
+        "hint": "drinks (f.)"
+      },
+      {
+        "prompt": "היא עובדת עד שלוש, ובארבע היא ___ הביתה.",
+        "en": "She works until three, and at four she comes back home.",
+        "answer": ["חוזרת", "מגיעה"],
+        "hint": "comes back (f.)"
+      },
+      {
+        "prompt": "בערב מרינה ובעלה ___ ביחד.",
+        "en": "In the evening Marina and her husband cook together.",
+        "answer": ["מבשלים"],
+        "hint": "cook (plural)"
+      },
+      {
+        "prompt": "בעשר הם הולכים ___.",
+        "en": "At ten they go to bed.",
+        "answer": ["לישון"],
+        "hint": "to sleep"
+      }
+    ],
+    "writing": {
+      "prompt": "ספרו על יום רגיל שלכם או של המשפחה שלכם: מתי אתם קמים, מה אתם אוכלים, ומתי אתם חוזרים הביתה?",
+      "promptEn": "Write about an ordinary day of yours or of your family: when do you get up, what do you eat, and when do you come back home?",
+      "minWords": 15,
+      "useWords": ["בבוקר", "בצהריים", "בערב", "חוזר/ת הביתה"],
+      "checklist": [
+        { "en": "Say when you get up", "keywords": ["קם", "קמה", "קמים", "בבוקר"] },
+        { "en": "Say what you eat or drink", "keywords": ["אוכל", "אוכלת", "אוכלים", "שותה", "שותים"] },
+        { "en": "Say when you come back home", "keywords": ["חוזר", "חוזרת", "חוזרים", "הביתה"] }
+      ],
+      "model": "אצלנו בבית כולם קמים בשש וחצי. אנחנו שותים קפה ואוכלים לחם עם חומוס. בשבע וחצי כולם יוצאים מהבית: לעבודה, לבית הספר ולגן. בצהריים יש לי הפסקה קצרה בעבודה. בחמש אנחנו חוזרים הביתה, ובערב אנחנו מבשלים ביחד ורואים סרט.",
+      "modelEn": "At our home everyone gets up at half past six. We drink coffee and eat bread with hummus. At half past seven everyone leaves the house: for work, for school and for kindergarten. At lunchtime I have a short break at work. At five we come back home, and in the evening we cook together and watch a film."
+    }
+  },
+  {
+    "id": "r_a1_apartment_rooms",
+    "level": "A1",
+    "title": "דירה להשכרה בבאר שבע",
+    "titleEn": "Apartment for rent in Be'er Sheva",
+    "topic": "home",
+    "kind": "ad",
+    "paragraphs": [
+      {
+        "he": "להשכרה: דירה יפה בבאר שבע, ליד האוניברסיטה",
+        "en": "For rent: a lovely apartment in Be'er Sheva, near the university"
+      },
+      {
+        "he": "בדירה יש שלושה חדרים: סלון גדול ושני חדרי שינה. יש גם מטבח חדש ומקלחת.",
+        "en": "The apartment has three rooms: a large living room and two bedrooms. There is also a new kitchen and a bathroom."
+      },
+      {
+        "he": "בסלון יש ספה, טלוויזיה ומזגן. בחדר שינה אחד יש מיטה גדולה וארון, והחדר השני ריק.",
+        "en": "In the living room there is a sofa, a TV and an air conditioner. In one bedroom there is a big bed and a wardrobe, and the second room is empty."
+      },
+      {
+        "he": "המרפסת של הדירה גדולה ושקטה. במרפסת יש שולחן ושני כיסאות.",
+        "en": "The apartment's balcony is big and quiet. On the balcony there is a table and two chairs."
+      },
+      {
+        "he": "הדירה בקומה 3. אין מעלית, אבל יש חנייה.",
+        "en": "The apartment is on the 3rd floor. There is no lift, but there is parking."
+      },
+      {
+        "he": "ליד הבניין יש סופר ובית קפה.",
+        "en": "Next to the building there is a supermarket and a café."
+      },
+      {
+        "he": "המחיר: 3,900 ש״ח לחודש.",
+        "en": "Price: NIS 3,900 a month."
+      },
+      {
+        "he": "לפרטים התקשרו לרנא, אחרי 17:00.",
+        "en": "For details, call Rana after 5 p.m."
+      }
+    ],
+    "glossary": [
+      { "he": "להשכרה", "en": "for rent", "tr": "lehaskará" },
+      { "he": "חדרי שינה", "en": "bedrooms (singular חדר שינה). In Israel the living room counts as a room: 3 rooms = living room + 2 bedrooms", "tr": "khadréi shená" },
+      { "he": "סלון", "en": "living room", "tr": "salón" },
+      { "he": "מקלחת", "en": "shower; the bathroom with the shower", "tr": "miklákhat" },
+      { "he": "מזגן", "en": "air conditioner", "tr": "mazgán" },
+      { "he": "ארון", "en": "wardrobe, cupboard", "tr": "arón" },
+      { "he": "ריק", "en": "empty (m.; f. ריקה)", "tr": "reik" },
+      { "he": "מרפסת", "en": "balcony", "tr": "mirpéset" },
+      { "he": "כיסאות", "en": "chairs (singular כיסא)", "tr": "kis'ót" },
+      { "he": "קומה", "en": "floor, storey", "tr": "komá" },
+      { "he": "מעלית", "en": "lift, elevator", "tr": "ma'alít" },
+      { "he": "חנייה", "en": "parking (space)", "tr": "khaniyá" },
+      { "he": "לפרטים", "en": "for details, for more information", "tr": "lifratím" },
+      { "he": "התקשרו", "en": "call! (plural imperative; infinitive להתקשר ל־)", "tr": "hitkasherú" }
+    ],
+    "questions": [
+      {
+        "q": "כמה חדרים יש בדירה?",
+        "qEn": "How many rooms does the apartment have?",
+        "answer": "בדירה יש שלושה חדרים.",
+        "answerEn": "The apartment has three rooms.",
+        "keywords": [["שלושה", "שלוש", "3"]]
+      },
+      {
+        "q": "מה אין בבניין?",
+        "qEn": "What doesn't the building have?",
+        "answer": "אין מעלית.",
+        "answerEn": "There is no lift.",
+        "keywords": [["מעלית"]]
+      },
+      {
+        "q": "כמה עולה הדירה?",
+        "qEn": "How much does the apartment cost?",
+        "answer": "הדירה עולה 3,900 ש״ח לחודש.",
+        "answerEn": "The apartment costs NIS 3,900 a month.",
+        "keywords": [["3,900", "3900", "שלושת אלפים ותשע מאות"]]
+      }
+    ],
+    "tf": [
+      {
+        "s": "בדירה יש שני חדרי שינה.",
+        "sEn": "The apartment has two bedrooms.",
+        "a": true,
+        "why": "The text says: סלון גדול ושני חדרי שינה."
+      },
+      {
+        "s": "בבניין יש מעלית.",
+        "sEn": "There is a lift in the building.",
+        "a": false,
+        "why": "The ad says there is no lift (אין מעלית), but there is parking."
+      },
+      {
+        "s": "המרפסת של הדירה קטנה.",
+        "sEn": "The apartment's balcony is small.",
+        "a": false,
+        "why": "The balcony is big and quiet: המרפסת של הדירה גדולה ושקטה."
+      },
+      {
+        "s": "ליד הבניין יש סופר.",
+        "sEn": "There is a supermarket next to the building.",
+        "a": true,
+        "why": "The text says: ליד הבניין יש סופר ובית קפה."
+      }
+    ],
+    "find": [
+      { "en": "for rent", "answer": ["להשכרה"] },
+      { "en": "near the university", "answer": ["ליד האוניברסיטה"] },
+      { "en": "the balcony of the apartment", "answer": ["המרפסת של הדירה"] },
+      { "en": "there is no lift", "answer": ["אין מעלית"] }
+    ],
+    "summary": [
+      {
+        "prompt": "זאת דירה להשכרה בבאר שבע, ליד ___.",
+        "en": "This is an apartment for rent in Be'er Sheva, near the university.",
+        "answer": ["האוניברסיטה"],
+        "hint": "the university"
+      },
+      {
+        "prompt": "בדירה יש ___ חדרים: סלון ושני חדרי שינה.",
+        "en": "The apartment has three rooms: a living room and two bedrooms.",
+        "answer": ["שלושה"],
+        "hint": "a number, written in Hebrew letters"
+      },
+      {
+        "prompt": "המרפסת של הדירה ___ ושקטה.",
+        "en": "The apartment's balcony is big and quiet.",
+        "answer": ["גדולה"],
+        "hint": "big (f.)"
+      },
+      {
+        "prompt": "בבניין ___ מעלית, אבל יש חנייה.",
+        "en": "There is no lift in the building, but there is parking.",
+        "answer": ["אין"]
+      },
+      {
+        "prompt": "המחיר הוא 3,900 ש״ח ___.",
+        "en": "The price is NIS 3,900 a month.",
+        "answer": ["לחודש", "בחודש"],
+        "hint": "a month"
+      }
+    ],
+    "writing": {
+      "prompt": "כתבו מודעה קצרה: דירה להשכרה. כמה חדרים יש בדירה? מה יש בכל חדר? ומה אין?",
+      "promptEn": "Write a short ad: an apartment for rent. How many rooms does it have? What is there in each room? And what isn't there?",
+      "minWords": 15,
+      "useWords": ["יש", "אין", "חדרים", "של הדירה"],
+      "checklist": [
+        { "en": "Say how many rooms there are", "keywords": ["חדרים", "חדר"] },
+        { "en": "Say what is missing with אין", "keywords": ["אין"] },
+        { "en": "Give the price", "keywords": ["ש״ח", "שקל", "שקלים", "מחיר"] }
+      ],
+      "model": "להשכרה: דירה קטנה ונעימה בחיפה. בדירה יש שני חדרים: סלון וחדר שינה. בסלון יש ספה וטלוויזיה, ובחדר השינה יש מיטה וארון. המטבח של הדירה קטן, אבל חדש. אין מרפסת, אבל יש חנייה. המחיר: 3,800 ש״ח לחודש.",
+      "modelEn": "For rent: a small, pleasant apartment in Haifa. The apartment has two rooms: a living room and a bedroom. In the living room there is a sofa and a TV, and in the bedroom there is a bed and a wardrobe. The apartment's kitchen is small, but new. There is no balcony, but there is parking. Price: NIS 3,800 a month."
+    }
+  },
+  {
+    "id": "r_a1_way_to_ulpan",
+    "level": "A1",
+    "title": "איך מגיעים לאולפן?",
+    "titleEn": "How do you get to the ulpan?",
+    "topic": "directions",
+    "kind": "email",
+    "paragraphs": [
+      {
+        "he": "שלום ג׳יימס, ברוך הבא לאולפן רעות! השיעור הראשון ביום ראשון בשמונה וחצי. הנה הדרך מהתחנה המרכזית לאולפן.",
+        "en": "Hello James, welcome to Ulpan Re'ut! The first lesson is on Sunday at half past eight. Here is the way from the central bus station to the ulpan."
+      },
+      {
+        "he": "אתה יוצא מהתחנה לרחוב הגפן ופונה ימינה. אתה הולך ישר עד הרמזור. זה חמש דקות ברגל.",
+        "en": "You come out of the station onto HaGefen Street and turn right. You walk straight on to the traffic light. It's five minutes on foot."
+      },
+      {
+        "he": "ברמזור אתה פונה שמאלה, לרחוב הדקל. האולפן ברחוב הדקל 14, ליד הבנק ומול הפארק. הכיתה שלך בקומה הראשונה.",
+        "en": "At the traffic light you turn left, onto HaDekel Street. The ulpan is at 14 HaDekel Street, next to the bank and opposite the park. Your classroom is on the first floor."
+      },
+      {
+        "he": "אפשר גם לנסוע באוטובוס, קו 12. הוא עוצר בתחנה מול האולפן.",
+        "en": "You can also take the bus, line 12. It stops at the stop opposite the ulpan."
+      },
+      {
+        "he": "יש שאלות? אני במשרד כל יום משמונה עד ארבע. בהצלחה! טיגיסט, המזכירה של האולפן",
+        "en": "Any questions? I'm in the office every day from eight to four. Good luck! Tigist, the ulpan secretary"
+      }
+    ],
+    "glossary": [
+      { "he": "ברוך הבא", "en": "welcome (to a man; to a woman: ברוכה הבאה)", "tr": "barúkh habá" },
+      { "he": "התחנה המרכזית", "en": "the central bus station", "tr": "hatakhaná hamerkazít" },
+      { "he": "יוצא", "en": "go(es) out, come(s) out (m.; infinitive לצאת)", "tr": "yotsé" },
+      { "he": "פונה", "en": "turn(s) (m.; infinitive לפנות)", "tr": "poné" },
+      { "he": "ימינה", "en": "to the right", "tr": "yamína" },
+      { "he": "שמאלה", "en": "to the left", "tr": "smóla" },
+      { "he": "ישר", "en": "straight (ahead)", "tr": "yashár" },
+      { "he": "רמזור", "en": "traffic light", "tr": "ramzór" },
+      { "he": "ברגל", "en": "on foot", "tr": "barégel" },
+      { "he": "ליד", "en": "next to, near", "tr": "leyád" },
+      { "he": "מול", "en": "opposite, facing", "tr": "mul" },
+      { "he": "קו", "en": "(bus) line, route", "tr": "kav" },
+      { "he": "עוצר", "en": "stop(s) (m.; infinitive לעצור)", "tr": "otsér" },
+      { "he": "מזכירה", "en": "secretary (f.; m. מזכיר)", "tr": "mazkirá" }
+    ],
+    "questions": [
+      {
+        "q": "מתי השיעור הראשון?",
+        "qEn": "When is the first lesson?",
+        "answer": "ביום ראשון בשמונה וחצי.",
+        "answerEn": "On Sunday at half past eight.",
+        "keywords": [["יום ראשון", "ראשון"], ["שמונה", "8"]]
+      },
+      {
+        "q": "לאן ג׳יימס פונה ברמזור?",
+        "qEn": "Which way does James turn at the traffic light?",
+        "answer": "הוא פונה שמאלה, לרחוב הדקל.",
+        "answerEn": "He turns left, onto HaDekel Street.",
+        "keywords": [["שמאלה", "שמאל"]]
+      },
+      {
+        "q": "מה יש ליד האולפן?",
+        "qEn": "What is next to the ulpan?",
+        "answer": "ליד האולפן יש בנק.",
+        "answerEn": "There is a bank next to the ulpan.",
+        "keywords": [["בנק"]]
+      }
+    ],
+    "tf": [
+      {
+        "s": "השיעור הראשון ביום שני.",
+        "sEn": "The first lesson is on Monday.",
+        "a": false,
+        "why": "The first lesson is on Sunday: ביום ראשון בשמונה וחצי."
+      },
+      {
+        "s": "ברחוב הגפן ג׳יימס פונה ימינה.",
+        "sEn": "On HaGefen Street James turns right.",
+        "a": true,
+        "why": "The text says: אתה יוצא מהתחנה לרחוב הגפן ופונה ימינה."
+      },
+      {
+        "s": "ג׳יימס הולך ישר עשר דקות.",
+        "sEn": "James walks straight on for ten minutes.",
+        "a": false,
+        "why": "It's five minutes on foot to the traffic light: זה חמש דקות ברגל."
+      },
+      {
+        "s": "האולפן מול הפארק.",
+        "sEn": "The ulpan is opposite the park.",
+        "a": true,
+        "why": "The text says the ulpan is next to the bank and opposite the park (ליד הבנק ומול הפארק)."
+      }
+    ],
+    "find": [
+      { "en": "from the station", "answer": ["מהתחנה"] },
+      { "en": "to the right", "answer": ["ימינה"] },
+      { "en": "at the traffic light", "answer": ["ברמזור"] },
+      { "en": "opposite the park", "answer": ["מול הפארק"] }
+    ],
+    "summary": [
+      {
+        "prompt": "ג׳יימס יוצא ___ לרחוב הגפן.",
+        "en": "James comes out of the station onto HaGefen Street.",
+        "answer": ["מהתחנה", "מהתחנה המרכזית"],
+        "hint": "from the station"
+      },
+      {
+        "prompt": "ברחוב הגפן הוא פונה ___ והולך ישר עד הרמזור.",
+        "en": "On HaGefen Street he turns right and walks straight on to the traffic light.",
+        "answer": ["ימינה"],
+        "hint": "to the right"
+      },
+      {
+        "prompt": "ברמזור הוא פונה ___, לרחוב הדקל.",
+        "en": "At the traffic light he turns left, onto HaDekel Street.",
+        "answer": ["שמאלה"],
+        "hint": "to the left"
+      },
+      {
+        "prompt": "האולפן ___ הבנק ומול הפארק.",
+        "en": "The ulpan is next to the bank and opposite the park.",
+        "answer": ["ליד", "על יד"],
+        "hint": "next to"
+      },
+      {
+        "prompt": "אפשר גם לנסוע לאולפן ___, קו 12.",
+        "en": "You can also go to the ulpan by bus, line 12.",
+        "answer": ["באוטובוס"],
+        "hint": "by bus"
+      }
+    ],
+    "writing": {
+      "prompt": "כתבו הודעה לחבר או לחברה: איך מגיעים מהתחנה לבית שלכם?",
+      "promptEn": "Write a message to a friend: how do you get from the bus stop or station to your home?",
+      "minWords": 15,
+      "useWords": ["ימינה", "שמאלה", "ישר", "ליד", "מול"],
+      "checklist": [
+        { "en": "Say where to start (a station or a stop)", "keywords": ["תחנה", "מהתחנה", "בתחנה"] },
+        { "en": "Give directions with ימינה, שמאלה or ישר", "keywords": ["ימינה", "שמאלה", "ישר"] },
+        { "en": "Describe the place with ליד or מול", "keywords": ["ליד", "מול"] }
+      ],
+      "model": "היי! ככה מגיעים לבית שלי: יורדים מהאוטובוס בתחנה ליד הסופר. מהתחנה הולכים ישר עד הרמזור, ושם פונים שמאלה, לרחוב הזית. הבניין שלי מספר 7, מול בית הספר. הדירה בקומה השנייה. נתראה!",
+      "modelEn": "Hi! This is how you get to my place: you get off the bus at the stop next to the supermarket. From the stop you walk straight on to the traffic light, and there you turn left, onto HaZayit Street. My building is number 7, opposite the school. The apartment is on the second floor. See you!"
+    }
+  }
+]

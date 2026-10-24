@@ -1,0 +1,473 @@
+[
+  {
+    "id": "g_c1_idioms_register",
+    "level": "C1",
+    "title": "Idioms, slang and nuance",
+    "titleHe": "ניבים, סלנג ודקויות",
+    "summary": "What לשבור את הראש, על הפנים and חבל על הזמן really mean, how to move between colloquial and formal Hebrew, and how Israelis use irony and understatement.",
+    "sections": [
+      {
+        "h": "Idioms: the words say one thing, the meaning another",
+        "body": "An idiom (ניב, niv) is a fixed phrase whose meaning you can't work out from its words. Most everyday Hebrew idioms are neutral to colloquial: fine at work and with friends, too casual for a formal report. The verb inside an idiom conjugates normally; the rest stays frozen.\n\n• לשבור את הראש על — to rack your brains over something (lit. 'to break the head'). שברתי את הראש על החידה הזאת כל הערב (shavárti et ha-rósh al ha-khidá ha-zót kol ha-érev) — I racked my brains over this riddle all evening. As a negative command it means 'don't overthink it': אל תשבור את הראש, תבחר את הכחול (al tishbór et ha-rósh, tivkhár et ha-kakhól) — don't overthink it, pick the blue one.\n• לסגור פינה — to tie up a loose end, to settle a small outstanding matter (lit. 'to close a corner'). Typical office Hebrew: רק נסגור פינה אחת עם הספק ונתחיל (rak nisgór piná akhát im ha-sapák ve-natkhíl) — we'll just tie up one loose end with the supplier and then start. Don't confuse it with לעגל פינות (lit. 'to round corners'), which means 'to cut corners'.\n• לקחת ללב — to take to heart. Usually 'to be hurt by': אל תיקח ללב, הוא אמר את זה בצחוק (al tikákh la-lév, hu amár et ze bi-tskhók) — don't take it personally, he said it as a joke. With advice or criticism as its object it can also mean 'to take seriously': לקחתי ללב את ההערות שלך (lakákhti la-lév et ha-he'arót shelkhá) — I took your comments to heart.\n\nNotice the grammar: לשבור את הראש takes על for the problem; לקחת ללב takes את for the thing that hurt or impressed you."
+      },
+      {
+        "h": "Slang with two faces: על הפנים, חבל על הזמן, על הכיפאק",
+        "body": "These three expressions are pure slang: perfect with friends, with colleagues you're close to and on WhatsApp; out of place in an email to a client or in any written report. None of them changes for gender or number — they behave like invariable adjectives.\n\n• על הפנים (al ha-paním) — awful, lousy (lit. 'on the face'). השירות במסעדה היה על הפנים (ha-sherút ba-mis'adá hayá al ha-paním) — the service at the restaurant was awful. About yourself: אני מרגישה על הפנים — I feel awful.\n• חבל על הזמן (khavál al ha-zmán) — lit. 'a pity about the time'. It has two opposite meanings, and only context and intonation tell them apart:\n  – negative, 'a waste of time, don't bother': אל תלכו לסרט הזה, חבל על הזמן — don't go to that film, it's a waste of time. Also 'let's not waste time': חבל על הזמן, בואו נתחיל — no point waiting, let's start.\n  – positive, 'amazing, out of this world', said with enthusiasm: הקינוח שם חבל על הזמן! — the dessert there is unbelievable!\n• על הכיפאק (al ha-kéfak) — excellent, just great; built on the Arabic-origin word כיף (fun). The spelling varies (also על הכיפק). — איך היה בחתונה? — על הכיפאק! (How was the wedding? — Fantastic!)\n\nA quick test for חבל על הזמן: if the speaker sounds excited and is recommending something, it's praise; if they are warning you off or hurrying you up, it's negative."
+      },
+      {
+        "h": "One idea, three registers",
+        "body": "Choosing the right register (משלב, mishláv) matters as much as choosing the right word. A typical advanced-learner mistake is mixing levels: slang in a formal email, or a stiff written word in a casual chat. The table shows the same idea in colloquial, neutral and formal Hebrew.\n\n• Colloquial markers: סבבה (sabába, fine, OK), אחלה (ákhla, great), יאללה (yálla, come on, let's go), וואלה (wálla, really?, honestly), נורא as 'very' (נורא נחמד — really nice, although נורא literally means 'terrible'), and the filler כאילו ('like').\n• Formal markers: ברצוני (I would like), הנני (I hereby, in official letters: הנני לאשר — I hereby confirm), אין מניעה (there is no objection), באשר ל (as for), כעת (now), אך (but), and noun phrases where speech uses verbs: ההחלטה התקבלה (the decision was taken) instead of החליטו (they decided).\n• Most idioms have a neutral paraphrase you can use in writing: instead of שברנו את הראש, a report says בחנו את הנושא לעומק (we examined the matter in depth).",
+        "table": [
+          ["Colloquial", "Neutral", "Formal / written", "Meaning"],
+          ["על הפנים", "גרוע מאוד", "ירוד ביותר", "very bad, awful"],
+          ["על הכיפאק / אחלה", "מצוין", "יוצא מן הכלל", "excellent"],
+          ["חבל על הזמן (negative)", "לא שווה את הזמן", "אין בכך טעם", "not worth it, pointless"],
+          ["לשבור את הראש", "לחשוב הרבה", "לבחון לעומק", "to think hard about something"],
+          ["לסגור פינה", "לסיים עניין", "להסדיר את הנושא", "to settle a matter"],
+          ["לקחת ללב", "להיעלב", "להיפגע", "to be hurt, offended"],
+          ["סבבה", "בסדר", "אין מניעה", "fine, no objection"],
+          ["יאללה, מתחילים", "בואו נתחיל", "נפתח את הישיבה", "let's start (a meeting)"]
+        ]
+      },
+      {
+        "h": "Understatement and irony",
+        "body": "Israeli conversation is famously direct, yet a lot of meaning is carried by understatement and irony. Taking these phrases literally is a classic misunderstanding.\n\nUnderstatement — saying less than you mean:\n• לא רע (lo ra) — 'not bad', often meaning 'quite good': המשכורת שם לא רעה בכלל — the salary there is pretty good.\n• לא משהו (lo máshehu) — 'not anything much', i.e. poor: האוכל היה לא משהו — the food was nothing special (= rather bad).\n• יש מה לשפר (yesh ma leshapér) — 'there's room for improvement', the polite way to say that something is weak.\n• לא הכי (lo ha-khí) — 'not the most…', a soft no: מחר לא הכי נוח לי — tomorrow isn't great for me (= please choose another day).\n• לא נורא (lo norá) — 'not terrible', i.e. never mind, no big deal: — שכחתי את המטען. — לא נורא, יש לי אחד. (— I forgot my charger. — Never mind, I've got one.)\n• In formal settings: יש לנו כמה הסתייגויות (we have a few reservations) can signal serious disagreement, and ההצעה מעניינת, אך… (the proposal is interesting, but…) usually announces a no.\n\nIrony — saying the opposite of what you mean, recognisable by tone and context:\n• יופי, בדיוק מה שחסר לי (yófi, bediyúk ma she-khasér li) — Great, that's all I needed (said when something goes wrong).\n• ממש תודה (mamásh todá) — thanks a lot (= thanks for nothing), when someone has just made things harder.\n• איזה כיף (éize kef) — what fun, said about a two-hour traffic jam.\n\nRule of thumb: the more enthusiastic the words and the flatter the voice, the more likely it is irony."
+      },
+      {
+        "h": "Idioms in sentences: conjugation and agreement",
+        "body": "Only the verb of an idiom changes; keep the frozen part exactly as it is (את הראש, ללב, פינה).\n\n• Past: היא לקחה ללב את הביקורת (hi lakkhá la-lév et ha-bikóret) — she took the criticism to heart.\n• Present: אנחנו שוברים את הראש על התקציב כבר שבועיים (anákhnu shovrím et ha-rósh al ha-taktsív kvar shvu'áyim) — we've been racking our brains over the budget for two weeks.\n• Future: נסגור את הפינה הזאת מחר (nisgór et ha-piná ha-zót makhár) — we'll tie up this loose end tomorrow.\n• Negative command, אל + future: אל תיקח / אל תיקחי ללב (don't take it to heart), אל תשבור את הראש (don't overthink it).\n\nThe slang adjectives על הפנים, על הכיפאק and חבל על הזמן never agree with anything: היום היה על הפנים, הישיבה הייתה על הפנים, הימים האחרונים היו על הפנים — only the verb להיות changes."
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "אל תיקח את זה ___, הוא סתם היה עייף. (to heart)",
+        "en": "Don't take it to heart, he was just tired.",
+        "answer": ["ללב"],
+        "hint": "לקחת + 'to the heart'",
+        "explain": "The idiom is לקחת ללב — to take to heart, to be hurt by something. ללב (la-lév) = ל + ה + לב."
+      },
+      {
+        "prompt": "שברתי את ___ על החידה הזאת שעה שלמה. (lit. 'the head')",
+        "en": "I racked my brains over this riddle for a whole hour.",
+        "answer": ["הראש"],
+        "hint": "the noun is always definite",
+        "explain": "לשבור את הראש על… = to rack your brains over something. The noun part is frozen and definite: את הראש."
+      },
+      {
+        "prompt": "רגע לפני שנעבור לנושא הבא, בואו נסגור את ___ הזאת. (lit. 'the corner')",
+        "en": "Just before we move on to the next topic, let's tie up this loose end.",
+        "answer": ["הפינה"],
+        "hint": "לסגור ___ = to tie up a loose end",
+        "explain": "לסגור פינה (lit. 'to close a corner') means to settle a small outstanding matter. With הזאת the noun must be definite: הפינה הזאת."
+      },
+      {
+        "prompt": "השירות במלון היה ___ — חיכינו שעה לחדר. (slang: awful, lit. 'on the face')",
+        "en": "The service at the hotel was awful — we waited an hour for the room.",
+        "answer": ["על הפנים"],
+        "hint": "two words, slang",
+        "explain": "על הפנים (al ha-paním) is slang for 'awful, lousy'. Fine with friends, but never in a written complaint."
+      },
+      {
+        "prompt": "אל תלכו לסרט הזה, ___ — הוא ארוך ומשעמם. (a waste of time — three words)",
+        "en": "Don't go to that film, it's a waste of time — it's long and boring.",
+        "answer": ["חבל על הזמן"],
+        "hint": "here with its negative meaning: 'don't bother'",
+        "explain": "Here חבל על הזמן warns you off: 'not worth your time'. The same phrase, said with enthusiasm, means 'amazing'."
+      },
+      {
+        "prompt": "— איך הייתה החתונה? — ___! רקדנו עד שלוש בלילה. (slang: fantastic, built on כיף)",
+        "en": "— How was the wedding? — Fantastic! We danced until three in the morning.",
+        "answer": ["על הכיפאק", "על הכיפק"],
+        "hint": "two words, from the Arabic-origin word כיף",
+        "explain": "על הכיפאק (al ha-kéfak) is slang for 'excellent'. Its spelling varies, so על הכיפק is accepted too."
+      },
+      {
+        "prompt": "דנה ___ ללב את ההערה של המנהל ולא דיברה עם אף אחד כל הבוקר. (לקחת, past)",
+        "en": "Dana took the manager's remark to heart and didn't talk to anyone all morning.",
+        "answer": ["לקחה"],
+        "hint": "past, היא",
+        "explain": "Only the verb of an idiom conjugates: היא לקחה ללב (lakkhá la-lév)."
+      },
+      {
+        "prompt": "אנחנו ___ את הראש על התקציב כבר שבועיים. (לשבור, present, a mixed team)",
+        "en": "We've been racking our brains over the budget for two weeks already.",
+        "answer": ["שוברים"],
+        "hint": "present, masculine plural",
+        "explain": "A mixed group takes the masculine plural: אנחנו שוברים (shovrím) את הראש. Hebrew uses the present + כבר + a time span where English says 'have been …ing'."
+      },
+      {
+        "prompt": "רינה, אל ___ ללב, כולם טועים לפעמים. (לקחת, negative command)",
+        "en": "Rina, don't take it to heart, everyone makes mistakes sometimes.",
+        "answer": ["תיקחי", "תקחי"],
+        "hint": "אל + future, את",
+        "explain": "A negative command is אל + future. The future of לקחת loses its ל: תיקחי (tikkhí) for את, תיקח for אתה."
+      },
+      {
+        "prompt": "אל ___ את הראש, פשוט תבחר את הכחול. (לשבור, negative command)",
+        "en": "Don't overthink it, just pick the blue one.",
+        "answer": ["תשבור"],
+        "hint": "אל + future, אתה",
+        "explain": "In the negative, לשבור את הראש means 'don't overthink it'. The command is אל + future: אל תשבור (al tishbór)."
+      },
+      {
+        "prompt": "בדוח הרשמי כתבו שאיכות השירות הייתה ___ ביותר. (formal for על הפנים, root י.ר.ד)",
+        "en": "The official report said that the quality of the service was extremely poor.",
+        "answer": ["ירודה"],
+        "hint": "feminine adjective, agrees with איכות",
+        "explain": "A report can't say על הפנים. The formal equivalent is ירוד, here feminine because איכות is feminine: ירודה ביותר (yerudá be-yotér)."
+      },
+      {
+        "prompt": "___ להודות לכל המשתתפים על שיתוף הפעולה. (formal: 'I would like' — one word)",
+        "en": "I would like to thank all the participants for their cooperation.",
+        "answer": ["ברצוני"],
+        "hint": "ב + רצון + the ending for 'my'",
+        "explain": "ברצוני (birtsoní, lit. 'it is my wish') is the formal 'I would like', used in speeches and letters; in conversation you'd say אני רוצה."
+      },
+      {
+        "prompt": "— איך הייתה ההרצאה? — לא ___. בקושי הצלחתי להישאר ער. (understatement: 'nothing special')",
+        "en": "— How was the lecture? — Nothing special. I could barely stay awake.",
+        "answer": ["משהו"],
+        "hint": "lit. 'not something'",
+        "explain": "לא משהו (lo máshehu) is understatement for 'poor, disappointing'; the second sentence confirms the negative meaning."
+      },
+      {
+        "prompt": "המצגת שלך טובה, אבל יש מה ___. (polite: 'there's room for improvement')",
+        "en": "Your presentation is good, but there's room for improvement.",
+        "answer": ["לשפר"],
+        "hint": "infinitive of 'to improve' (pi'el)",
+        "explain": "יש מה לשפר (yesh ma leshapér) is the soft way of saying that something is weak."
+      },
+      {
+        "prompt": "יום רביעי לא ___ נוח לי, אולי חמישי? (polite understatement: 'not the most')",
+        "en": "Wednesday isn't really convenient for me — maybe Thursday?",
+        "answer": ["הכי"],
+        "hint": "the word that makes a superlative",
+        "explain": "לא הכי + adjective ('not the most…') is a soft refusal: Wednesday doesn't work, and the speaker suggests another day."
+      },
+      {
+        "prompt": "נתקעתי בפקק שעתיים. ___, בדיוק מה שחסר לי היום. (ironic 'great' — one word)",
+        "en": "I got stuck in a traffic jam for two hours. Great, that's all I needed today.",
+        "answer": ["יופי"],
+        "hint": "lit. 'beauty'",
+        "explain": "יופי ('great') followed by בדיוק מה שחסר לי is ironic: the speaker means the opposite."
+      }
+    ]
+  },
+  {
+    "id": "g_c1_argument",
+    "level": "C1",
+    "title": "Building an argument",
+    "titleHe": "בניית טיעון",
+    "summary": "Order your points, concede and rebut with אמנם… אך, contrast with מנגד and לעומת זאת, conclude with לפיכך and אם כן, and choose between hedged and assertive claims.",
+    "sections": [
+      {
+        "h": "Ordering your points",
+        "body": "A written argument — an essay, a position paper, a long email to management — is easier to follow when every paragraph announces its role. Formal Hebrew uses adverbs built on the ordinal numbers:\n• ראשית (reshít) — first(ly); שנית (shenít) — second(ly); שלישית (shlishít) — third(ly). They open the sentence and are followed by a comma.\n• בנוסף / נוסף על כך (nosáf al kakh) — in addition: adds a point of equal weight.\n• יתרה מזאת (yeterá mi-zót), also יתרה מזו — moreover, what's more: adds a stronger point that raises the stakes.\n• זאת ועוד (zot ve-ód) — moreover; formal, typical of journalism.\n• לבסוף (le-vasóf) — finally, for the last point.\n\nExample: ראשית, התחבורה הציבורית זולה יותר. שנית, היא חוסכת את החיפוש אחר חניה. יתרה מזאת, היא מפחיתה את זיהום האוויר בעיר. (First, public transport is cheaper. Second, it spares you the hunt for parking. Moreover, it reduces air pollution in the city.)\n\nIn speech the same structure sounds lighter: קודם כל… דבר שני… וחוץ מזה… ('first of all… second… and besides…'). Using ראשית in a casual conversation makes you sound as if you're giving a lecture."
+      },
+      {
+        "h": "Concession and rebuttal: אמנם… אך",
+        "body": "A strong argument first admits what is true in the other side's position and then shows why it doesn't settle the matter. The basic tool is אמנם… אך / אולם ('admittedly… but', 'it's true that… however'):\n\nאמנם העבודה מהבית חוסכת זמן נסיעה, אך היא מקשה על עבודת צוות.\n(ománam ha-avodá me-ha-báyit khoséket zman nesi'á, akh hi makshá al avodát tsevét)\nAdmittedly, working from home saves commuting time, but it makes teamwork harder.\n\n• אמנם can open the sentence or follow the subject: העבודה מהבית אמנם חוסכת זמן, אך… Without the 'but' half it sounds unfinished.\n• Other ways to concede: נכון ש… אבל (neutral), אין ספק ש… עם זאת (there's no doubt that… nevertheless), גם אם נקבל את הטענה ש…, עדיין… (even if we accept the claim that…, still…).\n• To introduce the other side: יש הטוענים כי… (some claim that…), תומכי התוכנית טוענים ש… (the plan's supporters argue that…).\n• To rebut: אולם טענה זו אינה עומדת במבחן המציאות (but this claim doesn't stand up to reality), אין בכך כדי להצדיק את ההוצאה (that is not enough to justify the expense), הנתונים מציגים תמונה אחרת (the figures paint a different picture).\n• Don't confuse אמנם (admittedly) with אכן (akhén, indeed), which confirms: התוצאות אכן השתפרו (the results did indeed improve)."
+      },
+      {
+        "h": "Contrast: מנגד, לעומת זאת, עם זאת",
+        "body": "Three connectors that learners often mix up:\n• מנגד (minéged) — on the other hand: introduces the opposing consideration when you weigh the pros and cons of one thing. למערכת החדשה יתרונות רבים. מנגד, הטמעתה תדרוש זמן והשקעה. (The new system has many advantages. On the other hand, implementing it will take time and investment.)\n• לעומת זאת (le-umát zot) — by contrast, whereas: sets two different subjects side by side. בסניף בחיפה המכירות עלו; בסניף בירושלים, לעומת זאת, הן ירדו. (At the Haifa branch sales went up; at the Jerusalem branch, by contrast, they fell.)\n• עם זאת (im zot) — nevertheless, that said: keeps your point but adds a reservation about the same subject. התוכנית יקרה. עם זאת, היא משתלמת בטווח הארוך. (The plan is expensive. That said, it pays off in the long run.)\n\nThe test: two different things compared → לעומת זאת; one thing, argument and counter-argument → מנגד; one claim softened → עם זאת."
+      },
+      {
+        "h": "Drawing conclusions: לפיכך, אם כן, לסיכום",
+        "body": "• לפיכך (lefikhákh) — therefore, hence; the formal לכן. Also על כן (al ken) and מכאן ש (mi-kán she-, 'it follows that').\n• אם כן (im ken) — so, then, thus: draws the conclusion from what has already been said. It often sits inside the sentence: המסקנה, אם כן, ברורה (the conclusion, then, is clear). Careful: in reply to a yes/no question, אם כן means 'if so': אתה פנוי מחר? אם כן, בוא לישיבה. (Are you free tomorrow? If so, come to the meeting.)\n• לסיכום (le-sikúm) — in conclusion, to sum up; also בסיכומו של דבר (all things considered).\n• To state your final position: לאור כל האמור לעיל… (in light of all the above…), אני סבור / סבורה כי… (I am of the opinion that…), יש לאמץ את ההצעה (the proposal should be adopted).\n\nA model closing paragraph: לסיכום, אמנם המעבר לשבוע עבודה של ארבעה ימים כרוך בקשיים, אך היתרונות עולים על החסרונות. לפיכך, אני ממליצה לנסות אותו בשתי מחלקות במשך חצי שנה. (In conclusion, although the move to a four-day working week involves difficulties, the advantages outweigh the disadvantages. I therefore recommend trying it in two departments for six months.)"
+      },
+      {
+        "h": "Rhetorical questions",
+        "body": "A rhetorical question expects no answer: it makes the reader supply the obvious one. It is common in op-eds, speeches and persuasive writing, and rare in neutral reports.\n• האם לא הגיע הזמן ל…? (ha'ím lo higí'a ha-zmán le-) — isn't it time to…?: האם לא הגיע הזמן לעדכן את התקנון? (Isn't it time to update the regulations?)\n• מי מאיתנו לא…? (mi me-itánu lo) — who among us hasn't…?: מי מאיתנו לא איחר לפחות פעם אחת לפגישה? (Who among us hasn't been late for a meeting at least once?)\n• מה הטעם ב…? (ma ha-tá'am be-) — what's the point of…?: מה הטעם בישיבה שבה אף אחד לא מקבל החלטות? (What's the point of a meeting where nobody makes decisions?)\n• וכי (ve-khí) — formal and slightly literary, opens an incredulous question: וכי מישהו באמת מאמין שהבעיה תיפתר מעצמה? (Does anyone really believe the problem will solve itself?)\n• הרי (haréi) and הלוא (haló) — 'after all, surely', appeal to what everyone knows: הרי כולנו רוצים אותו דבר. (After all, we all want the same thing.)\n• האם אמנם…? — 'is it really so that…?', casts doubt on a claim: האם אמנם המחירים ירדו? (Have prices really fallen?)"
+      },
+      {
+        "h": "Hedged and assertive claims",
+        "body": "Academic and professional Hebrew distinguishes carefully between what you know and what you think is likely. Overstating a claim makes it easy to attack; hedging everything makes you sound unsure. Match the strength of the wording to the strength of your evidence.\n\n• עשוי vs. עלול — both mean 'may, is likely to', but עשוי (asúy) is used for a desirable or neutral outcome and עלול (alúl) for an undesirable one: התוכנית עשויה לחסוך כסף (the plan may save money) / קיצוץ בתקציב עלול לפגוע בשירות (a budget cut may harm the service). Both agree with the subject: עשוי, עשויה, עשויים, עשויות.\n• לכאורה (lekhorá) — 'seemingly, on the face of it', hints that the appearance may be misleading: לכאורה מדובר בהצעה משתלמת (on the face of it, this is a good deal).\n• Assertive wording needs evidence behind it: הנתונים מראים בבירור ש… (the data clearly show that…).",
+        "table": [
+          ["Hedged", "Meaning", "Assertive", "Meaning"],
+          ["ייתכן ש…", "it may be that", "אין ספק ש…", "there is no doubt that"],
+          ["נראה כי / נראה ש…", "it seems that", "ברור ש…", "it is clear that"],
+          ["סביר להניח ש…", "it is reasonable to assume that", "הנתונים מוכיחים ש…", "the data prove that"],
+          ["ככל הנראה", "in all likelihood", "ללא ספק", "undoubtedly"],
+          ["אפשר לומר ש…", "one might say that", "עובדה היא ש…", "it is a fact that"],
+          ["ניתן לטעון ש…", "one could argue that", "יש להדגיש ש…", "it must be stressed that"],
+          ["לכאורה", "seemingly, on the face of it", "אין חולק על כך ש…", "nobody disputes that"]
+        ]
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "___, יש לבדוק את העלויות. שנית, יש לבחון את לוח הזמנים. (first — formal, one word)",
+        "en": "First, the costs must be checked. Second, the timetable must be examined.",
+        "answer": ["ראשית"],
+        "hint": "pairs with שנית",
+        "explain": "ראשית (reshít) opens the first point of a formal argument; שנית and שלישית follow."
+      },
+      {
+        "prompt": "ראשית, התוכנית יקרה מדי. ___, היא אינה מתאימה לצורכי העובדים. (secondly)",
+        "en": "First, the plan is too expensive. Secondly, it doesn't suit the employees' needs.",
+        "answer": ["שנית"],
+        "hint": "built on שני",
+        "explain": "שנית (shenít) introduces the second point after ראשית."
+      },
+      {
+        "prompt": "___ המחיר גבוה, אך האיכות מצדיקה אותו. (admittedly)",
+        "en": "Admittedly, the price is high, but the quality justifies it.",
+        "answer": ["אמנם"],
+        "hint": "pairs with אך",
+        "explain": "אמנם… אך concedes a point (the price is high) and then answers it (the quality justifies it)."
+      },
+      {
+        "prompt": "העבודה מהבית אמנם נוחה, ___ היא מקשה על עבודת צוות. (but — formal, two letters)",
+        "en": "Working from home is admittedly convenient, but it makes teamwork harder.",
+        "answer": ["אך"],
+        "hint": "the formal 'but' that completes אמנם",
+        "explain": "The second half of אמנם… is introduced by אך or אולם; the two-letter one is אך (akh)."
+      },
+      {
+        "prompt": "אין ___ שהשקעה בחינוך משתלמת בטווח הארוך. (doubt — an assertive claim)",
+        "en": "There is no doubt that investing in education pays off in the long run.",
+        "answer": ["ספק"],
+        "hint": "אין ___ ש = there's no doubt that",
+        "explain": "אין ספק ש… (ein safék she-) presents the claim as certain — use it only when you can back it up."
+      },
+      {
+        "prompt": "המעבר לעבודה מהבית חוסך לחברה הוצאות על שכירת משרדים. ___, הוא מאפשר לגייס עובדים מכל הארץ. (moreover — two words, starts with י)",
+        "en": "Moving to remote work saves the company the cost of renting offices. Moreover, it makes it possible to recruit employees from all over the country.",
+        "answer": ["יתרה מזאת", "יתרה מזו"],
+        "hint": "adds a stronger point",
+        "explain": "יתרה מזאת (yeterá mi-zót), or יתרה מזו, adds a further, stronger argument: 'what's more'."
+      },
+      {
+        "prompt": "בסניף בחיפה המכירות עלו. בסניף בירושלים, ___, הן ירדו. (by contrast — two words)",
+        "en": "At the Haifa branch sales went up. At the Jerusalem branch, by contrast, they fell.",
+        "answer": ["לעומת זאת"],
+        "hint": "two different things side by side",
+        "explain": "Two different branches are compared, so the connector is לעומת זאת ('by contrast')."
+      },
+      {
+        "prompt": "למערכת החדשה יתרונות רבים. ___, הטמעתה תדרוש זמן והשקעה. (on the other hand — one word)",
+        "en": "The new system has many advantages. On the other hand, implementing it will take time and investment.",
+        "answer": ["מנגד"],
+        "hint": "the counter-argument about the same thing",
+        "explain": "מנגד (minéged) introduces the opposing consideration when you weigh the pros and cons of one thing."
+      },
+      {
+        "prompt": "___, היתרונות של התוכנית עולים על חסרונותיה, ולכן אני ממליץ לאמץ אותה. (in conclusion — one word)",
+        "en": "In conclusion, the plan's advantages outweigh its disadvantages, and so I recommend adopting it.",
+        "answer": ["לסיכום", "בסיכומו של דבר"],
+        "hint": "built on סיכום",
+        "explain": "לסיכום (le-sikúm) opens the closing paragraph of an argument."
+      },
+      {
+        "prompt": "הנתונים מראים ירידה חדה בהוצאות. ___, ניתן לקבוע שהתוכנית הצליחה. (therefore — formal, one word, not לכן)",
+        "en": "The figures show a sharp drop in expenses. Therefore, we can conclude that the plan succeeded.",
+        "answer": ["לפיכך", "על כן"],
+        "hint": "the formal 'therefore', five letters",
+        "explain": "לפיכך (lefikhákh) is the formal 'therefore'; על כן is equally formal."
+      },
+      {
+        "prompt": "המסקנה, ___, ברורה: יש להשקיע בהכשרת עובדים. (then / thus — two words)",
+        "en": "The conclusion, then, is clear: we must invest in training employees.",
+        "answer": ["אם כן"],
+        "hint": "draws the conclusion from what was already said",
+        "explain": "Inside the sentence, אם כן (im ken) means 'then, thus': it sums up what follows from the argument so far."
+      },
+      {
+        "prompt": "גם ___ נקבל את הטענה שהמחיר גבוה מדי, עדיין אין לנו חלופה טובה יותר. (even if)",
+        "en": "Even if we accept the claim that the price is too high, we still have no better alternative.",
+        "answer": ["אם"],
+        "hint": "גם ___ = even if",
+        "explain": "גם אם… עדיין grants the other side's point for the sake of argument and then shows that it doesn't change the conclusion."
+      },
+      {
+        "prompt": "מי ___ לא איחר לפחות פעם אחת לפגישה? (among us)",
+        "en": "Who among us hasn't been late for a meeting at least once?",
+        "answer": ["מאיתנו", "מאתנו", "מבינינו"],
+        "hint": "the usual form for 'from us'",
+        "explain": "מי מאיתנו לא…? is a rhetorical question: the expected answer is 'nobody', so the reader agrees without being told."
+      },
+      {
+        "prompt": "___ שהעלייה במכירות נובעת מהקמפיין החדש, אך קשה להוכיח זאת. (it may be — a hedge, one word)",
+        "en": "It may be that the rise in sales comes from the new campaign, but it's hard to prove.",
+        "answer": ["ייתכן", "יתכן"],
+        "hint": "from the root כ.ו.ן",
+        "explain": "ייתכן ש… (yitakhén she-) hedges the claim, and the second half confirms that the writer isn't sure."
+      },
+      {
+        "prompt": "התוכנית החדשה ___ לחסוך לחברה מיליוני שקלים. (may — a desirable outcome)",
+        "en": "The new plan may save the company millions of shekels.",
+        "answer": ["עשויה"],
+        "hint": "feminine, agrees with התוכנית",
+        "explain": "For a hoped-for outcome use עשוי, here feminine to agree with תוכנית: עשויה (asuyá)."
+      },
+      {
+        "prompt": "קיצוץ בתקציב ___ לפגוע באיכות השירות. (may — an undesirable outcome)",
+        "en": "A budget cut may harm the quality of the service.",
+        "answer": ["עלול"],
+        "hint": "masculine, agrees with קיצוץ",
+        "explain": "For a feared outcome use עלול (alúl); it agrees with the masculine subject קיצוץ."
+      }
+    ]
+  },
+  {
+    "id": "g_c1_construct_advanced",
+    "level": "C1",
+    "title": "Advanced construct and possessive endings",
+    "titleHe": "סמיכות מורחבת וכינויי קניין",
+    "summary": "Build chains like מנהלת מחלקת משאבי האנוש, read and write possessive endings (ביתו, עבודתה, ילדיהם, דעתנו), and know when a suffix sounds better than של.",
+    "sections": [
+      {
+        "h": "Chains of nouns: double and triple smichut",
+        "body": "A smichut can be extended: its second noun can itself be the head of another smichut, and so on. Formal Hebrew — job titles, official names, news reports — builds long chains this way. Read them from the end, adding one link at a time:\n• משאבי אנוש (mash'abéi enósh) — human resources\n• מחלקת משאבי אנוש (makhléket mash'abéi enósh) — a human resources department\n• מנהלת מחלקת משאבי האנוש (menahélet makhléket mash'abéi ha-enósh) — the manager of the human resources department\n\nThe rules of simple smichut apply to every link except the last: each non-final noun is in its construct form (מחלקה → מחלקת, משאבים → משאבי, עובדים → עובדי), and only the last noun can take ה. More examples:\n• יושב ראש ועד העובדים (yoshév rosh va'ád ha-ovdím) — the chair of the workers' committee\n• תאריך תחילת העבודה (ta'aríkh tkhilát ha-avodá) — the start date of the job\n• תוצאות סקר שביעות הרצון (totsa'ót séker svi'út ha-ratsón) — the results of the satisfaction survey\n• שעות קבלת קהל (she'ót kabalát kahál) — public reception hours\n\nIn conversation people often break a long chain with של: המנהלת של מחלקת משאבי אנוש. In writing the full chain is normal and sounds precise rather than heavy."
+      },
+      {
+        "h": "Definiteness and agreement in a chain",
+        "body": "• One ה, at the very end. The whole chain is definite when its last noun is: מנהלת מחלקת השיווק — the manager of the marketing department. Never ✗ המנהלת מחלקת השיווק or ✗ מנהלת המחלקת השיווק.\n• A proper name or a possessive ending also makes the chain definite, with no ה at all: עיריית חיפה (the Haifa municipality), עובדי עיריית תל אביב (the employees of the Tel Aviv municipality), מנהלת מחלקתנו (the manager of our department).\n• A preposition attaches to the first noun: למנהלת מחלקת הכספים (to the head of the finance department), בחדר הישיבות של ההנהלה.\n• The verb agrees with the head — the first noun — not with the last one: מנהלת מחלקת הכספים אישרה את התקציב (the head of the finance department approved the budget), even though כספים is masculine plural.\n• An adjective comes after the whole chain and agrees with the noun it describes; it takes ה if the chain is definite. Gender and number often show which noun is meant:\n  – מנהלת בית החולים החדשה — the hospital's new director (החדשה agrees with מנהלת)\n  – מנהלת בית החולים החדש — the director of the new hospital (החדש agrees with בית)\n  When both nouns have the same gender the phrase can be ambiguous; if it matters, rephrase with של: המנהלת החדשה של מחלקת השיווק.",
+        "table": [
+          ["Chain", "Head (agreement)", "Definite?", "Meaning"],
+          ["מנהלת מחלקה", "מנהלת (f. sg.)", "no", "a department manager"],
+          ["מנהלת המחלקה", "מנהלת (f. sg.)", "yes — ה on the last noun", "the department manager"],
+          ["מנהלת מחלקת השיווק", "מנהלת (f. sg.)", "yes — ה on the last noun", "the manager of the marketing department"],
+          ["עובדי עיריית תל אביב", "עובדים (m. pl.)", "yes — a proper name", "the employees of the Tel Aviv municipality"],
+          ["מנהלת מחלקתנו", "מנהלת (f. sg.)", "yes — a possessive ending", "the manager of our department"]
+        ]
+      },
+      {
+        "h": "Possessive endings on nouns",
+        "body": "Instead of noun + של + pronoun, formal Hebrew can attach the owner directly to the noun as an ending (כינוי קניין, kinúi kinyán): הבית שלו = ביתו (beitó), העבודה שלה = עבודתה (avodatá), הדעה שלנו = דעתנו (da'aténu), הילדים שלהם = ילדיהם (yaldehém).\n\nHow it's built:\n• On singular nouns the endings are the ones you know from ל and של: -י, -ך, -ו, -ה, -נו, -כם / -כן, -ם / -ן.\n• Feminine -ה turns into -ת before the ending, just as in smichut: עבודה → עבודתי, עבודתו, עבודתנו; דעה → דעתי, דעתה.\n• Plural nouns take the set with י, like עליי, עליו, עלינו: ילדים → ילדיי, ילדיו, ילדיה, ילדינו, ילדיהם. Feminine plurals keep -ות and add the same set: עבודות → עבודותיו (his works), החלטות → החלטותיהם (their decisions).\n• The vowels shift, as in smichut: báyit → beitó, yeladím → yaldehém. In writing you only need to recognise the noun and the ending.\n• A noun with a possessive ending is definite. It takes no ה, but an adjective after it does — ביתו החדש (his new home), ספרה האחרון (her latest book) — and as a direct object it takes את: פגשתי את אשתו (I met his wife).",
+        "table": [
+          ["Owner", "עבודה (work)", "Say it", "ילדים (children)", "Say it"],
+          ["שלי", "עבודתי", "avodatí", "ילדיי", "yeladáy"],
+          ["שלך (m.)", "עבודתך", "avodatkhá", "ילדיך", "yeladékha"],
+          ["שלך (f.)", "עבודתך", "avodatékh", "ילדייך", "yeladáyikh"],
+          ["שלו", "עבודתו", "avodató", "ילדיו", "yeladáv"],
+          ["שלה", "עבודתה", "avodatá", "ילדיה", "yeladéha"],
+          ["שלנו", "עבודתנו", "avodaténu", "ילדינו", "yeladénu"],
+          ["שלכם", "עבודתכם", "avodatkhém", "ילדיכם", "yaldekhém"],
+          ["שלכן", "עבודתכן", "avodatkhén", "ילדיכן", "yaldekhén"],
+          ["שלהם", "עבודתם", "avodatám", "ילדיהם", "yaldehém"],
+          ["שלהן", "עבודתן", "avodatán", "ילדיהן", "yaldehén"]
+        ]
+      },
+      {
+        "h": "Suffix or של?",
+        "body": "Both are correct; the choice is about register.\n• Everyday speech uses של almost everywhere: הבית שלו, העבודה שלה, הילדים שלהם. Saying ביתו in a café sounds like reading the news aloud.\n• Formal writing, the news, academic prose and official letters prefer suffixes: הוא עבר לביתו החדש (he moved to his new home); היא הציגה את עבודתה בכנס (she presented her work at the conference); ההורים ליוו את ילדיהם (the parents accompanied their children).\n• Some suffixed forms are everyday even in speech, and the של version would sound odd: לדעתי (in my opinion), לצערי (unfortunately, lit. 'to my sorrow'), בעצמי (by myself), and some family words: אשתי (my wife), בעלה (her husband), אחי (my brother). But אמא שלי and אבא שלי are the everyday forms; אמי and אבי are literary.\n• In a smichut chain the ending goes on the last noun and makes the whole chain definite: בית ספרנו (beit sifrénu, our school), מנהלת מחלקתנו (the manager of our department). In speech: בית הספר שלנו.\n• Journalistic double possession, suffix + של + noun: ביתו של המנהל (the manager's house), דעתם של הלקוחות (the customers' opinion), ספרה החדש של הסופרת (the author's new book). The suffix announces the owner, who is then named. It's very common in the press and in formal speeches.\n• The news formulas for reporting speech: לדבריו / לדבריה (lidvaráv / lidvaréha, according to him / her, lit. 'by his / her words'), לטענתה (le-ta'anatá, as she claims), לדעתם (in their opinion): לדבריה, החברה תציג רווחים כבר השנה (according to her, the company will post a profit as early as this year)."
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "___ נמצאת בקומה הרביעית. (מחלקה + משאבים + אנוש, definite)",
+        "en": "The human resources department is on the fourth floor.",
+        "answer": ["מחלקת משאבי האנוש"],
+        "hint": "construct forms, ה only on the last noun",
+        "explain": "In a chain only the last noun takes ה; every earlier noun is in its construct form: מחלקה → מחלקת, משאבים → משאבי."
+      },
+      {
+        "prompt": "___ שלחה הודעה לכל העובדים. (מנהלת + מחלקה + משאבים + אנוש, definite)",
+        "en": "The manager of the human resources department sent a message to all the employees.",
+        "answer": ["מנהלת מחלקת משאבי האנוש"],
+        "hint": "four nouns, one ה",
+        "explain": "A triple smichut: מנהלת מחלקת משאבי האנוש. Only אנוש, the last noun, gets the article."
+      },
+      {
+        "prompt": "כל ___ קיבלו הודעה על השינוי. (עובדים + עירייה + תל אביב)",
+        "en": "All the employees of the Tel Aviv municipality received a notice about the change.",
+        "answer": ["עובדי עיריית תל אביב", "עובדי עיריית ת״א"],
+        "hint": "a city name is already definite",
+        "explain": "עובדים → עובדי, עירייה → עיריית, and no ה anywhere: a proper name at the end makes the whole chain definite."
+      },
+      {
+        "prompt": "___ יפורסמו בשבוע הבא. (תוצאות + סקר + שביעות + רצון, definite)",
+        "en": "The results of the satisfaction survey will be published next week.",
+        "answer": ["תוצאות סקר שביעות הרצון"],
+        "hint": "ה only on the last noun",
+        "explain": "תוצאות, סקר and שביעות keep their spelling in construct; the ה goes on רצון alone: תוצאות סקר שביעות הרצון."
+      },
+      {
+        "prompt": "מנהלת מחלקת הכספים ___ את התקציב לשנה הבאה. (לאשר, past)",
+        "en": "The head of the finance department approved the budget for next year.",
+        "answer": ["אישרה"],
+        "hint": "agree with the first noun of the chain",
+        "explain": "The verb agrees with the head of the chain, מנהלת (feminine singular), not with כספים: אישרה (isherá)."
+      },
+      {
+        "prompt": "שלחתי את המסמכים ___. (ל + מנהלת + מחלקה + כספים, definite)",
+        "en": "I sent the documents to the head of the finance department.",
+        "answer": ["למנהלת מחלקת הכספים"],
+        "hint": "the preposition attaches to the first noun",
+        "explain": "ל attaches to the first noun of the chain and the ה stays on the last one: למנהלת מחלקת הכספים."
+      },
+      {
+        "prompt": "ד״ר כהן הציגה את ___ בכנס בברלין. (עבודה + her)",
+        "en": "Dr. Cohen presented her work at the conference in Berlin.",
+        "answer": ["עבודתה"],
+        "hint": "-ה → -ת, then the ending for היא",
+        "explain": "עבודה → עבודת- + ה = עבודתה (avodatá), the formal equivalent of העבודה שלה."
+      },
+      {
+        "prompt": "במכתב רשמי כותבים: זוהי ___. בשיחה אומרים: זאת הדעה שלנו. (דעה + the ending for אנחנו)",
+        "en": "In a formal letter you write 'this is our opinion'; in conversation you say 'that's our opinion'.",
+        "answer": ["דעתנו"],
+        "hint": "דעה → דעת- before an ending",
+        "explain": "Feminine -ה becomes -ת before a possessive ending: דעה → דעתנו (da'aténu). The suffix is formal; speech uses הדעה שלנו."
+      },
+      {
+        "prompt": "לאחר הפרישה עבר המהנדס ___ החדש בגליל. (ל + בית + his)",
+        "en": "After retiring, the engineer moved to his new home in the Galilee.",
+        "answer": ["לביתו"],
+        "hint": "the possessive ending for הוא",
+        "explain": "בית + ו = ביתו (beitó). The suffix makes the noun definite, so the adjective after it takes ה: לביתו החדש."
+      },
+      {
+        "prompt": "ההורים הגיעו לטקס הסיום יחד עם ___. (ילדים + their)",
+        "en": "The parents came to the graduation ceremony together with their children.",
+        "answer": ["ילדיהם"],
+        "hint": "plural noun + the ending for הם",
+        "explain": "On a plural noun the ending for הם is -יהם: ילדיהם (yaldehém), the formal equivalent of הילדים שלהם."
+      },
+      {
+        "prompt": "מנהלת בית החולים ___ נכנסה לתפקידה בחודש שעבר. (חדש — the director is new)",
+        "en": "The hospital's new director took up her post last month.",
+        "answer": ["החדשה"],
+        "hint": "agrees with מנהלת; the chain is definite",
+        "explain": "The adjective follows the whole chain. It describes מנהלת, so it's feminine, and it takes ה because the chain is definite: החדשה."
+      },
+      {
+        "prompt": "מנהלת בית החולים ___ הוזמנה לכנס בירושלים. (חדש — the hospital is new, not the director)",
+        "en": "The director of the new hospital was invited to a conference in Jerusalem.",
+        "answer": ["החדש"],
+        "hint": "agrees with בית החולים",
+        "explain": "Now the adjective describes בית החולים (masculine), so it's החדש. Gender is what tells the reader which noun is new."
+      },
+      {
+        "prompt": "דעתם ___ הלקוחות חשובה לנו מאוד. (the word that names the owner)",
+        "en": "The customers' opinion is very important to us.",
+        "answer": ["של"],
+        "hint": "suffix + ___ + owner",
+        "explain": "In formal and journalistic style a suffix can announce the owner, who is then named with של: דעתם של הלקוחות."
+      },
+      {
+        "prompt": "___ של הסופרת ייצא לאור בחודש הבא. (ספר + her + new)",
+        "en": "The author's new book will come out next month.",
+        "answer": ["ספרה החדש"],
+        "hint": "ending on the noun, ה on the adjective",
+        "explain": "ספר + ה = ספרה (sifrá). A suffixed noun is definite, so the adjective takes ה: ספרה החדש של הסופרת."
+      },
+      {
+        "prompt": "מורי בית ___ השתתפו בהשתלמות בקיץ. (our school: ספר + the ending for אנחנו)",
+        "en": "The teachers of our school took part in a training course in the summer.",
+        "answer": ["ספרנו"],
+        "hint": "the ending goes on the last noun of the chain",
+        "explain": "In a compound like בית ספר the possessive ending attaches to the last noun: בית ספרנו (beit sifrénu) = our school."
+      },
+      {
+        "prompt": "___, החברה תציג רווחים כבר השנה. (according to her: ל + דברים + the ending for היא)",
+        "en": "According to her, the company will post a profit as early as this year.",
+        "answer": ["לדבריה"],
+        "hint": "the news formula for 'according to'",
+        "explain": "לדבריה (lidvaréha), lit. 'by her words', is the standard news formula for reporting what someone said; for a man it's לדבריו."
+      }
+    ]
+  }
+]

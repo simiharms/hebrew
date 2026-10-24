@@ -1,0 +1,525 @@
+[
+  {
+    "id": "r_a2_lost_wallet",
+    "level": "A2",
+    "title": "הארנק שחזר",
+    "titleEn": "The wallet that came back",
+    "topic": "daily",
+    "kind": "story",
+    "paragraphs": [
+      {
+        "he": "ביום שלישי בבוקר אדיסו נסע לעבודה באוטובוס, כמו בכל יום. הוא ישב ליד החלון וקרא ספר. בתחנה שלו הוא קם מהר וירד, כי הוא מיהר.",
+        "en": "On Tuesday morning Adisu took the bus to work, as he does every day. He sat by the window and read a book. At his stop he got up quickly and got off, because he was in a hurry."
+      },
+      {
+        "he": "במשרד הוא רצה לקנות קפה, אבל הארנק לא היה בכיס. הוא חיפש בתיק ובמעיל, אבל לא מצא אותו. בארנק היו כרטיס אשראי, תעודת זהות ומאה שקל. אדיסו היה בלחץ.",
+        "en": "At the office he wanted to buy a coffee, but the wallet wasn't in his pocket. He looked in his bag and in his coat, but didn't find it. In the wallet there were a credit card, an ID card and a hundred shekels. Adisu was stressed."
+      },
+      {
+        "he": "בצהריים הטלפון שלו צלצל. \"הלו, אדיסו?\" שאלה אישה. \"כן, מי מדברת?\" \"קוראים לי נטליה. מצאתי את הארנק שלך באוטובוס, מתחת לכיסא. היה בו כרטיס ביקור עם המספר שלך.\"",
+        "en": "At noon his phone rang. \"Hello, Adisu?\" a woman asked. \"Yes, who's speaking?\" \"My name is Natalia. I found your wallet on the bus, under a seat. There was a business card in it with your number.\""
+      },
+      {
+        "he": "אדיסו שמח מאוד. אחרי העבודה הם נפגשו בבית קפה ליד התחנה המרכזית, ונטליה נתנה לו את הארנק. הכול היה בפנים. הוא רצה לתת לה מאה שקל, אבל היא לא הסכימה. \"אז לפחות אני מזמין אותך לקפה,\" הוא אמר. נטליה צחקה ואמרה: \"קפה? בשמחה!\"",
+        "en": "Adisu was very happy. After work they met at a café near the central bus station, and Natalia gave him the wallet. Everything was inside. He wanted to give her a hundred shekels, but she refused. \"Then at least I'm treating you to a coffee,\" he said. Natalia laughed and said: \"Coffee? Gladly!\""
+      }
+    ],
+    "glossary": [
+      { "he": "ארנק", "en": "wallet", "tr": "arnák" },
+      { "he": "מיהר", "en": "he was in a hurry (past of למהר, to hurry)", "tr": "mihér" },
+      { "he": "כיס", "en": "pocket", "tr": "kis" },
+      { "he": "חיפש", "en": "he looked for, searched (past of לחפש)", "tr": "khipés" },
+      { "he": "כרטיס אשראי", "en": "credit card", "tr": "kartís ashráy" },
+      { "he": "תעודת זהות", "en": "ID card", "tr": "te'udát zehút" },
+      { "he": "בלחץ", "en": "stressed, under pressure", "tr": "be-lákhats" },
+      { "he": "צלצל", "en": "it rang (past of לצלצל, to ring)", "tr": "tsiltsél" },
+      { "he": "כרטיס ביקור", "en": "business card", "tr": "kartís bikúr" },
+      { "he": "נפגשו", "en": "they met (past of להיפגש, to meet up)", "tr": "nifgeshú" },
+      { "he": "התחנה המרכזית", "en": "the central bus station", "tr": "ha-takhaná ha-merkazít" },
+      { "he": "לא הסכימה", "en": "she refused, didn't agree (להסכים = to agree)", "tr": "lo heskíma" },
+      { "he": "לפחות", "en": "at least", "tr": "lefakhót" },
+      { "he": "להזמין", "en": "to invite; to treat someone (to coffee, a meal); in the text: מזמין", "tr": "lehazmín" }
+    ],
+    "questions": [
+      {
+        "q": "מתי אדיסו ראה שהארנק לא בכיס?",
+        "qEn": "When did Adisu see that the wallet wasn't in his pocket?",
+        "answer": "במשרד, כשהוא רצה לקנות קפה.",
+        "answerEn": "At the office, when he wanted to buy a coffee.",
+        "keywords": [
+          ["משרד", "עבודה"],
+          ["קפה"]
+        ]
+      },
+      {
+        "q": "מה היה בארנק?",
+        "qEn": "What was in the wallet?",
+        "answer": "כרטיס אשראי, תעודת זהות ומאה שקל.",
+        "answerEn": "A credit card, an ID card and a hundred shekels.",
+        "keywords": [
+          ["אשראי", "כרטיס"],
+          ["תעודת זהות", "תעודה", "זהות"],
+          ["מאה", "100", "שקל", "שקלים", "כסף"]
+        ]
+      },
+      {
+        "q": "איך נטליה ידעה את מספר הטלפון של אדיסו?",
+        "qEn": "How did Natalia know Adisu's phone number?",
+        "answer": "בארנק היה כרטיס ביקור עם המספר שלו.",
+        "answerEn": "There was a business card with his number in the wallet.",
+        "keywords": [
+          ["ביקור", "כרטיס"]
+        ]
+      },
+      {
+        "q": "מה אדיסו רצה לתת לנטליה, ומה הוא עשה בסוף?",
+        "qEn": "What did Adisu want to give Natalia, and what did he do in the end?",
+        "answer": "מאה שקל. בסוף הוא הזמין אותה לקפה.",
+        "answerEn": "A hundred shekels. In the end he treated her to a coffee.",
+        "keywords": [
+          ["מאה", "100", "שקל", "שקלים", "כסף"],
+          ["קפה"]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "אדיסו נסע לעבודה ברכבת.",
+        "sEn": "Adisu went to work by train.",
+        "a": false,
+        "why": "He took the bus, as he does every day."
+      },
+      {
+        "s": "נטליה מצאה את הארנק מתחת לכיסא באוטובוס.",
+        "sEn": "Natalia found the wallet under a seat on the bus.",
+        "a": true,
+        "why": "On the phone she says she found it on the bus, under a seat."
+      },
+      {
+        "s": "נטליה התקשרה לאדיסו בערב.",
+        "sEn": "Natalia phoned Adisu in the evening.",
+        "a": false,
+        "why": "His phone rang at noon (בצהריים); they met after work."
+      },
+      {
+        "s": "נטליה לא לקחה כסף מאדיסו.",
+        "sEn": "Natalia didn't take money from Adisu.",
+        "a": true,
+        "why": "He wanted to give her a hundred shekels, but she refused; she only accepted a coffee."
+      }
+    ],
+    "find": [
+      { "en": "in the pocket", "answer": ["בכיס"] },
+      { "en": "he looked for (it), he searched", "answer": ["חיפש"] },
+      { "en": "(it) rang", "answer": ["צלצל"] },
+      { "en": "at least", "answer": ["לפחות"] }
+    ],
+    "summary": [
+      {
+        "prompt": "בבוקר אדיסו ___ את הארנק שלו באוטובוס.",
+        "en": "In the morning Adisu left his wallet behind on the bus.",
+        "answer": ["שכח", "איבד"],
+        "hint": "he forgot / he lost (past)"
+      },
+      {
+        "prompt": "בצהריים אישה בשם נטליה ___ אליו.",
+        "en": "At noon a woman named Natalia called him.",
+        "answer": ["התקשרה", "טלפנה"],
+        "hint": "she phoned (past)"
+      },
+      {
+        "prompt": "היא ראתה את המספר שלו על כרטיס ___ בארנק.",
+        "en": "She saw his number on a business card in the wallet.",
+        "answer": ["ביקור"]
+      },
+      {
+        "prompt": "אחרי העבודה הם נפגשו, ונטליה ___ לו את הארנק.",
+        "en": "After work they met, and Natalia gave him the wallet.",
+        "answer": ["נתנה", "החזירה"],
+        "hint": "she gave (past)"
+      },
+      {
+        "prompt": "נטליה לא רצתה כסף, אז אדיסו ___ אותה לקפה.",
+        "en": "Natalia didn't want money, so Adisu treated her to a coffee.",
+        "answer": ["הזמין"],
+        "hint": "he invited (past)"
+      }
+    ],
+    "writing": {
+      "prompt": "ספרו על פעם שאיבדתם משהו: מה איבדתם, איפה חיפשתם, ומה קרה בסוף?",
+      "promptEn": "Write about a time you lost something: what did you lose, where did you look, and what happened in the end?",
+      "minWords": 25,
+      "useWords": ["איבדתי", "חיפשתי", "התקשרתי", "בסוף"],
+      "checklist": [
+        { "en": "Say what you lost and where", "keywords": ["איבדתי", "שכחתי"] },
+        { "en": "Say where you looked for it", "keywords": ["חיפשתי"] },
+        { "en": "Say how the story ended", "keywords": ["בסוף", "מצאתי", "קיבלתי"] }
+      ],
+      "model": "בחודש שעבר איבדתי את הטלפון שלי ברכבת לחיפה. חיפשתי אותו בתיק ובכיסים, אבל הוא לא היה שם. אז התקשרתי למספר שלי מהטלפון של חבר. אחרי כמה דקות ענה איש נחמד, עובד של הרכבת. הוא אמר שהטלפון אצלו. למחרת נסעתי לתחנה, ובסוף קיבלתי את הטלפון בחזרה. שמחתי מאוד!",
+      "modelEn": "Last month I lost my phone on the train to Haifa. I looked for it in my bag and in my pockets, but it wasn't there. So I called my number from a friend's phone. After a few minutes a nice man answered, a train employee. He said he had the phone. The next day I went to the station, and in the end I got the phone back. I was very happy!"
+    }
+  },
+  {
+    "id": "r_a2_gym_notice",
+    "level": "A2",
+    "title": "שעות וכללים חדשים בבריכה",
+    "titleEn": "New hours and rules at the pool",
+    "topic": "sport",
+    "kind": "notice",
+    "paragraphs": [
+      {
+        "he": "מנויים יקרים, מיום ראשון הבא יש לנו שעות פתיחה חדשות, וגם כמה כללים חדשים.",
+        "en": "Dear members, from next Sunday we have new opening hours, and also a few new rules."
+      },
+      {
+        "he": "ימים א׳–ה׳: 6:00–22:00",
+        "en": "Sunday–Thursday: 6:00–22:00"
+      },
+      {
+        "he": "יום ו׳: 6:00–16:00",
+        "en": "Friday: 6:00–16:00"
+      },
+      {
+        "he": "שבת: 8:00–18:00 (רק הבריכה פתוחה, חדר הכושר סגור)",
+        "en": "Saturday: 8:00–18:00 (only the pool is open; the gym is closed)"
+      },
+      {
+        "he": "שימו לב: בכל יום שלישי הבריכה סגורה לניקיון בין 6:00 ל-9:00.",
+        "en": "Please note: every Tuesday the pool is closed for cleaning between 6:00 and 9:00."
+      },
+      {
+        "he": "בבריכה: חייבים להתקלח לפני הכניסה למים, וצריך לשים כובע שחייה. מותר לשחות רק כשיש מציל. אסור לקפוץ למים, ואסור לרוץ ליד הבריכה.",
+        "en": "In the pool: you must shower before getting into the water, and you need to wear a swimming cap. Swimming is allowed only when there is a lifeguard on duty. No jumping into the water, and no running around the pool."
+      },
+      {
+        "he": "ילדים עד גיל 12 נכנסים לבריכה רק עם מבוגר.",
+        "en": "Children up to the age of 12 may enter the pool only with an adult."
+      },
+      {
+        "he": "בחדר הכושר: חייבים להביא מגבת, ואחרי האימון צריך לנקות את המכשיר. מותר להביא בקבוק מים, אבל אסור לאכול. בבקשה לא לדבר בטלפון ליד המכשירים.",
+        "en": "In the gym: you must bring a towel, and after your workout you need to clean the machine. You may bring a bottle of water, but eating is not allowed. Please don't talk on the phone near the machines."
+      },
+      {
+        "he": "חדש! שיעור יוגה בימים שני ורביעי ב-19:00. יש רק 20 מקומות בכל שיעור, אז צריך להירשם מראש באפליקציה.",
+        "en": "New! A yoga class on Mondays and Wednesdays at 19:00. There are only 20 places in each class, so you need to sign up in advance in the app."
+      },
+      {
+        "he": "שאלות? אפשר לשאול בקבלה. אימון נעים! צוות מרכז הספורט",
+        "en": "Questions? You can ask at reception. Enjoy your workout! The sports centre team"
+      }
+    ],
+    "glossary": [
+      { "he": "מנוי", "en": "member, subscriber (plural מנויים)", "tr": "manúy" },
+      { "he": "שעות פתיחה", "en": "opening hours", "tr": "she'ót ptikhá" },
+      { "he": "א׳–ה׳", "en": "Sunday to Thursday (days are often written as letters: א׳ = Sunday, ה׳ = Thursday, ו׳ = Friday)", "tr": "álef ad hey" },
+      { "he": "שימו לב", "en": "please note, pay attention (plural imperative)", "tr": "símu lev" },
+      { "he": "להתקלח", "en": "to shower, take a shower", "tr": "lehitkalékh" },
+      { "he": "כובע שחייה", "en": "swimming cap", "tr": "kóva skhiyá" },
+      { "he": "מציל", "en": "lifeguard", "tr": "matsíl" },
+      { "he": "לקפוץ", "en": "to jump", "tr": "likpóts" },
+      { "he": "מבוגר", "en": "adult, grown-up", "tr": "mevugár" },
+      { "he": "מגבת", "en": "towel", "tr": "magévet" },
+      { "he": "אימון", "en": "workout, training session", "tr": "imún" },
+      { "he": "מכשיר", "en": "machine, device (plural מכשירים)", "tr": "makhshír" },
+      { "he": "להירשם", "en": "to sign up, register", "tr": "leherashém" },
+      { "he": "מראש", "en": "in advance", "tr": "merósh" }
+    ],
+    "questions": [
+      {
+        "q": "באיזו שעה המרכז סוגר ביום שישי?",
+        "qEn": "At what time does the centre close on Friday?",
+        "answer": "ב-16:00, בארבע אחר הצהריים.",
+        "answerEn": "At 16:00, at four in the afternoon.",
+        "keywords": [
+          ["16", "ארבע"]
+        ]
+      },
+      {
+        "q": "מה אפשר לעשות במרכז בשבת, ומה אי אפשר?",
+        "qEn": "What can you do at the centre on Saturday, and what can't you do?",
+        "answer": "אפשר לשחות בבריכה, אבל חדר הכושר סגור.",
+        "answerEn": "You can swim in the pool, but the gym is closed.",
+        "keywords": [
+          ["בריכה", "לשחות", "שוחים"],
+          ["כושר", "סגור"]
+        ]
+      },
+      {
+        "q": "מה צריך לעשות לפני הכניסה לבריכה?",
+        "qEn": "What do you need to do before going into the pool?",
+        "answer": "חייבים להתקלח ולשים כובע שחייה.",
+        "answerEn": "You must shower and put on a swimming cap.",
+        "keywords": [
+          ["להתקלח", "מתקלחים", "מקלחת"],
+          ["כובע"]
+        ]
+      },
+      {
+        "q": "מרינה רוצה ללכת לשיעור יוגה ביום רביעי. מה היא צריכה לעשות קודם, ולמה?",
+        "qEn": "Marina wants to go to a yoga class on Wednesday. What does she need to do first, and why?",
+        "answer": "להירשם מראש באפליקציה, כי יש רק 20 מקומות.",
+        "answerEn": "Sign up in advance in the app, because there are only 20 places.",
+        "keywords": [
+          ["להירשם", "להרשם", "נרשמת", "הרשמה", "אפליקציה"],
+          ["20", "עשרים", "מקומות", "מקום"]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "בכל יום שלישי אפשר לשחות בבריכה בשש בבוקר.",
+        "sEn": "Every Tuesday you can swim in the pool at six in the morning.",
+        "a": false,
+        "why": "On Tuesdays the pool is closed for cleaning between 6:00 and 9:00."
+      },
+      {
+        "s": "בחדר הכושר מותר לשתות מים.",
+        "sEn": "You're allowed to drink water in the gym.",
+        "a": true,
+        "why": "You may bring a bottle of water; only eating is not allowed."
+      },
+      {
+        "s": "ילד בן עשר יכול לשחות בבריכה לבד.",
+        "sEn": "A ten-year-old child can swim in the pool alone.",
+        "a": false,
+        "why": "Children up to the age of 12 may enter the pool only with an adult."
+      },
+      {
+        "s": "יש שיעור יוגה פעמיים בשבוע.",
+        "sEn": "There is a yoga class twice a week.",
+        "a": true,
+        "why": "The yoga class is on Mondays and Wednesdays at 19:00."
+      }
+    ],
+    "find": [
+      { "en": "opening hours", "answer": ["שעות פתיחה"] },
+      { "en": "you must shower", "answer": ["חייבים להתקלח"] },
+      { "en": "no running, it is forbidden to run", "answer": ["אסור לרוץ"] },
+      { "en": "in advance", "answer": ["מראש"] }
+    ],
+    "summary": [
+      {
+        "prompt": "מיום ראשון הבא יש במרכז הספורט שעות ___ חדשות.",
+        "en": "From next Sunday the sports centre has new opening hours.",
+        "answer": ["פתיחה"]
+      },
+      {
+        "prompt": "בשבת הבריכה פתוחה, אבל חדר הכושר ___.",
+        "en": "On Saturday the pool is open, but the gym is closed.",
+        "answer": ["סגור"]
+      },
+      {
+        "prompt": "לפני הכניסה למים חייבים ___.",
+        "en": "Before getting into the water you must shower.",
+        "answer": ["להתקלח"],
+        "hint": "to shower"
+      },
+      {
+        "prompt": "בחדר הכושר צריך להביא ___ ולנקות את המכשיר אחרי האימון.",
+        "en": "In the gym you need to bring a towel and clean the machine after the workout.",
+        "answer": ["מגבת"]
+      },
+      {
+        "prompt": "לשיעור היוגה צריך ___ מראש באפליקציה.",
+        "en": "For the yoga class you need to sign up in advance in the app.",
+        "answer": ["להירשם", "להרשם"],
+        "hint": "to sign up"
+      }
+    ],
+    "writing": {
+      "prompt": "כתבו הודעה קצרה על מקום שאתם מכירים (ספרייה, משרד, בית קפה): מה שעות הפתיחה, ומה מותר ומה אסור לעשות שם?",
+      "promptEn": "Write a short notice about a place you know (a library, an office, a café): what are the opening hours, and what is allowed and what is not allowed there?",
+      "minWords": 25,
+      "useWords": ["שעות פתיחה", "מותר", "אסור", "חייבים"],
+      "checklist": [
+        { "en": "Give the days and the opening hours", "keywords": ["שעות", "ימים", "פתוח", "פתוחה"] },
+        { "en": "Say what is allowed (מותר)", "keywords": ["מותר", "אפשר"] },
+        { "en": "Say what is not allowed (אסור)", "keywords": ["אסור"] }
+      ],
+      "model": "שלום לכל העובדים! המטבח במשרד פתוח בימים א׳–ה׳ מ-8:00 עד 18:00. מותר להביא אוכל מהבית ולשים אותו במקרר, אבל חייבים לכתוב עליו את השם. אסור להשאיר כלים מלוכלכים בכיור. בכל יום חמישי אנחנו מנקים את המקרר. תודה ויום טוב!",
+      "modelEn": "Hello to all employees! The office kitchen is open Sunday to Thursday from 8:00 to 18:00. You may bring food from home and put it in the fridge, but you must write your name on it. Leaving dirty dishes in the sink is not allowed. Every Thursday we clean out the fridge. Thanks and have a good day!"
+    }
+  },
+  {
+    "id": "r_a2_birthday_invite",
+    "level": "A2",
+    "title": "מסיבת יום הולדת אצל מאיה",
+    "titleEn": "A birthday party at Maya's",
+    "topic": "social",
+    "kind": "chat",
+    "paragraphs": [
+      {
+        "he": "מאיה: היי לכולם! ביום חמישי הבא אני חוגגת יום הולדת 30 ועושה מסיבה בבית. תבואו?",
+        "en": "Maya: Hi everyone! Next Thursday I'm celebrating my 30th birthday and having a party at home. Will you come?"
+      },
+      {
+        "he": "מאיה: המסיבה תתחיל ב-20:00. הכתובת: רחוב הגפן 12, חולון. דירה 5, קומה שלישית. אין מעלית, סליחה!",
+        "en": "Maya: The party will start at 20:00. The address: 12 HaGefen Street, Holon. Apartment 5, third floor. There's no elevator, sorry!"
+      },
+      {
+        "he": "רים: וואו, מזל טוב! בטח שאני אבוא. מה להביא?",
+        "en": "Rim: Wow, happy birthday! Of course I'll come. What should I bring?"
+      },
+      {
+        "he": "מאיה: תודה! אני אכין פיצות וסלטים. אפשר להביא שתייה או משהו מתוק. ומתנות לא צריך, באמת!",
+        "en": "Maya: Thanks! I'll make pizzas and salads. You can bring drinks or something sweet. And no need for presents, really!"
+      },
+      {
+        "he": "דניאל: אני אביא יין ועוגת שוקולד. אבל אני אגיע קצת מאוחר, בסביבות 21:00, כי ביום חמישי אני עובד עד מאוחר.",
+        "en": "Daniel: I'll bring wine and a chocolate cake. But I'll arrive a bit late, around 21:00, because on Thursday I work late."
+      },
+      {
+        "he": "אלכס: אוי, אני לא אוכל לבוא. ההורים שלי יבואו מחיפה לבקר אותי באותו ערב. אבל אני אתקשר אלייך ביום ההולדת!",
+        "en": "Alex: Oh no, I won't be able to come. My parents are coming from Haifa to visit me that same evening. But I'll call you on your birthday!"
+      },
+      {
+        "he": "מאיה: חבל! אז ניפגש בשבוע שאחרי ונחגוג ביחד.",
+        "en": "Maya: Too bad! Then we'll meet the week after and celebrate together."
+      },
+      {
+        "he": "רים: אני יכולה לבוא מוקדם ולעזור לך עם האוכל, אם את רוצה.",
+        "en": "Rim: I can come early and help you with the food, if you want."
+      },
+      {
+        "he": "מאיה: מעולה, תודה! תבואי ב-18:00?",
+        "en": "Maya: Great, thanks! Will you come at 18:00?"
+      },
+      {
+        "he": "רים: סגור. נתראה!",
+        "en": "Rim: Deal. See you!"
+      }
+    ],
+    "glossary": [
+      { "he": "לחגוג", "en": "to celebrate (in the text: חוגגת, נחגוג)", "tr": "lakhgóg" },
+      { "he": "מסיבה", "en": "party", "tr": "mesibá" },
+      { "he": "כתובת", "en": "address", "tr": "któvet" },
+      { "he": "קומה שלישית", "en": "third floor (קומה is feminine, so the ordinal is שלישית)", "tr": "komá shlishít" },
+      { "he": "מעלית", "en": "elevator, lift", "tr": "ma'alít" },
+      { "he": "בטח", "en": "sure, of course", "tr": "bétakh" },
+      { "he": "שתייה", "en": "drinks (something to drink)", "tr": "shtiyá" },
+      { "he": "משהו מתוק", "en": "something sweet", "tr": "máshehu matók" },
+      { "he": "בסביבות", "en": "around, at about (a time)", "tr": "bisvivót" },
+      { "he": "לא אוכל לבוא", "en": "I won't be able to come (אוכל here = future of יכול, 'I will be able')", "tr": "lo ukhál lavó" },
+      { "he": "באותו ערב", "en": "that same evening", "tr": "be-otó érev" },
+      { "he": "חבל", "en": "too bad, what a pity", "tr": "khavál" },
+      { "he": "סגור", "en": "deal, agreed (colloquial; literally 'closed')", "tr": "sagúr" },
+      { "he": "נתראה", "en": "see you (literally 'we'll see each other')", "tr": "nitra'é" }
+    ],
+    "questions": [
+      {
+        "q": "מה מאיה חוגגת, ומתי?",
+        "qEn": "What is Maya celebrating, and when?",
+        "answer": "יום הולדת 30, ביום חמישי הבא.",
+        "answerEn": "Her 30th birthday, next Thursday.",
+        "keywords": [
+          ["הולדת", "יום הולדת"],
+          ["חמישי"]
+        ]
+      },
+      {
+        "q": "מה דניאל יביא למסיבה?",
+        "qEn": "What will Daniel bring to the party?",
+        "answer": "הוא יביא יין ועוגת שוקולד.",
+        "answerEn": "He'll bring wine and a chocolate cake.",
+        "keywords": [
+          ["יין"],
+          ["עוגה", "עוגת", "שוקולד"]
+        ]
+      },
+      {
+        "q": "למה אלכס לא יוכל לבוא למסיבה?",
+        "qEn": "Why won't Alex be able to come to the party?",
+        "answer": "כי ההורים שלו יבואו מחיפה לבקר אותו.",
+        "answerEn": "Because his parents are coming from Haifa to visit him.",
+        "keywords": [
+          ["הורים", "אמא", "אבא", "משפחה"],
+          ["לבקר", "ביקור", "חיפה"]
+        ]
+      },
+      {
+        "q": "באיזו שעה רים תבוא, ולמה?",
+        "qEn": "At what time will Rim come, and why?",
+        "answer": "ב-18:00, כי היא תעזור למאיה עם האוכל.",
+        "answerEn": "At 18:00, because she'll help Maya with the food.",
+        "keywords": [
+          ["18", "שש"],
+          ["לעזור", "תעזור", "עזרה", "עוזרת"]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "המסיבה תהיה בבית של מאיה.",
+        "sEn": "The party will be at Maya's home.",
+        "a": true,
+        "why": "Maya writes that she's having the party at home, and gives her address."
+      },
+      {
+        "s": "בבניין של מאיה יש מעלית.",
+        "sEn": "There is an elevator in Maya's building.",
+        "a": false,
+        "why": "Maya writes: \"There's no elevator, sorry!\""
+      },
+      {
+        "s": "מאיה רוצה שהחברים יביאו מתנות.",
+        "sEn": "Maya wants her friends to bring presents.",
+        "a": false,
+        "why": "She says there's no need for presents; they can bring drinks or something sweet."
+      },
+      {
+        "s": "דניאל יגיע למסיבה מאוחר.",
+        "sEn": "Daniel will arrive at the party late.",
+        "a": true,
+        "why": "The party starts at 20:00, but Daniel will come around 21:00, because he works late on Thursday."
+      }
+    ],
+    "find": [
+      { "en": "I'm celebrating (a woman speaking)", "answer": ["חוגגת"] },
+      { "en": "the address", "answer": ["הכתובת"] },
+      { "en": "something sweet", "answer": ["משהו מתוק"] },
+      { "en": "I won't be able to come", "answer": ["לא אוכל לבוא"] }
+    ],
+    "summary": [
+      {
+        "prompt": "מאיה חוגגת יום הולדת 30 ועושה ___ בבית.",
+        "en": "Maya is celebrating her 30th birthday and having a party at home.",
+        "answer": ["מסיבה"]
+      },
+      {
+        "prompt": "בבניין של מאיה אין ___, אז צריך לעלות ברגל לקומה השלישית.",
+        "en": "There's no elevator in Maya's building, so you have to walk up to the third floor.",
+        "answer": ["מעלית"]
+      },
+      {
+        "prompt": "דניאל יביא ___ ועוגת שוקולד, אבל הוא יגיע מאוחר.",
+        "en": "Daniel will bring wine and a chocolate cake, but he'll arrive late.",
+        "answer": ["יין"]
+      },
+      {
+        "prompt": "אלכס לא ___ לבוא, כי ההורים שלו יבואו לבקר אותו.",
+        "en": "Alex won't be able to come, because his parents are coming to visit him.",
+        "answer": ["יוכל"],
+        "hint": "will be able (future of יכול, he)"
+      },
+      {
+        "prompt": "רים תבוא מוקדם כדי ___ למאיה עם האוכל.",
+        "en": "Rim will come early to help Maya with the food.",
+        "answer": ["לעזור"],
+        "hint": "to help"
+      }
+    ],
+    "writing": {
+      "prompt": "כתבו הודעה לקבוצת חברים והזמינו אותם למסיבה: מתי המסיבה, איפה היא, ומה להביא?",
+      "promptEn": "Write a message to a group of friends inviting them to a party. Write when the party is, where, and what to bring.",
+      "minWords": 25,
+      "useWords": ["מסיבה", "תתחיל", "הכתובת", "להביא"],
+      "checklist": [
+        { "en": "Say when the party is (day and time)", "keywords": ["יום", "שעה", "בערב", "תתחיל"] },
+        { "en": "Give the address", "keywords": ["כתובת", "רחוב"] },
+        { "en": "Say what to bring", "keywords": ["להביא", "תביאו"] }
+      ],
+      "model": "היי חברים! ביום שישי בערב אני עושה מסיבה קטנה בבית, כי סוף סוף סיימתי את הלימודים. המסיבה תתחיל ב-21:00. הכתובת: רחוב הזית 7, דירה 2, ליד הסופר. אני אכין אוכל, ואתם יכולים להביא שתייה. תכתבו לי עד יום רביעי אם אתם באים. נתראה!",
+      "modelEn": "Hi friends! On Friday evening I'm having a small party at home, because I've finally finished my studies. The party will start at 21:00. The address: 7 HaZayit Street, apartment 2, next to the supermarket. I'll make food, and you can bring drinks. Write to me by Wednesday if you're coming. See you!"
+    }
+  }
+]

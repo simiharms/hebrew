@@ -1,0 +1,491 @@
+[
+  {
+    "id": "r_a2_last_weekend",
+    "level": "A2",
+    "title": "סוף השבוע שלי: שוק, מפל וים",
+    "titleEn": "My weekend: market, waterfall and sea",
+    "topic": "leisure",
+    "kind": "blog",
+    "paragraphs": [
+      {
+        "he": "שלום לכולם, כאן מרינה! היום יום ראשון, וחזרתי לעבודה. אבל אני עדיין חושבת על סוף השבוע, כי הוא היה פשוט מצוין.",
+        "en": "Hi everyone, Marina here! Today is Sunday, and I'm back at work. But I'm still thinking about the weekend, because it was simply excellent."
+      },
+      {
+        "he": "ביום שישי קמתי מאוחר, בעשר. שתיתי קפה במרפסת, ואחר כך הלכתי עם החברה שלי, הילה, לשוק מחנה יהודה. קנינו פירות, ירקות ולחם טרי. בצהריים אכלנו חומוס במסעדה קטנה ליד השוק. בערב הייתי אצל ההורים שלי לארוחת שישי, ואכלתי יותר מדי, כמו בכל שבוע.",
+        "en": "On Friday I got up late, at ten. I drank coffee on the balcony, and then I went with my friend Hila to the Mahane Yehuda market. We bought fruit, vegetables and fresh bread. At lunchtime we ate hummus in a small restaurant near the market. In the evening I was at my parents' for Friday-night dinner, and I ate too much, like every week."
+      },
+      {
+        "he": "אתמול, בשבת, קמתי מוקדם מאוד, בשש. אני והילה נסענו לעין גדי באוטו של סמיר, חבר שלי מהעבודה. טיילנו בשמורה שלוש שעות. ראינו מפל יפה, ואני ראיתי יעלים בפעם הראשונה! היה חם מאוד, אבל היה כיף. אחר כך נסענו לחוף בים המלח, נכנסנו למים ואכלנו סנדוויצ׳ים.",
+        "en": "Yesterday, Saturday, I got up very early, at six. Hila and I went to Ein Gedi in Samir's car (he's a friend of mine from work). We hiked in the nature reserve for three hours. We saw a beautiful waterfall, and I saw ibexes for the first time! It was very hot, but it was fun. Afterwards we drove to a beach on the Dead Sea, went into the water and ate sandwiches."
+      },
+      {
+        "he": "חזרנו לירושלים בשבע בערב, עייפים אבל שמחים. הלכתי לישון בתשע וחצי, כמו ילדה קטנה! ומה אתם עשיתם בסוף השבוע? כתבו לי בתגובות.",
+        "en": "We got back to Jerusalem at seven in the evening, tired but happy. I went to bed at half past nine, like a little girl! And what did you do at the weekend? Tell me in the comments."
+      }
+    ],
+    "glossary": [
+      { "he": "מאוחר", "en": "late", "tr": "me'ukhár" },
+      { "he": "מרפסת", "en": "balcony", "tr": "mirpéset" },
+      { "he": "טרי", "en": "fresh", "tr": "tarí" },
+      { "he": "ארוחת שישי", "en": "Friday-night dinner (the family meal on Shabbat eve)", "tr": "arukhát shishí" },
+      { "he": "יותר מדי", "en": "too much", "tr": "yotér miday" },
+      { "he": "מוקדם", "en": "early", "tr": "mukdám" },
+      { "he": "לטייל", "en": "to hike, go on a trip (טיילנו = we hiked)", "tr": "letayél" },
+      { "he": "שמורה", "en": "nature reserve (short for שמורת טבע)", "tr": "shmurá" },
+      { "he": "מפל", "en": "waterfall", "tr": "mapál" },
+      { "he": "יעל", "en": "ibex, wild mountain goat (plural יעלים)", "tr": "ya'él, ye'elím" },
+      { "he": "חוף", "en": "beach, shore", "tr": "khof" },
+      { "he": "עייף", "en": "tired (עייפים = masculine/mixed plural)", "tr": "ayéf, ayefím" },
+      { "he": "תגובה", "en": "comment, reply (בתגובות = in the comments)", "tr": "tguvá, batguvót" }
+    ],
+    "questions": [
+      {
+        "q": "מה מרינה והילה עשו בשוק?",
+        "qEn": "What did Marina and Hila do at the market?",
+        "answer": "הן קנו פירות, ירקות ולחם טרי.",
+        "answerEn": "They bought fruit, vegetables and fresh bread.",
+        "keywords": [
+          ["קנו", "קנינו", "קנתה", "לקנות"],
+          ["פירות", "פרי", "ירקות", "ירק", "לחם"]
+        ]
+      },
+      {
+        "q": "איפה מרינה הייתה ביום שישי בערב?",
+        "qEn": "Where was Marina on Friday evening?",
+        "answer": "היא הייתה אצל ההורים שלה, לארוחת שישי.",
+        "answerEn": "She was at her parents', for Friday-night dinner.",
+        "keywords": [
+          ["הורים", "הוריה", "אבא", "אמא"],
+          ["ארוחת שישי", "ארוחה", "ארוחת ערב"]
+        ]
+      },
+      {
+        "q": "מה הם ראו בעין גדי?",
+        "qEn": "What did they see at Ein Gedi?",
+        "answer": "הם ראו מפל יפה ויעלים.",
+        "answerEn": "They saw a beautiful waterfall and ibexes.",
+        "keywords": [
+          ["מפל", "מפלים"],
+          ["יעלים", "יעל"]
+        ]
+      },
+      {
+        "q": "למה מרינה הלכה לישון מוקדם בשבת?",
+        "qEn": "Why did Marina go to bed early on Saturday?",
+        "answer": "כי היא הייתה עייפה מאוד אחרי הטיול.",
+        "answerEn": "Because she was very tired after the trip.",
+        "keywords": [
+          ["עייפה", "עייפים", "עייף", "עייפות"]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "ביום שישי מרינה קמה מוקדם.",
+        "sEn": "On Friday Marina got up early.",
+        "a": false,
+        "why": "On Friday she got up late, at ten. She got up early (at six) on Saturday."
+      },
+      {
+        "s": "ביום שישי בצהריים מרינה והילה אכלו חומוס.",
+        "sEn": "On Friday at lunchtime Marina and Hila ate hummus.",
+        "a": true,
+        "why": "At lunchtime they ate hummus in a small restaurant near the market."
+      },
+      {
+        "s": "מרינה נסעה לעין גדי באוטובוס.",
+        "sEn": "Marina went to Ein Gedi by bus.",
+        "a": false,
+        "why": "She and Hila went in Samir's car."
+      },
+      {
+        "s": "סמיר ומרינה מכירים מהעבודה.",
+        "sEn": "Samir and Marina know each other from work.",
+        "a": true,
+        "why": "Marina calls Samir \"a friend of mine from work\"."
+      }
+    ],
+    "find": [
+      { "en": "I got up", "answer": ["קמתי"] },
+      { "en": "we went (by car), we drove", "answer": ["נסענו"] },
+      { "en": "afterwards, then", "answer": ["אחר כך"] },
+      { "en": "tired (plural)", "answer": ["עייפים"] }
+    ],
+    "summary": [
+      {
+        "prompt": "ביום שישי מרינה ___ מאוחר, בעשר.",
+        "en": "On Friday Marina got up late, at ten.",
+        "answer": ["קמה"],
+        "hint": "got up (קם, past, she)"
+      },
+      {
+        "prompt": "בצהריים היא והילה אכלו ___ במסעדה ליד השוק.",
+        "en": "At lunchtime she and Hila ate hummus in a restaurant near the market.",
+        "answer": ["חומוס"],
+        "hint": "what did they eat?"
+      },
+      {
+        "prompt": "בשבת מרינה והילה נסעו באוטו של סמיר ___.",
+        "en": "On Saturday Marina and Hila went to Ein Gedi in Samir's car.",
+        "answer": ["לעין גדי", "עין גדי"],
+        "hint": "where to?"
+      },
+      {
+        "prompt": "בשמורה מרינה ___ יעלים בפעם הראשונה.",
+        "en": "In the reserve Marina saw ibexes for the first time.",
+        "answer": ["ראתה"],
+        "hint": "saw (ראה, past, she)"
+      },
+      {
+        "prompt": "בערב הם חזרו לירושלים, ___ אבל שמחים.",
+        "en": "In the evening they returned to Jerusalem, tired but happy.",
+        "answer": ["עייפים"],
+        "hint": "tired (plural)"
+      }
+    ],
+    "writing": {
+      "prompt": "ספרו מה עשיתם בסוף השבוע האחרון: מתי קמתם, לאן הלכתם או נסעתם, ומה אכלתם?",
+      "promptEn": "Write about what you did last weekend: when did you get up, where did you go, and what did you eat?",
+      "minWords": 25,
+      "useWords": ["קמתי", "הלכתי", "אכלתי", "אחר כך", "בשבת"],
+      "checklist": [
+        { "en": "Say when you got up (קמתי)", "keywords": ["קמתי"] },
+        { "en": "Say where you went", "keywords": ["הלכתי", "נסעתי", "הלכנו", "נסענו", "הייתי"] },
+        { "en": "Say what you ate", "keywords": ["אכלתי", "אכלנו"] },
+        { "en": "Use time words (ביום שישי, בשבת, אחר כך...)", "keywords": ["אחר כך", "בשבת", "ביום שישי", "בערב", "בבוקר", "אתמול", "בצהריים"] }
+      ],
+      "model": "ביום שישי קמתי בשמונה והלכתי לסופר. אחר כך בישלתי ארוחת צהריים, ובערב ראיתי סרט בבית. בשבת נסענו, אני והמשפחה שלי, לחיפה. טיילנו ליד הים ואכלנו פלאפל. חזרנו הביתה רק בערב.",
+      "modelEn": "On Friday I got up at eight and went to the supermarket. Then I cooked lunch, and in the evening I watched a film at home. On Saturday my family and I went to Haifa. We walked by the sea and ate falafel. We only got home in the evening."
+    }
+  },
+  {
+    "id": "r_a2_supermarket_flyer",
+    "level": "A2",
+    "title": "מבצעי השבוע בסופר הדקל",
+    "titleEn": "This week's deals at Super HaDekel",
+    "topic": "shopping",
+    "kind": "ad",
+    "paragraphs": [
+      { "he": "סופר הדקל – מבצעי השבוע!", "en": "Super HaDekel – this week's deals!" },
+      { "he": "חדש אצלנו: לחם ומאפים טריים כל בוקר מ־7:00!", "en": "New at our store: fresh bread and pastries every morning from 7:00!" },
+      { "he": "עגבניות ומלפפונים – 4.90 ₪ לקילו", "en": "Tomatoes and cucumbers – 4.90 NIS a kilo" },
+      { "he": "תפוחים אדומים – 6.90 ₪ לקילו", "en": "Red apples – 6.90 NIS a kilo" },
+      { "he": "פיתות, חבילה של 10 – 2 חבילות ב־12 ₪", "en": "Pitas, pack of 10 – 2 packs for 12 NIS" },
+      { "he": "חלות לשבת – 2 ב־15 ₪ (רק בימי חמישי ושישי)", "en": "Challahs for Shabbat – 2 for 15 NIS (Thursdays and Fridays only)" },
+      { "he": "שמן זית, בקבוק של 750 מ״ל – 29.90 ₪ במקום 39.90 ₪", "en": "Olive oil, 750 ml bottle – 29.90 NIS instead of 39.90 NIS" },
+      { "he": "קפה טורקי, חבילה של 200 גרם – 3 ב־30 ₪", "en": "Turkish coffee, 200 g pack – 3 for 30 NIS" },
+      { "he": "שישיית מים מינרליים (6 בקבוקים של 1.5 ליטר) – 12.90 ₪", "en": "Six-pack of mineral water (6 bottles of 1.5 litres) – 12.90 NIS" },
+      { "he": "חזה עוף טרי – 29.90 ₪ לקילו (עד 3 קילו ללקוח)", "en": "Fresh chicken breast – 29.90 NIS a kilo (up to 3 kilos per customer)" },
+      { "he": "גבינה צהובה – 39.90 ₪ לקילו (ללקוחות המועדון בלבד)", "en": "Yellow cheese – 39.90 NIS a kilo (club members only)" },
+      { "he": "קנו 2 מוצרי ניקיון – קבלו את השלישי חינם!", "en": "Buy 2 cleaning products – get the third one free!" },
+      { "he": "בקנייה מעל 300 ₪ – משלוח עד הבית חינם!", "en": "On purchases over 300 NIS – free home delivery!" },
+      {
+        "he": "המבצעים בתוקף מיום ראשון עד יום שישי בשעה 14:00, או עד גמר המלאי. המחירים כוללים מע״מ. אין כפל מבצעים. משלוחים לחולון ולבת ים בלבד.",
+        "en": "Deals valid from Sunday until Friday at 14:00, or while stocks last. Prices include VAT. Deals cannot be combined. Deliveries to Holon and Bat Yam only."
+      },
+      { "he": "שעות פתיחה: א׳–ה׳ 7:00–22:00, ו׳ 7:00–15:00, שבת – סגור", "en": "Opening hours: Sun–Thu 7:00–22:00, Fri 7:00–15:00, Saturday – closed" },
+      { "he": "רחוב הדקל 12, חולון. הזמנות באתר ובאפליקציה.", "en": "12 HaDekel Street, Holon. Orders on our website and app." }
+    ],
+    "glossary": [
+      { "he": "מבצע", "en": "special offer, deal (plural מבצעים; מבצעי השבוע = this week's deals)", "tr": "mivtsá, mivtsa'ím" },
+      { "he": "מאפים", "en": "pastries, baked goods", "tr": "ma'afím" },
+      { "he": "חבילה", "en": "pack, package", "tr": "khavilá" },
+      { "he": "במקום", "en": "instead of", "tr": "bimkóm" },
+      { "he": "שישייה", "en": "six-pack (שישיית מים = a six-pack of water)", "tr": "shishiyá" },
+      { "he": "לקוח", "en": "customer (ללקוח = per customer)", "tr": "lakóakh" },
+      { "he": "מועדון", "en": "club (here: the shop's customer club)", "tr": "moadón" },
+      { "he": "מוצרי ניקיון", "en": "cleaning products", "tr": "mutsréy nikayón" },
+      { "he": "בקנייה מעל", "en": "on purchases over, when you spend more than", "tr": "bikniyá me'ál" },
+      { "he": "משלוח", "en": "delivery", "tr": "mishlóakh" },
+      { "he": "בתוקף", "en": "valid, in force", "tr": "betókef" },
+      { "he": "עד גמר המלאי", "en": "while stocks last", "tr": "ad gmar ha-meláy" },
+      { "he": "מע״מ", "en": "VAT, value added tax", "tr": "ma'ám" },
+      { "he": "אין כפל מבצעים", "en": "deals cannot be combined", "tr": "eyn kéfel mivtsa'ím" }
+    ],
+    "questions": [
+      {
+        "q": "מה המחיר הרגיל של בקבוק שמן זית?",
+        "qEn": "What is the regular price of a bottle of olive oil?",
+        "answer": "המחיר הרגיל הוא 39.90 ₪.",
+        "answerEn": "The regular price is 39.90 NIS.",
+        "keywords": [
+          ["39.90", "39"]
+        ]
+      },
+      {
+        "q": "עד מתי המבצעים בתוקף?",
+        "qEn": "Until when are the deals valid?",
+        "answer": "עד יום שישי בשעה 14:00, או עד גמר המלאי.",
+        "answerEn": "Until Friday at 14:00, or while stocks last.",
+        "keywords": [
+          ["שישי"],
+          ["14", "שתיים", "מלאי"]
+        ]
+      },
+      {
+        "q": "מי יכול לקנות גבינה צהובה במחיר של המבצע?",
+        "qEn": "Who can buy yellow cheese at the sale price?",
+        "answer": "רק לקוחות המועדון.",
+        "answerEn": "Only club members.",
+        "keywords": [
+          ["מועדון"],
+          ["לקוחות", "לקוח", "חברים", "חבר"]
+        ]
+      },
+      {
+        "q": "יעל גרה בהרצליה. היא יכולה לקבל משלוח מהסופר? למה?",
+        "qEn": "Yael lives in Herzliya. Can she get a delivery from the supermarket? Why?",
+        "answer": "לא, כי יש משלוחים רק לחולון ולבת ים.",
+        "answerEn": "No, because there are deliveries only to Holon and Bat Yam.",
+        "keywords": [
+          ["חולון", "בת ים"],
+          ["רק", "בלבד"]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "המבצעים בתוקף גם בשבת.",
+        "sEn": "The deals are also valid on Saturday.",
+        "a": false,
+        "why": "The deals run from Sunday until Friday at 14:00, and the shop is closed on Saturday."
+      },
+      {
+        "s": "קונים שני מוצרי ניקיון ומקבלים עוד אחד חינם.",
+        "sEn": "You buy two cleaning products and get one more free.",
+        "a": true,
+        "why": "The flyer says: buy 2 cleaning products, get the third one free."
+      },
+      {
+        "s": "אפשר לקנות 5 קילו חזה עוף במחיר המבצע.",
+        "sEn": "You can buy 5 kilos of chicken breast at the sale price.",
+        "a": false,
+        "why": "The chicken deal is limited to 3 kilos per customer."
+      },
+      {
+        "s": "בסופר יש לחם טרי כבר בשבע בבוקר.",
+        "sEn": "The supermarket has fresh bread as early as seven in the morning.",
+        "a": true,
+        "why": "The flyer says there is fresh bread and pastries every morning from 7:00."
+      }
+    ],
+    "find": [
+      { "en": "instead of", "answer": ["במקום"] },
+      { "en": "on purchases over", "answer": ["בקנייה מעל"] },
+      { "en": "up to 3 kilos per customer", "answer": ["עד 3 קילו ללקוח"] },
+      { "en": "opening hours", "answer": ["שעות פתיחה"] }
+    ],
+    "summary": [
+      {
+        "prompt": "השבוע יש בסופר הדקל ___ על הרבה מוצרים.",
+        "en": "This week Super HaDekel has deals on lots of products.",
+        "answer": ["מבצעים", "הנחות"],
+        "hint": "special offers"
+      },
+      {
+        "prompt": "בקבוק שמן זית עולה עכשיו 29.90 ₪ ___ 39.90 ₪.",
+        "en": "A bottle of olive oil now costs 29.90 NIS instead of 39.90 NIS.",
+        "answer": ["במקום"],
+        "hint": "instead of"
+      },
+      {
+        "prompt": "המחיר המיוחד של הגבינה הצהובה הוא רק ללקוחות ___.",
+        "en": "The special price on yellow cheese is only for club members.",
+        "answer": ["המועדון", "מועדון"],
+        "hint": "club"
+      },
+      {
+        "prompt": "בקנייה מעל 300 ₪ מקבלים ___ חינם עד הבית.",
+        "en": "On purchases over 300 NIS you get free home delivery.",
+        "answer": ["משלוח"],
+        "hint": "delivery"
+      },
+      {
+        "prompt": "המבצעים בתוקף עד יום ___ בשעה 14:00.",
+        "en": "The deals are valid until Friday at 14:00.",
+        "answer": ["שישי"],
+        "hint": "which day?"
+      }
+    ],
+    "writing": {
+      "prompt": "כתבו הודעה לשותף או לשותפה שלכם לדירה: מה במבצע השבוע בסופר הדקל, ומה כדאי לקנות?",
+      "promptEn": "Write a message to your flatmate: what's on offer at Super HaDekel this week, and what is worth buying?",
+      "minWords": 25,
+      "useWords": ["במבצע", "חבילה", "לקילו", "כדאי", "עד יום שישי"],
+      "checklist": [
+        { "en": "Mention at least one deal with its price", "keywords": ["שקלים", "שקל", "לקילו", "במבצע"] },
+        { "en": "Say what is worth buying (כדאי)", "keywords": ["כדאי"] },
+        { "en": "Say until when the deals are valid", "keywords": ["עד יום שישי", "שישי"] }
+      ],
+      "model": "היי, ראיתי את המבצעים של סופר הדקל. השבוע קפה טורקי במבצע: 3 חבילות ב־30 שקלים. גם חזה עוף במבצע, 29.90 שקלים לקילו. כדאי לקנות גם שישיית מים ושמן זית. המבצעים רק עד יום שישי, אז אולי נלך מחר בערב?",
+      "modelEn": "Hi, I saw the deals at Super HaDekel. This week Turkish coffee is on offer: 3 packs for 30 shekels. Chicken breast is on offer too, 29.90 shekels a kilo. It's also worth buying a six-pack of water and olive oil. The deals are only until Friday, so shall we go tomorrow evening?"
+    }
+  },
+  {
+    "id": "r_a2_trip_plans",
+    "level": "A2",
+    "title": "טיול לגליל בחודש הבא",
+    "titleEn": "A trip to the Galilee next month",
+    "topic": "travel",
+    "kind": "email",
+    "paragraphs": [
+      { "he": "נושא: הטיול לגליל", "en": "Subject: The trip to the Galilee" },
+      {
+        "he": "היי רותם, מה שלומך? אני ונטע שמחים מאוד שאת באה איתנו לטיול בגליל בחודש הבא! הנה התוכנית.",
+        "en": "Hi Rotem, how are you? Neta and I are really happy that you're coming with us on the trip to the Galilee next month! Here's the plan."
+      },
+      {
+        "he": "ניסע ביום חמישי בבוקר. אנחנו נצא מתל אביב באוטו, ואת תבואי ברכבת מחיפה לכרמיאל. ניפגש בתחנה בכרמיאל בעשר.",
+        "en": "We'll go on Thursday morning. We'll set out from Tel Aviv by car, and you'll come by train from Haifa to Karmiel. We'll meet at the station in Karmiel at ten."
+      },
+      {
+        "he": "משם ניסע לצפת. נלך ברגל בעיר העתיקה ונראה את הגלריות של האמנים. בערב נאכל ארוחה גדולה בכפר דרוזי בגליל. נישן שני לילות בצימר קטן בראש פינה, עם מרפסת ונוף להרים.",
+        "en": "From there we'll drive to Safed. We'll walk around the Old City and see the artists' galleries. In the evening we'll eat a big meal in a Druze village in the Galilee. We'll sleep two nights in a small zimmer (a country B&B) in Rosh Pina, with a balcony and a view of the mountains."
+      },
+      {
+        "he": "ביום שישי נקום מוקדם ונלך לטייל בנחל עמוד. זה מסלול יפה עם מים ועצים, אז תביאי נעליים נוחות וכובע. אחר הצהריים ניסע לכנרת ונשב על החוף עד השקיעה.",
+        "en": "On Friday we'll get up early and go hiking in Nahal Amud. It's a beautiful trail with water and trees, so bring comfortable shoes and a hat. In the afternoon we'll drive to the Sea of Galilee and sit on the shore until sunset."
+      },
+      {
+        "he": "בשבת נחזור הביתה, וניקח אותך באוטו עד חיפה. מה את אומרת? אם יש לך שאלות, תכתבי לי. מחכים לך! אדיסו ונטע",
+        "en": "On Saturday we'll go back home, and we'll take you by car as far as Haifa. What do you say? If you have any questions, write to me. We can't wait to see you! Addisu and Neta"
+      }
+    ],
+    "glossary": [
+      { "he": "נושא", "en": "subject (of an email); also: topic", "tr": "nosé" },
+      { "he": "תוכנית", "en": "plan; also: programme", "tr": "tokhnít" },
+      { "he": "לצאת", "en": "to go out, set out (נצא = we'll set out)", "tr": "latsét, netsé" },
+      { "he": "להיפגש", "en": "to meet (up) (ניפגש = we'll meet)", "tr": "lehipagésh, nipagésh" },
+      { "he": "העיר העתיקה", "en": "the Old City", "tr": "ha-ír ha-atiká" },
+      { "he": "אמן", "en": "artist (plural אמנים)", "tr": "omán, omaním" },
+      { "he": "כפר דרוזי", "en": "Druze village", "tr": "kfar drúzi" },
+      { "he": "צימר", "en": "zimmer: a small country guesthouse or B&B", "tr": "tsímer" },
+      { "he": "נחל", "en": "stream, wadi (and the valley it runs through)", "tr": "nákhal" },
+      { "he": "מסלול", "en": "trail, route", "tr": "maslúl" },
+      { "he": "נוח", "en": "comfortable (נוחות = feminine plural)", "tr": "nóakh, nokhót" },
+      { "he": "שקיעה", "en": "sunset", "tr": "shkiá" },
+      { "he": "לקחת", "en": "to take (ניקח = we'll take)", "tr": "lakákhat, nikákh" }
+    ],
+    "questions": [
+      {
+        "q": "איך רותם תגיע לכרמיאל?",
+        "qEn": "How will Rotem get to Karmiel?",
+        "answer": "היא תבוא ברכבת מחיפה.",
+        "answerEn": "She'll come by train from Haifa.",
+        "keywords": [
+          ["רכבת"],
+          ["חיפה"]
+        ]
+      },
+      {
+        "q": "מה הם יעשו בצפת?",
+        "qEn": "What will they do in Safed?",
+        "answer": "הם ילכו ברגל בעיר העתיקה ויראו גלריות.",
+        "answerEn": "They'll walk around the Old City and see galleries.",
+        "keywords": [
+          ["העתיקה", "עתיקה", "ברגל", "ילכו", "נלך", "ללכת"],
+          ["גלריות", "גלריה", "אמנים", "אמן"]
+        ]
+      },
+      {
+        "q": "איפה הם יישנו, וכמה לילות?",
+        "qEn": "Where will they sleep, and for how many nights?",
+        "answer": "שני לילות, בצימר קטן בראש פינה.",
+        "answerEn": "Two nights, in a small zimmer in Rosh Pina.",
+        "keywords": [
+          ["צימר", "ראש פינה"],
+          ["שני", "2", "שתי"]
+        ]
+      },
+      {
+        "q": "למה רותם צריכה להביא נעליים נוחות?",
+        "qEn": "Why does Rotem need to bring comfortable shoes?",
+        "answer": "כי ביום שישי הם ילכו לטייל בנחל עמוד.",
+        "answerEn": "Because on Friday they'll go hiking in Nahal Amud.",
+        "keywords": [
+          ["לטייל", "טיול", "נטייל", "מסלול"],
+          ["נחל", "עמוד"]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "אדיסו ונטע ייסעו לגליל באוטובוס.",
+        "sEn": "Addisu and Neta will travel to the Galilee by bus.",
+        "a": false,
+        "why": "They'll set out from Tel Aviv by car; Rotem will come by train."
+      },
+      {
+        "s": "רותם תפגוש את אדיסו ונטע בכרמיאל.",
+        "sEn": "Rotem will meet Addisu and Neta in Karmiel.",
+        "a": true,
+        "why": "They'll meet at the station in Karmiel at ten."
+      },
+      {
+        "s": "ביום חמישי בערב הם יאכלו בצפת.",
+        "sEn": "On Thursday evening they'll eat in Safed.",
+        "a": false,
+        "why": "In the evening they'll eat a big meal in a Druze village in the Galilee."
+      },
+      {
+        "s": "בשבת רותם תחזור לחיפה באוטו של אדיסו ונטע.",
+        "sEn": "On Saturday Rotem will go back to Haifa in Addisu and Neta's car.",
+        "a": true,
+        "why": "They'll take her by car as far as Haifa on their way home."
+      }
+    ],
+    "find": [
+      { "en": "we'll travel, we'll go (by vehicle)", "answer": ["ניסע"] },
+      { "en": "we'll sleep", "answer": ["נישן"] },
+      { "en": "we'll eat", "answer": ["נאכל"] },
+      { "en": "we'll get up", "answer": ["נקום"] }
+    ],
+    "summary": [
+      {
+        "prompt": "בחודש הבא אדיסו, נטע ורותם ___ לטיול בגליל.",
+        "en": "Next month Addisu, Neta and Rotem will go on a trip to the Galilee.",
+        "answer": ["ייסעו", "יסעו", "יצאו", "ילכו"],
+        "hint": "will travel (נסע, future, they)"
+      },
+      {
+        "prompt": "רותם תבוא ___ מחיפה לכרמיאל.",
+        "en": "Rotem will come by train from Haifa to Karmiel.",
+        "answer": ["ברכבת", "רכבת"],
+        "hint": "by what?"
+      },
+      {
+        "prompt": "בצפת הם ___ ברגל בעיר העתיקה ויראו גלריות.",
+        "en": "In Safed they will walk around the Old City and see galleries.",
+        "answer": ["ילכו", "יטיילו", "יסתובבו"],
+        "hint": "will go (הלך, future, they)"
+      },
+      {
+        "prompt": "הם ___ שני לילות בצימר בראש פינה.",
+        "en": "They will sleep two nights in a zimmer in Rosh Pina.",
+        "answer": ["יישנו", "ישנו"],
+        "hint": "will sleep (ישן, future, they)"
+      },
+      {
+        "prompt": "ביום שישי הם ילכו לטייל ___, ואחר הצהריים ייסעו לכנרת.",
+        "en": "On Friday they will go hiking in Nahal Amud, and in the afternoon they'll drive to the Sea of Galilee.",
+        "answer": ["בנחל עמוד", "נחל עמוד"],
+        "hint": "where?"
+      }
+    ],
+    "writing": {
+      "prompt": "כתבו מייל לחבר או לחברה על טיול שאתם מתכננים: לאן תיסעו, איך, ומה תעשו שם?",
+      "promptEn": "Write an email to a friend about a trip you're planning: where will you go, how, and what will you do there?",
+      "minWords": 25,
+      "useWords": ["ניסע", "נישן", "נראה", "נאכל", "ביום"],
+      "checklist": [
+        { "en": "Say where you're going (ניסע ל...)", "keywords": ["ניסע", "נוסעים"] },
+        { "en": "Say how you'll travel", "keywords": ["ברכבת", "באוטו", "באוטובוס", "במטוס", "במונית", "ברגל"] },
+        { "en": "Say what you'll do there, in the future tense", "keywords": ["נראה", "נאכל", "נלך", "נטייל", "נישן"] },
+        { "en": "Open and close the email", "keywords": ["היי", "שלום", "להתראות"] }
+      ],
+      "model": "היי מאיה, מה נשמע? בחודש הבא אנחנו ניסע לירושלים לשלושה ימים. ניסע ברכבת מתל אביב, ונישן במלון קטן במרכז העיר. ביום ראשון נראה את העיר העתיקה, ובערב נאכל במסעדה טובה. ביום שני נלך למוזיאון ישראל. רוצה לבוא איתנו? להתראות!",
+      "modelEn": "Hi Maya, how's it going? Next month we're going to Jerusalem for three days. We'll go by train from Tel Aviv and stay in a small hotel in the city centre. On Sunday we'll see the Old City, and in the evening we'll eat at a good restaurant. On Monday we'll go to the Israel Museum. Want to come with us? See you!"
+    }
+  }
+]

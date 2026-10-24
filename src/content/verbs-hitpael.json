@@ -1,0 +1,1563 @@
+[
+  {
+    "id": "verb_lehitlabesh",
+    "inf": "להתלבש",
+    "tr": "lehitlabésh",
+    "en": "to get dressed",
+    "root": "ל.ב.ש",
+    "binyan": "hitpael",
+    "gizra": "regular (שלמים)",
+    "level": "A2",
+    "present": {
+      "ms": ["מתלבש", "mitlabésh"],
+      "fs": ["מתלבשת", "mitlabéshet"],
+      "mp": ["מתלבשים", "mitlabshím"],
+      "fp": ["מתלבשות", "mitlabshót"]
+    },
+    "past": {
+      "1s": ["התלבשתי", "hitlabáshti"],
+      "2ms": ["התלבשת", "hitlabáshta"],
+      "2fs": ["התלבשת", "hitlabásht"],
+      "3ms": ["התלבש", "hitlabésh"],
+      "3fs": ["התלבשה", "hitlabshá"],
+      "1p": ["התלבשנו", "hitlabáshnu"],
+      "2mp": ["התלבשתם", "hitlabashtém"],
+      "2fp": ["התלבשתן", "hitlabashtén"],
+      "3p": ["התלבשו", "hitlabshú"]
+    },
+    "future": {
+      "1s": ["אתלבש", "etlabésh"],
+      "2ms": ["תתלבש", "titlabésh"],
+      "2fs": ["תתלבשי", "titlabshí"],
+      "3ms": ["יתלבש", "yitlabésh"],
+      "3fs": ["תתלבש", "titlabésh"],
+      "1p": ["נתלבש", "nitlabésh"],
+      "2mp": ["תתלבשו", "titlabshú"],
+      "3p": ["יתלבשו", "yitlabshú"]
+    },
+    "imp": {
+      "ms": ["התלבש", "hitlabésh"],
+      "fs": ["התלבשי", "hitlabshí"],
+      "mp": ["התלבשו", "hitlabshú"]
+    },
+    "ex": {
+      "he": "הילדים עוד לא התלבשו, ואנחנו כבר מאחרים.",
+      "en": "The kids haven't gotten dressed yet, and we're already late."
+    },
+    "exs": [
+      {
+        "he": "דנה התלבשה מהר ויצאה לעבודה.",
+        "en": "Dana got dressed quickly and left for work.",
+        "form": "התלבשה"
+      },
+      {
+        "he": "בחורף אני מתלבש בשכבות.",
+        "en": "In winter I dress in layers.",
+        "form": "מתלבש"
+      },
+      {
+        "he": "תתלבשי חם, קר בחוץ!",
+        "en": "Dress warmly, it's cold outside!",
+        "form": "תתלבשי"
+      }
+    ],
+    "note": "Reflexive: you dress yourself, so there's no object. To dress someone else is להלביש את (hif'il); to wear something is ללבוש את (pa'al): היא לובשת שמלה. להתלבש יפה / חגיגי = to dress up. Parents say 'תתלבש!' (future as the imperative)."
+  },
+  {
+    "id": "verb_lehitrakhets",
+    "inf": "להתרחץ",
+    "tr": "lehitrakhéts",
+    "en": "to wash (oneself), to bathe",
+    "root": "ר.ח.ץ",
+    "binyan": "hitpael",
+    "gizra": "guttural (middle ח)",
+    "level": "B1",
+    "present": {
+      "ms": ["מתרחץ", "mitrakhéts"],
+      "fs": ["מתרחצת", "mitrakhétset"],
+      "mp": ["מתרחצים", "mitrakhatsím"],
+      "fp": ["מתרחצות", "mitrakhatsót"]
+    },
+    "past": {
+      "1s": ["התרחצתי", "hitrakhátsti"],
+      "2ms": ["התרחצת", "hitrakhátsta"],
+      "2fs": ["התרחצת", "hitrakhátst"],
+      "3ms": ["התרחץ", "hitrakhéts"],
+      "3fs": ["התרחצה", "hitrakhatsá"],
+      "1p": ["התרחצנו", "hitrakhátsnu"],
+      "2mp": ["התרחצתם", "hitrakhatstém"],
+      "2fp": ["התרחצתן", "hitrakhatstén"],
+      "3p": ["התרחצו", "hitrakhatsú"]
+    },
+    "future": {
+      "1s": ["אתרחץ", "etrakhéts"],
+      "2ms": ["תתרחץ", "titrakhéts"],
+      "2fs": ["תתרחצי", "titrakhatsí"],
+      "3ms": ["יתרחץ", "yitrakhéts"],
+      "3fs": ["תתרחץ", "titrakhéts"],
+      "1p": ["נתרחץ", "nitrakhéts"],
+      "2mp": ["תתרחצו", "titrakhatsú"],
+      "3p": ["יתרחצו", "yitrakhatsú"]
+    },
+    "imp": {
+      "ms": ["התרחץ", "hitrakhéts"],
+      "fs": ["התרחצי", "hitrakhatsí"],
+      "mp": ["התרחצו", "hitrakhatsú"]
+    },
+    "ex": {
+      "he": "אסור להתרחץ בים כשאין מציל.",
+      "en": "You're not allowed to swim in the sea when there's no lifeguard."
+    },
+    "exs": [
+      {
+        "he": "הילדים התרחצו, אכלו ארוחת ערב והלכו לישון.",
+        "en": "The kids had a bath, ate dinner and went to bed.",
+        "form": "התרחצו"
+      },
+      {
+        "he": "בקיץ אנחנו מתרחצים בים כמעט כל ערב.",
+        "en": "In summer we bathe in the sea almost every evening.",
+        "form": "מתרחצים"
+      },
+      {
+        "he": "תתרחצו רק בחוף שיש בו מציל.",
+        "en": "Only swim at a beach that has a lifeguard.",
+        "form": "תתרחצו"
+      }
+    ],
+    "note": "Washing your whole body; washing a part of it is לרחוץ (pa'al): לרחוץ ידיים. At the beach it means going into the water: signs say 'הרחצה אסורה' (no bathing). For a shower people just say להתקלח. The guttural ח keeps an 'a' where regular verbs drop the vowel: התרחצה (hitrakhatsá), מתרחצים (mitrakhatsím)."
+  },
+  {
+    "id": "verb_lehitkaleakh",
+    "inf": "להתקלח",
+    "tr": "lehitkaléakh",
+    "en": "to shower, to take a shower",
+    "root": "ק.ל.ח",
+    "binyan": "hitpael",
+    "gizra": "guttural (final ח)",
+    "level": "A2",
+    "present": {
+      "ms": ["מתקלח", "mitkaléakh"],
+      "fs": ["מתקלחת", "mitkalákhat"],
+      "mp": ["מתקלחים", "mitkalkhím"],
+      "fp": ["מתקלחות", "mitkalkhót"]
+    },
+    "past": {
+      "1s": ["התקלחתי", "hitkalákhti"],
+      "2ms": ["התקלחת", "hitkalákhta"],
+      "2fs": ["התקלחת", "hitkalákhat"],
+      "3ms": ["התקלח", "hitkaléakh"],
+      "3fs": ["התקלחה", "hitkalkhá"],
+      "1p": ["התקלחנו", "hitkalákhnu"],
+      "2mp": ["התקלחתם", "hitkalakhtém"],
+      "2fp": ["התקלחתן", "hitkalakhtén"],
+      "3p": ["התקלחו", "hitkalkhú"]
+    },
+    "future": {
+      "1s": ["אתקלח", "etkaléakh"],
+      "2ms": ["תתקלח", "titkaléakh"],
+      "2fs": ["תתקלחי", "titkalkhí"],
+      "3ms": ["יתקלח", "yitkaléakh"],
+      "3fs": ["תתקלח", "titkaléakh"],
+      "1p": ["נתקלח", "nitkaléakh"],
+      "2mp": ["תתקלחו", "titkalkhú"],
+      "3p": ["יתקלחו", "yitkalkhú"]
+    },
+    "imp": {
+      "ms": ["התקלח", "hitkaléakh"],
+      "fs": ["התקלחי", "hitkalkhí"],
+      "mp": ["התקלחו", "hitkalkhú"]
+    },
+    "ex": {
+      "he": "אני מתקלחת בבוקר, לפני העבודה.",
+      "en": "I shower in the morning, before work."
+    },
+    "exs": [
+      {
+        "he": "התקלחתי, התלבשתי ויצאתי מהבית.",
+        "en": "I showered, got dressed and left the house.",
+        "form": "התקלחתי"
+      },
+      {
+        "he": "הוא תמיד מתקלח אחרי ריצה.",
+        "en": "He always showers after a run.",
+        "form": "מתקלח"
+      },
+      {
+        "he": "רק אתקלח מהר ונצא.",
+        "en": "I'll just have a quick shower and we'll go.",
+        "form": "אתקלח"
+      }
+    ],
+    "note": "Same root as מקלחת (shower; also the bathroom). Final guttural ח: a short 'a' slips in before it at the end of a word (התקלח, hitkaléakh), and the f. present and 'you (f.) showered' end in -akhat: מתקלחת (mitkalákhat), התקלחת (hitkalákhat). To shower a child is לקלח את (pi'el)."
+  },
+  {
+    "id": "verb_lehitorer",
+    "inf": "להתעורר",
+    "tr": "lehit'orér",
+    "en": "to wake up",
+    "root": "ע.ו.ר",
+    "binyan": "hitpael",
+    "gizra": "ע״ו (hollow), doubled ר + guttural (initial ע)",
+    "level": "A2",
+    "present": {
+      "ms": ["מתעורר", "mit'orér"],
+      "fs": ["מתעוררת", "mit'oréret"],
+      "mp": ["מתעוררים", "mit'orerím"],
+      "fp": ["מתעוררות", "mit'orerót"]
+    },
+    "past": {
+      "1s": ["התעוררתי", "hit'orárti"],
+      "2ms": ["התעוררת", "hit'orárta"],
+      "2fs": ["התעוררת", "hit'orárt"],
+      "3ms": ["התעורר", "hit'orér"],
+      "3fs": ["התעוררה", "hit'orerá"],
+      "1p": ["התעוררנו", "hit'orárnu"],
+      "2mp": ["התעוררתם", "hit'orartém"],
+      "2fp": ["התעוררתן", "hit'orartén"],
+      "3p": ["התעוררו", "hit'orerú"]
+    },
+    "future": {
+      "1s": ["אתעורר", "et'orér"],
+      "2ms": ["תתעורר", "tit'orér"],
+      "2fs": ["תתעוררי", "tit'orerí"],
+      "3ms": ["יתעורר", "yit'orér"],
+      "3fs": ["תתעורר", "tit'orér"],
+      "1p": ["נתעורר", "nit'orér"],
+      "2mp": ["תתעוררו", "tit'orerú"],
+      "3p": ["יתעוררו", "yit'orerú"]
+    },
+    "imp": {
+      "ms": ["התעורר", "hit'orér"],
+      "fs": ["התעוררי", "hit'orerí"],
+      "mp": ["התעוררו", "hit'orerú"]
+    },
+    "ex": {
+      "he": "התעוררתי בשש בבוקר בלי שעון מעורר.",
+      "en": "I woke up at six in the morning without an alarm clock."
+    },
+    "exs": [
+      {
+        "he": "התינוקת התעוררה שלוש פעמים בלילה.",
+        "en": "The baby woke up three times during the night.",
+        "form": "התעוררה"
+      },
+      {
+        "he": "בשבת אני מתעורר מאוחר.",
+        "en": "On Saturdays I wake up late.",
+        "form": "מתעורר"
+      },
+      {
+        "he": "מחר נתעורר מוקדם כדי לראות את הזריחה.",
+        "en": "Tomorrow we'll wake up early to see the sunrise.",
+        "form": "נתעורר"
+      }
+    ],
+    "note": "Waking up yourself is להתעורר; waking someone else is להעיר את: תעיר אותי בשבע (wake me at seven). Getting out of bed is לקום. Same root as ער (awake) and שעון מעורר (alarm clock). Like התכונן, the ר is doubled and the vowels are o-e: התעוררה (hit'orerá), מתעוררים (mit'orerím)."
+  },
+  {
+    "id": "verb_lehitragesh",
+    "inf": "להתרגש",
+    "tr": "lehitragésh",
+    "en": "to get excited, to be moved; to be nervous",
+    "root": "ר.ג.ש",
+    "binyan": "hitpael",
+    "gizra": "regular (שלמים)",
+    "gov": "מ",
+    "level": "B1",
+    "present": {
+      "ms": ["מתרגש", "mitragésh"],
+      "fs": ["מתרגשת", "mitragéshet"],
+      "mp": ["מתרגשים", "mitragshím"],
+      "fp": ["מתרגשות", "mitragshót"]
+    },
+    "past": {
+      "1s": ["התרגשתי", "hitragáshti"],
+      "2ms": ["התרגשת", "hitragáshta"],
+      "2fs": ["התרגשת", "hitragásht"],
+      "3ms": ["התרגש", "hitragésh"],
+      "3fs": ["התרגשה", "hitragshá"],
+      "1p": ["התרגשנו", "hitragáshnu"],
+      "2mp": ["התרגשתם", "hitragashtém"],
+      "2fp": ["התרגשתן", "hitragashtén"],
+      "3p": ["התרגשו", "hitragshú"]
+    },
+    "future": {
+      "1s": ["אתרגש", "etragésh"],
+      "2ms": ["תתרגש", "titragésh"],
+      "2fs": ["תתרגשי", "titragshí"],
+      "3ms": ["יתרגש", "yitragésh"],
+      "3fs": ["תתרגש", "titragésh"],
+      "1p": ["נתרגש", "nitragésh"],
+      "2mp": ["תתרגשו", "titragshú"],
+      "3p": ["יתרגשו", "yitragshú"]
+    },
+    "imp": {
+      "ms": ["התרגש", "hitragésh"],
+      "fs": ["התרגשי", "hitragshí"],
+      "mp": ["התרגשו", "hitragshú"]
+    },
+    "rare": ["imp"],
+    "ex": {
+      "he": "היא התרגשה מאוד כשקיבלה את הפרס.",
+      "en": "She was very moved when she received the prize."
+    },
+    "exs": [
+      {
+        "he": "התרגשנו מאוד לראות את הילדים על הבמה.",
+        "en": "We were so moved to see the kids on stage.",
+        "form": "התרגשנו"
+      },
+      {
+        "he": "אני קצת מתרגשת לפני הראיון מחר.",
+        "en": "I'm a bit nervous about tomorrow's interview.",
+        "form": "מתרגשת"
+      },
+      {
+        "he": "אל תתרגש, הכול יהיה בסדר.",
+        "en": "Don't get worked up, everything will be fine.",
+        "form": "תתרגש"
+      }
+    ],
+    "note": "One verb for several strong feelings: excitement (מתרגש לקראת הטיול), being touched (התרגשתי מהמכתב) and nerves (מתרגשת לפני מבחן); context tells you which. 'אל תתרגש/י' = calm down, don't stress. The positive imperative isn't used. התרגשות = excitement, emotion."
+  },
+  {
+    "id": "verb_lehitahev",
+    "inf": "להתאהב",
+    "tr": "lehit'ahév",
+    "en": "to fall in love",
+    "root": "א.ה.ב",
+    "binyan": "hitpael",
+    "gizra": "guttural (initial א, middle ה)",
+    "gov": "ב",
+    "level": "B1",
+    "present": {
+      "ms": ["מתאהב", "mit'ahév"],
+      "fs": ["מתאהבת", "mit'ahévet"],
+      "mp": ["מתאהבים", "mit'ahavím"],
+      "fp": ["מתאהבות", "mit'ahavót"]
+    },
+    "past": {
+      "1s": ["התאהבתי", "hit'ahávti"],
+      "2ms": ["התאהבת", "hit'ahávta"],
+      "2fs": ["התאהבת", "hit'ahávt"],
+      "3ms": ["התאהב", "hit'ahév"],
+      "3fs": ["התאהבה", "hit'ahavá"],
+      "1p": ["התאהבנו", "hit'ahávnu"],
+      "2mp": ["התאהבתם", "hit'ahavtém"],
+      "2fp": ["התאהבתן", "hit'ahavtén"],
+      "3p": ["התאהבו", "hit'ahavú"]
+    },
+    "future": {
+      "1s": ["אתאהב", "et'ahév"],
+      "2ms": ["תתאהב", "tit'ahév"],
+      "2fs": ["תתאהבי", "tit'ahaví"],
+      "3ms": ["יתאהב", "yit'ahév"],
+      "3fs": ["תתאהב", "tit'ahév"],
+      "1p": ["נתאהב", "nit'ahév"],
+      "2mp": ["תתאהבו", "tit'ahavú"],
+      "3p": ["יתאהבו", "yit'ahavú"]
+    },
+    "imp": {
+      "ms": ["התאהב", "hit'ahév"],
+      "fs": ["התאהבי", "hit'ahaví"],
+      "mp": ["התאהבו", "hit'ahavú"]
+    },
+    "rare": ["imp"],
+    "ex": {
+      "he": "התאהבתי בעיר הזאת כבר ביום הראשון.",
+      "en": "I fell in love with this city on the very first day."
+    },
+    "exs": [
+      {
+        "he": "סבא שלי התאהב בסבתא שלי כשהם היו בני שבע עשרה.",
+        "en": "My grandfather fell in love with my grandmother when they were seventeen.",
+        "form": "התאהב"
+      },
+      {
+        "he": "תיירים רבים מתאהבים ביפו העתיקה.",
+        "en": "Many tourists fall in love with Old Jaffa.",
+        "form": "מתאהבים"
+      },
+      {
+        "he": "אני בטוחה שתתאהבו באוכל המקומי.",
+        "en": "I'm sure you'll fall in love with the local food.",
+        "form": "תתאהבו"
+      }
+    ],
+    "note": "Always with ב: התאהב בה / התאהבתי בעיר. Being in love (the state) is usually the adjective מאוהב / מאוהבת: אני מאוהב בך. The guttural ה keeps an 'a': התאהבה (hit'ahavá), מתאהבים (mit'ahavím). Same root as אהבה and לאהוב. The imperative isn't used."
+  },
+  {
+    "id": "verb_lehitkhaten",
+    "inf": "להתחתן",
+    "tr": "lehitkhatén",
+    "en": "to get married",
+    "root": "ח.ת.ן",
+    "binyan": "hitpael",
+    "gizra": "regular (שלמים)",
+    "gov": "עם",
+    "level": "A2",
+    "present": {
+      "ms": ["מתחתן", "mitkhatén"],
+      "fs": ["מתחתנת", "mitkhaténet"],
+      "mp": ["מתחתנים", "mitkhatním"],
+      "fp": ["מתחתנות", "mitkhatnót"]
+    },
+    "past": {
+      "1s": ["התחתנתי", "hitkhatánti"],
+      "2ms": ["התחתנת", "hitkhatánta"],
+      "2fs": ["התחתנת", "hitkhatánt"],
+      "3ms": ["התחתן", "hitkhatén"],
+      "3fs": ["התחתנה", "hitkhatná"],
+      "1p": ["התחתנו", "hitkhatánu"],
+      "2mp": ["התחתנתם", "hitkhatantém"],
+      "2fp": ["התחתנתן", "hitkhatantén"],
+      "3p": ["התחתנו", "hitkhatnú"]
+    },
+    "future": {
+      "1s": ["אתחתן", "etkhatén"],
+      "2ms": ["תתחתן", "titkhatén"],
+      "2fs": ["תתחתני", "titkhatní"],
+      "3ms": ["יתחתן", "yitkhatén"],
+      "3fs": ["תתחתן", "titkhatén"],
+      "1p": ["נתחתן", "nitkhatén"],
+      "2mp": ["תתחתנו", "titkhatnú"],
+      "3p": ["יתחתנו", "yitkhatnú"]
+    },
+    "imp": {
+      "ms": ["התחתן", "hitkhatén"],
+      "fs": ["התחתני", "hitkhatní"],
+      "mp": ["התחתנו", "hitkhatnú"]
+    },
+    "rare": ["imp"],
+    "ex": {
+      "he": "אחותי מתחתנת עם החבר שלה בספטמבר.",
+      "en": "My sister is marrying her boyfriend in September."
+    },
+    "exs": [
+      {
+        "he": "ההורים שלי התחתנו בירושלים בשנת 1990.",
+        "en": "My parents got married in Jerusalem in 1990.",
+        "form": "התחתנו"
+      },
+      {
+        "he": "הם מתחתנים בשבוע הבא בגן אירועים ליד חיפה.",
+        "en": "They're getting married next week at a wedding venue near Haifa.",
+        "form": "מתחתנים"
+      },
+      {
+        "he": "מתי תתחתנו? כולם שואלים!",
+        "en": "When are you getting married? Everyone's asking!",
+        "form": "תתחתנו"
+      }
+    ],
+    "note": "Always עם, never את: התחתנתי איתו / איתה. The root ends in נ, so 'we got married' (hitkhatánu) and 'they got married' (hitkhatnú) are both spelled התחתנו. 'Married' is נשוי / נשואה; a wedding is חתונה (same root as חתן, groom). The imperative isn't used."
+  },
+  {
+    "id": "verb_lehitnaheg",
+    "inf": "להתנהג",
+    "tr": "lehitnahég",
+    "en": "to behave, to act",
+    "root": "נ.ה.ג",
+    "binyan": "hitpael",
+    "gizra": "guttural (middle ה)",
+    "level": "B1",
+    "present": {
+      "ms": ["מתנהג", "mitnahég"],
+      "fs": ["מתנהגת", "mitnahéget"],
+      "mp": ["מתנהגים", "mitnahagím"],
+      "fp": ["מתנהגות", "mitnahagót"]
+    },
+    "past": {
+      "1s": ["התנהגתי", "hitnahágti"],
+      "2ms": ["התנהגת", "hitnahágta"],
+      "2fs": ["התנהגת", "hitnahágt"],
+      "3ms": ["התנהג", "hitnahég"],
+      "3fs": ["התנהגה", "hitnahagá"],
+      "1p": ["התנהגנו", "hitnahágnu"],
+      "2mp": ["התנהגתם", "hitnahagtém"],
+      "2fp": ["התנהגתן", "hitnahagtén"],
+      "3p": ["התנהגו", "hitnahagú"]
+    },
+    "future": {
+      "1s": ["אתנהג", "etnahég"],
+      "2ms": ["תתנהג", "titnahég"],
+      "2fs": ["תתנהגי", "titnahagí"],
+      "3ms": ["יתנהג", "yitnahég"],
+      "3fs": ["תתנהג", "titnahég"],
+      "1p": ["נתנהג", "nitnahég"],
+      "2mp": ["תתנהגו", "titnahagú"],
+      "3p": ["יתנהגו", "yitnahagú"]
+    },
+    "imp": {
+      "ms": ["התנהג", "hitnahég"],
+      "fs": ["התנהגי", "hitnahagí"],
+      "mp": ["התנהגו", "hitnahagú"]
+    },
+    "ex": {
+      "he": "הילדים התנהגו יפה מאוד אצל סבתא.",
+      "en": "The kids behaved really well at Grandma's."
+    },
+    "exs": [
+      {
+        "he": "הוא התנהג בצורה מקצועית מאוד בפגישה.",
+        "en": "He acted very professionally in the meeting.",
+        "form": "התנהג"
+      },
+      {
+        "he": "למה את מתנהגת כאילו שום דבר לא קרה?",
+        "en": "Why are you acting as if nothing happened?",
+        "form": "מתנהגת"
+      },
+      {
+        "he": "תתנהגו יפה, יש לנו אורחים!",
+        "en": "Behave yourselves, we have guests!",
+        "form": "תתנהגו"
+      }
+    ],
+    "note": "Followed by how: להתנהג יפה / בנימוס / בצורה מקצועית. Toward someone: אל or כלפי: הוא מתנהג אליי בכבוד. התנהגות = behavior. The guttural ה keeps an 'a': התנהגה (hitnahagá), מתנהגים (mitnahagím). Same root as לנהוג (to drive) and מנהג (custom)."
+  },
+  {
+    "id": "verb_lehitamen",
+    "inf": "להתאמן",
+    "tr": "lehit'amén",
+    "en": "to train, to work out; to practice",
+    "root": "א.מ.ן",
+    "binyan": "hitpael",
+    "gizra": "guttural (initial א)",
+    "level": "A2",
+    "present": {
+      "ms": ["מתאמן", "mit'amén"],
+      "fs": ["מתאמנת", "mit'aménet"],
+      "mp": ["מתאמנים", "mit'amním"],
+      "fp": ["מתאמנות", "mit'amnót"]
+    },
+    "past": {
+      "1s": ["התאמנתי", "hit'amánti"],
+      "2ms": ["התאמנת", "hit'amánta"],
+      "2fs": ["התאמנת", "hit'amánt"],
+      "3ms": ["התאמן", "hit'amén"],
+      "3fs": ["התאמנה", "hit'amná"],
+      "1p": ["התאמנו", "hit'amánu"],
+      "2mp": ["התאמנתם", "hit'amantém"],
+      "2fp": ["התאמנתן", "hit'amantén"],
+      "3p": ["התאמנו", "hit'amnú"]
+    },
+    "future": {
+      "1s": ["אתאמן", "et'amén"],
+      "2ms": ["תתאמן", "tit'amén"],
+      "2fs": ["תתאמני", "tit'amní"],
+      "3ms": ["יתאמן", "yit'amén"],
+      "3fs": ["תתאמן", "tit'amén"],
+      "1p": ["נתאמן", "nit'amén"],
+      "2mp": ["תתאמנו", "tit'amnú"],
+      "3p": ["יתאמנו", "yit'amnú"]
+    },
+    "imp": {
+      "ms": ["התאמן", "hit'amén"],
+      "fs": ["התאמני", "hit'amní"],
+      "mp": ["התאמנו", "hit'amnú"]
+    },
+    "ex": {
+      "he": "אני מתאמן בחדר כושר שלוש פעמים בשבוע.",
+      "en": "I work out at the gym three times a week."
+    },
+    "exs": [
+      {
+        "he": "התאמנו כל הקיץ לקראת המרתון.",
+        "en": "We trained all summer for the marathon.",
+        "form": "התאמנו"
+      },
+      {
+        "he": "הקבוצה מתאמנת כל בוקר במגרש ליד בית הספר.",
+        "en": "The team trains every morning on the field next to the school.",
+        "form": "מתאמנת"
+      },
+      {
+        "he": "מחר אתאמן בבריכה במקום בחדר הכושר.",
+        "en": "Tomorrow I'll train at the pool instead of the gym.",
+        "form": "אתאמן"
+      }
+    ],
+    "note": "Mainly physical training: להתאמן בחדר כושר (to work out at the gym), להתאמן לקראת תחרות. To practice a skill such as a language, people usually say לתרגל: לתרגל עברית. אימון = a training session, מאמן / מאמנת = coach. The root ends in נ, so התאמנו is both hit'amánu (we) and hit'amnú (they)."
+  },
+  {
+    "id": "verb_lehitlonen",
+    "inf": "להתלונן",
+    "tr": "lehitlonén",
+    "en": "to complain",
+    "root": "ל.ו.ן",
+    "binyan": "hitpael",
+    "gizra": "ע״ו (hollow), doubled נ",
+    "gov": "על",
+    "level": "B1",
+    "present": {
+      "ms": ["מתלונן", "mitlonén"],
+      "fs": ["מתלוננת", "mitlonénet"],
+      "mp": ["מתלוננים", "mitlonením"],
+      "fp": ["מתלוננות", "mitlonenót"]
+    },
+    "past": {
+      "1s": ["התלוננתי", "hitlonánti"],
+      "2ms": ["התלוננת", "hitlonánta"],
+      "2fs": ["התלוננת", "hitlonánt"],
+      "3ms": ["התלונן", "hitlonén"],
+      "3fs": ["התלוננה", "hitlonená"],
+      "1p": ["התלוננו", "hitlonánu"],
+      "2mp": ["התלוננתם", "hitlonantém"],
+      "2fp": ["התלוננתן", "hitlonantén"],
+      "3p": ["התלוננו", "hitlonenú"]
+    },
+    "future": {
+      "1s": ["אתלונן", "etlonén"],
+      "2ms": ["תתלונן", "titlonén"],
+      "2fs": ["תתלונני", "titlonení"],
+      "3ms": ["יתלונן", "yitlonén"],
+      "3fs": ["תתלונן", "titlonén"],
+      "1p": ["נתלונן", "nitlonén"],
+      "2mp": ["תתלוננו", "titlonenú"],
+      "3p": ["יתלוננו", "yitlonenú"]
+    },
+    "imp": {
+      "ms": ["התלונן", "hitlonén"],
+      "fs": ["התלונני", "hitlonení"],
+      "mp": ["התלוננו", "hitlonenú"]
+    },
+    "ex": {
+      "he": "השכנים התלוננו על הרעש מהמסיבה.",
+      "en": "The neighbors complained about the noise from the party."
+    },
+    "exs": [
+      {
+        "he": "התלוננתי שלוש פעמים על החיבור לאינטרנט, ושום דבר לא השתנה.",
+        "en": "I complained three times about the internet connection, and nothing changed.",
+        "form": "התלוננתי"
+      },
+      {
+        "he": "הוא תמיד מתלונן שאין לו זמן.",
+        "en": "He's always complaining that he has no time.",
+        "form": "מתלונן"
+      },
+      {
+        "he": "אם המשלוח לא יגיע עד מחר, אתקשר לשירות הלקוחות ואתלונן.",
+        "en": "If the delivery doesn't arrive by tomorrow, I'll call customer service and complain.",
+        "form": "אתלונן"
+      }
+    ],
+    "note": "להתלונן על + the problem, ל or אצל + the person: היא התלוננה אצל המנהל על המשמרות. תלונה = complaint; להגיש תלונה = to file a complaint. The נ is doubled and the vowels are o-e, like התכונן: התלוננה (hitlonená). 'We complained' (hitlonánu) and 'they complained' (hitlonenú) are both spelled התלוננו."
+  },
+  {
+    "id": "verb_lehitvakeakh",
+    "inf": "להתווכח",
+    "tr": "lehitvakéakh",
+    "en": "to argue",
+    "root": "ו.כ.ח",
+    "binyan": "hitpael",
+    "gizra": "guttural (final ח)",
+    "gov": "עם / על",
+    "level": "B1",
+    "present": {
+      "ms": ["מתווכח", "mitvakéakh"],
+      "fs": ["מתווכחת", "mitvakákhat"],
+      "mp": ["מתווכחים", "mitvakkhím"],
+      "fp": ["מתווכחות", "mitvakkhót"]
+    },
+    "past": {
+      "1s": ["התווכחתי", "hitvakákhti"],
+      "2ms": ["התווכחת", "hitvakákhta"],
+      "2fs": ["התווכחת", "hitvakákhat"],
+      "3ms": ["התווכח", "hitvakéakh"],
+      "3fs": ["התווכחה", "hitvakkhá"],
+      "1p": ["התווכחנו", "hitvakákhnu"],
+      "2mp": ["התווכחתם", "hitvakakhtém"],
+      "2fp": ["התווכחתן", "hitvakakhtén"],
+      "3p": ["התווכחו", "hitvakkhú"]
+    },
+    "future": {
+      "1s": ["אתווכח", "etvakéakh"],
+      "2ms": ["תתווכח", "titvakéakh"],
+      "2fs": ["תתווכחי", "titvakkhí"],
+      "3ms": ["יתווכח", "yitvakéakh"],
+      "3fs": ["תתווכח", "titvakéakh"],
+      "1p": ["נתווכח", "nitvakéakh"],
+      "2mp": ["תתווכחו", "titvakkhú"],
+      "3p": ["יתווכחו", "yitvakkhú"]
+    },
+    "imp": {
+      "ms": ["התווכח", "hitvakéakh"],
+      "fs": ["התווכחי", "hitvakkhí"],
+      "mp": ["התווכחו", "hitvakkhú"]
+    },
+    "ex": {
+      "he": "אני לא רוצה להתווכח איתך על זה עכשיו.",
+      "en": "I don't want to argue with you about this now."
+    },
+    "exs": [
+      {
+        "he": "הם התווכחו כל הערב על איזה סרט לראות.",
+        "en": "They argued all evening about which movie to watch.",
+        "form": "התווכחו"
+      },
+      {
+        "he": "שני המנהלים מתווכחים על התקציב כבר שבוע.",
+        "en": "The two managers have been arguing about the budget for a week.",
+        "form": "מתווכחים"
+      },
+      {
+        "he": "אל תתווכחי איתו, זה לא יעזור.",
+        "en": "Don't argue with him, it won't help.",
+        "form": "תתווכחי"
+      }
+    ],
+    "note": "להתווכח עם + person, על + topic. The וו is just how full spelling writes a consonant v; the root is ו.כ.ח. Final guttural ח: התווכח (hitvakéakh), מתווכחת (mitvakákhat). ויכוח = argument; 'אין ויכוח' = no argument there, agreed."
+  },
+  {
+    "id": "verb_lehishtaper",
+    "inf": "להשתפר",
+    "tr": "lehishtapér",
+    "en": "to improve, to get better",
+    "root": "ש.פ.ר",
+    "binyan": "hitpael",
+    "gizra": "hitpael with metathesis (ת/ש swap)",
+    "gov": "ב",
+    "level": "B1",
+    "present": {
+      "ms": ["משתפר", "mishtapér"],
+      "fs": ["משתפרת", "mishtapéret"],
+      "mp": ["משתפרים", "mishtaprím"],
+      "fp": ["משתפרות", "mishtaprót"]
+    },
+    "past": {
+      "1s": ["השתפרתי", "hishtapárti"],
+      "2ms": ["השתפרת", "hishtapárta"],
+      "2fs": ["השתפרת", "hishtapárt"],
+      "3ms": ["השתפר", "hishtapér"],
+      "3fs": ["השתפרה", "hishtaprá"],
+      "1p": ["השתפרנו", "hishtapárnu"],
+      "2mp": ["השתפרתם", "hishtapartém"],
+      "2fp": ["השתפרתן", "hishtapartén"],
+      "3p": ["השתפרו", "hishtaprú"]
+    },
+    "future": {
+      "1s": ["אשתפר", "eshtapér"],
+      "2ms": ["תשתפר", "tishtapér"],
+      "2fs": ["תשתפרי", "tishtaprí"],
+      "3ms": ["ישתפר", "yishtapér"],
+      "3fs": ["תשתפר", "tishtapér"],
+      "1p": ["נשתפר", "nishtapér"],
+      "2mp": ["תשתפרו", "tishtaprú"],
+      "3p": ["ישתפרו", "yishtaprú"]
+    },
+    "imp": {
+      "ms": ["השתפר", "hishtapér"],
+      "fs": ["השתפרי", "hishtaprí"],
+      "mp": ["השתפרו", "hishtaprú"]
+    },
+    "rare": ["imp"],
+    "ex": {
+      "he": "העברית שלך השתפרה מאוד מאז הקיץ!",
+      "en": "Your Hebrew has improved a lot since the summer!"
+    },
+    "exs": [
+      {
+        "he": "מזג האוויר השתפר, אז יצאנו לטיול.",
+        "en": "The weather got better, so we went out for a hike.",
+        "form": "השתפר"
+      },
+      {
+        "he": "המכירות משתפרות מחודש לחודש.",
+        "en": "Sales are improving month by month.",
+        "form": "משתפרות"
+      },
+      {
+        "he": "אם תתאמן כל יום, תשתפר מהר.",
+        "en": "If you practice every day, you'll improve quickly.",
+        "form": "תשתפר"
+      }
+    ],
+    "note": "Intransitive: something gets better by itself. To improve something is לשפר את (pi'el): אני רוצה לשפר את העברית שלי. The ת of הת- swaps places with the root's ש: השתפר, not התשפר. In what: ב (הוא השתפר במתמטיקה). שיפור = improvement. The imperative isn't used."
+  },
+  {
+    "id": "verb_lehishtanot",
+    "inf": "להשתנות",
+    "tr": "lehishtanót",
+    "en": "to change (become different)",
+    "root": "ש.נ.ה",
+    "binyan": "hitpael",
+    "gizra": "ל״ה (final heh) + metathesis (ת/ש swap)",
+    "level": "B1",
+    "present": {
+      "ms": ["משתנה", "mishtané"],
+      "fs": ["משתנה", "mishtaná"],
+      "mp": ["משתנים", "mishtaním"],
+      "fp": ["משתנות", "mishtanót"]
+    },
+    "past": {
+      "1s": ["השתניתי", "hishtaníti"],
+      "2ms": ["השתנית", "hishtaníta"],
+      "2fs": ["השתנית", "hishtanít"],
+      "3ms": ["השתנה", "hishtaná"],
+      "3fs": ["השתנתה", "hishtantá"],
+      "1p": ["השתנינו", "hishtanínu"],
+      "2mp": ["השתניתם", "hishtanitém"],
+      "2fp": ["השתניתן", "hishtanitén"],
+      "3p": ["השתנו", "hishtanú"]
+    },
+    "future": {
+      "1s": ["אשתנה", "eshtané"],
+      "2ms": ["תשתנה", "tishtané"],
+      "2fs": ["תשתני", "tishtaní"],
+      "3ms": ["ישתנה", "yishtané"],
+      "3fs": ["תשתנה", "tishtané"],
+      "1p": ["נשתנה", "nishtané"],
+      "2mp": ["תשתנו", "tishtanú"],
+      "3p": ["ישתנו", "yishtanú"]
+    },
+    "imp": {
+      "ms": ["השתנה", "hishtané"],
+      "fs": ["השתני", "hishtaní"],
+      "mp": ["השתנו", "hishtanú"]
+    },
+    "rare": ["imp"],
+    "ex": {
+      "he": "השכונה השתנתה מאוד בעשר השנים האחרונות.",
+      "en": "The neighborhood has changed a lot over the last ten years."
+    },
+    "exs": [
+      {
+        "he": "התוכניות השתנו ברגע האחרון.",
+        "en": "The plans changed at the last minute.",
+        "form": "השתנו"
+      },
+      {
+        "he": "מזג האוויר משתנה מהר באביב.",
+        "en": "The weather changes quickly in spring.",
+        "form": "משתנה"
+      },
+      {
+        "he": "אל תדאג, שום דבר לא ישתנה בינינו.",
+        "en": "Don't worry, nothing will change between us.",
+        "form": "ישתנה"
+      }
+    ],
+    "note": "Intransitive 'to change' (to become different). To change something is לשנות את (pi'el): שיניתי את הסיסמה. Final heh: the past has י in 1st and 2nd person (השתניתי) but not in 3rd (השתנה, השתנתה, השתנו), and the present is משתנה for both m. and f. (mishtané / mishtaná). Plus the ת/ש swap: השתנה, not התשנה. שינוי = change."
+  },
+  {
+    "id": "verb_lehitstaer",
+    "inf": "להצטער",
+    "tr": "lehitsta'ér",
+    "en": "to be sorry, to regret",
+    "root": "צ.ע.ר",
+    "binyan": "hitpael",
+    "gizra": "metathesis (ת/צ swap, ת → ט) + guttural (middle ע)",
+    "gov": "על",
+    "level": "A2",
+    "present": {
+      "ms": ["מצטער", "mitsta'ér"],
+      "fs": ["מצטערת", "mitsta'éret"],
+      "mp": ["מצטערים", "mitsta'arím"],
+      "fp": ["מצטערות", "mitsta'arót"]
+    },
+    "past": {
+      "1s": ["הצטערתי", "hitsta'árti"],
+      "2ms": ["הצטערת", "hitsta'árta"],
+      "2fs": ["הצטערת", "hitsta'árt"],
+      "3ms": ["הצטער", "hitsta'ér"],
+      "3fs": ["הצטערה", "hitsta'ará"],
+      "1p": ["הצטערנו", "hitsta'árnu"],
+      "2mp": ["הצטערתם", "hitsta'artém"],
+      "2fp": ["הצטערתן", "hitsta'artén"],
+      "3p": ["הצטערו", "hitsta'arú"]
+    },
+    "future": {
+      "1s": ["אצטער", "etsta'ér"],
+      "2ms": ["תצטער", "titsta'ér"],
+      "2fs": ["תצטערי", "titsta'arí"],
+      "3ms": ["יצטער", "yitsta'ér"],
+      "3fs": ["תצטער", "titsta'ér"],
+      "1p": ["נצטער", "nitsta'ér"],
+      "2mp": ["תצטערו", "titsta'arú"],
+      "3p": ["יצטערו", "yitsta'arú"]
+    },
+    "imp": {
+      "ms": ["הצטער", "hitsta'ér"],
+      "fs": ["הצטערי", "hitsta'arí"],
+      "mp": ["הצטערו", "hitsta'arú"]
+    },
+    "rare": ["imp"],
+    "ex": {
+      "he": "אני מצטערת, אבל אני לא יכולה להגיע מחר.",
+      "en": "I'm sorry, but I can't come tomorrow."
+    },
+    "exs": [
+      {
+        "he": "הוא הצטער שלא קנה את הדירה לפני חמש שנים.",
+        "en": "He regretted not buying the apartment five years ago.",
+        "form": "הצטער"
+      },
+      {
+        "he": "מצטערים, הכביש סגור היום.",
+        "en": "Sorry, the road is closed today.",
+        "form": "מצטערים"
+      },
+      {
+        "he": "בואו איתנו לטיול, לא תצטערו!",
+        "en": "Come with us on the trip, you won't regret it!",
+        "form": "תצטערו"
+      }
+    ],
+    "note": "מצטער / מצטערת = (I'm) sorry, a step more serious than סליחה. להצטער על / ש = to regret: אני לא מצטערת על כלום. 'לא תצטער!' = you won't regret it. Two quirks: the ת of הת- swaps with צ and becomes ט (הצטער, not התצער), and the guttural ע keeps an 'a': הצטערה (hitsta'ará). צער = sorrow. The imperative isn't used."
+  },
+  {
+    "id": "verb_lehistakel",
+    "inf": "להסתכל",
+    "tr": "lehistakél",
+    "en": "to look (at)",
+    "root": "ס.כ.ל",
+    "binyan": "hitpael",
+    "gizra": "hitpael with metathesis (ת/ס swap)",
+    "gov": "על",
+    "level": "A2",
+    "present": {
+      "ms": ["מסתכל", "mistakél"],
+      "fs": ["מסתכלת", "mistakélet"],
+      "mp": ["מסתכלים", "mistaklím"],
+      "fp": ["מסתכלות", "mistaklót"]
+    },
+    "past": {
+      "1s": ["הסתכלתי", "histakálti"],
+      "2ms": ["הסתכלת", "histakálta"],
+      "2fs": ["הסתכלת", "histakált"],
+      "3ms": ["הסתכל", "histakél"],
+      "3fs": ["הסתכלה", "histaklá"],
+      "1p": ["הסתכלנו", "histakálnu"],
+      "2mp": ["הסתכלתם", "histakaltém"],
+      "2fp": ["הסתכלתן", "histakaltén"],
+      "3p": ["הסתכלו", "histaklú"]
+    },
+    "future": {
+      "1s": ["אסתכל", "estakél"],
+      "2ms": ["תסתכל", "tistakél"],
+      "2fs": ["תסתכלי", "tistaklí"],
+      "3ms": ["יסתכל", "yistakél"],
+      "3fs": ["תסתכל", "tistakél"],
+      "1p": ["נסתכל", "nistakél"],
+      "2mp": ["תסתכלו", "tistaklú"],
+      "3p": ["יסתכלו", "yistaklú"]
+    },
+    "imp": {
+      "ms": ["הסתכל", "histakél"],
+      "fs": ["הסתכלי", "histaklí"],
+      "mp": ["הסתכלו", "histaklú"]
+    },
+    "ex": {
+      "he": "תסתכל על המפה, אנחנו כאן.",
+      "en": "Look at the map, we're here."
+    },
+    "exs": [
+      {
+        "he": "הסתכלתי על השעון וראיתי שאני מאחר.",
+        "en": "I looked at the clock and saw that I was late.",
+        "form": "הסתכלתי"
+      },
+      {
+        "he": "למה כולם מסתכלים עליי?",
+        "en": "Why is everyone looking at me?",
+        "form": "מסתכלים"
+      },
+      {
+        "he": "אסתכל על זה בבית ואחזור אלייך.",
+        "en": "I'll look at it at home and get back to you.",
+        "form": "אסתכל"
+      }
+    ],
+    "note": "להסתכל על = to look at (on purpose); לראות = to see. In speech the future is the imperative: 'תסתכל!' / 'תסתכלי!' = look! 'תסתכל על זה ככה' = look at it this way. The ת of הת- swaps places with ס: הסתכלתי, not התסכלתי."
+  },
+  {
+    "id": "verb_lehistader",
+    "inf": "להסתדר",
+    "tr": "lehistadér",
+    "en": "to manage, to work out; to get along",
+    "root": "ס.ד.ר",
+    "binyan": "hitpael",
+    "gizra": "hitpael with metathesis (ת/ס swap)",
+    "gov": "עם",
+    "level": "B1",
+    "present": {
+      "ms": ["מסתדר", "mistadér"],
+      "fs": ["מסתדרת", "mistadéret"],
+      "mp": ["מסתדרים", "mistadrím"],
+      "fp": ["מסתדרות", "mistadrót"]
+    },
+    "past": {
+      "1s": ["הסתדרתי", "histadárti"],
+      "2ms": ["הסתדרת", "histadárta"],
+      "2fs": ["הסתדרת", "histadárt"],
+      "3ms": ["הסתדר", "histadér"],
+      "3fs": ["הסתדרה", "histadrá"],
+      "1p": ["הסתדרנו", "histadárnu"],
+      "2mp": ["הסתדרתם", "histadartém"],
+      "2fp": ["הסתדרתן", "histadartén"],
+      "3p": ["הסתדרו", "histadrú"]
+    },
+    "future": {
+      "1s": ["אסתדר", "estadér"],
+      "2ms": ["תסתדר", "tistadér"],
+      "2fs": ["תסתדרי", "tistadrí"],
+      "3ms": ["יסתדר", "yistadér"],
+      "3fs": ["תסתדר", "tistadér"],
+      "1p": ["נסתדר", "nistadér"],
+      "2mp": ["תסתדרו", "tistadrú"],
+      "3p": ["יסתדרו", "yistadrú"]
+    },
+    "imp": {
+      "ms": ["הסתדר", "histadér"],
+      "fs": ["הסתדרי", "histadrí"],
+      "mp": ["הסתדרו", "histadrú"]
+    },
+    "ex": {
+      "he": "אל תדאגי, נסתדר לבד.",
+      "en": "Don't worry, we'll manage on our own."
+    },
+    "exs": [
+      {
+        "he": "בהתחלה היה קשה, אבל בסוף הכול הסתדר.",
+        "en": "It was hard at first, but in the end everything worked out.",
+        "form": "הסתדר"
+      },
+      {
+        "he": "אני מסתדרת מצוין עם הצוות החדש.",
+        "en": "I get along great with the new team.",
+        "form": "מסתדרת"
+      },
+      {
+        "he": "יהיה בסדר, הכול יסתדר.",
+        "en": "It'll be fine, everything will work out.",
+        "form": "יסתדר"
+      }
+    ],
+    "note": "A very Israeli verb: 'הכול יסתדר' = it'll all work out; 'אתה מסתדר?' = are you managing OK?; 'נסתדר' = we'll manage. להסתדר עם + person = to get along with. Also = to line up or get organized: a teacher says 'הסתדרו בשורה!' (line up!). Same root as סדר (order) and בסדר; the ת/ס swap is as in הסתכל."
+  },
+  {
+    "id": "verb_lehitpater",
+    "inf": "להתפטר",
+    "tr": "lehitpatér",
+    "en": "to resign, to quit (a job)",
+    "root": "פ.ט.ר",
+    "binyan": "hitpael",
+    "gizra": "regular (שלמים)",
+    "gov": "מ",
+    "level": "B1",
+    "present": {
+      "ms": ["מתפטר", "mitpatér"],
+      "fs": ["מתפטרת", "mitpatéret"],
+      "mp": ["מתפטרים", "mitpatrím"],
+      "fp": ["מתפטרות", "mitpatrót"]
+    },
+    "past": {
+      "1s": ["התפטרתי", "hitpatárti"],
+      "2ms": ["התפטרת", "hitpatárta"],
+      "2fs": ["התפטרת", "hitpatárt"],
+      "3ms": ["התפטר", "hitpatér"],
+      "3fs": ["התפטרה", "hitpatrá"],
+      "1p": ["התפטרנו", "hitpatárnu"],
+      "2mp": ["התפטרתם", "hitpatartém"],
+      "2fp": ["התפטרתן", "hitpatartén"],
+      "3p": ["התפטרו", "hitpatrú"]
+    },
+    "future": {
+      "1s": ["אתפטר", "etpatér"],
+      "2ms": ["תתפטר", "titpatér"],
+      "2fs": ["תתפטרי", "titpatrí"],
+      "3ms": ["יתפטר", "yitpatér"],
+      "3fs": ["תתפטר", "titpatér"],
+      "1p": ["נתפטר", "nitpatér"],
+      "2mp": ["תתפטרו", "titpatrú"],
+      "3p": ["יתפטרו", "yitpatrú"]
+    },
+    "imp": {
+      "ms": ["התפטר", "hitpatér"],
+      "fs": ["התפטרי", "hitpatrí"],
+      "mp": ["התפטרו", "hitpatrú"]
+    },
+    "ex": {
+      "he": "היא התפטרה מהעבודה כדי לפתוח עסק משלה.",
+      "en": "She quit her job to start her own business."
+    },
+    "exs": [
+      {
+        "he": "התפטרתי אחרי שלוש שנים בחברה.",
+        "en": "I resigned after three years at the company.",
+        "form": "התפטרתי"
+      },
+      {
+        "he": "שמעתי שהמנהל מתפטר בסוף החודש.",
+        "en": "I heard the manager is resigning at the end of the month.",
+        "form": "מתפטר"
+      },
+      {
+        "he": "אם לא יעלו לי את המשכורת, אתפטר.",
+        "en": "If they don't give me a raise, I'll quit.",
+        "form": "אתפטר"
+      }
+    ],
+    "note": "להתפטר מ = to resign from: התפטר מהתפקיד. Compare לפטר את (pi'el) = to fire someone: 'פיטרו אותי' = I was fired. Don't confuse it with להיפטר מ (nif'al) = to get rid of. התפטרות = resignation; מכתב התפטרות = resignation letter."
+  },
+  {
+    "id": "verb_lehitrakez",
+    "inf": "להתרכז",
+    "tr": "lehitrakéz",
+    "en": "to concentrate, to focus",
+    "root": "ר.כ.ז",
+    "binyan": "hitpael",
+    "gizra": "regular (שלמים)",
+    "gov": "ב",
+    "level": "B1",
+    "present": {
+      "ms": ["מתרכז", "mitrakéz"],
+      "fs": ["מתרכזת", "mitrakézet"],
+      "mp": ["מתרכזים", "mitrakzím"],
+      "fp": ["מתרכזות", "mitrakzót"]
+    },
+    "past": {
+      "1s": ["התרכזתי", "hitrakázti"],
+      "2ms": ["התרכזת", "hitrakázta"],
+      "2fs": ["התרכזת", "hitrakázt"],
+      "3ms": ["התרכז", "hitrakéz"],
+      "3fs": ["התרכזה", "hitrakzá"],
+      "1p": ["התרכזנו", "hitrakáznu"],
+      "2mp": ["התרכזתם", "hitrakaztém"],
+      "2fp": ["התרכזתן", "hitrakaztén"],
+      "3p": ["התרכזו", "hitrakzú"]
+    },
+    "future": {
+      "1s": ["אתרכז", "etrakéz"],
+      "2ms": ["תתרכז", "titrakéz"],
+      "2fs": ["תתרכזי", "titrakzí"],
+      "3ms": ["יתרכז", "yitrakéz"],
+      "3fs": ["תתרכז", "titrakéz"],
+      "1p": ["נתרכז", "nitrakéz"],
+      "2mp": ["תתרכזו", "titrakzú"],
+      "3p": ["יתרכזו", "yitrakzú"]
+    },
+    "imp": {
+      "ms": ["התרכז", "hitrakéz"],
+      "fs": ["התרכזי", "hitrakzí"],
+      "mp": ["התרכזו", "hitrakzú"]
+    },
+    "ex": {
+      "he": "קשה לי להתרכז כשיש רעש במשרד.",
+      "en": "It's hard for me to concentrate when it's noisy in the office."
+    },
+    "exs": [
+      {
+        "he": "לא התרכזתי בשיעור, כי הייתי עייפה.",
+        "en": "I didn't concentrate in class because I was tired.",
+        "form": "התרכזתי"
+      },
+      {
+        "he": "השבוע אנחנו מתרכזים בלקוחות הגדולים.",
+        "en": "This week we're focusing on the big clients.",
+        "form": "מתרכזים"
+      },
+      {
+        "he": "תתרכזו בשאלה הראשונה, את השאר נעשה מחר.",
+        "en": "Focus on the first question; we'll do the rest tomorrow.",
+        "form": "תתרכזו"
+      }
+    ],
+    "note": "להתרכז ב = to concentrate on: להתרכז בעבודה. 'אני לא מצליח / מצליחה להתרכז' = I can't concentrate. Same root as מרכז (center) and ריכוז (concentration); לרכז את (pi'el) = to coordinate or gather, and רכז / רכזת = coordinator."
+  },
+  {
+    "id": "verb_lehitnadev",
+    "inf": "להתנדב",
+    "tr": "lehitnadév",
+    "en": "to volunteer",
+    "root": "נ.ד.ב",
+    "binyan": "hitpael",
+    "gizra": "regular (שלמים)",
+    "gov": "ב / ל",
+    "level": "B1",
+    "present": {
+      "ms": ["מתנדב", "mitnadév"],
+      "fs": ["מתנדבת", "mitnadévet"],
+      "mp": ["מתנדבים", "mitnadvím"],
+      "fp": ["מתנדבות", "mitnadvót"]
+    },
+    "past": {
+      "1s": ["התנדבתי", "hitnadávti"],
+      "2ms": ["התנדבת", "hitnadávta"],
+      "2fs": ["התנדבת", "hitnadávt"],
+      "3ms": ["התנדב", "hitnadév"],
+      "3fs": ["התנדבה", "hitnadvá"],
+      "1p": ["התנדבנו", "hitnadávnu"],
+      "2mp": ["התנדבתם", "hitnadavtém"],
+      "2fp": ["התנדבתן", "hitnadavtén"],
+      "3p": ["התנדבו", "hitnadvú"]
+    },
+    "future": {
+      "1s": ["אתנדב", "etnadév"],
+      "2ms": ["תתנדב", "titnadév"],
+      "2fs": ["תתנדבי", "titnadví"],
+      "3ms": ["יתנדב", "yitnadév"],
+      "3fs": ["תתנדב", "titnadév"],
+      "1p": ["נתנדב", "nitnadév"],
+      "2mp": ["תתנדבו", "titnadvú"],
+      "3p": ["יתנדבו", "yitnadvú"]
+    },
+    "imp": {
+      "ms": ["התנדב", "hitnadév"],
+      "fs": ["התנדבי", "hitnadví"],
+      "mp": ["התנדבו", "hitnadvú"]
+    },
+    "ex": {
+      "he": "בימי שישי אני מתנדבת בעמותה שעוזרת לקשישים.",
+      "en": "On Fridays I volunteer at a nonprofit that helps the elderly."
+    },
+    "exs": [
+      {
+        "he": "כל הכיתה התנדבה לנקות את החוף.",
+        "en": "The whole class volunteered to clean the beach.",
+        "form": "התנדבה"
+      },
+      {
+        "he": "הרבה סטודנטים מתנדבים בבתי חולים.",
+        "en": "Lots of students volunteer in hospitals.",
+        "form": "מתנדבים"
+      },
+      {
+        "he": "מי יתנדב לארגן את המסיבה?",
+        "en": "Who'll volunteer to organize the party?",
+        "form": "יתנדב"
+      }
+    ],
+    "note": "להתנדב ב + place or organization, ל + infinitive or task: התנדבתי לעזור. מתנדב / מתנדבת is also the noun 'volunteer'; התנדבות = volunteering, בהתנדבות = as a volunteer (unpaid). Note 'כל הכיתה התנדבה': כל + a singular noun takes the noun's agreement (כיתה is f.)."
+  },
+  {
+    "id": "verb_lehitgaagea",
+    "inf": "להתגעגע",
+    "tr": "lehitga'agéa",
+    "en": "to miss (someone or something)",
+    "root": "ג.ע.ג.ע",
+    "binyan": "hitpael",
+    "gizra": "4-letter root (reduplicated) + guttural (final ע)",
+    "gov": "ל / אל",
+    "level": "B1",
+    "present": {
+      "ms": ["מתגעגע", "mitga'agéa"],
+      "fs": ["מתגעגעת", "mitga'agá'at"],
+      "mp": ["מתגעגעים", "mitga'age'ím"],
+      "fp": ["מתגעגעות", "mitga'age'ót"]
+    },
+    "past": {
+      "1s": ["התגעגעתי", "hitga'agáti"],
+      "2ms": ["התגעגעת", "hitga'agáta"],
+      "2fs": ["התגעגעת", "hitga'agá'at"],
+      "3ms": ["התגעגע", "hitga'agéa"],
+      "3fs": ["התגעגעה", "hitga'age'á"],
+      "1p": ["התגעגענו", "hitga'agánu"],
+      "2mp": ["התגעגעתם", "hitga'agatém"],
+      "2fp": ["התגעגעתן", "hitga'agatén"],
+      "3p": ["התגעגעו", "hitga'age'ú"]
+    },
+    "future": {
+      "1s": ["אתגעגע", "etga'agéa"],
+      "2ms": ["תתגעגע", "titga'agéa"],
+      "2fs": ["תתגעגעי", "titga'age'í"],
+      "3ms": ["יתגעגע", "yitga'agéa"],
+      "3fs": ["תתגעגע", "titga'agéa"],
+      "1p": ["נתגעגע", "nitga'agéa"],
+      "2mp": ["תתגעגעו", "titga'age'ú"],
+      "3p": ["יתגעגעו", "yitga'age'ú"]
+    },
+    "imp": {
+      "ms": ["התגעגע", "hitga'agéa"],
+      "fs": ["התגעגעי", "hitga'age'í"],
+      "mp": ["התגעגעו", "hitga'age'ú"]
+    },
+    "rare": ["imp"],
+    "ex": {
+      "he": "אני מתגעגעת אליך מאוד.",
+      "en": "I miss you very much."
+    },
+    "exs": [
+      {
+        "he": "התגעגענו לים כשגרנו בירושלים.",
+        "en": "We missed the sea when we lived in Jerusalem.",
+        "form": "התגעגענו"
+      },
+      {
+        "he": "הילדים מתגעגעים לסבא ולסבתא.",
+        "en": "The kids miss Grandpa and Grandma.",
+        "form": "מתגעגעים"
+      },
+      {
+        "he": "אני יודע שאתגעגע לצוות הזה.",
+        "en": "I know I'll miss this team.",
+        "form": "אתגעגע"
+      }
+    ],
+    "note": "With ל or אל, never את: אני מתגעגע אלייך / לבית. Greeting a friend you haven't seen: 'התגעגעתי!' = I missed you! The root repeats two letters (ג.ע.ג.ע), so the forms are long; the final ע works like שומע / שומעת: מתגעגע (mitga'agéa), מתגעגעת (mitga'agá'at). געגועים = longing. The imperative isn't used."
+  },
+  {
+    "id": "verb_lehitbayesh",
+    "inf": "להתבייש",
+    "tr": "lehitbayésh",
+    "en": "to be ashamed; to be shy, to be embarrassed",
+    "root": "ב.י.ש",
+    "binyan": "hitpael",
+    "gizra": "regular (שלמים), consonant י written יי",
+    "gov": "ב",
+    "level": "B1",
+    "present": {
+      "ms": ["מתבייש", "mitbayésh"],
+      "fs": ["מתביישת", "mitbayéshet"],
+      "mp": ["מתביישים", "mitbayshím"],
+      "fp": ["מתביישות", "mitbayshót"]
+    },
+    "past": {
+      "1s": ["התביישתי", "hitbayáshti"],
+      "2ms": ["התביישת", "hitbayáshta"],
+      "2fs": ["התביישת", "hitbayásht"],
+      "3ms": ["התבייש", "hitbayésh"],
+      "3fs": ["התביישה", "hitbayshá"],
+      "1p": ["התביישנו", "hitbayáshnu"],
+      "2mp": ["התביישתם", "hitbayashtém"],
+      "2fp": ["התביישתן", "hitbayashtén"],
+      "3p": ["התביישו", "hitbayshú"]
+    },
+    "future": {
+      "1s": ["אתבייש", "etbayésh"],
+      "2ms": ["תתבייש", "titbayésh"],
+      "2fs": ["תתביישי", "titbayshí"],
+      "3ms": ["יתבייש", "yitbayésh"],
+      "3fs": ["תתבייש", "titbayésh"],
+      "1p": ["נתבייש", "nitbayésh"],
+      "2mp": ["תתביישו", "titbayshú"],
+      "3p": ["יתביישו", "yitbayshú"]
+    },
+    "imp": {
+      "ms": ["התבייש", "hitbayésh"],
+      "fs": ["התביישי", "hitbayshí"],
+      "mp": ["התביישו", "hitbayshú"]
+    },
+    "rare": ["imp"],
+    "ex": {
+      "he": "אל תתביישי, תיקחי עוד עוגה!",
+      "en": "Don't be shy, have some more cake!"
+    },
+    "exs": [
+      {
+        "he": "הוא התבייש לשאול שאלה מול כל הכיתה.",
+        "en": "He was too embarrassed to ask a question in front of the whole class.",
+        "form": "התבייש"
+      },
+      {
+        "he": "אני לא מתביישת לבקש עזרה.",
+        "en": "I'm not ashamed to ask for help.",
+        "form": "מתביישת"
+      },
+      {
+        "he": "שכחת את יום ההולדת של אמא? תתבייש לך!",
+        "en": "You forgot Mom's birthday? Shame on you!",
+        "form": "תתבייש"
+      }
+    ],
+    "note": "Two senses: ashamed (להתבייש ב: הוא מתבייש בטעות שלו) and shy / embarrassed (+ infinitive: היא מתביישת לשאול). A host's 'אל תתבייש/י' = don't be shy, help yourself; 'תתבייש לך!' = shame on you! ביישן / ביישנית = shy (person), בושה = shame. The consonant y is written יי. The real imperative isn't used; these phrases use the future."
+  },
+  {
+    "id": "verb_lehitpateakh",
+    "inf": "להתפתח",
+    "tr": "lehitpatéakh",
+    "en": "to develop, to evolve",
+    "root": "פ.ת.ח",
+    "binyan": "hitpael",
+    "gizra": "guttural (final ח)",
+    "level": "B2",
+    "present": {
+      "ms": ["מתפתח", "mitpatéakh"],
+      "fs": ["מתפתחת", "mitpatákhat"],
+      "mp": ["מתפתחים", "mitpatkhím"],
+      "fp": ["מתפתחות", "mitpatkhót"]
+    },
+    "past": {
+      "1s": ["התפתחתי", "hitpatákhti"],
+      "2ms": ["התפתחת", "hitpatákhta"],
+      "2fs": ["התפתחת", "hitpatákhat"],
+      "3ms": ["התפתח", "hitpatéakh"],
+      "3fs": ["התפתחה", "hitpatkhá"],
+      "1p": ["התפתחנו", "hitpatákhnu"],
+      "2mp": ["התפתחתם", "hitpatakhtém"],
+      "2fp": ["התפתחתן", "hitpatakhtén"],
+      "3p": ["התפתחו", "hitpatkhú"]
+    },
+    "future": {
+      "1s": ["אתפתח", "etpatéakh"],
+      "2ms": ["תתפתח", "titpatéakh"],
+      "2fs": ["תתפתחי", "titpatkhí"],
+      "3ms": ["יתפתח", "yitpatéakh"],
+      "3fs": ["תתפתח", "titpatéakh"],
+      "1p": ["נתפתח", "nitpatéakh"],
+      "2mp": ["תתפתחו", "titpatkhú"],
+      "3p": ["יתפתחו", "yitpatkhú"]
+    },
+    "imp": {
+      "ms": ["התפתח", "hitpatéakh"],
+      "fs": ["התפתחי", "hitpatkhí"],
+      "mp": ["התפתחו", "hitpatkhú"]
+    },
+    "rare": ["imp"],
+    "ex": {
+      "he": "תל אביב התפתחה מאוד בעשורים האחרונים.",
+      "en": "Tel Aviv has developed a great deal in recent decades."
+    },
+    "exs": [
+      {
+        "he": "מה שהתחיל כשיחה קטנה התפתח לוויכוח גדול.",
+        "en": "What started as a small conversation developed into a big argument.",
+        "form": "התפתח"
+      },
+      {
+        "he": "תעשיית ההייטק בישראל מתפתחת מהר.",
+        "en": "The high-tech industry in Israel is developing fast.",
+        "form": "מתפתחת"
+      },
+      {
+        "he": "אף אחד לא יודע איך השוק יתפתח בשנה הבאה.",
+        "en": "Nobody knows how the market will develop next year.",
+        "form": "יתפתח"
+      }
+    ],
+    "note": "Intransitive: something develops by itself; להתפתח ל = to develop into. To develop something is לפתח את (pi'el): לפתח אפליקציה. מפתח / מפתחת (mefatéakh) = developer, not to be confused with מפתח (maftéakh) = key. התפתחות = development (a process), פיתוח = development (of a product). Final guttural ח: התפתח (hitpatéakh), מתפתחת (mitpatákhat)."
+  },
+  {
+    "id": "verb_lehitmoded",
+    "inf": "להתמודד",
+    "tr": "lehitmodéd",
+    "en": "to cope, to deal (with); to compete",
+    "root": "מ.ד.ד",
+    "binyan": "hitpael",
+    "gizra": "ע״ע (geminate, doubled ד)",
+    "gov": "עם / על",
+    "level": "B1",
+    "present": {
+      "ms": ["מתמודד", "mitmodéd"],
+      "fs": ["מתמודדת", "mitmodédet"],
+      "mp": ["מתמודדים", "mitmodedím"],
+      "fp": ["מתמודדות", "mitmodedót"]
+    },
+    "past": {
+      "1s": ["התמודדתי", "hitmodádti"],
+      "2ms": ["התמודדת", "hitmodádta"],
+      "2fs": ["התמודדת", "hitmodádt"],
+      "3ms": ["התמודד", "hitmodéd"],
+      "3fs": ["התמודדה", "hitmodedá"],
+      "1p": ["התמודדנו", "hitmodádnu"],
+      "2mp": ["התמודדתם", "hitmodadtém"],
+      "2fp": ["התמודדתן", "hitmodadtén"],
+      "3p": ["התמודדו", "hitmodedú"]
+    },
+    "future": {
+      "1s": ["אתמודד", "etmodéd"],
+      "2ms": ["תתמודד", "titmodéd"],
+      "2fs": ["תתמודדי", "titmodedí"],
+      "3ms": ["יתמודד", "yitmodéd"],
+      "3fs": ["תתמודד", "titmodéd"],
+      "1p": ["נתמודד", "nitmodéd"],
+      "2mp": ["תתמודדו", "titmodedú"],
+      "3p": ["יתמודדו", "yitmodedú"]
+    },
+    "imp": {
+      "ms": ["התמודד", "hitmodéd"],
+      "fs": ["התמודדי", "hitmodedí"],
+      "mp": ["התמודדו", "hitmodedú"]
+    },
+    "ex": {
+      "he": "איך את מתמודדת עם הלחץ בעבודה?",
+      "en": "How do you cope with the pressure at work?"
+    },
+    "exs": [
+      {
+        "he": "התמודדנו עם הרבה בעיות בשנה הראשונה של העסק.",
+        "en": "We dealt with a lot of problems in the business's first year.",
+        "form": "התמודדנו"
+      },
+      {
+        "he": "שלושה מועמדים מתמודדים על התפקיד.",
+        "en": "Three candidates are competing for the position.",
+        "form": "מתמודדים"
+      },
+      {
+        "he": "אל תדאג, נתמודד עם זה ביחד.",
+        "en": "Don't worry, we'll deal with it together.",
+        "form": "נתמודד"
+      }
+    ],
+    "note": "להתמודד עם = to cope with, to deal with: להתמודד עם לחץ / עם בעיה. להתמודד על = to compete for, to run for: מתמודד על תפקיד. מתמודד / מתמודדת also = contestant; התמודדות = coping. Doubled root with an o-e pattern, like התכונן: התמודדה (hitmodedá), מתמודדים (mitmodedím)."
+  },
+  {
+    "id": "verb_lehityakhes",
+    "inf": "להתייחס",
+    "tr": "lehityakhés",
+    "en": "to treat (someone); to refer to, to respond to",
+    "root": "י.ח.ס",
+    "binyan": "hitpael",
+    "gizra": "guttural (middle ח)",
+    "gov": "ל / אל",
+    "level": "B1",
+    "present": {
+      "ms": ["מתייחס", "mityakhés"],
+      "fs": ["מתייחסת", "mityakhéset"],
+      "mp": ["מתייחסים", "mityakhasím"],
+      "fp": ["מתייחסות", "mityakhasót"]
+    },
+    "past": {
+      "1s": ["התייחסתי", "hityakhásti"],
+      "2ms": ["התייחסת", "hityakhásta"],
+      "2fs": ["התייחסת", "hityakhást"],
+      "3ms": ["התייחס", "hityakhés"],
+      "3fs": ["התייחסה", "hityakhasá"],
+      "1p": ["התייחסנו", "hityakhásnu"],
+      "2mp": ["התייחסתם", "hityakhastém"],
+      "2fp": ["התייחסתן", "hityakhastén"],
+      "3p": ["התייחסו", "hityakhasú"]
+    },
+    "future": {
+      "1s": ["אתייחס", "etyakhés"],
+      "2ms": ["תתייחס", "tityakhés"],
+      "2fs": ["תתייחסי", "tityakhasí"],
+      "3ms": ["יתייחס", "yityakhés"],
+      "3fs": ["תתייחס", "tityakhés"],
+      "1p": ["נתייחס", "nityakhés"],
+      "2mp": ["תתייחסו", "tityakhasú"],
+      "3p": ["יתייחסו", "yityakhasú"]
+    },
+    "imp": {
+      "ms": ["התייחס", "hityakhés"],
+      "fs": ["התייחסי", "hityakhasí"],
+      "mp": ["התייחסו", "hityakhasú"]
+    },
+    "ex": {
+      "he": "תודה על המייל, אתייחס לכל הנקודות מחר.",
+      "en": "Thanks for the email; I'll address all the points tomorrow."
+    },
+    "exs": [
+      {
+        "he": "בבית החולים התייחסו אליי מאוד יפה.",
+        "en": "At the hospital they treated me really well.",
+        "form": "התייחסו"
+      },
+      {
+        "he": "הוא מתייחס לכל לקוח כמו לחבר.",
+        "en": "He treats every customer like a friend.",
+        "form": "מתייחס"
+      },
+      {
+        "he": "הדוח יתייחס רק לשנה האחרונה.",
+        "en": "The report will only cover the last year.",
+        "form": "יתייחס"
+      }
+    ],
+    "note": "להתייחס ל / אל has two main senses: to treat someone (התייחסו אליי יפה) and to refer or respond to something (לא התייחסת לשאלה שלי = you didn't address my question). 'הוא לא מתייחס אליי' = he ignores me. יחס = attitude, relation; התייחסות = reference, response. The guttural ח keeps an 'a': התייחסה (hityakhasá); the consonant y is written יי."
+  }
+]

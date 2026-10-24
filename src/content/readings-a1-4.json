@@ -1,0 +1,459 @@
+[
+  {
+    "id": "r_a1_postcard_eilat",
+    "level": "A1",
+    "title": "גלויה מאילת",
+    "titleEn": "A postcard from Eilat",
+    "topic": "travel",
+    "kind": "letter",
+    "paragraphs": [
+      {
+        "he": "סבתא יקרה, שלום מאילת!",
+        "en": "Dear Grandma, greetings from Eilat!"
+      },
+      {
+        "he": "אני פה עם אבא ואימא. היום חם מאוד, שלושים וחמש מעלות. השמש חזקה, והשמיים כחולים.",
+        "en": "I'm here with Dad and Mum. Today it's very hot, thirty-five degrees. The sun is strong and the sky is blue."
+      },
+      {
+        "he": "המלון שלנו גדול ויפה. החדר קטן, אבל יש מרפסת. מהמרפסת אני רואה את הים ואת ההרים.",
+        "en": "Our hotel is big and beautiful. The room is small, but there's a balcony. From the balcony I can see the sea and the mountains."
+      },
+      {
+        "he": "בבוקר אנחנו אוכלים ארוחת בוקר גדולה במלון. אחר כך אנחנו הולכים לים. המים חמים ונקיים. אני שוחה עם מסכה ורואה דגים צבעוניים.",
+        "en": "In the morning we eat a big breakfast at the hotel. Then we go to the beach. The water is warm and clean. I swim with a mask and see colourful fish."
+      },
+      {
+        "he": "עכשיו ערב, והאוויר נעים. אבא ואימא שותים קפה, ואני כותב לך גלויה. אני מתגעגע אלייך! מחר אנחנו חוזרים הביתה.",
+        "en": "Now it's evening, and the air is pleasant. Dad and Mum are drinking coffee, and I'm writing you a postcard. I miss you! Tomorrow we're going back home."
+      },
+      {
+        "he": "נשיקות, דניאל",
+        "en": "Love (literally: kisses), Daniel"
+      }
+    ],
+    "glossary": [
+      { "he": "גלויה", "en": "postcard", "tr": "gluyá" },
+      { "he": "יקרה", "en": "dear (to a woman; to a man: יקר)", "tr": "yekará" },
+      { "he": "מעלות", "en": "degrees (singular מעלה)", "tr": "ma'alót" },
+      { "he": "שמש", "en": "sun (feminine: השמש חזקה)", "tr": "shémesh" },
+      { "he": "שמיים", "en": "sky (always plural: השמיים כחולים)", "tr": "shamáyim" },
+      { "he": "מרפסת", "en": "balcony", "tr": "mirpéset" },
+      { "he": "הרים", "en": "mountains (singular הר)", "tr": "harím" },
+      { "he": "נקיים", "en": "clean (masculine plural; singular נקי)", "tr": "neki'ím" },
+      { "he": "שוחה", "en": "swim(s) (present; infinitive לשחות)", "tr": "sokhé" },
+      { "he": "מסכה", "en": "mask (here: a diving mask)", "tr": "masékha" },
+      { "he": "צבעוניים", "en": "colourful (masculine plural)", "tr": "tsiv'oniyím" },
+      { "he": "נעים", "en": "pleasant, nice", "tr": "na'ím" },
+      { "he": "אני מתגעגע אלייך", "en": "I miss you (a man to a woman)", "tr": "aní mitga'agéa eláyikh" },
+      { "he": "חוזרים הביתה", "en": "go back home (infinitive לחזור)", "tr": "khozrím habáyta" }
+    ],
+    "questions": [
+      {
+        "q": "איך מזג האוויר באילת היום?",
+        "qEn": "What's the weather like in Eilat today?",
+        "answer": "חם מאוד, שלושים וחמש מעלות.",
+        "answerEn": "Very hot, thirty-five degrees.",
+        "keywords": [["חם", "חמה", "חום", "מעלות", "שלושים", "35"]]
+      },
+      {
+        "q": "מה דניאל רואה מהמרפסת?",
+        "qEn": "What does Daniel see from the balcony?",
+        "answer": "הוא רואה את הים ואת ההרים.",
+        "answerEn": "He sees the sea and the mountains.",
+        "keywords": [["ים"], ["הרים", "הר"]]
+      },
+      {
+        "q": "מה עושים אבא ואימא של דניאל עכשיו?",
+        "qEn": "What are Daniel's dad and mum doing now?",
+        "answer": "הם שותים קפה.",
+        "answerEn": "They're drinking coffee.",
+        "keywords": [["שותים", "שותה", "לשתות"], ["קפה"]]
+      }
+    ],
+    "tf": [
+      {
+        "s": "דניאל באילת עם ההורים שלו.",
+        "sEn": "Daniel is in Eilat with his parents.",
+        "a": true,
+        "why": "He writes: \"I'm here with Dad and Mum.\""
+      },
+      {
+        "s": "החדר במלון גדול מאוד.",
+        "sEn": "The hotel room is very big.",
+        "a": false,
+        "why": "The hotel is big, but the room is small. It does have a balcony."
+      },
+      {
+        "s": "המים בים קרים.",
+        "sEn": "The water in the sea is cold.",
+        "a": false,
+        "why": "He writes that the water is warm and clean."
+      },
+      {
+        "s": "מחר דניאל חוזר הביתה.",
+        "sEn": "Tomorrow Daniel is going back home.",
+        "a": true,
+        "why": "The last line says: \"Tomorrow we're going back home.\""
+      }
+    ],
+    "find": [
+      { "en": "breakfast", "answer": ["ארוחת בוקר"] },
+      { "en": "a balcony", "answer": ["מרפסת"] },
+      { "en": "colourful fish", "answer": ["דגים צבעוניים"] },
+      { "en": "I miss you", "answer": ["אני מתגעגע אלייך"] }
+    ],
+    "summary": [
+      {
+        "prompt": "דניאל כותב לסבתא מ___.",
+        "en": "Daniel is writing to his grandma from Eilat.",
+        "answer": ["אילת"],
+        "hint": "a city"
+      },
+      {
+        "prompt": "היום חם מאוד, וה___ חזקה.",
+        "en": "Today it's very hot, and the sun is strong.",
+        "answer": ["שמש"]
+      },
+      {
+        "prompt": "החדר קטן, אבל יש ___.",
+        "en": "The room is small, but there's a balcony.",
+        "answer": ["מרפסת"]
+      },
+      {
+        "prompt": "בים דניאל רואה ___ צבעוניים.",
+        "en": "In the sea Daniel sees colourful fish.",
+        "answer": ["דגים"]
+      },
+      {
+        "prompt": "מחר המשפחה ___ הביתה.",
+        "en": "Tomorrow the family goes back home.",
+        "answer": ["חוזרת", "נוסעת"],
+        "hint": "goes back (feminine singular: המשפחה)"
+      }
+    ],
+    "writing": {
+      "prompt": "כתבו גלויה קצרה מחופשה: איפה אתם, איך מזג האוויר ומה אתם עושים?",
+      "promptEn": "Write a short postcard from a holiday: where are you, what's the weather like, and what are you doing?",
+      "minWords": 15,
+      "useWords": ["היום", "עכשיו", "מלון", "יש"],
+      "checklist": [
+        {
+          "en": "Say where you are (a city, a hotel, the beach...)",
+          "keywords": ["פה", "כאן", "נמצא", "נמצאת", "נמצאים", "מלון", "ים"]
+        },
+        {
+          "en": "Describe the weather",
+          "keywords": ["חם", "קר", "שמש", "גשם", "מעלות", "רוח", "נעים"]
+        },
+        {
+          "en": "Say what you do there",
+          "keywords": ["הולכים", "הולך", "הולכת", "אוכלים", "אוכל", "אוכלת", "שוחים", "שוחה", "יושבים", "יושב", "יושבת", "שותים", "רואים", "רואה"]
+        },
+        {
+          "en": "Use היום or עכשיו",
+          "keywords": ["היום", "עכשיו"]
+        }
+      ],
+      "model": "חברים יקרים, שלום מחיפה! אנחנו פה שלושה ימים. היום יש שמש, אבל לא חם מאוד. המלון שלנו קטן ונעים. בבוקר אנחנו הולכים לים, ובערב אנחנו אוכלים במסעדה. עכשיו אנחנו בבית קפה ליד הים. נשיקות!",
+      "modelEn": "Dear friends, greetings from Haifa! We're here for three days. Today it's sunny, but not very hot. Our hotel is small and pleasant. In the morning we go to the beach, and in the evening we eat at a restaurant. Now we're at a café by the sea. Love!"
+    }
+  },
+  {
+    "id": "r_a1_new_neighbour",
+    "level": "A1",
+    "title": "השכן החדש",
+    "titleEn": "The new neighbour",
+    "topic": "home",
+    "kind": "story",
+    "paragraphs": [
+      {
+        "he": "יום ראשון, שבע וחצי בבוקר. תמר יוצאת לעבודה. על המדרגות היא פוגשת איש צעיר. יש לו שני ארגזים גדולים.",
+        "en": "Sunday, half past seven in the morning. Tamar is leaving for work. On the stairs she meets a young man. He has two big boxes."
+      },
+      {
+        "he": "\"בוקר טוב! אתה השכן החדש?\" היא שואלת. \"כן, אני סמיר. אני גר בדירה שמונה.\" \"נעים מאוד, אני תמר, מדירה שש.\"",
+        "en": "\"Good morning! Are you the new neighbour?\" she asks. \"Yes, I'm Samir. I live in apartment eight.\" \"Nice to meet you, I'm Tamar, from apartment six.\""
+      },
+      {
+        "he": "\"מאיפה אתה?\" שואלת תמר. \"אני מנצרת. אני מורה למתמטיקה, פה בחיפה. ומה את עושה?\" \"אני אחות בבית חולים.\"",
+        "en": "\"Where are you from?\" Tamar asks. \"I'm from Nazareth. I'm a maths teacher, here in Haifa. And what do you do?\" \"I'm a nurse at a hospital.\""
+      },
+      {
+        "he": "\"יש לך משפחה?\" \"כן, יש לי אישה ושתי בנות. הן מגיעות מחר.\"",
+        "en": "\"Do you have a family?\" \"Yes, I have a wife and two daughters. They're arriving tomorrow.\""
+      },
+      {
+        "he": "תמר מחייכת: \"גם לי יש בת, היא בת חמש. ברוך הבא לבניין!\" ועכשיו היא יוצאת לעבודה עם חיוך.",
+        "en": "Tamar smiles: \"I have a daughter too, she's five. Welcome to the building!\" And now she leaves for work with a smile."
+      }
+    ],
+    "glossary": [
+      { "he": "יוצאת לעבודה", "en": "leaves for work (infinitive לצאת)", "tr": "yotsét la-avodá" },
+      { "he": "מדרגות", "en": "stairs (singular מדרגה)", "tr": "madregót" },
+      { "he": "פוגשת", "en": "meets (feminine; infinitive לפגוש)", "tr": "pogéshet" },
+      { "he": "ארגזים", "en": "boxes, crates (singular ארגז)", "tr": "argazím" },
+      { "he": "שכן", "en": "neighbour (a woman: שכנה)", "tr": "shakhén" },
+      { "he": "דירה", "en": "apartment, flat", "tr": "dirá" },
+      { "he": "נעים מאוד", "en": "nice to meet you (literally: very pleasant)", "tr": "na'ím me'ód" },
+      { "he": "מאיפה", "en": "where from", "tr": "me'éyfo" },
+      { "he": "אחות", "en": "nurse (also: sister)", "tr": "akhót" },
+      { "he": "מגיעות", "en": "arrive, are coming (feminine plural; infinitive להגיע)", "tr": "magi'ót" },
+      { "he": "בת חמש", "en": "five years old (a girl; a boy: בן חמש)", "tr": "bat khamésh" },
+      { "he": "מחייכת", "en": "smiles (feminine; infinitive לחייך)", "tr": "mekhayékhet" },
+      { "he": "ברוך הבא", "en": "welcome (to a man; to a woman: ברוכה הבאה)", "tr": "barúkh habá" },
+      { "he": "בניין", "en": "building", "tr": "binyán" }
+    ],
+    "questions": [
+      {
+        "q": "איפה תמר פוגשת את סמיר?",
+        "qEn": "Where does Tamar meet Samir?",
+        "answer": "על המדרגות.",
+        "answerEn": "On the stairs.",
+        "keywords": [["מדרגות", "מדרגה"]]
+      },
+      {
+        "q": "מה העבודה של סמיר?",
+        "qEn": "What is Samir's job?",
+        "answer": "הוא מורה למתמטיקה.",
+        "answerEn": "He's a maths teacher.",
+        "keywords": [["מורה", "מלמד"], ["מתמטיקה"]]
+      },
+      {
+        "q": "מי מגיע מחר?",
+        "qEn": "Who is arriving tomorrow?",
+        "answer": "האישה והבנות של סמיר.",
+        "answerEn": "Samir's wife and daughters.",
+        "keywords": [["אישה", "אשתו"], ["בנות", "בת", "ילדות"]]
+      }
+    ],
+    "tf": [
+      {
+        "s": "סמיר גר בדירה שמונה.",
+        "sEn": "Samir lives in apartment eight.",
+        "a": true,
+        "why": "Samir says: \"I live in apartment eight.\""
+      },
+      {
+        "s": "סמיר מחיפה.",
+        "sEn": "Samir is from Haifa.",
+        "a": false,
+        "why": "Samir is from Nazareth. He works as a teacher in Haifa."
+      },
+      {
+        "s": "תמר מורה בבית ספר.",
+        "sEn": "Tamar is a teacher at a school.",
+        "a": false,
+        "why": "Tamar is a nurse at a hospital. Samir is the teacher."
+      },
+      {
+        "s": "גם לתמר יש ילדה.",
+        "sEn": "Tamar has a little girl too.",
+        "a": true,
+        "why": "Tamar says she has a daughter too, and she is five."
+      }
+    ],
+    "find": [
+      { "en": "on the stairs", "answer": ["על המדרגות"] },
+      { "en": "the new neighbour", "answer": ["השכן החדש"] },
+      { "en": "Nice to meet you", "answer": ["נעים מאוד"] },
+      { "en": "Welcome to the building!", "answer": ["ברוך הבא לבניין"] }
+    ],
+    "summary": [
+      {
+        "prompt": "בבוקר תמר פוגשת את ה___ החדש על המדרגות.",
+        "en": "In the morning Tamar meets the new neighbour on the stairs.",
+        "answer": ["שכן"],
+        "hint": "neighbour"
+      },
+      {
+        "prompt": "סמיר מ___, והוא מורה בחיפה.",
+        "en": "Samir is from Nazareth, and he's a teacher in Haifa.",
+        "answer": ["נצרת"],
+        "hint": "a city"
+      },
+      {
+        "prompt": "תמר ___ בבית חולים.",
+        "en": "Tamar is a nurse at a hospital.",
+        "answer": ["אחות", "עובדת"],
+        "hint": "her job"
+      },
+      {
+        "prompt": "לסמיר יש אישה ו___ בנות.",
+        "en": "Samir has a wife and two daughters.",
+        "answer": ["שתי"],
+        "hint": "a number (בנות is feminine)"
+      }
+    ],
+    "writing": {
+      "prompt": "ספרו לשכן חדש על עצמכם: מה השם שלכם, מאיפה אתם, איפה אתם עובדים ומי במשפחה שלכם?",
+      "promptEn": "Tell a new neighbour about yourself: your name, where you're from, where you work and who is in your family.",
+      "minWords": 15,
+      "useWords": ["נעים מאוד", "שמי", "עבודה", "יש לי"],
+      "checklist": [
+        {
+          "en": "Say your name",
+          "keywords": ["שמי", "קוראים לי", "השם שלי"]
+        },
+        {
+          "en": "Say what your job is or where you work",
+          "keywords": ["עבודה", "עובד", "עובדת", "מורה", "סטודנט", "סטודנטית", "מהנדס", "מהנדסת", "רופא", "רופאה", "אחות"]
+        },
+        {
+          "en": "Say something about your family",
+          "keywords": ["ילדים", "ילד", "ילדה", "בן", "בת", "אישה", "בעל", "משפחה", "הורים", "בן זוג", "בת זוג"]
+        }
+      ],
+      "model": "בוקר טוב, נעים מאוד! שמי אלכס, אני מדירה ארבע. אני מקנדה, אבל עכשיו הבית שלי בחיפה. העבודה שלי בבנק, ליד הים. יש לי שני ילדים, בן ובת. הם בני שש ותשע. ברוך הבא לבניין!",
+      "modelEn": "Good morning, nice to meet you! My name is Alex, I'm from apartment four. I'm from Canada, but now my home is in Haifa. My job is at a bank, near the sea. I have two children, a son and a daughter. They're six and nine. Welcome to the building!"
+    }
+  },
+  {
+    "id": "r_a1_shopping_list",
+    "level": "A1",
+    "title": "מה צריך לקנות?",
+    "titleEn": "What do we need to buy?",
+    "topic": "shopping",
+    "kind": "chat",
+    "paragraphs": [
+      { "he": "שירה: מישה, אתה בסופר?", "en": "Shira: Misha, are you at the supermarket?" },
+      { "he": "מישה: כן, אני פה עכשיו. מה צריך לקנות?", "en": "Misha: Yes, I'm here now. What do we need to buy?" },
+      { "he": "שירה: אין בבית חלב. צריך לקנות שני קרטונים.", "en": "Shira: There's no milk at home. We need to buy two cartons." },
+      { "he": "מישה: בסדר. ויש ביצים?", "en": "Misha: OK. And are there any eggs?" },
+      { "he": "שירה: יש רק שתי ביצים. צריך עוד קרטון.", "en": "Shira: There are only two eggs. We need another carton." },
+      { "he": "מישה: ופירות וירקות?", "en": "Misha: And fruit and vegetables?" },
+      { "he": "שירה: יש בבית תפוחים ובננות. צריך קילו עגבניות ושלושה מלפפונים.", "en": "Shira: There are apples and bananas at home. We need a kilo of tomatoes and three cucumbers." },
+      { "he": "מישה: גם גבינה?", "en": "Misha: Cheese too?" },
+      { "he": "שירה: כן, גבינה לבנה וגבינה צהובה. וגם שתי חבילות פסטה.", "en": "Shira: Yes, white cheese and yellow cheese. And also two packets of pasta." },
+      { "he": "מישה: אין פה גבינה צהובה היום.", "en": "Misha: There's no yellow cheese here today." },
+      { "he": "שירה: לא נורא, אז רק גבינה לבנה. זה הכול. תודה, אתה מלך!", "en": "Shira: Never mind, then just white cheese. That's all. Thanks, you're the best!" },
+      { "he": "מישה: בכיף! אני בבית בעוד חצי שעה.", "en": "Misha: My pleasure! I'll be home in half an hour." }
+    ],
+    "glossary": [
+      { "he": "סופר", "en": "supermarket (short for סופרמרקט)", "tr": "súper" },
+      { "he": "צריך לקנות", "en": "(we) need to buy", "tr": "tsaríkh liknót" },
+      { "he": "אין בבית", "en": "there's no ... at home", "tr": "éyn ba-báyit" },
+      { "he": "קרטון", "en": "carton (plural קרטונים)", "tr": "kartón" },
+      { "he": "ביצים", "en": "eggs (singular ביצה; feminine, although the plural ends in -ים)", "tr": "beytsím" },
+      { "he": "עגבניות", "en": "tomatoes (singular עגבנייה)", "tr": "agvaniyót" },
+      { "he": "מלפפונים", "en": "cucumbers (singular מלפפון)", "tr": "melafefoním" },
+      { "he": "חבילות", "en": "packets, packages (singular חבילה)", "tr": "khavilót" },
+      { "he": "גבינה לבנה", "en": "white cheese (a soft, spreadable cheese)", "tr": "gviná levaná" },
+      { "he": "גבינה צהובה", "en": "yellow cheese (any hard cheese, like Gouda)", "tr": "gviná tsehubá" },
+      { "he": "לא נורא", "en": "never mind, no big deal", "tr": "lo norá" },
+      { "he": "אתה מלך", "en": "you're the best (literally: you're a king)", "tr": "atá mélekh" },
+      { "he": "בכיף", "en": "with pleasure, gladly (informal)", "tr": "be-kéf" },
+      { "he": "בעוד חצי שעה", "en": "in half an hour (from now)", "tr": "be-ód khétsi sha'á" }
+    ],
+    "questions": [
+      {
+        "q": "איפה מישה עכשיו?",
+        "qEn": "Where is Misha now?",
+        "answer": "הוא בסופר.",
+        "answerEn": "He's at the supermarket.",
+        "keywords": [["סופר", "סופרמרקט", "מכולת"]]
+      },
+      {
+        "q": "כמה מלפפונים מישה צריך לקנות?",
+        "qEn": "How many cucumbers does Misha need to buy?",
+        "answer": "שלושה מלפפונים.",
+        "answerEn": "Three cucumbers.",
+        "keywords": [["שלושה", "שלוש", "3"]]
+      },
+      {
+        "q": "איזו גבינה מישה קונה בסוף?",
+        "qEn": "Which cheese does Misha buy in the end?",
+        "answer": "רק גבינה לבנה.",
+        "answerEn": "Only white cheese.",
+        "keywords": [["לבנה", "לבן"]]
+      }
+    ],
+    "tf": [
+      {
+        "s": "בבית אין חלב.",
+        "sEn": "There's no milk at home.",
+        "a": true,
+        "why": "Shira writes: \"There's no milk at home. We need to buy two cartons.\""
+      },
+      {
+        "s": "בבית יש הרבה ביצים.",
+        "sEn": "There are lots of eggs at home.",
+        "a": false,
+        "why": "There are only two eggs, so they need another carton."
+      },
+      {
+        "s": "צריך לקנות תפוחים.",
+        "sEn": "They need to buy apples.",
+        "a": false,
+        "why": "There are already apples and bananas at home. They need tomatoes and cucumbers."
+      },
+      {
+        "s": "מישה חוזר הביתה בעוד חצי שעה.",
+        "sEn": "Misha is coming back home in half an hour.",
+        "a": true,
+        "why": "Misha's last message says: \"I'll be home in half an hour.\""
+      }
+    ],
+    "find": [
+      { "en": "There's no milk at home", "answer": ["אין בבית חלב"] },
+      { "en": "a kilo of tomatoes", "answer": ["קילו עגבניות"] },
+      { "en": "two packets of pasta", "answer": ["שתי חבילות פסטה"] },
+      { "en": "Never mind", "answer": ["לא נורא"] }
+    ],
+    "summary": [
+      {
+        "prompt": "מישה ב___ ושואל: מה צריך לקנות?",
+        "en": "Misha is at the supermarket and asks: what do we need to buy?",
+        "answer": ["סופר", "סופרמרקט"]
+      },
+      {
+        "prompt": "בבית אין ___, אז צריך שני קרטונים.",
+        "en": "There's no milk at home, so they need two cartons.",
+        "answer": ["חלב"]
+      },
+      {
+        "prompt": "בבית יש רק ___ ביצים.",
+        "en": "There are only two eggs at home.",
+        "answer": ["שתי"],
+        "hint": "a number (ביצה is feminine)"
+      },
+      {
+        "prompt": "צריך קילו ___ ושלושה מלפפונים.",
+        "en": "They need a kilo of tomatoes and three cucumbers.",
+        "answer": ["עגבניות"]
+      },
+      {
+        "prompt": "בסופר אין גבינה ___, אז מישה קונה רק גבינה לבנה.",
+        "en": "There's no yellow cheese at the supermarket, so Misha buys only white cheese.",
+        "answer": ["צהובה"],
+        "hint": "a colour"
+      }
+    ],
+    "writing": {
+      "prompt": "כתבו הודעה לחבר או לחברה בסופר: מה יש בבית, מה אין ומה צריך לקנות?",
+      "promptEn": "Write a message to a friend who is at the supermarket: what is there at home, what isn't there, and what needs to be bought?",
+      "minWords": 15,
+      "useWords": ["יש בבית", "אין", "צריך לקנות", "קילו"],
+      "checklist": [
+        {
+          "en": "Say what there is at home (יש)",
+          "keywords": ["יש"]
+        },
+        {
+          "en": "Say what is missing (אין)",
+          "keywords": ["אין", "נגמר", "נגמרו"]
+        },
+        {
+          "en": "Say what to buy (צריך לקנות)",
+          "keywords": ["לקנות", "תקנה", "תקני", "תביא", "תביאי"]
+        },
+        {
+          "en": "Give at least one quantity",
+          "keywords": ["קילו", "ליטר", "קרטון", "חבילה", "חבילות", "בקבוק", "בקבוקים", "שני", "שתי", "שלושה", "שלוש", "ארבעה", "ארבע", "חמישה", "חמש", "שישה", "שש"]
+        }
+      ],
+      "model": "היי, אתה עוד בסופר? יש בבית לחם וגבינה, אבל אין ביצים ואין ירקות. צריך לקנות קרטון ביצים, קילו עגבניות ושני פלפלים. גם אין מים, אז צריך שישה בקבוקים. תודה!",
+      "modelEn": "Hi, are you still at the supermarket? There's bread and cheese at home, but there are no eggs and no vegetables. We need to buy a carton of eggs, a kilo of tomatoes and two peppers. There's no water either, so we need six bottles. Thanks!"
+    }
+  }
+]

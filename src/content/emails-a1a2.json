@@ -7,8 +7,8 @@
     "incoming": {
       "from": "אורית, המורה באולפן",
       "subject": "קבוצת הוואטסאפ: אולפן, רמה א׳",
-      "body": "שלום לכולם, וברוכים הבאים לקבוצה! 😊 ספרו לנו קצת על עצמכם: איך קוראים לכם, מאיפה אתם, מה אתם עושים ואילו שפות אתם מדברים.",
-      "bodyEn": "Hello everyone, and welcome to the group! 😊 Tell us a little about yourselves: your names, where you're from, what you do and which languages you speak."
+      "body": "שלום לכולם, וברוכים הבאים לקבוצה! 😊 ספרו לנו קצת על עצמכם. איך קוראים לכם? מאיפה אתם? מה אתם עושים? אילו שפות אתם מדברים?",
+      "bodyEn": "Hello everyone, and welcome to the group! 😊 Tell us a little about yourselves. What are your names? Where are you from? What do you do? Which languages do you speak?"
     },
     "task": {
       "prompt": "כתבו הודעה קצרה לקבוצה: איך קוראים לכם, מאיפה אתם, מה העבודה שלכם ואילו שפות אתם מדברים.",
@@ -22,11 +22,11 @@
         },
         {
           "en": "Say where you're from",
-          "keywords": ["לטביה", "ריגה", "רוסיה", "אוקראינה", "צרפת", "ארצות הברית", "אמריקה", "אנגליה", "בריטניה", "קנדה", "ארגנטינה", "ברזיל", "אתיופיה", "גרמניה", "הודו", "איטליה", "ספרד", "מקסיקו", "אוסטרליה", "דרום אפריקה", "נולדתי", "עליתי", "הגעתי"]
+          "keywords": ["לטביה", "ריגה", "רוסיה", "אוקראינה", "צרפת", "ארצות הברית", "אמריקה", "אנגליה", "בריטניה", "קנדה", "ארגנטינה", "ברזיל", "אתיופיה", "גרמניה", "הודו", "איטליה", "ספרד", "מקסיקו", "אוסטרליה", "דרום אפריקה", "פולין", "הולנד", "בלגיה", "שווייץ", "בלארוס", "גאורגיה", "אוזבקיסטן", "מרוקו", "יפן", "סין", "קולומביה", "נולדתי", "עליתי", "הגעתי"]
         },
         {
           "en": "Say what you do",
-          "keywords": ["מורה", "עובד", "עובדת", "עבודה", "סטודנט", "סטודנטית", "לומד", "לומדת", "מהנדס", "מהנדסת", "רופא", "רופאה", "אחות", "מתכנת", "מתכנתת", "מנהל", "מנהלת", "הייטק", "פנסיה"]
+          "keywords": ["מורה", "עובד", "עובדת", "עבודה", "סטודנט", "סטודנטית", "לומד", "לומדת", "מהנדס", "מהנדסת", "רופא", "רופאה", "אחות", "מתכנת", "מתכנתת", "מנהל", "מנהלת", "מתרגם", "מתרגמת", "מעצב", "מעצבת", "עורך דין", "עורכת דין", "רואה חשבון", "רואת חשבון", "מלצר", "מלצרית", "נהג", "נהגת", "שף", "הייטק", "פנסיה"]
         },
         {
           "en": "Say which languages you speak",
@@ -65,13 +65,13 @@
     },
     "task": {
       "prompt": "כתבו לעומר תשובה: אתם יכולים לבוא? מתי ואיפה נפגשים?",
-      "promptEn": "Write Omer a reply: can you come? When and where shall you meet?",
+      "promptEn": "Write a reply to Omer: can you come? When and where will you meet?",
       "minWords": 20,
       "useWords": ["בשמחה", "אבל", "נפגשים", "ליד", "תודה על ההזמנה"],
       "checklist": [
         {
           "en": "Say whether you can come",
-          "keywords": ["בשמחה", "בטח", "כן", "יכול", "יכולה", "סליחה", "מצטער", "מצטערת"]
+          "keywords": ["בשמחה", "בטח", "כן", "יכול", "יכולה", "אבוא", "אשמח", "סליחה", "מצטער", "מצטערת", "לצערי"]
         },
         {
           "en": "Say when you're free (a time of day or an hour)",
@@ -79,7 +79,7 @@
         },
         {
           "en": "Say where to meet",
-          "keywords": ["נפגשים", "ניפגש", "להיפגש", "איפה", "בכניסה", "ליד", "בתחנה"]
+          "keywords": ["נפגשים", "ניפגש", "להיפגש", "איפה", "בכניסה", "ליד", "בתחנה", "בשוק", "בכיכר", "אצלי", "אצלך"]
         },
         {
           "en": "End with thanks or a friendly line",
@@ -128,7 +128,7 @@
         },
         {
           "en": "Describe at least two things you did, in the past tense",
-          "keywords": ["אכלתי", "אכלנו", "קניתי", "קנינו", "ראיתי", "ראינו", "שתינו", "קמתי", "נחתי", "פגשתי", "טיילנו", "טיילתי", "בישלתי", "קראתי", "ישנתי"]
+          "keywords": ["אכלתי", "אכלנו", "קניתי", "קנינו", "ראיתי", "ראינו", "שתינו", "קמתי", "נחתי", "פגשתי", "טיילנו", "טיילתי", "בישלתי", "קראתי", "ישנתי", "ישבנו", "ישבתי", "שחיתי", "שחינו", "עבדתי", "למדתי", "שמעתי", "שיחקנו", "ניקיתי"]
         },
         {
           "en": "Join your sentences with כי, אבל or ואז",
@@ -139,20 +139,20 @@
           "keywords": ["ומה איתך", "איתך", "אצלך", "שלך", "בברלין", "הטיול"]
         }
       ],
-      "model": "היי דנה, ברוכה השבה! 😊 הסופ״ש שלי היה מעולה. ביום שישי בבוקר נסעתי לירושלים עם חברים. טיילנו בשוק מחנה יהודה, אכלנו חומוס וקנינו פירות. חזרנו הביתה מוקדם, כי היינו עייפים. בשבת קמתי מאוחר, ואז הלכתי לים עם השכן שלי, סמיר. היה חם, אבל המים היו נעימים. בערב נחתי בבית וראיתי סרט. ומה איתך? איך היה בברלין?",
-      "modelEn": "Hi Dana, welcome back! 😊 My weekend was great. On Friday morning I went to Jerusalem with friends. We walked around the Mahane Yehuda market, ate hummus and bought fruit. We came home early because we were tired. On Saturday I got up late, and then I went to the beach with my neighbour, Samir. It was hot, but the water was lovely. In the evening I rested at home and watched a film. And what about you? How was Berlin?"
+      "model": "היי דנה, ברוכה השבה! 😊 הסופ״ש שלי היה מעולה. ביום שישי בבוקר נסעתי לירושלים עם חברים. טיילנו בעיר העתיקה, ואחר כך הלכנו לשוק מחנה יהודה. אכלנו שם חומוס וקנינו פירות. חזרנו הביתה מוקדם, כי היינו עייפים. בשבת קמתי מאוחר, ואז הלכתי לים עם השכן שלי, סמיר. היה חם, אבל המים היו נעימים. בערב נחתי בבית וראיתי סרט. ומה איתך? איך היה בברלין?",
+      "modelEn": "Hi Dana, welcome back! 😊 My weekend was great. On Friday morning I went to Jerusalem with friends. We walked around the Old City, and afterwards we went to the Mahane Yehuda market. We ate hummus there and bought fruit. We came home early because we were tired. On Saturday I got up late, and then I went to the beach with my neighbour, Samir. It was hot, but the water was lovely. In the evening I rested at home and watched a film. And what about you? How was Berlin?"
     },
     "phrases": [
       { "he": "ברוך השב / ברוכה השבה!", "en": "Welcome back! (to a man / to a woman)", "tr": "barúkh hasháv / brukhá hashavá!" },
-      { "he": "איך היה הסופ״ש?", "en": "How was the weekend?", "tr": "eikh hayá hasófash?" },
-      { "he": "הסופ״ש היה מעולה", "en": "The weekend was great", "tr": "hasófash hayá me'ulé" },
+      { "he": "איך היה הסופ״ש?", "en": "How was the weekend?", "tr": "eikh hayá hasofásh?" },
+      { "he": "הסופ״ש היה מעולה", "en": "The weekend was great", "tr": "hasofásh hayá me'ulé" },
       { "he": "נסעתי ל...", "en": "I went (travelled) to...", "tr": "nasáti le..." },
       { "he": "טיילנו ב...", "en": "We walked around... / We toured...", "tr": "tiyálnu be..." },
       { "he": "חזרנו הביתה מוקדם", "en": "We came home early", "tr": "khazárnu habáyta mukdám" },
       { "he": "קמתי מאוחר", "en": "I got up late", "tr": "kámti me'ukhár" },
       { "he": "ואז הלכתי ל...", "en": "And then I went to...", "tr": "ve'az halákhti le..." },
       { "he": "היה חם, אבל...", "en": "It was hot, but...", "tr": "hayá kham, avál..." },
-      { "he": "ומה איתך?", "en": "And what about you?", "tr": "umá itkhá / itákh?" }
+      { "he": "ומה איתך?", "en": "And what about you? (to a man / to a woman)", "tr": "umá itkhá / itákh?" }
     ]
   },
   {
@@ -161,8 +161,8 @@
     "title": "Booking a guesthouse in the Galilee",
     "situation": "You and your partner want to spend two nights in the Galilee next month. You find a nice צימר (a small holiday cabin in the countryside) online. Email the owners: say when you want to come, ask if they have a cabin free, and ask a few practical questions. You don't have a car.",
     "task": {
-      "prompt": "כתבו מייל לצימר בגליל: כתבו מתי תגיעו ולכמה לילות, ושאלו לפחות שלוש שאלות (מחיר, ארוחת בוקר, איך מגיעים...).",
-      "promptEn": "Write an email to a guesthouse in the Galilee: say when you'll arrive and for how many nights, and ask at least three questions (the price, breakfast, how to get there...).",
+      "prompt": "כתבו מייל לבעלי צימר בגליל: ספרו מתי תגיעו ולכמה לילות, ושאלו לפחות שלוש שאלות (מחיר, ארוחת בוקר, איך מגיעים...).",
+      "promptEn": "Write an email to the owners of a guesthouse in the Galilee: say when you'll arrive and for how many nights, and ask at least three questions (the price, breakfast, how to get there...).",
       "minWords": 35,
       "useWords": ["פנוי", "נגיע", "כמה עולה", "כלולה במחיר", "נשמח", "תודה מראש"],
       "checklist": [
@@ -207,16 +207,16 @@
     "id": "e_a2_invitation_reply",
     "level": "A2",
     "title": "Replying to a party invitation",
-    "situation": "Your colleague Berhanu is organising a farewell party for Rachel from accounting, who is retiring, and he asks the team to choose between two options. Reply: thank him, say which option you prefer and compare the two, and say what you'll bring.",
+    "situation": "Your colleague Berhanu is organising a farewell party for Rachel from accounting, who is retiring, and he asks the team to choose between two options. Reply: thank him, say which option you prefer and compare the two, and say what you'll bring if it's a picnic.",
     "incoming": {
       "from": "ברהנו טספאי, צוות המכירות",
       "subject": "מסיבת פרידה לרחל 🎉",
-      "body": "היי לכולם! 🎉\nרחל מהנהלת החשבונות יוצאת לפנסיה בסוף החודש, ואנחנו רוצים לעשות לה מסיבת פרידה. יש שתי אפשרויות:\n1. ביום חמישי בערב – במסעדה האיטלקית ליד המשרד.\n2. ביום שישי בצהריים – פיקניק בפארק הירקון.\nמה אתם מעדיפים? ומי יכול להביא משהו? תכתבו לי עד יום ראשון 🙏\nברהנו",
-      "bodyEn": "Hi everyone! 🎉\nRachel from accounting is retiring at the end of the month, and we want to throw her a farewell party. There are two options:\n1. Thursday evening – at the Italian restaurant near the office.\n2. Friday at noon – a picnic in Yarkon Park.\nWhich do you prefer? And who can bring something? Let me know by Sunday 🙏\nBerhanu"
+      "body": "היי לכולם! 🎉\nרחל מהנהלת החשבונות יוצאת לפנסיה בסוף החודש, ואנחנו רוצים לעשות לה מסיבת פרידה. יש שתי אפשרויות:\n1. ביום חמישי בערב – במסעדה האיטלקית ליד המשרד.\n2. ביום שישי בצהריים – פיקניק בפארק הירקון.\nמה אתם מעדיפים? ואם נעשה פיקניק – מי יכול להביא משהו? תכתבו לי עד יום ראשון 🙏\nברהנו",
+      "bodyEn": "Hi everyone! 🎉\nRachel from accounting is retiring at the end of the month, and we want to throw her a farewell party. There are two options:\n1. Thursday evening – at the Italian restaurant near the office.\n2. Friday at noon – a picnic in Yarkon Park.\nWhich do you prefer? And if we go for the picnic – who can bring something? Let me know by Sunday 🙏\nBerhanu"
     },
     "task": {
-      "prompt": "כתבו תשובה לברהנו: איזו אפשרות אתם מעדיפים ולמה? כתבו מה יותר טוב (או פחות טוב) בכל אפשרות, ומה תביאו למסיבה.",
-      "promptEn": "Write a reply to Berhanu: which option do you prefer, and why? Say what's better (or less good) about each option, and what you'll bring to the party.",
+      "prompt": "כתבו תשובה לברהנו: איזו אפשרות אתם מעדיפים ולמה? כתבו מה יותר טוב (או פחות טוב) בכל אפשרות, ומה תביאו לפיקניק.",
+      "promptEn": "Write a reply to Berhanu: which option do you prefer, and why? Say what's better (or less good) about each option, and what you'll bring to the picnic.",
       "minWords": 35,
       "useWords": ["אני בעד", "מעדיף / מעדיפה", "יותר", "חוץ מזה", "אביא"],
       "checklist": [

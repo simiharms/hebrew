@@ -187,6 +187,101 @@
         ]
       }
     ],
+    "tf": [
+      {
+        "s": "נועה שגיא עובדת במשרד בתל אביב ארבעה ימים בשבוע.",
+        "sEn": "Noa Sagi works at an office in Tel Aviv four days a week.",
+        "a": false,
+        "why": "She works from home four days a week, so she does not have to travel to Tel Aviv every morning."
+      },
+      {
+        "s": "נועה משתמשת בזמן שהיא חוסכת כדי לעשות ספורט או לבשל לילדים.",
+        "sEn": "Noa uses the time she saves to exercise or to cook for the kids.",
+        "a": true,
+        "why": "She says that in that time she goes to the gym or cooks dinner for the kids."
+      },
+      {
+        "s": "עומר מעדיף לעבוד מהבית, כי שם אף אחד לא מפריע לו.",
+        "sEn": "Omer prefers to work from home, because nobody disturbs him there.",
+        "a": false,
+        "why": "Omer actually prefers to come in to the office: at home he is alone all day, and at the office he learns from the people sitting next to him."
+      },
+      {
+        "s": "מיכל חושבת שגם היום עדיף לעשות את הישיבות החשובות פנים מול פנים.",
+        "sEn": "Michal thinks that even today it is better to hold the important meetings face to face.",
+        "a": true,
+        "why": "She now knows her employees work well from home, but says the important meetings are better held face to face."
+      }
+    ],
+    "find": [
+      {
+        "en": "it turned out, it became clear",
+        "answer": [
+          "התברר"
+        ]
+      },
+      {
+        "en": "on the other hand",
+        "answer": [
+          "לעומת זאת"
+        ]
+      },
+      {
+        "en": "(they) are torn, can't decide",
+        "answer": [
+          "מתלבטים"
+        ]
+      },
+      {
+        "en": "(by) themselves, for themselves",
+        "answer": [
+          "בעצמם"
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "בשנים האחרונות חברות רבות בישראל עובדות במודל ___: חלק מהשבוע במשרד וחלק מהבית.",
+        "en": "In recent years many companies in Israel have been working in a hybrid model: part of the week at the office and part from home.",
+        "answer": [
+          "היברידי"
+        ],
+        "hint": "hybrid"
+      },
+      {
+        "prompt": "נועה עובדת מהבית, ולכן היא ___ כמעט שלוש שעות ביום.",
+        "en": "Noa works from home, so she saves almost three hours a day.",
+        "answer": [
+          "חוסכת"
+        ],
+        "hint": "saves (לחסוך, present, she)"
+      },
+      {
+        "prompt": "עומר מעדיף להגיע למשרד, כי בבית הוא ___ כל היום.",
+        "en": "Omer prefers to come in to the office, because at home he is alone all day.",
+        "answer": [
+          "לבד"
+        ],
+        "hint": "alone"
+      },
+      {
+        "prompt": "בהתחלה היה למיכל קשה ___ על עובדים שהיא לא רואה.",
+        "en": "At first it was hard for Michal to trust employees she could not see.",
+        "answer": [
+          "לסמוך"
+        ],
+        "hint": "to trust, rely (infinitive)"
+      },
+      {
+        "prompt": "כמעט כל העובדים רוצים ___ בעצמם איפה לעבוד בכל יום.",
+        "en": "Almost all the employees want to choose for themselves where to work each day.",
+        "answer": [
+          "לבחור",
+          "להחליט"
+        ],
+        "hint": "to choose (infinitive)"
+      }
+    ],
     "writing": {
       "prompt": "מה עדיף לדעתכם: לעבוד מהבית או מהמשרד? כתבו את דעתכם והסבירו למה.",
       "promptEn": "What do you think is better: working from home or from the office? Write your opinion and explain why.",
@@ -409,6 +504,100 @@
             "מבקרים"
           ]
         ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "מנהל הצוות אמר למרקו בשיחה פרטית שהרעיון שלו לא יעבוד.",
+        "sEn": "The team manager told Marco in a private conversation that his idea would not work.",
+        "a": false,
+        "why": "He said it at a meeting, in front of everyone. That is why Marco was in shock."
+      },
+      {
+        "s": "לפי רונית, ביקורת על רעיון של עובד היא לא עניין אישי.",
+        "sEn": "According to Ronit, criticism of an employee's idea is not personal.",
+        "a": true,
+        "why": "Ronit says criticism is not personal: she wants to save time and find a better solution together."
+      },
+      {
+        "s": "גם היום, אחרי שנתיים בארץ, קשה למרקו להתרגל לסגנון הדוגרי.",
+        "sEn": "Even today, after two years in Israel, Marco finds it hard to get used to the dugri style.",
+        "a": false,
+        "why": "It was hard only at first. Today he is used to the style and sometimes even enjoys it."
+      },
+      {
+        "s": "היועצים ממליצים ששני הצדדים ידברו על הנושא בגלוי.",
+        "sEn": "The consultants recommend that both sides talk about the issue openly.",
+        "a": true,
+        "why": "Organizational consultants recommend that both sides talk about it openly: Israelis can add a kind word, and employees from abroad can remember there is usually no bad intention."
+      }
+    ],
+    "find": [
+      {
+        "en": "in front of everyone",
+        "answer": [
+          "מול כולם"
+        ]
+      },
+      {
+        "en": "I was in shock",
+        "answer": [
+          "הייתי בהלם"
+        ]
+      },
+      {
+        "en": "gently",
+        "answer": [
+          "בעדינות"
+        ]
+      },
+      {
+        "en": "both sides",
+        "answer": [
+          "שני הצדדים"
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "לדבר דוגרי זה להגיד ___ מה שחושבים, בלי סיבובים.",
+        "en": "Speaking dugri means saying exactly what you think, without beating around the bush.",
+        "answer": [
+          "בדיוק"
+        ],
+        "hint": "exactly"
+      },
+      {
+        "prompt": "בשבוע הראשון שלו מרקו היה ___, כי המנהל אמר מול כולם שהרעיון שלו לא יעבוד.",
+        "en": "In his first week Marco was in shock, because the manager said in front of everyone that his idea would not work.",
+        "answer": [
+          "בהלם"
+        ],
+        "hint": "in shock"
+      },
+      {
+        "prompt": "לפי רונית, ביקורת היא לא עניין ___: המטרה היא לחסוך זמן ולמצוא פתרון טוב יותר.",
+        "en": "According to Ronit, criticism is not a personal matter: the aim is to save time and find a better solution.",
+        "answer": [
+          "אישי"
+        ],
+        "hint": "personal"
+      },
+      {
+        "prompt": "היום מרקו כבר ___ לסגנון הזה, ולפעמים הוא אפילו נהנה ממנו.",
+        "en": "Today Marco is already used to this style, and sometimes he even enjoys it.",
+        "answer": [
+          "רגיל"
+        ],
+        "hint": "used to (adjective, he)"
+      },
+      {
+        "prompt": "עובדים מחו״ל יכולים לזכור שבדרך כלל אין כאן ___ רעה, רק רצון להגיע לתוצאה.",
+        "en": "Employees from abroad can remember that usually there is no bad intention here, just a wish to get results.",
+        "answer": [
+          "כוונה"
+        ],
+        "hint": "intention"
       }
     ],
     "writing": {
@@ -635,6 +824,101 @@
         ]
       }
     ],
+    "tf": [
+      {
+        "s": "בדרך כלל חותמים על חוזה שכירות לשנתיים.",
+        "sEn": "A rental contract is usually signed for two years.",
+        "a": false,
+        "why": "Usually the contract is for one year, sometimes with an option to extend it for another year."
+      },
+      {
+        "s": "ערבים הם אנשים שמתחייבים לשלם אם השוכר לא ישלם.",
+        "sEn": "Guarantors are people who commit to paying if the tenant does not pay.",
+        "a": true,
+        "why": "The article defines guarantors as people who sign the contract and commit to paying if the tenant does not."
+      },
+      {
+        "s": "גובה הארנונה תלוי בגודל הדירה ובאזור שבו היא נמצאת.",
+        "sEn": "The amount of arnona depends on the size of the apartment and the area where it is located.",
+        "a": true,
+        "why": "Arnona is a tax paid to the municipality, and it depends on the size of the apartment and its area."
+      },
+      {
+        "s": "אם משהו בדירה מתקלקל, מספיק לספר על זה לבעל הדירה בשיחת טלפון.",
+        "sEn": "If something in the apartment breaks, it is enough to tell the landlord about it in a phone call.",
+        "a": false,
+        "why": "The article advises telling the landlord right away and in writing, for example in a message or by email."
+      }
+    ],
+    "find": [
+      {
+        "en": "carefully (of reading)",
+        "answer": [
+          "בעיון"
+        ]
+      },
+      {
+        "en": "pets, animals",
+        "answer": [
+          "בעלי חיים"
+        ]
+      },
+      {
+        "en": "fixed expenses",
+        "answer": [
+          "הוצאות קבועות"
+        ]
+      },
+      {
+        "en": "in writing",
+        "answer": [
+          "בכתב"
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "אחרי שמוצאים דירה ומדברים עם בעל הדירה, מגיע השלב החשוב ביותר: ___ השכירות.",
+        "en": "After you find an apartment and talk to the landlord, the most important stage comes: the rental contract.",
+        "answer": [
+          "חוזה"
+        ],
+        "hint": "contract"
+      },
+      {
+        "prompt": "חשוב לבדוק מי ___ על תיקונים, למשל אם המזגן או הדוד מתקלקלים.",
+        "en": "It is important to check who is responsible for repairs, for example if the air conditioner or the water heater breaks down.",
+        "answer": [
+          "אחראי"
+        ],
+        "hint": "responsible"
+      },
+      {
+        "prompt": "בעלי דירות רבים מבקשים ___, למקרה שהשוכר לא ישלם או יגרום נזק לדירה.",
+        "en": "Many landlords ask for guarantees, in case the tenant does not pay or damages the apartment.",
+        "answer": [
+          "ערבויות",
+          "ביטחונות"
+        ],
+        "hint": "guarantees, security"
+      },
+      {
+        "prompt": "הארנונה היא ___ שמשלמים לעירייה, והיא תלויה בגודל הדירה ובאזור.",
+        "en": "Arnona is a tax paid to the municipality, and it depends on the size of the apartment and the area.",
+        "answer": [
+          "מס"
+        ],
+        "hint": "tax"
+      },
+      {
+        "prompt": "כדאי ___ את הדירה ביום הכניסה, כדי שבסוף החוזה לא יהיו ויכוחים על נזקים.",
+        "en": "It is worth photographing the apartment on move-in day, so that at the end of the contract there are no arguments about damage.",
+        "answer": [
+          "לצלם"
+        ],
+        "hint": "to photograph (infinitive)"
+      }
+    ],
     "writing": {
       "prompt": "לדעתכם, מה הדבר הכי חשוב לבדוק לפני שחותמים על חוזה שכירות? כתבו את דעתכם והסבירו למה. אפשר גם לספר על ניסיון אישי.",
       "promptEn": "In your opinion, what is the most important thing to check before signing a rental contract? Write your opinion and explain why. You can also describe a personal experience.",
@@ -857,6 +1141,100 @@
             "טועים"
           ]
         ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "כשדניאלה הגיעה לישראל, היא כבר ידעה עברית טוב.",
+        "sEn": "When Daniela arrived in Israel, she already knew Hebrew well.",
+        "a": false,
+        "why": "When she arrived, she could only say \"shalom\" and \"toda\"."
+      },
+      {
+        "s": "בארגנטינה דניאלה עבדה בשיווק.",
+        "sEn": "In Argentina Daniela worked in marketing.",
+        "a": true,
+        "why": "She says that in Argentina she worked in marketing and always loved talking to people."
+      },
+      {
+        "s": "בחודשים הראשונים דניאלה השתמשה בדף עם משפטים מוכנים לשיחות בטלפון.",
+        "sEn": "In the first months Daniela used a sheet of ready-made sentences for phone calls.",
+        "a": true,
+        "why": "She wrote ready-made sentences for herself on a sheet of paper; today she no longer needs it."
+      },
+      {
+        "s": "לדעת דניאלה, אם האולפן מתיש, עדיף לוותר עליו.",
+        "sEn": "In Daniela's opinion, if the ulpan is exhausting, it is better to give it up.",
+        "a": false,
+        "why": "She says not to give up on the ulpan, even though it is sometimes exhausting, because it is worth the effort."
+      }
+    ],
+    "find": [
+      {
+        "en": "amazing (feminine)",
+        "answer": [
+          "מדהימה"
+        ]
+      },
+      {
+        "en": "we had to",
+        "answer": [
+          "היינו חייבים"
+        ]
+      },
+      {
+        "en": "ready-made sentences",
+        "answer": [
+          "משפטים מוכנים"
+        ]
+      },
+      {
+        "en": "(it's) worth the effort",
+        "answer": [
+          "שווה את המאמץ"
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "דניאלה ___ לישראל מארגנטינה לפני ארבע שנים.",
+        "en": "Daniela immigrated to Israel from Argentina four years ago.",
+        "answer": [
+          "עלתה"
+        ],
+        "hint": "immigrated (לעלות, past, she)"
+      },
+      {
+        "prompt": "באולפן התלמידים דיברו עברית גם בהפסקות, כי לא הייתה להם שפה ___.",
+        "en": "At the ulpan the students spoke Hebrew during the breaks too, because they had no common language.",
+        "answer": [
+          "משותפת"
+        ],
+        "hint": "common, shared (feminine)"
+      },
+      {
+        "prompt": "מנהל המכירות אמר לה: \"לקוחות לא קונים דקדוק, הם קונים ___.\"",
+        "en": "The sales manager told her: \"Customers don't buy grammar, they buy trust.\"",
+        "answer": [
+          "אמון"
+        ],
+        "hint": "trust"
+      },
+      {
+        "prompt": "השיחות בטלפון היו קשות, כי בטלפון אי אפשר להשתמש בידיים ובחיוכים, יש רק ___.",
+        "en": "The phone calls were hard, because on the phone you can't use your hands and smiles; there are only words.",
+        "answer": [
+          "מילים"
+        ],
+        "hint": "words"
+      },
+      {
+        "prompt": "העצה של דניאלה לעולים חדשים: לא ___ לטעות.",
+        "en": "Daniela's advice to new immigrants: don't be afraid to make mistakes.",
+        "answer": [
+          "לפחד"
+        ],
+        "hint": "to be afraid (infinitive)"
       }
     ],
     "writing": {
@@ -1101,6 +1479,101 @@
         ]
       }
     ],
+    "tf": [
+      {
+        "s": "משלמים על הנסיעה לפי מספר הקילומטרים.",
+        "sEn": "You pay for the ride according to the number of kilometres.",
+        "a": false,
+        "why": "Payment is by the minute."
+      },
+      {
+        "s": "בחודש הראשון תושבי העיר ישלמו פחות על הנסיעות.",
+        "sEn": "In the first month city residents will pay less for rides.",
+        "a": true,
+        "why": "City residents will get a special discount in the first month."
+      },
+      {
+        "s": "בני 14 יוכלו לנסוע בקורקינטים, אם הם יחבשו קסדה.",
+        "sEn": "Fourteen-year-olds will be able to ride the scooters if they wear a helmet.",
+        "a": false,
+        "why": "The scooters may only be used from age 16; wearing a helmet is mandatory as well."
+      },
+      {
+        "s": "אם הניסוי יצליח, העירייה רוצה להוסיף תחנות גם בשכונות החדשות.",
+        "sEn": "If the pilot succeeds, the municipality wants to add stations in the new neighbourhoods as well.",
+        "a": true,
+        "why": "The project is a six-month pilot; if it succeeds, the municipality plans to add stations in the new neighbourhoods."
+      }
+    ],
+    "find": [
+      {
+        "en": "around the city, all over the city",
+        "answer": [
+          "ברחבי העיר"
+        ]
+      },
+      {
+        "en": "press conference",
+        "answer": [
+          "מסיבת עיתונאים"
+        ]
+      },
+      {
+        "en": "(they are) aware",
+        "answer": [
+          "מודעים"
+        ]
+      },
+      {
+        "en": "mandatory, an obligation",
+        "answer": [
+          "חובה"
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "העירייה הציבה ___ אופניים וקורקינטים חשמליים בתחנות ברחבי העיר.",
+        "en": "The municipality has placed hundreds of electric bikes and scooters at stations around the city.",
+        "answer": [
+          "מאות"
+        ],
+        "hint": "hundreds"
+      },
+      {
+        "prompt": "מורידים אפליקציה, ___ את הקוד שעל הכלי ויוצאים לדרך.",
+        "en": "You download an app, scan the code on the vehicle and off you go.",
+        "answer": [
+          "סורקים"
+        ],
+        "hint": "scan (לסרוק, present, plural)"
+      },
+      {
+        "prompt": "ראש העירייה רוצה שפחות אנשים ייסעו ברכב פרטי, כי בעיר יש הרבה ___.",
+        "en": "The mayor wants fewer people to drive private cars, because there are lots of traffic jams in the city.",
+        "answer": [
+          "פקקים"
+        ],
+        "hint": "traffic jams"
+      },
+      {
+        "prompt": "יעל ___ מהפרויקט, אבל משה מודאג, כי הוא מפחד שמישהו ייפגע.",
+        "en": "Yael is excited about the project, but Moshe is worried, because he is afraid someone will get hurt.",
+        "answer": [
+          "מתלהבת",
+          "שמחה"
+        ],
+        "hint": "is excited (present, she)"
+      },
+      {
+        "prompt": "הפרויקט הוא ___ של חצי שנה: אם הוא יצליח, יהיו תחנות גם בשכונות החדשות.",
+        "en": "The project is a six-month pilot: if it succeeds, there will be stations in the new neighbourhoods too.",
+        "answer": [
+          "ניסוי"
+        ],
+        "hint": "pilot, trial"
+      }
+    ],
     "writing": {
       "prompt": "האם הייתם רוצים אופניים וקורקינטים שיתופיים בעיר שלכם? כתבו תגובה לכתבה: מה היתרונות ומה החסרונות?",
       "promptEn": "Would you like shared bikes and scooters in your city? Write a response to the article: what are the advantages and the disadvantages?",
@@ -1322,6 +1795,102 @@
             "להסתכל"
           ]
         ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "בבית הקפה שבו הכותבת יושבת, כולם ממהרים.",
+        "sEn": "In the café where the writer is sitting, everyone is in a hurry.",
+        "a": false,
+        "why": "Around her at least ten people are sitting with laptops, and nobody is in a hurry."
+      },
+      {
+        "s": "מי שרוצה קפה חזק יותר מזמין אספרסו קצר.",
+        "sEn": "Anyone who wants stronger coffee orders a short espresso.",
+        "a": true,
+        "why": "The post says that anyone who wants something stronger orders a short espresso."
+      },
+      {
+        "s": "מי שמבקש הפוך \"דל\" רוצה קפה חלש.",
+        "sEn": "Someone who asks for a hafukh \"dal\" wants weak coffee.",
+        "a": false,
+        "why": "\"Dal\" refers to the milk: it means low-fat milk, not weak coffee."
+      },
+      {
+        "s": "הכותבת עצמה עובדת מבתי קפה כמעט כל יום.",
+        "sEn": "The writer herself works from cafés almost every day.",
+        "a": true,
+        "why": "She writes: \"Even though I work from cafés almost every day, I actually think it's not a bad idea.\""
+      }
+    ],
+    "find": [
+      {
+        "en": "that is, in other words",
+        "answer": [
+          "כלומר"
+        ]
+      },
+      {
+        "en": "Don't panic! (plural)",
+        "answer": [
+          "אל תיבהלו"
+        ]
+      },
+      {
+        "en": "free (of charge)",
+        "answer": [
+          "בחינם"
+        ]
+      },
+      {
+        "en": "recently",
+        "answer": [
+          "לאחרונה"
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "בית קפה בישראל הוא לא רק מקום לשתות קפה: הוא גם ___, חדר ישיבות ולפעמים אפילו סלון.",
+        "en": "A café in Israel is not just a place to drink coffee: it is also an office, a meeting room and sometimes even a living room.",
+        "answer": [
+          "משרד"
+        ],
+        "hint": "office"
+      },
+      {
+        "prompt": "המשקה הכי ___ בישראל הוא הפוך: קפה עם הרבה חלב חם וקצף.",
+        "en": "The most popular drink in Israel is the hafukh: coffee with lots of hot milk and foam.",
+        "answer": [
+          "פופולרי",
+          "אהוב"
+        ],
+        "hint": "popular"
+      },
+      {
+        "prompt": "פרילנסרים וסטודנטים עובדים מבתי קפה, כי בבית ___ להם, או כי הם צריכים קצת רעש מסביב.",
+        "en": "Freelancers and students work from cafés, because they get bored at home, or because they need a bit of noise around them.",
+        "answer": [
+          "משעמם"
+        ],
+        "hint": "boring"
+      },
+      {
+        "prompt": "יש כלל לא ___: מי שיושב שלוש שעות צריך להזמין יותר מקפה אחד.",
+        "en": "There is an unwritten rule: whoever sits for three hours should order more than one coffee.",
+        "answer": [
+          "כתוב"
+        ],
+        "hint": "written"
+      },
+      {
+        "prompt": "בבית קפה ליד הבית של הכותבת תלו שלט: \"בשישי ובשבת – בלי ___\".",
+        "en": "A café near the writer's home put up a sign: \"Fridays and Saturdays — no laptops\".",
+        "answer": [
+          "מחשבים",
+          "מחשבים ניידים"
+        ],
+        "hint": "computers"
       }
     ],
     "writing": {

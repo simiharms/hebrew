@@ -246,6 +246,103 @@
         ]
       }
     ],
+    "tf": [
+      {
+        "s": "לדברי הכלכלנים, ברור כבר עכשיו שבחודשים הקרובים יגיעו הורדות ריבית נוספות.",
+        "sEn": "According to the economists, it is already clear that further rate cuts will come in the next few months.",
+        "a": false,
+        "why": "The economists said this may be the start of a gradual process, but that it is still too early to tell whether further cuts will come in the coming months."
+      },
+      {
+        "s": "לפי הדוגמה בכתבה, החיסכון בהחזר החודשי קטן, אבל לאורך השנים הוא מצטבר לאלפי שקלים.",
+        "sEn": "According to the example in the article, the saving on the monthly repayment is small, but over the years it adds up to thousands of shekels.",
+        "a": true,
+        "why": "Paragraph 4: the borrower saves about 60 shekels a month; Uri Shahar says that doesn't change the picture, but over the years it adds up to thousands of shekels."
+      },
+      {
+        "s": "רוב הבנקים כבר הוזילו את הריביות גם במסלולים האחרים.",
+        "sEn": "Most banks have already lowered the rates in the other tracks too.",
+        "a": false,
+        "why": "The banks are expected to lower the rates in the other tracks gradually, but most of them have not done so yet (טרם עשו זאת)."
+      },
+      {
+        "s": "החלטת הריבית הבאה צפויה להתפרסם בעוד כחודש וחצי.",
+        "sEn": "The next interest-rate decision is expected to be announced in about a month and a half.",
+        "a": true,
+        "why": "The last sentence says the next decision is expected in about six weeks, i.e. roughly a month and a half."
+      }
+    ],
+    "find": [
+      {
+        "en": "against the background of, amid",
+        "answer": [
+          "על רקע"
+        ]
+      },
+      {
+        "en": "it is still too early to tell",
+        "answer": [
+          "מוקדם עדיין לקבוע"
+        ]
+      },
+      {
+        "en": "to illustrate, by way of example",
+        "answer": [
+          "לשם המחשה"
+        ]
+      },
+      {
+        "en": "as mentioned (above)",
+        "answer": [
+          "כאמור"
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "הוועדה המוניטרית החליטה פה אחד ___ את הריבית ברבע אחוז.",
+        "en": "The monetary committee unanimously decided to cut the interest rate by a quarter of a percent.",
+        "answer": [
+          "להפחית",
+          "להוריד"
+        ],
+        "hint": "to cut, to reduce (infinitive)"
+      },
+      {
+        "prompt": "ההשפעה המיידית נוגעת למסלול ה___, שהריבית בו נגזרת מריבית הבנק המרכזי.",
+        "en": "The immediate effect concerns the prime track, whose rate is derived from the central bank's rate.",
+        "answer": [
+          "פריים"
+        ],
+        "hint": "the track's name (an English loanword)"
+      },
+      {
+        "prompt": "מי שבחרו בריבית ___ לא ירגישו כל שינוי, כי הריבית שלהם נקבעה מראש.",
+        "en": "Those who chose a fixed rate won't feel any change, because their rate was set in advance.",
+        "answer": [
+          "קבועה"
+        ],
+        "hint": "fixed (fem.)"
+      },
+      {
+        "prompt": "המומחים ממליצים שלא למהר ___ את המשכנתא, כי הדבר כרוך לעיתים בעמלות ובהוצאות נלוות.",
+        "en": "The experts advise against rushing to refinance the mortgage, because it sometimes involves fees and additional costs.",
+        "answer": [
+          "למחזר"
+        ],
+        "hint": "to refinance (infinitive)"
+      },
+      {
+        "prompt": "בשוק הנדל״ן מעריכים שלירידת הריבית תהיה השפעה ___ על מחירי הדירות בטווח הקצר.",
+        "en": "In the real-estate market, the assessment is that the rate cut will have a limited effect on apartment prices in the short term.",
+        "answer": [
+          "מוגבלת",
+          "מתונה",
+          "קטנה"
+        ],
+        "hint": "limited (fem.)"
+      }
+    ],
     "writing": {
       "prompt": "בעקבות הורדת הריבית, כתבו פנייה רשמית קצרה למחלקת המשכנתאות בבנק שלכם: ציינו את ההחלטה, בקשו לבחון מחזור של המשכנתא ושאלו על העמלות.",
       "promptEn": "Following the rate cut, write a short formal request to your bank's mortgage department: mention the decision, ask them to look into refinancing your mortgage, and ask about the fees.",
@@ -531,6 +628,101 @@
         ]
       }
     ],
+    "tf": [
+      {
+        "s": "לפי הכותבת, מחקרים מראים שעבודה מהבית תמיד פוגעת בתפוקה.",
+        "sEn": "According to the writer, studies show that working from home always hurts productivity.",
+        "a": false,
+        "why": "She says studies suggest that working from home does not necessarily hurt productivity, and sometimes even improves it."
+      },
+      {
+        "s": "בתקופת הקורונה גילו חברות הייטק ישראליות שהעבודה ממשיכה להתנהל כמעט כרגיל גם כשהעובדים בבית.",
+        "sEn": "During the COVID period, Israeli hi-tech companies discovered that work carries on almost as usual even when employees are at home.",
+        "a": true,
+        "why": "Paragraph 1: they sent their employees home and discovered, to their surprise, that work carried on almost as usual."
+      },
+      {
+        "s": "הכותבת ממליצה לחייב את העובדים להגיע למשרד בכל ימות השבוע.",
+        "sEn": "The writer recommends making employees come to the office every day of the week.",
+        "a": false,
+        "why": "She recommends a well-planned hybrid model with fixed office days, and warns that a company demanding full presence may lose the best candidates to a competitor."
+      },
+      {
+        "s": "לפי הכותבת, לעבודה מרחוק יש מחיר: לעובדים צעירים קשה יותר ללמוד מעמיתים ותיקים.",
+        "sEn": "According to the writer, remote work has a price: it is harder for young employees to learn from experienced colleagues.",
+        "a": true,
+        "why": "Paragraph 3: \"it is hard to ignore the price\" — young employees find it hard to learn from experienced colleagues."
+      }
+    ],
+    "find": [
+      {
+        "en": "to their surprise (fem. pl., referring to the companies)",
+        "answer": [
+          "להפתעתן"
+        ]
+      },
+      {
+        "en": "for their part",
+        "answer": [
+          "מצידם"
+        ]
+      },
+      {
+        "en": "to a great extent, heavily",
+        "answer": [
+          "במידה רבה"
+        ]
+      },
+      {
+        "en": "wisely",
+        "answer": [
+          "בתבונה"
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "בתקופת הקורונה התברר שאפשר לעבוד ___ כמעט כרגיל.",
+        "en": "During the COVID period it turned out that it is possible to work from home almost as usual.",
+        "answer": [
+          "מהבית",
+          "מרחוק"
+        ],
+        "hint": "from home / remotely"
+      },
+      {
+        "prompt": "כיום יש חברות שדורשות מהעובדים להגיע ___ ארבעה ימים בשבוע ואף יותר.",
+        "en": "Today some companies require their employees to come to the office four days a week or even more.",
+        "answer": [
+          "למשרד"
+        ],
+        "hint": "to the office"
+      },
+      {
+        "prompt": "העובדים מגיבים ב___, כי הם התרגלו לחסוך שעות בפקקים ולשלב בין העבודה למשפחה.",
+        "en": "The employees respond with suspicion, because they have got used to saving hours in traffic and combining work with family.",
+        "answer": [
+          "חשדנות"
+        ],
+        "hint": "suspicion"
+      },
+      {
+        "prompt": "בלי מפגשים במשרד כמעט נעלמו שיחות ה___, שבהן נולדים לא פעם רעיונות חדשים.",
+        "en": "Without meetings at the office, the corridor conversations, in which new ideas are often born, have almost disappeared.",
+        "answer": [
+          "מסדרון"
+        ],
+        "hint": "corridor"
+      },
+      {
+        "prompt": "לדעת הכותבת, הפתרון הוא מודל ___ מתוכנן היטב, עם ימים קבועים שבהם כל הצוות נפגש במשרד.",
+        "en": "In the writer's view, the solution is a well-planned hybrid model, with fixed days when the whole team meets at the office.",
+        "answer": [
+          "היברידי"
+        ],
+        "hint": "hybrid (masc.)"
+      }
+    ],
     "writing": {
       "prompt": "כתבו תגובה קצרה למאמר: האם לדעתכם מודל היברידי מתאים לכל מקום עבודה? הציגו את עמדתכם, טיעון אחד בעד, טיעון אחד נגד ומסקנה.",
       "promptEn": "Write a short response to the op-ed: in your opinion, does a hybrid model suit every workplace? Present your position, one argument for, one argument against, and a conclusion.",
@@ -795,11 +987,11 @@
             "אופטימי",
             "אופטימיות",
             "חיובית",
-            "חיובי"
+            "חיובי",
+            "הזדמנות"
           ],
           [
             "ביקוש",
-            "הזדמנות",
             "לגדול",
             "יגדל",
             "גדל",
@@ -825,6 +1017,101 @@
             "מתעצמת"
           ]
         ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "בהשקיה בטפטוף מציפים את השדה במים, כדי שכל צמח יקבל מספיק.",
+        "sEn": "In drip irrigation the field is flooded with water so that every plant gets enough.",
+        "a": false,
+        "why": "It's the opposite: instead of flooding the field, each plant receives exactly the amount it needs, directly at the roots."
+      },
+      {
+        "s": "רוב חברות המים הפועלות בישראל הן קטנות ובינוניות.",
+        "sEn": "Most of the water companies operating in Israel are small and medium-sized.",
+        "a": true,
+        "why": "Paragraph 4: according to industry estimates, hundreds of water companies operate in Israel, most of them small and medium-sized."
+      },
+      {
+        "s": "החברה של רון אלמוג עוסקת בבעיה של מים שהולכים לאיבוד ברשתות עירוניות.",
+        "sEn": "Ron Almog's company deals with the problem of water lost in municipal networks.",
+        "a": true,
+        "why": "His company develops sensors for municipal water networks, and he says that in many cities huge amounts of water are lost because of old pipes — \"that's exactly where we come in\"."
+      },
+      {
+        "s": "אנשי התעשייה בטוחים שהיתרון של ישראל בתחום המים יישמר גם בעתיד.",
+        "sEn": "Industry figures are sure that Israel's advantage in the water field will be maintained in the future too.",
+        "a": false,
+        "why": "They warn that the Israeli advantage is not guaranteed: other countries are investing large sums in water technologies and competition is getting fiercer."
+      }
+    ],
+    "find": [
+      {
+        "en": "undoubtedly, without a doubt",
+        "answer": [
+          "ללא ספק"
+        ]
+      },
+      {
+        "en": "a kind of, a sort of",
+        "answer": [
+          "מעין"
+        ]
+      },
+      {
+        "en": "a constantly growing population",
+        "answer": [
+          "אוכלוסייה שהולכת וגדלה"
+        ]
+      },
+      {
+        "en": "(we) come into the picture, (we) come in",
+        "answer": [
+          "נכנסים לתמונה",
+          "אנחנו נכנסים לתמונה"
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "דווקא ה___ במים הוליד את אחת התעשיות המצליחות במשק הישראלי.",
+        "en": "It was precisely the water shortage that gave rise to one of the most successful industries in the Israeli economy.",
+        "answer": [
+          "מחסור"
+        ],
+        "hint": "shortage"
+      },
+      {
+        "prompt": "בהשקיה בטפטוף כל צמח מקבל בדיוק את כמות המים שהוא צריך, ישירות אל ה___.",
+        "en": "In drip irrigation each plant gets exactly the amount of water it needs, directly at the roots.",
+        "answer": [
+          "שורשים"
+        ],
+        "hint": "roots"
+      },
+      {
+        "prompt": "מתקני ה___ לאורך חוף הים התיכון הופכים מי ים למי שתייה.",
+        "en": "The desalination plants along the Mediterranean coast turn seawater into drinking water.",
+        "answer": [
+          "התפלה"
+        ],
+        "hint": "desalination"
+      },
+      {
+        "prompt": "בחודש שעבר חתמה חברת טיפה חכמה על הסכם להתקנת אלפי ___ ברשת המים של עירייה גדולה בדרום אירופה.",
+        "en": "Last month Smart Drop signed an agreement to install thousands of sensors in the water network of a large municipality in southern Europe.",
+        "answer": [
+          "חיישנים"
+        ],
+        "hint": "sensors"
+      },
+      {
+        "prompt": "לדברי ד״ר שגיא, החברות הישראליות חייבות להמשיך ___, אחרת הן עלולות להישאר מאחור.",
+        "en": "According to Dr. Sagi, Israeli companies must keep innovating, otherwise they may be left behind.",
+        "answer": [
+          "לחדש"
+        ],
+        "hint": "to innovate (infinitive)"
       }
     ],
     "writing": {
@@ -1107,7 +1394,10 @@
             "לוקח",
             "דורשת",
             "דורש",
-            "צורכת"
+            "צורכת",
+            "להשקיע",
+            "משקיעים",
+            "משקיעה"
           ],
           [
             "הרבה",
@@ -1116,6 +1406,100 @@
             "ארוכה"
           ]
         ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "לפי הכתבה, בעלי עסקים קטנים משתמשים לעיתים בבינה מלאכותית בלי לשים לב לכך.",
+        "sEn": "According to the article, small business owners sometimes use AI without even noticing.",
+        "a": true,
+        "why": "Paragraph 1: small business owners are adopting AI-based tools, sometimes without noticing it."
+      },
+      {
+        "s": "שירה אברהם השתמשה בכלים מההתחלה כדי ליצור הדמיות של חדרים.",
+        "sEn": "Shira Avraham used the tools from the start to create visualizations of rooms.",
+        "a": false,
+        "why": "At first she used them only to word emails to clients; only later did she also use them for price quotes, meeting summaries and first visualizations of rooms."
+      },
+      {
+        "s": "לפי הסקר, כל בעלי העסקים שמשתמשים בכלים כאלה מדווחים על עלייה במכירות.",
+        "sEn": "According to the survey, all business owners who use such tools report an increase in sales.",
+        "a": false,
+        "why": "Most of them report saving time, and only some of them (חלקם) report an increase in sales."
+      },
+      {
+        "s": "לדברי עו״ד ליאת גולן, דליפת מידע עלולה לפגוע באמון הלקוחות של עסק קטן תוך זמן קצר מאוד.",
+        "sEn": "According to attorney Liat Golan, a data leak can damage a small business's customer trust within a very short time.",
+        "a": true,
+        "why": "She warns that a small business hit by a data leak can lose its customers' trust within a day."
+      }
+    ],
+    "find": [
+      {
+        "en": "around the clock (lit. in all hours of the day and night)",
+        "answer": [
+          "בכל שעות היממה"
+        ]
+      },
+      {
+        "en": "quite a few risks (lit. not few risks)",
+        "answer": [
+          "סיכונים לא מעטים"
+        ]
+      },
+      {
+        "en": "to start small",
+        "answer": [
+          "להתחיל בקטן"
+        ]
+      },
+      {
+        "en": "sensitive information",
+        "answer": [
+          "מידע רגיש"
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "בעבר נחשבה הבינה המלאכותית לתחום של ענקיות הטכנולוגיה, אבל כיום גם עסקים ___ משתמשים בה.",
+        "en": "In the past AI was considered the domain of the tech giants, but today small businesses use it too.",
+        "answer": [
+          "קטנים"
+        ],
+        "hint": "small (masc. pl.)"
+      },
+      {
+        "prompt": "שירה אברהם, בעלת סטודיו לעיצוב פנים, ___ בעזרת הכלים כמה שעות בשבוע.",
+        "en": "Shira Avraham, who owns an interior design studio, saves a few hours a week with the help of the tools.",
+        "answer": [
+          "חוסכת"
+        ],
+        "hint": "saves (present, fem.)"
+      },
+      {
+        "prompt": "הסיכון הראשון הוא ___ מידע: בעלי עסקים מזינים פרטים של לקוחות בלי לבדוק היכן הם נשמרים.",
+        "en": "The first risk is information security: business owners enter customers' details without checking where they are stored.",
+        "answer": [
+          "אבטחת"
+        ],
+        "hint": "security (construct form)"
+      },
+      {
+        "prompt": "סיכון נוסף נוגע ל___: הכלים ממציאים לפעמים עובדות או מספקים מידע שגוי.",
+        "en": "Another risk concerns reliability: the tools sometimes make up facts or provide wrong information.",
+        "answer": [
+          "אמינות"
+        ],
+        "hint": "reliability"
+      },
+      {
+        "prompt": "לפי עופר דהן, מותר להיעזר בטכנולוגיה, אבל ה___ נשארת תמיד אצל בעל העסק.",
+        "en": "According to Ofer Dahan, it's fine to get help from the technology, but the responsibility always stays with the business owner.",
+        "answer": [
+          "אחריות"
+        ],
+        "hint": "responsibility"
       }
     ],
     "writing": {
@@ -1391,6 +1775,101 @@
             "כרגיל"
           ]
         ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "בשעות העומס יש ברכבת מקומות פנויים רבים.",
+        "sEn": "At rush hour there are many free seats on the train.",
+        "a": false,
+        "why": "At rush hour the carriages are packed to capacity (מלאים עד אפס מקום)."
+      },
+      {
+        "s": "כיום דנה כהן מגיעה לעבודה בפחות ממחצית הזמן שלקחה לה הנסיעה באוטובוס.",
+        "sEn": "Today Dana Cohen gets to work in less than half the time the bus trip used to take her.",
+        "a": true,
+        "why": "The bus trip took her forty minutes; now she gets there in under twenty, i.e. in less than half the time."
+      },
+      {
+        "s": "העירייה כבר התחילה לבנות חניונים ליד התחנות.",
+        "sEn": "The municipality has already started building parking lots near the stations.",
+        "a": false,
+        "why": "The municipality is only looking into building parking lots near the stations, and no date has been set yet for carrying out the plans."
+      },
+      {
+        "s": "העירייה החליטה לעזור כספית לעסקים שנפגעו מהעבודות.",
+        "sEn": "The municipality decided to help businesses harmed by the works financially.",
+        "a": true,
+        "why": "Deputy mayor Ronit Alon says an aid fund for businesses harmed by the works was approved at the last council meeting."
+      }
+    ],
+    "find": [
+      {
+        "en": "for the most part, mostly (fem. pl.)",
+        "answer": [
+          "ברובן"
+        ]
+      },
+      {
+        "en": "in line with demand",
+        "answer": [
+          "בהתאם לביקוש"
+        ]
+      },
+      {
+        "en": "near the stations (formal)",
+        "answer": [
+          "סמוך לתחנות"
+        ]
+      },
+      {
+        "en": "the operating company said (lit. it was reported from the operating company)",
+        "answer": [
+          "מחברת התפעול נמסר"
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "חודש לאחר חנוכת הקו, עשרות אלפי ___ עולים על הרכבת מדי יום.",
+        "en": "A month after the line was inaugurated, tens of thousands of passengers ride the train every day.",
+        "answer": [
+          "נוסעים"
+        ],
+        "hint": "passengers"
+      },
+      {
+        "prompt": "בימים הראשונים להפעלה היו ___ טכניות שגרמו לעיכובים של עד חצי שעה.",
+        "en": "In the first days of operation there were technical faults that caused delays of up to half an hour.",
+        "answer": [
+          "תקלות"
+        ],
+        "hint": "faults, malfunctions"
+      },
+      {
+        "prompt": "בעלי העסקים לאורך התוואי מתלוננים על ירידה חדה ב___.",
+        "en": "The business owners along the route complain about a sharp drop in revenue.",
+        "answer": [
+          "הכנסות"
+        ],
+        "hint": "revenue, income"
+      },
+      {
+        "prompt": "לדברי יוסי מזרחי, הלקוחות המבוגרים שלו כבר לא מגיעים, כי ביטלו את רוב מקומות ה___.",
+        "en": "According to Yossi Mizrahi, his older customers don't come anymore, because most of the parking spaces were removed.",
+        "answer": [
+          "חנייה",
+          "חניה"
+        ],
+        "hint": "parking"
+      },
+      {
+        "prompt": "פרופ׳ שטרן צופה שבטווח הארוך הרכבת תגדיל את מספר האנשים שמגיעים ל___ העיר.",
+        "en": "Prof. Stern predicts that in the long run the train will increase the number of people coming to the city center.",
+        "answer": [
+          "מרכז"
+        ],
+        "hint": "center"
       }
     ],
     "writing": {
@@ -1675,9 +2154,107 @@
             "מבינים",
             "מעניש",
             "מענישים",
-            "כועסים"
+            "כועסים",
+            "לקבל"
           ]
         ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "לדברי שמעוני, החברה \"קו ישר\" נכשלה כי המוצר שלה לא היה טוב מספיק.",
+        "sEn": "According to Shimoni, Kav Yashar failed because its product wasn't good enough.",
+        "a": false,
+        "why": "She says they had a good product, an excellent team and money in the bank; the problem was that they grew too fast."
+      },
+      {
+        "s": "היום הקשה ביותר עבורה היה היום שבו נאלצה לפטר את העובדים.",
+        "sEn": "The hardest day for her was the day she had to lay off the employees.",
+        "a": true,
+        "why": "Paragraph 3: \"The hardest day was the day I had to lay off the staff.\""
+      },
+      {
+        "s": "החברה החדשה, \"טרי\", עדיין אינה מרוויחה כסף.",
+        "sEn": "The new company, Tari, is not making money yet.",
+        "a": false,
+        "why": "Paragraph 6: an agreement was recently signed with a large restaurant chain, and the company is already profitable."
+      },
+      {
+        "s": "הודעות שקיבלה מעובדים לשעבר עזרו לה להתאושש מהכישלון.",
+        "sEn": "Messages she received from former employees helped her recover from the failure.",
+        "a": true,
+        "why": "Former employees wrote that it had been the most meaningful period of their careers, and she says that gave her her strength back."
+      }
+    ],
+    "find": [
+      {
+        "en": "on paper",
+        "answer": [
+          "על הנייר"
+        ]
+      },
+      {
+        "en": "the end of the road",
+        "answer": [
+          "סוף הדרך"
+        ]
+      },
+      {
+        "en": "to dream big",
+        "answer": [
+          "לחלום בגדול"
+        ]
+      },
+      {
+        "en": "one customer at a time (lit. customer after customer)",
+        "answer": [
+          "לקוח אחרי לקוח"
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "החברה הראשונה של שמעוני גייסה מיליוני דולרים, אבל ___ שנתיים לאחר מכן.",
+        "en": "Shimoni's first company raised millions of dollars, but shut down two years later.",
+        "answer": [
+          "נסגרה",
+          "נכשלה"
+        ],
+        "hint": "shut down (past, fem.)"
+      },
+      {
+        "prompt": "הטעות העיקרית הייתה שהחברה גדלה מהר מדי וגייסה ___ לפני שהיו לה מספיק לקוחות משלמים.",
+        "en": "The main mistake was that the company grew too fast and hired employees before it had enough paying customers.",
+        "answer": [
+          "עובדים"
+        ],
+        "hint": "employees"
+      },
+      {
+        "prompt": "לדבריה, בישראל כישלון של סטארט-אפ הוא לפעמים כמעט ___ כבוד.",
+        "en": "In her words, in Israel a startup's failure is sometimes almost a badge of honor.",
+        "answer": [
+          "אות"
+        ],
+        "hint": "a badge, a sign (… of honor)"
+      },
+      {
+        "prompt": "שמעוני מודה שליחס ה___ לכישלון יש גם צד שני: הוא מעודד לקחת סיכונים בלי לחשוב מספיק.",
+        "en": "Shimoni admits that the forgiving attitude to failure also has a downside: it encourages taking risks without enough thought.",
+        "answer": [
+          "סלחני"
+        ],
+        "hint": "forgiving, lenient"
+      },
+      {
+        "prompt": "החברה החדשה, \"טרי\", מפתחת תוכנה שעוזרת למסעדות ___ בזבוז מזון.",
+        "en": "The new company, Tari, develops software that helps restaurants cut down on food waste.",
+        "answer": [
+          "לצמצם",
+          "להפחית",
+          "להקטין"
+        ],
+        "hint": "to reduce, to cut down on (infinitive)"
       }
     ],
     "writing": {

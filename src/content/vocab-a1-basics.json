@@ -43,7 +43,7 @@
       "he": "ערב טוב, אפשר שולחן לשניים?",
       "en": "Good evening, could we have a table for two?"
     },
-    "note": "Said when you arrive somewhere from late afternoon on. When you leave at night, say לילה טוב."
+    "note": "A greeting from late afternoon on. It is also said when you leave in the evening (= have a nice evening). Late at night or before bed, say לילה טוב."
   },
   {
     "id": "va1_laila_tov",
@@ -84,6 +84,7 @@
     "en": "how's it going?",
     "enAlt": ["what's up?", "how are things?", "how are you?"],
     "pos": "phrase",
+    "root": "ש.מ.ע",
     "register": "colloquial",
     "level": "A1",
     "topic": "basics",
@@ -179,6 +180,7 @@
     "en": "nice to meet you",
     "enAlt": ["pleased to meet you", "very nice"],
     "pos": "phrase",
+    "root": "נ.ע.מ",
     "level": "A1",
     "topic": "basics",
     "ex": {
@@ -368,7 +370,7 @@
       "he": "מתי השיעור? בעשר?",
       "en": "When is the lesson? At ten?"
     },
-    "note": "Only for questions. In a statement, \"when\" is כש־ (kshe-): כשאני בבית... = when I'm at home..."
+    "note": "For questions, including indirect ones: אני לא יודע מתי = I don't know when. For \"when\" in a statement, use כש־ (kshe-): כשאני בבית... = when I'm at home..."
   },
   {
     "id": "va1_lama",
@@ -584,7 +586,7 @@
     "id": "va1_ze",
     "he": "זה",
     "tr": "ze",
-    "en": "this; it (m.)",
+    "en": "this (m.); that; it",
     "enAlt": ["this", "that", "it"],
     "pos": "pron",
     "level": "A1",
@@ -827,7 +829,7 @@
       "he": "אבא שלי עובד בבנק.",
       "en": "My dad works at a bank."
     },
-    "note": "Masculine even though it ends in א. Often used like a name, without ה: אבא בבית = Dad is home. The formal word is אב; plural אבות."
+    "note": "Masculine even though it ends in an -a sound. Often used like a name, without ה: אבא בבית = Dad is home. The formal word is אב; plural אבות."
   },
   {
     "id": "va1_ima",
@@ -860,14 +862,14 @@
       "he": "ההורים שלי גרים בירושלים.",
       "en": "My parents live in Jerusalem."
     },
-    "note": "Almost always plural. The singular הורה (horé) = a parent is used mostly in official language."
+    "note": "Usually plural. The singular הורה (horé) = a parent exists but is less common in everyday speech: כל הורה יודע את זה = every parent knows that."
   },
   {
     "id": "va1_akh",
     "he": "אח",
     "tr": "akh",
     "en": "brother",
-    "enAlt": ["sibling", "male nurse"],
+    "enAlt": ["bro", "male nurse"],
     "pos": "noun",
     "gender": "m",
     "plural": "אחים",
@@ -998,7 +1000,7 @@
       "he": "סבא שלי בן תשעים.",
       "en": "My grandpa is ninety."
     },
-    "note": "Like אבא: masculine despite the א, and used as a name without ה. Grandparents: סבא וסבתא, or סבים וסבתות."
+    "note": "Like אבא: masculine despite the -a ending, and used as a name without ה. Grandparents: סבא וסבתא, or סבים וסבתות."
   },
   {
     "id": "va1_savta",
@@ -1043,13 +1045,14 @@
     "pos": "noun",
     "gender": "m",
     "plural": "בעלים",
+    "root": "ב.ע.ל",
     "level": "A1",
     "topic": "family",
     "ex": {
-      "he": "הבעל שלי עובד בהייטק.",
+      "he": "בעלי עובד בהייטק.",
       "en": "My husband works in high-tech."
     },
-    "note": "\"My husband\": הבעל שלי or בעלי (ba'alí). The word also means \"owner\" (בעל הבית = landlord), so some people prefer בן זוג (partner)."
+    "note": "\"My husband\" is usually בעלי (ba'alí); in casual speech also הבעל שלי. The word also means \"owner\" (בעל הבית = landlord, owner of the house), so some people prefer בן זוג (partner)."
   },
   {
     "id": "va1_isha",
@@ -1095,13 +1098,14 @@
     "pos": "noun",
     "gender": "m",
     "plural": "גברים",
+    "root": "ג.ב.ר",
     "level": "A1",
     "topic": "family",
     "ex": {
       "he": "בצוות שלנו יש שלוש נשים ושני גברים.",
       "en": "Our team has three women and two men."
     },
-    "note": "The everyday word for an adult man. On restroom doors: גברים / נשים."
+    "note": "The everyday word for an adult man. On restroom doors: גברים / נשים. Same root as גברת (Mrs., lady)."
   },
   {
     "id": "va1_khaver",
@@ -1346,6 +1350,7 @@
     "pos": "noun",
     "gender": "f",
     "plural": "גברות",
+    "root": "ג.ב.ר",
     "level": "A1",
     "topic": "family",
     "ex": {

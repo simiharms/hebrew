@@ -54,7 +54,7 @@
       "he": "אני שוטפת את הפנים במים קרים.",
       "en": "I wash my face with cold water."
     },
-    "note": "Always plural in form, even for one face. Adjectives are plural, usually feminine (פנים יפות), though you will also hear masculine (פנים חדשים). Same root as לפני (before) and לפנות (to turn)."
+    "note": "Always plural in form, even for one face. It can be feminine or masculine; adjectives are plural and most often feminine: פנים יפות, פנים עגולות. Same root as לפני (before) and לפנות (to turn)."
   },
   {
     "id": "va1b_ayin",
@@ -122,7 +122,7 @@
     "level": "A1",
     "topic": "body",
     "ex": {
-      "he": "לא מדברים עם פה מלא!",
+      "he": "לא מדברים עם הפה מלא!",
       "en": "Don't talk with your mouth full!"
     },
     "note": "Spelled like פה (po, here); context tells you which. Plural פיות (piyót). בעל פה = by heart, orally: ללמוד בעל פה (to learn by heart)."
@@ -158,8 +158,8 @@
     "level": "A1",
     "topic": "body",
     "ex": {
-      "he": "לדנה יש שיער ארוך ושחור.",
-      "en": "Dana has long black hair."
+      "he": "לאמירה יש שיער ארוך ושחור.",
+      "en": "Amira has long black hair."
     },
     "note": "Masculine and normally singular, like English 'hair': שיער ארוך. A single hair is שערה (sa'ará), plural שערות. מספרה = hair salon."
   },
@@ -335,10 +335,10 @@
     "level": "A1",
     "topic": "body",
     "ex": {
-      "he": "אני יושב כל היום מול המחשב, וכואב לי הגב.",
-      "en": "I sit in front of the computer all day, and my back hurts."
+      "he": "אחרי יום שלם מול המחשב כואב לי הגב.",
+      "en": "After a whole day at the computer, my back hurts."
     },
-    "note": "Masculine: הגב כואב. על הגב = on one's back; מאחורי הגב = behind someone's back. Don't confuse it with גבוה (tall)."
+    "note": "Masculine: הגב כואב. כאבי גב = back pain; על הגב = on one's back; מאחורי הגב = behind someone's back. תיק גב = a backpack."
   },
   {
     "id": "va1b_lev",
@@ -457,7 +457,6 @@
     "en": "healthy",
     "enAlt": [
       "well",
-      "fit",
       "in good health"
     ],
     "pos": "adj",
@@ -468,7 +467,7 @@
       "he": "ירקות ופירות זה אוכל בריא.",
       "en": "Vegetables and fruit are healthy food."
     },
-    "note": "Feminine בריאה (bri'á); plural בריאים, בריאות. The noun בריאות = health; לבריאות! = bless you! (after a sneeze) and cheers!"
+    "note": "Feminine בריאה (bri'á); plural בריאים, בריאות. The noun בריאות = health. לבריאות! = bless you! (after a sneeze), also said to someone who has just eaten or drunk. A toast is לחיים! (cheers!)."
   },
   {
     "id": "va1b_khazak",
@@ -518,6 +517,7 @@
       "wide awake"
     ],
     "pos": "adj",
+    "root": "ע.ו.ר",
     "level": "A2",
     "topic": "body",
     "ex": {
@@ -791,7 +791,7 @@
       "he": "בקיץ הילדים הולכים לגן עם כובע.",
       "en": "In summer the children go to kindergarten with a hat."
     },
-    "note": "Plural כובעים (kova'ím). Any head covering: כובע מצחייה = a cap, כובע צמר = a woolly hat."
+    "note": "Plural כובעים (kova'ím). Covers hats and caps of every kind: כובע מצחייה = a cap, כובע צמר = a woolly hat, כובע שמש = a sun hat."
   },
   {
     "id": "va1b_jins",
@@ -807,8 +807,8 @@
     "level": "A1",
     "topic": "clothes",
     "ex": {
-      "he": "הוא תמיד בא לעבודה בג׳ינס ובחולצה פשוטה.",
-      "en": "He always comes to work in jeans and a simple shirt."
+      "he": "דימה תמיד בא לעבודה בג׳ינס ובחולצה פשוטה.",
+      "en": "Dima always comes to work in jeans and a simple shirt."
     },
     "note": "Singular and masculine in Hebrew: ג׳ינס חדש = new jeans. The geresh in ג׳ marks the English 'j' sound."
   },
@@ -830,7 +830,7 @@
       "he": "הסוודר הזה חם ונעים.",
       "en": "This sweater is warm and cozy."
     },
-    "note": "Plural סוודרים. Pronounced svéder. סוודר צמר = a wool sweater."
+    "note": "Masculine: סוודר חם, plural סוודרים. סוודר צמר = a wool sweater."
   },
   {
     "id": "va1b_mishkafayim",
@@ -918,7 +918,7 @@
     "en": "flip-flop",
     "enAlt": [
       "flip-flops",
-      "slipper",
+      "sliders",
       "thongs"
     ],
     "pos": "noun",
@@ -949,7 +949,7 @@
       "he": "הסנדלים האלה נוחים מאוד להליכה.",
       "en": "These sandals are very comfortable for walking."
     },
-    "note": "Masculine: סנדלים נוחים. סנדלים תנ״כיים = simple leather 'biblical' sandals."
+    "note": "Masculine: סנדלים נוחים. The simple leather 'biblical' sandals are popularly called תנ״כיות (tanakhiyót)."
   },
   {
     "id": "va1b_beged_yam",
@@ -999,7 +999,7 @@
     "en": "scarf",
     "enAlt": [
       "shawl",
-      "headscarf"
+      "muffler"
     ],
     "pos": "noun",
     "gender": "m",
@@ -1010,7 +1010,7 @@
       "he": "הצעיף הזה מצמר, והוא חם מאוד.",
       "en": "This scarf is made of wool, and it's very warm."
     },
-    "note": "Plural צעיפים (tse'ifím). Also a headscarf or shawl. צמר = wool."
+    "note": "Plural צעיפים (tse'ifím). Also a light shawl; a headscarf is usually מטפחת. צמר = wool."
   },
   {
     "id": "va1b_kfafa",
@@ -1154,7 +1154,7 @@
       "he": "היא תמיד לבושה יפה.",
       "en": "She's always nicely dressed."
     },
-    "note": "Feminine לבושה (levushá); plural לבושים, לבושות. לבוש ב = wearing: הוא לבוש בחולצה לבנה. The verb is ללבוש (to wear, to put on)."
+    "note": "Feminine לבושה (levushá); plural לבושים, לבושות. 'Wearing' works with or without ב: הוא לבוש חולצה לבנה / לבוש בחולצה לבנה. The verb is ללבוש (to wear, to put on); the noun לבוש (levúsh) = clothing, attire."
   },
   {
     "id": "va1b_mezeg_avir",
@@ -1436,7 +1436,7 @@
       "he": "בחדשות אמרו שמחר יהיה שרב.",
       "en": "They said on the news that there will be a heatwave tomorrow."
     },
-    "note": "The Hebrew word for a חמסין, used on the news and in forecasts: גל שרב = a heatwave. On a day of שרב, drink plenty of water and stay in the shade (בצל)."
+    "note": "The Hebrew word for a חמסין, used on the news and in forecasts: יום שרב, שרב כבד. Any heatwave, dry or humid, is a גל חום. On a day of שרב, drink plenty of water and stay in the shade (בצל)."
   },
   {
     "id": "va1b_temperatura",
@@ -1452,7 +1452,7 @@
       "he": "מה הטמפרטורה היום? שלושים מעלות.",
       "en": "What's the temperature today? Thirty degrees."
     },
-    "note": "Plural טמפרטורות. For a fever, Hebrew says חום, not טמפרטורה: יש לי חום (I have a temperature)."
+    "note": "Plural טמפרטורות. For a fever, Hebrew normally says חום (khom): יש לי חום = I have a temperature; למדוד חום = to take someone's temperature."
   },
   {
     "id": "va1b_maala",

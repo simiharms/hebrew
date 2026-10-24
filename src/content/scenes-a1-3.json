@@ -1,0 +1,571 @@
+[
+  {
+    "id": "s_a1_opening_hours",
+    "level": "A1",
+    "title": "מתי הספרייה פתוחה?",
+    "titleEn": "When Is the Library Open?",
+    "genre": "phone",
+    "synopsis": "Artyom phones the city library. He works during the day, so he wants to know exactly when he can come in, and Sigal, the librarian, answers his questions.",
+    "speakers": {
+      "A": {
+        "name": "סיגל",
+        "gender": "f"
+      },
+      "B": {
+        "name": "ארטיום",
+        "gender": "m"
+      }
+    },
+    "lines": [
+      {
+        "s": "A",
+        "he": "הספרייה העירונית, שלום.",
+        "en": "City library, hello."
+      },
+      {
+        "s": "B",
+        "he": "שלום, יש לי שאלה. מתי הספרייה פתוחה?",
+        "en": "Hello, I have a question. When is the library open?"
+      },
+      {
+        "s": "A",
+        "he": "מיום ראשון עד יום חמישי.",
+        "en": "From Sunday to Thursday."
+      },
+      {
+        "s": "B",
+        "he": "מאיזו שעה עד איזו שעה?",
+        "en": "From what time until what time?"
+      },
+      {
+        "s": "A",
+        "he": "משמונה בבוקר עד שש בערב.",
+        "en": "From eight in the morning until six in the evening."
+      },
+      {
+        "s": "B",
+        "he": "אני עובד עד שש. אתם פתוחים בערב?",
+        "en": "I work until six. Are you open in the evening?"
+      },
+      {
+        "s": "A",
+        "he": "כן, ביום שלישי אנחנו פתוחים עד תשע.",
+        "en": "Yes, on Tuesday we're open until nine."
+      },
+      {
+        "s": "B",
+        "he": "וביום שישי?",
+        "en": "And on Friday?"
+      },
+      {
+        "s": "A",
+        "he": "ביום שישי מתשע עד שתים עשרה. בשבת אנחנו סגורים.",
+        "en": "On Friday from nine to twelve. On Saturday we're closed."
+      },
+      {
+        "s": "B",
+        "he": "כמה ספרים אפשר לקחת?",
+        "en": "How many books can you take out?"
+      },
+      {
+        "s": "A",
+        "he": "חמישה ספרים, לשלושה שבועות.",
+        "en": "Five books, for three weeks."
+      },
+      {
+        "s": "B",
+        "he": "מצוין. תודה רבה, להתראות!",
+        "en": "Excellent. Thank you very much, goodbye!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "מאיזו שעה עד איזו שעה הספרייה פתוחה ביום ראשון?",
+        "qEn": "From what time until what time is the library open on Sunday?",
+        "answer": "משמונה בבוקר עד שש בערב.",
+        "answerEn": "From eight in the morning until six in the evening.",
+        "keywords": [
+          [
+            "שמונה",
+            "8"
+          ],
+          [
+            "שש",
+            "6"
+          ]
+        ]
+      },
+      {
+        "q": "באיזה יום הספרייה פתוחה בערב?",
+        "qEn": "On which day is the library open in the evening?",
+        "answer": "ביום שלישי, עד תשע בערב.",
+        "answerEn": "On Tuesday, until nine in the evening.",
+        "keywords": [
+          [
+            "שלישי"
+          ],
+          [
+            "תשע",
+            "9"
+          ]
+        ]
+      },
+      {
+        "q": "כמה ספרים אפשר לקחת, ולכמה זמן?",
+        "qEn": "How many books can you take out, and for how long?",
+        "answer": "חמישה ספרים, לשלושה שבועות.",
+        "answerEn": "Five books, for three weeks.",
+        "keywords": [
+          [
+            "חמישה",
+            "5"
+          ],
+          [
+            "שלושה",
+            "שלוש",
+            "3"
+          ]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "הספרייה פתוחה בשבת.",
+        "sEn": "The library is open on Saturday.",
+        "a": false,
+        "why": "Sigal says בשבת אנחנו סגורים, 'on Saturday we're closed'."
+      },
+      {
+        "s": "ביום ראשון הספרייה פתוחה משמונה בבוקר.",
+        "sEn": "On Sunday the library opens at eight in the morning.",
+        "a": true,
+        "why": "From Sunday to Thursday it is open משמונה בבוקר עד שש בערב, 'from eight in the morning until six in the evening'."
+      },
+      {
+        "s": "ארטיום עובד עד תשע בערב.",
+        "sEn": "Artyom works until nine in the evening.",
+        "a": false,
+        "why": "He says אני עובד עד שש, 'I work until six'. Nine is when the library closes on Tuesday."
+      },
+      {
+        "s": "ביום שישי הספרייה פתוחה רק עד שתים עשרה.",
+        "sEn": "On Friday the library is only open until twelve.",
+        "a": true,
+        "why": "Sigal says ביום שישי מתשע עד שתים עשרה, 'on Friday from nine to twelve'."
+      }
+    ],
+    "dictation": [
+      2,
+      4,
+      9
+    ],
+    "expressions": [
+      {
+        "he": "יש לי שאלה",
+        "en": "I have a question",
+        "note": "A polite way to open a phone call or ask for help. יש לי = I have, literally 'there is to me'."
+      },
+      {
+        "he": "מתי הספרייה פתוחה?",
+        "en": "When is the library open?",
+        "note": "פתוח (open) agrees with the noun: הספרייה פתוחה, הבנק פתוח, החנויות פתוחות. The opposite is סגור: בשבת אנחנו סגורים."
+      },
+      {
+        "he": "מאיזו שעה עד איזו שעה?",
+        "en": "From what time until what time?",
+        "note": "שעה is feminine, so 'which' is איזו. The answer uses מ... עד...: משמונה בבוקר עד שש בערב. מ is written joined to the next word; עד stands alone."
+      },
+      {
+        "he": "מיום ראשון עד יום חמישי",
+        "en": "From Sunday to Thursday",
+        "note": "The days are numbered: יום ראשון (first day) is Sunday, up to יום שישי (sixth day), Friday. Only Saturday has a name: שבת. The usual Israeli work week is Sunday to Thursday."
+      },
+      {
+        "he": "שש בערב",
+        "en": "six in the evening",
+        "note": "Clock times use the feminine numbers: אחת, שתיים, שלוש... שתים עשרה. Add the part of the day: בבוקר (in the morning), אחרי הצהריים (in the afternoon), בערב (in the evening)."
+      },
+      {
+        "he": "כמה ספרים אפשר לקחת?",
+        "en": "How many books can you take out?",
+        "note": "אפשר + infinitive = 'you can / it's possible to'. It never changes for gender or person: אפשר לקחת, אפשר לשלם, אפשר לבוא."
+      }
+    ]
+  },
+  {
+    "id": "s_a1_plans_friday",
+    "level": "A1",
+    "title": "מה עושים ביום שישי?",
+    "titleEn": "What Are We Doing on Friday?",
+    "genre": "phone",
+    "synopsis": "Hadas phones her friend Wassim with a plan for Friday. Wassim isn't free all day, so the two of them need to find a time and a place that work for both.",
+    "speakers": {
+      "A": {
+        "name": "הדס",
+        "gender": "f"
+      },
+      "B": {
+        "name": "וסים",
+        "gender": "m"
+      }
+    },
+    "lines": [
+      {
+        "s": "A",
+        "he": "היי וסים, מה נשמע?",
+        "en": "Hi Wassim, how's it going?"
+      },
+      {
+        "s": "B",
+        "he": "הכול טוב, ואת?",
+        "en": "All good, and you?"
+      },
+      {
+        "s": "A",
+        "he": "בסדר. תגיד, מה אתה עושה ביום שישי?",
+        "en": "Fine. Tell me, what are you doing on Friday?"
+      },
+      {
+        "s": "B",
+        "he": "עוד לא יודע. למה?",
+        "en": "Don't know yet. Why?"
+      },
+      {
+        "s": "A",
+        "he": "אני רוצה ללכת לים. אתה רוצה לבוא?",
+        "en": "I want to go to the beach. Do you want to come?"
+      },
+      {
+        "s": "B",
+        "he": "כן, אבל בבוקר אני לא יכול.",
+        "en": "Yes, but I can't in the morning."
+      },
+      {
+        "s": "A",
+        "he": "למה? אתה עובד?",
+        "en": "Why? Are you working?"
+      },
+      {
+        "s": "B",
+        "he": "לא, אני צריך לבקר את סבתא שלי.",
+        "en": "No, I need to visit my grandma."
+      },
+      {
+        "s": "A",
+        "he": "אין בעיה, אני יכולה גם אחרי הצהריים. בשלוש?",
+        "en": "No problem, I can do the afternoon too. At three?"
+      },
+      {
+        "s": "B",
+        "he": "בשלוש אני יכול. איפה נפגשים?",
+        "en": "At three I can. Where shall we meet?"
+      },
+      {
+        "s": "A",
+        "he": "ליד הקיוסק בחוף. אתה יכול להביא מטקות?",
+        "en": "By the kiosk on the beach. Can you bring matkot?"
+      },
+      {
+        "s": "B",
+        "he": "בטח! אז ביום שישי בשלוש. ביי!",
+        "en": "Sure! So, Friday at three. Bye!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "לאן הדס רוצה ללכת ביום שישי?",
+        "qEn": "Where does Hadas want to go on Friday?",
+        "answer": "היא רוצה ללכת לים.",
+        "answerEn": "She wants to go to the beach.",
+        "keywords": [
+          [
+            "ים",
+            "חוף"
+          ]
+        ]
+      },
+      {
+        "q": "למה וסים לא יכול בבוקר?",
+        "qEn": "Why can't Wassim come in the morning?",
+        "answer": "כי הוא צריך לבקר את סבתא שלו.",
+        "answerEn": "Because he needs to visit his grandmother.",
+        "keywords": [
+          [
+            "לבקר",
+            "מבקר"
+          ],
+          [
+            "סבתא"
+          ]
+        ]
+      },
+      {
+        "q": "מתי ואיפה הם נפגשים?",
+        "qEn": "When and where are they meeting?",
+        "answer": "ביום שישי בשלוש, ליד הקיוסק בחוף.",
+        "answerEn": "On Friday at three, by the kiosk on the beach.",
+        "keywords": [
+          [
+            "שלוש",
+            "3"
+          ],
+          [
+            "קיוסק",
+            "חוף"
+          ]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "הדס רוצה ללכת לים ביום שישי.",
+        "sEn": "Hadas wants to go to the beach on Friday.",
+        "a": true,
+        "why": "She says אני רוצה ללכת לים and asks Wassim אתה רוצה לבוא?"
+      },
+      {
+        "s": "וסים עובד ביום שישי בבוקר.",
+        "sEn": "Wassim works on Friday morning.",
+        "a": false,
+        "why": "When Hadas asks אתה עובד?, he says no: אני צריך לבקר את סבתא שלי, 'I need to visit my grandma'."
+      },
+      {
+        "s": "הדס יכולה לבוא גם אחרי הצהריים.",
+        "sEn": "Hadas can also come in the afternoon.",
+        "a": true,
+        "why": "She says אני יכולה גם אחרי הצהריים and suggests three o'clock."
+      },
+      {
+        "s": "הדס מביאה את המטקות.",
+        "sEn": "Hadas is bringing the matkot.",
+        "a": false,
+        "why": "Hadas asks Wassim אתה יכול להביא מטקות? and he answers בטח, so he is the one bringing them."
+      }
+    ],
+    "dictation": [
+      4,
+      7,
+      9
+    ],
+    "expressions": [
+      {
+        "he": "מה נשמע?",
+        "en": "How's it going?",
+        "note": "Literally 'what is heard?'. A friendly greeting; answer הכול טוב or בסדר and ask back: ואת? to a woman, ואתה? to a man."
+      },
+      {
+        "he": "תגיד, ...",
+        "en": "Tell me, ... / Say, ...",
+        "note": "Opens a question in casual speech. To a woman: תגידי; to a group: תגידו."
+      },
+      {
+        "he": "אני רוצה ללכת לים",
+        "en": "I want to go to the beach",
+        "note": "רוצה, יכול and צריך are followed by an infinitive, the ל- form: רוצה לבוא, יכול להביא, צריך לבקר. A woman says רוצה too, but pronounced rotsá, and יכולה, צריכה."
+      },
+      {
+        "he": "בשלוש אני יכול",
+        "en": "I can make it at three",
+        "note": "יכול can stand alone when the action is clear. A woman says אני יכולה; 'I can't' is אני לא יכול or אני לא יכולה."
+      },
+      {
+        "he": "איפה נפגשים?",
+        "en": "Where shall we meet?",
+        "note": "A plural present verb without a pronoun asks about a shared plan: מתי נפגשים? מה עושים?"
+      },
+      {
+        "he": "מטקות",
+        "en": "matkot, beach paddle ball",
+        "note": "Two wooden paddles and a small rubber ball: the classic Israeli beach game. You hit the ball back and forth and try not to let it fall."
+      }
+    ]
+  },
+  {
+    "id": "s_a1_supermarket",
+    "level": "A1",
+    "title": "מזומן או אשראי?",
+    "titleEn": "Cash or Card?",
+    "genre": "street",
+    "synopsis": "Jenny is at the supermarket checkout, and Abebe, the cashier, asks her the usual questions. There's a small problem when it's time to pay.",
+    "speakers": {
+      "A": {
+        "name": "אבבה",
+        "gender": "m"
+      },
+      "B": {
+        "name": "ג׳ני",
+        "gender": "f"
+      }
+    },
+    "lines": [
+      {
+        "s": "A",
+        "he": "ערב טוב. את צריכה שקית?",
+        "en": "Good evening. Do you need a bag?"
+      },
+      {
+        "s": "B",
+        "he": "כן, שתי שקיות, בבקשה.",
+        "en": "Yes, two bags, please."
+      },
+      {
+        "s": "A",
+        "he": "הנה. יש לך כרטיס מועדון?",
+        "en": "Here you go. Do you have a club card?"
+      },
+      {
+        "s": "B",
+        "he": "לא, אין לי.",
+        "en": "No, I don't."
+      },
+      {
+        "s": "A",
+        "he": "אין בעיה. הלחם במבצע, שניים בעשרה שקלים.",
+        "en": "No problem. The bread is on special, two for ten shekels."
+      },
+      {
+        "s": "B",
+        "he": "באמת? אז עוד אחד, בבקשה. כמה זה ביחד?",
+        "en": "Really? Then one more, please. How much is it altogether?"
+      },
+      {
+        "s": "A",
+        "he": "מאה ועשרים שקלים. מזומן או אשראי?",
+        "en": "A hundred and twenty shekels. Cash or card?"
+      },
+      {
+        "s": "B",
+        "he": "באשראי. רגע... אני לא מוצאת את הכרטיס!",
+        "en": "By card. Wait... I can't find my card!"
+      },
+      {
+        "s": "A",
+        "he": "זה בסדר, אפשר לשלם במזומן.",
+        "en": "That's fine, you can pay cash."
+      },
+      {
+        "s": "B",
+        "he": "טוב, הנה מאתיים שקלים.",
+        "en": "OK, here's two hundred shekels."
+      },
+      {
+        "s": "A",
+        "he": "תודה. הנה העודף, שמונים שקלים.",
+        "en": "Thanks. Here's your change, eighty shekels."
+      },
+      {
+        "s": "B",
+        "he": "תודה רבה, ערב טוב!",
+        "en": "Thank you very much, have a good evening!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "כמה שקיות ג׳ני צריכה?",
+        "qEn": "How many bags does Jenny need?",
+        "answer": "שתי שקיות.",
+        "answerEn": "Two bags.",
+        "keywords": [
+          [
+            "שתי",
+            "שתיים",
+            "2"
+          ]
+        ]
+      },
+      {
+        "q": "כמה זה עולה ביחד?",
+        "qEn": "How much does it all cost?",
+        "answer": "מאה ועשרים שקלים.",
+        "answerEn": "A hundred and twenty shekels.",
+        "keywords": [
+          [
+            "מאה ועשרים",
+            "מאה עשרים",
+            "120"
+          ]
+        ]
+      },
+      {
+        "q": "למה ג׳ני משלמת במזומן?",
+        "qEn": "Why does Jenny pay cash?",
+        "answer": "כי היא לא מוצאת את הכרטיס.",
+        "answerEn": "Because she can't find her card.",
+        "keywords": [
+          [
+            "מוצאת",
+            "מוצא",
+            "למצוא"
+          ],
+          [
+            "כרטיס",
+            "אשראי"
+          ]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "לג׳ני יש כרטיס מועדון.",
+        "sEn": "Jenny has a club card.",
+        "a": false,
+        "why": "When Abebe asks יש לך כרטיס מועדון?, she says לא, אין לי, 'no, I don't'."
+      },
+      {
+        "s": "הלחם במבצע.",
+        "sEn": "The bread is on special offer.",
+        "a": true,
+        "why": "Abebe says הלחם במבצע, שניים בעשרה שקלים, 'the bread is on special, two for ten shekels', so Jenny takes one more."
+      },
+      {
+        "s": "ג׳ני משלמת באשראי.",
+        "sEn": "Jenny pays by card.",
+        "a": false,
+        "why": "She wants to pay באשראי, but she can't find her card (אני לא מוצאת את הכרטיס), so she pays cash."
+      },
+      {
+        "s": "ג׳ני מקבלת עודף של שמונים שקלים.",
+        "sEn": "Jenny gets eighty shekels in change.",
+        "a": true,
+        "why": "She pays with two hundred shekels for a bill of a hundred and twenty, and Abebe says הנה העודף, שמונים שקלים."
+      }
+    ],
+    "dictation": [
+      0,
+      6,
+      8
+    ],
+    "expressions": [
+      {
+        "he": "את צריכה שקית?",
+        "en": "Do you need a bag?",
+        "note": "To a man: אתה צריך שקית? שקית is feminine, so two bags are שתי שקיות. Big supermarkets charge a few agorot for a plastic bag, so the cashier asks first."
+      },
+      {
+        "he": "יש לך כרטיס מועדון?",
+        "en": "Do you have a club card?",
+        "note": "Israeli supermarket chains have customer clubs, מועדון לקוחות, with special prices for members. The answer is כן or לא, אין לי."
+      },
+      {
+        "he": "במבצע",
+        "en": "on special offer",
+        "note": "You'll see מבצע on signs all over the shop. שניים בעשרה means 'two for ten' (shekels)."
+      },
+      {
+        "he": "כמה זה ביחד?",
+        "en": "How much is it altogether?",
+        "note": "ביחד = together. For one item, ask כמה זה עולה?"
+      },
+      {
+        "he": "מזומן או אשראי?",
+        "en": "Cash or card?",
+        "note": "אשראי (credit) is short for כרטיס אשראי. Answer with ב-: במזומן, באשראי."
+      },
+      {
+        "he": "הנה העודף",
+        "en": "Here's your change",
+        "note": "עודף is the money you get back. הנה = here is / here are: הנה השקיות, הנה הקבלה."
+      }
+    ]
+  }
+]

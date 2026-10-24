@@ -301,7 +301,7 @@
     "summary": [
       {
         "prompt": "הוועדה המוניטרית החליטה פה אחד ___ את הריבית ברבע אחוז.",
-        "en": "The monetary committee unanimously decided to cut the interest rate by a quarter of a percent.",
+        "en": "The monetary committee unanimously decided to cut the interest rate by a quarter of a percentage point.",
         "answer": [
           "להפחית",
           "להוריד"
@@ -346,11 +346,10 @@
     "writing": {
       "prompt": "בעקבות הורדת הריבית, כתבו פנייה רשמית קצרה למחלקת המשכנתאות בבנק שלכם: ציינו את ההחלטה, בקשו לבחון מחזור של המשכנתא ושאלו על העמלות.",
       "promptEn": "Following the rate cut, write a short formal request to your bank's mortgage department: mention the decision, ask them to look into refinancing your mortgage, and ask about the fees.",
-      "minWords": 60,
+      "minWords": 100,
       "useWords": [
         "בעקבות",
         "ברצוני",
-        "לבחון",
         "אבקש",
         "פירוט",
         "אודה לכם"
@@ -395,8 +394,8 @@
           ]
         }
       ],
-      "model": "לכבוד\nמחלקת המשכנתאות\n\nשלום רב,\n\nבעקבות החלטת הבנק המרכזי להפחית את הריבית, ברצוני לבחון את האפשרות למחזר את המשכנתא שלי. כיום חלק מההלוואה נמצא במסלול הפריים, והיתר בריבית קבועה.\nאבקש לקבל הצעה לתמהיל חדש, וכן פירוט של העמלות הצפויות, ובכלל זה עמלת פירעון מוקדם. חשוב לי להבין מראש את העלות הכוללת של המהלך, כדי לוודא שהוא אכן משתלם.\n\nאודה לכם אם תוכלו לקבוע איתי פגישה בשבועות הקרובים.\n\nבכבוד רב,\nאלכס",
-      "modelEn": "To the Mortgage Department. Dear Sir or Madam, Following the central bank's decision to cut the interest rate, I would like to look into the possibility of refinancing my mortgage. At the moment part of the loan is in the prime track and the rest is at a fixed rate. I would like to receive an offer for a new mix, as well as a breakdown of the expected fees, including the early repayment fee. It is important for me to understand the total cost of the move in advance, to make sure it really pays off. I would be grateful if you could set up a meeting with me in the coming weeks. Sincerely, Alex"
+      "model": "לכבוד\nמחלקת המשכנתאות\n\nהנדון: בקשה לבחינת מחזור המשכנתא\n\nשלום רב,\n\nבעקבות החלטת הבנק המרכזי להפחית את הריבית, ברצוני לבחון את האפשרות למחזר את המשכנתא שלי. את ההלוואה נטלתי לפני כשש שנים, לתקופה של 25 שנה. כיום חלק ממנה נמצא במסלול הפריים, והיתר בריבית קבועה.\nאבקש לקבל הצעה לתמהיל חדש, וכן פירוט של העמלות הצפויות, ובכלל זה עמלת פירעון מוקדם. חשוב לי להבין מראש את העלות הכוללת של המהלך, כדי לוודא שהוא אכן משתלם. כמו כן, אשמח לדעת אם אפשר לקצר את תקופת ההלוואה בלי להגדיל משמעותית את ההחזר החודשי.\n\nאודה לכם אם תוכלו לקבוע איתי פגישה בשבועות הקרובים, בסניף או בשיחת טלפון.\n\nבכבוד רב,\nאלכס",
+      "modelEn": "To the Mortgage Department. Re: request to look into refinancing my mortgage. Dear Sir or Madam, Following the central bank's decision to cut the interest rate, I would like to look into the possibility of refinancing my mortgage. I took out the loan about six years ago, for a term of 25 years. At the moment part of it is in the prime track and the rest is at a fixed rate. I would like to receive an offer for a new mix, as well as a breakdown of the expected fees, including the early repayment fee. It is important for me to understand the total cost of the move in advance, to make sure it really pays off. I would also like to know whether it is possible to shorten the term of the loan without significantly increasing the monthly repayment. I would be grateful if you could set up a meeting with me in the coming weeks, at the branch or by phone. Sincerely, Alex"
     }
   },
   {
@@ -600,7 +599,10 @@
             "מיותרת",
             "טיפשי",
             "הגיון",
-            "היגיון"
+            "היגיון",
+            "הגיוני",
+            "בזבוז",
+            "צורך"
           ]
         ]
       },
@@ -686,7 +688,8 @@
         "en": "During the COVID period it turned out that it is possible to work from home almost as usual.",
         "answer": [
           "מהבית",
-          "מרחוק"
+          "מרחוק",
+          "בבית"
         ],
         "hint": "from home / remotely"
       },
@@ -702,13 +705,14 @@
         "prompt": "העובדים מגיבים ב___, כי הם התרגלו לחסוך שעות בפקקים ולשלב בין העבודה למשפחה.",
         "en": "The employees respond with suspicion, because they have got used to saving hours in traffic and combining work with family.",
         "answer": [
-          "חשדנות"
+          "חשדנות",
+          "חשד"
         ],
         "hint": "suspicion"
       },
       {
-        "prompt": "בלי מפגשים במשרד כמעט נעלמו שיחות ה___, שבהן נולדים לא פעם רעיונות חדשים.",
-        "en": "Without meetings at the office, the corridor conversations, in which new ideas are often born, have almost disappeared.",
+        "prompt": "בעבודה מרחוק כמעט נעלמו שיחות ה___, שבהן נולדים לא פעם רעיונות חדשים.",
+        "en": "With remote work, the corridor conversations, in which new ideas are often born, have almost disappeared.",
         "answer": [
           "מסדרון"
         ],
@@ -726,9 +730,8 @@
     "writing": {
       "prompt": "כתבו תגובה קצרה למאמר: האם לדעתכם מודל היברידי מתאים לכל מקום עבודה? הציגו את עמדתכם, טיעון אחד בעד, טיעון אחד נגד ומסקנה.",
       "promptEn": "Write a short response to the op-ed: in your opinion, does a hybrid model suit every workplace? Present your position, one argument for, one argument against, and a conclusion.",
-      "minWords": 70,
+      "minWords": 100,
       "useWords": [
-        "לדעתי",
         "אין ספק",
         "מנגד",
         "יתרה מזאת",
@@ -784,8 +787,8 @@
           ]
         }
       ],
-      "model": "קראתי בעניין את מאמרה של היועצת הארגונית, ולדעתי היא צודקת רק בחלקה. אין ספק שעבודה היברידית מאפשרת גמישות, חוסכת לעובדים שעות רבות בפקקים ומקלה עליהם לשלב בין קריירה למשפחה. מנגד, היא אינה מתאימה לכל מקום עבודה: בבית חולים, בבית ספר או בחנות, רוב העבודה נעשית פנים אל פנים. יתרה מזאת, עובדים חדשים זקוקים לחניכה צמודה, ואת זה קשה לעשות מרחוק. לפיכך, נראה לי שכל ארגון צריך לבנות מודל משלו, בהתאם לאופי העבודה ולצורכי העובדים, ולא להעתיק את מה שעושות חברות אחרות.",
-      "modelEn": "I read the organizational consultant's article with interest, and in my opinion she is only partly right. There is no doubt that hybrid work allows flexibility, saves employees many hours in traffic and makes it easier for them to combine a career with family life. On the other hand, it does not suit every workplace: in a hospital, a school or a shop, most of the work is done face to face. Moreover, new employees need close mentoring, and that is hard to do remotely. Therefore, it seems to me that every organization should build its own model, according to the nature of the work and the needs of its employees, rather than copy what other companies do."
+      "model": "קראתי בעניין את מאמרה של היועצת הארגונית, ולדעתי היא צודקת רק בחלקה. אין ספק שעבודה היברידית מאפשרת גמישות, חוסכת לעובדים שעות רבות בפקקים ומקלה עליהם לשלב בין קריירה למשפחה. במקום העבודה שלי, משרד קטן לשיווק, עובדים מהבית יומיים בשבוע, והשיטה מוכיחה את עצמה. מנגד, היא אינה מתאימה לכל מקום עבודה: בבית חולים, בבית ספר או בחנות, רוב העבודה נעשית פנים אל פנים, ואי אפשר לטפל בחולים או לשרת לקוחות מהסלון. יתרה מזאת, עובדים חדשים זקוקים לחניכה צמודה, ואת זה קשה לעשות מרחוק. לפיכך, נראה לי שכל ארגון צריך לבנות מודל משלו, בהתאם לאופי העבודה ולצורכי העובדים, ולא להעתיק את מה שעושות חברות אחרות. מה שמתאים לחברת הייטק גדולה לא בהכרח יתאים למשרד של חמישה אנשים.",
+      "modelEn": "I read the organizational consultant's article with interest, and in my opinion she is only partly right. There is no doubt that hybrid work allows flexibility, saves employees many hours in traffic and makes it easier for them to combine a career with family life. Where I work, a small marketing office, people work from home two days a week, and the arrangement is proving itself. On the other hand, it does not suit every workplace: in a hospital, a school or a shop, most of the work is done face to face, and you can't treat patients or serve customers from your living room. Moreover, new employees need close mentoring, and that is hard to do remotely. Therefore, it seems to me that every organization should build its own model, according to the nature of the work and the needs of its employees, rather than copy what other companies do. What suits a large hi-tech company will not necessarily suit an office of five people."
     }
   },
   {
@@ -1055,13 +1058,15 @@
       {
         "en": "a kind of, a sort of",
         "answer": [
-          "מעין"
+          "מעין",
+          "למעין"
         ]
       },
       {
         "en": "a constantly growing population",
         "answer": [
-          "אוכלוסייה שהולכת וגדלה"
+          "אוכלוסייה שהולכת וגדלה",
+          "ואוכלוסייה שהולכת וגדלה"
         ]
       },
       {
@@ -1077,7 +1082,8 @@
         "prompt": "דווקא ה___ במים הוליד את אחת התעשיות המצליחות במשק הישראלי.",
         "en": "It was precisely the water shortage that gave rise to one of the most successful industries in the Israeli economy.",
         "answer": [
-          "מחסור"
+          "מחסור",
+          "חוסר"
         ],
         "hint": "shortage"
       },
@@ -1117,10 +1123,9 @@
     "writing": {
       "prompt": "אתם עובדים בחברה ישראלית שמייצאת ציוד חקלאי. כתבו למנהלת שלכם, נעמה, סיכום קצר של הכתבה: מה המצב בתחום, מה ההזדמנות, מה הסיכון ומה ההמלצה שלכם.",
       "promptEn": "You work for an Israeli company that exports agricultural equipment. Write your manager, Naama, a short summary of the article: what the situation in the field is, what the opportunity is, what the risk is, and what you recommend.",
-      "minWords": 70,
+      "minWords": 100,
       "useWords": [
         "על פי",
-        "בנוסף",
         "עם זאת",
         "לפיכך",
         "מומלץ",
@@ -1170,8 +1175,8 @@
           ]
         }
       ],
-      "model": "שלום נעמה,\n\nלהלן סיכום קצר של הכתבה על תעשיית המים הישראלית.\nעל פי הכתבה, ישראל מובילה בתחומי ההשקיה בטפטוף, ההתפלה ומחזור מי השפכים, ופועלות בה מאות חברות בתחום. בנוסף, הביקוש לפתרונות מים צפוי לגדול בעקבות משבר האקלים, וזו הזדמנות לא מבוטלת גם עבורנו. עם זאת, התחרות הבינלאומית הולכת ומחריפה, ומדינות נוספות משקיעות סכומים גדולים בטכנולוגיות מים.\nלפיכך, מומלץ לבחון שיתוף פעולה עם חברת טכנולוגיה ישראלית, כדי להציע ללקוחות שלנו פתרון משולב של ציוד וחיישנים חכמים.\n\nבברכה,\nאלכס",
-      "modelEn": "Hello Naama, here is a short summary of the article on the Israeli water industry. According to the article, Israel is a leader in drip irrigation, desalination and wastewater recycling, and hundreds of companies are active in the field there. In addition, demand for water solutions is expected to grow because of the climate crisis, and that is a considerable opportunity for us too. However, international competition is getting fiercer, and other countries are investing large sums in water technologies. Therefore, it is recommended that we look into a partnership with an Israeli technology company, so that we can offer our customers a combined solution of equipment and smart sensors. Best regards, Alex"
+      "model": "שלום נעמה,\n\nלהלן סיכום קצר של הכתבה על תעשיית המים הישראלית.\nעל פי הכתבה, ישראל מובילה בתחומי ההשקיה בטפטוף, ההתפלה ומחזור מי השפכים, ופועלות בה מאות חברות בתחום. רובן קטנות ובינוניות, ובשנים האחרונות צמחו גם סטארט-אפים המפתחים חיישנים לאיתור דליפות ומערכות השקיה חכמות. בנוסף, הביקוש לפתרונות מים צפוי לגדול בעקבות משבר האקלים, וזו הזדמנות לא מבוטלת גם עבורנו. עם זאת, התחרות הבינלאומית הולכת ומחריפה, ומדינות נוספות משקיעות סכומים גדולים בטכנולוגיות מים, כך שהיתרון הישראלי אינו מובטח.\nלפיכך, מומלץ לבחון שיתוף פעולה עם חברת טכנולוגיה ישראלית, כדי להציע ללקוחות שלנו פתרון משולב של ציוד וחיישנים חכמים. אשמח להציג את הנושא בהרחבה בישיבת הצוות הקרובה.\n\nבברכה,\nאלכס",
+      "modelEn": "Hello Naama, here is a short summary of the article on the Israeli water industry. According to the article, Israel is a leader in drip irrigation, desalination and wastewater recycling, and hundreds of companies are active in the field there. Most of them are small and medium-sized, and in recent years startups have also sprung up that develop sensors for detecting leaks and smart irrigation systems. In addition, demand for water solutions is expected to grow because of the climate crisis, and that is a considerable opportunity for us too. However, international competition is getting fiercer, and other countries are investing large sums in water technologies, so the Israeli advantage is not guaranteed. Therefore, it is recommended that we look into a partnership with an Israeli technology company, so that we can offer our customers a combined solution of equipment and smart sensors. I would be happy to present the subject in detail at the next team meeting. Best regards, Alex"
     }
   },
   {
@@ -1397,7 +1402,8 @@
             "צורכת",
             "להשקיע",
             "משקיעים",
-            "משקיעה"
+            "משקיעה",
+            "צורך"
           ],
           [
             "הרבה",
@@ -1481,7 +1487,8 @@
         "prompt": "הסיכון הראשון הוא ___ מידע: בעלי עסקים מזינים פרטים של לקוחות בלי לבדוק היכן הם נשמרים.",
         "en": "The first risk is information security: business owners enter customers' details without checking where they are stored.",
         "answer": [
-          "אבטחת"
+          "אבטחת",
+          "אבטחה"
         ],
         "hint": "security (construct form)"
       },
@@ -1505,9 +1512,8 @@
     "writing": {
       "prompt": "אתם עובדים בחנות קטנה לציוד משרדי. בעלת החנות, דורית, שוקלת להפעיל באתר צ׳אטבוט שיענה ללקוחות. כתבו לה מזכר קצר: ציינו יתרון אחד, סיכון אחד והמלצה ברורה.",
       "promptEn": "You work in a small office-supplies shop. The owner, Dorit, is considering running a chatbot on the website to answer customers. Write her a short memo: mention one advantage, one risk and a clear recommendation.",
-      "minWords": 60,
+      "minWords": 100,
       "useWords": [
-        "יתרון",
         "סיכון",
         "עם זאת",
         "לפיכך",
@@ -1552,8 +1558,8 @@
           ]
         }
       ],
-      "model": "שלום דורית,\n\nביקשת שאבדוק את הרעיון להפעיל צ׳אטבוט באתר החנות, ולהלן עיקרי הדברים.\nהיתרון המרכזי הוא מענה מהיר ללקוחות בכל שעות היממה, גם כשהחנות סגורה. כך נוכל לחסוך זמן רב, ואולי אף להגדיל את המכירות באתר.\nעם זאת, קיים סיכון שהמערכת תמסור ללקוחות מידע שגוי על מחירים או על מועדי משלוח.\nלפיכך, מומלץ להתחיל בתקופת ניסיון של חודש ולהגביל את הצ׳אטבוט לשאלות פשוטות בלבד. בנוסף, יש להקפיד שלא להזין למערכת פרטים אישיים של לקוחות.\n\nבברכה,\nאלכס",
-      "modelEn": "Hello Dorit, you asked me to look into the idea of running a chatbot on the shop's website, and here are the main points. The main advantage is a quick response to customers around the clock, even when the shop is closed. That way we can save a lot of time, and perhaps even increase online sales. However, there is a risk that the system will give customers wrong information about prices or delivery dates. Therefore, it is recommended to start with a one-month trial period and to limit the chatbot to simple questions only. In addition, we must make sure not to enter customers' personal details into the system. Best regards, Alex"
+      "model": "שלום דורית,\n\nביקשת שאבדוק את הרעיון להפעיל צ׳אטבוט באתר החנות, ולהלן עיקרי הדברים.\nהיתרון המרכזי הוא מענה מהיר ללקוחות בכל שעות היממה, גם כשהחנות סגורה. כיום רוב הפניות שלנו עוסקות בשאלות חוזרות, כמו שעות הפתיחה, זמני המשלוח ומדיניות ההחזרות, ואנחנו מקדישים להן כמה שעות בכל יום. כך נוכל לחסוך זמן רב, ואולי אף להגדיל את המכירות באתר.\nעם זאת, קיים סיכון שהמערכת תמסור ללקוחות מידע שגוי על מחירים או על מועדי משלוח, ולקוח שיקבל מידע כזה עלול לאבד בנו אמון.\nלפיכך, מומלץ להתחיל בתקופת ניסיון של חודש ולהגביל את הצ׳אטבוט לשאלות פשוטות בלבד. כמו כן, כדאי שאחד מאיתנו יעבור פעם בשבוע על השיחות שהמערכת ניהלה. בנוסף, יש להקפיד שלא להזין למערכת פרטים אישיים של לקוחות.\n\nבברכה,\nאלכס",
+      "modelEn": "Hello Dorit, you asked me to look into the idea of running a chatbot on the shop's website, and here are the main points. The main advantage is a quick response to customers around the clock, even when the shop is closed. At the moment most of the enquiries we get are recurring questions, such as opening hours, delivery times and the returns policy, and we spend a few hours on them every day. That way we can save a lot of time, and perhaps even increase online sales. However, there is a risk that the system will give customers wrong information about prices or delivery dates, and a customer who gets such information may lose trust in us. Therefore, it is recommended to start with a one-month trial period and to limit the chatbot to simple questions only. It would also be a good idea for one of us to go over the conversations the system has had once a week. In addition, we must make sure not to enter customers' personal details into the system. Best regards, Alex"
     }
   },
   {
@@ -1722,7 +1728,9 @@
         "keywords": [
           [
             "חנייה",
-            "חניון"
+            "חניון",
+            "חניות",
+            "מקומות"
           ],
           [
             "ללכת",
@@ -1839,20 +1847,20 @@
         "hint": "passengers"
       },
       {
-        "prompt": "בימים הראשונים להפעלה היו ___ טכניות שגרמו לעיכובים של עד חצי שעה.",
-        "en": "In the first days of operation there were technical faults that caused delays of up to half an hour.",
-        "answer": [
-          "תקלות"
-        ],
-        "hint": "faults, malfunctions"
-      },
-      {
         "prompt": "בעלי העסקים לאורך התוואי מתלוננים על ירידה חדה ב___.",
         "en": "The business owners along the route complain about a sharp drop in revenue.",
         "answer": [
           "הכנסות"
         ],
         "hint": "revenue, income"
+      },
+      {
+        "prompt": "בימים הראשונים להפעלה היו ___ טכניות שגרמו לעיכובים של עד חצי שעה.",
+        "en": "In the first days of operation there were technical faults that caused delays of up to half an hour.",
+        "answer": [
+          "תקלות"
+        ],
+        "hint": "faults, malfunctions"
       },
       {
         "prompt": "לדברי יוסי מזרחי, הלקוחות המבוגרים שלו כבר לא מגיעים, כי ביטלו את רוב מקומות ה___.",
@@ -1875,10 +1883,9 @@
     "writing": {
       "prompt": "אתם בעלי עסק ברחוב שבו עוברת הרכבת הקלה. כתבו מכתב רשמי לעירייה: תארו את הבעיה, בקשו סיוע והציעו פתרון אחד.",
       "promptEn": "You own a business on the street where the light rail runs. Write a formal letter to the municipality: describe the problem, ask for assistance and propose one solution.",
-      "minWords": 65,
+      "minWords": 100,
       "useWords": [
         "הנדון",
-        "בעקבות",
         "לאור זאת",
         "אבקש",
         "כמו כן",
@@ -1929,8 +1936,8 @@
           ]
         }
       ],
-      "model": "לכבוד\nעיריית גבעת שקמה\n\nהנדון: בקשה לסיוע לעסקים לאורך תוואי הרכבת הקלה\n\nשלום רב,\n\nחנות הספרים שבבעלותי פועלת ברחוב הראשי כבר יותר מעשר שנים. בעקבות ביטול מקומות החנייה ברחוב, ההכנסות ירדו בחודשים האחרונים באופן חד, ולקוחות קבועים רבים הפסיקו להגיע.\nלאור זאת, אבקש שתבחנו את זכאותנו לקרן הסיוע שאושרה לאחרונה. כמו כן, ברצוני להציע להקצות מקומות חנייה לזמן קצר בסמוך לחנויות, לטובת לקוחות מבוגרים ובעלי מוגבלויות.\n\nאודה לכם על טיפולכם המהיר.\n\nבכבוד רב,\nאלכס",
-      "modelEn": "To the Givat Shikma Municipality. Re: request for assistance for businesses along the light-rail route. Dear Sir or Madam, The bookshop I own has been operating on the main street for more than ten years. Following the removal of the parking spaces on the street, our revenue has dropped sharply in recent months, and many regular customers have stopped coming. In light of this, I ask that you examine our eligibility for the aid fund that was recently approved. In addition, I would like to propose setting aside some short-term parking spaces near the shops, for the benefit of elderly customers and people with disabilities. I would be grateful for your prompt handling of this matter. Sincerely, Alex"
+      "model": "לכבוד\nעיריית גבעת שקמה\n\nהנדון: בקשה לסיוע לעסקים לאורך תוואי הרכבת הקלה\n\nשלום רב,\n\nחנות הספרים שבבעלותי פועלת ברחוב הראשי כבר יותר מעשר שנים. במשך שלוש שנות העבודות היה הרחוב חסום לתנועה, ובכל זאת הצלחנו לשרוד בזכות לקוחות נאמנים. אולם בעקבות ביטול מקומות החנייה ברחוב, ההכנסות ירדו בחודשים האחרונים באופן חד, ולקוחות קבועים רבים הפסיקו להגיע. חלק מהעסקים השכנים כבר נסגרו, ויש חשש ממשי שעסקים נוספים ייסגרו בקרוב.\nלאור זאת, אבקש שתבחנו את זכאותנו לקרן הסיוע שאושרה לאחרונה. כמו כן, ברצוני להציע להקצות מקומות חנייה לזמן קצר בסמוך לחנויות, לטובת לקוחות מבוגרים ובעלי מוגבלויות. אשמח להיפגש עם נציג העירייה ולהציג בפניו את הנתונים.\n\nאודה לכם על טיפולכם המהיר.\n\nבכבוד רב,\nאלכס",
+      "modelEn": "To the Givat Shikma Municipality. Re: request for assistance for businesses along the light-rail route. Dear Sir or Madam, The bookshop I own has been operating on the main street for more than ten years. During the three years of construction the street was closed to traffic, and still we managed to survive thanks to loyal customers. However, following the removal of the parking spaces on the street, our revenue has dropped sharply in recent months, and many regular customers have stopped coming. Some of the neighbouring businesses have already closed, and there is a real fear that more will close soon. In light of this, I ask that you examine our eligibility for the aid fund that was recently approved. In addition, I would like to propose setting aside some short-term parking spaces near the shops, for the benefit of elderly customers and people with disabilities. I would be happy to meet a representative of the municipality and present the figures to them. I would be grateful for your prompt handling of this matter. Sincerely, Alex"
     }
   },
   {
@@ -2260,14 +2267,13 @@
     "writing": {
       "prompt": "כתבו תגובה קצרה לראיון: האם לדעתכם היחס הסלחני לכישלון בישראל הוא יתרון או חיסרון? הציגו טיעון בעד, טיעון נגד ואת מסקנתכם.",
       "promptEn": "Write a short response to the interview: in your opinion, is the forgiving attitude to failure in Israel an advantage or a disadvantage? Present an argument for, an argument against, and your conclusion.",
-      "minWords": 70,
+      "minWords": 100,
       "useWords": [
         "מחד גיסא",
         "מאידך גיסא",
         "ללא ספק",
         "שכן",
-        "בתנאי",
-        "לסיכום"
+        "בתנאי"
       ],
       "checklist": [
         {
@@ -2311,8 +2317,8 @@
           ]
         }
       ],
-      "model": "קראתי בעניין את הראיון עם אורית שמעוני. מחד גיסא, היחס הסלחני לכישלון הוא ללא ספק יתרון: הוא מעודד צעירים לנסות רעיונות חדשים, ומי שנכשל אינו מאבד את אמון המשקיעים. מאידך גיסא, יש בו גם חיסרון, שכן הוא עלול לעודד פזיזות ובזבוז של כסף רב, ולעיתים גם לפגוע בעובדים שהאמינו ביזם ועזבו בשבילו עבודה בטוחה. לסיכום, לדעתי מדובר ביתרון חשוב, בתנאי שהיזמים לומדים מכל טעות ובונים תוכנית עסקית רצינית לפני שהם מגייסים כסף.",
-      "modelEn": "I read the interview with Orit Shimoni with interest. On the one hand, the forgiving attitude to failure is undoubtedly an advantage: it encourages young people to try new ideas, and someone who has failed does not lose investors' trust. On the other hand, it also has a drawback, since it can encourage recklessness and the waste of a lot of money, and sometimes it also hurts employees who believed in the entrepreneur and left secure jobs for them. In conclusion, in my opinion it is an important advantage, provided that entrepreneurs learn from every mistake and build a serious business plan before they raise money."
+      "model": "קראתי בעניין את הראיון עם אורית שמעוני, שהסיפור שלה מדגים היטב את שני הצדדים של המטבע. מחד גיסא, היחס הסלחני לכישלון הוא ללא ספק יתרון: הוא מעודד צעירים לנסות רעיונות חדשים, ומי שנכשל אינו מאבד את אמון המשקיעים. כשהכישלון נחשב לבושה, רבים מוותרים מראש על רעיונות טובים. מאידך גיסא, יש בו גם חיסרון, שכן הוא עלול לעודד פזיזות ובזבוז של כסף רב, ולעיתים גם לפגוע בעובדים שהאמינו ביזם ועזבו בשבילו עבודה בטוחה. זה בדיוק מה שקרה בחברה הראשונה שלה, שגדלה מהר מדי ונאלצה לפטר את עובדיה. לסיכום, לדעתי מדובר ביתרון חשוב, בתנאי שהיזמים לומדים מכל טעות ובונים תוכנית עסקית רצינית לפני שהם מגייסים כסף.",
+      "modelEn": "I read the interview with Orit Shimoni with interest; her story illustrates both sides of the coin very well. On the one hand, the forgiving attitude to failure is undoubtedly an advantage: it encourages young people to try new ideas, and someone who has failed does not lose investors' trust. When failure is considered shameful, many people give up good ideas before they even start. On the other hand, it also has a drawback, since it can encourage recklessness and the waste of a lot of money, and sometimes it also hurts employees who believed in the entrepreneur and left secure jobs for them. That is exactly what happened at her first company, which grew too fast and had to lay off its employees. In conclusion, in my opinion it is an important advantage, provided that entrepreneurs learn from every mistake and build a serious business plan before they raise money."
     }
   }
 ]

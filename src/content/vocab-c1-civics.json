@@ -4,7 +4,7 @@
     "he": "רשות מקומית",
     "tr": "reshút mekomít",
     "en": "local authority",
-    "enAlt": ["local council", "local government", "municipality"],
+    "enAlt": ["local council", "local government", "local government body"],
     "pos": "noun",
     "gender": "f",
     "plural": "רשויות מקומיות",
@@ -14,7 +14,7 @@
       "he": "בישראל יש שלושה סוגים של רשויות מקומיות: עיריות, מועצות מקומיות ומועצות אזוריות.",
       "en": "Israel has three kinds of local authority: municipalities, local councils and regional councils."
     },
-    "note": "The umbrella term for any local government body. A מועצה אזורית groups villages, moshavim and kibbutzim; a big town is an עירייה."
+    "note": "The umbrella term for any local government body. A town with city status is run by an עירייה, a smaller town by a מועצה מקומית, and a מועצה אזורית groups villages, moshavim and kibbutzim."
   },
   {
     "id": "vc1c_moetsa",
@@ -81,10 +81,10 @@
     "level": "C1",
     "topic": "civics",
     "ex": {
-      "he": "הצעת החוק אושרה בקריאה ראשונה, ועכשיו היא תידון בוועדה לפני הקריאה השנייה והשלישית.",
+      "he": "הצעת החוק אושרה בקריאה ראשונה, וכעת היא תידון בוועדה לפני הקריאה השנייה והשלישית.",
       "en": "The bill was approved in its first reading, and now it will be discussed in committee before the second and third readings."
     },
-    "note": "With 'the', the ה goes on the second word: הצעת החוק. A bill becomes law only after three readings (קריאה ראשונה, שנייה ושלישית) in the Knesset plenum; a bill put forward by an individual MK is a הצעת חוק פרטית."
+    "note": "With 'the', the ה goes on the second word: הצעת החוק. A bill becomes law only after three readings (קריאה ראשונה, שנייה ושלישית) in the Knesset plenum; a bill put forward by an individual MK is a הצעת חוק פרטית, and it must first pass a preliminary reading (קריאה טרומית). כעת = now (formal)."
   },
   {
     "id": "vc1c_melia",
@@ -119,7 +119,7 @@
       "he": "חברות רבות טוענות שהרגולציה בענף הבנייה מעכבת פרויקטים חדשים.",
       "en": "Many companies claim that regulation in the construction industry is holding up new projects."
     },
-    "note": "The system of state oversight of a sector. The body that does it is a רגולטור (regulator). A single legal rule is a תקנה, not a רגולציה."
+    "note": "Mainly the system of state oversight of a sector; the body that does it is a רגולטור (regulator). A single binding rule issued under a law is a תקנה, although people also speak loosely of רגולציה חדשה (new rules)."
   },
   {
     "id": "vc1c_oved_medina",
@@ -139,11 +139,28 @@
     "note": "Feminine: עובדת מדינה. The civil service as a whole is שירות המדינה, managed by נציבות שירות המדינה (the Civil Service Commission)."
   },
   {
+    "id": "vc1c_sherut_tsiburi",
+    "he": "שירות ציבורי",
+    "tr": "sherút tsiburí",
+    "en": "public service (the public sector)",
+    "enAlt": ["public service", "public sector", "civil service"],
+    "pos": "noun",
+    "gender": "m",
+    "root": "ש.ר.ת",
+    "level": "C1",
+    "topic": "civics",
+    "ex": {
+      "he": "אחרי עשר שנים בהייטק, נועה החליטה לעבור לשירות הציבורי.",
+      "en": "After ten years in high-tech, Noa decided to move to the public service."
+    },
+    "note": "Usually with the article: השירות הציבורי = everyone employed by the state, local authorities and other public bodies; שירות המדינה is the narrower term for the government ministries. Careful with the plural: שירותים ציבוריים is 'public services', but on a sign it usually means public toilets."
+  },
+  {
     "id": "vc1c_ezrakhut",
     "he": "אזרחות",
     "tr": "ezrakhút",
     "en": "citizenship",
-    "enAlt": ["civics", "nationality"],
+    "enAlt": ["civics", "citizenship studies"],
     "pos": "noun",
     "gender": "f",
     "root": "א.ז.ר.ח",
@@ -153,7 +170,7 @@
       "he": "בשיעורי אזרחות לומדים התלמידים על מבנה השלטון ועל זכויות האזרח.",
       "en": "In civics lessons, pupils learn about the structure of government and about civil rights."
     },
-    "note": "Two meanings: citizenship (קיבלה אזרחות ישראלית = she received Israeli citizenship) and civics, a compulsory בגרות subject. A citizen is an אזרח (fem. אזרחית)."
+    "note": "Two meanings: citizenship (קיבלה אזרחות ישראלית = she received Israeli citizenship) and civics, a compulsory בגרות subject. A citizen is an אזרח (fem. אזרחית). Not 'nationality' in the Israeli sense: that is לאום, a separate category."
   },
   {
     "id": "vc1c_shkifut",
@@ -188,7 +205,7 @@
       "he": "החוק אושר לפני שנתיים, אך יישומו מתעכב בשל מגבלות תקציב.",
       "en": "The law was approved two years ago, but its implementation is being held up by budget constraints."
     },
-    "note": "Verb: ליישם (to implement, to apply). יישומו = היישום שלו (formal possessive suffix). In computing, יישום is also an older word for an app or program."
+    "note": "Verb: ליישם (to implement, to apply). יישומו = היישום שלו (formal possessive suffix). In computing, יישום is the formal word for an application (program); everyday Hebrew says אפליקציה."
   },
   {
     "id": "vc1c_byurokratya",
@@ -196,6 +213,7 @@
     "tr": "byurokrátya",
     "en": "bureaucracy",
     "enAlt": ["red tape"],
+    "alt": ["ביורוקרטיה"],
     "pos": "noun",
     "gender": "f",
     "level": "B2",
@@ -315,7 +333,7 @@
     "he": "היתר",
     "tr": "hetér",
     "en": "permit",
-    "enAlt": ["permission", "licence", "license"],
+    "enAlt": ["permission", "authorisation", "authorization"],
     "pos": "noun",
     "gender": "m",
     "plural": "היתרים",
@@ -326,7 +344,7 @@
       "he": "אסור לסגור מרפסת בלי היתר בנייה.",
       "en": "You're not allowed to enclose a balcony without a building permit."
     },
-    "note": "היתר בנייה = building permit. Spelled exactly like היתר (hayéter, 'the rest') in בין היתר; the context tells you which one it is."
+    "note": "היתר בנייה = building permit. A licence (to run a business, to drive) is a רישיון. Spelled exactly like היתר (hayéter, 'the rest') in בין היתר; the context tells you which one it is."
   },
   {
     "id": "vc1c_taba",
@@ -356,10 +374,10 @@
     "level": "C1",
     "topic": "civics",
     "ex": {
-      "he": "מבקר המדינה בודק אם משרדי הממשלה משתמשים בכסף הציבורי כמו שצריך.",
-      "en": "The State Comptroller checks whether government ministries use public money properly."
+      "he": "מבקר המדינה בוחן אם משרדי הממשלה מנהלים את כספי הציבור כראוי.",
+      "en": "The State Comptroller examines whether government ministries manage public funds properly."
     },
-    "note": "Audits ministries, local authorities and other public bodies and reports to the Knesset; the same person also serves as נציב תלונות הציבור (the Ombudsman). The yearly report it publishes is דוח מבקר המדינה."
+    "note": "Audits ministries, local authorities and other public bodies and reports to the Knesset; the same person also serves as נציב תלונות הציבור (the Ombudsman). The annual report is דוח מבקר המדינה. כראוי = properly (formal)."
   },
   {
     "id": "vc1c_netsiv_tlunot_hatsibur",
@@ -406,8 +424,8 @@
     "level": "C1",
     "topic": "civics",
     "ex": {
-      "he": "הרגולטור פרסם את הטיוטה לשימוע ציבורי, וכל אחד יכול לשלוח הערות.",
-      "en": "The regulator published the draft for public consultation, and anyone can send in comments."
+      "he": "הרגולטור פרסם את הטיוטה לשימוע ציבורי, והציבור מוזמן להגיש הערות.",
+      "en": "The regulator published the draft for public consultation, and the public is invited to submit comments."
     },
     "note": "Two everyday uses: שימוע ציבורי (a public consultation on a draft rule) and שימוע לפני פיטורים, the hearing an Israeli employer must hold before firing someone."
   },
@@ -415,8 +433,8 @@
     "id": "vc1c_hasdara",
     "he": "הסדרה",
     "tr": "hasdará",
-    "en": "regulation (of a matter); regularisation",
-    "enAlt": ["regularization", "regularisation", "regulating", "putting in order"],
+    "en": "regulating (a matter); regularisation",
+    "enAlt": ["regularization", "regularisation", "regulation", "putting in order", "settling"],
     "pos": "noun",
     "gender": "f",
     "plural": "הסדרות",
@@ -424,7 +442,7 @@
     "level": "C1",
     "topic": "civics",
     "ex": {
-      "he": "העירייה פועלת להסדרת החניה באזור התעשייה.",
+      "he": "העירייה פועלת להסדרת החנייה באזור התעשייה.",
       "en": "The municipality is working to regulate parking in the industrial zone."
     },
     "note": "Verb: להסדיר (to regulate, to settle, to sort out): להסדיר תשלום. Compare הסדר (an arrangement): הסדר תשלומים = a payment plan."
@@ -475,8 +493,8 @@
     "level": "C1",
     "topic": "civics",
     "ex": {
-      "he": "בשלטון המקומי ההחלטות משפיעות ישירות על חיי היומיום של התושבים.",
-      "en": "In local government, decisions directly affect residents' daily lives."
+      "he": "להחלטות של השלטון המקומי יש השפעה ישירה על חיי היומיום של התושבים.",
+      "en": "Local government decisions have a direct impact on residents' daily lives."
     },
     "note": "שלטון = government as a system of rule, unlike ממשלה (the cabinet, the government of the day). מרכז השלטון המקומי = the Union of Local Authorities in Israel."
   },
@@ -500,16 +518,17 @@
     "he": "מוניציפלי",
     "tr": "munitsipáli",
     "en": "municipal",
-    "enAlt": ["city", "local"],
+    "enAlt": ["local", "local-government"],
+    "alt": ["מוניציפאלי"],
     "pos": "adj",
     "register": "formal",
     "level": "C1",
     "topic": "civics",
     "ex": {
-      "he": "אחרי שנים של הזנחה, הספרייה המוניציפלית עברה שיפוץ מקיף.",
-      "en": "After years of neglect, the municipal library underwent a thorough renovation."
+      "he": "הבחירות המוניציפליות בישראל נערכות אחת לחמש שנים, בנפרד מהבחירות לכנסת.",
+      "en": "Municipal elections in Israel are held once every five years, separately from the Knesset elections."
     },
-    "note": "A loanword used mostly in formal writing; everyday Hebrew prefers עירוני. Fem. מוניציפלית, pl. מוניציפליים."
+    "note": "A loanword used mostly in formal writing: בחירות מוניציפליות, גבולות מוניציפליים (municipal boundaries). For everyday city things (a city library, a city pool) Hebrew says עירוני. Fem. מוניציפלית, pl. מוניציפליים. Also spelled מוניציפאלי."
   },
   {
     "id": "vc1c_makhoz",
@@ -550,7 +569,7 @@
     "he": "מענק",
     "tr": "ma'anák",
     "en": "grant",
-    "enAlt": ["bonus", "subsidy", "allowance"],
+    "enAlt": ["bonus", "one-off payment", "award"],
     "pos": "noun",
     "gender": "m",
     "plural": "מענקים",
@@ -561,7 +580,7 @@
       "he": "העירייה מחלקת מענקים לעסקים קטנים שמשפצים את החזית שלהם.",
       "en": "The municipality hands out grants to small businesses that renovate their storefronts."
     },
-    "note": "Also a one-off payment at work or from the state: מענק שנתי (annual bonus), מענק לידה (the birth grant from ביטוח לאומי)."
+    "note": "Also a one-off payment at work or from the state: מענק שנתי (annual bonus), מענק לידה (the birth grant from ביטוח לאומי). A monthly allowance is a קצבה, and a subsidy is a סבסוד."
   },
   {
     "id": "vc1c_sibsud",
@@ -612,8 +631,8 @@
     "level": "C1",
     "topic": "civics",
     "ex": {
-      "he": "המשרד פרסם חוזר חדש שמסביר איך להגיש את הבקשות.",
-      "en": "The ministry issued a new circular explaining how to submit the applications."
+      "he": "המשרד הוציא חוזר חדש ובו הנחיות מפורטות להגשת הבקשות.",
+      "en": "The ministry issued a new circular with detailed instructions for submitting the applications."
     },
     "note": "Literally 'something that goes round'. חוזר מנכ״ל = a director-general's circular, the usual way ministries issue binding instructions. Spelled like the present tense of לחזור (returns), so read the context."
   },
@@ -622,7 +641,7 @@
     "he": "היטל",
     "tr": "hetél",
     "en": "levy",
-    "enAlt": ["charge", "duty", "fee", "tax"],
+    "enAlt": ["charge", "duty", "surcharge", "betterment levy"],
     "pos": "noun",
     "gender": "m",
     "plural": "היטלים",
@@ -640,7 +659,7 @@
     "he": "מדגם",
     "tr": "midgám",
     "en": "sample",
-    "enAlt": ["sampling", "research sample"],
+    "enAlt": ["research sample", "sample group"],
     "pos": "noun",
     "gender": "m",
     "plural": "מדגמים",
@@ -651,14 +670,14 @@
       "he": "המדגם כלל שש מאות משתתפים מכל רחבי הארץ.",
       "en": "The sample comprised six hundred participants from all over the country."
     },
-    "note": "Same root as דוגמה (example). מדגם מייצג = a representative sample; גודל המדגם = sample size."
+    "note": "Same root as דוגמה (example). מדגם מייצג = a representative sample; גודל המדגם = sample size. The act of sampling is דגימה."
   },
   {
     "id": "vc1c_mishtane",
     "he": "משתנה",
     "tr": "mishtané",
     "en": "variable",
-    "enAlt": ["factor"],
+    "enAlt": ["research variable"],
     "pos": "noun",
     "gender": "m",
     "plural": "משתנים",
@@ -726,6 +745,7 @@
     "he": "מתודולוגיה",
     "tr": "metodológya",
     "en": "methodology",
+    "enAlt": ["research methodology"],
     "pos": "noun",
     "gender": "f",
     "level": "C1",
@@ -845,7 +865,7 @@
     "he": "מאמר",
     "tr": "ma'amár",
     "en": "article; paper",
-    "enAlt": ["academic paper", "paper", "essay", "op-ed"],
+    "enAlt": ["academic paper", "paper", "essay"],
     "pos": "noun",
     "gender": "m",
     "plural": "מאמרים",
@@ -873,14 +893,14 @@
       "he": "לפני הפרסום, כתב העת שלח את המאמר לשני שופטים.",
       "en": "Before publication, the journal sent the paper to two referees."
     },
-    "note": "Lit. 'a writing of time'. With 'the': כתב העת. A peer-reviewed journal is a כתב עת שפיט, and its reviewers are שופטים (lit. judges)."
+    "note": "Lit. 'a writing of (set) times', i.e. a periodical. With 'the': כתב העת. A peer-reviewed journal is a כתב עת שפיט, and its reviewers are שופטים (lit. judges)."
   },
   {
     "id": "vc1c_teza",
     "he": "תזה",
     "tr": "téza",
     "en": "thesis",
-    "enAlt": ["master's thesis", "dissertation"],
+    "enAlt": ["master's thesis", "MA thesis"],
     "pos": "noun",
     "gender": "f",
     "plural": "תזות",
@@ -890,7 +910,7 @@
       "he": "היא עובדת על התזה שלה לתואר שני כבר שנה וחצי.",
       "en": "She has been working on her master's thesis for a year and a half."
     },
-    "note": "Mainly the MA thesis; a PhD dissertation is a עבודת דוקטורט, and the general term is עבודת גמר. Also 'thesis' in the sense of a central claim."
+    "note": "Mainly the master's thesis (also עבודת תזה; a תואר שני עם תזה is a research-track MA). A PhD dissertation is a עבודת דוקטורט. Also 'thesis' in the sense of a central claim."
   },
   {
     "id": "vc1c_mankhe",
@@ -1090,7 +1110,7 @@
     "level": "C1",
     "topic": "academic",
     "ex": {
-      "he": "יש ספקות לגבי התקפות של הכלי, כי חלק מהשאלות לא היו ברורות.",
+      "he": "יש ספקות לגבי תקפות הכלי, משום שחלק מהשאלות לא היו ברורות.",
       "en": "There are doubts about the instrument's validity, because some of the questions weren't clear."
     },
     "note": "Does the tool measure what it claims to? Usually paired with מהימנות (reliability). A document's validity is its תוקף: הדרכון בתוקף."
@@ -1260,7 +1280,7 @@
     "level": "C1",
     "topic": "academic",
     "ex": {
-      "he": "בהינתן המגבלות של המדגם, יש להתייחס לתוצאות בזהירות.",
+      "he": "בהינתן מגבלות המדגם, יש להתייחס לתוצאות בזהירות.",
       "en": "Given the limitations of the sample, the results should be treated with caution."
     },
     "note": "Followed by a noun, or by ש + clause: בהינתן שהתקציב מוגבל... In speech: בגלל ש... or אם לוקחים בחשבון ש..."
@@ -1276,7 +1296,7 @@
     "level": "C1",
     "topic": "academic",
     "ex": {
-      "he": "החלק השני של המחקר עוסק בדור השני, דהיינו בילדים של עולים.",
+      "he": "החלק השני של המחקר עוסק בדור השני, דהיינו בילדיהם של עולים.",
       "en": "The second part of the study deals with the second generation, namely the children of immigrants."
     },
     "note": "Aramaic and very formal. The neutral equivalent is כלומר; the spoken one is זאת אומרת (written ז״א)."
@@ -1303,6 +1323,7 @@
     "tr": "mekhád... me'idákh",
     "en": "on the one hand ... on the other hand",
     "enAlt": ["on the one hand", "on the other hand"],
+    "alt": ["מחד גיסא... מאידך גיסא"],
     "pos": "phrase",
     "register": "formal",
     "level": "C1",

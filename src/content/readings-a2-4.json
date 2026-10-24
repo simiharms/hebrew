@@ -20,8 +20,8 @@
         "en": "In the afternoon I was very tired, so I slept a little or swam in the pool. In the evening all of us volunteers sat on the lawn, drank coffee and talked. There were volunteers there from Brazil, Japan and Germany."
       },
       {
-        "he": "בשבוע הראשון היה לי קשה. היה חם מאוד, וכמעט לא הבנתי עברית. אבל אחרי שבועיים כבר הרגשתי כמו בבית. סבטה, חברת קיבוץ, לימדה אותי כל יום מילים חדשות. ביום האחרון חברי הקיבוץ עשו לנו מסיבת פרידה, ואני קצת בכיתי. אני רוצה לחזור לשם בשנה הבאה!",
-        "en": "The first week was hard for me. It was very hot, and I understood almost no Hebrew. But after two weeks I already felt at home. Sveta, a kibbutz member, taught me new words every day. On the last day the kibbutz members threw us a farewell party, and I cried a little. I want to go back there next year!"
+        "he": "בשבוע הראשון היה לי קשה. היה חם מאוד, וכמעט לא הבנתי עברית. אבל אחרי שבועיים כבר הרגשתי כמו בבית. סבטה, חברת קיבוץ, לימדה אותי כל יום מילים חדשות. ביום האחרון חברי הקיבוץ עשו לנו מסיבת פרידה, ואני אפילו בכיתי קצת. אני רוצה לחזור לשם בשנה הבאה!",
+        "en": "The first week was hard for me. It was very hot, and I understood almost no Hebrew. But after two weeks I already felt at home. Sveta, a kibbutz member, taught me new words every day. On the last day the kibbutz members threw us a farewell party, and I even cried a little. I want to go back there next year!"
       }
     ],
     "glossary": [
@@ -74,11 +74,11 @@
       {
         "q": "מה קרה ביום האחרון, ומה דניאל עשה?",
         "qEn": "What happened on the last day, and what did Daniel do?",
-        "answer": "חברי הקיבוץ עשו מסיבת פרידה, והוא קצת בכה.",
+        "answer": "חברי הקיבוץ עשו מסיבת פרידה, והוא בכה קצת.",
         "answerEn": "The kibbutz members threw a farewell party, and he cried a little.",
         "keywords": [
           ["מסיבה", "מסיבת", "פרידה"],
-          ["בכה", "בכיתי", "לבכות"]
+          ["בכה", "בכיתי", "בוכה", "לבכות"]
         ]
       }
     ],
@@ -118,14 +118,14 @@
       {
         "prompt": "דניאל עבד חודש אחד ___ בקיבוץ קטן בגליל.",
         "en": "Daniel worked for one month as a volunteer on a small kibbutz in the Galilee.",
-        "answer": ["כמתנדב", "מתנדב"],
-        "hint": "as a volunteer"
+        "answer": ["כמתנדב"],
+        "hint": "as a volunteer (כ + noun)"
       },
       {
         "prompt": "כל יום הוא ___ בחמש וחצי ועבד במטע אבוקדו.",
         "en": "Every day he got up at half past five and worked in an avocado orchard.",
         "answer": ["קם"],
-        "hint": "got up (קם, past, he)"
+        "hint": "got up (from לקום)"
       },
       {
         "prompt": "בערב המתנדבים ישבו על ___, שתו קפה ודיברו.",
@@ -154,7 +154,7 @@
       "checklist": [
         {
           "en": "Say where and when it was",
-          "keywords": ["לפני", "בקיץ", "בשנה", "באולפן", "בקיבוץ", "בעבודה"]
+          "keywords": ["לפני", "קיץ", "שנה", "אולפן", "קיבוץ", "עבודה", "אוניברסיטה"]
         },
         {
           "en": "Describe your daily routine in the past tense (כל יום קמתי...)",
@@ -182,15 +182,15 @@
     "kind": "article",
     "paragraphs": [
       {
-        "he": "מחפשים טיול קל לשבת בבוקר? שביל המעיין בהרי ירושלים הוא מסלול מעגלי וקצר, רק ארבעה קילומטרים. ההליכה לוקחת בערך שעתיים וחצי, והמסלול מתאים גם לילדים קטנים.",
-        "en": "Looking for an easy outing for Saturday morning? The Spring Trail in the Jerusalem hills is a short circular route, only four kilometres long. The walk takes about two and a half hours, and the route is suitable for small children too."
+        "he": "מחפשים טיול קל לבוקר של שבת? שביל המעיין מתחיל ליד מושב קטן בהרי ירושלים. זה מסלול מעגלי וקצר, רק ארבעה קילומטרים. ההליכה לוקחת בערך שעתיים וחצי, והמסלול מתאים גם לילדים קטנים.",
+        "en": "Looking for an easy hike for a Saturday morning? The Spring Trail starts next to a small moshav in the Jerusalem hills. It's a short circular route, only four kilometres long. The walk takes about two and a half hours, and the route is suitable for small children too."
       },
       {
         "he": "איפה לחנות? יש חניון גדול ליד הכניסה למושב, והחניה שם בחינם. אבל בשבת החניון מלא כבר בעשר, אז כדאי להגיע מוקדם.",
         "en": "Where to park? There's a big car park next to the entrance to the moshav, and parking there is free. But on Saturdays the car park is already full by ten, so it's worth arriving early."
       },
       {
-        "he": "מהחניון תלכו בשביל המסומן בכחול. אחרי חצי שעה תגיעו למעיין קטן. שם תוכלו לנוח בצל ולשים את הרגליים במים. משם השביל עולה קצת, ותראו נוף יפה של ההרים. בסוף תחזרו לחניון בדרך אחרת.",
+        "he": "מהחניון תלכו בשביל המסומן בכחול. אחרי חצי שעה תגיעו למעיין קטן. שם תוכלו לנוח בצל ולהכניס את הרגליים למים. משם השביל עולה קצת, ותראו נוף יפה של ההרים. בסוף תחזרו לחניון בדרך אחרת.",
         "en": "From the car park you'll walk along the trail marked in blue. After half an hour you'll reach a small spring. There you'll be able to rest in the shade and put your feet in the water. From there the trail climbs a little, and you'll see a beautiful view of the hills. At the end you'll return to the car park by a different way."
       },
       {
@@ -198,8 +198,8 @@
         "en": "What to bring? You need plenty of water, at least a litre and a half per person. It's also worth taking a hat, sunscreen and something to eat. You need to wear comfortable shoes, because there are lots of stones on the way. In summer it's very hot, so it's best to come in spring or autumn."
       },
       {
-        "he": "ודבר אחרון: אל תשאירו זבל בשביל. קחו אותו איתכם הביתה. טיול נעים!",
-        "en": "And one last thing: don't leave any rubbish on the trail. Take it home with you. Have a nice hike!"
+        "he": "ודבר אחרון: אל תשאירו זבל בטבע. קחו אותו איתכם הביתה. טיול נעים!",
+        "en": "And one last thing: don't leave any rubbish behind in nature. Take it home with you. Have a nice hike!"
       }
     ],
     "glossary": [
@@ -211,7 +211,7 @@
       { "he": "בחינם", "en": "free of charge", "tr": "be-khinám" },
       { "he": "מסומן", "en": "marked (השביל המסומן בכחול: the trail marked in blue)", "tr": "mesumán" },
       { "he": "מעיין", "en": "spring (of water)", "tr": "ma'yán" },
-      { "he": "לנוח", "en": "to rest", "tr": "lanú'akh" },
+      { "he": "מושב", "en": "moshav (a cooperative farming village)", "tr": "mosháv" },
       { "he": "צל", "en": "shade", "tr": "tsel" },
       { "he": "נוף", "en": "view, landscape", "tr": "nof" },
       { "he": "קרם הגנה", "en": "sunscreen", "tr": "krem haganá" },
@@ -242,11 +242,11 @@
       {
         "q": "מה אפשר לעשות ליד המעיין?",
         "qEn": "What can you do by the spring?",
-        "answer": "אפשר לנוח בצל ולשים את הרגליים במים.",
+        "answer": "אפשר לנוח בצל ולהכניס את הרגליים למים.",
         "answerEn": "You can rest in the shade and put your feet in the water.",
         "keywords": [
-          ["לנוח", "נחים", "צל"],
-          ["מים", "רגליים"]
+          ["לנוח", "נחים", "מנוחה", "צל"],
+          ["מים", "רגליים", "רגלים"]
         ]
       },
       {
@@ -271,7 +271,7 @@
         "s": "לא צריך לשלם על החניה.",
         "sEn": "You don't need to pay for parking.",
         "a": true,
-        "why": "Parking in the car park by the moshav is free (בחינם)."
+        "why": "Parking in the car park by the entrance to the moshav is free (בחינם)."
       },
       {
         "s": "אחרי המעיין השביל עולה, ורואים נוף של ההרים.",
@@ -302,7 +302,7 @@
       {
         "prompt": "אפשר לחנות ___ בחניון ליד הכניסה למושב.",
         "en": "You can park for free in the car park next to the entrance to the moshav.",
-        "answer": ["בחינם"],
+        "answer": ["בחינם", "חינם"],
         "hint": "free of charge"
       },
       {
@@ -320,7 +320,7 @@
       {
         "prompt": "בקיץ חם מאוד, אז הכי טוב לבוא באביב או ___.",
         "en": "In summer it's very hot, so it's best to come in spring or in autumn.",
-        "answer": ["בסתיו", "סתיו"],
+        "answer": ["בסתיו"],
         "hint": "in autumn"
       }
     ],
@@ -361,7 +361,7 @@
     "paragraphs": [
       {
         "he": "הורים יקרים, שלום רב! אני שמחה לספר לכם שהילדים כבר מרגישים בגן כמו בבית. בחודש הבא יהיו לנו שני אירועים חשובים, ורציתי לעדכן אתכם עליהם מראש.",
-        "en": "Dear parents, hello! I'm happy to tell you that the children already feel at home in the kindergarten. Next month we'll have two important events, and I wanted to let you know about them in advance."
+        "en": "Dear parents, greetings! I'm happy to tell you that the children already feel at home in the kindergarten. Next month we'll have two important events, and I wanted to let you know about them in advance."
       },
       {
         "he": "ערב ההורים יתקיים ביום שלישי, 10 בנובמבר, בשעה 19:00, בגן. נדבר על התוכנית שלנו לשנה, ותוכלו לראות את העבודות של הילדים. חשוב לי שלפחות הורה אחד מכל משפחה יגיע. אשמח אם תודיעו לי עד יום ראשון, 8 בנובמבר, אם אתם מגיעים. אם אתם לא יכולים לבוא, כתבו לי, ונקבע פגישה ביום אחר.",
@@ -372,8 +372,8 @@
         "en": "On Sunday, November 15, we'll go with the children to a small animal farm not far from town. The children will see cows, goats and hens, and they'll be able to feed them. We'll travel by bus: we'll leave the kindergarten at half past eight and come back at half past twelve. I ask that all the children arrive at the kindergarten by a quarter past eight, because the bus won't wait."
       },
       {
-        "he": "מה צריך להביא? כל ילד צריך תיק קטן עם בקבוק מים, כובע וכריך. נא לא לשלוח ממתקים. כדאי שהילדים ילבשו בגדים נוחים וינעלו נעליים סגורות, כי בחווה יש בוץ. הטיול עולה 35 ש״ח לילד. בבקשה תנו את הכסף לסמירה, הסייעת שלנו, עד יום חמישי, 12 בנובמבר.",
-        "en": "What do you need to bring? Every child needs a small bag with a water bottle, a hat and a sandwich. Please don't send sweets. It's a good idea for the children to wear comfortable clothes and closed shoes, because there's mud at the farm. The trip costs 35 shekels per child. Please give the money to Samira, our assistant, by Thursday, November 12."
+        "he": "מה צריך להביא? כל ילד צריך להביא תיק קטן עם בקבוק מים, כובע וכריך. נא לא לשלוח ממתקים. כדאי שהילדים ילבשו בגדים נוחים וינעלו נעליים סגורות, כי בחווה יש בוץ. הטיול עולה 35 ש״ח לילד. בבקשה תנו את הכסף לסמירה, הסייעת שלנו, עד יום חמישי, 12 בנובמבר.",
+        "en": "What do you need to bring? Every child needs to bring a small bag with a water bottle, a hat and a sandwich. Please don't send sweets. It's a good idea for the children to wear comfortable clothes and closed shoes, because there's mud at the farm. The trip costs 35 shekels per child. Please give the money to Samira, our assistant, by Thursday, November 12."
       },
       {
         "he": "אם יש לכם שאלות, אתם מוזמנים להתקשר אליי או לכתוב לי בוואטסאפ. תודה רבה, ושבוע נעים! ליאת, הגננת של גן רימון",
@@ -382,7 +382,7 @@
     ],
     "glossary": [
       { "he": "גננת", "en": "kindergarten teacher (f.)", "tr": "ganénet" },
-      { "he": "אירוע", "en": "event (pl. אירועים)", "tr": "eru'á" },
+      { "he": "אירוע", "en": "event (pl. אירועים)", "tr": "erú'a" },
       { "he": "לעדכן", "en": "to update, keep informed", "tr": "le'adkén" },
       { "he": "מראש", "en": "in advance", "tr": "merósh" },
       { "he": "להתקיים", "en": "to take place (in the text: יתקיים, will take place)", "tr": "lehitkayém" },
@@ -392,7 +392,7 @@
       { "he": "תרנגולת", "en": "hen, chicken (pl. תרנגולות)", "tr": "tarnególet" },
       { "he": "כריך", "en": "sandwich", "tr": "karíkh" },
       { "he": "ממתקים", "en": "sweets, candy", "tr": "mamtakím" },
-      { "he": "לנעול", "en": "to put on, wear (shoes) (in the text: וינעלו, and they will wear)", "tr": "lin'ól" },
+      { "he": "לנעול", "en": "to put on, wear (shoes) (in the text: כדאי שהילדים... וינעלו, the children should... put on)", "tr": "lin'ól" },
       { "he": "בוץ", "en": "mud", "tr": "buts" },
       { "he": "סייעת", "en": "(kindergarten) assistant (f.)", "tr": "sayá'at" }
     ],
@@ -404,6 +404,7 @@
         "answerEn": "On Tuesday, November 10, at seven in the evening, at the kindergarten.",
         "keywords": [
           ["שלישי", "10"],
+          ["שבע", "19", "7"],
           ["גן"]
         ]
       },
@@ -413,8 +414,8 @@
         "answer": "להודיע לה אם הם מגיעים לערב ההורים.",
         "answerEn": "To let her know whether they're coming to the parents' evening.",
         "keywords": [
-          ["להודיע", "תודיעו", "לכתוב", "לספר", "להגיד"],
-          ["מגיעים", "להגיע", "באים", "לבוא"]
+          ["להודיע", "תודיעו", "יודיעו", "לכתוב", "יכתבו", "לספר", "להגיד", "לענות"],
+          ["מגיעים", "להגיע", "יגיעו", "מגיע", "באים", "לבוא", "יבואו"]
         ]
       },
       {
@@ -424,7 +425,7 @@
         "answerEn": "They'll see cows, goats and hens, and they'll be able to feed them.",
         "keywords": [
           ["פרות", "פרה", "עזים", "תרנגולות", "חיות"],
-          ["אוכל", "לתת", "יתנו", "לראות", "יראו"]
+          ["אוכל", "לתת", "יתנו", "להאכיל", "יאכילו"]
         ]
       },
       {
@@ -525,8 +526,8 @@
           "keywords": ["האם", "אפשר"]
         }
       ],
-      "model": "שלום ליאת, תודה רבה על ההודעה. לצערי לא נוכל להגיע לערב ההורים ביום שלישי, כי אנחנו עובדים עד מאוחר. אשמח אם נוכל לקבוע פגישה ביום אחר, אולי ביום רביעי בבוקר. יש לי גם שאלה על הטיול: האם אפשר לשלוח עם הבן שלנו פרי במקום כריך? הוא לא אוהב לחם. תודה, ושבוע נעים!",
-      "modelEn": "Hello Liat, thank you very much for the message. Unfortunately we won't be able to come to the parents' evening on Tuesday, because we work until late. I'd be glad if we could set up a meeting on another day, perhaps Wednesday morning. I also have a question about the trip: is it possible to send our son with fruit instead of a sandwich? He doesn't like bread. Thanks, and have a pleasant week!"
+      "model": "שלום ליאת, תודה רבה על ההודעה. לצערי לא נוכל להגיע לערב ההורים ביום שלישי, כי אנחנו עובדים עד מאוחר. אשמח אם נוכל לקבוע פגישה ביום אחר, אולי ביום רביעי אחרי הצהריים. יש לי גם שאלה על הטיול: האם אפשר לשלוח עם הבן שלנו פרי במקום כריך? הוא לא אוהב לחם. תודה, ושבוע נעים!",
+      "modelEn": "Hello Liat, thank you very much for the message. Unfortunately we won't be able to come to the parents' evening on Tuesday, because we work until late. I'd be glad if we could set up a meeting on another day, perhaps on Wednesday afternoon. I also have a question about the trip: is it possible to send our son with fruit instead of a sandwich? He doesn't like bread. Thanks, and have a pleasant week!"
     }
   }
 ]

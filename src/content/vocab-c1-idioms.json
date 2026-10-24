@@ -10,8 +10,8 @@
     "level": "B2",
     "topic": "idioms",
     "ex": {
-      "he": "שבוע שלם ישבנו לשבור את הראש על שם למוצר, ובסוף דווקא המתמחה הציעה את הרעיון הכי טוב.",
-      "en": "For a whole week we sat racking our brains over a name for the product, and in the end it was the intern who came up with the best idea."
+      "he": "שבוע שלם שברנו את הראש על שם למוצר, ובסוף דווקא המתמחה הציעה את הרעיון הכי טוב.",
+      "en": "For a whole week we racked our brains over a name for the product, and in the end it was the intern who came up with the best idea."
     },
     "note": "Lit. \"to break the head\". Colloquial but fine at work. Used with על: לשבור את הראש על בעיה. אל תשבור את הראש = don't trouble yourself over it."
   },
@@ -34,7 +34,7 @@
   {
     "id": "vc1i_al_hakefak",
     "he": "על הכיפאק",
-    "tr": "al hakefák",
+    "tr": "al hakéfak",
     "en": "awesome; top-notch",
     "enAlt": ["excellent", "fantastic", "great", "first-rate"],
     "alt": ["על הכיפק"],
@@ -43,10 +43,10 @@
     "level": "C1",
     "topic": "idioms",
     "ex": {
-      "he": "האוכל בחתונה של מיכאל ונועה היה על הכיפאק, כולם עוד מדברים על זה.",
-      "en": "The food at Michael and Noa's wedding was top-notch; everyone is still talking about it."
+      "he": "האוכל בחתונה של מירב וברהנו היה על הכיפאק, כולם עוד מדברים על זה.",
+      "en": "The food at Meirav and Berhanu's wedding was top-notch; everyone is still talking about it."
     },
-    "note": "Lit. \"on the pleasure\", from Arabic kef (pleasure), the same word as כיף. Enthusiastic slang praise, close to אחלה; keep it out of formal writing."
+    "note": "From Arabic 'ala kéfak, roughly \"to your liking\" (kef = pleasure, the word behind כיף). Enthusiastic slang praise, close to אחלה; keep it out of formal writing."
   },
   {
     "id": "vc1i_lisgor_pina",
@@ -77,7 +77,7 @@
       "he": "למדתי לא לקחת ללב כל הערה של המנהל, הוא מדבר ככה עם כולם.",
       "en": "I've learned not to take every one of the manager's comments to heart; he talks like that to everyone."
     },
-    "note": "Lit. \"to take to the heart\". Neutral register. Almost always about being hurt or offended: אל תיקח ללב / אל תיקחי ללב = don't take it personally."
+    "note": "Lit. \"to take to the heart\". Neutral register. Usually about being hurt or offended: אל תיקח ללב / אל תיקחי ללב = don't take it personally."
   },
   {
     "id": "vc1i_ein_al_ma_ledaber",
@@ -99,7 +99,7 @@
     "id": "vc1i_bli_ayin_hara",
     "he": "בלי עין הרע",
     "tr": "bli áyin hará",
-    "en": "knock on wood; touch wood",
+    "en": "knock on wood",
     "enAlt": ["touch wood", "knock wood", "without the evil eye"],
     "pos": "expr",
     "level": "B2",
@@ -108,7 +108,7 @@
       "he": "סבתא שלי בת תשעים ושתיים, בלי עין הרע, והיא עדיין מבשלת לכל המשפחה בשבת.",
       "en": "My grandmother is ninety-two, knock on wood, and she still cooks for the whole family on Shabbat."
     },
-    "note": "Lit. \"without the evil eye\". Said by secular and religious Israelis alike right after praising health, children or success, so as not to tempt fate. Often followed by טפו טפו טפו."
+    "note": "Lit. \"without the evil eye\". Said by secular and religious Israelis alike right after praising health, children or success, so as not to tempt fate. Often followed by טפו טפו טפו. Normative pronunciation: bli ein hará."
   },
   {
     "id": "vc1i_laasot_mizvuv_pil",
@@ -187,7 +187,7 @@
       "he": "אי אפשר לטמון את הראש בחול לנצח: הלקוחות כבר מתחילים לעבור למתחרים.",
       "en": "We can't bury our heads in the sand forever: customers are already starting to move to competitors."
     },
-    "note": "Same image as in English (lit. \"to hide the head in the sand\"). Neutral to formal; טמן (to hide, bury) is literary and survives mainly in fixed phrases like this one."
+    "note": "Same image as in English (lit. \"to hide the head in the sand\"). Neutral to formal. The verb טמן (to hide, bury) is literary; its participle is common, though: הסוד טמון ב… = the secret lies in…"
   },
   {
     "id": "vc1i_lekabel_raglayim_karot",
@@ -207,7 +207,7 @@
   {
     "id": "vc1i_al_kets_hamazleg",
     "he": "על קצה המזלג",
-    "tr": "al kets hamazlég",
+    "tr": "al ktse hamazlég",
     "en": "very briefly; just a taste",
     "enAlt": ["in a nutshell", "briefly", "in brief", "a quick overview"],
     "pos": "expr",
@@ -260,10 +260,10 @@
     "level": "C1",
     "topic": "idioms",
     "ex": {
-      "he": "בסוף התברר שכל הסיפור על המעבר של המשרד לבאר שבע הוא לא דובים ולא יער.",
-      "en": "In the end it turned out that the whole story about the office moving to Be'er Sheva was completely baseless."
+      "he": "בסוף התברר שכל השמועות על המעבר של המשרד לבאר שבע הן בבחינת לא דובים ולא יער.",
+      "en": "In the end it turned out that all the rumours about the office moving to Be'er Sheva were completely baseless."
     },
-    "note": "Lit. \"neither bears nor forest\", a Talmudic phrase for a story with nothing behind it. Literary register, often used wryly about rumours or claims that turn out to be invented."
+    "note": "Lit. \"neither bears nor forest\", a Talmudic phrase for a story with nothing behind it. Literary register, often used wryly about rumours or claims that turn out to be invented; typically introduced by בבחינת (amounting to) or מדובר ב…"
   },
   {
     "id": "vc1i_ein_li_musag_yarok",
@@ -384,8 +384,8 @@
     "level": "C1",
     "topic": "idioms",
     "ex": {
-      "he": "צריך להוריד את הכובע בפני הצוות: הם סיימו את ההשקה שבוע לפני הזמן.",
-      "en": "We have to take our hats off to the team: they finished the launch a week ahead of schedule."
+      "he": "צריך להוריד את הכובע בפני הצוות: הם סיימו את הפרויקט שבוע לפני המועד.",
+      "en": "We have to take our hats off to the team: they finished the project a week ahead of schedule."
     },
     "note": "Lit. \"to take off the hat\", as in English. Usually with בפני: אני מוריד בפניו את הכובע. Sincere praise, slightly formal; common in speeches and work emails."
   },
@@ -432,7 +432,7 @@
       "he": "לעבוד גם בשבת? זה לא בא בחשבון מבחינתי.",
       "en": "Work on Shabbat too? That's out of the question as far as I'm concerned."
     },
-    "note": "Lit. \"doesn't come into the account\". A firm refusal that is still fine at work. The positive also exists: זה בהחלט בא בחשבון = that's definitely an option."
+    "note": "Lit. \"doesn't come into the account\". A firm refusal that is still fine at work. The verb agrees with the subject: האפשרות הזאת לא באה בחשבון. The positive also exists: זה בהחלט בא בחשבון = that's definitely an option."
   },
   {
     "id": "vc1i_lekabel_bishtei_yadayim",
@@ -459,15 +459,15 @@
     "level": "B2",
     "topic": "idioms",
     "ex": {
-      "he": "גם הבת של יוסי פתחה מסעדה, בדיוק כמו אבא שלה. התפוח לא נופל רחוק מהעץ.",
-      "en": "Yossi's daughter has opened a restaurant too, just like her father. The apple doesn't fall far from the tree."
+      "he": "גם הבת של סאמר פתחה מסעדה, בדיוק כמו אבא שלה. התפוח לא נופל רחוק מהעץ.",
+      "en": "Samer's daughter has opened a restaurant too, just like her father. The apple doesn't fall far from the tree."
     },
     "note": "Same image as in English. Neutral; used of good and bad family traits alike, and often cut short: התפוח לא נופל רחוק…"
   },
   {
     "id": "vc1i_lekhapes_makhat",
     "he": "לחפש מחט בערימת שחת",
-    "tr": "lekhapés mákhat be'arémat shákhat",
+    "tr": "lekhapés mákhat ba'aremát shákhat",
     "en": "to look for a needle in a haystack",
     "enAlt": ["a needle in a haystack"],
     "pos": "expr",
@@ -575,7 +575,7 @@
   {
     "id": "vc1i_bekhatsi_pe",
     "he": "בחצי פה",
-    "tr": "bekhatsí pe",
+    "tr": "bakhatsí pe",
     "en": "grudgingly; half-heartedly",
     "enAlt": ["reluctantly", "half-heartedly", "halfheartedly", "grudgingly"],
     "pos": "expr",
@@ -703,7 +703,7 @@
       "he": "אמנים רבים פתחו סטודיו בשכונה, כי שכר הדירה שם עדיין נמוך יחסית.",
       "en": "Many artists have opened studios in the neighbourhood, because rents there are still relatively low."
     },
-    "note": "Feminine: אמנית. Also a performer: singer, musician, actor. Spelled like אמן (amén, \"amen\"); context tells them apart."
+    "note": "Feminine: אמנית. Also a performer: singer, musician, actor. Spelled like אמן (amén, \"amen\"); context tells them apart. Not to be confused with אומן (umán, craftsman)."
   },
   {
     "id": "vc1i_omanut",
@@ -774,7 +774,7 @@
       "he": "זו הפקה צנועה: חמישה שחקנים, תפאורה פשוטה וקהל של מאה איש.",
       "en": "It's a modest production: five actors, a simple set and an audience of a hundred people."
     },
-    "note": "Producer = מפיק / מפיקה, to produce = להפיק. Also events and shoots: הפקת אירועים = event production. Factory production is ייצור, not הפקה."
+    "note": "Producer = מפיק / מפיקה, to produce = להפיק. Also events and shoots: הפקת אירועים = event production. Manufacturing is ייצור; outside the arts הפקה means extracting: הפקת נפט = oil extraction."
   },
   {
     "id": "vc1i_makhaze",
@@ -817,7 +817,7 @@
     "he": "ספרות",
     "tr": "sifrút",
     "en": "literature",
-    "enAlt": ["literary works", "fiction"],
+    "enAlt": ["literary works", "literary writing"],
     "pos": "noun",
     "gender": "f",
     "root": "ס.פ.ר",
@@ -895,7 +895,7 @@
       "he": "החוקרת אוספת סיפורי פולקלור מכפרים בגליל ומתרגמת אותם מערבית לעברית.",
       "en": "The researcher collects folk tales from villages in the Galilee and translates them from Arabic into Hebrew."
     },
-    "note": "A loanword; the adjective is פולקלוריסטי. Folk tales are also סיפורי עם, and Israeli folk dancing is ריקודי עם."
+    "note": "A loanword. The adjective פולקלוריסטי often sounds slightly dismissive (quaint, for show); neutral is פולקלורי. Folk tales are also סיפורי עם, and Israeli folk dancing is ריקודי עם."
   },
   {
     "id": "vc1i_otser",
@@ -920,7 +920,7 @@
     "he": "תזמורת",
     "tr": "tizmóret",
     "en": "orchestra",
-    "enAlt": ["philharmonic", "band"],
+    "enAlt": ["symphony orchestra", "philharmonic", "brass band"],
     "pos": "noun",
     "gender": "f",
     "plural": "תזמורות",
@@ -931,7 +931,7 @@
       "he": "בכל קיץ התזמורת מנגנת בחינם בפארק, ואלפי משפחות מגיעות עם שמיכות וסלי פיקניק.",
       "en": "Every summer the orchestra plays for free in the park, and thousands of families come with blankets and picnic baskets."
     },
-    "note": "Same root as זמר (singer). A rock or pop band is a להקה. The person on the podium is the מנצח."
+    "note": "Same root as זמר (singer). A brass or marching band is also a תזמורת, but a rock or pop band is a להקה. The person on the podium is the מנצח."
   },
   {
     "id": "vc1i_menatseakh",
@@ -963,10 +963,10 @@
     "level": "C1",
     "topic": "culture",
     "ex": {
-      "he": "הסרט יוקרן בהצגת בכורה בפסטיבל הקולנוע בירושלים, בנוכחות הבמאית והשחקנים.",
-      "en": "The film will premiere at the Jerusalem Film Festival, in the presence of the director and the cast."
+      "he": "הצגת הבכורה של המחזה תתקיים ביום חמישי, בנוכחות המחזאית והשחקנים.",
+      "en": "The play's premiere will take place on Thursday, in the presence of the playwright and the cast."
     },
-    "note": "Used for films too, not only plays. בכורה = being first (same root as בכור, firstborn). With the article: הצגת הבכורה. בכורה עולמית = a world premiere."
+    "note": "Mainly for the stage; a film premiere is usually הקרנת בכורה, and both are often just בכורה (בכורה עולמית = a world premiere). In speech also פרמיירה. בכורה = being first, as in בכור (firstborn). With the article: הצגת הבכורה."
   },
   {
     "id": "vc1i_bama",
@@ -1000,7 +1000,7 @@
       "he": "העלילה מתרחשת בקיבוץ בשנות השבעים, והיא מסופרת מנקודת המבט של ילדה בת עשר.",
       "en": "The plot takes place on a kibbutz in the seventies and is told from the point of view of a ten-year-old girl."
     },
-    "note": "סרט עלילתי = a feature film, as opposed to a documentary (סרט תיעודי). Careful: in some phrases עלילה means a false accusation."
+    "note": "סרט עלילתי = a feature film, as opposed to a documentary (סרט תיעודי). Careful: עלילה can also mean a false accusation, as in עלילת שווא (a trumped-up charge)."
   },
   {
     "id": "vc1i_dmut",
@@ -1023,7 +1023,7 @@
   {
     "id": "vc1i_siporet",
     "he": "סיפורת",
-    "tr": "siporét",
+    "tr": "sipóret",
     "en": "fiction (prose)",
     "enAlt": ["fiction", "prose fiction", "narrative prose"],
     "pos": "noun",

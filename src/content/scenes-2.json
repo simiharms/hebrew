@@ -187,7 +187,9 @@
             "שוטף"
           ],
           [
-            "הנחה"
+            "הנחה",
+            "אחוז",
+            "עשרה"
           ]
         ]
       }
@@ -382,7 +384,8 @@
             "שני",
             "שניים",
             "השתנה",
-            "יותר"
+            "יותר",
+            "אנשים"
           ]
         ]
       },
@@ -638,24 +641,22 @@
       {
         "q": "מה הטעות הכי גדולה של מתחילים, לפי מאיה?",
         "qEn": "According to Maya, what is the biggest beginner mistake?",
-        "answer": "הם מוציאים את הכסף ושוכחים שצריך לשלם מיסים.",
-        "answerEn": "They spend the money and forget that they have to pay taxes.",
+        "answer": "מקבלים את התשלום הראשון, מרגישים מיליונרים ושוכחים מהמיסים.",
+        "answerEn": "They get their first payment, feel like millionaires and forget about the taxes.",
         "keywords": [
           [
-            "כסף",
             "תשלום",
-            "מיסים",
-            "מסים",
-            "מס"
+            "כסף",
+            "מיליונרים",
+            "מיליונר",
+            "עשירים",
+            "עשיר"
           ],
           [
             "מיסים",
             "מסים",
             "מס",
-            "מיליונרים",
-            "מיליונר",
-            "מוציאים",
-            "להוציא"
+            "ביטוח לאומי"
           ]
         ]
       },
@@ -1131,8 +1132,8 @@
       },
       {
         "s": "A",
-        "he": "שמוליק מהמחשוב אמר שיש לו רמקול ופלייליסט של שנות התשעים.",
-        "en": "Shmulik from IT said he has a speaker and a nineties playlist."
+        "he": "דימה מהמחשוב אמר שיש לו רמקול ופלייליסט של שנות התשעים.",
+        "en": "Dima from IT said he has a speaker and a nineties playlist."
       },
       {
         "s": "B",
@@ -1281,10 +1282,10 @@
         "why": "It's only חמש מאות שקל, five hundred shekels, for forty employees. Shira had guessed 'less than a thousand'."
       },
       {
-        "s": "לשמוליק מהמחשוב יש רמקול ופלייליסט של שנות התשעים.",
-        "sEn": "Shmulik from IT has a speaker and a nineties playlist.",
+        "s": "לדימה מהמחשוב יש רמקול ופלייליסט של שנות התשעים.",
+        "sEn": "Dima from IT has a speaker and a nineties playlist.",
         "a": true,
-        "why": "Nir says Shmulik told him he has a speaker and a nineties playlist, so the music is taken care of."
+        "why": "Nir says Dima told him he has a speaker and a nineties playlist, so the music is taken care of."
       },
       {
         "s": "המסיבה תהיה ביום חמישי אחרי הצהריים.",
@@ -1387,6 +1388,26 @@
       },
       {
         "s": "A",
+        "he": "וזה נוגע רק למוצרים מיובאים?",
+        "en": "And does that only affect imported products?"
+      },
+      {
+        "s": "B",
+        "he": "לא רק. גם יצרנים מקומיים קונים חלק מחומרי הגלם בחוץ לארץ, ולכן גם מוצרים מתוצרת הארץ מתייקרים.",
+        "en": "Not only. Local manufacturers also buy some of their raw materials abroad, so locally made products are getting more expensive too."
+      },
+      {
+        "s": "A",
+        "he": "ושכר הדירה? גם הוא קשור לשקל?",
+        "en": "And rent? Is that linked to the shekel too?"
+      },
+      {
+        "s": "B",
+        "he": "לא באופן ישיר. שם הגורם העיקרי הוא ביקוש גבוה לדירות להשכרה, במיוחד במרכז הארץ.",
+        "en": "Not directly. There the main factor is high demand for rental apartments, especially in the center of the country."
+      },
+      {
+        "s": "A",
         "he": "ומה עם הריבית? יש כבר מי שמדבר על העלאה.",
         "en": "And what about the interest rate? Some people are already talking about a hike."
       },
@@ -1424,6 +1445,16 @@
         "s": "B",
         "he": "המומחים ממליצים להשוות מחירים, לקנות מותגים פרטיים ולבדוק את תנאי המשכנתא.",
         "en": "Experts recommend comparing prices, buying store brands and checking your mortgage terms."
+      },
+      {
+        "s": "A",
+        "he": "ומה לגבי מי שמתכנן חופשה בחוץ לארץ?",
+        "en": "And what about people who are planning a vacation abroad?"
+      },
+      {
+        "s": "B",
+        "he": "כדאי להזמין מוקדם ולעקוב אחרי שער החליפין, כי מחירי הטיסות והמלונות נקבעים לרוב במטבע זר.",
+        "en": "It's worth booking early and keeping an eye on the exchange rate, because flight and hotel prices are usually set in foreign currency."
       },
       {
         "s": "A",
@@ -1569,9 +1600,9 @@
       }
     ],
     "dictation": [
-      7,
-      12,
-      14
+      11,
+      16,
+      20
     ],
     "expressions": [
       {
@@ -1661,6 +1692,16 @@
       },
       {
         "s": "A",
+        "he": "שלושה קווים לעיר שלמה? זו טיפה בים.",
+        "en": "Three lines for a whole city? That's a drop in the ocean."
+      },
+      {
+        "s": "B",
+        "he": "זו רק ההתחלה. עד סוף השנה ייסלל נתיב תחבורה ציבורית ברחוב הראשי, והתדירות בשעות העומס תוכפל.",
+        "en": "It's only the beginning. By the end of the year a public transport lane will be built on the main street, and the frequency at rush hour will be doubled."
+      },
+      {
+        "s": "A",
         "he": "בעלי העסקים במרכז אומרים שזו מכה קשה. מי ישלם עשרים שקל כדי לשתות קפה?",
         "en": "Business owners in the center say it's a heavy blow. Who's going to pay twenty shekels to have a coffee?"
       },
@@ -1698,6 +1739,16 @@
         "s": "B",
         "he": "עד אז נפעיל שאטל חינם מהחניון הזמני ליד האצטדיון, כל עשר דקות.",
         "en": "Until then we'll run a free shuttle from the temporary parking lot near the stadium, every ten minutes."
+      },
+      {
+        "s": "A",
+        "he": "ומה עם מי שעובד במרכז עד מאוחר? מלצרים, מוכרות בחנויות, אנשים במשמרות ערב.",
+        "en": "And what about people who work in the center until late? Waiters, shop assistants, people on evening shifts."
+      },
+      {
+        "s": "B",
+        "he": "מי שמועסק במרכז יוכל לקנות מנוי חנייה חודשי במחיר מוזל, והשאטל יפעל עד חצות.",
+        "en": "Anyone employed in the center will be able to buy a monthly parking pass at a reduced price, and the shuttle will run until midnight."
       },
       {
         "s": "A",
@@ -1849,7 +1900,7 @@
     "dictation": [
       1,
       5,
-      13
+      15
     ],
     "expressions": [
       {
@@ -1957,6 +2008,21 @@
         "en": "If I get two more developers from the app team, maybe in three weeks. Not less."
       },
       {
+        "s": "A",
+        "he": "ומה זה עושה לצוות האפליקציה? הם באמצע גרסה חדשה.",
+        "en": "And what does that do to the app team? They're in the middle of a new version."
+      },
+      {
+        "s": "B",
+        "he": "הגרסה שלהם תתעכב בשבועיים. זה כואב, אבל הרבה פחות מכותרת על לקוחות שחויבו פעמיים.",
+        "en": "Their version will be delayed by two weeks. It hurts, but a lot less than a headline about customers who were charged twice."
+      },
+      {
+        "s": "C",
+        "he": "פה אני מסכימה איתך. כותרת כזאת הייתה הורסת לנו את המותג.",
+        "en": "On that I agree with you. A headline like that would wreck our brand."
+      },
+      {
         "s": "C",
         "he": "ומה אני עושה עם האירוע? כבר שלחנו הזמנות.",
         "en": "And what do I do about the event? We've already sent out invitations."
@@ -1985,6 +2051,11 @@
         "s": "A",
         "he": "נרשם. אז ההחלטה: השקה מצומצמת בתאריך המקורי, ותשלומים בעוד שלושה שבועות.",
         "en": "Noted. So the decision: a limited launch on the original date, and payments in three weeks."
+      },
+      {
+        "s": "C",
+        "he": "אני מעדכנת את המוזמנים ומכינה הודעה לעיתונות על רשימת ההמתנה.",
+        "en": "I'll update the invitees and prepare a press release about the waiting list."
       },
       {
         "s": "A",
@@ -2121,14 +2192,14 @@
     ],
     "dictation": [
       1,
-      10,
-      16
+      13,
+      20
     ],
     "expressions": [
       {
         "he": "הבמה שלך",
         "en": "the floor is yours",
-        "note": "Inviting someone to present. Same spelling to a man or a woman (lekhá / lakh)."
+        "note": "Inviting someone to present. Same spelling to a man or a woman, pronounced shelkhá / shelákh."
       },
       {
         "he": "קל לך להגיד",
@@ -2163,10 +2234,10 @@
     "title": "לפני החתימה",
     "titleEn": "Before Signing",
     "genre": "drama",
-    "synopsis": "Elad and Liat are about to buy their first apartment. Just before signing, their lawyer Dafna tells them she has found two serious problems in the contract.",
+    "synopsis": "Elad and Liat are about to buy their first apartment. Just before signing, their lawyer Rana tells them she has found two serious problems in the contract.",
     "speakers": {
       "A": {
-        "name": "דפנה",
+        "name": "רנא",
         "gender": "f"
       },
       "B": {
@@ -2208,6 +2279,16 @@
         "s": "A",
         "he": "בתרחיש הגרוע, כן. לכן אני אדרוש שחלק מהתשלום הראשון יעבור ישר לבנק שלו.",
         "en": "In the worst case, yes. That's why I'll demand that part of the first payment go straight to his bank."
+      },
+      {
+        "s": "C",
+        "he": "וזה מקובל? המוכר לא ייעלב?",
+        "en": "And is that acceptable? Won't the seller be offended?"
+      },
+      {
+        "s": "A",
+        "he": "ממש לא. זה נוהל רגיל בעסקאות שיש בהן משכנתא, ועורך הדין שלו מכיר את זה היטב.",
+        "en": "Not at all. It's standard procedure in deals that involve a mortgage, and his lawyer knows that well."
       },
       {
         "s": "A",
@@ -2285,13 +2366,15 @@
           [
             "זוג",
             "קונה",
-            "קונים"
+            "קונים",
+            "מעוניין",
+            "מעוניינים"
           ]
         ]
       },
       {
-        "q": "מה הבעיה הראשונה שדפנה מצאה בחוזה?",
-        "qEn": "What is the first problem Dafna found in the contract?",
+        "q": "מה הבעיה הראשונה שרנא מצאה בחוזה?",
+        "qEn": "What is the first problem Rana found in the contract?",
         "answer": "יש על הדירה משכנתא של המוכר, שעוד לא סולקה.",
         "answerEn": "The seller has a mortgage on the apartment that hasn't been paid off yet.",
         "keywords": [
@@ -2324,8 +2407,8 @@
         ]
       },
       {
-        "q": "אילו שני תיקונים דפנה דורשת?",
-        "qEn": "Which two amendments does Dafna demand?",
+        "q": "אילו שני תיקונים רנא דורשת?",
+        "qEn": "Which two amendments does Rana demand?",
         "answer": "שהמשכנתא תסולק מהתשלום הראשון, ושהמוכר ייקח אחריות על המרפסת.",
         "answerEn": "That the mortgage be paid off from the first payment, and that the seller take responsibility for the balcony.",
         "keywords": [
@@ -2367,8 +2450,8 @@
     ],
     "tf": [
       {
-        "s": "דפנה ממליצה לזוג לוותר על הדירה.",
-        "sEn": "Dafna advises the couple to give up on the apartment.",
+        "s": "רנא ממליצה לזוג לוותר על הדירה.",
+        "sEn": "Rana advises the couple to give up on the apartment.",
         "a": false,
         "why": "She says explicitly אני לא אומרת לוותר על הדירה. אני אומרת לא לחתום על החוזה הזה."
       },
@@ -2385,16 +2468,16 @@
         "why": "Liat says חיפשנו שנה וחצי, which is why she is afraid of losing this apartment."
       },
       {
-        "s": "ליאת מסכימה לתוכנית של דפנה בלי שום היסוס.",
-        "sEn": "Liat agrees to Dafna's plan without any hesitation.",
+        "s": "ליאת מסכימה לתוכנית של רנא בלי שום היסוס.",
+        "sEn": "Liat agrees to Rana's plan without any hesitation.",
         "a": false,
-        "why": "She agrees בלב כבד, 'with a heavy heart', and asks Dafna to act fast."
+        "why": "She agrees בלב כבד, 'with a heavy heart', and asks Rana to act fast."
       }
     ],
     "dictation": [
-      9,
-      12,
-      15
+      11,
+      14,
+      17
     ],
     "expressions": [
       {

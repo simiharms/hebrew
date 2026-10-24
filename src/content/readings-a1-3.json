@@ -135,7 +135,7 @@
         "qEn": "How much does a class for children cost?",
         "answer": "שיעור לילדים עולה חמישה עשר שקלים.",
         "answerEn": "A class for children costs fifteen shekels.",
-        "keywords": [["חמישה עשר", "15"]]
+        "keywords": [["חמישה עשר", "חמש עשרה", "15"]]
       }
     ],
     "tf": [
@@ -184,8 +184,8 @@
     ],
     "summary": [
       {
-        "prompt": "המתנ״ס פתוח מיום ראשון עד יום ___.",
-        "en": "The community centre is open from Sunday to Friday.",
+        "prompt": "המתנ״ס פתוח גם ביום ___, אבל רק עד שתיים.",
+        "en": "The community centre is also open on Friday, but only until two.",
         "answer": ["שישי"],
         "hint": "a day of the week"
       },
@@ -473,8 +473,8 @@
           "keywords": ["מי", "בואו", "אתם", "מתי"]
         }
       ],
-      "model": "היי! ביום שישי בבוקר יש לי שיעור יוגה. אחר כך בא לי ללכת לשוק ולשתות קפה. מי רוצה לבוא? בצהריים צריך לקנות פרחים, כי בערב יש ארוחת שישי אצל ההורים שלי.",
-      "modelEn": "Hi! On Friday morning I have a yoga class. After that I feel like going to the market and having a coffee. Who wants to come? At noon I need to buy flowers, because in the evening there's Friday dinner at my parents'."
+      "model": "היי! ביום שישי בבוקר יש לי שיעור יוגה. אחר כך אני רוצה ללכת לשוק ולשתות קפה. מי יכול לבוא? בצהריים צריך לקנות פרחים, כי בערב יש ארוחת שישי אצל ההורים שלי.",
+      "modelEn": "Hi! On Friday morning I have a yoga class. After that I want to go to the market and have a coffee. Who can come? At noon I have to buy flowers, because in the evening there's Friday dinner at my parents'."
     }
   },
   {
@@ -522,7 +522,7 @@
         "en": "Opening hours: Sunday to Thursday 7:00–22:00, Friday and Saturday 8:00–16:00."
       },
       {
-        "he": "אפשר להזמין כל קפה עם חלב סויה או חלב שקדים, בלי תוספת מחיר. בתיאבון!",
+        "he": "אפשר להזמין כל קפה עם חלב סויה או חלב שקדים, בלי תוספת תשלום. בתיאבון!",
         "en": "You can order any coffee with soy milk or almond milk at no extra charge. Enjoy your meal!"
       }
     ],
@@ -588,9 +588,9 @@
         "tr": "khaláv shkedím"
       },
       {
-        "he": "בלי תוספת מחיר",
-        "en": "at no extra charge",
-        "tr": "bli toséfet mekhír"
+        "he": "בלי תוספת תשלום",
+        "en": "at no extra charge (תוספת = addition, תשלום = payment)",
+        "tr": "bli toséfet tashlúm"
       },
       {
         "he": "בתיאבון",
@@ -604,7 +604,7 @@
         "qEn": "How much does a hafukh cost?",
         "answer": "הפוך עולה 14 שקלים.",
         "answerEn": "A hafukh costs 14 shekels.",
-        "keywords": [["14", "ארבעה עשר"]]
+        "keywords": [["14", "ארבעה עשר", "ארבע עשרה"]]
       },
       {
         "q": "מה יש בארוחת הבוקר הישראלית?",
@@ -638,7 +638,7 @@
         "s": "קפה עם חלב שקדים עולה יותר.",
         "sEn": "Coffee with almond milk costs more.",
         "a": false,
-        "why": "The menu says soy or almond milk comes at no extra charge (בלי תוספת מחיר)."
+        "why": "The menu says soy or almond milk comes at no extra charge (בלי תוספת תשלום)."
       },
       {
         "s": "בטוסט יש גבינה צהובה.",
@@ -684,7 +684,7 @@
         "hint": "a red vegetable"
       },
       {
-        "prompt": "הסלט הגדול ועוגת התפוחים הם ___.",
+        "prompt": "הסלט הגדול ועוגת התפוחים ___.",
         "en": "The large salad and the apple cake are vegan.",
         "answer": ["טבעוניים", "טבעונים"],
         "hint": "masculine plural adjective"
@@ -692,7 +692,8 @@
       {
         "prompt": "אפשר להזמין קפה עם חלב סויה בלי תוספת ___.",
         "en": "You can order coffee with soy milk at no extra charge.",
-        "answer": ["מחיר"]
+        "answer": ["תשלום", "מחיר"],
+        "hint": "payment"
       }
     ],
     "writing": {
@@ -714,8 +715,8 @@
           "keywords": ["טרי", "טרייה", "חמה", "חם", "ישראלית", "קרה", "גדול", "טבעונית"]
         }
       ],
-      "model": "אני רוצה ארוחת בוקר ישראלית. היא עולה 58 ₪, ויש בה גם שתייה חמה, אז אני רוצה הפוך. אני רוצה גם מיץ תפוזים טרי. הוא עולה 16 ₪. ביחד זה 74 ₪.",
-      "modelEn": "I'd like the Israeli breakfast. It costs 58 NIS, and it also includes a hot drink, so I'd like a hafukh. I'd also like a fresh orange juice. It costs 16 NIS. Together that's 74 NIS."
+      "model": "אני רוצה ארוחת בוקר ישראלית. היא עולה 58 ₪, ויש בה גם שתייה חמה, אז אני רוצה הפוך עם חלב סויה. אני רוצה גם מיץ תפוזים טרי. הוא עולה 16 ₪. ביחד זה 74 ₪.",
+      "modelEn": "I'd like the Israeli breakfast. It costs 58 NIS, and it also includes a hot drink, so I'd like a hafukh with soy milk. I'd also like a fresh orange juice. It costs 16 NIS. Together that's 74 NIS."
     }
   }
 ]

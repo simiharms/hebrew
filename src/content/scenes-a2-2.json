@@ -34,8 +34,8 @@
       },
       {
         "s": "A",
-        "he": "אני מצלמת הרבה, אז המצלמה הכי חשובה. אבל גם המחיר חשוב.",
-        "en": "I take a lot of photos, so the camera matters most. But the price matters too."
+        "he": "אני מצלמת הרבה, אז המצלמה הכי חשובה לי. אבל גם המחיר חשוב.",
+        "en": "I take a lot of photos, so the camera matters most to me. But the price matters too."
       },
       {
         "s": "B",
@@ -70,7 +70,7 @@
       {
         "s": "B",
         "he": "נכון, אבל הסוללה של הכחול יותר טובה. היא מחזיקה יומיים, ושל השחור רק יום אחד.",
-        "en": "True, but the blue one's battery is better. It lasts two days, and the black one's only one day."
+        "en": "True, but the blue one's battery is better. It lasts two days, and the black one's lasts only one day."
       },
       {
         "s": "A",
@@ -79,7 +79,7 @@
       },
       {
         "s": "B",
-        "he": "אני מעדיף את הכחול. הוא פחות יקר, והמצלמה שלו גם טובה מאוד.",
+        "he": "אני מעדיף את הכחול. הוא פחות יקר, וגם המצלמה שלו טובה מאוד.",
         "en": "I prefer the blue one. It's less expensive, and its camera is very good too."
       },
       {
@@ -100,15 +100,14 @@
     ],
     "questions": [
       {
-        "q": "מה הכי חשוב למרינה בטלפון?",
-        "qEn": "What matters most to Marina in a phone?",
-        "answer": "המצלמה הכי חשובה לה, וגם המחיר.",
-        "answerEn": "The camera matters most to her, and the price too.",
+        "q": "מה הכי חשוב למרינה בטלפון, ומה עוד חשוב לה?",
+        "qEn": "What matters most to Marina in a phone, and what else matters to her?",
+        "answer": "המצלמה הכי חשובה לה, אבל גם המחיר חשוב לה.",
+        "answerEn": "The camera matters most to her, but the price matters too.",
         "keywords": [
           [
             "מצלמה",
-            "לצלם",
-            "מצלמת"
+            "מצלמות"
           ],
           [
             "מחיר",
@@ -299,8 +298,8 @@
       },
       {
         "s": "B",
-        "he": "טוב. אז קח את הכדורים האלה, נגד כאבים וחום. כדור אחד כל שש שעות.",
-        "en": "OK. Then take these pills, for pain and fever. One pill every six hours."
+        "he": "טוב. אז קח את הכדורים האלה, הם נגד כאבים וחום. כדור אחד כל שש שעות.",
+        "en": "OK. Then take these pills, they're for pain and fever. One pill every six hours."
       },
       {
         "s": "A",
@@ -349,8 +348,8 @@
         ]
       },
       {
-        "q": "מתי זה התחיל?",
-        "qEn": "When did it start?",
+        "q": "מתי התחילו הכאבים של מייקל?",
+        "qEn": "When did Michael's aches start?",
         "answer": "אתמול בערב.",
         "answerEn": "Yesterday evening.",
         "keywords": [
@@ -382,6 +381,7 @@
         "keywords": [
           [
             "שש שעות",
+            "שש",
             "6"
           ],
           [
@@ -397,7 +397,8 @@
         "keywords": [
           [
             "סוכריות",
-            "סוכריה"
+            "סוכריה",
+            "סוכרייה"
           ],
           [
             "תה",
@@ -461,7 +462,7 @@
       {
         "he": "תשתה הרבה תה",
         "en": "Drink lots of tea",
-        "note": "In everyday speech the future works as a friendly instruction: תשתה, תלך לרופא, תנוח. The imperative (שתה, לך) sounds sharper."
+        "note": "In everyday speech the future often works as a friendly instruction: תשתה, תלך לרופא, תנוח. A few short verbs are mostly heard in the imperative even in casual talk: קח, תן, בוא. Other imperatives, like שתה, sound formal or written."
       },
       {
         "he": "רפואה שלמה!",
@@ -538,8 +539,8 @@
       },
       {
         "s": "C",
-        "he": "נוסעים יקרים, הרכבת לחיפה תצא באיחור של עשרים דקות. אנחנו מתנצלים על העיכוב.",
-        "en": "Dear passengers, the train to Haifa will leave twenty minutes late. We apologize for the delay."
+        "he": "נוסעים יקרים, הרכבת של עשר וחצי לחיפה תצא באיחור של עשרים דקות. אנחנו מתנצלים על העיכוב.",
+        "en": "Dear passengers, the ten-thirty train to Haifa will leave twenty minutes late. We apologize for the delay."
       },
       {
         "s": "A",
@@ -548,8 +549,8 @@
       },
       {
         "s": "D",
-        "he": "גם אני נוסע לחיפה. אבל יש עוד רכבת, בעשר שלושים וחמש.",
-        "en": "I'm going to Haifa too. But there's another train, at ten thirty-five."
+        "he": "גם אני נוסע לחיפה. אל תדאגי, יש עוד רכבת, בעשר שלושים וחמש.",
+        "en": "I'm going to Haifa too. Don't worry, there's another train, at ten thirty-five."
       },
       {
         "s": "A",
@@ -558,8 +559,8 @@
       },
       {
         "s": "D",
-        "he": "מרציף אחד. זאת רכבת מהירה, והיא לא עוצרת בכל התחנות.",
-        "en": "From platform one. It's an express train, and it doesn't stop at every station."
+        "he": "מרציף חמש. זאת רכבת מהירה, והיא לא עוצרת בכל התחנות.",
+        "en": "From platform five. It's an express train, and it doesn't stop at every station."
       },
       {
         "s": "A",
@@ -615,13 +616,14 @@
         "keywords": [
           [
             "שלוש",
+            "שלושה",
             "3"
           ]
         ]
       },
       {
-        "q": "מה הבעיה עם הרכבת לחיפה?",
-        "qEn": "What's the problem with the train to Haifa?",
+        "q": "מה הבעיה עם הרכבת של עשר וחצי?",
+        "qEn": "What's the problem with the ten-thirty train?",
         "answer": "היא תצא באיחור של עשרים דקות.",
         "answerEn": "It will leave twenty minutes late.",
         "keywords": [
@@ -629,7 +631,8 @@
             "איחור",
             "תאחר",
             "מאחרת",
-            "עיכוב"
+            "עיכוב",
+            "מתעכבת"
           ],
           [
             "עשרים",
@@ -640,18 +643,20 @@
       {
         "q": "באיזו רכבת טגיסט נוסעת בסוף, ולמה?",
         "qEn": "Which train does Tigist take in the end, and why?",
-        "answer": "ברכבת המהירה של עשר שלושים וחמש, כי היא לא רוצה לאחר לפגישה.",
-        "answerEn": "The ten thirty-five express train, because she doesn't want to be late for her meeting.",
+        "answer": "ברכבת המהירה של עשר שלושים וחמש, כי הרכבת של עשר וחצי מאחרת, והיא לא רוצה לאחר לפגישה.",
+        "answerEn": "The ten thirty-five express train, because the ten-thirty train is late and she doesn't want to be late for her meeting.",
         "keywords": [
           [
             "מהירה",
             "שלושים וחמש",
-            "רציף אחד"
+            "רציף חמש",
+            "35"
           ],
           [
-            "לאחר",
             "פגישה",
+            "לאחר",
             "מאחרת",
+            "איחור",
             "אאחר"
           ]
         ]
@@ -665,16 +670,16 @@
         "why": "She pays by card: Amit asks מזומן או אשראי? and she answers באשראי."
       },
       {
-        "s": "הרכבת לחיפה תצא באיחור.",
-        "sEn": "The train to Haifa will leave late.",
+        "s": "הרכבת של עשר וחצי תצא באיחור.",
+        "sEn": "The ten-thirty train will leave late.",
         "a": true,
-        "why": "The announcement says it will leave באיחור של עשרים דקות, twenty minutes late."
+        "why": "The announcement says the ten-thirty train to Haifa will leave באיחור של עשרים דקות, twenty minutes late."
       },
       {
         "s": "גם הנוסע השני נוסע לחיפה.",
         "sEn": "The other passenger is going to Haifa too.",
         "a": true,
-        "why": "He says גם אני נוסע לחיפה."
+        "why": "Nadav, the passenger who helps her, says גם אני נוסע לחיפה."
       },
       {
         "s": "הרכבת המהירה עוצרת בכל התחנות.",
@@ -713,7 +718,7 @@
       {
         "he": "אנחנו מתנצלים על העיכוב",
         "en": "We apologize for the delay",
-        "note": "Formal announcement style. להתנצל על = to apologize for; עיכוב = a delay, a hold-up."
+        "note": "Formal announcement style. להתנצל על = to apologize for; עיכוב = a delay, a hold-up. In very formal announcements you will also hear אנו, a formal word for אנחנו."
       },
       {
         "he": "צריך למהר",

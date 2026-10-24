@@ -8,12 +8,12 @@
     "kind": "recipe",
     "paragraphs": [
       {
-        "he": "שקשוקה היא ארוחה פשוטה, טעימה וזולה. בישראל אוכלים אותה בבוקר, בצהריים ובערב. זמן הכנה: חצי שעה.",
-        "en": "Shakshuka is a simple, tasty and cheap meal. In Israel people eat it in the morning, at lunchtime and in the evening. Preparation time: half an hour."
+        "he": "שקשוקה היא מנה פשוטה, טעימה וזולה. בישראל אוכלים אותה בבוקר, בצהריים ובערב. זמן הכנה: חצי שעה.",
+        "en": "Shakshuka is a simple, tasty and cheap dish. In Israel people eat it in the morning, at lunchtime and in the evening. Preparation time: half an hour."
       },
       {
         "he": "מצרכים (ל-4 אנשים):",
-        "en": "Ingredients (for 4 people):"
+        "en": "Ingredients (serves 4):"
       },
       {
         "he": "2 כפות שמן זית",
@@ -53,19 +53,19 @@
       },
       {
         "he": "3. הוסיפו את העגבניות ואת התבלינים, וערבבו. בשלו על אש נמוכה עשר דקות, עד שהרוטב נהיה סמיך.",
-        "en": "3. Add the tomatoes and the spices, and stir. Cook on a low flame for ten minutes, until the sauce becomes thick."
+        "en": "3. Add the tomatoes and the spices, and stir. Cook on a low flame for ten minutes, until the sauce thickens."
       },
       {
         "he": "4. עשו ברוטב ארבעה חורים קטנים, ושברו ביצה לתוך כל חור.",
         "en": "4. Make four small holes in the sauce, and break an egg into each hole."
       },
       {
-        "he": "5. כסו את המחבת ובשלו עוד חמש דקות, עד שהחלבון לבן, אבל החלמון עדיין רך. בסוף פזרו מעל קצת פטרוזיליה.",
-        "en": "5. Cover the pan and cook for another five minutes, until the egg white is white but the yolk is still soft. At the end, sprinkle a little parsley on top."
+        "he": "5. כסו את המחבת ובשלו עוד חמש דקות, עד שהחלבון לבן, אבל החלמון עדיין רך. בסוף פזרו מעל השקשוקה קצת פטרוזיליה.",
+        "en": "5. Cover the pan and cook for another five minutes, until the egg white has turned white but the yolk is still soft. At the end, sprinkle a little parsley over the shakshuka."
       },
       {
-        "he": "טיפ: אוהבים חריף? תוסיפו עם העגבניות גם פלפל חריף קטן. ואל תשכחו לחם טרי: תגישו את השקשוקה ישר מהמחבת, ותנגבו את הרוטב עם הלחם. בתיאבון!",
-        "en": "Tip: Like it spicy? Add a small hot pepper together with the tomatoes. And don't forget fresh bread: serve the shakshuka straight from the pan, and mop up the sauce with the bread. Bon appétit!"
+        "he": "טיפ: אוהבים חריף? תוסיפו גם פלפל חריף קטן עם העגבניות. ואל תשכחו לחם טרי: תגישו את השקשוקה ישר מהמחבת, ותנגבו את הרוטב עם הלחם. בתיאבון!",
+        "en": "Tip: Like it spicy? Add a small hot pepper too, together with the tomatoes. And don't forget fresh bread: serve the shakshuka straight from the pan, and mop up the sauce with the bread. Bon appétit!"
       }
     ],
     "glossary": [
@@ -90,13 +90,13 @@
         "tr": "shinéy shum"
       },
       {
-        "he": "כמון",
-        "en": "cumin",
-        "tr": "kamún"
+        "he": "לקצוץ",
+        "en": "to chop finely (in the text: קצצו, chop!)",
+        "tr": "liktsóts"
       },
       {
         "he": "מחבת",
-        "en": "frying pan (feminine: מחבת גדולה)",
+        "en": "frying pan (feminine, so: מחבת גדולה)",
         "tr": "makhvát"
       },
       {
@@ -176,8 +176,8 @@
       {
         "q": "איך יודעים שהביצים מוכנות?",
         "qEn": "How do you know that the eggs are ready?",
-        "answer": "החלבון לבן, אבל החלמון עדיין רך.",
-        "answerEn": "The egg white is white, but the yolk is still soft.",
+        "answer": "כשהחלבון לבן, אבל החלמון עדיין רך.",
+        "answerEn": "When the egg white is white, but the yolk is still soft.",
         "keywords": [
           [
             "חלבון",
@@ -196,14 +196,19 @@
         "answerEn": "Add a small hot pepper with the tomatoes.",
         "keywords": [
           [
-            "פלפל"
+            "פלפל",
+            "פלפל חריף",
+            "צ'ילי",
+            "צ׳ילי"
           ],
           [
             "להוסיף",
             "תוסיפו",
             "הוסיפו",
             "מוסיפים",
-            "מוסיף"
+            "מוסיף",
+            "תוסיף",
+            "הוסף"
           ]
         ]
       }
@@ -263,8 +268,8 @@
     ],
     "summary": [
       {
-        "prompt": "שקשוקה היא ארוחה פשוטה, טעימה ו___.",
-        "en": "Shakshuka is a simple, tasty and cheap meal.",
+        "prompt": "שקשוקה היא מנה פשוטה, טעימה ו___.",
+        "en": "Shakshuka is a simple, tasty and cheap dish.",
         "answer": [
           "זולה"
         ],
@@ -279,8 +284,8 @@
         "hint": "fry (present plural, like מוסיפים)"
       },
       {
-        "prompt": "את העגבניות מבשלים עשר דקות, עד שהרוטב נהיה ___.",
-        "en": "You cook the tomatoes for ten minutes, until the sauce becomes thick.",
+        "prompt": "את העגבניות והתבלינים מבשלים עשר דקות, עד שהרוטב נהיה ___.",
+        "en": "You cook the tomatoes and the spices for ten minutes, until the sauce becomes thick.",
         "answer": [
           "סמיך"
         ],
@@ -291,7 +296,8 @@
         "en": "Then you break four eggs into the sauce.",
         "answer": [
           "ביצים"
-        ]
+        ],
+        "hint": "eggs"
       },
       {
         "prompt": "מגישים את השקשוקה ישר מהמחבת, עם ___ טרי.",
@@ -350,7 +356,7 @@
     "kind": "review",
     "paragraphs": [
       {
-        "he": "ביקורות של לקוחות: נובה 12 (2,400 ₪) מול ליאו פרו (3,100 ₪)",
+        "he": "ביקורות לקוחות: נובה 12 (2,400 ₪) מול ליאו פרו (3,100 ₪)",
         "en": "Customer reviews: Nova 12 (2,400 NIS) vs. Leo Pro (3,100 NIS)"
       },
       {
@@ -378,13 +384,18 @@
       },
       {
         "he": "מרוצה",
-        "en": "satisfied, happy (with something); the feminine has the same spelling, pronounced merutsá",
-        "tr": "merutsé"
+        "en": "satisfied, happy (with something); Olga is a woman, so merutsá (masculine merutsé, same spelling)",
+        "tr": "merutsá"
       },
       {
         "he": "כמעט",
         "en": "almost",
         "tr": "kim'át"
+      },
+      {
+        "he": "הדבר היחיד",
+        "en": "the only thing",
+        "tr": "ha-davár ha-yakhíd"
       },
       {
         "he": "סוללה",
@@ -428,7 +439,7 @@
       },
       {
         "he": "נפל לי",
-        "en": "I dropped it (literally: it fell on me)",
+        "en": "I dropped it (literally: it fell \"to me\" — the ל shows who it happened to)",
         "tr": "nafál li"
       },
       {
@@ -477,16 +488,18 @@
           [
             "פחות",
             "זול",
+            "זולה",
             "מחיר",
-            "700"
+            "700",
+            "שקל"
           ]
         ]
       },
       {
-        "q": "למה סאמר חושב שנובה 12 טלפון חזק?",
+        "q": "למה סאמר חושב שנובה 12 הוא טלפון חזק?",
         "qEn": "Why does Samer think the Nova 12 is a tough phone?",
-        "answer": "כי הטלפון נפל פעמיים, ואין לו שריטה.",
-        "answerEn": "Because the phone fell twice, and it has no scratch.",
+        "answer": "כי הטלפון נפל לו פעמיים, ואין לו אפילו שריטה.",
+        "answerEn": "Because the phone fell twice, and it doesn't have even one scratch.",
         "keywords": [
           [
             "נפל",
@@ -555,8 +568,8 @@
     ],
     "summary": [
       {
-        "prompt": "נובה 12 ___ יותר מליאו פרו.",
-        "en": "The Nova 12 is cheaper than the Leo Pro.",
+        "prompt": "נובה 12 עולה 700 שקל פחות מליאו פרו, אז הוא ___ יותר.",
+        "en": "The Nova 12 costs 700 shekels less than the Leo Pro, so it is cheaper.",
         "answer": [
           "זול"
         ],
@@ -566,21 +579,23 @@
         "prompt": "לפי אולגה, הסוללה של נובה 12 מחזיקה ___.",
         "en": "According to Olga, the Nova 12's battery lasts two days.",
         "answer": [
-          "יומיים"
+          "יומיים",
+          "שני ימים",
+          "2 ימים"
         ],
         "hint": "two days"
       },
       {
-        "prompt": "עמית אוהב את ליאו פרו, כי הוא הטלפון הכי ___ שהיה לו.",
-        "en": "Amit likes the Leo Pro because it's the fastest phone he's ever had.",
+        "prompt": "עמית כותב שליאו פרו הוא הטלפון הכי ___ שהיה לו.",
+        "en": "Amit writes that the Leo Pro is the fastest phone he has ever had.",
         "answer": [
           "מהיר"
         ],
         "hint": "fast"
       },
       {
-        "prompt": "טיגיסט ___ את נובה 12, כי הוא עולה פחות.",
-        "en": "Tigist prefers the Nova 12, because it costs less.",
+        "prompt": "טיגיסט קנתה את ליאו פרו לבת שלה, אבל היא ___ את נובה 12, כי הוא עולה פחות.",
+        "en": "Tigist bought the Leo Pro for her daughter, but she prefers the Nova 12, because it costs less.",
         "answer": [
           "מעדיפה"
         ],
@@ -648,18 +663,18 @@
       },
       {
         "he": "אנדריי הביא מדחום. היה לה חום של 38.5. \"עכשיו חם לי, ולפני רגע היה לי קר,\" אמרה שירה. היא שלחה הודעה למנהל שלה, ואז קבעה תור לרופאה באפליקציה של קופת החולים.",
-        "en": "Andrei brought a thermometer. She had a fever of 38.5. \"Now I'm hot, and a moment ago I was cold,\" Shira said. She sent a message to her manager, and then made an appointment with the doctor on the health fund's app."
+        "en": "Andrei brought a thermometer. She had a fever of 38.5. \"Now I'm hot, and a moment ago I was cold,\" Shira said. She sent a message to her manager, and then booked an appointment with the doctor through the health fund's app."
       },
       {
         "he": "בעשר הם נסעו למרפאה. הרופאה, ד״ר חדאד, בדקה לה את הגרון ואת האוזניים, ושאלה: \"ממתי את מרגישה ככה?\" \"מאתמול בלילה,\" ענתה שירה.",
         "en": "At ten they drove to the clinic. The doctor, Dr. Haddad, examined her throat and her ears, and asked: \"Since when have you been feeling like this?\" \"Since last night,\" Shira answered."
       },
       {
-        "he": "\"זה וירוס,\" אמרה הרופאה. \"תשתי הרבה מים ותנוחי. אם החום לא ירד בעוד שלושה ימים, תחזרי אליי.\" היא נתנה לשירה אישור מחלה לשלושה ימים.",
-        "en": "\"It's a virus,\" said the doctor. \"Drink lots of water and rest. If the fever doesn't go down in three days, come back to me.\" She gave Shira a sick note for three days."
+        "he": "\"זה וירוס,\" אמרה הרופאה. \"תשתי הרבה מים ותנוחי. אם בעוד שלושה ימים החום לא ירד, תחזרי אליי.\" היא נתנה לשירה אישור מחלה לשלושה ימים.",
+        "en": "\"It's a virus,\" said the doctor. \"Drink lots of water and rest. If the fever hasn't gone down in three days, come back to me.\" She gave Shira a sick note for three days."
       },
       {
-        "he": "בבית שירה שכבה במיטה, שתתה תה עם לימון ודבש, וישנה הרבה. אנדריי ראה שקר לה, ונתן לה עוד שמיכה. בערב היא כבר הרגישה קצת יותר טוב.",
+        "he": "בבית, שירה שכבה במיטה, שתתה תה עם לימון ודבש, וישנה הרבה. אנדריי ראה שקר לה, ונתן לה עוד שמיכה. בערב היא כבר הרגישה קצת יותר טוב.",
         "en": "At home Shira lay in bed, drank tea with lemon and honey, and slept a lot. Andrei saw that she was cold and gave her another blanket. In the evening she already felt a little better."
       }
     ],
@@ -686,7 +701,7 @@
       },
       {
         "he": "לקבוע תור",
-        "en": "to make an appointment (in the text: קבעה תור)",
+        "en": "to make (book) an appointment (in the text: קבעה תור, she booked an appointment)",
         "tr": "likbó'a tor"
       },
       {
@@ -716,7 +731,7 @@
       },
       {
         "he": "לרדת",
-        "en": "to go down (in the text: ירד, will go down — of the fever)",
+        "en": "to go down (in the text: ירד — here after אם, of the fever: if it hasn't gone down)",
         "tr": "larédet"
       },
       {
@@ -767,12 +782,15 @@
             "לשתות",
             "תשתי",
             "שותה",
+            "תשתה",
+            "שתייה",
             "מים"
           ],
           [
             "לנוח",
             "תנוחי",
             "נחה",
+            "תנוח",
             "מנוחה"
           ]
         ]
@@ -784,7 +802,8 @@
         "answerEn": "A sick note for three days.",
         "keywords": [
           [
-            "אישור"
+            "אישור",
+            "אישור מחלה"
           ],
           [
             "שלושה",
@@ -863,11 +882,12 @@
         "hint": "appointment"
       },
       {
-        "prompt": "הרופאה אמרה: \"זה ___, את צריכה לשתות ולנוח.\"",
-        "en": "The doctor said: \"It's a virus, you need to drink and rest.\"",
+        "prompt": "הרופאה אמרה שזה ___, ושירה צריכה לשתות הרבה מים ולנוח.",
+        "en": "The doctor said it was a virus, and that Shira needed to drink lots of water and rest.",
         "answer": [
           "וירוס"
-        ]
+        ],
+        "hint": "virus"
       },
       {
         "prompt": "שירה קיבלה אישור ___ לשלושה ימים.",
@@ -885,8 +905,8 @@
       }
     ],
     "writing": {
-      "prompt": "ספרו על יום שבו הייתם חולים: מה כאב לכם, מה עשיתם, ומי עזר לכם?",
-      "promptEn": "Write about a day when you were sick: what hurt, what did you do, and who helped you?",
+      "prompt": "ספרו על פעם שהייתם חולים: מה כאב לכם, מה עשיתם, ומי עזר לכם?",
+      "promptEn": "Write about a time when you were sick: what hurt, what did you do, and who helped you?",
       "minWords": 25,
       "useWords": [
         "כאב לי",
@@ -923,7 +943,7 @@
           ]
         }
       ],
-      "model": "בחורף שעבר הייתי חולה שבוע. כאב לי הגרון, והיה לי חום של 39. כל הזמן היה לי קר. קבעתי תור לרופא בקופת חולים, והוא אמר שזה וירוס. שלושה ימים שכבתי במיטה, שתיתי הרבה תה וישנתי. השכנה שלי עזרה לי: היא קנתה לי לחם, פירות ותרופות.",
+      "model": "בחורף שעבר הייתי חולה שבוע. כאב לי הגרון, והיה לי חום של 39. כל הזמן היה לי קר. קבעתי תור לרופא בקופת החולים, והוא אמר שזה וירוס. שלושה ימים שכבתי במיטה, שתיתי הרבה תה וישנתי. השכנה שלי עזרה לי: היא קנתה לי לחם, פירות ותרופות.",
       "modelEn": "Last winter I was sick for a week. My throat hurt, and I had a fever of 39. I was cold all the time. I made an appointment with the doctor at the health fund, and he said it was a virus. For three days I lay in bed, drank lots of tea and slept. My neighbour helped me: she bought me bread, fruit and medicine."
     }
   }

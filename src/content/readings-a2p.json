@@ -238,7 +238,7 @@
     "writing": {
       "prompt": "ספרו על היום הראשון שלכם בעבודה חדשה או בלימודים: איפה הייתם, את מי פגשתם, ואיך הרגשתם?",
       "promptEn": "Write about your first day at a new job or at school: where were you, whom did you meet, and how did you feel?",
-      "minWords": 20,
+      "minWords": 40,
       "useWords": [
         "ביום הראשון",
         "פגשתי",
@@ -281,8 +281,8 @@
           ]
         }
       ],
-      "model": "ביום הראשון בעבודה החדשה הגעתי מוקדם, כי פחדתי לאחר. פגשתי את המנהל ואת כל הצוות. האנשים היו נחמדים, אבל דיברו מהר מאוד. בבוקר הרגשתי קצת לחץ, אבל אחרי ארוחת הצהריים הרגשתי הרבה יותר טוב.",
-      "modelEn": "On my first day at the new job I arrived early, because I was afraid of being late. I met the manager and the whole team. The people were nice, but they talked very fast. In the morning I felt a bit stressed, but after lunch I felt much better."
+      "model": "ביום הראשון בעבודה החדשה הגעתי מוקדם, כי פחדתי לאחר. פגשתי את המנהל ואת כל הצוות, וקיבלתי שולחן ליד החלון. האנשים היו נחמדים, אבל דיברו מהר מאוד. בבוקר הרגשתי קצת לחץ, אבל אחרי ארוחת הצהריים הרגשתי הרבה יותר טוב. בערב סיפרתי הכול למשפחה שלי.",
+      "modelEn": "On my first day at the new job I arrived early, because I was afraid of being late. I met the manager and the whole team, and I got a desk by the window. The people were nice, but they talked very fast. In the morning I felt a bit stressed, but after lunch I felt much better. In the evening I told my family everything."
     }
   },
   {
@@ -302,12 +302,12 @@
         "en": "Noy: Hi Avi, I saw your ad. Is the apartment still available? I work from home, so quiet is important to me. Is the street noisy?"
       },
       {
-        "he": "אבי: כן, היא פנויה. הרחוב די שקט, אבל יש גן ילדים ליד הבניין, אז בבוקר יש קצת רעש. את רוצה לבוא לראות את הדירה?",
-        "en": "Avi: Yes, it's available. The street is pretty quiet, but there's a kindergarten next to the building, so in the morning there's a bit of noise. Do you want to come and see the apartment?"
+        "he": "אבי: כן, היא עדיין פנויה. הרחוב די שקט, אבל יש גן ילדים ליד הבניין, אז בבוקר יש קצת רעש. אחר הצהריים כבר שקט. את רוצה לבוא לראות את הדירה?",
+        "en": "Avi: Yes, it's still available. The street is pretty quiet, but there's a kindergarten next to the building, so in the morning there's a bit of noise. In the afternoon it's already quiet. Do you want to come and see the apartment?"
       },
       {
-        "he": "נוי: כן, בשמחה! אפשר מחר בערב? ועוד שאלה: יש לי חתולה קטנה ושקטה. זאת בעיה?",
-        "en": "Noy: Yes, gladly! Is tomorrow evening possible? And one more question: I have a small, quiet cat. Is that a problem?"
+        "he": "נוי: כן, בשמחה! אפשר מחר בערב? אני מסיימת לעבוד בחמש. ועוד שאלה: יש לי חתולה קטנה ושקטה. זאת בעיה?",
+        "en": "Noy: Yes, gladly! Is tomorrow evening possible? I finish work at five. And one more question: I have a small, quiet cat. Is that a problem?"
       },
       {
         "he": "אבי: האמת, כתבתי במודעה: ללא בעלי חיים... אבל בסדר. תבואי מחר בשש, ונדבר על זה.",
@@ -532,7 +532,7 @@
     "writing": {
       "prompt": "כתבו הודעת וואטסאפ קצרה לאבי: ספרו שראיתם את המודעה, שאלו שתי שאלות חדשות על הדירה, ובקשו לבוא לראות אותה.",
       "promptEn": "Write a short WhatsApp message to Avi: say that you saw the ad, ask two new questions about the apartment, and ask to come and see it.",
-      "minWords": 20,
+      "minWords": 40,
       "useWords": [
         "ראיתי את המודעה",
         "פנויה",
@@ -560,8 +560,8 @@
           ]
         }
       ],
-      "model": "היי אבי, קוראים לי אלכס. ראיתי את המודעה שלך. הדירה עדיין פנויה? יש חנייה בבניין? ויש מכונת כביסה בדירה? אפשר לבוא לראות את הדירה ביום שלישי בערב? תודה רבה!",
-      "modelEn": "Hi Avi, my name is Alex. I saw your ad. Is the apartment still available? Is there parking in the building? And is there a washing machine in the apartment? Can I come and see the apartment on Tuesday evening? Thanks a lot!"
+      "model": "היי אבי, קוראים לי אלכס. ראיתי את המודעה שלך, והדירה נראית לי מעולה. היא עדיין פנויה? יש לי שתי שאלות: יש חנייה בבניין? ויש מכונת כביסה בדירה? אין לי בעלי חיים, אז זאת לא בעיה. אפשר לבוא לראות את הדירה ביום שלישי בערב? תודה רבה!",
+      "modelEn": "Hi Avi, my name is Alex. I saw your ad, and the apartment looks great to me. Is it still available? I have two questions: Is there parking in the building? And is there a washing machine in the apartment? I don't have any pets, so that's not a problem. Can I come and see the apartment on Tuesday evening? Thanks a lot!"
     }
   },
   {
@@ -585,8 +585,8 @@
         "en": "Cleaning: From now on the cleaning company will come twice a week, on Sunday and on Wednesday. Please don't leave garbage bags next to the doors. Garbage goes only into the big bin outside."
       },
       {
-        "he": "אופניים: אסור להשאיר אופניים בלובי, כי אין מקום לעבור. יש חדר אופניים חדש ליד החנייה. המפתח אצל משפחת לוי, בדירה 3.",
-        "en": "Bicycles: Bikes may not be left in the lobby, because there's no room to get through. There's a new bike room next to the parking area. The key is with the Levi family, in apartment 3."
+        "he": "אופניים: אסור להשאיר אופניים בלובי, כי אין מקום לעבור. יש חדר אופניים חדש ליד החנייה, ויש בו מקום לעשרים אופניים. המפתח אצל משפחת לוי, בדירה 3.",
+        "en": "Bicycles: Bikes may not be left in the lobby, because there's no room to get through. There's a new bike room next to the parking area, with room for twenty bikes. The key is with the Levi family, in apartment 3."
       },
       {
         "he": "תשלום: מינואר התשלום לוועד הבית יעלה ל-150 ₪ לחודש, כי המעלית ישנה. בשנה שעברה תיקנו אותה שש פעמים! שאלות? כתבו לנו בקבוצת הוואטסאפ של הבניין. תודה ושבוע טוב, ועד הבית",
@@ -712,10 +712,10 @@
     ],
     "tf": [
       {
-        "s": "ביום שני המעלית לא תעבוד כל היום.",
-        "sEn": "On Monday the elevator won't work all day.",
+        "s": "ביום שני המעלית לא תעבוד עד הערב.",
+        "sEn": "On Monday the elevator won't work until the evening.",
         "a": false,
-        "why": "It will be out of service only from 8:00 to 14:00."
+        "why": "It will be out of service only from 8:00 to 14:00, so it works again in the afternoon."
       },
       {
         "s": "חברת הניקיון תגיע פעמיים בשבוע.",
@@ -807,7 +807,7 @@
     "writing": {
       "prompt": "כתבו הודעה קצרה לקבוצת הוואטסאפ של הבניין. ספרו לשכנים על משהו שיקרה אצלכם, והציעו עזרה.",
       "promptEn": "Write a short message to the building's WhatsApp group. Tell the neighbors about something that will happen at your place, and offer to help.",
-      "minWords": 20,
+      "minWords": 40,
       "useWords": [
         "דיירים",
         "מי שצריך",
@@ -842,8 +842,8 @@
           ]
         }
       ],
-      "model": "שלום לכל הדיירים! ביום רביעי בערב תהיה לי מסיבה קטנה בדירה 7. סליחה מראש על הרעש! המסיבה תיגמר עד 23:00. ומי שצריך עזרה עם הקניות ביום שני, כשהמעלית לא תעבוד, יכול לכתוב לי. אשמח לעזור! תודה, אלכס",
-      "modelEn": "Hello to all residents! On Wednesday evening I'm having a small party in apartment 7. Sorry in advance for the noise! The party will end by 23:00. And anyone who needs help with shopping on Monday, when the elevator isn't working, can write to me. I'll be happy to help! Thanks, Alex"
+      "model": "שלום לכל הדיירים! ביום רביעי בערב יש לי יום הולדת, ותהיה לי מסיבה קטנה בדירה 7. סליחה מראש על הרעש! נסיים עד 23:00, ואתם מוזמנים לבוא! ומי שצריך עזרה עם הקניות ביום שני, כשהמעלית לא תעבוד, יכול לכתוב לי. אשמח לעזור! תודה ושבוע טוב, אלכס",
+      "modelEn": "Hello to all residents! On Wednesday evening it's my birthday, and I'm having a small party in apartment 7. Sorry in advance for the noise! We'll finish by 23:00, and you're all welcome to come! And anyone who needs help with shopping on Monday, when the elevator isn't working, can write to me. I'll be happy to help! Thanks and have a good week, Alex"
     }
   },
   {
@@ -996,10 +996,10 @@
     ],
     "tf": [
       {
-        "s": "עידו הולך לשוק עם סבתא כל שבוע.",
-        "sEn": "Ido goes to the market with Grandma every week.",
+        "s": "עידו כבר היה בשוק עם סבתא הרבה פעמים.",
+        "sEn": "Ido has already been to the market with Grandma many times.",
         "a": false,
-        "why": "Grandma goes every Friday, but this week Ido went with her for the first time."
+        "why": "Grandma goes every Friday, but this week was the first time Ido went with her."
       },
       {
         "s": "בשמונה בבוקר השוק עוד היה ריק.",
@@ -1091,7 +1091,7 @@
     "writing": {
       "prompt": "ספרו על שוק או חנות שאתם אוהבים: איפה זה, מה מוכרים שם, ומה מיוחד שם?",
       "promptEn": "Write about a market or a shop you like: where is it, what do they sell there, and what's special about it?",
-      "minWords": 20,
+      "minWords": 40,
       "useWords": [
         "דוכן",
         "ריח",
@@ -1136,8 +1136,8 @@
           ]
         }
       ],
-      "model": "ליד הבית שלי יש שוק קטן. יש בו דוכנים של פירות, ירקות, לחם וגבינות. הדוכן הכי טוב הוא דוכן התבלינים, כי הריח שם מדהים. המוכר תמיד נותן לי לטעום משהו. בשבוע שעבר קניתי שם זעתר טרי.",
-      "modelEn": "There's a small market near my home. It has stalls with fruit, vegetables, bread and cheese. The best stall is the spice stall, because the smell there is amazing. The seller always lets me taste something. Last week I bought fresh za'atar there."
+      "model": "ליד הבית שלי יש שוק קטן. מוכרים שם פירות, ירקות, לחם וגבינות. הדוכן הכי טוב הוא דוכן התבלינים, כי הריח שם מדהים. המוכר תמיד נותן לי לטעום משהו. בשבוע שעבר קניתי שם זעתר טרי. ביום שישי בבוקר יש בשוק הרבה אנשים, אז כדאי להגיע מוקדם.",
+      "modelEn": "There's a small market near my home. They sell fruit, vegetables, bread and cheese there. The best stall is the spice stall, because the smell there is amazing. The seller always lets me taste something. Last week I bought fresh za'atar there. On Friday morning there are a lot of people at the market, so it's worth getting there early."
     }
   },
   {
@@ -1351,7 +1351,8 @@
         "en": "The buses will run from 5:30 in the morning until midnight.",
         "answer": [
           "חצות",
-          "שתיים עשרה בלילה"
+          "שתיים עשרה בלילה",
+          "12 בלילה"
         ],
         "hint": "12 at night"
       },
@@ -1384,7 +1385,7 @@
     "writing": {
       "prompt": "איך אתם מגיעים לעבודה או ללימודים? כתבו איך אתם נוסעים, כמה זמן זה לוקח, ומה אתם חושבים על התחבורה הציבורית בעיר שלכם.",
       "promptEn": "How do you get to work or school? Write how you travel, how long it takes, and what you think about public transport in your city.",
-      "minWords": 20,
+      "minWords": 40,
       "useWords": [
         "קו",
         "דקות",
@@ -1425,8 +1426,8 @@
           ]
         }
       ],
-      "model": "לעבודה יש לי אוטובוס ישיר, קו 5. התחנה קרובה לבית שלי, והנסיעה לוקחת לי בערך עשרים וחמש דקות. אבל בבוקר יש הרבה פקקים, ולפעמים האוטובוס מלא. לדעתי, העירייה צריכה להוסיף עוד אוטובוסים בבוקר.",
-      "modelEn": "I have a direct bus to work, line 5. The stop is close to my home, and the ride takes me about twenty-five minutes. But in the morning there are a lot of traffic jams, and sometimes the bus is full. In my opinion, the municipality should add more buses in the morning."
+      "model": "לעבודה יש לי אוטובוס ישיר, קו 5. התחנה קרובה לבית שלי, והנסיעה לוקחת לי בערך עשרים וחמש דקות. אבל בבוקר יש הרבה פקקים, ולפעמים האוטובוס כל כך מלא שאין מקום לשבת. בערב הנסיעה הביתה מהירה יותר. לדעתי, העירייה צריכה להוסיף עוד אוטובוסים בבוקר.",
+      "modelEn": "I have a direct bus to work, line 5. The stop is close to my home, and the ride takes me about twenty-five minutes. But in the morning there are a lot of traffic jams, and sometimes the bus is so full that there's no room to sit. In the evening the ride home is faster. In my opinion, the municipality should add more buses in the morning."
     }
   },
   {
@@ -1586,8 +1587,8 @@
         "why": "There were about fifteen people, and everyone talked at the same time and loudly."
       },
       {
-        "s": "בסוף הערב הכותב הרגיש טוב עם המשפחה של שירה.",
-        "sEn": "By the end of the evening the writer felt good with Shira's family.",
+        "s": "בסוף הערב הכותב הרגיש טוב אצל המשפחה של שירה.",
+        "sEn": "By the end of the evening the writer felt good at Shira's family's home.",
         "a": true,
         "why": "At first he was a bit confused, but in the end he felt at home."
       }
@@ -1664,7 +1665,7 @@
     "writing": {
       "prompt": "ספרו על ארוחה משפחתית או ארוחת חג שהייתם בה: איפה זה היה, מי היה שם, ומה אכלתם?",
       "promptEn": "Write about a family meal or a holiday meal you went to: where was it, who was there, and what did you eat?",
-      "minWords": 25,
+      "minWords": 40,
       "useWords": [
         "בהתחלה",
         "בסוף",
@@ -1707,8 +1708,8 @@
           ]
         }
       ],
-      "model": "בפסח שעבר חבר מהעבודה הזמין אותי לארוחת החג אצל המשפחה שלו. הבאתי יין ופרחים. היו שם בערך עשרים אנשים, והיה הרבה אוכל: מצות, סלטים, דגים ועוף. בהתחלה לא הכרתי אף אחד, אבל בסוף הרגשתי כמו בבית.",
-      "modelEn": "Last Passover a friend from work invited me to the holiday meal at his family's home. I brought wine and flowers. There were about twenty people there, and there was a lot of food: matzah, salads, fish and chicken. At first I didn't know anyone, but in the end I felt at home."
+      "model": "בפסח שעבר חבר מהעבודה הזמין אותי לארוחת החג אצל המשפחה שלו. הבאתי יין ופרחים. היו שם בערך עשרים אנשים. אבא שלו קרא את ההגדה, והילדים שרו שירי פסח. אחר כך היה הרבה אוכל: מצות, סלטים, דגים ועוף. בהתחלה לא הכרתי אף אחד, אבל בסוף הרגשתי כמו בבית.",
+      "modelEn": "Last Passover a friend from work invited me to the holiday meal at his family's home. I brought wine and flowers. There were about twenty people there. His father read the Haggadah, and the children sang Passover songs. After that there was a lot of food: matzah, salads, fish and chicken. At first I didn't know anyone, but in the end I felt at home."
     }
   }
 ]

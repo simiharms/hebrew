@@ -12,8 +12,8 @@
         "en": "Natasha: Good morning, everyone! The washing machine isn't working again. It's full of water, and my clothes are still inside."
       },
       {
-        "he": "סאמר: אוי, סליחה, נראה לי שזה בגללי. אתמול בלילה הכנסתי למכונה הרבה בגדים, ושמעתי רעש חזק. חשבתי שזה בסדר.",
-        "en": "Samer: Oh, sorry, I think it's my fault. Last night I put a lot of clothes into the machine and heard a loud noise. I thought it was fine."
+        "he": "סאמר: אוי, סליחה, נראה לי שזה בגללי. אתמול בלילה הכנסתי למכונה יותר מדי בגדים, ושמעתי רעש חזק. חשבתי שזה בסדר.",
+        "en": "Samer: Oh, sorry, I think it's my fault. Last night I put too many clothes into the machine and heard a loud noise. I thought it was fine."
       },
       {
         "he": "ליאור: לא נורא, זה קורה. אני אתקשר לבעל הבית. הוא אמר לנו שצריך להודיע לו מיד על כל בעיה.",
@@ -65,11 +65,11 @@
       }
     ],
     "glossary": [
-      { "he": "תורנות", "en": "rota, duty roster (who does which job when)", "tr": "tornút" },
+      { "he": "תורנות", "en": "rota, duty roster (who does which job when)", "tr": "toranút" },
       { "he": "מכונת כביסה", "en": "washing machine", "tr": "mekhonát kvisá" },
       { "he": "בגללי", "en": "because of me, my fault (בגלל + me)", "tr": "biglalí" },
       { "he": "לא נורא", "en": "never mind, no big deal", "tr": "lo norá" },
-      { "he": "בעל הבית", "en": "the landlord (literally 'the owner of the house')", "tr": "ba'al ha-báyit" },
+      { "he": "בעל הבית", "en": "the landlord (literally 'the owner of the house')", "tr": "ba'ál ha-báyit" },
       { "he": "להודיע", "en": "to inform, let (someone) know", "tr": "lehodí'a" },
       { "he": "בינתיים", "en": "in the meantime, meanwhile", "tr": "beyntáyim" },
       { "he": "מכבסה", "en": "laundromat, laundry", "tr": "makhbesá" },
@@ -87,7 +87,7 @@
         "answer": "היא לא עובדת, והיא מלאה מים.",
         "answerEn": "It isn't working, and it's full of water.",
         "keywords": [
-          ["עובדת", "עובד", "מקולקלת", "שבורה", "התקלקלה"],
+          ["עובדת", "עובד", "מקולקלת", "מקולקל", "שבורה", "התקלקלה", "התקלקל", "הפסיקה"],
           ["מים"]
         ]
       },
@@ -97,7 +97,7 @@
         "answer": "210 ש״ח, כי המזגן עבד כל הקיץ.",
         "answerEn": "210 shekels, because the air conditioner was on all summer.",
         "keywords": [
-          ["210"],
+          ["210", "מאתיים ועשרה"],
           ["מזגן", "מזגנים"]
         ]
       },
@@ -127,7 +127,7 @@
         "s": "סאמר חושב שהבעיה במכונה בגללו.",
         "sEn": "Samer thinks the problem with the machine is his fault.",
         "a": true,
-        "why": "He says נראה לי שזה בגללי: last night he put a lot of clothes in and heard a loud noise."
+        "why": "He says נראה לי שזה בגללי: last night he put too many clothes in and heard a loud noise."
       },
       {
         "s": "הדס הולכת למכבסה בבוקר.",
@@ -164,7 +164,8 @@
       {
         "prompt": "חשבון החשמל יקר, כי ___ עבד כל הקיץ.",
         "en": "The electricity bill is high, because the air conditioner was on all summer.",
-        "answer": ["המזגן", "מזגן"]
+        "answer": ["המזגן"],
+        "hint": "the air conditioner"
       },
       {
         "prompt": "נטשה כבר ___ את המקלחת בשבוע שעבר, אז השבוע היא מנקה את הסלון.",
@@ -175,7 +176,7 @@
       {
         "prompt": "ליאור ___ עם בעל הבית, וטכנאי יבוא מחר בעשר.",
         "en": "Lior spoke with the landlord, and a technician will come tomorrow at ten.",
-        "answer": ["דיבר"],
+        "answer": ["דיבר", "שוחח"],
         "hint": "spoke (past, he)"
       },
       {
@@ -186,8 +187,8 @@
       }
     ],
     "writing": {
-      "prompt": "כתבו הודעה לקבוצת הוואטסאפ של השותפים שלכם לדירה: ספרו על בעיה, והציעו מה לעשות.",
-      "promptEn": "Write a message to your flatmates' group: describe a problem in the flat and suggest what to do.",
+      "prompt": "כתבו הודעה לקבוצת הוואטסאפ של השותפים שלכם לדירה: ספרו על בעיה בדירה, והציעו מה לעשות.",
+      "promptEn": "Write a message to your flatmates' WhatsApp group: describe a problem in the flat and suggest what to do.",
       "minWords": 40,
       "useWords": ["אתמול", "בינתיים", "בעל הבית", "אני אתקשר"],
       "checklist": [
@@ -299,11 +300,11 @@
       {
         "q": "מתי ליה יכולה לעבוד, ולמה?",
         "qEn": "When can Lia work, and why?",
-        "answer": "רק בערב, כי בבוקר היא לומדת.",
-        "answerEn": "Only in the evenings, because she studies in the mornings.",
+        "answer": "רק בערב, וגם בסוף השבוע, כי בבוקר היא לומדת.",
+        "answerEn": "Only in the evenings, and also at the weekend, because she studies in the mornings.",
         "keywords": [
-          ["ערב"],
-          ["לומדת", "ללמוד", "לימודים", "סטודנטית"]
+          ["ערב", "ערבים"],
+          ["לומדת", "לומד", "ללמוד", "לימודים", "סטודנטית"]
         ]
       }
     ],
@@ -349,7 +350,8 @@
       {
         "prompt": "ניסיון הוא יתרון, אבל הוא לא ___.",
         "en": "Experience is an advantage, but it isn't a must.",
-        "answer": ["חובה"]
+        "answer": ["חובה"],
+        "hint": "a must, obligatory"
       },
       {
         "prompt": "ליה ___ את המודעה בחלון של בית הקפה.",
@@ -393,8 +395,8 @@
           "keywords": ["ראיון", "להיפגש", "לבוא"]
         }
       ],
-      "model": "שלום רב, ראיתי את המודעה שלכם באינטרנט, ואשמח מאוד לעבוד בחנות הספרים שלכם. לפני שנתיים עבדתי שנה בחנות בגדים, אז יש לי ניסיון עם לקוחות ועם קופה. ספרים הם התחביב הגדול שלי, ובבית יש לי מאות ספרים. אוכל לעבוד שלוש משמרות בשבוע, בימים א׳–ג׳ אחרי הצהריים, וגם בשישי בבוקר. אשמח לבוא לראיון בכל יום אחרי 16:00. תודה רבה, אלכס",
-      "modelEn": "Dear Sir or Madam, I saw your ad online, and I would very much like to work in your bookshop. Two years ago I worked for a year in a clothes shop, so I have experience with customers and with the till. Books are my big hobby, and I have hundreds of books at home. I can work three shifts a week, Sunday to Tuesday in the afternoon, and also on Friday mornings. I'd be happy to come for an interview any day after 16:00. Thank you very much, Alex"
+      "model": "שלום רב, ראיתי את המודעה שלכם באינטרנט, ואשמח מאוד לעבוד בחנות הספרים שלכם. לפני שנתיים עבדתי שנה בחנות בגדים, אז יש לי ניסיון בעבודה עם לקוחות ובקופה. קריאה היא התחביב הגדול שלי, ויש לי בבית מאות ספרים. אוכל לעבוד שלוש משמרות בשבוע, בימים א׳–ג׳ אחרי הצהריים, וגם בשישי בבוקר. אשמח לבוא לראיון בכל יום אחרי 16:00. תודה רבה, אלכס",
+      "modelEn": "Dear Sir or Madam, I saw your ad online, and I would very much like to work in your bookshop. Two years ago I worked for a year in a clothes shop, so I have experience working with customers and on the till. Reading is my big hobby, and I have hundreds of books at home. I can work three shifts a week, Sunday to Tuesday in the afternoon, and also on Friday mornings. I'd be happy to come for an interview any day after 16:00. Thank you very much, Alex"
     }
   },
   {
@@ -406,7 +408,7 @@
     "kind": "story",
     "paragraphs": [
       {
-        "he": "כשהגעתי לישראל לפני חמש שנים, לא ידעתי כמעט מילה בעברית, רק \"שלום\" ו\"תודה\". אחרי שבוע התחלתי ללמוד באולפן בנתניה, ושם פגשתי את אסתר, המורה הראשונה שלי.",
+        "he": "כשהגעתי לישראל לפני חמש שנים, לא ידעתי כמעט אף מילה בעברית, רק \"שלום\" ו\"תודה\". אחרי שבוע התחלתי ללמוד באולפן בנתניה, ושם פגשתי את אסתר, המורה הראשונה שלי.",
         "en": "When I arrived in Israel five years ago, I hardly knew a word of Hebrew, just \"shalom\" and \"toda\". After a week I started studying at an ulpan in Netanya, and there I met Esther, my first teacher."
       },
       {
@@ -468,8 +470,8 @@
         "answer": "שלא צריך לפחד מטעויות, כי מי שלא טועה לא לומד.",
         "answerEn": "That there's no need to be afraid of mistakes, because whoever doesn't make mistakes doesn't learn.",
         "keywords": [
-          ["טעויות", "טעות", "טועה", "לטעות", "טועים"],
-          ["לפחד", "פוחדים", "פחד", "לומד", "ללמוד", "לומדים"]
+          ["לפחד", "לפחוד", "פוחדים", "מפחדים", "פוחד", "פחד"],
+          ["טועה", "טועים", "לטעות", "לומד", "לומדים", "ללמוד"]
         ]
       },
       {
@@ -519,7 +521,7 @@
       {
         "prompt": "כשהכותב ___ לישראל, הוא ידע רק שתי מילים בעברית.",
         "en": "When the writer arrived in Israel, he knew only two words of Hebrew.",
-        "answer": ["הגיע", "עלה"],
+        "answer": ["הגיע", "עלה", "בא"],
         "hint": "arrived (past, he)"
       },
       {
@@ -537,7 +539,7 @@
       {
         "prompt": "היא תמיד אמרה שלא צריך ___ מטעויות.",
         "en": "She always said that there's no need to be afraid of mistakes.",
-        "answer": ["לפחד"],
+        "answer": ["לפחד", "לפחוד"],
         "hint": "to be afraid (infinitive)"
       },
       {

@@ -46,7 +46,7 @@
       },
       {
         "h": "What time is it?",
-        "body": "מה השעה? (ma ha-sha'á?) — What time is it? Answer with השעה + a feminine number, because שעה (hour) is feminine: השעה שלוש (ha-sha'á shalósh) — it's three o'clock.\n\n• ו means “and”, i.e. past the hour: שלוש ורבע, שלוש וחצי, שש ועשרים.\n• ל means “to”: רבע לארבע (a quarter to four), עשרים לשבע (twenty to seven).\n• אחרי (akharéi, after) is another way to say “past”: עשרים אחרי שש = שש ועשרים.\n• For 5 and 10 minutes, add דקות (minutes): חמש דקות לשמונה, שבע ועשר דקות.\n\nTo say “at”, attach ב-: באיזו שעה? (be-éyzo sha'á?) — at what time? בשמונה (be-shmóne) — at eight; בשתיים וחצי — at half past two. Add the part of the day when needed: בשבע בבוקר (at seven in the morning), בשלוש אחרי הצהריים, בתשע בערב, באחת בלילה. Timetables and announcements use the 24-hour clock, still with feminine numbers: הרכבת יוצאת בשמונה עשרה ושלושים (The train leaves at 18:30).",
+        "body": "מה השעה? (ma ha-sha'á?) — What time is it? Answer with השעה + a feminine number, because שעה (hour) is feminine: השעה שלוש (ha-sha'á shalósh) — it's three o'clock.\n\n• ו means “and”, i.e. past the hour: שלוש ורבע, שלוש וחצי, שש ועשרים.\n• ל means “to”: רבע לארבע (a quarter to four), עשרים לשבע (twenty to seven).\n• אחרי (akharéi, after) is another way to say “past”: עשרים אחרי שש = שש ועשרים.\n• For 5 and 10 minutes, add דקות (minutes): חמש דקות לשמונה, שבע ועשר דקות. In speech you will also hear them without דקות, in the masculine form: שבע ועשרה, חמישה לשמונה.\n\nTo say “at”, attach ב-: באיזו שעה? (be-éyzo sha'á?) — at what time? בשמונה (be-shmóne) — at eight; בשתיים וחצי — at half past two. Add the part of the day when needed: בשבע בבוקר (at seven in the morning), בשלוש אחרי הצהריים, בתשע בערב, באחת בלילה. Timetables and announcements use the 24-hour clock, still with feminine numbers: הרכבת יוצאת בשמונה עשרה ושלושים (The train leaves at 18:30).",
         "table": [
           ["Time", "Hebrew", "Say it"],
           ["3:00", "שלוש", "shalósh"],
@@ -61,7 +61,7 @@
       },
       {
         "h": "Days of the week",
-        "body": "The Hebrew days are simply numbered, starting from Sunday, which is the first working day of the Israeli week. Only Saturday has its own name, שבת. Many offices work Sunday to Thursday, and the weekend, סוף שבוע (sof shavú'a), written סופ״ש, is Friday and Saturday.\n\n“On” a day is ב-: ביום שני (be-yom shení) — on Monday; בשבת — on Saturday. In speech יום is often dropped: נתראה בשלישי (See you on Tuesday).\n\nThe days use the ordinal numbers (first, second, third…), not the counting ones: שני in יום שני is shení (second), not shnei (two) — same spelling, different word.",
+        "body": "The Hebrew days are simply numbered, starting from Sunday, which is the first working day of the Israeli week. Only Saturday has its own name, שבת. Many offices work Sunday to Thursday, and the weekend, סוף שבוע (sof shavú'a), often shortened to סופ״ש, is Friday and Saturday.\n\n“On” a day is ב-: ביום שני (be-yom shení) — on Monday; בשבת — on Saturday. In speech יום is often dropped: נתראה בשלישי (See you on Tuesday).\n\nThe days use the ordinal numbers (first, second, third…), not the counting ones: שני in יום שני is shení (second), not shnei (two) — same spelling, different word.",
         "table": [
           ["Hebrew", "Say it", "English", "Literally"],
           ["יום ראשון", "yom rishón", "Sunday", "first day"],
@@ -219,14 +219,14 @@
       },
       {
         "h": "What infinitives look like",
-        "body": "Almost every infinitive starts with ל-, and its shape tells you a lot about the verb. You don't need the binyanim yet; for now, learn to recognise the patterns:\n• Regular pa'al: ל + the root, with ו before the last letter: לכתוב (likhtóv), ללמוד (lilmód), לעבוד (la'avód). When the root ends in ח or ע you hear an extra a at the end: לשמוע (lishmó'a), לפתוח (liftó'akh).\n• Roots ending in ה: the ה becomes -ות: לקנות (liknót), לשתות (lishtót), לראות (lir'ót), לעשות (la'asót).\n• Roots with ו or י in the middle: just ל + the root: לגור (lagúr), לקום (lakúm), לבוא (lavó), לשים (lasím).\n• Short, irregular-looking ones that lose their first root letter: לשבת (lashévet), לרדת (larédet), לצאת (latsét), לדעת (ladá'at), לתת (latét). Learn these as words.\n• Infinitives starting with le- + a stem, or with לה-, belong to the other binyanim: לדבר (ledabér), להבין (lehavín), להתקשר (lehitkashér), להיכנס (lehikanés).",
+        "body": "Almost every infinitive starts with ל-, and its shape tells you a lot about the verb. You don't need the binyanim yet; for now, learn to recognise the patterns:\n• Regular pa'al: ל + the root, with ו before the last letter: לכתוב (likhtóv), ללמוד (lilmód), לעבוד (la'avód). When the root ends in ח or ע you hear an extra a at the end: לשמוע (lishmó'a), לפתוח (liftó'akh).\n• Roots ending in ה: the ה becomes -ות: לקנות (liknót), לשתות (lishtót), לראות (lir'ót), לעשות (la'asót).\n• Roots with ו or י in the middle: just ל + the root: לגור (lagúr), לקום (lakúm), לבוא (lavó), לשים (lasím).\n• Short, irregular-looking ones that lose their first root letter and end in ת: לשבת (lashévet), לרדת (larédet), לצאת (latsét), לדעת (ladá'at), לתת (latét, which loses both נs of נ.ת.ן). Learn these as words.\n• Infinitives starting with le- + a stem, or with לה-, belong to the other binyanim: לדבר (ledabér), להבין (lehavín), להתקשר (lehitkashér), להיכנס (lehikanés).",
         "table": [
           ["Pattern", "Examples", "Say it"],
           ["ל + root, ו before the last letter (pa'al)", "לכתוב, ללמוד, לעבוד", "likhtóv, lilmód, la'avód"],
           ["root ends in ח or ע", "לשמוע, לפתוח, לנסוע", "lishmó'a, liftó'akh, linsó'a"],
           ["root ends in ה → -ות", "לקנות, לשתות, לראות", "liknót, lishtót, lir'ót"],
           ["ו or י in the middle", "לגור, לקום, לשים", "lagúr, lakúm, lasím"],
-          ["short forms (first letter gone)", "לשבת, לרדת, לצאת, לתת", "lashévet, larédet, latsét, latét"],
+          ["short forms ending in ת (first letter gone)","לשבת, לרדת, לצאת, לתת", "lashévet, larédet, latsét, latét"],
           ["le- + stem (pi'el)", "לדבר, לבשל, לטייל", "ledabér, levashél, letayél"],
           ["לה- + stem with י (hif'il)", "להבין, להזמין, להתחיל", "lehavín, lehazmín, lehatkhíl"],
           ["להת- (hitpa'el)", "להתקשר, להתלבש", "lehitkashér, lehitlabésh"],
@@ -311,7 +311,7 @@
         "en": "I can't understand him; he talks too fast.",
         "answer": ["להבין"],
         "hint": "starts with לה-",
-        "explain": "להבין (lehavín) is a hif'il infinitive: לה- + the root letters, with י before the last one."
+        "explain": "להבין (lehavín) has the hif'il shape: לה- + the stem, with י before the last letter, like להזמין. It never changes, whoever the subject is."
       },
       {
         "prompt": "___ לדבר בטלפון בספרייה. (it's forbidden)",
@@ -382,7 +382,7 @@
       },
       {
         "h": "Stress, and כתבת for both אתה and את",
-        "body": "Where the stress falls is part of the form:\n• With -תי, -ת and -נו the stress stays on the stem: lamádti, lamádta, lamádnu.\n• With -ה and -ו the stem's second vowel drops and the stress moves to the ending: lamdá, lamdú. (Compare the present: לומדת, lomédet.)\n• For אתם / אתן the textbook form is lmadtém, stressed on the ending; in everyday speech almost everyone says lamádtem.\n\nאתה and את share one written form: כתבת is katávta (you, m.) or katávt (you, f.). You hear the difference; in writing, the context or the pronoun tells you: אתה כתבת את המייל? / את כתבת את המייל? (Did you write the email?) In the second sentence the first את is “you” and the second is the object marker.\n\nOne more pair to watch: כתבה is both katvá, “she wrote”, and katavá, “an article”: היא כתבה כתבה על העיר (She wrote an article about the city)."
+        "body": "Where the stress falls is part of the form:\n• With -תי, -ת and -נו the stress stays on the stem: lamádti, lamádta, lamádnu.\n• With -ה and -ו the stem's second vowel drops and the stress moves to the ending: lamdá, lamdú. So היא למדה (lamdá, she studied) sounds quite different from the present היא לומדת (lomédet, she studies).\n• For אתם / אתן the textbook form is lmadtém, stressed on the ending; in everyday speech almost everyone says lamádtem. The same split holds for every verb in this lesson: the tables below give the everyday forms (kanítem, bátem, natátem), while the textbook ones stress the ending (knitém, batém, netatém).\n\nאתה and את share one written form: כתבת is katávta (you, m.) or katávt (you, f.). You hear the difference; in writing, the context or the pronoun tells you: אתה כתבת את המייל? / את כתבת את המייל? (Did you write the email?) In the second sentence the first את is “you” and the second is the object marker.\n\nOne more pair to watch: כתבה is both katvá, “she wrote”, and katavá, “an article”: היא כתבה כתבה על העיר (She wrote an article about the city)."
       },
       {
         "h": "Final-heh verbs: היה, קנה, שתה",
@@ -401,7 +401,7 @@
       },
       {
         "h": "Hollow verbs: בא, קם, גר",
-        "body": "Roots with ו or י in the middle (ב.ו.א, ק.ו.ם, ג.ו.ר, ש.י.ם) lose that letter in the past, so the stem has only two letters: בא, קם, גר, שם. The endings are the usual ones, but the stress stays on the stem in every form: gárti, gára, gáru.\n\nIn the third person singular the past and the present are written the same: הוא גר is “he lives” or “he lived”, and היא גרה is gará in the present but gára in the past. Time words remove the doubt: אתמול הוא בא מאוחר (Yesterday he came late). In the plural there's no confusion: הם גרים (they live), הם גרו (they lived).\n\nIn בא the א is silent: באתי (báti), באנו (bánu), באו (bá'u).",
+        "body": "Roots with ו or י in the middle (ב.ו.א, ק.ו.ם, ג.ו.ר, ש.י.ם) lose that letter in the past, so the stem has only two letters: בא, קם, גר, שם. The endings are the usual ones, but the stress stays on the stem, even with -ה and -ו: gárti, gára, gáru (only the textbook אתם / אתן forms, gartém, gartén, stress the ending).\n\nIn the third person singular the past and the present are written the same: הוא גר is “he lives” or “he lived”, and היא גרה is gará in the present but gára in the past. Time words remove the doubt: אתמול הוא בא מאוחר (Yesterday he came late). In the plural there's no confusion: הם גרים (they live), הם גרו (they lived).\n\nIn בא the א is silent: באתי (báti), באנו (bánu), באו (bá'u).",
         "table": [
           ["Person", "לבוא (to come)", "Say it", "לגור (to live)", "Say it"],
           ["אני", "באתי", "báti", "גרתי", "gárti"],
@@ -478,18 +478,18 @@
         "explain": "נסעתי (nasáti): the נ that disappears in the future (אסע) is part of the past stem."
       },
       {
-        "prompt": "מירב ___ בירושלים חמש שנים. (לגור)",
-        "en": "Merav lived in Jerusalem for five years.",
+        "prompt": "מירב ___ בירושלים חמש שנים, ואחר כך עברה לחיפה. (לגור)",
+        "en": "Merav lived in Jerusalem for five years and then moved to Haifa.",
         "answer": ["גרה"],
-        "hint": "hollow verb, היא",
-        "explain": "Hollow verbs have a two-letter stem: גרה (gára). The present גרה is said gará, so here only the stress shows the tense."
+        "hint": "hollow verb, past, היא",
+        "explain": "Hollow verbs have a two-letter stem: גרה (gára). The present גרה is written the same but said gará; here עברה (moved) shows that it's the past."
       },
       {
         "prompt": "___ מוקדם הבוקר? (לקום, אתם)",
         "en": "Did you get up early this morning?",
         "answer": ["קמתם", "אתם קמתם"],
         "hint": "hollow verb, אתם → -תם",
-        "explain": "Two-letter stem + -תם: קמתם (kámtem)."
+        "explain": "Two-letter stem + -תם: קמתם (kámtem in everyday speech; textbook kamtém)."
       },
       {
         "prompt": "האורחים ___ בשמונה בערב. (לבוא)",

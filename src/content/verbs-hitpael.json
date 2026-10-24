@@ -524,7 +524,7 @@
     "en": "to train, to work out; to practice",
     "root": "א.מ.ן",
     "binyan": "hitpael",
-    "gizra": "guttural (initial א)",
+    "gizra": "regular (שלמים)",
     "level": "A2",
     "present": {
       "ms": ["מתאמן", "mit'amén"],
@@ -1306,7 +1306,7 @@
     "en": "to be ashamed; to be shy, to be embarrassed",
     "root": "ב.י.ש",
     "binyan": "hitpael",
-    "gizra": "regular (שלמים), consonant י written יי",
+    "gizra": "regular (שלמים), consonantal י written יי",
     "gov": "ב",
     "level": "B1",
     "present": {

@@ -16,7 +16,7 @@
       "he": "יש לי כלב, קוראים לו שוקו.",
       "en": "I have a dog; his name is Shoko."
     },
-    "note": "Feminine: כלבה. A puppy is גור. לטייל עם הכלב = to walk the dog."
+    "note": "Feminine: כלבה. A puppy is גור. להוציא את הכלב (lit. to take the dog out) = to walk the dog."
   },
   {
     "id": "va2n_khatul",
@@ -67,7 +67,7 @@
       "he": "הבת שלנו לומדת לרכוב על סוס בחווה ליד הבית.",
       "en": "Our daughter is learning to ride a horse at a farm near our home."
     },
-    "note": "Feminine: סוסה (mare). לרכוב על סוס = to ride a horse; סוס ים = seahorse."
+    "note": "Feminine: סוסה (mare). לרכוב על סוס = to ride a horse; a seahorse is סוסון ים (lit. little sea horse)."
   },
   {
     "id": "va2n_para",
@@ -148,7 +148,7 @@
     "tr": "kéves",
     "en": "sheep",
     "enAlt": [
-      "ram"
+      "lamb"
     ],
     "pos": "noun",
     "gender": "m",
@@ -159,7 +159,7 @@
       "he": "בטיול בגליל ראינו הרבה כבשים ליד הכביש.",
       "en": "On our trip in the Galilee we saw lots of sheep by the road."
     },
-    "note": "Feminine: כבשה (ewe). A lamb is טלה; a goat is עז (feminine, plural עיזים)."
+    "note": "Feminine: כבשה (ewe). A ram is איל and a young lamb is טלה; a goat is עז (feminine, plural עיזים)."
   },
   {
     "id": "va2n_tarnegolet",
@@ -239,9 +239,6 @@
     "he": "יתוש",
     "tr": "yatúsh",
     "en": "mosquito",
-    "enAlt": [
-      "gnat"
-    ],
     "pos": "noun",
     "gender": "m",
     "plural": "יתושים",
@@ -251,7 +248,7 @@
       "he": "בקיץ יש הרבה יתושים, אז אנחנו סוגרים את החלונות בערב.",
       "en": "In summer there are lots of mosquitoes, so we close the windows in the evening."
     },
-    "note": "You'll need it from spring to autumn. A window screen is רשת; a mosquito net over a bed is כילה."
+    "note": "Mosquito season runs from spring to autumn. A window screen is רשת; a mosquito net over a bed is כילה."
   },
   {
     "id": "va2n_ets",
@@ -316,7 +313,7 @@
     "tr": "tsémakh",
     "en": "plant",
     "enAlt": [
-      "vegetation"
+      "houseplant"
     ],
     "pos": "noun",
     "gender": "m",
@@ -328,7 +325,7 @@
       "he": "יש לי במרפסת צמחים שלא צריכים הרבה מים.",
       "en": "I have plants on my balcony that don't need much water."
     },
-    "note": "Same root as לצמוח (to grow) and צמחוני (vegetarian). A pot plant is עציץ."
+    "note": "Same root as לצמוח (to grow) and צמחוני (vegetarian). A pot plant is עציץ; vegetation (plants in general) is צמחייה."
   },
   {
     "id": "va2n_ale",
@@ -344,7 +341,7 @@
       "he": "בסתיו העלים על העץ משנים צבע.",
       "en": "In autumn the leaves on the tree change colour."
     },
-    "note": "Spelled like the verb עלה (he went up), but pronounced alé. עלי גפן = stuffed vine leaves."
+    "note": "Spelled like the verb עלה (alá, he went up), but pronounced alé. עלי גפן = vine leaves, usually served stuffed (ממולאים)."
   },
   {
     "id": "va2n_har",
@@ -399,7 +396,7 @@
       "he": "בקיץ אנחנו הולכים לים כל שבת.",
       "en": "In summer we go to the beach every Saturday."
     },
-    "note": "ללכת לים = to go to the beach. Hebrew calls four bodies of water ים: הים התיכון (the Mediterranean), ים סוף (the Red Sea), ים המלח (the Dead Sea) and ים כנרת (the Sea of Galilee)."
+    "note": "ללכת לים = to go to the beach. Plural ימים, the same spelling as ימים (days). Hebrew calls several bodies of water ים: הים התיכון (the Mediterranean), ים סוף (the Red Sea), ים המלח (the Dead Sea) and even the lake ים כנרת (the Sea of Galilee)."
   },
   {
     "id": "va2n_midbar",
@@ -506,7 +503,7 @@
       "he": "הלילה הירח מלא ויפה מאוד.",
       "en": "Tonight the moon is full and very beautiful."
     },
-    "note": "The Hebrew calendar follows the moon: ראש חודש is the new moon. ירח דבש = honeymoon (lit. moon of honey)."
+    "note": "The Hebrew calendar follows the moon: each month begins at the new moon, on ראש חודש. ירח דבש = honeymoon (lit. moon of honey)."
   },
   {
     "id": "va2n_teva",
@@ -1057,7 +1054,7 @@
   {
     "id": "va2n_rakevet_kala",
     "he": "רכבת קלה",
-    "tr": "rakével kalá",
+    "tr": "rakévet kalá",
     "en": "light rail",
     "enAlt": [
       "tram",
@@ -1092,7 +1089,7 @@
       "he": "איזה קו נוסע לתחנה המרכזית?",
       "en": "Which line goes to the central bus station?"
     },
-    "note": "Bus and train lines go by number: קו 5. Also a phone line: הקו תפוס = the line is busy. Plural: קווים."
+    "note": "Bus lines go by number: קו 5, but the Tel Aviv light rail lines go by colour: הקו האדום (the Red Line). Also a phone line: הקו תפוס = the line is busy. Plural: קווים."
   },
   {
     "id": "va2n_retsif",

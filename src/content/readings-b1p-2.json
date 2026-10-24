@@ -12,11 +12,11 @@
         "en": "Exactly a year ago we landed in Berlin with four suitcases, two tired kids and one cat that had no idea what was happening to it. Dima, my husband, got a job offer from a German software company, and after months of agonising we decided to give it a try. When I started this blog, I promised myself I would write honestly here about everything – the good things and the hard parts too. So here's a summary of the first year."
       },
       {
-        "he": "נתחיל בטוב. ברלין ירוקה ושקטה הרבה יותר ממה שציפינו. כמעט בכל שכונה יש פארק גדול, והילדים נוסעים לבית הספר באופניים, בלי שאנחנו צריכים לחשוש מהתנועה. התחבורה הציבורית מגיעה בזמן, כמעט תמיד, והחיים בכלל פחות לחוצים: אנשים לא ממהרים כל הזמן, ובשש בערב רוב המשרדים כבר ריקים. דימה, שבתל אביב היה חוזר הביתה בתשע בלילה, אוכל איתנו ארוחת ערב כל יום.",
-        "en": "Let's start with the good. Berlin is much greener and quieter than we expected. Almost every neighbourhood has a big park, and the kids ride their bikes to school without us having to worry about the traffic. Public transport arrives on time, almost always, and life in general is less stressful: people aren't in a hurry all the time, and by six in the evening most offices are already empty. Dima, who in Tel Aviv used to get home at nine at night, eats dinner with us every day."
+        "he": "נתחיל בדברים הטובים. ברלין ירוקה ושקטה הרבה יותר ממה שציפינו. כמעט בכל שכונה יש פארק גדול, והילדים נוסעים לבית הספר באופניים, בלי שאנחנו צריכים לחשוש מהתנועה. האוטובוסים והרכבות מגיעים כמעט תמיד בזמן, והחיים בכלל פחות לחוצים: אנשים לא ממהרים כל הזמן, ובשש בערב רוב המשרדים כבר ריקים. דימה, שבתל אביב היה חוזר הביתה בתשע בלילה, אוכל איתנו ארוחת ערב כל ערב.",
+        "en": "Let's start with the good things. Berlin is much greener and quieter than we expected. Almost every neighbourhood has a big park, and the kids ride their bikes to school without us having to worry about the traffic. The buses and trains almost always arrive on time, and life in general is less stressful: people aren't in a hurry all the time, and by six in the evening most offices are already empty. Dima, who in Tel Aviv used to get home at nine at night, eats dinner with us every evening."
       },
       {
-        "he": "ועכשיו לגעגועים. קודם כול, אנחנו מתגעגעים למשפחה. ההורים שלי היו באים אלינו כל שבוע לארוחת שישי, והיום אנחנו רואים אותם בעיקר בשיחות וידאו. אנחנו מתגעגעים גם לשמש: החורף כאן ארוך ואפור, ובדצמבר כבר בארבע וחצי אחר הצהריים חושך בחוץ. ויש עוד משהו שקשה להסביר. בישראל אפשר לפתוח בשיחה עם כל אחד בתור בסופר, ופה אנשים שומרים מרחק. הם נחמדים ומנומסים מאוד, אבל לוקח זמן עד שמתקרבים אליהם.",
+        "he": "ועכשיו לגעגועים. קודם כול, אנחנו מתגעגעים למשפחה. ההורים שלי היו באים אלינו כל שבוע לארוחת שישי, והיום אנחנו רואים אותם בעיקר בשיחות וידאו. אנחנו מתגעגעים גם לשמש: החורף כאן ארוך ואפור, ובדצמבר כבר בארבע וחצי אחר הצהריים חושך בחוץ. ויש עוד משהו שקשה להסביר. בישראל אפשר לפתוח בשיחה עם כל אחד בתור בסופר, ואילו כאן אנשים שומרים מרחק. הם נחמדים ומנומסים מאוד, אבל לוקח זמן עד שמתקרבים אליהם.",
         "en": "And now for what we miss. First of all, we miss our family. My parents used to come over every week for Friday dinner, and now we see them mostly on video calls. We also miss the sun: the winter here is long and grey, and in December it's already dark outside at half past four in the afternoon. And there's something else that's hard to explain. In Israel you can strike up a conversation with anyone in the supermarket queue, while here people keep their distance. They're very nice and polite, but it takes time to get close to them."
       },
       {
@@ -139,7 +139,10 @@
             "לחץ",
             "ממהרים",
             "אופניים",
+            "אוטובוסים",
+            "רכבות",
             "תחבורה",
+            "בזמן",
             "ארוחת ערב"
           ]
         ]
@@ -153,13 +156,17 @@
           [
             "מרחק",
             "רחוק",
-            "רחוקים"
+            "רחוקים",
+            "מתקרבים",
+            "להתקרב"
           ],
           [
             "מדברים",
             "לדבר",
             "מדבר",
-            "שיחה"
+            "שיחה",
+            "פותחים",
+            "לפתוח"
           ]
         ]
       },
@@ -182,40 +189,42 @@
           ],
           [
             "לפני",
-            "מוקדם"
+            "מוקדם",
+            "קודם"
           ]
         ]
       },
       {
         "q": "מתי המשפחה תחליט אם להישאר, ומה ישפיע על ההחלטה?",
         "qEn": "When will the family decide whether to stay, and what will influence the decision?",
-        "answer": "אחרי שלוש שנים; זה תלוי אם הילדים יהיו מאושרים.",
-        "answerEn": "After three years; it depends on whether the kids are happy.",
+        "answer": "בסוף החוזה של דימה; אם הילדים מאושרים ואם הגעגועים חזקים.",
+        "answerEn": "When Dima's contract ends; it depends on whether the kids are happy and how strong the longing is.",
         "keywords": [
           [
+            "חוזה",
             "שלוש",
-            "3"
-          ],
-          [
-            "ילדים",
-            "הילדים"
+            "3",
+            "שנתיים",
+            "2"
           ],
           [
             "מאושרים",
             "מאושר",
             "שמחים",
+            "ילדים",
             "געגועים",
-            "מתגעגעים"
+            "מתגעגעים",
+            "מתגעגע"
           ]
         ]
       }
     ],
     "tf": [
       {
-        "s": "דימה עבר לברלין לבד, והמשפחה הגיעה אחריו.",
-        "sEn": "Dima moved to Berlin alone, and the family came after him.",
+        "s": "בתל אביב דימה היה חוזר מהעבודה מוקדם ואוכל ארוחת ערב עם המשפחה.",
+        "sEn": "In Tel Aviv Dima used to come home from work early and eat dinner with the family.",
         "a": false,
-        "why": "They landed in Berlin together: four suitcases, two kids and the cat."
+        "why": "In Tel Aviv he used to get home at nine at night; only in Berlin does he eat dinner with the family every evening."
       },
       {
         "s": "בדצמבר החושך בברלין מתחיל מוקדם מאוד.",
@@ -238,9 +247,9 @@
     ],
     "find": [
       {
-        "en": "suitcases",
+        "en": "a job offer",
         "answer": [
-          "מזוודות"
+          "הצעת עבודה"
         ]
       },
       {
@@ -250,15 +259,15 @@
         ]
       },
       {
-        "en": "keep their distance",
+        "en": "(they) keep their distance",
         "answer": [
           "שומרים מרחק"
         ]
       },
       {
-        "en": "my accent",
+        "en": "as early as possible",
         "answer": [
-          "המבטא שלי"
+          "כמה שיותר מוקדם"
         ]
       }
     ],
@@ -280,12 +289,13 @@
         "hint": "stressful"
       },
       {
-        "prompt": "בחורף חסרה להם השמש, כי כבר בארבע וחצי אחר הצהריים ___ בחוץ.",
-        "en": "In winter they miss the sun, because it's already dark outside at half past four in the afternoon.",
+        "prompt": "בחורף חסרה להם השמש: בדצמבר כבר בארבע וחצי אחר הצהריים ___ בחוץ.",
+        "en": "In winter they miss the sun: in December it's already dark outside at half past four in the afternoon.",
         "answer": [
-          "חושך"
+          "חושך",
+          "חשוך"
         ],
-        "hint": "darkness"
+        "hint": "dark"
       },
       {
         "prompt": "הקושי הגדול ביותר של הכותבת הוא לדבר ___, ולכן היא לומדת בקורס.",
@@ -305,8 +315,8 @@
       }
     ],
     "writing": {
-      "prompt": "ספרו על מעבר שעשיתם לעיר חדשה או לארץ חדשה: למה התגעגעתם, מה הפתיע אתכם, ומה הייתם עושים אחרת?",
-      "promptEn": "Write about a move you made to a new city or a new country: what did you miss, what surprised you, and what would you do differently?",
+      "prompt": "ספרו על התקופה שבה עברתם לגור בעיר חדשה או בארץ חדשה: למה התגעגעתם, מה הפתיע אתכם, ומה הייתם עושים אחרת?",
+      "promptEn": "Write about the time when you moved to a new city or a new country: what did you miss, what surprised you, and what would you do differently?",
       "minWords": 80,
       "useWords": [
         "התגעגעתי",
@@ -340,8 +350,8 @@
           ]
         }
       ],
-      "model": "לפני ארבע שנים עברתי מלונדון לתל אביב. בחודשים הראשונים התגעגעתי בעיקר לחברים ולספרייה הקטנה ליד הבית שלי. מה שהפתיע אותי היה כמה מהר אנשים כאן מזמינים אותך הביתה: כבר בשבוע השני הוזמנתי לארוחת שישי אצל שכנים, ובזכותם הכרתי מהר חברים חדשים בשכונה. לעומת לונדון, החיים בתל אביב רועשים יותר, אבל גם חמים יותר, ולא רק בגלל מזג האוויר. הדבר הקשה ביותר בשבילי היה הבירוקרטיה, כי לא הבנתי את המכתבים מהבנק ומהעירייה. אם הייתה לי הזדמנות להתחיל מחדש, היה לי ברור מה לעשות: ללמוד עברית עוד לפני המעבר.",
-      "modelEn": "Four years ago I moved from London to Tel Aviv. In the first months I mostly missed my friends and the little library near my home. What surprised me was how quickly people here invite you to their homes: already in the second week I was invited to Friday dinner at the neighbours', and thanks to them I quickly made new friends in the neighbourhood. Compared with London, life in Tel Aviv is noisier, but also warmer, and not only because of the weather. The hardest thing for me was the bureaucracy, because I didn't understand the letters from the bank and the municipality. If I had the chance to start over, I'd know exactly what to do: learn Hebrew even before the move."
+      "model": "לפני ארבע שנים עברתי מלונדון לתל אביב. בחודשים הראשונים התגעגעתי בעיקר לחברים ולספרייה הקטנה ליד הבית שלי. מה שהפתיע אותי היה כמה מהר אנשים כאן מזמינים אותך הביתה: כבר בשבוע השני הוזמנתי לארוחת שישי אצל שכנים, ובזכותם הכרתי חברים חדשים בשכונה. לעומת לונדון, החיים בתל אביב רועשים יותר, אבל גם חמים יותר, ולא רק בגלל מזג האוויר. הדבר הקשה ביותר בשבילי היה הבירוקרטיה, כי לא הבנתי את המכתבים מהבנק ומהעירייה. אם הייתה לי הזדמנות להתחיל מחדש, הדבר הראשון שהייתי עושה הוא ללמוד עברית עוד לפני המעבר.",
+      "modelEn": "Four years ago I moved from London to Tel Aviv. In the first months I mostly missed my friends and the little library near my home. What surprised me was how quickly people here invite you to their homes: already in the second week I was invited to Friday dinner at the neighbours', and thanks to them I made new friends in the neighbourhood. Compared with London, life in Tel Aviv is noisier, but also warmer, and not only because of the weather. The hardest thing for me was the bureaucracy, because I didn't understand the letters from the bank and the municipality. If I had the chance to start over, the first thing I would do is learn Hebrew even before the move."
     }
   },
   {
@@ -353,20 +363,20 @@
     "kind": "article",
     "paragraphs": [
       {
-        "he": "כמעט שליש מחיינו אנחנו מבלים בשינה. במשך שנים רבות חשבו שבזמן השינה הגוף והמוח פשוט \"נכבים\", כמו מחשב בסוף יום עבודה. היום החוקרים יודעים שזה לא נכון: בלילה מתרחשים בגוף תהליכים חשובים רבים, ובלי שינה מספיקה קשה לנו לתפקד – בעבודה, בכביש וגם בבית.",
-        "en": "We spend almost a third of our lives asleep. For many years people thought that during sleep the body and the brain simply \"switch off\", like a computer at the end of a working day. Today researchers know this isn't true: many important processes take place in the body at night, and without enough sleep we find it hard to function – at work, on the road and at home too."
+        "he": "כמעט שליש מחיינו אנחנו מבלים בשינה. במשך שנים רבות חשבו שבזמן השינה הגוף והמוח פשוט \"נכבים\", כמו מחשב בסוף יום עבודה. היום החוקרים יודעים שזה לא נכון: בלילה מתרחשים בגוף ובמוח תהליכים חשובים רבים, ובלי שינה מספיקה קשה לנו לתפקד – בעבודה, בכביש וגם בבית.",
+        "en": "We spend almost a third of our lives asleep. For many years people thought that during sleep the body and the brain simply \"switch off\", like a computer at the end of a working day. Today researchers know this isn't true: many important processes take place in the body and the brain at night, and without enough sleep we find it hard to function – at work, on the road and at home too."
       },
       {
-        "he": "אחד התפקידים החשובים של השינה קשור לזיכרון. בזמן שאנחנו ישנים, המוח מעבד את מה שלמדנו במשך היום ושומר את המידע החשוב. לכן סטודנטים שלא ישנים בלילה שלפני מבחן עלולים לזכור פחות, ולא יותר. בנוסף, בזמן השינה הגוף מתקן את עצמו, ומערכת החיסון מתחזקת. מחקרים מראים שאנשים שישנים מעט באופן קבוע נוטים לחלות לעיתים קרובות יותר.",
-        "en": "One of sleep's important jobs has to do with memory. While we sleep, the brain processes what we learned during the day and stores the important information. That's why students who don't sleep the night before an exam may remember less, not more. In addition, during sleep the body repairs itself and the immune system grows stronger. Studies show that people who regularly sleep little tend to get sick more often."
+        "he": "אחד התפקידים החשובים של השינה קשור לזיכרון. בזמן שאנחנו ישנים, המוח מעבד את מה שלמדנו במשך היום ושומר את המידע החשוב. לכן סטודנטים שלא ישנים בלילה שלפני מבחן עלולים לזכור פחות, ולא יותר. בנוסף, שינה טובה מחזקת את מערכת החיסון: מחקרים מראים שאנשים שישנים מעט באופן קבוע נוטים לחלות לעיתים קרובות יותר.",
+        "en": "One of sleep's important jobs has to do with memory. While we sleep, the brain processes what we learned during the day and stores the important information. That's why students who don't sleep the night before an exam may remember less, not more. In addition, good sleep strengthens the immune system: studies show that people who regularly sleep little tend to get sick more often."
       },
       {
-        "he": "השינה אינה רצופה ואחידה. היא בנויה ממחזורים של כשעה וחצי, ובכל מחזור יש כמה שלבים: שינה קלה, שינה עמוקה ושלב החלומות. בשינה העמוקה הגוף נח ומתאושש, ורוב החלומות שאנחנו זוכרים מתרחשים בשלב האחרון. מי שמתעורר באמצע שינה עמוקה מרגיש לפעמים מבולבל וכבד, גם אחרי לילה ארוך.",
-        "en": "Sleep is not continuous and uniform. It is made up of cycles of about an hour and a half, and each cycle has several stages: light sleep, deep sleep and the dream stage. In deep sleep the body rests and recovers, and most of the dreams we remember happen in the last stage. Someone who wakes up in the middle of deep sleep sometimes feels confused and heavy, even after a long night."
+        "he": "השינה אינה מצב אחיד. היא בנויה ממחזורים של כשעה וחצי, ובכל מחזור יש כמה שלבים: שינה קלה, שינה עמוקה ושלב החלומות. בשינה העמוקה הגוף נח ומתאושש, ורוב החלומות שאנחנו זוכרים מתרחשים בשלב האחרון, שבו המוח פעיל מאוד. מי שמתעורר באמצע שינה עמוקה מרגיש לפעמים מבולבל וכבד, גם אחרי לילה ארוך.",
+        "en": "Sleep is not one uniform state. It is made up of cycles of about an hour and a half, and each cycle has several stages: light sleep, deep sleep and the dream stage. In deep sleep the body rests and recovers, and most of the dreams we remember happen in the last stage, when the brain is very active. Someone who wakes up in the middle of deep sleep sometimes feels confused and heavy, even after a long night."
       },
       {
-        "he": "כמה שעות צריך לישון? רוב המומחים ממליצים למבוגרים על שבע עד תשע שעות בלילה, ולבני נוער על יותר מזה. עם זאת, הצרכים משתנים מאדם לאדם. סימן טוב לכך שאתם ישנים מספיק הוא שאתם מתעוררים בלי קושי ולא נרדמים מול המחשב בשעות הצהריים.",
-        "en": "How many hours do you need to sleep? Most experts recommend seven to nine hours a night for adults, and more than that for teenagers. That said, needs vary from person to person. A good sign that you are sleeping enough is that you wake up without difficulty and don't nod off in front of the computer around midday."
+        "he": "כמה שעות צריך לישון? רוב המומחים ממליצים למבוגרים לישון שבע עד תשע שעות בלילה, ולבני נוער – אפילו יותר. עם זאת, הצרכים משתנים מאדם לאדם. סימן טוב לכך שאתם ישנים מספיק הוא שאתם מתעוררים בלי קושי ולא נרדמים מול המחשב בשעות הצהריים.",
+        "en": "How many hours do you need to sleep? Most experts recommend that adults sleep seven to nine hours a night, and teenagers even more. That said, needs vary from person to person. A good sign that you are sleeping enough is that you wake up without difficulty and don't nod off in front of the computer around midday."
       },
       {
         "he": "אז מה אפשר לעשות כדי לישון טוב יותר? קודם כול, כדאי ללכת לישון ולקום בשעות קבועות, גם בסוף השבוע. בנוסף, מומלץ לא לשתות קפה בשעות אחר הצהריים והערב, כי הקפאין נשאר בגוף שעות ארוכות. חשוב גם שחדר השינה יהיה חשוך, שקט וקריר, ושהטלפון יישאר בצד לפחות חצי שעה לפני השינה. ולבסוף, אם אתם אוהבים שנ״צ, כמו ישראלים רבים, עדיף שהיא תהיה קצרה – עד חצי שעה – ולא מאוחרת מדי, כדי שלא תפריע לשינה בלילה.",
@@ -410,9 +420,9 @@
         "tr": "lintót"
       },
       {
-        "he": "רצוף",
-        "en": "continuous, uninterrupted",
-        "tr": "ratsúf"
+        "he": "קבוע",
+        "en": "regular, fixed (בשעות קבועות = at regular times; באופן קבוע = regularly)",
+        "tr": "kavú'a"
       },
       {
         "he": "אחיד",
@@ -590,9 +600,9 @@
         ]
       },
       {
-        "en": "the immune system",
+        "en": "enough sleep",
         "answer": [
-          "מערכת החיסון"
+          "שינה מספיקה"
         ]
       },
       {
@@ -686,8 +696,8 @@
           ]
         }
       ],
-      "model": "בימי חול השינה שלי קצרה מדי: בדרך כלל שש שעות בלבד. הבעיה הגדולה היא הטלפון. בלילה קשה לי להפסיק לקרוא חדשות ולראות סרטונים, ולכן לוקח לי הרבה זמן להירדם. גם השכנים מפריעים לי לפעמים, כי הם חוזרים הביתה מאוחר ומדברים בקול רם במדרגות. אחרי שקראתי את הכתבה, החלטתי לנסות שני דברים. קודם כול, אשאיר את הטלפון במטבח חצי שעה לפני השינה, ובמקום זה אקרא ספר או אשמע מוזיקה שקטה. בנוסף, אשתדל ללכת לישון ולקום בשעות קבועות, גם בסוף השבוע. אם זה יעבוד, אולי סוף סוף אתעורר בבוקר בלי שלושה שעונים מעוררים.",
-      "modelEn": "On weekdays my sleep is too short: usually just six hours. The big problem is my phone. At night it's hard for me to stop reading the news and watching videos, so it takes me a long time to fall asleep. The neighbours sometimes disturb me too, because they come home late and talk loudly on the stairs. After reading the article, I decided to try two things. First, I'll leave my phone in the kitchen half an hour before bed, and instead I'll read a book or listen to some quiet music. In addition, I'll try to go to bed and get up at regular times, even at the weekend. If it works, maybe I'll finally wake up in the morning without three alarm clocks."
+      "model": "בימי חול השינה שלי קצרה מדי: בדרך כלל שש שעות בלבד. הבעיה הגדולה היא הטלפון. בלילה קשה לי להפסיק לקרוא חדשות ולראות סרטונים, ולכן לוקח לי הרבה זמן להירדם. גם השכנים מפריעים לי לפעמים, כי הם חוזרים הביתה מאוחר ומדברים בקול רם בחדר המדרגות. אחרי שקראתי את הכתבה, החלטתי לנסות שני דברים. קודם כול, אשאיר את הטלפון במטבח חצי שעה לפני השינה, ובמקום זה אקרא ספר או אקשיב למוזיקה שקטה. בנוסף, אשתדל ללכת לישון ולקום בשעות קבועות, גם בסוף השבוע. אם זה יעבוד, אולי סוף סוף אתעורר בבוקר בלי שלושה שעונים מעוררים.",
+      "modelEn": "On weekdays my sleep is too short: usually just six hours. The big problem is my phone. At night it's hard for me to stop reading the news and watching videos, so it takes me a long time to fall asleep. The neighbours sometimes disturb me too, because they come home late and talk loudly in the stairwell. After reading the article, I decided to try two things. First, I'll leave my phone in the kitchen half an hour before bed, and instead I'll read a book or listen to some quiet music. In addition, I'll try to go to bed and get up at regular times, even at the weekend. If it works, maybe I'll finally wake up in the morning without three alarm clocks."
     }
   },
   {
@@ -699,28 +709,28 @@
     "kind": "essay",
     "paragraphs": [
       {
-        "he": "העברית היא מקרה כמעט יוצא דופן בהיסטוריה של השפות. במשך מאות רבות של שנים היא לא שימשה שפת דיבור יום-יומית, ואיש לא דיבר בה כשפת אם. עם זאת, היא מעולם לא נעלמה: בעברית התפללו ולמדו, נכתבו בה ספרים ושירה, והיא שימשה גם לכתיבת מכתבים ומסמכים בין קהילות יהודיות ברחבי העולם. השאלה שעמדה בפני המחדשים בסוף המאה ה-19 לא הייתה, אפוא, כיצד ליצור שפה יש מאין, אלא כיצד להפוך שפה של ספרים לשפה של חיים.",
-        "en": "Hebrew is an almost unparalleled case in the history of languages. For many centuries it was not used as an everyday spoken language, and no one spoke it as a mother tongue. Yet it never disappeared: people prayed and studied in Hebrew, books and poetry were written in it, and it was also used for writing letters and documents between Jewish communities around the world. The question facing the innovators at the end of the 19th century, then, was not how to create a language out of nothing, but how to turn a language of books into a language of life."
+        "he": "סיפורה של העברית הוא מקרה יוצא דופן בתולדות השפות. במשך מאות שנים היא לא שימשה כשפת דיבור יום-יומית, ואיש לא דיבר בה כשפת אם. עם זאת, היא מעולם לא נעלמה: בעברית התפללו ולמדו, נכתבו בה ספרים ושירה, והיא שימשה גם לכתיבת מסמכים ולהתכתבות בין קהילות יהודיות ברחבי העולם. השאלה שעמדה בפני מחדשי הדיבור העברי בסוף המאה ה-19 לא הייתה, אפוא, כיצד ליצור שפה יש מאין, אלא כיצד להפוך שפה של ספרים לשפה של חיים.",
+        "en": "The story of Hebrew is an exceptional case in the history of languages. For centuries it was not used as an everyday spoken language, and no one spoke it as a mother tongue. Yet it never disappeared: people prayed and studied in Hebrew, books and poetry were written in it, and it was also used for writing documents and for correspondence between Jewish communities around the world. The question facing the revivers of spoken Hebrew at the end of the 19th century, then, was not how to create a language out of nothing, but how to turn a language of books into a language of life."
       },
       {
         "he": "השם הקשור יותר מכול לתחיית העברית הוא אליעזר בן-יהודה. בן-יהודה, שנולד ב-1858 באימפריה הרוסית, עלה לארץ ישראל ב-1881 והתיישב בירושלים. הוא החליט שבביתו ידברו רק עברית, ובנו, שנולד כשנה לאחר מכן, נחשב לילד הראשון בעת החדשה שגדל עם עברית כשפת אם. בן-יהודה הוציא לאור עיתונים בעברית ועבד במשך עשרות שנים על מילון גדול, שהושלם רק שנים רבות אחרי מותו. ב-1890 הוקם ביוזמתו \"ועד הלשון\", שהפך ב-1953 לאקדמיה ללשון העברית.",
         "en": "The name most closely linked to the revival of Hebrew is Eliezer Ben-Yehuda. Ben-Yehuda, who was born in 1858 in the Russian Empire, immigrated to the Land of Israel in 1881 and settled in Jerusalem. He decided that only Hebrew would be spoken in his home, and his son, born about a year later, is considered the first child in modern times to grow up with Hebrew as his mother tongue. Ben-Yehuda published newspapers in Hebrew and worked for decades on a large dictionary, which was completed only many years after his death. In 1890 the \"Language Committee\" was founded on his initiative; in 1953 it became the Academy of the Hebrew Language."
       },
       {
-        "he": "עם זאת, רוב החוקרים מסכימים שאדם אחד, נחוש ככל שיהיה, לא יכול היה להחיות שפה לבדו. המהפכה האמיתית התרחשה בבתי הספר ובגני הילדים של המושבות, שבהם החלו המורים ללמד \"עברית בעברית\": את כל המקצועות בעברית, ולא רק את התנ״ך והתפילה. הילדים, שרכשו את השפה בגיל צעיר, החלו לדבר בה גם ביניהם ובבית, ולעיתים אף לימדו את הוריהם. כך, בתוך דור או שניים, נוצרה קהילה גדולה של דוברים שהעברית הייתה עבורם שפה טבעית.",
-        "en": "However, most researchers agree that one person, however determined, could not have revived a language on his own. The real revolution took place in the schools and kindergartens of the moshavot, where teachers began to teach \"Hebrew in Hebrew\": all subjects in Hebrew, not just the Bible and prayer. The children, who acquired the language at a young age, began to speak it among themselves and at home as well, and sometimes even taught their parents. In this way, within a generation or two, a large community of speakers emerged for whom Hebrew was a natural language."
+        "he": "עם זאת, רוב החוקרים מסכימים שאדם אחד, נחוש ככל שיהיה, לא יכול היה להחיות שפה לבדו. המהפכה האמיתית התרחשה בבתי הספר ובגני הילדים, בעיקר במושבות: המורים החלו ללמד בהם את כל המקצועות בעברית, ולא רק את התנ״ך והתפילה. הילדים, שרכשו את השפה בגיל צעיר, החלו לדבר בה גם ביניהם ובבית, ולעיתים אף לימדו את הוריהם. כך, בתוך דור או שניים, נוצרה קהילה גדולה של דוברים שהעברית הייתה עבורם שפה טבעית.",
+        "en": "However, most researchers agree that one person, however determined, could not have revived a language on his own. The real revolution took place in the schools and kindergartens, especially in the moshavot: teachers there began to teach all subjects in Hebrew, not just the Bible and prayer. The children, who acquired the language at a young age, began to speak it among themselves and at home as well, and sometimes even taught their parents. In this way, within a generation or two, a large community of speakers emerged for whom Hebrew was a natural language."
       },
       {
-        "he": "התהליך לא היה פשוט. בשנים הראשונות חסרו מילים רבות, והמורים נאלצו לעיתים להמציא מונחים תוך כדי השיעור. גם השאלה באיזו שפה ילמדו במוסדות החינוך עוררה ויכוחים סוערים. המפורסם שבהם פרץ ב-1913 סביב שפת ההוראה בטכניון בחיפה, ובסופו הוחלט כי הלימודים יתקיימו בעברית.",
-        "en": "The process was not simple. In the early years many words were missing, and teachers were sometimes forced to invent terms in the middle of the lesson. The question of which language should be used for teaching in educational institutions also sparked heated debates. The most famous of them broke out in 1913 over the language of instruction at the Technion in Haifa, and in the end it was decided that studies would be held in Hebrew."
+        "he": "התהליך לא היה פשוט. בשנים הראשונות חסרו מילים רבות, והמורים נאלצו לעיתים להמציא מונחים תוך כדי השיעור. גם השאלה באיזו שפה ילמדו במוסדות החינוך עוררה ויכוחים סוערים. המפורסם שבהם, שזכה לכינוי \"מלחמת השפות\", פרץ ב-1913 סביב שפת ההוראה בטכניון, שעמד אז להיפתח בחיפה. בסופו של הוויכוח הוחלט כי הלימודים בטכניון יתקיימו בעברית.",
+        "en": "The process was not simple. In the early years many words were missing, and teachers were sometimes forced to invent terms in the middle of the lesson. The question of which language should be used for teaching in educational institutions also sparked heated debates. The most famous of them, which came to be known as the \"War of the Languages\", broke out in 1913 over the language of instruction at the Technion, which was then about to open in Haifa. At the end of the debate it was decided that studies at the Technion would be held in Hebrew."
       },
       {
         "he": "כדי שאפשר יהיה לדבר על החיים המודרניים, היה צורך באלפי מילים חדשות. רובן נוצרו מתוך החומר הקיים של השפה, כלומר משורשים עתיקים וממשקלים מוכרים. כך, למשל, נוצרו המילים \"מילון\" ו\"גלידה\", המיוחסות לבן-יהודה. במקרים אחרים קיבלו מילים עתיקות משמעות חדשה: המילה \"חשמל\", שמופיעה כבר בתנ״ך ומשמעותה המקורית אינה ברורה, קיבלה את המשמעות המוכרת לנו היום.",
         "en": "To be able to talk about modern life, thousands of new words were needed. Most of them were created from the existing material of the language, that is, from ancient roots and familiar patterns. This is how, for example, the words \"milon\" (dictionary) and \"glida\" (ice cream), which are attributed to Ben-Yehuda, came into being. In other cases ancient words were given a new meaning: the word \"khashmal\", which already appears in the Bible and whose original meaning is unclear, took on the meaning we know today – electricity."
       },
       {
-        "he": "כיום ממשיכה האקדמיה ללשון העברית את העבודה הזאת, ומציעה מילים עבריות למושגים חדשים, בעיקר בתחומי המדע והטכנולוגיה. חלק מההצעות נקלטות בקלות, ואחרות נשארות בעיקר במסמכים רשמיים. בשפה הרשמית, למשל, כותבים \"דוא״ל\", אבל בשיחה כמעט כולם אומרים \"מייל\". ואולי זו ההוכחה הטובה ביותר לכך שהעברית היא שפה חיה: מי שקובעים את גורלן של המילים אינם המוסדות, אלא הדוברים.",
-        "en": "Today the Academy of the Hebrew Language continues this work, proposing Hebrew words for new concepts, mainly in science and technology. Some of the proposals catch on easily, while others remain mostly in official documents. In formal language, for example, people write \"do'al\" (e-mail), but in conversation almost everyone says \"meil\". And perhaps this is the best proof that Hebrew is a living language: those who decide the fate of words are not the institutions but the speakers."
+        "he": "כיום ממשיכה האקדמיה ללשון העברית את העבודה הזאת, ומציעה מילים עבריות למושגים חדשים, בעיקר בתחומי המדע והטכנולוגיה. חלק מההצעות נקלטות בקלות, ואחרות נשארות בעיקר במסמכים רשמיים. בשפה הרשמית, למשל, כותבים \"דוא״ל\", אבל בשיחה כמעט כולם אומרים \"מייל\". ואולי זו ההוכחה הטובה ביותר לכך שהעברית היא שפה חיה: לא המוסדות הם שקובעים את גורלן של המילים, אלא הדוברים.",
+        "en": "Today the Academy of the Hebrew Language continues this work, proposing Hebrew words for new concepts, mainly in science and technology. Some of the proposals catch on easily, while others remain mostly in official documents. In formal language, for example, people write \"do'al\" (e-mail), but in conversation almost everyone says \"meil\". And perhaps this is the best proof that Hebrew is a living language: it is not the institutions that decide the fate of words, but the speakers."
       }
     ],
     "glossary": [
@@ -735,9 +745,9 @@
         "tr": "yotsé dófen"
       },
       {
-        "he": "שפת אם",
-        "en": "mother tongue",
-        "tr": "sfat ém"
+        "he": "התכתבות",
+        "en": "correspondence, exchange of letters",
+        "tr": "hitkatvút"
       },
       {
         "he": "אפוא",
@@ -799,8 +809,8 @@
       {
         "q": "באילו תחומים השתמשו בעברית לפני שחזרה להיות שפת דיבור?",
         "qEn": "In what areas was Hebrew used before it became a spoken language again?",
-        "answer": "בתפילה, בלימוד, בספרים, בשירה ובמכתבים.",
-        "answerEn": "In prayer, study, books, poetry and letters.",
+        "answer": "בתפילה, בלימוד, בספרים, בשירה ובהתכתבות.",
+        "answerEn": "In prayer, study, books, poetry and correspondence.",
         "keywords": [
           [
             "תפילה",
@@ -813,6 +823,7 @@
             "ספרים",
             "ספר",
             "שירה",
+            "התכתבות",
             "מכתבים",
             "מסמכים",
             "כתיבה"
@@ -911,7 +922,7 @@
         "s": "לפני התחייה לא השתמשו בעברית בכלל.",
         "sEn": "Before the revival Hebrew was not used at all.",
         "a": false,
-        "why": "It was nobody's mother tongue, but it never disappeared: people prayed and studied in it and wrote books, poetry and letters in it."
+        "why": "It was nobody's mother tongue, but it never disappeared: people prayed and studied in it, wrote books and poetry in it, and used it for documents and correspondence."
       },
       {
         "s": "בנו של בן-יהודה נולד לפני שהמשפחה הגיעה לארץ.",
@@ -920,8 +931,8 @@
         "why": "Ben-Yehuda arrived in 1881, and his son was born about a year later."
       },
       {
-        "s": "בן-יהודה לא זכה לראות את המילון שלו גמור.",
-        "sEn": "Ben-Yehuda did not live to see his dictionary finished.",
+        "s": "בן-יהודה לא זכה לראות את השלמת המילון שלו.",
+        "sEn": "Ben-Yehuda did not live to see the completion of his dictionary.",
         "a": true,
         "why": "The dictionary was completed only many years after his death."
       },
@@ -940,21 +951,21 @@
         ]
       },
       {
-        "en": "out of nothing",
+        "en": "was founded",
         "answer": [
-          "יש מאין"
+          "הוקם"
         ]
       },
       {
-        "en": "terms (technical words)",
+        "en": "the language of instruction",
         "answer": [
-          "מונחים"
+          "שפת ההוראה"
         ]
       },
       {
-        "en": "which are attributed",
+        "en": "heated debates",
         "answer": [
-          "המיוחסות"
+          "ויכוחים סוערים"
         ]
       }
     ],
@@ -968,15 +979,16 @@
         "hint": "speech"
       },
       {
-        "prompt": "אליעזר בן-יהודה החליט שבביתו ידברו רק ___.",
-        "en": "Eliezer Ben-Yehuda decided that only Hebrew would be spoken in his home.",
+        "prompt": "בן-יהודה עבד עשרות שנים על ___ גדול, שהושלם רק אחרי מותו.",
+        "en": "Ben-Yehuda worked for decades on a large dictionary, which was completed only after his death.",
         "answer": [
-          "עברית"
-        ]
+          "מילון"
+        ],
+        "hint": "dictionary"
       },
       {
-        "prompt": "בבתי הספר של המושבות לימדו את כל המקצועות ___, ולא רק את התנ״ך.",
-        "en": "In the schools of the moshavot all subjects were taught in Hebrew, not only the Bible.",
+        "prompt": "בבתי הספר ובגני הילדים לימדו את כל המקצועות ___, ולא רק את התנ״ך.",
+        "en": "In the schools and kindergartens all subjects were taught in Hebrew, not only the Bible.",
         "answer": [
           "בעברית"
         ],

@@ -1,0 +1,389 @@
+[
+  {
+    "id": "e_c1_formal_letter",
+    "level": "C1",
+    "title": "A formal letter to the municipality: a broken streetlight and an unsafe crossing",
+    "situation": "You live on HaRimon Street in Holon. At a residents' meeting you volunteered to write to the municipality about two problems that have not been fixed despite repeated reports: a broken streetlight and an unsafe pedestrian crossing near a kindergarten. Orit Salomon, who chairs the residents' committee, has sent you the details. Write the formal letter, following the layout and the high register of official Hebrew correspondence.",
+    "incoming": {
+      "from": "אורית סלומון, יו״ר ועד התושבים",
+      "subject": "המכתב לעירייה – הפנס ומעבר החצייה",
+      "body": "שלום,\nתודה שהתנדבת באסיפת התושבים לנסח את המכתב לעירייה. ריכזתי כאן את כל הפרטים:\n• הפנס מול בניין 14 לא עובד מתחילת ספטמבר. התקשרנו למוקד 106 שלוש פעמים (פניות מס׳ 48213, 48877 ו־49502), ובכל פעם אמרו לנו שיתקנו אותו תוך שבוע.\n• הסימון של מעבר החצייה ליד גן הילדים כמעט נמחק, ואין שם תאורה בכלל. הרבה נהגים לא מאטים, בעיקר בבוקר, כשהורים וילדים חוצים בדרך לגן.\n• בשבוע שעבר מכונית עברה במהירות ממש ליד רחל, השכנה המבוגרת מבניין 9, כשחצתה בחושך. היא לא נפגעה, אבל נבהלה מאוד.\nמה אנחנו מבקשים: לתקן את הפנס מיד, לצבוע מחדש את מעבר החצייה ולהציב לידו תאורה, ולבדוק אם אפשר להתקין פס האטה או רמזור.\nאת המכתב נשלח לאגף פניות הציבור, עם העתק למהנדס העיר. חשוב שהוא יהיה רשמי ומנומק – אחרת שוב יתעלמו מאיתנו.\nתודה רבה,\nאורית",
+      "bodyEn": "Hi,\nThanks for volunteering at the residents' meeting to draft the letter to the municipality. I've put all the details together here:\n• The streetlight opposite building 14 hasn't worked since the beginning of September. We've called the 106 hotline three times (requests no. 48213, 48877 and 49502), and each time they told us they'd fix it within a week.\n• The markings on the pedestrian crossing by the kindergarten have almost worn away, and there's no lighting there at all. Lots of drivers don't slow down, especially in the morning, when parents and children cross on their way to the kindergarten.\n• Last week a car sped right past Rachel, our elderly neighbour from building 9, as she was crossing in the dark. She wasn't hurt, but she got a real fright.\nWhat we're asking for: fix the streetlight immediately, repaint the crossing and put lighting next to it, and find out whether a speed bump or a traffic light can be installed.\nWe'll send the letter to the Public Inquiries Department, with a copy to the City Engineer. It's important that it's formal and well argued – otherwise they'll ignore us again.\nMany thanks,\nOrit"
+    },
+    "task": {
+      "prompt": "כתבו מכתב רשמי לאגף פניות הציבור בעירייה בשם תושבי הרחוב: הציגו את שתי הבעיות ואת הפניות הקודמות למוקד, הסבירו מדוע המצב מסוכן, פרטו את בקשות התושבים, ובקשו מענה בכתב בתוך פרק זמן מוגדר. הקפידו על מבנה של מכתב רשמי ועל משלב גבוה.",
+      "promptEn": "Write a formal letter to the municipality's Public Inquiries Department on behalf of the street's residents: set out the two problems and the earlier reports to the hotline, explain why the situation is dangerous, list the residents' requests, and ask for a written reply within a set time. Keep to the layout of a formal letter and to a high register.",
+      "minWords": 160,
+      "useWords": [
+        "הנדון",
+        "אשר",
+        "טרם",
+        "בעקבות",
+        "לאור האמור",
+        "על מנת"
+      ],
+      "checklist": [
+        {
+          "en": "Use the layout of a formal letter (addressee, subject line, formal closing)",
+          "keywords": [
+            "לכבוד",
+            "הנדון",
+            "בכבוד רב"
+          ]
+        },
+        {
+          "en": "Describe the broken streetlight and the earlier reports to the hotline",
+          "keywords": [
+            "פנס",
+            "מוקד 106",
+            "פנינו",
+            "דיווח",
+            "פניות"
+          ]
+        },
+        {
+          "en": "Explain why the crossing is dangerous",
+          "keywords": [
+            "מעבר חצייה",
+            "מעבר החצייה",
+            "סכנה",
+            "מסוכן",
+            "תאונה",
+            "הולכי הרגל"
+          ]
+        },
+        {
+          "en": "List the residents' specific requests",
+          "keywords": [
+            "נבקש",
+            "אבקש",
+            "לתקן",
+            "לחדש",
+            "פס האטה",
+            "רמזור"
+          ]
+        },
+        {
+          "en": "Ask for a written reply within a set time",
+          "keywords": [
+            "מענה בכתב",
+            "תשובה בכתב",
+            "לוח זמנים",
+            "בתוך"
+          ]
+        }
+      ],
+      "model": "לכבוד\nאגף פניות הציבור\nעיריית חולון\n\nהנדון: פנס רחוב תקול ומעבר חצייה מסוכן ברחוב הרימון\n\nשלום רב,\n\nהריני פונה אליכם בשם תושבי רחוב הרימון בעניין שתי בעיות בטיחות אשר דווחו לעירייה שוב ושוב, אך טרם טופלו.\n\nראשית, פנס הרחוב מול בניין מס׳ 14 אינו פועל מאז תחילת חודש ספטמבר. בתקופה זו פנינו למוקד 106 שלוש פעמים (פניות מס׳ 48213, 48877 ו־49502), ובעקבות כל אחת מהן נמסר לנו כי התקלה תתוקן בתוך שבוע. עד היום לא נעשה דבר. אילו תוקן הפנס כבר עם הדיווח הראשון, ניתן היה למנוע הן את הפניות החוזרות והן את הסיכון המיותר להולכי הרגל.\n\nשנית, סימון מעבר החצייה הסמוך לגן הילדים כמעט נמחק, ואין במקום תאורה כלל. בשעות הבוקר חוצים בו הורים וילדים בדרכם לגן, אולם נהגים רבים אינם מאטים בהתקרבם אליו. בשבוע שעבר חלפה מכונית במהירות רבה סמוך לתושבת מבוגרת שחצתה את הכביש בחשכה, ורק במזל לא אירעה תאונה.\n\nהשילוב בין היעדר תאורה לבין מעבר חצייה שאינו מסומן כראוי יוצר סכנה ממשית, בייחוד עם בוא החורף והתקצרות הימים.\n\nלאור האמור, נבקש:\nא. לתקן את הפנס התקול לאלתר;\nב. לחדש את סימון מעבר החצייה ולהציב לידו תאורה ייעודית;\nג. לבחון התקנה של פס האטה או של רמזור, על מנת לאלץ את הנהגים להאט לפני המעבר.\n\nנודה לכם על מענה בכתב בתוך 14 ימים, ובו לוח זמנים לביצוע העבודות. נשמח למסור כל מידע נוסף שיידרש.\n\nבכבוד רב,\nעדי ברהנו\nבשם תושבי רחוב הרימון\n\nהעתק: מהנדס העיר",
+      "modelEn": "To\nThe Public Inquiries Department\nHolon Municipality\n\nRe: A broken streetlight and a dangerous pedestrian crossing on HaRimon Street\n\nDear Sir/Madam,\n\nI am writing to you on behalf of the residents of HaRimon Street regarding two safety problems which have been reported to the municipality repeatedly but have not yet been dealt with.\n\nFirstly, the streetlight opposite building no. 14 has not been working since the beginning of September. During this period we have contacted the 106 hotline three times (requests no. 48213, 48877 and 49502), and following each of them we were told that the fault would be repaired within a week. To date, nothing has been done. Had the light been repaired after the first report, both the repeated requests and the needless risk to pedestrians could have been avoided.\n\nSecondly, the markings of the pedestrian crossing next to the kindergarten have almost worn away, and there is no lighting there at all. In the mornings parents and children use it on their way to the kindergarten, yet many drivers do not slow down as they approach it. Last week a car sped past an elderly resident who was crossing the road in the dark, and it was only by luck that no accident occurred.\n\nThe combination of no lighting and a crossing that is not properly marked creates a real danger, especially now that winter is coming and the days are getting shorter.\n\nIn light of the above, we request:\na. that the broken streetlight be repaired immediately;\nb. that the crossing markings be renewed and dedicated lighting be installed next to it;\nc. that the installation of a speed bump or a traffic light be considered, in order to make drivers slow down before the crossing.\n\nWe would be grateful for a written reply within 14 days, including a timetable for carrying out the work. We will gladly provide any further information that may be required.\n\nYours faithfully,\nAdi Berhanu\nOn behalf of the residents of HaRimon Street\n\ncc: The City Engineer"
+    },
+    "phrases": [
+      {
+        "he": "לכבוד",
+        "en": "To (the opening line of a formal letter, before the addressee)",
+        "tr": "likhvód"
+      },
+      {
+        "he": "הנדון:",
+        "en": "Re: (the subject line of a formal letter)",
+        "tr": "hanidón"
+      },
+      {
+        "he": "הריני פונה אליכם בשם...",
+        "en": "I am writing to you on behalf of...",
+        "tr": "harení poné aleikhém beshém..."
+      },
+      {
+        "he": "אשר טרם טופלו",
+        "en": "which have not yet been dealt with",
+        "tr": "ashér térem tupelú"
+      },
+      {
+        "he": "בהתקרבם אל...",
+        "en": "as they approach... (infinitive with a pronoun suffix, formal)",
+        "tr": "behitkarvám el..."
+      },
+      {
+        "he": "אילו תוקן..., ניתן היה...",
+        "en": "Had ... been repaired, it would have been possible to...",
+        "tr": "ílu tukán..., nitán hayá..."
+      },
+      {
+        "he": "לאור האמור",
+        "en": "In light of the above",
+        "tr": "le'ór ha'amúr"
+      },
+      {
+        "he": "לאלתר",
+        "en": "immediately, forthwith (formal)",
+        "tr": "le'altár"
+      },
+      {
+        "he": "על מנת ל...",
+        "en": "in order to...",
+        "tr": "al menát le..."
+      },
+      {
+        "he": "נודה לכם על מענה בכתב",
+        "en": "We would be grateful for a written reply",
+        "tr": "nodé lakhém al ma'ané bikhtáv"
+      }
+    ]
+  },
+  {
+    "id": "e_c1_oped_response",
+    "level": "C1",
+    "title": "Responding to an op-ed: a four-day working week",
+    "situation": "A weekend newspaper has published an op-ed by the economist Dr Samir Khoury calling for a four-day working week to be introduced by law. You manage a team at a logistics centre and have mixed feelings about the idea. Write a reasoned response for the paper's opinion page: acknowledge what is right in his argument, set out your objections, and propose an alternative.",
+    "incoming": {
+      "from": "ד״ר סמיר חורי, כלכלן",
+      "subject": "הגיע הזמן לשבוע עבודה בן ארבעה ימים",
+      "body": "ישראלים עובדים שעות רבות יותר מעמיתיהם ברוב המדינות המפותחות, ואף על פי כן התוצר לשעת עבודה במשק נמוך מהממוצע במדינות ה־OECD. הנתונים האלה מלמדים שיום עבודה ארוך אינו ערובה לפריון: עובד עייף ושחוק מפיק פחות, טועה יותר ונעדר מהעבודה לעיתים קרובות יותר.\n\nבשנים האחרונות נערכו בכמה מדינות, ובהן בריטניה, ניסויים שבהם עברו עשרות חברות לשבוע עבודה בן ארבעה ימים בלי לקצץ בשכר. ברוב החברות התפוקה לא נפגעה, העובדים דיווחו על פחות שחיקה, והרוב המכריע של המעסיקים בחר להמשיך במתכונת החדשה גם לאחר תום הניסוי.\n\nאני מציע שישראל תלך בדרך דומה: שבוע עבודה של ארבעה ימים ו־32 שעות, ללא פגיעה בשכר, שייושם בהדרגה בתוך חמש שנים. יום חופשי נוסף יאפשר להורים לבלות יותר זמן עם ילדיהם, יפחית את העומס בכבישים ויגביר את הצריכה בתחומי התרבות והפנאי. מי שחושש מהעלות צריך לשאול את עצמו כמה עולה לנו כבר היום שחיקתם של העובדים.",
+      "bodyEn": "Israelis work more hours than their counterparts in most developed countries, and yet output per hour worked in the economy is below the average of the OECD countries. These figures show that a long working day is no guarantee of productivity: a tired, burnt-out employee produces less, makes more mistakes and is absent from work more often.\n\nIn recent years trials have been held in several countries, Britain among them, in which dozens of companies moved to a four-day working week without cutting pay. In most of the companies output did not suffer, employees reported less burnout, and the vast majority of employers chose to keep the new arrangement after the trial ended.\n\nI propose that Israel follow a similar path: a working week of four days and 32 hours, with no cut in pay, phased in gradually within five years. An extra day off would let parents spend more time with their children, ease congestion on the roads and boost spending on culture and leisure. Anyone who is worried about the cost should ask themselves how much employee burnout is already costing us today."
+    },
+    "task": {
+      "prompt": "כתבו תגובה מנומקת למאמר (מכתב למערכת): התייחסו לטיעוני הכותב, הודו במה שנכון בדבריו, הציגו לפחות שני טיעונים נגדיים, הציעו חלופה וסכמו את עמדתכם. השתמשו במילות קישור של טיעון ושל ויתור.",
+      "promptEn": "Write a reasoned response to the article (a letter to the editor): address the author's arguments, concede what is right in them, present at least two counter-arguments, propose an alternative and sum up your position. Use the discourse markers of argument and concession.",
+      "minWords": 160,
+      "useWords": [
+        "אמנם",
+        "אולם",
+        "זאת ועוד",
+        "עם זאת",
+        "מוטב",
+        "אשר"
+      ],
+      "checklist": [
+        {
+          "en": "Refer to the op-ed and its author",
+          "keywords": [
+            "חורי",
+            "מאמרו",
+            "המאמר",
+            "הכותב"
+          ]
+        },
+        {
+          "en": "Concede what is right in his argument",
+          "keywords": [
+            "בצדק",
+            "אין ספק",
+            "אמנם",
+            "מסכים",
+            "נכון"
+          ]
+        },
+        {
+          "en": "Give at least two counter-arguments, introduced with discourse markers",
+          "keywords": [
+            "ראשית",
+            "שנית",
+            "זאת ועוד",
+            "יתרה מזו",
+            "בנוסף"
+          ]
+        },
+        {
+          "en": "Propose an alternative",
+          "keywords": [
+            "במקום",
+            "מוטב",
+            "תוכניות ניסוי",
+            "חלופה",
+            "גמישות"
+          ]
+        },
+        {
+          "en": "Conclude with your overall position",
+          "keywords": [
+            "בסופו של דבר",
+            "לסיכום",
+            "לסיום",
+            "לכן"
+          ]
+        }
+      ],
+      "model": "שבוע קצר יותר? לא בחקיקה גורפת\nתגובה למאמרו של ד״ר סמיר חורי, \"הגיע הזמן לשבוע עבודה בן ארבעה ימים\"\n\nד״ר חורי מצביע בצדק על אחת הבעיות המרכזיות של המשק הישראלי: אנו עובדים שעות ארוכות, אך פריון העבודה נותר נמוך. אין ספק שעובדים שחוקים אינם עובדים טובים יותר, ומניסיוני בניהול צוות במרכז לוגיסטי, עייפות מצטברת אכן מתבטאת בטעויות ובהיעדרויות. אולם המסקנה שהוא מסיק מכך, קרי שבוע מקוצר שייקבע בחוק לכלל המשק, פשטנית לטעמי.\n\nראשית, הניסויים שהוא מביא אמנם מעודדים, אך הם נערכו בחברות שבחרו להשתתף בהם מרצונן, ורבות מהן חברות שעיקר פעילותן במשרד. קשה ללמוד מהם על בתי חולים, על מערכת החינוך או על רשתות שיווק – מקומות שבהם העבודה מחייבת נוכחות רציפה של עובדים, ואי אפשר פשוט לסגור את הדלת יום אחד בשבוע. בענפים אלה יחייב קיצור השבוע גיוס עובדים נוספים, ועלות זו סופה שתגולגל אל הצרכנים.\n\nשנית, ההצעה מתעלמת מן המציאות שבה חיות המשפחות בישראל. בבתי ספר רבים לומדים שישה ימים בשבוע, כך שיום החופש הנוסף לא יהיה בהכרח יום עם הילדים. זאת ועוד, החשש הוא שבפועל ידחסו מעסיקים רבים את אותה כמות עבודה לארבעה ימים ארוכים. במצב כזה, השחיקה שד״ר חורי מבקש לצמצם רק תחריף, ודווקא ההורים ישלמו את המחיר הכבד ביותר.\n\nעם זאת, אין בכך כדי לפסול את הרעיון כולו. במקום חקיקה גורפת, מוטב להתחיל בתוכניות ניסוי וולונטריות בענפים שבהם הדבר אפשרי, ללוות אותן במחקר ולבחון את תוצאותיהן לאורך זמן. במקביל, ניתן לקדם צעדים אשר כבר הוכיחו את עצמם, כגון שעות עבודה גמישות ועבודה מהבית.\n\nבסופו של דבר, השאלה איננה אם לעבוד פחות, אלא איך לעבוד טוב יותר. אילו הושקעו המשאבים שההצעה דורשת בהכשרה מקצועית, בתשתיות ובטכנולוגיה, היינו יכולים להגיע לשבוע עבודה קצר יותר בהדרגה, מבלי לפגוע בשירותים שכולנו תלויים בהם.\n\nנועם קפלן, ראשון לציון",
+      "modelEn": "A shorter week? Not through sweeping legislation\nA response to Dr Samir Khoury's article, \"It's time for a four-day working week\"\n\nDr Khoury rightly points to one of the central problems of the Israeli economy: we work long hours, yet labour productivity remains low. There is no doubt that burnt-out employees are not better employees, and in my experience of managing a team at a logistics centre, accumulated fatigue does indeed show itself in mistakes and absences. However, the conclusion he draws from this – namely, a shorter week imposed by law on the entire economy – is, in my view, simplistic.\n\nFirstly, the trials he cites are admittedly encouraging, but they were held in companies that chose to take part of their own accord, many of them businesses whose work is mainly office-based. They tell us little about hospitals, the education system or retail chains – places where the work requires staff to be present continuously and you cannot simply close the door one day a week. In these sectors, shortening the week would mean hiring more staff, and that cost would end up being passed on to consumers.\n\nSecondly, the proposal ignores the reality in which Israeli families live. In many schools children study six days a week, so the extra day off would not necessarily be a day with the children. Moreover, the concern is that in practice many employers would squeeze the same amount of work into four long days. In that case the burnout Dr Khoury wants to reduce would only get worse, and it is parents, of all people, who would pay the heaviest price.\n\nThat said, this is no reason to reject the idea altogether. Instead of sweeping legislation, it would be better to start with voluntary pilot schemes in sectors where this is feasible, to accompany them with research and to examine their results over time. At the same time, we can promote measures that have already proved themselves, such as flexible working hours and working from home.\n\nUltimately, the question is not whether to work less, but how to work better. Were the resources the proposal demands invested in vocational training, infrastructure and technology, we could reach a shorter working week gradually, without harming the services we all depend on.\n\nNoam Kaplan, Rishon LeZion"
+    },
+    "phrases": [
+      {
+        "he": "מצביע בצדק על...",
+        "en": "rightly points to...",
+        "tr": "matsbí'a betsédek al..."
+      },
+      {
+        "he": "אין ספק ש...",
+        "en": "There is no doubt that...",
+        "tr": "éin safék she..."
+      },
+      {
+        "he": "קרי",
+        "en": "namely, that is (formal)",
+        "tr": "kri"
+      },
+      {
+        "he": "אמנם... אך...",
+        "en": "admittedly..., but... (concession)",
+        "tr": "omnám... akh..."
+      },
+      {
+        "he": "ראשית... שנית...",
+        "en": "Firstly... Secondly...",
+        "tr": "rishít... shenít..."
+      },
+      {
+        "he": "זאת ועוד",
+        "en": "Moreover, what is more",
+        "tr": "zot ve'ód"
+      },
+      {
+        "he": "סופה שתגולגל אל הצרכנים",
+        "en": "(the cost) will end up being passed on to consumers",
+        "tr": "sofá shetegulgál el hatsarkhaním"
+      },
+      {
+        "he": "אין בכך כדי לפסול את...",
+        "en": "This is no reason to reject...",
+        "tr": "éin bekhákh kedéi lifsól et..."
+      },
+      {
+        "he": "מוטב ל...",
+        "en": "It would be better to...",
+        "tr": "mutáv le..."
+      },
+      {
+        "he": "השאלה איננה אם..., אלא איך...",
+        "en": "The question is not whether..., but how...",
+        "tr": "hashe'elá einéna im..., éla eikh..."
+      }
+    ]
+  },
+  {
+    "id": "e_c1_complaint_ombudsman",
+    "level": "C1",
+    "title": "A formal complaint to a company's customer ombudsman",
+    "situation": "On 4 June you bought a refrigerator for 6,490 ILS, with a three-year warranty, at the Petah Tikva branch of Ofek Electrical Appliances (a fictional chain). On 11 August it stopped cooling, and you opened a service call that same day. A technician came on 18 August, found a faulty compressor and said the part would be fitted within ten days, but both installation appointments (2 and 16 September) were cancelled on the morning itself – each time after you had taken a day off work. On 22 September a service representative promised you by phone that the fridge would be replaced within ten working days. About 400 ILS worth of food has spoiled. On 8 October the service centre sent you the email below. Write a formal complaint to the company's customer ombudsman.",
+    "incoming": {
+      "from": "אופק מוצרי חשמל – מוקד השירות",
+      "subject": "עדכון בנוגע לקריאת שירות מס׳ 7731905",
+      "body": "לקוח/ה יקר/ה,\nבהמשך לפנייתך, ברצוננו לעדכן כי קריאת השירות שבנדון נסגרה.\nלאחר בדיקה חוזרת הוחלט כי אין אפשרות להחליף את המקרר במקרר חדש, שכן מדובר בתקלה הניתנת לתיקון.\nבאפשרותך לתאם ביקור טכנאי נוסף באמצעות המוקד הטלפוני, בימים א׳–ה׳ בין השעות 8:00 ל־17:00.\nאנו מתנצלים על אי הנוחות.\nבברכה,\nצוות שירות הלקוחות\nאופק מוצרי חשמל",
+      "bodyEn": "Dear customer,\nFurther to your inquiry, we wish to inform you that the above service call has been closed.\nFollowing a further review, it has been decided that the refrigerator cannot be replaced with a new one, since the fault is repairable.\nYou may arrange another technician visit through our telephone service centre, Sunday to Thursday, between 8:00 and 17:00.\nWe apologise for the inconvenience.\nBest regards,\nThe Customer Service Team\nOfek Electrical Appliances"
+    },
+    "task": {
+      "prompt": "כתבו תלונה רשמית לנציבות תלונות הלקוחות של החברה: הציגו את השתלשלות האירועים לפי סדר כרונולוגי, תארו את הנזק שנגרם לכם, נסחו בקשה ברורה וקבעו מועד לקבלת תשובה, וציינו אילו צעדים תנקטו אם העניין לא ייפתר.",
+      "promptEn": "Write a formal complaint to the company's customer ombudsman: set out the sequence of events in chronological order, describe the damage you have suffered, make a clear request and set a deadline for a reply, and say what steps you will take if the matter is not resolved.",
+      "minWords": 160,
+      "useWords": [
+        "להלן",
+        "השתלשלות האירועים",
+        "בניגוד",
+        "לחלופין",
+        "בגין",
+        "אשקול"
+      ],
+      "checklist": [
+        {
+          "en": "Identify the case: the service call, the product and the purchase",
+          "keywords": [
+            "קריאת שירות",
+            "מקרר",
+            "רכשתי"
+          ]
+        },
+        {
+          "en": "Set out the events in chronological order, with dates",
+          "keywords": [
+            "השתלשלות",
+            "באוגוסט",
+            "בספטמבר",
+            "באוקטובר"
+          ]
+        },
+        {
+          "en": "Describe the damage you have suffered",
+          "keywords": [
+            "נזקים",
+            "נזק",
+            "התקלקל",
+            "הפסדתי",
+            "כתוצאה מכך"
+          ]
+        },
+        {
+          "en": "Make a clear request (replacement or refund, and compensation)",
+          "keywords": [
+            "אבקש",
+            "תחליף",
+            "להחליף",
+            "תשיב",
+            "החזר",
+            "תפצה"
+          ]
+        },
+        {
+          "en": "Set a deadline and say what you will do if the matter is not resolved",
+          "keywords": [
+            "אשקול",
+            "הרשות להגנת הצרכן",
+            "תביעות קטנות",
+            "תביעה"
+          ]
+        }
+      ],
+      "model": "לכבוד\nנציבות תלונות הלקוחות\nאופק מוצרי חשמל בע״מ\n\nהנדון: תלונה בעניין קריאת שירות מס׳ 7731905 – מקרר תקול\n\nשלום רב,\n\nאני פונה אליכם לאחר שכל ניסיונותיי לפתור את הבעיה באמצעות מוקד השירות לא צלחו.\n\nלהלן השתלשלות האירועים:\n• ב־4 ביוני 2026 רכשתי בסניף החברה בפתח תקווה מקרר בעלות 6,490 ₪, עם אחריות לשלוש שנים.\n• ב־11 באוגוסט הפסיק המקרר לקרר, ובו ביום פתחתי קריאת שירות.\n• ב־18 באוגוסט ביקר אצלי טכנאי, אשר אבחן תקלה במדחס והודיע כי יוזמן חלק חלופי, שיותקן בתוך עשרה ימים.\n• שני המועדים שנקבעו להתקנת החלק, ב־2 וב־16 בספטמבר, בוטלו באותו בוקר וללא כל הסבר, אף שלקחתי לשם כך יום חופש מהעבודה בכל אחד מהם.\n• ב־22 בספטמבר הבטיח לי נציג שירות בשיחה טלפונית כי המקרר יוחלף במקרר חדש בתוך עשרה ימי עסקים.\n• ב־8 באוקטובר הודיע לי מוקד השירות בדוא״ל כי הקריאה נסגרה וכי לא ניתן להחליף את המקרר, וזאת בניגוד מוחלט להתחייבות שניתנה לי.\n\nכתוצאה מכך, זה כחודשיים שאין בביתי מקרר תקין. מזון בשווי של כ־400 ₪ התקלקל, והפסדתי שני ימי עבודה בהמתנה לטכנאי שלא הגיע. יתרה מזו, היחס שקיבלתי אינו עולה בקנה אחד עם ההתחייבויות שבתעודת האחריות, ואף לא עם השירות שהחברה מבטיחה ללקוחותיה.\n\nלאור האמור, אבקש כי החברה:\n1. תחליף את המקרר במקרר חדש מאותו דגם או מדגם שווה ערך בתוך שבעה ימים, או לחלופין תשיב לי את מלוא מחיר הרכישה;\n2. תפצה אותי בגין הנזקים שנגרמו לי, לרבות המזון שהתקלקל וימי העבודה שהפסדתי.\n\nאודה לקבלת תשובתכם בכתב בתוך 14 ימים ממועד מכתב זה. אם לא תתקבל עד אז תשובה עניינית, אשקול לפנות לרשות להגנת הצרכן ולסחר הוגן ולהגיש תביעה לבית המשפט לתביעות קטנות.\n\nמצורפות: חשבונית הרכישה, תעודת האחריות והתכתובת עם מוקד השירות.\n\nבכבוד רב,\nטל דייוויס\nמס׳ לקוח: 3318842",
+      "modelEn": "To\nThe Customer Complaints Ombudsman\nOfek Electrical Appliances Ltd.\n\nRe: Complaint concerning service call no. 7731905 – faulty refrigerator\n\nDear Sir/Madam,\n\nI am writing to you after all my attempts to resolve the problem through the service centre have been unsuccessful.\n\nThe sequence of events is as follows:\n• On 4 June 2026 I bought a refrigerator for 6,490 ILS at the company's Petah Tikva branch, with a three-year warranty.\n• On 11 August the refrigerator stopped cooling, and I opened a service call that very day.\n• On 18 August a technician visited me, diagnosed a fault in the compressor and said that a replacement part would be ordered and fitted within ten days.\n• Both appointments set for fitting the part, on 2 and 16 September, were cancelled that same morning without any explanation, even though I had taken a day off work for each of them.\n• On 22 September a service representative promised me in a phone call that the refrigerator would be replaced with a new one within ten working days.\n• On 8 October the service centre informed me by email that the call had been closed and that the refrigerator could not be replaced – in complete contradiction to the commitment I had been given.\n\nAs a result, for about two months now there has been no working refrigerator in my home. Food worth about 400 ILS has spoiled, and I lost two working days waiting for a technician who never came. Furthermore, the treatment I have received is inconsistent with the commitments in the warranty certificate, and with the service the company promises its customers.\n\nIn light of the above, I request that the company:\n1. replace the refrigerator with a new one of the same model or an equivalent model within seven days, or alternatively refund the full purchase price;\n2. compensate me for the damage I have suffered, including the spoiled food and the working days I lost.\n\nI would appreciate a written reply within 14 days of the date of this letter. If no substantive reply is received by then, I will consider applying to the Consumer Protection and Fair Trade Authority and filing a claim with the small claims court.\n\nAttached: the purchase invoice, the warranty certificate and the correspondence with the service centre.\n\nYours faithfully,\nTal Davis\nCustomer no.: 3318842"
+    },
+    "phrases": [
+      {
+        "he": "לא צלחו",
+        "en": "were unsuccessful (formal)",
+        "tr": "lo tsalkhú"
+      },
+      {
+        "he": "להלן השתלשלות האירועים:",
+        "en": "The sequence of events is as follows:",
+        "tr": "lehalán hishtalshelút ha'eiru'ím"
+      },
+      {
+        "he": "בו ביום",
+        "en": "on that very day",
+        "tr": "bo bayóm"
+      },
+      {
+        "he": "בניגוד מוחלט להתחייבות שניתנה לי",
+        "en": "in complete contradiction to the commitment I was given",
+        "tr": "benigúd mukhlát lahitkhayvút shenitná li"
+      },
+      {
+        "he": "זה כחודשיים ש...",
+        "en": "for about two months now...",
+        "tr": "ze kekhodsháyim she..."
+      },
+      {
+        "he": "אינו עולה בקנה אחד עם...",
+        "en": "is inconsistent with... (lit. 'does not grow on one stalk with')",
+        "tr": "einó olé bekané ekhád im..."
+      },
+      {
+        "he": "או לחלופין",
+        "en": "or alternatively",
+        "tr": "o lakhalufín"
+      },
+      {
+        "he": "בגין הנזקים שנגרמו לי",
+        "en": "for the damage I have suffered (formal)",
+        "tr": "begín hanezakím shenigremú li"
+      },
+      {
+        "he": "אשקול לפנות ל...",
+        "en": "I will consider applying to...",
+        "tr": "eshkól lifnót le..."
+      },
+      {
+        "he": "מצורפות: / מצורפים:",
+        "en": "Attached: (the participle agrees with the items listed; here they are all feminine)",
+        "tr": "metsorafót / metsorafím"
+      }
+    ]
+  }
+]

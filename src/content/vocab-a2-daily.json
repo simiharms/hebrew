@@ -47,8 +47,7 @@
     "enAlt": [
       "alone",
       "isolated",
-      "solitary",
-      "single"
+      "solitary"
     ],
     "pos": "adj",
     "root": "ב.ד.ד",
@@ -106,7 +105,7 @@
     "tr": "ge'é",
     "en": "proud",
     "enAlt": [
-      "very proud"
+      "proud of"
     ],
     "pos": "adj",
     "root": "ג.א.ה",
@@ -266,8 +265,7 @@
     "enAlt": [
       "greeting",
       "congratulations",
-      "wishes",
-      "blessing"
+      "wishes"
     ],
     "pos": "noun",
     "gender": "f",
@@ -378,7 +376,10 @@
       "he": "ביום הנישואים שלנו אנחנו תמיד הולכים לאותה מסעדה.",
       "en": "On our wedding anniversary we always go to the same restaurant."
     },
-    "note": "נישואים (marriage) is always plural. With \"the\", the ה goes on the second word: יום הנישואים."
+    "note": "נישואים (marriage) is always plural, and is also spelled נישואין. With \"the\", the ה goes on the second word: יום הנישואים.",
+    "alt": [
+      "יום נישואין"
+    ]
   },
   {
     "id": "va2d_meukhzav",
@@ -405,8 +406,7 @@
     "enAlt": [
       "kind",
       "pleasant",
-      "friendly",
-      "sweet"
+      "friendly"
     ],
     "pos": "adj",
     "root": "ח.מ.ד",
@@ -739,8 +739,8 @@
     "level": "A2",
     "topic": "shopping",
     "ex": {
-      "he": "בסניף הזה אין את המידה שלי, אבל בסניף בקניון יש.",
-      "en": "This branch doesn't have my size, but the branch in the mall does."
+      "he": "בסניף הזה המידה שלי נגמרה, אבל בסניף בקניון עוד יש.",
+      "en": "My size is sold out at this branch, but the branch in the mall still has it."
     },
     "note": "Used for store chains, banks, the post office and health-fund clinics: באיזה סניף? = which branch?"
   },
@@ -770,7 +770,7 @@
     "en": "runny nose",
     "enAlt": [
       "the sniffles",
-      "nasal congestion"
+      "nasal discharge"
     ],
     "pos": "noun",
     "gender": "f",
@@ -934,8 +934,8 @@
     "level": "A2",
     "topic": "health",
     "ex": {
-      "he": "הרופא אמר לקחת כדור אחד בבוקר ואחד בערב.",
-      "en": "The doctor said to take one pill in the morning and one in the evening."
+      "he": "הרופא אמר לי לקחת כדור אחד בבוקר ואחד בערב.",
+      "en": "The doctor told me to take one pill in the morning and one in the evening."
     },
     "note": "The everyday word for a pill. Also a ball: כדורגל = football (soccer). כדור נגד כאבים = a painkiller."
   },
@@ -998,8 +998,8 @@
     "level": "A2",
     "topic": "health",
     "ex": {
-      "he": "לבדיקת דם צריך להגיע בבוקר, בלי לאכול.",
-      "en": "For a blood test you have to come in the morning, without eating."
+      "he": "לבדיקת הדם צריך להגיע בבוקר, בלי לאכול.",
+      "en": "For the blood test you need to come in the morning, without eating."
     },
     "note": "Many blood tests are done fasting: בצום. The results usually show up in the health fund's app."
   },
@@ -1086,9 +1086,6 @@
     "he": "אמבולנס",
     "tr": "ámbulans",
     "en": "ambulance",
-    "enAlt": [
-      "paramedics"
-    ],
     "pos": "noun",
     "gender": "m",
     "plural": "אמבולנסים",
@@ -1253,8 +1250,8 @@
     "level": "A2",
     "topic": "phrases-daily",
     "ex": {
-      "he": "שמעתי שאת חולה. תרגישי טוב, ואל תדאגי לעבודה!",
-      "en": "I heard you're sick. Feel better, and don't worry about work!"
+      "he": "שמעתי שאת חולה. תרגישי טוב, ואל תדאגי, אנחנו מסתדרים בעבודה!",
+      "en": "I heard you're sick. Feel better, and don't worry, we're managing fine at work!"
     },
     "note": "To a man תרגיש טוב, to a woman תרגישי טוב, to several people תרגישו טוב. Lighter and more everyday than רפואה שלמה."
   },
@@ -1486,7 +1483,9 @@
       "hopefully"
     ],
     "alt": [
-      "בע״ה"
+      "בעזרת ה׳",
+      "בע״ה",
+      "בעז״ה"
     ],
     "pos": "phrase",
     "level": "A2",
@@ -1495,6 +1494,6 @@
       "he": "בעזרת השם, בשנה הבאה נקנה דירה.",
       "en": "God willing, next year we'll buy an apartment."
     },
-    "note": "Lit. with the help of the Name (God). Heard when people talk about plans, and not only from religious speakers; also written בע״ה. Similar: אם ירצה השם."
+    "note": "Lit. with the help of the Name (God). Heard when people talk about plans, and not only from religious speakers; in writing often בעזרת ה׳ or בע״ה. Similar: אם ירצה השם."
   }
 ]

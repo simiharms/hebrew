@@ -70,23 +70,23 @@
       },
       {
         "s": "B",
-        "he": "עוד דבר: בשבוע האחרון עבדנו עד מאוחר כמעט כל ערב. אם זה יחזור על עצמו, אנשים פשוט יישרפו.",
-        "en": "One more thing: in the last week we worked late almost every evening. If that happens again, people will simply burn out."
+        "he": "עוד דבר: בשבוע שלפני ההשקה עבדנו עד מאוחר כמעט כל ערב. אם זה יחזור על עצמו, אנשים פשוט יישחקו.",
+        "en": "One more thing: in the week before the launch we worked late almost every evening. If that happens again, people will simply burn out."
       },
       {
         "s": "C",
-        "he": "ובנוסף, השיווק הודיע ללקוחות על פיצ׳ר שעוד לא היה מוכן. זה עשה לנו כאב ראש רציני.",
+        "he": "וחוץ מזה, השיווק הודיע ללקוחות על פיצ׳ר שעוד לא היה מוכן. זה עשה לנו כאב ראש רציני.",
         "en": "And on top of that, marketing told customers about a feature that wasn't ready yet. That gave us a serious headache."
       },
       {
         "s": "A",
-        "he": "טוב, בואו נסכם פעולות להמשך. מצד אחד, אנחנו לא יכולים להגיד לא לכל שינוי. מצד שני, חייבים כללים ברורים.",
-        "en": "OK, let's agree on action items. On the one hand, we can't say no to every change. On the other hand, we need clear rules."
+        "he": "טוב, בואו נסכם מה עושים מכאן והלאה. מצד אחד, אנחנו לא יכולים להגיד לא לכל שינוי. מצד שני, חייבים כללים ברורים.",
+        "en": "OK, let's agree on what we do from here on. On the one hand, we can't say no to every change. On the other hand, we need clear rules."
       },
       {
         "s": "D",
-        "he": "מה דעתכם על הקפאת קוד שבוע לפני כל השקה? אחרי זה, כל שינוי רק באישור של כולם.",
-        "en": "What do you think about a code freeze a week before every launch? After that, any change only with everyone's approval."
+        "he": "מה דעתכם על הקפאת קוד שבוע לפני כל השקה? מאותו רגע, כל שינוי רק באישור של כולם.",
+        "en": "What do you think about a code freeze a week before every launch? From that point on, any change only with everyone's approval."
       },
       {
         "s": "B",
@@ -142,7 +142,7 @@
         "answerEn": "Because the spec changed two weeks before the launch.",
         "keywords": [
           ["אפיון", "השתנה", "שינוי", "שינה", "שינויים"],
-          ["שבועיים", "מאוחר", "באיחור"]
+          ["שבועיים", "מאוחר", "לפני ההשקה"]
         ]
       },
       {
@@ -151,8 +151,8 @@
         "answer": "הם היו תופסים את הבאג בעצמם.",
         "answerEn": "They would have caught the bug themselves.",
         "keywords": [
-          ["תופסים", "לתפוס", "תפסו", "מוצאים", "למצוא", "מגלים", "לגלות"],
-          ["באג", "תקלה"]
+          ["תופסים", "תופסות", "לתפוס", "תפסו", "תפסנו", "מוצאים", "מוצאות", "למצוא", "מצאו", "מגלים", "לגלות", "גילו"],
+          ["באג", "תקלה", "בעיה"]
         ]
       },
       {
@@ -162,7 +162,7 @@
         "answerEn": "A code freeze a week before every launch, and automated tests for payments.",
         "keywords": [
           ["הקפאת", "הקפאה", "להקפיא", "מקפיאים"],
-          ["אוטומטיות", "אוטומטיים", "אוטומטית"]
+          ["אוטומטיות", "אוטומטיים", "אוטומטית", "אוטומטי"]
         ]
       }
     ],
@@ -189,7 +189,7 @@
         "s": "בשבוע שלפני ההשקה הצוות עבד עד מאוחר כמעט כל ערב.",
         "sEn": "In the week before the launch, the team worked late almost every evening.",
         "a": true,
-        "why": "Dmitri says בשבוע האחרון עבדנו עד מאוחר כמעט כל ערב, and warns that people will burn out."
+        "why": "Dmitri says בשבוע שלפני ההשקה עבדנו עד מאוחר כמעט כל ערב, and warns that people will burn out if it happens again."
       }
     ],
     "dictation": [1, 10, 17],
@@ -217,7 +217,7 @@
       {
         "he": "לא... אלא...",
         "en": "not... but rather...",
-        "note": "Corrects a wrong idea and gives the right one: לא אשמים, אלא פתרונות. Use אלא, not אבל, after a negative."
+        "note": "Corrects a wrong idea and gives the right one: לא אשמים, אלא פתרונות. When the second part replaces the first, use אלא, not אבל."
       },
       {
         "he": "מצד אחד... מצד שני...",
@@ -242,8 +242,8 @@
     "lines": [
       {
         "s": "A",
-        "he": "בוקר טוב לכולם, אתם עם תוכנית הבוקר, ואני אורי. היום אנחנו מדברים על משהו שכולם מכירים: עבודה מבתי קפה.",
-        "en": "Good morning, everyone. You're listening to the morning show, and I'm Uri. Today we're talking about something everyone knows: working from cafés."
+        "he": "בוקר טוב לכולם, כאן אורי, ואתם מאזינים לתוכנית הבוקר. היום אנחנו מדברים על משהו שכולם מכירים: עבודה מבתי קפה.",
+        "en": "Good morning, everyone. This is Uri, and you're listening to the morning show. Today we're talking about something everyone knows: working from cafés."
       },
       {
         "s": "A",
@@ -263,7 +263,7 @@
       {
         "s": "B",
         "he": "ממש לא. בבית אני מרגישה לבד. בבית קפה, לעומת זאת, יש אנרגיה, יש אנשים, ודווקא זה עוזר לי להתרכז.",
-        "en": "Not at all. At home I feel lonely. In a café, on the other hand, there's energy, there are people, and that's exactly what helps me concentrate."
+        "en": "Not at all. At home I feel lonely. In a café, on the other hand, there's energy, there are people, and, surprisingly, that's what helps me concentrate."
       },
       {
         "s": "A",
@@ -272,13 +272,13 @@
       },
       {
         "s": "B",
-        "he": "יוצא בערך שלושים שקל ביום. וזה עדיין הרבה יותר זול משכירות של משרד.",
-        "en": "It comes to about thirty shekels a day. And that's still much cheaper than renting an office."
+        "he": "יוצא לי בערך חמישים שקל ביום, וזה עדיין הרבה יותר זול משכירות של משרד.",
+        "en": "It comes to about fifty shekels a day for me, and that's still much cheaper than renting an office."
       },
       {
         "s": "A",
-        "he": "הוגן. תודה, ליאת. ועכשיו, מהצד השני של הדלפק: סאמר, בעל בית קפה בחיפה. שלום, סאמר.",
-        "en": "Fair enough. Thanks, Liat. And now, from the other side of the counter: Samer, who owns a café in Haifa. Hello, Samer."
+        "he": "נשמע הגיוני. תודה, ליאת. ועכשיו, מהצד השני של הדלפק: סאמר, בעל בית קפה בחיפה. שלום, סאמר.",
+        "en": "Makes sense. Thanks, Liat. And now, from the other side of the counter: Samer, who owns a café in Haifa. Hello, Samer."
       },
       {
         "s": "C",
@@ -302,8 +302,8 @@
       },
       {
         "s": "C",
-        "he": "חס וחלילה. אבל מהחודש שעבר, בין שתים עשרה לשתיים אין מחשבים ניידים. ומי שצריך שקע, יושב ליד הבר.",
-        "en": "God forbid. But since last month, there are no laptops between twelve and two. And anyone who needs a socket sits at the bar."
+        "he": "חס וחלילה. אבל מהחודש שעבר, בין שתים עשרה לשתיים אין מחשבים ניידים. ובשאר השעות, מי שצריך שקע יושב ליד הבר.",
+        "en": "God forbid. But since last month, there have been no laptops between twelve and two. And the rest of the time, anyone who needs a socket sits at the bar."
       },
       {
         "s": "C",
@@ -327,8 +327,8 @@
       },
       {
         "s": "D",
-        "he": "קודם כול, הרעש. חוץ מזה, יש לי הרבה שיחות עם לקוחות, ואני לא רוצה שהשולחן ליד ישמע כל מילה. זה עניין של פרטיות, וגם של אבטחת מידע.",
-        "en": "First of all, the noise. Besides, I have a lot of calls with clients, and I don't want the next table to hear every word. It's a matter of privacy, and of information security too."
+        "he": "קודם כול, הרעש. חוץ מזה, יש לי הרבה שיחות עם לקוחות, ואני לא רוצה שהאנשים בשולחן ליד ישמעו כל מילה. זה עניין של פרטיות, וגם של אבטחת מידע.",
+        "en": "First of all, the noise. Besides, I have a lot of calls with clients, and I don't want the people at the next table to hear every word. It's a matter of privacy, and of information security too."
       },
       {
         "s": "A",
@@ -342,8 +342,8 @@
       },
       {
         "s": "A",
-        "he": "שלוש דעות, שלושה סגנונות עבודה. ואתם, איפה אתם הכי פרודוקטיביים? הקווים פתוחים, ונחזור אחרי הפרסומות.",
-        "en": "Three opinions, three working styles. And you, where are you most productive? The lines are open, and we'll be back after the break."
+        "he": "שלוש שיחות, שלוש נקודות מבט. ואתם, איפה אתם הכי פרודוקטיביים? הקווים פתוחים, ונחזור אחרי הפרסומות.",
+        "en": "Three calls, three points of view. And you, where are you most productive? The lines are open, and we'll be back after the commercials."
       }
     ],
     "questions": [
@@ -360,11 +360,11 @@
       {
         "q": "כמה ליאת מוציאה ביום, ולמה זה משתלם לה?",
         "qEn": "How much does Liat spend a day, and why is it worth it for her?",
-        "answer": "בערך שלושים שקל ביום, וזה זול יותר משכירות של משרד.",
-        "answerEn": "About thirty shekels a day, and that's cheaper than renting an office.",
+        "answer": "בערך חמישים שקל ביום, וזה הרבה יותר זול משכירות של משרד.",
+        "answerEn": "About fifty shekels a day, and that's much cheaper than renting an office.",
         "keywords": [
-          ["שלושים", "30"],
-          ["משרד", "שכירות"]
+          ["חמישים", "50"],
+          ["משרד", "שכירות", "זול"]
         ]
       },
       {
@@ -394,17 +394,17 @@
         "answerEn": "Because of the noise and privacy. Now she works in a co-working space.",
         "keywords": [
           ["רעש", "רועש"],
-          ["פרטיות", "אבטחת מידע", "ישמע", "שומעים"],
+          ["פרטיות", "אבטחת מידע", "ישמעו", "שומעים", "שיחות"],
           ["משותף", "חלל"]
         ]
       }
     ],
     "tf": [
       {
-        "s": "ליאת עובדת מבתי קפה כבר חמש שנים.",
-        "sEn": "Liat has been working from cafés for five years.",
-        "a": true,
-        "why": "She says אני עובדת מבתי קפה כבר חמש שנים, and when Uri asks, she says she isn't sick of it."
+        "s": "לליאת כבר נמאס לעבוד מבתי קפה.",
+        "sEn": "Liat is already fed up with working from cafés.",
+        "a": false,
+        "why": "When Uri asks ולא נמאס לך?, she answers ממש לא, 'not at all': after five years she still prefers cafés, because the energy helps her concentrate."
       },
       {
         "s": "לפי סאמר, רוב הלקוחות הקבועים כועסים על הכלל החדש.",
@@ -479,8 +479,8 @@
       },
       {
         "s": "A",
-        "he": "איתי באולפן ד״ר יוליה גורדון, חוקרת תחבורה עירונית, וחאלד מנסור, יו״ר איגוד בעלי העסקים במרכז העיר. ערב טוב לשניכם.",
-        "en": "With me in the studio are Dr. Yulia Gordon, an urban transport researcher, and Khaled Mansour, chair of the city-centre business owners' association. Good evening to you both."
+        "he": "איתנו באולפן ד״ר יוליה גורדון, חוקרת תחבורה עירונית, וחאלד מנסור, יו״ר איגוד בעלי העסקים במרכז העיר. ערב טוב לשניכם.",
+        "en": "With us in the studio are Dr. Yulia Gordon, an urban transport researcher, and Khaled Mansour, chair of the city-centre business owners' association. Good evening to you both."
       },
       {
         "s": "C",
@@ -494,8 +494,8 @@
       },
       {
         "s": "B",
-        "he": "קודם כול, כי שטח ברחוב הוא משאב מוגבל. מכונית חונה תופסת יותר מעשרה מטרים רבועים, ורוב שעות היממה היא פשוט עומדת.",
-        "en": "First of all, because street space is a limited resource. A parked car takes up more than ten square metres, and for most hours of the day it simply stands there."
+        "he": "קודם כול, כי שטח ברחוב הוא משאב מוגבל. מקום חנייה אחד תופס יותר מעשרה מטרים רבועים, ורוב שעות היממה המכונית פשוט עומדת בו.",
+        "en": "First of all, because street space is a limited resource. A single parking space takes up more than ten square metres, and for most hours of the day the car simply stands in it."
       },
       {
         "s": "B",
@@ -504,8 +504,8 @@
       },
       {
         "s": "A",
-        "he": "חאלד מנסור, אתה מחייך, אבל אני מניחה שאתה רואה את זה אחרת.",
-        "en": "Khaled Mansour, you're smiling, but I assume you see it differently."
+        "he": "חאלד מנסור, אתה מחייך, ואני מניחה שאתה רואה את זה אחרת.",
+        "en": "Khaled Mansour, you're smiling, and I assume you see it differently."
       },
       {
         "s": "C",
@@ -589,7 +589,7 @@
       },
       {
         "s": "A",
-        "he": "שקיפות ושיתוף ציבור. ייתכן שאלה הדברים הקשים ביותר בתכנון עירוני. ד״ר יוליה גורדון, חאלד מנסור, תודה רבה לשניכם.",
+        "he": "שקיפות ושיתוף הציבור. ייתכן שאלה הדברים הקשים ביותר בתכנון עירוני. ד״ר יוליה גורדון, חאלד מנסור, תודה רבה לשניכם.",
         "en": "Transparency and public participation. Those may well be the hardest things in urban planning. Dr. Yulia Gordon, Khaled Mansour, thank you both very much."
       },
       {
@@ -602,11 +602,11 @@
       {
         "q": "מה הטענה הראשונה של ד״ר גורדון בעד שבילי אופניים?",
         "qEn": "What is Dr. Gordon's first argument for bike lanes?",
-        "answer": "שהשטח ברחוב הוא משאב מוגבל, ומכונית חונה תופסת הרבה מקום ורוב היום היא רק עומדת.",
-        "answerEn": "That street space is a limited resource, and a parked car takes up a lot of room and just stands there most of the day.",
+        "answer": "שהשטח ברחוב הוא משאב מוגבל: מקום חנייה תופס הרבה שטח, והמכונית עומדת בו רוב היום.",
+        "answerEn": "That street space is a limited resource: a parking space takes up a lot of room, and the car stands in it most of the day.",
         "keywords": [
           ["משאב", "מוגבל"],
-          ["תופסת", "שטח", "מקום", "מטרים"]
+          ["תופס", "תופסת", "שטח", "מקום", "מטרים", "עומדת"]
         ]
       },
       {
@@ -642,7 +642,7 @@
         ]
       },
       {
-        "q": "על מה שני המשתתפים מסכימים בסוף?",
+        "q": "על מה שני האורחים מסכימים בסוף?",
         "qEn": "What do the two guests agree on in the end?",
         "answer": "על מעבר הדרגתי: קודם לבנות חניונים ולשפר את התחבורה הציבורית, ורק אחר כך לצמצם חניות.",
         "answerEn": "On a gradual transition: first build car parks and improve public transport, and only then reduce parking.",
@@ -693,7 +693,7 @@
       {
         "he": "להבחין בין... לבין...",
         "en": "to distinguish between... and...",
-        "note": "Formal and precise; the second item takes לבין. In casual speech people also say בין... ל..."
+        "note": "Formal and precise. Both בין... לבין... and בין... ל... are correct; לבין is especially common in formal speech and with longer phrases: להבחין בין עובדות לבין דעות."
       },
       {
         "he": "להפריז בהערכת...",

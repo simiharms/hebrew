@@ -4,11 +4,11 @@
     "level": "A1",
     "title": "The present tense",
     "titleHe": "זמן הווה",
-    "summary": "Four forms for every verb (masculine, feminine, singular, plural): the regular pa'al pattern, guttural endings, hollow and final-heh verbs, and לא for 'not'.",
+    "summary": "Four forms for every verb (m. sg., f. sg., m. pl., f. pl.): the regular pa'al pattern, guttural endings, hollow and final-heh verbs, and לא for 'not'.",
     "sections": [
       {
         "h": "Four forms, and the pronoun does the rest",
-        "body": "The Hebrew present tense is simpler than it looks: every verb has just four present forms. They change for gender (masculine or feminine) and number (singular or plural), but not for person. So אני כותב (aní kotév, I write — said by a man), אתה כותב (atá kotév, you write — to a man) and הוא כותב (hu kotév, he writes) all use the same verb form.\n\nBecause the verb doesn't show who is acting, the pronoun or subject is never left out in the present: אני גר בחיפה (aní gar be-khéifa, I live in Haifa) — not ✗ גר בחיפה.\n\n• A woman says אני כותבת (aní kotévet); a man says אני כותב.\n• A mixed group of men and women takes the masculine plural: דני ומיכל כותבים (dáni u-mikhál kotvím, Danny and Michal are writing).\n• The feminine plural is only for a group that is entirely female: נועה ושירה כותבות (nó'a ve-shíra kotvót).\n• One Hebrew form covers English 'I work', 'I'm working' and 'I do work': היא עובדת עכשיו (hi ovédet akhsháv, she is working now); היא עובדת בבנק (hi ovédet ba-bank, she works at a bank).",
+        "body": "The Hebrew present tense is simpler than it looks: every verb has just four present forms. They change for gender (masculine or feminine) and number (singular or plural), but not for person. So אני כותב (aní kotév, I write — said by a man), אתה כותב (atá kotév, you write — to a man) and הוא כותב (hu kotév, he writes) all use the same verb form.\n\nBecause the verb doesn't show who is acting, a present-tense sentence needs its pronoun or subject: אני גר בחיפה (aní gar be-khéifa, I live in Haifa). On its own, גר בחיפה doesn't say who lives there.\n\n• A woman says אני כותבת (aní kotévet); a man says אני כותב.\n• A mixed group of men and women takes the masculine plural: דני ומיכל כותבים (dáni u-mikhál kotvím, Danny and Michal are writing).\n• The feminine plural is only for a group that is entirely female: נועה ושירה כותבות (nó'a ve-shíra kotvót, Noa and Shira are writing).\n• One Hebrew form covers English 'I work', 'I'm working' and 'I do work': היא עובדת עכשיו (hi ovédet akhsháv, she is working now); היא עובדת בבנק (hi ovédet ba-bank, she works at a bank).",
         "table": [
           ["Pronoun", "Say it", "Meaning", "Present form"],
           ["אני", "aní", "I", "כותב / כותבת"],
@@ -36,7 +36,7 @@
       },
       {
         "h": "Gutturals: shomá'at, sho'alím",
-        "body": "The letters א, ה, ח and ע are called gutturals ('throat letters'). They change the vowels around them, but the spelling stays perfectly regular.\n\n• When the last root letter is ח or ע, the feminine singular ends in -at, not -et: שומעת (shomá'at, hears), יודעת (yodá'at, knows), נוסעת (nosá'at, travels, goes by vehicle), פותחת (potákhat, opens), שולחת (sholákhat, sends). The masculine slips a short a in before the guttural: שומע (shoméa), פותח (potéakh).\n• When the middle root letter is a guttural, the plural keeps a short a after it: שואלים (sho'alím, ask), אוהבים (ohavím, love), בוחרים (bokharím, choose). Compare כותבים (kotvím), with no vowel in that place.\n• A guttural as the first root letter changes nothing in the present: עובד, אוכל, חושב are fully regular.\n\nFor example: נגה יודעת את התשובה (nóga yodá'at et ha-tshuvá) — Noga knows the answer.",
+        "body": "The letters א, ה, ח and ע are called gutturals ('throat letters'). They change the vowels around them, but the spelling stays perfectly regular.\n\n• When the last root letter is ח or ע, the feminine singular ends in -at, not -et: שומעת (shomá'at, hears), יודעת (yodá'at, knows), נוסעת (nosá'at, travels, goes by vehicle), פותחת (potákhat, opens), שולחת (sholákhat, sends). The masculine slips a short a in before the guttural: שומע (shoméa), פותח (potéakh).\n• When the middle root letter is a guttural, the plural keeps a short a after it: שואלים (sho'alím, ask), אוהבים (ohavím, love), בוחרים (bokharím, choose). Compare כותבים (kotvím), with no vowel in that place.\n• A guttural as the first root letter changes nothing in the present: עובד, אוכל, חושב are fully regular.\n\nFor example: תמר יודעת את התשובה (tamár yodá'at et ha-tshuvá) — Tamar knows the answer.",
         "table": [
           ["Form", "לשמוע (to hear)", "Say it", "לשאול (to ask)", "Say it"],
           ["m. sg.", "שומע", "shoméa", "שואל", "sho'él"],
@@ -47,13 +47,13 @@
       },
       {
         "h": "Hollow verbs: gar, gára, garím, garót",
-        "body": "Some roots have ו or י as their middle letter: ג.ו.ר (live, reside), ב.ו.א (come), ק.ו.ם (get up), ש.י.ר (sing). In the present tense that middle letter disappears completely, leaving a one-syllable masculine form with the vowel a: גר (gar), בא (ba), קם (kam), שר (shar).\n\n• Feminine singular: add -ה, with the stress on the first syllable: גרה (gára), קמה (káma), באה (bá'a). שרה (sára, she sings) is spelled just like the name Sarah.\n• The plurals are regular: גרים (garím), גרות (garót).\n\nThe infinitive keeps the middle letter — לגור, לבוא, לקום, לשיר — and that is how you recognise these verbs in a dictionary. Other common ones: לרוץ (to run) → רץ, לשים (to put) → שם, לטוס (to fly) → טס.",
+        "body": "Some roots have ו or י as their middle letter: ג.ו.ר (live, reside), ב.ו.א (come), ק.ו.ם (get up), ש.י.ר (sing). In the present tense that middle letter disappears completely, leaving a one-syllable masculine form with the vowel a: גר (gar), בא (ba), קם (kam), שר (shar).\n\n• Feminine singular: add -ה, with the stress on the first syllable: גרה (gára), קמה (káma), באה (bá'a). שרה (shára, sings) is spelled just like the name Sarah (sára), but it is said with sh.\n• The plurals are regular: גרים (garím), גרות (garót).\n\nThe infinitive keeps the middle letter — לגור, לבוא, לקום, לשיר — and that is how you recognise these verbs in a dictionary. Other common ones: לרוץ (to run) → רץ, לשים (to put) → שם, לטוס (to fly) → טס.",
         "table": [
           ["Infinitive", "m. sg.", "f. sg.", "m. pl.", "f. pl."],
           ["לגור (to live)", "גר (gar)", "גרה (gára)", "גרים (garím)", "גרות (garót)"],
           ["לבוא (to come)", "בא (ba)", "באה (bá'a)", "באים (ba'ím)", "באות (ba'ót)"],
           ["לקום (to get up)", "קם (kam)", "קמה (káma)", "קמים (kamím)", "קמות (kamót)"],
-          ["לשיר (to sing)", "שר (shar)", "שרה (sára)", "שרים (sharím)", "שרות (sharót)"]
+          ["לשיר (to sing)", "שר (shar)", "שרה (shára)", "שרים (sharím)", "שרות (sharót)"]
         ]
       },
       {
@@ -200,7 +200,7 @@
       },
       {
         "h": "Having: יש לי, אין לנו",
-        "body": "Hebrew has no verb 'to have'. Instead it says 'there is to me': יש + ל + the owner.\n\n• יש לי אח ושתי אחיות (yesh li akh u-shtéi akhayót) — I have a brother and two sisters.\n• אין לי זמן היום (ein li zman ha-yóm) — I don't have time today.\n• לדנה יש אוטו חדש (le-dána yesh óto khadásh) — Dana has a new car.\n\nWith a pronoun, ל takes an ending: לי, לך, לו… (see the table). With a name or a noun, ל is attached at the front: לדנה יש…, לאבא שלי יש… (le-ába shelí yesh…, my dad has…).\n\nThe word order is flexible: יש לי שאלה and לי יש שאלה both mean 'I have a question'. Putting the owner first (לדנה יש…, לנו אין…) gives the owner a little extra weight, rather like 'As for Dana, she has…'.",
+        "body": "Hebrew has no verb 'to have'. Instead it says 'there is to me': יש + ל + the owner.\n\n• יש לי אח ושתי אחיות (yesh li akh u-shtéi akhayót) — I have a brother and two sisters.\n• אין לי זמן היום (ein li zman ha-yóm) — I don't have time today.\n• לדנה יש אוטו חדש (le-dána yesh óto khadásh) — Dana has a new car.\n\nWith a pronoun, ל takes an ending: לי, לך, לו… (see the table). With a name or a noun, ל is attached at the front: לדנה יש…, לאבא שלי יש… (le-ába shelí yesh…, my dad has…).\n\nThe word order is flexible. With a pronoun the usual order is יש לי שאלה (I have a question); לי יש שאלה is also correct and puts a little extra weight on the owner, rather like 'I, for my part, have a question'. With a name or a noun, the owner usually comes first: לדנה יש אוטו חדש, though יש לדנה אוטו חדש is correct too.",
         "table": [
           ["Owner", "ל + owner", "Say it", "Example"],
           ["אני", "לי", "li", "יש לי אח"],
@@ -217,7 +217,7 @@
       },
       {
         "h": "של: of, belonging to",
-        "body": "של (shel) means 'of' or 'belonging to'. The thing owned comes first, then של, then the owner — the reverse of English 'Dana's book':\n\n• הספר של דנה (ha-séfer shel dána) — Dana's book (literally 'the book of Dana')\n• המשרד של החברה (ha-misrád shel ha-khevrá) — the company's office\n• הבית של ההורים שלי (ha-báyit shel ha-horím shelí) — my parents' house\n\nThe owned thing normally takes ה, because it is a specific one: הטלפון שלי (my phone), not ✗ טלפון שלי. Without ה the meaning becomes 'a … of mine': חבר שלי (khavér shelí) is 'a friend of mine'. Careful: with ה, החבר שלי often means 'my boyfriend', and החברה שלי (ha-khaverá shelí) 'my girlfriend' — the same letters, said khevrá, also mean 'company', so context decides.\n\nThe של form can also stand on its own, like English 'mine, yours': זה שלי (ze shelí) — It's mine."
+        "body": "של (shel) means 'of' or 'belonging to'. The thing owned comes first, then של, then the owner — the reverse of English 'Dana's book':\n\n• הספר של דנה (ha-séfer shel dána) — Dana's book (literally 'the book of Dana')\n• המשרד של החברה (ha-misrád shel ha-khevrá) — the company's office\n• הבית של ההורים שלי (ha-báyit shel ha-horím shelí) — my parents' house\n\nFor 'my phone', 'your bag' and so on, the owned thing takes ה, because it is a specific one: הטלפון שלי (ha-telefón shelí, my phone). Without ה the meaning becomes 'a … of mine': חבר שלי (khavér shelí) is 'a friend of mine'. Careful: with ה, החבר שלי usually means 'my boyfriend', and החברה שלי (ha-khaverá shelí) 'my girlfriend'. The same letters חברה, said khevrá, also mean 'company', so החברה שלי (ha-khevrá shelí) can also be 'my company': the pronunciation and the context tell you which.\n\nThe של form can also stand on its own, like English 'mine, yours': זה שלי (ze shelí) — It's mine."
       },
       {
         "h": "שלי, שלך, שלו…: של with endings",
@@ -387,7 +387,7 @@
       },
       {
         "h": "Where is it? ליד, מול, בין, ימינה, שמאלה",
-        "body": "These words describe position. They come before the noun, and a sentence like 'the bank is next to the post office' needs no verb 'is':\n\n• הבנק ליד הדואר (ha-bank le-yád ha-dóar) — The bank is next to the post office.\n• אני גרה על יד הים (aní gára al yád ha-yám) — I live by the sea. על יד means the same as ליד.\n• בית הקפה מול התחנה (beit ha-kafé mul ha-takhaná) — The café is opposite the station.\n• החנייה בין הבניין לגינה (ha-khanayá bein ha-binyán la-giná) — The parking lot is between the building and the garden. Note the pattern: בין X ל-Y (or בין X ובין Y).\n\nFor directions, ימינה (yamína) and שמאלה (smóla) mean 'to the right / to the left': they go with movement. For position use מימין (mi-yamín, on the right) and משמאל (mi-smól, on the left):\n\n• ברמזור פונים שמאלה (ba-ramzór poním smóla) — At the traffic lights, you turn left.\n• הכניסה משמאל (ha-knisá mi-smól) — The entrance is on the left.",
+        "body": "These words describe position. They come before the noun, and a sentence like 'the bank is next to the post office' needs no verb 'is':\n\n• הבנק ליד הדואר (ha-bank le-yád ha-dóar) — The bank is next to the post office.\n• אני גרה על יד הים (aní gára al yád ha-yám) — I live by the sea. על יד means the same as ליד.\n• בית הקפה מול התחנה (beit ha-kafé mul ha-takhaná) — The café is opposite the station.\n• החנייה בין הבניין לגינה (ha-khanayá bein ha-binyán la-giná) — The parking lot is between the building and the garden. Note the pattern: בין X ל-Y (or בין X ובין Y).\n\nFor directions, ימינה (yamína) and שמאלה (smóla) mean 'to the right / to the left': they go with movement (you will also hear לימין, לשמאל in the same sense). For position use מימין (mi-yamín, on the right) and משמאל (mi-smól, on the left):\n\n• ברמזור פונים שמאלה (ba-ramzór poním smóla) — At the traffic lights, you turn left.\n• הכניסה משמאל (ha-knisá mi-smól) — The entrance is on the left.",
         "table": [
           ["Word", "Say it", "Meaning", "Example"],
           ["ליד", "le-yád", "next to, near", "הבנק ליד הדואר"],
@@ -488,9 +488,9 @@
       {
         "prompt": "ברמזור פונים ___ ואז נוסעים ישר.",
         "en": "At the traffic lights you turn right and then drive straight on.",
-        "answer": ["ימינה"],
+        "answer": ["ימינה", "לימין"],
         "hint": "to the right (movement)",
-        "explain": "Direction after a verb of movement takes the -ה ending: ימינה (yamína)."
+        "explain": "Direction after a verb of movement takes the -ה ending: ימינה (yamína). לימין (le-yamín) means the same. Not מימין, which is a position: 'on the right'."
       },
       {
         "prompt": "השירותים ___, בסוף המסדרון.",

@@ -19,7 +19,7 @@
       { "s": "B", "he": "וכמה זה עולה?", "en": "And how much does it cost?" },
       { "s": "A", "he": "לפי המונה. בערך ארבעים שקל.", "en": "By the meter. About forty shekels." },
       { "s": "B", "he": "אוי, תראה, יש פקק גדול!", "en": "Oh, look, there's a big traffic jam!" },
-      { "s": "A", "he": "אין בעיה, אני מכיר דרך קצרה.", "en": "No problem, I know a shortcut." },
+      { "s": "A", "he": "אין בעיה, אני מכיר דרך אחרת.", "en": "No problem, I know another way." },
       { "s": "B", "he": "יופי, הנה התחנה! אפשר לשלם בכרטיס?", "en": "Great, here's the station! Can I pay by card?" },
       { "s": "A", "he": "בטח. שלושים ושמונה שקל, ונסיעה טובה!", "en": "Sure. Thirty-eight shekels, and have a good trip!" },
       { "s": "B", "he": "תודה רבה, ערב טוב!", "en": "Thanks a lot, have a good evening!" }
@@ -30,10 +30,10 @@
         "qEn": "Where is Neta going?",
         "answer": "לתחנת הרכבת.",
         "answerEn": "To the train station.",
-        "keywords": [["רכבת", "הרכבת"]]
+        "keywords": [["רכבת", "הרכבת", "תחנה", "תחנת"]]
       },
       {
-        "q": "כמה זמן לוקחת הנסיעה, בדרך כלל?",
+        "q": "כמה זמן לוקחת הנסיעה בדרך כלל?",
         "qEn": "How long does the ride usually take?",
         "answer": "בדרך כלל רבע שעה.",
         "answerEn": "Usually a quarter of an hour.",
@@ -61,10 +61,10 @@
         "why": "The driver says בדרך כלל רבע שעה: usually a quarter of an hour."
       },
       {
-        "s": "יש פקק, אבל הנהג מכיר דרך קצרה.",
-        "sEn": "There's a traffic jam, but the driver knows a shortcut.",
+        "s": "יש פקק, אבל הנהג מכיר דרך אחרת.",
+        "sEn": "There's a traffic jam, but the driver knows another way.",
         "a": true,
-        "why": "Neta sees a big jam (יש פקק גדול), and the driver answers אין בעיה, אני מכיר דרך קצרה."
+        "why": "Neta sees a big jam (יש פקק גדול), and the driver answers אין בעיה, אני מכיר דרך אחרת: 'no problem, I know another way'."
       },
       {
         "s": "נטע משלמת במזומן.",
@@ -88,7 +88,7 @@
       {
         "he": "כמה זה עולה?",
         "en": "How much does it cost?",
-        "note": "עולה (costs) is masculine to agree with זה. With a feminine noun it changes: כמה עולה הנסיעה?"
+        "note": "Here עולה (costs) is said olé, agreeing with זה. With a feminine noun it is spelled the same but said olá: כמה עולה הנסיעה? A taxi driver may answer לפי המונה, 'by the meter'."
       },
       {
         "he": "יש פקק",
@@ -124,7 +124,7 @@
       { "s": "A", "he": "נעים מאוד, אני מיכל. כל הארגזים האלה שלך?", "en": "Nice to meet you, I'm Michal. Are all these boxes yours?" },
       { "s": "B", "he": "כן, אנחנו משפחה גדולה.", "en": "Yes, we're a big family." },
       { "s": "A", "he": "כמה ילדים יש לכם?", "en": "How many children do you have?" },
-      { "s": "B", "he": "שלושה ילדים, וגם כלב אחד גדול.", "en": "Three kids, and one big dog too." },
+      { "s": "B", "he": "שלושה ילדים, וגם כלב גדול.", "en": "Three kids, and a big dog too." },
       { "s": "A", "he": "איזה כיף! ובמה אתה עובד?", "en": "How fun! And what do you do for work?" },
       { "s": "B", "he": "אני אופה. אני עובד בלילה וישן ביום.", "en": "I'm a baker. I work at night and sleep during the day." },
       { "s": "A", "he": "ביום? אוי, זאת בעיה.", "en": "During the day? Oh, that's a problem." },
@@ -141,9 +141,9 @@
         "keywords": [["שלושה", "שלוש", "3"]]
       },
       {
-        "q": "במה דימה עובד?",
-        "qEn": "What does Dima do for work?",
-        "answer": "הוא אופה. הוא עובד בלילה.",
+        "q": "במה דימה עובד, ומתי?",
+        "qEn": "What does Dima do for work, and when does he work?",
+        "answer": "הוא אופה, והוא עובד בלילה.",
         "answerEn": "He's a baker. He works at night.",
         "keywords": [["אופה"], ["לילה", "בלילה"]]
       },
@@ -152,7 +152,7 @@
         "qEn": "What is the problem?",
         "answer": "דימה ישן ביום, ובעלה של מיכל מנגן כל בוקר.",
         "answerEn": "Dima sleeps during the day, and Michal's husband plays every morning.",
-        "keywords": [["ישן", "ישנים", "לישון"], ["מנגן", "מתופף", "תופים", "מוזיקה"]]
+        "keywords": [["ישן", "ישנים", "לישון"], ["מנגן", "לנגן", "מתופף", "תופים", "מוזיקה"]]
       }
     ],
     "tf": [
@@ -172,7 +172,7 @@
         "s": "הכלב של דימה קטן.",
         "sEn": "Dima's dog is small.",
         "a": false,
-        "why": "Dima says כלב אחד גדול, 'one big dog'."
+        "why": "Dima says וגם כלב גדול, 'and a big dog too'."
       },
       {
         "s": "בעלה של מיכל מתופף.",
@@ -187,6 +187,11 @@
         "he": "אתה השכן החדש?",
         "en": "Are you the new neighbour?",
         "note": "A woman neighbour is שכנה, and neighbours are שכנים. To a woman: את השכנה החדשה?"
+      },
+      {
+        "he": "כל הארגזים האלה שלך?",
+        "en": "Are all these boxes yours?",
+        "note": "ארגז is a box or crate, plural ארגזים. שלך means 'yours': said shelkhá to a man and shelákh to a woman, spelled the same."
       },
       {
         "he": "כמה ילדים יש לכם?",
@@ -206,7 +211,7 @@
       {
         "he": "בעלי",
         "en": "my husband",
-        "note": "בעל + the ending ־י (my). 'My wife' is אשתי. Many people also say בן הזוג שלי / בת הזוג שלי, 'my partner'."
+        "note": "בעל + the ending ־י (my). 'My wife' is אשתי. Many people also say בן הזוג שלי / בת הזוג שלי, 'my partner'. In the scene: בעלי מתופף, 'my husband is a drummer' (תוף = drum)."
       }
     ]
   },
@@ -267,7 +272,7 @@
         "qEn": "What did Nadia do over the weekend?",
         "answer": "היא עבדה וגמרה את המצגת לפגישה עם הלקוח.",
         "answerEn": "She worked and finished the presentation for the meeting with the client.",
-        "keywords": [["עבדה", "עבדתי", "עובדת"], ["מצגת", "המצגת"]]
+        "keywords": [["עבדה", "עבדתי", "עבד", "עובדת"], ["מצגת", "המצגת"]]
       },
       {
         "q": "למה טל ועומר קונים לנדיה קפה?",

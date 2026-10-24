@@ -22,7 +22,7 @@
         "hovím"
       ],
       "fp": [
-        "הוות",
+        "הווות",
         "hovót"
       ]
     },
@@ -2372,7 +2372,7 @@
         "form": "תיפול"
       }
     ],
-    "note": "פ״נ verb like לנסוע: the נ drops in the infinitive and the future (ליפול, אפול, ייפול — double yod in ktiv male) but stays in the past and present (נפלתי, נופל). Common: נפל לי … (I dropped …), החג נופל ביום שישי (the holiday falls on a Friday), נפל לי האסימון (the penny dropped). There is no imperative in use."
+    "note": "פ״נ verb: the נ drops in the infinitive and the future (ליפול, אפול, ייפול — double yod in ktiv male) but stays in the past and present (נפלתי, נופל). Unlike לנסוע, which keeps the נ in the infinitive, ליפול loses it there too. Common: נפל לי … (I dropped …), החג נופל ביום שישי (the holiday falls on a Friday), נפל לי האסימון (the penny dropped). There is no imperative in use."
   },
   {
     "id": "verb_lagaat",
@@ -3166,7 +3166,7 @@
         "form": "יאמר"
       }
     ],
-    "note": "פ״א verb like לאכול: the future has o — יאמר (yomár); 1s אומר (omár) is spelled like the present אומר (omér). In speech the infinitive, future and imperative usually come from להגיד (אני אגיד לך, תגיד לי), while the past and present come from לומר (אמרתי, אומרים); the forms יאמר and אמור sound formal. The infinitive לומר is pronounced lomár, with no א sound; in formal texts you'll also see לאמור (le'emór), 'namely'. Set phrases: כלומר (that is), אין מה לומר (there's nothing to say)."
+    "note": "פ״א verb like לאכול: the future has o — יאמר (yomár); 1s אומר (omár) is spelled like the present אומר (omér). In speech the infinitive, future and imperative usually come from להגיד (אני אגיד לך, תגיד לי), while the past and present come from לומר (אמרתי, אומרים); the forms יאמר and אמור sound formal. The infinitive לומר is pronounced lomár, with no א sound; in formal texts you'll also see לאמור (lemór), 'as follows, namely'. Set phrases: כלומר (that is), אין מה לומר (there's nothing to say)."
   },
   {
     "id": "verb_lifkhod",

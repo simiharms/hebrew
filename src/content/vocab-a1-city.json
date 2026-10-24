@@ -25,7 +25,7 @@
     "level": "A1",
     "topic": "city",
     "ex": { "he": "יש בנק ליד הבית שלי.", "en": "There's a bank near my house." },
-    "note": "A branch is a סניף: הסניף של הבנק = the bank's branch."
+    "note": "A branch is a סניף: סניף בנק = a bank branch. A bank account is a חשבון בנק."
   },
   {
     "id": "va1c_doar",
@@ -66,7 +66,7 @@
     "level": "A1",
     "topic": "city",
     "ex": { "he": "אנחנו הולכים לגינה עם הילדים.", "en": "We're going to the playground with the kids." },
-    "note": "A small neighbourhood park, usually with a playground (גינה ציבורית), or a private garden. גינת כלבים = dog park. Same root as גן (garden)."
+    "note": "A small public garden in the neighbourhood (גינה ציבורית), usually with a playground, or a private garden. Parents say הולכים לגינה for \"going to the playground\". גינת כלבים = a dog park. Same root as גן (garden)."
   },
   {
     "id": "va1c_beit_kneset",
@@ -149,7 +149,7 @@
     "plural": "גני ילדים",
     "level": "A1",
     "topic": "city",
-    "ex": { "he": "הבן שלנו בגן ילדים.", "en": "Our son is in kindergarten." },
+    "ex": { "he": "יש גן ילדים חדש ליד הבית.", "en": "There's a new kindergarten near the house." },
     "note": "Usually just גן: היא בגן = she's at kindergarten (roughly ages 3–6). The teacher is the גננת."
   },
   {
@@ -166,7 +166,7 @@
     "level": "A1",
     "topic": "city",
     "ex": { "he": "אני לוקחת ספרים מהספרייה.", "en": "I borrow books from the library." },
-    "note": "False friend: a library, not a bookshop (that's חנות ספרים). Also a bookcase at home. Same root as ספר (book)."
+    "note": "A library, not a bookshop (that's חנות ספרים). At home it can also be a bookcase. Same root as ספר (book)."
   },
   {
     "id": "va1c_muzeon",
@@ -179,7 +179,7 @@
     "level": "A1",
     "topic": "city",
     "ex": { "he": "המוזיאון פתוח גם בשבת.", "en": "The museum is open on Saturday too." },
-    "note": "Stress on the last syllable: muze'ón. מוזיאון ישראל in Jerusalem is the best known."
+    "note": "Stress on the last syllable: muze'ón. מוזיאון ישראל in Jerusalem is one of the best known."
   },
   {
     "id": "va1c_misada",
@@ -308,7 +308,7 @@
     "level": "A1",
     "topic": "city",
     "ex": { "he": "הבית שלנו בין הבנק לסופר.", "en": "Our house is between the bank and the supermarket." },
-    "note": "Two patterns: בין X ל-Y (most common) or בין X ובין Y. ביני לבינך = between you and me."
+    "note": "Two patterns: בין X ל-Y (most common) or בין X לבין Y (more formal, and the usual one with pronouns: ביני לבינך = between you and me)."
   },
   {
     "id": "va1c_meakhorei",
@@ -320,7 +320,7 @@
     "level": "A1",
     "topic": "city",
     "ex": { "he": "החנייה מאחורי הבניין.", "en": "The parking lot is behind the building." },
-    "note": "Without a noun after it, say מאחור (me'akhór) = at the back. The opposite is לפני (in front of)."
+    "note": "Without a noun after it, say מאחור (me'akhór), colloquially מאחורה = at the back. The opposite is לפני (in front of)."
   },
   {
     "id": "va1c_rakhok",
@@ -374,7 +374,7 @@
     "level": "A1",
     "topic": "city",
     "ex": { "he": "הסופר פתוח עד עשר בלילה.", "en": "The supermarket is open until ten at night." },
-    "note": "Short for סופרמרקט, and what everyone says. Careful: the same letters also spell סופר (sofér) = writer."
+    "note": "Short for סופרמרקט, and what everyone says (in speech the plural is often just סופרים). Careful: the same letters also spell סופר (sofér) = writer."
   },
   {
     "id": "va1c_binyan",
@@ -399,6 +399,7 @@
     "pos": "noun",
     "gender": "m",
     "plural": "מרכזים",
+    "root": "ר.כ.ז",
     "level": "A1",
     "topic": "city",
     "ex": { "he": "המשרד שלי במרכז העיר.", "en": "My office is in the city center." },
@@ -460,7 +461,7 @@
     "level": "A2",
     "topic": "city",
     "ex": { "he": "אסור לחנות על המדרכה.", "en": "You're not allowed to park on the sidewalk." },
-    "note": "Same root as דרך (way, road)."
+    "note": "Same root as דרך (way, road). In the example, לחנות is the verb \"to park\", not the noun חנות (shop)."
   },
   {
     "id": "va1c_gesher",
@@ -590,7 +591,6 @@
     "he": "חדר",
     "tr": "khéder",
     "en": "room",
-    "enAlt": ["bedroom"],
     "pos": "noun",
     "gender": "m",
     "plural": "חדרים",
@@ -611,7 +611,7 @@
     "level": "A1",
     "topic": "home",
     "ex": { "he": "אנחנו רואים טלוויזיה בסלון.", "en": "We watch TV in the living room." },
-    "note": "Israelis count the סלון as a room: a three-room apartment has a living room and two bedrooms. Not a hair salon (that's a מספרה)."
+    "note": "Israelis count the סלון as a room: a three-room apartment has a living room and two bedrooms. A hairdresser's is a מספרה."
   },
   {
     "id": "va1c_mitbakh",
@@ -682,7 +682,7 @@
     "level": "A1",
     "topic": "home",
     "ex": { "he": "בערב אנחנו יושבים במרפסת.", "en": "In the evening we sit on the balcony." },
-    "note": "Most Israeli apartments have one. מרפסת שירות = a small utility balcony for laundry."
+    "note": "Very common in Israeli apartments. מרפסת שירות = a small utility balcony for laundry."
   },
   {
     "id": "va1c_mita",
@@ -774,7 +774,7 @@
     "he": "תנור",
     "tr": "tanúr",
     "en": "oven",
-    "enAlt": ["stove", "heater"],
+    "enAlt": ["heater"],
     "pos": "noun",
     "gender": "m",
     "plural": "תנורים",
@@ -1068,8 +1068,8 @@
     "gender": "m",
     "level": "A1",
     "topic": "food",
-    "ex": { "he": "יש מסעדת בשר טובה ברחוב שלנו.", "en": "There's a good meat restaurant on our street." },
-    "note": "A mass noun. בשרי = meat (as a kosher category), the opposite of חלבי (dairy); kosher places serve one or the other."
+    "ex": { "he": "אני לא אוכלת הרבה בשר.", "en": "I don't eat a lot of meat." },
+    "note": "A mass noun. בשרי = meat (as a kosher category), the opposite of חלבי (dairy); a kosher restaurant is usually one or the other. A steakhouse is a מסעדת בשרים."
   },
   {
     "id": "va1c_yerek",

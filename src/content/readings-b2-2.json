@@ -20,8 +20,8 @@
         "en": "However, behind the glittering picture lies a more complex reality. Economists often speak of a \"two-speed economy\": on the one hand an advanced technology sector, in which productivity and wages are particularly high, and on the other hand traditional sectors such as retail, services and construction, in which productivity is below the average in developed countries. High-tech employs only a relatively small share of all workers, so most of the public does not benefit directly from the fruits of the success. Some even argue that it pays part of the price, for example through rising housing prices in high-demand areas."
       },
       {
-        "he": "חולשה נוספת נוגעת למבנה הענף עצמו. חברות רבות נוסדות מתוך כוונה להימכר לתאגיד בינלאומי בתוך כמה שנים, וה\"אקזיט\" נתפס בעיני רבים כפסגת ההצלחה. מכירה כזאת אמנם מעשירה את המייסדים ואת המשקיעים, אך לעיתים קרובות מרכז הפעילות והידע עובר בעקבותיה לחו״ל. בנוסף, הענף תלוי במידה רבה בהון זר ובמצב השווקים העולמיים, כך שהאטה בכלכלה האמריקאית, למשל, מורגשת כאן כמעט מיד. גם המחסור בעובדים מיומנים מעיב על הצמיחה, בין היתר משום שנשים וקבוצות שונות באוכלוסייה עדיין מיוצגות בחסר במקצועות ההנדסה.",
-        "en": "Another weakness concerns the structure of the sector itself. Many companies are founded with the intention of being sold to an international corporation within a few years, and the \"exit\" is seen by many as the peak of success. Such a sale does enrich the founders and the investors, but often the centre of activity and knowledge moves abroad as a result. In addition, the sector depends to a great extent on foreign capital and on the state of world markets, so that a slowdown in the American economy, for example, is felt here almost immediately. The shortage of skilled workers also casts a shadow over growth, partly because women and various groups in the population are still underrepresented in engineering professions."
+        "he": "חולשה נוספת נוגעת למבנה הענף עצמו. חברות רבות נוסדות מתוך כוונה להימכר לתאגיד בינלאומי בתוך כמה שנים, וה\"אקזיט\" נתפס בעיני רבים כפסגת ההצלחה. מכירה כזאת אמנם מעשירה את המייסדים ואת המשקיעים, אך בעקבותיה השליטה בחברה ובידע שפיתחה עוברת לחו״ל. בנוסף, הענף תלוי במידה רבה בהון זר ובמצב השווקים העולמיים, כך שהאטה בכלכלה האמריקאית, למשל, מורגשת כאן כמעט מיד. גם המחסור בעובדים מיומנים מעיב על הצמיחה, בין היתר משום שנשים וקבוצות שונות באוכלוסייה עדיין מיוצגות בחסר במקצועות ההנדסה.",
+        "en": "Another weakness concerns the structure of the sector itself. Many companies are founded with the intention of being sold to an international corporation within a few years, and the \"exit\" is seen by many as the peak of success. Such a sale does enrich the founders and the investors, but as a result control of the company and of the knowledge it has developed moves abroad. In addition, the sector depends to a great extent on foreign capital and on the state of world markets, so that a slowdown in the American economy, for example, is felt here almost immediately. The shortage of skilled workers also casts a shadow over growth, partly because women and various groups in the population are still underrepresented in engineering professions."
       },
       {
         "he": "האם מדובר, אם כן, במיתוס? נראה שהתשובה מורכבת. ההישגים אמיתיים, והם מקור לגאווה ולהכנסות ממסים שהמדינה כולה נשענת עליהן. עם זאת, הצלחה של ענף אחד אינה מבטיחה שגשוג לכלל החברה. האתגר של השנים הקרובות הוא אפוא לא רק להקים עוד חברות הזנק, אלא להפיץ את הידע, את ההכשרה ואת ההזדמנויות גם אל מחוץ למגדלי המשרדים של תל אביב והרצליה – כדי שהכינוי \"אומת הסטארט-אפ\" יתאר את האומה כולה, ולא רק חלק ממנה.",
@@ -80,11 +80,11 @@
       {
         "q": "למה ה\"אקזיט\" אינו תמיד טוב למשק הישראלי?",
         "qEn": "Why is the \"exit\" not always good for the Israeli economy?",
-        "answer": "כי לעיתים קרובות הפעילות והידע עוברים לחו״ל.",
-        "answerEn": "Because the activity and the knowledge often move abroad.",
+        "answer": "כי השליטה בחברה ובידע שלה עוברת לחו״ל.",
+        "answerEn": "Because control of the company and of its knowledge moves abroad.",
         "keywords": [
-          ["חו״ל", "חוץ לארץ", "מחוץ"],
-          ["ידע", "פעילות", "מרכז"]
+          ["חו״ל", "חו\"ל", "חוץ לארץ", "מחוץ", "זרים", "זר"],
+          ["שליטה", "ידע", "בעלות", "שולטים"]
         ]
       },
       {
@@ -150,8 +150,8 @@
         "hint": "low (נמוך מ = lower than)"
       },
       {
-        "prompt": "כשחברה נמכרת לתאגיד בינלאומי, הידע עובר לעיתים קרובות ___.",
-        "en": "When a company is sold to an international corporation, the knowledge often moves abroad.",
+        "prompt": "כשחברה נמכרת לתאגיד בינלאומי, השליטה בחברה ובידע שלה עוברת ___.",
+        "en": "When a company is sold to an international corporation, control of the company and of its knowledge moves abroad.",
         "answer": ["לחו״ל", "לחו\"ל", "לחוץ לארץ"],
         "hint": "abroad"
       },
@@ -190,16 +190,16 @@
         "en": "When Alexander bought an expensive coffee machine on a website, he was sure he had made a wise decision. But after just two days he realised that the machine was too noisy and took up half the kitchen counter. \"I was convinced there was nothing I could do,\" he says. \"Only when a friend suggested I check what my rights were did I understand that the deal could be cancelled.\" Alexander's story is not unusual: many consumers regret a purchase, but only a few know what they are entitled to."
       },
       {
-        "he": "מומחים לדיני צרכנות מסבירים כי זכות הביטול תלויה קודם כול בדרך שבה בוצעה הרכישה. כאשר מוצר נרכש בעסקת מכר מרחוק – באינטרנט, בטלפון או מתוך קטלוג – הצרכן רשאי בדרך כלל לבטל את העסקה בתוך שבועיים מקבלת המוצר, גם אם הוא תקין לחלוטין ופשוט לא מצא חן בעיניו. ההיגיון פשוט: מי שקונה בלי לראות את המוצר ולגעת בו אינו יכול לדעת מראש אם הוא מתאים לצרכיו.",
-        "en": "Consumer-law experts explain that the right to cancel depends first of all on the way the purchase was made. When a product is bought in a distance sale – online, by phone or from a catalogue – the consumer is usually entitled to cancel the deal within two weeks of receiving the product, even if it is in perfect working order and they simply didn't like it. The logic is simple: someone who buys without seeing and touching the product cannot know in advance whether it suits their needs."
+        "he": "מומחים לדיני צרכנות מסבירים כי זכות הביטול תלויה קודם כול בדרך שבה בוצעה הרכישה. כאשר מוצר נרכש בעסקת מכר מרחוק – באינטרנט, בטלפון או מתוך קטלוג – הצרכן רשאי בדרך כלל לבטל את העסקה בתוך שבועיים מקבלת המוצר, גם אם הוא תקין לחלוטין ופשוט לא מצא חן בעיניו. ההיגיון ברור: מי שקונה בלי לראות את המוצר ולגעת בו אינו יכול לדעת מראש אם הוא מתאים לצרכיו.",
+        "en": "Consumer-law experts explain that the right to cancel depends first of all on the way the purchase was made. When a product is bought in a distance sale – online, by phone or from a catalogue – the consumer is usually entitled to cancel the deal within two weeks of receiving the product, even if it is in perfect working order and they simply didn't like it. The logic is clear: someone who buys without seeing and touching the product cannot know in advance whether it suits their needs."
       },
       {
-        "he": "המצב מורכב יותר כשהקנייה נעשית בחנות. כאן הכללים משתנים לפי סוג המוצר ונסיבות הקנייה, ולכן כדאי לבדוק מראש את מדיניות ההחזרה של העסק. העסקים מחויבים להציג את המדיניות הזאת במקום בולט, כדי שהלקוחות יוכלו להכיר אותה לפני התשלום. לא מעט קונים מגלים בשלב הזה שבמקום כסף הם יקבלו רק זיכוי לקנייה הבאה. חשוב גם להבחין בין מוצר שפשוט לא מצא חן בעיני הקונה לבין מוצר פגום: על מוצר פגום חלים כללים אחרים, ובדרך כלל העסק נדרש לתקן אותו או להחליף אותו.",
-        "en": "The situation is more complicated when the purchase is made in a shop. Here the rules vary according to the type of product and the circumstances of the purchase, so it is worth checking the business's return policy in advance. Businesses are obliged to display this policy prominently, so that customers can become familiar with it before paying. Quite a few shoppers discover at this stage that instead of money they will only receive a credit note for their next purchase. It is also important to distinguish between a product the buyer simply didn't like and a defective product: different rules apply to a defective product, and the business is usually required to repair or replace it."
+        "he": "המצב מורכב יותר כשהקנייה נעשית בחנות. כאן הכללים משתנים לפי סוג המוצר ונסיבות הקנייה, ולכן כדאי לבדוק מראש את מדיניות ההחזרה של העסק. ככלל, העסקים מחויבים להציג את המדיניות הזאת במקום בולט, כדי שהלקוחות יוכלו להכיר אותה לפני התשלום. לא מעט קונים מגלים בשלב הזה שבמקרים מסוימים יקבלו במקום כסף רק זיכוי לקנייה הבאה. חשוב גם להבחין בין מוצר שפשוט לא מצא חן בעיני הקונה לבין מוצר פגום: על מוצר פגום חלים כללים אחרים, ובדרך כלל העסק נדרש לתקן אותו או להחליף אותו.",
+        "en": "The situation is more complicated when the purchase is made in a shop. Here the rules vary according to the type of product and the circumstances of the purchase, so it is worth checking the business's return policy in advance. As a rule, businesses are obliged to display this policy prominently, so that customers can become familiar with it before paying. Quite a few shoppers discover at this stage that in some cases, instead of money, they will only receive a credit note for their next purchase. It is also important to distinguish between a product the buyer simply didn't like and a defective product: different rules apply to a defective product, and the business is usually required to repair or replace it."
       },
       {
-        "he": "איך מבטלים בפועל? יש להודיע לעסק על הביטול – בטלפון, בדואר אלקטרוני או באמצעות טופס באתר – ולשמור אסמכתא לכך שההודעה נשלחה. לאחר שהודעת הביטול התקבלה, הכסף אמור להיות מוחזר בתוך זמן קצר, והעסק רשאי לגבות דמי ביטול, שגובהם מוגבל בחוק. עם זאת, לא כל מוצר ניתן להחזרה. בין החריגים המוכרים נמנים מוצרי מזון, מוצרים שיוצרו במיוחד לפי הזמנת הלקוח, ותוכנות או משחקים שאריזתם נפתחה.",
-        "en": "How do you actually cancel? You must notify the business of the cancellation – by phone, by email or through a form on the website – and keep proof that the notice was sent. Once the cancellation notice has been received, the money is supposed to be refunded within a short time, and the business may charge a cancellation fee, the amount of which is limited by law. However, not every product can be returned. The well-known exceptions include food products, products made specially to the customer's order, and software or games whose packaging has been opened."
+        "he": "איך מבטלים בפועל? יש להודיע לעסק על הביטול – בטלפון, בדואר אלקטרוני או באמצעות טופס באתר – ולשמור אסמכתא לכך שההודעה נשלחה. לאחר שהודעת הביטול התקבלה, הכסף אמור להיות מוחזר בתוך זמן קצר, אך העסק רשאי לגבות דמי ביטול, שגובהם מוגבל בחוק. עם זאת, לא כל מוצר ניתן להחזרה. בין החריגים המוכרים נמנים מוצרי מזון, מוצרים שיוצרו במיוחד לפי הזמנת הלקוח, ותוכנות או משחקים שאריזתם נפתחה.",
+        "en": "How do you actually cancel? You must notify the business of the cancellation – by phone, by email or through a form on the website – and keep proof that the notice was sent. Once the cancellation notice has been received, the money is supposed to be refunded within a short time, but the business may charge a cancellation fee, the amount of which is limited by law. However, not every product can be returned. The well-known exceptions include food products, products made specially to the customer's order, and software or games whose packaging has been opened."
       },
       {
         "he": "עו״ד נדיה חורי, המתמחה בדיני צרכנות, ממליצה לא לוותר מראש. \"אם הצרכנים היו מכירים את הזכויות שלהם, הם היו חוסכים לעצמם הרבה כסף ועוגמת נפש\", היא אומרת. \"לפני כל קנייה גדולה כדאי לקרוא את תנאי העסקה, לשמור את החשבונית ולצלם את המוצר ברגע שהוא מגיע. ואם העסק מסרב לכבד את החוק, אפשר לפנות לרשות להגנת הצרכן או להגיש תביעה קטנה.\" ואלכסנדר? הוא החזיר את המכונה, שילם דמי ביטול סמליים וקנה במקומה מכונה קטנה יותר – הפעם בחנות, אחרי שבדק אותה מכל הכיוונים.",
@@ -276,7 +276,7 @@
     ],
     "tf": [
       {
-        "s": "אלכסנדר קנה את מכונת הקפה הראשונה בחנות.",
+        "s": "את מכונת הקפה הראשונה אלכסנדר קנה בחנות.",
         "sEn": "Alexander bought the first coffee machine in a shop.",
         "a": false,
         "why": "He bought it on a website; only the second, smaller machine was bought in a shop."
@@ -288,7 +288,7 @@
         "why": "Paragraph 3: businesses are obliged to display the policy prominently so customers can see it before paying."
       },
       {
-        "s": "כל מוצר שנקנה באינטרנט אפשר להחזיר.",
+        "s": "אפשר להחזיר כל מוצר שנקנה באינטרנט.",
         "sEn": "Any product bought online can be returned.",
         "a": false,
         "why": "Not every product can be returned: food, made-to-order products and opened software or games are exceptions."
@@ -378,8 +378,8 @@
         "en": "\"That's my wife,\" said the man when he saw Amos looking at the photo. \"She passed away two years ago, and since then I've been sorting out her papers. This is the third time I've come here. Each time something else is missing.\" Amos waited for the man to start getting angry, to complain about the clerks, about the bureaucracy, about everything. But the man only smiled. \"You know,\" he said, \"as long as I'm sitting here, I'm still doing something for her.\""
       },
       {
-        "he": "עמוס לא ידע מה לענות. הוא חשב על הבוקר שלו, על כל הדקות שניסה \"להרוויח\", ועל כך שהוא תמיד מחכה למשהו: לסוף הפרויקט, לחופשה הבאה, ליום שבו יהיה לו סוף סוף זמן. פתאום עלתה בו מחשבה מוזרה: אולי השעות האלה, שהוא תמיד מנסה לדלג עליהן, הן בעצם החיים עצמם.",
-        "en": "Amos didn't know what to answer. He thought about his morning, about all the minutes he had tried to \"gain\", and about how he is always waiting for something: for the end of the project, for the next holiday, for the day when he will finally have time. Suddenly a strange thought rose in him: perhaps these hours, which he always tries to skip, are in fact life itself."
+        "he": "עמוס לא ידע מה לענות. הוא חשב על הבוקר שלו, על כל הדקות שניסה \"להרוויח\", ועל כך שהוא תמיד מחכה למשהו: לסוף הפרויקט, לחופשה הבאה, ליום שבו יהיה לו סוף סוף זמן. פתאום עלתה בו מחשבה מוזרה: אולי דווקא השעות האלה, שהוא תמיד מנסה לדלג עליהן, הן החיים עצמם.",
+        "en": "Amos didn't know what to answer. He thought about his morning, about all the minutes he had tried to \"gain\", and about how he is always waiting for something: for the end of the project, for the next holiday, for the day when he will finally have time. Suddenly a strange thought came to him: perhaps it is precisely these hours, which he always tries to skip, that are life itself."
       },
       {
         "he": "על המסך הופיע המספר 213. האיש הזקן קם, הניח לרגע יד על כתפו של עמוס ופנה אל הדלפק. עמוס נשאר לשבת, והפעם לא חיפש במה להעסיק את עצמו. הוא הסתכל סביבו: אמא צעירה שניסתה להרדים תינוק, נער ששינן משהו מתוך מחברת, פקידה שהסבירה בסבלנות, בפעם המי יודע כמה, איזה טופס צריך למלא. כשהמספר 247 הבהב סוף סוף על המסך, הוא הופתע לגלות שהוא כמעט מצטער שהגיע תורו.",
@@ -397,10 +397,10 @@
       { "he": "גומייה", "en": "rubber band", "tr": "gumiyá" },
       { "he": "להתפזר", "en": "to scatter (התפזרו = scattered, plural)", "tr": "lehitpazér" },
       { "he": "להתכופף", "en": "to bend down (התכופף = he bent down)", "tr": "lehitkoféf" },
-      { "he": "להיפטר", "en": "to pass away (נפטרה = she passed away)", "tr": "lehipatér" },
+      { "he": "להיפטר", "en": "to pass away (נפטרה = she passed away); note: להיפטר מ = to get rid of", "tr": "lehipatér" },
       { "he": "לדלג על", "en": "to skip", "tr": "ledalég al" },
       { "he": "לשנן", "en": "to memorise, go over again and again (שינן = memorised)", "tr": "leshanén" },
-      { "he": "בפעם המי יודע כמה", "en": "for the umpteenth time", "tr": "bapá'am ha-mi yodé'a kamá" }
+      { "he": "בפעם המי יודע כמה", "en": "for the umpteenth time", "tr": "bapá'am hamí yodé'a kamá" }
     ],
     "questions": [
       {
@@ -410,14 +410,14 @@
         "answerEn": "To renew his passport; he thought it would take a quarter of an hour.",
         "keywords": [
           ["דרכון"],
-          ["רבע שעה", "רבע"]
+          ["רבע שעה", "רבע", "15"]
         ]
       },
       {
         "q": "מה עמוס עשה בדקות הראשונות, ולמה הפסיק?",
         "qEn": "What did Amos do in the first few minutes, and why did he stop?",
-        "answer": "הוא קרא מיילים בטלפון, אבל הסוללה כמעט נגמרה.",
-        "answerEn": "He read emails on his phone, but the battery almost ran out.",
+        "answer": "הוא קרא מיילים בטלפון, והפסיק כי הסוללה כמעט נגמרה.",
+        "answerEn": "He read emails on his phone, and stopped because the battery almost ran out.",
         "keywords": [
           ["מיילים", "מייל", "לעבוד", "עבד", "טלפון"],
           ["סוללה", "נגמרה", "כיבה"]
@@ -444,13 +444,13 @@
         ]
       },
       {
-        "q": "מה עמוס מבין בסוף, ואיך זה משנה את ההתנהגות שלו?",
-        "qEn": "What does Amos realise at the end, and how does it change his behaviour?",
-        "answer": "שהשעות שהוא מדלג עליהן הן החיים; הוא מסתכל על האנשים סביבו.",
-        "answerEn": "That the hours he skips are life itself; he looks at the people around him.",
+        "q": "איזו מחשבה עולה בעמוס בסוף, ואיך היא משנה את ההתנהגות שלו?",
+        "qEn": "What thought occurs to Amos at the end, and how does it change his behaviour?",
+        "answer": "שאולי השעות שהוא מדלג עליהן הן החיים; הוא מסתכל על האנשים סביבו.",
+        "answerEn": "That perhaps the hours he skips are life itself; he looks at the people around him.",
         "keywords": [
           ["חיים", "החיים"],
-          ["מסתכל", "הסתכל", "אנשים", "סביבו", "מצטער", "ממהר"]
+          ["מסתכל", "הסתכל", "להסתכל", "אנשים", "סביבו", "מצטער", "ממהר", "מעסיק", "חיפש"]
         ]
       }
     ],
@@ -500,9 +500,9 @@
         "hint": "complaint"
       },
       {
-        "prompt": "כשהתיקייה של האיש הזקן נפלה, עמוס עזר לו ___ את הדפים.",
-        "en": "When the old man's folder fell, Amos helped him gather up the pages.",
-        "answer": ["לאסוף"],
+        "prompt": "כשהדפים של האיש הזקן התפזרו על הרצפה, עמוס עזר לו ___ אותם.",
+        "en": "When the old man's pages scattered across the floor, Amos helped him gather them up.",
+        "answer": ["לאסוף", "להרים"],
         "hint": "to gather, collect"
       },
       {
@@ -525,7 +525,7 @@
       "useWords": ["בזמן ש", "פתאום", "שמתי לב", "כאילו", "בסופו של דבר"],
       "checklist": [
         { "en": "Say where you waited and for how long", "keywords": ["חיכיתי", "המתנתי", "שעות", "תור"] },
-        { "en": "Describe your feelings (patience, anger, boredom)", "keywords": ["סבלנות", "כעס", "כועסות", "הרגשתי", "שעמום"] },
+        { "en": "Describe your feelings (patience, anger, boredom)", "keywords": ["סבלנות", "כעס", "כעסתי", "כועסות", "הרגשתי", "שעמום", "השתעממתי", "התעצבנתי"] },
         { "en": "Say what you noticed (שמתי לב / ראיתי)", "keywords": ["שמתי לב", "ראיתי", "הבנתי"] },
         { "en": "Say how it ended (בסופו של דבר / בסוף)", "keywords": ["בסופו של דבר", "בסוף"] }
       ],

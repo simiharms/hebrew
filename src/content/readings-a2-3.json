@@ -8,15 +8,15 @@
     "kind": "story",
     "paragraphs": [
       {
-        "he": "ביום שלישי בבוקר אדיסו נסע לעבודה באוטובוס, כמו בכל יום. הוא ישב ליד החלון וקרא ספר. בתחנה שלו הוא קם מהר וירד, כי הוא מיהר.",
-        "en": "On Tuesday morning Adisu took the bus to work, as he does every day. He sat by the window and read a book. At his stop he got up quickly and got off, because he was in a hurry."
+        "he": "ביום שלישי בבוקר אדיסו נסע לעבודה באוטובוס, כמו בכל יום. הוא ישב ליד החלון וקרא ספר. בתחנה שלו הוא קם מהר וירד, כי הוא מיהר. הוא לא ראה שהארנק נפל מהכיס שלו.",
+        "en": "On Tuesday morning Adisu took the bus to work, as he does every day. He sat by the window and read a book. At his stop he got up quickly and got off, because he was in a hurry. He didn't see that his wallet had fallen out of his pocket."
       },
       {
         "he": "במשרד הוא רצה לקנות קפה, אבל הארנק לא היה בכיס. הוא חיפש בתיק ובמעיל, אבל לא מצא אותו. בארנק היו כרטיס אשראי, תעודת זהות ומאה שקל. אדיסו היה בלחץ.",
         "en": "At the office he wanted to buy a coffee, but the wallet wasn't in his pocket. He looked in his bag and in his coat, but didn't find it. In the wallet there were a credit card, an ID card and a hundred shekels. Adisu was stressed."
       },
       {
-        "he": "בצהריים הטלפון שלו צלצל. \"הלו, אדיסו?\" שאלה אישה. \"כן, מי מדברת?\" \"קוראים לי נטליה. מצאתי את הארנק שלך באוטובוס, מתחת לכיסא. היה בו כרטיס ביקור עם המספר שלך.\"",
+        "he": "בצהריים הטלפון שלו צלצל. \"הלו, אדיסו?\" שאלה אישה. \"כן, מי מדברת?\" \"קוראים לי נטליה. מצאתי את הארנק שלך באוטובוס, מתחת למושב. היה בו כרטיס ביקור עם המספר שלך.\"",
         "en": "At noon his phone rang. \"Hello, Adisu?\" a woman asked. \"Yes, who's speaking?\" \"My name is Natalia. I found your wallet on the bus, under a seat. There was a business card in it with your number.\""
       },
       {
@@ -27,12 +27,12 @@
     "glossary": [
       { "he": "ארנק", "en": "wallet", "tr": "arnák" },
       { "he": "מיהר", "en": "he was in a hurry (past of למהר, to hurry)", "tr": "mihér" },
-      { "he": "כיס", "en": "pocket", "tr": "kis" },
       { "he": "חיפש", "en": "he looked for, searched (past of לחפש)", "tr": "khipés" },
       { "he": "כרטיס אשראי", "en": "credit card", "tr": "kartís ashráy" },
       { "he": "תעודת זהות", "en": "ID card", "tr": "te'udát zehút" },
       { "he": "בלחץ", "en": "stressed, under pressure", "tr": "be-lákhats" },
       { "he": "צלצל", "en": "it rang (past of לצלצל, to ring)", "tr": "tsiltsél" },
+      { "he": "מושב", "en": "seat (on a bus, train or in a car)", "tr": "mosháv" },
       { "he": "כרטיס ביקור", "en": "business card", "tr": "kartís bikúr" },
       { "he": "נפגשו", "en": "they met (past of להיפגש, to meet up)", "tr": "nifgeshú" },
       { "he": "התחנה המרכזית", "en": "the central bus station", "tr": "ha-takhaná ha-merkazít" },
@@ -90,7 +90,7 @@
         "why": "He took the bus, as he does every day."
       },
       {
-        "s": "נטליה מצאה את הארנק מתחת לכיסא באוטובוס.",
+        "s": "נטליה מצאה את הארנק מתחת למושב באוטובוס.",
         "sEn": "Natalia found the wallet under a seat on the bus.",
         "a": true,
         "why": "On the phone she says she found it on the bus, under a seat."
@@ -117,14 +117,14 @@
     "summary": [
       {
         "prompt": "בבוקר אדיסו ___ את הארנק שלו באוטובוס.",
-        "en": "In the morning Adisu left his wallet behind on the bus.",
-        "answer": ["שכח", "איבד"],
-        "hint": "he forgot / he lost (past)"
+        "en": "In the morning Adisu lost his wallet on the bus.",
+        "answer": ["איבד", "שכח", "השאיר"],
+        "hint": "he lost (past)"
       },
       {
         "prompt": "בצהריים אישה בשם נטליה ___ אליו.",
         "en": "At noon a woman named Natalia called him.",
-        "answer": ["התקשרה", "טלפנה"],
+        "answer": ["התקשרה", "טלפנה", "צלצלה"],
         "hint": "she phoned (past)"
       },
       {
@@ -155,21 +155,21 @@
         { "en": "Say where you looked for it", "keywords": ["חיפשתי"] },
         { "en": "Say how the story ended", "keywords": ["בסוף", "מצאתי", "קיבלתי"] }
       ],
-      "model": "בחודש שעבר איבדתי את הטלפון שלי ברכבת לחיפה. חיפשתי אותו בתיק ובכיסים, אבל הוא לא היה שם. אז התקשרתי למספר שלי מהטלפון של חבר. אחרי כמה דקות ענה איש נחמד, עובד של הרכבת. הוא אמר שהטלפון אצלו. למחרת נסעתי לתחנה, ובסוף קיבלתי את הטלפון בחזרה. שמחתי מאוד!",
-      "modelEn": "Last month I lost my phone on the train to Haifa. I looked for it in my bag and in my pockets, but it wasn't there. So I called my number from a friend's phone. After a few minutes a nice man answered, a train employee. He said he had the phone. The next day I went to the station, and in the end I got the phone back. I was very happy!"
+      "model": "בחודש שעבר איבדתי את הטלפון שלי ברכבת לחיפה. חיפשתי אותו בתיק ובכיסים, אבל הוא לא היה שם. אז התקשרתי למספר שלי מהטלפון של חבר, ואיש נחמד ענה לי. הוא עובד ברכבת, והוא אמר שהטלפון אצלו. למחרת נסעתי לתחנה, ובסוף קיבלתי את הטלפון בחזרה. שמחתי מאוד!",
+      "modelEn": "Last month I lost my phone on the train to Haifa. I looked for it in my bag and in my pockets, but it wasn't there. So I called my number from a friend's phone, and a nice man answered. He works for the railway, and he said he had the phone. The next day I went to the station, and in the end I got the phone back. I was very happy!"
     }
   },
   {
     "id": "r_a2_gym_notice",
     "level": "A2",
-    "title": "שעות וכללים חדשים בבריכה",
-    "titleEn": "New hours and rules at the pool",
+    "title": "מרכז הספורט: שעות וכללים חדשים",
+    "titleEn": "Sports centre: new hours and rules",
     "topic": "sport",
     "kind": "notice",
     "paragraphs": [
       {
-        "he": "מנויים יקרים, מיום ראשון הבא יש לנו שעות פתיחה חדשות, וגם כמה כללים חדשים.",
-        "en": "Dear members, from next Sunday we have new opening hours, and also a few new rules."
+        "he": "מנויים יקרים, מיום ראשון הבא יהיו לנו שעות פתיחה חדשות, וגם כמה כללים חדשים.",
+        "en": "Dear members, from next Sunday we will have new opening hours, and also a few new rules."
       },
       {
         "he": "ימים א׳–ה׳: 6:00–22:00",
@@ -240,7 +240,7 @@
         "answer": "אפשר לשחות בבריכה, אבל חדר הכושר סגור.",
         "answerEn": "You can swim in the pool, but the gym is closed.",
         "keywords": [
-          ["בריכה", "לשחות", "שוחים"],
+          ["בריכה", "לשחות", "שוחים", "שחייה"],
           ["כושר", "סגור"]
         ]
       },
@@ -250,7 +250,7 @@
         "answer": "חייבים להתקלח ולשים כובע שחייה.",
         "answerEn": "You must shower and put on a swimming cap.",
         "keywords": [
-          ["להתקלח", "מתקלחים", "מקלחת"],
+          ["להתקלח", "מתקלחים", "מקלחת", "התקלחות"],
           ["כובע"]
         ]
       },
@@ -260,7 +260,7 @@
         "answer": "להירשם מראש באפליקציה, כי יש רק 20 מקומות.",
         "answerEn": "Sign up in advance in the app, because there are only 20 places.",
         "keywords": [
-          ["להירשם", "להרשם", "נרשמת", "הרשמה", "אפליקציה"],
+          ["להירשם", "להרשם", "תירשם", "נרשמת", "הרשמה", "אפליקציה"],
           ["20", "עשרים", "מקומות", "מקום"]
         ]
       }
@@ -299,8 +299,8 @@
     ],
     "summary": [
       {
-        "prompt": "מיום ראשון הבא יש במרכז הספורט שעות ___ חדשות.",
-        "en": "From next Sunday the sports centre has new opening hours.",
+        "prompt": "מיום ראשון הבא יהיו במרכז הספורט שעות ___ חדשות.",
+        "en": "From next Sunday the sports centre will have new opening hours.",
         "answer": ["פתיחה"]
       },
       {
@@ -336,8 +336,8 @@
         { "en": "Say what is allowed (מותר)", "keywords": ["מותר", "אפשר"] },
         { "en": "Say what is not allowed (אסור)", "keywords": ["אסור"] }
       ],
-      "model": "שלום לכל העובדים! המטבח במשרד פתוח בימים א׳–ה׳ מ-8:00 עד 18:00. מותר להביא אוכל מהבית ולשים אותו במקרר, אבל חייבים לכתוב עליו את השם. אסור להשאיר כלים מלוכלכים בכיור. בכל יום חמישי אנחנו מנקים את המקרר. תודה ויום טוב!",
-      "modelEn": "Hello to all employees! The office kitchen is open Sunday to Thursday from 8:00 to 18:00. You may bring food from home and put it in the fridge, but you must write your name on it. Leaving dirty dishes in the sink is not allowed. Every Thursday we clean out the fridge. Thanks and have a good day!"
+      "model": "שלום לכל השכנים! הספרייה השכונתית פתוחה בימים א׳–ה׳, ושעות הפתיחה הן 9:00–19:00. ביום ו׳ היא פתוחה רק עד 13:00, ובשבת היא סגורה. אפשר לקחת ספרים הביתה לשבועיים. מותר לשתות מים, אבל אסור לאכול ליד הספרים. חייבים לשמור על שקט, ואסור לדבר בטלפון. תודה ויום טוב!",
+      "modelEn": "Hello, neighbours! The neighbourhood library is open Sunday to Thursday, and the opening hours are 9:00–19:00. On Friday it is open only until 13:00, and on Saturday it is closed. You can take books home for two weeks. You may drink water, but eating near the books is not allowed. You must keep quiet, and talking on the phone is not allowed. Thanks and have a good day!"
     }
   },
   {
@@ -366,7 +366,7 @@
       },
       {
         "he": "דניאל: אני אביא יין ועוגת שוקולד. אבל אני אגיע קצת מאוחר, בסביבות 21:00, כי ביום חמישי אני עובד עד מאוחר.",
-        "en": "Daniel: I'll bring wine and a chocolate cake. But I'll arrive a bit late, around 21:00, because on Thursday I work late."
+        "en": "Daniel: I'll bring wine and a chocolate cake. But I'll arrive a bit late, around 21:00, because I work late on Thursdays."
       },
       {
         "he": "אלכס: אוי, אני לא אוכל לבוא. ההורים שלי יבואו מחיפה לבקר אותי באותו ערב. אבל אני אתקשר אלייך ביום ההולדת!",
@@ -433,7 +433,7 @@
         "answerEn": "Because his parents are coming from Haifa to visit him.",
         "keywords": [
           ["הורים", "אמא", "אבא", "משפחה"],
-          ["לבקר", "ביקור", "חיפה"]
+          ["לבקר", "יבקרו", "ביקור", "יבואו", "באים", "חיפה"]
         ]
       },
       {
@@ -476,7 +476,7 @@
     "find": [
       { "en": "I'm celebrating (a woman speaking)", "answer": ["חוגגת"] },
       { "en": "the address", "answer": ["הכתובת"] },
-      { "en": "something sweet", "answer": ["משהו מתוק"] },
+      { "en": "I'll bring", "answer": ["אביא"] },
       { "en": "I won't be able to come", "answer": ["לא אוכל לבוא"] }
     ],
     "summary": [

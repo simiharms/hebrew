@@ -146,8 +146,8 @@
         "why": "Masha pays: she says אני משלמת and asks to pay by credit card."
       },
       {
-        "s": "ביחד זה ארבעים שקלים.",
-        "sEn": "Altogether it's forty shekels.",
+        "s": "הכול ביחד עולה ארבעים שקלים.",
+        "sEn": "Everything together costs forty shekels.",
         "a": true,
         "why": "Liat says ביחד זה ארבעים שקלים, 'altogether that's forty shekels'."
       }
@@ -265,8 +265,8 @@
       },
       {
         "s": "B",
-        "he": "לחתולה יש חדר? ואני ישן בסלון!",
-        "en": "The cat has a room? And I sleep in the living room!"
+        "he": "לחתולה יש חדר? ובדירה שלי אני ישן בסלון!",
+        "en": "The cat has a room? And in my apartment, I sleep in the living room!"
       }
     ],
     "questions": [
@@ -352,7 +352,7 @@
       {
         "he": "בסלון יש מזגן. בחדרים אין.",
         "en": "There's an air conditioner in the living room. In the bedrooms there isn't.",
-        "note": "יש = there is / there are, אין = there isn't / there aren't. Neither one changes for gender or number, and in a short answer each can stand alone: יש? – אין."
+        "note": "יש = there is / there are, אין = there isn't / there aren't. Neither one changes for gender or number, and in a short answer each can stand alone: יש מזגן? – אין."
       },
       {
         "he": "החדר שלי / החדר של מיצי",
@@ -372,7 +372,7 @@
     "title": "איפה הדואר?",
     "titleEn": "Where's the Post Office?",
     "genre": "street",
-    "synopsis": "Emily needs the post office, but she doesn't know the neighbourhood yet. She stops a man in the street, Adisu, and asks him the way.",
+    "synopsis": "Emily needs the post office, but she doesn't know the neighbourhood yet. She stops a passer-by, Adisu, and asks him the way.",
     "speakers": {
       "A": {
         "name": "אמילי",
@@ -476,7 +476,7 @@
       {
         "q": "איך הולכים מפה לדואר?",
         "qEn": "How do you get from here to the post office?",
-        "answer": "הולכים ישר עד הרמזור, ברמזור שמאלה, ואז ימינה.",
+        "answer": "הולכים ישר עד הרמזור, ברמזור פונים שמאלה, ואז ימינה.",
         "answerEn": "You go straight to the traffic light, left at the light, and then right.",
         "keywords": [
           [
@@ -533,7 +533,7 @@
       {
         "he": "איך הולכים לשם?",
         "en": "How do I get there?",
-        "note": "A plural verb with no subject means 'you' or 'people' in general: איך הולכים לדואר? Directions use the same form: הולכים ישר, פונים שמאלה. לשם = to there; for 'there' alone say שם."
+        "note": "A plural verb with no subject means 'you' or 'people' in general: איך הולכים לדואר? Directions use the same form: הולכים ישר, פונים שמאלה. You will also often hear איך מגיעים ל...? (how do you get to...?). לשם = to there; for 'there' alone say שם."
       },
       {
         "he": "ישר / ימינה / שמאלה",

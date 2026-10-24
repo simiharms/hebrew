@@ -13,19 +13,19 @@
     "lines": [
       { "s": "A", "he": "ערב טוב, ברוכה הבאה! איך אפשר לעזור?", "en": "Good evening, welcome! How can I help?" },
       { "s": "B", "he": "היי. אני גרה פה ממש קרוב, ואני רוצה לעשות מנוי.", "en": "Hi. I live really close by, and I'd like to get a membership." },
-      { "s": "A", "he": "מעולה. יש לנו שני סוגים של מנוי: חודשי ושנתי.", "en": "Great. We have two kinds of membership: monthly and annual." },
+      { "s": "A", "he": "מעולה. יש לנו שני סוגים של מנויים: חודשי ושנתי.", "en": "Great. We have two kinds of membership: monthly and annual." },
       { "s": "B", "he": "ומה ההבדל ביניהם?", "en": "And what's the difference between them?" },
       { "s": "A", "he": "מנוי חודשי עולה מאתיים וחמישים שקל לחודש, ואפשר לבטל מתי שרוצים.", "en": "A monthly membership costs two hundred and fifty shekels a month, and you can cancel whenever you want." },
       { "s": "B", "he": "זה קצת יקר. ומה עם השנתי?", "en": "That's a bit expensive. And what about the annual one?" },
       { "s": "A", "he": "השנתי יוצא מאה ושמונים לחודש, אבל צריך להתחייב לשנה שלמה.", "en": "The annual one comes to a hundred and eighty a month, but you have to commit for a whole year." },
       { "s": "B", "he": "ומה קורה אם אני עוברת דירה באמצע השנה?", "en": "And what happens if I move house in the middle of the year?" },
       { "s": "A", "he": "אז אפשר לבטל, אבל תשלמי דמי ביטול של מאה שקל.", "en": "Then you can cancel, but you'll pay a cancellation fee of a hundred shekels." },
-      { "s": "B", "he": "הבנתי. ומה השעות? אני צריכה מקום שפתוח גם בערב, כי אני עובדת עד שש.", "en": "Got it. And what are the hours? I need a place that's open in the evening too, because I work until six." },
+      { "s": "B", "he": "הבנתי. ומה שעות הפתיחה? אני צריכה מקום שפתוח גם בערב, כי אני עובדת עד שש.", "en": "Got it. And what are the opening hours? I need a place that's open in the evening too, because I work until six." },
       { "s": "A", "he": "מראשון עד חמישי אנחנו פתוחים משש בבוקר עד אחת עשרה בלילה.", "en": "From Sunday to Thursday we're open from six in the morning until eleven at night." },
       { "s": "B", "he": "ובסוף השבוע?", "en": "And at the weekend?" },
       { "s": "A", "he": "בשישי עד שלוש, ובשבת משמונה בבוקר עד שתיים.", "en": "On Friday until three, and on Saturday from eight in the morning until two." },
       { "s": "B", "he": "יופי. ויש גם שיעורים? לפני שנתיים עשיתי יוגה, ומאוד אהבתי.", "en": "Nice. And are there classes too? Two years ago I did yoga, and I really loved it." },
-      { "s": "A", "he": "בטח. יש יוגה, פילאטיס וספינינג, והם כלולים במנוי. רק צריך להירשם מראש באפליקציה.", "en": "Sure. There's yoga, Pilates and spinning, and they're included in the membership. You just have to book in advance in the app." },
+      { "s": "A", "he": "בטח. יש יוגה, פילאטיס וספינינג, וכל השיעורים כלולים במנוי. רק צריך להירשם מראש באפליקציה.", "en": "Sure. There's yoga, Pilates and spinning, and all the classes are included in the membership. You just have to book in advance in the app." },
       { "s": "B", "he": "מצוין. ומה אני צריכה כדי להירשם?", "en": "Excellent. And what do I need in order to sign up?" },
       { "s": "A", "he": "תעודת זהות וכרטיס אשראי, וגם צריך למלא הצהרת בריאות. והאימון הראשון עלינו!", "en": "An ID card and a credit card, and you also need to fill in a health declaration. And the first workout is on us!" },
       { "s": "B", "he": "מעולה! אז אני אבוא מחר אחרי העבודה, אנסה אימון אחד, ואז אחליט.", "en": "Great! Then I'll come tomorrow after work, try one workout, and then decide." }
@@ -43,14 +43,14 @@
         "qEn": "What is the advantage of the monthly membership?",
         "answer": "אפשר לבטל אותו מתי שרוצים.",
         "answerEn": "You can cancel it whenever you want.",
-        "keywords": [["לבטל", "ביטול", "מבטלים"], ["מתי שרוצים", "מתי", "בכל זמן"]]
+        "keywords": [["לבטל", "ביטול", "מבטלים"], ["מתי שרוצים", "מתי", "בכל זמן", "בכל רגע", "תמיד"]]
       },
       {
         "q": "מה קורה אם מבטלים את המנוי השנתי באמצע השנה?",
         "qEn": "What happens if you cancel the annual membership in the middle of the year?",
         "answer": "משלמים דמי ביטול של מאה שקל.",
         "answerEn": "You pay a cancellation fee of 100 shekels.",
-        "keywords": [["דמי ביטול", "משלמים", "לשלם", "תשלמי"], ["מאה", "100"]]
+        "keywords": [["דמי ביטול", "משלמים", "לשלם", "תשלמי", "משלמת", "תשלם", "קנס"], ["מאה", "100"]]
       },
       {
         "q": "למה אולגה צריכה מקום שפתוח גם בערב?",
@@ -69,8 +69,8 @@
     ],
     "tf": [
       {
-        "s": "המנוי השנתי זול יותר לחודש מהמנוי החודשי.",
-        "sEn": "Per month, the annual membership is cheaper than the monthly one.",
+        "s": "המנוי השנתי יוצא זול יותר מהמנוי החודשי.",
+        "sEn": "The annual membership works out cheaper than the monthly one.",
         "a": true,
         "why": "The monthly membership costs 250 shekels a month; the annual one comes to 180 a month."
       },
@@ -103,7 +103,7 @@
       {
         "he": "לעשות מנוי",
         "en": "to get a membership / subscription",
-        "note": "Works for a gym, the theatre, a newspaper or public transport: עשיתי מנוי לתיאטרון."
+        "note": "Works for a gym, the theatre, a newspaper or a streaming service: עשיתי מנוי לתיאטרון. מנוי can also mean the member: אני מנויה בחדר כושר = I'm a gym member."
       },
       {
         "he": "מתי שרוצים",
@@ -143,18 +143,18 @@
       { "s": "B", "he": "כן? מי זה?", "en": "Yes? Who is it?" },
       { "s": "A", "he": "ערב טוב, אני חנה, השכנה מלמטה. סליחה שאני מפריעה.", "en": "Good evening, I'm Hana, the neighbour from downstairs. Sorry to bother you." },
       { "s": "B", "he": "ערב טוב! לא, את לא מפריעה בכלל. מה קרה?", "en": "Good evening! No, you're not bothering me at all. What happened?" },
-      { "s": "A", "he": "תשמע, אני לא רוצה לעשות בעיות, אבל אתמול היה פה רעש עד שתיים בלילה.", "en": "Listen, I don't want to make trouble, but last night there was noise here until two in the morning." },
+      { "s": "A", "he": "תשמע, אני לא רוצה לעשות בעיות, אבל אתמול היה אצלכם רעש עד שתיים בלילה.", "en": "Listen, I don't want to make trouble, but last night there was noise at your place until two in the morning." },
       { "s": "B", "he": "אוי, את צודקת. היה לי יום הולדת, והזמנתי כמה חברים.", "en": "Oh, you're right. It was my birthday, and I invited a few friends." },
       { "s": "A", "he": "מזל טוב! אבל אני קמה כל יום בחמש וחצי לעבודה.", "en": "Happy birthday! But I get up at half past five every day for work." },
       { "s": "B", "he": "אני ממש מצטער. אני מבטיח לך שזה לא יקרה שוב.", "en": "I'm really sorry. I promise you it won't happen again." },
-      { "s": "A", "he": "וגם הכיסאות... כל ערב אני שומעת שאתם מזיזים כיסאות.", "en": "And the chairs, too... Every evening I hear you moving chairs around." },
-      { "s": "B", "he": "בסדר גמור. אני אשים משהו רך מתחת לכיסאות, ואנחנו נשתדל ללכת בשקט.", "en": "Absolutely. I'll put something soft under the chairs, and we'll try to walk quietly." },
+      { "s": "A", "he": "וגם הכיסאות... כל ערב אני שומעת אתכם מזיזים כיסאות.", "en": "And the chairs, too... Every evening I hear you moving chairs around." },
+      { "s": "B", "he": "בסדר גמור. אני אשים משהו רך מתחת לכיסאות, ואנחנו נשתדל לא להזיז אותם מאוחר בערב.", "en": "Absolutely. I'll put something soft under the chairs, and we'll try not to move them late in the evening." },
       { "s": "A", "he": "תודה. ועוד דבר קטן: הכלב. הוא נובח כבר כמה ימים, כל פעם שאתם יוצאים.", "en": "Thank you. And one more small thing: the dog. It's been barking for a few days now, every time you go out." },
       { "s": "B", "he": "כלב? איזה כלב? חנה, אני גר פה כבר שלוש שנים, ואין לנו כלב.", "en": "A dog? What dog? Hana, I've lived here for three years, and we don't have a dog." },
-      { "s": "A", "he": "אבל שמעתי אותו גם היום בבוקר!", "en": "But I heard it this morning, too!" },
+      { "s": "A", "he": "אבל שמעתי אותו גם הבוקר!", "en": "But I heard it this morning, too!" },
       { "s": "C", "he": "דניאל, מי בדלת? אה, שלום! תכירי, זאת במבה.", "en": "Daniel, who's at the door? Oh, hello! Meet Bamba." },
       { "s": "B", "he": "נטע! הבאת כלבה הביתה ולא אמרת לי?", "en": "Neta! You brought a dog home and didn't tell me?" },
-      { "s": "C", "he": "רציתי לספר לך אחרי יום ההולדת... היא אצלנו רק מיום ראשון.", "en": "I wanted to tell you after your birthday... She's only been with us since Sunday." },
+      { "s": "C", "he": "רציתי לספר לך אחרי יום ההולדת שלך... היא אצלנו רק מיום ראשון, בחדר שלי.", "en": "I wanted to tell you after your birthday... She's only been with us since Sunday, in my room." },
       { "s": "B", "he": "ומי יטייל איתה כשאנחנו בעבודה?", "en": "And who's going to walk her when we're at work?" },
       { "s": "C", "he": "אני! אני מבטיחה שאטייל איתה כל בוקר, והיא לא תנבח יותר.", "en": "Me! I promise I'll walk her every morning, and she won't bark anymore." },
       { "s": "A", "he": "טוב, נראה. אני רואה שיש לכם הרבה על מה לדבר. לילה טוב, ומזל טוב על הכלבה!", "en": "Well, we'll see. I can see you two have a lot to talk about. Good night, and congratulations on the dog!" }
@@ -163,8 +163,8 @@
       {
         "q": "מי זאת חנה, ולמה היא באה?",
         "qEn": "Who is Hana, and why has she come?",
-        "answer": "היא השכנה מלמטה. היא באה כי אתמול היה רעש עד שתיים בלילה.",
-        "answerEn": "She's the neighbour from downstairs. She came because yesterday there was noise until two in the morning.",
+        "answer": "היא השכנה מלמטה. היא באה כי אתמול היה אצל דניאל רעש עד שתיים בלילה.",
+        "answerEn": "She's the neighbour from downstairs. She came because last night there was noise at Daniel's place until two in the morning.",
         "keywords": [["שכנה", "שכנים", "מלמטה"], ["רעש", "רועש"]]
       },
       {
@@ -186,14 +186,14 @@
         "qEn": "What does Daniel promise to do about the chairs?",
         "answer": "הוא ישים משהו רך מתחת לכיסאות.",
         "answerEn": "He'll put something soft under the chairs.",
-        "keywords": [["ישים", "אשים", "לשים"], ["רך"]]
+        "keywords": [["ישים", "אשים", "לשים", "שם"], ["רך", "רכה"]]
       },
       {
         "q": "של מי הכלבה, ומה נטע מבטיחה?",
         "qEn": "Whose dog is it, and what does Neta promise?",
         "answer": "הכלבה של נטע. היא מבטיחה לטייל איתה כל בוקר.",
         "answerEn": "The dog is Neta's. She promises to walk her every morning.",
-        "keywords": [["נטע"], ["לטייל", "תטייל", "אטייל"], ["בוקר"]]
+        "keywords": [["נטע"], ["לטייל", "תטייל", "אטייל", "מטיילת", "טיול", "להוציא", "תוציא"], ["בוקר"]]
       }
     ],
     "tf": [
@@ -204,8 +204,8 @@
         "why": "She introduces herself as השכנה מלמטה, the neighbour from downstairs."
       },
       {
-        "s": "אתמול היה לדניאל יום הולדת.",
-        "sEn": "Yesterday was Daniel's birthday.",
+        "s": "אתמול דניאל חגג יום הולדת עם חברים.",
+        "sEn": "Yesterday Daniel celebrated his birthday with friends.",
         "a": true,
         "why": "Daniel explains the noise: it was his birthday and he invited a few friends."
       },
@@ -273,10 +273,10 @@
       { "s": "A", "he": "בשמחה. זה החשבון הראשון שלך אצלנו?", "en": "Gladly. Is this your first account with us?" },
       { "s": "B", "he": "כן. גרתי ארבע שנים בברלין, ועכשיו חזרתי לארץ. בחודש הבא אני מתחיל עבודה חדשה בחיפה.", "en": "Yes. I lived in Berlin for four years, and now I've come back to Israel. Next month I'm starting a new job in Haifa." },
       { "s": "A", "he": "מזל טוב! אז קודם כול, אני צריכה תעודת זהות עם ספח.", "en": "Congratulations! So first of all, I need your ID card with the appendix." },
-      { "s": "B", "he": "הנה. רק שתדעי, הכתובת בספח עוד ישנה. אני עובר דירה בשבוע הבא.", "en": "Here you are. Just so you know, the address on the appendix is still the old one. I'm moving next week." },
+      { "s": "B", "he": "הנה. רק שתדעי, בספח עוד רשומה הכתובת הישנה. אני עובר דירה בשבוע הבא.", "en": "Here you are. Just so you know, the address on the appendix is still the old one. I'm moving next week." },
       { "s": "A", "he": "זה בסדר, תעדכן אותה אחר כך באפליקציה. יש לך גם מסמך שמראה את ההכנסה שלך? תלוש משכורת או חוזה עבודה?", "en": "That's fine, you can update it later in the app. Do you also have a document that shows your income? A pay slip or an employment contract?" },
       { "s": "B", "he": "עוד אין לי תלוש, אבל יש לי את החוזה בטלפון. אפשר לשלוח לך אותו במייל?", "en": "I don't have a pay slip yet, but I have the contract on my phone. Can I email it to you?" },
-      { "s": "A", "he": "בטח, תשלח לכתובת שעל הכרטיס הזה. עכשיו, בוא נדבר על העמלות.", "en": "Sure, send it to the address on this card. Now, let's talk about the fees." },
+      { "s": "A", "he": "בטח, המייל שלי כתוב על הכרטיס הזה. עכשיו, בוא נדבר על העמלות.", "en": "Sure, my email address is on this card. Now, let's talk about the fees." },
       { "s": "B", "he": "זה בדיוק מה שמעניין אותי. בברלין כמעט לא שילמתי עמלות.", "en": "That's exactly what I'm interested in. In Berlin I hardly paid any fees." },
       { "s": "A", "he": "יש לנו שני מסלולים: בסיסי, בעשרה שקלים בחודש, ומורחב, בעשרים וחמישה.", "en": "We have two plans: basic, at ten shekels a month, and extended, at twenty-five." },
       { "s": "B", "he": "ולמה שאשלם יותר? מה מקבלים במורחב?", "en": "And why would I pay more? What do you get with the extended one?" },
@@ -295,35 +295,35 @@
         "qEn": "Where has Samir lived for the last four years, and what will he start next month?",
         "answer": "בברלין. בחודש הבא הוא יתחיל עבודה חדשה בחיפה.",
         "answerEn": "In Berlin. Next month he'll start a new job in Haifa.",
-        "keywords": [["ברלין", "גרמניה", "חו״ל"], ["עבודה"]]
+        "keywords": [["ברלין", "גרמניה", "חו״ל", "חוץ לארץ"], ["עבודה", "לעבוד", "יעבוד"]]
       },
       {
         "q": "אילו מסמכים אלמז מבקשת?",
         "qEn": "Which documents does Almaz ask for?",
         "answer": "תעודת זהות עם ספח, ומסמך שמראה הכנסה, כמו חוזה עבודה.",
         "answerEn": "An ID card with the appendix, and a document that shows income, such as an employment contract.",
-        "keywords": [["תעודת זהות", "ספח", "זהות"], ["חוזה", "הכנסה", "תלוש"]]
+        "keywords": [["תעודת זהות", "ספח", "זהות"], ["חוזה", "הכנסה", "תלוש", "משכורת"]]
       },
       {
         "q": "כמה עולה כל מסלול, ומה מקבלים במסלול המורחב?",
         "qEn": "How much does each plan cost, and what do you get with the extended plan?",
         "answer": "הבסיסי עולה עשרה שקלים בחודש, והמורחב עשרים וחמישה. במורחב כל הפעולות בסניף כלולות.",
         "answerEn": "The basic plan costs ten shekels a month and the extended one twenty-five. With the extended plan, all transactions at the branch are included.",
-        "keywords": [["עשרה", "10"], ["עשרים וחמישה", "25"], ["סניף"]]
+        "keywords": [["עשרה", "10"], ["עשרים וחמישה", "25"], ["סניף", "פעולות"]]
       },
       {
         "q": "למה סמיר בוחר במסלול הבסיסי?",
         "qEn": "Why does Samir choose the basic plan?",
         "answer": "כי הוא כמעט לא מגיע לסניף ומעדיף לעשות הכול מהטלפון, וגם בחצי השנה הראשונה הוא בחינם.",
         "answerEn": "Because he hardly ever goes to the branch and prefers to do everything from his phone, and it's also free for the first six months.",
-        "keywords": [["סניף"], ["טלפון", "אפליקציה", "נייד"], ["חינם", "בחינם", "לקוח חדש"]]
+        "keywords": [["טלפון", "אפליקציה", "נייד", "סניף"], ["חינם", "בחינם", "לקוח חדש", "חצי שנה", "זול"]]
       },
       {
         "q": "ממה אלמז מזהירה את סמיר?",
         "qEn": "What does Almaz warn Samir about?",
         "answer": "לא למסור את הקוד לאף אחד, גם לא למי שאומר שהוא מהבנק.",
         "answerEn": "Not to give the code to anyone, not even to someone who says they're from the bank.",
-        "keywords": [["למסור", "לתת", "תמסור", "תיתן"], ["קוד"]]
+        "keywords": [["למסור", "לתת", "תמסור", "תיתן", "ימסור", "ייתן", "יגיד", "לספר"], ["קוד"]]
       }
     ],
     "tf": [
@@ -334,16 +334,16 @@
         "why": "He says he lived in Berlin for four years and has now come back to Israel."
       },
       {
-        "s": "בספח של סמיר כבר כתובה הכתובת החדשה שלו.",
+        "s": "בספח של סמיר כבר רשומה הכתובת החדשה שלו.",
         "sEn": "Samir's new address is already on his ID appendix.",
         "a": false,
         "why": "He says the address on the appendix is still the old one, because he is moving only next week."
       },
       {
-        "s": "במסלול המורחב כל הפעולות בסניף כלולות.",
-        "sEn": "With the extended plan, all transactions at the branch are included.",
+        "s": "סמיר בוחר במסלול הזול יותר.",
+        "sEn": "Samir chooses the cheaper plan.",
         "a": true,
-        "why": "Almaz says exactly this when Samir asks what the extended plan offers."
+        "why": "He takes the basic plan: ten shekels a month against twenty-five for the extended one, and free for the first six months as a new customer."
       },
       {
         "s": "את הקוד לאפליקציה מקבלים בסניף.",

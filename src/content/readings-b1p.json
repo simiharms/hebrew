@@ -159,8 +159,8 @@
       {
         "q": "למה, לדעתכם, חשוב שזה יהיה כתוב בחוזה ולא רק הבטחה בעל פה?",
         "qEn": "Why, in your opinion, is it important that it's written in the contract and not just a verbal promise?",
-        "answer": "כי הבטחה בעל פה קל לשכוח, וחוזה מחייב את המעסיק.",
-        "answerEn": "Because a verbal promise is easy to forget, and a contract binds the employer.",
+        "answer": "כי קל לשכוח הבטחה בעל פה, וחוזה מחייב את המעסיק.",
+        "answerEn": "Because it's easy to forget a verbal promise, and a contract binds the employer.",
         "keywords": [
           [
             "לשכוח",
@@ -256,9 +256,10 @@
     "summary": [
       {
         "prompt": "בישראל לא מתביישים לדבר על כסף, ושאלת השכר עולה כבר ___ הראשון.",
-        "en": "In Israel people aren't shy about money, and the salary question comes up as early as the first interview.",
+        "en": "In Israel people aren't shy about talking about money, and the salary question comes up as early as the first interview.",
         "answer": [
-          "בראיון"
+          "בראיון",
+          "בראיון העבודה"
         ],
         "hint": "at the interview"
       },
@@ -292,7 +293,8 @@
         "prompt": "הבטחה לשיחת שכר אחרי חצי שנה צריכה להיות כתובה ___, ולא רק בעל פה.",
         "en": "A promise of a salary talk in six months should be written in the contract, not only given verbally.",
         "answer": [
-          "בחוזה"
+          "בחוזה",
+          "בחוזה העבודה"
         ],
         "hint": "in the contract"
       }
@@ -558,8 +560,8 @@
         "why": "The hierarchy is relatively flat: a young employee can argue with the CEO, and it isn't seen as disrespect."
       },
       {
-        "s": "היום, כשאנה בשווייץ, היא מתגעגעת קצת לקצב של תל אביב.",
-        "sEn": "Today, when Anna is in Switzerland, she misses Tel Aviv's pace a little.",
+        "s": "היום, כשאנה חוזרת לציריך, היא מתגעגעת קצת לקצב של תל אביב.",
+        "sEn": "Today, when Anna goes back to Zurich, she misses Tel Aviv's pace a little.",
         "a": true,
         "why": "She says that when she goes back to Zurich she kind of misses the pace and the warmth of Tel Aviv."
       }
@@ -595,7 +597,8 @@
         "prompt": "בפגישה הראשונה של אנה בתל אביב אף אחד לא לבש ___.",
         "en": "At Anna's first meeting in Tel Aviv nobody wore a suit.",
         "answer": [
-          "חליפה"
+          "חליפה",
+          "חליפות"
         ],
         "hint": "formal business clothing"
       },
@@ -608,7 +611,7 @@
         "hint": "flat: make it agree with היררכיה (feminine)"
       },
       {
-        "prompt": "החלטות מתקבלות בישראל מהר, אבל גם התוכניות ___ תוך כדי תנועה.",
+        "prompt": "החלטות מתקבלות בישראל מהר, אבל התוכניות גם ___ תוך כדי תנועה.",
         "en": "Decisions are made quickly in Israel, but plans also change on the go.",
         "answer": [
           "משתנות"
@@ -676,8 +679,8 @@
           ]
         }
       ],
-      "model": "היי ליזה, שמעתי שאת טסה לתל אביב – איזה כיף! כמה עצות קטנות לפני הפגישה: אל תתפלאי אם כולם יפנו אלייך בשם הפרטי ואף אחד לא יגיע בחליפה. הישראלים מאוד ישירים, לפעמים קוטעים ושואלים על המחיר כבר בהתחלה, אבל אל תיעלבי – זה לא אישי. מומלץ לשלוח אחרי הפגישה מייל עם סיכום של מה שהוסכם, כי הדברים משתנים מהר. ועוד דבר: אם יצרפו אותך לקבוצת וואטסאפ, תגידי מראש מתי את זמינה. בהצלחה! טל",
-      "modelEn": "Hi Lisa, I heard you're flying to Tel Aviv – how fun! A few small tips before the meeting: don't be surprised if everyone calls you by your first name and nobody shows up in a suit. Israelis are very direct, they sometimes interrupt and ask about the price right at the start, but don't be offended – it's not personal. It's a good idea to send an email after the meeting summarizing what was agreed, because things change quickly. And one more thing: if they add you to a WhatsApp group, say in advance when you're available. Good luck! Tal"
+      "model": "היי ליזה, שמעתי שאת טסה לתל אביב – איזה כיף! כמה עצות קטנות לפני הפגישה: אל תתפלאי אם כולם יפנו אלייך בשם הפרטי ואף אחד לא יגיע בחליפה. הישראלים מאוד ישירים, לפעמים קוטעים אותך ושואלים על המחיר כבר בהתחלה, אבל אל תיעלבי – זה לא אישי. מומלץ לשלוח אחרי הפגישה מייל עם סיכום של מה שהוסכם, כי הדברים משתנים מהר. ועוד דבר: אם יצרפו אותך לקבוצת וואטסאפ, תגידי מראש מתי את זמינה. בהצלחה! טל",
+      "modelEn": "Hi Lisa, I heard you're flying to Tel Aviv – how fun! A few small tips before the meeting: don't be surprised if everyone calls you by your first name and nobody shows up in a suit. Israelis are very direct, they sometimes interrupt you and ask about the price right at the start, but don't be offended – it's not personal. It's a good idea to send an email after the meeting summarizing what was agreed, because things change quickly. And one more thing: if they add you to a WhatsApp group, say in advance when you're available. Good luck! Tal"
     }
   },
   {
@@ -693,8 +696,8 @@
         "en": "Dear employees, greetings to you all. As you know, the company has grown a great deal over the past two years: the number of our customers has doubled, and we've opened a new branch in Haifa. This is good news, but rapid growth also requires changes. I would like to update you on two significant changes that will take effect next quarter."
       },
       {
-        "he": "השינוי הראשון נוגע למבנה הארגוני. במקום שלוש מחלקות נפרדות – מכירות, שיווק ושירות לקוחות – תוקם חטיבה אחת, \"חטיבת לקוחות\", בראשות אבי מזרחי. המטרה היא לקצר את תהליכי קבלת ההחלטות ולמנוע כפילויות בעבודה. ראשי הצוותים ידווחו ישירות לאבי, וכל העובדים במחלקות אלה ייפגשו עם המנהלים הישירים שלהם לשיחה אישית במהלך השבועיים הקרובים. חשוב לי להדגיש: אף עובד לא יפוטר במסגרת השינוי.",
-        "en": "The first change concerns the organizational structure. Instead of three separate departments – sales, marketing and customer service – a single division will be set up, the \"Customer Division\", headed by Avi Mizrahi. The goal is to shorten decision-making processes and to avoid duplication of work. Team leaders will report directly to Avi, and all employees in these departments will meet their direct managers for a personal conversation over the next two weeks. I want to emphasize: no employee will be laid off as part of this change."
+        "he": "השינוי הראשון נוגע למבנה הארגוני. במקום שלוש מחלקות נפרדות – מכירות, שיווק ושירות לקוחות – תוקם חטיבה אחת, \"חטיבת לקוחות\", בראשות אבי מזרחי. המטרה היא לקצר את תהליכי קבלת ההחלטות ולמנוע כפילויות בעבודה. כך נוכל גם לתת ללקוחות שלנו שירות מהיר ומקצועי יותר. ראשי הצוותים ידווחו ישירות לאבי, וכל העובדים במחלקות אלה ייפגשו עם המנהלים הישירים שלהם לשיחה אישית במהלך השבועיים הקרובים. חשוב לי להדגיש: אף עובד לא יפוטר במסגרת השינוי.",
+        "en": "The first change concerns the organizational structure. Instead of three separate departments – sales, marketing and customer service – a single division will be set up, the \"Customer Division\", headed by Avi Mizrahi. The goal is to shorten decision-making processes and to avoid duplication of work. This way we'll also be able to give our customers faster and more professional service. Team leaders will report directly to Avi, and all employees in these departments will meet their direct managers for a personal conversation over the next two weeks. I want to emphasize: no employee will be laid off as part of this change."
       },
       {
         "he": "השינוי השני הוא המעבר למשרדים החדשים שלנו בפתח תקווה, המתוכנן לסוף החודש הבא. הבניין החדש ממוקם במרחק חמש דקות הליכה מתחנת הרכבת, ויש בו חדרי ישיבות, פינות שקטות לעבודה מרוכזת ומטבח מרווח. מספר מקומות החנייה מוגבל, ולכן החברה תממן לכל העובדים נסיעות בתחבורה ציבורית. מצורפת למייל תוכנית של המשרדים החדשים.",
@@ -961,7 +964,8 @@
         "prompt": "המשרדים החדשים יהיו בפתח תקווה, במרחק חמש דקות ___ מתחנת הרכבת.",
         "en": "The new offices will be in Petah Tikva, a five-minute walk from the train station.",
         "answer": [
-          "הליכה"
+          "הליכה",
+          "ברגל"
         ],
         "hint": "walking (noun)"
       },
@@ -969,7 +973,8 @@
         "prompt": "בשני הימים הראשונים של שבוע המעבר כולם יעבדו ___.",
         "en": "On the first two days of moving week (Sunday and Monday) everyone will work from home.",
         "answer": [
-          "מהבית"
+          "מהבית",
+          "בבית"
         ],
         "hint": "from home"
       },
@@ -1304,7 +1309,8 @@
         "en": "After Dana sent a cancellation request in writing, they offered her the package at half price.",
         "answer": [
           "בכתב",
-          "דרך האתר"
+          "דרך האתר",
+          "באתר"
         ],
         "hint": "in writing"
       },
@@ -1381,8 +1387,8 @@
         "en": "TalSense was founded four years ago by Dr. Yael Avraham, a water engineer, and Ido Nahum, a software developer. The company develops small sensors that are placed in the field, measure the moisture in the soil and send the data to the farmer's phone. Based on the data, the system recommends when to irrigate and how much. According to the company, farmers who use the system save large amounts of water."
       },
       {
-        "he": "\"כשהתחלנו, כולם אמרו לנו: אם אתם רוצים לגייס כסף, תעברו לתל אביב,\" סיפרה אברהם בשיחה איתנו. \"החלטנו להישאר בנגב, והיום אני יכולה להגיד בגאווה שזו הייתה ההחלטה הנכונה.\" לדבריה, הקרבה לחקלאים מאפשרת לצוות לבדוק כל מוצר חדש בתנאים אמיתיים, ולא רק במעבדה.",
-        "en": "\"When we started, everyone told us: if you want to raise money, move to Tel Aviv,\" Avraham told us. \"We decided to stay in the Negev, and today I can say proudly that it was the right decision.\" According to her, being close to the farmers allows the team to test every new product in real conditions, not just in the lab."
+        "he": "\"כשהתחלנו, כולם אמרו לנו: אם אתם רוצים לגייס כסף, תעברו לתל אביב,\" סיפרה אברהם בשיחה איתנו. \"החלטנו להישאר בנגב, והיום אני יכולה להגיד בגאווה שזו הייתה ההחלטה הנכונה.\" לדבריה, הקרבה לחקלאים מאפשרת לצוות לבדוק כל מוצר חדש בתנאים אמיתיים, ולא רק במעבדה. \"מבחינתנו, החקלאים הם לא רק לקוחות – הם שותפים,\" היא מוסיפה.",
+        "en": "\"When we started, everyone told us: if you want to raise money, move to Tel Aviv,\" Avraham told us. \"We decided to stay in the Negev, and today I can say proudly that it was the right decision.\" According to her, being close to the farmers allows the team to test every new product in real conditions, not just in the lab. \"For us, the farmers aren't just customers – they're partners,\" she adds."
       },
       {
         "he": "כיום מועסקים בחברה 35 עובדים, ובכוונתה להכפיל את המספר הזה עד סוף השנה הבאה. \"אנחנו מחפשים מהנדסי תוכנה, אנשי דאטה ואנשי מכירות,\" אומר נחום, \"אבל לא רק אנשים עם ניסיון. אם מישהו מוכשר ובאמת רוצה ללמוד, יהיה לו מקום אצלנו.\" חלק מהמשרות יהיו היברידיות, עם שני ימי עבודה מהבית בשבוע, והן כבר מפורסמות באתר החברה. בנוסף, החברה תפתח בקיץ תוכנית התמחות בתשלום לסטודנטים מהאזור.",
@@ -1644,7 +1650,8 @@
         "en": "The founders didn't move to Tel Aviv, and the company stayed in the Negev.",
         "answer": [
           "בנגב",
-          "בבאר שבע"
+          "בבאר שבע",
+          "בדרום"
         ],
         "hint": "in the south of Israel"
       },

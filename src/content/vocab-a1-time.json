@@ -54,7 +54,7 @@
       "he": "יש לי שיעור עברית ביום שני.",
       "en": "I have a Hebrew lesson on Monday."
     },
-    "note": "Written יום ב׳. On its own, שני means 'second' or 'two' (m.)."
+    "note": "Written יום ב׳. On its own, שני means 'second'; before a masculine noun it is also 'two': שני ימים = two days."
   },
   {
     "id": "va1t_yom_shlishi",
@@ -202,7 +202,7 @@
       "he": "במרץ אנחנו טסים לאילת.",
       "en": "In March we're flying to Eilat."
     },
-    "note": "Also spelled מרס or מארס, but מרץ is the most common spelling."
+    "note": "Also spelled מרס or מארס, which you often see in newspapers and official texts. All three are said merts."
   },
   {
     "id": "va1t_april",
@@ -259,8 +259,8 @@
     "level": "A1",
     "topic": "time",
     "ex": {
-      "he": "אנחנו מתחתנים ביולי.",
-      "en": "We're getting married in July."
+      "he": "ביולי הילדים בחופש.",
+      "en": "In July the kids are on holiday."
     },
     "note": "Easy to mix up with יוני (yúni), June."
   },
@@ -274,8 +274,8 @@
     "level": "A1",
     "topic": "time",
     "ex": {
-      "he": "אוגוסט הוא החודש הכי חם בשנה.",
-      "en": "August is the hottest month of the year."
+      "he": "אוגוסט הוא בדרך כלל החודש הכי חם.",
+      "en": "August is usually the hottest month."
     },
     "note": "Stress on the first syllable: ógust."
   },
@@ -292,7 +292,7 @@
       "he": "בספטמבר הילדים חוזרים לבית הספר.",
       "en": "In September the children go back to school."
     },
-    "note": "The Israeli school year (שנת הלימודים) starts on 1 September."
+    "note": "The Israeli school year (שנת הלימודים) usually starts on 1 September."
   },
   {
     "id": "va1t_oktober",
@@ -1103,7 +1103,7 @@
       "he": "התשובה הנכונה היא ב׳.",
       "en": "The correct answer is B."
     },
-    "note": "The verb 'to answer' comes from a different root: לענות על שאלה. Literally 'a return' (root ש.ו.ב)."
+    "note": "The everyday verb 'to answer' is לענות (על שאלה); the formal להשיב (to reply) shares this root, ש.ו.ב (to return). Plural תשובות (tshuvót)."
   },
   {
     "id": "va1t_mila",
@@ -1751,22 +1751,6 @@
     "note": "Same root as לשחק (to play). Also 'acting'. A computer game = משחק מחשב."
   },
   {
-    "id": "va1t_mesiba",
-    "he": "מסיבה",
-    "tr": "mesibá",
-    "en": "party",
-    "pos": "noun",
-    "gender": "f",
-    "plural": "מסיבות",
-    "level": "A1",
-    "topic": "leisure",
-    "ex": {
-      "he": "מחר יש לנו מסיבה בעבודה.",
-      "en": "Tomorrow we have a party at work."
-    },
-    "note": "מסיבת יום הולדת = birthday party. לעשות מסיבה = to throw a party."
-  },
-  {
     "id": "va1t_takhbiv",
     "he": "תחביב",
     "tr": "takhbív",
@@ -1922,6 +1906,6 @@
       "he": "מתי יש לך חופש?",
       "en": "When do you have time off?"
     },
-    "note": "The everyday word for time off: אני בחופש = I'm on holiday. החופש הגדול = the long summer school holiday. A more formal word is חופשה. It also means 'freedom'."
+    "note": "The everyday word for time off: אני בחופש = I'm on holiday. החופש הגדול = the long summer school holiday. A planned trip or leave from work is usually חופשה. It also means 'freedom'."
   }
 ]

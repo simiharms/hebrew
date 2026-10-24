@@ -193,6 +193,17 @@ export function GlossSheet() {
             </div>
           </div>
         )}
+        {res.entries.length > 0 && res.also && (
+          <div class="card tight small">
+            Or read it as <span class="he">{res.also.prefix}</span> ({res.also.prefixMeaning}) +{' '}
+            {res.also.entries.slice(0, 2).map((e, i) => (
+              <>
+                {i > 0 && ' / '}
+                <span class="he">{e.he}</span> “{e.en}”
+              </>
+            ))}
+          </div>
+        )}
         <div class="chip-row mt">
           <a class="chip" href={`https://www.pealim.com/search/?q=${enc}`} target="_blank" rel="noopener">
             Pealim

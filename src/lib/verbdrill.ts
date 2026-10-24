@@ -61,9 +61,13 @@ const TIME_CUE: Record<Tense, [string, string]> = {
   future: ['מחר', 'Tomorrow'],
 };
 
+// Prefixes that can stand in front of a conjugated verb. Not ל/ב/מ/כ: ל + הסביר
+// is the infinitive להסביר, not a past form.
+const VERB_PREFIXES = ['וכש', 'כש', 'וש', 'שה', 'ו', 'ש', 'ה'];
+
 /**
- * The sentence with the verb form replaced by ___ (a one-letter prefix such as
- * ו or ש stays in front of the gap), or null if the form isn't a word in it.
+ * The sentence with the verb form replaced by ___ (a prefix such as ו or ש
+ * stays in front of the gap), or null if the form isn't a word in it.
  */
 export function blankForm(sentence: string, form: string): string | null {
   const target = lenient(form);
@@ -71,13 +75,9 @@ export function blankForm(sentence: string, form: string): string | null {
   let found = false;
   for (const p of splitWords(sentence)) {
     if (!found && p.isWord) {
-      if (lenient(p.w) === target) {
-        out += '___';
-        found = true;
-        continue;
-      }
-      if (/^[ושהכלבמ]/.test(p.w) && lenient(p.w.slice(1)) === target) {
-        out += `${p.w[0]}___`;
+      const prefix = ['', ...VERB_PREFIXES].find((x) => p.w.startsWith(x) && lenient(p.w.slice(x.length)) === target);
+      if (prefix !== undefined) {
+        out += `${prefix}___`;
         found = true;
         continue;
       }
@@ -110,7 +110,16 @@ export function contextSentence(t: VerbTask): { he: string; en: string; form: st
 
 /** Turn a conjugation task into a task of another kind about the same verb and tense. */
 export function asKind(t: VerbTask, kind: VKind): VTask {
-  if (kind === 'context') return { ...t, kind, sentence: contextSentence(t) };
+  if (kind === 'context') {
+    // The sentence decides the person: grade against the form it needs.
+    const sentence = contextSentence(t);
+    const a = analyses(t.verb, sentence.form).find((x) => x.tense === t.tense);
+    const table = tableOf(t.verb, t.tense);
+    if (!a || a.person === t.person || !table?.[a.person]) return { ...t, kind, sentence };
+    const pronouns = (t.tense === 'present' ? PRESENT_PRONOUNS : t.tense === 'future' ? FUTURE_PRONOUNS : PERSON_PRONOUNS)[a.person];
+    const [pronoun, pronounEn] = pronouns?.[0] ?? [t.pronoun, t.pronounEn];
+    return { ...t, kind, sentence, person: a.person, answer: table[a.person], pronoun, pronounEn };
+  }
   if (kind === 'identify' || kind === 'infinitive' || kind === 'binyan') return { ...t, kind, shown: t.answer };
   return { ...t, kind };
 }

@@ -177,6 +177,7 @@ export interface LookupResult {
   entries: DictEntry[];
   prefix: string; // stripped prefix letters, e.g. "וב"
   prefixMeaning: string;
+  also?: LookupResult; // another reading with a prefix: ועדות = committees, or ו + עדות
 }
 
 export function lookup(word: string): LookupResult {
@@ -194,7 +195,12 @@ export function lookup(word: string): LookupResult {
         if (hit2) return { ...withPrefix(l, v2, hit2), entries: [...hit2, ...hit.filter((e) => !hit2.includes(e))] };
       }
     }
-    return withPrefix(l, v, hit);
+    const res = withPrefix(l, v, hit);
+    if (v === variants[0]) {
+      const v2 = variants.slice(1).find((x) => x.length >= 2 && primary.get(x)?.some((e) => !hit.includes(e)));
+      if (v2) res.also = withPrefix(l, v2, primary.get(v2)!.filter((e) => !hit.includes(e)));
+    }
+    return res;
   }
   for (const k of lookupKeys(word)) {
     const hit = primary.get(k) ?? secondary.get(k);

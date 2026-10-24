@@ -37,6 +37,22 @@ describe('verb recognition', () => {
     expect(blankForm('במקום הזה קם בבוקר', 'קם')).toBe('במקום הזה ___ בבוקר');
     expect(blankForm('אמרתי שקם מוקדם', 'קם')).toBe('אמרתי ש___ מוקדם');
     expect(blankForm('אין פה', 'קם')).toBeNull();
+    expect(blankForm('כשקם הבוקר', 'קם')).toBe('כש___ הבוקר');
+    // an infinitive is not ל + a past form
+    expect(blankForm('אתה יכול להסביר לי?', 'הסביר')).toBeNull();
+  });
+  it('grades a sentence task against the form the sentence needs', () => {
+    for (const v of verbs) {
+      for (const t of TENSES.filter((x) => drillable(v, x))) {
+        for (let i = 0; i < 5; i++) {
+          const task = asKind(makeVerbTask(v, t), 'context');
+          expect(task.answer[0], `${v.inf} ${t}: ${task.sentence!.he}`).toBe(task.sentence!.form);
+        }
+      }
+    }
+  });
+  it('offers no separate future button for אתן', () => {
+    expect(personChoices('future').map(([k]) => k)).toEqual(Object.keys(verbById.get('verb_likhtov')!.future));
   });
   it('turns a conjugation task into other kinds', () => {
     const t = makeVerbTask(write, 'future');

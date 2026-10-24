@@ -176,7 +176,14 @@ function TypedTask({ t, onAnswer }: { t: VTask; onAnswer: (g: Rating, given: str
   const [result, setResult] = useState<CheckResult | null>(null);
   const done = !!result && result.verdict !== 'latin';
   const spoken = `${t.pronoun} ${t.answer[0]}`;
-  const accepted = t.kind === 'infinitive' ? [t.verb.inf] : t.kind === 'listen' ? [t.answer[0], `${t.pronoun} ${t.answer[0]}`] : [t.answer[0]];
+  const accepted =
+    t.kind === 'infinitive'
+      ? [t.verb.inf]
+      : t.kind === 'listen'
+        ? [t.answer[0], `${t.pronoun} ${t.answer[0]}`]
+        : t.kind === 'context' && t.sentence
+          ? [t.sentence.form]
+          : [t.answer[0]];
 
   const check = (given = value) => {
     if (!given.trim()) return;

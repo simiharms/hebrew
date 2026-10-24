@@ -181,8 +181,10 @@ export const PERSON_PRONOUNS: Record<string, [string, string][]> = {
   '2fp': [['אתן', 'you (f pl)']],
   '3p': [['הם', 'they (m)'], ['הן', 'they (f)']],
 };
+// The future has one form for אתם and אתן (תכתבו), so there is no 2fp.
+const { '2fp': _noFuture2fp, ...PAST_WITHOUT_2FP } = PERSON_PRONOUNS;
 export const FUTURE_PRONOUNS: Record<string, [string, string][]> = {
-  ...PERSON_PRONOUNS,
+  ...PAST_WITHOUT_2FP,
   '2mp': [['אתם', 'you (m pl)'], ['אתן', 'you (f pl)']],
 };
 

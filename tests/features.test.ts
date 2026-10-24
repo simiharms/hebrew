@@ -9,6 +9,7 @@ import { drillable, makeVerbTask, TENSES } from '../src/lib/session.ts';
 import { getState, importState } from '../src/lib/store.ts';
 import { analyses, asKind, blankForm, contextSentence, personChoices } from '../src/lib/verbdrill.ts';
 import { levelFromBands } from '../src/screens/assessment.tsx';
+import { distinctPrefix } from '../src/screens/session-words.tsx';
 
 describe('verb recognition', () => {
   const write = verbById.get('verb_likhtov')!;
@@ -169,5 +170,12 @@ describe('placement', () => {
     expect(levelFromBands([1, 0.9, 0.6, 0])).toBe('B1+');
     expect(levelFromBands([1, 1, 0.9, 0.3])).toBe('B2');
     expect(levelFromBands([1, 1, 0.9, 0.8])).toBe('C1');
+  });
+});
+
+describe('ambiguous English prompts', () => {
+  it('hints with enough letters to tell the words apart', () => {
+    expect(distinctPrefix('מעסיק', ['מעביד'])).toBe('מעס');
+    expect(distinctPrefix('פה', ['כאן'])).toBe('פ');
   });
 });

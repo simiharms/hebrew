@@ -97,6 +97,7 @@ while (!noWords && steps++ < 60) {
     await page.getByRole('button', { name: 'Check' }).click();
     typed++;
     if (await page.getByText('✓ Correct').isVisible().catch(() => false)) correct++;
+    else console.log(`     not accepted: "${answer}" (${badge.trim()}) — ${(await page.locator('.feedback').first().textContent().catch(() => ''))?.slice(0, 120)}`);
     if (typed === 1) await shot('e2e-word-feedback');
   } else {
     await page.getByRole('button', { name: "I don't know" }).click();

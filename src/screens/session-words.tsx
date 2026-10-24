@@ -150,6 +150,15 @@ function sameMeaning(item: VocabItem): VocabItem[] {
   );
 }
 
+/** The shortest start of `he` that none of the other words share (מעס… vs מעב…). */
+export function distinctPrefix(he: string, others: string[]): string {
+  for (let n = 1; n < he.length; n++) {
+    const p = he.slice(0, n);
+    if (p.trim() && !others.some((o) => o.startsWith(p))) return p;
+  }
+  return he.slice(0, Math.max(1, he.length - 1));
+}
+
 function WordMeta({ item }: { item: WordTask['item'] }) {
   return (
     <span class="small muted">
@@ -306,7 +315,7 @@ function Exercise({
               <WordMeta item={item} />
               {synonyms.length > 0 && (
                 <div class="hint">
-                  starts with <span class="he">{item.he[0]}</span>
+                  starts with <span class="he">{distinctPrefix(item.he, synonyms.map((o) => o.he))}</span>
                 </div>
               )}
             </>

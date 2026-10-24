@@ -2,7 +2,7 @@
   {
     "id": "vc1m_tur_daat",
     "he": "טור דעה",
-    "tr": "tur dá'at",
+    "tr": "tur de'á",
     "en": "opinion column",
     "enAlt": [
       "op-ed",
@@ -18,7 +18,7 @@
       "he": "בטור הדעה שלה השבוע טוענת הכותבת כי העבודה מהבית פוגעת ביצירתיות של צוותים צעירים.",
       "en": "In her opinion column this week, the writer argues that working from home harms the creativity of young teams."
     },
-    "note": "טור also means a column in a table and a line of people. בעל טור / בעלת טור = columnist. An opinion article is also called מאמר דעה."
+    "note": "טור also means a column in a table, or a file of people or cars (a queue is תור, with ת). בעל טור / בעלת טור = columnist. An opinion article is also called מאמר דעה."
   },
   {
     "id": "vc1m_orekh",
@@ -429,7 +429,7 @@
     "tr": "viráli",
     "en": "viral",
     "enAlt": [
-      "gone viral"
+      "going viral"
     ],
     "pos": "adj",
     "level": "B2",
@@ -438,7 +438,7 @@
       "he": "הסרטון שבו גננת שרה עם הילדים הפך לוויראלי תוך יום אחד.",
       "en": "The video of a kindergarten teacher singing with the children went viral within a single day."
     },
-    "note": "Feminine: ויראלית. להפוך לוויראלי = to go viral; note the doubled ו after a prefix (לוויראלי). In medicine \"viral\" is usually נגיפי."
+    "note": "Feminine: ויראלית. להפוך לוויראלי = to go viral; note the doubled ו after a prefix (לוויראלי). In medicine the official term is נגיפי, but ויראלי is common there too (דלקת ויראלית)."
   },
   {
     "id": "vc1m_kozev",
@@ -459,7 +459,7 @@
       "he": "מחקרים מראים שידיעות כוזבות מתפשטות ברשת מהר יותר מידיעות אמיתיות.",
       "en": "Studies show that false news stories spread online faster than true ones."
     },
-    "note": "Feminine: כוזבת. From כזב (a lie, falsehood). Everyday Hebrew says לא נכון, שקרי or פייק."
+    "note": "Feminine: כוזבת. From כזב (a lie, falsehood). ידיעות כוזבות or חדשות כזב = fake news. Everyday Hebrew says לא נכון, שקרי or פייק."
   },
   {
     "id": "vc1m_bdikat_uvdot",
@@ -517,7 +517,10 @@
       "he": "יותר ויותר עיתונים מסתירים את הכתבות שלהם מאחורי חומת תשלום.",
       "en": "More and more newspapers are hiding their articles behind a paywall."
     },
-    "note": "חומה is a massive wall, like a city wall; the wall of a room is קיר. מנוי דיגיטלי = a digital subscription."
+    "note": "חומה is a massive wall, like a city wall; the wall of a room is קיר. מנוי דיגיטלי = a digital subscription.",
+    "enAlt": [
+      "pay wall"
+    ]
   },
   {
     "id": "vc1m_magish",
@@ -659,7 +662,7 @@
       "he": "ברדיו יש מבזק חדשות קצר בכל שעה עגולה.",
       "en": "On the radio there is a short news bulletin every hour on the hour."
     },
-    "note": "From בזק (a flash of lightning). The same idea gives ביקור בזק (a flying visit) and מבצע בזק (a lightning operation)."
+    "note": "From בזק (a flash of lightning). The same idea gives ביקור בזק (a flying visit) and סקר בזק (a snap poll)."
   },
   {
     "id": "vc1m_parasha",
@@ -861,10 +864,11 @@
     "level": "C1",
     "topic": "law",
     "ex": {
-      "he": "לפי עדות של שכנה, הצינור דלף כבר כמה שבועות.",
-      "en": "According to a neighbour's testimony, the pipe had already been leaking for several weeks."
+      "he": "לפי עדותה של השכנה מהקומה הראשונה, הצינור דלף כבר כמה שבועות.",
+      "en": "According to the testimony of the neighbour from the first floor, the pipe had already been leaking for several weeks."
     },
-    "note": "למסור עדות = to give testimony. Figuratively a sign or proof: עדות לכך ש... (evidence that...). Do not confuse with עדות (edót), the plural of עדה (community)."
+    "note": "למסור עדות = to give testimony. Figuratively a sign or proof: עדות לכך ש... (evidence that...). Do not confuse with עדות (edót), the plural of עדה (community).",
+    "root": "ע.ו.ד"
   },
   {
     "id": "vc1m_ed",
@@ -883,7 +887,8 @@
       "he": "העד סיפר לבית המשפט שראה את הרכב עובר באור אדום.",
       "en": "The witness told the court that he had seen the car go through a red light."
     },
-    "note": "Feminine: עדה. Same spelling as the preposition עד (until). עד ראייה = eyewitness."
+    "note": "Feminine: עדה. Same spelling as the preposition עד (until). עד ראייה = eyewitness.",
+    "root": "ע.ו.ד"
   },
   {
     "id": "vc1m_reaya",
@@ -945,7 +950,8 @@
       "he": "סעיף 12 בחוזה השכירות קובע מי אחראי לתיקונים בדירה.",
       "en": "Clause 12 of the lease states who is responsible for repairs in the apartment."
     },
-    "note": "Also an item on a list or an agenda, and part of an exam question. סעיף קטן = subsection."
+    "note": "Also an item on a list or an agenda, and part of an exam question. סעיף קטן = subsection.",
+    "root": "ס.ע.פ"
   },
   {
     "id": "vc1m_zkhut",
@@ -1006,10 +1012,10 @@
     "level": "C1",
     "topic": "law",
     "ex": {
-      "he": "עיכוב של שלושה חודשים בתשלום נחשב להפרה של החוזה.",
-      "en": "A three-month delay in payment is considered a breach of the contract."
+      "he": "לפי החוזה, איחור של יותר משלושים יום בתשלום ייחשב להפרה.",
+      "en": "Under the contract, a payment delay of more than thirty days will be considered a breach."
     },
-    "note": "להפר = to break (a law, a promise, a contract). הפרת חוזה = breach of contract; הפרת זכויות יוצרים = copyright infringement."
+    "note": "להפר = to break (a law, a promise, a contract). הפרת חוזה = breach of contract; הפרה יסודית = a fundamental breach; הפרת זכויות יוצרים = copyright infringement."
   },
   {
     "id": "vc1m_yipui_koakh",
@@ -1076,7 +1082,7 @@
       "he": "את הדירה הם קיבלו בירושה מסבתא שלהם.",
       "en": "They inherited the apartment from their grandmother."
     },
-    "note": "לקבל בירושה = to inherit. צו ירושה = a court order of inheritance, issued when there is no will. Figuratively: heritage, legacy."
+    "note": "לקבל בירושה = to inherit. צו ירושה = an inheritance order, issued when there is no will (with a will: צו קיום צוואה). Figuratively: heritage, legacy."
   },
   {
     "id": "vc1m_leshon_hara",
@@ -1108,7 +1114,7 @@
     "level": "C1",
     "topic": "law",
     "ex": {
-      "he": "הצדדים הסכימו להעביר את המחלוקת לבוררות במקום לפנות לבית משפט.",
+      "he": "הצדדים הסכימו להעביר את המחלוקת לבוררות במקום לפנות לבית המשפט.",
       "en": "The parties agreed to take the dispute to arbitration instead of going to court."
     },
     "note": "בורר / בוררת = arbitrator, whose decision binds both sides. Many business contracts include a סעיף בוררות (arbitration clause)."
@@ -1127,8 +1133,8 @@
     "level": "C1",
     "topic": "law",
     "ex": {
-      "he": "בגישור, שני הצדדים מנסים להגיע להסכמה בעזרת אדם ניטרלי.",
-      "en": "In mediation, both sides try to reach an agreement with the help of a neutral person."
+      "he": "בגישור, שני הצדדים מנסים להגיע להסכמה בעזרת צד שלישי ניטרלי.",
+      "en": "In mediation, both sides try to reach an agreement with the help of a neutral third party."
     },
     "note": "Literally \"bridging\", from גשר (bridge). מגשר / מגשרת = mediator. Unlike in בוררות, the mediator does not decide; the parties do."
   },
@@ -1208,10 +1214,10 @@
     "level": "C1",
     "topic": "law",
     "ex": {
-      "he": "בבית משפט לתביעות קטנות אפשר לתבוע חברה גם בלי עורך דין.",
-      "en": "In small claims court you can sue a company even without a lawyer."
+      "he": "בבית המשפט לתביעות קטנות אפשר לתבוע חברה גם בלי עורך דין.",
+      "en": "In the small claims court you can sue a company even without a lawyer."
     },
-    "note": "Usually just תביעות קטנות: הגשתי תביעה קטנה (I filed a small claim). Lawyers normally do not appear there, so it is built for ordinary people."
+    "note": "Usually just תביעות קטנות: הגשתי תביעה קטנה (I filed a small claim). Lawyers normally need the court's permission to appear there, so it is built for ordinary people."
   },
   {
     "id": "vc1m_hotsaa_lapoal",
@@ -1251,10 +1257,10 @@
     "level": "C1",
     "topic": "law",
     "ex": {
-      "he": "בית המשפט הוציא צו שאוסר על החברה לבנות במגרש עד סוף הדיון.",
-      "en": "The court issued an order forbidding the company to build on the lot until the end of the proceedings."
+      "he": "בית המשפט הוציא צו שאוסר על החברה לבנות במגרש עד להכרעה בתיק.",
+      "en": "The court issued an order forbidding the company to build on the lot until the case is decided."
     },
-    "note": "צו מניעה = an injunction; צו הריסה = a demolition order; צו ירושה = an inheritance order. Same root as צוואה and מצווה."
+    "note": "צו מניעה = an injunction; צו עיקול = an attachment (seizure) order; צו ירושה = an inheritance order. Same root as צוואה and מצווה."
   },
   {
     "id": "vc1m_takdim",
@@ -1310,7 +1316,7 @@
       "he": "תושבים עם הכנסה נמוכה יכולים לבקש סיוע משפטי במקרים מסוימים.",
       "en": "Low-income residents can apply for legal aid in certain cases."
     },
-    "note": "סיוע = aid, assistance (formal; everyday עזרה). In Israel the Justice Ministry's legal aid department (הסיוע המשפטי) represents eligible people for free."
+    "note": "סיוע = aid, assistance (formal; everyday עזרה). In Israel the Justice Ministry's legal aid department (הסיוע המשפטי) represents eligible people free of charge or for a small fee."
   },
   {
     "id": "vc1m_zakaut",
@@ -1323,8 +1329,8 @@
     "level": "C1",
     "topic": "law",
     "ex": {
-      "he": "כדי לבדוק את הזכאות שלך להנחה בארנונה, צריך להגיש אישור על ההכנסות.",
-      "en": "To check your eligibility for an arnona discount, you need to submit proof of income."
+      "he": "כדי שהעירייה תבדוק את הזכאות שלך להנחה בארנונה, צריך להגיש אישור על ההכנסות.",
+      "en": "For the municipality to check your eligibility for an arnona discount, you need to submit proof of income."
     },
     "note": "From זכאי (entitled). תעודת זכאות = a certificate of eligibility, for example for a housing subsidy; זכאות לבגרות = qualifying for the matriculation certificate."
   },

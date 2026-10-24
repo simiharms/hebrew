@@ -49,7 +49,7 @@
       },
       {
         "h": "One letter, two sounds — one sound, several letters",
-        "body": "Three letters have two pronunciations: ב is b or v, כ is k or kh, and פ is p or f. In texts with vowel points, a dot inside the letter (dagesh) shows b, k, p; ordinary text has no dots, so you learn each word's sound together with the word. Some guidelines:\n• At the start of a word they are normally b, k, p: בית (báyit) house, כלב (kélev) dog, פה (po) here.\n• At the end of a word they are normally v, kh, f: טוב (tov) good; ך and ף are always kh and f.\n• Inside a word either is possible, even within one family of words: כותב (kotév) writes, but לכתוב (likhtóv) to write; ספר (séfer) book, but מספר (mispár) number.\n• Loanwords go their own way: פלאפל (faláfel) starts with f, פיצה (pítsa) with p.\n\nש also has two sounds: sh (shin), as in שלום, and s (sin), as in ישראל (yisra'él) and עשר (éser) ten. sh is much more common.\n\nThe other side of the coin: in modern Israeli speech several sounds can be written with more than one letter, because sounds that were once different have merged. You can't hear the spelling, so learn the spelling of each word with the word itself.",
+        "body": "Three letters have two pronunciations: ב is b or v, כ is k or kh, and פ is p or f. In texts with vowel points, a dot inside the letter (dagesh) shows b, k, p; ordinary text has no dots, so you learn each word's sound together with the word. Some guidelines:\n• At the start of a word they are normally b, k, p: בית (báyit) house, כלב (kélev) dog, פה (po) here.\n• At the end of a word they are normally v, kh, f: טוב (tov) good; ך and ף are always kh and f.\n• Inside a word either is possible: שבת (shabát) Shabbat, but חבר (khavér) friend; מפה (mapá) map, but שפה (safá) language. It can change even within one family of words: ספר (séfer) book, but מספר (mispár) number.\n• Loanwords go their own way: פלאפל (faláfel) starts with f, פיצה (pítsa) with p.\n\nש also has two sounds: sh (shin), as in שלום, and s (sin), as in ישראל (yisra'él) and עשר (éser) ten. sh is much more common.\n\nThe other side of the coin: in modern Israeli speech several sounds can be written with more than one letter, because sounds that were once different have merged. You can't hear the spelling, so learn the spelling of each word with the word itself.",
         "table": [
           ["Sound", "Letters", "Examples"],
           ["t", "ת, ט", "תודה (todá) thank you · טוב (tov) good"],
@@ -68,7 +68,7 @@
           ["ב / כ", "ב sits on a flat base that sticks out at the bottom right; כ is rounded at the bottom", "בן (ben) son · כן (ken) yes"],
           ["ד / ר / ך", "ד has a sharp corner sticking out at the top right; ר is rounded; ך is the final form and its leg goes below the line", "דרך (dérekh) way, road"],
           ["ה / ח / ת", "ה has a gap at the top left; ח is closed at the top; ת has a small foot at the bottom left", "הם (hem) they · חם (kham) hot · תה (te) tea"],
-          ["ו / ז / ן", "ו is a short stroke with a small head; ז has a cap that sticks out on both sides; ן is the final form and goes below the line", "זמן (zman) time · ורוד (varód) pink"],
+          ["ו / ז / ן", "ו is a straight stroke down to the line with a small head; ז has a cap that sticks out on both sides; ן is the final form and goes below the line", "זמן (zman) time · ורוד (varód) pink"],
           ["ס / ם", "ס is rounded at the bottom; ם is square and appears only at the end of a word", "ספרים (sfarím) books"],
           ["ע / צ", "ע has two arms joined at the bottom, with a tail slanting down to the left; צ sits flat on the line, with a small arm at the top right", "צבע (tséva) colour · עץ (ets) tree"],
           ["י / ו", "י is short and hangs from the top of the line; ו reaches all the way down", "יום (yom) day"]
@@ -202,7 +202,7 @@
     "id": "g_a1_pronouns",
     "level": "A1",
     "title": "I, you, he: pronouns and sentences without 'to be'",
-    "titleHe": "אני, אתה, היא: כינויי גוף",
+    "titleHe": "אני, אתה, הוא: כינויי גוף",
     "summary": "The ten personal pronouns, sentences with no verb 'to be' (אני מורה, היא מחיפה), זה / זאת / אלה, saying no with לא, and the first question words.",
     "sections": [
       {
@@ -224,11 +224,11 @@
       },
       {
         "h": "Sentences without 'am', 'is', 'are'",
-        "body": "Hebrew has no present tense of 'to be'. You simply put the subject next to what you say about it — a noun, an adjective or a place — and there is no word for 'a' / 'an' either:\n• אני סטודנט. (aní studént) — I'm a student. (a man speaking)\n• אני סטודנטית. (aní studentít) — I'm a student. (a woman speaking)\n• היא מחיפה. (hi mekháifa) — She's from Haifa.\n• סמיר רופא. (samír rofé) — Samir is a doctor.\n• הקפה טוב. (hakafé tov) — The coffee is good.\n• אנחנו בעבודה. (anákhnu ba'avodá) — We're at work.\n\nThe noun or adjective matches the subject in gender and number: a woman says אני סטודנטית, a man says אני סטודנט, and a group of friends says אנחנו סטודנטים (anákhnu studentím).\n\nWhen the second half is itself definite — a name, or a noun with ה — Hebrew normally adds הוא, היא, הם or הן as a link; without it you'd have a phrase rather than a sentence: דני הוא המנהל. (dáni hu hamenahél) — Dani is the manager. Compare דני, המנהל… — Dani, the manager…\n\n'To be' does appear in the past and the future (הייתי, I was; אהיה, I'll be). That comes in A2."
+        "body": "Hebrew has no present tense of 'to be'. You simply put the subject next to what you say about it — a noun, an adjective or a place — and there is no word for 'a' / 'an' either:\n• אני סטודנט. (aní studént) — I'm a student. (a man speaking)\n• אני סטודנטית. (aní studentít) — I'm a student. (a woman speaking)\n• היא מחיפה. (hi mekháifa) — She's from Haifa.\n• סמיר רופא. (samír rofé) — Samir is a doctor.\n• הקפה טוב. (hakafé tov) — The coffee is good.\n• אנחנו בעבודה. (anákhnu ba'avodá) — We're at work.\n\nThe noun or adjective matches the subject in gender and number: a woman says אני סטודנטית, a man says אני סטודנט, and a group of friends says אנחנו סטודנטים (anákhnu studentím).\n\nWhen the second half is itself definite — a name, or a noun with ה — Hebrew normally adds הוא, היא, הם or הן as a link; without it you'd have a phrase rather than a sentence: דני הוא המנהל. (dáni hu hamenahél) — Dani is the manager. Compare דני, המנהל… — Dani, the manager…\n\nThe link is also common, though optional, after a name or a longer subject: ישראל היא ארץ קטנה. (yisra'él hi érets ktaná) — Israel is a small country.\n\n'To be' does appear in the past and the future (הייתי, I was; אהיה, I'll be). That comes in A2."
       },
       {
         "h": "זה, זאת, אלה: this is, these are",
-        "body": "To point at something or someone, use זה, זאת or אלה — again with no verb:\n• זה (ze) for a masculine noun: זה הבית שלי. (ze habáyit shelí) — This is my house.\n• זאת (zot) for a feminine noun: זאת דנה, החברה שלי. (zot dána, hakhaverá shelí) — This is Dana, my friend.\n• אלה (éle) for any plural: אלה ההורים שלי. (éle hahorím shelí) — These are my parents.\n\nIn this use Hebrew doesn't distinguish 'this' from 'that': זה covers both. In writing you'll also see זו (zo) for זאת and אלו (élu) for אלה.\n\nIn questions and general remarks people use זה for almost everything: מה זה? (ma ze?) — What's this? זה בסדר. (ze beséder) — It's fine. When you ask about a person, match the gender: מי זה? (about a man), מי זאת? (about a woman).\n\nDon't confuse זה ספר (This is a book — a whole sentence) with הספר הזה (haséfer hazé — this book), where זה follows the noun and takes ה, like an adjective. More on that in the next lesson.",
+        "body": "To point at something or someone, use זה, זאת or אלה — again with no verb:\n• זה (ze) for a masculine noun: זה הבית שלי. (ze habáyit shelí) — This is my house.\n• זאת (zot) for a feminine noun: זאת דנה, החברה שלי. (zot dána, hakhaverá shelí) — This is Dana, my friend.\n• אלה (éle) for any plural: אלה ההורים שלי. (éle hahorím shelí) — These are my parents.\n\nIn this use Hebrew doesn't distinguish 'this' from 'that': זה covers both. You'll also see and hear זו (zo) for זאת and אלו (élu) for אלה; they mean the same and sound a little more formal.\n\nIn questions and general remarks people use זה for almost everything: מה זה? (ma ze?) — What's this? זה בסדר. (ze beséder) — It's fine. When you ask about a person, match the gender: מי זה? (about a man), מי זאת? (about a woman).\n\nDon't confuse זה ספר (This is a book — a whole sentence) with הספר הזה (haséfer hazé — this book), where זה follows the noun and takes ה, like an adjective. More on that in the next lesson.",
         "table": [
           ["Word", "Say it", "Used for", "Example"],
           ["זה", "ze", "a masculine noun", "זה המחשב שלי. — This is my computer."],
@@ -242,7 +242,7 @@
       },
       {
         "h": "Questions: מי, מה, איפה, מאיפה",
-        "body": "A yes/no question uses exactly the same words as the statement; only your voice rises at the end (and in writing you add a question mark):\n• אתה מתל אביב. (atá mitél avív) — You're from Tel Aviv.\n• אתה מתל אביב? — Are you from Tel Aviv?\n\nQuestion words come at the start of the sentence, and there is still no verb 'to be': מי זה? — Who's that? איפה הבנק? — Where's the bank?\n\nמאיפה is מ (from) + איפה (where). מ is a prefix, written together with the next word: מחיפה, מתל אביב, מרוסיה, מאתיופיה. Its vowel changes in speech (mi-, me-), but in writing it's always just מ. So the answer to מאיפה also uses מ: מאיפה אתה? — אני מאשדוד. (me'éifo atá? — aní me'ashdód) — Where are you from? — I'm from Ashdod.\n\nOther question words work the same way: מתי (matáy) when, למה (láma) why, איך (eikh) how, כמה (káma) how much / how many.",
+        "body": "A yes/no question uses exactly the same words as the statement; only your voice rises at the end (and in writing you add a question mark):\n• אתה מתל אביב. (atá mitel avív) — You're from Tel Aviv.\n• אתה מתל אביב? — Are you from Tel Aviv?\n\n(In formal writing such a question often opens with האם (ha'ím): האם אתה מתל אביב?)\n\nQuestion words come at the start of the sentence, and there is still no verb 'to be': מי זה? — Who's that? איפה הבנק? — Where's the bank?\n\nמאיפה is מ (from) + איפה (where). מ is a prefix, written together with the next word: מחיפה, מתל אביב, מרוסיה, מאתיופיה. Its vowel changes in speech (mi-, me-), but in writing it's always just מ. So the answer to מאיפה also uses מ: מאיפה אתה? — אני מאשדוד. (me'éifo atá? — aní me'ashdód) — Where are you from? — I'm from Ashdod.\n\nOther question words work the same way: מתי (matáy) when, למה (láma) why, איך (eikh) how, כמה (káma) how much / how many.",
         "table": [
           ["Word", "Say it", "Meaning", "Example"],
           ["מי", "mi", "who", "מי המנהל? (mi hamenahél?) — Who's the manager?"],
@@ -312,14 +312,14 @@
       {
         "prompt": "___ הבית שלי. (this)",
         "en": "This is my house.",
-        "answer": ["זה"],
+        "answer": ["זה", "זהו"],
         "hint": "בית is masculine",
-        "explain": "בית is masculine, so 'this is' is זה (ze)."
+        "explain": "בית is masculine, so 'this is' is זה (ze). זהו (zéhu, from זה + הוא) is a slightly more emphatic variant."
       },
       {
         "prompt": "___ אמא שלי, שושנה. (this)",
         "en": "This is my mum, Shoshana.",
-        "answer": ["זאת", "זו"],
+        "answer": ["זאת", "זו", "זוהי"],
         "hint": "introducing a woman",
         "explain": "For a woman or a feminine noun, 'this is' is זאת (zot); זו (zo) is also correct, a little more formal."
       },
@@ -361,9 +361,9 @@
       {
         "prompt": "___ אתה? — אני מבאר שבע. (where from)",
         "en": "Where are you from? — I'm from Beersheba.",
-        "answer": ["מאיפה"],
+        "answer": ["מאיפה", "מהיכן"],
         "hint": "מ + איפה, one word",
-        "explain": "מאיפה (me'éifo) = from where: the prefix מ + איפה. The answer uses מ as well: מבאר שבע."
+        "explain": "מאיפה (me'éifo) = from where: the prefix מ + איפה. The answer uses מ as well: מבאר שבע. (Formal Hebrew also has מהיכן.)"
       }
     ]
   },
@@ -507,7 +507,7 @@
         "explain": "אישה has a completely different plural: נשים (nashím)."
       },
       {
-        "prompt": "דני ויוסי ___ טובים. (fathers)",
+        "prompt": "דני ויוסי הם ___ טובים. (fathers)",
         "en": "Dani and Yossi are good fathers.",
         "answer": ["אבות"],
         "hint": "the standard plural of אבא",

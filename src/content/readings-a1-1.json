@@ -9,7 +9,7 @@
     "paragraphs": [
       {
         "he": "רחוב הרצל",
-        "en": "Herzl Street — the blue street sign on a corner."
+        "en": "Herzl Street — the street-name sign on a corner."
       },
       {
         "he": "תחנת אוטובוס. קווים 4, 18, 25 — לתחנה המרכזית",
@@ -20,8 +20,8 @@
         "en": "Shoshana's Bakery: fresh bread every morning! (The big sign above a bakery.)"
       },
       {
-        "he": "שעות פתיחה: א׳–ה׳ 7:00–19:00, ו׳ 7:00–14:00, שבת: סגור",
-        "en": "Opening hours: Sun–Thu 7:00–19:00, Fri 7:00–14:00, Saturday: closed. (A small sign on the bakery door.)"
+        "he": "מאפיית שושנה — שעות פתיחה: א׳–ה׳ 7:00–19:00, ו׳ 7:00–14:00, שבת: סגור",
+        "en": "Shoshana's Bakery — opening hours: Sun–Thu 7:00–19:00, Fri 7:00–14:00, Saturday: closed. (A small sign on the bakery door.)"
       },
       {
         "he": "כניסה לסופר",
@@ -77,7 +77,7 @@
         "qEn": "Where are the restrooms?",
         "answer": "בקומה 2, ליד בית הקפה.",
         "answerEn": "On floor 2, next to the café.",
-        "keywords": [["2", "שתיים", "קומה", "ליד", "קפה"]]
+        "keywords": [["קומה 2", "2", "שתיים", "שנייה"], ["קפה", "בית הקפה"]]
       },
       {
         "q": "איזה מקום פתוח בשבת?",
@@ -135,7 +135,7 @@
       {
         "prompt": "השירותים בקומה 2, ליד ___.",
         "en": "The restrooms are on floor 2, next to the café.",
-        "answer": ["בית הקפה"],
+        "answer": ["בית הקפה", "בית קפה"],
         "hint": "the café"
       },
       {
@@ -161,8 +161,8 @@
         { "en": "Write one rule with אסור", "keywords": ["אסור"] },
         { "en": "Say where something is (ליד…, קומה…)", "keywords": ["ליד", "קומה"] }
       ],
-      "model": "אולפן עברית: כניסה. שעות פתיחה: א׳–ה׳ 8:00–13:00. שישי ושבת: סגור. אסור לאכול בכיתה! שירותים: קומה 1, ליד המעלית. קפה ותה: במטבח, ליד הכיתה.",
-      "modelEn": "Hebrew ulpan: entrance. Opening hours: Sun–Thu 8:00–13:00. Friday and Saturday: closed. No eating in the classroom! Restrooms: floor 1, next to the elevator. Coffee and tea: in the kitchen, next to the classroom."
+      "model": "כניסה לאולפן. שעות פתיחה: א׳–ה׳ 8:00–13:00. ו׳ ושבת: סגור. אסור לאכול בכיתה! שירותים: קומה 1, ליד המעלית. קפה ותה: במטבח, ליד הכיתה.",
+      "modelEn": "Entrance to the ulpan. Opening hours: Sun–Thu 8:00–13:00. Friday and Saturday: closed. No eating in the classroom! Restrooms: floor 1, next to the elevator. Coffee and tea: in the kitchen, next to the classroom."
     }
   },
   {
@@ -212,7 +212,7 @@
       { "he": "בתמונה", "en": "in the photo (תמונה = photo, picture)", "tr": "batmuná" },
       { "he": "שלנו", "en": "our, ours", "tr": "shelánu" },
       { "he": "מאיפה", "en": "where from", "tr": "me'éifo" },
-      { "he": "כתבו", "en": "write! (to a group)", "tr": "kitvú" }
+      { "he": "פורטוגזית", "en": "Portuguese (the language); ספרדית = Spanish, אנגלית = English", "tr": "portugézit" }
     ],
     "questions": [
       {
@@ -289,8 +289,8 @@
         "hint": "his job"
       },
       {
-        "prompt": "מרינה ___ בבית חולים גדול.",
-        "en": "Marina works in a big hospital.",
+        "prompt": "מרינה אחות, והיא ___ בבית חולים גדול.",
+        "en": "Marina is a nurse, and she works in a big hospital.",
         "answer": ["עובדת"],
         "hint": "works (feminine, present tense)"
       },
@@ -305,15 +305,15 @@
       "prompt": "כתבו על עצמכם לדף של הכיתה: מי אתם, מאיפה אתם, איפה אתם גרים ועובדים, ואילו שפות אתם מדברים?",
       "promptEn": "Write about yourself for the class page: who you are, where you're from, where you live and work, and which languages you speak.",
       "minWords": 15,
-      "useWords": ["קוראים לי", "אני מ…", "עכשיו", "העבודה שלי", "רק קצת"],
+      "useWords": ["קוראים לי", "עכשיו", "העבודה שלי", "שפות", "רק קצת"],
       "checklist": [
         { "en": "Say your name", "keywords": ["קוראים לי", "שמי", "השם שלי"] },
         { "en": "Say where you're from and where you live", "keywords": ["בית", "עיר", "גר", "גרה", "גרים"] },
         { "en": "Say what you do", "keywords": ["עבודה", "עובד", "עובדת", "סטודנט", "סטודנטית", "לומד", "לומדת"] },
         { "en": "Say which languages you speak", "keywords": ["שפות", "מדבר", "מדברת", "עברית"] }
       ],
-      "model": "שלום לכולם! קוראים לי אלכס. אני מאוקראינה, מאודסה. הבית שלי עכשיו בנתניה, קרוב לים. העבודה שלי בבנק בתל אביב. השפות שלי: אוקראינית, רוסית ואנגלית. ועברית? העברית שלי עוד לא טובה, אבל כל יום היא יותר טובה!",
-      "modelEn": "Hello everyone! My name is Alex. I'm from Ukraine, from Odesa. My home is now in Netanya, close to the sea. My job is at a bank in Tel Aviv. My languages: Ukrainian, Russian and English. And Hebrew? My Hebrew isn't good yet, but it gets better every day!"
+      "model": "שלום לכולם! קוראים לי אלכס. אני מאוקראינה, מאודסה. עכשיו הבית שלי בנתניה, קרוב לים. העבודה שלי בבנק בתל אביב. השפות שלי: אוקראינית, רוסית, אנגלית, ועברית — רק קצת! אבל כל יום העברית שלי יותר טובה.",
+      "modelEn": "Hello everyone! My name is Alex. I'm from Ukraine, from Odesa. Now my home is in Netanya, close to the sea. My job is at a bank in Tel Aviv. My languages: Ukrainian, Russian, English, and Hebrew — only a little! But every day my Hebrew gets better."
     }
   },
   {
@@ -333,7 +333,7 @@
         "en": "In the first photo: my dad and mom. Dad is a teacher, and Mom is a doctor. They live in Nazareth."
       },
       {
-        "he": "יש לי שני אחים ואחות אחת. אני האח הגדול. האחים שלי, סאמר ונביל, תאומים. הם גבוהים ורזים, והם סטודנטים בתל אביב.",
+        "he": "יש לי שני אחים ואחות אחת. אני האח הגדול. האחים שלי, סאמר ונביל, הם תאומים. הם גבוהים ורזים, והם סטודנטים בתל אביב.",
         "en": "I have two brothers and one sister. I'm the big brother. My brothers, Samer and Nabil, are twins. They're tall and thin, and they're students in Tel Aviv."
       },
       {
@@ -345,8 +345,8 @@
         "en": "In the second photo: Grandpa and Grandma. Their house is small, but the garden is big. Grandma is very nice, and her food is delicious!"
       },
       {
-        "he": "ואת? יש לך אחים ואחיות? כתבי לי! להתראות, כרים",
-        "en": "And you? Do you have brothers and sisters? Write to me! Bye, Karim"
+        "he": "ואת? יש לך אחים ואחיות? כתבי לי! שלך, כרים",
+        "en": "And you? Do you have brothers and sisters? Write to me! Yours, Karim"
       }
     ],
     "glossary": [
@@ -367,8 +367,8 @@
     ],
     "questions": [
       {
-        "q": "מה העבודה של אמא של כרים?",
-        "qEn": "What is Karim's mom's job?",
+        "q": "מה אמא של כרים עושה?",
+        "qEn": "What does Karim's mom do?",
         "answer": "היא רופאה.",
         "answerEn": "She's a doctor.",
         "keywords": [["רופאה", "רופא"]]
@@ -399,7 +399,7 @@
         "s": "סאמר ונביל תאומים.",
         "sEn": "Samer and Nabil are twins.",
         "a": true,
-        "why": "The text says האחים שלי, סאמר ונביל, תאומים."
+        "why": "The text says האחים שלי, סאמר ונביל, הם תאומים: his brothers Samer and Nabil are twins."
       },
       {
         "s": "כרים הוא האח הקטן במשפחה.",
@@ -416,9 +416,9 @@
     ],
     "find": [
       { "en": "I have", "answer": ["יש לי"] },
-      { "en": "twins", "answer": ["תאומים"] },
-      { "en": "noisy", "answer": ["רועשת"] },
-      { "en": "delicious", "answer": ["טעים"] }
+      { "en": "my sister", "answer": ["האחות שלי"] },
+      { "en": "their house", "answer": ["הבית שלהם"] },
+      { "en": "noisy (feminine)", "answer": ["רועשת"] }
     ],
     "summary": [
       {
@@ -448,12 +448,12 @@
       {
         "prompt": "האוכל של סבתא ___.",
         "en": "Grandma's food is delicious.",
-        "answer": ["טעים"],
+        "answer": ["טעים", "טעים מאוד"],
         "hint": "delicious (masculine: אוכל is masculine)"
       }
     ],
     "writing": {
-      "prompt": "ספרו על המשפחה שלכם: מי יש במשפחה, איפה הם גרים, ואיך הם?",
+      "prompt": "ספרו על המשפחה שלכם: מי במשפחה, איפה הם גרים ואיך הם?",
       "promptEn": "Tell about your family: who is in it, where they live, and what they are like.",
       "minWords": 15,
       "useWords": ["יש לי", "אח", "אחות", "גרים", "מאוד"],

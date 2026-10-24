@@ -5,7 +5,7 @@
     "title": "שלום, מה נשמע?",
     "titleEn": "Hi, How's It Going?",
     "genre": "street",
-    "synopsis": "Early morning at a bus stop. Dana spots Alex and stops to chat with him for a minute. Alex isn't alone: he has someone to introduce.",
+    "synopsis": "One morning at a bus stop, Dana spots Alex and stops to chat with him for a minute. Alex isn't alone: he has someone to introduce.",
     "speakers": {
       "A": { "name": "דנה", "gender": "f" },
       "B": { "name": "אלכס", "gender": "m" },
@@ -127,13 +127,13 @@
       { "s": "A", "he": "נעים מאוד, מרקוס. מאיפה אתה?", "en": "Nice to meet you, Marcus. Where are you from?" },
       { "s": "B", "he": "אני מברזיל, מסאו פאולו.", "en": "I'm from Brazil, from São Paulo." },
       { "s": "A", "he": "ומה אתה עושה בישראל?", "en": "And what do you do in Israel?" },
-      { "s": "B", "he": "אני מהנדס. אני עובד בהייטק.", "en": "I'm an engineer. I work in high-tech." },
+      { "s": "B", "he": "אני מהנדס. אני עובד בהייטק.", "en": "I'm an engineer. I work in tech." },
       { "s": "A", "he": "תודה, מרקוס. מי הבא?", "en": "Thank you, Marcus. Who's next?" },
       { "s": "C", "he": "אני ז׳ולי, מצרפת. אני סטודנטית.", "en": "I'm Julie, from France. I'm a student." },
       { "s": "A", "he": "ומה את לומדת, ז׳ולי?", "en": "And what do you study, Julie?" },
       { "s": "C", "he": "מוזיקה. אני גם מורה לפסנתר.", "en": "Music. I'm also a piano teacher." },
       { "s": "D", "he": "ואני דייוויד, מלונדון. אני רופא.", "en": "And I'm David, from London. I'm a doctor." },
-      { "s": "A", "he": "יופי! אתם באים מכל העולם. ברוכים הבאים!", "en": "Wonderful! You come from all over the world. Welcome!" }
+      { "s": "A", "he": "יופי! אתם באים מכל העולם. ברוכים הבאים לאולפן!", "en": "Wonderful! You come from all over the world. Welcome to the ulpan!" }
     ],
     "questions": [
       {
@@ -169,7 +169,7 @@
         "s": "מרקוס מהנדס.",
         "sEn": "Marcus is an engineer.",
         "a": true,
-        "why": "He says אני מהנדס and adds that he works in high-tech."
+        "why": "He says אני מהנדס and adds that he works in tech, בהייטק."
       },
       {
         "s": "ז׳ולי ודייוויד מצרפת.",
@@ -230,7 +230,7 @@
       "B": { "name": "רועי", "gender": "m" }
     },
     "lines": [
-      { "s": "A", "he": "רועי, בוא! יש לי תמונות חדשות.", "en": "Roy, come here! I've got some new photos." },
+      { "s": "A", "he": "רועי, בוא רגע! יש לי תמונות חדשות.", "en": "Roy, come here a sec! I've got some new photos." },
       { "s": "B", "he": "יופי. מי זה?", "en": "Great. Who's this?" },
       { "s": "A", "he": "זה אבא שלי. הוא טבח במלון.", "en": "This is my dad. He's a cook at a hotel." },
       { "s": "B", "he": "וזאת? זאת אחותך?", "en": "And this one? Is this your sister?" },
@@ -249,20 +249,20 @@
         "qEn": "What does Almaz's father do?",
         "answer": "הוא טבח במלון.",
         "answerEn": "He's a cook at a hotel.",
-        "keywords": [["טבח", "מבשל"], ["מלון"]]
+        "keywords": [["טבח", "מבשל", "שף"], ["מלון"]]
       },
       {
-        "q": "רועי חושב שזאת אחות של אלמז. מי זאת באמת?",
-        "qEn": "Roy thinks it's Almaz's sister. Who is it really?",
+        "q": "רועי שואל: ״זאת אחותך?״ מי זאת באמת?",
+        "qEn": "Roy asks, 'Is this your sister?' Who is it really?",
         "answer": "זאת אמא שלה.",
         "answerEn": "It's her mom.",
         "keywords": [["אמא", "אם"]]
       },
       {
-        "q": "מי הילדה בתמונה האחרונה?",
-        "qEn": "Who is the little girl in the last photo?",
-        "answer": "זאת אלמז, בגיל שלוש.",
-        "answerEn": "It's Almaz, at age three.",
+        "q": "מי הילדה בתמונה האחרונה, ובת כמה היא?",
+        "qEn": "Who is the little girl in the last photo, and how old is she?",
+        "answer": "זאת אלמז, והיא בת שלוש.",
+        "answerEn": "It's Almaz, and she's three.",
         "keywords": [["אלמז"], ["שלוש", "3"]]
       }
     ],
@@ -274,10 +274,10 @@
         "why": "Almaz says הוא טבח במלון, 'he's a cook at a hotel'."
       },
       {
-        "s": "רועי יודע מי האישה בתמונה השנייה.",
-        "sEn": "Roy knows who the woman in the second photo is.",
-        "a": false,
-        "why": "He guesses she's Almaz's sister (זאת אחותך?), but she's her mother."
+        "s": "אמא של אלמז נראית צעירה.",
+        "sEn": "Almaz's mom looks young.",
+        "a": true,
+        "why": "Roy says היא נראית צעירה מאוד, 'she looks very young': he even thinks she is Almaz's sister (זאת אחותך?)."
       },
       {
         "s": "לאחות של אלמז יש שלושה ילדים.",
@@ -286,10 +286,10 @@
         "why": "She has two: a boy of six and a girl of four."
       },
       {
-        "s": "בתמונה האחרונה אלמז בת שלוש.",
-        "sEn": "In the last photo, Almaz is three years old.",
-        "a": true,
-        "why": "Almaz says זאת אני, בגיל שלוש, 'that's me, at age three'."
+        "s": "בתמונה האחרונה אלמז בת ארבע.",
+        "sEn": "In the last photo, Almaz is four years old.",
+        "a": false,
+        "why": "She is three: Almaz says זאת אני, בגיל שלוש, 'that's me, at age three'. The girl who is four (בת ארבע) is her sister's daughter."
       }
     ],
     "dictation": [2, 6, 8],
@@ -302,7 +302,7 @@
       {
         "he": "אחותי / אחותך",
         "en": "my sister / your sister",
-        "note": "Short for האחות שלי / האחות שלך, and very common with family words. With אבא and אמא people normally say אבא שלי, אמא שלי."
+        "note": "The same as האחות שלי / האחות שלך, and very common with family words. With אבא and אמא people normally say אבא שלי, אמא שלי."
       },
       {
         "he": "בני כמה הם?",

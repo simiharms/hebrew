@@ -24,25 +24,81 @@
         "en": "So how do you buy wisely? It's worth asking for more photos and asking how long the furniture has been used. Don't pay before you've seen it with your own eyes. It's also a good idea to measure the door and the lift in advance, because a big sofa doesn't always fit. And if you need a removal service, book it a few days ahead, because at the end of the month, when lots of people move house, it's hard to find a mover who is available."
       },
       {
-        "he": "לדעתנו, שוק היד השנייה הוא אחד השינויים הטובים של השנים האחרונות: הוא חוסך כסף, שומר על הסביבה ואפילו מחבר בין שכנים. רק צריך לזכור כלל אחד פשוט: אם הצעה נראית טובה מכדי להיות אמיתית, כנראה שהיא באמת לא אמיתית.",
-        "en": "In our view, the second-hand market is one of the good changes of recent years: it saves money, protects the environment and even brings neighbours together. You just need to remember one simple rule: if an offer looks too good to be true, it probably really isn't."
+        "he": "לדעתנו, אפליקציות היד השנייה הן אחד השינויים הטובים של השנים האחרונות: הן חוסכות כסף, שומרות על הסביבה ואפילו מחברות בין שכנים. רק צריך לזכור כלל אחד פשוט: אם הצעה נראית טובה מכדי להיות אמיתית, כנראה שהיא באמת לא אמיתית.",
+        "en": "In our view, second-hand apps are one of the good changes of recent years: they save money, protect the environment and even bring neighbours together. You just need to remember one simple rule: if an offer looks too good to be true, it probably really isn't."
       }
     ],
     "glossary": [
-      { "he": "יד שנייה", "en": "second-hand", "tr": "yad shniyá" },
-      { "he": "עציץ", "en": "potted plant (pl. עציצים)", "tr": "atsíts" },
-      { "he": "ניתנים", "en": "are given (passive of לתת)", "tr": "nitaním" },
-      { "he": "הוצאה", "en": "expense", "tr": "hotsa'á" },
-      { "he": "ריהטה", "en": "furnished (she); dictionary form לרהט", "tr": "rihatá" },
-      { "he": "עסקה", "en": "deal, transaction", "tr": "iská" },
-      { "he": "לעבור בשלום", "en": "to go smoothly, without problems", "tr": "la'avór beshalóm" },
-      { "he": "תקין", "en": "in working order, OK", "tr": "takín" },
-      { "he": "להיזהר מ", "en": "to beware of, be careful of", "tr": "lehizahér mi" },
-      { "he": "הונאה", "en": "scam, fraud (pl. הונאות)", "tr": "hona'á" },
-      { "he": "מקדמה", "en": "deposit, advance payment", "tr": "mikdamá" },
-      { "he": "העברה בנקאית", "en": "bank transfer", "tr": "ha'avará bankaít" },
-      { "he": "הובלה", "en": "removal (moving) service; מוביל = mover", "tr": "hovalá" },
-      { "he": "מכדי", "en": "too … to (טובה מכדי להיות אמיתית = too good to be true)", "tr": "mikedéi" }
+      {
+        "he": "יד שנייה",
+        "en": "second-hand",
+        "tr": "yad shniyá"
+      },
+      {
+        "he": "עציץ",
+        "en": "potted plant (pl. עציצים)",
+        "tr": "atsíts"
+      },
+      {
+        "he": "ניתנים",
+        "en": "are given (passive of לתת)",
+        "tr": "nitaním"
+      },
+      {
+        "he": "הוצאה",
+        "en": "expense",
+        "tr": "hotsa'á"
+      },
+      {
+        "he": "ריהטה",
+        "en": "furnished (she); dictionary form לרהט",
+        "tr": "rihatá"
+      },
+      {
+        "he": "עסקה",
+        "en": "deal, transaction",
+        "tr": "iská"
+      },
+      {
+        "he": "לעבור בשלום",
+        "en": "to go smoothly, without problems",
+        "tr": "la'avór beshalóm"
+      },
+      {
+        "he": "תקין",
+        "en": "in working order, OK",
+        "tr": "takín"
+      },
+      {
+        "he": "להיזהר מ",
+        "en": "to beware of, be careful of",
+        "tr": "lehizahér mi"
+      },
+      {
+        "he": "הונאה",
+        "en": "scam, fraud (pl. הונאות)",
+        "tr": "hona'á"
+      },
+      {
+        "he": "מקדמה",
+        "en": "deposit, advance payment",
+        "tr": "mikdamá"
+      },
+      {
+        "he": "העברה בנקאית",
+        "en": "bank transfer",
+        "tr": "ha'avará bankaít"
+      },
+      {
+        "he": "הובלה",
+        "en": "removal (moving) service; מוביל = mover",
+        "tr": "hovalá"
+      },
+      {
+        "he": "מכדי",
+        "en": "too … to (טובה מכדי להיות אמיתית = too good to be true)",
+        "tr": "mikedéi"
+      }
     ],
     "questions": [
       {
@@ -51,8 +107,15 @@
         "answer": "הם תלו מודעה בסופר או פרסמו אותה בעיתון.",
         "answerEn": "They put up an ad at the supermarket or placed it in the newspaper.",
         "keywords": [
-          ["מודעה", "מודעות"],
-          ["סופר", "עיתון", "לוח"]
+          [
+            "מודעה",
+            "מודעות"
+          ],
+          [
+            "סופר",
+            "עיתון",
+            "לוח"
+          ]
         ]
       },
       {
@@ -61,8 +124,19 @@
         "answer": "בגלל המחירים הזולים ובגלל הסביבה.",
         "answerEn": "Because of the low prices and because of the environment.",
         "keywords": [
-          ["מחירים", "מחיר", "זול", "כסף", "לחסוך", "חוסך"],
-          ["סביבה"]
+          [
+            "מחירים",
+            "מחיר",
+            "זול",
+            "זולים",
+            "כסף",
+            "לחסוך",
+            "חוסך",
+            "חיסכון"
+          ],
+          [
+            "סביבה"
+          ]
         ]
       },
       {
@@ -71,18 +145,37 @@
         "answer": "השולחן משכנה שעברה לחו״ל, והספה מבחור שקנה ספה חדשה.",
         "answerEn": "The table from a neighbour who moved abroad, and the sofa from a guy who bought a new sofa.",
         "keywords": [
-          ["שכנה", "שכן", "שכנים"],
-          ["בחור", "איש", "מישהו"]
+          [
+            "שכנה",
+            "שכן",
+            "שכנים"
+          ],
+          [
+            "בחור",
+            "איש",
+            "מישהו"
+          ]
         ]
       },
       {
         "q": "מה הייתה הבעיה עם המקרר של יבגני, ומה הוא עושה מאז?",
-        "qEn": "What was the problem with Yevgeni's fridge, and what has he done ever since?",
+        "qEn": "What was the problem with Yevgeni's fridge, and what has he been doing since then?",
         "answer": "המקרר לא עבד, ומאז הוא מבקש לראות שהמכשיר עובד לפני שהוא משלם.",
         "answerEn": "The fridge didn't work, and since then he asks to see that the appliance works before he pays.",
         "keywords": [
-          ["עבד", "עובד", "תקין", "מקולקל"],
-          ["לראות", "רואה", "לבדוק", "בודק"]
+          [
+            "עבד",
+            "עובד",
+            "תקין",
+            "מקולקל"
+          ],
+          [
+            "לראות",
+            "רואה",
+            "לבדוק",
+            "בודק",
+            "מבקש"
+          ]
         ]
       },
       {
@@ -91,8 +184,18 @@
         "answer": "כי בסוף החודש הרבה אנשים עוברים דירה, וקשה למצוא מוביל פנוי.",
         "answerEn": "Because at the end of the month lots of people move house, and it's hard to find an available mover.",
         "keywords": [
-          ["חודש"],
-          ["עוברים", "דירה", "מוביל", "מובילים", "פנוי"]
+          [
+            "חודש"
+          ],
+          [
+            "עוברים",
+            "לעבור",
+            "עוברת",
+            "דירה",
+            "מוביל",
+            "מובילים",
+            "פנוי"
+          ]
         ]
       }
     ],
@@ -104,7 +207,7 @@
         "why": "The article says you can find almost anything there, including fridges and even potted plants."
       },
       {
-        "s": "חלק מהדברים באפליקציות אפשר לקבל בלי לשלם.",
+        "s": "אפשר לקבל חלק מהדברים באפליקציות בלי לשלם.",
         "sEn": "Some of the things in the apps can be had without paying.",
         "a": true,
         "why": "Some items are given away free (בחינם) to anyone willing to come and pick them up."
@@ -123,40 +226,78 @@
       }
     ],
     "find": [
-      { "en": "for free", "answer": ["בחינם"] },
-      { "en": "in working order", "answer": ["תקין"] },
-      { "en": "in advance", "answer": ["מראש"] },
-      { "en": "too good to be true", "answer": ["טובה מכדי להיות אמיתית"] }
+      {
+        "en": "for free",
+        "answer": [
+          "בחינם"
+        ]
+      },
+      {
+        "en": "in working order",
+        "answer": [
+          "תקין"
+        ]
+      },
+      {
+        "en": "in advance",
+        "answer": [
+          "מראש"
+        ]
+      },
+      {
+        "en": "too good to be true",
+        "answer": [
+          "טובה מכדי להיות אמיתית"
+        ]
+      }
     ],
     "summary": [
       {
         "prompt": "היום רוב הישראלים קונים ומוכרים רהיטים משומשים ___.",
         "en": "Today most Israelis buy and sell used furniture on their phones.",
-        "answer": ["בטלפון", "באפליקציות"],
+        "answer": [
+          "בטלפון",
+          "באפליקציות",
+          "באפליקציה",
+          "דרך הטלפון",
+          "בטלפונים"
+        ],
         "hint": "on what?"
       },
       {
         "prompt": "מלבד החיסכון בכסף, קנייה ביד שנייה טובה גם ___.",
         "en": "Besides saving money, buying second-hand is also good for the environment.",
-        "answer": ["לסביבה"],
+        "answer": [
+          "לסביבה"
+        ],
         "hint": "for the environment"
       },
       {
         "prompt": "יבגני קנה מקרר ש___, ומאז הוא בודק כל מכשיר לפני שהוא משלם.",
         "en": "Yevgeni bought a fridge that didn't work, and since then he checks every appliance before he pays.",
-        "answer": ["לא עבד", "לא עובד"],
+        "answer": [
+          "לא עבד",
+          "לא עובד",
+          "היה מקולקל",
+          "לא היה תקין"
+        ],
         "hint": "didn't work"
       },
       {
         "prompt": "צריך להיזהר ממוכרים שמבקשים ___ ואחר כך נעלמים.",
         "en": "You need to beware of sellers who ask for a deposit and then disappear.",
-        "answer": ["מקדמה"],
+        "answer": [
+          "מקדמה",
+          "כסף מראש"
+        ],
         "hint": "a deposit"
       },
       {
         "prompt": "לפני שקונים ספה גדולה, כדאי ___ את הדלת ואת המעלית.",
         "en": "Before buying a big sofa, it's worth measuring the door and the lift.",
-        "answer": ["למדוד"],
+        "answer": [
+          "למדוד"
+        ],
         "hint": "to measure (infinitive)"
       }
     ],
@@ -164,22 +305,51 @@
       "prompt": "קניתם או מכרתם פעם משהו ביד שנייה? ספרו מה קרה, וכתבו מה דעתכם על קנייה ביד שנייה.",
       "promptEn": "Have you ever bought or sold something second-hand? Tell what happened, and write what you think about buying second-hand.",
       "minWords": 60,
-      "useWords": ["יד שנייה", "לדעתי", "בגלל ש", "למרות זאת", "כדאי"],
-      "checklist": [
-        { "en": "Tell what happened, in the past tense", "keywords": ["קניתי", "מכרתי"] },
-        { "en": "Give your opinion (לדעתי / נראה לי)", "keywords": ["לדעתי", "נראה לי"] },
-        { "en": "Give a reason with בגלל ש or כי", "keywords": ["בגלל", "כי"] },
-        { "en": "Give a tip with כדאי", "keywords": ["כדאי"] }
+      "useWords": [
+        "יד שנייה",
+        "לדעתי",
+        "בגלל ש",
+        "למרות זאת",
+        "כדאי"
       ],
-      "model": "לפני שנה עברתי לדירה חדשה בחיפה, ולא היה לי כסף לרהיטים חדשים. לכן קניתי באפליקציה של יד שנייה שולחן, ארבעה כיסאות וארון ספרים. את השולחן קיבלתי בחינם מזוג שעבר לירושלים, והארון עלה רק 200 שקלים. לדעתי זו דרך מצוינת לחסוך כסף, בגלל שרהיטים חדשים יקרים מאוד. למרות זאת, פעם אחת שילמתי מקדמה על ספה, והמוכר לא ענה לי יותר. מאז הכלל שלי פשוט: קודם רואים, ואחר כך משלמים. כדאי גם למדוד את הרהיט לפני שלוקחים אותו הביתה.",
-      "modelEn": "A year ago I moved to a new apartment in Haifa, and I had no money for new furniture. So I bought a table, four chairs and a bookcase on a second-hand app. I got the table for free from a couple who moved to Jerusalem, and the bookcase cost only 200 shekels. In my opinion it's an excellent way to save money, because new furniture is very expensive. Even so, once I paid a deposit on a sofa, and the seller never answered me again. Since then my rule is simple: first you look, then you pay. It's also worth measuring the furniture before you take it home."
+      "checklist": [
+        {
+          "en": "Tell what happened, in the past tense",
+          "keywords": [
+            "קניתי",
+            "מכרתי"
+          ]
+        },
+        {
+          "en": "Give your opinion (לדעתי / נראה לי)",
+          "keywords": [
+            "לדעתי",
+            "נראה לי"
+          ]
+        },
+        {
+          "en": "Give a reason with בגלל ש or כי",
+          "keywords": [
+            "בגלל",
+            "כי"
+          ]
+        },
+        {
+          "en": "Give a tip with כדאי",
+          "keywords": [
+            "כדאי"
+          ]
+        }
+      ],
+      "model": "לפני שנה עברתי לדירה חדשה בחיפה, ולא היה לי כסף לרהיטים חדשים. לכן נכנסתי לאפליקציה של יד שנייה. קניתי שם ארבעה כיסאות וארון ספרים, ואת השולחן קיבלתי בחינם מזוג שעבר לירושלים. הארון עלה רק 200 שקלים. לדעתי זו דרך מצוינת לחסוך כסף, בגלל שרהיטים חדשים יקרים מאוד. למרות זאת, פעם אחת שילמתי מקדמה על ספה, והמוכר לא ענה לי יותר. מאז הכלל שלי פשוט: קודם רואים, ואחר כך משלמים. כדאי גם למדוד את הרהיט לפני שלוקחים אותו הביתה.",
+      "modelEn": "A year ago I moved to a new apartment in Haifa, and I had no money for new furniture. So I went onto a second-hand app. I bought four chairs and a bookcase there, and I got the table for free from a couple who moved to Jerusalem. The bookcase cost only 200 shekels. In my opinion it's an excellent way to save money, because new furniture is very expensive. Even so, once I paid a deposit on a sofa, and the seller never answered me again. Since then my rule is simple: first you look, then you pay. It's also worth measuring the furniture before you take it home."
     }
   },
   {
     "id": "r_b1_hotel_review",
     "level": "B1",
-    "title": "מלון הדקל הכחול, טבריה: מה אומרים האורחים?",
-    "titleEn": "The Blue Palm Hotel, Tiberias: what do the guests say?",
+    "title": "מלון הדקל הכחול, טבריה: חוות דעת של אורחים",
+    "titleEn": "The Blue Palm Hotel, Tiberias: guest reviews",
     "topic": "travel",
     "kind": "review",
     "paragraphs": [
@@ -188,51 +358,114 @@
         "en": "Orit, Rishon LeZion — 5 out of 5: \"Exactly what we needed\""
       },
       {
-        "he": "נסענו לסוף שבוע ארוך, אני, בעלי ושני הילדים, וכבר מהרגע הראשון הרגשנו שבחרנו נכון. הצוות בקבלה היה חם ומקצועי, ולמרות שהגענו שעתיים לפני הצ׳ק־אין, החדר כבר חיכה לנו. החדר עצמו היה מרווח ונקי, ומהמרפסת ראינו את הכנרת. בהשוואה למלון בים המלח שבו היינו בשנה שעברה, כאן האווירה הרבה יותר רגועה.",
-        "en": "We went for a long weekend, me, my husband and our two kids, and from the very first moment we felt we had chosen well. The reception staff were warm and professional, and even though we arrived two hours before check-in, the room was already waiting for us. The room itself was spacious and clean, and from the balcony we could see the Sea of Galilee. Compared with the hotel at the Dead Sea where we stayed last year, the atmosphere here is much more relaxed."
+        "he": "נסענו לסוף שבוע ארוך — אני, בעלי ושני הילדים — וכבר מהרגע הראשון הרגשנו שבחרנו נכון. הצוות בקבלה היה חם ומקצועי, ולמרות שהגענו שעתיים לפני הצ׳ק־אין, החדר כבר חיכה לנו. החדר עצמו היה מרווח ונקי, ומהמרפסת ראינו את הכנרת. בהשוואה למלון בים המלח שבו היינו בשנה שעברה, כאן האווירה הרבה יותר רגועה.",
+        "en": "We went for a long weekend — me, my husband and our two kids — and from the very first moment we felt we had chosen well. The reception staff were warm and professional, and even though we arrived two hours before check-in, the room was already waiting for us. The room itself was spacious and clean, and from the balcony we could see the Sea of Galilee. Compared with the hotel at the Dead Sea where we stayed last year, the atmosphere here is much more relaxed."
       },
       {
-        "he": "ארוחת הבוקר הייתה הטובה ביותר שאכלנו אי פעם במלון בארץ: גבינות, סלטים, שקשוקה טרייה ומאפים חמים. הבריכה קטנה יותר מאשר בתמונות באתר, אבל היא נקייה ושקטה. המחיר אמנם לא זול, אבל לדעתי הוא שווה כל שקל. בטוח שנחזור, ואנחנו ממליצים על המלון במיוחד למשפחות עם ילדים.",
-        "en": "The breakfast was the best we've ever had at a hotel in Israel: cheeses, salads, fresh shakshuka and warm pastries. The pool is smaller than in the photos on the website, but it's clean and quiet. The price admittedly isn't cheap, but in my opinion it's worth every shekel. We'll definitely be back, and we recommend the hotel especially to families with children."
+        "he": "ארוחת הבוקר הייתה הטובה ביותר שאכלנו אי פעם במלון בארץ: גבינות, סלטים, שקשוקה שמכינים במקום ומאפים חמים. הבריכה קטנה יותר מאשר בתמונות באתר, אבל היא נקייה ושקטה. המחיר אמנם לא זול, אבל לדעתי הוא שווה כל שקל. בטוח שנחזור, ואנחנו ממליצים על המלון במיוחד למשפחות עם ילדים.",
+        "en": "The breakfast was the best we've ever had at a hotel in Israel: cheeses, salads, shakshuka made on the spot and warm pastries. The pool is smaller than in the photos on the website, but it's clean and quiet. The price admittedly isn't cheap, but in my opinion it's worth every shekel. We'll definitely be back, and we recommend the hotel especially to families with children."
       },
       {
         "he": "סמיר, נצרת — 2 מתוך 5: \"יפה בתמונות, פחות במציאות\"",
         "en": "Samir, Nazareth — 2 out of 5: \"Pretty in the pictures, less so in reality\""
       },
       {
-        "he": "הזמנתי סוף שבוע במלון ליום ההולדת של אשתי, אחרי שראיתי את התמונות באתר, ולצערי התאכזבתי. קיבלנו חדר בקומה הראשונה עם חלון לחניה, למרות שביקשתי מראש נוף לכנרת. המזגן עשה רעש כל הלילה, וכשהתקשרתי לקבלה, אמרו לי שהטכנאי יגיע רק בבוקר.",
-        "en": "I booked a weekend at the hotel for my wife's birthday after seeing the photos on the website, and unfortunately I was disappointed. We got a room on the first floor with a window facing the car park, even though I had asked in advance for a view of the Sea of Galilee. The air conditioner made a noise all night, and when I called reception, they told me the technician would only come in the morning."
+        "he": "הזמנתי סוף שבוע במלון ליום ההולדת של אשתי, אחרי שראיתי את התמונות באתר, ולצערי התאכזבתי. קיבלנו חדר בקומה הראשונה, עם חלון שפונה לחניה, למרות שביקשתי מראש חדר עם נוף לכנרת. המזגן עשה רעש כל הלילה, וכשהתקשרתי לקבלה, אמרו לי שהטכנאי יגיע רק בבוקר.",
+        "en": "I booked a weekend at the hotel for my wife's birthday after seeing the photos on the website, and unfortunately I was disappointed. We got a room on the first floor, with a window facing the car park, even though I had asked in advance for a room with a view of the Sea of Galilee. The air conditioner made a noise all night, and when I called reception, they told me the technician would only come in the morning."
       },
       {
-        "he": "גם ארוחת הבוקר לא הייתה ברמה שציפיתי לה: היה צפוף, והקפה היה חלש. אני מסכים שהצוות היה נחמד, והם אפילו נתנו לנו הנחה קטנה בסוף, אבל במחיר כזה מגיע לקבל יותר. בפעם הבאה אעדיף צימר קטן בגליל. ואם אתם בכל זאת מזמינים כאן, בקשו חדר בקומה גבוהה, ובדקו את המזגן ברגע שאתם נכנסים לחדר.",
-        "en": "The breakfast wasn't up to the standard I expected either: it was crowded, and the coffee was weak. I agree that the staff were nice, and they even gave us a small discount at the end, but at a price like this you deserve to get more. Next time I'll prefer a small zimmer in the Galilee. And if you're booking here anyway, ask for a room on a high floor, and check the air conditioner the moment you walk into the room."
+        "he": "גם ארוחת הבוקר לא הייתה ברמה שציפיתי לה: היה צפוף, והקפה היה חלש. אני מסכים שהצוות היה נחמד, והם אפילו נתנו לנו הנחה קטנה בסוף, אבל במחיר כזה מגיע לאורחים יותר. בפעם הבאה אעדיף צימר קטן בגליל. ואם אתם בכל זאת מזמינים כאן, בקשו חדר בקומה גבוהה, ובדקו את המזגן ברגע שאתם נכנסים לחדר.",
+        "en": "The breakfast wasn't up to the standard I expected either: it was crowded, and the coffee was weak. I agree that the staff were nice, and they even gave us a small discount at the end, but at a price like this the guests deserve more. Next time I'll prefer a small zimmer in the Galilee. And if you're booking here anyway, ask for a room on a high floor, and check the air conditioner the moment you walk into the room."
       }
     ],
     "glossary": [
-      { "he": "חוות דעת", "en": "review, opinion", "tr": "khavát dá'at" },
-      { "he": "קבלה", "en": "reception (desk)", "tr": "kabalá" },
-      { "he": "צ׳ק־אין", "en": "check-in", "tr": "chek-ín" },
-      { "he": "מרווח", "en": "spacious, roomy", "tr": "meruvákh" },
-      { "he": "מרפסת", "en": "balcony", "tr": "mirpéset" },
-      { "he": "מאפים", "en": "pastries, baked goods", "tr": "ma'afím" },
-      { "he": "אמנם … אבל", "en": "admittedly … but, it's true that … but", "tr": "omnám … avál" },
-      { "he": "שווה כל שקל", "en": "worth every shekel", "tr": "shavé kol shékel" },
-      { "he": "התאכזבתי", "en": "I was disappointed (להתאכזב)", "tr": "hitakhzávti" },
-      { "he": "מזגן", "en": "air conditioner", "tr": "mazgán" },
-      { "he": "טכנאי", "en": "technician", "tr": "tekhnái" },
-      { "he": "צפוף", "en": "crowded", "tr": "tsafúf" },
-      { "he": "מגיע ל…", "en": "(someone) deserves (מגיע לקבל יותר = you deserve to get more)", "tr": "magí'a le" },
-      { "he": "צימר", "en": "zimmer: a holiday cabin or small B&B", "tr": "tsímer" }
+      {
+        "he": "חוות דעת",
+        "en": "review, opinion",
+        "tr": "khavát dá'at"
+      },
+      {
+        "he": "קבלה",
+        "en": "reception (desk)",
+        "tr": "kabalá"
+      },
+      {
+        "he": "לצפות ל",
+        "en": "to expect (ציפיתי לה = I expected it)",
+        "tr": "letsapót le"
+      },
+      {
+        "he": "מרווח",
+        "en": "spacious, roomy",
+        "tr": "meruvákh"
+      },
+      {
+        "he": "מרפסת",
+        "en": "balcony",
+        "tr": "mirpéset"
+      },
+      {
+        "he": "מאפים",
+        "en": "pastries, baked goods",
+        "tr": "ma'afím"
+      },
+      {
+        "he": "אמנם … אבל",
+        "en": "admittedly … but, it's true that … but",
+        "tr": "omnám … avál"
+      },
+      {
+        "he": "שווה כל שקל",
+        "en": "worth every shekel",
+        "tr": "shavé kol shékel"
+      },
+      {
+        "he": "התאכזבתי",
+        "en": "I was disappointed (להתאכזב)",
+        "tr": "hitakhzávti"
+      },
+      {
+        "he": "מזגן",
+        "en": "air conditioner",
+        "tr": "mazgán"
+      },
+      {
+        "he": "פונה ל",
+        "en": "facing (חלון שפונה לחניה = a window facing the car park)",
+        "tr": "poné le"
+      },
+      {
+        "he": "צפוף",
+        "en": "crowded",
+        "tr": "tsafúf"
+      },
+      {
+        "he": "מגיע ל…",
+        "en": "(someone) deserves (מגיע לאורחים יותר = the guests deserve more)",
+        "tr": "magí'a le"
+      },
+      {
+        "he": "צימר",
+        "en": "zimmer: a holiday cabin or small B&B",
+        "tr": "tsímer"
+      }
     ],
     "questions": [
       {
-        "q": "מה הפתיע את אורית לטובה כשהמשפחה הגיעה למלון?",
-        "qEn": "What pleasantly surprised Orit when the family arrived at the hotel?",
-        "answer": "החדר כבר חיכה להם, למרות שהם הגיעו מוקדם.",
-        "answerEn": "The room was already waiting for them, even though they arrived early.",
+        "q": "מה קרה כשהמשפחה של אורית הגיעה למלון שעתיים לפני הצ׳ק־אין?",
+        "qEn": "What happened when Orit's family arrived at the hotel two hours before check-in?",
+        "answer": "החדר שלהם כבר היה מוכן וחיכה להם.",
+        "answerEn": "Their room was already ready and waiting for them.",
         "keywords": [
-          ["חדר"],
-          ["חיכה", "מחכה", "מוכן", "מוקדם", "לפני"]
+          [
+            "חדר"
+          ],
+          [
+            "חיכה",
+            "מחכה",
+            "מוכן",
+            "חיכו"
+          ]
         ]
       },
       {
@@ -241,8 +474,21 @@
         "answer": "אורית חשבה שהיא מצוינת, וסמיר חשב שהיה צפוף.",
         "answerEn": "Orit thought it was excellent, and Samir thought it was crowded.",
         "keywords": [
-          ["מצוינת", "טובה", "טעימה", "הטובה"],
-          ["צפוף", "חלש", "התאכזב"]
+          [
+            "מצוינת",
+            "טובה",
+            "טעימה",
+            "הטובה",
+            "טוב",
+            "מעולה"
+          ],
+          [
+            "צפוף",
+            "צפופה",
+            "חלש",
+            "התאכזב",
+            "לא טובה"
+          ]
         ]
       },
       {
@@ -251,8 +497,16 @@
         "answer": "החלון היה לחניה, והמזגן עשה רעש.",
         "answerEn": "The window faced the car park, and the air conditioner was noisy.",
         "keywords": [
-          ["נוף", "חניה", "חלון"],
-          ["מזגן", "רעש"]
+          [
+            "נוף",
+            "חניה",
+            "חלון"
+          ],
+          [
+            "מזגן",
+            "רעש",
+            "רועש"
+          ]
         ]
       },
       {
@@ -261,8 +515,13 @@
         "answer": "שהוא לא זול, אבל שווה כל שקל.",
         "answerEn": "That it isn't cheap, but it's worth every shekel.",
         "keywords": [
-          ["זול", "יקר"],
-          ["שווה"]
+          [
+            "זול",
+            "יקר"
+          ],
+          [
+            "שווה"
+          ]
         ]
       },
       {
@@ -271,8 +530,15 @@
         "answer": "לבקש חדר בקומה גבוהה ולבדוק את המזגן.",
         "answerEn": "To ask for a room on a high floor and to check the air conditioner.",
         "keywords": [
-          ["קומה", "גבוהה"],
-          ["מזגן", "לבדוק", "בדקו"]
+          [
+            "קומה",
+            "גבוהה"
+          ],
+          [
+            "מזגן",
+            "לבדוק",
+            "בדקו"
+          ]
         ]
       }
     ],
@@ -303,40 +569,72 @@
       }
     ],
     "find": [
-      { "en": "spacious", "answer": ["מרווח"] },
-      { "en": "worth every shekel", "answer": ["שווה כל שקל"] },
-      { "en": "I was disappointed", "answer": ["התאכזבתי"] },
-      { "en": "a discount", "answer": ["הנחה"] }
+      {
+        "en": "spacious",
+        "answer": [
+          "מרווח"
+        ]
+      },
+      {
+        "en": "worth every shekel",
+        "answer": [
+          "שווה כל שקל"
+        ]
+      },
+      {
+        "en": "I was disappointed",
+        "answer": [
+          "התאכזבתי"
+        ]
+      },
+      {
+        "en": "a discount",
+        "answer": [
+          "הנחה"
+        ]
+      }
     ],
     "summary": [
       {
         "prompt": "אורית נסעה למלון עם ___ שלה לסוף שבוע ארוך.",
         "en": "Orit went to the hotel with her family for a long weekend.",
-        "answer": ["המשפחה", "משפחה"],
+        "answer": [
+          "המשפחה",
+          "משפחה"
+        ],
         "hint": "who did she go with?"
       },
       {
         "prompt": "לדעת אורית, ארוחת הבוקר הייתה ___ שהם אכלו אי פעם במלון בארץ.",
         "en": "In Orit's opinion, the breakfast was the best they had ever had at a hotel in Israel.",
-        "answer": ["הטובה ביותר", "הכי טובה"],
+        "answer": [
+          "הטובה ביותר",
+          "הכי טובה"
+        ],
         "hint": "the best (feminine)"
       },
       {
-        "prompt": "סמיר קיבל חדר עם חלון ___ במקום נוף לכנרת.",
+        "prompt": "סמיר קיבל חדר עם חלון שפונה ___ במקום נוף לכנרת.",
         "en": "Samir got a room with a window facing the car park instead of a view of the Sea of Galilee.",
-        "answer": ["לחניה"],
-        "hint": "facing the car park"
+        "answer": [
+          "לחניה"
+        ],
+        "hint": "to the car park"
       },
       {
-        "prompt": "בגלל המחיר הגבוה, סמיר חושב ש___ לקבל יותר.",
-        "en": "Because of the high price, Samir thinks guests deserve to get more.",
-        "answer": ["מגיע"],
+        "prompt": "בגלל המחיר הגבוה, סמיר חושב ש___ לאורחים יותר.",
+        "en": "Because of the high price, Samir thinks the guests deserve more.",
+        "answer": [
+          "מגיע"
+        ],
         "hint": "(one) deserves"
       },
       {
         "prompt": "בפעם הבאה סמיר יעדיף ___ קטן בגליל.",
         "en": "Next time Samir will prefer a small zimmer in the Galilee.",
-        "answer": ["צימר"],
+        "answer": [
+          "צימר"
+        ],
         "hint": "a holiday cabin"
       }
     ],
@@ -344,12 +642,46 @@
       "prompt": "כתבו חוות דעת על מלון, צימר או דירת נופש שהייתם בהם. ספרו מה היה טוב ומה פחות, והשוו למקום אחר שהכרתם.",
       "promptEn": "Write a review of a hotel, zimmer or holiday apartment you stayed at. Say what was good and what was less good, and compare it with another place you know.",
       "minWords": 60,
-      "useWords": ["אמנם", "יותר מ", "לעומת", "לצערי", "כדאי"],
+      "useWords": [
+        "אמנם",
+        "יותר מ",
+        "לעומת",
+        "לצערי",
+        "כדאי"
+      ],
       "checklist": [
-        { "en": "Say something positive and something negative (אמנם … אבל)", "keywords": ["אמנם", "אבל"] },
-        { "en": "Make a comparison (יותר / פחות / הכי / לעומת)", "keywords": ["יותר", "פחות", "הכי", "לעומת"] },
-        { "en": "Mention a problem with לצערי", "keywords": ["לצערי"] },
-        { "en": "End with a recommendation", "keywords": ["כדאי", "ממליץ", "ממליצה", "ממליצים", "להמליץ"] }
+        {
+          "en": "Say something positive and something negative (אמנם … אבל)",
+          "keywords": [
+            "אמנם",
+            "אבל"
+          ]
+        },
+        {
+          "en": "Make a comparison (יותר / פחות / הכי / לעומת)",
+          "keywords": [
+            "יותר",
+            "פחות",
+            "הכי",
+            "לעומת"
+          ]
+        },
+        {
+          "en": "Mention a problem with לצערי",
+          "keywords": [
+            "לצערי"
+          ]
+        },
+        {
+          "en": "End with a recommendation",
+          "keywords": [
+            "כדאי",
+            "ממליץ",
+            "ממליצה",
+            "ממליצים",
+            "להמליץ"
+          ]
+        }
       ],
       "model": "בקיץ שעבר הייתי שלושה לילות בצימר קטן ברמת הגולן. המקום אמנם רחוק מהכביש הראשי, אבל השקט והנוף מדהימים. החדר היה מרווח ונקי, והיה בו מטבח קטן עם כל מה שצריך. לעומת המלון באילת שבו הייתי שנה קודם, כאן השירות היה אישי וחם יותר: בעלת המקום הביאה לנו כל בוקר לחם טרי וריבה ביתית. לצערי, האינטרנט לא עבד טוב, ובערב היו הרבה יתושים. בכל זאת, אין לי ספק שנחזור לשם. כדאי להגיע באביב או בסתיו, ולא לשכוח ספריי נגד יתושים.",
       "modelEn": "Last summer I spent three nights in a small zimmer in the Golan Heights. The place is admittedly far from the main road, but the quiet and the view are amazing. The room was spacious and clean, and it had a small kitchen with everything you need. Compared with the hotel in Eilat where I stayed a year earlier, the service here was more personal and warmer: the owner brought us fresh bread and homemade jam every morning. Unfortunately, the internet didn't work well, and in the evening there were lots of mosquitoes. Still, I have no doubt we'll go back. It's best to come in spring or autumn, and not to forget mosquito spray."
@@ -368,15 +700,15 @@
         "en": "Lia Mekonen, 29, works as a nurse at a hospital in Petah Tikva. Every Tuesday evening, after her shift, she volunteers at the \"Full Plate\" charity, which collects leftover food from restaurants, bakeries and markets and passes it on to families who need help. We talked to her about volunteering."
       },
       {
-        "he": "איך הכול התחיל? לפני שלוש שנים ראיתי ברשתות החברתיות סרטון על כמות האוכל שנזרקת בישראל כל יום. בהתחלה לא האמנתי למספרים. באותו ערב חיפשתי באינטרנט עמותה באזור שלי, ושבוע אחרי זה כבר יצאתי לאיסוף הראשון שלי. מאז לא הפסקתי.",
-        "en": "How did it all start? Three years ago I saw a video on social media about the amount of food that is thrown away in Israel every day. At first I didn't believe the numbers. That same evening I searched online for a charity in my area, and a week later I was already out on my first collection. I haven't stopped since."
+        "he": "איך הכול התחיל? לפני שלוש שנים ראיתי ברשתות החברתיות סרטון על כמות האוכל שנזרקת בישראל כל יום. בהתחלה לא האמנתי למספרים, אבל כל היום חשבתי על זה. באותו ערב חיפשתי באינטרנט עמותה באזור שלי, ושבוע אחרי זה כבר יצאתי לאיסוף הראשון שלי. מאז לא הפסקתי.",
+        "en": "How did it all start? Three years ago I saw a video on social media about the amount of food that is thrown away in Israel every day. At first I didn't believe the numbers, but I thought about it all day. That same evening I searched online for a charity in my area, and a week later I was already out on my first collection. I haven't stopped since."
       },
       {
         "he": "מה בדיוק אתם עושים? אנחנו נפגשים בשש בערב במחסן של העמותה. כל מתנדב מקבל רשימה של מקומות, ואנחנו נוסעים לאסוף מהם לחם, ירקות, פירות ומנות מוכנות. אחר כך אנחנו ממיינים את האוכל, בודקים שהוא טרי ואורזים אותו בקופסאות. למחרת בבוקר מתנדבים אחרים מחלקים את החבילות למשפחות.",
         "en": "What exactly do you do? We meet at six in the evening at the charity's warehouse. Each volunteer gets a list of places, and we drive to collect bread, vegetables, fruit and ready meals from them. Then we sort the food, check that it's fresh and pack it into boxes. The next morning other volunteers hand out the parcels to the families."
       },
       {
-        "he": "למה זה חשוב לך? ההורים שלי עלו מאתיופיה כשהייתי קטנה, ובשנים הראשונות לא היה להם קל. הם עבדו קשה מאוד, ושכנים טובים עזרו לנו הרבה. אני זוכרת את זה, ולכן אני רוצה להחזיר משהו לחברה. חוץ מזה, זה פשוט מרגיז אותי לראות אוכל טוב בפח.",
+        "he": "למה זה חשוב לך? ההורים שלי עלו מאתיופיה כשהייתי קטנה, ובשנים הראשונות לא היה להם קל. הם עבדו קשה מאוד, ושכנים טובים עזרו לנו הרבה. אני זוכרת את זה, ולכן אני רוצה להחזיר משהו לחברה. חוץ מזה, פשוט מרגיז אותי לראות אוכל טוב בפח.",
         "en": "Why is it important to you? My parents immigrated from Ethiopia when I was little, and the first years weren't easy for them. They worked very hard, and good neighbours helped us a lot. I remember that, so I want to give something back to society. Besides, it simply makes me angry to see good food in the bin."
       },
       {
@@ -389,20 +721,76 @@
       }
     ],
     "glossary": [
-      { "he": "להתנדב", "en": "to volunteer (מתנדבת = she volunteers; התנדבות = volunteering)", "tr": "lehitnadév" },
-      { "he": "עמותה", "en": "non-profit organisation, charity", "tr": "amutá" },
-      { "he": "משמרת", "en": "(work) shift", "tr": "mishméret" },
-      { "he": "להעביר", "en": "to pass on, transfer (מעבירה = she/it passes on)", "tr": "leha'avír" },
-      { "he": "סרטון", "en": "(short) video clip", "tr": "sirtón" },
-      { "he": "נזרקת", "en": "is thrown away (f.; dictionary form להיזרק)", "tr": "nizréket" },
-      { "he": "מחסן", "en": "warehouse, storeroom", "tr": "makhsán" },
-      { "he": "מנות מוכנות", "en": "ready meals", "tr": "manót mukhanót" },
-      { "he": "ממיינים", "en": "(we) sort (dictionary form למיין)", "tr": "memayním" },
-      { "he": "לחלק", "en": "to hand out, distribute (מחלקים; חלוקה = distribution)", "tr": "lekhalék" },
-      { "he": "להחזיר לחברה", "en": "to give back to society", "tr": "lehakhzír lakhevrá" },
-      { "he": "מרגיז", "en": "annoying, infuriating (מרגיז אותי = makes me angry)", "tr": "margíz" },
-      { "he": "תואר שני", "en": "master's degree", "tr": "tó'ar shení" },
-      { "he": "אוכל", "en": "here: I will be able to (future of יכול), not \"food\"", "tr": "ukhál" }
+      {
+        "he": "להתנדב",
+        "en": "to volunteer (מתנדבת = she volunteers; התנדבות = volunteering)",
+        "tr": "lehitnadév"
+      },
+      {
+        "he": "עמותה",
+        "en": "non-profit organisation, charity",
+        "tr": "amutá"
+      },
+      {
+        "he": "משמרת",
+        "en": "(work) shift",
+        "tr": "mishméret"
+      },
+      {
+        "he": "להעביר",
+        "en": "to pass on, transfer (מעבירה = she/it passes on)",
+        "tr": "leha'avír"
+      },
+      {
+        "he": "סרטון",
+        "en": "(short) video clip",
+        "tr": "sirtón"
+      },
+      {
+        "he": "נזרקת",
+        "en": "is thrown away (f.; dictionary form להיזרק)",
+        "tr": "nizréket"
+      },
+      {
+        "he": "מחסן",
+        "en": "warehouse, storeroom",
+        "tr": "makhsán"
+      },
+      {
+        "he": "מנות מוכנות",
+        "en": "ready meals",
+        "tr": "manót mukhanót"
+      },
+      {
+        "he": "ממיינים",
+        "en": "(we) sort (dictionary form למיין)",
+        "tr": "memayním"
+      },
+      {
+        "he": "לחלק",
+        "en": "to hand out, distribute (מחלקים; חלוקה = distribution)",
+        "tr": "lekhalék"
+      },
+      {
+        "he": "להחזיר לחברה",
+        "en": "to give back to society",
+        "tr": "lehakhzír lakhevrá"
+      },
+      {
+        "he": "מרגיז",
+        "en": "annoying, infuriating (מרגיז אותי = makes me angry)",
+        "tr": "margíz"
+      },
+      {
+        "he": "תואר שני",
+        "en": "master's degree",
+        "tr": "tó'ar shení"
+      },
+      {
+        "he": "אוכל",
+        "en": "here: I will be able to (future of יכול), not \"food\"",
+        "tr": "ukhál"
+      }
     ],
     "questions": [
       {
@@ -411,8 +799,20 @@
         "answer": "אוספת אוכל שנשאר ומעבירה אותו למשפחות שצריכות עזרה.",
         "answerEn": "It collects leftover food and passes it on to families who need help.",
         "keywords": [
-          ["אוספת", "לאסוף", "אוספים", "איסוף"],
-          ["משפחות", "משפחה", "עזרה"]
+          [
+            "אוספת",
+            "לאסוף",
+            "אוספים",
+            "איסוף",
+            "אוסף",
+            "מצילה",
+            "מצילים"
+          ],
+          [
+            "משפחות",
+            "משפחה",
+            "עזרה"
+          ]
         ]
       },
       {
@@ -421,8 +821,18 @@
         "answer": "סרטון על כמות האוכל שנזרקת בישראל.",
         "answerEn": "A video about the amount of food that is thrown away in Israel.",
         "keywords": [
-          ["סרטון", "וידאו"],
-          ["נזרקת", "נזרק", "זורקים", "לזרוק", "פח"]
+          [
+            "סרטון",
+            "וידאו"
+          ],
+          [
+            "נזרקת",
+            "נזרק",
+            "נזרקים",
+            "זורקים",
+            "לזרוק",
+            "פח"
+          ]
         ]
       },
       {
@@ -431,8 +841,18 @@
         "answer": "ממיינים אותו, בודקים שהוא טרי ואורזים אותו בקופסאות.",
         "answerEn": "They sort it, check that it's fresh and pack it into boxes.",
         "keywords": [
-          ["ממיינים", "למיין", "מיון"],
-          ["אורזים", "לארוז", "קופסאות", "בודקים", "לבדוק"]
+          [
+            "ממיינים",
+            "למיין",
+            "מיון"
+          ],
+          [
+            "אורזים",
+            "לארוז",
+            "קופסאות",
+            "בודקים",
+            "לבדוק"
+          ]
         ]
       },
       {
@@ -441,7 +861,14 @@
         "answer": "שהמתנדבים מביאים לא רק אוכל, אלא גם שיחה.",
         "answerEn": "That the volunteers bring not only food but also conversation.",
         "keywords": [
-          ["שיחה", "לדבר", "חברה", "קשר"]
+          [
+            "שיחה",
+            "שיחות",
+            "לדבר",
+            "מדברים",
+            "חברה",
+            "קשר"
+          ]
         ]
       },
       {
@@ -450,8 +877,15 @@
         "answer": "היא תתחיל תואר שני, אבל לא תוותר על ימי שלישי.",
         "answerEn": "She'll start a master's degree, but she won't give up her Tuesdays.",
         "keywords": [
-          ["תואר", "ללמוד", "לימודים"],
-          ["שלישי"]
+          [
+            "תואר",
+            "ללמוד",
+            "לימודים",
+            "תלמד"
+          ],
+          [
+            "שלישי"
+          ]
         ]
       }
     ],
@@ -469,10 +903,10 @@
         "why": "She searched for a charity that same evening, and a week later she was already out on her first collection."
       },
       {
-        "s": "בדרך כלל ליה היא שמחלקת את החבילות למשפחות.",
+        "s": "בדרך כלל ליה היא זו שמחלקת את החבילות למשפחות.",
         "sEn": "Lia is usually the one who hands out the parcels to the families.",
         "a": false,
-        "why": "Other volunteers hand out the parcels the next morning; Lia joined a distribution only once, before Rosh Hashanah."
+        "why": "Other volunteers hand out the parcels the next morning; Lia describes joining a distribution on one occasion, before Rosh Hashanah."
       },
       {
         "s": "כדי להתנדב בעמותה לא צריך ניסיון קודם.",
@@ -482,40 +916,70 @@
       }
     ],
     "find": [
-      { "en": "the (work) shift", "answer": ["המשמרת"] },
-      { "en": "we sort", "answer": ["ממיינים"] },
-      { "en": "to give something back to society", "answer": ["להחזיר משהו לחברה"] },
-      { "en": "I won't give up (on)", "answer": ["לא אוותר"] }
+      {
+        "en": "the (work) shift",
+        "answer": [
+          "המשמרת"
+        ]
+      },
+      {
+        "en": "we sort",
+        "answer": [
+          "ממיינים"
+        ]
+      },
+      {
+        "en": "to give something back to society",
+        "answer": [
+          "להחזיר משהו לחברה"
+        ]
+      },
+      {
+        "en": "I won't give up (on)",
+        "answer": [
+          "לא אוותר"
+        ]
+      }
     ],
     "summary": [
       {
         "prompt": "ליה מתנדבת בעמותה שמצילה ___ שנשאר במסעדות ובשווקים.",
         "en": "Lia volunteers at a charity that rescues food left over in restaurants and markets.",
-        "answer": ["אוכל"],
+        "answer": [
+          "אוכל"
+        ],
         "hint": "what do they rescue?"
       },
       {
         "prompt": "בכל יום שלישי המתנדבים נפגשים ___ של העמותה.",
         "en": "Every Tuesday the volunteers meet at the charity's warehouse.",
-        "answer": ["במחסן"],
+        "answer": [
+          "במחסן"
+        ],
         "hint": "at the warehouse"
       },
       {
         "prompt": "ליה רוצה ___ משהו לחברה, כי גם למשפחה שלה עזרו כשהייתה קטנה.",
         "en": "Lia wants to give something back to society, because people helped her family too when she was little.",
-        "answer": ["להחזיר"],
+        "answer": [
+          "להחזיר"
+        ],
         "hint": "to give back (infinitive)"
       },
       {
         "prompt": "בשנה הבאה ליה תתחיל ללמוד לתואר ___.",
         "en": "Next year Lia will start studying for a master's degree.",
-        "answer": ["שני"],
+        "answer": [
+          "שני"
+        ],
         "hint": "master's = second degree"
       },
       {
         "prompt": "כדי להצטרף לעמותה צריך רק כמה שעות בשבוע ו___ פתוח.",
         "en": "To join the charity you only need a few hours a week and an open heart.",
-        "answer": ["לב"],
+        "answer": [
+          "לב"
+        ],
         "hint": "an open …"
       }
     ],
@@ -523,11 +987,38 @@
       "prompt": "התנדבתם פעם, או שהייתם רוצים להתנדב? כתבו איפה ולמה, וספרו מה אתם מתכננים לעשות בעתיד.",
       "promptEn": "Have you ever volunteered, or would you like to? Write where and why, and tell what you plan to do in the future.",
       "minWords": 60,
-      "useWords": ["להתנדב", "עמותה", "חשוב לי", "בקרוב", "לכן"],
+      "useWords": [
+        "להתנדב",
+        "עמותה",
+        "חשוב לי",
+        "בקרוב",
+        "לכן"
+      ],
       "checklist": [
-        { "en": "Say where you volunteered or would like to volunteer", "keywords": ["התנדבתי", "להתנדב"] },
-        { "en": "Give a reason (כי / בגלל / חשוב לי)", "keywords": ["כי", "בגלל", "חשוב לי"] },
-        { "en": "Describe a plan in the future tense", "keywords": ["אתחיל", "אמשיך", "אנסה", "אתנדב"] }
+        {
+          "en": "Say where you volunteered or would like to volunteer",
+          "keywords": [
+            "התנדבתי",
+            "להתנדב"
+          ]
+        },
+        {
+          "en": "Give a reason (כי / בגלל / חשוב לי)",
+          "keywords": [
+            "כי",
+            "בגלל",
+            "חשוב לי"
+          ]
+        },
+        {
+          "en": "Describe a plan in the future tense",
+          "keywords": [
+            "אתחיל",
+            "אמשיך",
+            "אנסה",
+            "אתנדב"
+          ]
+        }
       ],
       "model": "כשהייתי בתיכון, התנדבתי פעם בשבוע בספרייה של השכונה. עזרתי לילדים להכין שיעורי בית וקראתי איתם ספרים. היום, בגלל העבודה, יש לי פחות זמן, אבל חשוב לי לעשות משהו בשביל אחרים. לכן בחודש שעבר נרשמתי לעמותה שמבשלת ארוחות חמות לאנשים מבוגרים שגרים לבד. בקרוב אתחיל להתנדב שם בכל יום שישי בבוקר, ואנסה להביא איתי גם חברים מהעבודה. לדעתי, כמה שעות בשבוע זה לא הרבה, אבל הן יכולות לשנות למישהו את היום.",
       "modelEn": "When I was in high school, I volunteered once a week at the neighbourhood library. I helped children do their homework and read books with them. Today, because of work, I have less time, but it's important to me to do something for others. So last month I signed up with a charity that cooks hot meals for elderly people who live alone. Soon I'll start volunteering there every Friday morning, and I'll try to bring friends from work along too. In my opinion, a few hours a week isn't a lot, but they can change someone's day."

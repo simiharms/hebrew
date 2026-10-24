@@ -19,7 +19,7 @@
       },
       {
         "h": "הנו / הינה: the formal copula",
-        "body": "A present-tense nominal sentence needs no verb ‘to be’: דנה מהנדסת. When the subject and the predicate are long, both speech and writing insert the pronoun as a link: הבעיה העיקרית היא המחיר (the main problem is the price).\n\nFormal writing has a dedicated copula, הנו or הינו, built from the particle הנה (‘here is’) plus a pronoun ending; it agrees with the subject. Both spellings, with and without י, are in common use; many writers prefer הינה for the feminine so that it is not read as הנה (hiné, ‘here is’).\n• המחיר הנו סופי — ha-mekhír hinó sofí — the price is final\n• ההחלטה הינה סופית ואינה ניתנת לערעור — the decision is final and cannot be appealed\n• הנתונים הינם חלקיים בלבד — the data are only partial\n\nThe first-person forms belong to formal letters and declarations: הנני מאשר בזאת… (I hereby confirm…), הננו שמחים להודיעך… (we are pleased to inform you…).\n\nTwo cautions. First, הינו (hinó, ‘he / it is’) is not היינו (hayínu, ‘we were’, and in formal prose also ‘that is, i.e.’). Second, style guides warn against sprinkling הינו everywhere: in most written sentences הוא / היא, or no link at all, reads better. Keep it for contracts, official notices and academic prose. Its negative partner is אינו / אינה (is not): השירות אינו כלול במחיר.",
+        "body": "A present-tense nominal sentence needs no verb ‘to be’: דנה מהנדסת. When the predicate is a definite noun, or the subject is long, both speech and writing insert a third-person pronoun as a link: הבעיה העיקרית היא המחיר (the main problem is the price).\n\nFormal writing has a dedicated copula, הנו or הינו, built from the particle הנה (‘here is’) plus a pronoun ending; it agrees with the subject. The Academy's spelling rules prefer the forms without י (הנו, הנם), but הינו, הינם are at least as common; many writers use הינה for the feminine so that it is not read as הנה (hiné, ‘here is’).\n• המחיר הנו סופי — ha-mekhír hinó sofí — the price is final\n• ההחלטה הינה סופית ואינה ניתנת לערעור — the decision is final and cannot be appealed\n• הנתונים הינם חלקיים בלבד — the data are only partial\n\nThe first- and second-person forms belong to formal letters and declarations: הנני מאשר בזאת… (I hereby confirm…), הננו שמחים להודיעך… (we are pleased to inform you…), הנך מוזמן ל… (you are invited to…).\n\nTwo cautions. First, הינו (hinó, ‘he / it is’) is not היינו (hayínu, ‘we were’; pronounced háynu, it is also the formal ‘that is, i.e.’). Second, style guides warn against sprinkling הינו everywhere: in most written sentences הוא / היא, or no link at all, reads better. Keep it for contracts, official notices and academic prose. Its negative partner is אינו / אינה (is not): השירות אינו כלול במחיר.",
         "table": [
           ["Subject", "Everyday", "Formal", "Say it"],
           ["הוא", "הוא", "הנו / הינו", "hinó"],
@@ -27,12 +27,13 @@
           ["הם", "הם", "הנם / הינם", "hinám"],
           ["הן", "הן", "הנן / הינן", "hinán"],
           ["אני", "—", "הנני", "hinéni"],
+          ["אתה / את", "—", "הנך", "hinkhá / hinákh"],
           ["אנחנו", "—", "הננו", "hinénu"]
         ]
       },
       {
         "h": "Purpose, cause and concession",
-        "body": "Formal Hebrew has its own connectors for ‘in order to’, ‘because’ and ‘although’. Notice what each one is followed by: an infinitive, a noun or a full clause.\n\n• על מנת ל + infinitive / על מנת ש + future (al menát) = כדי: הוקם צוות מיוחד על מנת לבחון את הנושא (a special team was set up to examine the matter). After ש the verb is always in the future, even in a past context: הם יצאו מוקדם על מנת שלא יפספסו את הרכבת.\n• בעקבות + noun (be-ikvót, lit. ‘in the footsteps of’) = following, as a result of — a favourite of the news: בעקבות הפניות הרבות, הוחלט להאריך את ההרשמה. Before a clause: בעקבות העובדה ש…\n• עקב / בשל + noun = because of, the formal בגלל: הטיסה בוטלה עקב מזג האוויר.\n• הואיל ו (ho'íl ve-) / מאחר ש (me'akhár she-) + clause = since, because. הואיל ו is the classic opening of the clauses of a contract (‘Whereas…’): הואיל והצדדים מעוניינים לשתף פעולה… The ו is written on the next word.\n• אף על פי ש / אף ש (af al pi she- / af she-) + clause = although; in speech למרות ש: אף על פי שהתחזית הייתה גשומה, האירוע התקיים כמתוכנן. Before a noun use על אף or למרות: על אף הקשיים (despite the difficulties)."
+        "body": "Formal Hebrew has its own connectors for ‘in order to’, ‘because’ and ‘although’. Notice what each one is followed by: an infinitive, a noun or a full clause.\n\n• על מנת ל + infinitive / על מנת ש + future (al menát) = כדי ל / כדי ש. Use the infinitive when the purpose has no subject of its own: הוקם צוות מיוחד על מנת לבחון את הנושא (a special team was set up to examine the matter). Use ש + a clause when the purpose has its own subject; its verb is always in the future, even in a past context: המנהלת שלחה תזכורת נוספת על מנת שאיש לא ישכח את המועד (the manager sent another reminder so that no one would forget the date).\n• בעקבות + noun (be-ikvót, lit. ‘in the footsteps of’) = following, as a result of — a favourite of the news: בעקבות הפניות הרבות, הוחלט להאריך את ההרשמה. Before a clause: בעקבות העובדה ש…\n• עקב / בשל (ékev / be-shél) + noun = because of, the formal בגלל: הטיסה בוטלה עקב מזג האוויר הסוער (the flight was cancelled because of the stormy weather).\n• הואיל ו (ho'íl ve-) / מאחר ש (me'akhár she-) + clause = since, because. הואיל ו is the classic opening of the clauses of a contract (‘Whereas…’): הואיל והצדדים מעוניינים לשתף פעולה… The ו is written on the next word.\n• אף על פי ש / אף ש (af al pi she- / af she-) + clause = although; in speech also למרות ש: אף על פי שחזו גשם, האירוע התקיים כמתוכנן (although rain had been forecast, the event went ahead as planned). In writing it is often abbreviated אע״פ. Before a noun use על אף or למרות: על אף הקשיים (despite the difficulties)."
       },
       {
         "h": "Simultaneity, contrast and proportion",
@@ -117,11 +118,11 @@
         "explain": "על מנת ל + infinitive (al menát) is the formal כדי ל."
       },
       {
-        "prompt": "הם יצאו מוקדם על מנת שלא ___ את הרכבת. (לפספס)",
-        "en": "They left early so as not to miss the train.",
-        "answer": ["יפספסו"],
-        "hint": "על מנת ש + which tense? They",
-        "explain": "After על מנת ש, as after כדי ש, the verb is always in the future, even in a past context: שלא יפספסו (yefasfesú)."
+        "prompt": "המנהלת שלחה תזכורת נוספת על מנת שאיש לא ___ את המועד. (לשכוח)",
+        "en": "The manager sent another reminder so that no one would forget the date.",
+        "answer": ["ישכח"],
+        "hint": "על מנת ש + which tense? איש (anyone) is masculine singular",
+        "explain": "After על מנת ש, as after כדי ש, the verb is always in the future, even when the main clause is in the past: שאיש לא ישכח (yishkákh). A ש-clause is needed because the purpose has its own subject (איש), different from המנהלת."
       },
       {
         "prompt": "___ הפניות הרבות, הוחלט להאריך את מועד ההרשמה. (following — one word)",
@@ -138,14 +139,14 @@
         "explain": "הואיל ו (ho'íl ve-) = since, because, in formal and legal style; the ו attaches to the following word: הואיל והמועד…"
       },
       {
-        "prompt": "___ שהתחזית הייתה גשומה, הפסטיבל התקיים כמתוכנן. (although — formal, three words)",
-        "en": "Although the forecast was for rain, the festival went ahead as planned.",
-        "answer": ["אף על פי"],
+        "prompt": "___ שחזו גשם, הפסטיבל התקיים כמתוכנן. (although — formal, three words)",
+        "en": "Although rain had been forecast, the festival went ahead as planned.",
+        "answer": ["אף על פי", "אע״פ"],
         "hint": "the formal למרות, three words before ש",
         "explain": "אף על פי ש + clause is the formal ‘although’ (spoken: למרות ש). A shorter formal form is אף ש."
       },
       {
-        "prompt": "___ שבצפון ירד גשם כבד, במרכז היה שמשי ונעים. (whereas — one word)",
+        "prompt": "___ שבצפון ירד גשם כבד, במרכז היה שמשי ונעים. (whereas — formal, one word)",
         "en": "Whereas it rained heavily in the north, in the centre it was sunny and pleasant.",
         "answer": ["בעוד"],
         "hint": "contrasts two facts; + ש",
@@ -183,11 +184,11 @@
     "sections": [
       {
         "h": "Two passive binyanim",
-        "body": "Pu'al (פועל) is the passive of pi'el, and huf'al (הופעל, also called hof'al) is the passive of hif'il. The root and the meaning stay the same; only the voice changes:\n• העובדים סידרו את האולם → האולם סודר (the hall was set up)\n• החברה הזמינה את הספקים → הספקים הוזמנו (the suppliers were invited)\n\nThe object of the active sentence becomes the subject, and the verb agrees with it. The doer, if mentioned at all, follows על ידי (by): התקציב אושר על ידי הדירקטוריון.\n\nThe mark of both binyanim is a u-vowel, written ו: after the first root letter in pu'al (סודר, sudár), after the prefix in huf'al (הוזמן, huzmán). Neither has an infinitive or an imperative in normal use: for ‘to be invited’ say להיות מוזמן, or use a nif'al or hitpa'el verb such as להתקבל (to be accepted).\n\nIn conversation Israelis usually avoid the passive and use an impersonal plural: סידרו את האולם, הזמינו אותנו. Pu'al and huf'al are the voice of writing — news, reports, official letters and notices."
+        "body": "Pu'al (פועל) is the passive of pi'el, and huf'al (הופעל, also called hof'al) is the passive of hif'il. The root and the meaning stay the same; only the voice changes:\n• העובדים סידרו את האולם → האולם סודר (the hall was set up)\n• החברה הזמינה את הספקים → הספקים הוזמנו (the suppliers were invited)\n\nThe object of the active sentence becomes the subject, and the verb agrees with it. The doer, if mentioned at all, follows על ידי (by): התקציב אושר על ידי הדירקטוריון.\n\nThe mark of both binyanim is a u-vowel, written ו: after the first root letter in pu'al (סודר, sudár), after the prefix in huf'al (הוזמן, huzmán). Neither has an infinitive or an imperative in normal use: for ‘to be invited’ say להיות מוזמן, or use a nif'al or hitpa'el verb such as להתקבל (to be accepted).\n\nIn conversation Israelis more often use the active with an impersonal plural: סידרו את האולם, הזמינו אותנו — although a handful of common forms (בוטל, פוטר, הוזמנתי, זה מסודר) are heard all the time. The full range of pu'al and huf'al belongs to writing — news, reports, official letters and notices."
       },
       {
         "h": "Pu'al: past, present, future",
-        "body": "Pu'al swaps pi'el's vowels i–e for u–a: קידם (kidém, promoted) → קודם (kudám, was promoted). The past endings are the ones you know from every binyan. The future uses the same prefixes as pi'el: יקדם (yekadém) → יקודם (yekudám), and likewise תקודם, אקודם, נקודם.\n\nThe present starts with מ-, as in pi'el: מקודם (mekudám), מקודמת (mekudémet), מקודמים, מקודמות.\n\nMore everyday examples, in the order past – present – future:\n• לסדר: סודר, מסודר, יסודר — arranged\n• לבטל: בוטל, מבוטל, יבוטל — cancelled\n• לשלם: שולם, משולם, ישולם — paid\n• לתכנן: תוכנן, מתוכנן, יתוכנן — planned\n• four-letter roots work the same way: לפרסם → פורסם, מפורסם, יפורסם — published (מפורסם also means famous)\n\nWhen the middle root letter is ר, א or ע, the u becomes o in pronunciation, though the spelling keeps its ו: פירט → פורט (porát, was detailed), מפורט (meforát, detailed); תיאר → תואר (to'ár, was described); בירך → מבורך (mevorákh, blessed).",
+        "body": "Pu'al swaps pi'el's vowels i–e for u–a: קידם (kidém, promoted) → קודם (kudám, was promoted). The past endings are the ones you know from every binyan (for אתם / אתן the textbook form is kudamtém, but most people say kudámtem). The future uses the same prefixes as pi'el: יקדם (yekadém) → יקודם (yekudám), and likewise תקודם, אקודם, נקודם.\n\nThe present starts with מ-, as in pi'el: מקודם (mekudám), מקודמת (mekudémet), מקודמים, מקודמות.\n\nMore everyday examples, in the order past – present – future:\n• לסדר: סודר, מסודר, יסודר — arranged\n• לבטל: בוטל, מבוטל, יבוטל — cancelled\n• לשלם: שולם, משולם, ישולם — paid\n• לתכנן: תוכנן, מתוכנן, יתוכנן — planned\n• four-letter roots work the same way: לפרסם → פורסם, מפורסם, יפורסם — published (מפורסם also means famous)\n\nWhen the middle root letter is ר or א (and often ע), the u becomes o in pronunciation, though the spelling keeps its ו: פירט → פורט (porát, was detailed), מפורט (meforát, detailed); תיאר → תואר (to'ár, was described); בירך → מבורך (mevorákh, blessed).",
         "table": [
           ["Person", "Past: was promoted", "Say it", "Future: will be promoted", "Say it"],
           ["אני", "קודמתי", "kudámti", "אקודם", "akudám"],
@@ -196,13 +197,13 @@
           ["הוא", "קודם", "kudám", "יקודם", "yekudám"],
           ["היא", "קודמה", "kudmá", "תקודם", "tekudám"],
           ["אנחנו", "קודמנו", "kudámnu", "נקודם", "nekudám"],
-          ["אתם / אתן", "קודמתם / קודמתן", "kudámtem / kudámten", "תקודמו", "tekudmú"],
+          ["אתם / אתן", "קודמתם / קודמתן", "kudamtém / kudamtén", "תקודמו", "tekudmú"],
           ["הם / הן", "קודמו", "kudmú", "יקודמו", "yekudmú"]
         ]
       },
       {
         "h": "Huf'al: past, present, future",
-        "body": "Huf'al swaps hif'il's vowels i–i for u–a: הזמין (hizmín, invited) → הוזמן (huzmán, was invited). In the present the prefix is מו-: מוזמן (muzmán), מוזמנת (muzménet), מוזמנים (muzmaním), מוזמנות (muzmanót). In the future every prefix is pronounced with u: יוזמן (yuzmán), תוזמן, אוזמן, נוזמן.\n\nOne look-alike to watch: הוזמנו is both ‘we were invited’ (huzmánu) and ‘they were invited’ (huzmenú); only the context tells you which.\n\nOther frequent huf'al verbs: הוחלט (it was decided), הוגש (was submitted, served), הועבר (was transferred), הוצג (was presented), הופסק (was stopped), הוסבר (was explained), הודגש (was emphasised).",
+        "body": "Huf'al swaps hif'il's vowels i–i for u–a: הזמין (hizmín, invited) → הוזמן (huzmán, was invited). In the present the prefix is מו-: מוזמן (muzmán), מוזמנת (muzménet), מוזמנים (muzmaním), מוזמנות (muzmanót). In the future every prefix is pronounced with u: יוזמן (yuzmán), תוזמן, אוזמן, נוזמן.\n\nOne look-alike to watch: because the root itself ends in נ, הוזמנו is both ‘we were invited’ (huzmánu) and ‘they were invited’ (huzmenú); only the context tells you which. With other roots the two forms differ: הוכשרנו (we were trained) / הוכשרו (they were trained).\n\nOther frequent huf'al verbs: הוחלט (it was decided), הוגש (was submitted, served), הועבר (was transferred), הוצג (was presented), הופסק (was stopped), הוסבר (was explained), הודגש (was emphasised).",
         "table": [
           ["Person", "Past: was invited", "Say it", "Future: will be invited", "Say it"],
           ["אני", "הוזמנתי", "huzmánti", "אוזמן", "uzmán"],
@@ -211,13 +212,13 @@
           ["הוא", "הוזמן", "huzmán", "יוזמן", "yuzmán"],
           ["היא", "הוזמנה", "huzmená", "תוזמן", "tuzmán"],
           ["אנחנו", "הוזמנו", "huzmánu", "נוזמן", "nuzmán"],
-          ["אתם / אתן", "הוזמנתם / הוזמנתן", "huzmántem / huzmánten", "תוזמנו", "tuzmenú"],
+          ["אתם / אתן", "הוזמנתם / הוזמנתן", "huzmantém / huzmantén", "תוזמנו", "tuzmenú"],
           ["הם / הן", "הוזמנו", "huzmenú", "יוזמנו", "yuzmenú"]
         ]
       },
       {
         "h": "Weak roots: הוקם, הובא, הוצא",
-        "body": "Weak roots keep their hif'il peculiarities in huf'al, and they are among the most frequent passive forms in the news:\n\n• Hollow roots (middle ו / י): the middle letter disappears, leaving הו + the two outer root letters: הקים → הוקם (hukám, was founded), הכין → הוכן (hukhán, was prepared), הביא → הובא (huvá, was brought), הבין → הובן (huván, was understood). Their present forms are everyday adjectives: מוכן (ready), מובן (understood; כמובן = of course).\n• Initial י (פ״י): the hif'il already has ו (הוציא, hotsí), so the huf'al looks like the hif'il without the י of its i-vowel: הוציא → הוצא (hutsá, was taken out, issued), הוסיף → הוסף (husáf, was added), הוריד → הורד (hurád, was lowered), הוכיח → הוכח (hukhákh, was proven). Hence מוסף (musáf, added; a supplement), as in מס ערך מוסף — מע״מ, value-added tax.\n• Initial נ (פ״נ): the נ disappears, as in the hif'il: הגיש → הוגש (hugásh), הכיר → הוכר (hukár, was recognised).\n• Final ה (ל״ה): הפנה → הופנה (hufná, was referred), present מופנה (mufné).\n\nBeware of homographs: מוכר is mukár (familiar, recognised) but also mokhér (seller, from למכור); יוצא can be yutsá (will be issued) but is far more often yotsé (goes out).",
+        "body": "Weak roots keep their hif'il peculiarities in huf'al, and they are among the most frequent passive forms in the news:\n\n• Hollow roots (middle ו / י): the middle letter disappears, leaving הו + the two outer root letters: הקים → הוקם (hukám, was founded), הכין → הוכן (hukhán, was prepared), הביא → הובא (huvá, was brought), הבין → הובן (huván, was understood). Their present forms are everyday adjectives: מוכן (ready), מובן (understood; כמובן = of course).\n• Initial י (פ״י): the hif'il already has ו (הוציא, hotsí), so the huf'al looks like the hif'il without the י of its i-vowel, and the ו is now read u instead of o: הוציא → הוצא (hutsá, was taken out, issued), הוסיף → הוסף (husáf, was added), הוריד → הורד (hurád, was lowered), הוכיח → הוכח (hukhákh, was proven). Hence מוסף (musáf, added; a supplement), as in מס ערך מוסף — מע״מ, value-added tax.\n• Initial נ (פ״נ): the נ disappears, as in the hif'il: הגיש → הוגש (hugásh), הכיר → הוכר (hukár, was recognised).\n• Final ה (ל״ה): הפנה → הופנה (hufná, was referred), present מופנה (mufné).\n\nBeware of homographs: מוכר is mukár (familiar, recognised) but also mokhér (seller, from למכור); יוצא can be yutsá (will be issued) but is far more often yotsé (goes out).",
         "table": [
           ["Active", "Past", "Present", "Future", "Meaning"],
           ["להקים (ק.ו.ם)", "הוקם", "מוקם", "יוקם", "be founded, set up"],
@@ -255,11 +256,11 @@
         "explain": "קידם → קודם, and the היא form adds -ה: קודמה (kudmá)."
       },
       {
-        "prompt": "___ לתפקיד מנהל האגף בחודש שעבר. (לקדם — pu'al, past, אני)",
-        "en": "I was promoted to head of the division last month.",
-        "answer": ["קודמתי", "אני קודמתי"],
-        "hint": "pu'al past, אני → -תי",
-        "explain": "The past endings are the same in every binyan: קודמתי (kudámti) = I was promoted."
+        "prompt": "שכר הדירה ___ בתחילת כל חודש. (לשלם — pu'al, present)",
+        "en": "The rent is paid at the beginning of every month.",
+        "answer": ["משולם"],
+        "hint": "pu'al present, masculine singular (agrees with שכר)",
+        "explain": "שילם → שולם (was paid); the present adds מ-, as in pi'el: משולם (meshulám). שכר הדירה is a smichut whose head, שכר, is masculine singular."
       },
       {
         "prompt": "כל הפרטים על הכנס ___ באתר בשבוע הבא. (לפרסם — pu'al, future)",
@@ -363,10 +364,10 @@
     "sections": [
       {
         "h": "A scale of certainty",
-        "body": "Careful writers — journalists, researchers, analysts, anyone writing to a client — rarely state uncertain things flatly. Hebrew has a rich set of hedges, from near-certainty to doubt. Those that introduce a clause are followed by ש or, more formally, by כי: נראה כי רוב המשתתפים מרוצים.\n\nIn speech, people hedge with נראה לי ש (I think), כנראה, יכול להיות ש, מן הסתם (presumably) and אולי. In writing, the expressions in the table say the same with more precision. Two of them are worth looking at closely: ייתכן ש, which governs the tense of its clause, and לכאורה, which is easy to misread.",
+        "body": "Careful writers — journalists, researchers, analysts, anyone writing to a client — rarely state uncertain things flatly. Hebrew has a rich set of hedges, from near-certainty to doubt. Those that introduce a clause are followed by ש or, more formally, by כי: נראה כי רוב המשתתפים מרוצים.\n\nIn speech, people hedge with נראה לי ש (I think), כנראה, יכול להיות ש, מן הסתם (presumably) and אולי. In writing, the expressions in the table say the same with more precision. Two of them are worth looking at closely: ייתכן ש, whose clause needs the right tense, and לכאורה, which is easy to misread.",
         "table": [
           ["Expression", "Say it", "Meaning", "Register"],
-          ["בוודאות", "be-vadá'ut", "certainly", "neutral"],
+          ["בוודאות", "be-vada'út", "certainly", "neutral"],
           ["ככל הנראה", "kekhól ha-nir'é", "in all likelihood", "formal, news"],
           ["כנראה", "kanir'é", "probably, apparently", "neutral"],
           ["סביר להניח ש", "savír lehaníakh she-", "it's reasonable to assume that", "formal"],
@@ -383,17 +384,17 @@
       },
       {
         "h": "כנראה, ככל הנראה, לכאורה: probable vs. merely apparent",
-        "body": "These three can all come out as ‘apparently’ in English, but they send different signals:\n• כנראה (kanir'é) — the everyday ‘probably’: הוא כנראה תקוע בפקק.\n• ככל הנראה (kekhól ha-nir'é) — the formal, written ‘in all likelihood’, a news staple: ככל הנראה, התקלה נגרמה בשל עומס חריג במערכת. The writer believes it is true but hasn't confirmed it.\n• לכאורה (likh'orá) — ‘ostensibly, on the face of it’: it looks that way, but the writer doubts it or hasn't checked: ההצעה נראית לכאורה משתלמת, אבל יש בה עלויות נסתרות. In news reports it marks claims that have not been proven, like English ‘alleged’.\n\nRelated: נראה ש / נראה כי (it seems that) and its very common spoken form נראה לי ש (I think): נראה לי שהוא צודק. To shift responsibility to a source, use לפי ההערכות (according to estimates) or על פי הדיווחים (according to reports)."
+        "body": "These three can all come out as ‘apparently’ in English, but they send different signals:\n• כנראה (kanir'é) — the everyday ‘probably’: הוא כנראה תקוע בפקק.\n• ככל הנראה (kekhól ha-nir'é) — the formal, written ‘in all likelihood’, a news staple: ככל הנראה, התקלה נגרמה בשל עומס חריג במערכת. The writer believes it is true but hasn't confirmed it.\n• לכאורה (likh'orá) — ‘ostensibly, on the face of it’: it looks that way, but the writer doubts it or hasn't checked: לכאורה מדובר בהצעה משתלמת, אבל יש בה עלויות נסתרות (on the face of it this is a worthwhile offer, but it has hidden costs). In news reports it marks claims that have not been proven, like English ‘alleged’.\n\nRelated: נראה ש / נראה כי (it seems that) and its very common spoken form נראה לי ש (I think): נראה לי שהוא צודק. To shift responsibility to a source, use לפי ההערכות (according to estimates) or על פי הדיווחים (according to reports)."
       },
       {
         "h": "Counterfactuals: אילו / לו + past, היה + participle",
-        "body": "A counterfactual — in Hebrew grammar תנאי בטל, a ‘void condition’ — is about something that did not happen or is not the case. You have met the everyday pattern with אם: אם הייתי יודע, הייתי בא. Formal and literary Hebrew opens the condition with אילו or לו (pronounced lu — not לו, lo, ‘to him’) and normally puts the simple past in that half:\n• אילו ידעתי, הייתי בא. — Had I known, I would have come.\n• לו הייתה לנו עוד שנה, היינו מסיימים את המחקר. — If we had another year, we would finish the research.\n• אילו לא ירד גשם, היינו יוצאים לטיול. — Had it not rained, we would have gone on the hike.\n\nThe result half is always היה (conjugated) + the present participle, agreeing with its subject: הייתי בא / באה, היא הייתה באה, הם היו באים. The condition half may also use היה + participle (אילו הייתי יודע…); both are correct.\n\nHebrew does not distinguish ‘would’ from ‘would have’; context decides: אילו למדתי ערבית בצעירותי, הייתי מדבר אותה היום בשטף (had I learned Arabic when I was young, I would speak it fluently today). With יש / אין, היה agrees with the thing possessed: אילו היה לנו זמן, אילו הייתה לנו אפשרות, אילו היו לנו אנשים.",
+        "body": "A counterfactual — in Hebrew grammar תנאי בטל, a ‘void condition’ — is about something that did not happen or is not the case. You have met the everyday pattern with אם: אם הייתי יודע, הייתי בא. Formal and literary Hebrew opens the condition with אילו or לו (pronounced lu — not לו, lo, ‘to him’) and normally puts the simple past in that half:\n• אילו ידעתי, הייתי בא. — Had I known, I would have come.\n• לו הייתה לנו עוד שנה, היינו מסיימים את המחקר. — If we had another year, we would finish the research.\n• אילו לא ירד גשם, היינו יוצאים לטיול. — Had it not rained, we would have gone on the hike.\n\nIn modern Hebrew the result half is regularly היה (conjugated) + the present participle, agreeing with its subject: הייתי בא / באה, היא הייתה באה, הם היו באים. The condition half may also use היה + participle (אילו הייתי יודע…); both are correct.\n\nHebrew does not distinguish ‘would’ from ‘would have’; context decides: אילו למדתי ערבית בצעירותי, הייתי מדבר אותה היום בשטף (had I learned Arabic when I was young, I would speak it fluently today). With יש / אין, היה agrees with the thing possessed: אילו היה לנו זמן, אילו הייתה לנו אפשרות, אילו היו לנו אנשים.",
         "table": [
           ["Type", "If-clause", "Main clause", "Example"],
           ["Real (תנאי קיים)", "אם + future", "future", "אם יהיה לי זמן, אבוא."],
           ["General truth", "אם + present", "present", "אם יש שאלות, אני כאן."],
-          ["Unreal, everyday", "אם + היה + participle", "היה + participle", "אם הייתי יודע, הייתי בא."],
-          ["Unreal, formal (תנאי בטל)", "אילו / לו + past", "היה + participle", "אילו ידעתי, הייתי בא."],
+          ["Unreal (תנאי בטל), everyday", "אם + היה + participle", "היה + participle", "אם הייתי יודע, הייתי בא."],
+          ["Unreal (תנאי בטל), formal", "אילו / לו + past", "היה + participle", "אילו ידעתי, הייתי בא."],
           ["If it weren't for…", "אלמלא / לולא + noun or past", "היה + participle", "אלמלא עזרתך, לא הייתי מצליח."]
         ]
       },
@@ -450,8 +451,8 @@
         "explain": "לא מן הנמנע ש (lo min ha-nimná she-) + future = it can't be ruled out that."
       },
       {
-        "prompt": "ההצעה נראית ___ משתלמת, אבל יש בה עלויות נסתרות. (on the face of it)",
-        "en": "On the face of it the offer looks worthwhile, but it has hidden costs.",
+        "prompt": "___ מדובר בהצעה משתלמת, אבל יש בה עלויות נסתרות. (on the face of it — one word)",
+        "en": "On the face of it this is a worthwhile offer, but it has hidden costs.",
         "answer": ["לכאורה"],
         "hint": "signals that it only looks that way",
         "explain": "לכאורה (likh'orá) = ostensibly: it seems so, but the writer doubts it — unlike ככל הנראה, which suggests it is probably true."
@@ -492,7 +493,7 @@
         "explain": "The result half agrees with its subject: היא → הייתה מרוויחה. Hebrew uses the same form for ‘would’ and ‘would have’."
       },
       {
-        "prompt": "___ העזרה שלכם, לא היינו מסיימים את הפרויקט בזמן. (if it weren't for)",
+        "prompt": "___ עזרתכם, לא היינו מסיימים את הפרויקט בזמן. (if it weren't for)",
         "en": "If it weren't for your help, we wouldn't have finished the project on time.",
         "answer": ["אלמלא", "לולא"],
         "hint": "one formal word + noun",

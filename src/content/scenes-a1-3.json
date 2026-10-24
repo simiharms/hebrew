@@ -96,8 +96,8 @@
         ]
       },
       {
-        "q": "באיזה יום הספרייה פתוחה בערב?",
-        "qEn": "On which day is the library open in the evening?",
+        "q": "באיזה יום הספרייה פתוחה אחרי שש, ועד איזו שעה?",
+        "qEn": "On which day is the library open after six, and until what time?",
         "answer": "ביום שלישי, עד תשע בערב.",
         "answerEn": "On Tuesday, until nine in the evening.",
         "keywords": [
@@ -137,7 +137,7 @@
       },
       {
         "s": "ביום ראשון הספרייה פתוחה משמונה בבוקר.",
-        "sEn": "On Sunday the library opens at eight in the morning.",
+        "sEn": "On Sunday the library is open from eight in the morning.",
         "a": true,
         "why": "From Sunday to Thursday it is open משמונה בבוקר עד שש בערב, 'from eight in the morning until six in the evening'."
       },
@@ -258,7 +258,7 @@
       {
         "s": "B",
         "he": "בשלוש אני יכול. איפה נפגשים?",
-        "en": "At three I can. Where shall we meet?"
+        "en": "I can make it at three. Where shall we meet?"
       },
       {
         "s": "A",
@@ -292,10 +292,12 @@
         "keywords": [
           [
             "לבקר",
-            "מבקר"
+            "מבקר",
+            "יבקר"
           ],
           [
-            "סבתא"
+            "סבתא",
+            "סבתו"
           ]
         ]
       },
@@ -311,17 +313,18 @@
           ],
           [
             "קיוסק",
-            "חוף"
+            "חוף",
+            "ים"
           ]
         ]
       }
     ],
     "tf": [
       {
-        "s": "הדס רוצה ללכת לים ביום שישי.",
-        "sEn": "Hadas wants to go to the beach on Friday.",
+        "s": "וסים רוצה לבוא לים.",
+        "sEn": "Wassim wants to come to the beach.",
         "a": true,
-        "why": "She says אני רוצה ללכת לים and asks Wassim אתה רוצה לבוא?"
+        "why": "When Hadas asks אתה רוצה לבוא?, he answers כן, 'yes'. Only the morning is a problem: אבל בבוקר אני לא יכול."
       },
       {
         "s": "וסים עובד ביום שישי בבוקר.",
@@ -425,8 +428,8 @@
       },
       {
         "s": "B",
-        "he": "באמת? אז עוד אחד, בבקשה. כמה זה ביחד?",
-        "en": "Really? Then one more, please. How much is it altogether?"
+        "he": "באמת? אז אני לוקחת עוד אחד. כמה זה ביחד?",
+        "en": "Really? Then I'll take one more. How much is it altogether?"
       },
       {
         "s": "A",
@@ -495,7 +498,8 @@
           [
             "מוצאת",
             "מוצא",
-            "למצוא"
+            "למצוא",
+            "מצאה"
           ],
           [
             "כרטיס",
@@ -539,7 +543,7 @@
       {
         "he": "את צריכה שקית?",
         "en": "Do you need a bag?",
-        "note": "To a man: אתה צריך שקית? שקית is feminine, so two bags are שתי שקיות. Big supermarkets charge a few agorot for a plastic bag, so the cashier asks first."
+        "note": "To a man: אתה צריך שקית? שקית is feminine, so two bags are שתי שקיות. Big supermarkets charge a small fee for each plastic bag, so the cashier asks first."
       },
       {
         "he": "יש לך כרטיס מועדון?",

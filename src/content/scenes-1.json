@@ -198,13 +198,13 @@
         "why": "He says אני בכלל שותה קפה שחור, 'I drink black coffee anyway', so the milk wasn't for him."
       },
       {
-        "s": "לנועה ולאיתי עוד אין טבלה של מי עושה מה בבית.",
+        "s": "לנועה ולאיתי עדיין אין טבלה של מי עושה מה בבית.",
         "sEn": "Noa and Itay don't have a chart yet of who does what at home.",
         "a": false,
         "why": "When Itay suggests making one, Noa protests עוד טבלה? יש לנו כבר שלוש טבלאות!, 'another chart? We already have three charts!'"
       },
       {
-        "s": "שירה מסכימה בלי בעיה לקנות חלב.",
+        "s": "שירה מסכימה לקנות חלב בלי בעיה.",
         "sEn": "Shira agrees to buy milk without any fuss.",
         "a": true,
         "why": "When Noa tells her היום את קונה חלב, she answers סבבה, בקטנה, 'sure, no big deal', and says she'll buy some on the way home."
@@ -669,10 +669,10 @@
         "why": "She is new there: עברתי לפה לפני חודש, 'I moved here a month ago'."
       },
       {
-        "s": "בסוף מאיה משלמת על הפלאפל.",
-        "sEn": "In the end Maya pays for the falafel.",
+        "s": "בסוף מאיה צריכה לשלם על הפלאפל.",
+        "sEn": "In the end Maya has to pay for the falafel.",
         "a": true,
-        "why": "Shimon's היום זה עליי, 'today it's on me', was a joke, and he takes it back with סתם, סתם! All she gets for free is an extra falafel ball."
+        "why": "Shimon's היום זה עליי, 'today it's on me', is only a joke, and he takes it back at once with סתם, סתם! All she gets for free is an extra falafel ball."
       }
     ],
     "dictation": [
@@ -911,8 +911,8 @@
         "why": "Michal from marketing is the one talking to Daniel. The Michal by the window is the other one, מיכל מהכספים, from finance."
       },
       {
-        "s": "דני שמע את השם של העובד החדש.",
-        "sEn": "Danny heard the new employee's name.",
+        "s": "דני, איש המחשבים, שמע את השם של העובד החדש.",
+        "sEn": "Danny, the computer guy, heard the new employee's name.",
         "a": false,
         "why": "He says סליחה, לא שמעתי. איך קוראים לך?, 'sorry, I didn't catch that. What's your name?'"
       },
@@ -1588,6 +1588,11 @@
         "s": "A",
         "he": "אז אם אתם מתכננים טיול, חכו לשבת. ובינתיים, סעו בזהירות.",
         "en": "So if you're planning a trip, wait for Saturday. And in the meantime, drive carefully."
+      },
+      {
+        "s": "A",
+        "he": "ואנחנו נחזור מיד אחרי הפרסומות.",
+        "en": "And we'll be right back after the break."
       }
     ],
     "questions": [

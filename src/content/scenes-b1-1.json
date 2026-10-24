@@ -28,18 +28,18 @@
       },
       {
         "s": "A",
-        "he": "הירושלמים קוראים לו פשוט: השוק. הוא התחיל בסוף המאה התשע עשרה, כשירושלים התחילה לצאת מחוץ לחומות.",
-        "en": "Jerusalemites simply call it 'the shuk'. It began at the end of the nineteenth century, when Jerusalem started to spread outside the walls."
+        "he": "הירושלמים קוראים לו פשוט: השוק. הוא התחיל בסוף המאה התשע עשרה, בתקופה שירושלים התחילה לצאת מחוץ לחומות.",
+        "en": "Jerusalemites simply call it 'the shuk'. It began at the end of the nineteenth century, in the period when Jerusalem started to spread outside the walls."
       },
       {
         "s": "A",
-        "he": "בהתחלה זה היה סתם מגרש ריק. חקלאים מהכפרים באזור הביאו לכאן פירות וירקות, ומכרו אותם באוויר הפתוח.",
-        "en": "At first it was just an empty lot. Farmers from the villages in the area brought fruit and vegetables here and sold them in the open air."
+        "he": "בהתחלה זה היה סתם מגרש ריק. חקלאים מהכפרים שמסביב הביאו לכאן פירות וירקות ומכרו אותם באוויר הפתוח.",
+        "en": "At first it was just an empty lot. Farmers from the surrounding villages brought fruit and vegetables here and sold them in the open air."
       },
       {
         "s": "A",
-        "he": "השם מחנה יהודה בא משכונה שנמצאת ממש פה ליד, ושנבנתה באותה תקופה.",
-        "en": "The name Mahane Yehuda comes from a neighbourhood right next to here, which was built in the same period."
+        "he": "השוק קיבל את השם שלו מהשכונה מחנה יהודה, שנמצאת ממש פה ליד ונבנתה באותה תקופה.",
+        "en": "The market got its name from the Mahane Yehuda neighbourhood, which is right next to here and was built in the same period."
       },
       {
         "s": "B",
@@ -53,8 +53,8 @@
       },
       {
         "s": "A",
-        "he": "היום יש בשוק יותר ממאתיים דוכנים: ירקות, תבלינים, גבינות, מאפים, ובשנים האחרונות גם הרבה מסעדות וברים.",
-        "en": "Today the market has more than two hundred stalls: vegetables, spices, cheeses, pastries, and in recent years lots of restaurants and bars too."
+        "he": "היום יש בשוק יותר ממאתיים דוכנים של ירקות, תבלינים, גבינות ומאפים, ובשנים האחרונות נפתחו בו גם הרבה מסעדות וברים.",
+        "en": "Today the market has more than two hundred stalls selling vegetables, spices, cheeses and pastries, and in recent years lots of restaurants and bars have opened here too."
       },
       {
         "s": "C",
@@ -78,8 +78,8 @@
       },
       {
         "s": "A",
-        "he": "כן, רוב השוק סגור מיום שישי אחר הצהריים ועד מוצאי שבת. לכן ביום שישי בבוקר יש פה הכי הרבה אנשים.",
-        "en": "Yes, most of the market is closed from Friday afternoon until Saturday night. That's why Friday morning is when it's most crowded here."
+        "he": "כמעט. רוב הדוכנים סגורים מיום שישי אחר הצהריים ועד מוצאי שבת. לכן ביום שישי בבוקר יש פה הכי הרבה אנשים: כולם קונים לשבת.",
+        "en": "Almost. Most of the stalls are closed from Friday afternoon until Saturday night. That's why Friday morning is the busiest time here: everyone is shopping for Shabbat."
       },
       {
         "s": "A",
@@ -88,8 +88,8 @@
       },
       {
         "s": "A",
-        "he": "תטעמו, תצלמו, תקנו מה שאתם רוצים. אבל תשמרו טוב על התיקים, כי פה צפוף.",
-        "en": "Taste, take pictures, buy whatever you like. But keep a close eye on your bags, because it's crowded here."
+        "he": "תטעמו, תצלמו, תקנו מה שאתם רוצים. אבל תשמרו טוב על התיקים, כי פה מאוד צפוף.",
+        "en": "Taste, take pictures, buy whatever you like. But keep a close eye on your bags, because it's very crowded here."
       },
       {
         "s": "C",
@@ -173,7 +173,9 @@
           ],
           [
             "מוזיקה",
+            "מוסיקה",
             "נפתחים",
+            "נפתחות",
             "פתוחים"
           ]
         ]
@@ -186,10 +188,13 @@
         "keywords": [
           [
             "שלט",
-            "כתוב"
+            "שלטים",
+            "כתוב",
+            "כתובים"
           ],
           [
-            "הנחה"
+            "הנחה",
+            "הנחות"
           ]
         ]
       },
@@ -208,7 +213,10 @@
             "11"
           ],
           [
-            "שלט"
+            "שלט",
+            "נפגשים",
+            "להיפגש",
+            "ניפגש"
           ]
         ]
       }
@@ -221,10 +229,10 @@
         "why": "It began at the end of the nineteenth century as an empty lot; under the British Mandate permanent stalls were built."
       },
       {
-        "s": "בשבת רוב השוק סגור.",
-        "sEn": "On Shabbat most of the market is closed.",
+        "s": "בשבת רוב הדוכנים בשוק סגורים.",
+        "sEn": "On Shabbat most of the stalls in the market are closed.",
         "a": true,
-        "why": "Michal says most of the market is closed from Friday afternoon until Saturday night."
+        "why": "Michal says most of the stalls are closed from Friday afternoon until מוצאי שבת, Saturday night."
       },
       {
         "s": "את הציורים על התריסים אפשר לראות בעיקר ביום שישי בבוקר.",
@@ -313,7 +321,7 @@
       },
       {
         "s": "B",
-        "he": "עליתי מבואנוס איירס לפני שנה בדיוק, עם בעלי ושני הילדים שלנו. במקצוע אני פיזיותרפיסטית.",
+        "he": "עליתי מבואנוס איירס לפני שנה בדיוק, עם בעלי ושני הילדים שלנו. אני פיזיותרפיסטית במקצוע.",
         "en": "I immigrated from Buenos Aires exactly a year ago, with my husband and our two children. I'm a physiotherapist by profession."
       },
       {
@@ -338,8 +346,8 @@
       },
       {
         "s": "B",
-        "he": "כן. תכינו תיקייה עם כל המסמכים, ותמיד תביאו שני עותקים. וגם, אל תוותרו. אם פקיד אחד אומר לא, תשאלו פקיד אחר.",
-        "en": "Yes. Put together a folder with all your documents, and always bring two copies. And also, don't give up. If one clerk says no, ask another clerk."
+        "he": "כן. תכינו תיקייה עם כל המסמכים, ותמיד תביאו שני עותקים מכל מסמך. וגם, אל תוותרו. אם פקיד אחד אומר לא, תשאלו פקיד אחר.",
+        "en": "Yes. Put together a folder with all your documents, and always bring two copies of each one. And also, don't give up. If one clerk says no, ask another clerk."
       },
       {
         "s": "A",
@@ -368,8 +376,8 @@
       },
       {
         "s": "A",
-        "he": "נכון, אנחנו לא עוזרים. ומה עם העבודה? את כבר עובדת כפיזיותרפיסטית?",
-        "en": "True, we don't make it easy. And what about work? Are you already working as a physiotherapist?"
+        "he": "נכון, אנחנו לא עושים לכם חיים קלים. ומה עם העבודה? את כבר עובדת כפיזיותרפיסטית?",
+        "en": "True, we don't make life easy for you. And what about work? Are you already working as a physiotherapist?"
       },
       {
         "s": "B",
@@ -388,13 +396,13 @@
       },
       {
         "s": "B",
-        "he": "מאוד. יש ימים קשים, ואני מתגעגעת למשפחה. אבל הילדים כבר מדברים עברית יותר טוב ממני, ובשבילי זו ההצלחה הכי גדולה.",
-        "en": "Very. There are hard days, and I miss my family. But the kids already speak Hebrew better than I do, and for me that's the biggest success."
+        "he": "כן, מאוד. יש ימים קשים, ואני מתגעגעת להורים ולחברים בארגנטינה. אבל הילדים כבר מדברים עברית יותר טוב ממני, ובשבילי זו ההצלחה הכי גדולה.",
+        "en": "Yes, very. There are hard days, and I miss my parents and friends in Argentina. But the kids already speak Hebrew better than I do, and for me that's the biggest success."
       },
       {
         "s": "A",
-        "he": "איזה יופי. לוסיאנה, תודה רבה, והרבה הצלחה במבחן!",
-        "en": "How wonderful. Luciana, thank you very much, and the best of luck with the exam!"
+        "he": "איזה יופי. לוסיאנה, תודה רבה, ובהצלחה במבחן!",
+        "en": "How wonderful. Luciana, thank you very much, and good luck with the exam!"
       }
     ],
     "questions": [
@@ -441,7 +449,8 @@
           [
             "תיקייה",
             "תיקיה",
-            "מסמכים"
+            "מסמכים",
+            "מסמך"
           ],
           [
             "עותקים",
@@ -450,7 +459,8 @@
           [
             "לוותר",
             "תוותרו",
-            "מוותרים"
+            "מוותרים",
+            "ויתור"
           ]
         ]
       },
@@ -483,7 +493,9 @@
           ],
           [
             "מבחן",
-            "רישיון"
+            "בחינה",
+            "רישיון",
+            "רשיון"
           ]
         ]
       }
@@ -502,8 +514,8 @@
         "why": "Her class had people from France, Ukraine, Ethiopia and the United States."
       },
       {
-        "s": "לדעת לוסיאנה, הדבר הכי קשה בעברית הוא הפעלים.",
-        "sEn": "In Luciana's opinion, the hardest thing in Hebrew is the verbs.",
+        "s": "לדעת לוסיאנה, הפעלים הם הדבר הכי קשה בעברית.",
+        "sEn": "In Luciana's opinion, the verbs are the hardest thing in Hebrew.",
         "a": true,
         "why": "She says 'without a doubt, the verbs' because there are so many binyanim."
       },
@@ -549,7 +561,7 @@
       {
         "he": "להתגעגע ל...",
         "en": "to miss (someone or something)",
-        "note": "A hitpa'el verb with ל: אני מתגעגעת למשפחה, הוא מתגעגע לים."
+        "note": "A hitpa'el verb with ל: אני מתגעגעת להורים, הוא מתגעגע לים. Note the direction: the person or thing you miss comes after ל."
       }
     ]
   },
@@ -578,8 +590,8 @@
       },
       {
         "s": "A",
-        "he": "שלום, רנא. קוראים לי דמיטרי לוין. אני מתקשר בקשר לחשבונית של החודש. יש בה חיוב שאני לא מבין.",
-        "en": "Hello, Rana. My name is Dmitri Levin. I'm calling about this month's bill. There's a charge on it that I don't understand."
+        "he": "שלום, רנא. קוראים לי דמיטרי לוין. אני מתקשר בקשר לחשבונית של החודש. יש בה חיוב שאני לא מכיר.",
+        "en": "Hello, Rana. My name is Dmitri Levin. I'm calling about this month's bill. There's a charge on it that I don't recognise."
       },
       {
         "s": "B",
@@ -603,8 +615,8 @@
       },
       {
         "s": "B",
-        "he": "רגע, אני בודקת... נכון, החבילה הופעלה בשלושה בחודש.",
-        "en": "One moment, I'm checking... Yes, the package was activated on the third of the month."
+        "he": "רגע, אני בודקת... כן, אני רואה. החבילה הופעלה בשלושה בחודש.",
+        "en": "One moment, I'm checking... Yes, I can see it. The package was activated on the third of the month."
       },
       {
         "s": "A",
@@ -613,8 +625,8 @@
       },
       {
         "s": "A",
-        "he": "תסכימי איתי שאם הייתי טס לחו״ל, הייתי זוכר שהזמנתי חבילה.",
-        "en": "You'll agree with me that if I had flown abroad, I'd remember ordering a package."
+        "he": "אם הייתי טס לחו״ל, הייתי זוכר שהזמנתי חבילה, נכון?",
+        "en": "If I had flown abroad, I'd remember ordering a package, right?"
       },
       {
         "s": "B",
@@ -643,8 +655,8 @@
       },
       {
         "s": "B",
-        "he": "אני מבינה. רק רגע, אני צריכה לקבל אישור מאחראית המשמרת. אתה יכול להמתין על הקו?",
-        "en": "I understand. Just a moment, I need to get approval from the shift supervisor. Can you hold the line?"
+        "he": "בסדר. רק רגע, אני צריכה לקבל אישור מאחראית המשמרת. אתה יכול להמתין על הקו?",
+        "en": "All right. Just a moment, I need to get approval from the shift supervisor. Can you hold the line?"
       },
       {
         "s": "A",
@@ -706,7 +718,8 @@
         "answerEn": "He was in Tel Aviv, at work.",
         "keywords": [
           [
-            "תל אביב"
+            "תל אביב",
+            "ת״א"
           ],
           [
             "עבודה",
@@ -738,7 +751,7 @@
         ]
       },
       {
-        "q": "מה דמיטרי יעשה, אם הבעיה לא תסתדר?",
+        "q": "מה דמיטרי יעשה אם הבעיה לא תסתדר?",
         "qEn": "What will Dmitri do if the problem isn't sorted out?",
         "answer": "הוא ישקול לעבור לחברה אחרת.",
         "answerEn": "He'll consider switching to another company.",
@@ -746,7 +759,8 @@
           [
             "לעבור",
             "יעבור",
-            "אעבור"
+            "אעבור",
+            "עובר"
           ],
           [
             "חברה"
@@ -768,7 +782,8 @@
           [
             "חסימה",
             "כתב",
-            "פנייה"
+            "פנייה",
+            "אישור"
           ]
         ]
       }

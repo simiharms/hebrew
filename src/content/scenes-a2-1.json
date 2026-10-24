@@ -23,7 +23,7 @@
       { "s": "B", "he": "הקטן. הנה, תטעמי.", "en": "The small one. Here, have a taste." },
       { "s": "A", "he": "נכון, ממש מתוק! אני לוקחת אותו. ואיזו חסה יותר טרייה?", "en": "You're right, really sweet! I'll take it. And which lettuce is fresher?" },
       { "s": "B", "he": "שתיהן הגיעו הבוקר מהמושב. קחי את הגדולה.", "en": "Both of them came from the moshav this morning. Take the big one." },
-      { "s": "A", "he": "טוב. כמה זה הכל ביחד?", "en": "OK. How much is it all together?" },
+      { "s": "A", "he": "טוב. כמה זה הכול ביחד?", "en": "OK. How much is it all together?" },
       { "s": "B", "he": "שלושים וחמישה שקלים.", "en": "Thirty-five shekels." },
       { "s": "A", "he": "אולי שלושים? אני אבוא גם בשבוע הבא.", "en": "Maybe thirty? I'll come next week too." },
       { "s": "B", "he": "טוב, בשבילך שלושים. אבל רק היום!", "en": "All right, for you, thirty. But only today!" }
@@ -62,7 +62,7 @@
         "qEn": "How much does Marina pay in the end, and why does Salim agree?",
         "answer": "שלושים שקלים, כי היא תבוא גם בשבוע הבא.",
         "answerEn": "Thirty shekels, because she'll come back next week too.",
-        "keywords": [["שלושים", "30"], ["תבוא", "אבוא", "לבוא", "באה", "שבוע הבא"]]
+        "keywords": [["שלושים", "30"], ["תבוא", "אבוא", "לבוא", "באה", "תחזור", "לחזור", "שבוע הבא"]]
       }
     ],
     "tf": [
@@ -109,7 +109,7 @@
         "note": "איזה goes with a masculine noun, איזו with a feminine one. In careful Hebrew the plural is אילו: אילו עגבניות? In speech many people say איזה for everything."
       },
       {
-        "he": "כמה זה הכל ביחד?",
+        "he": "כמה זה הכול ביחד?",
         "en": "How much is it all together?",
         "note": "The standard way to ask for the total at a stall or a shop."
       },
@@ -139,7 +139,7 @@
     "lines": [
       { "s": "A", "he": "השעה שבע ועשר, ועכשיו מזג האוויר. בוקר טוב, אלמז.", "en": "It's ten past seven, and now the weather. Good morning, Almaz." },
       { "s": "B", "he": "בוקר טוב, גלעד, ובוקר טוב לכל המאזינים.", "en": "Good morning, Gilad, and good morning to all our listeners." },
-      { "s": "A", "he": "אז מה יהיה מחר? אחרי התוכנית אני רוצה לנסוע לים.", "en": "So what will tomorrow be like? After the show I want to go to the beach." },
+      { "s": "A", "he": "אז מה יהיה מחר? אני רוצה לנסוע מחר לים.", "en": "So what will tomorrow be like? I want to go to the beach tomorrow." },
       { "s": "B", "he": "יש לך מזל. מחר יהיה יום חם, כמו בקיץ.", "en": "You're in luck. Tomorrow will be a hot day, like in summer." },
       { "s": "A", "he": "כמה מעלות יהיו בתל אביב?", "en": "How many degrees will it be in Tel Aviv?" },
       { "s": "B", "he": "שלושים מעלות. בירושלים יהיה פחות חם, עשרים וחמש.", "en": "Thirty degrees. In Jerusalem it will be less hot, twenty-five." },
@@ -174,7 +174,7 @@
         "qEn": "What will happen on Friday?",
         "answer": "הטמפרטורות ירדו, ותהיה רוח חזקה.",
         "answerEn": "The temperatures will drop, and there will be a strong wind.",
-        "keywords": [["ירדו", "ירד", "יורדות", "קר", "פחות חם"], ["רוח"]]
+        "keywords": [["ירדו", "ירד", "תרד", "יורדות", "קר", "קריר", "פחות חם"], ["רוח"]]
       },
       {
         "q": "למה גלעד לא ייסע לצפון בשבת?",
@@ -188,7 +188,7 @@
         "qEn": "When will Gilad go on his trip up north?",
         "answer": "בשבוע הבא.",
         "answerEn": "Next week.",
-        "keywords": [["שבוע הבא", "יום ראשון"]]
+        "keywords": [["שבוע הבא", "שבוע אחר"]]
       }
     ],
     "tf": [
@@ -270,11 +270,11 @@
       { "s": "A", "he": "יפה מאוד, ג׳ונתן. אבל אל תחתוך כל כך מהר. תיזהר עם הסכין!", "en": "Very nice, Jonathan. But don't cut so fast. Careful with the knife!" },
       { "s": "A", "he": "עכשיו שימו שמן במחבת, ותוסיפו את הבצל והפלפל.", "en": "Now put some oil in the pan, and add the onion and the pepper." },
       { "s": "C", "he": "כמה שמן לשים?", "en": "How much oil should we put in?" },
-      { "s": "A", "he": "שתי כפות, זה מספיק. ואל תשכחו לערבב!", "en": "Two spoonfuls, that's enough. And don't forget to stir!" },
+      { "s": "A", "he": "שתי כפות, זה מספיק. ואל תשכחו לערבב!", "en": "Two tablespoons, that's enough. And don't forget to stir!" },
       { "s": "A", "he": "אחרי חמש דקות, תוסיפו עגבניות, מלח, פפריקה וקצת כמון.", "en": "After five minutes, add tomatoes, salt, paprika and a little cumin." },
       { "s": "B", "he": "אפשר לשים גם שום? אני מאוד אוהב שום.", "en": "Can I put in garlic too? I really love garlic." },
       { "s": "A", "he": "בטח. אבל אל תשים יותר משתי שיני שום.", "en": "Sure. But don't put in more than two cloves of garlic." },
-      { "s": "A", "he": "עכשיו תעשו ארבעה חורים ברוטב, ותשברו ביצה לכל חור.", "en": "Now make four holes in the sauce, and crack an egg into each hole." },
+      { "s": "A", "he": "עכשיו תעשו ארבעה חורים ברוטב, ותשברו ביצה לתוך כל חור.", "en": "Now make four holes in the sauce, and crack an egg into each hole." },
       { "s": "C", "he": "לערבב גם את הביצים?", "en": "Should we stir the eggs too?" },
       { "s": "A", "he": "לא, לא! אל תערבבו אותן. רק תכסו את המחבת ותחכו.", "en": "No, no! Don't stir them. Just cover the pan and wait." },
       { "s": "C", "he": "כמה זמן לחכות?", "en": "How long should we wait?" },
@@ -301,7 +301,7 @@
         "qEn": "Why does Orly tell Jonathan to be careful?",
         "answer": "כי הוא חותך מהר מדי.",
         "answerEn": "Because he's cutting too fast.",
-        "keywords": [["מהר"], ["חותך", "לחתוך", "חותכים", "תחתוך"]]
+        "keywords": [["מהר"], ["חותך", "לחתוך", "חותכים", "תחתוך", "חתך"]]
       },
       {
         "q": "כמה שום ג׳ונתן יכול לשים?",
@@ -313,7 +313,7 @@
       {
         "q": "מה צריך לעשות עם הביצים, ומה אסור לעשות?",
         "qEn": "What do you need to do with the eggs, and what mustn't you do?",
-        "answer": "לשבור ביצה לכל חור, ולא לערבב אותן.",
+        "answer": "לשבור ביצה לתוך כל חור, ולא לערבב אותן.",
         "answerEn": "Crack an egg into each hole, and not stir them.",
         "keywords": [["לשבור", "תשברו", "שוברים", "חור", "חורים"], ["לערבב", "תערבבו", "מערבבים"]]
       }
@@ -327,9 +327,9 @@
       },
       {
         "s": "צריך לשים חמש כפות שמן.",
-        "sEn": "You need to put in five spoonfuls of oil.",
+        "sEn": "You need to put in five tablespoons of oil.",
         "a": false,
-        "why": "Orly says שתי כפות, זה מספיק: two spoonfuls. Five minutes is how long to wait before adding the tomatoes."
+        "why": "Orly says שתי כפות, זה מספיק: two tablespoons. Five minutes is how long to wait before adding the tomatoes."
       },
       {
         "s": "אורלי אומרת לערבב את הביצים.",
@@ -349,17 +349,17 @@
       {
         "he": "קחו / תיקחו",
         "en": "take (to a group)",
-        "note": "Two ways to give an instruction: the imperative קחו, שימו, and the future תיקחו, תשימו. In everyday speech the future is more common and sounds softer; the imperative is typical of recipes and short commands."
+        "note": "Two ways to give an instruction: the imperative קחו, שימו, and the future תיקחו, תשימו, תוסיפו. In everyday speech the future form is very common and sounds softer; the imperative sounds more direct, though short ones like קח, שים, בוא are heard all the time. Orly mixes both."
       },
       {
         "he": "אל תחתוך כל כך מהר!",
         "en": "Don't cut so fast!",
-        "note": "A negative command is always אל + future, never the imperative: אל תחתוך to a man, אל תחתכי to a woman, אל תחתכו to a group. With לא, the future is just a statement: לא תחתוך = you won't cut."
+        "note": "A negative command is always אל + future, never the imperative: אל תחתוך to a man, אל תחתכי to a woman, אל תחתכו to a group. With לא, the future is usually just a statement: לא תחתוך = you won't cut."
       },
       {
         "he": "תיזהר!",
         "en": "Be careful!",
-        "note": "To a woman: תיזהרי; to a group: תיזהרו. Add עם for the danger: תיזהר עם הסכין."
+        "note": "To a woman: תיזהרי; to a group: תיזהרו. Use עם for something you are handling, תיזהר עם הסכין, and מ for something to keep away from, תיזהרי מהכלב."
       },
       {
         "he": "אל תשכחו לערבב",

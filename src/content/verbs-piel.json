@@ -1047,7 +1047,7 @@
     "root": "ת.ר.ג.ם",
     "binyan": "piel",
     "gizra": "4-letter root (מרובעים)",
-    "gov": "מ / ל",
+    "gov": "את / מ / ל",
     "level": "B1",
     "present": {
       "ms": ["מתרגם", "metargém"],
@@ -1385,7 +1385,7 @@
       "1s": ["בירכתי", "berákhti"],
       "2ms": ["בירכת", "berákhta"],
       "2fs": ["בירכת", "berákht"],
-      "3ms": ["בירך", "berákh"],
+      "3ms": ["בירך", "berékh"],
       "3fs": ["בירכה", "berkhá"],
       "1p": ["בירכנו", "berákhnu"],
       "2mp": ["בירכתם", "berakhtém"],
@@ -1428,7 +1428,7 @@
         "form": "תברכי"
       }
     ],
-    "note": "The ר can't be doubled, so the first vowel is e: בירך (berákh), בירכה (berkhá), even though ktiv male writes י. לברך את + person על + occasion: בירכו אותי על הקידום; לברך על = to say a blessing over (על היין, על האוכל). ברכה = blessing, greeting; 'בברכה' = 'regards' at the end of an email."
+    "note": "The ר can't be doubled, so the first vowel is e: בירך (berékh), בירכתי (berákhti), בירכה (berkhá), even though ktiv male writes י. לברך את + person על + occasion: בירכו אותי על הקידום; לברך על = to say a blessing over (על היין, על האוכל). ברכה = blessing, greeting; 'בברכה' = 'regards' at the end of an email."
   },
   {
     "id": "verb_letaer",

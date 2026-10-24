@@ -42,7 +42,8 @@
       "mp": ["הגידו", "hagídu"]
     },
     "rare": [
-      "past"
+      "past",
+      "imp"
     ],
     "ex": {
       "he": "אתה יכול להגיד לי איפה התחנה?",
@@ -65,7 +66,7 @@
         "form": "תגידי"
       }
     ],
-    "note": "The past (הגדתי, הגיד) exists on paper, but in speech people use the past of לומר instead: אמרתי לך (I told you), not הגדתי לך — so the past is shown here but never drilled. The infinitive, present and future are everyday: רציתי להגיד, אני מגיד לך (I'm telling you), מה אתה מגיד! (you don't say!). The future doubles as the imperative: תגיד לי / תגידי לי; הגד is literary. The person told takes ל: תגידי לו. The root's נ disappears (נ.ג.ד)."
+    "note": "The past (הגדתי, הגיד) exists on paper, but in speech people use the past of לומר instead: אמרתי לך (I told you), not הגדתי לך — so the past is shown here but never drilled. The infinitive, present and future are everyday: רציתי להגיד, אני מגיד לך (I'm telling you), מה אתה מגיד! (you don't say!). The future doubles as the imperative: תגיד לי / תגידי לי; the real imperative (הגד, הגידי, הגידו) is literary, so it isn't drilled either. The person told takes ל: תגידי לו. The root's נ disappears (נ.ג.ד)."
   },
   {
     "id": "verb_lehargish",

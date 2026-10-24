@@ -52,8 +52,8 @@
       },
       {
         "s": "C",
-        "he": "עם כל הכבוד, ראמי, ראיתי מספיק מצגות בחיי כדי לדעת שהנייר סובל הכול. שוק עצום על הנייר עוד לא אומר לקוחות משלמים.",
-        "en": "With all due respect, Rami, I've seen enough presentations in my life to know that paper will put up with anything. A huge market on paper doesn't yet mean paying customers."
+        "he": "עם כל הכבוד, ראמי, ראיתי מספיק מצגות בחיי כדי לדעת שהנייר סובל הכול. שוק עצום על הנייר זה עוד לא לקוחות משלמים.",
+        "en": "With all due respect, Rami, I've seen enough presentations in my life to know that paper will put up with anything. A huge market on paper isn't paying customers yet."
       },
       {
         "s": "C",
@@ -67,8 +67,8 @@
       },
       {
         "s": "B",
-        "he": "זו נקודה במקומה, ואין לי שום כוונה להתכחש לה. אבל דווקא משום שלמדנו את הלקח, התוכנית הפעם שונה מן היסוד.",
-        "en": "That's a fair point, and I have no intention of denying it. But precisely because we learned the lesson, this time the plan is fundamentally different."
+        "he": "זו הערה במקומה, ואין לי שום כוונה לייפות את מה שקרה שם. אבל דווקא משום שלמדנו את הלקח, התוכנית הפעם שונה מן היסוד.",
+        "en": "That's a fair point, and I have no intention of glossing over what happened there. But precisely because we learned the lesson, this time the plan is fundamentally different."
       },
       {
         "s": "B",
@@ -189,6 +189,7 @@
           ],
           [
             "שמונה עשר",
+            "שמונה־עשר",
             "18"
           ]
         ]
@@ -241,12 +242,16 @@
           ],
           [
             "שישה",
+            "שש",
             "6"
           ],
           [
             "לעצור",
             "ימליץ",
-            "יעצרו"
+            "יעצרו",
+            "להפסיק",
+            "יפסיקו",
+            "עצירה"
           ]
         ]
       },
@@ -258,11 +263,14 @@
         "keywords": [
           [
             "חוות",
+            "חווה",
             "חוזה",
+            "חוזים",
             "יחתמו"
           ],
           [
             "שימשיכו",
+            "ימשיכו",
             "ממשיכים",
             "להמשיך",
             "עונה"
@@ -328,9 +336,9 @@
         "note": "Formal. יורשה is the huf'al future of הרשה (to permit): literally 'if it will be permitted to me'. A polite way to take the floor."
       },
       {
-        "he": "זו נקודה במקומה / אני אלך לקראתך",
+        "he": "זו הערה במקומה / אני אלך לקראתך",
         "en": "that's a fair point / I'll meet you halfway",
-        "note": "Two moves of concession: acknowledge the objection first, then offer a compromise. ללכת לקראת מישהו = to meet someone halfway."
+        "note": "Two moves of concession: acknowledge the objection first, then offer a compromise. הערה במקומה = a remark that is to the point, a fair point. ללכת לקראת מישהו = to meet someone halfway."
       }
     ]
   },
@@ -358,8 +366,8 @@
     "lines": [
       {
         "s": "A",
-        "he": "אנו דנים כעת בתביעה קטנה של מר יוסף טקלה נגד גברת ויקטוריה רבינוביץ׳. מר טקלה, אבקש שתציג את טענותיך בקצרה ולעניין.",
-        "en": "We are now hearing the small claim of Mr. Yosef Tekle against Mrs. Victoria Rabinovich. Mr. Tekle, I'll ask you to present your claims briefly and to the point."
+        "he": "אנו דנים כעת בתביעתו של מר יוסף טקלה נגד גברת ויקטוריה רבינוביץ׳. מר טקלה, אבקש שתציג את טענותיך בקצרה ולעניין.",
+        "en": "We are now hearing the claim of Mr. Yosef Tekle against Mrs. Victoria Rabinovich. Mr. Tekle, I'll ask you to present your claims briefly and to the point."
       },
       {
         "s": "B",
@@ -403,13 +411,13 @@
       },
       {
         "s": "B",
-        "he": "האמת? עיגלתי למעלה. בסדר, אני מוריד את המאה, שלא יגידו שאני קטנוני.",
-        "en": "Honestly? I rounded up. Fine, I'll drop the hundred, so nobody can say I'm petty."
+        "he": "האמת? עיגלתי למעלה. בסדר, אני מוריד את המאה, שלא יגידו שבאתי להרוויח על הגב שלה.",
+        "en": "Honestly? I rounded up. Fine, I'll drop the hundred, so nobody can say I came here to make money at her expense."
       },
       {
         "s": "A",
-        "he": "יירשם בפרוטוקול שהתובע מעמיד את רכיב הדוד על אלף תשע מאות שקל.",
-        "en": "Let the record show that the plaintiff sets the water-heater part of the claim at one thousand nine hundred shekels."
+        "he": "יירשם בפרוטוקול שהתובע מעמיד את רכיב התביעה בגין הדוד על אלף תשע מאות שקל.",
+        "en": "Let the record show that the plaintiff sets the part of the claim relating to the water heater at one thousand nine hundred shekels."
       },
       {
         "s": "A",
@@ -433,13 +441,13 @@
       },
       {
         "s": "C",
-        "he": "פרוטוקול? מה פתאום. סמכתי עליו, הוא נראה בחור הגון. הכול היה על בסיס אמון.",
-        "en": "A report? Of course not. I trusted him, he seemed like a decent young man. Everything was based on trust."
+        "he": "פרוטוקול? מה פתאום. סמכתי עליו, הוא נראה לי בחור הגון. הכול היה על בסיס אמון.",
+        "en": "A report? Of course not. I trusted him, he seemed like a decent young man to me. Everything was based on trust."
       },
       {
         "s": "B",
-        "he": "ואני דווקא צילמתי הכול ביום שנכנסתי. רואים בתמונות שהכתמים בסלון היו שם עוד לפני.",
-        "en": "And I, as it happens, photographed everything the day I moved in. You can see in the photos that the stains in the living room were already there before."
+        "he": "ואני דווקא צילמתי הכול ביום שנכנסתי. רואים בתמונות שהכתמים בסלון היו שם כבר אז.",
+        "en": "And I, as it happens, photographed everything the day I moved in. You can see in the photos that the stains in the living room were already there then."
       },
       {
         "s": "C",
@@ -453,8 +461,8 @@
       },
       {
         "s": "A",
-        "he": "אני מעריכה את הכנות, מר טקלה. גברת רבינוביץ׳, ומה באשר לדוד? מדוע לא ענית להודעות?",
-        "en": "I appreciate your candor, Mr. Tekle. Mrs. Rabinovich, and what about the water heater? Why didn't you answer the messages?"
+        "he": "אני מעריכה את הכנות, מר טקלה. ועכשיו אלייך, גברת רבינוביץ׳. מה באשר לדוד? מדוע לא ענית להודעות?",
+        "en": "I appreciate your candor, Mr. Tekle. Now to you, Mrs. Rabinovich. What about the water heater? Why didn't you answer the messages?"
       },
       {
         "s": "C",
@@ -478,13 +486,13 @@
       },
       {
         "s": "A",
-        "he": "בנוסף, היא תשלם לו אלף תשע מאות שקל עבור תיקון הדוד, בתוך שלושים יום. האם הצדדים מסכימים?",
-        "en": "In addition, she will pay him one thousand nine hundred shekels for the repair of the water heater, within thirty days. Do the parties agree?"
+        "he": "בנוסף, הנתבעת תשלם לתובע אלף תשע מאות שקל עבור תיקון הדוד, בתוך שלושים יום. האם הצדדים מסכימים?",
+        "en": "In addition, the defendant will pay the plaintiff one thousand nine hundred shekels for the repair of the water heater, within thirty days. Do the parties agree?"
       },
       {
         "s": "B",
-        "he": "מבחינתי, כן. אני לא בא לריב, אני רק רוצה לסגור את הסיפור.",
-        "en": "As far as I'm concerned, yes. I'm not here to fight, I just want to put this behind me."
+        "he": "מבחינתי, כן. לא באתי לריב, אני רק רוצה לסגור את הסיפור.",
+        "en": "As far as I'm concerned, yes. I didn't come here to fight, I just want to put this behind me."
       },
       {
         "s": "C",
@@ -523,13 +531,18 @@
         "keywords": [
           [
             "צילומי מסך",
+            "צילום מסך",
             "הודעות",
-            "וואטסאפ"
+            "הודעה",
+            "וואטסאפ",
+            "ווטסאפ",
+            "ווצאפ"
           ],
           [
             "ראתה",
             "וי כחול",
-            "לא ענתה"
+            "לא ענתה",
+            "התעלמה"
           ]
         ]
       },
@@ -547,8 +560,10 @@
           [
             "עיגל",
             "עיגלתי",
+            "עיגול",
             "מוריד",
-            "הוריד"
+            "הוריד",
+            "ויתר"
           ]
         ]
       },
@@ -613,7 +628,7 @@
     ],
     "dictation": [
       3,
-      11,
+      14,
       17
     ],
     "expressions": [
@@ -679,7 +694,7 @@
       },
       {
         "s": "A",
-        "he": "הוא היה עבה וכבד, כריכתו התפוררה בין האצבעות, ודפיו נפרדו זה מזה כמו עלים בסתיו.",
+        "he": "הוא היה עבה וכבד, כריכתו התפוררה בין אצבעותיי, ודפיו נפרדו זה מזה כמו עלים בסתיו.",
         "en": "It was thick and heavy, its binding crumbled between my fingers, and its pages came away from one another like leaves in autumn."
       },
       {
@@ -729,8 +744,8 @@
       },
       {
         "s": "A",
-        "he": "ליד מילים מסוימות כתב משפט משלו, ליד אחרות צייר ציור קטן, ולעיתים הסתפק בסימן שאלה, כאילו התווכח עם המילה ולא השתכנע.",
-        "en": "Next to some words he had written a sentence of his own, next to others he had drawn a little picture, and at times he had settled for a question mark, as if he had argued with the word and not been convinced."
+        "he": "ליד מילים מסוימות כתב משפט משלו, ליד אחרות שרבט ציור קטן, ולעיתים הסתפק בסימן שאלה, כאילו התווכח עם המילה ולא השתכנע.",
+        "en": "Next to some words he had written a sentence of his own, next to others he had sketched a little drawing, and at times he had settled for a question mark, as if he had argued with the word and not been convinced."
       },
       {
         "s": "B",
@@ -784,8 +799,8 @@
       },
       {
         "s": "A",
-        "he": "חזרתי לקחת את המילון כעבור שלושה שבועות. הוא שכב בקופסה כחולה, עדיין שבור, ועדיין נפתח מעצמו באותו עמוד.",
-        "en": "I went back for the dictionary three weeks later. It lay in a blue case, still broken, and still falling open by itself at the same page."
+        "he": "חזרתי לקחת את המילון כעבור שלושה שבועות. הוא שכב בקופסה כחולה, בלוי כתמיד, וכשהוצאתי אותו, נפתח שוב מעצמו באותו עמוד.",
+        "en": "I went back for the dictionary three weeks later. It lay in a blue case, as worn as ever, and when I took it out, it fell open by itself at the same page again."
       },
       {
         "s": "A",
@@ -845,8 +860,10 @@
           [
             "ילכו",
             "ייעלמו",
+            "ייחתכו",
             "אחתוך",
-            "יחתוך"
+            "יחתוך",
+            "לחתוך"
           ]
         ]
       },
@@ -859,10 +876,12 @@
           [
             "תפרים",
             "לחזק",
-            "אחזק"
+            "אחזק",
+            "יחזק"
           ],
           [
-            "קופסה"
+            "קופסה",
+            "קופסא"
           ]
         ]
       },
@@ -905,7 +924,7 @@
         "s": "כשהמספרת חוזרת לחנות, המילון עדיין נפתח מעצמו באותו עמוד.",
         "sEn": "When the narrator returns to the shop, the dictionary still falls open by itself at the same page.",
         "a": true,
-        "why": "Three weeks later it lies in a blue case, עדיין שבור, ועדיין נפתח מעצמו באותו עמוד: still broken, still opening at the same page."
+        "why": "Three weeks later it lies in a blue case, בלוי כתמיד, 'as worn as ever', and when she takes it out it נפתח שוב מעצמו באותו עמוד: it falls open by itself at the same page again."
       }
     ],
     "dictation": [

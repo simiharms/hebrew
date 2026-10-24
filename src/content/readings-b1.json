@@ -132,7 +132,7 @@
         "q": "מה היה קשה למיכל בהתחלה?",
         "qEn": "What was hard for Michal at first?",
         "answer": "היה לה קשה לסמוך על עובדים שהיא לא רואה.",
-        "answerEn": "It was hard for her to trust employees she can't see.",
+        "answerEn": "It was hard for her to trust employees she couldn't see.",
         "keywords": [
           [
             "לסמוך",
@@ -260,7 +260,8 @@
         "prompt": "עומר מעדיף להגיע למשרד, כי בבית הוא ___ כל היום.",
         "en": "Omer prefers to come in to the office, because at home he is alone all day.",
         "answer": [
-          "לבד"
+          "לבד",
+          "בודד"
         ],
         "hint": "alone"
       },
@@ -285,7 +286,7 @@
     "writing": {
       "prompt": "מה עדיף לדעתכם: לעבוד מהבית או מהמשרד? כתבו את דעתכם והסבירו למה.",
       "promptEn": "What do you think is better: working from home or from the office? Write your opinion and explain why.",
-      "minWords": 40,
+      "minWords": 60,
       "useWords": [
         "לדעתי",
         "בגלל ש",
@@ -316,8 +317,8 @@
           ]
         }
       ],
-      "model": "לדעתי הכי טוב לעבוד במודל היברידי. בשנה שעברה עבדתי רק מהבית, ובהתחלה זה היה נוח מאוד, בגלל שלא היה צריך לנסוע כל בוקר. לעומת זאת, אחרי כמה חודשים היה לי קשה להיות לבד כל היום. בנוסף, במשרד קל יותר לשאול שאלות ולפתור בעיות יחד. לכן נראה לי שיומיים או שלושה במשרד בכל שבוע זה האיזון הכי טוב.",
-      "modelEn": "In my opinion it's best to work in a hybrid model. Last year I worked only from home, and at first it was very convenient, because there was no need to commute every morning. On the other hand, after a few months it was hard for me to be alone all day. Besides, at the office it's easier to ask questions and solve problems together. So it seems to me that two or three days at the office every week is the best balance."
+      "model": "לדעתי הכי טוב לעבוד במודל היברידי. בשנה שעברה עבדתי רק מהבית, ובהתחלה זה היה נוח מאוד, בגלל שלא היה צריך לנסוע כל בוקר. אבל אחרי כמה חודשים היה לי קשה להיות לבד כל היום. לעומת זאת, במשרד תמיד יש עם מי לדבר, וקל יותר לשאול שאלות ולפתור בעיות יחד. למרות שהנסיעה לוקחת זמן, הפגישות עם הצוות שוות את זה. לכן נראה לי שיומיים או שלושה במשרד בכל שבוע זה האיזון הכי טוב.",
+      "modelEn": "In my opinion it's best to work in a hybrid model. Last year I worked only from home, and at first it was very convenient, because there was no need to commute every morning. But after a few months it was hard for me to be alone all day. At the office, on the other hand, there's always someone to talk to, and it's easier to ask questions and solve problems together. Even though the commute takes time, meeting the team is worth it. So it seems to me that two or three days at the office every week is the best balance."
     }
   },
   {
@@ -341,7 +342,7 @@
         "en": "But for many Israelis, dugri isn't rudeness. Ronit, the HR manager at the same company, explains: \"For us, criticism isn't personal. If I tell an employee that his idea isn't good, it's because I want us to save time and find a better solution together.\""
       },
       {
-        "he": "למרות שבהתחלה היה לו קשה, היום, אחרי שנתיים בארץ, מרקו כבר רגיל לסגנון הזה, ולפעמים הוא אפילו נהנה ממנו. \"אני תמיד יודע איפה אני עומד\", הוא אומר. לעומת זאת, עובדים חדשים שמגיעים מתרבויות שבהן נהוג לבקר בעדינות נפגעים לפעמים מהמשפטים הקצרים והישירים.",
+        "he": "למרות שבהתחלה היה לו קשה, היום, אחרי שנתיים בארץ, מרקו כבר רגיל לסגנון הזה, ולפעמים הוא אפילו נהנה ממנו. \"אני תמיד יודע איפה אני עומד\", הוא אומר. לעומת זאת, עובדים חדשים שמגיעים מתרבויות שבהן נהוג לבקר בעדינות, נפגעים לפעמים מהמשפטים הקצרים והישירים.",
         "en": "Although it was hard for him at first, today, after two years in the country, Marco is used to this style, and sometimes he even enjoys it. \"I always know where I stand,\" he says. On the other hand, new employees who come from cultures where it's customary to criticize gently are sometimes hurt by the short, direct sentences."
       },
       {
@@ -520,8 +521,8 @@
         "why": "Ronit says criticism is not personal: she wants to save time and find a better solution together."
       },
       {
-        "s": "גם היום, אחרי שנתיים בארץ, קשה למרקו להתרגל לסגנון הדוגרי.",
-        "sEn": "Even today, after two years in Israel, Marco finds it hard to get used to the dugri style.",
+        "s": "גם היום, אחרי שנתיים בארץ, מרקו עדיין לא התרגל לסגנון הדוגרי.",
+        "sEn": "Even today, after two years in Israel, Marco still hasn't got used to the dugri style.",
         "a": false,
         "why": "It was hard only at first. Today he is used to the style and sometimes even enjoys it."
       },
@@ -571,7 +572,8 @@
         "prompt": "בשבוע הראשון שלו מרקו היה ___, כי המנהל אמר מול כולם שהרעיון שלו לא יעבוד.",
         "en": "In his first week Marco was in shock, because the manager said in front of everyone that his idea would not work.",
         "answer": [
-          "בהלם"
+          "בהלם",
+          "המום"
         ],
         "hint": "in shock"
       },
@@ -587,7 +589,8 @@
         "prompt": "היום מרקו כבר ___ לסגנון הזה, ולפעמים הוא אפילו נהנה ממנו.",
         "en": "Today Marco is already used to this style, and sometimes he even enjoys it.",
         "answer": [
-          "רגיל"
+          "רגיל",
+          "התרגל"
         ],
         "hint": "used to (adjective, he)"
       },
@@ -603,7 +606,7 @@
     "writing": {
       "prompt": "האם הסגנון הדוגרי מתאים למקום עבודה? כתבו את דעתכם ותנו דוגמה מהניסיון או מהתרבות שלכם.",
       "promptEn": "Does the dugri style suit a workplace? Write your opinion and give an example from your own experience or culture.",
-      "minWords": 40,
+      "minWords": 60,
       "useWords": [
         "לדעתי",
         "ביקורת",
@@ -635,8 +638,8 @@
           ]
         }
       ],
-      "model": "לדעתי דוגרי הוא סגנון טוב לעבודה, אבל רק כשמדברים בכבוד. בתרבות שלי נהוג לבקר בעדינות, ולכן בהתחלה היה לי קשה לשמוע ביקורת ישירה. למשל, בחודש הראשון בעבודה החדשה קיבלתי מהמנהלת הערה חדה ונפגעתי. לעומת זאת, היום ברור לי שביקורת ישירה חוסכת הרבה זמן. חשוב רק להוסיף גם מילה טובה.",
-      "modelEn": "In my opinion dugri is a good style for work, but only when people speak respectfully. In my culture it's customary to criticize gently, so at first it was hard for me to hear direct criticism. For example, in my first month at my new job I got a sharp comment from my manager and I was hurt. On the other hand, today it's clear to me that direct criticism saves a lot of time. It's just important to add a kind word too."
+      "model": "לדעתי דוגרי הוא סגנון טוב לעבודה, אבל רק כשמדברים בכבוד. בתרבות שלי נהוג לבקר בעדינות. לעומת זאת, בישראל אומרים הכול ישר, ולכן בהתחלה היה לי קשה לשמוע ביקורת ישירה. למשל, בחודש הראשון בעבודה החדשה קיבלתי מהמנהלת הערה חדה על מצגת שהכנתי, ונפגעתי. רק אחרי שיחה איתה הבנתי שהיא בכלל לא כעסה עליי, היא רק רצתה שהמצגת תהיה טובה יותר. היום ברור לי שביקורת ישירה חוסכת הרבה זמן. חשוב רק להוסיף גם מילה טובה.",
+      "modelEn": "In my opinion dugri is a good style for work, but only when people speak respectfully. In my culture it's customary to criticize gently. In Israel, on the other hand, people say everything straight out, so at first it was hard for me to hear direct criticism. For example, in my first month at my new job I got a sharp comment from my manager about a presentation I had prepared, and I was hurt. Only after talking with her did I realise that she wasn't angry with me at all; she just wanted the presentation to be better. Today it's clear to me that direct criticism saves a lot of time. It's just important to add a kind word too."
     }
   },
   {
@@ -832,8 +835,8 @@
         "why": "Usually the contract is for one year, sometimes with an option to extend it for another year."
       },
       {
-        "s": "ערבים הם אנשים שמתחייבים לשלם אם השוכר לא ישלם.",
-        "sEn": "Guarantors are people who commit to paying if the tenant does not pay.",
+        "s": "ערבים בחוזה שכירות הם אנשים שמתחייבים לשלם אם השוכר לא ישלם.",
+        "sEn": "Guarantors in a rental contract are people who commit to paying if the tenant does not pay.",
         "a": true,
         "why": "The article defines guarantors as people who sign the contract and commit to paying if the tenant does not."
       },
@@ -889,7 +892,9 @@
         "prompt": "חשוב לבדוק מי ___ על תיקונים, למשל אם המזגן או הדוד מתקלקלים.",
         "en": "It is important to check who is responsible for repairs, for example if the air conditioner or the water heater breaks down.",
         "answer": [
-          "אחראי"
+          "אחראי",
+          "משלם",
+          "ישלם"
         ],
         "hint": "responsible"
       },
@@ -898,7 +903,8 @@
         "en": "Many landlords ask for guarantees, in case the tenant does not pay or damages the apartment.",
         "answer": [
           "ערבויות",
-          "ביטחונות"
+          "ביטחונות",
+          "ערבות"
         ],
         "hint": "guarantees, security"
       },
@@ -922,7 +928,7 @@
     "writing": {
       "prompt": "לדעתכם, מה הדבר הכי חשוב לבדוק לפני שחותמים על חוזה שכירות? כתבו את דעתכם והסבירו למה. אפשר גם לספר על ניסיון אישי.",
       "promptEn": "In your opinion, what is the most important thing to check before signing a rental contract? Write your opinion and explain why. You can also describe a personal experience.",
-      "minWords": 40,
+      "minWords": 60,
       "useWords": [
         "חוזה",
         "בעל הדירה",
@@ -952,8 +958,8 @@
           ]
         }
       ],
-      "model": "לדעתי הדבר הכי חשוב הוא לבדוק מי אחראי על תיקונים. לפני שנתיים שכרנו דירה בירושלים, ואחרי חודש הדוד התקלקל. בעל הדירה אמר שהתיקון עלינו, בגלל שבחוזה לא היה כתוב שום דבר על זה. לכן חשוב לקרוא את החוזה בעיון ולשאול שאלות לפני שחותמים. בנוסף, כדאי לצלם את הדירה ביום הכניסה.",
-      "modelEn": "In my opinion the most important thing is to check who is responsible for repairs. Two years ago we rented an apartment in Jerusalem, and after a month the water heater broke. The landlord said the repair was on us, because nothing about it was written in the contract. That's why it's important to read the contract carefully and ask questions before signing. Also, it's worth photographing the apartment on move-in day."
+      "model": "לדעתי הדבר הכי חשוב הוא לבדוק מי אחראי על תיקונים. לפני שנתיים שכרנו דירה בירושלים, ואחרי חודש הדוד התקלקל. בעל הדירה אמר שהתיקון עלינו, בגלל שבחוזה לא היה כתוב שום דבר על זה. התיקון עלה לנו כמה מאות שקלים, ובמשך שבוע לא היו לנו מים חמים. לכן חשוב לקרוא את החוזה בעיון ולשאול שאלות לפני שחותמים. בנוסף, כדאי לצלם את הדירה ביום הכניסה, כדי שלא יהיו ויכוחים בסוף.",
+      "modelEn": "In my opinion the most important thing is to check who is responsible for repairs. Two years ago we rented an apartment in Jerusalem, and after a month the water heater broke. The landlord said the repair was on us, because nothing about it was written in the contract. The repair cost us a few hundred shekels, and for a week we had no hot water. That's why it's important to read the contract carefully and ask questions before signing. Also, it's worth photographing the apartment on move-in day, so that there are no arguments at the end."
     }
   },
   {
@@ -1151,10 +1157,10 @@
         "why": "When she arrived, she could only say \"shalom\" and \"toda\"."
       },
       {
-        "s": "בארגנטינה דניאלה עבדה בשיווק.",
-        "sEn": "In Argentina Daniela worked in marketing.",
+        "s": "דניאלה בחרה במכירות גם בגלל שהיא תמיד אהבה לדבר עם אנשים.",
+        "sEn": "Daniela chose sales partly because she has always loved talking to people.",
         "a": true,
-        "why": "She says that in Argentina she worked in marketing and always loved talking to people."
+        "why": "Asked why she chose sales, she says she worked in marketing in Argentina and always loved talking to people."
       },
       {
         "s": "בחודשים הראשונים דניאלה השתמשה בדף עם משפטים מוכנים לשיחות בטלפון.",
@@ -1240,7 +1246,7 @@
     "writing": {
       "prompt": "דניאלה אומרת שהכי חשוב לא לפחד לטעות. האם אתם מסכימים? כתבו את דעתכם וספרו על פעם שטעיתם בעברית או בשפה אחרת.",
       "promptEn": "Daniela says the most important thing is not to be afraid of making mistakes. Do you agree? Write your opinion and tell about a time you made a mistake in Hebrew or another language.",
-      "minWords": 40,
+      "minWords": 60,
       "useWords": [
         "לדעתי",
         "בטעות",
@@ -1272,8 +1278,8 @@
           ]
         }
       ],
-      "model": "לדעתי דניאלה צודקת. בשנה הראשונה בארץ פחדתי לדבר, ולכן כמעט לא התקדמתי. פעם במאפייה ביקשתי בטעות \"כלה\" במקום \"חלה\". המוכר צחק, אבל הוא גם תיקן אותי בסבלנות. למרות שזה היה מביך, הבנתי שטעויות הן חלק מהלמידה. מאז הפסקתי לפחד מטעויות, וכל טעות היא בשבילי עוד שיעור קטן.",
-      "modelEn": "In my opinion Daniela is right. In my first year in Israel I was afraid to speak, so I hardly made any progress. Once at a bakery I accidentally asked for a \"kalá\" (bride) instead of a \"khalá\" (challah). The baker laughed, but he also corrected me patiently. Although it was embarrassing, I realised that mistakes are part of learning. Since then I've stopped being afraid of mistakes, and every mistake is one more small lesson for me."
+      "model": "לדעתי דניאלה צודקת. בשנה הראשונה בארץ פחדתי לדבר, ולכן כמעט לא התקדמתי. פעם במאפייה ביקשתי בטעות \"כלה\" במקום \"חלה\". המוכר צחק, אבל הוא גם תיקן אותי בסבלנות. למרות שזה היה מביך, הבנתי שטעויות הן חלק מהלמידה. מאז הפסקתי לפחד מטעויות, ודיברתי עברית עם כל מי שיכולתי: עם שכנים, עם נהגי מוניות ועם מוכרים בשוק. כל טעות הייתה בשבילי עוד שיעור קטן. היום טעויות כבר לא מפחידות אותי.",
+      "modelEn": "In my opinion Daniela is right. In my first year in Israel I was afraid to speak, so I hardly made any progress. Once at a bakery I accidentally asked for a \"kalá\" (bride) instead of a \"khalá\" (challah). The man behind the counter laughed, but he also corrected me patiently. Although it was embarrassing, I realised that mistakes are part of learning. From then on I stopped being afraid of mistakes, and I spoke Hebrew with everyone I could: with neighbours, taxi drivers and market vendors. Every mistake was one more small lesson for me. Today mistakes don't scare me anymore."
     }
   },
   {
@@ -1319,6 +1325,11 @@
         "he": "קורקינט",
         "en": "scooter (kick or electric)",
         "tr": "korkinét"
+      },
+      {
+        "he": "כלי",
+        "en": "vehicle (here: a bike or scooter; plural כלים); also: tool, dish",
+        "tr": "kli"
       },
       {
         "he": "תושב",
@@ -1561,7 +1572,9 @@
         "en": "Yael is excited about the project, but Moshe is worried, because he is afraid someone will get hurt.",
         "answer": [
           "מתלהבת",
-          "שמחה"
+          "שמחה",
+          "נלהבת",
+          "מרוצה"
         ],
         "hint": "is excited (present, she)"
       },
@@ -1569,7 +1582,8 @@
         "prompt": "הפרויקט הוא ___ של חצי שנה: אם הוא יצליח, יהיו תחנות גם בשכונות החדשות.",
         "en": "The project is a six-month pilot: if it succeeds, there will be stations in the new neighbourhoods too.",
         "answer": [
-          "ניסוי"
+          "ניסוי",
+          "פיילוט"
         ],
         "hint": "pilot, trial"
       }
@@ -1577,7 +1591,7 @@
     "writing": {
       "prompt": "האם הייתם רוצים אופניים וקורקינטים שיתופיים בעיר שלכם? כתבו תגובה לכתבה: מה היתרונות ומה החסרונות?",
       "promptEn": "Would you like shared bikes and scooters in your city? Write a response to the article: what are the advantages and the disadvantages?",
-      "minWords": 40,
+      "minWords": 60,
       "useWords": [
         "לדעתי",
         "יתרון",
@@ -1609,8 +1623,8 @@
           ]
         }
       ],
-      "model": "לדעתי זה רעיון מצוין. בעיר שלנו יש הרבה פקקים, ונסיעה קצרה לוקחת לפעמים חצי שעה. היתרון הגדול של אופניים חשמליים הוא שהם מהירים, זולים ולא מזהמים את האוויר. לעומת זאת, יש גם חיסרון: הרבה אנשים נוסעים על המדרכה, וזה מסוכן להולכי רגל. לכן חשוב שהעירייה תבנה עוד שבילי אופניים.",
-      "modelEn": "In my opinion it's an excellent idea. In our city there are lots of traffic jams, and a short ride sometimes takes half an hour. The big advantage of electric bikes is that they're fast, cheap and don't pollute the air. On the other hand, there's also a disadvantage: many people ride on the sidewalk, and that's dangerous for pedestrians. That's why it's important for the municipality to build more bike paths."
+      "model": "לדעתי זה רעיון מצוין. בעיר שלנו יש הרבה פקקים, ונסיעה קצרה לוקחת לפעמים חצי שעה. היתרון הגדול של אופניים חשמליים הוא שהם מהירים, זולים ולא מזהמים את האוויר. בנוסף, לא צריך לחפש חניה, וזה חוסך הרבה זמן. לעומת זאת, יש גם חיסרון: הרבה אנשים נוסעים על המדרכה, וזה מסוכן להולכי רגל. לכן חשוב שהעירייה תבנה עוד שבילי אופניים, ושפקחים יבדקו שכולם שומרים על הכללים.",
+      "modelEn": "In my opinion it's an excellent idea. In our city there are lots of traffic jams, and a short ride sometimes takes half an hour. The big advantage of electric bikes is that they're fast, cheap and don't pollute the air. Also, you don't need to look for parking, which saves a lot of time. On the other hand, there's also a disadvantage: many people ride on the sidewalk, and that's dangerous for pedestrians. That's why it's important for the municipality to build more bike paths, and for inspectors to check that everyone keeps to the rules."
     }
   },
   {
@@ -1635,7 +1649,7 @@
       },
       {
         "he": "ועכשיו לעבודה. הרבה פרילנסרים וסטודנטים עובדים מבתי קפה, בגלל שבבית משעמם להם או בגלל שהם צריכים קצת רעש מסביב. בהרבה בתי קפה יש אינטרנט אלחוטי בחינם, ובנוסף יש לפעמים שקע ליד כל שולחן. יש רק כלל אחד לא כתוב: אם אתם יושבים שלוש שעות, תזמינו יותר מקפה אחד.",
-        "en": "And now to work. Lots of freelancers and students work from cafés, because they get bored at home or because they need a bit of noise around them. Many cafés have free Wi-Fi, and sometimes there's even a socket next to every table. There's just one unwritten rule: if you sit for three hours, order more than one coffee."
+        "en": "And now to work. Lots of freelancers and students work from cafés, because they get bored at home or because they need a bit of noise around them. Many cafés have free Wi-Fi, and sometimes there's also a socket next to every table. There's just one unwritten rule: if you sit for three hours, order more than one coffee."
       },
       {
         "he": "לעומת זאת, יש בתי קפה שכבר לא אוהבים את המחשבים הניידים. בבית קפה ליד הבית שלי תלו לאחרונה שלט: \"בשישי ובשבת – בלי מחשבים\". למרות שאני עובדת מבתי קפה כמעט כל יום, לדעתי זה דווקא רעיון לא רע. לפעמים כדאי פשוט לשבת עם חברים, לשתות הפוך ולהסתכל על האנשים שעוברים ברחוב.",
@@ -1805,10 +1819,10 @@
         "why": "Around her at least ten people are sitting with laptops, and nobody is in a hurry."
       },
       {
-        "s": "מי שרוצה קפה חזק יותר מזמין אספרסו קצר.",
-        "sEn": "Anyone who wants stronger coffee orders a short espresso.",
+        "s": "בחלק מבתי הקפה אפשר לחבר את המחשב לחשמל ליד השולחן.",
+        "sEn": "In some cafés you can plug your laptop in next to the table.",
         "a": true,
-        "why": "The post says that anyone who wants something stronger orders a short espresso."
+        "why": "The post says that in many cafés there is free Wi-Fi, and sometimes there is also a socket next to every table."
       },
       {
         "s": "מי שמבקש הפוך \"דל\" רוצה קפה חלש.",
@@ -1854,7 +1868,8 @@
         "prompt": "בית קפה בישראל הוא לא רק מקום לשתות קפה: הוא גם ___, חדר ישיבות ולפעמים אפילו סלון.",
         "en": "A café in Israel is not just a place to drink coffee: it is also an office, a meeting room and sometimes even a living room.",
         "answer": [
-          "משרד"
+          "משרד",
+          "מקום עבודה"
         ],
         "hint": "office"
       },
@@ -1863,7 +1878,8 @@
         "en": "The most popular drink in Israel is the hafukh: coffee with lots of hot milk and foam.",
         "answer": [
           "פופולרי",
-          "אהוב"
+          "אהוב",
+          "פופולארי"
         ],
         "hint": "popular"
       },
@@ -1896,7 +1912,7 @@
     "writing": {
       "prompt": "יש בתי קפה שלא מרשים לעבוד עם מחשבים ניידים בסוף השבוע. מה דעתכם על זה? כתבו תגובה לפוסט והסבירו למה.",
       "promptEn": "Some cafés don't allow working on laptops at the weekend. What do you think about that? Write a comment on the post and explain why.",
-      "minWords": 35,
+      "minWords": 60,
       "useWords": [
         "לדעתי",
         "למרות ש",
@@ -1927,8 +1943,8 @@
           ]
         }
       ],
-      "model": "לדעתי זה כלל הוגן. למרות שעבדתי בעצמי הרבה פעמים מבתי קפה, בסוף השבוע המצב שונה, בגלל שאנשים באים לשם כדי לנוח ולדבר עם חברים. כשבכל שולחן יושב מישהו עם מחשב, אין מקום למשפחות. בנוסף, בית קפה צריך להרוויח, ומי שיושב שלוש שעות עם הפוך אחד לא עוזר לו. לכן בשישי ובשבת הכלל הזה הגיוני.",
-      "modelEn": "In my opinion it's a fair rule. Even though I've often worked from cafés myself, at the weekend things are different, because people come there to relax and talk with friends. When there's someone with a laptop at every table, there's no room for families. Besides, a café needs to make money, and someone who sits for three hours with one hafukh doesn't help it. So on Fridays and Saturdays this rule makes sense."
+      "model": "לדעתי זה כלל הוגן. למרות שעבדתי בעצמי הרבה פעמים מבתי קפה, בסוף השבוע המצב שונה, בגלל שאנשים באים לשם כדי לנוח ולדבר עם חברים. כשבכל שולחן יושב מישהו עם מחשב, אין מקום למשפחות. בנוסף, בית קפה צריך להרוויח, ומי שיושב שלוש שעות עם הפוך אחד לא עוזר לו. לכן בשישי ובשבת הכלל הזה הגיוני. ביום ראשון אפשר לחזור לעבוד שם עם המחשב, ואז כדאי גם להזמין משהו לאכול.",
+      "modelEn": "In my opinion it's a fair rule. Even though I've often worked from cafés myself, at the weekend things are different, because people come there to relax and talk with friends. When there's someone with a laptop at every table, there's no room for families. Besides, a café needs to make money, and someone who sits for three hours with one hafukh doesn't help it. So on Fridays and Saturdays this rule makes sense. On Sunday you can go back to working there with your laptop, and then it's worth ordering something to eat as well."
     }
   }
 ]

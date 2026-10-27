@@ -1,0 +1,2083 @@
+[
+  {
+    "id": "verb_ledaber",
+    "inf": "לדבר",
+    "tr": "ledabér",
+    "en": "to speak, to talk",
+    "root": "ד.ב.ר",
+    "binyan": "piel",
+    "gizra": "regular (שלמים)",
+    "gov": "עם / על",
+    "level": "A2",
+    "present": {
+      "ms": ["מדבר", "medabér"],
+      "fs": ["מדברת", "medabéret"],
+      "mp": ["מדברים", "medabrím"],
+      "fp": ["מדברות", "medabrót"]
+    },
+    "past": {
+      "1s": ["דיברתי", "dibárti"],
+      "2ms": ["דיברת", "dibárta"],
+      "2fs": ["דיברת", "dibárt"],
+      "3ms": ["דיבר", "dibér"],
+      "3fs": ["דיברה", "dibrá"],
+      "1p": ["דיברנו", "dibárnu"],
+      "2mp": ["דיברתם", "dibartém"],
+      "2fp": ["דיברתן", "dibartén"],
+      "3p": ["דיברו", "dibrú"]
+    },
+    "future": {
+      "1s": ["אדבר", "adabér"],
+      "2ms": ["תדבר", "tedabér"],
+      "2fs": ["תדברי", "tedabrí"],
+      "3ms": ["ידבר", "yedabér"],
+      "3fs": ["תדבר", "tedabér"],
+      "1p": ["נדבר", "nedabér"],
+      "2mp": ["תדברו", "tedabrú"],
+      "3p": ["ידברו", "yedabrú"]
+    },
+    "imp": {
+      "ms": ["דבר", "dabér"],
+      "fs": ["דברי", "dabrí"],
+      "mp": ["דברו", "dabrú"]
+    },
+    "ex": {
+      "he": "אני צריך לדבר איתך על הפרויקט. יש לך דקה?",
+      "en": "I need to talk to you about the project. Do you have a minute?"
+    },
+    "exs": [
+      {
+        "he": "דיברתי עם אמא שלי בטלפון כמעט שעה.",
+        "en": "I talked with my mother on the phone for almost an hour.",
+        "form": "דיברתי"
+      },
+      {
+        "he": "הילדים של יעל מדברים עברית ורוסית בבית.",
+        "en": "Yael's children speak Hebrew and Russian at home.",
+        "form": "מדברים"
+      },
+      {
+        "he": "נדבר על זה מחר בישיבה, בסדר?",
+        "en": "We'll talk about it tomorrow at the meeting, OK?",
+        "form": "נדבר"
+      }
+    ],
+    "note": "לדבר עם + person, לדבר על + topic. On the phone: 'מי מדבר?' = who's speaking? Many Israelis end a call with 'מדברים!' = talk soon."
+  },
+  {
+    "id": "verb_lekhakot",
+    "inf": "לחכות",
+    "tr": "lekhakót",
+    "en": "to wait",
+    "root": "ח.כ.ה",
+    "binyan": "piel",
+    "gizra": "ל״ה (final heh)",
+    "gov": "ל",
+    "level": "A2",
+    "present": {
+      "ms": ["מחכה", "mekhaké"],
+      "fs": ["מחכה", "mekhaká"],
+      "mp": ["מחכים", "mekhakím"],
+      "fp": ["מחכות", "mekhakót"]
+    },
+    "past": {
+      "1s": ["חיכיתי", "khikíti"],
+      "2ms": ["חיכית", "khikíta"],
+      "2fs": ["חיכית", "khikít"],
+      "3ms": ["חיכה", "khiká"],
+      "3fs": ["חיכתה", "khiktá"],
+      "1p": ["חיכינו", "khikínu"],
+      "2mp": ["חיכיתם", "khikitém"],
+      "2fp": ["חיכיתן", "khikitén"],
+      "3p": ["חיכו", "khikú"]
+    },
+    "future": {
+      "1s": ["אחכה", "akhaké"],
+      "2ms": ["תחכה", "tekhaké"],
+      "2fs": ["תחכי", "tekhakí"],
+      "3ms": ["יחכה", "yekhaké"],
+      "3fs": ["תחכה", "tekhaké"],
+      "1p": ["נחכה", "nekhaké"],
+      "2mp": ["תחכו", "tekhakú"],
+      "3p": ["יחכו", "yekhakú"]
+    },
+    "imp": {
+      "ms": ["חכה", "khaké"],
+      "fs": ["חכי", "khakí"],
+      "mp": ["חכו", "khakú"]
+    },
+    "ex": {
+      "he": "אנחנו עדיין מחכים לתשובה מהלקוח.",
+      "en": "We're still waiting for an answer from the client."
+    },
+    "exs": [
+      {
+        "he": "חיכינו לרופא יותר משעה.",
+        "en": "We waited for the doctor for more than an hour.",
+        "form": "חיכינו"
+      },
+      {
+        "he": "אחמד מחכה לך למטה, ליד הכניסה.",
+        "en": "Ahmad is waiting for you downstairs, by the entrance.",
+        "form": "מחכה"
+      },
+      {
+        "he": "חכי רגע, אני כבר יורדת.",
+        "en": "Wait a second, I'm coming right down.",
+        "form": "חכי"
+      }
+    ],
+    "note": "Always with ל: מחכה לך, חיכינו לאוטובוס. 'רגע, חכה!' or 'תחכה רגע' = wait a moment. Final-heh pattern: the past has י (חיכיתי) except 3rd person (חיכה, חיכתה, חיכו); 'you (f.) will wait' = תחכי."
+  },
+  {
+    "id": "verb_leshalem",
+    "inf": "לשלם",
+    "tr": "leshalém",
+    "en": "to pay",
+    "root": "ש.ל.ם",
+    "binyan": "piel",
+    "gizra": "regular (שלמים)",
+    "gov": "על / ל",
+    "level": "A2",
+    "present": {
+      "ms": ["משלם", "meshalém"],
+      "fs": ["משלמת", "meshalémet"],
+      "mp": ["משלמים", "meshalmím"],
+      "fp": ["משלמות", "meshalmót"]
+    },
+    "past": {
+      "1s": ["שילמתי", "shilámti"],
+      "2ms": ["שילמת", "shilámta"],
+      "2fs": ["שילמת", "shilámt"],
+      "3ms": ["שילם", "shilém"],
+      "3fs": ["שילמה", "shilmá"],
+      "1p": ["שילמנו", "shilámnu"],
+      "2mp": ["שילמתם", "shilamtém"],
+      "2fp": ["שילמתן", "shilamtén"],
+      "3p": ["שילמו", "shilmú"]
+    },
+    "future": {
+      "1s": ["אשלם", "ashalém"],
+      "2ms": ["תשלם", "teshalém"],
+      "2fs": ["תשלמי", "teshalmí"],
+      "3ms": ["ישלם", "yeshalém"],
+      "3fs": ["תשלם", "teshalém"],
+      "1p": ["נשלם", "neshalém"],
+      "2mp": ["תשלמו", "teshalmú"],
+      "3p": ["ישלמו", "yeshalmú"]
+    },
+    "imp": {
+      "ms": ["שלם", "shalém"],
+      "fs": ["שלמי", "shalmí"],
+      "mp": ["שלמו", "shalmú"]
+    },
+    "ex": {
+      "he": "הלקוח עוד לא שילם לנו על ההזמנה האחרונה.",
+      "en": "The client still hasn't paid us for the last order."
+    },
+    "exs": [
+      {
+        "he": "שילמתי שלוש מאות שקל על הנעליים האלה.",
+        "en": "I paid three hundred shekels for these shoes.",
+        "form": "שילמתי"
+      },
+      {
+        "he": "כמה אתם משלמים על הדירה בחודש?",
+        "en": "How much do you pay for the apartment a month?",
+        "form": "משלמים"
+      },
+      {
+        "he": "החברה תשלם לך על השעות הנוספות.",
+        "en": "The company will pay you for the overtime.",
+        "form": "תשלם"
+      }
+    ],
+    "note": "לשלם על + thing, לשלם ל + person: שילמתי לספק על המשלוח. 'אני משלם' at a restaurant = it's on me. לשלם במזומן / באשראי = to pay cash / by card. תשלום = payment."
+  },
+  {
+    "id": "verb_levakesh",
+    "inf": "לבקש",
+    "tr": "levakésh",
+    "en": "to ask for, to request",
+    "root": "ב.ק.ש",
+    "binyan": "piel",
+    "gizra": "regular (שלמים)",
+    "gov": "מ",
+    "level": "A2",
+    "present": {
+      "ms": ["מבקש", "mevakésh"],
+      "fs": ["מבקשת", "mevakéshet"],
+      "mp": ["מבקשים", "mevakshím"],
+      "fp": ["מבקשות", "mevakshót"]
+    },
+    "past": {
+      "1s": ["ביקשתי", "bikáshti"],
+      "2ms": ["ביקשת", "bikáshta"],
+      "2fs": ["ביקשת", "bikásht"],
+      "3ms": ["ביקש", "bikésh"],
+      "3fs": ["ביקשה", "bikshá"],
+      "1p": ["ביקשנו", "bikáshnu"],
+      "2mp": ["ביקשתם", "bikashtém"],
+      "2fp": ["ביקשתן", "bikashtén"],
+      "3p": ["ביקשו", "bikshú"]
+    },
+    "future": {
+      "1s": ["אבקש", "avakésh"],
+      "2ms": ["תבקש", "tevakésh"],
+      "2fs": ["תבקשי", "tevakshí"],
+      "3ms": ["יבקש", "yevakésh"],
+      "3fs": ["תבקש", "tevakésh"],
+      "1p": ["נבקש", "nevakésh"],
+      "2mp": ["תבקשו", "tevakshú"],
+      "3p": ["יבקשו", "yevakshú"]
+    },
+    "imp": {
+      "ms": ["בקש", "bakésh"],
+      "fs": ["בקשי", "bakshí"],
+      "mp": ["בקשו", "bakshú"]
+    },
+    "ex": {
+      "he": "ביקשתי מהמנהלת יום חופש ביום חמישי.",
+      "en": "I asked the manager for a day off on Thursday."
+    },
+    "exs": [
+      {
+        "he": "המלצרית ביקשה מאיתנו לחכות כמה דקות.",
+        "en": "The waitress asked us to wait a few minutes.",
+        "form": "ביקשה"
+      },
+      {
+        "he": "אנחנו מבקשים מכל העובדים להגיע בזמן.",
+        "en": "We ask all employees to arrive on time.",
+        "form": "מבקשים"
+      },
+      {
+        "he": "אבקש מהמנהל עוד יום כדי לסיים את הדוח.",
+        "en": "I'll ask the manager for one more day to finish the report.",
+        "form": "אבקש"
+      }
+    ],
+    "note": "לבקש מ + person: ביקשתי ממנו עזרה (I asked him for help). To ask a question is לשאול, not לבקש. Same root: בבקשה (please), בקשה (request)."
+  },
+  {
+    "id": "verb_lesaper",
+    "inf": "לספר",
+    "tr": "lesapér",
+    "en": "to tell",
+    "root": "ס.פ.ר",
+    "binyan": "piel",
+    "gizra": "regular (שלמים)",
+    "gov": "ל / על",
+    "level": "A2",
+    "present": {
+      "ms": ["מספר", "mesapér"],
+      "fs": ["מספרת", "mesapéret"],
+      "mp": ["מספרים", "mesaprím"],
+      "fp": ["מספרות", "mesaprót"]
+    },
+    "past": {
+      "1s": ["סיפרתי", "sipárti"],
+      "2ms": ["סיפרת", "sipárta"],
+      "2fs": ["סיפרת", "sipárt"],
+      "3ms": ["סיפר", "sipér"],
+      "3fs": ["סיפרה", "siprá"],
+      "1p": ["סיפרנו", "sipárnu"],
+      "2mp": ["סיפרתם", "sipartém"],
+      "2fp": ["סיפרתן", "sipartén"],
+      "3p": ["סיפרו", "siprú"]
+    },
+    "future": {
+      "1s": ["אספר", "asapér"],
+      "2ms": ["תספר", "tesapér"],
+      "2fs": ["תספרי", "tesaprí"],
+      "3ms": ["יספר", "yesapér"],
+      "3fs": ["תספר", "tesapér"],
+      "1p": ["נספר", "nesapér"],
+      "2mp": ["תספרו", "tesaprú"],
+      "3p": ["יספרו", "yesaprú"]
+    },
+    "imp": {
+      "ms": ["ספר", "sapér"],
+      "fs": ["ספרי", "saprí"],
+      "mp": ["ספרו", "saprú"]
+    },
+    "ex": {
+      "he": "סיפרתי לצוות על הלקוח החדש.",
+      "en": "I told the team about the new client."
+    },
+    "exs": [
+      {
+        "he": "ג׳ניפר סיפרה לנו על הטיול שלה ליפן.",
+        "en": "Jennifer told us about her trip to Japan.",
+        "form": "סיפרה"
+      },
+      {
+        "he": "סבא שלי תמיד מספר את אותם הסיפורים.",
+        "en": "My grandfather always tells the same stories.",
+        "form": "מספר"
+      },
+      {
+        "he": "אל תדאג, לא אספר לאף אחד.",
+        "en": "Don't worry, I won't tell anyone.",
+        "form": "אספר"
+      }
+    ],
+    "note": "לספר ל + person, על + topic: סיפרתי לה על הפגישה. Watch out for look-alikes: מספר can also be mispár (number), and לספר also means to cut someone's hair (ספר = barber)."
+  },
+  {
+    "id": "verb_letapel",
+    "inf": "לטפל",
+    "tr": "letapél",
+    "en": "to handle, to take care of, to treat",
+    "root": "ט.פ.ל",
+    "binyan": "piel",
+    "gizra": "regular (שלמים)",
+    "gov": "ב",
+    "level": "B1",
+    "present": {
+      "ms": ["מטפל", "metapél"],
+      "fs": ["מטפלת", "metapélet"],
+      "mp": ["מטפלים", "metaplím"],
+      "fp": ["מטפלות", "metaplót"]
+    },
+    "past": {
+      "1s": ["טיפלתי", "tipálti"],
+      "2ms": ["טיפלת", "tipálta"],
+      "2fs": ["טיפלת", "tipált"],
+      "3ms": ["טיפל", "tipél"],
+      "3fs": ["טיפלה", "tiplá"],
+      "1p": ["טיפלנו", "tipálnu"],
+      "2mp": ["טיפלתם", "tipaltém"],
+      "2fp": ["טיפלתן", "tipaltén"],
+      "3p": ["טיפלו", "tiplú"]
+    },
+    "future": {
+      "1s": ["אטפל", "atapél"],
+      "2ms": ["תטפל", "tetapél"],
+      "2fs": ["תטפלי", "tetaplí"],
+      "3ms": ["יטפל", "yetapél"],
+      "3fs": ["תטפל", "tetapél"],
+      "1p": ["נטפל", "netapél"],
+      "2mp": ["תטפלו", "tetaplú"],
+      "3p": ["יטפלו", "yetaplú"]
+    },
+    "imp": {
+      "ms": ["טפל", "tapél"],
+      "fs": ["טפלי", "taplí"],
+      "mp": ["טפלו", "taplú"]
+    },
+    "ex": {
+      "he": "אל תדאגו, אני כבר מטפלת בזה.",
+      "en": "Don't worry, I'm already taking care of it."
+    },
+    "exs": [
+      {
+        "he": "האחות במיון טיפלה בי מהר ובסבלנות.",
+        "en": "The nurse in the ER treated me quickly and patiently.",
+        "form": "טיפלה"
+      },
+      {
+        "he": "מי מטפל בילדים כשאתם בעבודה?",
+        "en": "Who looks after the children when you're at work?",
+        "form": "מטפל"
+      },
+      {
+        "he": "שירות הלקוחות יטפל בתלונה שלך תוך יומיים.",
+        "en": "Customer service will deal with your complaint within two days.",
+        "form": "יטפל"
+      }
+    ],
+    "note": "Always with ב: לטפל בבעיה / בלקוח / בילדים. 'אני מטפל בזה' / 'אני אטפל בזה' = I'm on it / I'll take care of it. Also = to treat (medically); מטפל/ת = therapist or caregiver, טיפול = treatment."
+  },
+  {
+    "id": "verb_lekabel",
+    "inf": "לקבל",
+    "tr": "lekabél",
+    "en": "to receive, to get; to accept",
+    "root": "ק.ב.ל",
+    "binyan": "piel",
+    "gizra": "regular (שלמים)",
+    "gov": "את / מ",
+    "level": "A2",
+    "present": {
+      "ms": ["מקבל", "mekabél"],
+      "fs": ["מקבלת", "mekabélet"],
+      "mp": ["מקבלים", "mekablím"],
+      "fp": ["מקבלות", "mekablót"]
+    },
+    "past": {
+      "1s": ["קיבלתי", "kibálti"],
+      "2ms": ["קיבלת", "kibálta"],
+      "2fs": ["קיבלת", "kibált"],
+      "3ms": ["קיבל", "kibél"],
+      "3fs": ["קיבלה", "kiblá"],
+      "1p": ["קיבלנו", "kibálnu"],
+      "2mp": ["קיבלתם", "kibaltém"],
+      "2fp": ["קיבלתן", "kibaltén"],
+      "3p": ["קיבלו", "kiblú"]
+    },
+    "future": {
+      "1s": ["אקבל", "akabél"],
+      "2ms": ["תקבל", "tekabél"],
+      "2fs": ["תקבלי", "tekablí"],
+      "3ms": ["יקבל", "yekabél"],
+      "3fs": ["תקבל", "tekabél"],
+      "1p": ["נקבל", "nekabél"],
+      "2mp": ["תקבלו", "tekablú"],
+      "3p": ["יקבלו", "yekablú"]
+    },
+    "imp": {
+      "ms": ["קבל", "kabél"],
+      "fs": ["קבלי", "kablí"],
+      "mp": ["קבלו", "kablú"]
+    },
+    "ex": {
+      "he": "קיבלנו את ההצעה שלכם ונחזור אליכם עד סוף השבוע.",
+      "en": "We've received your proposal and will get back to you by the end of the week."
+    },
+    "exs": [
+      {
+        "he": "קיבלתי את המייל שלך, תודה רבה.",
+        "en": "I got your email, thanks a lot.",
+        "form": "קיבלתי"
+      },
+      {
+        "he": "עובדים חדשים מקבלים מחשב נייד ביום הראשון.",
+        "en": "New employees get a laptop on their first day.",
+        "form": "מקבלים"
+      },
+      {
+        "he": "תקבלי הודעה ברגע שהחבילה תגיע.",
+        "en": "You'll get a message as soon as the package arrives.",
+        "form": "תקבלי"
+      }
+    ],
+    "note": "Also = to accept: לקבל את ההצעה (to accept the offer). From someone: לקבל מ. 'התקבלתי לעבודה' = I got the job (lit. I was accepted). קבלה = receipt, or a reception desk."
+  },
+  {
+    "id": "verb_lenahel",
+    "inf": "לנהל",
+    "tr": "lenahél",
+    "en": "to manage, to run",
+    "root": "נ.ה.ל",
+    "binyan": "piel",
+    "gizra": "guttural (middle ה)",
+    "gov": "את",
+    "level": "B1",
+    "present": {
+      "ms": ["מנהל", "menahél"],
+      "fs": ["מנהלת", "menahélet"],
+      "mp": ["מנהלים", "menahalím"],
+      "fp": ["מנהלות", "menahalót"]
+    },
+    "past": {
+      "1s": ["ניהלתי", "nihálti"],
+      "2ms": ["ניהלת", "nihálta"],
+      "2fs": ["ניהלת", "nihált"],
+      "3ms": ["ניהל", "nihél"],
+      "3fs": ["ניהלה", "nihalá"],
+      "1p": ["ניהלנו", "nihálnu"],
+      "2mp": ["ניהלתם", "nihaltém"],
+      "2fp": ["ניהלתן", "nihaltén"],
+      "3p": ["ניהלו", "nihalú"]
+    },
+    "future": {
+      "1s": ["אנהל", "anahél"],
+      "2ms": ["תנהל", "tenahél"],
+      "2fs": ["תנהלי", "tenahalí"],
+      "3ms": ["ינהל", "yenahél"],
+      "3fs": ["תנהל", "tenahél"],
+      "1p": ["ננהל", "nenahél"],
+      "2mp": ["תנהלו", "tenahalú"],
+      "3p": ["ינהלו", "yenahalú"]
+    },
+    "imp": {
+      "ms": ["נהל", "nahél"],
+      "fs": ["נהלי", "nahalí"],
+      "mp": ["נהלו", "nahalú"]
+    },
+    "ex": {
+      "he": "היא מנהלת צוות של עשרה אנשים.",
+      "en": "She manages a team of ten people."
+    },
+    "exs": [
+      {
+        "he": "אבא שלי ניהל את החנות של המשפחה עשרים שנה.",
+        "en": "My father ran the family shop for twenty years.",
+        "form": "ניהל"
+      },
+      {
+        "he": "אנחנו מנהלים את כל ההזמנות במערכת אחת.",
+        "en": "We manage all the orders in a single system.",
+        "form": "מנהלים"
+      },
+      {
+        "he": "מי ינהל את הפגישה כשרונית בחופשה?",
+        "en": "Who will run the meeting while Ronit is on vacation?",
+        "form": "ינהל"
+      }
+    ],
+    "note": "מנהל/ת (menahél/et) is also the noun 'manager'; ניהול = management. לנהל פגישה = to run a meeting, לנהל משא ומתן = to negotiate. The guttural ה keeps an 'a' where other pi'el verbs drop the vowel: מנהלים (menahalím), ניהלה (nihalá)."
+  },
+  {
+    "id": "verb_levatel",
+    "inf": "לבטל",
+    "tr": "levatél",
+    "en": "to cancel",
+    "root": "ב.ט.ל",
+    "binyan": "piel",
+    "gizra": "regular (שלמים)",
+    "gov": "את",
+    "level": "B1",
+    "present": {
+      "ms": ["מבטל", "mevatél"],
+      "fs": ["מבטלת", "mevatélet"],
+      "mp": ["מבטלים", "mevatlím"],
+      "fp": ["מבטלות", "mevatlót"]
+    },
+    "past": {
+      "1s": ["ביטלתי", "bitálti"],
+      "2ms": ["ביטלת", "bitálta"],
+      "2fs": ["ביטלת", "bitált"],
+      "3ms": ["ביטל", "bitél"],
+      "3fs": ["ביטלה", "bitlá"],
+      "1p": ["ביטלנו", "bitálnu"],
+      "2mp": ["ביטלתם", "bitaltém"],
+      "2fp": ["ביטלתן", "bitaltén"],
+      "3p": ["ביטלו", "bitlú"]
+    },
+    "future": {
+      "1s": ["אבטל", "avatél"],
+      "2ms": ["תבטל", "tevatél"],
+      "2fs": ["תבטלי", "tevatlí"],
+      "3ms": ["יבטל", "yevatél"],
+      "3fs": ["תבטל", "tevatél"],
+      "1p": ["נבטל", "nevatél"],
+      "2mp": ["תבטלו", "tevatlú"],
+      "3p": ["יבטלו", "yevatlú"]
+    },
+    "imp": {
+      "ms": ["בטל", "batél"],
+      "fs": ["בטלי", "batlí"],
+      "mp": ["בטלו", "batlú"]
+    },
+    "ex": {
+      "he": "הלקוח ביטל את הפגישה של מחר.",
+      "en": "The client cancelled tomorrow's meeting."
+    },
+    "exs": [
+      {
+        "he": "ביטלנו את הטיסה בגלל מזג האוויר.",
+        "en": "We cancelled the flight because of the weather.",
+        "form": "ביטלנו"
+      },
+      {
+        "he": "אני מבטלת את המנוי לחדר הכושר מהחודש הבא.",
+        "en": "I'm cancelling my gym membership as of next month.",
+        "form": "מבטלת"
+      },
+      {
+        "he": "אם תבטלו עד יום חמישי, תקבלו החזר מלא.",
+        "en": "If you cancel by Thursday, you'll get a full refund.",
+        "form": "תבטלו"
+      }
+    ],
+    "note": "ביטול = cancellation; 'הפגישה בוטלה' = the meeting was cancelled. Typical objects: לבטל הזמנה / מנוי / טיסה (to cancel an order / a subscription / a flight)."
+  },
+  {
+    "id": "verb_lekhapes",
+    "inf": "לחפש",
+    "tr": "lekhapés",
+    "en": "to look for, to search",
+    "root": "ח.פ.ש",
+    "binyan": "piel",
+    "gizra": "regular (שלמים)",
+    "gov": "את",
+    "level": "A2",
+    "present": {
+      "ms": ["מחפש", "mekhapés"],
+      "fs": ["מחפשת", "mekhapéset"],
+      "mp": ["מחפשים", "mekhapsím"],
+      "fp": ["מחפשות", "mekhapsót"]
+    },
+    "past": {
+      "1s": ["חיפשתי", "khipásti"],
+      "2ms": ["חיפשת", "khipásta"],
+      "2fs": ["חיפשת", "khipást"],
+      "3ms": ["חיפש", "khipés"],
+      "3fs": ["חיפשה", "khipsá"],
+      "1p": ["חיפשנו", "khipásnu"],
+      "2mp": ["חיפשתם", "khipastém"],
+      "2fp": ["חיפשתן", "khipastén"],
+      "3p": ["חיפשו", "khipsú"]
+    },
+    "future": {
+      "1s": ["אחפש", "akhapés"],
+      "2ms": ["תחפש", "tekhapés"],
+      "2fs": ["תחפשי", "tekhapsí"],
+      "3ms": ["יחפש", "yekhapés"],
+      "3fs": ["תחפש", "tekhapés"],
+      "1p": ["נחפש", "nekhapés"],
+      "2mp": ["תחפשו", "tekhapsú"],
+      "3p": ["יחפשו", "yekhapsú"]
+    },
+    "imp": {
+      "ms": ["חפש", "khapés"],
+      "fs": ["חפשי", "khapsí"],
+      "mp": ["חפשו", "khapsú"]
+    },
+    "ex": {
+      "he": "החברה מחפשת מנהל מכירות עם ניסיון.",
+      "en": "The company is looking for an experienced sales manager."
+    },
+    "exs": [
+      {
+        "he": "חיפשתי את המפתחות שלי בכל הבית.",
+        "en": "I looked for my keys all over the house.",
+        "form": "חיפשתי"
+      },
+      {
+        "he": "אנחנו מחפשים דירת שלושה חדרים בחיפה.",
+        "en": "We're looking for a three-room apartment in Haifa.",
+        "form": "מחפשים"
+      },
+      {
+        "he": "סבטלנה תחפש עבודה חדשה אחרי החגים.",
+        "en": "Svetlana will look for a new job after the holidays.",
+        "form": "תחפש"
+      }
+    ],
+    "note": "No preposition, unlike English 'look for': לחפש עבודה, לחפש דירה. 'אנחנו מחפשים עובדים' = we're hiring. The ש here is pronounced s (sin): khipásti."
+  },
+  {
+    "id": "verb_letaken",
+    "inf": "לתקן",
+    "tr": "letakén",
+    "en": "to fix, to repair; to correct",
+    "root": "ת.ק.ן",
+    "binyan": "piel",
+    "gizra": "regular (שלמים)",
+    "gov": "את",
+    "level": "B1",
+    "present": {
+      "ms": ["מתקן", "metakén"],
+      "fs": ["מתקנת", "metakénet"],
+      "mp": ["מתקנים", "metakním"],
+      "fp": ["מתקנות", "metaknót"]
+    },
+    "past": {
+      "1s": ["תיקנתי", "tikánti"],
+      "2ms": ["תיקנת", "tikánta"],
+      "2fs": ["תיקנת", "tikánt"],
+      "3ms": ["תיקן", "tikén"],
+      "3fs": ["תיקנה", "tikná"],
+      "1p": ["תיקנו", "tikánu"],
+      "2mp": ["תיקנתם", "tikantém"],
+      "2fp": ["תיקנתן", "tikantén"],
+      "3p": ["תיקנו", "tiknú"]
+    },
+    "future": {
+      "1s": ["אתקן", "atakén"],
+      "2ms": ["תתקן", "tetakén"],
+      "2fs": ["תתקני", "tetakní"],
+      "3ms": ["יתקן", "yetakén"],
+      "3fs": ["תתקן", "tetakén"],
+      "1p": ["נתקן", "netakén"],
+      "2mp": ["תתקנו", "tetaknú"],
+      "3p": ["יתקנו", "yetaknú"]
+    },
+    "imp": {
+      "ms": ["תקן", "takén"],
+      "fs": ["תקני", "takní"],
+      "mp": ["תקנו", "taknú"]
+    },
+    "ex": {
+      "he": "הטכנאי יבוא מחר בבוקר לתקן את המדפסת.",
+      "en": "The technician will come tomorrow morning to fix the printer."
+    },
+    "exs": [
+      {
+        "he": "השכן תיקן לנו את הברז במטבח.",
+        "en": "The neighbour fixed the kitchen tap for us.",
+        "form": "תיקן"
+      },
+      {
+        "he": "המורה מתקנת את הטעויות שלנו בחיבורים.",
+        "en": "The teacher corrects our mistakes in our essays.",
+        "form": "מתקנת"
+      },
+      {
+        "he": "אתקן את הקובץ ואשלח לך אותו שוב.",
+        "en": "I'll fix the file and send it to you again.",
+        "form": "אתקן"
+      }
+    ],
+    "note": "Also = to correct: תתקן אותי אם אני טועה (correct me if I'm wrong). תיקון = repair / correction. The root ends in נ, so 'we fixed' (tikánu) and 'they fixed' (tiknú) are both spelled תיקנו."
+  },
+  {
+    "id": "verb_lehavin",
+    "inf": "להבין",
+    "tr": "lehavín",
+    "en": "to understand",
+    "root": "ב.י.ן",
+    "binyan": "hifil",
+    "gizra": "ע״י (hollow, middle yod)",
+    "gov": "את",
+    "level": "A2",
+    "present": {
+      "ms": ["מבין", "mevín"],
+      "fs": ["מבינה", "meviná"],
+      "mp": ["מבינים", "meviním"],
+      "fp": ["מבינות", "mevinót"]
+    },
+    "past": {
+      "1s": ["הבנתי", "hevánti"],
+      "2ms": ["הבנת", "hevánta"],
+      "2fs": ["הבנת", "hevánt"],
+      "3ms": ["הבין", "hevín"],
+      "3fs": ["הבינה", "hevína"],
+      "1p": ["הבנו", "hevánu"],
+      "2mp": ["הבנתם", "hevantém"],
+      "2fp": ["הבנתן", "hevantén"],
+      "3p": ["הבינו", "hevínu"]
+    },
+    "future": {
+      "1s": ["אבין", "avín"],
+      "2ms": ["תבין", "tavín"],
+      "2fs": ["תביני", "tavíni"],
+      "3ms": ["יבין", "yavín"],
+      "3fs": ["תבין", "tavín"],
+      "1p": ["נבין", "navín"],
+      "2mp": ["תבינו", "tavínu"],
+      "3p": ["יבינו", "yavínu"]
+    },
+    "imp": {
+      "ms": ["הבן", "havén"],
+      "fs": ["הביני", "havíni"],
+      "mp": ["הבינו", "havínu"]
+    },
+    "rare": ["imp"],
+    "ex": {
+      "he": "סליחה, לא הבנתי. אפשר להסביר שוב?",
+      "en": "Sorry, I didn't understand. Could you explain again?"
+    },
+    "exs": [
+      {
+        "he": "בהתחלה לא הבנו מה הוא רוצה מאיתנו.",
+        "en": "At first we didn't understand what he wanted from us.",
+        "form": "הבנו"
+      },
+      {
+        "he": "אני מבינה עברית, אבל עדיין קשה לי לדבר.",
+        "en": "I understand Hebrew, but speaking is still hard for me.",
+        "form": "מבינה"
+      },
+      {
+        "he": "אם תקרא את ההוראות, תבין מה לעשות.",
+        "en": "If you read the instructions, you'll understand what to do.",
+        "form": "תבין"
+      }
+    ],
+    "note": "'הבנתי' = got it; 'לא הבנתי' = I didn't get that. להבין ב = to know about: הוא מבין במחשבים. Hollow verb: the root's י disappears in the past (הבנתי) but shows in the present and future (מבין, אבין). The imperative (הבן, הביני, הבינו) is rare; people say תבין / תביני instead."
+  },
+  {
+    "id": "verb_lehagia",
+    "inf": "להגיע",
+    "tr": "lehagía",
+    "en": "to arrive, to get to, to reach",
+    "root": "נ.ג.ע",
+    "binyan": "hifil",
+    "gizra": "פ״נ (initial nun) + guttural (final ע)",
+    "gov": "ל",
+    "level": "A2",
+    "present": {
+      "ms": ["מגיע", "magía"],
+      "fs": ["מגיעה", "magi'á"],
+      "mp": ["מגיעים", "magi'ím"],
+      "fp": ["מגיעות", "magi'ót"]
+    },
+    "past": {
+      "1s": ["הגעתי", "higáti"],
+      "2ms": ["הגעת", "higáta"],
+      "2fs": ["הגעת", "higá'at"],
+      "3ms": ["הגיע", "higía"],
+      "3fs": ["הגיעה", "higí'a"],
+      "1p": ["הגענו", "higánu"],
+      "2mp": ["הגעתם", "higatém"],
+      "2fp": ["הגעתן", "higatén"],
+      "3p": ["הגיעו", "higí'u"]
+    },
+    "future": {
+      "1s": ["אגיע", "agía"],
+      "2ms": ["תגיע", "tagía"],
+      "2fs": ["תגיעי", "tagí'i"],
+      "3ms": ["יגיע", "yagía"],
+      "3fs": ["תגיע", "tagía"],
+      "1p": ["נגיע", "nagía"],
+      "2mp": ["תגיעו", "tagí'u"],
+      "3p": ["יגיעו", "yagí'u"]
+    },
+    "imp": {
+      "ms": ["הגע", "hagá"],
+      "fs": ["הגיעי", "hagí'i"],
+      "mp": ["הגיעו", "hagí'u"]
+    },
+    "ex": {
+      "he": "הגעתי למשרד מאוחר בגלל הפקקים.",
+      "en": "I got to the office late because of the traffic jams."
+    },
+    "exs": [
+      {
+        "he": "האורחים הגיעו בשמונה בדיוק.",
+        "en": "The guests arrived at eight on the dot.",
+        "form": "הגיעו"
+      },
+      {
+        "he": "האוטובוס לירושלים מגיע כל עשרים דקות.",
+        "en": "The bus to Jerusalem comes every twenty minutes.",
+        "form": "מגיע"
+      },
+      {
+        "he": "נגיע אליכם בערך בשבע וחצי.",
+        "en": "We'll get to your place at about seven thirty.",
+        "form": "נגיע"
+      }
+    ],
+    "note": "The destination takes ל: הגעתי לעבודה / לתל אביב. 'מגיע לך!' = you deserve it. The root's נ disappears (נ.ג.ע): הגעתי, מגיע, אגיע. 'You (f.) arrived' is pronounced higá'at."
+  },
+  {
+    "id": "verb_lehatkhil",
+    "inf": "להתחיל",
+    "tr": "lehatkhíl",
+    "en": "to start, to begin",
+    "root": "ת.ח.ל",
+    "binyan": "hifil",
+    "gizra": "regular (שלמים)",
+    "gov": "את / ל",
+    "level": "A2",
+    "present": {
+      "ms": ["מתחיל", "matkhíl"],
+      "fs": ["מתחילה", "matkhilá"],
+      "mp": ["מתחילים", "matkhilím"],
+      "fp": ["מתחילות", "matkhilót"]
+    },
+    "past": {
+      "1s": ["התחלתי", "hitkhálti"],
+      "2ms": ["התחלת", "hitkhálta"],
+      "2fs": ["התחלת", "hitkhált"],
+      "3ms": ["התחיל", "hitkhíl"],
+      "3fs": ["התחילה", "hitkhíla"],
+      "1p": ["התחלנו", "hitkhálnu"],
+      "2mp": ["התחלתם", "hitkhaltém"],
+      "2fp": ["התחלתן", "hitkhaltén"],
+      "3p": ["התחילו", "hitkhílu"]
+    },
+    "future": {
+      "1s": ["אתחיל", "atkhíl"],
+      "2ms": ["תתחיל", "tatkhíl"],
+      "2fs": ["תתחילי", "tatkhíli"],
+      "3ms": ["יתחיל", "yatkhíl"],
+      "3fs": ["תתחיל", "tatkhíl"],
+      "1p": ["נתחיל", "natkhíl"],
+      "2mp": ["תתחילו", "tatkhílu"],
+      "3p": ["יתחילו", "yatkhílu"]
+    },
+    "imp": {
+      "ms": ["התחל", "hatkhél"],
+      "fs": ["התחילי", "hatkhíli"],
+      "mp": ["התחילו", "hatkhílu"]
+    },
+    "ex": {
+      "he": "הפגישה מתחילה בעשר בדיוק.",
+      "en": "The meeting starts at ten sharp."
+    },
+    "exs": [
+      {
+        "he": "התחלתי ללמוד עברית באולפן לפני שנתיים.",
+        "en": "I started learning Hebrew at an ulpan two years ago.",
+        "form": "התחלתי"
+      },
+      {
+        "he": "שנת הלימודים מתחילה באחד בספטמבר.",
+        "en": "The school year starts on the first of September.",
+        "form": "מתחילה"
+      },
+      {
+        "he": "נתחיל בעוד חמש דקות, כשכולם יגיעו.",
+        "en": "We'll start in five minutes, when everyone arrives.",
+        "form": "נתחיל"
+      }
+    ],
+    "note": "Looks like hitpa'el, but it's hif'il of the root ת.ח.ל. With an infinitive: התחלתי לעבוד פה לפני שנה. Works with or without an object: התחלנו את הישיבה / הישיבה התחילה. התחלה = beginning."
+  },
+  {
+    "id": "verb_lehamshikh",
+    "inf": "להמשיך",
+    "tr": "lehamshíkh",
+    "en": "to continue, to keep (doing)",
+    "root": "מ.ש.ך",
+    "binyan": "hifil",
+    "gizra": "regular (שלמים)",
+    "gov": "את / ל",
+    "level": "A2",
+    "present": {
+      "ms": ["ממשיך", "mamshíkh"],
+      "fs": ["ממשיכה", "mamshikhá"],
+      "mp": ["ממשיכים", "mamshikhím"],
+      "fp": ["ממשיכות", "mamshikhót"]
+    },
+    "past": {
+      "1s": ["המשכתי", "himshákhti"],
+      "2ms": ["המשכת", "himshákhta"],
+      "2fs": ["המשכת", "himshákht"],
+      "3ms": ["המשיך", "himshíkh"],
+      "3fs": ["המשיכה", "himshíkha"],
+      "1p": ["המשכנו", "himshákhnu"],
+      "2mp": ["המשכתם", "himshakhtém"],
+      "2fp": ["המשכתן", "himshakhtén"],
+      "3p": ["המשיכו", "himshíkhu"]
+    },
+    "future": {
+      "1s": ["אמשיך", "amshíkh"],
+      "2ms": ["תמשיך", "tamshíkh"],
+      "2fs": ["תמשיכי", "tamshíkhi"],
+      "3ms": ["ימשיך", "yamshíkh"],
+      "3fs": ["תמשיך", "tamshíkh"],
+      "1p": ["נמשיך", "namshíkh"],
+      "2mp": ["תמשיכו", "tamshíkhu"],
+      "3p": ["ימשיכו", "yamshíkhu"]
+    },
+    "imp": {
+      "ms": ["המשך", "hamshékh"],
+      "fs": ["המשיכי", "hamshíkhi"],
+      "mp": ["המשיכו", "hamshíkhu"]
+    },
+    "ex": {
+      "he": "בואו נמשיך את הדיון מחר בבוקר.",
+      "en": "Let's continue the discussion tomorrow morning."
+    },
+    "exs": [
+      {
+        "he": "היא המשיכה לעבוד גם אחרי שהבן שלה נולד.",
+        "en": "She kept working even after her son was born.",
+        "form": "המשיכה"
+      },
+      {
+        "he": "המחירים ממשיכים לעלות כל שנה.",
+        "en": "Prices keep going up every year.",
+        "form": "ממשיכים"
+      },
+      {
+        "he": "אחרי ההפסקה אמשיך לעבוד על הדוח.",
+        "en": "After the break I'll carry on working on the report.",
+        "form": "אמשיך"
+      }
+    ],
+    "note": "ל + infinitive = to keep doing: הוא המשיך לדבר. With an object: להמשיך את הדיון. 'המשך יום נעים!' = have a nice rest of the day (המשך = continuation)."
+  },
+  {
+    "id": "verb_lehazmin",
+    "inf": "להזמין",
+    "tr": "lehazmín",
+    "en": "to order; to invite; to book",
+    "root": "ז.מ.ן",
+    "binyan": "hifil",
+    "gizra": "regular (שלמים)",
+    "gov": "את / ל",
+    "level": "A2",
+    "present": {
+      "ms": ["מזמין", "mazmín"],
+      "fs": ["מזמינה", "mazminá"],
+      "mp": ["מזמינים", "mazminím"],
+      "fp": ["מזמינות", "mazminót"]
+    },
+    "past": {
+      "1s": ["הזמנתי", "hizmánti"],
+      "2ms": ["הזמנת", "hizmánta"],
+      "2fs": ["הזמנת", "hizmánt"],
+      "3ms": ["הזמין", "hizmín"],
+      "3fs": ["הזמינה", "hizmína"],
+      "1p": ["הזמנו", "hizmánu"],
+      "2mp": ["הזמנתם", "hizmantém"],
+      "2fp": ["הזמנתן", "hizmantén"],
+      "3p": ["הזמינו", "hizmínu"]
+    },
+    "future": {
+      "1s": ["אזמין", "azmín"],
+      "2ms": ["תזמין", "tazmín"],
+      "2fs": ["תזמיני", "tazmíni"],
+      "3ms": ["יזמין", "yazmín"],
+      "3fs": ["תזמין", "tazmín"],
+      "1p": ["נזמין", "nazmín"],
+      "2mp": ["תזמינו", "tazmínu"],
+      "3p": ["יזמינו", "yazmínu"]
+    },
+    "imp": {
+      "ms": ["הזמן", "hazmén"],
+      "fs": ["הזמיני", "hazmíni"],
+      "mp": ["הזמינו", "hazmínu"]
+    },
+    "ex": {
+      "he": "הזמנתי חדר ישיבות לשעה שתיים.",
+      "en": "I booked a meeting room for two o'clock."
+    },
+    "exs": [
+      {
+        "he": "הזמנו פיצה כי לא היה לנו כוח לבשל.",
+        "en": "We ordered pizza because we didn't have the energy to cook.",
+        "form": "הזמנו"
+      },
+      {
+        "he": "אני מזמינה אותך לארוחת ערב ביום שישי.",
+        "en": "I'm inviting you to dinner on Friday.",
+        "form": "מזמינה"
+      },
+      {
+        "he": "נזמין שולחן לשישה אנשים בשמונה בערב.",
+        "en": "We'll book a table for six people at eight in the evening.",
+        "form": "נזמין"
+      }
+    ],
+    "note": "Three meanings: to invite (הזמנתי אותם לישיבה), to order (להזמין אוכל / ציוד), to book (להזמין חדר / שולחן). הזמנה = invitation / order / booking. 'אני מזמין' = it's on me."
+  },
+  {
+    "id": "verb_lehasbir",
+    "inf": "להסביר",
+    "tr": "lehasbír",
+    "en": "to explain",
+    "root": "ס.ב.ר",
+    "binyan": "hifil",
+    "gizra": "regular (שלמים)",
+    "gov": "ל",
+    "level": "A2",
+    "present": {
+      "ms": ["מסביר", "masbír"],
+      "fs": ["מסבירה", "masbirá"],
+      "mp": ["מסבירים", "masbirím"],
+      "fp": ["מסבירות", "masbirót"]
+    },
+    "past": {
+      "1s": ["הסברתי", "hisbárti"],
+      "2ms": ["הסברת", "hisbárta"],
+      "2fs": ["הסברת", "hisbárt"],
+      "3ms": ["הסביר", "hisbír"],
+      "3fs": ["הסבירה", "hisbíra"],
+      "1p": ["הסברנו", "hisbárnu"],
+      "2mp": ["הסברתם", "hisbartém"],
+      "2fp": ["הסברתן", "hisbartén"],
+      "3p": ["הסבירו", "hisbíru"]
+    },
+    "future": {
+      "1s": ["אסביר", "asbír"],
+      "2ms": ["תסביר", "tasbír"],
+      "2fs": ["תסבירי", "tasbíri"],
+      "3ms": ["יסביר", "yasbír"],
+      "3fs": ["תסביר", "tasbír"],
+      "1p": ["נסביר", "nasbír"],
+      "2mp": ["תסבירו", "tasbíru"],
+      "3p": ["יסבירו", "yasbíru"]
+    },
+    "imp": {
+      "ms": ["הסבר", "hasbér"],
+      "fs": ["הסבירי", "hasbíri"],
+      "mp": ["הסבירו", "hasbíru"]
+    },
+    "ex": {
+      "he": "אתה יכול להסביר לי איך המערכת עובדת?",
+      "en": "Can you explain to me how the system works?"
+    },
+    "exs": [
+      {
+        "he": "המורה הסבירה את התרגיל שלוש פעמים.",
+        "en": "The teacher explained the exercise three times.",
+        "form": "הסבירה"
+      },
+      {
+        "he": "הסרטון הזה מסביר איך למלא את הטופס.",
+        "en": "This video explains how to fill in the form.",
+        "form": "מסביר"
+      },
+      {
+        "he": "אסביר לך הכול כשניפגש.",
+        "en": "I'll explain everything to you when we meet.",
+        "form": "אסביר"
+      }
+    ],
+    "note": "The person you explain to takes ל: להסביר ללקוח, תסביר לי. In speech, 'תסביר לי' / 'תסבירי לי' (future form) is the usual way to say 'explain to me'. הסבר = explanation."
+  },
+  {
+    "id": "verb_lehakhlit",
+    "inf": "להחליט",
+    "tr": "lehakhlít",
+    "en": "to decide",
+    "root": "ח.ל.ט",
+    "binyan": "hifil",
+    "gizra": "guttural (initial ח)",
+    "gov": "על / ל",
+    "level": "A2",
+    "present": {
+      "ms": ["מחליט", "makhlít"],
+      "fs": ["מחליטה", "makhlitá"],
+      "mp": ["מחליטים", "makhlitím"],
+      "fp": ["מחליטות", "makhlitót"]
+    },
+    "past": {
+      "1s": ["החלטתי", "hekhlátti"],
+      "2ms": ["החלטת", "hekhlátta"],
+      "2fs": ["החלטת", "hekhlátt"],
+      "3ms": ["החליט", "hekhlít"],
+      "3fs": ["החליטה", "hekhlíta"],
+      "1p": ["החלטנו", "hekhlátnu"],
+      "2mp": ["החלטתם", "hekhlattém"],
+      "2fp": ["החלטתן", "hekhlattén"],
+      "3p": ["החליטו", "hekhlítu"]
+    },
+    "future": {
+      "1s": ["אחליט", "akhlít"],
+      "2ms": ["תחליט", "takhlít"],
+      "2fs": ["תחליטי", "takhlíti"],
+      "3ms": ["יחליט", "yakhlít"],
+      "3fs": ["תחליט", "takhlít"],
+      "1p": ["נחליט", "nakhlít"],
+      "2mp": ["תחליטו", "takhlítu"],
+      "3p": ["יחליטו", "yakhlítu"]
+    },
+    "imp": {
+      "ms": ["החלט", "hakhlét"],
+      "fs": ["החליטי", "hakhlíti"],
+      "mp": ["החליטו", "hakhlítu"]
+    },
+    "ex": {
+      "he": "עוד לא החלטנו על התקציב לשנה הבאה.",
+      "en": "We haven't decided on next year's budget yet."
+    },
+    "exs": [
+      {
+        "he": "אחרי הרבה מחשבה, סמיר החליט לפתוח מסעדה משלו.",
+        "en": "After a lot of thought, Samir decided to open his own restaurant.",
+        "form": "החליט"
+      },
+      {
+        "he": "בדרך כלל אני מחליטה מהר, אבל הפעם קשה לי.",
+        "en": "I usually decide quickly, but this time it's hard for me.",
+        "form": "מחליטה"
+      },
+      {
+        "he": "תחשבי על זה ותחליטי עד יום ראשון.",
+        "en": "Think it over and decide by Sunday.",
+        "form": "תחליטי"
+      }
+    ],
+    "note": "להחליט על + noun, להחליט ל + infinitive: החלטתי לעזוב. The guttural ח turns the past prefix into he- (not hi-): החלטתי = hekhlátti. In everyday speech the ט+ת cluster is often split by an e: hekhláteti, hekhlatetém. החלטה = decision; לקבל החלטה = to make a decision."
+  },
+  {
+    "id": "verb_lehatsia",
+    "inf": "להציע",
+    "tr": "lehatsía",
+    "en": "to offer, to suggest, to propose",
+    "root": "נ.צ.ע",
+    "binyan": "hifil",
+    "gizra": "פ״נ (initial nun) + guttural (final ע)",
+    "gov": "ל",
+    "level": "B1",
+    "present": {
+      "ms": ["מציע", "matsía"],
+      "fs": ["מציעה", "matsi'á"],
+      "mp": ["מציעים", "matsi'ím"],
+      "fp": ["מציעות", "matsi'ót"]
+    },
+    "past": {
+      "1s": ["הצעתי", "hitsáti"],
+      "2ms": ["הצעת", "hitsáta"],
+      "2fs": ["הצעת", "hitsá'at"],
+      "3ms": ["הציע", "hitsía"],
+      "3fs": ["הציעה", "hitsí'a"],
+      "1p": ["הצענו", "hitsánu"],
+      "2mp": ["הצעתם", "hitsatém"],
+      "2fp": ["הצעתן", "hitsatén"],
+      "3p": ["הציעו", "hitsí'u"]
+    },
+    "future": {
+      "1s": ["אציע", "atsía"],
+      "2ms": ["תציע", "tatsía"],
+      "2fs": ["תציעי", "tatsí'i"],
+      "3ms": ["יציע", "yatsía"],
+      "3fs": ["תציע", "tatsía"],
+      "1p": ["נציע", "natsía"],
+      "2mp": ["תציעו", "tatsí'u"],
+      "3p": ["יציעו", "yatsí'u"]
+    },
+    "imp": {
+      "ms": ["הצע", "hatsá"],
+      "fs": ["הציעי", "hatsí'i"],
+      "mp": ["הציעו", "hatsí'u"]
+    },
+    "ex": {
+      "he": "הספק השני הציע לנו מחיר טוב יותר.",
+      "en": "The other supplier offered us a better price."
+    },
+    "exs": [
+      {
+        "he": "אורי הציע לי לבוא לעבוד בחברה שלו.",
+        "en": "Uri suggested I come and work at his company.",
+        "form": "הציע"
+      },
+      {
+        "he": "המלון מציע ארוחת בוקר חינם לכל האורחים.",
+        "en": "The hotel offers free breakfast to all guests.",
+        "form": "מציע"
+      },
+      {
+        "he": "נציע להם הנחה של עשרה אחוזים.",
+        "en": "We'll offer them a ten percent discount.",
+        "form": "נציע"
+      }
+    ],
+    "note": "Both 'offer' and 'suggest': להציע מחיר (to offer a price), להציע ש + future (אני מציע שנחכה = I suggest we wait). הצעה = offer / proposal; הצעת מחיר = price quote. Like להגיע, the root's נ disappears."
+  },
+  {
+    "id": "verb_lehakhin",
+    "inf": "להכין",
+    "tr": "lehakhín",
+    "en": "to prepare, to make",
+    "root": "כ.ו.ן",
+    "binyan": "hifil",
+    "gizra": "ע״ו (hollow)",
+    "gov": "את",
+    "level": "A2",
+    "present": {
+      "ms": ["מכין", "mekhín"],
+      "fs": ["מכינה", "mekhiná"],
+      "mp": ["מכינים", "mekhiním"],
+      "fp": ["מכינות", "mekhinót"]
+    },
+    "past": {
+      "1s": ["הכנתי", "hekhánti"],
+      "2ms": ["הכנת", "hekhánta"],
+      "2fs": ["הכנת", "hekhánt"],
+      "3ms": ["הכין", "hekhín"],
+      "3fs": ["הכינה", "hekhína"],
+      "1p": ["הכנו", "hekhánu"],
+      "2mp": ["הכנתם", "hekhantém"],
+      "2fp": ["הכנתן", "hekhantén"],
+      "3p": ["הכינו", "hekhínu"]
+    },
+    "future": {
+      "1s": ["אכין", "akhín"],
+      "2ms": ["תכין", "takhín"],
+      "2fs": ["תכיני", "takhíni"],
+      "3ms": ["יכין", "yakhín"],
+      "3fs": ["תכין", "takhín"],
+      "1p": ["נכין", "nakhín"],
+      "2mp": ["תכינו", "takhínu"],
+      "3p": ["יכינו", "yakhínu"]
+    },
+    "imp": {
+      "ms": ["הכן", "hakhén"],
+      "fs": ["הכיני", "hakhíni"],
+      "mp": ["הכינו", "hakhínu"]
+    },
+    "ex": {
+      "he": "אני צריכה להכין מצגת לישיבה של מחר.",
+      "en": "I need to prepare a presentation for tomorrow's meeting."
+    },
+    "exs": [
+      {
+        "he": "סבתא הכינה לנו מרק עוף כשהיינו חולים.",
+        "en": "Grandma made us chicken soup when we were sick.",
+        "form": "הכינה"
+      },
+      {
+        "he": "בבוקר אני מכין קפה לכל המשפחה.",
+        "en": "In the morning I make coffee for the whole family.",
+        "form": "מכין"
+      },
+      {
+        "he": "תכינו את המסמכים לפני הפגישה בבנק.",
+        "en": "Get the documents ready before the meeting at the bank.",
+        "form": "תכינו"
+      }
+    ],
+    "note": "To prepare or make something: להכין קפה, להכין דוח. Same root as מוכן (ready) and להתכונן (to get ready). Conjugates like להבין: הכנתי, מכין, אכין."
+  },
+  {
+    "id": "verb_lehashkia",
+    "inf": "להשקיע",
+    "tr": "lehashkía",
+    "en": "to invest",
+    "root": "ש.ק.ע",
+    "binyan": "hifil",
+    "gizra": "guttural (final ע)",
+    "gov": "ב",
+    "level": "B1",
+    "present": {
+      "ms": ["משקיע", "mashkía"],
+      "fs": ["משקיעה", "mashki'á"],
+      "mp": ["משקיעים", "mashki'ím"],
+      "fp": ["משקיעות", "mashki'ót"]
+    },
+    "past": {
+      "1s": ["השקעתי", "hishkáti"],
+      "2ms": ["השקעת", "hishkáta"],
+      "2fs": ["השקעת", "hishká'at"],
+      "3ms": ["השקיע", "hishkía"],
+      "3fs": ["השקיעה", "hishkí'a"],
+      "1p": ["השקענו", "hishkánu"],
+      "2mp": ["השקעתם", "hishkatém"],
+      "2fp": ["השקעתן", "hishkatén"],
+      "3p": ["השקיעו", "hishkí'u"]
+    },
+    "future": {
+      "1s": ["אשקיע", "ashkía"],
+      "2ms": ["תשקיע", "tashkía"],
+      "2fs": ["תשקיעי", "tashkí'i"],
+      "3ms": ["ישקיע", "yashkía"],
+      "3fs": ["תשקיע", "tashkía"],
+      "1p": ["נשקיע", "nashkía"],
+      "2mp": ["תשקיעו", "tashkí'u"],
+      "3p": ["ישקיעו", "yashkí'u"]
+    },
+    "imp": {
+      "ms": ["השקע", "hashká"],
+      "fs": ["השקיעי", "hashkí'i"],
+      "mp": ["השקיעו", "hashkí'u"]
+    },
+    "ex": {
+      "he": "החברה השקיעה הרבה כסף בפיתוח המוצר החדש.",
+      "en": "The company invested a lot of money in developing the new product."
+    },
+    "exs": [
+      {
+        "he": "השקענו הרבה זמן בשיפוץ הדירה.",
+        "en": "We put a lot of time into renovating the apartment.",
+        "form": "השקענו"
+      },
+      {
+        "he": "טיגיסט משקיעה בלימודים ומקבלת ציונים מצוינים.",
+        "en": "Tigist works hard at her studies and gets excellent grades.",
+        "form": "משקיעה"
+      },
+      {
+        "he": "בשנה הבאה החברה תשקיע יותר בהדרכת עובדים.",
+        "en": "Next year the company will invest more in staff training.",
+        "form": "תשקיע"
+      }
+    ],
+    "note": "להשקיע ב + thing: להשקיע בחברה / בפרסום. Also = to put real effort in: היא ממש השקיעה בפרויקט. משקיע = investor; השקעה = investment."
+  },
+  {
+    "id": "verb_lehitkasher",
+    "inf": "להתקשר",
+    "tr": "lehitkashér",
+    "en": "to call (by phone), to phone",
+    "root": "ק.ש.ר",
+    "binyan": "hitpael",
+    "gizra": "regular (שלמים)",
+    "gov": "ל",
+    "level": "A2",
+    "present": {
+      "ms": ["מתקשר", "mitkashér"],
+      "fs": ["מתקשרת", "mitkashéret"],
+      "mp": ["מתקשרים", "mitkashrím"],
+      "fp": ["מתקשרות", "mitkashrót"]
+    },
+    "past": {
+      "1s": ["התקשרתי", "hitkashárti"],
+      "2ms": ["התקשרת", "hitkashárta"],
+      "2fs": ["התקשרת", "hitkashárt"],
+      "3ms": ["התקשר", "hitkashér"],
+      "3fs": ["התקשרה", "hitkashrá"],
+      "1p": ["התקשרנו", "hitkashárnu"],
+      "2mp": ["התקשרתם", "hitkashartém"],
+      "2fp": ["התקשרתן", "hitkashartén"],
+      "3p": ["התקשרו", "hitkashrú"]
+    },
+    "future": {
+      "1s": ["אתקשר", "etkashér"],
+      "2ms": ["תתקשר", "titkashér"],
+      "2fs": ["תתקשרי", "titkashrí"],
+      "3ms": ["יתקשר", "yitkashér"],
+      "3fs": ["תתקשר", "titkashér"],
+      "1p": ["נתקשר", "nitkashér"],
+      "2mp": ["תתקשרו", "titkashrú"],
+      "3p": ["יתקשרו", "yitkashrú"]
+    },
+    "imp": {
+      "ms": ["התקשר", "hitkashér"],
+      "fs": ["התקשרי", "hitkashrí"],
+      "mp": ["התקשרו", "hitkashrú"]
+    },
+    "ex": {
+      "he": "אני אתקשר לספק אחרי הישיבה.",
+      "en": "I'll call the supplier after the meeting."
+    },
+    "exs": [
+      {
+        "he": "התקשרתי אלייך פעמיים, אבל לא ענית.",
+        "en": "I called you twice, but you didn't answer.",
+        "form": "התקשרתי"
+      },
+      {
+        "he": "הבנק מתקשר אליי כל יום עם הצעות חדשות.",
+        "en": "The bank calls me every day with new offers.",
+        "form": "מתקשר"
+      },
+      {
+        "he": "תתקשרי אליי כשתגיעי הביתה.",
+        "en": "Call me when you get home.",
+        "form": "תתקשרי"
+      }
+    ],
+    "note": "להתקשר ל + person = to phone someone: התקשרתי לרופא. With pronouns you'll also hear אל: תתקשר אליי. Speakers mostly use the future forms as the imperative: תתקשר / תתקשרי / תתקשרו (the standard התקשר! sounds formal). שיחה = a call."
+  },
+  {
+    "id": "verb_lehishtamesh",
+    "inf": "להשתמש",
+    "tr": "lehishtamésh",
+    "en": "to use",
+    "root": "ש.מ.ש",
+    "binyan": "hitpael",
+    "gizra": "hitpael with metathesis (ת/ש swap)",
+    "gov": "ב",
+    "level": "A2",
+    "present": {
+      "ms": ["משתמש", "mishtamésh"],
+      "fs": ["משתמשת", "mishtaméshet"],
+      "mp": ["משתמשים", "mishtamshím"],
+      "fp": ["משתמשות", "mishtamshót"]
+    },
+    "past": {
+      "1s": ["השתמשתי", "hishtamáshti"],
+      "2ms": ["השתמשת", "hishtamáshta"],
+      "2fs": ["השתמשת", "hishtamásht"],
+      "3ms": ["השתמש", "hishtamésh"],
+      "3fs": ["השתמשה", "hishtamshá"],
+      "1p": ["השתמשנו", "hishtamáshnu"],
+      "2mp": ["השתמשתם", "hishtamashtém"],
+      "2fp": ["השתמשתן", "hishtamashtén"],
+      "3p": ["השתמשו", "hishtamshú"]
+    },
+    "future": {
+      "1s": ["אשתמש", "eshtamésh"],
+      "2ms": ["תשתמש", "tishtamésh"],
+      "2fs": ["תשתמשי", "tishtamshí"],
+      "3ms": ["ישתמש", "yishtamésh"],
+      "3fs": ["תשתמש", "tishtamésh"],
+      "1p": ["נשתמש", "nishtamésh"],
+      "2mp": ["תשתמשו", "tishtamshú"],
+      "3p": ["ישתמשו", "yishtamshú"]
+    },
+    "imp": {
+      "ms": ["השתמש", "hishtamésh"],
+      "fs": ["השתמשי", "hishtamshí"],
+      "mp": ["השתמשו", "hishtamshú"]
+    },
+    "ex": {
+      "he": "אנחנו משתמשים בתוכנה חדשה לניהול פרויקטים.",
+      "en": "We use new project-management software."
+    },
+    "exs": [
+      {
+        "he": "השתמשתי במתכון של אמא שלי לעוגה הזאת.",
+        "en": "I used my mother's recipe for this cake.",
+        "form": "השתמשתי"
+      },
+      {
+        "he": "דבורה משתמשת באפליקציה כדי ללמוד מילים חדשות.",
+        "en": "Dvora uses an app to learn new words.",
+        "form": "משתמשת"
+      },
+      {
+        "he": "מהשבוע הבא כל העובדים ישתמשו במערכת החדשה.",
+        "en": "From next week all the employees will use the new system.",
+        "form": "ישתמשו"
+      }
+    ],
+    "note": "Always with ב (never את): להשתמש במחשב / בכרטיס אשראי. משתמש = user. The ת of הת- swaps places with the root's ש: השתמשתי, not התשמשתי."
+  },
+  {
+    "id": "verb_lehitkonen",
+    "inf": "להתכונן",
+    "tr": "lehitkonén",
+    "en": "to get ready, to prepare (oneself)",
+    "root": "כ.ו.ן",
+    "binyan": "hitpael",
+    "gizra": "ע״ו (hollow), doubled נ",
+    "gov": "ל",
+    "level": "B1",
+    "present": {
+      "ms": ["מתכונן", "mitkonén"],
+      "fs": ["מתכוננת", "mitkonénet"],
+      "mp": ["מתכוננים", "mitkonením"],
+      "fp": ["מתכוננות", "mitkonenót"]
+    },
+    "past": {
+      "1s": ["התכוננתי", "hitkonánti"],
+      "2ms": ["התכוננת", "hitkonánta"],
+      "2fs": ["התכוננת", "hitkonánt"],
+      "3ms": ["התכונן", "hitkonén"],
+      "3fs": ["התכוננה", "hitkonená"],
+      "1p": ["התכוננו", "hitkonánu"],
+      "2mp": ["התכוננתם", "hitkonantém"],
+      "2fp": ["התכוננתן", "hitkonantén"],
+      "3p": ["התכוננו", "hitkonenú"]
+    },
+    "future": {
+      "1s": ["אתכונן", "etkonén"],
+      "2ms": ["תתכונן", "titkonén"],
+      "2fs": ["תתכונני", "titkonení"],
+      "3ms": ["יתכונן", "yitkonén"],
+      "3fs": ["תתכונן", "titkonén"],
+      "1p": ["נתכונן", "nitkonén"],
+      "2mp": ["תתכוננו", "titkonenú"],
+      "3p": ["יתכוננו", "yitkonenú"]
+    },
+    "imp": {
+      "ms": ["התכונן", "hitkonén"],
+      "fs": ["התכונני", "hitkonení"],
+      "mp": ["התכוננו", "hitkonenú"]
+    },
+    "ex": {
+      "he": "כל הצוות מתכונן לכנס בשבוע הבא.",
+      "en": "The whole team is getting ready for next week's conference."
+    },
+    "exs": [
+      {
+        "he": "התכוננתי לראיון העבודה כל סוף השבוע.",
+        "en": "I prepared for the job interview all weekend.",
+        "form": "התכוננתי"
+      },
+      {
+        "he": "הסטודנטים מתכוננים למבחן בספרייה.",
+        "en": "The students are preparing for the exam in the library.",
+        "form": "מתכוננים"
+      },
+      {
+        "he": "אתכונן למצגת בסוף השבוע, כשיהיה לי שקט.",
+        "en": "I'll prepare for the presentation at the weekend, when it's quiet.",
+        "form": "אתכונן"
+      }
+    ],
+    "note": "להתכונן ל = to get ready for: להתכונן לראיון עבודה / למצגת. Compare להכין את (to prepare something), same root כ.ו.ן. The נ is doubled throughout, so 'we got ready' (hitkonánu) and 'they got ready' (hitkonenú) are both spelled התכוננו."
+  },
+  {
+    "id": "verb_lehitanyen",
+    "inf": "להתעניין",
+    "tr": "lehit'anyén",
+    "en": "to be interested (in)",
+    "root": "ע.נ.י.ן",
+    "binyan": "hitpael",
+    "gizra": "4-letter root (מרובעים)",
+    "gov": "ב",
+    "level": "B1",
+    "present": {
+      "ms": ["מתעניין", "mit'anyén"],
+      "fs": ["מתעניינת", "mit'anyénet"],
+      "mp": ["מתעניינים", "mit'anyením"],
+      "fp": ["מתעניינות", "mit'anyenót"]
+    },
+    "past": {
+      "1s": ["התעניינתי", "hit'anyánti"],
+      "2ms": ["התעניינת", "hit'anyánta"],
+      "2fs": ["התעניינת", "hit'anyánt"],
+      "3ms": ["התעניין", "hit'anyén"],
+      "3fs": ["התעניינה", "hit'anyená"],
+      "1p": ["התעניינו", "hit'anyánu"],
+      "2mp": ["התעניינתם", "hit'anyantém"],
+      "2fp": ["התעניינתן", "hit'anyantén"],
+      "3p": ["התעניינו", "hit'anyenú"]
+    },
+    "future": {
+      "1s": ["אתעניין", "et'anyén"],
+      "2ms": ["תתעניין", "tit'anyén"],
+      "2fs": ["תתענייני", "tit'anyení"],
+      "3ms": ["יתעניין", "yit'anyén"],
+      "3fs": ["תתעניין", "tit'anyén"],
+      "1p": ["נתעניין", "nit'anyén"],
+      "2mp": ["תתעניינו", "tit'anyenú"],
+      "3p": ["יתעניינו", "yit'anyenú"]
+    },
+    "imp": {
+      "ms": ["התעניין", "hit'anyén"],
+      "fs": ["התענייני", "hit'anyení"],
+      "mp": ["התעניינו", "hit'anyenú"]
+    },
+    "ex": {
+      "he": "אני מתעניינת במשרה שפרסמתם באתר.",
+      "en": "I'm interested in the position you posted on the website."
+    },
+    "exs": [
+      {
+        "he": "כמה לקוחות התעניינו במוצר החדש בתערוכה.",
+        "en": "Several customers showed interest in the new product at the exhibition.",
+        "form": "התעניינו"
+      },
+      {
+        "he": "הבן שלי מתעניין מאוד באסטרונומיה.",
+        "en": "My son is very interested in astronomy.",
+        "form": "מתעניין"
+      },
+      {
+        "he": "אני בטוחה שהם יתעניינו בהצעה שלך.",
+        "en": "I'm sure they'll be interested in your proposal.",
+        "form": "יתעניינו"
+      }
+    ],
+    "note": "Always with ב: להתעניין במשרה / במחיר. 'רציתי להתעניין לגבי...' = I wanted to ask about... (a classic way to open an inquiry call). Same root as מעניין (interesting). The consonant y is written יי."
+  },
+  {
+    "id": "verb_lehityaets",
+    "inf": "להתייעץ",
+    "tr": "lehitya'éts",
+    "en": "to consult, to get advice",
+    "root": "י.ע.ץ",
+    "binyan": "hitpael",
+    "gizra": "guttural (middle ע)",
+    "gov": "עם",
+    "level": "B1",
+    "present": {
+      "ms": ["מתייעץ", "mitya'éts"],
+      "fs": ["מתייעצת", "mitya'étset"],
+      "mp": ["מתייעצים", "mitya'atsím"],
+      "fp": ["מתייעצות", "mitya'atsót"]
+    },
+    "past": {
+      "1s": ["התייעצתי", "hitya'átsti"],
+      "2ms": ["התייעצת", "hitya'átsta"],
+      "2fs": ["התייעצת", "hitya'átst"],
+      "3ms": ["התייעץ", "hitya'éts"],
+      "3fs": ["התייעצה", "hitya'atsá"],
+      "1p": ["התייעצנו", "hitya'átsnu"],
+      "2mp": ["התייעצתם", "hitya'atstém"],
+      "2fp": ["התייעצתן", "hitya'atstén"],
+      "3p": ["התייעצו", "hitya'atsú"]
+    },
+    "future": {
+      "1s": ["אתייעץ", "etya'éts"],
+      "2ms": ["תתייעץ", "titya'éts"],
+      "2fs": ["תתייעצי", "titya'atsí"],
+      "3ms": ["יתייעץ", "yitya'éts"],
+      "3fs": ["תתייעץ", "titya'éts"],
+      "1p": ["נתייעץ", "nitya'éts"],
+      "2mp": ["תתייעצו", "titya'atsú"],
+      "3p": ["יתייעצו", "yitya'atsú"]
+    },
+    "imp": {
+      "ms": ["התייעץ", "hitya'éts"],
+      "fs": ["התייעצי", "hitya'atsí"],
+      "mp": ["התייעצו", "hitya'atsú"]
+    },
+    "ex": {
+      "he": "אני רוצה להתייעץ עם עורכת הדין לפני שנחתום על החוזה.",
+      "en": "I want to consult the lawyer before we sign the contract."
+    },
+    "exs": [
+      {
+        "he": "לפני שקניתי את הרכב, התייעצתי עם חבר שמבין במכוניות.",
+        "en": "Before I bought the car, I consulted a friend who knows about cars.",
+        "form": "התייעצתי"
+      },
+      {
+        "he": "אנחנו תמיד מתייעצים זה עם זה לפני החלטות גדולות.",
+        "en": "We always consult each other before big decisions.",
+        "form": "מתייעצים"
+      },
+      {
+        "he": "אתייעץ עם בעלי ואחזור אלייך מחר.",
+        "en": "I'll talk it over with my husband and get back to you tomorrow.",
+        "form": "אתייעץ"
+      }
+    ],
+    "note": "להתייעץ עם = to consult, to ask advice from: התייעצתי עם המנהלת. 'אפשר להתייעץ איתך רגע?' = can I ask your advice for a moment? יועץ = consultant, ייעוץ = consulting."
+  },
+  {
+    "id": "verb_lehitnatsel",
+    "inf": "להתנצל",
+    "tr": "lehitnatsél",
+    "en": "to apologize",
+    "root": "נ.צ.ל",
+    "binyan": "hitpael",
+    "gizra": "regular (שלמים)",
+    "gov": "על / בפני",
+    "level": "B1",
+    "present": {
+      "ms": ["מתנצל", "mitnatsél"],
+      "fs": ["מתנצלת", "mitnatsélet"],
+      "mp": ["מתנצלים", "mitnatslím"],
+      "fp": ["מתנצלות", "mitnatslót"]
+    },
+    "past": {
+      "1s": ["התנצלתי", "hitnatsálti"],
+      "2ms": ["התנצלת", "hitnatsálta"],
+      "2fs": ["התנצלת", "hitnatsált"],
+      "3ms": ["התנצל", "hitnatsél"],
+      "3fs": ["התנצלה", "hitnatslá"],
+      "1p": ["התנצלנו", "hitnatsálnu"],
+      "2mp": ["התנצלתם", "hitnatsaltém"],
+      "2fp": ["התנצלתן", "hitnatsaltén"],
+      "3p": ["התנצלו", "hitnatslú"]
+    },
+    "future": {
+      "1s": ["אתנצל", "etnatsél"],
+      "2ms": ["תתנצל", "titnatsél"],
+      "2fs": ["תתנצלי", "titnatslí"],
+      "3ms": ["יתנצל", "yitnatsél"],
+      "3fs": ["תתנצל", "titnatsél"],
+      "1p": ["נתנצל", "nitnatsél"],
+      "2mp": ["תתנצלו", "titnatslú"],
+      "3p": ["יתנצלו", "yitnatslú"]
+    },
+    "imp": {
+      "ms": ["התנצל", "hitnatsél"],
+      "fs": ["התנצלי", "hitnatslí"],
+      "mp": ["התנצלו", "hitnatslú"]
+    },
+    "ex": {
+      "he": "אנחנו מתנצלים על העיכוב במשלוח.",
+      "en": "We apologize for the delay in the delivery."
+    },
+    "exs": [
+      {
+        "he": "הנהג התנצל ואמר שהיה פקק ענק.",
+        "en": "The driver apologized and said there had been a huge traffic jam.",
+        "form": "התנצל"
+      },
+      {
+        "he": "אני מתנצלת, לא שמתי לב לשעה.",
+        "en": "I'm sorry, I didn't notice the time.",
+        "form": "מתנצלת"
+      },
+      {
+        "he": "אם תתנצל, היא תסלח לך.",
+        "en": "If you apologize, she'll forgive you.",
+        "form": "תתנצל"
+      }
+    ],
+    "note": "להתנצל על + reason, בפני + person: התנצלתי בפני הלקוח על הטעות. 'אני מתנצל/ת' is more formal than 'סליחה'. התנצלות = apology."
+  },
+  {
+    "id": "verb_lehipagesh",
+    "inf": "להיפגש",
+    "tr": "lehipagésh",
+    "en": "to meet (with)",
+    "root": "פ.ג.ש",
+    "binyan": "nifal",
+    "gizra": "regular (שלמים)",
+    "gov": "עם",
+    "level": "A2",
+    "present": {
+      "ms": ["נפגש", "nifgásh"],
+      "fs": ["נפגשת", "nifgéshet"],
+      "mp": ["נפגשים", "nifgashím"],
+      "fp": ["נפגשות", "nifgashót"]
+    },
+    "past": {
+      "1s": ["נפגשתי", "nifgáshti"],
+      "2ms": ["נפגשת", "nifgáshta"],
+      "2fs": ["נפגשת", "nifgásht"],
+      "3ms": ["נפגש", "nifgásh"],
+      "3fs": ["נפגשה", "nifgeshá"],
+      "1p": ["נפגשנו", "nifgáshnu"],
+      "2mp": ["נפגשתם", "nifgashtém"],
+      "2fp": ["נפגשתן", "nifgashtén"],
+      "3p": ["נפגשו", "nifgeshú"]
+    },
+    "future": {
+      "1s": ["אפגש", "epagésh"],
+      "2ms": ["תיפגש", "tipagésh"],
+      "2fs": ["תיפגשי", "tipagshí"],
+      "3ms": ["ייפגש", "yipagésh"],
+      "3fs": ["תיפגש", "tipagésh"],
+      "1p": ["ניפגש", "nipagésh"],
+      "2mp": ["תיפגשו", "tipagshú"],
+      "3p": ["ייפגשו", "yipagshú"]
+    },
+    "imp": {
+      "ms": ["היפגש", "hipagésh"],
+      "fs": ["היפגשי", "hipagshí"],
+      "mp": ["היפגשו", "hipagshú"]
+    },
+    "ex": {
+      "he": "בואו ניפגש ביום שני בעשר כדי לסגור את הפרטים.",
+      "en": "Let's meet on Monday at ten to finalize the details."
+    },
+    "exs": [
+      {
+        "he": "נפגשנו בפעם הראשונה באוניברסיטה.",
+        "en": "We met for the first time at university.",
+        "form": "נפגשנו"
+      },
+      {
+        "he": "אנחנו נפגשים כל יום שלישי לארוחת צהריים.",
+        "en": "We meet every Tuesday for lunch.",
+        "form": "נפגשים"
+      },
+      {
+        "he": "מתי תיפגשי עם עורכת הדין?",
+        "en": "When will you meet with the lawyer?",
+        "form": "תיפגשי"
+      }
+    ],
+    "note": "להיפגש עם = to meet up with (by arrangement): נפגשתי עם הלקוחה. Compare pa'al לפגוש את = to meet / run into someone. פגישה = meeting."
+  },
+  {
+    "id": "verb_lehikanes",
+    "inf": "להיכנס",
+    "tr": "lehikanés",
+    "en": "to enter, to come in, to go in",
+    "root": "כ.נ.ס",
+    "binyan": "nifal",
+    "gizra": "regular (שלמים)",
+    "gov": "ל",
+    "level": "A2",
+    "present": {
+      "ms": ["נכנס", "nikhnás"],
+      "fs": ["נכנסת", "nikhnéset"],
+      "mp": ["נכנסים", "nikhnasím"],
+      "fp": ["נכנסות", "nikhnasót"]
+    },
+    "past": {
+      "1s": ["נכנסתי", "nikhnásti"],
+      "2ms": ["נכנסת", "nikhnásta"],
+      "2fs": ["נכנסת", "nikhnást"],
+      "3ms": ["נכנס", "nikhnás"],
+      "3fs": ["נכנסה", "nikhnesá"],
+      "1p": ["נכנסנו", "nikhnásnu"],
+      "2mp": ["נכנסתם", "nikhnastém"],
+      "2fp": ["נכנסתן", "nikhnastén"],
+      "3p": ["נכנסו", "nikhnesú"]
+    },
+    "future": {
+      "1s": ["אכנס", "ekanés"],
+      "2ms": ["תיכנס", "tikanés"],
+      "2fs": ["תיכנסי", "tikansí"],
+      "3ms": ["ייכנס", "yikanés"],
+      "3fs": ["תיכנס", "tikanés"],
+      "1p": ["ניכנס", "nikanés"],
+      "2mp": ["תיכנסו", "tikansú"],
+      "3p": ["ייכנסו", "yikansú"]
+    },
+    "imp": {
+      "ms": ["היכנס", "hikanés"],
+      "fs": ["היכנסי", "hikansí"],
+      "mp": ["היכנסו", "hikansú"]
+    },
+    "ex": {
+      "he": "אפשר להיכנס? יש לי שאלה קצרה.",
+      "en": "May I come in? I have a quick question."
+    },
+    "exs": [
+      {
+        "he": "נכנסתי לחנות רק כדי לקנות מים.",
+        "en": "I went into the shop just to buy water.",
+        "form": "נכנסתי"
+      },
+      {
+        "he": "הילדים נכנסים לכיתה בשמונה בבוקר.",
+        "en": "The children go into class at eight in the morning.",
+        "form": "נכנסים"
+      },
+      {
+        "he": "תיכנסו, הדלת פתוחה!",
+        "en": "Come in, the door's open!",
+        "form": "תיכנסו"
+      }
+    ],
+    "note": "להיכנס ל + place: נכנסתי למשרד. Also = to log in: להיכנס למערכת. When someone knocks, say 'כן, תיכנס!' / 'תיכנסי!'; היכנס is the formal, written imperative. כניסה = entrance."
+  },
+  {
+    "id": "verb_lehishaer",
+    "inf": "להישאר",
+    "tr": "lehisha'ér",
+    "en": "to stay, to remain",
+    "root": "ש.א.ר",
+    "binyan": "nifal",
+    "gizra": "guttural (middle א)",
+    "gov": "ב",
+    "level": "A2",
+    "present": {
+      "ms": ["נשאר", "nish'ár"],
+      "fs": ["נשארת", "nish'éret"],
+      "mp": ["נשארים", "nish'arím"],
+      "fp": ["נשארות", "nish'arót"]
+    },
+    "past": {
+      "1s": ["נשארתי", "nish'árti"],
+      "2ms": ["נשארת", "nish'árta"],
+      "2fs": ["נשארת", "nish'árt"],
+      "3ms": ["נשאר", "nish'ár"],
+      "3fs": ["נשארה", "nish'ará"],
+      "1p": ["נשארנו", "nish'árnu"],
+      "2mp": ["נשארתם", "nish'artém"],
+      "2fp": ["נשארתן", "nish'artén"],
+      "3p": ["נשארו", "nish'arú"]
+    },
+    "future": {
+      "1s": ["אשאר", "esha'ér"],
+      "2ms": ["תישאר", "tisha'ér"],
+      "2fs": ["תישארי", "tisha'arí"],
+      "3ms": ["יישאר", "yisha'ér"],
+      "3fs": ["תישאר", "tisha'ér"],
+      "1p": ["נישאר", "nisha'ér"],
+      "2mp": ["תישארו", "tisha'arú"],
+      "3p": ["יישארו", "yisha'arú"]
+    },
+    "imp": {
+      "ms": ["הישאר", "hisha'ér"],
+      "fs": ["הישארי", "hisha'arí"],
+      "mp": ["הישארו", "hisha'arú"]
+    },
+    "ex": {
+      "he": "אני נשאר היום במשרד עד מאוחר.",
+      "en": "I'm staying late at the office today."
+    },
+    "exs": [
+      {
+        "he": "בגלל הגשם נשארנו בבית כל השבת.",
+        "en": "Because of the rain we stayed at home all Saturday.",
+        "form": "נשארנו"
+      },
+      {
+        "he": "הם נשארים אצל ההורים שלה עד סוף החודש.",
+        "en": "They're staying with her parents until the end of the month.",
+        "form": "נשארים"
+      },
+      {
+        "he": "כמה זמן תישארי בארץ?",
+        "en": "How long will you stay in Israel?",
+        "form": "תישארי"
+      }
+    ],
+    "note": "Also = to be left: נשארו לנו יומיים (we have two days left). Recorded phone menus say 'אנא הישארו על הקו' = please stay on the line; in conversation people say תישאר / תישארי."
+  },
+  {
+    "id": "verb_leherashem",
+    "inf": "להירשם",
+    "tr": "leherashém",
+    "en": "to register, to sign up",
+    "root": "ר.ש.ם",
+    "binyan": "nifal",
+    "gizra": "guttural (initial ר)",
+    "gov": "ל",
+    "level": "B1",
+    "present": {
+      "ms": ["נרשם", "nirshám"],
+      "fs": ["נרשמת", "nirshémet"],
+      "mp": ["נרשמים", "nirshamím"],
+      "fp": ["נרשמות", "nirshamót"]
+    },
+    "past": {
+      "1s": ["נרשמתי", "nirshámti"],
+      "2ms": ["נרשמת", "nirshámta"],
+      "2fs": ["נרשמת", "nirshámt"],
+      "3ms": ["נרשם", "nirshám"],
+      "3fs": ["נרשמה", "nirshemá"],
+      "1p": ["נרשמנו", "nirshámnu"],
+      "2mp": ["נרשמתם", "nirshamtém"],
+      "2fp": ["נרשמתן", "nirshamtén"],
+      "3p": ["נרשמו", "nirshemú"]
+    },
+    "future": {
+      "1s": ["אירשם", "erashém"],
+      "2ms": ["תירשם", "terashém"],
+      "2fs": ["תירשמי", "terashmí"],
+      "3ms": ["יירשם", "yerashém"],
+      "3fs": ["תירשם", "terashém"],
+      "1p": ["נירשם", "nerashém"],
+      "2mp": ["תירשמו", "terashmú"],
+      "3p": ["יירשמו", "yerashmú"]
+    },
+    "imp": {
+      "ms": ["הירשם", "herashém"],
+      "fs": ["הירשמי", "herashmí"],
+      "mp": ["הירשמו", "herashmú"]
+    },
+    "ex": {
+      "he": "נרשמתי לקורס ניהול פרויקטים דרך העבודה.",
+      "en": "I signed up for a project management course through work."
+    },
+    "exs": [
+      {
+        "he": "יותר ממאה איש נרשמו לכנס השנה.",
+        "en": "More than a hundred people signed up for the conference this year.",
+        "form": "נרשמו"
+      },
+      {
+        "he": "הרבה סטודנטים נרשמים לקורס הזה בגלל המרצה.",
+        "en": "Lots of students sign up for this course because of the lecturer.",
+        "form": "נרשמים"
+      },
+      {
+        "he": "הבת שלי תירשם לחוג ציור בשנה הבאה.",
+        "en": "My daughter will sign up for an art class next year.",
+        "form": "תירשם"
+      }
+    ],
+    "note": "להירשם ל = to sign up / register for: להירשם לכנס, לאתר. הרשמה = registration. Because ר can't be doubled, the standard pronunciation has e (leherashém, terashém); in everyday speech you'll also hear lehirashém, tirashém."
+  },
+  {
+    "id": "verb_lehizaher",
+    "inf": "להיזהר",
+    "tr": "lehizahér",
+    "en": "to be careful, to watch out",
+    "root": "ז.ה.ר",
+    "binyan": "nifal",
+    "gizra": "guttural (middle ה)",
+    "gov": "מ",
+    "level": "B1",
+    "present": {
+      "ms": ["נזהר", "nizhár"],
+      "fs": ["נזהרת", "nizhéret"],
+      "mp": ["נזהרים", "nizharím"],
+      "fp": ["נזהרות", "nizharót"]
+    },
+    "past": {
+      "1s": ["נזהרתי", "nizhárti"],
+      "2ms": ["נזהרת", "nizhárta"],
+      "2fs": ["נזהרת", "nizhárt"],
+      "3ms": ["נזהר", "nizhár"],
+      "3fs": ["נזהרה", "nizhará"],
+      "1p": ["נזהרנו", "nizhárnu"],
+      "2mp": ["נזהרתם", "nizhartém"],
+      "2fp": ["נזהרתן", "nizhartén"],
+      "3p": ["נזהרו", "nizharú"]
+    },
+    "future": {
+      "1s": ["אזהר", "ezahér"],
+      "2ms": ["תיזהר", "tizahér"],
+      "2fs": ["תיזהרי", "tizaharí"],
+      "3ms": ["ייזהר", "yizahér"],
+      "3fs": ["תיזהר", "tizahér"],
+      "1p": ["ניזהר", "nizahér"],
+      "2mp": ["תיזהרו", "tizaharú"],
+      "3p": ["ייזהרו", "yizaharú"]
+    },
+    "imp": {
+      "ms": ["היזהר", "hizahér"],
+      "fs": ["היזהרי", "hizaharí"],
+      "mp": ["היזהרו", "hizaharú"]
+    },
+    "ex": {
+      "he": "צריך להיזהר ממיילים חשודים שמבקשים סיסמה.",
+      "en": "You have to watch out for suspicious emails that ask for a password."
+    },
+    "exs": [
+      {
+        "he": "נזהרנו מאוד לא להעיר את התינוק.",
+        "en": "We were very careful not to wake the baby.",
+        "form": "נזהרנו"
+      },
+      {
+        "he": "כשיורד גשם, הנהגים נזהרים יותר בכביש.",
+        "en": "When it rains, drivers are more careful on the road.",
+        "form": "נזהרים"
+      },
+      {
+        "he": "תיזהרי, הצלחת חמה מאוד!",
+        "en": "Careful, the plate is very hot!",
+        "form": "תיזהרי"
+      }
+    ],
+    "note": "להיזהר מ = to beware of; להיזהר עם = to be careful with. In speech: 'תיזהר!' / 'תיזהרי!' = careful! (היזהר is the formal form). זהירות = caution, as on signs: זהירות, רצפה רטובה."
+  }
+]

@@ -1,0 +1,1354 @@
+[
+  {
+    "id": "vc1c_reshut_mekomit",
+    "he": "רשות מקומית",
+    "tr": "reshút mekomít",
+    "en": "local authority",
+    "enAlt": ["local council", "local government", "local government body"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "רשויות מקומיות",
+    "level": "B2",
+    "topic": "civics",
+    "ex": {
+      "he": "בישראל יש שלושה סוגים של רשויות מקומיות: עיריות, מועצות מקומיות ומועצות אזוריות.",
+      "en": "Israel has three kinds of local authority: municipalities, local councils and regional councils."
+    },
+    "note": "The umbrella term for any local government body. A town with city status is run by an עירייה, a smaller town by a מועצה מקומית, and a מועצה אזורית groups villages, moshavim and kibbutzim."
+  },
+  {
+    "id": "vc1c_moetsa",
+    "he": "מועצה",
+    "tr": "mo'etsá",
+    "en": "council",
+    "enAlt": ["board", "local council"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "מועצות",
+    "root": "י.ע.צ",
+    "level": "B2",
+    "topic": "civics",
+    "ex": {
+      "he": "מועצת העיר תדון בשבוע הבא בתוכנית להרחבת שבילי האופניים.",
+      "en": "The city council will discuss the plan to extend the bike paths next week."
+    },
+    "note": "Construct form מועצת: מועצת העיר = the city council (the elected body, unlike העירייה, the administration). Same root as יועץ (adviser) and לייעץ (to advise)."
+  },
+  {
+    "id": "vc1c_misrad_memshalti",
+    "he": "משרד ממשלתי",
+    "tr": "misrád memshaltí",
+    "en": "government ministry",
+    "enAlt": ["government office", "government department", "ministry"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "משרדים ממשלתיים",
+    "level": "B2",
+    "topic": "civics",
+    "ex": {
+      "he": "כמה משרדים ממשלתיים כבר מאפשרים להגיש את רוב הבקשות באופן מקוון.",
+      "en": "Several government ministries already let you submit most applications online."
+    },
+    "note": "Each ministry is משרד + its field: משרד הבריאות, משרד החינוך, משרד האוצר (Finance). It is headed by a שר or שרה (minister), and its top civil servant is the מנכ״ל (director-general). Also משרדי הממשלה = the government ministries."
+  },
+  {
+    "id": "vc1c_khaver_kneset",
+    "he": "חבר כנסת",
+    "tr": "khavér knéset",
+    "en": "member of the Knesset",
+    "enAlt": ["MK", "Knesset member", "member of parliament", "MP"],
+    "alt": ["ח״כ"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "חברי כנסת",
+    "level": "B2",
+    "topic": "civics",
+    "ex": {
+      "he": "כל חבר כנסת רשאי להגיש הצעת חוק פרטית.",
+      "en": "Any member of the Knesset may submit a private member's bill."
+    },
+    "note": "Written ח״כ before a name (ח״כ כהן = MK Cohen). Feminine: חברת כנסת. The Knesset has 120 seats. רשאי = permitted, entitled (formal)."
+  },
+  {
+    "id": "vc1c_hatsaat_khok",
+    "he": "הצעת חוק",
+    "tr": "hatsa'át khok",
+    "en": "bill (draft law)",
+    "enAlt": ["bill", "draft law", "proposed law", "legislative bill"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "הצעות חוק",
+    "level": "C1",
+    "topic": "civics",
+    "ex": {
+      "he": "הצעת החוק אושרה בקריאה ראשונה, וכעת היא תידון בוועדה לפני הקריאה השנייה והשלישית.",
+      "en": "The bill was approved in its first reading, and now it will be discussed in committee before the second and third readings."
+    },
+    "note": "With 'the', the ה goes on the second word: הצעת החוק. A bill becomes law only after three readings (קריאה ראשונה, שנייה ושלישית) in the Knesset plenum; a bill put forward by an individual MK is a הצעת חוק פרטית, and it must first pass a preliminary reading (קריאה טרומית). כעת = now (formal)."
+  },
+  {
+    "id": "vc1c_melia",
+    "he": "מליאה",
+    "tr": "mli'á",
+    "en": "plenum",
+    "enAlt": ["plenary session", "plenary", "full assembly"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "מליאות",
+    "root": "מ.ל.א",
+    "level": "C1",
+    "topic": "civics",
+    "ex": {
+      "he": "הדיון במליאת הכנסת נמשך עד אחרי חצות.",
+      "en": "The debate in the Knesset plenum went on until after midnight."
+    },
+    "note": "From מלא (full): the whole body sitting together, as opposed to a ועדה (committee). Construct: מליאת. A city council also holds ישיבות מליאה (plenary meetings)."
+  },
+  {
+    "id": "vc1c_regulatsya",
+    "he": "רגולציה",
+    "tr": "regulátsya",
+    "en": "regulation (official oversight)",
+    "enAlt": ["regulation", "government regulation", "regulatory oversight"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "רגולציות",
+    "level": "C1",
+    "topic": "civics",
+    "ex": {
+      "he": "חברות רבות טוענות שהרגולציה בענף הבנייה מעכבת פרויקטים חדשים.",
+      "en": "Many companies claim that regulation in the construction industry is holding up new projects."
+    },
+    "note": "Mainly the system of state oversight of a sector; the body that does it is a רגולטור (regulator). A single binding rule issued under a law is a תקנה, although people also speak loosely of רגולציה חדשה (new rules)."
+  },
+  {
+    "id": "vc1c_oved_medina",
+    "he": "עובד מדינה",
+    "tr": "ovéd medína",
+    "en": "civil servant",
+    "enAlt": ["public servant", "government employee", "state employee"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "עובדי מדינה",
+    "level": "C1",
+    "topic": "civics",
+    "ex": {
+      "he": "עובד מדינה צריך לקבל אישור לפני שהוא לוקח עבודה נוספת.",
+      "en": "A civil servant needs approval before taking on an additional job."
+    },
+    "note": "Feminine: עובדת מדינה. The civil service as a whole is שירות המדינה, managed by נציבות שירות המדינה (the Civil Service Commission)."
+  },
+  {
+    "id": "vc1c_sherut_tsiburi",
+    "he": "שירות ציבורי",
+    "tr": "sherút tsiburí",
+    "en": "public service (the public sector)",
+    "enAlt": ["public service", "public sector", "civil service"],
+    "pos": "noun",
+    "gender": "m",
+    "root": "ש.ר.ת",
+    "level": "C1",
+    "topic": "civics",
+    "ex": {
+      "he": "אחרי עשר שנים בהייטק, נועה החליטה לעבור לשירות הציבורי.",
+      "en": "After ten years in high-tech, Noa decided to move to the public service."
+    },
+    "note": "Usually with the article: השירות הציבורי = everyone employed by the state, local authorities and other public bodies; שירות המדינה is the narrower term for the government ministries. Careful with the plural: שירותים ציבוריים is 'public services', but on a sign it usually means public toilets."
+  },
+  {
+    "id": "vc1c_ezrakhut",
+    "he": "אזרחות",
+    "tr": "ezrakhút",
+    "en": "citizenship",
+    "enAlt": ["civics", "citizenship studies"],
+    "pos": "noun",
+    "gender": "f",
+    "root": "א.ז.ר.ח",
+    "level": "B2",
+    "topic": "civics",
+    "ex": {
+      "he": "בשיעורי אזרחות לומדים התלמידים על מבנה השלטון ועל זכויות האזרח.",
+      "en": "In civics lessons, pupils learn about the structure of government and about civil rights."
+    },
+    "note": "Two meanings: citizenship (קיבלה אזרחות ישראלית = she received Israeli citizenship) and civics, a compulsory בגרות subject. A citizen is an אזרח (fem. אזרחית). Not 'nationality' in the Israeli sense: that is לאום, a separate category."
+  },
+  {
+    "id": "vc1c_shkifut",
+    "he": "שקיפות",
+    "tr": "shkifút",
+    "en": "transparency",
+    "enAlt": ["openness"],
+    "pos": "noun",
+    "gender": "f",
+    "root": "ש.ק.פ",
+    "level": "C1",
+    "topic": "civics",
+    "ex": {
+      "he": "העירייה החליטה לפרסם את כל החוזים שלה באתר, מתוך מחויבות לשקיפות.",
+      "en": "The municipality decided to publish all its contracts on its website, out of a commitment to transparency."
+    },
+    "note": "From שקוף (transparent, see-through). Common collocations: שקיפות מלאה (full transparency), חוסר שקיפות (lack of transparency)."
+  },
+  {
+    "id": "vc1c_yishum",
+    "he": "יישום",
+    "tr": "yishúm",
+    "en": "implementation",
+    "enAlt": ["application", "applying", "carrying out"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "יישומים",
+    "root": "י.ש.מ",
+    "level": "C1",
+    "topic": "civics",
+    "ex": {
+      "he": "החוק אושר לפני שנתיים, אך יישומו מתעכב בשל מגבלות תקציב.",
+      "en": "The law was approved two years ago, but its implementation is being held up by budget constraints."
+    },
+    "note": "Verb: ליישם (to implement, to apply). יישומו = היישום שלו (formal possessive suffix). In computing, יישום is the formal word for an application (program); everyday Hebrew says אפליקציה."
+  },
+  {
+    "id": "vc1c_byurokratya",
+    "he": "בירוקרטיה",
+    "tr": "byurokrátya",
+    "en": "bureaucracy",
+    "enAlt": ["red tape"],
+    "alt": ["ביורוקרטיה"],
+    "pos": "noun",
+    "gender": "f",
+    "level": "B2",
+    "topic": "civics",
+    "ex": {
+      "he": "כדי לפתוח עסק קטן צריך לעבור לא מעט בירוקרטיה.",
+      "en": "To open a small business you have to go through quite a lot of red tape."
+    },
+    "note": "Adjective: בירוקרטי. Its partner in everyday complaints is סחבת (foot-dragging, endless delays)."
+  },
+  {
+    "id": "vc1c_nivkhar_tsibur",
+    "he": "נבחר ציבור",
+    "tr": "nivkhár tsibúr",
+    "en": "elected official",
+    "enAlt": ["elected representative", "public representative"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "נבחרי ציבור",
+    "level": "C1",
+    "topic": "civics",
+    "ex": {
+      "he": "נבחר ציבור אמור לייצג את כל התושבים, גם את אלה שלא הצביעו בעדו.",
+      "en": "An elected official is supposed to represent all residents, including those who didn't vote for them."
+    },
+    "note": "Feminine: נבחרת ציבור. Covers anyone elected: MKs, mayors, members of a city council. להצביע בעד = to vote for; להצביע נגד = to vote against."
+  },
+  {
+    "id": "vc1c_bkhirot",
+    "he": "בחירות",
+    "tr": "bkhirót",
+    "en": "elections",
+    "enAlt": ["election", "the polls"],
+    "pos": "noun",
+    "gender": "f",
+    "level": "B2",
+    "topic": "civics",
+    "ex": {
+      "he": "יום הבחירות לכנסת הוא יום חופש, כדי שכולם יוכלו להגיע לקלפי.",
+      "en": "Election day for the Knesset is a day off, so that everyone can get to the polling station."
+    },
+    "note": "Plural in this sense; the singular בחירה means 'choice'. בחירות מקומיות = local elections; שיעור ההצבעה = turnout."
+  },
+  {
+    "id": "vc1c_kalpi",
+    "he": "קלפי",
+    "tr": "kalpí",
+    "en": "polling station; ballot box",
+    "enAlt": ["polling station", "ballot box", "polls"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "קלפיות",
+    "level": "C1",
+    "topic": "civics",
+    "ex": {
+      "he": "הקלפי בבית הספר השכונתי נפתחת בשבע בבוקר.",
+      "en": "The polling station at the neighbourhood school opens at seven in the morning."
+    },
+    "note": "Feminine: הקלפי נפתחת. An old word (already in the Mishnah) for an urn used to draw lots. ללכת לקלפי = to go and vote."
+  },
+  {
+    "id": "vc1c_hatsbaa",
+    "he": "הצבעה",
+    "tr": "hatsba'á",
+    "en": "vote; voting",
+    "enAlt": ["vote", "voting", "ballot"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "הצבעות",
+    "root": "צ.ב.ע",
+    "level": "B2",
+    "topic": "civics",
+    "ex": {
+      "he": "ההצבעה בוועדה נדחתה בשבוע, כי חלק מהחברים לא הגיעו.",
+      "en": "The vote in the committee was postponed by a week because some of the members didn't turn up."
+    },
+    "note": "Verb: להצביע (to vote; also to point). Linked to אצבע (finger): you point, or raise a hand, to vote. להצביע על = to point at, to point out."
+  },
+  {
+    "id": "vc1c_haktsaa",
+    "he": "הקצאה",
+    "tr": "haktsa'á",
+    "en": "allocation",
+    "enAlt": ["allotment", "allocating"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "הקצאות",
+    "root": "ק.צ.ה",
+    "level": "C1",
+    "topic": "civics",
+    "ex": {
+      "he": "הוויכוח העיקרי בוועדה היה על הקצאת הקרקע לבית הספר החדש.",
+      "en": "The main argument in the committee was over the allocation of land for the new school."
+    },
+    "note": "Verb: להקצות (to allocate): העירייה הקצתה מיליון שקל לפרויקט. Construct: הקצאת."
+  },
+  {
+    "id": "vc1c_nohal",
+    "he": "נוהל",
+    "tr": "nóhal",
+    "en": "procedure",
+    "enAlt": ["protocol", "guideline", "rule"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "נהלים",
+    "root": "נ.ה.ל",
+    "level": "C1",
+    "topic": "civics",
+    "ex": {
+      "he": "לפי הנוהל החדש, כל בקשה תטופל תוך שלושים ימי עבודה.",
+      "en": "Under the new procedure, every request will be handled within thirty working days."
+    },
+    "note": "Plural נהלים (nehalím), not נוהלים. At work: זה הנוהל = that's the procedure; לפעול לפי הנהלים = to follow the procedures."
+  },
+  {
+    "id": "vc1c_heter",
+    "he": "היתר",
+    "tr": "hetér",
+    "en": "permit",
+    "enAlt": ["permission", "authorisation", "authorization"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "היתרים",
+    "root": "נ.ת.ר",
+    "level": "C1",
+    "topic": "civics",
+    "ex": {
+      "he": "אסור לסגור מרפסת בלי היתר בנייה.",
+      "en": "You're not allowed to enclose a balcony without a building permit."
+    },
+    "note": "היתר בנייה = building permit. A licence (to run a business, to drive) is a רישיון. Spelled exactly like היתר (hayéter, 'the rest') in בין היתר; the context tells you which one it is."
+  },
+  {
+    "id": "vc1c_taba",
+    "he": "תב״ע",
+    "tr": "tabá",
+    "en": "zoning plan",
+    "enAlt": ["town plan", "outline plan", "master plan", "urban building plan"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "תב״עות",
+    "level": "C1",
+    "topic": "civics",
+    "ex": {
+      "he": "לפי התב״ע, מותר לבנות במגרש הזה עד שש קומות.",
+      "en": "According to the zoning plan, up to six storeys may be built on this plot."
+    },
+    "note": "Short for תוכנית בניין עיר. Before buying or extending a home, people check the תב״ע at the local planning committee (הוועדה המקומית לתכנון ובנייה)."
+  },
+  {
+    "id": "vc1c_mevaker_hamedina",
+    "he": "מבקר המדינה",
+    "tr": "mevakér hamedína",
+    "en": "State Comptroller",
+    "enAlt": ["state comptroller", "comptroller", "auditor general"],
+    "pos": "noun",
+    "gender": "m",
+    "level": "C1",
+    "topic": "civics",
+    "ex": {
+      "he": "מבקר המדינה בוחן אם משרדי הממשלה מנהלים את כספי הציבור כראוי.",
+      "en": "The State Comptroller examines whether government ministries manage public funds properly."
+    },
+    "note": "Audits ministries, local authorities and other public bodies and reports to the Knesset; the same person also serves as נציב תלונות הציבור (the Ombudsman). The annual report is דוח מבקר המדינה. כראוי = properly (formal)."
+  },
+  {
+    "id": "vc1c_netsiv_tlunot_hatsibur",
+    "he": "נציב תלונות הציבור",
+    "tr": "netsív tlunót hatsibúr",
+    "en": "ombudsman",
+    "enAlt": ["Public Complaints Commissioner", "ombudsperson"],
+    "pos": "noun",
+    "gender": "m",
+    "level": "C1",
+    "topic": "civics",
+    "ex": {
+      "he": "אם פניתם למשרד ממשלתי ולא קיבלתם תשובה, אפשר להגיש תלונה לנציב תלונות הציבור.",
+      "en": "If you contacted a government ministry and didn't get an answer, you can file a complaint with the Ombudsman."
+    },
+    "note": "Literally 'commissioner of public complaints'. נציב = commissioner, נציבות = commission: נציבות שוויון זכויות לאנשים עם מוגבלות (the disability rights commission)."
+  },
+  {
+    "id": "vc1c_shituf_tsibur",
+    "he": "שיתוף ציבור",
+    "tr": "shitúf tsibúr",
+    "en": "public participation",
+    "enAlt": ["public consultation", "public engagement", "community participation"],
+    "pos": "noun",
+    "gender": "m",
+    "level": "C1",
+    "topic": "civics",
+    "ex": {
+      "he": "לפני שינוי התוכנית, העירייה קיימה הליך של שיתוף ציבור עם תושבי השכונה.",
+      "en": "Before changing the plan, the municipality held a public participation process with the neighbourhood's residents."
+    },
+    "note": "Usually in the phrase הליך שיתוף ציבור (a public participation process). הליך = procedure, process (formal)."
+  },
+  {
+    "id": "vc1c_shimua",
+    "he": "שימוע",
+    "tr": "shimú'a",
+    "en": "hearing",
+    "enAlt": ["public hearing", "public consultation", "pre-dismissal hearing"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "שימועים",
+    "root": "ש.מ.ע",
+    "level": "C1",
+    "topic": "civics",
+    "ex": {
+      "he": "הרגולטור פרסם את הטיוטה לשימוע ציבורי, והציבור מוזמן להגיש הערות.",
+      "en": "The regulator published the draft for public consultation, and the public is invited to submit comments."
+    },
+    "note": "Two everyday uses: שימוע ציבורי (a public consultation on a draft rule) and שימוע לפני פיטורים, the hearing an Israeli employer must hold before firing someone."
+  },
+  {
+    "id": "vc1c_hasdara",
+    "he": "הסדרה",
+    "tr": "hasdará",
+    "en": "regulating (a matter); regularisation",
+    "enAlt": ["regularization", "regularisation", "regulation", "putting in order", "settling"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "הסדרות",
+    "root": "ס.ד.ר",
+    "level": "C1",
+    "topic": "civics",
+    "ex": {
+      "he": "העירייה פועלת להסדרת החנייה באזור התעשייה.",
+      "en": "The municipality is working to regulate parking in the industrial zone."
+    },
+    "note": "Verb: להסדיר (to regulate, to settle, to sort out): להסדיר תשלום. Compare הסדר (an arrangement): הסדר תשלומים = a payment plan."
+  },
+  {
+    "id": "vc1c_teken",
+    "he": "תקן",
+    "tr": "téken",
+    "en": "standard; (funded) position",
+    "enAlt": ["standard", "norm", "post", "staff position"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "תקנים",
+    "root": "ת.ק.נ",
+    "level": "C1",
+    "topic": "civics",
+    "ex": {
+      "he": "למחלקה אושרו שני תקנים חדשים, כך שסוף סוף אפשר לגייס עובדים.",
+      "en": "Two new positions were approved for the department, so staff can finally be recruited."
+    },
+    "note": "Two meanings: a standard (מכון התקנים = the Standards Institution of Israel; עומד בתקן = meets the standard) and, in the public sector, a budgeted post: אין תקן = there's no budget for the job."
+  },
+  {
+    "id": "vc1c_agaf",
+    "he": "אגף",
+    "tr": "agáf",
+    "en": "division (of a ministry or city hall)",
+    "enAlt": ["division", "department", "wing", "branch"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "אגפים",
+    "level": "C1",
+    "topic": "civics",
+    "ex": {
+      "he": "אגף ההנדסה בעירייה אחראי על היתרי הבנייה.",
+      "en": "The municipality's engineering division is responsible for building permits."
+    },
+    "note": "Bigger than a מחלקה: a ministry or city hall is split into אגפים, and each אגף into מחלקות. Also a wing of a building: האגף הצפוני של בית החולים."
+  },
+  {
+    "id": "vc1c_shilton_mekomi",
+    "he": "שלטון מקומי",
+    "tr": "shiltón mekomí",
+    "en": "local government",
+    "enAlt": ["local administration", "municipal government"],
+    "pos": "noun",
+    "gender": "m",
+    "level": "C1",
+    "topic": "civics",
+    "ex": {
+      "he": "להחלטות של השלטון המקומי יש השפעה ישירה על חיי היומיום של התושבים.",
+      "en": "Local government decisions have a direct impact on residents' daily lives."
+    },
+    "note": "שלטון = government as a system of rule, unlike ממשלה (the cabinet, the government of the day). מרכז השלטון המקומי = the Union of Local Authorities in Israel."
+  },
+  {
+    "id": "vc1c_mamlakhti",
+    "he": "ממלכתי",
+    "tr": "mamlakhtí",
+    "en": "state (adj.); official",
+    "enAlt": ["state", "state-run", "national", "official", "statesmanlike"],
+    "pos": "adj",
+    "level": "C1",
+    "topic": "civics",
+    "ex": {
+      "he": "הילדים שלנו לומדים בבית ספר ממלכתי ליד הבית.",
+      "en": "Our kids go to a state school near our home."
+    },
+    "note": "From ממלכה (kingdom). חינוך ממלכתי = the state school system; טקס ממלכתי = an official state ceremony; התנהגות ממלכתית = statesmanlike conduct. Fem. ממלכתית."
+  },
+  {
+    "id": "vc1c_munitsipali",
+    "he": "מוניציפלי",
+    "tr": "munitsipáli",
+    "en": "municipal",
+    "enAlt": ["local", "local-government"],
+    "alt": ["מוניציפאלי"],
+    "pos": "adj",
+    "register": "formal",
+    "level": "C1",
+    "topic": "civics",
+    "ex": {
+      "he": "הבחירות המוניציפליות בישראל נערכות אחת לחמש שנים, בנפרד מהבחירות לכנסת.",
+      "en": "Municipal elections in Israel are held once every five years, separately from the Knesset elections."
+    },
+    "note": "A loanword used mostly in formal writing: בחירות מוניציפליות, גבולות מוניציפליים (municipal boundaries). For everyday city things (a city library, a city pool) Hebrew says עירוני. Fem. מוניציפלית, pl. מוניציפליים. Also spelled מוניציפאלי."
+  },
+  {
+    "id": "vc1c_makhoz",
+    "he": "מחוז",
+    "tr": "makhóz",
+    "en": "district",
+    "enAlt": ["region", "province", "county"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מחוזות",
+    "level": "B2",
+    "topic": "civics",
+    "ex": {
+      "he": "משרד החינוך מחולק לכמה מחוזות, ולכל מחוז יש מנהל משלו.",
+      "en": "The Ministry of Education is divided into several districts, and each district has its own director."
+    },
+    "note": "E.g. מחוז הצפון, מחוז המרכז. Adjective מחוזי: בית המשפט המחוזי = the district court."
+  },
+  {
+    "id": "vc1c_guf_tsiburi",
+    "he": "גוף ציבורי",
+    "tr": "guf tsiburí",
+    "en": "public body",
+    "enAlt": ["public institution", "public entity", "public agency"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "גופים ציבוריים",
+    "level": "C1",
+    "topic": "civics",
+    "ex": {
+      "he": "חוק חופש המידע מאפשר לכל אזרח או תושב לבקש מידע מגוף ציבורי.",
+      "en": "The Freedom of Information Law allows any citizen or resident to request information from a public body."
+    },
+    "note": "גוף (body) is the standard formal word for an organisation: גוף פרטי (a private body), גוף ממשלתי, גוף מקצועי."
+  },
+  {
+    "id": "vc1c_maanak",
+    "he": "מענק",
+    "tr": "ma'anák",
+    "en": "grant",
+    "enAlt": ["bonus", "one-off payment", "award"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מענקים",
+    "root": "ע.נ.ק",
+    "level": "B2",
+    "topic": "civics",
+    "ex": {
+      "he": "העירייה מחלקת מענקים לעסקים קטנים שמשפצים את החזית שלהם.",
+      "en": "The municipality hands out grants to small businesses that renovate their storefronts."
+    },
+    "note": "Also a one-off payment at work or from the state: מענק שנתי (annual bonus), מענק לידה (the birth grant from ביטוח לאומי). A monthly allowance is a קצבה, and a subsidy is a סבסוד."
+  },
+  {
+    "id": "vc1c_sibsud",
+    "he": "סבסוד",
+    "tr": "sibsúd",
+    "en": "subsidy; subsidisation",
+    "enAlt": ["subsidy", "subsidization", "subsidisation", "subsidising"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "סבסודים",
+    "root": "ס.ב.ס.ד",
+    "level": "C1",
+    "topic": "civics",
+    "ex": {
+      "he": "בזכות סבסוד ממשלתי, הורים רבים משלמים פחות על מעונות יום.",
+      "en": "Thanks to government subsidies, many parents pay less for daycare centres."
+    },
+    "note": "Verb: לסבסד (to subsidise), a four-letter root. Adjective: מסובסד (subsidised): תחבורה ציבורית מסובסדת."
+  },
+  {
+    "id": "vc1c_dereg",
+    "he": "דרג",
+    "tr": "déreg",
+    "en": "level (of authority); echelon",
+    "enAlt": ["echelon", "level", "rank", "tier"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "דרגים",
+    "root": "ד.ר.ג",
+    "level": "C1",
+    "topic": "civics",
+    "ex": {
+      "he": "הנושא הועבר להחלטה בדרג בכיר יותר במשרד.",
+      "en": "The matter was passed on for a decision at a more senior level in the ministry."
+    },
+    "note": "Common pairs: הדרג המקצועי (career officials) vs. הדרג הנבחר (elected officials); דרג הביניים = middle management. Same root as דרגה (rank) and מדרגה (step)."
+  },
+  {
+    "id": "vc1c_khozer",
+    "he": "חוזר",
+    "tr": "khozér",
+    "en": "circular (official memo)",
+    "enAlt": ["circular", "memo", "official notice", "directive"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "חוזרים",
+    "root": "ח.ז.ר",
+    "level": "C1",
+    "topic": "civics",
+    "ex": {
+      "he": "המשרד הוציא חוזר חדש ובו הנחיות מפורטות להגשת הבקשות.",
+      "en": "The ministry issued a new circular with detailed instructions for submitting the applications."
+    },
+    "note": "Literally 'something that goes round'. חוזר מנכ״ל = a director-general's circular, the usual way ministries issue binding instructions. Spelled like the present tense of לחזור (returns), so read the context."
+  },
+  {
+    "id": "vc1c_hetel",
+    "he": "היטל",
+    "tr": "hetél",
+    "en": "levy",
+    "enAlt": ["charge", "duty", "surcharge", "betterment levy"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "היטלים",
+    "root": "נ.ט.ל",
+    "level": "C1",
+    "topic": "civics",
+    "ex": {
+      "he": "העירייה גובה היטל על חיבור בניינים חדשים לביוב.",
+      "en": "The municipality charges a levy for connecting new buildings to the sewage system."
+    },
+    "note": "Same root as נטל (burden). Known examples: היטל השבחה (betterment levy, charged when a planning change raises a property's value) and היטל ביוב (sewage levy). Distinguish from מס (tax) and אגרה (fee for a service)."
+  },
+  {
+    "id": "vc1c_midgam",
+    "he": "מדגם",
+    "tr": "midgám",
+    "en": "sample",
+    "enAlt": ["research sample", "sample group"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מדגמים",
+    "root": "ד.ג.מ",
+    "level": "C1",
+    "topic": "academic",
+    "ex": {
+      "he": "המדגם כלל שש מאות משתתפים מכל רחבי הארץ.",
+      "en": "The sample comprised six hundred participants from all over the country."
+    },
+    "note": "Same root as דוגמה (example). מדגם מייצג = a representative sample; גודל המדגם = sample size. The act of sampling is דגימה."
+  },
+  {
+    "id": "vc1c_mishtane",
+    "he": "משתנה",
+    "tr": "mishtané",
+    "en": "variable",
+    "enAlt": ["research variable"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "משתנים",
+    "root": "ש.נ.ה",
+    "level": "C1",
+    "topic": "academic",
+    "ex": {
+      "he": "החוקרים בדקו אם הגיל הוא משתנה שמשפיע על התוצאות.",
+      "en": "The researchers checked whether age is a variable that affects the results."
+    },
+    "note": "As an adjective it means 'changing': מזג אוויר משתנה. משתנה תלוי / בלתי תלוי = dependent / independent variable."
+  },
+  {
+    "id": "vc1c_muvhak",
+    "he": "מובהק",
+    "tr": "muvhák",
+    "en": "(statistically) significant; distinct",
+    "enAlt": ["significant", "statistically significant", "distinct", "clear-cut", "marked"],
+    "pos": "adj",
+    "root": "ב.ה.ק",
+    "level": "C1",
+    "topic": "academic",
+    "ex": {
+      "he": "לא נמצא הבדל מובהק בין שתי הקבוצות.",
+      "en": "No significant difference was found between the two groups."
+    },
+    "note": "In statistics: מובהק סטטיסטית; the noun is מובהקות (significance). Elsewhere it means 'distinct, classic': דוגמה מובהקת = a textbook example. For 'significant' in the sense of important, use משמעותי."
+  },
+  {
+    "id": "vc1c_misgeret_teoretit",
+    "he": "מסגרת תיאורטית",
+    "tr": "misgéret te'orétit",
+    "en": "theoretical framework",
+    "enAlt": ["theoretical background"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "מסגרות תיאורטיות",
+    "level": "C1",
+    "topic": "academic",
+    "ex": {
+      "he": "בפרק הראשון של העבודה אני מציגה את המסגרת התיאורטית של המחקר.",
+      "en": "In the first chapter of the paper I present the study's theoretical framework."
+    },
+    "note": "Noun + adjective, so both words take the article: המסגרת התיאורטית. Also רקע תיאורטי (theoretical background)."
+  },
+  {
+    "id": "vc1c_skirat_sifrut",
+    "he": "סקירת ספרות",
+    "tr": "skirát sifrút",
+    "en": "literature review",
+    "enAlt": ["review of the literature"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "סקירות ספרות",
+    "level": "C1",
+    "topic": "academic",
+    "ex": {
+      "he": "לפני שמתחילים לאסוף נתונים, כדאי לכתוב סקירת ספרות מסודרת.",
+      "en": "Before you start collecting data, it's worth writing a well-organised literature review."
+    },
+    "note": "A construct phrase, so 'the' goes on the second word: סקירת הספרות. סקירה alone = a survey or overview."
+  },
+  {
+    "id": "vc1c_metodologya",
+    "he": "מתודולוגיה",
+    "tr": "metodológya",
+    "en": "methodology",
+    "enAlt": ["research methodology"],
+    "pos": "noun",
+    "gender": "f",
+    "level": "C1",
+    "topic": "academic",
+    "ex": {
+      "he": "המנחה שלי ביקשה ממני להרחיב את פרק המתודולוגיה.",
+      "en": "My supervisor asked me to expand the methodology chapter."
+    },
+    "note": "Adjective: מתודולוגי. Many Hebrew papers title this chapter שיטת המחקר (the research method)."
+  },
+  {
+    "id": "vc1c_nituakh",
+    "he": "ניתוח",
+    "tr": "nitúakh",
+    "en": "analysis",
+    "enAlt": ["surgery", "operation", "breakdown"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "ניתוחים",
+    "root": "נ.ת.ח",
+    "level": "B2",
+    "topic": "academic",
+    "ex": {
+      "he": "ניתוח הנתונים הראה שהשימוש בתחבורה ציבורית עלה בהדרגה.",
+      "en": "The data analysis showed that the use of public transport rose gradually."
+    },
+    "note": "Also 'surgery' in medicine: היא עברה ניתוח = she had an operation. Verb: לנתח (to analyse; to operate)."
+  },
+  {
+    "id": "vc1c_maskana",
+    "he": "מסקנה",
+    "tr": "maskaná",
+    "en": "conclusion",
+    "enAlt": ["inference"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "מסקנות",
+    "level": "B2",
+    "topic": "academic",
+    "ex": {
+      "he": "החוקרים הגיעו למסקנה שהשיטה החדשה יעילה יותר מהקודמת.",
+      "en": "The researchers concluded that the new method is more effective than the previous one."
+    },
+    "note": "להגיע למסקנה = to reach a conclusion; להסיק מסקנות = to draw conclusions. The final chapter of a paper is often called דיון ומסקנות (discussion and conclusions)."
+  },
+  {
+    "id": "vc1c_hanakhat_yesod",
+    "he": "הנחת יסוד",
+    "tr": "hanakhát yesód",
+    "en": "basic assumption; premise",
+    "enAlt": ["premise", "underlying assumption", "assumption"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "הנחות יסוד",
+    "level": "C1",
+    "topic": "academic",
+    "ex": {
+      "he": "הנחת היסוד של המחקר היא שהמשתתפים ענו על השאלון בכנות.",
+      "en": "The study's basic assumption is that the participants answered the questionnaire honestly."
+    },
+    "note": "הנחה alone means both 'assumption' and 'discount' (הנחה של עשרה אחוזים). To assume = להניח ש..."
+  },
+  {
+    "id": "vc1c_mitam",
+    "he": "מתאם",
+    "tr": "mit'ám",
+    "en": "correlation",
+    "enAlt": ["correlation coefficient"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מתאמים",
+    "root": "ת.א.מ",
+    "level": "C1",
+    "topic": "academic",
+    "ex": {
+      "he": "נמצא מתאם חיובי בין שעות השינה לבין הציונים במבחן.",
+      "en": "A positive correlation was found between hours of sleep and test scores."
+    },
+    "note": "Spelled like מתאם (meta'ém): a coordinator, or a plug adapter. מתאם חיובי / שלילי = positive / negative correlation. Correlation is not causation: מתאם אינו מעיד על סיבתיות."
+  },
+  {
+    "id": "vc1c_hashlakha",
+    "he": "השלכה",
+    "tr": "hashlakhá",
+    "en": "implication",
+    "enAlt": ["implications", "consequence", "ramification"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "השלכות",
+    "root": "ש.ל.כ",
+    "level": "C1",
+    "topic": "academic",
+    "ex": {
+      "he": "לממצאים האלה יש השלכות חשובות על מדיניות החינוך.",
+      "en": "These findings have important implications for education policy."
+    },
+    "note": "Nearly always plural: השלכות על = implications for. Literally 'a throwing': the same word means throwing away, as in השלכת פסולת (dumping waste)."
+  },
+  {
+    "id": "vc1c_leor_zot",
+    "he": "לאור זאת",
+    "tr": "le'ór zot",
+    "en": "in light of this",
+    "enAlt": ["in view of this", "given this", "consequently"],
+    "pos": "phrase",
+    "register": "formal",
+    "level": "C1",
+    "topic": "academic",
+    "ex": {
+      "he": "שיעור ההיענות לשאלון היה נמוך. לאור זאת, החלטנו להוסיף ראיונות טלפוניים.",
+      "en": "The response rate to the questionnaire was low. In light of this, we decided to add phone interviews."
+    },
+    "note": "Also with a noun: לאור הממצאים = in light of the findings. In speech you'd say בגלל זה."
+  },
+  {
+    "id": "vc1c_maamar",
+    "he": "מאמר",
+    "tr": "ma'amár",
+    "en": "article; paper",
+    "enAlt": ["academic paper", "paper", "essay"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מאמרים",
+    "root": "א.מ.ר",
+    "level": "B2",
+    "topic": "academic",
+    "ex": {
+      "he": "המאמר שלה התפרסם בכתב עת בינלאומי חשוב.",
+      "en": "Her paper was published in an important international journal."
+    },
+    "note": "An academic or opinion piece; a news report is a כתבה. מאמר דעה = an op-ed."
+  },
+  {
+    "id": "vc1c_ktav_et",
+    "he": "כתב עת",
+    "tr": "ktav et",
+    "en": "journal (academic)",
+    "enAlt": ["journal", "periodical", "academic journal"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "כתבי עת",
+    "level": "C1",
+    "topic": "academic",
+    "ex": {
+      "he": "לפני הפרסום, כתב העת שלח את המאמר לשני שופטים.",
+      "en": "Before publication, the journal sent the paper to two referees."
+    },
+    "note": "Lit. 'a writing of (set) times', i.e. a periodical. With 'the': כתב העת. A peer-reviewed journal is a כתב עת שפיט, and its reviewers are שופטים (lit. judges)."
+  },
+  {
+    "id": "vc1c_teza",
+    "he": "תזה",
+    "tr": "téza",
+    "en": "thesis",
+    "enAlt": ["master's thesis", "MA thesis"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "תזות",
+    "level": "C1",
+    "topic": "academic",
+    "ex": {
+      "he": "היא עובדת על התזה שלה לתואר שני כבר שנה וחצי.",
+      "en": "She has been working on her master's thesis for a year and a half."
+    },
+    "note": "Mainly the master's thesis (also עבודת תזה; a תואר שני עם תזה is a research-track MA). A PhD dissertation is a עבודת דוקטורט. Also 'thesis' in the sense of a central claim."
+  },
+  {
+    "id": "vc1c_mankhe",
+    "he": "מנחה",
+    "tr": "mankhé",
+    "en": "supervisor (of a thesis)",
+    "enAlt": ["supervisor", "advisor", "adviser", "facilitator", "host", "presenter"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מנחים",
+    "root": "נ.ח.ה",
+    "level": "C1",
+    "topic": "academic",
+    "ex": {
+      "he": "המנחה שלי רוצה לראות טיוטה של כל פרק לפני שאני ממשיך.",
+      "en": "My supervisor wants to see a draft of every chapter before I move on."
+    },
+    "note": "Feminine: מנחה (mankhá), spelled the same. The word also means a TV host or workshop facilitator. Verb: להנחות (to guide, to supervise)."
+  },
+  {
+    "id": "vc1c_mare_makom",
+    "he": "מראה מקום",
+    "tr": "mar'é makóm",
+    "en": "reference (citation)",
+    "enAlt": ["reference", "citation", "source reference"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מראי מקום",
+    "level": "C1",
+    "topic": "academic",
+    "ex": {
+      "he": "חסרים מראי מקום לחלק מהציטוטים בפרק השני.",
+      "en": "References are missing for some of the quotations in the second chapter."
+    },
+    "note": "Lit. 'something that shows the place'. Plural מראי מקום. The list at the end is the רשימת מקורות or ביבליוגרפיה."
+  },
+  {
+    "id": "vc1c_taktsir",
+    "he": "תקציר",
+    "tr": "taktsír",
+    "en": "abstract (summary)",
+    "enAlt": ["abstract", "summary", "synopsis"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "תקצירים",
+    "root": "ק.צ.ר",
+    "level": "C1",
+    "topic": "academic",
+    "ex": {
+      "he": "את התקציר יש להגיש בעברית ובאנגלית, עד מאתיים וחמישים מילים.",
+      "en": "The abstract must be submitted in Hebrew and English, up to 250 words."
+    },
+    "note": "From קצר (short). Don't confuse it with תקציב (budget)."
+  },
+  {
+    "id": "vc1c_mavo",
+    "he": "מבוא",
+    "tr": "mavó",
+    "en": "introduction",
+    "enAlt": ["introductory course", "preface", "intro"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מבואות",
+    "root": "ב.ו.א",
+    "level": "B2",
+    "topic": "academic",
+    "ex": {
+      "he": "בשנה הראשונה לומדים בעיקר קורסי מבוא.",
+      "en": "In the first year you mostly take introductory courses."
+    },
+    "note": "Lit. 'an entrance' (from לבוא, to come). קורס מבוא = an introductory course; מבוא לכלכלה = Introduction to Economics. The opening chapter of a paper is also the מבוא."
+  },
+  {
+    "id": "vc1c_hagdara",
+    "he": "הגדרה",
+    "tr": "hagdará",
+    "en": "definition",
+    "enAlt": ["setting", "defining"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "הגדרות",
+    "root": "ג.ד.ר",
+    "level": "B2",
+    "topic": "academic",
+    "ex": {
+      "he": "אין הגדרה אחת מקובלת למושג מעמד הביניים.",
+      "en": "There is no single accepted definition of the concept of the middle class."
+    },
+    "note": "On your phone, הגדרות = settings. Verb: להגדיר (to define; to set up)."
+  },
+  {
+    "id": "vc1c_musag",
+    "he": "מושג",
+    "tr": "muság",
+    "en": "concept",
+    "enAlt": ["notion", "term", "idea"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מושגים",
+    "root": "נ.ש.ג",
+    "level": "B2",
+    "topic": "academic",
+    "ex": {
+      "he": "במבוא כדאי להסביר כל מושג מרכזי שאתם משתמשים בו.",
+      "en": "In the introduction it's a good idea to explain every key concept you use."
+    },
+    "note": "Colloquial: אין לי מושג = I have no idea. From the root of להשיג (to attain): lit. 'something grasped'."
+  },
+  {
+    "id": "vc1c_gisha",
+    "he": "גישה",
+    "tr": "gishá",
+    "en": "approach",
+    "enAlt": ["access", "attitude", "method"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "גישות",
+    "root": "נ.ג.ש",
+    "level": "B2",
+    "topic": "academic",
+    "ex": {
+      "he": "החוקרת מציעה גישה חדשה לחקר הסלנג העברי.",
+      "en": "The researcher proposes a new approach to the study of Hebrew slang."
+    },
+    "note": "Also 'access': גישה לאינטרנט; the related נגישות = accessibility. חקר (+ noun) = the study of, a formal construct form."
+  },
+  {
+    "id": "vc1c_tiun",
+    "he": "טיעון",
+    "tr": "ti'ún",
+    "en": "argument (line of reasoning)",
+    "enAlt": ["argument", "case", "reasoning"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "טיעונים",
+    "root": "ט.ע.נ",
+    "level": "C1",
+    "topic": "academic",
+    "ex": {
+      "he": "הטיעון שלך מעניין, אבל הוא לא נתמך בנתונים.",
+      "en": "Your argument is interesting, but it isn't supported by data."
+    },
+    "note": "A reasoned argument, not a quarrel (that's ויכוח). Related: טענה (a claim), לטעון (to claim)."
+  },
+  {
+    "id": "vc1c_empiri",
+    "he": "אמפירי",
+    "tr": "empíri",
+    "en": "empirical",
+    "pos": "adj",
+    "level": "C1",
+    "topic": "academic",
+    "ex": {
+      "he": "לטענה הזאת אין עדיין ביסוס אמפירי.",
+      "en": "There is no empirical basis for this claim yet."
+    },
+    "note": "Fem. אמפירית, pl. אמפיריים. Collocations: מחקר אמפירי, ממצאים אמפיריים, ביסוס אמפירי (empirical grounding)."
+  },
+  {
+    "id": "vc1c_eykhutani",
+    "he": "איכותני",
+    "tr": "eykhutaní",
+    "en": "qualitative (research)",
+    "enAlt": ["qualitative"],
+    "pos": "adj",
+    "level": "C1",
+    "topic": "academic",
+    "ex": {
+      "he": "במחקר איכותני החוקרים מראיינים מעט אנשים, אבל לעומק.",
+      "en": "In qualitative research, the researchers interview few people, but in depth."
+    },
+    "note": "Only for research methods. 'High-quality' is איכותי (מוצר איכותי). The opposite of איכותני is כמותי (quantitative)."
+  },
+  {
+    "id": "vc1c_kamuti",
+    "he": "כמותי",
+    "tr": "kamutí",
+    "en": "quantitative",
+    "pos": "adj",
+    "level": "C1",
+    "topic": "academic",
+    "ex": {
+      "he": "המחקר משלב שאלון כמותי עם ראיונות עומק.",
+      "en": "The study combines a quantitative questionnaire with in-depth interviews."
+    },
+    "note": "From כמות (quantity). Fem. כמותית: שיטה כמותית. ראיון עומק = in-depth interview."
+  },
+  {
+    "id": "vc1c_tkefut",
+    "he": "תקפות",
+    "tr": "tkefút",
+    "en": "validity (of a research tool)",
+    "enAlt": ["validity", "soundness"],
+    "pos": "noun",
+    "gender": "f",
+    "root": "ת.ק.פ",
+    "level": "C1",
+    "topic": "academic",
+    "ex": {
+      "he": "יש ספקות לגבי תקפות הכלי, משום שחלק מהשאלות לא היו ברורות.",
+      "en": "There are doubts about the instrument's validity, because some of the questions weren't clear."
+    },
+    "note": "Does the tool measure what it claims to? Usually paired with מהימנות (reliability). A document's validity is its תוקף: הדרכון בתוקף."
+  },
+  {
+    "id": "vc1c_mehemanut",
+    "he": "מהימנות",
+    "tr": "mehemanút",
+    "en": "reliability",
+    "enAlt": ["credibility", "trustworthiness", "dependability"],
+    "pos": "noun",
+    "gender": "f",
+    "root": "א.מ.נ",
+    "level": "C1",
+    "topic": "academic",
+    "ex": {
+      "he": "כדי לבדוק את מהימנות השאלון, העבירו אותו פעמיים לאותה קבוצה.",
+      "en": "To check the questionnaire's reliability, they gave it twice to the same group."
+    },
+    "note": "From מהימן (reliable, trustworthy), the root of אמון (trust). In research it means consistent results; in daily life, credibility: מקור מהימן = a reliable source."
+  },
+  {
+    "id": "vc1c_stiyat_teken",
+    "he": "סטיית תקן",
+    "tr": "stiyát téken",
+    "en": "standard deviation",
+    "enAlt": ["SD"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "סטיות תקן",
+    "level": "C1",
+    "topic": "academic",
+    "ex": {
+      "he": "הציון הממוצע היה שבעים ושמונה, עם סטיית תקן של עשר נקודות.",
+      "en": "The average score was 78, with a standard deviation of ten points."
+    },
+    "note": "סטייה = deviation; תקן = standard (also a civics word). Tables usually give ממוצע וסטיית תקן (mean and SD)."
+  },
+  {
+    "id": "vc1c_migbala",
+    "he": "מגבלה",
+    "tr": "migbalá",
+    "en": "limitation",
+    "enAlt": ["restriction", "constraint"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "מגבלות",
+    "root": "ג.ב.ל",
+    "level": "C1",
+    "topic": "academic",
+    "ex": {
+      "he": "אחת המגבלות של המחקר היא שכל המשתתפים היו סטודנטים.",
+      "en": "One of the study's limitations is that all the participants were students."
+    },
+    "note": "Almost every paper has a section called מגבלות המחקר. Same root as גבול (border, limit)."
+  },
+  {
+    "id": "vc1c_nivdak",
+    "he": "נבדק",
+    "tr": "nivdák",
+    "en": "research subject",
+    "enAlt": ["subject", "test subject", "participant", "examinee"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "נבדקים",
+    "root": "ב.ד.ק",
+    "level": "C1",
+    "topic": "academic",
+    "ex": {
+      "he": "כל נבדק קיבל מאה שקלים על ההשתתפות בניסוי.",
+      "en": "Each subject received a hundred shekels for taking part in the experiment."
+    },
+    "note": "Lit. 'one who is examined', the nif'al participle of לבדוק. Fem. נבדקת. Many papers now prefer משתתפים (participants)."
+  },
+  {
+    "id": "vc1c_sheelon",
+    "he": "שאלון",
+    "tr": "she'elón",
+    "en": "questionnaire",
+    "enAlt": ["survey form", "survey"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "שאלונים",
+    "root": "ש.א.ל",
+    "level": "B2",
+    "topic": "academic",
+    "ex": {
+      "he": "מילוי השאלון לוקח בערך עשר דקות.",
+      "en": "Filling in the questionnaire takes about ten minutes."
+    },
+    "note": "From שאלה (question) + the suffix ־ון. The study as a whole is a סקר (survey); the form people fill in is the שאלון. A בגרות exam paper is also called a שאלון."
+  },
+  {
+    "id": "vc1c_heksher",
+    "he": "הקשר",
+    "tr": "hekshér",
+    "en": "context",
+    "enAlt": ["connection", "setting"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "הקשרים",
+    "root": "ק.ש.ר",
+    "level": "C1",
+    "topic": "academic",
+    "ex": {
+      "he": "צריך לקרוא את הציטוט הזה בהקשר ההיסטורי שלו.",
+      "en": "This quotation has to be read in its historical context."
+    },
+    "note": "Spelled like ה + קשר (hakésher, 'the connection'). בהקשר הזה = in this connection; בהקשר של = in the context of, regarding."
+  },
+  {
+    "id": "vc1c_yesh_letsayen_ki",
+    "he": "יש לציין כי",
+    "tr": "yesh letsayén ki",
+    "en": "it should be noted that",
+    "enAlt": ["it is worth noting that", "it must be pointed out that", "notably"],
+    "pos": "phrase",
+    "register": "formal",
+    "level": "C1",
+    "topic": "academic",
+    "ex": {
+      "he": "יש לציין כי הנתונים נאספו לפני שהחוק השתנה.",
+      "en": "It should be noted that the data were collected before the law changed."
+    },
+    "note": "יש + infinitive = 'one must' in formal writing. Variants: יש להדגיש כי (it should be stressed that), ראוי לציין ש (it is worth mentioning that). In speech: חשוב להגיד ש..."
+  },
+  {
+    "id": "vc1c_kfi_shetsuyan_leeil",
+    "he": "כפי שצוין לעיל",
+    "tr": "kfi shetsuyán le'éil",
+    "en": "as noted above",
+    "enAlt": ["as mentioned above", "as stated above", "as previously mentioned"],
+    "pos": "phrase",
+    "register": "formal",
+    "level": "C1",
+    "topic": "academic",
+    "ex": {
+      "he": "כפי שצוין לעיל, המדגם היה קטן יחסית.",
+      "en": "As noted above, the sample was relatively small."
+    },
+    "note": "לעיל = above (earlier in the text), the opposite of להלן (below). צוין is the pu'al past of לציין (to note). A shorter equivalent: כאמור."
+  },
+  {
+    "id": "vc1c_lehalan",
+    "he": "להלן",
+    "tr": "lehalán",
+    "en": "below; hereinafter",
+    "enAlt": ["below", "hereinafter", "hereafter", "as follows"],
+    "pos": "adv",
+    "register": "formal",
+    "level": "C1",
+    "topic": "academic",
+    "ex": {
+      "he": "עיקרי הממצאים מוצגים להלן.",
+      "en": "The main findings are presented below."
+    },
+    "note": "Also in contracts and letters: להלן: ״החברה״ = hereinafter 'the Company'. The opposite is לעיל (above)."
+  },
+  {
+    "id": "vc1c_behinaten",
+    "he": "בהינתן",
+    "tr": "behinatén",
+    "en": "given (that)",
+    "enAlt": ["given", "given that", "in view of"],
+    "pos": "prep",
+    "register": "formal",
+    "level": "C1",
+    "topic": "academic",
+    "ex": {
+      "he": "בהינתן מגבלות המדגם, יש להתייחס לתוצאות בזהירות.",
+      "en": "Given the limitations of the sample, the results should be treated with caution."
+    },
+    "note": "Followed by a noun, or by ש + clause: בהינתן שהתקציב מוגבל... In speech: בגלל ש... or אם לוקחים בחשבון ש..."
+  },
+  {
+    "id": "vc1c_dehaynu",
+    "he": "דהיינו",
+    "tr": "deháynu",
+    "en": "that is; namely",
+    "enAlt": ["i.e.", "namely", "that is to say", "in other words"],
+    "pos": "conj",
+    "register": "formal",
+    "level": "C1",
+    "topic": "academic",
+    "ex": {
+      "he": "החלק השני של המחקר עוסק בדור השני, דהיינו בילדיהם של עולים.",
+      "en": "The second part of the study deals with the second generation, namely the children of immigrants."
+    },
+    "note": "Aramaic and very formal. The neutral equivalent is כלומר; the spoken one is זאת אומרת (written ז״א)."
+  },
+  {
+    "id": "vc1c_hen_vehen",
+    "he": "הן... והן",
+    "tr": "hen... vehén",
+    "en": "both ... and",
+    "enAlt": ["both and", "as well as"],
+    "pos": "conj",
+    "register": "formal",
+    "level": "C1",
+    "topic": "academic",
+    "ex": {
+      "he": "השיטה החדשה חוסכת הן זמן והן כסף.",
+      "en": "The new method saves both time and money."
+    },
+    "note": "The formal version of גם... וגם. It has nothing to do with the pronoun הן (they, feminine)."
+  },
+  {
+    "id": "vc1c_mekhad_meidakh",
+    "he": "מחד... מאידך",
+    "tr": "mekhád... me'idákh",
+    "en": "on the one hand ... on the other hand",
+    "enAlt": ["on the one hand", "on the other hand"],
+    "alt": ["מחד גיסא... מאידך גיסא"],
+    "pos": "phrase",
+    "register": "formal",
+    "level": "C1",
+    "topic": "academic",
+    "ex": {
+      "he": "מחד, עבודה מהבית חוסכת זמן נסיעה; מאידך, היא עלולה לפגוע בעבודת הצוות.",
+      "en": "On the one hand, working from home saves commuting time; on the other, it can harm teamwork."
+    },
+    "note": "The formal counterpart of מצד אחד... מצד שני. The fuller literary form is מחד גיסא... מאידך גיסא."
+  },
+  {
+    "id": "vc1c_milga",
+    "he": "מלגה",
+    "tr": "milgá",
+    "en": "scholarship",
+    "enAlt": ["grant", "fellowship", "stipend", "bursary"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "מלגות",
+    "level": "B2",
+    "topic": "academic",
+    "ex": {
+      "he": "קיבלתי מלגה שמכסה את שכר הלימוד ואת חלק מהשכירות.",
+      "en": "I got a scholarship that covers tuition and part of the rent."
+    },
+    "note": "שכר לימוד = tuition fees. A research grant is a מענק מחקר; doctoral students apply for a מלגת דוקטורט."
+  }
+]

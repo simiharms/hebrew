@@ -1,0 +1,560 @@
+[
+  {
+    "id": "s_a1_cafe_order",
+    "level": "A1",
+    "title": "הפוך גדול, בבקשה",
+    "titleEn": "A Large Latte, Please",
+    "genre": "street",
+    "synopsis": "On their way to work, Khaled and Masha stop at a coffee kiosk in the street, and Liat takes their order. The kiosk doesn't have everything Khaled wants.",
+    "speakers": {
+      "A": {
+        "name": "ליאת",
+        "gender": "f"
+      },
+      "B": {
+        "name": "חאלד",
+        "gender": "m"
+      },
+      "C": {
+        "name": "מאשה",
+        "gender": "f"
+      }
+    },
+    "lines": [
+      {
+        "s": "A",
+        "he": "בוקר טוב! מה אתם רוצים?",
+        "en": "Good morning! What would you like?"
+      },
+      {
+        "s": "B",
+        "he": "אני רוצה קפה הפוך, בבקשה.",
+        "en": "I'd like a latte, please."
+      },
+      {
+        "s": "A",
+        "he": "גדול או קטן?",
+        "en": "Large or small?"
+      },
+      {
+        "s": "B",
+        "he": "גדול. כמה זה עולה?",
+        "en": "Large. How much is it?"
+      },
+      {
+        "s": "A",
+        "he": "חמישה עשר שקלים. עוד משהו?",
+        "en": "Fifteen shekels. Anything else?"
+      },
+      {
+        "s": "B",
+        "he": "כן, אפשר קרואסון שוקולד?",
+        "en": "Yes, can I have a chocolate croissant?"
+      },
+      {
+        "s": "A",
+        "he": "סליחה, אין קרואסון שוקולד. יש רק חמאה.",
+        "en": "Sorry, there are no chocolate croissants. There are only butter ones."
+      },
+      {
+        "s": "B",
+        "he": "אין בעיה, אז חמאה. מאשה, מה את שותה?",
+        "en": "No problem, butter then. Masha, what are you drinking?"
+      },
+      {
+        "s": "C",
+        "he": "אני לא שותה קפה. אפשר תה עם נענע?",
+        "en": "I don't drink coffee. Can I have tea with mint?"
+      },
+      {
+        "s": "A",
+        "he": "כמובן. ביחד זה ארבעים שקלים.",
+        "en": "Of course. Altogether that's forty shekels."
+      },
+      {
+        "s": "C",
+        "he": "אני משלמת. אפשר באשראי?",
+        "en": "I'm paying. Can I pay by card?"
+      },
+      {
+        "s": "A",
+        "he": "בטח. הנה הקפה, התה והקרואסון. בתיאבון!",
+        "en": "Sure. Here's the coffee, the tea and the croissant. Enjoy!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "מה חאלד שותה?",
+        "qEn": "What is Khaled drinking?",
+        "answer": "הוא שותה קפה הפוך גדול.",
+        "answerEn": "He's drinking a large latte.",
+        "keywords": [
+          [
+            "הפוך",
+            "קפה"
+          ],
+          [
+            "גדול"
+          ]
+        ]
+      },
+      {
+        "q": "כמה עולה הפוך גדול?",
+        "qEn": "How much does a large latte cost?",
+        "answer": "חמישה עשר שקלים.",
+        "answerEn": "Fifteen shekels.",
+        "keywords": [
+          [
+            "חמישה עשר",
+            "חמש עשרה",
+            "15"
+          ]
+        ]
+      },
+      {
+        "q": "מה מאשה שותה?",
+        "qEn": "What is Masha drinking?",
+        "answer": "היא שותה תה עם נענע.",
+        "answerEn": "She's drinking tea with mint.",
+        "keywords": [
+          [
+            "תה"
+          ],
+          [
+            "נענע"
+          ]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "בקיוסק יש קרואסון שוקולד.",
+        "sEn": "The kiosk has chocolate croissants.",
+        "a": false,
+        "why": "Liat says אין קרואסון שוקולד, יש רק חמאה, so Khaled takes a butter croissant."
+      },
+      {
+        "s": "מאשה לא שותה קפה.",
+        "sEn": "Masha doesn't drink coffee.",
+        "a": true,
+        "why": "She says אני לא שותה קפה and asks for tea with mint."
+      },
+      {
+        "s": "חאלד משלם על הכול.",
+        "sEn": "Khaled pays for everything.",
+        "a": false,
+        "why": "Masha pays: she says אני משלמת and asks to pay by credit card."
+      },
+      {
+        "s": "הכול ביחד עולה ארבעים שקלים.",
+        "sEn": "Everything together costs forty shekels.",
+        "a": true,
+        "why": "Liat says ביחד זה ארבעים שקלים, 'altogether that's forty shekels'."
+      }
+    ],
+    "dictation": [
+      1,
+      7,
+      8
+    ],
+    "expressions": [
+      {
+        "he": "אני רוצה קפה הפוך, בבקשה",
+        "en": "I'd like a latte, please",
+        "note": "רוצה is spelled the same for a man and a woman, but a man says ani rotsé and a woman says ani rotsá. קפה הפוך, literally 'upside-down coffee', is the standard Israeli milky coffee; you can simply order הפוך גדול."
+      },
+      {
+        "he": "כמה זה עולה?",
+        "en": "How much is it?",
+        "note": "עולה = costs (literally 'goes up'). For the total of several things, ask כמה זה ביחד?"
+      },
+      {
+        "he": "אפשר...?",
+        "en": "Can I have...? / Is it possible to...?",
+        "note": "With a noun it asks for something: אפשר קרואסון? אפשר תה? With an infinitive it asks permission: אפשר לשלם באשראי? Masha shortens this to אפשר באשראי? (by credit card)."
+      },
+      {
+        "he": "עוד משהו?",
+        "en": "Anything else?",
+        "note": "What every seller asks. Answer כן, and add what you want, or לא, זהו, תודה (no, that's it, thanks)."
+      },
+      {
+        "he": "אין בעיה",
+        "en": "No problem",
+        "note": "Literally 'there is no problem'. A relaxed way to accept a change, or to answer סליחה or תודה."
+      },
+      {
+        "he": "בתיאבון!",
+        "en": "Enjoy your meal!",
+        "note": "Pronounced bete'avón, literally 'with appetite'. Said by whoever serves the food, and by people at the table before they eat."
+      }
+    ]
+  },
+  {
+    "id": "s_a1_new_apartment_tour",
+    "level": "A1",
+    "title": "הדירה החדשה של רנא",
+    "titleEn": "Rana's New Apartment",
+    "genre": "sitcom",
+    "synopsis": "Rana has just moved into a new apartment and shows her friend Gil around. Gil likes what he sees, until he finds out who gets the second bedroom.",
+    "speakers": {
+      "A": {
+        "name": "רנא",
+        "gender": "f"
+      },
+      "B": {
+        "name": "גיל",
+        "gender": "m"
+      }
+    },
+    "lines": [
+      {
+        "s": "A",
+        "he": "ברוך הבא, גיל! זאת הדירה החדשה שלי.",
+        "en": "Welcome, Gil! This is my new apartment."
+      },
+      {
+        "s": "B",
+        "he": "וואו, יפה! כמה חדרים יש פה?",
+        "en": "Wow, nice! How many rooms are there?"
+      },
+      {
+        "s": "A",
+        "he": "שלושה: סלון ושני חדרי שינה.",
+        "en": "Three: a living room and two bedrooms."
+      },
+      {
+        "s": "B",
+        "he": "הסלון גדול! ויש מזגן? בקיץ פה חם מאוד.",
+        "en": "The living room is big! And is there air conditioning? It's very hot here in the summer."
+      },
+      {
+        "s": "A",
+        "he": "בסלון יש מזגן. בחדרים אין.",
+        "en": "There's an air conditioner in the living room. In the bedrooms there isn't."
+      },
+      {
+        "s": "B",
+        "he": "וזה המטבח? הוא קטן מאוד!",
+        "en": "And this is the kitchen? It's very small!"
+      },
+      {
+        "s": "A",
+        "he": "נכון, אבל יש מקרר חדש.",
+        "en": "True, but there's a new fridge."
+      },
+      {
+        "s": "B",
+        "he": "וזה החדר שלך?",
+        "en": "And is this your room?"
+      },
+      {
+        "s": "A",
+        "he": "כן. והחדר השני הוא של מיצי.",
+        "en": "Yes. And the other room is Mitzi's."
+      },
+      {
+        "s": "B",
+        "he": "מיצי? יש לך שותפה?",
+        "en": "Mitzi? You have a roommate?"
+      },
+      {
+        "s": "A",
+        "he": "לא! מיצי היא החתולה שלי.",
+        "en": "No! Mitzi is my cat."
+      },
+      {
+        "s": "B",
+        "he": "לחתולה יש חדר? ובדירה שלי אני ישן בסלון!",
+        "en": "The cat has a room? And in my apartment, I sleep in the living room!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "כמה חדרים יש בדירה של רנא?",
+        "qEn": "How many rooms are there in Rana's apartment?",
+        "answer": "יש שלושה חדרים: סלון ושני חדרי שינה.",
+        "answerEn": "There are three rooms: a living room and two bedrooms.",
+        "keywords": [
+          [
+            "שלושה",
+            "שלוש",
+            "3"
+          ]
+        ]
+      },
+      {
+        "q": "איפה יש מזגן?",
+        "qEn": "Where is there an air conditioner?",
+        "answer": "יש מזגן רק בסלון.",
+        "answerEn": "There's an air conditioner only in the living room.",
+        "keywords": [
+          [
+            "סלון"
+          ]
+        ]
+      },
+      {
+        "q": "מי זאת מיצי?",
+        "qEn": "Who is Mitzi?",
+        "answer": "מיצי היא החתולה של רנא.",
+        "answerEn": "Mitzi is Rana's cat.",
+        "keywords": [
+          [
+            "חתולה",
+            "חתול"
+          ]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "לרנא יש דירה חדשה.",
+        "sEn": "Rana has a new apartment.",
+        "a": true,
+        "why": "She welcomes Gil with זאת הדירה החדשה שלי, 'this is my new apartment'."
+      },
+      {
+        "s": "יש מזגן בכל החדרים.",
+        "sEn": "There's an air conditioner in every room.",
+        "a": false,
+        "why": "Rana says בסלון יש מזגן, בחדרים אין: only the living room has one."
+      },
+      {
+        "s": "המטבח גדול.",
+        "sEn": "The kitchen is big.",
+        "a": false,
+        "why": "Gil says הוא קטן מאוד, 'it's very small', and Rana agrees: נכון."
+      },
+      {
+        "s": "במטבח יש מקרר חדש.",
+        "sEn": "There's a new fridge in the kitchen.",
+        "a": true,
+        "why": "Rana answers נכון, אבל יש מקרר חדש, 'true, but there's a new fridge'."
+      }
+    ],
+    "dictation": [
+      4,
+      6,
+      10
+    ],
+    "expressions": [
+      {
+        "he": "ברוך הבא!",
+        "en": "Welcome! (to a man)",
+        "note": "Said to a guest at the door. To a woman: ברוכה הבאה! To a group: ברוכים הבאים!"
+      },
+      {
+        "he": "כמה חדרים יש?",
+        "en": "How many rooms are there?",
+        "note": "Israelis count the living room as a room: a דירת שלושה חדרים has a living room and two bedrooms. Bedroom = חדר שינה, plural חדרי שינה."
+      },
+      {
+        "he": "בסלון יש מזגן. בחדרים אין.",
+        "en": "There's an air conditioner in the living room. In the bedrooms there isn't.",
+        "note": "יש = there is / there are, אין = there isn't / there aren't. Neither one changes for gender or number, and in a short answer each can stand alone: יש מזגן? – אין."
+      },
+      {
+        "he": "החדר שלי / החדר של מיצי",
+        "en": "my room / Mitzi's room",
+        "note": "של comes after the noun, and the noun takes ה: החדר שלך, החתולה שלי. An adjective goes between them: הדירה החדשה שלי."
+      },
+      {
+        "he": "יש לך שותפה?",
+        "en": "Do you have a roommate?",
+        "note": "יש ל + person = to have: יש לי, יש לך, לחתולה יש חדר. The negative is אין לי. שותף (m, shutáf) / שותפה (f, shutafá) is a flatmate, and also a business partner."
+      }
+    ]
+  },
+  {
+    "id": "s_a1_directions",
+    "level": "A1",
+    "title": "איפה הדואר?",
+    "titleEn": "Where's the Post Office?",
+    "genre": "street",
+    "synopsis": "Emily needs the post office, but she doesn't know the neighbourhood yet. She stops a passer-by, Adisu, and asks him the way.",
+    "speakers": {
+      "A": {
+        "name": "אמילי",
+        "gender": "f"
+      },
+      "B": {
+        "name": "אדיסו",
+        "gender": "m"
+      }
+    },
+    "lines": [
+      {
+        "s": "A",
+        "he": "סליחה, אתה יודע איפה הדואר?",
+        "en": "Excuse me, do you know where the post office is?"
+      },
+      {
+        "s": "B",
+        "he": "הדואר? כן, הוא ברחוב הרצל.",
+        "en": "The post office? Yes, it's on Herzl Street."
+      },
+      {
+        "s": "A",
+        "he": "זה רחוק מפה?",
+        "en": "Is it far from here?"
+      },
+      {
+        "s": "B",
+        "he": "לא, חמש דקות ברגל.",
+        "en": "No, five minutes on foot."
+      },
+      {
+        "s": "A",
+        "he": "איך הולכים לשם?",
+        "en": "How do I get there?"
+      },
+      {
+        "s": "B",
+        "he": "הולכים ישר עד הרמזור.",
+        "en": "You go straight as far as the traffic light."
+      },
+      {
+        "s": "A",
+        "he": "ישר עד הרמזור. ואז?",
+        "en": "Straight to the traffic light. And then?"
+      },
+      {
+        "s": "B",
+        "he": "ברמזור פונים שמאלה, ואז ימינה.",
+        "en": "At the light you turn left, and then right."
+      },
+      {
+        "s": "A",
+        "he": "שמאלה, ואז ימינה. והדואר שם?",
+        "en": "Left, then right. And the post office is there?"
+      },
+      {
+        "s": "B",
+        "he": "כן, ליד הבנק, מול הסופר.",
+        "en": "Yes, next to the bank, opposite the supermarket."
+      },
+      {
+        "s": "A",
+        "he": "תודה רבה! אני חדשה פה.",
+        "en": "Thank you so much! I'm new here."
+      },
+      {
+        "s": "B",
+        "he": "בכיף! גם אני הולך לדואר. בואי איתי.",
+        "en": "My pleasure! I'm going to the post office too. Come with me."
+      }
+    ],
+    "questions": [
+      {
+        "q": "באיזה רחוב הדואר?",
+        "qEn": "Which street is the post office on?",
+        "answer": "הדואר ברחוב הרצל.",
+        "answerEn": "The post office is on Herzl Street.",
+        "keywords": [
+          [
+            "הרצל"
+          ]
+        ]
+      },
+      {
+        "q": "כמה זמן הולכים לדואר?",
+        "qEn": "How long does it take to walk to the post office?",
+        "answer": "חמש דקות ברגל.",
+        "answerEn": "Five minutes on foot.",
+        "keywords": [
+          [
+            "חמש",
+            "5"
+          ],
+          [
+            "דקות",
+            "דקה"
+          ]
+        ]
+      },
+      {
+        "q": "איך הולכים מפה לדואר?",
+        "qEn": "How do you get from here to the post office?",
+        "answer": "הולכים ישר עד הרמזור, ברמזור פונים שמאלה, ואז ימינה.",
+        "answerEn": "You go straight to the traffic light, left at the light, and then right.",
+        "keywords": [
+          [
+            "ישר"
+          ],
+          [
+            "שמאלה",
+            "שמאל"
+          ],
+          [
+            "ימינה",
+            "ימין"
+          ]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "הדואר רחוק מאוד.",
+        "sEn": "The post office is very far away.",
+        "a": false,
+        "why": "Adisu says it's חמש דקות ברגל, 'five minutes on foot'."
+      },
+      {
+        "s": "ברמזור פונים ימינה.",
+        "sEn": "At the traffic light you turn right.",
+        "a": false,
+        "why": "At the light you turn left: ברמזור פונים שמאלה. Only after that do you turn right."
+      },
+      {
+        "s": "הדואר ליד הבנק.",
+        "sEn": "The post office is next to the bank.",
+        "a": true,
+        "why": "Adisu says ליד הבנק, מול הסופר, 'next to the bank, opposite the supermarket'."
+      },
+      {
+        "s": "גם אדיסו הולך לדואר.",
+        "sEn": "Adisu is going to the post office too.",
+        "a": true,
+        "why": "At the end he says גם אני הולך לדואר and invites Emily to come with him."
+      }
+    ],
+    "dictation": [
+      0,
+      5,
+      7
+    ],
+    "expressions": [
+      {
+        "he": "סליחה, אתה יודע איפה...?",
+        "en": "Excuse me, do you know where... is?",
+        "note": "The polite way to stop someone in the street. To a woman: סליחה, את יודעת איפה הדואר?"
+      },
+      {
+        "he": "איך הולכים לשם?",
+        "en": "How do I get there?",
+        "note": "A plural verb with no subject means 'you' or 'people' in general: איך הולכים לדואר? Directions use the same form: הולכים ישר, פונים שמאלה. You will also often hear איך מגיעים ל...? (how do you get to...?). לשם = to there; for 'there' alone say שם."
+      },
+      {
+        "he": "ישר / ימינה / שמאלה",
+        "en": "straight on / to the right / to the left",
+        "note": "ימין and שמאל are the sides (right, left). With the ending ה they mean 'towards': פונים ימינה (yamína) = you turn right, פונים שמאלה (smóla) = you turn left. ישר (yashár) = straight on."
+      },
+      {
+        "he": "חמש דקות ברגל",
+        "en": "five minutes on foot",
+        "note": "ברגל (barégel) = on foot, literally 'by leg'. The number is feminine because דקה (minute) is feminine: חמש דקות, שתי דקות."
+      },
+      {
+        "he": "ליד / מול",
+        "en": "next to / opposite",
+        "note": "Two small words for describing where a place is: הדואר ליד הבנק, מול הסופר. The street name comes with ב: ברחוב הרצל = on Herzl Street."
+      },
+      {
+        "he": "בכיף!",
+        "en": "My pleasure! / Gladly!",
+        "note": "A warm, casual answer to תודה, pronounced bekéf. It also means 'sure, happy to' when someone asks a favour."
+      }
+    ]
+  }
+]

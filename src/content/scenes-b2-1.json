@@ -1,0 +1,344 @@
+[
+  {
+    "id": "s_b2_lecture_water",
+    "level": "B2",
+    "title": "מאיפה מגיעים המים שלנו?",
+    "titleEn": "Where Does Our Water Come From?",
+    "genre": "lecture",
+    "synopsis": "At an evening talk in a community center, water engineer Merav explains how Israel deals with its lack of fresh water. Afterwards she takes questions from the audience.",
+    "speakers": {
+      "A": { "name": "מירב", "gender": "f" },
+      "B": { "name": "אנדריי", "gender": "m" },
+      "C": { "name": "סמאח", "gender": "f" }
+    },
+    "lines": [
+      { "s": "A", "he": "ערב טוב לכולם, ותודה שבאתם. הערב נדבר על שאלה פשוטה: מאיפה מגיעים המים שיוצאים לכם מהברז?", "en": "Good evening, everyone, and thank you for coming. Tonight we'll talk about a simple question: where does the water that comes out of your tap come from?" },
+      { "s": "A", "he": "ישראל היא מדינה קטנה, ורובה מדברית או צחיחה למחצה. במשך עשרות שנים, הכנרת ומי התהום היו כמעט המקורות היחידים.", "en": "Israel is a small country, and most of it is desert or semi-arid. For decades, the Sea of Galilee and groundwater were almost the only sources." },
+      { "s": "A", "he": "בתחילת שנות האלפיים, אחרי כמה שנות בצורת קשות, הוחלט לשנות כיוון ולהקים מתקני התפלה גדולים לאורך החוף.", "en": "In the early 2000s, after several years of severe drought, it was decided to change course and build large desalination plants along the coast." },
+      { "s": "A", "he": "היום רוב מי השתייה בבתים בישראל הם מים מותפלים, כלומר מי ים שהוצא מהם המלח.", "en": "Today most of the drinking water in Israeli homes is desalinated water, that is, seawater that has had the salt taken out of it." },
+      { "s": "A", "he": "איך זה עובד? בשיטה שנקראת אוסמוזה הפוכה. דוחפים את מי הים בלחץ גבוה מאוד דרך ממברנות, מעין מסננים עדינים במיוחד.", "en": "How does it work? With a method called reverse osmosis. The seawater is pushed at very high pressure through membranes, a kind of extremely fine filter." },
+      { "s": "A", "he": "המים עוברים, והמלח נשאר מאחור. התהליך הזה דורש הרבה מאוד חשמל, וזה אחד החסרונות המרכזיים שלו.", "en": "The water passes through, and the salt stays behind. This process requires a great deal of electricity, and that's one of its main disadvantages." },
+      { "s": "A", "he": "חיסרון נוסף הוא התמלחת, מים מלוחים מאוד שמוחזרים לים. צריך לפזר אותם בזהירות, כדי לא לפגוע בבעלי החיים בקרקעית הים.", "en": "Another disadvantage is the brine, very salty water that is returned to the sea. It has to be dispersed carefully, so as not to harm the animals on the seabed." },
+      { "s": "A", "he": "עכשיו לחלק השני, ואולי המפתיע יותר: מי הביוב. ישראל ממחזרת כמעט תשעים אחוז מהשפכים שלה, יותר מכל מדינה אחרת בעולם.", "en": "Now for the second part, and perhaps the more surprising one: sewage. Israel recycles almost ninety percent of its wastewater, more than any other country in the world." },
+      { "s": "A", "he": "המים עוברים טיהור במכונים כמו השפד״ן, ליד ראשון לציון, ומשם הם זורמים בצינורות עד לשדות בנגב.", "en": "The water is treated in plants such as the Shafdan, near Rishon LeZion, and from there it flows through pipes all the way to the fields in the Negev." },
+      { "s": "A", "he": "כלומר, המים שהשתמשתם בהם הבוקר במקלחת עשויים בסופו של דבר להשקות שדה של תפוחי אדמה בנגב.", "en": "In other words, the water you used in the shower this morning may eventually irrigate a potato field in the Negev." },
+      { "s": "A", "he": "ויש גם חלק שלישי: החיסכון. ההשקיה בטפטוף המודרנית, שפותחה בישראל, נותנת לכל צמח בדיוק את כמות המים שהוא צריך.", "en": "And there's also a third part: saving. Modern drip irrigation, which was developed in Israel, gives each plant exactly the amount of water it needs." },
+      { "s": "A", "he": "בזכות שלושת הדברים האלה, ההתפלה, המיחזור והחיסכון, ישראל עברה ממחסור כרוני במים למצב יציב יחסית. ועכשיו, אשמח לשאלות.", "en": "Thanks to these three things, desalination, recycling and saving, Israel has gone from a chronic water shortage to a relatively stable situation. And now, I'd be happy to take questions." },
+      { "s": "B", "he": "יש לי שאלה. שמעתי שבמים מותפלים חסרים מינרלים, כמו מגנזיום. זה נכון?", "en": "I have a question. I've heard that desalinated water lacks minerals, like magnesium. Is that true?" },
+      { "s": "A", "he": "זה נכון. בתהליך ההתפלה מוציאים מהמים גם מינרלים חשובים. אחר כך מוסיפים סידן, אבל מגנזיום, לרוב, לא.", "en": "That's true. In the desalination process, important minerals are also removed from the water. Calcium is added afterwards, but magnesium, usually not." },
+      { "s": "A", "he": "יש על זה דיון ציבורי ומקצועי, והמומחים ממשיכים לבחון את הנושא. בינתיים, כדאי לקבל מגנזיום מהמזון, למשל מירקות עלים, מאגוזים ומקטניות.", "en": "There's a public and professional debate about it, and experts are still looking into the issue. In the meantime, it's a good idea to get magnesium from food, for example from leafy vegetables, nuts and legumes." },
+      { "s": "C", "he": "ומה עם המחיר? אם זה צורך כל כך הרבה חשמל, זה לא יקר מדי?", "en": "And what about the price? If it uses so much electricity, isn't it too expensive?" },
+      { "s": "A", "he": "שאלה טובה. ההתפלה אכן יקרה יותר משאיבה מהכנרת, אבל הטכנולוגיה השתפרה מאוד, והעלות ירדה לאורך השנים.", "en": "Good question. Desalination is indeed more expensive than pumping from the Sea of Galilee, but the technology has improved a lot, and the cost has come down over the years." },
+      { "s": "A", "he": "וחשוב לזכור: מחסור במים עולה הרבה יותר. כשאין מים, החקלאות, התעשייה וכל הכלכלה נפגעות.", "en": "And it's important to remember: a water shortage costs much more. When there's no water, agriculture, industry and the whole economy suffer." },
+      { "s": "C", "he": "אז למה לא לשתות ישר את המים הממוחזרים? הם הרי עוברים טיהור.", "en": "So why not drink the recycled water directly? After all, it's treated." },
+      { "s": "A", "he": "טכנית, אפשר לטהר אותם עד לרמה של מי שתייה, ויש מקומות בעולם שעושים את זה. אבל בישראל הם מיועדים לחקלאות.", "en": "Technically, it can be purified to drinking-water standard, and there are places in the world that do that. But in Israel it's intended for agriculture." },
+      { "s": "A", "he": "חוץ מזה, יש פה גם עניין של תדמית. לא קל לשכנע אנשים לשתות מים שהיו פעם ביוב, גם אם הם נקיים לגמרי.", "en": "Besides, there's also a question of image here. It isn't easy to persuade people to drink water that was once sewage, even if it's completely clean." },
+      { "s": "B", "he": "ומה יקרה אם תהיה שוב בצורת קשה? אנחנו מוכנים?", "en": "And what will happen if there's a severe drought again? Are we ready?" },
+      { "s": "A", "he": "הרבה יותר מבעבר. המתקנים ממשיכים לייצר מים גם בשנים יבשות, ויש תוכניות להקים מתקנים נוספים. אבל בבקשה, אל תתחילו להתקלח שעה שלמה.", "en": "Much more than in the past. The plants keep producing water even in dry years, and there are plans to build more of them. But please, don't start taking hour-long showers." },
+      { "s": "A", "he": "חיסכון במים עדיין חשוב, גם בגלל האנרגיה וגם בגלל הסביבה. תודה רבה לכולכם.", "en": "Saving water is still important, both because of the energy and because of the environment. Thank you all very much." }
+    ],
+    "questions": [
+      {
+        "q": "איך עובדת שיטת האוסמוזה ההפוכה?",
+        "qEn": "How does the reverse osmosis method work?",
+        "answer": "דוחפים את מי הים בלחץ גבוה דרך ממברנות, והמלח נשאר מאחור.",
+        "answerEn": "Seawater is pushed at high pressure through membranes, and the salt stays behind.",
+        "keywords": [["לחץ"], ["ממברנות", "ממברנה", "מסננים", "מסנן"], ["מלח"]]
+      },
+      {
+        "q": "אילו שני חסרונות של ההתפלה המרצה מזכירה?",
+        "qEn": "Which two disadvantages of desalination does the lecturer mention?",
+        "answer": "היא צורכת הרבה חשמל, ויוצרת תמלחת שמוחזרת לים.",
+        "answerEn": "It uses a lot of electricity, and it produces brine that is returned to the sea.",
+        "keywords": [["חשמל", "אנרגיה"], ["תמלחת", "מלוחים", "מלוח", "מלח"]]
+      },
+      {
+        "q": "מה קורה למי הביוב בישראל?",
+        "qEn": "What happens to sewage water in Israel?",
+        "answer": "הם עוברים טיהור, ואז זורמים בצינורות להשקיית שדות בנגב.",
+        "answerEn": "It is treated, and then it flows through pipes to irrigate fields in the Negev.",
+        "keywords": [["טיהור", "מטהרים", "לטהר", "מטוהרים", "מכון"], ["שדות", "שדה", "חקלאות", "להשקות", "השקיה", "השקיית", "נגב"]]
+      },
+      {
+        "q": "מה חסר במים מותפלים, ומה המרצה ממליצה בינתיים?",
+        "qEn": "What is missing from desalinated water, and what does the lecturer recommend in the meantime?",
+        "answer": "חסר בהם מגנזיום, ולכן כדאי לקבל מגנזיום מהמזון, למשל מאגוזים ומקטניות.",
+        "answerEn": "It lacks magnesium, so it's a good idea to get magnesium from food, for example from nuts and legumes.",
+        "keywords": [["מגנזיום"], ["מזון", "אוכל", "ירקות", "אגוזים", "קטניות", "תזונה"]]
+      },
+      {
+        "q": "למה בישראל לא שותים את המים הממוחזרים?",
+        "qEn": "Why don't people in Israel drink the recycled water?",
+        "answer": "כי הם מיועדים לחקלאות, וקשה לשכנע אנשים לשתות מים שהיו פעם ביוב.",
+        "answerEn": "Because it's intended for agriculture, and it's hard to persuade people to drink water that used to be sewage.",
+        "keywords": [["חקלאות", "שדות"], ["לשכנע", "תדמית", "ביוב"]]
+      }
+    ],
+    "tf": [
+      {
+        "s": "רוב מי השתייה בבתים בישראל מגיעים היום מהכנרת.",
+        "sEn": "Today most of the drinking water in Israeli homes comes from the Sea of Galilee.",
+        "a": false,
+        "why": "Merav says most drinking water in homes is now desalinated seawater, מים מותפלים. The Kinneret and groundwater were the main sources in the past."
+      },
+      {
+        "s": "לפי המרצה, תהליך ההתפלה דורש הרבה מאוד חשמל.",
+        "sEn": "According to the lecturer, the desalination process requires a great deal of electricity.",
+        "a": true,
+        "why": "She says התהליך הזה דורש הרבה מאוד חשמל and calls it one of its main disadvantages."
+      },
+      {
+        "s": "ישראל ממחזרת פחות שפכים מרוב המדינות בעולם.",
+        "sEn": "Israel recycles less wastewater than most countries in the world.",
+        "a": false,
+        "why": "She says Israel recycles almost ninety percent of its wastewater, יותר מכל מדינה אחרת בעולם, more than any other country."
+      },
+      {
+        "s": "המרצה מודה שההתפלה יקרה יותר משאיבה מהכנרת.",
+        "sEn": "The lecturer admits that desalination is more expensive than pumping from the Sea of Galilee.",
+        "a": true,
+        "why": "She says ההתפלה אכן יקרה יותר משאיבה מהכנרת, but adds that the cost has come down and that a water shortage costs much more."
+      }
+    ],
+    "dictation": [12, 18, 21],
+    "expressions": [
+      { "he": "לשנות כיוון", "en": "to change course", "note": "Literal and figurative: הוחלט לשנות כיוון = it was decided to change course." },
+      { "he": "כלומר", "en": "that is, in other words", "note": "Introduces a clarification. Very common in lectures and explanations." },
+      { "he": "בזכות", "en": "thanks to", "note": "For a positive cause; for a negative one use בגלל: בזכות ההתפלה, but בגלל הבצורת." },
+      { "he": "אכן", "en": "indeed", "note": "Slightly formal. Often concedes a point before a 'but': ההתפלה אכן יקרה יותר, אבל..." },
+      { "he": "הרי", "en": "after all, as we know", "note": "Appeals to something the listener already knows: הם הרי עוברים טיהור." },
+      { "he": "בסופו של דבר", "en": "in the end, eventually", "note": "Neutral to formal; in casual speech people also say בסוף." }
+    ]
+  },
+  {
+    "id": "s_b2_drama_family_business",
+    "level": "B2",
+    "title": "המאפייה של אבא",
+    "titleEn": "Dad's Bakery",
+    "genre": "drama",
+    "synopsis": "A few months after their father's death, three siblings meet at the bakery he ran for decades. A café chain has made an offer for it, and they do not agree on what to do.",
+    "speakers": {
+      "A": { "name": "רותם", "gender": "f" },
+      "B": { "name": "גיל", "gender": "m" },
+      "C": { "name": "מיכל", "gender": "f" }
+    },
+    "lines": [
+      { "s": "B", "he": "קיבלתי אתמול שוב טלפון מהרשת. ההצעה עדיין בתוקף, אבל רק עד סוף החודש.", "en": "I got another call from the chain yesterday. The offer still stands, but only until the end of the month." },
+      { "s": "A", "he": "ואמרת להם שאנחנו לא מוכרים, נכון?", "en": "And you told them we're not selling, right?" },
+      { "s": "B", "he": "אמרתי להם שנחזור אליהם. רותם, זאת החלטה של שלושתנו, לא רק שלך.", "en": "I told them we'd get back to them. Rotem, this is a decision for the three of us, not just for you." },
+      { "s": "A", "he": "שלושתנו? מי עמד פה ליד התנור כל בוקר בארבע, כשאבא כבר לא היה מסוגל?", "en": "The three of us? Who stood here by the oven every morning at four, when Dad couldn't do it anymore?" },
+      { "s": "C", "he": "רותם, אף אחד לא מזלזל במה שעשית. אבל בואו ננסה לדבר בלי להאשים.", "en": "Rotem, nobody is belittling what you did. But let's try to talk without blaming each other." },
+      { "s": "B", "he": "אני אגיד את זה פעם אחת, בעדינות: המאפייה מפסידה כסף כבר שנתיים. ראיתי את הדוחות.", "en": "I'll say this once, gently: the bakery has been losing money for two years. I've seen the reports." },
+      { "s": "A", "he": "היא מפסידה כי אבא היה חולה, ולא היה מי שינהל אותה כמו שצריך. עכשיו זה משתנה.", "en": "It's losing money because Dad was ill, and there was nobody to run it properly. Now that's changing." },
+      { "s": "B", "he": "ואם זה לא ישתנה? אם בעוד שנה נהיה עוד יותר עמוק במינוס, מי יכסה את החובות?", "en": "And if it doesn't change? If a year from now we're even deeper in the red, who's going to cover the debts?" },
+      { "s": "C", "he": "גיל צודק שיש סיכון. אבל גם למכור זה צעד שאי אפשר לחזור ממנו.", "en": "Gil is right that there's a risk. But selling is also a step there's no coming back from." },
+      { "s": "A", "he": "אתם יודעים מה הרשת תעשה פה? תוציא את התנור של אבא ותמכור קרואסונים קפואים במחיר כפול.", "en": "Do you know what the chain will do here? Take out Dad's oven and sell frozen croissants at double the price." },
+      { "s": "B", "he": "אולי. ואולי לא. אבל לו אבא היה יושב פה עכשיו, אני לא בטוח שהוא היה רוצה שתעבדי ארבע עשרה שעות ביום.", "en": "Maybe. And maybe not. But if Dad were sitting here now, I'm not sure he'd want you working fourteen hours a day." },
+      { "s": "A", "he": "אל תגיד לי מה אבא היה רוצה. אתה גרת בתל אביב ובאת פעם בחודש.", "en": "Don't tell me what Dad would want. You lived in Tel Aviv and came once a month." },
+      { "s": "B", "he": "זה לא הוגן, ואת יודעת את זה. דיברתי איתו בטלפון כל ערב. גם אני מתגעגע אליו.", "en": "That's not fair, and you know it. I talked to him on the phone every evening. I miss him too." },
+      { "s": "C", "he": "די, שניכם. אם אבא היה רואה אותנו עכשיו, הלב שלו היה נשבר.", "en": "Enough, both of you. If Dad saw us now, it would break his heart." },
+      { "s": "C", "he": "כשסידרתי את המשרד שלו, מצאתי מחברת עם כל המתכונים. ובעמוד הראשון הוא כתב: מאפייה זה אנשים, לא קירות.", "en": "When I was sorting out his office, I found a notebook with all the recipes. And on the first page he wrote: a bakery is people, not walls." },
+      { "s": "A", "he": "זה בדיוק מה שאני אומרת. סלים עובד פה עשרים ושתיים שנה. מה יהיה איתו אם נמכור?", "en": "That's exactly what I'm saying. Salim has worked here for twenty-two years. What will happen to him if we sell?" },
+      { "s": "B", "he": "הרשת התחייבה בכתב להשאיר את כל העובדים לפחות שנה, כולל סלים. בדקתי את זה.", "en": "The chain has committed in writing to keep all the staff for at least a year, Salim included. I checked." },
+      { "s": "A", "he": "שנה. ואחרי שנה? אתה באמת מאמין להבטחות של רשת?", "en": "A year. And after a year? Do you really believe a chain's promises?" },
+      { "s": "B", "he": "אני מאמין לחוזים. ואולי אבא רצה להגיד שהזיכרון שלו נמצא באנשים ובמתכונים, ולא דווקא בקירות האלה.", "en": "I trust contracts. And maybe Dad meant that his memory lives on in the people and the recipes, and not necessarily in these walls." },
+      { "s": "C", "he": "אז בואו נעשה ככה. ניתן למאפייה עוד שנה. אם עד אז היא לא תכסה את ההוצאות שלה, נמכור, בלי ויכוחים.", "en": "So let's do this. We give the bakery one more year. If by then it isn't covering its own costs, we sell, no arguments." },
+      { "s": "B", "he": "ומה עם ההצעה של הרשת? הם לא יחכו לנו שנה.", "en": "And what about the chain's offer? They won't wait a year for us." },
+      { "s": "C", "he": "אז יבואו הצעות אחרות. או שלא. זה הסיכון, וצריך לקחת אותו בעיניים פקוחות.", "en": "Then other offers will come. Or they won't. That's the risk, and we have to take it with our eyes open." },
+      { "s": "B", "he": "בסדר. אבל בשני תנאים: אני עובר על הספרים כל חודש, ואת מגייסת עוד עובד, כדי שלא תקרסי.", "en": "Fine. But on two conditions: I go over the books every month, and you take on another worker, so you don't collapse." },
+      { "s": "A", "he": "אני... מסכימה. ועוד דבר, גיל. אם אני הייתי גרה בתל אביב, כנראה הייתי מדברת בדיוק כמוך. סליחה על מה שאמרתי.", "en": "I... agree. And one more thing, Gil. If I'd been living in Tel Aviv, I'd probably be talking exactly like you. I'm sorry for what I said." },
+      { "s": "B", "he": "גם אני מצטער. ותעשי לי טובה: תיקחי לפעמים יום חופש.", "en": "I'm sorry too. And do me a favor: take a day off once in a while." },
+      { "s": "C", "he": "ומחר בבוקר אני באה לעזור לך עם הבצק. מישהו חוץ ממך צריך ללמוד את המתכונים האלה.", "en": "And tomorrow morning I'm coming to help you with the dough. Someone besides you needs to learn these recipes." }
+    ],
+    "questions": [
+      {
+        "q": "למה גיל חושב שצריך לשקול את ההצעה של הרשת?",
+        "qEn": "Why does Gil think the chain's offer should be considered?",
+        "answer": "כי המאפייה מפסידה כסף כבר שנתיים.",
+        "answerEn": "Because the bakery has been losing money for two years.",
+        "keywords": [["מפסידה", "מפסיד", "מפסידים", "הפסד", "הפסדים", "להפסיד", "מינוס"], ["שנתיים"]]
+      },
+      {
+        "q": "לפי רותם, למה המאפייה מפסידה?",
+        "qEn": "According to Rotem, why is the bakery losing money?",
+        "answer": "כי אבא היה חולה, ולא היה מי שינהל אותה כמו שצריך.",
+        "answerEn": "Because Dad was ill, and there was nobody to run it properly.",
+        "keywords": [["חולה", "מחלה"], ["ינהל", "לנהל", "ניהול", "מנהל", "ניהל"]]
+      },
+      {
+        "q": "מה כתב האב בעמוד הראשון של מחברת המתכונים?",
+        "qEn": "What did the father write on the first page of the recipe notebook?",
+        "answer": "שמאפייה זה אנשים, לא קירות.",
+        "answerEn": "That a bakery is people, not walls.",
+        "keywords": [["אנשים"], ["קירות"]]
+      },
+      {
+        "q": "מה הפשרה שמיכל מציעה?",
+        "qEn": "What compromise does Michal suggest?",
+        "answer": "לתת למאפייה עוד שנה, ואם עד אז היא לא תכסה את ההוצאות שלה, למכור אותה.",
+        "answerEn": "To give the bakery one more year, and if by then it doesn't cover its costs, to sell it.",
+        "keywords": [["שנה"], ["הוצאות", "לכסות", "תכסה", "מכסה", "יכסו"], ["למכור", "נמכור", "ימכרו", "מכירה", "מוכרים"]]
+      },
+      {
+        "q": "מהם שני התנאים של גיל?",
+        "qEn": "What are Gil's two conditions?",
+        "answer": "הוא יעבור על הספרים כל חודש, ורותם תגייס עוד עובד.",
+        "answerEn": "He will go over the books every month, and Rotem will take on another worker.",
+        "keywords": [["ספרים", "דוחות", "חשבונות"], ["עובד", "לגייס", "תגייס", "מגייסת"]]
+      }
+    ],
+    "tf": [
+      {
+        "s": "גיל כבר אמר לרשת שהמשפחה מוכרת את המאפייה.",
+        "sEn": "Gil has already told the chain that the family is selling the bakery.",
+        "a": false,
+        "why": "He only told them they would get back to them: אמרתי להם שנחזור אליהם."
+      },
+      {
+        "s": "כשהאב היה חולה, רותם עבדה במאפייה כל בוקר.",
+        "sEn": "When their father was ill, Rotem worked in the bakery every morning.",
+        "a": true,
+        "why": "Rotem says she stood by the oven every morning at four when Dad couldn't anymore: מי עמד פה ליד התנור כל בוקר בארבע."
+      },
+      {
+        "s": "הרשת הבטיחה להשאיר את כל העובדים לתמיד.",
+        "sEn": "The chain promised to keep all the staff forever.",
+        "a": false,
+        "why": "The written commitment is for at least a year, לפחות שנה, and Rotem asks what will happen after that."
+      },
+      {
+        "s": "בסוף רותם מתנצלת על מה שאמרה לגיל.",
+        "sEn": "In the end Rotem apologizes for what she said to Gil.",
+        "a": true,
+        "why": "She admits that in his place she would probably talk like him and says סליחה על מה שאמרתי."
+      }
+    ],
+    "dictation": [1, 13, 20],
+    "expressions": [
+      { "he": "בתוקף", "en": "valid, still in force", "note": "For offers, documents and laws: ההצעה בתוקף עד סוף החודש, הדרכון שלי לא בתוקף." },
+      { "he": "לחזור אל מישהו", "en": "to get back to someone", "note": "נחזור אליכם = we'll get back to you, a polite way to postpone an answer." },
+      { "he": "להיות במינוס", "en": "to be in the red, to be overdrawn", "note": "Colloquial. Very common about bank accounts: אני במינוס החודש." },
+      { "he": "לו אבא היה יושב פה, הוא היה רוצה...", "en": "if Dad were sitting here, he would want...", "note": "Counterfactual: היה + present form in both halves. In speech אם is also used: אם אבא היה רואה אותנו..." },
+      { "he": "לא דווקא", "en": "not necessarily", "note": "Softens a claim: ולא דווקא בקירות האלה = and not necessarily in these walls." },
+      { "he": "בעיניים פקוחות", "en": "with one's eyes open", "note": "Doing something while fully aware of the risks." }
+    ]
+  },
+  {
+    "id": "s_c1_panel_language",
+    "level": "C1",
+    "title": "דדליין או מועד אחרון?",
+    "titleEn": "Deadline or Mo'ed Akharon?",
+    "genre": "interview",
+    "synopsis": "On an evening radio show about language, a linguist and a tech copywriter discuss whether English is taking over Hebrew. Later a listener calls in with an observation of her own.",
+    "speakers": {
+      "A": { "name": "יואב", "gender": "m" },
+      "B": { "name": "נטליה", "gender": "f" },
+      "C": { "name": "עומר", "gender": "m" },
+      "D": { "name": "רנא", "gender": "f" }
+    },
+    "lines": [
+      { "s": "A", "he": "ערב טוב, כאן יואב, וזו התוכנית על השפה שאנחנו מדברים בה כל יום. הערב נשאל שאלה שמעסיקה רבים: האם האנגלית משתלטת על העברית?", "en": "Good evening, Yoav here, and this is the show about the language we speak every day. Tonight we're asking a question that concerns many people: is English taking over Hebrew?" },
+      { "s": "A", "he": "איתי באולפן ד״ר נטליה ברגמן, בלשנית שחוקרת את העברית בת זמננו, ועומר דהן, קופירייטר ומגיש פודקאסט על הייטק. ערב טוב לשניכם.", "en": "With me in the studio are Dr. Natalia Bergman, a linguist who researches contemporary Hebrew, and Omer Dahan, a copywriter and the host of a tech podcast. Good evening to you both." },
+      { "s": "C", "he": "ערב טוב. ואני אגיד כבר בהתחלה, בלי פילטרים: אני מדבר עברית, אבל העבודה שלי מתנהלת חצי באנגלית.", "en": "Good evening. And I'll say it right at the start, no filters: I speak Hebrew, but half of my work is done in English." },
+      { "s": "C", "he": "אצלנו במשרד אף אחד לא אומר מועד אחרון. יש דדליין, יש פידבק, יש מיטינג. ומי שאומר ישיבה, נשמע כמו סבא שלו.", "en": "At our office nobody says mo'ed akharon. There's a deadline, there's feedback, there's a meeting. And anyone who says yeshiva sounds like his grandfather." },
+      { "s": "A", "he": "ד״ר ברגמן, זה מדאיג אותך?", "en": "Dr. Bergman, does that worry you?" },
+      { "s": "B", "he": "לא במיוחד. ראשית, אין חדש תחת השמש. העברית שאלה מילים מאז ומעולם: מן הארמית, מן היוונית ומן הפרסית, ובעת החדשה גם מיידיש ומערבית.", "en": "Not particularly. First of all, there's nothing new under the sun. Hebrew has always borrowed words: from Aramaic, from Greek and from Persian, and in modern times also from Yiddish and Arabic." },
+      { "s": "B", "he": "המילה אוויר, למשל, הגיעה מן היוונית, והמילה פרדס מן הפרסית. איש אינו חושב היום שהן זרות.", "en": "The word avir, air, for example, came from Greek, and the word pardes, orchard, from Persian. Nobody today thinks of them as foreign." },
+      { "s": "C", "he": "וסבבה ויאללה? גם הן כבר עברית לכל דבר, לא?", "en": "And sababa and yalla? They're fully Hebrew by now too, aren't they?" },
+      { "s": "B", "he": "בהחלט, גם אם במכתב רשמי לא הייתי ממליצה עליהן. וזו בדיוק הנקודה: השאלה איננה אם שואלים מילים, אלא באיזה משלב ובאיזו מידה.", "en": "Absolutely, even if I wouldn't recommend them in a formal letter. And that's exactly the point: the question isn't whether words are borrowed, but in which register and to what extent." },
+      { "s": "A", "he": "בואו נעשה ניסוי קטן. עומר, תגיד משפט טיפוסי מהמשרד, וד״ר ברגמן תתרגם אותו לעברית רשמית.", "en": "Let's do a little experiment. Omer, say a typical office sentence, and Dr. Bergman will translate it into formal Hebrew." },
+      { "s": "C", "he": "אחלה. אז ככה: אחרי המיטינג אני אשלח לך מייל עם הפידבק, ותעשי אפדייט לפני הדדליין.", "en": "Great. So here goes: after the meeting I'll send you an email with the feedback, and you'll do an update before the deadline." },
+      { "s": "B", "he": "בעקבות הישיבה אשלח אלייך הודעת דואר אלקטרוני ובה משוב, ואבקש כי תעדכני את המסמך עד המועד האחרון.", "en": "Following the meeting, I shall send you an electronic mail message containing feedback, and I shall ask that you update the document by the deadline." },
+      { "s": "C", "he": "זה נשמע כמו מכתב מהבנק. אף אחד לא מדבר ככה בבית קפה.", "en": "That sounds like a letter from the bank. Nobody talks like that in a café." },
+      { "s": "B", "he": "נכון, וגם אין צורך. לכל משלב יש מקום משלו. אך אדם אשר שולט בשני המשלבים, ויודע מתי לומר דדליין ומתי מועד אחרון, הנו דובר עשיר יותר, לא עני יותר.", "en": "True, and there's no need to. Every register has its own place. But a person who has command of both registers, and knows when to say deadline and when mo'ed akharon, is a richer speaker, not a poorer one." },
+      { "s": "A", "he": "ומה עם האקדמיה ללשון העברית? היא הרי מחדשת מילים על מנת להחליף מילים לועזיות. זה עובד?", "en": "And what about the Academy of the Hebrew Language? After all, it coins new words in order to replace foreign ones. Does it work?" },
+      { "s": "B", "he": "לפעמים בהצלחה מרשימה. מילים כמו מילון ועיתון, שחידש אליעזר בן יהודה עוד לפני שקמה האקדמיה, נשמעות לנו היום טבעיות לגמרי.", "en": "Sometimes with impressive success. Words like milon, dictionary, and iton, newspaper, which Eliezer Ben-Yehuda coined even before the Academy was founded, sound completely natural to us today." },
+      { "s": "B", "he": "בתחום הטכנולוגיה התמונה מורכבת יותר. במילה מרשתת, שהוצעה במקום אינטרנט, כמעט איש אינו משתמש, ואילו מסרון ויישומון מופיעים בעיקר בטקסטים רשמיים.", "en": "In technology the picture is more complicated. The word mirsheter, which was proposed instead of internet, is used by almost nobody, whereas misron, text message, and yishumon, app, appear mainly in official texts." },
+      { "s": "C", "he": "יישומון? סליחה, אבל זה נשמע כמו משהו שקונים בבית מרקחת. אני מעדיף לקרוא לילד בשמו: אפליקציה.", "en": "Yishumon? Sorry, but that sounds like something you buy at a pharmacy. I prefer to call a spade a spade: app." },
+      { "s": "B", "he": "וזו בדיוק הדילמה של האקדמיה. היא אינה משטרת לשון, ואין בכוחה לכפות מילים על הציבור.", "en": "And that's exactly the Academy's dilemma. It isn't a language police, and it has no power to force words on the public." },
+      { "s": "B", "he": "אילו היה ניתן לקבוע אוצר מילים בחוק, הייתה העברית נראית אחרת לגמרי. אבל השפה שייכת לדובריה, לא למוסדות.", "en": "Were it possible to fix vocabulary by law, Hebrew would look completely different. But a language belongs to its speakers, not to institutions." },
+      { "s": "A", "he": "יש לנו מאזינה על הקו: רנא, מורה לעברית מחיפה. ערב טוב, רנא.", "en": "We have a listener on the line: Rana, a Hebrew teacher from Haifa. Good evening, Rana." },
+      { "s": "D", "he": "ערב טוב. אני מלמדת עברית בתיכון ערבי, ואני רואה אצל התלמידים שלי תופעה מעניינת.", "en": "Good evening. I teach Hebrew at an Arab high school, and I see an interesting phenomenon among my students." },
+      { "s": "D", "he": "הם לוקחים מילה מאנגלית ומכניסים אותה לבניין עברי בלי לחשוב פעמיים: לגגל, לסמס, להתפקס. בעיניי, זה סימן שהדקדוק העברי חי ובועט.", "en": "They take a word from English and put it into a Hebrew binyan without thinking twice: to google, to text, to focus. To my mind, that's a sign that Hebrew grammar is alive and kicking." },
+      { "s": "B", "he": "רנא צודקת לגמרי, וזו הערה חשובה. המילים אמנם באות מבחוץ, אך הן מתנהגות לפי כללי העברית, בבניין פיעל או בבניין התפעל.", "en": "Rana is absolutely right, and that's an important remark. The words may come from outside, but they behave according to the rules of Hebrew, in the pi'el or the hitpa'el." },
+      { "s": "C", "he": "אז רגע, כשאני אומר שצריך לפרמט את המחשב, אני בעצם שומר על העברית? סוף סוף מישהו מבין אותי.", "en": "So wait, when I say the computer needs formatting, I'm actually protecting Hebrew? Finally someone understands me." },
+      { "s": "B", "he": "לא הייתי מרחיקה לכת עד כדי כך. אבל כן, אין צורך להיבהל. העברית ספגה השפעות במשך אלפי שנים, ויצאה מהן חזקה יותר.", "en": "I wouldn't go quite that far. But yes, there's no need to panic. Hebrew has absorbed influences for thousands of years and has come out of them stronger." },
+      { "s": "A", "he": "ובכל זאת, עצה אחת למאזינים שלנו לפני שנסיים?", "en": "Still, one piece of advice for our listeners before we finish?" },
+      { "s": "B", "he": "להכיר את שני המשלבים, ולבחור לפי הנסיבות. בשיחה עם עמיתים, פידבק זה בסדר גמור. במכתב לרשות ממשלתית, עדיף משוב.", "en": "Know both registers, and choose according to the circumstances. In a conversation with colleagues, feedback is perfectly fine. In a letter to a government authority, mashov is better." },
+      { "s": "C", "he": "ואני אוסיף, בלי פילטרים: על טעם ועל ריח אין להתווכח. רק אל תכתבו סבבה בקורות החיים.", "en": "And I'll add, no filters: there's no accounting for taste. Just don't write sababa in your CV." },
+      { "s": "A", "he": "עומר דהן, ד״ר נטליה ברגמן, תודה רבה לשניכם. ואנחנו נמשיך מיד אחרי ההפסקה.", "en": "Omer Dahan, Dr. Natalia Bergman, thank you both very much. And we'll be right back after the break." }
+    ],
+    "questions": [
+      {
+        "q": "מה עומר מספר על השפה בעבודה שלו?",
+        "qEn": "What does Omer say about the language at his work?",
+        "answer": "שהעבודה שלו מתנהלת חצי באנגלית, ושאומרים שם דדליין ומיטינג במקום מועד אחרון וישיבה.",
+        "answerEn": "That half of his work is done in English, and that people there say deadline and meeting instead of mo'ed akharon and yeshiva.",
+        "keywords": [["אנגלית", "חצי"], ["דדליין", "פידבק", "מיטינג"]]
+      },
+      {
+        "q": "למה ד״ר ברגמן לא מודאגת מהמילים הלועזיות?",
+        "qEn": "Why isn't Dr. Bergman worried about the foreign words?",
+        "answer": "כי העברית שאלה מילים מאז ומעולם, למשל אוויר מיוונית ופרדס מפרסית.",
+        "answerEn": "Because Hebrew has always borrowed words, for example avir from Greek and pardes from Persian.",
+        "keywords": [["שאלה", "שאלו", "שואלת", "שואלים", "שאולות", "לשאול"], ["מאז ומעולם", "תמיד", "ארמית", "יוונית", "פרסית", "אוויר", "פרדס"]]
+      },
+      {
+        "q": "לפי ד״ר ברגמן, מה השאלה החשובה באמת?",
+        "qEn": "According to Dr. Bergman, what is the question that really matters?",
+        "answer": "לא אם שואלים מילים, אלא באיזה משלב ובאיזו מידה.",
+        "answerEn": "Not whether words are borrowed, but in which register and to what extent.",
+        "keywords": [["משלב", "משלבים"], ["מידה"]]
+      },
+      {
+        "q": "אילו דוגמאות נותנת ד״ר ברגמן למילים חדשות שהצליחו ולמילה שלא הצליחה?",
+        "qEn": "What examples does Dr. Bergman give of new words that succeeded and of a word that failed?",
+        "answer": "מילון ועיתון של בן יהודה הצליחו, אבל במרשתת כמעט איש אינו משתמש.",
+        "answerEn": "Ben-Yehuda's milon and iton succeeded, but almost nobody uses mirsheter.",
+        "keywords": [["מילון", "עיתון"], ["מרשתת"]]
+      },
+      {
+        "q": "מה רנא רואה אצל התלמידים שלה, ומה זה אומר לדעתה?",
+        "qEn": "What does Rana notice among her students, and what does it mean in her opinion?",
+        "answer": "הם מכניסים מילים מאנגלית לבניינים עבריים, כמו לגגל ולסמס. בעיניה, זה סימן שהדקדוק העברי חי.",
+        "answerEn": "They put English words into Hebrew binyanim, like to google and to text. To her, it's a sign that Hebrew grammar is alive.",
+        "keywords": [["בניין", "בניינים"], ["לגגל", "לסמס", "להתפקס"], ["חי", "בועט", "סימן"]]
+      }
+    ],
+    "tf": [
+      {
+        "s": "לדברי עומר, במשרד שלו אומרים בדרך כלל ישיבה ולא מיטינג.",
+        "sEn": "According to Omer, at his office people usually say yeshiva rather than meeting.",
+        "a": false,
+        "why": "The opposite: he says everyone says מיטינג, and that anyone who says ישיבה sounds like his grandfather."
+      },
+      {
+        "s": "לפי ד״ר ברגמן, המילה פרדס הגיעה לעברית מן הפרסית.",
+        "sEn": "According to Dr. Bergman, the word pardes came into Hebrew from Persian.",
+        "a": true,
+        "why": "She says המילה פרדס מן הפרסית, alongside אוויר from Greek."
+      },
+      {
+        "s": "לדברי ד״ר ברגמן, האקדמיה יכולה לחייב את הציבור להשתמש במילים שלה.",
+        "sEn": "According to Dr. Bergman, the Academy can oblige the public to use its words.",
+        "a": false,
+        "why": "She says the Academy is not a language police: אין בכוחה לכפות מילים על הציבור, and a language belongs to its speakers."
+      },
+      {
+        "s": "בסוף התוכנית, עומר ממליץ לא לכתוב סבבה בקורות החיים.",
+        "sEn": "At the end of the show, Omer advises against writing sababa in your CV.",
+        "a": true,
+        "why": "His last line is רק אל תכתבו סבבה בקורות החיים."
+      }
+    ],
+    "dictation": [7, 12, 26],
+    "expressions": [
+      { "he": "אין חדש תחת השמש", "en": "there's nothing new under the sun", "note": "From Ecclesiastes (קהלת). Used to say that a 'new' trend is really an old one." },
+      { "he": "משלב", "en": "register, level of language", "note": "משלב גבוה = formal register, משלב דיבורי = colloquial register. Plural משלבים." },
+      { "he": "לקרוא לילד בשמו", "en": "to call a spade a spade", "note": "Literally 'to call the child by its name'. Omer uses it ironically, to choose the English word." },
+      { "he": "אילו היה ניתן..., הייתה העברית נראית...", "en": "were it possible..., Hebrew would look...", "note": "Formal counterfactual with אילו. In high register the verb often comes before the subject in the main clause." },
+      { "he": "להרחיק לכת", "en": "to go far, to go too far in a claim", "note": "לא הייתי מרחיקה לכת עד כדי כך = I wouldn't go that far. Formal-neutral." },
+      { "he": "על טעם ועל ריח אין להתווכח", "en": "there's no accounting for taste", "note": "A fixed saying, literally 'about taste and smell there's no arguing'." }
+    ]
+  }
+]

@@ -1,0 +1,722 @@
+[
+  {
+    "id": "r_a1_schedule",
+    "level": "A1",
+    "title": "מה יש השבוע במתנ״ס?",
+    "titleEn": "What's on this week at the community centre?",
+    "topic": "leisure",
+    "kind": "notice",
+    "paragraphs": [
+      {
+        "he": "מתנ״ס הגפן – לוח שבועי",
+        "en": "HaGefen Community Centre – weekly schedule"
+      },
+      {
+        "he": "שעות פתיחה: ראשון עד חמישי, משמונה בבוקר עד עשר בלילה. שישי: משמונה עד שתיים. שבת: סגור.",
+        "en": "Opening hours: Sunday to Thursday, from eight in the morning to ten at night. Friday: from eight to two. Saturday: closed."
+      },
+      {
+        "he": "יום ראשון: יוגה בשעה תשע בבוקר, בחדר 2.",
+        "en": "Sunday: yoga at nine in the morning, in room 2."
+      },
+      {
+        "he": "יום שני: עברית למתחילים, משש עד שמונה בערב, בחדר 5.",
+        "en": "Monday: Hebrew for beginners, from six to eight in the evening, in room 5."
+      },
+      {
+        "he": "יום שלישי: כדורסל לילדים בני שמונה עד שתים עשרה, בשעה ארבע.",
+        "en": "Tuesday: basketball for children aged eight to twelve, at four o'clock."
+      },
+      {
+        "he": "יום רביעי: ריקודי עם בשעה שבע וחצי בערב. לכל הגילים!",
+        "en": "Wednesday: folk dancing at half past seven in the evening. For all ages!"
+      },
+      {
+        "he": "יום חמישי: סרט ישראלי בשעה שמונה בערב. הכניסה חינם.",
+        "en": "Thursday: an Israeli film at eight in the evening. Admission is free."
+      },
+      {
+        "he": "יום שישי: שוק קטן בחצר, משמונה עד אחת עשרה בבוקר.",
+        "en": "Friday: a small market in the courtyard, from eight to eleven in the morning."
+      },
+      {
+        "he": "מחיר לשיעור: עשרים שקלים. לילדים: חמישה עשר שקלים.",
+        "en": "Price per class: twenty shekels. For children: fifteen shekels."
+      },
+      {
+        "he": "הרשמה במשרד, בחדר 1, או בטלפון.",
+        "en": "Registration at the office, in room 1, or by phone."
+      }
+    ],
+    "glossary": [
+      {
+        "he": "מתנ״ס",
+        "en": "community centre (abbreviation of מרכז תרבות, נוער וספורט – centre for culture, youth and sport)",
+        "tr": "matnás"
+      },
+      {
+        "he": "לוח שבועי",
+        "en": "weekly schedule (לוח = board, timetable)",
+        "tr": "lúakh shvu'í"
+      },
+      {
+        "he": "שעות פתיחה",
+        "en": "opening hours",
+        "tr": "she'ót ptikhá"
+      },
+      {
+        "he": "סגור",
+        "en": "closed",
+        "tr": "sagúr"
+      },
+      {
+        "he": "מתחילים",
+        "en": "beginners (singular מתחיל)",
+        "tr": "matkhilím"
+      },
+      {
+        "he": "בני",
+        "en": "aged (ילדים בני שמונה = children aged eight; singular בן / בת)",
+        "tr": "bnéy"
+      },
+      {
+        "he": "ריקודי עם",
+        "en": "folk dancing (ריקוד = dance, עם = people, nation)",
+        "tr": "rikudéy am"
+      },
+      {
+        "he": "גיל",
+        "en": "age (plural גילים)",
+        "tr": "gil"
+      },
+      {
+        "he": "כניסה",
+        "en": "entry, admission (הכניסה חינם = admission is free)",
+        "tr": "knisá"
+      },
+      {
+        "he": "חינם",
+        "en": "free (of charge)",
+        "tr": "khinám"
+      },
+      {
+        "he": "חצר",
+        "en": "courtyard, yard",
+        "tr": "khatsér"
+      },
+      {
+        "he": "שיעור",
+        "en": "lesson, class",
+        "tr": "shi'úr"
+      },
+      {
+        "he": "הרשמה",
+        "en": "registration, signing up",
+        "tr": "harshamá"
+      }
+    ],
+    "questions": [
+      {
+        "q": "מתי המתנ״ס סגור?",
+        "qEn": "When is the community centre closed?",
+        "answer": "המתנ״ס סגור בשבת.",
+        "answerEn": "The community centre is closed on Saturday.",
+        "keywords": [["שבת"]]
+      },
+      {
+        "q": "מה יש ביום שני, ובאיזו שעה?",
+        "qEn": "What is there on Monday, and at what time?",
+        "answer": "עברית למתחילים, משש עד שמונה בערב.",
+        "answerEn": "Hebrew for beginners, from six to eight in the evening.",
+        "keywords": [["עברית"], ["שש", "6", "18"]]
+      },
+      {
+        "q": "כמה עולה שיעור לילדים?",
+        "qEn": "How much does a class for children cost?",
+        "answer": "שיעור לילדים עולה חמישה עשר שקלים.",
+        "answerEn": "A class for children costs fifteen shekels.",
+        "keywords": [["חמישה עשר", "חמש עשרה", "15"]]
+      }
+    ],
+    "tf": [
+      {
+        "s": "ביום שישי המתנ״ס פתוח עד שתיים.",
+        "sEn": "On Friday the community centre is open until two.",
+        "a": true,
+        "why": "The opening hours say: Friday, from eight to two."
+      },
+      {
+        "s": "יש יוגה ביום שלישי.",
+        "sEn": "There is yoga on Tuesday.",
+        "a": false,
+        "why": "Yoga is on Sunday at nine. On Tuesday there is basketball for children."
+      },
+      {
+        "s": "הסרט ביום חמישי עולה עשרים שקלים.",
+        "sEn": "The film on Thursday costs twenty shekels.",
+        "a": false,
+        "why": "The notice says that admission to the film is free (הכניסה חינם)."
+      },
+      {
+        "s": "ביום רביעי בערב יש ריקודי עם.",
+        "sEn": "On Wednesday evening there is folk dancing.",
+        "a": true,
+        "why": "Folk dancing is on Wednesday at half past seven in the evening, for all ages."
+      }
+    ],
+    "find": [
+      {
+        "en": "opening hours",
+        "answer": ["שעות פתיחה"]
+      },
+      {
+        "en": "for beginners",
+        "answer": ["למתחילים"]
+      },
+      {
+        "en": "for all ages",
+        "answer": ["לכל הגילים"]
+      },
+      {
+        "en": "admission is free",
+        "answer": ["הכניסה חינם"]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "המתנ״ס פתוח גם ביום ___, אבל רק עד שתיים.",
+        "en": "The community centre is also open on Friday, but only until two.",
+        "answer": ["שישי"],
+        "hint": "a day of the week"
+      },
+      {
+        "prompt": "בשבת המתנ״ס ___.",
+        "en": "On Saturday the community centre is closed.",
+        "answer": ["סגור"]
+      },
+      {
+        "prompt": "ביום שני יש שיעור ___ למתחילים.",
+        "en": "On Monday there is a Hebrew class for beginners.",
+        "answer": ["עברית"],
+        "hint": "a language"
+      },
+      {
+        "prompt": "ביום חמישי יש סרט, והכניסה ___.",
+        "en": "On Thursday there is a film, and admission is free.",
+        "answer": ["חינם", "בחינם", "חופשית"],
+        "hint": "free of charge"
+      },
+      {
+        "prompt": "שיעור עולה ___ שקלים, ולילדים חמישה עשר שקלים.",
+        "en": "A class costs twenty shekels, and for children fifteen shekels.",
+        "answer": ["עשרים"],
+        "hint": "a number (20)"
+      }
+    ],
+    "writing": {
+      "prompt": "כתבו על השבוע שלכם: מה אתם עושים, באיזה יום ובאיזו שעה?",
+      "promptEn": "Write about your week: what do you do, on which day and at what time?",
+      "minWords": 15,
+      "useWords": ["יום ראשון", "בשעה", "בערב", "עד"],
+      "checklist": [
+        {
+          "en": "Name at least one day of the week",
+          "keywords": ["ראשון", "שני", "שלישי", "רביעי", "חמישי", "שישי", "שבת"]
+        },
+        {
+          "en": "Give a time",
+          "keywords": ["בשעה", "שעה"]
+        },
+        {
+          "en": "Say from when until when",
+          "keywords": ["עד"]
+        }
+      ],
+      "model": "ביום ראשון אני בעבודה משמונה עד ארבע. ביום שני יש לי שיעור עברית בשעה שש בערב. ביום רביעי יש לי יוגה במתנ״ס. בשבת אין עבודה, ויש לי זמן למשפחה.",
+      "modelEn": "On Sunday I'm at work from eight to four. On Monday I have a Hebrew class at six in the evening. On Wednesday I have yoga at the community centre. On Saturday there's no work, and I have time for my family."
+    }
+  },
+  {
+    "id": "r_a1_weekend_plans",
+    "level": "A1",
+    "title": "מה עושים ביום שישי?",
+    "titleEn": "What are we doing on Friday?",
+    "topic": "leisure",
+    "kind": "chat",
+    "paragraphs": [
+      {
+        "he": "אלינה: היי! מה אתם עושים ביום שישי?",
+        "en": "Alina: Hi! What are you doing on Friday?"
+      },
+      {
+        "he": "סמיר: אני צריך לעבוד עד שלוש. אחר כך אני פנוי.",
+        "en": "Samir: I have to work until three. After that I'm free."
+      },
+      {
+        "he": "מיכל: אני רוצה ללכת לים!",
+        "en": "Michal: I want to go to the beach!"
+      },
+      {
+        "he": "אלינה: רעיון טוב! אני מאוד אוהבת לשחות.",
+        "en": "Alina: Good idea! I really love swimming."
+      },
+      {
+        "he": "סמיר: אני לא אוהב לשחות, אבל אני אוהב לשחק מטקות.",
+        "en": "Samir: I don't like swimming, but I like playing matkot."
+      },
+      {
+        "he": "מיכל: אני יכולה להביא אבטיח.",
+        "en": "Michal: I can bring a watermelon."
+      },
+      {
+        "he": "אלינה: ואני צריכה לקנות שתייה. נפגשים בשלוש?",
+        "en": "Alina: And I need to buy drinks. Shall we meet at three?"
+      },
+      {
+        "he": "סמיר: בשלוש אני לא יכול. אולי בארבע?",
+        "en": "Samir: At three I can't. Maybe at four?"
+      },
+      {
+        "he": "מיכל: ארבע זה טוב. אבל בשבע אני צריכה להיות בבית, יש לנו ארוחת שישי.",
+        "en": "Michal: Four is good. But at seven I need to be home – we have Friday dinner."
+      },
+      {
+        "he": "אלינה: אין בעיה. בארבע, ליד הקיוסק.",
+        "en": "Alina: No problem. At four, next to the kiosk."
+      },
+      {
+        "he": "סמיר: סגור! אני מביא את המטקות.",
+        "en": "Samir: Deal! I'll bring the matkot."
+      }
+    ],
+    "glossary": [
+      {
+        "he": "אחר כך",
+        "en": "afterwards, after that",
+        "tr": "akhár kakh"
+      },
+      {
+        "he": "פנוי",
+        "en": "free, available (feminine פנויה)",
+        "tr": "panúy"
+      },
+      {
+        "he": "רעיון",
+        "en": "idea",
+        "tr": "ra'ayón"
+      },
+      {
+        "he": "לשחות",
+        "en": "to swim",
+        "tr": "liskhót"
+      },
+      {
+        "he": "לשחק",
+        "en": "to play (a game or sport)",
+        "tr": "lesakhék"
+      },
+      {
+        "he": "מטקות",
+        "en": "matkot, the Israeli beach paddle-ball game (also the wooden paddles)",
+        "tr": "matkót"
+      },
+      {
+        "he": "להביא",
+        "en": "to bring (מביא = I'm bringing, m.)",
+        "tr": "lehaví"
+      },
+      {
+        "he": "אבטיח",
+        "en": "watermelon",
+        "tr": "avatíakh"
+      },
+      {
+        "he": "שתייה",
+        "en": "drinks, something to drink",
+        "tr": "shtiyá"
+      },
+      {
+        "he": "נפגשים",
+        "en": "(we) meet, shall we meet? (from להיפגש, to meet up)",
+        "tr": "nifgashím"
+      },
+      {
+        "he": "ארוחת שישי",
+        "en": "Friday-night dinner (with family, at the start of Shabbat)",
+        "tr": "arukhát shishí"
+      },
+      {
+        "he": "אין בעיה",
+        "en": "no problem",
+        "tr": "éyn ba'ayá"
+      },
+      {
+        "he": "סגור",
+        "en": "Deal! Agreed! (colloquial; literally \"closed\")",
+        "tr": "sagúr"
+      }
+    ],
+    "questions": [
+      {
+        "q": "עד מתי סמיר צריך לעבוד ביום שישי?",
+        "qEn": "Until when does Samir have to work on Friday?",
+        "answer": "הוא צריך לעבוד עד שלוש.",
+        "answerEn": "He has to work until three.",
+        "keywords": [["שלוש", "3", "15"]]
+      },
+      {
+        "q": "מי לא אוהב לשחות, ומה הוא אוהב לעשות?",
+        "qEn": "Who doesn't like swimming, and what does he like doing?",
+        "answer": "סמיר. הוא אוהב לשחק מטקות.",
+        "answerEn": "Samir. He likes playing matkot.",
+        "keywords": [["סמיר"], ["מטקות", "מטקה"]]
+      },
+      {
+        "q": "למה מיכל צריכה להיות בבית בשבע?",
+        "qEn": "Why does Michal need to be home at seven?",
+        "answer": "כי יש לה ארוחת שישי.",
+        "answerEn": "Because she has Friday dinner.",
+        "keywords": [["ארוחת שישי", "ארוחה", "ארוחת"]]
+      }
+    ],
+    "tf": [
+      {
+        "s": "מיכל רוצה ללכת לים.",
+        "sEn": "Michal wants to go to the beach.",
+        "a": true,
+        "why": "Michal writes: \"I want to go to the beach!\""
+      },
+      {
+        "s": "סמיר אוהב לשחות.",
+        "sEn": "Samir likes swimming.",
+        "a": false,
+        "why": "Samir says he doesn't like swimming; he likes playing matkot."
+      },
+      {
+        "s": "אלינה צריכה לקנות אבטיח.",
+        "sEn": "Alina needs to buy a watermelon.",
+        "a": false,
+        "why": "Michal is bringing the watermelon; Alina needs to buy drinks."
+      },
+      {
+        "s": "החברים נפגשים בארבע ליד הקיוסק.",
+        "sEn": "The friends are meeting at four next to the kiosk.",
+        "a": true,
+        "why": "Samir can't make three, so Alina writes: at four, next to the kiosk."
+      }
+    ],
+    "find": [
+      {
+        "en": "I have to work",
+        "answer": ["אני צריך לעבוד"]
+      },
+      {
+        "en": "I can bring",
+        "answer": ["אני יכולה להביא"]
+      },
+      {
+        "en": "to swim",
+        "answer": ["לשחות"]
+      },
+      {
+        "en": "No problem",
+        "answer": ["אין בעיה"]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "ביום שישי סמיר צריך ___ עד שלוש.",
+        "en": "On Friday Samir has to work until three.",
+        "answer": ["לעבוד"],
+        "hint": "an infinitive"
+      },
+      {
+        "prompt": "מיכל רוצה ללכת ___.",
+        "en": "Michal wants to go to the beach.",
+        "answer": ["לים", "לחוף", "לחוף הים"]
+      },
+      {
+        "prompt": "אלינה אוהבת ___, אבל סמיר אוהב לשחק מטקות.",
+        "en": "Alina loves swimming, but Samir likes playing matkot.",
+        "answer": ["לשחות"],
+        "hint": "an infinitive"
+      },
+      {
+        "prompt": "מיכל מביאה ___, ואלינה קונה שתייה.",
+        "en": "Michal is bringing a watermelon, and Alina is buying drinks.",
+        "answer": ["אבטיח"],
+        "hint": "a fruit"
+      },
+      {
+        "prompt": "החברים נפגשים בשעה ___ ליד הקיוסק.",
+        "en": "The friends are meeting at four o'clock next to the kiosk.",
+        "answer": ["ארבע"],
+        "hint": "a time"
+      }
+    ],
+    "writing": {
+      "prompt": "כתבו הודעה לחברים: מה אתם רוצים לעשות ביום שישי, ומה אתם צריכים לעשות?",
+      "promptEn": "Write a message to your friends: what do you want to do on Friday, and what do you have to do?",
+      "minWords": 15,
+      "useWords": ["רוצה", "צריך", "יכול", "ביום שישי"],
+      "checklist": [
+        {
+          "en": "Say what you want or feel like doing",
+          "keywords": ["רוצה", "רוצים", "בא לי"]
+        },
+        {
+          "en": "Say what you have to do",
+          "keywords": ["צריך", "צריכה", "צריכים"]
+        },
+        {
+          "en": "Invite your friends or ask them a question",
+          "keywords": ["מי", "בואו", "אתם", "מתי"]
+        }
+      ],
+      "model": "היי! ביום שישי בבוקר יש לי שיעור יוגה. אחר כך אני רוצה ללכת לשוק ולשתות קפה. מי יכול לבוא? בצהריים צריך לקנות פרחים, כי בערב יש ארוחת שישי אצל ההורים שלי.",
+      "modelEn": "Hi! On Friday morning I have a yoga class. After that I want to go to the market and have a coffee. Who can come? At noon I have to buy flowers, because in the evening there's Friday dinner at my parents'."
+    }
+  },
+  {
+    "id": "r_a1_cafe_menu",
+    "level": "A1",
+    "title": "התפריט של קפה לימון",
+    "titleEn": "The Café Limon menu",
+    "topic": "food",
+    "kind": "ad",
+    "paragraphs": [
+      {
+        "he": "קפה לימון: קפה חזק, אוכל טרי ומחירים טובים!",
+        "en": "Café Limon: strong coffee, fresh food and good prices!"
+      },
+      {
+        "he": "שתייה חמה: הפוך – 14 ₪, אספרסו – 9 ₪, תה עם נענע – 10 ₪.",
+        "en": "Hot drinks: hafukh (a milky coffee, like a cappuccino) – 14 NIS, espresso – 9 NIS, tea with mint – 10 NIS."
+      },
+      {
+        "he": "שתייה קרה: לימונענע – 15 ₪, מיץ תפוזים טרי – 16 ₪.",
+        "en": "Cold drinks: limonana (lemonade with mint) – 15 NIS, fresh orange juice – 16 NIS."
+      },
+      {
+        "he": "ארוחת בוקר ישראלית: שתי ביצים, סלט קטן, גבינה לבנה, לחם טרי ושתייה חמה – 58 ₪.",
+        "en": "Israeli breakfast: two eggs, a small salad, white cheese, fresh bread and a hot drink – 58 NIS."
+      },
+      {
+        "he": "שקשוקה: ביצים ברוטב עגבניות, עם לחם – 52 ₪. רוצים חריף? אין בעיה!",
+        "en": "Shakshuka: eggs in tomato sauce, with bread – 52 NIS. Want it spicy? No problem!"
+      },
+      {
+        "he": "סלט גדול (טבעוני): חסה, מלפפון, אבוקדו ואגוזים – 48 ₪.",
+        "en": "Large salad (vegan): lettuce, cucumber, avocado and nuts – 48 NIS."
+      },
+      {
+        "he": "טוסט: גבינה צהובה ועגבנייה בלחם מלא – 36 ₪.",
+        "en": "Toast (a toasted sandwich): yellow cheese and tomato on wholemeal bread – 36 NIS."
+      },
+      {
+        "he": "קינוחים: עוגת שוקולד – 28 ₪, עוגת תפוחים (טבעונית) – 26 ₪.",
+        "en": "Desserts: chocolate cake – 28 NIS, apple cake (vegan) – 26 NIS."
+      },
+      {
+        "he": "שעות פתיחה: ראשון עד חמישי 7:00–22:00, שישי ושבת 8:00–16:00.",
+        "en": "Opening hours: Sunday to Thursday 7:00–22:00, Friday and Saturday 8:00–16:00."
+      },
+      {
+        "he": "אפשר להזמין כל קפה עם חלב סויה או חלב שקדים, בלי תוספת תשלום. בתיאבון!",
+        "en": "You can order any coffee with soy milk or almond milk at no extra charge. Enjoy your meal!"
+      }
+    ],
+    "glossary": [
+      {
+        "he": "תפריט",
+        "en": "menu",
+        "tr": "tafrít"
+      },
+      {
+        "he": "טרי",
+        "en": "fresh (feminine טרייה)",
+        "tr": "tarí"
+      },
+      {
+        "he": "הפוך",
+        "en": "hafukh, Israeli milky coffee (literally \"upside down\")",
+        "tr": "hafúkh"
+      },
+      {
+        "he": "נענע",
+        "en": "mint",
+        "tr": "ná'na"
+      },
+      {
+        "he": "לימונענע",
+        "en": "limonana, lemonade blended with mint (לימון + נענע)",
+        "tr": "limonána"
+      },
+      {
+        "he": "רוטב",
+        "en": "sauce",
+        "tr": "rótev"
+      },
+      {
+        "he": "חריף",
+        "en": "spicy, hot",
+        "tr": "kharíf"
+      },
+      {
+        "he": "טבעוני",
+        "en": "vegan (feminine טבעונית)",
+        "tr": "tivoní"
+      },
+      {
+        "he": "גבינה צהובה",
+        "en": "yellow (hard) cheese",
+        "tr": "gviná tsehubá"
+      },
+      {
+        "he": "לחם מלא",
+        "en": "wholemeal bread, whole-wheat bread",
+        "tr": "lékhem malé"
+      },
+      {
+        "he": "קינוחים",
+        "en": "desserts (singular קינוח)",
+        "tr": "kinukhím"
+      },
+      {
+        "he": "חלב שקדים",
+        "en": "almond milk",
+        "tr": "khaláv shkedím"
+      },
+      {
+        "he": "בלי תוספת תשלום",
+        "en": "at no extra charge (תוספת = addition, תשלום = payment)",
+        "tr": "bli toséfet tashlúm"
+      },
+      {
+        "he": "בתיאבון",
+        "en": "enjoy your meal, bon appétit",
+        "tr": "bete'avón"
+      }
+    ],
+    "questions": [
+      {
+        "q": "כמה עולה הפוך?",
+        "qEn": "How much does a hafukh cost?",
+        "answer": "הפוך עולה 14 שקלים.",
+        "answerEn": "A hafukh costs 14 shekels.",
+        "keywords": [["14", "ארבעה עשר", "ארבע עשרה"]]
+      },
+      {
+        "q": "מה יש בארוחת הבוקר הישראלית?",
+        "qEn": "What is in the Israeli breakfast?",
+        "answer": "שתי ביצים, סלט, גבינה לבנה, לחם ושתייה חמה.",
+        "answerEn": "Two eggs, a salad, white cheese, bread and a hot drink.",
+        "keywords": [["ביצים", "ביצה"], ["סלט"], ["לחם", "גבינה", "שתייה"]]
+      },
+      {
+        "q": "מה טבעונים יכולים לאכול בקפה לימון?",
+        "qEn": "What can vegans eat at Café Limon?",
+        "answer": "סלט גדול ועוגת תפוחים.",
+        "answerEn": "The large salad and the apple cake.",
+        "keywords": [["סלט"], ["עוגת תפוחים", "עוגה", "תפוחים"]]
+      }
+    ],
+    "tf": [
+      {
+        "s": "קפה לימון פתוח בשבת.",
+        "sEn": "Café Limon is open on Saturday.",
+        "a": true,
+        "why": "The opening hours say: Friday and Saturday 8:00–16:00."
+      },
+      {
+        "s": "השקשוקה עולה 58 שקלים.",
+        "sEn": "The shakshuka costs 58 shekels.",
+        "a": false,
+        "why": "The shakshuka costs 52 NIS; 58 NIS is the price of the Israeli breakfast."
+      },
+      {
+        "s": "קפה עם חלב שקדים עולה יותר.",
+        "sEn": "Coffee with almond milk costs more.",
+        "a": false,
+        "why": "The menu says soy or almond milk comes at no extra charge (בלי תוספת תשלום)."
+      },
+      {
+        "s": "בטוסט יש גבינה צהובה.",
+        "sEn": "There is yellow cheese in the toast.",
+        "a": true,
+        "why": "The toast has yellow cheese and tomato on wholemeal bread."
+      }
+    ],
+    "find": [
+      {
+        "en": "fresh orange juice",
+        "answer": ["מיץ תפוזים טרי"]
+      },
+      {
+        "en": "spicy",
+        "answer": ["חריף"]
+      },
+      {
+        "en": "wholemeal bread",
+        "answer": ["לחם מלא"]
+      },
+      {
+        "en": "vegan (feminine form)",
+        "answer": ["טבעונית"]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "בקפה לימון יש שתייה חמה ושתייה ___.",
+        "en": "At Café Limon there are hot drinks and cold drinks.",
+        "answer": ["קרה"],
+        "hint": "the opposite of hot"
+      },
+      {
+        "prompt": "בארוחת הבוקר הישראלית יש שתי ___.",
+        "en": "In the Israeli breakfast there are two eggs.",
+        "answer": ["ביצים"]
+      },
+      {
+        "prompt": "בשקשוקה יש ביצים ברוטב ___.",
+        "en": "In shakshuka there are eggs in tomato sauce.",
+        "answer": ["עגבניות"],
+        "hint": "a red vegetable"
+      },
+      {
+        "prompt": "הסלט הגדול ועוגת התפוחים ___.",
+        "en": "The large salad and the apple cake are vegan.",
+        "answer": ["טבעוניים", "טבעונים"],
+        "hint": "masculine plural adjective"
+      },
+      {
+        "prompt": "אפשר להזמין קפה עם חלב סויה בלי תוספת ___.",
+        "en": "You can order coffee with soy milk at no extra charge.",
+        "answer": ["תשלום", "מחיר"],
+        "hint": "payment"
+      }
+    ],
+    "writing": {
+      "prompt": "כתבו מה אתם רוצים להזמין בקפה לימון, וכמה זה עולה.",
+      "promptEn": "Write what you want to order at Café Limon, and how much it costs.",
+      "minWords": 15,
+      "useWords": ["אני רוצה", "עולה", "טרי", "עם"],
+      "checklist": [
+        {
+          "en": "Name at least two things from the menu",
+          "keywords": ["ארוחת בוקר", "שקשוקה", "סלט", "טוסט", "עוגה", "עוגת", "הפוך", "תה", "מיץ", "לימונענע", "אספרסו"]
+        },
+        {
+          "en": "Say what it costs",
+          "keywords": ["עולה", "עולים", "שקלים", "שקל"]
+        },
+        {
+          "en": "Use an adjective (fresh, hot, Israeli…)",
+          "keywords": ["טרי", "טרייה", "חמה", "חם", "ישראלית", "קרה", "גדול", "טבעונית"]
+        }
+      ],
+      "model": "אני רוצה ארוחת בוקר ישראלית. היא עולה 58 ₪, ויש בה גם שתייה חמה, אז אני רוצה הפוך עם חלב סויה. אני רוצה גם מיץ תפוזים טרי. הוא עולה 16 ₪. ביחד זה 74 ₪.",
+      "modelEn": "I'd like the Israeli breakfast. It costs 58 NIS, and it also includes a hot drink, so I'd like a hafukh with soy milk. I'd also like a fresh orange juice. It costs 16 NIS. Together that's 74 NIS."
+    }
+  }
+]

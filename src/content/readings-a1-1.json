@@ -1,0 +1,469 @@
+[
+  {
+    "id": "r_a1_signs",
+    "level": "A1",
+    "title": "שלטים בעיר",
+    "titleEn": "Signs around town",
+    "topic": "city",
+    "kind": "notice",
+    "paragraphs": [
+      {
+        "he": "רחוב הרצל",
+        "en": "Herzl Street — the street-name sign on a corner."
+      },
+      {
+        "he": "תחנת אוטובוס. קווים 4, 18, 25 — לתחנה המרכזית",
+        "en": "Bus stop. Lines 4, 18, 25 — to the central bus station. (The sign at a bus stop.)"
+      },
+      {
+        "he": "מאפיית שושנה: לחם טרי כל בוקר!",
+        "en": "Shoshana's Bakery: fresh bread every morning! (The big sign above a bakery.)"
+      },
+      {
+        "he": "מאפיית שושנה — שעות פתיחה: א׳–ה׳ 7:00–19:00, ו׳ 7:00–14:00, שבת: סגור",
+        "en": "Shoshana's Bakery — opening hours: Sun–Thu 7:00–19:00, Fri 7:00–14:00, Saturday: closed. (A small sign on the bakery door.)"
+      },
+      {
+        "he": "כניסה לסופר",
+        "en": "Entrance to the supermarket. (Above the supermarket doors.)"
+      },
+      {
+        "he": "יציאה לחנייה",
+        "en": "Exit to the parking lot. (Inside the supermarket, next to the checkouts.)"
+      },
+      {
+        "he": "שירותים: קומה 2, ליד בית הקפה",
+        "en": "Restrooms: floor 2, next to the café. (A sign in a shopping mall.)"
+      },
+      {
+        "he": "המעלית לא עובדת היום. סליחה!",
+        "en": "The elevator isn't working today. Sorry! (A note on the elevator door in an apartment building.)"
+      },
+      {
+        "he": "אסור לעשן בבניין",
+        "en": "No smoking in the building. (A sign at the entrance to an office building.)"
+      },
+      {
+        "he": "בית מרקחת — פתוח כל יום עד 23:00, גם בשבת",
+        "en": "Pharmacy — open every day until 23:00, Saturday too. (A sign in a pharmacy window.)"
+      }
+    ],
+    "glossary": [
+      { "he": "שלטים", "en": "signs (singular שלט)", "tr": "shlatím" },
+      { "he": "תחנת אוטובוס", "en": "bus stop", "tr": "takhanát ótobus" },
+      { "he": "קווים", "en": "(bus) lines, routes (singular קו)", "tr": "kavím" },
+      { "he": "התחנה המרכזית", "en": "the central bus station", "tr": "hatakhaná hamerkazít" },
+      { "he": "מאפיית", "en": "bakery of … (form of מאפייה, bakery, before a name)", "tr": "ma'afiyát" },
+      { "he": "טרי", "en": "fresh", "tr": "tarí" },
+      { "he": "שעות פתיחה", "en": "opening hours", "tr": "sha'ót petikhá" },
+      { "he": "א׳–ה׳", "en": "Sunday to Thursday (days are written as letters: א׳ = Sunday, ה׳ = Thursday, ו׳ = Friday)", "tr": "álef ad hé" },
+      { "he": "פתוח", "en": "open", "tr": "patúakh" },
+      { "he": "סגור", "en": "closed", "tr": "sagúr" },
+      { "he": "כניסה", "en": "entrance, way in", "tr": "knisá" },
+      { "he": "יציאה", "en": "exit, way out", "tr": "yetsi'á" },
+      { "he": "אסור לעשן", "en": "no smoking (lit. it is forbidden to smoke)", "tr": "asúr le'ashén" },
+      { "he": "בית מרקחת", "en": "pharmacy, chemist's", "tr": "bet mirkákhat" }
+    ],
+    "questions": [
+      {
+        "q": "מה אפשר לקנות במאפיית שושנה?",
+        "qEn": "What can you buy at Shoshana's Bakery?",
+        "answer": "לחם טרי.",
+        "answerEn": "Fresh bread.",
+        "keywords": [["לחם"]]
+      },
+      {
+        "q": "איפה השירותים?",
+        "qEn": "Where are the restrooms?",
+        "answer": "בקומה 2, ליד בית הקפה.",
+        "answerEn": "On floor 2, next to the café.",
+        "keywords": [["קומה 2", "2", "שתיים", "שנייה"], ["קפה", "בית הקפה"]]
+      },
+      {
+        "q": "איזה מקום פתוח בשבת?",
+        "qEn": "Which place is open on Saturday?",
+        "answer": "בית המרקחת פתוח בשבת.",
+        "answerEn": "The pharmacy is open on Saturday.",
+        "keywords": [["מרקחת", "בית מרקחת"]]
+      }
+    ],
+    "tf": [
+      {
+        "s": "המאפייה פתוחה ביום שישי.",
+        "sEn": "The bakery is open on Friday.",
+        "a": true,
+        "why": "The opening hours say ו׳ 7:00–14:00: on Friday (ו׳) it is open until 14:00."
+      },
+      {
+        "s": "אפשר לעשן בבניין.",
+        "sEn": "You can smoke in the building.",
+        "a": false,
+        "why": "The sign says אסור לעשן בבניין: smoking is not allowed in the building."
+      },
+      {
+        "s": "המעלית עובדת היום.",
+        "sEn": "The elevator is working today.",
+        "a": false,
+        "why": "The note says המעלית לא עובדת היום: the elevator isn't working today."
+      },
+      {
+        "s": "קו 18 נוסע לתחנה המרכזית.",
+        "sEn": "Line 18 goes to the central bus station.",
+        "a": true,
+        "why": "The bus-stop sign says lines 4, 18 and 25 go to the central bus station."
+      }
+    ],
+    "find": [
+      { "en": "open", "answer": ["פתוח"] },
+      { "en": "closed", "answer": ["סגור"] },
+      { "en": "exit", "answer": ["יציאה"] },
+      { "en": "no smoking", "answer": ["אסור לעשן"] }
+    ],
+    "summary": [
+      {
+        "prompt": "במאפיית שושנה יש ___ טרי כל בוקר.",
+        "en": "At Shoshana's Bakery there is fresh bread every morning.",
+        "answer": ["לחם"],
+        "hint": "What does a bakery sell?"
+      },
+      {
+        "prompt": "בשבת המאפייה ___.",
+        "en": "On Saturday the bakery is closed.",
+        "answer": ["סגורה"],
+        "hint": "closed: make it agree with מאפייה (feminine)"
+      },
+      {
+        "prompt": "השירותים בקומה 2, ליד ___.",
+        "en": "The restrooms are on floor 2, next to the café.",
+        "answer": ["בית הקפה", "בית קפה"],
+        "hint": "the café"
+      },
+      {
+        "prompt": "היום המעלית לא ___.",
+        "en": "Today the elevator isn't working.",
+        "answer": ["עובדת"],
+        "hint": "works: present tense, feminine (מעלית is feminine)"
+      },
+      {
+        "prompt": "בית המרקחת פתוח כל יום, גם ___.",
+        "en": "The pharmacy is open every day, on Saturday too.",
+        "answer": ["בשבת", "ביום שבת"],
+        "hint": "on which day is the bakery closed?"
+      }
+    ],
+    "writing": {
+      "prompt": "כתבו ארבעה או חמישה שלטים לאולפן או למשרד שלכם: מה יש שם, ומה אסור?",
+      "promptEn": "Write four or five signs for your ulpan or your office: what is there, and what is not allowed?",
+      "minWords": 15,
+      "useWords": ["כניסה", "שעות פתיחה", "סגור", "אסור", "ליד"],
+      "checklist": [
+        { "en": "Use פתוח or סגור", "keywords": ["פתוח", "סגור", "פתוחה", "סגורה"] },
+        { "en": "Write one rule with אסור", "keywords": ["אסור"] },
+        { "en": "Say where something is (ליד…, קומה…)", "keywords": ["ליד", "קומה"] }
+      ],
+      "model": "כניסה לאולפן. שעות פתיחה: א׳–ה׳ 8:00–13:00. ו׳ ושבת: סגור. אסור לאכול בכיתה! שירותים: קומה 1, ליד המעלית. קפה ותה: במטבח, ליד הכיתה.",
+      "modelEn": "Entrance to the ulpan. Opening hours: Sun–Thu 8:00–13:00. Friday and Saturday: closed. No eating in the classroom! Restrooms: floor 1, next to the elevator. Coffee and tea: in the kitchen, next to the classroom."
+    }
+  },
+  {
+    "id": "r_a1_about_me",
+    "level": "A1",
+    "title": "שלום, אני מרינה!",
+    "titleEn": "Hi, I'm Marina!",
+    "topic": "study",
+    "kind": "blog",
+    "paragraphs": [
+      {
+        "he": "שלום לכולם! קוראים לי מרינה, ואני חדשה בכיתה. אני מברזיל, מסאו פאולו.",
+        "en": "Hi everyone! My name is Marina, and I'm new in the class. I'm from Brazil, from São Paulo."
+      },
+      {
+        "he": "עכשיו אני גרה בחיפה, ליד הים, עם בן הזוג שלי, תומר. הוא ישראלי, והוא מורה למוזיקה.",
+        "en": "Now I live in Haifa, near the sea, with my partner, Tomer. He's Israeli, and he's a music teacher."
+      },
+      {
+        "he": "אני אחות, ואני עובדת בבית חולים גדול. העבודה קשה, אבל היא מעניינת.",
+        "en": "I'm a nurse, and I work in a big hospital. The work is hard, but it's interesting."
+      },
+      {
+        "he": "אני מדברת פורטוגזית, ספרדית ואנגלית. עברית? רק קצת! בבית אנחנו מדברים אנגלית, אבל בעבודה אני צריכה עברית.",
+        "en": "I speak Portuguese, Spanish and English. Hebrew? Only a little! At home we speak English, but at work I need Hebrew."
+      },
+      {
+        "he": "זאת אני בתמונה, וזה תומר. והכלב הקטן? זה בננה, הכלב שלנו!",
+        "en": "That's me in the photo, and that's Tomer. And the little dog? That's Banana, our dog!"
+      },
+      {
+        "he": "ואתם? מי אתם? מאיפה אתם? איפה אתם גרים, ומה אתם עושים? כתבו לי!",
+        "en": "And you? Who are you? Where are you from? Where do you live, and what do you do? Write to me!"
+      }
+    ],
+    "glossary": [
+      { "he": "קוראים לי", "en": "my name is (lit. they call me)", "tr": "korím li" },
+      { "he": "חדשה", "en": "new (feminine; masculine חדש)", "tr": "khadashá" },
+      { "he": "כיתה", "en": "class, classroom", "tr": "kitá" },
+      { "he": "בן הזוג שלי", "en": "my partner (a man; a woman is בת הזוג)", "tr": "ben hazúg shelí" },
+      { "he": "מורה למוזיקה", "en": "music teacher", "tr": "moré lemúzika" },
+      { "he": "אחות", "en": "nurse (the same word also means sister)", "tr": "akhót" },
+      { "he": "בית חולים", "en": "hospital", "tr": "bet kholím" },
+      { "he": "מעניינת", "en": "interesting (feminine; masculine מעניין)", "tr": "me'anyénet" },
+      { "he": "רק קצת", "en": "only a little", "tr": "rak ktsát" },
+      { "he": "צריכה", "en": "need(s) (feminine; masculine צריך)", "tr": "tsrikhá" },
+      { "he": "בתמונה", "en": "in the photo (תמונה = photo, picture)", "tr": "batmuná" },
+      { "he": "שלנו", "en": "our, ours", "tr": "shelánu" },
+      { "he": "מאיפה", "en": "where from", "tr": "me'éifo" },
+      { "he": "פורטוגזית", "en": "Portuguese (the language); ספרדית = Spanish, אנגלית = English", "tr": "portugézit" }
+    ],
+    "questions": [
+      {
+        "q": "מאיפה מרינה?",
+        "qEn": "Where is Marina from?",
+        "answer": "מרינה מברזיל, מסאו פאולו.",
+        "answerEn": "Marina is from Brazil, from São Paulo.",
+        "keywords": [["ברזיל", "סאו פאולו"]]
+      },
+      {
+        "q": "מה מרינה עושה, ואיפה היא עובדת?",
+        "qEn": "What does Marina do, and where does she work?",
+        "answer": "היא אחות, והיא עובדת בבית חולים.",
+        "answerEn": "She's a nurse, and she works in a hospital.",
+        "keywords": [["אחות"], ["בית חולים", "בית החולים"]]
+      },
+      {
+        "q": "איזו שפה מרינה ותומר מדברים בבית?",
+        "qEn": "Which language do Marina and Tomer speak at home?",
+        "answer": "בבית הם מדברים אנגלית.",
+        "answerEn": "At home they speak English.",
+        "keywords": [["אנגלית"]]
+      }
+    ],
+    "tf": [
+      {
+        "s": "מרינה גרה בתל אביב.",
+        "sEn": "Marina lives in Tel Aviv.",
+        "a": false,
+        "why": "She lives in Haifa, near the sea (אני גרה בחיפה, ליד הים)."
+      },
+      {
+        "s": "תומר ישראלי, והוא מורה.",
+        "sEn": "Tomer is Israeli, and he is a teacher.",
+        "a": true,
+        "why": "The text says הוא ישראלי, והוא מורה למוזיקה: he's Israeli and a music teacher."
+      },
+      {
+        "s": "מרינה מדברת עברית טוב מאוד.",
+        "sEn": "Marina speaks Hebrew very well.",
+        "a": false,
+        "why": "She speaks only a little Hebrew (עברית? רק קצת!)."
+      },
+      {
+        "s": "למרינה ולתומר יש כלב.",
+        "sEn": "Marina and Tomer have a dog.",
+        "a": true,
+        "why": "In the photo there is Banana, their dog (הכלב שלנו)."
+      }
+    ],
+    "find": [
+      { "en": "my name is", "answer": ["קוראים לי"] },
+      { "en": "near the sea", "answer": ["ליד הים"] },
+      { "en": "a big hospital", "answer": ["בית חולים גדול"] },
+      { "en": "Where are you from? (to a group)", "answer": ["מאיפה אתם"] }
+    ],
+    "summary": [
+      {
+        "prompt": "מרינה ___ בכיתה.",
+        "en": "Marina is new in the class.",
+        "answer": ["חדשה"],
+        "hint": "new (feminine)"
+      },
+      {
+        "prompt": "עכשיו היא ___ בחיפה, ליד הים.",
+        "en": "Now she lives in Haifa, near the sea.",
+        "answer": ["גרה"],
+        "hint": "lives (feminine, present tense)"
+      },
+      {
+        "prompt": "תומר הוא ___ למוזיקה.",
+        "en": "Tomer is a music teacher.",
+        "answer": ["מורה"],
+        "hint": "his job"
+      },
+      {
+        "prompt": "מרינה אחות, והיא ___ בבית חולים גדול.",
+        "en": "Marina is a nurse, and she works in a big hospital.",
+        "answer": ["עובדת"],
+        "hint": "works (feminine, present tense)"
+      },
+      {
+        "prompt": "בבית מרינה ותומר מדברים ___.",
+        "en": "At home Marina and Tomer speak English.",
+        "answer": ["אנגלית"],
+        "hint": "a language"
+      }
+    ],
+    "writing": {
+      "prompt": "כתבו על עצמכם לדף של הכיתה: מי אתם, מאיפה אתם, איפה אתם גרים ועובדים, ואילו שפות אתם מדברים?",
+      "promptEn": "Write about yourself for the class page: who you are, where you're from, where you live and work, and which languages you speak.",
+      "minWords": 15,
+      "useWords": ["קוראים לי", "עכשיו", "העבודה שלי", "שפות", "רק קצת"],
+      "checklist": [
+        { "en": "Say your name", "keywords": ["קוראים לי", "שמי", "השם שלי"] },
+        { "en": "Say where you're from and where you live", "keywords": ["בית", "עיר", "גר", "גרה", "גרים"] },
+        { "en": "Say what you do", "keywords": ["עבודה", "עובד", "עובדת", "סטודנט", "סטודנטית", "לומד", "לומדת"] },
+        { "en": "Say which languages you speak", "keywords": ["שפות", "מדבר", "מדברת", "עברית"] }
+      ],
+      "model": "שלום לכולם! קוראים לי אלכס. אני מאוקראינה, מאודסה. עכשיו הבית שלי בנתניה, קרוב לים. העבודה שלי בבנק בתל אביב. השפות שלי: אוקראינית, רוסית, אנגלית, ועברית — רק קצת! אבל כל יום העברית שלי יותר טובה.",
+      "modelEn": "Hello everyone! My name is Alex. I'm from Ukraine, from Odesa. Now my home is in Netanya, close to the sea. My job is at a bank in Tel Aviv. My languages: Ukrainian, Russian, English, and Hebrew — only a little! But every day my Hebrew gets better."
+    }
+  },
+  {
+    "id": "r_a1_my_family",
+    "level": "A1",
+    "title": "המשפחה שלי בתמונות",
+    "titleEn": "My family in photos",
+    "topic": "family",
+    "kind": "letter",
+    "paragraphs": [
+      {
+        "he": "שלום אנה! את שואלת על המשפחה שלי, אז הנה כמה תמונות.",
+        "en": "Hi Anna! You're asking about my family, so here are a few photos."
+      },
+      {
+        "he": "בתמונה הראשונה: אבא ואמא שלי. אבא מורה, ואמא רופאה. הם גרים בנצרת.",
+        "en": "In the first photo: my dad and mom. Dad is a teacher, and Mom is a doctor. They live in Nazareth."
+      },
+      {
+        "he": "יש לי שני אחים ואחות אחת. אני האח הגדול. האחים שלי, סאמר ונביל, הם תאומים. הם גבוהים ורזים, והם סטודנטים בתל אביב.",
+        "en": "I have two brothers and one sister. I'm the big brother. My brothers, Samer and Nabil, are twins. They're tall and thin, and they're students in Tel Aviv."
+      },
+      {
+        "he": "האחות שלי, לינא, רק בת שש. היא חמודה מאוד, אבל גם רועשת!",
+        "en": "My sister, Lina, is only six. She's very cute, but also noisy!"
+      },
+      {
+        "he": "בתמונה השנייה: סבא וסבתא. הבית שלהם קטן, אבל הגינה גדולה. סבתא נחמדה מאוד, והאוכל שלה טעים!",
+        "en": "In the second photo: Grandpa and Grandma. Their house is small, but the garden is big. Grandma is very nice, and her food is delicious!"
+      },
+      {
+        "he": "ואת? יש לך אחים ואחיות? כתבי לי! שלך, כרים",
+        "en": "And you? Do you have brothers and sisters? Write to me! Yours, Karim"
+      }
+    ],
+    "glossary": [
+      { "he": "הנה", "en": "here is, here are", "tr": "hiné" },
+      { "he": "רופאה", "en": "doctor (a woman; a man is רופא)", "tr": "rof'á" },
+      { "he": "יש לי", "en": "I have (יש לך = you have, f.)", "tr": "yésh li" },
+      { "he": "אחים", "en": "brothers; brothers and sisters (singular אח)", "tr": "akhím" },
+      { "he": "אחיות", "en": "sisters (singular אחות)", "tr": "akhayót" },
+      { "he": "האח הגדול", "en": "the big brother, the eldest brother", "tr": "ha'ákh hagadól" },
+      { "he": "תאומים", "en": "twins (masculine plural; two girls are תאומות)", "tr": "te'umím" },
+      { "he": "גבוהים", "en": "tall (masculine plural; singular גבוה)", "tr": "gvohím" },
+      { "he": "רזים", "en": "thin, slim (masculine plural; singular רזה)", "tr": "razím" },
+      { "he": "בת שש", "en": "six years old (a girl; a boy is בן שש)", "tr": "bat shésh" },
+      { "he": "חמודה", "en": "cute, sweet (feminine; masculine חמוד)", "tr": "khamudá" },
+      { "he": "רועשת", "en": "noisy (feminine; masculine רועש)", "tr": "ro'éshet" },
+      { "he": "שלהם", "en": "their, theirs", "tr": "shelahém" },
+      { "he": "טעים", "en": "tasty, delicious", "tr": "ta'ím" }
+    ],
+    "questions": [
+      {
+        "q": "מה אמא של כרים עושה?",
+        "qEn": "What does Karim's mom do?",
+        "answer": "היא רופאה.",
+        "answerEn": "She's a doctor.",
+        "keywords": [["רופאה", "רופא"]]
+      },
+      {
+        "q": "כמה אחים ואחיות יש לכרים?",
+        "qEn": "How many brothers and sisters does Karim have?",
+        "answer": "יש לו שני אחים ואחות אחת.",
+        "answerEn": "He has two brothers and one sister.",
+        "keywords": [["שני אחים", "2 אחים", "שניים"], ["אחות אחת", "אחות"]]
+      },
+      {
+        "q": "בת כמה לינא?",
+        "qEn": "How old is Lina?",
+        "answer": "לינא בת שש.",
+        "answerEn": "Lina is six.",
+        "keywords": [["שש", "6"]]
+      }
+    ],
+    "tf": [
+      {
+        "s": "אבא של כרים רופא.",
+        "sEn": "Karim's dad is a doctor.",
+        "a": false,
+        "why": "His dad is a teacher (אבא מורה); his mom is the doctor (אמא רופאה)."
+      },
+      {
+        "s": "סאמר ונביל תאומים.",
+        "sEn": "Samer and Nabil are twins.",
+        "a": true,
+        "why": "The text says האחים שלי, סאמר ונביל, הם תאומים: his brothers Samer and Nabil are twins."
+      },
+      {
+        "s": "כרים הוא האח הקטן במשפחה.",
+        "sEn": "Karim is the little brother in the family.",
+        "a": false,
+        "why": "He writes אני האח הגדול: he's the big (eldest) brother."
+      },
+      {
+        "s": "הגינה של סבא וסבתא גדולה.",
+        "sEn": "Grandpa and Grandma's garden is big.",
+        "a": true,
+        "why": "The text says their house is small, but the garden is big (הגינה גדולה)."
+      }
+    ],
+    "find": [
+      { "en": "I have", "answer": ["יש לי"] },
+      { "en": "my sister", "answer": ["האחות שלי"] },
+      { "en": "their house", "answer": ["הבית שלהם"] },
+      { "en": "noisy (feminine)", "answer": ["רועשת"] }
+    ],
+    "summary": [
+      {
+        "prompt": "לכרים יש שני ___ ואחות אחת.",
+        "en": "Karim has two brothers and one sister.",
+        "answer": ["אחים"],
+        "hint": "brothers (plural)"
+      },
+      {
+        "prompt": "סאמר ונביל ___ ורזים.",
+        "en": "Samer and Nabil are tall and thin.",
+        "answer": ["גבוהים"],
+        "hint": "tall (masculine plural)"
+      },
+      {
+        "prompt": "לינא בת שש. היא ___ מאוד, אבל גם רועשת.",
+        "en": "Lina is six. She's very cute, but also noisy.",
+        "answer": ["חמודה"],
+        "hint": "cute (feminine)"
+      },
+      {
+        "prompt": "הבית של סבא וסבתא ___, אבל הגינה גדולה.",
+        "en": "Grandpa and Grandma's house is small, but the garden is big.",
+        "answer": ["קטן"],
+        "hint": "small (masculine: בית is masculine)"
+      },
+      {
+        "prompt": "האוכל של סבתא ___.",
+        "en": "Grandma's food is delicious.",
+        "answer": ["טעים", "טעים מאוד"],
+        "hint": "delicious (masculine: אוכל is masculine)"
+      }
+    ],
+    "writing": {
+      "prompt": "ספרו על המשפחה שלכם: מי במשפחה, איפה הם גרים ואיך הם?",
+      "promptEn": "Tell about your family: who is in it, where they live, and what they are like.",
+      "minWords": 15,
+      "useWords": ["יש לי", "אח", "אחות", "גרים", "מאוד"],
+      "checklist": [
+        { "en": "Use יש לי", "keywords": ["יש לי"] },
+        { "en": "Describe someone with an adjective that agrees (גבוהה, קטן…)", "keywords": ["גבוהה", "נחמדה", "קטן", "מצחיק", "גבוה", "נחמד", "קטנה", "מצחיקה"] },
+        { "en": "Say where someone lives", "keywords": ["גרים", "גר", "גרה", "גרות"] }
+      ],
+      "model": "במשפחה שלי יש חמישה אנשים. יש לי אחות אחת ואח אחד. האחות שלי, דנה, גבוהה ונחמדה, והיא סטודנטית בירושלים. האח שלי, רון, עוד קטן. הוא רק בן עשר, והוא מצחיק מאוד. ההורים שלי גרים באשדוד, ליד הים.",
+      "modelEn": "There are five people in my family. I have one sister and one brother. My sister, Dana, is tall and nice, and she's a student in Jerusalem. My brother, Ron, is still little. He's only ten, and he's very funny. My parents live in Ashdod, near the sea."
+    }
+  }
+]

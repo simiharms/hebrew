@@ -1,0 +1,1911 @@
+[
+  {
+    "id": "va1t_yom",
+    "he": "יום",
+    "tr": "yom",
+    "en": "day",
+    "enAlt": [
+      "daytime"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "ימים",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "זה יום חם מאוד.",
+      "en": "It's a very hot day."
+    },
+    "note": "Plural ימים (yamím); two days = יומיים. The days of the week are יום + an ordinal: יום ראשון (Sunday), יום שני (Monday)… The Israeli week starts on Sunday."
+  },
+  {
+    "id": "va1t_yom_rishon",
+    "he": "יום ראשון",
+    "tr": "yom rishón",
+    "en": "Sunday",
+    "alt": [
+      "יום א׳"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "ימי ראשון",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "ביום ראשון אני עובדת מהבית.",
+      "en": "On Sunday I work from home."
+    },
+    "note": "The first working day of the Israeli week. Written יום א׳ in timetables. On Sunday = ביום ראשון; on Sundays = בימי ראשון."
+  },
+  {
+    "id": "va1t_yom_sheni",
+    "he": "יום שני",
+    "tr": "yom shení",
+    "en": "Monday",
+    "alt": [
+      "יום ב׳"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "ימי שני",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "יש לי שיעור עברית ביום שני.",
+      "en": "I have a Hebrew lesson on Monday."
+    },
+    "note": "Written יום ב׳. On its own, שני means 'second'; before a masculine noun it is also 'two': שני ימים = two days."
+  },
+  {
+    "id": "va1t_yom_shlishi",
+    "he": "יום שלישי",
+    "tr": "yom shlishí",
+    "en": "Tuesday",
+    "alt": [
+      "יום ג׳"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "ימי שלישי",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "ביום שלישי אנחנו בחיפה.",
+      "en": "On Tuesday we're in Haifa."
+    },
+    "note": "Written יום ג׳. In speech the word יום is often dropped: נתראה בשלישי = see you on Tuesday."
+  },
+  {
+    "id": "va1t_yom_revii",
+    "he": "יום רביעי",
+    "tr": "yom revi'í",
+    "en": "Wednesday",
+    "alt": [
+      "יום ד׳"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "ימי רביעי",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "הפגישה ביום רביעי בעשר.",
+      "en": "The meeting is on Wednesday at ten."
+    },
+    "note": "Written יום ד׳. Literally 'the fourth day'."
+  },
+  {
+    "id": "va1t_yom_khamishi",
+    "he": "יום חמישי",
+    "tr": "yom khamishí",
+    "en": "Thursday",
+    "alt": [
+      "יום ה׳"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "ימי חמישי",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "ביום חמישי בערב אנחנו יוצאים עם חברים.",
+      "en": "On Thursday evening we go out with friends."
+    },
+    "note": "Written יום ה׳. For many Israelis Thursday evening is the start of the weekend."
+  },
+  {
+    "id": "va1t_yom_shishi",
+    "he": "יום שישי",
+    "tr": "yom shishí",
+    "en": "Friday",
+    "alt": [
+      "יום ו׳"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "ימי שישי",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "ביום שישי בערב אנחנו אוכלים אצל ההורים.",
+      "en": "On Friday evening we eat at our parents'."
+    },
+    "note": "Written יום ו׳. Many shops close early on Friday afternoon, and Friday-night dinner (ארוחת שישי) is a family tradition."
+  },
+  {
+    "id": "va1t_shabat",
+    "he": "שבת",
+    "tr": "shabát",
+    "en": "Saturday; Shabbat",
+    "enAlt": [
+      "Saturday",
+      "Shabbat",
+      "Sabbath",
+      "Shabbos"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "שבתות",
+    "root": "ש.ב.ת",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "בשבת אנחנו הולכים לים.",
+      "en": "On Saturday we go to the beach."
+    },
+    "note": "The seventh day has its own name — not יום שביעי. Feminine: שבת נעימה. Greeting: שבת שלום! On Shabbat many shops are closed and most public transport doesn't run."
+  },
+  {
+    "id": "va1t_yanuar",
+    "he": "ינואר",
+    "tr": "yánuar",
+    "en": "January",
+    "pos": "noun",
+    "gender": "m",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "בינואר קר בירושלים.",
+      "en": "It's cold in Jerusalem in January."
+    },
+    "note": "Month names are masculine and take no ה: בינואר = in January. The Hebrew-calendar months (תשרי, ניסן…) are used mainly for holidays."
+  },
+  {
+    "id": "va1t_februar",
+    "he": "פברואר",
+    "tr": "fébruar",
+    "en": "February",
+    "pos": "noun",
+    "gender": "m",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "יום ההולדת שלי בפברואר.",
+      "en": "My birthday is in February."
+    },
+    "note": "Stress on the first syllable: fébruar."
+  },
+  {
+    "id": "va1t_merts",
+    "he": "מרץ",
+    "tr": "merts",
+    "en": "March",
+    "alt": [
+      "מרס",
+      "מארס"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "במרץ אנחנו טסים לאילת.",
+      "en": "In March we're flying to Eilat."
+    },
+    "note": "Also spelled מרס or מארס, which you often see in newspapers and official texts. All three are said merts."
+  },
+  {
+    "id": "va1t_april",
+    "he": "אפריל",
+    "tr": "apríl",
+    "en": "April",
+    "pos": "noun",
+    "gender": "m",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "באפריל מזג האוויר נעים מאוד.",
+      "en": "In April the weather is very pleasant."
+    },
+    "note": "Passover (פסח) usually falls in April."
+  },
+  {
+    "id": "va1t_mai",
+    "he": "מאי",
+    "tr": "mai",
+    "en": "May",
+    "pos": "noun",
+    "gender": "m",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "הקורס החדש מתחיל במאי.",
+      "en": "The new course starts in May."
+    },
+    "note": "Sounds like English 'my'. Don't confuse it with מי (mi) = who."
+  },
+  {
+    "id": "va1t_yuni",
+    "he": "יוני",
+    "tr": "yúni",
+    "en": "June",
+    "pos": "noun",
+    "gender": "m",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "ביוני כבר חם מאוד.",
+      "en": "By June it's already very hot."
+    },
+    "note": "Easy to mix up with יולי (yúli), July."
+  },
+  {
+    "id": "va1t_yuli",
+    "he": "יולי",
+    "tr": "yúli",
+    "en": "July",
+    "pos": "noun",
+    "gender": "m",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "ביולי הילדים בחופש.",
+      "en": "In July the kids are on holiday."
+    },
+    "note": "Easy to mix up with יוני (yúni), June."
+  },
+  {
+    "id": "va1t_ogust",
+    "he": "אוגוסט",
+    "tr": "ógust",
+    "en": "August",
+    "pos": "noun",
+    "gender": "m",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "אוגוסט הוא בדרך כלל החודש הכי חם.",
+      "en": "August is usually the hottest month."
+    },
+    "note": "Stress on the first syllable: ógust."
+  },
+  {
+    "id": "va1t_september",
+    "he": "ספטמבר",
+    "tr": "septémber",
+    "en": "September",
+    "pos": "noun",
+    "gender": "m",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "בספטמבר הילדים חוזרים לבית הספר.",
+      "en": "In September the children go back to school."
+    },
+    "note": "The Israeli school year (שנת הלימודים) usually starts on 1 September."
+  },
+  {
+    "id": "va1t_oktober",
+    "he": "אוקטובר",
+    "tr": "október",
+    "en": "October",
+    "pos": "noun",
+    "gender": "m",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "באוקטובר כבר לא כל כך חם.",
+      "en": "By October it's not so hot anymore."
+    }
+  },
+  {
+    "id": "va1t_november",
+    "he": "נובמבר",
+    "tr": "novémber",
+    "en": "November",
+    "pos": "noun",
+    "gender": "m",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "בנובמבר אני מתחילה עבודה חדשה.",
+      "en": "In November I'm starting a new job."
+    }
+  },
+  {
+    "id": "va1t_detsember",
+    "he": "דצמבר",
+    "tr": "detsémber",
+    "en": "December",
+    "pos": "noun",
+    "gender": "m",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "חנוכה בדרך כלל בדצמבר.",
+      "en": "Hanukkah is usually in December."
+    },
+    "note": "Pronounced with ts: detsémber."
+  },
+  {
+    "id": "va1t_boker",
+    "he": "בוקר",
+    "tr": "bóker",
+    "en": "morning",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "בקרים",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "בבוקר אני שותה קפה.",
+      "en": "In the morning I drink coffee."
+    },
+    "note": "בבוקר = in the morning; מחר בבוקר = tomorrow morning. The plural בקרים (bkarím) is written without ו."
+  },
+  {
+    "id": "va1t_tsohorayim",
+    "he": "צהריים",
+    "tr": "tsohoráyim",
+    "en": "noon; midday",
+    "enAlt": [
+      "noon",
+      "midday",
+      "lunchtime",
+      "early afternoon"
+    ],
+    "alt": [
+      "צהרים"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "בצהריים אני אוכלת עם חברים מהעבודה.",
+      "en": "At midday I eat with friends from work."
+    },
+    "note": "Looks like a dual (-áyim) and takes plural adjectives: צהריים טובים = good afternoon. ארוחת צהריים = lunch."
+  },
+  {
+    "id": "va1t_akhar_hatsohorayim",
+    "he": "אחר הצהריים",
+    "tr": "akhár hatsohoráyim",
+    "en": "in the afternoon; afternoon",
+    "enAlt": [
+      "afternoon",
+      "in the afternoon",
+      "p.m."
+    ],
+    "alt": [
+      "אחרי הצהריים",
+      "אחה״צ"
+    ],
+    "pos": "adv",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "אני חוזר הביתה אחר הצהריים.",
+      "en": "I come home in the afternoon."
+    },
+    "note": "Written אחה״צ in timetables. In speech many people say אחרי הצהריים."
+  },
+  {
+    "id": "va1t_erev",
+    "he": "ערב",
+    "tr": "érev",
+    "en": "evening",
+    "enAlt": [
+      "eve"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "ערבים",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "בערב אני הולכת לאולפן.",
+      "en": "In the evening I go to the ulpan."
+    },
+    "note": "בערב = in the evening; הערב = this evening, tonight. ערב also means 'eve': ערב חג = the eve of a holiday."
+  },
+  {
+    "id": "va1t_layla",
+    "he": "לילה",
+    "tr": "láyla",
+    "en": "night",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "לילות",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "בלילה הרחוב שקט.",
+      "en": "At night the street is quiet."
+    },
+    "note": "Masculine despite the final ה: לילה טוב. Plural לילות (leilót). הלילה = tonight."
+  },
+  {
+    "id": "va1t_hayom",
+    "he": "היום",
+    "tr": "hayóm",
+    "en": "today",
+    "enAlt": [
+      "nowadays"
+    ],
+    "pos": "adv",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "היום יום ראשון.",
+      "en": "Today is Sunday."
+    },
+    "note": "Literally 'the day'. It can also mean 'nowadays': היום הכול באינטרנט."
+  },
+  {
+    "id": "va1t_makhar",
+    "he": "מחר",
+    "tr": "makhár",
+    "en": "tomorrow",
+    "pos": "adv",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "מחר אני לא עובד.",
+      "en": "I'm not working tomorrow."
+    },
+    "note": "מחר בבוקר = tomorrow morning. The day after tomorrow = מחרתיים (mokhoratáyim)."
+  },
+  {
+    "id": "va1t_etmol",
+    "he": "אתמול",
+    "tr": "etmól",
+    "en": "yesterday",
+    "pos": "adv",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "אתמול היה יום ארוך.",
+      "en": "Yesterday was a long day."
+    },
+    "note": "אתמול בלילה = last night. The day before yesterday = שלשום (shilshóm)."
+  },
+  {
+    "id": "va1t_shavua",
+    "he": "שבוע",
+    "tr": "shavúa",
+    "en": "week",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "שבועות",
+    "root": "ש.ב.ע",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "אני בישראל כבר שבוע.",
+      "en": "I've been in Israel for a week already."
+    },
+    "note": "Same root as שבע (seven). השבוע = this week; בשבוע הבא = next week; בשבוע שעבר = last week. Plural שבועות (shavu'ót)."
+  },
+  {
+    "id": "va1t_khodesh",
+    "he": "חודש",
+    "tr": "khódesh",
+    "en": "month",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "חודשים",
+    "root": "ח.ד.ש",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "החודש יש לי הרבה עבודה.",
+      "en": "This month I have a lot of work."
+    },
+    "note": "Same root as חדש (new): a Hebrew-calendar month begins with the new moon. החודש = this month; two months = חודשיים."
+  },
+  {
+    "id": "va1t_shana",
+    "he": "שנה",
+    "tr": "shaná",
+    "en": "year",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "שנים",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "השנה אני לומד עברית.",
+      "en": "This year I'm learning Hebrew."
+    },
+    "note": "Feminine, but the plural is שנים (shaním). השנה = this year; two years = שנתיים. שנה טובה! = Happy New Year (at Rosh Hashana)."
+  },
+  {
+    "id": "va1t_shaa",
+    "he": "שעה",
+    "tr": "sha'á",
+    "en": "hour; time (o'clock)",
+    "enAlt": [
+      "hour",
+      "time",
+      "o'clock"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "שעות",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "מה השעה? השעה שמונה.",
+      "en": "What time is it? It's eight o'clock."
+    },
+    "note": "Clock times use feminine numbers: בשעה שלוש = at three. Two hours = שעתיים. A clock or watch is שעון."
+  },
+  {
+    "id": "va1t_daka",
+    "he": "דקה",
+    "tr": "daká",
+    "en": "minute",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "דקות",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "האוטובוס מגיע בעוד חמש דקות.",
+      "en": "The bus arrives in five minutes."
+    },
+    "note": "רק דקה! = just a minute! בעוד עשר דקות = in ten minutes."
+  },
+  {
+    "id": "va1t_rega",
+    "he": "רגע",
+    "tr": "réga",
+    "en": "moment",
+    "enAlt": [
+      "second",
+      "instant",
+      "just a moment"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "רגעים",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "רגע, אני בא!",
+      "en": "Just a moment, I'm coming!"
+    },
+    "note": "On its own, רגע! = wait a sec! רק רגע = just a moment. Plural רגעים (rega'ím)."
+  },
+  {
+    "id": "va1t_zman",
+    "he": "זמן",
+    "tr": "zman",
+    "en": "time",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "זמנים",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "יש לך זמן לקפה?",
+      "en": "Do you have time for a coffee?"
+    },
+    "note": "Time in general. Clock time is שעה (מה השעה?), and 'a time' as an occasion is פעם (עוד פעם = one more time). בזמן = on time."
+  },
+  {
+    "id": "va1t_paam",
+    "he": "פעם",
+    "tr": "pá'am",
+    "en": "time (occasion); once",
+    "enAlt": [
+      "time",
+      "once",
+      "occasion"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "פעמים",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "עוד פעם, בבקשה.",
+      "en": "Once more, please."
+    },
+    "note": "Feminine: פעם אחת = once, שלוש פעמים = three times, but twice = פעמיים. On its own it can mean 'once, in the past': פעם גרתי בחיפה."
+  },
+  {
+    "id": "va1t_tamid",
+    "he": "תמיד",
+    "tr": "tamíd",
+    "en": "always",
+    "pos": "adv",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "הרכבת לא תמיד בזמן.",
+      "en": "The train isn't always on time."
+    },
+    "note": "It usually comes right before the verb: אני תמיד… לא תמיד = not always."
+  },
+  {
+    "id": "va1t_lifamim",
+    "he": "לפעמים",
+    "tr": "lif'amím",
+    "en": "sometimes",
+    "enAlt": [
+      "at times",
+      "occasionally"
+    ],
+    "pos": "adv",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "לפעמים אני עובד מהבית.",
+      "en": "Sometimes I work from home."
+    },
+    "note": "Built from ל + פעמים (times)."
+  },
+  {
+    "id": "va1t_af_paam",
+    "he": "אף פעם",
+    "tr": "af pá'am",
+    "en": "never",
+    "enAlt": [
+      "not ever",
+      "ever (with a negative)"
+    ],
+    "pos": "adv",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "אני אף פעם לא אוכל בשר.",
+      "en": "I never eat meat."
+    },
+    "note": "It needs לא with the verb: אני אף פעם לא… — this double negative is correct Hebrew. As a one-word answer: אף פעם!"
+  },
+  {
+    "id": "va1t_kol_yom",
+    "he": "כל יום",
+    "tr": "kol yom",
+    "en": "every day",
+    "enAlt": [
+      "daily",
+      "each day"
+    ],
+    "pos": "phrase",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "אני הולכת לעבודה ברגל כל יום.",
+      "en": "I walk to work every day."
+    },
+    "note": "כל + a singular noun without ה = every: כל שבוע, כל בוקר. With ה it means 'the whole': כל היום = all day."
+  },
+  {
+    "id": "va1t_bederekh_klal",
+    "he": "בדרך כלל",
+    "tr": "bedérekh klal",
+    "en": "usually",
+    "enAlt": [
+      "generally",
+      "normally",
+      "as a rule"
+    ],
+    "alt": [
+      "בד״כ"
+    ],
+    "pos": "adv",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "בדרך כלל אני קם בשבע.",
+      "en": "I usually get up at seven."
+    },
+    "note": "Literally 'in the general way'. Abbreviated בד״כ in writing."
+  },
+  {
+    "id": "va1t_shaon",
+    "he": "שעון",
+    "tr": "sha'ón",
+    "en": "clock; watch",
+    "enAlt": [
+      "clock",
+      "watch",
+      "wristwatch"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "שעונים",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "השעון בכיתה לא עובד.",
+      "en": "The clock in the classroom doesn't work."
+    },
+    "note": "Both a clock and a wristwatch (שעון יד). שעון מעורר = alarm clock. Plural שעונים (she'oním)."
+  },
+  {
+    "id": "va1t_akhar_kakh",
+    "he": "אחר כך",
+    "tr": "akhár kakh",
+    "en": "afterwards; then",
+    "enAlt": [
+      "afterwards",
+      "then",
+      "later",
+      "after that"
+    ],
+    "alt": [
+      "אח״כ"
+    ],
+    "pos": "adv",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "קודם שיעורי בית, אחר כך טלוויזיה.",
+      "en": "First homework, then TV."
+    },
+    "note": "Abbreviated אח״כ. קודם… ואחר כך… = first… and then… Unlike אחרי (after), it stands on its own, without a noun."
+  },
+  {
+    "id": "va1t_lifnei",
+    "he": "לפני",
+    "tr": "lifnéi",
+    "en": "before; ago",
+    "enAlt": [
+      "before",
+      "ago"
+    ],
+    "pos": "prep",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "באתי לישראל לפני שנה.",
+      "en": "I came to Israel a year ago."
+    },
+    "note": "Two meanings: before (לפני העבודה = before work) and ago (לפני שבוע = a week ago). Opposite: אחרי."
+  },
+  {
+    "id": "va1t_akharei",
+    "he": "אחרי",
+    "tr": "akharéi",
+    "en": "after",
+    "enAlt": [
+      "following"
+    ],
+    "pos": "prep",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "אחרי השיעור אנחנו שותים קפה.",
+      "en": "After the lesson we have coffee."
+    },
+    "note": "Needs a noun after it: אחרי השיעור = after the lesson. On its own, 'afterwards' is אחר כך."
+  },
+  {
+    "id": "va1t_mukdam",
+    "he": "מוקדם",
+    "tr": "mukdám",
+    "en": "early",
+    "pos": "adv",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "מחר אני קם מוקדם.",
+      "en": "Tomorrow I'm getting up early."
+    },
+    "note": "Opposite: מאוחר (late). מוקדם מדי = too early. As an adjective it agrees: ארוחה מוקדמת = an early meal."
+  },
+  {
+    "id": "va1t_taarikh",
+    "he": "תאריך",
+    "tr": "ta'aríkh",
+    "en": "date (calendar)",
+    "enAlt": [
+      "date"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "תאריכים",
+    "level": "A2",
+    "topic": "time",
+    "ex": {
+      "he": "מה התאריך היום?",
+      "en": "What's the date today?"
+    },
+    "note": "Israeli dates are written day first: 3.5 = 3 May. Date of birth = תאריך לידה. A romantic date is a different word: דייט."
+  },
+  {
+    "id": "va1t_od_meat",
+    "he": "עוד מעט",
+    "tr": "od me'át",
+    "en": "soon; in a little while",
+    "enAlt": [
+      "soon",
+      "in a moment",
+      "in a little while",
+      "shortly"
+    ],
+    "pos": "adv",
+    "level": "A1",
+    "topic": "time",
+    "ex": {
+      "he": "אני מגיע עוד מעט.",
+      "en": "I'll be there soon."
+    },
+    "note": "Literally 'a little more'. Very common on the phone."
+  },
+  {
+    "id": "va1t_ulpan",
+    "he": "אולפן",
+    "tr": "ulpán",
+    "en": "ulpan (Hebrew school for adults)",
+    "enAlt": [
+      "ulpan",
+      "Hebrew course",
+      "studio"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "אולפנים",
+    "level": "A1",
+    "topic": "study",
+    "ex": {
+      "he": "ג׳ניפר לומדת עברית באולפן בחיפה.",
+      "en": "Jennifer is learning Hebrew at an ulpan in Haifa."
+    },
+    "note": "An intensive Hebrew course for adults, especially new immigrants (עולים חדשים); the beginners' level is אולפן א׳. The word also means a TV or recording studio."
+  },
+  {
+    "id": "va1t_kita",
+    "he": "כיתה",
+    "tr": "kitá",
+    "en": "class; classroom",
+    "enAlt": [
+      "class",
+      "classroom",
+      "grade (at school)"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "כיתות",
+    "level": "A1",
+    "topic": "study",
+    "ex": {
+      "he": "הכיתה בקומה השנייה.",
+      "en": "The classroom is on the second floor."
+    },
+    "note": "The room, the group and the school year: כיתה א׳ = first grade."
+  },
+  {
+    "id": "va1t_more",
+    "he": "מורה",
+    "tr": "moré",
+    "en": "teacher",
+    "enAlt": [
+      "instructor"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מורים",
+    "root": "י.ר.ה",
+    "level": "A1",
+    "topic": "study",
+    "ex": {
+      "he": "המורה שלנו מדבר לאט וברור.",
+      "en": "Our teacher speaks slowly and clearly."
+    },
+    "note": "A woman teacher is spelled the same but said morá: המורה מדברת. Plural מורים / מורות."
+  },
+  {
+    "id": "va1t_talmid",
+    "he": "תלמיד",
+    "tr": "talmíd",
+    "en": "pupil; student",
+    "enAlt": [
+      "pupil",
+      "student",
+      "learner"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "תלמידים",
+    "root": "ל.מ.ד",
+    "level": "A1",
+    "topic": "study",
+    "ex": {
+      "he": "בכיתה שלי יש תלמידים מכל העולם.",
+      "en": "In my class there are students from all over the world."
+    },
+    "note": "Feminine תלמידה. A school pupil or an ulpan student; at university you're a סטודנט. Same root as ללמוד (to learn)."
+  },
+  {
+    "id": "va1t_student",
+    "he": "סטודנט",
+    "tr": "studént",
+    "en": "(university) student",
+    "enAlt": [
+      "student",
+      "college student"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "סטודנטים",
+    "level": "A1",
+    "topic": "study",
+    "ex": {
+      "he": "ברהנו סטודנט באוניברסיטה העברית.",
+      "en": "Berhanu is a student at the Hebrew University."
+    },
+    "note": "Feminine סטודנטית (studéntit). Only for college and university; a schoolchild is a תלמיד."
+  },
+  {
+    "id": "va1t_shiurei_bayit",
+    "he": "שיעורי בית",
+    "tr": "shi'uréi báyit",
+    "en": "homework",
+    "enAlt": [
+      "homework assignment"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "level": "A1",
+    "topic": "study",
+    "ex": {
+      "he": "יש לנו הרבה שיעורי בית היום.",
+      "en": "We have a lot of homework today."
+    },
+    "note": "Always plural (literally 'lessons of the home'). The homework = שיעורי הבית. One lesson = שיעור (shi'úr)."
+  },
+  {
+    "id": "va1t_makhberet",
+    "he": "מחברת",
+    "tr": "makhbéret",
+    "en": "notebook; exercise book",
+    "enAlt": [
+      "notebook",
+      "exercise book",
+      "copybook"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "מחברות",
+    "root": "ח.ב.ר",
+    "level": "A1",
+    "topic": "study",
+    "ex": {
+      "he": "המחברת שלי בתיק.",
+      "en": "My notebook is in my bag."
+    },
+    "note": "Plural מחברות (makhbarót). Same root as חבר and לחבר (to join): pages joined together."
+  },
+  {
+    "id": "va1t_et",
+    "he": "עט",
+    "tr": "et",
+    "en": "pen",
+    "enAlt": [
+      "ballpoint pen"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "עטים",
+    "level": "A1",
+    "topic": "study",
+    "ex": {
+      "he": "יש לך עט? — כן, הנה.",
+      "en": "Do you have a pen? — Yes, here you go."
+    },
+    "note": "Plural עטים (etím). With a pen = בעט."
+  },
+  {
+    "id": "va1t_iparon",
+    "he": "עיפרון",
+    "tr": "iparón",
+    "en": "pencil",
+    "alt": [
+      "עפרון"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "עפרונות",
+    "level": "A1",
+    "topic": "study",
+    "ex": {
+      "he": "אני כותבת בעיפרון, לא בעט.",
+      "en": "I write in pencil, not in pen."
+    },
+    "note": "Masculine with a -ות plural: עפרונות (efronót). Also spelled עפרון."
+  },
+  {
+    "id": "va1t_milon",
+    "he": "מילון",
+    "tr": "milón",
+    "en": "dictionary",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מילונים",
+    "level": "A1",
+    "topic": "study",
+    "ex": {
+      "he": "אני מחפש את המילה במילון.",
+      "en": "I'm looking the word up in the dictionary."
+    },
+    "note": "Built from מילה (word). A Hebrew–English dictionary = מילון עברי-אנגלי."
+  },
+  {
+    "id": "va1t_mivkhan",
+    "he": "מבחן",
+    "tr": "mivkhán",
+    "en": "test; exam",
+    "enAlt": [
+      "test",
+      "exam",
+      "quiz"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מבחנים",
+    "root": "ב.ח.נ",
+    "level": "A1",
+    "topic": "study",
+    "ex": {
+      "he": "מחר יש לנו מבחן בעברית.",
+      "en": "Tomorrow we have a Hebrew test."
+    },
+    "note": "בחינה is a more formal word, used for university exams and the בגרות (matriculation) exams."
+  },
+  {
+    "id": "va1t_sheela",
+    "he": "שאלה",
+    "tr": "she'elá",
+    "en": "question",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "שאלות",
+    "root": "ש.א.ל",
+    "level": "A1",
+    "topic": "study",
+    "ex": {
+      "he": "סליחה, יש לי שאלה.",
+      "en": "Excuse me, I have a question."
+    },
+    "note": "Same root as לשאול (to ask): לשאול שאלה = to ask a question. Plural שאלות (she'elót)."
+  },
+  {
+    "id": "va1t_tshuva",
+    "he": "תשובה",
+    "tr": "tshuvá",
+    "en": "answer",
+    "enAlt": [
+      "reply",
+      "response"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "תשובות",
+    "root": "ש.ו.ב",
+    "level": "A1",
+    "topic": "study",
+    "ex": {
+      "he": "התשובה הנכונה היא ב׳.",
+      "en": "The correct answer is B."
+    },
+    "note": "The everyday verb 'to answer' is לענות (על שאלה); the formal להשיב (to reply) shares this root, ש.ו.ב (to return). Plural תשובות (tshuvót)."
+  },
+  {
+    "id": "va1t_mila",
+    "he": "מילה",
+    "tr": "milá",
+    "en": "word",
+    "alt": [
+      "מלה"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "מילים",
+    "level": "A1",
+    "topic": "study",
+    "ex": {
+      "he": "אני לומד עשר מילים חדשות כל יום.",
+      "en": "I learn ten new words every day."
+    },
+    "note": "Feminine, but the plural is מילים; adjectives stay feminine: מילים חדשות. Older spelling: מלה."
+  },
+  {
+    "id": "va1t_mishpat",
+    "he": "משפט",
+    "tr": "mishpát",
+    "en": "sentence",
+    "enAlt": [
+      "trial",
+      "law"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "משפטים",
+    "root": "ש.פ.ט",
+    "level": "A1",
+    "topic": "study",
+    "ex": {
+      "he": "המשפט הזה קצר וקל.",
+      "en": "This sentence is short and easy."
+    },
+    "note": "Also 'trial' and 'law': משפטים = law as a field of study. Context tells you which."
+  },
+  {
+    "id": "va1t_ot",
+    "he": "אות",
+    "tr": "ot",
+    "en": "letter (of the alphabet)",
+    "enAlt": [
+      "letter",
+      "character"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "אותיות",
+    "level": "A1",
+    "topic": "study",
+    "ex": {
+      "he": "בעברית יש עשרים ושתיים אותיות.",
+      "en": "There are twenty-two letters in Hebrew."
+    },
+    "note": "Feminine, plural אותיות (otiyót). Five letters have a final form: ך ם ן ף ץ. A letter you send is a מכתב."
+  },
+  {
+    "id": "va1t_safa",
+    "he": "שפה",
+    "tr": "safá",
+    "en": "language",
+    "enAlt": [
+      "lip",
+      "edge"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "שפות",
+    "level": "A1",
+    "topic": "study",
+    "ex": {
+      "he": "אולגה מדברת שלוש שפות: עברית, רוסית ואנגלית.",
+      "en": "Olga speaks three languages: Hebrew, Russian and English."
+    },
+    "note": "Also 'lip' and 'edge': שפת הים = the seashore. Plural שפות (safót)."
+  },
+  {
+    "id": "va1t_sefer",
+    "he": "ספר",
+    "tr": "séfer",
+    "en": "book",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "ספרים",
+    "root": "ס.פ.ר",
+    "level": "A1",
+    "topic": "study",
+    "ex": {
+      "he": "אני קורא ספר בעברית קלה.",
+      "en": "I'm reading a book in easy Hebrew."
+    },
+    "note": "Plural ספרים (sfarím). Same root as לספר (to tell) and מספר (number). ספר לימוד = textbook."
+  },
+  {
+    "id": "va1t_daf",
+    "he": "דף",
+    "tr": "daf",
+    "en": "sheet of paper; page",
+    "enAlt": [
+      "sheet",
+      "page",
+      "piece of paper",
+      "leaf"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "דפים",
+    "level": "A1",
+    "topic": "study",
+    "ex": {
+      "he": "יש לך דף? אני צריך לכתוב משהו.",
+      "en": "Do you have a sheet of paper? I need to write something down."
+    },
+    "note": "A sheet or leaf; for a page number use עמוד: בעמוד עשר = on page ten. דף הבית = a website's home page."
+  },
+  {
+    "id": "va1t_luakh",
+    "he": "לוח",
+    "tr": "lúakh",
+    "en": "board; blackboard",
+    "enAlt": [
+      "board",
+      "blackboard",
+      "whiteboard",
+      "noticeboard"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "לוחות",
+    "level": "A1",
+    "topic": "study",
+    "ex": {
+      "he": "המורה כותבת על הלוח.",
+      "en": "The teacher is writing on the board."
+    },
+    "note": "Masculine with a -ות plural: לוחות. Also לוח שנה = calendar, לוח זמנים = timetable, schedule."
+  },
+  {
+    "id": "va1t_universita",
+    "he": "אוניברסיטה",
+    "tr": "universíta",
+    "en": "university",
+    "enAlt": [
+      "college"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "אוניברסיטאות",
+    "level": "A1",
+    "topic": "study",
+    "ex": {
+      "he": "נור לומדת כימיה באוניברסיטה.",
+      "en": "Nour studies chemistry at university."
+    },
+    "note": "Before a name it becomes אוניברסיטת: אוניברסיטת חיפה. Plural אוניברסיטאות (universita'ót)."
+  },
+  {
+    "id": "va1t_ivrit",
+    "he": "עברית",
+    "tr": "ivrít",
+    "en": "Hebrew (language)",
+    "enAlt": [
+      "Hebrew"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "level": "A1",
+    "topic": "study",
+    "ex": {
+      "he": "העברית שלי עוד לא טובה.",
+      "en": "My Hebrew isn't good yet."
+    },
+    "note": "Language names are feminine and end in ־ית: אנגלית, רוסית, ערבית, אמהרית, צרפתית. No את before a language: אני מדבר עברית. In Hebrew = בעברית."
+  },
+  {
+    "id": "va1t_taut",
+    "he": "טעות",
+    "tr": "ta'út",
+    "en": "mistake",
+    "enAlt": [
+      "error"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "טעויות",
+    "root": "ט.ע.ה",
+    "level": "A1",
+    "topic": "study",
+    "ex": {
+      "he": "סליחה, טעות שלי.",
+      "en": "Sorry, my mistake."
+    },
+    "note": "Feminine, plural טעויות (ta'uyót). בטעות = by mistake."
+  },
+  {
+    "id": "va1t_targil",
+    "he": "תרגיל",
+    "tr": "targíl",
+    "en": "exercise",
+    "enAlt": [
+      "drill",
+      "practice exercise"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "תרגילים",
+    "root": "ר.ג.ל",
+    "level": "A1",
+    "topic": "study",
+    "ex": {
+      "he": "התרגיל הזה קשה מאוד.",
+      "en": "This exercise is very hard."
+    },
+    "note": "A school exercise or a physical one. Same root as רגיל (usual) and להתרגל (to get used to)."
+  },
+  {
+    "id": "va1t_hafsaka",
+    "he": "הפסקה",
+    "tr": "hafsaká",
+    "en": "break",
+    "enAlt": [
+      "recess",
+      "pause",
+      "intermission"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "הפסקות",
+    "root": "פ.ס.ק",
+    "level": "A1",
+    "topic": "study",
+    "ex": {
+      "he": "יש לנו הפסקה של עשר דקות.",
+      "en": "We have a ten-minute break."
+    },
+    "note": "Same root as להפסיק (to stop). הפסקת צהריים = lunch break."
+  },
+  {
+    "id": "va1t_kurs",
+    "he": "קורס",
+    "tr": "kurs",
+    "en": "course",
+    "enAlt": [
+      "class"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "קורסים",
+    "level": "A1",
+    "topic": "study",
+    "ex": {
+      "he": "זה קורס קצר, רק חודש.",
+      "en": "It's a short course, only a month."
+    },
+    "note": "לעשות קורס = to take a course."
+  },
+  {
+    "id": "va1t_tsiyun",
+    "he": "ציון",
+    "tr": "tsiyún",
+    "en": "grade; mark",
+    "enAlt": [
+      "grade",
+      "mark",
+      "score"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "ציונים",
+    "root": "צ.י.נ",
+    "level": "A2",
+    "topic": "study",
+    "ex": {
+      "he": "קיבלתי ציון טוב במבחן.",
+      "en": "I got a good grade on the test."
+    },
+    "note": "Israeli schools usually grade out of 100. לקבל ציון = to get a grade."
+  },
+  {
+    "id": "va1t_dugma",
+    "he": "דוגמה",
+    "tr": "dugmá",
+    "en": "example",
+    "enAlt": [
+      "sample",
+      "model"
+    ],
+    "alt": [
+      "דוגמא"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "דוגמאות",
+    "level": "A2",
+    "topic": "study",
+    "ex": {
+      "he": "אפשר דוגמה, בבקשה?",
+      "en": "Could I have an example, please?"
+    },
+    "note": "לדוגמה = for example (like למשל). Also spelled דוגמא. Plural דוגמאות."
+  },
+  {
+    "id": "va1t_sport",
+    "he": "ספורט",
+    "tr": "sport",
+    "en": "sport; sports",
+    "enAlt": [
+      "sport",
+      "sports",
+      "exercise"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "level": "A1",
+    "topic": "leisure",
+    "ex": {
+      "he": "אני עושה ספורט שלוש פעמים בשבוע.",
+      "en": "I work out three times a week."
+    },
+    "note": "לעשות ספורט = to exercise, to work out. An athlete = ספורטאי."
+  },
+  {
+    "id": "va1t_kaduregel",
+    "he": "כדורגל",
+    "tr": "kadurégel",
+    "en": "football; soccer",
+    "enAlt": [
+      "football",
+      "soccer"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "level": "A1",
+    "topic": "leisure",
+    "ex": {
+      "he": "הילדים משחקים כדורגל בפארק.",
+      "en": "The kids are playing football in the park."
+    },
+    "note": "From כדור (ball) + רגל (foot). A football match = משחק כדורגל."
+  },
+  {
+    "id": "va1t_kadursal",
+    "he": "כדורסל",
+    "tr": "kadursál",
+    "en": "basketball",
+    "pos": "noun",
+    "gender": "m",
+    "level": "A1",
+    "topic": "leisure",
+    "ex": {
+      "he": "הבת שלי משחקת כדורסל.",
+      "en": "My daughter plays basketball."
+    },
+    "note": "From כדור (ball) + סל (basket). Basketball is very popular in Israel."
+  },
+  {
+    "id": "va1t_brekha",
+    "he": "בריכה",
+    "tr": "brekhá",
+    "en": "swimming pool; pool",
+    "enAlt": [
+      "pool",
+      "swimming pool",
+      "pond"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "בריכות",
+    "level": "A1",
+    "topic": "leisure",
+    "ex": {
+      "he": "בקיץ הילדים בבריכה כל יום.",
+      "en": "In summer the kids are at the pool every day."
+    },
+    "note": "In full: בריכת שחייה (swimming pool). It can also be a pond."
+  },
+  {
+    "id": "va1t_skhiya",
+    "he": "שחייה",
+    "tr": "skhiyá",
+    "en": "swimming",
+    "alt": [
+      "שחיה"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "root": "ש.ח.ה",
+    "level": "A1",
+    "topic": "leisure",
+    "ex": {
+      "he": "שחייה היא ספורט טוב לכל הגוף.",
+      "en": "Swimming is a good sport for the whole body."
+    },
+    "note": "The verb is לשחות. Also spelled שחיה. Swimsuit = בגד ים."
+  },
+  {
+    "id": "va1t_ritsa",
+    "he": "ריצה",
+    "tr": "ritsá",
+    "en": "running; a run",
+    "enAlt": [
+      "running",
+      "run",
+      "jogging"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "ריצות",
+    "root": "ר.ו.צ",
+    "level": "A1",
+    "topic": "leisure",
+    "ex": {
+      "he": "אחרי ריצה אני תמיד שותה הרבה מים.",
+      "en": "After a run I always drink a lot of water."
+    },
+    "note": "The verb is לרוץ. לצאת לריצה = to go for a run."
+  },
+  {
+    "id": "va1t_yoga",
+    "he": "יוגה",
+    "tr": "yóga",
+    "en": "yoga",
+    "pos": "noun",
+    "gender": "f",
+    "level": "A1",
+    "topic": "leisure",
+    "ex": {
+      "he": "יש שיעור יוגה ביום שלישי בערב.",
+      "en": "There's a yoga class on Tuesday evening."
+    },
+    "note": "A yoga class = שיעור יוגה. Stress on the first syllable, as in English."
+  },
+  {
+    "id": "va1t_khadar_kosher",
+    "he": "חדר כושר",
+    "tr": "khadár kósher",
+    "en": "gym",
+    "enAlt": [
+      "fitness room",
+      "fitness centre",
+      "fitness center"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "חדרי כושר",
+    "level": "A1",
+    "topic": "leisure",
+    "ex": {
+      "he": "אני הולך לחדר כושר פעמיים בשבוע.",
+      "en": "I go to the gym twice a week."
+    },
+    "note": "Literally 'fitness room' (כושר = fitness; בכושר = in shape). Also מכון כושר; colloquially ג׳ים."
+  },
+  {
+    "id": "va1t_seret",
+    "he": "סרט",
+    "tr": "séret",
+    "en": "film; movie",
+    "enAlt": [
+      "film",
+      "movie",
+      "ribbon"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "סרטים",
+    "level": "A1",
+    "topic": "leisure",
+    "ex": {
+      "he": "הסרט מתחיל בשמונה.",
+      "en": "The movie starts at eight."
+    },
+    "note": "Plural סרטים (sratím). Also 'ribbon' or 'tape'. Subtitles = כתוביות."
+  },
+  {
+    "id": "va1t_kolnoa",
+    "he": "קולנוע",
+    "tr": "kolnóa",
+    "en": "cinema; movie theater",
+    "enAlt": [
+      "cinema",
+      "movie theater",
+      "movie theatre",
+      "the movies"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "בתי קולנוע",
+    "level": "A1",
+    "topic": "leisure",
+    "ex": {
+      "he": "יש קולנוע חדש בקניון.",
+      "en": "There's a new cinema in the mall."
+    },
+    "note": "ללכת לקולנוע = to go to the movies. Plural: בתי קולנוע."
+  },
+  {
+    "id": "va1t_hatsaga",
+    "he": "הצגה",
+    "tr": "hatsagá",
+    "en": "play; show",
+    "enAlt": [
+      "play",
+      "show",
+      "performance"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "הצגות",
+    "root": "י.צ.ג",
+    "level": "A1",
+    "topic": "leisure",
+    "ex": {
+      "he": "יש לנו כרטיסים להצגה ביום חמישי.",
+      "en": "We have tickets for a play on Thursday."
+    },
+    "note": "A theatre play or a children's show. Same root as להציג (to present, to show)."
+  },
+  {
+    "id": "va1t_teatron",
+    "he": "תיאטרון",
+    "tr": "te'atrón",
+    "en": "theatre",
+    "enAlt": [
+      "theater"
+    ],
+    "alt": [
+      "תאטרון"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "תיאטראות",
+    "level": "A1",
+    "topic": "leisure",
+    "ex": {
+      "he": "אנחנו הולכים לתיאטרון פעם בחודש.",
+      "en": "We go to the theatre once a month."
+    },
+    "note": "Plural תיאטראות (te'atra'ót). Israel's national theatre, הבימה, is in Tel Aviv. Also spelled תאטרון."
+  },
+  {
+    "id": "va1t_kontsert",
+    "he": "קונצרט",
+    "tr": "kontsért",
+    "en": "concert",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "קונצרטים",
+    "level": "A1",
+    "topic": "leisure",
+    "ex": {
+      "he": "הקונצרט בפארק, והכניסה חינם.",
+      "en": "The concert is in the park, and entry is free."
+    },
+    "note": "Mostly for classical music; for a pop or rock show Israelis usually say הופעה."
+  },
+  {
+    "id": "va1t_hofaa",
+    "he": "הופעה",
+    "tr": "hofa'á",
+    "en": "show; performance; gig",
+    "enAlt": [
+      "show",
+      "performance",
+      "gig",
+      "concert",
+      "appearance"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "הופעות",
+    "root": "י.פ.ע",
+    "level": "A1",
+    "topic": "leisure",
+    "ex": {
+      "he": "ההופעה מתחילה בעשר בלילה.",
+      "en": "The show starts at ten at night."
+    },
+    "note": "Also 'appearance, looks'. Same root as להופיע (to appear, to perform)."
+  },
+  {
+    "id": "va1t_shir",
+    "he": "שיר",
+    "tr": "shir",
+    "en": "song; poem",
+    "enAlt": [
+      "song",
+      "poem"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "שירים",
+    "root": "ש.י.ר",
+    "level": "A1",
+    "topic": "leisure",
+    "ex": {
+      "he": "זה השיר האהוב עליי.",
+      "en": "This is my favourite song."
+    },
+    "note": "Both 'song' and 'poem'. לשיר = to sing; a singer = זמר / זמרת."
+  },
+  {
+    "id": "va1t_muzika",
+    "he": "מוזיקה",
+    "tr": "múzika",
+    "en": "music",
+    "alt": [
+      "מוסיקה"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "level": "A1",
+    "topic": "leisure",
+    "ex": {
+      "he": "אני שומע מוזיקה באוטובוס.",
+      "en": "I listen to music on the bus."
+    },
+    "note": "Stress on the first syllable: múzika. Also spelled מוסיקה. A musician = מוזיקאי."
+  },
+  {
+    "id": "va1t_miskhak",
+    "he": "משחק",
+    "tr": "miskhák",
+    "en": "game; match",
+    "enAlt": [
+      "game",
+      "match",
+      "acting"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "משחקים",
+    "root": "ש.ח.ק",
+    "level": "A1",
+    "topic": "leisure",
+    "ex": {
+      "he": "יש משחק כדורגל הערב.",
+      "en": "There's a football match tonight."
+    },
+    "note": "Same root as לשחק (to play). Also 'acting'. A computer game = משחק מחשב."
+  },
+  {
+    "id": "va1t_takhbiv",
+    "he": "תחביב",
+    "tr": "takhbív",
+    "en": "hobby",
+    "enAlt": [
+      "pastime"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "תחביבים",
+    "root": "ח.ב.ב",
+    "level": "A2",
+    "topic": "leisure",
+    "ex": {
+      "he": "יש לך תחביב?",
+      "en": "Do you have a hobby?"
+    },
+    "note": "Same root as חביב (likeable). מה התחביבים שלך? = What are your hobbies?"
+  },
+  {
+    "id": "va1t_zman_panui",
+    "he": "זמן פנוי",
+    "tr": "zman panúi",
+    "en": "free time",
+    "enAlt": [
+      "spare time",
+      "leisure time"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "level": "A2",
+    "topic": "leisure",
+    "ex": {
+      "he": "אין לי הרבה זמן פנוי.",
+      "en": "I don't have much free time."
+    },
+    "note": "פנוי = free, available, vacant (המקום פנוי? = is this seat free?). 'Free of charge' is a different word: חינם."
+  },
+  {
+    "id": "va1t_gitara",
+    "he": "גיטרה",
+    "tr": "gitára",
+    "en": "guitar",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "גיטרות",
+    "level": "A1",
+    "topic": "leisure",
+    "ex": {
+      "he": "יונתן מנגן בגיטרה.",
+      "en": "Yonatan plays the guitar."
+    },
+    "note": "With instruments use לנגן ב־, not לשחק: לנגן בגיטרה."
+  },
+  {
+    "id": "va1t_psanter",
+    "he": "פסנתר",
+    "tr": "psantér",
+    "en": "piano",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "פסנתרים",
+    "level": "A1",
+    "topic": "leisure",
+    "ex": {
+      "he": "אני לומדת לנגן בפסנתר.",
+      "en": "I'm learning to play the piano."
+    },
+    "note": "לנגן בפסנתר = to play the piano (with ב־)."
+  },
+  {
+    "id": "va1t_rikud",
+    "he": "ריקוד",
+    "tr": "rikúd",
+    "en": "dance; dancing",
+    "enAlt": [
+      "dance",
+      "dancing"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "ריקודים",
+    "root": "ר.ק.ד",
+    "level": "A1",
+    "topic": "leisure",
+    "ex": {
+      "he": "יש לי שיעור ריקוד ביום רביעי.",
+      "en": "I have a dance class on Wednesday."
+    },
+    "note": "The verb is לרקוד. ריקודי עם = Israeli folk dancing."
+  },
+  {
+    "id": "va1t_kvutsa",
+    "he": "קבוצה",
+    "tr": "kvutsá",
+    "en": "team; group",
+    "enAlt": [
+      "team",
+      "group"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "קבוצות",
+    "root": "ק.ב.צ",
+    "level": "A1",
+    "topic": "leisure",
+    "ex": {
+      "he": "הקבוצה שלי משחקת היום.",
+      "en": "My team is playing today."
+    },
+    "note": "A sports team or any group: קבוצת וואטסאפ = a WhatsApp group. Same root as קיבוץ (kibbutz)."
+  },
+  {
+    "id": "va1t_khug",
+    "he": "חוג",
+    "tr": "khug",
+    "en": "(hobby) class; club",
+    "enAlt": [
+      "class",
+      "club",
+      "after-school activity",
+      "department (university)"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "חוגים",
+    "level": "A2",
+    "topic": "leisure",
+    "ex": {
+      "he": "לבת שלי יש חוג ציור ביום שני.",
+      "en": "My daughter has an art class on Monday."
+    },
+    "note": "An organised hobby class, especially for children after school: חוג שחייה, חוג ציור. At university a חוג is a department."
+  },
+  {
+    "id": "va1t_khofesh",
+    "he": "חופש",
+    "tr": "khófesh",
+    "en": "time off; vacation",
+    "enAlt": [
+      "vacation",
+      "holiday",
+      "holidays",
+      "time off",
+      "freedom"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "root": "ח.פ.ש",
+    "level": "A1",
+    "topic": "leisure",
+    "ex": {
+      "he": "מתי יש לך חופש?",
+      "en": "When do you have time off?"
+    },
+    "note": "The everyday word for time off: אני בחופש = I'm on holiday. החופש הגדול = the long summer school holiday. A planned trip or leave from work is usually חופשה. It also means 'freedom'."
+  }
+]

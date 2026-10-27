@@ -1,0 +1,1497 @@
+[
+  {
+    "id": "va2n_kelev",
+    "he": "כלב",
+    "tr": "kélev",
+    "en": "dog",
+    "enAlt": [
+      "hound"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "כלבים",
+    "level": "A1",
+    "topic": "nature",
+    "ex": {
+      "he": "יש לי כלב, קוראים לו שוקו.",
+      "en": "I have a dog; his name is Shoko."
+    },
+    "note": "Feminine: כלבה. A puppy is גור. להוציא את הכלב (lit. to take the dog out) = to walk the dog."
+  },
+  {
+    "id": "va2n_khatul",
+    "he": "חתול",
+    "tr": "khatúl",
+    "en": "cat",
+    "enAlt": [
+      "tomcat"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "חתולים",
+    "level": "A1",
+    "topic": "nature",
+    "ex": {
+      "he": "החתול שלי ישן כל היום על הספה.",
+      "en": "My cat sleeps all day on the sofa."
+    },
+    "note": "Feminine: חתולה. Israeli cities are full of street cats (חתולי רחוב)."
+  },
+  {
+    "id": "va2n_tsipor",
+    "he": "ציפור",
+    "tr": "tsipór",
+    "en": "bird",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "ציפורים",
+    "level": "A2",
+    "topic": "nature",
+    "ex": {
+      "he": "בבוקר אני שומעת ציפור שרה ליד החלון.",
+      "en": "In the morning I hear a bird singing by the window."
+    },
+    "note": "Feminine, although the plural ends in ־ים: ציפור קטנה, ציפורים קטנות. Israel lies on a major bird migration route between Europe and Africa."
+  },
+  {
+    "id": "va2n_sus",
+    "he": "סוס",
+    "tr": "sus",
+    "en": "horse",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "סוסים",
+    "level": "A2",
+    "topic": "nature",
+    "ex": {
+      "he": "הבת שלנו לומדת לרכוב על סוס בחווה ליד הבית.",
+      "en": "Our daughter is learning to ride a horse at a farm near our home."
+    },
+    "note": "Feminine: סוסה (mare). לרכוב על סוס = to ride a horse; a seahorse is סוסון ים (lit. little sea horse)."
+  },
+  {
+    "id": "va2n_para",
+    "he": "פרה",
+    "tr": "pará",
+    "en": "cow",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "פרות",
+    "level": "A2",
+    "topic": "nature",
+    "ex": {
+      "he": "בקיבוץ ראינו פרה ענקית, והילדים שתו חלב טרי.",
+      "en": "At the kibbutz we saw a huge cow, and the kids drank fresh milk."
+    },
+    "note": "A bull is פר and a calf is עגל. The cowshed (רפת) was at the heart of many kibbutzim."
+  },
+  {
+    "id": "va2n_gamal",
+    "he": "גמל",
+    "tr": "gamál",
+    "en": "camel",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "גמלים",
+    "level": "A2",
+    "topic": "nature",
+    "ex": {
+      "he": "במדבר ליד אילת אפשר לרכוב על גמל.",
+      "en": "In the desert near Eilat you can ride a camel."
+    },
+    "note": "Not to be confused with קופת גמל, a savings fund: there גמל means 'benefit', as in גמלה (an allowance) and גמלאי (a pensioner)."
+  },
+  {
+    "id": "va2n_khaya",
+    "he": "חיה",
+    "tr": "khayá",
+    "en": "animal",
+    "enAlt": [
+      "wild animal",
+      "beast",
+      "creature"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "חיות",
+    "root": "ח.י.ה",
+    "level": "A2",
+    "topic": "nature",
+    "ex": {
+      "he": "איזו חיה את הכי אוהבת?",
+      "en": "Which animal do you like best?"
+    },
+    "note": "Same root as חיים (life). גן חיות = zoo. The more neutral or scientific word is בעל חיים (plural בעלי חיים)."
+  },
+  {
+    "id": "va2n_khayat_makhmad",
+    "he": "חיית מחמד",
+    "tr": "khayát makhmád",
+    "en": "pet",
+    "enAlt": [
+      "domestic animal"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "חיות מחמד",
+    "level": "A2",
+    "topic": "nature",
+    "ex": {
+      "he": "בעל הבית אמר שמותר לגדל חיית מחמד בדירה.",
+      "en": "The landlord said you're allowed to keep a pet in the apartment."
+    },
+    "note": "מחמד = something dear and beloved. With 'the': חיית המחמד. לגדל (lit. to raise) = to keep an animal."
+  },
+  {
+    "id": "va2n_keves",
+    "he": "כבש",
+    "tr": "kéves",
+    "en": "sheep",
+    "enAlt": [
+      "lamb"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "כבשים",
+    "level": "A2",
+    "topic": "nature",
+    "ex": {
+      "he": "בטיול בגליל ראינו הרבה כבשים ליד הכביש.",
+      "en": "On our trip in the Galilee we saw lots of sheep by the road."
+    },
+    "note": "Feminine: כבשה (ewe). A ram is איל and a young lamb is טלה; a goat is עז (feminine, plural עיזים)."
+  },
+  {
+    "id": "va2n_tarnegolet",
+    "he": "תרנגולת",
+    "tr": "tarnególet",
+    "en": "hen",
+    "enAlt": [
+      "chicken"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "תרנגולות",
+    "level": "A2",
+    "topic": "nature",
+    "ex": {
+      "he": "לסבתא שלי יש תרנגולות בחצר, אז יש לה ביצים טריות.",
+      "en": "My grandma has hens in the yard, so she has fresh eggs."
+    },
+    "note": "A rooster is תרנגול. On a menu, chicken is עוף (poultry): שניצל עוף, מרק עוף."
+  },
+  {
+    "id": "va2n_nakhash",
+    "he": "נחש",
+    "tr": "nakhásh",
+    "en": "snake",
+    "enAlt": [
+      "serpent"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "נחשים",
+    "level": "A2",
+    "topic": "nature",
+    "ex": {
+      "he": "בטיול במדבר המדריך הראה לנו נחש קטן מתחת לאבן.",
+      "en": "On the desert hike the guide showed us a small snake under a rock."
+    },
+    "note": "Hiking tip: in summer, stay on the trail and don't put your hands under rocks; snakes and scorpions (עקרבים) hide there."
+  },
+  {
+    "id": "va2n_parpar",
+    "he": "פרפר",
+    "tr": "parpár",
+    "en": "butterfly",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "פרפרים",
+    "level": "A2",
+    "topic": "nature",
+    "ex": {
+      "he": "הילדה רצה אחרי פרפר צהוב בגינה.",
+      "en": "The little girl ran after a yellow butterfly in the garden."
+    },
+    "note": "פרפרים בבטן = butterflies in the stomach, just like in English."
+  },
+  {
+    "id": "va2n_dvora",
+    "he": "דבורה",
+    "tr": "dvorá",
+    "en": "bee",
+    "enAlt": [
+      "honeybee"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "דבורים",
+    "level": "B1",
+    "topic": "nature",
+    "ex": {
+      "he": "דבורה עקצה אותי ברגל כשהלכתי יחפה על הדשא.",
+      "en": "A bee stung me on the leg when I was walking barefoot on the grass."
+    },
+    "note": "Feminine with a masculine-looking plural: דבורים. Also a girl's name (Deborah). Honey is דבש; לעקוץ = to sting."
+  },
+  {
+    "id": "va2n_yatush",
+    "he": "יתוש",
+    "tr": "yatúsh",
+    "en": "mosquito",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "יתושים",
+    "level": "A2",
+    "topic": "nature",
+    "ex": {
+      "he": "בקיץ יש הרבה יתושים, אז אנחנו סוגרים את החלונות בערב.",
+      "en": "In summer there are lots of mosquitoes, so we close the windows in the evening."
+    },
+    "note": "Mosquito season runs from spring to autumn. A window screen is רשת; a mosquito net over a bed is כילה."
+  },
+  {
+    "id": "va2n_ets",
+    "he": "עץ",
+    "tr": "ets",
+    "en": "tree",
+    "enAlt": [
+      "wood"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "עצים",
+    "level": "A1",
+    "topic": "nature",
+    "ex": {
+      "he": "יש עץ גדול ליד הבית שלנו.",
+      "en": "There's a big tree next to our house."
+    },
+    "note": "Also wood, the material: שולחן עץ = a wooden table. On ט״ו בשבט, the New Year of the Trees, children plant trees."
+  },
+  {
+    "id": "va2n_perakh",
+    "he": "פרח",
+    "tr": "pérakh",
+    "en": "flower",
+    "enAlt": [
+      "blossom"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "פרחים",
+    "root": "פ.ר.ח",
+    "level": "A2",
+    "topic": "nature",
+    "ex": {
+      "he": "ביום שישי קניתי פרחים לשבת.",
+      "en": "On Friday I bought flowers for Shabbat."
+    },
+    "note": "Many Israelis buy flowers on Friday for the Shabbat table. Same root as לפרוח (to bloom). Wild flowers are protected: don't pick them."
+  },
+  {
+    "id": "va2n_deshe",
+    "he": "דשא",
+    "tr": "déshe",
+    "en": "grass",
+    "enAlt": [
+      "lawn"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "level": "A2",
+    "topic": "nature",
+    "ex": {
+      "he": "בשבת אנחנו יושבים על הדשא בפארק.",
+      "en": "On Saturdays we sit on the grass in the park."
+    },
+    "note": "Normally used in the singular. A lawn area is מדשאה; a sign saying נא לא לדרוך על הדשא means 'Please keep off the grass'."
+  },
+  {
+    "id": "va2n_tsemakh",
+    "he": "צמח",
+    "tr": "tsémakh",
+    "en": "plant",
+    "enAlt": [
+      "houseplant"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "צמחים",
+    "root": "צ.מ.ח",
+    "level": "B1",
+    "topic": "nature",
+    "ex": {
+      "he": "יש לי במרפסת צמחים שלא צריכים הרבה מים.",
+      "en": "I have plants on my balcony that don't need much water."
+    },
+    "note": "Same root as לצמוח (to grow) and צמחוני (vegetarian). A pot plant is עציץ; vegetation (plants in general) is צמחייה."
+  },
+  {
+    "id": "va2n_ale",
+    "he": "עלה",
+    "tr": "alé",
+    "en": "leaf",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "עלים",
+    "level": "A2",
+    "topic": "nature",
+    "ex": {
+      "he": "בסתיו העלים על העץ משנים צבע.",
+      "en": "In autumn the leaves on the tree change colour."
+    },
+    "note": "Spelled like the verb עלה (alá, he went up), but pronounced alé. עלי גפן = vine leaves, usually served stuffed (ממולאים)."
+  },
+  {
+    "id": "va2n_har",
+    "he": "הר",
+    "tr": "har",
+    "en": "mountain",
+    "enAlt": [
+      "mount"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "הרים",
+    "level": "A2",
+    "topic": "nature",
+    "ex": {
+      "he": "בשבת עלינו להר ליד הבית וראינו את כל העיר.",
+      "en": "On Saturday we climbed the mountain near our house and saw the whole city."
+    },
+    "note": "With a name: הר הכרמל, הר תבור. לעלות להר or לטפס על הר = to climb a mountain."
+  },
+  {
+    "id": "va2n_nahar",
+    "he": "נהר",
+    "tr": "nahár",
+    "en": "river",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "נהרות",
+    "level": "A2",
+    "topic": "nature",
+    "ex": {
+      "he": "הירדן הוא נהר קטן, אבל הוא מפורסם מאוד.",
+      "en": "The Jordan is a small river, but it's very famous."
+    },
+    "note": "Masculine with an ־ות plural: נהרות גדולים. Most Israeli streams are called נחל, not נהר."
+  },
+  {
+    "id": "va2n_yam",
+    "he": "ים",
+    "tr": "yam",
+    "en": "sea",
+    "enAlt": [
+      "beach",
+      "seaside"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "ימים",
+    "level": "A1",
+    "topic": "nature",
+    "ex": {
+      "he": "בקיץ אנחנו הולכים לים כל שבת.",
+      "en": "In summer we go to the beach every Saturday."
+    },
+    "note": "ללכת לים = to go to the beach. Plural ימים, the same spelling as ימים (days). Hebrew calls several bodies of water ים: הים התיכון (the Mediterranean), ים סוף (the Red Sea), ים המלח (the Dead Sea) and even the lake ים כנרת (the Sea of Galilee)."
+  },
+  {
+    "id": "va2n_midbar",
+    "he": "מדבר",
+    "tr": "midbár",
+    "en": "desert",
+    "enAlt": [
+      "wilderness"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מדבריות",
+    "level": "A2",
+    "topic": "nature",
+    "ex": {
+      "he": "הנגב הוא מדבר גדול בדרום הארץ.",
+      "en": "The Negev is a large desert in the south of the country."
+    },
+    "note": "Irregular plural: מדבריות. Same spelling as מדבר (medabér, 'speaks'), the present tense of לדבר."
+  },
+  {
+    "id": "va2n_khof",
+    "he": "חוף",
+    "tr": "khof",
+    "en": "beach",
+    "enAlt": [
+      "shore",
+      "coast"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "חופים",
+    "level": "A2",
+    "topic": "nature",
+    "ex": {
+      "he": "ביום שישי בבוקר החוף כמעט ריק.",
+      "en": "On Friday morning the beach is almost empty."
+    },
+    "note": "חוף הים = the seashore. Swim only at a חוף רחצה מוכרז, an official beach with lifeguards."
+  },
+  {
+    "id": "va2n_agam",
+    "he": "אגם",
+    "tr": "agám",
+    "en": "lake",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "אגמים",
+    "level": "A2",
+    "topic": "nature",
+    "ex": {
+      "he": "ליד האגם יש שביל נחמד לאופניים.",
+      "en": "There's a nice bike path by the lake."
+    },
+    "note": "The Kinneret is really a lake, even though Hebrew calls it ים כנרת. A small lake or pond is אגמון."
+  },
+  {
+    "id": "va2n_yaar",
+    "he": "יער",
+    "tr": "yá'ar",
+    "en": "forest",
+    "enAlt": [
+      "woods",
+      "wood"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "יערות",
+    "level": "A2",
+    "topic": "nature",
+    "ex": {
+      "he": "בסוף השבוע עשינו פיקניק ביער ליד ירושלים.",
+      "en": "At the weekend we had a picnic in the forest near Jerusalem."
+    },
+    "note": "Masculine with an ־ות plural: יערות. Many Israeli forests were planted and are looked after by קק״ל (KKL-JNF)."
+  },
+  {
+    "id": "va2n_kokhav",
+    "he": "כוכב",
+    "tr": "kokháv",
+    "en": "star",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "כוכבים",
+    "level": "A2",
+    "topic": "nature",
+    "ex": {
+      "he": "בלילה במצפה רמון רואים המון כוכבים.",
+      "en": "At night in Mitzpe Ramon you can see loads of stars."
+    },
+    "note": "Also a star in the celebrity sense: כוכב קולנוע = film star. A planet is כוכב לכת."
+  },
+  {
+    "id": "va2n_yareakh",
+    "he": "ירח",
+    "tr": "yaréakh",
+    "en": "moon",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "ירחים",
+    "level": "A2",
+    "topic": "nature",
+    "ex": {
+      "he": "הלילה הירח מלא ויפה מאוד.",
+      "en": "Tonight the moon is full and very beautiful."
+    },
+    "note": "The Hebrew calendar follows the moon: each month begins at the new moon, on ראש חודש. ירח דבש = honeymoon (lit. moon of honey)."
+  },
+  {
+    "id": "va2n_teva",
+    "he": "טבע",
+    "tr": "téva",
+    "en": "nature",
+    "enAlt": [
+      "the outdoors",
+      "countryside"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "level": "A2",
+    "topic": "nature",
+    "ex": {
+      "he": "אני אוהבת לטייל בטבע בסוף השבוע.",
+      "en": "I love hiking in nature at the weekend."
+    },
+    "note": "Masculine. טבעי = natural. רשות הטבע והגנים (the Nature and Parks Authority) runs the nature reserves and national parks."
+  },
+  {
+    "id": "va2n_nakhal",
+    "he": "נחל",
+    "tr": "nákhal",
+    "en": "stream",
+    "enAlt": [
+      "wadi",
+      "creek",
+      "brook"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "נחלים",
+    "level": "A2",
+    "topic": "nature",
+    "ex": {
+      "he": "בחורף יש מים בנחל, ובקיץ הוא יבש.",
+      "en": "In winter there's water in the stream, and in summer it's dry."
+    },
+    "note": "Many Israeli hikes follow a נחל, often dry for most of the year. נחל דוד in Ein Gedi is a classic family hike."
+  },
+  {
+    "id": "va2n_mayan",
+    "he": "מעיין",
+    "tr": "ma'yán",
+    "en": "spring (of water)",
+    "enAlt": [
+      "spring",
+      "water spring"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מעיינות",
+    "level": "B1",
+    "topic": "nature",
+    "ex": {
+      "he": "בסוף המסלול יש מעיין קטן עם מים קרים.",
+      "en": "At the end of the trail there's a small spring with cold water."
+    },
+    "note": "Masculine with an ־ות plural: מעיינות. Many place names begin with עין, an older word for a spring: עין גדי, עין כרם."
+  },
+  {
+    "id": "va2n_even",
+    "he": "אבן",
+    "tr": "éven",
+    "en": "stone",
+    "enAlt": [
+      "rock"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "אבנים",
+    "level": "A2",
+    "topic": "nature",
+    "ex": {
+      "he": "הבתים בירושלים בנויים מאבן.",
+      "en": "The houses in Jerusalem are built of stone."
+    },
+    "note": "Feminine, despite the ־ים plural: אבן כבדה, אבנים כבדות. Jerusalem stone (אבן ירושלמית) covers most buildings in the city."
+  },
+  {
+    "id": "va2n_khol",
+    "he": "חול",
+    "tr": "khol",
+    "en": "sand",
+    "pos": "noun",
+    "gender": "m",
+    "level": "A2",
+    "topic": "nature",
+    "ex": {
+      "he": "אחרי יום בים יש חול בכל מקום באוטו.",
+      "en": "After a day at the beach there's sand all over the car."
+    },
+    "note": "Don't mix it up with חו״ל (abroad) or with חול as in ימי חול (weekdays): same letters, different words."
+  },
+  {
+    "id": "va2n_shkia",
+    "he": "שקיעה",
+    "tr": "shki'á",
+    "en": "sunset",
+    "enAlt": [
+      "sundown"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "שקיעות",
+    "root": "ש.ק.ע",
+    "level": "B1",
+    "topic": "nature",
+    "ex": {
+      "he": "באנו לחוף מוקדם כדי לראות את השקיעה.",
+      "en": "We came to the beach early to watch the sunset."
+    },
+    "note": "Sunrise is זריחה. On the Mediterranean coast the sun sets into the sea, which is why beach sunsets are so popular."
+  },
+  {
+    "id": "va2n_shmurat_teva",
+    "he": "שמורת טבע",
+    "tr": "shmurát téva",
+    "en": "nature reserve",
+    "enAlt": [
+      "nature preserve"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "שמורות טבע",
+    "root": "ש.מ.ר",
+    "level": "B1",
+    "topic": "nature",
+    "ex": {
+      "he": "עין גדי היא שמורת טבע עם מעיינות ומפלים.",
+      "en": "Ein Gedi is a nature reserve with springs and waterfalls."
+    },
+    "note": "With 'the': שמורת הטבע. From לשמור (to keep, protect). In a reserve you must stay on the marked trails."
+  },
+  {
+    "id": "va2n_malon",
+    "he": "מלון",
+    "tr": "malón",
+    "en": "hotel",
+    "alt": [
+      "בית מלון"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מלונות",
+    "level": "A2",
+    "topic": "travel",
+    "ex": {
+      "he": "הזמנו חדר במלון ליד הים לשלושה לילות.",
+      "en": "We booked a room at a hotel by the sea for three nights."
+    },
+    "note": "Masculine with an ־ות plural: מלונות. The full form is בית מלון. Note שלושה לילות: לילה is masculine."
+  },
+  {
+    "id": "va2n_hostel",
+    "he": "הוסטל",
+    "tr": "hóstel",
+    "en": "hostel",
+    "enAlt": [
+      "youth hostel"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "הוסטלים",
+    "level": "A2",
+    "topic": "travel",
+    "ex": {
+      "he": "בהוסטל הזה יש מטבח משותף ומרפסת על הגג.",
+      "en": "This hostel has a shared kitchen and a rooftop terrace."
+    },
+    "note": "The traditional Hebrew term is אכסניית נוער (a youth hostel)."
+  },
+  {
+    "id": "va2n_mizvada",
+    "he": "מזוודה",
+    "tr": "mizvadá",
+    "en": "suitcase",
+    "enAlt": [
+      "case",
+      "luggage"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "מזוודות",
+    "level": "A2",
+    "topic": "travel",
+    "ex": {
+      "he": "המזוודה שלי כבדה מדי, אני צריך להוציא ממנה בגדים.",
+      "en": "My suitcase is too heavy; I need to take some clothes out of it."
+    },
+    "note": "לארוז את המזוודה = to pack the suitcase. A small carry-on with wheels is a טרולי."
+  },
+  {
+    "id": "va2n_tik_gav",
+    "he": "תיק גב",
+    "tr": "tik gav",
+    "en": "backpack",
+    "enAlt": [
+      "rucksack"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "תיקי גב",
+    "level": "A2",
+    "topic": "travel",
+    "ex": {
+      "he": "לטיול של יום מספיק לי תיק גב קטן.",
+      "en": "For a day trip a small backpack is enough for me."
+    },
+    "note": "Lit. 'back bag'. A large trekking pack is a תרמיל. With 'the': תיק הגב."
+  },
+  {
+    "id": "va2n_kartis",
+    "he": "כרטיס",
+    "tr": "kartís",
+    "en": "ticket",
+    "enAlt": [
+      "card"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "כרטיסים",
+    "level": "A2",
+    "topic": "travel",
+    "ex": {
+      "he": "קניתי כרטיס לרכבת דרך האפליקציה.",
+      "en": "I bought a train ticket through the app."
+    },
+    "note": "Also 'card': כרטיס אשראי (credit card), כרטיס ביקור (business card). כרטיס טיסה = plane ticket."
+  },
+  {
+    "id": "va2n_tisa",
+    "he": "טיסה",
+    "tr": "tisá",
+    "en": "flight",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "טיסות",
+    "root": "ט.ו.ס",
+    "level": "A2",
+    "topic": "travel",
+    "ex": {
+      "he": "הטיסה לאתונה יוצאת בשש בבוקר.",
+      "en": "The flight to Athens leaves at six in the morning."
+    },
+    "note": "Same root as לטוס (to fly) and מטוס (plane). טיסה ישירה = a direct flight; טיסה נעימה! = have a nice flight!"
+  },
+  {
+    "id": "va2n_nekhita",
+    "he": "נחיתה",
+    "tr": "nekhitá",
+    "en": "landing",
+    "enAlt": [
+      "touchdown",
+      "arrival"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "נחיתות",
+    "root": "נ.ח.ת",
+    "level": "B1",
+    "topic": "travel",
+    "ex": {
+      "he": "אחרי הנחיתה חיכינו שעה למזוודות.",
+      "en": "After landing we waited an hour for our suitcases."
+    },
+    "note": "Takeoff is המראה. Flight boards and apps list נחיתות (arrivals) and המראות (departures)."
+  },
+  {
+    "id": "va2n_nemal_teufa",
+    "he": "נמל תעופה",
+    "tr": "nemál te'ufá",
+    "en": "airport",
+    "alt": [
+      "שדה תעופה"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "נמלי תעופה",
+    "level": "A2",
+    "topic": "travel",
+    "ex": {
+      "he": "ליד אילת יש נמל תעופה בינלאומי בשם רמון.",
+      "en": "Near Eilat there's an international airport called Ramon."
+    },
+    "note": "Lit. 'port of flight'. People also say שדה תעופה. Ben Gurion Airport is נתב״ג (נמל התעופה בן גוריון). With 'the': נמל התעופה."
+  },
+  {
+    "id": "va2n_viza",
+    "he": "ויזה",
+    "tr": "víza",
+    "en": "visa",
+    "alt": [
+      "אשרה"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "ויזות",
+    "level": "A2",
+    "topic": "travel",
+    "ex": {
+      "he": "לפני הטיול להודו הוצאנו ויזה באינטרנט.",
+      "en": "Before the trip to India we got a visa online."
+    },
+    "note": "The official word on forms is אשרה. להוציא ויזה = to get a visa issued."
+  },
+  {
+    "id": "va2n_mekhes",
+    "he": "מכס",
+    "tr": "mékhes",
+    "en": "customs",
+    "enAlt": [
+      "customs duty",
+      "duty"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מכסים",
+    "level": "B1",
+    "topic": "travel",
+    "ex": {
+      "he": "לפעמים צריך לשלם מכס על חבילה מחו״ל.",
+      "en": "Sometimes you have to pay customs duty on a parcel from abroad."
+    },
+    "note": "Both the tax and the checkpoint at the airport: לעבור במכס = to go through customs. Duty-free shops are the דיוטי פרי."
+  },
+  {
+    "id": "va2n_tayar",
+    "he": "תייר",
+    "tr": "tayár",
+    "en": "tourist",
+    "enAlt": [
+      "visitor"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "תיירים",
+    "level": "A2",
+    "topic": "travel",
+    "ex": {
+      "he": "בקיץ העיר העתיקה של עכו מלאה בתיירים.",
+      "en": "In summer the old city of Acre is full of tourists."
+    },
+    "note": "Feminine: תיירת. תיירות = tourism; מודיעין לתייר = tourist information."
+  },
+  {
+    "id": "va2n_mazkeret",
+    "he": "מזכרת",
+    "tr": "mazkéret",
+    "en": "souvenir",
+    "enAlt": [
+      "keepsake",
+      "memento"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "מזכרות",
+    "root": "ז.כ.ר",
+    "level": "B1",
+    "topic": "travel",
+    "ex": {
+      "he": "קניתי מזכרת קטנה לכל אחד מהחברים בעבודה.",
+      "en": "I bought a small souvenir for each of my colleagues."
+    },
+    "note": "Same root as לזכור (to remember). למזכרת = as a keepsake."
+  },
+  {
+    "id": "va2n_madrikh",
+    "he": "מדריך",
+    "tr": "madríkh",
+    "en": "guide",
+    "enAlt": [
+      "tour guide",
+      "guidebook",
+      "instructor"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מדריכים",
+    "root": "ד.ר.כ",
+    "level": "A2",
+    "topic": "travel",
+    "ex": {
+      "he": "המדריך סיפר לנו על ההיסטוריה של המקום.",
+      "en": "The guide told us about the history of the place."
+    },
+    "note": "Feminine: מדריכה. Also a guidebook, a how-to guide, a fitness instructor or a youth-movement leader. Same root as דרך (way)."
+  },
+  {
+    "id": "va2n_nof",
+    "he": "נוף",
+    "tr": "nof",
+    "en": "view",
+    "enAlt": [
+      "landscape",
+      "scenery"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "נופים",
+    "level": "A2",
+    "topic": "travel",
+    "ex": {
+      "he": "מהמרפסת של הצימר יש נוף מדהים לכנרת.",
+      "en": "From the zimmer's balcony there's an amazing view of the Kinneret."
+    },
+    "note": "נוף ל… = a view of …: דירה עם נוף לים = a flat with a sea view."
+  },
+  {
+    "id": "va2n_lina",
+    "he": "לינה",
+    "tr": "liná",
+    "en": "overnight stay",
+    "enAlt": [
+      "accommodation",
+      "lodging"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "root": "ל.ו.ן",
+    "level": "A2",
+    "topic": "travel",
+    "ex": {
+      "he": "המחיר כולל לינה וארוחת בוקר.",
+      "en": "The price includes accommodation and breakfast."
+    },
+    "note": "לינה וארוחת בוקר = bed and breakfast. Same root as ללון (to stay the night)."
+  },
+  {
+    "id": "va2n_maslul",
+    "he": "מסלול",
+    "tr": "maslúl",
+    "en": "trail",
+    "enAlt": [
+      "route",
+      "track",
+      "course"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מסלולים",
+    "root": "ס.ל.ל",
+    "level": "A2",
+    "topic": "travel",
+    "ex": {
+      "he": "בחרנו מסלול קל, כי באנו עם הילדים.",
+      "en": "We chose an easy trail because we came with the kids."
+    },
+    "note": "Also a route or programme in general: מסלול לימודים (a study track), מסלול מעגלי (a loop trail)."
+  },
+  {
+    "id": "va2n_tatspit",
+    "he": "תצפית",
+    "tr": "tatspít",
+    "en": "lookout",
+    "enAlt": [
+      "viewpoint",
+      "observation point"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "תצפיות",
+    "root": "צ.פ.ה",
+    "level": "B1",
+    "topic": "travel",
+    "ex": {
+      "he": "מנקודת התצפית רואים את כל העמק.",
+      "en": "From the lookout point you can see the whole valley."
+    },
+    "note": "Signposted on trails as נקודת תצפית. Same root as לצפות (to watch, to expect)."
+  },
+  {
+    "id": "va2n_halokh_vashov",
+    "he": "הלוך ושוב",
+    "tr": "halókh vashóv",
+    "en": "round trip",
+    "enAlt": [
+      "there and back",
+      "return"
+    ],
+    "pos": "phrase",
+    "level": "A2",
+    "topic": "travel",
+    "ex": {
+      "he": "קנינו כרטיס הלוך ושוב, כי זה יותר זול.",
+      "en": "We bought a return ticket because it's cheaper."
+    },
+    "note": "Lit. 'going and returning'. A one-way ticket is כרטיס בכיוון אחד (or just הלוך)."
+  },
+  {
+    "id": "va2n_nesia_tova",
+    "he": "נסיעה טובה",
+    "tr": "nesi'á tová",
+    "en": "have a good trip",
+    "enAlt": [
+      "bon voyage",
+      "safe travels"
+    ],
+    "pos": "expr",
+    "root": "נ.ס.ע",
+    "level": "A2",
+    "topic": "travel",
+    "ex": {
+      "he": "ביי, נסיעה טובה, ותשלחו תמונות מיוון!",
+      "en": "Bye, have a good trip, and send us photos from Greece!"
+    },
+    "note": "Said to anyone setting off on a journey. Before a flight: טיסה נעימה. A more traditional blessing is דרך צלחה."
+  },
+  {
+    "id": "va2n_matos",
+    "he": "מטוס",
+    "tr": "matós",
+    "en": "plane",
+    "enAlt": [
+      "airplane",
+      "aircraft",
+      "aeroplane"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מטוסים",
+    "root": "ט.ו.ס",
+    "level": "A2",
+    "topic": "transport",
+    "ex": {
+      "he": "המטוס היה מלא, ולא היה מקום לתיק שלי.",
+      "en": "The plane was full, and there was no room for my bag."
+    },
+    "note": "Same root as לטוס and טיסה. לעלות למטוס = to board the plane."
+  },
+  {
+    "id": "va2n_otobus",
+    "he": "אוטובוס",
+    "tr": "ótobus",
+    "en": "bus",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "אוטובוסים",
+    "level": "A1",
+    "topic": "transport",
+    "ex": {
+      "he": "האוטובוס לחיפה יוצא כל חצי שעה.",
+      "en": "The bus to Haifa leaves every half hour."
+    },
+    "note": "Stress on the first syllable: ótobus. A bus stop is תחנת אוטובוס; a shared minibus taxi is a מונית שירות."
+  },
+  {
+    "id": "va2n_rakevet_kala",
+    "he": "רכבת קלה",
+    "tr": "rakévet kalá",
+    "en": "light rail",
+    "enAlt": [
+      "tram",
+      "light railway"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "רכבות קלות",
+    "level": "A2",
+    "topic": "transport",
+    "ex": {
+      "he": "בתל אביב ובירושלים יש רכבת קלה.",
+      "en": "Tel Aviv and Jerusalem both have a light rail."
+    },
+    "note": "With 'the': הרכבת הקלה. You pay with a רב-קו card or a payment app, just as on the bus."
+  },
+  {
+    "id": "va2n_kav",
+    "he": "קו",
+    "tr": "kav",
+    "en": "line",
+    "enAlt": [
+      "bus line",
+      "route"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "קווים",
+    "level": "A2",
+    "topic": "transport",
+    "ex": {
+      "he": "איזה קו נוסע לתחנה המרכזית?",
+      "en": "Which line goes to the central bus station?"
+    },
+    "note": "Bus lines go by number: קו 5, but the Tel Aviv light rail lines go by colour: הקו האדום (the Red Line). Also a phone line: הקו תפוס = the line is busy. Plural: קווים."
+  },
+  {
+    "id": "va2n_retsif",
+    "he": "רציף",
+    "tr": "retsíf",
+    "en": "platform",
+    "enAlt": [
+      "pier",
+      "quay"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "רציפים",
+    "level": "A2",
+    "topic": "transport",
+    "ex": {
+      "he": "הרכבת לתל אביב יוצאת מרציף שתיים.",
+      "en": "The train to Tel Aviv leaves from platform two."
+    },
+    "note": "Platform numbers use the feminine counting form: רציף שתיים, רציף שלוש. Also a pier or quay in a port."
+  },
+  {
+    "id": "va2n_yetsia",
+    "he": "יציאה",
+    "tr": "yetsi'á",
+    "en": "exit",
+    "enAlt": [
+      "way out",
+      "departure"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "יציאות",
+    "root": "י.צ.א",
+    "level": "A2",
+    "topic": "transport",
+    "ex": {
+      "he": "סליחה, איפה היציאה לרחוב הרצל?",
+      "en": "Excuse me, where's the exit to Herzl Street?"
+    },
+    "note": "The opposite is כניסה (entrance). Also departure: שעת יציאה = departure time. Same root as לצאת (to go out)."
+  },
+  {
+    "id": "va2n_nahag",
+    "he": "נהג",
+    "tr": "nahág",
+    "en": "driver",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "נהגים",
+    "root": "נ.ה.ג",
+    "level": "A2",
+    "topic": "transport",
+    "ex": {
+      "he": "שאלתי את הנהג איפה לרדת.",
+      "en": "I asked the driver where to get off."
+    },
+    "note": "Feminine: נהגת. Same root as לנהוג (to drive) and נהיגה (driving). לרדת = to get off (a bus or train)."
+  },
+  {
+    "id": "va2n_khanyon",
+    "he": "חניון",
+    "tr": "khanyón",
+    "en": "car park",
+    "enAlt": [
+      "parking lot",
+      "parking garage"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "חניונים",
+    "root": "ח.נ.ה",
+    "level": "A2",
+    "topic": "transport",
+    "ex": {
+      "he": "החניון של הקניון חינם בשעתיים הראשונות.",
+      "en": "The mall car park is free for the first two hours."
+    },
+    "note": "A whole car park; a single parking space, or parking in general, is חנייה. Same root as לחנות (to park). On hiking routes, a חניון לילה is a basic overnight campsite."
+  },
+  {
+    "id": "va2n_rishyon_nehiga",
+    "he": "רישיון נהיגה",
+    "tr": "rishyón nehigá",
+    "en": "driving licence",
+    "enAlt": [
+      "driver's license",
+      "driving license"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "רישיונות נהיגה",
+    "level": "A2",
+    "topic": "transport",
+    "ex": {
+      "he": "בלי רישיון נהיגה אי אפשר לשכור רכב.",
+      "en": "Without a driving licence you can't rent a car."
+    },
+    "note": "With 'the': רישיון הנהיגה. Often just רישיון. Plural רישיונות. New immigrants convert a foreign licence (להמיר רישיון) at the licensing office, משרד הרישוי."
+  },
+  {
+    "id": "va2n_ofanayim",
+    "he": "אופניים",
+    "tr": "ofanáyim",
+    "en": "bicycle",
+    "enAlt": [
+      "bike",
+      "cycle"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "level": "A2",
+    "topic": "transport",
+    "ex": {
+      "he": "אני נוסעת לעבודה באופניים כל בוקר.",
+      "en": "I cycle to work every morning."
+    },
+    "note": "Always plural in form, like 'scissors': אופניים חדשים. אופניים חשמליים = an e-bike, very common in Israeli cities."
+  },
+  {
+    "id": "va2n_oniya",
+    "he": "אונייה",
+    "tr": "oniyá",
+    "en": "ship",
+    "enAlt": [
+      "boat",
+      "vessel"
+    ],
+    "alt": [
+      "אוניה"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "אוניות",
+    "level": "A2",
+    "topic": "transport",
+    "ex": {
+      "he": "לא טסנו לקפריסין, נסענו באונייה.",
+      "en": "We didn't fly to Cyprus; we went by ship."
+    },
+    "note": "A small boat is סירה; a cruise is שייט or קרוז. A port is נמל: Haifa and Ashdod are Israel's main ports."
+  },
+  {
+    "id": "va2n_khagorat_betikhut",
+    "he": "חגורת בטיחות",
+    "tr": "khagorát betikhút",
+    "en": "seat belt",
+    "enAlt": [
+      "safety belt",
+      "seatbelt"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "חגורות בטיחות",
+    "level": "A2",
+    "topic": "transport",
+    "ex": {
+      "he": "צריך לשים חגורת בטיחות גם במושב האחורי.",
+      "en": "You have to wear a seat belt in the back seat too."
+    },
+    "note": "לשים חגורה or לחגור חגורת בטיחות = to buckle up. בטיחות = safety, from the root of בטוח (safe)."
+  },
+  {
+    "id": "va2n_takhana_merkazit",
+    "he": "תחנה מרכזית",
+    "tr": "takhaná merkazít",
+    "en": "central bus station",
+    "enAlt": [
+      "bus station",
+      "bus terminal"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "תחנות מרכזיות",
+    "level": "A2",
+    "topic": "transport",
+    "ex": {
+      "he": "בעיר שלנו יש תחנה מרכזית קטנה ליד הקניון.",
+      "en": "Our town has a small central bus station next to the mall."
+    },
+    "note": "Usually said with 'the': התחנה המרכזית, often shortened to המרכזית. It's the main bus terminal, not a train station."
+  },
+  {
+    "id": "va2n_kemping",
+    "he": "קמפינג",
+    "tr": "kémping",
+    "en": "camping",
+    "enAlt": [
+      "campsite"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "level": "A2",
+    "topic": "leisure",
+    "ex": {
+      "he": "בקיץ אנחנו עושים קמפינג על חוף הכנרת.",
+      "en": "In summer we go camping on the shore of the Kinneret."
+    },
+    "note": "לעשות קמפינג or לצאת לקמפינג. The Kinneret beaches are the classic family camping spot, especially in חול המועד (the middle days of Passover and Sukkot)."
+  },
+  {
+    "id": "va2n_ohel",
+    "he": "אוהל",
+    "tr": "óhel",
+    "en": "tent",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "אוהלים",
+    "level": "A2",
+    "topic": "leisure",
+    "ex": {
+      "he": "האוהל שלנו קטן, אבל יש בו מקום לשלושה.",
+      "en": "Our tent is small, but there's room for three in it."
+    },
+    "note": "להקים אוהל = to put up a tent; לפרק אוהל = to take it down. A sleeping bag is שק שינה."
+  },
+  {
+    "id": "va2n_sak_shena",
+    "he": "שק שינה",
+    "tr": "sak shená",
+    "en": "sleeping bag",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "שקי שינה",
+    "level": "A2",
+    "topic": "leisure",
+    "ex": {
+      "he": "בלילה במדבר קר, אז כדאי להביא שק שינה חם.",
+      "en": "It's cold in the desert at night, so it's worth bringing a warm sleeping bag."
+    },
+    "note": "Lit. 'sack of sleep'. With 'the': שק השינה. Plural: שקי שינה."
+  },
+  {
+    "id": "va2n_nofesh",
+    "he": "נופש",
+    "tr": "nófesh",
+    "en": "holiday",
+    "enAlt": [
+      "vacation",
+      "getaway",
+      "resort holiday"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "root": "נ.פ.ש",
+    "level": "B1",
+    "topic": "leisure",
+    "ex": {
+      "he": "בפסח יצאנו לנופש של שלושה ימים באילת.",
+      "en": "At Passover we went on a three-day getaway in Eilat."
+    },
+    "note": "A relaxing holiday, often at a hotel; חופשה is time off work in general. כפר נופש = a holiday village or resort."
+  },
+  {
+    "id": "va2n_piknik",
+    "he": "פיקניק",
+    "tr": "píknik",
+    "en": "picnic",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "פיקניקים",
+    "level": "A2",
+    "topic": "leisure",
+    "ex": {
+      "he": "הבאנו שמיכה ופירות לפיקניק על הדשא.",
+      "en": "We brought a blanket and some fruit for a picnic on the grass."
+    },
+    "note": "לעשות פיקניק = to have a picnic. On holidays Israeli parks fill up with family picnics and barbecues (מנגל)."
+  },
+  {
+    "id": "va2n_gan_khayot",
+    "he": "גן חיות",
+    "tr": "gan khayót",
+    "en": "zoo",
+    "enAlt": [
+      "zoological garden"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "גני חיות",
+    "level": "A2",
+    "topic": "leisure",
+    "ex": {
+      "he": "ברמת גן יש גן חיות גדול שנקרא הספארי.",
+      "en": "In Ramat Gan there's a big zoo called the Safari."
+    },
+    "note": "Lit. 'garden of animals'. With 'the': גן החיות. The Biblical Zoo in Jerusalem (גן החיות התנ״כי) is another family favourite."
+  },
+  {
+    "id": "va2n_gan_leumi",
+    "he": "גן לאומי",
+    "tr": "gan le'umí",
+    "en": "national park",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "גנים לאומיים",
+    "level": "B1",
+    "topic": "leisure",
+    "ex": {
+      "he": "קיסריה היא גן לאומי עם עתיקות מהתקופה הרומית.",
+      "en": "Caesarea is a national park with antiquities from the Roman period."
+    },
+    "note": "Run by רשות הטבע והגנים. A גן לאומי usually protects history or landscape, a שמורת טבע protects wildlife and plants. עתיקות = antiquities."
+  },
+  {
+    "id": "va2n_matsil",
+    "he": "מציל",
+    "tr": "matsíl",
+    "en": "lifeguard",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מצילים",
+    "root": "נ.צ.ל",
+    "level": "B1",
+    "topic": "leisure",
+    "ex": {
+      "he": "המציל ביקש מכולם לצאת מהמים.",
+      "en": "The lifeguard asked everyone to get out of the water."
+    },
+    "note": "Feminine: מצילה. From להציל (to save, rescue). Swim only where there's a מציל; a black flag (דגל שחור) means no swimming."
+  },
+  {
+    "id": "va2n_shimshiya",
+    "he": "שמשייה",
+    "tr": "shimshiyá",
+    "en": "beach umbrella",
+    "enAlt": [
+      "parasol",
+      "sunshade"
+    ],
+    "alt": [
+      "שמשיה"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "שמשיות",
+    "level": "A2",
+    "topic": "leisure",
+    "ex": {
+      "he": "שכרנו שמשייה ושני כיסאות על החוף.",
+      "en": "We rented a beach umbrella and two chairs on the beach."
+    },
+    "note": "From שמש (sun). On many beaches you can rent a שמשייה and deckchairs (כיסאות נוח)."
+  },
+  {
+    "id": "va2n_matkot",
+    "he": "מטקות",
+    "tr": "matkót",
+    "en": "matkot (beach paddleball)",
+    "enAlt": [
+      "matkot",
+      "beach paddleball",
+      "paddleball",
+      "beach tennis"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "level": "A2",
+    "topic": "leisure",
+    "ex": {
+      "he": "בשבת בבוקר אנחנו משחקים מטקות על החוף.",
+      "en": "On Saturday mornings we play matkot on the beach."
+    },
+    "note": "Israel's unofficial beach sport: two players hit a small rubber ball back and forth with wooden paddles, trying to keep it in the air. One paddle is a מטקה."
+  },
+  {
+    "id": "va2n_krem_hagana",
+    "he": "קרם הגנה",
+    "tr": "krem haganá",
+    "en": "sunscreen",
+    "enAlt": [
+      "sun cream",
+      "sunblock"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "level": "A2",
+    "topic": "leisure",
+    "ex": {
+      "he": "אל תשכחי לשים קרם הגנה לפני שיוצאים לחוף.",
+      "en": "Don't forget to put on sunscreen before we head to the beach."
+    },
+    "note": "Lit. 'protection cream'. לשים or למרוח קרם הגנה = to put on sunscreen. The Israeli sun is strong even in spring."
+  },
+  {
+    "id": "va2n_halikha",
+    "he": "הליכה",
+    "tr": "halikhá",
+    "en": "walk",
+    "enAlt": [
+      "walking"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "הליכות",
+    "root": "ה.ל.כ",
+    "level": "A2",
+    "topic": "leisure",
+    "ex": {
+      "he": "בערב אנחנו עושים הליכה של שעה על הטיילת.",
+      "en": "In the evening we take an hour-long walk along the promenade."
+    },
+    "note": "לעשות הליכה = to go for a (fitness) walk. מרחק הליכה = walking distance. טיילת = a seaside promenade."
+  }
+]

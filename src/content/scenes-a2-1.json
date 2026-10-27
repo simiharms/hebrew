@@ -1,0 +1,381 @@
+[
+  {
+    "id": "s_a2_market_prices",
+    "level": "A2",
+    "title": "כמה עולות העגבניות?",
+    "titleEn": "How Much Are the Tomatoes?",
+    "genre": "street",
+    "synopsis": "Marina is buying vegetables at the shuk. Salim, the stall owner, has nothing but praise for everything he sells, but Marina keeps a close eye on the prices and has a plan for the final bill.",
+    "speakers": {
+      "A": { "name": "מרינה", "gender": "f" },
+      "B": { "name": "סלים", "gender": "m" }
+    },
+    "lines": [
+      { "s": "A", "he": "סליחה, כמה עולות העגבניות?", "en": "Excuse me, how much are the tomatoes?" },
+      { "s": "B", "he": "בוקר טוב! שמונה שקלים לקילו.", "en": "Good morning! Eight shekels a kilo." },
+      { "s": "A", "he": "שמונה? בשבוע שעבר הן עלו שישה שקלים.", "en": "Eight? Last week they were six shekels." },
+      { "s": "B", "he": "נכון, אבל השבוע היה חם מאוד, ויש פחות עגבניות.", "en": "True, but it was very hot this week, and there are fewer tomatoes." },
+      { "s": "A", "he": "טוב, אז שני קילו, בבקשה. וכמה מלפפונים יש בקילו?", "en": "OK, then two kilos, please. And how many cucumbers are there in a kilo?" },
+      { "s": "B", "he": "בערך עשרה. הם קטנים, אבל מאוד טעימים.", "en": "About ten. They're small, but very tasty." },
+      { "s": "A", "he": "אז חצי קילו מספיק. אנחנו רק שניים בבית.", "en": "Then half a kilo is enough. There are only two of us at home." },
+      { "s": "B", "he": "עוד משהו? המלונים היום מצוינים.", "en": "Anything else? The melons are excellent today." },
+      { "s": "A", "he": "איזה מלון יותר מתוק, הקטן או הגדול?", "en": "Which melon is sweeter, the small one or the big one?" },
+      { "s": "B", "he": "הקטן. הנה, תטעמי.", "en": "The small one. Here, have a taste." },
+      { "s": "A", "he": "נכון, ממש מתוק! אני לוקחת אותו. ואיזו חסה יותר טרייה?", "en": "You're right, really sweet! I'll take it. And which lettuce is fresher?" },
+      { "s": "B", "he": "שתיהן הגיעו הבוקר מהמושב. קחי את הגדולה.", "en": "Both of them came from the moshav this morning. Take the big one." },
+      { "s": "A", "he": "טוב. כמה זה הכול ביחד?", "en": "OK. How much is it all together?" },
+      { "s": "B", "he": "שלושים וחמישה שקלים.", "en": "Thirty-five shekels." },
+      { "s": "A", "he": "אולי שלושים? אני אבוא גם בשבוע הבא.", "en": "Maybe thirty? I'll come next week too." },
+      { "s": "B", "he": "טוב, בשבילך שלושים. אבל רק היום!", "en": "All right, for you, thirty. But only today!" }
+    ],
+    "questions": [
+      {
+        "q": "כמה עולות העגבניות היום, וכמה הן עלו בשבוע שעבר?",
+        "qEn": "How much do the tomatoes cost today, and how much did they cost last week?",
+        "answer": "היום שמונה שקלים לקילו, ובשבוע שעבר שישה שקלים.",
+        "answerEn": "Today eight shekels a kilo, and last week six shekels.",
+        "keywords": [["שמונה", "8"], ["שישה", "שש", "6"]]
+      },
+      {
+        "q": "למה העגבניות יותר יקרות השבוע?",
+        "qEn": "Why are the tomatoes more expensive this week?",
+        "answer": "כי השבוע היה חם מאוד, ויש פחות עגבניות.",
+        "answerEn": "Because it was very hot this week, and there are fewer tomatoes.",
+        "keywords": [["חם", "חום"], ["פחות", "מעט", "אין הרבה"]]
+      },
+      {
+        "q": "למה מרינה קונה רק חצי קילו מלפפונים?",
+        "qEn": "Why does Marina buy only half a kilo of cucumbers?",
+        "answer": "כי הם רק שניים בבית.",
+        "answerEn": "Because there are only two of them at home.",
+        "keywords": [["שניים", "שתיים", "שני"], ["בית", "בבית"]]
+      },
+      {
+        "q": "איזה מלון מרינה לוקחת, ולמה?",
+        "qEn": "Which melon does Marina take, and why?",
+        "answer": "את הקטן, כי הוא יותר מתוק.",
+        "answerEn": "The small one, because it's sweeter.",
+        "keywords": [["קטן"], ["מתוק"]]
+      },
+      {
+        "q": "כמה מרינה משלמת בסוף, ולמה סלים מסכים?",
+        "qEn": "How much does Marina pay in the end, and why does Salim agree?",
+        "answer": "שלושים שקלים, כי היא תבוא גם בשבוע הבא.",
+        "answerEn": "Thirty shekels, because she'll come back next week too.",
+        "keywords": [["שלושים", "30"], ["תבוא", "אבוא", "לבוא", "באה", "תחזור", "לחזור", "שבוע הבא"]]
+      }
+    ],
+    "tf": [
+      {
+        "s": "מרינה קונה שני קילו עגבניות.",
+        "sEn": "Marina buys two kilos of tomatoes.",
+        "a": true,
+        "why": "After she hears the price she says טוב, אז שני קילו, בבקשה."
+      },
+      {
+        "s": "בקילו יש בערך עשרים מלפפונים.",
+        "sEn": "There are about twenty cucumbers in a kilo.",
+        "a": false,
+        "why": "Salim says בערך עשרה, about ten, because the cucumbers are small."
+      },
+      {
+        "s": "החסה הגיעה מהמושב אתמול.",
+        "sEn": "The lettuce came from the moshav yesterday.",
+        "a": false,
+        "why": "Both lettuces came this morning: שתיהן הגיעו הבוקר מהמושב."
+      },
+      {
+        "s": "בסוף סלים מסכים לשלושים שקלים.",
+        "sEn": "In the end Salim agrees to thirty shekels.",
+        "a": true,
+        "why": "He asked for thirty-five, but he says בשבילך שלושים, only for today."
+      }
+    ],
+    "dictation": [2, 6, 8, 14],
+    "expressions": [
+      {
+        "he": "כמה עולות העגבניות?",
+        "en": "How much are the tomatoes?",
+        "note": "The verb עולה agrees with what you're buying: כמה עולה המלון? כמה עולה החסה? כמה עולים המלפפונים? In the past: עלה, עלתה, עלו."
+      },
+      {
+        "he": "שמונה שקלים לקילו",
+        "en": "eight shekels a kilo",
+        "note": "ל here means 'per': עשרה שקלים לקילו, חמישים שקלים לשעה. In the shuk you'll often hear the singular after a number, שמונה שקל; it's very common in speech."
+      },
+      {
+        "he": "איזה מלון? איזו חסה?",
+        "en": "Which melon? Which lettuce?",
+        "note": "איזה goes with a masculine noun, איזו with a feminine one. In careful Hebrew the plural is אילו: אילו עגבניות? In speech many people say איזה for everything."
+      },
+      {
+        "he": "כמה זה הכול ביחד?",
+        "en": "How much is it all together?",
+        "note": "The standard way to ask for the total at a stall or a shop."
+      },
+      {
+        "he": "תטעמי!",
+        "en": "Have a taste!",
+        "note": "The future used as a friendly instruction: תטעם to a man, תטעמי to a woman, תטעמו to a group. Sellers say it to get you to buy."
+      },
+      {
+        "he": "בשבילך",
+        "en": "for you",
+        "note": "The seller's 'special price': בשבילך, שלושים. To a man it's bishvilkhá, to a woman bishvilékh; the spelling is the same."
+      }
+    ]
+  },
+  {
+    "id": "s_a2_weather_tomorrow",
+    "level": "A2",
+    "title": "מה יהיה מחר?",
+    "titleEn": "What Will Tomorrow Be Like?",
+    "genre": "news",
+    "synopsis": "On a morning radio show, host Gilad asks the forecaster, Almaz, about the weather for tomorrow and the weekend. Gilad has plans of his own, and he wants to know if the weather will cooperate.",
+    "speakers": {
+      "A": { "name": "גלעד", "gender": "m" },
+      "B": { "name": "אלמז", "gender": "f" }
+    },
+    "lines": [
+      { "s": "A", "he": "השעה שבע ועשר, ועכשיו מזג האוויר. בוקר טוב, אלמז.", "en": "It's ten past seven, and now the weather. Good morning, Almaz." },
+      { "s": "B", "he": "בוקר טוב, גלעד, ובוקר טוב לכל המאזינים.", "en": "Good morning, Gilad, and good morning to all our listeners." },
+      { "s": "A", "he": "אז מה יהיה מחר? אני רוצה לנסוע מחר לים.", "en": "So what will tomorrow be like? I want to go to the beach tomorrow." },
+      { "s": "B", "he": "יש לך מזל. מחר יהיה יום חם, כמו בקיץ.", "en": "You're in luck. Tomorrow will be a hot day, like in summer." },
+      { "s": "A", "he": "כמה מעלות יהיו בתל אביב?", "en": "How many degrees will it be in Tel Aviv?" },
+      { "s": "B", "he": "שלושים מעלות. בירושלים יהיה פחות חם, עשרים וחמש.", "en": "Thirty degrees. In Jerusalem it will be less hot, twenty-five." },
+      { "s": "A", "he": "יופי. ומה עם סוף השבוע?", "en": "Great. And what about the weekend?" },
+      { "s": "B", "he": "ביום שישי הטמפרטורות ירדו, ותהיה רוח חזקה.", "en": "On Friday the temperatures will drop, and there will be a strong wind." },
+      { "s": "A", "he": "ובשבת? אני מתכנן טיול בצפון עם הילדים.", "en": "And on Saturday? I'm planning a trip up north with the kids." },
+      { "s": "B", "he": "אז כדאי לקחת מעילים. בשבת יהיה מעונן, ובצפון ירד גשם.", "en": "Then you'd better take coats. On Saturday it will be cloudy, and in the north it will rain." },
+      { "s": "A", "he": "גשם? כבר עכשיו?", "en": "Rain? Already?" },
+      { "s": "B", "he": "כן, זה יהיה הגשם הראשון של העונה. במרכז ובדרום לא ירד גשם.", "en": "Yes, it will be the first rain of the season. In the center and the south it won't rain." },
+      { "s": "A", "he": "ומה יהיה ביום ראשון?", "en": "And what will Sunday be like?" },
+      { "s": "B", "he": "ביום ראשון יהיה שוב נעים, בערך עשרים ושש מעלות.", "en": "On Sunday it will be pleasant again, about twenty-six degrees." },
+      { "s": "A", "he": "אז ניסע לצפון בשבוע הבא. תודה רבה, אלמז!", "en": "Then we'll go up north next week. Thanks a lot, Almaz!" },
+      { "s": "B", "he": "בשמחה. ומחר, תשתו הרבה מים ותיהנו מהשמש!", "en": "My pleasure. And tomorrow, drink plenty of water and enjoy the sun!" }
+    ],
+    "questions": [
+      {
+        "q": "לאן גלעד רוצה לנסוע מחר, ולמה זה רעיון טוב?",
+        "qEn": "Where does Gilad want to go tomorrow, and why is it a good idea?",
+        "answer": "לים, כי מחר יהיה יום חם, כמו בקיץ.",
+        "answerEn": "To the beach, because tomorrow will be a hot day, like in summer.",
+        "keywords": [["ים", "לים"], ["חם", "קיץ", "שלושים"]]
+      },
+      {
+        "q": "כמה מעלות יהיו מחר בתל אביב ובירושלים?",
+        "qEn": "How many degrees will it be tomorrow in Tel Aviv and in Jerusalem?",
+        "answer": "בתל אביב שלושים מעלות, ובירושלים עשרים וחמש.",
+        "answerEn": "Thirty degrees in Tel Aviv, and twenty-five in Jerusalem.",
+        "keywords": [["שלושים", "30"], ["עשרים וחמש", "עשרים וחמישה", "25"]]
+      },
+      {
+        "q": "מה יהיה ביום שישי?",
+        "qEn": "What will happen on Friday?",
+        "answer": "הטמפרטורות ירדו, ותהיה רוח חזקה.",
+        "answerEn": "The temperatures will drop, and there will be a strong wind.",
+        "keywords": [["ירדו", "ירד", "תרד", "יורדות", "קר", "קריר", "פחות חם"], ["רוח"]]
+      },
+      {
+        "q": "למה גלעד לא ייסע לצפון בשבת?",
+        "qEn": "Why won't Gilad go up north on Saturday?",
+        "answer": "כי בשבת ירד גשם בצפון.",
+        "answerEn": "Because on Saturday it will rain in the north.",
+        "keywords": [["גשם", "מעונן"]]
+      },
+      {
+        "q": "מתי גלעד ייסע לטיול בצפון?",
+        "qEn": "When will Gilad go on his trip up north?",
+        "answer": "בשבוע הבא.",
+        "answerEn": "Next week.",
+        "keywords": [["שבוע הבא", "שבוע אחר"]]
+      }
+    ],
+    "tf": [
+      {
+        "s": "מחר יהיה קר בתל אביב.",
+        "sEn": "Tomorrow it will be cold in Tel Aviv.",
+        "a": false,
+        "why": "Tomorrow will be hot, like summer: thirty degrees in Tel Aviv."
+      },
+      {
+        "s": "ביום שישי תהיה רוח חזקה.",
+        "sEn": "On Friday there will be a strong wind.",
+        "a": true,
+        "why": "Almaz says that on Friday the temperatures will drop and there will be a strong wind."
+      },
+      {
+        "s": "בשבת ירד גשם בכל הארץ.",
+        "sEn": "On Saturday it will rain all over the country.",
+        "a": false,
+        "why": "Only in the north: במרכז ובדרום לא ירד גשם."
+      },
+      {
+        "s": "ביום ראשון יהיה שוב נעים.",
+        "sEn": "On Sunday it will be pleasant again.",
+        "a": true,
+        "why": "Almaz says ביום ראשון יהיה שוב נעים, about twenty-six degrees."
+      }
+    ],
+    "dictation": [3, 7, 13],
+    "expressions": [
+      {
+        "he": "מה יהיה מחר?",
+        "en": "What will tomorrow be like?",
+        "note": "יהיה is the future of להיות for 'he / it'. With a feminine noun: תהיה רוח חזקה; with a plural: יהיו שלושים מעלות."
+      },
+      {
+        "he": "יש לך מזל",
+        "en": "You're in luck",
+        "note": "Literally 'you have luck'. The spelling is the same for a man (lekhá) and a woman (lakh). The opposite: אין לך מזל."
+      },
+      {
+        "he": "סוף השבוע",
+        "en": "the weekend",
+        "note": "In Israel the weekend is Friday and Saturday; Sunday, יום ראשון, is a working day. Often shortened to סופ״ש."
+      },
+      {
+        "he": "ירד גשם",
+        "en": "it will rain / it rained",
+        "note": "Literally 'rain will come down'. The spelling is the same in the past (yarád) and the future (yeréd), so the time word decides: אתמול ירד גשם, מחר ירד גשם."
+      },
+      {
+        "he": "כדאי לקחת מעילים",
+        "en": "You'd better take coats",
+        "note": "כדאי + infinitive gives friendly advice: כדאי לשתות מים. The negative: לא כדאי לנסוע היום."
+      },
+      {
+        "he": "תיהנו!",
+        "en": "Enjoy!",
+        "note": "The future used as a wish or instruction: תיהנה to a man, תיהני to a woman, תיהנו to a group. With מ: תיהנו מהשמש, תיהנו מהטיול."
+      }
+    ]
+  },
+  {
+    "id": "s_a2_cooking_class",
+    "level": "A2",
+    "title": "בשיעור בישול",
+    "titleEn": "At the Cooking Class",
+    "genre": "class",
+    "synopsis": "Orly teaches an evening cooking class. Tonight's dish is a classic, and her students Jonathan and Michal have plenty of questions as they follow her step by step.",
+    "speakers": {
+      "A": { "name": "אורלי", "gender": "f" },
+      "B": { "name": "ג׳ונתן", "gender": "m" },
+      "C": { "name": "מיכל", "gender": "f" }
+    },
+    "lines": [
+      { "s": "A", "he": "ערב טוב לכולם! היום נכין ביחד שקשוקה.", "en": "Good evening, everyone! Today we'll make shakshuka together." },
+      { "s": "A", "he": "קודם כל, קחו בצל אחד ופלפל אדום, ותחתכו אותם לקוביות קטנות.", "en": "First of all, take one onion and a red pepper, and cut them into small cubes." },
+      { "s": "B", "he": "ככה? הקוביות מספיק קטנות?", "en": "Like this? Are the cubes small enough?" },
+      { "s": "A", "he": "יפה מאוד, ג׳ונתן. אבל אל תחתוך כל כך מהר. תיזהר עם הסכין!", "en": "Very nice, Jonathan. But don't cut so fast. Careful with the knife!" },
+      { "s": "A", "he": "עכשיו שימו שמן במחבת, ותוסיפו את הבצל והפלפל.", "en": "Now put some oil in the pan, and add the onion and the pepper." },
+      { "s": "C", "he": "כמה שמן לשים?", "en": "How much oil should we put in?" },
+      { "s": "A", "he": "שתי כפות, זה מספיק. ואל תשכחו לערבב!", "en": "Two tablespoons, that's enough. And don't forget to stir!" },
+      { "s": "A", "he": "אחרי חמש דקות, תוסיפו עגבניות, מלח, פפריקה וקצת כמון.", "en": "After five minutes, add tomatoes, salt, paprika and a little cumin." },
+      { "s": "B", "he": "אפשר לשים גם שום? אני מאוד אוהב שום.", "en": "Can I put in garlic too? I really love garlic." },
+      { "s": "A", "he": "בטח. אבל אל תשים יותר משתי שיני שום.", "en": "Sure. But don't put in more than two cloves of garlic." },
+      { "s": "A", "he": "עכשיו תעשו ארבעה חורים ברוטב, ותשברו ביצה לתוך כל חור.", "en": "Now make four holes in the sauce, and crack an egg into each hole." },
+      { "s": "C", "he": "לערבב גם את הביצים?", "en": "Should we stir the eggs too?" },
+      { "s": "A", "he": "לא, לא! אל תערבבו אותן. רק תכסו את המחבת ותחכו.", "en": "No, no! Don't stir them. Just cover the pan and wait." },
+      { "s": "C", "he": "כמה זמן לחכות?", "en": "How long should we wait?" },
+      { "s": "A", "he": "בערך שבע דקות. ואל תפתחו את המכסה כל הזמן!", "en": "About seven minutes. And don't keep opening the lid!" },
+      { "s": "B", "he": "שבע דקות? אבל אני כבר רעב!", "en": "Seven minutes? But I'm already hungry!" }
+    ],
+    "questions": [
+      {
+        "q": "מה מכינים היום בשיעור?",
+        "qEn": "What are they making in class today?",
+        "answer": "הם מכינים שקשוקה.",
+        "answerEn": "They're making shakshuka.",
+        "keywords": [["שקשוקה"]]
+      },
+      {
+        "q": "מה צריך לחתוך בהתחלה?",
+        "qEn": "What do they need to cut at the start?",
+        "answer": "בצל ופלפל אדום, לקוביות קטנות.",
+        "answerEn": "An onion and a red pepper, into small cubes.",
+        "keywords": [["בצל"], ["פלפל"]]
+      },
+      {
+        "q": "למה אורלי אומרת לג׳ונתן להיזהר?",
+        "qEn": "Why does Orly tell Jonathan to be careful?",
+        "answer": "כי הוא חותך מהר מדי.",
+        "answerEn": "Because he's cutting too fast.",
+        "keywords": [["מהר"], ["חותך", "לחתוך", "חותכים", "תחתוך", "חתך"]]
+      },
+      {
+        "q": "כמה שום ג׳ונתן יכול לשים?",
+        "qEn": "How much garlic can Jonathan put in?",
+        "answer": "לא יותר משתי שיני שום.",
+        "answerEn": "No more than two cloves of garlic.",
+        "keywords": [["שתי", "שתיים", "2"], ["שיני", "שן", "שיניים"]]
+      },
+      {
+        "q": "מה צריך לעשות עם הביצים, ומה אסור לעשות?",
+        "qEn": "What do you need to do with the eggs, and what mustn't you do?",
+        "answer": "לשבור ביצה לתוך כל חור, ולא לערבב אותן.",
+        "answerEn": "Crack an egg into each hole, and not stir them.",
+        "keywords": [["לשבור", "תשברו", "שוברים", "חור", "חורים"], ["לערבב", "תערבבו", "מערבבים"]]
+      }
+    ],
+    "tf": [
+      {
+        "s": "בשקשוקה של אורלי יש בצל ופלפל אדום.",
+        "sEn": "Orly's shakshuka has onion and red pepper in it.",
+        "a": true,
+        "why": "The first step is to cut one onion and a red pepper into small cubes."
+      },
+      {
+        "s": "צריך לשים חמש כפות שמן.",
+        "sEn": "You need to put in five tablespoons of oil.",
+        "a": false,
+        "why": "Orly says שתי כפות, זה מספיק: two tablespoons. Five minutes is how long to wait before adding the tomatoes."
+      },
+      {
+        "s": "אורלי אומרת לערבב את הביצים.",
+        "sEn": "Orly says to stir the eggs.",
+        "a": false,
+        "why": "She says the opposite: אל תערבבו אותן, just cover the pan and wait."
+      },
+      {
+        "s": "צריך לחכות בערך שבע דקות.",
+        "sEn": "You need to wait about seven minutes.",
+        "a": true,
+        "why": "Orly says בערך שבע דקות, and not to keep opening the lid."
+      }
+    ],
+    "dictation": [4, 6, 14],
+    "expressions": [
+      {
+        "he": "קחו / תיקחו",
+        "en": "take (to a group)",
+        "note": "Two ways to give an instruction: the imperative קחו, שימו, and the future תיקחו, תשימו, תוסיפו. In everyday speech the future form is very common and sounds softer; the imperative sounds more direct, though short ones like קח, שים, בוא are heard all the time. Orly mixes both."
+      },
+      {
+        "he": "אל תחתוך כל כך מהר!",
+        "en": "Don't cut so fast!",
+        "note": "A negative command is always אל + future, never the imperative: אל תחתוך to a man, אל תחתכי to a woman, אל תחתכו to a group. With לא, the future is usually just a statement: לא תחתוך = you won't cut."
+      },
+      {
+        "he": "תיזהר!",
+        "en": "Be careful!",
+        "note": "To a woman: תיזהרי; to a group: תיזהרו. Use עם for something you are handling, תיזהר עם הסכין, and מ for something to keep away from, תיזהרי מהכלב."
+      },
+      {
+        "he": "אל תשכחו לערבב",
+        "en": "Don't forget to stir",
+        "note": "אל תשכח, אל תשכחי, אל תשכחו + infinitive: אל תשכחי להתקשר, אל תשכחו לקנות לחם."
+      },
+      {
+        "he": "כמה זמן לחכות?",
+        "en": "How long should we wait?",
+        "note": "A question word + infinitive asks what to do: כמה שמן לשים? מה לקנות? איפה לשבת?"
+      },
+      {
+        "he": "שיני שום",
+        "en": "cloves of garlic",
+        "note": "Literally 'teeth of garlic'. The word שן is feminine: שן שום אחת, שתי שיני שום."
+      }
+    ]
+  }
+]

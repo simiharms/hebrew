@@ -1,0 +1,715 @@
+[
+  {
+    "id": "s_b1p_team_retro",
+    "level": "B1+",
+    "title": "רטרו אחרי ההשקה",
+    "titleEn": "The Post-Launch Retro",
+    "genre": "meeting",
+    "synopsis": "A week after the new version of the team's app went live, team lead Michal runs a retrospective. Everyone has a say about what worked, what didn't, and what should change before the next release.",
+    "speakers": {
+      "A": { "name": "מיכל", "gender": "f" },
+      "B": { "name": "דמיטרי", "gender": "m" },
+      "C": { "name": "רנא", "gender": "f" },
+      "D": { "name": "יונתן", "gender": "m" }
+    },
+    "lines": [
+      {
+        "s": "A",
+        "he": "טוב, חברים, בואו נתחיל. זה הרטרו הראשון שלנו אחרי ההשקה של הגרסה החדשה.",
+        "en": "OK, everyone, let's get started. This is our first retro after the launch of the new version."
+      },
+      {
+        "s": "A",
+        "he": "כמו תמיד, נתחיל ממה שעבד טוב, ואחר כך נעבור למה שעבד פחות.",
+        "en": "As always, we'll start with what worked well, and then move on to what worked less well."
+      },
+      {
+        "s": "B",
+        "he": "אני אתחיל. קודם כול, עלינו לאוויר בזמן, וזה ממש לא מובן מאליו.",
+        "en": "I'll start. First of all, we went live on time, and that's really not something to take for granted."
+      },
+      {
+        "s": "C",
+        "he": "נכון. בנוסף, המשתמשים ממש אוהבים את החיפוש החדש. קיבלנו המון תגובות טובות.",
+        "en": "True. Also, users really love the new search. We've had loads of positive feedback."
+      },
+      {
+        "s": "D",
+        "he": "וגם העבודה עם צוות העיצוב הייתה הרבה יותר חלקה מאשר בפעם הקודמת.",
+        "en": "And the work with the design team went much more smoothly than last time."
+      },
+      {
+        "s": "A",
+        "he": "יופי. ועכשיו לחלק הפחות נעים: מה לא עבד?",
+        "en": "Great. And now for the less pleasant part: what didn't work?"
+      },
+      {
+        "s": "C",
+        "he": "אני אגיד את זה בעדינות: הבדיקות נעשו בלחץ. היו לנו רק יומיים לבדוק את כל המערכת.",
+        "en": "I'll put it gently: the testing was done under pressure. We only had two days to test the whole system."
+      },
+      {
+        "s": "C",
+        "he": "כתוצאה מכך, פספסנו באג בתשלומים באנדרואיד, והמשתמשים גילו אותו לפנינו.",
+        "en": "As a result, we missed a bug in payments on Android, and the users discovered it before we did."
+      },
+      {
+        "s": "B",
+        "he": "אבל זה לא היה באשמת הבודקים. האפיון השתנה שבועיים לפני ההשקה, ולכן הקוד הגיע לבדיקות באיחור.",
+        "en": "But that wasn't the testers' fault. The spec changed two weeks before the launch, so the code reached testing late."
+      },
+      {
+        "s": "D",
+        "he": "נכון, ואני לוקח את זה עליי. המנכ״ל ביקש שינוי, ואני הסכמתי בלי לבדוק איתכם כמה זמן זה ייקח.",
+        "en": "True, and I take responsibility for that. The CEO asked for a change, and I agreed without checking with you how long it would take."
+      },
+      {
+        "s": "A",
+        "he": "תודה על הכנות. אבל אנחנו לא מחפשים אשמים, אלא פתרונות.",
+        "en": "Thanks for your honesty. But we're not looking for someone to blame, we're looking for solutions."
+      },
+      {
+        "s": "B",
+        "he": "עוד דבר: בשבוע שלפני ההשקה עבדנו עד מאוחר כמעט כל ערב. אם זה יחזור על עצמו, אנשים פשוט יישחקו.",
+        "en": "One more thing: in the week before the launch we worked late almost every evening. If that happens again, people will simply burn out."
+      },
+      {
+        "s": "C",
+        "he": "וחוץ מזה, השיווק הודיע ללקוחות על פיצ׳ר שעוד לא היה מוכן. זה עשה לנו כאב ראש רציני.",
+        "en": "And on top of that, marketing told customers about a feature that wasn't ready yet. That gave us a serious headache."
+      },
+      {
+        "s": "A",
+        "he": "טוב, בואו נסכם מה עושים מכאן והלאה. מצד אחד, אנחנו לא יכולים להגיד לא לכל שינוי. מצד שני, חייבים כללים ברורים.",
+        "en": "OK, let's agree on what we do from here on. On the one hand, we can't say no to every change. On the other hand, we need clear rules."
+      },
+      {
+        "s": "D",
+        "he": "מה דעתכם על הקפאת קוד שבוע לפני כל השקה? מאותו רגע, כל שינוי רק באישור של כולם.",
+        "en": "What do you think about a code freeze a week before every launch? From that point on, any change only with everyone's approval."
+      },
+      {
+        "s": "B",
+        "he": "אני בעד, בתנאי שנכתוב גם בדיקות אוטומטיות לתשלומים, כדי שזה לא יקרה שוב.",
+        "en": "I'm in favour, on condition that we also write automated tests for payments, so that this doesn't happen again."
+      },
+      {
+        "s": "C",
+        "he": "ואני רוצה להוסיף משהו: אם היו לנו עוד שלושה ימים, היינו תופסים את הבאג בעצמנו. אז אני מבקשת לפחות חמישה ימי בדיקות.",
+        "en": "And I'd like to add something: if we'd had three more days, we would have caught the bug ourselves. So I'm asking for at least five days of testing."
+      },
+      {
+        "s": "A",
+        "he": "הוגן. ומי ידבר עם השיווק?",
+        "en": "Fair. And who's going to talk to marketing?"
+      },
+      {
+        "s": "D",
+        "he": "אני. מעכשיו, לפני כל הודעה ללקוחות, הם יבדקו איתי מה באמת מוכן.",
+        "en": "Me. From now on, before any announcement to customers, they'll check with me what's actually ready."
+      },
+      {
+        "s": "A",
+        "he": "מעולה. אז לסיכום: הקפאת קוד, בדיקות אוטומטיות, חמישה ימי בדיקות, ויונתן מול השיווק. ולמרות הכול, כל הכבוד לכולם.",
+        "en": "Excellent. So, to sum up: a code freeze, automated tests, five days of testing, and Yonatan as the contact with marketing. And despite everything, well done, everyone."
+      }
+    ],
+    "questions": [
+      {
+        "q": "אילו שני דברים טובים מזכירים רנא ויונתן?",
+        "qEn": "Which two good things do Rana and Yonatan mention?",
+        "answer": "המשתמשים אוהבים את החיפוש החדש, והעבודה עם צוות העיצוב הייתה חלקה יותר.",
+        "answerEn": "Users love the new search, and the work with the design team went more smoothly.",
+        "keywords": [
+          ["חיפוש"],
+          ["עיצוב", "מעצבים", "מעצבות"]
+        ]
+      },
+      {
+        "q": "איזו תקלה המשתמשים גילו לפני הצוות?",
+        "qEn": "What problem did the users discover before the team did?",
+        "answer": "באג בתשלומים באנדרואיד.",
+        "answerEn": "A bug in payments on Android.",
+        "keywords": [
+          ["באג", "תקלה", "בעיה"],
+          ["תשלומים", "תשלום", "לשלם"]
+        ]
+      },
+      {
+        "q": "לפי דמיטרי, למה הקוד הגיע לבדיקות באיחור?",
+        "qEn": "According to Dmitri, why did the code reach testing late?",
+        "answer": "כי האפיון השתנה שבועיים לפני ההשקה.",
+        "answerEn": "Because the spec changed two weeks before the launch.",
+        "keywords": [
+          ["אפיון", "השתנה", "שינוי", "שינה", "שינויים"],
+          ["שבועיים", "מאוחר", "לפני ההשקה"]
+        ]
+      },
+      {
+        "q": "מה היה קורה, לפי רנא, אם הבודקים היו מקבלים עוד שלושה ימים?",
+        "qEn": "According to Rana, what would have happened if the testers had had three more days?",
+        "answer": "הם היו תופסים את הבאג בעצמם.",
+        "answerEn": "They would have caught the bug themselves.",
+        "keywords": [
+          ["תופסים", "תופסות", "לתפוס", "תפסו", "תפסנו", "מוצאים", "מוצאות", "למצוא", "מצאו", "מגלים", "לגלות", "גילו"],
+          ["באג", "תקלה", "בעיה"]
+        ]
+      },
+      {
+        "q": "אילו שני כללים חדשים מציעים יונתן ודמיטרי?",
+        "qEn": "Which two new rules do Yonatan and Dmitri propose?",
+        "answer": "הקפאת קוד שבוע לפני כל השקה, ובדיקות אוטומטיות לתשלומים.",
+        "answerEn": "A code freeze a week before every launch, and automated tests for payments.",
+        "keywords": [
+          ["הקפאת", "הקפאה", "להקפיא", "מקפיאים"],
+          ["אוטומטיות", "אוטומטיים", "אוטומטית", "אוטומטי"]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "הגרסה החדשה עלתה לאוויר באיחור של שבוע.",
+        "sEn": "The new version went live a week late.",
+        "a": false,
+        "why": "Dmitri says עלינו לאוויר בזמן: they went live on time, and he counts that as a success."
+      },
+      {
+        "s": "רנא חושבת שלבודקים לא היה מספיק זמן.",
+        "sEn": "Rana thinks the testers didn't have enough time.",
+        "a": true,
+        "why": "She says the testing was done under pressure, with only two days, and she asks for at least five days next time."
+      },
+      {
+        "s": "יונתן אומר שהבאג הוא באשמת הבודקים.",
+        "sEn": "Yonatan says the bug is the testers' fault.",
+        "a": false,
+        "why": "The opposite: Dmitri defends the testers, and Yonatan takes responsibility himself (אני לוקח את זה עליי) for agreeing to a late change."
+      },
+      {
+        "s": "בשבוע שלפני ההשקה הצוות עבד עד מאוחר כמעט כל ערב.",
+        "sEn": "In the week before the launch, the team worked late almost every evening.",
+        "a": true,
+        "why": "Dmitri says בשבוע שלפני ההשקה עבדנו עד מאוחר כמעט כל ערב, and warns that people will burn out if it happens again."
+      }
+    ],
+    "dictation": [1, 10, 17],
+    "expressions": [
+      {
+        "he": "לעלות לאוויר",
+        "en": "to go live / to launch",
+        "note": "Literally 'to go up into the air'. Used for apps, websites and broadcasts: האתר עלה לאוויר אתמול."
+      },
+      {
+        "he": "לא מובן מאליו",
+        "en": "not to be taken for granted",
+        "note": "Common way to give credit at work: העזרה שלך ממש לא מובנת מאליה. The adjective agrees with the noun."
+      },
+      {
+        "he": "כתוצאה מכך",
+        "en": "as a result",
+        "note": "A slightly formal connector that introduces a consequence. In casual speech people also say בגלל זה."
+      },
+      {
+        "he": "אני לוקח את זה עליי",
+        "en": "I take responsibility for that",
+        "note": "From לקחת על עצמו. A woman says אני לוקחת את זה עליי."
+      },
+      {
+        "he": "לא... אלא...",
+        "en": "not... but rather...",
+        "note": "Corrects a wrong idea and gives the right one: לא אשמים, אלא פתרונות. When the second part replaces the first, use אלא, not אבל."
+      },
+      {
+        "he": "מצד אחד... מצד שני...",
+        "en": "on the one hand... on the other hand...",
+        "note": "The classic way to weigh two sides of an issue in a meeting, an essay or an email."
+      }
+    ]
+  },
+  {
+    "id": "s_b1p_radio_call_in",
+    "level": "B1+",
+    "title": "שיחות מאזינים: עבודה מבית קפה",
+    "titleEn": "Listeners' Calls: Working from Cafés",
+    "genre": "interview",
+    "synopsis": "On a morning radio show, host Uri opens the phone lines on one question: is a café a good place to work? Three callers with very different points of view share their experience.",
+    "speakers": {
+      "A": { "name": "אורי", "gender": "m" },
+      "B": { "name": "ליאת", "gender": "f" },
+      "C": { "name": "סאמר", "gender": "m" },
+      "D": { "name": "אולגה", "gender": "f" }
+    },
+    "lines": [
+      {
+        "s": "A",
+        "he": "בוקר טוב לכולם, כאן אורי, ואתם מאזינים לתוכנית הבוקר. היום אנחנו מדברים על משהו שכולם מכירים: עבודה מבתי קפה.",
+        "en": "Good morning, everyone. This is Uri, and you're listening to the morning show. Today we're talking about something everyone knows: working from cafés."
+      },
+      {
+        "s": "A",
+        "he": "הקווים פתוחים, ויש לנו כבר מאזינה ראשונה על הקו. ליאת, בוקר טוב, את באוויר.",
+        "en": "The lines are open, and we already have our first listener on the line. Liat, good morning, you're on the air."
+      },
+      {
+        "s": "B",
+        "he": "בוקר טוב, אורי. אני מעצבת גרפית עצמאית, ואני עובדת מבתי קפה כבר חמש שנים.",
+        "en": "Good morning, Uri. I'm a freelance graphic designer, and I've been working from cafés for five years now."
+      },
+      {
+        "s": "A",
+        "he": "חמש שנים? ולא נמאס לך?",
+        "en": "Five years? And you're not sick of it?"
+      },
+      {
+        "s": "B",
+        "he": "ממש לא. בבית אני מרגישה לבד. בבית קפה, לעומת זאת, יש אנרגיה, יש אנשים, ודווקא זה עוזר לי להתרכז.",
+        "en": "Not at all. At home I feel lonely. In a café, on the other hand, there's energy, there are people, and, surprisingly, that's what helps me concentrate."
+      },
+      {
+        "s": "A",
+        "he": "אבל זה לא יוצא יקר? קפה, מאפה, עוד קפה...",
+        "en": "But doesn't it end up expensive? A coffee, a pastry, another coffee..."
+      },
+      {
+        "s": "B",
+        "he": "יוצא לי בערך חמישים שקל ביום, וזה עדיין הרבה יותר זול משכירות של משרד.",
+        "en": "It comes to about fifty shekels a day for me, and that's still much cheaper than renting an office."
+      },
+      {
+        "s": "A",
+        "he": "נשמע הגיוני. תודה, ליאת. ועכשיו, מהצד השני של הדלפק: סאמר, בעל בית קפה בחיפה. שלום, סאמר.",
+        "en": "Makes sense. Thanks, Liat. And now, from the other side of the counter: Samer, who owns a café in Haifa. Hello, Samer."
+      },
+      {
+        "s": "C",
+        "he": "שלום, אורי. אני רוצה להגיד משהו שאולי לא כולם ירצו לשמוע.",
+        "en": "Hello, Uri. I want to say something that maybe not everyone will want to hear."
+      },
+      {
+        "s": "A",
+        "he": "בשביל זה אנחנו פה. קדימה.",
+        "en": "That's what we're here for. Go ahead."
+      },
+      {
+        "s": "C",
+        "he": "יש אנשים שמזמינים קפה אחד, יושבים ארבע שעות ותופסים שולחן לארבעה. בשעות הצהריים, זה פשוט הפסד בשבילי.",
+        "en": "There are people who order one coffee, sit for four hours and take up a table for four. At lunchtime, that's simply a loss for me."
+      },
+      {
+        "s": "A",
+        "he": "ומה אתה עושה? מבקש מהם ללכת?",
+        "en": "So what do you do? Ask them to leave?"
+      },
+      {
+        "s": "C",
+        "he": "חס וחלילה. אבל מהחודש שעבר, בין שתים עשרה לשתיים אין מחשבים ניידים. ובשאר השעות, מי שצריך שקע יושב ליד הבר.",
+        "en": "God forbid. But since last month, there have been no laptops between twelve and two. And the rest of the time, anyone who needs a socket sits at the bar."
+      },
+      {
+        "s": "C",
+        "he": "ודווקא רוב הלקוחות הקבועים מבינים את זה. בסוף, אם אני אסגור, לא יהיה להם איפה לעבוד.",
+        "en": "And actually, most of the regulars understand. At the end of the day, if I close down, they won't have anywhere to work."
+      },
+      {
+        "s": "A",
+        "he": "נקודה חשובה. יש לנו עוד מאזינה על הקו: אולגה, מפתחת תוכנה מרחובות. אולגה, את איתנו?",
+        "en": "An important point. We have another listener on the line: Olga, a software developer from Rehovot. Olga, are you with us?"
+      },
+      {
+        "s": "D",
+        "he": "כן, שלום. ניסיתי לעבוד מבית קפה, ולא החזקתי מעמד יותר משבוע.",
+        "en": "Yes, hello. I tried working from a café, and I didn't last more than a week."
+      },
+      {
+        "s": "A",
+        "he": "באמת? מה הפריע לך?",
+        "en": "Really? What bothered you?"
+      },
+      {
+        "s": "D",
+        "he": "קודם כול, הרעש. חוץ מזה, יש לי הרבה שיחות עם לקוחות, ואני לא רוצה שהאנשים בשולחן ליד ישמעו כל מילה. זה עניין של פרטיות, וגם של אבטחת מידע.",
+        "en": "First of all, the noise. Besides, I have a lot of calls with clients, and I don't want the people at the next table to hear every word. It's a matter of privacy, and of information security too."
+      },
+      {
+        "s": "A",
+        "he": "אז איפה את עובדת היום?",
+        "en": "So where do you work now?"
+      },
+      {
+        "s": "D",
+        "he": "בחלל עבודה משותף. זה עולה יותר, אבל כשיש לי שיחה חשובה, אני נכנסת לחדר שקט וסוגרת את הדלת.",
+        "en": "In a co-working space. It costs more, but when I have an important call, I go into a quiet room and close the door."
+      },
+      {
+        "s": "A",
+        "he": "שלוש שיחות, שלוש נקודות מבט. ואתם, איפה אתם הכי פרודוקטיביים? הקווים פתוחים, ונחזור אחרי הפרסומות.",
+        "en": "Three calls, three points of view. And you, where are you most productive? The lines are open, and we'll be back after the commercials."
+      }
+    ],
+    "questions": [
+      {
+        "q": "למה ליאת אוהבת לעבוד מבית קפה?",
+        "qEn": "Why does Liat like working from a café?",
+        "answer": "כי בבית היא מרגישה לבד, ובבית קפה יש אנרגיה ואנשים, וזה עוזר לה להתרכז.",
+        "answerEn": "Because at home she feels lonely, while in a café there's energy and people, and that helps her concentrate.",
+        "keywords": [
+          ["לבד", "בודדה"],
+          ["אנרגיה", "אנשים", "להתרכז", "מתרכזת", "ריכוז"]
+        ]
+      },
+      {
+        "q": "כמה ליאת מוציאה ביום, ולמה זה משתלם לה?",
+        "qEn": "How much does Liat spend a day, and why is it worth it for her?",
+        "answer": "בערך חמישים שקל ביום, וזה הרבה יותר זול משכירות של משרד.",
+        "answerEn": "About fifty shekels a day, and that's much cheaper than renting an office.",
+        "keywords": [
+          ["חמישים", "50"],
+          ["משרד", "שכירות", "זול"]
+        ]
+      },
+      {
+        "q": "מה מפריע לסאמר אצל חלק מהלקוחות?",
+        "qEn": "What bothers Samer about some of his customers?",
+        "answer": "שהם מזמינים קפה אחד, יושבים ארבע שעות ותופסים שולחן לארבעה.",
+        "answerEn": "That they order one coffee, sit for four hours and take up a table for four.",
+        "keywords": [
+          ["שעות", "ארבע"],
+          ["שולחן", "מקום"]
+        ]
+      },
+      {
+        "q": "איזה כלל חדש יש בבית הקפה של סאמר?",
+        "qEn": "What new rule is there in Samer's café?",
+        "answer": "בין שתים עשרה לשתיים אין מחשבים ניידים.",
+        "answerEn": "No laptops between twelve and two.",
+        "keywords": [
+          ["מחשבים", "מחשב", "לפטופ", "לפטופים", "ניידים"],
+          ["שתים עשרה", "שתיים", "צהריים", "12"]
+        ]
+      },
+      {
+        "q": "למה אולגה הפסיקה לעבוד מבית קפה, ואיפה היא עובדת היום?",
+        "qEn": "Why did Olga stop working from a café, and where does she work now?",
+        "answer": "בגלל הרעש והפרטיות. היום היא עובדת בחלל עבודה משותף.",
+        "answerEn": "Because of the noise and privacy. Now she works in a co-working space.",
+        "keywords": [
+          ["רעש", "רועש"],
+          ["פרטיות", "אבטחת מידע", "ישמעו", "שומעים", "שיחות"],
+          ["משותף", "חלל"]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "לליאת כבר נמאס לעבוד מבתי קפה.",
+        "sEn": "Liat is already fed up with working from cafés.",
+        "a": false,
+        "why": "When Uri asks ולא נמאס לך?, she answers ממש לא, 'not at all': after five years she still prefers cafés, because the energy helps her concentrate."
+      },
+      {
+        "s": "לפי סאמר, רוב הלקוחות הקבועים כועסים על הכלל החדש.",
+        "sEn": "According to Samer, most of the regulars are angry about the new rule.",
+        "a": false,
+        "why": "He says the opposite: רוב הלקוחות הקבועים מבינים את זה, most regulars understand it."
+      },
+      {
+        "s": "אולגה עבדה מבית קפה כמה חודשים לפני שהפסיקה.",
+        "sEn": "Olga worked from a café for a few months before she stopped.",
+        "a": false,
+        "why": "She says לא החזקתי מעמד יותר משבוע: she didn't last more than a week."
+      },
+      {
+        "s": "חלל העבודה המשותף עולה לאולגה יותר מבית קפה.",
+        "sEn": "The co-working space costs Olga more than a café.",
+        "a": true,
+        "why": "She says זה עולה יותר, but it gives her a quiet room with a door for important calls."
+      }
+    ],
+    "dictation": [8, 15, 18],
+    "expressions": [
+      {
+        "he": "את באוויר",
+        "en": "you're on the air",
+        "note": "Radio phrase. To a man: אתה באוויר. Related: על הקו, on the line."
+      },
+      {
+        "he": "נמאס לי",
+        "en": "I'm fed up / I'm sick of it",
+        "note": "Impersonal: the person goes with ל, and the thing you're sick of with מ: נמאס לי מהרעש. ולא נמאס לך? means 'and you're not sick of it?'"
+      },
+      {
+        "he": "לעומת זאת",
+        "en": "on the other hand / by contrast",
+        "note": "Contrasts two facts. Often placed after the first words of the second sentence: בבית קפה, לעומת זאת, יש אנרגיה."
+      },
+      {
+        "he": "חס וחלילה",
+        "en": "God forbid / certainly not",
+        "note": "An emphatic 'no way' in everyday speech; it does not sound religious."
+      },
+      {
+        "he": "להחזיק מעמד",
+        "en": "to last / to hold out",
+        "note": "לא החזקתי מעמד יותר משבוע = I didn't last more than a week. Also of things: הסוללה לא מחזיקה מעמד."
+      },
+      {
+        "he": "זה עניין של...",
+        "en": "it's a matter of...",
+        "note": "Names the real issue behind a choice: זה עניין של פרטיות. Also: זה רק עניין של זמן, it's only a matter of time."
+      }
+    ]
+  },
+  {
+    "id": "s_b2_tv_debate_transport",
+    "level": "B2",
+    "title": "אופניים או חנייה?",
+    "titleEn": "Bikes or Parking?",
+    "genre": "interview",
+    "synopsis": "In a TV studio debate, the moderator hosts an urban transport researcher and the head of a city-centre business owners' association. The question on the table: should street space in the city centre go to bike lanes or stay as parking?",
+    "speakers": {
+      "A": { "name": "מירב", "gender": "f" },
+      "B": { "name": "יוליה", "gender": "f" },
+      "C": { "name": "חאלד", "gender": "m" }
+    },
+    "lines": [
+      {
+        "s": "A",
+        "he": "ערב טוב, וברוכים הבאים לאולפן. הערב אנחנו דנים בשאלה שמעסיקה עיריות רבות: למי שייך הרחוב במרכז העיר, לרוכבי האופניים או לנהגים?",
+        "en": "Good evening, and welcome to the studio. Tonight we're discussing a question that occupies many municipalities: who does the street in the city centre belong to, cyclists or drivers?"
+      },
+      {
+        "s": "A",
+        "he": "איתנו באולפן ד״ר יוליה גורדון, חוקרת תחבורה עירונית, וחאלד מנסור, יו״ר איגוד בעלי העסקים במרכז העיר. ערב טוב לשניכם.",
+        "en": "With us in the studio are Dr. Yulia Gordon, an urban transport researcher, and Khaled Mansour, chair of the city-centre business owners' association. Good evening to you both."
+      },
+      {
+        "s": "C",
+        "he": "ערב טוב, ותודה על ההזמנה.",
+        "en": "Good evening, and thank you for having me."
+      },
+      {
+        "s": "A",
+        "he": "ד״ר גורדון, נתחיל איתך. בערים רבות בעולם, וגם בארץ, הוחלט לבטל מקומות חנייה לטובת שבילי אופניים. למה זה נכון, לדעתך?",
+        "en": "Dr. Gordon, let's start with you. In many cities around the world, and in Israel too, it has been decided to remove parking spaces in favour of bike lanes. Why is that right, in your view?"
+      },
+      {
+        "s": "B",
+        "he": "קודם כול, כי שטח ברחוב הוא משאב מוגבל. מקום חנייה אחד תופס יותר מעשרה מטרים רבועים, ורוב שעות היממה המכונית פשוט עומדת בו.",
+        "en": "First of all, because street space is a limited resource. A single parking space takes up more than ten square metres, and for most hours of the day the car simply stands in it."
+      },
+      {
+        "s": "B",
+        "he": "כשהשטח הזה הופך לשביל אופניים, עוברים בו הרבה יותר אנשים. ומחקרים מראים שכאשר נבנים שבילים בטוחים ורציפים, יותר אנשים מוותרים על הרכב, לפחות בנסיעות קצרות.",
+        "en": "When that space becomes a bike lane, many more people pass through it. And studies show that when safe, continuous lanes are built, more people give up the car, at least for short trips."
+      },
+      {
+        "s": "A",
+        "he": "חאלד מנסור, אתה מחייך, ואני מניחה שאתה רואה את זה אחרת.",
+        "en": "Khaled Mansour, you're smiling, and I assume you see it differently."
+      },
+      {
+        "s": "C",
+        "he": "אני מסכים עם חלק מהדברים. אף אחד לא נגד אופניים. אבל בואו נדבר על המציאות: הלקוחות שלנו מגיעים מכל האזור, לא רק מהשכונה.",
+        "en": "I agree with some of what was said. Nobody is against bicycles. But let's talk about reality: our customers come from the whole region, not just from the neighbourhood."
+      },
+      {
+        "s": "C",
+        "he": "מאז שבוטלו החניות ברחוב הראשי, חלק מהחברים באיגוד מדווחים על ירידה של עשרים אחוז בפדיון.",
+        "en": "Since the parking on the main street was removed, some of the association's members have been reporting a twenty percent drop in turnover."
+      },
+      {
+        "s": "A",
+        "he": "ד״ר גורדון, עשרים אחוז זה לא מעט. איך את מגיבה?",
+        "en": "Dr. Gordon, twenty percent is no small matter. How do you respond?"
+      },
+      {
+        "s": "B",
+        "he": "אני לא מזלזלת בזה. אבל חשוב להבחין בין תחושה לבין נתונים. מחקרים מצאו שסוחרים נוטים להפריז בהערכת מספר הלקוחות שמגיעים ברכב.",
+        "en": "I'm not dismissing that. But it's important to distinguish between perception and data. Studies have found that shopkeepers tend to overestimate the number of customers who come by car."
+      },
+      {
+        "s": "B",
+        "he": "ועוד נמצא שהולכי רגל ורוכבי אופניים מגיעים לחנויות לעיתים קרובות יותר, כך שבסך הכול הם מוציאים לא פחות, ולפעמים אף יותר.",
+        "en": "It was also found that pedestrians and cyclists come to the shops more often, so that overall they spend no less, and sometimes even more."
+      },
+      {
+        "s": "C",
+        "he": "יכול להיות שזה נכון בהולנד. אצלנו חם רוב השנה, ואישה בת שבעים לא תרכב על אופניים כדי לקנות משקפיים.",
+        "en": "That may be true in the Netherlands. Here it's hot most of the year, and a seventy-year-old woman isn't going to ride a bike to buy glasses."
+      },
+      {
+        "s": "A",
+        "he": "זו טענה ששומעים הרבה: האקלים, הגיל, הנגישות. ד״ר גורדון?",
+        "en": "That's an argument we hear a lot: the climate, age, accessibility. Dr. Gordon?"
+      },
+      {
+        "s": "B",
+        "he": "זו טענה לגיטימית, ולכן אף אחד לא מציע לבטל את כל החניות. ההצעה היא להשאיר חניות נכים וחניות לפריקה וטעינה, ולהעביר את שאר הרכבים לחניונים בשולי המרכז.",
+        "en": "It's a legitimate argument, which is why nobody is proposing to remove all the parking. The proposal is to keep disabled parking and loading bays, and to move the rest of the cars to car parks on the edge of the centre."
+      },
+      {
+        "s": "B",
+        "he": "ובנוסף, אופניים חשמליים כבר פותרים חלק מבעיית החום והעליות.",
+        "en": "And besides, electric bikes are already solving part of the problem of the heat and the hills."
+      },
+      {
+        "s": "C",
+        "he": "חניונים בשולי המרכז זה רעיון יפה על הנייר. בפועל, הם עדיין לא נבנו, ובינתיים הלקוחות עוברים לקניונים מחוץ לעיר.",
+        "en": "Car parks on the edge of the centre are a nice idea on paper. In practice, they haven't been built yet, and in the meantime customers are moving to the malls outside town."
+      },
+      {
+        "s": "A",
+        "he": "כלומר, הבעיה מבחינתך היא לא העיקרון, אלא סדר הפעולות?",
+        "en": "In other words, as far as you're concerned, the problem isn't the principle but the order of the steps?"
+      },
+      {
+        "s": "C",
+        "he": "בדיוק. קודם צריך לבנות חניונים ולהגביר את תדירות התחבורה הציבורית, ורק אחר כך לצמצם את החניות ברחוב.",
+        "en": "Exactly. First you need to build car parks and increase the frequency of public transport, and only after that reduce street parking."
+      },
+      {
+        "s": "B",
+        "he": "על זה אני דווקא מוכנה להסכים. מעבר הדרגתי, שמלווה במדידה שוטפת של התנועה ושל הפדיון, הוא הדרך הנכונה.",
+        "en": "On that I'm actually willing to agree. A gradual transition, accompanied by ongoing measurement of traffic and turnover, is the right way to go."
+      },
+      {
+        "s": "A",
+        "he": "נשמע שיש כאן נקודת הסכמה. אז מה הייתם ממליצים לראש העיר לעשות כבר מחר בבוקר? חאלד?",
+        "en": "It sounds like there's a point of agreement here. So what would you recommend the mayor do first thing tomorrow morning? Khaled?"
+      },
+      {
+        "s": "C",
+        "he": "לשבת עם בעלי העסקים לפני כל החלטה, ולא אחריה. אנחנו לא נגד התוכנית, אנחנו רוצים להיות שותפים בה.",
+        "en": "To sit down with the business owners before every decision, not after it. We're not against the plan, we want to be partners in it."
+      },
+      {
+        "s": "B",
+        "he": "ואני הייתי ממליצה לפרסם את הנתונים לציבור, באופן שקוף, כל שלושה חודשים. כך הוויכוח יתבסס על עובדות, ולא על תחושות.",
+        "en": "And I would recommend publishing the data to the public, transparently, every three months. That way the debate will be based on facts, not on feelings."
+      },
+      {
+        "s": "A",
+        "he": "שקיפות ושיתוף הציבור. ייתכן שאלה הדברים הקשים ביותר בתכנון עירוני. ד״ר יוליה גורדון, חאלד מנסור, תודה רבה לשניכם.",
+        "en": "Transparency and public participation. Those may well be the hardest things in urban planning. Dr. Yulia Gordon, Khaled Mansour, thank you both very much."
+      },
+      {
+        "s": "A",
+        "he": "ואתם, הצופים בבית, מוזמנים לכתוב לנו מה דעתכם. נתראה בשבוע הבא.",
+        "en": "And you, the viewers at home, are welcome to write and tell us what you think. See you next week."
+      }
+    ],
+    "questions": [
+      {
+        "q": "מה הטענה הראשונה של ד״ר גורדון בעד שבילי אופניים?",
+        "qEn": "What is Dr. Gordon's first argument for bike lanes?",
+        "answer": "שהשטח ברחוב הוא משאב מוגבל: מקום חנייה תופס הרבה שטח, והמכונית עומדת בו רוב היום.",
+        "answerEn": "That street space is a limited resource: a parking space takes up a lot of room, and the car stands in it most of the day.",
+        "keywords": [
+          ["משאב", "מוגבל"],
+          ["תופס", "תופסת", "שטח", "מקום", "מטרים", "עומדת"]
+        ]
+      },
+      {
+        "q": "לפי חאלד, מה קרה לחלק מהעסקים מאז שבוטלו החניות ברחוב הראשי?",
+        "qEn": "According to Khaled, what has happened to some of the businesses since the parking on the main street was removed?",
+        "answer": "הם מדווחים על ירידה של עשרים אחוז בפדיון.",
+        "answerEn": "They report a twenty percent drop in turnover.",
+        "keywords": [
+          ["ירידה", "ירד", "ירדה", "ירדו"],
+          ["עשרים", "20"],
+          ["פדיון", "הכנסות", "מכירות"]
+        ]
+      },
+      {
+        "q": "לפי ד״ר גורדון, במה סוחרים נוטים לטעות?",
+        "qEn": "According to Dr. Gordon, what do shopkeepers tend to get wrong?",
+        "answer": "הם מפריזים בהערכת מספר הלקוחות שמגיעים ברכב.",
+        "answerEn": "They overestimate the number of customers who come by car.",
+        "keywords": [
+          ["מפריזים", "להפריז", "מעריכים", "הערכת", "חושבים"],
+          ["רכב", "מכונית", "מכוניות"]
+        ]
+      },
+      {
+        "q": "אילו חניות ד״ר גורדון מציעה להשאיר, ומה יקרה לשאר הרכבים?",
+        "qEn": "Which parking spaces does Dr. Gordon propose to keep, and what will happen to the rest of the cars?",
+        "answer": "חניות נכים וחניות לפריקה וטעינה. שאר הרכבים יעברו לחניונים בשולי המרכז.",
+        "answerEn": "Disabled parking and loading bays. The rest of the cars will move to car parks on the edge of the centre.",
+        "keywords": [
+          ["נכים", "נכה"],
+          ["פריקה", "טעינה"],
+          ["חניונים", "חניון"]
+        ]
+      },
+      {
+        "q": "על מה שני האורחים מסכימים בסוף?",
+        "qEn": "What do the two guests agree on in the end?",
+        "answer": "על מעבר הדרגתי: קודם לבנות חניונים ולשפר את התחבורה הציבורית, ורק אחר כך לצמצם חניות.",
+        "answerEn": "On a gradual transition: first build car parks and improve public transport, and only then reduce parking.",
+        "keywords": [
+          ["הדרגתי", "בהדרגה", "קודם"],
+          ["חניונים", "חניון", "תחבורה"]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "חאלד מנסור מתנגד לשבילי אופניים באופן עקרוני.",
+        "sEn": "Khaled Mansour is opposed to bike lanes in principle.",
+        "a": false,
+        "why": "He says אף אחד לא נגד אופניים, and agrees that his problem is not the principle but the order of the steps."
+      },
+      {
+        "s": "ד״ר גורדון מציעה לבטל את כל מקומות החנייה במרכז העיר.",
+        "sEn": "Dr. Gordon proposes removing all the parking spaces in the city centre.",
+        "a": false,
+        "why": "She says nobody is proposing that: disabled parking and loading bays should stay, and the other cars should move to car parks on the edge of the centre."
+      },
+      {
+        "s": "לפי חאלד, החניונים בשולי המרכז עדיין לא נבנו.",
+        "sEn": "According to Khaled, the car parks on the edge of the centre haven't been built yet.",
+        "a": true,
+        "why": "He says the car parks are a nice idea on paper, but בפועל, הם עדיין לא נבנו."
+      },
+      {
+        "s": "ד״ר גורדון ממליצה לפרסם את הנתונים לציבור כל שלושה חודשים.",
+        "sEn": "Dr. Gordon recommends publishing the data to the public every three months.",
+        "a": true,
+        "why": "Her recommendation for the mayor is to publish the data transparently every three months, so the debate rests on facts."
+      }
+    ],
+    "dictation": [6, 9, 17],
+    "expressions": [
+      {
+        "he": "לטובת",
+        "en": "in favour of / to make room for / for the benefit of",
+        "note": "ביטול חניות לטובת שבילי אופניים = removing parking in favour of bike lanes. Also: לטובת הלקוחות, for the customers' benefit."
+      },
+      {
+        "he": "הוחלט ל...",
+        "en": "it was decided to...",
+        "note": "Impersonal hufal passive with no named subject. Very common in news and official announcements: הוחלט לסגור את הרחוב."
+      },
+      {
+        "he": "להבחין בין... לבין...",
+        "en": "to distinguish between... and...",
+        "note": "Formal and precise. Both בין... לבין... and בין... ל... are correct; לבין is especially common in formal speech and with longer phrases: להבחין בין עובדות לבין דעות."
+      },
+      {
+        "he": "להפריז בהערכת...",
+        "en": "to overestimate...",
+        "note": "Formal register: להפריז = to exaggerate, הערכה = estimate. The opposite: להמעיט בהערכת, to underestimate."
+      },
+      {
+        "he": "על הנייר... בפועל...",
+        "en": "on paper... in practice...",
+        "note": "A useful pair for any debate: the plan looks good on paper, but in practice something is missing."
+      },
+      {
+        "he": "סדר הפעולות",
+        "en": "the order of the steps / the sequence",
+        "note": "Lets a speaker accept the goal but argue about timing: הבעיה היא לא העיקרון, אלא סדר הפעולות."
+      }
+    ]
+  }
+]

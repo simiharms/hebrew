@@ -1,0 +1,1950 @@
+[
+  {
+    "id": "r_b1_work_from_home",
+    "level": "B1",
+    "title": "בבית או במשרד? עובדים מספרים",
+    "titleEn": "Home or office? Employees have their say",
+    "topic": "work",
+    "kind": "article",
+    "paragraphs": [
+      {
+        "he": "בשנים האחרונות יותר ויותר חברות בישראל עובדות במודל היברידי: חלק מהשבוע במשרד וחלק מהבית. שאלנו כמה עובדים מתחומים שונים מה הם מעדיפים, והתברר שאין תשובה אחת.",
+        "en": "In recent years more and more companies in Israel have been working in a hybrid model: part of the week at the office and part from home. We asked several employees from different fields what they prefer, and it turned out there is no single answer."
+      },
+      {
+        "he": "נועה שגיא, מעצבת גרפית מחיפה, עובדת מהבית ארבעה ימים בשבוע. \"בגלל שאני לא צריכה לנסוע כל בוקר לתל אביב, אני חוסכת כמעט שלוש שעות ביום\", היא מסבירה. \"בזמן הזה אני הולכת לחדר כושר או מבשלת ארוחת ערב לילדים. אני פשוט מאושרת יותר.\"",
+        "en": "Noa Sagi, a graphic designer from Haifa, works from home four days a week. \"Because I don't have to travel to Tel Aviv every morning, I save almost three hours a day,\" she explains. \"In that time I go to the gym or cook dinner for the kids. I'm simply happier.\""
+      },
+      {
+        "he": "לעומת זאת, עומר כהן, מתכנת בחברת הייטק בתל אביב, דווקא מעדיף להגיע למשרד. \"בבית אני לבד כל היום, ובערב אני מרגיש שלא דיברתי עם אף אחד\", הוא אומר. \"במשרד אני לומד הרבה מהאנשים שיושבים לידי. בנוסף, יש לנו ארוחת צהריים משותפת, וזה החלק האהוב עליי ביום.\"",
+        "en": "On the other hand, Omer Cohen, a programmer at a high-tech company in Tel Aviv, actually prefers to come in to the office. \"At home I'm alone all day, and in the evening I feel I haven't talked to anyone,\" he says. \"At the office I learn a lot from the people who sit next to me. Besides, we have a shared lunch, and that's my favourite part of the day.\""
+      },
+      {
+        "he": "גם המנהלים מתלבטים. מיכל אברהם, מנהלת צוות בחברת ביטוח, מספרת שבהתחלה היה לה קשה לסמוך על עובדים שהיא לא רואה. \"היום אני יודעת שהם עובדים טוב גם מהבית\", היא אומרת, \"אבל את הישיבות החשובות עדיף לעשות פנים מול פנים.\"",
+        "en": "Managers are torn too. Michal Avraham, a team manager at an insurance company, says that at first it was hard for her to trust employees she couldn't see. \"Today I know they work well from home too,\" she says, \"but the important meetings are better held face to face.\""
+      },
+      {
+        "he": "נראה שהמודל ההיברידי יישאר איתנו גם בשנים הבאות. למרות שלא כולם מרוצים ממנו, כמעט כל העובדים שדיברנו איתם אמרו דבר דומה: הם רוצים לבחור בעצמם איפה לעבוד בכל יום.",
+        "en": "It seems the hybrid model will stay with us in the coming years too. Although not everyone is happy with it, almost all the employees we spoke to said something similar: they want to choose for themselves where to work each day."
+      }
+    ],
+    "glossary": [
+      {
+        "he": "מודל היברידי",
+        "en": "hybrid model (part office, part home)",
+        "tr": "módel hibrídi"
+      },
+      {
+        "he": "תחום",
+        "en": "field, area",
+        "tr": "tkhum"
+      },
+      {
+        "he": "להתברר",
+        "en": "to turn out, become clear",
+        "tr": "lehitbarér"
+      },
+      {
+        "he": "לחסוך",
+        "en": "to save (time, money)",
+        "tr": "lakhsókh"
+      },
+      {
+        "he": "חדר כושר",
+        "en": "gym",
+        "tr": "khadár kósher"
+      },
+      {
+        "he": "מתכנת",
+        "en": "programmer",
+        "tr": "metakhnét"
+      },
+      {
+        "he": "דווקא",
+        "en": "actually, rather (contrary to what you'd expect)",
+        "tr": "dávka"
+      },
+      {
+        "he": "משותף",
+        "en": "shared, joint",
+        "tr": "meshutáf"
+      },
+      {
+        "he": "להתלבט",
+        "en": "to be torn, weigh up options",
+        "tr": "lehitlabét"
+      },
+      {
+        "he": "לסמוך על",
+        "en": "to trust, rely on",
+        "tr": "lismókh al"
+      },
+      {
+        "he": "פנים מול פנים",
+        "en": "face to face",
+        "tr": "paním mul paním"
+      },
+      {
+        "he": "מרוצה",
+        "en": "satisfied, happy (with)",
+        "tr": "merutsé"
+      }
+    ],
+    "questions": [
+      {
+        "q": "כמה זמן נועה חוסכת בגלל העבודה מהבית, ולמה?",
+        "qEn": "How much time does Noa save by working from home, and why?",
+        "answer": "כמעט שלוש שעות ביום, כי היא לא צריכה לנסוע לתל אביב.",
+        "answerEn": "Almost three hours a day, because she doesn't have to travel to Tel Aviv.",
+        "keywords": [
+          [
+            "שעות",
+            "שעה"
+          ],
+          [
+            "לנסוע",
+            "נוסעת",
+            "נסיעה",
+            "נסיעות"
+          ]
+        ]
+      },
+      {
+        "q": "למה עומר מעדיף לעבוד במשרד? כתבו סיבה אחת.",
+        "qEn": "Why does Omer prefer to work at the office? Give one reason.",
+        "answer": "כי בבית הוא לבד, ובמשרד הוא לומד מהאנשים שיושבים לידו.",
+        "answerEn": "Because at home he's alone, and at the office he learns from the people who sit next to him.",
+        "keywords": [
+          [
+            "לבד",
+            "בודד",
+            "אנשים",
+            "לומד",
+            "ללמוד",
+            "לדבר",
+            "מדבר",
+            "ארוחה",
+            "צהריים"
+          ]
+        ]
+      },
+      {
+        "q": "מה היה קשה למיכל בהתחלה?",
+        "qEn": "What was hard for Michal at first?",
+        "answer": "היה לה קשה לסמוך על עובדים שהיא לא רואה.",
+        "answerEn": "It was hard for her to trust employees she couldn't see.",
+        "keywords": [
+          [
+            "לסמוך",
+            "סומכת",
+            "סמכה",
+            "אמון"
+          ],
+          [
+            "רואה",
+            "לראות",
+            "ראתה",
+            "רואים",
+            "בית"
+          ]
+        ]
+      },
+      {
+        "q": "מה הכוונה בביטוי \"פנים מול פנים\" בפסקה הרביעית?",
+        "qEn": "What does the expression \"face to face\" mean in the fourth paragraph?",
+        "answer": "שכולם נפגשים יחד באותו מקום, ולא דרך המחשב.",
+        "answerEn": "That everyone meets together in the same place, not through the computer.",
+        "keywords": [
+          [
+            "נפגשים",
+            "להיפגש",
+            "נפגש",
+            "פגישה",
+            "יחד",
+            "מקום",
+            "משרד"
+          ]
+        ]
+      },
+      {
+        "q": "מה כמעט כל העובדים אמרו בסוף הכתבה?",
+        "qEn": "What did almost all the employees say at the end of the article?",
+        "answer": "שהם רוצים לבחור בעצמם איפה לעבוד.",
+        "answerEn": "That they want to choose for themselves where to work.",
+        "keywords": [
+          [
+            "לבחור",
+            "בוחרים",
+            "בחירה",
+            "להחליט",
+            "מחליטים"
+          ],
+          [
+            "איפה",
+            "מקום",
+            "היכן"
+          ]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "נועה שגיא עובדת במשרד בתל אביב ארבעה ימים בשבוע.",
+        "sEn": "Noa Sagi works at an office in Tel Aviv four days a week.",
+        "a": false,
+        "why": "She works from home four days a week, so she does not have to travel to Tel Aviv every morning."
+      },
+      {
+        "s": "נועה משתמשת בזמן שהיא חוסכת כדי לעשות ספורט או לבשל לילדים.",
+        "sEn": "Noa uses the time she saves to exercise or to cook for the kids.",
+        "a": true,
+        "why": "She says that in that time she goes to the gym or cooks dinner for the kids."
+      },
+      {
+        "s": "עומר מעדיף לעבוד מהבית, כי שם אף אחד לא מפריע לו.",
+        "sEn": "Omer prefers to work from home, because nobody disturbs him there.",
+        "a": false,
+        "why": "Omer actually prefers to come in to the office: at home he is alone all day, and at the office he learns from the people sitting next to him."
+      },
+      {
+        "s": "מיכל חושבת שגם היום עדיף לעשות את הישיבות החשובות פנים מול פנים.",
+        "sEn": "Michal thinks that even today it is better to hold the important meetings face to face.",
+        "a": true,
+        "why": "She now knows her employees work well from home, but says the important meetings are better held face to face."
+      }
+    ],
+    "find": [
+      {
+        "en": "it turned out, it became clear",
+        "answer": [
+          "התברר"
+        ]
+      },
+      {
+        "en": "on the other hand",
+        "answer": [
+          "לעומת זאת"
+        ]
+      },
+      {
+        "en": "(they) are torn, can't decide",
+        "answer": [
+          "מתלבטים"
+        ]
+      },
+      {
+        "en": "(by) themselves, for themselves",
+        "answer": [
+          "בעצמם"
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "בשנים האחרונות חברות רבות בישראל עובדות במודל ___: חלק מהשבוע במשרד וחלק מהבית.",
+        "en": "In recent years many companies in Israel have been working in a hybrid model: part of the week at the office and part from home.",
+        "answer": [
+          "היברידי"
+        ],
+        "hint": "hybrid"
+      },
+      {
+        "prompt": "נועה עובדת מהבית, ולכן היא ___ כמעט שלוש שעות ביום.",
+        "en": "Noa works from home, so she saves almost three hours a day.",
+        "answer": [
+          "חוסכת"
+        ],
+        "hint": "saves (לחסוך, present, she)"
+      },
+      {
+        "prompt": "עומר מעדיף להגיע למשרד, כי בבית הוא ___ כל היום.",
+        "en": "Omer prefers to come in to the office, because at home he is alone all day.",
+        "answer": [
+          "לבד",
+          "בודד"
+        ],
+        "hint": "alone"
+      },
+      {
+        "prompt": "בהתחלה היה למיכל קשה ___ על עובדים שהיא לא רואה.",
+        "en": "At first it was hard for Michal to trust employees she could not see.",
+        "answer": [
+          "לסמוך"
+        ],
+        "hint": "to trust, rely (infinitive)"
+      },
+      {
+        "prompt": "כמעט כל העובדים רוצים ___ בעצמם איפה לעבוד בכל יום.",
+        "en": "Almost all the employees want to choose for themselves where to work each day.",
+        "answer": [
+          "לבחור",
+          "להחליט"
+        ],
+        "hint": "to choose (infinitive)"
+      }
+    ],
+    "writing": {
+      "prompt": "מה עדיף לדעתכם: לעבוד מהבית או מהמשרד? כתבו את דעתכם והסבירו למה.",
+      "promptEn": "What do you think is better: working from home or from the office? Write your opinion and explain why.",
+      "minWords": 60,
+      "useWords": [
+        "לדעתי",
+        "בגלל ש",
+        "לעומת זאת",
+        "בנוסף",
+        "לכן"
+      ],
+      "checklist": [
+        {
+          "en": "Say which option you prefer (לדעתי / נראה לי)",
+          "keywords": [
+            "לדעתי",
+            "נראה לי"
+          ]
+        },
+        {
+          "en": "Give a reason with בגלל ש or כי",
+          "keywords": [
+            "בגלל",
+            "כי"
+          ]
+        },
+        {
+          "en": "Mention a downside with לעומת זאת or למרות ש",
+          "keywords": [
+            "לעומת",
+            "למרות"
+          ]
+        }
+      ],
+      "model": "לדעתי הכי טוב לעבוד במודל היברידי. בשנה שעברה עבדתי רק מהבית, ובהתחלה זה היה נוח מאוד, בגלל שלא היה צריך לנסוע כל בוקר. אבל אחרי כמה חודשים היה לי קשה להיות לבד כל היום. לעומת זאת, במשרד תמיד יש עם מי לדבר, וקל יותר לשאול שאלות ולפתור בעיות יחד. למרות שהנסיעה לוקחת זמן, הפגישות עם הצוות שוות את זה. לכן נראה לי שיומיים או שלושה במשרד בכל שבוע זה האיזון הכי טוב.",
+      "modelEn": "In my opinion it's best to work in a hybrid model. Last year I worked only from home, and at first it was very convenient, because there was no need to commute every morning. But after a few months it was hard for me to be alone all day. At the office, on the other hand, there's always someone to talk to, and it's easier to ask questions and solve problems together. Even though the commute takes time, meeting the team is worth it. So it seems to me that two or three days at the office every week is the best balance."
+    }
+  },
+  {
+    "id": "r_b1_dugri",
+    "level": "B1",
+    "title": "דוגרי: למה ישראלים אומרים הכול ישר?",
+    "titleEn": "Dugri: why do Israelis say everything straight out?",
+    "topic": "culture",
+    "kind": "article",
+    "paragraphs": [
+      {
+        "he": "מי שמתחיל לעבוד בישראל לומד מהר מאוד מילה חשובה: \"דוגרי\". המילה הגיעה לעברית מערבית, ופירושה \"ישר\". לדבר דוגרי זה להגיד בדיוק מה שחושבים, בלי סיבובים ובלי מילים מיותרות.",
+        "en": "Anyone who starts working in Israel learns an important word very quickly: \"dugri\". The word came into Hebrew from Arabic, and it means \"straight\". Speaking dugri means saying exactly what you think, without beating around the bush and without unnecessary words."
+      },
+      {
+        "he": "מרקו, מהנדס מאיטליה שעובד בחברת טכנולוגיה בפתח תקווה, זוכר היטב את השבוע הראשון שלו. \"הצגתי רעיון בישיבה, ומנהל הצוות אמר לי מול כולם שזה לא יעבוד\", הוא מספר. \"הייתי בהלם. באיטליה אף אחד לא היה מדבר ככה בישיבה.\"",
+        "en": "Marco, an engineer from Italy who works at a tech company in Petah Tikva, remembers his first week well. \"I presented an idea at a meeting, and the team manager told me in front of everyone that it wouldn't work,\" he says. \"I was in shock. In Italy nobody would talk like that in a meeting.\""
+      },
+      {
+        "he": "אבל בשביל ישראלים רבים, דוגרי הוא לא חוסר נימוס. רונית, מנהלת משאבי אנוש באותה חברה, מסבירה: \"אצלנו ביקורת היא לא עניין אישי. אם אני אומרת לעובד שהרעיון שלו לא טוב, זה בגלל שאני רוצה שנחסוך זמן ונמצא יחד פתרון טוב יותר.\"",
+        "en": "But for many Israelis, dugri isn't rudeness. Ronit, the HR manager at the same company, explains: \"For us, criticism isn't personal. If I tell an employee that his idea isn't good, it's because I want us to save time and find a better solution together.\""
+      },
+      {
+        "he": "למרות שבהתחלה היה לו קשה, היום, אחרי שנתיים בארץ, מרקו כבר רגיל לסגנון הזה, ולפעמים הוא אפילו נהנה ממנו. \"אני תמיד יודע איפה אני עומד\", הוא אומר. לעומת זאת, עובדים חדשים שמגיעים מתרבויות שבהן נהוג לבקר בעדינות, נפגעים לפעמים מהמשפטים הקצרים והישירים.",
+        "en": "Although it was hard for him at first, today, after two years in the country, Marco is used to this style, and sometimes he even enjoys it. \"I always know where I stand,\" he says. On the other hand, new employees who come from cultures where it's customary to criticize gently are sometimes hurt by the short, direct sentences."
+      },
+      {
+        "he": "אז מה עושים? יועצים ארגוניים ממליצים לשני הצדדים לדבר על זה בגלוי. ישראלים יכולים להוסיף מילה טובה לפני הביקורת. בנוסף, עובדים מחו״ל יכולים לזכור שבדרך כלל אין כאן כוונה רעה, רק רצון להגיע לתוצאה.",
+        "en": "So what can be done? Organizational consultants recommend that both sides talk about it openly. Israelis can add a kind word before the criticism. In addition, employees from abroad can remember that usually there's no bad intention here, just a wish to get results."
+      }
+    ],
+    "glossary": [
+      {
+        "he": "דוגרי",
+        "en": "direct, straight talk (from Arabic)",
+        "tr": "dúgri"
+      },
+      {
+        "he": "בלי סיבובים",
+        "en": "without beating around the bush",
+        "tr": "bli sibuvím"
+      },
+      {
+        "he": "מיותר",
+        "en": "unnecessary",
+        "tr": "meyutár"
+      },
+      {
+        "he": "להיות בהלם",
+        "en": "to be in shock",
+        "tr": "lihyót behélem"
+      },
+      {
+        "he": "חוסר נימוס",
+        "en": "rudeness, lack of manners",
+        "tr": "khóser nimús"
+      },
+      {
+        "he": "משאבי אנוש",
+        "en": "human resources (HR)",
+        "tr": "mash'abéi enósh"
+      },
+      {
+        "he": "ביקורת",
+        "en": "criticism",
+        "tr": "bikóret"
+      },
+      {
+        "he": "נהוג",
+        "en": "customary, usual",
+        "tr": "nahúg"
+      },
+      {
+        "he": "להיפגע",
+        "en": "to be hurt, offended",
+        "tr": "lehipagá"
+      },
+      {
+        "he": "בגלוי",
+        "en": "openly",
+        "tr": "bagalúi"
+      },
+      {
+        "he": "כוונה",
+        "en": "intention",
+        "tr": "kavaná"
+      },
+      {
+        "he": "חו״ל",
+        "en": "abroad",
+        "tr": "khul"
+      }
+    ],
+    "questions": [
+      {
+        "q": "מה פירוש המילה \"דוגרי\", ומאיזו שפה היא הגיעה?",
+        "qEn": "What does the word \"dugri\" mean, and which language did it come from?",
+        "answer": "פירושה \"ישר\", והיא הגיעה מערבית.",
+        "answerEn": "It means \"straight\", and it came from Arabic.",
+        "keywords": [
+          [
+            "ישר",
+            "ישירה",
+            "ישיר",
+            "ישירות"
+          ],
+          [
+            "ערבית"
+          ]
+        ]
+      },
+      {
+        "q": "למה מרקו היה בהלם בשבוע הראשון?",
+        "qEn": "Why was Marco in shock in his first week?",
+        "answer": "כי מנהל הצוות אמר לו מול כולם שהרעיון שלו לא יעבוד.",
+        "answerEn": "Because the team manager told him in front of everyone that his idea wouldn't work.",
+        "keywords": [
+          [
+            "מנהל",
+            "בוס"
+          ],
+          [
+            "כולם",
+            "ישיבה",
+            "אנשים"
+          ],
+          [
+            "רעיון",
+            "יעבוד"
+          ]
+        ]
+      },
+      {
+        "q": "לפי רונית, למה ישראלים נותנים ביקורת ישירה?",
+        "qEn": "According to Ronit, why do Israelis give direct criticism?",
+        "answer": "כי הם רוצים לחסוך זמן ולמצוא פתרון טוב יותר.",
+        "answerEn": "Because they want to save time and find a better solution.",
+        "keywords": [
+          [
+            "לחסוך",
+            "חוסכים",
+            "נחסוך",
+            "חיסכון",
+            "זמן"
+          ],
+          [
+            "פתרון",
+            "פתרונות",
+            "לפתור"
+          ]
+        ]
+      },
+      {
+        "q": "מה הכוונה במשפט של מרקו \"אני תמיד יודע איפה אני עומד\"?",
+        "qEn": "What does Marco mean by \"I always know where I stand\"?",
+        "answer": "שהוא תמיד יודע מה אחרים חושבים עליו ועל העבודה שלו.",
+        "answerEn": "That he always knows what others think of him and of his work.",
+        "keywords": [
+          [
+            "חושבים",
+            "חושב",
+            "דעה",
+            "דעתם",
+            "מרגישים"
+          ]
+        ]
+      },
+      {
+        "q": "מה היועצים ממליצים לישראלים לעשות?",
+        "qEn": "What do the consultants recommend Israelis do?",
+        "answer": "להוסיף מילה טובה לפני הביקורת.",
+        "answerEn": "To add a kind word before the criticism.",
+        "keywords": [
+          [
+            "טובה",
+            "טוב",
+            "מחמאה",
+            "נחמדה",
+            "חיובי"
+          ],
+          [
+            "ביקורת",
+            "לבקר",
+            "מבקרים"
+          ]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "מנהל הצוות אמר למרקו בשיחה פרטית שהרעיון שלו לא יעבוד.",
+        "sEn": "The team manager told Marco in a private conversation that his idea would not work.",
+        "a": false,
+        "why": "He said it at a meeting, in front of everyone. That is why Marco was in shock."
+      },
+      {
+        "s": "לפי רונית, ביקורת על רעיון של עובד היא לא עניין אישי.",
+        "sEn": "According to Ronit, criticism of an employee's idea is not personal.",
+        "a": true,
+        "why": "Ronit says criticism is not personal: she wants to save time and find a better solution together."
+      },
+      {
+        "s": "גם היום, אחרי שנתיים בארץ, מרקו עדיין לא התרגל לסגנון הדוגרי.",
+        "sEn": "Even today, after two years in Israel, Marco still hasn't got used to the dugri style.",
+        "a": false,
+        "why": "It was hard only at first. Today he is used to the style and sometimes even enjoys it."
+      },
+      {
+        "s": "היועצים ממליצים ששני הצדדים ידברו על הנושא בגלוי.",
+        "sEn": "The consultants recommend that both sides talk about the issue openly.",
+        "a": true,
+        "why": "Organizational consultants recommend that both sides talk about it openly: Israelis can add a kind word, and employees from abroad can remember there is usually no bad intention."
+      }
+    ],
+    "find": [
+      {
+        "en": "in front of everyone",
+        "answer": [
+          "מול כולם"
+        ]
+      },
+      {
+        "en": "I was in shock",
+        "answer": [
+          "הייתי בהלם"
+        ]
+      },
+      {
+        "en": "gently",
+        "answer": [
+          "בעדינות"
+        ]
+      },
+      {
+        "en": "both sides",
+        "answer": [
+          "שני הצדדים"
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "לדבר דוגרי זה להגיד ___ מה שחושבים, בלי סיבובים.",
+        "en": "Speaking dugri means saying exactly what you think, without beating around the bush.",
+        "answer": [
+          "בדיוק"
+        ],
+        "hint": "exactly"
+      },
+      {
+        "prompt": "בשבוע הראשון שלו מרקו היה ___, כי המנהל אמר מול כולם שהרעיון שלו לא יעבוד.",
+        "en": "In his first week Marco was in shock, because the manager said in front of everyone that his idea would not work.",
+        "answer": [
+          "בהלם",
+          "המום"
+        ],
+        "hint": "in shock"
+      },
+      {
+        "prompt": "לפי רונית, ביקורת היא לא עניין ___: המטרה היא לחסוך זמן ולמצוא פתרון טוב יותר.",
+        "en": "According to Ronit, criticism is not a personal matter: the aim is to save time and find a better solution.",
+        "answer": [
+          "אישי"
+        ],
+        "hint": "personal"
+      },
+      {
+        "prompt": "היום מרקו כבר ___ לסגנון הזה, ולפעמים הוא אפילו נהנה ממנו.",
+        "en": "Today Marco is already used to this style, and sometimes he even enjoys it.",
+        "answer": [
+          "רגיל",
+          "התרגל"
+        ],
+        "hint": "used to (adjective, he)"
+      },
+      {
+        "prompt": "עובדים מחו״ל יכולים לזכור שבדרך כלל אין כאן ___ רעה, רק רצון להגיע לתוצאה.",
+        "en": "Employees from abroad can remember that usually there is no bad intention here, just a wish to get results.",
+        "answer": [
+          "כוונה"
+        ],
+        "hint": "intention"
+      }
+    ],
+    "writing": {
+      "prompt": "האם הסגנון הדוגרי מתאים למקום עבודה? כתבו את דעתכם ותנו דוגמה מהניסיון או מהתרבות שלכם.",
+      "promptEn": "Does the dugri style suit a workplace? Write your opinion and give an example from your own experience or culture.",
+      "minWords": 60,
+      "useWords": [
+        "לדעתי",
+        "ביקורת",
+        "ישיר",
+        "לעומת זאת",
+        "לכן"
+      ],
+      "checklist": [
+        {
+          "en": "Give your opinion (לדעתי / נראה לי)",
+          "keywords": [
+            "לדעתי",
+            "נראה לי"
+          ]
+        },
+        {
+          "en": "Give an example (למשל / לדוגמה)",
+          "keywords": [
+            "למשל",
+            "לדוגמה"
+          ]
+        },
+        {
+          "en": "Use a contrast (לעומת זאת / אבל / למרות ש)",
+          "keywords": [
+            "לעומת",
+            "אבל",
+            "למרות"
+          ]
+        }
+      ],
+      "model": "לדעתי דוגרי הוא סגנון טוב לעבודה, אבל רק כשמדברים בכבוד. בתרבות שלי נהוג לבקר בעדינות. לעומת זאת, בישראל אומרים הכול ישר, ולכן בהתחלה היה לי קשה לשמוע ביקורת ישירה. למשל, בחודש הראשון בעבודה החדשה קיבלתי מהמנהלת הערה חדה על מצגת שהכנתי, ונפגעתי. רק אחרי שיחה איתה הבנתי שהיא בכלל לא כעסה עליי, היא רק רצתה שהמצגת תהיה טובה יותר. היום ברור לי שביקורת ישירה חוסכת הרבה זמן. חשוב רק להוסיף גם מילה טובה.",
+      "modelEn": "In my opinion dugri is a good style for work, but only when people speak respectfully. In my culture it's customary to criticize gently. In Israel, on the other hand, people say everything straight out, so at first it was hard for me to hear direct criticism. For example, in my first month at my new job I got a sharp comment from my manager about a presentation I had prepared, and I was hurt. Only after talking with her did I realise that she wasn't angry with me at all; she just wanted the presentation to be better. Today it's clear to me that direct criticism saves a lot of time. It's just important to add a kind word too."
+    }
+  },
+  {
+    "id": "r_b1_renting_apartment",
+    "level": "B1",
+    "title": "שוכרים דירה? מה חשוב לבדוק לפני שחותמים",
+    "titleEn": "Renting an apartment? What to check before you sign",
+    "topic": "housing",
+    "kind": "article",
+    "paragraphs": [
+      {
+        "he": "למצוא דירה להשכרה בישראל זה לא דבר פשוט, במיוחד בערים הגדולות. אחרי שמצאתם דירה מתאימה ודיברתם עם בעל הדירה, מגיע השלב החשוב ביותר: חוזה השכירות. הנה כמה דברים שכדאי לבדוק לפני שחותמים.",
+        "en": "Finding an apartment to rent in Israel isn't simple, especially in the big cities. Once you've found a suitable apartment and talked to the landlord, the most important stage comes: the rental contract. Here are a few things worth checking before you sign."
+      },
+      {
+        "he": "קודם כול, קראו את החוזה בעיון, למרות שהוא ארוך ומשעמם. בדרך כלל חותמים על חוזה לשנה, ולפעמים יש בו אופציה להאריך אותו בשנה נוספת. חשוב לבדוק מי אחראי על תיקונים: אם המזגן או הדוד מתקלקלים, מי ישלם על התיקון – אתם או בעל הדירה? כדאי גם לכתוב בחוזה אם מותר להחזיק בעלי חיים.",
+        "en": "First of all, read the contract carefully, even though it's long and boring. Usually you sign a contract for a year, and sometimes it includes an option to extend it for another year. It's important to check who is responsible for repairs: if the air conditioner or the water heater breaks down, who will pay for the repair — you or the landlord? It's also worth stating in the contract whether you're allowed to keep pets."
+      },
+      {
+        "he": "נושא חשוב נוסף הוא הערבויות. בעלי דירות רבים מבקשים ביטחונות, למקרה שהשוכר לא ישלם או יגרום נזק לדירה. לפעמים מבקשים צ׳ק ביטחון, לפעמים ערבות בנקאית, ולפעמים שני ערבים – אנשים שחותמים על החוזה ומתחייבים לשלם אם השוכר לא ישלם. לכן עולים חדשים, שעוד אין להם משפחה בארץ, נתקלים לפעמים בבעיה.",
+        "en": "Another important issue is guarantees. Many landlords ask for security in case the tenant doesn't pay or damages the apartment. Sometimes they ask for a security check, sometimes a bank guarantee, and sometimes two guarantors — people who sign the contract and commit to paying if the tenant doesn't. That's why new immigrants, who don't have family in the country yet, sometimes run into a problem."
+      },
+      {
+        "he": "בנוסף לשכר הדירה, יש עוד הוצאות קבועות. הארנונה היא מס שמשלמים לעירייה, והיא תלויה בגודל הדירה ובאזור שבו היא נמצאת. את חשבונות החשמל, המים והגז משלם בדרך כלל השוכר, ואם יש בבניין ועד בית, צריך לשלם גם לו כל חודש.",
+        "en": "In addition to the rent, there are other fixed expenses. Arnona is a tax paid to the municipality, and it depends on the size of the apartment and the area where it's located. The electricity, water and gas bills are usually paid by the tenant, and if the building has a house committee, you have to pay it every month too."
+      },
+      {
+        "he": "לבסוף, כדאי לשמור על יחסים טובים עם בעל הדירה. צלמו את הדירה ביום הכניסה, כדי שבסוף החוזה לא יהיו ויכוחים על נזקים שהיו שם לפניכם. ואם משהו מתקלקל, דווחו לו מיד ובכתב, למשל בהודעה או במייל.",
+        "en": "Finally, it's worth keeping good relations with the landlord. Take photos of the apartment on move-in day, so that at the end of the contract there won't be arguments about damage that was there before you. And if something breaks, tell the landlord right away and in writing, for example in a message or by email."
+      }
+    ],
+    "glossary": [
+      {
+        "he": "לשכור",
+        "en": "to rent (as a tenant)",
+        "tr": "liskór"
+      },
+      {
+        "he": "שוכר",
+        "en": "tenant",
+        "tr": "sokhér"
+      },
+      {
+        "he": "חוזה שכירות",
+        "en": "rental contract, lease",
+        "tr": "khozé skhirút"
+      },
+      {
+        "he": "בעל הדירה",
+        "en": "landlord",
+        "tr": "ba'ál hadirá"
+      },
+      {
+        "he": "דוד",
+        "en": "water heater, boiler (also: uncle)",
+        "tr": "dud"
+      },
+      {
+        "he": "ערבות",
+        "en": "guarantee, financial security",
+        "tr": "arvút"
+      },
+      {
+        "he": "ערב",
+        "en": "guarantor (plural: ערבים)",
+        "tr": "arév"
+      },
+      {
+        "he": "להתחייב",
+        "en": "to commit, undertake",
+        "tr": "lehitkhayév"
+      },
+      {
+        "he": "נזק",
+        "en": "damage",
+        "tr": "nézek"
+      },
+      {
+        "he": "להיתקל ב",
+        "en": "to run into, encounter",
+        "tr": "lehitakél be"
+      },
+      {
+        "he": "ארנונה",
+        "en": "municipal property tax",
+        "tr": "arnóna"
+      },
+      {
+        "he": "ועד בית",
+        "en": "house committee (monthly building fee)",
+        "tr": "va'ád báyit"
+      }
+    ],
+    "questions": [
+      {
+        "q": "על מה כדאי להחליט מראש, למקרה שהמזגן או הדוד מתקלקלים?",
+        "qEn": "What should be decided in advance, in case the air conditioner or the water heater breaks down?",
+        "answer": "מי ישלם על התיקון: השוכר או בעל הדירה.",
+        "answerEn": "Who will pay for the repair: the tenant or the landlord.",
+        "keywords": [
+          [
+            "ישלם",
+            "לשלם",
+            "משלם",
+            "תשלום",
+            "אחראי"
+          ],
+          [
+            "תיקון",
+            "תיקונים",
+            "לתקן"
+          ]
+        ]
+      },
+      {
+        "q": "למה בעלי דירות מבקשים ערבויות?",
+        "qEn": "Why do landlords ask for guarantees?",
+        "answer": "למקרה שהשוכר לא ישלם או יגרום נזק לדירה.",
+        "answerEn": "In case the tenant doesn't pay or damages the apartment.",
+        "keywords": [
+          [
+            "ישלם",
+            "לשלם",
+            "משלם",
+            "תשלום",
+            "כסף"
+          ],
+          [
+            "נזק",
+            "נזקים",
+            "יהרוס",
+            "ישבור"
+          ]
+        ]
+      },
+      {
+        "q": "למה עולים חדשים נתקלים לפעמים בבעיה עם הערבויות?",
+        "qEn": "Why do new immigrants sometimes run into a problem with the guarantees?",
+        "answer": "כי עוד אין להם משפחה בארץ שיכולה לחתום כערבים.",
+        "answerEn": "Because they don't yet have family in the country who can sign as guarantors.",
+        "keywords": [
+          [
+            "משפחה",
+            "קרובים",
+            "חברים",
+            "מכירים"
+          ]
+        ]
+      },
+      {
+        "q": "מה זה ארנונה, ולמי משלמים אותה?",
+        "qEn": "What is arnona, and who is it paid to?",
+        "answer": "זה מס על הדירה, ומשלמים אותו לעירייה.",
+        "answerEn": "It's a tax on the apartment, and you pay it to the municipality.",
+        "keywords": [
+          [
+            "מס",
+            "מסים",
+            "מיסים"
+          ],
+          [
+            "עירייה",
+            "עיר"
+          ]
+        ]
+      },
+      {
+        "q": "למה כדאי לצלם את הדירה ביום הכניסה?",
+        "qEn": "Why is it worth photographing the apartment on move-in day?",
+        "answer": "כדי שבסוף החוזה לא יהיו ויכוחים על נזקים שהיו שם קודם.",
+        "answerEn": "So that at the end of the contract there won't be arguments about damage that was there before.",
+        "keywords": [
+          [
+            "ויכוחים",
+            "ויכוח",
+            "להתווכח",
+            "בעיות",
+            "מריבה",
+            "מריבות"
+          ],
+          [
+            "נזקים",
+            "נזק"
+          ]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "בדרך כלל חותמים על חוזה שכירות לשנתיים.",
+        "sEn": "A rental contract is usually signed for two years.",
+        "a": false,
+        "why": "Usually the contract is for one year, sometimes with an option to extend it for another year."
+      },
+      {
+        "s": "ערבים בחוזה שכירות הם אנשים שמתחייבים לשלם אם השוכר לא ישלם.",
+        "sEn": "Guarantors in a rental contract are people who commit to paying if the tenant does not pay.",
+        "a": true,
+        "why": "The article defines guarantors as people who sign the contract and commit to paying if the tenant does not."
+      },
+      {
+        "s": "גובה הארנונה תלוי בגודל הדירה ובאזור שבו היא נמצאת.",
+        "sEn": "The amount of arnona depends on the size of the apartment and the area where it is located.",
+        "a": true,
+        "why": "Arnona is a tax paid to the municipality, and it depends on the size of the apartment and its area."
+      },
+      {
+        "s": "אם משהו בדירה מתקלקל, מספיק לספר על זה לבעל הדירה בשיחת טלפון.",
+        "sEn": "If something in the apartment breaks, it is enough to tell the landlord about it in a phone call.",
+        "a": false,
+        "why": "The article advises telling the landlord right away and in writing, for example in a message or by email."
+      }
+    ],
+    "find": [
+      {
+        "en": "carefully (of reading)",
+        "answer": [
+          "בעיון"
+        ]
+      },
+      {
+        "en": "pets, animals",
+        "answer": [
+          "בעלי חיים"
+        ]
+      },
+      {
+        "en": "fixed expenses",
+        "answer": [
+          "הוצאות קבועות"
+        ]
+      },
+      {
+        "en": "in writing",
+        "answer": [
+          "בכתב"
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "אחרי שמוצאים דירה ומדברים עם בעל הדירה, מגיע השלב החשוב ביותר: ___ השכירות.",
+        "en": "After you find an apartment and talk to the landlord, the most important stage comes: the rental contract.",
+        "answer": [
+          "חוזה"
+        ],
+        "hint": "contract"
+      },
+      {
+        "prompt": "חשוב לבדוק מי ___ על תיקונים, למשל אם המזגן או הדוד מתקלקלים.",
+        "en": "It is important to check who is responsible for repairs, for example if the air conditioner or the water heater breaks down.",
+        "answer": [
+          "אחראי",
+          "משלם",
+          "ישלם"
+        ],
+        "hint": "responsible"
+      },
+      {
+        "prompt": "בעלי דירות רבים מבקשים ___, למקרה שהשוכר לא ישלם או יגרום נזק לדירה.",
+        "en": "Many landlords ask for guarantees, in case the tenant does not pay or damages the apartment.",
+        "answer": [
+          "ערבויות",
+          "ביטחונות",
+          "ערבות"
+        ],
+        "hint": "guarantees, security"
+      },
+      {
+        "prompt": "הארנונה היא ___ שמשלמים לעירייה, והיא תלויה בגודל הדירה ובאזור.",
+        "en": "Arnona is a tax paid to the municipality, and it depends on the size of the apartment and the area.",
+        "answer": [
+          "מס"
+        ],
+        "hint": "tax"
+      },
+      {
+        "prompt": "כדאי ___ את הדירה ביום הכניסה, כדי שבסוף החוזה לא יהיו ויכוחים על נזקים.",
+        "en": "It is worth photographing the apartment on move-in day, so that at the end of the contract there are no arguments about damage.",
+        "answer": [
+          "לצלם"
+        ],
+        "hint": "to photograph (infinitive)"
+      }
+    ],
+    "writing": {
+      "prompt": "לדעתכם, מה הדבר הכי חשוב לבדוק לפני שחותמים על חוזה שכירות? כתבו את דעתכם והסבירו למה. אפשר גם לספר על ניסיון אישי.",
+      "promptEn": "In your opinion, what is the most important thing to check before signing a rental contract? Write your opinion and explain why. You can also describe a personal experience.",
+      "minWords": 60,
+      "useWords": [
+        "חוזה",
+        "בעל הדירה",
+        "לדעתי",
+        "בגלל ש",
+        "לכן"
+      ],
+      "checklist": [
+        {
+          "en": "Say what is most important to check (חשוב / הכי חשוב)",
+          "keywords": [
+            "חשוב"
+          ]
+        },
+        {
+          "en": "Explain why, using בגלל ש or כי",
+          "keywords": [
+            "בגלל",
+            "כי"
+          ]
+        },
+        {
+          "en": "Mention the contract or the landlord",
+          "keywords": [
+            "חוזה",
+            "בעל הדירה"
+          ]
+        }
+      ],
+      "model": "לדעתי הדבר הכי חשוב הוא לבדוק מי אחראי על תיקונים. לפני שנתיים שכרנו דירה בירושלים, ואחרי חודש הדוד התקלקל. בעל הדירה אמר שהתיקון עלינו, בגלל שבחוזה לא היה כתוב שום דבר על זה. התיקון עלה לנו כמה מאות שקלים, ובמשך שבוע לא היו לנו מים חמים. לכן חשוב לקרוא את החוזה בעיון ולשאול שאלות לפני שחותמים. בנוסף, כדאי לצלם את הדירה ביום הכניסה, כדי שלא יהיו ויכוחים בסוף.",
+      "modelEn": "In my opinion the most important thing is to check who is responsible for repairs. Two years ago we rented an apartment in Jerusalem, and after a month the water heater broke. The landlord said the repair was on us, because nothing about it was written in the contract. The repair cost us a few hundred shekels, and for a week we had no hot water. That's why it's important to read the contract carefully and ask questions before signing. Also, it's worth photographing the apartment on move-in day, so that there are no arguments at the end."
+    }
+  },
+  {
+    "id": "r_b1_ulpan_to_sales",
+    "level": "B1",
+    "title": "מהאולפן למכירות: שיחה עם דניאלה",
+    "titleEn": "From the ulpan to sales: a conversation with Daniela",
+    "topic": "immigration",
+    "kind": "interview",
+    "paragraphs": [
+      {
+        "he": "דניאלה גרסיה, בת 34, עלתה לישראל מארגנטינה לפני ארבע שנים. כשהגיעה, היא ידעה להגיד רק \"שלום\" ו\"תודה\". היום היא עובדת במכירות בחברת תוכנה ברמת גן ומדברת עם לקוחות בעברית כל יום. שאלנו אותה איך היא עשתה את זה.",
+        "en": "Daniela Garcia, 34, immigrated to Israel from Argentina four years ago. When she arrived, she could only say \"shalom\" and \"toda\". Today she works in sales at a software company in Ramat Gan and talks to customers in Hebrew every day. We asked her how she did it."
+      },
+      {
+        "he": "איך היה באולפן? למדתי באולפן כל בוקר, חמישה חודשים. הייתה לנו מורה מדהימה, ובכיתה היו תלמידים מכל העולם: מצרפת, מאתיופיה, מברזיל ומהודו. בגלל שלא הייתה לנו שפה משותפת, היינו חייבים לדבר עברית גם בהפסקות. זה היה קשה, אבל זה מה שעזר לי הכי הרבה.",
+        "en": "What was the ulpan like? I studied at the ulpan every morning for five months. We had an amazing teacher, and the class had students from all over the world: from France, Ethiopia, Brazil and India. Because we had no common language, we had to speak Hebrew during the breaks too. It was hard, but that's what helped me the most."
+      },
+      {
+        "he": "למה בחרת דווקא במכירות? בארגנטינה עבדתי בשיווק, ותמיד אהבתי לדבר עם אנשים. בהתחלה פחדתי שהעברית שלי לא מספיק טובה, ולכן חיפשתי עבודה בספרדית. אבל בראיון עבודה אחד, מנהל המכירות אמר לי משפט שאני לא אשכח אף פעם: \"לקוחות לא קונים דקדוק, הם קונים אמון.\"",
+        "en": "Why did you choose sales, of all things? In Argentina I worked in marketing, and I always loved talking to people. At first I was afraid my Hebrew wasn't good enough, so I looked for a job in Spanish. But at one job interview, the sales manager told me something I'll never forget: \"Customers don't buy grammar, they buy trust.\""
+      },
+      {
+        "he": "מה היה הכי קשה בעבודה? השיחות בטלפון. פנים מול פנים אפשר להשתמש בידיים ובחיוכים, אבל בטלפון יש רק מילים. בחודשים הראשונים כתבתי לעצמי על דף משפטים מוכנים, כמו \"מתי נוח לך לדבר?\" ו\"אשמח לשלוח לך הצעת מחיר\". היום אני כבר לא צריכה את הדף.",
+        "en": "What was the hardest part of the job? Phone calls. Face to face you can use your hands and smiles, but on the phone there are only words. In the first months I wrote ready-made sentences for myself on a sheet of paper, like \"When is a good time for you to talk?\" and \"I'd be happy to send you a price quote\". Today I don't need the sheet anymore."
+      },
+      {
+        "he": "איזו עצה יש לך לעולים חדשים? לא לפחד לטעות. ישראלים לא מתרגשים מטעויות בדקדוק, ובדרך כלל הם דווקא שמחים לעזור. בנוסף, כדאי להקשיב לרדיו ולשיחות של אנשים באוטובוס. ואל תוותרו על האולפן, למרות שלפעמים הוא מתיש. זה שווה את המאמץ.",
+        "en": "What advice do you have for new immigrants? Don't be afraid to make mistakes. Israelis aren't bothered by grammar mistakes, and usually they're actually happy to help. Also, it's worth listening to the radio and to people's conversations on the bus. And don't give up on the ulpan, even though it's sometimes exhausting. It's worth the effort."
+      }
+    ],
+    "glossary": [
+      {
+        "he": "לעלות לארץ",
+        "en": "to immigrate to Israel",
+        "tr": "la'alót la'árets"
+      },
+      {
+        "he": "אולפן",
+        "en": "ulpan (intensive Hebrew school for immigrants)",
+        "tr": "ulpán"
+      },
+      {
+        "he": "שפה משותפת",
+        "en": "common language",
+        "tr": "safá meshutéfet"
+      },
+      {
+        "he": "הפסקה",
+        "en": "break",
+        "tr": "hafsaká"
+      },
+      {
+        "he": "שיווק",
+        "en": "marketing",
+        "tr": "shivúk"
+      },
+      {
+        "he": "ראיון עבודה",
+        "en": "job interview",
+        "tr": "re'ayón avodá"
+      },
+      {
+        "he": "דקדוק",
+        "en": "grammar",
+        "tr": "dikdúk"
+      },
+      {
+        "he": "אמון",
+        "en": "trust",
+        "tr": "emún"
+      },
+      {
+        "he": "הצעת מחיר",
+        "en": "price quote",
+        "tr": "hatsa'át mekhír"
+      },
+      {
+        "he": "להתרגש מ",
+        "en": "to get worked up about, be bothered by (also: to be excited)",
+        "tr": "lehitragésh mi"
+      },
+      {
+        "he": "לוותר על",
+        "en": "to give up (on)",
+        "tr": "levatér al"
+      },
+      {
+        "he": "מתיש",
+        "en": "exhausting",
+        "tr": "matísh"
+      }
+    ],
+    "questions": [
+      {
+        "q": "למה התלמידים באולפן דיברו עברית גם בהפסקות?",
+        "qEn": "Why did the students at the ulpan speak Hebrew during the breaks too?",
+        "answer": "כי לא הייתה להם שפה משותפת אחרת.",
+        "answerEn": "Because they had no other common language.",
+        "keywords": [
+          [
+            "שפה",
+            "שפות"
+          ],
+          [
+            "משותפת",
+            "משותף",
+            "אחרת"
+          ]
+        ]
+      },
+      {
+        "q": "למה דניאלה חיפשה בהתחלה עבודה בספרדית?",
+        "qEn": "Why did Daniela look for a job in Spanish at first?",
+        "answer": "כי היא פחדה שהעברית שלה לא מספיק טובה.",
+        "answerEn": "Because she was afraid her Hebrew wasn't good enough.",
+        "keywords": [
+          [
+            "פחדה",
+            "לפחד",
+            "פוחדת",
+            "פחד",
+            "חששה"
+          ],
+          [
+            "עברית"
+          ]
+        ]
+      },
+      {
+        "q": "מה פירוש המשפט \"לקוחות לא קונים דקדוק, הם קונים אמון\"?",
+        "qEn": "What does the sentence \"Customers don't buy grammar, they buy trust\" mean?",
+        "answer": "שללקוחות חשוב יותר לסמוך על המוכרת מאשר לשמוע עברית בלי טעויות.",
+        "answerEn": "That for customers it's more important to trust the salesperson than to hear Hebrew without mistakes.",
+        "keywords": [
+          [
+            "לסמוך",
+            "סומכים",
+            "אמון",
+            "אמינות"
+          ],
+          [
+            "טעויות",
+            "טעות",
+            "מושלמת",
+            "פחות"
+          ]
+        ]
+      },
+      {
+        "q": "למה השיחות בטלפון היו קשות במיוחד בשביל דניאלה?",
+        "qEn": "Why were phone calls especially hard for Daniela?",
+        "answer": "כי בטלפון אי אפשר להשתמש בידיים ובחיוכים, יש רק מילים.",
+        "answerEn": "Because on the phone you can't use your hands and smiles; there are only words.",
+        "keywords": [
+          [
+            "ידיים",
+            "חיוכים",
+            "חיוך",
+            "פנים",
+            "גוף"
+          ],
+          [
+            "מילים",
+            "מילה"
+          ]
+        ]
+      },
+      {
+        "q": "מה העצה הראשונה של דניאלה לעולים חדשים?",
+        "qEn": "What is Daniela's first piece of advice for new immigrants?",
+        "answer": "לא לפחד לטעות.",
+        "answerEn": "Not to be afraid of making mistakes.",
+        "keywords": [
+          [
+            "לפחד",
+            "תפחדו",
+            "פוחדים",
+            "פחד"
+          ],
+          [
+            "לטעות",
+            "טעויות",
+            "טעות",
+            "טועים"
+          ]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "כשדניאלה הגיעה לישראל, היא כבר ידעה עברית טוב.",
+        "sEn": "When Daniela arrived in Israel, she already knew Hebrew well.",
+        "a": false,
+        "why": "When she arrived, she could only say \"shalom\" and \"toda\"."
+      },
+      {
+        "s": "דניאלה בחרה במכירות גם בגלל שהיא תמיד אהבה לדבר עם אנשים.",
+        "sEn": "Daniela chose sales partly because she has always loved talking to people.",
+        "a": true,
+        "why": "Asked why she chose sales, she says she worked in marketing in Argentina and always loved talking to people."
+      },
+      {
+        "s": "בחודשים הראשונים דניאלה השתמשה בדף עם משפטים מוכנים לשיחות בטלפון.",
+        "sEn": "In the first months Daniela used a sheet of ready-made sentences for phone calls.",
+        "a": true,
+        "why": "She wrote ready-made sentences for herself on a sheet of paper; today she no longer needs it."
+      },
+      {
+        "s": "לדעת דניאלה, אם האולפן מתיש, עדיף לוותר עליו.",
+        "sEn": "In Daniela's opinion, if the ulpan is exhausting, it is better to give it up.",
+        "a": false,
+        "why": "She says not to give up on the ulpan, even though it is sometimes exhausting, because it is worth the effort."
+      }
+    ],
+    "find": [
+      {
+        "en": "amazing (feminine)",
+        "answer": [
+          "מדהימה"
+        ]
+      },
+      {
+        "en": "we had to",
+        "answer": [
+          "היינו חייבים"
+        ]
+      },
+      {
+        "en": "ready-made sentences",
+        "answer": [
+          "משפטים מוכנים"
+        ]
+      },
+      {
+        "en": "(it's) worth the effort",
+        "answer": [
+          "שווה את המאמץ"
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "דניאלה ___ לישראל מארגנטינה לפני ארבע שנים.",
+        "en": "Daniela immigrated to Israel from Argentina four years ago.",
+        "answer": [
+          "עלתה"
+        ],
+        "hint": "immigrated (לעלות, past, she)"
+      },
+      {
+        "prompt": "באולפן התלמידים דיברו עברית גם בהפסקות, כי לא הייתה להם שפה ___.",
+        "en": "At the ulpan the students spoke Hebrew during the breaks too, because they had no common language.",
+        "answer": [
+          "משותפת"
+        ],
+        "hint": "common, shared (feminine)"
+      },
+      {
+        "prompt": "מנהל המכירות אמר לה: \"לקוחות לא קונים דקדוק, הם קונים ___.\"",
+        "en": "The sales manager told her: \"Customers don't buy grammar, they buy trust.\"",
+        "answer": [
+          "אמון"
+        ],
+        "hint": "trust"
+      },
+      {
+        "prompt": "השיחות בטלפון היו קשות, כי בטלפון אי אפשר להשתמש בידיים ובחיוכים, יש רק ___.",
+        "en": "The phone calls were hard, because on the phone you can't use your hands and smiles; there are only words.",
+        "answer": [
+          "מילים"
+        ],
+        "hint": "words"
+      },
+      {
+        "prompt": "העצה של דניאלה לעולים חדשים: לא ___ לטעות.",
+        "en": "Daniela's advice to new immigrants: don't be afraid to make mistakes.",
+        "answer": [
+          "לפחד"
+        ],
+        "hint": "to be afraid (infinitive)"
+      }
+    ],
+    "writing": {
+      "prompt": "דניאלה אומרת שהכי חשוב לא לפחד לטעות. האם אתם מסכימים? כתבו את דעתכם וספרו על פעם שטעיתם בעברית או בשפה אחרת.",
+      "promptEn": "Daniela says the most important thing is not to be afraid of making mistakes. Do you agree? Write your opinion and tell about a time you made a mistake in Hebrew or another language.",
+      "minWords": 60,
+      "useWords": [
+        "לדעתי",
+        "בטעות",
+        "למרות ש",
+        "לכן",
+        "מאז"
+      ],
+      "checklist": [
+        {
+          "en": "Say whether you agree (לדעתי / נראה לי)",
+          "keywords": [
+            "לדעתי",
+            "נראה לי"
+          ]
+        },
+        {
+          "en": "Describe a mistake you made, in the past tense",
+          "keywords": [
+            "טעות",
+            "טעיתי",
+            "טעויות"
+          ]
+        },
+        {
+          "en": "Use למרות ש or לכן",
+          "keywords": [
+            "למרות",
+            "לכן"
+          ]
+        }
+      ],
+      "model": "לדעתי דניאלה צודקת. בשנה הראשונה בארץ פחדתי לדבר, ולכן כמעט לא התקדמתי. פעם במאפייה ביקשתי בטעות \"כלה\" במקום \"חלה\". המוכר צחק, אבל הוא גם תיקן אותי בסבלנות. למרות שזה היה מביך, הבנתי שטעויות הן חלק מהלמידה. מאז הפסקתי לפחד מטעויות, ודיברתי עברית עם כל מי שיכולתי: עם שכנים, עם נהגי מוניות ועם מוכרים בשוק. כל טעות הייתה בשבילי עוד שיעור קטן. היום טעויות כבר לא מפחידות אותי.",
+      "modelEn": "In my opinion Daniela is right. In my first year in Israel I was afraid to speak, so I hardly made any progress. Once at a bakery I accidentally asked for a \"kalá\" (bride) instead of a \"khalá\" (challah). The man behind the counter laughed, but he also corrected me patiently. Although it was embarrassing, I realised that mistakes are part of learning. From then on I stopped being afraid of mistakes, and I spoke Hebrew with everyone I could: with neighbours, taxi drivers and market vendors. Every mistake was one more small lesson for me. Today mistakes don't scare me anymore."
+    }
+  },
+  {
+    "id": "r_b1_shared_scooters",
+    "level": "B1",
+    "title": "אופניים וקורקינטים שיתופיים מגיעים לקריית הדקלים",
+    "titleEn": "Shared bikes and scooters arrive in Kiryat HaDkalim",
+    "topic": "transport",
+    "kind": "news",
+    "paragraphs": [
+      {
+        "he": "מהשבוע הבא תושבי קריית הדקלים יוכלו לנסוע ברחבי העיר באופניים ובקורקינטים חשמליים שיתופיים. העירייה הציבה מאות כלים חשמליים בעשרות תחנות: ליד מרכזי קניות, ליד בתי ספר ובתחנת הרכבת.",
+        "en": "Starting next week, residents of Kiryat HaDkalim will be able to ride around the city on shared electric bikes and scooters. The municipality has placed hundreds of electric vehicles at dozens of stations: near shopping centres, near schools and at the train station."
+      },
+      {
+        "he": "השימוש פשוט: מורידים אפליקציה, סורקים את הקוד שעל הכלי ויוצאים לדרך. התשלום הוא לפי דקות, ותושבי העיר יקבלו הנחה מיוחדת בחודש הראשון. בסוף הנסיעה צריך להחזיר את הכלי לאחת התחנות ולא להשאיר אותו באמצע המדרכה.",
+        "en": "Using them is simple: you download an app, scan the code on the vehicle and off you go. Payment is by the minute, and city residents will get a special discount in the first month. At the end of the ride you have to return the vehicle to one of the stations and not leave it in the middle of the sidewalk."
+      },
+      {
+        "he": "ראש העירייה, אבי שמואלי, אמר אתמול במסיבת עיתונאים: \"אנחנו רוצים שפחות אנשים ייסעו ברכב פרטי בתוך העיר. בגלל הפקקים, נסיעה של עשר דקות לוקחת היום לפעמים חצי שעה, ולכן החלטנו לנסות משהו חדש. אופניים חשמליים הם פתרון מהיר, זול וירוק.\"",
+        "en": "The mayor, Avi Shmueli, said yesterday at a press conference: \"We want fewer people to drive private cars inside the city. Because of the traffic jams, a ten-minute ride sometimes takes half an hour today, so we decided to try something new. Electric bikes are a fast, cheap and green solution.\""
+      },
+      {
+        "he": "התגובות של התושבים מעורבות. יעל, סטודנטית בת 23, מתלהבת: \"עד היום חיכיתי כל בוקר עשרים דקות לאוטובוס. עכשיו אגיע לקמפוס בחמש דקות.\" לעומת זאת, משה, פנסיונר שגר במרכז העיר, מודאג: \"כבר היום יש קורקינטים שנוסעים מהר על המדרכות. אני מפחד שמישהו ייפגע.\"",
+        "en": "Residents' reactions are mixed. Yael, a 23-year-old student, is excited: \"Until now I waited twenty minutes for the bus every morning. Now I'll get to campus in five minutes.\" On the other hand, Moshe, a pensioner who lives in the city centre, is worried: \"Even now there are scooters going fast on the sidewalks. I'm afraid someone will get hurt.\""
+      },
+      {
+        "he": "בעירייה אומרים שהם מודעים לבעיה. לדבריהם, בכל התחנות יהיו שלטים עם הכללים, ופקחים יבדקו שאנשים נוסעים בשביל האופניים ולא על המדרכה. בנוסף, השימוש בקורקינטים יהיה מותר רק מגיל 16, ויהיה חובה לחבוש קסדה.",
+        "en": "The municipality says it is aware of the problem. According to officials, every station will have signs with the rules, and inspectors will check that people ride on the bike path and not on the sidewalk. In addition, the scooters may only be used from age 16, and wearing a helmet will be mandatory."
+      },
+      {
+        "he": "הפרויקט יפעל כניסוי במשך חצי שנה. אם הוא יצליח, העירייה מתכננת להוסיף תחנות גם בשכונות החדשות.",
+        "en": "The project will run as a pilot for six months. If it succeeds, the municipality plans to add stations in the new neighbourhoods as well."
+      }
+    ],
+    "glossary": [
+      {
+        "he": "שיתופי",
+        "en": "shared (for public use)",
+        "tr": "shitufí"
+      },
+      {
+        "he": "קורקינט",
+        "en": "scooter (kick or electric)",
+        "tr": "korkinét"
+      },
+      {
+        "he": "כלי",
+        "en": "vehicle (here: a bike or scooter; plural כלים); also: tool, dish",
+        "tr": "kli"
+      },
+      {
+        "he": "תושב",
+        "en": "resident",
+        "tr": "tosháv"
+      },
+      {
+        "he": "להציב",
+        "en": "to place, set up",
+        "tr": "lehatsív"
+      },
+      {
+        "he": "לסרוק",
+        "en": "to scan",
+        "tr": "lisrók"
+      },
+      {
+        "he": "מדרכה",
+        "en": "sidewalk, pavement",
+        "tr": "midrakhá"
+      },
+      {
+        "he": "פקק",
+        "en": "traffic jam",
+        "tr": "pkak"
+      },
+      {
+        "he": "מעורב",
+        "en": "mixed",
+        "tr": "me'oráv"
+      },
+      {
+        "he": "להתלהב",
+        "en": "to be excited, enthusiastic",
+        "tr": "lehitlahév"
+      },
+      {
+        "he": "מודאג",
+        "en": "worried",
+        "tr": "mud'ág"
+      },
+      {
+        "he": "פקח",
+        "en": "(municipal) inspector",
+        "tr": "pakákh"
+      },
+      {
+        "he": "לחבוש קסדה",
+        "en": "to wear a helmet",
+        "tr": "lakhbósh kasdá"
+      }
+    ],
+    "questions": [
+      {
+        "q": "למה ראש העירייה רוצה שפחות אנשים ייסעו ברכב פרטי?",
+        "qEn": "Why does the mayor want fewer people to drive private cars?",
+        "answer": "בגלל הפקקים: נסיעה קצרה לוקחת היום הרבה זמן.",
+        "answerEn": "Because of the traffic jams: a short ride takes a long time today.",
+        "keywords": [
+          [
+            "פקקים",
+            "פקק",
+            "עומס"
+          ],
+          [
+            "זמן",
+            "שעה",
+            "דקות",
+            "לאט"
+          ]
+        ]
+      },
+      {
+        "q": "למה יעל מתלהבת מהפרויקט?",
+        "qEn": "Why is Yael excited about the project?",
+        "answer": "כי היא לא תצטרך לחכות לאוטובוס, ותגיע לקמפוס בחמש דקות.",
+        "answerEn": "Because she won't have to wait for the bus, and she'll get to campus in five minutes.",
+        "keywords": [
+          [
+            "לחכות",
+            "מחכה",
+            "תחכה",
+            "חיכתה",
+            "אוטובוס"
+          ],
+          [
+            "דקות",
+            "מהר",
+            "זמן",
+            "קמפוס"
+          ]
+        ]
+      },
+      {
+        "q": "מה פירוש המילה \"מעורבות\" במשפט \"התגובות של התושבים מעורבות\"?",
+        "qEn": "What does the word \"me'oravot\" (mixed) mean in the sentence \"Residents' reactions are mixed\"?",
+        "answer": "שחלק מהתושבים בעד הפרויקט וחלק נגד.",
+        "answerEn": "That some residents are for the project and some are against it.",
+        "keywords": [
+          [
+            "בעד",
+            "מרוצים",
+            "מתלהבים",
+            "אוהבים",
+            "שמחים",
+            "טובות"
+          ],
+          [
+            "נגד",
+            "מודאגים",
+            "מפחדים",
+            "דואגים",
+            "רעות",
+            "לא מרוצים"
+          ]
+        ]
+      },
+      {
+        "q": "ממה משה מפחד, ולמה?",
+        "qEn": "What is Moshe afraid of, and why?",
+        "answer": "שמישהו ייפגע, כי כבר היום קורקינטים נוסעים מהר על המדרכות.",
+        "answerEn": "That someone will get hurt, because scooters already go fast on the sidewalks.",
+        "keywords": [
+          [
+            "ייפגע",
+            "להיפגע",
+            "נפגע",
+            "פגיעה",
+            "תאונה",
+            "תאונות"
+          ],
+          [
+            "מדרכה",
+            "מדרכות"
+          ]
+        ]
+      },
+      {
+        "q": "מה העירייה תעשה כדי שאנשים לא ייסעו על המדרכה?",
+        "qEn": "What will the municipality do so that people don't ride on the sidewalk?",
+        "answer": "יהיו שלטים עם הכללים, ופקחים יבדקו שנוסעים בשביל האופניים.",
+        "answerEn": "There will be signs with the rules, and inspectors will check that people ride on the bike path.",
+        "keywords": [
+          [
+            "פקחים",
+            "פקח",
+            "יבדקו",
+            "לבדוק",
+            "בודקים"
+          ],
+          [
+            "שלטים",
+            "שלט",
+            "כללים",
+            "חוקים",
+            "שביל"
+          ]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "משלמים על הנסיעה לפי מספר הקילומטרים.",
+        "sEn": "You pay for the ride according to the number of kilometres.",
+        "a": false,
+        "why": "Payment is by the minute."
+      },
+      {
+        "s": "בחודש הראשון תושבי העיר ישלמו פחות על הנסיעות.",
+        "sEn": "In the first month city residents will pay less for rides.",
+        "a": true,
+        "why": "City residents will get a special discount in the first month."
+      },
+      {
+        "s": "בני 14 יוכלו לנסוע בקורקינטים, אם הם יחבשו קסדה.",
+        "sEn": "Fourteen-year-olds will be able to ride the scooters if they wear a helmet.",
+        "a": false,
+        "why": "The scooters may only be used from age 16; wearing a helmet is mandatory as well."
+      },
+      {
+        "s": "אם הניסוי יצליח, העירייה רוצה להוסיף תחנות גם בשכונות החדשות.",
+        "sEn": "If the pilot succeeds, the municipality wants to add stations in the new neighbourhoods as well.",
+        "a": true,
+        "why": "The project is a six-month pilot; if it succeeds, the municipality plans to add stations in the new neighbourhoods."
+      }
+    ],
+    "find": [
+      {
+        "en": "around the city, all over the city",
+        "answer": [
+          "ברחבי העיר"
+        ]
+      },
+      {
+        "en": "press conference",
+        "answer": [
+          "מסיבת עיתונאים"
+        ]
+      },
+      {
+        "en": "(they are) aware",
+        "answer": [
+          "מודעים"
+        ]
+      },
+      {
+        "en": "mandatory, an obligation",
+        "answer": [
+          "חובה"
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "העירייה הציבה ___ אופניים וקורקינטים חשמליים בתחנות ברחבי העיר.",
+        "en": "The municipality has placed hundreds of electric bikes and scooters at stations around the city.",
+        "answer": [
+          "מאות"
+        ],
+        "hint": "hundreds"
+      },
+      {
+        "prompt": "מורידים אפליקציה, ___ את הקוד שעל הכלי ויוצאים לדרך.",
+        "en": "You download an app, scan the code on the vehicle and off you go.",
+        "answer": [
+          "סורקים"
+        ],
+        "hint": "scan (לסרוק, present, plural)"
+      },
+      {
+        "prompt": "ראש העירייה רוצה שפחות אנשים ייסעו ברכב פרטי, כי בעיר יש הרבה ___.",
+        "en": "The mayor wants fewer people to drive private cars, because there are lots of traffic jams in the city.",
+        "answer": [
+          "פקקים"
+        ],
+        "hint": "traffic jams"
+      },
+      {
+        "prompt": "יעל ___ מהפרויקט, אבל משה מודאג, כי הוא מפחד שמישהו ייפגע.",
+        "en": "Yael is excited about the project, but Moshe is worried, because he is afraid someone will get hurt.",
+        "answer": [
+          "מתלהבת",
+          "שמחה",
+          "נלהבת",
+          "מרוצה"
+        ],
+        "hint": "is excited (present, she)"
+      },
+      {
+        "prompt": "הפרויקט הוא ___ של חצי שנה: אם הוא יצליח, יהיו תחנות גם בשכונות החדשות.",
+        "en": "The project is a six-month pilot: if it succeeds, there will be stations in the new neighbourhoods too.",
+        "answer": [
+          "ניסוי",
+          "פיילוט"
+        ],
+        "hint": "pilot, trial"
+      }
+    ],
+    "writing": {
+      "prompt": "האם הייתם רוצים אופניים וקורקינטים שיתופיים בעיר שלכם? כתבו תגובה לכתבה: מה היתרונות ומה החסרונות?",
+      "promptEn": "Would you like shared bikes and scooters in your city? Write a response to the article: what are the advantages and the disadvantages?",
+      "minWords": 60,
+      "useWords": [
+        "לדעתי",
+        "יתרון",
+        "חיסרון",
+        "לעומת זאת",
+        "לכן"
+      ],
+      "checklist": [
+        {
+          "en": "Mention an advantage (יתרון)",
+          "keywords": [
+            "יתרון",
+            "יתרונות"
+          ]
+        },
+        {
+          "en": "Mention a disadvantage or a problem (חיסרון / בעיה)",
+          "keywords": [
+            "חיסרון",
+            "חסרונות",
+            "בעיה"
+          ]
+        },
+        {
+          "en": "Give your opinion (לדעתי / נראה לי)",
+          "keywords": [
+            "לדעתי",
+            "נראה לי"
+          ]
+        }
+      ],
+      "model": "לדעתי זה רעיון מצוין. בעיר שלנו יש הרבה פקקים, ונסיעה קצרה לוקחת לפעמים חצי שעה. היתרון הגדול של אופניים חשמליים הוא שהם מהירים, זולים ולא מזהמים את האוויר. בנוסף, לא צריך לחפש חניה, וזה חוסך הרבה זמן. לעומת זאת, יש גם חיסרון: הרבה אנשים נוסעים על המדרכה, וזה מסוכן להולכי רגל. לכן חשוב שהעירייה תבנה עוד שבילי אופניים, ושפקחים יבדקו שכולם שומרים על הכללים.",
+      "modelEn": "In my opinion it's an excellent idea. In our city there are lots of traffic jams, and a short ride sometimes takes half an hour. The big advantage of electric bikes is that they're fast, cheap and don't pollute the air. Also, you don't need to look for parking, which saves a lot of time. On the other hand, there's also a disadvantage: many people ride on the sidewalk, and that's dangerous for pedestrians. That's why it's important for the municipality to build more bike paths, and for inspectors to check that everyone keeps to the rules."
+    }
+  },
+  {
+    "id": "r_b1_coffee_culture",
+    "level": "B1",
+    "title": "הפוך גדול, בבקשה: מדריך קטן לתרבות הקפה בישראל",
+    "titleEn": "A large hafukh, please: a little guide to Israeli coffee culture",
+    "topic": "lifestyle",
+    "kind": "blog",
+    "paragraphs": [
+      {
+        "he": "אני כותבת את הפוסט הזה מבית קפה קטן בתל אביב. מסביבי יושבים לפחות עשרה אנשים עם מחשבים ניידים, ואף אחד לא ממהר. אם אתם חדשים בארץ, כדאי שתדעו: בית קפה בישראל הוא לא רק מקום לשתות בו קפה. הוא גם משרד, חדר ישיבות ולפעמים אפילו סלון.",
+        "en": "I'm writing this post from a small café in Tel Aviv. Around me at least ten people are sitting with laptops, and nobody is in a hurry. If you're new in Israel, you should know: a café here isn't just a place to drink coffee. It's also an office, a meeting room and sometimes even a living room."
+      },
+      {
+        "he": "נתחיל מהקפה עצמו. המשקה הכי פופולרי כאן הוא \"הפוך\": קפה עם הרבה חלב חם וקצף, קצת כמו קפוצ׳ינו. יש אומרים שקוראים לו כך בגלל ששמים קודם את החלב ורק אחר כך את האספרסו, כלומר הסדר הפוך. מי שרוצה משהו חזק יותר מזמין אספרסו קצר.",
+        "en": "Let's start with the coffee itself. The most popular drink here is the \"hafukh\": coffee with lots of hot milk and foam, a bit like a cappuccino. Some say it's called that because the milk goes in first and only then the espresso; in other words, the order is upside down. Anyone who wants something stronger orders a short espresso."
+      },
+      {
+        "he": "ישראלים אוהבים להזמין קפה בדיוק כמו שהם רוצים. בתור תשמעו משפטים כמו \"אפשר הפוך דל?\" או \"הפוך גדול על סויה, חזק ורותח\". אל תיבהלו: \"דל\" פירושו חלב דל שומן, ו\"רותח\" פירושו חם מאוד. אף אחד לא יחשוב שאתם מוזרים, זה פשוט נורמלי.",
+        "en": "Israelis like to order their coffee exactly the way they want it. In the queue you'll hear sentences like \"Can I have a hafukh dal?\" or \"A large hafukh with soy milk, strong and boiling hot\". Don't panic: \"dal\" means low-fat milk, and \"rote'akh\" means very hot. Nobody will think you're strange; it's just normal."
+      },
+      {
+        "he": "ועכשיו לעבודה. הרבה פרילנסרים וסטודנטים עובדים מבתי קפה, בגלל שבבית משעמם להם או בגלל שהם צריכים קצת רעש מסביב. בהרבה בתי קפה יש אינטרנט אלחוטי בחינם, ובנוסף יש לפעמים שקע ליד כל שולחן. יש רק כלל אחד לא כתוב: אם אתם יושבים שלוש שעות, תזמינו יותר מקפה אחד.",
+        "en": "And now to work. Lots of freelancers and students work from cafés, because they get bored at home or because they need a bit of noise around them. Many cafés have free Wi-Fi, and sometimes there's also a socket next to every table. There's just one unwritten rule: if you sit for three hours, order more than one coffee."
+      },
+      {
+        "he": "לעומת זאת, יש בתי קפה שכבר לא אוהבים את המחשבים הניידים. בבית קפה ליד הבית שלי תלו לאחרונה שלט: \"בשישי ובשבת – בלי מחשבים\". למרות שאני עובדת מבתי קפה כמעט כל יום, לדעתי זה דווקא רעיון לא רע. לפעמים כדאי פשוט לשבת עם חברים, לשתות הפוך ולהסתכל על האנשים שעוברים ברחוב.",
+        "en": "On the other hand, some cafés don't like laptops anymore. A café near my home recently put up a sign: \"Fridays and Saturdays — no laptops\". Even though I work from cafés almost every day, I actually think it's not a bad idea. Sometimes it's worth just sitting with friends, drinking a hafukh and watching the people walking by in the street."
+      }
+    ],
+    "glossary": [
+      {
+        "he": "הפוך",
+        "en": "hafukh: coffee with lots of milk and foam (literally \"upside down\")",
+        "tr": "hafúkh"
+      },
+      {
+        "he": "מחשב נייד",
+        "en": "laptop",
+        "tr": "makhshév nayád"
+      },
+      {
+        "he": "למהר",
+        "en": "to hurry",
+        "tr": "lemahér"
+      },
+      {
+        "he": "קצף",
+        "en": "foam",
+        "tr": "kétsef"
+      },
+      {
+        "he": "יש אומרים",
+        "en": "some say",
+        "tr": "yesh omrím"
+      },
+      {
+        "he": "תור",
+        "en": "queue, line",
+        "tr": "tor"
+      },
+      {
+        "he": "דל שומן",
+        "en": "low-fat",
+        "tr": "dal shumán"
+      },
+      {
+        "he": "רותח",
+        "en": "boiling, very hot",
+        "tr": "rotéakh"
+      },
+      {
+        "he": "להיבהל",
+        "en": "to panic, get alarmed",
+        "tr": "lehibahél"
+      },
+      {
+        "he": "משעמם",
+        "en": "boring",
+        "tr": "mesha'amém"
+      },
+      {
+        "he": "שקע",
+        "en": "(electric) socket",
+        "tr": "shéka"
+      },
+      {
+        "he": "כלל לא כתוב",
+        "en": "unwritten rule",
+        "tr": "klal lo katúv"
+      }
+    ],
+    "questions": [
+      {
+        "q": "לפי הפוסט, למה קוראים לקפה הזה \"הפוך\"?",
+        "qEn": "According to the post, why is this coffee called \"hafukh\" (upside down)?",
+        "answer": "כי שמים קודם את החלב ורק אחר כך את האספרסו.",
+        "answerEn": "Because the milk goes in first and only then the espresso.",
+        "keywords": [
+          [
+            "חלב"
+          ],
+          [
+            "קודם",
+            "לפני",
+            "בהתחלה",
+            "סדר"
+          ]
+        ]
+      },
+      {
+        "q": "מה פירוש המילה \"רותח\" כשמזמינים קפה?",
+        "qEn": "What does the word \"rote'akh\" mean when you order coffee?",
+        "answer": "שהקפה חם מאוד.",
+        "answerEn": "That the coffee is very hot.",
+        "keywords": [
+          [
+            "חם",
+            "חמה",
+            "חמים",
+            "לוהט"
+          ]
+        ]
+      },
+      {
+        "q": "למה פרילנסרים וסטודנטים עובדים מבתי קפה? כתבו סיבה אחת.",
+        "qEn": "Why do freelancers and students work from cafés? Give one reason.",
+        "answer": "כי בבית משעמם להם, והם צריכים קצת רעש מסביב.",
+        "answerEn": "Because they get bored at home, and they need a bit of noise around them.",
+        "keywords": [
+          [
+            "משעמם",
+            "שעמום",
+            "רעש",
+            "אנשים",
+            "אינטרנט",
+            "שקע",
+            "שקעים"
+          ]
+        ]
+      },
+      {
+        "q": "מהו \"הכלל הלא כתוב\" בבתי קפה?",
+        "qEn": "What is the \"unwritten rule\" in cafés?",
+        "answer": "מי שיושב הרבה זמן צריך להזמין יותר מקפה אחד.",
+        "answerEn": "Whoever sits for a long time should order more than one coffee.",
+        "keywords": [
+          [
+            "להזמין",
+            "מזמינים",
+            "תזמינו",
+            "הזמנה",
+            "לקנות",
+            "קונים"
+          ],
+          [
+            "יותר",
+            "עוד",
+            "שני",
+            "כמה"
+          ]
+        ]
+      },
+      {
+        "q": "מה הכותבת חושבת על השלט \"בלי מחשבים\", ולמה?",
+        "qEn": "What does the writer think about the \"no laptops\" sign, and why?",
+        "answer": "שזה רעיון לא רע, כי לפעמים כדאי פשוט לשבת עם חברים.",
+        "answerEn": "That it's not a bad idea, because sometimes it's worth just sitting with friends.",
+        "keywords": [
+          [
+            "רעיון",
+            "טוב",
+            "בעד",
+            "אוהבת",
+            "מסכימה"
+          ],
+          [
+            "חברים",
+            "לשבת",
+            "לנוח",
+            "להסתכל"
+          ]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "בבית הקפה שבו הכותבת יושבת, כולם ממהרים.",
+        "sEn": "In the café where the writer is sitting, everyone is in a hurry.",
+        "a": false,
+        "why": "Around her at least ten people are sitting with laptops, and nobody is in a hurry."
+      },
+      {
+        "s": "בחלק מבתי הקפה אפשר לחבר את המחשב לחשמל ליד השולחן.",
+        "sEn": "In some cafés you can plug your laptop in next to the table.",
+        "a": true,
+        "why": "The post says that in many cafés there is free Wi-Fi, and sometimes there is also a socket next to every table."
+      },
+      {
+        "s": "מי שמבקש הפוך \"דל\" רוצה קפה חלש.",
+        "sEn": "Someone who asks for a hafukh \"dal\" wants weak coffee.",
+        "a": false,
+        "why": "\"Dal\" refers to the milk: it means low-fat milk, not weak coffee."
+      },
+      {
+        "s": "הכותבת עצמה עובדת מבתי קפה כמעט כל יום.",
+        "sEn": "The writer herself works from cafés almost every day.",
+        "a": true,
+        "why": "She writes: \"Even though I work from cafés almost every day, I actually think it's not a bad idea.\""
+      }
+    ],
+    "find": [
+      {
+        "en": "that is, in other words",
+        "answer": [
+          "כלומר"
+        ]
+      },
+      {
+        "en": "Don't panic! (plural)",
+        "answer": [
+          "אל תיבהלו"
+        ]
+      },
+      {
+        "en": "free (of charge)",
+        "answer": [
+          "בחינם"
+        ]
+      },
+      {
+        "en": "recently",
+        "answer": [
+          "לאחרונה"
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "prompt": "בית קפה בישראל הוא לא רק מקום לשתות קפה: הוא גם ___, חדר ישיבות ולפעמים אפילו סלון.",
+        "en": "A café in Israel is not just a place to drink coffee: it is also an office, a meeting room and sometimes even a living room.",
+        "answer": [
+          "משרד",
+          "מקום עבודה"
+        ],
+        "hint": "office"
+      },
+      {
+        "prompt": "המשקה הכי ___ בישראל הוא הפוך: קפה עם הרבה חלב חם וקצף.",
+        "en": "The most popular drink in Israel is the hafukh: coffee with lots of hot milk and foam.",
+        "answer": [
+          "פופולרי",
+          "אהוב",
+          "פופולארי"
+        ],
+        "hint": "popular"
+      },
+      {
+        "prompt": "פרילנסרים וסטודנטים עובדים מבתי קפה, כי בבית ___ להם, או כי הם צריכים קצת רעש מסביב.",
+        "en": "Freelancers and students work from cafés, because they get bored at home, or because they need a bit of noise around them.",
+        "answer": [
+          "משעמם"
+        ],
+        "hint": "boring"
+      },
+      {
+        "prompt": "יש כלל לא ___: מי שיושב שלוש שעות צריך להזמין יותר מקפה אחד.",
+        "en": "There is an unwritten rule: whoever sits for three hours should order more than one coffee.",
+        "answer": [
+          "כתוב"
+        ],
+        "hint": "written"
+      },
+      {
+        "prompt": "בבית קפה ליד הבית של הכותבת תלו שלט: \"בשישי ובשבת – בלי ___\".",
+        "en": "A café near the writer's home put up a sign: \"Fridays and Saturdays — no laptops\".",
+        "answer": [
+          "מחשבים",
+          "מחשבים ניידים"
+        ],
+        "hint": "computers"
+      }
+    ],
+    "writing": {
+      "prompt": "יש בתי קפה שלא מרשים לעבוד עם מחשבים ניידים בסוף השבוע. מה דעתכם על זה? כתבו תגובה לפוסט והסבירו למה.",
+      "promptEn": "Some cafés don't allow working on laptops at the weekend. What do you think about that? Write a comment on the post and explain why.",
+      "minWords": 60,
+      "useWords": [
+        "לדעתי",
+        "למרות ש",
+        "בגלל ש",
+        "בנוסף",
+        "לכן"
+      ],
+      "checklist": [
+        {
+          "en": "Give your opinion about the \"no laptops\" rule (לדעתי / נראה לי)",
+          "keywords": [
+            "לדעתי",
+            "נראה לי"
+          ]
+        },
+        {
+          "en": "Explain why (בגלל ש / כי)",
+          "keywords": [
+            "בגלל",
+            "כי"
+          ]
+        },
+        {
+          "en": "Show the other side with למרות ש or לעומת זאת",
+          "keywords": [
+            "למרות",
+            "לעומת"
+          ]
+        }
+      ],
+      "model": "לדעתי זה כלל הוגן. למרות שעבדתי בעצמי הרבה פעמים מבתי קפה, בסוף השבוע המצב שונה, בגלל שאנשים באים לשם כדי לנוח ולדבר עם חברים. כשבכל שולחן יושב מישהו עם מחשב, אין מקום למשפחות. בנוסף, בית קפה צריך להרוויח, ומי שיושב שלוש שעות עם הפוך אחד לא עוזר לו. לכן בשישי ובשבת הכלל הזה הגיוני. ביום ראשון אפשר לחזור לעבוד שם עם המחשב, ואז כדאי גם להזמין משהו לאכול.",
+      "modelEn": "In my opinion it's a fair rule. Even though I've often worked from cafés myself, at the weekend things are different, because people come there to relax and talk with friends. When there's someone with a laptop at every table, there's no room for families. Besides, a café needs to make money, and someone who sits for three hours with one hafukh doesn't help it. So on Fridays and Saturdays this rule makes sense. On Sunday you can go back to working there with your laptop, and then it's worth ordering something to eat as well."
+    }
+  }
+]

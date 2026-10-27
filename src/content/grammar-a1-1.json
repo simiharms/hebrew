@@ -1,0 +1,560 @@
+[
+  {
+    "id": "g_alphabet",
+    "level": "A1",
+    "title": "The Hebrew alphabet",
+    "titleHe": "האלף־בית",
+    "summary": "The 22 letters and their sounds, the five final forms, look-alike letters, and how to read Hebrew without vowel points.",
+    "sections": [
+      {
+        "h": "Twenty-two letters, read from right to left",
+        "body": "Hebrew is written and read from right to left, so a Hebrew book opens at what an English reader would call the back. There are no capital letters, and in print the letters stand separately. (Handwriting uses a cursive script whose letters look quite different; the shapes here are the print forms you see on signs, on screens and in books.)\n\nAll 22 letters are consonants, but four of them — א, ה, ו, י — also help to show vowels (see 'Reading without vowel points' below). Learn the letter names as well as the sounds: on the phone, Israelis spell a name out letter by letter — כהן: kaf, hey, nun sofít.\n\nDigits and words in Latin letters keep their own left-to-right order inside a Hebrew line: הפגישה בשעה 10:00 (hapgishá besha'á éser) — The meeting is at 10:00.",
+        "table": [
+          ["Letter", "Name", "Sound", "Example"],
+          ["א", "álef", "silent or a glottal stop; carries a vowel", "אבא (ába) dad"],
+          ["ב", "bet / vet", "b or v", "בית (báyit) house"],
+          ["ג", "gímel", "g, as in 'go'", "גדול (gadól) big"],
+          ["ד", "dálet", "d", "דלת (délet) door"],
+          ["ה", "hey", "h; usually silent at the end of a word", "הר (har) mountain"],
+          ["ו", "vav", "v; also shows the vowels o and u", "ורוד (varód) pink"],
+          ["ז", "záyin", "z", "זמן (zman) time"],
+          ["ח", "khet", "kh, like ch in Scottish 'loch'", "חלב (khaláv) milk"],
+          ["ט", "tet", "t", "טוב (tov) good"],
+          ["י", "yud", "y; also shows the vowel i", "ילד (yéled) child, boy"],
+          ["כ", "kaf / khaf", "k or kh", "כלב (kélev) dog"],
+          ["ל", "lámed", "l", "לחם (lékhem) bread"],
+          ["מ", "mem", "m", "מים (máyim) water"],
+          ["נ", "nun", "n", "נר (ner) candle"],
+          ["ס", "sámekh", "s", "ספר (séfer) book"],
+          ["ע", "áyin", "silent or a glottal stop for most speakers (some say it deep in the throat); carries a vowel", "עיר (ir) city"],
+          ["פ", "pey / fey", "p or f", "פרח (pérakh) flower"],
+          ["צ", "tsádi", "ts, as in 'cats'", "צבע (tséva) colour"],
+          ["ק", "kuf", "k", "קפה (kafé) coffee"],
+          ["ר", "resh", "r, made at the back of the throat (like French r)", "רחוב (rekhóv) street"],
+          ["ש", "shin / sin", "sh or s", "שלום (shalóm) hello"],
+          ["ת", "tav", "t", "תפוח (tapú'akh) apple"]
+        ]
+      },
+      {
+        "h": "Five letters change shape at the end of a word",
+        "body": "Five letters have a special final form (sofít, 'final'), used only as the last letter of a word. The sound stays the same; only the shape changes. Four of them — ך, ן, ף, ץ — have a long leg that reaches below the line, while ם is closed like a box.\n\nWhen an ending is added, the letter is no longer last, so it goes back to its normal shape: שולחן → שולחנות (shulkhanót) tables, עץ → עצים (etsím) trees.\n\nך and ף always sound kh and f. A few loanwords end in a p sound; they are written with the ordinary פ, because ף can only be f: ג׳יפ (jip) jeep.",
+        "table": [
+          ["Regular", "Final", "Name", "Example", "Say it", "Meaning"],
+          ["כ", "ך", "kaf sofít", "דרך", "dérekh", "way; road"],
+          ["מ", "ם", "mem sofít", "שלום", "shalóm", "hello; peace"],
+          ["נ", "ן", "nun sofít", "שולחן", "shulkhán", "table"],
+          ["פ", "ף", "pey sofít", "כסף", "késef", "money"],
+          ["צ", "ץ", "tsádi sofít", "ארץ", "érets", "country; land"]
+        ]
+      },
+      {
+        "h": "One letter, two sounds — one sound, several letters",
+        "body": "Three letters have two pronunciations: ב is b or v, כ is k or kh, and פ is p or f. In texts with vowel points, a dot inside the letter (dagesh) shows b, k, p; ordinary text has no dots, so you learn each word's sound together with the word. Some guidelines:\n• At the start of a word they are normally b, k, p: בית (báyit) house, כלב (kélev) dog, פה (po) here.\n• At the end of a word they are normally v, kh, f: טוב (tov) good; ך and ף are always kh and f.\n• Inside a word either is possible: שבת (shabát) Shabbat, but חבר (khavér) friend; מפה (mapá) map, but שפה (safá) language. It can change even within one family of words: ספר (séfer) book, but מספר (mispár) number.\n• Loanwords go their own way: פלאפל (faláfel) starts with f, פיצה (pítsa) with p.\n\nש also has two sounds: sh (shin), as in שלום, and s (sin), as in ישראל (yisra'él) and עשר (éser) ten. sh is much more common.\n\nThe other side of the coin: in modern Israeli speech several sounds can be written with more than one letter, because sounds that were once different have merged. You can't hear the spelling, so learn the spelling of each word with the word itself.",
+        "table": [
+          ["Sound", "Letters", "Examples"],
+          ["t", "ת, ט", "תודה (todá) thank you · טוב (tov) good"],
+          ["k", "ק, כ", "קפה (kafé) coffee · כלב (kélev) dog"],
+          ["kh", "ח, כ / ך", "חלב (khaláv) milk · אוכל (ókhel) food"],
+          ["v", "ב, ו", "טוב (tov) good · ורוד (varód) pink"],
+          ["s", "ס, ש", "ספר (séfer) book · עשר (éser) ten"],
+          ["silent / glottal stop", "א, ע", "אני (aní) I · עכשיו (akhsháv) now"]
+        ]
+      },
+      {
+        "h": "Look-alike letters",
+        "body": "Several letters differ only in a small detail. At first, look closely at the groups in the table; after a few weeks of reading, your eye does it automatically.\n\nA useful trick is to learn one short word for each pair, such as בן / כן or דרך, and picture it whenever you're unsure.",
+        "table": [
+          ["Letters", "How to tell them apart", "Example"],
+          ["ב / כ", "ב sits on a flat base that sticks out at the bottom right; כ is rounded at the bottom", "בן (ben) son · כן (ken) yes"],
+          ["ד / ר / ך", "ד has a sharp corner sticking out at the top right; ר is rounded; ך is the final form and its leg goes below the line", "דרך (dérekh) way, road"],
+          ["ה / ח / ת", "ה has a gap at the top left; ח is closed at the top; ת has a small foot at the bottom left", "הם (hem) they · חם (kham) hot · תה (te) tea"],
+          ["ו / ז / ן", "ו is a straight stroke down to the line with a small head; ז has a cap that sticks out on both sides; ן is the final form and goes below the line", "זמן (zman) time · ורוד (varód) pink"],
+          ["ס / ם", "ס is rounded at the bottom; ם is square and appears only at the end of a word", "ספרים (sfarím) books"],
+          ["ע / צ", "ע has two arms joined at the bottom, with a tail slanting down to the left; צ sits flat on the line, with a small arm at the top right", "צבע (tséva) colour · עץ (ets) tree"],
+          ["י / ו", "י is short and hangs from the top of the line; ו reaches all the way down", "יום (yom) day"]
+        ]
+      },
+      {
+        "h": "Reading without vowel points",
+        "body": "Vowel points (niqqud), the dots and dashes above and below the letters, appear in children's books, poetry, prayer books and dictionaries. Everyday Hebrew — signs, newspapers, websites, text messages — is written without them. Instead, some letters help to show the vowels:\n• ו shows o or u: טוב (tov) good, שוק (shuk) market, הוא (hu) he.\n• י shows i, and also ei: שיר (shir) song, תיק (tik) bag, איפה (éifo) where.\n• At the end of a word, ה (and sometimes א) shows a or e: תודה (todá) thank you, יפה (yafé) beautiful, אבא (ába) dad.\n• A word that begins with a vowel sound starts with א or ע: אני (aní) I, אוכל (ókhel) food, עברית (ivrít) Hebrew.\n• Inside a word, a ו or י that is a real consonant (v, y) is usually doubled: שווה (shavé) worth, עייף (ayéf) tired. At the start or the end of a word one letter is enough: ילד (yéled) child, קו (kav) line.\n\nThe vowels a and e are usually not written inside a word, so a short word can sometimes be read in more than one way: ספר is séfer (book) or sapár (barber). The sentence tells you which, and this is normal for Israelis too. With practice you'll recognise common words as whole shapes, the way you read English.\n\nThis full spelling with extra ו and י (ktiv male) is the standard for everyday writing: שולחן, היום, מיד, כמובן."
+      },
+      {
+        "h": "Geresh ׳ and gershayim ״",
+        "body": "Hebrew has no letters for the sounds j (as in 'jeans'), ch (as in 'chips') and zh (as in 'measure'). Loanwords and foreign names show them with a geresh ׳ after ג, צ or ז:\n• ג׳ = j: ג׳ינס (jins) jeans, ג׳ירפה (jiráfa) giraffe\n• צ׳ = ch: צ׳יפס (chips) chips, fries; צ׳ק (chek) cheque\n• ז׳ = zh: ז׳קט (zhakét) jacket, בז׳ (bezh) beige\n\nA geresh also shortens a single word: גב׳ כהן (gvéret kóhen) Ms Cohen; רח׳ הרצל (rekhóv hértsl) Herzl St. And the letters double as numbers — א׳ = 1, ב׳ = 2, ג׳ = 3 — so the days of the week are often written יום א׳ (Sunday, read yom rishón or yom álef), יום ב׳ (Monday).\n\nGershayim ״ — two strokes placed before the last letter — mark an abbreviation made of several words. Some are read as the full words, others as a word of their own:\n• ת״א = תל אביב (tel avív)\n• בי״ס = בית ספר (bet séfer) school\n• מע״מ (ma'ám) VAT\n• מנכ״ל (mankál) CEO\n• ש״ח = שקל חדש, the shekel; in prices people simply say shékel: 20 ש״ח (esrím shékel)\n\nOn a phone or computer keyboard people often type ' and \" instead; you'll see both in everyday writing."
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "שלו___ (shalóm)",
+        "en": "Shalom (hello; peace).",
+        "answer": ["ם"],
+        "hint": "the final form of מ",
+        "explain": "At the end of a word מ is written ם (mem sofít): שלום."
+      },
+      {
+        "prompt": "שולח___ (shulkhán)",
+        "en": "Table.",
+        "answer": ["ן"],
+        "hint": "the final form of נ",
+        "explain": "At the end of a word נ is written ן, with a leg below the line: שולחן. In the plural שולחנות it is no longer last, so it goes back to נ."
+      },
+      {
+        "prompt": "כס___ (késef)",
+        "en": "Money.",
+        "answer": ["ף"],
+        "hint": "the final form of פ",
+        "explain": "An f at the end of a word is written ף (pey sofít): כסף."
+      },
+      {
+        "prompt": "אר___ (érets)",
+        "en": "Country; land.",
+        "answer": ["ץ"],
+        "hint": "the final form of צ",
+        "explain": "At the end of a word צ is written ץ (tsádi sofít): ארץ."
+      },
+      {
+        "prompt": "דר___ (dérekh)",
+        "en": "Way; road.",
+        "answer": ["ך"],
+        "hint": "the final form of כ",
+        "explain": "A kh written with כ becomes ך at the end of a word: דרך. Note the look-alikes in this one word: ד, ר and ך."
+      },
+      {
+        "prompt": "___ן (ken)",
+        "en": "Yes.",
+        "answer": ["כ"],
+        "hint": "kaf, not bet",
+        "explain": "כן (ken) begins with כ. With ב it would be בן (ben), son: ב has a base that sticks out at the bottom right, while כ is rounded."
+      },
+      {
+        "prompt": "___ם (kham)",
+        "en": "Hot.",
+        "answer": ["ח"],
+        "hint": "khet, not hey",
+        "explain": "חם (kham) begins with ח, which is closed at the top. ה, with a gap at the top left, would give הם (hem), they."
+      },
+      {
+        "prompt": "___ה (te)",
+        "en": "Tea.",
+        "answer": ["ת"],
+        "hint": "tav",
+        "explain": "תה (te): ת has a small foot at the bottom left, ה has a gap at the top. The final ה is silent; it only shows the vowel e."
+      },
+      {
+        "prompt": "ש___ר (shir)",
+        "en": "Song.",
+        "answer": ["י"],
+        "hint": "the vowel letter for i",
+        "explain": "Without niqqud the vowel i is shown with י: שיר."
+      },
+      {
+        "prompt": "ש___ק (shuk)",
+        "en": "Market.",
+        "answer": ["ו"],
+        "hint": "the vowel letter for u",
+        "explain": "ו shows the vowels o and u: שוק."
+      },
+      {
+        "prompt": "___ודה (todá)",
+        "en": "Thank you.",
+        "answer": ["ת"],
+        "hint": "tav, not tet",
+        "explain": "תודה is spelled with ת. ת and ט both sound t, so each word's spelling has to be learned; ת is much more common."
+      },
+      {
+        "prompt": "כתבו בעברית: aní = ___",
+        "en": "Write in Hebrew: ani (I).",
+        "answer": ["אני"],
+        "hint": "starts with א, ends with the vowel letter י",
+        "explain": "אני: א carries the opening a, נ is n, and י shows the final i. A word that starts with a vowel sound begins with א or ע."
+      },
+      {
+        "prompt": "כתבו בעברית: shalóm = ___",
+        "en": "Write in Hebrew: shalom (hello).",
+        "answer": ["שלום"],
+        "hint": "four letters, ending in a final form",
+        "explain": "שלום: ש (sh) + ל (l) + ו (the vowel o) + ם (final mem). The a isn't written."
+      },
+      {
+        "prompt": "כתבו בעברית: kafé = ___",
+        "en": "Write in Hebrew: kafe (coffee).",
+        "answer": ["קפה"],
+        "hint": "k is ק; the final e is ה",
+        "explain": "קפה: ק (k) + פ (p, here f) + ה, which shows the final e. The a isn't written."
+      },
+      {
+        "prompt": "כתבו בעברית: chips = ___",
+        "en": "Write in Hebrew: chips (fries).",
+        "answer": ["צ׳יפס", "צ'יפס"],
+        "hint": "ch is צ׳; i is י",
+        "explain": "The sound ch is written צ with a geresh: צ׳יפס. The i is shown by י, and the word ends in ס."
+      },
+      {
+        "prompt": "כתבו בעברית את הקיצור של תל אביב: ___",
+        "en": "Write the Hebrew abbreviation for Tel Aviv.",
+        "answer": ["ת״א", "ת\"א"],
+        "hint": "two initials with gershayim",
+        "explain": "ת״א = תל אביב: the first letters of the two words, with gershayim ״ before the last letter."
+      }
+    ]
+  },
+  {
+    "id": "g_a1_pronouns",
+    "level": "A1",
+    "title": "I, you, he: pronouns and sentences without 'to be'",
+    "titleHe": "אני, אתה, הוא: כינויי גוף",
+    "summary": "The ten personal pronouns, sentences with no verb 'to be' (אני מורה, היא מחיפה), זה / זאת / אלה, saying no with לא, and the first question words.",
+    "sections": [
+      {
+        "h": "Ten personal pronouns",
+        "body": "English has seven personal pronouns; Hebrew has ten, because it marks gender not only in 'he' and 'she' but also in 'you' and in the plural 'you' and 'they'. Only אני (I) and אנחנו (we) are the same for men and women.\n\n• 'You' to one person: אתה (atá) to a man, את (at) to a woman. The ה of אתה is silent; it only shows the final a. To a woman you ask את ישראלית? (at yisre'élit?), to a man אתה ישראלי? (atá yisre'éli?) — Are you Israeli?\n• Plural 'you' and 'they': אתם (atém) and הם (hem) are for men or for mixed groups — a single man in the group makes it masculine. אתן (atén) and הן (hen) are for women only. In casual speech you'll often hear אתם and הם for women too, but write אתן and הן.\n• הוא and היא also mean 'it', because every noun is masculine or feminine (see the next lesson): איפה הספר? — הוא על השולחן. (éifo haséfer? — hu al hashulkhán) — Where's the book? — It's on the table.\n• Don't confuse את (at, 'you') with the little word את (et) that marks a direct object: same letters, a different word. You'll meet it later in the course.",
+        "table": [
+          ["Pronoun", "Say it", "Meaning", "Who it's for"],
+          ["אני", "aní", "I", "men and women"],
+          ["אתה", "atá", "you", "one man"],
+          ["את", "at", "you", "one woman"],
+          ["הוא", "hu", "he; it", "a man, a masculine noun"],
+          ["היא", "hi", "she; it", "a woman, a feminine noun"],
+          ["אנחנו", "anákhnu", "we", "men and women"],
+          ["אתם", "atém", "you (pl.)", "men, or a mixed group"],
+          ["אתן", "atén", "you (pl.)", "women only"],
+          ["הם", "hem", "they", "men, or a mixed group"],
+          ["הן", "hen", "they", "women only"]
+        ]
+      },
+      {
+        "h": "Sentences without 'am', 'is', 'are'",
+        "body": "Hebrew has no present tense of 'to be'. You simply put the subject next to what you say about it — a noun, an adjective or a place — and there is no word for 'a' / 'an' either:\n• אני סטודנט. (aní studént) — I'm a student. (a man speaking)\n• אני סטודנטית. (aní studentít) — I'm a student. (a woman speaking)\n• היא מחיפה. (hi mekháifa) — She's from Haifa.\n• סמיר רופא. (samír rofé) — Samir is a doctor.\n• הקפה טוב. (hakafé tov) — The coffee is good.\n• אנחנו בעבודה. (anákhnu ba'avodá) — We're at work.\n\nThe noun or adjective matches the subject in gender and number: a woman says אני סטודנטית, a man says אני סטודנט, and a group of friends says אנחנו סטודנטים (anákhnu studentím).\n\nWhen the second half is itself definite — a name, or a noun with ה — Hebrew normally adds הוא, היא, הם or הן as a link; without it you'd have a phrase rather than a sentence: דני הוא המנהל. (dáni hu hamenahél) — Dani is the manager. Compare דני, המנהל… — Dani, the manager…\n\nThe link is also common, though optional, after a name or a longer subject: ישראל היא ארץ קטנה. (yisra'él hi érets ktaná) — Israel is a small country.\n\n'To be' does appear in the past and the future (הייתי, I was; אהיה, I'll be). That comes in A2."
+      },
+      {
+        "h": "זה, זאת, אלה: this is, these are",
+        "body": "To point at something or someone, use זה, זאת or אלה — again with no verb:\n• זה (ze) for a masculine noun: זה הבית שלי. (ze habáyit shelí) — This is my house.\n• זאת (zot) for a feminine noun: זאת דנה, החברה שלי. (zot dána, hakhaverá shelí) — This is Dana, my friend.\n• אלה (éle) for any plural: אלה ההורים שלי. (éle hahorím shelí) — These are my parents.\n\nIn this use Hebrew doesn't distinguish 'this' from 'that': זה covers both. You'll also see and hear זו (zo) for זאת and אלו (élu) for אלה; they mean the same and sound a little more formal.\n\nIn questions and general remarks people use זה for almost everything: מה זה? (ma ze?) — What's this? זה בסדר. (ze beséder) — It's fine. When you ask about a person, match the gender: מי זה? (about a man), מי זאת? (about a woman).\n\nDon't confuse זה ספר (This is a book — a whole sentence) with הספר הזה (haséfer hazé — this book), where זה follows the noun and takes ה, like an adjective. More on that in the next lesson.",
+        "table": [
+          ["Word", "Say it", "Used for", "Example"],
+          ["זה", "ze", "a masculine noun", "זה המחשב שלי. — This is my computer."],
+          ["זאת", "zot", "a feminine noun", "זאת המורה שלי. — This is my teacher. (a woman)"],
+          ["אלה", "éle", "any plural", "אלה החברים שלי. — These are my friends."]
+        ]
+      },
+      {
+        "h": "Saying no: לא",
+        "body": "לא (lo) means both 'no' and 'not'. In a sentence without a verb, put לא right before the part you're denying — normally straight after the subject:\n• אני לא מורה. (aní lo moré) — I'm not a teacher.\n• זה לא קפה, זה תה. (ze lo kafé, ze te) — This isn't coffee, it's tea.\n• הם לא בבית. (hem lo babáyit) — They're not at home.\n\nAs an answer, לא comes first, followed by a comma: את מחיפה? — לא, אני מעכו. (at mekháifa? — lo, aní me'áko) — Are you from Haifa? — No, I'm from Acre. And of course: לא, תודה. (lo, todá) — No, thank you.\n\nFormal written Hebrew has a special negative for these sentences, אינו / אינה (he isn't / she isn't), which you'll meet later in the course. For speech and everyday writing, לא is all you need."
+      },
+      {
+        "h": "Questions: מי, מה, איפה, מאיפה",
+        "body": "A yes/no question uses exactly the same words as the statement; only your voice rises at the end (and in writing you add a question mark):\n• אתה מתל אביב. (atá mitel avív) — You're from Tel Aviv.\n• אתה מתל אביב? — Are you from Tel Aviv?\n\n(In formal writing such a question often opens with האם (ha'ím): האם אתה מתל אביב?)\n\nQuestion words come at the start of the sentence, and there is still no verb 'to be': מי זה? — Who's that? איפה הבנק? — Where's the bank?\n\nמאיפה is מ (from) + איפה (where). מ is a prefix, written together with the next word: מחיפה, מתל אביב, מרוסיה, מאתיופיה. Its vowel changes in speech (mi-, me-), but in writing it's always just מ. So the answer to מאיפה also uses מ: מאיפה אתה? — אני מאשדוד. (me'éifo atá? — aní me'ashdód) — Where are you from? — I'm from Ashdod.\n\nOther question words work the same way: מתי (matáy) when, למה (láma) why, איך (eikh) how, כמה (káma) how much / how many.",
+        "table": [
+          ["Word", "Say it", "Meaning", "Example"],
+          ["מי", "mi", "who", "מי המנהל? (mi hamenahél?) — Who's the manager?"],
+          ["מה", "ma", "what", "מה השם שלך? (ma hashém shelkhá? / shelákh?) — What's your name? (to a man / to a woman)"],
+          ["איפה", "éifo", "where", "איפה השירותים? (éifo hasherutím?) — Where are the toilets?"],
+          ["מאיפה", "me'éifo", "where from", "מאיפה את? (me'éifo at?) — Where are you from? (to a woman)"]
+        ]
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "דני, ___ מתל אביב? (you)",
+        "en": "Dani, are you from Tel Aviv?",
+        "answer": ["אתה"],
+        "hint": "speaking to a man",
+        "explain": "To one man, 'you' is אתה (atá). There's no 'are': אתה מתל אביב?"
+      },
+      {
+        "prompt": "מרים, ___ מורה? (you)",
+        "en": "Miriam, are you a teacher?",
+        "answer": ["את"],
+        "hint": "speaking to a woman",
+        "explain": "To one woman, 'you' is את (at) — with no ה at the end."
+      },
+      {
+        "prompt": "זה אבבה. ___ מהנדס. (he)",
+        "en": "This is Abebe. He's an engineer.",
+        "answer": ["הוא"],
+        "hint": "about a man",
+        "explain": "הוא (hu) = he. No 'is' and no 'an': הוא מהנדס = he's an engineer."
+      },
+      {
+        "prompt": "זאת רנא. ___ רופאה. (she)",
+        "en": "This is Rana. She's a doctor.",
+        "answer": ["היא"],
+        "hint": "about a woman",
+        "explain": "היא (hi) = she. The noun is feminine as well: רופאה (rof'á)."
+      },
+      {
+        "prompt": "___ סטודנטים באוניברסיטה. (we)",
+        "en": "We're students at the university.",
+        "answer": ["אנחנו", "אנו"],
+        "hint": "'we' — the same for men and women",
+        "explain": "אנחנו (anákhnu) is 'we' for men and women alike; the noun after it is plural: סטודנטים. (אנו is a formal written variant.)"
+      },
+      {
+        "prompt": "מאיה ושירה, ___ חברות? (you, plural)",
+        "en": "Maya and Shira, are you friends?",
+        "answer": ["אתן"],
+        "hint": "speaking to two women",
+        "explain": "To a group of women only, 'you' is אתן (atén). In casual speech you'll hear אתם too, but אתן is the correct form."
+      },
+      {
+        "prompt": "איגור ומיכל? ___ בעבודה. (they)",
+        "en": "Igor and Michal? They're at work.",
+        "answer": ["הם"],
+        "hint": "a man and a woman together",
+        "explain": "A mixed group takes the masculine plural: הם (hem)."
+      },
+      {
+        "prompt": "קטיה ורותי? ___ בבית. (they)",
+        "en": "Katya and Ruti? They're at home.",
+        "answer": ["הן"],
+        "hint": "two women",
+        "explain": "For women only, 'they' is הן (hen)."
+      },
+      {
+        "prompt": "___ הבית שלי. (this)",
+        "en": "This is my house.",
+        "answer": ["זה", "זהו"],
+        "hint": "בית is masculine",
+        "explain": "בית is masculine, so 'this is' is זה (ze). זהו (zéhu, from זה + הוא) is a slightly more emphatic variant."
+      },
+      {
+        "prompt": "___ אמא שלי, שושנה. (this)",
+        "en": "This is my mum, Shoshana.",
+        "answer": ["זאת", "זו", "זוהי"],
+        "hint": "introducing a woman",
+        "explain": "For a woman or a feminine noun, 'this is' is זאת (zot); זו (zo) is also correct, a little more formal."
+      },
+      {
+        "prompt": "___ החברים שלי מהעבודה. (these)",
+        "en": "These are my friends from work.",
+        "answer": ["אלה", "אלו"],
+        "hint": "a plural noun",
+        "explain": "For any plural, 'these are' is אלה (éle); אלו (élu) is also used."
+      },
+      {
+        "prompt": "אני ___ מחיפה, אני מעכו. (not)",
+        "en": "I'm not from Haifa, I'm from Acre.",
+        "answer": ["לא"],
+        "hint": "the negative",
+        "explain": "Put לא (lo) before the part you deny: אני לא מחיפה."
+      },
+      {
+        "prompt": "___ זה? — זה לא קפה, זה תה. (what)",
+        "en": "What's this? — It's not coffee, it's tea.",
+        "answer": ["מה"],
+        "hint": "a question about a thing",
+        "explain": "מה (ma) asks 'what?'. The answer uses לא: זה לא קפה."
+      },
+      {
+        "prompt": "___ זה? — זה הדוד שלי. (who)",
+        "en": "Who's that? — That's my uncle.",
+        "answer": ["מי"],
+        "hint": "a question about a person",
+        "explain": "מי (mi) asks about people; מה asks about things."
+      },
+      {
+        "prompt": "___ התחנה המרכזית? (where)",
+        "en": "Where's the central bus station?",
+        "answer": ["איפה", "היכן"],
+        "hint": "a question about a place",
+        "explain": "איפה (éifo) asks 'where?' — and there's no 'is'. (היכן means the same in formal Hebrew.)"
+      },
+      {
+        "prompt": "___ אתה? — אני מבאר שבע. (where from)",
+        "en": "Where are you from? — I'm from Beersheba.",
+        "answer": ["מאיפה", "מהיכן"],
+        "hint": "מ + איפה, one word",
+        "explain": "מאיפה (me'éifo) = from where: the prefix מ + איפה. The answer uses מ as well: מבאר שבע. (Formal Hebrew also has מהיכן.)"
+      }
+    ]
+  },
+  {
+    "id": "g_a1_gender_plural",
+    "level": "A1",
+    "title": "Masculine, feminine and plural",
+    "titleHe": "זכר, נקבה ורבים",
+    "summary": "Every noun is masculine or feminine; plurals in ־ים and ־ות and the common irregular ones; adjectives that agree; and the definite article ה.",
+    "sections": [
+      {
+        "h": "Every noun is masculine or feminine",
+        "body": "In Hebrew every noun — not only people, but also things, places and ideas — is either masculine or feminine. The ending usually tells you which:\n• Feminine: nouns ending in a stressed ־ה (-a) or in ־ת: משפחה (mishpakhá) family, עבודה (avodá) work, מכונית (mekhonít) car, מחברת (makhbéret) notebook, דלת (délet) door.\n• Masculine: everything else: ספר (séfer) book, מחשב (makhshév) computer, שולחן (shulkhán) table, רחוב (rekhóv) street.\n\nExceptions, to learn one by one:\n• Feminine with no feminine ending: עיר (ir) city, ארץ (érets) country, דרך (dérekh) way, road — and most body parts that come in pairs: יד (yad) hand, רגל (régel) leg, foot, עין (áyin) eye, אוזן (ózen) ear.\n• Masculine although they end in ת or ה: בית (báyit) house, שירות (sherút) service, צוות (tsevét) team, where the ת belongs to the root; לילה (láyla) night, where the a is unstressed; and nouns ending in an e sound, such as שדה (sadé) field.\n\nFor people, the gender follows the person, and most words for people have a feminine form with ־ה, ־ת or ־ית. A few look the same in writing: מורה is moré (a male teacher) or morá (a female teacher).",
+        "table": [
+          ["Masculine", "Say it", "Feminine", "Say it", "Meaning"],
+          ["תלמיד", "talmíd", "תלמידה", "talmidá", "pupil"],
+          ["רופא", "rofé", "רופאה", "rof'á", "doctor"],
+          ["מנהל", "menahél", "מנהלת", "menahélet", "manager"],
+          ["סטודנט", "studént", "סטודנטית", "studentít", "student"],
+          ["ישראלי", "yisre'éli", "ישראלית", "yisre'élit", "Israeli"],
+          ["מורה", "moré", "מורה", "morá", "teacher"]
+        ]
+      },
+      {
+        "h": "Regular plurals: ־ים and ־ות",
+        "body": "The basic rule: masculine nouns add ־ים (-im); feminine nouns replace their ־ה or ־ת with ־ות (-ot), and ־ית becomes ־יות (-iyot).\n\nThree things to notice:\n• The stress moves to the ending, and the vowels inside the word often change: yéled → yeladím, séfer → sfarím. Without niqqud you only see the ending change.\n• A final letter becomes a regular letter when an ending is added: עץ → עצים.\n• A mixed group takes the masculine plural: ילדים is boys or children in general, and תלמידים pupils of both sexes; ילדות and תלמידות are girls only.",
+        "table": [
+          ["Singular", "Say it", "Plural", "Say it", "Meaning"],
+          ["ילד", "yéled", "ילדים", "yeladím", "child, boy"],
+          ["ספר", "séfer", "ספרים", "sfarím", "book"],
+          ["מחשב", "makhshév", "מחשבים", "makhshevím", "computer"],
+          ["עץ", "ets", "עצים", "etsím", "tree"],
+          ["תלמידה", "talmidá", "תלמידות", "talmidót", "pupil (f.)"],
+          ["משפחה", "mishpakhá", "משפחות", "mishpakhót", "family"],
+          ["מחברת", "makhbéret", "מחברות", "makhbarót", "notebook"],
+          ["מכונית", "mekhonít", "מכוניות", "mekhoniyót", "car"]
+        ]
+      },
+      {
+        "h": "Irregular plurals: learn them with the noun",
+        "body": "Some nouns take the 'wrong' plural ending. Their gender doesn't change — only the ending looks surprising — so adjectives still follow the real gender (see the next section): שולחנות גדולים (big tables), ערים גדולות (big cities).\n\n• Masculine nouns with ־ות: שולחן → שולחנות, מקום → מקומות (place), חלון → חלונות (window), כיסא → כיסאות (chair), לילה → לילות (night), אבא → אבות (father; in casual speech you'll also hear אבאים, 'dads').\n• Feminine nouns with ־ים: עיר → ערים, שנה → שנים (year), מילה → מילים (word), ביצה → ביצים (egg).\n• Plurals that change more than the ending: אישה → נשים (woman), איש → אנשים (man; the plural means 'people'), בית → בתים (house), יום → ימים (day), אמא → אמהות (mother).\n\nGood dictionaries give the plural with every noun: learn the two together.",
+        "table": [
+          ["Singular", "Plural", "Say it", "Gender", "Meaning"],
+          ["שולחן", "שולחנות", "shulkhán → shulkhanót", "m.", "table"],
+          ["מקום", "מקומות", "makóm → mekomót", "m.", "place"],
+          ["כיסא", "כיסאות", "kisé → kis'ót", "m.", "chair"],
+          ["לילה", "לילות", "láyla → leilót", "m.", "night"],
+          ["אבא", "אבות", "ába → avót", "m.", "father"],
+          ["עיר", "ערים", "ir → arím", "f.", "city"],
+          ["שנה", "שנים", "shaná → shaním", "f.", "year"],
+          ["מילה", "מילים", "milá → milím", "f.", "word"],
+          ["אישה", "נשים", "ishá → nashím", "f.", "woman"],
+          ["איש", "אנשים", "ish → anashím", "m.", "man; (pl.) people"],
+          ["בית", "בתים", "báyit → batím", "m.", "house"],
+          ["יום", "ימים", "yom → yamím", "m.", "day"]
+        ]
+      },
+      {
+        "h": "Adjectives agree in gender and number",
+        "body": "An adjective comes after its noun and copies the noun's gender and number, with the same four endings you know from nouns: no ending (m. sg.), ־ה (f. sg.), ־ים (m. pl.), ־ות (f. pl.).\n\n• The adjective follows the noun's real gender, not its ending: שולחנות גדולים (shulkhanót gdolím) big tables; ערים יפות (arím yafót) beautiful cities; נשים חכמות (nashím khakhamót) clever women.\n• The vowels inside the adjective shift too: גדול (gadól) → גדולה (gdolá); קטן (katán) → קטנה (ktaná).\n• Adjectives ending in ־ה look the same in the masculine and feminine singular: בית יפה (báyit yafé), עיר יפה (ir yafá); in the plural, יפים and יפות.\n\nThe same agreement applies when the adjective is the predicate (remember: no 'is'): הילד קטן (hayéled katán) — The boy is small; הדירה גדולה (hadirá gdolá) — The apartment is big; הספרים חדשים (hasfarím khadashím) — The books are new.",
+        "table": [
+          ["", "Masculine", "Feminine"],
+          ["Singular", "ילד קטן (yéled katán) a small boy", "ילדה קטנה (yaldá ktaná) a small girl"],
+          ["Plural", "ילדים קטנים (yeladím ktaním) small boys, small children", "ילדות קטנות (yeladót ktanót) small girls"]
+        ]
+      },
+      {
+        "h": "The definite article ה",
+        "body": "Hebrew has no word for 'a': ספר is 'a book'. 'The' is ה (ha-), written together with the noun, and it's the same for every gender and number: הספר (haséfer) the book, הדירה (hadirá) the apartment, העיר (ha'ír) the city, הנשים (hanashím) the women.\n\n• An adjective that describes a definite noun takes ה as well: דירה חדשה (a new apartment) → הדירה החדשה (hadirá hakhadashá) the new apartment.\n• So one letter separates a phrase from a sentence: הילד הקטן = the small boy, but הילד קטן = The boy is small.\n• Names of people and of most places are definite already and don't take ה: דנה, חיפה, ישראל.\n• 'This' in the sense of 'this book' also comes after the noun, with ה: הספר הזה (haséfer hazé), הדירה הזאת (hadirá hazót), הילדים האלה (hayeladím ha'éle).\n• After ב (in, at), ל (to) and כ (like), the ה drops out of writing but its a stays in the prefix: ב + הבית → בבית (babáyit) at home, in the house; ב + העבודה → בעבודה (ba'avodá) at work.",
+        "table": [
+          ["a …", "the …", "The … is …"],
+          ["ילד קטן (a small boy)", "הילד הקטן (the small boy)", "הילד קטן. (The boy is small.)"],
+          ["דירה חדשה (a new apartment)", "הדירה החדשה (the new apartment)", "הדירה חדשה. (The apartment is new.)"],
+          ["ספרים טובים (good books)", "הספרים הטובים (the good books)", "הספרים טובים. (The books are good.)"],
+          ["ערים יפות (beautiful cities)", "הערים היפות (the beautiful cities)", "הערים יפות. (The cities are beautiful.)"]
+        ]
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "יש לי מחשב ___. (new)",
+        "en": "I have a new computer.",
+        "answer": ["חדש"],
+        "hint": "masculine singular",
+        "explain": "מחשב is masculine singular, so the adjective has no ending: חדש (khadásh)."
+      },
+      {
+        "prompt": "ילד קטן וילדה ___. (small)",
+        "en": "A small boy and a small girl.",
+        "answer": ["קטנה"],
+        "hint": "feminine singular",
+        "explain": "ילדה is feminine singular, so the adjective adds ־ה: קטנה (ktaná)."
+      },
+      {
+        "prompt": "ילדים קטנים וילדות ___. (small)",
+        "en": "Small boys and small girls.",
+        "answer": ["קטנות"],
+        "hint": "feminine plural",
+        "explain": "ילדות is feminine plural, so the adjective takes ־ות: קטנות (ktanót)."
+      },
+      {
+        "prompt": "בחנות הזאת יש ___ בעברית ובאנגלית. (books)",
+        "en": "This shop has books in Hebrew and in English.",
+        "answer": ["ספרים"],
+        "hint": "the plural of ספר",
+        "explain": "ספר is masculine, so its plural adds ־ים: ספרים (sfarím)."
+      },
+      {
+        "prompt": "בשכונה שלנו גרות הרבה ___ צעירות. (families)",
+        "en": "Lots of young families live in our neighbourhood.",
+        "answer": ["משפחות"],
+        "hint": "the plural of משפחה",
+        "explain": "A feminine ־ה becomes ־ות: משפחות (mishpakhót). The verb גרות and the adjective צעירות are feminine plural too."
+      },
+      {
+        "prompt": "ברחוב שלי יש הרבה ___. (cars)",
+        "en": "There are lots of cars on my street.",
+        "answer": ["מכוניות"],
+        "hint": "the plural of מכונית",
+        "explain": "Nouns ending in ־ית make their plural in ־יות: מכוניות (mekhoniyót)."
+      },
+      {
+        "prompt": "בכיתה יש ___ וכיסאות. (tables)",
+        "en": "There are tables and chairs in the classroom.",
+        "answer": ["שולחנות"],
+        "hint": "the plural of שולחן",
+        "explain": "שולחן is masculine but takes ־ות: שולחנות (shulkhanót), just like כיסא → כיסאות. The final ן becomes נ, because it's no longer at the end."
+      },
+      {
+        "prompt": "חיפה ובאר שבע הן ___ גדולות. (cities)",
+        "en": "Haifa and Beersheba are big cities.",
+        "answer": ["ערים"],
+        "hint": "the plural of עיר",
+        "explain": "עיר is feminine, but its plural ends in ־ים: ערים (arím), and the י drops out. The adjective stays feminine: גדולות."
+      },
+      {
+        "prompt": "בקורס יש גברים ו___. (women)",
+        "en": "There are men and women on the course.",
+        "answer": ["נשים"],
+        "hint": "the plural of אישה",
+        "explain": "אישה has a completely different plural: נשים (nashím)."
+      },
+      {
+        "prompt": "דני ויוסי הם ___ טובים. (fathers)",
+        "en": "Dani and Yossi are good fathers.",
+        "answer": ["אבות"],
+        "hint": "the standard plural of אבא",
+        "explain": "אבא is masculine and its plural is אבות (avót); the adjective stays masculine: אבות טובים. In casual speech you'll also hear אבאים."
+      },
+      {
+        "prompt": "יש להם בית ___ עם גינה. (big)",
+        "en": "They have a big house with a garden.",
+        "answer": ["גדול"],
+        "hint": "check the gender of בית",
+        "explain": "בית ends in ת, but that ת is part of the root: the noun is masculine, so גדול (gadól)."
+      },
+      {
+        "prompt": "ישראל היא ארץ ___. (small)",
+        "en": "Israel is a small country.",
+        "answer": ["קטנה"],
+        "hint": "check the gender of ארץ",
+        "explain": "ארץ has no feminine ending, but it is feminine, so the adjective is קטנה (ktaná)."
+      },
+      {
+        "prompt": "ירושלים ועכו הן ערים ___ ועתיקות. (beautiful)",
+        "en": "Jerusalem and Acre are beautiful, ancient cities.",
+        "answer": ["יפות"],
+        "hint": "agree with ערים",
+        "explain": "ערים ends in ־ים, but עיר is feminine, so the adjective is feminine plural: יפות (yafót), like עתיקות."
+      },
+      {
+        "prompt": "השולחנות בכיתה ___. (old)",
+        "en": "The tables in the classroom are old.",
+        "answer": ["ישנים"],
+        "hint": "agree with שולחנות",
+        "explain": "שולחן is masculine, so even with ־ות the adjective takes ־ים: ישנים (yeshaním)."
+      },
+      {
+        "prompt": "___ קטנה, אבל נוחה. (the apartment)",
+        "en": "The apartment is small but comfortable.",
+        "answer": ["הדירה"],
+        "hint": "'the' + דירה",
+        "explain": "'The' is the prefix ה: הדירה (hadirá). קטנה has no ה, so this is a full sentence: the apartment is small."
+      },
+      {
+        "prompt": "הספרים ___ על השולחן. (the new)",
+        "en": "The new books are on the table.",
+        "answer": ["החדשים"],
+        "hint": "definite, masculine plural",
+        "explain": "A definite noun needs a definite adjective: הספרים החדשים (hasfarím hakhadashím). Without the second ה, הספרים חדשים would mean 'The books are new'."
+      }
+    ]
+  }
+]

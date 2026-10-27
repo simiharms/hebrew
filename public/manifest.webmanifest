@@ -1,0 +1,16 @@
+{
+  "name": "Shoresh — Hebrew for work & life",
+  "short_name": "Shoresh",
+  "description": "Learn Hebrew past A2: graded reading, TV-style listening, typed answers, roots and verbs.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6f4ef",
+  "theme_color": "#1d4e89",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

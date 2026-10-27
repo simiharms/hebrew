@@ -1,0 +1,1605 @@
+[
+  {
+    "id": "va1b_guf",
+    "he": "גוף",
+    "tr": "guf",
+    "en": "body",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "גופים",
+    "root": "ג.ו.פ",
+    "level": "A1",
+    "topic": "body",
+    "ex": {
+      "he": "ספורט טוב לגוף.",
+      "en": "Sport is good for the body."
+    },
+    "note": "Plural גופים (gufím). Same root as גופייה (tank top). In grammar, גוף means 'person': גוף ראשון = first person."
+  },
+  {
+    "id": "va1b_rosh",
+    "he": "ראש",
+    "tr": "rosh",
+    "en": "head",
+    "enAlt": [
+      "chief",
+      "top"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "ראשים",
+    "root": "ר.א.ש",
+    "level": "A1",
+    "topic": "body",
+    "ex": {
+      "he": "כואב לי הראש, אני הולך לישון.",
+      "en": "I have a headache, I'm going to bed."
+    },
+    "note": "Plural ראשים (rashím). Also 'head of, chief': ראש העיר (the mayor), ראש השנה (New Year, lit. 'head of the year'). כאב ראש = a headache."
+  },
+  {
+    "id": "va1b_panim",
+    "he": "פנים",
+    "tr": "paním",
+    "en": "face",
+    "enAlt": [
+      "faces"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "root": "פ.נ.ה",
+    "level": "A1",
+    "topic": "body",
+    "ex": {
+      "he": "אני שוטפת את הפנים במים קרים.",
+      "en": "I wash my face with cold water."
+    },
+    "note": "Always plural in form, even for one face. It can be feminine or masculine; adjectives are plural and most often feminine: פנים יפות, פנים עגולות. Same root as לפני (before) and לפנות (to turn)."
+  },
+  {
+    "id": "va1b_ayin",
+    "he": "עין",
+    "tr": "áyin",
+    "en": "eye",
+    "enAlt": [
+      "eyes"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "עיניים",
+    "root": "ע.י.נ",
+    "level": "A1",
+    "topic": "body",
+    "ex": {
+      "he": "יש לה עיניים ירוקות.",
+      "en": "She has green eyes."
+    },
+    "note": "Feminine, with the dual plural עיניים (eináyim): עיניים כחולות. The letter ע is also called עין."
+  },
+  {
+    "id": "va1b_ozen",
+    "he": "אוזן",
+    "tr": "ózen",
+    "en": "ear",
+    "enAlt": [
+      "ears"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "אוזניים",
+    "root": "א.ז.נ",
+    "level": "A1",
+    "topic": "body",
+    "ex": {
+      "he": "כואבת לי האוזן, אני צריכה ללכת לרופא.",
+      "en": "My ear hurts, I need to go to the doctor."
+    },
+    "note": "Feminine, with the dual plural אוזניים (oznáyim). Same root as אוזניות (headphones, earphones)."
+  },
+  {
+    "id": "va1b_af",
+    "he": "אף",
+    "tr": "af",
+    "en": "nose",
+    "pos": "noun",
+    "gender": "m",
+    "level": "A1",
+    "topic": "body",
+    "ex": {
+      "he": "האף שלי אדום מהקור.",
+      "en": "My nose is red from the cold."
+    },
+    "note": "Spelled like אף (af, 'not even'), as in אף אחד (nobody). A runny nose is נזלת: יש לי נזלת."
+  },
+  {
+    "id": "va1b_pe",
+    "he": "פה",
+    "tr": "pe",
+    "en": "mouth",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "פיות",
+    "level": "A1",
+    "topic": "body",
+    "ex": {
+      "he": "לא מדברים עם הפה מלא!",
+      "en": "Don't talk with your mouth full!"
+    },
+    "note": "Spelled like פה (po, here); context tells you which. Plural פיות (piyót). בעל פה = by heart, orally: ללמוד בעל פה (to learn by heart)."
+  },
+  {
+    "id": "va1b_shen",
+    "he": "שן",
+    "tr": "shen",
+    "en": "tooth",
+    "enAlt": [
+      "teeth"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "שיניים",
+    "root": "ש.נ.נ",
+    "level": "A1",
+    "topic": "body",
+    "ex": {
+      "he": "אני מצחצח שיניים כל בוקר וכל ערב.",
+      "en": "I brush my teeth every morning and every evening."
+    },
+    "note": "Feminine, with the dual plural שיניים (shináyim). לצחצח שיניים = to brush your teeth; רופא שיניים = dentist; מברשת שיניים = toothbrush."
+  },
+  {
+    "id": "va1b_sear",
+    "he": "שיער",
+    "tr": "se'ár",
+    "en": "hair",
+    "pos": "noun",
+    "gender": "m",
+    "root": "ש.ע.ר",
+    "level": "A1",
+    "topic": "body",
+    "ex": {
+      "he": "לאמירה יש שיער ארוך ושחור.",
+      "en": "Amira has long black hair."
+    },
+    "note": "Masculine and normally singular, like English 'hair': שיער ארוך. A single hair is שערה (sa'ará), plural שערות. מספרה = hair salon."
+  },
+  {
+    "id": "va1b_tsavar",
+    "he": "צוואר",
+    "tr": "tsavár",
+    "en": "neck",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "צווארים",
+    "root": "צ.ו.ר",
+    "level": "A1",
+    "topic": "body",
+    "ex": {
+      "he": "קר בחוץ, תשים צעיף על הצוואר.",
+      "en": "It's cold outside, put a scarf around your neck."
+    },
+    "note": "Written with a double ו in full spelling. צווארון = collar. 'Throat' (inside) is גרון."
+  },
+  {
+    "id": "va1b_katef",
+    "he": "כתף",
+    "tr": "katéf",
+    "en": "shoulder",
+    "enAlt": [
+      "shoulders"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "כתפיים",
+    "root": "כ.ת.פ",
+    "level": "A1",
+    "topic": "body",
+    "ex": {
+      "he": "התיק כבד, והכתף שלי כואבת.",
+      "en": "The bag is heavy, and my shoulder hurts."
+    },
+    "note": "Feminine, with the dual plural כתפיים (ktefáyim). כתף אל כתף = shoulder to shoulder."
+  },
+  {
+    "id": "va1b_yad",
+    "he": "יד",
+    "tr": "yad",
+    "en": "hand; arm",
+    "enAlt": [
+      "hand",
+      "arm",
+      "hands"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "ידיים",
+    "level": "A1",
+    "topic": "body",
+    "ex": {
+      "he": "תשטוף ידיים לפני האוכל.",
+      "en": "Wash your hands before eating."
+    },
+    "note": "Feminine, with the dual plural ידיים (yadáyim). In everyday speech it covers the whole arm too: שברתי את היד = I broke my arm (or hand). ביד = by hand; יד שנייה = second-hand."
+  },
+  {
+    "id": "va1b_zroa",
+    "he": "זרוע",
+    "tr": "zróa",
+    "en": "arm",
+    "enAlt": [
+      "upper arm"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "זרועות",
+    "root": "ז.ר.ע",
+    "level": "A2",
+    "topic": "body",
+    "ex": {
+      "he": "האחות נתנה לי זריקה בזרוע.",
+      "en": "The nurse gave me an injection in my arm."
+    },
+    "note": "Feminine, plural זרועות (zro'ót). The precise word for the arm, used by doctors and in writing; in conversation people usually just say יד. זריקה = an injection."
+  },
+  {
+    "id": "va1b_etsba",
+    "he": "אצבע",
+    "tr": "etsbá",
+    "en": "finger",
+    "enAlt": [
+      "toe",
+      "fingers"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "אצבעות",
+    "level": "A1",
+    "topic": "body",
+    "ex": {
+      "he": "התינוקת מחזיקה לי את האצבע.",
+      "en": "The baby is holding my finger."
+    },
+    "note": "Feminine: אצבע אחת, שתי אצבעות, עשר אצבעות. Toes are אצבעות הרגליים."
+  },
+  {
+    "id": "va1b_regel",
+    "he": "רגל",
+    "tr": "régel",
+    "en": "leg; foot",
+    "enAlt": [
+      "leg",
+      "foot",
+      "legs",
+      "feet"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "רגליים",
+    "root": "ר.ג.ל",
+    "level": "A1",
+    "topic": "body",
+    "ex": {
+      "he": "אחרי הטיול כואבות לי הרגליים.",
+      "en": "After the hike my legs hurt."
+    },
+    "note": "Feminine, with the dual plural רגליים (ragláyim). Like יד, it covers both the leg and the foot. ברגל = on foot: אני הולך לעבודה ברגל. כדורגל = football (lit. 'foot-ball')."
+  },
+  {
+    "id": "va1b_berekh",
+    "he": "ברך",
+    "tr": "bérekh",
+    "en": "knee",
+    "enAlt": [
+      "knees"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "ברכיים",
+    "level": "A1",
+    "topic": "body",
+    "ex": {
+      "he": "כואבת לי הברך, אני לא יכול לרוץ היום.",
+      "en": "My knee hurts, I can't run today."
+    },
+    "note": "Feminine, with the dual plural ברכיים (birkáyim). על הברכיים = on one's knees."
+  },
+  {
+    "id": "va1b_beten",
+    "he": "בטן",
+    "tr": "béten",
+    "en": "belly; stomach",
+    "enAlt": [
+      "stomach",
+      "tummy",
+      "belly",
+      "abdomen"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "root": "ב.ט.נ",
+    "level": "A1",
+    "topic": "body",
+    "ex": {
+      "he": "אני לא אוכל עכשיו, כואבת לי הבטן.",
+      "en": "I'm not eating now, I have a stomachache."
+    },
+    "note": "Feminine: הבטן כואבת. In everyday speech it also means 'stomach'; the organ itself is קיבה. על בטן ריקה = on an empty stomach."
+  },
+  {
+    "id": "va1b_gav",
+    "he": "גב",
+    "tr": "gav",
+    "en": "back",
+    "pos": "noun",
+    "gender": "m",
+    "level": "A1",
+    "topic": "body",
+    "ex": {
+      "he": "אחרי יום שלם מול המחשב כואב לי הגב.",
+      "en": "After a whole day at the computer, my back hurts."
+    },
+    "note": "Masculine: הגב כואב. כאבי גב = back pain; על הגב = on one's back; מאחורי הגב = behind someone's back. תיק גב = a backpack."
+  },
+  {
+    "id": "va1b_lev",
+    "he": "לב",
+    "tr": "lev",
+    "en": "heart",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "לבבות",
+    "root": "ל.ב.ב",
+    "level": "A1",
+    "topic": "body",
+    "ex": {
+      "he": "תודה רבה, מכל הלב!",
+      "en": "Thank you so much, from the bottom of my heart!"
+    },
+    "note": "Irregular plural לבבות (levavót). לשים לב = to pay attention, to notice: שים לב! / שימי לב! = watch out! / note!"
+  },
+  {
+    "id": "va1b_garon",
+    "he": "גרון",
+    "tr": "garón",
+    "en": "throat",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "גרונות",
+    "root": "ג.ר.נ",
+    "level": "A1",
+    "topic": "body",
+    "ex": {
+      "he": "יש לי חום, וכואב לי הגרון.",
+      "en": "I have a fever and a sore throat."
+    },
+    "note": "Plural גרונות (gronót). כאב גרון = a sore throat. The outside of the neck is צוואר."
+  },
+  {
+    "id": "va1b_or",
+    "he": "עור",
+    "tr": "or",
+    "en": "skin",
+    "enAlt": [
+      "leather"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "עורות",
+    "root": "ע.ו.ר",
+    "level": "A2",
+    "topic": "body",
+    "ex": {
+      "he": "בקיץ צריך לשים קרם הגנה על העור.",
+      "en": "In summer you need to put sunscreen on your skin."
+    },
+    "note": "Also 'leather': מעיל עור = a leather jacket. קרם הגנה = sunscreen. Sounds exactly like אור (light)."
+  },
+  {
+    "id": "va1b_dam",
+    "he": "דם",
+    "tr": "dam",
+    "en": "blood",
+    "pos": "noun",
+    "gender": "m",
+    "level": "A2",
+    "topic": "body",
+    "ex": {
+      "he": "מחר בבוקר אני הולכת לבדיקת דם.",
+      "en": "Tomorrow morning I'm going for a blood test."
+    },
+    "note": "Masculine. בדיקת דם = a blood test; לחץ דם = blood pressure; לתרום דם = to donate blood."
+  },
+  {
+    "id": "va1b_gova",
+    "he": "גובה",
+    "tr": "góva",
+    "en": "height",
+    "enAlt": [
+      "altitude",
+      "tallness"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "root": "ג.ב.ה",
+    "level": "A2",
+    "topic": "body",
+    "ex": {
+      "he": "מה הגובה שלך? מטר שבעים.",
+      "en": "How tall are you? One metre seventy."
+    },
+    "note": "Same root as גבוה (tall). Hebrew asks about the height: מה הגובה שלך? (lit. 'what is your height?'). Heights are said in metres: מטר שמונים = 1.80 m."
+  },
+  {
+    "id": "va1b_mishkal",
+    "he": "משקל",
+    "tr": "mishkál",
+    "en": "weight",
+    "enAlt": [
+      "scale",
+      "scales"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "משקלים",
+    "root": "ש.ק.ל",
+    "level": "A2",
+    "topic": "body",
+    "ex": {
+      "he": "הרופאה בדקה את הגובה ואת המשקל של התינוק.",
+      "en": "The doctor checked the baby's height and weight."
+    },
+    "note": "Same root as שקל (the shekel, originally a weight) and לשקול (to weigh). Colloquially also the bathroom scale: לעלות על המשקל = to step on the scale."
+  },
+  {
+    "id": "va1b_bari",
+    "he": "בריא",
+    "tr": "barí",
+    "en": "healthy",
+    "enAlt": [
+      "well",
+      "in good health"
+    ],
+    "pos": "adj",
+    "root": "ב.ר.א",
+    "level": "A1",
+    "topic": "body",
+    "ex": {
+      "he": "ירקות ופירות זה אוכל בריא.",
+      "en": "Vegetables and fruit are healthy food."
+    },
+    "note": "Feminine בריאה (bri'á); plural בריאים, בריאות. The noun בריאות = health. לבריאות! = bless you! (after a sneeze), also said to someone who has just eaten or drunk. A toast is לחיים! (cheers!)."
+  },
+  {
+    "id": "va1b_khazak",
+    "he": "חזק",
+    "tr": "khazák",
+    "en": "strong",
+    "enAlt": [
+      "powerful",
+      "loud"
+    ],
+    "pos": "adj",
+    "root": "ח.ז.ק",
+    "level": "A1",
+    "topic": "body",
+    "ex": {
+      "he": "הקפה הזה חזק מדי בשבילי.",
+      "en": "This coffee is too strong for me."
+    },
+    "note": "Feminine חזקה (khazaká); plural חזקים, חזקות. Also 'loud': תדבר יותר חזק = speak up. רוח חזקה = a strong wind."
+  },
+  {
+    "id": "va1b_khalash",
+    "he": "חלש",
+    "tr": "khalásh",
+    "en": "weak",
+    "enAlt": [
+      "faint",
+      "feeble"
+    ],
+    "pos": "adj",
+    "root": "ח.ל.ש",
+    "level": "A1",
+    "topic": "body",
+    "ex": {
+      "he": "אחרי השפעת אני עדיין קצת חלשה.",
+      "en": "After the flu I'm still a little weak."
+    },
+    "note": "Feminine חלשה (khalashá); plural חלשים, חלשות. Also for drinks and signals: קפה חלש, קליטה חלשה (weak reception). שפעת = the flu."
+  },
+  {
+    "id": "va1b_er",
+    "he": "ער",
+    "tr": "er",
+    "en": "awake",
+    "enAlt": [
+      "up",
+      "wide awake"
+    ],
+    "pos": "adj",
+    "root": "ע.ו.ר",
+    "level": "A2",
+    "topic": "body",
+    "ex": {
+      "he": "השעה שתיים בלילה, ואני עדיין ער.",
+      "en": "It's two in the morning, and I'm still awake."
+    },
+    "note": "Feminine ערה (erá); plural ערים, ערות. Careful: ערים is also 'cities'. להתעורר = to wake up."
+  },
+  {
+    "id": "va1b_savea",
+    "he": "שבע",
+    "tr": "savéa",
+    "en": "full (after eating)",
+    "enAlt": [
+      "full",
+      "satisfied",
+      "sated"
+    ],
+    "pos": "adj",
+    "root": "ש.ב.ע",
+    "level": "A2",
+    "topic": "body",
+    "ex": {
+      "he": "לא, תודה, אני כבר שבעה.",
+      "en": "No thanks, I'm already full."
+    },
+    "note": "Said savéa, but spelled like the number שבע (seven). Feminine שבעה (sve'á), spelled like שבעה (seven); plural שבעים (also 'seventy'), שבעות. Context decides. Colloquially: אני מפוצץ (I'm stuffed)."
+  },
+  {
+    "id": "va1b_koev_li",
+    "he": "כואב לי",
+    "tr": "koév li",
+    "en": "it hurts (me)",
+    "enAlt": [
+      "it hurts",
+      "I'm in pain",
+      "I have a pain"
+    ],
+    "alt": [
+      "כואבת לי",
+      "כואבים לי",
+      "כואבות לי"
+    ],
+    "pos": "phrase",
+    "level": "A1",
+    "topic": "body",
+    "ex": {
+      "he": "כואב לי פה, ליד העין.",
+      "en": "It hurts here, near my eye."
+    },
+    "note": "כואב agrees with the part that hurts, which usually comes after it: כואב לי הראש, כואבת לי הבטן, כואבות לי הרגליים. The doctor asks: מה כואב לך? (what hurts?)."
+  },
+  {
+    "id": "va1b_lo_margish_tov",
+    "he": "אני לא מרגיש טוב",
+    "tr": "ani lo margísh tov",
+    "en": "I don't feel well",
+    "enAlt": [
+      "I'm not feeling well",
+      "I feel sick",
+      "I don't feel good"
+    ],
+    "alt": [
+      "אני לא מרגישה טוב"
+    ],
+    "pos": "phrase",
+    "level": "A1",
+    "topic": "body",
+    "ex": {
+      "he": "אני לא מרגישה טוב, אני נשארת היום בבית.",
+      "en": "I don't feel well, I'm staying home today."
+    },
+    "note": "A woman says אני לא מרגישה טוב (margishá). The standard message to your manager: אני לא מרגיש טוב, אני לא אגיע היום (I'm not feeling well, I won't come in today)."
+  },
+  {
+    "id": "va1b_beged",
+    "he": "בגד",
+    "tr": "béged",
+    "en": "piece of clothing",
+    "enAlt": [
+      "clothes",
+      "clothing",
+      "garment"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "בגדים",
+    "root": "ב.ג.ד",
+    "level": "A1",
+    "topic": "clothes",
+    "ex": {
+      "he": "אני צריך לקנות בגדים לחורף.",
+      "en": "I need to buy clothes for the winter."
+    },
+    "note": "Mostly used in the plural, בגדים (bgadím) = clothes. חנות בגדים = a clothes shop; בגד ים = a swimsuit."
+  },
+  {
+    "id": "va1b_khultsa",
+    "he": "חולצה",
+    "tr": "khultsá",
+    "en": "shirt",
+    "enAlt": [
+      "blouse",
+      "top",
+      "T-shirt"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "חולצות",
+    "level": "A1",
+    "topic": "clothes",
+    "ex": {
+      "he": "החולצה הלבנה בכביסה.",
+      "en": "The white shirt is in the wash."
+    },
+    "note": "Covers shirts, blouses and T-shirts. A T-shirt is also חולצת טי; a button-down shirt is חולצה מכופתרת."
+  },
+  {
+    "id": "va1b_mikhnasayim",
+    "he": "מכנסיים",
+    "tr": "mikhnasáyim",
+    "en": "trousers",
+    "enAlt": [
+      "pants",
+      "slacks"
+    ],
+    "alt": [
+      "מכנסים"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "root": "כ.נ.ס",
+    "level": "A1",
+    "topic": "clothes",
+    "ex": {
+      "he": "המכנסיים האלה ארוכים מדי.",
+      "en": "These trousers are too long."
+    },
+    "note": "Always plural and masculine, like English 'trousers': מכנסיים חדשים, זוג מכנסיים. Shops sometimes use the singular מכנס."
+  },
+  {
+    "id": "va1b_mikhnasayim_ktsarim",
+    "he": "מכנסיים קצרים",
+    "tr": "mikhnasáyim ktsarím",
+    "en": "shorts",
+    "enAlt": [
+      "short trousers",
+      "short pants"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "level": "A1",
+    "topic": "clothes",
+    "ex": {
+      "he": "בקיץ הוא הולך במכנסיים קצרים, גם לעבודה.",
+      "en": "In summer he wears shorts, even to work."
+    },
+    "note": "Literally 'short trousers'. In speech ללכת ב (lit. 'to walk in') often means 'to wear': היא הולכת בשמלה."
+  },
+  {
+    "id": "va1b_simla",
+    "he": "שמלה",
+    "tr": "simlá",
+    "en": "dress",
+    "enAlt": [
+      "gown",
+      "frock"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "שמלות",
+    "level": "A1",
+    "topic": "clothes",
+    "ex": {
+      "he": "איזו שמלה יפה! היא חדשה?",
+      "en": "What a beautiful dress! Is it new?"
+    },
+    "note": "Plural שמלות (smalót). שמלת כלה = wedding dress. When a friend shows off new clothes, say תתחדשי! (enjoy it!)."
+  },
+  {
+    "id": "va1b_khatsait",
+    "he": "חצאית",
+    "tr": "khatsa'ít",
+    "en": "skirt",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "חצאיות",
+    "level": "A1",
+    "topic": "clothes",
+    "ex": {
+      "he": "מאיה לובשת חצאית שחורה וחולצה לבנה.",
+      "en": "Maya is wearing a black skirt and a white shirt."
+    },
+    "note": "Plural חצאיות (khatsa'iyót). חצאית ארוכה / קצרה = a long / short skirt."
+  },
+  {
+    "id": "va1b_naal",
+    "he": "נעל",
+    "tr": "na'ál",
+    "en": "shoe",
+    "enAlt": [
+      "shoes"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "נעליים",
+    "root": "נ.ע.ל",
+    "level": "A1",
+    "topic": "clothes",
+    "ex": {
+      "he": "אני צריכה נעליים נוחות לעבודה.",
+      "en": "I need comfortable shoes for work."
+    },
+    "note": "Feminine, and mostly used in the dual plural נעליים (na'aláyim): זוג נעליים. נעלי ספורט = sneakers; נעלי בית = slippers."
+  },
+  {
+    "id": "va1b_gerev",
+    "he": "גרב",
+    "tr": "gérev",
+    "en": "sock",
+    "enAlt": [
+      "socks",
+      "stocking"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "גרביים",
+    "level": "A1",
+    "topic": "clothes",
+    "ex": {
+      "he": "אני לא מוצא את הגרביים שלי.",
+      "en": "I can't find my socks."
+    },
+    "note": "Masculine, with the dual plural גרביים (garbáyim): זוג גרביים. גרבונים = tights."
+  },
+  {
+    "id": "va1b_meil",
+    "he": "מעיל",
+    "tr": "me'íl",
+    "en": "coat",
+    "enAlt": [
+      "overcoat",
+      "winter coat"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מעילים",
+    "level": "A1",
+    "topic": "clothes",
+    "ex": {
+      "he": "קח מעיל, בערב קר.",
+      "en": "Take a coat, it's cold in the evening."
+    },
+    "note": "Plural מעילים (me'ilím). מעיל גשם = a raincoat. A lighter jacket is usually ז׳קט."
+  },
+  {
+    "id": "va1b_kova",
+    "he": "כובע",
+    "tr": "kóva",
+    "en": "hat",
+    "enAlt": [
+      "cap",
+      "beanie"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "כובעים",
+    "level": "A1",
+    "topic": "clothes",
+    "ex": {
+      "he": "בקיץ הילדים הולכים לגן עם כובע.",
+      "en": "In summer the children go to kindergarten with a hat."
+    },
+    "note": "Plural כובעים (kova'ím). Covers hats and caps of every kind: כובע מצחייה = a cap, כובע צמר = a woolly hat, כובע שמש = a sun hat."
+  },
+  {
+    "id": "va1b_jins",
+    "he": "ג׳ינס",
+    "tr": "jins",
+    "en": "jeans",
+    "enAlt": [
+      "pair of jeans",
+      "denim"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "level": "A1",
+    "topic": "clothes",
+    "ex": {
+      "he": "דימה תמיד בא לעבודה בג׳ינס ובחולצה פשוטה.",
+      "en": "Dima always comes to work in jeans and a simple shirt."
+    },
+    "note": "Singular and masculine in Hebrew: ג׳ינס חדש = new jeans. The geresh in ג׳ marks the English 'j' sound."
+  },
+  {
+    "id": "va1b_sveder",
+    "he": "סוודר",
+    "tr": "svéder",
+    "en": "sweater",
+    "enAlt": [
+      "jumper",
+      "pullover"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "סוודרים",
+    "level": "A1",
+    "topic": "clothes",
+    "ex": {
+      "he": "הסוודר הזה חם ונעים.",
+      "en": "This sweater is warm and cozy."
+    },
+    "note": "Masculine: סוודר חם, plural סוודרים. סוודר צמר = a wool sweater."
+  },
+  {
+    "id": "va1b_mishkafayim",
+    "he": "משקפיים",
+    "tr": "mishkafáyim",
+    "en": "glasses",
+    "enAlt": [
+      "eyeglasses",
+      "spectacles"
+    ],
+    "alt": [
+      "משקפים"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "root": "ש.ק.פ",
+    "level": "A1",
+    "topic": "clothes",
+    "ex": {
+      "he": "אני לא רואה כלום בלי משקפיים.",
+      "en": "I can't see a thing without glasses."
+    },
+    "note": "Always plural and masculine: משקפיים חדשים, זוג משקפיים. משקפי שמש = sunglasses; עדשות מגע = contact lenses. Same root as שקוף (transparent)."
+  },
+  {
+    "id": "va1b_zhaket",
+    "he": "ז׳קט",
+    "tr": "zhakét",
+    "en": "jacket",
+    "enAlt": [
+      "blazer",
+      "sports jacket"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "ז׳קטים",
+    "level": "A1",
+    "topic": "clothes",
+    "ex": {
+      "he": "לפגישות עם לקוחות הוא לובש ז׳קט.",
+      "en": "He wears a jacket to meetings with clients."
+    },
+    "note": "ז׳ sounds like the 's' in 'pleasure'. Usually a light or smart jacket, a blazer; a heavy winter coat is מעיל."
+  },
+  {
+    "id": "va1b_khalifa",
+    "he": "חליפה",
+    "tr": "khalifá",
+    "en": "suit",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "חליפות",
+    "root": "ח.ל.פ",
+    "level": "A2",
+    "topic": "clothes",
+    "ex": {
+      "he": "בהייטק כמעט אף אחד לא לובש חליפה.",
+      "en": "In high-tech almost nobody wears a suit."
+    },
+    "note": "Plural חליפות. Israeli offices are famously informal; suits are mostly for lawyers, bankers and formal events. חליפת ספורט = a tracksuit."
+  },
+  {
+    "id": "va1b_magaf",
+    "he": "מגף",
+    "tr": "magáf",
+    "en": "boot",
+    "enAlt": [
+      "boots"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מגפיים",
+    "level": "A1",
+    "topic": "clothes",
+    "ex": {
+      "he": "בחורף אני הולכת במגפיים, כי יורד הרבה גשם.",
+      "en": "In winter I wear boots, because it rains a lot."
+    },
+    "note": "Masculine, with the dual plural מגפיים (magafáyim): זוג מגפיים. מגפי גשם = rain boots."
+  },
+  {
+    "id": "va1b_kafkaf",
+    "he": "כפכף",
+    "tr": "kafkáf",
+    "en": "flip-flop",
+    "enAlt": [
+      "flip-flops",
+      "sliders",
+      "thongs"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "כפכפים",
+    "level": "A1",
+    "topic": "clothes",
+    "ex": {
+      "he": "בקיץ אני הולך לים בכפכפים.",
+      "en": "In summer I go to the beach in flip-flops."
+    },
+    "note": "Usually plural: כפכפים (kafkafím). The classic Israeli summer footwear, also worn at home and in the shower."
+  },
+  {
+    "id": "va1b_sandal",
+    "he": "סנדל",
+    "tr": "sandál",
+    "en": "sandal",
+    "enAlt": [
+      "sandals"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "סנדלים",
+    "level": "A1",
+    "topic": "clothes",
+    "ex": {
+      "he": "הסנדלים האלה נוחים מאוד להליכה.",
+      "en": "These sandals are very comfortable for walking."
+    },
+    "note": "Masculine: סנדלים נוחים. The simple leather 'biblical' sandals are popularly called תנ״כיות (tanakhiyót)."
+  },
+  {
+    "id": "va1b_beged_yam",
+    "he": "בגד ים",
+    "tr": "béged yam",
+    "en": "swimsuit",
+    "enAlt": [
+      "bathing suit",
+      "swimming costume",
+      "swim trunks"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "בגדי ים",
+    "level": "A1",
+    "topic": "clothes",
+    "ex": {
+      "he": "אל תשכח בגד ים ומגבת!",
+      "en": "Don't forget a swimsuit and a towel!"
+    },
+    "note": "Literally 'sea garment', for men and women alike. In the plural only the first word changes: בגדי ים. מגבת = towel."
+  },
+  {
+    "id": "va1b_pijama",
+    "he": "פיג׳מה",
+    "tr": "pijáma",
+    "en": "pajamas",
+    "enAlt": [
+      "pyjamas",
+      "nightwear"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "פיג׳מות",
+    "level": "A1",
+    "topic": "clothes",
+    "ex": {
+      "he": "הילדים כבר בפיג׳מות, הם הולכים לישון.",
+      "en": "The kids are already in their pajamas; they're going to bed."
+    },
+    "note": "Singular in Hebrew: פיג׳מה אחת = one pair of pajamas; plural פיג׳מות."
+  },
+  {
+    "id": "va1b_tsaif",
+    "he": "צעיף",
+    "tr": "tsa'íf",
+    "en": "scarf",
+    "enAlt": [
+      "shawl",
+      "muffler"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "צעיפים",
+    "level": "A1",
+    "topic": "clothes",
+    "ex": {
+      "he": "הצעיף הזה מצמר, והוא חם מאוד.",
+      "en": "This scarf is made of wool, and it's very warm."
+    },
+    "note": "Plural צעיפים (tse'ifím). Also a light shawl; a headscarf is usually מטפחת. צמר = wool."
+  },
+  {
+    "id": "va1b_kfafa",
+    "he": "כפפה",
+    "tr": "kfafá",
+    "en": "glove",
+    "enAlt": [
+      "gloves",
+      "mitten"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "כפפות",
+    "root": "כ.פ.פ",
+    "level": "A1",
+    "topic": "clothes",
+    "ex": {
+      "he": "בירושלים בחורף אני צריכה כפפות.",
+      "en": "In Jerusalem in winter I need gloves."
+    },
+    "note": "Usually plural: כפפות (kfafót). Related to כף יד (palm of the hand). כפפות גומי = rubber gloves."
+  },
+  {
+    "id": "va1b_tik",
+    "he": "תיק",
+    "tr": "tik",
+    "en": "bag",
+    "enAlt": [
+      "handbag",
+      "backpack",
+      "briefcase",
+      "case"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "תיקים",
+    "level": "A1",
+    "topic": "clothes",
+    "ex": {
+      "he": "יש לך מקום בתיק לבקבוק מים?",
+      "en": "Do you have room in your bag for a water bottle?"
+    },
+    "note": "Any bag: תיק גב = backpack, תיק יד = handbag, תיק מחשב = laptop bag. In an office, also a case file."
+  },
+  {
+    "id": "va1b_khagora",
+    "he": "חגורה",
+    "tr": "khagorá",
+    "en": "belt",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "חגורות",
+    "root": "ח.ג.ר",
+    "level": "A1",
+    "topic": "clothes",
+    "ex": {
+      "he": "המכנסיים גדולים עליי, אני צריך חגורה.",
+      "en": "The trousers are too big on me, I need a belt."
+    },
+    "note": "Plural חגורות. Also a seat belt: חגורת בטיחות. גדול עליי = too big on me (clothes)."
+  },
+  {
+    "id": "va1b_gufiya",
+    "he": "גופייה",
+    "tr": "gufiyá",
+    "en": "tank top",
+    "enAlt": [
+      "vest",
+      "undershirt",
+      "singlet"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "גופיות",
+    "root": "ג.ו.פ",
+    "level": "A2",
+    "topic": "clothes",
+    "ex": {
+      "he": "בחמסין אני הולך בגופייה ובמכנסיים קצרים.",
+      "en": "In a heatwave I wear a tank top and shorts."
+    },
+    "note": "From גוף (body). A sleeveless top or undershirt (British 'vest'). Plural גופיות (gufiyót)."
+  },
+  {
+    "id": "va1b_trening",
+    "he": "טרנינג",
+    "tr": "tréning",
+    "en": "tracksuit",
+    "enAlt": [
+      "sweatpants",
+      "joggers",
+      "track pants"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "טרנינגים",
+    "register": "colloquial",
+    "level": "A2",
+    "topic": "clothes",
+    "ex": {
+      "he": "בשבת אני כל היום בטרנינג.",
+      "en": "On Saturday I'm in my tracksuit all day."
+    },
+    "note": "From English 'training'. Means sweatpants or a whole tracksuit, the classic outfit for staying at home."
+  },
+  {
+    "id": "va1b_kapuchon",
+    "he": "קפוצ׳ון",
+    "tr": "kapuchón",
+    "en": "hoodie",
+    "enAlt": [
+      "hooded sweatshirt",
+      "hood"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "קפוצ׳ונים",
+    "register": "colloquial",
+    "level": "A2",
+    "topic": "clothes",
+    "ex": {
+      "he": "הוא תמיד בא להרצאות בקפוצ׳ון.",
+      "en": "He always comes to lectures in a hoodie."
+    },
+    "note": "A hooded sweatshirt; also used for the hood itself (more formally ברדס). צ׳ sounds like English 'ch'."
+  },
+  {
+    "id": "va1b_lavush",
+    "he": "לבוש",
+    "tr": "lavúsh",
+    "en": "dressed",
+    "enAlt": [
+      "clothed",
+      "wearing"
+    ],
+    "pos": "adj",
+    "root": "ל.ב.ש",
+    "level": "A2",
+    "topic": "clothes",
+    "ex": {
+      "he": "היא תמיד לבושה יפה.",
+      "en": "She's always nicely dressed."
+    },
+    "note": "Feminine לבושה (levushá); plural לבושים, לבושות. 'Wearing' works with or without ב: הוא לבוש חולצה לבנה / לבוש בחולצה לבנה. The verb is ללבוש (to wear, to put on); the noun לבוש (levúsh) = clothing, attire."
+  },
+  {
+    "id": "va1b_mezeg_avir",
+    "he": "מזג אוויר",
+    "tr": "mézeg avír",
+    "en": "weather",
+    "alt": [
+      "מזג האוויר"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "level": "A1",
+    "topic": "weather",
+    "ex": {
+      "he": "איך מזג האוויר אצלכם?",
+      "en": "What's the weather like where you are?"
+    },
+    "note": "With 'the', the ה goes on the second word: מזג האוויר. Literally 'the temperament of the air'. תחזית מזג האוויר = the weather forecast."
+  },
+  {
+    "id": "va1b_shemesh",
+    "he": "שמש",
+    "tr": "shémesh",
+    "en": "sun",
+    "enAlt": [
+      "sunshine"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "root": "ש.מ.ש",
+    "level": "A1",
+    "topic": "weather",
+    "ex": {
+      "he": "השמש חזקה היום, תשים כובע.",
+      "en": "The sun is strong today, put on a hat."
+    },
+    "note": "Feminine: השמש חזקה. בשמש = in the sun; משקפי שמש = sunglasses; שמשייה = a beach umbrella."
+  },
+  {
+    "id": "va1b_geshem",
+    "he": "גשם",
+    "tr": "géshem",
+    "en": "rain",
+    "enAlt": [
+      "rainfall",
+      "shower"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "גשמים",
+    "root": "ג.ש.מ",
+    "level": "A1",
+    "topic": "weather",
+    "ex": {
+      "he": "בחורף יש הרבה גשם בצפון.",
+      "en": "In winter there's a lot of rain in the north."
+    },
+    "note": "Plural גשמים (gshamím), common in forecasts: גשמים מקומיים = scattered showers. It's raining = יורד גשם. The first rain of the autumn is called היורה."
+  },
+  {
+    "id": "va1b_yored_geshem",
+    "he": "יורד גשם",
+    "tr": "yoréd géshem",
+    "en": "it's raining",
+    "enAlt": [
+      "it is raining",
+      "it rains"
+    ],
+    "pos": "phrase",
+    "level": "A1",
+    "topic": "weather",
+    "ex": {
+      "he": "יורד גשם, אז אני לוקחת מטרייה.",
+      "en": "It's raining, so I'm taking an umbrella."
+    },
+    "note": "Literally 'rain is coming down'. Past: ירד גשם (it rained). Snow works the same way: יורד שלג."
+  },
+  {
+    "id": "va1b_ruakh",
+    "he": "רוח",
+    "tr": "rúakh",
+    "en": "wind",
+    "enAlt": [
+      "breeze",
+      "spirit"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "רוחות",
+    "root": "ר.ו.ח",
+    "level": "A1",
+    "topic": "weather",
+    "ex": {
+      "he": "יש היום רוח חזקה ליד הים.",
+      "en": "There's a strong wind by the sea today."
+    },
+    "note": "Feminine: רוח חזקה, רוח קרה. Also 'spirit': מצב רוח = mood. Plural רוחות (also 'ghosts')."
+  },
+  {
+    "id": "va1b_meunan",
+    "he": "מעונן",
+    "tr": "me'unán",
+    "en": "cloudy",
+    "enAlt": [
+      "overcast"
+    ],
+    "pos": "adj",
+    "root": "ע.נ.נ",
+    "level": "A1",
+    "topic": "weather",
+    "ex": {
+      "he": "היום מעונן, אבל לא קר.",
+      "en": "It's cloudy today, but not cold."
+    },
+    "note": "From ענן (anán, cloud; plural עננים). Feminine מעוננת. Forecast words: מעונן חלקית = partly cloudy; בהיר = clear."
+  },
+  {
+    "id": "va1b_sheleg",
+    "he": "שלג",
+    "tr": "shéleg",
+    "en": "snow",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "שלגים",
+    "root": "ש.ל.ג",
+    "level": "A1",
+    "topic": "weather",
+    "ex": {
+      "he": "בחרמון יש שלג בחורף.",
+      "en": "There's snow on Mount Hermon in winter."
+    },
+    "note": "Snow is rare in Israel: the Hermon gets it every winter, Jerusalem only in some winters. It's snowing = יורד שלג; איש שלג = a snowman."
+  },
+  {
+    "id": "va1b_shamayim",
+    "he": "שמיים",
+    "tr": "shamáyim",
+    "en": "sky",
+    "enAlt": [
+      "the sky",
+      "heaven",
+      "skies"
+    ],
+    "alt": [
+      "שמים"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "level": "A1",
+    "topic": "weather",
+    "ex": {
+      "he": "השמיים כחולים, ואין אף ענן.",
+      "en": "The sky is blue, and there isn't a single cloud."
+    },
+    "note": "Always plural and masculine: השמיים כחולים. Also 'heaven'. Full spelling has two yods: שמיים."
+  },
+  {
+    "id": "va1b_ona",
+    "he": "עונה",
+    "tr": "oná",
+    "en": "season",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "עונות",
+    "level": "A1",
+    "topic": "weather",
+    "ex": {
+      "he": "איזו עונה את הכי אוהבת?",
+      "en": "Which season do you like best?"
+    },
+    "note": "Plural עונות (onót). ארבע עונות השנה = the four seasons. Also a season of a TV series or of sport: העונה השנייה."
+  },
+  {
+    "id": "va1b_kayits",
+    "he": "קיץ",
+    "tr": "káyits",
+    "en": "summer",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "קיצים",
+    "level": "A1",
+    "topic": "weather",
+    "ex": {
+      "he": "הקיץ בישראל ארוך וחם.",
+      "en": "Summer in Israel is long and hot."
+    },
+    "note": "בקיץ = in (the) summer. החופש הגדול = the long summer school holiday; שעון קיץ = daylight saving time."
+  },
+  {
+    "id": "va1b_khoref",
+    "he": "חורף",
+    "tr": "khóref",
+    "en": "winter",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "חורפים",
+    "level": "A1",
+    "topic": "weather",
+    "ex": {
+      "he": "בחורף אנחנו שותים הרבה תה.",
+      "en": "In winter we drink a lot of tea."
+    },
+    "note": "בחורף = in (the) winter. The Israeli winter is short and fairly mild, but it is the rainy season, and in Jerusalem it can be cold."
+  },
+  {
+    "id": "va1b_aviv",
+    "he": "אביב",
+    "tr": "avív",
+    "en": "spring",
+    "enAlt": [
+      "springtime"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "level": "A1",
+    "topic": "weather",
+    "ex": {
+      "he": "באביב יש פרחים בכל מקום.",
+      "en": "In spring there are flowers everywhere."
+    },
+    "note": "Tel Aviv means 'hill of spring'. Passover is also called חג האביב (the spring festival)."
+  },
+  {
+    "id": "va1b_stav",
+    "he": "סתיו",
+    "tr": "stav",
+    "en": "autumn",
+    "enAlt": [
+      "fall"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "סתווים",
+    "level": "A1",
+    "topic": "weather",
+    "ex": {
+      "he": "בסתיו מזג האוויר נעים, לא חם ולא קר.",
+      "en": "In autumn the weather is pleasant, neither hot nor cold."
+    },
+    "note": "Pronounced stav; plural סתווים (stavím). The autumn holidays, Rosh Hashana, Yom Kippur and Sukkot, come at the start of the season."
+  },
+  {
+    "id": "va1b_khamsin",
+    "he": "חמסין",
+    "tr": "khamsín",
+    "en": "khamsin (hot desert wind)",
+    "enAlt": [
+      "khamsin",
+      "heatwave",
+      "heat wave",
+      "hot dry wind"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "חמסינים",
+    "level": "A2",
+    "topic": "weather",
+    "ex": {
+      "he": "יש חמסין, אז אני לא יוצא מהבית בצהריים.",
+      "en": "There's a khamsin, so I'm not leaving the house at midday."
+    },
+    "note": "From Arabic khamsín ('fifty'). A hot, dry, dusty wind from the desert, mostly in spring and autumn. In everyday speech any very hot, dry day is a חמסין; forecasts say שרב."
+  },
+  {
+    "id": "va1b_sharav",
+    "he": "שרב",
+    "tr": "sharáv",
+    "en": "heatwave",
+    "enAlt": [
+      "heat wave",
+      "hot dry weather",
+      "sharav"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "level": "A2",
+    "topic": "weather",
+    "ex": {
+      "he": "בחדשות אמרו שמחר יהיה שרב.",
+      "en": "They said on the news that there will be a heatwave tomorrow."
+    },
+    "note": "The Hebrew word for a חמסין, used on the news and in forecasts: יום שרב, שרב כבד. Any heatwave, dry or humid, is a גל חום. On a day of שרב, drink plenty of water and stay in the shade (בצל)."
+  },
+  {
+    "id": "va1b_temperatura",
+    "he": "טמפרטורה",
+    "tr": "temperatúra",
+    "en": "temperature",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "טמפרטורות",
+    "level": "A1",
+    "topic": "weather",
+    "ex": {
+      "he": "מה הטמפרטורה היום? שלושים מעלות.",
+      "en": "What's the temperature today? Thirty degrees."
+    },
+    "note": "Plural טמפרטורות. For a fever, Hebrew normally says חום (khom): יש לי חום = I have a temperature; למדוד חום = to take someone's temperature."
+  },
+  {
+    "id": "va1b_maala",
+    "he": "מעלה",
+    "tr": "ma'alá",
+    "en": "degree",
+    "enAlt": [
+      "degrees"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "מעלות",
+    "root": "ע.ל.ה",
+    "level": "A1",
+    "topic": "weather",
+    "ex": {
+      "he": "היום עשרים וחמש מעלות בתל אביב.",
+      "en": "It's twenty-five degrees in Tel Aviv today."
+    },
+    "note": "Feminine, so numbers take the feminine form: שלוש מעלות, עשרים ושתיים מעלות. Temperatures are in Celsius. מעלה also means 'advantage, virtue', and למעלה = up, upstairs."
+  },
+  {
+    "id": "va1b_lakh",
+    "he": "לח",
+    "tr": "lakh",
+    "en": "humid",
+    "enAlt": [
+      "damp",
+      "moist",
+      "muggy"
+    ],
+    "pos": "adj",
+    "root": "ל.ח.ח",
+    "level": "A2",
+    "topic": "weather",
+    "ex": {
+      "he": "בקיץ בתל אביב חם ולח.",
+      "en": "In summer it's hot and humid in Tel Aviv."
+    },
+    "note": "Feminine לחה (lakhá); plural לחים, לחות (lakhót). The noun לחות (lakhút) = humidity: לחות גבוהה. Jerusalem is much drier than the coast."
+  },
+  {
+    "id": "va1b_khamim",
+    "he": "חמים",
+    "tr": "khamím",
+    "en": "warm",
+    "enAlt": [
+      "pleasantly warm",
+      "cozy"
+    ],
+    "pos": "adj",
+    "root": "ח.מ.מ",
+    "level": "A2",
+    "topic": "weather",
+    "ex": {
+      "he": "היום חמים ונעים בחוץ.",
+      "en": "It's warm and pleasant outside today."
+    },
+    "note": "Pleasantly warm, softer than חם (hot). Feminine חמימה; plural חמימים, חמימות. Spelled and said like חמים, the plural of חם. Also for people and homes: אווירה חמימה = a warm atmosphere."
+  },
+  {
+    "id": "va1b_karir",
+    "he": "קריר",
+    "tr": "karír",
+    "en": "cool",
+    "enAlt": [
+      "chilly"
+    ],
+    "pos": "adj",
+    "root": "ק.ר.ר",
+    "level": "A2",
+    "topic": "weather",
+    "ex": {
+      "he": "בירושלים קריר בלילה, גם בקיץ.",
+      "en": "In Jerusalem it's cool at night, even in summer."
+    },
+    "note": "A little cold. Feminine קרירה; plural קרירים, קרירות. Same root as קר (cold) and מקרר (fridge)."
+  },
+  {
+    "id": "va1b_mitriya",
+    "he": "מטרייה",
+    "tr": "mitriyá",
+    "en": "umbrella",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "מטריות",
+    "root": "מ.ט.ר",
+    "level": "A1",
+    "topic": "weather",
+    "ex": {
+      "he": "יש לך מטרייה? יורד גשם חזק.",
+      "en": "Do you have an umbrella? It's raining hard."
+    },
+    "note": "Plural מטריות (mitriyót). From מטר, a literary word for a rain shower. A beach umbrella is a שמשייה."
+  },
+  {
+    "id": "va1b_sufa",
+    "he": "סופה",
+    "tr": "sufá",
+    "en": "storm",
+    "enAlt": [
+      "gale",
+      "tempest"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "סופות",
+    "level": "A2",
+    "topic": "weather",
+    "ex": {
+      "he": "בגלל הסופה בלילה, לא היה חשמל עד הבוקר.",
+      "en": "Because of the storm during the night, there was no electricity until the morning."
+    },
+    "note": "Plural סופות. סופת חול = a sandstorm; סופת רעמים = a thunderstorm; ברק = lightning; רעם = thunder."
+  },
+  {
+    "id": "va1b_ratuv",
+    "he": "רטוב",
+    "tr": "ratúv",
+    "en": "wet",
+    "enAlt": [
+      "damp",
+      "soaked"
+    ],
+    "pos": "adj",
+    "root": "ר.ט.ב",
+    "level": "A1",
+    "topic": "weather",
+    "ex": {
+      "he": "הכביש רטוב, סע לאט.",
+      "en": "The road is wet, drive slowly."
+    },
+    "note": "Feminine רטובה (retuvá); plural רטובים, רטובות. Same root as רטיבות (damp in the walls), a common problem in Israeli flats."
+  },
+  {
+    "id": "va1b_yavesh",
+    "he": "יבש",
+    "tr": "yavésh",
+    "en": "dry",
+    "pos": "adj",
+    "root": "י.ב.ש",
+    "level": "A1",
+    "topic": "weather",
+    "ex": {
+      "he": "באילת האוויר חם ויבש.",
+      "en": "In Eilat the air is hot and dry."
+    },
+    "note": "Feminine יבשה (yeveshá); plural יבשים, יבשות. The noun יבשה (yabashá) = dry land; יבשת = continent."
+  }
+]

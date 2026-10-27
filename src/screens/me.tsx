@@ -1,0 +1,447 @@
+import { useEffect, useState } from 'preact/hooks';
+import { ConfirmButton, Seg, TopBar, toast } from '../components/ui.tsx';
+import type { Level } from '../content/types.ts';
+import { LEVELS, WORD_LEVELS } from '../content/types.ts';
+import { allVocab, grammar, readings, scenes, verbs } from '../lib/content.ts';
+import { strength } from '../lib/fsrs.ts';
+import { verbFocusLabel } from '../lib/plan.ts';
+import { SKILLS, skillLevel, weakTopics } from '../lib/skills.ts';
+import { SkillBar } from './assessment.tsx';
+import { go } from '../lib/router.ts';
+import { folderStatus, watchFolderStatus } from '../lib/localsave.ts';
+import { loadSemantic, semanticReady } from '../lib/semantic.ts';
+import { exportState, type Focus, importState, resetState, setState, streak, useAppState } from '../lib/store.ts';
+import { hebrewVoices, speak, ttsSupported } from '../lib/tts.ts';
+import { setupHelp } from '../lib/platform.ts';
+import { drillable, TENSES } from '../lib/session.ts';
+
+declare const __SINGLE__: boolean;
+declare const __HOSTED__: boolean;
+
+function isStandalone(): boolean {
+  return (navigator as { standalone?: boolean }).standalone === true || matchMedia('(display-mode: standalone)').matches;
+}
+
+/** Mac package: where progress is saved (see lib/localsave.ts). */
+function FolderNote() {
+  const [, force] = useState(0);
+  useEffect(() => watchFolderStatus(() => force((n) => n + 1)), []);
+  const { running, savedAt } = folderStatus();
+  if (!running) {
+    return (
+      <p class="feedback close">
+        Shoresh isn't running right now, so progress is only saved in this browser. Double-click{' '}
+        <strong>start_shoresh.command</strong> to save it in the Shoresh folder too.
+      </p>
+    );
+  }
+  const at = savedAt ? ` (last saved ${new Date(savedAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })})` : '';
+  return (
+    <p>
+      Progress is saved in this browser and in the <strong>progress</strong> folder inside your Shoresh folder{at}. If the
+      browser's data is cleared, it comes back from there by itself. A copy from each day is kept in progress/backups: import
+      one below to go back to that day.
+    </p>
+  );
+}
+
+export function InstallCard() {
+  if (isStandalone() || !__HOSTED__) return null;
+  const ios = /iPhone|iPad|iPod/.test(navigator.userAgent);
+  return (
+    <div class="card accent small">
+      <strong>📲 Install on your iPhone</strong>
+      <div class="mt">
+        {ios ? (
+          <>
+            In Safari tap <strong>Share</strong> (□↑) → <strong>Add to Home Screen</strong>. It then opens full-screen, works
+            offline and keeps your progress.
+          </>
+        ) : (
+          <>Open this page in Safari on your iPhone, tap Share → Add to Home Screen.</>
+        )}
+      </div>
+    </div>
+  );
+}
+
+export function MePage() {
+  const s = useAppState();
+  const [semPct, setSemPct] = useState<number | null>(null);
+  const [semErr, setSemErr] = useState('');
+  const vocab = allVocab();
+  const voices = hebrewVoices();
+
+  const set = (fn: (st: typeof s) => void) => setState(fn);
+
+  const perLevel = LEVELS.map((l) => {
+    const rd = readings.filter((r) => r.level === l);
+    const sc = scenes.filter((r) => r.level === l);
+    const gr = grammar.filter((r) => r.level === l);
+    return {
+      l,
+      read: `${rd.filter((r) => s.done[r.id]).length}/${rd.length}`,
+      listen: `${sc.filter((r) => s.done[r.id]).length}/${sc.length}`,
+      grammar: `${gr.filter((r) => s.done[r.id]).length}/${gr.length}`,
+    };
+  });
+  const wordLevels = WORD_LEVELS.map((l) => {
+    const items = vocab.filter((v) => v.level === l);
+    const known = items.filter((v) => ['known', 'mature'].includes(strength(s.cards[`v:${v.id}`]))).length;
+    return { l, known, total: items.length };
+  });
+  const verbSolid = verbs.filter((v) => TENSES.filter((t) => drillable(v, t)).every((t) => ['known', 'mature'].includes(strength(s.cards[`c:${v.id}:${t}`])))).length;
+
+  const last14 = Array.from({ length: 14 }, (_, i) => {
+    const d = new Date();
+    d.setDate(d.getDate() - (13 - i));
+    const key = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+    const log = s.days.find((x) => x.date === key);
+    return { key, n: (log?.reviews ?? 0) + (log?.tasks.length ?? 0) * 5, day: d.toLocaleDateString(undefined, { weekday: 'narrow' }) };
+  });
+  const maxN = Math.max(10, ...last14.map((x) => x.n));
+  const totalReviews = s.days.reduce((a, d) => a + d.reviews, 0);
+  const totalCorrect = s.days.reduce((a, d) => a + d.correct, 0);
+  const weakGrammar = weakTopics('g_', s)
+    .slice(0, 3)
+    .map((t) => grammar.find((g) => g.id === t.topic))
+    .filter(Boolean) as typeof grammar;
+  const verbFocus = verbFocusLabel(s);
+
+  const [exported, setExported] = useState<string | null>(null);
+  const doExport = async () => {
+    const data = exportState();
+    if (__SINGLE__) {
+      setExported(data);
+      return;
+    }
+    const name = `shoresh-backup-${new Date().toISOString().slice(0, 10)}.json`;
+    const file = new File([data], name, { type: 'application/json' });
+    const nav = navigator as Navigator & { canShare?: (d: unknown) => boolean };
+    if (nav.canShare?.({ files: [file] })) {
+      try {
+        await navigator.share({ files: [file], title: 'Shoresh backup' });
+        return;
+      } catch {
+        // fall through to download
+      }
+    }
+    const url = URL.createObjectURL(file);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = name;
+    a.click();
+    setTimeout(() => URL.revokeObjectURL(url), 2000);
+  };
+
+  const doImport = (e: Event) => {
+    const f = (e.target as HTMLInputElement).files?.[0];
+    if (!f) return;
+    f.text().then((t) => {
+      try {
+        importState(t);
+        toast('Backup restored');
+      } catch (err) {
+        toast((err as Error).message);
+      }
+    });
+  };
+
+  const enableSemantic = async () => {
+    setSemErr('');
+    setSemPct(0);
+    try {
+      await loadSemantic((p) => setSemPct(p));
+      set((st) => {
+        st.settings.semantic = true;
+      });
+      setSemPct(100);
+      toast('AI grading ready');
+    } catch (err) {
+      setSemPct(null);
+      setSemErr(`Could not load the model: ${(err as Error).message}`);
+    }
+  };
+
+  return (
+    <>
+      <TopBar title="Progress & settings" backTo="today" />
+      <main class="page">
+        <InstallCard />
+        <div class="stats">
+          <div class="stat">
+            <div class="num">{streak(s)}🔥</div>
+            <div class="lbl">streak</div>
+          </div>
+          <div class="stat">
+            <div class="num">{totalReviews}</div>
+            <div class="lbl">reviews</div>
+          </div>
+          <div class="stat">
+            <div class="num">{totalReviews ? Math.round((totalCorrect / totalReviews) * 100) : 0}%</div>
+            <div class="lbl">accuracy</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="small muted">Last 14 days</div>
+          <div class="row" style={{ alignItems: 'flex-end', height: 70, gap: 4, marginTop: 8 }}>
+            {last14.map((d) => (
+              <div style={{ flex: 1, textAlign: 'center' }}>
+                <div style={{ height: `${Math.round((d.n / maxN) * 52)}px`, minHeight: d.n ? 3 : 1, background: d.n ? 'var(--primary)' : 'var(--line)', borderRadius: 3 }} />
+                <div class="small muted">{d.day}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div class="section-title">Your Hebrew profile</div>
+        <div class="card">
+          {s.profile.assessment ? (
+            <>
+              {SKILLS.map((k) => {
+                const lvl = skillLevel(k.id, s);
+                const live = s.profile.skills[k.id];
+                return lvl ? <SkillBar label={`${k.emoji} ${k.label}`} level={lvl} live={live && live.n >= 5 ? live.score : undefined} /> : null;
+              })}
+              <div class="small muted">
+                Skills check on {new Date(s.profile.assessment.at).toLocaleDateString()}; levels move with your practice since then.
+              </div>
+            </>
+          ) : (
+            <div class="small">No skills check yet — it takes about 10 minutes and tailors your plan.</div>
+          )}
+          {weakGrammar.length > 0 && (
+            <div class="mt small">
+              <strong>Weak spots:</strong>{' '}
+              {weakGrammar.map((g, i) => (
+                <>
+                  {i > 0 && ', '}
+                  <a href="#" onClick={(e) => (e.preventDefault(), go(`grammar/${g.id}`))}>
+                    {g.title}
+                  </a>
+                </>
+              ))}
+              {verbFocus && <> · verbs: {verbFocus}</>}
+            </div>
+          )}
+          <div class="btn-row">
+            <button class="btn small primary" onClick={() => go('assessment')}>
+              {s.profile.assessment ? 'Retake skills check' : 'Take the skills check'}
+            </button>
+          </div>
+        </div>
+
+        <div class="section-title">Progress</div>
+        <div class="card">
+          <table class="grid">
+            <thead>
+              <tr>
+                <th>Words</th>
+                <th>known</th>
+              </tr>
+            </thead>
+            <tbody>
+              {wordLevels.map((w) => (
+                <tr>
+                  <td>{w.l}</td>
+                  <td>
+                    {w.known} / {w.total}
+                  </td>
+                </tr>
+              ))}
+              <tr>
+                <td>Verbs (all 3 tenses solid)</td>
+                <td>
+                  {verbSolid} / {verbs.length}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="grid">
+            <thead>
+              <tr>
+                <th>Level</th>
+                <th>Read</th>
+                <th>Listen</th>
+                <th>Grammar</th>
+              </tr>
+            </thead>
+            <tbody>
+              {perLevel.filter((p) => p.read !== '0/0' || p.listen !== '0/0' || p.grammar !== '0/0').map((p) => (
+                <tr style={p.l === s.level ? { background: 'var(--primary-soft)' } : undefined}>
+                  <td>{p.l}</td>
+                  <td>{p.read}</td>
+                  <td>{p.listen}</td>
+                  <td>{p.grammar}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        <div class="section-title">Learning</div>
+        <div class="card">
+          <div class="small muted">Your level</div>
+          <div class="chip-row">
+            {LEVELS.map((l: Level) => (
+              <button class={`chip ${s.level === l ? 'on' : ''}`} onClick={() => set((st) => void (st.level = l))}>
+                {l}
+              </button>
+            ))}
+          </div>
+          <label class="row mt" style={{ cursor: 'pointer' }}>
+            <input type="checkbox" checked={s.settings.verbsOnly} onChange={(e) => set((st) => void (st.settings.verbsOnly = (e.target as HTMLInputElement).checked))} />
+            <span class="grow">
+              🎯 Verbs-only mode <span class="small muted">· the daily plan is all verb practice</span>
+            </span>
+          </label>
+          <div class="small muted mt">Focus</div>
+          <Seg
+            value={s.settings.focus}
+            options={[
+              { v: 'business', label: 'Business' },
+              { v: 'both', label: 'Both' },
+              { v: 'daily', label: 'Everyday' },
+            ]}
+            onChange={(v: Focus) => set((st) => void (st.settings.focus = v))}
+          />
+          <div class="small muted mt">New words per day</div>
+          <Seg
+            value={s.settings.newPerDay}
+            options={[5, 8, 12, 15, 20].map((n) => ({ v: n, label: String(n) }))}
+            onChange={(v: number) => set((st) => void (st.settings.newPerDay = v))}
+          />
+          <div class="small muted mt">Review target (higher = more reviews, better memory)</div>
+          <Seg
+            value={s.settings.retention}
+            options={[
+              { v: 0.85, label: '85%' },
+              { v: 0.9, label: '90%' },
+              { v: 0.95, label: '95%' },
+            ]}
+            onChange={(v: number) => set((st) => void (st.settings.retention = v))}
+          />
+          <label class="row mt">
+            <input type="checkbox" checked={s.settings.showTr} onChange={(e) => set((st) => void (st.settings.showTr = (e.target as HTMLInputElement).checked))} />
+            Show transliteration (turn off once you read fluently)
+          </label>
+        </div>
+
+        <div class="section-title">Voice</div>
+        <div class="card">
+          {!ttsSupported() ? (
+            <div class="small">Speech isn't available in this browser.</div>
+          ) : (
+            <>
+              <div class="small muted">Speed</div>
+              <Seg
+                value={s.settings.rate}
+                options={[
+                  { v: 0.7, label: 'Slow' },
+                  { v: 0.85, label: 'Relaxed' },
+                  { v: 0.9, label: 'Normal' },
+                  { v: 1.0, label: 'Native' },
+                ]}
+                onChange={(v: number) => set((st) => void (st.settings.rate = v))}
+              />
+              {voices.length > 1 && (
+                <>
+                  <div class="small muted mt">Main voice</div>
+                  <select
+                    class="select"
+                    value={s.settings.voiceURI ?? voices[0].voiceURI}
+                    onChange={(e) => set((st) => void (st.settings.voiceURI = (e.target as HTMLSelectElement).value))}
+                  >
+                    {voices.map((v) => (
+                      <option value={v.voiceURI}>{v.name}</option>
+                    ))}
+                  </select>
+                </>
+              )}
+              <div class="btn-row">
+                <button class="btn small" onClick={() => speak('שלום! איך הולך? בוא נתחיל לעבוד.')}>
+                  🔊 Test voice
+                </button>
+              </div>
+              {voices.length === 0 && (
+                <div class="small mt">
+                  No Hebrew voice found. {setupHelp.device}: {setupHelp.voice} ({setupHelp.voiceAfter}).
+                </div>
+              )}
+            </>
+          )}
+        </div>
+
+        {__HOSTED__ && <div class="section-title">Experimental: on-device AI grading</div>}
+        {__HOSTED__ && <div class="card small">
+          <p>
+            Downloads a small multilingual neural network (~120 MB, once) that runs <strong>on your phone</strong> and compares the
+            meaning of your answers with the model answer — so a correct paraphrase gets credit even without the exact keywords.
+            Free, no account, nothing leaves your device. Uses Wi-Fi data once; may be slow on older iPhones.
+          </p>
+          {s.settings.semantic ? (
+            <div class="row">
+              <span class="badge good">On{semanticReady() ? ' · loaded' : ''}</span>
+              <button class="btn small" onClick={() => set((st) => void (st.settings.semantic = false))}>
+                Turn off
+              </button>
+            </div>
+          ) : (
+            <button class="btn small primary" onClick={enableSemantic} disabled={semPct !== null && semPct < 100}>
+              {semPct !== null && semPct < 100 ? `Downloading… ${semPct}%` : 'Download & turn on'}
+            </button>
+          )}
+          {semErr && <div class="feedback bad">{semErr}</div>}
+        </div>}
+
+        <div class="section-title">Backup</div>
+        <div class="card small">
+          {__HOSTED__ || __SINGLE__ ? (
+            <p>Your progress lives only on this device. Export a backup now and then (e.g. to Files or iCloud Drive).</p>
+          ) : (
+            <FolderNote />
+          )}
+          {exported !== null && (
+            <>
+              <textarea class="answer ltr" style={{ fontSize: 12, minHeight: 90 }} readOnly value={exported} onFocus={(e) => (e.target as HTMLTextAreaElement).select()} />
+              <button
+                class="btn small"
+                onClick={() =>
+                  navigator.clipboard
+                    ?.writeText(exported)
+                    .then(() => toast('Copied — paste it into a note or file'))
+                    .catch(() => toast('Select the text above and copy it'))
+                }
+              >
+                Copy backup text
+              </button>
+            </>
+          )}
+          <div class="btn-row">
+            <button class="btn small" onClick={doExport}>
+              ⬇️ Export backup
+            </button>
+            <label class="btn small">
+              ⬆️ Import
+              <input type="file" accept="application/json,.json" style={{ display: 'none' }} onChange={doImport} />
+            </label>
+          </div>
+          <div class="mt">
+            <ConfirmButton
+              label="Reset everything"
+              confirmLabel="Tap again: erase all progress"
+              onConfirm={() => {
+                resetState();
+                go('onboarding');
+              }}
+            />
+          </div>
+        </div>
+        <p class="small muted center">
+          {vocab.length} words · {verbs.length} verbs · {readings.length} articles · {scenes.length} scenes · {grammar.length} grammar lessons
+        </p>
+      </main>
+    </>
+  );
+}

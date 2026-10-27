@@ -1,0 +1,260 @@
+[
+  {
+    "id": "e_a1_about_me",
+    "level": "A1",
+    "title": "Introducing yourself to your ulpan class",
+    "situation": "You've just started an ulpan (an intensive Hebrew course), and your teacher Orit has added the whole class to a WhatsApp group. She asks everyone to say a few words about themselves. Introduce yourself to your new classmates: your name, where you're from, what you do and which languages you speak.",
+    "incoming": {
+      "from": "אורית, המורה באולפן",
+      "subject": "קבוצת הוואטסאפ: אולפן, רמה א׳",
+      "body": "שלום לכולם, וברוכים הבאים לקבוצה! 😊 ספרו לנו קצת על עצמכם. איך קוראים לכם? מאיפה אתם? מה אתם עושים? אילו שפות אתם מדברים?",
+      "bodyEn": "Hello everyone, and welcome to the group! 😊 Tell us a little about yourselves. What are your names? Where are you from? What do you do? Which languages do you speak?"
+    },
+    "task": {
+      "prompt": "כתבו הודעה קצרה לקבוצה: איך קוראים לכם, מאיפה אתם, מה העבודה שלכם ואילו שפות אתם מדברים.",
+      "promptEn": "Write a short message to the group: your name, where you're from, what your job is and which languages you speak.",
+      "minWords": 20,
+      "useWords": ["קוראים לי", "בארץ", "שפות", "קצת", "נעים מאוד"],
+      "checklist": [
+        {
+          "en": "Say your name",
+          "keywords": ["קוראים לי", "שמי", "השם שלי"]
+        },
+        {
+          "en": "Say where you're from",
+          "keywords": ["לטביה", "ריגה", "רוסיה", "אוקראינה", "צרפת", "ארצות הברית", "אמריקה", "אנגליה", "בריטניה", "קנדה", "ארגנטינה", "ברזיל", "אתיופיה", "גרמניה", "הודו", "איטליה", "ספרד", "מקסיקו", "אוסטרליה", "דרום אפריקה", "פולין", "הולנד", "בלגיה", "שווייץ", "בלארוס", "גאורגיה", "אוזבקיסטן", "מרוקו", "יפן", "סין", "קולומביה", "נולדתי", "עליתי", "הגעתי"]
+        },
+        {
+          "en": "Say what you do",
+          "keywords": ["מורה", "עובד", "עובדת", "עבודה", "סטודנט", "סטודנטית", "לומד", "לומדת", "מהנדס", "מהנדסת", "רופא", "רופאה", "אחות", "מתכנת", "מתכנתת", "מנהל", "מנהלת", "מתרגם", "מתרגמת", "מעצב", "מעצבת", "עורך דין", "עורכת דין", "רואה חשבון", "רואת חשבון", "מלצר", "מלצרית", "נהג", "נהגת", "שף", "הייטק", "פנסיה"]
+        },
+        {
+          "en": "Say which languages you speak",
+          "keywords": ["שפות", "שפה", "מדבר", "מדברת", "אנגלית", "רוסית", "עברית", "צרפתית", "ספרדית", "ערבית", "אמהרית", "גרמנית", "פורטוגזית"]
+        },
+        {
+          "en": "End with a friendly line",
+          "keywords": ["נעים מאוד", "נעים להכיר", "נתראה", "להתראות", "שמח", "שמחה", "כיף"]
+        }
+      ],
+      "model": "שלום לכולם! 👋 קוראים לי סשה. אני מלטביה, מריגה, ואני בארץ רק חודשיים. אני מורה לפסנתר. השפות שלי: רוסית, לטבית ואנגלית. ועברית? רק קצת 😊 נעים מאוד, ונתראה בכיתה!",
+      "modelEn": "Hi everyone! 👋 My name is Sasha. I'm from Latvia, from Riga, and I've been in Israel for only two months. I'm a piano teacher. My languages: Russian, Latvian and English. And Hebrew? Only a little 😊 Nice to meet you, and see you in class!"
+    },
+    "phrases": [
+      { "he": "קוראים לי...", "en": "My name is... (lit. 'they call me')", "tr": "kor'ím li..." },
+      { "he": "אני מצרפת / מקנדה", "en": "I'm from France / from Canada", "tr": "aní mitsarfát / mikánada" },
+      { "he": "אני בארץ חצי שנה", "en": "I've been in Israel for half a year", "tr": "aní ba'árets khétsi shaná" },
+      { "he": "אני עובד / עובדת ב...", "en": "I work at/in... (man / woman)", "tr": "aní ovéd / ovédet be..." },
+      { "he": "אני מורה ל...", "en": "I'm a ... teacher (the same spelling for a man and a woman)", "tr": "aní moré / morá le..." },
+      { "he": "אני מדבר / מדברת אנגלית ורוסית", "en": "I speak English and Russian (man / woman)", "tr": "aní medabér / medabéret anglít verusít" },
+      { "he": "השפות שלי: ...", "en": "My languages are: ...", "tr": "hasafót shelí: ..." },
+      { "he": "רק קצת עברית", "en": "Only a little Hebrew", "tr": "rak ktsat ivrít" },
+      { "he": "נעים מאוד!", "en": "Nice to meet you!", "tr": "na'ím me'ód!" }
+    ]
+  },
+  {
+    "id": "e_a1_whatsapp_plans",
+    "level": "A1",
+    "title": "Plans for Friday",
+    "situation": "Your friend Omer sends you a WhatsApp message: on Friday he and Noa are going to the Carmel Market in Tel Aviv, and then to the beach. Reply: say whether you can come, and suggest when and where to meet.",
+    "incoming": {
+      "from": "עומר, חבר",
+      "subject": "הודעת וואטסאפ",
+      "body": "היי! מה נשמע? 😊 ביום שישי נועה ואני הולכים לשוק הכרמל, ואחר כך לים. רוצה לבוא? 🌞",
+      "bodyEn": "Hi! How's it going? 😊 On Friday Noa and I are going to the Carmel Market, and then to the beach. Want to come? 🌞"
+    },
+    "task": {
+      "prompt": "כתבו לעומר תשובה: אתם יכולים לבוא? מתי ואיפה נפגשים?",
+      "promptEn": "Write a reply to Omer: can you come? When and where will you meet?",
+      "minWords": 20,
+      "useWords": ["בשמחה", "אבל", "נפגשים", "ליד", "תודה על ההזמנה"],
+      "checklist": [
+        {
+          "en": "Say whether you can come",
+          "keywords": ["בשמחה", "בטח", "כן", "יכול", "יכולה", "אבוא", "אשמח", "סליחה", "מצטער", "מצטערת", "לצערי"]
+        },
+        {
+          "en": "Say when you're free (a time of day or an hour)",
+          "keywords": ["בוקר", "צהריים", "ערב", "שעה", "אחרי", "עד", "אחר כך"]
+        },
+        {
+          "en": "Say where to meet",
+          "keywords": ["נפגשים", "ניפגש", "להיפגש", "איפה", "בכניסה", "ליד", "בתחנה", "בשוק", "בכיכר", "אצלי", "אצלך"]
+        },
+        {
+          "en": "End with thanks or a friendly line",
+          "keywords": ["תודה", "נתראה", "ביי", "כיף", "סבבה", "מעולה"]
+        }
+      ],
+      "model": "היי עומר! 😊 כן, בשמחה! אבל בבוקר יש לי שיעור יוגה עד 10:30. אז נפגשים ב-11:00? אולי בכניסה לשוק, ליד כיכר מגן דוד. ואחר כך – ים! 🌊 תודה על ההזמנה!",
+      "modelEn": "Hi Omer! 😊 Yes, I'd love to! But in the morning I have a yoga class until 10:30. So shall we meet at 11:00? Maybe at the entrance to the market, next to Magen David Square. And then – the beach! 🌊 Thanks for the invitation!"
+    },
+    "phrases": [
+      { "he": "בשמחה!", "en": "Gladly! / I'd love to!", "tr": "besimkhá!" },
+      { "he": "סליחה, ביום שישי אני לא יכול / יכולה", "en": "Sorry, I can't on Friday (man / woman)", "tr": "slikhá, beyóm shishí aní lo yakhól / yekholá" },
+      { "he": "יש לי שיעור עד 10:30", "en": "I have a class until 10:30", "tr": "yesh li shi'úr ad éser vakhétsi" },
+      { "he": "נפגשים ב-11:00?", "en": "Shall we meet at 11:00?", "tr": "nifgashím be'akhát-esré?" },
+      { "he": "איפה נפגשים?", "en": "Where shall we meet?", "tr": "éifo nifgashím?" },
+      { "he": "בכניסה לשוק", "en": "At the entrance to the market", "tr": "bakenisá lashúk" },
+      { "he": "ליד ה...", "en": "Next to the...", "tr": "leyád ha..." },
+      { "he": "תודה על ההזמנה!", "en": "Thanks for the invitation!", "tr": "todá al hahazmaná!" },
+      { "he": "נתראה ביום שישי!", "en": "See you on Friday!", "tr": "nitra'é beyóm shishí!" }
+    ]
+  },
+  {
+    "id": "e_a2_weekend_message",
+    "level": "A2",
+    "title": "Telling a friend about your weekend",
+    "situation": "It's Sunday morning. Your friend Dana has just come back from a trip to Berlin, and she asks on WhatsApp how your weekend was. Tell her what you did, in the past tense.",
+    "incoming": {
+      "from": "דנה, חברה טובה",
+      "subject": "הודעת וואטסאפ",
+      "body": "בוקר טוב! ☀️ חזרתי מברלין אתמול בלילה 😊 איך היה הסופ״ש שלך? מה עשית?",
+      "bodyEn": "Good morning! ☀️ I got back from Berlin last night 😊 How was your weekend? What did you do?"
+    },
+    "task": {
+      "prompt": "כתבו לדנה מה עשיתם בסוף השבוע: לאן הלכתם, עם מי, ואיך היה. כתבו בזמן עבר.",
+      "promptEn": "Write to Dana about what you did at the weekend: where you went, who with, and how it was. Write in the past tense.",
+      "minWords": 35,
+      "useWords": ["נסעתי", "הלכתי", "היה", "אבל", "כי", "ואז"],
+      "checklist": [
+        {
+          "en": "Say how the weekend was",
+          "keywords": ["מעולה", "כיף", "נחמד", "טוב", "מצוין", "רגוע", "משעמם"]
+        },
+        {
+          "en": "Say where you went and who with",
+          "keywords": ["נסעתי", "הלכתי", "נסענו", "הלכנו", "ביקרתי", "ביקרנו", "היינו", "עם"]
+        },
+        {
+          "en": "Describe at least two things you did, in the past tense",
+          "keywords": ["אכלתי", "אכלנו", "קניתי", "קנינו", "ראיתי", "ראינו", "שתינו", "קמתי", "נחתי", "פגשתי", "טיילנו", "טיילתי", "בישלתי", "קראתי", "ישנתי", "ישבנו", "ישבתי", "שחיתי", "שחינו", "עבדתי", "למדתי", "שמעתי", "שיחקנו", "ניקיתי"]
+        },
+        {
+          "en": "Join your sentences with כי, אבל or ואז",
+          "keywords": ["כי", "אבל", "ואז", "אחר כך"]
+        },
+        {
+          "en": "Ask your friend about her trip or her weekend",
+          "keywords": ["ומה איתך", "איתך", "אצלך", "שלך", "בברלין", "הטיול"]
+        }
+      ],
+      "model": "היי דנה, ברוכה השבה! 😊 הסופ״ש שלי היה מעולה. ביום שישי בבוקר נסעתי לירושלים עם חברים. טיילנו בעיר העתיקה, ואחר כך הלכנו לשוק מחנה יהודה. אכלנו שם חומוס וקנינו פירות. חזרנו הביתה מוקדם, כי היינו עייפים. בשבת קמתי מאוחר, ואז הלכתי לים עם השכן שלי, סמיר. היה חם, אבל המים היו נעימים. בערב נחתי בבית וראיתי סרט. ומה איתך? איך היה בברלין?",
+      "modelEn": "Hi Dana, welcome back! 😊 My weekend was great. On Friday morning I went to Jerusalem with friends. We walked around the Old City, and afterwards we went to the Mahane Yehuda market. We ate hummus there and bought fruit. We came home early because we were tired. On Saturday I got up late, and then I went to the beach with my neighbour, Samir. It was hot, but the water was lovely. In the evening I rested at home and watched a film. And what about you? How was Berlin?"
+    },
+    "phrases": [
+      { "he": "ברוך השב / ברוכה השבה!", "en": "Welcome back! (to a man / to a woman)", "tr": "barúkh hasháv / brukhá hashavá!" },
+      { "he": "איך היה הסופ״ש?", "en": "How was the weekend?", "tr": "eikh hayá hasofásh?" },
+      { "he": "הסופ״ש היה מעולה", "en": "The weekend was great", "tr": "hasofásh hayá me'ulé" },
+      { "he": "נסעתי ל...", "en": "I went (travelled) to...", "tr": "nasáti le..." },
+      { "he": "טיילנו ב...", "en": "We walked around... / We toured...", "tr": "tiyálnu be..." },
+      { "he": "חזרנו הביתה מוקדם", "en": "We came home early", "tr": "khazárnu habáyta mukdám" },
+      { "he": "קמתי מאוחר", "en": "I got up late", "tr": "kámti me'ukhár" },
+      { "he": "ואז הלכתי ל...", "en": "And then I went to...", "tr": "ve'az halákhti le..." },
+      { "he": "היה חם, אבל...", "en": "It was hot, but...", "tr": "hayá kham, avál..." },
+      { "he": "ומה איתך?", "en": "And what about you? (to a man / to a woman)", "tr": "umá itkhá / itákh?" }
+    ]
+  },
+  {
+    "id": "e_a2_trip_email",
+    "level": "A2",
+    "title": "Booking a guesthouse in the Galilee",
+    "situation": "You and your partner want to spend two nights in the Galilee next month. You find a nice צימר (a small holiday cabin in the countryside) online. Email the owners: say when you want to come, ask if they have a cabin free, and ask a few practical questions. You don't have a car.",
+    "task": {
+      "prompt": "כתבו מייל לבעלי צימר בגליל: ספרו מתי תגיעו ולכמה לילות, ושאלו לפחות שלוש שאלות (מחיר, ארוחת בוקר, איך מגיעים...).",
+      "promptEn": "Write an email to the owners of a guesthouse in the Galilee: say when you'll arrive and for how many nights, and ask at least three questions (the price, breakfast, how to get there...).",
+      "minWords": 35,
+      "useWords": ["פנוי", "נגיע", "כמה עולה", "כלולה במחיר", "נשמח", "תודה מראש"],
+      "checklist": [
+        {
+          "en": "Use a polite greeting and sign-off",
+          "keywords": ["שלום רב", "תודה מראש", "תודה רבה", "בברכה"]
+        },
+        {
+          "en": "Give the dates and the number of nights",
+          "keywords": ["לילות", "לילה", "בחודש הבא", "תאריכים", "בתאריכים", "סוף השבוע"]
+        },
+        {
+          "en": "Ask whether there's a cabin or room free",
+          "keywords": ["פנוי", "פנויה", "מקום", "יש לכם"]
+        },
+        {
+          "en": "Ask about the price or breakfast",
+          "keywords": ["כמה עולה", "מחיר", "עולה", "ארוחת בוקר", "כלול", "כלולה"]
+        },
+        {
+          "en": "Say what you'll do, using the future tense",
+          "keywords": ["נגיע", "אגיע", "ניסע", "אסע", "נבוא", "אבוא", "נרצה", "ארצה", "נטייל", "נשמח", "אשמח"]
+        }
+      ],
+      "model": "שלום רב,\n\nאנחנו זוג מתל אביב, ואנחנו רוצים לבוא אליכם בחודש הבא, מה-12 עד ה-14 (שני לילות). יש לכם צימר פנוי בתאריכים האלה?\n\nיש לנו גם כמה שאלות:\n• כמה עולה לילה?\n• ארוחת בוקר כלולה במחיר?\n• נגיע רק בערב, בסביבות 20:00. זה בסדר?\n• אין לנו רכב, אז ניסע באוטובוס. יש תחנה קרובה לצימר?\n• נרצה גם לטייל ברגל. תוכלו להמליץ על מסלול קל באזור?\n\nאם יש מקום, נשמח להזמין.\nתודה מראש,\nטל אוחיון",
+      "modelEn": "Hello,\n\nWe're a couple from Tel Aviv, and we'd like to come and stay with you next month, from the 12th to the 14th (two nights). Do you have a cabin free on those dates?\n\nWe also have a few questions:\n• How much is a night?\n• Is breakfast included in the price?\n• We'll only arrive in the evening, at around 20:00. Is that OK?\n• We don't have a car, so we'll come by bus. Is there a stop near the cabin?\n• We'd also like to go hiking. Could you recommend an easy trail in the area?\n\nIf there's room, we'd be happy to book.\nThanks in advance,\nTal Ohayon"
+    },
+    "phrases": [
+      { "he": "יש לכם חדר פנוי?", "en": "Do you have a room available?", "tr": "yesh lakhém khéder panúi?" },
+      { "he": "מה-12 עד ה-14", "en": "From the 12th to the 14th", "tr": "mehashnéim-asár ad ha'arba'á-asár" },
+      { "he": "שני לילות", "en": "Two nights", "tr": "shnéi leilót" },
+      { "he": "כמה עולה לילה?", "en": "How much is a night?", "tr": "káma olé láila?" },
+      { "he": "ארוחת בוקר כלולה במחיר?", "en": "Is breakfast included in the price?", "tr": "arukhát bóker klulá bamekhír?" },
+      { "he": "נגיע בערב, בסביבות שמונה", "en": "We'll arrive in the evening, at around eight", "tr": "nagí'a ba'érev, bisvivót shmoné" },
+      { "he": "יש תחנת אוטובוס קרובה?", "en": "Is there a bus stop nearby?", "tr": "yesh takhanát ótobus krová?" },
+      { "he": "תוכלו להמליץ על מסלול?", "en": "Could you recommend a trail?", "tr": "tukhlú lehamlíts al maslúl?" },
+      { "he": "אם יש מקום, נשמח להזמין", "en": "If there's room, we'd be happy to book", "tr": "im yesh makóm, nismákh lehazmín" },
+      { "he": "תודה מראש", "en": "Thanks in advance", "tr": "todá merósh" }
+    ]
+  },
+  {
+    "id": "e_a2_invitation_reply",
+    "level": "A2",
+    "title": "Replying to a party invitation",
+    "situation": "Your colleague Berhanu is organising a farewell party for Rachel from accounting, who is retiring, and he asks the team to choose between two options. Reply: thank him, say which option you prefer and compare the two, and say what you'll bring if it's a picnic.",
+    "incoming": {
+      "from": "ברהנו טספאי, צוות המכירות",
+      "subject": "מסיבת פרידה לרחל 🎉",
+      "body": "היי לכולם! 🎉\nרחל מהנהלת החשבונות יוצאת לפנסיה בסוף החודש, ואנחנו רוצים לעשות לה מסיבת פרידה. יש שתי אפשרויות:\n1. ביום חמישי בערב – במסעדה האיטלקית ליד המשרד.\n2. ביום שישי בצהריים – פיקניק בפארק הירקון.\nמה אתם מעדיפים? ואם נעשה פיקניק – מי יכול להביא משהו? תכתבו לי עד יום ראשון 🙏\nברהנו",
+      "bodyEn": "Hi everyone! 🎉\nRachel from accounting is retiring at the end of the month, and we want to throw her a farewell party. There are two options:\n1. Thursday evening – at the Italian restaurant near the office.\n2. Friday at noon – a picnic in Yarkon Park.\nWhich do you prefer? And if we go for the picnic – who can bring something? Let me know by Sunday 🙏\nBerhanu"
+    },
+    "task": {
+      "prompt": "כתבו תשובה לברהנו: איזו אפשרות אתם מעדיפים ולמה? כתבו מה יותר טוב (או פחות טוב) בכל אפשרות, ומה תביאו לפיקניק.",
+      "promptEn": "Write a reply to Berhanu: which option do you prefer, and why? Say what's better (or less good) about each option, and what you'll bring to the picnic.",
+      "minWords": 35,
+      "useWords": ["אני בעד", "מעדיף / מעדיפה", "יותר", "חוץ מזה", "אביא"],
+      "checklist": [
+        {
+          "en": "Thank him or welcome the idea",
+          "keywords": ["תודה", "רעיון", "בשמחה", "כיף", "אבוא"]
+        },
+        {
+          "en": "Say which option you prefer",
+          "keywords": ["בעד", "מעדיף", "מעדיפה", "עדיף", "בשבילי"]
+        },
+        {
+          "en": "Compare the options (יותר / פחות ... מ...)",
+          "keywords": ["יותר", "פחות", "זול", "יקר", "נוח"]
+        },
+        {
+          "en": "Give a reason",
+          "keywords": ["כי", "אז", "חוץ מזה", "בגלל"]
+        },
+        {
+          "en": "Say what you'll bring",
+          "keywords": ["אביא", "להביא", "אכין", "סלט", "עוגה", "עוגת"]
+        }
+      ],
+      "model": "היי ברהנו,\nתודה על ההזמנה – רעיון מעולה, רחל בטח תשמח! 😊\nאני בעד הפיקניק ביום שישי. המסעדה האיטלקית טובה, אבל פיקניק יותר זול ממסעדה, וגם יותר רגוע. בפארק יש הרבה מקום, ואפשר לבוא עם הילדים. חוץ מזה, ביום חמישי יש לי פגישה עד שבע בערב, אז אגיע למסעדה מאוחר.\nאני אביא סלט גדול ועוגת שוקולד 🍰\nואם רוב האנשים מעדיפים את המסעדה – גם זה בסדר, אני אבוא בכל מקרה!",
+      "modelEn": "Hi Berhanu,\nThanks for the invitation – great idea, Rachel will surely be happy! 😊\nI'm for the picnic on Friday. The Italian restaurant is good, but a picnic is cheaper than a restaurant, and more relaxed too. There's lots of room in the park, and people can come with their kids. Besides, on Thursday I have a meeting until seven in the evening, so I'd get to the restaurant late.\nI'll bring a big salad and a chocolate cake 🍰\nAnd if most people prefer the restaurant – that's fine too, I'll come anyway!"
+    },
+    "phrases": [
+      { "he": "רעיון מעולה!", "en": "Great idea!", "tr": "ra'ayón me'ulé!" },
+      { "he": "אני בעד ה...", "en": "I'm for the... / I vote for the...", "tr": "aní be'ád ha..." },
+      { "he": "אני מעדיף / מעדיפה את ה...", "en": "I prefer the... (man / woman)", "tr": "aní ma'adíf / ma'adifá et ha..." },
+      { "he": "עדיף לי ביום שישי", "en": "Friday is better for me", "tr": "adíf li beyóm shishí" },
+      { "he": "פיקניק יותר זול ממסעדה", "en": "A picnic is cheaper than a restaurant", "tr": "píknik yotér zol mimis'adá" },
+      { "he": "זה פחות נוח לי", "en": "That's less convenient for me", "tr": "ze pakhót nóakh li" },
+      { "he": "חוץ מזה, ...", "en": "Besides (that), ...", "tr": "khuts mizé, ..." },
+      { "he": "אגיע מאוחר", "en": "I'll arrive late", "tr": "agí'a me'ukhár" },
+      { "he": "אני אביא סלט", "en": "I'll bring a salad", "tr": "aní aví salát" },
+      { "he": "אני אבוא בכל מקרה", "en": "I'll come anyway", "tr": "aní avó bekhól mikré" }
+    ]
+  }
+]

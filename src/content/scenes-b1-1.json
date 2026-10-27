@@ -1,0 +1,856 @@
+[
+  {
+    "id": "s_b1_tour_guide_jerusalem",
+    "level": "B1",
+    "title": "סיור בשוק מחנה יהודה",
+    "titleEn": "A Tour of Mahane Yehuda Market",
+    "genre": "lecture",
+    "synopsis": "Michal, a Jerusalem tour guide, gathers her group at the entrance to Mahane Yehuda market. Before letting them loose, she tells them about the market's past and present, answers their questions and explains the plan for the next hour.",
+    "speakers": {
+      "A": {
+        "name": "מיכל",
+        "gender": "f"
+      },
+      "B": {
+        "name": "אדיסו",
+        "gender": "m"
+      },
+      "C": {
+        "name": "ג׳ניפר",
+        "gender": "f"
+      }
+    },
+    "lines": [
+      {
+        "s": "A",
+        "he": "טוב, חברים, תתקרבו בבקשה, שכולם ישמעו. אנחנו עומדים עכשיו בכניסה לשוק מחנה יהודה.",
+        "en": "OK, everyone, come closer please, so everybody can hear. We're now standing at the entrance to Mahane Yehuda market."
+      },
+      {
+        "s": "A",
+        "he": "הירושלמים קוראים לו פשוט: השוק. הוא התחיל בסוף המאה התשע עשרה, בתקופה שירושלים התחילה לצאת מחוץ לחומות.",
+        "en": "Jerusalemites simply call it 'the shuk'. It began at the end of the nineteenth century, in the period when Jerusalem started to spread outside the walls."
+      },
+      {
+        "s": "A",
+        "he": "בהתחלה זה היה סתם מגרש ריק. חקלאים מהכפרים שמסביב הביאו לכאן פירות וירקות ומכרו אותם באוויר הפתוח.",
+        "en": "At first it was just an empty lot. Farmers from the surrounding villages brought fruit and vegetables here and sold them in the open air."
+      },
+      {
+        "s": "A",
+        "he": "השוק קיבל את השם שלו מהשכונה מחנה יהודה, שנמצאת ממש פה ליד ונבנתה באותה תקופה.",
+        "en": "The market got its name from the Mahane Yehuda neighbourhood, which is right next to here and was built in the same period."
+      },
+      {
+        "s": "B",
+        "he": "סליחה, ומי בנה את הדוכנים? הם נראים די ישנים.",
+        "en": "Excuse me, and who built the stalls? They look pretty old."
+      },
+      {
+        "s": "A",
+        "he": "שאלה טובה. בתקופת המנדט הבריטי, השלטונות החליטו לעשות סדר בשוק, ואז נבנו פה דוכנים קבועים.",
+        "en": "Good question. During the British Mandate, the authorities decided to bring some order to the market, and that's when permanent stalls were built here."
+      },
+      {
+        "s": "A",
+        "he": "היום יש בשוק יותר ממאתיים דוכנים של ירקות, תבלינים, גבינות ומאפים, ובשנים האחרונות נפתחו בו גם הרבה מסעדות וברים.",
+        "en": "Today the market has more than two hundred stalls selling vegetables, spices, cheeses and pastries, and in recent years lots of restaurants and bars have opened here too."
+      },
+      {
+        "s": "C",
+        "he": "שמעתי שבערב השוק הופך למקום בילוי. זה נכון?",
+        "en": "I heard that in the evening the market turns into a place to go out. Is that true?"
+      },
+      {
+        "s": "A",
+        "he": "נכון מאוד. כשהדוכנים נסגרים, הברים נפתחים, ויש מוזיקה עד מאוחר בלילה. זה הרבה יותר שמח ממה שאנשים חושבים.",
+        "en": "Very true. When the stalls close, the bars open, and there's music until late at night. It's a lot livelier than people think."
+      },
+      {
+        "s": "A",
+        "he": "ועוד דבר: על התריסים של הדוכנים יש ציורים של אנשים מפורסמים. רואים אותם רק כשהשוק סגור, למשל בשבת.",
+        "en": "And another thing: on the stalls' shutters there are paintings of famous people. You can only see them when the market is closed, on Shabbat for example."
+      },
+      {
+        "s": "B",
+        "he": "רגע, אז בשבת השוק סגור לגמרי?",
+        "en": "Wait, so on Shabbat the market is completely closed?"
+      },
+      {
+        "s": "A",
+        "he": "כמעט. רוב הדוכנים סגורים מיום שישי אחר הצהריים ועד מוצאי שבת. לכן ביום שישי בבוקר יש פה הכי הרבה אנשים: כולם קונים לשבת.",
+        "en": "Almost. Most of the stalls are closed from Friday afternoon until Saturday night. That's why Friday morning is the busiest time here: everyone is shopping for Shabbat."
+      },
+      {
+        "s": "A",
+        "he": "עכשיו, כמה הוראות. יש לכם ארבעים וחמש דקות להסתובב לבד.",
+        "en": "Now, a few instructions. You have forty-five minutes to wander around on your own."
+      },
+      {
+        "s": "A",
+        "he": "תטעמו, תצלמו, תקנו מה שאתם רוצים. אבל תשמרו טוב על התיקים, כי פה מאוד צפוף.",
+        "en": "Taste, take pictures, buy whatever you like. But keep a close eye on your bags, because it's very crowded here."
+      },
+      {
+        "s": "C",
+        "he": "ואפשר להתמקח פה על המחירים, כמו בשוק בעיר העתיקה?",
+        "en": "And can you haggle over prices here, like in the market in the Old City?"
+      },
+      {
+        "s": "A",
+        "he": "פחות. ברוב הדוכנים המחיר כתוב על שלט. אבל אם אתם קונים הרבה, תבקשו הנחה. לא יקרה כלום.",
+        "en": "Not so much. At most stalls the price is written on a sign. But if you're buying a lot, ask for a discount. It can't hurt."
+      },
+      {
+        "s": "B",
+        "he": "ומה הדבר הכי טעים פה? מה את ממליצה לנו לאכול?",
+        "en": "And what's the tastiest thing here? What do you recommend we eat?"
+      },
+      {
+        "s": "A",
+        "he": "קשה לבחור! אני אישית מתה על הרוגלך החם באחת המאפיות פה. אבל אל תאכלו יותר מדי, כי אחרי זה אנחנו הולכים לארוחת צהריים.",
+        "en": "Hard to choose! Personally, I'm crazy about the warm rugelach at one of the bakeries here. But don't eat too much, because after this we're going to lunch."
+      },
+      {
+        "s": "A",
+        "he": "נפגשים בדיוק באחת עשרה וחצי, פה, ליד השלט הגדול. מי שמתעכב, שיתקשר אליי. יאללה, תיהנו!",
+        "en": "We meet at exactly eleven thirty, right here, by the big sign. Anyone who's running late, call me. Off you go, enjoy!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "מתי התחיל השוק, ומה היה במקום בהתחלה?",
+        "qEn": "When did the market begin, and what was on the site at first?",
+        "answer": "בסוף המאה התשע עשרה. בהתחלה זה היה מגרש ריק, וחקלאים מכרו בו פירות וירקות.",
+        "answerEn": "At the end of the nineteenth century. At first it was an empty lot where farmers sold fruit and vegetables.",
+        "keywords": [
+          [
+            "תשע עשרה",
+            "19"
+          ],
+          [
+            "מגרש",
+            "ריק"
+          ],
+          [
+            "חקלאים",
+            "חקלאי",
+            "פירות",
+            "ירקות"
+          ]
+        ]
+      },
+      {
+        "q": "מה קרה בשוק בתקופת המנדט הבריטי?",
+        "qEn": "What happened at the market during the British Mandate?",
+        "answer": "השלטונות עשו בו סדר, ונבנו בו דוכנים קבועים.",
+        "answerEn": "The authorities brought order to it, and permanent stalls were built.",
+        "keywords": [
+          [
+            "סדר"
+          ],
+          [
+            "דוכנים",
+            "דוכן"
+          ],
+          [
+            "קבועים",
+            "קבוע"
+          ]
+        ]
+      },
+      {
+        "q": "מה קורה בשוק בערב?",
+        "qEn": "What happens at the market in the evening?",
+        "answer": "הדוכנים נסגרים, הברים נפתחים ויש מוזיקה עד מאוחר בלילה.",
+        "answerEn": "The stalls close, the bars open, and there's music until late at night.",
+        "keywords": [
+          [
+            "ברים",
+            "בר",
+            "מסעדות",
+            "בילוי"
+          ],
+          [
+            "מוזיקה",
+            "מוסיקה",
+            "נפתחים",
+            "נפתחות",
+            "פתוחים"
+          ]
+        ]
+      },
+      {
+        "q": "אפשר להתמקח בשוק מחנה יהודה?",
+        "qEn": "Can you haggle at Mahane Yehuda market?",
+        "answer": "פחות. המחיר כתוב על שלט, אבל אם קונים הרבה, אפשר לבקש הנחה.",
+        "answerEn": "Not so much. The price is written on a sign, but if you buy a lot, you can ask for a discount.",
+        "keywords": [
+          [
+            "שלט",
+            "שלטים",
+            "כתוב",
+            "כתובים"
+          ],
+          [
+            "הנחה",
+            "הנחות"
+          ]
+        ]
+      },
+      {
+        "q": "מה מיכל מבקשת מהקבוצה לגבי הזמן החופשי?",
+        "qEn": "What does Michal ask of the group regarding their free time?",
+        "answer": "לשמור טוב על התיקים, ולהיפגש באחת עשרה וחצי ליד השלט הגדול.",
+        "answerEn": "To keep a close eye on their bags, and to meet at eleven thirty by the big sign.",
+        "keywords": [
+          [
+            "תיקים",
+            "תיק"
+          ],
+          [
+            "אחת עשרה",
+            "11"
+          ],
+          [
+            "שלט",
+            "נפגשים",
+            "להיפגש",
+            "ניפגש"
+          ]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "השוק התחיל בתקופת המנדט הבריטי.",
+        "sEn": "The market began during the British Mandate.",
+        "a": false,
+        "why": "It began at the end of the nineteenth century as an empty lot; under the British Mandate permanent stalls were built."
+      },
+      {
+        "s": "בשבת רוב הדוכנים בשוק סגורים.",
+        "sEn": "On Shabbat most of the stalls in the market are closed.",
+        "a": true,
+        "why": "Michal says most of the stalls are closed from Friday afternoon until מוצאי שבת, Saturday night."
+      },
+      {
+        "s": "את הציורים על התריסים אפשר לראות בעיקר ביום שישי בבוקר.",
+        "sEn": "You can see the paintings on the shutters mainly on Friday morning.",
+        "a": false,
+        "why": "You only see them when the market is closed, for example on Shabbat. Friday morning is when the market is at its busiest."
+      },
+      {
+        "s": "לקבוצה יש ארבעים וחמש דקות להסתובב לבד.",
+        "sEn": "The group has forty-five minutes to wander around on their own.",
+        "a": true,
+        "why": "Michal gives them forty-five minutes of free time and they meet again at eleven thirty."
+      }
+    ],
+    "dictation": [
+      7,
+      10,
+      14,
+      16
+    ],
+    "expressions": [
+      {
+        "he": "לצאת מחוץ לחומות",
+        "en": "to move outside the (Old City) walls",
+        "note": "How Israelis describe the founding of the first Jerusalem neighbourhoods outside the Old City, in the second half of the 19th century."
+      },
+      {
+        "he": "לעשות סדר",
+        "en": "to bring order, to sort things out",
+        "note": "Very common in everyday talk: בוא נעשה סדר = let's get things organised."
+      },
+      {
+        "he": "מקום בילוי",
+        "en": "a place to go out, a nightlife spot",
+        "note": "From לבלות = to have a good time, to go out. Plural: מקומות בילוי."
+      },
+      {
+        "he": "להתמקח על המחיר",
+        "en": "to haggle over the price",
+        "note": "A hitpa'el verb with על. Normal at some market stalls, unusual in shops."
+      },
+      {
+        "he": "לא יקרה כלום",
+        "en": "it won't hurt, nothing bad will happen",
+        "note": "Literally 'nothing will happen'. Encourages someone to give something a try."
+      },
+      {
+        "he": "מוצאי שבת",
+        "en": "Saturday night, after Shabbat ends",
+        "note": "Also מוצאי חג for the evening a holiday ends. Many shops and restaurants reopen then."
+      }
+    ]
+  },
+  {
+    "id": "s_b1_podcast_aliyah",
+    "level": "B1",
+    "title": "השנה הראשונה שלי בארץ",
+    "titleEn": "My First Year in Israel",
+    "genre": "podcast",
+    "synopsis": "On the podcast 'Olim Al Ze', host Ido talks to Luciana, who moved to Israel with her family a year ago. She looks back on her first months: offices and forms, the ulpan, and finding work.",
+    "speakers": {
+      "A": {
+        "name": "עידו",
+        "gender": "m"
+      },
+      "B": {
+        "name": "לוסיאנה",
+        "gender": "f"
+      }
+    },
+    "lines": [
+      {
+        "s": "A",
+        "he": "שלום, וברוכים הבאים לעולים על זה, הפודקאסט על החיים החדשים בארץ. אני עידו, ואיתי היום לוסיאנה.",
+        "en": "Hello, and welcome to Olim Al Ze, the podcast about new lives in Israel. I'm Ido, and with me today is Luciana."
+      },
+      {
+        "s": "B",
+        "he": "היי, עידו. תודה שהזמנת אותי. אני קצת מתרגשת.",
+        "en": "Hi, Ido. Thanks for inviting me. I'm a bit nervous."
+      },
+      {
+        "s": "A",
+        "he": "אין סיבה להתרגש. ספרי לנו קצת: מאיפה עלית, ומתי?",
+        "en": "No reason to be nervous. Tell us a little: where did you immigrate from, and when?"
+      },
+      {
+        "s": "B",
+        "he": "עליתי מבואנוס איירס לפני שנה בדיוק, עם בעלי ושני הילדים שלנו. אני פיזיותרפיסטית במקצוע.",
+        "en": "I immigrated from Buenos Aires exactly a year ago, with my husband and our two children. I'm a physiotherapist by profession."
+      },
+      {
+        "s": "A",
+        "he": "בואי נתחיל מהחלק שכולם מפחדים ממנו: הבירוקרטיה. איך היה אצלך?",
+        "en": "Let's start with the part everyone's afraid of: the bureaucracy. How was it for you?"
+      },
+      {
+        "s": "B",
+        "he": "האמת? בהתחלה זה היה סיוט. בשבוע הראשון היינו צריכים לפתוח חשבון בנק, להירשם לקופת חולים ולקבוע תור במשרד הפנים.",
+        "en": "Honestly? At first it was a nightmare. In the first week we had to open a bank account, register with a health fund and make an appointment at the Interior Ministry."
+      },
+      {
+        "s": "B",
+        "he": "ובכל מקום ביקשו ממני עוד מסמך. תמיד היה חסר משהו: צילום, חתימה, תרגום...",
+        "en": "And everywhere they asked me for one more document. Something was always missing: a photocopy, a signature, a translation..."
+      },
+      {
+        "s": "A",
+        "he": "זה נשמע מוכר. יש לך טיפ לעולים שמגיעים עכשיו?",
+        "en": "That sounds familiar. Do you have a tip for immigrants who are arriving now?"
+      },
+      {
+        "s": "B",
+        "he": "כן. תכינו תיקייה עם כל המסמכים, ותמיד תביאו שני עותקים מכל מסמך. וגם, אל תוותרו. אם פקיד אחד אומר לא, תשאלו פקיד אחר.",
+        "en": "Yes. Put together a folder with all your documents, and always bring two copies of each one. And also, don't give up. If one clerk says no, ask another clerk."
+      },
+      {
+        "s": "A",
+        "he": "ומה עם העברית? למדת באולפן?",
+        "en": "And what about Hebrew? Did you study at an ulpan?"
+      },
+      {
+        "s": "B",
+        "he": "כן, חמישה חודשים באולפן בחיפה, חמישה ימים בשבוע, כל בוקר. היה קשה, אבל נהניתי מאוד.",
+        "en": "Yes, five months at an ulpan in Haifa, five days a week, every morning. It was hard, but I really enjoyed it."
+      },
+      {
+        "s": "B",
+        "he": "בכיתה שלי היו אנשים מצרפת, מאוקראינה, מאתיופיה ומארצות הברית. דיברנו עברית, כי לא הייתה לנו שפה משותפת אחרת.",
+        "en": "In my class there were people from France, Ukraine, Ethiopia and the United States. We spoke Hebrew, because we had no other language in common."
+      },
+      {
+        "s": "A",
+        "he": "ומה הכי קשה בעברית, לדעתך?",
+        "en": "And what's the hardest thing about Hebrew, in your opinion?"
+      },
+      {
+        "s": "B",
+        "he": "בלי ספק, הפעלים. יש כל כך הרבה בניינים! וחוץ מזה, ישראלים מדברים מהר מאוד ובולעים חצי מהמילים.",
+        "en": "Without a doubt, the verbs. There are so many binyanim! And besides, Israelis talk really fast and swallow half the words."
+      },
+      {
+        "s": "A",
+        "he": "נכון, אנחנו לא עושים לכם חיים קלים. ומה עם העבודה? את כבר עובדת כפיזיותרפיסטית?",
+        "en": "True, we don't make life easy for you. And what about work? Are you already working as a physiotherapist?"
+      },
+      {
+        "s": "B",
+        "he": "עוד לא. כדי לקבל רישיון ישראלי, אני צריכה לעבור מבחן, ואני עדיין מתכוננת אליו.",
+        "en": "Not yet. To get an Israeli licence I have to pass an exam, and I'm still preparing for it."
+      },
+      {
+        "s": "B",
+        "he": "בינתיים אני עובדת בחצי משרה כמזכירה במרפאה. זה לא המקצוע שלי, אבל ככה אני מדברת עברית כל היום.",
+        "en": "In the meantime I work half-time as a secretary at a clinic. It's not my profession, but this way I speak Hebrew all day long."
+      },
+      {
+        "s": "A",
+        "he": "רעיון חכם. ולסיום: אחרי שנה בארץ, את שמחה שעלית?",
+        "en": "Smart idea. And to finish: after a year in Israel, are you glad you immigrated?"
+      },
+      {
+        "s": "B",
+        "he": "כן, מאוד. יש ימים קשים, ואני מתגעגעת להורים ולחברים בארגנטינה. אבל הילדים כבר מדברים עברית יותר טוב ממני, ובשבילי זו ההצלחה הכי גדולה.",
+        "en": "Yes, very. There are hard days, and I miss my parents and friends in Argentina. But the kids already speak Hebrew better than I do, and for me that's the biggest success."
+      },
+      {
+        "s": "A",
+        "he": "איזה יופי. לוסיאנה, תודה רבה, ובהצלחה במבחן!",
+        "en": "How wonderful. Luciana, thank you very much, and good luck with the exam!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "מאיפה לוסיאנה עלתה, ומתי?",
+        "qEn": "Where did Luciana immigrate from, and when?",
+        "answer": "היא עלתה מבואנוס איירס לפני שנה.",
+        "answerEn": "She immigrated from Buenos Aires a year ago.",
+        "keywords": [
+          [
+            "בואנוס איירס",
+            "ארגנטינה"
+          ],
+          [
+            "שנה"
+          ]
+        ]
+      },
+      {
+        "q": "מה לוסיאנה הייתה צריכה לעשות בשבוע הראשון?",
+        "qEn": "What did Luciana have to do in the first week?",
+        "answer": "לפתוח חשבון בנק, להירשם לקופת חולים ולקבוע תור במשרד הפנים.",
+        "answerEn": "Open a bank account, register with a health fund and make an appointment at the Interior Ministry.",
+        "keywords": [
+          [
+            "בנק"
+          ],
+          [
+            "קופת חולים",
+            "קופה"
+          ],
+          [
+            "משרד הפנים",
+            "תור"
+          ]
+        ]
+      },
+      {
+        "q": "איזה טיפ נותנת לוסיאנה לעולים חדשים?",
+        "qEn": "What tip does Luciana give new immigrants?",
+        "answer": "להכין תיקייה עם כל המסמכים, להביא שני עותקים ולא לוותר.",
+        "answerEn": "To put together a folder with all the documents, bring two copies and not give up.",
+        "keywords": [
+          [
+            "תיקייה",
+            "תיקיה",
+            "מסמכים",
+            "מסמך"
+          ],
+          [
+            "עותקים",
+            "עותק"
+          ],
+          [
+            "לוותר",
+            "תוותרו",
+            "מוותרים",
+            "ויתור"
+          ]
+        ]
+      },
+      {
+        "q": "למה התלמידים בכיתה של לוסיאנה דיברו עברית?",
+        "qEn": "Why did the students in Luciana's class speak Hebrew?",
+        "answer": "כי לא הייתה להם שפה משותפת אחרת.",
+        "answerEn": "Because they had no other language in common.",
+        "keywords": [
+          [
+            "שפה"
+          ],
+          [
+            "משותפת",
+            "משותף"
+          ]
+        ]
+      },
+      {
+        "q": "איפה לוסיאנה עובדת היום, ולמה היא עוד לא עובדת כפיזיותרפיסטית?",
+        "qEn": "Where does Luciana work now, and why isn't she working as a physiotherapist yet?",
+        "answer": "היא עובדת בחצי משרה כמזכירה במרפאה, כי היא עוד צריכה לעבור מבחן כדי לקבל רישיון.",
+        "answerEn": "She works half-time as a secretary at a clinic, because she still has to pass an exam to get a licence.",
+        "keywords": [
+          [
+            "מזכירה"
+          ],
+          [
+            "מרפאה"
+          ],
+          [
+            "מבחן",
+            "בחינה",
+            "רישיון",
+            "רשיון"
+          ]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "לוסיאנה עלתה לבד, בלי המשפחה שלה.",
+        "sEn": "Luciana immigrated alone, without her family.",
+        "a": false,
+        "why": "She came with her husband and their two children."
+      },
+      {
+        "s": "בכיתה של לוסיאנה באולפן למדו עולים מכמה ארצות.",
+        "sEn": "In Luciana's ulpan class there were immigrants from several countries.",
+        "a": true,
+        "why": "Her class had people from France, Ukraine, Ethiopia and the United States."
+      },
+      {
+        "s": "לדעת לוסיאנה, הפעלים הם הדבר הכי קשה בעברית.",
+        "sEn": "In Luciana's opinion, the verbs are the hardest thing in Hebrew.",
+        "a": true,
+        "why": "She says 'without a doubt, the verbs' because there are so many binyanim."
+      },
+      {
+        "s": "לוסיאנה כבר עובדת כפיזיותרפיסטית.",
+        "sEn": "Luciana already works as a physiotherapist.",
+        "a": false,
+        "why": "Not yet: she still has to pass the licensing exam. Meanwhile she works as a secretary at a clinic."
+      }
+    ],
+    "dictation": [
+      1,
+      7,
+      12,
+      17
+    ],
+    "expressions": [
+      {
+        "he": "לעלות לארץ",
+        "en": "to immigrate to Israel, to make aliyah",
+        "note": "Past: עליתי, עלתה. A new immigrant is עולה חדש / עולה חדשה. The podcast name עולים על זה is a pun: in slang, לעלות על משהו means to figure something out."
+      },
+      {
+        "he": "לקבוע תור",
+        "en": "to make an appointment",
+        "note": "At a doctor's, a government office or a hairdresser's. תור also means a queue: לעמוד בתור."
+      },
+      {
+        "he": "היה חסר משהו",
+        "en": "something was missing",
+        "note": "חסר agrees with what is missing: חסרה חתימה, חסרים מסמכים."
+      },
+      {
+        "he": "אל תוותרו",
+        "en": "don't give up",
+        "note": "From the pi'el verb לוותר. To one man: אל תוותר; to one woman: אל תוותרי."
+      },
+      {
+        "he": "חצי משרה",
+        "en": "a half-time job",
+        "note": "משרה מלאה = a full-time job. You work במשרה מלאה or בחצי משרה."
+      },
+      {
+        "he": "להתגעגע ל...",
+        "en": "to miss (someone or something)",
+        "note": "A hitpa'el verb with ל: אני מתגעגעת להורים, הוא מתגעגע לים. Note the direction: the person or thing you miss comes after ל."
+      }
+    ]
+  },
+  {
+    "id": "s_b1p_customer_complaint_call",
+    "level": "B1+",
+    "title": "חיוב שלא הזמנתי",
+    "titleEn": "A Charge I Never Ordered",
+    "genre": "phone",
+    "synopsis": "Dmitri finds a charge he doesn't recognise on his phone bill and calls his provider. He stays polite, but he doesn't give up easily. How far will the company go to keep him happy?",
+    "speakers": {
+      "A": {
+        "name": "דמיטרי",
+        "gender": "m"
+      },
+      "B": {
+        "name": "רנא",
+        "gender": "f"
+      }
+    },
+    "lines": [
+      {
+        "s": "B",
+        "he": "אופק תקשורת, שלום, מדברת רנא. במה אוכל לעזור?",
+        "en": "Ofek Communications, hello, this is Rana speaking. How can I help?"
+      },
+      {
+        "s": "A",
+        "he": "שלום, רנא. קוראים לי דמיטרי לוין. אני מתקשר בקשר לחשבונית של החודש. יש בה חיוב שאני לא מכיר.",
+        "en": "Hello, Rana. My name is Dmitri Levin. I'm calling about this month's bill. There's a charge on it that I don't recognise."
+      },
+      {
+        "s": "B",
+        "he": "בשמחה, אני אבדוק. לצורך זיהוי, אפשר בבקשה את מספר תעודת הזהות?",
+        "en": "Gladly, I'll check. For identification purposes, could I have your ID number, please?"
+      },
+      {
+        "s": "A",
+        "he": "כן. שלוש, אחת, שבע, אפס, שמונה, שתיים, ארבע, חמש, תשע.",
+        "en": "Yes. Three, one, seven, zero, eight, two, four, five, nine."
+      },
+      {
+        "s": "B",
+        "he": "תודה, דמיטרי. אני רואה את החשבון שלך. על איזה חיוב מדובר?",
+        "en": "Thank you, Dmitri. I can see your account. Which charge is it about?"
+      },
+      {
+        "s": "A",
+        "he": "יש חיוב של שבעים ותשעה שקלים ותשעים אגורות על חבילת גלישה בחו״ל. ואני לא הזמנתי שום חבילה כזאת.",
+        "en": "There's a charge of seventy-nine shekels and ninety agorot for a roaming data package. And I never ordered any package like that."
+      },
+      {
+        "s": "B",
+        "he": "רגע, אני בודקת... כן, אני רואה. החבילה הופעלה בשלושה בחודש.",
+        "en": "One moment, I'm checking... Yes, I can see it. The package was activated on the third of the month."
+      },
+      {
+        "s": "A",
+        "he": "זה בדיוק העניין. בשלושה בחודש הייתי בתל אביב, בעבודה. לא יצאתי מהארץ כבר שנה.",
+        "en": "That's exactly the point. On the third of the month I was in Tel Aviv, at work. I haven't left the country in a year."
+      },
+      {
+        "s": "A",
+        "he": "אם הייתי טס לחו״ל, הייתי זוכר שהזמנתי חבילה, נכון?",
+        "en": "If I had flown abroad, I'd remember ordering a package, right?"
+      },
+      {
+        "s": "B",
+        "he": "אני מבינה אותך. לפעמים, אם לוחצים בטעות על קישור בהודעה, החבילה מופעלת אוטומטית.",
+        "en": "I understand. Sometimes, if you accidentally click a link in a text message, the package is activated automatically."
+      },
+      {
+        "s": "A",
+        "he": "לא לחצתי על שום קישור. לכן אני מבקש שתבטלי את החבילה ותחזירי לי את הכסף.",
+        "en": "I didn't click on any link. So I'm asking you to cancel the package and give me my money back."
+      },
+      {
+        "s": "B",
+        "he": "את החבילה אני מבטלת כבר עכשיו. לגבי הכסף, אני יכולה לתת לך זיכוי של חמישים אחוז, כמחווה של רצון טוב.",
+        "en": "I'm cancelling the package right now. As for the money, I can give you a fifty percent credit, as a goodwill gesture."
+      },
+      {
+        "s": "A",
+        "he": "סליחה, אבל זה לא מספיק. לא מדובר פה במחווה. גביתם ממני כסף על שירות שלא הזמנתי ולא קיבלתי.",
+        "en": "I'm sorry, but that's not enough. This isn't about a gesture. You charged me for a service I didn't order and didn't receive."
+      },
+      {
+        "s": "A",
+        "he": "אני לקוח שלכם כבר שמונה שנים, ותמיד שילמתי בזמן. אם תחזירי את כל הסכום, מבחינתי העניין סגור.",
+        "en": "I've been your customer for eight years, and I've always paid on time. If you refund the whole amount, as far as I'm concerned the matter is closed."
+      },
+      {
+        "s": "B",
+        "he": "בסדר. רק רגע, אני צריכה לקבל אישור מאחראית המשמרת. אתה יכול להמתין על הקו?",
+        "en": "All right. Just a moment, I need to get approval from the shift supervisor. Can you hold the line?"
+      },
+      {
+        "s": "A",
+        "he": "כן, אני ממתין. אבל אני אומר לך בכנות: אם זה לא יסתדר, אני אשקול לעבור לחברה אחרת.",
+        "en": "Yes, I'll hold. But I'm telling you honestly: if this doesn't get sorted out, I'll consider switching to another company."
+      },
+      {
+        "s": "B",
+        "he": "דמיטרי? תודה על ההמתנה. יש לי חדשות טובות: קיבלתי אישור לזיכוי מלא.",
+        "en": "Dmitri? Thank you for holding. I have good news: I got approval for a full credit."
+      },
+      {
+        "s": "B",
+        "he": "הסכום יופיע כזיכוי בחשבונית הבאה. בנוסף, הוספתי לקו שלך חסימה, כך שאי אפשר יהיה להזמין חבילות בלי האישור שלך.",
+        "en": "The amount will appear as a credit on your next bill. In addition, I've added a block to your line, so that packages can't be ordered without your approval."
+      },
+      {
+        "s": "A",
+        "he": "מצוין, זה בדיוק מה שביקשתי. תוכלי לשלוח לי את זה גם בכתב, עם מספר פנייה?",
+        "en": "Excellent, that's exactly what I asked for. Could you also send me that in writing, with a reference number?"
+      },
+      {
+        "s": "B",
+        "he": "כמובן. תוך כמה דקות תקבל הודעה עם כל הפרטים. ושוב, אני מתנצלת על אי הנעימות.",
+        "en": "Of course. Within a few minutes you'll get a message with all the details. And again, I apologise for the inconvenience."
+      },
+      {
+        "s": "A",
+        "he": "תודה רבה, רנא. באמת עזרת לי. יום טוב!",
+        "en": "Thank you very much, Rana. You've really helped me. Have a good day!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "למה דמיטרי מתקשר לחברה?",
+        "qEn": "Why is Dmitri calling the company?",
+        "answer": "כי יש בחשבונית חיוב על חבילת גלישה בחו״ל, והוא לא הזמין אותה.",
+        "answerEn": "Because there's a charge on the bill for a roaming data package, and he didn't order it.",
+        "keywords": [
+          [
+            "חיוב"
+          ],
+          [
+            "חבילה",
+            "חבילת",
+            "גלישה"
+          ],
+          [
+            "הזמין",
+            "הזמנתי",
+            "הזמנה"
+          ]
+        ]
+      },
+      {
+        "q": "איפה היה דמיטרי בשלושה בחודש?",
+        "qEn": "Where was Dmitri on the third of the month?",
+        "answer": "הוא היה בתל אביב, בעבודה.",
+        "answerEn": "He was in Tel Aviv, at work.",
+        "keywords": [
+          [
+            "תל אביב",
+            "ת״א"
+          ],
+          [
+            "עבודה",
+            "עבד",
+            "עובד"
+          ]
+        ]
+      },
+      {
+        "q": "מה רנא מציעה בהתחלה, ולמה דמיטרי לא מסכים?",
+        "qEn": "What does Rana offer at first, and why doesn't Dmitri agree?",
+        "answer": "היא מציעה זיכוי של חמישים אחוז. הוא לא מסכים, כי הוא לא הזמין את השירות ולא קיבל אותו.",
+        "answerEn": "She offers a fifty percent credit. He doesn't agree, because he didn't order the service and didn't receive it.",
+        "keywords": [
+          [
+            "חמישים",
+            "50",
+            "חצי"
+          ],
+          [
+            "זיכוי"
+          ],
+          [
+            "הזמין",
+            "הזמנתי",
+            "קיבל",
+            "קיבלתי"
+          ]
+        ]
+      },
+      {
+        "q": "מה דמיטרי יעשה אם הבעיה לא תסתדר?",
+        "qEn": "What will Dmitri do if the problem isn't sorted out?",
+        "answer": "הוא ישקול לעבור לחברה אחרת.",
+        "answerEn": "He'll consider switching to another company.",
+        "keywords": [
+          [
+            "לעבור",
+            "יעבור",
+            "אעבור",
+            "עובר"
+          ],
+          [
+            "חברה"
+          ]
+        ]
+      },
+      {
+        "q": "מה דמיטרי מקבל בסוף השיחה?",
+        "qEn": "What does Dmitri get at the end of the call?",
+        "answer": "זיכוי מלא, חסימה בקו ואישור בכתב עם מספר פנייה.",
+        "answerEn": "A full credit, a block on his line and written confirmation with a reference number.",
+        "keywords": [
+          [
+            "זיכוי"
+          ],
+          [
+            "מלא"
+          ],
+          [
+            "חסימה",
+            "כתב",
+            "פנייה",
+            "אישור"
+          ]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "דמיטרי לא יצא מהארץ כבר שנה.",
+        "sEn": "Dmitri hasn't left the country for a year.",
+        "a": true,
+        "why": "He says so himself: on the third of the month he was at work in Tel Aviv, and he hasn't been abroad in a year."
+      },
+      {
+        "s": "רנא מבטלת את החבילה מיד.",
+        "sEn": "Rana cancels the package right away.",
+        "a": true,
+        "why": "She says she's cancelling the package right now; only the refund needed her supervisor's approval."
+      },
+      {
+        "s": "דמיטרי מסכים לקבל זיכוי של חמישים אחוז.",
+        "sEn": "Dmitri agrees to accept a fifty percent credit.",
+        "a": false,
+        "why": "He says it isn't enough: he was charged for a service he didn't order, so he wants the whole amount back."
+      },
+      {
+        "s": "בסוף השיחה דמיטרי מחליט לעבור לחברה אחרת.",
+        "sEn": "At the end of the call Dmitri decides to switch to another company.",
+        "a": false,
+        "why": "He only said he would consider switching if the problem wasn't solved. In the end he gets a full credit and thanks Rana."
+      }
+    ],
+    "dictation": [
+      2,
+      4,
+      8,
+      16
+    ],
+    "expressions": [
+      {
+        "he": "אני מתקשר בקשר ל...",
+        "en": "I'm calling about...",
+        "note": "The standard way to open a service call. A woman says אני מתקשרת בקשר ל..."
+      },
+      {
+        "he": "לא מדובר ב...",
+        "en": "this isn't a matter of..., it's not about...",
+        "note": "Slightly formal and very useful in complaints. As a question: על מה מדובר? = what is this about?"
+      },
+      {
+        "he": "כמחווה של רצון טוב",
+        "en": "as a goodwill gesture",
+        "note": "What a company offers when it gives something without admitting a mistake."
+      },
+      {
+        "he": "מבחינתי העניין סגור",
+        "en": "as far as I'm concerned, the matter is closed",
+        "note": "מבחינתי = from my point of view. Signals the one solution you're willing to accept."
+      },
+      {
+        "he": "להמתין על הקו",
+        "en": "to hold the line",
+        "note": "Formal. In everyday speech: לחכות על הקו."
+      },
+      {
+        "he": "מספר פנייה",
+        "en": "reference number, ticket number",
+        "note": "Always ask for one when you complain. פנייה = an inquiry or a request to an organisation."
+      }
+    ]
+  }
+]

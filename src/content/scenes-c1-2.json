@@ -1,0 +1,968 @@
+[
+  {
+    "id": "s_c1_board_debate",
+    "level": "C1",
+    "title": "לקפוץ למים?",
+    "titleEn": "Taking the Plunge?",
+    "genre": "meeting",
+    "synopsis": "The board of a fictional Israeli agri-tech company that makes soil-moisture sensors meets to discuss the CEO's plan to open a subsidiary in Spain. The finance director is far from convinced. Listen for how each side argues, concedes ground and tries to win over the room.",
+    "speakers": {
+      "A": {
+        "name": "יהודית",
+        "gender": "f"
+      },
+      "B": {
+        "name": "ראמי",
+        "gender": "m"
+      },
+      "C": {
+        "name": "אולגה",
+        "gender": "f"
+      },
+      "D": {
+        "name": "דניאל",
+        "gender": "m"
+      }
+    },
+    "lines": [
+      {
+        "s": "A",
+        "he": "בוקר טוב לכולם. הסעיף העיקרי על סדר היום הוא הצעת ההנהלה להקים חברת בת בספרד. ראמי, הבמה שלך.",
+        "en": "Good morning, everyone. The main item on the agenda is management's proposal to set up a subsidiary in Spain. Rami, the floor is yours."
+      },
+      {
+        "s": "B",
+        "he": "תודה, יהודית. אפתח בנתון אחד: בסקר שהזמנו, שבעה מכל עשרה מגדלים שרואיינו בדרום ספרד אינם משתמשים כלל בחיישני לחות קרקע.",
+        "en": "Thank you, Yehudit. I'll open with a single figure: in the survey we commissioned, seven out of every ten growers interviewed in southern Spain don't use soil-moisture sensors at all."
+      },
+      {
+        "s": "B",
+        "he": "במילים אחרות, מדובר בשוק עצום, אשר המתחרים הגדולים שלנו טרם נכנסו אליו.",
+        "en": "In other words, we're talking about a huge market, which our big competitors have not yet entered."
+      },
+      {
+        "s": "B",
+        "he": "אינני מבקש מכם לקפוץ למים בעיניים עצומות.",
+        "en": "I'm not asking you to jump in with your eyes closed."
+      },
+      {
+        "s": "B",
+        "he": "אבל אם לא ננצל את חלון ההזדמנויות הזה עכשיו, בעוד שלוש שנים נקרא בעיתון שמישהו אחר עשה זאת.",
+        "en": "But if we don't seize this window of opportunity now, in three years' time we'll read in the paper that someone else did it."
+      },
+      {
+        "s": "C",
+        "he": "עם כל הכבוד, ראמי, ראיתי מספיק מצגות בחיי כדי לדעת שהנייר סובל הכול. שוק עצום על הנייר זה עוד לא לקוחות משלמים.",
+        "en": "With all due respect, Rami, I've seen enough presentations in my life to know that paper will put up with anything. A huge market on paper isn't paying customers yet."
+      },
+      {
+        "s": "C",
+        "he": "ההצעה מדברת על השקעה של שמונה עשר מיליון שקל בשנתיים, כלומר כמעט שליש מהמזומנים שיש לנו בקופה.",
+        "en": "The proposal talks about an investment of eighteen million shekels over two years, that is, almost a third of the cash we have in the coffers."
+      },
+      {
+        "s": "C",
+        "he": "ואני מבקשת להזכיר לחברי הדירקטוריון שכבר היינו בסרט הזה. הניסיון באיטליה, לפני ארבע שנים, נכשל בעיקר משום שלא הייתה לנו שם תמיכה מקומית.",
+        "en": "And I'd like to remind the members of the board that we've seen this movie before. The attempt in Italy, four years ago, failed mainly because we had no local support there."
+      },
+      {
+        "s": "B",
+        "he": "זו הערה במקומה, ואין לי שום כוונה לייפות את מה שקרה שם. אבל דווקא משום שלמדנו את הלקח, התוכנית הפעם שונה מן היסוד.",
+        "en": "That's a fair point, and I have no intention of glossing over what happened there. But precisely because we learned the lesson, this time the plan is fundamentally different."
+      },
+      {
+        "s": "B",
+        "he": "באיטליה עבדנו דרך מפיץ אחד, אשר מכר את המערכת שלנו לצד עשרות מוצרים אחרים. הפעם נעסיק צוות משלנו בשטח.",
+        "en": "In Italy we worked through a single distributor, who sold our system alongside dozens of other products. This time we'll employ our own team on the ground."
+      },
+      {
+        "s": "D",
+        "he": "אם יורשה לי, אני רוצה לשאול שאלה שאולי תישמע תמימה. למה דווקא ספרד, ולא, נגיד, הרחבה של המכירות כאן בארץ?",
+        "en": "If I may, I'd like to ask a question that may sound naive. Why Spain, of all places, and not, say, expanding our sales here in Israel?"
+      },
+      {
+        "s": "B",
+        "he": "שאלה מצוינת, דניאל. בארץ אנחנו כבר מחזיקים כמעט חצי מהשוק, וכל אחוז נוסף עולה לנו ביוקר.",
+        "en": "Excellent question, Daniel. Here in Israel we already hold almost half the market, and every additional percent costs us dearly."
+      },
+      {
+        "s": "B",
+        "he": "האקלים בדרום ספרד דומה לשלנו, הגידולים דומים, והבעיה זהה: מחסור במים. המערכת שלנו נבנתה בדיוק בשביל זה.",
+        "en": "The climate in southern Spain is similar to ours, the crops are similar, and the problem is the same: a shortage of water. Our system was built for exactly that."
+      },
+      {
+        "s": "C",
+        "he": "אני לא מתווכחת עם האקלים, אני מתווכחת עם לוח הזמנים. לפי התחזית שלך, נגיע לנקודת איזון רק בעוד ארבע שנים, ובתנאי שהכול ילך כמתוכנן.",
+        "en": "I'm not arguing with the climate, I'm arguing with the timetable. According to your forecast, we'll only break even in four years, and that's provided everything goes according to plan."
+      },
+      {
+        "s": "C",
+        "he": "ומניסיוני, שום דבר לא הולך בדיוק כמתוכנן. יש סיכוני מטבע, יש רגולציה שאיננו מכירים, ויש משכורות שישולמו באירו.",
+        "en": "And in my experience, nothing goes exactly according to plan. There are currency risks, there's regulation we're not familiar with, and there are salaries that will be paid in euros."
+      },
+      {
+        "s": "D",
+        "he": "כלומר, אם אני מבין נכון, איש כאן אינו מתנגד לעצם הרעיון. המחלוקת היא על הקצב ועל מידת הסיכון.",
+        "en": "So, if I understand correctly, nobody here opposes the idea itself. The disagreement is about the pace and the degree of risk."
+      },
+      {
+        "s": "C",
+        "he": "בדיוק. אילו הוצגה כאן תוכנית בשלבים, הייתי שוקלת אותה ברצינות.",
+        "en": "Exactly. Had a phased plan been presented here, I would have considered it seriously."
+      },
+      {
+        "s": "B",
+        "he": "אז אני אלך לקראתך, אולגה. אני מוכן לחלק את ההשקעה לשני שלבים, ובשלב הראשון לבקש שישה מיליון בלבד.",
+        "en": "Then I'll meet you halfway, Olga. I'm prepared to split the investment into two stages, and in the first stage to ask for only six million."
+      },
+      {
+        "s": "B",
+        "he": "נפתח משרד קטן בסביליה, נגייס שלושה אנשי שטח, ונעבוד עם עשרים חוות במסגרת פיילוט.",
+        "en": "We'll open a small office in Seville, recruit three field staff, and work with twenty farms as a pilot."
+      },
+      {
+        "s": "B",
+        "he": "ואם בתום שנה לא נעמוד ביעדים שנקבע מראש, אני אהיה הראשון שימליץ לעצור.",
+        "en": "And if at the end of a year we haven't met the targets we set in advance, I'll be the first to recommend stopping."
+      },
+      {
+        "s": "C",
+        "he": "זה כבר נשמע אחרת. אבל אני רוצה יעדים מספריים וברורים, ולא ניסוחים עמומים שאפשר לפרש לכל כיוון.",
+        "en": "Now that sounds different. But I want clear, numerical targets, not vague wording that can be read any which way."
+      },
+      {
+        "s": "D",
+        "he": "אני מציע שני יעדים: מספר החוות שיחתמו על חוזה, ושיעור המגדלים שימשיכו להשתמש במערכת גם אחרי עונה אחת.",
+        "en": "I propose two targets: the number of farms that sign a contract, and the share of growers who are still using the system after one season."
+      },
+      {
+        "s": "B",
+        "he": "מקובל עליי לגמרי. ובינינו, זה בדיוק המבחן שגם אני הייתי רוצה לעבור.",
+        "en": "Entirely acceptable to me. And between us, that's exactly the test I'd want to pass myself."
+      },
+      {
+        "s": "A",
+        "he": "אם כך, אנסה לסכם. ההנהלה מבקשת אישור לשלב הראשון בלבד, בהיקף של שישה מיליון שקל ולתקופה של שנה.",
+        "en": "In that case, let me try to sum up. Management is requesting approval for the first stage only, to the amount of six million shekels and for a period of one year."
+      },
+      {
+        "s": "A",
+        "he": "היעדים יוצגו לדירקטוריון בישיבה הבאה, וההחלטה על השלב השני תתקבל רק לאחר שנבחן את התוצאות.",
+        "en": "The targets will be presented to the board at the next meeting, and the decision on the second stage will be taken only after we have examined the results."
+      },
+      {
+        "s": "A",
+        "he": "אולגה, בנוסח הזה, את מוכנה לתמוך בהצעה?",
+        "en": "Olga, in this form, are you prepared to support the proposal?"
+      },
+      {
+        "s": "C",
+        "he": "בנוסח הזה, כן. ואני אפילו מודה שראמי שכנע אותי יותר ממה שציפיתי.",
+        "en": "In this form, yes. And I'll even admit that Rami persuaded me more than I expected."
+      },
+      {
+        "s": "B",
+        "he": "אפשר לרשום את זה בפרוטוקול?",
+        "en": "Can we put that in the minutes?"
+      },
+      {
+        "s": "A",
+        "he": "כבר נרשם. ועכשיו, הנני מעמידה את ההצעה להצבעה. מי בעד?",
+        "en": "It's already in. And now, I put the proposal to a vote. All in favor?"
+      }
+    ],
+    "questions": [
+      {
+        "q": "מה מבקשת ההנהלה מהדירקטוריון בתחילת הישיבה?",
+        "qEn": "What does management ask of the board at the start of the meeting?",
+        "answer": "להקים חברת בת בספרד, בהשקעה של שמונה עשר מיליון שקל בשנתיים.",
+        "answerEn": "To set up a subsidiary in Spain, with an investment of eighteen million shekels over two years.",
+        "keywords": [
+          [
+            "חברת בת",
+            "חברה",
+            "משרד",
+            "להקים"
+          ],
+          [
+            "ספרד"
+          ],
+          [
+            "שמונה עשר",
+            "שמונה־עשר",
+            "18"
+          ]
+        ]
+      },
+      {
+        "q": "מדוע נכשל הניסיון באיטליה, ומה אמור להשתנות הפעם?",
+        "qEn": "Why did the attempt in Italy fail, and what is supposed to change this time?",
+        "answer": "כי לא הייתה להם שם תמיכה מקומית, והם עבדו דרך מפיץ אחד. הפעם הם יעסיקו צוות משלהם בשטח.",
+        "answerEn": "Because they had no local support there and worked through a single distributor. This time they will employ their own team on the ground.",
+        "keywords": [
+          [
+            "תמיכה",
+            "מפיץ"
+          ],
+          [
+            "צוות",
+            "בשטח",
+            "אנשי שטח",
+            "נעסיק",
+            "יעסיקו"
+          ]
+        ]
+      },
+      {
+        "q": "מדוע, לפי ראמי, לא כדאי להתמקד בהרחבת המכירות בארץ?",
+        "qEn": "Why, according to Rami, is it not worth focusing on expanding sales in Israel?",
+        "answer": "כי בארץ הם כבר מחזיקים כמעט חצי מהשוק, וכל אחוז נוסף עולה להם ביוקר.",
+        "answerEn": "Because in Israel they already hold almost half the market, and every additional percent costs them dearly.",
+        "keywords": [
+          [
+            "חצי",
+            "מחצית"
+          ],
+          [
+            "ביוקר",
+            "יקר",
+            "אחוז"
+          ]
+        ]
+      },
+      {
+        "q": "איזו פשרה מציע ראמי, ומה הוא מתחייב לעשות אם היא לא תצליח?",
+        "qEn": "What compromise does Rami offer, and what does he commit to doing if it doesn't succeed?",
+        "answer": "לחלק את ההשקעה לשני שלבים ולבקש בשלב הראשון רק שישה מיליון. אם לא יעמדו ביעדים בתום שנה, הוא ימליץ לעצור.",
+        "answerEn": "To split the investment into two stages and to ask for only six million in the first stage. If they don't meet the targets at the end of a year, he will recommend stopping.",
+        "keywords": [
+          [
+            "שלבים",
+            "שלב"
+          ],
+          [
+            "שישה",
+            "שש",
+            "6"
+          ],
+          [
+            "לעצור",
+            "ימליץ",
+            "יעצרו",
+            "להפסיק",
+            "יפסיקו",
+            "עצירה"
+          ]
+        ]
+      },
+      {
+        "q": "אילו שני יעדים מציע דניאל?",
+        "qEn": "Which two targets does Daniel propose?",
+        "answer": "מספר החוות שיחתמו על חוזה, ושיעור המגדלים שימשיכו להשתמש במערכת גם אחרי עונה.",
+        "answerEn": "The number of farms that sign a contract, and the share of growers who keep using the system after a season.",
+        "keywords": [
+          [
+            "חוות",
+            "חווה",
+            "חוזה",
+            "חוזים",
+            "יחתמו"
+          ],
+          [
+            "שימשיכו",
+            "ימשיכו",
+            "ממשיכים",
+            "להמשיך",
+            "עונה"
+          ]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "אולגה מתנגדת לכל התרחבות של החברה לחו״ל.",
+        "sEn": "Olga opposes any expansion of the company abroad.",
+        "a": false,
+        "why": "Daniel sums up that איש כאן אינו מתנגד לעצם הרעיון: the dispute is about pace and risk. Olga agrees and says that a phased plan is something she would consider seriously."
+      },
+      {
+        "s": "לפי התחזית של ראמי, החברה תגיע לנקודת איזון בעוד ארבע שנים.",
+        "sEn": "According to Rami's forecast, the company will break even in four years.",
+        "a": true,
+        "why": "Olga quotes his forecast: נגיע לנקודת איזון רק בעוד ארבע שנים, and adds that this is only if everything goes according to plan."
+      },
+      {
+        "s": "בשלב הראשון ראמי מבקש את כל שמונה עשר המיליון.",
+        "sEn": "In the first stage Rami asks for the full eighteen million.",
+        "a": false,
+        "why": "As a concession he splits the investment into two stages and asks for שישה מיליון בלבד, only six million, in the first one."
+      },
+      {
+        "s": "בסוף הדיון אולגה מודה שראמי שכנע אותה.",
+        "sEn": "At the end of the discussion Olga admits that Rami persuaded her.",
+        "a": true,
+        "why": "She says ראמי שכנע אותי יותר ממה שציפיתי, 'Rami persuaded me more than I expected', and he asks to have it put in the minutes."
+      }
+    ],
+    "dictation": [
+      3,
+      16,
+      22
+    ],
+    "expressions": [
+      {
+        "he": "הבמה שלך",
+        "en": "the floor is yours",
+        "note": "Used by a chair or host to hand over to a speaker. Written the same to a man (shelkhá) and to a woman (shelákh)."
+      },
+      {
+        "he": "לנצל את חלון ההזדמנויות",
+        "en": "to seize the window of opportunity",
+        "note": "חלון הזדמנויות is a construct phrase, so the definite article goes on the second noun: חלון ההזדמנויות."
+      },
+      {
+        "he": "הנייר סובל הכול",
+        "en": "paper will put up with anything",
+        "note": "A saying: anything can be written in a plan or a presentation, which doesn't make it true. A classic sceptic's reply to optimistic figures."
+      },
+      {
+        "he": "כבר היינו בסרט הזה",
+        "en": "we've seen this movie before",
+        "note": "Colloquial: we've been through this and know how it ends. Mixing a colloquial idiom into formal speech is a typical Israeli rhetorical move."
+      },
+      {
+        "he": "אם יורשה לי",
+        "en": "if I may",
+        "note": "Formal. יורשה is the huf'al future of הרשה (to permit): literally 'if it will be permitted to me'. A polite way to take the floor."
+      },
+      {
+        "he": "זו הערה במקומה / אני אלך לקראתך",
+        "en": "that's a fair point / I'll meet you halfway",
+        "note": "Two moves of concession: acknowledge the objection first, then offer a compromise. הערה במקומה = a remark that is to the point, a fair point. ללכת לקראת מישהו = to meet someone halfway."
+      }
+    ]
+  },
+  {
+    "id": "s_c1_court_drama",
+    "level": "C1",
+    "title": "הפיקדון והדוד",
+    "titleEn": "The Deposit and the Water Heater",
+    "genre": "drama",
+    "synopsis": "In a small-claims court, a tenant sues his former landlady over his deposit and the cost of repairing a water heater. Notice the contrast between the judge's formal, legal Hebrew and the everyday speech of the two parties, and listen for how the hearing ends.",
+    "speakers": {
+      "A": {
+        "name": "השופטת בירנבאום",
+        "gender": "f"
+      },
+      "B": {
+        "name": "יוסף טקלה",
+        "gender": "m"
+      },
+      "C": {
+        "name": "ויקטוריה רבינוביץ׳",
+        "gender": "f"
+      }
+    },
+    "lines": [
+      {
+        "s": "A",
+        "he": "אנו דנים כעת בתביעתו של מר יוסף טקלה נגד גברת ויקטוריה רבינוביץ׳. מר טקלה, אבקש שתציג את טענותיך בקצרה ולעניין.",
+        "en": "We are now hearing the claim of Mr. Yosef Tekle against Mrs. Victoria Rabinovich. Mr. Tekle, I'll ask you to present your claims briefly and to the point."
+      },
+      {
+        "s": "B",
+        "he": "תודה, כבוד השופטת. שכרתי ממנה דירה ברמת גן במשך שנתיים, ובסוף החוזה היא פשוט לא החזירה לי את הפיקדון.",
+        "en": "Thank you, Your Honor. I rented an apartment from her in Ramat Gan for two years, and at the end of the lease she simply didn't give me back my deposit."
+      },
+      {
+        "s": "B",
+        "he": "מדובר בשבעת אלפים וחמש מאות שקל. וחוץ מזה, אני תובע עוד אלפיים שקל על הדוד, שתיקנתי על חשבוני.",
+        "en": "We're talking about seven thousand five hundred shekels. And on top of that, I'm claiming another two thousand shekels for the water heater, which I repaired at my own expense."
+      },
+      {
+        "s": "A",
+        "he": "נתחיל בדוד. מתי התגלתה התקלה, והאם הודעת עליה לנתבעת?",
+        "en": "Let's start with the water heater. When was the fault discovered, and did you notify the defendant of it?"
+      },
+      {
+        "s": "B",
+        "he": "בטח שהודעתי. בדצמבר הדוד הפסיק לעבוד, ושלחתי לה הודעה בוואטסאפ שלוש פעמים. יש לי צילומי מסך.",
+        "en": "Of course I did. In December the heater stopped working, and I messaged her on WhatsApp three times. I have screenshots."
+      },
+      {
+        "s": "B",
+        "he": "היא ראתה את ההודעות, יש וי כחול, ולא ענתה. אחרי שבועיים של מקלחות קרות, נשבר לי והזמנתי טכנאי.",
+        "en": "She saw the messages, there are blue ticks, and she didn't answer. After two weeks of cold showers I'd had enough, and I called in a technician."
+      },
+      {
+        "s": "C",
+        "he": "סליחה, אבל זה פשוט לא נכון! הוא לא נתן לי שום הזדמנות. הוא הביא איזה חבר שלו שקורא לעצמו טכנאי.",
+        "en": "Excuse me, but that's simply not true! He didn't give me any chance. He brought in some friend of his who calls himself a technician."
+      },
+      {
+        "s": "A",
+        "he": "גברת רבינוביץ׳, תורך יגיע. אבקש לא להפריע לתובע בשעה שהוא מדבר.",
+        "en": "Mrs. Rabinovich, your turn will come. I ask you not to interrupt the plaintiff while he is speaking."
+      },
+      {
+        "s": "A",
+        "he": "מר טקלה, מן הקבלה שצירפת עולה כי עלות התיקון הייתה אלף תשע מאות שקל. מדוע, אם כן, אתה תובע אלפיים?",
+        "en": "Mr. Tekle, the receipt you attached shows that the repair cost one thousand nine hundred shekels. Why, then, are you claiming two thousand?"
+      },
+      {
+        "s": "B",
+        "he": "האמת? עיגלתי למעלה. בסדר, אני מוריד את המאה, שלא יגידו שבאתי להרוויח על הגב שלה.",
+        "en": "Honestly? I rounded up. Fine, I'll drop the hundred, so nobody can say I came here to make money at her expense."
+      },
+      {
+        "s": "A",
+        "he": "יירשם בפרוטוקול שהתובע מעמיד את רכיב התביעה בגין הדוד על אלף תשע מאות שקל.",
+        "en": "Let the record show that the plaintiff sets the part of the claim relating to the water heater at one thousand nine hundred shekels."
+      },
+      {
+        "s": "A",
+        "he": "גברת רבינוביץ׳, כעת אשמע אותך. מדוע לא הוחזר הפיקדון לתובע?",
+        "en": "Mrs. Rabinovich, I will hear you now. Why was the deposit not returned to the plaintiff?"
+      },
+      {
+        "s": "C",
+        "he": "כבוד השופטת, תביני, הדירה הזאת היא כל מה שיש לי. אני לא בנק, אני מורה בפנסיה.",
+        "en": "Your Honor, you have to understand, this apartment is all I have. I'm not a bank, I'm a retired teacher."
+      },
+      {
+        "s": "C",
+        "he": "כשהוא עזב, הקירות היו מלאים כתמים, דלת של ארון הייתה שבורה, והוא אפילו לא טרח לצבוע.",
+        "en": "When he left, the walls were covered in stains, a closet door was broken, and he didn't even bother to paint."
+      },
+      {
+        "s": "A",
+        "he": "האם נערך פרוטוקול מסירה בתחילת השכירות, שבו תועד מצב הדירה?",
+        "en": "Was a handover report drawn up at the start of the tenancy, documenting the condition of the apartment?"
+      },
+      {
+        "s": "C",
+        "he": "פרוטוקול? מה פתאום. סמכתי עליו, הוא נראה לי בחור הגון. הכול היה על בסיס אמון.",
+        "en": "A report? Of course not. I trusted him, he seemed like a decent young man to me. Everything was based on trust."
+      },
+      {
+        "s": "B",
+        "he": "ואני דווקא צילמתי הכול ביום שנכנסתי. רואים בתמונות שהכתמים בסלון היו שם כבר אז.",
+        "en": "And I, as it happens, photographed everything the day I moved in. You can see in the photos that the stains in the living room were already there then."
+      },
+      {
+        "s": "C",
+        "he": "ואת הדלת של הארון? גם אותה צילמת שבורה?",
+        "en": "And the closet door? Did you photograph that broken too?"
+      },
+      {
+        "s": "B",
+        "he": "לא. את הדלת, אני מודה, אני שברתי. היא נתקעה, ומשכתי חזק מדי.",
+        "en": "No. The door, I admit, I broke. It got stuck, and I pulled too hard."
+      },
+      {
+        "s": "A",
+        "he": "אני מעריכה את הכנות, מר טקלה. ועכשיו אלייך, גברת רבינוביץ׳. מה באשר לדוד? מדוע לא ענית להודעות?",
+        "en": "I appreciate your candor, Mr. Tekle. Now to you, Mrs. Rabinovich. What about the water heater? Why didn't you answer the messages?"
+      },
+      {
+        "s": "C",
+        "he": "הייתי אצל הבת שלי בחיפה, היא בדיוק ילדה. לא היה לי ראש לדוד.",
+        "en": "I was at my daughter's in Haifa; she had just given birth. I had no head for a water heater."
+      },
+      {
+        "s": "A",
+        "he": "אני מבינה את הנסיבות, אך על המשכיר מוטלת החובה לתקן ליקוי מסוג זה בתוך זמן סביר.",
+        "en": "I understand the circumstances, but the duty rests with the landlord to repair a defect of this kind within a reasonable time."
+      },
+      {
+        "s": "A",
+        "he": "ושבועיים בלי מים חמים, בעיצומו של החורף, אינם בגדר זמן סביר.",
+        "en": "And two weeks without hot water, in the middle of winter, do not amount to a reasonable time."
+      },
+      {
+        "s": "A",
+        "he": "לפיכך, בית המשפט מציע לצדדים את ההסדר הבא: הנתבעת תשיב לתובע את הפיקדון, בניכוי שמונה מאות שקל בגין דלת הארון.",
+        "en": "Accordingly, the court proposes the following arrangement to the parties: the defendant will return the deposit to the plaintiff, less eight hundred shekels on account of the closet door."
+      },
+      {
+        "s": "A",
+        "he": "בנוסף, הנתבעת תשלם לתובע אלף תשע מאות שקל עבור תיקון הדוד, בתוך שלושים יום. האם הצדדים מסכימים?",
+        "en": "In addition, the defendant will pay the plaintiff one thousand nine hundred shekels for the repair of the water heater, within thirty days. Do the parties agree?"
+      },
+      {
+        "s": "B",
+        "he": "מבחינתי, כן. לא באתי לריב, אני רק רוצה לסגור את הסיפור.",
+        "en": "As far as I'm concerned, yes. I didn't come here to fight, I just want to put this behind me."
+      },
+      {
+        "s": "C",
+        "he": "נו, טוב, שיהיה. אבל שתדעו לכם, מהיום אני עושה פרוטוקול על כל ברז.",
+        "en": "Oh, all right, so be it. But you should all know, from now on I'm writing up a report on every single faucet."
+      },
+      {
+        "s": "A",
+        "he": "ההסכמה נרשמה, ואני נותנת לה תוקף של פסק דין. אין צו להוצאות. הדיון הסתיים.",
+        "en": "The agreement has been recorded, and I give it the force of a judgment. No order as to costs. The hearing is closed."
+      }
+    ],
+    "questions": [
+      {
+        "q": "מה תובע מר טקלה מהנתבעת?",
+        "qEn": "What is Mr. Tekle claiming from the defendant?",
+        "answer": "את הפיקדון שלא הוחזר לו, ואת הכסף ששילם על תיקון הדוד.",
+        "answerEn": "The deposit that wasn't returned to him, and the money he paid to repair the water heater.",
+        "keywords": [
+          [
+            "פיקדון",
+            "פקדון"
+          ],
+          [
+            "דוד",
+            "תיקון",
+            "טכנאי"
+          ]
+        ]
+      },
+      {
+        "q": "איך מוכיח התובע שהודיע לנתבעת על התקלה?",
+        "qEn": "How does the plaintiff prove that he notified the defendant of the fault?",
+        "answer": "יש לו צילומי מסך של ההודעות בוואטסאפ, שהנתבעת ראתה ולא ענתה עליהן.",
+        "answerEn": "He has screenshots of the WhatsApp messages, which the defendant saw and didn't answer.",
+        "keywords": [
+          [
+            "צילומי מסך",
+            "צילום מסך",
+            "הודעות",
+            "הודעה",
+            "וואטסאפ",
+            "ווטסאפ",
+            "ווצאפ"
+          ],
+          [
+            "ראתה",
+            "וי כחול",
+            "לא ענתה",
+            "התעלמה"
+          ]
+        ]
+      },
+      {
+        "q": "מה מגלה השופטת בקבלה, ואיך מגיב התובע?",
+        "qEn": "What does the judge notice on the receipt, and how does the plaintiff react?",
+        "answer": "שהתיקון עלה אלף תשע מאות שקל ולא אלפיים. התובע מודה שעיגל למעלה, ומוריד את המאה.",
+        "answerEn": "That the repair cost one thousand nine hundred shekels, not two thousand. The plaintiff admits he rounded up and drops the hundred.",
+        "keywords": [
+          [
+            "אלף תשע מאות",
+            "1,900",
+            "1900"
+          ],
+          [
+            "עיגל",
+            "עיגלתי",
+            "עיגול",
+            "מוריד",
+            "הוריד",
+            "ויתר"
+          ]
+        ]
+      },
+      {
+        "q": "מדוע אין בידי הנתבעת הוכחה למצב הדירה בתחילת השכירות?",
+        "qEn": "Why does the defendant have no proof of the apartment's condition at the start of the tenancy?",
+        "answer": "כי לא נערך פרוטוקול מסירה. היא סמכה על התובע, והכול היה על בסיס אמון.",
+        "answerEn": "Because no handover report was drawn up. She trusted the plaintiff, and everything was based on trust.",
+        "keywords": [
+          [
+            "פרוטוקול"
+          ],
+          [
+            "סמכה",
+            "סמכתי",
+            "אמון"
+          ]
+        ]
+      },
+      {
+        "q": "מדוע, לפי השופטת, על הנתבעת לשלם על תיקון הדוד?",
+        "qEn": "Why, according to the judge, must the defendant pay for the water-heater repair?",
+        "answer": "כי המשכיר חייב לתקן ליקוי כזה בתוך זמן סביר, ושבועיים בלי מים חמים בחורף אינם זמן סביר.",
+        "answerEn": "Because the landlord must repair such a defect within a reasonable time, and two weeks without hot water in winter is not a reasonable time.",
+        "keywords": [
+          [
+            "זמן סביר",
+            "סביר"
+          ],
+          [
+            "שבועיים",
+            "מים חמים"
+          ]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "דלת הארון הייתה שבורה כבר כשהתובע נכנס לדירה.",
+        "sEn": "The closet door was already broken when the plaintiff moved in.",
+        "a": false,
+        "why": "When the landlady asks whether he photographed the door broken too, he admits את הדלת, אני מודה, אני שברתי: it got stuck and he pulled too hard."
+      },
+      {
+        "s": "הנתבעת לא ענתה להודעות כי שהתה אצל בתה בחיפה.",
+        "sEn": "The defendant didn't answer the messages because she was staying with her daughter in Haifa.",
+        "a": true,
+        "why": "She explains הייתי אצל הבת שלי בחיפה, היא בדיוק ילדה: her daughter had just given birth, so she had no head for a water heater."
+      },
+      {
+        "s": "השופטת מציעה שהנתבעת תחזיר לתובע את כל הפיקדון.",
+        "sEn": "The judge proposes that the defendant return the whole deposit to the plaintiff.",
+        "a": false,
+        "why": "She proposes returning it בניכוי שמונה מאות שקל בגין דלת הארון, less eight hundred shekels for the closet door, plus 1,900 shekels for the heater."
+      },
+      {
+        "s": "שני הצדדים מסכימים בסוף להצעת בית המשפט.",
+        "sEn": "In the end both parties accept the court's proposal.",
+        "a": true,
+        "why": "The tenant says מבחינתי, כן, the landlady grudgingly says נו, טוב, שיהיה, and the judge gives the agreement the force of a judgment."
+      }
+    ],
+    "dictation": [
+      3,
+      14,
+      17
+    ],
+    "expressions": [
+      {
+        "he": "כבוד השופטת / כבוד השופט",
+        "en": "Your Honor",
+        "note": "How parties address a judge, female or male. The court speaks of itself in the third person: בית המשפט מציע לצדדים."
+      },
+      {
+        "he": "יירשם בפרוטוקול",
+        "en": "let the record show",
+        "note": "Nif'al future of לרשום, 'it shall be recorded'. In court, פרוטוקול is the official record of the hearing; in a rental, פרוטוקול מסירה is the handover report on the apartment's condition."
+      },
+      {
+        "he": "נשבר לי",
+        "en": "I'd had enough, I lost my patience",
+        "note": "Colloquial, literally 'it broke for me'. נשבר לי מהרעש = I'm fed up with the noise."
+      },
+      {
+        "he": "לא היה לי ראש ל…",
+        "en": "I had no head for…, I couldn't deal with…",
+        "note": "Colloquial. אין לי ראש לזה עכשיו = I can't deal with this right now."
+      },
+      {
+        "he": "בניכוי … בגין …",
+        "en": "less …, on account of …",
+        "note": "Formal legal and financial register. In everyday speech: פחות … בגלל …"
+      },
+      {
+        "he": "תוקף של פסק דין",
+        "en": "the force of a judgment",
+        "note": "When the parties settle in court, the judge gives their agreement the force of a judgment, so it can be enforced like a ruling. אין צו להוצאות = no order as to costs: each side bears its own."
+      }
+    ]
+  },
+  {
+    "id": "s_c1_story_reading",
+    "level": "C1",
+    "title": "כריכה",
+    "titleEn": "The Binding",
+    "genre": "story",
+    "synopsis": "A radio reading of an original short story. A young woman takes her grandfather's battered old dictionary to a bookbinder in Jaffa, hoping to have it restored. Listen for the literary narration and its images, and for what the old craftsman sees in the book.",
+    "speakers": {
+      "A": {
+        "name": "המספרת",
+        "gender": "f"
+      },
+      "B": {
+        "name": "אליאס",
+        "gender": "m"
+      }
+    },
+    "lines": [
+      {
+        "s": "A",
+        "he": "ערב טוב, וברוכים הבאים לפינת הסיפור הקצר. הסיפור שלנו הערב נקרא כריכה.",
+        "en": "Good evening, and welcome to the short-story corner. Our story tonight is called 'The Binding'."
+      },
+      {
+        "s": "A",
+        "he": "המילון העברי־רוסי של סבי הגיע אליי בקופסת נעליים, עטוף בעיתון ישן ומצהיב, כמו דבר שמתביישים בו, או ששומרים עליו מכל משמר.",
+        "en": "My grandfather's Hebrew-Russian dictionary came to me in a shoebox, wrapped in an old, yellowing newspaper, like something one is ashamed of, or something one guards with the utmost care."
+      },
+      {
+        "s": "A",
+        "he": "הוא היה עבה וכבד, כריכתו התפוררה בין אצבעותיי, ודפיו נפרדו זה מזה כמו עלים בסתיו.",
+        "en": "It was thick and heavy, its binding crumbled between my fingers, and its pages came away from one another like leaves in autumn."
+      },
+      {
+        "s": "A",
+        "he": "סבא גרישה עלה לארץ בגיל חמישים ושתיים, ובמשך שנים למד ממנו עברית, מילה אחר מילה, בלילות, אחרי משמרת במאפייה.",
+        "en": "Grandpa Grisha immigrated to Israel at the age of fifty-two, and for years he learned Hebrew from it, word after word, at night, after a shift at the bakery."
+      },
+      {
+        "s": "A",
+        "he": "אמרו לי שיש ביפו כורך ספרים זקן, אחד האחרונים שעוד עושים את העבודה ביד. כך הגעתי אל אליאס.",
+        "en": "I was told there was an old bookbinder in Jaffa, one of the last who still do the work by hand. That is how I came to Elias."
+      },
+      {
+        "s": "A",
+        "he": "החנות שלו הייתה צרה ועמוקה, וריח של דבק ושל נייר ישן עמד בה, כמו אורח שהחליט להישאר.",
+        "en": "His shop was narrow and deep, and a smell of glue and old paper hung in it, like a guest who had decided to stay."
+      },
+      {
+        "s": "A",
+        "he": "הוא הרים את המילון בשתי ידיו, בזהירות של מי שמחזיק תינוק, ודפדף בו לאט, בלי לומר דבר.",
+        "en": "He lifted the dictionary in both hands, with the care of someone holding a baby, and leafed through it slowly, without saying a word."
+      },
+      {
+        "s": "B",
+        "he": "מישהו השתמש בספר הזה הרבה. הרבה מאוד.",
+        "en": "Someone used this book a lot. A great deal."
+      },
+      {
+        "s": "A",
+        "he": "סיפרתי לו שהמילון היה של סבי, ושאני רוצה שיחזור להיות כמו חדש.",
+        "en": "I told him the dictionary had been my grandfather's, and that I wanted it to be like new again."
+      },
+      {
+        "s": "B",
+        "he": "כמו חדש? אפשר. אני יכול להחליף את הכריכה, לתפור מחדש את כל הדפים, ולחתוך את השוליים כך שיהיו ישרים.",
+        "en": "Like new? It can be done. I can replace the binding, re-sew all the pages, and trim the margins so they're straight."
+      },
+      {
+        "s": "B",
+        "he": "אבל תדעי לך שאם אחתוך את השוליים, ילכו איתם גם אלה.",
+        "en": "But you should know that if I trim the margins, these will go with them."
+      },
+      {
+        "s": "A",
+        "he": "הוא הצביע על השוליים, ורק אז ראיתי אותן: מאות הערות זעירות בעיפרון, בכתב ידו הצפוף של סבי, משני צידי כל עמוד.",
+        "en": "He pointed at the margins, and only then did I see them: hundreds of tiny pencil notes, in my grandfather's cramped handwriting, on both sides of every page."
+      },
+      {
+        "s": "A",
+        "he": "ליד מילים מסוימות כתב משפט משלו, ליד אחרות שרבט ציור קטן, ולעיתים הסתפק בסימן שאלה, כאילו התווכח עם המילה ולא השתכנע.",
+        "en": "Next to some words he had written a sentence of his own, next to others he had sketched a little drawing, and at times he had settled for a question mark, as if he had argued with the word and not been convinced."
+      },
+      {
+        "s": "B",
+        "he": "את רואה איך הספר נפתח מעצמו במקומות מסוימים? הגב שלו זוכר איפה פתחו אותו הכי הרבה.",
+        "en": "Do you see how the book falls open by itself in certain places? Its spine remembers where it was opened the most."
+      },
+      {
+        "s": "B",
+        "he": "אם אחליף את הגב, הוא ישכח. הספר יהיה יפה יותר, אבל הוא כבר לא יהיה של סבא שלך.",
+        "en": "If I replace the spine, it will forget. The book will be more beautiful, but it won't be your grandfather's anymore."
+      },
+      {
+        "s": "A",
+        "he": "שאלתי מה הוא מציע, אם כן. הוא חייך, לראשונה מאז שנכנסתי, ואמר שיש דרך שלישית.",
+        "en": "I asked what he suggested, then. He smiled, for the first time since I had come in, and said there was a third way."
+      },
+      {
+        "s": "B",
+        "he": "אני אחזק את התפרים מבפנים, ואבנה לו קופסה קשיחה. ככה הוא ימשיך להתפרק, אבל לאט, ובכבוד.",
+        "en": "I'll reinforce the stitching from the inside, and build it a hard case. That way it will go on falling apart, but slowly, and with dignity."
+      },
+      {
+        "s": "A",
+        "he": "הסכמתי. כשקמתי ללכת, הנחתי את המילון על הדלפק, והוא נפתח, כמו מעצמו, בעמוד שבו הגב היה סדוק יותר מבכל מקום אחר.",
+        "en": "I agreed. As I got up to leave, I laid the dictionary on the counter, and it fell open, as if by itself, at the page where the spine was more cracked than anywhere else."
+      },
+      {
+        "s": "A",
+        "he": "רוב המילים בעמוד ההוא היו פשוטות, מילים של יום יום. ואז ראיתי מילה אחת שסבי הקיף בעיגול כפול.",
+        "en": "Most of the words on that page were simple ones, everyday words. And then I saw one word that my grandfather had drawn a double circle around."
+      },
+      {
+        "s": "A",
+        "he": "המילה הייתה שורש. לידה הופיע, ברוסית, התרגום הרגיל.",
+        "en": "The word was shoresh, 'root'. Beside it, in Russian, was the usual translation."
+      },
+      {
+        "s": "A",
+        "he": "ומתחת לתרגום, בעברית, באותיות דפוס עקומות של מי שלמד את האלף־בית באיחור של חצי חיים, היו כתובות שתי מילים: גם אני.",
+        "en": "And beneath the translation, in Hebrew, in the crooked block letters of someone who had learned the alphabet half a lifetime late, two words were written: me too."
+      },
+      {
+        "s": "A",
+        "he": "הראיתי את זה לאליאס. הוא הרכיב את משקפיו, קרא, ושתק רגע ארוך.",
+        "en": "I showed it to Elias. He put on his glasses, read, and was silent for a long moment."
+      },
+      {
+        "s": "B",
+        "he": "אז בשוליים אנחנו לא נוגעים. אצלי, מילים כאלה לא חותכים.",
+        "en": "Then the margins we don't touch. In my shop, words like these don't get cut."
+      },
+      {
+        "s": "A",
+        "he": "חזרתי לקחת את המילון כעבור שלושה שבועות. הוא שכב בקופסה כחולה, בלוי כתמיד, וכשהוצאתי אותו, נפתח שוב מעצמו באותו עמוד.",
+        "en": "I went back for the dictionary three weeks later. It lay in a blue case, as worn as ever, and when I took it out, it fell open by itself at the same page again."
+      },
+      {
+        "s": "A",
+        "he": "ורק אז הבנתי שהקופסה לא נועדה לשמור על הספר מפני העולם, אלא לשמור על העולם שבתוכו.",
+        "en": "And only then did I understand that the case was not meant to protect the book from the world, but to protect the world inside it."
+      }
+    ],
+    "questions": [
+      {
+        "q": "איזה ספר הגיע אל המספרת, ולמי הוא היה שייך?",
+        "qEn": "What book reached the narrator, and whom did it belong to?",
+        "answer": "מילון עברי־רוסי ישן, שהיה שייך לסבא שלה, גרישה.",
+        "answerEn": "An old Hebrew-Russian dictionary that belonged to her grandfather, Grisha.",
+        "keywords": [
+          [
+            "מילון"
+          ],
+          [
+            "סבא",
+            "סבי",
+            "גרישה"
+          ]
+        ]
+      },
+      {
+        "q": "איך השתמש הסב במילון במשך השנים?",
+        "qEn": "How did the grandfather use the dictionary over the years?",
+        "answer": "הוא למד ממנו עברית בלילות, אחרי משמרת במאפייה, וכתב הערות בעיפרון בשוליים.",
+        "answerEn": "He learned Hebrew from it at night, after a shift at the bakery, and wrote pencil notes in the margins.",
+        "keywords": [
+          [
+            "למד",
+            "ללמוד",
+            "עברית"
+          ],
+          [
+            "הערות",
+            "שוליים",
+            "בשוליים"
+          ]
+        ]
+      },
+      {
+        "q": "ממה מזהיר אליאס את המספרת?",
+        "qEn": "What does Elias warn the narrator about?",
+        "answer": "שאם יחתוך את השוליים כדי שיהיו ישרים, ילכו איתם גם ההערות של סבה.",
+        "answerEn": "That if he trims the margins to make them straight, her grandfather's notes will go with them.",
+        "keywords": [
+          [
+            "שוליים",
+            "השוליים"
+          ],
+          [
+            "הערות",
+            "ההערות"
+          ],
+          [
+            "ילכו",
+            "ייעלמו",
+            "ייחתכו",
+            "אחתוך",
+            "יחתוך",
+            "לחתוך"
+          ]
+        ]
+      },
+      {
+        "q": "מהי הדרך השלישית שאליאס מציע?",
+        "qEn": "What is the third way that Elias suggests?",
+        "answer": "לחזק את התפרים מבפנים ולבנות לספר קופסה קשיחה, כדי שימשיך להתפרק לאט ובכבוד.",
+        "answerEn": "To reinforce the stitching from the inside and build the book a hard case, so that it goes on falling apart slowly and with dignity.",
+        "keywords": [
+          [
+            "תפרים",
+            "לחזק",
+            "אחזק",
+            "יחזק"
+          ],
+          [
+            "קופסה",
+            "קופסא"
+          ]
+        ]
+      },
+      {
+        "q": "מה כתב הסב מתחת למילה שורש, ומה אפשר להבין מכך?",
+        "qEn": "What did the grandfather write under the word 'root', and what can we understand from it?",
+        "answer": "הוא כתב בעברית גם אני, כלומר שגם הוא הכה שורשים בארץ החדשה.",
+        "answerEn": "He wrote 'me too' in Hebrew, meaning that he, too, had put down roots in the new country.",
+        "keywords": [
+          [
+            "גם אני"
+          ],
+          [
+            "שורשים",
+            "שורש"
+          ]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "סבא של המספרת עלה לארץ כשהיה צעיר.",
+        "sEn": "The narrator's grandfather immigrated to Israel when he was young.",
+        "a": false,
+        "why": "He came בגיל חמישים ושתיים, at fifty-two, and learned the alphabet באיחור של חצי חיים, half a lifetime late."
+      },
+      {
+        "s": "בסוף אליאס מחליף את הכריכה וחותך את השוליים.",
+        "sEn": "In the end Elias replaces the binding and trims the margins.",
+        "a": false,
+        "why": "He chooses a third way: he reinforces the stitching and builds a hard case, and after reading the note he says בשוליים אנחנו לא נוגעים."
+      },
+      {
+        "s": "ההערות בשוליים נכתבו בעיפרון.",
+        "sEn": "The notes in the margins were written in pencil.",
+        "a": true,
+        "why": "The narrator sees מאות הערות זעירות בעיפרון, hundreds of tiny pencil notes, on both sides of every page."
+      },
+      {
+        "s": "כשהמספרת חוזרת לחנות, המילון עדיין נפתח מעצמו באותו עמוד.",
+        "sEn": "When the narrator returns to the shop, the dictionary still falls open by itself at the same page.",
+        "a": true,
+        "why": "Three weeks later it lies in a blue case, בלוי כתמיד, 'as worn as ever', and when she takes it out it נפתח שוב מעצמו באותו עמוד: it falls open by itself at the same page again."
+      }
+    ],
+    "dictation": [
+      7,
+      19,
+      22
+    ],
+    "expressions": [
+      {
+        "he": "שמר עליו מכל משמר",
+        "en": "guarded it with the utmost care",
+        "note": "Literary, echoing Proverbs 4:23 מכל משמר נצור לבך. In the story it is impersonal: ששומרים עליו מכל משמר = that one guards closely."
+      },
+      {
+        "he": "מילה אחר מילה",
+        "en": "word after word",
+        "note": "Likewise יום אחר יום, צעד אחר צעד. A little more literary than the spoken מילה מילה."
+      },
+      {
+        "he": "בלי לומר דבר",
+        "en": "without saying a word",
+        "note": "Literary: לומר instead of להגיד, and דבר meaning 'anything' after a negative. In speech: בלי להגיד כלום."
+      },
+      {
+        "he": "יותר מבכל מקום אחר",
+        "en": "more than anywhere else",
+        "note": "The comparative מ attaches straight to the preposition ב: יותר מבכל מקום אחר. Also יותר מאשר בכל מקום אחר."
+      },
+      {
+        "he": "לא נועד ל… אלא ל…",
+        "en": "was not meant to… but rather to…",
+        "note": "נועד is nif'al, 'was intended'. לא … אלא … corrects the first idea and puts the true one in its place."
+      },
+      {
+        "he": "תדעי לך",
+        "en": "you should know",
+        "note": "Adds weight to a warning or a point, here to a woman. To a man: תדע לך; to a group: תדעו לכם."
+      }
+    ]
+  }
+]

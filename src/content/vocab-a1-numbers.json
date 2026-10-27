@@ -1,0 +1,1707 @@
+[
+  {
+    "id": "va1n_efes",
+    "he": "אפס",
+    "tr": "éfes",
+    "en": "zero",
+    "enAlt": [
+      "0",
+      "nought",
+      "nil"
+    ],
+    "pos": "num",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "מספר הטלפון שלי מתחיל באפס חמש.",
+      "en": "My phone number starts with zero five."
+    },
+    "note": "Same for both genders. Phone numbers are usually read digit by digit with the counting forms, and Israeli mobile numbers start with 05: אפס חמש…"
+  },
+  {
+    "id": "va1n_akhat",
+    "he": "אחת",
+    "tr": "akhát",
+    "en": "one",
+    "enAlt": [
+      "1"
+    ],
+    "alt": [
+      "אחד"
+    ],
+    "pos": "num",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "השעה עכשיו אחת.",
+      "en": "It's one o'clock now."
+    },
+    "note": "Hebrew numbers come in two sets. This is the feminine form, which is also used for counting, clock times and phone numbers. Masculine: אחד (ekhád). Unlike the other numbers, one comes after the noun: בת אחת (one daughter), ילד אחד (one boy)."
+  },
+  {
+    "id": "va1n_shtayim",
+    "he": "שתיים",
+    "tr": "shtáyim",
+    "en": "two",
+    "enAlt": [
+      "2"
+    ],
+    "alt": [
+      "שניים"
+    ],
+    "pos": "num",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "כמה כוסות קפה? שתיים, בבקשה.",
+      "en": "How many cups of coffee? Two, please."
+    },
+    "note": "Feminine/counting form; masculine שניים (shnáyim). Before a noun both get shorter: שתי בנות (shtei banót, two girls), שני ילדים (shnei yeladím, two boys). Time words often use a dual ending instead: שעתיים (two hours), יומיים (two days)."
+  },
+  {
+    "id": "va1n_shalosh",
+    "he": "שלוש",
+    "tr": "shalósh",
+    "en": "three",
+    "enAlt": [
+      "3"
+    ],
+    "alt": [
+      "שלושה"
+    ],
+    "pos": "num",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "יש לי שלוש אחיות.",
+      "en": "I have three sisters."
+    },
+    "note": "Feminine/counting form, used with feminine nouns: שלוש אחיות. Masculine: שלושה (shloshá), used with masculine nouns: שלושה אחים (three brothers). Surprise: from 3 to 10 it is the masculine form that ends in ־ה."
+  },
+  {
+    "id": "va1n_arba",
+    "he": "ארבע",
+    "tr": "árba",
+    "en": "four",
+    "enAlt": [
+      "4"
+    ],
+    "alt": [
+      "ארבעה"
+    ],
+    "pos": "num",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "הבת שלי בת ארבע.",
+      "en": "My daughter is four."
+    },
+    "note": "Masculine: ארבעה (arba'á): ארבעה ימים (four days). Ages always use the counting form, for boys too: הוא בן ארבע, היא בת ארבע."
+  },
+  {
+    "id": "va1n_khamesh",
+    "he": "חמש",
+    "tr": "khamésh",
+    "en": "five",
+    "enAlt": [
+      "5"
+    ],
+    "alt": [
+      "חמישה"
+    ],
+    "pos": "num",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "סמיר מסיים לעבוד בחמש.",
+      "en": "Samir finishes work at five."
+    },
+    "note": "Masculine: חמישה (khamishá): חמישה שקלים (five shekels). Clock times use the counting form: בחמש = at five."
+  },
+  {
+    "id": "va1n_shesh",
+    "he": "שש",
+    "tr": "shesh",
+    "en": "six",
+    "enAlt": [
+      "6"
+    ],
+    "alt": [
+      "שישה"
+    ],
+    "pos": "num",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "תמר קמה בשש בבוקר.",
+      "en": "Tamar gets up at six in the morning."
+    },
+    "note": "Masculine: שישה (shishá): שישה חודשים (six months)."
+  },
+  {
+    "id": "va1n_sheva",
+    "he": "שבע",
+    "tr": "shéva",
+    "en": "seven",
+    "enAlt": [
+      "7"
+    ],
+    "alt": [
+      "שבעה"
+    ],
+    "pos": "num",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "החנות פתוחה עד שבע.",
+      "en": "The shop is open until seven."
+    },
+    "note": "Masculine: שבעה (shiv'á): שבעה ימים (seven days). שבוע (week) comes from the same root."
+  },
+  {
+    "id": "va1n_shmone",
+    "he": "שמונה",
+    "tr": "shmoné",
+    "en": "eight",
+    "enAlt": [
+      "8"
+    ],
+    "pos": "num",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "הם עובדים שמונה שעות ביום.",
+      "en": "They work eight hours a day."
+    },
+    "note": "The feminine shmoné (in everyday speech usually shmóne) and the masculine shmoná are spelled the same: שמונה שעות (f), שמונה ימים (m)."
+  },
+  {
+    "id": "va1n_tesha",
+    "he": "תשע",
+    "tr": "tésha",
+    "en": "nine",
+    "enAlt": [
+      "9"
+    ],
+    "alt": [
+      "תשעה"
+    ],
+    "pos": "num",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "הסרט מתחיל בתשע.",
+      "en": "The film starts at nine."
+    },
+    "note": "Masculine: תשעה (tish'á): תשעה חודשים (nine months)."
+  },
+  {
+    "id": "va1n_eser",
+    "he": "עשר",
+    "tr": "éser",
+    "en": "ten",
+    "enAlt": [
+      "10"
+    ],
+    "alt": [
+      "עשרה"
+    ],
+    "pos": "num",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "אנה צריכה עוד עשר דקות.",
+      "en": "Anna needs ten more minutes."
+    },
+    "note": "Masculine: עשרה (asará): עשרה שקלים (ten shekels). Don't mix it up with ־עשרה (esré), the ending of the feminine numbers 11–19: אחת עשרה."
+  },
+  {
+    "id": "va1n_akhat_esre",
+    "he": "אחת עשרה",
+    "tr": "akhat esré",
+    "en": "eleven",
+    "enAlt": [
+      "11"
+    ],
+    "alt": [
+      "אחד עשר"
+    ],
+    "pos": "num",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "השעה כבר אחת עשרה בלילה.",
+      "en": "It's already eleven at night."
+    },
+    "note": "Feminine/counting form: in 11–19 the feminine numbers add עשרה (esré). Masculine: אחד עשר (akhad asár): אחד עשר שחקנים (eleven players)."
+  },
+  {
+    "id": "va1n_shtem_esre",
+    "he": "שתים עשרה",
+    "tr": "shtem esré",
+    "en": "twelve",
+    "enAlt": [
+      "12"
+    ],
+    "alt": [
+      "שנים עשר"
+    ],
+    "pos": "num",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "אנחנו אוכלים צהריים בשתים עשרה.",
+      "en": "We have lunch at twelve."
+    },
+    "note": "Masculine: שנים עשר (shnem asár): שנים עשר חודשים (twelve months). Note the short forms שתים / שנים here, not שתיים / שניים."
+  },
+  {
+    "id": "va1n_shlosh_esre",
+    "he": "שלוש עשרה",
+    "tr": "shlosh esré",
+    "en": "thirteen",
+    "enAlt": [
+      "13"
+    ],
+    "alt": [
+      "שלושה עשר"
+    ],
+    "pos": "num",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "בכיתה יש שלוש עשרה בנות ושנים עשר בנים.",
+      "en": "There are thirteen girls and twelve boys in the class."
+    },
+    "note": "Masculine: שלושה עשר (shlosha asár). The pattern of 3–10 continues in 13–19: the feminine uses the short form (שלוש), the masculine the form with ־ה (שלושה)."
+  },
+  {
+    "id": "va1n_arba_esre",
+    "he": "ארבע עשרה",
+    "tr": "arba esré",
+    "en": "fourteen",
+    "enAlt": [
+      "14"
+    ],
+    "alt": [
+      "ארבעה עשר"
+    ],
+    "pos": "num",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "הבן שלי בן ארבע עשרה.",
+      "en": "My son is fourteen."
+    },
+    "note": "Masculine: ארבעה עשר (arba'a asár). Ages use the feminine form even for boys, because the unspoken word שנים (years) is feminine: בן ארבע עשרה."
+  },
+  {
+    "id": "va1n_khamesh_esre",
+    "he": "חמש עשרה",
+    "tr": "khamesh esré",
+    "en": "fifteen",
+    "enAlt": [
+      "15"
+    ],
+    "alt": [
+      "חמישה עשר"
+    ],
+    "pos": "num",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "יש הפסקה של חמש עשרה דקות.",
+      "en": "There's a fifteen-minute break."
+    },
+    "note": "Masculine: חמישה עשר (khamisha asár). In speech, fifteen minutes is usually רבע שעה (a quarter of an hour)."
+  },
+  {
+    "id": "va1n_shesh_esre",
+    "he": "שש עשרה",
+    "tr": "shesh esré",
+    "en": "sixteen",
+    "enAlt": [
+      "16"
+    ],
+    "alt": [
+      "שישה עשר"
+    ],
+    "pos": "num",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "בבניין שלנו יש שש עשרה דירות.",
+      "en": "There are sixteen apartments in our building."
+    },
+    "note": "Masculine: שישה עשר (shisha asár)."
+  },
+  {
+    "id": "va1n_shva_esre",
+    "he": "שבע עשרה",
+    "tr": "shva esré",
+    "en": "seventeen",
+    "enAlt": [
+      "17"
+    ],
+    "alt": [
+      "שבעה עשר"
+    ],
+    "pos": "num",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "המשרד שלנו בקומה שבע עשרה.",
+      "en": "Our office is on the seventeenth floor."
+    },
+    "note": "Masculine: שבעה עשר (shiv'a asár). The vowels change: on its own it's shéva, in 17 it's shva. Floors, rooms and bus lines put the plain number after the noun: קומה שבע עשרה."
+  },
+  {
+    "id": "va1n_shmone_esre",
+    "he": "שמונה עשרה",
+    "tr": "shmone esré",
+    "en": "eighteen",
+    "enAlt": [
+      "18"
+    ],
+    "alt": [
+      "שמונה עשר"
+    ],
+    "pos": "num",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "במבחן יש שמונה עשרה שאלות.",
+      "en": "There are eighteen questions on the exam."
+    },
+    "note": "Masculine: שמונה עשר (shmona asár). In Jewish tradition 18 stands for חי (life), so gifts of money often come in multiples of 18, such as 180 or 360 shekels."
+  },
+  {
+    "id": "va1n_tsha_esre",
+    "he": "תשע עשרה",
+    "tr": "tsha esré",
+    "en": "nineteen",
+    "enAlt": [
+      "19"
+    ],
+    "alt": [
+      "תשעה עשר"
+    ],
+    "pos": "num",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "אני נוסעת לעבודה בקו תשע עשרה.",
+      "en": "I take bus number nineteen to work."
+    },
+    "note": "Masculine: תשעה עשר (tish'a asár). The vowels change, as in 17: on its own it's tésha, in 19 it's tsha. Bus lines are read in the counting form: קו תשע עשרה = bus number 19."
+  },
+  {
+    "id": "va1n_esrim",
+    "he": "עשרים",
+    "tr": "esrím",
+    "en": "twenty",
+    "enAlt": [
+      "20"
+    ],
+    "pos": "num",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "הפלאפל עולה עשרים שקל.",
+      "en": "The falafel costs twenty shekels."
+    },
+    "note": "The tens are the same for both genders. 21 = עשרים ואחת (f) / עשרים ואחד (m). After numbers above ten, some common nouns usually stay singular: עשרים שקל, עשרים שנה, עשרים יום."
+  },
+  {
+    "id": "va1n_shloshim",
+    "he": "שלושים",
+    "tr": "shloshím",
+    "en": "thirty",
+    "enAlt": [
+      "30"
+    ],
+    "pos": "num",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "בספטמבר יש שלושים יום.",
+      "en": "September has thirty days."
+    },
+    "note": "Built on שלוש + ־ים, like most of the tens. The same for both genders: שלושים ילדים, שלושים ילדות."
+  },
+  {
+    "id": "va1n_arbaim",
+    "he": "ארבעים",
+    "tr": "arba'ím",
+    "en": "forty",
+    "enAlt": [
+      "40"
+    ],
+    "pos": "num",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "הנסיעה לעבודה לוקחת ארבעים דקות.",
+      "en": "The ride to work takes forty minutes."
+    },
+    "note": "Compound numbers join the last part with ו: ארבעים וחמש (45)."
+  },
+  {
+    "id": "va1n_khamishim",
+    "he": "חמישים",
+    "tr": "khamishím",
+    "en": "fifty",
+    "enAlt": [
+      "50"
+    ],
+    "pos": "num",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "יש לי רק חמישים שקל.",
+      "en": "I only have fifty shekels."
+    },
+    "note": "A fifty-shekel note is שטר של חמישים. The same for both genders."
+  },
+  {
+    "id": "va1n_shishim",
+    "he": "שישים",
+    "tr": "shishím",
+    "en": "sixty",
+    "enAlt": [
+      "60"
+    ],
+    "pos": "num",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "בשעה יש שישים דקות.",
+      "en": "There are sixty minutes in an hour."
+    },
+    "note": "Built on שש (six): שש → שישים, just as שלוש → שלושים."
+  },
+  {
+    "id": "va1n_shivim",
+    "he": "שבעים",
+    "tr": "shiv'ím",
+    "en": "seventy",
+    "enAlt": [
+      "70"
+    ],
+    "pos": "num",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "סבתא של אדיסו בת שבעים.",
+      "en": "Adisu's grandmother is seventy."
+    },
+    "note": "Built on שבע, but with the vowels of the masculine שבעה (shiv'á)."
+  },
+  {
+    "id": "va1n_shmonim",
+    "he": "שמונים",
+    "tr": "shmoním",
+    "en": "eighty",
+    "enAlt": [
+      "80"
+    ],
+    "pos": "num",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "החולצה הזאת עולה שמונים שקל.",
+      "en": "This shirt costs eighty shekels."
+    },
+    "note": "Built on שמונה + ־ים. The same for both genders."
+  },
+  {
+    "id": "va1n_tishim",
+    "he": "תשעים",
+    "tr": "tish'ím",
+    "en": "ninety",
+    "enAlt": [
+      "90"
+    ],
+    "pos": "num",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "יש לנו דירה של תשעים מטר.",
+      "en": "We have a ninety-square-meter apartment."
+    },
+    "note": "Apartment sizes are given in square meters, usually just called מטר: דירה של תשעים מטר."
+  },
+  {
+    "id": "va1n_mea",
+    "he": "מאה",
+    "tr": "me'á",
+    "en": "hundred",
+    "enAlt": [
+      "a hundred",
+      "one hundred",
+      "100"
+    ],
+    "pos": "num",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "הארוחה עולה מאה שקל לאדם.",
+      "en": "The meal costs a hundred shekels per person."
+    },
+    "note": "מאה is feminine, so the hundreds use the feminine numbers: מאתיים (200), שלוש מאות (300), תשע מאות (900). Plural מאות (me'ót)."
+  },
+  {
+    "id": "va1n_elef",
+    "he": "אלף",
+    "tr": "élef",
+    "en": "thousand",
+    "enAlt": [
+      "a thousand",
+      "one thousand",
+      "1000"
+    ],
+    "pos": "num",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "האופניים החדשים עולים אלף שקל.",
+      "en": "The new bike costs a thousand shekels."
+    },
+    "note": "אלף is masculine: אלפיים (2,000), then the short masculine forms: שלושת אלפים (3,000), עשרת אלפים (10,000). Plural אלפים (alafím)."
+  },
+  {
+    "id": "va1n_mispar",
+    "he": "מספר",
+    "tr": "mispár",
+    "en": "number",
+    "enAlt": [
+      "figure",
+      "size"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מספרים",
+    "root": "ס.פ.ר",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "מה מספר הטלפון שלך?",
+      "en": "What's your phone number?"
+    },
+    "note": "A single digit is ספרה. In a shoe shop, מה המספר שלך? = what size are you? In formal Hebrew מספר also means 'several': מספר אנשים."
+  },
+  {
+    "id": "va1n_rishon",
+    "he": "ראשון",
+    "tr": "rishón",
+    "en": "first",
+    "enAlt": [
+      "1st"
+    ],
+    "pos": "adj",
+    "root": "ר.א.ש",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "זה היום הראשון שלי בעבודה.",
+      "en": "It's my first day at work."
+    },
+    "note": "Feminine ראשונה (rishoná). יום ראשון = Sunday, the first working day of the Israeli week. Same root as ראש (head)."
+  },
+  {
+    "id": "va1n_sheni",
+    "he": "שני",
+    "tr": "shení",
+    "en": "second",
+    "enAlt": [
+      "2nd"
+    ],
+    "pos": "adj",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "הבן השני של מרינה בן שש.",
+      "en": "Marina's second son is six."
+    },
+    "note": "Feminine שנייה (shniyá), which also means 'a second' of time: שנייה! / רק שנייה! = just a sec! יום שני = Monday. Don't confuse it with שני (shnei), the form of 'two' before a masculine noun: שני ילדים."
+  },
+  {
+    "id": "va1n_shlishi",
+    "he": "שלישי",
+    "tr": "shlishí",
+    "en": "third",
+    "enAlt": [
+      "3rd"
+    ],
+    "pos": "adj",
+    "root": "ש.ל.ש",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "זה הספר השלישי של נור.",
+      "en": "This is Nour's third book."
+    },
+    "note": "Feminine שלישית (shlishít). יום שלישי = Tuesday. Most ordinals add ־י to the number: שלוש → שלישי."
+  },
+  {
+    "id": "va1n_revii",
+    "he": "רביעי",
+    "tr": "revi'í",
+    "en": "fourth",
+    "enAlt": [
+      "4th"
+    ],
+    "pos": "adj",
+    "root": "ר.ב.ע",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "הבית שלנו הוא הרביעי ברחוב.",
+      "en": "Our house is the fourth on the street."
+    },
+    "note": "Feminine רביעית (revi'ít). יום רביעי = Wednesday. Same root as רבע (a quarter)."
+  },
+  {
+    "id": "va1n_khamishi",
+    "he": "חמישי",
+    "tr": "khamishí",
+    "en": "fifth",
+    "enAlt": [
+      "5th"
+    ],
+    "pos": "adj",
+    "root": "ח.מ.ש",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "זה השיעור החמישי שלנו.",
+      "en": "This is our fifth lesson."
+    },
+    "note": "Feminine חמישית (khamishít). יום חמישי = Thursday, the last day of the working week in most Israeli offices."
+  },
+  {
+    "id": "va1n_shishi",
+    "he": "שישי",
+    "tr": "shishí",
+    "en": "sixth",
+    "enAlt": [
+      "6th"
+    ],
+    "pos": "adj",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "זה הקפה השישי שלי היום!",
+      "en": "This is my sixth coffee today!"
+    },
+    "note": "Feminine שישית (shishít). יום שישי = Friday; שישי-שבת or סוף שבוע (סופ״ש) = the weekend."
+  },
+  {
+    "id": "va1n_shvii",
+    "he": "שביעי",
+    "tr": "shvi'í",
+    "en": "seventh",
+    "enAlt": [
+      "7th"
+    ],
+    "pos": "adj",
+    "root": "ש.ב.ע",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "שבת היא היום השביעי בשבוע.",
+      "en": "Shabbat is the seventh day of the week."
+    },
+    "note": "Feminine שביעית (shvi'ít). Saturday is simply called שבת, not יום שביעי."
+  },
+  {
+    "id": "va1n_shmini",
+    "he": "שמיני",
+    "tr": "shminí",
+    "en": "eighth",
+    "enAlt": [
+      "8th"
+    ],
+    "pos": "adj",
+    "root": "ש.מ.נ",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "זה החודש השמיני שלי בארץ.",
+      "en": "This is my eighth month in Israel."
+    },
+    "note": "Feminine שמינית (shminít). בארץ (lit. 'in the land') is how Israelis usually say 'in Israel'."
+  },
+  {
+    "id": "va1n_tshii",
+    "he": "תשיעי",
+    "tr": "tshi'í",
+    "en": "ninth",
+    "enAlt": [
+      "9th"
+    ],
+    "pos": "adj",
+    "root": "ת.ש.ע",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "ספטמבר הוא החודש התשיעי בשנה.",
+      "en": "September is the ninth month of the year."
+    },
+    "note": "Feminine תשיעית (tshi'ít)."
+  },
+  {
+    "id": "va1n_asiri",
+    "he": "עשירי",
+    "tr": "asirí",
+    "en": "tenth",
+    "enAlt": [
+      "10th"
+    ],
+    "pos": "adj",
+    "root": "ע.ש.ר",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "היום יום ההולדת העשירי של נועם.",
+      "en": "Today is Noam's tenth birthday."
+    },
+    "note": "Feminine עשירית (asirít), also 'a tenth' (0.1). Not to be confused with עשיר (ashír, rich). From 11 up there are no special ordinals, just the number: הקומה ה-11 (the 11th floor)."
+  },
+  {
+    "id": "va1n_khetsi",
+    "he": "חצי",
+    "tr": "khétsi",
+    "en": "half",
+    "enAlt": [
+      "a half"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "חצאים",
+    "root": "ח.צ.ה",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "אני מגיע בעוד חצי שעה.",
+      "en": "I'll be there in half an hour."
+    },
+    "note": "Before a noun: חצי שעה, חצי עוגה. After a number it becomes וחצי: שעתיים וחצי (two and a half hours), שלוש וחצי (half past three)."
+  },
+  {
+    "id": "va1n_reva",
+    "he": "רבע",
+    "tr": "réva",
+    "en": "quarter",
+    "enAlt": [
+      "a quarter",
+      "one fourth"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "רבעים",
+    "root": "ר.ב.ע",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "השעה שלוש ורבע.",
+      "en": "It's a quarter past three."
+    },
+    "note": "Telling the time: שלוש ורבע = 3:15, רבע לארבע = 3:45 (a quarter to four). רבע שעה = fifteen minutes."
+  },
+  {
+    "id": "va1n_zug",
+    "he": "זוג",
+    "tr": "zug",
+    "en": "pair",
+    "enAlt": [
+      "couple",
+      "a pair"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "זוגות",
+    "root": "ז.ו.ג",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "אני צריכה זוג גרביים.",
+      "en": "I need a pair of socks."
+    },
+    "note": "Masculine, but the plural ends in ־ות: זוגות. Also 'a couple': הם זוג (they're a couple). Things that come in pairs often have a dual ending: נעליים, גרביים."
+  },
+  {
+    "id": "va1n_harbe",
+    "he": "הרבה",
+    "tr": "harbé",
+    "en": "a lot",
+    "enAlt": [
+      "many",
+      "much",
+      "lots",
+      "a lot of"
+    ],
+    "pos": "adv",
+    "root": "ר.ב.ה",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "יש לי הרבה עבודה היום.",
+      "en": "I have a lot of work today."
+    },
+    "note": "Comes before the noun and never changes: הרבה אנשים, הרבה מים. After a verb: אני עובד הרבה (I work a lot). 'Thanks a lot' is תודה רבה, not הרבה."
+  },
+  {
+    "id": "va1n_ktsat",
+    "he": "קצת",
+    "tr": "ktsat",
+    "en": "a little",
+    "enAlt": [
+      "a bit",
+      "a little bit",
+      "some"
+    ],
+    "pos": "adv",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "ג׳ון מדבר קצת עברית.",
+      "en": "John speaks a little Hebrew."
+    },
+    "note": "Before nouns and adjectives: קצת מים, קצת עייף (a bit tired). עוד קצת = a little more."
+  },
+  {
+    "id": "va1n_yoter",
+    "he": "יותר",
+    "tr": "yotér",
+    "en": "more",
+    "enAlt": [
+      "more than"
+    ],
+    "pos": "adv",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "היום חם יותר מאתמול.",
+      "en": "Today is hotter than yesterday."
+    },
+    "note": "Comparatives: יותר גדול or גדול יותר (bigger). יותר מ = more than: יותר ממאה שקל. יותר מדי = too much."
+  },
+  {
+    "id": "va1n_pakhot",
+    "he": "פחות",
+    "tr": "pakhót",
+    "en": "less",
+    "enAlt": [
+      "fewer",
+      "minus"
+    ],
+    "pos": "adv",
+    "level": "A1",
+    "topic": "numbers",
+    "ex": {
+      "he": "היום יש פחות אנשים באוטובוס.",
+      "en": "There are fewer people on the bus today."
+    },
+    "note": "פחות או יותר = more or less. In arithmetic it means minus: עשר פחות שלוש זה שבע (ten minus three is seven)."
+  },
+  {
+    "id": "va1n_tseva",
+    "he": "צבע",
+    "tr": "tséva",
+    "en": "color",
+    "enAlt": [
+      "colour",
+      "paint"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "צבעים",
+    "root": "צ.ב.ע",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "איזה צבע את אוהבת, יעל?",
+      "en": "Which color do you like, Yael?"
+    },
+    "note": "Colors are adjectives and agree with the noun: חולצה כחולה, מכנסיים כחולים. צבע also means paint."
+  },
+  {
+    "id": "va1n_adom",
+    "he": "אדום",
+    "tr": "adóm",
+    "en": "red",
+    "pos": "adj",
+    "root": "א.ד.מ",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "התיק האדום שלי על השולחן.",
+      "en": "My red bag is on the table."
+    },
+    "note": "Feminine אדומה (adumá); plural אדומים, אדומות. In most colors the o turns into u before an ending: adóm → adumá."
+  },
+  {
+    "id": "va1n_kakhol",
+    "he": "כחול",
+    "tr": "kakhól",
+    "en": "blue",
+    "pos": "adj",
+    "root": "כ.ח.ל",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "הים היום כחול ויפה.",
+      "en": "The sea is blue and beautiful today."
+    },
+    "note": "Feminine כחולה (kkhulá); plural כחולים, כחולות. Light blue is תכלת."
+  },
+  {
+    "id": "va1n_yarok",
+    "he": "ירוק",
+    "tr": "yarók",
+    "en": "green",
+    "pos": "adj",
+    "root": "י.ר.ק",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "הרמזור ירוק, אפשר לעבור.",
+      "en": "The light is green, you can cross."
+    },
+    "note": "Feminine ירוקה (yeruká); plural ירוקים, ירוקות. Same root as ירקות (vegetables)."
+  },
+  {
+    "id": "va1n_tsahov",
+    "he": "צהוב",
+    "tr": "tsahóv",
+    "en": "yellow",
+    "pos": "adj",
+    "root": "צ.ה.ב",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "יש לו כובע צהוב.",
+      "en": "He has a yellow hat."
+    },
+    "note": "Feminine צהובה (tsehubá); plural צהובים, צהובות."
+  },
+  {
+    "id": "va1n_lavan",
+    "he": "לבן",
+    "tr": "laván",
+    "en": "white",
+    "pos": "adj",
+    "root": "ל.ב.נ",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "אני רוצה יין לבן, בבקשה.",
+      "en": "I'd like white wine, please."
+    },
+    "note": "Feminine לבנה (levaná); plural לבנים, לבנות. The soft white cheese (labneh) is also written לבנה."
+  },
+  {
+    "id": "va1n_shakhor",
+    "he": "שחור",
+    "tr": "shakhór",
+    "en": "black",
+    "pos": "adj",
+    "root": "ש.ח.ר",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "אני שותה קפה שחור בלי סוכר.",
+      "en": "I drink black coffee without sugar."
+    },
+    "note": "Feminine שחורה (shkhorá); plural שחורים, שחורות. In Israel קפה שחור usually means Turkish-style coffee, also called קפה בוץ ('mud coffee')."
+  },
+  {
+    "id": "va1n_khum",
+    "he": "חום",
+    "tr": "khum",
+    "en": "brown",
+    "pos": "adj",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "יש לנו כלב חום.",
+      "en": "We have a brown dog."
+    },
+    "note": "Feminine חומה (khumá); plural חומים, חומות. Spelled like the noun חום (khom, heat; fever)."
+  },
+  {
+    "id": "va1n_afor",
+    "he": "אפור",
+    "tr": "afór",
+    "en": "gray",
+    "enAlt": [
+      "grey"
+    ],
+    "pos": "adj",
+    "root": "א.פ.ר",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "זה יום אפור וקר.",
+      "en": "It's a gray, cold day."
+    },
+    "note": "Feminine אפורה (afurá); plural אפורים, אפורות. Same root as אפר (ash)."
+  },
+  {
+    "id": "va1n_varod",
+    "he": "ורוד",
+    "tr": "varód",
+    "en": "pink",
+    "pos": "adj",
+    "root": "ו.ר.ד",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "הבת שלי אוהבת רק ורוד.",
+      "en": "My daughter only likes pink."
+    },
+    "note": "Feminine ורודה (vrudá); plural ורודים, ורודות. Same root as ורד (rose)."
+  },
+  {
+    "id": "va1n_katom",
+    "he": "כתום",
+    "tr": "katóm",
+    "en": "orange (color)",
+    "enAlt": [
+      "orange"
+    ],
+    "pos": "adj",
+    "root": "כ.ת.מ",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "אני אוהב את הצבע הכתום.",
+      "en": "I like the color orange."
+    },
+    "note": "Feminine כתומה (ktumá); plural כתומים, כתומות. The fruit is תפוז."
+  },
+  {
+    "id": "va1n_sagol",
+    "he": "סגול",
+    "tr": "sagól",
+    "en": "purple",
+    "enAlt": [
+      "violet"
+    ],
+    "pos": "adj",
+    "root": "ס.ג.ל",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "הסוודר הסגול שלך יפה.",
+      "en": "Your purple sweater is pretty."
+    },
+    "note": "Feminine סגולה (sgulá); plural סגולים, סגולות."
+  },
+  {
+    "id": "va1n_tkhelet",
+    "he": "תכלת",
+    "tr": "tkhélet",
+    "en": "light blue",
+    "enAlt": [
+      "sky blue",
+      "pale blue"
+    ],
+    "pos": "adj",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "יש לי חולצה תכלת.",
+      "en": "I have a light-blue shirt."
+    },
+    "note": "Originally a noun, so it never changes: חולצה תכלת, מכנסיים תכלת."
+  },
+  {
+    "id": "va1n_gadol",
+    "he": "גדול",
+    "tr": "gadól",
+    "en": "big",
+    "enAlt": [
+      "large",
+      "great"
+    ],
+    "pos": "adj",
+    "root": "ג.ד.ל",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "יש לנו מטבח גדול.",
+      "en": "We have a big kitchen."
+    },
+    "note": "Feminine גדולה (gdolá); plural גדולים, גדולות. Bigger = יותר גדול. Slang: אתה גדול! = you're great!"
+  },
+  {
+    "id": "va1n_katan",
+    "he": "קטן",
+    "tr": "katán",
+    "en": "small",
+    "enAlt": [
+      "little"
+    ],
+    "pos": "adj",
+    "root": "ק.ט.נ",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "החדר שלי קטן אבל נוח.",
+      "en": "My room is small but comfortable."
+    },
+    "note": "Feminine קטנה (ktaná); plural קטנים, קטנות. הקטן / הקטנה = the youngest child in the family."
+  },
+  {
+    "id": "va1n_arokh",
+    "he": "ארוך",
+    "tr": "arókh",
+    "en": "long",
+    "pos": "adj",
+    "root": "א.ר.כ",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "זה יום ארוך מאוד.",
+      "en": "It's a very long day."
+    },
+    "note": "Feminine ארוכה (arukhá), which sounds exactly like ארוחה (meal). Plural ארוכים, ארוכות."
+  },
+  {
+    "id": "va1n_katsar",
+    "he": "קצר",
+    "tr": "katsár",
+    "en": "short (length)",
+    "enAlt": [
+      "short",
+      "brief"
+    ],
+    "pos": "adj",
+    "root": "ק.צ.ר",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "הסרט קצר, רק שעה.",
+      "en": "The film is short, only an hour."
+    },
+    "note": "Feminine קצרה (ktsará); plural קצרים, קצרות. For things and time; a short person is נמוך."
+  },
+  {
+    "id": "va1n_gavoa",
+    "he": "גבוה",
+    "tr": "gavóa",
+    "en": "tall",
+    "enAlt": [
+      "high"
+    ],
+    "pos": "adj",
+    "root": "ג.ב.ה",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "עומר גבוה מאוד.",
+      "en": "Omer is very tall."
+    },
+    "note": "Feminine גבוהה (gvohá); plural גבוהים, גבוהות. Also 'high': מחיר גבוה (a high price)."
+  },
+  {
+    "id": "va1n_namokh",
+    "he": "נמוך",
+    "tr": "namókh",
+    "en": "short (height)",
+    "enAlt": [
+      "short",
+      "low"
+    ],
+    "pos": "adj",
+    "root": "נ.מ.כ",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "השולחן הזה נמוך מדי.",
+      "en": "This table is too low."
+    },
+    "note": "Feminine נמוכה (nemukhá); plural נמוכים, נמוכות. Short people are נמוכים, short things are קצרים."
+  },
+  {
+    "id": "va1n_rakhav",
+    "he": "רחב",
+    "tr": "rakháv",
+    "en": "wide",
+    "enAlt": [
+      "broad"
+    ],
+    "pos": "adj",
+    "root": "ר.ח.ב",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "הרחוב הזה רחב ושקט.",
+      "en": "This street is wide and quiet."
+    },
+    "note": "Feminine רחבה (rekhavá); plural רחבים, רחבות. Same root as רחוב (street)."
+  },
+  {
+    "id": "va1n_tsar",
+    "he": "צר",
+    "tr": "tsar",
+    "en": "narrow",
+    "enAlt": [
+      "tight"
+    ],
+    "pos": "adj",
+    "root": "צ.ר.ר",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "החדר צר וארוך.",
+      "en": "The room is narrow and long."
+    },
+    "note": "Feminine צרה (tsará), which also means 'trouble'; plural צרים, צרות. For clothes it means tight. צר לי = I'm sorry."
+  },
+  {
+    "id": "va1n_agol",
+    "he": "עגול",
+    "tr": "agól",
+    "en": "round",
+    "enAlt": [
+      "circular"
+    ],
+    "pos": "adj",
+    "root": "ע.ג.ל",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "יש לנו שולחן עגול במטבח.",
+      "en": "We have a round table in the kitchen."
+    },
+    "note": "Feminine עגולה (agulá); plural עגולים, עגולות. מספר עגול = a round number."
+  },
+  {
+    "id": "va1n_kaved",
+    "he": "כבד",
+    "tr": "kavéd",
+    "en": "heavy",
+    "pos": "adj",
+    "root": "כ.ב.ד",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "הספר הזה כבד מאוד.",
+      "en": "This book is very heavy."
+    },
+    "note": "Feminine כבדה (kvedá); plural כבדים, כבדות. The noun כבד, said the same way, means liver."
+  },
+  {
+    "id": "va1n_tov",
+    "he": "טוב",
+    "tr": "tov",
+    "en": "good",
+    "enAlt": [
+      "fine",
+      "well",
+      "okay"
+    ],
+    "pos": "adj",
+    "root": "ט.ו.ב",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "זה רעיון טוב!",
+      "en": "That's a good idea!"
+    },
+    "note": "Feminine טובה (tová); plural טובים, טובות. On its own it means 'OK, well': טוב, נתראה מחר. בוקר טוב = good morning."
+  },
+  {
+    "id": "va1n_ra",
+    "he": "רע",
+    "tr": "ra",
+    "en": "bad",
+    "enAlt": [
+      "evil"
+    ],
+    "pos": "adj",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "זה לא רע בכלל!",
+      "en": "That's not bad at all!"
+    },
+    "note": "Feminine רעה (ra'á); plural רעים, רעות. רע לי = I feel bad, I'm unhappy. In everyday speech לא טוב is often used instead of רע."
+  },
+  {
+    "id": "va1n_khadash",
+    "he": "חדש",
+    "tr": "khadásh",
+    "en": "new",
+    "pos": "adj",
+    "root": "ח.ד.ש",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "יש לי טלפון חדש.",
+      "en": "I have a new phone."
+    },
+    "note": "Feminine חדשה (khadashá); plural חדשים, חדשות. חדשות also means 'the news'. מה חדש? = what's new?"
+  },
+  {
+    "id": "va1n_yashan",
+    "he": "ישן",
+    "tr": "yashán",
+    "en": "old (things)",
+    "enAlt": [
+      "old"
+    ],
+    "pos": "adj",
+    "root": "י.ש.נ",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "הבניין שלנו ישן אבל יפה.",
+      "en": "Our building is old but beautiful."
+    },
+    "note": "Feminine ישנה (yeshaná); plural ישנים, ישנות. For things only; an old person is מבוגר or זקן. Spelled like ישן (yashén, sleeping)."
+  },
+  {
+    "id": "va1n_tsair",
+    "he": "צעיר",
+    "tr": "tsa'ír",
+    "en": "young",
+    "enAlt": [
+      "youthful"
+    ],
+    "pos": "adj",
+    "root": "צ.ע.ר",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "הרופא החדש צעיר מאוד.",
+      "en": "The new doctor is very young."
+    },
+    "note": "Feminine צעירה (tse'irá); plural צעירים, צעירות. צעירים on its own also means 'young people'."
+  },
+  {
+    "id": "va1n_zaken",
+    "he": "זקן",
+    "tr": "zakén",
+    "en": "old (people)",
+    "enAlt": [
+      "old",
+      "elderly"
+    ],
+    "pos": "adj",
+    "root": "ז.ק.נ",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "הכלב שלנו כבר זקן.",
+      "en": "Our dog is already old."
+    },
+    "note": "Feminine זקנה (zkená); plural זקנים, זקנות. For people and animals; about people, מבוגר (older) is more polite. The noun זקן (zakán) means beard."
+  },
+  {
+    "id": "va1n_kham",
+    "he": "חם",
+    "tr": "kham",
+    "en": "hot",
+    "enAlt": [
+      "warm"
+    ],
+    "pos": "adj",
+    "root": "ח.מ.מ",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "התה עוד חם מדי.",
+      "en": "The tea is still too hot."
+    },
+    "note": "Feminine חמה (khamá); plural חמים, חמות. חם לי = I'm hot (lit. 'it's hot to me'); חם היום = it's hot today."
+  },
+  {
+    "id": "va1n_kar",
+    "he": "קר",
+    "tr": "kar",
+    "en": "cold",
+    "enAlt": [
+      "chilly"
+    ],
+    "pos": "adj",
+    "root": "ק.ר.ר",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "קר לי, איפה המעיל שלי?",
+      "en": "I'm cold, where's my coat?"
+    },
+    "note": "Feminine קרה (kará); plural קרים, קרות. קר לי = I'm cold; מים קרים = cold water."
+  },
+  {
+    "id": "va1n_kal",
+    "he": "קל",
+    "tr": "kal",
+    "en": "easy",
+    "enAlt": [
+      "light",
+      "simple"
+    ],
+    "pos": "adj",
+    "root": "ק.ל.ל",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "זה תרגיל קל.",
+      "en": "This is an easy exercise."
+    },
+    "note": "Feminine קלה (kalá); plural קלים, קלות. Also 'light' (not heavy): תיק קל. בקלות = easily."
+  },
+  {
+    "id": "va1n_kashe",
+    "he": "קשה",
+    "tr": "kashé",
+    "en": "hard",
+    "enAlt": [
+      "difficult",
+      "tough"
+    ],
+    "pos": "adj",
+    "root": "ק.ש.ה",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "עברית היא שפה קשה, אבל יפה.",
+      "en": "Hebrew is a hard language, but a beautiful one."
+    },
+    "note": "The feminine is spelled the same, קשה, but said kashá. Also 'hard' (not soft): לחם קשה. קשה לי = it's hard for me."
+  },
+  {
+    "id": "va1n_zol",
+    "he": "זול",
+    "tr": "zol",
+    "en": "cheap",
+    "enAlt": [
+      "inexpensive",
+      "low-cost"
+    ],
+    "pos": "adj",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "הקפה פה זול וטוב.",
+      "en": "The coffee here is cheap and good."
+    },
+    "note": "Feminine זולה (zolá); plural זולים, זולות. The opposite is יקר (expensive). זול יותר = cheaper."
+  },
+  {
+    "id": "va1n_yafe",
+    "he": "יפה",
+    "tr": "yafé",
+    "en": "beautiful",
+    "enAlt": [
+      "pretty",
+      "nice",
+      "handsome",
+      "lovely"
+    ],
+    "pos": "adj",
+    "root": "י.פ.ה",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "איזה יום יפה היום!",
+      "en": "What a beautiful day today!"
+    },
+    "note": "The feminine is spelled the same, יפה, but said yafá. Plural יפים, יפות. יפה! on its own = well done! / nice!"
+  },
+  {
+    "id": "va1n_naki",
+    "he": "נקי",
+    "tr": "nakí",
+    "en": "clean",
+    "pos": "adj",
+    "root": "נ.ק.ה",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "המטבח נקי עכשיו.",
+      "en": "The kitchen is clean now."
+    },
+    "note": "Feminine נקייה (nekiyá); plural נקיים, נקיות. Same root as לנקות (to clean) and ניקיון (cleaning)."
+  },
+  {
+    "id": "va1n_melukhlakh",
+    "he": "מלוכלך",
+    "tr": "melukhlákh",
+    "en": "dirty",
+    "enAlt": [
+      "filthy"
+    ],
+    "pos": "adj",
+    "root": "ל.כ.ל.כ",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "השולחן מלוכלך, צריך לנקות אותו.",
+      "en": "The table is dirty, it needs cleaning."
+    },
+    "note": "Feminine מלוכלכת (melukhlékhet); plural מלוכלכים, מלוכלכות. לכלוך = dirt."
+  },
+  {
+    "id": "va1n_male",
+    "he": "מלא",
+    "tr": "malé",
+    "en": "full",
+    "enAlt": [
+      "crowded",
+      "filled"
+    ],
+    "pos": "adj",
+    "root": "מ.ל.א",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "האוטובוס מלא, אין מקום.",
+      "en": "The bus is full, there's no room."
+    },
+    "note": "Feminine מלאה (mle'á); plural מלאים, מלאות. מלא ב = full of. Colloquially מלא also means 'lots of': יש לי מלא עבודה."
+  },
+  {
+    "id": "va1n_rek",
+    "he": "ריק",
+    "tr": "rek",
+    "en": "empty",
+    "pos": "adj",
+    "root": "ר.י.ק",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "המקרר ריק, צריך לקנות אוכל.",
+      "en": "The fridge is empty, we need to buy food."
+    },
+    "note": "Feminine ריקה (reká); plural ריקים, ריקות. על בטן ריקה = on an empty stomach."
+  },
+  {
+    "id": "va1n_mahir",
+    "he": "מהיר",
+    "tr": "mahír",
+    "en": "fast",
+    "enAlt": [
+      "quick",
+      "rapid"
+    ],
+    "pos": "adj",
+    "root": "מ.ה.ר",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "האינטרנט פה מהיר מאוד.",
+      "en": "The internet here is very fast."
+    },
+    "note": "Feminine מהירה (mehirá); plural מהירים, מהירות (also the noun 'speed'). The adverb is מהר (mahér, quickly): בוא מהר!"
+  },
+  {
+    "id": "va1n_iti",
+    "he": "איטי",
+    "tr": "ití",
+    "en": "slow",
+    "pos": "adj",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "המחשב שלי איטי היום.",
+      "en": "My computer is slow today."
+    },
+    "note": "Feminine איטית (itít); plural איטיים, איטיות. The adverb is לאט (le'át, slowly); לאט לאט = little by little."
+  },
+  {
+    "id": "va1n_sameakh",
+    "he": "שמח",
+    "tr": "saméakh",
+    "en": "happy",
+    "enAlt": [
+      "glad",
+      "pleased",
+      "cheerful"
+    ],
+    "pos": "adj",
+    "root": "ש.מ.ח",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "אני שמח לראות אותך!",
+      "en": "I'm happy to see you!"
+    },
+    "note": "Feminine שמחה (smekhá); plural שמחים, שמחות. חג שמח! = happy holiday! The noun שמחה (simkhá) = joy; a celebration."
+  },
+  {
+    "id": "va1n_atsuv",
+    "he": "עצוב",
+    "tr": "atsúv",
+    "en": "sad",
+    "enAlt": [
+      "unhappy"
+    ],
+    "pos": "adj",
+    "root": "ע.צ.ב",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "למה אתה עצוב היום, איגור?",
+      "en": "Why are you sad today, Igor?"
+    },
+    "note": "Feminine עצובה (atsuvá); plural עצובים, עצובות. עצוב לי = I feel sad."
+  },
+  {
+    "id": "va1n_ayef",
+    "he": "עייף",
+    "tr": "ayéf",
+    "en": "tired",
+    "enAlt": [
+      "sleepy",
+      "weary"
+    ],
+    "pos": "adj",
+    "root": "ע.י.פ",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "אני עייף, אני הולך לישון.",
+      "en": "I'm tired, I'm going to bed."
+    },
+    "note": "Feminine עייפה (ayefá); plural עייפים, עייפות. Very common: אני מת מעייפות (I'm dead tired, lit. 'dying of tiredness')."
+  },
+  {
+    "id": "va1n_raev",
+    "he": "רעב",
+    "tr": "ra'év",
+    "en": "hungry",
+    "enAlt": [
+      "starving"
+    ],
+    "pos": "adj",
+    "root": "ר.ע.ב",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "אני רעב, מה יש לאכול?",
+      "en": "I'm hungry, what is there to eat?"
+    },
+    "note": "Feminine רעבה (re'evá); plural רעבים, רעבות. אני מת מרעב = I'm starving. The noun רעב (ra'áv) = hunger."
+  },
+  {
+    "id": "va1n_tsame",
+    "he": "צמא",
+    "tr": "tsamé",
+    "en": "thirsty",
+    "pos": "adj",
+    "root": "צ.מ.א",
+    "level": "A1",
+    "topic": "describing",
+    "ex": {
+      "he": "הילד צמא, יש פה מים?",
+      "en": "The boy is thirsty; is there any water here?"
+    },
+    "note": "Feminine צמאה (tsme'á); plural צמאים, צמאות. אני מת מצמא = I'm dying of thirst."
+  }
+]

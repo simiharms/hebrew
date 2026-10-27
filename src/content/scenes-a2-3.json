@@ -1,0 +1,775 @@
+[
+  {
+    "id": "s_a2_birthday_party",
+    "level": "A2",
+    "title": "מסיבת הפתעה לעומר",
+    "titleEn": "A Surprise Party for Omer",
+    "genre": "sitcom",
+    "synopsis": "Inbal, Sasha and Keren want to throw a surprise party for their friend Omer's birthday. They plan where it will be, who will bring what and what present to buy — but can they really keep it a secret?",
+    "speakers": {
+      "A": {
+        "name": "ענבל",
+        "gender": "f"
+      },
+      "B": {
+        "name": "סשה",
+        "gender": "m"
+      },
+      "C": {
+        "name": "קרן",
+        "gender": "f"
+      }
+    },
+    "lines": [
+      {
+        "s": "A",
+        "he": "חבר׳ה, ביום שישי זה יום ההולדת של עומר. בואו נעשה לו מסיבת הפתעה!",
+        "en": "Guys, Friday is Omer's birthday. Let's throw him a surprise party!"
+      },
+      {
+        "s": "B",
+        "he": "רעיון מעולה! אבל איפה? הדירה שלי קטנה מדי.",
+        "en": "Great idea! But where? My apartment is too small."
+      },
+      {
+        "s": "C",
+        "he": "אז נעשה את המסיבה אצלי. יש לי מרפסת גדולה.",
+        "en": "Then we'll have the party at my place. I have a big balcony."
+      },
+      {
+        "s": "A",
+        "he": "מצוין. נתחיל בשמונה בערב. עכשיו, מי יביא מה?",
+        "en": "Excellent. We'll start at eight in the evening. Now, who's bringing what?"
+      },
+      {
+        "s": "B",
+        "he": "אני אביא שתייה וחטיפים, ואני גם אדאג למוזיקה.",
+        "en": "I'll bring drinks and snacks, and I'll take care of the music too."
+      },
+      {
+        "s": "C",
+        "he": "אני אאפה עוגת שוקולד. עומר מאוד אוהב שוקולד.",
+        "en": "I'll bake a chocolate cake. Omer really loves chocolate."
+      },
+      {
+        "s": "A",
+        "he": "ואני אזמין את כל החברים. אבל בשקט, כן?",
+        "en": "And I'll invite all our friends. But quietly, OK?"
+      },
+      {
+        "s": "B",
+        "he": "רגע, ומה עם מתנה? מה נקנה לו?",
+        "en": "Wait, what about a present? What will we get him?"
+      },
+      {
+        "s": "C",
+        "he": "בחודש שעבר הוא איבד את האוזניות שלו.",
+        "en": "Last month he lost his headphones."
+      },
+      {
+        "s": "A",
+        "he": "אז נקנה לו אוזניות חדשות. כל אחד ייתן חמישים שקל.",
+        "en": "So we'll get him new headphones. Each of us will put in fifty shekels."
+      },
+      {
+        "s": "B",
+        "he": "סגור. ואיך עומר יגיע אלייך? הוא לא יודע כלום.",
+        "en": "Deal. And how will Omer get to your place? He doesn't know anything."
+      },
+      {
+        "s": "C",
+        "he": "אני אתקשר אליו ואזמין אותו לארוחת ערב.",
+        "en": "I'll call him and invite him over for dinner."
+      },
+      {
+        "s": "A",
+        "he": "יופי. רק אל תספרו לאף אחד, טוב? זה סוד.",
+        "en": "Great. Just don't tell anyone, OK? It's a secret."
+      },
+      {
+        "s": "B",
+        "he": "אה... אופס. כבר כתבתי על זה בקבוצה של כל החברים.",
+        "en": "Uh... oops. I already wrote about it in the group with all our friends."
+      },
+      {
+        "s": "C",
+        "he": "בקבוצה של כולם? אבל גם עומר בקבוצה הזאת!",
+        "en": "The group with everyone? But Omer is in that group too!"
+      },
+      {
+        "s": "A",
+        "he": "סשה! טוב, אז זאת תהיה מסיבת הפתעה בלי הפתעה.",
+        "en": "Sasha! Well, then it'll be a surprise party without the surprise."
+      }
+    ],
+    "questions": [
+      {
+        "q": "איפה תהיה המסיבה, ולמה?",
+        "qEn": "Where will the party be, and why?",
+        "answer": "אצל קרן, כי יש לה מרפסת גדולה.",
+        "answerEn": "At Keren's, because she has a big balcony.",
+        "keywords": [
+          [
+            "קרן",
+            "אצלה",
+            "אצלי"
+          ],
+          [
+            "מרפסת",
+            "קטנה"
+          ]
+        ]
+      },
+      {
+        "q": "מה סשה יביא למסיבה, ומה עוד הוא יעשה?",
+        "qEn": "What will Sasha bring to the party, and what else will he do?",
+        "answer": "הוא יביא שתייה וחטיפים, והוא ידאג למוזיקה.",
+        "answerEn": "He'll bring drinks and snacks, and he'll take care of the music.",
+        "keywords": [
+          [
+            "שתייה",
+            "חטיפים",
+            "משקאות"
+          ],
+          [
+            "מוזיקה",
+            "מוסיקה"
+          ]
+        ]
+      },
+      {
+        "q": "מה קרן תאפה, ולמה?",
+        "qEn": "What will Keren bake, and why?",
+        "answer": "עוגת שוקולד, כי עומר מאוד אוהב שוקולד.",
+        "answerEn": "A chocolate cake, because Omer really loves chocolate.",
+        "keywords": [
+          [
+            "עוגה",
+            "עוגת"
+          ],
+          [
+            "שוקולד"
+          ],
+          [
+            "אוהב",
+            "אוהבת"
+          ]
+        ]
+      },
+      {
+        "q": "מה החברים יקנו לעומר, ולמה?",
+        "qEn": "What will the friends buy Omer, and why?",
+        "answer": "אוזניות חדשות, כי הוא איבד את האוזניות שלו.",
+        "answerEn": "New headphones, because he lost his headphones.",
+        "keywords": [
+          [
+            "אוזניות"
+          ],
+          [
+            "איבד",
+            "אבדו",
+            "אין לו"
+          ]
+        ]
+      },
+      {
+        "q": "מה הבעיה בסוף?",
+        "qEn": "What's the problem at the end?",
+        "answer": "סשה כבר כתב על המסיבה בקבוצה, וגם עומר בקבוצה.",
+        "answerEn": "Sasha has already written about the party in the group, and Omer is in the group too.",
+        "keywords": [
+          [
+            "כתב",
+            "כתבתי",
+            "סיפר"
+          ],
+          [
+            "קבוצה"
+          ],
+          [
+            "עומר"
+          ]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "המסיבה תהיה בדירה של סשה.",
+        "sEn": "The party will be at Sasha's apartment.",
+        "a": false,
+        "why": "Sasha says his apartment is too small, so Keren offers her place: נעשה את המסיבה אצלי."
+      },
+      {
+        "s": "קרן תאפה עוגה לעומר.",
+        "sEn": "Keren will bake a cake for Omer.",
+        "a": true,
+        "why": "Keren says אני אאפה עוגת שוקולד, 'I'll bake a chocolate cake'."
+      },
+      {
+        "s": "כל אחד ייתן מאה שקל למתנה.",
+        "sEn": "Each of them will give a hundred shekels for the present.",
+        "a": false,
+        "why": "Inbal says כל אחד ייתן חמישים שקל: fifty shekels each, not a hundred."
+      },
+      {
+        "s": "סשה כבר כתב על המסיבה לחברים.",
+        "sEn": "Sasha has already written to the friends about the party.",
+        "a": true,
+        "why": "Sasha admits כבר כתבתי על זה בקבוצה של כל החברים, and Keren points out that Omer is in that group too."
+      }
+    ],
+    "dictation": [
+      2,
+      5,
+      9,
+      11
+    ],
+    "expressions": [
+      {
+        "he": "מסיבת הפתעה",
+        "en": "surprise party",
+        "note": "A construct phrase: מסיבה becomes מסיבת before the second noun. Likewise עוגת שוקולד, chocolate cake."
+      },
+      {
+        "he": "מי יביא מה?",
+        "en": "Who's bringing what?",
+        "note": "Future of להביא: אני אביא, אתה תביא, את תביאי, הוא יביא, היא תביא, אנחנו נביא."
+      },
+      {
+        "he": "אני אדאג ל...",
+        "en": "I'll take care of...",
+        "note": "לדאוג ל + noun means to see to or arrange something: אני אדאג למוזיקה. On its own, לדאוג means to worry."
+      },
+      {
+        "he": "סגור",
+        "en": "Deal / It's settled",
+        "note": "Casual way to agree to a plan. As a question, סגור? means 'Are we agreed?'"
+      },
+      {
+        "he": "אל תספרו לאף אחד",
+        "en": "Don't tell anyone",
+        "note": "A negative command is אל + the future form: אל תספר to a man, אל תספרי to a woman, אל תספרו to a group. In a sentence, אף אחד needs a negative: אל תספרו לאף אחד, לא ראיתי אף אחד."
+      }
+    ]
+  },
+  {
+    "id": "s_a2_lost_and_found",
+    "level": "A2",
+    "title": "איפה התיק שלי?",
+    "titleEn": "Where's My Bag?",
+    "genre": "phone",
+    "synopsis": "Berhanu left his backpack on a city bus and calls the bus company's lost and found. The clerk needs details about his trip and about the bag before she can help him.",
+    "speakers": {
+      "A": {
+        "name": "אלונה",
+        "gender": "f"
+      },
+      "B": {
+        "name": "ברהנו",
+        "gender": "m"
+      }
+    },
+    "lines": [
+      {
+        "s": "A",
+        "he": "אבדות ומציאות, שלום, מדברת אלונה. במה אפשר לעזור?",
+        "en": "Lost and found, hello, Alona speaking. How can I help?"
+      },
+      {
+        "s": "B",
+        "he": "שלום. אתמול שכחתי את התיק שלי באוטובוס.",
+        "en": "Hello. Yesterday I left my bag on the bus."
+      },
+      {
+        "s": "A",
+        "he": "בסדר, אני אבדוק. באיזה קו נסעת, ובאיזו שעה?",
+        "en": "OK, I'll check. Which line were you on, and at what time?"
+      },
+      {
+        "s": "B",
+        "he": "נסעתי בקו חמש, בערך בשש וחצי בערב. ירדתי בתחנה ליד הספרייה.",
+        "en": "I took line five, at about half past six in the evening. I got off at the stop near the library."
+      },
+      {
+        "s": "A",
+        "he": "ואיך התיק נראה?",
+        "en": "And what does the bag look like?"
+      },
+      {
+        "s": "B",
+        "he": "זה תיק גב כחול, לא גדול. יש עליו מדבקה של חתול.",
+        "en": "It's a blue backpack, not big. There's a cat sticker on it."
+      },
+      {
+        "s": "A",
+        "he": "ומה היה בתיק?",
+        "en": "And what was in the bag?"
+      },
+      {
+        "s": "B",
+        "he": "היו בו מחשב נייד, ספר ומטרייה שחורה.",
+        "en": "There was a laptop, a book and a black umbrella in it."
+      },
+      {
+        "s": "A",
+        "he": "רגע, אני בודקת... כן, נהג מצא אתמול בערב תיק גב כחול.",
+        "en": "One moment, I'm checking... Yes, a driver found a blue backpack yesterday evening."
+      },
+      {
+        "s": "B",
+        "he": "באמת? איזה מזל! ויש עליו מדבקה של חתול?",
+        "en": "Really? What luck! And does it have a cat sticker on it?"
+      },
+      {
+        "s": "A",
+        "he": "כן, מדבקה של חתול צהוב. אבל לא היה בו מחשב, רק ספר ומטרייה.",
+        "en": "Yes, a sticker of a yellow cat. But there was no laptop in it, just a book and an umbrella."
+      },
+      {
+        "s": "B",
+        "he": "מה? רגע... אה, נכון! אתמול השארתי את המחשב במשרד.",
+        "en": "What? Wait... oh, right! Yesterday I left the laptop at the office."
+      },
+      {
+        "s": "A",
+        "he": "אז הכול בסדר. אתה יכול לבוא לקחת את התיק היום, עד ארבע.",
+        "en": "So everything's fine. You can come and pick up the bag today, until four."
+      },
+      {
+        "s": "B",
+        "he": "מצוין. לאן אני צריך לבוא, ומה צריך להביא?",
+        "en": "Great. Where do I need to come, and what do I need to bring?"
+      },
+      {
+        "s": "A",
+        "he": "אנחנו בתחנה המרכזית, בקומה השנייה. רק תביא תעודת זהות.",
+        "en": "We're at the central bus station, on the second floor. Just bring your ID card."
+      },
+      {
+        "s": "B",
+        "he": "תודה רבה, עזרת לי מאוד! והפעם אני לא אשכח אותו.",
+        "en": "Thank you so much, you've been a big help! And this time I won't forget it."
+      }
+    ],
+    "questions": [
+      {
+        "q": "מה ברהנו שכח, ואיפה?",
+        "qEn": "What did Berhanu forget, and where?",
+        "answer": "הוא שכח את התיק שלו באוטובוס.",
+        "answerEn": "He left his bag on the bus.",
+        "keywords": [
+          [
+            "תיק"
+          ],
+          [
+            "אוטובוס"
+          ]
+        ]
+      },
+      {
+        "q": "באיזה קו הוא נסע, ומתי?",
+        "qEn": "Which line did he take, and when?",
+        "answer": "בקו חמש, אתמול בערב, בערך בשש וחצי.",
+        "answerEn": "Line five, yesterday evening, at about half past six.",
+        "keywords": [
+          [
+            "חמש",
+            "5"
+          ],
+          [
+            "ערב",
+            "אתמול",
+            "שש",
+            "6"
+          ]
+        ]
+      },
+      {
+        "q": "איך התיק נראה?",
+        "qEn": "What does the bag look like?",
+        "answer": "זה תיק גב כחול, לא גדול, עם מדבקה של חתול.",
+        "answerEn": "It's a blue backpack, not big, with a cat sticker.",
+        "keywords": [
+          [
+            "כחול"
+          ],
+          [
+            "חתול",
+            "מדבקה"
+          ]
+        ]
+      },
+      {
+        "q": "למה לא היה מחשב בתיק?",
+        "qEn": "Why wasn't there a laptop in the bag?",
+        "answer": "כי ברהנו השאיר את המחשב במשרד.",
+        "answerEn": "Because Berhanu had left the laptop at the office.",
+        "keywords": [
+          [
+            "משרד"
+          ],
+          [
+            "השאיר",
+            "השארתי",
+            "שכח"
+          ]
+        ]
+      },
+      {
+        "q": "איפה ועד מתי ברהנו יכול לקחת את התיק?",
+        "qEn": "Where, and until what time, can Berhanu pick up the bag?",
+        "answer": "בתחנה המרכזית, היום עד ארבע.",
+        "answerEn": "At the central bus station, today until four.",
+        "keywords": [
+          [
+            "מרכזית",
+            "המרכזית"
+          ],
+          [
+            "ארבע",
+            "4"
+          ]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "ברהנו שכח את התיק באוטובוס הבוקר.",
+        "sEn": "Berhanu left the bag on the bus this morning.",
+        "a": false,
+        "why": "It happened yesterday evening: אתמול שכחתי... בערך בשש וחצי בערב."
+      },
+      {
+        "s": "ברהנו ירד מהאוטובוס ליד הספרייה.",
+        "sEn": "Berhanu got off the bus near the library.",
+        "a": true,
+        "why": "He says ירדתי בתחנה ליד הספרייה, 'I got off at the stop near the library'."
+      },
+      {
+        "s": "המחשב של ברהנו היה בתיק.",
+        "sEn": "Berhanu's laptop was in the bag.",
+        "a": false,
+        "why": "The bag had only a book and an umbrella; Berhanu remembers אתמול השארתי את המחשב במשרד."
+      },
+      {
+        "s": "ברהנו צריך להביא תעודת זהות.",
+        "sEn": "Berhanu needs to bring an ID card.",
+        "a": true,
+        "why": "Alona tells him רק תביא תעודת זהות, 'just bring your ID card'."
+      }
+    ],
+    "dictation": [
+      1,
+      5,
+      7
+    ],
+    "expressions": [
+      {
+        "he": "אבדות ומציאות",
+        "en": "lost and found",
+        "note": "Literally 'losses and finds': the lost-property office at bus companies, train stations, malls and airports."
+      },
+      {
+        "he": "באיזה קו נסעת?",
+        "en": "Which line did you take?",
+        "note": "לנסוע ב + vehicle or line: נסעתי בקו חמש, ברכבת, במונית. Bus lines are named with the basic counting number: קו חמש, קו ארבע, קו שתיים."
+      },
+      {
+        "he": "איך התיק נראה?",
+        "en": "What does the bag look like?",
+        "note": "נראה agrees with the thing described: איך התיק נראה? איך המטרייה נראית? איך הם נראים?"
+      },
+      {
+        "he": "איזה מזל!",
+        "en": "What luck! / Thank goodness!",
+        "note": "איזה (m) / איזו (f) + noun makes an exclamation: איזה יופי! איזו הפתעה!"
+      },
+      {
+        "he": "תיק גב",
+        "en": "backpack",
+        "note": "A compound noun; in the plural only the first word changes: תיקי גב."
+      },
+      {
+        "he": "עזרת לי מאוד",
+        "en": "You've been a big help",
+        "note": "לעזור takes ל: עזרת לי, אני אעזור לך, הוא עזר לנו."
+      }
+    ]
+  },
+  {
+    "id": "s_a2p_car_rental",
+    "level": "A2+",
+    "title": "רכב לסוף השבוע",
+    "titleEn": "A Car for the Weekend",
+    "genre": "phone",
+    "synopsis": "Rachel calls a car rental company to book a car for a weekend trip up north. The agent, Karim, goes through the dates, the right car, the price and the insurance options with her.",
+    "speakers": {
+      "A": {
+        "name": "כרים",
+        "gender": "m"
+      },
+      "B": {
+        "name": "רייצ׳ל",
+        "gender": "f"
+      }
+    },
+    "lines": [
+      {
+        "s": "A",
+        "he": "רכב פלוס, שלום, מדבר כרים. במה אפשר לעזור?",
+        "en": "Rechev Plus, hello, Karim speaking. How can I help?"
+      },
+      {
+        "s": "B",
+        "he": "שלום, אני רוצה לשכור רכב לסוף השבוע. אנחנו נוסעים לצפון.",
+        "en": "Hello, I'd like to rent a car for the weekend. We're going up north."
+      },
+      {
+        "s": "A",
+        "he": "בשמחה. מאיזה תאריך ועד מתי?",
+        "en": "Gladly. From what date, and until when?"
+      },
+      {
+        "s": "B",
+        "he": "מיום חמישי, העשרה בדצמבר, עד שבת בערב.",
+        "en": "From Thursday, the tenth of December, until Saturday evening."
+      },
+      {
+        "s": "A",
+        "he": "בשבת הסניף סגור, אבל אפשר להחזיר את הרכב ביום ראשון בבוקר, באותו מחיר.",
+        "en": "The branch is closed on Saturday, but you can return the car on Sunday morning for the same price."
+      },
+      {
+        "s": "B",
+        "he": "מעולה, זה אפילו יותר טוב. איזה רכב כדאי לי לקחת?",
+        "en": "Excellent, that's even better. Which car should I take?"
+      },
+      {
+        "s": "A",
+        "he": "תלוי. כמה אנשים תהיו?",
+        "en": "It depends. How many of you will there be?"
+      },
+      {
+        "s": "B",
+        "he": "נהיה שלושה, ויש לנו שתי מזוודות גדולות. אני צריכה רכב שיש לו בגאז׳ גדול.",
+        "en": "There'll be three of us, and we have two big suitcases. I need a car that has a big trunk."
+      },
+      {
+        "s": "A",
+        "he": "אז אני ממליץ על רכב משפחתי. זה מאתיים ועשרים שקל ליום, כולל מע״מ.",
+        "en": "Then I recommend a family car. It's two hundred and twenty shekels a day, including VAT."
+      },
+      {
+        "s": "B",
+        "he": "והמחיר כולל ביטוח?",
+        "en": "And does the price include insurance?"
+      },
+      {
+        "s": "A",
+        "he": "כן, ביטוח בסיסי. אבל יש השתתפות עצמית של אלפיים שקל.",
+        "en": "Yes, basic insurance. But there's an excess of two thousand shekels."
+      },
+      {
+        "s": "B",
+        "he": "השתתפות עצמית? מה זה אומר?",
+        "en": "An excess? What does that mean?"
+      },
+      {
+        "s": "A",
+        "he": "זה אומר שאם קורה משהו לרכב, את משלמת עד אלפיים שקל.",
+        "en": "It means that if something happens to the car, you pay up to two thousand shekels."
+      },
+      {
+        "s": "B",
+        "he": "ויש גם ביטוח בלי השתתפות עצמית?",
+        "en": "And is there also insurance with no excess?"
+      },
+      {
+        "s": "A",
+        "he": "כן, זה עוד ארבעים שקל ליום. רוב הלקוחות לוקחים את זה.",
+        "en": "Yes, that's another forty shekels a day. Most customers take it."
+      },
+      {
+        "s": "B",
+        "he": "אז אני אקח את זה. ועוד שאלה: גם בעלי ינהג. זה עולה יותר?",
+        "en": "Then I'll take it. And one more question: my husband will drive too. Does that cost more?"
+      },
+      {
+        "s": "A",
+        "he": "לא, נהג נוסף לא עולה כסף. רק תביאו רישיון נהיגה לכל נהג, וכרטיס אשראי.",
+        "en": "No, an additional driver doesn't cost anything. Just bring a driving licence for each driver, and a credit card."
+      },
+      {
+        "s": "B",
+        "he": "מצוין, תודה רבה. אני מקווה שיהיה מזג אוויר טוב בצפון!",
+        "en": "Great, thank you very much. I hope the weather will be good up north!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "לאן רייצ׳ל נוסעת, ומאיזה יום?",
+        "qEn": "Where is Rachel going, and from what day?",
+        "answer": "לצפון, מיום חמישי, העשרה בדצמבר.",
+        "answerEn": "Up north, from Thursday, the tenth of December.",
+        "keywords": [
+          [
+            "צפון"
+          ],
+          [
+            "חמישי",
+            "עשרה",
+            "עשירי",
+            "דצמבר",
+            "10"
+          ]
+        ]
+      },
+      {
+        "q": "למה רייצ׳ל תחזיר את הרכב ביום ראשון ולא בשבת?",
+        "qEn": "Why will Rachel return the car on Sunday and not on Saturday?",
+        "answer": "כי בשבת הסניף סגור.",
+        "answerEn": "Because the branch is closed on Saturday.",
+        "keywords": [
+          [
+            "סגור",
+            "סגורה"
+          ],
+          [
+            "סניף"
+          ]
+        ]
+      },
+      {
+        "q": "למה כרים ממליץ על רכב משפחתי?",
+        "qEn": "Why does Karim recommend a family car?",
+        "answer": "כי הם יהיו שלושה, ויש להם שתי מזוודות גדולות.",
+        "answerEn": "Because there will be three of them, and they have two big suitcases.",
+        "keywords": [
+          [
+            "שלושה",
+            "שלוש",
+            "3"
+          ],
+          [
+            "מזוודות",
+            "מזוודה",
+            "בגאז׳"
+          ]
+        ]
+      },
+      {
+        "q": "מה זה ״השתתפות עצמית״, לפי כרים?",
+        "qEn": "What is an 'excess', according to Karim?",
+        "answer": "זה אומר שאם קורה משהו לרכב, הלקוח משלם עד אלפיים שקל.",
+        "answerEn": "It means that if something happens to the car, the customer pays up to two thousand shekels.",
+        "keywords": [
+          [
+            "קורה",
+            "קרה",
+            "יקרה",
+            "נזק",
+            "תאונה"
+          ],
+          [
+            "משלם",
+            "משלמת",
+            "משלמים",
+            "ישלם",
+            "תשלם",
+            "תשלמי",
+            "לשלם"
+          ],
+          [
+            "אלפיים",
+            "2000",
+            "2,000"
+          ]
+        ]
+      },
+      {
+        "q": "מי עוד ינהג ברכב, ומה צריך להביא?",
+        "qEn": "Who else will drive the car, and what do they need to bring?",
+        "answer": "גם בעלה של רייצ׳ל ינהג. צריך להביא רישיון נהיגה לכל נהג וכרטיס אשראי.",
+        "answerEn": "Rachel's husband will drive too. They need to bring a driving licence for each driver and a credit card.",
+        "keywords": [
+          [
+            "בעלה",
+            "בעל",
+            "בעלי"
+          ],
+          [
+            "רישיון",
+            "רשיון",
+            "רישיונות"
+          ],
+          [
+            "אשראי"
+          ]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "רכב משפחתי עולה מאתיים ועשרים שקל ליום.",
+        "sEn": "A family car costs two hundred and twenty shekels a day.",
+        "a": true,
+        "why": "Karim says זה מאתיים ועשרים שקל ליום, כולל מע״מ."
+      },
+      {
+        "s": "בביטוח הבסיסי אין השתתפות עצמית.",
+        "sEn": "The basic insurance has no excess.",
+        "a": false,
+        "why": "The basic insurance comes with an excess: יש השתתפות עצמית של אלפיים שקל."
+      },
+      {
+        "s": "רייצ׳ל לוקחת את הביטוח בלי השתתפות עצמית.",
+        "sEn": "Rachel takes the insurance with no excess.",
+        "a": true,
+        "why": "When Karim says it costs another forty shekels a day, she answers אז אני אקח את זה."
+      },
+      {
+        "s": "נהג נוסף עולה עוד ארבעים שקל ליום.",
+        "sEn": "An additional driver costs another forty shekels a day.",
+        "a": false,
+        "why": "Karim says נהג נוסף לא עולה כסף; the extra forty shekels a day are for the insurance with no excess."
+      }
+    ],
+    "dictation": [
+      1,
+      12,
+      17
+    ],
+    "expressions": [
+      {
+        "he": "לשכור רכב",
+        "en": "to rent a car",
+        "note": "לשכור is to rent as the customer; להשכיר is to rent out, as the company does. A rental company is חברת השכרה."
+      },
+      {
+        "he": "תלוי",
+        "en": "It depends",
+        "note": "Alone, or with ב: זה תלוי במחיר, 'it depends on the price'."
+      },
+      {
+        "he": "כולל מע״מ",
+        "en": "including VAT",
+        "note": "מע״מ stands for מס ערך מוסף. Prices for consumers usually include it, but business quotes often don't, so it's worth asking: זה כולל מע״מ?"
+      },
+      {
+        "he": "השתתפות עצמית",
+        "en": "excess / deductible",
+        "note": "The part of a damage claim you pay yourself. You'll meet it in car, home and health insurance."
+      },
+      {
+        "he": "רכב שיש לו בגאז׳ גדול",
+        "en": "a car that has a big trunk",
+        "note": "A ש-clause describing a noun: רכב ש... = 'a car that...'. בגאז׳ is the everyday word for a car's trunk or boot; the standard term is תא מטען."
+      },
+      {
+        "he": "אני מקווה ש...",
+        "en": "I hope that...",
+        "note": "Usually followed by the future: אני מקווה שיהיה מזג אוויר טוב, אני מקווה שתבואו."
+      }
+    ]
+  }
+]

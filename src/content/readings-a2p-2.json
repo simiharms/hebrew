@@ -1,0 +1,575 @@
+[
+  {
+    "id": "r_a2p_flat_share_chat",
+    "level": "A2+",
+    "title": "תורנות, חשבונות ומכונת כביסה",
+    "titleEn": "A cleaning rota, bills and a washing machine",
+    "topic": "home",
+    "kind": "chat",
+    "paragraphs": [
+      {
+        "he": "נטשה: בוקר טוב לכולם! מכונת הכביסה שוב לא עובדת. היא מלאה מים, והבגדים שלי עדיין בפנים.",
+        "en": "Natasha: Good morning, everyone! The washing machine isn't working again. It's full of water, and my clothes are still inside."
+      },
+      {
+        "he": "סאמר: אוי, סליחה, נראה לי שזה בגללי. אתמול בלילה הכנסתי למכונה יותר מדי בגדים, ושמעתי רעש חזק. חשבתי שזה בסדר.",
+        "en": "Samer: Oh, sorry, I think it's my fault. Last night I put too many clothes into the machine and heard a loud noise. I thought it was fine."
+      },
+      {
+        "he": "ליאור: לא נורא, זה קורה. אני אתקשר לבעל הבית. הוא אמר לנו שצריך להודיע לו מיד על כל בעיה.",
+        "en": "Lior: Never mind, it happens. I'll call the landlord. He told us that we have to let him know right away about any problem."
+      },
+      {
+        "he": "הדס: בינתיים יש מכבסה ליד הסופר. אני הולכת לשם בערב, ומי שרוצה יכול לבוא איתי.",
+        "en": "Hadas: In the meantime, there's a laundromat next to the supermarket. I'm going there this evening, and anyone who wants can come with me."
+      },
+      {
+        "he": "ליאור: עוד דבר: הגיע חשבון החשמל, 840 ש״ח לחודשיים. זה 210 ש״ח לכל אחד.",
+        "en": "Lior: One more thing: the electricity bill came, 840 shekels for two months. That's 210 shekels each."
+      },
+      {
+        "he": "נטשה: מה?! למה כל כך יקר?",
+        "en": "Natasha: What?! Why is it so expensive?"
+      },
+      {
+        "he": "ליאור: כי המזגן בסלון עבד כל הקיץ, כמעט כל היום.",
+        "en": "Lior: Because the air conditioner in the living room was on all summer, almost all day long."
+      },
+      {
+        "he": "הדס: אוקיי, אני אעביר לך את הכסף בביט עוד היום.",
+        "en": "Hadas: OK, I'll send you the money by Bit later today."
+      },
+      {
+        "he": "סאמר: גם אני. ועכשיו התורנות לשבוע הזה: אני מנקה את המטבח, נטשה את המקלחת, הדס את הסלון, וליאור מוריד את הזבל.",
+        "en": "Samer: Me too. And now this week's rota: I'm cleaning the kitchen, Natasha the bathroom, Hadas the living room, and Lior is taking out the rubbish."
+      },
+      {
+        "he": "נטשה: רגע, בשבוע שעבר כבר ניקיתי את המקלחת! עכשיו התור של מישהו אחר.",
+        "en": "Natasha: Wait, I already cleaned the bathroom last week! Now it's someone else's turn."
+      },
+      {
+        "he": "סאמר: את צודקת, סליחה. אז נטשה מנקה את הסלון, והדס את המקלחת. בסדר?",
+        "en": "Samer: You're right, sorry. So Natasha cleans the living room, and Hadas the bathroom. OK?"
+      },
+      {
+        "he": "הדס: בסדר, אבל בשבוע הבא המטבח שלי!",
+        "en": "Hadas: Fine, but next week the kitchen is mine!"
+      },
+      {
+        "he": "ליאור: עדכון: דיברתי עם בעל הבית. טכנאי יבוא מחר בעשר בבוקר. מישהו יהיה בבית?",
+        "en": "Lior: Update: I spoke to the landlord. A technician will come tomorrow at ten in the morning. Will anyone be home?"
+      },
+      {
+        "he": "נטשה: אני עובדת מהבית מחר, אז אני אפתח לו. ובינתיים, מישהו יכול להשאיל לי חולצה נקייה?",
+        "en": "Natasha: I'm working from home tomorrow, so I'll let him in. And in the meantime, can someone lend me a clean shirt?"
+      }
+    ],
+    "glossary": [
+      { "he": "תורנות", "en": "rota, duty roster (who does which job when)", "tr": "toranút" },
+      { "he": "מכונת כביסה", "en": "washing machine", "tr": "mekhonát kvisá" },
+      { "he": "בגללי", "en": "because of me, my fault (בגלל + me)", "tr": "biglalí" },
+      { "he": "לא נורא", "en": "never mind, no big deal", "tr": "lo norá" },
+      { "he": "בעל הבית", "en": "the landlord (literally 'the owner of the house')", "tr": "ba'ál ha-báyit" },
+      { "he": "להודיע", "en": "to inform, let (someone) know", "tr": "lehodí'a" },
+      { "he": "בינתיים", "en": "in the meantime, meanwhile", "tr": "beyntáyim" },
+      { "he": "מכבסה", "en": "laundromat, laundry", "tr": "makhbesá" },
+      { "he": "לחודשיים", "en": "for two months (חודשיים = two months)", "tr": "le-khodsháyim" },
+      { "he": "ביט", "en": "Bit, a popular Israeli app for sending money", "tr": "bit" },
+      { "he": "להעביר", "en": "to transfer, pass (in the text: אעביר, 'I'll transfer')", "tr": "leha'avír" },
+      { "he": "להוריד את הזבל", "en": "to take out the rubbish (literally 'to take the rubbish down')", "tr": "lehoríd et ha-zével" },
+      { "he": "טכנאי", "en": "technician, repairman", "tr": "tekhnáy" },
+      { "he": "להשאיל", "en": "to lend", "tr": "lehash'íl" }
+    ],
+    "questions": [
+      {
+        "q": "מה הבעיה עם מכונת הכביסה?",
+        "qEn": "What is the problem with the washing machine?",
+        "answer": "היא לא עובדת, והיא מלאה מים.",
+        "answerEn": "It isn't working, and it's full of water.",
+        "keywords": [
+          ["עובדת", "עובד", "מקולקלת", "מקולקל", "שבורה", "התקלקלה", "התקלקל", "הפסיקה"],
+          ["מים"]
+        ]
+      },
+      {
+        "q": "כמה כל אחד צריך לשלם על החשמל, ולמה החשבון יקר?",
+        "qEn": "How much does each person have to pay for electricity, and why is the bill so high?",
+        "answer": "210 ש״ח, כי המזגן עבד כל הקיץ.",
+        "answerEn": "210 shekels, because the air conditioner was on all summer.",
+        "keywords": [
+          ["210", "מאתיים ועשרה"],
+          ["מזגן", "מזגנים"]
+        ]
+      },
+      {
+        "q": "למה נטשה לא רוצה לנקות את המקלחת השבוע?",
+        "qEn": "Why doesn't Natasha want to clean the bathroom this week?",
+        "answer": "כי היא כבר ניקתה את המקלחת בשבוע שעבר.",
+        "answerEn": "Because she already cleaned the bathroom last week.",
+        "keywords": [
+          ["ניקתה", "ניקיתי", "ניקה", "לנקות"],
+          ["שעבר", "קודם"]
+        ]
+      },
+      {
+        "q": "מה יקרה מחר בעשר, ומי יפתח את הדלת?",
+        "qEn": "What will happen tomorrow at ten, and who will open the door?",
+        "answer": "טכנאי יבוא, ונטשה תפתח לו.",
+        "answerEn": "A technician will come, and Natasha will let him in.",
+        "keywords": [
+          ["טכנאי"],
+          ["נטשה"]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "סאמר חושב שהבעיה במכונה בגללו.",
+        "sEn": "Samer thinks the problem with the machine is his fault.",
+        "a": true,
+        "why": "He says נראה לי שזה בגללי: last night he put too many clothes in and heard a loud noise."
+      },
+      {
+        "s": "הדס הולכת למכבסה בבוקר.",
+        "sEn": "Hadas is going to the laundromat in the morning.",
+        "a": false,
+        "why": "She says she is going there in the evening (בערב)."
+      },
+      {
+        "s": "חשבון החשמל הוא על חודש אחד.",
+        "sEn": "The electricity bill is for one month.",
+        "a": false,
+        "why": "The bill is 840 shekels for two months (לחודשיים)."
+      },
+      {
+        "s": "השבוע הדס מנקה את המקלחת.",
+        "sEn": "This week Hadas is cleaning the bathroom.",
+        "a": true,
+        "why": "After Natasha complains, Samer changes the rota: Natasha takes the living room and Hadas the bathroom."
+      }
+    ],
+    "find": [
+      { "en": "a loud noise", "answer": ["רעש חזק"] },
+      { "en": "it happens", "answer": ["זה קורה"] },
+      { "en": "(it's) someone else's turn", "answer": ["התור של מישהו אחר"] },
+      { "en": "a clean shirt", "answer": ["חולצה נקייה"] }
+    ],
+    "summary": [
+      {
+        "prompt": "מכונת הכביסה בדירה שוב לא ___, והבגדים של נטשה עדיין בפנים.",
+        "en": "The washing machine in the flat isn't working again, and Natasha's clothes are still inside.",
+        "answer": ["עובדת", "פועלת"],
+        "hint": "works (present, feminine)"
+      },
+      {
+        "prompt": "חשבון החשמל יקר, כי ___ עבד כל הקיץ.",
+        "en": "The electricity bill is high, because the air conditioner was on all summer.",
+        "answer": ["המזגן"],
+        "hint": "the air conditioner"
+      },
+      {
+        "prompt": "נטשה כבר ___ את המקלחת בשבוע שעבר, אז השבוע היא מנקה את הסלון.",
+        "en": "Natasha already cleaned the bathroom last week, so this week she's cleaning the living room.",
+        "answer": ["ניקתה"],
+        "hint": "cleaned (past, she)"
+      },
+      {
+        "prompt": "ליאור ___ עם בעל הבית, וטכנאי יבוא מחר בעשר.",
+        "en": "Lior spoke with the landlord, and a technician will come tomorrow at ten.",
+        "answer": ["דיבר", "שוחח"],
+        "hint": "spoke (past, he)"
+      },
+      {
+        "prompt": "מחר נטשה עובדת ___, אז היא תפתח לטכנאי.",
+        "en": "Tomorrow Natasha is working from home, so she'll let the technician in.",
+        "answer": ["מהבית"],
+        "hint": "from home"
+      }
+    ],
+    "writing": {
+      "prompt": "כתבו הודעה לקבוצת הוואטסאפ של השותפים שלכם לדירה: ספרו על בעיה בדירה, והציעו מה לעשות.",
+      "promptEn": "Write a message to your flatmates' WhatsApp group: describe a problem in the flat and suggest what to do.",
+      "minWords": 40,
+      "useWords": ["אתמול", "בינתיים", "בעל הבית", "אני אתקשר"],
+      "checklist": [
+        {
+          "en": "Say what isn't working",
+          "keywords": ["לא עובד", "לא עובדת", "הפסיק", "הפסיקה", "התקלקל", "התקלקלה", "בעיה"]
+        },
+        {
+          "en": "Say when it started (past tense)",
+          "keywords": ["אתמול", "הבוקר", "בלילה", "בשבוע שעבר"]
+        },
+        {
+          "en": "Suggest what to do now",
+          "keywords": ["אני אתקשר", "אתקשר", "בינתיים", "אפשר", "צריך"]
+        }
+      ],
+      "model": "היי לכולם, יש בעיה במטבח. אתמול בערב המקרר עשה רעש חזק, והבוקר הוא הפסיק לעבוד. החלב והגבינות כבר לא קרים. אני אתקשר לבעל הבית ואבקש שישלח טכנאי. בינתיים אפשר לשים את האוכל במקרר של השכנים. הם כבר אמרו שזה בסדר. ומי שהולך היום לסופר, בבקשה לא לקנות הרבה אוכל. תודה!",
+      "modelEn": "Hi everyone, there's a problem in the kitchen. Yesterday evening the fridge made a loud noise, and this morning it stopped working. The milk and the cheeses aren't cold anymore. I'll call the landlord and ask him to send a technician. In the meantime we can put the food in the neighbours' fridge. They've already said it's fine. And whoever goes to the supermarket today, please don't buy a lot of food. Thanks!"
+    }
+  },
+  {
+    "id": "r_a2p_job_ad_cafe",
+    "level": "A2+",
+    "title": "דרושים לבית קפה",
+    "titleEn": "Café staff wanted",
+    "topic": "work",
+    "kind": "ad",
+    "paragraphs": [
+      {
+        "he": "דרושים! בית הקפה \"תאנה\" במרכז הכרמל בחיפה מחפש מלצרים, מלצריות ובריסטה למשמרות בוקר וערב.",
+        "en": "Wanted! Café Te'ena in Merkaz HaCarmel, Haifa, is looking for waiters, waitresses and a barista for morning and evening shifts."
+      },
+      {
+        "he": "מה אנחנו מחפשים? אנשים עם חיוך שאוהבים לעבוד עם קהל. ניסיון – יתרון, אבל לא חובה: אנחנו נלמד אתכם הכול. צריך לעבוד לפחות שלוש משמרות בשבוע, כולל משמרת אחת בסוף השבוע.",
+        "en": "What are we looking for? People with a smile who like working with the public. Experience is an advantage, but not a must: we'll teach you everything. You need to work at least three shifts a week, including one weekend shift."
+      },
+      {
+        "he": "מה אנחנו מציעים? שכר טוב וטיפים, ארוחה בכל משמרת, צוות צעיר ואווירה משפחתית. מתאים גם לסטודנטים.",
+        "en": "What do we offer? Good pay and tips, a meal on every shift, a young team and a family atmosphere. Also suitable for students."
+      },
+      {
+        "he": "מעוניינים? שלחו קורות חיים במייל, או בואו לדבר עם אורי, המנהל, בימים א׳–ה׳ בין 15:00 ל-17:00.",
+        "en": "Interested? Send your CV by email, or come and talk to Uri, the manager, Sunday to Thursday between 15:00 and 17:00."
+      },
+      {
+        "he": "נושא: עבודה כבריסטה",
+        "en": "Subject: Working as a barista"
+      },
+      {
+        "he": "שלום אורי, קוראים לי ליה מקונן, ואני בת 23. אתמול עברתי ליד בית הקפה וראיתי את המודעה בחלון. אני מאוד רוצה לעבוד אצלכם בתור בריסטה.",
+        "en": "Hello Uri, my name is Lia Mekonen, and I'm 23. Yesterday I walked past the café and saw the ad in the window. I'd really like to work for you as a barista."
+      },
+      {
+        "he": "בשנה שעברה עבדתי שישה חודשים בבית קפה בבאר שבע. שם למדתי להכין קפה טוב ולעבוד מהר, גם כשיש הרבה לקוחות. עכשיו אני סטודנטית בחיפה ולומדת בבוקר, אז אני יכולה לעבוד רק בערב. גם בסוף השבוע אין לי בעיה לעבוד.",
+        "en": "Last year I worked for six months at a café in Be'er Sheva. There I learned to make good coffee and to work fast, even when there are lots of customers. Now I'm a student in Haifa and I study in the mornings, so I can only work evenings. Working at the weekend is no problem for me either."
+      },
+      {
+        "he": "אני מצרפת את קורות החיים שלי. אשמח לבוא לדבר איתך ביום שלישי בארבע, אם זה מתאים לך. תודה רבה, ליה",
+        "en": "I'm attaching my CV. I'd be happy to come and talk with you on Tuesday at four, if that suits you. Thank you very much, Lia"
+      }
+    ],
+    "glossary": [
+      { "he": "דרושים", "en": "wanted (heading of a job ad; literally 'needed')", "tr": "drushím" },
+      { "he": "מלצר / מלצרית", "en": "waiter / waitress", "tr": "meltsár / meltsarít" },
+      { "he": "משמרת", "en": "shift (at work); plural משמרות", "tr": "mishméret" },
+      { "he": "קהל", "en": "the public, customers; audience", "tr": "kahál" },
+      { "he": "ניסיון", "en": "experience", "tr": "nisayón" },
+      { "he": "יתרון", "en": "advantage", "tr": "yitrón" },
+      { "he": "חובה", "en": "a must, obligatory", "tr": "khová" },
+      { "he": "שכר", "en": "pay, wages", "tr": "sakhár" },
+      { "he": "אווירה", "en": "atmosphere", "tr": "avirá" },
+      { "he": "מעוניין", "en": "interested (in the ad: מעוניינים, plural)", "tr": "me'unyán" },
+      { "he": "קורות חיים", "en": "CV, résumé", "tr": "korót khayím" },
+      { "he": "בתור", "en": "as, in the role of", "tr": "betór" },
+      { "he": "לצרף", "en": "to attach, add (in the text: מצרפת, 'I'm attaching', f.)", "tr": "letsaréf" },
+      { "he": "מתאים", "en": "suitable; convenient (מתאים לך = suits you)", "tr": "mat'ím" }
+    ],
+    "questions": [
+      {
+        "q": "את מי בית הקפה מחפש?",
+        "qEn": "Whom is the café looking for?",
+        "answer": "מלצרים, מלצריות ובריסטה.",
+        "answerEn": "Waiters, waitresses and a barista.",
+        "keywords": [
+          ["מלצרים", "מלצר", "מלצריות", "מלצרית"],
+          ["בריסטה"]
+        ]
+      },
+      {
+        "q": "מה העובדים מקבלים חוץ מהשכר?",
+        "qEn": "What do the workers get besides their pay?",
+        "answer": "טיפים וארוחה בכל משמרת.",
+        "answerEn": "Tips and a meal on every shift.",
+        "keywords": [
+          ["טיפים", "טיפ"],
+          ["ארוחה", "אוכל", "ארוחות"]
+        ]
+      },
+      {
+        "q": "איפה ומתי ליה ראתה את המודעה?",
+        "qEn": "Where and when did Lia see the ad?",
+        "answer": "אתמול, בחלון של בית הקפה.",
+        "answerEn": "Yesterday, in the café window.",
+        "keywords": [
+          ["אתמול"],
+          ["חלון"]
+        ]
+      },
+      {
+        "q": "מתי ליה יכולה לעבוד, ולמה?",
+        "qEn": "When can Lia work, and why?",
+        "answer": "רק בערב, וגם בסוף השבוע, כי בבוקר היא לומדת.",
+        "answerEn": "Only in the evenings, and also at the weekend, because she studies in the mornings.",
+        "keywords": [
+          ["ערב", "ערבים"],
+          ["לומדת", "לומד", "ללמוד", "לימודים", "סטודנטית"]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "בלי ניסיון אי אפשר לעבוד בבית הקפה.",
+        "sEn": "You can't work at the café without experience.",
+        "a": false,
+        "why": "The ad says experience is an advantage but not a must (לא חובה): they will teach you everything."
+      },
+      {
+        "s": "כל עובד צריך לעבוד לפחות משמרת אחת בסוף השבוע.",
+        "sEn": "Every worker has to work at least one weekend shift.",
+        "a": true,
+        "why": "The ad asks for at least three shifts a week, including one weekend shift."
+      },
+      {
+        "s": "ליה עבדה בעבר בבית קפה בחיפה.",
+        "sEn": "Lia used to work at a café in Haifa.",
+        "a": false,
+        "why": "She worked for six months at a café in Be'er Sheva; now she studies in Haifa."
+      },
+      {
+        "s": "ליה רוצה לבוא לדבר עם אורי ביום שלישי אחרי הצהריים.",
+        "sEn": "Lia wants to come and talk to Uri on Tuesday afternoon.",
+        "a": true,
+        "why": "She offers to come on Tuesday at four (בארבע), within the hours in the ad (15:00–17:00)."
+      }
+    ],
+    "find": [
+      { "en": "at least", "answer": ["לפחות"] },
+      { "en": "including", "answer": ["כולל"] },
+      { "en": "I walked past", "answer": ["עברתי ליד"] },
+      { "en": "if that suits you", "answer": ["אם זה מתאים לך"] }
+    ],
+    "summary": [
+      {
+        "prompt": "בית הקפה \"תאנה\" בחיפה ___ עובדים חדשים.",
+        "en": "Café Te'ena in Haifa is looking for new workers.",
+        "answer": ["מחפש"],
+        "hint": "is looking for (present)"
+      },
+      {
+        "prompt": "ניסיון הוא יתרון, אבל הוא לא ___.",
+        "en": "Experience is an advantage, but it isn't a must.",
+        "answer": ["חובה"],
+        "hint": "a must, obligatory"
+      },
+      {
+        "prompt": "ליה ___ את המודעה בחלון של בית הקפה.",
+        "en": "Lia saw the ad in the café window.",
+        "answer": ["ראתה"],
+        "hint": "saw (past, she)"
+      },
+      {
+        "prompt": "בשנה שעברה היא ___ שישה חודשים בבית קפה בבאר שבע.",
+        "en": "Last year she worked for six months at a café in Be'er Sheva.",
+        "answer": ["עבדה"],
+        "hint": "worked (past, she)"
+      },
+      {
+        "prompt": "היא יכולה לעבוד רק בערב, כי בבוקר היא ___.",
+        "en": "She can only work in the evenings, because she studies in the mornings.",
+        "answer": ["לומדת"],
+        "hint": "studies (present, feminine)"
+      }
+    ],
+    "writing": {
+      "prompt": "ראיתם מודעה: חנות ספרים מחפשת עובדים. כתבו מייל קצר לחנות: ספרו על הניסיון שלכם, מתי אתם יכולים לעבוד, ובקשו לבוא לראיון.",
+      "promptEn": "You saw an ad: a bookshop is looking for staff. Write a short email to the shop: describe your experience, say when you can work, and ask to come for an interview.",
+      "minWords": 40,
+      "useWords": ["ראיתי את המודעה", "ניסיון", "משמרות", "אשמח"],
+      "checklist": [
+        {
+          "en": "Say where you saw the ad",
+          "keywords": ["מודעה", "המודעה"]
+        },
+        {
+          "en": "Describe your experience (past tense)",
+          "keywords": ["עבדתי", "ניסיון"]
+        },
+        {
+          "en": "Say when you can work",
+          "keywords": ["משמרות", "בימים", "שישי", "בערב", "בבוקר"]
+        },
+        {
+          "en": "Ask to come for an interview",
+          "keywords": ["ראיון", "להיפגש", "לבוא"]
+        }
+      ],
+      "model": "שלום רב, ראיתי את המודעה שלכם באינטרנט, ואשמח מאוד לעבוד בחנות הספרים שלכם. לפני שנתיים עבדתי שנה בחנות בגדים, אז יש לי ניסיון בעבודה עם לקוחות ובקופה. קריאה היא התחביב הגדול שלי, ויש לי בבית מאות ספרים. אוכל לעבוד שלוש משמרות בשבוע, בימים א׳–ג׳ אחרי הצהריים, וגם בשישי בבוקר. אשמח לבוא לראיון בכל יום אחרי 16:00. תודה רבה, אלכס",
+      "modelEn": "Dear Sir or Madam, I saw your ad online, and I would very much like to work in your bookshop. Two years ago I worked for a year in a clothes shop, so I have experience working with customers and on the till. Reading is my big hobby, and I have hundreds of books at home. I can work three shifts a week, Sunday to Tuesday in the afternoon, and also on Friday mornings. I'd be happy to come for an interview any day after 16:00. Thank you very much, Alex"
+    }
+  },
+  {
+    "id": "r_a2p_my_ulpan_teacher",
+    "level": "A2+",
+    "title": "המורה שלי באולפן",
+    "titleEn": "My ulpan teacher",
+    "topic": "education",
+    "kind": "story",
+    "paragraphs": [
+      {
+        "he": "כשהגעתי לישראל לפני חמש שנים, לא ידעתי כמעט אף מילה בעברית, רק \"שלום\" ו\"תודה\". אחרי שבוע התחלתי ללמוד באולפן בנתניה, ושם פגשתי את אסתר, המורה הראשונה שלי.",
+        "en": "When I arrived in Israel five years ago, I hardly knew a word of Hebrew, just \"shalom\" and \"toda\". After a week I started studying at an ulpan in Netanya, and there I met Esther, my first teacher."
+      },
+      {
+        "he": "אסתר הייתה אישה נמוכה עם שיער לבן ומשקפיים גדולים. היא דיברה לאט ובקול חזק, וכל בוקר נכנסה לכיתה עם חיוך ועם עיתון. בכיתה היו עשרים תלמידים מצרפת, מאתיופיה, מרוסיה, מארגנטינה ומאנגליה, ויכולנו לדבר אחד עם השני רק בעברית.",
+        "en": "Esther was a short woman with white hair and big glasses. She spoke slowly and loudly, and every morning she came into the classroom with a smile and a newspaper. There were twenty students in the class from France, Ethiopia, Russia, Argentina and England, and we could only talk to each other in Hebrew."
+      },
+      {
+        "he": "אסתר אף פעם לא תרגמה מילים לאנגלית. כשלא הבנו מילה, היא ציירה על הלוח, הראתה תמונה או עשתה פנטומימה. פעם היא רצה בין השולחנות כדי להסביר את המילה \"למהר\", וכולנו צחקנו.",
+        "en": "Esther never translated words into English. When we didn't understand a word, she drew on the board, showed a picture or acted it out. Once she ran between the desks to explain the word \"lemahér\" (to hurry), and we all laughed."
+      },
+      {
+        "he": "היא תמיד אמרה לנו שלא צריך לפחד מטעויות, כי מי שלא טועה, לא לומד. אני זוכר שבחודש הראשון פחדתי לדבר. יום אחד אסתר ביקשה ממני לקרוא בקול מול כל הכיתה. הקול שלי רעד, אבל בסוף היא אמרה: \"כל הכבוד! אתה מדבר עברית!\"",
+        "en": "She always told us there was no need to be afraid of mistakes, because whoever doesn't make mistakes doesn't learn. I remember that in the first month I was afraid to speak. One day Esther asked me to read aloud in front of the whole class. My voice shook, but at the end she said: \"Well done! You speak Hebrew!\""
+      },
+      {
+        "he": "היום אני עובד בחברת הייטק וכותב מיילים בעברית כל יום. לפני חודש הייתי בנתניה ונכנסתי לאולפן לשאול עליה. המזכירה סיפרה לי שאסתר כבר בפנסיה, אבל היא התקשרה אליה ונתנה לי את הטלפון. אסתר זכרה אותי מיד: \"אה, הבחור מאנגליה שפחד לדבר!\" דיברנו חצי שעה, כמובן רק בעברית.",
+        "en": "Today I work at a high-tech company and write emails in Hebrew every day. A month ago I was in Netanya and went into the ulpan to ask about her. The secretary told me that Esther had already retired, but she phoned her and handed me the phone. Esther remembered me right away: \"Ah, the guy from England who was afraid to speak!\" We talked for half an hour, only in Hebrew, of course."
+      }
+    ],
+    "glossary": [
+      { "he": "אולפן", "en": "ulpan (intensive Hebrew school for new immigrants)", "tr": "ulpán" },
+      { "he": "נמוך", "en": "short (of a person), low (in the text: נמוכה, f.)", "tr": "namúkh" },
+      { "he": "משקפיים", "en": "glasses, spectacles", "tr": "mishkafáyim" },
+      { "he": "לוח", "en": "board (in a classroom)", "tr": "lú'akh" },
+      { "he": "לתרגם", "en": "to translate (in the text: תרגמה, 'she translated')", "tr": "letargém" },
+      { "he": "לצייר", "en": "to draw (in the text: ציירה, 'she drew')", "tr": "letsayér" },
+      { "he": "להראות", "en": "to show (in the text: הראתה, 'she showed')", "tr": "leharót" },
+      { "he": "כדי", "en": "in order to", "tr": "kdey" },
+      { "he": "למהר", "en": "to hurry", "tr": "lemahér" },
+      { "he": "לטעות", "en": "to make a mistake (טועה = makes a mistake; טעות, plural טעויות = mistake)", "tr": "lit'ót" },
+      { "he": "בקול", "en": "aloud (בקול חזק = loudly)", "tr": "bekól" },
+      { "he": "לרעוד", "en": "to shake, tremble (in the text: רעד, 'shook')", "tr": "lir'ód" },
+      { "he": "פנסיה", "en": "retirement; pension (בפנסיה = retired)", "tr": "pénsya" },
+      { "he": "כל הכבוד", "en": "well done!", "tr": "kol ha-kavód" }
+    ],
+    "questions": [
+      {
+        "q": "מה הכותב ידע בעברית כשהוא הגיע לישראל?",
+        "qEn": "What Hebrew did the writer know when he arrived in Israel?",
+        "answer": "כמעט כלום, רק שלום ותודה.",
+        "answerEn": "Almost nothing, just shalom and toda.",
+        "keywords": [
+          ["שלום"],
+          ["תודה"]
+        ]
+      },
+      {
+        "q": "מה אסתר עשתה כשהתלמידים לא הבינו מילה?",
+        "qEn": "What did Esther do when the students didn't understand a word?",
+        "answer": "היא ציירה על הלוח או הראתה תמונה.",
+        "answerEn": "She drew on the board or showed a picture.",
+        "keywords": [
+          ["ציירה", "לצייר", "ציור", "לוח", "הראתה", "תמונה", "תמונות", "פנטומימה"]
+        ]
+      },
+      {
+        "q": "מה אסתר תמיד אמרה על טעויות?",
+        "qEn": "What did Esther always say about mistakes?",
+        "answer": "שלא צריך לפחד מטעויות, כי מי שלא טועה לא לומד.",
+        "answerEn": "That there's no need to be afraid of mistakes, because whoever doesn't make mistakes doesn't learn.",
+        "keywords": [
+          ["לפחד", "לפחוד", "פוחדים", "מפחדים", "פוחד", "פחד"],
+          ["טועה", "טועים", "לטעות", "לומד", "לומדים", "ללמוד"]
+        ]
+      },
+      {
+        "q": "מה אסתר אמרה כשהיא שמעה את הכותב בטלפון?",
+        "qEn": "What did Esther say when she heard the writer on the phone?",
+        "answer": "הבחור מאנגליה שפחד לדבר!",
+        "answerEn": "The guy from England who was afraid to speak!",
+        "keywords": [
+          ["אנגליה"],
+          ["פחד", "לפחד", "פחדת"]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "אסתר תרגמה מילים קשות לאנגלית.",
+        "sEn": "Esther translated difficult words into English.",
+        "a": false,
+        "why": "She never translated words into English (אף פעם לא תרגמה); she drew, showed pictures or acted words out."
+      },
+      {
+        "s": "בכיתה היו תלמידים מארצות שונות.",
+        "sEn": "There were students from different countries in the class.",
+        "a": true,
+        "why": "The twenty students came from France, Ethiopia, Russia, Argentina and England."
+      },
+      {
+        "s": "בחודש הראשון הכותב אהב לדבר מול הכיתה.",
+        "sEn": "In the first month the writer liked speaking in front of the class.",
+        "a": false,
+        "why": "In the first month he was afraid to speak (פחדתי לדבר), and his voice shook when he read aloud."
+      },
+      {
+        "s": "היום אסתר כבר לא עובדת באולפן.",
+        "sEn": "Today Esther no longer works at the ulpan.",
+        "a": true,
+        "why": "The secretary says Esther has already retired (כבר בפנסיה)."
+      }
+    ],
+    "find": [
+      { "en": "white hair", "answer": ["שיער לבן"] },
+      { "en": "between the desks", "answer": ["בין השולחנות"] },
+      { "en": "in front of the whole class", "answer": ["מול כל הכיתה"] },
+      { "en": "(she) remembered me", "answer": ["זכרה אותי"] }
+    ],
+    "summary": [
+      {
+        "prompt": "כשהכותב ___ לישראל, הוא ידע רק שתי מילים בעברית.",
+        "en": "When the writer arrived in Israel, he knew only two words of Hebrew.",
+        "answer": ["הגיע", "עלה", "בא"],
+        "hint": "arrived (past, he)"
+      },
+      {
+        "prompt": "המורה שלו באולפן, אסתר, אף פעם לא ___ מילים לאנגלית.",
+        "en": "His ulpan teacher, Esther, never translated words into English.",
+        "answer": ["תרגמה"],
+        "hint": "translated (past, she)"
+      },
+      {
+        "prompt": "כשהתלמידים לא הבינו, היא ___ על הלוח או הראתה תמונה.",
+        "en": "When the students didn't understand, she drew on the board or showed a picture.",
+        "answer": ["ציירה"],
+        "hint": "drew (past, she)"
+      },
+      {
+        "prompt": "היא תמיד אמרה שלא צריך ___ מטעויות.",
+        "en": "She always said that there's no need to be afraid of mistakes.",
+        "answer": ["לפחד", "לפחוד"],
+        "hint": "to be afraid (infinitive)"
+      },
+      {
+        "prompt": "המזכירה ___ לאסתר ונתנה לו את הטלפון.",
+        "en": "The secretary phoned Esther and handed him the phone.",
+        "answer": ["התקשרה", "טלפנה"],
+        "hint": "phoned (past, she)"
+      }
+    ],
+    "writing": {
+      "prompt": "ספרו על מורה שאתם זוכרים עד היום: איך המורה נראה או נראתה, מה קרה בשיעורים, ומה למדתם ממנו או ממנה.",
+      "promptEn": "Write about a teacher you still remember today: what the teacher looked like, what happened in the lessons, and what you learned from him or her.",
+      "minWords": 40,
+      "useWords": ["כשהייתי", "תמיד", "אמרה / אמר", "בשיעורים"],
+      "checklist": [
+        {
+          "en": "Describe the teacher (looks or character)",
+          "keywords": ["הייתה", "היה", "גבוהה", "גבוה", "נמוכה", "נמוך", "רצינית", "רציני", "נחמדה", "נחמד"]
+        },
+        {
+          "en": "Say what you did in the lessons (past tense)",
+          "keywords": ["בשיעורים", "בשיעור", "יצאנו", "למדנו", "לימדה", "לימד"]
+        },
+        {
+          "en": "Report what the teacher said, with a ש-clause",
+          "keywords": ["אמרה", "אמר"]
+        }
+      ],
+      "model": "כשהייתי בתיכון, המורה שלי לביולוגיה הייתה מירב. היא הייתה גבוהה ורצינית, ותמיד הגיעה לשיעור עם כוס קפה. בשיעורים שלה לא ישבנו רק בכיתה: יצאנו לחצר, חיפשנו חרקים ופרחים, ופעם אפילו גידלנו עגבניות. היא תמיד אמרה שמדע זה קודם כל שאלות, ולא רק ספרים. בזכותה התחלתי לאהוב את הטבע, ועד היום יש לי גינה קטנה במרפסת.",
+      "modelEn": "When I was in high school, my biology teacher was Meirav. She was tall and serious, and she always came to class with a cup of coffee. In her lessons we didn't just sit in the classroom: we went out into the yard, looked for insects and flowers, and once we even grew tomatoes. She always said that science is first of all questions, and not just books. Thanks to her I started to love nature, and to this day I have a small garden on my balcony."
+    }
+  }
+]

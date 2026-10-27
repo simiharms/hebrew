@@ -1,0 +1,2806 @@
+[
+  {
+    "id": "g_roots",
+    "level": "A2+",
+    "title": "Roots and patterns",
+    "titleHe": "שורשים ומשקלים",
+    "summary": "Most Hebrew words are a three-letter root poured into a pattern — learn to see both and you can guess words you have never met.",
+    "sections": [
+      {
+        "h": "One root, a whole family of words",
+        "body": "Most Hebrew words are built from two parts:\n• a root (שורש) — usually three consonants that carry a core idea\n• a pattern (משקל, or בניין for verbs) — the vowels, prefixes and endings that turn that idea into a particular kind of word.\n\nThe root כ.ת.ב is about writing. Pour it into different patterns and you get a letter, an address, a reporter, an article, and verbs for writing, dictating and corresponding. Once you know the root, half of the meaning of every word in the family is already yours.",
+        "table": [
+          [
+            "Word",
+            "Say it",
+            "Meaning",
+            "What the pattern adds"
+          ],
+          [
+            "לכתוב",
+            "likhtóv",
+            "to write",
+            "basic verb (pa'al)"
+          ],
+          [
+            "מכתב",
+            "mikhtáv",
+            "letter (mail)",
+            "a thing (mi- pattern)"
+          ],
+          [
+            "כתובת",
+            "któvet",
+            "address",
+            "noun"
+          ],
+          [
+            "כתב / כתבת",
+            "katáv / katévet",
+            "reporter (m / f)",
+            "a person"
+          ],
+          [
+            "כתבה",
+            "katavá",
+            "article, news report",
+            "noun"
+          ],
+          [
+            "כתיבה",
+            "ktivá",
+            "writing (the activity)",
+            "action noun"
+          ],
+          [
+            "להכתיב",
+            "lehakhtív",
+            "to dictate",
+            "causative verb (hif'il)"
+          ],
+          [
+            "להתכתב",
+            "lehitkatév",
+            "to correspond (with each other)",
+            "reciprocal verb (hitpa'el)"
+          ]
+        ]
+      },
+      {
+        "h": "A second family: ס.פ.ר",
+        "body": "The root ס.פ.ר links counting, telling and books — think of the English 'recount'. It also shows why context matters: ספר can be séfer (a book) or sapár (a barber). Compare קראתי ספר מעניין (I read an interesting book) with הספר גזר לי את השיער (the barber cut my hair). The verb 'he told' is written with a yod, סיפר (sipér), so you won't confuse that one.",
+        "table": [
+          [
+            "Word",
+            "Say it",
+            "Meaning"
+          ],
+          [
+            "לספור",
+            "lispór",
+            "to count"
+          ],
+          [
+            "מספר",
+            "mispár",
+            "number"
+          ],
+          [
+            "לספר",
+            "lesapér",
+            "to tell"
+          ],
+          [
+            "סיפור",
+            "sipúr",
+            "story"
+          ],
+          [
+            "ספר",
+            "séfer",
+            "book"
+          ],
+          [
+            "ספרייה",
+            "sifriyá",
+            "library"
+          ],
+          [
+            "ספר",
+            "sapár",
+            "barber"
+          ],
+          [
+            "מספרה",
+            "mispará",
+            "hair salon, barbershop"
+          ],
+          [
+            "להסתפר",
+            "lehistapér",
+            "to get a haircut"
+          ]
+        ]
+      },
+      {
+        "h": "Patterns tell you what kind of word it is",
+        "body": "Grammar books write patterns with a dummy root (ק.ט.ל), so miktál simply means: mi + root letter 1 + root letter 2 + a + root letter 3. You don't need the jargon — just start noticing the shapes:\n• A מ- in front of a noun is often a place or a thing: משרד (misrád, office), מטבח (mitbákh, kitchen), מסעדה (mis'adá, restaurant).\n• The other מ- pattern, maktél, is typical for tools and devices: מחשב (makhshév, computer — the thing that calculates, ח.ש.ב), מדפסת (madpéset, printer). Without vowels the two מ- patterns look alike; you hear the difference.\n• kattál is the profession pattern: נגר (nagár, carpenter), ספר (sapár, barber), טבח (tabákh, cook), צלם (tsalám, photographer), נהג (nahág, driver).\n• katlán, with a final ן, describes a person by a habit or trait, plus a few jobs: דייקן (daykán, a punctual person), עקשן (akshán, stubborn person), קבלן (kablán, contractor), שחקן (sakhkán, actor, player).\n• -אי added to a noun makes a professional: עיתון → עיתונאי (itona'í, journalist), חשמל → חשמלאי (khashmala'í, electrician).\n• -ייה added to a noun can make a place: ספר → ספרייה (library), נגר → נגרייה (carpentry workshop).",
+        "table": [
+          [
+            "Pattern",
+            "Written",
+            "Typical meaning",
+            "Examples"
+          ],
+          [
+            "miktál / miktalá",
+            "מקטל / מקטלה",
+            "place, thing",
+            "משרד, מטבח, מכתב, מסעדה, מספרה"
+          ],
+          [
+            "maktél / maktélet",
+            "מקטל / מקטלת",
+            "tool, device",
+            "מחשב, מפתח, מדפסת, מחברת"
+          ],
+          [
+            "kattál",
+            "קטל",
+            "profession",
+            "נגר, ספר, טבח, צלם, נהג"
+          ],
+          [
+            "katlán",
+            "קטלן",
+            "person with a trait; some jobs",
+            "דייקן, עקשן, חסכן, קבלן, שחקן"
+          ],
+          [
+            "noun + -a'í",
+            "-אי",
+            "professional",
+            "עיתונאי, חשמלאי"
+          ],
+          [
+            "noun + -iyá",
+            "-ייה",
+            "place, workshop",
+            "ספרייה, נגרייה"
+          ]
+        ]
+      },
+      {
+        "h": "Guessing a new word in three steps",
+        "body": "1. Peel off the prefixes and endings you know: ה, ו, ב, ל, מ, ש in front; ים, ות, ת, ה at the end.\n2. Find the three root letters and think of a word you already know from the same root.\n3. Look at the pattern: מ- in front → probably a place or a device; a final ן → a person with a habit; -אי → a professional.\n\nTry it: במספרה → drop ב → מספרה → root ס.פ.ר + place pattern, and you know ספר (barber) → a hair salon. המחשבים → drop ה and ים → מחשב → root ח.ש.ב, as in לחשוב (to think) and חשבון (bill, account), + device pattern → computers.\n\nIt's a smart guess, not a guarantee: some roots carry two unrelated meanings. ש.ר.ד gives both משרד (office) and לשרוד (to survive)."
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "אני הולך ל___ להסתפר, אחזור בעוד שעה. (ס.פ.ר, מקום)",
+        "answer": [
+          "מספרה"
+        ],
+        "en": "I'm going to the barbershop for a haircut; I'll be back in an hour.",
+        "hint": "a place built on ס.פ.ר",
+        "explain": "מספרה is the mi- place pattern on ס.פ.ר: the place where a barber (ספר) works."
+      },
+      {
+        "prompt": "הקפה נמצא ב___, ליד המקרר. (ט.ב.ח, מקום)",
+        "answer": [
+          "מטבח"
+        ],
+        "en": "The coffee is in the kitchen, next to the fridge.",
+        "hint": "mi- place pattern",
+        "explain": "מטבח (mitbákh) is mi + ט.ב.ח: the place where the cooking happens — a טבח is a cook."
+      },
+      {
+        "prompt": "השולחן עשוי מעץ מלא — ה___ עשה עבודה מצוינת. (נ.ג.ר, מקצוע)",
+        "answer": [
+          "נגר"
+        ],
+        "en": "The table is made of solid wood — the carpenter did an excellent job.",
+        "hint": "the kattál profession pattern",
+        "explain": "Professions often use the kattál pattern, so נ.ג.ר gives נגר (nagár), a carpenter."
+      },
+      {
+        "prompt": "ה___ של המסעדה מכין מנה חדשה כל שבוע. (ט.ב.ח, מקצוע)",
+        "answer": [
+          "טבח"
+        ],
+        "en": "The restaurant's cook prepares a new dish every week.",
+        "hint": "kattál: like נגר and ספר",
+        "explain": "The same root as מטבח in the profession pattern: טבח (tabákh), a cook."
+      },
+      {
+        "prompt": "כל הקבצים נמצאים ב___ הנייד שלי. (ח.ש.ב, מכשיר)",
+        "answer": [
+          "מחשב"
+        ],
+        "en": "All the files are on my laptop.",
+        "hint": "maktél: a device",
+        "explain": "maktél is a typical device pattern: מחשב (makhshév) is the thing that calculates (ח.ש.ב)."
+      },
+      {
+        "prompt": "אפשר להדפיס את החוזה אצלך? ה___ שלי לא עובדת. (ד.פ.ס, מכשיר)",
+        "answer": [
+          "מדפסת"
+        ],
+        "en": "Can I print the contract at your desk? My printer isn't working.",
+        "hint": "maktélet: a feminine device",
+        "explain": "מדפסת (madpéset) is the maktélet device pattern on ד.פ.ס, the root of printing; עובדת shows the noun is feminine."
+      },
+      {
+        "prompt": "שלחתי לך במייל את ה___ החדשה שלנו: רחוב הגפן 12, חיפה. (כ.ת.ב)",
+        "answer": [
+          "כתובת"
+        ],
+        "en": "I emailed you our new address: 12 HaGefen Street, Haifa.",
+        "hint": "where you write to someone",
+        "explain": "כתובת (któvet), the address, comes from כ.ת.ב — it's what you write on the envelope."
+      },
+      {
+        "prompt": "שלחנו לרואה החשבון ___ רשמי עם כל הפרטים. (כ.ת.ב)",
+        "answer": [
+          "מכתב"
+        ],
+        "en": "We sent the accountant an official letter with all the details.",
+        "hint": "mi- pattern: a thing",
+        "explain": "מכתב (mikhtáv) is the mi- 'thing' pattern on כ.ת.ב: a written thing, a letter."
+      },
+      {
+        "prompt": "דני תמיד מגיע בדיוק בזמן — הוא ___ אמיתי. (ד.י.ק, אדם)",
+        "answer": [
+          "דייקן"
+        ],
+        "en": "Danny always arrives exactly on time — he's a truly punctual person.",
+        "hint": "katlán: a person with a habit",
+        "explain": "The katlán pattern with a final ן describes a person by a habit: דייקן (daykán) is someone who is always precise (דיוק)."
+      },
+      {
+        "prompt": "אנחנו צריכים ___ טוב לשיפוץ של המשרד. (ק.ב.ל, מקצוע)",
+        "answer": [
+          "קבלן"
+        ],
+        "en": "We need a good contractor for the office renovation.",
+        "hint": "katlán: ends in ן",
+        "explain": "קבלן (kablán), a contractor, is someone who takes on (ק.ב.ל, receive, accept) a job — the katlán pattern."
+      },
+      {
+        "prompt": "ה___ יגיע מחר בבוקר לתקן את התאורה במשרד. (חשמל, מקצוע)",
+        "answer": [
+          "חשמלאי"
+        ],
+        "en": "The electrician will come tomorrow morning to fix the lighting in the office.",
+        "hint": "noun + -אי",
+        "explain": "Adding -אי to a noun makes a professional: חשמל (electricity) → חשמלאי (electrician)."
+      },
+      {
+        "prompt": "אחרי העבודה אני הולכת ל___ להחזיר שני ספרים. (ספר, מקום)",
+        "answer": [
+          "ספרייה"
+        ],
+        "en": "After work I'm going to the library to return two books.",
+        "hint": "noun + -ייה = a place",
+        "explain": "ספר (book) + -ייה gives ספרייה (sifriyá), the place of books; you will also see the spelling ספריה."
+      }
+    ]
+  },
+  {
+    "id": "g_binyanim_map",
+    "level": "A2+",
+    "title": "The seven binyanim at a glance",
+    "titleHe": "שבעת הבניינים",
+    "summary": "Every Hebrew verb belongs to one of seven patterns; each has a typical meaning and a shape you can learn to spot in any tense.",
+    "sections": [
+      {
+        "h": "What a binyan is",
+        "body": "Every Hebrew verb is a root placed into one of seven verb patterns, called בניינים (binyanim, 'buildings'). The root gives the core idea; the binyan gives the verb its shape in every tense — and often a shade of meaning: a plain action, causing something, doing it to yourself, or having it done to you.\n\nThe same root can live in several binyanim. ג.ד.ל (big, growing): לגדול (ligdól) to grow up, לגדל (legadél) to raise, להגדיל (lehagdíl) to enlarge. ל.ב.ש (clothing): ללבוש (lilbósh) to wear, להלביש (lehalbísh) to dress someone, להתלבש (lehitlabésh) to get dressed.\n\nThe binyanim are named after the dummy root פ.ע.ל, so each name is itself an example of its own shape.",
+        "table": [
+          [
+            "Binyan",
+            "Say it",
+            "Infinitive shape",
+            "Typical meaning",
+            "Examples"
+          ],
+          [
+            "פעל",
+            "pa'ál",
+            "לפעול",
+            "basic action",
+            "לכתוב, לסגור, לגמור"
+          ],
+          [
+            "נפעל",
+            "nif'ál",
+            "להיפעל",
+            "passive / 'it happened'",
+            "להיסגר, להיכנס, להיפגש"
+          ],
+          [
+            "פיעל",
+            "pi'él",
+            "לפעל",
+            "active; many everyday verbs",
+            "לדבר, לשלם, לבקש"
+          ],
+          [
+            "פועל",
+            "pu'ál",
+            "(none in use)",
+            "passive of pi'el",
+            "בוטל, סודר"
+          ],
+          [
+            "הפעיל",
+            "hif'íl",
+            "להפעיל",
+            "causative: make it happen",
+            "להזמין, להסביר, להגדיל"
+          ],
+          [
+            "הופעל",
+            "huf'ál",
+            "(none in use)",
+            "passive of hif'il",
+            "הוזמן, הוחלט"
+          ],
+          [
+            "התפעל",
+            "hitpa'él",
+            "להתפעל",
+            "reflexive, reciprocal, change of state",
+            "להתלבש, להתכתב, להתרגש"
+          ]
+        ]
+      },
+      {
+        "h": "Spotting the binyan in any tense",
+        "body": "You rarely need the binyan's name, but recognising its shape tells you how to conjugate a verb you have just met.\n\nPresent tense:\n• Starts with מ-? Then it's pi'el (מדבר), hif'il (מזמין, with a yod before the last letter), hitpa'el (מתלבש, starting with מת-), or one of the passives: pu'al (מבוטל) or huf'al (מוזמן).\n• No מ-? Then it's pa'al (כותב, with a ו after the first root letter) or nif'al (נכנס, starting with נ).\n\nPast tense:\n• נ- at the start (נכנסתי, נפגשנו) → nif'al.\n• ה- (הזמנתי) → hif'il; הת- (התלבשתי) → hitpa'el; הו- (הוזמן, הוחלט) → usually huf'al.\n• A yod after the first letter (דיברתי, ביקשתי) → usually pi'el; a ו after the first letter (בוטל) → pu'al.\n\nInfinitive: לפעול (pa'al), להיפעל (nif'al), לפעל (pi'el), להפעיל (hif'il), להתפעל (hitpa'el).\n\nOne trap: in the future, נ- means 'we' in every binyan (נכתוב, נדבר, נזמין). It does not mean nif'al.",
+        "table": [
+          [
+            "Binyan",
+            "Past (he)",
+            "Present (m.)",
+            "Future (he)",
+            "Infinitive"
+          ],
+          [
+            "pa'al",
+            "כתב",
+            "כותב",
+            "יכתוב",
+            "לכתוב"
+          ],
+          [
+            "nif'al",
+            "נכנס",
+            "נכנס",
+            "ייכנס",
+            "להיכנס"
+          ],
+          [
+            "pi'el",
+            "דיבר",
+            "מדבר",
+            "ידבר",
+            "לדבר"
+          ],
+          [
+            "pu'al",
+            "בוטל",
+            "מבוטל",
+            "יבוטל",
+            "—"
+          ],
+          [
+            "hif'il",
+            "הזמין",
+            "מזמין",
+            "יזמין",
+            "להזמין"
+          ],
+          [
+            "huf'al",
+            "הוזמן",
+            "מוזמן",
+            "יוזמן",
+            "—"
+          ],
+          [
+            "hitpa'el",
+            "התלבש",
+            "מתלבש",
+            "יתלבש",
+            "להתלבש"
+          ]
+        ]
+      },
+      {
+        "h": "One root, several binyanim",
+        "body": "Meanings are tendencies, not rules — but they help a lot:\n• pa'al is the plain action\n• hif'il often means 'make it happen' or 'make someone do it'\n• hitpa'el is something you do to yourself, with each other, or a change you go through\n• nif'al is what happens to something, or what it does by itself\n• pu'al and huf'al are passives you'll mostly meet in the past and as adjectives: מבוטל (cancelled), מוזמן (invited)\n\nMany verbs exist in only one binyan, with no partner at all — לדבר and לשלם (pi'el), להחליט and להתחיל (hif'il). Learn those as they come.",
+        "table": [
+          [
+            "Root",
+            "Verb",
+            "Binyan",
+            "Meaning"
+          ],
+          [
+            "ג.ד.ל",
+            "לגדול",
+            "pa'al",
+            "to grow (up)"
+          ],
+          [
+            "ג.ד.ל",
+            "לגדל",
+            "pi'el",
+            "to raise, grow (children, plants)"
+          ],
+          [
+            "ג.ד.ל",
+            "להגדיל",
+            "hif'il",
+            "to enlarge, increase"
+          ],
+          [
+            "ל.ב.ש",
+            "ללבוש",
+            "pa'al",
+            "to wear"
+          ],
+          [
+            "ל.ב.ש",
+            "להלביש",
+            "hif'il",
+            "to dress (someone)"
+          ],
+          [
+            "ל.ב.ש",
+            "להתלבש",
+            "hitpa'el",
+            "to get dressed"
+          ],
+          [
+            "כ.ת.ב",
+            "לכתוב",
+            "pa'al",
+            "to write"
+          ],
+          [
+            "כ.ת.ב",
+            "להיכתב",
+            "nif'al",
+            "to be written"
+          ],
+          [
+            "כ.ת.ב",
+            "להתכתב",
+            "hitpa'el",
+            "to correspond (with each other)"
+          ],
+          [
+            "ס.ג.ר",
+            "לסגור",
+            "pa'al",
+            "to close (something)"
+          ],
+          [
+            "ס.ג.ר",
+            "להיסגר",
+            "nif'al",
+            "to close, be closed"
+          ]
+        ]
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "אני רוצה ___ אתכם לארוחת ערב ביום שישי. (ז.מ.ן, הפעיל)",
+        "answer": [
+          "להזמין"
+        ],
+        "en": "I'd like to invite you to dinner on Friday.",
+        "hint": "hif'il infinitive: lehaf'íl",
+        "explain": "The hif'il infinitive is לה- + the root with a yod before the last letter: להזמין."
+      },
+      {
+        "prompt": "צריך ___ עם הספק לפני שחותמים. (ד.ב.ר, פיעל)",
+        "answer": [
+          "לדבר"
+        ],
+        "en": "We need to talk to the supplier before signing.",
+        "hint": "pi'el infinitive: lefa'él",
+        "explain": "The pi'el infinitive is just ל + the root, with no extra letters: לדבר."
+      },
+      {
+        "prompt": "הילדים צריכים ___ מהר, אנחנו יוצאים בעוד חמש דקות. (ל.ב.ש, התפעל)",
+        "answer": [
+          "להתלבש"
+        ],
+        "en": "The kids need to get dressed quickly; we're leaving in five minutes.",
+        "hint": "hitpa'el infinitive: lehitpa'él",
+        "explain": "Hitpa'el infinitives start with להת-: להתלבש, 'to dress yourself'."
+      },
+      {
+        "prompt": "מתי נוח לך ___ כדי לסגור את הפרטים? (פ.ג.ש, נפעל)",
+        "answer": [
+          "להיפגש"
+        ],
+        "en": "When would it suit you to meet so we can finalise the details?",
+        "hint": "nif'al infinitive: lehipa'él",
+        "explain": "Nif'al infinitives start with להי-: להיפגש, 'to meet (each other)'."
+      },
+      {
+        "prompt": "דני ___ עכשיו דוח לישיבה של מחר. (כ.ת.ב, פעל, הווה)",
+        "answer": [
+          "כותב"
+        ],
+        "en": "Danny is writing a report for tomorrow's meeting right now.",
+        "hint": "pa'al present: no מ-",
+        "explain": "Pa'al present has no prefix, just a ו after the first root letter: כותב."
+      },
+      {
+        "prompt": "המנהל ___ עכשיו עם לקוח, אפשר לחכות כמה דקות? (ד.ב.ר, פיעל, הווה)",
+        "answer": [
+          "מדבר"
+        ],
+        "en": "The manager is talking with a client right now — could you wait a few minutes?",
+        "hint": "pi'el present: מ- + root",
+        "explain": "Pi'el present adds מ- to the root: מדבר (medabér)."
+      },
+      {
+        "prompt": "רונית ___ את כל הצוות לישיבה בעשר. (ז.מ.ן, הפעיל, עבר)",
+        "answer": [
+          "הזמינה"
+        ],
+        "en": "Ronit invited the whole team to a meeting at ten.",
+        "hint": "hif'il past: ה- … yod",
+        "explain": "Hif'il past starts with ה- and keeps the yod in the 'she' form: הזמינה."
+      },
+      {
+        "prompt": "דנה ___ איתם במייל כבר חודשים. (כ.ת.ב, התפעל, הווה)",
+        "answer": [
+          "מתכתבת"
+        ],
+        "en": "Dana has been corresponding with them by email for months.",
+        "hint": "hitpa'el present: מת-",
+        "explain": "Hitpa'el present starts with מת-; Dana is a woman, so add -ת: מתכתבת."
+      },
+      {
+        "prompt": "המשרד ___ בשש, אז כדאי להגיע לפני כן. (ס.ג.ר, נפעל, הווה)",
+        "answer": [
+          "נסגר"
+        ],
+        "en": "The office closes at six, so it's best to get there before then.",
+        "hint": "nif'al present: נ-",
+        "explain": "Nif'al present starts with נ-: נסגר, 'closes, gets closed'."
+      },
+      {
+        "prompt": "בסוף הם ___ להגדיל את הצוות. (ח.ל.ט, הפעיל, עבר)",
+        "answer": [
+          "החליטו"
+        ],
+        "en": "In the end they decided to enlarge the team.",
+        "hint": "hif'il past, they",
+        "explain": "Hif'il past is ה- + the root with a yod before the last letter, plus -ו for 'they': החליטו."
+      },
+      {
+        "prompt": "הישיבה ___ ברגע האחרון. (ב.ט.ל, פועל, עבר)",
+        "answer": [
+          "בוטלה"
+        ],
+        "en": "The meeting was cancelled at the last minute.",
+        "hint": "pu'al past: ו after the first letter",
+        "explain": "Pu'al, the passive of ביטל, has a ו after the first letter: בוטל, with -ה for a feminine subject."
+      },
+      {
+        "prompt": "כל העובדים ___ למסיבת סוף השנה. (ז.מ.ן, הופעל, הווה)",
+        "answer": [
+          "מוזמנים"
+        ],
+        "en": "All the employees are invited to the end-of-year party.",
+        "hint": "huf'al present: מו-",
+        "explain": "Huf'al present starts with מו-: מוזמן, 'invited', plural מוזמנים."
+      }
+    ]
+  },
+  {
+    "id": "g_paal",
+    "level": "A2+",
+    "title": "Pa'al: the basic binyan",
+    "titleHe": "בניין פעל",
+    "summary": "Present, past and future of the most common binyan, the ef'ol / ef'al split, and the past-tense endings that every binyan shares.",
+    "sections": [
+      {
+        "h": "Present tense: just four forms",
+        "body": "Pa'al is the most common binyan and the one you met first. Its present tense changes for gender and number, not for person: אני / אתה / הוא כותב, but אני / את / היא כותבת.\n\nThe shape: first root letter + ו + second + third, then the endings -ת, -ים, -ות. Verbs whose last root letter is ח or ע end in -at in the feminine: שומעת (shomá'at), פותחת (potákhat).\n\nThe infinitive is ל + the root with a ו before the last letter: לכתוב, לסגור, לעבוד, לשמוע.",
+        "table": [
+          [
+            "Form",
+            "לכתוב (to write)",
+            "Say it",
+            "לעבוד (to work)",
+            "Say it"
+          ],
+          [
+            "m. sg. (אני, אתה, הוא)",
+            "כותב",
+            "kotév",
+            "עובד",
+            "ovéd"
+          ],
+          [
+            "f. sg. (אני, את, היא)",
+            "כותבת",
+            "kotévet",
+            "עובדת",
+            "ovédet"
+          ],
+          [
+            "m. pl. (אנחנו, אתם, הם)",
+            "כותבים",
+            "kotvím",
+            "עובדים",
+            "ovdím"
+          ],
+          [
+            "f. pl. (אנחנו, אתן, הן)",
+            "כותבות",
+            "kotvót",
+            "עובדות",
+            "ovdót"
+          ]
+        ]
+      },
+      {
+        "h": "Past tense: endings you'll reuse in every binyan",
+        "body": "The past adds person endings to the stem כתב. Learn these endings once: they are exactly the same in pi'el (דיברתי), hif'il (הזמנתי), hitpa'el (התלבשתי) and nif'al (נכנסתי).\n\n• אתה כתבת and את כתבת look identical in writing; you hear katávta or katávt.\n• For אתם / אתן the textbook form is ktavtém, but most people say katávtem.\n• The pronoun is optional in the past, because the ending already tells you who: כתבתי = I wrote.",
+        "table": [
+          [
+            "Person",
+            "Ending",
+            "לכתוב",
+            "Say it"
+          ],
+          [
+            "אני",
+            "-תי",
+            "כתבתי",
+            "katávti"
+          ],
+          [
+            "אתה",
+            "-ת",
+            "כתבת",
+            "katávta"
+          ],
+          [
+            "את",
+            "-ת",
+            "כתבת",
+            "katávt"
+          ],
+          [
+            "הוא",
+            "—",
+            "כתב",
+            "katáv"
+          ],
+          [
+            "היא",
+            "-ה",
+            "כתבה",
+            "katvá"
+          ],
+          [
+            "אנחנו",
+            "-נו",
+            "כתבנו",
+            "katávnu"
+          ],
+          [
+            "אתם",
+            "-תם",
+            "כתבתם",
+            "ktavtém"
+          ],
+          [
+            "אתן",
+            "-תן",
+            "כתבתן",
+            "ktavtén"
+          ],
+          [
+            "הם / הן",
+            "-ו",
+            "כתבו",
+            "katvú"
+          ]
+        ]
+      },
+      {
+        "h": "Future: ef'ol or ef'al?",
+        "body": "The future adds prefixes, plus an ending for some persons: א- (I), ת- (you m., she), ת-…-י (you f.), י- (he), נ- (we), ת-…-ו (you pl.), י-…-ו (they).\n\nMost pa'al verbs have o in the future, like אכתוב (ekhtóv): the 'ef'ol' group. But when the second or third root letter is a guttural, usually ח or ע, the vowel is a instead: the 'ef'al' group — אשמע, אפתח, אשלח, אשאל. A few others belong here too, such as ללמוד (אלמד), ללבוש (אלבש) and לגדול (אגדל). The infinitive keeps its ו either way: לשמוע, לפתוח, ללמוד.\n\nIf the first root letter is ע or ח, the prefix vowel changes but the spelling doesn't: יעבוד (ya'avód), תחשוב (takhshóv).",
+        "table": [
+          [
+            "Person",
+            "ef'ol: לכתוב",
+            "Say it",
+            "ef'al: ללמוד",
+            "Say it"
+          ],
+          [
+            "אני",
+            "אכתוב",
+            "ekhtóv",
+            "אלמד",
+            "elmád"
+          ],
+          [
+            "אתה",
+            "תכתוב",
+            "tikhtóv",
+            "תלמד",
+            "tilmád"
+          ],
+          [
+            "את",
+            "תכתבי",
+            "tikhteví",
+            "תלמדי",
+            "tilmedí"
+          ],
+          [
+            "הוא",
+            "יכתוב",
+            "yikhtóv",
+            "ילמד",
+            "yilmád"
+          ],
+          [
+            "היא",
+            "תכתוב",
+            "tikhtóv",
+            "תלמד",
+            "tilmád"
+          ],
+          [
+            "אנחנו",
+            "נכתוב",
+            "nikhtóv",
+            "נלמד",
+            "nilmád"
+          ],
+          [
+            "אתם / אתן",
+            "תכתבו",
+            "tikhtevú",
+            "תלמדו",
+            "tilmedú"
+          ],
+          [
+            "הם / הן",
+            "יכתבו",
+            "yikhtevú",
+            "ילמדו",
+            "yilmedú"
+          ]
+        ]
+      },
+      {
+        "h": "Commands in everyday speech",
+        "body": "The textbook imperative is the future without its prefix: תכתוב → כתוב! (ktov), תסגרי → סגרי! (sigrí). In everyday Israeli speech, though, people mostly use the future itself as a polite command: תשלח לי את זה (send it to me), תסגרי את הדלת, בבקשה (close the door, please). On signs and in instructions you'll often see the infinitive instead: לא לעשן (no smoking)."
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "אתמול ___ עד תשע בערב. (לעבוד, אני)",
+        "answer": [
+          "עבדתי",
+          "אני עבדתי"
+        ],
+        "en": "Yesterday I worked until nine in the evening.",
+        "hint": "past, אני → -תי",
+        "explain": "Past tense with אני takes -תי: עבדתי (avádti)."
+      },
+      {
+        "prompt": "מחר אני ___ לך את כל הפרטים במייל. (לכתוב)",
+        "answer": [
+          "אכתוב"
+        ],
+        "en": "Tomorrow I'll write you all the details by email.",
+        "hint": "future, אני → א-",
+        "explain": "Future with אני takes the prefix א-: אכתוב (ekhtóv), an ef'ol verb."
+      },
+      {
+        "prompt": "היא ___ בחברת הייטק בתל אביב. (לעבוד, הווה)",
+        "answer": [
+          "עובדת"
+        ],
+        "en": "She works at a high-tech company in Tel Aviv.",
+        "hint": "present, feminine",
+        "explain": "The present changes for gender and number: היא עובדת (ovédet)."
+      },
+      {
+        "prompt": "דנה, מתי את ___ את ההצעה? (לבדוק, עתיד)",
+        "answer": [
+          "תבדקי"
+        ],
+        "en": "Dana, when will you check the proposal?",
+        "hint": "future, את → ת-…-י",
+        "explain": "Future with את takes ת- and -י, and the ו drops: תבדקי (tivdekí)."
+      },
+      {
+        "prompt": "הם ___ על ההסכם בשבוע שעבר. (לחתום)",
+        "answer": [
+          "חתמו"
+        ],
+        "en": "They signed the agreement last week.",
+        "hint": "past, הם → -ו",
+        "explain": "Past tense with הם / הן adds -ו: חתמו (khatmú) — and לחתום takes על."
+      },
+      {
+        "prompt": "כבר ___ את המייל לכל הלקוחות. (לשלוח, אני)",
+        "answer": [
+          "שלחתי"
+        ],
+        "en": "I've already sent the email to all the clients.",
+        "hint": "past, אני",
+        "explain": "Past + -תי: שלחתי (shalákhti)."
+      },
+      {
+        "prompt": "___ מה הוא אמר בסוף הישיבה? (לשמוע, את, עבר)",
+        "answer": [
+          "שמעת",
+          "את שמעת"
+        ],
+        "en": "Did you hear what he said at the end of the meeting?",
+        "hint": "past, את → -ת",
+        "explain": "Past with את (and with אתה) adds -ת: שמעת."
+      },
+      {
+        "prompt": "___ את המנהלת אם אפשר לעבוד מהבית ביום חמישי. (לשאול, אני, עתיד)",
+        "answer": [
+          "אשאל",
+          "אני אשאל"
+        ],
+        "en": "I'll ask the manager if it's possible to work from home on Thursday.",
+        "hint": "an ef'al verb",
+        "explain": "ש.א.ל has a guttural in the middle, so its future takes a: אשאל (esh'ál), not אשאול."
+      },
+      {
+        "prompt": "אם תצטרכו עזרה, ___ לכם בשמחה. (לעזור, אנחנו, עתיד)",
+        "answer": [
+          "נעזור",
+          "אנחנו נעזור"
+        ],
+        "en": "If you need help, we'll gladly help you.",
+        "hint": "future, אנחנו → נ-",
+        "explain": "Future with אנחנו takes נ-: נעזור (na'azór) — and לעזור takes ל."
+      },
+      {
+        "prompt": "הוא ___ לי את הדלת, כי הידיים שלי היו מלאות. (לפתוח, עבר)",
+        "answer": [
+          "פתח"
+        ],
+        "en": "He opened the door for me because my hands were full.",
+        "hint": "past, הוא: the bare stem",
+        "explain": "The הוא form of the past is the bare stem: פתח (patákh)."
+      },
+      {
+        "prompt": "בשנה הבאה היא ___ שיווק דיגיטלי. (ללמוד, עתיד)",
+        "answer": [
+          "תלמד"
+        ],
+        "en": "Next year she'll study digital marketing.",
+        "hint": "an ef'al verb: no ו",
+        "explain": "ללמוד is an ef'al verb, so the future has a and no ו: תלמד (tilmád)."
+      },
+      {
+        "prompt": "___ להביא את המצגת לישיבה? (לזכור, אתם, עבר)",
+        "answer": [
+          "זכרתם",
+          "אתם זכרתם"
+        ],
+        "en": "Did you remember to bring the presentation to the meeting?",
+        "hint": "past, אתם → -תם",
+        "explain": "Past with אתם adds -תם: זכרתם (in speech, zakhártem)."
+      }
+    ]
+  },
+  {
+    "id": "g_piel",
+    "level": "B1",
+    "title": "Pi'el: dibárti, medabér, adabér",
+    "titleHe": "בניין פיעל",
+    "summary": "The binyan of many everyday work verbs: its three tenses, the extra yod in the past, and the verbs you'll use at the office.",
+    "sections": [
+      {
+        "h": "Pi'el in three tenses",
+        "body": "Pi'el is home to many everyday and business verbs: לדבר, לשלם, לבקש, לחפש, לטפל, לקבל. Its signature:\n• past: the vowels i–e — דיבר (dibér), plus the shared past endings: דיברתי (dibárti), דיברנו (dibárnu)\n• present: מ- + root — מדבר (medabér), מדברת (medabéret), מדברים (medabrím)\n• future: e–a–e — אדבר (adabér), ידבר (yedabér), נדבר (nedabér)\n• infinitive: לדבר (ledabér)\n\nHistorically the middle root letter is doubled. Today you only notice it with ב, כ, פ, which stay hard: dibér (not divér), sipér (not sifér).",
+        "table": [
+          [
+            "Person",
+            "Past",
+            "Present",
+            "Future"
+          ],
+          [
+            "אני",
+            "דיברתי",
+            "מדבר / מדברת",
+            "אדבר"
+          ],
+          [
+            "אתה",
+            "דיברת",
+            "מדבר",
+            "תדבר"
+          ],
+          [
+            "את",
+            "דיברת",
+            "מדברת",
+            "תדברי"
+          ],
+          [
+            "הוא",
+            "דיבר",
+            "מדבר",
+            "ידבר"
+          ],
+          [
+            "היא",
+            "דיברה",
+            "מדברת",
+            "תדבר"
+          ],
+          [
+            "אנחנו",
+            "דיברנו",
+            "מדברים / מדברות",
+            "נדבר"
+          ],
+          [
+            "אתם / אתן",
+            "דיברתם / דיברתן",
+            "מדברים / מדברות",
+            "תדברו"
+          ],
+          [
+            "הם / הן",
+            "דיברו",
+            "מדברים / מדברות",
+            "ידברו"
+          ]
+        ]
+      },
+      {
+        "h": "The yod you write in the past",
+        "body": "Without vowel signs, standard Hebrew spelling (כתיב מלא, 'full spelling', used by Israeli media) marks the i sound with a yod. That's why pi'el past forms have an extra yod after the first letter: דיברתי, ביקשתי, שילמתי, טיפלתי, קיבלתי, סיפרתי.\n\n• The present, future and infinitive have no i, so no yod: מדבר, אדבר, לדבר.\n• Pi'el action nouns have an i too, so they also get the yod: דיבור (speech), טיפול (handling, treatment), ביטול (cancellation), אישור (approval).\n• If the middle letter is ר or א, you hear e instead of i, but the yod is still written: סירב (serév, refused), תיאם (te'ém, coordinated).\n• Four-letter roots also go into pi'el: עדכן (idkén, updated), ארגן (irgén, organised), תכנן (tikhnén, planned). Their first syllable is closed, so no yod is added: עדכנתי, מעדכן, אעדכן."
+      },
+      {
+        "h": "Pi'el verbs you'll use at work",
+        "body": "Several of these come with a fixed preposition — learn it together with the verb: לטפל ב (to deal with), לשלם על (to pay for), לבקש מ (to ask someone for). And notice לקבל (to receive): it's pi'el even though nothing about it feels 'intensive'. The binyan is about form, not always about meaning.",
+        "table": [
+          [
+            "Verb",
+            "Say it",
+            "Meaning",
+            "Past (he)"
+          ],
+          [
+            "לשלם",
+            "leshalém",
+            "to pay",
+            "שילם"
+          ],
+          [
+            "לבקש",
+            "levakésh",
+            "to ask for, request",
+            "ביקש"
+          ],
+          [
+            "לטפל ב",
+            "letapél be",
+            "to deal with, handle",
+            "טיפל"
+          ],
+          [
+            "לקבל",
+            "lekabél",
+            "to receive, get",
+            "קיבל"
+          ],
+          [
+            "לבטל",
+            "levatél",
+            "to cancel",
+            "ביטל"
+          ],
+          [
+            "לסכם",
+            "lesakém",
+            "to sum up; to agree on",
+            "סיכם"
+          ],
+          [
+            "לנהל",
+            "lenahél",
+            "to manage",
+            "ניהל"
+          ],
+          [
+            "לתאם",
+            "leta'ém",
+            "to coordinate, schedule",
+            "תיאם"
+          ],
+          [
+            "לאשר",
+            "le'ashér",
+            "to approve, confirm",
+            "אישר"
+          ],
+          [
+            "לשתף",
+            "leshatéf",
+            "to share",
+            "שיתף"
+          ],
+          [
+            "לעדכן",
+            "le'adkén",
+            "to update",
+            "עדכן"
+          ],
+          [
+            "לארגן",
+            "le'argén",
+            "to organise",
+            "ארגן"
+          ]
+        ]
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "אתמול ___ עם המנהלת על הפרויקט. (לדבר, אני)",
+        "answer": [
+          "דיברתי",
+          "אני דיברתי"
+        ],
+        "en": "Yesterday I spoke with the manager about the project.",
+        "hint": "past, with the pi'el yod",
+        "explain": "Pi'el past + -תי, with a yod for the i: דיברתי (dibárti)."
+      },
+      {
+        "prompt": "כבר ___ את החשבון? (לשלם, אתה)",
+        "answer": [
+          "שילמת"
+        ],
+        "en": "Have you already paid the bill?",
+        "hint": "past, אתה → -ת",
+        "explain": "Pi'el past for אתה: שילמת (shilámta), with the yod after ש."
+      },
+      {
+        "prompt": "הלקוח ___ לדחות את הפגישה ליום ראשון. (לבקש, עבר)",
+        "answer": [
+          "ביקש"
+        ],
+        "en": "The client asked to postpone the meeting to Sunday.",
+        "hint": "past, הוא",
+        "explain": "The הוא form is the bare pi'el stem: ביקש (bikésh)."
+      },
+      {
+        "prompt": "דנה, ___ בזה עד מחר? (לטפל, את, עתיד)",
+        "answer": [
+          "תטפלי",
+          "את תטפלי"
+        ],
+        "en": "Dana, will you take care of this by tomorrow?",
+        "hint": "future, את → ת-…-י",
+        "explain": "Pi'el future has no yod: תטפלי (tetaplí); לטפל takes ב, hence בזה."
+      },
+      {
+        "prompt": "___ אותך מחר בבוקר לגבי המשלוח. (לעדכן, אני, עתיד)",
+        "answer": [
+          "אעדכן",
+          "אני אעדכן"
+        ],
+        "en": "I'll update you tomorrow morning about the shipment.",
+        "hint": "future, אני → א-",
+        "explain": "Four-letter roots go into pi'el too: אעדכן (a'adkén)."
+      },
+      {
+        "prompt": "היא ___ צוות של עשרה אנשים. (לנהל, הווה)",
+        "answer": [
+          "מנהלת"
+        ],
+        "en": "She manages a team of ten people.",
+        "hint": "present, feminine",
+        "explain": "Pi'el present is מ- + root, with -ת for the feminine: מנהלת (menahélet) — the same word as 'manager' (f)."
+      },
+      {
+        "prompt": "___ את ההזמנה? המחיר עלה מאז. (לבטל, אנחנו, עתיד)",
+        "answer": [
+          "נבטל",
+          "אנחנו נבטל"
+        ],
+        "en": "Shall we cancel the order? The price has gone up since then.",
+        "hint": "future, אנחנו → נ-",
+        "explain": "Pi'el future with נ-: נבטל (nevatél) — no yod in the future."
+      },
+      {
+        "prompt": "עוד לא ___ את המסמכים שביקשתי. (לקבל, אני)",
+        "answer": [
+          "קיבלתי"
+        ],
+        "en": "I still haven't received the documents I asked for.",
+        "hint": "past, אני",
+        "explain": "Pi'el past + -תי, with the yod: קיבלתי (kibálti)."
+      },
+      {
+        "prompt": "בסוף הישיבה הם ___ את הנקודות העיקריות. (לסכם, עבר)",
+        "answer": [
+          "סיכמו"
+        ],
+        "en": "At the end of the meeting they summed up the main points.",
+        "hint": "past, הם → -ו",
+        "explain": "Pi'el past + -ו: סיכמו (sikmú)."
+      },
+      {
+        "prompt": "דנה ___ איתי את הקובץ אתמול. (לשתף)",
+        "answer": [
+          "שיתפה"
+        ],
+        "en": "Dana shared the file with me yesterday.",
+        "hint": "past, היא → -ה",
+        "explain": "Pi'el past + -ה for היא: שיתפה (shitfá)."
+      },
+      {
+        "prompt": "מי ___ את התקציב לשנה הבאה? (לאשר, עתיד)",
+        "answer": [
+          "יאשר"
+        ],
+        "en": "Who will approve the budget for next year?",
+        "hint": "future, הוא → י-",
+        "explain": "מי takes the הוא form; pi'el future with י-: יאשר (ye'ashér)."
+      },
+      {
+        "prompt": "___ פגישה עם הספק ליום שלישי. (לתאם, אני, עבר)",
+        "answer": [
+          "תיאמתי",
+          "אני תיאמתי"
+        ],
+        "en": "I've set up a meeting with the supplier for Tuesday.",
+        "hint": "past — the yod stays even before א",
+        "explain": "With א in the middle you hear e (te'ámti), but the past is still written with a yod: תיאמתי."
+      }
+    ]
+  },
+  {
+    "id": "g_hifil",
+    "level": "B1",
+    "title": "Hif'il: making things happen",
+    "titleHe": "בניין הפעיל",
+    "summary": "Hif'il often means 'cause to': ה- in the past, מ- in the present, a-prefixes in the future, and a yod before the last root letter.",
+    "sections": [
+      {
+        "h": "Making something happen",
+        "body": "Hif'il is the causative binyan: it often takes a basic idea and adds 'make it happen' or 'make someone do it'.\n• לאכול (to eat) → להאכיל (to feed)\n• ללבוש (to wear) → להלביש (to dress someone)\n• לגדול (to grow) → להגדיל (to enlarge, increase)\n• לחזור (to come back) → להחזיר (to give back, return something)\n• לבוא (to come) → להביא (to bring — literally 'make come')\n\nMany hif'il verbs have no simple partner and just need to be learned: להתחיל (to start), להחליט (to decide), להסביר (to explain), להזמין (to invite; to order), להרגיש (to feel)."
+      },
+      {
+        "h": "The forms: ה- / מ- / a- and a yod",
+        "body": "Hif'il is easy to spot:\n• past: ה- in front — הזמין (hizmín), הזמינה (hizmína), הזמינו (hizmínu)\n• present: מ- in front — מזמין (mazmín), מזמינה, מזמינים, מזמינות\n• future: the prefix vowel is a — אזמין (azmín), תזמין, יזמין (yazmín), נזמין\n• infinitive: להזמין (lehazmín)\n\nThe yod before the last root letter is the hif'il trademark. In the past it disappears before endings that start with a consonant: הזמנתי (hizmánti), הזמנו (hizmánu), הזמנתם — never הזמינתי. So הזמנו is 'we invited' and הזמינו is 'they invited'.",
+        "table": [
+          [
+            "Person",
+            "Past",
+            "Present",
+            "Future"
+          ],
+          [
+            "אני",
+            "הזמנתי",
+            "מזמין / מזמינה",
+            "אזמין"
+          ],
+          [
+            "אתה",
+            "הזמנת",
+            "מזמין",
+            "תזמין"
+          ],
+          [
+            "את",
+            "הזמנת",
+            "מזמינה",
+            "תזמיני"
+          ],
+          [
+            "הוא",
+            "הזמין",
+            "מזמין",
+            "יזמין"
+          ],
+          [
+            "היא",
+            "הזמינה",
+            "מזמינה",
+            "תזמין"
+          ],
+          [
+            "אנחנו",
+            "הזמנו",
+            "מזמינים / מזמינות",
+            "נזמין"
+          ],
+          [
+            "אתם / אתן",
+            "הזמנתם / הזמנתן",
+            "מזמינים / מזמינות",
+            "תזמינו"
+          ],
+          [
+            "הם / הן",
+            "הזמינו",
+            "מזמינים / מזמינות",
+            "יזמינו"
+          ]
+        ]
+      },
+      {
+        "h": "Everyday hif'il verbs",
+        "body": "Several of these are followed directly by an infinitive: להתחיל לעבוד (start working), להמשיך לדבר (keep talking), להחליט לבטל (decide to cancel), להצליח למצוא (manage to find), להפסיק לעשן (stop smoking).\n\nRemember that להזמין means both 'to invite' and 'to order': הזמנתי את כולם (I invited everyone), הזמנתי מונית (I ordered a taxi).",
+        "table": [
+          [
+            "Verb",
+            "Say it",
+            "Meaning",
+            "Past (he)"
+          ],
+          [
+            "להתחיל",
+            "lehatkhíl",
+            "to start, begin",
+            "התחיל"
+          ],
+          [
+            "להמשיך",
+            "lehamshíkh",
+            "to continue",
+            "המשיך"
+          ],
+          [
+            "להזמין",
+            "lehazmín",
+            "to invite; to order",
+            "הזמין"
+          ],
+          [
+            "להחליט",
+            "lehakhlít",
+            "to decide",
+            "החליט"
+          ],
+          [
+            "להסביר",
+            "lehasbír",
+            "to explain",
+            "הסביר"
+          ],
+          [
+            "להרגיש",
+            "lehargísh",
+            "to feel",
+            "הרגיש"
+          ],
+          [
+            "להשאיר",
+            "lehash'ír",
+            "to leave (something)",
+            "השאיר"
+          ],
+          [
+            "להפסיק",
+            "lehafsík",
+            "to stop",
+            "הפסיק"
+          ],
+          [
+            "להצליח",
+            "lehatslí'akh",
+            "to succeed",
+            "הצליח"
+          ],
+          [
+            "להשקיע",
+            "lehashkí'a",
+            "to invest",
+            "השקיע"
+          ],
+          [
+            "להדפיס",
+            "lehadpís",
+            "to print",
+            "הדפיס"
+          ]
+        ]
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "הישיבה ___ באיחור של רבע שעה. (להתחיל, עבר)",
+        "answer": [
+          "התחילה"
+        ],
+        "en": "The meeting started a quarter of an hour late.",
+        "hint": "past, היא",
+        "explain": "Hif'il past is ה- + root, and the 'she' form keeps the yod before the last letter: התחילה (hitkhíla)."
+      },
+      {
+        "prompt": "___ מונית לשמונה, אז תהיו מוכנים. (להזמין, אני, עבר)",
+        "answer": [
+          "הזמנתי",
+          "אני הזמנתי"
+        ],
+        "en": "I ordered a taxi for eight, so be ready.",
+        "hint": "past, אני — the yod drops",
+        "explain": "Before -תי the hif'il yod disappears: הזמנתי (hizmánti), not הזמינתי."
+      },
+      {
+        "prompt": "___ לעבוד על זה בשבוע הבא. (להמשיך, אנחנו, עתיד)",
+        "answer": [
+          "נמשיך",
+          "אנחנו נמשיך"
+        ],
+        "en": "We'll keep working on it next week.",
+        "hint": "future, אנחנו → נ-",
+        "explain": "Hif'il future: a prefix with a + the root with its yod: נמשיך (namshíkh)."
+      },
+      {
+        "prompt": "היא עדיין לא ___ אם לקבל את ההצעה. (להחליט)",
+        "answer": [
+          "החליטה"
+        ],
+        "en": "She still hasn't decided whether to accept the offer.",
+        "hint": "past, היא",
+        "explain": "Hif'il past + -ה, keeping the yod: החליטה (hekhlíta)."
+      },
+      {
+        "prompt": "הוא ___ לנו את התוכנית בפירוט. (להסביר, עבר)",
+        "answer": [
+          "הסביר"
+        ],
+        "en": "He explained the plan to us in detail.",
+        "hint": "past, הוא",
+        "explain": "The הוא form of the hif'il past is ה- + root with a yod before the last letter: הסביר (hisbír)."
+      },
+      {
+        "prompt": "יוסי לא ___ טוב היום, אז הוא עובד מהבית. (להרגיש, הווה)",
+        "answer": [
+          "מרגיש"
+        ],
+        "en": "Yossi isn't feeling well today, so he's working from home.",
+        "hint": "present: מ- + yod",
+        "explain": "Hif'il present is מ- + the root with its yod: מרגיש (margísh)."
+      },
+      {
+        "prompt": "מתי ___ את הפרויקט? (להתחיל, אתם, עתיד)",
+        "answer": [
+          "תתחילו",
+          "אתם תתחילו"
+        ],
+        "en": "When will you start the project?",
+        "hint": "future, אתם → ת-…-ו",
+        "explain": "Hif'il future for אתם keeps the yod: תתחילו (tatkhílu)."
+      },
+      {
+        "prompt": "החברה ___ השנה הרבה כסף בפיתוח מוצרים חדשים. (להשקיע, הווה)",
+        "answer": [
+          "משקיעה"
+        ],
+        "en": "This year the company is investing a lot of money in developing new products.",
+        "hint": "present, feminine",
+        "explain": "Hif'il present, feminine, to agree with חברה: משקיעה (mashkí'a); להשקיע takes ב."
+      },
+      {
+        "prompt": "___ לך את המפתח בקבלה. (להשאיר, אני, עתיד)",
+        "answer": [
+          "אשאיר",
+          "אני אשאיר"
+        ],
+        "en": "I'll leave the key for you at reception.",
+        "hint": "future, אני → א-",
+        "explain": "Hif'il future with אני: אשאיר (ash'ír)."
+      },
+      {
+        "prompt": "כולם ___ לדבר כשהמנכ״ל נכנס לחדר. (להפסיק, עבר)",
+        "answer": [
+          "הפסיקו"
+        ],
+        "en": "Everyone stopped talking when the CEO walked into the room.",
+        "hint": "past, they",
+        "explain": "Hif'il past + -ו, keeping the yod: הפסיקו (hifsíku)."
+      },
+      {
+        "prompt": "בזכות הצוות, ההשקה ___ מעבר לציפיות. (להצליח, עבר)",
+        "answer": [
+          "הצליחה"
+        ],
+        "en": "Thanks to the team, the launch was more successful than expected.",
+        "hint": "past, feminine",
+        "explain": "השקה (launch) is feminine, so the hif'il past takes -ה: הצליחה (hitslíkha)."
+      },
+      {
+        "prompt": "דנה תמיד ___ קפה הפוך ועוגייה. (להזמין, הווה)",
+        "answer": [
+          "מזמינה"
+        ],
+        "en": "Dana always orders a latte and a cookie.",
+        "hint": "present, feminine",
+        "explain": "Hif'il present, feminine: מזמינה (mazmína) — here להזמין means 'to order'."
+      }
+    ]
+  },
+  {
+    "id": "g_hitpael",
+    "level": "B1",
+    "title": "Hitpa'el: to yourself and to each other",
+    "titleHe": "בניין התפעל",
+    "summary": "Reflexive, reciprocal and 'getting into a state' verbs — plus the letter swap in להשתמש, להסתדר and להצטרף.",
+    "sections": [
+      {
+        "h": "What hitpa'el means",
+        "body": "Hitpa'el verbs usually describe something you do to yourself, something people do to each other, or a change you go through:\n• reflexive: להתלבש (to get dressed), להתארגן (to get yourself organised)\n• reciprocal: להתכתב (to correspond), להתווכח (to argue), להתראות (to see each other — hence להתראות, 'see you')\n• change of state: להתרגש (to get excited), להתעייף (to get tired), להשתפר (to improve, get better)\n\nAnd many common verbs simply live here: להתקשר (to call), להתנצל (to apologise), להתכונן (to prepare), להתעניין (to be interested)."
+      },
+      {
+        "h": "The forms: הת- / מת- / ית-",
+        "body": "Hitpa'el keeps its ת in every tense:\n• past: הת- — התקשרתי (hitkashárti), התקשר (hitkashér), התקשרה (hitkashrá)\n• present: מת- — מתקשר (mitkashér), מתקשרת (mitkashéret), מתקשרים (mitkashrím)\n• future: את-, תת-, ית-, נת- — אתקשר (etkashér), יתקשר (yitkashér), נתקשר (nitkashér)\n• infinitive: להתקשר (lehitkashér)",
+        "table": [
+          [
+            "Person",
+            "Past",
+            "Present",
+            "Future"
+          ],
+          [
+            "אני",
+            "התקשרתי",
+            "מתקשר / מתקשרת",
+            "אתקשר"
+          ],
+          [
+            "אתה",
+            "התקשרת",
+            "מתקשר",
+            "תתקשר"
+          ],
+          [
+            "את",
+            "התקשרת",
+            "מתקשרת",
+            "תתקשרי"
+          ],
+          [
+            "הוא",
+            "התקשר",
+            "מתקשר",
+            "יתקשר"
+          ],
+          [
+            "היא",
+            "התקשרה",
+            "מתקשרת",
+            "תתקשר"
+          ],
+          [
+            "אנחנו",
+            "התקשרנו",
+            "מתקשרים / מתקשרות",
+            "נתקשר"
+          ],
+          [
+            "אתם / אתן",
+            "התקשרתם / התקשרתן",
+            "מתקשרים / מתקשרות",
+            "תתקשרו"
+          ],
+          [
+            "הם / הן",
+            "התקשרו",
+            "מתקשרים / מתקשרות",
+            "יתקשרו"
+          ]
+        ]
+      },
+      {
+        "h": "The letter swap: להשתמש, להסתדר, להצטרף",
+        "body": "When a root starts with ס, ש or צ, the ת of hitpa'el swaps places with that letter — it's simply easier to say:\n• ש.מ.ש: not להתשמש but להשתמש (lehishtamésh, to use)\n• ס.ד.ר: not להתסדר but להסתדר (lehistadér, to manage, work out)\n• after צ the ת also turns into ט: צ.ר.ף → להצטרף (lehitstaréf, to join)\n• after ז it turns into ד: ז.מ.ן → להזדמן (lehizdamén, to get the chance, happen to)\n\nThe swap happens in every tense: השתמשתי, משתמש, אשתמש; הצטרפה, מצטרף, נצטרף.",
+        "table": [
+          [
+            "Root",
+            "Verb",
+            "Say it",
+            "Meaning"
+          ],
+          [
+            "ש.מ.ש",
+            "להשתמש ב",
+            "lehishtamésh",
+            "to use"
+          ],
+          [
+            "ס.ד.ר",
+            "להסתדר",
+            "lehistadér",
+            "to manage, get by, work out"
+          ],
+          [
+            "צ.ר.ף",
+            "להצטרף ל",
+            "lehitstaréf",
+            "to join"
+          ],
+          [
+            "ש.ת.ף",
+            "להשתתף ב",
+            "lehishtatéf",
+            "to take part in"
+          ],
+          [
+            "ס.כ.ל",
+            "להסתכל על",
+            "lehistakél",
+            "to look at"
+          ],
+          [
+            "ש.פ.ר",
+            "להשתפר",
+            "lehishtapér",
+            "to improve, get better"
+          ],
+          [
+            "ס.י.ם",
+            "להסתיים",
+            "lehistayém",
+            "to end, finish"
+          ],
+          [
+            "ז.מ.ן",
+            "להזדמן",
+            "lehizdamén",
+            "to get the chance, happen to"
+          ]
+        ]
+      },
+      {
+        "h": "Learn the preposition with the verb",
+        "body": "Hitpa'el verbs often come with a fixed preposition, and English won't help you guess it:\n• להתקשר ל — התקשרתי ללקוח (I called the client)\n• להשתמש ב — אני משתמשת באקסל (I use Excel)\n• להצטרף ל — הוא הצטרף לצוות (he joined the team)\n• להשתתף ב — נשתתף בכנס (we'll take part in the conference)\n• להתכונן ל — היא מתכוננת לראיון (she's preparing for the interview)\n• להתייעץ עם — התייעצתי עם עורכת הדין (I consulted the lawyer)\n• להתעניין ב — הוא מתעניין בשיווק (he's interested in marketing)\n• להתרגל ל — התרגלתי לעבודה החדשה (I've got used to the new job)\n• להתנצל על — אני מתנצל על העיכוב (I apologise for the delay)"
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "___ אלייך אחרי הישיבה, בסדר? (להתקשר, אני, עתיד)",
+        "answer": [
+          "אתקשר",
+          "אני אתקשר"
+        ],
+        "en": "I'll call you after the meeting, OK?",
+        "hint": "future, אני → את-",
+        "explain": "Hitpa'el future with אני starts with את-: אתקשר (etkashér)."
+      },
+      {
+        "prompt": "באיזו תוכנה אתם ___ לניהול הפרויקטים? (להשתמש, הווה)",
+        "answer": [
+          "משתמשים"
+        ],
+        "en": "Which software do you use to manage your projects?",
+        "hint": "present, plural — watch the swap",
+        "explain": "ש.מ.ש swaps with the ת: משתמשים (mishtamshím), not מתשמשים."
+      },
+      {
+        "prompt": "שירה ___ לצוות שלנו בחודש שעבר. (להצטרף)",
+        "answer": [
+          "הצטרפה"
+        ],
+        "en": "Shira joined our team last month.",
+        "hint": "past, היא — צ + ט",
+        "explain": "After צ the ת swaps places and becomes ט: הצטרפה (hitstarfá)."
+      },
+      {
+        "prompt": "אל תדאג, אני ___ לבד. (להסתדר, עתיד)",
+        "answer": [
+          "אסתדר"
+        ],
+        "en": "Don't worry, I'll manage on my own.",
+        "hint": "future, אני — ס swaps",
+        "explain": "ס.ד.ר swaps with the ת in every tense: אסתדר (estadér)."
+      },
+      {
+        "prompt": "כמה אנשים ___ בכנס אתמול? (להשתתף, עבר)",
+        "answer": [
+          "השתתפו"
+        ],
+        "en": "How many people took part in the conference yesterday?",
+        "hint": "past, plural",
+        "explain": "ש.ת.ף swaps with the ת: השתתפו (hishtatfú)."
+      },
+      {
+        "prompt": "הנהג ___ על העיכוב ואמר שהיה פקק ענק. (להתנצל, עבר)",
+        "answer": [
+          "התנצל"
+        ],
+        "en": "The driver apologised for the delay and said there had been a huge traffic jam.",
+        "hint": "past, הוא",
+        "explain": "Hitpa'el past for הוא: התנצל (hitnatsél); להתנצל takes על."
+      },
+      {
+        "prompt": "היא ___ לראיון כל השבוע. (להתכונן, עבר)",
+        "answer": [
+          "התכוננה"
+        ],
+        "en": "She prepared for the interview all week.",
+        "hint": "past, היא",
+        "explain": "Hitpa'el past + -ה: התכוננה (hitkonená)."
+      },
+      {
+        "prompt": "לפני שאתם חותמים, ___ עם עורך דין. (להתייעץ, אתם)",
+        "answer": [
+          "תתייעצו",
+          "התייעצו"
+        ],
+        "en": "Before you sign, consult a lawyer.",
+        "hint": "a polite command",
+        "explain": "In speech the command is the future form תתייעצו (titya'atsú); the formal imperative is התייעצו."
+      },
+      {
+        "prompt": "___ על הגרף הזה — המכירות עלו! (להסתכל, אתה)",
+        "answer": [
+          "תסתכל",
+          "הסתכל"
+        ],
+        "en": "Look at this graph — sales went up!",
+        "hint": "a command; ס swaps",
+        "explain": "In speech the command is the future form תסתכל (tistakél); the formal imperative is הסתכל."
+      },
+      {
+        "prompt": "אחרי חודש כבר ___ לנסיעות הארוכות לעבודה. (להתרגל, אני)",
+        "answer": [
+          "התרגלתי"
+        ],
+        "en": "After a month I had already got used to the long commute.",
+        "hint": "past, אני",
+        "explain": "Hitpa'el past + -תי: התרגלתי (hitragálti); להתרגל takes ל."
+      },
+      {
+        "prompt": "השירות ___ מאוד מאז שהחלפנו ספק. (להשתפר, עבר)",
+        "answer": [
+          "השתפר"
+        ],
+        "en": "The service has improved a lot since we switched suppliers.",
+        "hint": "past, הוא — ש swaps",
+        "explain": "ש.פ.ר swaps with the ת: השתפר (hishtapér)."
+      },
+      {
+        "prompt": "הישיבה ___ מוקדם מהצפוי. (להסתיים, עבר)",
+        "answer": [
+          "הסתיימה"
+        ],
+        "en": "The meeting ended earlier than expected.",
+        "hint": "past, היא — ס swaps",
+        "explain": "ס.י.ם swaps with the ת, and ישיבה is feminine: הסתיימה (histaymá)."
+      }
+    ]
+  },
+  {
+    "id": "g_nifal",
+    "level": "B1",
+    "title": "Nif'al: passive and 'it happened'",
+    "titleHe": "בניין נפעל",
+    "summary": "The passive partner of pa'al and the home of everyday verbs like להיכנס and להיפגש: נ- in the past and present, an extra yod in the future.",
+    "sections": [
+      {
+        "h": "What nif'al does",
+        "body": "Nif'al is mostly the passive or 'it happened by itself' version of pa'al:\n• סגרנו את החנות (we closed the store) → החנות נסגרה (the store closed / was closed)\n• מישהו כתב את הדוח (someone wrote the report) → הדוח נכתב (the report was written)\n• פתחתי את הדלת (I opened the door) → הדלת נפתחה (the door opened)\n\nIt is also home to everyday verbs that don't feel passive at all: להיכנס (to enter), להיפגש (to meet up), להישאר (to stay), להירשם (to sign up), להיזהר (to be careful), להירדם (to fall asleep)."
+      },
+      {
+        "h": "The forms: נ- / נ- / יי-",
+        "body": "• past: נ- in front — נכנסתי (nikhnásti), נכנס (nikhnás), נכנסה (nikhnesá)\n• present: also נ- — נכנס, נכנסת (nikhnéset), נכנסים, נכנסות. The הוא past and the masculine present look and sound the same: הוא נכנס = he entered / he enters.\n• future: the first root letter is doubled, and full spelling shows this as a yod after the prefix — איכנס (ikanés), תיכנס, ייכנס (yikanés), ניכנס (nikanés)\n• infinitive: להי- — להיכנס (lehikanés), להיפגש (lehipagésh)\n\nWatch that yod: ניפגש (nipagésh) is 'we'll meet', while נפגש (nifgásh) is 'met' or 'meets'.",
+        "table": [
+          [
+            "Person",
+            "Past",
+            "Present",
+            "Future"
+          ],
+          [
+            "אני",
+            "נכנסתי",
+            "נכנס / נכנסת",
+            "איכנס"
+          ],
+          [
+            "אתה",
+            "נכנסת",
+            "נכנס",
+            "תיכנס"
+          ],
+          [
+            "את",
+            "נכנסת",
+            "נכנסת",
+            "תיכנסי"
+          ],
+          [
+            "הוא",
+            "נכנס",
+            "נכנס",
+            "ייכנס"
+          ],
+          [
+            "היא",
+            "נכנסה",
+            "נכנסת",
+            "תיכנס"
+          ],
+          [
+            "אנחנו",
+            "נכנסנו",
+            "נכנסים / נכנסות",
+            "ניכנס"
+          ],
+          [
+            "אתם / אתן",
+            "נכנסתם / נכנסתן",
+            "נכנסים / נכנסות",
+            "תיכנסו"
+          ],
+          [
+            "הם / הן",
+            "נכנסו",
+            "נכנסים / נכנסות",
+            "ייכנסו"
+          ]
+        ]
+      },
+      {
+        "h": "Everyday nif'al verbs",
+        "body": "When the first root letter is א, ה, ח, ע or ר it can't be doubled, so you hear e instead of i — but the yod is still written: להירשם (leherashém), יירשם (yerashém), להיראות (leheraót).\n\nלהיפגש עם means 'to meet with' (by arrangement), and לפגוש את (pa'al) is 'to meet someone': נפגשתי עם הספק and פגשתי את הספק both mean 'I met the supplier'. Just don't mix the two up (avoid פגשתי עם).",
+        "table": [
+          [
+            "Verb",
+            "Say it",
+            "Meaning",
+            "Past (he)"
+          ],
+          [
+            "להיכנס ל",
+            "lehikanés",
+            "to enter, go in",
+            "נכנס"
+          ],
+          [
+            "להיפגש עם",
+            "lehipagésh",
+            "to meet (with)",
+            "נפגש"
+          ],
+          [
+            "להישאר",
+            "lehisha'ér",
+            "to stay, remain",
+            "נשאר"
+          ],
+          [
+            "להירשם ל",
+            "leherashém",
+            "to sign up, register",
+            "נרשם"
+          ],
+          [
+            "להיזהר",
+            "lehizahér",
+            "to be careful",
+            "נזהר"
+          ],
+          [
+            "להיגמר",
+            "lehigamér",
+            "to end, run out",
+            "נגמר"
+          ],
+          [
+            "להיראות",
+            "leheraót",
+            "to look, seem",
+            "נראה"
+          ],
+          [
+            "להיפתח",
+            "lehipatákh",
+            "to open (by itself)",
+            "נפתח"
+          ],
+          [
+            "להיכשל",
+            "lehikashél",
+            "to fail",
+            "נכשל"
+          ],
+          [
+            "להירדם",
+            "leheradém",
+            "to fall asleep",
+            "נרדם"
+          ]
+        ]
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "___ למשרד ותחכה לי שם, אני מגיע בעוד חמש דקות. (להיכנס, אתה, עתיד)",
+        "answer": [
+          "תיכנס",
+          "אתה תיכנס"
+        ],
+        "en": "Go into the office and wait for me there; I'll be there in five minutes.",
+        "hint": "future as a polite command — don't forget the yod",
+        "explain": "Nif'al future: prefix + yod for the doubled first letter — תיכנס (tikanés)."
+      },
+      {
+        "prompt": "___ מחר בעשר כדי לעבור על החוזה. (להיפגש, אנחנו, עתיד)",
+        "answer": [
+          "ניפגש",
+          "אנחנו ניפגש"
+        ],
+        "en": "We'll meet tomorrow at ten to go over the contract.",
+        "hint": "future, אנחנו",
+        "explain": "Nif'al future with נ- + yod: ניפגש (nipagésh); without the yod, נפגש means 'met'."
+      },
+      {
+        "prompt": "אתמול הוא ___ במשרד עד מאוחר. (להישאר)",
+        "answer": [
+          "נשאר"
+        ],
+        "en": "Yesterday he stayed at the office until late.",
+        "hint": "past, הוא: נ-",
+        "explain": "Nif'al past starts with נ-: נשאר (nish'ár)."
+      },
+      {
+        "prompt": "כבר ___ לקורס האקסל? (להירשם, את)",
+        "answer": [
+          "נרשמת"
+        ],
+        "en": "Have you already signed up for the Excel course?",
+        "hint": "past, את → -ת",
+        "explain": "Nif'al past + -ת: נרשמת (nirshámt)."
+      },
+      {
+        "prompt": "החלב ___, צריך לקנות עוד. (להיגמר, עבר)",
+        "answer": [
+          "נגמר"
+        ],
+        "en": "The milk has run out; we need to buy more.",
+        "hint": "past, הוא",
+        "explain": "נגמר (nigmár) is nif'al: the milk 'got finished' — nobody is doing anything to it."
+      },
+      {
+        "prompt": "ההצעה שלך ___ לי מעניינת מאוד. (להיראות, הווה)",
+        "answer": [
+          "נראית"
+        ],
+        "en": "Your proposal looks very interesting to me.",
+        "hint": "present, feminine",
+        "explain": "Nif'al present, feminine, to agree with הצעה: נראית (nir'ét)."
+      },
+      {
+        "prompt": "הסניף החדש ___ ביום שני בתשע בבוקר. (להיפתח, עתיד)",
+        "answer": [
+          "ייפתח"
+        ],
+        "en": "The new branch will open on Monday at nine in the morning.",
+        "hint": "future, הוא → יי-",
+        "explain": "The הוא future of nif'al shows two yods, the prefix and the doubled letter: ייפתח (yipatákh)."
+      },
+      {
+        "prompt": "כל הכרטיסים ___ תוך שעה. (להימכר, עבר)",
+        "answer": [
+          "נמכרו"
+        ],
+        "en": "All the tickets were sold within an hour.",
+        "hint": "past, plural",
+        "explain": "Nif'al is the passive of למכור: נמכרו (nimkerú), 'were sold'."
+      },
+      {
+        "prompt": "הדוח ___ על ידי צוות של שלושה אנשים. (להיכתב, עבר)",
+        "answer": [
+          "נכתב"
+        ],
+        "en": "The report was written by a team of three people.",
+        "hint": "past, passive",
+        "explain": "Nif'al past is the passive of כתב: נכתב (nikhtáv); 'by' is על ידי."
+      },
+      {
+        "prompt": "___ בדרך, הכביש רטוב. (להיזהר, אתם)",
+        "answer": [
+          "תיזהרו",
+          "היזהרו"
+        ],
+        "en": "Be careful on the way — the road is wet.",
+        "hint": "a command — with the yod",
+        "explain": "In speech the command is the future תיזהרו (tizaharú); the formal imperative is היזהרו."
+      },
+      {
+        "prompt": "המנכ״ל ___ עם המשקיעים ביום חמישי. (להיפגש, עתיד)",
+        "answer": [
+          "ייפגש"
+        ],
+        "en": "The CEO will meet with the investors on Thursday.",
+        "hint": "future, הוא → יי-",
+        "explain": "Nif'al future for הוא: ייפגש (yipagésh) — the prefix yod plus the yod of the doubled letter."
+      },
+      {
+        "prompt": "הוא ___ במבחן הראשון, אבל עבר את השני. (להיכשל)",
+        "answer": [
+          "נכשל"
+        ],
+        "en": "He failed the first test but passed the second.",
+        "hint": "past, הוא",
+        "explain": "Nif'al past: נכשל (nikhshál); 'to fail at' is להיכשל ב."
+      }
+    ]
+  },
+  {
+    "id": "g_weak_roots",
+    "level": "B1",
+    "title": "Weak roots: the 'irregular' verbs",
+    "titleHe": "גזרות: ל״ה, ע״ו, פ״נ, פ״י",
+    "summary": "Four root families lose or change a letter; recognise the family and the 'irregular' verb becomes predictable.",
+    "sections": [
+      {
+        "h": "ל״ה: roots ending in ה (לקנות, לעשות)",
+        "body": "Many common roots end in a ה that is really just a vowel: ק.נ.ה (buy), ע.ש.ה (do), ר.צ.ה (want), ש.ת.ה (drink), ע.ל.ה (go up; cost), ר.א.ה (see). Their signs:\n• the infinitive ends in -ות: לקנות, לעשות, לרצות\n• in the past the ה turns into י before endings — קניתי (kaníti), קנינו — and into ת for היא: קנתה (kantá)\n• present m. and f. singular are spelled the same: קונה is koné (m) or koná (f)\n• the future ends in ה (אקנה, ekné; יקנה) but drops it before an ending: תקני, יקנו\n\nThe same family exists in other binyanim: לחכות → חיכיתי, לנסות → ניסיתי, לשנות → שיניתי (pi'el), and להיות → הייתי.",
+        "table": [
+          [
+            "Form",
+            "לקנות (to buy)",
+            "לעשות (to do)"
+          ],
+          [
+            "past, אני",
+            "קניתי",
+            "עשיתי"
+          ],
+          [
+            "past, הוא",
+            "קנה",
+            "עשה"
+          ],
+          [
+            "past, היא",
+            "קנתה",
+            "עשתה"
+          ],
+          [
+            "past, הם",
+            "קנו",
+            "עשו"
+          ],
+          [
+            "present, m. / f.",
+            "קונה / קונה",
+            "עושה / עושה"
+          ],
+          [
+            "present, pl.",
+            "קונים / קונות",
+            "עושים / עושות"
+          ],
+          [
+            "future, אני",
+            "אקנה",
+            "אעשה"
+          ],
+          [
+            "future, הוא",
+            "יקנה",
+            "יעשה"
+          ],
+          [
+            "future, הם",
+            "יקנו",
+            "יעשו"
+          ]
+        ]
+      },
+      {
+        "h": "ע״ו: a hidden middle ו (לקום, לגור, לשים)",
+        "body": "In roots like ק.ו.ם (get up), ג.ו.ר (live), ב.ו.א (come), ר.ו.ץ (run) and ש.י.ם (put — with a י), the middle letter appears only in the infinitive and the future: לקום, אקום (akúm); לשים, אשים (asím). In the past and present the verb shrinks to two letters: קמתי, גר, שמה.\n\n• הוא גר means both 'he lives' and 'he lived' — context decides.\n• היא קמה is káma (she got up) or kamá (she gets up): only the stress is different.",
+        "table": [
+          [
+            "Form",
+            "לקום (get up)",
+            "לגור (live)",
+            "לשים (put)"
+          ],
+          [
+            "past, אני",
+            "קמתי",
+            "גרתי",
+            "שמתי"
+          ],
+          [
+            "past, הוא",
+            "קם",
+            "גר",
+            "שם"
+          ],
+          [
+            "past, היא",
+            "קמה",
+            "גרה",
+            "שמה"
+          ],
+          [
+            "present, m. / f.",
+            "קם / קמה",
+            "גר / גרה",
+            "שם / שמה"
+          ],
+          [
+            "present, pl.",
+            "קמים / קמות",
+            "גרים / גרות",
+            "שמים / שמות"
+          ],
+          [
+            "future, אני",
+            "אקום",
+            "אגור",
+            "אשים"
+          ],
+          [
+            "future, הוא",
+            "יקום",
+            "יגור",
+            "ישים"
+          ]
+        ]
+      },
+      {
+        "h": "פ״נ: a first נ that disappears (לנסוע, לתת, להגיע)",
+        "body": "When a root starts with נ — נ.ס.ע (travel), נ.ת.ן (give), נ.פ.ל (fall), נ.ג.ע (touch, reach) — the נ often vanishes and the next letter is doubled instead. You see this in the future: אסע (esá), ייסע (yisá), אתן (etén), ייתן (yitén). In full spelling the doubling shows up as a yod after the prefix (except after א), just as in nif'al.\n\n• Some infinitives keep the נ (לנסוע), others lose it (לתת, ליפול).\n• In hif'il the נ is gone everywhere: להגיע (lehagí'a), הגעתי, מגיע, אגיע — and להכיר (to know someone), from נ.כ.ר.\n• לתת is extra short: the root's ן merges with the past ending — נתתי (natáti).",
+        "table": [
+          [
+            "Form",
+            "לנסוע (travel)",
+            "לתת (give)",
+            "להגיע (arrive)"
+          ],
+          [
+            "past, אני",
+            "נסעתי",
+            "נתתי",
+            "הגעתי"
+          ],
+          [
+            "past, הוא",
+            "נסע",
+            "נתן",
+            "הגיע"
+          ],
+          [
+            "present, m. / f.",
+            "נוסע / נוסעת",
+            "נותן / נותנת",
+            "מגיע / מגיעה"
+          ],
+          [
+            "future, אני",
+            "אסע",
+            "אתן",
+            "אגיע"
+          ],
+          [
+            "future, אתה / היא",
+            "תיסע",
+            "תיתן",
+            "תגיע"
+          ],
+          [
+            "future, הוא",
+            "ייסע",
+            "ייתן",
+            "יגיע"
+          ],
+          [
+            "future, אנחנו",
+            "ניסע",
+            "ניתן",
+            "נגיע"
+          ]
+        ]
+      },
+      {
+        "h": "פ״י: a first י that hides (לשבת, לצאת, לדעת)",
+        "body": "Roots that start with י — י.ש.ב (sit), י.צ.א (go out), י.ד.ע (know), י.ר.ד (go down) — keep the י in the past and present (ישבתי, יושב, יוצאת, יודעים) but lose it in the future and the infinitive: אשב (eshév), אצא (etsé), אדע (edá); לשבת, לצאת, לדעת, לרדת. Many of these infinitives end in -ת.\n\n• Past and future הוא forms can be spelled the same: ישב is yasháv (he sat) or yeshév (he will sit); יצא is yatsá or yetsé. Context decides.\n• In hif'il the י becomes ו: להוריד (to take down; to download), להוציא (to take out; to spend), להודיע (to announce, notify), להוסיף (to add).",
+        "table": [
+          [
+            "Form",
+            "לשבת (sit)",
+            "לצאת (go out)",
+            "לדעת (know)"
+          ],
+          [
+            "past, אני",
+            "ישבתי",
+            "יצאתי",
+            "ידעתי"
+          ],
+          [
+            "past, הוא",
+            "ישב",
+            "יצא",
+            "ידע"
+          ],
+          [
+            "present, m. / f.",
+            "יושב / יושבת",
+            "יוצא / יוצאת",
+            "יודע / יודעת"
+          ],
+          [
+            "future, אני",
+            "אשב",
+            "אצא",
+            "אדע"
+          ],
+          [
+            "future, הוא",
+            "ישב",
+            "יצא",
+            "ידע"
+          ],
+          [
+            "future, אנחנו",
+            "נשב",
+            "נצא",
+            "נדע"
+          ],
+          [
+            "infinitive",
+            "לשבת",
+            "לצאת",
+            "לדעת"
+          ]
+        ]
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "אתמול ___ מחשב נייד חדש לעבודה. (לקנות, אני)",
+        "answer": [
+          "קניתי",
+          "אני קניתי"
+        ],
+        "en": "Yesterday I bought a new laptop for work.",
+        "hint": "ל״ה: ה → י before -תי",
+        "explain": "In ל״ה verbs the final ה becomes י before past endings: קניתי (kaníti)."
+      },
+      {
+        "prompt": "מה אתם ___ בסוף השבוע? (לעשות, עתיד)",
+        "answer": [
+          "תעשו"
+        ],
+        "en": "What will you do on the weekend?",
+        "hint": "ל״ה future, אתם",
+        "explain": "The future's final ה drops before the ending -ו: תעשו (ta'asú)."
+      },
+      {
+        "prompt": "היא ___ שעה שלמה לטכנאי. (לחכות, עבר)",
+        "answer": [
+          "חיכתה"
+        ],
+        "en": "She waited a whole hour for the technician.",
+        "hint": "ל״ה, היא → -תה",
+        "explain": "ל״ה verbs take -תה for היא: חיכתה (khikhtá) — pi'el, so there's also a yod."
+      },
+      {
+        "prompt": "באיזו שעה אתה ___ בבוקר? (לקום, הווה)",
+        "answer": [
+          "קם"
+        ],
+        "en": "What time do you get up in the morning?",
+        "hint": "ע״ו present: two letters",
+        "explain": "ע״ו verbs lose their middle ו in the present: קם (kam)."
+      },
+      {
+        "prompt": "אנחנו ___ בתל אביב כבר חמש שנים. (לגור, הווה)",
+        "answer": [
+          "גרים",
+          "גרות"
+        ],
+        "en": "We've been living in Tel Aviv for five years.",
+        "hint": "ע״ו present, plural",
+        "explain": "The present of לגור is גר, גרה, גרים, גרות; Hebrew uses the present with כבר for 'have been … for'."
+      },
+      {
+        "prompt": "איפה ___ את המפתחות של הרכב? (לשים, אתה, עבר)",
+        "answer": [
+          "שמת"
+        ],
+        "en": "Where did you put the car keys?",
+        "hint": "past: two letters + ending",
+        "explain": "The middle י disappears in the past: שמת (sámta)."
+      },
+      {
+        "prompt": "מחר ___ לחיפה לפגישה עם לקוח. (לנסוע, אני, עתיד)",
+        "answer": [
+          "אסע",
+          "אני אסע"
+        ],
+        "en": "Tomorrow I'm going to Haifa for a meeting with a client.",
+        "hint": "פ״נ: the נ drops in the future",
+        "explain": "The first נ of נ.ס.ע vanishes in the future: אסע (esá)."
+      },
+      {
+        "prompt": "___ לך תשובה עד סוף היום. (לתת, אני, עתיד)",
+        "answer": [
+          "אתן",
+          "אני אתן"
+        ],
+        "en": "I'll give you an answer by the end of the day.",
+        "hint": "פ״נ future, אני",
+        "explain": "The נ of נ.ת.ן drops in the future: אתן (etén)."
+      },
+      {
+        "prompt": "החבילה ___ אתמול בצהריים. (להגיע, עבר)",
+        "answer": [
+          "הגיעה"
+        ],
+        "en": "The package arrived yesterday at noon.",
+        "hint": "hif'il of נ.ג.ע, היא",
+        "explain": "In hif'il the נ of נ.ג.ע is gone everywhere: הגיעה, with -ה because חבילה is feminine."
+      },
+      {
+        "prompt": "___ מהמשרד בחמש, אז נדבר בדרך. (לצאת, אני, עתיד)",
+        "answer": [
+          "אצא",
+          "אני אצא"
+        ],
+        "en": "I'll leave the office at five, so we'll talk on the way.",
+        "hint": "פ״י: the י drops in the future",
+        "explain": "The first י of י.צ.א vanishes in the future: אצא (etsé)."
+      },
+      {
+        "prompt": "לא ___ שהישיבה בוטלה. (לדעת, אני, עבר)",
+        "answer": [
+          "ידעתי"
+        ],
+        "en": "I didn't know the meeting had been cancelled.",
+        "hint": "פ״י past keeps the י",
+        "explain": "פ״י verbs keep their י in the past: ידעתי (yadáti)."
+      },
+      {
+        "prompt": "בואו ___ רגע ונעבור על התוכנית. (לשבת, אנחנו, עתיד)",
+        "answer": [
+          "נשב"
+        ],
+        "en": "Let's sit down for a moment and go over the plan.",
+        "hint": "פ״י future, אנחנו",
+        "explain": "The י disappears in the future: נשב (neshév); בואו + future means 'let's'."
+      }
+    ]
+  },
+  {
+    "id": "g_et_pronouns",
+    "level": "A2+",
+    "title": "את and אותי, אותך, אותו",
+    "titleHe": "את, אותי, אותך",
+    "summary": "Hebrew marks a definite direct object with את; with a pronoun it becomes אותי, אותך, אותו… — and many verbs don't take it at all.",
+    "sections": [
+      {
+        "h": "את marks a definite direct object",
+        "body": "את has no English translation. It stands before the direct object of a verb — the thing or person the action is done to — when that object is definite:\n• a noun with ה: ראיתי את ההודעה (I saw the message)\n• a name: פגשתי את דנה\n• a noun with שלי / שלך or a possessive ending: שלחתי את הדוח שלי; פגשתי את אשתו\n• זה, and phrases with כל ה-: תעשה את זה; קראתי את כל המיילים\n• 'whom' in a question: את מי פגשת?\n\nCompare: קניתי מחשב (I bought a computer) — but קניתי את המחשב שראינו (I bought the computer we saw)."
+      },
+      {
+        "h": "When NOT to use את",
+        "body": "• The object is indefinite: יש לי שאלה; קיבלתי הצעה טובה — no את.\n• The verb takes a different preposition. Learn each verb together with its preposition: לעזור ל (עזרתי לדנה), לחכות ל, להתקשר ל, לדבר עם, להשתמש ב, לטפל ב, לחתום על, להסתכל על.\n• The definite noun is the subject, not the object: הדוח מוכן; הפגישה נדחתה.\n• After יש and אין, careful Hebrew uses no את, although in everyday speech you'll often hear it: יש לך את המספר שלו?\n\nThe reverse also happens: some verbs that need a preposition in English take את in Hebrew — לשאול את (to ask someone), לבקר את (to visit), לחפש את (to look for)."
+      },
+      {
+        "h": "אותי, אותך, אותו: את with pronouns",
+        "body": "A pronoun can't follow את (✗ את הוא). Instead את takes an ending, and its vowel changes to o: אותי (me), אותו (him, it). For אתם and אתן the standard forms are אתכם and אתכן (etkhém, etkhén); in speech many people say אותכם.\n\nאותו, אותה, אותם and אותן also mean 'it' and 'them' for things, following the noun's gender: הדוח? שלחתי אותו. המצגת? שלחתי אותה.\n\nBonus: אותו also means 'the same': אותו דבר (the same thing), באותו יום (on the same day).",
+        "table": [
+          [
+            "Pronoun",
+            "Object form",
+            "Say it",
+            "Example"
+          ],
+          [
+            "אני",
+            "אותי",
+            "otí",
+            "הוא מכיר אותי"
+          ],
+          [
+            "אתה",
+            "אותך",
+            "otkhá",
+            "אני אעדכן אותך"
+          ],
+          [
+            "את",
+            "אותך",
+            "otákh",
+            "ראיתי אותך אתמול"
+          ],
+          [
+            "הוא",
+            "אותו",
+            "otó",
+            "שלחתי אותו"
+          ],
+          [
+            "היא",
+            "אותה",
+            "otá",
+            "אני אוהב אותה"
+          ],
+          [
+            "אנחנו",
+            "אותנו",
+            "otánu",
+            "הם הזמינו אותנו"
+          ],
+          [
+            "אתם",
+            "אתכם",
+            "etkhém",
+            "נעדכן אתכם"
+          ],
+          [
+            "אתן",
+            "אתכן",
+            "etkhén",
+            "ראיתי אתכן בכנס"
+          ],
+          [
+            "הם",
+            "אותם",
+            "otám",
+            "פגשתי אותם"
+          ],
+          [
+            "הן",
+            "אותן",
+            "otán",
+            "הזמנתי אותן"
+          ]
+        ]
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "ראיתי ___ ההודעה שלך רק עכשיו, סליחה. (את / עם)",
+        "answer": [
+          "את"
+        ],
+        "en": "I've only just seen your message, sorry.",
+        "hint": "a definite direct object",
+        "explain": "ההודעה is definite (ה) and it's the direct object, so it takes את."
+      },
+      {
+        "prompt": "דיברתי ___ הספק על המחיר החדש. (את / עם)",
+        "answer": [
+          "עם"
+        ],
+        "en": "I talked with the supplier about the new price.",
+        "hint": "which preposition goes with לדבר?",
+        "explain": "לדבר takes עם, never את."
+      },
+      {
+        "prompt": "חתמתי ___ החוזה הבוקר. (את / על)",
+        "answer": [
+          "על"
+        ],
+        "en": "I signed the contract this morning.",
+        "hint": "לחתום + ?",
+        "explain": "לחתום takes על: חתמתי על החוזה — not את."
+      },
+      {
+        "prompt": "אני מחכה ___ כבר חצי שעה. (הוא)",
+        "answer": [
+          "לו"
+        ],
+        "en": "I've been waiting for him for half an hour.",
+        "hint": "לחכות takes ל",
+        "explain": "לחכות takes ל, so 'for him' is לו, not אותו."
+      },
+      {
+        "prompt": "אתה זוכר ___? למדנו יחד באוניברסיטה. (אני)",
+        "answer": [
+          "אותי"
+        ],
+        "en": "Do you remember me? We studied together at university.",
+        "hint": "את + אני",
+        "explain": "לזכור takes את, and את + אני = אותי (otí)."
+      },
+      {
+        "prompt": "המנכ״ל רוצה לפגוש ___ מחר בבוקר. (אתה)",
+        "answer": [
+          "אותך"
+        ],
+        "en": "The CEO wants to meet you tomorrow morning.",
+        "hint": "את + אתה",
+        "explain": "לפגוש takes את, and את + אתה = אותך (otkhá)."
+      },
+      {
+        "prompt": "שלחתי לך את החוזה. קיבלת ___? (הוא)",
+        "answer": [
+          "אותו"
+        ],
+        "en": "I sent you the contract. Did you get it?",
+        "hint": "'it' for a masculine noun",
+        "explain": "חוזה is masculine, so 'it' is אותו (otó)."
+      },
+      {
+        "prompt": "דנה בחופש השבוע, אז אני מחליף ___ בישיבות. (היא)",
+        "answer": [
+          "אותה"
+        ],
+        "en": "Dana is on vacation this week, so I'm standing in for her at the meetings.",
+        "hint": "את + היא",
+        "explain": "להחליף takes את: אני מחליף אותה (otá)."
+      },
+      {
+        "prompt": "תודה שהזמנתם ___ לחתונה! (אנחנו)",
+        "answer": [
+          "אותנו"
+        ],
+        "en": "Thank you for inviting us to the wedding!",
+        "hint": "את + אנחנו",
+        "explain": "את + אנחנו = אותנו (otánu)."
+      },
+      {
+        "prompt": "נעדכן ___ ברגע שיהיו חדשות. (אתם)",
+        "answer": [
+          "אתכם",
+          "אותכם"
+        ],
+        "en": "We'll update you as soon as there's news.",
+        "hint": "את + אתם",
+        "explain": "The standard form is אתכם (etkhém); in speech you'll also hear אותכם."
+      },
+      {
+        "prompt": "הבאתי את המסמכים. איפה לשים ___? (הם)",
+        "answer": [
+          "אותם"
+        ],
+        "en": "I've brought the documents. Where should I put them?",
+        "hint": "'them' for a masculine plural noun",
+        "explain": "מסמכים is masculine plural, so 'them' is אותם (otám)."
+      },
+      {
+        "prompt": "יש לנו שתי מתמחות חדשות. אכיר לך ___ מחר. (הן)",
+        "answer": [
+          "אותן"
+        ],
+        "en": "We have two new interns. I'll introduce them to you tomorrow.",
+        "hint": "'them' for a feminine plural noun",
+        "explain": "מתמחות is feminine plural, so 'them' is אותן (otán)."
+      }
+    ]
+  },
+  {
+    "id": "g_prep_suffixes",
+    "level": "A2+",
+    "title": "Prepositions with endings",
+    "titleHe": "מילות יחס בנטייה",
+    "summary": "Pronouns attach to prepositions — לי, שלי, איתי, עליי, אליי, ממני: the full set and the classic mistakes (עם אני ✗ → איתי).",
+    "sections": [
+      {
+        "h": "No separate pronouns after a preposition",
+        "body": "In Hebrew a pronoun can't stand on its own after a preposition. You never say ✗ עם אני or ✗ ל הוא: the pronoun becomes an ending glued to the preposition — איתי (with me), לו (to him), שלה (hers).\n\nThere are two sets of endings:\n• Set 1 (ל, של, עם, ב, אצל, בשביל): -י, -ך, -ו, -ה, -נו, -כם, -הם (or just -ם) → לי, לך, לו, לה, לנו, לכם, להם.\n• Set 2 (על, אל, and also לפני, אחרי): the same endings with an extra י → עליי, עליו, עלינו, עליהם.\n\nWithout vowels, the forms for אתה and את are often spelled alike: לך is lekhá (m) or lakh (f); איתך is itkhá or itákh."
+      },
+      {
+        "h": "Set 1: לי, שלי, איתי, בי, אצלי, בשבילי",
+        "body": "• ל — to, for: תגיד לי, שלחתי לו. Also in 'have': יש לי (I have).\n• של — of, belonging to: הטלפון שלי. It comes after the noun.\n• עם — with: the base changes to אית- (איתי, איתך, איתנו).\n• ב — in, at; also after verbs like להשתמש ב and לטפל ב: אני משתמש בו.\n• אצל — at someone's place, or in someone's keeping: ניפגש אצלי (let's meet at my place); המפתח אצלה (she has the key).\n• בשביל — for, for someone's sake: זה בשבילך.",
+        "table": [
+          [
+            "Pronoun",
+            "ל",
+            "של",
+            "עם",
+            "ב",
+            "אצל",
+            "בשביל"
+          ],
+          [
+            "אני",
+            "לי",
+            "שלי",
+            "איתי",
+            "בי",
+            "אצלי",
+            "בשבילי"
+          ],
+          [
+            "אתה",
+            "לך",
+            "שלך",
+            "איתך",
+            "בך",
+            "אצלך",
+            "בשבילך"
+          ],
+          [
+            "את",
+            "לך",
+            "שלך",
+            "איתך",
+            "בך",
+            "אצלך",
+            "בשבילך"
+          ],
+          [
+            "הוא",
+            "לו",
+            "שלו",
+            "איתו",
+            "בו",
+            "אצלו",
+            "בשבילו"
+          ],
+          [
+            "היא",
+            "לה",
+            "שלה",
+            "איתה",
+            "בה",
+            "אצלה",
+            "בשבילה"
+          ],
+          [
+            "אנחנו",
+            "לנו",
+            "שלנו",
+            "איתנו",
+            "בנו",
+            "אצלנו",
+            "בשבילנו"
+          ],
+          [
+            "אתם",
+            "לכם",
+            "שלכם",
+            "איתכם",
+            "בכם",
+            "אצלכם",
+            "בשבילכם"
+          ],
+          [
+            "אתן",
+            "לכן",
+            "שלכן",
+            "איתכן",
+            "בכן",
+            "אצלכן",
+            "בשבילכן"
+          ],
+          [
+            "הם",
+            "להם",
+            "שלהם",
+            "איתם",
+            "בהם",
+            "אצלם",
+            "בשבילם"
+          ],
+          [
+            "הן",
+            "להן",
+            "שלהן",
+            "איתן",
+            "בהן",
+            "אצלן",
+            "בשבילן"
+          ]
+        ]
+      },
+      {
+        "h": "Set 2: עליי, אליי — and the special ממני",
+        "body": "• על — on, about; also 'on me' as in 'my treat': הקפה עליי. With verbs: לסמוך על (to count on), לדבר על (to talk about).\n• אל — to, toward a person: תבוא אליי (come over to me). להתקשר אל is standard; in speech you'll also hear תתקשר לי.\n• מ — from, than: it doubles itself before the ending — ממני (miméni), ממך, ממנו. Because ממנו means both 'from him' and 'from us', people usually say מאיתנו for 'from us'.\n\nSay it: aláy, alékha, aláyikh, aláv, aléha, alénu · eláy, elékha, eláyikh, eláv, eléha · miméni, mimkhá, mimékh, miménu, miména, me'itánu, mikém, mehém.",
+        "table": [
+          [
+            "Pronoun",
+            "על",
+            "אל",
+            "מ"
+          ],
+          [
+            "אני",
+            "עליי",
+            "אליי",
+            "ממני"
+          ],
+          [
+            "אתה",
+            "עליך",
+            "אליך",
+            "ממך"
+          ],
+          [
+            "את",
+            "עלייך",
+            "אלייך",
+            "ממך"
+          ],
+          [
+            "הוא",
+            "עליו",
+            "אליו",
+            "ממנו"
+          ],
+          [
+            "היא",
+            "עליה",
+            "אליה",
+            "ממנה"
+          ],
+          [
+            "אנחנו",
+            "עלינו",
+            "אלינו",
+            "מאיתנו"
+          ],
+          [
+            "אתם",
+            "עליכם",
+            "אליכם",
+            "מכם"
+          ],
+          [
+            "אתן",
+            "עליכן",
+            "אליכן",
+            "מכן"
+          ],
+          [
+            "הם",
+            "עליהם",
+            "אליהם",
+            "מהם"
+          ],
+          [
+            "הן",
+            "עליהן",
+            "אליהן",
+            "מהן"
+          ]
+        ]
+      },
+      {
+        "h": "The classic mistakes",
+        "body": "• ✗ עם אני → איתי: רוצה לבוא איתי? (Want to come with me?)\n• ✗ שלי בית → הבית שלי: של comes after the noun, and the noun takes ה.\n• לי or אליי? ל is 'to' with giving, telling and sending: תשלח לי, תגיד לי. אל is movement toward a person: תבוא אליי, הוא פנה אליי (he approached me). ✗ תבוא לי.\n• לי or בשבילי? קניתי לך מתנה and קניתי מתנה בשבילך both mean 'I bought you a present'; בשביל puts the stress on 'for your sake': עשיתי את זה בשבילך.\n• איתי or אצלי? איתי is 'with me, in my company': הוא בא איתי. אצלי is 'at my place' or 'in my keeping': המסמכים אצלי (I have the documents)."
+      }
+    ],
+    "drills": [
+      {
+        "prompt": "רוצה לבוא ___ לישיבה? (עם, אני)",
+        "answer": [
+          "איתי"
+        ],
+        "en": "Want to come with me to the meeting?",
+        "hint": "עם + אני",
+        "explain": "עם + אני becomes איתי — 'עם אני' is never correct."
+      },
+      {
+        "prompt": "תשלחי ___ את המצגת לפני הישיבה. (ל, אני)",
+        "answer": [
+          "לי"
+        ],
+        "en": "Send me the presentation before the meeting.",
+        "hint": "ל + אני",
+        "explain": "With sending and telling, 'to me' is ל + אני = לי."
+      },
+      {
+        "prompt": "אל תדאג, אתה יכול לסמוך ___. (על, אני)",
+        "answer": [
+          "עליי"
+        ],
+        "en": "Don't worry, you can count on me.",
+        "hint": "על + אני (set 2)",
+        "explain": "לסמוך takes על, and על + אני = עליי (also written עלי)."
+      },
+      {
+        "prompt": "תבוא ___ אחרי העבודה, נעבור יחד על המספרים. (אל, אני)",
+        "answer": [
+          "אליי"
+        ],
+        "en": "Come over to my place after work and we'll go over the numbers together.",
+        "hint": "movement toward a person",
+        "explain": "Movement toward a person uses אל: תבוא אליי, not תבוא לי."
+      },
+      {
+        "prompt": "המפתחות של המחסן ___, אם מישהו צריך. (אצל, אני)",
+        "answer": [
+          "אצלי"
+        ],
+        "en": "I have the warehouse keys, if anyone needs them.",
+        "hint": "אצל = in someone's keeping",
+        "explain": "אצלי means 'with me, in my keeping', so המפתחות אצלי = I have the keys."
+      },
+      {
+        "prompt": "קניתי את זה ___, זאת מתנה ליום ההולדת שלך. (בשביל, את)",
+        "answer": [
+          "בשבילך"
+        ],
+        "en": "I bought this for you — it's a present for your birthday.",
+        "hint": "בשביל + את",
+        "explain": "בשביל + את = בשבילך (bishvilékh)."
+      },
+      {
+        "prompt": "תקבלו ___ תשובה עד יום חמישי. (מ, אנחנו)",
+        "answer": [
+          "מאיתנו",
+          "ממנו"
+        ],
+        "en": "You'll get an answer from us by Thursday.",
+        "hint": "from us",
+        "explain": "'From us' is usually מאיתנו, because ממנו also means 'from him'."
+      },
+      {
+        "prompt": "דיברתי ___ אתמול, והיא הסכימה. (עם, היא)",
+        "answer": [
+          "איתה"
+        ],
+        "en": "I spoke with her yesterday, and she agreed.",
+        "hint": "עם + היא",
+        "explain": "עם + היא = איתה (itá)."
+      },
+      {
+        "prompt": "זה לא הספר ___, זה של הספרייה. (של, אני)",
+        "answer": [
+          "שלי"
+        ],
+        "en": "This isn't my book; it belongs to the library.",
+        "hint": "של + אני",
+        "explain": "של + אני = שלי, and it comes after the noun: הספר שלי."
+      },
+      {
+        "prompt": "הלקוחות סומכים ___ כי אנחנו תמיד עומדים בזמנים. (על, אנחנו)",
+        "answer": [
+          "עלינו"
+        ],
+        "en": "Our clients trust us because we always meet our deadlines.",
+        "hint": "על + אנחנו",
+        "explain": "לסמוך takes על, and על + אנחנו = עלינו (alénu)."
+      },
+      {
+        "prompt": "קיבלתי ___ מייל ארוך עם כל השאלות. (מ, הוא)",
+        "answer": [
+          "ממנו"
+        ],
+        "en": "I got a long email from him with all the questions.",
+        "hint": "מ + הוא",
+        "explain": "מ doubles before the ending: ממנו (miménu), 'from him'."
+      },
+      {
+        "prompt": "כל הצוות מאמין ___ ובתוכנית שלה. (ב, היא)",
+        "answer": [
+          "בה"
+        ],
+        "en": "The whole team believes in her and in her plan.",
+        "hint": "ב + היא",
+        "explain": "להאמין takes ב, and ב + היא = בה (bah)."
+      }
+    ]
+  }
+]

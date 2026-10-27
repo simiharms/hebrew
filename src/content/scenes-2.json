@@ -1,0 +1,2515 @@
+[
+  {
+    "id": "s_supplier_zoom_deal",
+    "level": "B1+",
+    "title": "משא ומתן בזום",
+    "titleEn": "Negotiating on Zoom",
+    "genre": "meeting",
+    "synopsis": "Michal, a purchasing manager, is on a Zoom call with Avi, her packaging supplier. She needs a lower price and a fast delivery before her company's product launch.",
+    "speakers": {
+      "A": {
+        "name": "מיכל",
+        "gender": "f"
+      },
+      "B": {
+        "name": "אבי",
+        "gender": "m"
+      }
+    },
+    "lines": [
+      {
+        "s": "A",
+        "he": "אבי, שומע אותי? נראה לי שאתה על מיוט.",
+        "en": "Avi, can you hear me? I think you're on mute."
+      },
+      {
+        "s": "B",
+        "he": "סליחה, עכשיו שומעים? יופי. קיבלת את הצעת המחיר ששלחתי?",
+        "en": "Sorry, can you hear me now? Great. Did you get the price quote I sent?"
+      },
+      {
+        "s": "A",
+        "he": "קיבלתי, ואני אגיד לך את האמת: ארבעה שקלים לקופסה זה יקר לנו.",
+        "en": "I did, and I'll tell you the truth: four shekels a box is expensive for us."
+      },
+      {
+        "s": "B",
+        "he": "אני מבין, אבל חומרי הגלם התייקרו השנה. אין לי לאן לרדת.",
+        "en": "I understand, but raw materials went up this year. I have no room to go lower."
+      },
+      {
+        "s": "A",
+        "he": "ואם נגדיל את ההזמנה? במקום אלף קופסאות, נזמין אלפיים.",
+        "en": "And what if we increase the order? Instead of a thousand boxes, we'll order two thousand."
+      },
+      {
+        "s": "B",
+        "he": "זה כבר משנה את התמונה. על אלפיים קופסאות אני יכול לתת עשרה אחוז הנחה.",
+        "en": "Now that changes the picture. On two thousand boxes I can give a ten percent discount."
+      },
+      {
+        "s": "A",
+        "he": "עשרה אחוז זה כבר מדבר אליי. אבל הבעיה האמיתית היא זמני האספקה.",
+        "en": "Ten percent, now that appeals to me. But the real problem is the delivery times."
+      },
+      {
+        "s": "B",
+        "he": "מתי אתם צריכים את הסחורה?",
+        "en": "When do you need the goods?"
+      },
+      {
+        "s": "A",
+        "he": "עד סוף החודש. יש לנו השקה של מוצר חדש, ואי אפשר לדחות אותה.",
+        "en": "By the end of the month. We have a new product launch, and it can't be postponed."
+      },
+      {
+        "s": "B",
+        "he": "סוף החודש זה לחוץ. קו הייצור שלנו מלא עד אמצע החודש הבא.",
+        "en": "The end of the month is tight. Our production line is full until the middle of next month."
+      },
+      {
+        "s": "A",
+        "he": "אז בוא נחלק את זה לשני משלוחים. חצי עכשיו, וחצי אחר כך.",
+        "en": "Then let's split it into two shipments. Half now, and half later."
+      },
+      {
+        "s": "B",
+        "he": "את זה אני יכול לעשות. אלף קופסאות בעוד שלושה שבועות, והשאר באמצע החודש הבא.",
+        "en": "That I can do. A thousand boxes in three weeks, and the rest in the middle of next month."
+      },
+      {
+        "s": "A",
+        "he": "מצוין. רק שיהיה ברור, אני צריכה את התאריכים האלה בכתב, בתוך ההסכם.",
+        "en": "Excellent. Just so it's clear, I need these dates in writing, in the agreement."
+      },
+      {
+        "s": "B",
+        "he": "אין בעיה. ולגבי התשלום, שוטף פלוס שלושים, כמו תמיד?",
+        "en": "No problem. And as for payment, net thirty from the end of the month, as always?"
+      },
+      {
+        "s": "A",
+        "he": "האמת שקיווינו לשוטף פלוס שישים, בגלל ההזמנה הגדולה.",
+        "en": "Actually, we were hoping for net sixty, because of the big order."
+      },
+      {
+        "s": "B",
+        "he": "מיכל, עשרה אחוז הנחה וגם שישים יום? בואי לא נגזים.",
+        "en": "Michal, ten percent off and sixty days too? Let's not get carried away."
+      },
+      {
+        "s": "A",
+        "he": "טוב, טוב. שוטף פלוס שלושים. סגרנו.",
+        "en": "Okay, okay. Net thirty. It's a deal."
+      },
+      {
+        "s": "B",
+        "he": "סגרנו. אני שולח לך הצעה מעודכנת עד סוף היום.",
+        "en": "Deal. I'll send you an updated quote by the end of the day."
+      }
+    ],
+    "questions": [
+      {
+        "q": "למה מיכל לא מרוצה מהצעת המחיר?",
+        "qEn": "Why isn't Michal happy with the price quote?",
+        "answer": "כי ארבעה שקלים לקופסה זה יקר להם.",
+        "answerEn": "Because four shekels a box is expensive for them.",
+        "keywords": [
+          [
+            "יקר",
+            "גבוה",
+            "הרבה"
+          ]
+        ]
+      },
+      {
+        "q": "מה התנאי של אבי כדי לתת הנחה?",
+        "qEn": "What is Avi's condition for giving a discount?",
+        "answer": "שמיכל תזמין אלפיים קופסאות במקום אלף.",
+        "answerEn": "That Michal orders two thousand boxes instead of a thousand.",
+        "keywords": [
+          [
+            "אלפיים",
+            "להגדיל",
+            "נגדיל",
+            "תגדיל",
+            "גדולה"
+          ],
+          [
+            "הזמנה",
+            "להזמין",
+            "תזמין",
+            "נזמין",
+            "יזמינו",
+            "קופסאות"
+          ]
+        ]
+      },
+      {
+        "q": "למה מיכל צריכה את הסחורה עד סוף החודש?",
+        "qEn": "Why does Michal need the goods by the end of the month?",
+        "answer": "כי יש להם השקה של מוצר חדש.",
+        "answerEn": "Because they have a new product launch.",
+        "keywords": [
+          [
+            "השקה",
+            "להשיק",
+            "משיקים",
+            "משיקה"
+          ]
+        ]
+      },
+      {
+        "q": "איך הם פותרים את הבעיה של זמני האספקה?",
+        "qEn": "How do they solve the delivery-time problem?",
+        "answer": "הם מחלקים את ההזמנה לשני משלוחים.",
+        "answerEn": "They split the order into two shipments.",
+        "keywords": [
+          [
+            "משלוח",
+            "משלוחים",
+            "לחלק",
+            "מחלקים",
+            "נחלק",
+            "חלקים",
+            "חצי"
+          ]
+        ]
+      },
+      {
+        "q": "על מה מיכל מוותרת בסוף, ולמה?",
+        "qEn": "What does Michal give up in the end, and why?",
+        "answer": "על שוטף פלוס שישים, כי היא כבר קיבלה הנחה.",
+        "answerEn": "On net sixty, because she already got a discount.",
+        "keywords": [
+          [
+            "שישים",
+            "שוטף"
+          ],
+          [
+            "הנחה",
+            "אחוז",
+            "עשרה"
+          ]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "אבי מוכן לתת הנחה בלי שום תנאי.",
+        "sEn": "Avi is willing to give a discount with no strings attached.",
+        "a": false,
+        "why": "At first he says אין לי לאן לרדת, 'I have no room to go lower'. He offers ten percent off only after Michal suggests ordering two thousand boxes instead of a thousand."
+      },
+      {
+        "s": "קו הייצור של אבי מלא עד אמצע החודש הבא.",
+        "sEn": "Avi's production line is full until the middle of next month.",
+        "a": true,
+        "why": "Avi says קו הייצור שלנו מלא עד אמצע החודש הבא, which is why the end of the month is tight for him."
+      },
+      {
+        "s": "מיכל רוצה שתאריכי המשלוחים ייכתבו בהסכם.",
+        "sEn": "Michal wants the delivery dates written into the agreement.",
+        "a": true,
+        "why": "She says אני צריכה את התאריכים האלה בכתב, בתוך ההסכם, 'I need these dates in writing, in the agreement'."
+      },
+      {
+        "s": "בסוף הם סוגרים על שוטף פלוס שישים.",
+        "sEn": "In the end they settle on net sixty.",
+        "a": false,
+        "why": "Michal hoped for net sixty, but Avi answers בואי לא נגזים, and they close the deal on שוטף פלוס שלושים, net thirty."
+      }
+    ],
+    "dictation": [
+      4,
+      13,
+      17
+    ],
+    "expressions": [
+      {
+        "he": "אין לי לאן לרדת",
+        "en": "I can't go any lower (on price)",
+        "note": "Classic haggling line. לרדת במחיר = to come down in price."
+      },
+      {
+        "he": "זה משנה את התמונה",
+        "en": "that changes the picture",
+        "note": "Used when new information changes your position in a negotiation."
+      },
+      {
+        "he": "זה מדבר אליי",
+        "en": "that appeals to me / that works for me",
+        "note": "Informal but very common at work, e.g. about an offer or an idea."
+      },
+      {
+        "he": "שוטף פלוס שלושים",
+        "en": "payment 30 days after the end of the invoice month",
+        "note": "Standard Israeli payment term: שוטף = the current month. You will also hear שוטף פלוס שישים / תשעים."
+      },
+      {
+        "he": "בואי לא נגזים",
+        "en": "let's not get carried away",
+        "note": "בוא (to a man) / בואי (to a woman) / בואו (to a group) + 'we' future = let's... ."
+      },
+      {
+        "he": "סגרנו",
+        "en": "deal / we have an agreement",
+        "note": "Literally 'we closed'. Said by both sides to seal a deal."
+      }
+    ]
+  },
+  {
+    "id": "s_asking_for_raise",
+    "level": "B1+",
+    "title": "בקשה להעלאה",
+    "titleEn": "Asking for a Raise",
+    "genre": "drama",
+    "synopsis": "After three years at the company, Tomer is doing far more than his job description. He walks into his manager Orna's office to ask for a raise, and he has a surprise up his sleeve.",
+    "speakers": {
+      "A": {
+        "name": "תומר",
+        "gender": "m"
+      },
+      "B": {
+        "name": "אורנה",
+        "gender": "f"
+      }
+    },
+    "lines": [
+      {
+        "s": "A",
+        "he": "אורנה, יש לך רגע? אני רוצה לדבר איתך על משהו.",
+        "en": "Orna, do you have a moment? I want to talk to you about something."
+      },
+      {
+        "s": "B",
+        "he": "בטח, תיכנס. תסגור את הדלת. מה קורה?",
+        "en": "Sure, come in. Close the door. What's up?"
+      },
+      {
+        "s": "A",
+        "he": "אני כבר שלוש שנים בחברה, ובשנה האחרונה התפקיד שלי השתנה לגמרי.",
+        "en": "I've been with the company for three years, and in the last year my role has changed completely."
+      },
+      {
+        "s": "B",
+        "he": "נכון. מאז שגלית עזבה, אתה מנהל את כל הלקוחות הגדולים.",
+        "en": "True. Since Galit left, you've been managing all the big clients."
+      },
+      {
+        "s": "A",
+        "he": "בדיוק. אני עושה עבודה של שני אנשים, אבל המשכורת שלי לא זזה.",
+        "en": "Exactly. I'm doing the work of two people, but my salary hasn't budged."
+      },
+      {
+        "s": "B",
+        "he": "אני מעריכה את זה מאוד, תאמין לי. אבל אתה יודע מה המצב עם התקציב.",
+        "en": "I really appreciate it, believe me. But you know what the situation is with the budget."
+      },
+      {
+        "s": "A",
+        "he": "אני יודע. ובכל זאת, אני מבקש העלאה של חמישה עשר אחוז.",
+        "en": "I know. And still, I'm asking for a fifteen percent raise."
+      },
+      {
+        "s": "B",
+        "he": "חמישה עשר אחוז? תומר, זה הרבה. אני לא בטוחה שאני יכולה לאשר את זה לבד.",
+        "en": "Fifteen percent? Tomer, that's a lot. I'm not sure I can approve that on my own."
+      },
+      {
+        "s": "A",
+        "he": "אני מבין. אבל אני חייב להגיד לך משהו: קיבלתי הצעה מחברה אחרת.",
+        "en": "I understand. But I have to tell you something: I got an offer from another company."
+      },
+      {
+        "s": "B",
+        "he": "וואו. לא ציפיתי לזה. אתה באמת שוקל לעזוב?",
+        "en": "Wow. I didn't see that coming. Are you really thinking about leaving?"
+      },
+      {
+        "s": "A",
+        "he": "אני לא רוצה לעזוב. טוב לי פה. אבל אני צריך להרגיש שמעריכים אותי.",
+        "en": "I don't want to leave. I'm happy here. But I need to feel appreciated."
+      },
+      {
+        "s": "B",
+        "he": "תקשיב, חמישה עשר אני לא יכולה להבטיח. אבל אני אלחם בשבילך מול ההנהלה.",
+        "en": "Listen, fifteen I can't promise. But I'll fight for you with management."
+      },
+      {
+        "s": "A",
+        "he": "ומה זה אומר בפועל? כי אני צריך לתת להם תשובה עד יום ראשון.",
+        "en": "And what does that mean in practice? Because I have to give them an answer by Sunday."
+      },
+      {
+        "s": "B",
+        "he": "בפועל, מחר בבוקר אני יושבת עם ההנהלה ומציגה להם את הבקשה שלך.",
+        "en": "In practice, tomorrow morning I'm sitting down with management and presenting your request to them."
+      },
+      {
+        "s": "A",
+        "he": "ואם הם יגידו לא?",
+        "en": "And if they say no?"
+      },
+      {
+        "s": "B",
+        "he": "אז לפחות נדבר על קידום. ראש צוות, עם תואר חדש ותנאים בהתאם.",
+        "en": "Then at least we'll talk about a promotion. Team lead, with a new title and terms to match."
+      },
+      {
+        "s": "A",
+        "he": "אוקיי. אני מחכה לתשובה שלך עד סוף השבוע.",
+        "en": "Okay. I'll wait for your answer until the end of the week."
+      },
+      {
+        "s": "B",
+        "he": "תקבל אותה. ותומר, תודה שבאת אליי קודם, לפני שהחלטת.",
+        "en": "You'll get it. And Tomer, thank you for coming to me first, before you decided."
+      }
+    ],
+    "questions": [
+      {
+        "q": "למה תומר חושב שמגיעה לו העלאה?",
+        "qEn": "Why does Tomer think he deserves a raise?",
+        "answer": "כי הוא עושה עבודה של שני אנשים.",
+        "answerEn": "Because he does the work of two people.",
+        "keywords": [
+          [
+            "עבודה",
+            "עובד",
+            "תפקיד",
+            "אחריות"
+          ],
+          [
+            "שני",
+            "שניים",
+            "השתנה",
+            "יותר",
+            "אנשים"
+          ]
+        ]
+      },
+      {
+        "q": "מה אורנה עונה כשתומר מבקש חמישה עשר אחוז?",
+        "qEn": "What does Orna answer when Tomer asks for fifteen percent?",
+        "answer": "שזה הרבה, ושהיא לא בטוחה שהיא יכולה לאשר את זה לבד.",
+        "answerEn": "That it's a lot, and that she's not sure she can approve it on her own.",
+        "keywords": [
+          [
+            "לאשר",
+            "אישור",
+            "מאשרת",
+            "תאשר"
+          ],
+          [
+            "לבד",
+            "הרבה",
+            "הנהלה"
+          ]
+        ]
+      },
+      {
+        "q": "מה תומר מספר לאורנה שמפתיע אותה?",
+        "qEn": "What does Tomer tell Orna that surprises her?",
+        "answer": "שהוא קיבל הצעה מחברה אחרת.",
+        "answerEn": "That he got an offer from another company.",
+        "keywords": [
+          [
+            "הצעה",
+            "הצעת"
+          ],
+          [
+            "חברה",
+            "מקום",
+            "מתחרה"
+          ]
+        ]
+      },
+      {
+        "q": "מה אורנה תעשה מחר בבוקר?",
+        "qEn": "What will Orna do tomorrow morning?",
+        "answer": "היא תשב עם ההנהלה ותציג להם את הבקשה של תומר.",
+        "answerEn": "She'll sit down with management and present Tomer's request to them.",
+        "keywords": [
+          [
+            "הנהלה",
+            "מנהלים"
+          ],
+          [
+            "תציג",
+            "להציג",
+            "מציגה",
+            "תשב",
+            "יושבת",
+            "לשבת",
+            "תדבר",
+            "לדבר",
+            "מדברת",
+            "פגישה"
+          ]
+        ]
+      },
+      {
+        "q": "מה אורנה מציעה אם ההנהלה תגיד לא?",
+        "qEn": "What does Orna offer if management says no?",
+        "answer": "קידום לתפקיד ראש צוות, עם תואר חדש.",
+        "answerEn": "A promotion to team lead, with a new title.",
+        "keywords": [
+          [
+            "קידום",
+            "לקדם",
+            "ראש צוות",
+            "תואר"
+          ]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "אחרי שגלית עזבה, הלקוחות הגדולים עברו לתומר.",
+        "sEn": "After Galit left, the big clients were passed to Tomer.",
+        "a": true,
+        "why": "Orna confirms it: מאז שגלית עזבה, אתה מנהל את כל הלקוחות הגדולים, 'since Galit left, you've been managing all the big clients'."
+      },
+      {
+        "s": "אורנה מבטיחה לתומר העלאה של חמישה עשר אחוז.",
+        "sEn": "Orna promises Tomer a fifteen percent raise.",
+        "a": false,
+        "why": "She says חמישה עשר אני לא יכולה להבטיח, 'fifteen I can't promise'. She only promises to fight for him with management."
+      },
+      {
+        "s": "תומר רוצה לעזוב ולעבור לחברה האחרת.",
+        "sEn": "Tomer wants to leave and move to the other company.",
+        "a": false,
+        "why": "He says אני לא רוצה לעזוב. טוב לי פה. He just needs to feel that he is appreciated."
+      },
+      {
+        "s": "תומר צריך לענות לחברה האחרת עד יום ראשון.",
+        "sEn": "Tomer has to give the other company an answer by Sunday.",
+        "a": true,
+        "why": "He says אני צריך לתת להם תשובה עד יום ראשון, so he asks Orna for her answer by the end of the week."
+      }
+    ],
+    "dictation": [
+      1,
+      9,
+      16
+    ],
+    "expressions": [
+      {
+        "he": "המשכורת לא זזה",
+        "en": "the salary hasn't budged",
+        "note": "לזוז = to move. Also used for prices and negotiations: המחיר לא זז."
+      },
+      {
+        "he": "תאמין לי",
+        "en": "believe me",
+        "note": "To a woman: תאמיני לי; to a group: תאמינו לי."
+      },
+      {
+        "he": "טוב לי פה",
+        "en": "I'm happy here",
+        "note": "Literally 'it's good for me here'. טוב לי / טוב לך = I'm / you're fine and happy."
+      },
+      {
+        "he": "בפועל",
+        "en": "in practice",
+        "note": "Very common at work to move from promises to concrete steps: מה זה אומר בפועל?"
+      },
+      {
+        "he": "להילחם בשביל מישהו מול ההנהלה",
+        "en": "to fight for someone with management",
+        "note": "מול = facing, in dealings with. Future: אני אלחם, היא תילחם."
+      },
+      {
+        "he": "ותנאים בהתאם",
+        "en": "and terms to match",
+        "note": "בהתאם = accordingly; בהתאם ל... = in accordance with."
+      }
+    ]
+  },
+  {
+    "id": "s_freelancer_first_year",
+    "level": "B1+",
+    "title": "השנה הראשונה כעצמאים",
+    "titleEn": "Your First Year as a Freelancer",
+    "genre": "podcast",
+    "synopsis": "On the business podcast 'Takhles Asakim', hosts Yoav and Maya share survival tips for your first year as a freelancer in Israel: taxes, late payments, pricing and loneliness.",
+    "speakers": {
+      "A": {
+        "name": "יואב",
+        "gender": "m"
+      },
+      "B": {
+        "name": "מאיה",
+        "gender": "f"
+      }
+    },
+    "lines": [
+      {
+        "s": "A",
+        "he": "שלום לכולם, וברוכים הבאים לפרק חדש של תכלס עסקים. אני יואב.",
+        "en": "Hi everyone, and welcome to a new episode of Takhles Asakim. I'm Yoav."
+      },
+      {
+        "s": "B",
+        "he": "ואני מאיה. היום אנחנו מדברים על נושא שהרבה מכם ביקשו: השנה הראשונה כעצמאים.",
+        "en": "And I'm Maya. Today we're talking about a topic many of you asked for: your first year as self-employed."
+      },
+      {
+        "s": "A",
+        "he": "מאיה, את פרילנסרית כבר עשר שנים. מה הטעות הכי גדולה של מתחילים?",
+        "en": "Maya, you've been a freelancer for ten years. What's the biggest beginner mistake?"
+      },
+      {
+        "s": "B",
+        "he": "בלי ספק, כסף. מקבלים את התשלום הראשון, ומרגישים מיליונרים.",
+        "en": "No doubt about it: money. You get your first payment and feel like a millionaire."
+      },
+      {
+        "s": "A",
+        "he": "ואז מגיעים מס הכנסה וביטוח לאומי.",
+        "en": "And then income tax and National Insurance show up."
+      },
+      {
+        "s": "B",
+        "he": "בדיוק. אז הטיפ הראשון שלי: מכל תשלום, תשימו חלק בצד למיסים. ולא לגעת!",
+        "en": "Exactly. So my first tip: from every payment, put part of it aside for taxes. And don't touch it!"
+      },
+      {
+        "s": "A",
+        "he": "ואני מוסיף: תמצאו רואה חשבון טוב מהיום הראשון. זה לא מותרות, זה חובה.",
+        "en": "And I'll add: find a good accountant from day one. It's not a luxury, it's a must."
+      },
+      {
+        "s": "B",
+        "he": "נכון. ועוד דבר שאנשים שוכחים: לקוחות לא תמיד משלמים בזמן.",
+        "en": "True. And another thing people forget: clients don't always pay on time."
+      },
+      {
+        "s": "A",
+        "he": "אוי, אל תזכירי לי. פעם חיכיתי ארבעה חודשים לתשלום אחד.",
+        "en": "Oh, don't remind me. Once I waited four months for a single payment."
+      },
+      {
+        "s": "B",
+        "he": "ולכן צריך כרית ביטחון: כסף לכמה חודשים של הוצאות, עוד לפני שמתחילים.",
+        "en": "And that's why you need a safety cushion: money for a few months of expenses, before you even start."
+      },
+      {
+        "s": "A",
+        "he": "בואי נדבר על מחירים. הרבה פרילנסרים מתביישים לבקש כסף.",
+        "en": "Let's talk about prices. A lot of freelancers are embarrassed to ask for money."
+      },
+      {
+        "s": "B",
+        "he": "וזו טעות. מי שעובד בחינם בשביל חשיפה, מקבל עוד עבודה בחינם.",
+        "en": "And that's a mistake. Whoever works for free for 'exposure' just gets more free work."
+      },
+      {
+        "s": "A",
+        "he": "כי חשיפה לא משלמת שכר דירה.",
+        "en": "Because exposure doesn't pay the rent."
+      },
+      {
+        "s": "B",
+        "he": "בדיוק. תקבעו מחיר, תכתבו אותו בהצעה, ואל תתנצלו עליו.",
+        "en": "Exactly. Set a price, write it in the proposal, and don't apologize for it."
+      },
+      {
+        "s": "A",
+        "he": "ומה עם הבדידות? פתאום אין משרד, אין חברים לעבודה, אין עם מי לאכול צהריים.",
+        "en": "And what about the loneliness? Suddenly there's no office, no work friends, no one to have lunch with."
+      },
+      {
+        "s": "B",
+        "he": "זו בעיה אמיתית. אני ממליצה על חלל עבודה משותף, אפילו פעמיים בשבוע.",
+        "en": "That's a real problem. I recommend a shared workspace, even just twice a week."
+      },
+      {
+        "s": "A",
+        "he": "אז לסיכום: שימו כסף בצד, מצאו רואה חשבון, ואל תעבדו בחינם.",
+        "en": "So to sum up: put money aside, find an accountant, and don't work for free."
+      },
+      {
+        "s": "B",
+        "he": "ותצאו מהבית מדי פעם. נתראה בפרק הבא!",
+        "en": "And get out of the house once in a while. See you in the next episode!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "מה הטעות הכי גדולה של מתחילים, לפי מאיה?",
+        "qEn": "According to Maya, what is the biggest beginner mistake?",
+        "answer": "מקבלים את התשלום הראשון, מרגישים מיליונרים ושוכחים מהמיסים.",
+        "answerEn": "They get their first payment, feel like millionaires and forget about the taxes.",
+        "keywords": [
+          [
+            "תשלום",
+            "כסף",
+            "מיליונרים",
+            "מיליונר",
+            "עשירים",
+            "עשיר"
+          ],
+          [
+            "מיסים",
+            "מסים",
+            "מס",
+            "ביטוח לאומי"
+          ]
+        ]
+      },
+      {
+        "q": "מה הטיפ של יואב?",
+        "qEn": "What is Yoav's tip?",
+        "answer": "למצוא רואה חשבון טוב מהיום הראשון.",
+        "answerEn": "To find a good accountant from day one.",
+        "keywords": [
+          [
+            "חשבון"
+          ],
+          [
+            "ראשון",
+            "התחלה",
+            "מיד"
+          ]
+        ]
+      },
+      {
+        "q": "מה זו כרית ביטחון, לפי מאיה?",
+        "qEn": "According to Maya, what is a safety cushion?",
+        "answer": "כסף לכמה חודשים של הוצאות.",
+        "answerEn": "Money for a few months of expenses.",
+        "keywords": [
+          [
+            "כסף",
+            "חיסכון",
+            "חסכונות"
+          ],
+          [
+            "חודשים",
+            "חודש"
+          ],
+          [
+            "הוצאות",
+            "הוצאה"
+          ]
+        ]
+      },
+      {
+        "q": "מה מאיה ממליצה לעשות עם המחיר?",
+        "qEn": "What does Maya recommend doing about your price?",
+        "answer": "לקבוע מחיר, לכתוב אותו בהצעה ולא להתנצל עליו.",
+        "answerEn": "To set a price, write it in the proposal and not apologize for it.",
+        "keywords": [
+          [
+            "לקבוע",
+            "תקבעו",
+            "קובעים",
+            "קבעו"
+          ],
+          [
+            "להתנצל",
+            "תתנצלו",
+            "מתנצלים",
+            "התנצלות",
+            "להתבייש",
+            "מתביישים"
+          ]
+        ]
+      },
+      {
+        "q": "מה מאיה ממליצה נגד הבדידות?",
+        "qEn": "What does Maya recommend against loneliness?",
+        "answer": "לעבוד מחלל עבודה משותף, אפילו פעמיים בשבוע.",
+        "answerEn": "To work from a shared workspace, even twice a week.",
+        "keywords": [
+          [
+            "משותף",
+            "משותפת",
+            "שיתופי",
+            "חלל"
+          ]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "יואב חושב שעצמאי מתחיל יכול להסתדר בלי רואה חשבון.",
+        "sEn": "Yoav thinks a beginner freelancer can manage without an accountant.",
+        "a": false,
+        "why": "Yoav says the opposite: find a good accountant from day one, because זה לא מותרות, זה חובה, 'it's not a luxury, it's a must'."
+      },
+      {
+        "s": "פעם יואב חיכה ארבעה חודשים לתשלום מלקוח.",
+        "sEn": "Yoav once waited four months for a payment from a client.",
+        "a": true,
+        "why": "When Maya says that clients don't always pay on time, he answers פעם חיכיתי ארבעה חודשים לתשלום אחד."
+      },
+      {
+        "s": "מאיה ממליצה לעבוד בחינם בהתחלה, כדי לקבל חשיפה.",
+        "sEn": "Maya recommends working for free at the beginning, to get exposure.",
+        "a": false,
+        "why": "She calls it a mistake: מי שעובד בחינם בשביל חשיפה, מקבל עוד עבודה בחינם, 'whoever works for free for exposure just gets more free work'."
+      },
+      {
+        "s": "לפי מאיה, הרבה מתחילים מרגישים עשירים אחרי התשלום הראשון.",
+        "sEn": "According to Maya, many beginners feel rich after their first payment.",
+        "a": true,
+        "why": "She says מקבלים את התשלום הראשון, ומרגישים מיליונרים, 'you get your first payment and feel like a millionaire', until income tax and National Insurance show up."
+      }
+    ],
+    "dictation": [
+      10,
+      12,
+      17
+    ],
+    "expressions": [
+      {
+        "he": "לשים כסף בצד",
+        "en": "to put money aside",
+        "note": "Plural imperative: שימו כסף בצד. Related: לחסוך = to save."
+      },
+      {
+        "he": "זה לא מותרות, זה חובה",
+        "en": "it's not a luxury, it's a must",
+        "note": "מותרות is a plural noun meaning 'luxuries'."
+      },
+      {
+        "he": "אל תזכירי לי",
+        "en": "don't remind me",
+        "note": "Said about a painful memory. To a man: אל תזכיר לי."
+      },
+      {
+        "he": "כרית ביטחון",
+        "en": "safety cushion (savings)",
+        "note": "Money that covers several months of expenses; common in personal-finance talk."
+      },
+      {
+        "he": "לעבוד בחינם בשביל חשיפה",
+        "en": "to work for free 'for the exposure'",
+        "note": "חשיפה = exposure, visibility. A classic freelancer complaint."
+      },
+      {
+        "he": "עצמאי / עצמאית",
+        "en": "self-employed (person)",
+        "note": "The official term, e.g. for taxes. פרילנסר / פרילנסרית is the everyday loanword."
+      }
+    ]
+  },
+  {
+    "id": "s_morning_show_chef",
+    "level": "B1+",
+    "title": "שף בתוכנית הבוקר",
+    "titleEn": "A Chef on the Morning Show",
+    "genre": "interview",
+    "synopsis": "On a TV morning show, hosts Keren and Eran interview Asaf, a former high-tech worker who opened a restaurant in Haifa two months ago.",
+    "speakers": {
+      "A": {
+        "name": "קרן",
+        "gender": "f"
+      },
+      "B": {
+        "name": "אסף",
+        "gender": "m"
+      },
+      "C": {
+        "name": "ערן",
+        "gender": "m"
+      }
+    },
+    "lines": [
+      {
+        "s": "A",
+        "he": "בוקר טוב! איתנו באולפן השף אסף לוי, שפתח לפני חודשיים מסעדה חדשה בחיפה.",
+        "en": "Good morning! With us in the studio is chef Asaf Levi, who opened a new restaurant in Haifa two months ago."
+      },
+      {
+        "s": "B",
+        "he": "בוקר טוב, תודה שהזמנתם אותי. אני קצת לחוץ, זו הפעם הראשונה שלי בטלוויזיה.",
+        "en": "Good morning, thanks for having me. I'm a bit nervous, it's my first time on TV."
+      },
+      {
+        "s": "C",
+        "he": "אל תדאג, אתה נראה מצוין. אז ספר לנו, איך הכול התחיל?",
+        "en": "Don't worry, you look great. So tell us, how did it all begin?"
+      },
+      {
+        "s": "B",
+        "he": "האמת? עבדתי עשר שנים בהייטק, ובערבים בישלתי לחברים. זה היה החלק הכי טוב ביום.",
+        "en": "The truth? I worked in high-tech for ten years, and in the evenings I cooked for friends. That was the best part of my day."
+      },
+      {
+        "s": "A",
+        "he": "ואז פשוט קמת ועזבת?",
+        "en": "And then you just got up and quit?"
+      },
+      {
+        "s": "B",
+        "he": "לא בדיוק. קודם למדתי בישול, ועבדתי שנה במטבח של מסעדה בתל אביב.",
+        "en": "Not exactly. First I studied cooking, and worked for a year in a restaurant kitchen in Tel Aviv."
+      },
+      {
+        "s": "C",
+        "he": "ומה מיוחד במסעדה שלך? מה אנשים לא ימצאו במקום אחר?",
+        "en": "And what's special about your restaurant? What won't people find anywhere else?"
+      },
+      {
+        "s": "B",
+        "he": "כל המנות מבוססות על מתכונים של סבתא שלי מעיראק, אבל בגרסה קלילה ומודרנית.",
+        "en": "All the dishes are based on my grandmother's recipes from Iraq, but in a light, modern version."
+      },
+      {
+        "s": "A",
+        "he": "שמעתי שיש אצלכם מנה אחת שאנשים עומדים בשבילה בתור.",
+        "en": "I heard you have one dish that people stand in line for."
+      },
+      {
+        "s": "B",
+        "he": "כן, הקובה סלק. זה בדיוק המתכון של סבתא, בלי שום שינוי.",
+        "en": "Yes, the beet kubbeh soup. It's exactly my grandmother's recipe, without a single change."
+      },
+      {
+        "s": "C",
+        "he": "ומה היה הכי קשה בחודשיים הראשונים?",
+        "en": "And what was the hardest part of the first two months?"
+      },
+      {
+        "s": "B",
+        "he": "למצוא עובדים. טבח טוב היום שווה זהב. וגם הערב הראשון היה סיוט.",
+        "en": "Finding staff. A good cook is worth his weight in gold these days. And the first night was a nightmare."
+      },
+      {
+        "s": "A",
+        "he": "סיוט? מה קרה?",
+        "en": "A nightmare? What happened?"
+      },
+      {
+        "s": "B",
+        "he": "התנור התקלקל שעה לפני הפתיחה, והמסעדה הייתה מלאה. הגשנו רק מנות קרות.",
+        "en": "The oven broke down an hour before opening, and the restaurant was full. We served only cold dishes."
+      },
+      {
+        "s": "C",
+        "he": "ואנשים לא כעסו?",
+        "en": "And people weren't angry?"
+      },
+      {
+        "s": "B",
+        "he": "להפך! נתתי לכולם קינוח על חשבון הבית, והרבה מהם חזרו בשבוע שאחרי.",
+        "en": "On the contrary! I gave everyone dessert on the house, and many of them came back the following week."
+      },
+      {
+        "s": "A",
+        "he": "איזה סיפור. אסף, תודה רבה שבאת, ובהצלחה עם המסעדה!",
+        "en": "What a story. Asaf, thank you so much for coming, and good luck with the restaurant!"
+      },
+      {
+        "s": "B",
+        "he": "תודה לכם! ומי שמגיע ואומר שראה אותי פה, מקבל קינוח מתנה.",
+        "en": "Thank you! And anyone who comes in and says they saw me here gets a free dessert."
+      }
+    ],
+    "questions": [
+      {
+        "q": "במה אסף עבד לפני שהוא נהיה שף?",
+        "qEn": "What field did Asaf work in before he became a chef?",
+        "answer": "בהייטק, עשר שנים.",
+        "answerEn": "In high-tech, for ten years.",
+        "keywords": [
+          [
+            "הייטק",
+            "היי טק",
+            "הייטקיסט"
+          ]
+        ]
+      },
+      {
+        "q": "מה מיוחד במסעדה של אסף?",
+        "qEn": "What is special about Asaf's restaurant?",
+        "answer": "המנות מבוססות על מתכונים של סבתא שלו מעיראק.",
+        "answerEn": "The dishes are based on his grandmother's recipes from Iraq.",
+        "keywords": [
+          [
+            "סבתא"
+          ],
+          [
+            "עיראק",
+            "עיראקי",
+            "עיראקית",
+            "מודרני",
+            "מודרנית",
+            "קליל",
+            "קלילה",
+            "מתכון",
+            "מתכונים"
+          ]
+        ]
+      },
+      {
+        "q": "מה היה הכי קשה בחודשיים הראשונים?",
+        "qEn": "What was the hardest thing in the first two months?",
+        "answer": "למצוא עובדים טובים.",
+        "answerEn": "Finding good staff.",
+        "keywords": [
+          [
+            "עובדים",
+            "עובד",
+            "טבח",
+            "טבחים",
+            "צוות"
+          ]
+        ]
+      },
+      {
+        "q": "מה קרה בערב הראשון?",
+        "qEn": "What happened on the first night?",
+        "answer": "התנור התקלקל שעה לפני הפתיחה.",
+        "answerEn": "The oven broke down an hour before opening.",
+        "keywords": [
+          [
+            "תנור"
+          ],
+          [
+            "התקלקל",
+            "נשבר",
+            "מקולקל",
+            "עבד"
+          ]
+        ]
+      },
+      {
+        "q": "למה האורחים לא כעסו?",
+        "qEn": "Why weren't the guests angry?",
+        "answer": "כי אסף נתן לכולם קינוח על חשבון הבית.",
+        "answerEn": "Because Asaf gave everyone dessert on the house.",
+        "keywords": [
+          [
+            "קינוח",
+            "קינוחים"
+          ],
+          [
+            "חשבון",
+            "חינם",
+            "בחינם",
+            "מתנה"
+          ]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "אסף מרגיש רגוע לגמרי באולפן.",
+        "sEn": "Asaf feels completely relaxed in the studio.",
+        "a": false,
+        "why": "He says אני קצת לחוץ, 'I'm a bit nervous', because it's his first time on TV."
+      },
+      {
+        "s": "לפני שפתח את המסעדה שלו, אסף עבד שנה במטבח של מסעדה בתל אביב.",
+        "sEn": "Before he opened his restaurant, Asaf worked for a year in a restaurant kitchen in Tel Aviv.",
+        "a": true,
+        "why": "He didn't just quit high-tech: קודם למדתי בישול, ועבדתי שנה במטבח של מסעדה בתל אביב."
+      },
+      {
+        "s": "אסף שינה קצת את המתכון של סבתא שלו לקובה סלק.",
+        "sEn": "Asaf changed his grandmother's recipe for beet kubbeh soup a little.",
+        "a": false,
+        "why": "The other dishes are light, modern versions, but the kubbeh soup is בדיוק המתכון של סבתא, בלי שום שינוי, 'exactly grandma's recipe, without a single change'."
+      },
+      {
+        "s": "מי שיגיע למסעדה ויגיד שראה את אסף בתוכנית, יקבל קינוח מתנה.",
+        "sEn": "Anyone who comes to the restaurant and says they saw Asaf on the show will get a free dessert.",
+        "a": true,
+        "why": "That is his offer at the very end: מי שמגיע ואומר שראה אותי פה, מקבל קינוח מתנה."
+      }
+    ],
+    "dictation": [
+      6,
+      10,
+      16
+    ],
+    "expressions": [
+      {
+        "he": "פשוט קמת ועזבת?",
+        "en": "you just got up and quit?",
+        "note": "לקום ו... = to suddenly up and do something: הוא קם ועזב את העבודה."
+      },
+      {
+        "he": "לעמוד בתור",
+        "en": "to stand in line",
+        "note": "תור = a queue, and also an appointment: לקבוע תור לרופא."
+      },
+      {
+        "he": "שווה זהב",
+        "en": "worth its weight in gold",
+        "note": "Literally 'worth gold'. Said about people or things that are rare and valuable."
+      },
+      {
+        "he": "על חשבון הבית",
+        "en": "on the house",
+        "note": "Restaurant phrase: free, paid for by the restaurant."
+      },
+      {
+        "he": "להפך!",
+        "en": "on the contrary!",
+        "note": "Pronounced lehéfekh. A strong 'no, the exact opposite'."
+      },
+      {
+        "he": "איזה סיפור",
+        "en": "what a story",
+        "note": "Typical reaction. איזה / איזו + noun = what a...: איזה יום! איזו הפתעה!"
+      }
+    ]
+  },
+  {
+    "id": "s_office_party_budget",
+    "level": "B1+",
+    "title": "מסיבה בתקציב של במבה",
+    "titleEn": "A Party on a Peanut Budget",
+    "genre": "sitcom",
+    "synopsis": "Nir and Shira are in charge of the office end-of-year party, but the budget turns out to be tiny. Time to get creative.",
+    "speakers": {
+      "A": {
+        "name": "ניר",
+        "gender": "m"
+      },
+      "B": {
+        "name": "שירה",
+        "gender": "f"
+      }
+    },
+    "lines": [
+      {
+        "s": "A",
+        "he": "טוב, שירה, קיבלתי את התקציב למסיבת סוף השנה. את יושבת?",
+        "en": "Okay, Shira, I got the budget for the end-of-year party. Are you sitting down?"
+      },
+      {
+        "s": "B",
+        "he": "אל תגיד לי. פחות מאלף שקל?",
+        "en": "Don't tell me. Less than a thousand shekels?"
+      },
+      {
+        "s": "A",
+        "he": "חמש מאות שקל. לארבעים עובדים.",
+        "en": "Five hundred shekels. For forty employees."
+      },
+      {
+        "s": "B",
+        "he": "רגע, זה שנים עשר וחצי שקל לבן אדם. זה אפילו לא פיצה.",
+        "en": "Wait, that's twelve and a half shekels a person. That's not even pizza."
+      },
+      {
+        "s": "A",
+        "he": "פיצה? תשכחי מפיצה. התקציב הזה בקושי יספיק לבמבה.",
+        "en": "Pizza? Forget pizza. This budget will barely cover Bamba (peanut snacks)."
+      },
+      {
+        "s": "B",
+        "he": "אוקיי, אל תיכנס ללחץ. יש לי רעיון: כל אחד מביא משהו מהבית.",
+        "en": "Okay, don't panic. I have an idea: everyone brings something from home."
+      },
+      {
+        "s": "A",
+        "he": "וואלה, זה יכול לעבוד. ככה כל הכסף הולך על שתייה ועוגה.",
+        "en": "Huh, that could work. That way all the money goes on drinks and a cake."
+      },
+      {
+        "s": "B",
+        "he": "ומה עם מקום? חדר הישיבות קטן מדי, ולשכור אולם זה לא בא בחשבון.",
+        "en": "And what about a venue? The meeting room is too small, and renting a hall is out of the question."
+      },
+      {
+        "s": "A",
+        "he": "מה עם הגג? יש נוף, יש רוח, וזה לא עולה שקל.",
+        "en": "What about the roof? There's a view, there's a breeze, and it doesn't cost a shekel."
+      },
+      {
+        "s": "B",
+        "he": "הגג! אתה גאון. ומה עושים עם מוזיקה?",
+        "en": "The roof! You're a genius. And what do we do about music?"
+      },
+      {
+        "s": "A",
+        "he": "דימה מהמחשוב אמר שיש לו רמקול ופלייליסט של שנות התשעים.",
+        "en": "Dima from IT said he has a speaker and a nineties playlist."
+      },
+      {
+        "s": "B",
+        "he": "מושלם. כולם יעשו פרצוף, ואחרי חמש דקות כולם ירקדו.",
+        "en": "Perfect. Everyone will make a face, and five minutes later everyone will be dancing."
+      },
+      {
+        "s": "A",
+        "he": "נשארה רק בעיה אחת: הנאום של הבוס.",
+        "en": "There's just one problem left: the boss's speech."
+      },
+      {
+        "s": "B",
+        "he": "בשנה שעברה הוא דיבר ארבעים דקות. אנשים כמעט נרדמו עם הכוס ביד.",
+        "en": "Last year he talked for forty minutes. People almost fell asleep with their glasses in their hands."
+      },
+      {
+        "s": "A",
+        "he": "אז השנה יש לו חמש דקות, לא יותר. אני אחזיק סטופר.",
+        "en": "So this year he gets five minutes, no more. I'll hold a stopwatch."
+      },
+      {
+        "s": "B",
+        "he": "אתה תגיד לו? אתה רעדת כשהוא ביקש ממך קפה.",
+        "en": "You're going to tell him? You were shaking when he asked you for a coffee."
+      },
+      {
+        "s": "A",
+        "he": "טוב, את תגידי לו. את יותר טובה ממני בדברים כאלה.",
+        "en": "Fine, you tell him. You're better than me at this kind of thing."
+      },
+      {
+        "s": "B",
+        "he": "סגור. אז יום חמישי אחרי הצהריים, על הגג, וכל אחד מביא מנה.",
+        "en": "Done. So Thursday afternoon, on the roof, and everyone brings a dish."
+      },
+      {
+        "s": "A",
+        "he": "ואם יורד גשם?",
+        "en": "And what if it rains?"
+      },
+      {
+        "s": "B",
+        "he": "אז תתפלל, ניר. אין לנו תקציב לתוכנית גיבוי.",
+        "en": "Then pray, Nir. We have no budget for a backup plan."
+      }
+    ],
+    "questions": [
+      {
+        "q": "למה ניר שואל את שירה אם היא יושבת?",
+        "qEn": "Why does Nir ask Shira if she's sitting down?",
+        "answer": "כי התקציב קטן מאוד, רק חמש מאות שקל.",
+        "answerEn": "Because the budget is very small, only five hundred shekels.",
+        "keywords": [
+          [
+            "תקציב",
+            "כסף"
+          ],
+          [
+            "קטן",
+            "קטנטן",
+            "נמוך",
+            "מעט",
+            "חמש מאות"
+          ]
+        ]
+      },
+      {
+        "q": "מה הרעיון של שירה לגבי האוכל?",
+        "qEn": "What is Shira's idea about the food?",
+        "answer": "שכל אחד יביא משהו מהבית.",
+        "answerEn": "That everyone brings something from home.",
+        "keywords": [
+          [
+            "יביא",
+            "מביא",
+            "להביא",
+            "מביאים",
+            "יביאו",
+            "תביאו"
+          ],
+          [
+            "בית"
+          ]
+        ]
+      },
+      {
+        "q": "למה הם בוחרים בגג?",
+        "qEn": "Why do they choose the roof?",
+        "answer": "כי יש שם נוף, וזה לא עולה כסף.",
+        "answerEn": "Because there's a view there, and it doesn't cost any money.",
+        "keywords": [
+          [
+            "נוף",
+            "רוח"
+          ],
+          [
+            "עולה",
+            "חינם",
+            "בחינם",
+            "כסף",
+            "שקל"
+          ]
+        ]
+      },
+      {
+        "q": "מה הבעיה עם הנאום של הבוס?",
+        "qEn": "What's the problem with the boss's speech?",
+        "answer": "הוא ארוך מדי. בשנה שעברה הוא דיבר ארבעים דקות.",
+        "answerEn": "It's too long. Last year he talked for forty minutes.",
+        "keywords": [
+          [
+            "ארוך",
+            "ארבעים",
+            "דקות",
+            "נרדמו",
+            "משעמם"
+          ]
+        ]
+      },
+      {
+        "q": "מי יגיד לבוס שיש לו רק חמש דקות, ולמה?",
+        "qEn": "Who will tell the boss he only has five minutes, and why?",
+        "answer": "שירה, כי ניר מפחד מהבוס.",
+        "answerEn": "Shira, because Nir is afraid of the boss.",
+        "keywords": [
+          [
+            "שירה"
+          ],
+          [
+            "מפחד",
+            "פוחד",
+            "פחד",
+            "רעד",
+            "לחוץ",
+            "טובה"
+          ]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "התקציב למסיבה הוא אלף שקל.",
+        "sEn": "The party budget is a thousand shekels.",
+        "a": false,
+        "why": "It's only חמש מאות שקל, five hundred shekels, for forty employees. Shira had guessed 'less than a thousand'."
+      },
+      {
+        "s": "לדימה מהמחשוב יש רמקול ופלייליסט של שנות התשעים.",
+        "sEn": "Dima from IT has a speaker and a nineties playlist.",
+        "a": true,
+        "why": "Nir says Dima told him he has a speaker and a nineties playlist, so the music is taken care of."
+      },
+      {
+        "s": "המסיבה תהיה ביום חמישי אחרי הצהריים.",
+        "sEn": "The party will be on Thursday afternoon.",
+        "a": true,
+        "why": "Shira sums up: יום חמישי אחרי הצהריים, על הגג, וכל אחד מביא מנה."
+      },
+      {
+        "s": "לשירה ולניר יש תוכנית גיבוי למקרה שירד גשם.",
+        "sEn": "Shira and Nir have a backup plan in case it rains.",
+        "a": false,
+        "why": "When Nir asks about rain, Shira says אין לנו תקציב לתוכנית גיבוי, 'we have no budget for a backup plan', so he'll just have to pray."
+      }
+    ],
+    "dictation": [
+      2,
+      12,
+      16
+    ],
+    "expressions": [
+      {
+        "he": "את יושבת?",
+        "en": "are you sitting down?",
+        "note": "Said before shocking news. To a man: אתה יושב?"
+      },
+      {
+        "he": "תשכחי מ...",
+        "en": "forget about...",
+        "note": "תשכח (m) / תשכחי (f) / תשכחו (pl) + מ: תשכחו מחופשה השנה."
+      },
+      {
+        "he": "אל תיכנס ללחץ",
+        "en": "don't panic / don't stress",
+        "note": "להיכנס ללחץ = to get stressed. To a woman: אל תיכנסי ללחץ."
+      },
+      {
+        "he": "לא בא בחשבון",
+        "en": "out of the question",
+        "note": "A firm 'no', common at work too: לבטל את הפגישה לא בא בחשבון."
+      },
+      {
+        "he": "לא עולה שקל",
+        "en": "doesn't cost a thing",
+        "note": "Literally 'doesn't cost a shekel'."
+      },
+      {
+        "he": "סגור",
+        "en": "done / it's settled",
+        "note": "Slang for 'agreed'. Close relative: סגרנו = we have a deal."
+      }
+    ]
+  },
+  {
+    "id": "s_news_prices_shekel",
+    "level": "B2",
+    "title": "המחירים עולים, השקל נחלש",
+    "titleEn": "Prices Up, Shekel Down",
+    "genre": "news",
+    "synopsis": "In a fictional evening-news economy segment, anchor Alon asks economics correspondent Dana why prices are rising, what the weak shekel has to do with it, and what families can expect.",
+    "speakers": {
+      "A": {
+        "name": "אלון",
+        "gender": "m"
+      },
+      "B": {
+        "name": "דנה",
+        "gender": "f"
+      }
+    },
+    "lines": [
+      {
+        "s": "A",
+        "he": "ונעבור לכלכלה. מדד המחירים לצרכן שפורסם היום עלה יותר ממה שציפו הכלכלנים.",
+        "en": "And now to the economy. The consumer price index published today rose more than economists expected."
+      },
+      {
+        "s": "A",
+        "he": "איתנו כתבת הכלכלה שלנו, דנה כהן. ערב טוב, דנה. מה עומד מאחורי העלייה?",
+        "en": "With us is our economics correspondent, Dana Cohen. Good evening, Dana. What's behind the rise?"
+      },
+      {
+        "s": "B",
+        "he": "ערב טוב, אלון. העלייה הגיעה בעיקר משלושה תחומים: מזון, שכר דירה וטיסות לחוץ לארץ.",
+        "en": "Good evening, Alon. The rise came mainly from three areas: food, rent and flights abroad."
+      },
+      {
+        "s": "B",
+        "he": "וברקע, השקל נחלש מול הדולר בשבועות האחרונים, וההשפעה כבר ניכרת על המדפים.",
+        "en": "And in the background, the shekel has weakened against the dollar in recent weeks, and the effect is already visible on the shelves."
+      },
+      {
+        "s": "A",
+        "he": "רגע, תסבירי לצופים: למה שקל חלש מייקר לנו את הקניות?",
+        "en": "Wait, explain to the viewers: why does a weak shekel make our shopping more expensive?"
+      },
+      {
+        "s": "B",
+        "he": "כי חלק גדול ממה שאנחנו קונים מיובא. היבואנים משלמים בדולרים, ומגלגלים את העלויות על הצרכנים.",
+        "en": "Because a large part of what we buy is imported. Importers pay in dollars, and pass the costs on to consumers."
+      },
+      {
+        "s": "A",
+        "he": "וזה נוגע רק למוצרים מיובאים?",
+        "en": "And does that only affect imported products?"
+      },
+      {
+        "s": "B",
+        "he": "לא רק. גם יצרנים מקומיים קונים חלק מחומרי הגלם בחוץ לארץ, ולכן גם מוצרים מתוצרת הארץ מתייקרים.",
+        "en": "Not only. Local manufacturers also buy some of their raw materials abroad, so locally made products are getting more expensive too."
+      },
+      {
+        "s": "A",
+        "he": "ושכר הדירה? גם הוא קשור לשקל?",
+        "en": "And rent? Is that linked to the shekel too?"
+      },
+      {
+        "s": "B",
+        "he": "לא באופן ישיר. שם הגורם העיקרי הוא ביקוש גבוה לדירות להשכרה, במיוחד במרכז הארץ.",
+        "en": "Not directly. There the main factor is high demand for rental apartments, especially in the center of the country."
+      },
+      {
+        "s": "A",
+        "he": "ומה עם הריבית? יש כבר מי שמדבר על העלאה.",
+        "en": "And what about the interest rate? Some people are already talking about a hike."
+      },
+      {
+        "s": "B",
+        "he": "ההחלטה הבאה על הריבית צפויה בקרוב, והכלכלנים חלוקים.",
+        "en": "The next interest rate decision is expected soon, and economists are divided."
+      },
+      {
+        "s": "B",
+        "he": "חלקם אומרים שצריך לבלום את האינפלציה עכשיו, לפני שהיא יוצאת משליטה.",
+        "en": "Some say inflation has to be curbed now, before it gets out of control."
+      },
+      {
+        "s": "A",
+        "he": "ומה טוענים אלה שמתנגדים להעלאה?",
+        "en": "And what do those who oppose a hike argue?"
+      },
+      {
+        "s": "B",
+        "he": "שהעלאת ריבית תפגע בעיקר במשפחות עם משכנתא, שההחזר החודשי שלהן כבר גבוה.",
+        "en": "That a rate hike would mainly hurt families with a mortgage, whose monthly repayment is already high."
+      },
+      {
+        "s": "A",
+        "he": "בשורה התחתונה, דנה: מה זה אומר למשפחה הממוצעת בחודשים הקרובים?",
+        "en": "Bottom line, Dana: what does this mean for the average family in the coming months?"
+      },
+      {
+        "s": "B",
+        "he": "שסל הקניות כנראה ימשיך להתייקר, לפחות בטווח הקצר.",
+        "en": "That the shopping basket will probably keep getting more expensive, at least in the short term."
+      },
+      {
+        "s": "B",
+        "he": "המומחים ממליצים להשוות מחירים, לקנות מותגים פרטיים ולבדוק את תנאי המשכנתא.",
+        "en": "Experts recommend comparing prices, buying store brands and checking your mortgage terms."
+      },
+      {
+        "s": "A",
+        "he": "ומה לגבי מי שמתכנן חופשה בחוץ לארץ?",
+        "en": "And what about people who are planning a vacation abroad?"
+      },
+      {
+        "s": "B",
+        "he": "כדאי להזמין מוקדם ולעקוב אחרי שער החליפין, כי מחירי הטיסות והמלונות נקבעים לרוב במטבע זר.",
+        "en": "It's worth booking early and keeping an eye on the exchange rate, because flight and hotel prices are usually set in foreign currency."
+      },
+      {
+        "s": "A",
+        "he": "ויש גם חדשות טובות, או שהכול מדאיג?",
+        "en": "And is there any good news, or is it all worrying?"
+      },
+      {
+        "s": "B",
+        "he": "יש. שוק העבודה עדיין חזק, והשכר במשק ממשיך לעלות, גם אם לאט.",
+        "en": "There is. The job market is still strong, and wages in the economy keep rising, if slowly."
+      },
+      {
+        "s": "A",
+        "he": "דנה כהן, תודה רבה. ואחרי הפרסומות: מזג האוויר לסוף השבוע.",
+        "en": "Dana Cohen, thank you very much. And after the break: the weather for the weekend."
+      }
+    ],
+    "questions": [
+      {
+        "q": "למה שקל חלש מייקר את הקניות?",
+        "qEn": "Why does a weak shekel make shopping more expensive?",
+        "answer": "כי הרבה מוצרים מיובאים, והיבואנים משלמים בדולרים.",
+        "answerEn": "Because many products are imported, and importers pay in dollars.",
+        "keywords": [
+          [
+            "מיובא",
+            "מיובאים",
+            "יבוא",
+            "ייבוא",
+            "יבואן",
+            "יבואנים"
+          ],
+          [
+            "דולר",
+            "דולרים"
+          ]
+        ]
+      },
+      {
+        "q": "מה אומרים הכלכלנים שרוצים להעלות את הריבית?",
+        "qEn": "What do the economists who want to raise the interest rate say?",
+        "answer": "שצריך לבלום את האינפלציה לפני שהיא יוצאת משליטה.",
+        "answerEn": "That inflation must be curbed before it gets out of control.",
+        "keywords": [
+          [
+            "אינפלציה",
+            "מחירים",
+            "יוקר"
+          ],
+          [
+            "לבלום",
+            "לעצור",
+            "בלימה",
+            "שליטה"
+          ]
+        ]
+      },
+      {
+        "q": "ולמה אחרים מתנגדים להעלאה?",
+        "qEn": "And why do others oppose a hike?",
+        "answer": "כי היא תפגע במשפחות עם משכנתא.",
+        "answerEn": "Because it would hurt families with a mortgage.",
+        "keywords": [
+          [
+            "משכנתא",
+            "משכנתאות",
+            "משכנתה"
+          ],
+          [
+            "לפגוע",
+            "יפגע",
+            "תפגע",
+            "פוגע",
+            "פוגעת",
+            "פגיעה",
+            "החזר"
+          ]
+        ]
+      },
+      {
+        "q": "מה ממליצים המומחים למשפחות?",
+        "qEn": "What do experts recommend to families?",
+        "answer": "להשוות מחירים ולקנות מותגים פרטיים.",
+        "answerEn": "To compare prices and buy store brands.",
+        "keywords": [
+          [
+            "להשוות",
+            "השוואה",
+            "השוואת",
+            "משווים",
+            "תשוו"
+          ],
+          [
+            "מותג",
+            "מותגים",
+            "פרטי",
+            "פרטיים"
+          ]
+        ]
+      },
+      {
+        "q": "מה החדשות הטובות בסוף הכתבה?",
+        "qEn": "What is the good news at the end of the report?",
+        "answer": "שוק העבודה עדיין חזק, והשכר ממשיך לעלות.",
+        "answerEn": "The job market is still strong, and wages keep rising.",
+        "keywords": [
+          [
+            "עבודה",
+            "תעסוקה"
+          ],
+          [
+            "שכר",
+            "משכורות",
+            "משכורת"
+          ]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "מדד המחירים לצרכן עלה פחות מכפי שציפו הכלכלנים.",
+        "sEn": "The consumer price index rose less than economists had expected.",
+        "a": false,
+        "why": "The anchor says it rose יותר ממה שציפו הכלכלנים, 'more than economists expected'."
+      },
+      {
+        "s": "לפי דנה, העלייה נבעה בעיקר מהמזון, משכר הדירה ומהטיסות לחוץ לארץ.",
+        "sEn": "According to Dana, the rise came mainly from food, rent and flights abroad.",
+        "a": true,
+        "why": "She names exactly these three areas: מזון, שכר דירה וטיסות לחוץ לארץ."
+      },
+      {
+        "s": "כל הכלכלנים מסכימים שיש להעלות את הריבית כבר עכשיו.",
+        "sEn": "All economists agree that interest rates should be raised right now.",
+        "a": false,
+        "why": "Dana says הכלכלנים חלוקים, 'economists are divided': some want to curb inflation now, others warn that a hike would hurt families with a mortgage."
+      },
+      {
+        "s": "דנה צופה שסל הקניות ימשיך להתייקר, לפחות בטווח הקצר.",
+        "sEn": "Dana expects the shopping basket to keep getting more expensive, at least in the short term.",
+        "a": true,
+        "why": "Asked for the bottom line, she says סל הקניות כנראה ימשיך להתייקר, לפחות בטווח הקצר."
+      }
+    ],
+    "dictation": [
+      11,
+      16,
+      20
+    ],
+    "expressions": [
+      {
+        "he": "מדד המחירים לצרכן",
+        "en": "the consumer price index (CPI)",
+        "note": "Often just המדד: המדד עלה / ירד = the index rose / fell."
+      },
+      {
+        "he": "השקל נחלש מול הדולר",
+        "en": "the shekel weakened against the dollar",
+        "note": "Opposite: השקל התחזק. With currencies, מול = against."
+      },
+      {
+        "he": "לגלגל את העלויות על הצרכנים",
+        "en": "to pass the costs on to consumers",
+        "note": "Literally 'to roll the costs onto'. Very common in economic news."
+      },
+      {
+        "he": "הכלכלנים חלוקים",
+        "en": "economists are divided",
+        "note": "חלוקים = divided in opinion. Also: הדעות חלוקות = opinions differ."
+      },
+      {
+        "he": "בשורה התחתונה",
+        "en": "bottom line",
+        "note": "Used to ask for, or give, the main conclusion."
+      },
+      {
+        "he": "בטווח הקצר",
+        "en": "in the short term",
+        "note": "Opposite: בטווח הארוך = in the long term."
+      }
+    ]
+  },
+  {
+    "id": "s_radio_parking_policy",
+    "level": "B2",
+    "title": "חנייה במרכז העיר",
+    "titleEn": "Parking in the City Center",
+    "genre": "interview",
+    "synopsis": "On a local radio show, host Ilana challenges deputy mayor Avner Shalev about the city's new paid-parking policy in the city center.",
+    "speakers": {
+      "A": {
+        "name": "אילנה",
+        "gender": "f"
+      },
+      "B": {
+        "name": "אבנר",
+        "gender": "m"
+      }
+    },
+    "lines": [
+      {
+        "s": "A",
+        "he": "איתנו על הקו סגן ראש העיר, אבנר שלו. בוקר טוב.",
+        "en": "With us on the line is the deputy mayor, Avner Shalev. Good morning."
+      },
+      {
+        "s": "B",
+        "he": "בוקר טוב, אילנה, ובוקר טוב לכל המאזינים.",
+        "en": "Good morning, Ilana, and good morning to all the listeners."
+      },
+      {
+        "s": "A",
+        "he": "מהחודש הבא, החנייה במרכז העיר תהיה בתשלום עד עשר בלילה. למה?",
+        "en": "From next month, parking in the city center will be paid until ten at night. Why?"
+      },
+      {
+        "s": "B",
+        "he": "כי מרכז העיר פשוט קורס. אנשים מסתובבים חצי שעה עד שהם מוצאים חנייה.",
+        "en": "Because the city center is simply collapsing. People drive around for half an hour before they find parking."
+      },
+      {
+        "s": "B",
+        "he": "המטרה היא להוריד את כמות הרכבים ולעודד אנשים להגיע בתחבורה ציבורית.",
+        "en": "The goal is to reduce the number of cars and to encourage people to come by public transport."
+      },
+      {
+        "s": "A",
+        "he": "עם כל הכבוד, אבנר, האוטובוסים אצלנו מגיעים מתי שבא להם.",
+        "en": "With all due respect, Avner, our buses come whenever they feel like it."
+      },
+      {
+        "s": "B",
+        "he": "אני לא מתווכח עם זה. לכן הוספנו שלושה קווים חדשים, ויותר אוטובוסים בערב.",
+        "en": "I'm not arguing with that. That's why we've added three new lines, and more buses in the evening."
+      },
+      {
+        "s": "A",
+        "he": "שלושה קווים לעיר שלמה? זו טיפה בים.",
+        "en": "Three lines for a whole city? That's a drop in the ocean."
+      },
+      {
+        "s": "B",
+        "he": "זו רק ההתחלה. עד סוף השנה ייסלל נתיב תחבורה ציבורית ברחוב הראשי, והתדירות בשעות העומס תוכפל.",
+        "en": "It's only the beginning. By the end of the year a public transport lane will be built on the main street, and the frequency at rush hour will be doubled."
+      },
+      {
+        "s": "A",
+        "he": "בעלי העסקים במרכז אומרים שזו מכה קשה. מי ישלם עשרים שקל כדי לשתות קפה?",
+        "en": "Business owners in the center say it's a heavy blow. Who's going to pay twenty shekels to have a coffee?"
+      },
+      {
+        "s": "B",
+        "he": "בדיוק בגלל זה, רבע השעה הראשון יהיה בחינם. מספיק לקפה או לבית מרקחת.",
+        "en": "Exactly because of that, the first quarter of an hour will be free. Enough for a coffee or the pharmacy."
+      },
+      {
+        "s": "A",
+        "he": "ותושבי המרכז? הם צריכים לשלם כדי לחנות ליד הבית שלהם?",
+        "en": "And the residents of the center? Do they have to pay to park next to their own homes?"
+      },
+      {
+        "s": "B",
+        "he": "ממש לא. תושבים עם תו חנייה ימשיכו לחנות בחינם, כמו היום.",
+        "en": "Absolutely not. Residents with a parking permit will keep parking for free, as they do today."
+      },
+      {
+        "s": "A",
+        "he": "בוא נדבר תכלס. כמה העירייה תרוויח מזה? כי זה נשמע כמו מכונת כסף.",
+        "en": "Let's get real. How much will the municipality make from this? Because it sounds like a cash machine."
+      },
+      {
+        "s": "B",
+        "he": "כל שקל מהחנייה ילך לחניון ציבורי חדש בכניסה לעיר. זה כתוב בהחלטה.",
+        "en": "Every shekel from parking will go to a new public parking garage at the entrance to the city. It's written in the decision."
+      },
+      {
+        "s": "A",
+        "he": "חניון שייפתח, אם בכלל, בעוד שנתיים. ועד אז?",
+        "en": "A parking garage that will open, if at all, in two years. And until then?"
+      },
+      {
+        "s": "B",
+        "he": "עד אז נפעיל שאטל חינם מהחניון הזמני ליד האצטדיון, כל עשר דקות.",
+        "en": "Until then we'll run a free shuttle from the temporary parking lot near the stadium, every ten minutes."
+      },
+      {
+        "s": "A",
+        "he": "ומה עם מי שעובד במרכז עד מאוחר? מלצרים, מוכרות בחנויות, אנשים במשמרות ערב.",
+        "en": "And what about people who work in the center until late? Waiters, shop assistants, people on evening shifts."
+      },
+      {
+        "s": "B",
+        "he": "מי שמועסק במרכז יוכל לקנות מנוי חנייה חודשי במחיר מוזל, והשאטל יפעל עד חצות.",
+        "en": "Anyone employed in the center will be able to buy a monthly parking pass at a reduced price, and the shuttle will run until midnight."
+      },
+      {
+        "s": "A",
+        "he": "ואם בעוד חצי שנה יתברר שזה לא עובד? תהיו מוכנים לחזור בכם?",
+        "en": "And if in six months it turns out that it isn't working? Will you be willing to back down?"
+      },
+      {
+        "s": "B",
+        "he": "בהחלט. נבדוק את הנתונים אחרי חצי שנה, ואם צריך, נתקן. אנחנו לא מקובעים.",
+        "en": "Absolutely. We'll look at the data after six months, and if necessary, we'll fix it. We're not set in our ways."
+      },
+      {
+        "s": "A",
+        "he": "אז נזמין אותך שוב בעוד חצי שנה. אבנר שלו, תודה.",
+        "en": "Then we'll invite you back in six months. Avner Shalev, thank you."
+      }
+    ],
+    "questions": [
+      {
+        "q": "מה משתנה בחודש הבא במרכז העיר?",
+        "qEn": "What changes in the city center next month?",
+        "answer": "החנייה תהיה בתשלום עד עשר בלילה.",
+        "answerEn": "Parking will be paid until ten at night.",
+        "keywords": [
+          [
+            "חנייה",
+            "חניה",
+            "לחנות",
+            "חונים"
+          ],
+          [
+            "תשלום",
+            "לשלם",
+            "משלמים"
+          ],
+          [
+            "עשר",
+            "לילה",
+            "ערב"
+          ]
+        ]
+      },
+      {
+        "q": "מה המטרה של המדיניות החדשה, לפי סגן ראש העיר?",
+        "qEn": "According to the deputy mayor, what is the goal of the new policy?",
+        "answer": "להוריד את כמות הרכבים ולעודד תחבורה ציבורית.",
+        "answerEn": "To reduce the number of cars and encourage public transport.",
+        "keywords": [
+          [
+            "רכבים",
+            "רכב",
+            "מכוניות",
+            "מכונית",
+            "פקקים",
+            "עומס",
+            "תנועה"
+          ],
+          [
+            "תחבורה",
+            "אוטובוסים",
+            "אוטובוס"
+          ]
+        ]
+      },
+      {
+        "q": "מה העירייה עושה בשביל בעלי העסקים?",
+        "qEn": "What is the municipality doing for the business owners?",
+        "answer": "רבע השעה הראשון של החנייה יהיה בחינם.",
+        "answerEn": "The first quarter of an hour of parking will be free.",
+        "keywords": [
+          [
+            "רבע",
+            "דקות"
+          ],
+          [
+            "חינם",
+            "בחינם"
+          ]
+        ]
+      },
+      {
+        "q": "במה המגישה חושדת, ומה אבנר עונה לה?",
+        "qEn": "What does the host suspect, and what does Avner answer her?",
+        "answer": "שהעירייה רוצה להרוויח, אבל הכסף ילך לחניון ציבורי חדש.",
+        "answerEn": "That the municipality wants to make money, but the money will go to a new public parking garage.",
+        "keywords": [
+          [
+            "להרוויח",
+            "תרוויח",
+            "רווח",
+            "מרוויחה",
+            "כסף"
+          ],
+          [
+            "חניון"
+          ]
+        ]
+      },
+      {
+        "q": "מה אבנר מבטיח לעשות אחרי חצי שנה?",
+        "qEn": "What does Avner promise to do after six months?",
+        "answer": "לבדוק את הנתונים, ולתקן אם צריך.",
+        "answerEn": "To check the data, and to fix things if needed.",
+        "keywords": [
+          [
+            "לבדוק",
+            "נבדוק",
+            "יבדקו",
+            "בדיקה",
+            "בודקים"
+          ],
+          [
+            "נתונים",
+            "לתקן",
+            "נתקן",
+            "תיקון",
+            "לשנות",
+            "שינוי"
+          ]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "אבנר מכחיש שיש בעיה עם האוטובוסים בעיר.",
+        "sEn": "Avner denies that there is a problem with the city's buses.",
+        "a": false,
+        "why": "He says אני לא מתווכח עם זה, 'I'm not arguing with that', and explains that the city has added three new lines and more evening buses."
+      },
+      {
+        "s": "תושבי המרכז שיש להם תו חנייה לא יצטרכו לשלם על חנייה ליד הבית.",
+        "sEn": "Center residents who have a parking permit won't have to pay to park near home.",
+        "a": true,
+        "why": "Avner says תושבים עם תו חנייה ימשיכו לחנות בחינם, כמו היום."
+      },
+      {
+        "s": "השאטל מהחניון הזמני ייצא כל חצי שעה.",
+        "sEn": "The shuttle from the temporary parking lot will leave every half hour.",
+        "a": false,
+        "why": "It will run כל עשר דקות, every ten minutes, from the lot near the stadium. Half an hour is how long drivers now spend looking for parking."
+      },
+      {
+        "s": "אילנה מתכוונת להזמין את אבנר שוב לתוכנית בעוד חצי שנה.",
+        "sEn": "Ilana intends to invite Avner back on the show in six months.",
+        "a": true,
+        "why": "She ends with אז נזמין אותך שוב בעוד חצי שנה, the point when Avner promised to check the data."
+      }
+    ],
+    "dictation": [
+      1,
+      5,
+      15
+    ],
+    "expressions": [
+      {
+        "he": "עם כל הכבוד",
+        "en": "with all due respect",
+        "note": "Usually comes right before a criticism."
+      },
+      {
+        "he": "מתי שבא להם",
+        "en": "whenever they feel like it",
+        "note": "בא לי / בא לך / בא להם = I / you / they feel like it. Colloquial."
+      },
+      {
+        "he": "בוא נדבר תכלס",
+        "en": "let's get down to brass tacks",
+        "note": "תכלס (from Yiddish) = for real, in practice. To a woman: בואי נדבר תכלס."
+      },
+      {
+        "he": "מכונת כסף",
+        "en": "a cash machine (a money-maker)",
+        "note": "Critical phrase for a scheme that seems designed to make money."
+      },
+      {
+        "he": "אם בכלל",
+        "en": "if at all",
+        "note": "Adds doubt: הוא יגיע בעשר, אם בכלל."
+      },
+      {
+        "he": "לחזור בו",
+        "en": "to back down, to retract",
+        "note": "Conjugated with ב + pronoun: לחזור בי / בך / בו / בנו / בכם."
+      }
+    ]
+  },
+  {
+    "id": "s_board_launch_delay",
+    "level": "B2",
+    "title": "לדחות את ההשקה?",
+    "titleEn": "Delay the Launch?",
+    "genre": "meeting",
+    "synopsis": "Two weeks before a big launch, R&D head Ido has found a serious bug. In a tense management meeting chaired by Orit, he clashes with marketing head Hila over whether to postpone.",
+    "speakers": {
+      "A": {
+        "name": "אורית",
+        "gender": "f"
+      },
+      "B": {
+        "name": "עידו",
+        "gender": "m"
+      },
+      "C": {
+        "name": "הילה",
+        "gender": "f"
+      }
+    },
+    "lines": [
+      {
+        "s": "A",
+        "he": "בואו נתחיל. יש לנו החלטה אחת היום: משיקים בעוד שבועיים, או דוחים.",
+        "en": "Let's begin. We have one decision today: we launch in two weeks, or we postpone."
+      },
+      {
+        "s": "A",
+        "he": "עידו, אתה ביקשת את הישיבה הזאת. הבמה שלך.",
+        "en": "Ido, you asked for this meeting. The floor is yours."
+      },
+      {
+        "s": "B",
+        "he": "בבדיקות של השבוע מצאנו באג קריטי במערכת התשלומים. חלק מהלקוחות מחויבים פעמיים.",
+        "en": "In this week's tests we found a critical bug in the payment system. Some customers get charged twice."
+      },
+      {
+        "s": "B",
+        "he": "אני לא מוכן להוציא לשוק מוצר שגובה כסף פעמיים. אני צריך עוד חודש.",
+        "en": "I'm not willing to put a product on the market that charges people twice. I need another month."
+      },
+      {
+        "s": "C",
+        "he": "חודש? עידו, הקמפיין כבר שולם, והאירוע לעיתונאים כבר נקבע.",
+        "en": "A month? Ido, the campaign has already been paid for, and the press event is already scheduled."
+      },
+      {
+        "s": "C",
+        "he": "וחוץ מזה, המתחרים משיקים מוצר דומה בעוד חודש. אם נדחה, הם יקדימו אותנו.",
+        "en": "And besides, our competitors are launching a similar product in a month. If we postpone, they'll beat us to it."
+      },
+      {
+        "s": "B",
+        "he": "עדיף להגיע למקום השני עם מוצר שעובד, מאשר לראשון עם מוצר תקול.",
+        "en": "Better to come in second with a product that works than first with a faulty one."
+      },
+      {
+        "s": "C",
+        "he": "קל לך להגיד. אתה לא זה שצריך להסביר לעיתונאים למה דחינו.",
+        "en": "Easy for you to say. You're not the one who has to explain to the journalists why we postponed."
+      },
+      {
+        "s": "A",
+        "he": "רגע, רגע. בואו נוריד את הטונים. עידו, אפשר לתקן את זה מהר יותר?",
+        "en": "Hold on, hold on. Let's bring the tone down. Ido, can it be fixed any faster?"
+      },
+      {
+        "s": "B",
+        "he": "אם אקבל עוד שני מפתחים מצוות האפליקציה, אולי בשלושה שבועות. לא פחות.",
+        "en": "If I get two more developers from the app team, maybe in three weeks. Not less."
+      },
+      {
+        "s": "A",
+        "he": "ומה זה עושה לצוות האפליקציה? הם באמצע גרסה חדשה.",
+        "en": "And what does that do to the app team? They're in the middle of a new version."
+      },
+      {
+        "s": "B",
+        "he": "הגרסה שלהם תתעכב בשבועיים. זה כואב, אבל הרבה פחות מכותרת על לקוחות שחויבו פעמיים.",
+        "en": "Their version will be delayed by two weeks. It hurts, but a lot less than a headline about customers who were charged twice."
+      },
+      {
+        "s": "C",
+        "he": "פה אני מסכימה איתך. כותרת כזאת הייתה הורסת לנו את המותג.",
+        "en": "On that I agree with you. A headline like that would wreck our brand."
+      },
+      {
+        "s": "C",
+        "he": "ומה אני עושה עם האירוע? כבר שלחנו הזמנות.",
+        "en": "And what do I do about the event? We've already sent out invitations."
+      },
+      {
+        "s": "A",
+        "he": "האירוע נשאר בתאריך שלו. אבל במקום השקה מלאה, נעשה השקה מצומצמת.",
+        "en": "The event stays on its date. But instead of a full launch, we'll do a limited launch."
+      },
+      {
+        "s": "A",
+        "he": "נציג את המוצר, נפתח רשימת המתנה, ואת התשלומים נפעיל רק כשעידו ייתן אור ירוק.",
+        "en": "We'll present the product, open a waiting list, and switch on payments only when Ido gives the green light."
+      },
+      {
+        "s": "C",
+        "he": "רשימת המתנה... זה דווקא יכול לייצר באזז. אני יכולה לעבוד עם זה.",
+        "en": "A waiting list... that could actually create some buzz. I can work with that."
+      },
+      {
+        "s": "B",
+        "he": "ואני מבקש שיירשם בפרוטוקול: בלי האישור שלי, התשלומים לא עולים לאוויר.",
+        "en": "And I'd like it in the minutes: without my approval, payments don't go live."
+      },
+      {
+        "s": "A",
+        "he": "נרשם. אז ההחלטה: השקה מצומצמת בתאריך המקורי, ותשלומים בעוד שלושה שבועות.",
+        "en": "Noted. So the decision: a limited launch on the original date, and payments in three weeks."
+      },
+      {
+        "s": "C",
+        "he": "אני מעדכנת את המוזמנים ומכינה הודעה לעיתונות על רשימת ההמתנה.",
+        "en": "I'll update the invitees and prepare a press release about the waiting list."
+      },
+      {
+        "s": "A",
+        "he": "מישהו מתנגד? לא? אז סגרנו. תודה לכולם.",
+        "en": "Anyone against? No? Then it's settled. Thank you, everyone."
+      }
+    ],
+    "questions": [
+      {
+        "q": "מה עידו מצא בבדיקות של השבוע?",
+        "qEn": "What did Ido find in this week's tests?",
+        "answer": "באג קריטי במערכת התשלומים: חלק מהלקוחות מחויבים פעמיים.",
+        "answerEn": "A critical bug in the payment system: some customers are charged twice.",
+        "keywords": [
+          [
+            "באג",
+            "תקלה"
+          ],
+          [
+            "תשלומים",
+            "תשלום",
+            "מחויבים",
+            "מחייב",
+            "לחייב",
+            "חיוב"
+          ],
+          [
+            "פעמיים",
+            "כפול"
+          ]
+        ]
+      },
+      {
+        "q": "למה הילה מתנגדת לדחייה?",
+        "qEn": "Why does Hila oppose postponing?",
+        "answer": "כי הקמפיין כבר שולם, והמתחרים משיקים מוצר דומה.",
+        "answerEn": "Because the campaign has already been paid for, and the competitors are launching a similar product.",
+        "keywords": [
+          [
+            "קמפיין",
+            "אירוע",
+            "עיתונאים",
+            "הזמנות",
+            "פרסום"
+          ],
+          [
+            "מתחרים",
+            "מתחרה",
+            "תחרות"
+          ]
+        ]
+      },
+      {
+        "q": "מה עידו צריך כדי לתקן את הבאג בשלושה שבועות?",
+        "qEn": "What does Ido need in order to fix the bug in three weeks?",
+        "answer": "עוד שני מפתחים מצוות האפליקציה.",
+        "answerEn": "Two more developers from the app team.",
+        "keywords": [
+          [
+            "מפתחים",
+            "מפתח",
+            "מתכנתים",
+            "מתכנת",
+            "אנשים",
+            "עובדים"
+          ]
+        ]
+      },
+      {
+        "q": "מה ההחלטה הסופית?",
+        "qEn": "What is the final decision?",
+        "answer": "השקה מצומצמת בתאריך המקורי, ותשלומים רק בעוד שלושה שבועות.",
+        "answerEn": "A limited launch on the original date, and payments only in three weeks.",
+        "keywords": [
+          [
+            "מצומצמת",
+            "מצומצם",
+            "חלקית",
+            "קטנה",
+            "רכה"
+          ],
+          [
+            "תשלומים",
+            "תשלום",
+            "המתנה"
+          ]
+        ]
+      },
+      {
+        "q": "מה עידו מבקש לרשום בפרוטוקול?",
+        "qEn": "What does Ido ask to have recorded in the minutes?",
+        "answer": "שבלי האישור שלו, התשלומים לא יעלו לאוויר.",
+        "answerEn": "That without his approval, payments won't go live.",
+        "keywords": [
+          [
+            "אישור",
+            "לאשר",
+            "יאשר",
+            "מאשר",
+            "אור ירוק"
+          ],
+          [
+            "תשלומים",
+            "תשלום"
+          ]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "עידו מעדיף להגיע ראשון לשוק, גם עם מוצר שיש בו תקלות.",
+        "sEn": "Ido would rather reach the market first, even with a product that has faults.",
+        "a": false,
+        "why": "He says the opposite: עדיף להגיע למקום השני עם מוצר שעובד, מאשר לראשון עם מוצר תקול."
+      },
+      {
+        "s": "עידו הוא זה שביקש את הישיבה.",
+        "sEn": "Ido is the one who asked for the meeting.",
+        "a": true,
+        "why": "Orit opens with עידו, אתה ביקשת את הישיבה הזאת. הבמה שלך."
+      },
+      {
+        "s": "אורית מחליטה לבטל את האירוע לעיתונאים.",
+        "sEn": "Orit decides to cancel the press event.",
+        "a": false,
+        "why": "She says האירוע נשאר בתאריך שלו, 'the event stays on its date'. Only the launch itself is scaled down to a limited one with a waiting list."
+      },
+      {
+        "s": "הילה מגיבה בחיוב לרעיון של רשימת המתנה.",
+        "sEn": "Hila reacts positively to the idea of a waiting list.",
+        "a": true,
+        "why": "She says it could actually create buzz, and adds אני יכולה לעבוד עם זה, 'I can work with that'."
+      }
+    ],
+    "dictation": [
+      1,
+      13,
+      20
+    ],
+    "expressions": [
+      {
+        "he": "הבמה שלך",
+        "en": "the floor is yours",
+        "note": "Inviting someone to present. Same spelling to a man or a woman, pronounced shelkhá / shelákh."
+      },
+      {
+        "he": "קל לך להגיד",
+        "en": "easy for you to say",
+        "note": "Slightly confrontational."
+      },
+      {
+        "he": "בואו נוריד את הטונים",
+        "en": "let's calm things down",
+        "note": "Literally 'let's lower the tones'. Said by someone mediating a heated discussion."
+      },
+      {
+        "he": "לתת אור ירוק",
+        "en": "to give the green light",
+        "note": "Same image as in English. Also: לקבל אור ירוק = to get the green light."
+      },
+      {
+        "he": "לעלות לאוויר",
+        "en": "to go live",
+        "note": "For websites, features, campaigns and TV shows: האתר עלה לאוויר."
+      },
+      {
+        "he": "שיירשם בפרוטוקול",
+        "en": "let it be put on record",
+        "note": "פרוטוקול = the minutes of a meeting. The reply נרשם = noted."
+      }
+    ]
+  },
+  {
+    "id": "s_apartment_contract_lawyer",
+    "level": "B2",
+    "title": "לפני החתימה",
+    "titleEn": "Before Signing",
+    "genre": "drama",
+    "synopsis": "Elad and Liat are about to buy their first apartment. Just before signing, their lawyer Rana tells them she has found two serious problems in the contract.",
+    "speakers": {
+      "A": {
+        "name": "רנא",
+        "gender": "f"
+      },
+      "B": {
+        "name": "אלעד",
+        "gender": "m"
+      },
+      "C": {
+        "name": "ליאת",
+        "gender": "f"
+      }
+    },
+    "lines": [
+      {
+        "s": "A",
+        "he": "שבו, בבקשה. קראתי את החוזה פעמיים, ואני חייבת להגיד לכם: אני לא רגועה.",
+        "en": "Please, sit down. I read the contract twice, and I have to tell you: I'm not comfortable."
+      },
+      {
+        "s": "C",
+        "he": "מה זאת אומרת? המוכר רוצה לחתום כבר היום. יש עוד זוג שמעוניין בדירה.",
+        "en": "What do you mean? The seller wants to sign today. There's another couple interested in the apartment."
+      },
+      {
+        "s": "A",
+        "he": "זה בדיוק מה שמוכרים אומרים כשהם רוצים שתחתמו מהר. בואו נעבור על הבעיות.",
+        "en": "That's exactly what sellers say when they want you to sign fast. Let's go over the problems."
+      },
+      {
+        "s": "A",
+        "he": "ראשית, רשומה על הדירה משכנתא של המוכר, והיא עדיין לא סולקה.",
+        "en": "First, the seller has a mortgage registered on the apartment, and it hasn't been paid off yet."
+      },
+      {
+        "s": "B",
+        "he": "ומה זה אומר בשבילנו? שאנחנו עלולים לשלם, ולהישאר בלי דירה?",
+        "en": "And what does that mean for us? That we could pay and end up without an apartment?"
+      },
+      {
+        "s": "A",
+        "he": "בתרחיש הגרוע, כן. לכן אני אדרוש שחלק מהתשלום הראשון יעבור ישר לבנק שלו.",
+        "en": "In the worst case, yes. That's why I'll demand that part of the first payment go straight to his bank."
+      },
+      {
+        "s": "C",
+        "he": "וזה מקובל? המוכר לא ייעלב?",
+        "en": "And is that acceptable? Won't the seller be offended?"
+      },
+      {
+        "s": "A",
+        "he": "ממש לא. זה נוהל רגיל בעסקאות שיש בהן משכנתא, ועורך הדין שלו מכיר את זה היטב.",
+        "en": "Not at all. It's standard procedure in deals that involve a mortgage, and his lawyer knows that well."
+      },
+      {
+        "s": "A",
+        "he": "שנית, המרפסת הסגורה שכל כך אהבתם נבנתה בלי היתר. זו חריגת בנייה.",
+        "en": "Second, the enclosed balcony you loved so much was built without a permit. That's a building violation."
+      },
+      {
+        "s": "C",
+        "he": "אבל כל הבניין סגר מרפסות. אף אחד לא עושה מזה עניין.",
+        "en": "But the whole building has closed in their balconies. Nobody makes a big deal out of it."
+      },
+      {
+        "s": "A",
+        "he": "עד שהעירייה כן עושה מזה עניין. ואז הקנס מגיע אליכם, לא אליו.",
+        "en": "Until the municipality does make a big deal out of it. And then the fine comes to you, not to him."
+      },
+      {
+        "s": "B",
+        "he": "ליאת, את שומעת? אמרתי לך שאנחנו ממהרים מדי.",
+        "en": "Liat, are you hearing this? I told you we were rushing."
+      },
+      {
+        "s": "C",
+        "he": "ואני אמרתי לך שדירות כאלה לא מחכות לאף אחד. חיפשנו שנה וחצי, אלעד!",
+        "en": "And I told you that apartments like this don't wait for anyone. We've been looking for a year and a half, Elad!"
+      },
+      {
+        "s": "A",
+        "he": "תקשיבו, אני לא אומרת לוותר על הדירה. אני אומרת לא לחתום על החוזה הזה.",
+        "en": "Listen, I'm not saying give up the apartment. I'm saying don't sign this contract."
+      },
+      {
+        "s": "B",
+        "he": "אז מה את מציעה שנעשה?",
+        "en": "So what do you suggest we do?"
+      },
+      {
+        "s": "A",
+        "he": "היום אני שולחת לעורך הדין של המוכר שני תיקונים, ובלעדיהם אנחנו לא חותמים.",
+        "en": "Today I'm sending the seller's lawyer two amendments, and without them we don't sign."
+      },
+      {
+        "s": "A",
+        "he": "המשכנתא שלו תסולק מהתשלום הראשון, והוא ייקח אחריות על המרפסת, או יוריד מהמחיר.",
+        "en": "His mortgage gets paid off from the first payment, and he takes responsibility for the balcony, or lowers the price."
+      },
+      {
+        "s": "C",
+        "he": "ואם הוא יגיד לא, וימכור לזוג השני?",
+        "en": "And what if he says no, and sells to the other couple?"
+      },
+      {
+        "s": "A",
+        "he": "אז אולי זה סימן שהיה לו מה להסתיר. מוכר רציני לא בורח בגלל תיקונים סבירים.",
+        "en": "Then maybe that's a sign he had something to hide. A serious seller doesn't run away over reasonable amendments."
+      },
+      {
+        "s": "B",
+        "he": "אני בעד. ליאת?",
+        "en": "I'm in. Liat?"
+      },
+      {
+        "s": "C",
+        "he": "טוב. בלב כבד, אבל טוב. רק תעשי את זה מהר, בבקשה.",
+        "en": "Okay. With a heavy heart, but okay. Just do it fast, please."
+      }
+    ],
+    "questions": [
+      {
+        "q": "למה ליאת רוצה לחתום כבר היום?",
+        "qEn": "Why does Liat want to sign today?",
+        "answer": "כי יש עוד זוג שמעוניין בדירה.",
+        "answerEn": "Because there's another couple interested in the apartment.",
+        "keywords": [
+          [
+            "זוג",
+            "קונה",
+            "קונים",
+            "מעוניין",
+            "מעוניינים"
+          ]
+        ]
+      },
+      {
+        "q": "מה הבעיה הראשונה שרנא מצאה בחוזה?",
+        "qEn": "What is the first problem Rana found in the contract?",
+        "answer": "יש על הדירה משכנתא של המוכר, שעוד לא סולקה.",
+        "answerEn": "The seller has a mortgage on the apartment that hasn't been paid off yet.",
+        "keywords": [
+          [
+            "משכנתא",
+            "משכנתה",
+            "הלוואה"
+          ]
+        ]
+      },
+      {
+        "q": "מה הבעיה עם המרפסת, ולמה זה מסוכן לזוג?",
+        "qEn": "What's the problem with the balcony, and why is it risky for the couple?",
+        "answer": "היא נבנתה בלי היתר, והקנס יגיע אליהם ולא למוכר.",
+        "answerEn": "It was built without a permit, and the fine would come to them, not to the seller.",
+        "keywords": [
+          [
+            "היתר",
+            "אישור",
+            "חריגת",
+            "חריגה",
+            "חוקית",
+            "חוקי"
+          ],
+          [
+            "קנס",
+            "קנסות",
+            "עירייה"
+          ]
+        ]
+      },
+      {
+        "q": "אילו שני תיקונים רנא דורשת?",
+        "qEn": "Which two amendments does Rana demand?",
+        "answer": "שהמשכנתא תסולק מהתשלום הראשון, ושהמוכר ייקח אחריות על המרפסת.",
+        "answerEn": "That the mortgage be paid off from the first payment, and that the seller take responsibility for the balcony.",
+        "keywords": [
+          [
+            "משכנתא",
+            "משכנתה"
+          ],
+          [
+            "מרפסת",
+            "אחריות",
+            "מחיר"
+          ]
+        ]
+      },
+      {
+        "q": "מה הזוג מחליט בסוף?",
+        "qEn": "What does the couple decide in the end?",
+        "answer": "לא לחתום בלי התיקונים, ולחכות לתשובה של המוכר.",
+        "answerEn": "Not to sign without the amendments, and to wait for the seller's answer.",
+        "keywords": [
+          [
+            "לחתום",
+            "חותמים",
+            "חתימה",
+            "יחתמו",
+            "חתמו",
+            "נחתום"
+          ],
+          [
+            "תיקונים",
+            "תיקון",
+            "תשובה",
+            "לחכות",
+            "מחכים",
+            "שינויים"
+          ]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "רנא ממליצה לזוג לוותר על הדירה.",
+        "sEn": "Rana advises the couple to give up on the apartment.",
+        "a": false,
+        "why": "She says explicitly אני לא אומרת לוותר על הדירה. אני אומרת לא לחתום על החוזה הזה."
+      },
+      {
+        "s": "אלעד חשש עוד לפני הפגישה שהם ממהרים מדי.",
+        "sEn": "Even before the meeting, Elad was worried that they were rushing.",
+        "a": true,
+        "why": "He reminds Liat: אמרתי לך שאנחנו ממהרים מדי, 'I told you we were rushing'."
+      },
+      {
+        "s": "ליאת ואלעד חיפשו דירה במשך שנה וחצי.",
+        "sEn": "Liat and Elad spent a year and a half looking for an apartment.",
+        "a": true,
+        "why": "Liat says חיפשנו שנה וחצי, which is why she is afraid of losing this apartment."
+      },
+      {
+        "s": "ליאת מסכימה לתוכנית של רנא בלי שום היסוס.",
+        "sEn": "Liat agrees to Rana's plan without any hesitation.",
+        "a": false,
+        "why": "She agrees בלב כבד, 'with a heavy heart', and asks Rana to act fast."
+      }
+    ],
+    "dictation": [
+      11,
+      14,
+      17
+    ],
+    "expressions": [
+      {
+        "he": "מה זאת אומרת?",
+        "en": "what do you mean?",
+        "note": "Shows surprise or asks for clarification."
+      },
+      {
+        "he": "לסלק משכנתא",
+        "en": "to pay off a mortgage",
+        "note": "Banking and legal term; סילוק = full repayment of a debt."
+      },
+      {
+        "he": "חריגת בנייה",
+        "en": "building violation (built without a permit)",
+        "note": "A common issue in Israeli real estate. היתר בנייה = building permit."
+      },
+      {
+        "he": "לעשות מזה עניין",
+        "en": "to make a big deal out of it",
+        "note": "אל תעשה מזה עניין = don't make a fuss about it."
+      },
+      {
+        "he": "היה לו מה להסתיר",
+        "en": "he had something to hide",
+        "note": "Pattern יש לי מה + infinitive: יש לי מה להגיד = I have something to say."
+      },
+      {
+        "he": "בלב כבד",
+        "en": "with a heavy heart",
+        "note": "Used when agreeing to something reluctantly."
+      }
+    ]
+  }
+]

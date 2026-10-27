@@ -1,0 +1,461 @@
+[
+  {
+    "id": "s_c1_lecture_history",
+    "level": "C1",
+    "title": "מצפה אורן: מהשרטוט לעיר",
+    "titleEn": "Mitzpe Oren: From Blueprint to Town",
+    "genre": "lecture",
+    "synopsis": "In a university course on the history of planning in Israel, Dr. Naama Alkalay presents a case study: Mitzpe Oren, a fictional development town in the northern Negev. Listen for the many passive verbs she uses to tell the town's story, and for a student's two questions.",
+    "speakers": {
+      "A": { "name": "ד״ר נעמה אלקלעי", "gender": "f" },
+      "B": { "name": "אמיר", "gender": "m" }
+    },
+    "lines": [
+      { "s": "A", "he": "שלום לכולם. בשיעור הקודם עסקנו בתוכנית האב הלאומית של שנות החמישים, והיום נתמקד במקרה אחד: מצפה אורן.", "en": "Hello, everyone. Last time we dealt with the national master plan of the 1950s, and today we'll focus on a single case: Mitzpe Oren." },
+      { "s": "A", "he": "מצפה אורן נוסדה בשנת 1955, על גבעה חשופה בצפון הנגב.", "en": "Mitzpe Oren was founded in 1955, on a bare hill in the northern Negev." },
+      { "s": "A", "he": "היא תוכננה כעיירת פיתוח, כלומר כיישוב עירוני קטן אשר נועד לקלוט עולים ולפזר את האוכלוסייה הרחק ממישור החוף.", "en": "It was planned as a development town, that is, a small urban settlement intended to absorb immigrants and to spread the population away from the coastal plain." },
+      { "s": "A", "he": "על פי התוכנית, בתוך עשור אמורים היו לגור בה עשרים אלף תושבים.", "en": "According to the plan, within a decade twenty thousand residents were supposed to be living there." },
+      { "s": "A", "he": "התוכנית הוכנה במשרדים בתל אביב, ולפי העדויות, חלק מהמתכננים כלל לא ביקרו בשטח לפני שאושרה.", "en": "The plan was drawn up in offices in Tel Aviv, and according to the accounts, some of the planners never even visited the site before it was approved." },
+      { "s": "A", "he": "על הנייר, העיירה חולקה לשכונות, ובמרכז כל שכונה תוכננו בית ספר, מרכז מסחרי קטן וגינה ציבורית.", "en": "On paper, the town was divided into neighborhoods, and at the center of each neighborhood a school, a small shopping center and a public garden were planned." },
+      { "s": "A", "he": "הרעיון היה שכל משפחה תמצא את צרכיה היומיומיים במרחק הליכה מהבית.", "en": "The idea was that every family would find its everyday needs within walking distance of home." },
+      { "s": "A", "he": "המשפחות הראשונות, רובן מצפון אפריקה ומרומניה, הועברו לעיירה ישירות מהנמל.", "en": "The first families, most of them from North Africa and Romania, were brought to the town straight from the port." },
+      { "s": "A", "he": "הן שוכנו בשיכונים בני שתי קומות, אשר נבנו בשיטות בנייה טרומיות על מנת לחסוך בזמן ובכסף.", "en": "They were housed in two-story housing blocks, which were built with prefabricated construction methods in order to save time and money." },
+      { "s": "A", "he": "שימו לב לפער בין התוכנית למציאות: השכונה הראשונה אוכלסה עוד לפני שהושלמו בה הכבישים והביוב.", "en": "Notice the gap between the plan and reality: the first neighborhood was populated even before its roads and sewage system had been completed." },
+      { "s": "A", "he": "בתחילת שנות השישים הוקם בעיירה מפעל טקסטיל גדול, ובמשך יותר משלושים שנה הוא היה המעסיק העיקרי.", "en": "At the beginning of the sixties a large textile factory was set up in the town, and for more than thirty years it was the main employer." },
+      { "s": "A", "he": "כאן, כמובן, טמון הקושי: עיירה שלמה הייתה תלויה במפעל אחד.", "en": "Here, of course, lies the difficulty: an entire town depended on a single factory." },
+      { "s": "B", "he": "סליחה, אפשר שאלה? אני מניח שבסוף המפעל נסגר. מה קרה אז לעיירה?", "en": "Excuse me, may I ask a question? I assume the factory closed in the end. What happened to the town then?" },
+      { "s": "A", "he": "הנחה סבירה. המפעל נסגר באמצע שנות התשעים, בעקבות פתיחת השוק ליבוא זול מחו״ל.", "en": "A reasonable assumption. The factory closed in the mid-nineties, following the opening of the market to cheap imports from abroad." },
+      { "s": "A", "he": "מאות עובדים פוטרו בתוך חודשים ספורים, ומשפחות צעירות רבות עברו למרכז הארץ.", "en": "Hundreds of workers were laid off within a few months, and many young families moved to the center of the country." },
+      { "s": "A", "he": "ובאותו עשור, באופן אירוני משהו, קלטה העיירה גל חדש של עולים מברית המועצות לשעבר ומאתיופיה.", "en": "And in that same decade, somewhat ironically, the town took in a new wave of immigrants from the former Soviet Union and from Ethiopia." },
+      { "s": "A", "he": "לשם כך שופצו השיכונים הישנים, ובקצה המזרחי של העיירה הוקמה שכונה חדשה.", "en": "For that purpose the old housing blocks were renovated, and a new neighborhood was built at the eastern edge of the town." },
+      { "s": "A", "he": "בשנות האלפיים פותח אזור תעשייה חדש, ומבנה המפעל הישן הוסב למרכז קהילתי.", "en": "In the 2000s a new industrial zone was developed, and the old factory building was converted into a community center." },
+      { "s": "B", "he": "אז בעצם, אפשר לומר שהתוכנית נכשלה?", "en": "So basically, can we say that the plan failed?" },
+      { "s": "A", "he": "זה תלוי במה שמודדים. אילו מדדנו רק את מספר התושבים לעומת התוכנית, היינו נאלצים לומר שכן.", "en": "It depends on what you measure. If we measured only the number of residents against the plan, we would have to say yes." },
+      { "s": "A", "he": "אבל העיירה לא ננטשה. כיום מתגוררים בה כשלושה עשר אלף איש, וחלקם כבר דור שלישי במקום.", "en": "But the town was not abandoned. Today about thirteen thousand people live there, and some of them are already the third generation there." },
+      { "s": "A", "he": "במילים אחרות, התוכנית הושלמה רק בחלקה, אבל העיירה עצמה נבנתה, ונבנית עד היום, בידי מי שגרים בה.", "en": "In other words, the plan was only partly completed, but the town itself was built, and is still being built today, by the people who live in it." },
+      { "s": "A", "he": "ולשבוע הבא: קראו את הפרק השלישי, ושימו לב שכמעט כל ההחלטות בו מתוארות בסביל.", "en": "And for next week: read chapter three, and notice that almost all the decisions in it are described in the passive." },
+      { "s": "A", "he": "שאלו את עצמכם מי בדיוק תכנן, מי הקים ומי החליט לאן יגיעו המשפחות. הסביל, לא פעם, מסתיר את התשובה.", "en": "Ask yourselves who exactly planned, who built and who decided where the families would go. The passive often hides the answer." }
+    ],
+    "questions": [
+      {
+        "q": "לאיזו מטרה תוכננה מצפה אורן?",
+        "qEn": "For what purpose was Mitzpe Oren planned?",
+        "answer": "כדי לקלוט עולים ולפזר את האוכלוסייה הרחק ממישור החוף.",
+        "answerEn": "To absorb immigrants and to spread the population away from the coastal plain.",
+        "keywords": [
+          ["לקלוט", "קליטה", "קליטת", "קולטת", "עולים"],
+          ["לפזר", "פיזור", "אוכלוסייה", "אוכלוסיה"]
+        ]
+      },
+      {
+        "q": "מה תוכנן במרכז כל שכונה, ולמה?",
+        "qEn": "What was planned at the center of each neighborhood, and why?",
+        "answer": "בית ספר, מרכז מסחרי וגינה ציבורית, כדי שכל משפחה תמצא את צרכיה במרחק הליכה.",
+        "answerEn": "A school, a shopping center and a public garden, so that every family would find what it needs within walking distance.",
+        "keywords": [
+          ["בית ספר", "בתי ספר", "בי״ס", "מרכז מסחרי", "גינה", "גן", "חנויות"],
+          ["הליכה", "ללכת", "ברגל", "קרוב", "קרובים", "קרובה"]
+        ]
+      },
+      {
+        "q": "מה מלמד המקרה של השכונה הראשונה על הפער בין התוכנית למציאות?",
+        "qEn": "What does the case of the first neighborhood show about the gap between the plan and reality?",
+        "answer": "שהיא אוכלסה עוד לפני שהושלמו בה הכבישים והביוב.",
+        "answerEn": "That people moved into it before its roads and sewage system were completed.",
+        "keywords": [
+          ["אוכלסה", "אוכלסו", "גרו", "נכנסו", "הגיעו", "עברו"],
+          ["כבישים", "כביש", "ביוב", "תשתיות"],
+          ["הושלמו", "הושלם", "השלימו", "מוכנים", "גמורים", "גמרו", "סיימו", "נבנו"]
+        ]
+      },
+      {
+        "q": "מה קרה בעיירה בשנות התשעים?",
+        "qEn": "What happened in the town in the nineties?",
+        "answer": "המפעל נסגר ומאות עובדים פוטרו, אבל העיירה קלטה גל חדש של עולים מברית המועצות לשעבר ומאתיופיה.",
+        "answerEn": "The factory closed and hundreds of workers were laid off, but the town took in a new wave of immigrants from the former Soviet Union and Ethiopia.",
+        "keywords": [
+          ["נסגר", "נסגרה", "סגרו", "סגירת"],
+          ["פוטרו", "פיטורים", "פיטרו", "מובטלים", "עזבו"],
+          ["עולים", "עלייה", "עליה", "קלטה", "ברית המועצות", "אתיופיה"]
+        ]
+      },
+      {
+        "q": "לפי המרצה, האם התוכנית נכשלה?",
+        "qEn": "According to the lecturer, did the plan fail?",
+        "answer": "זה תלוי במה שמודדים: גרים בה פחות אנשים ממה שתוכנן, אבל העיירה לא ננטשה.",
+        "answerEn": "It depends on what you measure: fewer people live there than planned, but the town was not abandoned.",
+        "keywords": [
+          ["תלוי"],
+          ["פחות", "מספר"],
+          ["ננטשה", "נטשו", "גרים", "מתגוררים", "חיים", "תושבים", "קיימת"]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "כל המתכננים ביקרו בשטח לפני שהתוכנית אושרה.",
+        "sEn": "All the planners visited the site before the plan was approved.",
+        "a": false,
+        "why": "The lecturer says חלק מהמתכננים כלל לא ביקרו בשטח: the plan was drawn up in offices in Tel Aviv, and some planners never saw the site before it was approved."
+      },
+      {
+        "s": "השיכונים הראשונים נבנו בשיטות בנייה טרומיות כדי לחסוך בזמן ובכסף.",
+        "sEn": "The first housing blocks were built with prefabricated methods to save time and money.",
+        "a": true,
+        "why": "She says they were built בשיטות בנייה טרומיות על מנת לחסוך בזמן ובכסף. על מנת is the formal equivalent of כדי."
+      },
+      {
+        "s": "כיום גרים בעיירה יותר אנשים ממה שתוכנן.",
+        "sEn": "Today more people live in the town than was planned.",
+        "a": false,
+        "why": "The plan was for twenty thousand residents within a decade; today about thirteen thousand live there."
+      },
+      {
+        "s": "המרצה מבקשת מהסטודנטים לשים לב לשימוש בסביל בפרק שהם יקראו.",
+        "sEn": "The lecturer asks the students to pay attention to the use of the passive in the chapter they will read.",
+        "a": true,
+        "why": "She points out that almost all the decisions in chapter three are described בסביל, and that the passive often hides who made them."
+      }
+    ],
+    "dictation": [6, 11, 16],
+    "expressions": [
+      {
+        "he": "עיירת פיתוח",
+        "en": "development town",
+        "note": "Towns founded mainly in the 1950s and 60s to house new immigrants and spread the population beyond the coastal plain. Plural: עיירות פיתוח."
+      },
+      {
+        "he": "הוקם / הוקמה / הוקמו",
+        "en": "was / were set up, established",
+        "note": "Huf'al, the passive of hif'il להקים; likewise הוכן, הושלם, הוסב. Pu'al is the passive of pi'el: פיתח → פותח, שיפץ → שופץ, פיטר → פוטר, תכנן → תוכנן. נוסד (was founded) is nif'al."
+      },
+      {
+        "he": "כאן טמון הקושי",
+        "en": "herein lies the difficulty",
+        "note": "טמון = hidden, buried; formal. It agrees with its noun: כאן טמונה הבעיה."
+      },
+      {
+        "he": "בעקבות",
+        "en": "following, in the wake of",
+        "note": "Formal connector of cause: בעקבות פתיחת השוק = following the opening of the market. In everyday speech: בגלל or אחרי."
+      },
+      {
+        "he": "על מנת ל…",
+        "en": "in order to",
+        "note": "Formal variant of כדי ל. Note the verb pattern לחסוך ב: לחסוך בזמן ובכסף = to save time and money."
+      },
+      {
+        "he": "לא פעם",
+        "en": "more than once, often",
+        "note": "Literally 'not once', but it means 'more than once, on many occasions': the opposite of אף פעם לא (never)."
+      }
+    ]
+  },
+  {
+    "id": "s_c1_comedy_podcast",
+    "level": "C1",
+    "title": "יהיה בסדר, אחי",
+    "titleEn": "It'll Be Fine, Bro",
+    "genre": "podcast",
+    "synopsis": "On their comedy podcast No Filter, Neta and Dima swap stories about their families' WhatsApp groups and then turn to the most Israeli phrase of all: 'it'll be fine'. Expect fast talk, slang and a lot of idioms.",
+    "speakers": {
+      "A": { "name": "נטע", "gender": "f" },
+      "B": { "name": "דימה", "gender": "m" }
+    },
+    "lines": [
+      { "s": "A", "he": "ברוכים הבאים לעוד פרק של בלי פילטר, הפודקאסט שאף אחד לא ביקש. איתי, כרגיל, דימה.", "en": "Welcome to another episode of No Filter, the podcast nobody asked for. With me, as usual, is Dima." },
+      { "s": "B", "he": "שלום לכולם. נטע, לפני שמתחילים, אני חייב לשתף: אמא שלי פתחה עוד קבוצת וואטסאפ למשפחה.", "en": "Hi, everyone. Neta, before we start, I have to share: my mom has opened yet another WhatsApp group for the family." },
+      { "s": "A", "he": "עוד אחת? כמה קבוצות משפחה בן אדם יכול להחזיק?", "en": "Another one? How many family groups can one person handle?" },
+      { "s": "B", "he": "יש לנו את הקבוצה הרגילה, את הקבוצה בלי סבתא, ועכשיו גם את הקבוצה בלי סבתא ובלי הדוד אבי.", "en": "We have the regular group, the group without Grandma, and now also the group without Grandma and without Uncle Avi." },
+      { "s": "A", "he": "רגע, מה הקטע עם הדוד אבי?", "en": "Wait, what's the deal with Uncle Avi?" },
+      { "s": "B", "he": "הדוד אבי חופר ברמות. הוא מעביר כל הודעה שכתוב עליה הועברה פעמים רבות.", "en": "Uncle Avi goes on and on, big time. He forwards every message that says 'forwarded many times'." },
+      { "s": "B", "he": "מבחינתו, אם משהו הועבר מאה פעם, זה כבר מקור מוסמך.", "en": "As far as he's concerned, if something has been forwarded a hundred times, it's already an authoritative source." },
+      { "s": "A", "he": "קורע. אצלנו יש את סבתא, שכל בוקר בשש וחצי שולחת תמונה של ורדים עם בוקר טוב מנצנץ.", "en": "Hilarious. In our family there's Grandma, who sends a picture of roses with a glittering 'good morning' every morning at six thirty." },
+      { "s": "B", "he": "בשש וחצי? התרנגולים עוד ישנים, וסבתא כבר בעניינים.", "en": "Six thirty? The roosters are still asleep, and Grandma's already on the ball." },
+      { "s": "A", "he": "ואם לא עונים לה תוך חמש דקות, מגיעה הודעה קולית: למה אף אחד לא עונה? קרה משהו?", "en": "And if nobody answers her within five minutes, a voice message arrives: why isn't anyone answering? Did something happen?" },
+      { "s": "B", "he": "הודעה קולית של שבע דקות, שבשש מהן היא מנסה להבין איך מפסיקים להקליט.", "en": "A seven-minute voice message, six of which she spends trying to figure out how to stop recording." },
+      { "s": "A", "he": "אני, אחרי שבוע כזה, פשוט השתקתי את הקבוצה לשנה. שמתי פס.", "en": "Me, after a week like that, I just muted the group for a year. I've written it off." },
+      { "s": "B", "he": "לשנה? את חיה בסרט. אמא שלך תגלה את זה תוך שעה ותעשה לך סצנה.", "en": "For a year? You're dreaming. Your mom will find out within an hour and make a scene." },
+      { "s": "A", "he": "היא כבר גילתה. היא שלחה לי בפרטי: תתקשרי. בלי לב, בלי סמיילי. רק תתקשרי, עם נקודה.", "en": "She's already found out. She messaged me privately: 'Call me.' No heart, no smiley. Just 'Call me', with a period." },
+      { "s": "B", "he": "תתקשרי בלי סמיילי? הלך עלייך. זה שווה ערך לזימון לשימוע.", "en": "'Call me' without a smiley? You're done for. That's the equivalent of being summoned to a dismissal hearing." },
+      { "s": "A", "he": "בדיוק. אז התקשרתי, ומה היא אומרת? סתם, רציתי לשמוע את הקול שלך.", "en": "Exactly. So I called, and what does she say? Oh, nothing, I just wanted to hear your voice." },
+      { "s": "B", "he": "קלאסי. אבל בואי נעבור לדבר הכי ישראלי שיש: יהיה בסדר.", "en": "Classic. But let's move on to the most Israeli thing there is: 'it'll be fine'." },
+      { "s": "A", "he": "יהיה בסדר זה לא משפט, זו תוכנית עבודה. מי צריך תוכנית גיבוי כשיש יהיה בסדר?", "en": "'It'll be fine' isn't a phrase, it's a work plan. Who needs a backup plan when you've got 'it'll be fine'?" },
+      { "s": "B", "he": "שאלתי את השיפוצניק שלי מתי הוא מסיים. הוא אמר: אחי, בקטנה, יהיה בסדר. זה היה לפני שלושה חודשים.", "en": "I asked my renovation guy when he'd be done. He said: bro, no biggie, it'll be fine. That was three months ago." },
+      { "s": "A", "he": "ולא התעצבנת? יצאת פראייר, דימה.", "en": "And you didn't lose your temper? You got played for a sucker, Dima." },
+      { "s": "B", "he": "התעצבנתי! והוא, בשיא הרוגע: מה אתה לחוץ? המטבח לא בורח לשום מקום.", "en": "I did lose my temper! And he, as calm as can be: what are you so stressed about? The kitchen isn't running off anywhere." },
+      { "s": "B", "he": "וזה נכון, הוא לא בורח. הוא פשוט לא קיים. יש לי כיור בסלון וחשבון פתוח בשווארמה שלמטה.", "en": "And it's true, it isn't going anywhere. It simply doesn't exist. I have a sink in the living room and a tab at the shawarma place downstairs." },
+      { "s": "A", "he": "אבל בוא נהיה הוגנים. בלי יהיה בסדר, אף אחד פה לא היה פותח עסק, מתחתן או קונה דירה.", "en": "But let's be fair. Without 'it'll be fine', nobody here would ever open a business, get married or buy an apartment." },
+      { "s": "B", "he": "תכלס. אם היינו חושבים על זה יותר מדי, היינו נשארים מתחת לשמיכה.", "en": "For real. If we thought about it too much, we'd stay under the blanket." },
+      { "s": "A", "he": "בדיוק. זו לא אופטימיות עיוורת, זה סוג של שריר. נופלים, קמים, ממשיכים, ועוד צוחקים על זה בוואטסאפ.", "en": "Exactly. It's not blind optimism, it's a kind of muscle. You fall, you get up, you keep going, and you even joke about it on WhatsApp." },
+      { "s": "B", "he": "בקבוצה בלי הדוד אבי, כמובן.", "en": "In the group without Uncle Avi, of course." },
+      { "s": "A", "he": "כמובן. טוב, נגמר לנו הזמן. אם נהניתם, תעשו לנו לייק, ואם לא, יהיה בסדר.", "en": "Of course. OK, we're out of time. If you enjoyed it, give us a like, and if not, it'll be fine." },
+      { "s": "B", "he": "יאללה, ביי. ונטע, תתקשרי כבר לאמא שלך.", "en": "Yalla, bye. And Neta, call your mom already." }
+    ],
+    "questions": [
+      {
+        "q": "מי לא נמצא בקבוצה החדשה של המשפחה של דימה?",
+        "qEn": "Who isn't in the newest group of Dima's family?",
+        "answer": "סבתא והדוד אבי.",
+        "answerEn": "Grandma and Uncle Avi.",
+        "keywords": [
+          ["סבתא"],
+          ["אבי", "דוד", "הדוד"]
+        ]
+      },
+      {
+        "q": "מה מעצבן בדוד אבי?",
+        "qEn": "What's annoying about Uncle Avi?",
+        "answer": "הוא חופר ומעביר כל הודעה שהועברה פעמים רבות, כאילו זה מקור מוסמך.",
+        "answerEn": "He goes on and on and forwards every message that has been forwarded many times, as if it were an authoritative source.",
+        "keywords": [
+          ["מעביר", "להעביר", "הועברה", "הועבר", "שולח"],
+          ["הודעה", "הודעות", "שמועות", "שמועה"]
+        ]
+      },
+      {
+        "q": "מה עשתה אמא של נטע אחרי שנטע השתיקה את הקבוצה?",
+        "qEn": "What did Neta's mother do after Neta muted the group?",
+        "answer": "היא שלחה לה בפרטי: תתקשרי. וכשנטע התקשרה, היא אמרה שרק רצתה לשמוע את הקול שלה.",
+        "answerEn": "She sent her a private message: 'Call me.' And when Neta called, she said she just wanted to hear her voice.",
+        "keywords": [
+          ["תתקשרי", "שתתקשר", "להתקשר", "התקשרה", "תתקשר"],
+          ["קול", "לשמוע"]
+        ]
+      },
+      {
+        "q": "מה השיפוצניק ענה לדימה, ומה מצב המטבח היום?",
+        "qEn": "What did the renovation guy answer Dima, and what state is the kitchen in now?",
+        "answer": "הוא אמר: אחי, בקטנה, יהיה בסדר. אחרי שלושה חודשים המטבח עדיין לא קיים.",
+        "answerEn": "He said: bro, no biggie, it'll be fine. Three months later the kitchen still doesn't exist.",
+        "keywords": [
+          ["יהיה בסדר", "בקטנה"],
+          ["לא קיים", "אין", "עדיין", "לא סיים", "לא גמר", "שלושה חודשים"]
+        ]
+      },
+      {
+        "q": "למה נטע חושבת שיש גם צד חיובי ליהיה בסדר?",
+        "qEn": "Why does Neta think 'it'll be fine' also has a positive side?",
+        "answer": "כי בלי זה אף אחד לא היה פותח עסק, מתחתן או קונה דירה. זה כמו שריר: נופלים, קמים וממשיכים.",
+        "answerEn": "Because without it nobody would open a business, get married or buy an apartment. It's like a muscle: you fall, get up and keep going.",
+        "keywords": [
+          ["עסק", "מתחתן", "מתחתנים", "להתחתן", "דירה"],
+          ["שריר", "נופלים", "קמים", "ממשיכים", "להמשיך"]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "סבתא של נטע שולחת כל בוקר תמונה של ורדים.",
+        "sEn": "Neta's grandmother sends a picture of roses every morning.",
+        "a": true,
+        "why": "Neta says her grandmother sends roses with a glittering בוקר טוב every morning at six thirty, before the roosters are even awake, as Dima puts it."
+      },
+      {
+        "s": "אמא של נטע שלחה לה הודעה עם סמיילי.",
+        "sEn": "Neta's mother sent her a message with a smiley.",
+        "a": false,
+        "why": "The message was just תתקשרי, with no heart, no smiley and a full stop at the end, which is exactly why Dima says הלך עלייך."
+      },
+      {
+        "s": "השיפוצניק של דימה עדיין לא סיים את המטבח.",
+        "sEn": "Dima's renovation guy still hasn't finished the kitchen.",
+        "a": true,
+        "why": "Three months after he said יהיה בסדר, the kitchen 'simply doesn't exist': Dima has a sink in the living room and a tab at the shawarma place."
+      },
+      {
+        "s": "לפי נטע, יהיה בסדר הוא סוג של אופטימיות עיוורת.",
+        "sEn": "According to Neta, 'it'll be fine' is a kind of blind optimism.",
+        "a": false,
+        "why": "She says זו לא אופטימיות עיוורת, זה סוג של שריר: not blind optimism but a kind of muscle. You fall, get up and keep going."
+      }
+    ],
+    "dictation": [11, 19, 23],
+    "expressions": [
+      {
+        "he": "מה הקטע?",
+        "en": "what's the deal?, what's the story?",
+        "note": "Slang. מה הקטע שלו? = what's his problem? איזה קטע! = how funny / how weird!"
+      },
+      {
+        "he": "לשים פס (על)",
+        "en": "to stop caring (about), to write off",
+        "note": "Colloquial, literally 'to put a stripe'. שמתי פס על הקבוצה = I've given up on the group."
+      },
+      {
+        "he": "את חיה בסרט / אתה חי בסרט",
+        "en": "you're dreaming, you're out of touch with reality",
+        "note": "Literally 'living in a movie'. Teasing rather than hostile among friends."
+      },
+      {
+        "he": "הלך עלייך / הלך עליך",
+        "en": "you're done for, you're toast",
+        "note": "Slang, literally 'it went on you'. Also הלך עליו / עליה / עלינו."
+      },
+      {
+        "he": "לצאת פראייר",
+        "en": "to end up the sucker",
+        "note": "To be the one who gets taken advantage of. The fear of being a פראייר is a classic theme of Israeli humour."
+      },
+      {
+        "he": "אחי, בקטנה, יהיה בסדר",
+        "en": "bro, no biggie, it'll be fine",
+        "note": "בקטנה = no big deal (also 'a little': תזיז את זה בקטנה). יהיה בסדר can be sincere reassurance or a way of avoiding commitment; the tone tells you which."
+      }
+    ]
+  },
+  {
+    "id": "s_c1_radio_expert",
+    "level": "C1",
+    "title": "למה הכול מתייקר?",
+    "titleEn": "Why Is Everything Getting More Expensive?",
+    "genre": "interview",
+    "synopsis": "On an evening radio show, host Omri puts the question everyone asks at the supermarket to economist Dr. Alina Varshavsky: why do prices keep rising? Notice how carefully she hedges her claims.",
+    "speakers": {
+      "A": { "name": "עמרי", "gender": "m" },
+      "B": { "name": "ד״ר אלינה ורשבסקי", "gender": "f" }
+    },
+    "lines": [
+      { "s": "A", "he": "ערב טוב, ואנחנו ממשיכים עם השאלה שכולם שואלים בסופר: למה הכול מתייקר? איתי באולפן הכלכלנית דוקטור אלינה ורשבסקי.", "en": "Good evening, and we continue with the question everyone is asking at the supermarket: why is everything getting more expensive? With me in the studio is economist Dr. Alina Varshavsky." },
+      { "s": "B", "he": "ערב טוב, ותודה על ההזמנה.", "en": "Good evening, and thank you for having me." },
+      { "s": "A", "he": "בואי נתחיל מהבסיס. כשמחיר של מוצר עולה, מי בעצם מחליט על זה?", "en": "Let's start with the basics. When the price of a product goes up, who actually decides that?" },
+      { "s": "B", "he": "פורמלית, המוכר. אבל המוכר מגיב לשורה של כוחות, אשר רובם אינם בשליטתו.", "en": "Formally, the seller. But the seller is responding to a whole range of forces, most of which are beyond his control." },
+      { "s": "A", "he": "למשל?", "en": "For example?" },
+      { "s": "B", "he": "קודם כול, עלויות. אם מחירי האנרגיה, חומרי הגלם או ההובלה הימית עולים, היצרן ככל הנראה יגלגל את ההתייקרות לצרכן.", "en": "First of all, costs. If the prices of energy, raw materials or sea freight go up, the producer will most likely pass the increase on to the consumer." },
+      { "s": "A", "he": "וזה הכול? עלויות?", "en": "And that's all? Costs?" },
+      { "s": "B", "he": "ממש לא. יש גם צד הביקוש.", "en": "Not at all. There's also the demand side." },
+      { "s": "B", "he": "כשיש לציבור יותר כסף, למשל בעקבות תקופה ארוכה של ריבית נמוכה, והוא מוציא אותו בבת אחת, המוכרים מזהים הזדמנות.", "en": "When the public has more money, for instance following a long period of low interest rates, and spends it all at once, sellers spot an opportunity." },
+      { "s": "A", "he": "כלומר, יותר מדי כסף רודף אחרי מעט מדי מוצרים.", "en": "In other words, too much money chasing too few goods." },
+      { "s": "B", "he": "בדיוק. וזו גם הסיבה שהבנק המרכזי מעלה לעיתים את הריבית: על מנת לצנן את הביקוש.", "en": "Exactly. And that's also why the central bank sometimes raises the interest rate: in order to cool demand." },
+      { "s": "A", "he": "אבל מאזינים כותבים לנו כל הזמן: בחו״ל אותם מוצרים עולים פחות.", "en": "But listeners write to us all the time: abroad, the same products cost less." },
+      { "s": "B", "he": "נכון, ופה צריך להיזהר. ייתכן שחלק מהפער נובע ממבנה השוק אצלנו.", "en": "True, and here we need to be careful. Part of the gap may stem from the structure of our market." },
+      { "s": "A", "he": "מה זאת אומרת?", "en": "What do you mean?" },
+      { "s": "B", "he": "מדובר בשוק קטן ומבודד יחסית, שבו פועלים בחלק מהתחומים רק ספקים גדולים מעטים. בתנאים כאלה, תחרות המחירים נוטה להיות חלשה יותר.", "en": "We're talking about a small, relatively isolated market, in which only a few large suppliers operate in some sectors. Under such conditions, price competition tends to be weaker." },
+      { "s": "A", "he": "אז אילו היה כאן יותר יבוא, היינו משלמים פחות?", "en": "So if there were more imports here, we'd be paying less?" },
+      { "s": "B", "he": "לא מן הנמנע. אילו חסמי היבוא היו נמוכים יותר, סביר שחלק מהמחירים היו יורדים. אבל אני נזהרת מלהבטיח.", "en": "It can't be ruled out. If import barriers were lower, some prices would probably come down. But I'm careful not to make promises." },
+      { "s": "A", "he": "את זהירה מאוד הערב, דוקטור ורשבסקי.", "en": "You're very cautious this evening, Dr. Varshavsky." },
+      { "s": "B", "he": "כלכלנים שמנבאים את העתיד בביטחון מלא נוטים להתבדות. המשק הנו מערכת מורכבת, ולכל הסבר יש בדרך כלל גם הסבר נגדי.", "en": "Economists who predict the future with complete confidence tend to be proven wrong. The economy is a complex system, and every explanation usually has a counter-explanation too." },
+      { "s": "A", "he": "שמעתי שמחירים יכולים לעלות רק משום שכולם מצפים שהם יעלו. זה נכון?", "en": "I've heard that prices can go up simply because everyone expects them to go up. Is that true?" },
+      { "s": "B", "he": "במידה מסוימת, כן. אם עובדים מצפים להתייקרות, הם דורשים העלאת שכר, והמעסיקים, בתורם, מעלים מחירים.", "en": "To a certain extent, yes. If workers expect prices to rise, they demand a pay raise, and employers, in turn, raise prices." },
+      { "s": "B", "he": "כך נוצרת נבואה שמגשימה את עצמה. לכן האמינות של הבנק המרכזי חשובה לא פחות מהריבית עצמה.", "en": "That's how a self-fulfilling prophecy is created. That's why the central bank's credibility matters no less than the interest rate itself." },
+      { "s": "A", "he": "ובשורה התחתונה, למה המאזינים שלנו צריכים להתכונן?", "en": "And the bottom line: what should our listeners prepare for?" },
+      { "s": "B", "he": "קשה לומר בוודאות. ככל הנראה, חלק מהלחצים יתמתנו עם הזמן, אבל לא מן הנמנע שמחירים מסוימים יישארו גבוהים.", "en": "It's hard to say for sure. Most likely, some of the pressures will ease over time, but it's not out of the question that certain prices will stay high." },
+      { "s": "A", "he": "ומה אפשר לעשות ברמה האישית?", "en": "And what can people do on a personal level?" },
+      { "s": "B", "he": "להשוות מחירים, לא להתבייש לבקש הנחה, ולשים לב לעמלות. צרכן ערני הוא, בסופו של דבר, חלק מהתחרות.", "en": "Compare prices, don't be shy about asking for a discount, and pay attention to fees. An alert consumer is, at the end of the day, part of the competition." },
+      { "s": "A", "he": "אילו כל הכלכלנים היו מסבירים ככה, אולי היינו מבינים יותר ומתעצבנים פחות. דוקטור ורשבסקי, תודה רבה.", "en": "If all economists explained things like that, maybe we'd understand more and get annoyed less. Dr. Varshavsky, thank you very much." },
+      { "s": "B", "he": "תודה לך. היה לי לעונג.", "en": "Thank you. It was my pleasure." }
+    ],
+    "questions": [
+      {
+        "q": "אילו שני צדדים של ההתייקרות מזכירה הכלכלנית בהתחלה?",
+        "qEn": "Which two sides of rising prices does the economist mention first?",
+        "answer": "את העלויות, כמו אנרגיה, חומרי גלם והובלה, ואת הביקוש של הציבור.",
+        "answerEn": "Costs, such as energy, raw materials and freight, and the public's demand.",
+        "keywords": [
+          ["עלויות", "עלות", "אנרגיה", "חומרי גלם", "הובלה"],
+          ["ביקוש", "כסף"]
+        ]
+      },
+      {
+        "q": "למה הבנק המרכזי מעלה לפעמים את הריבית?",
+        "qEn": "Why does the central bank sometimes raise the interest rate?",
+        "answer": "על מנת לצנן את הביקוש.",
+        "answerEn": "In order to cool demand.",
+        "keywords": [
+          ["לצנן", "לקרר", "לרסן", "להוריד", "להקטין", "להפחית", "לצמצם"],
+          ["ביקוש"]
+        ]
+      },
+      {
+        "q": "איך הכלכלנית מסבירה את זה שבחו״ל אותם מוצרים עולים פחות?",
+        "qEn": "How does the economist explain the fact that the same products cost less abroad?",
+        "answer": "ייתכן שזה נובע ממבנה השוק: שוק קטן ומבודד, עם מעט ספקים גדולים ותחרות חלשה.",
+        "answerEn": "It may stem from the structure of the market: a small, isolated market with few large suppliers and weak competition.",
+        "keywords": [
+          ["שוק", "ספקים", "מבנה", "מבודד", "קטן"],
+          ["תחרות"]
+        ]
+      },
+      {
+        "q": "איך ציפיות להתייקרות יכולות לגרום למחירים לעלות?",
+        "qEn": "How can expectations of rising prices make prices go up?",
+        "answer": "עובדים שמצפים להתייקרות דורשים העלאת שכר, והמעסיקים מעלים מחירים.",
+        "answerEn": "Workers who expect prices to rise demand pay raises, and employers raise prices.",
+        "keywords": [
+          ["שכר", "העלאת", "משכורת"],
+          ["מעסיקים", "מעסיק", "מעבידים", "מעלים"]
+        ]
+      },
+      {
+        "q": "מה הכלכלנית ממליצה לעשות ברמה האישית?",
+        "qEn": "What does the economist recommend doing on a personal level?",
+        "answer": "להשוות מחירים, לבקש הנחה ולשים לב לעמלות.",
+        "answerEn": "To compare prices, ask for a discount and pay attention to fees.",
+        "keywords": [
+          ["להשוות", "השוואת", "משווים"],
+          ["הנחה", "הנחות"],
+          ["עמלות", "עמלה"]
+        ]
+      }
+    ],
+    "tf": [
+      {
+        "s": "לפי הכלכלנית, המוכר קובע את המחיר בלי שום השפעה מבחוץ.",
+        "sEn": "According to the economist, the seller sets the price without any outside influence.",
+        "a": false,
+        "why": "She says that formally the seller decides, but he responds to a range of forces, most of which אינם בשליטתו, are beyond his control."
+      },
+      {
+        "s": "הכלכלנית מבטיחה שיותר יבוא יוריד את המחירים.",
+        "sEn": "The economist promises that more imports will bring prices down.",
+        "a": false,
+        "why": "She says לא מן הנמנע, it can't be ruled out, but adds אני נזהרת מלהבטיח: she is careful not to promise."
+      },
+      {
+        "s": "לדעת הכלכלנית, האמינות של הבנק המרכזי חשובה לא פחות מהריבית.",
+        "sEn": "In the economist's view, the central bank's credibility is no less important than the interest rate.",
+        "a": true,
+        "why": "Because expectations can become a נבואה שמגשימה את עצמה, a self-fulfilling prophecy, she says the bank's credibility matters as much as the rate itself."
+      },
+      {
+        "s": "הכלכלנית לא שוללת את האפשרות שמחירים מסוימים יישארו גבוהים.",
+        "sEn": "The economist doesn't rule out the possibility that certain prices will stay high.",
+        "a": true,
+        "why": "She says some pressures will ככל הנראה ease, but לא מן הנמנע שמחירים מסוימים יישארו גבוהים."
+      }
+    ],
+    "dictation": [3, 9, 12],
+    "expressions": [
+      {
+        "he": "לגלגל את ההתייקרות לצרכן",
+        "en": "to pass the price increase on to the consumer",
+        "note": "Standard economic jargon, literally 'to roll'. Also לגלגל את העלויות על הצרכנים."
+      },
+      {
+        "he": "ככל הנראה",
+        "en": "most likely, in all probability",
+        "note": "Formal hedge. In everyday speech: כנראה."
+      },
+      {
+        "he": "לא מן הנמנע ש…",
+        "en": "it can't be ruled out that…, it's not out of the question that…",
+        "note": "Formal double-negative hedge, literally 'not among the impossible'; often followed by the future: לא מן הנמנע שהמחירים יעלו. It sounds even more tentative than ייתכן ש…, 'it may be that'."
+      },
+      {
+        "he": "אילו… היו…, … היו…",
+        "en": "if … were …, … would …",
+        "note": "Formal counterfactual: אילו חסמי היבוא היו נמוכים יותר, המחירים היו יורדים. In the result clause use an inflected form of היה + present participle (היו יורדים, היינו משלמים). Colloquially אם replaces אילו: אם היה יותר יבוא, היינו משלמים פחות."
+      },
+      {
+        "he": "נבואה שמגשימה את עצמה",
+        "en": "a self-fulfilling prophecy",
+        "note": "Common in economics, psychology and journalism."
+      },
+      {
+        "he": "אני נזהר / נזהרת מלהבטיח",
+        "en": "I'm careful not to promise",
+        "note": "נזהר מ + infinitive (מלהגיד, מלהבטיח) = careful not to do something. Formal and very useful for hedging."
+      }
+    ]
+  }
+]

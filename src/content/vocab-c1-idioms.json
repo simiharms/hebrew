@@ -1,0 +1,1301 @@
+[
+  {
+    "id": "vc1i_lishbor_et_harosh",
+    "he": "לשבור את הראש",
+    "tr": "lishbór et harósh",
+    "en": "to rack one's brains",
+    "enAlt": ["to puzzle over something", "to think hard about something", "to cudgel one's brains"],
+    "pos": "expr",
+    "register": "colloquial",
+    "level": "B2",
+    "topic": "idioms",
+    "ex": {
+      "he": "שבוע שלם שברנו את הראש על שם למוצר, ובסוף דווקא המתמחה הציעה את הרעיון הכי טוב.",
+      "en": "For a whole week we racked our brains over a name for the product, and in the end it was the intern who came up with the best idea."
+    },
+    "note": "Lit. \"to break the head\". Colloquial but fine at work. Used with על: לשבור את הראש על בעיה. אל תשבור את הראש = don't trouble yourself over it."
+  },
+  {
+    "id": "vc1i_lo_laasot_inyan",
+    "he": "לא לעשות עניין",
+    "tr": "lo la'asót inyán",
+    "en": "not to make a big deal (of it)",
+    "enAlt": ["not to make a fuss", "to let it go", "not to make a thing of it"],
+    "pos": "expr",
+    "register": "colloquial",
+    "level": "B2",
+    "topic": "idioms",
+    "ex": {
+      "he": "עדיף לא לעשות עניין מכל טעות קטנה של עובד חדש.",
+      "en": "It's better not to make a big deal out of every little mistake a new employee makes."
+    },
+    "note": "Lit. \"not to make a matter\". Everyday speech. Often with מזה: הוא עשה מזה עניין = he made a big deal of it; בוא לא נעשה מזה עניין = let's not make a thing of it."
+  },
+  {
+    "id": "vc1i_al_hakefak",
+    "he": "על הכיפאק",
+    "tr": "al hakéfak",
+    "en": "awesome; top-notch",
+    "enAlt": ["excellent", "fantastic", "great", "first-rate"],
+    "alt": ["על הכיפק"],
+    "pos": "expr",
+    "register": "slang",
+    "level": "C1",
+    "topic": "idioms",
+    "ex": {
+      "he": "האוכל בחתונה של מירב וברהנו היה על הכיפאק, כולם עוד מדברים על זה.",
+      "en": "The food at Meirav and Berhanu's wedding was top-notch; everyone is still talking about it."
+    },
+    "note": "From Arabic 'ala kéfak, roughly \"to your liking\" (kef = pleasure, the word behind כיף). Enthusiastic slang praise, close to אחלה; keep it out of formal writing."
+  },
+  {
+    "id": "vc1i_lisgor_pina",
+    "he": "לסגור פינה",
+    "tr": "lisgór piná",
+    "en": "to tie up a loose end",
+    "enAlt": ["to settle a small matter", "to finalize a detail", "to wrap something up"],
+    "pos": "expr",
+    "register": "colloquial",
+    "level": "C1",
+    "topic": "idioms",
+    "ex": {
+      "he": "תן לי חמש דקות לסגור פינה עם רואה החשבון, ואז נשב על המצגת.",
+      "en": "Give me five minutes to tie up a loose end with the accountant, and then we'll sit down to work on the presentation."
+    },
+    "note": "Lit. \"to close a corner\". Colloquial office Hebrew for settling one small open issue: סגרנו את הפינה הזאת = that's sorted. Related: סגור! = done, it's a deal."
+  },
+  {
+    "id": "vc1i_lakakhat_lalev",
+    "he": "לקחת ללב",
+    "tr": "lakákhat lalév",
+    "en": "to take (something) to heart",
+    "enAlt": ["to take personally", "to take something personally", "to be hurt by"],
+    "pos": "expr",
+    "level": "B2",
+    "topic": "idioms",
+    "ex": {
+      "he": "למדתי לא לקחת ללב כל הערה של המנהל, הוא מדבר ככה עם כולם.",
+      "en": "I've learned not to take every one of the manager's comments to heart; he talks like that to everyone."
+    },
+    "note": "Lit. \"to take to the heart\". Neutral register. Usually about being hurt or offended: אל תיקח ללב / אל תיקחי ללב = don't take it personally."
+  },
+  {
+    "id": "vc1i_ein_al_ma_ledaber",
+    "he": "אין על מה לדבר",
+    "tr": "ein al ma ledabér",
+    "en": "of course, no problem; no contest",
+    "enAlt": ["no question about it", "it goes without saying", "beyond dispute", "sure thing"],
+    "pos": "expr",
+    "register": "colloquial",
+    "level": "C1",
+    "topic": "idioms",
+    "ex": {
+      "he": "— אתה מוכן להחליף איתי משמרת ביום שישי? — אין על מה לדבר, אני ממילא בעיר.",
+      "en": "— Would you swap a shift with me on Friday? — Of course, no problem, I'm in town anyway."
+    },
+    "note": "Lit. \"there's nothing to talk about\". Colloquial, with two uses: readily agreeing (sure, no problem) and declaring something beyond dispute: הפלאפל פה הכי טוב בשכונה, אין על מה לדבר. Not the same as אין על מה (you're welcome)."
+  },
+  {
+    "id": "vc1i_bli_ayin_hara",
+    "he": "בלי עין הרע",
+    "tr": "bli áyin hará",
+    "en": "knock on wood",
+    "enAlt": ["touch wood", "knock wood", "without the evil eye"],
+    "pos": "expr",
+    "level": "B2",
+    "topic": "idioms",
+    "ex": {
+      "he": "סבתא שלי בת תשעים ושתיים, בלי עין הרע, והיא עדיין מבשלת לכל המשפחה בשבת.",
+      "en": "My grandmother is ninety-two, knock on wood, and she still cooks for the whole family on Shabbat."
+    },
+    "note": "Lit. \"without the evil eye\". Said by secular and religious Israelis alike right after praising health, children or success, so as not to tempt fate. Often followed by טפו טפו טפו. Normative pronunciation: bli ein hará."
+  },
+  {
+    "id": "vc1i_laasot_mizvuv_pil",
+    "he": "לעשות מזבוב פיל",
+    "tr": "la'asót mizvúv pil",
+    "en": "to make a mountain out of a molehill",
+    "enAlt": ["to blow things out of proportion", "to exaggerate", "to overreact"],
+    "pos": "expr",
+    "level": "C1",
+    "topic": "idioms",
+    "ex": {
+      "he": "זו טעות הקלדה אחת במייל, אין צורך לעשות מזבוב פיל.",
+      "en": "It's one typo in an email; there's no need to make a mountain out of a molehill."
+    },
+    "note": "Lit. \"to make an elephant out of a fly\". Neutral register, slightly critical: you're overreacting. Milder: לא לעשות עניין."
+  },
+  {
+    "id": "vc1i_lo_lispor",
+    "he": "לא לספור",
+    "tr": "lo lispór",
+    "en": "to ignore (someone); not to give someone the time of day",
+    "enAlt": ["to ignore someone", "to pay no attention to", "to blank someone"],
+    "alt": ["לא סופר"],
+    "pos": "expr",
+    "register": "slang",
+    "level": "C1",
+    "topic": "idioms",
+    "ex": {
+      "he": "שלחתי לבעל הבית שלוש הודעות על הנזילה, והוא בכלל לא סופר אותי.",
+      "en": "I sent the landlord three messages about the leak, and he's completely ignoring me."
+    },
+    "note": "Lit. \"not to count (someone)\". Slang; takes a direct object: היא לא סופרת אותו = she ignores him completely. Used almost only in the negative."
+  },
+  {
+    "id": "vc1i_lalekhet_al_ze",
+    "he": "ללכת על זה",
+    "tr": "lalékhet al ze",
+    "en": "to go for it",
+    "enAlt": ["go for it", "to take the plunge", "to give it a shot"],
+    "alt": ["לך על זה", "לכי על זה"],
+    "pos": "expr",
+    "register": "colloquial",
+    "level": "B2",
+    "topic": "idioms",
+    "ex": {
+      "he": "קיבלת הצעה לנהל את הסניף בחיפה? אני חושבת שכדאי לך ללכת על זה.",
+      "en": "You got an offer to manage the Haifa branch? I think you should go for it."
+    },
+    "note": "Lit. \"to walk on it\". Colloquial encouragement, mostly in the imperative: לך על זה! / לכי על זה! / לכו על זה! Also ללכת על = to opt for: הלכנו על הדירה הקטנה = we went for the smaller apartment."
+  },
+  {
+    "id": "vc1i_laredet_mehaets",
+    "he": "לרדת מהעץ",
+    "tr": "larédet meha'éts",
+    "en": "to climb down; to back down from a position",
+    "enAlt": ["to back down", "to climb down", "to give way"],
+    "pos": "expr",
+    "level": "C1",
+    "topic": "idioms",
+    "ex": {
+      "he": "אחרי שבועיים של משא ומתן, הספק מצא דרך לרדת מהעץ והסכים לדחות את מועד התשלום.",
+      "en": "After two weeks of negotiations, the supplier found a way to climb down and agreed to postpone the payment date."
+    },
+    "note": "Lit. \"to come down from the tree\": to drop a stubborn position. Common in the press and in negotiations; להוריד מישהו מהעץ = to give someone a face-saving way out."
+  },
+  {
+    "id": "vc1i_litmon_et_harosh_bakhol",
+    "he": "לטמון את הראש בחול",
+    "tr": "litmón et harósh bakhól",
+    "en": "to bury one's head in the sand",
+    "enAlt": ["to stick one's head in the sand", "to ignore a problem"],
+    "pos": "expr",
+    "level": "C1",
+    "topic": "idioms",
+    "ex": {
+      "he": "אי אפשר לטמון את הראש בחול לנצח: הלקוחות כבר מתחילים לעבור למתחרים.",
+      "en": "We can't bury our heads in the sand forever: customers are already starting to move to competitors."
+    },
+    "note": "Same image as in English (lit. \"to hide the head in the sand\"). Neutral to formal. The verb טמן (to hide, bury) is literary; its participle is common, though: הסוד טמון ב… = the secret lies in…"
+  },
+  {
+    "id": "vc1i_lekabel_raglayim_karot",
+    "he": "לקבל רגליים קרות",
+    "tr": "lekabél ragláyim karót",
+    "en": "to get cold feet",
+    "enAlt": ["to lose one's nerve", "to have second thoughts"],
+    "pos": "expr",
+    "level": "B2",
+    "topic": "idioms",
+    "ex": {
+      "he": "יום לפני החתימה על החוזה, הקונה התחיל לקבל רגליים קרות וביקש עוד זמן לחשוב.",
+      "en": "A day before signing the contract, the buyer started getting cold feet and asked for more time to think."
+    },
+    "note": "Lit. \"to get cold legs\", borrowed from English and fully at home in Hebrew; neutral register. רגליים is feminine, hence קרות."
+  },
+  {
+    "id": "vc1i_al_kets_hamazleg",
+    "he": "על קצה המזלג",
+    "tr": "al ktse hamazlég",
+    "en": "very briefly; just a taste",
+    "enAlt": ["in a nutshell", "briefly", "in brief", "a quick overview"],
+    "pos": "expr",
+    "level": "C1",
+    "topic": "idioms",
+    "ex": {
+      "he": "בהרצאה של היום אציג על קצה המזלג את תולדות העברית החדשה.",
+      "en": "In today's lecture I'll give a very brief overview of the history of Modern Hebrew."
+    },
+    "note": "Lit. \"on the tip of the fork\": just a taste, not the whole meal. Neutral to formal, typical of lectures and presentations: רק על קצה המזלג = just a quick overview."
+  },
+  {
+    "id": "vc1i_al_regel_akhat",
+    "he": "על רגל אחת",
+    "tr": "al régel akhát",
+    "en": "in a nutshell",
+    "enAlt": ["in one sentence", "briefly", "in short", "on one foot"],
+    "pos": "expr",
+    "level": "C1",
+    "topic": "idioms",
+    "ex": {
+      "he": "תוכלי להסביר לי על רגל אחת מה ההבדל בין עוסק פטור לעוסק מורשה?",
+      "en": "Could you explain to me in a nutshell the difference between an exempt dealer and a licensed dealer?"
+    },
+    "note": "Lit. \"on one foot\", from the Talmudic story of a man who asked Hillel to teach him the whole Torah while standing on one foot. Neutral register; it stresses squeezing something big into one short explanation."
+  },
+  {
+    "id": "vc1i_bein_hapatish_lasadan",
+    "he": "בין הפטיש לסדן",
+    "tr": "bein hapatísh lasadán",
+    "en": "between a rock and a hard place",
+    "enAlt": ["caught in the middle", "between the devil and the deep blue sea"],
+    "pos": "expr",
+    "level": "C1",
+    "topic": "idioms",
+    "ex": {
+      "he": "כמנהלת צוות, רונית נמצאת בין הפטיש לסדן: ההנהלה דורשת לקצץ, והעובדים מבקשים תוספת שכר.",
+      "en": "As a team leader, Ronit is caught between a rock and a hard place: management demands cuts, and the employees are asking for a raise."
+    },
+    "note": "Lit. \"between the hammer and the anvil\". Neutral to formal, common in the press. סדן (anvil) hardly appears outside this phrase."
+  },
+  {
+    "id": "vc1i_lo_dubim_velo_yaar",
+    "he": "לא דובים ולא יער",
+    "tr": "lo dubím velo yá'ar",
+    "en": "there's nothing to it; completely baseless",
+    "enAlt": ["a total fabrication", "completely unfounded", "pure invention"],
+    "pos": "expr",
+    "register": "formal",
+    "level": "C1",
+    "topic": "idioms",
+    "ex": {
+      "he": "בסוף התברר שכל השמועות על המעבר של המשרד לבאר שבע הן בבחינת לא דובים ולא יער.",
+      "en": "In the end it turned out that all the rumours about the office moving to Be'er Sheva were completely baseless."
+    },
+    "note": "Lit. \"neither bears nor forest\", a Talmudic phrase for a story with nothing behind it. Literary register, often used wryly about rumours or claims that turn out to be invented; typically introduced by בבחינת (amounting to) or מדובר ב…"
+  },
+  {
+    "id": "vc1i_ein_li_musag_yarok",
+    "he": "אין לי מושג ירוק",
+    "tr": "ein li muság yarók",
+    "en": "I haven't got a clue",
+    "enAlt": ["I have no idea", "I haven't the foggiest", "no idea at all"],
+    "pos": "expr",
+    "register": "colloquial",
+    "level": "B2",
+    "topic": "idioms",
+    "ex": {
+      "he": "קיבלתי מכתב מביטוח לאומי, ואין לי מושג ירוק מה הם רוצים ממני.",
+      "en": "I got a letter from National Insurance, and I haven't got a clue what they want from me."
+    },
+    "note": "Lit. \"I don't have a green idea\". Colloquial, a stronger אין לי מושג. Change the pronoun: אין לו מושג ירוק = he hasn't a clue."
+  },
+  {
+    "id": "vc1i_lalekhet_bein_hatipot",
+    "he": "ללכת בין הטיפות",
+    "tr": "lalékhet bein hatipót",
+    "en": "to dodge the issue; to sidestep",
+    "enAlt": ["to sidestep", "to evade", "to avoid committing", "to tiptoe around"],
+    "pos": "expr",
+    "level": "C1",
+    "topic": "idioms",
+    "ex": {
+      "he": "הדוברת ניסתה ללכת בין הטיפות ולא ענתה ישירות על השאלה.",
+      "en": "The spokeswoman tried to dodge the issue and didn't answer the question directly."
+    },
+    "note": "Lit. \"to walk between the (rain)drops\" without getting wet. Neutral, common in journalism: dodging a clear answer, a commitment or a rule."
+  },
+  {
+    "id": "vc1i_nafal_lo_haasimon",
+    "he": "נפל לו האסימון",
+    "tr": "nafál lo ha'asimón",
+    "en": "the penny dropped (for him)",
+    "enAlt": ["the penny dropped", "it finally clicked", "he finally got it"],
+    "alt": ["נפל לי האסימון", "נפל לה האסימון", "נפל האסימון"],
+    "pos": "expr",
+    "register": "colloquial",
+    "level": "C1",
+    "topic": "idioms",
+    "ex": {
+      "he": "רק כשהראיתי לו את החשבונית נפל לו האסימון: שילמנו פעמיים על אותו שירות.",
+      "en": "Only when I showed him the invoice did the penny drop: we had paid twice for the same service."
+    },
+    "note": "Lit. \"his token dropped\": old Israeli payphones ran on an אסימון (a metal token), and the call went through only when it fell. Colloquial. Change the pronoun: נפל לי / לה / לנו האסימון."
+  },
+  {
+    "id": "vc1i_bashura_hatakhtona",
+    "he": "בשורה התחתונה",
+    "tr": "bashurá hatakhtoná",
+    "en": "the bottom line is; at the end of the day",
+    "enAlt": ["bottom line", "ultimately", "all in all"],
+    "pos": "expr",
+    "level": "B2",
+    "topic": "idioms",
+    "ex": {
+      "he": "דיברנו הרבה על העיצוב, אבל בשורה התחתונה הלקוח רוצה מוצר זול יותר.",
+      "en": "We talked a lot about the design, but the bottom line is that the client wants a cheaper product."
+    },
+    "note": "Lit. \"in the bottom line\", from accounting, exactly as in English. Neutral and very common in business talk. השורה התחתונה היא ש… = the bottom line is that…"
+  },
+  {
+    "id": "vc1i_liftoakh_daf_khadash",
+    "he": "לפתוח דף חדש",
+    "tr": "liftóakh daf khadásh",
+    "en": "to make a fresh start; to turn over a new leaf",
+    "enAlt": ["to turn over a new leaf", "to start afresh", "to wipe the slate clean"],
+    "pos": "expr",
+    "level": "B2",
+    "topic": "idioms",
+    "ex": {
+      "he": "אחרי הוויכוח בישיבה, דניאל ואלכס החליטו לפתוח דף חדש ולעבוד יחד על הפרויקט.",
+      "en": "After the argument in the meeting, Daniel and Alex decided to make a fresh start and work on the project together."
+    },
+    "note": "Lit. \"to open a new page\". Neutral register; used for relationships, habits and careers: פתחנו דף חדש = we put the past behind us."
+  },
+  {
+    "id": "vc1i_laredet_latimyon",
+    "he": "לרדת לטמיון",
+    "tr": "larédet latimyón",
+    "en": "to go down the drain; to be lost for good",
+    "enAlt": ["to go to waste", "to be wasted", "to be lost"],
+    "pos": "expr",
+    "register": "formal",
+    "level": "C1",
+    "topic": "idioms",
+    "ex": {
+      "he": "בלי גיבוי, כל העבודה של השנה עלולה לרדת לטמיון בגלל תקלה אחת בשרת.",
+      "en": "Without a backup, a whole year's work could go down the drain because of a single server failure."
+    },
+    "note": "Lit. \"to go down to the treasury\": in rabbinic Hebrew, property that went to the טמיון (the imperial treasury, from Greek) was lost for good. Formal or journalistic; used for money, effort or data."
+  },
+  {
+    "id": "vc1i_kol_hahatkhalot_kashot",
+    "he": "כל ההתחלות קשות",
+    "tr": "kol hahatkhalót kashót",
+    "en": "all beginnings are hard",
+    "enAlt": ["every beginning is difficult", "the first steps are the hardest"],
+    "pos": "expr",
+    "level": "B2",
+    "topic": "idioms",
+    "ex": {
+      "he": "בחודש הראשון באולפן הרגשתי שאני לא מבינה כלום, אבל כל ההתחלות קשות.",
+      "en": "In my first month at the ulpan I felt I didn't understand a thing, but all beginnings are hard."
+    },
+    "note": "Lit. \"all beginnings are hard\", a saying of rabbinic origin. Neutral; said to encourage anyone new: at a job, in a country, with a language."
+  },
+  {
+    "id": "vc1i_lehorid_et_hakova",
+    "he": "להוריד את הכובע",
+    "tr": "lehoríd et hakóva",
+    "en": "to take one's hat off (to someone)",
+    "enAlt": ["to tip one's hat", "to salute", "hats off"],
+    "pos": "expr",
+    "level": "C1",
+    "topic": "idioms",
+    "ex": {
+      "he": "צריך להוריד את הכובע בפני הצוות: הם סיימו את הפרויקט שבוע לפני המועד.",
+      "en": "We have to take our hats off to the team: they finished the project a week ahead of schedule."
+    },
+    "note": "Lit. \"to take off the hat\", as in English. Usually with בפני: אני מוריד בפניו את הכובע. Sincere praise, slightly formal; common in speeches and work emails."
+  },
+  {
+    "id": "vc1i_begova_haeinayim",
+    "he": "בגובה העיניים",
+    "tr": "begóva ha'eináyim",
+    "en": "as equals; frankly and unpretentiously",
+    "enAlt": ["eye to eye", "on an equal footing", "down to earth", "at eye level"],
+    "pos": "expr",
+    "level": "C1",
+    "topic": "idioms",
+    "ex": {
+      "he": "המנכ״לית החדשה מדברת עם העובדים בגובה העיניים, וזה יצר אווירה אחרת לגמרי במשרד.",
+      "en": "The new CEO talks to the employees as equals, and that has created a completely different atmosphere in the office."
+    },
+    "note": "Lit. \"at eye level\". A key value phrase in Israeli culture: no condescension, no airs. Neutral; also praises books, shows or ads that speak to people simply and directly."
+  },
+  {
+    "id": "vc1i_lasim_et_haklafim_al_hashulkhan",
+    "he": "לשים את הקלפים על השולחן",
+    "tr": "lasím et haklafím al hashulkhán",
+    "en": "to put one's cards on the table",
+    "enAlt": ["to lay one's cards on the table", "to be upfront"],
+    "pos": "expr",
+    "level": "B2",
+    "topic": "idioms",
+    "ex": {
+      "he": "הגיע הזמן לשים את הקלפים על השולחן: התקציב שלנו מוגבל, ואנחנו לא יכולים לשלם יותר.",
+      "en": "It's time to put our cards on the table: our budget is limited, and we can't pay more."
+    },
+    "note": "Same image as in English (lit. \"to put the cards on the table\"). Neutral, typical of negotiations; the casual equivalent is לדבר דוגרי (to talk straight)."
+  },
+  {
+    "id": "vc1i_lo_ba_bakheshbon",
+    "he": "לא בא בחשבון",
+    "tr": "lo ba bakheshbón",
+    "en": "out of the question",
+    "enAlt": ["not an option", "no way", "unthinkable"],
+    "pos": "expr",
+    "level": "B2",
+    "topic": "idioms",
+    "ex": {
+      "he": "לעבוד גם בשבת? זה לא בא בחשבון מבחינתי.",
+      "en": "Work on Shabbat too? That's out of the question as far as I'm concerned."
+    },
+    "note": "Lit. \"doesn't come into the account\". A firm refusal that is still fine at work. The verb agrees with the subject: האפשרות הזאת לא באה בחשבון. The positive also exists: זה בהחלט בא בחשבון = that's definitely an option."
+  },
+  {
+    "id": "vc1i_lekabel_bishtei_yadayim",
+    "he": "לקבל בשתי ידיים",
+    "tr": "lekabél bishtéi yadáyim",
+    "en": "to jump at (an offer); to accept eagerly",
+    "enAlt": ["to accept eagerly", "to welcome with open arms", "to jump at"],
+    "pos": "expr",
+    "level": "C1",
+    "topic": "idioms",
+    "ex": {
+      "he": "כשהציעו לה לעבוד מהבית יומיים בשבוע, היא קיבלה את ההצעה בשתי ידיים.",
+      "en": "When they offered her two days a week working from home, she jumped at it."
+    },
+    "note": "Lit. \"to receive with both hands\". Neutral register, used of offers, ideas and proposals. The opposite: לדחות על הסף = to reject out of hand."
+  },
+  {
+    "id": "vc1i_hatapuakh_lo_nofel",
+    "he": "התפוח לא נופל רחוק מהעץ",
+    "tr": "hatapúakh lo nofél rakhók meha'éts",
+    "en": "the apple doesn't fall far from the tree",
+    "enAlt": ["like father, like son", "like mother, like daughter"],
+    "pos": "expr",
+    "level": "B2",
+    "topic": "idioms",
+    "ex": {
+      "he": "גם הבת של סאמר פתחה מסעדה, בדיוק כמו אבא שלה. התפוח לא נופל רחוק מהעץ.",
+      "en": "Samer's daughter has opened a restaurant too, just like her father. The apple doesn't fall far from the tree."
+    },
+    "note": "Same image as in English. Neutral; used of good and bad family traits alike, and often cut short: התפוח לא נופל רחוק…"
+  },
+  {
+    "id": "vc1i_lekhapes_makhat",
+    "he": "לחפש מחט בערימת שחת",
+    "tr": "lekhapés mákhat ba'aremát shákhat",
+    "en": "to look for a needle in a haystack",
+    "enAlt": ["a needle in a haystack"],
+    "pos": "expr",
+    "level": "C1",
+    "topic": "idioms",
+    "ex": {
+      "he": "למצוא את החשבונית המקורית משנת 2019 בין כל הארגזים האלה זה כמו לחפש מחט בערימת שחת.",
+      "en": "Finding the original invoice from 2019 among all these boxes is like looking for a needle in a haystack."
+    },
+    "note": "Same image as in English (lit. \"in a pile of hay\"). Neutral. שחת is a word most people know only from this phrase; everyday Hebrew says חציר."
+  },
+  {
+    "id": "vc1i_lakhshov_mikhuts_lakufsa",
+    "he": "לחשוב מחוץ לקופסה",
+    "tr": "lakhshóv mikhúts lakufsá",
+    "en": "to think outside the box",
+    "enAlt": ["to think creatively", "to think differently"],
+    "pos": "expr",
+    "level": "B2",
+    "topic": "idioms",
+    "ex": {
+      "he": "המשקיעים מחפשים צוות שיודע לחשוב מחוץ לקופסה, לא עוד אפליקציה כמו כולן.",
+      "en": "The investors are looking for a team that knows how to think outside the box, not just another app like all the rest."
+    },
+    "note": "Lit. \"to think outside the box\", a calque from English found in every job ad and pitch deck. Neutral, a bit of a cliché. The noun: חשיבה מחוץ לקופסה."
+  },
+  {
+    "id": "vc1i_sof_haderekh",
+    "he": "סוף הדרך",
+    "tr": "sof hadérekh",
+    "en": "out of this world; amazing",
+    "enAlt": ["amazing", "awesome", "incredible", "the best"],
+    "pos": "expr",
+    "register": "slang",
+    "level": "C1",
+    "topic": "idioms",
+    "ex": {
+      "he": "ראיתם את ההופעה של אתמול בפארק הירקון? סוף הדרך!",
+      "en": "Did you see last night's show in Park HaYarkon? Out of this world!"
+    },
+    "note": "Lit. \"the end of the road\": so good it can't go any further. Slang praise like חבל על הזמן; in a neutral context the same words simply mean the end of the road."
+  },
+  {
+    "id": "vc1i_al_haderekh",
+    "he": "על הדרך",
+    "tr": "al hadérekh",
+    "en": "on the way; while you're at it",
+    "enAlt": ["on the way", "along the way", "in passing", "while at it"],
+    "pos": "expr",
+    "register": "colloquial",
+    "level": "B2",
+    "topic": "idioms",
+    "ex": {
+      "he": "אם את כבר יוצאת לדואר, תקני לי על הדרך חלב ולחם.",
+      "en": "If you're going out to the post office anyway, pick up some milk and bread for me on the way."
+    },
+    "note": "Lit. \"on the way\". Colloquial. Also \"as a bonus, in passing\": על הדרך גם למדתי לבשל = along the way I also learned to cook."
+  },
+  {
+    "id": "vc1i_lekh_teda",
+    "he": "לך תדע",
+    "tr": "lekh tedá",
+    "en": "who knows; you never know",
+    "enAlt": ["who knows", "you never can tell", "go figure"],
+    "pos": "expr",
+    "register": "colloquial",
+    "level": "C1",
+    "topic": "idioms",
+    "ex": {
+      "he": "אולי בעוד שנה גם אנחנו נעבור לגור בצפון, לך תדע.",
+      "en": "Maybe in a year we'll move up north too, who knows."
+    },
+    "note": "Lit. \"go and know\". Colloquial, said with a shrug, and usually kept in this form whoever you are talking to. Related: לך תסביר לו = try explaining that to him."
+  },
+  {
+    "id": "vc1i_bli_neder",
+    "he": "בלי נדר",
+    "tr": "bli néder",
+    "en": "no promises (but I'll try)",
+    "enAlt": ["no promises", "without promising", "hopefully"],
+    "pos": "expr",
+    "level": "C1",
+    "topic": "idioms",
+    "ex": {
+      "he": "אשלח לך את ההצעה עד יום חמישי, בלי נדר.",
+      "en": "I'll send you the proposal by Thursday, no promises."
+    },
+    "note": "Lit. \"without a vow\". Religious in origin (one shouldn't make vows lightly), now used by everyone to soften a commitment. Neutral; in writing sometimes abbreviated בל״נ."
+  },
+  {
+    "id": "vc1i_meakhorei_haklaim",
+    "he": "מאחורי הקלעים",
+    "tr": "me'akhoréi haklá'im",
+    "en": "behind the scenes",
+    "enAlt": ["backstage", "out of public view"],
+    "pos": "expr",
+    "level": "B2",
+    "topic": "idioms",
+    "ex": {
+      "he": "הסכם השותפות נחתם רק אחרי חודשים של שיחות מאחורי הקלעים.",
+      "en": "The partnership agreement was signed only after months of talks behind the scenes."
+    },
+    "note": "Lit. \"behind the curtains\": קלעים are the wings and drapes of a stage. Neutral; used both literally (backstage) and figuratively (out of public view)."
+  },
+  {
+    "id": "vc1i_bekhatsi_pe",
+    "he": "בחצי פה",
+    "tr": "bakhatsí pe",
+    "en": "grudgingly; half-heartedly",
+    "enAlt": ["reluctantly", "half-heartedly", "halfheartedly", "grudgingly"],
+    "pos": "expr",
+    "level": "C1",
+    "topic": "idioms",
+    "ex": {
+      "he": "הספק הודה בחצי פה שהמשלוח יצא באיחור.",
+      "en": "The supplier grudgingly admitted that the shipment had gone out late."
+    },
+    "note": "Lit. \"with half a mouth\". Neutral to formal, common in the press: להודות / להתנצל / לפרגן בחצי פה. The opposite: בפה מלא = openly, wholeheartedly."
+  },
+  {
+    "id": "vc1i_higiu_mayim_ad_nefesh",
+    "he": "הגיעו מים עד נפש",
+    "tr": "higí'u máyim ad néfesh",
+    "en": "things have reached breaking point",
+    "enAlt": ["enough is enough", "the last straw", "fed up"],
+    "pos": "expr",
+    "register": "formal",
+    "level": "C1",
+    "topic": "idioms",
+    "ex": {
+      "he": "תושבי השכונה טוענים שהגיעו מים עד נפש, אחרי שנה שלמה של עבודות בכביש.",
+      "en": "The neighbourhood's residents say they have reached breaking point after a whole year of roadworks."
+    },
+    "note": "Lit. \"the waters have come up to the soul\", after a verse in Psalms. Formal and journalistic; in speech people say נמאס לנו or אין לנו כוח יותר."
+  },
+  {
+    "id": "vc1i_limkor_lokshim",
+    "he": "למכור לוקשים",
+    "tr": "limkór lókshim",
+    "en": "to feed someone nonsense; to spin tall tales",
+    "enAlt": ["to tell tall tales", "to talk nonsense", "to spin a yarn"],
+    "pos": "expr",
+    "register": "slang",
+    "level": "C1",
+    "topic": "idioms",
+    "ex": {
+      "he": "אל תמכור לי לוקשים, ראיתי את הנתונים בעצמי.",
+      "en": "Don't feed me that nonsense, I saw the figures myself."
+    },
+    "note": "Lit. \"to sell noodles\" (Yiddish loksh = noodle). Slang. Also: זה לוקש = that's a made-up story."
+  },
+  {
+    "id": "vc1i_lesakhek_ota",
+    "he": "לשחק אותה",
+    "tr": "lesakhék otá",
+    "en": "to nail it; to pull it off brilliantly",
+    "enAlt": ["to nail it", "to ace it", "to knock it out of the park"],
+    "alt": ["שיחקת אותה"],
+    "pos": "expr",
+    "register": "slang",
+    "level": "C1",
+    "topic": "idioms",
+    "ex": {
+      "he": "שיחקת אותה במצגת! הלקוחות ביקשו לקבוע פגישת המשך.",
+      "en": "You nailed the presentation! The clients asked to set up a follow-up meeting."
+    },
+    "note": "Lit. \"to play it\". Slang. The אותה (it) is fixed and feminine whoever the subject is: הוא שיחק אותה, היא שיחקה אותה, שיחקתם אותה!"
+  },
+  {
+    "id": "vc1i_yashar_velainyan",
+    "he": "ישר ולעניין",
+    "tr": "yashár vela'inyán",
+    "en": "straight to the point",
+    "enAlt": ["to the point", "direct", "no beating about the bush"],
+    "pos": "expr",
+    "level": "B2",
+    "topic": "idioms",
+    "ex": {
+      "he": "המייל שלה קצר, ישר ולעניין, בלי הקדמות מיותרות.",
+      "en": "Her email is short and straight to the point, with no unnecessary introductions."
+    },
+    "note": "Lit. \"straight and to the matter\". Neutral praise for direct communication, a very Israeli virtue. Also: בואו נדבר ישר ולעניין = let's get straight to the point."
+  },
+  {
+    "id": "vc1i_taarukha",
+    "he": "תערוכה",
+    "tr": "ta'arukhá",
+    "en": "exhibition",
+    "enAlt": ["exhibit", "show", "trade fair"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "תערוכות",
+    "root": "ע.ר.כ",
+    "level": "B2",
+    "topic": "culture",
+    "ex": {
+      "he": "התערוכה החדשה במוזיאון העירוני מציגה צילומים של העיר מלפני מאה שנה.",
+      "en": "The new exhibition at the city museum shows photographs of the city from a hundred years ago."
+    },
+    "note": "Same root as לערוך (to arrange, edit). Also a trade fair: תערוכת רכב = a motor show. To exhibit = להציג."
+  },
+  {
+    "id": "vc1i_yetsira",
+    "he": "יצירה",
+    "tr": "yetsirá",
+    "en": "work (of art); creation",
+    "enAlt": ["work", "work of art", "piece", "composition", "creation"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "יצירות",
+    "root": "י.צ.ר",
+    "level": "B2",
+    "topic": "culture",
+    "ex": {
+      "he": "התזמורת תנגן הערב שתי יצירות של מלחינים ישראלים צעירים.",
+      "en": "Tonight the orchestra will play two works by young Israeli composers."
+    },
+    "note": "Any creative work: a piece of music, a painting, a novel; also the act of creating. יצירתי = creative; יוצר / יוצרת = creator, artist."
+  },
+  {
+    "id": "vc1i_oman",
+    "he": "אמן",
+    "tr": "omán",
+    "en": "artist",
+    "enAlt": ["performer", "artiste"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "אמנים",
+    "root": "א.מ.נ",
+    "level": "B2",
+    "topic": "culture",
+    "ex": {
+      "he": "אמנים רבים פתחו סטודיו בשכונה, כי שכר הדירה שם עדיין נמוך יחסית.",
+      "en": "Many artists have opened studios in the neighbourhood, because rents there are still relatively low."
+    },
+    "note": "Feminine: אמנית. Also a performer: singer, musician, actor. Spelled like אמן (amén, \"amen\"); context tells them apart. Not to be confused with אומן (umán, craftsman)."
+  },
+  {
+    "id": "vc1i_omanut",
+    "he": "אמנות",
+    "tr": "omanút",
+    "en": "art",
+    "enAlt": ["the arts", "artistry"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "אמנויות",
+    "root": "א.מ.נ",
+    "level": "B2",
+    "topic": "culture",
+    "ex": {
+      "he": "בתיכון היא למדה במגמת אמנות, ומאז היא לא הפסיקה לצייר.",
+      "en": "In high school she majored in art, and she hasn't stopped painting since."
+    },
+    "note": "אמנות פלסטית = the visual arts; אמנויות הבמה = the performing arts. Adjective: אמנותי."
+  },
+  {
+    "id": "vc1i_bamai",
+    "he": "במאי",
+    "tr": "bamái",
+    "en": "director (film, theatre)",
+    "enAlt": ["film director", "stage director", "director"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "במאים",
+    "level": "B2",
+    "topic": "culture",
+    "ex": {
+      "he": "הבמאי עבד שלוש שנים על הסרט, וחלק גדול ממנו צולם בנגב.",
+      "en": "The director worked on the film for three years, and much of it was shot in the Negev."
+    },
+    "note": "Built on במה (stage). Feminine: במאית. Directing is בימוי, to direct is לביים. A company director is a מנהל, never a במאי."
+  },
+  {
+    "id": "vc1i_tasrit",
+    "he": "תסריט",
+    "tr": "tasrít",
+    "en": "screenplay; script",
+    "enAlt": ["script", "screenplay"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "תסריטים",
+    "root": "ס.ר.ט",
+    "level": "B2",
+    "topic": "culture",
+    "ex": {
+      "he": "היא כתבה את התסריט בעברית ובאמהרית, כדי שהדמויות ידברו כמו בבית.",
+      "en": "She wrote the screenplay in Hebrew and Amharic, so that the characters would talk the way people do at home."
+    },
+    "note": "Built on סרט (film). The screenwriter is a תסריטאי (f. תסריטאית). For a planning scenario, formal Hebrew prefers תרחיש."
+  },
+  {
+    "id": "vc1i_hafaka",
+    "he": "הפקה",
+    "tr": "hafaká",
+    "en": "production (of a show or film)",
+    "enAlt": ["production", "staging", "producing"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "הפקות",
+    "root": "פ.ו.ק",
+    "level": "C1",
+    "topic": "culture",
+    "ex": {
+      "he": "זו הפקה צנועה: חמישה שחקנים, תפאורה פשוטה וקהל של מאה איש.",
+      "en": "It's a modest production: five actors, a simple set and an audience of a hundred people."
+    },
+    "note": "Producer = מפיק / מפיקה, to produce = להפיק. Also events and shoots: הפקת אירועים = event production. Manufacturing is ייצור; outside the arts הפקה means extracting: הפקת נפט = oil extraction."
+  },
+  {
+    "id": "vc1i_makhaze",
+    "he": "מחזה",
+    "tr": "makhazé",
+    "en": "play (for the stage)",
+    "enAlt": ["play", "stage play", "drama", "sight"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מחזות",
+    "root": "ח.ז.ה",
+    "level": "B2",
+    "topic": "culture",
+    "ex": {
+      "he": "המחזה מבוסס על סיפור אמיתי של משפחה מבוכרה שעלתה ארצה בשנות התשעים.",
+      "en": "The play is based on the true story of a family from Bukhara who immigrated to Israel in the nineties."
+    },
+    "note": "Masculine with a plural in -ות: מחזה חדש, מחזות חדשים. The playwright is a מחזאי (f. מחזאית). Root ח.ז.ה (to see), so מחזה can also mean a sight: מחזה נדיר = a rare sight."
+  },
+  {
+    "id": "vc1i_mevaker",
+    "he": "מבקר",
+    "tr": "mevakér",
+    "en": "critic",
+    "enAlt": ["reviewer", "visitor", "auditor"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מבקרים",
+    "root": "ב.ק.ר",
+    "level": "B2",
+    "topic": "culture",
+    "ex": {
+      "he": "מבקר הקולנוע של העיתון כתב שהסרט ארוך מדי, אבל הקהל דווקא אהב אותו.",
+      "en": "The paper's film critic wrote that the film was too long, but audiences loved it all the same."
+    },
+    "note": "Also a visitor (מבקרים במוזיאון) and an auditor: מבקר המדינה = the State Comptroller. Feminine: מבקרת. What a critic writes is a ביקורת."
+  },
+  {
+    "id": "vc1i_sifrut",
+    "he": "ספרות",
+    "tr": "sifrút",
+    "en": "literature",
+    "enAlt": ["literary works", "literary writing"],
+    "pos": "noun",
+    "gender": "f",
+    "root": "ס.פ.ר",
+    "level": "B2",
+    "topic": "culture",
+    "ex": {
+      "he": "בבגרות בספרות קראנו סיפורים של עגנון ושירים של רחל.",
+      "en": "For the literature matriculation exam we read stories by Agnon and poems by Rachel."
+    },
+    "note": "Also professional sources: ספרות מקצועית = professional literature. Adjective: ספרותי. One of the core subjects of the Israeli בגרות."
+  },
+  {
+    "id": "vc1i_shira",
+    "he": "שירה",
+    "tr": "shirá",
+    "en": "poetry; singing",
+    "enAlt": ["poetry", "verse", "singing"],
+    "pos": "noun",
+    "gender": "f",
+    "root": "ש.י.ר",
+    "level": "B2",
+    "topic": "culture",
+    "ex": {
+      "he": "היא מנחה סדנת שירה בספרייה העירונית פעם בשבוע.",
+      "en": "She runs a poetry workshop at the city library once a week."
+    },
+    "note": "Uncountable: poetry as an art (שירה עברית) or singing (שירה בציבור = a community singalong, a beloved Israeli tradition). One poem is a שיר; a poet is a משורר."
+  },
+  {
+    "id": "vc1i_moreshet",
+    "he": "מורשת",
+    "tr": "moréshet",
+    "en": "heritage",
+    "enAlt": ["legacy", "cultural heritage"],
+    "pos": "noun",
+    "gender": "f",
+    "root": "י.ר.ש",
+    "level": "C1",
+    "topic": "culture",
+    "ex": {
+      "he": "הפסטיבל נועד לשמר את המורשת המוזיקלית של יהודי תימן ולהעביר אותה לדור הצעיר.",
+      "en": "The festival aims to preserve the musical heritage of Yemenite Jews and pass it on to the younger generation."
+    },
+    "note": "Same root as ירושה (inheritance) and יורש (heir), but מורשת is cultural and collective. אתר מורשת עולמית = a World Heritage Site."
+  },
+  {
+    "id": "vc1i_masoret",
+    "he": "מסורת",
+    "tr": "masóret",
+    "en": "tradition",
+    "enAlt": ["custom", "heritage"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "מסורות",
+    "root": "מ.ס.ר",
+    "level": "B2",
+    "topic": "culture",
+    "ex": {
+      "he": "אצלנו יש מסורת: בכל ערב חג סבא אליהו מספר את אותו הסיפור, וכולם צוחקים כאילו זו הפעם הראשונה.",
+      "en": "We have a tradition: every holiday eve Grandpa Eliyahu tells the same story, and everyone laughs as if it were the first time."
+    },
+    "note": "Root מ.ס.ר (to hand over): what is handed down. מסורתי = traditional, and in Israel also describes Jews who keep some religious customs without being Orthodox."
+  },
+  {
+    "id": "vc1i_folklor",
+    "he": "פולקלור",
+    "tr": "folklór",
+    "en": "folklore",
+    "enAlt": ["folk culture", "folk traditions"],
+    "pos": "noun",
+    "gender": "m",
+    "level": "C1",
+    "topic": "culture",
+    "ex": {
+      "he": "החוקרת אוספת סיפורי פולקלור מכפרים בגליל ומתרגמת אותם מערבית לעברית.",
+      "en": "The researcher collects folk tales from villages in the Galilee and translates them from Arabic into Hebrew."
+    },
+    "note": "A loanword. The adjective פולקלוריסטי often sounds slightly dismissive (quaint, for show); neutral is פולקלורי. Folk tales are also סיפורי עם, and Israeli folk dancing is ריקודי עם."
+  },
+  {
+    "id": "vc1i_otser",
+    "he": "אוצר",
+    "tr": "otsér",
+    "en": "curator",
+    "enAlt": ["exhibition curator", "museum curator"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "אוצרים",
+    "root": "א.צ.ר",
+    "level": "C1",
+    "topic": "culture",
+    "ex": {
+      "he": "האוצר בחר להציג את העבודות לפי צבע ולא לפי שנה.",
+      "en": "The curator chose to display the works by colour rather than by year."
+    },
+    "note": "Spelled exactly like אוצר (otsár, treasure, as in אוצר מילים = vocabulary). Feminine: אוצרת. To curate = לאצור."
+  },
+  {
+    "id": "vc1i_tizmoret",
+    "he": "תזמורת",
+    "tr": "tizmóret",
+    "en": "orchestra",
+    "enAlt": ["symphony orchestra", "philharmonic", "brass band"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "תזמורות",
+    "root": "ז.מ.ר",
+    "level": "B2",
+    "topic": "culture",
+    "ex": {
+      "he": "בכל קיץ התזמורת מנגנת בחינם בפארק, ואלפי משפחות מגיעות עם שמיכות וסלי פיקניק.",
+      "en": "Every summer the orchestra plays for free in the park, and thousands of families come with blankets and picnic baskets."
+    },
+    "note": "Same root as זמר (singer). A brass or marching band is also a תזמורת, but a rock or pop band is a להקה. The person on the podium is the מנצח."
+  },
+  {
+    "id": "vc1i_menatseakh",
+    "he": "מנצח",
+    "tr": "menatsé'akh",
+    "en": "conductor (of an orchestra)",
+    "enAlt": ["conductor", "winner"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מנצחים",
+    "root": "נ.צ.ח",
+    "level": "C1",
+    "topic": "culture",
+    "ex": {
+      "he": "המנצח עלה לבמה, הרים את ידיו, והאולם כולו השתתק.",
+      "en": "The conductor walked onto the stage, raised his hands, and the whole hall fell silent."
+    },
+    "note": "Also means winner, from the same root as ניצחון (victory). To conduct = לנצח על: היא מנצחת על התזמורת. Feminine: מנצחת."
+  },
+  {
+    "id": "vc1i_hatsagat_bekhora",
+    "he": "הצגת בכורה",
+    "tr": "hatsagát bekhorá",
+    "en": "premiere",
+    "enAlt": ["opening night", "first night", "first performance"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "הצגות בכורה",
+    "level": "C1",
+    "topic": "culture",
+    "ex": {
+      "he": "הצגת הבכורה של המחזה תתקיים ביום חמישי, בנוכחות המחזאית והשחקנים.",
+      "en": "The play's premiere will take place on Thursday, in the presence of the playwright and the cast."
+    },
+    "note": "Mainly for the stage; a film premiere is usually הקרנת בכורה, and both are often just בכורה (בכורה עולמית = a world premiere). In speech also פרמיירה. בכורה = being first, as in בכור (firstborn). With the article: הצגת הבכורה."
+  },
+  {
+    "id": "vc1i_bama",
+    "he": "במה",
+    "tr": "bamá",
+    "en": "stage",
+    "enAlt": ["platform", "podium"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "במות",
+    "level": "B2",
+    "topic": "culture",
+    "ex": {
+      "he": "בכל יום רביעי יש במה פתוחה בבר, וכל מי שרוצה יכול לעלות ולשיר.",
+      "en": "Every Wednesday there's an open mic at the bar, and anyone who wants to can go up and sing."
+    },
+    "note": "Also a platform for views: לתת במה ל… = to give a platform to. במה פתוחה = open mic. Related: במאי (director), בימוי (directing)."
+  },
+  {
+    "id": "vc1i_alila",
+    "he": "עלילה",
+    "tr": "alilá",
+    "en": "plot (of a story)",
+    "enAlt": ["plot", "storyline", "story"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "עלילות",
+    "level": "C1",
+    "topic": "culture",
+    "ex": {
+      "he": "העלילה מתרחשת בקיבוץ בשנות השבעים, והיא מסופרת מנקודת המבט של ילדה בת עשר.",
+      "en": "The plot takes place on a kibbutz in the seventies and is told from the point of view of a ten-year-old girl."
+    },
+    "note": "סרט עלילתי = a feature film, as opposed to a documentary (סרט תיעודי). Careful: עלילה can also mean a false accusation, as in עלילת שווא (a trumped-up charge)."
+  },
+  {
+    "id": "vc1i_dmut",
+    "he": "דמות",
+    "tr": "dmut",
+    "en": "character (in a story); figure",
+    "enAlt": ["character", "figure", "persona"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "דמויות",
+    "root": "ד.מ.ה",
+    "level": "B2",
+    "topic": "culture",
+    "ex": {
+      "he": "הדמות הראשית בסדרה היא רופאה מיפו שמנסה לאזן בין העבודה למשפחה.",
+      "en": "The main character in the series is a doctor from Jaffa who is trying to balance work and family."
+    },
+    "note": "Also a figure in public life (דמות מוכרת) or a role model (דמות לחיקוי). Always feminine, even for a male character: הדמות הראשית."
+  },
+  {
+    "id": "vc1i_siporet",
+    "he": "סיפורת",
+    "tr": "sipóret",
+    "en": "fiction (prose)",
+    "enAlt": ["fiction", "prose fiction", "narrative prose"],
+    "pos": "noun",
+    "gender": "f",
+    "root": "ס.פ.ר",
+    "level": "C1",
+    "topic": "culture",
+    "ex": {
+      "he": "היא כותבת בעיקר שירה, אבל הספר החדש שלה הוא הניסיון הראשון שלה בסיפורת.",
+      "en": "She mainly writes poetry, but her new book is her first attempt at fiction."
+    },
+    "note": "Novels and stories, as opposed to שירה (poetry) and עיון (non-fiction): ספרי עיון = non-fiction books. A fiction writer is a סופר (sofér, f. סופרת)."
+  },
+  {
+    "id": "vc1i_meshorer",
+    "he": "משורר",
+    "tr": "meshorér",
+    "en": "poet",
+    "enAlt": ["bard"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "משוררים",
+    "root": "ש.י.ר",
+    "level": "C1",
+    "topic": "culture",
+    "ex": {
+      "he": "המשורר קרא את שיריו מול קהל קטן בבית קפה בחיפה, ואחר כך ענה על שאלות.",
+      "en": "The poet read his poems to a small audience at a café in Haifa and then answered questions."
+    },
+    "note": "Feminine: משוררת. Bialik is often called המשורר הלאומי, the national poet. A songwriter is a פזמונאי (f. פזמונאית)."
+  },
+  {
+    "id": "vc1i_roman",
+    "he": "רומן",
+    "tr": "román",
+    "en": "novel",
+    "enAlt": ["affair", "love affair", "romance"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "רומנים",
+    "level": "B2",
+    "topic": "culture",
+    "ex": {
+      "he": "קראתי את הרומן בסוף שבוע אחד, פשוט לא יכולתי להפסיק.",
+      "en": "I read the novel in a single weekend; I just couldn't put it down."
+    },
+    "note": "Also a love affair: היה להם רומן קצר. A short story is a סיפור קצר; fiction in general is סיפורת."
+  },
+  {
+    "id": "vc1i_osef",
+    "he": "אוסף",
+    "tr": "oséf",
+    "en": "collection",
+    "enAlt": ["compilation", "anthology"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "אוספים",
+    "root": "א.ס.פ",
+    "level": "C1",
+    "topic": "culture",
+    "ex": {
+      "he": "המוזיאון קיבל במתנה אוסף של מאתיים כרזות ישנות מבתי קולנוע בכל הארץ.",
+      "en": "The museum was given a collection of two hundred old posters from cinemas all over the country."
+    },
+    "note": "Same root as לאסוף (to collect). A collector is an אספן (f. אספנית). A literary anthology is often called an אסופה."
+  },
+  {
+    "id": "vc1i_mofa",
+    "he": "מופע",
+    "tr": "mofá",
+    "en": "show, performance",
+    "enAlt": ["show", "performance", "gig"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מופעים",
+    "root": "י.פ.ע",
+    "level": "C1",
+    "topic": "culture",
+    "ex": {
+      "he": "הכרטיסים למופע של הלהקה אזלו תוך שעתיים, ולכן הוסיפו תאריך נוסף.",
+      "en": "Tickets for the band's show sold out within two hours, so they added another date."
+    },
+    "note": "More formal than הופעה, which is what people usually say. מופע יחיד = a one-person show; מופע אור קולי = a sound-and-light show."
+  },
+  {
+    "id": "vc1i_hashraa",
+    "he": "השראה",
+    "tr": "hashra'á",
+    "en": "inspiration",
+    "enAlt": ["influence"],
+    "pos": "noun",
+    "gender": "f",
+    "root": "ש.ר.ה",
+    "level": "C1",
+    "topic": "culture",
+    "ex": {
+      "he": "הצלמת שאבה השראה מהנופים של הערבה, ובעיקר מהאור של הבוקר.",
+      "en": "The photographer drew inspiration from the landscapes of the Arava, especially the morning light."
+    },
+    "note": "לשאוב השראה מ… = to draw inspiration from; בהשראת = inspired by. מעורר השראה = inspiring."
+  },
+  {
+    "id": "vc1i_yetsirat_mofet",
+    "he": "יצירת מופת",
+    "tr": "yetsirát mófet",
+    "en": "masterpiece",
+    "enAlt": ["masterwork", "classic"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "יצירות מופת",
+    "level": "C1",
+    "topic": "culture",
+    "ex": {
+      "he": "יש מבקרים שרואים ברומן הזה יצירת מופת, ויש כאלה שחושבים שהוא פשוט ארוך מדי.",
+      "en": "Some critics see this novel as a masterpiece, and others think it's simply too long."
+    },
+    "note": "מופת = a model, a shining example (מורה למופת = an exemplary teacher). Plural: יצירות מופת; with the article: יצירת המופת."
+  },
+  {
+    "id": "vc1i_tafura",
+    "he": "תפאורה",
+    "tr": "tafurá",
+    "en": "(stage) set; scenery",
+    "enAlt": ["set", "scenery", "stage set", "set design"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "תפאורות",
+    "root": "פ.א.ר",
+    "level": "C1",
+    "topic": "culture",
+    "ex": {
+      "he": "התפאורה הייתה מינימלית: שולחן, שני כיסאות וחלון שדרכו נכנס אור.",
+      "en": "The set was minimal: a table, two chairs and a window that let the light in."
+    },
+    "note": "Root פ.א.ר (splendour), as in מפואר (lavish). The set designer is a מעצב תפאורה / מעצבת תפאורה."
+  },
+  {
+    "id": "vc1i_hotsaa_laor",
+    "he": "הוצאה לאור",
+    "tr": "hotsa'á la'ór",
+    "en": "publishing house",
+    "enAlt": ["publisher", "publishing"],
+    "pos": "noun",
+    "gender": "f",
+    "plural": "הוצאות לאור",
+    "level": "C1",
+    "topic": "culture",
+    "ex": {
+      "he": "אחרי שנתיים של מכתבי דחייה, הוצאה לאור קטנה בחיפה החליטה לקבל את כתב היד שלה.",
+      "en": "After two years of rejection letters, a small publishing house in Haifa decided to accept her manuscript."
+    },
+    "note": "Lit. \"bringing out to the light\". In speech usually just הוצאה: באיזו הוצאה הספר יצא? To publish a book = להוציא לאור."
+  },
+  {
+    "id": "vc1i_targum",
+    "he": "תרגום",
+    "tr": "targúm",
+    "en": "translation",
+    "enAlt": ["rendering", "interpreting"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "תרגומים",
+    "root": "ת.ר.ג.מ",
+    "level": "B2",
+    "topic": "culture",
+    "ex": {
+      "he": "התרגום לעברית של הספר יצא רק עשרים שנה אחרי המקור הרוסי.",
+      "en": "The Hebrew translation of the book came out only twenty years after the Russian original."
+    },
+    "note": "Translator = מתרגם / מתרגמת. Simultaneous interpreting is תרגום סימולטני. Also the name of the ancient Aramaic Bible translations, such as תרגום אונקלוס."
+  },
+  {
+    "id": "vc1i_pitgam",
+    "he": "פתגם",
+    "tr": "pitgám",
+    "en": "proverb, saying",
+    "enAlt": ["proverb", "saying", "adage"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "פתגמים",
+    "level": "C1",
+    "topic": "culture",
+    "ex": {
+      "he": "סבתא שלי מכירה פתגם ביידיש לכל מצב בחיים.",
+      "en": "My grandmother knows a Yiddish proverb for every situation in life."
+    },
+    "note": "An old Persian loanword that in the Bible meant a decree. Related: ביטוי = expression, ניב = idiom, מימרה = a famous saying of the sages."
+  },
+  {
+    "id": "vc1i_shimur",
+    "he": "שימור",
+    "tr": "shimúr",
+    "en": "preservation, conservation",
+    "enAlt": ["preservation", "conservation", "restoration"],
+    "pos": "noun",
+    "gender": "m",
+    "root": "ש.מ.ר",
+    "level": "C1",
+    "topic": "culture",
+    "ex": {
+      "he": "הבניין בשדרות רוטשילד הוכרז כמבנה לשימור, ולכן אסור להרוס אותו.",
+      "en": "The building on Rothschild Boulevard was declared a listed building, so it may not be demolished."
+    },
+    "note": "מבנה לשימור = a listed (protected) building, a familiar phrase in Tel Aviv. Careful: the plural שימורים means canned food."
+  },
+  {
+    "id": "vc1i_adrikhalut",
+    "he": "אדריכלות",
+    "tr": "adrikhalút",
+    "en": "architecture",
+    "enAlt": ["building design"],
+    "pos": "noun",
+    "gender": "f",
+    "level": "C1",
+    "topic": "culture",
+    "ex": {
+      "he": "בתל אביב יש אלפי בניינים בסגנון באוהאוס, ולכן היא נחשבת למוזיאון פתוח של אדריכלות מודרנית.",
+      "en": "Tel Aviv has thousands of Bauhaus-style buildings, which is why it is considered an open-air museum of modern architecture."
+    },
+    "note": "Architect = אדריכל / אדריכלית; in speech also ארכיטקט. Adjective: אדריכלי."
+  },
+  {
+    "id": "vc1i_signon",
+    "he": "סגנון",
+    "tr": "signón",
+    "en": "style",
+    "enAlt": ["manner"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "סגנונות",
+    "level": "B2",
+    "topic": "culture",
+    "ex": {
+      "he": "קשה לטעות בסגנון שלה: משפטים קצרים, הרבה הומור ומעט מאוד תיאורים.",
+      "en": "Her style is unmistakable: short sentences, lots of humour and very little description."
+    },
+    "note": "Masculine with a plural in -ות: סגנונות שונים. סגנון חיים = lifestyle; מסוגנן = stylish."
+  },
+  {
+    "id": "vc1i_minuy",
+    "he": "מנוי",
+    "tr": "minúy",
+    "en": "subscription; season ticket",
+    "enAlt": ["subscription", "season ticket", "membership", "subscriber"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "מנויים",
+    "root": "מ.נ.ה",
+    "level": "B2",
+    "topic": "culture",
+    "ex": {
+      "he": "עשינו מנוי לתיאטרון לכל העונה, וכך אנחנו יוצאים להצגה פעם בחודש.",
+      "en": "We got a theatre subscription for the whole season, so we go out to a play once a month."
+    },
+    "note": "Also the subscriber (מנוי / מנויה), as in למנויים בלבד = subscribers only. Used for gyms, newspapers and streaming services too: לבטל מנוי = to cancel a subscription."
+  },
+  {
+    "id": "vc1i_kahal",
+    "he": "קהל",
+    "tr": "kahál",
+    "en": "audience; the public",
+    "enAlt": ["audience", "crowd", "spectators", "the public"],
+    "pos": "noun",
+    "gender": "m",
+    "plural": "קהלים",
+    "root": "ק.ה.ל",
+    "level": "B2",
+    "topic": "culture",
+    "ex": {
+      "he": "הקהל עמד על הרגליים ומחא כפיים כמעט עשר דקות.",
+      "en": "The audience stood and applauded for almost ten minutes."
+    },
+    "note": "A collective noun with a singular verb: הקהל אהב. קהל היעד = the target audience; הקהל הרחב = the general public. Same root as קהילה (community)."
+  }
+]

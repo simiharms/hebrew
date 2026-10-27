@@ -1,0 +1,410 @@
+import { useEffect, useLayoutEffect, useMemo, useState } from 'preact/hooks';
+import type { VocabItem } from '../content/types.ts';
+import { AnswerInput, Feedback } from '../components/answer.tsx';
+import { HeText } from '../components/hebrew.tsx';
+import { Progress, SpeakBtn, TopBar } from '../components/ui.tsx';
+import { allVocab, displayRoot, rootFamily } from '../lib/content.ts';
+import { type Rating, review } from '../lib/fsrs.ts';
+import { type CheckResult, checkEnglish, checkHebrew, normalizeEn } from '../lib/hebrew.ts';
+import { go } from '../lib/router.ts';
+import { deckById } from '../lib/decks.ts';
+import { acceptedHebrew, buildDeckWordSession, buildWordSession, findCloze, pickNewWords, type WordTask } from '../lib/session.ts';
+import { record } from '../lib/skills.ts';
+import { getState, markDone, markTask, setState, todayLog } from '../lib/store.ts';
+import { speak } from '../lib/tts.ts';
+
+const POS_LABEL: Record<string, string> = {
+  noun: 'noun',
+  verb: 'verb',
+  adj: 'adjective',
+  adv: 'adverb',
+  prep: 'preposition',
+  conj: 'connector',
+  phrase: 'phrase',
+  num: 'number',
+  pron: 'pronoun',
+  expr: 'expression',
+};
+
+function rateCard(cardId: string, g: Rating, countsAsNew = true) {
+  setState((s) => {
+    const prev = s.cards[cardId];
+    s.cards[cardId] = review(prev, g, Date.now(), s.settings.retention);
+    const log = todayLog(s);
+    if (!prev && countsAsNew) log.newWords++;
+    s.queue = s.queue.filter((id) => `v:${id}` !== cardId);
+    log.reviews++;
+    if (g >= 3) log.correct++;
+  });
+}
+
+/** Deck words (or, without a deck, the daily reviews and new words). */
+function deckWords(deckId: string): VocabItem[] {
+  return (deckById(deckId)?.cards() ?? []).map((c) => c.vocab).filter(Boolean) as VocabItem[];
+}
+
+export function WordSession({ deck }: { deck?: string }) {
+  const initial = useMemo(() => (deck ? buildDeckWordSession(deckWords(deck)) : buildWordSession()), [deck]);
+  const [queue, setQueue] = useState<WordTask[]>(initial);
+  const [idx, setIdx] = useState(0);
+  const [stats, setStats] = useState({ right: 0, total: 0 });
+  const rated = useMemo(() => new Set<string>(), []);
+
+  if (!initial.length) {
+    return (
+      <>
+        <TopBar title="Words" backTo="words" />
+        <main class="page">
+          <div class="card center">
+            <h2>All caught up 🎉</h2>
+            <p class="muted">No reviews due and today's new words are done. Come back tomorrow — or raise "new words per day" in settings.</p>
+            <button class="btn primary" onClick={() => go('today')}>
+              Back to Today
+            </button>
+          </div>
+        </main>
+      </>
+    );
+  }
+
+  if (idx >= queue.length) return <SessionDone task={deck ? `deck:${deck}` : 'words'} right={stats.right} total={stats.total} doneId={deck ? `deck:${deck}` : undefined} />;
+
+  const task = queue[idx];
+
+  const next = (result: 'right' | 'wrong' | 'skip', g?: Rating) => {
+    const first = !rated.has(task.cardId) && task.mode !== 'intro';
+    if (first && g) {
+      rated.add(task.cardId);
+      rateCard(task.cardId, g);
+      const v = g >= 3 ? 1 : g === 2 ? 0.6 : 0;
+      record('vocab', v);
+      if (task.mode === 'listen') record('listening', v, [], 0.5);
+      if (task.mode === 'cloze') record('reading', v, [], 0.3);
+      setStats((s) => ({ right: s.right + (g >= 3 ? 1 : 0), total: s.total + 1 }));
+    }
+    const q = [...queue];
+    if (task.mode === 'intro' && result !== 'skip') {
+      // test it a few items later
+      q.splice(Math.min(idx + 3, q.length), 0, { ...task, mode: 'en2he' });
+    } else if (result === 'wrong' && (task.tries ?? 0) < 2) {
+      q.splice(Math.min(idx + 4, q.length), 0, { ...task, mode: 'en2he', retry: true, tries: (task.tries ?? 0) + 1 });
+    }
+    setQueue(q);
+    setIdx(idx + 1);
+  };
+
+  // Words the learner already knows don't use up the daily quota: swap in another new word.
+  const skipKnown = () => {
+    rated.add(task.cardId);
+    rateCard(task.cardId, 4, false);
+    const inQueue = new Set(queue.map((t) => t.cardId));
+    const pool = deck ? deckWords(deck) : pickNewWords(queue.length + 1);
+    const [extra] = pool.filter((v) => !inQueue.has(`v:${v.id}`) && !getState().cards[`v:${v.id}`]);
+    const q = [...queue];
+    if (extra) q.push({ cardId: `v:${extra.id}`, item: extra, mode: 'intro', isNew: true });
+    setQueue(q);
+    setIdx(idx + 1);
+  };
+
+  return (
+    <>
+      <TopBar title="Words" backTo="today" right={<span class="small muted">{idx + 1}/{queue.length}</span>} />
+      <main class="page">
+        <Progress value={idx / queue.length} />
+        <Exercise task={task} step={idx} onNext={next} onKnown={skipKnown} />
+      </main>
+    </>
+  );
+}
+
+export function SessionDone({ task, right, total, doneId }: { task: string; right: number; total: number; doneId?: string }) {
+  useEffect(() => {
+    markTask(doneId ?? task);
+    if (doneId) markDone(doneId, total ? right / total : 1);
+  }, []);
+  return (
+    <>
+      <TopBar title="Session done" backTo="today" />
+      <main class="page">
+        <div class="card center">
+          <h2 class="he">כל הכבוד! 👏</h2>
+          <p>
+            {right} / {total} correct on the first try.
+          </p>
+          <div class="btn-row">
+            <button class="btn primary" onClick={() => go('today')}>
+              Back to Today
+            </button>
+          </div>
+        </div>
+      </main>
+    </>
+  );
+}
+
+/** Other words whose English gloss is the same (so an English prompt is ambiguous). */
+function sameMeaning(item: VocabItem): VocabItem[] {
+  const key = normalizeEn(item.en);
+  return allVocab().filter(
+    (o) => o.id !== item.id && (normalizeEn(o.en) === key || (o.enAlt ?? []).some((a) => normalizeEn(a) === key)),
+  );
+}
+
+/** The shortest start of `he` that none of the other words share (מעס… vs מעב…). */
+export function distinctPrefix(he: string, others: string[]): string {
+  for (let n = 1; n < he.length; n++) {
+    const p = he.slice(0, n);
+    if (p.trim() && !others.some((o) => o.startsWith(p))) return p;
+  }
+  return he.slice(0, Math.max(1, he.length - 1));
+}
+
+function WordMeta({ item }: { item: WordTask['item'] }) {
+  return (
+    <span class="small muted">
+      {POS_LABEL[item.pos] ?? item.pos}
+      {item.gender ? ` · ${item.gender === 'm' ? 'masc.' : 'fem.'}` : ''}
+      {item.gov ? ` · + ${item.gov}` : ''}
+      {item.register && item.register !== 'neutral' ? ` · ${item.register}` : ''}
+    </span>
+  );
+}
+
+function IntroBody({ item }: { item: VocabItem }) {
+  const fam = rootFamily(item.root);
+  const relatives = [
+    ...fam.vocab.filter((v) => v.id !== item.id).map((v) => ({ he: v.he, en: v.en })),
+    ...fam.verbs.filter((v) => v.inf !== item.he).map((v) => ({ he: v.inf, en: v.en })),
+  ].slice(0, 5);
+  const showTr = getState().settings.showTr;
+  return (
+    <>
+      <div class="center mt">
+        <div class="he he-xl" style={{ textAlign: 'center' }}>
+          {item.he}
+        </div>
+        {showTr && item.tr && <div class="tr">{item.tr}</div>}
+        <div class="big-en" style={{ fontSize: 22, fontWeight: 650, marginTop: 6 }}>
+          {item.en}
+        </div>
+        <WordMeta item={item} />
+        {item.plural && (
+          <div class="small mt">
+            plural: <span class="he">{item.plural}</span>
+          </div>
+        )}
+      </div>
+      <hr class="sep" />
+      <div class="row">
+        <HeText text={item.ex.he} />
+        <SpeakBtn text={item.ex.he} small />
+      </div>
+      <div class="en">{item.ex.en}</div>
+      {item.note && <div class="card tight accent small">💡 {item.note}</div>}
+      {item.root && relatives.length > 0 && (
+        <div class="mt">
+          <div class="small muted">
+            Root <span class="he">{displayRoot(item.root)}</span> — same family:
+          </div>
+          <div class="chip-row mt">
+            {relatives.map((r) => (
+              <span class="chip">
+                <span class="he">{r.he}</span> · {r.en}
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
+      <hr class="sep" />
+    </>
+  );
+}
+
+// One component for every step (including new-word intros) and not keyed per
+// task: the same <input> stays mounted from one step to the next, so on iPhone
+// the keyboard stays open (type → Return to check → Return to continue).
+function Exercise({
+  task,
+  step,
+  onNext,
+  onKnown,
+}: {
+  task: WordTask;
+  step: number;
+  onNext: (r: 'right' | 'wrong', g?: Rating) => void;
+  onKnown: () => void;
+}) {
+  const { item, mode } = task;
+  const [value, setValue] = useState('');
+  const [result, setResult] = useState<CheckResult | null>(null);
+  const cloze = mode === 'cloze' ? findCloze(item) : null;
+  const synonyms = useMemo(() => sameMeaning(item), [item]);
+  const effectiveMode = mode === 'cloze' && !cloze ? 'en2he' : mode;
+  const intro = effectiveMode === 'intro';
+  const showTr = getState().settings.showTr;
+
+  useLayoutEffect(() => {
+    setValue('');
+    setResult(null);
+    if (intro || effectiveMode === 'listen' || effectiveMode === 'he2en') speak(item.he);
+  }, [step]);
+
+  const check = () => {
+    if (!value.trim()) return;
+    let r: CheckResult;
+    if (effectiveMode === 'he2en') r = checkEnglish(value, [item.en, ...(item.enAlt ?? [])]);
+    else if (effectiveMode === 'cloze' && cloze) r = checkHebrew(value, [cloze.answer, ...acceptedHebrew(item, task.cardId)]);
+    else r = checkHebrew(value, acceptedHebrew(item, task.cardId));
+    if (intro) {
+      // Copying the new word once: continue straight away when it's right.
+      if (r.verdict === 'correct' || r.verdict === 'close') onNext('right');
+      else setResult(r.verdict === 'latin' ? r : { ...r, note: 'Copy it exactly as shown above.' });
+      return;
+    }
+    if (r.verdict === 'wrong' && effectiveMode !== 'he2en') {
+      // A synonym with the same English meaning is not a mistake.
+      const syn = synonyms.find((o) => checkHebrew(value, [o.he, ...(o.alt ?? [])]).verdict === 'correct');
+      if (syn) r = { verdict: 'close', expected: item.he, note: `“${syn.he}” also means “${item.en}” — the word practised here is ${item.he}.` };
+    }
+    setResult(r);
+    if (r.verdict === 'correct') speak(effectiveMode === 'cloze' ? item.ex.he : item.he);
+  };
+
+  const proceed = () => {
+    if (!result) return;
+    const g: Rating = result.verdict === 'correct' ? 3 : result.verdict === 'close' ? 2 : 1;
+    onNext(g === 1 ? 'wrong' : 'right', g);
+  };
+
+  const override = () => {
+    if (effectiveMode !== 'he2en') {
+      setState((s) => {
+        const list = s.extraAnswers[task.cardId] ?? [];
+        if (!list.includes(value.trim())) list.push(value.trim());
+        s.extraAnswers[task.cardId] = list;
+      });
+    }
+    onNext('right', 3);
+  };
+
+  const done = !intro && result && result.verdict !== 'latin';
+
+  return (
+    <div class="card">
+      <div class="row">
+        <span class={`badge ${intro ? 'warn' : ''}`}>
+          {intro && 'New word'}
+          {effectiveMode === 'en2he' && 'English → Hebrew'}
+          {effectiveMode === 'he2en' && 'What does it mean?'}
+          {effectiveMode === 'listen' && 'Type what you hear'}
+          {effectiveMode === 'cloze' && 'Fill the gap'}
+        </span>
+        {intro && <span class="badge level">{item.level}</span>}
+        {task.retry && <span class="badge warn">again</span>}
+        <div class="spacer" />
+        {intro && <SpeakBtn text={item.he} />}
+      </div>
+
+      {intro ? (
+        <IntroBody item={item} />
+      ) : (
+        <div class="prompt-box">
+          {effectiveMode === 'en2he' && (
+            <>
+              <div class="big-en">{item.en}</div>
+              <WordMeta item={item} />
+              {synonyms.length > 0 && (
+                <div class="hint">
+                  starts with <span class="he">{distinctPrefix(item.he, synonyms.map((o) => o.he))}</span>
+                </div>
+              )}
+            </>
+          )}
+          {effectiveMode === 'he2en' && (
+            <>
+              <div class="he he-xl" style={{ textAlign: 'center' }}>
+                {item.he}
+              </div>
+              <SpeakBtn text={item.he} small />
+            </>
+          )}
+          {effectiveMode === 'listen' && (
+            <>
+              <button class="btn primary" onClick={() => speak(item.he)}>
+                🔊 Play again
+              </button>
+              <button class="btn ghost" onClick={() => speak(item.he, { rate: 0.6 })}>
+                🐢 Slow
+              </button>
+              {done && <div class="mt">{item.en}</div>}
+            </>
+          )}
+          {effectiveMode === 'cloze' && cloze && (
+            <>
+              <div class="he he-lg" dir="rtl">
+                {cloze.before}
+                {cloze.prefix}
+                <span style={{ borderBottom: '2px solid var(--primary)', padding: '0 24px' }}>{done ? cloze.answer : ' '}</span>
+                {cloze.after}
+              </div>
+              <div class="en mt">{item.ex.en}</div>
+              <div class="hint">missing word: “{item.en}”</div>
+            </>
+          )}
+        </div>
+      )}
+
+      <AnswerInput
+        value={value}
+        onInput={setValue}
+        onEnter={done ? proceed : intro && !value.trim() ? () => onNext('right') : check}
+        ltr={effectiveMode === 'he2en'}
+        autoFocus
+        placeholder={intro ? 'Type it once to lock it in…' : undefined}
+        status={!result ? '' : result.verdict === 'correct' ? 'ok' : result.verdict === 'close' ? 'close' : result.verdict === 'latin' ? '' : 'bad'}
+      />
+
+      {result && (
+        <Feedback
+          result={effectiveMode === 'he2en' && result.verdict !== 'correct' ? { ...result, expected: item.en } : result}
+          onOverride={intro ? undefined : override}
+          extra={
+            done && (
+              <div class="mt" style={{ color: 'var(--text)' }}>
+                <span class="he he-md">{item.he}</span>
+                {showTr && item.tr && <span class="tr"> · {item.tr}</span>}
+                <span> · {item.en}</span>
+              </div>
+            )
+          }
+        />
+      )}
+
+      <div class="btn-row">
+        {intro ? (
+          <>
+            <button class="btn ghost" onClick={onKnown}>
+              I already know it
+            </button>
+            <button class="btn primary" onClick={() => (value.trim() ? check() : onNext('right'))}>
+              {value.trim() ? 'Check' : 'Got it →'}
+            </button>
+          </>
+        ) : !done ? (
+          <>
+            <button class="btn ghost" onClick={() => setResult({ verdict: 'wrong', expected: effectiveMode === 'he2en' ? item.en : item.he })}>
+              I don't know
+            </button>
+            <button class="btn primary" onClick={check} disabled={!value.trim()}>
+              Check
+            </button>
+          </>
+        ) : (
+          <button class="btn primary block" onClick={proceed}>
+            Continue →
+          </button>
+        )}
+      </div>
+    </div>
+  );
+}

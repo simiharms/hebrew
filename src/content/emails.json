@@ -1,0 +1,567 @@
+[
+  {
+    "id": "e_reschedule",
+    "level": "A2+",
+    "title": "Moving tomorrow's meeting",
+    "situation": "Your colleague Noa sends you a Slack message: something came up, and she can't make tomorrow's 10:00 meeting. Reply and suggest a new day and time.",
+    "incoming": {
+      "from": "נועה לוי, צוות שיווק",
+      "subject": "הודעה בסלאק",
+      "body": "היי, בוקר טוב! נכנס לי משהו דחוף מחר בבוקר, אז לא אוכל להגיע לפגישה שלנו ב-10:00 😕 אפשר להזיז אותה? מתי נוח לך?",
+      "bodyEn": "Hi, good morning! Something urgent has come up for tomorrow morning, so I won't be able to make our 10:00 meeting 😕 Can we move it? When works for you?"
+    },
+    "task": {
+      "prompt": "כתבו לנועה תשובה קצרה: הציעו יום ושעה חדשים לפגישה, ושאלו אם זה מתאים לה.",
+      "promptEn": "Write Noa a short reply: suggest a new day and time for the meeting, and ask whether it suits her.",
+      "minWords": 15,
+      "useWords": ["אין בעיה", "להזיז", "במקום", "מתאים"],
+      "checklist": [
+        {
+          "en": "Say it's no problem to move the meeting",
+          "keywords": ["אין בעיה", "בטח", "בסדר", "סבבה", "כמובן", "ברור", "אוקי", "בשמחה"]
+        },
+        {
+          "en": "Suggest a new day and time",
+          "keywords": ["ראשון", "שני", "שלישי", "רביעי", "חמישי", "מחרתיים", "שבוע הבא", "שעה", "צהריים", "אחה״צ", "ערב"]
+        },
+        {
+          "en": "Ask whether the new time suits her",
+          "keywords": ["מתאים", "נוח", "מסתדר", "מה דעתך", "תעדכני", "תגידי"]
+        }
+      ],
+      "model": "היי נועה, אין בעיה להזיז את הפגישה. אולי ביום חמישי ב-14:00 במקום? אם זה לא מתאים לך, אפשר גם ביום ראשון בבוקר. תעדכני אותי.",
+      "modelEn": "Hi Noa, no problem moving the meeting. Maybe Thursday at 14:00 instead? If that doesn't suit you, Sunday morning works too. Let me know."
+    },
+    "phrases": [
+      { "he": "אפשר להזיז את הפגישה?", "en": "Can we move the meeting?", "tr": "efshár lehazíz et hapgishá?" },
+      { "he": "אין בעיה", "en": "No problem", "tr": "ein be'ayá" },
+      { "he": "אולי ביום חמישי במקום?", "en": "Maybe Thursday instead?", "tr": "uláy beyóm khamishí bimkóm?" },
+      { "he": "זה מתאים לך?", "en": "Does that work for you?", "tr": "ze mat'ím lekhá / lakh?" },
+      { "he": "מתי נוח לך?", "en": "When is good for you?", "tr": "matái nóakh lekhá / lakh?" },
+      { "he": "נכנס לי משהו דחוף", "en": "Something urgent came up", "tr": "nikhnás li máshehu dakhúf" },
+      { "he": "תעדכן / תעדכני אותי", "en": "Let me know / Keep me posted (to a man / to a woman)", "tr": "te'adkén / te'adkení otí" }
+    ]
+  },
+  {
+    "id": "e_intro_team",
+    "level": "A2+",
+    "title": "Introducing yourself to the team",
+    "situation": "It's your first day at a new job, and Avi, the sales team leader, has just added you to the team's WhatsApp group. Introduce yourself to the group.",
+    "incoming": {
+      "from": "אבי מזרחי, ראש צוות המכירות",
+      "subject": "קבוצת הוואטסאפ: צוות מכירות",
+      "body": "בוקר טוב לכולם! ☀️ מהיום יש לנו תוספת חדשה לצוות 🎉 נשמח לשמוע ממך כמה מילים על עצמך – מה התפקיד שלך ומאיפה הגעת אלינו?",
+      "bodyEn": "Good morning, everyone! ☀️ As of today we have a new addition to the team 🎉 We'd love to hear a few words about you – what's your role, and where have you joined us from?"
+    },
+    "task": {
+      "prompt": "כתבו הודעת היכרות קצרה לקבוצה: איך קוראים לכם, מה התפקיד שלכם, איפה עבדתם קודם, ומשפט נחמד לסיום.",
+      "promptEn": "Write a short introduction message to the group: your name, your role, where you worked before, and a friendly closing line.",
+      "minWords": 20,
+      "useWords": ["קוראים לי", "התפקיד שלי", "לפני כן", "מחכה להכיר"],
+      "checklist": [
+        {
+          "en": "Say your name",
+          "keywords": ["קוראים לי", "שמי", "השם שלי"]
+        },
+        {
+          "en": "Say what your role is",
+          "keywords": ["תפקיד", "אחראי", "אחראית", "ניהול", "מנהל", "מנהלת"]
+        },
+        {
+          "en": "Say where you worked (or lived) before",
+          "keywords": ["לפני", "עבדתי", "קודם", "בעבר", "גרתי", "הגעתי"]
+        },
+        {
+          "en": "End with a friendly line",
+          "keywords": ["מחכה", "להכיר", "כיף", "אשמח", "שמח", "שמחה", "מצפה"]
+        }
+      ],
+      "model": "היי לכולם, תודה על קבלת הפנים! 😊 קוראים לי אלכס, והתפקיד שלי בצוות הוא ניהול לקוחות. לפני כן עבדתי שלוש שנים בחברת הייטק בחיפה. מחכה להכיר את כולם, ואשמח לכל עזרה בהתחלה 🙏",
+      "modelEn": "Hi everyone, thanks for the warm welcome! 😊 My name is Alex, and my role on the team is account management. Before this I worked for three years at a high-tech company in Haifa. Looking forward to meeting you all – and I'd appreciate any help at the start 🙏"
+    },
+    "phrases": [
+      { "he": "תודה על קבלת הפנים!", "en": "Thanks for the warm welcome!", "tr": "todá al kabalát hapaním!" },
+      { "he": "קוראים לי...", "en": "My name is... (lit. 'they call me')", "tr": "kor'ím li..." },
+      { "he": "התפקיד שלי הוא...", "en": "My role is...", "tr": "hatafkíd shelí hu..." },
+      { "he": "לפני כן עבדתי ב...", "en": "Before that, I worked at...", "tr": "lifnéi khen avádti be..." },
+      { "he": "מחכה להכיר את כולם", "en": "Looking forward to meeting everyone", "tr": "mekhaké / mekhaká lehakír et kulám" },
+      { "he": "אשמח לכל עזרה", "en": "I'd appreciate any help", "tr": "esmákh lekhól ezrá" },
+      { "he": "כיף להצטרף לצוות!", "en": "Great to be joining the team!", "tr": "kef lehitstaréf latsévet!" }
+    ]
+  },
+  {
+    "id": "e_sick_day",
+    "level": "A2+",
+    "title": "Calling in sick",
+    "situation": "You woke up with a fever, and your manager Michal sends a WhatsApp reminder about today's team meeting and the monthly report. Tell her you're sick and what you'll do about your tasks.",
+    "incoming": {
+      "from": "מיכל אברהם, מנהלת המחלקה",
+      "subject": "הודעת וואטסאפ",
+      "body": "בוקר טוב! רק מזכירה שהיום ב-11:00 יש ישיבת צוות, ושאני צריכה את הדוח החודשי עד סוף היום. תודה! 🙏",
+      "bodyEn": "Good morning! Just a reminder that there's a team meeting today at 11:00, and that I need the monthly report by the end of the day. Thanks! 🙏"
+    },
+    "task": {
+      "prompt": "כתבו למיכל שאתם חולים היום ולא תגיעו לישיבה, וספרו לה מה תעשו עם הדוח.",
+      "promptEn": "Write to Michal that you're sick today and won't make the meeting, and tell her what you'll do about the report.",
+      "minWords": 18,
+      "useWords": ["חולה", "חום", "לא אוכל להגיע", "אשלח"],
+      "checklist": [
+        {
+          "en": "Say that you're sick",
+          "keywords": ["חולה", "חום", "מרגיש", "מרגישה", "הרגשתי", "מצונן", "מצוננת", "שפעת", "כואב"]
+        },
+        {
+          "en": "Say you won't come in or make the meeting",
+          "keywords": ["להגיע", "אגיע", "אבוא", "אהיה", "ישיבה", "פגישה"]
+        },
+        {
+          "en": "Say what you'll do about the report",
+          "keywords": ["דוח", "אשלח", "לשלוח", "אסיים", "לסיים", "מחר"]
+        }
+      ],
+      "model": "בוקר טוב מיכל, אני חולה היום – קמתי עם חום גבוה, אז לא אוכל להגיע לעבודה ולישיבה ב-11:00. הדוח כמעט מוכן, ואשלח לך אותו מחר בבוקר. אם יש משהו דחוף, אפשר להתקשר אליי. תודה על ההבנה!",
+      "modelEn": "Good morning Michal, I'm sick today – I woke up with a high fever, so I won't be able to come to work or to the 11:00 meeting. The report is almost ready, and I'll send it to you tomorrow morning. If anything is urgent, you can call me. Thanks for understanding!"
+    },
+    "phrases": [
+      { "he": "אני חולה היום", "en": "I'm sick today", "tr": "aní kholé / kholá hayóm" },
+      { "he": "קמתי עם חום", "en": "I woke up with a fever", "tr": "kámti im khom" },
+      { "he": "לא אוכל להגיע היום", "en": "I won't be able to come in today", "tr": "lo ukhál lehagí'a hayóm" },
+      { "he": "אשלח לך את זה מחר", "en": "I'll send it to you tomorrow", "tr": "eshlákh lekhá / lakh et ze makhár" },
+      { "he": "אעבוד מהבית אם ארגיש טוב יותר", "en": "I'll work from home if I feel better", "tr": "e'evód mehabáyit im argísh tov yotér" },
+      { "he": "אפשר להתקשר אליי", "en": "You can call me", "tr": "efshár lehitkashér eláy" },
+      { "he": "תודה על ההבנה", "en": "Thanks for understanding", "tr": "todá al hahavaná" },
+      { "he": "יום מחלה", "en": "a sick day", "tr": "yom makhalá" }
+    ]
+  },
+  {
+    "id": "e_landlord_repair",
+    "level": "B1",
+    "title": "The boiler is broken",
+    "situation": "Your landlord Yossi asks on WhatsApp when he can come to check the air conditioner. Reply – and tell him that the boiler (הדוד, the water heater) has stopped working and you need a technician.",
+    "incoming": {
+      "from": "יוסי פרץ, בעל הדירה",
+      "subject": "הודעת וואטסאפ",
+      "body": "היי, מה שלומכם? 🙂 בשבוע הבא אני צריך לעבור בדירה כדי לבדוק את המזגן לפני החורף. מתי נוח לכם?",
+      "bodyEn": "Hi, how are you all? 🙂 Next week I need to stop by the apartment to check the air conditioner before the winter. When is good for you?"
+    },
+    "task": {
+      "prompt": "ענו ליוסי: כתבו מתי נוח לכם שיגיע, ספרו לו שהדוד התקלקל ומה בדיוק הבעיה, ובקשו שישלח טכנאי בהקדם.",
+      "promptEn": "Reply to Yossi: say when it suits you for him to come, tell him the boiler has broken down and what exactly the problem is, and ask him to send a technician as soon as possible.",
+      "minWords": 35,
+      "useWords": ["הדוד", "התקלקל", "מים חמים", "טכנאי", "בהקדם"],
+      "checklist": [
+        {
+          "en": "Say when he can come",
+          "keywords": ["מתאים", "נוח", "ראשון", "שני", "שלישי", "רביעי", "חמישי", "שישי"]
+        },
+        {
+          "en": "Report that the boiler is broken",
+          "keywords": ["דוד", "התקלקל", "מקולקל", "שבור", "לא עובד", "תקלה"]
+        },
+        {
+          "en": "Describe the problem",
+          "keywords": ["מים", "מקלחת", "נורה", "מתג", "קרים"]
+        },
+        {
+          "en": "Ask for a technician as soon as possible",
+          "keywords": ["טכנאי", "אינסטלטור", "שרברב", "חשמלאי", "בהקדם", "דחוף", "מהר", "לתקן", "תיקון"]
+        }
+      ],
+      "model": "היי יוסי, הכול בסדר, תודה! ביום שלישי אחרי 17:00 מתאים לנו – נהיה בבית. ורציתי לעדכן שהדוד התקלקל ביום ראשון, ומאז אין לנו מים חמים. הנורה במתג נדלקת, אבל המים נשארים קרים. ניסינו לכבות ולהדליק את הדוד כמה פעמים, וזה לא עזר. אפשר לשלוח טכנאי בהקדם? תודה מראש!",
+      "modelEn": "Hi Yossi, all good, thanks! Tuesday after 17:00 works for us – we'll be home. Also, I wanted to let you know that the boiler broke down on Sunday, and since then we haven't had any hot water. The light on the switch comes on, but the water stays cold. We tried turning the boiler off and on a few times, and it didn't help. Could you send a technician as soon as possible? Thanks in advance!"
+    },
+    "phrases": [
+      { "he": "הדוד התקלקל", "en": "The boiler (water heater) has broken down", "tr": "hadúd hitkalkél" },
+      { "he": "אין לנו מים חמים", "en": "We have no hot water", "tr": "ein lánu máyim khamím" },
+      { "he": "ורציתי לעדכן ש...", "en": "And I wanted to let you know that...", "tr": "veratsíti le'adkén she..." },
+      { "he": "ניסינו לכבות ולהדליק", "en": "We tried turning it off and on", "tr": "nisínu lekhabót ulehadlík" },
+      { "he": "אפשר לשלוח טכנאי?", "en": "Could you send a technician?", "tr": "efshár lishlóakh tekhnái?" },
+      { "he": "בהקדם", "en": "as soon as possible", "tr": "bahekdém" },
+      { "he": "נהיה בבית", "en": "We'll be at home", "tr": "nihyé babáyit" },
+      { "he": "תודה מראש", "en": "Thanks in advance", "tr": "todá merósh" }
+    ]
+  },
+  {
+    "id": "e_quote_request",
+    "level": "B1",
+    "title": "Requesting a price quote",
+    "situation": "Your company is moving to a new office, and Gilad, the operations manager, asks you to contact the supplier Oren Office Furniture. Email them to request a price quote for 50 office chairs, including the delivery time.",
+    "incoming": {
+      "from": "גלעד שמיר, מנהל התפעול",
+      "subject": "כיסאות למשרד החדש",
+      "body": "היי,\nאנחנו צריכים 50 כיסאות למשרד החדש בפתח תקווה. אפשר לפנות לאורן ריהוט משרדי ולבקש הצעת מחיר? חשוב לברר גם כמה זמן לוקחת האספקה, כי המעבר מתוכנן לתחילת דצמבר.\nתודה,\nגלעד",
+      "bodyEn": "Hi,\nWe need 50 chairs for the new office in Petah Tikva. Could you contact Oren Office Furniture and ask for a price quote? It's also important to find out how long delivery takes, because the move is planned for the beginning of December.\nThanks,\nGilad"
+    },
+    "task": {
+      "prompt": "כתבו מייל רשמי לספק: ציינו מה אתם צריכים ובאיזו כמות, בקשו הצעת מחיר, ושאלו מה זמן האספקה.",
+      "promptEn": "Write a formal email to the supplier: say what you need and how many, ask for a price quote, and ask what the delivery time is.",
+      "minWords": 35,
+      "useWords": ["הצעת מחיר", "יחידות", "זמן האספקה", "אשמח לקבל", "כמו כן"],
+      "checklist": [
+        {
+          "en": "Say what you need and how many",
+          "keywords": ["כיסאות", "כסאות", "כיסא", "יחידות", "חמישים"]
+        },
+        {
+          "en": "Ask for a price quote",
+          "keywords": ["הצעת מחיר", "מחיר", "הצעה", "עלות", "עולה"]
+        },
+        {
+          "en": "Ask about the delivery time",
+          "keywords": ["אספקה", "משלוח", "תספקו", "יגיעו", "כמה זמן", "מתי"]
+        },
+        {
+          "en": "Use a formal greeting and sign-off",
+          "keywords": ["שלום רב", "בברכה", "תודה מראש", "לכבוד", "בכבוד רב"]
+        }
+      ],
+      "model": "שלום רב,\n\nשמי אלכס כהן מחברת נתיב מערכות. החברה שלנו עוברת למשרד חדש בפתח תקווה, ואנחנו מעוניינים לרכוש 50 כיסאות משרדיים.\nאשמח לקבל מכם הצעת מחיר ל-50 יחידות, כולל משלוח והרכבה. כמו כן, חשוב לנו לדעת מה זמן האספקה, כי אנחנו צריכים את הכיסאות עד תחילת דצמבר.\n\nתודה מראש,\nאלכס כהן\nנתיב מערכות בע״מ",
+      "modelEn": "Dear Sir/Madam,\n\nMy name is Alex Cohen from Nativ Systems. Our company is moving to a new office in Petah Tikva, and we are interested in purchasing 50 office chairs.\nI would be glad to receive a price quote from you for 50 units, including delivery and assembly. It is also important for us to know the delivery time, as we need the chairs by the beginning of December.\n\nThanks in advance,\nAlex Cohen\nNativ Systems Ltd."
+    },
+    "phrases": [
+      { "he": "אשמח לקבל הצעת מחיר ל...", "en": "I'd like to receive a price quote for...", "tr": "esmákh lekabél hatsa'át mekhír le..." },
+      { "he": "אנחנו מעוניינים לרכוש...", "en": "We are interested in purchasing...", "tr": "anákhnu me'unyaním lirkósh..." },
+      { "he": "מה זמן האספקה?", "en": "What is the delivery time?", "tr": "ma zman ha'aspaká?" },
+      { "he": "כולל משלוח והרכבה", "en": "including delivery and assembly", "tr": "kolél mishlóakh veharkavá" },
+      { "he": "כמו כן,", "en": "In addition, / Also, (formal)", "tr": "kmo khen" },
+      { "he": "שלום רב,", "en": "Dear Sir/Madam, (formal opening)", "tr": "shalóm rav" },
+      { "he": "תודה מראש,", "en": "Thanks in advance,", "tr": "todá merósh" },
+      { "he": "בברכה,", "en": "Best regards,", "tr": "bivrakhá" }
+    ]
+  },
+  {
+    "id": "e_followup",
+    "level": "B1",
+    "title": "Follow-up after a client meeting",
+    "situation": "Today you met Ronit from the Gefen café chain about building their new website, and she has emailed to ask for a short summary. Reply with a summary of what was agreed and the next steps.",
+    "incoming": {
+      "from": "רונית שגיא, רשת בתי הקפה גפן",
+      "subject": "תודה על הפגישה היום",
+      "body": "שלום,\nתודה על הפגישה הנעימה היום. הרעיונות שלכם לאתר החדש מצאו חן בעיניי מאוד. אשמח לקבל סיכום קצר של מה שסיכמנו, כדי שאוכל להציג אותו להנהלה.\nבברכה,\nרונית",
+      "bodyEn": "Hello,\nThank you for the pleasant meeting today. I really liked your ideas for the new website. I'd appreciate a short summary of what we agreed, so that I can present it to management.\nBest regards,\nRonit"
+    },
+    "task": {
+      "prompt": "כתבו לרונית מייל המשך: הודו לה על הפגישה, סכמו את הנקודות העיקריות, וכתבו מה הצעדים הבאים.",
+      "promptEn": "Write Ronit a follow-up email: thank her for the meeting, summarise the main points, and say what the next steps are.",
+      "minWords": 40,
+      "useWords": ["בהמשך לפגישתנו", "סיכום", "הצעדים הבאים", "מצורף", "נשמח"],
+      "checklist": [
+        {
+          "en": "Thank her for the meeting",
+          "keywords": ["תודה", "מודים", "מודה", "נהנינו"]
+        },
+        {
+          "en": "Summarise what was agreed",
+          "keywords": ["סיכום", "סיכמנו", "הסכמנו", "דיברנו", "הוחלט", "נקודות"]
+        },
+        {
+          "en": "Give the next steps",
+          "keywords": ["הצעדים הבאים", "השלב הבא", "נשלח", "אשלח", "נכין", "אכין", "נקבע"]
+        },
+        {
+          "en": "Offer to answer questions",
+          "keywords": ["שאלה", "שאלות", "לרשותך", "זמין", "לענות"]
+        }
+      ],
+      "model": "שלום רונית,\n\nתודה רבה על הפגישה היום, היה נעים מאוד להכיר.\nבהמשך לפגישתנו, הנה סיכום קצר של הנקודות העיקריות:\n• האתר החדש יהיה בעברית ובאנגלית, עם אפשרות להזמין אונליין.\n• בדף הבית יופיעו התפריט, הסניפים ושעות הפתיחה.\n• האתר יעלה לאוויר עד סוף פברואר.\n\nהצעדים הבאים: עד יום חמישי נשלח לך הצעת מחיר מפורטת ולוח זמנים. אחרי שתאשרי אותם, נקבע פגישה עם צוות העיצוב שלנו.\nמצורפת גם המצגת מהפגישה.\n\nנשמח לענות על כל שאלה.\nבברכה,\nאלכס",
+      "modelEn": "Hi Ronit,\n\nThank you very much for the meeting today – it was a pleasure to meet you.\nFollowing our meeting, here is a short summary of the main points:\n• The new website will be in Hebrew and English, with an option to order online.\n• The menu, the branches and the opening hours will appear on the home page.\n• The website will go live by the end of February.\n\nNext steps: by Thursday we'll send you a detailed price quote and a timeline. Once you approve them, we'll set up a meeting with our design team.\nThe presentation from the meeting is also attached.\n\nWe'll be happy to answer any questions.\nBest regards,\nAlex"
+    },
+    "phrases": [
+      { "he": "בהמשך לפגישתנו,", "en": "Following our meeting,", "tr": "behemshékh lifgishaténu" },
+      { "he": "הנה סיכום קצר של הנקודות העיקריות", "en": "Here is a short summary of the main points", "tr": "hiné sikúm katsár shel hanekudót ha'ikariyót" },
+      { "he": "סיכמנו ש...", "en": "We agreed that...", "tr": "sikámnu she..." },
+      { "he": "הצעדים הבאים", "en": "The next steps", "tr": "hatse'adím haba'ím" },
+      { "he": "עד יום חמישי נשלח לך...", "en": "By Thursday we'll send you...", "tr": "ad yom khamishí nishlákh lekhá / lakh..." },
+      { "he": "לוח זמנים", "en": "timeline / schedule", "tr": "lúakh zmaním" },
+      { "he": "מצורפת המצגת מהפגישה", "en": "The presentation from the meeting is attached", "tr": "metsoréfet hamatséget mehapgishá" },
+      { "he": "נשמח לענות על כל שאלה", "en": "We'll be happy to answer any questions", "tr": "nismákh la'anót al kol she'elá" }
+    ]
+  },
+  {
+    "id": "e_delay_apology",
+    "level": "B1+",
+    "title": "Apologising for a late delivery",
+    "situation": "You work in customer service at a lighting company, and a client's order of 200 desk lamps is late because of a fault at the manufacturer. Itai, the client's purchasing manager, has sent an angry email: apologise, explain and offer a solution.",
+    "incoming": {
+      "from": "איתי ברק, מנהל רכש – אורות הצפון בע״מ",
+      "subject": "ההזמנה שלנו עדיין לא הגיעה",
+      "body": "שלום,\nההזמנה שלנו של 200 מנורות שולחן (הזמנה מס׳ 4587) הייתה אמורה להגיע ביום ראשון, ועד היום היא לא הגיעה. אף אחד גם לא עדכן אותנו. אנחנו פותחים סניף חדש בשבוע הבא, והמצב הזה בעייתי מאוד עבורנו.\nאבקש לקבל תשובה עוד היום.\nאיתי ברק",
+      "bodyEn": "Hello,\nOur order of 200 desk lamps (order no. 4587) was supposed to arrive on Sunday, and it still hasn't come. Nobody has updated us, either. We're opening a new branch next week, and this situation is very problematic for us.\nI'd like an answer today.\nItai Barak"
+    },
+    "task": {
+      "prompt": "ענו לאיתי: התנצלו על העיכוב, הסבירו מה קרה, הציעו פתרון, וכתבו מתי ההזמנה תגיע.",
+      "promptEn": "Reply to Itai: apologise for the delay, explain what happened, offer a solution, and say when the order will arrive.",
+      "minWords": 50,
+      "useWords": ["מתנצלים", "העיכוב", "עקב", "כפיצוי", "על חשבוננו"],
+      "checklist": [
+        {
+          "en": "Apologise for the delay",
+          "keywords": ["מתנצל", "מתנצלת", "התנצלות", "סליחה", "מצטער", "מצטערת", "מצטערים"]
+        },
+        {
+          "en": "Explain what happened",
+          "keywords": ["עקב", "בגלל", "בשל", "תקלה", "בעיה", "נגרם"]
+        },
+        {
+          "en": "Offer a solution or compensation",
+          "keywords": ["פיצוי", "הנחה", "פתרון", "חינם", "על חשבוננו", "זיכוי", "חלק מההזמנה"]
+        },
+        {
+          "en": "Say when the order will arrive",
+          "keywords": ["תגיע", "יגיע", "תקבלו", "מחר", "שבוע הבא", "שלישי", "רביעי", "חמישי"]
+        }
+      ],
+      "model": "שלום איתי,\n\nאנחנו מתנצלים מאוד על העיכוב, וגם על כך שלא עדכנו אתכם בזמן.\nהעיכוב נגרם עקב תקלה במפעל של היצרן, ולכן רק חלק מהמנורות הגיעו למחסן שלנו.\nכדי שתוכלו לפתוח את הסניף כמתוכנן, נשלח אליכם כבר מחר 120 מנורות, ואת שאר ההזמנה תקבלו עד יום שלישי הבא. כפיצוי על אי הנעימות, נעניק לכם הנחה של 10% על ההזמנה, והמשלוח יהיה על חשבוננו.\n\nאם יש שאלות, אפשר להתקשר אליי ישירות בכל שעה.\n\nבברכה,\nאלכס כהן\nשירות לקוחות",
+      "modelEn": "Hi Itai,\n\nWe sincerely apologise for the delay, and also for not updating you in time.\nThe delay was caused by a fault at the manufacturer's factory, so only some of the lamps have reached our warehouse.\nSo that you can open the branch as planned, we will send you 120 lamps tomorrow, and you will receive the rest of the order by next Tuesday. As compensation for the inconvenience, we will give you a 10% discount on the order, and the shipping is on us.\n\nIf you have any questions, you can call me directly at any time.\n\nBest regards,\nAlex Cohen\nCustomer Service"
+    },
+    "phrases": [
+      { "he": "אנחנו מתנצלים על העיכוב", "en": "We apologise for the delay", "tr": "anákhnu mitnatslím al ha'ikúv" },
+      { "he": "אני מצטער/ת על העיכוב", "en": "I'm sorry about the delay (man / woman)", "tr": "aní mitsta'ér / mitsta'éret al ha'ikúv" },
+      { "he": "העיכוב נגרם עקב...", "en": "The delay was caused by...", "tr": "ha'ikúv nigrám ékev..." },
+      { "he": "כמתוכנן", "en": "as planned", "tr": "kimtukhnán" },
+      { "he": "את שאר ההזמנה תקבלו עד...", "en": "You'll receive the rest of the order by...", "tr": "et she'ár hahazmaná tekablú ad..." },
+      { "he": "כפיצוי על אי הנעימות", "en": "As compensation for the inconvenience", "tr": "kefitsúy al i hane'imút" },
+      { "he": "המשלוח על חשבוננו", "en": "Shipping is on us", "tr": "hamishlóakh al kheshbonénu" },
+      { "he": "שוב, סליחה על אי הנוחות", "en": "Again, sorry for the inconvenience", "tr": "shuv, slikhá al i hanokhút" }
+    ]
+  },
+  {
+    "id": "e_complaint",
+    "level": "B1+",
+    "title": "Complaint: charged twice",
+    "situation": "Your internet provider, Galim Net, sent your monthly invoice for 99 ILS, but your credit card statement shows two charges of 99 ILS on the same day. Write to customer service to complain and ask for a refund.",
+    "incoming": {
+      "from": "גלים נט – שירות לקוחות",
+      "subject": "החשבונית החודשית שלך מוכנה",
+      "body": "לקוח/ה יקר/ה,\nהחשבונית שלך לחודש ספטמבר מוכנה לצפייה באזור האישי באתר.\nסכום החיוב: 99 ₪\nאמצעי תשלום: כרטיס אשראי המסתיים בספרות 4321\nתודה שבחרת בגלים נט!",
+      "bodyEn": "Dear customer,\nYour invoice for September is ready to view in the personal area on our website.\nAmount charged: 99 ILS\nPayment method: credit card ending in 4321\nThank you for choosing Galim Net!"
+    },
+    "task": {
+      "prompt": "כתבו מייל תלונה לשירות הלקוחות: הסבירו מה הבעיה, ציינו את הפרטים החשובים (חודש, סכום, כרטיס), בקשו החזר כספי, ושאלו תוך כמה זמן הוא יתבצע.",
+      "promptEn": "Write a complaint email to customer service: explain the problem, give the key details (month, amount, card), ask for a refund, and ask how long it will take.",
+      "minWords": 50,
+      "useWords": ["חויבתי", "פעמיים", "בטעות", "החזר", "בהקדם"],
+      "checklist": [
+        {
+          "en": "Explain that you were charged twice",
+          "keywords": ["פעמיים", "חיוב כפול", "שני חיובים", "חויבתי", "כפול"]
+        },
+        {
+          "en": "Give the details (month, amount, card)",
+          "keywords": ["ספטמבר", "סכום", "כרטיס", "אשראי", "חשבונית", "מספר לקוח"]
+        },
+        {
+          "en": "Ask for a refund",
+          "keywords": ["החזר", "להחזיר", "תחזירו", "זיכוי", "לזכות", "לבטל"]
+        },
+        {
+          "en": "Ask when it will be done, or for a quick reply",
+          "keywords": ["מתי", "בהקדם", "תוך", "תשובה", "לעדכן"]
+        }
+      ],
+      "model": "שלום רב,\n\nשמי אלכס כהן, מספר לקוח 552018. בדקתי את פירוט החיובים בכרטיס האשראי שלי, וראיתי שבחודש ספטמבר חויבתי פעמיים על אותה חבילת אינטרנט: שני חיובים של 99 ₪ באותו יום.\nלפי החשבונית שקיבלתי מכם, החיוב החודשי הוא 99 ₪ בלבד, כך שכנראה מדובר בחיוב כפול בטעות.\n\nאבקש לבטל את החיוב השני ולהחזיר את הסכום לכרטיס האשראי שלי בהקדם. כמו כן, אשמח לדעת תוך כמה זמן יתבצע ההחזר.\n\nתודה מראש על הטיפול,\nאלכס כהן",
+      "modelEn": "Dear Sir/Madam,\n\nMy name is Alex Cohen, customer number 552018. I checked the charges on my credit card statement and saw that in September I was charged twice for the same internet package: two charges of 99 ILS on the same day.\nAccording to the invoice I received from you, the monthly charge is only 99 ILS, so this is apparently a double charge made by mistake.\n\nPlease cancel the second charge and refund the amount to my credit card as soon as possible. I would also like to know how long the refund will take.\n\nThanks in advance for dealing with this,\nAlex Cohen"
+    },
+    "phrases": [
+      { "he": "חויבתי פעמיים", "en": "I was charged twice", "tr": "khuyávti pa'amáyim" },
+      { "he": "חיוב כפול", "en": "a double charge", "tr": "khiyúv kafúl" },
+      { "he": "כנראה מדובר בטעות", "en": "This is apparently a mistake", "tr": "kanir'é medubár beta'út" },
+      { "he": "אבקש לבטל את החיוב", "en": "Please cancel the charge (lit. 'I request to cancel')", "tr": "avakésh levatél et hakhiyúv" },
+      { "he": "החזר כספי", "en": "a refund", "tr": "hekhzér kaspí" },
+      { "he": "תוך כמה זמן...?", "en": "How long will it take...? (lit. 'within how much time')", "tr": "tokh káma zman...?" },
+      { "he": "פירוט החיובים", "en": "the list of charges (on a statement)", "tr": "perút hakhiyuvím" },
+      { "he": "תודה מראש על הטיפול", "en": "Thanks in advance for dealing with this", "tr": "todá merósh al hatipúl" }
+    ]
+  },
+  {
+    "id": "e_day_off",
+    "level": "B1",
+    "title": "Requesting a day off",
+    "situation": "Shira from HR has sent everyone a reminder about requesting days off, and you need next Wednesday off for a family event. Email your manager, Tamar, to ask for the day.",
+    "incoming": {
+      "from": "שירה בן דוד, משאבי אנוש",
+      "subject": "תזכורת: בקשות לימי חופש",
+      "body": "שלום לכולם,\nרק תזכורת: בקשות לימי חופש יש לשלוח למנהל/ת הישיר/ה לפחות שבוע מראש, עם העתק אליי. חשוב לציין בפנייה מי ימלא את מקומכם ומה מצב המשימות הפתוחות.\nתודה ויום נעים,\nשירה",
+      "bodyEn": "Hello everyone,\nJust a reminder: requests for days off should be sent to your direct manager at least a week in advance, with a copy to me. Please mention in your request who will cover for you and the status of your open tasks.\nThanks and have a nice day,\nShira"
+    },
+    "task": {
+      "prompt": "כתבו מייל לתמר, המנהלת שלכם: בקשו יום חופש בשבוע הבא, הסבירו בקצרה למה, וכתבו מי יחליף אתכם ומה יקרה עם המשימות שלכם.",
+      "promptEn": "Write an email to Tamar, your manager: ask for a day off next week, briefly explain why, and say who will cover for you and what will happen with your tasks.",
+      "minWords": 35,
+      "useWords": ["יום חופש", "לבקש", "בגלל", "להחליף אותי", "אשמח לאישור"],
+      "checklist": [
+        {
+          "en": "Ask for a day off",
+          "keywords": ["חופש", "חופשה", "לא אגיע", "לא אהיה", "לא אעבוד"]
+        },
+        {
+          "en": "Say which day",
+          "keywords": ["ראשון", "שני", "שלישי", "רביעי", "חמישי", "תאריך", "שבוע"]
+        },
+        {
+          "en": "Briefly give the reason",
+          "keywords": ["אירוע", "משפחתי", "חתונה", "בגלל", "כי", "סיבה", "רופא"]
+        },
+        {
+          "en": "Say who will cover for you and what happens with your tasks",
+          "keywords": ["יחליף", "תחליף", "להחליף", "ימלא", "תמלא", "משימות", "אסיים"]
+        }
+      ],
+      "model": "היי תמר,\n\nהייתי רוצה לבקש יום חופש ביום רביעי הבא, בגלל אירוע משפחתי – החתונה של אחי.\nאת המשימות הדחופות אסיים עד יום שלישי, ודניאל הסכים להחליף אותי ולענות ללקוחות שלי באותו יום. אם יהיה משהו דחוף, אפשר גם לשלוח לי הודעה בוואטסאפ.\n\nאשמח לאישור שלך.\nתודה,\nאלכס",
+      "modelEn": "Hi Tamar,\n\nI'd like to ask for a day off next Wednesday because of a family event – my brother's wedding.\nI'll finish the urgent tasks by Tuesday, and Daniel has agreed to cover for me and answer my clients that day. If anything urgent comes up, you can also send me a WhatsApp message.\n\nI'd appreciate your approval.\nThanks,\nAlex"
+    },
+    "phrases": [
+      { "he": "הייתי רוצה לבקש יום חופש", "en": "I'd like to ask for a day off", "tr": "hayíti rotsé / rotsá levakésh yom khófesh" },
+      { "he": "בגלל אירוע משפחתי", "en": "because of a family event", "tr": "biglál eirú'a mishpakhtí" },
+      { "he": "את המשימות הדחופות אסיים עד...", "en": "I'll finish the urgent tasks by...", "tr": "et hamesimót hadkhufót asayém ad..." },
+      { "he": "דניאל הסכים להחליף אותי", "en": "Daniel has agreed to cover for me", "tr": "daniél hiskím lehakhlíf otí" },
+      { "he": "אם יהיה משהו דחוף", "en": "If anything urgent comes up", "tr": "im yihyé máshehu dakhúf" },
+      { "he": "אשמח לאישור שלך", "en": "I'd appreciate your approval", "tr": "esmákh le'ishúr shelkhá / shelákh" },
+      { "he": "יום חופש / חופשה", "en": "a day off / a vacation", "tr": "yom khófesh / khufshá" },
+      { "he": "עם העתק ל...", "en": "with a copy (cc) to...", "tr": "im he'ték le..." }
+    ]
+  },
+  {
+    "id": "e_negotiation",
+    "level": "B2",
+    "title": "Negotiating with a supplier",
+    "situation": "Oren Office Furniture has sent its quote for the 50 chairs, but the price is above your budget and they want a 50% advance. Reply: ask for a discount and for payment terms of שוטף + 30 (payment 30 days after the end of the invoice month, a common arrangement in Israel).",
+    "incoming": {
+      "from": "ליאת אורן, מכירות – אורן ריהוט משרדי",
+      "subject": "הצעת מחיר – 50 כיסאות משרדיים",
+      "body": "שלום רב,\nבהמשך לפנייתך, הנה הצעת המחיר שלנו:\n• 50 כיסאות משרדיים, דגם ארגו פלוס – 850 ₪ ליחידה, לא כולל מע״מ\n• משלוח והרכבה: 1,200 ₪\n• זמן אספקה: שלושה שבועות ממועד ההזמנה\n• תנאי תשלום: 50% מקדמה עם ההזמנה, והיתרה ביום האספקה\nההצעה בתוקף עד סוף החודש.\nבברכה,\nליאת אורן",
+      "bodyEn": "Dear Sir/Madam,\nFollowing your inquiry, here is our price quote:\n• 50 office chairs, Ergo Plus model – 850 ILS per unit, excluding VAT\n• Delivery and assembly: 1,200 ILS\n• Delivery time: three weeks from the order date\n• Payment terms: 50% advance with the order, and the balance on the day of delivery\nThe offer is valid until the end of the month.\nBest regards,\nLiat Oren"
+    },
+    "task": {
+      "prompt": "ענו לליאת: הודו על ההצעה, בקשו הנחה ונמקו למה, בקשו תנאי תשלום של שוטף + 30, וכתבו שאם התנאים יתאימו, תוכלו לבצע את ההזמנה כבר השבוע.",
+      "promptEn": "Reply to Liat: thank her for the offer, ask for a discount and give a reason, ask for payment terms of shotef + 30, and say that if the terms work for you, you can place the order this week.",
+      "minWords": 60,
+      "useWords": ["הנחה", "תנאי תשלום", "שוטף + 30", "מקדמה", "לבצע את ההזמנה"],
+      "checklist": [
+        {
+          "en": "Thank her for the offer",
+          "keywords": ["תודה", "מודים", "מודה"]
+        },
+        {
+          "en": "Ask for a discount and give a reason",
+          "keywords": ["הנחה", "להוריד", "להפחית", "מחיר נמוך"]
+        },
+        {
+          "en": "Ask for payment terms of shotef + 30",
+          "keywords": ["שוטף", "תנאי תשלום", "מקדמה"]
+        },
+        {
+          "en": "Say you can place the order soon if they agree",
+          "keywords": ["להזמין", "הזמנה", "נזמין", "לסגור", "נסגור", "לבצע"]
+        }
+      ],
+      "model": "שלום ליאת,\n\nתודה על הצעת המחיר המפורטת ועל המענה המהיר.\nהכיסאות מתאימים לנו, אבל המחיר גבוה מהתקציב שלנו. מדובר בהזמנה גדולה, ובשנה הבאה אנחנו מתכננים לפתוח עוד שני משרדים, כך שיש כאן פוטנציאל לשיתוף פעולה ארוך טווח. לכן נבקש הנחה של 10% על המחיר ליחידה, וגם שהמשלוח וההרכבה ייכללו במחיר.\nבנוסף, תנאי התשלום שהצעתם לא מתאימים לנו. אצלנו נהוג לעבוד עם ספקים בתנאי תשלום של שוטף + 30, ללא מקדמה.\n\nאם תוכלו להיענות לבקשות האלה, נוכל לבצע את ההזמנה כבר השבוע. אשמח לקבל הצעה מעודכנת.\n\nבברכה,\nאלכס כהן\nנתיב מערכות בע״מ",
+      "modelEn": "Hi Liat,\n\nThank you for the detailed price quote and the quick response.\nThe chairs suit us, but the price is above our budget. This is a large order, and next year we are planning to open two more offices, so there is potential here for long-term cooperation. We would therefore ask for a 10% discount on the unit price, and for delivery and assembly to be included in the price.\nIn addition, the payment terms you proposed don't work for us. Our practice is to work with suppliers on payment terms of shotef + 30 (30 days after the end of the invoice month), with no advance payment.\n\nIf you can meet these requests, we can place the order this week. I'd be glad to receive an updated offer.\n\nBest regards,\nAlex Cohen\nNativ Systems Ltd."
+    },
+    "phrases": [
+      { "he": "תודה על הצעת המחיר", "en": "Thank you for the price quote", "tr": "todá al hatsa'át hamekhír" },
+      { "he": "המחיר גבוה מהתקציב שלנו", "en": "The price is above our budget", "tr": "hamekhír gavóha mehataktsív shelánu" },
+      { "he": "נשמח לקבל הנחה", "en": "We'd appreciate a discount", "tr": "nismákh lekabél hanakhá" },
+      { "he": "תנאי תשלום של שוטף + 30", "en": "payment terms of net 30 from the end of the month", "tr": "tna'éi tashlúm shel shotéf plus shloshím" },
+      { "he": "ללא מקדמה", "en": "with no advance payment", "tr": "leló mikdamá" },
+      { "he": "שיתוף פעולה ארוך טווח", "en": "long-term cooperation", "tr": "shitúf pe'ulá arókh tvakh" },
+      { "he": "אם תוכלו להיענות לבקשות האלה", "en": "If you can meet these requests", "tr": "im tukhlú lehe'anót labakashót ha'éle" },
+      { "he": "נוכל לבצע את ההזמנה כבר השבוע", "en": "We can place the order this week", "tr": "nukhál levatsé'a et hahazmaná kvar hashavú'a" }
+    ]
+  },
+  {
+    "id": "e_interview_thanks",
+    "level": "B1+",
+    "title": "Thank-you after a job interview",
+    "situation": "Today you had a job interview for a product manager role at the startup Kodkod with Omer Golan, the head of product, and afterwards the recruiter emailed you. Write Omer a short thank-you email.",
+    "incoming": {
+      "from": "מאיה רוזן, גיוס – קודקוד",
+      "subject": "תודה על הראיון היום",
+      "body": "היי,\nתודה שהגעת היום לראיון לתפקיד מנהל/ת מוצר! עומר ביקש למסור שהיה לו נעים מאוד לשוחח איתך. אנחנו מסיימים בימים אלה את הראיונות עם המועמדים, ונחזור אליך עם תשובה עד סוף השבוע הבא.\nאם יש שאלות בינתיים, אפשר לכתוב לי או ישירות לעומר.\nבהצלחה,\nמאיה",
+      "bodyEn": "Hi,\nThanks for coming in today for the interview for the product manager position! Omer asked me to pass on that he really enjoyed talking with you. We're finishing interviews with the candidates these days, and we'll get back to you with an answer by the end of next week.\nIf you have any questions in the meantime, you can write to me or directly to Omer.\nGood luck,\nMaya"
+    },
+    "task": {
+      "prompt": "כתבו לעומר מייל תודה קצר: הודו לו על הראיון, הזכירו משהו מעניין מהשיחה, כתבו למה התפקיד מתאים לכם, וסיימו בצורה מנומסת.",
+      "promptEn": "Write Omer a short thank-you email: thank him for the interview, mention something interesting from the conversation, say why the role suits you, and finish politely.",
+      "minWords": 50,
+      "useWords": ["נהניתי", "במיוחד", "ניסיון", "להמשיך בתהליך", "בשמחה"],
+      "checklist": [
+        {
+          "en": "Thank him for the interview and his time",
+          "keywords": ["תודה", "מודה"]
+        },
+        {
+          "en": "Mention something specific from the conversation",
+          "keywords": ["סיפרת", "שיחה", "דיברנו", "נהניתי", "התרשמתי", "מעניין", "במיוחד"]
+        },
+        {
+          "en": "Say why the role suits you",
+          "keywords": ["מתאים", "ניסיון", "ניהלתי", "עבדתי", "התחום"]
+        },
+        {
+          "en": "End politely and say you hope to continue",
+          "keywords": ["אשמח", "מקווה", "להמשיך", "לשמוע", "בברכה"]
+        }
+      ],
+      "model": "שלום עומר,\n\nתודה רבה על הראיון היום ועל הזמן שהקדשת לי. נהניתי מאוד מהשיחה, ובמיוחד מהחלק שבו סיפרת על האפליקציה החדשה שאתם מפתחים לבתי חולים – זה נשמע לי פרויקט מאתגר ומשמעותי.\nלדעתי התפקיד מתאים מאוד לניסיון שלי: בשלוש השנים האחרונות ניהלתי מוצר דומה, ועבדתי בשיתוף פעולה הדוק עם צוותי פיתוח ועיצוב. השיחה רק חיזקה את הרצון שלי להצטרף אליכם.\n\nאשמח מאוד להמשיך בתהליך. אם יש צורך במידע נוסף, אשלח אותו בשמחה.\n\nבברכה,\nאלכס כהן",
+      "modelEn": "Hello Omer,\n\nThank you very much for the interview today and for the time you gave me. I really enjoyed our conversation, especially the part where you told me about the new app you're developing for hospitals – it sounds like a challenging and meaningful project.\nI think the role is a very good fit for my experience: for the last three years I've managed a similar product and worked in close cooperation with development and design teams. Our conversation only strengthened my wish to join you.\n\nI'd be very glad to move forward in the process. If you need any further information, I'll gladly send it.\n\nBest regards,\nAlex Cohen"
+    },
+    "phrases": [
+      { "he": "תודה על הזמן שהקדשת לי", "en": "Thank you for the time you gave me", "tr": "todá al hazmán shehikdáshta / shehikdásht li" },
+      { "he": "נהניתי מאוד מהשיחה", "en": "I really enjoyed the conversation", "tr": "nehenéti me'ód mehasikhá" },
+      { "he": "במיוחד מהחלק שבו סיפרת על...", "en": "especially the part where you told me about...", "tr": "bimyukhád mehakhélek shebó sipárta / sipárt al..." },
+      { "he": "התפקיד מתאים לניסיון שלי", "en": "The role matches my experience", "tr": "hatafkíd mat'ím lanisayón shelí" },
+      { "he": "השיחה רק חיזקה את הרצון שלי להצטרף", "en": "The conversation only strengthened my wish to join", "tr": "hasikhá rak khizká et haratsón shelí lehitstaréf" },
+      { "he": "אשמח להמשיך בתהליך", "en": "I'd be glad to move forward in the process", "tr": "esmákh lehamshíkh batahalíkh" },
+      { "he": "אם יש צורך במידע נוסף", "en": "If any further information is needed", "tr": "im yesh tsórekh bemeidá nosáf" }
+    ]
+  },
+  {
+    "id": "e_event_invite",
+    "level": "B2",
+    "title": "Inviting clients to a product launch",
+    "situation": "Your company is launching a new inventory management system, and Dana, the marketing manager, has sent you the details of the launch event. Write the formal invitation to your clients.",
+    "incoming": {
+      "from": "דנה אלון, מנהלת השיווק",
+      "subject": "הזמנה לאירוע ההשקה – פרטים",
+      "body": "היי,\nאפשר לנסח הזמנה רשמית ללקוחות שלנו לאירוע ההשקה? הנה הפרטים:\n• מה: השקת המערכת החדשה שלנו לניהול מלאי, כולל הדגמה חיה\n• מתי: יום רביעי, 18 בנובמבר, בשעה 18:30\n• איפה: מלון אור הים, תל אביב\n• בתוכנית: קבלת פנים, דברי פתיחה של המנכ״ל, הדגמה וארוחת ערב\n• אישור הגעה: עד 10 בנובמבר\nחשוב שזה יישמע רשמי ומכובד. תודה!\nדנה",
+      "bodyEn": "Hi,\nCould you draft a formal invitation to our clients for the launch event? Here are the details:\n• What: the launch of our new inventory management system, including a live demo\n• When: Wednesday, 18 November, at 18:30\n• Where: Or HaYam Hotel, Tel Aviv\n• Programme: reception, opening remarks by the CEO, a demo and dinner\n• RSVP: by 10 November\nIt's important that it sounds formal and dignified. Thanks!\nDana"
+    },
+    "task": {
+      "prompt": "כתבו הזמנה רשמית ללקוחות: הזמינו אותם לאירוע, ציינו תאריך, שעה ומקום, תארו בקצרה את התוכנית, ובקשו אישור הגעה.",
+      "promptEn": "Write a formal invitation to the clients: invite them to the event, give the date, time and place, briefly describe the programme, and ask them to confirm attendance.",
+      "minWords": 55,
+      "useWords": ["אנו שמחים להזמין", "יתקיים", "בתוכנית", "אישור הגעה", "נשמח לראותכם"],
+      "checklist": [
+        {
+          "en": "Invite them to the launch event",
+          "keywords": ["להזמין", "מזמינים", "הזמנה", "השקה", "אירוע"]
+        },
+        {
+          "en": "Give the date, time and place",
+          "keywords": ["יתקיים", "בנובמבר", "שעה", "מלון", "תל אביב", "רביעי"]
+        },
+        {
+          "en": "Briefly describe the programme",
+          "keywords": ["תוכנית", "הדגמה", "קבלת פנים", "ארוחת ערב", "הרצאה", "דברי פתיחה"]
+        },
+        {
+          "en": "Ask them to confirm attendance",
+          "keywords": ["אישור הגעה", "לאשר", "תאשרו", "אשרו", "הגעתכם", "השתתפות"]
+        }
+      ],
+      "model": "לקוחות יקרים,\n\nאנו שמחים להזמין אתכם לאירוע ההשקה של מערכת ניהול המלאי החדשה שלנו.\nהאירוע יתקיים ביום רביעי, 18 בנובמבר, בשעה 18:30, במלון אור הים בתל אביב.\n\nבתוכנית:\n• 18:30 – קבלת פנים\n• 19:00 – דברי פתיחה של מנכ״ל החברה\n• 19:30 – הצגת המערכת והדגמה חיה\n• 20:15 – ארוחת ערב\n\nבמהלך הערב תוכלו להתנסות במערכת בעצמכם ולפגוש את צוות המומחים שלנו. החנייה במלון ללא תשלום.\n\nנודה לכם על אישור הגעה עד 10 בנובמבר, במענה למייל זה.\nנשמח לראותכם!\n\nבברכה,\nצוות נתיב מערכות",
+      "modelEn": "Dear clients,\n\nWe are pleased to invite you to the launch event for our new inventory management system.\nThe event will take place on Wednesday, 18 November, at 18:30, at the Or HaYam Hotel in Tel Aviv.\n\nProgramme:\n• 18:30 – Reception\n• 19:00 – Opening remarks by the company's CEO\n• 19:30 – Presentation of the system and a live demo\n• 20:15 – Dinner\n\nDuring the evening you will be able to try the system yourselves and meet our team of experts. Parking at the hotel is free of charge.\n\nPlease confirm your attendance by 10 November by replying to this email.\nWe look forward to seeing you!\n\nBest regards,\nThe Nativ Systems team"
+    },
+    "phrases": [
+      { "he": "אנו שמחים להזמין אתכם ל...", "en": "We are pleased to invite you to...", "tr": "ánu smekhím lehazmín etkhém le..." },
+      { "he": "האירוע יתקיים ב...", "en": "The event will take place on / at...", "tr": "ha'eirú'a yitkayém be..." },
+      { "he": "אירוע השקה", "en": "a launch event", "tr": "eirú'a hashaká" },
+      { "he": "בתוכנית:", "en": "Programme: / On the agenda:", "tr": "batokhnít" },
+      { "he": "קבלת פנים", "en": "a reception (welcome drinks)", "tr": "kabalát paním" },
+      { "he": "נודה לכם על אישור הגעה עד...", "en": "Please confirm your attendance by... (lit. 'we'd be grateful for')", "tr": "nodé lakhém al ishúr haga'á ad..." },
+      { "he": "נשמח לראותכם!", "en": "We look forward to seeing you!", "tr": "nismákh lir'otkhém!" },
+      { "he": "ללא תשלום", "en": "free of charge", "tr": "leló tashlúm" }
+    ]
+  }
+]

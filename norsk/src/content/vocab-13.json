@@ -1,133 +1,1804 @@
 [
-  { "id": "w13_min", "no": "min", "de": "mein", "deAlt": ["meine", "meiner"], "alt": ["mi", "mitt", "mine"], "pos": "pron", "lesson": 13, "note": "min (en-Wort), mi (ei-Wort), mitt (et-Wort), mine (Plural). Meist nachgestellt: genseren min, lua mi.", "ex": { "no": "Genseren min er altfor tynn.", "de": "Mein Pullover ist viel zu dünn." } },
-  { "id": "w13_din", "no": "din", "de": "dein", "deAlt": ["deine", "deiner"], "alt": ["di", "ditt", "dine"], "pos": "pron", "lesson": 13, "note": "din, di, ditt, dine – wie min.", "ex": { "no": "Er dette skjerfet ditt?", "de": "Ist das dein Schal?" } },
-  { "id": "w13_hans", "no": "hans", "de": "sein", "deAlt": ["seine"], "pos": "pron", "lesson": 13, "note": "Unveränderlich; der Besitzer ist ein Mann.", "ex": { "no": "Anorakken hans er grønn og oransje.", "de": "Sein Anorak ist grün und orange." } },
-  { "id": "w13_hennes", "no": "hennes", "de": "ihr (von einer Frau)", "deAlt": ["ihr", "ihre"], "pos": "pron", "lesson": 13, "note": "Unveränderlich; die Besitzerin ist eine Frau.", "ex": { "no": "Det er yndlingsjakka hennes.", "de": "Das ist ihre Lieblingsjacke." } },
-  { "id": "w13_vaar", "no": "vår", "de": "unser", "deAlt": ["unsere"], "pos": "pron", "lesson": 13, "note": "vår (en- und ei-Wort), vårt (et-Wort), våre (Plural).", "ex": { "no": "Huset vårt ligger på Sagene.", "de": "Unser Haus liegt in Sagene." } },
-  { "id": "w13_deres", "no": "deres", "de": "euer; ihr (von mehreren)", "deAlt": ["euer", "eure", "ihr", "ihre"], "pos": "pron", "lesson": 13, "note": "Unveränderlich. Mit großem D (Deres) = Ihr (Höflichkeitsform, selten).", "ex": { "no": "Hvor er foreldrene deres?", "de": "Wo sind eure Eltern?" } },
-  { "id": "w13_dens", "no": "dens", "de": "sein / ihr (von Dingen und Tieren)", "pos": "pron", "lesson": 13, "note": "dens (en/ei-Wort als Besitzer), dets (et-Wort als Besitzer); schriftsprachlich und selten.", "ex": { "no": "Oslo og dens historie", "de": "Oslo und seine Geschichte" } },
-  { "id": "w13_loppemarked", "no": "loppemarked", "de": "der Flohmarkt", "pos": "noun", "gender": "n", "forms": ["loppemarked", "loppemarkedet", "loppemarkeder", "loppemarkedene"], "lesson": 13, "ex": { "no": "På lørdag er det loppemarked på skolen.", "de": "Am Samstag ist Flohmarkt in der Schule." } },
-  { "id": "w13_dugnad", "no": "dugnad", "de": "die freiwillige Gemeinschaftsarbeit", "pos": "noun", "gender": "m", "forms": ["dugnad", "dugnaden", "dugnader", "dugnadene"], "lesson": 13, "note": "Typisch norwegisch: Nachbarn, Eltern oder Vereinsmitglieder arbeiten unbezahlt zusammen.", "ex": { "no": "I morgen har vi dugnad i borettslaget.", "de": "Morgen haben wir Arbeitseinsatz in der Wohnanlage." } },
-  { "id": "w13_korps", "no": "korps", "de": "das Blasorchester, die Musikkapelle", "pos": "noun", "gender": "n", "forms": ["korps", "korpset", "korps", "korpsa/korpsene"], "lesson": 13, "ex": { "no": "Ola spilte trompet i korpset da han var liten.", "de": "Ola hat als Kind in der Kapelle Trompete gespielt." } },
-  { "id": "w13_skolekorps", "no": "skolekorps", "de": "die Schulkapelle", "pos": "noun", "gender": "n", "forms": ["skolekorps", "skolekorpset", "skolekorps", "skolekorpsa/skolekorpsene"], "lesson": 13, "ex": { "no": "Skolekorpset går i barnetoget på 17. mai.", "de": "Die Schulkapelle läuft am 17. Mai im Kinderumzug mit." } },
-  { "id": "w13_skolegaard", "no": "skolegård", "de": "der Schulhof", "pos": "noun", "gender": "m", "forms": ["skolegård", "skolegården", "skolegårder", "skolegårdene"], "lesson": 13, "ex": { "no": "Hele skolegården var full av bord.", "de": "Der ganze Schulhof war voller Tische." } },
-  { "id": "w13_pose", "no": "pose", "de": "die Tüte", "pos": "noun", "gender": "m", "forms": ["pose", "posen", "poser", "posene"], "lesson": 13, "ex": { "no": "Pappa tok feil pose.", "de": "Papa hat die falsche Tüte genommen." } },
-  { "id": "w13_ting", "no": "ting", "de": "das Ding, die Sache", "pos": "noun", "gender": "m", "forms": ["ting", "tingen", "ting", "tingene"], "lesson": 13, "note": "Plural ohne Endung: mange ting.", "ex": { "no": "Vi ga bort mange gamle ting.", "de": "Wir haben viele alte Sachen weggegeben." } },
-  { "id": "w13_tilbud", "no": "tilbud", "de": "das Angebot", "pos": "noun", "gender": "n", "forms": ["tilbud", "tilbudet", "tilbud", "tilbuda/tilbudene"], "lesson": 13, "ex": { "no": "Det er mitt siste tilbud.", "de": "Das ist mein letztes Angebot." } },
-  { "id": "w13_kupp", "no": "kupp", "de": "das Schnäppchen", "pos": "noun", "gender": "n", "forms": ["kupp", "kuppet", "kupp", "kuppa/kuppene"], "lesson": 13, "note": "gjøre et kupp = ein Schnäppchen machen", "ex": { "no": "Jakka kostet bare tretti kroner. For et kupp!", "de": "Die Jacke hat nur dreißig Kronen gekostet. Was für ein Schnäppchen!" } },
-  { "id": "w13_avtale", "no": "avtale", "de": "die Abmachung, die Verabredung", "pos": "noun", "gender": "m", "forms": ["avtale", "avtalen", "avtaler", "avtalene"], "lesson": 13, "note": "Avtale! = Abgemacht!", "ex": { "no": "Åtti kroner? Avtale!", "de": "Achtzig Kronen? Abgemacht!" } },
-  { "id": "w13_ko", "no": "kø", "de": "die (Warte-)Schlange", "pos": "noun", "gender": "m", "forms": ["kø", "køen", "køer", "køene"], "lesson": 13, "note": "stå i kø = Schlange stehen", "ex": { "no": "Folk sto i kø lenge før loppemarkedet åpnet.", "de": "Die Leute standen lange vor der Öffnung des Flohmarkts Schlange." } },
-  { "id": "w13_selger", "no": "selger", "de": "der Verkäufer", "deAlt": ["die Verkäuferin"], "pos": "noun", "gender": "m", "forms": ["selger", "selgeren", "selgere", "selgerne"], "lesson": 13, "ex": { "no": "Selgeren gikk ned på prisen.", "de": "Die Verkäuferin ging mit dem Preis herunter." } },
-  { "id": "w13_bruktbutikk", "no": "bruktbutikk", "de": "der Secondhandladen", "pos": "noun", "gender": "m", "forms": ["bruktbutikk", "bruktbutikken", "bruktbutikker", "bruktbutikkene"], "lesson": 13, "ex": { "no": "Jeg kjøpte genseren i en bruktbutikk.", "de": "Ich habe den Pullover in einem Secondhandladen gekauft." } },
-  { "id": "w13_gjenbruk", "no": "gjenbruk", "de": "die Wiederverwendung", "deAlt": ["das Recycling"], "pos": "noun", "gender": "n", "forms": ["gjenbruk", "gjenbruket"], "lesson": 13, "ex": { "no": "Loppemarked er gjenbruk.", "de": "Flohmarkt ist Wiederverwendung." } },
-  { "id": "w13_nabolag", "no": "nabolag", "de": "die Nachbarschaft", "pos": "noun", "gender": "n", "forms": ["nabolag", "nabolaget", "nabolag", "nabolaga/nabolagene"], "lesson": 13, "ex": { "no": "Hele nabolaget kom på loppemarkedet.", "de": "Die ganze Nachbarschaft kam auf den Flohmarkt." } },
-  { "id": "w13_borettslag", "no": "borettslag", "de": "die Wohnungsgenossenschaft", "pos": "noun", "gender": "n", "forms": ["borettslag", "borettslaget", "borettslag", "borettslaga/borettslagene"], "lesson": 13, "ex": { "no": "Borettslaget har dugnad i mai.", "de": "Die Wohnungsgenossenschaft hat im Mai einen Arbeitseinsatz." } },
-  { "id": "w13_fellesskap", "no": "fellesskap", "de": "die Gemeinschaft", "pos": "noun", "gender": "n", "forms": ["fellesskap", "fellesskapet", "fellesskap", "fellesskapa/fellesskapene"], "lesson": 13, "ex": { "no": "Dugnad handler om fellesskap.", "de": "Bei einem dugnad geht es um Gemeinschaft." } },
-  { "id": "w13_idrettslag", "no": "idrettslag", "de": "der Sportverein", "pos": "noun", "gender": "n", "forms": ["idrettslag", "idrettslaget", "idrettslag", "idrettslaga/idrettslagene"], "lesson": 13, "ex": { "no": "Ola spiller fotball i et idrettslag.", "de": "Ola spielt in einem Sportverein Fußball." } },
-  { "id": "w13_lodd", "no": "lodd", "de": "das Los", "pos": "noun", "gender": "n", "forms": ["lodd", "loddet", "lodd", "lodda/loddene"], "lesson": 13, "ex": { "no": "Vil du kjøpe et lodd?", "de": "Möchtest du ein Los kaufen?" } },
-  { "id": "w13_leke", "no": "leke", "de": "das Spielzeug", "pos": "noun", "gender": "f", "forms": ["leke", "leka", "leker", "lekene"], "lesson": 13, "ex": { "no": "Det lå mange gamle leker på bordet.", "de": "Auf dem Tisch lag viel altes Spielzeug." } },
-  { "id": "w13_mobel", "no": "møbel", "de": "das Möbelstück", "deAlt": ["Möbel"], "pos": "noun", "gender": "n", "forms": ["møbel", "møbelet", "møbler", "møblene"], "lesson": 13, "ex": { "no": "Vi trenger nye møbler til stua.", "de": "Wir brauchen neue Möbel fürs Wohnzimmer." } },
-  { "id": "w13_frivillig", "no": "frivillig", "de": "freiwillig", "pos": "adj", "forms": ["frivillig", "frivillig", "frivillige"], "lesson": 13, "ex": { "no": "Alt arbeidet er frivillig.", "de": "Die ganze Arbeit ist freiwillig." } },
-  { "id": "w13_prute", "no": "prute", "de": "handeln, feilschen", "pos": "verb", "vf": ["pruter", "prutet", "prutet", "prut"], "vg": "1", "lesson": 13, "ex": { "no": "På loppemarked kan du prute.", "de": "Auf dem Flohmarkt kannst du handeln." } },
-  { "id": "w13_gaa_ned_paa_prisen", "no": "gå ned på prisen", "de": "mit dem Preis runtergehen", "pos": "phrase", "lesson": 13, "ex": { "no": "Kan du gå litt ned på prisen?", "de": "Kannst du mit dem Preis etwas runtergehen?" } },
-  { "id": "w13_med_paa_kjopet", "no": "med på kjøpet", "de": "gratis dazu, als Zugabe", "pos": "phrase", "lesson": 13, "ex": { "no": "Du får lua med på kjøpet.", "de": "Die Mütze bekommst du gratis dazu." } },
-  { "id": "w13_gi_bort", "no": "gi bort", "de": "verschenken, weggeben", "pos": "verb", "vf": ["gir bort", "ga bort", "gitt bort", "gi bort"], "vg": "sterk", "lesson": 13, "ex": { "no": "Vi ga bort de gamle skiene.", "de": "Wir haben die alten Ski verschenkt." } },
-  { "id": "w13_tilhore", "no": "tilhøre", "de": "gehören", "pos": "verb", "vf": ["tilhører", "tilhørte", "tilhørt", "tilhør"], "vg": "2", "lesson": 13, "ex": { "no": "Denne jakka tilhører Kari.", "de": "Diese Jacke gehört Kari." } },
-  { "id": "w13_eie", "no": "eie", "de": "besitzen", "pos": "verb", "vf": ["eier", "eide", "eid", "ei"], "vg": "3", "lesson": 13, "note": "Hvem eier …? = Wem gehört …?", "ex": { "no": "Hvem eier denne jakka?", "de": "Wem gehört diese Jacke?" } },
-  { "id": "w13_sortere", "no": "sortere", "de": "sortieren", "pos": "verb", "vf": ["sorterer", "sorterte", "sortert", "sorter"], "vg": "2", "lesson": 13, "ex": { "no": "Foreldrene sorterer klær i flere uker.", "de": "Die Eltern sortieren wochenlang Kleidung." } },
-  { "id": "w13_samle_inn", "no": "samle inn", "de": "einsammeln", "pos": "verb", "vf": ["samler inn", "samlet inn", "samlet inn", "saml inn"], "vg": "1", "lesson": 13, "ex": { "no": "Korpset samler inn gamle ting.", "de": "Die Kapelle sammelt alte Sachen ein." } },
-  { "id": "w13_kaare", "no": "kåre", "de": "wählen, küren", "pos": "verb", "vf": ["kårer", "kåret", "kåret", "kår"], "vg": "1", "lesson": 13, "ex": { "no": "Seerne kåret dugnad til Norges nasjonalord.", "de": "Die Zuschauer kürten dugnad zum norwegischen Nationalwort." } },
-  { "id": "w13_rake", "no": "rake", "de": "rechen, harken", "pos": "verb", "vf": ["raker", "raket", "raket", "rak"], "vg": "1", "lesson": 13, "ex": { "no": "Om våren raker vi løv i hagen.", "de": "Im Frühling rechen wir im Garten Laub." } },
-  { "id": "w13_arrangere", "no": "arrangere", "de": "veranstalten, organisieren", "pos": "verb", "vf": ["arrangerer", "arrangerte", "arrangert", "arranger"], "vg": "2", "lesson": 13, "ex": { "no": "Korpset arrangerer et loppemarked.", "de": "Die Kapelle veranstaltet einen Flohmarkt." } },
-  { "id": "w13_strikke", "no": "strikke", "de": "stricken", "pos": "verb", "vf": ["strikker", "strikket", "strikket", "strikk"], "vg": "1", "lesson": 13, "wk": true, "ex": { "no": "Den genseren har jeg strikket selv.", "de": "Den Pullover habe ich selbst gestrickt." } },
-  { "id": "w13_kjenne_igjen", "no": "kjenne igjen", "de": "wiedererkennen", "pos": "verb", "vf": ["kjenner igjen", "kjente igjen", "kjent igjen", "kjenn igjen"], "vg": "2", "lesson": 13, "ex": { "no": "Anna kjente igjen jakka med en gang.", "de": "Anna hat die Jacke sofort wiedererkannt." } },
-  { "id": "w13_se_ut_som", "no": "se ut som", "de": "aussehen wie", "pos": "phrase", "lesson": 13, "ex": { "no": "I den anorakken ser du ut som en papegøye!", "de": "In dem Anorak siehst du aus wie ein Papagei!" } },
-  { "id": "w13_ha_paa_seg", "no": "ha på seg", "de": "anhaben, tragen", "pos": "verb", "vf": ["har på seg", "hadde på seg", "hatt på seg", "ha på deg"], "vg": "uregelm", "lesson": 13, "wk": true, "ex": { "no": "Hun hadde på seg en rød kjole.", "de": "Sie trug ein rotes Kleid." } },
-  { "id": "w13_ta_paa_seg", "no": "ta på seg", "de": "anziehen", "pos": "verb", "vf": ["tar på seg", "tok på seg", "tatt på seg", "ta på deg"], "vg": "sterk", "lesson": 13, "wk": true, "ex": { "no": "Ta på deg lua, det er kaldt ute!", "de": "Setz die Mütze auf, es ist kalt draußen!" } },
-  { "id": "w13_ta_av_seg", "no": "ta av seg", "de": "ausziehen", "pos": "verb", "vf": ["tar av seg", "tok av seg", "tatt av seg", "ta av deg"], "vg": "sterk", "lesson": 13, "wk": true, "ex": { "no": "Ta av deg skoene i gangen.", "de": "Zieh die Schuhe im Flur aus." } },
-  { "id": "w13_kle", "no": "kle", "de": "jemandem stehen", "deAlt": ["kleiden"], "pos": "verb", "vf": ["kler", "kledde", "kledd", "kle"], "vg": "4", "lesson": 13, "wk": true, "note": "Den kler deg = Die steht dir. Für die Größe sagt man passe.", "ex": { "no": "Den blå fargen kler deg.", "de": "Die blaue Farbe steht dir." } },
-  { "id": "w13_passe", "no": "passe", "de": "passen (Größe)", "pos": "verb", "vf": ["passer", "passet", "passet", "pass"], "vg": "1", "lesson": 13, "wk": true, "ex": { "no": "Støvlene passer perfekt.", "de": "Die Stiefel passen perfekt." } },
-  { "id": "w13_klaer", "no": "klær", "de": "die Kleidung", "deAlt": ["die Kleider"], "pos": "noun", "gender": "n", "forms": ["klær", "klærne"], "lesson": 13, "wk": true, "note": "Nur Plural: klær – klærne. Ein einzelnes Stück heißt et plagg.", "ex": { "no": "Jeg trenger varme klær til Tromsø.", "de": "Ich brauche warme Kleidung für Tromsø." } },
-  { "id": "w13_plagg", "no": "plagg", "de": "das Kleidungsstück", "pos": "noun", "gender": "n", "forms": ["plagg", "plagget", "plagg", "plagga/plaggene"], "lesson": 13, "wk": true, "ex": { "no": "Hvert plagg koster femti kroner.", "de": "Jedes Kleidungsstück kostet fünfzig Kronen." } },
-  { "id": "w13_jakke", "no": "jakke", "de": "die Jacke", "pos": "noun", "gender": "f", "forms": ["jakke", "jakka", "jakker", "jakkene"], "lesson": 13, "wk": true, "ex": { "no": "Jakka mi er altfor tynn.", "de": "Meine Jacke ist viel zu dünn." } },
-  { "id": "w13_dunjakke", "no": "dunjakke", "de": "die Daunenjacke", "pos": "noun", "gender": "f", "forms": ["dunjakke", "dunjakka", "dunjakker", "dunjakkene"], "lesson": 13, "wk": true, "ex": { "no": "Er denne dunjakka varm nok?", "de": "Ist diese Daunenjacke warm genug?" } },
-  { "id": "w13_vinterjakke", "no": "vinterjakke", "de": "die Winterjacke", "pos": "noun", "gender": "f", "forms": ["vinterjakke", "vinterjakka", "vinterjakker", "vinterjakkene"], "lesson": 13, "wk": true, "ex": { "no": "Jeg ser etter en vinterjakke.", "de": "Ich suche eine Winterjacke." } },
-  { "id": "w13_regnjakke", "no": "regnjakke", "de": "die Regenjacke", "pos": "noun", "gender": "f", "forms": ["regnjakke", "regnjakka", "regnjakker", "regnjakkene"], "lesson": 13, "wk": true, "ex": { "no": "I Bergen trenger du ei god regnjakke.", "de": "In Bergen brauchst du eine gute Regenjacke." } },
-  { "id": "w13_anorakk", "no": "anorakk", "de": "der Anorak", "pos": "noun", "gender": "m", "forms": ["anorakk", "anorakken", "anorakker", "anorakkene"], "lesson": 13, "wk": true, "ex": { "no": "Anorakken hans er grønn og oransje.", "de": "Sein Anorak ist grün und orange." } },
-  { "id": "w13_yndlingsjakke", "no": "yndlingsjakke", "de": "die Lieblingsjacke", "pos": "noun", "gender": "f", "forms": ["yndlingsjakke", "yndlingsjakka", "yndlingsjakker", "yndlingsjakkene"], "lesson": 13, "note": "yndlings- = Lieblings-: yndlingsfarge, yndlingsmat.", "ex": { "no": "Det er yndlingsjakka til mamma.", "de": "Das ist Mamas Lieblingsjacke." } },
-  { "id": "w13_genser", "no": "genser", "de": "der Pullover", "pos": "noun", "gender": "m", "forms": ["genser", "genseren", "gensere", "genserne"], "lesson": 13, "wk": true, "ex": { "no": "Det er MIN genser, ikke din!", "de": "Das ist MEIN Pullover, nicht deiner!" } },
-  { "id": "w13_ullgenser", "no": "ullgenser", "de": "der Wollpullover", "pos": "noun", "gender": "m", "forms": ["ullgenser", "ullgenseren", "ullgensere", "ullgenserne"], "lesson": 13, "wk": true, "ex": { "no": "Hilde har strikket ullgenseren selv.", "de": "Hilde hat den Wollpullover selbst gestrickt." } },
-  { "id": "w13_strikkejakke", "no": "strikkejakke", "de": "die Strickjacke", "pos": "noun", "gender": "f", "forms": ["strikkejakke", "strikkejakka", "strikkejakker", "strikkejakkene"], "lesson": 13, "wk": true, "ex": { "no": "Bestemor har strikket ei strikkejakke til meg.", "de": "Oma hat mir eine Strickjacke gestrickt." } },
-  { "id": "w13_lusekofte", "no": "lusekofte", "de": "die Lusekofte (norwegische Strickjacke)", "pos": "noun", "gender": "f", "forms": ["lusekofte", "lusekofta", "lusekofter", "lusekoftene"], "lesson": 13, "wk": true, "note": "Traditionelle schwarz-weiße Strickjacke aus Setesdal mit kleinen Punkten, den »Läusen« (lus).", "ex": { "no": "Turister kjøper ofte ei lusekofte.", "de": "Touristen kaufen oft eine Lusekofte." } },
-  { "id": "w13_lue", "no": "lue", "de": "die Mütze", "pos": "noun", "gender": "f", "forms": ["lue", "lua", "luer", "luene"], "lesson": 13, "wk": true, "ex": { "no": "Jeg finner ikke lua mi.", "de": "Ich finde meine Mütze nicht." } },
-  { "id": "w13_vott", "no": "vott", "de": "der Fäustling", "deAlt": ["der Handschuh"], "pos": "noun", "gender": "m", "forms": ["vott", "votten", "votter", "vottene"], "lesson": 13, "wk": true, "ex": { "no": "Du får vottene med på kjøpet.", "de": "Die Fäustlinge bekommst du gratis dazu." } },
-  { "id": "w13_hanske", "no": "hanske", "de": "der (Finger-)Handschuh", "pos": "noun", "gender": "m", "forms": ["hanske", "hansken", "hansker", "hanskene"], "lesson": 13, "wk": true, "note": "votter haben nur einen Daumen, hansker fünf Finger.", "ex": { "no": "Med hansker kan du bruke mobilen.", "de": "Mit Fingerhandschuhen kannst du das Handy benutzen." } },
-  { "id": "w13_skjerf", "no": "skjerf", "de": "der Schal", "pos": "noun", "gender": "n", "forms": ["skjerf", "skjerfet", "skjerf", "skjerfa/skjerfene"], "lesson": 13, "wk": true, "ex": { "no": "Det rosa skjerfet er mitt.", "de": "Der rosa Schal gehört mir." } },
-  { "id": "w13_bukse", "no": "bukse", "de": "die Hose", "pos": "noun", "gender": "f", "forms": ["bukse", "buksa", "bukser", "buksene"], "lesson": 13, "wk": true, "ex": { "no": "Buksa er for trang.", "de": "Die Hose ist zu eng." } },
-  { "id": "w13_olabukse", "no": "olabukse", "de": "die Jeans", "pos": "noun", "gender": "f", "forms": ["olabukse", "olabuksa", "olabukser", "olabuksene"], "lesson": 13, "wk": true, "ex": { "no": "Ola går alltid i olabukse.", "de": "Ola trägt immer Jeans." } },
-  { "id": "w13_skjorte", "no": "skjorte", "de": "das Hemd", "pos": "noun", "gender": "f", "forms": ["skjorte", "skjorta", "skjorter", "skjortene"], "lesson": 13, "wk": true, "ex": { "no": "Per har på seg ei hvit skjorte.", "de": "Per trägt ein weißes Hemd." } },
-  { "id": "w13_bluse", "no": "bluse", "de": "die Bluse", "pos": "noun", "gender": "m", "forms": ["bluse", "blusen", "bluser", "blusene"], "lesson": 13, "wk": true, "ex": { "no": "Blusen er av bomull.", "de": "Die Bluse ist aus Baumwolle." } },
-  { "id": "w13_kjole", "no": "kjole", "de": "das Kleid", "pos": "noun", "gender": "m", "forms": ["kjole", "kjolen", "kjoler", "kjolene"], "lesson": 13, "wk": true, "ex": { "no": "Anna kjøpte en rød kjole.", "de": "Anna hat ein rotes Kleid gekauft." } },
-  { "id": "w13_skjort", "no": "skjørt", "de": "der Rock", "pos": "noun", "gender": "n", "forms": ["skjørt", "skjørtet", "skjørt", "skjørta/skjørtene"], "lesson": 13, "wk": true, "note": "Nicht verwechseln: et skjørt = der Rock, ei skjorte = das Hemd.", "ex": { "no": "Skjørtet er for kort.", "de": "Der Rock ist zu kurz." } },
-  { "id": "w13_t_skjorte", "no": "t-skjorte", "de": "das T-Shirt", "pos": "noun", "gender": "f", "forms": ["t-skjorte", "t-skjorta", "t-skjorter", "t-skjortene"], "lesson": 13, "wk": true, "ex": { "no": "I Tromsø trenger jeg ikke mange t-skjorter.", "de": "In Tromsø brauche ich nicht viele T-Shirts." } },
-  { "id": "w13_sokk", "no": "sokk", "de": "die Socke", "pos": "noun", "gender": "m", "forms": ["sokk", "sokken", "sokker", "sokkene"], "lesson": 13, "wk": true, "ex": { "no": "Det er hull i sokken min.", "de": "In meiner Socke ist ein Loch." } },
-  { "id": "w13_ullsokk", "no": "ullsokk", "de": "die Wollsocke", "pos": "noun", "gender": "m", "forms": ["ullsokk", "ullsokken", "ullsokker", "ullsokkene"], "lesson": 13, "wk": true, "ex": { "no": "Bestemor strikker ullsokker til hele familien.", "de": "Oma strickt Wollsocken für die ganze Familie." } },
-  { "id": "w13_undertoy", "no": "undertøy", "de": "die Unterwäsche", "pos": "noun", "gender": "n", "forms": ["undertøy", "undertøyet"], "lesson": 13, "wk": true, "ex": { "no": "Jeg må kjøpe nytt undertøy.", "de": "Ich muss neue Unterwäsche kaufen." } },
-  { "id": "w13_ullundertoy", "no": "ullundertøy", "de": "die Wollunterwäsche", "pos": "noun", "gender": "n", "forms": ["ullundertøy", "ullundertøyet"], "lesson": 13, "wk": true, "note": "Im norwegischen Winter gilt: Wolle direkt auf der Haut (ull innerst).", "ex": { "no": "Med ullundertøy fryser du ikke.", "de": "Mit Wollunterwäsche frierst du nicht." } },
-  { "id": "w13_sko", "no": "sko", "de": "der Schuh", "pos": "noun", "gender": "m", "forms": ["sko", "skoen", "sko", "skoene"], "lesson": 13, "wk": true, "note": "Plural ohne Endung: to sko.", "ex": { "no": "Har du sett skoene mine?", "de": "Hast du meine Schuhe gesehen?" } },
-  { "id": "w13_stovel", "no": "støvel", "de": "der Stiefel", "pos": "noun", "gender": "m", "forms": ["støvel", "støvelen", "støvler", "støvlene"], "lesson": 13, "wk": true, "ex": { "no": "Støvlene tar jeg gjerne.", "de": "Die Stiefel nehme ich gern." } },
-  { "id": "w13_skistovel", "no": "skistøvel", "de": "der Skischuh", "pos": "noun", "gender": "m", "forms": ["skistøvel", "skistøvelen", "skistøvler", "skistøvlene"], "lesson": 13, "wk": true, "ex": { "no": "Det er de gamle skistøvlene mine.", "de": "Das sind meine alten Skischuhe." } },
-  { "id": "w13_vinterstovel", "no": "vinterstøvel", "de": "der Winterstiefel", "pos": "noun", "gender": "m", "forms": ["vinterstøvel", "vinterstøvelen", "vinterstøvler", "vinterstøvlene"], "lesson": 13, "wk": true, "ex": { "no": "I Tromsø trenger du gode vinterstøvler.", "de": "In Tromsø brauchst du gute Winterstiefel." } },
-  { "id": "w13_joggesko", "no": "joggesko", "de": "der Turnschuh", "pos": "noun", "gender": "m", "forms": ["joggesko", "joggeskoen", "joggesko", "joggeskoene"], "lesson": 13, "wk": true, "ex": { "no": "Joggeskoene er for kalde om vinteren.", "de": "Die Turnschuhe sind im Winter zu kalt." } },
-  { "id": "w13_toffel", "no": "tøffel", "de": "der Hausschuh", "pos": "noun", "gender": "m", "forms": ["tøffel", "tøffelen", "tøfler", "tøflene"], "lesson": 13, "wk": true, "note": "In Norwegen zieht man in der Wohnung die Schuhe aus – Hausschuhe oder Wollsocken sind wichtig.", "ex": { "no": "Hos Nygårds går alle i tøfler inne.", "de": "Bei Nygårds tragen drinnen alle Hausschuhe." } },
-  { "id": "w13_belte", "no": "belte", "de": "der Gürtel", "pos": "noun", "gender": "n", "forms": ["belte", "beltet", "belter", "beltene"], "lesson": 13, "wk": true, "ex": { "no": "Buksa er for vid – jeg trenger et belte.", "de": "Die Hose ist zu weit – ich brauche einen Gürtel." } },
-  { "id": "w13_veske", "no": "veske", "de": "die Tasche, die Handtasche", "pos": "noun", "gender": "f", "forms": ["veske", "veska", "vesker", "veskene"], "lesson": 13, "wk": true, "ex": { "no": "Er dette veska di?", "de": "Ist das deine Tasche?" } },
-  { "id": "w13_ski", "no": "ski", "de": "der Ski", "pos": "noun", "gender": "m", "forms": ["ski", "skien", "ski", "skiene"], "lesson": 13, "note": "Auch: ei ski – skia. Plural ohne Endung: et par ski.", "ex": { "no": "Det er jo skiene mine!", "de": "Das sind ja meine Ski!" } },
-  { "id": "w13_gaa_paa_ski", "no": "gå på ski", "de": "Ski fahren (Langlauf)", "pos": "phrase", "lesson": 13, "ex": { "no": "Om vinteren går vi på ski hver søndag.", "de": "Im Winter fahren wir jeden Sonntag Ski." } },
-  { "id": "w13_storrelse", "no": "størrelse", "de": "die Größe", "pos": "noun", "gender": "m", "forms": ["størrelse", "størrelsen", "størrelser", "størrelsene"], "lesson": 13, "wk": true, "ex": { "no": "Hvilken størrelse bruker du?", "de": "Welche Größe trägst du?" } },
-  { "id": "w13_skostorrelse", "no": "skostørrelse", "de": "die Schuhgröße", "pos": "noun", "gender": "m", "forms": ["skostørrelse", "skostørrelsen", "skostørrelser", "skostørrelsene"], "lesson": 13, "wk": true, "ex": { "no": "Vi har samme skostørrelse.", "de": "Wir haben dieselbe Schuhgröße." } },
-  { "id": "w13_proverom", "no": "prøverom", "de": "die Umkleidekabine", "pos": "noun", "gender": "n", "forms": ["prøverom", "prøverommet", "prøverom", "prøveromma/prøverommene"], "lesson": 13, "wk": true, "ex": { "no": "Hvor er prøverommet?", "de": "Wo ist die Umkleidekabine?" } },
-  { "id": "w13_ull", "no": "ull", "de": "die Wolle", "pos": "noun", "gender": "f", "forms": ["ull", "ulla"], "lesson": 13, "wk": true, "ex": { "no": "Det er ekte norsk ull.", "de": "Das ist echte norwegische Wolle." } },
-  { "id": "w13_dun", "no": "dun", "de": "die Daunen", "pos": "noun", "gender": "n", "forms": ["dun", "dunet"], "lesson": 13, "wk": true, "ex": { "no": "Det er ekte dun i jakka.", "de": "In der Jacke sind echte Daunen." } },
-  { "id": "w13_bomull", "no": "bomull", "de": "die Baumwolle", "pos": "noun", "gender": "f", "forms": ["bomull", "bomulla"], "lesson": 13, "wk": true, "ex": { "no": "Bomull blir kald når den er våt.", "de": "Baumwolle wird kalt, wenn sie nass ist." } },
-  { "id": "w13_monster", "no": "mønster", "de": "das Muster", "pos": "noun", "gender": "n", "forms": ["mønster", "mønsteret", "mønstre", "mønstrene"], "lesson": 13, "wk": true, "ex": { "no": "Genseren har et fint mønster.", "de": "Der Pullover hat ein schönes Muster." } },
-  { "id": "w13_hull", "no": "hull", "de": "das Loch", "pos": "noun", "gender": "n", "forms": ["hull", "hullet", "hull", "hulla/hullene"], "lesson": 13, "wk": true, "ex": { "no": "Det er et lite hull i lomma.", "de": "In der Tasche ist ein kleines Loch." } },
-  { "id": "w13_lomme", "no": "lomme", "de": "die Tasche (an der Kleidung)", "pos": "noun", "gender": "f", "forms": ["lomme", "lomma", "lommer", "lommene"], "lesson": 13, "wk": true, "ex": { "no": "Nøklene ligger i lomma mi.", "de": "Die Schlüssel sind in meiner Tasche." } },
-  { "id": "w13_glidelaas", "no": "glidelås", "de": "der Reißverschluss", "pos": "noun", "gender": "m", "forms": ["glidelås", "glidelåsen", "glidelåser", "glidelåsene"], "lesson": 13, "wk": true, "ex": { "no": "Glidelåsen på jakka er ødelagt.", "de": "Der Reißverschluss an der Jacke ist kaputt." } },
-  { "id": "w13_knapp", "no": "knapp", "de": "der Knopf", "pos": "noun", "gender": "m", "forms": ["knapp", "knappen", "knapper", "knappene"], "lesson": 13, "wk": true, "note": "Falscher Freund: knapp = Knopf, nicht »knapp«.", "ex": { "no": "Det mangler en knapp på skjorta.", "de": "An dem Hemd fehlt ein Knopf." } },
-  { "id": "w13_tynn", "no": "tynn", "de": "dünn", "pos": "adj", "forms": ["tynn", "tynt", "tynne"], "lesson": 13, "wk": true, "ex": { "no": "Jakka er altfor tynn for Tromsø.", "de": "Die Jacke ist viel zu dünn für Tromsø." } },
-  { "id": "w13_tykk", "no": "tykk", "de": "dick", "pos": "adj", "forms": ["tykk", "tykt", "tykke"], "lesson": 13, "wk": true, "ex": { "no": "Jeg trenger et tykt skjerf.", "de": "Ich brauche einen dicken Schal." } },
-  { "id": "w13_trang", "no": "trang", "de": "eng", "pos": "adj", "forms": ["trang", "trangt", "trange"], "lesson": 13, "wk": true, "ex": { "no": "Buksa er for trang i livet.", "de": "Die Hose ist an der Taille zu eng." } },
-  { "id": "w13_vid", "no": "vid", "de": "weit", "pos": "adj", "forms": ["vid", "vidt", "vide"], "lesson": 13, "wk": true, "ex": { "no": "Genseren er altfor vid.", "de": "Der Pullover ist viel zu weit." } },
-  { "id": "w13_slitt", "no": "slitt", "de": "abgetragen, abgenutzt", "pos": "adj", "forms": ["slitt", "slitt", "slitte"], "lesson": 13, "wk": true, "ex": { "no": "Den er litt slitt, men helt grei.", "de": "Er ist etwas abgetragen, aber ganz in Ordnung." } },
-  { "id": "w13_brukt", "no": "brukt", "de": "gebraucht", "pos": "adj", "forms": ["brukt", "brukt", "brukte"], "lesson": 13, "ex": { "no": "Jeg har kjøpt den brukt.", "de": "Ich habe ihn gebraucht gekauft." } },
-  { "id": "w13_fattig", "no": "fattig", "de": "arm", "pos": "adj", "forms": ["fattig", "fattig", "fattige"], "lesson": 13, "ex": { "no": "Jeg er bare en fattig student.", "de": "Ich bin nur eine arme Studentin." } },
-  { "id": "w13_sur", "no": "sur", "de": "sauer", "deAlt": ["schlecht gelaunt", "verärgert"], "pos": "adj", "forms": ["sur", "surt", "sure"], "lesson": 13, "note": "Wie im Deutschen: sauer (Geschmack) und schlecht gelaunt.", "ex": { "no": "Mamma kommer til å bli sur.", "de": "Mama wird sauer sein." } },
-  { "id": "w13_oransje", "no": "oransje", "de": "orange", "pos": "adj", "forms": ["oransje", "oransje", "oransje"], "lesson": 13, "wk": true, "note": "Unveränderlich, wie rosa und lilla.", "ex": { "no": "Anorakken er grønn og oransje.", "de": "Der Anorak ist grün und orange." } },
-  { "id": "w13_rosa", "no": "rosa", "de": "rosa", "pos": "adj", "forms": ["rosa", "rosa", "rosa"], "lesson": 13, "wk": true, "note": "Unveränderlich: et rosa skjerf.", "ex": { "no": "Jeg har aldri hatt et rosa skjerf.", "de": "Ich hatte noch nie einen rosa Schal." } },
-  { "id": "w13_halv", "no": "halv", "de": "halb", "pos": "adj", "forms": ["halv", "halvt", "halve"], "lesson": 13, "note": "halve + bestimmtes Substantiv: halve huset = das halbe Haus.", "ex": { "no": "Halve huset vårt står her!", "de": "Unser halbes Haus steht hier!" } },
-  { "id": "w13_papegoye", "no": "papegøye", "de": "der Papagei", "pos": "noun", "gender": "m", "forms": ["papegøye", "papegøyen", "papegøyer", "papegøyene"], "lesson": 13, "ex": { "no": "Jeg vil ikke se ut som en papegøye.", "de": "Ich will nicht wie ein Papagei aussehen." } },
-  { "id": "w13_i_paaskefjellet", "no": "i påskefjellet", "de": "zu Ostern in den Bergen", "pos": "phrase", "lesson": 13, "note": "Zu Ostern fahren viele Norweger zum Skilaufen in die Berge (påskefjellet).", "ex": { "no": "Per gikk alltid i anorakk i påskefjellet.", "de": "Per trug zu Ostern in den Bergen immer einen Anorak." } },
-  { "id": "w13_egentlig", "no": "egentlig", "de": "eigentlich", "pos": "adv", "lesson": 13, "ex": { "no": "Hva trenger du egentlig?", "de": "Was brauchst du eigentlich?" } },
-  { "id": "w13_visst", "no": "visst", "de": "wohl, anscheinend", "pos": "adv", "lesson": 13, "ex": { "no": "Pappa tok visst feil pose.", "de": "Papa hat wohl die falsche Tüte erwischt." } },
-  { "id": "w13_uansett", "no": "uansett", "de": "egal, jedenfalls", "pos": "adv", "lesson": 13, "note": "uansett hvem/hva = egal wer/was", "ex": { "no": "Jeg kjøper jakka uansett hva den koster.", "de": "Ich kaufe die Jacke, egal, was sie kostet." } },
-  { "id": "w13_saerlig", "no": "særlig", "de": "besonders", "pos": "adv", "lesson": 13, "ex": { "no": "Folk pruter særlig mot slutten av dagen.", "de": "Die Leute handeln besonders gegen Ende des Tages." } },
-  { "id": "w13_der_borte", "no": "der borte", "de": "da drüben", "pos": "phrase", "lesson": 13, "ex": { "no": "Hva koster genseren der borte?", "de": "Was kostet der Pullover da drüben?" } },
-  { "id": "w13_ved_siden_av", "no": "ved siden av", "de": "neben, daneben", "pos": "phrase", "lesson": 13, "ex": { "no": "Skistøvlene står ved siden av skiene.", "de": "Die Skischuhe stehen neben den Ski." } },
-  { "id": "w13_nesten_som_ny", "no": "nesten som ny", "de": "fast wie neu", "pos": "phrase", "lesson": 13, "wk": true, "ex": { "no": "Jakka er nesten som ny.", "de": "Die Jacke ist fast wie neu." } },
-  { "id": "w13_kjore", "no": "kjøre", "de": "fahren", "pos": "verb", "vf": ["kjører", "kjørte", "kjørt", "kjør"], "vg": "2", "lesson": 13, "note": "kjøre = (selbst) fahren; auch: mit dem Auto bringen.", "ex": { "no": "Pappa kjørte posene våre til skolen.", "de": "Papa hat unsere Tüten zur Schule gefahren." } },
-  { "id": "w13_tilbake", "no": "tilbake", "de": "zurück", "pos": "adv", "lesson": 13, "ex": { "no": "Det skjerfet vil jeg ha tilbake!", "de": "Den Schal will ich zurückhaben!" } },
-  { "id": "w13_absolutt", "no": "absolutt", "de": "absolut, unbedingt", "deAlt": ["absolut", "unbedingt"], "pos": "adv", "lesson": 13, "ex": { "no": "Er jakka varm nok? – Absolutt!", "de": "Ist die Jacke warm genug? – Absolut!" } },
-  { "id": "w13_derfor", "no": "derfor", "de": "deshalb, darum", "deAlt": ["deshalb", "darum"], "pos": "adv", "lesson": 13, "note": "Adverb: Am Satzanfang folgt Inversion – Derfor selger foreldrene lodd.", "ex": { "no": "Korpset trenger penger. Derfor har de loppemarked.", "de": "Die Kapelle braucht Geld. Deshalb veranstaltet sie einen Flohmarkt." } },
-  { "id": "w13_skole", "no": "skole", "de": "die Schule", "pos": "noun", "gender": "m", "forms": ["skole", "skolen", "skoler", "skolene"], "lesson": 13, "ex": { "no": "Ola tar bussen til skolen.", "de": "Ola fährt mit dem Bus zur Schule." } },
-  { "id": "w13_vaar_fruehling", "no": "vår", "de": "der Frühling", "pos": "noun", "gender": "m", "forms": ["vår", "våren", "vårer", "vårene"], "lesson": 13, "note": "om våren = im Frühling. Nicht verwechseln mit vår = unser.", "ex": { "no": "Om våren har borettslaget dugnad.", "de": "Im Frühling hat die Wohnungsgenossenschaft einen Arbeitseinsatz." } },
-  { "id": "w13_arbeid", "no": "arbeid", "de": "die Arbeit", "pos": "noun", "gender": "n", "forms": ["arbeid", "arbeidet", "arbeid", "arbeida/arbeidene"], "lesson": 13, "ex": { "no": "Dugnad er frivillig arbeid.", "de": "Dugnad ist freiwillige Arbeit." } },
-  { "id": "w13_hjelp", "no": "hjelp", "de": "die Hilfe", "pos": "noun", "gender": "m", "forms": ["hjelp", "hjelpen"], "lesson": 13, "ex": { "no": "Takk for hjelpen!", "de": "Danke für die Hilfe!" } },
-  { "id": "w13_forrige", "no": "forrige", "de": "vorige, letzte", "deAlt": ["vorige", "letzte"], "pos": "adj", "forms": ["forrige", "forrige", "forrige"], "lesson": 13, "note": "Unveränderlich: i forrige uke = letzte Woche, forrige år = letztes Jahr.", "ex": { "no": "Pappa kjørte posene hit i forrige uke.", "de": "Papa hat die Tüten letzte Woche hergefahren." } },
-  { "id": "w13_mai", "no": "mai", "de": "der Mai", "pos": "name", "lesson": 13, "note": "Monatsnamen schreibt man klein: i mai, 17. mai (syttende mai).", "ex": { "no": "Den 17. mai går korpset i barnetoget.", "de": "Am 17. Mai marschiert die Kapelle im Kinderumzug mit." } },
-  { "id": "w13_orkester", "no": "orkester", "de": "das Orchester", "pos": "noun", "gender": "n", "forms": ["orkester", "orkesteret", "orkestre/orkester", "orkestrene"], "lesson": 13, "ex": { "no": "Et skolekorps er et orkester for barn og unge.", "de": "Ein skolekorps ist ein Orchester für Kinder und Jugendliche." } },
-  { "id": "w13_instrument", "no": "instrument", "de": "das Instrument", "pos": "noun", "gender": "n", "forms": ["instrument", "instrumentet", "instrumenter", "instrumenta/instrumentene"], "lesson": 13, "ex": { "no": "Spiller du et instrument?", "de": "Spielst du ein Instrument?" } },
-  { "id": "w13_kjop", "no": "kjøp", "de": "der Kauf", "pos": "noun", "gender": "n", "forms": ["kjøp", "kjøpet", "kjøp", "kjøpa/kjøpene"], "lesson": 13, "note": "med på kjøpet = gratis dazu", "ex": { "no": "Det var et godt kjøp.", "de": "Das war ein guter Kauf." } },
-  { "id": "w13_benk", "no": "benk", "de": "die Bank (zum Sitzen)", "pos": "noun", "gender": "m", "forms": ["benk", "benken", "benker", "benkene"], "lesson": 13, "ex": { "no": "På dugnaden maler vi benkene i hagen.", "de": "Beim Arbeitseinsatz streichen wir die Bänke im Garten." } },
-  { "id": "w13_grille", "no": "grille", "de": "grillen", "pos": "verb", "vf": ["griller", "grillet", "grillet", "grill"], "vg": "1", "lesson": 13, "ex": { "no": "Etter dugnaden griller vi pølser.", "de": "Nach dem Arbeitseinsatz grillen wir Würstchen." } }
+  {
+    "id": "w13_min",
+    "no": "min",
+    "de": "mein",
+    "deAlt": [
+      "meine",
+      "meiner"
+    ],
+    "alt": [
+      "mi",
+      "mitt",
+      "mine"
+    ],
+    "pos": "pron",
+    "lesson": 13,
+    "note": "min (en-Wort), mi (ei-Wort), mitt (et-Wort), mine (Plural). Meist nachgestellt: genseren min, lua mi.",
+    "ex": {
+      "no": "Genseren min er altfor tynn.",
+      "de": "Mein Pullover ist viel zu dünn."
+    }
+  },
+  {
+    "id": "w13_din",
+    "no": "din",
+    "de": "dein",
+    "deAlt": [
+      "deine",
+      "deiner"
+    ],
+    "alt": [
+      "di",
+      "ditt",
+      "dine"
+    ],
+    "pos": "pron",
+    "lesson": 13,
+    "note": "din, di, ditt, dine – wie min.",
+    "ex": {
+      "no": "Er dette skjerfet ditt?",
+      "de": "Ist das dein Schal?"
+    }
+  },
+  {
+    "id": "w13_hans",
+    "no": "hans",
+    "de": "sein",
+    "deAlt": [
+      "seine"
+    ],
+    "pos": "pron",
+    "lesson": 13,
+    "note": "Unveränderlich; der Besitzer ist ein Mann.",
+    "ex": {
+      "no": "Anorakken hans er grønn og oransje.",
+      "de": "Sein Anorak ist grün und orange."
+    }
+  },
+  {
+    "id": "w13_hennes",
+    "no": "hennes",
+    "de": "ihr (von einer Frau)",
+    "deAlt": [
+      "ihr",
+      "ihre"
+    ],
+    "pos": "pron",
+    "lesson": 13,
+    "note": "Unveränderlich; die Besitzerin ist eine Frau.",
+    "ex": {
+      "no": "Det er yndlingsjakka hennes.",
+      "de": "Das ist ihre Lieblingsjacke."
+    }
+  },
+  {
+    "id": "w13_vaar",
+    "no": "vår",
+    "de": "unser",
+    "deAlt": [
+      "unsere"
+    ],
+    "pos": "pron",
+    "lesson": 13,
+    "note": "vår (en- und ei-Wort), vårt (et-Wort), våre (Plural).",
+    "ex": {
+      "no": "Huset vårt ligger på Sagene.",
+      "de": "Unser Haus liegt in Sagene."
+    }
+  },
+  {
+    "id": "w13_deres",
+    "no": "deres",
+    "de": "euer; ihr (von mehreren)",
+    "deAlt": [
+      "euer",
+      "eure",
+      "ihr",
+      "ihre"
+    ],
+    "pos": "pron",
+    "lesson": 13,
+    "note": "Unveränderlich. Mit großem D (Deres) = Ihr (Höflichkeitsform, selten).",
+    "ex": {
+      "no": "Hvor er foreldrene deres?",
+      "de": "Wo sind eure Eltern?"
+    }
+  },
+  {
+    "id": "w13_dens",
+    "no": "dens",
+    "de": "sein / ihr (von Dingen und Tieren)",
+    "pos": "pron",
+    "lesson": 13,
+    "note": "dens (en/ei-Wort als Besitzer), dets (et-Wort als Besitzer); schriftsprachlich und selten.",
+    "ex": {
+      "no": "Oslo og dens historie",
+      "de": "Oslo und seine Geschichte"
+    }
+  },
+  {
+    "id": "w13_loppemarked",
+    "no": "loppemarked",
+    "de": "der Flohmarkt",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "loppemarked",
+      "loppemarkedet",
+      "loppemarkeder",
+      "loppemarkedene"
+    ],
+    "lesson": 13,
+    "ex": {
+      "no": "På lørdag er det loppemarked på skolen.",
+      "de": "Am Samstag ist Flohmarkt in der Schule."
+    }
+  },
+  {
+    "id": "w13_korps",
+    "no": "korps",
+    "de": "das Blasorchester, die Musikkapelle",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "korps",
+      "korpset",
+      "korps",
+      "korpsa/korpsene"
+    ],
+    "lesson": 13,
+    "ex": {
+      "no": "Ola spilte trompet i korpset da han var liten.",
+      "de": "Ola hat als Kind in der Kapelle Trompete gespielt."
+    }
+  },
+  {
+    "id": "w13_skolekorps",
+    "no": "skolekorps",
+    "de": "die Schulkapelle",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "skolekorps",
+      "skolekorpset",
+      "skolekorps",
+      "skolekorpsa/skolekorpsene"
+    ],
+    "lesson": 13,
+    "ex": {
+      "no": "Skolekorpset går i barnetoget på 17. mai.",
+      "de": "Die Schulkapelle läuft am 17. Mai im Kinderumzug mit."
+    }
+  },
+  {
+    "id": "w13_skolegaard",
+    "no": "skolegård",
+    "de": "der Schulhof",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "skolegård",
+      "skolegården",
+      "skolegårder",
+      "skolegårdene"
+    ],
+    "lesson": 13,
+    "ex": {
+      "no": "Hele skolegården var full av bord.",
+      "de": "Der ganze Schulhof war voller Tische."
+    }
+  },
+  {
+    "id": "w13_ting",
+    "no": "ting",
+    "de": "das Ding, die Sache",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "ting",
+      "tingen",
+      "ting",
+      "tingene"
+    ],
+    "lesson": 13,
+    "note": "Plural ohne Endung: mange ting.",
+    "ex": {
+      "no": "Vi ga bort mange gamle ting.",
+      "de": "Wir haben viele alte Sachen weggegeben."
+    }
+  },
+  {
+    "id": "w13_kupp",
+    "no": "kupp",
+    "de": "das Schnäppchen",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "kupp",
+      "kuppet",
+      "kupp",
+      "kuppa/kuppene"
+    ],
+    "lesson": 13,
+    "note": "gjøre et kupp = ein Schnäppchen machen",
+    "ex": {
+      "no": "Jakka kostet bare tretti kroner. For et kupp!",
+      "de": "Die Jacke hat nur dreißig Kronen gekostet. Was für ein Schnäppchen!"
+    }
+  },
+  {
+    "id": "w13_selger",
+    "no": "selger",
+    "de": "der Verkäufer",
+    "deAlt": [
+      "die Verkäuferin"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "selger",
+      "selgeren",
+      "selgere",
+      "selgerne"
+    ],
+    "lesson": 13,
+    "ex": {
+      "no": "Selgeren gikk ned på prisen.",
+      "de": "Die Verkäuferin ging mit dem Preis herunter."
+    }
+  },
+  {
+    "id": "w13_bruktbutikk",
+    "no": "bruktbutikk",
+    "de": "der Secondhandladen",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "bruktbutikk",
+      "bruktbutikken",
+      "bruktbutikker",
+      "bruktbutikkene"
+    ],
+    "lesson": 13,
+    "ex": {
+      "no": "Jeg kjøpte genseren i en bruktbutikk.",
+      "de": "Ich habe den Pullover in einem Secondhandladen gekauft."
+    }
+  },
+  {
+    "id": "w13_gjenbruk",
+    "no": "gjenbruk",
+    "de": "die Wiederverwendung",
+    "deAlt": [
+      "das Recycling"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "gjenbruk",
+      "gjenbruket"
+    ],
+    "lesson": 13,
+    "ex": {
+      "no": "Loppemarked er gjenbruk.",
+      "de": "Flohmarkt ist Wiederverwendung."
+    }
+  },
+  {
+    "id": "w13_nabolag",
+    "no": "nabolag",
+    "de": "die Nachbarschaft",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "nabolag",
+      "nabolaget",
+      "nabolag",
+      "nabolaga/nabolagene"
+    ],
+    "lesson": 13,
+    "ex": {
+      "no": "Hele nabolaget kom på loppemarkedet.",
+      "de": "Die ganze Nachbarschaft kam auf den Flohmarkt."
+    }
+  },
+  {
+    "id": "w13_borettslag",
+    "no": "borettslag",
+    "de": "die Wohnungsgenossenschaft",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "borettslag",
+      "borettslaget",
+      "borettslag",
+      "borettslaga/borettslagene"
+    ],
+    "lesson": 13,
+    "ex": {
+      "no": "Borettslaget har dugnad i mai.",
+      "de": "Die Wohnungsgenossenschaft hat im Mai einen Arbeitseinsatz."
+    }
+  },
+  {
+    "id": "w13_fellesskap",
+    "no": "fellesskap",
+    "de": "die Gemeinschaft",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "fellesskap",
+      "fellesskapet",
+      "fellesskap",
+      "fellesskapa/fellesskapene"
+    ],
+    "lesson": 13,
+    "ex": {
+      "no": "Dugnad handler om fellesskap.",
+      "de": "Bei einem dugnad geht es um Gemeinschaft."
+    }
+  },
+  {
+    "id": "w13_idrettslag",
+    "no": "idrettslag",
+    "de": "der Sportverein",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "idrettslag",
+      "idrettslaget",
+      "idrettslag",
+      "idrettslaga/idrettslagene"
+    ],
+    "lesson": 13,
+    "ex": {
+      "no": "Ola spiller fotball i et idrettslag.",
+      "de": "Ola spielt in einem Sportverein Fußball."
+    }
+  },
+  {
+    "id": "w13_lodd",
+    "no": "lodd",
+    "de": "das Los",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "lodd",
+      "loddet",
+      "lodd",
+      "lodda/loddene"
+    ],
+    "lesson": 13,
+    "ex": {
+      "no": "Vil du kjøpe et lodd?",
+      "de": "Möchtest du ein Los kaufen?"
+    }
+  },
+  {
+    "id": "w13_frivillig",
+    "no": "frivillig",
+    "de": "freiwillig",
+    "pos": "adj",
+    "forms": [
+      "frivillig",
+      "frivillig",
+      "frivillige"
+    ],
+    "lesson": 13,
+    "ex": {
+      "no": "Alt arbeidet er frivillig.",
+      "de": "Die ganze Arbeit ist freiwillig."
+    }
+  },
+  {
+    "id": "w13_prute",
+    "no": "prute",
+    "de": "handeln, feilschen",
+    "pos": "verb",
+    "vf": [
+      "pruter",
+      "prutet",
+      "prutet",
+      "prut"
+    ],
+    "vg": "1",
+    "lesson": 13,
+    "ex": {
+      "no": "På loppemarked kan du prute.",
+      "de": "Auf dem Flohmarkt kannst du handeln."
+    }
+  },
+  {
+    "id": "w13_gaa_ned_paa_prisen",
+    "no": "gå ned på prisen",
+    "de": "mit dem Preis runtergehen",
+    "pos": "phrase",
+    "lesson": 13,
+    "ex": {
+      "no": "Kan du gå litt ned på prisen?",
+      "de": "Kannst du mit dem Preis etwas runtergehen?"
+    }
+  },
+  {
+    "id": "w13_med_paa_kjopet",
+    "no": "med på kjøpet",
+    "de": "gratis dazu, als Zugabe",
+    "pos": "phrase",
+    "lesson": 13,
+    "ex": {
+      "no": "Du får lua med på kjøpet.",
+      "de": "Die Mütze bekommst du gratis dazu."
+    }
+  },
+  {
+    "id": "w13_gi_bort",
+    "no": "gi bort",
+    "de": "verschenken, weggeben",
+    "pos": "verb",
+    "vf": [
+      "gir bort",
+      "ga bort",
+      "gitt bort",
+      "gi bort"
+    ],
+    "vg": "sterk",
+    "lesson": 13,
+    "ex": {
+      "no": "Vi ga bort de gamle skiene.",
+      "de": "Wir haben die alten Ski verschenkt."
+    }
+  },
+  {
+    "id": "w13_tilhore",
+    "no": "tilhøre",
+    "de": "gehören",
+    "pos": "verb",
+    "vf": [
+      "tilhører",
+      "tilhørte",
+      "tilhørt",
+      "tilhør"
+    ],
+    "vg": "2",
+    "lesson": 13,
+    "ex": {
+      "no": "Denne jakka tilhører Kari.",
+      "de": "Diese Jacke gehört Kari."
+    }
+  },
+  {
+    "id": "w13_samle_inn",
+    "no": "samle inn",
+    "de": "einsammeln",
+    "pos": "verb",
+    "vf": [
+      "samler inn",
+      "samlet inn",
+      "samlet inn",
+      "saml inn"
+    ],
+    "vg": "1",
+    "lesson": 13,
+    "ex": {
+      "no": "Korpset samler inn gamle ting.",
+      "de": "Die Kapelle sammelt alte Sachen ein."
+    }
+  },
+  {
+    "id": "w13_kaare",
+    "no": "kåre",
+    "de": "wählen, küren",
+    "pos": "verb",
+    "vf": [
+      "kårer",
+      "kåret",
+      "kåret",
+      "kår"
+    ],
+    "vg": "1",
+    "lesson": 13,
+    "ex": {
+      "no": "Seerne kåret dugnad til Norges nasjonalord.",
+      "de": "Die Zuschauer kürten dugnad zum norwegischen Nationalwort."
+    }
+  },
+  {
+    "id": "w13_rake",
+    "no": "rake",
+    "de": "rechen, harken",
+    "pos": "verb",
+    "vf": [
+      "raker",
+      "raket",
+      "raket",
+      "rak"
+    ],
+    "vg": "1",
+    "lesson": 13,
+    "ex": {
+      "no": "Om våren raker vi løv i hagen.",
+      "de": "Im Frühling rechen wir im Garten Laub."
+    }
+  },
+  {
+    "id": "w13_arrangere",
+    "no": "arrangere",
+    "de": "veranstalten, organisieren",
+    "pos": "verb",
+    "vf": [
+      "arrangerer",
+      "arrangerte",
+      "arrangert",
+      "arranger"
+    ],
+    "vg": "2",
+    "lesson": 13,
+    "ex": {
+      "no": "Korpset arrangerer et loppemarked.",
+      "de": "Die Kapelle veranstaltet einen Flohmarkt."
+    }
+  },
+  {
+    "id": "w13_kjenne_igjen",
+    "no": "kjenne igjen",
+    "de": "wiedererkennen",
+    "pos": "verb",
+    "vf": [
+      "kjenner igjen",
+      "kjente igjen",
+      "kjent igjen",
+      "kjenn igjen"
+    ],
+    "vg": "2",
+    "lesson": 13,
+    "ex": {
+      "no": "Anna kjente igjen jakka med en gang.",
+      "de": "Anna hat die Jacke sofort wiedererkannt."
+    }
+  },
+  {
+    "id": "w13_se_ut_som",
+    "no": "se ut som",
+    "de": "aussehen wie",
+    "pos": "phrase",
+    "lesson": 13,
+    "ex": {
+      "no": "I den anorakken ser du ut som en papegøye!",
+      "de": "In dem Anorak siehst du aus wie ein Papagei!"
+    }
+  },
+  {
+    "id": "w13_ha_paa_seg",
+    "no": "ha på seg",
+    "de": "anhaben, tragen",
+    "pos": "verb",
+    "vf": [
+      "har på seg",
+      "hadde på seg",
+      "hatt på seg",
+      "ha på deg"
+    ],
+    "vg": "uregelm",
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Hun hadde på seg en rød kjole.",
+      "de": "Sie trug ein rotes Kleid."
+    }
+  },
+  {
+    "id": "w13_ta_paa_seg",
+    "no": "ta på seg",
+    "de": "anziehen",
+    "pos": "verb",
+    "vf": [
+      "tar på seg",
+      "tok på seg",
+      "tatt på seg",
+      "ta på deg"
+    ],
+    "vg": "sterk",
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Ta på deg lua, det er kaldt ute!",
+      "de": "Setz die Mütze auf, es ist kalt draußen!"
+    }
+  },
+  {
+    "id": "w13_kle",
+    "no": "kle",
+    "de": "jemandem stehen",
+    "deAlt": [
+      "kleiden"
+    ],
+    "pos": "verb",
+    "vf": [
+      "kler",
+      "kledde",
+      "kledd",
+      "kle"
+    ],
+    "vg": "4",
+    "lesson": 13,
+    "wk": true,
+    "note": "Den kler deg = Die steht dir. Für die Größe sagt man passe.",
+    "ex": {
+      "no": "Den blå fargen kler deg.",
+      "de": "Die blaue Farbe steht dir."
+    }
+  },
+  {
+    "id": "w13_klaer",
+    "no": "klær",
+    "de": "die Kleidung",
+    "deAlt": [
+      "die Kleider"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "klær",
+      "klærne"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "note": "Nur Plural: klær – klærne. Ein einzelnes Stück heißt et plagg.",
+    "ex": {
+      "no": "Jeg trenger varme klær til Tromsø.",
+      "de": "Ich brauche warme Kleidung für Tromsø."
+    },
+    "plOnly": true
+  },
+  {
+    "id": "w13_plagg",
+    "no": "plagg",
+    "de": "das Kleidungsstück",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "plagg",
+      "plagget",
+      "plagg",
+      "plagga/plaggene"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Hvert plagg koster femti kroner.",
+      "de": "Jedes Kleidungsstück kostet fünfzig Kronen."
+    }
+  },
+  {
+    "id": "w13_jakke",
+    "no": "jakke",
+    "de": "die Jacke",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "jakke",
+      "jakka",
+      "jakker",
+      "jakkene"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Jakka mi er altfor tynn.",
+      "de": "Meine Jacke ist viel zu dünn."
+    }
+  },
+  {
+    "id": "w13_dunjakke",
+    "no": "dunjakke",
+    "de": "die Daunenjacke",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "dunjakke",
+      "dunjakka",
+      "dunjakker",
+      "dunjakkene"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Er denne dunjakka varm nok?",
+      "de": "Ist diese Daunenjacke warm genug?"
+    }
+  },
+  {
+    "id": "w13_vinterjakke",
+    "no": "vinterjakke",
+    "de": "die Winterjacke",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "vinterjakke",
+      "vinterjakka",
+      "vinterjakker",
+      "vinterjakkene"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Jeg ser etter en vinterjakke.",
+      "de": "Ich suche eine Winterjacke."
+    }
+  },
+  {
+    "id": "w13_anorakk",
+    "no": "anorakk",
+    "de": "der Anorak",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "anorakk",
+      "anorakken",
+      "anorakker",
+      "anorakkene"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Anorakken hans er grønn og oransje.",
+      "de": "Sein Anorak ist grün und orange."
+    }
+  },
+  {
+    "id": "w13_yndlingsjakke",
+    "no": "yndlingsjakke",
+    "de": "die Lieblingsjacke",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "yndlingsjakke",
+      "yndlingsjakka",
+      "yndlingsjakker",
+      "yndlingsjakkene"
+    ],
+    "lesson": 13,
+    "note": "yndlings- = Lieblings-: yndlingsfarge, yndlingsmat.",
+    "ex": {
+      "no": "Det er yndlingsjakka til mamma.",
+      "de": "Das ist Mamas Lieblingsjacke."
+    }
+  },
+  {
+    "id": "w13_ullgenser",
+    "no": "ullgenser",
+    "de": "der Wollpullover",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "ullgenser",
+      "ullgenseren",
+      "ullgensere",
+      "ullgenserne"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Hilde har strikket ullgenseren selv.",
+      "de": "Hilde hat den Wollpullover selbst gestrickt."
+    }
+  },
+  {
+    "id": "w13_strikkejakke",
+    "no": "strikkejakke",
+    "de": "die Strickjacke",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "strikkejakke",
+      "strikkejakka",
+      "strikkejakker",
+      "strikkejakkene"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Bestemor har strikket ei strikkejakke til meg.",
+      "de": "Oma hat mir eine Strickjacke gestrickt."
+    }
+  },
+  {
+    "id": "w13_lusekofte",
+    "no": "lusekofte",
+    "de": "die Lusekofte (norwegische Strickjacke)",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "lusekofte",
+      "lusekofta",
+      "lusekofter",
+      "lusekoftene"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "note": "Traditionelle schwarz-weiße Strickjacke aus Setesdal mit kleinen Punkten, den »Läusen« (lus).",
+    "ex": {
+      "no": "Turister kjøper ofte ei lusekofte.",
+      "de": "Touristen kaufen oft eine Lusekofte."
+    }
+  },
+  {
+    "id": "w13_lue",
+    "no": "lue",
+    "de": "die Mütze",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "lue",
+      "lua",
+      "luer",
+      "luene"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Jeg finner ikke lua mi.",
+      "de": "Ich finde meine Mütze nicht."
+    }
+  },
+  {
+    "id": "w13_vott",
+    "no": "vott",
+    "de": "der Fäustling",
+    "deAlt": [
+      "der Handschuh"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "vott",
+      "votten",
+      "votter",
+      "vottene"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Du får vottene med på kjøpet.",
+      "de": "Die Fäustlinge bekommst du gratis dazu."
+    }
+  },
+  {
+    "id": "w13_hanske",
+    "no": "hanske",
+    "de": "der (Finger-)Handschuh",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "hanske",
+      "hansken",
+      "hansker",
+      "hanskene"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "note": "votter haben nur einen Daumen, hansker fünf Finger.",
+    "ex": {
+      "no": "Med hansker kan du bruke mobilen.",
+      "de": "Mit Fingerhandschuhen kannst du das Handy benutzen."
+    }
+  },
+  {
+    "id": "w13_bukse",
+    "no": "bukse",
+    "de": "die Hose",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "bukse",
+      "buksa",
+      "bukser",
+      "buksene"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Buksa er for trang.",
+      "de": "Die Hose ist zu eng."
+    }
+  },
+  {
+    "id": "w13_olabukse",
+    "no": "olabukse",
+    "de": "die Jeans",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "olabukse",
+      "olabuksa",
+      "olabukser",
+      "olabuksene"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Ola går alltid i olabukse.",
+      "de": "Ola trägt immer Jeans."
+    }
+  },
+  {
+    "id": "w13_skjorte",
+    "no": "skjorte",
+    "de": "das Hemd",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "skjorte",
+      "skjorta",
+      "skjorter",
+      "skjortene"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Per har på seg ei hvit skjorte.",
+      "de": "Per trägt ein weißes Hemd."
+    }
+  },
+  {
+    "id": "w13_bluse",
+    "no": "bluse",
+    "de": "die Bluse",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "bluse",
+      "blusen",
+      "bluser",
+      "blusene"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Blusen er av bomull.",
+      "de": "Die Bluse ist aus Baumwolle."
+    }
+  },
+  {
+    "id": "w13_skjort",
+    "no": "skjørt",
+    "de": "der Rock",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "skjørt",
+      "skjørtet",
+      "skjørt",
+      "skjørta/skjørtene"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "note": "Nicht verwechseln: et skjørt = der Rock, ei skjorte = das Hemd.",
+    "ex": {
+      "no": "Skjørtet er for kort.",
+      "de": "Der Rock ist zu kurz."
+    }
+  },
+  {
+    "id": "w13_t_skjorte",
+    "no": "t-skjorte",
+    "de": "das T-Shirt",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "t-skjorte",
+      "t-skjorta",
+      "t-skjorter",
+      "t-skjortene"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "I Tromsø trenger jeg ikke mange t-skjorter.",
+      "de": "In Tromsø brauche ich nicht viele T-Shirts."
+    }
+  },
+  {
+    "id": "w13_ullsokk",
+    "no": "ullsokk",
+    "de": "die Wollsocke",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "ullsokk",
+      "ullsokken",
+      "ullsokker",
+      "ullsokkene"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Bestemor strikker ullsokker til hele familien.",
+      "de": "Oma strickt Wollsocken für die ganze Familie."
+    }
+  },
+  {
+    "id": "w13_undertoy",
+    "no": "undertøy",
+    "de": "die Unterwäsche",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "undertøy",
+      "undertøyet"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Jeg må kjøpe nytt undertøy.",
+      "de": "Ich muss neue Unterwäsche kaufen."
+    }
+  },
+  {
+    "id": "w13_ullundertoy",
+    "no": "ullundertøy",
+    "de": "die Wollunterwäsche",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "ullundertøy",
+      "ullundertøyet"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "note": "Im norwegischen Winter gilt: Wolle direkt auf der Haut (ull innerst).",
+    "ex": {
+      "no": "Med ullundertøy fryser du ikke.",
+      "de": "Mit Wollunterwäsche frierst du nicht."
+    }
+  },
+  {
+    "id": "w13_stovel",
+    "no": "støvel",
+    "de": "der Stiefel",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "støvel",
+      "støvelen",
+      "støvler",
+      "støvlene"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Støvlene tar jeg gjerne.",
+      "de": "Die Stiefel nehme ich gern."
+    }
+  },
+  {
+    "id": "w13_skistovel",
+    "no": "skistøvel",
+    "de": "der Skischuh",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "skistøvel",
+      "skistøvelen",
+      "skistøvler",
+      "skistøvlene"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Det er de gamle skistøvlene mine.",
+      "de": "Das sind meine alten Skischuhe."
+    }
+  },
+  {
+    "id": "w13_vinterstovel",
+    "no": "vinterstøvel",
+    "de": "der Winterstiefel",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "vinterstøvel",
+      "vinterstøvelen",
+      "vinterstøvler",
+      "vinterstøvlene"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "I Tromsø trenger du gode vinterstøvler.",
+      "de": "In Tromsø brauchst du gute Winterstiefel."
+    }
+  },
+  {
+    "id": "w13_joggesko",
+    "no": "joggesko",
+    "de": "der Turnschuh",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "joggesko",
+      "joggeskoen",
+      "joggesko",
+      "joggeskoene"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Joggeskoene er for kalde om vinteren.",
+      "de": "Die Turnschuhe sind im Winter zu kalt."
+    }
+  },
+  {
+    "id": "w13_toffel",
+    "no": "tøffel",
+    "de": "der Hausschuh",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "tøffel",
+      "tøffelen",
+      "tøfler",
+      "tøflene"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "note": "In Norwegen zieht man in der Wohnung die Schuhe aus – Hausschuhe oder Wollsocken sind wichtig.",
+    "ex": {
+      "no": "Hos Nygårds går alle i tøfler inne.",
+      "de": "Bei Nygårds tragen drinnen alle Hausschuhe."
+    }
+  },
+  {
+    "id": "w13_belte",
+    "no": "belte",
+    "de": "der Gürtel",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "belte",
+      "beltet",
+      "belter",
+      "beltene"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Buksa er for vid – jeg trenger et belte.",
+      "de": "Die Hose ist zu weit – ich brauche einen Gürtel."
+    }
+  },
+  {
+    "id": "w13_veske",
+    "no": "veske",
+    "de": "die Tasche, die Handtasche",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "veske",
+      "veska",
+      "vesker",
+      "veskene"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Er dette veska di?",
+      "de": "Ist das deine Tasche?"
+    }
+  },
+  {
+    "id": "w13_ski",
+    "no": "ski",
+    "de": "der Ski",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "ski",
+      "skien",
+      "ski",
+      "skiene"
+    ],
+    "lesson": 13,
+    "note": "Auch: ei ski – skia. Plural ohne Endung: et par ski.",
+    "ex": {
+      "no": "Det er jo skiene mine!",
+      "de": "Das sind ja meine Ski!"
+    }
+  },
+  {
+    "id": "w13_gaa_paa_ski",
+    "no": "gå på ski",
+    "de": "Ski fahren (Langlauf)",
+    "pos": "phrase",
+    "lesson": 13,
+    "ex": {
+      "no": "Om vinteren går vi på ski hver søndag.",
+      "de": "Im Winter fahren wir jeden Sonntag Ski."
+    }
+  },
+  {
+    "id": "w13_storrelse",
+    "no": "størrelse",
+    "de": "die Größe",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "størrelse",
+      "størrelsen",
+      "størrelser",
+      "størrelsene"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Hvilken størrelse bruker du?",
+      "de": "Welche Größe trägst du?"
+    }
+  },
+  {
+    "id": "w13_skostorrelse",
+    "no": "skostørrelse",
+    "de": "die Schuhgröße",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "skostørrelse",
+      "skostørrelsen",
+      "skostørrelser",
+      "skostørrelsene"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Vi har samme skostørrelse.",
+      "de": "Wir haben dieselbe Schuhgröße."
+    }
+  },
+  {
+    "id": "w13_proverom",
+    "no": "prøverom",
+    "de": "die Umkleidekabine",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "prøverom",
+      "prøverommet",
+      "prøverom",
+      "prøveromma/prøverommene"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Hvor er prøverommet?",
+      "de": "Wo ist die Umkleidekabine?"
+    }
+  },
+  {
+    "id": "w13_dun",
+    "no": "dun",
+    "de": "die Daunen",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "dun",
+      "dunet"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Det er ekte dun i jakka.",
+      "de": "In der Jacke sind echte Daunen."
+    }
+  },
+  {
+    "id": "w13_bomull",
+    "no": "bomull",
+    "de": "die Baumwolle",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "bomull",
+      "bomulla"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Bomull blir kald når den er våt.",
+      "de": "Baumwolle wird kalt, wenn sie nass ist."
+    }
+  },
+  {
+    "id": "w13_hull",
+    "no": "hull",
+    "de": "das Loch",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "hull",
+      "hullet",
+      "hull",
+      "hulla/hullene"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Det er et lite hull i lomma.",
+      "de": "In der Tasche ist ein kleines Loch."
+    }
+  },
+  {
+    "id": "w13_lomme",
+    "no": "lomme",
+    "de": "die Tasche (an der Kleidung)",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "lomme",
+      "lomma",
+      "lommer",
+      "lommene"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Nøklene ligger i lomma mi.",
+      "de": "Die Schlüssel sind in meiner Tasche."
+    }
+  },
+  {
+    "id": "w13_glidelaas",
+    "no": "glidelås",
+    "de": "der Reißverschluss",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "glidelås",
+      "glidelåsen",
+      "glidelåser",
+      "glidelåsene"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Glidelåsen på jakka er ødelagt.",
+      "de": "Der Reißverschluss an der Jacke ist kaputt."
+    }
+  },
+  {
+    "id": "w13_knapp",
+    "no": "knapp",
+    "de": "der Knopf",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "knapp",
+      "knappen",
+      "knapper",
+      "knappene"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "note": "Falscher Freund: knapp = Knopf, nicht »knapp«.",
+    "ex": {
+      "no": "Det mangler en knapp på skjorta.",
+      "de": "An dem Hemd fehlt ein Knopf."
+    }
+  },
+  {
+    "id": "w13_tykk",
+    "no": "tykk",
+    "de": "dick",
+    "pos": "adj",
+    "forms": [
+      "tykk",
+      "tykt",
+      "tykke"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Jeg trenger et tykt skjerf.",
+      "de": "Ich brauche einen dicken Schal."
+    }
+  },
+  {
+    "id": "w13_trang",
+    "no": "trang",
+    "de": "eng",
+    "pos": "adj",
+    "forms": [
+      "trang",
+      "trangt",
+      "trange"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Buksa er for trang i livet.",
+      "de": "Die Hose ist an der Taille zu eng."
+    }
+  },
+  {
+    "id": "w13_vid",
+    "no": "vid",
+    "de": "weit",
+    "pos": "adj",
+    "forms": [
+      "vid",
+      "vidt",
+      "vide"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Genseren er altfor vid.",
+      "de": "Der Pullover ist viel zu weit."
+    }
+  },
+  {
+    "id": "w13_slitt",
+    "no": "slitt",
+    "de": "abgetragen, abgenutzt",
+    "pos": "adj",
+    "forms": [
+      "slitt",
+      "slitt",
+      "slitte"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Den er litt slitt, men helt grei.",
+      "de": "Er ist etwas abgetragen, aber ganz in Ordnung."
+    }
+  },
+  {
+    "id": "w13_brukt",
+    "no": "brukt",
+    "de": "gebraucht",
+    "pos": "adj",
+    "forms": [
+      "brukt",
+      "brukt",
+      "brukte"
+    ],
+    "lesson": 13,
+    "ex": {
+      "no": "Jeg har kjøpt den brukt.",
+      "de": "Ich habe ihn gebraucht gekauft."
+    }
+  },
+  {
+    "id": "w13_papegoye",
+    "no": "papegøye",
+    "de": "der Papagei",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "papegøye",
+      "papegøyen",
+      "papegøyer",
+      "papegøyene"
+    ],
+    "lesson": 13,
+    "ex": {
+      "no": "Jeg vil ikke se ut som en papegøye.",
+      "de": "Ich will nicht wie ein Papagei aussehen."
+    }
+  },
+  {
+    "id": "w13_i_paaskefjellet",
+    "no": "i påskefjellet",
+    "de": "zu Ostern in den Bergen",
+    "pos": "phrase",
+    "lesson": 13,
+    "note": "Zu Ostern fahren viele Norweger zum Skilaufen in die Berge (påskefjellet).",
+    "ex": {
+      "no": "Per gikk alltid i anorakk i påskefjellet.",
+      "de": "Per trug zu Ostern in den Bergen immer einen Anorak."
+    }
+  },
+  {
+    "id": "w13_uansett",
+    "no": "uansett",
+    "de": "egal, jedenfalls",
+    "pos": "adv",
+    "lesson": 13,
+    "note": "uansett hvem/hva = egal wer/was",
+    "ex": {
+      "no": "Jeg kjøper jakka uansett hva den koster.",
+      "de": "Ich kaufe die Jacke, egal, was sie kostet."
+    }
+  },
+  {
+    "id": "w13_der_borte",
+    "no": "der borte",
+    "de": "da drüben",
+    "pos": "phrase",
+    "lesson": 13,
+    "ex": {
+      "no": "Hva koster genseren der borte?",
+      "de": "Was kostet der Pullover da drüben?"
+    }
+  },
+  {
+    "id": "w13_ved_siden_av",
+    "no": "ved siden av",
+    "de": "neben, daneben",
+    "pos": "phrase",
+    "lesson": 13,
+    "ex": {
+      "no": "Skistøvlene står ved siden av skiene.",
+      "de": "Die Skischuhe stehen neben den Ski."
+    }
+  },
+  {
+    "id": "w13_nesten_som_ny",
+    "no": "nesten som ny",
+    "de": "fast wie neu",
+    "pos": "phrase",
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Jakka er nesten som ny.",
+      "de": "Die Jacke ist fast wie neu."
+    }
+  },
+  {
+    "id": "w13_kjore",
+    "no": "kjøre",
+    "de": "fahren",
+    "pos": "verb",
+    "vf": [
+      "kjører",
+      "kjørte",
+      "kjørt",
+      "kjør"
+    ],
+    "vg": "2",
+    "lesson": 13,
+    "note": "kjøre = (selbst) fahren; auch: mit dem Auto bringen.",
+    "ex": {
+      "no": "Pappa kjørte posene våre til skolen.",
+      "de": "Papa hat unsere Tüten zur Schule gefahren."
+    }
+  },
+  {
+    "id": "w13_tilbake",
+    "no": "tilbake",
+    "de": "zurück",
+    "pos": "adv",
+    "lesson": 13,
+    "ex": {
+      "no": "Det skjerfet vil jeg ha tilbake!",
+      "de": "Den Schal will ich zurückhaben!"
+    }
+  },
+  {
+    "id": "w13_absolutt",
+    "no": "absolutt",
+    "de": "absolut, unbedingt",
+    "deAlt": [
+      "absolut",
+      "unbedingt"
+    ],
+    "pos": "adv",
+    "lesson": 13,
+    "ex": {
+      "no": "Er jakka varm nok? – Absolutt!",
+      "de": "Ist die Jacke warm genug? – Absolut!"
+    }
+  },
+  {
+    "id": "w13_derfor",
+    "no": "derfor",
+    "de": "deshalb, darum",
+    "deAlt": [
+      "deshalb",
+      "darum"
+    ],
+    "pos": "adv",
+    "lesson": 13,
+    "note": "Adverb: Am Satzanfang folgt Inversion – Derfor selger foreldrene lodd.",
+    "ex": {
+      "no": "Korpset trenger penger. Derfor har de loppemarked.",
+      "de": "Die Kapelle braucht Geld. Deshalb veranstaltet sie einen Flohmarkt."
+    }
+  },
+  {
+    "id": "w13_skole",
+    "no": "skole",
+    "de": "die Schule",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "skole",
+      "skolen",
+      "skoler",
+      "skolene"
+    ],
+    "lesson": 13,
+    "ex": {
+      "no": "Ola tar bussen til skolen.",
+      "de": "Ola fährt mit dem Bus zur Schule."
+    }
+  },
+  {
+    "id": "w13_vaar_fruehling",
+    "no": "vår",
+    "de": "der Frühling",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "vår",
+      "våren",
+      "vårer",
+      "vårene"
+    ],
+    "lesson": 13,
+    "note": "om våren = im Frühling. Nicht verwechseln mit vår = unser.",
+    "ex": {
+      "no": "Om våren har borettslaget dugnad.",
+      "de": "Im Frühling hat die Wohnungsgenossenschaft einen Arbeitseinsatz."
+    }
+  },
+  {
+    "id": "w13_arbeid",
+    "no": "arbeid",
+    "de": "die Arbeit",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "arbeid",
+      "arbeidet",
+      "arbeid",
+      "arbeida/arbeidene"
+    ],
+    "lesson": 13,
+    "ex": {
+      "no": "Dugnad er frivillig arbeid.",
+      "de": "Dugnad ist freiwillige Arbeit."
+    }
+  },
+  {
+    "id": "w13_hjelp",
+    "no": "hjelp",
+    "de": "die Hilfe",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "hjelp",
+      "hjelpen"
+    ],
+    "lesson": 13,
+    "ex": {
+      "no": "Takk for hjelpen!",
+      "de": "Danke für die Hilfe!"
+    }
+  },
+  {
+    "id": "w13_forrige",
+    "no": "forrige",
+    "de": "vorige, letzte",
+    "deAlt": [
+      "vorige",
+      "letzte"
+    ],
+    "pos": "adj",
+    "forms": [
+      "forrige",
+      "forrige",
+      "forrige"
+    ],
+    "lesson": 13,
+    "note": "Unveränderlich: i forrige uke = letzte Woche, forrige år = letztes Jahr.",
+    "ex": {
+      "no": "Pappa kjørte posene hit i forrige uke.",
+      "de": "Papa hat die Tüten letzte Woche hergefahren."
+    }
+  },
+  {
+    "id": "w13_mai",
+    "no": "mai",
+    "de": "der Mai",
+    "pos": "name",
+    "lesson": 13,
+    "note": "Monatsnamen schreibt man klein: i mai, 17. mai (syttende mai).",
+    "ex": {
+      "no": "Den 17. mai går korpset i barnetoget.",
+      "de": "Am 17. Mai marschiert die Kapelle im Kinderumzug mit."
+    }
+  },
+  {
+    "id": "w13_orkester",
+    "no": "orkester",
+    "de": "das Orchester",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "orkester",
+      "orkesteret",
+      "orkestre/orkester",
+      "orkestrene"
+    ],
+    "lesson": 13,
+    "ex": {
+      "no": "Et skolekorps er et orkester for barn og unge.",
+      "de": "Ein skolekorps ist ein Orchester für Kinder und Jugendliche."
+    }
+  },
+  {
+    "id": "w13_instrument",
+    "no": "instrument",
+    "de": "das Instrument",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "instrument",
+      "instrumentet",
+      "instrumenter",
+      "instrumenta/instrumentene"
+    ],
+    "lesson": 13,
+    "ex": {
+      "no": "Spiller du et instrument?",
+      "de": "Spielst du ein Instrument?"
+    }
+  },
+  {
+    "id": "w13_kjop",
+    "no": "kjøp",
+    "de": "der Kauf",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "kjøp",
+      "kjøpet",
+      "kjøp",
+      "kjøpa/kjøpene"
+    ],
+    "lesson": 13,
+    "note": "med på kjøpet = gratis dazu",
+    "ex": {
+      "no": "Det var et godt kjøp.",
+      "de": "Das war ein guter Kauf."
+    }
+  },
+  {
+    "id": "w13_benk",
+    "no": "benk",
+    "de": "die Bank (zum Sitzen)",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "benk",
+      "benken",
+      "benker",
+      "benkene"
+    ],
+    "lesson": 13,
+    "ex": {
+      "no": "På dugnaden maler vi benkene i hagen.",
+      "de": "Beim Arbeitseinsatz streichen wir die Bänke im Garten."
+    }
+  },
+  {
+    "id": "w13_grille",
+    "no": "grille",
+    "de": "grillen",
+    "pos": "verb",
+    "vf": [
+      "griller",
+      "grillet",
+      "grillet",
+      "grill"
+    ],
+    "vg": "1",
+    "lesson": 13,
+    "ex": {
+      "no": "Etter dugnaden griller vi pølser.",
+      "de": "Nach dem Arbeitseinsatz grillen wir Würstchen."
+    }
+  }
 ]

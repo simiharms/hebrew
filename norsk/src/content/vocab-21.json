@@ -1,128 +1,1847 @@
 [
-  { "id": "w21_krangel", "no": "krangel", "de": "der Streit", "deAlt": ["der Zank"], "pos": "noun", "gender": "m", "forms": ["krangel", "krangelen", "krangler", "kranglene"], "lesson": 21, "ex": { "no": "Krangelen begynte med kartet.", "de": "Der Streit begann mit der Karte." } },
-  { "id": "w21_krangle", "no": "krangle", "de": "streiten", "deAlt": ["sich zanken"], "pos": "verb", "vf": ["krangler", "kranglet", "kranglet", ""], "vg": "1", "lesson": 21, "ex": { "no": "De kranglet om hvem som hadde rett.", "de": "Sie stritten darüber, wer recht hatte." }, "note": "krangle med noen om noe = mit jemandem über etwas streiten" },
-  { "id": "w21_kyst", "no": "kyst", "de": "die Küste", "pos": "noun", "gender": "m", "forms": ["kyst", "kysten", "kyster", "kystene"], "lesson": 21, "ex": { "no": "Langs kysten ligger mange små byer.", "de": "Entlang der Küste liegen viele kleine Städte." } },
-  { "id": "w21_foreslaa", "no": "foreslå", "de": "vorschlagen", "pos": "verb", "vf": ["foreslår", "foreslo", "foreslått", "foreslå"], "vg": "sterk", "lesson": 21, "ex": { "no": "Matthias foreslo en tur til Sørlandet.", "de": "Matthias schlug eine Reise nach Sørlandet vor." } },
-  { "id": "w21_langhelg", "no": "langhelg", "de": "das lange Wochenende", "pos": "noun", "gender": "m", "forms": ["langhelg", "langhelgen", "langhelger", "langhelgene"], "lesson": 21, "ex": { "no": "I mai er det flere langhelger i Norge.", "de": "Im Mai gibt es in Norwegen mehrere lange Wochenenden." } },
-  { "id": "w21_leiebil", "no": "leiebil", "de": "der Mietwagen", "deAlt": ["das Mietauto"], "pos": "noun", "gender": "m", "forms": ["leiebil", "leiebilen", "leiebiler", "leiebilene"], "lesson": 21, "wk": true, "ex": { "no": "Vi hentet leiebilen på flyplassen.", "de": "Wir holten den Mietwagen am Flughafen ab." } },
-  { "id": "w21_trehus", "no": "trehus", "de": "das Holzhaus", "pos": "noun", "gender": "n", "forms": ["trehus", "trehuset", "trehus", "trehusa/trehusene"], "lesson": 21, "ex": { "no": "De hvite trehusene ligger rundt havna.", "de": "Die weißen Holzhäuser liegen rund um den Hafen." } },
-  { "id": "w21_skjaergaard", "no": "skjærgård", "de": "die Schären", "deAlt": ["der Schärengarten"], "pos": "noun", "gender": "m", "forms": ["skjærgård", "skjærgården", "skjærgårder", "skjærgårdene"], "lesson": 21, "ex": { "no": "Om sommeren bader vi i skjærgården.", "de": "Im Sommer baden wir in den Schären." }, "note": "Im Norwegischen Singular: skjærgården = die Schären, die Inselwelt vor der Küste." },
-  { "id": "w21_elbil", "no": "elbil", "de": "das Elektroauto", "deAlt": ["das E-Auto"], "pos": "noun", "gender": "m", "forms": ["elbil", "elbilen", "elbiler", "elbilene"], "lesson": 21, "wk": true, "ex": { "no": "Leiebilen var en liten elbil.", "de": "Der Mietwagen war ein kleines Elektroauto." } },
-  { "id": "w21_egen", "no": "egen", "de": "eigen", "pos": "adj", "forms": ["egen", "eget", "egne"], "lesson": 21, "ex": { "no": "Matthias hadde med sitt eget kart.", "de": "Matthias hatte seine eigene Karte dabei." }, "note": "Nach dem Possessiv im Singular ohne -e: min egen bil, mitt eget rom; Plural: mine egne barn." },
-  { "id": "w21_kart", "no": "kart", "de": "die Landkarte", "deAlt": ["die Karte", "der Stadtplan"], "pos": "noun", "gender": "n", "forms": ["kart", "kartet", "kart", "karta/kartene"], "lesson": 21, "wk": true, "ex": { "no": "Ifølge kartet skal vi ta til venstre.", "de": "Laut Karte müssen wir links abbiegen." }, "note": "kart = Landkarte; et kort = Karte (Postkarte, Spielkarte, Bankkarte)." },
-  { "id": "w21_gps", "no": "GPS", "de": "das Navi", "deAlt": ["das Navigationsgerät", "das GPS"], "pos": "noun", "gender": "m", "forms": ["GPS", "GPS-en", "GPS-er", "GPS-ene"], "lesson": 21, "wk": true, "ex": { "no": "GPS-en mistet dekningen i tunnelen.", "de": "Das Navi verlor im Tunnel den Empfang." } },
-  { "id": "w21_gaa_tom_for", "no": "gå tom for", "de": "ausgehen (Vorrat)", "deAlt": ["nichts mehr haben von"], "pos": "phrase", "lesson": 21, "ex": { "no": "Bilen gikk tom for strøm.", "de": "Dem Auto ging der Strom aus." } },
-  { "id": "w21_himle_med_oynene", "no": "himle med øynene", "de": "die Augen verdrehen", "pos": "phrase", "lesson": 21, "ex": { "no": "Susanne himlet med øynene.", "de": "Susanne verdrehte die Augen." } },
-  { "id": "w21_ostover", "no": "østover", "de": "ostwärts", "deAlt": ["nach Osten"], "pos": "adv", "lesson": 21, "ex": { "no": "Vi kjørte østover langs kysten.", "de": "Wir fuhren ostwärts die Küste entlang." } },
-  { "id": "w21_vestover", "no": "vestover", "de": "westwärts", "deAlt": ["nach Westen"], "pos": "adv", "lesson": 21, "ex": { "no": "Om ettermiddagen kjørte de vestover igjen.", "de": "Am Nachmittag fuhren sie wieder westwärts." } },
-  { "id": "w21_overraskende", "no": "overraskende", "de": "überraschend", "pos": "adj", "forms": ["overraskende", "overraskende", "overraskende"], "lesson": 21, "ex": { "no": "Byen var overraskende stille.", "de": "Die Stadt war überraschend still." } },
-  { "id": "w21_skinnende", "no": "skinnende", "de": "glänzend", "deAlt": ["leuchtend", "strahlend"], "pos": "adj", "forms": ["skinnende", "skinnende", "skinnende"], "lesson": 21, "ex": { "no": "Husene lå skinnende hvite i sola.", "de": "Die Häuser leuchteten weiß in der Sonne." } },
-  { "id": "w21_havn", "no": "havn", "de": "der Hafen", "pos": "noun", "gender": "f", "forms": ["havn", "havna", "havner", "havnene"], "lesson": 21, "ex": { "no": "Båtene ligger i havna.", "de": "Die Boote liegen im Hafen." } },
-  { "id": "w21_smal", "no": "smal", "de": "schmal", "deAlt": ["eng"], "pos": "adj", "forms": ["smal", "smalt", "smale"], "lesson": 21, "ex": { "no": "Veien ned til kaia var veldig smal.", "de": "Die Straße hinunter zum Kai war sehr schmal." } },
-  { "id": "w21_reke", "no": "reke", "de": "die Krabbe", "deAlt": ["die Garnele", "die Crevette"], "pos": "noun", "gender": "f", "forms": ["reke", "reka", "reker", "rekene"], "lesson": 21, "ex": { "no": "Vi spiste ferske reker på brygga.", "de": "Wir aßen frische Krabben auf dem Kai." } },
-  { "id": "w21_sjarm", "no": "sjarm", "de": "der Charme", "pos": "noun", "gender": "m", "forms": ["sjarm", "sjarmen"], "lesson": 21, "ex": { "no": "Hver by har sin egen sjarm.", "de": "Jede Stadt hat ihren eigenen Charme." } },
-  { "id": "w21_sorlig", "no": "sørlig", "de": "südlich", "pos": "adj", "forms": ["sørlig", "sørlig", "sørlige", "sørligere", "sørligst"], "lesson": 21, "ex": { "no": "Mandal er Norges sørligste by.", "de": "Mandal ist die südlichste Stadt Norwegens." } },
-  { "id": "w21_noyaktig", "no": "nøyaktig", "de": "genau", "deAlt": ["exakt", "präzise"], "pos": "adj", "forms": ["nøyaktig", "nøyaktig", "nøyaktige"], "lesson": 21, "ex": { "no": "Matthias kjørte nøyaktig sytti.", "de": "Matthias fuhr genau siebzig." } },
-  { "id": "w21_fartsgrense", "no": "fartsgrense", "de": "das Tempolimit", "deAlt": ["die Geschwindigkeitsbegrenzung"], "pos": "noun", "gender": "m", "forms": ["fartsgrense", "fartsgrensen/fartsgrensa", "fartsgrenser", "fartsgrensene"], "lesson": 21, "wk": true, "ex": { "no": "Fartsgrensen her er åtti kilometer i timen.", "de": "Das Tempolimit liegt hier bei achtzig Stundenkilometern." } },
-  { "id": "w21_fart", "no": "fart", "de": "die Geschwindigkeit", "deAlt": ["das Tempo"], "pos": "noun", "gender": "m", "forms": ["fart", "farten"], "lesson": 21, "wk": true, "ex": { "no": "Du må senke farten i svingen.", "de": "In der Kurve musst du langsamer fahren." } },
-  { "id": "w21_bremse", "no": "bremse", "de": "bremsen", "pos": "verb", "vf": ["bremser", "bremset", "bremset", "brems"], "vg": "1", "lesson": 21, "wk": true, "ex": { "no": "Han bremset før hver eneste sving.", "de": "Er bremste vor jeder einzelnen Kurve." } },
-  { "id": "w21_sving", "no": "sving", "de": "die Kurve", "pos": "noun", "gender": "m", "forms": ["sving", "svingen", "svinger", "svingene"], "lesson": 21, "wk": true, "ex": { "no": "Ikke kjør forbi i svingen!", "de": "Überhol nicht in der Kurve!" } },
-  { "id": "w21_ko", "no": "kø", "de": "der Stau", "deAlt": ["die Schlange", "die Warteschlange"], "pos": "noun", "gender": "m", "forms": ["kø", "køen", "køer", "køene"], "lesson": 21, "wk": true, "ex": { "no": "Det var lang kø på vei inn til byen.", "de": "Auf dem Weg in die Stadt war ein langer Stau." } },
-  { "id": "w21_irritert", "no": "irritert", "de": "gereizt", "deAlt": ["genervt", "verärgert"], "pos": "adj", "forms": ["irritert", "irritert", "irriterte"], "lesson": 21, "ex": { "no": "Bilistene bak oss ble irriterte.", "de": "Die Autofahrer hinter uns wurden gereizt." } },
-  { "id": "w21_bilist", "no": "bilist", "de": "der Autofahrer", "deAlt": ["die Autofahrerin"], "pos": "noun", "gender": "m", "forms": ["bilist", "bilisten", "bilister", "bilistene"], "lesson": 21, "wk": true, "ex": { "no": "Mange bilister kjører for fort her.", "de": "Viele Autofahrer fahren hier zu schnell." } },
-  { "id": "w21_ferje", "no": "ferje", "de": "die Fähre", "pos": "noun", "gender": "f", "forms": ["ferje", "ferja", "ferjer", "ferjene"], "alt": ["ferge"], "lesson": 21, "wk": true, "ex": { "no": "Vi rakk ikke den siste ferja.", "de": "Wir haben die letzte Fähre verpasst." }, "note": "Auch ferge – ferga geschrieben." },
-  { "id": "w21_kai", "no": "kai", "de": "der Kai", "deAlt": ["die Anlegestelle"], "pos": "noun", "gender": "m", "forms": ["kai", "kaien/kaia", "kaier", "kaiene"], "lesson": 21, "ex": { "no": "Ferja ligger ved kaia.", "de": "Die Fähre liegt am Kai." } },
-  { "id": "w21_legge_fra_kai", "no": "legge fra kai", "de": "ablegen", "pos": "phrase", "lesson": 21, "ex": { "no": "Ferja la fra kai akkurat da vi kom.", "de": "Die Fähre legte genau ab, als wir ankamen." } },
-  { "id": "w21_idet", "no": "idet", "de": "in dem Moment, als", "deAlt": ["als", "gerade als"], "pos": "conj", "lesson": 21, "ex": { "no": "Vi kom fram idet ferja la fra kai.", "de": "Wir kamen genau in dem Moment an, als die Fähre ablegte." } },
-  { "id": "w21_rygge", "no": "rygge", "de": "zurücksetzen", "deAlt": ["rückwärtsfahren"], "pos": "verb", "vf": ["rygger", "rygget", "rygget", "rygg"], "vg": "1", "lesson": 21, "wk": true, "ex": { "no": "Han måtte rygge inn på møteplassen.", "de": "Er musste in die Ausweichstelle zurücksetzen." } },
-  { "id": "w21_moteplass", "no": "møteplass", "de": "die Ausweichstelle", "pos": "noun", "gender": "m", "forms": ["møteplass", "møteplassen", "møteplasser", "møteplassene"], "lesson": 21, "wk": true, "ex": { "no": "Kjør inn på møteplassen og vent!", "de": "Fahr in die Ausweichstelle und warte!" } },
-  { "id": "w21_motende", "no": "møtende", "de": "entgegenkommend", "pos": "adj", "forms": ["møtende", "møtende", "møtende"], "lesson": 21, "wk": true, "ex": { "no": "Pass på møtende trafikk!", "de": "Achte auf den Gegenverkehr!" } },
-  { "id": "w21_trafikk", "no": "trafikk", "de": "der Verkehr", "pos": "noun", "gender": "m", "forms": ["trafikk", "trafikken"], "lesson": 21, "wk": true, "ex": { "no": "Det er lite trafikk på søndager.", "de": "Sonntags ist wenig Verkehr." } },
-  { "id": "w21_fotoboks", "no": "fotoboks", "de": "der Blitzer", "deAlt": ["die Radarfalle", "der Blitzkasten"], "pos": "noun", "gender": "m", "forms": ["fotoboks", "fotoboksen", "fotobokser", "fotoboksene"], "lesson": 21, "wk": true, "ex": { "no": "Susanne ble tatt i fotoboks.", "de": "Susanne wurde geblitzt." } },
-  { "id": "w21_blinke", "no": "blinke", "de": "blinken", "deAlt": ["blitzen", "aufleuchten"], "pos": "verb", "vf": ["blinker", "blinket", "blinket", "blink"], "vg": "1", "lesson": 21, "ex": { "no": "Plutselig blinket det i fotoboksen.", "de": "Plötzlich blitzte der Blitzer." } },
-  { "id": "w21_bot", "no": "bot", "de": "das Bußgeld", "deAlt": ["die Geldstrafe", "der Strafzettel"], "pos": "noun", "gender": "m", "forms": ["bot", "boten/bota", "bøter", "bøtene"], "lesson": 21, "wk": true, "ex": { "no": "Boten fra fotoboksen kom med posten.", "de": "Der Bußgeldbescheid vom Blitzer kam mit der Post." } },
-  { "id": "w21_smil", "no": "smil", "de": "das Lächeln", "pos": "noun", "gender": "n", "forms": ["smil", "smilet", "smil", "smila/smilene"], "lesson": 21, "ex": { "no": "Smilet hans sa mer enn tusen ord.", "de": "Sein Lächeln sagte mehr als tausend Worte." } },
-  { "id": "w21_surre", "no": "surre", "de": "summen", "deAlt": ["vibrieren", "surren"], "pos": "verb", "vf": ["surrer", "surret", "surret", ""], "vg": "1", "lesson": 21, "ex": { "no": "Telefonen surret i lomma.", "de": "Das Handy vibrierte in der Tasche." } },
-  { "id": "w21_kaste_et_blikk", "no": "kaste et blikk på", "de": "einen Blick werfen auf", "pos": "phrase", "lesson": 21, "ex": { "no": "Han kastet et blikk på skjermen.", "de": "Er warf einen Blick auf den Bildschirm." } },
-  { "id": "w21_skjerm", "no": "skjerm", "de": "der Bildschirm", "deAlt": ["das Display"], "pos": "noun", "gender": "m", "forms": ["skjerm", "skjermen", "skjermer", "skjermene"], "lesson": 21, "ex": { "no": "Navnet til Erik sto på skjermen.", "de": "Eriks Name stand auf dem Bildschirm." } },
-  { "id": "w21_sak", "no": "sak", "de": "die Sache", "deAlt": ["die Angelegenheit", "der Fall"], "pos": "noun", "gender": "m", "forms": ["sak", "saken/saka", "saker", "sakene"], "lesson": 21, "ex": { "no": "Det er din egen sak.", "de": "Das ist deine Sache." } },
-  { "id": "w21_skarp", "no": "skarp", "de": "scharf", "pos": "adj", "forms": ["skarp", "skarpt", "skarpe"], "lesson": 21, "ex": { "no": "«Det er ikke din sak!» svarte hun skarpt.", "de": "„Das geht dich nichts an!“, antwortete sie scharf." } },
-  { "id": "w21_hverandre", "no": "hverandre", "de": "einander", "deAlt": ["sich gegenseitig"], "pos": "pron", "lesson": 21, "ex": { "no": "De snakket ikke med hverandre.", "de": "Sie sprachen nicht miteinander." }, "note": "Unveränderlich; Genitiv: hverandres (De låner hverandres klær)." },
-  { "id": "w21_stirre", "no": "stirre", "de": "starren", "pos": "verb", "vf": ["stirrer", "stirret", "stirret", "stirr"], "vg": "1", "lesson": 21, "ex": { "no": "Han stirret ut av vinduet.", "de": "Er starrte aus dem Fenster." } },
-  { "id": "w21_steinete", "no": "steinete", "de": "steinig", "pos": "adj", "forms": ["steinete", "steinete", "steinete"], "lesson": 21, "ex": { "no": "Stien opp til Preikestolen er steinete.", "de": "Der Pfad hinauf zum Preikestolen ist steinig." } },
-  { "id": "w21_pese", "no": "pese", "de": "keuchen", "deAlt": ["schnaufen"], "pos": "verb", "vf": ["peser", "peste", "pest", "pes"], "vg": "2", "lesson": 21, "ex": { "no": "Vi peste oss opp den bratte bakken.", "de": "Wir keuchten den steilen Hang hinauf." } },
-  { "id": "w21_pensjonist", "no": "pensjonist", "de": "der Rentner", "deAlt": ["die Rentnerin", "der Pensionär"], "pos": "noun", "gender": "m", "forms": ["pensjonist", "pensjonisten", "pensjonister", "pensjonistene"], "lesson": 21, "ex": { "no": "Mange pensjonister går på tur hver dag.", "de": "Viele Rentner wandern jeden Tag." } },
-  { "id": "w21_skoleklasse", "no": "skoleklasse", "de": "die Schulklasse", "pos": "noun", "gender": "m", "forms": ["skoleklasse", "skoleklassen", "skoleklasser", "skoleklassene"], "lesson": 21, "ex": { "no": "En skoleklasse sang hele veien opp.", "de": "Eine Schulklasse sang den ganzen Weg hinauf." } },
-  { "id": "w21_sovende", "no": "sovende", "de": "schlafend", "pos": "adj", "forms": ["sovende", "sovende", "sovende"], "lesson": 21, "ex": { "no": "Faren bar en sovende baby på ryggen.", "de": "Der Vater trug ein schlafendes Baby auf dem Rücken." } },
-  { "id": "w21_fjellplataa", "no": "fjellplatå", "de": "das Felsplateau", "deAlt": ["das Bergplateau"], "pos": "noun", "gender": "n", "forms": ["fjellplatå", "fjellplatået", "fjellplatåer", "fjellplatåene"], "lesson": 21, "ex": { "no": "Fjellplatået er nesten helt flatt.", "de": "Das Felsplateau ist fast ganz flach." } },
-  { "id": "w21_bli_staaende", "no": "bli stående", "de": "stehen bleiben", "pos": "phrase", "lesson": 21, "ex": { "no": "Susanne ble stående helt stille.", "de": "Susanne blieb ganz still stehen." } },
-  { "id": "w21_bli_sittende", "no": "bli sittende", "de": "sitzen bleiben", "pos": "phrase", "lesson": 21, "ex": { "no": "Hun ble sittende i bilen.", "de": "Sie blieb im Auto sitzen." } },
-  { "id": "w21_kant", "no": "kant", "de": "der Rand", "deAlt": ["die Kante"], "pos": "noun", "gender": "m", "forms": ["kant", "kanten", "kanter", "kantene"], "lesson": 21, "ex": { "no": "Ikke gå for nær kanten!", "de": "Geh nicht zu nah an den Rand!" } },
-  { "id": "w21_stykke", "no": "stykke", "de": "das Stück", "pos": "noun", "gender": "n", "forms": ["stykke", "stykket", "stykker", "stykkene"], "lesson": 21, "note": "et godt stykke = ein gutes Stück (Weg)", "ex": { "no": "Hun satte seg et godt stykke fra kanten.", "de": "Sie setzte sich ein gutes Stück vom Rand entfernt hin." } },
-  { "id": "w21_miste", "no": "miste", "de": "verlieren", "pos": "verb", "vf": ["mister", "mistet", "mistet", "mist"], "vg": "1", "lesson": 21, "ex": { "no": "GPS-en mistet dekningen tre ganger.", "de": "Das Navi verlor dreimal den Empfang." } },
-  { "id": "w21_lykke_til_videre", "no": "lykke til videre", "de": "alles Gute weiterhin", "deAlt": ["viel Glück weiterhin"], "pos": "phrase", "lesson": 21, "ex": { "no": "Takk for alt, og lykke til videre!", "de": "Danke für alles und alles Gute weiterhin!" } },
-  { "id": "w21_visst", "no": "visst", "de": "wohl", "deAlt": ["anscheinend", "offenbar"], "pos": "adv", "lesson": 21, "ex": { "no": "Vi er visst ikke så flinke til å krangle.", "de": "Wir können wohl nicht besonders gut streiten." } },
-  { "id": "w21_utover", "no": "utover", "de": "hinaus über", "deAlt": ["über … hinaus"], "pos": "prep", "lesson": 21, "ex": { "no": "De så utover fjorden.", "de": "Sie schauten über den Fjord." } },
-  { "id": "w21_motes", "no": "møtes", "de": "sich treffen", "pos": "verb", "vf": ["møtes", "møttes", "møttes", ""], "vg": "2", "lesson": 21, "ex": { "no": "Vi møtes på flyplassen klokka ti.", "de": "Wir treffen uns um zehn am Flughafen." }, "note": "Gegenseitige Bedeutung: einander treffen." },
-  { "id": "w21_sees", "no": "sees", "de": "sich sehen", "pos": "verb", "vf": ["sees/ses", "sås", "setts", ""], "vg": "sterk", "alt": ["ses"], "lesson": 21, "ex": { "no": "Vi sees i Oslo!", "de": "Wir sehen uns in Oslo!" }, "note": "Meist im Präsens: Vi sees! = Bis bald! Für andere Zeiten: se hverandre." },
-  { "id": "w21_treffes", "no": "treffes", "de": "sich treffen", "pos": "verb", "vf": ["treffes", "traffes", "truffes", ""], "vg": "sterk", "lesson": 21, "ex": { "no": "Når kan vi treffes igjen?", "de": "Wann können wir uns wieder treffen?" } },
-  { "id": "w21_skilles", "no": "skilles", "de": "sich trennen", "deAlt": ["auseinandergehen"], "pos": "verb", "vf": ["skilles", "skiltes", "skiltes", ""], "vg": "2", "lesson": 21, "ex": { "no": "De skiltes på flyplassen dagen etter.", "de": "Sie trennten sich am nächsten Tag am Flughafen." }, "note": "Für „sich scheiden lassen“ sagt man meist skille seg: De skilte seg i fjor." },
-  { "id": "w21_vi_hores", "no": "vi høres", "de": "wir hören voneinander", "deAlt": ["bis bald"], "pos": "phrase", "lesson": 21, "ex": { "no": "Ha det bra, vi høres!", "de": "Mach's gut, wir hören voneinander!" } },
-  { "id": "w21_forerkort", "no": "førerkort", "de": "der Führerschein", "pos": "noun", "gender": "n", "forms": ["førerkort", "førerkortet", "førerkort", "førerkorta/førerkortene"], "lesson": 21, "wk": true, "ex": { "no": "Har du førerkort?", "de": "Hast du einen Führerschein?" } },
-  { "id": "w21_setebelte", "no": "setebelte", "de": "der Sicherheitsgurt", "deAlt": ["der Gurt"], "pos": "noun", "gender": "n", "forms": ["setebelte", "setebeltet", "setebelter", "setebeltene"], "lesson": 21, "wk": true, "ex": { "no": "Husk å ta på setebeltet!", "de": "Denk daran, dich anzuschnallen!" } },
-  { "id": "w21_lade_bilen", "no": "lade bilen", "de": "das Auto laden", "pos": "phrase", "lesson": 21, "wk": true, "ex": { "no": "Vi må lade bilen før vi kjører videre.", "de": "Wir müssen das Auto laden, bevor wir weiterfahren." } },
-  { "id": "w21_ladestasjon", "no": "ladestasjon", "de": "die Ladestation", "pos": "noun", "gender": "m", "forms": ["ladestasjon", "ladestasjonen", "ladestasjoner", "ladestasjonene"], "lesson": 21, "wk": true, "ex": { "no": "Det finnes ladestasjoner langs hele kysten.", "de": "Entlang der ganzen Küste gibt es Ladestationen." } },
-  { "id": "w21_fylle_bensin", "no": "fylle bensin", "de": "tanken", "pos": "phrase", "lesson": 21, "wk": true, "ex": { "no": "Vi må fylle bensin på neste stasjon.", "de": "Wir müssen an der nächsten Tankstelle tanken." } },
-  { "id": "w21_rundkjoring", "no": "rundkjøring", "de": "der Kreisverkehr", "pos": "noun", "gender": "m", "forms": ["rundkjøring", "rundkjøringen/rundkjøringa", "rundkjøringer", "rundkjøringene"], "lesson": 21, "wk": true, "ex": { "no": "Ta andre avkjørsel i rundkjøringen.", "de": "Nimm im Kreisverkehr die zweite Ausfahrt." } },
-  { "id": "w21_avkjorsel", "no": "avkjørsel", "de": "die Ausfahrt", "deAlt": ["die Abfahrt"], "pos": "noun", "gender": "m", "forms": ["avkjørsel", "avkjørselen", "avkjørsler", "avkjørslene"], "lesson": 21, "wk": true, "ex": { "no": "Vi kjørte forbi avkjørselen.", "de": "Wir sind an der Ausfahrt vorbeigefahren." } },
-  { "id": "w21_vikeplikt", "no": "vikeplikt", "de": "die Wartepflicht", "deAlt": ["die Vorfahrtsregel"], "pos": "noun", "gender": "m", "forms": ["vikeplikt", "vikeplikten/vikeplikta"], "lesson": 21, "wk": true, "ex": { "no": "Her har du vikeplikt for trafikken fra høyre.", "de": "Hier musst du dem Verkehr von rechts die Vorfahrt lassen." }, "note": "ha vikeplikt = warten müssen, Vorfahrt gewähren" },
-  { "id": "w21_kjore_forbi", "no": "kjøre forbi", "de": "überholen", "deAlt": ["vorbeifahren"], "pos": "verb", "vf": ["kjører forbi", "kjørte forbi", "kjørt forbi", "kjør forbi"], "vg": "2", "lesson": 21, "wk": true, "ex": { "no": "Ikke kjør forbi i svingen!", "de": "Überhol nicht in der Kurve!" } },
-  { "id": "w21_rekke", "no": "rekke", "de": "(rechtzeitig) erreichen", "deAlt": ["schaffen", "reichen"], "pos": "verb", "vf": ["rekker", "rakk", "rukket", "rekk"], "vg": "sterk", "lesson": 21, "wk": true, "ex": { "no": "Vi rakk ikke ferja.", "de": "Wir haben die Fähre nicht mehr erreicht." }, "note": "Auch: reichen, geben (Kan du rekke meg saltet?)." },
-  { "id": "w21_punktering", "no": "punktering", "de": "die Reifenpanne", "deAlt": ["der Platten"], "pos": "noun", "gender": "m", "forms": ["punktering", "punkteringen/punkteringa", "punkteringer", "punkteringene"], "lesson": 21, "wk": true, "ex": { "no": "Vi fikk punktering midt på fjellet.", "de": "Mitten im Gebirge hatten wir eine Reifenpanne." } },
-  { "id": "w21_parkere", "no": "parkere", "de": "parken", "pos": "verb", "vf": ["parkerer", "parkerte", "parkert", "parker"], "vg": "2", "lesson": 21, "wk": true, "ex": { "no": "Her er det forbudt å parkere.", "de": "Hier ist Parken verboten." } },
-  { "id": "w21_parkeringsbot", "no": "parkeringsbot", "de": "der Strafzettel (fürs Falschparken)", "deAlt": ["der Strafzettel"], "pos": "noun", "gender": "m", "forms": ["parkeringsbot", "parkeringsboten/parkeringsbota", "parkeringsbøter", "parkeringsbøtene"], "lesson": 21, "wk": true, "ex": { "no": "Jeg fikk parkeringsbot foran hotellet.", "de": "Vor dem Hotel habe ich einen Strafzettel bekommen." } },
-  { "id": "w21_bomstasjon", "no": "bomstasjon", "de": "die Mautstelle", "deAlt": ["die Mautstation"], "pos": "noun", "gender": "m", "forms": ["bomstasjon", "bomstasjonen", "bomstasjoner", "bomstasjonene"], "lesson": 21, "wk": true, "ex": { "no": "Vi kjørte gjennom tre bomstasjoner.", "de": "Wir sind durch drei Mautstellen gefahren." } },
-  { "id": "w21_forsiktig", "no": "forsiktig", "de": "vorsichtig", "pos": "adj", "forms": ["forsiktig", "forsiktig", "forsiktige"], "lesson": 21, "wk": true, "ex": { "no": "Kjør forsiktig, veien er smal!", "de": "Fahr vorsichtig, die Straße ist schmal!" } },
-  { "id": "w21_paa_egen_haand", "no": "på egen hånd", "de": "auf eigene Faust", "pos": "phrase", "lesson": 21, "ex": { "no": "Vi reiste rundt på egen hånd.", "de": "Wir sind auf eigene Faust herumgereist." } },
-  { "id": "w21_for_egen_regning", "no": "for egen regning", "de": "auf eigene Kosten", "deAlt": ["auf eigene Rechnung"], "pos": "phrase", "lesson": 21, "ex": { "no": "Boten må du betale for egen regning.", "de": "Das Bußgeld musst du selbst bezahlen." } },
-  { "id": "w21_flytende", "no": "flytende", "de": "fließend", "deAlt": ["flüssig"], "pos": "adj", "forms": ["flytende", "flytende", "flytende"], "lesson": 21, "ex": { "no": "Inga snakker flytende samisk.", "de": "Inga spricht fließend Samisch." } },
-  { "id": "w21_kommende", "no": "kommende", "de": "kommend", "deAlt": ["nächste"], "pos": "adj", "forms": ["kommende", "kommende", "kommende"], "lesson": 21, "ex": { "no": "Vi skal på tur kommende helg.", "de": "Nächstes Wochenende machen wir einen Ausflug." } },
-  { "id": "w21_reisende", "no": "reisende", "de": "der/die Reisende", "deAlt": ["der Reisende", "die Reisende"], "pos": "noun", "gender": "m", "forms": ["reisende", "reisende", "reisende", "reisende"], "lesson": 21, "ex": { "no": "De reisende gikk om bord på ferja.", "de": "Die Reisenden gingen an Bord der Fähre." }, "note": "Unveränderlich: en reisende, den reisende, mange reisende, de reisende." },
-  { "id": "w21_forbipasserende", "no": "forbipasserende", "de": "der Passant", "deAlt": ["die Passantin"], "pos": "noun", "gender": "m", "forms": ["forbipasserende", "forbipasserende", "forbipasserende", "forbipasserende"], "lesson": 21, "ex": { "no": "En forbipasserende viste oss veien.", "de": "Ein Passant zeigte uns den Weg." } },
-  { "id": "w21_om_bord", "no": "om bord", "de": "an Bord", "pos": "phrase", "lesson": 21, "ex": { "no": "Vi gikk om bord på ferja i siste liten.", "de": "Wir gingen in letzter Minute an Bord der Fähre." } },
-  { "id": "w21_landsdel", "no": "landsdel", "de": "der Landesteil", "pos": "noun", "gender": "m", "forms": ["landsdel", "landsdelen", "landsdeler", "landsdelene"], "lesson": 21, "ex": { "no": "Sørlandet er en populær landsdel om sommeren.", "de": "Sørlandet ist im Sommer ein beliebter Landesteil." } },
-  { "id": "w21_soltime", "no": "soltime", "de": "die Sonnenstunde", "pos": "noun", "gender": "m", "forms": ["soltime", "soltimen", "soltimer", "soltimene"], "lesson": 21, "ex": { "no": "Sørlandet har mange soltimer om sommeren.", "de": "Sørlandet hat im Sommer viele Sonnenstunden." } },
-  { "id": "w21_holme", "no": "holme", "de": "die kleine Insel", "deAlt": ["das Inselchen"], "pos": "noun", "gender": "m", "forms": ["holme", "holmen", "holmer", "holmene"], "lesson": 21, "ex": { "no": "Vi badet fra en liten holme.", "de": "Wir badeten von einer kleinen Insel aus." } },
-  { "id": "w21_skjaer", "no": "skjær", "de": "die Schäre", "deAlt": ["die Klippe", "der Felsen im Meer"], "pos": "noun", "gender": "n", "forms": ["skjær", "skjæret", "skjær", "skjæra/skjærene"], "lesson": 21, "ex": { "no": "Båten kjørte forsiktig mellom skjærene.", "de": "Das Boot fuhr vorsichtig zwischen den Klippen hindurch." } },
-  { "id": "w21_skipsfart", "no": "skipsfart", "de": "die Schifffahrt", "pos": "noun", "gender": "m", "forms": ["skipsfart", "skipsfarten"], "lesson": 21, "ex": { "no": "Byen ble rik på skipsfart.", "de": "Die Stadt wurde durch die Schifffahrt reich." } },
-  { "id": "w21_trelast", "no": "trelast", "de": "das Bauholz", "deAlt": ["das Schnittholz"], "pos": "noun", "gender": "m", "forms": ["trelast", "trelasten"], "lesson": 21, "ex": { "no": "Før eksporterte Norge mye trelast.", "de": "Früher exportierte Norwegen viel Bauholz." } },
-  { "id": "w21_maling", "no": "maling", "de": "die Farbe (zum Streichen)", "deAlt": ["die Farbe", "die Wandfarbe"], "pos": "noun", "gender": "m", "forms": ["maling", "malingen/malinga"], "lesson": 21, "ex": { "no": "Hvit maling var dyr i gamle dager.", "de": "Weiße Farbe war früher teuer." }, "note": "farge = Farbe als Farbton; maling = Farbe, mit der man streicht." },
-  { "id": "w21_eier", "no": "eier", "de": "der Besitzer", "deAlt": ["die Besitzerin", "der Eigentümer"], "pos": "noun", "gender": "m", "forms": ["eier", "eieren", "eiere", "eierne"], "lesson": 21, "ex": { "no": "Eieren av huset bor i Oslo.", "de": "Der Besitzer des Hauses wohnt in Oslo." } },
-  { "id": "w21_rutenett", "no": "rutenett", "de": "das Gitternetz", "deAlt": ["das Raster"], "pos": "noun", "gender": "n", "forms": ["rutenett", "rutenettet", "rutenett", "rutenetta/rutenettene"], "lesson": 21, "ex": { "no": "Gatene i Kvadraturen danner et rutenett.", "de": "Die Straßen in Kvadraturen bilden ein Gitternetz." } },
-  { "id": "w21_laerling", "no": "lærling", "de": "der Lehrling", "deAlt": ["der Auszubildende"], "pos": "noun", "gender": "m", "forms": ["lærling", "lærlingen", "lærlinger", "lærlingene"], "lesson": 21, "ex": { "no": "Ibsen var lærling på et apotek i Grimstad.", "de": "Ibsen war Lehrling in einer Apotheke in Grimstad." } },
-  { "id": "w21_apotek", "no": "apotek", "de": "die Apotheke", "pos": "noun", "gender": "n", "forms": ["apotek", "apoteket", "apotek", "apoteka/apotekene"], "lesson": 21, "ex": { "no": "Apoteket er stengt på søndager.", "de": "Die Apotheke ist sonntags geschlossen." } },
-  { "id": "w21_strand", "no": "strand", "de": "der Strand", "pos": "noun", "gender": "f", "forms": ["strand", "stranda", "strender", "strendene"], "lesson": 21, "ex": { "no": "Stranda i Mandal er lang og hvit.", "de": "Der Strand in Mandal ist lang und weiß." } },
-  { "id": "w21_fyr", "no": "fyr", "de": "der Leuchtturm", "pos": "noun", "gender": "n", "forms": ["fyr", "fyret", "fyr", "fyra/fyrene"], "lesson": 21, "ex": { "no": "Fyret står på det sørligste punktet.", "de": "Der Leuchtturm steht am südlichsten Punkt." }, "note": "Vorsicht: en fyr (maskulin) = ein Typ, ein Kerl." },
-  { "id": "w21_fastland", "no": "fastland", "de": "das Festland", "pos": "noun", "gender": "n", "forms": ["fastland", "fastlandet"], "lesson": 21, "ex": { "no": "Øya ligger bare ti minutter fra fastlandet.", "de": "Die Insel liegt nur zehn Minuten vom Festland entfernt." } },
-  { "id": "w21_olje", "no": "olje", "de": "das Öl", "deAlt": ["das Erdöl"], "pos": "noun", "gender": "m", "forms": ["olje", "oljen", "oljer", "oljene"], "lesson": 21, "ex": { "no": "Norge fant olje i Nordsjøen i 1969.", "de": "Norwegen fand 1969 Öl in der Nordsee." } },
-  { "id": "w21_jordbruksomraade", "no": "jordbruksområde", "de": "das Agrargebiet", "deAlt": ["das landwirtschaftliche Gebiet"], "pos": "noun", "gender": "n", "forms": ["jordbruksområde", "jordbruksområdet", "jordbruksområder", "jordbruksområdene"], "lesson": 21, "ex": { "no": "Jæren er et viktig jordbruksområde.", "de": "Jæren ist ein wichtiges Agrargebiet." } },
-  { "id": "w21_fjellvegg", "no": "fjellvegg", "de": "die Felswand", "pos": "noun", "gender": "m", "forms": ["fjellvegg", "fjellveggen", "fjellvegger", "fjellveggene"], "lesson": 21, "ex": { "no": "Fjellveggene stuper rett ned i fjorden.", "de": "Die Felswände fallen senkrecht in den Fjord ab." } },
-  { "id": "w21_toere", "no": "tørre", "de": "wagen", "deAlt": ["sich trauen"], "pos": "verb", "vf": ["tør", "torde", "tort", ""], "vg": "uregelm", "lesson": 21, "ex": { "no": "Jeg tør ikke gå helt ut på kanten.", "de": "Ich traue mich nicht, ganz bis an den Rand zu gehen." }, "note": "Wie ein Modalverb: tør + Infinitiv ohne å." },
-  { "id": "w21_sverd", "no": "sverd", "de": "das Schwert", "pos": "noun", "gender": "n", "forms": ["sverd", "sverdet", "sverd", "sverda/sverdene"], "lesson": 21, "ex": { "no": "Tre store sverd står i fjellet ved Hafrsfjord.", "de": "Drei große Schwerter stecken am Hafrsfjord im Fels." } },
-  { "id": "w21_rike", "no": "rike", "de": "das Reich", "deAlt": ["das Königreich"], "pos": "noun", "gender": "n", "forms": ["rike", "riket", "riker", "rikene"], "lesson": 21, "ex": { "no": "Harald Hårfagre samlet Norge til ett rike.", "de": "Harald Schönhaar vereinte Norwegen zu einem Reich." } },
-  { "id": "w21_minne_om", "no": "minne om", "de": "erinnern an", "pos": "verb", "vf": ["minner om", "minnet om", "minnet om", "minn om"], "vg": "1", "lesson": 21, "ex": { "no": "Monumentet minner om et berømt slag.", "de": "Das Denkmal erinnert an eine berühmte Schlacht." } },
-  { "id": "w21_vei", "no": "vei", "de": "der Weg", "deAlt": ["die Straße"], "pos": "noun", "gender": "m", "forms": ["vei", "veien", "veier", "veiene"], "alt": ["veg"], "lesson": 21, "wk": true, "ex": { "no": "Kan du vise meg veien til stasjonen?", "de": "Kannst du mir den Weg zum Bahnhof zeigen?" }, "note": "Auch veg geschrieben. på veien = unterwegs." },
-  { "id": "w21_dit", "no": "dit", "de": "dorthin", "deAlt": ["dahin"], "pos": "adv", "lesson": 21, "ex": { "no": "Mandal er fint, vi kjører dit i morgen.", "de": "Mandal ist schön, wir fahren morgen dorthin." }, "note": "Richtung: dit (dorthin) – Ort: der (dort); ebenso hit – her." },
-  { "id": "w21_problem", "no": "problem", "de": "das Problem", "pos": "noun", "gender": "n", "forms": ["problem", "problemet", "problemer", "problemene"], "lesson": 21, "ex": { "no": "Det er ikke noe problem!", "de": "Das ist kein Problem!" } },
-  { "id": "w21_oy", "no": "øy", "de": "die Insel", "pos": "noun", "gender": "f", "forms": ["øy", "øya", "øyer", "øyene"], "lesson": 21, "ex": { "no": "Ferja går ut til en liten øy.", "de": "Die Fähre fährt zu einer kleinen Insel." } },
-  { "id": "w21_blikk", "no": "blikk", "de": "der Blick", "pos": "noun", "gender": "n", "forms": ["blikk", "blikket", "blikk", "blikkene"], "lesson": 21, "ex": { "no": "Hun sendte ham et sint blikk.", "de": "Sie warf ihm einen wütenden Blick zu." } },
-  { "id": "w21_baby", "no": "baby", "de": "das Baby", "pos": "noun", "gender": "m", "forms": ["baby", "babyen", "babyer", "babyene"], "lesson": 21, "ex": { "no": "Babyen sov hele veien opp.", "de": "Das Baby schlief den ganzen Weg hinauf." }, "note": "Maskulin: en baby." },
-  { "id": "w21_flat", "no": "flat", "de": "flach", "deAlt": ["eben"], "pos": "adj", "forms": ["flat", "flatt", "flate"], "lesson": 21, "ex": { "no": "Toppen av Preikestolen er nesten helt flat.", "de": "Oben ist der Preikestolen fast ganz flach." } },
-  { "id": "w21_sor", "no": "sør", "de": "im Süden", "deAlt": ["der Süden", "südlich", "Süd"], "pos": "adv", "lesson": 21, "ex": { "no": "Mandal ligger helt sør i Norge.", "de": "Mandal liegt ganz im Süden Norwegens." }, "note": "i sør = im Süden; sør for = südlich von. Ebenso nord, øst, vest." },
-  { "id": "w21_vest", "no": "vest", "de": "im Westen", "deAlt": ["der Westen", "westlich", "West"], "pos": "adv", "lesson": 21, "ex": { "no": "Mandal ligger vest for Kristiansand.", "de": "Mandal liegt westlich von Kristiansand." }, "note": "Vorsicht: en vest = eine Weste." },
-  { "id": "w21_nordvest", "no": "nordvest", "de": "im Nordwesten", "deAlt": ["der Nordwesten", "nordwestlich"], "pos": "adv", "lesson": 21, "ex": { "no": "Stavanger ligger nordvest for Mandal.", "de": "Stavanger liegt nordwestlich von Mandal." } },
-  { "id": "w21_unna", "no": "unna", "de": "entfernt", "deAlt": ["weg", "aus dem Weg"], "pos": "adv", "lesson": 21, "ex": { "no": "Fyret ligger ikke langt unna.", "de": "Der Leuchtturm liegt nicht weit entfernt." } },
-  { "id": "w21_punkt", "no": "punkt", "de": "der Punkt", "pos": "noun", "gender": "n", "forms": ["punkt", "punktet", "punkter", "punktene"], "lesson": 21, "ex": { "no": "Lindesnes er det sørligste punktet på fastlandet.", "de": "Lindesnes ist der südlichste Punkt des Festlands." }, "note": "Neutrum: et punkt." },
-  { "id": "w21_sandstrand", "no": "sandstrand", "de": "der Sandstrand", "pos": "noun", "gender": "f", "forms": ["sandstrand", "sandstranda", "sandstrender", "sandstrendene"], "lesson": 21, "ex": { "no": "På Jæren finnes det lange sandstrender.", "de": "In Jæren gibt es lange Sandstrände." } },
-  { "id": "w21_menneske", "no": "menneske", "de": "der Mensch", "pos": "noun", "gender": "n", "forms": ["menneske", "mennesket", "mennesker", "menneskene"], "lesson": 21, "ex": { "no": "Det var mange mennesker på Preikestolen.", "de": "Auf dem Preikestolen waren viele Menschen." }, "note": "Neutrum: et menneske." }
+  {
+    "id": "w21_krangel",
+    "no": "krangel",
+    "de": "der Streit",
+    "deAlt": [
+      "der Zank"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "krangel",
+      "krangelen",
+      "krangler",
+      "kranglene"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Krangelen begynte med kartet.",
+      "de": "Der Streit begann mit der Karte."
+    }
+  },
+  {
+    "id": "w21_langhelg",
+    "no": "langhelg",
+    "de": "das lange Wochenende",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "langhelg",
+      "langhelgen",
+      "langhelger",
+      "langhelgene"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "I mai er det flere langhelger i Norge.",
+      "de": "Im Mai gibt es in Norwegen mehrere lange Wochenenden."
+    }
+  },
+  {
+    "id": "w21_leiebil",
+    "no": "leiebil",
+    "de": "der Mietwagen",
+    "deAlt": [
+      "das Mietauto"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "leiebil",
+      "leiebilen",
+      "leiebiler",
+      "leiebilene"
+    ],
+    "lesson": 21,
+    "wk": true,
+    "ex": {
+      "no": "Vi hentet leiebilen på flyplassen.",
+      "de": "Wir holten den Mietwagen am Flughafen ab."
+    }
+  },
+  {
+    "id": "w21_skjaergaard",
+    "no": "skjærgård",
+    "de": "die Schären",
+    "deAlt": [
+      "der Schärengarten"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "skjærgård",
+      "skjærgården",
+      "skjærgårder",
+      "skjærgårdene"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Om sommeren bader vi i skjærgården.",
+      "de": "Im Sommer baden wir in den Schären."
+    },
+    "note": "Im Norwegischen Singular: skjærgården = die Schären, die Inselwelt vor der Küste."
+  },
+  {
+    "id": "w21_elbil",
+    "no": "elbil",
+    "de": "das Elektroauto",
+    "deAlt": [
+      "das E-Auto"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "elbil",
+      "elbilen",
+      "elbiler",
+      "elbilene"
+    ],
+    "lesson": 21,
+    "wk": true,
+    "ex": {
+      "no": "Leiebilen var en liten elbil.",
+      "de": "Der Mietwagen war ein kleines Elektroauto."
+    }
+  },
+  {
+    "id": "w21_egen",
+    "no": "egen",
+    "de": "eigen",
+    "pos": "adj",
+    "forms": [
+      "egen",
+      "eget",
+      "egne"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Matthias hadde med sitt eget kart.",
+      "de": "Matthias hatte seine eigene Karte dabei."
+    },
+    "note": "Nach dem Possessiv im Singular ohne -e: min egen bil, mitt eget rom; Plural: mine egne barn."
+  },
+  {
+    "id": "w21_gps",
+    "no": "GPS",
+    "de": "das Navi",
+    "deAlt": [
+      "das Navigationsgerät",
+      "das GPS"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "GPS",
+      "GPS-en",
+      "GPS-er",
+      "GPS-ene"
+    ],
+    "lesson": 21,
+    "wk": true,
+    "ex": {
+      "no": "GPS-en mistet dekningen i tunnelen.",
+      "de": "Das Navi verlor im Tunnel den Empfang."
+    }
+  },
+  {
+    "id": "w21_gaa_tom_for",
+    "no": "gå tom for",
+    "de": "ausgehen (Vorrat)",
+    "deAlt": [
+      "nichts mehr haben von"
+    ],
+    "pos": "phrase",
+    "lesson": 21,
+    "ex": {
+      "no": "Bilen gikk tom for strøm.",
+      "de": "Dem Auto ging der Strom aus."
+    }
+  },
+  {
+    "id": "w21_himle_med_oynene",
+    "no": "himle med øynene",
+    "de": "die Augen verdrehen",
+    "pos": "phrase",
+    "lesson": 21,
+    "ex": {
+      "no": "Susanne himlet med øynene.",
+      "de": "Susanne verdrehte die Augen."
+    }
+  },
+  {
+    "id": "w21_ostover",
+    "no": "østover",
+    "de": "ostwärts",
+    "deAlt": [
+      "nach Osten"
+    ],
+    "pos": "adv",
+    "lesson": 21,
+    "ex": {
+      "no": "Vi kjørte østover langs kysten.",
+      "de": "Wir fuhren ostwärts die Küste entlang."
+    }
+  },
+  {
+    "id": "w21_vestover",
+    "no": "vestover",
+    "de": "westwärts",
+    "deAlt": [
+      "nach Westen"
+    ],
+    "pos": "adv",
+    "lesson": 21,
+    "ex": {
+      "no": "Om ettermiddagen kjørte de vestover igjen.",
+      "de": "Am Nachmittag fuhren sie wieder westwärts."
+    }
+  },
+  {
+    "id": "w21_overraskende",
+    "no": "overraskende",
+    "de": "überraschend",
+    "pos": "adj",
+    "forms": [
+      "overraskende",
+      "overraskende",
+      "overraskende"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Byen var overraskende stille.",
+      "de": "Die Stadt war überraschend still."
+    }
+  },
+  {
+    "id": "w21_skinnende",
+    "no": "skinnende",
+    "de": "glänzend",
+    "deAlt": [
+      "leuchtend",
+      "strahlend"
+    ],
+    "pos": "adj",
+    "forms": [
+      "skinnende",
+      "skinnende",
+      "skinnende"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Husene lå skinnende hvite i sola.",
+      "de": "Die Häuser leuchteten weiß in der Sonne."
+    }
+  },
+  {
+    "id": "w21_sjarm",
+    "no": "sjarm",
+    "de": "der Charme",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "sjarm",
+      "sjarmen"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Hver by har sin egen sjarm.",
+      "de": "Jede Stadt hat ihren eigenen Charme."
+    }
+  },
+  {
+    "id": "w21_sorlig",
+    "no": "sørlig",
+    "de": "südlich",
+    "pos": "adj",
+    "forms": [
+      "sørlig",
+      "sørlig",
+      "sørlige",
+      "sørligere",
+      "sørligst"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Mandal er Norges sørligste by.",
+      "de": "Mandal ist die südlichste Stadt Norwegens."
+    }
+  },
+  {
+    "id": "w21_noyaktig",
+    "no": "nøyaktig",
+    "de": "genau",
+    "deAlt": [
+      "exakt",
+      "präzise"
+    ],
+    "pos": "adj",
+    "forms": [
+      "nøyaktig",
+      "nøyaktig",
+      "nøyaktige"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Matthias kjørte nøyaktig sytti.",
+      "de": "Matthias fuhr genau siebzig."
+    }
+  },
+  {
+    "id": "w21_fartsgrense",
+    "no": "fartsgrense",
+    "de": "das Tempolimit",
+    "deAlt": [
+      "die Geschwindigkeitsbegrenzung"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "fartsgrense",
+      "fartsgrensen/fartsgrensa",
+      "fartsgrenser",
+      "fartsgrensene"
+    ],
+    "lesson": 21,
+    "wk": true,
+    "ex": {
+      "no": "Fartsgrensen her er åtti kilometer i timen.",
+      "de": "Das Tempolimit liegt hier bei achtzig Stundenkilometern."
+    }
+  },
+  {
+    "id": "w21_fart",
+    "no": "fart",
+    "de": "die Geschwindigkeit",
+    "deAlt": [
+      "das Tempo"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "fart",
+      "farten"
+    ],
+    "lesson": 21,
+    "wk": true,
+    "ex": {
+      "no": "Du må senke farten i svingen.",
+      "de": "In der Kurve musst du langsamer fahren."
+    }
+  },
+  {
+    "id": "w21_bremse",
+    "no": "bremse",
+    "de": "bremsen",
+    "pos": "verb",
+    "vf": [
+      "bremser",
+      "bremset",
+      "bremset",
+      "brems"
+    ],
+    "vg": "1",
+    "lesson": 21,
+    "wk": true,
+    "ex": {
+      "no": "Han bremset før hver eneste sving.",
+      "de": "Er bremste vor jeder einzelnen Kurve."
+    }
+  },
+  {
+    "id": "w21_sving",
+    "no": "sving",
+    "de": "die Kurve",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "sving",
+      "svingen",
+      "svinger",
+      "svingene"
+    ],
+    "lesson": 21,
+    "wk": true,
+    "ex": {
+      "no": "Ikke kjør forbi i svingen!",
+      "de": "Überhol nicht in der Kurve!"
+    }
+  },
+  {
+    "id": "w21_bilist",
+    "no": "bilist",
+    "de": "der Autofahrer",
+    "deAlt": [
+      "die Autofahrerin"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "bilist",
+      "bilisten",
+      "bilister",
+      "bilistene"
+    ],
+    "lesson": 21,
+    "wk": true,
+    "ex": {
+      "no": "Mange bilister kjører for fort her.",
+      "de": "Viele Autofahrer fahren hier zu schnell."
+    }
+  },
+  {
+    "id": "w21_legge_fra_kai",
+    "no": "legge fra kai",
+    "de": "ablegen",
+    "pos": "phrase",
+    "lesson": 21,
+    "ex": {
+      "no": "Ferja la fra kai akkurat da vi kom.",
+      "de": "Die Fähre legte genau ab, als wir ankamen."
+    }
+  },
+  {
+    "id": "w21_idet",
+    "no": "idet",
+    "de": "in dem Moment, als",
+    "deAlt": [
+      "als",
+      "gerade als"
+    ],
+    "pos": "conj",
+    "lesson": 21,
+    "ex": {
+      "no": "Vi kom fram idet ferja la fra kai.",
+      "de": "Wir kamen genau in dem Moment an, als die Fähre ablegte."
+    }
+  },
+  {
+    "id": "w21_rygge",
+    "no": "rygge",
+    "de": "zurücksetzen",
+    "deAlt": [
+      "rückwärtsfahren"
+    ],
+    "pos": "verb",
+    "vf": [
+      "rygger",
+      "rygget",
+      "rygget",
+      "rygg"
+    ],
+    "vg": "1",
+    "lesson": 21,
+    "wk": true,
+    "ex": {
+      "no": "Han måtte rygge inn på møteplassen.",
+      "de": "Er musste in die Ausweichstelle zurücksetzen."
+    }
+  },
+  {
+    "id": "w21_moteplass",
+    "no": "møteplass",
+    "de": "die Ausweichstelle",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "møteplass",
+      "møteplassen",
+      "møteplasser",
+      "møteplassene"
+    ],
+    "lesson": 21,
+    "wk": true,
+    "ex": {
+      "no": "Kjør inn på møteplassen og vent!",
+      "de": "Fahr in die Ausweichstelle und warte!"
+    }
+  },
+  {
+    "id": "w21_motende",
+    "no": "møtende",
+    "de": "entgegenkommend",
+    "pos": "adj",
+    "forms": [
+      "møtende",
+      "møtende",
+      "møtende"
+    ],
+    "lesson": 21,
+    "wk": true,
+    "ex": {
+      "no": "Pass på møtende trafikk!",
+      "de": "Achte auf den Gegenverkehr!"
+    }
+  },
+  {
+    "id": "w21_trafikk",
+    "no": "trafikk",
+    "de": "der Verkehr",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "trafikk",
+      "trafikken"
+    ],
+    "lesson": 21,
+    "wk": true,
+    "ex": {
+      "no": "Det er lite trafikk på søndager.",
+      "de": "Sonntags ist wenig Verkehr."
+    }
+  },
+  {
+    "id": "w21_fotoboks",
+    "no": "fotoboks",
+    "de": "der Blitzer",
+    "deAlt": [
+      "die Radarfalle",
+      "der Blitzkasten"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "fotoboks",
+      "fotoboksen",
+      "fotobokser",
+      "fotoboksene"
+    ],
+    "lesson": 21,
+    "wk": true,
+    "ex": {
+      "no": "Susanne ble tatt i fotoboks.",
+      "de": "Susanne wurde geblitzt."
+    }
+  },
+  {
+    "id": "w21_blinke",
+    "no": "blinke",
+    "de": "blinken",
+    "deAlt": [
+      "blitzen",
+      "aufleuchten"
+    ],
+    "pos": "verb",
+    "vf": [
+      "blinker",
+      "blinket",
+      "blinket",
+      "blink"
+    ],
+    "vg": "1",
+    "lesson": 21,
+    "ex": {
+      "no": "Plutselig blinket det i fotoboksen.",
+      "de": "Plötzlich blitzte der Blitzer."
+    }
+  },
+  {
+    "id": "w21_bot",
+    "no": "bot",
+    "de": "das Bußgeld",
+    "deAlt": [
+      "die Geldstrafe",
+      "der Strafzettel"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "bot",
+      "boten/bota",
+      "bøter",
+      "bøtene"
+    ],
+    "lesson": 21,
+    "wk": true,
+    "ex": {
+      "no": "Boten fra fotoboksen kom med posten.",
+      "de": "Der Bußgeldbescheid vom Blitzer kam mit der Post."
+    }
+  },
+  {
+    "id": "w21_smil",
+    "no": "smil",
+    "de": "das Lächeln",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "smil",
+      "smilet",
+      "smil",
+      "smila/smilene"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Smilet hans sa mer enn tusen ord.",
+      "de": "Sein Lächeln sagte mehr als tausend Worte."
+    }
+  },
+  {
+    "id": "w21_surre",
+    "no": "surre",
+    "de": "summen",
+    "deAlt": [
+      "vibrieren",
+      "surren"
+    ],
+    "pos": "verb",
+    "vf": [
+      "surrer",
+      "surret",
+      "surret",
+      ""
+    ],
+    "vg": "1",
+    "lesson": 21,
+    "ex": {
+      "no": "Telefonen surret i lomma.",
+      "de": "Das Handy vibrierte in der Tasche."
+    }
+  },
+  {
+    "id": "w21_kaste_et_blikk",
+    "no": "kaste et blikk på",
+    "de": "einen Blick werfen auf",
+    "pos": "phrase",
+    "lesson": 21,
+    "ex": {
+      "no": "Han kastet et blikk på skjermen.",
+      "de": "Er warf einen Blick auf den Bildschirm."
+    }
+  },
+  {
+    "id": "w21_skjerm",
+    "no": "skjerm",
+    "de": "der Bildschirm",
+    "deAlt": [
+      "das Display"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "skjerm",
+      "skjermen",
+      "skjermer",
+      "skjermene"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Navnet til Erik sto på skjermen.",
+      "de": "Eriks Name stand auf dem Bildschirm."
+    }
+  },
+  {
+    "id": "w21_sak",
+    "no": "sak",
+    "de": "die Sache",
+    "deAlt": [
+      "die Angelegenheit",
+      "der Fall"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "sak",
+      "saken/saka",
+      "saker",
+      "sakene"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Det er din egen sak.",
+      "de": "Das ist deine Sache."
+    }
+  },
+  {
+    "id": "w21_skarp",
+    "no": "skarp",
+    "de": "scharf",
+    "pos": "adj",
+    "forms": [
+      "skarp",
+      "skarpt",
+      "skarpe"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "«Det er ikke din sak!» svarte hun skarpt.",
+      "de": "„Das geht dich nichts an!“, antwortete sie scharf."
+    }
+  },
+  {
+    "id": "w21_stirre",
+    "no": "stirre",
+    "de": "starren",
+    "pos": "verb",
+    "vf": [
+      "stirrer",
+      "stirret",
+      "stirret",
+      "stirr"
+    ],
+    "vg": "1",
+    "lesson": 21,
+    "ex": {
+      "no": "Han stirret ut av vinduet.",
+      "de": "Er starrte aus dem Fenster."
+    }
+  },
+  {
+    "id": "w21_steinete",
+    "no": "steinete",
+    "de": "steinig",
+    "pos": "adj",
+    "forms": [
+      "steinete",
+      "steinete",
+      "steinete"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Stien opp til Preikestolen er steinete.",
+      "de": "Der Pfad hinauf zum Preikestolen ist steinig."
+    }
+  },
+  {
+    "id": "w21_pese",
+    "no": "pese",
+    "de": "keuchen",
+    "deAlt": [
+      "schnaufen"
+    ],
+    "pos": "verb",
+    "vf": [
+      "peser",
+      "peste",
+      "pest",
+      "pes"
+    ],
+    "vg": "2",
+    "lesson": 21,
+    "ex": {
+      "no": "Vi peste oss opp den bratte bakken.",
+      "de": "Wir keuchten den steilen Hang hinauf."
+    }
+  },
+  {
+    "id": "w21_pensjonist",
+    "no": "pensjonist",
+    "de": "der Rentner",
+    "deAlt": [
+      "die Rentnerin",
+      "der Pensionär"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "pensjonist",
+      "pensjonisten",
+      "pensjonister",
+      "pensjonistene"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Mange pensjonister går på tur hver dag.",
+      "de": "Viele Rentner wandern jeden Tag."
+    }
+  },
+  {
+    "id": "w21_skoleklasse",
+    "no": "skoleklasse",
+    "de": "die Schulklasse",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "skoleklasse",
+      "skoleklassen",
+      "skoleklasser",
+      "skoleklassene"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "En skoleklasse sang hele veien opp.",
+      "de": "Eine Schulklasse sang den ganzen Weg hinauf."
+    }
+  },
+  {
+    "id": "w21_sovende",
+    "no": "sovende",
+    "de": "schlafend",
+    "pos": "adj",
+    "forms": [
+      "sovende",
+      "sovende",
+      "sovende"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Faren bar en sovende baby på ryggen.",
+      "de": "Der Vater trug ein schlafendes Baby auf dem Rücken."
+    }
+  },
+  {
+    "id": "w21_fjellplataa",
+    "no": "fjellplatå",
+    "de": "das Felsplateau",
+    "deAlt": [
+      "das Bergplateau"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "fjellplatå",
+      "fjellplatået",
+      "fjellplatåer",
+      "fjellplatåene"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Fjellplatået er nesten helt flatt.",
+      "de": "Das Felsplateau ist fast ganz flach."
+    }
+  },
+  {
+    "id": "w21_bli_staaende",
+    "no": "bli stående",
+    "de": "stehen bleiben",
+    "pos": "phrase",
+    "lesson": 21,
+    "ex": {
+      "no": "Susanne ble stående helt stille.",
+      "de": "Susanne blieb ganz still stehen."
+    }
+  },
+  {
+    "id": "w21_bli_sittende",
+    "no": "bli sittende",
+    "de": "sitzen bleiben",
+    "pos": "phrase",
+    "lesson": 21,
+    "ex": {
+      "no": "Hun ble sittende i bilen.",
+      "de": "Sie blieb im Auto sitzen."
+    }
+  },
+  {
+    "id": "w21_kant",
+    "no": "kant",
+    "de": "der Rand",
+    "deAlt": [
+      "die Kante"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "kant",
+      "kanten",
+      "kanter",
+      "kantene"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Ikke gå for nær kanten!",
+      "de": "Geh nicht zu nah an den Rand!"
+    }
+  },
+  {
+    "id": "w21_lykke_til_videre",
+    "no": "lykke til videre",
+    "de": "alles Gute weiterhin",
+    "deAlt": [
+      "viel Glück weiterhin"
+    ],
+    "pos": "phrase",
+    "lesson": 21,
+    "ex": {
+      "no": "Takk for alt, og lykke til videre!",
+      "de": "Danke für alles und alles Gute weiterhin!"
+    }
+  },
+  {
+    "id": "w21_utover",
+    "no": "utover",
+    "de": "hinaus über",
+    "deAlt": [
+      "über … hinaus"
+    ],
+    "pos": "prep",
+    "lesson": 21,
+    "ex": {
+      "no": "De så utover fjorden.",
+      "de": "Sie schauten über den Fjord."
+    }
+  },
+  {
+    "id": "w21_motes",
+    "no": "møtes",
+    "de": "sich treffen",
+    "pos": "verb",
+    "vf": [
+      "møtes",
+      "møttes",
+      "møttes",
+      ""
+    ],
+    "vg": "2",
+    "lesson": 21,
+    "ex": {
+      "no": "Vi møtes på flyplassen klokka ti.",
+      "de": "Wir treffen uns um zehn am Flughafen."
+    },
+    "note": "Gegenseitige Bedeutung: einander treffen."
+  },
+  {
+    "id": "w21_sees",
+    "no": "sees",
+    "de": "sich sehen",
+    "pos": "verb",
+    "vf": [
+      "sees/ses",
+      "sås",
+      "setts",
+      ""
+    ],
+    "vg": "sterk",
+    "alt": [
+      "ses"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Vi sees i Oslo!",
+      "de": "Wir sehen uns in Oslo!"
+    },
+    "note": "Meist im Präsens: Vi sees! = Bis bald! Für andere Zeiten: se hverandre."
+  },
+  {
+    "id": "w21_treffes",
+    "no": "treffes",
+    "de": "sich treffen",
+    "pos": "verb",
+    "vf": [
+      "treffes",
+      "traffes",
+      "truffes",
+      ""
+    ],
+    "vg": "sterk",
+    "lesson": 21,
+    "ex": {
+      "no": "Når kan vi treffes igjen?",
+      "de": "Wann können wir uns wieder treffen?"
+    }
+  },
+  {
+    "id": "w21_skilles",
+    "no": "skilles",
+    "de": "sich trennen",
+    "deAlt": [
+      "auseinandergehen"
+    ],
+    "pos": "verb",
+    "vf": [
+      "skilles",
+      "skiltes",
+      "skiltes",
+      ""
+    ],
+    "vg": "2",
+    "lesson": 21,
+    "ex": {
+      "no": "De skiltes på flyplassen dagen etter.",
+      "de": "Sie trennten sich am nächsten Tag am Flughafen."
+    },
+    "note": "Für „sich scheiden lassen“ sagt man meist skille seg: De skilte seg i fjor."
+  },
+  {
+    "id": "w21_vi_hores",
+    "no": "vi høres",
+    "de": "wir hören voneinander",
+    "deAlt": [
+      "bis bald"
+    ],
+    "pos": "phrase",
+    "lesson": 21,
+    "ex": {
+      "no": "Ha det bra, vi høres!",
+      "de": "Mach's gut, wir hören voneinander!"
+    }
+  },
+  {
+    "id": "w21_forerkort",
+    "no": "førerkort",
+    "de": "der Führerschein",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "førerkort",
+      "førerkortet",
+      "førerkort",
+      "førerkorta/førerkortene"
+    ],
+    "lesson": 21,
+    "wk": true,
+    "ex": {
+      "no": "Har du førerkort?",
+      "de": "Hast du einen Führerschein?"
+    }
+  },
+  {
+    "id": "w21_setebelte",
+    "no": "setebelte",
+    "de": "der Sicherheitsgurt",
+    "deAlt": [
+      "der Gurt"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "setebelte",
+      "setebeltet",
+      "setebelter",
+      "setebeltene"
+    ],
+    "lesson": 21,
+    "wk": true,
+    "ex": {
+      "no": "Husk å ta på setebeltet!",
+      "de": "Denk daran, dich anzuschnallen!"
+    }
+  },
+  {
+    "id": "w21_lade_bilen",
+    "no": "lade bilen",
+    "de": "das Auto laden",
+    "pos": "phrase",
+    "lesson": 21,
+    "wk": true,
+    "ex": {
+      "no": "Vi må lade bilen før vi kjører videre.",
+      "de": "Wir müssen das Auto laden, bevor wir weiterfahren."
+    }
+  },
+  {
+    "id": "w21_ladestasjon",
+    "no": "ladestasjon",
+    "de": "die Ladestation",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "ladestasjon",
+      "ladestasjonen",
+      "ladestasjoner",
+      "ladestasjonene"
+    ],
+    "lesson": 21,
+    "wk": true,
+    "ex": {
+      "no": "Det finnes ladestasjoner langs hele kysten.",
+      "de": "Entlang der ganzen Küste gibt es Ladestationen."
+    }
+  },
+  {
+    "id": "w21_fylle_bensin",
+    "no": "fylle bensin",
+    "de": "tanken",
+    "pos": "phrase",
+    "lesson": 21,
+    "wk": true,
+    "ex": {
+      "no": "Vi må fylle bensin på neste stasjon.",
+      "de": "Wir müssen an der nächsten Tankstelle tanken."
+    }
+  },
+  {
+    "id": "w21_rundkjoring",
+    "no": "rundkjøring",
+    "de": "der Kreisverkehr",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "rundkjøring",
+      "rundkjøringen/rundkjøringa",
+      "rundkjøringer",
+      "rundkjøringene"
+    ],
+    "lesson": 21,
+    "wk": true,
+    "ex": {
+      "no": "Ta andre avkjørsel i rundkjøringen.",
+      "de": "Nimm im Kreisverkehr die zweite Ausfahrt."
+    }
+  },
+  {
+    "id": "w21_avkjorsel",
+    "no": "avkjørsel",
+    "de": "die Ausfahrt",
+    "deAlt": [
+      "die Abfahrt"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "avkjørsel",
+      "avkjørselen",
+      "avkjørsler",
+      "avkjørslene"
+    ],
+    "lesson": 21,
+    "wk": true,
+    "ex": {
+      "no": "Vi kjørte forbi avkjørselen.",
+      "de": "Wir sind an der Ausfahrt vorbeigefahren."
+    }
+  },
+  {
+    "id": "w21_vikeplikt",
+    "no": "vikeplikt",
+    "de": "die Wartepflicht",
+    "deAlt": [
+      "die Vorfahrtsregel"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "vikeplikt",
+      "vikeplikten/vikeplikta"
+    ],
+    "lesson": 21,
+    "wk": true,
+    "ex": {
+      "no": "Her har du vikeplikt for trafikken fra høyre.",
+      "de": "Hier musst du dem Verkehr von rechts die Vorfahrt lassen."
+    },
+    "note": "ha vikeplikt = warten müssen, Vorfahrt gewähren"
+  },
+  {
+    "id": "w21_kjore_forbi",
+    "no": "kjøre forbi",
+    "de": "überholen",
+    "deAlt": [
+      "vorbeifahren"
+    ],
+    "pos": "verb",
+    "vf": [
+      "kjører forbi",
+      "kjørte forbi",
+      "kjørt forbi",
+      "kjør forbi"
+    ],
+    "vg": "2",
+    "lesson": 21,
+    "wk": true,
+    "ex": {
+      "no": "Ikke kjør forbi i svingen!",
+      "de": "Überhol nicht in der Kurve!"
+    }
+  },
+  {
+    "id": "w21_punktering",
+    "no": "punktering",
+    "de": "die Reifenpanne",
+    "deAlt": [
+      "der Platten"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "punktering",
+      "punkteringen/punkteringa",
+      "punkteringer",
+      "punkteringene"
+    ],
+    "lesson": 21,
+    "wk": true,
+    "ex": {
+      "no": "Vi fikk punktering midt på fjellet.",
+      "de": "Mitten im Gebirge hatten wir eine Reifenpanne."
+    }
+  },
+  {
+    "id": "w21_parkere",
+    "no": "parkere",
+    "de": "parken",
+    "pos": "verb",
+    "vf": [
+      "parkerer",
+      "parkerte",
+      "parkert",
+      "parker"
+    ],
+    "vg": "2",
+    "lesson": 21,
+    "wk": true,
+    "ex": {
+      "no": "Her er det forbudt å parkere.",
+      "de": "Hier ist Parken verboten."
+    }
+  },
+  {
+    "id": "w21_parkeringsbot",
+    "no": "parkeringsbot",
+    "de": "der Strafzettel (fürs Falschparken)",
+    "deAlt": [
+      "der Strafzettel"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "parkeringsbot",
+      "parkeringsboten/parkeringsbota",
+      "parkeringsbøter",
+      "parkeringsbøtene"
+    ],
+    "lesson": 21,
+    "wk": true,
+    "ex": {
+      "no": "Jeg fikk parkeringsbot foran hotellet.",
+      "de": "Vor dem Hotel habe ich einen Strafzettel bekommen."
+    }
+  },
+  {
+    "id": "w21_bomstasjon",
+    "no": "bomstasjon",
+    "de": "die Mautstelle",
+    "deAlt": [
+      "die Mautstation"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "bomstasjon",
+      "bomstasjonen",
+      "bomstasjoner",
+      "bomstasjonene"
+    ],
+    "lesson": 21,
+    "wk": true,
+    "ex": {
+      "no": "Vi kjørte gjennom tre bomstasjoner.",
+      "de": "Wir sind durch drei Mautstellen gefahren."
+    }
+  },
+  {
+    "id": "w21_forsiktig",
+    "no": "forsiktig",
+    "de": "vorsichtig",
+    "pos": "adj",
+    "forms": [
+      "forsiktig",
+      "forsiktig",
+      "forsiktige"
+    ],
+    "lesson": 21,
+    "wk": true,
+    "ex": {
+      "no": "Kjør forsiktig, veien er smal!",
+      "de": "Fahr vorsichtig, die Straße ist schmal!"
+    }
+  },
+  {
+    "id": "w21_paa_egen_haand",
+    "no": "på egen hånd",
+    "de": "auf eigene Faust",
+    "pos": "phrase",
+    "lesson": 21,
+    "ex": {
+      "no": "Vi reiste rundt på egen hånd.",
+      "de": "Wir sind auf eigene Faust herumgereist."
+    }
+  },
+  {
+    "id": "w21_for_egen_regning",
+    "no": "for egen regning",
+    "de": "auf eigene Kosten",
+    "deAlt": [
+      "auf eigene Rechnung"
+    ],
+    "pos": "phrase",
+    "lesson": 21,
+    "ex": {
+      "no": "Boten må du betale for egen regning.",
+      "de": "Das Bußgeld musst du selbst bezahlen."
+    }
+  },
+  {
+    "id": "w21_flytende",
+    "no": "flytende",
+    "de": "fließend",
+    "deAlt": [
+      "flüssig"
+    ],
+    "pos": "adj",
+    "forms": [
+      "flytende",
+      "flytende",
+      "flytende"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Inga snakker flytende samisk.",
+      "de": "Inga spricht fließend Samisch."
+    }
+  },
+  {
+    "id": "w21_kommende",
+    "no": "kommende",
+    "de": "kommend",
+    "deAlt": [
+      "nächste"
+    ],
+    "pos": "adj",
+    "forms": [
+      "kommende",
+      "kommende",
+      "kommende"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Vi skal på tur kommende helg.",
+      "de": "Nächstes Wochenende machen wir einen Ausflug."
+    }
+  },
+  {
+    "id": "w21_reisende",
+    "no": "reisende",
+    "de": "der/die Reisende",
+    "deAlt": [
+      "der Reisende",
+      "die Reisende"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "reisende",
+      "reisende",
+      "reisende",
+      "reisende"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "De reisende gikk om bord på ferja.",
+      "de": "Die Reisenden gingen an Bord der Fähre."
+    },
+    "note": "Unveränderlich: en reisende, den reisende, mange reisende, de reisende."
+  },
+  {
+    "id": "w21_forbipasserende",
+    "no": "forbipasserende",
+    "de": "der Passant",
+    "deAlt": [
+      "die Passantin"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "forbipasserende",
+      "forbipasserende",
+      "forbipasserende",
+      "forbipasserende"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "En forbipasserende viste oss veien.",
+      "de": "Ein Passant zeigte uns den Weg."
+    }
+  },
+  {
+    "id": "w21_om_bord",
+    "no": "om bord",
+    "de": "an Bord",
+    "pos": "phrase",
+    "lesson": 21,
+    "ex": {
+      "no": "Vi gikk om bord på ferja i siste liten.",
+      "de": "Wir gingen in letzter Minute an Bord der Fähre."
+    }
+  },
+  {
+    "id": "w21_soltime",
+    "no": "soltime",
+    "de": "die Sonnenstunde",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "soltime",
+      "soltimen",
+      "soltimer",
+      "soltimene"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Sørlandet har mange soltimer om sommeren.",
+      "de": "Sørlandet hat im Sommer viele Sonnenstunden."
+    }
+  },
+  {
+    "id": "w21_holme",
+    "no": "holme",
+    "de": "die kleine Insel",
+    "deAlt": [
+      "das Inselchen"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "holme",
+      "holmen",
+      "holmer",
+      "holmene"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Vi badet fra en liten holme.",
+      "de": "Wir badeten von einer kleinen Insel aus."
+    }
+  },
+  {
+    "id": "w21_skjaer",
+    "no": "skjær",
+    "de": "die Schäre",
+    "deAlt": [
+      "die Klippe",
+      "der Felsen im Meer"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "skjær",
+      "skjæret",
+      "skjær",
+      "skjæra/skjærene"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Båten kjørte forsiktig mellom skjærene.",
+      "de": "Das Boot fuhr vorsichtig zwischen den Klippen hindurch."
+    }
+  },
+  {
+    "id": "w21_skipsfart",
+    "no": "skipsfart",
+    "de": "die Schifffahrt",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "skipsfart",
+      "skipsfarten"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Byen ble rik på skipsfart.",
+      "de": "Die Stadt wurde durch die Schifffahrt reich."
+    }
+  },
+  {
+    "id": "w21_trelast",
+    "no": "trelast",
+    "de": "das Bauholz",
+    "deAlt": [
+      "das Schnittholz"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "trelast",
+      "trelasten"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Før eksporterte Norge mye trelast.",
+      "de": "Früher exportierte Norwegen viel Bauholz."
+    }
+  },
+  {
+    "id": "w21_maling",
+    "no": "maling",
+    "de": "die Farbe (zum Streichen)",
+    "deAlt": [
+      "die Farbe",
+      "die Wandfarbe"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "maling",
+      "malingen/malinga"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Hvit maling var dyr i gamle dager.",
+      "de": "Weiße Farbe war früher teuer."
+    },
+    "note": "farge = Farbe als Farbton; maling = Farbe, mit der man streicht."
+  },
+  {
+    "id": "w21_eier",
+    "no": "eier",
+    "de": "der Besitzer",
+    "deAlt": [
+      "die Besitzerin",
+      "der Eigentümer"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "eier",
+      "eieren",
+      "eiere",
+      "eierne"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Eieren av huset bor i Oslo.",
+      "de": "Der Besitzer des Hauses wohnt in Oslo."
+    }
+  },
+  {
+    "id": "w21_rutenett",
+    "no": "rutenett",
+    "de": "das Gitternetz",
+    "deAlt": [
+      "das Raster"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "rutenett",
+      "rutenettet",
+      "rutenett",
+      "rutenetta/rutenettene"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Gatene i Kvadraturen danner et rutenett.",
+      "de": "Die Straßen in Kvadraturen bilden ein Gitternetz."
+    }
+  },
+  {
+    "id": "w21_laerling",
+    "no": "lærling",
+    "de": "der Lehrling",
+    "deAlt": [
+      "der Auszubildende"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "lærling",
+      "lærlingen",
+      "lærlinger",
+      "lærlingene"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Ibsen var lærling på et apotek i Grimstad.",
+      "de": "Ibsen war Lehrling in einer Apotheke in Grimstad."
+    }
+  },
+  {
+    "id": "w21_fastland",
+    "no": "fastland",
+    "de": "das Festland",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "fastland",
+      "fastlandet"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Øya ligger bare ti minutter fra fastlandet.",
+      "de": "Die Insel liegt nur zehn Minuten vom Festland entfernt."
+    }
+  },
+  {
+    "id": "w21_jordbruksomraade",
+    "no": "jordbruksområde",
+    "de": "das Agrargebiet",
+    "deAlt": [
+      "das landwirtschaftliche Gebiet"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "jordbruksområde",
+      "jordbruksområdet",
+      "jordbruksområder",
+      "jordbruksområdene"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Jæren er et viktig jordbruksområde.",
+      "de": "Jæren ist ein wichtiges Agrargebiet."
+    }
+  },
+  {
+    "id": "w21_fjellvegg",
+    "no": "fjellvegg",
+    "de": "die Felswand",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "fjellvegg",
+      "fjellveggen",
+      "fjellvegger",
+      "fjellveggene"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Fjellveggene stuper rett ned i fjorden.",
+      "de": "Die Felswände fallen senkrecht in den Fjord ab."
+    }
+  },
+  {
+    "id": "w21_toere",
+    "no": "tørre",
+    "de": "wagen",
+    "deAlt": [
+      "sich trauen"
+    ],
+    "pos": "verb",
+    "vf": [
+      "tør",
+      "torde",
+      "tort",
+      ""
+    ],
+    "vg": "uregelm",
+    "lesson": 21,
+    "ex": {
+      "no": "Jeg tør ikke gå helt ut på kanten.",
+      "de": "Ich traue mich nicht, ganz bis an den Rand zu gehen."
+    },
+    "note": "Wie ein Modalverb: tør + Infinitiv ohne å."
+  },
+  {
+    "id": "w21_sverd",
+    "no": "sverd",
+    "de": "das Schwert",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "sverd",
+      "sverdet",
+      "sverd",
+      "sverda/sverdene"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Tre store sverd står i fjellet ved Hafrsfjord.",
+      "de": "Drei große Schwerter stecken am Hafrsfjord im Fels."
+    }
+  },
+  {
+    "id": "w21_rike",
+    "no": "rike",
+    "de": "das Reich",
+    "deAlt": [
+      "das Königreich"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "rike",
+      "riket",
+      "riker",
+      "rikene"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Harald Hårfagre samlet Norge til ett rike.",
+      "de": "Harald Schönhaar vereinte Norwegen zu einem Reich."
+    }
+  },
+  {
+    "id": "w21_minne_om",
+    "no": "minne om",
+    "de": "erinnern an",
+    "pos": "verb",
+    "vf": [
+      "minner om",
+      "minnet om",
+      "minnet om",
+      "minn om"
+    ],
+    "vg": "1",
+    "lesson": 21,
+    "ex": {
+      "no": "Monumentet minner om et berømt slag.",
+      "de": "Das Denkmal erinnert an eine berühmte Schlacht."
+    }
+  },
+  {
+    "id": "w21_oy",
+    "no": "øy",
+    "de": "die Insel",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "øy",
+      "øya",
+      "øyer",
+      "øyene"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Ferja går ut til en liten øy.",
+      "de": "Die Fähre fährt zu einer kleinen Insel."
+    }
+  },
+  {
+    "id": "w21_blikk",
+    "no": "blikk",
+    "de": "der Blick",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "blikk",
+      "blikket",
+      "blikk",
+      "blikkene"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Hun sendte ham et sint blikk.",
+      "de": "Sie warf ihm einen wütenden Blick zu."
+    }
+  },
+  {
+    "id": "w21_baby",
+    "no": "baby",
+    "de": "das Baby",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "baby",
+      "babyen",
+      "babyer",
+      "babyene"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Babyen sov hele veien opp.",
+      "de": "Das Baby schlief den ganzen Weg hinauf."
+    },
+    "note": "Maskulin: en baby."
+  },
+  {
+    "id": "w21_flat",
+    "no": "flat",
+    "de": "flach",
+    "deAlt": [
+      "eben"
+    ],
+    "pos": "adj",
+    "forms": [
+      "flat",
+      "flatt",
+      "flate"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Toppen av Preikestolen er nesten helt flat.",
+      "de": "Oben ist der Preikestolen fast ganz flach."
+    }
+  },
+  {
+    "id": "w21_sor",
+    "no": "sør",
+    "de": "im Süden",
+    "deAlt": [
+      "der Süden",
+      "südlich",
+      "Süd"
+    ],
+    "pos": "adv",
+    "lesson": 21,
+    "ex": {
+      "no": "Mandal ligger helt sør i Norge.",
+      "de": "Mandal liegt ganz im Süden Norwegens."
+    },
+    "note": "i sør = im Süden; sør for = südlich von. Ebenso nord, øst, vest."
+  },
+  {
+    "id": "w21_vest",
+    "no": "vest",
+    "de": "im Westen",
+    "deAlt": [
+      "der Westen",
+      "westlich",
+      "West"
+    ],
+    "pos": "adv",
+    "lesson": 21,
+    "ex": {
+      "no": "Mandal ligger vest for Kristiansand.",
+      "de": "Mandal liegt westlich von Kristiansand."
+    },
+    "note": "Vorsicht: en vest = eine Weste."
+  },
+  {
+    "id": "w21_nordvest",
+    "no": "nordvest",
+    "de": "im Nordwesten",
+    "deAlt": [
+      "der Nordwesten",
+      "nordwestlich"
+    ],
+    "pos": "adv",
+    "lesson": 21,
+    "ex": {
+      "no": "Stavanger ligger nordvest for Mandal.",
+      "de": "Stavanger liegt nordwestlich von Mandal."
+    }
+  },
+  {
+    "id": "w21_unna",
+    "no": "unna",
+    "de": "entfernt",
+    "deAlt": [
+      "weg",
+      "aus dem Weg"
+    ],
+    "pos": "adv",
+    "lesson": 21,
+    "ex": {
+      "no": "Fyret ligger ikke langt unna.",
+      "de": "Der Leuchtturm liegt nicht weit entfernt."
+    }
+  },
+  {
+    "id": "w21_punkt",
+    "no": "punkt",
+    "de": "der Punkt",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "punkt",
+      "punktet",
+      "punkter",
+      "punktene"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "Lindesnes er det sørligste punktet på fastlandet.",
+      "de": "Lindesnes ist der südlichste Punkt des Festlands."
+    },
+    "note": "Neutrum: et punkt."
+  },
+  {
+    "id": "w21_sandstrand",
+    "no": "sandstrand",
+    "de": "der Sandstrand",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "sandstrand",
+      "sandstranda",
+      "sandstrender",
+      "sandstrendene"
+    ],
+    "lesson": 21,
+    "ex": {
+      "no": "På Jæren finnes det lange sandstrender.",
+      "de": "In Jæren gibt es lange Sandstrände."
+    }
+  }
 ]

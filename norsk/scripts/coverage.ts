@@ -14,11 +14,18 @@ for (const L of lessons) {
   const missing = new Map<string, string>();
   for (const t of [L.text, ...L.extra]) {
     for (const line of t.lines) {
+      let start = true;
       for (const p of splitWords(line.no)) {
-        if (!p.isWord || /^\d/.test(p.w)) continue;
+        if (!p.isWord) {
+          if (/[.!?:«»"–—]/.test(p.w)) start = true;
+          continue;
+        }
+        const atStart = start;
+        start = false;
+        if (/^\d/.test(p.w)) continue;
         const k = p.w.toLowerCase();
         if (SKIP.has(k) || missing.has(k)) continue;
-        const r = lookup(p.w);
+        const r = lookup(p.w, atStart);
         if (!r.entries.length && !r.parts && !r.name) missing.set(k, t.id);
       }
     }

@@ -1,24 +1,5 @@
 [
   {
-    "id": "w05_frokost",
-    "no": "frokost",
-    "de": "das Frühstück",
-    "pos": "noun",
-    "gender": "m",
-    "forms": [
-      "frokost",
-      "frokosten",
-      "frokoster",
-      "frokostene"
-    ],
-    "wk": true,
-    "lesson": 5,
-    "ex": {
-      "no": "Frokosten er klar!",
-      "de": "Das Frühstück ist fertig!"
-    }
-  },
-  {
     "id": "w05_klar",
     "no": "klar",
     "de": "fertig",
@@ -57,23 +38,6 @@
     }
   },
   {
-    "id": "w05_typisk",
-    "no": "typisk",
-    "de": "typisch",
-    "pos": "adj",
-    "forms": [
-      "typisk",
-      "typisk",
-      "typiske"
-    ],
-    "lesson": 5,
-    "ex": {
-      "no": "Brunost er typisk norsk.",
-      "de": "Braunkäse ist typisch norwegisch."
-    },
-    "note": "Mehrsilbig auf -sk: kein -t im Neutrum."
-  },
-  {
     "id": "w05_hjelpe",
     "no": "hjelpe",
     "de": "helfen",
@@ -91,57 +55,6 @@
       "de": "Könnt ihr mir helfen?"
     },
     "note": "Mit Objektform: hjelpe meg = mir helfen."
-  },
-  {
-    "id": "w05_brunost",
-    "no": "brunost",
-    "de": "der Braunkäse",
-    "pos": "noun",
-    "gender": "m",
-    "forms": [
-      "brunost",
-      "brunosten",
-      "brunoster",
-      "brunostene"
-    ],
-    "lesson": 5,
-    "ex": {
-      "no": "Brunosten er søt og brun.",
-      "de": "Der Braunkäse ist süß und braun."
-    }
-  },
-  {
-    "id": "w05_sot",
-    "no": "søt",
-    "de": "süß",
-    "pos": "adj",
-    "forms": [
-      "søt",
-      "søtt",
-      "søte"
-    ],
-    "lesson": 5,
-    "ex": {
-      "no": "Kaka er veldig søt.",
-      "de": "Der Kuchen ist sehr süß."
-    },
-    "note": "Auch: niedlich (en søt hund)."
-  },
-  {
-    "id": "w05_brun",
-    "no": "brun",
-    "de": "braun",
-    "pos": "adj",
-    "forms": [
-      "brun",
-      "brunt",
-      "brune"
-    ],
-    "lesson": 5,
-    "ex": {
-      "no": "Bamse er en brun hund.",
-      "de": "Bamse ist ein brauner Hund."
-    }
   },
   {
     "id": "w05_ostehovel",
@@ -246,28 +159,6 @@
     }
   },
   {
-    "id": "w05_lunsj",
-    "no": "lunsj",
-    "de": "das Mittagessen",
-    "deAlt": [
-      "der Lunch"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "forms": [
-      "lunsj",
-      "lunsjen",
-      "lunsjer",
-      "lunsjene"
-    ],
-    "lesson": 5,
-    "ex": {
-      "no": "Til lunsj spiser vi matpakke.",
-      "de": "Mittags essen wir unser Lunchpaket."
-    },
-    "note": "Meist kalt und klein; warm isst man am Nachmittag (middag)."
-  },
-  {
     "id": "w05_hver",
     "no": "hver",
     "de": "jeder",
@@ -344,20 +235,6 @@
     }
   },
   {
-    "id": "w05_hvis",
-    "no": "hvis",
-    "de": "wenn",
-    "deAlt": [
-      "falls"
-    ],
-    "pos": "conj",
-    "lesson": 5,
-    "ex": {
-      "no": "Hvis det regner, blir vi hjemme.",
-      "de": "Wenn es regnet, bleiben wir zu Hause."
-    }
-  },
-  {
     "id": "w05_egentlig",
     "no": "egentlig",
     "de": "eigentlich",
@@ -386,17 +263,6 @@
     "ex": {
       "no": "Kos er stearinlys, kakao og gode venner.",
       "de": "Kos – das sind Kerzen, Kakao und gute Freunde."
-    }
-  },
-  {
-    "id": "w05_sammen",
-    "no": "sammen",
-    "de": "zusammen",
-    "pos": "adv",
-    "lesson": 5,
-    "ex": {
-      "no": "Vi spiser frokost sammen.",
-      "de": "Wir frühstücken zusammen."
     }
   },
   {
@@ -476,27 +342,6 @@
       "no": "Naboene jobber sammen.",
       "de": "Die Nachbarn arbeiten zusammen."
     }
-  },
-  {
-    "id": "w05_gratis",
-    "no": "gratis",
-    "de": "kostenlos",
-    "deAlt": [
-      "umsonst",
-      "gratis"
-    ],
-    "pos": "adj",
-    "forms": [
-      "gratis",
-      "gratis",
-      "gratis"
-    ],
-    "lesson": 5,
-    "ex": {
-      "no": "Kaffen er gratis.",
-      "de": "Der Kaffee ist umsonst."
-    },
-    "note": "Unveränderlich."
   },
   {
     "id": "w05_hage",
@@ -652,27 +497,6 @@
     }
   },
   {
-    "id": "w05_fjell",
-    "no": "fjell",
-    "de": "der Berg",
-    "deAlt": [
-      "das Gebirge"
-    ],
-    "pos": "noun",
-    "gender": "n",
-    "forms": [
-      "fjell",
-      "fjellet",
-      "fjell",
-      "fjella/fjellene"
-    ],
-    "lesson": 5,
-    "ex": {
-      "no": "Høyt oppe på fjellet bor et troll.",
-      "de": "Hoch oben auf dem Berg wohnt ein Troll."
-    }
-  },
-  {
     "id": "w05_gammel",
     "no": "gammel",
     "de": "alt",
@@ -680,7 +504,9 @@
     "forms": [
       "gammel",
       "gammelt",
-      "gamle"
+      "gamle",
+      "eldre",
+      "eldst"
     ],
     "lesson": 5,
     "ex": {
@@ -911,7 +737,9 @@
     "forms": [
       "kjent",
       "kjent",
-      "kjente"
+      "kjente",
+      "mer kjent",
+      "mest kjent"
     ],
     "lesson": 5,
     "ex": {
@@ -1069,24 +897,6 @@
     }
   },
   {
-    "id": "w05_gutt",
-    "no": "gutt",
-    "de": "der Junge",
-    "pos": "noun",
-    "gender": "m",
-    "forms": [
-      "gutt",
-      "gutten",
-      "gutter",
-      "guttene"
-    ],
-    "lesson": 5,
-    "ex": {
-      "no": "Ola er en glad gutt.",
-      "de": "Ola ist ein fröhlicher Junge."
-    }
-  },
-  {
     "id": "w05_modig",
     "no": "modig",
     "de": "mutig",
@@ -1181,19 +991,6 @@
       "no": "Pass på! Trollet kommer!",
       "de": "Pass auf! Der Troll kommt!"
     }
-  },
-  {
-    "id": "w05_hjemme",
-    "no": "hjemme",
-    "de": "zu Hause",
-    "pos": "adv",
-    "wk": true,
-    "lesson": 5,
-    "ex": {
-      "no": "Hei, jeg er hjemme!",
-      "de": "Hallo, ich bin wieder da!"
-    },
-    "note": "Ort: hjemme (zu Hause); Richtung: hjem (nach Hause)."
   },
   {
     "id": "w05_fole_seg",
@@ -1291,30 +1088,6 @@
       "no": "Hvem tar oppvasken?",
       "de": "Wer spült ab?"
     }
-  },
-  {
-    "id": "w05_middag",
-    "no": "middag",
-    "de": "das Abendessen",
-    "deAlt": [
-      "die warme Hauptmahlzeit",
-      "das Mittagessen"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "forms": [
-      "middag",
-      "middagen",
-      "middager",
-      "middagene"
-    ],
-    "wk": true,
-    "lesson": 5,
-    "ex": {
-      "no": "Vi spiser middag klokka fem.",
-      "de": "Wir essen um fünf Uhr zu Abend."
-    },
-    "note": "Die warme Mahlzeit am späten Nachmittag; „Mittagessen“ ist meist lunsj."
   },
   {
     "id": "w05_koselig",
@@ -1551,24 +1324,6 @@
     }
   },
   {
-    "id": "w05_skjerf",
-    "no": "skjerf",
-    "de": "der Schal",
-    "pos": "noun",
-    "gender": "n",
-    "forms": [
-      "skjerf",
-      "skjerfet",
-      "skjerf",
-      "skjerfa/skjerfene"
-    ],
-    "lesson": 5,
-    "ex": {
-      "no": "Skjerfet er blått.",
-      "de": "Der Schal ist blau."
-    }
-  },
-  {
     "id": "w05_gronn",
     "no": "grønn",
     "de": "grün",
@@ -1609,7 +1364,9 @@
     "forms": [
       "trygg",
       "trygt",
-      "trygge"
+      "trygge",
+      "tryggere",
+      "tryggest"
     ],
     "lesson": 5,
     "ex": {

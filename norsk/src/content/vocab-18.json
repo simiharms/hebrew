@@ -200,25 +200,6 @@
     }
   },
   {
-    "id": "w18_stearinlys",
-    "no": "stearinlys",
-    "de": "die Kerze",
-    "pos": "noun",
-    "gender": "n",
-    "forms": [
-      "stearinlys",
-      "stearinlyset",
-      "stearinlys",
-      "stearinlysa/stearinlysene"
-    ],
-    "lesson": 18,
-    "wk": true,
-    "ex": {
-      "no": "På kafeen brenner det stearinlys hele dagen.",
-      "de": "Im Café brennen den ganzen Tag Kerzen."
-    }
-  },
-  {
     "id": "w18_julekort",
     "no": "julekort",
     "de": "die Weihnachtskarte",
@@ -638,40 +619,6 @@
     }
   },
   {
-    "id": "w18_syltetoy",
-    "no": "syltetøy",
-    "de": "die Marmelade",
-    "pos": "noun",
-    "gender": "n",
-    "forms": [
-      "syltetøy",
-      "syltetøyet"
-    ],
-    "lesson": 18,
-    "ex": {
-      "no": "På julemarkedet kjøpte hun hjemmelaget syltetøy.",
-      "de": "Auf dem Weihnachtsmarkt kaufte sie hausgemachte Marmelade."
-    }
-  },
-  {
-    "id": "w18_ullsokk",
-    "no": "ullsokk",
-    "de": "die Wollsocke",
-    "pos": "noun",
-    "gender": "m",
-    "forms": [
-      "ullsokk",
-      "ullsokken",
-      "ullsokker",
-      "ullsokkene"
-    ],
-    "lesson": 18,
-    "ex": {
-      "no": "I mørketida går jeg med ullsokker hele dagen.",
-      "de": "In der Polarnacht trage ich den ganzen Tag Wollsocken."
-    }
-  },
-  {
     "id": "w18_skinn",
     "no": "skinn",
     "de": "das Fell, die Haut, das Leder",
@@ -740,61 +687,6 @@
     }
   },
   {
-    "id": "w18_oppskrift",
-    "no": "oppskrift",
-    "de": "das (Koch-)Rezept",
-    "pos": "noun",
-    "gender": "m",
-    "forms": [
-      "oppskrift",
-      "oppskriften",
-      "oppskrifter",
-      "oppskriftene"
-    ],
-    "lesson": 18,
-    "ex": {
-      "no": "Han laget ribbe etter oppskriften til Kari.",
-      "de": "Er bereitete die Ribbe nach Karis Rezept zu."
-    },
-    "note": "Ein Rezept vom Arzt heißt en resept."
-  },
-  {
-    "id": "w18_dessert",
-    "no": "dessert",
-    "de": "der Nachtisch",
-    "pos": "noun",
-    "gender": "m",
-    "forms": [
-      "dessert",
-      "desserten",
-      "desserter",
-      "dessertene"
-    ],
-    "lesson": 18,
-    "ex": {
-      "no": "Til dessert var det riskrem.",
-      "de": "Zum Nachtisch gab es Riskrem."
-    }
-  },
-  {
-    "id": "w18_bolle",
-    "no": "bolle",
-    "de": "die Schüssel; das (Hefe-)Brötchen",
-    "pos": "noun",
-    "gender": "m",
-    "forms": [
-      "bolle",
-      "bollen",
-      "boller",
-      "bollene"
-    ],
-    "lesson": 18,
-    "ex": {
-      "no": "I bollen var det gjemt en mandel.",
-      "de": "In der Schüssel war eine Mandel versteckt."
-    }
-  },
-  {
     "id": "w18_flyplass",
     "no": "flyplass",
     "de": "der Flughafen",
@@ -813,25 +705,6 @@
     }
   },
   {
-    "id": "w18_fetter",
-    "no": "fetter",
-    "de": "der Cousin",
-    "pos": "noun",
-    "gender": "m",
-    "forms": [
-      "fetter",
-      "fetteren",
-      "fettere",
-      "fetterne"
-    ],
-    "lesson": 18,
-    "ex": {
-      "no": "Julenissen var Ingas fetter.",
-      "de": "Der Weihnachtsmann war Ingas Cousin."
-    },
-    "note": "die Cousine = ei/en kusine"
-  },
-  {
     "id": "w18_skjegg",
     "no": "skjegg",
     "de": "der Bart",
@@ -847,24 +720,6 @@
     "ex": {
       "no": "Nissen har langt, hvitt skjegg.",
       "de": "Der Weihnachtsmann hat einen langen, weißen Bart."
-    }
-  },
-  {
-    "id": "w18_lue",
-    "no": "lue",
-    "de": "die Mütze",
-    "pos": "noun",
-    "gender": "f",
-    "forms": [
-      "lue",
-      "lua/luen",
-      "luer",
-      "luene"
-    ],
-    "lesson": 18,
-    "ex": {
-      "no": "Han hadde en rød lue på hodet.",
-      "de": "Er hatte eine rote Mütze auf dem Kopf."
     }
   },
   {
@@ -937,44 +792,6 @@
       "de": "Eine Umarmung von Susanne"
     },
     "note": "Typischer Briefschluss unter Freunden: Klem fra … / Klem!"
-  },
-  {
-    "id": "w18_pynte",
-    "no": "pynte",
-    "de": "schmücken",
-    "pos": "verb",
-    "vf": [
-      "pynter",
-      "pyntet/pynta",
-      "pyntet/pynta",
-      "pynt"
-    ],
-    "vg": "1",
-    "lesson": 18,
-    "wk": true,
-    "ex": {
-      "no": "Vi pynter juletreet på lille julaften.",
-      "de": "Wir schmücken den Weihnachtsbaum am 23. Dezember."
-    }
-  },
-  {
-    "id": "w18_tenne",
-    "no": "tenne",
-    "de": "anzünden",
-    "pos": "verb",
-    "vf": [
-      "tenner",
-      "tente",
-      "tent",
-      "tenn"
-    ],
-    "vg": "2",
-    "lesson": 18,
-    "wk": true,
-    "ex": {
-      "no": "Det tennes lys overalt.",
-      "de": "Überall werden Lichter angezündet."
-    }
   },
   {
     "id": "w18_brenne",
@@ -1052,24 +869,6 @@
     }
   },
   {
-    "id": "w18_servere",
-    "no": "servere",
-    "de": "servieren",
-    "pos": "verb",
-    "vf": [
-      "serverer",
-      "serverte",
-      "servert",
-      "server"
-    ],
-    "vg": "2",
-    "lesson": 18,
-    "ex": {
-      "no": "Det ble servert både lutefisk og ribbe.",
-      "de": "Es wurden sowohl Lutefisk als auch Ribbe serviert."
-    }
-  },
-  {
     "id": "w18_knuse",
     "no": "knuse",
     "de": "zerbrechen, zerschlagen",
@@ -1106,60 +905,6 @@
     }
   },
   {
-    "id": "w18_banke",
-    "no": "banke",
-    "de": "klopfen",
-    "pos": "verb",
-    "vf": [
-      "banker",
-      "banket/banka",
-      "banket/banka",
-      "bank"
-    ],
-    "vg": "1",
-    "lesson": 18,
-    "ex": {
-      "no": "Det banket på døra.",
-      "de": "Es klopfte an der Tür."
-    }
-  },
-  {
-    "id": "w18_kjenne_igjen",
-    "no": "kjenne igjen",
-    "de": "wiedererkennen",
-    "pos": "verb",
-    "vf": [
-      "kjenner igjen",
-      "kjente igjen",
-      "kjent igjen",
-      "kjenn igjen"
-    ],
-    "vg": "2",
-    "lesson": 18,
-    "ex": {
-      "no": "Matthias kjente igjen sketsjen.",
-      "de": "Matthias erkannte den Sketch wieder."
-    }
-  },
-  {
-    "id": "w18_savne",
-    "no": "savne",
-    "de": "vermissen",
-    "pos": "verb",
-    "vf": [
-      "savner",
-      "savnet/savna",
-      "savnet/savna",
-      "savn"
-    ],
-    "vg": "1",
-    "lesson": 18,
-    "ex": {
-      "no": "Jeg savner dere!",
-      "de": "Ich vermisse euch!"
-    }
-  },
-  {
     "id": "w18_variere",
     "no": "variere",
     "de": "variieren, verschieden sein",
@@ -1178,24 +923,6 @@
     }
   },
   {
-    "id": "w18_mene",
-    "no": "mene",
-    "de": "meinen",
-    "pos": "verb",
-    "vf": [
-      "mener",
-      "mente",
-      "ment",
-      "men"
-    ],
-    "vg": "2",
-    "lesson": 18,
-    "ex": {
-      "no": "Professoren mente at lutefisk er best.",
-      "de": "Der Professor meinte, Lutefisk sei am besten."
-    }
-  },
-  {
     "id": "w18_kle_seg_ut",
     "no": "kle seg ut",
     "de": "sich verkleiden",
@@ -1211,24 +938,6 @@
     "ex": {
       "no": "Barna kler seg ut og går julebukk.",
       "de": "Die Kinder verkleiden sich und ziehen von Haus zu Haus."
-    }
-  },
-  {
-    "id": "w18_hilse",
-    "no": "hilse",
-    "de": "grüßen",
-    "pos": "verb",
-    "vf": [
-      "hilser",
-      "hilste",
-      "hilst",
-      "hils"
-    ],
-    "vg": "2",
-    "lesson": 18,
-    "ex": {
-      "no": "Hils bestemor Ingrid fra meg!",
-      "de": "Grüß Oma Ingrid von mir!"
     }
   },
   {
@@ -1342,25 +1051,6 @@
     }
   },
   {
-    "id": "w18_svette",
-    "no": "svette",
-    "de": "schwitzen",
-    "pos": "verb",
-    "vf": [
-      "svetter",
-      "svettet/svetta",
-      "svettet/svetta",
-      "svett"
-    ],
-    "vg": "1",
-    "lesson": 18,
-    "ex": {
-      "no": "Alle svetter når vi danser rundt juletreet.",
-      "de": "Alle schwitzen, wenn wir um den Weihnachtsbaum tanzen."
-    },
-    "note": "Auch als s-Verb: svettes (Präsens) – gleiche Bedeutung."
-  },
-  {
     "id": "w18_slik",
     "no": "slik",
     "de": "so ein, solch; so (Adverb)",
@@ -1426,38 +1116,6 @@
     }
   },
   {
-    "id": "w18_tradisjonell",
-    "no": "tradisjonell",
-    "de": "traditionell",
-    "pos": "adj",
-    "forms": [
-      "tradisjonell",
-      "tradisjonelt",
-      "tradisjonelle"
-    ],
-    "lesson": 18,
-    "ex": {
-      "no": "På julebordet spiser man tradisjonell julemat.",
-      "de": "Beim Weihnachtsessen isst man traditionelle Weihnachtsspeisen."
-    }
-  },
-  {
-    "id": "w18_ordentlig",
-    "no": "ordentlig",
-    "de": "richtig, ordentlich",
-    "pos": "adj",
-    "forms": [
-      "ordentlig",
-      "ordentlig",
-      "ordentlige"
-    ],
-    "lesson": 18,
-    "ex": {
-      "no": "Lutefisk er den eneste ordentlige julematen, sier professoren.",
-      "de": "Lutefisk ist das einzig richtige Weihnachtsessen, sagt der Professor."
-    }
-  },
-  {
     "id": "w18_stengt",
     "no": "stengt",
     "de": "geschlossen",
@@ -1472,24 +1130,6 @@
     "ex": {
       "no": "Butikkene er stengt på første juledag.",
       "de": "Die Geschäfte sind am ersten Weihnachtstag geschlossen."
-    }
-  },
-  {
-    "id": "w18_stenge",
-    "no": "stenge",
-    "de": "schließen, zumachen",
-    "pos": "verb",
-    "vf": [
-      "stenger",
-      "stengte",
-      "stengt",
-      "steng"
-    ],
-    "vg": "2",
-    "lesson": 18,
-    "ex": {
-      "no": "Butikken stenger klokka seks.",
-      "de": "Der Laden schließt um sechs Uhr."
     }
   },
   {
@@ -1509,50 +1149,6 @@
     }
   },
   {
-    "id": "w18_borte",
-    "no": "borte",
-    "de": "weg, fort",
-    "pos": "adv",
-    "lesson": 18,
-    "ex": {
-      "no": "Sola har vært borte siden november.",
-      "de": "Die Sonne ist seit November weg."
-    }
-  },
-  {
-    "id": "w18_likevel",
-    "no": "likevel",
-    "de": "trotzdem",
-    "pos": "adv",
-    "lesson": 18,
-    "ex": {
-      "no": "Det er mørkt, men jeg trives likevel.",
-      "de": "Es ist dunkel, aber ich fühle mich trotzdem wohl."
-    }
-  },
-  {
-    "id": "w18_overalt",
-    "no": "overalt",
-    "de": "überall",
-    "pos": "adv",
-    "lesson": 18,
-    "ex": {
-      "no": "Det tennes lys overalt.",
-      "de": "Überall werden Lichter angezündet."
-    }
-  },
-  {
-    "id": "w18_faktisk",
-    "no": "faktisk",
-    "de": "tatsächlich",
-    "pos": "adv",
-    "lesson": 18,
-    "ex": {
-      "no": "Jeg trives faktisk veldig godt.",
-      "de": "Ich fühle mich tatsächlich sehr wohl."
-    }
-  },
-  {
     "id": "w18_ellers",
     "no": "ellers",
     "de": "sonst",
@@ -1561,17 +1157,6 @@
     "ex": {
       "no": "Ellers er julaften ganske lik.",
       "de": "Sonst ist der Heilige Abend ziemlich ähnlich."
-    }
-  },
-  {
-    "id": "w18_alle_sammen",
-    "no": "alle sammen",
-    "de": "alle (zusammen)",
-    "pos": "phrase",
-    "lesson": 18,
-    "ex": {
-      "no": "God jul, alle sammen!",
-      "de": "Frohe Weihnachten euch allen!"
     }
   },
   {

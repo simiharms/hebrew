@@ -967,7 +967,9 @@
     "gender": "n",
     "forms": [
       "sentrum",
-      "sentrumet"
+      "sentrumet/sentret",
+      "sentre/sentrum",
+      "sentrene/sentrumene"
     ],
     "lesson": 1,
     "ex": {
@@ -1554,7 +1556,9 @@
     "forms": [
       "vanskelig",
       "vanskelig",
-      "vanskelige"
+      "vanskelige",
+      "vanskeligere",
+      "vanskeligst"
     ],
     "lesson": 1,
     "ex": {
@@ -1575,7 +1579,9 @@
     "forms": [
       "fin",
       "fint",
-      "fine"
+      "fine",
+      "finere",
+      "finest"
     ],
     "lesson": 1,
     "ex": {

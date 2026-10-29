@@ -8,19 +8,35 @@ import { useAppState } from '../lib/store.ts';
 import { speak } from '../lib/tts.ts';
 import { toast } from './ui.tsx';
 
-let openGloss: ((w: string | null) => void) | null = null;
+let openGloss: ((w: { word: string; start: boolean } | null) => void) | null = null;
 
-export function showGloss(word: string) {
-  openGloss?.(word);
+export function showGloss(word: string, start = false) {
+  openGloss?.({ word, start });
+}
+
+/** Whether each word opens a sentence (then its capital letter means nothing). */
+function sentenceStarts(parts: { w: string; isWord: boolean }[]): boolean[] {
+  let start = true;
+  return parts.map((p) => {
+    if (p.isWord) {
+      const s = start;
+      start = false;
+      return s;
+    }
+    if (/[.!?:«»"–—]/.test(p.w)) start = true;
+    return false;
+  });
 }
 
 export function NoText({ text, size = 'md', tap = true, cls = '' }: { text: string; size?: 'sm' | 'md' | 'lg' | 'xl'; tap?: boolean; cls?: string }) {
   if (!tap) return <div class={`no no-${size} ${cls}`} lang="nb">{text}</div>;
+  const parts = splitWords(text);
+  const starts = sentenceStarts(parts);
   return (
     <div class={`no no-${size} ${cls}`} lang="nb">
-      {splitWords(text).map((p) =>
+      {parts.map((p, i) =>
         p.isWord ? (
-          <span class="w" onClick={(e) => (e.stopPropagation(), showGloss(p.w))}>
+          <span class="w" onClick={(e) => (e.stopPropagation(), showGloss(p.w, starts[i]))}>
             {p.w}
           </span>
         ) : (
@@ -32,7 +48,8 @@ export function NoText({ text, size = 'md', tap = true, cls = '' }: { text: stri
 }
 
 export function GlossSheet() {
-  const [word, setWord] = useState<string | null>(null);
+  const [tapped, setWord] = useState<{ word: string; start: boolean } | null>(null);
+  const word = tapped?.word ?? null;
   useAppState();
   useEffect(() => {
     openGloss = setWord;
@@ -44,7 +61,7 @@ export function GlossSheet() {
     if (word) speak(word);
   }, [word]);
   if (!word) return null;
-  const res = lookup(word);
+  const res = lookup(word, tapped?.start);
   const close = () => setWord(null);
   const enc = encodeURIComponent(word.toLowerCase());
 
@@ -76,7 +93,7 @@ export function GlossSheet() {
                 <div class="row wrap">
                   <span class="no no-lg">{e.no}</span>
                   {e.form && <span class="badge">{e.form}</span>}
-                  {w?.gender && <span class="badge">{GENDER_DE[w.gender]}</span>}
+                  {w?.gender && <span class="badge">{w.plOnly ? 'nur Plural' : GENDER_DE[w.gender]}</span>}
                   {e.gloss && !e.wordId && <span class="badge">im Text</span>}
                 </div>
                 <div class="big-de">{e.de}</div>

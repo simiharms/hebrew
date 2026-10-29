@@ -1,6 +1,7 @@
 // Loads all bundled content and builds lookup indexes.
 import type { Lesson, LessonText, PronunciationGuide, Word } from '../content/types.ts';
 import { fold, normalize, splitAlt, stems } from './norsk.ts';
+import { numberWords, ordinalWords } from './numbers.ts';
 import { PLAN } from './plan.ts';
 
 const lessonMods = import.meta.glob('../content/lesson-*.json', { eager: true, import: 'default' }) as Record<string, Lesson>;
@@ -26,6 +27,7 @@ export const words: Word[] = Object.entries(vocabMods)
       return true;
     }
     if (w.forms && (first.forms?.length ?? 0) < w.forms.length) first.forms = w.forms;
+    if (w.alt) first.alt = [...new Set([...(first.alt ?? []), ...w.alt])];
     return false;
   });
 export const wordById = new Map(words.map((w) => [w.id, w]));
@@ -46,7 +48,7 @@ export const GENDER_DE: Record<string, string> = { m: 'maskulin', f: 'feminin', 
 
 /** The word as shown on a card: "en bil", "ei bok", "et hus", "å snakke", "stor". */
 export function display(w: Word): string {
-  if (w.pos === 'noun' && w.gender) return `${ARTICLE[w.gender]} ${w.no}`;
+  if (w.pos === 'noun' && w.gender && !w.plOnly) return `${ARTICLE[w.gender]} ${w.no}`;
   if (w.pos === 'verb') return `å ${w.no}`;
   return w.no;
 }
@@ -56,7 +58,7 @@ export function acceptedNo(w: Word, extra: string[] = []): string[] {
   const base = [w.no, ...(w.alt ?? []), ...extra];
   const out = new Set<string>(base);
   for (const b of base) {
-    if (w.pos === 'noun' && w.gender) {
+    if (w.pos === 'noun' && w.gender && !w.plOnly) {
       out.add(`${ARTICLE[w.gender]} ${b}`);
       if (w.gender === 'f') out.add(`en ${b}`);
     }
@@ -124,6 +126,8 @@ export function buildDictionary(): void {
       w.forms.forEach((f, i) => i > 0 && addForm(f, { ...e, form: ADJ_FORMS[i] }));
       if (w.forms[4]) for (const v of splitAlt(w.forms[4])) add(v + 'e', { ...e, form: 'Superlativ, bestimmt' });
     }
+    // pronouns and others with forms: min – mi – mitt – mine, annen – annet – andre
+    if (w.pos !== 'noun' && w.pos !== 'adj' && w.pos !== 'verb' && w.forms) w.forms.forEach((f, i) => i > 0 && addForm(f, e));
     if (w.pos === 'verb' && w.vf) {
       w.vf.forEach((f, i) => {
         if (!f) return;
@@ -171,6 +175,14 @@ const FUNCTION_WORDS: [string, string, string?][] = [
   ['de', 'sie (Plural); die'],
   ['dem', 'sie, ihnen (Objektform von de)'],
   ['én', 'ein, eine (betont: genau einer, eine)'],
+  ['oi', 'oh! hoppla!', 'Ausruf'],
+  ['åh', 'ach! oh!', 'Ausruf'],
+  ['aha', 'aha!', 'Ausruf'],
+  ['hm', 'hm', 'Ausruf'],
+  ['mmm', 'mmm (lecker!)', 'Ausruf'],
+  ['æsj', 'igitt!', 'Ausruf'],
+  ['uff', 'uff! oje!', 'Ausruf'],
+  ['jaså', 'ach so?', 'Ausruf'],
   // Days and months: written in lower case in Norwegian.
   ['mandag', 'Montag'],
   ['tirsdag', 'Dienstag'],
@@ -200,6 +212,18 @@ export interface LookupResult {
 }
 
 function addFunctionWords() {
+  // numbers in words: tjuefem, trettiåtte, hundre, første …
+  for (let n = 0; n <= 100; n++) {
+    for (const old of [false, true]) {
+      const no = numberWords(n, { old });
+      if (!dict.has(no)) add(no, { no, de: String(n), form: 'Zahl' });
+    }
+    if (n > 0 && n < 100) {
+      const o = ordinalWords(n);
+      if (!dict.has(o)) add(o, { no: o, de: `${n}.`, form: 'Ordnungszahl' });
+    }
+  }
+  add('tusen', { no: 'tusen', de: '1000', form: 'Zahl' });
   for (const [no, de, form] of FUNCTION_WORDS) {
     if (!dict.has(no)) add(no, { no, de, form });
     // weekdays also with -en / -er: mandagen, mandager
@@ -207,10 +231,11 @@ function addFunctionWords() {
   }
 }
 
-export function lookup(word: string): LookupResult {
+/** sentenceStart: the word opens a sentence, so a capital letter says nothing about it being a name. */
+export function lookup(word: string, sentenceStart = false): LookupResult {
   buildDictionary();
   const k = normalize(word);
-  const capital = /^[A-ZÆØÅ]/.test(word);
+  const capital = /^[A-ZÆØÅ]/.test(word) && !sentenceStart;
   const person = capital ? PEOPLE[k] : undefined;
   const exact = dict.get(k);
   if (person) return { entries: [person, ...sortEntries(exact ?? [])] };
@@ -221,7 +246,16 @@ export function lookup(word: string): LookupResult {
   }
   // A capitalised unknown word is most likely a name (Aker, Finland), not a compound.
   if (capital) return { entries: [], name: true };
-  return { entries: [], parts: compound(k) };
+  // tv-kanalene: the parts are known words
+  if (k.includes('-')) {
+    const [a, ...rest] = k.split('-');
+    const pa = lookup(a).entries[0];
+    const pb = lookup(rest.join('-')).entries[0];
+    if (pa && pb) return { entries: [], parts: [pa, pb] };
+  }
+  const parts = compound(k);
+  // Unknown and written with a capital at the start of a sentence: a name (Henrik, Bergen).
+  return { entries: [], parts, name: !parts && /^[A-ZÆØÅ]/.test(word) };
 }
 
 // The people of the story, so that tapping a name says who it is.
@@ -256,14 +290,17 @@ function sortEntries(list: DictEntry[]): DictEntry[] {
 
 /** Splits an unknown compound into two known words: "barnetoget" → barn(e) + toget. */
 function compound(w: string): [DictEntry, DictEntry] | undefined {
-  if (w.length < 7) return undefined;
+  if (w.length < 6) return undefined;
+  // Norwegian compounds end in a noun (sometimes an adjective) and start with a noun, adjective or verb.
+  const headOk = (e: DictEntry) => e.pos === 'noun' || e.pos === 'adj';
+  const modOk = (e: DictEntry) => e.pos === 'noun' || e.pos === 'adj' || e.pos === 'verb';
   for (let i = 3; i <= w.length - 3; i++) {
     const head = w.slice(i);
-    const headHit = dict.get(head) ?? stems(head).map((s) => dict.get(s)).find(Boolean);
+    const headHit = [...(dict.get(head) ?? []), ...stems(head).flatMap((s) => dict.get(s) ?? [])].find(headOk);
     if (!headHit) continue;
     const mod = w.slice(0, i);
-    const modHit = dict.get(mod) ?? (/[se]$/.test(mod) ? dict.get(mod.slice(0, -1)) : undefined);
-    if (modHit) return [sortEntries(modHit)[0], sortEntries(headHit)[0]];
+    const modHit = [...(dict.get(mod) ?? []), ...(/[se]$/.test(mod) ? dict.get(mod.slice(0, -1)) ?? [] : [])].find(modOk);
+    if (modHit) return [modHit, headHit];
   }
   return undefined;
 }

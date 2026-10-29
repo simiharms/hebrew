@@ -162,7 +162,9 @@
     "gender": "n",
     "forms": [
       "vann",
-      "vannet"
+      "vannet",
+      "vann",
+      "vanna/vannene"
     ],
     "lesson": 2,
     "wk": true,
@@ -337,7 +339,8 @@
       "no": "Jeg har ikke penger.",
       "de": "Ich habe kein Geld."
     },
-    "note": "Immer Plural: pengene = das Geld."
+    "note": "Immer Plural: pengene = das Geld.",
+    "plOnly": true
   },
   {
     "id": "w02_ekspeditor",
@@ -371,7 +374,9 @@
     "gender": "m",
     "forms": [
       "grammatikk",
-      "grammatikken"
+      "grammatikken",
+      "grammatikker",
+      "grammatikkene"
     ],
     "lesson": 2,
     "ex": {
@@ -908,7 +913,9 @@
     "forms": [
       "dyr",
       "dyrt",
-      "dyre"
+      "dyre",
+      "dyrere",
+      "dyrest"
     ],
     "lesson": 2,
     "wk": true,
@@ -929,7 +936,9 @@
     "forms": [
       "billig",
       "billig",
-      "billige"
+      "billige",
+      "billigere",
+      "billigst"
     ],
     "lesson": 2,
     "wk": true,
@@ -988,7 +997,9 @@
     "forms": [
       "god",
       "godt",
-      "gode"
+      "gode",
+      "bedre",
+      "best"
     ],
     "lesson": 2,
     "ex": {

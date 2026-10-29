@@ -54,40 +54,6 @@
     }
   },
   {
-    "id": "w23_midnattssol",
-    "no": "midnattssol",
-    "de": "die Mitternachtssonne",
-    "pos": "noun",
-    "gender": "f",
-    "forms": [
-      "midnattssol",
-      "midnattssola/midnattssolen"
-    ],
-    "lesson": 23,
-    "ex": {
-      "no": "I Tromsø er det midnattssol fra rundt 20. mai til slutten av juli.",
-      "de": "In Tromsø gibt es von etwa dem 20. Mai bis Ende Juli Mitternachtssonne."
-    }
-  },
-  {
-    "id": "w23_stein",
-    "no": "stein",
-    "de": "der Stein",
-    "pos": "noun",
-    "gender": "m",
-    "forms": [
-      "stein",
-      "steinen",
-      "steiner",
-      "steinene"
-    ],
-    "lesson": 23,
-    "ex": {
-      "no": "Susanne sitter på en stein ved havet.",
-      "de": "Susanne sitzt auf einem Stein am Meer."
-    }
-  },
-  {
     "id": "w23_lav",
     "no": "lav",
     "de": "niedrig",
@@ -147,24 +113,6 @@
     "ex": {
       "no": "Susanne skriver blogg på norsk.",
       "de": "Susanne schreibt einen Blog auf Norwegisch."
-    }
-  },
-  {
-    "id": "w23_grille",
-    "no": "grille",
-    "de": "grillen",
-    "pos": "verb",
-    "vf": [
-      "griller",
-      "grillet/grilla",
-      "grillet/grilla",
-      "grill"
-    ],
-    "vg": "1",
-    "lesson": 23,
-    "ex": {
-      "no": "Vi grillet pølser på stranda.",
-      "de": "Wir grillten Würstchen am Strand."
     }
   },
   {
@@ -251,29 +199,6 @@
     }
   },
   {
-    "id": "w23_laane",
-    "no": "låne",
-    "de": "leihen",
-    "deAlt": [
-      "ausleihen",
-      "borgen"
-    ],
-    "pos": "verb",
-    "vf": [
-      "låner",
-      "lånte",
-      "lånt",
-      "lån"
-    ],
-    "vg": "2",
-    "lesson": 23,
-    "ex": {
-      "no": "Inga har lånt meg en sovemaske.",
-      "de": "Inga hat mir eine Schlafmaske geliehen."
-    },
-    "note": "låne noen noe = jdm. etwas leihen; låne noe av noen = sich etwas von jdm. leihen."
-  },
-  {
     "id": "w23_sovemaske",
     "no": "sovemaske",
     "de": "die Schlafmaske",
@@ -289,24 +214,6 @@
     "ex": {
       "no": "Uten sovemaske får jeg ikke sove.",
       "de": "Ohne Schlafmaske kann ich nicht schlafen."
-    }
-  },
-  {
-    "id": "w23_tenne",
-    "no": "tenne",
-    "de": "anzünden",
-    "pos": "verb",
-    "vf": [
-      "tenner",
-      "tente",
-      "tent",
-      "tenn"
-    ],
-    "vg": "2",
-    "lesson": 23,
-    "ex": {
-      "no": "Kari tente lys på bordet.",
-      "de": "Kari zündete Kerzen auf dem Tisch an."
     }
   },
   {
@@ -359,24 +266,6 @@
     "ex": {
       "no": "Noen spilte gitar ved bålet.",
       "de": "Jemand spielte am Feuer Gitarre."
-    }
-  },
-  {
-    "id": "w23_smile",
-    "no": "smile",
-    "de": "lächeln",
-    "pos": "verb",
-    "vf": [
-      "smiler",
-      "smilte",
-      "smilt",
-      "smil"
-    ],
-    "vg": "2",
-    "lesson": 23,
-    "ex": {
-      "no": "Matthias sto og smilte.",
-      "de": "Matthias stand da und lächelte."
     }
   },
   {
@@ -569,24 +458,6 @@
     "note": "Auch: dicke Strickjacke (en lusekofte = typisch norwegische Strickjacke)."
   },
   {
-    "id": "w23_monster",
-    "no": "mønster",
-    "de": "das Muster",
-    "pos": "noun",
-    "gender": "n",
-    "forms": [
-      "mønster",
-      "mønsteret",
-      "mønstre",
-      "mønstrene"
-    ],
-    "lesson": 23,
-    "ex": {
-      "no": "Mønstrene viser hvor man kommer fra.",
-      "de": "Die Muster zeigen, woher man kommt."
-    }
-  },
-  {
     "id": "w23_reindrift",
     "no": "reindrift",
     "de": "die Rentierzucht",
@@ -712,22 +583,6 @@
     }
   },
   {
-    "id": "w23_svimmel",
-    "no": "svimmel",
-    "de": "schwindelig",
-    "pos": "adj",
-    "forms": [
-      "svimmel",
-      "svimmelt",
-      "svimle"
-    ],
-    "lesson": 23,
-    "ex": {
-      "no": "Hun ble svimmel på toppen av fjellet.",
-      "de": "Ihr wurde auf dem Gipfel schwindelig."
-    }
-  },
-  {
     "id": "w23_klasserom",
     "no": "klasserom",
     "de": "das Klassenzimmer",
@@ -744,18 +599,6 @@
       "no": "Klasserommet på Blindern var lite og varmt.",
       "de": "Das Klassenzimmer in Blindern war klein und warm."
     }
-  },
-  {
-    "id": "w23_tusenvis_av",
-    "no": "tusenvis av",
-    "de": "Tausende von",
-    "pos": "phrase",
-    "lesson": 23,
-    "ex": {
-      "no": "Tusenvis av barn gikk i toget.",
-      "de": "Tausende von Kindern gingen im Umzug mit."
-    },
-    "note": "Ebenso: hundrevis av = Hunderte von."
   },
   {
     "id": "w23_all_slags",
@@ -803,24 +646,6 @@
     "ex": {
       "no": "Ta på deg regnjakka! Det finnes ikke dårlig vær, bare dårlige klær.",
       "de": "Zieh die Regenjacke an! Es gibt kein schlechtes Wetter, nur schlechte Kleidung."
-    }
-  },
-  {
-    "id": "w23_savne",
-    "no": "savne",
-    "de": "vermissen",
-    "pos": "verb",
-    "vf": [
-      "savner",
-      "savnet/savna",
-      "savnet/savna",
-      "savn"
-    ],
-    "vg": "1",
-    "lesson": 23,
-    "ex": {
-      "no": "Jeg kommer til å savne Norge.",
-      "de": "Ich werde Norwegen vermissen."
     }
   },
   {
@@ -893,61 +718,6 @@
     }
   },
   {
-    "id": "w23_love",
-    "no": "love",
-    "de": "versprechen",
-    "pos": "verb",
-    "vf": [
-      "lover",
-      "lovte/lovet",
-      "lovt/lovet",
-      "lov"
-    ],
-    "vg": "2",
-    "lesson": 23,
-    "ex": {
-      "no": "Jeg har lovet å komme tilbake.",
-      "de": "Ich habe versprochen zurückzukommen."
-    },
-    "note": "Falscher Freund: love heißt versprechen, nicht lieben (lieben = elske)."
-  },
-  {
-    "id": "w23_videosamtale",
-    "no": "videosamtale",
-    "de": "der Videoanruf",
-    "pos": "noun",
-    "gender": "m",
-    "forms": [
-      "videosamtale",
-      "videosamtalen",
-      "videosamtaler",
-      "videosamtalene"
-    ],
-    "lesson": 23,
-    "ex": {
-      "no": "De har en videosamtale hver kveld.",
-      "de": "Sie haben jeden Abend einen Videoanruf."
-    }
-  },
-  {
-    "id": "w23_bestemme_seg",
-    "no": "bestemme seg",
-    "de": "sich entscheiden",
-    "pos": "verb",
-    "vf": [
-      "bestemmer seg",
-      "bestemte seg",
-      "bestemt seg",
-      "bestem deg"
-    ],
-    "vg": "2",
-    "lesson": 23,
-    "ex": {
-      "no": "Vi har bestemt oss for å prøve.",
-      "de": "Wir haben uns entschieden, es zu versuchen."
-    }
-  },
-  {
     "id": "w23_gi_opp",
     "no": "gi opp",
     "de": "aufgeben",
@@ -963,27 +733,6 @@
     "ex": {
       "no": "Vi gir ikke opp.",
       "de": "Wir geben nicht auf."
-    }
-  },
-  {
-    "id": "w23_legge_fra_seg",
-    "no": "legge fra seg",
-    "de": "weglegen",
-    "deAlt": [
-      "aus der Hand legen"
-    ],
-    "pos": "verb",
-    "vf": [
-      "legger fra seg",
-      "la fra seg",
-      "lagt fra seg",
-      "legg fra deg"
-    ],
-    "vg": "uregelm",
-    "lesson": 23,
-    "ex": {
-      "no": "Legg fra deg mobilen og se på sola!",
-      "de": "Leg das Handy weg und schau dir die Sonne an!"
     }
   },
   {
@@ -1066,41 +815,6 @@
     }
   },
   {
-    "id": "w23_same",
-    "no": "same",
-    "de": "der Same, die Samin",
-    "pos": "noun",
-    "gender": "m",
-    "forms": [
-      "same",
-      "samen",
-      "samer",
-      "samene"
-    ],
-    "lesson": 23,
-    "ex": {
-      "no": "Inga er same fra Kautokeino.",
-      "de": "Inga ist Samin aus Kautokeino."
-    }
-  },
-  {
-    "id": "w23_samisk",
-    "no": "samisk",
-    "de": "samisch",
-    "pos": "adj",
-    "forms": [
-      "samisk",
-      "samisk",
-      "samiske"
-    ],
-    "lesson": 23,
-    "ex": {
-      "no": "Inga snakker nordsamisk med familien sin.",
-      "de": "Inga spricht mit ihrer Familie Nordsamisch."
-    },
-    "note": "Auch die Sprache: samisk (Samisch); nordsamisk, lulesamisk, sørsamisk."
-  },
-  {
     "id": "w23_urfolk",
     "no": "urfolk",
     "de": "das indigene Volk",
@@ -1158,56 +872,6 @@
     }
   },
   {
-    "id": "w23_noyaktig",
-    "no": "nøyaktig",
-    "de": "genau",
-    "pos": "adj",
-    "forms": [
-      "nøyaktig",
-      "nøyaktig",
-      "nøyaktige"
-    ],
-    "lesson": 23,
-    "ex": {
-      "no": "Ingen vet nøyaktig hvor mange samer det er.",
-      "de": "Niemand weiß genau, wie viele Samen es gibt."
-    }
-  },
-  {
-    "id": "w23_offisiell",
-    "no": "offisiell",
-    "de": "offiziell",
-    "pos": "adj",
-    "forms": [
-      "offisiell",
-      "offisielt",
-      "offisielle"
-    ],
-    "lesson": 23,
-    "ex": {
-      "no": "Samisk er et offisielt språk i Norge.",
-      "de": "Samisch ist eine offizielle Sprache in Norwegen."
-    }
-  },
-  {
-    "id": "w23_skriftspraak",
-    "no": "skriftspråk",
-    "de": "die Schriftsprache",
-    "pos": "noun",
-    "gender": "n",
-    "forms": [
-      "skriftspråk",
-      "skriftspråket",
-      "skriftspråk",
-      "skriftspråka/skriftspråkene"
-    ],
-    "lesson": 23,
-    "ex": {
-      "no": "Norsk har to skriftspråk: bokmål og nynorsk.",
-      "de": "Norwegisch hat zwei Schriftsprachen: Bokmål und Nynorsk."
-    }
-  },
-  {
     "id": "w23_i_slekt_med",
     "no": "i slekt med",
     "de": "verwandt mit",
@@ -1235,27 +899,6 @@
     "ex": {
       "no": "Samisk og norsk er likeverdige språk.",
       "de": "Samisch und Norwegisch sind gleichwertige Sprachen."
-    }
-  },
-  {
-    "id": "w23_innbygger",
-    "no": "innbygger",
-    "de": "der Einwohner",
-    "deAlt": [
-      "die Einwohnerin"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "forms": [
-      "innbygger",
-      "innbyggeren",
-      "innbyggere",
-      "innbyggerne"
-    ],
-    "lesson": 23,
-    "ex": {
-      "no": "Mange av innbyggerne i Kautokeino snakker samisk.",
-      "de": "Viele Einwohner von Kautokeino sprechen Samisch."
     }
   },
   {
@@ -1516,25 +1159,6 @@
     }
   },
   {
-    "id": "w23_miste",
-    "no": "miste",
-    "de": "verlieren",
-    "pos": "verb",
-    "vf": [
-      "mister",
-      "mistet/mista",
-      "mistet/mista",
-      "mist"
-    ],
-    "vg": "1",
-    "lesson": 23,
-    "ex": {
-      "no": "Mange familier har mistet språket.",
-      "de": "Viele Familien haben die Sprache verloren."
-    },
-    "note": "miste = verlieren (einen Gegenstand, eine Fähigkeit); tape = verlieren (ein Spiel)."
-  },
-  {
     "id": "w23_beklage",
     "no": "beklage",
     "de": "bedauern",
@@ -1582,25 +1206,6 @@
       "no": "Samene har opplevd mye urett.",
       "de": "Die Samen haben viel Unrecht erlebt."
     }
-  },
-  {
-    "id": "w23_knapp",
-    "no": "knapp",
-    "de": "der Knopf",
-    "pos": "noun",
-    "gender": "m",
-    "forms": [
-      "knapp",
-      "knappen",
-      "knapper",
-      "knappene"
-    ],
-    "lesson": 23,
-    "ex": {
-      "no": "Trykk på knappen for å starte.",
-      "de": "Drück auf den Knopf, um zu starten."
-    },
-    "note": "Als Adjektiv: knapp = knapp (knapp tid)."
   },
   {
     "id": "w23_rein",
@@ -1712,44 +1317,6 @@
     "note": "Formeller: oppfinne."
   },
   {
-    "id": "w23_oppfinnelse",
-    "no": "oppfinnelse",
-    "de": "die Erfindung",
-    "pos": "noun",
-    "gender": "m",
-    "forms": [
-      "oppfinnelse",
-      "oppfinnelsen",
-      "oppfinnelser",
-      "oppfinnelsene"
-    ],
-    "lesson": 23,
-    "ex": {
-      "no": "Ostehøvelen er en norsk oppfinnelse.",
-      "de": "Der Käsehobel ist eine norwegische Erfindung."
-    }
-  },
-  {
-    "id": "w23_opptatt",
-    "no": "opptatt",
-    "de": "beschäftigt",
-    "deAlt": [
-      "besetzt"
-    ],
-    "pos": "adj",
-    "forms": [
-      "opptatt",
-      "opptatt",
-      "opptatte"
-    ],
-    "lesson": 23,
-    "ex": {
-      "no": "Beklager, jeg er opptatt nå.",
-      "de": "Tut mir leid, ich bin gerade beschäftigt."
-    },
-    "note": "Auch: Toalettet er opptatt = Die Toilette ist besetzt."
-  },
-  {
     "id": "w23_sette_opp",
     "no": "sette opp",
     "de": "aufstellen",
@@ -1822,26 +1389,6 @@
     }
   },
   {
-    "id": "w23_datamaskin",
-    "no": "datamaskin",
-    "de": "der Computer",
-    "pos": "noun",
-    "gender": "m",
-    "forms": [
-      "datamaskin",
-      "datamaskinen",
-      "datamaskiner",
-      "datamaskinene"
-    ],
-    "lesson": 23,
-    "wk": true,
-    "ex": {
-      "no": "Datamaskinen er gammel og treg.",
-      "de": "Der Computer ist alt und langsam."
-    },
-    "note": "Im Alltag meist: PC-en, maskinen."
-  },
-  {
     "id": "w23_baerbar",
     "no": "bærbar",
     "de": "tragbar",
@@ -1860,25 +1407,6 @@
     "note": "en bærbar (PC) = ein Laptop."
   },
   {
-    "id": "w23_nettbrett",
-    "no": "nettbrett",
-    "de": "das Tablet",
-    "pos": "noun",
-    "gender": "n",
-    "forms": [
-      "nettbrett",
-      "nettbrettet",
-      "nettbrett",
-      "nettbretta/nettbrettene"
-    ],
-    "lesson": 23,
-    "wk": true,
-    "ex": {
-      "no": "Bestemor leser avisa på nettbrettet.",
-      "de": "Oma liest die Zeitung auf dem Tablet."
-    }
-  },
-  {
     "id": "w23_tastatur",
     "no": "tastatur",
     "de": "die Tastatur",
@@ -1895,25 +1423,6 @@
     "ex": {
       "no": "Det norske tastaturet har æ, ø og å.",
       "de": "Die norwegische Tastatur hat æ, ø und å."
-    }
-  },
-  {
-    "id": "w23_skjerm",
-    "no": "skjerm",
-    "de": "der Bildschirm",
-    "pos": "noun",
-    "gender": "m",
-    "forms": [
-      "skjerm",
-      "skjermen",
-      "skjermer",
-      "skjermene"
-    ],
-    "lesson": 23,
-    "wk": true,
-    "ex": {
-      "no": "Skjermen er for mørk i sola.",
-      "de": "Der Bildschirm ist in der Sonne zu dunkel."
     }
   },
   {
@@ -2115,29 +1624,6 @@
     }
   },
   {
-    "id": "w23_nett",
-    "no": "nett",
-    "de": "das Netz",
-    "deAlt": [
-      "das Internet"
-    ],
-    "pos": "noun",
-    "gender": "n",
-    "forms": [
-      "nett",
-      "nettet",
-      "nett",
-      "netta/nettene"
-    ],
-    "lesson": 23,
-    "wk": true,
-    "ex": {
-      "no": "Jeg fant oppskriften på nettet.",
-      "de": "Ich habe das Rezept im Internet gefunden."
-    },
-    "note": "på nettet = im Internet; trådløst nett = WLAN."
-  },
-  {
     "id": "w23_henge_seg_opp",
     "no": "henge seg opp",
     "de": "sich aufhängen (Computer)",
@@ -2154,69 +1640,6 @@
     "ex": {
       "no": "PC-en har hengt seg opp igjen.",
       "de": "Der Computer hat sich schon wieder aufgehängt."
-    }
-  },
-  {
-    "id": "w23_fryse",
-    "no": "fryse",
-    "de": "frieren",
-    "deAlt": [
-      "einfrieren"
-    ],
-    "pos": "verb",
-    "vf": [
-      "fryser",
-      "frøs",
-      "frosset",
-      "frys"
-    ],
-    "vg": "sterk",
-    "lesson": 23,
-    "wk": true,
-    "ex": {
-      "no": "Skjermen frøs midt i videosamtalen.",
-      "de": "Mitten im Videoanruf ist der Bildschirm eingefroren."
-    }
-  },
-  {
-    "id": "w23_batteri",
-    "no": "batteri",
-    "de": "der Akku",
-    "deAlt": [
-      "die Batterie"
-    ],
-    "pos": "noun",
-    "gender": "n",
-    "forms": [
-      "batteri",
-      "batteriet",
-      "batterier",
-      "batteriene"
-    ],
-    "lesson": 23,
-    "wk": true,
-    "ex": {
-      "no": "Batteriet er nesten tomt.",
-      "de": "Der Akku ist fast leer."
-    }
-  },
-  {
-    "id": "w23_lade",
-    "no": "lade",
-    "de": "laden (Akku)",
-    "pos": "verb",
-    "vf": [
-      "lader",
-      "ladet/lada",
-      "ladet/lada",
-      "lad"
-    ],
-    "vg": "1",
-    "lesson": 23,
-    "wk": true,
-    "ex": {
-      "no": "Jeg må lade telefonen.",
-      "de": "Ich muss das Handy laden."
     }
   },
   {
@@ -2279,25 +1702,6 @@
     "ex": {
       "no": "Anna skrev en hyggelig kommentar under innlegget.",
       "de": "Anna schrieb einen netten Kommentar unter den Beitrag."
-    }
-  },
-  {
-    "id": "w23_dele",
-    "no": "dele",
-    "de": "teilen",
-    "pos": "verb",
-    "vf": [
-      "deler",
-      "delte",
-      "delt",
-      "del"
-    ],
-    "vg": "2",
-    "lesson": 23,
-    "wk": true,
-    "ex": {
-      "no": "Del gjerne lenka med vennene dine!",
-      "de": "Teil den Link gern mit deinen Freunden!"
     }
   }
 ]

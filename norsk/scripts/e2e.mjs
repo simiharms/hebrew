@@ -158,6 +158,7 @@ for (let k = 0; k < 40 && !(await page.locator('text=Bra jobba!').isVisible().ca
 await expect('text=Bra jobba!', 'phrase session end screen');
 
 // Typed reviews: answer every card from the vocabulary.
+await page.waitForTimeout(500); // let the session's own last save land first
 await page.evaluate(() => {
   const k = 'nordlys-state-v1';
   const s = JSON.parse(localStorage.getItem(k));

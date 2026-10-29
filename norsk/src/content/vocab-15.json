@@ -1,129 +1,1782 @@
 [
-  { "id": "w15_sin", "no": "sin", "de": "sein / ihr (eigener)", "deAlt": ["sein", "ihr", "seine", "ihre"], "alt": ["si", "sitt", "sine"], "pos": "pron", "lesson": 15, "note": "sin (en-Wort), si (ei-Wort), sitt (et-Wort), sine (Plural) – nur wenn der Besitzer das Subjekt desselben Satzes ist (3. Person).", "ex": { "no": "Ola spiser frokosten sin på bussen.", "de": "Ola isst sein Frühstück im Bus." } },
-  { "id": "w15_all", "no": "all", "de": "all, ganz", "pos": "pron", "lesson": 15, "note": "all (en/ei-Wort), alt (et-Wort; auch: alles), alle (Plural; auch: alle Leute).", "ex": { "no": "Hvem har drukket all melka?", "de": "Wer hat die ganze Milch getrunken?" } },
-  { "id": "w15_hver", "no": "hver", "de": "jeder", "deAlt": ["jede", "jedes"], "pos": "pron", "lesson": 15, "note": "hver (en/ei-Wort), hvert (et-Wort) + unbestimmter Singular: hver dag, hvert år. hver eneste = jeder einzelne.", "ex": { "no": "Per går tur med Bamse hver morgen.", "de": "Per geht jeden Morgen mit Bamse Gassi." } },
-  { "id": "w15_begge", "no": "begge", "de": "beide", "pos": "pron", "lesson": 15, "note": "begge to = alle beide; begge deler = beides.", "ex": { "no": "Begge foreldrene jobber.", "de": "Beide Eltern arbeiten." } },
-  { "id": "w15_annen", "no": "annen", "de": "anderer", "deAlt": ["andere", "anderes"], "alt": ["annet", "andre"], "pos": "pron", "lesson": 15, "note": "annen (en/ei-Wort), annet (et-Wort), andre (Plural und bestimmt): en annen gang, et annet sted, vi andre.", "ex": { "no": "Kari jobber på en annen skole.", "de": "Kari arbeitet an einer anderen Schule." } },
-  { "id": "w15_noen", "no": "noen", "de": "jemand; einige", "deAlt": ["jemand", "einige", "irgendwelche"], "pos": "pron", "lesson": 15, "ex": { "no": "Er det noen hjemme?", "de": "Ist jemand zu Hause?" } },
-  { "id": "w15_noe", "no": "noe", "de": "etwas", "pos": "pron", "lesson": 15, "ex": { "no": "Vil du ha noe å spise?", "de": "Möchtest du etwas zu essen?" } },
-  { "id": "w15_ingen", "no": "ingen", "de": "niemand; kein", "deAlt": ["niemand", "kein", "keine"], "pos": "pron", "lesson": 15, "note": "ingen = ikke noen. Mit Hilfsverb: Jeg har ikke sett noen.", "ex": { "no": "Ingen klarer å være helt stille.", "de": "Niemand schafft es, ganz leise zu sein." } },
-  { "id": "w15_ingenting", "no": "ingenting", "de": "nichts", "pos": "pron", "lesson": 15, "note": "ingenting = ikke noe. Mit Hilfsverb: Ola har ikke gjort noe.", "ex": { "no": "Jeg forstår ingenting!", "de": "Ich verstehe nichts!" } },
-  { "id": "w15_synes", "no": "synes", "de": "finden, meinen", "pos": "verb", "vf": ["synes", "syntes", "syntes", ""], "vg": "uregelm", "lesson": 15, "note": "s-Verb: Präsens = Infinitiv. Für dein eigenes Urteil aus Erfahrung.", "ex": { "no": "Jeg synes Oslo er vakker.", "de": "Ich finde Oslo schön." } },
-  { "id": "w15_tro", "no": "tro", "de": "glauben", "deAlt": ["vermuten"], "pos": "verb", "vf": ["tror", "trodde", "trodd", "tro"], "vg": "4", "lesson": 15, "note": "tro på = glauben an.", "ex": { "no": "Jeg tror det blir regn i morgen.", "de": "Ich glaube, morgen gibt es Regen." } },
-  { "id": "w15_tenke", "no": "tenke", "de": "denken", "deAlt": ["nachdenken"], "pos": "verb", "vf": ["tenker", "tenkte", "tenkt", "tenk"], "vg": "2", "lesson": 15, "note": "tenke på = denken an; tenke å = vorhaben; tenke seg om = überlegen.", "ex": { "no": "Ola tenker å bli ingeniør.", "de": "Ola hat vor, Ingenieur zu werden." } },
-  { "id": "w15_mene", "no": "mene", "de": "meinen, der Ansicht sein", "pos": "verb", "vf": ["mener", "mente", "ment", ""], "vg": "2", "lesson": 15, "ex": { "no": "Kari mener at alle må hjelpe til hjemme.", "de": "Kari ist der Meinung, dass alle zu Hause mithelfen müssen." } },
-  { "id": "w15_savne", "no": "savne", "de": "vermissen", "pos": "verb", "vf": ["savner", "savnet", "savnet", "savn"], "vg": "1", "lesson": 15, "ex": { "no": "Jeg kommer til å savne familien Nygård.", "de": "Ich werde die Familie Nygård vermissen." } },
-  { "id": "w15_vekke", "no": "vekke", "de": "wecken", "pos": "verb", "vf": ["vekker", "vekket/vakte", "vekket/vakt", "vekk"], "vg": "1", "lesson": 15, "ex": { "no": "Kari vekker Ola tre ganger.", "de": "Kari weckt Ola dreimal." } },
-  { "id": "w15_vaakne", "no": "våkne", "de": "aufwachen", "pos": "verb", "vf": ["våkner", "våknet", "våknet", "våkn"], "vg": "1", "lesson": 15, "ex": { "no": "Anna våknet først klokka to.", "de": "Anna wachte erst um zwei auf." } },
-  { "id": "w15_smore", "no": "smøre", "de": "(Brot) schmieren, bestreichen", "pos": "verb", "vf": ["smører", "smurte", "smurt", "smør"], "vg": "uregelm", "lesson": 15, "note": "smøre matpakke = sich Brote für die Arbeit oder Schule machen.", "ex": { "no": "Per smører matpakka si hver morgen.", "de": "Per schmiert sich jeden Morgen seine Brote." } },
-  { "id": "w15_rope", "no": "rope", "de": "rufen", "pos": "verb", "vf": ["roper", "ropte", "ropt", "rop"], "vg": "2", "lesson": 15, "ex": { "no": "Kari roper på Ola.", "de": "Kari ruft nach Ola." } },
-  { "id": "w15_banke", "no": "banke", "de": "klopfen", "pos": "verb", "vf": ["banker", "banket", "banket", "bank"], "vg": "1", "lesson": 15, "ex": { "no": "Per banker på døra hans.", "de": "Per klopft an seine Tür." } },
-  { "id": "w15_bjeffe", "no": "bjeffe", "de": "bellen", "pos": "verb", "vf": ["bjeffer", "bjeffet", "bjeffet", "bjeff"], "vg": "1", "lesson": 15, "ex": { "no": "Bamse bjeffer på alle som går forbi.", "de": "Bamse bellt jeden an, der vorbeigeht." } },
-  { "id": "w15_rette", "no": "rette", "de": "korrigieren", "pos": "verb", "vf": ["retter", "rettet", "rettet", "rett"], "vg": "1", "lesson": 15, "ex": { "no": "Kari retter prøvene til elevene sine.", "de": "Kari korrigiert die Klassenarbeiten ihrer Schüler." } },
-  { "id": "w15_vaske_opp", "no": "vaske opp", "de": "abspülen", "pos": "verb", "vf": ["vasker opp", "vasket opp", "vasket opp", "vask opp"], "vg": "1", "lesson": 15, "wk": true, "ex": { "no": "Etter middagen vasker Per opp.", "de": "Nach dem Abendessen spült Per ab." } },
-  { "id": "w15_rydde", "no": "rydde", "de": "aufräumen", "pos": "verb", "vf": ["rydder", "ryddet", "ryddet", "rydd"], "vg": "1", "lesson": 15, "wk": true, "ex": { "no": "Ola rydder aldri rommet sitt.", "de": "Ola räumt nie sein Zimmer auf." } },
-  { "id": "w15_stovsuge", "no": "støvsuge", "de": "staubsaugen", "pos": "verb", "vf": ["støvsuger", "støvsugde/støvsuget", "støvsugd/støvsuget", "støvsug"], "vg": "3", "lesson": 15, "wk": true, "ex": { "no": "Hvem støvsuger stua i dag?", "de": "Wer saugt heute das Wohnzimmer?" } },
-  { "id": "w15_hente", "no": "hente", "de": "abholen, holen", "pos": "verb", "vf": ["henter", "hentet", "hentet", "hent"], "vg": "1", "lesson": 15, "ex": { "no": "Mange foreldre henter barna i barnehagen klokka fire.", "de": "Viele Eltern holen die Kinder um vier aus dem Kindergarten ab." } },
-  { "id": "w15_fylle", "no": "fylle", "de": "füllen", "pos": "verb", "vf": ["fyller", "fylte", "fylt", "fyll"], "vg": "2", "lesson": 15, "note": "fylle år = Geburtstag haben; hun fyller seks = sie wird sechs.", "ex": { "no": "Barna begynner på skolen det året de fyller seks.", "de": "Die Kinder kommen in dem Jahr in die Schule, in dem sie sechs werden." } },
-  { "id": "w15_innfore", "no": "innføre", "de": "einführen", "pos": "verb", "vf": ["innfører", "innførte", "innført", "innfør"], "vg": "2", "lesson": 15, "ex": { "no": "Norge innførte fedrekvoten i 1993.", "de": "Norwegen führte die Väterquote 1993 ein." } },
-  { "id": "w15_krangle", "no": "krangle", "de": "streiten", "pos": "verb", "vf": ["krangler", "kranglet", "kranglet", "krangle"], "vg": "1", "lesson": 15, "ex": { "no": "Ola og Anna krangler om badet.", "de": "Ola und Anna streiten sich ums Bad." } },
-  { "id": "w15_klare", "no": "klare", "de": "schaffen", "pos": "verb", "vf": ["klarer", "klarte", "klart", "klar"], "vg": "2", "lesson": 15, "ex": { "no": "Ingen klarer å være stille.", "de": "Niemand schafft es, leise zu sein." } },
-  { "id": "w15_ligne_paa", "no": "ligne på", "de": "ähnlich sehen, ähneln", "alt": ["likne på"], "pos": "verb", "vf": ["ligner på", "lignet på", "lignet på", ""], "vg": "1", "lesson": 15, "wk": true, "ex": { "no": "Ola ligner på faren sin.", "de": "Ola sieht seinem Vater ähnlich." } },
-  { "id": "w15_gifte_seg", "no": "gifte seg", "de": "heiraten", "pos": "verb", "vf": ["gifter seg", "giftet seg", "giftet seg", "gift deg"], "vg": "1", "lesson": 15, "wk": true, "ex": { "no": "Kari og Per giftet seg for nesten tretti år siden.", "de": "Kari und Per haben vor fast dreißig Jahren geheiratet." } },
-  { "id": "w15_skille_seg", "no": "skille seg", "de": "sich scheiden lassen", "pos": "verb", "vf": ["skiller seg", "skilte seg", "skilt seg", "skill deg"], "vg": "2", "lesson": 15, "wk": true, "ex": { "no": "Foreldrene hans skilte seg da han var liten.", "de": "Seine Eltern haben sich scheiden lassen, als er klein war." } },
-  { "id": "w15_slekt", "no": "slekt", "de": "die Verwandtschaft", "pos": "noun", "gender": "f", "forms": ["slekt", "slekta", "slekter", "slektene"], "lesson": 15, "wk": true, "note": "være i slekt = verwandt sein", "ex": { "no": "Hele slekta kommer i bryllupet.", "de": "Die ganze Verwandtschaft kommt zur Hochzeit." } },
-  { "id": "w15_slektning", "no": "slektning", "de": "der/die Verwandte", "pos": "noun", "gender": "m", "forms": ["slektning", "slektningen", "slektninger", "slektningene"], "lesson": 15, "wk": true, "ex": { "no": "Jeg har mange slektninger i Lillehammer.", "de": "Ich habe viele Verwandte in Lillehammer." } },
-  { "id": "w15_sosken", "no": "søsken", "de": "die Geschwister", "pos": "noun", "gender": "n", "forms": ["søsken", "søsknene"], "lesson": 15, "wk": true, "note": "Nur Plural: Brüder und Schwestern zusammen.", "ex": { "no": "Hvor mange søsken har du?", "de": "Wie viele Geschwister hast du?" } },
-  { "id": "w15_forelder", "no": "forelder", "de": "der Elternteil", "pos": "noun", "gender": "m", "forms": ["forelder", "forelderen", "foreldre", "foreldrene"], "lesson": 15, "wk": true, "note": "Meist im Plural: foreldre = Eltern.", "ex": { "no": "Begge foreldrene mine jobber.", "de": "Meine Eltern arbeiten beide." } },
-  { "id": "w15_besteforeldre", "no": "besteforeldre", "de": "die Großeltern", "pos": "noun", "gender": "m", "forms": ["besteforeldre", "besteforeldrene"], "lesson": 15, "wk": true, "note": "Nur Plural.", "ex": { "no": "Vi besøker besteforeldrene våre i påsken.", "de": "Wir besuchen über Ostern unsere Großeltern." } },
-  { "id": "w15_farmor", "no": "farmor", "de": "die Großmutter (väterlicherseits)", "pos": "noun", "gender": "f", "forms": ["farmor", "farmora", "farmødre", "farmødrene"], "lesson": 15, "wk": true, "note": "far + mor = die Mutter des Vaters.", "ex": { "no": "Bestemor Ingrid er farmora til Ola og Anna.", "de": "Oma Ingrid ist Olas und Annas Großmutter väterlicherseits." } },
-  { "id": "w15_farfar", "no": "farfar", "de": "der Großvater (väterlicherseits)", "pos": "noun", "gender": "m", "forms": ["farfar", "farfaren", "farfedre", "farfedrene"], "lesson": 15, "wk": true, "ex": { "no": "Farfaren min var fisker.", "de": "Mein Großvater väterlicherseits war Fischer." } },
-  { "id": "w15_mormor", "no": "mormor", "de": "die Großmutter (mütterlicherseits)", "pos": "noun", "gender": "f", "forms": ["mormor", "mormora", "mormødre", "mormødrene"], "lesson": 15, "wk": true, "note": "mor + mor = die Mutter der Mutter.", "ex": { "no": "Mormor bor på et lite sted ved sjøen.", "de": "Oma (mütterlicherseits) wohnt in einem kleinen Ort am Meer." } },
-  { "id": "w15_morfar", "no": "morfar", "de": "der Großvater (mütterlicherseits)", "pos": "noun", "gender": "m", "forms": ["morfar", "morfaren", "morfedre", "morfedrene"], "lesson": 15, "wk": true, "ex": { "no": "Morfar lærte meg å fiske.", "de": "Opa (mütterlicherseits) hat mir das Angeln beigebracht." } },
-  { "id": "w15_barnebarn", "no": "barnebarn", "de": "das Enkelkind", "pos": "noun", "gender": "n", "forms": ["barnebarn", "barnebarnet", "barnebarn", "barnebarna"], "lesson": 15, "wk": true, "ex": { "no": "Bestemor har to barnebarn.", "de": "Oma hat zwei Enkelkinder." } },
-  { "id": "w15_tante", "no": "tante", "de": "die Tante", "pos": "noun", "gender": "f", "forms": ["tante", "tanta", "tanter", "tantene"], "lesson": 15, "wk": true, "ex": { "no": "Tanta mi bor i Bergen.", "de": "Meine Tante wohnt in Bergen." } },
-  { "id": "w15_fetter", "no": "fetter", "de": "der Cousin", "pos": "noun", "gender": "m", "forms": ["fetter", "fetteren", "fettere", "fetterne"], "lesson": 15, "wk": true, "ex": { "no": "Fetteren min spiller i et band.", "de": "Mein Cousin spielt in einer Band." } },
-  { "id": "w15_kusine", "no": "kusine", "de": "die Cousine", "pos": "noun", "gender": "f", "forms": ["kusine", "kusina", "kusiner", "kusinene"], "lesson": 15, "wk": true, "ex": { "no": "Hun er kusina mi.", "de": "Sie ist meine Cousine." } },
-  { "id": "w15_nevo", "no": "nevø", "de": "der Neffe", "pos": "noun", "gender": "m", "forms": ["nevø", "nevøen", "nevøer", "nevøene"], "lesson": 15, "wk": true, "ex": { "no": "Ola er nevøen til onkel Arne.", "de": "Ola ist Onkel Arnes Neffe." } },
-  { "id": "w15_niese", "no": "niese", "de": "die Nichte", "pos": "noun", "gender": "f", "forms": ["niese", "niesa", "nieser", "niesene"], "lesson": 15, "wk": true, "ex": { "no": "Anna er niesa til onkel Arne.", "de": "Anna ist Onkel Arnes Nichte." } },
-  { "id": "w15_svigermor", "no": "svigermor", "de": "die Schwiegermutter", "pos": "noun", "gender": "f", "forms": ["svigermor", "svigermora", "svigermødre", "svigermødrene"], "lesson": 15, "wk": true, "ex": { "no": "Bestemor Ingrid er svigermora til Kari.", "de": "Oma Ingrid ist Karis Schwiegermutter." } },
-  { "id": "w15_svigerfar", "no": "svigerfar", "de": "der Schwiegervater", "pos": "noun", "gender": "m", "forms": ["svigerfar", "svigerfaren", "svigerfedre", "svigerfedrene"], "lesson": 15, "wk": true, "ex": { "no": "Svigerfaren hennes er veldig hyggelig.", "de": "Ihr Schwiegervater ist sehr nett." } },
-  { "id": "w15_svigersonn", "no": "svigersønn", "de": "der Schwiegersohn", "pos": "noun", "gender": "m", "forms": ["svigersønn", "svigersønnen", "svigersønner", "svigersønnene"], "lesson": 15, "wk": true, "ex": { "no": "Han er svigersønnen deres.", "de": "Er ist ihr Schwiegersohn." } },
-  { "id": "w15_svigerdatter", "no": "svigerdatter", "de": "die Schwiegertochter", "pos": "noun", "gender": "f", "forms": ["svigerdatter", "svigerdattera", "svigerdøtre", "svigerdøtrene"], "lesson": 15, "wk": true, "ex": { "no": "Kari er svigerdattera til bestemor Ingrid.", "de": "Kari ist Oma Ingrids Schwiegertochter." } },
-  { "id": "w15_svoger", "no": "svoger", "de": "der Schwager", "pos": "noun", "gender": "m", "forms": ["svoger", "svogeren", "svogere", "svogerne"], "lesson": 15, "wk": true, "ex": { "no": "Per og onkel Arne er svogere.", "de": "Per und Onkel Arne sind Schwäger." } },
-  { "id": "w15_svigerinne", "no": "svigerinne", "de": "die Schwägerin", "pos": "noun", "gender": "f", "forms": ["svigerinne", "svigerinna", "svigerinner", "svigerinnene"], "lesson": 15, "wk": true, "ex": { "no": "Svigerinna mi kommer fra Danmark.", "de": "Meine Schwägerin kommt aus Dänemark." } },
-  { "id": "w15_samboer", "no": "samboer", "de": "der Lebensgefährte, die Lebensgefährtin", "pos": "noun", "gender": "m", "forms": ["samboer", "samboeren", "samboere", "samboerne"], "lesson": 15, "wk": true, "note": "Unverheiratete Paare, die zusammenleben – in Norwegen sehr häufig.", "ex": { "no": "De er ikke gift, de er samboere.", "de": "Sie sind nicht verheiratet, sie leben zusammen." } },
-  { "id": "w15_ektefelle", "no": "ektefelle", "de": "der Ehepartner, die Ehepartnerin", "pos": "noun", "gender": "m", "forms": ["ektefelle", "ektefellen", "ektefeller", "ektefellene"], "lesson": 15, "wk": true, "ex": { "no": "Ta gjerne med ektefelle eller samboer.", "de": "Bring gern deinen Ehepartner oder Lebensgefährten mit." } },
-  { "id": "w15_kone", "no": "kone", "de": "die Ehefrau", "pos": "noun", "gender": "f", "forms": ["kone", "kona", "koner", "konene"], "lesson": 15, "wk": true, "ex": { "no": "Per og kona hans bor på Sagene.", "de": "Per und seine Frau wohnen in Sagene." } },
-  { "id": "w15_ektemann", "no": "ektemann", "de": "der Ehemann", "pos": "noun", "gender": "m", "forms": ["ektemann", "ektemannen", "ektemenn", "ektemennene"], "lesson": 15, "wk": true, "note": "Im Alltag sagt man meist mannen min.", "ex": { "no": "Kari og ektemannen hennes jobber begge i Oslo.", "de": "Kari und ihr Ehemann arbeiten beide in Oslo." } },
-  { "id": "w15_tvilling", "no": "tvilling", "de": "der Zwilling", "pos": "noun", "gender": "m", "forms": ["tvilling", "tvillingen", "tvillinger", "tvillingene"], "lesson": 15, "wk": true, "ex": { "no": "Vi er tvillinger.", "de": "Wir sind Zwillinge." } },
-  { "id": "w15_enebarn", "no": "enebarn", "de": "das Einzelkind", "pos": "noun", "gender": "n", "forms": ["enebarn", "enebarnet", "enebarn", "enebarna"], "lesson": 15, "wk": true, "ex": { "no": "Jeg er enebarn.", "de": "Ich bin Einzelkind." } },
-  { "id": "w15_bonusbarn", "no": "bonusbarn", "de": "das Stiefkind (Bonuskind)", "pos": "noun", "gender": "n", "forms": ["bonusbarn", "bonusbarnet", "bonusbarn", "bonusbarna"], "lesson": 15, "wk": true, "note": "bonus- ist das freundliche Wort für die Stieffamilie: bonuspappa, bonusmamma, bonussøsken.", "ex": { "no": "Hun har to barn og ett bonusbarn.", "de": "Sie hat zwei Kinder und ein Stiefkind." } },
-  { "id": "w15_bryllup", "no": "bryllup", "de": "die Hochzeit", "pos": "noun", "gender": "n", "forms": ["bryllup", "bryllupet", "bryllup", "bryllupa/bryllupene"], "lesson": 15, "wk": true, "ex": { "no": "Bryllupet er i juni.", "de": "Die Hochzeit ist im Juni." } },
-  { "id": "w15_venninne", "no": "venninne", "de": "die Freundin", "pos": "noun", "gender": "f", "forms": ["venninne", "venninna", "venninner", "venninnene"], "lesson": 15, "note": "Freundin (nicht Partnerin); die Partnerin heißt kjæreste.", "ex": { "no": "Bestemor ringer til venninna si.", "de": "Oma ruft ihre Freundin an." } },
-  { "id": "w15_hverdag", "no": "hverdag", "de": "der Alltag", "deAlt": ["der Werktag"], "pos": "noun", "gender": "m", "forms": ["hverdag", "hverdagen", "hverdager", "hverdagene"], "lesson": 15, "ex": { "no": "Det er en helt vanlig hverdag.", "de": "Es ist ein ganz normaler Alltag." } },
-  { "id": "w15_vane", "no": "vane", "de": "die Gewohnheit", "pos": "noun", "gender": "m", "forms": ["vane", "vanen", "vaner", "vanene"], "lesson": 15, "ex": { "no": "Alle har sine faste vaner.", "de": "Alle haben ihre festen Gewohnheiten." } },
-  { "id": "w15_vekkerklokke", "no": "vekkerklokke", "de": "der Wecker", "pos": "noun", "gender": "f", "forms": ["vekkerklokke", "vekkerklokka", "vekkerklokker", "vekkerklokkene"], "lesson": 15, "ex": { "no": "Vekkerklokka ringer klokka seks.", "de": "Der Wecker klingelt um sechs." } },
-  { "id": "w15_nettbrett", "no": "nettbrett", "de": "das Tablet", "pos": "noun", "gender": "n", "forms": ["nettbrett", "nettbrettet", "nettbrett", "nettbretta/nettbrettene"], "lesson": 15, "ex": { "no": "Kari leser avisa på nettbrettet sitt.", "de": "Kari liest die Zeitung auf ihrem Tablet." } },
-  { "id": "w15_brodskive", "no": "brødskive", "de": "die Brotscheibe", "pos": "noun", "gender": "f", "forms": ["brødskive", "brødskiva", "brødskiver", "brødskivene"], "lesson": 15, "ex": { "no": "Per spiser to brødskiver med brunost.", "de": "Per isst zwei Scheiben Brot mit Braunkäse." } },
-  { "id": "w15_mobillader", "no": "mobillader", "de": "das Handyladegerät", "pos": "noun", "gender": "m", "forms": ["mobillader", "mobilladeren", "mobilladere", "mobilladerne"], "lesson": 15, "ex": { "no": "Har noen sett mobilladeren min?", "de": "Hat jemand mein Handyladegerät gesehen?" } },
-  { "id": "w15_fotballproff", "no": "fotballproff", "de": "der Fußballprofi", "pos": "noun", "gender": "m", "forms": ["fotballproff", "fotballproffen", "fotballproffer", "fotballproffene"], "lesson": 15, "ex": { "no": "Ola vil bli fotballproff.", "de": "Ola will Fußballprofi werden." } },
-  { "id": "w15_praksis", "no": "praksis", "de": "das Praktikum", "deAlt": ["die Praxis"], "pos": "noun", "gender": "m", "forms": ["praksis", "praksisen"], "lesson": 15, "ex": { "no": "Anna har praksis på sykehuset.", "de": "Anna macht ein Praktikum im Krankenhaus." } },
-  { "id": "w15_nattevakt", "no": "nattevakt", "de": "der Nachtdienst", "deAlt": ["die Nachtwache"], "pos": "noun", "gender": "f", "forms": ["nattevakt", "nattevakta", "nattevakter", "nattevaktene"], "lesson": 15, "note": "gå nattevakter = Nachtdienste machen", "ex": { "no": "Etter nattevakta sover Anna til klokka to.", "de": "Nach dem Nachtdienst schläft Anna bis zwei." } },
-  { "id": "w15_sykehus", "no": "sykehus", "de": "das Krankenhaus", "pos": "noun", "gender": "n", "forms": ["sykehus", "sykehuset", "sykehus", "sykehusa/sykehusene"], "lesson": 15, "ex": { "no": "Anna sykler til sykehuset.", "de": "Anna radelt zum Krankenhaus." } },
-  { "id": "w15_gjesterom", "no": "gjesterom", "de": "das Gästezimmer", "pos": "noun", "gender": "n", "forms": ["gjesterom", "gjesterommet", "gjesterom", "gjesteromma/gjesterommene"], "lesson": 15, "ex": { "no": "Bestemor sover på gjesterommet.", "de": "Oma schläft im Gästezimmer." } },
-  { "id": "w15_strikketoy", "no": "strikketøy", "de": "das Strickzeug", "pos": "noun", "gender": "n", "forms": ["strikketøy", "strikketøyet"], "lesson": 15, "ex": { "no": "Bestemor har alltid strikketøyet sitt med seg.", "de": "Oma hat immer ihr Strickzeug dabei." } },
-  { "id": "w15_fleksitid", "no": "fleksitid", "de": "die Gleitzeit", "pos": "noun", "gender": "f", "forms": ["fleksitid", "fleksitida"], "lesson": 15, "ex": { "no": "Med fleksitid kan Per gå hjem klokka fire.", "de": "Mit Gleitzeit kann Per um vier nach Hause gehen." } },
-  { "id": "w15_kommune", "no": "kommune", "de": "die Gemeinde, die Stadtverwaltung", "pos": "noun", "gender": "m", "forms": ["kommune", "kommunen", "kommuner", "kommunene"], "lesson": 15, "ex": { "no": "Per jobber i Oslo kommune.", "de": "Per arbeitet bei der Stadt Oslo." } },
-  { "id": "w15_prove", "no": "prøve", "de": "die Klassenarbeit, der Test", "pos": "noun", "gender": "f", "forms": ["prøve", "prøva", "prøver", "prøvene"], "lesson": 15, "note": "Auch das Verb prøve = versuchen, anprobieren.", "ex": { "no": "I morgen har Ola prøve i matte.", "de": "Morgen schreibt Ola eine Mathearbeit." } },
-  { "id": "w15_elev", "no": "elev", "de": "der Schüler", "deAlt": ["die Schülerin"], "pos": "noun", "gender": "m", "forms": ["elev", "eleven", "elever", "elevene"], "lesson": 15, "ex": { "no": "Kari har tjueåtte elever i klassen.", "de": "Kari hat achtundzwanzig Schüler in der Klasse." } },
-  { "id": "w15_lekse", "no": "lekse", "de": "die Hausaufgabe", "pos": "noun", "gender": "f", "forms": ["lekse", "leksa", "lekser", "leksene"], "lesson": 15, "ex": { "no": "Kari hjelper Ola med matteleksene hans.", "de": "Kari hilft Ola bei seinen Mathehausaufgaben." } },
-  { "id": "w15_fiskegrateng", "no": "fiskegrateng", "de": "der Fischgratin", "pos": "noun", "gender": "m", "forms": ["fiskegrateng", "fiskegratengen", "fiskegratenger", "fiskegratengene"], "lesson": 15, "ex": { "no": "På tirsdager lager Per fiskegrateng.", "de": "Dienstags macht Per Fischgratin." } },
-  { "id": "w15_oppvask", "no": "oppvask", "de": "der Abwasch", "pos": "noun", "gender": "m", "forms": ["oppvask", "oppvasken"], "lesson": 15, "wk": true, "ex": { "no": "Hvem tar oppvasken i dag?", "de": "Wer macht heute den Abwasch?" } },
-  { "id": "w15_teppe", "no": "teppe", "de": "die Decke", "deAlt": ["der Teppich"], "pos": "noun", "gender": "n", "forms": ["teppe", "teppet", "tepper", "teppene"], "lesson": 15, "ex": { "no": "Bamse legger seg på teppet sitt.", "de": "Bamse legt sich auf seine Decke." } },
-  { "id": "w15_peis", "no": "peis", "de": "der Kamin", "pos": "noun", "gender": "m", "forms": ["peis", "peisen", "peiser", "peisene"], "lesson": 15, "ex": { "no": "Det er koselig foran peisen.", "de": "Vor dem Kamin ist es gemütlich." } },
-  { "id": "w15_arbeidsliv", "no": "arbeidsliv", "de": "das Arbeitsleben", "pos": "noun", "gender": "n", "forms": ["arbeidsliv", "arbeidslivet"], "lesson": 15, "ex": { "no": "Det norske arbeidslivet er ganske uformelt.", "de": "Das norwegische Arbeitsleben ist ziemlich informell." } },
-  { "id": "w15_arbeidsuke", "no": "arbeidsuke", "de": "die Arbeitswoche", "pos": "noun", "gender": "f", "forms": ["arbeidsuke", "arbeidsuka", "arbeidsuker", "arbeidsukene"], "lesson": 15, "ex": { "no": "For mange er en arbeidsuke 37,5 timer.", "de": "Für viele hat eine Arbeitswoche 37,5 Stunden." } },
-  { "id": "w15_jobbe_deltid", "no": "jobbe deltid", "de": "Teilzeit arbeiten", "pos": "phrase", "lesson": 15, "note": "Gegenteil: jobbe heltid (Vollzeit arbeiten).", "ex": { "no": "Mange kvinner jobber deltid.", "de": "Viele Frauen arbeiten Teilzeit." } },
-  { "id": "w15_barnehage", "no": "barnehage", "de": "der Kindergarten", "deAlt": ["die Kita"], "pos": "noun", "gender": "m", "forms": ["barnehage", "barnehagen", "barnehager", "barnehagene"], "lesson": 15, "ex": { "no": "De fleste barn går i barnehage.", "de": "Die meisten Kinder gehen in den Kindergarten." } },
-  { "id": "w15_skolefritidsordning", "no": "skolefritidsordning", "de": "die Nachmittagsbetreuung (an der Schule)", "pos": "noun", "gender": "f", "forms": ["skolefritidsordning", "skolefritidsordninga", "skolefritidsordninger", "skolefritidsordningene"], "lesson": 15, "note": "Abkürzung: SFO, für die jüngsten Schüler.", "ex": { "no": "Etter skolen går de minste barna på SFO.", "de": "Nach der Schule gehen die Kleinsten in die Nachmittagsbetreuung." } },
-  { "id": "w15_foreldrepermisjon", "no": "foreldrepermisjon", "de": "die Elternzeit", "pos": "noun", "gender": "m", "forms": ["foreldrepermisjon", "foreldrepermisjonen", "foreldrepermisjoner", "foreldrepermisjonene"], "lesson": 15, "ex": { "no": "Han tar foreldrepermisjon i sommer.", "de": "Er nimmt diesen Sommer Elternzeit." } },
-  { "id": "w15_fedrekvote", "no": "fedrekvote", "de": "die Väterquote", "pos": "noun", "gender": "m", "forms": ["fedrekvote", "fedrekvoten", "fedrekvoter", "fedrekvotene"], "lesson": 15, "note": "Teil der Elternzeit, der nur für den Vater da ist.", "ex": { "no": "Fedrekvoten kom i 1993.", "de": "Die Väterquote kam 1993." } },
-  { "id": "w15_lonn", "no": "lønn", "de": "der Lohn, das Gehalt", "pos": "noun", "gender": "f", "forms": ["lønn", "lønna"], "lesson": 15, "ex": { "no": "Permisjonen er med lønn.", "de": "Die Elternzeit ist bezahlt." } },
-  { "id": "w15_barnevogn", "no": "barnevogn", "de": "der Kinderwagen", "pos": "noun", "gender": "f", "forms": ["barnevogn", "barnevogna", "barnevogner", "barnevognene"], "lesson": 15, "ex": { "no": "Mange fedre går tur med barnevogna.", "de": "Viele Väter gehen mit dem Kinderwagen spazieren." } },
-  { "id": "w15_likestilling", "no": "likestilling", "de": "die Gleichstellung", "pos": "noun", "gender": "f", "forms": ["likestilling", "likestillinga"], "lesson": 15, "ex": { "no": "Likestilling er en viktig verdi i Norge.", "de": "Gleichstellung ist in Norwegen ein wichtiger Wert." } },
-  { "id": "w15_verdi", "no": "verdi", "de": "der Wert", "pos": "noun", "gender": "m", "forms": ["verdi", "verdien", "verdier", "verdiene"], "lesson": 15, "ex": { "no": "Familien er en viktig verdi for ham.", "de": "Die Familie ist für ihn ein wichtiger Wert." } },
-  { "id": "w15_mulighet", "no": "mulighet", "de": "die Möglichkeit", "deAlt": ["die Chance"], "pos": "noun", "gender": "m", "forms": ["mulighet", "muligheten", "muligheter", "mulighetene"], "lesson": 15, "ex": { "no": "Kvinner og menn skal ha de samme mulighetene.", "de": "Frauen und Männer sollen die gleichen Chancen haben." } },
-  { "id": "w15_trening", "no": "trening", "de": "das Training", "pos": "noun", "gender": "f", "forms": ["trening", "treninga"], "lesson": 15, "ex": { "no": "Ola har trening tre ganger i uka.", "de": "Ola hat dreimal in der Woche Training." } },
-  { "id": "w15_par", "no": "par", "de": "das Paar", "pos": "noun", "gender": "n", "forms": ["par", "paret", "par", "para/parene"], "lesson": 15, "note": "et par = ein Paar; auch: ein paar (et par dager).", "ex": { "no": "Paret har bodd sammen i ti år.", "de": "Das Paar wohnt seit zehn Jahren zusammen." } },
-  { "id": "w15_gift", "no": "gift", "de": "verheiratet", "pos": "adj", "forms": ["gift", "gift", "gifte"], "lesson": 15, "wk": true, "note": "Falscher Freund: gift (Adjektiv) = verheiratet. Das Substantiv en gift bedeutet dagegen wirklich »Gift«.", "ex": { "no": "Kari og Per er gift.", "de": "Kari und Per sind verheiratet." } },
-  { "id": "w15_skilt", "no": "skilt", "de": "geschieden", "pos": "adj", "forms": ["skilt", "skilt", "skilte"], "lesson": 15, "wk": true, "ex": { "no": "Foreldrene hans er skilt.", "de": "Seine Eltern sind geschieden." } },
-  { "id": "w15_enslig", "no": "enslig", "de": "alleinstehend", "pos": "adj", "forms": ["enslig", "enslig", "enslige"], "lesson": 15, "wk": true, "ex": { "no": "Hun er enslig mor med to barn.", "de": "Sie ist alleinerziehende Mutter mit zwei Kindern." } },
-  { "id": "w15_fast", "no": "fast", "de": "fest", "pos": "adj", "forms": ["fast", "fast", "faste"], "lesson": 15, "ex": { "no": "Hver voksen har sin faste middagsdag.", "de": "Jeder Erwachsene hat seinen festen Kochtag." } },
-  { "id": "w15_spesiell", "no": "spesiell", "de": "besonders, speziell", "pos": "adj", "forms": ["spesiell", "spesielt", "spesielle"], "lesson": 15, "ex": { "no": "Familien er vanlig og spesiell på samme tid.", "de": "Die Familie ist normal und zugleich besonders." } },
-  { "id": "w15_irritert", "no": "irritert", "de": "gereizt, genervt", "pos": "adj", "forms": ["irritert", "irritert", "irriterte"], "lesson": 15, "ex": { "no": "Begge to blir litt irriterte.", "de": "Beide werden ein bisschen gereizt." } },
-  { "id": "w15_voksen", "no": "voksen", "de": "erwachsen", "pos": "adj", "forms": ["voksen", "voksent", "voksne"], "lesson": 15, "note": "Auch als Substantiv: en voksen – voksne (ein Erwachsener – Erwachsene).", "ex": { "no": "Barna er nesten voksne.", "de": "Die Kinder sind fast erwachsen." } },
-  { "id": "w15_forskjellig", "no": "forskjellig", "de": "verschieden, unterschiedlich", "pos": "adj", "forms": ["forskjellig", "forskjellig", "forskjellige"], "lesson": 15, "ex": { "no": "Familier ser forskjellige ut.", "de": "Familien sehen unterschiedlich aus." } },
-  { "id": "w15_likevel", "no": "likevel", "de": "trotzdem", "pos": "adv", "lesson": 15, "ex": { "no": "Ola sier nei, men han liker trollhistoriene likevel.", "de": "Ola sagt nein, aber er mag die Trollgeschichten trotzdem." } },
-  { "id": "w15_nemlig", "no": "nemlig", "de": "nämlich", "pos": "adv", "lesson": 15, "ex": { "no": "Det er ikke stille, Bamse bjeffer nemlig.", "de": "Es ist nicht still, Bamse bellt nämlich." } },
-  { "id": "w15_overalt", "no": "overalt", "de": "überall", "pos": "adv", "lesson": 15, "ex": { "no": "Bestemor har strikketøyet med seg overalt.", "de": "Oma hat ihr Strickzeug überall dabei." } },
-  { "id": "w15_i_hvert_fall", "no": "i hvert fall", "de": "jedenfalls, zumindest", "pos": "phrase", "lesson": 15, "ex": { "no": "Ingen sier noe – i hvert fall ikke i kveld.", "de": "Niemand sagt etwas – jedenfalls nicht heute Abend." } },
-  { "id": "w15_til_slutt", "no": "til slutt", "de": "schließlich, am Ende", "pos": "phrase", "lesson": 15, "ex": { "no": "Til slutt kommer Ola ned.", "de": "Schließlich kommt Ola herunter." } },
-  { "id": "w15_hit_og_dit", "no": "hit og dit", "de": "hin und her", "pos": "phrase", "lesson": 15, "ex": { "no": "Foreldrene kjører barna hit og dit.", "de": "Die Eltern fahren die Kinder hin und her." } },
-  { "id": "w15_kunne_klokka", "no": "kunne klokka", "de": "die Uhr lesen können", "pos": "phrase", "lesson": 15, "ex": { "no": "Per tror at Bamse kan klokka.", "de": "Per glaubt, dass Bamse die Uhr lesen kann." } },
-  { "id": "w15_vaere_i_slekt", "no": "være i slekt", "de": "verwandt sein", "pos": "phrase", "lesson": 15, "wk": true, "ex": { "no": "Er dere i slekt?", "de": "Seid ihr verwandt?" } },
-  { "id": "w15_gaa_paa_videregaaende", "no": "gå på videregående", "de": "auf die weiterführende Schule (Oberstufe) gehen", "pos": "phrase", "lesson": 15, "note": "videregående skole: nach der 10. Klasse, meist von 16 bis 19.", "ex": { "no": "Ola går på videregående.", "de": "Ola geht auf die weiterführende Schule." } },
-  { "id": "w15_vente_barn", "no": "vente barn", "de": "ein Kind erwarten", "pos": "phrase", "lesson": 15, "wk": true, "ex": { "no": "Søstera mi venter barn i mai.", "de": "Meine Schwester bekommt im Mai ein Kind." } },
-  { "id": "w15_det_er_min_tur", "no": "det er min tur", "de": "ich bin dran", "pos": "phrase", "lesson": 15, "note": "Det er Pers tur = Per ist dran.", "ex": { "no": "I dag er det min tur til å lage middag.", "de": "Heute bin ich mit Kochen dran." } },
-  { "id": "w15_tirsdag", "no": "tirsdag", "de": "der Dienstag", "pos": "noun", "gender": "m", "forms": ["tirsdag", "tirsdagen", "tirsdager", "tirsdagene"], "lesson": 15, "note": "Wochentage schreibt man klein: på tirsdag = am Dienstag, på tirsdager = dienstags.", "ex": { "no": "På tirsdager lager Per middag.", "de": "Dienstags kocht Per." } },
-  { "id": "w15_avis", "no": "avis", "de": "die Zeitung", "pos": "noun", "gender": "f", "forms": ["avis", "avisa", "aviser", "avisene"], "lesson": 15, "ex": { "no": "Kari leser avisa på nettbrettet.", "de": "Kari liest die Zeitung auf dem Tablet." } },
-  { "id": "w15_haar", "no": "hår", "de": "das Haar, die Haare", "deAlt": ["das Haar", "die Haare"], "pos": "noun", "gender": "n", "forms": ["hår", "håret", "hår", "håra/hårene"], "lesson": 15, "note": "håret = die Haare (Singular!): Håret hans er langt.", "ex": { "no": "Ola kommer ned med håret til alle kanter.", "de": "Ola kommt mit zerzausten Haaren herunter." } },
-  { "id": "w15_serie", "no": "serie", "de": "die Serie", "pos": "noun", "gender": "m", "forms": ["serie", "serien", "serier", "seriene"], "lesson": 15, "ex": { "no": "Per og Kari ser en serie sammen.", "de": "Per und Kari schauen zusammen eine Serie." } },
-  { "id": "w15_midnatt", "no": "midnatt", "de": "die Mitternacht", "pos": "noun", "gender": "m", "forms": ["midnatt", "midnatten"], "lesson": 15, "ex": { "no": "Ola spiller til midnatt.", "de": "Ola spielt bis Mitternacht." } },
-  { "id": "w15_kvinne", "no": "kvinne", "de": "die Frau", "pos": "noun", "gender": "f", "forms": ["kvinne", "kvinna", "kvinner", "kvinnene"], "lesson": 15, "note": "kvinne = Frau allgemein; die Ehefrau heißt kone.", "ex": { "no": "Mange kvinner jobber deltid.", "de": "Viele Frauen arbeiten Teilzeit." } },
-  { "id": "w15_permisjon", "no": "permisjon", "de": "die Freistellung (von der Arbeit)", "deAlt": ["die Freistellung", "die Beurlaubung"], "pos": "noun", "gender": "m", "forms": ["permisjon", "permisjonen", "permisjoner", "permisjonene"], "lesson": 15, "note": "ta permisjon = sich (vom Job) freistellen lassen; foreldrepermisjon = Elternzeit.", "ex": { "no": "Per tok permisjon da Ola ble født.", "de": "Per hat sich freistellen lassen, als Ola geboren wurde." } },
-  { "id": "w15_dit", "no": "dit", "de": "dorthin", "pos": "adv", "lesson": 15, "note": "hit og dit = hin und her. Ort: der (dort).", "ex": { "no": "Tromsø? Dit flytter jeg neste uke.", "de": "Tromsø? Dorthin ziehe ich nächste Woche." } },
-  { "id": "w15_syk", "no": "syk", "de": "krank", "pos": "adj", "forms": ["syk", "sykt", "syke"], "lesson": 15, "ex": { "no": "Når et barn er sykt, hjelper besteforeldrene ofte til.", "de": "Wenn ein Kind krank ist, helfen die Großeltern oft mit." } },
-  { "id": "w15_hjem_heim", "no": "hjem", "de": "das Zuhause, das Heim", "deAlt": ["das Zuhause", "das Heim"], "pos": "noun", "gender": "n", "forms": ["hjem", "hjemmet", "hjem", "hjemma/hjemmene"], "lesson": 15, "note": "Auch Adverb: hjem = nach Hause, hjemme = zu Hause.", "ex": { "no": "Mange barn har to hjem.", "de": "Viele Kinder haben zwei Zuhause." } },
-  { "id": "w15_datamaskin", "no": "datamaskin", "de": "der Computer", "pos": "noun", "gender": "m", "forms": ["datamaskin", "datamaskinen", "datamaskiner", "datamaskinene"], "lesson": 15, "ex": { "no": "Ola spiller på datamaskinen sin til midnatt.", "de": "Ola spielt bis Mitternacht an seinem Computer." } }
+  {
+    "id": "w15_sin",
+    "no": "sin",
+    "de": "sein / ihr (eigener)",
+    "deAlt": [
+      "sein",
+      "ihr",
+      "seine",
+      "ihre"
+    ],
+    "alt": [
+      "si",
+      "sitt",
+      "sine"
+    ],
+    "pos": "pron",
+    "lesson": 15,
+    "note": "sin (en-Wort), si (ei-Wort), sitt (et-Wort), sine (Plural) – nur wenn der Besitzer das Subjekt desselben Satzes ist (3. Person).",
+    "ex": {
+      "no": "Ola spiser frokosten sin på bussen.",
+      "de": "Ola isst sein Frühstück im Bus."
+    }
+  },
+  {
+    "id": "w15_all",
+    "no": "all",
+    "de": "all, ganz",
+    "pos": "pron",
+    "lesson": 15,
+    "note": "all (en/ei-Wort), alt (et-Wort; auch: alles), alle (Plural; auch: alle Leute).",
+    "ex": {
+      "no": "Hvem har drukket all melka?",
+      "de": "Wer hat die ganze Milch getrunken?"
+    }
+  },
+  {
+    "id": "w15_begge",
+    "no": "begge",
+    "de": "beide",
+    "pos": "pron",
+    "lesson": 15,
+    "note": "begge to = alle beide; begge deler = beides.",
+    "ex": {
+      "no": "Begge foreldrene jobber.",
+      "de": "Beide Eltern arbeiten."
+    }
+  },
+  {
+    "id": "w15_noe",
+    "no": "noe",
+    "de": "etwas",
+    "pos": "pron",
+    "lesson": 15,
+    "ex": {
+      "no": "Vil du ha noe å spise?",
+      "de": "Möchtest du etwas zu essen?"
+    }
+  },
+  {
+    "id": "w15_ingen",
+    "no": "ingen",
+    "de": "niemand; kein",
+    "deAlt": [
+      "niemand",
+      "kein",
+      "keine"
+    ],
+    "pos": "pron",
+    "lesson": 15,
+    "note": "ingen = ikke noen. Mit Hilfsverb: Jeg har ikke sett noen.",
+    "ex": {
+      "no": "Ingen klarer å være helt stille.",
+      "de": "Niemand schafft es, ganz leise zu sein."
+    }
+  },
+  {
+    "id": "w15_vekke",
+    "no": "vekke",
+    "de": "wecken",
+    "pos": "verb",
+    "vf": [
+      "vekker",
+      "vekket/vakte",
+      "vekket/vakt",
+      "vekk"
+    ],
+    "vg": "1",
+    "lesson": 15,
+    "ex": {
+      "no": "Kari vekker Ola tre ganger.",
+      "de": "Kari weckt Ola dreimal."
+    }
+  },
+  {
+    "id": "w15_rope",
+    "no": "rope",
+    "de": "rufen",
+    "pos": "verb",
+    "vf": [
+      "roper",
+      "ropte",
+      "ropt",
+      "rop"
+    ],
+    "vg": "2",
+    "lesson": 15,
+    "ex": {
+      "no": "Kari roper på Ola.",
+      "de": "Kari ruft nach Ola."
+    }
+  },
+  {
+    "id": "w15_bjeffe",
+    "no": "bjeffe",
+    "de": "bellen",
+    "pos": "verb",
+    "vf": [
+      "bjeffer",
+      "bjeffet",
+      "bjeffet",
+      "bjeff"
+    ],
+    "vg": "1",
+    "lesson": 15,
+    "ex": {
+      "no": "Bamse bjeffer på alle som går forbi.",
+      "de": "Bamse bellt jeden an, der vorbeigeht."
+    }
+  },
+  {
+    "id": "w15_rette",
+    "no": "rette",
+    "de": "korrigieren",
+    "pos": "verb",
+    "vf": [
+      "retter",
+      "rettet",
+      "rettet",
+      "rett"
+    ],
+    "vg": "1",
+    "lesson": 15,
+    "ex": {
+      "no": "Kari retter prøvene til elevene sine.",
+      "de": "Kari korrigiert die Klassenarbeiten ihrer Schüler."
+    }
+  },
+  {
+    "id": "w15_vaske_opp",
+    "no": "vaske opp",
+    "de": "abspülen",
+    "pos": "verb",
+    "vf": [
+      "vasker opp",
+      "vasket opp",
+      "vasket opp",
+      "vask opp"
+    ],
+    "vg": "1",
+    "lesson": 15,
+    "wk": true,
+    "ex": {
+      "no": "Etter middagen vasker Per opp.",
+      "de": "Nach dem Abendessen spült Per ab."
+    }
+  },
+  {
+    "id": "w15_stovsuge",
+    "no": "støvsuge",
+    "de": "staubsaugen",
+    "pos": "verb",
+    "vf": [
+      "støvsuger",
+      "støvsugde/støvsuget",
+      "støvsugd/støvsuget",
+      "støvsug"
+    ],
+    "vg": "3",
+    "lesson": 15,
+    "wk": true,
+    "ex": {
+      "no": "Hvem støvsuger stua i dag?",
+      "de": "Wer saugt heute das Wohnzimmer?"
+    }
+  },
+  {
+    "id": "w15_innfore",
+    "no": "innføre",
+    "de": "einführen",
+    "pos": "verb",
+    "vf": [
+      "innfører",
+      "innførte",
+      "innført",
+      "innfør"
+    ],
+    "vg": "2",
+    "lesson": 15,
+    "ex": {
+      "no": "Norge innførte fedrekvoten i 1993.",
+      "de": "Norwegen führte die Väterquote 1993 ein."
+    }
+  },
+  {
+    "id": "w15_krangle",
+    "no": "krangle",
+    "de": "streiten",
+    "pos": "verb",
+    "vf": [
+      "krangler",
+      "kranglet",
+      "kranglet",
+      "krangle"
+    ],
+    "vg": "1",
+    "lesson": 15,
+    "ex": {
+      "no": "Ola og Anna krangler om badet.",
+      "de": "Ola und Anna streiten sich ums Bad."
+    }
+  },
+  {
+    "id": "w15_klare",
+    "no": "klare",
+    "de": "schaffen",
+    "pos": "verb",
+    "vf": [
+      "klarer",
+      "klarte",
+      "klart",
+      "klar"
+    ],
+    "vg": "2",
+    "lesson": 15,
+    "ex": {
+      "no": "Ingen klarer å være stille.",
+      "de": "Niemand schafft es, leise zu sein."
+    }
+  },
+  {
+    "id": "w15_ligne_paa",
+    "no": "ligne på",
+    "de": "ähnlich sehen, ähneln",
+    "alt": [
+      "likne på"
+    ],
+    "pos": "verb",
+    "vf": [
+      "ligner på",
+      "lignet på",
+      "lignet på",
+      ""
+    ],
+    "vg": "1",
+    "lesson": 15,
+    "wk": true,
+    "ex": {
+      "no": "Ola ligner på faren sin.",
+      "de": "Ola sieht seinem Vater ähnlich."
+    }
+  },
+  {
+    "id": "w15_skille_seg",
+    "no": "skille seg",
+    "de": "sich scheiden lassen",
+    "pos": "verb",
+    "vf": [
+      "skiller seg",
+      "skilte seg",
+      "skilt seg",
+      "skill deg"
+    ],
+    "vg": "2",
+    "lesson": 15,
+    "wk": true,
+    "ex": {
+      "no": "Foreldrene hans skilte seg da han var liten.",
+      "de": "Seine Eltern haben sich scheiden lassen, als er klein war."
+    }
+  },
+  {
+    "id": "w15_slekt",
+    "no": "slekt",
+    "de": "die Verwandtschaft",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "slekt",
+      "slekta",
+      "slekter",
+      "slektene"
+    ],
+    "lesson": 15,
+    "wk": true,
+    "note": "være i slekt = verwandt sein",
+    "ex": {
+      "no": "Hele slekta kommer i bryllupet.",
+      "de": "Die ganze Verwandtschaft kommt zur Hochzeit."
+    }
+  },
+  {
+    "id": "w15_slektning",
+    "no": "slektning",
+    "de": "der/die Verwandte",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "slektning",
+      "slektningen",
+      "slektninger",
+      "slektningene"
+    ],
+    "lesson": 15,
+    "wk": true,
+    "ex": {
+      "no": "Jeg har mange slektninger i Lillehammer.",
+      "de": "Ich habe viele Verwandte in Lillehammer."
+    }
+  },
+  {
+    "id": "w15_sosken",
+    "no": "søsken",
+    "de": "die Geschwister",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "søsken",
+      "søsknene"
+    ],
+    "lesson": 15,
+    "wk": true,
+    "note": "Nur Plural: Brüder und Schwestern zusammen.",
+    "ex": {
+      "no": "Hvor mange søsken har du?",
+      "de": "Wie viele Geschwister hast du?"
+    },
+    "plOnly": true
+  },
+  {
+    "id": "w15_besteforeldre",
+    "no": "besteforeldre",
+    "de": "die Großeltern",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "besteforeldre",
+      "besteforeldrene"
+    ],
+    "lesson": 15,
+    "wk": true,
+    "note": "Nur Plural.",
+    "ex": {
+      "no": "Vi besøker besteforeldrene våre i påsken.",
+      "de": "Wir besuchen über Ostern unsere Großeltern."
+    },
+    "plOnly": true
+  },
+  {
+    "id": "w15_farmor",
+    "no": "farmor",
+    "de": "die Großmutter (väterlicherseits)",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "farmor",
+      "farmora",
+      "farmødre",
+      "farmødrene"
+    ],
+    "lesson": 15,
+    "wk": true,
+    "note": "far + mor = die Mutter des Vaters.",
+    "ex": {
+      "no": "Bestemor Ingrid er farmora til Ola og Anna.",
+      "de": "Oma Ingrid ist Olas und Annas Großmutter väterlicherseits."
+    }
+  },
+  {
+    "id": "w15_farfar",
+    "no": "farfar",
+    "de": "der Großvater (väterlicherseits)",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "farfar",
+      "farfaren",
+      "farfedre",
+      "farfedrene"
+    ],
+    "lesson": 15,
+    "wk": true,
+    "ex": {
+      "no": "Farfaren min var fisker.",
+      "de": "Mein Großvater väterlicherseits war Fischer."
+    }
+  },
+  {
+    "id": "w15_mormor",
+    "no": "mormor",
+    "de": "die Großmutter (mütterlicherseits)",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "mormor",
+      "mormora",
+      "mormødre",
+      "mormødrene"
+    ],
+    "lesson": 15,
+    "wk": true,
+    "note": "mor + mor = die Mutter der Mutter.",
+    "ex": {
+      "no": "Mormor bor på et lite sted ved sjøen.",
+      "de": "Oma (mütterlicherseits) wohnt in einem kleinen Ort am Meer."
+    }
+  },
+  {
+    "id": "w15_morfar",
+    "no": "morfar",
+    "de": "der Großvater (mütterlicherseits)",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "morfar",
+      "morfaren",
+      "morfedre",
+      "morfedrene"
+    ],
+    "lesson": 15,
+    "wk": true,
+    "ex": {
+      "no": "Morfar lærte meg å fiske.",
+      "de": "Opa (mütterlicherseits) hat mir das Angeln beigebracht."
+    }
+  },
+  {
+    "id": "w15_barnebarn",
+    "no": "barnebarn",
+    "de": "das Enkelkind",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "barnebarn",
+      "barnebarnet",
+      "barnebarn",
+      "barnebarna"
+    ],
+    "lesson": 15,
+    "wk": true,
+    "ex": {
+      "no": "Bestemor har to barnebarn.",
+      "de": "Oma hat zwei Enkelkinder."
+    }
+  },
+  {
+    "id": "w15_tante",
+    "no": "tante",
+    "de": "die Tante",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "tante",
+      "tanta",
+      "tanter",
+      "tantene"
+    ],
+    "lesson": 15,
+    "wk": true,
+    "ex": {
+      "no": "Tanta mi bor i Bergen.",
+      "de": "Meine Tante wohnt in Bergen."
+    }
+  },
+  {
+    "id": "w15_fetter",
+    "no": "fetter",
+    "de": "der Cousin",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "fetter",
+      "fetteren",
+      "fettere",
+      "fetterne"
+    ],
+    "lesson": 15,
+    "wk": true,
+    "ex": {
+      "no": "Fetteren min spiller i et band.",
+      "de": "Mein Cousin spielt in einer Band."
+    }
+  },
+  {
+    "id": "w15_kusine",
+    "no": "kusine",
+    "de": "die Cousine",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "kusine",
+      "kusina",
+      "kusiner",
+      "kusinene"
+    ],
+    "lesson": 15,
+    "wk": true,
+    "ex": {
+      "no": "Hun er kusina mi.",
+      "de": "Sie ist meine Cousine."
+    }
+  },
+  {
+    "id": "w15_nevo",
+    "no": "nevø",
+    "de": "der Neffe",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "nevø",
+      "nevøen",
+      "nevøer",
+      "nevøene"
+    ],
+    "lesson": 15,
+    "wk": true,
+    "ex": {
+      "no": "Ola er nevøen til onkel Arne.",
+      "de": "Ola ist Onkel Arnes Neffe."
+    }
+  },
+  {
+    "id": "w15_niese",
+    "no": "niese",
+    "de": "die Nichte",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "niese",
+      "niesa",
+      "nieser",
+      "niesene"
+    ],
+    "lesson": 15,
+    "wk": true,
+    "ex": {
+      "no": "Anna er niesa til onkel Arne.",
+      "de": "Anna ist Onkel Arnes Nichte."
+    }
+  },
+  {
+    "id": "w15_svigermor",
+    "no": "svigermor",
+    "de": "die Schwiegermutter",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "svigermor",
+      "svigermora",
+      "svigermødre",
+      "svigermødrene"
+    ],
+    "lesson": 15,
+    "wk": true,
+    "ex": {
+      "no": "Bestemor Ingrid er svigermora til Kari.",
+      "de": "Oma Ingrid ist Karis Schwiegermutter."
+    }
+  },
+  {
+    "id": "w15_svigerfar",
+    "no": "svigerfar",
+    "de": "der Schwiegervater",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "svigerfar",
+      "svigerfaren",
+      "svigerfedre",
+      "svigerfedrene"
+    ],
+    "lesson": 15,
+    "wk": true,
+    "ex": {
+      "no": "Svigerfaren hennes er veldig hyggelig.",
+      "de": "Ihr Schwiegervater ist sehr nett."
+    }
+  },
+  {
+    "id": "w15_svigersonn",
+    "no": "svigersønn",
+    "de": "der Schwiegersohn",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "svigersønn",
+      "svigersønnen",
+      "svigersønner",
+      "svigersønnene"
+    ],
+    "lesson": 15,
+    "wk": true,
+    "ex": {
+      "no": "Han er svigersønnen deres.",
+      "de": "Er ist ihr Schwiegersohn."
+    }
+  },
+  {
+    "id": "w15_svigerdatter",
+    "no": "svigerdatter",
+    "de": "die Schwiegertochter",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "svigerdatter",
+      "svigerdattera",
+      "svigerdøtre",
+      "svigerdøtrene"
+    ],
+    "lesson": 15,
+    "wk": true,
+    "ex": {
+      "no": "Kari er svigerdattera til bestemor Ingrid.",
+      "de": "Kari ist Oma Ingrids Schwiegertochter."
+    }
+  },
+  {
+    "id": "w15_svoger",
+    "no": "svoger",
+    "de": "der Schwager",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "svoger",
+      "svogeren",
+      "svogere",
+      "svogerne"
+    ],
+    "lesson": 15,
+    "wk": true,
+    "ex": {
+      "no": "Per og onkel Arne er svogere.",
+      "de": "Per und Onkel Arne sind Schwäger."
+    }
+  },
+  {
+    "id": "w15_svigerinne",
+    "no": "svigerinne",
+    "de": "die Schwägerin",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "svigerinne",
+      "svigerinna",
+      "svigerinner",
+      "svigerinnene"
+    ],
+    "lesson": 15,
+    "wk": true,
+    "ex": {
+      "no": "Svigerinna mi kommer fra Danmark.",
+      "de": "Meine Schwägerin kommt aus Dänemark."
+    }
+  },
+  {
+    "id": "w15_samboer",
+    "no": "samboer",
+    "de": "der Lebensgefährte, die Lebensgefährtin",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "samboer",
+      "samboeren",
+      "samboere",
+      "samboerne"
+    ],
+    "lesson": 15,
+    "wk": true,
+    "note": "Unverheiratete Paare, die zusammenleben – in Norwegen sehr häufig.",
+    "ex": {
+      "no": "De er ikke gift, de er samboere.",
+      "de": "Sie sind nicht verheiratet, sie leben zusammen."
+    }
+  },
+  {
+    "id": "w15_ektefelle",
+    "no": "ektefelle",
+    "de": "der Ehepartner, die Ehepartnerin",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "ektefelle",
+      "ektefellen",
+      "ektefeller",
+      "ektefellene"
+    ],
+    "lesson": 15,
+    "wk": true,
+    "ex": {
+      "no": "Ta gjerne med ektefelle eller samboer.",
+      "de": "Bring gern deinen Ehepartner oder Lebensgefährten mit."
+    }
+  },
+  {
+    "id": "w15_kone",
+    "no": "kone",
+    "de": "die Ehefrau",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "kone",
+      "kona",
+      "koner",
+      "konene"
+    ],
+    "lesson": 15,
+    "wk": true,
+    "ex": {
+      "no": "Per og kona hans bor på Sagene.",
+      "de": "Per und seine Frau wohnen in Sagene."
+    }
+  },
+  {
+    "id": "w15_ektemann",
+    "no": "ektemann",
+    "de": "der Ehemann",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "ektemann",
+      "ektemannen",
+      "ektemenn",
+      "ektemennene"
+    ],
+    "lesson": 15,
+    "wk": true,
+    "note": "Im Alltag sagt man meist mannen min.",
+    "ex": {
+      "no": "Kari og ektemannen hennes jobber begge i Oslo.",
+      "de": "Kari und ihr Ehemann arbeiten beide in Oslo."
+    }
+  },
+  {
+    "id": "w15_tvilling",
+    "no": "tvilling",
+    "de": "der Zwilling",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "tvilling",
+      "tvillingen",
+      "tvillinger",
+      "tvillingene"
+    ],
+    "lesson": 15,
+    "wk": true,
+    "ex": {
+      "no": "Vi er tvillinger.",
+      "de": "Wir sind Zwillinge."
+    }
+  },
+  {
+    "id": "w15_enebarn",
+    "no": "enebarn",
+    "de": "das Einzelkind",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "enebarn",
+      "enebarnet",
+      "enebarn",
+      "enebarna"
+    ],
+    "lesson": 15,
+    "wk": true,
+    "ex": {
+      "no": "Jeg er enebarn.",
+      "de": "Ich bin Einzelkind."
+    }
+  },
+  {
+    "id": "w15_bonusbarn",
+    "no": "bonusbarn",
+    "de": "das Stiefkind (Bonuskind)",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "bonusbarn",
+      "bonusbarnet",
+      "bonusbarn",
+      "bonusbarna"
+    ],
+    "lesson": 15,
+    "wk": true,
+    "note": "bonus- ist das freundliche Wort für die Stieffamilie: bonuspappa, bonusmamma, bonussøsken.",
+    "ex": {
+      "no": "Hun har to barn og ett bonusbarn.",
+      "de": "Sie hat zwei Kinder und ein Stiefkind."
+    }
+  },
+  {
+    "id": "w15_bryllup",
+    "no": "bryllup",
+    "de": "die Hochzeit",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "bryllup",
+      "bryllupet",
+      "bryllup",
+      "bryllupa/bryllupene"
+    ],
+    "lesson": 15,
+    "wk": true,
+    "ex": {
+      "no": "Bryllupet er i juni.",
+      "de": "Die Hochzeit ist im Juni."
+    }
+  },
+  {
+    "id": "w15_venninne",
+    "no": "venninne",
+    "de": "die Freundin",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "venninne",
+      "venninna",
+      "venninner",
+      "venninnene"
+    ],
+    "lesson": 15,
+    "note": "Freundin (nicht Partnerin); die Partnerin heißt kjæreste.",
+    "ex": {
+      "no": "Bestemor ringer til venninna si.",
+      "de": "Oma ruft ihre Freundin an."
+    }
+  },
+  {
+    "id": "w15_hverdag",
+    "no": "hverdag",
+    "de": "der Alltag",
+    "deAlt": [
+      "der Werktag"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "hverdag",
+      "hverdagen",
+      "hverdager",
+      "hverdagene"
+    ],
+    "lesson": 15,
+    "ex": {
+      "no": "Det er en helt vanlig hverdag.",
+      "de": "Es ist ein ganz normaler Alltag."
+    }
+  },
+  {
+    "id": "w15_vane",
+    "no": "vane",
+    "de": "die Gewohnheit",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "vane",
+      "vanen",
+      "vaner",
+      "vanene"
+    ],
+    "lesson": 15,
+    "ex": {
+      "no": "Alle har sine faste vaner.",
+      "de": "Alle haben ihre festen Gewohnheiten."
+    }
+  },
+  {
+    "id": "w15_nettbrett",
+    "no": "nettbrett",
+    "de": "das Tablet",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "nettbrett",
+      "nettbrettet",
+      "nettbrett",
+      "nettbretta/nettbrettene"
+    ],
+    "lesson": 15,
+    "ex": {
+      "no": "Kari leser avisa på nettbrettet sitt.",
+      "de": "Kari liest die Zeitung auf ihrem Tablet."
+    }
+  },
+  {
+    "id": "w15_mobillader",
+    "no": "mobillader",
+    "de": "das Handyladegerät",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "mobillader",
+      "mobilladeren",
+      "mobilladere",
+      "mobilladerne"
+    ],
+    "lesson": 15,
+    "ex": {
+      "no": "Har noen sett mobilladeren min?",
+      "de": "Hat jemand mein Handyladegerät gesehen?"
+    }
+  },
+  {
+    "id": "w15_fotballproff",
+    "no": "fotballproff",
+    "de": "der Fußballprofi",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "fotballproff",
+      "fotballproffen",
+      "fotballproffer",
+      "fotballproffene"
+    ],
+    "lesson": 15,
+    "ex": {
+      "no": "Ola vil bli fotballproff.",
+      "de": "Ola will Fußballprofi werden."
+    }
+  },
+  {
+    "id": "w15_praksis",
+    "no": "praksis",
+    "de": "das Praktikum",
+    "deAlt": [
+      "die Praxis"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "praksis",
+      "praksisen",
+      "praksiser",
+      "praksisene"
+    ],
+    "lesson": 15,
+    "ex": {
+      "no": "Anna har praksis på sykehuset.",
+      "de": "Anna macht ein Praktikum im Krankenhaus."
+    }
+  },
+  {
+    "id": "w15_nattevakt",
+    "no": "nattevakt",
+    "de": "der Nachtdienst",
+    "deAlt": [
+      "die Nachtwache"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "nattevakt",
+      "nattevakta",
+      "nattevakter",
+      "nattevaktene"
+    ],
+    "lesson": 15,
+    "note": "gå nattevakter = Nachtdienste machen",
+    "ex": {
+      "no": "Etter nattevakta sover Anna til klokka to.",
+      "de": "Nach dem Nachtdienst schläft Anna bis zwei."
+    }
+  },
+  {
+    "id": "w15_sykehus",
+    "no": "sykehus",
+    "de": "das Krankenhaus",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "sykehus",
+      "sykehuset",
+      "sykehus",
+      "sykehusa/sykehusene"
+    ],
+    "lesson": 15,
+    "ex": {
+      "no": "Anna sykler til sykehuset.",
+      "de": "Anna radelt zum Krankenhaus."
+    }
+  },
+  {
+    "id": "w15_gjesterom",
+    "no": "gjesterom",
+    "de": "das Gästezimmer",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "gjesterom",
+      "gjesterommet",
+      "gjesterom",
+      "gjesteromma/gjesterommene"
+    ],
+    "lesson": 15,
+    "ex": {
+      "no": "Bestemor sover på gjesterommet.",
+      "de": "Oma schläft im Gästezimmer."
+    }
+  },
+  {
+    "id": "w15_strikketoy",
+    "no": "strikketøy",
+    "de": "das Strickzeug",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "strikketøy",
+      "strikketøyet"
+    ],
+    "lesson": 15,
+    "ex": {
+      "no": "Bestemor har alltid strikketøyet sitt med seg.",
+      "de": "Oma hat immer ihr Strickzeug dabei."
+    }
+  },
+  {
+    "id": "w15_fleksitid",
+    "no": "fleksitid",
+    "de": "die Gleitzeit",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "fleksitid",
+      "fleksitida"
+    ],
+    "lesson": 15,
+    "ex": {
+      "no": "Med fleksitid kan Per gå hjem klokka fire.",
+      "de": "Mit Gleitzeit kann Per um vier nach Hause gehen."
+    }
+  },
+  {
+    "id": "w15_kommune",
+    "no": "kommune",
+    "de": "die Gemeinde, die Stadtverwaltung",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "kommune",
+      "kommunen",
+      "kommuner",
+      "kommunene"
+    ],
+    "lesson": 15,
+    "ex": {
+      "no": "Per jobber i Oslo kommune.",
+      "de": "Per arbeitet bei der Stadt Oslo."
+    }
+  },
+  {
+    "id": "w15_prove",
+    "no": "prøve",
+    "de": "die Klassenarbeit, der Test",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "prøve",
+      "prøva",
+      "prøver",
+      "prøvene"
+    ],
+    "lesson": 15,
+    "note": "Auch das Verb prøve = versuchen, anprobieren.",
+    "ex": {
+      "no": "I morgen har Ola prøve i matte.",
+      "de": "Morgen schreibt Ola eine Mathearbeit."
+    }
+  },
+  {
+    "id": "w15_fiskegrateng",
+    "no": "fiskegrateng",
+    "de": "der Fischgratin",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "fiskegrateng",
+      "fiskegratengen",
+      "fiskegratenger",
+      "fiskegratengene"
+    ],
+    "lesson": 15,
+    "ex": {
+      "no": "På tirsdager lager Per fiskegrateng.",
+      "de": "Dienstags macht Per Fischgratin."
+    }
+  },
+  {
+    "id": "w15_teppe",
+    "no": "teppe",
+    "de": "die Decke",
+    "deAlt": [
+      "der Teppich"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "teppe",
+      "teppet",
+      "tepper",
+      "teppene"
+    ],
+    "lesson": 15,
+    "ex": {
+      "no": "Bamse legger seg på teppet sitt.",
+      "de": "Bamse legt sich auf seine Decke."
+    }
+  },
+  {
+    "id": "w15_peis",
+    "no": "peis",
+    "de": "der Kamin",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "peis",
+      "peisen",
+      "peiser",
+      "peisene"
+    ],
+    "lesson": 15,
+    "ex": {
+      "no": "Det er koselig foran peisen.",
+      "de": "Vor dem Kamin ist es gemütlich."
+    }
+  },
+  {
+    "id": "w15_arbeidsliv",
+    "no": "arbeidsliv",
+    "de": "das Arbeitsleben",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "arbeidsliv",
+      "arbeidslivet"
+    ],
+    "lesson": 15,
+    "ex": {
+      "no": "Det norske arbeidslivet er ganske uformelt.",
+      "de": "Das norwegische Arbeitsleben ist ziemlich informell."
+    }
+  },
+  {
+    "id": "w15_arbeidsuke",
+    "no": "arbeidsuke",
+    "de": "die Arbeitswoche",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "arbeidsuke",
+      "arbeidsuka",
+      "arbeidsuker",
+      "arbeidsukene"
+    ],
+    "lesson": 15,
+    "ex": {
+      "no": "For mange er en arbeidsuke 37,5 timer.",
+      "de": "Für viele hat eine Arbeitswoche 37,5 Stunden."
+    }
+  },
+  {
+    "id": "w15_jobbe_deltid",
+    "no": "jobbe deltid",
+    "de": "Teilzeit arbeiten",
+    "pos": "phrase",
+    "lesson": 15,
+    "note": "Gegenteil: jobbe heltid (Vollzeit arbeiten).",
+    "ex": {
+      "no": "Mange kvinner jobber deltid.",
+      "de": "Viele Frauen arbeiten Teilzeit."
+    }
+  },
+  {
+    "id": "w15_barnehage",
+    "no": "barnehage",
+    "de": "der Kindergarten",
+    "deAlt": [
+      "die Kita"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "barnehage",
+      "barnehagen",
+      "barnehager",
+      "barnehagene"
+    ],
+    "lesson": 15,
+    "ex": {
+      "no": "De fleste barn går i barnehage.",
+      "de": "Die meisten Kinder gehen in den Kindergarten."
+    }
+  },
+  {
+    "id": "w15_skolefritidsordning",
+    "no": "skolefritidsordning",
+    "de": "die Nachmittagsbetreuung (an der Schule)",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "skolefritidsordning",
+      "skolefritidsordninga",
+      "skolefritidsordninger",
+      "skolefritidsordningene"
+    ],
+    "lesson": 15,
+    "note": "Abkürzung: SFO, für die jüngsten Schüler.",
+    "ex": {
+      "no": "Etter skolen går de minste barna på SFO.",
+      "de": "Nach der Schule gehen die Kleinsten in die Nachmittagsbetreuung."
+    }
+  },
+  {
+    "id": "w15_foreldrepermisjon",
+    "no": "foreldrepermisjon",
+    "de": "die Elternzeit",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "foreldrepermisjon",
+      "foreldrepermisjonen",
+      "foreldrepermisjoner",
+      "foreldrepermisjonene"
+    ],
+    "lesson": 15,
+    "ex": {
+      "no": "Han tar foreldrepermisjon i sommer.",
+      "de": "Er nimmt diesen Sommer Elternzeit."
+    }
+  },
+  {
+    "id": "w15_fedrekvote",
+    "no": "fedrekvote",
+    "de": "die Väterquote",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "fedrekvote",
+      "fedrekvoten",
+      "fedrekvoter",
+      "fedrekvotene"
+    ],
+    "lesson": 15,
+    "note": "Teil der Elternzeit, der nur für den Vater da ist.",
+    "ex": {
+      "no": "Fedrekvoten kom i 1993.",
+      "de": "Die Väterquote kam 1993."
+    }
+  },
+  {
+    "id": "w15_barnevogn",
+    "no": "barnevogn",
+    "de": "der Kinderwagen",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "barnevogn",
+      "barnevogna",
+      "barnevogner",
+      "barnevognene"
+    ],
+    "lesson": 15,
+    "ex": {
+      "no": "Mange fedre går tur med barnevogna.",
+      "de": "Viele Väter gehen mit dem Kinderwagen spazieren."
+    }
+  },
+  {
+    "id": "w15_likestilling",
+    "no": "likestilling",
+    "de": "die Gleichstellung",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "likestilling",
+      "likestillinga"
+    ],
+    "lesson": 15,
+    "ex": {
+      "no": "Likestilling er en viktig verdi i Norge.",
+      "de": "Gleichstellung ist in Norwegen ein wichtiger Wert."
+    }
+  },
+  {
+    "id": "w15_verdi",
+    "no": "verdi",
+    "de": "der Wert",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "verdi",
+      "verdien",
+      "verdier",
+      "verdiene"
+    ],
+    "lesson": 15,
+    "ex": {
+      "no": "Familien er en viktig verdi for ham.",
+      "de": "Die Familie ist für ihn ein wichtiger Wert."
+    }
+  },
+  {
+    "id": "w15_mulighet",
+    "no": "mulighet",
+    "de": "die Möglichkeit",
+    "deAlt": [
+      "die Chance"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "mulighet",
+      "muligheten",
+      "muligheter",
+      "mulighetene"
+    ],
+    "lesson": 15,
+    "ex": {
+      "no": "Kvinner og menn skal ha de samme mulighetene.",
+      "de": "Frauen und Männer sollen die gleichen Chancen haben."
+    }
+  },
+  {
+    "id": "w15_trening",
+    "no": "trening",
+    "de": "das Training",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "trening",
+      "treninga"
+    ],
+    "lesson": 15,
+    "ex": {
+      "no": "Ola har trening tre ganger i uka.",
+      "de": "Ola hat dreimal in der Woche Training."
+    }
+  },
+  {
+    "id": "w15_par",
+    "no": "par",
+    "de": "das Paar",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "par",
+      "paret",
+      "par",
+      "para/parene"
+    ],
+    "lesson": 15,
+    "note": "et par = ein Paar; auch: ein paar (et par dager).",
+    "ex": {
+      "no": "Paret har bodd sammen i ti år.",
+      "de": "Das Paar wohnt seit zehn Jahren zusammen."
+    }
+  },
+  {
+    "id": "w15_gift",
+    "no": "gift",
+    "de": "verheiratet",
+    "pos": "adj",
+    "forms": [
+      "gift",
+      "gift",
+      "gifte"
+    ],
+    "lesson": 15,
+    "wk": true,
+    "note": "Falscher Freund: gift (Adjektiv) = verheiratet. Das Substantiv en gift bedeutet dagegen wirklich »Gift«.",
+    "ex": {
+      "no": "Kari og Per er gift.",
+      "de": "Kari und Per sind verheiratet."
+    }
+  },
+  {
+    "id": "w15_skilt",
+    "no": "skilt",
+    "de": "geschieden",
+    "pos": "adj",
+    "forms": [
+      "skilt",
+      "skilt",
+      "skilte"
+    ],
+    "lesson": 15,
+    "wk": true,
+    "ex": {
+      "no": "Foreldrene hans er skilt.",
+      "de": "Seine Eltern sind geschieden."
+    }
+  },
+  {
+    "id": "w15_enslig",
+    "no": "enslig",
+    "de": "alleinstehend",
+    "pos": "adj",
+    "forms": [
+      "enslig",
+      "enslig",
+      "enslige"
+    ],
+    "lesson": 15,
+    "wk": true,
+    "ex": {
+      "no": "Hun er enslig mor med to barn.",
+      "de": "Sie ist alleinerziehende Mutter mit zwei Kindern."
+    }
+  },
+  {
+    "id": "w15_fast",
+    "no": "fast",
+    "de": "fest",
+    "pos": "adj",
+    "forms": [
+      "fast",
+      "fast",
+      "faste"
+    ],
+    "lesson": 15,
+    "ex": {
+      "no": "Hver voksen har sin faste middagsdag.",
+      "de": "Jeder Erwachsene hat seinen festen Kochtag."
+    }
+  },
+  {
+    "id": "w15_spesiell",
+    "no": "spesiell",
+    "de": "besonders, speziell",
+    "pos": "adj",
+    "forms": [
+      "spesiell",
+      "spesielt",
+      "spesielle"
+    ],
+    "lesson": 15,
+    "ex": {
+      "no": "Familien er vanlig og spesiell på samme tid.",
+      "de": "Die Familie ist normal und zugleich besonders."
+    }
+  },
+  {
+    "id": "w15_irritert",
+    "no": "irritert",
+    "de": "gereizt, genervt",
+    "pos": "adj",
+    "forms": [
+      "irritert",
+      "irritert",
+      "irriterte"
+    ],
+    "lesson": 15,
+    "ex": {
+      "no": "Begge to blir litt irriterte.",
+      "de": "Beide werden ein bisschen gereizt."
+    }
+  },
+  {
+    "id": "w15_voksen",
+    "no": "voksen",
+    "de": "erwachsen",
+    "pos": "adj",
+    "forms": [
+      "voksen",
+      "voksent",
+      "voksne"
+    ],
+    "lesson": 15,
+    "note": "Auch als Substantiv: en voksen – voksne (ein Erwachsener – Erwachsene).",
+    "ex": {
+      "no": "Barna er nesten voksne.",
+      "de": "Die Kinder sind fast erwachsen."
+    }
+  },
+  {
+    "id": "w15_overalt",
+    "no": "overalt",
+    "de": "überall",
+    "pos": "adv",
+    "lesson": 15,
+    "ex": {
+      "no": "Bestemor har strikketøyet med seg overalt.",
+      "de": "Oma hat ihr Strickzeug überall dabei."
+    }
+  },
+  {
+    "id": "w15_til_slutt",
+    "no": "til slutt",
+    "de": "schließlich, am Ende",
+    "pos": "phrase",
+    "lesson": 15,
+    "ex": {
+      "no": "Til slutt kommer Ola ned.",
+      "de": "Schließlich kommt Ola herunter."
+    }
+  },
+  {
+    "id": "w15_hit_og_dit",
+    "no": "hit og dit",
+    "de": "hin und her",
+    "pos": "phrase",
+    "lesson": 15,
+    "ex": {
+      "no": "Foreldrene kjører barna hit og dit.",
+      "de": "Die Eltern fahren die Kinder hin und her."
+    }
+  },
+  {
+    "id": "w15_kunne_klokka",
+    "no": "kunne klokka",
+    "de": "die Uhr lesen können",
+    "pos": "phrase",
+    "lesson": 15,
+    "ex": {
+      "no": "Per tror at Bamse kan klokka.",
+      "de": "Per glaubt, dass Bamse die Uhr lesen kann."
+    }
+  },
+  {
+    "id": "w15_vaere_i_slekt",
+    "no": "være i slekt",
+    "de": "verwandt sein",
+    "pos": "phrase",
+    "lesson": 15,
+    "wk": true,
+    "ex": {
+      "no": "Er dere i slekt?",
+      "de": "Seid ihr verwandt?"
+    }
+  },
+  {
+    "id": "w15_gaa_paa_videregaaende",
+    "no": "gå på videregående",
+    "de": "auf die weiterführende Schule (Oberstufe) gehen",
+    "pos": "phrase",
+    "lesson": 15,
+    "note": "videregående skole: nach der 10. Klasse, meist von 16 bis 19.",
+    "ex": {
+      "no": "Ola går på videregående.",
+      "de": "Ola geht auf die weiterführende Schule."
+    }
+  },
+  {
+    "id": "w15_vente_barn",
+    "no": "vente barn",
+    "de": "ein Kind erwarten",
+    "pos": "phrase",
+    "lesson": 15,
+    "wk": true,
+    "ex": {
+      "no": "Søstera mi venter barn i mai.",
+      "de": "Meine Schwester bekommt im Mai ein Kind."
+    }
+  },
+  {
+    "id": "w15_det_er_min_tur",
+    "no": "det er min tur",
+    "de": "ich bin dran",
+    "pos": "phrase",
+    "lesson": 15,
+    "note": "Det er Pers tur = Per ist dran.",
+    "ex": {
+      "no": "I dag er det min tur til å lage middag.",
+      "de": "Heute bin ich mit Kochen dran."
+    }
+  },
+  {
+    "id": "w15_tirsdag",
+    "no": "tirsdag",
+    "de": "der Dienstag",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "tirsdag",
+      "tirsdagen",
+      "tirsdager",
+      "tirsdagene"
+    ],
+    "lesson": 15,
+    "note": "Wochentage schreibt man klein: på tirsdag = am Dienstag, på tirsdager = dienstags.",
+    "ex": {
+      "no": "På tirsdager lager Per middag.",
+      "de": "Dienstags kocht Per."
+    }
+  },
+  {
+    "id": "w15_avis",
+    "no": "avis",
+    "de": "die Zeitung",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "avis",
+      "avisa",
+      "aviser",
+      "avisene"
+    ],
+    "lesson": 15,
+    "ex": {
+      "no": "Kari leser avisa på nettbrettet.",
+      "de": "Kari liest die Zeitung auf dem Tablet."
+    }
+  },
+  {
+    "id": "w15_haar",
+    "no": "hår",
+    "de": "das Haar, die Haare",
+    "deAlt": [
+      "das Haar",
+      "die Haare"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "hår",
+      "håret",
+      "hår",
+      "håra/hårene"
+    ],
+    "lesson": 15,
+    "note": "håret = die Haare (Singular!): Håret hans er langt.",
+    "ex": {
+      "no": "Ola kommer ned med håret til alle kanter.",
+      "de": "Ola kommt mit zerzausten Haaren herunter."
+    }
+  },
+  {
+    "id": "w15_serie",
+    "no": "serie",
+    "de": "die Serie",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "serie",
+      "serien",
+      "serier",
+      "seriene"
+    ],
+    "lesson": 15,
+    "ex": {
+      "no": "Per og Kari ser en serie sammen.",
+      "de": "Per und Kari schauen zusammen eine Serie."
+    }
+  },
+  {
+    "id": "w15_midnatt",
+    "no": "midnatt",
+    "de": "die Mitternacht",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "midnatt",
+      "midnatten"
+    ],
+    "lesson": 15,
+    "ex": {
+      "no": "Ola spiller til midnatt.",
+      "de": "Ola spielt bis Mitternacht."
+    }
+  },
+  {
+    "id": "w15_kvinne",
+    "no": "kvinne",
+    "de": "die Frau",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "kvinne",
+      "kvinna",
+      "kvinner",
+      "kvinnene"
+    ],
+    "lesson": 15,
+    "note": "kvinne = Frau allgemein; die Ehefrau heißt kone.",
+    "ex": {
+      "no": "Mange kvinner jobber deltid.",
+      "de": "Viele Frauen arbeiten Teilzeit."
+    }
+  },
+  {
+    "id": "w15_permisjon",
+    "no": "permisjon",
+    "de": "die Freistellung (von der Arbeit)",
+    "deAlt": [
+      "die Freistellung",
+      "die Beurlaubung"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "permisjon",
+      "permisjonen",
+      "permisjoner",
+      "permisjonene"
+    ],
+    "lesson": 15,
+    "note": "ta permisjon = sich (vom Job) freistellen lassen; foreldrepermisjon = Elternzeit.",
+    "ex": {
+      "no": "Per tok permisjon da Ola ble født.",
+      "de": "Per hat sich freistellen lassen, als Ola geboren wurde."
+    }
+  },
+  {
+    "id": "w15_dit",
+    "no": "dit",
+    "de": "dorthin",
+    "pos": "adv",
+    "lesson": 15,
+    "note": "hit og dit = hin und her. Ort: der (dort).",
+    "ex": {
+      "no": "Tromsø? Dit flytter jeg neste uke.",
+      "de": "Tromsø? Dorthin ziehe ich nächste Woche."
+    }
+  },
+  {
+    "id": "w15_syk",
+    "no": "syk",
+    "de": "krank",
+    "pos": "adj",
+    "forms": [
+      "syk",
+      "sykt",
+      "syke"
+    ],
+    "lesson": 15,
+    "ex": {
+      "no": "Når et barn er sykt, hjelper besteforeldrene ofte til.",
+      "de": "Wenn ein Kind krank ist, helfen die Großeltern oft mit."
+    }
+  },
+  {
+    "id": "w15_hjem_heim",
+    "no": "hjem",
+    "de": "das Zuhause, das Heim",
+    "deAlt": [
+      "das Zuhause",
+      "das Heim"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "hjem",
+      "hjemmet",
+      "hjem",
+      "hjemma/hjemmene"
+    ],
+    "lesson": 15,
+    "note": "Auch Adverb: hjem = nach Hause, hjemme = zu Hause.",
+    "ex": {
+      "no": "Mange barn har to hjem.",
+      "de": "Viele Kinder haben zwei Zuhause."
+    }
+  },
+  {
+    "id": "w15_datamaskin",
+    "no": "datamaskin",
+    "de": "der Computer",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "datamaskin",
+      "datamaskinen",
+      "datamaskiner",
+      "datamaskinene"
+    ],
+    "lesson": 15,
+    "ex": {
+      "no": "Ola spiller på datamaskinen sin til midnatt.",
+      "de": "Ola spielt bis Mitternacht an seinem Computer."
+    }
+  }
 ]

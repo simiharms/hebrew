@@ -464,7 +464,9 @@
     "gender": "m",
     "forms": [
       "brunost",
-      "brunosten"
+      "brunosten",
+      "brunoster",
+      "brunostene"
     ],
     "lesson": 3,
     "wk": true,
@@ -1291,7 +1293,9 @@
     "forms": [
       "stor",
       "stort",
-      "store"
+      "store",
+      "større",
+      "størst"
     ],
     "lesson": 3,
     "ex": {
@@ -1454,7 +1458,9 @@
     "forms": [
       "lang",
       "langt",
-      "lange"
+      "lange",
+      "lengre",
+      "lengst"
     ],
     "lesson": 3,
     "ex": {
@@ -1470,7 +1476,9 @@
     "forms": [
       "praktisk",
       "praktisk",
-      "praktiske"
+      "praktiske",
+      "mer praktisk",
+      "mest praktisk"
     ],
     "lesson": 3,
     "ex": {
@@ -1509,7 +1517,9 @@
     "forms": [
       "hyggelig",
       "hyggelig",
-      "hyggelige"
+      "hyggelige",
+      "hyggeligere",
+      "hyggeligst"
     ],
     "lesson": 3,
     "ex": {

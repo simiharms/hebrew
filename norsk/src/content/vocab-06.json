@@ -84,26 +84,6 @@
     }
   },
   {
-    "id": "w06_bursdag",
-    "no": "bursdag",
-    "de": "der Geburtstag",
-    "pos": "noun",
-    "gender": "m",
-    "forms": [
-      "bursdag",
-      "bursdagen",
-      "bursdager",
-      "bursdagene"
-    ],
-    "wk": true,
-    "lesson": 6,
-    "ex": {
-      "no": "Når har du bursdag?",
-      "de": "Wann hast du Geburtstag?"
-    },
-    "note": "Auch: fødselsdag (formeller)."
-  },
-  {
     "id": "w06_feire",
     "no": "feire",
     "de": "feiern",
@@ -498,49 +478,6 @@
     }
   },
   {
-    "id": "w06_like",
-    "no": "like",
-    "de": "mögen",
-    "deAlt": [
-      "gefallen"
-    ],
-    "pos": "verb",
-    "vf": [
-      "liker",
-      "likte",
-      "likt",
-      "lik"
-    ],
-    "vg": "2",
-    "lesson": 6,
-    "ex": {
-      "no": "Anna likte gavene.",
-      "de": "Anna gefielen die Geschenke."
-    }
-  },
-  {
-    "id": "w06_prove",
-    "no": "prøve",
-    "de": "probieren",
-    "deAlt": [
-      "anprobieren",
-      "versuchen"
-    ],
-    "pos": "verb",
-    "vf": [
-      "prøver",
-      "prøvde",
-      "prøvd",
-      "prøv"
-    ],
-    "vg": "3",
-    "lesson": 6,
-    "ex": {
-      "no": "Hun prøvde genseren.",
-      "de": "Sie probierte den Pullover an."
-    }
-  },
-  {
     "id": "w06_med_en_gang",
     "no": "med en gang",
     "de": "sofort",
@@ -595,24 +532,6 @@
     "ex": {
       "no": "Hun syklet rundt kvartalet.",
       "de": "Sie fuhr um den Block."
-    }
-  },
-  {
-    "id": "w06_stykke",
-    "no": "stykke",
-    "de": "das Stück",
-    "pos": "noun",
-    "gender": "n",
-    "forms": [
-      "stykke",
-      "stykket",
-      "stykker",
-      "stykkene"
-    ],
-    "lesson": 6,
-    "ex": {
-      "no": "Vil du ha et stykke kake?",
-      "de": "Möchtest du ein Stück Kuchen?"
     }
   },
   {
@@ -674,28 +593,6 @@
       "de": "Anna hat einen Freund. Er heißt Jonas."
     },
     "note": "Für Männer und Frauen: Hun er kjæresten min."
-  },
-  {
-    "id": "w06_bestille",
-    "no": "bestille",
-    "de": "bestellen",
-    "deAlt": [
-      "reservieren",
-      "buchen"
-    ],
-    "pos": "verb",
-    "vf": [
-      "bestiller",
-      "bestilte",
-      "bestilt",
-      "bestill"
-    ],
-    "vg": "2",
-    "lesson": 6,
-    "ex": {
-      "no": "Vi bestilte fiskesuppe.",
-      "de": "Wir bestellten Fischsuppe."
-    }
   },
   {
     "id": "w06_sjo",
@@ -824,23 +721,6 @@
     }
   },
   {
-    "id": "w06_sulten",
-    "no": "sulten",
-    "de": "hungrig",
-    "pos": "adj",
-    "forms": [
-      "sulten",
-      "sultent",
-      "sultne"
-    ],
-    "lesson": 6,
-    "ex": {
-      "no": "Alle var sultne.",
-      "de": "Alle hatten Hunger."
-    },
-    "note": "Jeg er sulten = Ich habe Hunger."
-  },
-  {
     "id": "w06_fiskesuppe",
     "no": "fiskesuppe",
     "de": "die Fischsuppe",
@@ -893,27 +773,6 @@
     "ex": {
       "no": "Vi bestilte hvitvin.",
       "de": "Wir bestellten Weißwein."
-    }
-  },
-  {
-    "id": "w06_studere",
-    "no": "studere",
-    "de": "studieren",
-    "deAlt": [
-      "genau ansehen"
-    ],
-    "pos": "verb",
-    "vf": [
-      "studerer",
-      "studerte",
-      "studert",
-      "studer"
-    ],
-    "vg": "2",
-    "lesson": 6,
-    "ex": {
-      "no": "Matthias studerte menyen lenge.",
-      "de": "Matthias studierte lange die Speisekarte."
     }
   },
   {
@@ -1131,25 +990,6 @@
     }
   },
   {
-    "id": "w06_vente",
-    "no": "vente",
-    "de": "warten",
-    "pos": "verb",
-    "vf": [
-      "venter",
-      "ventet",
-      "ventet",
-      "vent"
-    ],
-    "vg": "1",
-    "lesson": 6,
-    "ex": {
-      "no": "Vi ventet på trikken.",
-      "de": "Wir warteten auf die Straßenbahn."
-    },
-    "note": "vente på = warten auf."
-  },
-  {
     "id": "w06_trikk",
     "no": "trikk",
     "de": "die Straßenbahn",
@@ -1206,27 +1046,6 @@
       "de": "Ich bin müde, aber froh."
     },
     "note": "glad i = gern haben: Jeg er glad i deg. = Ich hab dich lieb. Neutrum ohne -t: et glad barn."
-  },
-  {
-    "id": "w06_ringe",
-    "no": "ringe",
-    "de": "anrufen",
-    "deAlt": [
-      "klingeln"
-    ],
-    "pos": "verb",
-    "vf": [
-      "ringer",
-      "ringte",
-      "ringt",
-      "ring"
-    ],
-    "vg": "2",
-    "lesson": 6,
-    "ex": {
-      "no": "Anna ringte i morges.",
-      "de": "Anna hat heute Morgen angerufen."
-    }
   },
   {
     "id": "w06_takke",
@@ -1564,23 +1383,6 @@
     }
   },
   {
-    "id": "w06_kort",
-    "no": "kort",
-    "de": "kurz",
-    "pos": "adj",
-    "forms": [
-      "kort",
-      "kort",
-      "korte"
-    ],
-    "lesson": 6,
-    "ex": {
-      "no": "Sangen er kort og enkel.",
-      "de": "Das Lied ist kurz und einfach."
-    },
-    "note": "Endet schon auf -t: et kort brev."
-  },
-  {
     "id": "w06_hurra",
     "no": "hurra",
     "de": "hurra",
@@ -1614,22 +1416,6 @@
     }
   },
   {
-    "id": "w06_skaal",
-    "no": "skål",
-    "de": "prost",
-    "deAlt": [
-      "zum Wohl"
-    ],
-    "pos": "interj",
-    "wk": true,
-    "lesson": 6,
-    "ex": {
-      "no": "Skål for Anna!",
-      "de": "Ein Prost auf Anna!"
-    },
-    "note": "Als Nomen: ei skål = Schale, Schüssel."
-  },
-  {
     "id": "w06_lykke_til",
     "no": "lykke til",
     "de": "viel Glück",
@@ -1654,19 +1440,6 @@
     }
   },
   {
-    "id": "w06_takk_for_sist",
-    "no": "takk for sist",
-    "de": "danke für das letzte Mal",
-    "pos": "phrase",
-    "wk": true,
-    "lesson": 6,
-    "ex": {
-      "no": "Hei, Anna! Takk for sist!",
-      "de": "Hallo, Anna! Danke für neulich!"
-    },
-    "note": "Typisch norwegische Höflichkeit beim nächsten Wiedersehen."
-  },
-  {
     "id": "w06_eksamen",
     "no": "eksamen",
     "de": "die Prüfung",
@@ -1687,28 +1460,6 @@
       "no": "Gratulerer med eksamen!",
       "de": "Herzlichen Glückwunsch zur bestandenen Prüfung!"
     }
-  },
-  {
-    "id": "w06_laerer",
-    "no": "lærer",
-    "de": "der Lehrer",
-    "deAlt": [
-      "die Lehrerin"
-    ],
-    "pos": "noun",
-    "gender": "m",
-    "forms": [
-      "lærer",
-      "læreren",
-      "lærere",
-      "lærerne"
-    ],
-    "lesson": 6,
-    "ex": {
-      "no": "Kari er lærer.",
-      "de": "Kari ist Lehrerin."
-    },
-    "note": "Plural lærere, bestimmt lærerne."
   },
   {
     "id": "w06_baker",

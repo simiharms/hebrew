@@ -298,7 +298,7 @@ function CardView({ card, item, onNext }: { card: CardRef; item: QItem; onNext: 
 function posHint(w: Word): string {
   switch (w.pos) {
     case 'noun':
-      return 'Substantiv – mit en, ei oder et';
+      return w.plOnly ? 'Substantiv (nur Plural)' : 'Substantiv – mit en, ei oder et';
     case 'verb':
       return 'Verb';
     case 'adj':
@@ -340,7 +340,7 @@ function Details({ card }: { card: CardRef }) {
       <div class="big-de">{w.de}</div>
       {w.deAlt && w.deAlt.length > 0 && <div class="small muted">auch: {w.deAlt.join(', ')}</div>}
       <div class="small muted mt">
-        {w.gender && <span class="badge">{GENDER_DE[w.gender]}</span>} <span class="badge">Lektion {w.lesson}</span>
+        {w.gender && <span class="badge">{w.plOnly ? 'nur Plural' : GENDER_DE[w.gender]}</span>} <span class="badge">Lektion {w.lesson}</span>
       </div>
       {w.forms && w.pos === 'noun' && <FormTable labels={['unbestimmt', 'bestimmt', 'Plural', 'Plural bestimmt']} forms={w.forms} />}
       {w.forms && w.pos === 'adj' && <FormTable labels={['en/ei', 'et', 'Plural/best.', 'Komparativ', 'Superlativ']} forms={w.forms} />}

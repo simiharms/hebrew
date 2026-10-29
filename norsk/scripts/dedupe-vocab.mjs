@@ -21,6 +21,7 @@ for (const f of files) {
     }
     if (w.forms && (keep.forms?.length ?? 0) < w.forms.length) keep.forms = w.forms;
     if (w.vf && !keep.vf) keep.vf = w.vf;
+    if (w.alt) keep.alt = [...new Set([...(keep.alt ?? []), ...w.alt])];
     removed++;
     return false;
   });

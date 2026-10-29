@@ -1,98 +1,1617 @@
 [
-  { "id": "w09_praksisplass", "no": "praksisplass", "de": "der Praktikumsplatz, das Praktikum", "deAlt": ["das Praktikum", "der Praktikumsplatz"], "pos": "noun", "gender": "m", "forms": ["praksisplass", "praksisplassen", "praksisplasser", "praksisplassene"], "lesson": 9, "ex": { "no": "Han har fått en praksisplass i Bergen.", "de": "Er hat einen Praktikumsplatz in Bergen bekommen." } },
-  { "id": "w09_firma", "no": "firma", "de": "die Firma", "pos": "noun", "gender": "n", "forms": ["firma", "firmaet", "firmaer", "firmaene"], "lesson": 9, "ex": { "no": "Firmaet bygger bruer.", "de": "Die Firma baut Brücken." }, "note": "Achtung: et firma (Neutrum)." },
-  { "id": "w09_ingeniorfirma", "no": "ingeniørfirma", "de": "die Ingenieurfirma", "pos": "noun", "gender": "n", "forms": ["ingeniørfirma", "ingeniørfirmaet", "ingeniørfirmaer", "ingeniørfirmaene"], "lesson": 9, "ex": { "no": "Det lille ingeniørfirmaet har tolv ansatte.", "de": "Die kleine Ingenieurfirma hat zwölf Angestellte." } },
-  { "id": "w09_praktikant", "no": "praktikant", "de": "der Praktikant / die Praktikantin", "pos": "noun", "gender": "m", "forms": ["praktikant", "praktikanten", "praktikanter", "praktikantene"], "lesson": 9, "ex": { "no": "Matthias blir praktikant i Bergen.", "de": "Matthias wird Praktikant in Bergen." } },
-  { "id": "w09_i_stedet_for", "no": "i stedet for", "de": "statt, anstatt", "pos": "phrase", "lesson": 9, "ex": { "no": "Vi tar toget i stedet for bussen.", "de": "Wir nehmen den Zug statt des Busses." } },
-  { "id": "w09_forelder", "no": "forelder", "de": "der Elternteil", "deAlt": ["die Eltern"], "pos": "noun", "gender": "m", "forms": ["forelder", "forelderen", "foreldre", "foreldrene"], "lesson": 9, "ex": { "no": "Foreldrene til Matthias bor i Bern.", "de": "Matthias' Eltern wohnen in Bern." }, "note": "Meist im Plural: foreldre = Eltern." },
-  { "id": "w09_kirke", "no": "kirke", "de": "die Kirche", "pos": "noun", "gender": "m", "forms": ["kirke", "kirken/kirka", "kirker", "kirkene"], "lesson": 9, "ex": { "no": "Den gamle kirken er fra 1697.", "de": "Die alte Kirche ist von 1697." }, "note": "Auch feminin: ei kirke – kirka." },
-  { "id": "w09_domkirke", "no": "domkirke", "de": "der Dom, die Kathedrale", "pos": "noun", "gender": "m", "forms": ["domkirke", "domkirken/domkirka", "domkirker", "domkirkene"], "lesson": 9, "ex": { "no": "Domkirken ligger like ved Karl Johan.", "de": "Der Dom liegt ganz in der Nähe der Karl Johan." } },
-  { "id": "w09_gifte_seg", "no": "gifte seg", "de": "heiraten", "pos": "verb", "vf": ["gifter seg", "giftet seg", "giftet seg", "gift deg"], "vg": "1", "lesson": 9, "ex": { "no": "De giftet seg i Domkirken.", "de": "Sie haben im Dom geheiratet." }, "note": "gift = verheiratet (falscher Freund: kein »Gift«!)." },
-  { "id": "w09_ansatt", "no": "ansatt", "de": "der/die Angestellte", "deAlt": ["der Angestellte", "die Angestellte", "der Mitarbeiter"], "pos": "noun", "gender": "m", "forms": ["ansatt", "ansatte", "ansatte", "ansatte"], "lesson": 9, "ex": { "no": "Firmaet har tolv ansatte.", "de": "Die Firma hat zwölf Angestellte." }, "note": "Wird wie ein Adjektiv gebeugt: en ansatt, den ansatte, ansatte, de ansatte." },
-  { "id": "w09_kontor", "no": "kontor", "de": "das Büro", "pos": "noun", "gender": "n", "forms": ["kontor", "kontoret", "kontorer", "kontorene/kontora"], "lesson": 9, "ex": { "no": "Det nye kontoret ligger i et høyhus.", "de": "Das neue Büro liegt in einem Hochhaus." } },
-  { "id": "w09_hoyhus", "no": "høyhus", "de": "das Hochhaus", "pos": "noun", "gender": "n", "forms": ["høyhus", "høyhuset", "høyhus", "høyhusa/høyhusene"], "lesson": 9, "ex": { "no": "Jeg vil ikke sitte i et høyhus hele dagen.", "de": "Ich will nicht den ganzen Tag in einem Hochhaus sitzen." } },
-  { "id": "w09_etasje", "no": "etasje", "de": "das Stockwerk, die Etage", "deAlt": ["das Stockwerk", "die Etage", "der Stock"], "pos": "noun", "gender": "m", "forms": ["etasje", "etasjen", "etasjer", "etasjene"], "lesson": 9, "ex": { "no": "Høyhuset har førti etasjer.", "de": "Das Hochhaus hat vierzig Stockwerke." } },
-  { "id": "w09_lonn", "no": "lønn", "de": "das Gehalt, der Lohn", "deAlt": ["das Gehalt", "der Lohn"], "pos": "noun", "gender": "m", "forms": ["lønn", "lønnen/lønna"], "lesson": 9, "ex": { "no": "Lønnen i Paris er god.", "de": "Das Gehalt in Paris ist gut." } },
-  { "id": "w09_bygge", "no": "bygge", "de": "bauen", "pos": "verb", "vf": ["bygger", "bygde", "bygd", "bygg"], "vg": "3", "lesson": 9, "ex": { "no": "Firmaet bygger tunneler.", "de": "Die Firma baut Tunnel." } },
-  { "id": "w09_bru", "no": "bru", "de": "die Brücke", "pos": "noun", "gender": "f", "forms": ["bru", "brua/bruen", "bruer", "bruene"], "lesson": 9, "ex": { "no": "Den gamle brua er fra 1900.", "de": "Die alte Brücke ist von 1900." }, "note": "Auch: en bro – broen." },
-  { "id": "w09_tunnel", "no": "tunnel", "de": "der Tunnel", "pos": "noun", "gender": "m", "forms": ["tunnel", "tunnelen", "tunneler", "tunnelene"], "lesson": 9, "ex": { "no": "Det er mange tunneler på Vestlandet.", "de": "In Westnorwegen gibt es viele Tunnel." }, "note": "Betonung auf -nel: Das e bleibt im Plural (tunneler)." },
-  { "id": "w09_vestlandet", "no": "Vestlandet", "de": "Westnorwegen", "pos": "name", "lesson": 9, "ex": { "no": "Bergen ligger på Vestlandet.", "de": "Bergen liegt in Westnorwegen." }, "note": "Mit på: på Vestlandet." },
-  { "id": "w09_trehus", "no": "trehus", "de": "das Holzhaus", "pos": "noun", "gender": "n", "forms": ["trehus", "trehuset", "trehus", "trehusa/trehusene"], "lesson": 9, "ex": { "no": "Matthias vil bo i et gammelt trehus.", "de": "Matthias will in einem alten Holzhaus wohnen." } },
-  { "id": "w09_utsikt", "no": "utsikt", "de": "die Aussicht, der Blick", "pos": "noun", "gender": "m", "forms": ["utsikt", "utsikten", "utsikter", "utsiktene"], "lesson": 9, "ex": { "no": "Huset har utsikt over havna.", "de": "Das Haus hat Blick auf den Hafen." } },
-  { "id": "w09_havn", "no": "havn", "de": "der Hafen", "pos": "noun", "gender": "f", "forms": ["havn", "havna/havnen", "havner", "havnene"], "lesson": 9, "ex": { "no": "Båtene ligger i havna.", "de": "Die Boote liegen im Hafen." } },
-  { "id": "w09_hores_ut", "no": "høres ut", "de": "klingen, sich anhören", "pos": "phrase", "lesson": 9, "ex": { "no": "Det høres koselig ut!", "de": "Das klingt gemütlich!" } },
-  { "id": "w09_gul", "no": "gul", "de": "gelb", "pos": "adj", "forms": ["gul", "gult", "gule"], "lesson": 9, "ex": { "no": "Den gule bygningen er Stortinget.", "de": "Das gelbe Gebäude ist das Storting." } },
-  { "id": "w09_bygning", "no": "bygning", "de": "das Gebäude", "pos": "noun", "gender": "m", "forms": ["bygning", "bygningen", "bygninger", "bygningene"], "lesson": 9, "ex": { "no": "Langs gata ligger mange kjente bygninger.", "de": "An der Straße liegen viele bekannte Gebäude." } },
-  { "id": "w09_parlament", "no": "parlament", "de": "das Parlament", "pos": "noun", "gender": "n", "forms": ["parlament", "parlamentet", "parlamenter", "parlamentene"], "lesson": 9, "ex": { "no": "Det norske parlamentet heter Stortinget.", "de": "Das norwegische Parlament heißt Storting." } },
-  { "id": "w09_hoyre", "no": "høyre", "de": "rechts, rechte(r)", "pos": "adj", "forms": ["høyre", "høyre", "høyre"], "lesson": 9, "wk": true, "ex": { "no": "Universitetet ligger på høyre side.", "de": "Die Universität liegt auf der rechten Seite." }, "note": "til høyre = (nach) rechts" },
-  { "id": "w09_venstre", "no": "venstre", "de": "links, linke(r)", "pos": "adj", "forms": ["venstre", "venstre", "venstre"], "lesson": 9, "wk": true, "ex": { "no": "Ta til venstre ved Stortinget.", "de": "Bieg beim Storting links ab." }, "note": "til venstre = (nach) links" },
-  { "id": "w09_karakter", "no": "karakter", "de": "die Note (Schulnote)", "deAlt": ["die Note", "der Charakter"], "pos": "noun", "gender": "m", "forms": ["karakter", "karakteren", "karakterer", "karakterene"], "lesson": 9, "ex": { "no": "Ola fikk en god karakter i matte.", "de": "Ola hat in Mathe eine gute Note bekommen." }, "note": "Auch: der Charakter." },
-  { "id": "w09_toppkarakter", "no": "toppkarakter", "de": "die Bestnote", "pos": "noun", "gender": "m", "forms": ["toppkarakter", "toppkarakteren", "toppkarakterer", "toppkarakterene"], "lesson": 9, "ex": { "no": "I Norge er seks en toppkarakter.", "de": "In Norwegen ist eine Sechs eine Bestnote." } },
-  { "id": "w09_motsatt", "no": "motsatt", "de": "entgegengesetzt, umgekehrt", "pos": "adj", "forms": ["motsatt", "motsatt", "motsatte"], "lesson": 9, "ex": { "no": "I Tyskland er det motsatt.", "de": "In Deutschland ist es umgekehrt." } },
-  { "id": "w09_katastrofe", "no": "katastrofe", "de": "die Katastrophe", "pos": "noun", "gender": "m", "forms": ["katastrofe", "katastrofen", "katastrofer", "katastrofene"], "lesson": 9, "ex": { "no": "En sekser er en katastrofe i Tyskland.", "de": "Eine Sechs ist in Deutschland eine Katastrophe." } },
-  { "id": "w09_barneskole", "no": "barneskole", "de": "die Grundschule", "pos": "noun", "gender": "m", "forms": ["barneskole", "barneskolen", "barneskoler", "barneskolene"], "lesson": 9, "ex": { "no": "På barneskolen får elevene ikke karakterer.", "de": "In der Grundschule bekommen die Schüler keine Noten." }, "note": "1.–7. Klasse; danach ungdomsskolen (8.–10. Klasse)." },
-  { "id": "w09_elev", "no": "elev", "de": "der Schüler / die Schülerin", "deAlt": ["der Schüler", "die Schülerin"], "pos": "noun", "gender": "m", "forms": ["elev", "eleven", "elever", "elevene"], "lesson": 9, "ex": { "no": "Kari har tjuefem elever.", "de": "Kari hat fünfundzwanzig Schüler." } },
-  { "id": "w09_i_det_hele_tatt", "no": "i det hele tatt", "de": "überhaupt", "pos": "phrase", "lesson": 9, "ex": { "no": "Jeg forstår det ikke i det hele tatt.", "de": "Ich verstehe das überhaupt nicht." } },
-  { "id": "w09_velge", "no": "velge", "de": "wählen, auswählen", "pos": "verb", "vf": ["velger", "valgte", "valgt", "velg"], "vg": "uregelm", "lesson": 9, "ex": { "no": "Matthias valgte Bergen.", "de": "Matthias hat Bergen gewählt." } },
-  { "id": "w09_feil", "no": "feil", "de": "falsch", "pos": "adj", "forms": ["feil", "feil", "feil"], "lesson": 9, "ex": { "no": "Jeg er redd for å velge feil.", "de": "Ich habe Angst, falsch zu wählen." }, "note": "Unveränderlich. Auch Substantiv: en feil = ein Fehler." },
-  { "id": "w09_sykle", "no": "sykle", "de": "Rad fahren", "pos": "verb", "vf": ["sykler", "syklet", "syklet", "sykle"], "vg": "1", "lesson": 9, "ex": { "no": "I Bergen vil Matthias sykle til jobben.", "de": "In Bergen will Matthias mit dem Rad zur Arbeit fahren." } },
-  { "id": "w09_sykkel", "no": "sykkel", "de": "das Fahrrad", "pos": "noun", "gender": "m", "forms": ["sykkel", "sykkelen", "sykler", "syklene"], "lesson": 9, "ex": { "no": "Annas sykkel er ny.", "de": "Annas Fahrrad ist neu." }, "note": "Plural ohne e: sykler." },
-  { "id": "w09_slott", "no": "slott", "de": "das Schloss", "pos": "noun", "gender": "n", "forms": ["slott", "slottet", "slott", "slotta/slottene"], "lesson": 9, "ex": { "no": "Kongens slott ligger på en liten høyde.", "de": "Das Schloss des Königs liegt auf einem kleinen Hügel." }, "note": "Slottet = das Königsschloss in Oslo." },
-  { "id": "w09_hest", "no": "hest", "de": "das Pferd", "pos": "noun", "gender": "m", "forms": ["hest", "hesten", "hester", "hestene"], "lesson": 9, "ex": { "no": "Foran Slottet står Karl Johan på hest.", "de": "Vor dem Schloss steht Karl Johan zu Pferd." } },
-  { "id": "w09_frankrike", "no": "Frankrike", "de": "Frankreich", "pos": "name", "lesson": 9, "ex": { "no": "Karl Johan kom fra Frankrike.", "de": "Karl Johan kam aus Frankreich." } },
-  { "id": "w09_likevel", "no": "likevel", "de": "trotzdem, doch", "pos": "adv", "lesson": 9, "ex": { "no": "Det regner, men vi går en tur likevel.", "de": "Es regnet, aber wir gehen trotzdem spazieren." } },
-  { "id": "w09_bestemme_seg", "no": "bestemme seg", "de": "sich entscheiden", "pos": "verb", "vf": ["bestemmer seg", "bestemte seg", "bestemt seg", "bestem deg"], "vg": "2", "lesson": 9, "ex": { "no": "Matthias har bestemt seg for Bergen.", "de": "Matthias hat sich für Bergen entschieden." }, "note": "bestemme seg for = sich entscheiden für" },
-  { "id": "w09_besoke", "no": "besøke", "de": "besuchen", "pos": "verb", "vf": ["besøker", "besøkte", "besøkt", "besøk"], "vg": "2", "lesson": 9, "ex": { "no": "Susanne vil besøke Matthias i Bergen.", "de": "Susanne will Matthias in Bergen besuchen." } },
-  { "id": "w09_avtale", "no": "avtale", "de": "die Abmachung, die Verabredung", "deAlt": ["die Abmachung", "die Verabredung", "der Termin"], "pos": "noun", "gender": "m", "forms": ["avtale", "avtalen", "avtaler", "avtalene"], "lesson": 9, "ex": { "no": "Avtale! Vi sees i Bergen.", "de": "Abgemacht! Wir sehen uns in Bergen." }, "note": "Avtale! = Abgemacht!" },
-  { "id": "w09_feire", "no": "feire", "de": "feiern", "pos": "verb", "vf": ["feirer", "feiret", "feiret", "feir"], "vg": "1", "lesson": 9, "ex": { "no": "Skal vi feire med en kaffe?", "de": "Wollen wir mit einem Kaffee feiern?" } },
-  { "id": "w09_liten", "no": "liten", "de": "klein", "pos": "adj", "forms": ["liten", "lite", "små"], "lesson": 9, "ex": { "no": "Det lille firmaet ligger i Bergen.", "de": "Die kleine Firma liegt in Bergen." }, "note": "ei lita bok; bestimmt: den/det lille; Plural: små, de små." },
-  { "id": "w09_beromt", "no": "berømt", "de": "berühmt", "pos": "adj", "forms": ["berømt", "berømt", "berømte"], "lesson": 9, "ex": { "no": "Vi går forbi det berømte teateret.", "de": "Wir gehen an dem berühmten Theater vorbei." } },
-  { "id": "w09_den_der", "no": "den der", "de": "der/die/das da", "pos": "phrase", "lesson": 9, "ex": { "no": "Den bygningen der er Stortinget.", "de": "Das Gebäude da ist das Storting." }, "note": "den/det/de + bestimmtes Substantiv + der (da) oder her (hier)." },
-  { "id": "w09_onkel", "no": "onkel", "de": "der Onkel", "pos": "noun", "gender": "m", "forms": ["onkel", "onkelen", "onkler", "onklene"], "lesson": 9, "ex": { "no": "Onkel Arne bor i Ålesund.", "de": "Onkel Arne wohnt in Ålesund." }, "note": "Plural ohne e: onkler." },
-  { "id": "w09_nokkel", "no": "nøkkel", "de": "der Schlüssel", "pos": "noun", "gender": "m", "forms": ["nøkkel", "nøkkelen", "nøkler", "nøklene"], "lesson": 9, "ex": { "no": "Jeg har to nøkler: en til huset og en til sykkelen.", "de": "Ich habe zwei Schlüssel: einen für das Haus und einen für das Fahrrad." }, "note": "Plural ohne e und mit einem k: nøkler." },
-  { "id": "w09_regel", "no": "regel", "de": "die Regel", "pos": "noun", "gender": "m", "forms": ["regel", "regelen", "regler", "reglene"], "lesson": 9, "ex": { "no": "I Sveits er det mange regler.", "de": "In der Schweiz gibt es viele Regeln." } },
-  { "id": "w09_eksempel", "no": "eksempel", "de": "das Beispiel", "pos": "noun", "gender": "n", "forms": ["eksempel", "eksempelet/eksemplet", "eksempler", "eksemplene"], "lesson": 9, "ex": { "no": "Kan du gi meg et eksempel?", "de": "Kannst du mir ein Beispiel geben?" }, "note": "for eksempel (f.eks.) = zum Beispiel" },
-  { "id": "w09_himmel", "no": "himmel", "de": "der Himmel", "pos": "noun", "gender": "m", "forms": ["himmel", "himmelen", "himler", "himlene"], "lesson": 9, "ex": { "no": "Himmelen er blå i dag.", "de": "Der Himmel ist heute blau." } },
-  { "id": "w09_artikkel", "no": "artikkel", "de": "der Artikel", "pos": "noun", "gender": "m", "forms": ["artikkel", "artikkelen", "artikler", "artiklene"], "lesson": 9, "ex": { "no": "Jeg har lest en artikkel om Bergen.", "de": "Ich habe einen Artikel über Bergen gelesen." } },
-  { "id": "w09_gate", "no": "gate", "de": "die Straße", "pos": "noun", "gender": "f", "forms": ["gate", "gata/gaten", "gater", "gatene"], "lesson": 9, "ex": { "no": "Hva heter gata?", "de": "Wie heißt die Straße?" } },
-  { "id": "w09_hovedgate", "no": "hovedgate", "de": "die Hauptstraße", "pos": "noun", "gender": "f", "forms": ["hovedgate", "hovedgata/hovedgaten", "hovedgater", "hovedgatene"], "lesson": 9, "ex": { "no": "Karl Johan er Oslos hovedgate.", "de": "Die Karl Johan ist Oslos Hauptstraße." } },
-  { "id": "w09_gaagate", "no": "gågate", "de": "die Fußgängerzone", "pos": "noun", "gender": "f", "forms": ["gågate", "gågata/gågaten", "gågater", "gågatene"], "lesson": 9, "wk": true, "ex": { "no": "En del av Karl Johan er gågate.", "de": "Ein Teil der Karl Johan ist Fußgängerzone." } },
-  { "id": "w09_jernbanestasjon", "no": "jernbanestasjon", "de": "der Bahnhof", "pos": "noun", "gender": "m", "forms": ["jernbanestasjon", "jernbanestasjonen", "jernbanestasjoner", "jernbanestasjonene"], "lesson": 9, "wk": true, "ex": { "no": "Oslo S er den store jernbanestasjonen i Oslo.", "de": "Oslo S ist der große Bahnhof in Oslo." } },
-  { "id": "w09_gatemusikant", "no": "gatemusikant", "de": "der Straßenmusikant", "pos": "noun", "gender": "m", "forms": ["gatemusikant", "gatemusikanten", "gatemusikanter", "gatemusikantene"], "lesson": 9, "ex": { "no": "På Karl Johan spiller mange gatemusikanter.", "de": "Auf der Karl Johan spielen viele Straßenmusikanten." } },
-  { "id": "w09_langs", "no": "langs", "de": "entlang", "pos": "prep", "lesson": 9, "ex": { "no": "Vi går langs gata.", "de": "Wir gehen die Straße entlang." } },
-  { "id": "w09_forbi", "no": "forbi", "de": "vorbei (an)", "pos": "prep", "lesson": 9, "ex": { "no": "Vi går forbi Nationaltheatret.", "de": "Wir gehen am Nationaltheatret vorbei." } },
-  { "id": "w09_mellom", "no": "mellom", "de": "zwischen", "pos": "prep", "lesson": 9, "ex": { "no": "Parken ligger mellom Stortinget og teateret.", "de": "Der Park liegt zwischen dem Storting und dem Theater." } },
-  { "id": "w09_hoyde", "no": "høyde", "de": "die Höhe, der Hügel", "deAlt": ["die Höhe", "der Hügel"], "pos": "noun", "gender": "m", "forms": ["høyde", "høyden", "høyder", "høydene"], "lesson": 9, "ex": { "no": "Slottet ligger på en liten høyde.", "de": "Das Schloss liegt auf einem kleinen Hügel." } },
-  { "id": "w09_bolig", "no": "bolig", "de": "die Wohnung, der Wohnsitz", "pos": "noun", "gender": "m", "forms": ["bolig", "boligen", "boliger", "boligene"], "lesson": 9, "ex": { "no": "Slottet er kongens bolig i Oslo.", "de": "Das Schloss ist der Wohnsitz des Königs in Oslo." } },
-  { "id": "w09_balkong", "no": "balkong", "de": "der Balkon", "pos": "noun", "gender": "m", "forms": ["balkong", "balkongen", "balkonger", "balkongene"], "lesson": 9, "ex": { "no": "Kongefamilien vinker fra balkongen.", "de": "Die Königsfamilie winkt vom Balkon." } },
-  { "id": "w09_vinke", "no": "vinke", "de": "winken", "pos": "verb", "vf": ["vinker", "vinket", "vinket", "vink"], "vg": "1", "lesson": 9, "ex": { "no": "Barna vinker til kongen.", "de": "Die Kinder winken dem König zu." } },
-  { "id": "w09_skoyte", "no": "skøyte", "de": "der Schlittschuh", "pos": "noun", "gender": "f", "forms": ["skøyte", "skøyta/skøyten", "skøyter", "skøytene"], "lesson": 9, "ex": { "no": "Om vinteren går vi på skøyter.", "de": "Im Winter laufen wir Schlittschuh." }, "note": "gå på skøyter = Schlittschuh laufen" },
-  { "id": "w09_dromme", "no": "drømme", "de": "träumen", "pos": "verb", "vf": ["drømmer", "drømte", "drømt", "drøm"], "vg": "2", "lesson": 9, "ex": { "no": "Hva drømmer du om?", "de": "Wovon träumst du?" }, "note": "drømme om = träumen von" },
-  { "id": "w09_rett_fram", "no": "rett fram", "de": "geradeaus", "pos": "phrase", "lesson": 9, "wk": true, "ex": { "no": "Gå rett fram til Slottet.", "de": "Geh geradeaus bis zum Schloss." } },
-  { "id": "w09_ta_til_hoyre", "no": "ta til høyre", "de": "rechts abbiegen", "pos": "phrase", "lesson": 9, "wk": true, "ex": { "no": "Ta til høyre ved Nationaltheatret.", "de": "Bieg beim Nationaltheatret rechts ab." }, "note": "ta til venstre = links abbiegen" },
-  { "id": "w09_side", "no": "side", "de": "die Seite", "pos": "noun", "gender": "f", "forms": ["side", "sida/siden", "sider", "sidene"], "lesson": 9, "wk": true, "ex": { "no": "Kafeen ligger på den andre siden av gata.", "de": "Das Café liegt auf der anderen Straßenseite." } },
-  { "id": "w09_kart", "no": "kart", "de": "die Karte, der Stadtplan", "deAlt": ["die Landkarte", "der Stadtplan"], "pos": "noun", "gender": "n", "forms": ["kart", "kartet", "kart", "karta/kartene"], "lesson": 9, "wk": true, "ex": { "no": "Kan du vise meg det på kartet?", "de": "Kannst du es mir auf dem Stadtplan zeigen?" } },
-  { "id": "w09_vise", "no": "vise", "de": "zeigen", "pos": "verb", "vf": ["viser", "viste", "vist", "vis"], "vg": "2", "lesson": 9, "wk": true, "ex": { "no": "Susanne viser Matthias byen.", "de": "Susanne zeigt Matthias die Stadt." } },
-  { "id": "w09_lyskryss", "no": "lyskryss", "de": "die Ampelkreuzung", "deAlt": ["die Ampel", "die Kreuzung"], "pos": "noun", "gender": "n", "forms": ["lyskryss", "lyskrysset", "lyskryss", "lyskryssa/lyskryssene"], "lesson": 9, "wk": true, "ex": { "no": "Ta til venstre i lyskrysset.", "de": "Bieg an der Ampel links ab." } },
-  { "id": "w09_trikk", "no": "trikk", "de": "die Straßenbahn", "pos": "noun", "gender": "m", "forms": ["trikk", "trikken", "trikker", "trikkene"], "lesson": 9, "wk": true, "ex": { "no": "Vi tar trikken til Frognerparken.", "de": "Wir nehmen die Straßenbahn zum Frognerpark." } },
-  { "id": "w09_gaa_seg_vill", "no": "gå seg vill", "de": "sich verlaufen", "pos": "phrase", "lesson": 9, "wk": true, "ex": { "no": "Jeg har gått meg vill.", "de": "Ich habe mich verlaufen." } },
-  { "id": "w09_herfra", "no": "herfra", "de": "von hier (aus)", "pos": "adv", "lesson": 9, "wk": true, "ex": { "no": "Er det langt herfra?", "de": "Ist es weit von hier?" } },
-  { "id": "w09_stenge", "no": "stenge", "de": "schließen, zumachen", "pos": "verb", "vf": ["stenger", "stengte", "stengt", "steng"], "vg": "2", "lesson": 9, "wk": true, "ex": { "no": "Butikkene stenger klokka åtte.", "de": "Die Geschäfte schließen um acht Uhr." } },
-  { "id": "w09_saerlig", "no": "særlig", "de": "besonders", "pos": "adv", "lesson": 9, "ex": { "no": "Jonas var ikke særlig glad den kvelden.", "de": "Jonas war an dem Abend nicht besonders fröhlich." } },
-  { "id": "w09_vinter", "no": "vinter", "de": "der Winter", "pos": "noun", "gender": "m", "forms": ["vinter", "vinteren", "vintrer", "vintrene"], "lesson": 9, "ex": { "no": "Om vinteren går folk på skøyter.", "de": "Im Winter laufen die Leute Schlittschuh." }, "note": "Plural ohne e: vintrer (wie bei -el: sykler)." },
-  { "id": "w09_nasjonaldag", "no": "nasjonaldag", "de": "der Nationalfeiertag", "pos": "noun", "gender": "m", "forms": ["nasjonaldag", "nasjonaldagen", "nasjonaldager", "nasjonaldagene"], "lesson": 9, "ex": { "no": "Norges nasjonaldag er 17. mai.", "de": "Norwegens Nationalfeiertag ist der 17. Mai." } },
-  { "id": "w09_kongefamilie", "no": "kongefamilie", "de": "die Königsfamilie", "pos": "noun", "gender": "m", "forms": ["kongefamilie", "kongefamilien", "kongefamilier", "kongefamiliene"], "lesson": 9, "ex": { "no": "Kongefamilien står på balkongen.", "de": "Die Königsfamilie steht auf dem Balkon." } },
-  {"id": "w09_navn", "no": "navn", "de": "der Name", "pos": "noun", "gender": "n", "forms": ["navn", "navnet", "navn", "navna/navnene"], "ex": {"no": "Gata har navn etter kong Karl Johan.", "de": "Die Straße ist nach König Karl Johan benannt."}, "lesson": 9},
-  {"id": "w09_del", "no": "del", "de": "der Teil", "pos": "noun", "gender": "m", "forms": ["del", "delen", "deler", "delene"], "ex": {"no": "En del av gata er gågate.", "de": "Ein Teil der Straße ist Fußgängerzone."}, "note": "Auch: en del = ziemlich viel (en del folk).", "lesson": 9},
-  {"id": "w09_tusenvis_av", "no": "tusenvis av", "de": "Tausende von", "pos": "phrase", "ex": {"no": "Tusenvis av barn går i barnetoget.", "de": "Tausende Kinder ziehen im Kinderumzug mit."}, "lesson": 9},
-  {"id": "w09_marskalk", "no": "marskalk", "de": "der Marschall", "pos": "noun", "gender": "m", "forms": ["marskalk", "marskalken", "marskalker", "marskalkene"], "ex": {"no": "Bernadotte var en fransk marskalk.", "de": "Bernadotte war ein französischer Marschall."}, "lesson": 9},
-  {"id": "w09_nasjonalforsamling", "no": "nasjonalforsamling", "de": "die Nationalversammlung, das Parlament", "pos": "noun", "gender": "m", "forms": ["nasjonalforsamling", "nasjonalforsamlingen", "nasjonalforsamlinger", "nasjonalforsamlingene"], "ex": {"no": "Stortinget er Norges nasjonalforsamling.", "de": "Das Storting ist Norwegens Parlament."}, "lesson": 9},
-  {"id": "w09_omraade", "no": "område", "de": "das Gebiet, die Gegend", "pos": "noun", "gender": "n", "forms": ["område", "området", "områder", "områdene/områda"], "ex": {"no": "Sagene er et rolig område.", "de": "Sagene ist eine ruhige Gegend."}, "lesson": 9},
-  {"id": "w09_buss", "no": "buss", "de": "der Bus", "pos": "noun", "gender": "m", "forms": ["buss", "bussen", "busser", "bussene"], "wk": true, "ex": {"no": "Hvor går bussen til Sagene fra?", "de": "Wo fährt der Bus nach Sagene ab?"}, "lesson": 9},
-  {"id": "w09_tog", "no": "tog", "de": "der Zug", "pos": "noun", "gender": "n", "forms": ["tog", "toget", "tog", "toga/togene"], "wk": true, "ex": {"no": "Toget til Bergen går fra Oslo S.", "de": "Der Zug nach Bergen fährt von Oslo S."}, "note": "Auch: der Umzug (barnetoget = der Kinderumzug).", "lesson": 9},
-  {"id": "w09_plass", "no": "plass", "de": "der Platz", "pos": "noun", "gender": "m", "forms": ["plass", "plassen", "plasser", "plassene"], "wk": true, "ex": {"no": "Foran Slottet er det en stor plass.", "de": "Vor dem Schloss ist ein großer Platz."}, "lesson": 9},
-  {"id": "w09_torg", "no": "torg", "de": "der Markt, der Platz", "pos": "noun", "gender": "n", "forms": ["torg", "torget", "torg", "torga/torgene"], "wk": true, "ex": {"no": "Karl Johan begynner ved Jernbanetorget.", "de": "Die Karl Johan beginnt am Jernbanetorget (Bahnhofsplatz)."}, "lesson": 9},
-  {"id": "w09_sommer", "no": "sommer", "de": "der Sommer", "pos": "noun", "gender": "m", "forms": ["sommer", "sommeren", "somrer", "somrene"], "ex": {"no": "Om sommeren er Karl Johan full av turister.", "de": "Im Sommer ist die Karl Johan voller Touristen."}, "note": "Plural ohne e: somrer (wie vinter – vintrer).", "lesson": 9},
-  {"id": "w09_tenke", "no": "tenke", "de": "denken", "pos": "verb", "vf": ["tenker", "tenkte", "tenkt", "tenk"], "vg": "2", "ex": {"no": "Hva tenker du på?", "de": "Woran denkst du?"}, "note": "tenke på = denken an", "lesson": 9},
-  {"id": "w09_bergensbanen", "no": "Bergensbanen", "de": "die Bergenbahn", "pos": "name", "ex": {"no": "Bergensbanen går fra Oslo til Bergen.", "de": "Die Bergenbahn fährt von Oslo nach Bergen."}, "lesson": 9}
+  {
+    "id": "w09_praksisplass",
+    "no": "praksisplass",
+    "de": "der Praktikumsplatz, das Praktikum",
+    "deAlt": [
+      "das Praktikum",
+      "der Praktikumsplatz"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "praksisplass",
+      "praksisplassen",
+      "praksisplasser",
+      "praksisplassene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Han har fått en praksisplass i Bergen.",
+      "de": "Er hat einen Praktikumsplatz in Bergen bekommen."
+    }
+  },
+  {
+    "id": "w09_firma",
+    "no": "firma",
+    "de": "die Firma",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "firma",
+      "firmaet",
+      "firmaer",
+      "firmaene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Firmaet bygger bruer.",
+      "de": "Die Firma baut Brücken."
+    },
+    "note": "Achtung: et firma (Neutrum)."
+  },
+  {
+    "id": "w09_ingeniorfirma",
+    "no": "ingeniørfirma",
+    "de": "die Ingenieurfirma",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "ingeniørfirma",
+      "ingeniørfirmaet",
+      "ingeniørfirmaer",
+      "ingeniørfirmaene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Det lille ingeniørfirmaet har tolv ansatte.",
+      "de": "Die kleine Ingenieurfirma hat zwölf Angestellte."
+    }
+  },
+  {
+    "id": "w09_praktikant",
+    "no": "praktikant",
+    "de": "der Praktikant / die Praktikantin",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "praktikant",
+      "praktikanten",
+      "praktikanter",
+      "praktikantene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Matthias blir praktikant i Bergen.",
+      "de": "Matthias wird Praktikant in Bergen."
+    }
+  },
+  {
+    "id": "w09_i_stedet_for",
+    "no": "i stedet for",
+    "de": "statt, anstatt",
+    "pos": "phrase",
+    "lesson": 9,
+    "ex": {
+      "no": "Vi tar toget i stedet for bussen.",
+      "de": "Wir nehmen den Zug statt des Busses."
+    }
+  },
+  {
+    "id": "w09_forelder",
+    "no": "forelder",
+    "de": "der Elternteil",
+    "deAlt": [
+      "die Eltern"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "forelder",
+      "forelderen",
+      "foreldre",
+      "foreldrene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Foreldrene til Matthias bor i Bern.",
+      "de": "Matthias' Eltern wohnen in Bern."
+    },
+    "note": "Meist im Plural: foreldre = Eltern."
+  },
+  {
+    "id": "w09_kirke",
+    "no": "kirke",
+    "de": "die Kirche",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "kirke",
+      "kirken/kirka",
+      "kirker",
+      "kirkene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Den gamle kirken er fra 1697.",
+      "de": "Die alte Kirche ist von 1697."
+    },
+    "note": "Auch feminin: ei kirke – kirka."
+  },
+  {
+    "id": "w09_domkirke",
+    "no": "domkirke",
+    "de": "der Dom, die Kathedrale",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "domkirke",
+      "domkirken/domkirka",
+      "domkirker",
+      "domkirkene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Domkirken ligger like ved Karl Johan.",
+      "de": "Der Dom liegt ganz in der Nähe der Karl Johan."
+    }
+  },
+  {
+    "id": "w09_gifte_seg",
+    "no": "gifte seg",
+    "de": "heiraten",
+    "pos": "verb",
+    "vf": [
+      "gifter seg",
+      "giftet seg",
+      "giftet seg",
+      "gift deg"
+    ],
+    "vg": "1",
+    "lesson": 9,
+    "ex": {
+      "no": "De giftet seg i Domkirken.",
+      "de": "Sie haben im Dom geheiratet."
+    },
+    "note": "gift = verheiratet (falscher Freund: kein »Gift«!)."
+  },
+  {
+    "id": "w09_ansatt",
+    "no": "ansatt",
+    "de": "der/die Angestellte",
+    "deAlt": [
+      "der Angestellte",
+      "die Angestellte",
+      "der Mitarbeiter"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "ansatt",
+      "ansatte",
+      "ansatte",
+      "ansatte"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Firmaet har tolv ansatte.",
+      "de": "Die Firma hat zwölf Angestellte."
+    },
+    "note": "Wird wie ein Adjektiv gebeugt: en ansatt, den ansatte, ansatte, de ansatte."
+  },
+  {
+    "id": "w09_kontor",
+    "no": "kontor",
+    "de": "das Büro",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "kontor",
+      "kontoret",
+      "kontorer",
+      "kontorene/kontora"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Det nye kontoret ligger i et høyhus.",
+      "de": "Das neue Büro liegt in einem Hochhaus."
+    }
+  },
+  {
+    "id": "w09_hoyhus",
+    "no": "høyhus",
+    "de": "das Hochhaus",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "høyhus",
+      "høyhuset",
+      "høyhus",
+      "høyhusa/høyhusene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Jeg vil ikke sitte i et høyhus hele dagen.",
+      "de": "Ich will nicht den ganzen Tag in einem Hochhaus sitzen."
+    }
+  },
+  {
+    "id": "w09_etasje",
+    "no": "etasje",
+    "de": "das Stockwerk, die Etage",
+    "deAlt": [
+      "das Stockwerk",
+      "die Etage",
+      "der Stock"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "etasje",
+      "etasjen",
+      "etasjer",
+      "etasjene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Høyhuset har førti etasjer.",
+      "de": "Das Hochhaus hat vierzig Stockwerke."
+    }
+  },
+  {
+    "id": "w09_lonn",
+    "no": "lønn",
+    "de": "das Gehalt, der Lohn",
+    "deAlt": [
+      "das Gehalt",
+      "der Lohn"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "lønn",
+      "lønnen/lønna"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Lønnen i Paris er god.",
+      "de": "Das Gehalt in Paris ist gut."
+    }
+  },
+  {
+    "id": "w09_bygge",
+    "no": "bygge",
+    "de": "bauen",
+    "pos": "verb",
+    "vf": [
+      "bygger",
+      "bygde",
+      "bygd",
+      "bygg"
+    ],
+    "vg": "3",
+    "lesson": 9,
+    "ex": {
+      "no": "Firmaet bygger tunneler.",
+      "de": "Die Firma baut Tunnel."
+    }
+  },
+  {
+    "id": "w09_bru",
+    "no": "bru",
+    "de": "die Brücke",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "bru",
+      "brua/bruen",
+      "bruer",
+      "bruene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Den gamle brua er fra 1900.",
+      "de": "Die alte Brücke ist von 1900."
+    },
+    "note": "Auch: en bro – broen."
+  },
+  {
+    "id": "w09_tunnel",
+    "no": "tunnel",
+    "de": "der Tunnel",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "tunnel",
+      "tunnelen",
+      "tunneler",
+      "tunnelene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Det er mange tunneler på Vestlandet.",
+      "de": "In Westnorwegen gibt es viele Tunnel."
+    },
+    "note": "Betonung auf -nel: Das e bleibt im Plural (tunneler)."
+  },
+  {
+    "id": "w09_vestlandet",
+    "no": "Vestlandet",
+    "de": "Westnorwegen",
+    "pos": "name",
+    "lesson": 9,
+    "ex": {
+      "no": "Bergen ligger på Vestlandet.",
+      "de": "Bergen liegt in Westnorwegen."
+    },
+    "note": "Mit på: på Vestlandet."
+  },
+  {
+    "id": "w09_trehus",
+    "no": "trehus",
+    "de": "das Holzhaus",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "trehus",
+      "trehuset",
+      "trehus",
+      "trehusa/trehusene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Matthias vil bo i et gammelt trehus.",
+      "de": "Matthias will in einem alten Holzhaus wohnen."
+    }
+  },
+  {
+    "id": "w09_utsikt",
+    "no": "utsikt",
+    "de": "die Aussicht, der Blick",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "utsikt",
+      "utsikten",
+      "utsikter",
+      "utsiktene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Huset har utsikt over havna.",
+      "de": "Das Haus hat Blick auf den Hafen."
+    }
+  },
+  {
+    "id": "w09_havn",
+    "no": "havn",
+    "de": "der Hafen",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "havn",
+      "havna/havnen",
+      "havner",
+      "havnene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Båtene ligger i havna.",
+      "de": "Die Boote liegen im Hafen."
+    }
+  },
+  {
+    "id": "w09_hores_ut",
+    "no": "høres ut",
+    "de": "klingen, sich anhören",
+    "pos": "phrase",
+    "lesson": 9,
+    "ex": {
+      "no": "Det høres koselig ut!",
+      "de": "Das klingt gemütlich!"
+    }
+  },
+  {
+    "id": "w09_gul",
+    "no": "gul",
+    "de": "gelb",
+    "pos": "adj",
+    "forms": [
+      "gul",
+      "gult",
+      "gule"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Den gule bygningen er Stortinget.",
+      "de": "Das gelbe Gebäude ist das Storting."
+    }
+  },
+  {
+    "id": "w09_bygning",
+    "no": "bygning",
+    "de": "das Gebäude",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "bygning",
+      "bygningen",
+      "bygninger",
+      "bygningene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Langs gata ligger mange kjente bygninger.",
+      "de": "An der Straße liegen viele bekannte Gebäude."
+    }
+  },
+  {
+    "id": "w09_parlament",
+    "no": "parlament",
+    "de": "das Parlament",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "parlament",
+      "parlamentet",
+      "parlamenter",
+      "parlamentene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Det norske parlamentet heter Stortinget.",
+      "de": "Das norwegische Parlament heißt Storting."
+    }
+  },
+  {
+    "id": "w09_hoyre",
+    "no": "høyre",
+    "de": "rechts, rechte(r)",
+    "pos": "adj",
+    "forms": [
+      "høyre",
+      "høyre",
+      "høyre"
+    ],
+    "lesson": 9,
+    "wk": true,
+    "ex": {
+      "no": "Universitetet ligger på høyre side.",
+      "de": "Die Universität liegt auf der rechten Seite."
+    },
+    "note": "til høyre = (nach) rechts"
+  },
+  {
+    "id": "w09_venstre",
+    "no": "venstre",
+    "de": "links, linke(r)",
+    "pos": "adj",
+    "forms": [
+      "venstre",
+      "venstre",
+      "venstre"
+    ],
+    "lesson": 9,
+    "wk": true,
+    "ex": {
+      "no": "Ta til venstre ved Stortinget.",
+      "de": "Bieg beim Storting links ab."
+    },
+    "note": "til venstre = (nach) links"
+  },
+  {
+    "id": "w09_karakter",
+    "no": "karakter",
+    "de": "die Note (Schulnote)",
+    "deAlt": [
+      "die Note",
+      "der Charakter"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "karakter",
+      "karakteren",
+      "karakterer",
+      "karakterene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Ola fikk en god karakter i matte.",
+      "de": "Ola hat in Mathe eine gute Note bekommen."
+    },
+    "note": "Auch: der Charakter."
+  },
+  {
+    "id": "w09_toppkarakter",
+    "no": "toppkarakter",
+    "de": "die Bestnote",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "toppkarakter",
+      "toppkarakteren",
+      "toppkarakterer",
+      "toppkarakterene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "I Norge er seks en toppkarakter.",
+      "de": "In Norwegen ist eine Sechs eine Bestnote."
+    }
+  },
+  {
+    "id": "w09_motsatt",
+    "no": "motsatt",
+    "de": "entgegengesetzt, umgekehrt",
+    "pos": "adj",
+    "forms": [
+      "motsatt",
+      "motsatt",
+      "motsatte"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "I Tyskland er det motsatt.",
+      "de": "In Deutschland ist es umgekehrt."
+    }
+  },
+  {
+    "id": "w09_katastrofe",
+    "no": "katastrofe",
+    "de": "die Katastrophe",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "katastrofe",
+      "katastrofen",
+      "katastrofer",
+      "katastrofene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "En sekser er en katastrofe i Tyskland.",
+      "de": "Eine Sechs ist in Deutschland eine Katastrophe."
+    }
+  },
+  {
+    "id": "w09_barneskole",
+    "no": "barneskole",
+    "de": "die Grundschule",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "barneskole",
+      "barneskolen",
+      "barneskoler",
+      "barneskolene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "På barneskolen får elevene ikke karakterer.",
+      "de": "In der Grundschule bekommen die Schüler keine Noten."
+    },
+    "note": "1.–7. Klasse; danach ungdomsskolen (8.–10. Klasse)."
+  },
+  {
+    "id": "w09_elev",
+    "no": "elev",
+    "de": "der Schüler / die Schülerin",
+    "deAlt": [
+      "der Schüler",
+      "die Schülerin"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "elev",
+      "eleven",
+      "elever",
+      "elevene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Kari har tjuefem elever.",
+      "de": "Kari hat fünfundzwanzig Schüler."
+    }
+  },
+  {
+    "id": "w09_i_det_hele_tatt",
+    "no": "i det hele tatt",
+    "de": "überhaupt",
+    "pos": "phrase",
+    "lesson": 9,
+    "ex": {
+      "no": "Jeg forstår det ikke i det hele tatt.",
+      "de": "Ich verstehe das überhaupt nicht."
+    }
+  },
+  {
+    "id": "w09_velge",
+    "no": "velge",
+    "de": "wählen, auswählen",
+    "pos": "verb",
+    "vf": [
+      "velger",
+      "valgte",
+      "valgt",
+      "velg"
+    ],
+    "vg": "uregelm",
+    "lesson": 9,
+    "ex": {
+      "no": "Matthias valgte Bergen.",
+      "de": "Matthias hat Bergen gewählt."
+    }
+  },
+  {
+    "id": "w09_feil",
+    "no": "feil",
+    "de": "falsch",
+    "pos": "adj",
+    "forms": [
+      "feil",
+      "feil",
+      "feil"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Jeg er redd for å velge feil.",
+      "de": "Ich habe Angst, falsch zu wählen."
+    },
+    "note": "Unveränderlich. Auch Substantiv: en feil = ein Fehler."
+  },
+  {
+    "id": "w09_slott",
+    "no": "slott",
+    "de": "das Schloss",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "slott",
+      "slottet",
+      "slott",
+      "slotta/slottene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Kongens slott ligger på en liten høyde.",
+      "de": "Das Schloss des Königs liegt auf einem kleinen Hügel."
+    },
+    "note": "Slottet = das Königsschloss in Oslo."
+  },
+  {
+    "id": "w09_hest",
+    "no": "hest",
+    "de": "das Pferd",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "hest",
+      "hesten",
+      "hester",
+      "hestene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Foran Slottet står Karl Johan på hest.",
+      "de": "Vor dem Schloss steht Karl Johan zu Pferd."
+    }
+  },
+  {
+    "id": "w09_frankrike",
+    "no": "Frankrike",
+    "de": "Frankreich",
+    "pos": "name",
+    "lesson": 9,
+    "ex": {
+      "no": "Karl Johan kom fra Frankrike.",
+      "de": "Karl Johan kam aus Frankreich."
+    }
+  },
+  {
+    "id": "w09_likevel",
+    "no": "likevel",
+    "de": "trotzdem, doch",
+    "pos": "adv",
+    "lesson": 9,
+    "ex": {
+      "no": "Det regner, men vi går en tur likevel.",
+      "de": "Es regnet, aber wir gehen trotzdem spazieren."
+    }
+  },
+  {
+    "id": "w09_bestemme_seg",
+    "no": "bestemme seg",
+    "de": "sich entscheiden",
+    "pos": "verb",
+    "vf": [
+      "bestemmer seg",
+      "bestemte seg",
+      "bestemt seg",
+      "bestem deg"
+    ],
+    "vg": "2",
+    "lesson": 9,
+    "ex": {
+      "no": "Matthias har bestemt seg for Bergen.",
+      "de": "Matthias hat sich für Bergen entschieden."
+    },
+    "note": "bestemme seg for = sich entscheiden für"
+  },
+  {
+    "id": "w09_besoke",
+    "no": "besøke",
+    "de": "besuchen",
+    "pos": "verb",
+    "vf": [
+      "besøker",
+      "besøkte",
+      "besøkt",
+      "besøk"
+    ],
+    "vg": "2",
+    "lesson": 9,
+    "ex": {
+      "no": "Susanne vil besøke Matthias i Bergen.",
+      "de": "Susanne will Matthias in Bergen besuchen."
+    }
+  },
+  {
+    "id": "w09_avtale",
+    "no": "avtale",
+    "de": "die Abmachung, die Verabredung",
+    "deAlt": [
+      "die Abmachung",
+      "die Verabredung",
+      "der Termin"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "avtale",
+      "avtalen",
+      "avtaler",
+      "avtalene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Avtale! Vi sees i Bergen.",
+      "de": "Abgemacht! Wir sehen uns in Bergen."
+    },
+    "note": "Avtale! = Abgemacht!"
+  },
+  {
+    "id": "w09_liten",
+    "no": "liten",
+    "de": "klein",
+    "pos": "adj",
+    "forms": [
+      "liten",
+      "lite",
+      "små",
+      "mindre",
+      "minst"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Det lille firmaet ligger i Bergen.",
+      "de": "Die kleine Firma liegt in Bergen."
+    },
+    "note": "ei lita bok; bestimmt: den/det lille; Plural: små, de små."
+  },
+  {
+    "id": "w09_beromt",
+    "no": "berømt",
+    "de": "berühmt",
+    "pos": "adj",
+    "forms": [
+      "berømt",
+      "berømt",
+      "berømte"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Vi går forbi det berømte teateret.",
+      "de": "Wir gehen an dem berühmten Theater vorbei."
+    }
+  },
+  {
+    "id": "w09_den_der",
+    "no": "den der",
+    "de": "der/die/das da",
+    "pos": "phrase",
+    "lesson": 9,
+    "ex": {
+      "no": "Den bygningen der er Stortinget.",
+      "de": "Das Gebäude da ist das Storting."
+    },
+    "note": "den/det/de + bestimmtes Substantiv + der (da) oder her (hier)."
+  },
+  {
+    "id": "w09_onkel",
+    "no": "onkel",
+    "de": "der Onkel",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "onkel",
+      "onkelen",
+      "onkler",
+      "onklene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Onkel Arne bor i Ålesund.",
+      "de": "Onkel Arne wohnt in Ålesund."
+    },
+    "note": "Plural ohne e: onkler."
+  },
+  {
+    "id": "w09_nokkel",
+    "no": "nøkkel",
+    "de": "der Schlüssel",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "nøkkel",
+      "nøkkelen",
+      "nøkler",
+      "nøklene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Jeg har to nøkler: en til huset og en til sykkelen.",
+      "de": "Ich habe zwei Schlüssel: einen für das Haus und einen für das Fahrrad."
+    },
+    "note": "Plural ohne e und mit einem k: nøkler."
+  },
+  {
+    "id": "w09_regel",
+    "no": "regel",
+    "de": "die Regel",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "regel",
+      "regelen",
+      "regler",
+      "reglene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "I Sveits er det mange regler.",
+      "de": "In der Schweiz gibt es viele Regeln."
+    }
+  },
+  {
+    "id": "w09_eksempel",
+    "no": "eksempel",
+    "de": "das Beispiel",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "eksempel",
+      "eksempelet/eksemplet",
+      "eksempler",
+      "eksemplene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Kan du gi meg et eksempel?",
+      "de": "Kannst du mir ein Beispiel geben?"
+    },
+    "note": "for eksempel (f.eks.) = zum Beispiel"
+  },
+  {
+    "id": "w09_himmel",
+    "no": "himmel",
+    "de": "der Himmel",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "himmel",
+      "himmelen",
+      "himler",
+      "himlene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Himmelen er blå i dag.",
+      "de": "Der Himmel ist heute blau."
+    }
+  },
+  {
+    "id": "w09_artikkel",
+    "no": "artikkel",
+    "de": "der Artikel",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "artikkel",
+      "artikkelen",
+      "artikler",
+      "artiklene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Jeg har lest en artikkel om Bergen.",
+      "de": "Ich habe einen Artikel über Bergen gelesen."
+    }
+  },
+  {
+    "id": "w09_gate",
+    "no": "gate",
+    "de": "die Straße",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "gate",
+      "gata/gaten",
+      "gater",
+      "gatene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Hva heter gata?",
+      "de": "Wie heißt die Straße?"
+    }
+  },
+  {
+    "id": "w09_hovedgate",
+    "no": "hovedgate",
+    "de": "die Hauptstraße",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "hovedgate",
+      "hovedgata/hovedgaten",
+      "hovedgater",
+      "hovedgatene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Karl Johan er Oslos hovedgate.",
+      "de": "Die Karl Johan ist Oslos Hauptstraße."
+    }
+  },
+  {
+    "id": "w09_gaagate",
+    "no": "gågate",
+    "de": "die Fußgängerzone",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "gågate",
+      "gågata/gågaten",
+      "gågater",
+      "gågatene"
+    ],
+    "lesson": 9,
+    "wk": true,
+    "ex": {
+      "no": "En del av Karl Johan er gågate.",
+      "de": "Ein Teil der Karl Johan ist Fußgängerzone."
+    }
+  },
+  {
+    "id": "w09_jernbanestasjon",
+    "no": "jernbanestasjon",
+    "de": "der Bahnhof",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "jernbanestasjon",
+      "jernbanestasjonen",
+      "jernbanestasjoner",
+      "jernbanestasjonene"
+    ],
+    "lesson": 9,
+    "wk": true,
+    "ex": {
+      "no": "Oslo S er den store jernbanestasjonen i Oslo.",
+      "de": "Oslo S ist der große Bahnhof in Oslo."
+    }
+  },
+  {
+    "id": "w09_gatemusikant",
+    "no": "gatemusikant",
+    "de": "der Straßenmusikant",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "gatemusikant",
+      "gatemusikanten",
+      "gatemusikanter",
+      "gatemusikantene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "På Karl Johan spiller mange gatemusikanter.",
+      "de": "Auf der Karl Johan spielen viele Straßenmusikanten."
+    }
+  },
+  {
+    "id": "w09_langs",
+    "no": "langs",
+    "de": "entlang",
+    "pos": "prep",
+    "lesson": 9,
+    "ex": {
+      "no": "Vi går langs gata.",
+      "de": "Wir gehen die Straße entlang."
+    }
+  },
+  {
+    "id": "w09_forbi",
+    "no": "forbi",
+    "de": "vorbei (an)",
+    "pos": "prep",
+    "lesson": 9,
+    "ex": {
+      "no": "Vi går forbi Nationaltheatret.",
+      "de": "Wir gehen am Nationaltheatret vorbei."
+    }
+  },
+  {
+    "id": "w09_mellom",
+    "no": "mellom",
+    "de": "zwischen",
+    "pos": "prep",
+    "lesson": 9,
+    "ex": {
+      "no": "Parken ligger mellom Stortinget og teateret.",
+      "de": "Der Park liegt zwischen dem Storting und dem Theater."
+    }
+  },
+  {
+    "id": "w09_hoyde",
+    "no": "høyde",
+    "de": "die Höhe, der Hügel",
+    "deAlt": [
+      "die Höhe",
+      "der Hügel"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "høyde",
+      "høyden",
+      "høyder",
+      "høydene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Slottet ligger på en liten høyde.",
+      "de": "Das Schloss liegt auf einem kleinen Hügel."
+    }
+  },
+  {
+    "id": "w09_bolig",
+    "no": "bolig",
+    "de": "die Wohnung, der Wohnsitz",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "bolig",
+      "boligen",
+      "boliger",
+      "boligene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Slottet er kongens bolig i Oslo.",
+      "de": "Das Schloss ist der Wohnsitz des Königs in Oslo."
+    }
+  },
+  {
+    "id": "w09_balkong",
+    "no": "balkong",
+    "de": "der Balkon",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "balkong",
+      "balkongen",
+      "balkonger",
+      "balkongene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Kongefamilien vinker fra balkongen.",
+      "de": "Die Königsfamilie winkt vom Balkon."
+    }
+  },
+  {
+    "id": "w09_vinke",
+    "no": "vinke",
+    "de": "winken",
+    "pos": "verb",
+    "vf": [
+      "vinker",
+      "vinket",
+      "vinket",
+      "vink"
+    ],
+    "vg": "1",
+    "lesson": 9,
+    "ex": {
+      "no": "Barna vinker til kongen.",
+      "de": "Die Kinder winken dem König zu."
+    }
+  },
+  {
+    "id": "w09_skoyte",
+    "no": "skøyte",
+    "de": "der Schlittschuh",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "skøyte",
+      "skøyta/skøyten",
+      "skøyter",
+      "skøytene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Om vinteren går vi på skøyter.",
+      "de": "Im Winter laufen wir Schlittschuh."
+    },
+    "note": "gå på skøyter = Schlittschuh laufen"
+  },
+  {
+    "id": "w09_dromme",
+    "no": "drømme",
+    "de": "träumen",
+    "pos": "verb",
+    "vf": [
+      "drømmer",
+      "drømte",
+      "drømt",
+      "drøm"
+    ],
+    "vg": "2",
+    "lesson": 9,
+    "ex": {
+      "no": "Hva drømmer du om?",
+      "de": "Wovon träumst du?"
+    },
+    "note": "drømme om = träumen von"
+  },
+  {
+    "id": "w09_rett_fram",
+    "no": "rett fram",
+    "de": "geradeaus",
+    "pos": "phrase",
+    "lesson": 9,
+    "wk": true,
+    "ex": {
+      "no": "Gå rett fram til Slottet.",
+      "de": "Geh geradeaus bis zum Schloss."
+    }
+  },
+  {
+    "id": "w09_ta_til_hoyre",
+    "no": "ta til høyre",
+    "de": "rechts abbiegen",
+    "pos": "phrase",
+    "lesson": 9,
+    "wk": true,
+    "ex": {
+      "no": "Ta til høyre ved Nationaltheatret.",
+      "de": "Bieg beim Nationaltheatret rechts ab."
+    },
+    "note": "ta til venstre = links abbiegen"
+  },
+  {
+    "id": "w09_side",
+    "no": "side",
+    "de": "die Seite",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "side",
+      "sida/siden",
+      "sider",
+      "sidene"
+    ],
+    "lesson": 9,
+    "wk": true,
+    "ex": {
+      "no": "Kafeen ligger på den andre siden av gata.",
+      "de": "Das Café liegt auf der anderen Straßenseite."
+    }
+  },
+  {
+    "id": "w09_kart",
+    "no": "kart",
+    "de": "die Karte, der Stadtplan",
+    "deAlt": [
+      "die Landkarte",
+      "der Stadtplan"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "kart",
+      "kartet",
+      "kart",
+      "karta/kartene"
+    ],
+    "lesson": 9,
+    "wk": true,
+    "ex": {
+      "no": "Kan du vise meg det på kartet?",
+      "de": "Kannst du es mir auf dem Stadtplan zeigen?"
+    }
+  },
+  {
+    "id": "w09_vise",
+    "no": "vise",
+    "de": "zeigen",
+    "pos": "verb",
+    "vf": [
+      "viser",
+      "viste",
+      "vist",
+      "vis"
+    ],
+    "vg": "2",
+    "lesson": 9,
+    "wk": true,
+    "ex": {
+      "no": "Susanne viser Matthias byen.",
+      "de": "Susanne zeigt Matthias die Stadt."
+    }
+  },
+  {
+    "id": "w09_lyskryss",
+    "no": "lyskryss",
+    "de": "die Ampelkreuzung",
+    "deAlt": [
+      "die Ampel",
+      "die Kreuzung"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "lyskryss",
+      "lyskrysset",
+      "lyskryss",
+      "lyskryssa/lyskryssene"
+    ],
+    "lesson": 9,
+    "wk": true,
+    "ex": {
+      "no": "Ta til venstre i lyskrysset.",
+      "de": "Bieg an der Ampel links ab."
+    }
+  },
+  {
+    "id": "w09_gaa_seg_vill",
+    "no": "gå seg vill",
+    "de": "sich verlaufen",
+    "pos": "phrase",
+    "lesson": 9,
+    "wk": true,
+    "ex": {
+      "no": "Jeg har gått meg vill.",
+      "de": "Ich habe mich verlaufen."
+    }
+  },
+  {
+    "id": "w09_herfra",
+    "no": "herfra",
+    "de": "von hier (aus)",
+    "pos": "adv",
+    "lesson": 9,
+    "wk": true,
+    "ex": {
+      "no": "Er det langt herfra?",
+      "de": "Ist es weit von hier?"
+    }
+  },
+  {
+    "id": "w09_stenge",
+    "no": "stenge",
+    "de": "schließen, zumachen",
+    "pos": "verb",
+    "vf": [
+      "stenger",
+      "stengte",
+      "stengt",
+      "steng"
+    ],
+    "vg": "2",
+    "lesson": 9,
+    "wk": true,
+    "ex": {
+      "no": "Butikkene stenger klokka åtte.",
+      "de": "Die Geschäfte schließen um acht Uhr."
+    }
+  },
+  {
+    "id": "w09_saerlig",
+    "no": "særlig",
+    "de": "besonders",
+    "pos": "adv",
+    "lesson": 9,
+    "ex": {
+      "no": "Jonas var ikke særlig glad den kvelden.",
+      "de": "Jonas war an dem Abend nicht besonders fröhlich."
+    }
+  },
+  {
+    "id": "w09_vinter",
+    "no": "vinter",
+    "de": "der Winter",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "vinter",
+      "vinteren",
+      "vintrer",
+      "vintrene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Om vinteren går folk på skøyter.",
+      "de": "Im Winter laufen die Leute Schlittschuh."
+    },
+    "note": "Plural ohne e: vintrer (wie bei -el: sykler)."
+  },
+  {
+    "id": "w09_nasjonaldag",
+    "no": "nasjonaldag",
+    "de": "der Nationalfeiertag",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "nasjonaldag",
+      "nasjonaldagen",
+      "nasjonaldager",
+      "nasjonaldagene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Norges nasjonaldag er 17. mai.",
+      "de": "Norwegens Nationalfeiertag ist der 17. Mai."
+    }
+  },
+  {
+    "id": "w09_kongefamilie",
+    "no": "kongefamilie",
+    "de": "die Königsfamilie",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "kongefamilie",
+      "kongefamilien",
+      "kongefamilier",
+      "kongefamiliene"
+    ],
+    "lesson": 9,
+    "ex": {
+      "no": "Kongefamilien står på balkongen.",
+      "de": "Die Königsfamilie steht auf dem Balkon."
+    }
+  },
+  {
+    "id": "w09_navn",
+    "no": "navn",
+    "de": "der Name",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "navn",
+      "navnet",
+      "navn",
+      "navna/navnene"
+    ],
+    "ex": {
+      "no": "Gata har navn etter kong Karl Johan.",
+      "de": "Die Straße ist nach König Karl Johan benannt."
+    },
+    "lesson": 9
+  },
+  {
+    "id": "w09_del",
+    "no": "del",
+    "de": "der Teil",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "del",
+      "delen",
+      "deler",
+      "delene"
+    ],
+    "ex": {
+      "no": "En del av gata er gågate.",
+      "de": "Ein Teil der Straße ist Fußgängerzone."
+    },
+    "note": "Auch: en del = ziemlich viel (en del folk).",
+    "lesson": 9
+  },
+  {
+    "id": "w09_tusenvis_av",
+    "no": "tusenvis av",
+    "de": "Tausende von",
+    "pos": "phrase",
+    "ex": {
+      "no": "Tusenvis av barn går i barnetoget.",
+      "de": "Tausende Kinder ziehen im Kinderumzug mit."
+    },
+    "lesson": 9
+  },
+  {
+    "id": "w09_marskalk",
+    "no": "marskalk",
+    "de": "der Marschall",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "marskalk",
+      "marskalken",
+      "marskalker",
+      "marskalkene"
+    ],
+    "ex": {
+      "no": "Bernadotte var en fransk marskalk.",
+      "de": "Bernadotte war ein französischer Marschall."
+    },
+    "lesson": 9
+  },
+  {
+    "id": "w09_nasjonalforsamling",
+    "no": "nasjonalforsamling",
+    "de": "die Nationalversammlung, das Parlament",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "nasjonalforsamling",
+      "nasjonalforsamlingen",
+      "nasjonalforsamlinger",
+      "nasjonalforsamlingene"
+    ],
+    "ex": {
+      "no": "Stortinget er Norges nasjonalforsamling.",
+      "de": "Das Storting ist Norwegens Parlament."
+    },
+    "lesson": 9
+  },
+  {
+    "id": "w09_omraade",
+    "no": "område",
+    "de": "das Gebiet, die Gegend",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "område",
+      "området",
+      "områder",
+      "områdene/områda"
+    ],
+    "ex": {
+      "no": "Sagene er et rolig område.",
+      "de": "Sagene ist eine ruhige Gegend."
+    },
+    "lesson": 9
+  },
+  {
+    "id": "w09_buss",
+    "no": "buss",
+    "de": "der Bus",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "buss",
+      "bussen",
+      "busser",
+      "bussene"
+    ],
+    "wk": true,
+    "ex": {
+      "no": "Hvor går bussen til Sagene fra?",
+      "de": "Wo fährt der Bus nach Sagene ab?"
+    },
+    "lesson": 9
+  },
+  {
+    "id": "w09_tog",
+    "no": "tog",
+    "de": "der Zug",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "tog",
+      "toget",
+      "tog",
+      "toga/togene"
+    ],
+    "wk": true,
+    "ex": {
+      "no": "Toget til Bergen går fra Oslo S.",
+      "de": "Der Zug nach Bergen fährt von Oslo S."
+    },
+    "note": "Auch: der Umzug (barnetoget = der Kinderumzug).",
+    "lesson": 9
+  },
+  {
+    "id": "w09_plass",
+    "no": "plass",
+    "de": "der Platz",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "plass",
+      "plassen",
+      "plasser",
+      "plassene"
+    ],
+    "wk": true,
+    "ex": {
+      "no": "Foran Slottet er det en stor plass.",
+      "de": "Vor dem Schloss ist ein großer Platz."
+    },
+    "lesson": 9
+  },
+  {
+    "id": "w09_torg",
+    "no": "torg",
+    "de": "der Markt, der Platz",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "torg",
+      "torget",
+      "torg",
+      "torga/torgene"
+    ],
+    "wk": true,
+    "ex": {
+      "no": "Karl Johan begynner ved Jernbanetorget.",
+      "de": "Die Karl Johan beginnt am Jernbanetorget (Bahnhofsplatz)."
+    },
+    "lesson": 9
+  },
+  {
+    "id": "w09_sommer",
+    "no": "sommer",
+    "de": "der Sommer",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "sommer",
+      "sommeren",
+      "somrer",
+      "somrene"
+    ],
+    "ex": {
+      "no": "Om sommeren er Karl Johan full av turister.",
+      "de": "Im Sommer ist die Karl Johan voller Touristen."
+    },
+    "note": "Plural ohne e: somrer (wie vinter – vintrer).",
+    "lesson": 9
+  },
+  {
+    "id": "w09_tenke",
+    "no": "tenke",
+    "de": "denken",
+    "pos": "verb",
+    "vf": [
+      "tenker",
+      "tenkte",
+      "tenkt",
+      "tenk"
+    ],
+    "vg": "2",
+    "ex": {
+      "no": "Hva tenker du på?",
+      "de": "Woran denkst du?"
+    },
+    "note": "tenke på = denken an",
+    "lesson": 9
+  },
+  {
+    "id": "w09_bergensbanen",
+    "no": "Bergensbanen",
+    "de": "die Bergenbahn",
+    "pos": "name",
+    "ex": {
+      "no": "Bergensbanen går fra Oslo til Bergen.",
+      "de": "Die Bergenbahn fährt von Oslo nach Bergen."
+    },
+    "lesson": 9
+  }
 ]

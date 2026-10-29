@@ -28,6 +28,7 @@ export interface Word {
   alt?: string[]; // other accepted Norwegian spellings
   pos: Pos;
   gender?: Gender; // nouns
+  plOnly?: boolean; // nouns used only in the plural (klær, penger): shown without article
   // nouns: [indefinite sg, definite sg, indefinite pl, definite pl] without article: ["bil", "bilen", "biler", "bilene"].
   //   Nouns without a plural ("melk") give two forms. "/" separates variants: "hus", "huset", "hus", "husa/husene".
   // adjectives: [m/f, neuter, plural/definite] (+ optional comparative, superlative): ["stor", "stort", "store", "større", "størst"]

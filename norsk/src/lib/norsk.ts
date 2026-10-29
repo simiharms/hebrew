@@ -204,9 +204,9 @@ export function stems(word: string): string[] {
       const stem = w.slice(0, -e.length);
       out.add(stem);
       out.add(stem + 'e');
-      // simplified double consonants: grønt → grønn, dumme → dum
-      if (/([bdfgklmnprst])\1$/.test(stem)) out.add(stem.slice(0, -1));
-      else if (/[bdfgklmnprst]$/.test(stem)) out.add(stem + stem.slice(-1));
+      // Double consonants: simplified before t (grønn → grønt), m doubled before a vowel (dum → dumme).
+      if (e === 't' && /[lmnps]$/.test(stem) && !/(.)\1$/.test(stem)) out.add(stem + stem.slice(-1));
+      if (/^[aeiouyæøå]/.test(e) && /mm$/.test(stem)) out.add(stem.slice(0, -1));
     }
   }
   out.delete(w);

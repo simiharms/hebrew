@@ -639,7 +639,7 @@
       "id": "g23_sammensatte_verb",
       "title": "Zusammengesetzte Verben",
       "titleNo": "sammensatte verb",
-      "summary": "Partikelverben (stå opp, ta med) sind trennbar wie im Deutschen, aber die Partikel steht direkt hinter dem Verb, nie am Satzende; daneben gibt es feste Zusammensetzungen (oppgi, nedlagt).",
+      "summary": "Partikelverben (stå opp, ta med) sind trennbar wie im Deutschen, aber die Partikel steht direkt hinter dem Verb und wandert nicht ans Satzende; daneben gibt es feste Zusammensetzungen (oppgi, nedlagt).",
       "sections": [
         {
           "h": "Partikelverben: stå opp, ta med, finne ut",

@@ -451,6 +451,10 @@
         {
           "no": "infinitiv",
           "de": "Infinitiv (Grundform des Verbs)"
+        },
+        {
+          "no": "form",
+          "de": "Form"
         }
       ]
     }

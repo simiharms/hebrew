@@ -170,6 +170,27 @@ const FUNCTION_WORDS: [string, string, string?][] = [
   ['det', 'es; das'],
   ['de', 'sie (Plural); die'],
   ['dem', 'sie, ihnen (Objektform von de)'],
+  ['én', 'ein, eine (betont: genau einer, eine)'],
+  // Days and months: written in lower case in Norwegian.
+  ['mandag', 'Montag'],
+  ['tirsdag', 'Dienstag'],
+  ['onsdag', 'Mittwoch'],
+  ['torsdag', 'Donnerstag'],
+  ['fredag', 'Freitag'],
+  ['lørdag', 'Samstag'],
+  ['søndag', 'Sonntag'],
+  ['januar', 'Januar'],
+  ['februar', 'Februar'],
+  ['mars', 'März'],
+  ['april', 'April'],
+  ['mai', 'Mai'],
+  ['juni', 'Juni'],
+  ['juli', 'Juli'],
+  ['august', 'August'],
+  ['september', 'September'],
+  ['oktober', 'Oktober'],
+  ['november', 'November'],
+  ['desember', 'Dezember'],
 ];
 
 export interface LookupResult {
@@ -179,7 +200,11 @@ export interface LookupResult {
 }
 
 function addFunctionWords() {
-  for (const [no, de, form] of FUNCTION_WORDS) if (!dict.has(no)) add(no, { no, de, form });
+  for (const [no, de, form] of FUNCTION_WORDS) {
+    if (!dict.has(no)) add(no, { no, de, form });
+    // weekdays also with -en / -er: mandagen, mandager
+    if (/dag$/.test(no)) for (const f of ['en', 'er', 'ene', 's']) if (!dict.has(no + f)) add(no + f, { no, de, form });
+  }
 }
 
 export function lookup(word: string): LookupResult {

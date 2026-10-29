@@ -65,8 +65,8 @@
     ],
     "lesson": 23,
     "ex": {
-      "no": "I Tromsø er det midnattssol fra slutten av mai til slutten av juli.",
-      "de": "In Tromsø gibt es von Ende Mai bis Ende Juli Mitternachtssonne."
+      "no": "I Tromsø er det midnattssol fra rundt 20. mai til slutten av juli.",
+      "de": "In Tromsø gibt es von etwa dem 20. Mai bis Ende Juli Mitternachtssonne."
     }
   },
   {
@@ -260,7 +260,7 @@
     "gender": "f",
     "forms": [
       "sovemaske",
-      "sovemaska",
+      "sovemaska/sovemasken",
       "sovemasker",
       "sovemaskene"
     ],
@@ -669,7 +669,7 @@
     "gender": "f",
     "forms": [
       "tåre",
-      "tåra",
+      "tåra/tåren",
       "tårer",
       "tårene"
     ],
@@ -1272,7 +1272,7 @@
     "lesson": 23,
     "ex": {
       "no": "Inga har en utdanning i biologi.",
-      "de": "Inga hat eine Ausbildung in Biologie."
+      "de": "Inga hat einen Abschluss in Biologie."
     }
   },
   {
@@ -1689,8 +1689,8 @@
     ],
     "lesson": 23,
     "ex": {
-      "no": "Midnattssola er sterk – husk solkrem!",
-      "de": "Die Mitternachtssonne ist stark – denk an Sonnencreme!"
+      "no": "Sola er sterk på fjellet – husk solkrem!",
+      "de": "In den Bergen ist die Sonne stark – denk an Sonnencreme!"
     }
   },
   {
@@ -1879,7 +1879,7 @@
     "gender": "f",
     "forms": [
       "lenke",
-      "lenka",
+      "lenka/lenken",
       "lenker",
       "lenkene"
     ],

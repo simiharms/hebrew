@@ -243,6 +243,10 @@
       {
         "no": "fjor",
         "de": "i fjor = letztes Jahr"
+      },
+      {
+        "no": "april",
+        "de": "April"
       }
     ]
   },
@@ -415,6 +419,14 @@
         {
           "no": "oppleve",
           "de": "erleben"
+        },
+        {
+          "no": "startet",
+          "de": "startete, richtete ein"
+        },
+        {
+          "no": "nummer to",
+          "de": "Nummer zwei, die zweitgrößte"
         }
       ]
     }

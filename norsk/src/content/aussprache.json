@@ -1,0 +1,210 @@
+{
+  "intro": "Norwegisch wird fast so geschrieben, wie man es spricht – aber eben nur fast. Hier findest du die wichtigsten Regeln der Aussprache (so wie man Bokmål in Oslo und im Osten Norwegens spricht) und die typischen Stolpersteine für Deutschsprachige. Tippe auf die Beispiele, um sie zu hören, und sprich sie laut nach. Keine Sorge: In Norwegen gibt es so viele Dialekte, dass niemand von dir eine perfekte Standardaussprache erwartet – verständlich sein ist das Ziel.",
+  "sections": [
+    {
+      "h": "Die Buchstaben æ, ø, å – und wie du sie tippst",
+      "body": "Das norwegische Alphabet hat 29 Buchstaben: a bis z und danach **æ**, **ø**, **å** – in dieser Reihenfolge, auch im Wörterbuch.\n\n• **æ** klingt wie das deutsche ä in „Bär“: **være**, **lære**\n• **ø** klingt wie das deutsche ö: **søster**, **grønn**\n• **å** klingt wie ein offenes o, kurz wie in „Sonne“, lang etwa wie in „Boot“, aber offener: **gå**, **båt**\n\nSo tippst du die Buchstaben:\n• iPhone und iPad: lange auf **a** drücken → å, æ; lange auf **o** drücken → ø\n• Mac: **Option+'** → æ, **Option+o** → ø, **Option+a** → å (auf der deutschen Tastatur liegt æ auf **Option+ä**)\n• Am bequemsten: in den Einstellungen die norwegische Tastatur hinzufügen.\n\nIn alten Namen steht oft **aa** für å (**Aasen**). In der App ist ein fehlendes æ, ø oder å kein Fehler – du bekommst nur einen Hinweis.",
+      "table": [
+        ["Buchstabe", "klingt etwa wie", "Beispiel"],
+        ["**æ**", "ä in „Bär“", "**være** (sein)"],
+        ["**ø**", "ö in „schön“", "**søt** (süß)"],
+        ["**å**", "o in „Sonne“ / „Boot“", "**båt** (Boot)"]
+      ],
+      "examples": [
+        { "no": "være", "de": "sein" },
+        { "no": "lære", "de": "lernen" },
+        { "no": "søster", "de": "Schwester" },
+        { "no": "grønn", "de": "grün" },
+        { "no": "gå", "de": "gehen" },
+        { "no": "båt", "de": "Boot" },
+        { "no": "blå", "de": "blau" },
+        { "no": "ærlig", "de": "ehrlich" }
+      ]
+    },
+    {
+      "h": "Lange und kurze Vokale",
+      "body": "Wie im Deutschen gibt es lange und kurze Vokale, und die Faustregel ist dieselbe:\n\n• Vor **einem** Konsonanten (oder am Wortende) ist der Vokal meist **lang**: **tak** (Dach), **mat** (Essen), **se**\n• Vor **zwei** Konsonanten ist er meist **kurz**: **takk** (danke), **matt** (matt), **hatt** (Hut)\n\nDer Unterschied ändert die Bedeutung: **tak – takk**, **mat – matt**, **hat** (Hass) – **hatt** (Hut).\n\nAusnahmen: Viele kleine Wörter haben einen kurzen Vokal, obwohl nur ein Konsonant folgt: **han**, **hun**, **men**, **til**, **et**. Und **m** wird am Wortende nie verdoppelt – der Vokal ist trotzdem kurz: **dum**, **rom**.",
+      "examples": [
+        { "no": "tak", "de": "Dach" },
+        { "no": "takk", "de": "danke" },
+        { "no": "mat", "de": "Essen" },
+        { "no": "matt", "de": "matt, kraftlos" },
+        { "no": "hat", "de": "Hass" },
+        { "no": "hatt", "de": "Hut" },
+        { "no": "vin", "de": "Wein" },
+        { "no": "dum", "de": "dumm" }
+      ]
+    },
+    {
+      "h": "Die Vokale a, e, i, æ, ø",
+      "body": "Diese Vokale sind für Deutschsprachige leicht:\n\n• **a** wie im Deutschen: **mat**, **takk**, **dag**\n• **e** lang wie in „Weg“: **se**, **lese**; kurz wie in „Bett“: **penn**. Ein **e** am Wortende spricht man immer, aber schwach – wie in „bitte“: **jente**, **komme**\n• **e** vor **r** klingt meist wie **æ**: **er**, **her**, **sterk**, **Bergen**\n• **i** wie im Deutschen: **vin**, **ikke**\n• **æ** wie ä, **ø** wie ö: **lære**, **søt**, **høst**",
+      "examples": [
+        { "no": "dag", "de": "Tag" },
+        { "no": "lese", "de": "lesen" },
+        { "no": "jente", "de": "Mädchen" },
+        { "no": "her", "de": "hier" },
+        { "no": "sterk", "de": "stark" },
+        { "no": "ikke", "de": "nicht" },
+        { "no": "høst", "de": "Herbst" },
+        { "no": "Bergen", "de": "Bergen" }
+      ]
+    },
+    {
+      "h": "o, u, y und å – die Stolpersteine",
+      "body": "• **o** klingt meist wie das deutsche **u**: **bok** (Buch), **sko** (Schuh), **god** (gut), **ost** (Käse). Lies nicht „Bock“ und „Gott“!\n• In vielen Wörtern klingt **o** aber wie **å**, vor allem vor zwei Konsonanten: **komme**, **kopp**, **folk**, aber auch in **tog**, **sove**, **over**. Lerne die Aussprache am besten mit dem Wort.\n• **u** ist kein deutsches u: Es liegt zwischen u und ü – Lippen gerundet wie für u, die Zunge weiter vorne wie für ü: **hus**, **du**, **ut**, **sju**.\n• **y** klingt wie das deutsche **ü**, mit noch spitzeren Lippen: **ny**, **by**, **fly**, **syk**.\n• **å** ist ein offenes o: **gå**, **år**, **både**.\n\nDas Paar **o** / **å** ist der häufigste Fehler: **bok** (Buch) klingt wie „buk“, **båt** (Boot) wie „boot“ mit offenem o.",
+      "table": [
+        ["Buchstabe", "Aussprache", "Beispiele"],
+        ["**o**", "meist wie dt. u", "**bok, sko, god**"],
+        ["**o**", "oft wie å", "**komme, tog, sove**"],
+        ["**u**", "zwischen u und ü", "**hus, du, ut**"],
+        ["**y**", "wie dt. ü", "**ny, by, fly**"],
+        ["**å**", "offenes o", "**gå, år, båt**"]
+      ],
+      "examples": [
+        { "no": "bok", "de": "Buch" },
+        { "no": "sko", "de": "Schuh" },
+        { "no": "god", "de": "gut" },
+        { "no": "komme", "de": "kommen" },
+        { "no": "tog", "de": "Zug" },
+        { "no": "hus", "de": "Haus" },
+        { "no": "du", "de": "du" },
+        { "no": "ny", "de": "neu" },
+        { "no": "syk", "de": "krank" },
+        { "no": "år", "de": "Jahr" }
+      ]
+    },
+    {
+      "h": "Doppellaute: ei, øy, au",
+      "body": "Norwegisch hat drei Diphthonge:\n\n• **ei** beginnt mit ä und gleitet zu i – etwa „äi“: **nei**, **hei**, **vei**\n• **øy** beginnt mit ö und gleitet zu i (ähnlich wie „eu“ in „heute“, aber mit ö): **øy**, **høy**, **gøy**\n• **au** beginnt mit ä und gleitet zu einem ü-artigen u – nicht ganz das deutsche „au“: **sau**, **haug**\n\nAchtung: Auch **eg** und **egn** klingen oft wie **ei**: **meg**, **deg**, **seg** (etwa „mäi, däi, säi“), **regn** („räin“), **tegne**. Und **jeg** spricht man „jäi“.",
+      "examples": [
+        { "no": "nei", "de": "nein" },
+        { "no": "hei", "de": "hallo" },
+        { "no": "vei", "de": "Weg" },
+        { "no": "øy", "de": "Insel" },
+        { "no": "høy", "de": "hoch" },
+        { "no": "gøy", "de": "lustig" },
+        { "no": "sau", "de": "Schaf" },
+        { "no": "meg", "de": "mich" },
+        { "no": "regn", "de": "Regen" },
+        { "no": "jeg", "de": "ich" }
+      ]
+    },
+    {
+      "h": "kj und sj – die zwei Zischlaute",
+      "body": "Norwegisch unterscheidet zwei Laute, die du aus dem Deutschen fast kennst:\n\n• Der **kj-Laut** klingt wie das **ch** in „ich“. Man schreibt ihn **kj** (**kjøpe**, **kjære**), **tj** (**tjue**) oder **k vor i, y, ei, øy** (**kino**, **kirke**, **kylling**).\n• Der **sj-Laut** klingt wie das deutsche **sch**, aber ohne vorgeschobene Lippen. Man schreibt ihn **sj** (**sjø**, **sjef**), **skj** (**skje**, **skjorte**), **sk vor i, y, ei, øy** (**ski**, **sky**, **skinke**) und **-sjon** in Fremdwörtern (**stasjon**).\n\nAber: **sk** vor **a, o, u, å** spricht man ganz normal s + k: **skole**, **sko**, **skulle**, **skål**.\n\nVerwechsle die beiden nicht: **kjære** (liebe) ist nicht **skjære** (schneiden)!",
+      "table": [
+        ["Schreibung", "Laut", "Beispiele"],
+        ["kj, tj, k + i/y/ei/øy", "wie „ich“", "**kjøpe, tjue, kino**"],
+        ["sj, skj, sk + i/y/ei/øy", "wie „sch“", "**sjø, skje, ski, sky**"],
+        ["sk + a/o/u/å", "s + k", "**skole, sko, skål**"]
+      ],
+      "examples": [
+        { "no": "kjøpe", "de": "kaufen" },
+        { "no": "tjue", "de": "zwanzig" },
+        { "no": "kino", "de": "Kino" },
+        { "no": "kirke", "de": "Kirche" },
+        { "no": "sjø", "de": "See, Meer" },
+        { "no": "skjorte", "de": "Hemd" },
+        { "no": "ski", "de": "Ski" },
+        { "no": "sky", "de": "Wolke" },
+        { "no": "stasjon", "de": "Bahnhof" },
+        { "no": "skole", "de": "Schule" }
+      ]
+    },
+    {
+      "h": "g vor i und y, hj-, gj-, hv-",
+      "body": "• **g vor i, y, ei, øy** klingt wie das deutsche **j**: **gi** („ji“), **gikk**, **gift** (verheiratet!), **geit**, **gøy**. Ausnahmen sind manche Fremdwörter: **gitar** mit hartem g.\n• **gj** und **hj** spricht man **j** – das g bzw. h ist stumm: **gjøre**, **gjest**, **hjem**, **hjelpe**.\n• **hv** spricht man **v** – das h ist stumm: **hva**, **hvor**, **hvem**, **hvit**.\n• **k vor i, y** wird zum ch-Laut wie in „ich“ (siehe oben): **kino**, **kyst**.\n• **v** klingt wie das deutsche **w**: **vi**, **vann**, **vær**.",
+      "examples": [
+        { "no": "gi", "de": "geben" },
+        { "no": "gikk", "de": "ging" },
+        { "no": "gift", "de": "verheiratet" },
+        { "no": "gjøre", "de": "machen, tun" },
+        { "no": "gjest", "de": "Gast" },
+        { "no": "hjem", "de": "nach Hause" },
+        { "no": "hjelpe", "de": "helfen" },
+        { "no": "hva", "de": "was" },
+        { "no": "hvor", "de": "wo" },
+        { "no": "vann", "de": "Wasser" }
+      ]
+    },
+    {
+      "h": "Stumme Buchstaben",
+      "body": "Einige Buchstaben schreibt man, spricht sie aber nicht:\n\n• **d** nach **l** und **n** und oft nach **r**: **kald** („kall“), **land** („lann“), **gård** („gor“), **ord** („ur“). Auch nach Vokal am Wortende ist d oft stumm: **god** („gu“), **med** („me“), **tid** („ti“), **rød** („rø“).\n• **-ig** am Wortende: Das g ist stumm: **hyggelig** („hyggeli“), **deilig**, **billig**, **viktig**.\n• **hv-**: Das h ist stumm: **hva** („va“).\n• **-et**: Im Pronomen **det** („de“) und in der bestimmten Form der Neutra ist das t stumm: **huset** („huse“), **toget**. Ebenso im Präteritum: **snakket** („snakke“).\n• **og** spricht man „å“, **jeg** „jäi“.",
+      "table": [
+        ["Wort", "Aussprache (etwa)", "Bedeutung"],
+        ["**kald**", "kall", "kalt"],
+        ["**god**", "gu", "gut"],
+        ["**hyggelig**", "hyggeli", "nett"],
+        ["**det**", "de", "es, das"],
+        ["**huset**", "huse", "das Haus"],
+        ["**og**", "å", "und"],
+        ["**jeg**", "jäi", "ich"]
+      ],
+      "examples": [
+        { "no": "kald", "de": "kalt" },
+        { "no": "land", "de": "Land" },
+        { "no": "gård", "de": "Hof" },
+        { "no": "god", "de": "gut" },
+        { "no": "hyggelig", "de": "nett, gemütlich" },
+        { "no": "billig", "de": "billig" },
+        { "no": "det", "de": "es, das" },
+        { "no": "huset", "de": "das Haus" },
+        { "no": "og", "de": "und" },
+        { "no": "jeg", "de": "ich" }
+      ]
+    },
+    {
+      "h": "Das r und die Verbindung rs",
+      "body": "In Oslo und im größten Teil Norwegens ist das **r** ein kurz **getipptes Zungen-r** (wie im Bairischen oder Italienischen). Im Süden und Westen, zum Beispiel in Bergen und Stavanger, spricht man dagegen ein Zäpfchen-r wie im Deutschen. Beides ist richtig. Wichtig: Das r wird **immer** gesprochen, auch am Wortende – kein „Vokal-r“ wie im deutschen „Vater“: **bror**, **mer**, **Vær så god!**\n\nIm Osten verschmilzt **r** mit einem folgenden **s, t, d, n, l** zu einem neuen Laut, bei dem die Zungenspitze nach hinten gebogen wird:\n\n• **rs** klingt wie **sch**: **norsk** („noschk“), **torsdag**, **først**, **kurs**\n• **rt, rd, rn, rl**: Das r verschwindet fast, die Zunge biegt sich zurück: **kort**, **bord** („bur“), **barn**, **Karl**\n\nIn Bergen dagegen hört man in **norsk** ein deutliches r und s.",
+      "examples": [
+        { "no": "bror", "de": "Bruder" },
+        { "no": "mer", "de": "mehr" },
+        { "no": "norsk", "de": "norwegisch" },
+        { "no": "torsdag", "de": "Donnerstag" },
+        { "no": "først", "de": "zuerst" },
+        { "no": "kurs", "de": "Kurs" },
+        { "no": "kort", "de": "kurz" },
+        { "no": "bord", "de": "Tisch" },
+        { "no": "barn", "de": "Kind" }
+      ]
+    },
+    {
+      "h": "Betonung und die zwei Töne",
+      "body": "**Betonung**: Die meisten Wörter werden wie im Deutschen auf der ersten Silbe betont: **snakke**, **jente**, **Norge**. Fremdwörter tragen die Betonung oft hinten: **universitet**, **stasjon**, **student**. Die Vorsilben **be-** und oft auch **for-** sind unbetont: **betale**, **besøke**, **forstå**, **fortelle**.\n\n**Die zwei Töne (Tonem 1 und Tonem 2)**: Norwegisch hat, wie Schwedisch, eine **Wortmelodie**. Jedes mehrsilbige Wort hat eine von zwei Melodien:\n\n• **Tonem 1**: Die Stimme steigt einfach an: **bønder** (Bauern), **tanken** (der Tank), **huset**, **bilen**.\n• **Tonem 2**: Die Stimme geht erst nach unten und dann wieder hoch – das „Singende“ am Norwegischen: **bønner** (Bohnen), **tanken** (der Gedanke), **jente**, **gate**.\n\n**bønder/bønner** und **tanken/tanken** unterscheiden sich nur durch die Melodie. Im Alltag versteht man fast alles aus dem Zusammenhang – keine Sorge, wenn du die Töne am Anfang nicht triffst. Faustregel: Einsilbige Wörter mit Endung (**huset**, **bilen**) haben meist Tonem 1, zweisilbige Wörter auf **-e** (**jente**, **gate**, **komme**) meist Tonem 2. Hör genau hin und ahme die Melodie ganzer Sätze nach.",
+      "table": [
+        ["Wort", "Tonem", "Bedeutung"],
+        ["**bønder**", "1", "Bauern"],
+        ["**bønner**", "2", "Bohnen, Gebete"],
+        ["**tanken**", "1", "der Tank"],
+        ["**tanken**", "2", "der Gedanke"]
+      ],
+      "examples": [
+        { "no": "bønder", "de": "Bauern (Tonem 1)" },
+        { "no": "bønner", "de": "Bohnen (Tonem 2)" },
+        { "no": "huset", "de": "das Haus (Tonem 1)" },
+        { "no": "bilen", "de": "das Auto (Tonem 1)" },
+        { "no": "jente", "de": "Mädchen (Tonem 2)" },
+        { "no": "gate", "de": "Straße (Tonem 2)" },
+        { "no": "universitet", "de": "Universität" },
+        { "no": "forstå", "de": "verstehen" },
+        { "no": "betale", "de": "bezahlen" }
+      ]
+    },
+    {
+      "h": "Typische Fehler von Deutschsprachigen",
+      "body": "• **st** und **sp** am Wortanfang: kein „scht“ oder „schp“! **stor** = s-tor, **spise** = s-pise, **sted**.\n• **s** ist immer scharf (stimmlos) wie in „Haus“, auch am Wortanfang: **sol**, **se**, **sove** – nicht weich wie in „Sonne“.\n• **o** wie u: **bok**, **god**, **sko** – nicht „Bock“, „Gott“.\n• Keine Auslautverhärtung: Ein **g** am Wortende bleibt weich (**dag**), und viele d sind ganz stumm (**god**, **rød**).\n• Kein deutsches **ch**: **og**, **jeg** und **dag** haben nie ein ch.\n• **de** (sie, Plural) spricht man „di“, **dem** dagegen „dem“.\n• Das **r** nicht verschlucken: **Vær så god!**, **mer**, **bror**.\n• **v** ist ein deutsches w: **vi**, **vann**. Ein deutsches v wie in „Vater“ (= f) gibt es nicht.\n• Lange Wörter nicht zu deutsch betonen: **universitet** wird hinten betont.",
+      "examples": [
+        { "no": "stor", "de": "groß" },
+        { "no": "spise", "de": "essen" },
+        { "no": "sol", "de": "Sonne" },
+        { "no": "sove", "de": "schlafen" },
+        { "no": "dag", "de": "Tag" },
+        { "no": "rød", "de": "rot" },
+        { "no": "de", "de": "sie (Plural)" },
+        { "no": "Vær så god!", "de": "Bitte schön! / Greif zu!" },
+        { "no": "vi", "de": "wir" },
+        { "no": "Hvor kommer du fra?", "de": "Woher kommst du?" }
+      ]
+    }
+  ]
+}

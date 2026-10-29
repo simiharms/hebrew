@@ -118,7 +118,7 @@ export const PLAN: PlanLesson[] = [
       { id: 'g05_den_det', title: 'Die 3. Person: den und det', points: 'Things are den (en/ei-nouns) or det (et-nouns): Bilen er ny. Den er rød. Huset er gammelt. Det er stort. det as formal subject: Det regner. Det er kaldt. Det er Anna.' },
       { id: 'g05_blaa', title: 'Adjektive wie blå, grå, ny', points: 'Adjectives ending in a stressed vowel take -tt in the neuter: blå – blått, grå – grått, ny – nytt, fri – fritt. Plural: blå (blåe), grå, nye. Also: god – godt (one t).' },
       { id: 'g05_refleksiv', title: 'Reflexive Verben', points: 'vaske seg, sette seg, glede seg, kle på seg, legge seg, føle seg: jeg vasker meg, du vasker deg, han/hun vasker seg, vi vasker oss, dere vasker dere, de vasker seg.' },
-      { id: 'g05_dobbelkonsonant', title: 'Rechtschreibung: Doppelkonsonanten', points: 'A double consonant at the end of a word is simplified before another consonant: grønn – grønt, tynn – tynt, trygg – trygt; m is never doubled at the end of a word: dum – dumt – dumme, et rom – rommet. Exception: ll stays (full – fullt).' },
+      { id: 'g05_dobbelkonsonant', title: 'Rechtschreibung: Doppelkonsonanten', points: 'A double consonant at the end of a word is simplified before another consonant: grønn – grønt, tynn – tynt, trygg – trygt; m is never doubled at the end of a word: dum – dumt – dumme, et rom – rommet. ll varies: full – fullt, but snill – snilt.' },
     ],
   },
   {

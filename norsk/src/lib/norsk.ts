@@ -1,7 +1,8 @@
 // Norwegian text utilities: normalisation, answer checking, keyword matching.
 // Uses only erasable TypeScript so Node can run it directly (validator).
 
-const LETTER = 'a-zA-ZæøåÆØÅéèêóòôüÉÈÊÓÒÔÜäöÄÖ';
+// Includes the Sámi letters (gákti, Sámediggi) and accented letters in names.
+const LETTER = 'a-zA-ZæøåÆØÅéèêóòôüÉÈÊÓÒÔÜäöÄÖáÁčČđĐŋŊšŠŧŦžŽ';
 const WORD_RE = new RegExp(`[${LETTER}0-9]+(?:[-'’][${LETTER}0-9]+)*`, 'g');
 const IS_WORD_CHAR = new RegExp(`[${LETTER}0-9]`);
 
@@ -29,7 +30,8 @@ export function fold(s: string): string {
     .replace(/å|aa/g, 'a')
     .replace(/é|è|ê/g, 'e')
     .replace(/ó|ò|ô/g, 'o')
-    .replace(/ü/g, 'u');
+    .replace(/ü/g, 'u')
+    .replace(/á/g, 'a');
 }
 
 export const hasNorwegianLetters = (s: string) => /[æøå]/i.test(s);

@@ -27,7 +27,7 @@
         "de": "Susanne teilte sich eine Wohnung mit Inga Eira, einer 23-jährigen Samin aus Kautokeino. Inga studierte Biologie und wohnte schon seit zwei Jahren in Tromsø. Ingas Zimmer war klein und ordentlich, während Susannes Zimmer voller Koffer und Kleider war."
       },
       {
-        "no": "«Bare spør hvis du trenger noe,» sa Inga mens hun lagde frokost til dem begge. Før Susanne gikk, viste Inga henne veien til bussen.",
+        "no": "«Bare spør hvis du trenger noe», sa Inga mens hun lagde frokost til dem begge. Før Susanne gikk, viste Inga henne veien til bussen.",
         "de": "„Frag einfach, wenn du etwas brauchst“, sagte Inga, während sie für sie beide Frühstück machte. Bevor Susanne ging, zeigte Inga ihr den Weg zum Bus."
       },
       {
@@ -43,7 +43,7 @@
         "de": "Ihre erste Vorlesung war in Nordischer Sprachwissenschaft. Das Thema waren norwegische Dialekte, und der Professor, ein älterer Mann aus Senja, sprach selbst Nordnorwegisch. Er sprach schnell und lachte viel, als ob er die ganze Zeit Witze erzählte. Die anderen Studierenden lachten auch, aber Susanne verstand nicht, warum. Er benutzte viele Wörter, die sie noch nie gehört hatte."
       },
       {
-        "no": "Etter forelesningen gikk hun bort til professoren. «Unnskyld, jeg forsto ikke alt fordi jeg ikke er vant til dialekten,» sa hun.",
+        "no": "Etter forelesningen gikk hun bort til professoren. «Unnskyld, jeg forsto ikke alt fordi jeg ikke er vant til dialekten», sa hun.",
         "de": "Nach der Vorlesung ging sie zum Professor. „Entschuldigung, ich habe nicht alles verstanden, weil ich den Dialekt nicht gewohnt bin“, sagte sie."
       },
       {
@@ -63,7 +63,7 @@
         "de": "Während sie aßen, schrieb Susanne eine Liste in ihr Notizbuch. „Das habe ich verstanden: wo die Bibliothek ist, wie ich Bücher ausleihe und dass ich mich vor Ablauf der Frist registrieren muss. Das habe ich nicht verstanden: die Hälfte der Vorlesung, den Namen des Gebäudes, in dem die nächste Vorlesung sein soll, und warum die Leute hier beim Einatmen ‚ja‘ sagen.“"
       },
       {
-        "no": "Inga lo da hun leste lista. «Det siste gjør vi uten å tenke på det. Det er helt vanlig i Nord-Norge,» sa hun.",
+        "no": "Inga lo da hun leste lista. «Det siste gjør vi uten å tenke på det. Det er helt vanlig i Nord-Norge», sa hun.",
         "de": "Inga lachte, als sie die Liste las. „Das Letzte machen wir, ohne darüber nachzudenken. Das ist in Nordnorwegen ganz normal“, sagte sie."
       },
       {
@@ -1215,7 +1215,8 @@
       "no": [
         "Det var mørkt, selv om klokka bare var fire.",
         "Det var mørkt selv om klokka bare var fire.",
-        "Det var mørkt, selv om klokken bare var fire."
+        "Det var mørkt, selv om klokken bare var fire.",
+        "Det var mørkt, selv om klokka var bare fire."
       ]
     }
   ],

@@ -16,7 +16,7 @@
     "title": "Gratulerer med dagen!",
     "titleDe": "Herzlichen Glückwunsch zum Geburtstag!",
     "kind": "prose",
-    "intro": "Anna ist gestern 25 geworden. Am nächsten Tag schreibt Susanne in ihr Tagebuch, wie gefeiert wurde: morgens bei Familie Nygård, abends mit Freunden an der Aker Brygge.",
+    "intro": "Anna hatte gestern ihren 25. Geburtstag. Heute schreibt Susanne in ihr Tagebuch, wie gefeiert wurde: morgens bei Familie Nygård, abends mit Freunden an der Aker Brygge.",
     "lines": [
       {
         "no": "Kjære dagbok! I går var en stor dag: Anna fylte tjuefem år.",
@@ -243,7 +243,7 @@
       "id": "x06a",
       "title": "To norske barnesanger",
       "titleDe": "Zwei norwegische Kinderlieder",
-      "kind": "song",
+      "kind": "info",
       "intro": "Zwei Lieder, die in Norwegen fast jedes Kind kennt: das Geburtstagslied und ein alter Kinderreim.",
       "lines": [
         {
@@ -925,7 +925,7 @@
         },
         {
           "h": "Die vier Klassen",
-          "body": "Welche Klasse ein Verb hat, siehst du dem Infinitiv nicht immer sicher an. Lerne das Präteritum deshalb mit jedem Verb mit (in der Vokabelliste steht es immer dabei). Faustregeln:\n\n• **-et**: oft nach zwei Konsonanten: **snakke – snakket, pakke – pakket, pynte – pyntet, åpne – åpnet**. Im Bokmål ist auch **-a** richtig: **snakka, pakka**.\n• **-te**: oft nach einem einzelnen Konsonanten: **spise – spiste, kjøpe – kjøpte, lese – leste, bake – bakte**; außerdem alle Verben auf **-ere**: **studere – studerte, invitere – inviterte**.\n• **-de**: nach **v**, **g** und Diphthong: **prøve – prøvde, leve – levde, eie – eide**.\n• **-dde**: einsilbige Verben auf Vokal: **bo – bodde, tro – trodde, bety – betydde**.",
+          "body": "Welche Klasse ein Verb hat, siehst du dem Infinitiv nicht immer sicher an. Lerne das Präteritum deshalb mit jedem Verb mit (in der Vokabelliste steht es immer dabei). Faustregeln:\n\n• **-et**: oft nach zwei Konsonanten: **snakke – snakket, pakke – pakket, pynte – pyntet, åpne – åpnet**. Im Bokmål ist auch **-a** richtig: **snakka, pakka**.\n• **-te**: oft nach einem einzelnen Konsonanten: **spise – spiste, kjøpe – kjøpte, lese – leste, bake – bakte**; außerdem alle Verben auf **-ere**: **studere – studerte, invitere – inviterte**.\n• **-de**: nach **v**, **g** und Diphthong: **prøve – prøvde, leve – levde, eie – eide**.\n• **-dde**: Verben, die auf einen betonten Vokal enden: **bo – bodde, tro – trodde, bety – betydde**.",
           "table": [
             [
               "Klasse",
@@ -961,7 +961,7 @@
       ],
       "drills": [
         {
-          "prompt": "I går ___ Anna tjuefem år. (fylle)",
+          "prompt": "I går ___ Anna tjuefem år. (fylle, Präteritum)",
           "de": "Gestern wurde Anna fünfundzwanzig.",
           "answer": [
             "fylte"
@@ -969,7 +969,7 @@
           "explain": "Klasse 2: fylle – fylte (ll wird vor -te zu l)."
         },
         {
-          "prompt": "Kari ___ frokostbordet med flagg. (pynte)",
+          "prompt": "Kari ___ frokostbordet med flagg. (pynte, Präteritum)",
           "de": "Kari schmückte den Frühstückstisch mit Fähnchen.",
           "answer": [
             "pyntet",
@@ -978,7 +978,7 @@
           "explain": "Klasse 1: pynte – pyntet."
         },
         {
-          "prompt": "Om kvelden ___ vi fiskesuppe. (spise)",
+          "prompt": "Om kvelden ___ vi fiskesuppe. (spise, Präteritum)",
           "de": "Am Abend aßen wir Fischsuppe.",
           "answer": [
             "spiste"
@@ -986,7 +986,7 @@
           "explain": "Klasse 2: spise – spiste."
         },
         {
-          "prompt": "Kari og Per ___ en ny sykkel til Anna. (kjøpe)",
+          "prompt": "Kari og Per ___ en ny sykkel til Anna. (kjøpe, Präteritum)",
           "de": "Kari und Per kauften Anna ein neues Fahrrad.",
           "answer": [
             "kjøpte"
@@ -994,7 +994,7 @@
           "explain": "Klasse 2: kjøpe – kjøpte."
         },
         {
-          "prompt": "Jeg ___ en tysk sjokoladekake. (bake)",
+          "prompt": "Jeg ___ en tysk sjokoladekake. (bake, Präteritum)",
           "de": "Ich backte einen deutschen Schokoladenkuchen.",
           "answer": [
             "bakte"
@@ -1002,7 +1002,7 @@
           "explain": "Klasse 2: bake – bakte."
         },
         {
-          "prompt": "Anna ___ genseren med en gang. (prøve)",
+          "prompt": "Anna ___ genseren med en gang. (prøve, Präteritum)",
           "de": "Anna probierte den Pullover sofort an.",
           "answer": [
             "prøvde"
@@ -1010,7 +1010,7 @@
           "explain": "Klasse 3: prøve – prøvde."
         },
         {
-          "prompt": "Matthias ___ menyen lenge. (studere)",
+          "prompt": "Matthias ___ menyen lenge. (studere, Präteritum)",
           "de": "Matthias studierte lange die Speisekarte.",
           "answer": [
             "studerte"
@@ -1018,7 +1018,7 @@
           "explain": "Verben auf -ere: -erte."
         },
         {
-          "prompt": "Før ___ Elin i Göteborg. (bo)",
+          "prompt": "Før ___ Elin i Göteborg. (bo, Präteritum)",
           "de": "Früher wohnte Elin in Göteborg.",
           "answer": [
             "bodde"
@@ -1026,7 +1026,7 @@
           "explain": "Klasse 4: bo – bodde; Inversion nach „Før“."
         },
         {
-          "prompt": "Jeg ___ at Matthias var sulten. (tro)",
+          "prompt": "Jeg ___ at Matthias var sulten. (tro, Präteritum)",
           "de": "Ich dachte, dass Matthias Hunger hatte.",
           "answer": [
             "trodde"
@@ -1034,7 +1034,7 @@
           "explain": "Klasse 4: tro – trodde."
         },
         {
-          "prompt": "Etter middagen ___ vi til langt på natt. (danse)",
+          "prompt": "Etter middagen ___ vi til langt på natt. (danse, Präteritum)",
           "de": "Nach dem Essen tanzten wir bis spät in die Nacht.",
           "answer": [
             "danset",
@@ -1290,7 +1290,8 @@
       "answer": [
         "feiret",
         "feira"
-      ]
+      ],
+      "hint": "Präteritum"
     },
     {
       "prompt": "Bestemor Ingrid ___ en vakker genser.",
@@ -1298,21 +1299,24 @@
       "answer": [
         "strikket",
         "strikka"
-      ]
+      ],
+      "hint": "Präteritum"
     },
     {
       "prompt": "Om kvelden ___ vennene på en restaurant på Aker brygge.",
       "de": "Am Abend aßen die Freunde in einem Restaurant an der Aker Brygge.",
       "answer": [
         "spiste"
-      ]
+      ],
+      "hint": "Präteritum"
     },
     {
       "prompt": "Etterpå ___ kelneren en bløtkake med tjuefem lys.",
       "de": "Danach servierte der Kellner eine Sahnetorte mit fünfundzwanzig Kerzen.",
       "answer": [
         "serverte"
-      ]
+      ],
+      "hint": "Präteritum"
     }
   ],
   "dictation": [

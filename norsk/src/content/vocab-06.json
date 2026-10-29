@@ -1466,8 +1466,8 @@
     ],
     "lesson": 6,
     "ex": {
-      "no": "Etter turen var kroppen trøtt.",
-      "de": "Nach der Wanderung war der Körper müde."
+      "no": "Etter turen har jeg vondt i hele kroppen.",
+      "de": "Nach der Wanderung tut mir der ganze Körper weh."
     }
   },
   {
@@ -1768,7 +1768,7 @@
     "no": "eie",
     "de": "besitzen",
     "deAlt": [
-      "gehören"
+      "haben"
     ],
     "pos": "verb",
     "vf": [

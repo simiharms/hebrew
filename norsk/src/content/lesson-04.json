@@ -39,7 +39,7 @@
       {
         "s": "d",
         "no": "Kom hit, alle sammen! Her er det sol.",
-        "de": "Kommt her, alle zusammen! Hier ist Sonne."
+        "de": "Kommt her, alle zusammen! Hier scheint die Sonne."
       },
       {
         "s": "s",
@@ -232,7 +232,7 @@
       },
       {
         "no": "jo",
-        "de": "ja, doch (Betonung: das weißt du doch)"
+        "de": "ja (wie in: Er ist ja Ingenieur), doch"
       },
       {
         "no": "Riktig",
@@ -1298,21 +1298,24 @@
     {
       "de": "Ich spreche kein Schwedisch.",
       "no": [
-        "Jeg snakker ikke svensk."
+        "Jeg snakker ikke svensk.",
+        "Jeg kan ikke svensk."
       ]
     },
     {
       "de": "Morgen kann ich leider nicht.",
       "no": [
         "I morgen kan jeg dessverre ikke.",
-        "Jeg kan dessverre ikke i morgen."
+        "Jeg kan dessverre ikke i morgen.",
+        "I morgen kan jeg ikke, dessverre."
       ]
     },
     {
       "de": "Komm her und nimm ein Stück Kuchen!",
       "no": [
         "Kom hit og ta en kake!",
-        "Kom hit og ta et stykke kake!"
+        "Kom hit og ta et stykke kake!",
+        "Kom hit og ta et kakestykke!"
       ]
     },
     {
@@ -1333,7 +1336,8 @@
     {
       "de": "Wollt ihr mitkommen?",
       "no": [
-        "Vil dere bli med?"
+        "Vil dere bli med?",
+        "Vil dere være med?"
       ]
     },
     {
@@ -1369,8 +1373,7 @@
       "prompt": "På svensk betyr «rolig» ___.",
       "de": "Auf Schwedisch bedeutet „rolig“ „lustig“.",
       "answer": [
-        "morsom",
-        "«morsom»"
+        "morsom"
       ]
     },
     {

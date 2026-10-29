@@ -71,7 +71,7 @@
     "lesson": 4,
     "ex": {
       "no": "Her er det sol.",
-      "de": "Hier ist Sonne."
+      "de": "Hier scheint die Sonne."
     }
   },
   {
@@ -279,8 +279,7 @@
     "no": "bruke",
     "de": "benutzen",
     "deAlt": [
-      "verwenden",
-      "brauchen"
+      "verwenden"
     ],
     "pos": "verb",
     "vf": [
@@ -295,7 +294,7 @@
       "no": "Vi bruker ikke vanskelige ord.",
       "de": "Wir benutzen keine schwierigen Wörter."
     },
-    "note": "Falscher Freund: bruke = benutzen; „brauchen“ (nötig haben) = trenge."
+    "note": "bruke = benutzen; auch für Zeit und Geld: Jeg bruker ti minutter. „brauchen“ im Sinne von „nötig haben“ = trenge."
   },
   {
     "id": "w04_ord",
@@ -1418,8 +1417,8 @@
     "pos": "adv",
     "lesson": 4,
     "ex": {
-      "no": "Norge har rundt fem millioner innbyggere.",
-      "de": "Norwegen hat etwa fünf Millionen Einwohner."
+      "no": "Det bor rundt fem og en halv million mennesker i Norge.",
+      "de": "In Norwegen leben etwa fünfeinhalb Millionen Menschen."
     }
   },
   {

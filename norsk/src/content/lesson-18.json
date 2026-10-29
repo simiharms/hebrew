@@ -1,0 +1,1316 @@
+{
+  "n": 18,
+  "level": "B2",
+  "title": "Mørketid og julefeiring",
+  "titleDe": "Polarnacht und Weihnachtsfeier",
+  "place": "Tromsø",
+  "goals": [
+    "Du kannst über die Polarnacht, Weihnachtsvorbereitungen und den norwegischen Heiligabend erzählen.",
+    "Du bildest das Passiv mit -s (Døra lukkes), mit bli (Treet ble pyntet) und beschreibst Zustände mit være (Butikken er stengt).",
+    "Du verwendest s-Verben wie trives, synes, finnes und lykkes richtig.",
+    "Du sagst „so ein, solche“ mit slik und sånn.",
+    "Du kennst die wichtigsten Weihnachtswünsche und -bräuche in Norwegen."
+  ],
+  "text": {
+    "id": "t18",
+    "title": "Mørketid og julefeiring",
+    "titleDe": "Polarnacht und Weihnachtsfeier",
+    "kind": "email",
+    "intro": "Zwischen Weihnachten und Neujahr schreibt Susanne der Familie Nygård in Oslo eine lange E-Mail aus Tromsø.",
+    "lines": [
+      {
+        "no": "Kjære alle sammen på Sagene! Tusen takk for julekortet og for pakken med pepperkaker fra bestemor Ingrid. Den ble åpnet så snart den kom, og kakene ble spist opp på to dager. Nå er det romjul, og jeg har endelig tid til å skrive.",
+        "de": "Liebe alle in Sagene! Vielen Dank für die Weihnachtskarte und für das Päckchen mit Pfefferkuchen von Oma Ingrid. Es wurde geöffnet, sobald es ankam, und die Kekse waren in zwei Tagen aufgegessen. Jetzt ist die Zeit zwischen den Jahren, und ich habe endlich Zeit zu schreiben."
+      },
+      {
+        "no": "Her i Tromsø har sola vært borte siden slutten av november, og den kommer ikke tilbake før i midten av januar. Likevel er det ikke helt mørkt hele døgnet. Midt på dagen blir himmelen blå og rosa i noen timer – folk her kaller det «den blå timen». Jeg synes det er det vakreste lyset jeg har sett.",
+        "de": "Hier in Tromsø ist die Sonne seit Ende November weg, und sie kommt erst Mitte Januar zurück. Trotzdem ist es nicht rund um die Uhr völlig dunkel. Mittags wird der Himmel für ein paar Stunden blau und rosa – die Leute hier nennen das „die blaue Stunde“. Ich finde, es ist das schönste Licht, das ich je gesehen habe."
+      },
+      {
+        "no": "Jeg trodde at mørketida kom til å bli tung, men jeg trives faktisk veldig godt. Det tennes lys overalt: I nesten alle vinduer står det adventsstjerner og lysestaker, og på kafeene brenner det stearinlys hele dagen. Inga sier at man må ta tran og gå ut i det lille dagslyset som finnes. Det har jeg gjort, og det hjelper!",
+        "de": "Ich dachte, die Polarnacht würde schwer werden, aber ich fühle mich tatsächlich sehr wohl. Überall werden Lichter angezündet: In fast allen Fenstern stehen Adventssterne und Kerzenleuchter, und in den Cafés brennen den ganzen Tag Kerzen. Inga sagt, man muss Lebertran nehmen und in das bisschen Tageslicht hinausgehen, das es gibt. Das habe ich gemacht, und es hilft!"
+      },
+      {
+        "no": "I begynnelsen av desember var det julebord på instituttet. Det ble servert både lutefisk og ribbe, og det ble en lang diskusjon: lutefisk eller ribbe? Professoren fra Senja mente at lutefisk er den eneste ordentlige julematen, mens de yngre studentene syntes at den lignet på gelé.",
+        "de": "Anfang Dezember gab es am Institut ein Weihnachtsessen. Es wurden sowohl Lutefisk als auch Ribbe serviert, und es gab eine lange Diskussion: Lutefisk oder Ribbe? Der Professor aus Senja meinte, Lutefisk sei das einzig richtige Weihnachtsessen, während die jüngeren Studierenden fanden, dass er wie Gelee aussah."
+      },
+      {
+        "no": "Jeg smakte begge deler. Ribba var deilig, men lutefisken … la oss si at jeg aldri har spist noe sånt før.",
+        "de": "Ich habe beides probiert. Die Ribbe war köstlich, aber der Lutefisk … sagen wir, so etwas habe ich noch nie gegessen."
+      },
+      {
+        "no": "Den tredje helga i desember var Inga og jeg på julemarkedet i sentrum. Der ble det solgt alt fra ullsokker til reinskinn og hjemmelaget syltetøy. Etterpå bakte vi sju slag kaker, slik det skal være i Norge: pepperkaker, sandkaker, krumkaker, fattigmann og mer. Vi lyktes ikke helt med krumkakene – de fleste ble knust – men de smakte godt likevel.",
+        "de": "Am dritten Wochenende im Dezember waren Inga und ich auf dem Weihnachtsmarkt im Zentrum. Dort wurde alles verkauft, von Wollsocken bis zu Rentierfellen und hausgemachter Marmelade. Danach backten wir sieben Sorten Plätzchen, so wie es sich in Norwegen gehört: Pfefferkuchen, Sandkuchen, Krumkaker, Fattigmann und mehr. Mit den Krumkaker hatten wir nicht ganz Erfolg – die meisten zerbrachen –, aber sie schmeckten trotzdem gut."
+      },
+      {
+        "no": "Og så kom Matthias! Han landet den 22. desember, og jeg hentet ham på flyplassen.",
+        "de": "Und dann kam Matthias! Er landete am 22. Dezember, und ich holte ihn am Flughafen ab."
+      },
+      {
+        "no": "Han hadde aldri vært så langt nord før, og han sto lenge ute og så på himmelen. Han hadde med seg sveitsisk sjokolade til alle, og Inga lærte ham et samisk ord: «buorre beaivi», som betyr «god dag».",
+        "de": "Er war noch nie so weit im Norden gewesen und stand lange draußen und schaute in den Himmel. Er hatte Schweizer Schokolade für alle mitgebracht, und Inga brachte ihm ein samisches Wort bei: „buorre beaivi“, das bedeutet „guten Tag“."
+      },
+      {
+        "no": "På lille julaften ble juletreet pyntet, og om kvelden så vi «Grevinnen og hovmesteren» på tv. Matthias kjente den igjen som «Dinner for One» og kunne ikke forstå at nordmenn ser den før jul og ikke på nyttårsaften, slik man gjør i Tyskland.",
+        "de": "Am 23. Dezember wurde der Weihnachtsbaum geschmückt, und am Abend sahen wir „Grevinnen og hovmesteren“ im Fernsehen. Matthias erkannte darin „Dinner for One“ und konnte nicht verstehen, dass die Norweger es vor Weihnachten anschauen und nicht an Silvester, wie man es in Deutschland tut."
+      },
+      {
+        "no": "Julaften feiret vi i leiligheten vår sammen med noen venner av Inga som ikke kunne reise hjem. Klokka fem ble jula ringt inn av kirkeklokkene, og da satte vi oss til bords. Matthias hadde laget ribbe etter oppskriften til Kari, og svoren var perfekt sprø.",
+        "de": "Heiligabend feierten wir in unserer Wohnung zusammen mit ein paar Freunden von Inga, die nicht nach Hause fahren konnten. Um fünf Uhr wurde Weihnachten von den Kirchenglocken eingeläutet, und dann setzten wir uns zu Tisch. Matthias hatte die Ribbe nach Karis Rezept zubereitet, und die Kruste war perfekt knusprig."
+      },
+      {
+        "no": "Til dessert var det riskrem, og i bollen var det gjemt en mandel. Matthias fikk mandelen og vant en marsipangris!",
+        "de": "Zum Nachtisch gab es Riskrem, und in der Schüssel war eine Mandel versteckt. Matthias bekam die Mandel und gewann ein Marzipanschwein!"
+      },
+      {
+        "no": "Etter middagen banket det på døra, og inn kom julenissen – det var Ingas fetter Ánte med skjegg og rød lue. «Er det noen snille barn her?» spurte han.",
+        "de": "Nach dem Essen klopfte es an der Tür, und herein kam der Weihnachtsmann – es war Ingas Cousin Ánte mit Bart und roter Mütze. „Gibt es hier brave Kinder?“, fragte er."
+      },
+      {
+        "no": "Gavene ble delt ut, og vi gikk rundt juletreet og sang «Musevisa» og «Jeg er så glad hver julekveld». Matthias kunne ikke teksten, men han sang høyest av alle.",
+        "de": "Die Geschenke wurden verteilt, und wir gingen um den Weihnachtsbaum herum und sangen „Musevisa“ und „Jeg er så glad hver julekveld“. Matthias konnte den Text nicht, aber er sang am lautesten von allen."
+      },
+      {
+        "no": "I Freiburg kommer gavene fra Christkind, Jesusbarnet; her kommer de fra nissen. Men ellers er julaften ganske lik: lys, god mat, sanger og folk man er glad i. Jeg savner dere og gleder meg til å se dere igjen i påsken. Matthias reiser tilbake til Bergen i morgen. Hils Anna og Bamse!",
+        "de": "In Freiburg kommen die Geschenke vom Christkind, hier vom Weihnachtsmann. Aber sonst ist der Heilige Abend ziemlich ähnlich: Lichter, gutes Essen, Lieder und Menschen, die man gernhat. Ich vermisse euch und freue mich darauf, euch an Ostern wiederzusehen. Matthias fährt morgen zurück nach Bergen. Grüßt Anna und Bamse!"
+      },
+      {
+        "no": "Klem fra Susanne",
+        "de": "Eine Umarmung von Susanne"
+      }
+    ],
+    "glossary": [
+      {
+        "no": "alle sammen",
+        "de": "alle (zusammen)"
+      },
+      {
+        "no": "julekortet",
+        "de": "die Weihnachtskarte"
+      },
+      {
+        "no": "ble åpnet",
+        "de": "wurde geöffnet"
+      },
+      {
+        "no": "ble spist opp",
+        "de": "wurden aufgegessen"
+      },
+      {
+        "no": "romjul",
+        "de": "die Tage zwischen Weihnachten und Neujahr"
+      },
+      {
+        "no": "borte",
+        "de": "weg"
+      },
+      {
+        "no": "i midten av januar",
+        "de": "Mitte Januar"
+      },
+      {
+        "no": "Likevel",
+        "de": "trotzdem"
+      },
+      {
+        "no": "den blå timen",
+        "de": "die blaue Stunde"
+      },
+      {
+        "no": "tung",
+        "de": "schwer, bedrückend"
+      },
+      {
+        "no": "trives",
+        "de": "fühle mich wohl"
+      },
+      {
+        "no": "Det tennes lys",
+        "de": "Es werden Lichter angezündet"
+      },
+      {
+        "no": "adventsstjerner",
+        "de": "Adventssterne (Leuchtsterne im Fenster)"
+      },
+      {
+        "no": "lysestaker",
+        "de": "Kerzenleuchter"
+      },
+      {
+        "no": "stearinlys",
+        "de": "Kerzen"
+      },
+      {
+        "no": "tran",
+        "de": "Lebertran"
+      },
+      {
+        "no": "som finnes",
+        "de": "das es gibt"
+      },
+      {
+        "no": "julebord",
+        "de": "Weihnachtsessen (mit Kollegen)"
+      },
+      {
+        "no": "instituttet",
+        "de": "das Institut"
+      },
+      {
+        "no": "Det ble servert",
+        "de": "Es wurde(n) serviert"
+      },
+      {
+        "no": "lutefisk",
+        "de": "Lutefisk (in Lauge eingelegter Stockfisch)"
+      },
+      {
+        "no": "ribbe",
+        "de": "Ribbe (gebratene Schweinerippe mit Kruste)"
+      },
+      {
+        "no": "mente",
+        "de": "meinte"
+      },
+      {
+        "no": "lignet på gelé",
+        "de": "wie Gelee aussah"
+      },
+      {
+        "no": "begge deler",
+        "de": "beides"
+      },
+      {
+        "no": "noe sånt",
+        "de": "so etwas"
+      },
+      {
+        "no": "ble det solgt",
+        "de": "wurde verkauft"
+      },
+      {
+        "no": "reinskinn",
+        "de": "Rentierfelle"
+      },
+      {
+        "no": "hjemmelaget syltetøy",
+        "de": "hausgemachte Marmelade"
+      },
+      {
+        "no": "sju slag kaker",
+        "de": "sieben Sorten Plätzchen"
+      },
+      {
+        "no": "slik det skal være",
+        "de": "so wie es sich gehört"
+      },
+      {
+        "no": "lyktes",
+        "de": "hatten Erfolg"
+      },
+      {
+        "no": "ble knust",
+        "de": "zerbrachen (wurden zerbrochen)"
+      },
+      {
+        "no": "lille julaften",
+        "de": "der 23. Dezember"
+      },
+      {
+        "no": "kjente den igjen",
+        "de": "erkannte es (wieder)"
+      },
+      {
+        "no": "ringt inn",
+        "de": "eingeläutet"
+      },
+      {
+        "no": "satte vi oss til bords",
+        "de": "setzten wir uns zu Tisch"
+      },
+      {
+        "no": "svoren",
+        "de": "die Schwarte, die Kruste"
+      },
+      {
+        "no": "var det gjemt",
+        "de": "war versteckt"
+      },
+      {
+        "no": "Klem",
+        "de": "Umarmung (Grußformel: Liebe Grüße)"
+      }
+    ]
+  },
+  "extra": [
+    {
+      "id": "x18a",
+      "title": "Jul i Norge",
+      "titleDe": "Weihnachten in Norwegen",
+      "kind": "info",
+      "intro": "Vom ersten Advent bis zum Julebukk: die wichtigsten Weihnachtsbräuche in Norwegen.",
+      "lines": [
+        {
+          "no": "Jula begynner lenge før 24. desember. Fra første søndag i advent tennes et nytt lys i adventsstaken hver søndag, og mange barn har en adventskalender med en liten gave for hver dag. Den 13. desember feires Lucia: Barn i hvite kjoler går i tog med lys i hånden og synger, og det spises lussekatter, gule boller med safran.",
+          "de": "Weihnachten beginnt lange vor dem 24. Dezember. Vom ersten Advent an wird jeden Sonntag eine neue Kerze am Adventsleuchter angezündet, und viele Kinder haben einen Adventskalender mit einem kleinen Geschenk für jeden Tag. Am 13. Dezember wird Lucia gefeiert: Kinder in weißen Kleidern gehen mit einer Kerze in der Hand in einem Umzug und singen, und man isst Lussekatter, gelbe Hefebrötchen mit Safran."
+        },
+        {
+          "no": "I november og desember er det julebord: Kolleger spiser og feirer sammen, ofte med tradisjonell julemat. Mange baker også «sju slag» – sju sorter småkaker, for eksempel pepperkaker, sandkaker, krumkaker, sirupsnipper og fattigmann.",
+          "de": "Im November und Dezember gibt es das Julebord: Kollegen essen und feiern zusammen, oft mit traditionellem Weihnachtsessen. Viele backen auch „sju slag“ – sieben Sorten Plätzchen, zum Beispiel Pfefferkuchen, Sandkuchen, Krumkaker, Sirupsnipper und Fattigmann."
+        },
+        {
+          "no": "Lille julaften, den 23. desember, pynter mange juletreet. Den kvelden ser mange nordmenn også «Grevinnen og hovmesteren» på tv – den samme sketsjen som tyskerne ser på nyttårsaften.",
+          "de": "Am „kleinen Heiligabend“, dem 23. Dezember, schmücken viele den Weihnachtsbaum. An diesem Abend sehen viele Norweger auch „Grevinnen og hovmesteren“ im Fernsehen – denselben Sketch, den die Deutschen an Silvester sehen."
+        },
+        {
+          "no": "Julaften, den 24. desember, er den store dagen. Klokka fem ringer kirkeklokkene jula inn, og mange går i kirken om ettermiddagen. Julematen varierer fra region til region: Ribbe er vanligst på Østlandet, pinnekjøtt på Vestlandet, og noen familier spiser lutefisk eller torsk. Til dessert spises ofte riskrem, og den som finner mandelen, får en marsipangris.",
+          "de": "Heiligabend, der 24. Dezember, ist der große Tag. Um fünf Uhr läuten die Kirchenglocken Weihnachten ein, und viele gehen am Nachmittag in die Kirche. Das Weihnachtsessen ist von Region zu Region verschieden: Ribbe ist in Ostnorwegen am häufigsten, Pinnekjøtt in Westnorwegen, und manche Familien essen Lutefisk oder Kabeljau. Zum Nachtisch gibt es oft Riskrem, und wer die Mandel findet, bekommt ein Marzipanschwein."
+        },
+        {
+          "no": "Etter middagen deles gavene ut, ofte av julenissen. Mange familier går rundt juletreet og synger julesanger. Det sies at fjøsnissen blir sint hvis han ikke får grøt med smør på julaften, og derfor setter noen fortsatt ut en bolle grøt til ham.",
+          "de": "Nach dem Abendessen werden die Geschenke verteilt, oft vom Weihnachtsmann. Viele Familien gehen um den Weihnachtsbaum herum und singen Weihnachtslieder. Man sagt, dass der Stallwichtel böse wird, wenn er an Heiligabend keinen Brei mit Butter bekommt, und deshalb stellen manche ihm immer noch eine Schüssel Brei hinaus."
+        },
+        {
+          "no": "Første og andre juledag er rolige dager med familien. Dagene mellom jul og nyttår heter romjula. Da holdes det juletrefester for barn, og noen steder går barna julebukk: De kler seg ut, går fra dør til dør, synger og får godteri. Nyttårsaften feires ofte med venner, god mat og fyrverkeri.",
+          "de": "Der erste und zweite Weihnachtstag sind ruhige Tage mit der Familie. Die Tage zwischen Weihnachten und Neujahr heißen Romjula. Dann werden Weihnachtsbaumfeste für Kinder veranstaltet, und an manchen Orten gehen die Kinder „julebukk“: Sie verkleiden sich, gehen von Tür zu Tür, singen und bekommen Süßigkeiten. Silvester wird oft mit Freunden, gutem Essen und Feuerwerk gefeiert."
+        }
+      ],
+      "glossary": [
+        {
+          "no": "første søndag i advent",
+          "de": "erster Advent"
+        },
+        {
+          "no": "tennes",
+          "de": "wird angezündet"
+        },
+        {
+          "no": "adventsstaken",
+          "de": "der Adventsleuchter (mit vier Kerzen)"
+        },
+        {
+          "no": "adventskalender",
+          "de": "Adventskalender"
+        },
+        {
+          "no": "feires",
+          "de": "wird gefeiert"
+        },
+        {
+          "no": "går i tog",
+          "de": "gehen in einem Umzug"
+        },
+        {
+          "no": "det spises",
+          "de": "man isst"
+        },
+        {
+          "no": "lussekatter",
+          "de": "Lussekatter (Safranbrötchen zu Lucia)"
+        },
+        {
+          "no": "Kolleger",
+          "de": "Kollegen"
+        },
+        {
+          "no": "tradisjonell",
+          "de": "traditionell"
+        },
+        {
+          "no": "sorter",
+          "de": "Sorten"
+        },
+        {
+          "no": "småkaker",
+          "de": "Plätzchen, Kekse"
+        },
+        {
+          "no": "sketsjen",
+          "de": "den Sketch"
+        },
+        {
+          "no": "ringer kirkeklokkene jula inn",
+          "de": "läuten die Kirchenglocken Weihnachten ein"
+        },
+        {
+          "no": "varierer",
+          "de": "variiert, ist verschieden"
+        },
+        {
+          "no": "vanligst",
+          "de": "am häufigsten"
+        },
+        {
+          "no": "pinnekjøtt",
+          "de": "Pinnekjøtt (gesalzene, getrocknete Lammrippe)"
+        },
+        {
+          "no": "deles gavene ut",
+          "de": "werden die Geschenke verteilt"
+        },
+        {
+          "no": "julesanger",
+          "de": "Weihnachtslieder"
+        },
+        {
+          "no": "Det sies",
+          "de": "Man sagt"
+        },
+        {
+          "no": "fjøsnissen",
+          "de": "der Stallwichtel"
+        },
+        {
+          "no": "grøt",
+          "de": "Brei"
+        },
+        {
+          "no": "setter noen fortsatt ut",
+          "de": "stellen manche immer noch hinaus"
+        },
+        {
+          "no": "juledag",
+          "de": "Weihnachtstag"
+        },
+        {
+          "no": "holdes det",
+          "de": "werden veranstaltet"
+        },
+        {
+          "no": "juletrefester",
+          "de": "Weihnachtsbaumfeste (Feiern für Kinder)"
+        },
+        {
+          "no": "går barna julebukk",
+          "de": "ziehen die Kinder verkleidet von Haus zu Haus"
+        },
+        {
+          "no": "kler seg ut",
+          "de": "verkleiden sich"
+        },
+        {
+          "no": "godteri",
+          "de": "Süßigkeiten"
+        }
+      ]
+    }
+  ],
+  "wk": {
+    "title": "God jul!",
+    "titleDe": "Frohe Weihnachten!",
+    "phrases": [
+      {
+        "no": "God jul!",
+        "de": "Frohe Weihnachten!"
+      },
+      {
+        "no": "God jul og godt nytt år!",
+        "de": "Frohe Weihnachten und ein gutes neues Jahr!"
+      },
+      {
+        "no": "Takk, i like måte!",
+        "de": "Danke, gleichfalls!"
+      },
+      {
+        "no": "Riktig god jul til deg og familien din!",
+        "de": "Frohe Weihnachten dir und deiner Familie!"
+      },
+      {
+        "no": "Godt nyttår!",
+        "de": "Frohes neues Jahr!"
+      },
+      {
+        "no": "Godt nytt år, og takk for det gamle!",
+        "de": "Ein gutes neues Jahr, und danke für das alte!",
+        "note": "Typischer Neujahrsgruß: Man bedankt sich für das gemeinsame Jahr."
+      },
+      {
+        "no": "Takk for i år!",
+        "de": "Danke für dieses Jahr!",
+        "note": "Sagt man beim letzten Treffen vor dem Jahreswechsel, z. B. mit Kollegen."
+      },
+      {
+        "no": "Hvor skal du feire jul?",
+        "de": "Wo feierst du Weihnachten?"
+      },
+      {
+        "no": "Jeg skal hjem til jul.",
+        "de": "Ich fahre über Weihnachten nach Hause."
+      },
+      {
+        "no": "Hva ønsker du deg til jul?",
+        "de": "Was wünschst du dir zu Weihnachten?"
+      },
+      {
+        "no": "Har du kjøpt alle julegavene?",
+        "de": "Hast du alle Weihnachtsgeschenke gekauft?"
+      },
+      {
+        "no": "Jeg har pakket inn gavene.",
+        "de": "Ich habe die Geschenke eingepackt."
+      },
+      {
+        "no": "Skal du på julebord i år?",
+        "de": "Gehst du dieses Jahr zur Weihnachtsfeier?"
+      },
+      {
+        "no": "Vi pynter juletreet på lille julaften.",
+        "de": "Wir schmücken den Weihnachtsbaum am 23. Dezember."
+      },
+      {
+        "no": "Vi har bakt sju slag.",
+        "de": "Wir haben sieben Sorten Plätzchen gebacken."
+      },
+      {
+        "no": "Det er god julestemning i byen.",
+        "de": "In der Stadt herrscht schöne Weihnachtsstimmung."
+      },
+      {
+        "no": "Vi går rundt juletreet og synger.",
+        "de": "Wir gehen um den Weihnachtsbaum herum und singen."
+      },
+      {
+        "no": "Takk for gaven! Den var akkurat det jeg ønsket meg.",
+        "de": "Danke für das Geschenk! Es war genau das, was ich mir gewünscht habe."
+      },
+      {
+        "no": "Julenissen kommer etter middagen.",
+        "de": "Der Weihnachtsmann kommt nach dem Abendessen."
+      },
+      {
+        "no": "Butikkene er stengt på første juledag.",
+        "de": "Die Geschäfte sind am ersten Weihnachtstag geschlossen."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g18_passiv",
+      "title": "Das Passiv",
+      "titleNo": "passiv",
+      "summary": "s-Passiv für Regeln und Allgemeines (Døra lukkes kl. 22), bli-Passiv für Vorgänge in allen Zeiten (Treet ble pyntet), være + Partizip für Zustände (Butikken er stengt); der Urheber steht mit av.",
+      "sections": [
+        {
+          "h": "Drei Möglichkeiten",
+          "body": "Das Norwegische hat zwei Passivformen und dazu eine Zustandsform. Das deutsche „werden“-Passiv entspricht meist **bli**, das deutsche „sein“-Passiv entspricht **være**.",
+          "table": [
+            [
+              "Form",
+              "Bildung",
+              "Beispiel",
+              "Deutsch"
+            ],
+            [
+              "s-Passiv",
+              "Infinitiv + **-s**",
+              "**Døra lukkes klokka 22.**",
+              "Die Tür wird um 22 Uhr geschlossen."
+            ],
+            [
+              "bli-Passiv",
+              "**bli** + Partizip",
+              "**Juletreet ble pyntet.**",
+              "Der Weihnachtsbaum wurde geschmückt."
+            ],
+            [
+              "Zustand",
+              "**være** + Partizip",
+              "**Butikken er stengt.**",
+              "Der Laden ist geschlossen."
+            ]
+          ]
+        },
+        {
+          "h": "Das s-Passiv",
+          "body": "Man hängt **-s** an den Infinitiv: **lukke → lukkes**, **spise → spises**, **levere → leveres**. Endet der Infinitiv nicht auf -e, kommt oft **-es** dazu: **se → ses / sees**. Dieselbe Form ist zugleich Präsens und Infinitiv.\n\nGebrauch: Regeln, Anweisungen, Aufschriften und allgemeine Aussagen – oft nach Modalverben:\n• **Bøkene må leveres før jul.** (Die Bücher müssen vor Weihnachten zurückgegeben werden.)\n• **Det spises mye ribbe i Norge.** (In Norwegen wird viel Ribbe gegessen.)\n• **Jula ringes inn klokka fem.**\n\nIm Präteritum ist das s-Passiv selten und klingt förmlich – dort nimmt man **bli**."
+        },
+        {
+          "h": "Das bli-Passiv und der Urheber",
+          "body": "**bli** + Partizip Perfekt beschreibt einen Vorgang und funktioniert in allen Zeiten:\n• Präsens: **Gavene blir åpnet etter middagen.**\n• Präteritum: **Juletreet ble pyntet på lille julaften.**\n• Perfekt: **Huset har blitt pyntet.** (Das Haus ist geschmückt worden.)\n• mit Modalverb: **Kakene skal bli bakt i kveld.**\n\nWer etwas tut, steht mit **av** (deutsch „von“): **Jula ble ringt inn av kirkeklokkene.** **Kakene ble bakt av bestemor Ingrid.**\n\nAchtung: Das Perfekt heißt **har blitt** (oder **er blitt**) + Partizip. Ein „worden“ wie im Deutschen gibt es nicht: **Huset har blitt pyntet.** = Das Haus ist geschmückt worden."
+        },
+        {
+          "h": "være + Partizip: der Zustand",
+          "body": "**være** + Partizip beschreibt das Ergebnis, nicht den Vorgang:\n• **Butikken er stengt.** (Der Laden ist geschlossen – Zustand.)\n• **Butikken blir stengt klokka seks.** (Der Laden wird um sechs geschlossen – Vorgang.)\n• **Bordet er dekket.** (Der Tisch ist gedeckt.)\n\nPartizipien der Klasse 1 enden auf **-et** (auch **-a** ist richtig): **pyntet / pynta**, **åpnet / åpna**."
+        }
+      ],
+      "drills": [
+        {
+          "prompt": "Døra ___ klokka ti om kvelden. (lukke, s-passiv, presens)",
+          "de": "Die Tür wird um zehn Uhr abends geschlossen.",
+          "answer": [
+            "lukkes"
+          ],
+          "explain": "Regel → s-Passiv: lukke + s."
+        },
+        {
+          "prompt": "Bøkene må ___ før jul. (levere, s-passiv, infinitiv)",
+          "de": "Die Bücher müssen vor Weihnachten zurückgegeben werden.",
+          "answer": [
+            "leveres"
+          ],
+          "explain": "Nach Modalverb: Infinitiv im s-Passiv (leveres)."
+        },
+        {
+          "prompt": "Det ___ mye ribbe i Norge. (spise, s-passiv, presens)",
+          "de": "In Norwegen wird viel Ribbe gegessen.",
+          "answer": [
+            "spises"
+          ],
+          "explain": "Allgemeine Aussage → s-Passiv."
+        },
+        {
+          "prompt": "Jula ___ inn klokka fem. (ringe, s-passiv, presens)",
+          "de": "Weihnachten wird um fünf Uhr eingeläutet.",
+          "answer": [
+            "ringes"
+          ],
+          "explain": "Feste Regel, jedes Jahr: s-Passiv (ringes)."
+        },
+        {
+          "prompt": "Juletreet ___ på lille julaften. (pynte, bli-passiv, preteritum)",
+          "de": "Der Weihnachtsbaum wurde am 23. Dezember geschmückt.",
+          "answer": [
+            "ble pyntet",
+            "ble pynta"
+          ],
+          "explain": "Vorgang in der Vergangenheit: ble + Partizip."
+        },
+        {
+          "prompt": "Gavene ___ etter middagen. (åpne, bli-passiv, presens)",
+          "de": "Die Geschenke werden nach dem Abendessen geöffnet.",
+          "answer": [
+            "blir åpnet",
+            "blir åpna"
+          ],
+          "explain": "bli-Passiv im Präsens: blir + Partizip."
+        },
+        {
+          "prompt": "Ribba ___ av Matthias. (lage, bli-passiv, preteritum)",
+          "de": "Die Ribbe wurde von Matthias zubereitet.",
+          "answer": [
+            "ble laget",
+            "ble lagd",
+            "ble laga"
+          ],
+          "explain": "ble + Partizip; lage hat zwei Partizipien: laget und lagd."
+        },
+        {
+          "prompt": "Middagen ___ klokka seks. (servere, bli-passiv, preteritum)",
+          "de": "Das Abendessen wurde um sechs Uhr serviert.",
+          "answer": [
+            "ble servert"
+          ],
+          "explain": "servere – serverte – servert: ble servert."
+        },
+        {
+          "prompt": "Huset har ___ pyntet til jul. (bli, perfektum)",
+          "de": "Das Haus ist für Weihnachten geschmückt worden.",
+          "answer": [
+            "blitt"
+          ],
+          "explain": "Perfekt des bli-Passivs: har blitt + Partizip."
+        },
+        {
+          "prompt": "Kakene ble bakt ___ bestemor Ingrid.",
+          "de": "Die Kekse wurden von Oma Ingrid gebacken.",
+          "answer": [
+            "av"
+          ],
+          "explain": "Der Urheber im Passiv steht mit av (= von)."
+        },
+        {
+          "prompt": "Butikken er ___ i dag. (stenge, Zustand)",
+          "de": "Der Laden ist heute geschlossen.",
+          "answer": [
+            "stengt"
+          ],
+          "explain": "Zustand: være + Partizip (stengt)."
+        },
+        {
+          "prompt": "Kakene skal ___ i kveld. (bake, s-passiv, infinitiv)",
+          "de": "Die Plätzchen sollen heute Abend gebacken werden.",
+          "answer": [
+            "bakes"
+          ],
+          "explain": "Nach Modalverb: s-Passiv im Infinitiv (bakes)."
+        }
+      ]
+    },
+    {
+      "id": "g18_s_verb",
+      "title": "s-Verben mit aktiver Bedeutung",
+      "titleNo": "s-verb (deponensverb)",
+      "summary": "synes, trives, finnes, lykkes, minnes, mislykkes, svettes, skyldes sehen aus wie Passiv, bedeuten aber etwas Aktives: Jeg trives i Tromsø.",
+      "sections": [
+        {
+          "h": "Form wie Passiv – Bedeutung aktiv",
+          "body": "Einige Verben enden immer auf **-s**, ohne passiv zu sein. Präsens und Infinitiv sind gleich (**jeg synes**, **å synes**), es gibt **kein -r** im Präsens. Typischer Fehler: *jeg synesr* oder *jeg trivs*.",
+          "table": [
+            [
+              "Präsens / Infinitiv",
+              "Präteritum",
+              "Perfekt",
+              "Deutsch"
+            ],
+            [
+              "**synes**",
+              "**syntes**",
+              "**har syntes**",
+              "finden, meinen"
+            ],
+            [
+              "**trives**",
+              "**trivdes**",
+              "**har trivdes**",
+              "sich wohlfühlen"
+            ],
+            [
+              "**finnes**",
+              "**fantes**",
+              "**har funnes**",
+              "es gibt, existieren"
+            ],
+            [
+              "**lykkes**",
+              "**lyktes**",
+              "**har lyktes**",
+              "gelingen, Erfolg haben"
+            ],
+            [
+              "**mislykkes**",
+              "**mislyktes**",
+              "**har mislyktes**",
+              "misslingen"
+            ],
+            [
+              "**minnes**",
+              "**mintes**",
+              "**har minnes**",
+              "sich erinnern"
+            ],
+            [
+              "**skyldes**",
+              "**skyldtes**",
+              "**har skyldtes**",
+              "zurückzuführen sein auf"
+            ],
+            [
+              "**svettes**",
+              "–",
+              "–",
+              "schwitzen"
+            ]
+          ]
+        },
+        {
+          "h": "Gebrauch und Unterschiede zum Deutschen",
+          "body": "• **trives** braucht kein „sich“: **Jeg trives i Tromsø.** (Ich fühle mich in Tromsø wohl.)\n• **finnes** = es gibt (allgemein, existieren): **Det finnes mange nisser i Norge.** Für das Vorhandensein an einem Ort sagt man meist **det er**: **Det er en butikk på hjørnet.**\n• **lykkes** hat eine Person als Subjekt: **Hun lyktes med kakene.** (Ihr gelangen die Kekse.) Deutsch „es gelingt mir“ wird also zu **jeg lykkes**.\n• **skyldes** = kommt von, liegt an: **Trøttheten skyldes mørket.**\n• **synes** kennst du schon aus Lektion 15 (Meinung aus Erfahrung)."
+        }
+      ],
+      "drills": [
+        {
+          "prompt": "Jeg ___ godt i Tromsø. (trives, presens)",
+          "de": "Ich fühle mich in Tromsø wohl.",
+          "answer": [
+            "trives"
+          ],
+          "explain": "Präsens = Infinitiv, ohne -r: trives."
+        },
+        {
+          "prompt": "Matthias ___ godt i Bergen fra første dag. (trives, preteritum)",
+          "de": "Matthias fühlte sich in Bergen vom ersten Tag an wohl.",
+          "answer": [
+            "trivdes"
+          ],
+          "explain": "Präteritum: trivdes."
+        },
+        {
+          "prompt": "Hun har ___ godt i Tromsø siden hun kom. (trives, perfektum)",
+          "de": "Sie fühlt sich in Tromsø wohl, seit sie angekommen ist.",
+          "answer": [
+            "trivdes"
+          ],
+          "explain": "Perfekt: har trivdes."
+        },
+        {
+          "prompt": "Det ___ mange nisser i norske hjem. (finnes, presens)",
+          "de": "Es gibt viele Wichtel in norwegischen Häusern.",
+          "answer": [
+            "finnes"
+          ],
+          "explain": "es gibt (allgemein) = det finnes."
+        },
+        {
+          "prompt": "Før i tida ___ det ikke elektrisk lys. (finnes, preteritum)",
+          "de": "Früher gab es kein elektrisches Licht.",
+          "answer": [
+            "fantes"
+          ],
+          "explain": "Präteritum von finnes: fantes."
+        },
+        {
+          "prompt": "Hva ___ du om lutefisk? (synes, presens)",
+          "de": "Was hältst du von Lutefisk?",
+          "answer": [
+            "synes"
+          ],
+          "explain": "Meinung: synes (ohne -r)."
+        },
+        {
+          "prompt": "Studentene ___ at lutefisken lignet på gelé. (synes, preteritum)",
+          "de": "Die Studierenden fanden, dass der Lutefisk wie Gelee aussah.",
+          "answer": [
+            "syntes"
+          ],
+          "explain": "Präteritum von synes: syntes."
+        },
+        {
+          "prompt": "Inga og Susanne ___ ikke helt med krumkakene. (lykkes, preteritum)",
+          "de": "Mit den Krumkaker hatten Inga und Susanne nicht ganz Erfolg.",
+          "answer": [
+            "lyktes"
+          ],
+          "explain": "Präteritum von lykkes: lyktes."
+        },
+        {
+          "prompt": "Forsøket på å lage lutefisk ___. (mislykkes, preteritum)",
+          "de": "Der Versuch, Lutefisk zuzubereiten, misslang.",
+          "answer": [
+            "mislyktes"
+          ],
+          "explain": "Präteritum von mislykkes: mislyktes."
+        },
+        {
+          "prompt": "Jeg ___ julene hjemme i Freiburg. (minnes, presens)",
+          "de": "Ich erinnere mich an die Weihnachtsfeste zu Hause in Freiburg.",
+          "answer": [
+            "minnes"
+          ],
+          "explain": "minnes = sich erinnern an (ohne Präposition und ohne „sich“)."
+        },
+        {
+          "prompt": "Trøttheten ___ mørket. (skyldes, presens)",
+          "de": "Die Müdigkeit liegt an der Dunkelheit.",
+          "answer": [
+            "skyldes"
+          ],
+          "explain": "skyldes = ist zurückzuführen auf."
+        },
+        {
+          "prompt": "Når vi danser rundt juletreet, ___ alle. (svettes, presens)",
+          "de": "Wenn wir um den Weihnachtsbaum tanzen, schwitzen alle.",
+          "answer": [
+            "svettes"
+          ],
+          "explain": "svettes: Präsens = Infinitiv."
+        }
+      ]
+    },
+    {
+      "id": "g18_slik",
+      "title": "slik und sånn",
+      "titleNo": "slik og sånn",
+      "summary": "slik (eher geschrieben) und sånn (gesprochen) bedeuten „so ein, solch“: en sånn kake, et sånt hus, sånne julesanger, slike ting – und als Adverb „so“: Gjør det slik! Sånn er det.",
+      "sections": [
+        {
+          "h": "Die Formen",
+          "body": "slik und sånn richten sich wie ein Adjektiv nach dem Substantiv. Die Reihenfolge ist umgekehrt wie im Deutschen „so ein“: erst der Artikel, dann sånn – **en sånn kake** = so ein Kuchen.",
+          "table": [
+            [
+              "Stil",
+              "maskulin / feminin",
+              "neutrum",
+              "Plural"
+            ],
+            [
+              "geschrieben",
+              "**en slik kake**",
+              "**et slikt hus**",
+              "**slike ting**"
+            ],
+            [
+              "gesprochen",
+              "**en sånn kake**",
+              "**et sånt hus**",
+              "**sånne ting**"
+            ]
+          ]
+        },
+        {
+          "h": "Als Adverb und in festen Wendungen",
+          "body": "Als Adverb (= so, auf diese Weise) bleibt die Form unverändert:\n• **Gjør det slik!** (Mach es so!)\n• **Sånn er det.** (So ist es.)\n• **slik det skal være** (so, wie es sich gehört)\n\nFeste Wendungen: **noe sånt** (so etwas), **og sånn** (und so), **sånn passe** (so lala).\n\nUnterschied zu **så**: **så** steht vor einem Adjektiv (**så stor** = so groß), **sånn/slik** vor einem Substantiv (**en sånn stor kake** = so ein großer Kuchen)."
+        }
+      ],
+      "drills": [
+        {
+          "prompt": "Jeg har aldri smakt en ___ kake før. (sånn)",
+          "de": "So einen Kuchen habe ich noch nie probiert.",
+          "answer": [
+            "sånn"
+          ],
+          "explain": "en kake (m) → en sånn kake."
+        },
+        {
+          "prompt": "Et ___ hus vil jeg også ha. (sånn)",
+          "de": "So ein Haus will ich auch haben.",
+          "answer": [
+            "sånt"
+          ],
+          "explain": "et hus (n) → et sånt hus."
+        },
+        {
+          "prompt": "___ julesanger synger vi hvert år. (sånn)",
+          "de": "Solche Weihnachtslieder singen wir jedes Jahr.",
+          "answer": [
+            "Sånne"
+          ],
+          "explain": "Plural → sånne."
+        },
+        {
+          "prompt": "Vi har ikke ___ tradisjoner i Sveits. (slik)",
+          "de": "Solche Traditionen haben wir in der Schweiz nicht.",
+          "answer": [
+            "slike"
+          ],
+          "explain": "Plural → slike."
+        },
+        {
+          "prompt": "I ___ vær går vi ikke ut. (slik)",
+          "de": "Bei solchem Wetter gehen wir nicht hinaus.",
+          "answer": [
+            "slikt"
+          ],
+          "explain": "et vær (n) → slikt vær."
+        },
+        {
+          "prompt": "Et ___ lys har jeg aldri sett. (slik)",
+          "de": "So ein Licht habe ich noch nie gesehen.",
+          "answer": [
+            "slikt"
+          ],
+          "explain": "et lys (n) → et slikt lys."
+        },
+        {
+          "prompt": "Har du sett noe ___ før? (sånn)",
+          "de": "Hast du so etwas schon mal gesehen?",
+          "answer": [
+            "sånt"
+          ],
+          "explain": "noe + Neutrum: noe sånt (so etwas)."
+        },
+        {
+          "prompt": "Jeg vil gjerne kjøpe et par ___ lysestaker. (sånn)",
+          "de": "Ich möchte gern ein paar solche Kerzenleuchter kaufen.",
+          "answer": [
+            "sånne"
+          ],
+          "explain": "Plural → sånne."
+        },
+        {
+          "prompt": "___ er det i Nord-Norge om vinteren. (sånn, Adverb)",
+          "de": "So ist es in Nordnorwegen im Winter.",
+          "answer": [
+            "Sånn"
+          ],
+          "explain": "Adverb: unverändert sånn."
+        },
+        {
+          "prompt": "Gjør det ___, så blir kakene sprø! (slik, Adverb)",
+          "de": "Mach es so, dann werden die Plätzchen knusprig!",
+          "answer": [
+            "slik"
+          ],
+          "explain": "Adverb: unverändert slik."
+        },
+        {
+          "prompt": "En ___ nisse står i mange vinduer. (sånn)",
+          "de": "So ein Wichtel steht in vielen Fenstern.",
+          "answer": [
+            "sånn"
+          ],
+          "explain": "en nisse (m) → en sånn nisse."
+        }
+      ]
+    }
+  ],
+  "tf": [
+    {
+      "s": "Sola har vært borte i Tromsø siden slutten av november.",
+      "de": "Die Sonne ist in Tromsø seit Ende November weg.",
+      "a": true,
+      "why": "„… har sola vært borte siden slutten av november.“"
+    },
+    {
+      "s": "Susanne synes mørketida er tung og trist.",
+      "de": "Susanne findet die Polarnacht schwer und traurig.",
+      "a": false,
+      "why": "Sie dachte, sie würde schwer werden, aber sie fühlt sich sehr wohl."
+    },
+    {
+      "s": "På julebordet ble det bare servert ribbe.",
+      "de": "Beim Weihnachtsessen wurde nur Ribbe serviert.",
+      "a": false,
+      "why": "Es wurden sowohl Lutefisk als auch Ribbe serviert."
+    },
+    {
+      "s": "Professoren fra Senja liker lutefisk.",
+      "de": "Der Professor aus Senja mag Lutefisk.",
+      "a": true,
+      "why": "Er meinte, Lutefisk sei das einzig richtige Weihnachtsessen."
+    },
+    {
+      "s": "Krumkakene ble perfekte.",
+      "de": "Die Krumkaker wurden perfekt.",
+      "a": false,
+      "why": "Die meisten zerbrachen, aber sie schmeckten trotzdem gut."
+    },
+    {
+      "s": "Matthias kom til Tromsø den 22. desember.",
+      "de": "Matthias kam am 22. Dezember nach Tromsø.",
+      "a": true,
+      "why": "„Han landet den 22. desember …“"
+    },
+    {
+      "s": "Gavene ble åpnet om morgenen første juledag.",
+      "de": "Die Geschenke wurden am Morgen des ersten Weihnachtstags geöffnet.",
+      "a": false,
+      "why": "Die Geschenke wurden an Heiligabend nach dem Abendessen verteilt."
+    },
+    {
+      "s": "Julenissen var egentlig Ingas fetter.",
+      "de": "Der Weihnachtsmann war eigentlich Ingas Cousin.",
+      "a": true,
+      "why": "Es war Ingas Cousin Ánte mit Bart und roter Mütze."
+    }
+  ],
+  "questions": [
+    {
+      "q": "Hva er «den blå timen»?",
+      "qDe": "Was ist „die blaue Stunde“?",
+      "answer": "Det er noen timer midt på dagen da himmelen blir blå og rosa.",
+      "answerDe": "Das sind ein paar Stunden mittags, in denen der Himmel blau und rosa wird.",
+      "keywords": [
+        [
+          "blå",
+          "rosa"
+        ],
+        [
+          "midt på dagen",
+          "dagen"
+        ]
+      ]
+    },
+    {
+      "q": "Hva ble servert på julebordet?",
+      "qDe": "Was wurde beim Weihnachtsessen serviert?",
+      "answer": "Det ble servert både lutefisk og ribbe.",
+      "answerDe": "Es wurden sowohl Lutefisk als auch Ribbe serviert.",
+      "keywords": [
+        [
+          "lutefisk"
+        ],
+        [
+          "ribbe",
+          "ribba"
+        ]
+      ]
+    },
+    {
+      "q": "Hva gjorde Susanne og Inga etter julemarkedet?",
+      "qDe": "Was machten Susanne und Inga nach dem Weihnachtsmarkt?",
+      "answer": "De bakte sju slag kaker.",
+      "answerDe": "Sie backten sieben Sorten Plätzchen.",
+      "keywords": [
+        [
+          "bakte",
+          "bake",
+          "baket"
+        ],
+        [
+          "kaker",
+          "slag",
+          "småkaker"
+        ]
+      ]
+    },
+    {
+      "q": "Hvorfor ble Matthias overrasket over «Grevinnen og hovmesteren»?",
+      "qDe": "Warum war Matthias über „Grevinnen og hovmesteren“ überrascht?",
+      "answer": "Fordi nordmenn ser den på lille julaften og ikke på nyttårsaften.",
+      "answerDe": "Weil die Norweger ihn am 23. Dezember sehen und nicht an Silvester.",
+      "keywords": [
+        [
+          "lille julaften",
+          "før jul"
+        ],
+        [
+          "nyttårsaften"
+        ]
+      ]
+    },
+    {
+      "q": "Hva vant Matthias, og hvorfor?",
+      "qDe": "Was gewann Matthias, und warum?",
+      "answer": "Han vant en marsipangris fordi han fikk mandelen i riskremen.",
+      "answerDe": "Er gewann ein Marzipanschwein, weil er die Mandel im Riskrem bekam.",
+      "keywords": [
+        [
+          "marsipangris"
+        ],
+        [
+          "mandel",
+          "mandelen"
+        ]
+      ]
+    },
+    {
+      "q": "Hvem var julenissen?",
+      "qDe": "Wer war der Weihnachtsmann?",
+      "answer": "Julenissen var Ingas fetter Ánte.",
+      "answerDe": "Der Weihnachtsmann war Ingas Cousin Ánte.",
+      "keywords": [
+        [
+          "fetter",
+          "Ánte"
+        ]
+      ]
+    }
+  ],
+  "find": [
+    {
+      "de": "trotzdem",
+      "answer": [
+        "Likevel",
+        "likevel"
+      ]
+    },
+    {
+      "de": "die blaue Stunde",
+      "answer": [
+        "den blå timen"
+      ]
+    },
+    {
+      "de": "es werden Lichter angezündet",
+      "answer": [
+        "Det tennes lys"
+      ]
+    },
+    {
+      "de": "es wurde(n) … serviert",
+      "answer": [
+        "Det ble servert"
+      ]
+    },
+    {
+      "de": "so etwas",
+      "answer": [
+        "noe sånt"
+      ]
+    },
+    {
+      "de": "sieben Sorten Plätzchen",
+      "answer": [
+        "sju slag kaker"
+      ]
+    },
+    {
+      "de": "setzten wir uns zu Tisch",
+      "answer": [
+        "satte vi oss til bords"
+      ]
+    },
+    {
+      "de": "die Geschenke wurden verteilt",
+      "answer": [
+        "Gavene ble delt ut"
+      ]
+    }
+  ],
+  "translate": [
+    {
+      "de": "Der Weihnachtsbaum wurde am 23. Dezember geschmückt.",
+      "no": [
+        "Juletreet ble pyntet på lille julaften.",
+        "Juletreet ble pynta på lille julaften.",
+        "Juletreet ble pyntet den 23. desember.",
+        "Juletreet ble pyntet 23. desember."
+      ]
+    },
+    {
+      "de": "Die Geschenke werden nach dem Abendessen geöffnet.",
+      "no": [
+        "Gavene blir åpnet etter middagen.",
+        "Gavene åpnes etter middagen.",
+        "Gavene blir åpna etter middagen."
+      ]
+    },
+    {
+      "de": "Der Laden ist heute geschlossen.",
+      "no": [
+        "Butikken er stengt i dag.",
+        "I dag er butikken stengt."
+      ]
+    },
+    {
+      "de": "Ich fühle mich in Tromsø sehr wohl.",
+      "no": [
+        "Jeg trives veldig godt i Tromsø.",
+        "Jeg trives svært godt i Tromsø."
+      ]
+    },
+    {
+      "de": "Es gibt viele Wichtel in Norwegen.",
+      "no": [
+        "Det finnes mange nisser i Norge."
+      ]
+    },
+    {
+      "de": "So einen Kuchen habe ich noch nie gegessen.",
+      "no": [
+        "En sånn kake har jeg aldri spist.",
+        "En slik kake har jeg aldri spist.",
+        "Jeg har aldri spist en sånn kake.",
+        "Jeg har aldri spist en slik kake."
+      ]
+    },
+    {
+      "de": "Weihnachten wird um fünf Uhr eingeläutet.",
+      "no": [
+        "Jula ringes inn klokka fem.",
+        "Julen ringes inn klokka fem.",
+        "Jula blir ringt inn klokka fem.",
+        "Julen blir ringt inn klokka fem."
+      ]
+    },
+    {
+      "de": "Was hältst du von Lutefisk?",
+      "no": [
+        "Hva synes du om lutefisk?"
+      ]
+    },
+    {
+      "de": "Die Plätzchen wurden von Oma Ingrid gebacken.",
+      "no": [
+        "Kakene ble bakt av bestemor Ingrid.",
+        "Småkakene ble bakt av bestemor Ingrid."
+      ]
+    },
+    {
+      "de": "Solche Traditionen haben wir in der Schweiz nicht.",
+      "no": [
+        "Slike tradisjoner har vi ikke i Sveits.",
+        "Sånne tradisjoner har vi ikke i Sveits.",
+        "Vi har ikke slike tradisjoner i Sveits.",
+        "Vi har ikke sånne tradisjoner i Sveits."
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "prompt": "I Tromsø har ___ vært borte siden slutten av november.",
+      "de": "In Tromsø ist die Sonne seit Ende November weg.",
+      "answer": [
+        "sola",
+        "solen"
+      ]
+    },
+    {
+      "prompt": "Likevel ___ Susanne godt i mørketida.",
+      "de": "Trotzdem fühlt sich Susanne in der Polarnacht wohl.",
+      "answer": [
+        "trives"
+      ]
+    },
+    {
+      "prompt": "På julebordet blir det servert både lutefisk og ___.",
+      "de": "Beim Weihnachtsessen werden sowohl Lutefisk als auch Ribbe serviert.",
+      "answer": [
+        "ribbe"
+      ]
+    },
+    {
+      "prompt": "Susanne og Inga baker sju ___ kaker.",
+      "de": "Susanne und Inga backen sieben Sorten Plätzchen.",
+      "answer": [
+        "slag"
+      ]
+    },
+    {
+      "prompt": "Matthias kommer til Tromsø og får ___ i riskremen.",
+      "de": "Matthias kommt nach Tromsø und bekommt die Mandel im Riskrem.",
+      "answer": [
+        "mandelen"
+      ]
+    },
+    {
+      "prompt": "Etter middagen blir gavene delt ut av ___.",
+      "de": "Nach dem Abendessen werden die Geschenke vom Weihnachtsmann verteilt.",
+      "answer": [
+        "julenissen",
+        "nissen"
+      ]
+    }
+  ],
+  "dictation": [
+    4,
+    6,
+    10,
+    11
+  ],
+  "writing": {
+    "prompt": "Schreibe Inga eine E-Mail: Wie wird Weihnachten (oder ein anderes Fest) bei dir zu Hause gefeiert? Was wird gegessen, wann werden die Geschenke geöffnet, was gibt es Besonderes? Verwende mindestens drei Passivformen (s-Passiv oder bli-Passiv), ein s-Verb (trives, synes, finnes) und einmal sånn oder slik.",
+    "minWords": 130,
+    "useWords": [
+      "blir",
+      "spises",
+      "finnes",
+      "sånn",
+      "julaften"
+    ],
+    "checklist": [
+      {
+        "de": "bli-Passiv (blir/ble + Partizip)",
+        "keywords": [
+          "blir åpnet",
+          "ble pyntet",
+          "blir pyntet",
+          "ble åpnet"
+        ]
+      },
+      {
+        "de": "s-Passiv",
+        "keywords": [
+          "spises",
+          "pyntes",
+          "selges",
+          "feires",
+          "åpnes",
+          "synges"
+        ]
+      },
+      {
+        "de": "ein s-Verb",
+        "keywords": [
+          "trives",
+          "synes",
+          "finnes",
+          "syntes"
+        ]
+      },
+      {
+        "de": "sånn / slik",
+        "keywords": [
+          "sånn",
+          "sånt",
+          "sånne",
+          "slik",
+          "slikt",
+          "slike"
+        ]
+      }
+    ],
+    "model": "Hei, Inga!\nTakk for at du lærte meg så mye om norsk jul! Nå vil jeg fortelle deg hvordan jula feires hjemme hos oss i Freiburg. I desember går vi ofte på julemarkedet, der det selges pepperkaker og varm gløgg. På julaften pyntes treet om morgenen. Om ettermiddagen går mange i kirken, og om kvelden kommer Christkind med gavene. De blir åpnet etter middagen, akkurat som i Norge. Til middag spises det ofte pølser og potetsalat. Det er en enkel middag, for den store festmiddagen er først første juledag. Nyttårsaften feirer vi med venner, og klokka tolv skytes det opp fyrverkeri overalt. Det finnes ingen nisse hos oss, men vi har en sånn adventskrans med fire lys på bordet. Jeg synes norsk og tysk jul er ganske like, men jeg trives nok best med tradisjonen vår!\nKlem fra Susanne",
+    "modelDe": "Hallo, Inga!\nDanke, dass du mir so viel über norwegische Weihnachten beigebracht hast! Jetzt will ich dir erzählen, wie Weihnachten bei uns zu Hause in Freiburg gefeiert wird. Im Dezember gehen wir oft auf den Weihnachtsmarkt, wo Lebkuchen und heißer Glühwein verkauft werden. An Heiligabend wird morgens der Baum geschmückt. Am Nachmittag gehen viele in die Kirche, und am Abend kommt das Christkind mit den Geschenken. Sie werden nach dem Abendessen geöffnet, genau wie in Norwegen. Zum Abendessen gibt es oft Würstchen und Kartoffelsalat. Das ist ein einfaches Essen, denn das große Festessen gibt es erst am ersten Weihnachtstag. Silvester feiern wir mit Freunden, und um Mitternacht wird überall Feuerwerk abgeschossen. Einen Wichtel gibt es bei uns nicht, aber wir haben so einen Adventskranz mit vier Kerzen auf dem Tisch. Ich finde, norwegische und deutsche Weihnachten sind ziemlich ähnlich, aber unsere Tradition ist mir wohl doch am liebsten!\nEine Umarmung von Susanne"
+  }
+}

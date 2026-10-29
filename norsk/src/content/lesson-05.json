@@ -67,7 +67,7 @@
       {
         "s": "k",
         "no": "Og hver søndag går vi på tur. Vil du bli med oss i dag?",
-        "de": "Und jeden Sonntag gehen wir wandern. Willst du heute mit uns kommen?"
+        "de": "Und jeden Sonntag gehen wir wandern. Willst du heute mitkommen?"
       },
       {
         "s": "s",
@@ -581,8 +581,8 @@
           "body": "Norwegisch unterscheidet nicht zwischen „mich“ und „mir“ oder „ihn“ und „ihm“: **meg** ist beides.\n\n• **Ola ser meg.** – Ola sieht mich.\n• **Ola gir meg brunosten.** – Ola gibt mir den Braunkäse.\n• **Bestemor forteller oss en historie.** – Oma erzählt uns eine Geschichte.\n\n**ham** ist die Objektform von **han**. Viele Norweger sagen auch als Objekt **han** (Jeg ser han), und das ist erlaubt. Schreib am besten **ham**.\n\nAchte auf **de** und **dem**: Als Objekt heißt „sie“ (Plural) immer **dem**: **Jeg kjenner dem.** – Ich kenne sie. (✗ Jeg kjenner de.)"
         },
         {
-          "h": "Nach Präpositionen und nach „er“",
-          "body": "Nach Präpositionen steht immer die Objektform: **med meg, til deg, hos ham, fra henne, for oss, uten dere, til dem**.\n\nNach **Det er …** steht im Norwegischen die Objektform, wo das Deutsche „ich“ sagt: **Hvem er det? – Det er meg.** – Wer ist da? – Ich bin's."
+          "h": "Nach Präpositionen und in kurzen Antworten",
+          "body": "Nach Präpositionen steht immer die Objektform: **med meg, til deg, hos ham, fra henne, for oss, uten dere, til dem**.\n\nIm Alltag sagt man nach **Det er …** meist die Objektform: **Hvem er det? – Det er meg.** – Wer ist da? – Ich bin's."
         }
       ],
       "drills": [
@@ -660,12 +660,12 @@
           "explain": "„ihr“ (Dativ) = henne, dieselbe Form wie „sie“ (Akkusativ)."
         },
         {
-          "prompt": "Hvem er det? – Det er ___. (jeg)",
-          "de": "Wer ist da? – Ich bin's.",
+          "prompt": "Kommer du til ___ i kveld? (vi)",
+          "de": "Kommst du heute Abend zu uns?",
           "answer": [
-            "meg"
+            "oss"
           ],
-          "explain": "Nach Det er … steht die Objektform: Det er meg."
+          "explain": "Nach der Präposition til: vi → oss."
         }
       ]
     },
@@ -713,17 +713,17 @@
         },
         {
           "h": "det als „es“ ohne Bezug",
-          "body": "Wie deutsch „es“ steht **det** als formales Subjekt, vor allem bei Wetter, Zeit und Stimmung:\n\n• **Det regner.** – Es regnet.\n• **Det er kaldt i dag.** – Es ist kalt heute.\n• **Det er hyggelig her.** – Es ist gemütlich hier.\n\n**det** stellt auch Personen und Dinge vor, sogar im Plural: **Det er Anna.** – Das ist Anna. **Det er naboene.** – Das sind die Nachbarn.\n\nUnd **det** kann für einen ganzen Satz stehen: **Mamma blir sur hvis vi ikke gjør det.** **Det vet jeg ikke.**"
+          "body": "Wie deutsch „es“ steht **det** als formales Subjekt, vor allem bei Wetter, Zeit und Stimmung:\n\n• **Det regner.** – Es regnet.\n• **Det er kaldt i dag.** – Es ist kalt heute.\n• **Det er hyggelig her.** – Es ist gemütlich hier.\n\n**det** stellt auch Personen und Dinge vor, sogar im Plural: **Det er Anna.** – Das ist Anna. **Det er naboene.** – Das sind die Nachbarn. Darum heißt es vor einem Nomen nach **er** meist **det**, egal welches Geschlecht: **Ostehøvelen? Det er en norsk oppfinnelse.**\n\nUnd **det** kann für einen ganzen Satz stehen: **Mamma blir sur hvis vi ikke gjør det.** **Det vet jeg ikke.**"
         }
       ],
       "drills": [
         {
-          "prompt": "Ostehøvelen er praktisk. ___ er en norsk oppfinnelse.",
-          "de": "Der Käsehobel ist praktisch. Er ist eine norwegische Erfindung.",
+          "prompt": "Jeg har en ny ostehøvel. ___ er veldig fin.",
+          "de": "Ich habe einen neuen Käsehobel. Er ist sehr schön.",
           "answer": [
             "Den"
           ],
-          "explain": "en ostehøvel → den."
+          "explain": "en ostehøvel → den; das Adjektiv fin (ohne -t) zeigt es."
         },
         {
           "prompt": "Trollet bor på fjellet. ___ har tre hoder.",

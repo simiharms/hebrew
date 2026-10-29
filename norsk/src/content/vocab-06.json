@@ -1,0 +1,1787 @@
+[
+  {
+    "id": "w06_dagbok",
+    "no": "dagbok",
+    "de": "das Tagebuch",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "dagbok",
+      "dagboka",
+      "dagbøker",
+      "dagbøkene"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Susanne skriver i dagboka hver kveld.",
+      "de": "Susanne schreibt jeden Abend in ihr Tagebuch."
+    }
+  },
+  {
+    "id": "w06_fylle",
+    "no": "fylle",
+    "de": "füllen",
+    "deAlt": [
+      "(… Jahre alt) werden"
+    ],
+    "pos": "verb",
+    "vf": [
+      "fyller",
+      "fylte",
+      "fylt",
+      "fyll"
+    ],
+    "vg": "2",
+    "wk": true,
+    "lesson": 6,
+    "ex": {
+      "no": "Anna fylte tjuefem år i går.",
+      "de": "Anna ist gestern fünfundzwanzig geworden."
+    },
+    "note": "fylle år = Geburtstag haben; fylle 25 = 25 werden."
+  },
+  {
+    "id": "w06_vaakne",
+    "no": "våkne",
+    "de": "aufwachen",
+    "pos": "verb",
+    "vf": [
+      "våkner",
+      "våknet",
+      "våknet",
+      "våkn"
+    ],
+    "vg": "1",
+    "lesson": 6,
+    "ex": {
+      "no": "Jeg våknet klokka seks.",
+      "de": "Ich bin um sechs Uhr aufgewacht."
+    }
+  },
+  {
+    "id": "w06_allerede",
+    "no": "allerede",
+    "de": "schon",
+    "deAlt": [
+      "bereits"
+    ],
+    "pos": "adv",
+    "lesson": 6,
+    "ex": {
+      "no": "Familien feiret allerede om morgenen.",
+      "de": "Die Familie feierte schon am Morgen."
+    }
+  },
+  {
+    "id": "w06_nemlig",
+    "no": "nemlig",
+    "de": "nämlich",
+    "pos": "adv",
+    "lesson": 6,
+    "ex": {
+      "no": "Jeg er trøtt. Jeg våknet nemlig klokka seks.",
+      "de": "Ich bin müde. Ich bin nämlich um sechs aufgewacht."
+    }
+  },
+  {
+    "id": "w06_bursdag",
+    "no": "bursdag",
+    "de": "der Geburtstag",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "bursdag",
+      "bursdagen",
+      "bursdager",
+      "bursdagene"
+    ],
+    "wk": true,
+    "lesson": 6,
+    "ex": {
+      "no": "Når har du bursdag?",
+      "de": "Wann hast du Geburtstag?"
+    },
+    "note": "Auch: fødselsdag (formeller)."
+  },
+  {
+    "id": "w06_feire",
+    "no": "feire",
+    "de": "feiern",
+    "pos": "verb",
+    "vf": [
+      "feirer",
+      "feiret",
+      "feiret",
+      "feir"
+    ],
+    "vg": "1",
+    "wk": true,
+    "lesson": 6,
+    "ex": {
+      "no": "I går feiret vi Anna.",
+      "de": "Gestern haben wir Anna gefeiert."
+    }
+  },
+  {
+    "id": "w06_pynte",
+    "no": "pynte",
+    "de": "schmücken",
+    "deAlt": [
+      "dekorieren"
+    ],
+    "pos": "verb",
+    "vf": [
+      "pynter",
+      "pyntet",
+      "pyntet",
+      "pynt"
+    ],
+    "vg": "1",
+    "wk": true,
+    "lesson": 6,
+    "ex": {
+      "no": "Kari pyntet bordet med flagg.",
+      "de": "Kari schmückte den Tisch mit Fähnchen."
+    }
+  },
+  {
+    "id": "w06_flagg",
+    "no": "flagg",
+    "de": "die Fahne",
+    "deAlt": [
+      "die Flagge",
+      "das Fähnchen"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "flagg",
+      "flagget",
+      "flagg",
+      "flagga/flaggene"
+    ],
+    "wk": true,
+    "lesson": 6,
+    "ex": {
+      "no": "På bursdager bruker nordmenn ofte flagg.",
+      "de": "An Geburtstagen benutzen Norweger oft Fahnen."
+    }
+  },
+  {
+    "id": "w06_tenne",
+    "no": "tenne",
+    "de": "anzünden",
+    "pos": "verb",
+    "vf": [
+      "tenner",
+      "tente",
+      "tent",
+      "tenn"
+    ],
+    "vg": "2",
+    "lesson": 6,
+    "ex": {
+      "no": "Per tente lys på kaka.",
+      "de": "Per zündete die Kerzen auf dem Kuchen an."
+    },
+    "note": "nn wird vor -te zu n: tente."
+  },
+  {
+    "id": "w06_lys",
+    "no": "lys",
+    "de": "die Kerze",
+    "deAlt": [
+      "das Licht"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "lys",
+      "lyset",
+      "lys",
+      "lysa/lysene"
+    ],
+    "wk": true,
+    "lesson": 6,
+    "ex": {
+      "no": "På kaka er det tjuefem lys.",
+      "de": "Auf dem Kuchen sind fünfundzwanzig Kerzen."
+    }
+  },
+  {
+    "id": "w06_samle_seg",
+    "no": "samle seg",
+    "de": "sich versammeln",
+    "pos": "verb",
+    "vf": [
+      "samler seg",
+      "samlet seg",
+      "samlet seg",
+      "saml deg"
+    ],
+    "vg": "1",
+    "lesson": 6,
+    "ex": {
+      "no": "Vi samlet oss i gangen.",
+      "de": "Wir versammelten uns im Flur."
+    }
+  },
+  {
+    "id": "w06_banke",
+    "no": "banke",
+    "de": "klopfen",
+    "pos": "verb",
+    "vf": [
+      "banker",
+      "banket",
+      "banket",
+      "bank"
+    ],
+    "vg": "1",
+    "lesson": 6,
+    "ex": {
+      "no": "Ola banket på døra.",
+      "de": "Ola klopfte an die Tür."
+    }
+  },
+  {
+    "id": "w06_dor",
+    "no": "dør",
+    "de": "die Tür",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "dør",
+      "døra",
+      "dører",
+      "dørene"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Anna åpnet døra.",
+      "de": "Anna öffnete die Tür."
+    }
+  },
+  {
+    "id": "w06_synge",
+    "no": "synge",
+    "de": "singen",
+    "pos": "verb",
+    "vf": [
+      "synger",
+      "sang",
+      "sunget",
+      "syng"
+    ],
+    "vg": "sterk",
+    "wk": true,
+    "lesson": 6,
+    "ex": {
+      "no": "Vi sang for Anna.",
+      "de": "Wir sangen für Anna."
+    }
+  },
+  {
+    "id": "w06_smile",
+    "no": "smile",
+    "de": "lächeln",
+    "pos": "verb",
+    "vf": [
+      "smiler",
+      "smilte",
+      "smilt",
+      "smil"
+    ],
+    "vg": "2",
+    "lesson": 6,
+    "ex": {
+      "no": "Anna smilte.",
+      "de": "Anna lächelte."
+    }
+  },
+  {
+    "id": "w06_pakke_opp",
+    "no": "pakke opp",
+    "de": "auspacken",
+    "pos": "verb",
+    "vf": [
+      "pakker opp",
+      "pakket opp",
+      "pakket opp",
+      "pakk opp"
+    ],
+    "vg": "1",
+    "wk": true,
+    "lesson": 6,
+    "ex": {
+      "no": "Anna pakket opp gavene.",
+      "de": "Anna packte die Geschenke aus."
+    }
+  },
+  {
+    "id": "w06_gave",
+    "no": "gave",
+    "de": "das Geschenk",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "gave",
+      "gaven",
+      "gaver",
+      "gavene"
+    ],
+    "wk": true,
+    "lesson": 6,
+    "ex": {
+      "no": "Tusen takk for gaven!",
+      "de": "Vielen Dank für das Geschenk!"
+    }
+  },
+  {
+    "id": "w06_sykkel",
+    "no": "sykkel",
+    "de": "das Fahrrad",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "sykkel",
+      "sykkelen",
+      "sykler",
+      "syklene"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Kari og Per kjøpte en ny sykkel til Anna.",
+      "de": "Kari und Per kauften Anna ein neues Fahrrad."
+    },
+    "note": "Plural ohne e: sykler (Lektion 9)."
+  },
+  {
+    "id": "w06_strikke",
+    "no": "strikke",
+    "de": "stricken",
+    "pos": "verb",
+    "vf": [
+      "strikker",
+      "strikket",
+      "strikket",
+      "strikk"
+    ],
+    "vg": "1",
+    "lesson": 6,
+    "ex": {
+      "no": "Bestemor strikket en genser.",
+      "de": "Oma strickte einen Pullover."
+    }
+  },
+  {
+    "id": "w06_vakker",
+    "no": "vakker",
+    "de": "schön",
+    "pos": "adj",
+    "forms": [
+      "vakker",
+      "vakkert",
+      "vakre"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Det er vakre båter på fjorden.",
+      "de": "Es gibt schöne Boote auf dem Fjord."
+    },
+    "note": "Plural: vakre (nicht vakkere)."
+  },
+  {
+    "id": "w06_genser",
+    "no": "genser",
+    "de": "der Pullover",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "genser",
+      "genseren",
+      "gensere",
+      "genserne"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Anna prøvde genseren med en gang.",
+      "de": "Anna probierte den Pullover sofort an."
+    }
+  },
+  {
+    "id": "w06_monster",
+    "no": "mønster",
+    "de": "das Muster",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "mønster",
+      "mønsteret",
+      "mønstre",
+      "mønstrene"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Genseren har gamle norske mønstre.",
+      "de": "Der Pullover hat alte norwegische Muster."
+    }
+  },
+  {
+    "id": "w06_enkel",
+    "no": "enkel",
+    "de": "einfach",
+    "pos": "adj",
+    "forms": [
+      "enkel",
+      "enkelt",
+      "enkle"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Det var en enkel gave.",
+      "de": "Das war ein einfaches Geschenk."
+    }
+  },
+  {
+    "id": "w06_kinobillett",
+    "no": "kinobillett",
+    "de": "die Kinokarte",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "kinobillett",
+      "kinobilletten",
+      "kinobilletter",
+      "kinobillettene"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Ola kjøpte to kinobilletter.",
+      "de": "Ola kaufte zwei Kinokarten."
+    }
+  },
+  {
+    "id": "w06_bake",
+    "no": "bake",
+    "de": "backen",
+    "pos": "verb",
+    "vf": [
+      "baker",
+      "bakte",
+      "bakt",
+      "bak"
+    ],
+    "vg": "2",
+    "lesson": 6,
+    "ex": {
+      "no": "Jeg bakte en sjokoladekake.",
+      "de": "Ich backte einen Schokoladenkuchen."
+    }
+  },
+  {
+    "id": "w06_sjokoladekake",
+    "no": "sjokoladekake",
+    "de": "der Schokoladenkuchen",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "sjokoladekake",
+      "sjokoladekaka",
+      "sjokoladekaker",
+      "sjokoladekakene"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Per spiste tre stykker sjokoladekake.",
+      "de": "Per aß drei Stück Schokoladenkuchen."
+    }
+  },
+  {
+    "id": "w06_like",
+    "no": "like",
+    "de": "mögen",
+    "deAlt": [
+      "gefallen"
+    ],
+    "pos": "verb",
+    "vf": [
+      "liker",
+      "likte",
+      "likt",
+      "lik"
+    ],
+    "vg": "2",
+    "lesson": 6,
+    "ex": {
+      "no": "Anna likte gavene.",
+      "de": "Anna gefielen die Geschenke."
+    }
+  },
+  {
+    "id": "w06_prove",
+    "no": "prøve",
+    "de": "probieren",
+    "deAlt": [
+      "anprobieren",
+      "versuchen"
+    ],
+    "pos": "verb",
+    "vf": [
+      "prøver",
+      "prøvde",
+      "prøvd",
+      "prøv"
+    ],
+    "vg": "3",
+    "lesson": 6,
+    "ex": {
+      "no": "Hun prøvde genseren.",
+      "de": "Sie probierte den Pullover an."
+    }
+  },
+  {
+    "id": "w06_med_en_gang",
+    "no": "med en gang",
+    "de": "sofort",
+    "deAlt": [
+      "gleich"
+    ],
+    "pos": "phrase",
+    "lesson": 6,
+    "ex": {
+      "no": "Kom med en gang!",
+      "de": "Komm sofort!"
+    }
+  },
+  {
+    "id": "w06_sykle",
+    "no": "sykle",
+    "de": "Fahrrad fahren",
+    "deAlt": [
+      "radeln"
+    ],
+    "pos": "verb",
+    "vf": [
+      "sykler",
+      "syklet",
+      "syklet",
+      "sykle"
+    ],
+    "vg": "1",
+    "lesson": 6,
+    "ex": {
+      "no": "Anna syklet en tur.",
+      "de": "Anna fuhr eine Runde Fahrrad."
+    }
+  },
+  {
+    "id": "w06_kvartal",
+    "no": "kvartal",
+    "de": "der Block",
+    "deAlt": [
+      "das Viertel",
+      "der Häuserblock"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "kvartal",
+      "kvartalet",
+      "kvartaler",
+      "kvartalene"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Hun syklet rundt kvartalet.",
+      "de": "Sie fuhr um den Block."
+    }
+  },
+  {
+    "id": "w06_stykke",
+    "no": "stykke",
+    "de": "das Stück",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "stykke",
+      "stykket",
+      "stykker",
+      "stykkene"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Vil du ha et stykke kake?",
+      "de": "Möchtest du ein Stück Kuchen?"
+    }
+  },
+  {
+    "id": "w06_invitere",
+    "no": "invitere",
+    "de": "einladen",
+    "pos": "verb",
+    "vf": [
+      "inviterer",
+      "inviterte",
+      "invitert",
+      "inviter"
+    ],
+    "vg": "2",
+    "wk": true,
+    "lesson": 6,
+    "ex": {
+      "no": "Anna inviterte noen venner.",
+      "de": "Anna lud ein paar Freunde ein."
+    }
+  },
+  {
+    "id": "w06_restaurant",
+    "no": "restaurant",
+    "de": "das Restaurant",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "restaurant",
+      "restauranten",
+      "restauranter",
+      "restaurantene"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Restauranten ligger på Aker brygge.",
+      "de": "Das Restaurant liegt an der Aker Brygge."
+    }
+  },
+  {
+    "id": "w06_kjaereste",
+    "no": "kjæreste",
+    "de": "der feste Freund",
+    "deAlt": [
+      "die feste Freundin",
+      "der Schatz"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "kjæreste",
+      "kjæresten",
+      "kjærester",
+      "kjærestene"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Anna har en kjæreste. Han heter Jonas.",
+      "de": "Anna hat einen Freund. Er heißt Jonas."
+    },
+    "note": "Für Männer und Frauen: Hun er kjæresten min."
+  },
+  {
+    "id": "w06_bestille",
+    "no": "bestille",
+    "de": "bestellen",
+    "deAlt": [
+      "reservieren",
+      "buchen"
+    ],
+    "pos": "verb",
+    "vf": [
+      "bestiller",
+      "bestilte",
+      "bestilt",
+      "bestill"
+    ],
+    "vg": "2",
+    "lesson": 6,
+    "ex": {
+      "no": "Vi bestilte fiskesuppe.",
+      "de": "Wir bestellten Fischsuppe."
+    }
+  },
+  {
+    "id": "w06_sjo",
+    "no": "sjø",
+    "de": "das Meer",
+    "deAlt": [
+      "die See",
+      "der See"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "sjø",
+      "sjøen",
+      "sjøer",
+      "sjøene"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Vi bestilte et bord ved sjøen.",
+      "de": "Wir bestellten einen Tisch am Wasser."
+    },
+    "note": "ved sjøen = am Meer, am Wasser."
+  },
+  {
+    "id": "w06_mild",
+    "no": "mild",
+    "de": "mild",
+    "pos": "adj",
+    "forms": [
+      "mild",
+      "mildt",
+      "milde"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Det var en mild kveld.",
+      "de": "Es war ein milder Abend."
+    }
+  },
+  {
+    "id": "w06_kveld",
+    "no": "kveld",
+    "de": "der Abend",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "kveld",
+      "kvelden",
+      "kvelder",
+      "kveldene"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Om kvelden feiret vi på en restaurant.",
+      "de": "Am Abend feierten wir in einem Restaurant."
+    },
+    "note": "om kvelden = am Abend; i kveld = heute Abend."
+  },
+  {
+    "id": "w06_seilbaat",
+    "no": "seilbåt",
+    "de": "das Segelboot",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "seilbåt",
+      "seilbåten",
+      "seilbåter",
+      "seilbåtene"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Vakre seilbåter seilte forbi.",
+      "de": "Schöne Segelboote segelten vorbei."
+    }
+  },
+  {
+    "id": "w06_baat",
+    "no": "båt",
+    "de": "das Boot",
+    "deAlt": [
+      "das Schiff"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "båt",
+      "båten",
+      "båter",
+      "båtene"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Båtene seilte forbi.",
+      "de": "Die Boote segelten vorbei."
+    }
+  },
+  {
+    "id": "w06_seile",
+    "no": "seile",
+    "de": "segeln",
+    "pos": "verb",
+    "vf": [
+      "seiler",
+      "seilte",
+      "seilt",
+      "seil"
+    ],
+    "vg": "2",
+    "lesson": 6,
+    "ex": {
+      "no": "Om sommeren seiler mange nordmenn.",
+      "de": "Im Sommer segeln viele Norweger."
+    }
+  },
+  {
+    "id": "w06_forbi",
+    "no": "forbi",
+    "de": "vorbei",
+    "pos": "adv",
+    "lesson": 6,
+    "ex": {
+      "no": "Trikken kjørte forbi.",
+      "de": "Die Straßenbahn fuhr vorbei."
+    }
+  },
+  {
+    "id": "w06_sulten",
+    "no": "sulten",
+    "de": "hungrig",
+    "pos": "adj",
+    "forms": [
+      "sulten",
+      "sultent",
+      "sultne"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Alle var sultne.",
+      "de": "Alle hatten Hunger."
+    },
+    "note": "Jeg er sulten = Ich habe Hunger."
+  },
+  {
+    "id": "w06_fiskesuppe",
+    "no": "fiskesuppe",
+    "de": "die Fischsuppe",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "fiskesuppe",
+      "fiskesuppa",
+      "fiskesupper",
+      "fiskesuppene"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Fiskesuppa var veldig god.",
+      "de": "Die Fischsuppe war sehr gut."
+    }
+  },
+  {
+    "id": "w06_reke",
+    "no": "reke",
+    "de": "die Garnele",
+    "deAlt": [
+      "die Krabbe"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "reke",
+      "reka",
+      "reker",
+      "rekene"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Vi spiste ferske reker.",
+      "de": "Wir aßen frische Garnelen."
+    }
+  },
+  {
+    "id": "w06_hvitvin",
+    "no": "hvitvin",
+    "de": "der Weißwein",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "hvitvin",
+      "hvitvinen"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Vi bestilte hvitvin.",
+      "de": "Wir bestellten Weißwein."
+    }
+  },
+  {
+    "id": "w06_studere",
+    "no": "studere",
+    "de": "studieren",
+    "deAlt": [
+      "genau ansehen"
+    ],
+    "pos": "verb",
+    "vf": [
+      "studerer",
+      "studerte",
+      "studert",
+      "studer"
+    ],
+    "vg": "2",
+    "lesson": 6,
+    "ex": {
+      "no": "Matthias studerte menyen lenge.",
+      "de": "Matthias studierte lange die Speisekarte."
+    }
+  },
+  {
+    "id": "w06_meny",
+    "no": "meny",
+    "de": "die Speisekarte",
+    "deAlt": [
+      "das Menü"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "meny",
+      "menyen",
+      "menyer",
+      "menyene"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Kan jeg få menyen?",
+      "de": "Kann ich die Speisekarte bekommen?"
+    }
+  },
+  {
+    "id": "w06_sukke",
+    "no": "sukke",
+    "de": "seufzen",
+    "pos": "verb",
+    "vf": [
+      "sukker",
+      "sukket",
+      "sukket",
+      "sukk"
+    ],
+    "vg": "1",
+    "lesson": 6,
+    "ex": {
+      "no": "Matthias sukket over prisene.",
+      "de": "Matthias seufzte über die Preise."
+    }
+  },
+  {
+    "id": "w06_pris",
+    "no": "pris",
+    "de": "der Preis",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "pris",
+      "prisen",
+      "priser",
+      "prisene"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Prisene i Oslo er høye.",
+      "de": "Die Preise in Oslo sind hoch."
+    }
+  },
+  {
+    "id": "w06_kelner",
+    "no": "kelner",
+    "de": "der Kellner",
+    "deAlt": [
+      "die Kellnerin"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "kelner",
+      "kelneren",
+      "kelnere",
+      "kelnerne"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Kelneren var hyggelig.",
+      "de": "Der Kellner war nett."
+    },
+    "note": "Auch: servitør."
+  },
+  {
+    "id": "w06_anbefale",
+    "no": "anbefale",
+    "de": "empfehlen",
+    "pos": "verb",
+    "vf": [
+      "anbefaler",
+      "anbefalte",
+      "anbefalt",
+      "anbefal"
+    ],
+    "vg": "2",
+    "lesson": 6,
+    "ex": {
+      "no": "Kelneren anbefalte en rimelig vin.",
+      "de": "Der Kellner empfahl einen preiswerten Wein."
+    }
+  },
+  {
+    "id": "w06_rimelig",
+    "no": "rimelig",
+    "de": "preiswert",
+    "deAlt": [
+      "günstig",
+      "vernünftig"
+    ],
+    "pos": "adj",
+    "forms": [
+      "rimelig",
+      "rimelig",
+      "rimelige"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Lunsjen er rimelig her.",
+      "de": "Das Mittagessen ist hier preiswert."
+    }
+  },
+  {
+    "id": "w06_servere",
+    "no": "servere",
+    "de": "servieren",
+    "pos": "verb",
+    "vf": [
+      "serverer",
+      "serverte",
+      "servert",
+      "server"
+    ],
+    "vg": "2",
+    "lesson": 6,
+    "ex": {
+      "no": "Kelneren serverte en bløtkake.",
+      "de": "Der Kellner servierte eine Sahnetorte."
+    }
+  },
+  {
+    "id": "w06_gjest",
+    "no": "gjest",
+    "de": "der Gast",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "gjest",
+      "gjesten",
+      "gjester",
+      "gjestene"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Alle gjestene klappet.",
+      "de": "Alle Gäste klatschten."
+    }
+  },
+  {
+    "id": "w06_klappe",
+    "no": "klappe",
+    "de": "klatschen",
+    "deAlt": [
+      "applaudieren"
+    ],
+    "pos": "verb",
+    "vf": [
+      "klapper",
+      "klappet",
+      "klappet",
+      "klapp"
+    ],
+    "vg": "1",
+    "lesson": 6,
+    "ex": {
+      "no": "Gjestene klappet for Anna.",
+      "de": "Die Gäste klatschten für Anna."
+    }
+  },
+  {
+    "id": "w06_prate",
+    "no": "prate",
+    "de": "plaudern",
+    "deAlt": [
+      "sich unterhalten",
+      "reden"
+    ],
+    "pos": "verb",
+    "vf": [
+      "prater",
+      "pratet",
+      "pratet",
+      "prat"
+    ],
+    "vg": "1",
+    "lesson": 6,
+    "ex": {
+      "no": "Vi pratet til langt på natt.",
+      "de": "Wir plauderten bis spät in die Nacht."
+    }
+  },
+  {
+    "id": "w06_danse",
+    "no": "danse",
+    "de": "tanzen",
+    "pos": "verb",
+    "vf": [
+      "danser",
+      "danset",
+      "danset",
+      "dans"
+    ],
+    "vg": "1",
+    "lesson": 6,
+    "ex": {
+      "no": "Anna og Jonas danset hele kvelden.",
+      "de": "Anna und Jonas tanzten den ganzen Abend."
+    }
+  },
+  {
+    "id": "w06_vente",
+    "no": "vente",
+    "de": "warten",
+    "pos": "verb",
+    "vf": [
+      "venter",
+      "ventet",
+      "ventet",
+      "vent"
+    ],
+    "vg": "1",
+    "lesson": 6,
+    "ex": {
+      "no": "Vi ventet på trikken.",
+      "de": "Wir warteten auf die Straßenbahn."
+    },
+    "note": "vente på = warten auf."
+  },
+  {
+    "id": "w06_trikk",
+    "no": "trikk",
+    "de": "die Straßenbahn",
+    "deAlt": [
+      "die Tram"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "trikk",
+      "trikken",
+      "trikker",
+      "trikkene"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Jeg tar trikken hjem.",
+      "de": "Ich nehme die Straßenbahn nach Hause."
+    }
+  },
+  {
+    "id": "w06_trott",
+    "no": "trøtt",
+    "de": "müde",
+    "pos": "adj",
+    "forms": [
+      "trøtt",
+      "trøtt",
+      "trøtte"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "I dag er jeg trøtt.",
+      "de": "Heute bin ich müde."
+    }
+  },
+  {
+    "id": "w06_glad",
+    "no": "glad",
+    "de": "froh",
+    "deAlt": [
+      "fröhlich",
+      "glücklich"
+    ],
+    "pos": "adj",
+    "forms": [
+      "glad",
+      "glad",
+      "glade"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Jeg er trøtt, men glad.",
+      "de": "Ich bin müde, aber froh."
+    },
+    "note": "Falscher Freund: glad = froh, nicht „glatt“. Neutrum ohne -t: et glad barn."
+  },
+  {
+    "id": "w06_ringe",
+    "no": "ringe",
+    "de": "anrufen",
+    "deAlt": [
+      "klingeln"
+    ],
+    "pos": "verb",
+    "vf": [
+      "ringer",
+      "ringte",
+      "ringt",
+      "ring"
+    ],
+    "vg": "2",
+    "lesson": 6,
+    "ex": {
+      "no": "Anna ringte i morges.",
+      "de": "Anna hat heute Morgen angerufen."
+    }
+  },
+  {
+    "id": "w06_takke",
+    "no": "takke",
+    "de": "danken",
+    "deAlt": [
+      "sich bedanken"
+    ],
+    "pos": "verb",
+    "vf": [
+      "takker",
+      "takket",
+      "takket",
+      "takk"
+    ],
+    "vg": "1",
+    "wk": true,
+    "lesson": 6,
+    "ex": {
+      "no": "Anna takket for kaka.",
+      "de": "Anna bedankte sich für den Kuchen."
+    },
+    "note": "takke for = sich bedanken für."
+  },
+  {
+    "id": "w06_i_morges",
+    "no": "i morges",
+    "de": "heute Morgen",
+    "pos": "adv",
+    "lesson": 6,
+    "ex": {
+      "no": "Anna ringte i morges.",
+      "de": "Anna hat heute Morgen angerufen."
+    },
+    "note": "Nur für die Vergangenheit; „morgen früh“ = i morgen tidlig."
+  },
+  {
+    "id": "w06_neste",
+    "no": "neste",
+    "de": "nächste",
+    "deAlt": [
+      "nächster",
+      "nächstes"
+    ],
+    "pos": "adj",
+    "forms": [
+      "neste",
+      "neste",
+      "neste"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Neste år feirer jeg bursdag i Norge.",
+      "de": "Nächstes Jahr feiere ich Geburtstag in Norwegen."
+    },
+    "note": "Ohne Artikel: neste år, neste uke."
+  },
+  {
+    "id": "w06_i_gaar",
+    "no": "i går",
+    "de": "gestern",
+    "pos": "adv",
+    "lesson": 6,
+    "ex": {
+      "no": "I går var en stor dag.",
+      "de": "Gestern war ein großer Tag."
+    }
+  },
+  {
+    "id": "w06_tekst",
+    "no": "tekst",
+    "de": "der Text",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "tekst",
+      "teksten",
+      "tekster",
+      "tekstene"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Margrethe Munthe skrev teksten.",
+      "de": "Margrethe Munthe schrieb den Text."
+    }
+  },
+  {
+    "id": "w06_sang",
+    "no": "sang",
+    "de": "das Lied",
+    "deAlt": [
+      "der Gesang"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "sang",
+      "sangen",
+      "sanger",
+      "sangene"
+    ],
+    "wk": true,
+    "lesson": 6,
+    "ex": {
+      "no": "Barna kan sangen.",
+      "de": "Die Kinder können das Lied."
+    }
+  },
+  {
+    "id": "w06_ring",
+    "no": "ring",
+    "de": "der Kreis",
+    "deAlt": [
+      "der Ring"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "ring",
+      "ringen",
+      "ringer",
+      "ringene"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Barna står i ring.",
+      "de": "Die Kinder stehen im Kreis."
+    }
+  },
+  {
+    "id": "w06_gratulere",
+    "no": "gratulere",
+    "de": "gratulieren",
+    "pos": "verb",
+    "vf": [
+      "gratulerer",
+      "gratulerte",
+      "gratulert",
+      "gratuler"
+    ],
+    "vg": "2",
+    "wk": true,
+    "lesson": 6,
+    "ex": {
+      "no": "Gratulerer med dagen!",
+      "de": "Herzlichen Glückwunsch zum Geburtstag!"
+    },
+    "note": "gratulere med = gratulieren zu."
+  },
+  {
+    "id": "w06_hjerte",
+    "no": "hjerte",
+    "de": "das Herz",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "hjerte",
+      "hjertet",
+      "hjerter",
+      "hjertene"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Jeg ønsker deg alt godt av hjertet.",
+      "de": "Ich wünsche dir von Herzen alles Gute."
+    }
+  },
+  {
+    "id": "w06_forfatter",
+    "no": "forfatter",
+    "de": "der Autor",
+    "deAlt": [
+      "der Verfasser",
+      "die Autorin",
+      "der Schriftsteller"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "forfatter",
+      "forfatteren",
+      "forfattere",
+      "forfatterne"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Ibsen er en kjent forfatter.",
+      "de": "Ibsen ist ein bekannter Autor."
+    }
+  },
+  {
+    "id": "w06_lam",
+    "no": "lam",
+    "de": "das Lamm",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "lam",
+      "lammet",
+      "lam",
+      "lamma/lammene"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Lammet har mye ull.",
+      "de": "Das Lamm hat viel Wolle."
+    },
+    "note": "Kein Doppel-m am Wortende, aber: lammet."
+  },
+  {
+    "id": "w06_ull",
+    "no": "ull",
+    "de": "die Wolle",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "ull",
+      "ulla"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Genseren er av ull.",
+      "de": "Der Pullover ist aus Wolle."
+    }
+  },
+  {
+    "id": "w06_kropp",
+    "no": "kropp",
+    "de": "der Körper",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "kropp",
+      "kroppen",
+      "kropper",
+      "kroppene"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Etter turen var kroppen trøtt.",
+      "de": "Nach der Wanderung war der Körper müde."
+    }
+  },
+  {
+    "id": "w06_love",
+    "no": "love",
+    "de": "versprechen",
+    "pos": "verb",
+    "vf": [
+      "lover",
+      "lovet",
+      "lovet",
+      "lov"
+    ],
+    "vg": "1",
+    "lesson": 6,
+    "ex": {
+      "no": "Jeg lover å komme.",
+      "de": "Ich verspreche zu kommen."
+    },
+    "note": "Falscher Freund: love = versprechen, nicht „lieben“ (= elske)."
+  },
+  {
+    "id": "w06_strompe",
+    "no": "strømpe",
+    "de": "der Strumpf",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "strømpe",
+      "strømpen",
+      "strømper",
+      "strømpene"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Bestemor strikker strømper.",
+      "de": "Oma strickt Strümpfe."
+    }
+  },
+  {
+    "id": "w06_lillebror",
+    "no": "lillebror",
+    "de": "der kleine Bruder",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "lillebror",
+      "lillebroren",
+      "lillebrødre",
+      "lillebrødrene"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Anna har en lillebror. Han heter Ola.",
+      "de": "Anna hat einen kleinen Bruder. Er heißt Ola."
+    }
+  },
+  {
+    "id": "w06_kort",
+    "no": "kort",
+    "de": "kurz",
+    "pos": "adj",
+    "forms": [
+      "kort",
+      "kort",
+      "korte"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Sangen er kort og enkel.",
+      "de": "Das Lied ist kurz und einfach."
+    },
+    "note": "Endet schon auf -t: et kort brev."
+  },
+  {
+    "id": "w06_hurra",
+    "no": "hurra",
+    "de": "hurra",
+    "pos": "interj",
+    "wk": true,
+    "lesson": 6,
+    "ex": {
+      "no": "Hipp, hipp, hurra!",
+      "de": "Hipp, hipp, hurra!"
+    }
+  },
+  {
+    "id": "w06_snill",
+    "no": "snill",
+    "de": "lieb",
+    "deAlt": [
+      "nett",
+      "brav"
+    ],
+    "pos": "adj",
+    "forms": [
+      "snill",
+      "snilt",
+      "snille"
+    ],
+    "wk": true,
+    "lesson": 6,
+    "ex": {
+      "no": "Så snilt av deg!",
+      "de": "Wie lieb von dir!"
+    }
+  },
+  {
+    "id": "w06_skaal",
+    "no": "skål",
+    "de": "prost",
+    "deAlt": [
+      "zum Wohl"
+    ],
+    "pos": "interj",
+    "wk": true,
+    "lesson": 6,
+    "ex": {
+      "no": "Skål for Anna!",
+      "de": "Ein Prost auf Anna!"
+    },
+    "note": "Als Nomen: ei skål = Schale, Schüssel."
+  },
+  {
+    "id": "w06_lykke_til",
+    "no": "lykke til",
+    "de": "viel Glück",
+    "pos": "phrase",
+    "wk": true,
+    "lesson": 6,
+    "ex": {
+      "no": "Lykke til med eksamen!",
+      "de": "Viel Glück bei der Prüfung!"
+    }
+  },
+  {
+    "id": "w06_god_bedring",
+    "no": "god bedring",
+    "de": "gute Besserung",
+    "pos": "phrase",
+    "wk": true,
+    "lesson": 6,
+    "ex": {
+      "no": "Er du syk? God bedring!",
+      "de": "Bist du krank? Gute Besserung!"
+    }
+  },
+  {
+    "id": "w06_takk_for_sist",
+    "no": "takk for sist",
+    "de": "danke für das letzte Mal",
+    "pos": "phrase",
+    "wk": true,
+    "lesson": 6,
+    "ex": {
+      "no": "Hei, Anna! Takk for sist!",
+      "de": "Hallo, Anna! Danke für neulich!"
+    },
+    "note": "Typisch norwegische Höflichkeit beim nächsten Wiedersehen."
+  },
+  {
+    "id": "w06_eksamen",
+    "no": "eksamen",
+    "de": "die Prüfung",
+    "deAlt": [
+      "das Examen"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "eksamen",
+      "eksamenen",
+      "eksamener",
+      "eksamenene"
+    ],
+    "wk": true,
+    "lesson": 6,
+    "ex": {
+      "no": "Gratulerer med eksamen!",
+      "de": "Herzlichen Glückwunsch zur bestandenen Prüfung!"
+    }
+  },
+  {
+    "id": "w06_laerer",
+    "no": "lærer",
+    "de": "der Lehrer",
+    "deAlt": [
+      "die Lehrerin"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "lærer",
+      "læreren",
+      "lærere",
+      "lærerne"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Kari er lærer.",
+      "de": "Kari ist Lehrerin."
+    },
+    "note": "Plural lærere, bestimmt lærerne."
+  },
+  {
+    "id": "w06_baker",
+    "no": "baker",
+    "de": "der Bäcker",
+    "deAlt": [
+      "die Bäckerin"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "baker",
+      "bakeren",
+      "bakere",
+      "bakerne"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Bakeren står opp klokka fire.",
+      "de": "Der Bäcker steht um vier Uhr auf."
+    }
+  },
+  {
+    "id": "w06_aapen",
+    "no": "åpen",
+    "de": "offen",
+    "deAlt": [
+      "geöffnet"
+    ],
+    "pos": "adj",
+    "forms": [
+      "åpen",
+      "åpent",
+      "åpne"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Butikkene er åpne til klokka åtte.",
+      "de": "Die Geschäfte sind bis acht Uhr geöffnet."
+    }
+  },
+  {
+    "id": "w06_sikker",
+    "no": "sikker",
+    "de": "sicher",
+    "pos": "adj",
+    "forms": [
+      "sikker",
+      "sikkert",
+      "sikre"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Er du sikker?",
+      "de": "Bist du sicher?"
+    },
+    "note": "sikker = sich sicher sein, gewiss; trygg = sicher vor Gefahr."
+  },
+  {
+    "id": "w06_vaer",
+    "no": "vær",
+    "de": "das Wetter",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "vær",
+      "været"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Været var vakkert i går.",
+      "de": "Das Wetter war gestern schön."
+    }
+  },
+  {
+    "id": "w06_leve",
+    "no": "leve",
+    "de": "leben",
+    "pos": "verb",
+    "vf": [
+      "lever",
+      "levde",
+      "levd",
+      "lev"
+    ],
+    "vg": "3",
+    "lesson": 6,
+    "ex": {
+      "no": "Margrethe Munthe levde fra 1860 til 1931.",
+      "de": "Margrethe Munthe lebte von 1860 bis 1931."
+    }
+  },
+  {
+    "id": "w06_eie",
+    "no": "eie",
+    "de": "besitzen",
+    "deAlt": [
+      "gehören"
+    ],
+    "pos": "verb",
+    "vf": [
+      "eier",
+      "eide",
+      "eid",
+      "eie"
+    ],
+    "vg": "3",
+    "lesson": 6,
+    "ex": {
+      "no": "Familien eier en hytte.",
+      "de": "Die Familie besitzt eine Hütte."
+    }
+  }
+]

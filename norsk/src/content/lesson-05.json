@@ -1115,7 +1115,7 @@
         },
         {
           "h": "m am Wortende: nie doppelt",
-          "body": "Ein **m** wird am Wortende nie verdoppelt, auch nach kurzem Vokal. Kommt eine Endung mit Vokal dazu, erscheint das Doppel-m:\n\n• **dum – dumt – dumme**\n• **et rom – rommet – rom – rommene**\n• **et program – programmet**\n• **komme – Kom!**, **glemme – Glem!** (Imperativ)\n\nAusnahme: **ll** bleibt vor **-t** erhalten: **full – fullt**: **Glasset er fullt.**"
+          "body": "Ein **m** wird am Wortende nie verdoppelt, auch nach kurzem Vokal. Kommt eine Endung mit Vokal dazu, erscheint das Doppel-m:\n\n• **dum – dumt – dumme**\n• **et rom – rommet – rom – rommene**\n• **et program – programmet**\n• **komme – Kom!**, **glemme – Glem!** (Imperativ)\n\nEine Ausnahme ist **full – fullt** (mit Doppel-l): **Glasset er fullt.** Andere Wörter auf -ll folgen der Hauptregel: **snill – snilt**."
         }
       ],
       "drills": [
@@ -1181,7 +1181,7 @@
           "answer": [
             "fullt"
           ],
-          "explain": "Ausnahme: ll bleibt, full → fullt."
+          "explain": "Ausnahme: full behält das Doppel-l: fullt."
         },
         {
           "prompt": "___ hit, Ola! (komme, Imperativ)",

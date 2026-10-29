@@ -12,16 +12,21 @@ export const lessonByN = new Map(lessons.map((l) => [l.n, l]));
 export const aussprache: PronunciationGuide | undefined = Object.values(guideMods)[0];
 export const LESSON_COUNT = PLAN.length;
 
-// A word that several lessons list is kept once, in the first lesson that has it.
-const seenWords = new Set<string>();
+// A word that several lessons list is kept once, in the first lesson that has
+// it; a later lesson can add forms (comparison) the first one didn't give.
+const firstByKey = new Map<string, Word>();
 export const words: Word[] = Object.entries(vocabMods)
   .sort(([a], [b]) => a.localeCompare(b))
   .flatMap(([, list]) => list)
   .filter((w) => {
     const k = `${normalize(w.no)}|${w.pos}`;
-    if (seenWords.has(k)) return false;
-    seenWords.add(k);
-    return true;
+    const first = firstByKey.get(k);
+    if (!first) {
+      firstByKey.set(k, w);
+      return true;
+    }
+    if (w.forms && (first.forms?.length ?? 0) < w.forms.length) first.forms = w.forms;
+    return false;
   });
 export const wordById = new Map(words.map((w) => [w.id, w]));
 export const verbs = words.filter((w) => w.pos === 'verb' && w.vf);
@@ -128,6 +133,7 @@ export function buildDictionary(): void {
       add(w.no.split(' ')[0] + 's', { ...e, form: 'Passiv (s-Form)' });
     }
   }
+  addFunctionWords();
   const gloss = (no: string, de: string) => addForm(no, { no, de, gloss: true });
   for (const L of lessons) {
     for (const t of [L.text, ...L.extra]) t.glossary.forEach((g) => gloss(g.no, g.de));
@@ -135,9 +141,44 @@ export function buildDictionary(): void {
   }
 }
 
+// The smallest words, which no lesson lists as vocabulary.
+const FUNCTION_WORDS: [string, string, string?][] = [
+  ['en', 'ein, eine (maskulin; auch feminin)', 'unbestimmter Artikel'],
+  ['ei', 'eine (feminin)', 'unbestimmter Artikel'],
+  ['et', 'ein (neutrum)', 'unbestimmter Artikel'],
+  ['ett', 'eins; ein (neutrum, betont)'],
+  ['å', 'zu (vor dem Infinitiv)', 'Infinitivzeichen'],
+  ['og', 'und'],
+  ['i', 'in, im'],
+  ['på', 'auf, an, in'],
+  ['til', 'zu, nach, bis'],
+  ['fra', 'von, aus'],
+  ['med', 'mit'],
+  ['av', 'von, aus'],
+  ['for', 'für; denn'],
+  ['om', 'über; ob; in (zeitlich)'],
+  ['men', 'aber'],
+  ['eller', 'oder'],
+  ['som', 'der, die, das (Relativpronomen); wie, als'],
+  ['at', 'dass'],
+  ['ikke', 'nicht'],
+  ['ja', 'ja'],
+  ['nei', 'nein'],
+  ['jo', 'doch'],
+  ['den', 'er, sie, es (für en-/ei-Wörter); der, die, das'],
+  ['det', 'es; das'],
+  ['de', 'sie (Plural); die'],
+  ['dem', 'sie, ihnen (Objektform von de)'],
+];
+
 export interface LookupResult {
   entries: DictEntry[];
   parts?: [DictEntry, DictEntry]; // a compound: barne + tog
+  name?: boolean; // probably a name (capitalised, unknown)
+}
+
+function addFunctionWords() {
+  for (const [no, de, form] of FUNCTION_WORDS) if (!dict.has(no)) add(no, { no, de, form });
 }
 
 export function lookup(word: string): LookupResult {
@@ -152,7 +193,8 @@ export function lookup(word: string): LookupResult {
   // typed or OCR-like without æ ø å
   const f = fold(k);
   for (const [key, list] of dict) if (fold(key) === f) return { entries: sortEntries(list) };
-  return { entries: [], parts: compound(k) };
+  const parts = compound(k);
+  return { entries: [], parts, name: !parts && /^[A-ZÆØÅ]/.test(word) };
 }
 
 // Vocabulary entries first, then single-word glossary entries, then phrases.

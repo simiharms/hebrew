@@ -180,7 +180,7 @@ export function wordCount(s: string): number {
 }
 
 // Inflection endings, longest first (definite, plural, past, comparison, genitive).
-const ENDINGS = ['ene', 'ane', 'ende', 'ede', 'este', 'ere', 'est', 'dde', 'ene', 'ens', 'ets', 'er', 'en', 'et', 'te', 'de', 'ne', 'a', 'e', 't', 's', 'r'];
+const ENDINGS = ['ene', 'ane', 'ende', 'ede', 'este', 'ste', 'ere', 'est', 'dde', 'ens', 'ets', 'er', 'en', 'et', 'st', 'te', 'de', 'ne', 'a', 'e', 't', 's', 'r'];
 
 /** Possible stems of an inflected word: hus-ene → hus, snakk-et → snakk(e). */
 export function stems(word: string): string[] {

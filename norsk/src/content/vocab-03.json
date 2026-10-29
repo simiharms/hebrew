@@ -1050,6 +1050,29 @@
     }
   },
   {
+    "id": "w03_katolikk",
+    "no": "katolikk",
+    "de": "der Katholik, die Katholikin",
+    "deAlt": [
+      "der Katholik",
+      "die Katholikin"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "katolikk",
+      "katolikken",
+      "katolikker",
+      "katolikkene"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Han er katolikk.",
+      "de": "Er ist Katholik."
+    },
+    "note": "Religion nach være ohne Artikel."
+  },
+  {
     "id": "w03_person",
     "no": "person",
     "de": "die Person",

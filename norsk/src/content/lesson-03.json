@@ -412,6 +412,10 @@
           "de": "freitags"
         },
         {
+          "no": "Taco!",
+          "de": "Tacos!"
+        },
+        {
           "no": "tradisjonell norsk mat",
           "de": "traditionelles norwegisches Essen"
         },
@@ -857,12 +861,12 @@
           "explain": "Nationalität nach være: kein Artikel."
         },
         {
-          "prompt": "Har du ___? – Nei, jeg tar buss. (Auto)",
-          "de": "Hast du ein Auto? – Nein, ich nehme den Bus.",
+          "prompt": "Ola har ___ i dag. (Geburtstag)",
+          "de": "Ola hat heute Geburtstag.",
           "answer": [
-            "bil"
+            "bursdag"
           ],
-          "explain": "Feste Wendung ohne Artikel: ha bil."
+          "explain": "Feste Wendung ohne Artikel: ha bursdag."
         },
         {
           "prompt": "Mads har ikke ___ i dag. (Zeit)",
@@ -873,12 +877,12 @@
           "explain": "Feste Wendung ohne Artikel: ha tid."
         },
         {
-          "prompt": "Trenger du ___? (Tüte)",
-          "de": "Brauchst du eine Tüte?",
+          "prompt": "Hun er ___. (Katholikin)",
+          "de": "Sie ist Katholikin.",
           "answer": [
-            "pose"
+            "katolikk"
           ],
-          "explain": "An der Kasse sagt man ohne Artikel: Trenger du pose?"
+          "explain": "Religion nach være: kein Artikel."
         }
       ]
     },
@@ -1144,7 +1148,8 @@
     {
       "de": "die Einkaufsliste",
       "answer": [
-        "handlelista"
+        "handlelista",
+        "handlelisten"
       ]
     },
     {

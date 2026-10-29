@@ -109,7 +109,9 @@ export function GlossSheet() {
             </div>
           </div>
         )}
-        {res.entries.length === 0 && !res.parts && <div class="card tight muted">Dieses Wort steht noch nicht im Wörterbuch der App.</div>}
+        {res.entries.length === 0 && !res.parts && (
+          <div class="card tight muted">{res.name ? 'Ein Name – eine Person, ein Ort oder ein Werk.' : 'Dieses Wort steht noch nicht im Wörterbuch der App.'}</div>
+        )}
         <div class="chip-row mt">
           <a class="chip" href={`https://ordbokene.no/nob/bm/${enc}`} target="_blank" rel="noopener">
             Ordbøkene

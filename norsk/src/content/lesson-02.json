@@ -87,8 +87,8 @@
       },
       {
         "s": "mads",
-        "no": "Velkommen til Norge, Matthias! Hjemme i Danmark drikker jeg øl, men her i Norge drikker jeg kaffe. En kaffe, takk!",
-        "de": "Willkommen in Norwegen, Matthias! Zu Hause in Dänemark trinke ich Bier, aber hier in Norwegen trinke ich Kaffee. Einen Kaffee, bitte!"
+        "no": "Velkommen til Norge, Matthias! Hjemme i Danmark er øl ikke så dyrt. Der drikker jeg øl, men her drikker jeg kaffe. En kaffe, takk!",
+        "de": "Willkommen in Norwegen, Matthias! Zu Hause in Dänemark ist Bier nicht so teuer. Dort trinke ich Bier, aber hier trinke ich Kaffee. Einen Kaffee, bitte!"
       },
       {
         "s": "eksp",
@@ -183,8 +183,12 @@
         "de": "ein Stück Sahnetorte"
       },
       {
-        "no": "takk",
-        "de": "danke; hier: bitte"
+        "no": "ikke så dyrt",
+        "de": "nicht so teuer"
+      },
+      {
+        "no": "Der drikker jeg øl",
+        "de": "Dort trinke ich Bier (Inversion)"
       },
       {
         "no": "Det blir 65 kroner",

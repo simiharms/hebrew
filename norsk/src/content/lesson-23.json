@@ -1,0 +1,1160 @@
+{
+  "n": 23,
+  "level": "B2",
+  "title": "Sankthans i Tromsø",
+  "titleDe": "Mittsommer in Tromsø",
+  "place": "Tromsø, Telegrafbukta",
+  "goals": [
+    "Du kannst einen persönlichen Blogbeitrag verstehen und selbst einen schreiben.",
+    "Du kannst über Mittsommer, die Mitternachtssonne und ein ganzes Jahr in Norwegen erzählen.",
+    "Du drückst laufende Handlungen mit sitte/stå/ligge og … und mit holde på med å aus.",
+    "Du unterscheidest Partikelverben (stå opp, ta med) und feste Zusammensetzungen (oppgi, nedlagt).",
+    "Du weißt Grundlegendes über die Samen in Norwegen und kennst wichtige Computer- und Internetwörter."
+  ],
+  "text": {
+    "id": "t23",
+    "title": "Sankthans i Tromsø",
+    "titleDe": "Mittsommer in Tromsø",
+    "kind": "prose",
+    "intro": "Ende Juni, kurz nach Mitternacht: Susanne sitzt in der Mitternachtssonne am Strand von Tromsø und schreibt den letzten Beitrag für ihren Blog – ein Rückblick auf ihr Jahr in Norwegen.",
+    "lines": [
+      {
+        "no": "Klokka er halv ett om natta, og jeg sitter på en stein i Telegrafbukta og skriver dette innlegget på mobilen. Sola står lavt over havet, men den går ikke ned. Rundt meg sitter folk og griller, og noen barn holder på med å bygge et sandslott. Ingen ser ut til å være trøtte.",
+        "de": "Es ist halb eins in der Nacht, und ich sitze auf einem Stein in der Telegrafbukta und schreibe diesen Beitrag auf dem Handy. Die Sonne steht tief über dem Meer, aber sie geht nicht unter. Um mich herum sitzen Leute und grillen, und ein paar Kinder sind gerade dabei, eine Sandburg zu bauen. Niemand scheint müde zu sein."
+      },
+      {
+        "no": "Siden slutten av mai har sola ikke gått ned her i Tromsø, og det kommer den ikke til å gjøre før i slutten av juli. I desember lå jeg i senga og ventet på lyset. Nå ligger jeg våken og venter på mørket – men det kommer ikke. Heldigvis har Inga lånt meg en sovemaske.",
+        "de": "Seit Ende Mai ist die Sonne hier in Tromsø nicht untergegangen, und das wird sie erst Ende Juli wieder tun. Im Dezember lag ich im Bett und wartete auf das Licht. Jetzt liege ich wach und warte auf die Dunkelheit – aber sie kommt nicht. Zum Glück hat Inga mir eine Schlafmaske geliehen."
+      },
+      {
+        "no": "I kveld var det sankthansaften. Nede på stranda ble det tent et stort bål, og vi sto og så på flammene, som nesten var usynlige i det sterke lyset. Noen spilte gitar, og vi sang sanger som jeg endelig kan teksten til. Matthias sang ikke med, men han sto og smilte hele tiden.",
+        "de": "Heute Abend war Mittsommerabend. Unten am Strand wurde ein großes Feuer angezündet, und wir standen da und schauten in die Flammen, die im starken Licht fast unsichtbar waren. Jemand spielte Gitarre, und wir sangen Lieder, deren Text ich endlich kann. Matthias sang nicht mit, aber er stand die ganze Zeit da und lächelte."
+      },
+      {
+        "no": "Ja, Matthias er her! Han kom opp fra Bergen på mandag for å være sammen med meg den siste uka. Han har tatt med seg et stort kamera og har allerede funnet ut at det er umulig å ta et dårlig bilde i nattsola. I går sto han opp klokka fire for å fotografere fjellene – eller kanskje la han seg aldri?",
+        "de": "Ja, Matthias ist hier! Er ist am Montag aus Bergen heraufgekommen, um die letzte Woche mit mir zusammen zu sein. Er hat eine große Kamera mitgebracht und schon herausgefunden, dass es unmöglich ist, in der Mitternachtssonne ein schlechtes Foto zu machen. Gestern ist er um vier aufgestanden, um die Berge zu fotografieren – oder ist er vielleicht gar nicht ins Bett gegangen?"
+      },
+      {
+        "no": "Forrige uke ble Inga ferdig med bachelorgraden sin i biologi. Hele familien hennes kom fra Kautokeino til avslutningen, og alle hadde på seg gákti, den samiske kofta. Fargene og mønstrene viser hvor man kommer fra, forklarte Inga. Moren hennes er lærer, og onkelen hennes driver med reindrift – og begge var like stolte.",
+        "de": "Letzte Woche hat Inga ihren Bachelor in Biologie abgeschlossen. Ihre ganze Familie kam aus Kautokeino zur Abschlussfeier, und alle trugen Gákti, die samische Tracht. Die Farben und Muster zeigen, woher man kommt, erklärte Inga. Ihre Mutter ist Lehrerin, und ihr Onkel betreibt Rentierzucht – und beide waren gleich stolz."
+      },
+      {
+        "no": "Etter seremonien joiket faren hennes. «Han joiket ikke om meg – han joiket meg», sa Inga etterpå. Jeg sto der og hørte på, og jeg fikk tårer i øynene.",
+        "de": "Nach der Zeremonie joikte ihr Vater. „Er hat nicht über mich gejoikt – er hat mich gejoikt“, sagte Inga danach. Ich stand da und hörte zu, und mir kamen die Tränen."
+      },
+      {
+        "no": "Når jeg tenker tilbake på året, blir jeg nesten svimmel. I august satt jeg i et klasserom på Blindern og forsto nesten ingenting. Siden da har jeg reist med Bergensbanen og Hurtigruta, gått over Besseggen, feiret jul i mørketida og påske i snøstorm og kranglet med Matthias på Sørlandet. Og på 17. mai sto jeg på Karl Johan og ropte «Hurra!» sammen med tusenvis av nordmenn.",
+        "de": "Wenn ich an das Jahr zurückdenke, wird mir fast schwindelig. Im August saß ich in einem Klassenzimmer in Blindern und verstand fast nichts. Seitdem bin ich mit der Bergensbahn und der Hurtigrute gefahren, über den Besseggen gewandert, habe Weihnachten in der Polarnacht und Ostern im Schneesturm gefeiert und mich mit Matthias an der Südküste gestritten. Und am 17. Mai stand ich auf der Karl Johan und rief zusammen mit Tausenden von Norwegern „Hurra!“."
+      },
+      {
+        "no": "Jeg har lært mye mer enn språket. Jeg har lært å gå på tur i all slags vær, å spise brunost uten å klage og å si «takk for maten». Jeg har lært at nordmenn er stille på bussen, men varme når man først blir kjent med dem. Og jeg har lært at det ikke finnes dårlig vær, bare dårlige klær.",
+        "de": "Ich habe viel mehr gelernt als die Sprache. Ich habe gelernt, bei jedem Wetter wandern zu gehen, Brunost zu essen, ohne mich zu beklagen, und „takk for maten“ zu sagen. Ich habe gelernt, dass Norweger im Bus still sind, aber herzlich, wenn man sie erst einmal kennenlernt. Und ich habe gelernt, dass es kein schlechtes Wetter gibt, nur schlechte Kleidung."
+      },
+      {
+        "no": "Hva kommer jeg til å savne? Familien Nygård, som tok imot meg som en datter. Kveldene på kjøkkenet med Inga.",
+        "de": "Was werde ich vermissen? Familie Nygård, die mich wie eine Tochter aufgenommen hat. Die Abende in der Küche mit Inga."
+      },
+      {
+        "no": "Lyset – både nordlyset i vinter og midnattssola nå. Og lukten av sjø når jeg står opp om morgenen.",
+        "de": "Das Licht – sowohl das Nordlicht im Winter als auch die Mitternachtssonne jetzt. Und den Geruch des Meeres, wenn ich morgens aufstehe."
+      },
+      {
+        "no": "Om ti dager reiser jeg tilbake til Freiburg for å skrive masteroppgaven min – om dialekter i Nord-Norge, selvfølgelig. Matthias har fått fast jobb i firmaet i Bergen, og jeg har lovet å komme tilbake så snart jeg er ferdig. Det blir et år med mange flybilletter og lange videosamtaler. Men vi har bestemt oss: Vi gir ikke opp.",
+        "de": "In zehn Tagen fahre ich zurück nach Freiburg, um meine Masterarbeit zu schreiben – natürlich über Dialekte in Nordnorwegen. Matthias hat eine feste Stelle in der Firma in Bergen bekommen, und ich habe versprochen zurückzukommen, sobald ich fertig bin. Das wird ein Jahr mit vielen Flugtickets und langen Videoanrufen. Aber wir haben uns entschieden: Wir geben nicht auf."
+      },
+      {
+        "no": "Nå skal jeg legge fra meg mobilen og sitte her litt til og se på sola som ikke vil gå ned. Bildene laster jeg opp i morgen. Takk for at dere har fulgt med på bloggen min dette året – og mamma: Hvis du ikke forstår alt, kan du bruke oversettelsesappen.",
+        "de": "Jetzt lege ich das Handy weg, sitze noch ein bisschen hier und schaue der Sonne zu, die nicht untergehen will. Die Fotos lade ich morgen hoch. Danke, dass ihr meinen Blog dieses Jahr verfolgt habt – und Mama: Wenn du nicht alles verstehst, kannst du die Übersetzungs-App benutzen."
+      },
+      {
+        "no": "Ha det bra, Norge. Vi sees snart igjen!",
+        "de": "Mach’s gut, Norwegen. Wir sehen uns bald wieder!"
+      }
+    ],
+    "glossary": [
+      {
+        "no": "Telegrafbukta",
+        "de": "Bucht mit Strand im Süden der Insel Tromsøya"
+      },
+      {
+        "no": "innlegget",
+        "de": "der (Blog-)Beitrag"
+      },
+      {
+        "no": "holder på med å bygge",
+        "de": "sind gerade dabei zu bauen"
+      },
+      {
+        "no": "sandslott",
+        "de": "die Sandburg"
+      },
+      {
+        "no": "ser ut til å være",
+        "de": "scheint zu sein"
+      },
+      {
+        "no": "går ikke ned",
+        "de": "geht nicht unter"
+      },
+      {
+        "no": "mørket",
+        "de": "die Dunkelheit"
+      },
+      {
+        "no": "lånt meg",
+        "de": "mir geliehen (låne = leihen; auch: borgen)"
+      },
+      {
+        "no": "sovemaske",
+        "de": "die Schlafmaske"
+      },
+      {
+        "no": "sankthansaften",
+        "de": "der Mittsommerabend (23. Juni)"
+      },
+      {
+        "no": "ble det tent",
+        "de": "wurde angezündet"
+      },
+      {
+        "no": "flammene",
+        "de": "die Flammen"
+      },
+      {
+        "no": "usynlige",
+        "de": "unsichtbar"
+      },
+      {
+        "no": "kan teksten til",
+        "de": "deren Text ich kann"
+      },
+      {
+        "no": "sang ikke med",
+        "de": "sang nicht mit"
+      },
+      {
+        "no": "tatt med seg",
+        "de": "mitgebracht, mitgenommen"
+      },
+      {
+        "no": "funnet ut",
+        "de": "herausgefunden"
+      },
+      {
+        "no": "nattsola",
+        "de": "die Mitternachtssonne (wörtlich: Nachtsonne)"
+      },
+      {
+        "no": "la han seg aldri",
+        "de": "ging er nie ins Bett"
+      },
+      {
+        "no": "bachelorgraden",
+        "de": "der Bachelorabschluss"
+      },
+      {
+        "no": "avslutningen",
+        "de": "die Abschlussfeier"
+      },
+      {
+        "no": "gákti",
+        "de": "die samische Tracht (nordsamisches Wort)"
+      },
+      {
+        "no": "kofta",
+        "de": "die Kofte, das samische Trachtengewand"
+      },
+      {
+        "no": "mønstrene",
+        "de": "die Muster"
+      },
+      {
+        "no": "driver med reindrift",
+        "de": "betreibt Rentierzucht"
+      },
+      {
+        "no": "joiket",
+        "de": "joikte (joike = einen Joik singen)"
+      },
+      {
+        "no": "fikk tårer i øynene",
+        "de": "bekam Tränen in die Augen"
+      },
+      {
+        "no": "tenker tilbake på",
+        "de": "denke zurück an"
+      },
+      {
+        "no": "svimmel",
+        "de": "schwindelig"
+      },
+      {
+        "no": "mørketida",
+        "de": "die Polarnacht, die dunkle Zeit"
+      },
+      {
+        "no": "tusenvis av",
+        "de": "Tausende von"
+      },
+      {
+        "no": "i all slags vær",
+        "de": "bei jedem Wetter"
+      },
+      {
+        "no": "når man først blir kjent med dem",
+        "de": "wenn man sie erst einmal kennenlernt"
+      },
+      {
+        "no": "tok imot meg",
+        "de": "hat mich aufgenommen, empfangen"
+      },
+      {
+        "no": "masteroppgaven",
+        "de": "die Masterarbeit"
+      },
+      {
+        "no": "fast jobb",
+        "de": "eine feste Stelle"
+      },
+      {
+        "no": "videosamtaler",
+        "de": "die Videoanrufe"
+      },
+      {
+        "no": "gir ikke opp",
+        "de": "geben nicht auf"
+      },
+      {
+        "no": "legge fra meg",
+        "de": "weglegen, aus der Hand legen"
+      },
+      {
+        "no": "fulgt med på",
+        "de": "verfolgt"
+      }
+    ]
+  },
+  "extra": [
+    {
+      "id": "x23a",
+      "title": "Samene i Norge",
+      "titleDe": "Die Samen in Norwegen",
+      "kind": "info",
+      "intro": "Inga ist Samin. Wer sind die Samen, welche Sprachen sprechen sie, und was ist in ihrer Geschichte passiert?",
+      "lines": [
+        {
+          "no": "Samene er et urfolk som har bodd i nord lenge før dagens landegrenser ble trukket. Det samiske området, Sápmi, strekker seg over fire land: Norge, Sverige, Finland og Russland. Ingen vet nøyaktig hvor mange samer det er, fordi det ikke finnes noen offisiell registrering av etnisitet, men de fleste bor i Norge.",
+          "de": "Die Samen sind ein indigenes Volk, das im Norden gelebt hat, lange bevor die heutigen Landesgrenzen gezogen wurden. Das samische Gebiet, Sápmi, erstreckt sich über vier Länder: Norwegen, Schweden, Finnland und Russland. Niemand weiß genau, wie viele Samen es gibt, weil es keine offizielle Erfassung der Ethnizität gibt, aber die meisten leben in Norwegen."
+        },
+        {
+          "no": "Det finnes flere samiske språk. I Norge snakkes nordsamisk av flest, men også lulesamisk og sørsamisk har egne skriftspråk. De samiske språkene er i slekt med finsk, ikke med norsk. Samisk og norsk er likeverdige språk, og i flere kommuner, for eksempel Kautokeino og Karasjok, har innbyggerne rett til å bruke samisk i kontakt med det offentlige.",
+          "de": "Es gibt mehrere samische Sprachen. In Norwegen wird Nordsamisch von den meisten gesprochen, aber auch Lulesamisch und Südsamisch haben eigene Schriftsprachen. Die samischen Sprachen sind mit dem Finnischen verwandt, nicht mit dem Norwegischen. Samisch und Norwegisch sind gleichwertige Sprachen, und in mehreren Gemeinden, zum Beispiel Kautokeino und Karasjok, haben die Einwohner das Recht, im Kontakt mit den Behörden Samisch zu benutzen."
+        },
+        {
+          "no": "Sametinget, på nordsamisk Sámediggi, ligger i Karasjok og ble åpnet i 1989. Det er samenes eget folkevalgte organ og arbeider blant annet med språk, kultur og utdanning. Samer som står i Sametingets valgmanntall, kan stemme ved valget hvert fjerde år.",
+          "de": "Das Samenparlament, auf Nordsamisch Sámediggi, liegt in Karasjok und wurde 1989 eröffnet. Es ist das eigene, vom Volk gewählte Organ der Samen und arbeitet unter anderem an Sprache, Kultur und Bildung. Samen, die im Wählerverzeichnis des Samenparlaments stehen, können alle vier Jahre bei der Wahl abstimmen."
+        },
+        {
+          "no": "I over hundre år førte den norske staten en hard fornorskingspolitikk. Mange samiske barn ble sendt på internatskoler der de ikke fikk lov til å snakke morsmålet sitt, og mange voksne skjulte bakgrunnen sin. Derfor har mange familier mistet språket. I 1997 beklaget kong Harald på vegne av staten den uretten som samene hadde opplevd.",
+          "de": "Über hundert Jahre lang betrieb der norwegische Staat eine harte Norwegisierungspolitik. Viele samische Kinder wurden in Internate geschickt, wo sie ihre Muttersprache nicht sprechen durften, und viele Erwachsene verbargen ihre Herkunft. Deshalb haben viele Familien die Sprache verloren. 1997 bedauerte König Harald im Namen des Staates das Unrecht, das die Samen erlebt hatten."
+        },
+        {
+          "no": "Gákti, den samiske kofta, brukes til fest, for eksempel i bryllup og på samefolkets dag 6. februar, men noen bruker den også i hverdagen. Farger, mønstre og knapper forteller hvor man kommer fra. Joik er en av de eldste musikktradisjonene i Europa. Man joiker ikke om et menneske, et dyr eller et sted – man joiker det.",
+          "de": "Die Gákti, die samische Kofte, wird zu Festen getragen, zum Beispiel bei Hochzeiten und am Tag des samischen Volkes am 6. Februar, aber manche tragen sie auch im Alltag. Farben, Muster und Knöpfe erzählen, woher man kommt. Der Joik ist eine der ältesten Musiktraditionen Europas. Man joikt nicht über einen Menschen, ein Tier oder einen Ort – man joikt sie selbst."
+        },
+        {
+          "no": "Reindrift er viktig for samisk kultur og språk, men bare en liten del av samene lever av rein. Mange samer er fiskere, bønder, lærere, leger eller kunstnere, og mange bor i byer som Tromsø og Oslo. Å være same i dag kan bety mange forskjellige ting.",
+          "de": "Die Rentierzucht ist wichtig für die samische Kultur und Sprache, aber nur ein kleiner Teil der Samen lebt von Rentieren. Viele Samen sind Fischer, Bauern, Lehrer, Ärzte oder Künstler, und viele leben in Städten wie Tromsø und Oslo. Same zu sein kann heute viele verschiedene Dinge bedeuten."
+        }
+      ],
+      "glossary": [
+        {
+          "no": "urfolk",
+          "de": "das indigene Volk, Urvolk"
+        },
+        {
+          "no": "landegrenser",
+          "de": "die Landesgrenzen"
+        },
+        {
+          "no": "ble trukket",
+          "de": "gezogen wurden"
+        },
+        {
+          "no": "strekker seg over",
+          "de": "erstreckt sich über"
+        },
+        {
+          "no": "nøyaktig",
+          "de": "genau"
+        },
+        {
+          "no": "offisiell registrering av etnisitet",
+          "de": "offizielle Erfassung der Ethnizität"
+        },
+        {
+          "no": "nordsamisk",
+          "de": "Nordsamisch"
+        },
+        {
+          "no": "skriftspråk",
+          "de": "die Schriftsprache"
+        },
+        {
+          "no": "i slekt med",
+          "de": "verwandt mit"
+        },
+        {
+          "no": "likeverdige",
+          "de": "gleichwertig"
+        },
+        {
+          "no": "innbyggerne",
+          "de": "die Einwohner"
+        },
+        {
+          "no": "det offentlige",
+          "de": "die Behörden, der Staat"
+        },
+        {
+          "no": "Sametinget",
+          "de": "das Samenparlament"
+        },
+        {
+          "no": "folkevalgte organ",
+          "de": "vom Volk gewähltes Organ"
+        },
+        {
+          "no": "utdanning",
+          "de": "die Bildung, Ausbildung"
+        },
+        {
+          "no": "valgmanntall",
+          "de": "das Wählerverzeichnis"
+        },
+        {
+          "no": "førte",
+          "de": "führte, betrieb"
+        },
+        {
+          "no": "fornorskingspolitikk",
+          "de": "die Norwegisierungspolitik"
+        },
+        {
+          "no": "internatskoler",
+          "de": "die Internate"
+        },
+        {
+          "no": "fikk lov til",
+          "de": "durften"
+        },
+        {
+          "no": "morsmålet",
+          "de": "die Muttersprache"
+        },
+        {
+          "no": "skjulte bakgrunnen sin",
+          "de": "verbargen ihre Herkunft"
+        },
+        {
+          "no": "mistet",
+          "de": "verloren"
+        },
+        {
+          "no": "beklaget",
+          "de": "bedauerte, entschuldigte sich für"
+        },
+        {
+          "no": "på vegne av",
+          "de": "im Namen von"
+        },
+        {
+          "no": "uretten",
+          "de": "das Unrecht"
+        },
+        {
+          "no": "samefolkets dag",
+          "de": "der Tag des samischen Volkes (6. Februar)"
+        },
+        {
+          "no": "knapper",
+          "de": "die Knöpfe"
+        },
+        {
+          "no": "musikktradisjonene",
+          "de": "die Musiktraditionen"
+        },
+        {
+          "no": "lever av rein",
+          "de": "lebt von Rentieren"
+        }
+      ]
+    }
+  ],
+  "wk": {
+    "title": "Noen datauttrykk",
+    "titleDe": "Einige Computerwörter",
+    "phrases": [
+      {
+        "no": "en datamaskin / en PC",
+        "de": "ein Computer",
+        "note": "PC spricht man [pe-se]; bestimmt: PC-en."
+      },
+      {
+        "no": "en bærbar PC",
+        "de": "ein Laptop",
+        "note": "Oft nur: en bærbar."
+      },
+      {
+        "no": "et nettbrett",
+        "de": "ein Tablet"
+      },
+      {
+        "no": "et tastatur og en skjerm",
+        "de": "eine Tastatur und ein Bildschirm"
+      },
+      {
+        "no": "å logge inn / å logge ut",
+        "de": "sich einloggen / sich ausloggen",
+        "note": "Auch: logge på / logge av."
+      },
+      {
+        "no": "Jeg har glemt passordet mitt.",
+        "de": "Ich habe mein Passwort vergessen."
+      },
+      {
+        "no": "et brukernavn",
+        "de": "ein Benutzername"
+      },
+      {
+        "no": "å laste ned en app",
+        "de": "eine App herunterladen"
+      },
+      {
+        "no": "å laste opp bilder",
+        "de": "Fotos hochladen"
+      },
+      {
+        "no": "å legge ut et innlegg",
+        "de": "einen Beitrag veröffentlichen (posten)"
+      },
+      {
+        "no": "å dele en lenke",
+        "de": "einen Link teilen"
+      },
+      {
+        "no": "Klikk på lenken!",
+        "de": "Klick auf den Link!"
+      },
+      {
+        "no": "å lagre et dokument",
+        "de": "ein Dokument speichern"
+      },
+      {
+        "no": "å slette en fil",
+        "de": "eine Datei löschen"
+      },
+      {
+        "no": "å sende en e-post med vedlegg",
+        "de": "eine E-Mail mit Anhang schicken"
+      },
+      {
+        "no": "å søke på nettet",
+        "de": "im Internet suchen"
+      },
+      {
+        "no": "PC-en har hengt seg opp.",
+        "de": "Der Computer hat sich aufgehängt."
+      },
+      {
+        "no": "Skjermen frøs.",
+        "de": "Der Bildschirm ist eingefroren."
+      },
+      {
+        "no": "Batteriet er nesten tomt – jeg må lade telefonen.",
+        "de": "Der Akku ist fast leer – ich muss das Handy laden."
+      },
+      {
+        "no": "Har dere trådløst nett her? Hva er passordet?",
+        "de": "Habt ihr hier WLAN? Wie ist das Passwort?",
+        "note": "Man sagt auch einfach wifi [vai-fai]."
+      },
+      {
+        "no": "å oppdatere appen",
+        "de": "die App aktualisieren"
+      },
+      {
+        "no": "å skrive en kommentar",
+        "de": "einen Kommentar schreiben"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g23_ligge_staa_sitte",
+      "title": "ligge, stå, sitte + og + Verb",
+      "titleNo": "sitter og leser – står og venter",
+      "summary": "Für eine Handlung, die gerade andauert, nimmt Norwegisch oft ein Positionsverb + og + Verb: Hun sitter og leser = Sie liest (gerade).",
+      "sections": [
+        {
+          "h": "Positionsverb + og + Verb",
+          "body": "Das Deutsche hat keine eigene Verlaufsform; man sagt „Sie liest gerade“. Norwegisch sagt oft, **in welcher Haltung** jemand etwas tut, und verbindet zwei Verben mit **og**:\n\n• **Hun sitter og leser.** – Sie sitzt da und liest. / Sie liest gerade.\n• **Vi sto og ventet på bussen.** – Wir standen da und warteten auf den Bus.\n• **Han ligger og sover.** – Er schläft (gerade).\n\nWichtig: **Beide Verben stehen in derselben Zeitform.** Ein typischer Fehler ist *Hun satt og lese – richtig ist **Hun satt og leste**.",
+          "table": [
+            [
+              "Zeit",
+              "sitte",
+              "stå",
+              "ligge"
+            ],
+            [
+              "Präsens",
+              "**sitter og leser**",
+              "**står og venter**",
+              "**ligger og sover**"
+            ],
+            [
+              "Präteritum",
+              "**satt og leste**",
+              "**sto og ventet**",
+              "**lå og sov**"
+            ],
+            [
+              "Perfekt",
+              "**har sittet og lest**",
+              "**har stått og ventet**",
+              "**har ligget og sovet**"
+            ]
+          ]
+        },
+        {
+          "h": "Welches Verb passt?",
+          "body": "Das Positionsverb beschreibt die echte Körperhaltung: **Hun sitter og skriver** (am Schreibtisch), **Han står og lager mat** (am Herd), **Jeg lå og tenkte på deg** (im Bett). Bei Bewegung nimmt man **gå**: **Han går og tenker på henne** (er denkt ständig an sie).\n\n• Satzadverbien stehen im Hauptsatz nach dem ersten Verb: **Hun sitter ikke og leser – hun sover.**\n• Im Nebensatz stehen sie vor dem ersten Verb: **…fordi han alltid sitter og ser på mobilen.**"
+        },
+        {
+          "h": "holde på med å",
+          "body": "**holde på med å** + Infinitiv = gerade dabei sein: **Jeg holder på med å pakke.** (Ich bin gerade beim Packen.) Mit Substantiv: **Hva holder du på med?** – **Jeg holder på med masteroppgaven.**\n\nAchtung: **holde på å** ohne **med** heißt oft „beinahe“, vor allem in der Vergangenheit: **Jeg holdt på å falle.** (Ich wäre fast gefallen.)"
+        }
+      ],
+      "drills": [
+        {
+          "prompt": "Inga sitter og ___ til eksamen. (lese, Präsens)",
+          "de": "Inga sitzt da und lernt für die Prüfung.",
+          "answer": [
+            "leser"
+          ],
+          "explain": "Beide Verben im Präsens: sitter og leser."
+        },
+        {
+          "prompt": "I går sto vi og ___ på bussen i en halv time. (vente)",
+          "de": "Gestern standen wir eine halbe Stunde da und warteten auf den Bus.",
+          "answer": [
+            "ventet",
+            "venta"
+          ],
+          "explain": "sto ist Präteritum, also auch ventet (oder venta)."
+        },
+        {
+          "prompt": "Matthias ___ og sov da jeg kom hjem. (ligge, Präteritum)",
+          "de": "Matthias lag da und schlief, als ich nach Hause kam.",
+          "answer": [
+            "lå"
+          ],
+          "explain": "ligge – lå – ligget; dazu passt sov im Präteritum."
+        },
+        {
+          "prompt": "Vi ___ og så på midnattssola til klokka to. (sitte, Präteritum)",
+          "de": "Wir saßen da und schauten bis zwei Uhr die Mitternachtssonne an.",
+          "answer": [
+            "satt"
+          ],
+          "explain": "sitte – satt – sittet; satt og så (beide Präteritum)."
+        },
+        {
+          "prompt": "Susanne har ___ og skrevet på bloggen hele kvelden. (sitte, Perfekt)",
+          "de": "Susanne hat den ganzen Abend an ihrem Blog geschrieben.",
+          "answer": [
+            "sittet"
+          ],
+          "explain": "Perfekt: har sittet og skrevet – beide Verben als Partizip."
+        },
+        {
+          "prompt": "Han lå på sofaen og ___ på musikk. (høre)",
+          "de": "Er lag auf dem Sofa und hörte Musik.",
+          "answer": [
+            "hørte"
+          ],
+          "explain": "lå ist Präteritum, also auch hørte."
+        },
+        {
+          "prompt": "Barna står rundt bålet og ___. (synge)",
+          "de": "Die Kinder stehen ums Feuer und singen.",
+          "answer": [
+            "synger"
+          ],
+          "explain": "står (Präsens) og synger (Präsens)."
+        },
+        {
+          "prompt": "Når jeg kommer hjem, ___ Inga alltid og leser i stua. (sitte)",
+          "de": "Wenn ich nach Hause komme, sitzt Inga immer im Wohnzimmer und liest.",
+          "answer": [
+            "sitter"
+          ],
+          "explain": "Nach dem Nebensatz Inversion: Verb vor dem Subjekt; Präsens wie leser."
+        },
+        {
+          "prompt": "Jeg holder på ___ å pakke kofferten. (Präposition)",
+          "de": "Ich bin gerade dabei, den Koffer zu packen.",
+          "answer": [
+            "med"
+          ],
+          "explain": "holde på med å + Infinitiv = gerade dabei sein."
+        },
+        {
+          "prompt": "Hva holder du på ___ for tiden? (Präposition)",
+          "de": "Womit bist du zurzeit beschäftigt?",
+          "answer": [
+            "med"
+          ],
+          "explain": "Hva holder du på med? – die Präposition steht am Ende der Frage."
+        },
+        {
+          "prompt": "Jeg ___ på å glemme passordet! (holde, Präteritum)",
+          "de": "Ich hätte fast das Passwort vergessen!",
+          "answer": [
+            "holdt"
+          ],
+          "explain": "holdt på å (ohne med) = beinahe."
+        },
+        {
+          "prompt": "Hun satt og ___ på mobilen da Matthias ringte. (se)",
+          "de": "Sie saß da und schaute aufs Handy, als Matthias anrief.",
+          "answer": [
+            "så"
+          ],
+          "explain": "satt (Präteritum) og så (Präteritum von se)."
+        }
+      ]
+    },
+    {
+      "id": "g23_sammensatte_verb",
+      "title": "Zusammengesetzte Verben",
+      "titleNo": "sammensatte verb",
+      "summary": "Partikelverben (stå opp, ta med) sind trennbar wie im Deutschen, aber die Partikel steht direkt hinter dem Verb, nie am Satzende; daneben gibt es feste Zusammensetzungen (oppgi, nedlagt).",
+      "sections": [
+        {
+          "h": "Partikelverben: stå opp, ta med, finne ut",
+          "body": "Wie im Deutschen (aufstehen, mitnehmen) gibt es Verben mit einer Partikel. Die Partikel ist **betont**: **stå opp**, **ta med**, **gi opp**, **finne ut**, **legge ut**, **sette opp**.\n\nDer große Unterschied: Die Partikel wandert **nicht ans Satzende**. Sie steht direkt nach dem Verb, auch im Nebensatz:\n\n• **Jeg står opp klokka sju.** – Ich stehe um sieben auf.\n• **Hun tar med kameraet.** – Sie nimmt die Kamera mit.\n• **…fordi han sto opp så tidlig.** – …weil er so früh aufstand.\n• **Vi har funnet ut at …** – Wir haben herausgefunden, dass …\n\nSatzadverbien wie **ikke** stehen vor der Partikel: **Vi gir ikke opp.** Ein unbetontes Objektpronomen steht zwischen Verb und Partikel: **Ta det med!** Ein Substantiv steht dahinter: **Ta med kameraet!**"
+        },
+        {
+          "h": "Feste Zusammensetzungen",
+          "body": "Daneben gibt es **feste Zusammensetzungen**: Die Partikel steht **vorne** und bildet mit dem Verb ein Wort. Sie sind oft formeller oder haben eine andere Bedeutung:\n\n• **legge ned** (hinlegen; auch: schließen) – **nedlegge** (stilllegen, formell)\n• **gi opp** (aufgeben) – **oppgi** (angeben: **Oppgi passordet ditt.**; formell auch: **oppgi håpet**, die Hoffnung aufgeben)\n• **finne opp** (erfinden) – **oppfinne** (erfinden, formell) → **en oppfinnelse** (Erfindung)\n• **ta opp** (aufheben, aufnehmen, ansprechen) – **oppta** (in Anspruch nehmen) → **opptatt** (beschäftigt, besetzt)\n\nLerne die beiden Formen als eigene Vokabeln – die Bedeutung ist nicht immer dieselbe."
+        },
+        {
+          "h": "Als Adjektiv und Substantiv",
+          "body": "Wird aus einem Partikelverb ein **Partizip als Adjektiv** oder ein **Substantiv**, nimmt man meist die feste Form mit der Partikel vorne:\n\n• **Butikken er nedlagt.** (Das Geschäft ist geschlossen worden.) – **en nedlagt fabrikk**\n• **Alt gikk etter oppsatt plan.** (Alles lief nach Plan.)\n• **Toalettet er opptatt.** (Die Toilette ist besetzt.)\n• **laste ned → en nedlasting**, **melde seg på → en påmelding**\n\nMit **bli** und im Perfekt bleibt dagegen meist das Partikelverb: **Butikken ble lagt ned i fjor.** **Hun har lagt ut et nytt innlegg.**",
+          "table": [
+            [
+              "Partikelverb",
+              "Partizip / Adjektiv",
+              "Substantiv"
+            ],
+            [
+              "**legge ned**",
+              "**nedlagt**",
+              "**en nedleggelse**"
+            ],
+            [
+              "**laste ned**",
+              "**nedlastet**",
+              "**en nedlasting**"
+            ],
+            [
+              "**ta opp**",
+              "**opptatt**",
+              "**et opptak**"
+            ],
+            [
+              "**melde seg på**",
+              "**påmeldt**",
+              "**en påmelding**"
+            ],
+            [
+              "**finne opp**",
+              "**oppfunnet**",
+              "**en oppfinnelse**"
+            ]
+          ]
+        }
+      ],
+      "drills": [
+        {
+          "prompt": "Matthias sto ___ klokka fire for å fotografere fjellene. (aufstehen)",
+          "de": "Matthias stand um vier Uhr auf, um die Berge zu fotografieren.",
+          "answer": [
+            "opp"
+          ],
+          "explain": "stå opp: Die Partikel steht direkt nach dem Verb."
+        },
+        {
+          "prompt": "Husk å ta ___ solkrem på turen! (mitnehmen)",
+          "de": "Denk daran, Sonnencreme auf die Tour mitzunehmen!",
+          "answer": [
+            "med"
+          ],
+          "explain": "ta med + Substantiv: ta med solkrem."
+        },
+        {
+          "prompt": "Vi har funnet ___ at det ikke er wifi på stranda. (herausfinden)",
+          "de": "Wir haben herausgefunden, dass es am Strand kein WLAN gibt.",
+          "answer": [
+            "ut"
+          ],
+          "explain": "finne ut = herausfinden; im Perfekt: har funnet ut."
+        },
+        {
+          "prompt": "Ikke gi ___ – du klarer det! (aufgeben)",
+          "de": "Gib nicht auf – du schaffst das!",
+          "answer": [
+            "opp"
+          ],
+          "explain": "gi opp = aufgeben (Partikelverb)."
+        },
+        {
+          "prompt": "Susanne har ___ et nytt innlegg på bloggen. (legge ut, Perfekt)",
+          "de": "Susanne hat einen neuen Beitrag auf dem Blog veröffentlicht.",
+          "answer": [
+            "lagt ut"
+          ],
+          "explain": "legge – la – lagt; die Partikel ut folgt direkt: har lagt ut."
+        },
+        {
+          "prompt": "Jeg skal ___ bildene i morgen. (hochladen)",
+          "de": "Ich lade die Fotos morgen hoch.",
+          "answer": [
+            "laste opp"
+          ],
+          "explain": "laste opp = hochladen; nach skal der Infinitiv mit Partikel."
+        },
+        {
+          "prompt": "Vennligst ___ brukernavn og passord. (angeben)",
+          "de": "Bitte gib Benutzername und Passwort an.",
+          "answer": [
+            "oppgi"
+          ],
+          "explain": "oppgi (feste Zusammensetzung) = angeben; gi opp hieße „aufgeben“."
+        },
+        {
+          "prompt": "Vet du hvem som ___ telefonen? (erfinden, Präteritum)",
+          "de": "Weißt du, wer das Telefon erfunden hat?",
+          "answer": [
+            "fant opp",
+            "oppfant"
+          ],
+          "explain": "finne opp oder (formeller) oppfinne – beides heißt erfinden."
+        },
+        {
+          "prompt": "Den gamle fabrikken er ___. (stilllegen: legge ned, Partizip)",
+          "de": "Die alte Fabrik ist stillgelegt.",
+          "answer": [
+            "nedlagt"
+          ],
+          "explain": "Als Adjektiv nimmt man die feste Form: nedlagt."
+        },
+        {
+          "prompt": "Jeg kan ikke snakke nå, jeg er ___. (beschäftigt)",
+          "de": "Ich kann jetzt nicht reden, ich bin beschäftigt.",
+          "answer": [
+            "opptatt"
+          ],
+          "explain": "opptatt (von oppta) = beschäftigt, besetzt."
+        },
+        {
+          "prompt": "Alt gikk etter ___ plan. (sette opp, Partizip)",
+          "de": "Alles lief nach Plan.",
+          "answer": [
+            "oppsatt"
+          ],
+          "explain": "Feste Form als Adjektiv: sette opp → oppsatt."
+        },
+        {
+          "prompt": "Har du kameraet? – Ja, jeg har tatt ___ med. (es: kameraet)",
+          "de": "Hast du die Kamera? – Ja, ich habe sie mitgenommen.",
+          "answer": [
+            "det"
+          ],
+          "explain": "et kamera → det; das unbetonte Pronomen steht vor der Partikel: tatt det med."
+        }
+      ]
+    }
+  ],
+  "tf": [
+    {
+      "s": "Susanne skriver innlegget på mobilen.",
+      "de": "Susanne schreibt den Beitrag auf dem Handy.",
+      "a": true,
+      "why": "„… jeg sitter på en stein i Telegrafbukta og skriver dette innlegget på mobilen.“"
+    },
+    {
+      "s": "I juni går sola ned rundt midnatt.",
+      "de": "Im Juni geht die Sonne um Mitternacht unter.",
+      "a": false,
+      "why": "Seit Ende Mai geht die Sonne in Tromsø gar nicht unter – erst Ende Juli wieder."
+    },
+    {
+      "s": "Inga har lånt Susanne en sovemaske.",
+      "de": "Inga hat Susanne eine Schlafmaske geliehen.",
+      "a": true,
+      "why": "„Heldigvis har Inga lånt meg en sovemaske.“"
+    },
+    {
+      "s": "Matthias sang med ved bålet.",
+      "de": "Matthias sang am Feuer mit.",
+      "a": false,
+      "why": "Matthias sang nicht mit, aber er stand da und lächelte die ganze Zeit."
+    },
+    {
+      "s": "Familien til Inga kom fra Karasjok.",
+      "de": "Ingas Familie kam aus Karasjok.",
+      "a": false,
+      "why": "Die Familie kam aus Kautokeino."
+    },
+    {
+      "s": "Onkelen til Inga driver med reindrift.",
+      "de": "Ingas Onkel betreibt Rentierzucht.",
+      "a": true,
+      "why": "„… onkelen hennes driver med reindrift …“; ihre Mutter ist Lehrerin."
+    },
+    {
+      "s": "Susanne blir i Tromsø et år til.",
+      "de": "Susanne bleibt noch ein Jahr in Tromsø.",
+      "a": false,
+      "why": "In zehn Tagen fährt sie zurück nach Freiburg, um ihre Masterarbeit zu schreiben."
+    },
+    {
+      "s": "Matthias har fått fast jobb i Bergen.",
+      "de": "Matthias hat eine feste Stelle in Bergen bekommen.",
+      "a": true,
+      "why": "„Matthias har fått fast jobb i firmaet i Bergen …“"
+    }
+  ],
+  "questions": [
+    {
+      "q": "Hvor sitter Susanne når hun skriver innlegget?",
+      "qDe": "Wo sitzt Susanne, während sie den Beitrag schreibt?",
+      "answer": "Hun sitter på en stein i Telegrafbukta.",
+      "answerDe": "Sie sitzt auf einem Stein in der Telegrafbukta.",
+      "keywords": [
+        [
+          "stein"
+        ],
+        [
+          "Telegrafbukta",
+          "stranda",
+          "stranden"
+        ]
+      ]
+    },
+    {
+      "q": "Hvorfor trenger Susanne en sovemaske?",
+      "qDe": "Warum braucht Susanne eine Schlafmaske?",
+      "answer": "Fordi sola ikke går ned, og det er lyst hele natta.",
+      "answerDe": "Weil die Sonne nicht untergeht und es die ganze Nacht hell ist.",
+      "keywords": [
+        [
+          "sola",
+          "sol",
+          "solen"
+        ],
+        [
+          "ikke ned",
+          "lyst"
+        ]
+      ]
+    },
+    {
+      "q": "Hva hadde familien til Inga på seg på avslutningen?",
+      "qDe": "Was trug Ingas Familie bei der Abschlussfeier?",
+      "answer": "De hadde på seg gákti, den samiske kofta.",
+      "answerDe": "Sie trugen Gákti, die samische Tracht.",
+      "keywords": [
+        [
+          "gákti",
+          "kofte",
+          "kofta",
+          "samisk"
+        ]
+      ]
+    },
+    {
+      "q": "Hva gjorde faren til Inga etter seremonien?",
+      "qDe": "Was machte Ingas Vater nach der Zeremonie?",
+      "answer": "Han joiket Inga.",
+      "answerDe": "Er joikte Inga.",
+      "keywords": [
+        [
+          "joiket",
+          "joike",
+          "joik"
+        ]
+      ]
+    },
+    {
+      "q": "Hva har Susanne lært i løpet av året?",
+      "qDe": "Was hat Susanne im Laufe des Jahres gelernt?",
+      "answer": "Hun har lært å gå på tur i all slags vær og å spise brunost uten å klage.",
+      "answerDe": "Sie hat gelernt, bei jedem Wetter wandern zu gehen und Brunost zu essen, ohne sich zu beklagen.",
+      "keywords": [
+        [
+          "tur",
+          "vær"
+        ],
+        [
+          "brunost",
+          "takk for maten",
+          "dårlige klær"
+        ]
+      ]
+    },
+    {
+      "q": "Hva skal Susanne gjøre i Freiburg?",
+      "qDe": "Was wird Susanne in Freiburg machen?",
+      "answer": "Hun skal skrive masteroppgaven sin om dialekter i Nord-Norge.",
+      "answerDe": "Sie wird ihre Masterarbeit über Dialekte in Nordnorwegen schreiben.",
+      "keywords": [
+        [
+          "masteroppgave",
+          "masteroppgaven"
+        ],
+        [
+          "dialekter",
+          "dialekt"
+        ]
+      ]
+    }
+  ],
+  "find": [
+    {
+      "de": "die Sandburg",
+      "answer": [
+        "sandslott"
+      ]
+    },
+    {
+      "de": "die Schlafmaske",
+      "answer": [
+        "sovemaske"
+      ]
+    },
+    {
+      "de": "fast unsichtbar",
+      "answer": [
+        "nesten usynlige"
+      ]
+    },
+    {
+      "de": "herausgefunden",
+      "answer": [
+        "funnet ut"
+      ]
+    },
+    {
+      "de": "die samische Tracht (Kofte)",
+      "answer": [
+        "den samiske kofta",
+        "kofta"
+      ]
+    },
+    {
+      "de": "ich bekam Tränen in die Augen",
+      "answer": [
+        "jeg fikk tårer i øynene"
+      ]
+    },
+    {
+      "de": "die Masterarbeit",
+      "answer": [
+        "masteroppgaven"
+      ]
+    },
+    {
+      "de": "wir geben nicht auf",
+      "answer": [
+        "vi gir ikke opp"
+      ]
+    }
+  ],
+  "translate": [
+    {
+      "de": "Ich sitze am Strand und schaue aufs Meer.",
+      "no": [
+        "Jeg sitter på stranda og ser på havet.",
+        "Jeg sitter på stranden og ser på havet.",
+        "Jeg sitter på stranda og ser utover havet."
+      ]
+    },
+    {
+      "de": "Wir standen eine halbe Stunde da und warteten auf den Bus.",
+      "no": [
+        "Vi sto og ventet på bussen i en halv time.",
+        "Vi sto og venta på bussen i en halv time.",
+        "Vi stod og ventet på bussen i en halv time."
+      ],
+      "hint": "stå + og + Verb, beide im Präteritum."
+    },
+    {
+      "de": "Im Juni geht die Sonne nicht unter.",
+      "no": [
+        "I juni går ikke sola ned.",
+        "I juni går sola ikke ned.",
+        "Sola går ikke ned i juni.",
+        "Solen går ikke ned i juni."
+      ]
+    },
+    {
+      "de": "Gestern ist Matthias um vier Uhr aufgestanden.",
+      "no": [
+        "I går sto Matthias opp klokka fire.",
+        "I går sto Matthias opp klokken fire.",
+        "Matthias sto opp klokka fire i går."
+      ],
+      "hint": "Abgeschlossene Zeit (i går) → Präteritum."
+    },
+    {
+      "de": "Vergiss nicht, die Kamera mitzunehmen!",
+      "no": [
+        "Ikke glem å ta med kameraet!",
+        "Glem ikke å ta med kameraet!",
+        "Husk å ta med kameraet!"
+      ]
+    },
+    {
+      "de": "Ich bin gerade dabei, die Koffer zu packen.",
+      "no": [
+        "Jeg holder på med å pakke koffertene.",
+        "Jeg holder på å pakke koffertene."
+      ]
+    },
+    {
+      "de": "Sie hat einen neuen Beitrag auf ihrem Blog veröffentlicht.",
+      "no": [
+        "Hun har lagt ut et nytt innlegg på bloggen sin.",
+        "Hun har lagt ut et nytt innlegg på bloggen."
+      ]
+    },
+    {
+      "de": "Was werde ich vermissen?",
+      "no": [
+        "Hva kommer jeg til å savne?",
+        "Hva vil jeg savne?"
+      ]
+    },
+    {
+      "de": "Die alte Fabrik ist stillgelegt.",
+      "no": [
+        "Den gamle fabrikken er nedlagt."
+      ]
+    },
+    {
+      "de": "Ich habe mein Passwort vergessen.",
+      "no": [
+        "Jeg har glemt passordet mitt."
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "prompt": "Susanne sitter på en stein og ___ på havet.",
+      "de": "Susanne sitzt auf einem Stein und schaut aufs Meer.",
+      "answer": [
+        "ser"
+      ]
+    },
+    {
+      "prompt": "Sola har ikke gått ___ siden slutten av mai.",
+      "de": "Die Sonne ist seit Ende Mai nicht untergegangen.",
+      "answer": [
+        "ned"
+      ]
+    },
+    {
+      "prompt": "På sankthansaften ble det tent et stort ___ på stranda.",
+      "de": "Am Mittsommerabend wurde am Strand ein großes Feuer angezündet.",
+      "answer": [
+        "bål"
+      ]
+    },
+    {
+      "prompt": "Inga ble ferdig med ___ sin i biologi.",
+      "de": "Inga hat ihren Bachelor in Biologie abgeschlossen.",
+      "answer": [
+        "bachelorgraden"
+      ]
+    },
+    {
+      "prompt": "Matthias har fått fast ___ i Bergen.",
+      "de": "Matthias hat eine feste Stelle in Bergen bekommen.",
+      "answer": [
+        "jobb"
+      ]
+    },
+    {
+      "prompt": "Om ti dager reiser Susanne tilbake til ___.",
+      "de": "In zehn Tagen fährt Susanne zurück nach Freiburg.",
+      "answer": [
+        "Freiburg"
+      ]
+    }
+  ],
+  "dictation": [
+    5,
+    8,
+    9,
+    12
+  ],
+  "writing": {
+    "prompt": "Schreib einen Blogbeitrag: Wo sitzt du gerade, und was passiert um dich herum? Schau dann zurück: Was hast du in letzter Zeit erlebt und gelernt, und was wirst du vermissen? Verwende mindestens zweimal sitte/stå/ligge og … und ein paar Computerwörter.",
+    "minWords": 140,
+    "useWords": [
+      "sitter og",
+      "innlegg",
+      "savne",
+      "funnet ut",
+      "laste opp"
+    ],
+    "checklist": [
+      {
+        "de": "Wo du bist und was gerade passiert (sitte/stå/ligge og …)",
+        "keywords": [
+          "sitter og",
+          "står og",
+          "ligger og"
+        ]
+      },
+      {
+        "de": "Ein Rückblick: was du gelernt hast",
+        "keywords": [
+          "lært",
+          "lærte"
+        ]
+      },
+      {
+        "de": "Was du vermissen wirst",
+        "keywords": [
+          "savne",
+          "savner"
+        ]
+      },
+      {
+        "de": "Ein Computerwort",
+        "keywords": [
+          "innlegg",
+          "laste opp",
+          "blogg",
+          "lenke"
+        ]
+      }
+    ],
+    "model": "Hei, alle sammen!\nAkkurat nå sitter jeg på balkongen og ser på fjorden. Klokka er elleve om kvelden, men det er fortsatt lyst. Naboen står og griller, og katten ligger og sover i sola.\nDette er det siste innlegget mitt fra Norge. Om en uke flytter jeg hjem igjen, og jeg holder allerede på med å pakke. Når jeg ser tilbake, har jeg lært utrolig mye. Jeg har lært å snakke norsk uten å være redd for å gjøre feil, og jeg har funnet ut at nordmenn er mye hyggeligere enn jeg trodde.\nHva kommer jeg til å savne? Turene i fjellet, de lange, lyse kveldene og vennene mine. Men jeg kommer ikke til å savne prisene på øl!\nI morgen skal jeg laste opp noen bilder fra den siste turen. Følg med!\nHilsen fra meg",
+    "modelDe": "Hallo zusammen!\nGerade sitze ich auf dem Balkon und schaue auf den Fjord. Es ist elf Uhr abends, aber es ist immer noch hell. Der Nachbar steht am Grill, und die Katze liegt in der Sonne und schläft.\nDas ist mein letzter Beitrag aus Norwegen. In einer Woche ziehe ich wieder nach Hause, und ich bin schon dabei zu packen. Wenn ich zurückblicke, habe ich unglaublich viel gelernt. Ich habe gelernt, Norwegisch zu sprechen, ohne Angst vor Fehlern zu haben, und ich habe herausgefunden, dass die Norweger viel netter sind, als ich dachte.\nWas werde ich vermissen? Die Wanderungen in den Bergen, die langen, hellen Abende und meine Freunde. Aber die Bierpreise werde ich nicht vermissen!\nMorgen lade ich ein paar Fotos von der letzten Tour hoch. Bleibt dran!\nViele Grüße von mir"
+  }
+}

@@ -290,8 +290,8 @@
     "vg": "uregelm",
     "lesson": 1,
     "ex": {
-      "no": "Torunn sier «Velkommen!».",
-      "de": "Torunn sagt »Willkommen!«."
+      "no": "Torunn sier: «Velkommen!»",
+      "de": "Torunn sagt: »Willkommen!«"
     }
   },
   {
@@ -648,6 +648,45 @@
       "no": "Susanne bor hos familien Nygård.",
       "de": "Susanne wohnt bei Familie Nygård."
     }
+  },
+  {
+    "id": "w01_til",
+    "no": "til",
+    "de": "zu, nach",
+    "deAlt": [
+      "zu",
+      "nach",
+      "für"
+    ],
+    "pos": "prep",
+    "lesson": 1,
+    "ex": {
+      "no": "Velkommen til kurset!",
+      "de": "Willkommen zum Kurs!"
+    }
+  },
+  {
+    "id": "w01_eller",
+    "no": "eller",
+    "de": "oder",
+    "pos": "conj",
+    "lesson": 1,
+    "ex": {
+      "no": "Snakker du tysk eller fransk?",
+      "de": "Sprichst du Deutsch oder Französisch?"
+    }
+  },
+  {
+    "id": "w01_for_eksempel",
+    "no": "for eksempel",
+    "de": "zum Beispiel",
+    "pos": "phrase",
+    "lesson": 1,
+    "ex": {
+      "no": "Man kan gå på tur, for eksempel i fjellet.",
+      "de": "Man kann wandern gehen, zum Beispiel in den Bergen."
+    },
+    "note": "Abkürzung: f.eks."
   },
   {
     "id": "w01_ogsaa",
@@ -1606,60 +1645,6 @@
     "ex": {
       "no": "Familien Nygård har ei hytte.",
       "de": "Familie Nygård hat eine Hütte."
-    }
-  },
-  {
-    "id": "w01_vinter",
-    "no": "vinter",
-    "de": "der Winter",
-    "pos": "noun",
-    "gender": "m",
-    "forms": [
-      "vinter",
-      "vinteren",
-      "vintrer",
-      "vintrene"
-    ],
-    "lesson": 1,
-    "ex": {
-      "no": "Vi går på ski om vinteren.",
-      "de": "Im Winter fahren wir Ski."
-    }
-  },
-  {
-    "id": "w01_sommer",
-    "no": "sommer",
-    "de": "der Sommer",
-    "pos": "noun",
-    "gender": "m",
-    "forms": [
-      "sommer",
-      "sommeren",
-      "somrer",
-      "somrene"
-    ],
-    "lesson": 1,
-    "ex": {
-      "no": "Det er lyst hele natta om sommeren.",
-      "de": "Im Sommer ist es die ganze Nacht hell."
-    }
-  },
-  {
-    "id": "w01_sol",
-    "no": "sol",
-    "de": "die Sonne",
-    "pos": "noun",
-    "gender": "f",
-    "forms": [
-      "sol",
-      "sola",
-      "soler",
-      "solene"
-    ],
-    "lesson": 1,
-    "ex": {
-      "no": "Sola går ikke ned.",
-      "de": "Die Sonne geht nicht unter."
     }
   },
   {

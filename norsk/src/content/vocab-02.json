@@ -1134,6 +1134,18 @@
     }
   },
   {
+    "id": "w02_mange",
+    "no": "mange",
+    "de": "viele",
+    "pos": "pron",
+    "lesson": 2,
+    "ex": {
+      "no": "Mange nordmenn sier ofte takk.",
+      "de": "Viele Norweger sagen oft danke."
+    },
+    "note": "mange bei Zählbarem (mange kroner), mye bei Nicht-Zählbarem (mye kaffe)."
+  },
+  {
     "id": "w02_med",
     "no": "med",
     "de": "mit",

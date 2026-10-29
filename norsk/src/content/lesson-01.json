@@ -123,7 +123,7 @@
       {
         "s": "torunn",
         "no": "Ikke noe problem! Vi snakker mye norsk her. Velkommen, alle sammen!",
-        "de": "Kein Problem! Wir sprechen hier viel Norwegisch. Willkommen, ihr alle!"
+        "de": "Kein Problem! Wir sprechen hier viel Norwegisch. Willkommen, alle zusammen!"
       }
     ],
     "glossary": [
@@ -302,16 +302,16 @@
           "de": "Norwegen ist ein Land in Nordeuropa. Norwegen hat viel Natur: Berge, Fjorde, Wald und Meer. Viele Touristen kommen nach Norwegen. Was kann man hier machen?"
         },
         {
-          "no": "Man kan gå på tur. Nordmenn går på tur hele året, i fjellet og i skogen. Man kan bo på en hytte og gå på ski om vinteren.",
-          "de": "Man kann wandern gehen. Die Norweger gehen das ganze Jahr wandern, in den Bergen und im Wald. Man kann in einer Hütte wohnen und im Winter Ski fahren."
+          "no": "Man kan gå på tur. Nordmenn går på tur hele året, i fjellet og i skogen. Man kan leie en hytte og gå på ski om vinteren.",
+          "de": "Man kann wandern gehen. Die Norweger gehen das ganze Jahr wandern, in den Bergen und im Wald. Man kann eine Hütte mieten und im Winter Ski fahren."
         },
         {
           "no": "Man kan se nordlys i Nord-Norge om vinteren. Det er lyst hele natta i Nord-Norge om sommeren. Sola går ikke ned. Det heter midnattssol.",
           "de": "Im Winter kann man in Nordnorwegen Nordlicht sehen. Im Sommer ist es in Nordnorwegen die ganze Nacht hell. Die Sonne geht nicht unter. Das heißt Mitternachtssonne."
         },
         {
-          "no": "Man kan ta båt på en fjord, for eksempel på Sognefjorden eller Geirangerfjorden. Sognefjorden er veldig lang og dyp.",
-          "de": "Man kann mit dem Boot auf einem Fjord fahren, zum Beispiel auf dem Sognefjord oder dem Geirangerfjord. Der Sognefjord ist sehr lang und tief."
+          "no": "Man kan ta en båttur på en fjord, for eksempel på Sognefjorden eller Geirangerfjorden. Sognefjorden er veldig lang og dyp.",
+          "de": "Man kann eine Bootsfahrt auf einem Fjord machen, zum Beispiel auf dem Sognefjord oder dem Geirangerfjord. Der Sognefjord ist sehr lang und tief."
         },
         {
           "no": "Og i Oslo? Man kan besøke museer, gå på taket av Operaen eller sitte på en kafé ved sjøen. Og man kan lære norsk, selvfølgelig!",
@@ -376,8 +376,8 @@
           "de": "im Wald"
         },
         {
-          "no": "bo på en hytte",
-          "de": "in einer Hütte wohnen"
+          "no": "leie en hytte",
+          "de": "eine Hütte mieten"
         },
         {
           "no": "gå på ski",
@@ -420,8 +420,8 @@
           "de": "Mitternachtssonne"
         },
         {
-          "no": "ta båt",
-          "de": "mit dem Boot fahren"
+          "no": "ta en båttur",
+          "de": "eine Bootsfahrt machen"
         },
         {
           "no": "for eksempel",
@@ -575,7 +575,7 @@
             [
               "**det**",
               "es (Sache: et-Wort); es, das",
-              "Mads har et hotell. **Det** er i sentrum."
+              "Mads jobber på et hotell. **Det** er i sentrum."
             ],
             [
               "**vi**",

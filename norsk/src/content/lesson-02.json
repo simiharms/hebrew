@@ -159,10 +159,6 @@
         "de": "ins Café, im Café"
       },
       {
-        "no": "gjerne",
-        "de": "gern"
-      },
-      {
         "no": "Jeg er sulten",
         "de": "Ich habe Hunger (wörtlich: ich bin hungrig)"
       },
@@ -221,10 +217,6 @@
       {
         "no": "Hjemme i Danmark",
         "de": "zu Hause in Dänemark"
-      },
-      {
-        "no": "drikker",
-        "de": "trinke"
       },
       {
         "no": "bare",
@@ -1144,7 +1136,7 @@
       "s": "Mads drikker øl i Norge.",
       "de": "Mads trinkt in Norwegen Bier.",
       "a": false,
-      "why": "Zu Hause in Dänemark trinkt er Bier, aber in Norwegen trinkt er Kaffee."
+      "why": "In Dänemark trinkt er Bier, weil es dort nicht so teuer ist. Hier in Norwegen trinkt er Kaffee."
     }
   ],
   "questions": [

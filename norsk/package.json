@@ -1,0 +1,25 @@
+{
+  "name": "nordlys-norsk",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run validate && tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "validate": "vite-node scripts/validate-content.ts",
+    "e2e": "node scripts/e2e.mjs"
+  },
+  "dependencies": {
+    "preact": "10.29.8"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "2.9.4",
+    "playwright-core": "1.56.1",
+    "typescript": "5.9.3",
+    "vite": "6.4.5",
+    "vite-node": "3.2.4",
+    "vitest": "3.2.7"
+  }
+}

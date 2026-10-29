@@ -4,7 +4,11 @@ A free Hebrew course that runs on your iPhone and your Mac. It goes from the alp
 Hebrew, with every answer typed in Hebrew. There are card decks, a verbs-only mode for people who find verbs
 hard, and reading and listening at every level.
 
-It runs entirely on your device. There's no account, no subscription, no server and no AI service. Progress
+**Also in this repository:** [Nordlys](norsk/README.md), a Norwegian course in German that follows the
+textbook »Et år i Norge« lesson by lesson. It lives in `norsk/` and is published next to Shoresh at
+`/norsk/` (for example `https://simiharms.github.io/hebrew/norsk/`).
+
+Shoresh runs entirely on your device. There's no account, no subscription, no server and no AI service. Progress
 stays on the device, and you can export a backup.
 
 ## What's inside

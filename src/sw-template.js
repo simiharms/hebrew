@@ -27,6 +27,8 @@ self.addEventListener('fetch', (event) => {
   if (url.origin !== self.location.origin) return;
   // The offline package's local server answers these live (never cache them).
   if (url.pathname.includes('/__shoresh/')) return;
+  // Nordlys (the Norwegian app under /norsk/) has its own service worker.
+  if (url.pathname.includes('/norsk/')) return;
 
   if (req.mode === 'navigate') {
     // Network first so updates arrive; fall back to the cached shell offline.

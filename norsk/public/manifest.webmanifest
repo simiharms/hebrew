@@ -1,0 +1,17 @@
+{
+  "name": "Nordlys – Norwegisch zum Lehrbuch",
+  "short_name": "Nordlys",
+  "description": "Norwegisch lernen, Lektion für Lektion zum Lehrbuch »Et år i Norge«: Texte, Wortschatz, Grammatik, Hören und Schreiben.",
+  "lang": "de",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f3ee",
+  "theme_color": "#14385f",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

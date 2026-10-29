@@ -24,9 +24,20 @@ jobs:
         with:
           node-version: 22
           cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            norsk/package-lock.json
       - run: npm ci
       - run: npm test
       - run: npm run build
+      # Nordlys, the Norwegian app, is published next to Shoresh under /norsk/.
+      - run: npm ci
+        working-directory: norsk
+      - run: npm test
+        working-directory: norsk
+      - run: npm run build
+        working-directory: norsk
+      - run: cp -r norsk/dist dist/norsk
       - uses: actions/upload-pages-artifact@v3
         if: github.event_name != 'pull_request'
         with:

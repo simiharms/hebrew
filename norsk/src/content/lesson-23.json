@@ -293,8 +293,24 @@
           "de": "offizielle Erfassung der Ethnizität"
         },
         {
+          "no": "registrering",
+          "de": "die Erfassung, Registrierung"
+        },
+        {
+          "no": "etnisitet",
+          "de": "die Ethnizität (Volkszugehörigkeit)"
+        },
+        {
           "no": "nordsamisk",
           "de": "Nordsamisch"
+        },
+        {
+          "no": "lulesamisk",
+          "de": "Lulesamisch"
+        },
+        {
+          "no": "sørsamisk",
+          "de": "Südsamisch"
         },
         {
           "no": "skriftspråk",
@@ -1006,12 +1022,13 @@
       "hint": "stå + og + Verb, beide im Präteritum."
     },
     {
-      "de": "Im Juni geht die Sonne nicht unter.",
+      "de": "Im Juni geht die Sonne in Tromsø nicht unter.",
       "no": [
-        "I juni går ikke sola ned.",
-        "I juni går sola ikke ned.",
-        "Sola går ikke ned i juni.",
-        "Solen går ikke ned i juni."
+        "I juni går ikke sola ned i Tromsø.",
+        "I juni går sola ikke ned i Tromsø.",
+        "Sola går ikke ned i Tromsø i juni.",
+        "Solen går ikke ned i Tromsø i juni.",
+        "I Tromsø går ikke sola ned i juni."
       ]
     },
     {

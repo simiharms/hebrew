@@ -88,6 +88,27 @@
     }
   },
   {
+    "id": "w23_lav",
+    "no": "lav",
+    "de": "niedrig",
+    "deAlt": [
+      "tief"
+    ],
+    "pos": "adj",
+    "forms": [
+      "lav",
+      "lavt",
+      "lave",
+      "lavere",
+      "lavest"
+    ],
+    "lesson": 23,
+    "ex": {
+      "no": "Om natta står sola lavt på himmelen.",
+      "de": "In der Nacht steht die Sonne tief am Himmel."
+    }
+  },
+  {
     "id": "w23_innlegg",
     "no": "innlegg",
     "de": "der Beitrag",
@@ -1238,6 +1259,41 @@
     }
   },
   {
+    "id": "w23_kontakt",
+    "no": "kontakt",
+    "de": "der Kontakt",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "kontakt",
+      "kontakten",
+      "kontakter",
+      "kontaktene"
+    ],
+    "lesson": 23,
+    "ex": {
+      "no": "Susanne og Matthias holder kontakten med videosamtaler.",
+      "de": "Susanne und Matthias halten den Kontakt mit Videoanrufen."
+    }
+  },
+  {
+    "id": "w23_offentlig",
+    "no": "offentlig",
+    "de": "öffentlich",
+    "pos": "adj",
+    "forms": [
+      "offentlig",
+      "offentlig",
+      "offentlige"
+    ],
+    "lesson": 23,
+    "ex": {
+      "no": "I Kautokeino kan man bruke samisk i kontakt med det offentlige.",
+      "de": "In Kautokeino kann man im Kontakt mit den Behörden Samisch benutzen."
+    },
+    "note": "det offentlige = die Behörden, der Staat."
+  },
+  {
     "id": "w23_sameting",
     "no": "sameting",
     "de": "das Samenparlament",
@@ -1253,6 +1309,24 @@
       "de": "Das Samenparlament liegt in Karasjok."
     },
     "note": "Meist bestimmt und groß: Sametinget, nordsamisch Sámediggi."
+  },
+  {
+    "id": "w23_organ",
+    "no": "organ",
+    "de": "das Organ",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "organ",
+      "organet",
+      "organer",
+      "organene"
+    ],
+    "lesson": 23,
+    "ex": {
+      "no": "Sametinget er et folkevalgt organ.",
+      "de": "Das Samenparlament ist ein vom Volk gewähltes Organ."
+    }
   },
   {
     "id": "w23_utdanning",
@@ -1276,6 +1350,24 @@
     }
   },
   {
+    "id": "w23_kultur",
+    "no": "kultur",
+    "de": "die Kultur",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "kultur",
+      "kulturen",
+      "kulturer",
+      "kulturene"
+    ],
+    "lesson": 23,
+    "ex": {
+      "no": "Joik er en viktig del av samisk kultur.",
+      "de": "Der Joik ist ein wichtiger Teil der samischen Kultur."
+    }
+  },
+  {
     "id": "w23_valg",
     "no": "valg",
     "de": "die Wahl",
@@ -1291,6 +1383,42 @@
     "ex": {
       "no": "Det er valg hvert fjerde år.",
       "de": "Alle vier Jahre gibt es eine Wahl."
+    }
+  },
+  {
+    "id": "w23_stat",
+    "no": "stat",
+    "de": "der Staat",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "stat",
+      "staten",
+      "stater",
+      "statene"
+    ],
+    "lesson": 23,
+    "ex": {
+      "no": "Staten betaler for skolen.",
+      "de": "Der Staat bezahlt die Schule."
+    }
+  },
+  {
+    "id": "w23_hard",
+    "no": "hard",
+    "de": "hart",
+    "pos": "adj",
+    "forms": [
+      "hard",
+      "hardt",
+      "harde",
+      "hardere",
+      "hardest"
+    ],
+    "lesson": 23,
+    "ex": {
+      "no": "Det var en hard vinter i Finnmark.",
+      "de": "Es war ein harter Winter in der Finnmark."
     }
   },
   {

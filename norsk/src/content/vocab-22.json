@@ -337,6 +337,23 @@
     "note": "gå i dress = einen Anzug tragen."
   },
   {
+    "id": "w22_ro",
+    "no": "ro",
+    "de": "die Ruhe",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "ro",
+      "roa/roen"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Ta det med ro, vi har god tid.",
+      "de": "Immer mit der Ruhe, wir haben viel Zeit."
+    },
+    "note": "Ta det med ro! = Immer mit der Ruhe! / Keine Sorge!"
+  },
+  {
     "id": "w22_slips",
     "no": "slips",
     "de": "die Krawatte",
@@ -1000,6 +1017,25 @@
     }
   },
   {
+    "id": "w22_grunn",
+    "no": "grunn",
+    "de": "der Grund",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "grunn",
+      "grunnen",
+      "grunner",
+      "grunnene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "På grunn av historien er mange tyskere forsiktige med flagg.",
+      "de": "Wegen der Geschichte sind viele Deutsche vorsichtig mit Fahnen."
+    },
+    "note": "på grunn av = wegen"
+  },
+  {
     "id": "w22_forsiktig",
     "no": "forsiktig",
     "de": "vorsichtig",
@@ -1486,6 +1522,29 @@
     }
   },
   {
+    "id": "w22_stilling",
+    "no": "stilling",
+    "de": "die Stellung",
+    "deAlt": [
+      "die Stelle",
+      "die Position"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "stilling",
+      "stillinga/stillingen",
+      "stillinger",
+      "stillingene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Han søker på en ledig stilling i Bergen.",
+      "de": "Er bewirbt sich auf eine freie Stelle in Bergen."
+    },
+    "note": "ta stilling til noe = zu etwas Stellung nehmen; auch: die (Arbeits-)Stelle."
+  },
+  {
     "id": "w22_kongedomme",
     "no": "kongedømme",
     "de": "das Königreich",
@@ -1543,6 +1602,79 @@
       "de": "Fast vier von fünf stimmten mit Ja."
     },
     "note": "Det stemmer! = Das stimmt! en stemme = eine Stimme."
+  },
+  {
+    "id": "w22_britisk",
+    "no": "britisk",
+    "de": "britisch",
+    "pos": "adj",
+    "forms": [
+      "britisk",
+      "britisk",
+      "britiske"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Dronning Maud var en britisk prinsesse.",
+      "de": "Königin Maud war eine britische Prinzessin."
+    }
+  },
+  {
+    "id": "w22_prinsesse",
+    "no": "prinsesse",
+    "de": "die Prinzessin",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "prinsesse",
+      "prinsessa/prinsessen",
+      "prinsesser",
+      "prinsessene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Prinsesse Maud kom fra Storbritannia.",
+      "de": "Prinzessin Maud kam aus Großbritannien."
+    }
+  },
+  {
+    "id": "w22_sonn",
+    "no": "sønn",
+    "de": "der Sohn",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "sønn",
+      "sønnen",
+      "sønner",
+      "sønnene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Kari og Per har en sønn og ei datter.",
+      "de": "Kari und Per haben einen Sohn und eine Tochter."
+    }
+  },
+  {
+    "id": "w22_bilde",
+    "no": "bilde",
+    "de": "das Bild",
+    "deAlt": [
+      "das Foto"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "bilde",
+      "bildet",
+      "bilder",
+      "bildene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Matthias tar mange bilder med det nye kameraet.",
+      "de": "Matthias macht viele Fotos mit der neuen Kamera."
+    }
   },
   {
     "id": "w22_dronning",
@@ -1638,6 +1770,25 @@
     }
   },
   {
+    "id": "w22_datter",
+    "no": "datter",
+    "de": "die Tochter",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "datter",
+      "dattera/datteren",
+      "døtre",
+      "døtrene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Anna er dattera til Kari og Per.",
+      "de": "Anna ist die Tochter von Kari und Per."
+    },
+    "note": "Unregelmäßiger Plural: døtre – døtrene."
+  },
+  {
     "id": "w22_kongelig",
     "no": "kongelig",
     "de": "königlich",
@@ -1706,6 +1857,37 @@
     }
   },
   {
+    "id": "w22_utenlandsk",
+    "no": "utenlandsk",
+    "de": "ausländisch",
+    "pos": "adj",
+    "forms": [
+      "utenlandsk",
+      "utenlandsk",
+      "utenlandske"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Kongen tar imot utenlandske gjester på Slottet.",
+      "de": "Der König empfängt ausländische Gäste im Schloss."
+    }
+  },
+  {
+    "id": "w22_imot",
+    "no": "imot",
+    "de": "entgegen",
+    "deAlt": [
+      "gegen"
+    ],
+    "pos": "prep",
+    "lesson": 22,
+    "ex": {
+      "no": "Har du noe imot at jeg åpner vinduet?",
+      "de": "Hast du etwas dagegen, wenn ich das Fenster öffne?"
+    },
+    "note": "ta imot = empfangen, annehmen; ha noe imot = etwas dagegen haben."
+  },
+  {
     "id": "w22_statsbesok",
     "no": "statsbesøk",
     "de": "der Staatsbesuch",
@@ -1722,6 +1904,25 @@
       "no": "Kongeparet reiste på statsbesøk til Tyskland.",
       "de": "Das Königspaar reiste zu einem Staatsbesuch nach Deutschland."
     }
+  },
+  {
+    "id": "w22_interesse",
+    "no": "interesse",
+    "de": "das Interesse",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "interesse",
+      "interessen",
+      "interesser",
+      "interessene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Dronningen har stor interesse for kunst.",
+      "de": "Die Königin hat großes Interesse an Kunst."
+    },
+    "note": "interesse for noe = Interesse an etwas."
   },
   {
     "id": "w22_symbol",

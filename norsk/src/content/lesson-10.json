@@ -252,7 +252,7 @@
         },
         {
           "no": "Vestlandet er kjent for fjorder, fjell og fosser. Sognefjorden er over 200 kilometer lang, og Nærøyfjorden og Geirangerfjorden står på UNESCOs verdensarvliste. I Hardanger dyrker bøndene epler og kirsebær. Mange på Vestlandet jobber med fisk, olje og gass, og mange skriver nynorsk.",
-          "de": "Westnorwegen ist für Fjorde, Berge und Wasserfälle bekannt. Der Sognefjord ist über 200 Kilometer lang, und der Nærøyfjord und der Geirangerfjord stehen auf der UNESCO-Welterbeliste. In Hardanger bauen die Bauern Äpfel und Kirschen an. Viele Menschen in Westnorwegen arbeiten mit Fisch, Öl und Gas, und viele schreiben Nynorsk."
+          "de": "Westnorwegen ist für Fjorde, Berge und Wasserfälle bekannt. Der Sognefjord ist über 200 Kilometer lang, und der Nærøyfjord und der Geirangerfjord stehen auf der UNESCO-Welterbeliste. In Hardanger bauen die Bauern Äpfel und Kirschen an. Viele Menschen in Westnorwegen arbeiten in der Fischerei oder in der Öl- und Gasbranche, und viele schreiben Nynorsk."
         }
       ],
       "glossary": [
@@ -326,7 +326,7 @@
         },
         {
           "no": "sjømat",
-          "de": "Meeresfrüchte, Fisch und Meeresfrüchte"
+          "de": "Fisch und Meeresfrüchte"
         },
         {
           "no": "fosser",
@@ -343,6 +343,10 @@
         {
           "no": "kirsebær",
           "de": "Kirschen"
+        },
+        {
+          "no": "gass",
+          "de": "Gas (Erdgas)"
         },
         {
           "no": "nynorsk",
@@ -517,7 +521,7 @@
         },
         {
           "h": "Unregelmäßige schwache Verben",
-          "body": "Einige Verben haben eine Endung (**-te**, **-de**, **-t**) und wechseln trotzdem den Vokal – wie im Deutschen **bringen – brachte**:\n\n• **selge – solgte – har solgt** (verkaufen)\n• **fortelle – fortalte – har fortalt** (erzählen)\n• **legge – la – har lagt** (legen)\n• **sette – satte – har satt** (setzen, stellen)\n• **gjøre – gjorde – har gjort** (machen, tun)\n• **spørre – spurte – har spurt** (fragen)\n\nAchtung: **legge/ligge** und **sette/sitte** sind wie im Deutschen Paare: **Jeg la nøkkelen på bordet. Nøkkelen lå på bordet.** (legte – lag)"
+          "body": "Einige Verben haben eine Endung (**-te**, **-de**, **-t**) und wechseln trotzdem den Vokal – wie im Deutschen **bringen – brachte**:\n\n• **selge – solgte – har solgt** (verkaufen)\n• **fortelle – fortalte – har fortalt** (erzählen)\n• **legge – la – har lagt** (legen; Präteritum ganz ohne Endung)\n• **sette – satte – har satt** (setzen, stellen)\n• **gjøre – gjorde – har gjort** (machen, tun)\n• **spørre – spurte – har spurt** (fragen)\n\nAchtung: **legge/ligge** und **sette/sitte** sind wie im Deutschen Paare: **Jeg la nøkkelen på bordet. Nøkkelen lå på bordet.** (legte – lag)"
         },
         {
           "h": "Das Präsens ist (fast) immer regelmäßig",
@@ -666,7 +670,7 @@
         },
         {
           "h": "Mit Präposition und in festen Ausdrücken",
-          "body": "Oft steht nach dem Adverb noch eine Ortsangabe: **oppe på fjellet** (oben in den Bergen), **nede ved havna** (unten am Hafen), **inne på kafeen** (drinnen im Café), **ut på dekk**.\n\n• **Kom inn!** – Komm herein!\n• **langt borte** – weit weg\n• **Borte bra, men hjemme best.** – Daheim ist’s am schönsten (Sprichwort)."
+          "body": "Oft steht nach dem Adverb noch eine Ortsangabe: **oppe på fjellet** (oben in den Bergen), **nede ved havna** (unten am Hafen), **inne på kafeen** (drinnen im Café), **ut på dekk** (hinaus aufs Deck).\n\n• **Kom inn!** – Komm herein!\n• **langt borte** – weit weg\n• **Borte bra, men hjemme best.** – Daheim ist’s am schönsten (Sprichwort)."
         }
       ],
       "drills": [
@@ -676,7 +680,7 @@
           "answer": [
             "inn"
           ],
-          "explain": "kommen = Bewegung (wohin?) → inn."
+          "explain": "komme = Bewegung (wohin?) → inn."
         },
         {
           "prompt": "Det er kaldt ___ i dag. (ut/ute)",
@@ -1058,14 +1062,17 @@
     {
       "de": "Ich wohne oben, und die Nachbarin wohnt unten.",
       "no": [
-        "Jeg bor oppe, og naboen bor nede."
+        "Jeg bor oppe, og naboen bor nede.",
+        "Jeg bor oppe, og naboen min bor nede."
       ]
     },
     {
       "de": "Komm herein! Du kannst die Schuhe im Flur ausziehen.",
       "no": [
         "Kom inn! Du kan ta av deg skoene i gangen.",
-        "Kom inn! Du kan ta skoene av deg i gangen."
+        "Kom inn! Du kan ta skoene av deg i gangen.",
+        "Kom inn! I gangen kan du ta av deg skoene.",
+        "Kom inn! Du kan ta av skoene i gangen."
       ]
     },
     {
@@ -1107,7 +1114,9 @@
       "de": "Es hat jeden Tag geregnet, seit ich gekommen bin.",
       "no": [
         "Det har regnet hver dag siden jeg kom.",
-        "Det har regna hver dag siden jeg kom."
+        "Det har regna hver dag siden jeg kom.",
+        "Det har regnet hver dag siden jeg kom hit.",
+        "Siden jeg kom, har det regnet hver dag."
       ]
     }
   ],
@@ -1116,7 +1125,8 @@
       "prompt": "Matthias har ___ i Bergen i ei uke.",
       "de": "Matthias wohnt seit einer Woche in Bergen.",
       "answer": [
-        "bodd"
+        "bodd",
+        "vært"
       ]
     },
     {
@@ -1144,7 +1154,8 @@
       "prompt": "Lørdag gikk han opp på Fløyen, men det var ___.",
       "de": "Am Samstag ging er auf den Fløyen, aber es war neblig.",
       "answer": [
-        "tåke"
+        "tåke",
+        "tåkete"
       ]
     }
   ],
@@ -1197,6 +1208,6 @@
       }
     ],
     "model": "Hei Anna!\nNå har jeg flyttet! Den nye leiligheten min ligger i et gult hus ved parken. Den er ikke stor, men den er lys. Når du kommer inn, er badet til venstre. Stua er fin, og på kjøkkenet har jeg et rundt bord. Naboene mine bor nede, og oppe er det et loft. I går bar jeg alle kassene opp trappa, og i dag fant jeg en koselig kafé i nærheten. Kom på besøk snart!\nKlem fra Lena",
-    "modelDe": "Hallo Anna!\nJetzt bin ich umgezogen! Meine neue Wohnung liegt in einem gelben Haus beim Park. Sie ist nicht groß, aber hell. Wenn du hereinkommst, ist das Bad links. Das Wohnzimmer ist schön, und in der Küche habe ich einen runden Tisch. Meine Nachbarn wohnen unten, und oben ist ein Dachboden. Gestern habe ich alle Kisten die Treppe hinaufgetragen, und heute habe ich ein gemütliches Café in der Nähe gefunden. Komm bald zu Besuch!\nUmarmung, Lena"
+    "modelDe": "Hallo Anna!\nJetzt bin ich umgezogen! Meine neue Wohnung liegt in einem gelben Haus beim Park. Sie ist nicht groß, aber hell. Wenn du hereinkommst, ist das Bad links. Das Wohnzimmer ist schön, und in der Küche habe ich einen runden Tisch. Meine Nachbarn wohnen unten, und oben ist ein Dachboden. Gestern habe ich alle Kisten die Treppe hinaufgetragen, und heute habe ich ein gemütliches Café in der Nähe gefunden. Komm bald zu Besuch!\nEine Umarmung von Lena"
   }
 }

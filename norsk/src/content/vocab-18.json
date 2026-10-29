@@ -1227,8 +1227,8 @@
     "vg": "2",
     "lesson": 18,
     "ex": {
-      "no": "Hils Anna og Bamse!",
-      "de": "Grüßt Anna und Bamse!"
+      "no": "Hils bestemor Ingrid fra meg!",
+      "de": "Grüß Oma Ingrid von mir!"
     }
   },
   {
@@ -1795,6 +1795,89 @@
     "ex": {
       "no": "Klokka tolv skytes det opp fyrverkeri.",
       "de": "Um Mitternacht wird Feuerwerk abgeschossen."
+    }
+  },
+  {
+    "id": "w18_desember",
+    "no": "desember",
+    "de": "der Dezember",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "desember",
+      "desemberen"
+    ],
+    "lesson": 18,
+    "ex": {
+      "no": "Matthias landet i Tromsø den 22. desember.",
+      "de": "Matthias landete am 22. Dezember in Tromsø."
+    }
+  },
+  {
+    "id": "w18_begynnelse",
+    "no": "begynnelse",
+    "de": "der Anfang, der Beginn",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "begynnelse",
+      "begynnelsen",
+      "begynnelser",
+      "begynnelsene"
+    ],
+    "lesson": 18,
+    "ex": {
+      "no": "I begynnelsen av desember var det julebord.",
+      "de": "Anfang Dezember gab es ein Weihnachtsessen."
+    },
+    "note": "i begynnelsen av … = am Anfang von …, Anfang (Monat)"
+  },
+  {
+    "id": "w18_nord",
+    "no": "nord",
+    "de": "nördlich, im Norden, nach Norden",
+    "pos": "adv",
+    "lesson": 18,
+    "ex": {
+      "no": "Matthias hadde aldri vært så langt nord før.",
+      "de": "Matthias war noch nie so weit im Norden gewesen."
+    },
+    "note": "i nord = im Norden; nord for = nördlich von"
+  },
+  {
+    "id": "w18_haand",
+    "no": "hånd",
+    "de": "die Hand",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "hånd",
+      "hånda/hånden",
+      "hender",
+      "hendene"
+    ],
+    "lesson": 18,
+    "ex": {
+      "no": "Barna går i tog med lys i hånda.",
+      "de": "Die Kinder gehen mit Kerzen in der Hand im Umzug."
+    }
+  },
+  {
+    "id": "w18_region",
+    "no": "region",
+    "de": "die Region",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "region",
+      "regionen",
+      "regioner",
+      "regionene"
+    ],
+    "lesson": 18,
+    "ex": {
+      "no": "Tromsø er den største byen i regionen.",
+      "de": "Tromsø ist die größte Stadt der Region."
     }
   }
 ]

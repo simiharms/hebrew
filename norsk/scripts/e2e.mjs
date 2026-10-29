@@ -55,8 +55,13 @@ async function shot(name) {
   if (SHOTS) await page.screenshot({ path: `${SHOTS}/${String(++step).padStart(2, '0')}-${name}.png`, fullPage: false });
 }
 async function visit(hash) {
-  await page.goto(`${BASE}#/${hash}`);
-  await page.waitForTimeout(120);
+  // Same-document navigation, like tapping a link in the app.
+  await page.evaluate((h) => {
+    location.hash = `#/${h}`;
+  }, hash);
+  await page.waitForTimeout(150);
+  const at = await page.evaluate(() => decodeURIComponent(location.hash));
+  if (at !== `#/${hash}`) problems.push(`navigation to #/${hash} ended at ${at}`);
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
   if (overflow > 2) problems.push(`horizontal overflow ${overflow}px on #/${hash}`);
   const text = await page.evaluate(() => document.body.innerText);
@@ -133,6 +138,101 @@ await expect('.feedback', 'verb feedback');
 await shot('verb-training');
 const firstVerb = await page.evaluate(() => location.hash);
 void firstVerb;
+
+// 2b. Whole flows: each must reach its end screen.
+const vocab = Object.fromEntries(
+  readdirSync('src/content')
+    .filter((f) => /^vocab-\d\d\.json$/.test(f))
+    .map((f) => [f, JSON.parse(readFileSync(`src/content/${f}`, 'utf8'))]),
+);
+const allWords = Object.values(vocab).flat();
+
+// Phrase cards (Wörterkiste): flip and rate until done.
+await visit('lernen/wk/1');
+for (let k = 0; k < 40 && !(await page.locator('text=Bra jobba!').isVisible().catch(() => false)); k++) {
+  const intro = page.locator('text=Weiter – abfragen');
+  if (await intro.isVisible().catch(() => false)) await intro.click();
+  await page.click('text=Umdrehen');
+  await page.click('.btn.rate >> nth=2');
+}
+await expect('text=Bra jobba!', 'phrase session end screen');
+
+// Typed reviews: answer every card from the vocabulary.
+await page.evaluate(() => {
+  const k = 'nordlys-state-v1';
+  const s = JSON.parse(localStorage.getItem(k));
+  s.settings.reviewMode = 'type';
+  localStorage.setItem(k, JSON.stringify(s));
+});
+await page.reload();
+await visit('lernen/lektion/2');
+let typed = 0;
+for (let k = 0; k < 30 && !(await page.locator('text=Bra jobba!').isVisible().catch(() => false)); k++) {
+  const intro = page.locator('text=Weiter – abfragen');
+  if (await intro.isVisible().catch(() => false)) await intro.click();
+  const no = await page.locator('.prompt-box .no-xl').first().textContent().catch(() => null);
+  const de = await page.locator('.prompt-box .big-de').first().textContent().catch(() => null);
+  let answer = 'xxx';
+  if (no) {
+    const bare = no.replace(/^(en|ei|et|å) /, '');
+    answer = allWords.find((w) => w.no === bare)?.de ?? 'xxx';
+  } else if (de) answer = allWords.find((w) => w.de === de)?.no ?? 'xxx';
+  if (!(await page.locator('input.answer').isVisible().catch(() => false))) {
+    problems.push(`typed review: no input. Screen: ${(await page.evaluate(() => document.body.innerText)).slice(0, 300)}`);
+    break;
+  }
+  await page.locator('input.answer').fill(answer);
+  await page.click('text=Prüfen');
+  if (answer !== 'xxx' && (await page.locator('.feedback.ok, .feedback.close').count()) === 0) problems.push(`typed review rejected "${answer}" for ${no ?? de}`);
+  typed++;
+  if (k === 0) await shot('typed-review');
+  await page.click('button:text-is("Weiter")');
+}
+await expect('text=Bra jobba!', `typed session end screen (after ${typed} cards)`);
+
+// Lesson test: wrong answers all the way to the result.
+await visit('lektion/2/test');
+for (let k = 0; k < 10; k++) {
+  await page.locator('input.answer').fill('feil');
+  await page.click('text=Prüfen');
+  await page.click('.btn-row .btn.primary');
+}
+await expect('text=von 10', 'lesson test result');
+
+// Verb trainer: a full round.
+await visit('verben/training');
+for (let k = 0; k < 12; k++) {
+  await page.locator('input.answer').fill('feil');
+  await page.click('text=Prüfen');
+  await page.click('button:text-is("Weiter")');
+}
+await expect('text=Noch eine Runde', 'verb trainer result');
+
+// Listening trainer (choose the meaning): a full round.
+await visit('hoertraining');
+for (let k = 0; k < 8; k++) {
+  await page.locator('.choice-grid .btn.choice').first().click();
+  await page.click('button:text-is("Weiter")');
+}
+await expect('text=Neue Runde', 'listening trainer result');
+
+// Numbers: every mode answers and moves on.
+for (const mode of ['Hören', 'Schreiben', 'Uhrzeit', 'Datum']) {
+  await visit('zahlen');
+  await page.click(`.seg button:has-text("${mode}")`);
+  await page.locator('input.answer').fill('17');
+  await page.click('text=Prüfen');
+  await expect('.feedback', `numbers feedback (${mode})`);
+  await page.click('text=Nächste');
+}
+
+// Backup: export a file, import it again.
+await visit('einstellungen');
+const [download] = await Promise.all([page.waitForEvent('download'), page.click('text=Sicherung speichern')]);
+const backupPath = await download.path();
+await page.setInputFiles('input[type=file]', backupPath);
+await page.waitForTimeout(200);
+if (!(await page.locator('text=Sicherung geladen').isVisible().catch(() => false))) problems.push('backup import gave no confirmation');
 
 // 3. Every lesson: all its screens render without errors
 for (const L of lessons) {

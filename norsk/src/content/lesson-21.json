@@ -71,7 +71,8 @@
       { "no": "et godt stykke fra kanten", "de": "ein gutes Stück vom Rand entfernt" },
       { "no": "Lykke til videre", "de": "Alles Gute weiterhin" },
       { "no": "tett inntil hverandre", "de": "dicht aneinander" },
-      { "no": "skiltes", "de": "trennten sich" }
+      { "no": "skiltes", "de": "trennten sich" },
+      { "no": "mai", "de": "Mai" }
     ]
   },
   "extra": [
@@ -96,9 +97,11 @@
         { "no": "skipsfart", "de": "Schifffahrt" },
         { "no": "trelast", "de": "Bauholz, Holzhandel" },
         { "no": "Det sies", "de": "Man sagt" },
+        { "no": "sies", "de": "wird gesagt (s-Passiv von si)" },
         { "no": "maling", "de": "Farbe (zum Streichen)" },
         { "no": "eieren", "de": "der Besitzer" },
         { "no": "Christian 4.", "de": "Christian IV. (dänisch-norwegischer König)" },
+        { "no": "kong", "de": "König (vor einem Namen: kong Christian)" },
         { "no": "rutenett", "de": "Gitternetz" },
         { "no": "lærling", "de": "Lehrling" },
         { "no": "apotek", "de": "Apotheke" },
@@ -158,7 +161,7 @@
       "sections": [
         {
           "h": "Die Formen",
-          "body": "**egen** (m/f), **eget** (n), **egne** (Plural):\n\n• **min egen bil**, **mi egen hytte**, **mitt eget rom**, **mine egne barn**\n• **hans egen idé**, **hennes eget kart**, **deres egne regler**\n\n**egen** steht vor dem Substantiv, das Substantiv bleibt unbestimmt. Aber Achtung, eine Ausnahme: Nach einem Possessiv bekommen normale Adjektive ein **-e** (**min nye bil**), **egen** im Singular aber nicht: **min egen bil** (nicht *min egne bil), **mitt eget rom** (nicht *mitt egne rom). Nur im Plural steht **egne**.",
+          "body": "**egen** (m/f), **eget** (n), **egne** (Plural):\n\n• **min egen bil**, **mi egen hytte**, **mitt eget rom**, **mine egne barn**\n• **hans egen idé**, **hennes eget kart**, **deres egne regler**\n\n**egen** steht vor dem Substantiv, das Substantiv bleibt unbestimmt. Aber Achtung, eine Ausnahme: Nach einem Possessiv bekommen normale Adjektive ein **-e** (**min nye bil**), **egen** im Singular aber nicht: **min egen bil** (nicht *min egne bil), **mitt eget rom** (nicht *mitt egne rom). Nur im Plural und in der (seltenen) bestimmten Form steht **egne**: **mine egne barn**, **det egne rommet**.",
           "table": [
             ["", "maskulin/feminin", "neutrum", "Plural"],
             ["nach Possessiv", "min egen bil", "mitt eget kart", "mine egne regler"],
@@ -216,7 +219,7 @@
         { "prompt": "De så lenge på ___ uten å si noe.", "de": "Sie sahen einander lange an, ohne etwas zu sagen.", "answer": ["hverandre"], "explain": "se på hverandre = einander ansehen." },
         { "prompt": "Når kan vi ___ igjen? (treffe)", "de": "Wann können wir uns wieder treffen?", "answer": ["treffes"], "explain": "treffe + s = treffes (sich treffen); nach kan der Infinitiv." },
         { "prompt": "De ___ på flyplassen dagen etter. (skilles, preteritum)", "de": "Sie trennten sich am nächsten Tag am Flughafen.", "answer": ["skiltes"], "explain": "Präteritum von skilles: skiltes." },
-        { "prompt": "Inga og Susanne hjelper ___ med leksene.", "de": "Inga und Susanne helfen sich gegenseitig bei den Hausaufgaben.", "answer": ["hverandre"], "explain": "„sich gegenseitig“ = hverandre, nicht seg." },
+        { "prompt": "Inga og Susanne hjelper ___ med oppgavene.", "de": "Inga und Susanne helfen sich gegenseitig bei den Aufgaben.", "answer": ["hverandre"], "explain": "„sich gegenseitig“ = hverandre, nicht seg." },
         { "prompt": "Inga og Susanne låner ofte ___ klær.", "de": "Inga und Susanne leihen sich oft gegenseitig ihre Kleider.", "answer": ["hverandres"], "explain": "Genitiv: hverandres = des/der anderen." },
         { "prompt": "Matthias og Susanne satt ved siden av ___ i bilen.", "de": "Matthias und Susanne saßen im Auto nebeneinander.", "answer": ["hverandre"], "explain": "ved siden av hverandre = nebeneinander." },
         { "prompt": "Skal vi ___ ved kaia klokka sju? (møte, gegenseitig)", "de": "Sollen wir uns um sieben am Kai treffen?", "answer": ["møtes"], "explain": "møtes = sich treffen; nach skal der Infinitiv." }
@@ -286,16 +289,16 @@
     { "de": "ein schlafendes Baby", "answer": ["en sovende baby"] }
   ],
   "translate": [
-    { "de": "Er fährt am liebsten sein eigenes Auto.", "no": ["Han kjører helst sin egen bil.", "Helst kjører han sin egen bil."] },
+    { "de": "Er fährt am liebsten sein eigenes Auto.", "no": ["Han kjører helst sin egen bil.", "Helst kjører han sin egen bil.", "Han liker best å kjøre sin egen bil."] },
     { "de": "Sie hat ein eigenes Zimmer.", "no": ["Hun har sitt eget rom.", "Hun har et eget rom.", "Hun har eget rom."] },
     { "de": "Wir sehen uns morgen!", "no": ["Vi sees i morgen!", "Vi ses i morgen!"] },
-    { "de": "Sie trafen sich am Flughafen.", "no": ["De møttes på flyplassen.", "De møtte hverandre på flyplassen.", "De traff hverandre på flyplassen."] },
+    { "de": "Sie trafen sich am Flughafen.", "no": ["De møttes på flyplassen.", "De traffes på flyplassen.", "De møtte hverandre på flyplassen.", "De traff hverandre på flyplassen."] },
     { "de": "Drei Stunden lang sprachen sie nicht miteinander.", "no": ["I tre timer snakket de ikke med hverandre.", "De snakket ikke med hverandre på tre timer.", "De snakket ikke med hverandre i tre timer.", "På tre timer snakket de ikke med hverandre."] },
     { "de": "Sie sahen einander an.", "no": ["De så på hverandre."] },
     { "de": "Er kam angelaufen.", "no": ["Han kom løpende."] },
     { "de": "Sie blieb im Auto sitzen.", "no": ["Hun ble sittende i bilen."] },
     { "de": "Auf dem Preikestolen war es überraschend kalt.", "no": ["Det var overraskende kaldt på Preikestolen.", "På Preikestolen var det overraskende kaldt."] },
-    { "de": "Wir mussten bei jedem entgegenkommenden Auto zurücksetzen.", "no": ["Vi måtte rygge for hver møtende bil."] }
+    { "de": "Wir mussten bei jedem entgegenkommenden Auto zurücksetzen.", "no": ["Vi måtte rygge for hver møtende bil.", "For hver møtende bil måtte vi rygge."] }
   ],
   "summary": [
     { "prompt": "Susanne og Matthias møttes på ___ i Kristiansand.", "de": "Susanne und Matthias trafen sich am Flughafen in Kristiansand.", "answer": ["flyplassen"] },

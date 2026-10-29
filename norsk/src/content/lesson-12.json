@@ -277,6 +277,10 @@
         "de": "jedenfalls, auf jeden Fall"
       },
       {
+        "no": "fall",
+        "de": "Fall (i hvert fall = jedenfalls)"
+      },
+      {
         "no": "bygget",
         "de": "das Gebäude"
       },
@@ -417,8 +421,16 @@
           "de": "Themen (et tema)"
         },
         {
+          "no": "flere",
+          "de": "mehrere"
+        },
+        {
           "no": "Universitetets aula",
           "de": "die Aula der Universität"
+        },
+        {
+          "no": "aula",
+          "de": "Aula, Festsaal"
         },
         {
           "no": "Skrik",
@@ -461,6 +473,10 @@
           "de": "im Gegenzug"
         },
         {
+          "no": "gjengjeld",
+          "de": "Gegenleistung (til gjengjeld = im Gegenzug, dafür)"
+        },
+        {
           "no": "verkene hans",
           "de": "seine Werke"
         },
@@ -487,6 +503,10 @@
         {
           "no": "én eneste granittblokk",
           "de": "ein einziger Granitblock"
+        },
+        {
+          "no": "granittblokk",
+          "de": "Granitblock"
         },
         {
           "no": "Mest populær",
@@ -599,7 +619,7 @@
       "sections": [
         {
           "h": "Die Grundregel: -ere, -est",
-          "body": "Wie im Deutschen hat das Adjektiv drei Stufen: Grundform (Positiv), Komparativ und Superlativ. Die meisten Adjektive bekommen **-ere** und **-est**:\n\n• **varm – varmere – varmest** (warm – wärmer – am wärmsten)\n• **dyr – dyrere – dyrest**\n• **fin – finere – finest**\n\nAnders als im Deutschen gibt es keinen Umlaut: **kald – kaldere** (kalt – kälter). Ein einfacher Konsonant nach kurzem Vokal wird verdoppelt: **morsom – morsommere**.",
+          "body": "Wie im Deutschen hat das Adjektiv drei Stufen: Grundform (Positiv), Komparativ und Superlativ. Die meisten Adjektive bekommen **-ere** und **-est**:\n\n• **varm – varmere – varmest** (warm – wärmer – am wärmsten)\n• **dyr – dyrere – dyrest**\n• **fin – finere – finest**\n\nAnders als im Deutschen gibt es bei den regelmäßigen Adjektiven keinen Umlaut: **kald – kaldere** (kalt – kälter). Ein einfacher Konsonant nach kurzem Vokal wird verdoppelt: **morsom – morsommere**.",
           "table": [
             [
               "Positiv",
@@ -655,7 +675,7 @@
         },
         {
           "h": "Ein paar unregelmäßige Formen",
-          "body": "Einige häufige Adjektive sind unregelmäßig – du lernst sie in Lektion 14 genauer: **god – bedre – best, stor – større – størst, liten – mindre – minst, gammel – eldre – eldst, mye – mer – mest**.\n\nIm Text kommen schon **mindre** (weniger) und **mest** vor: **Hva har du mest lyst til?**"
+          "body": "Einige häufige Adjektive sind unregelmäßig – du lernst sie in Lektion 14 genauer: **god – bedre – best, stor – større – størst, liten – mindre – minst, gammel – eldre – eldst, mye – mer – mest**.\n\nIm Text kommen schon **mest** (am meisten) und **nærmere** (näher, von **nær – nærmere – nærmest**) vor: **Hva har du mest lyst til? Oslo er jo nærmere enn Paris.** Und **mindre … enn** heißt „weniger … als“ (siehe Vergleiche)."
         }
       ],
       "drills": [
@@ -816,9 +836,10 @@
           "prompt": "Museene på Bygdøy ligger ikke ___ sentralt som Munchmuseet.",
           "de": "Die Museen auf Bygdøy liegen nicht so zentral wie das Munch-Museum.",
           "answer": [
-            "så"
+            "så",
+            "like"
           ],
-          "explain": "ikke så … som = nicht so … wie."
+          "explain": "ikke så … som = nicht so … wie. Auch ikke like … som ist richtig."
         },
         {
           "prompt": "Matthias er ___ glad i museer som i parker. (genauso)",
@@ -1384,14 +1405,18 @@
       "de": "Das neue Gebäude ist super schön.",
       "no": [
         "Det nye bygget er kjempefint.",
-        "Den nye bygningen er kjempefin."
+        "Den nye bygningen er kjempefin.",
+        "Det nye bygget er kjempepent.",
+        "Den nye bygningen er kjempepen."
       ]
     },
     {
       "de": "Das Wetter ist nicht so schön wie gestern.",
       "no": [
         "Været er ikke så fint som i går.",
-        "Været er ikke så pent som i går."
+        "Været er ikke så pent som i går.",
+        "Været er ikke like fint som i går.",
+        "Været er ikke like pent som i går."
       ]
     },
     {

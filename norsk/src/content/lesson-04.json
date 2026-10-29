@@ -335,6 +335,10 @@
           "de": "Skandinavien"
         },
         {
+          "no": "Finland",
+          "de": "Finnland"
+        },
+        {
           "no": "Sammen med",
           "de": "zusammen mit"
         },
@@ -413,6 +417,10 @@
         {
           "no": "betaler man",
           "de": "bezahlt man"
+        },
+        {
+          "no": "euro",
+          "de": "Euro (Währung)"
         },
         {
           "no": "forskjellige",
@@ -546,11 +554,11 @@
       "sections": [
         {
           "h": "ikke steht direkt nach dem Verb",
-          "body": "Im norwegischen Hauptsatz steht **ikke** (nicht) direkt nach dem konjugierten Verb, also gleich nach Platz 2:\n\n• **Jeg snakker ikke svensk.** – Ich spreche kein Schwedisch.\n• **Mads kommer ikke i dag.** – Mads kommt heute nicht.\n\nIm Deutschen rutscht „nicht“ oft weit nach hinten („Mads kommt heute nicht“). Im Norwegischen bleibt **ikke** fest hinter dem Verb. ✗ Mads kommer i dag ikke.\n\nNorwegisch hat kein eigenes Wort für „kein“. Meistens nimmst du einfach **ikke**: **Jeg har ikke bil.** – Ich habe kein Auto. **Vi bruker ikke vanskelige ord.** – Wir benutzen keine schwierigen Wörter."
+          "body": "Im norwegischen Hauptsatz steht **ikke** (nicht) direkt nach dem konjugierten Verb, also gleich nach Platz 2:\n\n• **Jeg snakker ikke svensk.** – Ich spreche kein Schwedisch.\n• **Mads kommer ikke i dag.** – Mads kommt heute nicht.\n\nIm Deutschen rutscht „nicht“ oft weit nach hinten („Mads kommt heute nicht“). Im Norwegischen bleibt **ikke** fest hinter dem Verb. ✗ Mads kommer i dag ikke.\n\nFür „kein“ nimmst du meistens einfach **ikke** (es gibt auch **ingen**, das kommt später): **Jeg har ikke bil.** – Ich habe kein Auto. **Vi bruker ikke vanskelige ord.** – Wir benutzen keine schwierigen Wörter."
         },
         {
           "h": "Andere Satzadverbien",
-          "body": "Diese kleinen Wörter verhalten sich alle wie **ikke**: Sie stehen direkt nach dem konjugierten Verb. Stehen zwei zusammen, kommt **ikke** meist zuletzt: **Jeg kan dessverre ikke.** – Ich kann leider nicht.\n\nAchtung: **gjerne** (gern) ist ein Adverb, kein Verb. „Ich esse gern Kuchen“ heißt **Jeg spiser gjerne kake.** **Jeg vil gjerne …** ist die höfliche Form für „ich möchte …“.",
+          "body": "Diese kleinen Wörter verhalten sich alle wie **ikke**: Sie stehen direkt nach dem konjugierten Verb. Nach **jo** und **dessverre** kommt **ikke** zuletzt: **Jeg kan dessverre ikke.** – Ich kann leider nicht. Vor **alltid**, **ofte** und **bare** steht **ikke** dagegen, wie im Deutschen: **Mads forstår ikke alltid Elin.** – Mads versteht Elin nicht immer.\n\nAuch **gjerne** (gern) steht direkt nach dem Verb: „Ich esse gern Kuchen“ heißt **Jeg spiser gjerne kake.** **Jeg vil gjerne …** ist die höfliche Form für „ich möchte …“.",
           "table": [
             [
               "Norwegisch",
@@ -627,10 +635,10 @@
           "explain": "aldri steht wie ikke direkt nach dem Verb."
         },
         {
-          "prompt": "I morgen ___ jobbe. (må, jeg, ikke)",
-          "de": "Morgen muss ich nicht arbeiten.",
+          "prompt": "I morgen ___ jobbe. (skal, jeg, ikke)",
+          "de": "Morgen arbeite ich nicht.",
           "answer": [
-            "må jeg ikke"
+            "skal jeg ikke"
           ],
           "explain": "Inversion nach „I morgen“: Verb – Subjekt – ikke – Infinitiv."
         },
@@ -667,8 +675,8 @@
           "explain": "bare steht direkt nach dem Verb."
         },
         {
-          "prompt": "Susanne ___ med på tur. (vil, gjerne, bli)",
-          "de": "Susanne möchte gern mit auf die Wanderung kommen.",
+          "prompt": "Elin ___ med på tur. (vil, gjerne, bli)",
+          "de": "Elin möchte gern mit auf die Wanderung kommen.",
           "answer": [
             "vil gjerne bli"
           ],
@@ -751,7 +759,7 @@
         },
         {
           "h": "Kleine Schreibregeln",
-          "body": "• Ein **m** wird am Wortende nie verdoppelt: **komme → kom!**, **glemme → glem!** (mehr dazu in Lektion 5).\n• Andere Doppelkonsonanten bleiben: **snakke → snakk!**, **slappe av → slapp av!**\n• Wäre das Wort ohne -e nicht aussprechbar, bleibt das -e: **åpne → Åpne vinduet!**, **sykle → Sykle forsiktig!**\n• **være → Vær!** ist leicht unregelmäßig, wie deutsch „sei“."
+          "body": "• Ein **m** wird am Wortende nie verdoppelt: **komme → kom!**, **glemme → glem!** (mehr dazu in Lektion 5).\n• Andere Doppelkonsonanten bleiben: **snakke → snakk!**, **slappe av → slapp av!**\n• Wäre das Wort ohne -e nicht aussprechbar, bleibt das -e: **åpne → Åpne vinduet!**, **sykle → Sykle forsiktig!**\n• **være → Vær!** folgt ganz der Regel, anders als deutsch „sein → sei“."
         },
         {
           "h": "Verneinung und Höflichkeit",
@@ -920,7 +928,7 @@
         },
         {
           "h": "Aussprache und falsche Freunde",
-          "body": "Das **h** in **hv-** sprichst du nicht: **hva** klingt wie „wa“, **hvem** wie „wemm“, **hvor** wie „wur“.\n\nVorsicht, diese Wörter sehen deutsch aus, bedeuten aber etwas anderes:\n\n• **hvem** = wer (nicht „wem“): **Hvem er det?** – Wer ist das?\n• **hvor** = wo (nicht „wer“): **Hvor er Mads?** – Wo ist Mads?\n• **når** = wann: **Når begynner kurset?** – Wann fängt der Kurs an?\n\nBei „woher?“ steht die Präposition am Ende: **Hvor kommer du fra?** – Woher kommst du?"
+          "body": "Das **h** in **hv-** sprichst du nicht: **hva** klingt wie „wa“, **hvem** wie „wemm“, **hvor** wie „wur“.\n\nVorsicht, diese Wörter sehen deutsch aus, bedeuten aber etwas anderes:\n\n• **hvem** = wer (und wen, wem), auch wenn es wie „wem“ aussieht: **Hvem er det?** – Wer ist das?\n• **hvor** = wo (nicht „wer“): **Hvor er Mads?** – Wo ist Mads?\n• **når** = wann: **Når begynner kurset?** – Wann fängt der Kurs an?\n\nBei „woher?“ steht die Präposition am Ende: **Hvor kommer du fra?** – Woher kommst du?"
         },
         {
           "h": "hvor mye, hvor mange, hva slags",
@@ -1005,7 +1013,8 @@
           "prompt": "___ kake er det? – Det er en sjokoladekake.",
           "de": "Was für ein Kuchen ist das? – Das ist ein Schokoladenkuchen.",
           "answer": [
-            "Hva slags"
+            "Hva slags",
+            "Hva for en"
           ],
           "explain": "hva slags = was für ein; danach kein Artikel."
         }
@@ -1307,7 +1316,8 @@
       "no": [
         "I morgen kan jeg dessverre ikke.",
         "Jeg kan dessverre ikke i morgen.",
-        "I morgen kan jeg ikke, dessverre."
+        "I morgen kan jeg ikke, dessverre.",
+        "Dessverre kan jeg ikke i morgen."
       ]
     },
     {

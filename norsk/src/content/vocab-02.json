@@ -77,8 +77,30 @@
     "lesson": 2,
     "wk": true,
     "ex": {
-      "no": "Vi spiser på kafeteria.",
+      "no": "Vi spiser på kafeteriaen.",
       "de": "Wir essen in der Cafeteria."
+    }
+  },
+  {
+    "id": "w02_disk",
+    "no": "disk",
+    "de": "die Theke",
+    "deAlt": [
+      "der Tresen"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "disk",
+      "disken",
+      "disker",
+      "diskene"
+    ],
+    "lesson": 2,
+    "wk": true,
+    "ex": {
+      "no": "På en kafé bestiller man ved disken.",
+      "de": "In einem Café bestellt man an der Theke."
     }
   },
   {
@@ -232,10 +254,10 @@
   {
     "id": "w02_bolle",
     "no": "bolle",
-    "de": "das süße Brötchen",
+    "de": "das Hefebrötchen",
     "deAlt": [
-      "das Brötchen",
-      "der Hefeteig-Bun"
+      "das süße Brötchen",
+      "das Brötchen"
     ],
     "pos": "noun",
     "gender": "m",
@@ -249,7 +271,7 @@
     "wk": true,
     "ex": {
       "no": "Mads kjøper to boller.",
-      "de": "Mads kauft zwei Brötchen."
+      "de": "Mads kauft zwei Hefebrötchen."
     },
     "note": "Ein süßes Hefebrötchen, oft mit Rosinen oder Kardamom."
   },
@@ -483,8 +505,8 @@
     ],
     "lesson": 2,
     "ex": {
-      "no": "Susanne er i Oslo i ti uker.",
-      "de": "Susanne ist zehn Wochen in Oslo."
+      "no": "Vi har kurs fem dager i uka.",
+      "de": "Wir haben fünf Tage pro Woche Kurs."
     }
   },
   {
@@ -1207,7 +1229,7 @@
     "lesson": 2,
     "ex": {
       "no": "Hvis du er sulten, er det boller der borte.",
-      "de": "Falls du Hunger hast, gibt es dort drüben Brötchen."
+      "de": "Falls du Hunger hast, gibt es dort drüben Hefebrötchen."
     }
   },
   {
@@ -1337,6 +1359,23 @@
     }
   },
   {
+    "id": "w02_sann",
+    "no": "sann",
+    "de": "wahr",
+    "pos": "adj",
+    "forms": [
+      "sann",
+      "sant",
+      "sanne"
+    ],
+    "lesson": 2,
+    "ex": {
+      "no": "Det er sant!",
+      "de": "Das stimmt!"
+    },
+    "note": "ikke sant? = nicht wahr?, oder?"
+  },
+  {
     "id": "w02_takk_for_sist",
     "no": "takk for sist",
     "de": "danke für das letzte Mal",
@@ -1347,6 +1386,65 @@
       "de": "Hallo, Elin! Danke für das letzte Mal!"
     },
     "note": "Sagt man, wenn man jemanden wiedersieht, mit dem man zuletzt etwas Nettes erlebt hat."
+  },
+  {
+    "id": "w02_mobil",
+    "no": "mobil",
+    "de": "das Handy",
+    "deAlt": [
+      "das Mobiltelefon"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "mobil",
+      "mobilen",
+      "mobiler",
+      "mobilene"
+    ],
+    "lesson": 2,
+    "ex": {
+      "no": "Man betaler med kort eller med mobilen.",
+      "de": "Man bezahlt mit Karte oder mit dem Handy."
+    }
+  },
+  {
+    "id": "w02_mote",
+    "no": "møte",
+    "de": "das Treffen",
+    "deAlt": [
+      "die Besprechung",
+      "die Sitzung"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "møte",
+      "møtet",
+      "møter",
+      "møtene"
+    ],
+    "lesson": 2,
+    "ex": {
+      "no": "Møtet begynner klokka ti.",
+      "de": "Das Treffen beginnt um zehn Uhr."
+    }
+  },
+  {
+    "id": "w02_normal",
+    "no": "normal",
+    "de": "normal",
+    "pos": "adj",
+    "forms": [
+      "normal",
+      "normalt",
+      "normale"
+    ],
+    "lesson": 2,
+    "ex": {
+      "no": "Det er normalt i Norge.",
+      "de": "Das ist in Norwegen normal."
+    }
   },
   {
     "id": "w02_null",
@@ -1382,7 +1480,7 @@
     "lesson": 2,
     "ex": {
       "no": "Mads kjøper to boller.",
-      "de": "Mads kauft zwei Brötchen."
+      "de": "Mads kauft zwei Hefebrötchen."
     }
   },
   {
@@ -1565,7 +1663,7 @@
     "lesson": 2,
     "ex": {
       "no": "En bolle koster atten kroner.",
-      "de": "Ein Brötchen kostet achtzehn Kronen."
+      "de": "Ein Hefebrötchen kostet achtzehn Kronen."
     }
   },
   {

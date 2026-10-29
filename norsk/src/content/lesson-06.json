@@ -109,6 +109,10 @@
         "de": "versammelten wir uns"
       },
       {
+        "no": "gangen",
+        "de": "der Flur"
+      },
+      {
         "no": "banket på",
         "de": "klopfte an"
       },
@@ -121,8 +125,16 @@
         "de": "Hurra für dich, der du Geburtstag hast (das norwegische Geburtstagslied)"
       },
       {
+        "no": "ditt",
+        "de": "dein (Possessivpronomen, Lektion 13)"
+      },
+      {
         "no": "i pyjamas",
         "de": "im Schlafanzug"
+      },
+      {
+        "no": "pyjamas",
+        "de": "der Schlafanzug"
       },
       {
         "no": "pakket Anna opp gavene",
@@ -151,6 +163,10 @@
       {
         "no": "rundt kvartalet",
         "de": "um den Block"
+      },
+      {
+        "no": "Aker brygge",
+        "de": "Hafen- und Restaurantviertel am Oslofjord"
       },
       {
         "no": "stykker",
@@ -230,11 +246,15 @@
       },
       {
         "no": "glad",
-        "de": "froh (nicht: glatt!)"
+        "de": "froh"
       },
       {
         "no": "i morges",
         "de": "heute Morgen (vorbei)"
+      },
+      {
+        "no": "morges",
+        "de": "i morges = heute Morgen (schon vorbei)"
       }
     ]
   },
@@ -251,8 +271,8 @@
           "de": "An Geburtstagen singt man in Norwegen fast immer „Hurra for deg som fyller ditt år“. Margrethe Munthe (1860–1931) hat den Text geschrieben. Sie war Lehrerin und schrieb viele Lieder für Kinder."
         },
         {
-          "no": "Barna står i ring rundt bursdagsbarnet. De bukker, nikker, neier og danser, akkurat som i teksten:",
-          "de": "Die Kinder stehen im Kreis um das Geburtstagskind. Sie verbeugen sich, nicken, knicksen und tanzen, genau wie im Text:"
+          "no": "Ofte står barna i ring rundt bursdagsbarnet. De bukker, nikker, neier og danser, akkurat som i teksten:",
+          "de": "Oft stehen die Kinder im Kreis um das Geburtstagskind. Sie verbeugen sich, nicken, knicksen und tanzen, genau wie im Text:"
         },
         {
           "no": "Hurra for deg som fyller ditt år! / Ja, deg vil vi gratulere! / Alle i ring omkring deg vi står, / og se, nå vil vi marsjere,",
@@ -263,8 +283,8 @@
           "de": "uns verbeugen, nicken, knicksen, uns umdrehen, / für dich tanzen mit Hüpfen und Springen, / dir von Herzen alles Gute wünschen! / Und sag mir nun: Was willst du mehr? / Herzlichen Glückwunsch!"
         },
         {
-          "no": "Den andre sangen er et gammelt folkevers. Vi kjenner ikke forfatteren. I sangen snakker et barn med et lite lam:",
-          "de": "Das zweite Lied ist ein alter Volksreim. Den Verfasser kennen wir nicht. Im Lied spricht ein Kind mit einem kleinen Lamm:"
+          "no": "Den andre sangen er også gammel. Man synger den på norsk, svensk og dansk. I sangen snakker et barn med et lite lam:",
+          "de": "Das zweite Lied ist auch alt. Man singt es auf Norwegisch, Schwedisch und Dänisch. Im Lied spricht ein Kind mit einem kleinen Lamm:"
         },
         {
           "no": "Bæ, bæ, lille lam, har du noe ull? / Ja, ja, kjære barn, jeg har kroppen full.",
@@ -333,12 +353,32 @@
           "de": "marschieren"
         },
         {
+          "no": "bukke",
+          "de": "sich verbeugen"
+        },
+        {
+          "no": "nikke",
+          "de": "nicken"
+        },
+        {
+          "no": "neie",
+          "de": "knicksen"
+        },
+        {
           "no": "snu oss omkring",
           "de": "uns umdrehen"
         },
         {
           "no": "hopp og sprett og spring",
           "de": "Hüpfen und Springen"
+        },
+        {
+          "no": "sprett",
+          "de": "Hüpfer, Sprung"
+        },
+        {
+          "no": "spring",
+          "de": "Laufen, Rennen"
         },
         {
           "no": "av hjertet",
@@ -353,12 +393,12 @@
           "de": "mehr (ältere Form von mer)"
         },
         {
-          "no": "folkevers",
-          "de": "Volksreim, Volkslied"
+          "no": "Bæ",
+          "de": "mäh (so macht das Schaf)"
         },
         {
-          "no": "forfatteren",
-          "de": "der Verfasser, der Autor"
+          "no": "lille",
+          "de": "klein (vor einer Anrede oder einem Namen)"
         },
         {
           "no": "lille lam",
@@ -442,7 +482,7 @@
       },
       {
         "no": "Den er kjempefin!",
-        "de": "Das ist super schön!",
+        "de": "Das ist superschön!",
         "note": "kjempe- verstärkt: kjempefin, kjempegod (Lektion 12)."
       },
       {
@@ -888,8 +928,8 @@
           "explain": "et vær: Neutrum, vakker + t."
         },
         {
-          "prompt": "Ola kjøpte to ___ gaver. (enkel)",
-          "de": "Ola kaufte zwei einfache Geschenke.",
+          "prompt": "Mads kjøpte to ___ gaver. (enkel)",
+          "de": "Mads kaufte zwei einfache Geschenke.",
           "answer": [
             "enkle"
           ],
@@ -1222,7 +1262,8 @@
       "no": [
         "I går feiret vi Anna.",
         "Vi feiret Anna i går.",
-        "I går feira vi Anna."
+        "I går feira vi Anna.",
+        "Vi feira Anna i går."
       ],
       "hint": "Präteritum, nicht Perfekt."
     },
@@ -1308,7 +1349,7 @@
       "answer": [
         "spiste"
       ],
-      "hint": "Präteritum"
+      "hint": "spise, Präteritum"
     },
     {
       "prompt": "Etterpå ___ kelneren en bløtkake med tjuefem lys.",

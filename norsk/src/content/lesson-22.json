@@ -111,8 +111,8 @@
       },
       {
         "s": "s",
-        "no": "Så mange barn, og alle har flagg! Noen er bare tre–fire år gamle, og de roper «Hurra!» så høyt de kan.",
-        "de": "So viele Kinder, und alle haben Fähnchen! Manche sind erst drei, vier Jahre alt, und sie rufen „Hurra!“, so laut sie können."
+        "no": "Så mange barn, og alle har flagg! De minste er bare seks år gamle, og de roper «Hurra!» så høyt de kan.",
+        "de": "So viele Kinder, und alle haben Fähnchen! Die Kleinsten sind erst sechs Jahre alt, und sie rufen „Hurra!“, so laut sie können."
       },
       {
         "s": "m",
@@ -131,8 +131,8 @@
       },
       {
         "s": "p",
-        "no": "Grunnloven ble underskrevet den 17. mai 1814. Samme høst kom Norge i union med Sverige, men landet beholdt grunnloven sin og fikk sitt eget storting.",
-        "de": "Die Verfassung wurde am 17. Mai 1814 unterzeichnet. Im Herbst desselben Jahres kam Norwegen in eine Union mit Schweden, aber das Land behielt seine Verfassung und bekam sein eigenes Parlament."
+        "no": "Grunnloven ble underskrevet den 17. mai 1814. Samme høst kom Norge i union med Sverige, men landet beholdt grunnloven sin og sitt eget storting.",
+        "de": "Die Verfassung wurde am 17. Mai 1814 unterzeichnet. Im Herbst desselben Jahres kam Norwegen in eine Union mit Schweden, aber das Land behielt seine Verfassung und sein eigenes Parlament."
       },
       {
         "s": "m",
@@ -156,8 +156,8 @@
       },
       {
         "s": "m",
-        "no": "I Sveits feirer vi 1. august. Det er bål på fjellene, fyrverkeri og taler, men ikke noe barnetog. Vi er nok litt mer beskjedne.",
-        "de": "In der Schweiz feiern wir den 1. August. Es gibt Feuer auf den Bergen, Feuerwerk und Reden, aber keinen Kinderumzug. Wir sind wohl etwas bescheidener."
+        "no": "I Sveits feirer vi 1. august. Det er bål på fjellene, fyrverkeri og taler, men ikke noe barnetog som her. Vi er nok litt mer beskjedne.",
+        "de": "In der Schweiz feiern wir den 1. August. Es gibt Feuer auf den Bergen, Feuerwerk und Reden, aber keinen Kinderumzug wie hier. Wir sind wohl etwas bescheidener."
       },
       {
         "s": "s",
@@ -172,7 +172,7 @@
       {
         "s": "p",
         "no": "Men 17. mai er ingen militærparade. Det er barna som går i tog, ikke soldatene. Det er nettopp det jeg er stolt av.",
-        "de": "Aber der 17. Mai ist keine Militärparade. Es sind die Kinder, die im Umzug gehen, nicht die Soldaten. Genau darauf bin ich stolz."
+        "de": "Aber der 17. Mai ist keine Militärparade. Es sind die Kinder, die im Umzug mitgehen, nicht die Soldaten. Genau darauf bin ich stolz."
       },
       {
         "s": "m",
@@ -360,7 +360,7 @@
       },
       {
         "no": "går i tog",
-        "de": "gehen im Umzug mit"
+        "de": "im Umzug mitgehen"
       },
       {
         "no": "i stedet for",
@@ -409,8 +409,8 @@
           "de": "Prinz Carl nahm den Namen Haakon VII. an, und seine Frau, die britische Prinzessin Maud, wurde Norwegens Königin. Ihr kleiner Sohn Alexander bekam den norwegischen Namen Olav."
         },
         {
-          "no": "Olav 5. var konge fra 1957 til 1991 og ble kalt «folkekongen». Mange nordmenn kjenner bildet fra oljekrisen i 1970-årene: Da det var forbudt å kjøre privatbil i helgene, tok kongen Holmenkollbanen for å gå på ski – og han ville betale for billetten som alle andre.",
-          "de": "Olav V. war von 1957 bis 1991 König und wurde „Volkskönig“ genannt. Viele Norweger kennen das Bild aus der Ölkrise der 1970er-Jahre: Als es verboten war, am Wochenende mit dem Privatauto zu fahren, nahm der König die Holmenkollbahn, um Ski zu fahren – und er wollte wie alle anderen seine Fahrkarte bezahlen."
+          "no": "Olav 5. var konge fra 1957 til 1991 og ble kalt «folkekongen». Mange nordmenn kjenner bildet fra oljekrisen i 1970-årene: Da det var forbudt å kjøre privatbil i helgene, tok kongen Holmenkollbanen for å gå på ski – akkurat som alle andre.",
+          "de": "Olav V. war von 1957 bis 1991 König und wurde „Volkskönig“ genannt. Viele Norweger kennen das Bild aus der Ölkrise der 1970er-Jahre: Als es verboten war, am Wochenende mit dem Privatauto zu fahren, nahm der König die Holmenkollbahn, um Ski zu fahren – genau wie alle anderen."
         },
         {
           "no": "Kong Harald 5., sønnen til kong Olav, ble konge i 1991. Han er gift med dronning Sonja, som ikke kommer fra en kongelig familie. Paret måtte vente i ni år før de fikk gifte seg, fordi mange mente at en kronprins burde gifte seg med en prinsesse. Bryllupet var i 1968. Kongens valgspråk er «Alt for Norge».",
@@ -657,7 +657,7 @@
       "sections": [
         {
           "h": "-ing und -ning",
-          "body": "Die häufigste Endung ist **-ing**. Sie kommt an den Stamm des Verbs (Infinitiv ohne -e): **feire → feiring** (Feier), **forklare → forklaring** (Erklärung), **bestille → bestilling** (Bestellung), **trene → trening** (Training). Bei manchen Verben heißt die Endung **-ning**: **løse → løsning** (Lösung), **åpne → åpning** (Öffnung), **tegne → tegning** (Zeichnung).\n\nOft entspricht **-ing** dem deutschen **-ung**: Erklärung – **forklaring**, Lösung – **løsning**.\n\n• Geschlecht: maskulin **oder** feminin, beides ist korrekt: **en/ei løsning – løsningen/løsninga**, **en/ei feiring – feiringen/feiringa**.\n• Der Plural endet immer auf **-er**: **feiringer, løsninger, forklaringer**."
+          "body": "Die häufigste Endung ist **-ing**. Sie kommt an den Stamm des Verbs (Infinitiv ohne -e): **feire → feiring** (Feier), **forklare → forklaring** (Erklärung), **bestille → bestilling** (Bestellung), **trene → trening** (Training). Bei manchen Verben heißt die Endung **-ning**: **løse → løsning** (Lösung), **bygge → bygning** (Gebäude), **lese → lesning** (Lektüre). Endet der Stamm schon auf -n, kommt einfach -ing dazu: **åpne → åpning** (Öffnung), **tegne → tegning** (Zeichnung).\n\nOft entspricht **-ing** dem deutschen **-ung**: Erklärung – **forklaring**, Lösung – **løsning**.\n\n• Geschlecht: maskulin **oder** feminin, beides ist korrekt: **en/ei løsning – løsningen/løsninga**, **en/ei feiring – feiringen/feiringa**.\n• Der Plural endet immer auf **-er**: **feiringer, løsninger, forklaringer**."
         },
         {
           "h": "-else und -sjon",
@@ -665,7 +665,7 @@
         },
         {
           "h": "Der bloße Stamm",
-          "body": "Manche Verben bilden ein Substantiv ganz ohne Endung, oft ein Neutrum: **kjøpe → et kjøp** (Kauf), **besøke → et besøk** (Besuch), **hoppe → et hopp** (Sprung), **smile → et smil** (Lächeln). Es gibt aber auch maskuline: **starte → en start**, **drømme → en drøm**, **uttale → en uttale** (Aussprache).\n\nHier hilft nur: das Geschlecht mitlernen. Im Deutschen ist es ähnlich (kaufen – der Kauf).",
+          "body": "Manche Verben bilden ein Substantiv ganz ohne Endung, oft ein Neutrum: **kjøpe → et kjøp** (Kauf), **besøke → et besøk** (Besuch), **hoppe → et hopp** (Sprung), **smile → et smil** (Lächeln). Es gibt aber auch maskuline: **starte → en start**, **drømme → en drøm**. Manchmal ist das Substantiv sogar gleich wie der Infinitiv: **uttale → en uttale** (Aussprache), **ønske → et ønske** (Wunsch).\n\nHier hilft nur: das Geschlecht mitlernen. Im Deutschen ist es ähnlich (kaufen – der Kauf).",
           "table": [
             [
               "Verb",
@@ -826,7 +826,7 @@
       "sections": [
         {
           "h": "Ein Wort, nicht zwei",
-          "body": "Wie im Deutschen schreibt man Zusammensetzungen in einem Wort: **nasjonaldag**, **barnetog**, **juletre**, **flaggstang**. Getrenntschreibung (**særskriving**) gilt in Norwegen als typischer Fehler, vor allem unter dem Einfluss des Englischen – und sie kann den Sinn verändern:\n\n• **lammelår** = Lammkeule, aber **lamme lår** = gelähmte Oberschenkel\n• **røykfritt** = rauchfrei, aber **røyk fritt** = rauch ungehindert!\n• **en engelsklærer** = ein Englischlehrer, aber **en engelsk lærer** = ein englischer Lehrer\n\nMit Zahlen und Abkürzungen steht ein Bindestrich: **17. mai-feiring**, **fotball-VM**, **e-post**."
+          "body": "Wie im Deutschen schreibt man Zusammensetzungen in einem Wort: **nasjonaldag**, **barnetog**, **juletre**, **flaggstang**. Getrenntschreibung (**særskriving**) gilt in Norwegen als typischer Fehler, vor allem unter dem Einfluss des Englischen – und sie kann den Sinn verändern:\n\n• **lammelår** = Lammkeule, aber **lamme lår** = gelähmte Oberschenkel\n• **røykfritt** = rauchfrei, aber **røyk fritt** = rauch, so viel du willst!\n• **en engelsklærer** = ein Englischlehrer, aber **en engelsk lærer** = ein englischer Lehrer\n\nMit Zahlen und Abkürzungen steht ein Bindestrich: **17. mai-feiring**, **fotball-VM**, **e-post**."
         },
         {
           "h": "Fugenlaute: -s- und -e-",
@@ -909,15 +909,16 @@
           "explain": "Mit Fugen-s wie im Deutschen: arbeidsdag (Arbeitstag)."
         },
         {
-          "prompt": "Ola gikk i ___ til han var seks år. (barn + hage, bestimmte Form)",
+          "prompt": "Ola gikk i ___ til han var seks år. (barn + hage)",
           "de": "Ola ging in den Kindergarten, bis er sechs Jahre alt war.",
           "answer": [
+            "barnehage",
             "barnehagen"
           ],
-          "explain": "barn + e + hage = barnehage (Fugen-e), bestimmt: barnehagen."
+          "explain": "barn + e + hage = barnehage (Fugen-e); gå i barnehage = in den Kindergarten gehen."
         },
         {
-          "prompt": "Flagget henger på ___ i hagen. (flagg + stang, bestimmte Form)",
+          "prompt": "Flagget henger i ___ i hagen. (flagg + stang, bestimmte Form)",
           "de": "Die Fahne hängt an der Fahnenstange im Garten.",
           "answer": [
             "flaggstanga",
@@ -936,11 +937,11 @@
         },
         {
           "prompt": "Russen kjører rundt i den røde ___. (russ + buss, bestimmte Form)",
-          "de": "Die Russ fahren in dem roten Russ-Bus herum.",
+          "de": "Die Russ fahren im roten Russ-Bus herum.",
           "answer": [
             "russebussen"
           ],
-          "explain": "Mit Fugen-e: russebuss; nach den rote steht die bestimmte Form: russebussen."
+          "explain": "Mit Fugen-e: russebuss; nach den røde steht die bestimmte Form: russebussen."
         },
         {
           "prompt": "Det norske ___ er roligere enn det tyske. (hverdag + liv, bestimmte Form)",
@@ -960,7 +961,7 @@
         },
         {
           "prompt": "På ___ går barna i tog. (grunnlov + dag, bestimmte Form)",
-          "de": "Am Verfassungstag gehen die Kinder im Umzug.",
+          "de": "Am Verfassungstag laufen die Kinder im Umzug mit.",
           "answer": [
             "grunnlovsdagen"
           ],
@@ -1058,9 +1059,10 @@
           "de": "Der Tisch ist gedeckt, und der Champagner ist kalt.",
           "answer": [
             "dekket",
-            "dekka"
+            "dekka",
+            "dekt"
           ],
-          "explain": "være + Partizip = Zustand; Singular Neutrum: dekket (oder dekka)."
+          "explain": "være + Partizip = Zustand; Singular Neutrum: dekket (oder dekka/dekt)."
         },
         {
           "prompt": "Et ___ brød er ikke like godt som et hjemmebakt. (kjøpe)",
@@ -1095,8 +1097,8 @@
           "explain": "Starkes Partizip in der bestimmten Form: skrevet → det skrevne språket."
         },
         {
-          "prompt": "Ola har et ___ bein og kan ikke gå i toget. (brekke)",
-          "de": "Ola hat ein gebrochenes Bein und kann nicht im Umzug mitgehen.",
+          "prompt": "Gutten har et ___ bein og kan ikke spille fotball. (brekke)",
+          "de": "Der Junge hat ein gebrochenes Bein und kann nicht Fußball spielen.",
           "answer": [
             "brukket"
           ],
@@ -1173,7 +1175,7 @@
       "s": "I Sveits feirer man nasjonaldagen med et stort barnetog.",
       "de": "In der Schweiz feiert man den Nationalfeiertag mit einem großen Kinderumzug.",
       "a": false,
-      "why": "Am 1. August gibt es Feuer, Feuerwerk und Reden, aber keinen Kinderumzug."
+      "why": "Am 1. August gibt es Feuer, Feuerwerk und Reden, aber keinen Kinderumzug wie in Norwegen."
     },
     {
       "s": "Susanne sier at mange tyskere er forsiktige med flagg.",
@@ -1202,7 +1204,7 @@
     {
       "q": "Hvorfor er bunaden viktig for Kari?",
       "qDe": "Warum ist die Tracht für Kari wichtig?",
-      "answer": "Den er en del av familiehistorien hennes, og sølvsølja er arvet etter mormoren.",
+      "answer": "Den er en del av familiehistorien hennes, og sølvsølja er arvet etter mormoren hennes.",
       "answerDe": "Sie ist ein Teil ihrer Familiengeschichte, und die Silberbrosche ist von ihrer Großmutter geerbt.",
       "keywords": [
         [
@@ -1275,7 +1277,7 @@
       "q": "Hvorfor er Per stolt av 17. mai?",
       "qDe": "Warum ist Per stolz auf den 17. Mai?",
       "answer": "Fordi det er barna som går i tog, ikke soldatene.",
-      "answerDe": "Weil die Kinder im Umzug gehen und nicht die Soldaten.",
+      "answerDe": "Weil die Kinder im Umzug mitgehen und nicht die Soldaten.",
       "keywords": [
         [
           "barna",
@@ -1350,14 +1352,17 @@
     {
       "de": "Die Tracht ist handgenäht und sieht aus wie neu.",
       "no": [
-        "Bunaden er håndsydd og ser ut som ny."
+        "Bunaden er håndsydd og ser ut som ny.",
+        "Bunaden er håndsydd, og den ser ut som ny.",
+        "Bunaden er håndsydd og ser ny ut."
       ]
     },
     {
       "de": "Wir gehen hinauf zum Schloss, um den Kinderumzug zu sehen.",
       "no": [
         "Vi går opp mot Slottet for å se barnetoget.",
-        "Vi går opp til Slottet for å se barnetoget."
+        "Vi går opp til Slottet for å se barnetoget.",
+        "Vi går opp mot Slottet for å se på barnetoget."
       ]
     },
     {
@@ -1365,7 +1370,8 @@
       "no": [
         "Grunnloven ble underskrevet i 1814.",
         "Grunnloven ble skrevet under i 1814.",
-        "I 1814 ble grunnloven underskrevet."
+        "I 1814 ble grunnloven underskrevet.",
+        "I 1814 ble grunnloven skrevet under."
       ]
     },
     {
@@ -1384,7 +1390,8 @@
     {
       "de": "Viele Deutsche sind vorsichtig mit Fahnen.",
       "no": [
-        "Mange tyskere er forsiktige med flagg."
+        "Mange tyskere er forsiktige med flagg.",
+        "Mange tyskere er forsiktige med flaggene."
       ]
     },
     {
@@ -1402,7 +1409,7 @@
       ]
     },
     {
-      "de": "Es sind die Kinder, die im Umzug gehen, nicht die Soldaten.",
+      "de": "Es sind die Kinder, die im Umzug mitgehen, nicht die Soldaten.",
       "no": [
         "Det er barna som går i tog, ikke soldatene.",
         "Det er barna som går i toget, ikke soldatene."
@@ -1498,7 +1505,7 @@
         ]
       }
     ],
-    "model": "Kjære Sigrid!\nNå har jeg endelig feiret 17. mai i Norge, og det var en fantastisk opplevelse. Om morgenen ble vi vekket av et korps som spilte utenfor vinduet. Etter frokosten gikk vi ned til sentrum. Byen var pyntet med flagg overalt, og mange hadde på seg bunad. Jeg så barnetoget på Karl Johan og kongefamilien som vinket fra balkongen. Barna ropte «Hurra!», og jeg fikk en rar følelse i magen – jeg ble nesten litt norsk.\nHjemme i Tyskland har vi nasjonaldagen den 3. oktober, men den feirer vi ikke på samme måte. Det er ingen barnetog, og de fleste har bare fri. Kanskje er vi litt for forsiktige med flagget vårt. Etter denne dagen forstår jeg bedre hvorfor nordmenn er så glade i 17. mai.\nHilsen fra Freiburg",
-    "modelDe": "Liebe Sigrid!\nJetzt habe ich endlich den 17. Mai in Norwegen gefeiert, und es war ein fantastisches Erlebnis. Am Morgen wurden wir von einer Kapelle geweckt, die vor dem Fenster spielte. Nach dem Frühstück gingen wir hinunter ins Zentrum. Die Stadt war überall mit Fahnen geschmückt, und viele trugen Tracht. Ich sah den Kinderumzug auf der Karl Johan und die Königsfamilie, die vom Balkon winkte. Die Kinder riefen „Hurra!“, und ich bekam ein seltsames Gefühl im Bauch – ich wurde fast ein bisschen norwegisch.\nZu Hause in Deutschland haben wir den Nationalfeiertag am 3. Oktober, aber den feiern wir nicht auf dieselbe Weise. Es gibt keinen Kinderumzug, und die meisten haben einfach frei. Vielleicht sind wir ein bisschen zu vorsichtig mit unserer Fahne. Nach diesem Tag verstehe ich besser, warum die Norweger den 17. Mai so sehr lieben.\nGrüße aus Freiburg"
+    "model": "Kjære Sigrid!\nNå har jeg endelig feiret 17. mai i Norge, og det var en fantastisk opplevelse. Om morgenen ble vi vekket av et korps som spilte utenfor vinduet. Etter frokosten gikk vi ned til sentrum. Byen var pyntet med flagg overalt, og mange hadde på seg bunad. Jeg så barnetoget på Karl Johan og kongefamilien som vinket fra balkongen. Barna ropte «Hurra!», og jeg fikk en rar følelse i magen – jeg ble nesten litt norsk.\nHjemme i Tyskland har vi nasjonaldagen den 3. oktober, men den feirer vi ikke på samme måte. Det er ingen barnetog, og de fleste har bare fri. Kanskje er vi litt for forsiktige med flagget vårt. Etter denne dagen forstår jeg bedre hvorfor nordmenn er så glade i 17. mai. Neste år vil jeg gjerne feire dagen i Norge igjen – kanskje til og med i bunad!\nHilsen fra Freiburg",
+    "modelDe": "Liebe Sigrid!\nJetzt habe ich endlich den 17. Mai in Norwegen gefeiert, und es war ein fantastisches Erlebnis. Am Morgen wurden wir von einer Kapelle geweckt, die vor dem Fenster spielte. Nach dem Frühstück gingen wir hinunter ins Zentrum. Die Stadt war überall mit Fahnen geschmückt, und viele trugen Tracht. Ich sah den Kinderumzug auf der Karl Johan und die Königsfamilie, die vom Balkon winkte. Die Kinder riefen „Hurra!“, und ich bekam ein seltsames Gefühl im Bauch – ich wurde fast ein bisschen norwegisch.\nZu Hause in Deutschland haben wir den Nationalfeiertag am 3. Oktober, aber den feiern wir nicht auf dieselbe Weise. Es gibt keinen Kinderumzug, und die meisten haben einfach frei. Vielleicht sind wir ein bisschen zu vorsichtig mit unserer Fahne. Nach diesem Tag verstehe ich besser, warum die Norweger den 17. Mai so sehr lieben. Nächstes Jahr möchte ich den Tag gern wieder in Norwegen feiern – vielleicht sogar in Tracht!\nGrüße aus Freiburg"
   }
 }

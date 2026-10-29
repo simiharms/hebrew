@@ -17,7 +17,9 @@ export function normalize(s: string): string {
     // (No lookbehind: older iPhones can't parse it.)
     .replace(/-/g, (m, i: number, str: string) => (IS_WORD_CHAR.test(str[i - 1] ?? '') && IS_WORD_CHAR.test(str[i + 1] ?? '') ? m : ' '))
     .replace(/[.,!?;:()[\]{}"…/\\+=*&#@~^|<>]/g, ' ')
-    .replace(/(^|\s)'+|'+(?=\s|$)/g, ' ')
+    // Quotes go, but the genitive apostrophe after s, x, z stays (Matthias' bil).
+    .replace(/(^|\s)'+/g, ' ')
+    .replace(/([^\s])('+)(?=\s|$)/g, (_m, c: string) => (/[sxz]/.test(c) ? `${c}'` : c))
     .replace(/\s+/g, ' ')
     .trim();
 }

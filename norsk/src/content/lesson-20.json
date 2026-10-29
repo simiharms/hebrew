@@ -45,7 +45,7 @@
       { "no": "helt for seg selv", "de": "ganz für sich allein" },
       { "no": "innlagt vann", "de": "fließendes Wasser" },
       { "no": "bøtter", "de": "Eimer" },
-      { "no": "som klippet ut av et postkort", "de": "wie aus einer Postkarte ausgeschnitten" },
+      { "no": "klippet ut av et postkort", "de": "aus einer Postkarte ausgeschnitten" },
       { "no": "skiføre", "de": "Schneeverhältnisse zum Skifahren" },
       { "no": "påsto", "de": "behauptete" },
       { "no": "alpinski", "de": "Alpinski" },
@@ -58,7 +58,7 @@
       { "no": "kost meg", "de": "es mir gemütlich gemacht, genossen" },
       { "no": "noe som helst", "de": "überhaupt etwas" },
       { "no": "Det er meldt", "de": "es ist angesagt" },
-      { "no": "sterk kuling", "de": "stürmischer Wind (Windstärke 7)" },
+      { "no": "sterk kuling", "de": "stürmischer Wind (Windstärke 8)" },
       { "no": "tar alltid feil", "de": "liegt immer daneben" },
       { "no": "dro vi av gårde", "de": "brachen wir auf" },
       { "no": "Ved tolvtiden", "de": "gegen zwölf Uhr" },
@@ -71,7 +71,9 @@
       { "no": "skal ha bodd", "de": "soll gewohnt haben, angeblich gewohnt hat" },
       { "no": "tryglet Per om å", "de": "bettelte Per an, zu …" },
       { "no": "sluppet å fryse", "de": "nicht frieren müssen" },
-      { "no": "det går an", "de": "es ist möglich, es geht" }
+      { "no": "det går an", "de": "es ist möglich, es geht" },
+      { "no": "an", "de": "(nur in: det går an = es geht, es ist möglich)" },
+      { "no": "mi", "de": "meine (feminin: dagboka mi = mein Tagebuch)" }
     ]
   },
   "extra": [
@@ -82,9 +84,9 @@
       "kind": "info",
       "intro": "Was Norweger an Ostern machen – und was sie dabei lesen.",
       "lines": [
-        { "no": "Påsken er en av årets viktigste ferier i Norge. Mange har fri fra skjærtorsdag til andre påskedag, og svært mange reiser på hytta, helst til fjells. Der går man på ski i påskesola, spiser appelsiner og Kvikk Lunsj og blir brun i ansiktet. Kvikk Lunsj er en sjokolade som har blitt solgt siden 1937, og på innsiden av papiret står fjellvettreglene – gode råd for alle som skal på tur.", "de": "Ostern ist in Norwegen eine der wichtigsten Ferienzeiten des Jahres. Viele haben von Gründonnerstag bis Ostermontag frei, und sehr viele fahren zur Hütte, am liebsten in die Berge. Dort fährt man in der Ostersonne Ski, isst Orangen und Kvikk Lunsj und bekommt ein braungebranntes Gesicht. Kvikk Lunsj ist eine Schokolade, die seit 1937 verkauft wird, und auf der Innenseite der Verpackung stehen die Fjellvettregeln – gute Ratschläge für alle, die auf Tour gehen." },
+        { "no": "Påsken er en av årets viktigste ferier i Norge. Mange har fri fra skjærtorsdag til andre påskedag, og svært mange reiser på hytta, helst til fjells. Der går man på ski i påskesola, spiser appelsiner og Kvikk Lunsj og blir brun i ansiktet. Kvikk Lunsj er en sjokolade som kom i butikkene allerede i 1937, og på papiret står fjellvettreglene – gode råd for alle som skal på tur.", "de": "Ostern ist in Norwegen eine der wichtigsten Ferienzeiten des Jahres. Viele haben von Gründonnerstag bis Ostermontag frei, und sehr viele fahren zur Hütte, am liebsten in die Berge. Dort fährt man in der Ostersonne Ski, isst Orangen und Kvikk Lunsj und bekommt ein braungebranntes Gesicht. Kvikk Lunsj ist eine Schokolade, die schon 1937 in die Läden kam, und auf der Verpackung stehen die Fjellvettregeln – gute Ratschläge für alle, die auf Tour gehen." },
         { "no": "Men påsken er også krimtid. Tradisjonen begynte i 1923. Da sto det med store bokstaver på forsiden av Aftenposten: «Bergenstoget plyndret i natt». Mange trodde at det var en ekte nyhet, men det var reklame for en ny kriminalroman med samme tittel, skrevet av Nordahl Grieg og Nils Lie. Boka solgte godt, og siden har forlagene gitt ut nye krimbøker hver påske.", "de": "Ostern ist aber auch Krimizeit. Die Tradition begann 1923. Damals stand in großen Buchstaben auf der Titelseite der Zeitung Aftenposten: „Bergenstoget plyndret i natt“ (Bergen-Zug heute Nacht ausgeraubt). Viele hielten das für eine echte Nachricht, aber es war Werbung für einen neuen Kriminalroman mit demselben Titel, geschrieben von Nordahl Grieg und Nils Lie. Das Buch verkaufte sich gut, und seitdem bringen die Verlage jedes Jahr zu Ostern neue Krimis heraus." },
-        { "no": "I dag finner man påskekrim nesten overalt: TV-kanalene sender krimserier, avisene trykker krimgåter, og på melkekartongene står det korte kriminalhistorier. Norsk krim er dessuten populær i hele verden. Jo Nesbøs bøker om politimannen Harry Hole er oversatt til mange språk, og Gunnar Staalesens privatdetektiv Varg Veum løser saker i et regnfullt Bergen. Også Anne Holt, som en periode var justisminister, skriver krim.", "de": "Heute findet man Osterkrimis fast überall: Die Fernsehsender zeigen Krimiserien, die Zeitungen drucken Krimirätsel, und auf den Milchtüten stehen kurze Kriminalgeschichten. Norwegische Krimis sind außerdem in der ganzen Welt beliebt. Jo Nesbøs Bücher über den Polizisten Harry Hole sind in viele Sprachen übersetzt, und Gunnar Staalesens Privatdetektiv Varg Veum löst Fälle in einem verregneten Bergen. Auch Anne Holt, die eine Zeit lang Justizministerin war, schreibt Krimis." },
+        { "no": "I dag finner man påskekrim nesten overalt: TV-kanalene sender krimserier, avisene trykker krimgåter, og på melkekartongene står det korte kriminalhistorier. Norsk krim er dessuten populær i hele verden. Jo Nesbøs bøker om politimannen Harry Hole er oversatt til mange språk, og Gunnar Staalesens privatdetektiv Varg Veum løser saker i et regnfullt Bergen. Også Anne Holt, som en kort periode var justisminister, skriver krim.", "de": "Heute findet man Osterkrimis fast überall: Die Fernsehsender zeigen Krimiserien, die Zeitungen drucken Krimirätsel, und auf den Milchtüten stehen kurze Kriminalgeschichten. Norwegische Krimis sind außerdem in der ganzen Welt beliebt. Jo Nesbøs Bücher über den Polizisten Harry Hole sind in viele Sprachen übersetzt, und Gunnar Staalesens Privatdetektiv Varg Veum löst Fälle in einem verregneten Bergen. Auch Anne Holt, die kurze Zeit Justizministerin war, schreibt Krimis." },
         { "no": "Norsk litteratur er likevel mye mer enn krim. Henrik Ibsen er en av verdens mest spilte dramatikere, og fire norske forfattere har fått nobelprisen i litteratur: Bjørnstjerne Bjørnson (1903), Knut Hamsun (1920), Sigrid Undset (1928) og Jon Fosse (2023). Undsets store roman «Kristin Lavransdatter» begynner i Gudbrandsdalen på 1300-tallet – kanskje en god påskebok neste gang du er på hytta der?", "de": "Die norwegische Literatur ist aber viel mehr als Krimis. Henrik Ibsen ist einer der meistgespielten Dramatiker der Welt, und vier norwegische Schriftsteller haben den Nobelpreis für Literatur bekommen: Bjørnstjerne Bjørnson (1903), Knut Hamsun (1920), Sigrid Undset (1928) und Jon Fosse (2023). Undsets großer Roman „Kristin Lavransdatter“ beginnt im 14. Jahrhundert im Gudbrandsdal – vielleicht ein gutes Osterbuch, wenn du das nächste Mal dort auf einer Hütte bist?" },
         { "no": "Og kosen? Den er kanskje det viktigste av alt. Å ligge på sofaen med en god bok, en kopp kakao og et påskeegg fullt av godteri – det er norsk påskekos på sitt beste.", "de": "Und die Gemütlichkeit? Sie ist vielleicht das Wichtigste überhaupt. Mit einem guten Buch, einer Tasse Kakao und einem Osterei voller Süßigkeiten auf dem Sofa liegen – das ist norwegische Ostergemütlichkeit vom Feinsten." }
       ],
@@ -95,8 +97,8 @@
         { "no": "til fjells", "de": "in die Berge, ins Gebirge" },
         { "no": "påskesola", "de": "die Ostersonne" },
         { "no": "blir brun i ansiktet", "de": "bekommt ein braungebranntes Gesicht" },
-        { "no": "har blitt solgt", "de": "wird verkauft (seit …)" },
-        { "no": "på innsiden av papiret", "de": "auf der Innenseite der Verpackung" },
+        { "no": "kom i butikkene", "de": "kam in die Läden" },
+        { "no": "på papiret", "de": "auf der Verpackung" },
         { "no": "råd", "de": "Ratschläge" },
         { "no": "krimtid", "de": "Krimizeit" },
         { "no": "forsiden", "de": "die Titelseite" },
@@ -109,11 +111,12 @@
         { "no": "gitt ut", "de": "herausgebracht, veröffentlicht" },
         { "no": "trykker", "de": "drucken" },
         { "no": "krimgåter", "de": "Krimirätsel" },
+        { "no": "kriminalhistorier", "de": "Kriminalgeschichten" },
         { "no": "politimannen", "de": "der Polizist" },
         { "no": "er oversatt", "de": "sind übersetzt" },
         { "no": "privatdetektiv", "de": "Privatdetektiv" },
         { "no": "regnfullt", "de": "verregnet" },
-        { "no": "en periode", "de": "eine Zeit lang" },
+        { "no": "en kort periode", "de": "eine kurze Zeit lang" },
         { "no": "justisminister", "de": "Justizminister(in)" },
         { "no": "likevel", "de": "trotzdem, dennoch" },
         { "no": "mest spilte", "de": "meistgespielte" },
@@ -142,7 +145,7 @@
       { "no": "Det laver ned.", "de": "Es schüttet. / Es schneit in Massen.", "note": "Umgangssprachlich, für sehr starken Regen oder Schnee." },
       { "no": "Sikten er dårlig.", "de": "Die Sicht ist schlecht." },
       { "no": "Det er fare for snøskred.", "de": "Es besteht Lawinengefahr." },
-      { "no": "Det er ti kuldegrader.", "de": "Es hat zehn Grad unter null.", "note": "Auch: Det er minus ti (grader)." },
+      { "no": "Det er ti kuldegrader.", "de": "Es sind zehn Grad unter null.", "note": "Auch: Det er minus ti (grader)." },
       { "no": "Det er bikkjekaldt!", "de": "Es ist hundekalt!" },
       { "no": "Det er mildvær og slaps.", "de": "Es ist mild und matschig." },
       { "no": "Det er glatt på veiene.", "de": "Auf den Straßen ist es glatt." },
@@ -165,7 +168,7 @@
         },
         {
           "h": "Unwirklich in der Vergangenheit",
-          "body": "Für die Vergangenheit steht im hvis-Satz das **Plusquamperfekt**. Im Hauptsatz gibt es zwei gleich gute Möglichkeiten:\n\n• **Hvis vi hadde hørt på værmeldingen, ville vi ha blitt hjemme.**\n• **Hvis vi hadde hørt på værmeldingen, hadde vi blitt hjemme.**\n(Wenn wir auf den Wetterbericht gehört hätten, wären wir zu Hause geblieben.)\n\nIn der gesprochenen Sprache fällt **ha** oft weg: **ville vi blitt hjemme**.\n\nWie im Deutschen kann der Bedingungssatz auch ohne **hvis** stehen, dann mit dem Verb zuerst: **Hadde vi hørt på Matthias, hadde vi sluppet å fryse.** (Hätten wir auf Matthias gehört, hätten wir nicht frieren müssen.)\n\nAchtung: Wo das Deutsche „wäre … geblieben/gegangen“ sagt, steht im Norwegischen immer **hadde**: **hadde blitt, hadde gått, hadde reist**.",
+          "body": "Für die Vergangenheit steht im hvis-Satz das **Plusquamperfekt**. Im Hauptsatz gibt es zwei gleich gute Möglichkeiten:\n\n• **Hvis vi hadde hørt på værmeldingen, ville vi ha blitt hjemme.**\n• **Hvis vi hadde hørt på værmeldingen, hadde vi blitt hjemme.**\n(Wenn wir auf den Wetterbericht gehört hätten, wären wir zu Hause geblieben.)\n\nIn der gesprochenen Sprache fällt **ha** oft weg: **ville vi blitt hjemme**.\n\nWie im Deutschen kann der Bedingungssatz auch ohne **hvis** stehen, dann mit dem Verb zuerst: **Hadde vi hørt på Matthias, hadde vi sluppet å fryse.** (Hätten wir auf Matthias gehört, hätten wir nicht frieren müssen.)\n\nAchtung: Wo das Deutsche „wäre … geblieben/gegangen“ sagt, steht im Norwegischen immer **ha**: **hadde blitt, hadde gått, ville ha reist** (nie *var blitt).",
           "table": [
             ["", "hvis-Satz", "Hauptsatz"],
             ["Gegenwart", "Präteritum: hvis jeg hadde tid", "ville + Infinitiv: ville jeg gå på ski"],
@@ -174,7 +177,7 @@
         },
         {
           "h": "Wünsche: Jeg skulle ønske … und Om bare …!",
-          "body": "Unerfüllbare Wünsche drückst du mit **Jeg skulle ønske (at) …** aus – wieder mit Präteritum (Gegenwart) oder Plusquamperfekt (Vergangenheit):\n\n• **Jeg skulle ønske at det var sol.** (Ich wünschte, die Sonne würde scheinen.)\n• **Jeg skulle ønske at vi hadde blitt hjemme.** (Ich wünschte, wir wären zu Hause geblieben.)\n\nAusrufe mit **Om bare …!** oder **Hvis bare …!** (Wenn doch nur …!) haben Nebensatz-Wortstellung:\n\n• **Om bare strømmen kom tilbake!**\n• **Hvis bare jeg hadde tatt med en lommelykt!**\n\n**Jeg skulle ønske** ist eine feste Wendung. Einen erfüllbaren Wunsch drückst du mit **Jeg håper …** aus: **Jeg håper det blir sol i morgen.**"
+          "body": "Unerfüllbare Wünsche drückst du mit **Jeg skulle ønske (at) …** aus – wieder mit Präteritum (Gegenwart) oder Plusquamperfekt (Vergangenheit):\n\n• **Jeg skulle ønske at det var sol.** (Ich wünschte, die Sonne würde scheinen.)\n• **Jeg skulle ønske at vi hadde blitt hjemme.** (Ich wünschte, wir wären zu Hause geblieben.)\n\nAusrufe mit **Om bare …!** oder **Hvis bare …!** (Wenn doch nur …!) haben Nebensatz-Wortstellung:\n\n• **Om bare strømmen kom tilbake!**\n• **Hvis jeg bare hadde tatt med en lommelykt!**\n\nIst das Subjekt ein Pronomen, steht **bare** meist dahinter: **Om vi bare hadde hørt på Matthias!**\n\n**Jeg skulle ønske** ist eine feste Wendung. Einen erfüllbaren Wunsch drückst du mit **Jeg håper …** aus: **Jeg håper det blir sol i morgen.**"
         }
       ],
       "drills": [
@@ -186,7 +189,7 @@
         { "prompt": "Hvis bilen ikke hadde ___ fast, hadde vi kommet ned i bygda. (sitte)", "de": "Wenn das Auto nicht stecken geblieben wäre, wären wir ins Dorf hinuntergekommen.", "answer": ["sittet"], "explain": "sitte fast – satt fast – har/hadde sittet fast." },
         { "prompt": "Jeg ___ ønske at det var sol i dag.", "de": "Ich wünschte, heute würde die Sonne scheinen.", "answer": ["skulle"], "explain": "Unerfüllbarer Wunsch: Jeg skulle ønske (at) …" },
         { "prompt": "Jeg skulle ønske at påsken ___ en uke til. (vare)", "de": "Ich wünschte, Ostern würde noch eine Woche dauern.", "answer": ["varte"], "explain": "Nach skulle ønske steht für die Gegenwart das Präteritum: varte." },
-        { "prompt": "Om bare vi ___ hørt på Matthias! (ha)", "de": "Wenn wir doch nur auf Matthias gehört hätten!", "answer": ["hadde"], "explain": "Wunsch über die Vergangenheit: Plusquamperfekt (hadde hørt)." },
+        { "prompt": "Om vi bare ___ hørt på Matthias! (ha)", "de": "Wenn wir doch nur auf Matthias gehört hätten!", "answer": ["hadde"], "explain": "Wunsch über die Vergangenheit: Plusquamperfekt (hadde hørt)." },
         { "prompt": "___ vi hørt på Matthias, hadde vi sluppet å fryse. (ha, ohne hvis)", "de": "Hätten wir auf Matthias gehört, hätten wir nicht frieren müssen.", "answer": ["Hadde"], "explain": "Ohne hvis beginnt der Bedingungssatz mit dem Verb – wie „Hätten wir …“." },
         { "prompt": "Hvis jeg ___ deg, ville jeg ikke svare Erik. (være)", "de": "Wenn ich du wäre, würde ich Erik nicht antworten.", "answer": ["var"], "explain": "„wäre“ in der Gegenwart = var." },
         { "prompt": "Det ___ vært hyggelig om du kom på besøk. (ha)", "de": "Es wäre schön, wenn du zu Besuch kämst.", "answer": ["hadde"], "explain": "Höflich: Det hadde vært … = Es wäre …" }
@@ -204,7 +207,7 @@
         },
         {
           "h": "Präposition + at-Satz",
-          "body": "Hat der Nebensatz ein eigenes Subjekt, steht nach der Präposition ein **at**-Satz. Die Präposition bleibt stehen!\n\n• **Kari er redd for at bilen ikke starter.** (Kari hat Angst, dass das Auto nicht anspringt.)\n• **Vi gleder oss til at sola kommer tilbake.** (Wir freuen uns darauf, dass die Sonne zurückkommt.)\n• **Per var ikke glad for at Matthias hadde rett.** (Per war nicht froh darüber, dass Matthias recht hatte.)\n\nTypischer Fehler: *Kari er redd at … – die Präposition darf nicht fehlen.\n\nVergleich: gleiches Subjekt → meist Infinitiv: **Jeg er redd for å gå meg vill.** Anderes Subjekt → at-Satz: **Jeg er redd for at du går deg vill.**\n\nIm at-Satz gilt Nebensatz-Wortstellung: **ikke** vor dem Verb."
+          "body": "Hat der Nebensatz ein eigenes Subjekt, steht nach der Präposition ein **at**-Satz. Die Präposition bleibt stehen!\n\n• **Kari er redd for at bilen ikke starter.** (Kari hat Angst, dass das Auto nicht anspringt.)\n• **Vi gleder oss til at sola kommer tilbake.** (Wir freuen uns darauf, dass die Sonne zurückkommt.)\n• **Per var ikke glad for at Matthias hadde rett.** (Per war nicht froh darüber, dass Matthias recht hatte.)\n\nTypischer Fehler: *Vi gleder oss at … – die Präposition darf nicht fehlen: **Vi gleder oss til at …**\n\nVergleich: gleiches Subjekt → meist Infinitiv: **Jeg er redd for å gå meg vill.** Anderes Subjekt → at-Satz: **Jeg er redd for at du går deg vill.**\n\nIm at-Satz gilt Nebensatz-Wortstellung: **ikke** vor dem Verb."
         },
         {
           "h": "Wichtige feste Verbindungen",
@@ -274,15 +277,15 @@
     { "de": "Ich wünschte, es wäre Sommer.", "no": ["Jeg skulle ønske at det var sommer.", "Jeg skulle ønske det var sommer."] },
     { "de": "Wenn doch nur der Strom zurückkäme!", "no": ["Om bare strømmen kom tilbake!", "Hvis bare strømmen kom tilbake!"] },
     { "de": "Ich freue mich darauf, die Hütte zu sehen.", "no": ["Jeg gleder meg til å se hytta.", "Jeg gleder meg til å se hytten."] },
-    { "de": "Sie hat Angst, dass das Auto nicht anspringt.", "no": ["Hun er redd for at bilen ikke starter.", "Hun er redd for at bilen ikke vil starte."] },
+    { "de": "Sie hat Angst, dass das Auto nicht anspringt.", "no": ["Hun er redd for at bilen ikke starter.", "Hun er redd for at bilen ikke vil starte.", "Hun er redd for at bilen ikke skal starte."] },
     { "de": "Er ging, ohne etwas zu sagen.", "no": ["Han gikk uten å si noe.", "Han gikk uten å si noe som helst."] },
     { "de": "Nachdem wir gegessen hatten, gingen wir hinaus.", "no": ["Etter å ha spist gikk vi ut.", "Etter å ha spist, gikk vi ut.", "Etter at vi hadde spist, gikk vi ut."] },
     { "de": "Statt fernzusehen, spielten wir Karten.", "no": ["I stedet for å se på TV spilte vi kort.", "I stedet for å se på TV, spilte vi kort.", "I stedet for å se TV spilte vi kort.", "I stedet for å se TV, spilte vi kort."] },
-    { "de": "Für morgen ist Sonne angesagt.", "no": ["Det er meldt sol i morgen.", "I morgen er det meldt sol."] }
+    { "de": "Für morgen ist Sonne angesagt.", "no": ["Det er meldt sol i morgen.", "I morgen er det meldt sol.", "Det er meldt sol for i morgen."] }
   ],
   "summary": [
     { "prompt": "Susanne skriver i dagboka si på ___ påskedag.", "de": "Susanne schreibt am Ostermontag (zweiten Ostertag) in ihr Tagebuch.", "answer": ["andre"] },
-    { "prompt": "De første dagene gikk de på ski og spiste appelsiner og ___.", "de": "An den ersten Tagen fuhren sie Ski und aßen Orangen und Kvikk Lunsj.", "answer": ["Kvikk Lunsj"] },
+    { "prompt": "De første dagene gikk de på ski og spiste appelsiner og ___.", "de": "An den ersten Tagen fuhren sie Ski und aßen Orangen und Kvikk Lunsj.", "answer": ["Kvikk Lunsj", "sjokolade"] },
     { "prompt": "Matthias sa at det var meldt sterk kuling, men Per ___ ikke på værmeldingen.", "de": "Matthias sagte, es sei stürmischer Wind angesagt, aber Per glaubte dem Wetterbericht nicht.", "answer": ["trodde", "hørte"] },
     { "prompt": "På lørdag snødde det så tett at de måtte ___.", "de": "Am Samstag schneite es so dicht, dass sie umkehren mussten.", "answer": ["snu"] },
     { "prompt": "Om kvelden gikk ___, og bestemor fortalte en trollhistorie.", "de": "Am Abend fiel der Strom aus, und Oma erzählte eine Trollgeschichte.", "answer": ["strømmen"] },

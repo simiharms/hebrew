@@ -127,3 +127,11 @@ describe('numbers', () => {
     expect(clockWords(23, 55)[0]).toBe('fem på tolv');
   });
 });
+
+describe('genitive apostrophe', () => {
+  it("keeps the apostrophe of Matthias' and drops quotes", () => {
+    expect(normalize("Matthias' bil")).toBe("matthias' bil");
+    expect(checkAnswer('Matthias', ["Matthias'"], { strict: true }).verdict).not.toBe('correct');
+    expect(normalize("'hei'")).toBe('hei');
+  });
+});

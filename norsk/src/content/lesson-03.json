@@ -315,7 +315,7 @@
         },
         {
           "no": "Middag spiser man ofte tidlig, klokka fire eller fem. En vanlig middag er fisk eller kjøtt med poteter og grønnsaker.",
-          "de": "Das warme Essen isst man oft früh, um vier oder fünf Uhr. Ein normales Abendessen ist Fisch oder Fleisch mit Kartoffeln und Gemüse."
+          "de": "Das warme Abendessen isst man oft früh, um vier oder fünf Uhr. Ein normales Abendessen ist Fisch oder Fleisch mit Kartoffeln und Gemüse."
         },
         {
           "no": "Norge har en lang kyst og mye fisk. Laks og torsk er veldig populære. Fersk fisk er god, men den er ikke billig.",
@@ -749,7 +749,7 @@
         },
         {
           "prompt": "Anna og Susanne er ___ jenter. (hyggelig)",
-          "de": "Anna und Susanne sind nette Mädchen.",
+          "de": "Anna und Susanne sind nette junge Frauen.",
           "answer": [
             "hyggelige"
           ],
@@ -769,7 +769,7 @@
         },
         {
           "h": "Feste Wendungen ohne Artikel",
-          "body": "In vielen festen Wendungen hat Norwegisch keinen Artikel, das Deutsche aber schon. Lerne sie als Ganzes:",
+          "body": "In vielen festen Wendungen steht auf Norwegisch kein Artikel – manchmal wie im Deutschen (Zeit haben, Geburtstag haben), oft aber anders (ein Auto haben, den Bus nehmen). Lerne sie als Ganzes:",
           "table": [
             [
               "Norwegisch",
@@ -1071,7 +1071,7 @@
     },
     {
       "s": "Per sier at brunost er til dessert.",
-      "de": "Per sagt, dass Brunost zum Nachtisch ist.",
+      "de": "Per sagt, dass man Brunost zum Nachtisch isst.",
       "a": false,
       "why": "Per sagt: »Brunost spiser vi til frokost.«"
     }
@@ -1228,7 +1228,8 @@
         "Jeg er tjuefire år.",
         "Jeg er tjuefire år gammel.",
         "Jeg er fireogtjue år.",
-        "Jeg er fireogtjue år gammel."
+        "Jeg er fireogtjue år gammel.",
+        "Jeg er 24 år."
       ]
     }
   ],
@@ -1263,7 +1264,7 @@
     },
     {
       "prompt": "Per sier at brunost er til ___.",
-      "de": "Per sagt, dass Brunost zum Frühstück ist.",
+      "de": "Per sagt, dass man Brunost zum Frühstück isst.",
       "answer": [
         "frokost"
       ]
@@ -1297,6 +1298,7 @@
       {
         "de": "Einkaufsliste",
         "keywords": [
+          "handlelista",
           "handleliste",
           "trenger"
         ]

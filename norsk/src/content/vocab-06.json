@@ -1205,7 +1205,7 @@
       "no": "Jeg er trøtt, men glad.",
       "de": "Ich bin müde, aber froh."
     },
-    "note": "Falscher Freund: glad = froh, nicht „glatt“. Neutrum ohne -t: et glad barn."
+    "note": "glad i = gern haben: Jeg er glad i deg. = Ich hab dich lieb. Neutrum ohne -t: et glad barn."
   },
   {
     "id": "w06_ringe",
@@ -1488,6 +1488,44 @@
       "de": "Ich verspreche zu kommen."
     },
     "note": "Falscher Freund: love = versprechen, nicht „lieben“ (= elske)."
+  },
+  {
+    "id": "w06_far",
+    "no": "far",
+    "de": "der Vater",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "far",
+      "faren",
+      "fedre",
+      "fedrene"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Per er far til Anna og Ola.",
+      "de": "Per ist der Vater von Anna und Ola."
+    },
+    "note": "Plural mit Umlaut: fedre. Im Alltag oft: pappa."
+  },
+  {
+    "id": "w06_mor",
+    "no": "mor",
+    "de": "die Mutter",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "mor",
+      "mora/moren",
+      "mødre",
+      "mødrene"
+    ],
+    "lesson": 6,
+    "ex": {
+      "no": "Kari er mor til Anna og Ola.",
+      "de": "Kari ist die Mutter von Anna und Ola."
+    },
+    "note": "Plural mit Umlaut: mødre. Im Alltag oft: mamma."
   },
   {
     "id": "w06_strompe",
@@ -1775,7 +1813,7 @@
       "eier",
       "eide",
       "eid",
-      "eie"
+      "ei"
     ],
     "vg": "3",
     "lesson": 6,

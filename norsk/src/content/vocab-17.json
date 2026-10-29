@@ -1502,8 +1502,8 @@
     ],
     "lesson": 17,
     "ex": {
-      "no": "Mange lokale reiser med Hurtigruta.",
-      "de": "Viele Einheimische reisen mit der Hurtigruta."
+      "no": "Skipene går både for lokale reisende og for turister.",
+      "de": "Die Schiffe fahren sowohl für Einheimische als auch für Touristen."
     }
   },
   {
@@ -1552,12 +1552,15 @@
   },
   {
     "id": "w17_ja_vel",
-    "no": "ja vel",
+    "no": "javel",
     "de": "na gut, aha, ach so",
+    "alt": [
+      "ja vel"
+    ],
     "pos": "interj",
     "lesson": 17,
     "ex": {
-      "no": "– Jeg spiser med en venn. – Ja vel.",
+      "no": "– Jeg spiser med en venn. – Javel.",
       "de": "– Ich esse mit einem Freund. – Aha."
     },
     "note": "Kann – je nach Tonfall – kühl oder beleidigt klingen."
@@ -1738,6 +1741,82 @@
     "ex": {
       "no": "Kan du skrive ut en resept?",
       "de": "Kannst du ein Rezept ausstellen?"
+    }
+  },
+  {
+    "id": "w17_januar",
+    "no": "januar",
+    "de": "der Januar",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "januar",
+      "januaren"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Skreien kommer til Lofoten i januar.",
+      "de": "Der Skrei kommt im Januar zu den Lofoten."
+    },
+    "note": "Monatsnamen schreibt man klein: januar, februar, mars …"
+  },
+  {
+    "id": "w17_program",
+    "no": "program",
+    "de": "die Sendung, das Programm",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "program",
+      "programmet",
+      "program/programmer",
+      "programma/programmene"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Jeg så et program om Hurtigruta på tv.",
+      "de": "Ich habe im Fernsehen eine Sendung über die Hurtigruta gesehen."
+    }
+  },
+  {
+    "id": "w17_prosent",
+    "no": "prosent",
+    "de": "das Prozent",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "prosent",
+      "prosenten",
+      "prosent",
+      "prosentene"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Bare ti prosent av passasjerene ble sjøsyke.",
+      "de": "Nur zehn Prozent der Passagiere wurden seekrank."
+    }
+  },
+  {
+    "id": "w17_nordover",
+    "no": "nordover",
+    "de": "nach Norden, nordwärts",
+    "pos": "adv",
+    "lesson": 17,
+    "ex": {
+      "no": "Hurtigruta seiler nordover langs kysten.",
+      "de": "Die Hurtigruta fährt die Küste entlang nach Norden."
+    },
+    "note": "Ebenso: sørover (nach Süden), østover, vestover."
+  },
+  {
+    "id": "w17_sorover",
+    "no": "sørover",
+    "de": "nach Süden, südwärts",
+    "pos": "adv",
+    "lesson": 17,
+    "ex": {
+      "no": "Skipet seilte sørover mot Svolvær.",
+      "de": "Das Schiff fuhr nach Süden in Richtung Svolvær."
     }
   }
 ]

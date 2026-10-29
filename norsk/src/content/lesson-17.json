@@ -55,7 +55,7 @@
         "de": "Mitten im Abendessen rief Matthias aus Bergen an. Er hatte gedacht, dass ich am Wochenende zu Hause sein würde, und er hörte, dass es um mich herum ziemlich laut war. Als ich erzählte, dass ich mit einem neuen Freund vom Schiff zu Abend aß, wurde er ganz still."
       },
       {
-        "no": "«Ja vel. Jeg skulle bare høre hvordan du har det», sa han. Etter to minutter la han på.",
+        "no": "«Javel. Jeg skulle bare høre hvordan du har det», sa han. Etter to minutter la han på.",
         "de": "„Na gut. Ich wollte nur hören, wie es dir geht“, sagte er. Nach zwei Minuten legte er auf."
       },
       {
@@ -209,7 +209,7 @@
         "de": "Lärm"
       },
       {
-        "no": "Ja vel",
+        "no": "Javel",
         "de": "Na gut, aha"
       },
       {
@@ -235,6 +235,14 @@
       {
         "no": "sovet på det",
         "de": "eine Nacht darüber geschlafen"
+      },
+      {
+        "no": "engang",
+        "de": "einmal (ikke engang = nicht einmal)"
+      },
+      {
+        "no": "fjor",
+        "de": "i fjor = letztes Jahr"
       }
     ]
   },
@@ -247,8 +255,8 @@
       "intro": "Ein Schiff, das seit über hundert Jahren die Küste verbindet – und ein Landesteil mit Polarnacht, Mitternachtssonne und Skrei.",
       "lines": [
         {
-          "no": "Hurtigruta går langs kysten mellom Bergen og Kirkenes og stopper i 34 havner på veien. Den første turen var i 1893. Da startet skipsrederen Richard With en fast rute fra Trondheim til Hammerfest. Før den tida var det vanskelig å reise langs kysten, særlig om vinteren, når det var mørkt nesten hele døgnet.",
-          "de": "Die Hurtigruta fährt die Küste entlang zwischen Bergen und Kirkenes und hält unterwegs in 34 Häfen. Die erste Fahrt war 1893. Damals richtete der Reeder Richard With eine feste Linie von Trondheim nach Hammerfest ein. Vor dieser Zeit war es schwierig, entlang der Küste zu reisen, besonders im Winter, wenn es fast den ganzen Tag dunkel war."
+          "no": "Hurtigruta går langs kysten mellom Bergen og Kirkenes og stopper i 34 havner. Den første turen var i 1893. Da startet skipsrederen Richard With en fast rute fra Trondheim til Hammerfest. Før den tida var det vanskelig å reise langs kysten, særlig om vinteren, når det var mørkt nesten hele døgnet.",
+          "de": "Die Hurtigruta fährt die Küste entlang zwischen Bergen und Kirkenes und läuft 34 Häfen an. Die erste Fahrt war 1893. Damals richtete der Reeder Richard With eine feste Linie von Trondheim nach Hammerfest ein. Vor dieser Zeit war es schwierig, entlang der Küste zu reisen, besonders im Winter, wenn es fast den ganzen Tag dunkel war."
         },
         {
           "no": "I mange år var Hurtigruta den viktigste forbindelsen for folk langs kysten. Skipene fraktet post, varer og passasjerer, og mange kalte ruta «riksvei 1». I dag kan man kjøre bil eller fly til de fleste stedene, men skipene går fortsatt hver dag, både for lokale reisende og for turister fra hele verden.",
@@ -263,8 +271,8 @@
           "de": "Die Lofoten sind eine Inselgruppe in Nordland mit hohen, spitzen Bergen, die direkt aus dem Meer aufsteigen. Svolvær ist die größte Stadt. Jedes Jahr von Januar bis April kommt der Skrei, ein großer Kabeljau aus der Barentssee, zum Laichen zu den Lofoten. Dann herrscht Hochbetrieb in den Fischerdörfern, und der Fisch hängt mehrere Monate lang zum Trocknen auf Gestellen."
         },
         {
-          "no": "Allerede i vikingtida reiste tørrfisk fra Lofoten sørover til Europa, og i dag er Italia det viktigste markedet. Mange turister bor i rorbuer, små røde hus på pæler ved sjøen, der fiskerne bodde i gamle dager.",
-          "de": "Schon in der Wikingerzeit ging Stockfisch von den Lofoten nach Süden nach Europa, und heute ist Italien der wichtigste Markt. Viele Touristen wohnen in Rorbuer, kleinen roten Häusern auf Pfählen am Wasser, in denen früher die Fischer wohnten."
+          "no": "Allerede i vikingtida reiste tørrfisk fra Lofoten sørover til andre land i Europa, og i dag er Italia et av de viktigste markedene. Mange turister bor i rorbuer, små, ofte røde hus på pæler ved sjøen, der fiskerne bodde i gamle dager.",
+          "de": "Schon in der Wikingerzeit ging Stockfisch von den Lofoten nach Süden in andere Länder Europas, und heute ist Italien einer der wichtigsten Märkte. Viele Touristen wohnen in Rorbuer, kleinen, oft roten Häusern auf Pfählen am Wasser, in denen früher die Fischer wohnten."
         },
         {
           "no": "Om vinteren kan man se nordlys over hele Nord-Norge når himmelen er klar og mørk. Mange turister reiser med Hurtigruta nettopp for å oppleve det grønne lyset som danser over himmelen.",
@@ -338,7 +346,7 @@
         },
         {
           "no": "polarsirkelen",
-          "de": "den Polarkreis"
+          "de": "der Polarkreis"
         },
         {
           "no": "midnattssol",
@@ -385,8 +393,8 @@
           "de": "Stockfisch (getrockneter Kabeljau)"
         },
         {
-          "no": "markedet",
-          "de": "der Markt"
+          "no": "markedene",
+          "de": "die Märkte"
         },
         {
           "no": "rorbuer",
@@ -422,7 +430,7 @@
       {
         "no": "Jeg er kvalm.",
         "de": "Mir ist übel.",
-        "note": "Norwegisch: Ich BIN übel (jeg er kvalm) – ohne „mir“."
+        "note": "Wörtlich „ich bin übel“: Im Norwegischen steht kein „mir“."
       },
       {
         "no": "Jeg er sjøsyk.",
@@ -472,7 +480,7 @@
       {
         "no": "Jeg må bestille time hos fastlegen.",
         "de": "Ich muss einen Termin beim Hausarzt machen.",
-        "note": "Jeder Einwohner Norwegens hat einen festen Hausarzt, den fastlege."
+        "note": "Jeder Einwohner Norwegens hat Anspruch auf einen festen Hausarzt, den fastlege."
       },
       {
         "no": "Om natta og i helgene ringer man legevakta.",
@@ -552,7 +560,7 @@
         },
         {
           "h": "Einmal oder immer wieder?",
-          "body": "• **på lørdag** = (am) kommenden Samstag – **på lørdager** = samstags, jeden Samstag\n• **i sommer** = diesen Sommer (der gerade war oder der kommt) – **om sommeren** = im Sommer, jeden Sommer\n• **i natt** = diese Nacht – **om natta** = nachts (immer)\n• Feste: **i jula** (an Weihnachten), **i påsken** (an Ostern) – **til jul** (zu Weihnachten, bis Weihnachten)\n\nTypischer Fehler: *I vinteren er det mørkt.* Richtig ist **Om vinteren er det mørkt.** (regelmäßig)."
+          "body": "• **på lørdag** = (am) kommenden Samstag – **på lørdager** = samstags, jeden Samstag\n• Mit einem Verb in der Vergangenheit meint **på lørdag** den letzten Samstag: **Jeg traff ham på lørdag.** (am vergangenen Samstag)\n• **i sommer** = diesen Sommer (der gerade war oder der kommt) – **om sommeren** = im Sommer, jeden Sommer\n• **i natt** = diese Nacht – **om natta** = nachts (immer)\n• Feste: **i jula** (an Weihnachten), **i påsken** (an Ostern) – **til jul** (zu Weihnachten, bis Weihnachten)\n\nTypischer Fehler: *I vinteren er det mørkt.* Richtig ist **Om vinteren er det mørkt.** (regelmäßig)."
         },
         {
           "h": "Zeitdauer: i, på, for … siden, om",
@@ -572,7 +580,8 @@
           "prompt": "Jeg ringer deg ___. (morgen früh)",
           "de": "Ich rufe dich morgen früh an.",
           "answer": [
-            "i morgen tidlig"
+            "i morgen tidlig",
+            "tidlig i morgen"
           ],
           "explain": "morgen früh = i morgen tidlig."
         },
@@ -580,17 +589,19 @@
           "prompt": "Svaret kom ___. (heute Morgen, schon vorbei)",
           "de": "Die Antwort kam heute Morgen.",
           "answer": [
-            "i morges"
+            "i morges",
+            "i dag tidlig"
           ],
-          "explain": "Heute Morgen, wenn er schon vorbei ist: i morges."
+          "explain": "Heute Morgen, wenn er schon vorbei ist: i morges (auch: i dag tidlig)."
         },
         {
           "prompt": "Skipet kommer til Tromsø ___ lørdag. (kommenden Samstag)",
           "de": "Das Schiff kommt am Samstag nach Tromsø.",
           "answer": [
-            "på"
+            "på",
+            "neste"
           ],
-          "explain": "på + Wochentag = der kommende Tag."
+          "explain": "på + Wochentag = der kommende Tag (auch: neste lørdag)."
         },
         {
           "prompt": "Inga har forelesning ___ mandager. (jeden Montag)",
@@ -872,17 +883,19 @@
           "prompt": "Vi ___ gå på fjellet, men det regnet for mye. (Plan, der nicht klappte)",
           "de": "Wir wollten auf den Berg gehen, aber es regnete zu sehr.",
           "answer": [
-            "skulle"
+            "skulle",
+            "ville"
           ],
-          "explain": "Ein Plan, aus dem nichts wurde: skulle."
+          "explain": "Ein Plan, aus dem nichts wurde: skulle (ville = wollten geht auch)."
         },
         {
           "prompt": "«Du vil like Lofoten.» → Inga sa at jeg ___ like Lofoten.",
           "de": "Inga sagte, dass mir die Lofoten gefallen würden.",
           "answer": [
-            "ville"
+            "ville",
+            "kom til å"
           ],
-          "explain": "vil (Vorhersage) → ville."
+          "explain": "vil (Vorhersage) → ville (oder: kom til å)."
         },
         {
           "prompt": "Hun ante ikke at turen ___ til å forandre så mye. (kommer til å → Vergangenheit)",
@@ -904,9 +917,10 @@
           "prompt": "I går kveld ___ jeg egentlig skrive dagbok, men jeg sovnet. (Plan)",
           "de": "Gestern Abend wollte ich eigentlich Tagebuch schreiben, aber ich bin eingeschlafen.",
           "answer": [
-            "skulle"
+            "skulle",
+            "ville"
           ],
-          "explain": "Plan, aus dem nichts wurde: skulle egentlig."
+          "explain": "Plan, aus dem nichts wurde: skulle egentlig (auch ville egentlig ist möglich)."
         },
         {
           "prompt": "Matthias visste ikke at Susanne ___ være i Lofoten i helga. (Plan)",
@@ -1136,7 +1150,9 @@
       "de": "Letztes Jahr war ich drei Wochen auf den Lofoten.",
       "no": [
         "I fjor var jeg i Lofoten i tre uker.",
-        "Jeg var i Lofoten i tre uker i fjor."
+        "Jeg var i Lofoten i tre uker i fjor.",
+        "I fjor var jeg på Lofoten i tre uker.",
+        "Jeg var på Lofoten i tre uker i fjor."
       ]
     },
     {
@@ -1155,14 +1171,16 @@
     {
       "de": "Er hätte anrufen sollen.",
       "no": [
-        "Han burde ha ringt."
+        "Han burde ha ringt.",
+        "Han skulle ha ringt."
       ]
     },
     {
       "de": "Sie wusste, dass sie am Samstag nach Svolvær fahren würde.",
       "no": [
         "Hun visste at hun skulle reise til Svolvær på lørdag.",
-        "Hun visste at hun skulle dra til Svolvær på lørdag."
+        "Hun visste at hun skulle dra til Svolvær på lørdag.",
+        "Hun visste at hun skulle til Svolvær på lørdag."
       ]
     },
     {
@@ -1178,13 +1196,15 @@
       "de": "Er sagte, dass er mich anrufen würde.",
       "no": [
         "Han sa at han skulle ringe meg.",
-        "Han sa at han ville ringe meg."
+        "Han sa at han ville ringe meg.",
+        "Han sa at han kom til å ringe meg."
       ]
     },
     {
       "de": "Ich habe dich seit einer Woche nicht gesehen.",
       "no": [
-        "Jeg har ikke sett deg på en uke."
+        "Jeg har ikke sett deg på en uke.",
+        "Jeg har ikke sett deg på ei uke."
       ]
     },
     {
@@ -1216,7 +1236,8 @@
       "de": "In der ersten Nacht wird sie seekrank und muss sich im Salon hinlegen.",
       "answer": [
         "sjøsyk",
-        "kvalm"
+        "kvalm",
+        "syk"
       ]
     },
     {

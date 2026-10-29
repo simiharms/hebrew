@@ -419,6 +419,22 @@
     "note": "Kurz auch: lys (et lys = Licht, Kerze)."
   },
   {
+    "id": "w05_kakao",
+    "no": "kakao",
+    "de": "der Kakao",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "kakao",
+      "kakaoen"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Om kvelden drikker vi en kopp kakao.",
+      "de": "Abends trinken wir eine Tasse Kakao."
+    }
+  },
+  {
     "id": "w05_dugnad",
     "no": "dugnad",
     "de": "der Gemeinschaftseinsatz",
@@ -556,6 +572,24 @@
     "ex": {
       "no": "Jeg har varme sokker.",
       "de": "Ich habe warme Socken."
+    }
+  },
+  {
+    "id": "w05_sandal",
+    "no": "sandal",
+    "de": "die Sandale",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "sandal",
+      "sandalen",
+      "sandaler",
+      "sandalene"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Om sommeren går jeg med sandaler.",
+      "de": "Im Sommer trage ich Sandalen."
     }
   },
   {
@@ -823,6 +857,29 @@
       "no": "Bestemor forteller en historie.",
       "de": "Oma erzählt eine Geschichte."
     }
+  },
+  {
+    "id": "w05_bestemor",
+    "no": "bestemor",
+    "de": "die Großmutter",
+    "deAlt": [
+      "die Oma"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "bestemor",
+      "bestemora/bestemoren",
+      "bestemødre",
+      "bestemødrene"
+    ],
+    "wk": true,
+    "lesson": 5,
+    "ex": {
+      "no": "Bestemor Ingrid bor i Lillehammer.",
+      "de": "Oma Ingrid wohnt in Lillehammer."
+    },
+    "note": "Genauer: farmor (Mutter des Vaters), mormor (Mutter der Mutter)."
   },
   {
     "id": "w05_samme",
@@ -1199,6 +1256,26 @@
     }
   },
   {
+    "id": "w05_bord",
+    "no": "bord",
+    "de": "der Tisch",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "bord",
+      "bordet",
+      "bord",
+      "borda/bordene"
+    ],
+    "wk": true,
+    "lesson": 5,
+    "ex": {
+      "no": "Frokosten står på bordet.",
+      "de": "Das Frühstück steht auf dem Tisch."
+    },
+    "note": "Neutrum: et bord. Einsilbig: Plural ohne Endung."
+  },
+  {
     "id": "w05_oppvask",
     "no": "oppvask",
     "de": "der Abwasch",
@@ -1431,8 +1508,8 @@
     ],
     "lesson": 5,
     "ex": {
-      "no": "Er bordet fritt?",
-      "de": "Ist der Tisch frei?"
+      "no": "Norge er et fritt land.",
+      "de": "Norwegen ist ein freies Land."
     },
     "note": "ha fri = frei haben."
   },
@@ -1556,6 +1633,23 @@
       "de": "Das ist keine dumme Frage."
     },
     "note": "Kein Doppel-m am Wortende, aber: dumme."
+  },
+  {
+    "id": "w05_full",
+    "no": "full",
+    "de": "voll",
+    "pos": "adj",
+    "forms": [
+      "full",
+      "fullt",
+      "fulle"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Glasset er fullt.",
+      "de": "Das Glas ist voll."
+    },
+    "note": "Neutrum mit Doppel-l: fullt (aber snill – snilt). Umgangssprachlich auch: betrunken."
   },
   {
     "id": "w05_rom",

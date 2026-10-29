@@ -40,7 +40,7 @@
       },
       {
         "no": "I Gudvangen tok jeg bussen til Voss. Den kjørte gjennom lange tunneler, og jeg sovnet nesten. På Voss gikk jeg på toget igjen, og her sitter jeg nå.",
-        "de": "In Gudvangen nahm ich den Bus nach Voss. Er fuhr durch lange Tunnel, und ich bin fast eingeschlafen. In Voss stieg ich wieder in den Zug, und hier sitze ich jetzt."
+        "de": "In Gudvangen nahm ich den Bus nach Voss. Er fuhr durch lange Tunnel, und ich schlief fast ein. In Voss stieg ich wieder in den Zug, und hier sitze ich jetzt."
       },
       {
         "no": "Om en time er jeg framme i Bergen. Matthias skal hente meg på stasjonen – presis, selvfølgelig.",
@@ -228,7 +228,7 @@
       "lines": [
         {
           "no": "Norge er et langt land med høye fjell og dype fjorder. Derfor er det ikke alltid lett å reise her. Mange steder er ferja en del av veien, og togene må gå gjennom hundrevis av tunneler.",
-          "de": "Norwegen ist ein langes Land mit hohen Bergen und tiefen Fjorden. Deshalb ist es nicht immer leicht, hier zu reisen. An vielen Orten ist die Fähre ein Teil der Straße, und die Züge müssen durch Hunderte von Tunneln fahren."
+          "de": "Norwegen ist ein langes Land mit hohen Bergen und tiefen Fjorden. Deshalb ist es nicht immer leicht, hier zu reisen. An vielen Orten ist die Fähre Teil der Straßenverbindung, und die Züge müssen durch Hunderte von Tunneln fahren."
         },
         {
           "no": "Bergensbanen mellom Oslo og Bergen åpnet i 1909. Den er nesten 500 kilometer lang, og turen tar omtrent sju timer. Banen går over høyfjellet, og Finse stasjon ligger 1222 meter over havet. Rallarene – arbeiderne som bygde banen – bodde i enkle brakker og jobbet med hakke og dynamitt, sommer og vinter. Den gamle anleggsveien deres heter Rallarvegen, og i dag sykler mange turister der om sommeren.",
@@ -254,7 +254,7 @@
         },
         {
           "no": "en del av veien",
-          "de": "ein Teil der Straße"
+          "de": "ein Teil der Straße, der Strecke"
         },
         {
           "no": "hundrevis av",
@@ -283,6 +283,10 @@
         {
           "no": "hakke",
           "de": "Hacke, Spitzhacke"
+        },
+        {
+          "no": "dynamitt",
+          "de": "Dynamit"
         },
         {
           "no": "anleggsveien",
@@ -315,6 +319,10 @@
         {
           "no": "en arm av",
           "de": "ein Arm von (Seitenarm)"
+        },
+        {
+          "no": "arm",
+          "de": "Arm; hier: Seitenarm eines Fjords"
         },
         {
           "no": "verdensarvliste",
@@ -429,7 +437,7 @@
       "sections": [
         {
           "h": "Form: hadde + Partizip",
-          "body": "Das Plusquamperfekt bildest du mit **hadde** (Präteritum von **ha**) und dem Partizip Perfekt – für alle Personen gleich: **Jeg hadde bestilt billettene. Toget hadde gått.**\n\nAnders als im Deutschen gibt es kein „war gegangen“: Auch Bewegungsverben nehmen **hadde**: **Toget hadde allerede gått** (Der Zug war schon abgefahren). **Hun hadde reist** (Sie war gereist).",
+          "body": "Das Plusquamperfekt bildest du mit **hadde** (Präteritum von **ha**) und dem Partizip Perfekt – für alle Personen gleich: **Jeg hadde bestilt billettene. Toget hadde gått.**\n\nAnders als im Deutschen brauchst du kein „war gegangen“: Auch Bewegungsverben nehmen normalerweise **hadde**: **Toget hadde allerede gått** (Der Zug war schon abgefahren). **Hun hadde reist** (Sie war gereist).",
           "table": [
             [
               "Infinitiv",
@@ -487,13 +495,13 @@
           "explain": "hadde + Partizip: bestille – bestilte – bestilt."
         },
         {
-          "prompt": "Kvelden før ___ hun sekken. (pakke, pluskvamperfektum)",
+          "prompt": "Kvelden før hadde hun ___ sekken. (pakke, Partizip)",
           "de": "Am Abend davor hatte sie den Rucksack gepackt.",
           "answer": [
-            "hadde pakket",
-            "hadde pakka"
+            "pakket",
+            "pakka"
           ],
-          "explain": "Inversion: Kvelden før hadde hun … – das Partizip steht hinter dem Subjekt."
+          "explain": "Inversion: Kvelden før hadde hun pakket … – hadde steht an Position 2, das Partizip folgt erst hinter dem Subjekt."
         },
         {
           "prompt": "Da hun kom til Oslo S, hadde de andre passasjerene allerede ___ om bord. (gå)",
@@ -566,7 +574,7 @@
       "id": "g11_futurum",
       "title": "Das Futur",
       "titleNo": "futurum",
-      "summary": "Ein Wort wie „werden“ gibt es nicht: skal (Plan), vil (Vorhersage), kommer til å (so wird es kommen) oder einfach Präsens + Zeitangabe.",
+      "summary": "Ein Hilfsverb wie „werden“ gibt es nicht: skal (Plan), vil (Vorhersage), kommer til å (so wird es kommen) oder einfach Präsens + Zeitangabe.",
       "sections": [
         {
           "h": "Vier Wege in die Zukunft",
@@ -601,7 +609,7 @@
         },
         {
           "h": "skal oder kommer til å?",
-          "body": "**skal** brauchst du, wenn jemand etwas plant oder vorhat: **Hun skal flytte til Tromsø.** (Das ist ihr Plan.)\n\n**kommer til å** brauchst du, wenn du sagst, was passieren wird – ohne dass es jemand plant: **Hun kommer til å savne Oslo.** (Das wird so sein.) Bei Wetter und Gefühlen passt deshalb **kommer til å** oder **vil**, nicht **skal**: **Det kommer til å regne.**\n\nAchtung, falscher Freund: **vil** heißt meistens „wollen“ (**Jeg vil reise** = Ich will reisen). Nur in Vorhersagen bedeutet es „werden“: **Det vil bli kaldt.** Und „werden“ als Vollverb heißt **bli**."
+          "body": "**skal** brauchst du, wenn jemand etwas plant oder vorhat: **Hun skal flytte til Tromsø.** (Das ist ihr Plan.)\n\n**kommer til å** brauchst du, wenn du sagst, was passieren wird – ohne dass es jemand plant: **Hun kommer til å savne Oslo.** (Das wird so sein.) Bei Wetter und Gefühlen passt deshalb **kommer til å** oder **vil**: **Det kommer til å regne.** (Hörst du **Det skal regne i morgen**, heißt das: Es soll morgen regnen – man gibt den Wetterbericht wieder.)\n\nAchtung, falscher Freund: **vil** heißt meistens „wollen“ (**Jeg vil reise** = Ich will reisen). Nur in Vorhersagen bedeutet es „werden“: **Det vil bli kaldt.** Und „werden“ als Vollverb heißt **bli**."
         },
         {
           "h": "Präsens für die Zukunft",
@@ -645,9 +653,10 @@
           "prompt": "Ifølge værmeldingen ___ det bli sol på søndag. (Vorhersage, Modalverb)",
           "de": "Laut Wetterbericht wird am Sonntag die Sonne scheinen.",
           "answer": [
-            "vil"
+            "vil",
+            "skal"
           ],
-          "explain": "vil + Infinitiv als Vorhersage, typisch im Wetterbericht. Inversion: vil det."
+          "explain": "vil + Infinitiv als Vorhersage, typisch im Wetterbericht. Inversion: vil det. Auch skal ist hier richtig (= soll laut Wetterbericht)."
         },
         {
           "prompt": "Toget ___ fra Oslo klokka seks i morgen. (gå, presens)",
@@ -752,7 +761,7 @@
       ],
       "drills": [
         {
-          "prompt": "Alle ___ på toget skrek av glede. (barn)",
+          "prompt": "Alle ___ på toget skrek av glede. (barn, bestemt flertall)",
           "de": "Alle Kinder im Zug schrien vor Freude.",
           "answer": [
             "barna"
@@ -760,7 +769,7 @@
           "explain": "barn hat im bestimmten Plural nur barna."
         },
         {
-          "prompt": "___ rundt fjorden er over tusen meter høye. (fjell)",
+          "prompt": "___ rundt fjorden er over tusen meter høye. (fjell, bestemt flertall)",
           "de": "Die Berge rings um den Fjord sind über tausend Meter hoch.",
           "answer": [
             "Fjella",
@@ -769,7 +778,7 @@
           "explain": "et fjell – fjella / fjellene: beide Endungen sind richtig."
         },
         {
-          "prompt": "Små gårder lå ved vannet, og ___ så ut som leker. (hus)",
+          "prompt": "Små gårder lå ved vannet, og ___ så ut som leker. (hus, bestemt flertall)",
           "de": "Kleine Höfe lagen am Wasser, und die Häuser sahen aus wie Spielzeug.",
           "answer": [
             "husa",
@@ -778,7 +787,7 @@
           "explain": "et hus – husa / husene."
         },
         {
-          "prompt": "På Finse lå det is på ___. (vann, flertall)",
+          "prompt": "På Finse lå det is på ___. (vann, bestemt flertall)",
           "de": "In Finse lag Eis auf den Seen.",
           "answer": [
             "vanna",
@@ -787,7 +796,7 @@
           "explain": "et vann – vann – vanna / vannene."
         },
         {
-          "prompt": "Etter turen gjorde ___ vondt. (bein, flertall)",
+          "prompt": "Etter turen gjorde ___ vondt. (bein, bestemt flertall)",
           "de": "Nach der Wanderung taten die Beine weh.",
           "answer": [
             "beina",
@@ -796,7 +805,7 @@
           "explain": "et bein – beina (häufigste Form) / beinene."
         },
         {
-          "prompt": "Hvor går ___ til Bergen fra? (tog, flertall)",
+          "prompt": "Hvor går ___ til Bergen fra? (tog, bestemt flertall)",
           "de": "Wo fahren die Züge nach Bergen ab?",
           "answer": [
             "togene",
@@ -805,8 +814,8 @@
           "explain": "et tog – togene / toga."
         },
         {
-          "prompt": "Susanne glemte ___ på toget. (kart, flertall)",
-          "de": "Susanne vergaß die Karten im Zug.",
+          "prompt": "Susanne glemte ___ på toget. (kart, bestemt flertall)",
+          "de": "Susanne vergaß die Landkarten im Zug.",
           "answer": [
             "kartene",
             "karta"
@@ -814,7 +823,7 @@
           "explain": "et kart – kartene / karta."
         },
         {
-          "prompt": "___ i Bergen er gamle og hvite. (trehus, flertall)",
+          "prompt": "___ i Bergen er gamle og hvite. (trehus, bestemt flertall)",
           "de": "Die Holzhäuser in Bergen sind alt und weiß.",
           "answer": [
             "Trehusene",
@@ -823,7 +832,7 @@
           "explain": "Zusammengesetzte Wörter richten sich nach dem letzten Teil: et hus → et trehus – trehusene / trehusa."
         },
         {
-          "prompt": "Hun har lest alle ___ fra Matthias. (brev, flertall)",
+          "prompt": "Hun har lest alle ___ fra Matthias. (brev, bestemt flertall)",
           "de": "Sie hat alle Briefe von Matthias gelesen.",
           "answer": [
             "brevene",
@@ -1456,14 +1465,17 @@
       "de": "Als sie zum Bahnhof kam, war der Zug schon abgefahren.",
       "no": [
         "Da hun kom til stasjonen, hadde toget allerede gått.",
-        "Da hun kom til stasjonen, hadde toget gått allerede."
+        "Da hun kom til stasjonen, hadde toget gått allerede.",
+        "Toget hadde allerede gått da hun kom til stasjonen.",
+        "Da hun kom på stasjonen, hadde toget allerede gått."
       ]
     },
     {
       "de": "Ich hatte die Fahrkarte nicht gebucht.",
       "no": [
         "Jeg hadde ikke bestilt billetten.",
-        "Jeg hadde ikke bestilt billett."
+        "Jeg hadde ikke bestilt billett.",
+        "Jeg hadde ikke bestilt billetten min."
       ]
     },
     {
@@ -1490,11 +1502,12 @@
       "no": [
         "Barna på toget var trøtte.",
         "Barna i toget var trøtte.",
-        "Barna på toget var slitne."
+        "Barna på toget var slitne.",
+        "Barna på toget var trette."
       ]
     },
     {
-      "de": "Der Zug war modern und still.",
+      "de": "Der Zug war modern und leise.",
       "no": [
         "Toget var moderne og stille."
       ]

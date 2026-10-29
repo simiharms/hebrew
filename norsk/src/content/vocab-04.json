@@ -976,7 +976,7 @@
       "no": "Jeg blir gjerne med!",
       "de": "Ich komme gern mit!"
     },
-    "note": "Adverb, kein Verb: Jeg spiser gjerne kake = Ich esse gern Kuchen."
+    "note": "Steht direkt nach dem Verb: Jeg spiser gjerne kake = Ich esse gern Kuchen."
   },
   {
     "id": "w04_ogsaa",
@@ -1004,7 +1004,7 @@
       "no": "Hvem er det?",
       "de": "Wer ist das?"
     },
-    "note": "Falscher Freund: hvem = wer, nicht „wem“."
+    "note": "Sieht aus wie „wem“, heißt aber vor allem „wer“: Hvem er det? = Wer ist das?"
   },
   {
     "id": "w04_hvordan",
@@ -1344,8 +1344,8 @@
     ],
     "lesson": 4,
     "ex": {
-      "no": "Norsk valuta heter krone.",
-      "de": "Die norwegische Währung heißt Krone."
+      "no": "Valutaen i Norge heter krone.",
+      "de": "Die Währung in Norwegen heißt Krone."
     }
   },
   {
@@ -1405,6 +1405,25 @@
       "no": "Oslo har mange innbyggere.",
       "de": "Oslo hat viele Einwohner."
     }
+  },
+  {
+    "id": "w04_menneske",
+    "no": "menneske",
+    "de": "der Mensch",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "menneske",
+      "mennesket",
+      "mennesker",
+      "menneskene"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Det bor mange mennesker i Oslo.",
+      "de": "In Oslo wohnen viele Menschen."
+    },
+    "note": "Neutrum: et menneske."
   },
   {
     "id": "w04_rundt",
@@ -1673,6 +1692,6 @@
       "no": "Kan du si det en gang til?",
       "de": "Kannst du das noch einmal sagen?"
     },
-    "note": "en gang til = noch einmal; to ganger = zweimal."
+    "note": "en gang til = noch einmal; to ganger = zweimal. Auch: der Flur (i gangen = im Flur)."
   }
 ]

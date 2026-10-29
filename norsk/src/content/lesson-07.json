@@ -107,12 +107,13 @@
       "lines": [
         { "no": "Henrik Ibsen ble født i Skien i 1828. Familien ble fattig da han var liten. Da han var femten år gammel, flyttet han til Grimstad. Der arbeidet han på et apotek, og om kvelden skrev han dikt og skuespill.", "de": "Henrik Ibsen wurde 1828 in Skien geboren. Die Familie wurde arm, als er klein war. Als er fünfzehn Jahre alt war, zog er nach Grimstad. Dort arbeitete er in einer Apotheke, und abends schrieb er Gedichte und Theaterstücke." },
         { "no": "Etterpå arbeidet Ibsen i mange år ved teatre i Bergen og i Christiania, som Oslo het den gangen. I 1864 reiste han ut av Norge. Han bodde i Italia og Tyskland i 27 år, og der skrev han «Peer Gynt», «Et dukkehjem», «Hedda Gabler» og mange andre stykker.", "de": "Danach arbeitete Ibsen viele Jahre an Theatern in Bergen und in Christiania – so hieß Oslo damals. 1864 verließ er Norwegen. Er lebte 27 Jahre lang in Italien und Deutschland, und dort schrieb er »Peer Gynt«, »Et dukkehjem«, »Hedda Gabler« und viele andere Stücke." },
-        { "no": "«Et dukkehjem» kom ut i 1879. Stykket handler om Nora, som forlater mannen og barna. Mange ble sinte og sjokkerte. For et teater i Tyskland skrev Ibsen en annen slutt: Der blir Nora hjemme hos barna. Men selv likte han den ikke.", "de": "»Et dukkehjem« erschien 1879. Das Stück handelt von Nora, die ihren Mann und ihre Kinder verlässt. Viele waren wütend und schockiert. Für ein Theater in Deutschland schrieb Ibsen einen anderen Schluss: Darin bleibt Nora zu Hause bei den Kindern. Aber er selbst mochte ihn nicht." },
+        { "no": "«Et dukkehjem» kom ut i 1879. Stykket handler om Nora, som forlater mannen og barna. Mange ble sinte og sjokkerte. Ibsen skrev en annen slutt for et teater i Tyskland: Der blir Nora hjemme hos barna. Men selv likte han den ikke.", "de": "»Et dukkehjem« erschien 1879. Das Stück handelt von Nora, die ihren Mann und ihre Kinder verlässt. Viele waren wütend und schockiert. Ibsen schrieb einen anderen Schluss für ein Theater in Deutschland: Darin bleibt Nora zu Hause bei den Kindern. Aber er selbst mochte ihn nicht." },
         { "no": "I 1891 flyttet Ibsen hjem til Norge igjen. Hver dag gikk han til Grand Café i Karl Johans gate, alltid på samme tid. Folk sa at de kunne stille klokka etter ham. Ibsen døde i 1906.", "de": "1891 zog Ibsen wieder nach Norwegen zurück. Jeden Tag ging er ins Grand Café an der Karl Johans gate, immer zur selben Zeit. Die Leute sagten, sie könnten ihre Uhr nach ihm stellen. Ibsen starb 1906." },
         { "no": "Foran Nationaltheatret i Oslo står to statuer: Henrik Ibsen og Bjørnstjerne Bjørnson. Og teatre over hele verden spiller Ibsen ennå i dag.", "de": "Vor dem Nationaltheatret in Oslo stehen zwei Statuen: Henrik Ibsen und Bjørnstjerne Bjørnson. Und Theater auf der ganzen Welt spielen Ibsen noch heute." }
       ],
       "glossary": [
         { "no": "ble født", "de": "wurde geboren" },
+        { "no": "født", "de": "geboren" },
         { "no": "ble fattig", "de": "wurde arm" },
         { "no": "flyttet", "de": "zog (um)" },
         { "no": "apotek", "de": "die Apotheke" },
@@ -279,7 +280,7 @@
         { "prompt": "___ bøker av Ibsen har du lest?", "de": "Welche Bücher von Ibsen hast du gelesen?", "answer": ["Hvilke", "Hva for noen"], "explain": "bøker ist Plural → hvilke." },
         { "prompt": "___ restaurant vil dere gå på?", "de": "In welches Restaurant wollt ihr gehen?", "answer": ["Hvilken", "Hva for en"], "explain": "en restaurant → hvilken. Die Präposition (på) steht am Ende." },
         { "prompt": "___ kjole skal du ha på deg i kveld?", "de": "Welches Kleid ziehst du heute Abend an?", "answer": ["Hvilken", "Hva for en"], "explain": "en kjole → hvilken (auch wenn es im Deutschen »das Kleid« heißt)." },
-        { "prompt": "Hva for ___ teater går dere i?", "de": "In welches Theater geht ihr?", "answer": ["et"], "explain": "Umgangssprachlich: hva for en/et/noen. teater ist ein et-Wort." }
+        { "prompt": "Hva for ___ teater går dere på?", "de": "In welches Theater geht ihr?", "answer": ["et"], "explain": "Umgangssprachlich: hva for en/et/noen. teater ist ein et-Wort." }
       ]
     },
     {
@@ -378,10 +379,10 @@
   ],
   "translate": [
     { "de": "Hast du schon einmal »Peer Gynt« gesehen?", "no": ["Har du noen gang sett «Peer Gynt»?", "Har du sett «Peer Gynt» før?", "Har du sett «Peer Gynt»?"] },
-    { "de": "Ich war noch nie in Bergen.", "no": ["Jeg har aldri vært i Bergen."], "hint": "Erfahrung ohne Zeitpunkt → Perfekt mit har." },
-    { "de": "Gestern haben wir ein Stück von Ibsen gesehen.", "no": ["I går så vi et stykke av Ibsen.", "Vi så et stykke av Ibsen i går."], "hint": "»gestern« → Präteritum!" },
-    { "de": "Ich wohne seit drei Wochen in Oslo.", "no": ["Jeg har bodd i Oslo i tre uker."], "hint": "seit + Dauer → har … i …" },
-    { "de": "Welches Theater ist das?", "no": ["Hvilket teater er det?", "Hvilket teater er dette?", "Hva for et teater er det?"] },
+    { "de": "Ich war noch nie in Bergen.", "no": ["Jeg har aldri vært i Bergen.", "Jeg har aldri vært i Bergen før."], "hint": "Erfahrung ohne Zeitpunkt → Perfekt mit har." },
+    { "de": "Gestern haben wir ein Stück von Ibsen gesehen.", "no": ["I går så vi et stykke av Ibsen.", "Vi så et stykke av Ibsen i går.", "I går så vi et teaterstykke av Ibsen.", "Vi så et teaterstykke av Ibsen i går."], "hint": "»gestern« → Präteritum!" },
+    { "de": "Ich wohne seit drei Wochen in Oslo.", "no": ["Jeg har bodd i Oslo i tre uker.", "Jeg har bodd tre uker i Oslo."], "hint": "seit + Dauer → har … i …" },
+    { "de": "Welches Theater ist das?", "no": ["Hvilket teater er det?", "Hvilket teater er dette?", "Hva for et teater er det?", "Hva for et teater er dette?"] },
     { "de": "Diese Schauspielerin ist sehr gut.", "no": ["Denne skuespilleren er veldig god.", "Denne skuespilleren er veldig flink.", "Denne skuespilleren er svært god."] },
     { "de": "Der Mann, der dort steht, heißt Jonas.", "no": ["Mannen som står der, heter Jonas.", "Mannen som står der borte, heter Jonas."] },
     { "de": "Jonas ist eifersüchtig auf Matthias.", "no": ["Jonas er sjalu på Matthias."] }
@@ -389,8 +390,8 @@
   "summary": [
     { "prompt": "I pausen sier Anna at hun ___ stykket to ganger før.", "de": "In der Pause sagt Anna, dass sie das Stück schon zweimal gesehen hat.", "answer": ["har sett"] },
     { "prompt": "Matthias har lest stykket, men han har aldri ___ det på en scene.", "de": "Matthias hat das Stück gelesen, aber er hat es noch nie auf einer Bühne gesehen.", "answer": ["sett"] },
-    { "prompt": "Jonas henter kaffe og ___ i kø i ti minutter.", "de": "Jonas holt Kaffee und steht zehn Minuten in der Schlange.", "answer": ["står"] },
-    { "prompt": "Etter stykket er Jonas ___ fordi Anna har snakket så mye med Matthias.", "de": "Nach dem Stück ist Jonas eifersüchtig, weil Anna so viel mit Matthias geredet hat.", "answer": ["sjalu"] },
+    { "prompt": "Jonas henter kaffe og ___ i kø i ti minutter.", "de": "Jonas holt Kaffee und steht zehn Minuten in der Schlange.", "answer": ["står", "har stått"] },
+    { "prompt": "Etter stykket er Jonas ___ fordi Anna har snakket så mye med Matthias.", "de": "Nach dem Stück ist Jonas eifersüchtig, weil Anna so viel mit Matthias geredet hat.", "answer": ["sjalu", "sur"] },
     { "prompt": "Til slutt sier Anna at hun er glad ___ ham, og Jonas spanderer pizza.", "de": "Am Ende sagt Anna, dass sie ihn lieb hat, und Jonas spendiert Pizza.", "answer": ["i"] }
   ],
   "dictation": [5, 13, 20, 23],
@@ -403,7 +404,7 @@
       { "de": "Wie es dir gefallen hat", "keywords": ["likte", "fantastisk", "synes", "syntes"] },
       { "de": "Eine Frage nach Erfahrung (Perfekt)", "keywords": ["noen gang", "har du sett", "har du vært"] }
     ],
-    "model": "Hei, Elin! I går var jeg på Nationaltheatret med Anna, Jonas og Matthias. Vi så «Et dukkehjem» av Ibsen. Skuespilleren som spilte Nora, var fantastisk, og jeg likte stykket veldig godt. Men denne slutten! Jeg har aldri hørt en dør som smeller så høyt. Har du noen gang sett et stykke av Ibsen? Hvis du vil, kan vi gå sammen neste gang. Hilsen Susanne",
+    "model": "Hei, Elin! I går var jeg på Nationaltheatret med Anna, Jonas og Matthias. Vi så «Et dukkehjem» av Ibsen. Skuespilleren som spilte Nora, var fantastisk, og jeg likte stykket veldig godt. Men denne slutten! Jeg har aldri hørt ei dør som smeller så høyt. Har du noen gang sett et stykke av Ibsen? Hvis du vil, kan vi gå sammen neste gang. Hilsen Susanne",
     "modelDe": "Hallo Elin! Gestern war ich mit Anna, Jonas und Matthias im Nationaltheatret. Wir haben »Et dukkehjem« von Ibsen gesehen. Die Schauspielerin, die Nora gespielt hat, war fantastisch, und mir hat das Stück sehr gut gefallen. Aber dieser Schluss! Ich habe noch nie eine Tür so laut knallen hören. Hast du schon einmal ein Stück von Ibsen gesehen? Wenn du willst, können wir das nächste Mal zusammen gehen. Viele Grüße, Susanne"
   }
 }

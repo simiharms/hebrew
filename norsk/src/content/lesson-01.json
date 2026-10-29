@@ -466,7 +466,7 @@
       {
         "no": "Hva heter du?",
         "de": "Wie heißt du?",
-        "note": "Nicht »hvordan«: Auf Norwegisch fragt man »was« (hva) heißt du."
+        "note": "Nicht »hvordan«: Auf Norwegisch fragt man wörtlich »Was heißt du?« (hva = was)."
       },
       {
         "no": "Jeg heter Susanne.",
@@ -540,7 +540,7 @@
       "sections": [
         {
           "h": "Die Pronomen im Überblick",
-          "body": "Die Personalpronomen in der Subjektform zeigen, wer etwas tut: **Jeg heter Susanne.** **Hun kommer fra Tyskland.**\n\nAussprache: **jeg** klingt wie »jäi«, **de** wie »di« und **dere** wie »dere«.",
+          "body": "Die Personalpronomen in der Subjektform zeigen, wer etwas tut: **Jeg heter Susanne.** **Hun kommer fra Tyskland.**\n\nAussprache: **jeg** klingt wie »jäi«, **de** wie »di« und **dere** wie »deere« (mit langem e).",
           "table": [
             [
               "Norwegisch",
@@ -699,7 +699,7 @@
       "sections": [
         {
           "h": "Der Infinitiv mit å",
-          "body": "Vor dem Infinitiv steht oft **å** (wie deutsch »zu«): **å snakke** (sprechen), **å bo** (wohnen), **å være** (sein), **å ha** (haben). **å** spricht man wie ein langes »o«.\n\nDie meisten Infinitive enden auf **-e**: **snakke, komme, lære, studere**. Kurze Verben enden auf einen anderen Vokal: **bo, gå, ha, forstå**.\n\nIm Wörterbuch und in der Wortliste steht der Infinitiv ohne å: **snakke**."
+          "body": "Vor dem Infinitiv steht oft **å** (wie deutsch »zu«): **å snakke** (sprechen), **å bo** (wohnen), **å være** (sein), **å ha** (haben). **å** spricht man wie ein langes »o«.\n\nDie meisten Infinitive enden auf **-e**: **snakke, komme, lære, studere**. Einige kurze Verben enden auf einen anderen Vokal: **bo, gå, ha** – und Zusammensetzungen wie **forstå** (for + stå).\n\nIm Wörterbuch und in der Wortliste steht der Infinitiv ohne å: **snakke**."
         },
         {
           "h": "Präsens: Infinitiv + -r",
@@ -842,8 +842,8 @@
           "explain": "gjøre ist unregelmäßig: gjør."
         },
         {
-          "prompt": "Torunn ___ «Velkommen!» (si)",
-          "de": "Torunn sagt »Willkommen!«",
+          "prompt": "Torunn ___: «Velkommen!» (si)",
+          "de": "Torunn sagt: »Willkommen!«",
           "answer": [
             "sier"
           ],
@@ -1497,7 +1497,9 @@
       "de": "Mads arbeitet in einem Hotel.",
       "no": [
         "Mads jobber på et hotell.",
-        "Mads arbeider på et hotell."
+        "Mads arbeider på et hotell.",
+        "Mads jobber på hotell.",
+        "Mads arbeider på hotell."
       ]
     }
   ],

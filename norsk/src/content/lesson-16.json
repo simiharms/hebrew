@@ -8,7 +8,7 @@
     "Du kannst vom ersten Tag an einer Universität erzählen: Infoveranstaltung, Einschreibung, Bibliothek, Vorlesung.",
     "Du drückst Zugehörigkeit mit Präpositionen aus: rommet til Inga, taket på huset, Universitetet i Tromsø, en venn av meg.",
     "Du verbindest Sätze mit Zeitkonjunktionen wie da, når, mens, før, etter at und så snart – und achtest auf die Inversion danach.",
-    "Du begründest und schränkst ein mit fordi, siden, hvis, for at, så at, selv om und som om.",
+    "Du drückst Grund, Bedingung, Zweck, Folge und Gegensatz aus: fordi, siden, hvis, for at, så (at), selv om, som om.",
     "Du erfährst, warum Norwegen zwei Schriftsprachen und so viele Dialekte hat."
   ],
   "text": {
@@ -24,7 +24,7 @@
       },
       {
         "no": "Susanne delte leilighet med Inga Eira, en samisk jente på 23 år fra Kautokeino. Inga studerte biologi og hadde allerede bodd i Tromsø i to år. Rommet til Inga var lite og ryddig, mens rommet til Susanne var fullt av kofferter og klær.",
-        "de": "Susanne teilte sich eine Wohnung mit Inga Eira, einer 23-jährigen Samin aus Kautokeino. Inga studierte Biologie und wohnte schon seit zwei Jahren in Tromsø. Ingas Zimmer war klein und ordentlich, während Susannes Zimmer voller Koffer und Kleider war."
+        "de": "Susanne teilte sich eine Wohnung mit Inga Eira, einer 23-jährigen Samin aus Kautokeino. Inga studierte Biologie und wohnte schon seit zwei Jahren in Tromsø. Ingas Zimmer war klein und ordentlich, während Susannes Zimmer voller Koffer und Kleidung war."
       },
       {
         "no": "«Bare spør hvis du trenger noe», sa Inga mens hun lagde frokost til dem begge. Før Susanne gikk, viste Inga henne veien til bussen.",
@@ -59,7 +59,7 @@
         "de": "Als sie aus dem Gebäude kam, war es schon dunkel, obwohl es erst vier Uhr war. Es hatte angefangen zu schneien, und die Lichter der Stadt glitzerten in der Dunkelheit. Zu Hause hatte Inga Bidos gekocht, einen samischen Eintopf mit Rentierfleisch, Kartoffeln und Möhren."
       },
       {
-        "no": "Mens de spiste, skrev Susanne en liste i notatboka si. «Det forsto jeg: hvor biblioteket ligger, hvordan jeg låner bøker, og at jeg må registrere meg før fristen. Det forsto jeg ikke: halvparten av forelesningen, navnet på bygningen der neste forelesning skal være, og hvorfor folk her sier ja mens de puster inn.»",
+        "no": "Mens de spiste, skrev Susanne en liste i notatboka si. «Dette forsto jeg: hvor biblioteket ligger, hvordan jeg låner bøker, og at jeg må registrere meg før fristen. Dette forsto jeg ikke: halvparten av forelesningen, navnet på bygningen der neste forelesning skal være, og hvorfor folk her sier ja mens de puster inn.»",
         "de": "Während sie aßen, schrieb Susanne eine Liste in ihr Notizbuch. „Das habe ich verstanden: wo die Bibliothek ist, wie ich Bücher ausleihe und dass ich mich vor Ablauf der Frist registrieren muss. Das habe ich nicht verstanden: die Hälfte der Vorlesung, den Namen des Gebäudes, in dem die nächste Vorlesung sein soll, und warum die Leute hier beim Einatmen ‚ja‘ sagen.“"
       },
       {
@@ -154,7 +154,7 @@
       },
       {
         "no": "studentkortet",
-        "de": "den Studentenausweis"
+        "de": "der Studentenausweis"
       },
       {
         "no": "Køen",
@@ -259,8 +259,8 @@
           "de": "Nynorsk hat eine andere Geschichte. Der Sprachforscher Ivar Aasen (1813–1896) reiste durch das Land und sammelte Wörter aus den Dialekten. Auf dieser Grundlage schuf er eine neue Schriftsprache. 1848 gab er eine Grammatik heraus und 1850 ein Wörterbuch. Zuerst hieß die Sprache Landsmål, aber seit 1929 heißt sie Nynorsk."
         },
         {
-          "no": "I dag har omtrent ni av ti elever bokmål som hovedmål. Nynorsk er mest vanlig på Vestlandet. På skolen lærer alle elever begge skriftspråkene, og mange synes at det andre språket, sidemålet, er et vanskelig fag.",
-          "de": "Heute haben etwa neun von zehn Schülerinnen und Schülern Bokmål als Hauptsprache. Nynorsk ist am häufigsten in Westnorwegen. In der Schule lernen alle beide Schriftsprachen, und viele finden die andere Sprache, das „Sidemål“, ein schwieriges Fach."
+          "no": "I dag har omtrent ni av ti elever bokmål som hovedmål. Nynorsk er mest vanlig på Vestlandet. På skolen lærer elevene begge skriftspråkene, og mange synes at det andre språket, sidemålet, er et vanskelig fag.",
+          "de": "Heute haben etwa neun von zehn Schülerinnen und Schülern Bokmål als Hauptsprache. Nynorsk ist in Westnorwegen am weitesten verbreitet. In der Schule lernen die Schülerinnen und Schüler beide Schriftsprachen, und viele finden die andere Sprache, das „Sidemål“, ein schwieriges Fach."
         },
         {
           "no": "Når det gjelder talespråket, har Norge ingen offisiell standard. Folk snakker dialekten sin overalt: på jobben, på universitetet, på tv og i Stortinget. Man deler ofte dialektene inn i fire hovedgrupper: østnorsk, vestnorsk, trøndersk og nordnorsk.",
@@ -395,6 +395,62 @@
         {
           "no": "kan det godt være",
           "de": "kann es gut sein"
+        },
+        {
+          "no": "eg",
+          "de": "ich (Nynorsk)"
+        },
+        {
+          "no": "ikkje",
+          "de": "nicht (Nynorsk)"
+        },
+        {
+          "no": "kva",
+          "de": "was (Nynorsk)"
+        },
+        {
+          "no": "østnorsk",
+          "de": "Ostnorwegisch"
+        },
+        {
+          "no": "vestnorsk",
+          "de": "Westnorwegisch"
+        },
+        {
+          "no": "æ",
+          "de": "ich (Dialekt, = jeg)"
+        },
+        {
+          "no": "ka",
+          "de": "was (Dialekt, = hva)"
+        },
+        {
+          "no": "kor",
+          "de": "wo (Dialekt, = hvor)"
+        },
+        {
+          "no": "mæ",
+          "de": "mich (Dialekt, = meg)"
+        },
+        {
+          "no": "dæ",
+          "de": "dich (Dialekt, = deg)"
+        },
+        {
+          "no": "dokker",
+          "de": "ihr (Dialekt, = dere)"
+        },
+        {
+          "no": "ska",
+          "de": "soll, werde (Dialekt, = skal)"
+        },
+        {
+          "no": "snakk",
+          "de": "sprechen (Dialekt, = snakke)"
+        },
+        {
+          "no": "infinitiv",
+          "de": "Infinitiv (Grundform des Verbs)"
         }
       ]
     }
@@ -607,12 +663,12 @@
           "explain": "„Ein Freund von mir“ = en venn av meg (einer aus der Gruppe meiner Freunde)."
         },
         {
-          "prompt": "Døra ___ kjøleskapet var åpen hele natta.",
-          "de": "Die Kühlschranktür stand die ganze Nacht offen.",
+          "prompt": "Fargen ___ huset er gul.",
+          "de": "Die Farbe des Hauses ist gelb.",
           "answer": [
             "på"
           ],
-          "explain": "Teil eines Gegenstands: på (døra på kjøleskapet)."
+          "explain": "Eigenschaft einer Sache (Farbe, Preis, Name): på (fargen på huset)."
         },
         {
           "prompt": "Dette er en ___ de beste bøkene om dialekter.",
@@ -626,9 +682,10 @@
           "prompt": "Lysene ___ byen glitret i mørket.",
           "de": "Die Lichter der Stadt glitzerten in der Dunkelheit.",
           "answer": [
-            "i"
+            "i",
+            "fra"
           ],
-          "explain": "Etwas, das sich an einem Ort befindet: i (lysene i byen)."
+          "explain": "Etwas, das sich an einem Ort befindet: i (lysene i byen). Auch lysene fra byen ist richtig."
         }
       ]
     },
@@ -749,7 +806,8 @@
           "prompt": "Hun ventet i køen ___ det var hennes tur. (bis)",
           "de": "Sie wartete in der Schlange, bis sie an der Reihe war.",
           "answer": [
-            "til"
+            "til",
+            "helt til"
           ],
           "explain": "bis = til (als Konjunktion)."
         },
@@ -765,9 +823,10 @@
           "prompt": "Matthias svarte ___ han hadde lest meldingen. (sobald)",
           "de": "Matthias antwortete, sobald er die Nachricht gelesen hatte.",
           "answer": [
-            "så snart"
+            "så snart",
+            "straks"
           ],
-          "explain": "sobald = så snart."
+          "explain": "sobald = så snart (auch: straks)."
         },
         {
           "prompt": "Da hun kom hjem, ___ mørkt. (det, være, preteritum)",
@@ -873,16 +932,19 @@
           "prompt": "Inga snakket langsomt ___ Susanne kunne forstå henne. (damit)",
           "de": "Inga sprach langsam, damit Susanne sie verstehen konnte.",
           "answer": [
-            "for at"
+            "for at",
+            "slik at",
+            "så"
           ],
-          "explain": "Zweck: for at (damit)."
+          "explain": "Zweck: for at (damit). Im Alltag hört man auch slik at oder einfach så."
         },
         {
           "prompt": "Det var lang kø, ___ hun måtte vente i en time. (deshalb, sodass)",
           "de": "Es war eine lange Schlange, sodass sie eine Stunde warten musste.",
           "answer": [
             "så",
-            "så at"
+            "så at",
+            "slik at"
           ],
           "explain": "Folge: så (at)."
         },
@@ -1150,7 +1212,8 @@
     {
       "de": "Als ich nach Tromsø kam, war es dunkel.",
       "no": [
-        "Da jeg kom til Tromsø, var det mørkt."
+        "Da jeg kom til Tromsø, var det mørkt.",
+        "Det var mørkt da jeg kom til Tromsø."
       ],
       "hint": "einmal in der Vergangenheit → da; danach Inversion"
     },
@@ -1165,20 +1228,23 @@
       "de": "Ich habe nicht alles verstanden, weil der Professor Dialekt gesprochen hat.",
       "no": [
         "Jeg forsto ikke alt fordi professoren snakket dialekt.",
-        "Jeg skjønte ikke alt fordi professoren snakket dialekt."
+        "Jeg skjønte ikke alt fordi professoren snakket dialekt.",
+        "Jeg har ikke forstått alt fordi professoren snakket dialekt."
       ]
     },
     {
       "de": "Während Inga kochte, schrieb Susanne eine Liste.",
       "no": [
         "Mens Inga lagde mat, skrev Susanne en liste.",
-        "Mens Inga laget mat, skrev Susanne en liste."
+        "Mens Inga laget mat, skrev Susanne en liste.",
+        "Susanne skrev en liste mens Inga lagde mat."
       ]
     },
     {
       "de": "Bevor du die Prüfung ablegen kannst, musst du dich registrieren.",
       "no": [
-        "Før du kan ta eksamen, må du registrere deg."
+        "Før du kan ta eksamen, må du registrere deg.",
+        "Du må registrere deg før du kan ta eksamen."
       ]
     },
     {
@@ -1207,7 +1273,8 @@
     {
       "de": "Sobald ich die Nachricht gelesen hatte, rief ich dich an.",
       "no": [
-        "Så snart jeg hadde lest meldingen, ringte jeg deg."
+        "Så snart jeg hadde lest meldingen, ringte jeg deg.",
+        "Jeg ringte deg så snart jeg hadde lest meldingen."
       ]
     },
     {
@@ -1239,12 +1306,13 @@
       "prompt": "Etterpå venter Susanne nesten en time i ___ for å få studentkortet.",
       "de": "Danach wartet Susanne fast eine Stunde in der Schlange, um den Studentenausweis zu bekommen.",
       "answer": [
-        "køen"
+        "køen",
+        "kø"
       ]
     },
     {
-      "prompt": "I biblioteket viser en bibliotekar henne hvordan hun kan ___ bøker.",
-      "de": "In der Bibliothek zeigt ihr eine Bibliothekarin, wie sie Bücher ausleihen kann.",
+      "prompt": "I biblioteket viser en bibliotekar henne hvordan hun kan ___ bøker og finne artikler.",
+      "de": "In der Bibliothek zeigt ihr eine Bibliothekarin, wie sie Bücher ausleihen und Artikel finden kann.",
       "answer": [
         "låne"
       ]
@@ -1313,7 +1381,7 @@
         ]
       }
     ],
-    "model": "Hei, Torunn!\nNå har jeg vært i Tromsø i en uke, og i dag hadde jeg min første dag på universitetet. Da jeg våknet, var det fortsatt mørkt. Etter at jeg hadde vært på informasjonsmøtet, hentet jeg studentkortet mitt og gikk til biblioteket. Der lånte jeg tre bøker om norske dialekter. Den første forelesningen var i nordisk språkvitenskap. Professoren snakket nordnorsk, og jeg forsto bare halvparten, selv om jeg hørte godt etter. Men professoren var veldig hyggelig. Han sa at jeg kommer til å forstå mer når jeg har bodd her en stund. Takk for alt du lærte meg i Oslo!\nHilsen Susanne",
-    "modelDe": "Hallo, Torunn!\nJetzt bin ich seit einer Woche in Tromsø, und heute hatte ich meinen ersten Tag an der Universität. Als ich aufwachte, war es noch dunkel. Nachdem ich bei der Infoveranstaltung gewesen war, holte ich meinen Studentenausweis ab und ging in die Bibliothek. Dort lieh ich drei Bücher über norwegische Dialekte aus. Die erste Vorlesung war in Nordischer Sprachwissenschaft. Der Professor sprach Nordnorwegisch, und ich verstand nur die Hälfte, obwohl ich gut zuhörte. Aber der Professor war sehr nett. Er sagte, dass ich mehr verstehen werde, wenn ich eine Weile hier gewohnt habe. Danke für alles, was du mir in Oslo beigebracht hast!\nViele Grüße, Susanne"
+    "model": "Hei, Torunn!\nI går kveld landet jeg i Tromsø, og i dag hadde jeg min første dag på universitetet. Da jeg våknet, var det fortsatt mørkt. Etter at jeg hadde vært på informasjonsmøtet, hentet jeg studentkortet mitt og gikk til biblioteket. Der lånte jeg tre bøker om norske dialekter. Den første forelesningen var i nordisk språkvitenskap. Professoren snakket nordnorsk, og jeg forsto bare halvparten, selv om jeg hørte godt etter. Men professoren var veldig hyggelig. Han sa at jeg kommer til å forstå mer når jeg har bodd her en stund. Takk for alt du lærte meg i Oslo!\nHilsen Susanne",
+    "modelDe": "Hallo, Torunn!\nGestern Abend bin ich in Tromsø gelandet, und heute hatte ich meinen ersten Tag an der Universität. Als ich aufwachte, war es noch dunkel. Nachdem ich bei der Infoveranstaltung gewesen war, holte ich meinen Studentenausweis ab und ging in die Bibliothek. Dort lieh ich drei Bücher über norwegische Dialekte aus. Die erste Vorlesung war in Nordischer Sprachwissenschaft. Der Professor sprach Nordnorwegisch, und ich verstand nur die Hälfte, obwohl ich gut zuhörte. Aber der Professor war sehr nett. Er sagte, dass ich mehr verstehen werde, wenn ich eine Weile hier gewohnt habe. Danke für alles, was du mir in Oslo beigebracht hast!\nViele Grüße, Susanne"
   }
 }

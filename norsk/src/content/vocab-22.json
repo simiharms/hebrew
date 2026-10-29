@@ -32,7 +32,7 @@
     "lesson": 22,
     "ex": {
       "no": "På grunnlovsdagen går barna i tog.",
-      "de": "Am Verfassungstag gehen die Kinder im Umzug."
+      "de": "Am Verfassungstag laufen die Kinder im Umzug mit."
     }
   },
   {
@@ -290,7 +290,7 @@
     ],
     "lesson": 22,
     "ex": {
-      "no": "Ola gikk på barneskolen i Sagene.",
+      "no": "Ola gikk på barneskolen på Sagene.",
       "de": "Ola ging in Sagene in die Grundschule."
     },
     "note": "1.–7. Klasse; danach ungdomsskole (8.–10.)."
@@ -425,7 +425,7 @@
       "no": "Sølja er laget av sølv.",
       "de": "Die Trachtenbrosche ist aus Silber."
     },
-    "note": "Runder Silberschmuck, der zur Bunad gehört."
+    "note": "Silberschmuck (eine Brosche), der zur Bunad gehört."
   },
   {
     "id": "w22_solv",
@@ -470,7 +470,7 @@
     "gender": "f",
     "forms": [
       "familiehistorie",
-      "familiehistoria",
+      "familiehistoria/familiehistorien",
       "familiehistorier",
       "familiehistoriene"
     ],
@@ -905,8 +905,8 @@
     ],
     "lesson": 22,
     "ex": {
-      "no": "Bestemor Ingrid har tre barnebarn.",
-      "de": "Oma Ingrid hat drei Enkelkinder."
+      "no": "Bestemor Ingrid er glad i barnebarna sine.",
+      "de": "Oma Ingrid hat ihre Enkelkinder sehr gern."
     }
   },
   {
@@ -1192,14 +1192,14 @@
     "gender": "n",
     "forms": [
       "våpen",
-      "våpenet",
+      "våpenet/våpnet",
       "våpen",
       "våpna/våpnene"
     ],
     "lesson": 22,
     "ex": {
       "no": "Barna går i tog uten våpen.",
-      "de": "Die Kinder gehen ohne Waffen im Umzug."
+      "de": "Die Kinder laufen ohne Waffen im Umzug mit."
     }
   },
   {
@@ -1558,8 +1558,8 @@
     ],
     "lesson": 22,
     "ex": {
-      "no": "Dronning Sonja går gjerne på tur i fjellet.",
-      "de": "Königin Sonja wandert gern in den Bergen."
+      "no": "Dronning Sonja er glad i kunst og friluftsliv.",
+      "de": "Königin Sonja liebt die Kunst und das Leben in der Natur."
     }
   },
   {
@@ -1576,8 +1576,8 @@
     ],
     "lesson": 22,
     "ex": {
-      "no": "Kronprins Haakon blir konge en dag.",
-      "de": "Kronprinz Haakon wird eines Tages König."
+      "no": "Kronprinsen skal en dag bli konge.",
+      "de": "Der Kronprinz wird eines Tages König."
     }
   },
   {
@@ -2124,8 +2124,8 @@
     "vg": "sterk",
     "lesson": 22,
     "ex": {
-      "no": "Ola brakk beinet da han spilte fotball.",
-      "de": "Ola brach sich beim Fußballspielen das Bein."
+      "no": "Han brakk armen da han falt på isen.",
+      "de": "Er brach sich den Arm, als er auf dem Eis hinfiel."
     }
   }
 ]

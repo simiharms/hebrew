@@ -956,6 +956,45 @@
     "note": "Mit zwei l."
   },
   {
+    "id": "w01_sentrum",
+    "no": "sentrum",
+    "de": "das Zentrum",
+    "deAlt": [
+      "die Innenstadt",
+      "die Stadtmitte"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "sentrum",
+      "sentrumet"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Mads jobber på et hotell i sentrum.",
+      "de": "Mads arbeitet in einem Hotel im Zentrum."
+    },
+    "note": "Meist ohne Artikel: i sentrum = im Zentrum, in der Innenstadt."
+  },
+  {
+    "id": "w01_problem",
+    "no": "problem",
+    "de": "das Problem",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "problem",
+      "problemet",
+      "problemer",
+      "problema/problemene"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Ikke noe problem!",
+      "de": "Kein Problem!"
+    }
+  },
+  {
     "id": "w01_spraak",
     "no": "språk",
     "de": "die Sprache",
@@ -1646,6 +1685,41 @@
       "no": "Familien Nygård har ei hytte.",
       "de": "Familie Nygård hat eine Hütte."
     }
+  },
+  {
+    "id": "w01_natur",
+    "no": "natur",
+    "de": "die Natur",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "natur",
+      "naturen"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Norge har mye natur.",
+      "de": "Norwegen hat viel Natur."
+    }
+  },
+  {
+    "id": "w01_aar",
+    "no": "år",
+    "de": "das Jahr",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "år",
+      "året",
+      "år",
+      "åra/årene"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Nordmenn går på tur hele året.",
+      "de": "Die Norweger gehen das ganze Jahr wandern."
+    },
+    "note": "Plural ohne Endung: et år – to år."
   },
   {
     "id": "w01_alle_sammen",

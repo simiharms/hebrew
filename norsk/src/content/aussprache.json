@@ -3,7 +3,7 @@
   "sections": [
     {
       "h": "Die Buchstaben æ, ø, å – und wie du sie tippst",
-      "body": "Das norwegische Alphabet hat 29 Buchstaben: a bis z und danach **æ**, **ø**, **å** – in dieser Reihenfolge, auch im Wörterbuch.\n\n• **æ** klingt wie das deutsche ä in „Bär“: **være**, **lære**\n• **ø** klingt wie das deutsche ö: **søster**, **grønn**\n• **å** klingt wie ein offenes o, kurz wie in „Sonne“, lang etwa wie in „Boot“, aber offener: **gå**, **båt**\n\nSo tippst du die Buchstaben:\n• iPhone und iPad: lange auf **a** drücken → å, æ; lange auf **o** drücken → ø\n• Mac: **Option+'** → æ, **Option+o** → ø, **Option+a** → å (auf der deutschen Tastatur liegt æ auf **Option+ä**)\n• Am bequemsten: in den Einstellungen die norwegische Tastatur hinzufügen.\n\nIn alten Namen steht oft **aa** für å (**Aasen**). In der App ist ein fehlendes æ, ø oder å kein Fehler – du bekommst nur einen Hinweis.",
+      "body": "Das norwegische Alphabet hat 29 Buchstaben: a bis z und danach **æ**, **ø**, **å** – in dieser Reihenfolge, auch im Wörterbuch.\n\n• **æ** klingt wie das deutsche ä in „Bär“: **være**, **lære**\n• **ø** klingt wie das deutsche ö: **søster**, **grønn**\n• **å** klingt wie ein offenes o, kurz wie in „Sonne“, lang etwa wie in „Boot“, aber offener: **gå**, **båt**\n\nSo tippst du die Buchstaben:\n• iPhone und iPad: lange auf **a** drücken → å, æ; lange auf **o** drücken → ø\n• Mac mit deutscher Tastaturbelegung: **Option+ä** → æ, **Option+o** → ø, **Option+a** → å (die Option-Taste ⌥ heißt auf deutschen Tastaturen auch „alt“)\n• Am bequemsten: in den Einstellungen die norwegische Tastatur hinzufügen.\n\nIn alten Namen steht oft **aa** für å (**Aasen**). In der App ist ein fehlendes æ, ø oder å kein Fehler – du bekommst nur einen Hinweis.",
       "table": [
         ["Buchstabe", "klingt etwa wie", "Beispiel"],
         ["**æ**", "ä in „Bär“", "**være** (sein)"],
@@ -75,7 +75,7 @@
     },
     {
       "h": "Doppellaute: ei, øy, au",
-      "body": "Norwegisch hat drei Diphthonge:\n\n• **ei** beginnt mit ä und gleitet zu i – etwa „äi“: **nei**, **hei**, **vei**\n• **øy** beginnt mit ö und gleitet zu i (ähnlich wie „eu“ in „heute“, aber mit ö): **øy**, **høy**, **gøy**\n• **au** beginnt mit ä und gleitet zu einem ü-artigen u – nicht ganz das deutsche „au“: **sau**, **haug**\n\nAchtung: Auch **eg** und **egn** klingen oft wie **ei**: **meg**, **deg**, **seg** (etwa „mäi, däi, säi“), **regn** („räin“), **tegne**. Und **jeg** spricht man „jäi“.",
+      "body": "Norwegisch hat drei Diphthonge:\n\n• **ei** beginnt mit ä und gleitet zu i – etwa „äi“: **nei**, **hei**, **vei**\n• **øy** beginnt mit ö und gleitet zu ü (ähnlich wie „eu“ in „heute“, aber mit ö am Anfang): **øy**, **høy**, **gøy**\n• **au** beginnt mit ä und gleitet zu einem ü-artigen u – nicht ganz das deutsche „au“: **sau**, **haug**\n\nAchtung: Auch **eg** und **egn** klingen oft wie **ei**: **meg**, **deg**, **seg** (etwa „mäi, däi, säi“), **regn** („räin“), **tegne**. Und **jeg** spricht man „jäi“.",
       "examples": [
         { "no": "nei", "de": "nein" },
         { "no": "hei", "de": "hallo" },
@@ -155,7 +155,7 @@
     },
     {
       "h": "Das r und die Verbindung rs",
-      "body": "In Oslo und im größten Teil Norwegens ist das **r** ein kurz **getipptes Zungen-r** (wie im Bairischen oder Italienischen). Im Süden und Westen, zum Beispiel in Bergen und Stavanger, spricht man dagegen ein Zäpfchen-r wie im Deutschen. Beides ist richtig. Wichtig: Das r wird **immer** gesprochen, auch am Wortende – kein „Vokal-r“ wie im deutschen „Vater“: **bror**, **mer**, **Vær så god!**\n\nIm Osten verschmilzt **r** mit einem folgenden **s, t, d, n, l** zu einem neuen Laut, bei dem die Zungenspitze nach hinten gebogen wird:\n\n• **rs** klingt wie **sch**: **norsk** („noschk“), **torsdag**, **først**, **kurs**\n• **rt, rd, rn, rl**: Das r verschwindet fast, die Zunge biegt sich zurück: **kort**, **bord** („bur“), **barn**, **Karl**\n\nIn Bergen dagegen hört man in **norsk** ein deutliches r und s.",
+      "body": "In Oslo und im größten Teil Norwegens ist das **r** ein kurz **getipptes Zungen-r** (wie im Bairischen oder Italienischen). Im Süden und Westen, zum Beispiel in Bergen und Stavanger, spricht man dagegen ein Zäpfchen-r wie im Deutschen. Beides ist richtig. Wichtig: Das r wird **immer** gesprochen, auch am Wortende – kein „Vokal-r“ wie im deutschen „Vater“: **bror**, **mer**, **år**.\n\nIm Osten verschmilzt **r** mit einem folgenden **s, t, d, n, l** zu einem neuen Laut, bei dem die Zungenspitze nach hinten gebogen wird:\n\n• **rs** klingt wie **sch**: **norsk** („noschk“), **torsdag**, **først**, **kurs**\n• **rt, rd, rn, rl**: Das r verschwindet fast, die Zunge biegt sich zurück: **kort**, **ferdig**, **barn**, **Karl**. In **bord** („bur“) ist dagegen einfach das d stumm.\n\nAuch über die Wortgrenze geht das: **Vær så god!** klingt in Oslo etwa wie „väschågu“. In Bergen dagegen hört man in **norsk** ein deutliches r und s.",
       "examples": [
         { "no": "bror", "de": "Bruder" },
         { "no": "mer", "de": "mehr" },
@@ -164,8 +164,10 @@
         { "no": "først", "de": "zuerst" },
         { "no": "kurs", "de": "Kurs" },
         { "no": "kort", "de": "kurz" },
+        { "no": "ferdig", "de": "fertig" },
+        { "no": "barn", "de": "Kind" },
         { "no": "bord", "de": "Tisch" },
-        { "no": "barn", "de": "Kind" }
+        { "no": "Vær så god!", "de": "Bitte schön! / Greif zu!" }
       ]
     },
     {
@@ -192,7 +194,7 @@
     },
     {
       "h": "Typische Fehler von Deutschsprachigen",
-      "body": "• **st** und **sp** am Wortanfang: kein „scht“ oder „schp“! **stor** = s-tor, **spise** = s-pise, **sted**.\n• **s** ist immer scharf (stimmlos) wie in „Haus“, auch am Wortanfang: **sol**, **se**, **sove** – nicht weich wie in „Sonne“.\n• **o** wie u: **bok**, **god**, **sko** – nicht „Bock“, „Gott“.\n• Keine Auslautverhärtung: Ein **g** am Wortende bleibt weich (**dag**), und viele d sind ganz stumm (**god**, **rød**).\n• Kein deutsches **ch**: **og**, **jeg** und **dag** haben nie ein ch.\n• **de** (sie, Plural) spricht man „di“, **dem** dagegen „dem“.\n• Das **r** nicht verschlucken: **Vær så god!**, **mer**, **bror**.\n• **v** ist ein deutsches w: **vi**, **vann**. Ein deutsches v wie in „Vater“ (= f) gibt es nicht.\n• Lange Wörter nicht zu deutsch betonen: **universitet** wird hinten betont.",
+      "body": "• **st** und **sp** am Wortanfang: kein „scht“ oder „schp“! **stor** = s-tor, **spise** = s-pise, **sted**.\n• **s** ist immer scharf (stimmlos) wie in „Haus“, auch am Wortanfang: **sol**, **se**, **sove** – nicht weich wie in „Sonne“.\n• **o** wie u: **bok**, **god**, **sko** – nicht „Bock“, „Gott“.\n• Keine Auslautverhärtung: Ein **g** am Wortende bleibt weich (**dag**), und viele d sind ganz stumm (**god**, **rød**).\n• Kein deutsches **ch**: **og**, **jeg** und **dag** haben nie ein ch.\n• **de** (sie, Plural) spricht man „di“, **dem** dagegen „dem“.\n• Das **r** nicht verschlucken: **mer**, **bror**, **Takk for maten!**\n• **v** ist ein deutsches w: **vi**, **vann**. Ein deutsches v wie in „Vater“ (= f) gibt es nicht.\n• Nicht Wort für Wort sprechen: Norwegisch hat keinen deutschen Knacklaut vor Vokalen, die Wörter gehen weich ineinander über, und der Satz hat eine singende Melodie. Sprich ganze Sätze nach: **Hvor kommer du fra?**",
       "examples": [
         { "no": "stor", "de": "groß" },
         { "no": "spise", "de": "essen" },
@@ -201,7 +203,7 @@
         { "no": "dag", "de": "Tag" },
         { "no": "rød", "de": "rot" },
         { "no": "de", "de": "sie (Plural)" },
-        { "no": "Vær så god!", "de": "Bitte schön! / Greif zu!" },
+        { "no": "Takk for maten!", "de": "Danke für das Essen!" },
         { "no": "vi", "de": "wir" },
         { "no": "Hvor kommer du fra?", "de": "Woher kommst du?" }
       ]

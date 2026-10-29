@@ -221,6 +221,10 @@
         "de": "im Flur"
       },
       {
+        "no": "gangen",
+        "de": "der Flur"
+      },
+      {
         "no": "sur",
         "de": "sauer, schlecht gelaunt"
       },
@@ -421,6 +425,10 @@
           "de": "der Name"
         },
         {
+          "no": "Trolltunga",
+          "de": "die „Trollzunge“: Felsvorsprung hoch über einem See in Westnorwegen"
+        },
+        {
           "no": "suvenirbutikker",
           "de": "Souvenirläden"
         },
@@ -431,6 +439,10 @@
         {
           "no": "ekte",
           "de": "echt"
+        },
+        {
+          "no": "bak",
+          "de": "hinter"
         },
         {
           "no": "bak huset",
@@ -807,7 +819,7 @@
       "sections": [
         {
           "h": "Neutrum mit -tt",
-          "body": "Endet ein Adjektiv auf einen betonten Vokal, bekommt es im Neutrum **-tt**:\n\n• **et blått pledd** – eine blaue Decke\n• **Trollet er stort og grått.** – Der Troll ist groß und grau.\n• **et nytt skjerf** – ein neuer Schal\n• **Er bordet fritt?** – Ist der Tisch frei?\n\nBei en- und ei-Wörtern bleibt die Grundform: **en blå bil, ei ny jakke, himmelen er blå**.",
+          "body": "Endet ein Adjektiv auf einen betonten Vokal, bekommt es im Neutrum **-tt**:\n\n• **et blått pledd** – eine blaue Decke\n• **Trollet er stort og grått.** – Der Troll ist groß und grau.\n• **et nytt skjerf** – ein neuer Schal\n• **Norge er et fritt land.** – Norwegen ist ein freies Land.\n\nBei en- und ei-Wörtern bleibt die Grundform: **en blå bil, ei ny jakke, himmelen er blå**.",
           "table": [
             [
               "en/ei",
@@ -897,12 +909,12 @@
           "explain": "et brød: Neutrum; god → godt mit nur einem t."
         },
         {
-          "prompt": "Unnskyld, er bordet ___? (fri)",
-          "de": "Entschuldigung, ist der Tisch frei?",
+          "prompt": "Norge er et ___ land. (fri)",
+          "de": "Norwegen ist ein freies Land.",
           "answer": [
             "fritt"
           ],
-          "explain": "et bord: Neutrum; fri → fritt."
+          "explain": "et land: Neutrum; fri → fritt."
         },
         {
           "prompt": "Huset har ___ vinduer. (blå)",
@@ -1359,7 +1371,8 @@
       "no": [
         "Ta av deg skoene, er du snill.",
         "Vær så snill og ta av deg skoene.",
-        "Ta av deg skoene."
+        "Ta av deg skoene.",
+        "Ta av deg skoene, vær så snill."
       ]
     },
     {

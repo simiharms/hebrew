@@ -318,7 +318,7 @@
         },
         {
           "no": "Nordmenn sier ofte takk. Når man møter en venn igjen, sier man «Takk for sist!» Etter kurset sier man «Takk for i dag!»",
-          "de": "Norweger sagen oft danke. Wenn man einen Freund wiedertrifft, sagt man »Danke für das letzte Mal!«. Nach dem Kurs sagt man »Danke für heute!«."
+          "de": "Norweger sagen oft danke. Wenn man einen Freund wiedertrifft, sagt man »Danke für das letzte Mal!« Nach dem Kurs sagt man »Danke für heute!«"
         },
         {
           "no": "På en kafé bestiller man ofte ved disken. Man betaler med kort eller med mobilen, og vann tar man selv. Tips er frivillig.",
@@ -540,7 +540,7 @@
       "sections": [
         {
           "h": "Die Hauptregel: -er",
-          "body": "Die meisten Substantive bekommen im Plural **-er**, egal welches Geschlecht:\n\n• **en bil – biler**, **en kopp – kopper**\n• **ei jente – jenter**, **ei hytte – hytter**\n• **et hotell – hoteller**, **et stykke – stykker**\n\nEndet das Wort schon auf **-e**, kommt nur **-r** dazu: **en krone – kroner**, **en time – timer**, **en bolle – boller**.\n\nViel einfacher als im Deutschen: Es gibt keine Umlaute und keine fünf verschiedenen Endungen."
+          "body": "Die meisten Substantive bekommen im Plural **-er**, egal welches Geschlecht:\n\n• **en bil – biler**, **en kopp – kopper**\n• **ei jente – jenter**, **ei hytte – hytter**\n• **et hotell – hoteller**, **et stykke – stykker**\n\nEndet das Wort schon auf **-e**, kommt nur **-r** dazu: **en krone – kroner**, **en time – timer**, **en bolle – boller**.\n\nViel einfacher als im Deutschen: meist kein Umlaut (Ausnahmen wie **bøker** siehe unten) und nicht fünf verschiedene Endungen."
         },
         {
           "h": "Einsilbige Neutra: keine Endung",
@@ -623,7 +623,7 @@
         },
         {
           "prompt": "Mads kjøper to ___. (bolle)",
-          "de": "Mads kauft zwei Brötchen.",
+          "de": "Mads kauft zwei Hefebrötchen.",
           "answer": [
             "boller"
           ],
@@ -719,7 +719,7 @@
         },
         {
           "h": "Auch nach einem Nebensatz",
-          "body": "Ein ganzer Nebensatz kann auf Platz 1 stehen. Dann kommt danach sofort das Verb:\n\n• **Når det er fredag, spiser jeg kake.** – Wenn Freitag ist, esse ich Kuchen.\n• **Hvis jeg er sulten, kjøper jeg en bolle.** – Wenn ich Hunger habe, kaufe ich ein Brötchen.\n\nAuch das ist wie im Deutschen: »…, **esse ich** Kuchen.«"
+          "body": "Ein ganzer Nebensatz kann auf Platz 1 stehen. Dann kommt danach sofort das Verb:\n\n• **Når det er fredag, spiser jeg kake.** – Wenn Freitag ist, esse ich Kuchen.\n• **Hvis jeg er sulten, kjøper jeg en bolle.** – Wenn ich Hunger habe, kaufe ich ein Hefebrötchen.\n\nAuch das ist wie im Deutschen: »…, **esse ich** Kuchen.«"
         }
       ],
       "drills": [
@@ -813,7 +813,7 @@
       "sections": [
         {
           "h": "Kein Verb am Ende!",
-          "body": "Nebensätze beginnen mit einer Konjunktion wie **at** (dass), **fordi** (weil), **når** (wenn/wann), **hvis** (wenn, falls) oder **om** (ob). Danach kommt die normale Reihenfolge: **Subjekt – Verb – Rest**.\n\n• **Jeg spiser kake fordi det er fredag.**\n  Deutsch: … weil heute Freitag **ist**.\n• **Jeg vet at Elin kommer fra Göteborg.**\n  Deutsch: … dass Elin aus Göteborg **kommt**.\n\nDas ist der wichtigste Unterschied zum Deutschen: Das Verb wandert **nie** ans Ende. Typischer Fehler: »fordi det fredag er« (falsch!)."
+          "body": "Nebensätze beginnen mit einer Konjunktion wie **at** (dass), **fordi** (weil), **når** (wenn/wann), **hvis** (wenn, falls) oder **om** (ob). Danach kommt die normale Reihenfolge: **Subjekt – Verb – Rest**.\n\n• **Jeg spiser kake fordi det er fredag.**\n  Deutsch: … weil Freitag **ist**.\n• **Jeg vet at Elin kommer fra Göteborg.**\n  Deutsch: … dass Elin aus Göteborg **kommt**.\n\nDas ist der wichtigste Unterschied zum Deutschen: Das Verb wandert **nie** ans Ende. Typischer Fehler: »fordi det fredag er« (falsch!)."
         },
         {
           "h": "ikke im Nebensatz: vor dem Verb",
@@ -917,7 +917,7 @@
         },
         {
           "prompt": "___ du er sulten, er det boller der borte. (falls)",
-          "de": "Falls du Hunger hast, gibt es dort drüben Brötchen.",
+          "de": "Falls du Hunger hast, gibt es dort drüben Hefebrötchen.",
           "answer": [
             "Hvis",
             "Om"
@@ -1012,7 +1012,7 @@
         },
         {
           "h": "Aussprache und en/ett",
-          "body": "• **tjue** und **sju**: tj und sj klingen ähnlich wie »ch« in »ich« bzw. »sch«: etwa »chüe«, »schü«.\n• **tolv** spricht man »toll«, **seksten** »säisten«, **sytten** »sötten«, **atten** wie geschrieben.\n• **fire** hat zwei Silben: »fi-re«.\n\nDie Eins: Vor einem et-Wort heißt sie **ett**: **ett glass, ett år**. Vor einem en-Wort heißt sie **en**: **en kopp, en krone**. Beim Zählen sagt man **en**."
+          "body": "• **tjue** und **sju**: tj und sj klingen ähnlich wie »ch« in »ich« bzw. »sch«: etwa »chüe«, »schü«.\n• **tolv** spricht man »toll«, **seksten** »säisten«, **sytten** »sötten«, **atten** wie geschrieben.\n• **fire** hat zwei Silben: »fi-re«.\n\nDie Eins: Vor einem et-Wort heißt sie **ett**: **ett glass, ett år**. Vor einem en-Wort heißt sie **en**, vor einem ei-Wort **ei** (oder en): **en kopp, ei bok**. Beim Zählen sagt man **en**."
         },
         {
           "h": "Preise",
@@ -1038,7 +1038,7 @@
         },
         {
           "prompt": "En bolle koster ___ kroner. (18)",
-          "de": "Ein Brötchen kostet achtzehn Kronen.",
+          "de": "Ein Hefebrötchen kostet achtzehn Kronen.",
           "answer": [
             "atten"
           ],
@@ -1252,13 +1252,15 @@
     {
       "de": "Was kostet das?",
       "no": [
-        "Hva koster det?"
+        "Hva koster det?",
+        "Hvor mye koster det?"
       ]
     },
     {
       "de": "Das kostet fünfzehn Kronen.",
       "no": [
-        "Det koster femten kroner."
+        "Det koster femten kroner.",
+        "Det koster 15 kroner."
       ]
     },
     {
@@ -1309,7 +1311,8 @@
       "prompt": "Susanne kjøper en kaffe og et stykke ___.",
       "de": "Susanne kauft einen Kaffee und ein Stück Sahnetorte.",
       "answer": [
-        "bløtkake"
+        "bløtkake",
+        "kake"
       ]
     },
     {
@@ -1380,6 +1383,6 @@
       }
     ],
     "model": "Hei Anna! I dag er jeg på en kafé på Majorstuen med Elin. Jeg drikker en kopp te, og jeg spiser en bolle. Teen koster tjue kroner, og bollen koster 35 kroner. Det er dyrt, men det er godt! Elin drikker bare vann fordi hun ikke har penger. Kommer du også? Hilsen Susanne",
-    "modelDe": "Hallo Anna! Heute bin ich mit Elin in einem Café in Majorstuen. Ich trinke eine Tasse Tee und esse ein Brötchen. Der Tee kostet zwanzig Kronen, und das Brötchen kostet 35 Kronen. Das ist teuer, aber lecker! Elin trinkt nur Wasser, weil sie kein Geld hat. Kommst du auch? Viele Grüße, Susanne"
+    "modelDe": "Hallo Anna! Heute bin ich mit Elin in einem Café in Majorstuen. Ich trinke eine Tasse Tee und esse ein Hefebrötchen. Der Tee kostet zwanzig Kronen, und das Hefebrötchen kostet 35 Kronen. Das ist teuer, aber lecker! Elin trinkt nur Wasser, weil sie kein Geld hat. Kommst du auch? Viele Grüße, Susanne"
   }
 }

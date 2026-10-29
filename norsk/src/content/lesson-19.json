@@ -30,7 +30,7 @@
       { "s": "s", "no": "Hva sier veilederen din? Er hun fornøyd med deg?", "de": "Was sagt deine Betreuerin? Ist sie zufrieden mit dir?" },
       { "s": "a", "no": "Jeg tror det. I går sa hun at jeg var flink med pasientene, men at jeg måtte skrive journalene raskere. Hun spurte også om jeg hadde tenkt på å bli barnelege.", "de": "Ich glaube schon. Gestern hat sie gesagt, ich könne gut mit den Patienten umgehen, müsse die Krankenakten aber schneller schreiben. Sie hat mich auch gefragt, ob ich schon daran gedacht hätte, Kinderärztin zu werden." },
       { "s": "s", "no": "Barnelege! Det passer jo perfekt. Og pasientene, hva sier de?", "de": "Kinderärztin! Das passt doch perfekt. Und die Patienten, was sagen die?" },
-      { "s": "a", "no": "Alt mulig! En eldre mann spurte meg om jeg var gammel nok til å være lege. Og ei dame lurte på hvor jeg kom fra, fordi jeg ikke snakker trøndersk.", "de": "Alles Mögliche! Ein älterer Mann hat mich gefragt, ob ich alt genug sei, um Ärztin zu sein. Und eine Dame wollte wissen, woher ich komme, weil ich kein Trøndersk spreche." },
+      { "s": "a", "no": "Alt mulig! En eldre mann spurte meg om jeg var gammel nok til å være lege. Og en dame lurte på hvor jeg kom fra, fordi jeg ikke snakker trøndersk.", "de": "Alles Mögliche! Ein älterer Mann hat mich gefragt, ob ich alt genug sei, um Ärztin zu sein. Und eine Dame wollte wissen, woher ich komme, weil ich kein Trøndersk spreche." },
       { "s": "s", "no": "Ha ha! Det med alderen var sikkert ment som et kompliment. Har du fått være med på noe spennende denne uka?", "de": "Haha! Das mit dem Alter war bestimmt als Kompliment gemeint. Durftest du diese Woche bei etwas Spannendem dabei sein?" },
       { "s": "a", "no": "Ja! I går fikk jeg være med på en operasjon for første gang. Det var overlegen selv som spurte om jeg ville se på.", "de": "Ja! Gestern durfte ich zum ersten Mal bei einer Operation dabei sein. Der Oberarzt selbst war es, der gefragt hat, ob ich zuschauen möchte." },
       { "s": "s", "no": "Så spennende! Men du høres litt sliten ut.", "de": "Wie spannend! Aber du klingst ein bisschen müde." },
@@ -69,6 +69,7 @@
       { "no": "slaps", "de": "Schneematsch" },
       { "no": "praksisen", "de": "das Praktikum" },
       { "no": "St. Olavs hospital", "de": "Universitätsklinik in Trondheim" },
+      { "no": "hospital", "de": "Krankenhaus (in Namen; sonst sykehus)" },
       { "no": "kjempespennende", "de": "total spannend" },
       { "no": "Det skjer", "de": "es passiert" },
       { "no": "hver eneste dag", "de": "jeden einzelnen Tag" },
@@ -116,7 +117,7 @@
         { "no": "Det mest kjente bygget i byen er Nidarosdomen. Den er bygget over graven til kong Olav Haraldsson, som falt i slaget på Stiklestad i 1030. Etter hans død begynte folk å fortelle om mirakler, og kongen ble kjent som Olav den hellige. I flere hundre år kom pilegrimer fra hele Nord-Europa for å besøke graven hans.", "de": "Das bekannteste Bauwerk der Stadt ist der Nidarosdom. Er wurde über dem Grab von König Olav Haraldsson errichtet, der 1030 in der Schlacht von Stiklestad fiel. Nach seinem Tod begannen die Leute, von Wundern zu erzählen, und der König wurde als Olav der Heilige bekannt. Mehrere hundert Jahre lang kamen Pilger aus ganz Nordeuropa, um sein Grab zu besuchen." },
         { "no": "Byggingen av katedralen begynte rundt 1070. Nidarosdomen er verdens nordligste middelalderkatedral og en av de største middelalderbygningene i Norden. Mange kaller den Norges nasjonalhelligdom. Kirken har brent flere ganger, og i 1869 begynte en stor restaurering som varte i over hundre år. På den rikt dekorerte vestfronten står mange steinfigurer av personer fra Bibelen og fra norsk kirkehistorie.", "de": "Mit dem Bau der Kathedrale wurde um 1070 begonnen. Der Nidarosdom ist die nördlichste mittelalterliche Kathedrale der Welt und eines der größten mittelalterlichen Bauwerke der nordischen Länder. Viele nennen ihn das Nationalheiligtum Norwegens. Die Kirche hat mehrmals gebrannt, und 1869 begann eine große Restaurierung, die über hundert Jahre dauerte. An der reich geschmückten Westfassade stehen viele Steinfiguren von Gestalten aus der Bibel und aus der norwegischen Kirchengeschichte." },
         { "no": "Nidarosdomen er fortsatt viktig for kongehuset: Her ble kong Harald og dronning Sonja signet i 1991. Hvert år rundt olsok, 29. juli, arrangeres Olavsfestdagene med konserter, gudstjenester og marked. Fremdeles kommer mange pilegrimer til fots, for eksempel langs Gudbrandsdalsleden, som går fra Oslo gjennom hele Gudbrandsdalen til Trondheim.", "de": "Für das Königshaus ist der Nidarosdom bis heute wichtig: Hier wurden König Harald und Königin Sonja 1991 gesegnet. Jedes Jahr um Olsok, den 29. Juli, finden die Olavsfesttage mit Konzerten, Gottesdiensten und Markt statt. Noch immer kommen viele Pilger zu Fuß, zum Beispiel auf dem Gudbrandsdalsleden, der von Oslo durch das ganze Gudbrandsdal nach Trondheim führt." },
-        { "no": "Trondheim er også en ekte studentby. NTNU, Norges teknisk-naturvitenskapelige universitet, har mange tusen studenter. På Bakklandet finnes det koselige kafeer mellom gamle, fargerike trehus, og fra Gamle bybro ser man de kjente bryggene langs elva. Folk her snakker trøndersk, en dialekt med mange korte ord: «Æ e trønder» betyr «Jeg er trønder». Og skal du sykle opp den bratte bakken der, kan du prøve verdens første sykkelheis!", "de": "Trondheim ist auch eine echte Studentenstadt. Die NTNU, die Technisch-Naturwissenschaftliche Universität Norwegens, hat viele tausend Studierende. Im Viertel Bakklandet gibt es gemütliche Cafés zwischen alten, bunten Holzhäusern, und von der Alten Stadtbrücke aus sieht man die bekannten Speicherhäuser am Fluss. Die Leute hier sprechen Trøndersk, einen Dialekt mit vielen kurzen Wörtern: „Æ e trønder“ bedeutet „Ich bin Trønder“. Und wenn du dort den steilen Hang hinaufradeln willst, kannst du den ersten Fahrradlift der Welt ausprobieren!" }
+        { "no": "Trondheim er også en ekte studentby. NTNU, Norges teknisk-naturvitenskapelige universitet, har mange tusen studenter. På Bakklandet finnes det koselige kafeer mellom gamle, fargerike trehus, og fra Gamle bybro ser man de kjente bryggene langs elva. Folk her snakker trøndersk, en dialekt med mange korte ord: «Æ e trønder» betyr «Jeg er trønder». Og skal du sykle opp den bratte bakken der, kan du ta sykkelheisen – verdens første sykkelheis ble bygget nettopp her.", "de": "Trondheim ist auch eine echte Studentenstadt. Die NTNU, die Technisch-Naturwissenschaftliche Universität Norwegens, hat viele tausend Studierende. Im Viertel Bakklandet gibt es gemütliche Cafés zwischen alten, bunten Holzhäusern, und von der Alten Stadtbrücke aus sieht man die bekannten Speicherhäuser am Fluss. Die Leute hier sprechen Trøndersk, einen Dialekt mit vielen kurzen Wörtern: „Æ e trønder“ bedeutet „Ich bin Trønder“. Und wenn du dort den steilen Hang hinaufradeln willst, kannst du den Fahrradlift nehmen – der erste Fahrradlift der Welt wurde genau hier gebaut." }
       ],
       "glossary": [
         { "no": "tredje største", "de": "drittgrößte" },
@@ -152,7 +153,14 @@
         { "no": "bryggene", "de": "die Speicherhäuser am Wasser" },
         { "no": "bakken", "de": "der Hang, die Steigung" },
         { "no": "Æ e trønder", "de": "Ich bin Trønder (Dialekt: æ = jeg, e = er)" },
-        { "no": "sykkelheis", "de": "Fahrradlift" }
+        { "no": "e", "de": "(Dialekt) er = bin, ist" },
+        { "no": "sykkelheis", "de": "Fahrradlift" },
+        { "no": "vikingkongen", "de": "der Wikingerkönig" },
+        { "no": "kong", "de": "König (vor einem Namen: kong Olav)" },
+        { "no": "juli", "de": "Juli" },
+        { "no": "fots", "de": "(nur in: til fots = zu Fuß)" },
+        { "no": "teknisk-naturvitenskapelige", "de": "technisch-naturwissenschaftliche" },
+        { "no": "bybro", "de": "Stadtbrücke" }
       ]
     }
   ],
@@ -227,7 +235,7 @@
         { "prompt": "«Er du sulten?» – Matthias spurte i går kveld om jeg ___ sulten. (være)", "de": "„Hast du Hunger?“ – Matthias fragte gestern Abend, ob ich Hunger hätte.", "hint": "Das einleitende Verb steht in der Vergangenheit.",  "answer": ["var"], "explain": "Präsens → Präteritum nach spurte; om leitet die Ja/Nein-Frage ein." },
         { "prompt": "«Hvor bor du?» – Damen spurte hvor ___. (jeg, bo)", "de": "„Wo wohnst du?“ – Die Dame fragte, wo ich wohne.", "answer": ["jeg bodde", "jeg bor"], "explain": "Keine Inversion im Nebensatz: hvor jeg bodde (nicht hvor bodde jeg). Da es noch gilt, ist auch „jeg bor“ möglich." },
         { "prompt": "«Hvorfor svarer du ikke?» – Erik spurte hvorfor jeg ___ svarte.", "de": "„Warum antwortest du nicht?“ – Erik fragte, warum ich nicht antwortete.", "answer": ["ikke"], "explain": "ikke steht im Nebensatz vor dem Verb." },
-        { "prompt": "«Når går toget?» – Susanne spurte ___ toget gikk. (wann)", "de": "„Wann fährt der Zug?“ – Susanne fragte, wann der Zug fährt.", "answer": ["når"], "explain": "Das Fragewort når bleibt in der indirekten Frage erhalten." }
+        { "prompt": "«Når går toget?» – Susanne spurte ___ toget gikk. (wann)", "de": "„Wann fährt der Zug?“ – Susanne fragte, wann der Zug fahre.", "answer": ["når"], "explain": "Das Fragewort når bleibt in der indirekten Frage erhalten." }
       ]
     },
     {
@@ -366,12 +374,12 @@
     { "de": "(im Auto) mitfahren", "answer": ["sitte på"] }
   ],
   "translate": [
-    { "de": "Anna sagte, dass sie keine Zeit habe.", "no": ["Anna sa at hun ikke hadde tid.", "Anna sa at hun ikke hadde noen tid."], "hint": "Nach sa: Präteritum; ikke vor das Verb." },
-    { "de": "Kari fragt, ob Matthias auch mitkommen will.", "no": ["Kari spør om Matthias også vil bli med.", "Kari spør om Matthias vil bli med også.", "Kari lurer på om Matthias også vil bli med."] },
-    { "de": "Er fragte, wer angerufen hatte.", "no": ["Han spurte hvem som hadde ringt."], "hint": "hvem ist Subjekt – denk an som." },
+    { "de": "Anna sagte, dass sie keine Zeit habe.", "no": ["Anna sa at hun ikke hadde tid.", "Anna sa hun ikke hadde tid.", "Anna sa at hun ikke hadde noe tid.", "Anna sa at hun ikke hadde noen tid."], "hint": "Nach sa: Präteritum; ikke vor das Verb." },
+    { "de": "Kari fragt, ob Matthias auch mitkommen will.", "no": ["Kari spør om Matthias også vil bli med.", "Kari spør om Matthias vil bli med også.", "Kari spør om Matthias også vil være med.", "Kari spør om Matthias vil være med også.", "Kari lurer på om Matthias også vil bli med."] },
+    { "de": "Er fragte, wer angerufen hatte.", "no": ["Han spurte hvem som hadde ringt.", "Han spurte hvem det var som hadde ringt."], "hint": "hvem ist Subjekt – denk an som." },
     { "de": "Ich bin nicht dazu gekommen, Wäsche zu waschen.", "no": ["Jeg fikk ikke vasket klær.", "Jeg har ikke fått vasket klær.", "Jeg fikk ikke vasket klærne.", "Jeg har ikke fått vasket klærne."], "hint": "få + Partizip" },
-    { "de": "Darf ich dein Telefon leihen?", "no": ["Får jeg låne telefonen din?", "Kan jeg få låne telefonen din?"] },
-    { "de": "Wie hast du das erfahren?", "no": ["Hvordan fikk du vite det?", "Hvordan har du fått vite det?"] },
+    { "de": "Darf ich dein Telefon leihen?", "no": ["Får jeg låne telefonen din?", "Kan jeg få låne telefonen din?", "Får jeg låne mobilen din?", "Kan jeg få låne mobilen din?"] },
+    { "de": "Wie hast du das erfahren?", "no": ["Hvordan fikk du vite det?", "Hvordan har du fått vite det?", "Hvordan fikk du vite om det?"] },
     { "de": "Vor der Tür steht ein Mann.", "no": ["Det står en mann utenfor døra.", "Utenfor døra står det en mann.", "Det står en mann utenfor døren.", "Utenfor døren står det en mann."], "hint": "präsentierender Satz mit det" },
     { "de": "In Trondheim wohnen viele Studenten.", "no": ["Det bor mange studenter i Trondheim.", "I Trondheim bor det mange studenter."] },
     { "de": "Matthias war es, der angerufen hat.", "no": ["Det var Matthias som ringte.", "Det er Matthias som har ringt."] },

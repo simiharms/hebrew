@@ -117,7 +117,11 @@
   {
     "id": "w16_foreleser",
     "no": "foreleser",
-    "de": "der/die Vortragende, Dozent(in)",
+    "de": "der Dozent / die Dozentin",
+    "deAlt": [
+      "der Vortragende",
+      "die Vortragende"
+    ],
     "pos": "noun",
     "gender": "m",
     "forms": [
@@ -1330,7 +1334,7 @@
       "no": "Professoren fortalte mange vitser.",
       "de": "Der Professor erzählte viele Witze."
     },
-    "note": "Hva er vitsen? = Was soll das (für einen Sinn haben)?"
+    "note": "Hva er vitsen? = Was soll das? Wozu das Ganze?"
   },
   {
     "id": "w16_gryterett",
@@ -1816,5 +1820,98 @@
       "no": "Jeg forsto ikke noe i det hele tatt.",
       "de": "Ich habe überhaupt nichts verstanden."
     }
+  },
+  {
+    "id": "w16_biologi",
+    "no": "biologi",
+    "de": "die Biologie",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "biologi",
+      "biologien"
+    ],
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Inga studerer biologi.",
+      "de": "Inga studiert Biologie."
+    }
+  },
+  {
+    "id": "w16_bokmaal",
+    "no": "bokmål",
+    "de": "das Bokmål (norwegische Schriftsprache)",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "bokmål",
+      "bokmålet"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "De fleste nordmenn skriver bokmål.",
+      "de": "Die meisten Norweger schreiben Bokmål."
+    },
+    "note": "Die andere Schriftsprache heißt nynorsk."
+  },
+  {
+    "id": "w16_grunnlag",
+    "no": "grunnlag",
+    "de": "die Grundlage",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "grunnlag",
+      "grunnlaget",
+      "grunnlag",
+      "grunnlaga/grunnlagene"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Dialektene var grunnlaget for nynorsk.",
+      "de": "Die Dialekte waren die Grundlage für Nynorsk."
+    },
+    "note": "på grunnlag av = auf der Grundlage von"
+  },
+  {
+    "id": "w16_standard",
+    "no": "standard",
+    "de": "der Standard, die Norm",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "standard",
+      "standarden",
+      "standarder",
+      "standardene"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Norge har ingen offisiell standard for talespråket.",
+      "de": "Norwegen hat keinen offiziellen Standard für die gesprochene Sprache."
+    }
+  },
+  {
+    "id": "w16_tv",
+    "no": "tv",
+    "de": "der Fernseher, das Fernsehen",
+    "alt": [
+      "TV"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "tv",
+      "tv-en",
+      "tv-er",
+      "tv-ene"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Folk snakker dialekt på tv.",
+      "de": "Im Fernsehen sprechen die Leute Dialekt."
+    },
+    "note": "på tv = im Fernsehen; man schreibt tv oder TV."
   }
 ]

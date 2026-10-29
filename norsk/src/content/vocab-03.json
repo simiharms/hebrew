@@ -667,7 +667,7 @@
   {
     "id": "w03_faarikaal",
     "no": "fårikål",
-    "de": "Fårikål (Lamm mit Kohl)",
+    "de": "das Fårikål (Lamm mit Kohl)",
     "pos": "noun",
     "gender": "m",
     "forms": [
@@ -680,6 +680,26 @@
       "de": "Viele essen im Herbst Fårikål."
     },
     "note": "Norwegisches Nationalgericht: Lammfleisch und Weißkohl, im Topf geschmort."
+  },
+  {
+    "id": "w03_kaal",
+    "no": "kål",
+    "de": "der Kohl",
+    "deAlt": [
+      "der Weißkohl"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "kål",
+      "kålen"
+    ],
+    "lesson": 3,
+    "wk": true,
+    "ex": {
+      "no": "Fårikål er lammekjøtt og kål.",
+      "de": "Fårikål ist Lammfleisch mit Kohl."
+    }
   },
   {
     "id": "w03_maaltid",
@@ -912,6 +932,27 @@
       "de": "Familie Nygård hat eine große Küche."
     },
     "note": "et kjøkken – Neutrum. In der Küche = på kjøkkenet."
+  },
+  {
+    "id": "w03_gryte",
+    "no": "gryte",
+    "de": "der Topf",
+    "deAlt": [
+      "der Kochtopf"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "gryte",
+      "gryta",
+      "gryter",
+      "grytene"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Potetene er i gryta.",
+      "de": "Die Kartoffeln sind im Topf."
+    }
   },
   {
     "id": "w03_kniv",
@@ -1224,6 +1265,25 @@
     }
   },
   {
+    "id": "w03_host",
+    "no": "høst",
+    "de": "der Herbst",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "høst",
+      "høsten",
+      "høster",
+      "høstene"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Om høsten er det fårikål til middag.",
+      "de": "Im Herbst gibt es Fårikål zum Abendessen."
+    },
+    "note": "om høsten = im Herbst"
+  },
+  {
     "id": "w03_stor",
     "no": "stor",
     "de": "groß",
@@ -1349,8 +1409,8 @@
     ],
     "lesson": 3,
     "ex": {
-      "no": "Familien Nygård har et hvitt hus.",
-      "de": "Familie Nygård hat ein weißes Haus."
+      "no": "Matthias har et hvitt skjerf.",
+      "de": "Matthias hat einen weißen Schal."
     },
     "note": "Neutrum mit tt: hvitt. Das h spricht man nicht."
   },

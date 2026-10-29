@@ -98,6 +98,7 @@ function addForm(form: string, e: DictEntry) {
     const parts = normalize(v).split(' ');
     if (parts.length === 1) add(v, e);
     else if (e.pos === 'verb' || e.pos === 'noun') add(parts[0], e); // "glede seg", "stå opp"
+    else if (e.pos === 'adj') add(parts[parts.length - 1], e); // "mer praktisk": found from "praktisk", not "mer"
     else if (parts[0].length >= 3) add(parts[0], { ...e, form: e.form ?? 'Wendung' });
   }
 }
@@ -184,18 +185,43 @@ function addFunctionWords() {
 export function lookup(word: string): LookupResult {
   buildDictionary();
   const k = normalize(word);
+  const capital = /^[A-ZÆØÅ]/.test(word);
+  const person = capital ? PEOPLE[k] : undefined;
   const exact = dict.get(k);
+  if (person) return { entries: [person, ...sortEntries(exact ?? [])] };
   if (exact) return { entries: sortEntries(exact) };
   for (const s of stems(k)) {
     const hit = dict.get(s);
     if (hit) return { entries: sortEntries(hit) };
   }
-  // typed or OCR-like without æ ø å
-  const f = fold(k);
-  for (const [key, list] of dict) if (fold(key) === f) return { entries: sortEntries(list) };
-  const parts = compound(k);
-  return { entries: [], parts, name: !parts && /^[A-ZÆØÅ]/.test(word) };
+  // A capitalised unknown word is most likely a name (Aker, Finland), not a compound.
+  if (capital) return { entries: [], name: true };
+  return { entries: [], parts: compound(k) };
 }
+
+// The people of the story, so that tapping a name says who it is.
+const PEOPLE: Record<string, DictEntry> = Object.fromEntries(
+  (
+    [
+      ['susanne', 'Susanne Becker, 24, Studentin aus Freiburg'],
+      ['matthias', 'Matthias Steiner, 26, Ingenieur aus Bern'],
+      ['torunn', 'Torunn Haugen, die Lehrerin im Sprachkurs'],
+      ['elin', 'Elin, Schwedin aus Göteborg, im Sprachkurs'],
+      ['mads', 'Mads, Däne aus Aarhus, im Sprachkurs'],
+      ['anna', 'Anna Nygård, 25, Medizinstudentin'],
+      ['kari', 'Kari Nygård, Annas Mutter, Lehrerin'],
+      ['per', 'Per Nygård, Annas Vater'],
+      ['ola', 'Ola Nygård, 16, Annas Bruder'],
+      ['ingrid', 'Ingrid, Annas Großmutter (bestemor)'],
+      ['bamse', 'Bamse, der Hund der Familie Nygård'],
+      ['jonas', 'Jonas, Annas Freund'],
+      ['arne', 'Onkel Arne, Karis Bruder aus Ålesund'],
+      ['inga', 'Inga Eira, Samin aus Kautokeino, Susannes Mitbewohnerin in Tromsø'],
+      ['erik', 'Erik Hansen aus Svolvær, arbeitet auf der Hurtigrute'],
+      ['nygård', 'die Familie Nygård in Oslo'],
+    ] as const
+  ).map(([k, de]) => [k, { no: k[0].toUpperCase() + k.slice(1), de, form: 'Person in der Geschichte' }]),
+);
 
 // Vocabulary entries first, then single-word glossary entries, then phrases.
 function sortEntries(list: DictEntry[]): DictEntry[] {
@@ -205,6 +231,7 @@ function sortEntries(list: DictEntry[]): DictEntry[] {
 
 /** Splits an unknown compound into two known words: "barnetoget" → barn(e) + toget. */
 function compound(w: string): [DictEntry, DictEntry] | undefined {
+  if (w.length < 7) return undefined;
   for (let i = 3; i <= w.length - 3; i++) {
     const head = w.slice(i);
     const headHit = dict.get(head) ?? stems(head).map((s) => dict.get(s)).find(Boolean);

@@ -1,0 +1,1743 @@
+[
+  {
+    "id": "w17_lunefull",
+    "no": "lunefull",
+    "de": "launisch, wechselhaft",
+    "pos": "adj",
+    "forms": [
+      "lunefull",
+      "lunefullt",
+      "lunefulle"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Været i Lofoten er lunefullt.",
+      "de": "Das Wetter auf den Lofoten ist launisch."
+    }
+  },
+  {
+    "id": "w17_kjaerlighet",
+    "no": "kjærlighet",
+    "de": "die Liebe",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "kjærlighet",
+      "kjærligheten"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Kjærlighet er ikke alltid enkelt.",
+      "de": "Liebe ist nicht immer einfach."
+    }
+  },
+  {
+    "id": "w17_forelsket",
+    "no": "forelsket",
+    "de": "verliebt",
+    "pos": "adj",
+    "forms": [
+      "forelsket",
+      "forelsket",
+      "forelskede"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Inga var forelsket i en fyr fra Bodø.",
+      "de": "Inga war in einen Typen aus Bodø verliebt."
+    },
+    "note": "forelsket i noen = in jemanden verliebt"
+  },
+  {
+    "id": "w17_forelske_seg",
+    "no": "forelske seg",
+    "de": "sich verlieben",
+    "pos": "verb",
+    "vf": [
+      "forelsker seg",
+      "forelsket seg/forelska seg",
+      "forelsket seg/forelska seg",
+      "forelsk deg"
+    ],
+    "vg": "1",
+    "lesson": 17,
+    "ex": {
+      "no": "Hun forelsket seg i ham på båten.",
+      "de": "Sie verliebte sich auf dem Schiff in ihn."
+    }
+  },
+  {
+    "id": "w17_kjaereste",
+    "no": "kjæreste",
+    "de": "der Freund / die Freundin (Partner)",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "kjæreste",
+      "kjæresten",
+      "kjærester",
+      "kjærestene"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Har Erik en kjæreste?",
+      "de": "Hat Erik eine Freundin?"
+    },
+    "note": "kjæreste = Partner(in) in einer Liebesbeziehung; en venn = ein (guter) Freund."
+  },
+  {
+    "id": "w17_sjarmerende",
+    "no": "sjarmerende",
+    "de": "charmant",
+    "pos": "adj",
+    "forms": [
+      "sjarmerende",
+      "sjarmerende",
+      "sjarmerende"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Erik er sjarmerende mot alle.",
+      "de": "Erik ist zu allen charmant."
+    },
+    "note": "Adjektiv auf -ende: unveränderlich."
+  },
+  {
+    "id": "w17_skuffet",
+    "no": "skuffet",
+    "de": "enttäuscht",
+    "pos": "adj",
+    "forms": [
+      "skuffet",
+      "skuffet",
+      "skuffede"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Susanne var skuffet over svaret.",
+      "de": "Susanne war von der Antwort enttäuscht."
+    }
+  },
+  {
+    "id": "w17_skuffe",
+    "no": "skuffe",
+    "de": "enttäuschen",
+    "pos": "verb",
+    "vf": [
+      "skuffer",
+      "skuffet/skuffa",
+      "skuffet/skuffa",
+      "skuff"
+    ],
+    "vg": "1",
+    "lesson": 17,
+    "ex": {
+      "no": "Erik skuffet henne.",
+      "de": "Erik enttäuschte sie."
+    }
+  },
+  {
+    "id": "w17_fyr",
+    "no": "fyr",
+    "de": "der Typ, der Kerl",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "fyr",
+      "fyren",
+      "fyrer",
+      "fyrene"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Han er en hyggelig fyr.",
+      "de": "Er ist ein netter Kerl."
+    },
+    "note": "Umgangssprachlich. Achtung: et fyr = ein Leuchtturm."
+  },
+  {
+    "id": "w17_droemme",
+    "no": "drømme",
+    "de": "träumen",
+    "pos": "verb",
+    "vf": [
+      "drømmer",
+      "drømte",
+      "drømt",
+      "drøm"
+    ],
+    "vg": "2",
+    "lesson": 17,
+    "ex": {
+      "no": "Jeg har drømt om denne turen i mange år.",
+      "de": "Ich habe viele Jahre von dieser Reise geträumt."
+    },
+    "note": "drømme om = träumen von"
+  },
+  {
+    "id": "w17_love",
+    "no": "love",
+    "de": "versprechen",
+    "pos": "verb",
+    "vf": [
+      "lover",
+      "lovet/lova/lovte",
+      "lovet/lova/lovt",
+      "lov"
+    ],
+    "vg": "1",
+    "lesson": 17,
+    "ex": {
+      "no": "Det hjelper, jeg lover.",
+      "de": "Das hilft, versprochen."
+    }
+  },
+  {
+    "id": "w17_legge_paa",
+    "no": "legge på",
+    "de": "auflegen (Telefon)",
+    "pos": "verb",
+    "vf": [
+      "legger på",
+      "la på",
+      "lagt på",
+      "legg på"
+    ],
+    "vg": "uregelm",
+    "lesson": 17,
+    "ex": {
+      "no": "Etter to minutter la han på.",
+      "de": "Nach zwei Minuten legte er auf."
+    }
+  },
+  {
+    "id": "w17_avlyse",
+    "no": "avlyse",
+    "de": "absagen",
+    "pos": "verb",
+    "vf": [
+      "avlyser",
+      "avlyste",
+      "avlyst",
+      "avlys"
+    ],
+    "vg": "2",
+    "lesson": 17,
+    "ex": {
+      "no": "Vi måtte avlyse turen på grunn av regnet.",
+      "de": "Wir mussten die Tour wegen des Regens absagen."
+    }
+  },
+  {
+    "id": "w17_riste",
+    "no": "riste",
+    "de": "schütteln",
+    "pos": "verb",
+    "vf": [
+      "rister",
+      "ristet/rista",
+      "ristet/rista",
+      "rist"
+    ],
+    "vg": "1",
+    "lesson": 17,
+    "ex": {
+      "no": "Inga ristet på hodet.",
+      "de": "Inga schüttelte den Kopf."
+    },
+    "note": "riste på hodet = den Kopf schütteln"
+  },
+  {
+    "id": "w17_ta_seg_av",
+    "no": "ta seg av",
+    "de": "sich kümmern um",
+    "pos": "verb",
+    "vf": [
+      "tar seg av",
+      "tok seg av",
+      "tatt seg av",
+      "ta deg av"
+    ],
+    "vg": "sterk",
+    "lesson": 17,
+    "ex": {
+      "no": "Erik tok seg av henne da hun var sjøsyk.",
+      "de": "Erik kümmerte sich um sie, als sie seekrank war."
+    }
+  },
+  {
+    "id": "w17_komme_fram",
+    "no": "komme fram",
+    "de": "ankommen",
+    "pos": "verb",
+    "vf": [
+      "kommer fram",
+      "kom fram",
+      "kommet fram",
+      "kom fram"
+    ],
+    "vg": "sterk",
+    "lesson": 17,
+    "ex": {
+      "no": "Vi kom fram til Svolvær om kvelden.",
+      "de": "Wir kamen am Abend in Svolvær an."
+    }
+  },
+  {
+    "id": "w17_blaase",
+    "no": "blåse",
+    "de": "wehen, blasen",
+    "pos": "verb",
+    "vf": [
+      "blåser",
+      "blåste",
+      "blåst",
+      "blås"
+    ],
+    "vg": "2",
+    "lesson": 17,
+    "ex": {
+      "no": "Det blåste kraftig hele natta.",
+      "de": "Die ganze Nacht wehte ein starker Wind."
+    }
+  },
+  {
+    "id": "w17_rulle",
+    "no": "rulle",
+    "de": "rollen, schaukeln (Schiff)",
+    "pos": "verb",
+    "vf": [
+      "ruller",
+      "rullet/rulla",
+      "rullet/rulla",
+      "rull"
+    ],
+    "vg": "1",
+    "lesson": 17,
+    "ex": {
+      "no": "Skipet rullet i de store bølgene.",
+      "de": "Das Schiff schaukelte in den hohen Wellen."
+    }
+  },
+  {
+    "id": "w17_torke",
+    "no": "tørke",
+    "de": "trocknen, abtrocknen",
+    "pos": "verb",
+    "vf": [
+      "tørker",
+      "tørket/tørka",
+      "tørket/tørka",
+      "tørk"
+    ],
+    "vg": "1",
+    "lesson": 17,
+    "ex": {
+      "no": "Fisken tørker i vinden.",
+      "de": "Der Fisch trocknet im Wind."
+    }
+  },
+  {
+    "id": "w17_seile",
+    "no": "seile",
+    "de": "segeln, (mit dem Schiff) fahren",
+    "pos": "verb",
+    "vf": [
+      "seiler",
+      "seilte",
+      "seilt",
+      "seil"
+    ],
+    "vg": "2",
+    "lesson": 17,
+    "ex": {
+      "no": "Hurtigruta seiler nordover langs kysten.",
+      "de": "Die Hurtigruta fährt die Küste entlang nach Norden."
+    }
+  },
+  {
+    "id": "w17_krysse",
+    "no": "krysse",
+    "de": "überqueren, kreuzen",
+    "pos": "verb",
+    "vf": [
+      "krysser",
+      "krysset/kryssa",
+      "krysset/kryssa",
+      "kryss"
+    ],
+    "vg": "1",
+    "lesson": 17,
+    "ex": {
+      "no": "Skipet krysser polarsirkelen.",
+      "de": "Das Schiff überquert den Polarkreis."
+    }
+  },
+  {
+    "id": "w17_frakte",
+    "no": "frakte",
+    "de": "transportieren, befördern",
+    "pos": "verb",
+    "vf": [
+      "frakter",
+      "fraktet/frakta",
+      "fraktet/frakta",
+      "frakt"
+    ],
+    "vg": "1",
+    "lesson": 17,
+    "ex": {
+      "no": "Skipene fraktet post og varer.",
+      "de": "Die Schiffe beförderten Post und Waren."
+    }
+  },
+  {
+    "id": "w17_oppleve",
+    "no": "oppleve",
+    "de": "erleben",
+    "pos": "verb",
+    "vf": [
+      "opplever",
+      "opplevde",
+      "opplevd",
+      "opplev"
+    ],
+    "vg": "3",
+    "lesson": 17,
+    "ex": {
+      "no": "Hun ville oppleve nordlyset.",
+      "de": "Sie wollte das Nordlicht erleben."
+    }
+  },
+  {
+    "id": "w17_hoste",
+    "no": "hoste",
+    "de": "husten",
+    "pos": "verb",
+    "vf": [
+      "hoster",
+      "hostet/hosta",
+      "hostet/hosta",
+      "host"
+    ],
+    "vg": "1",
+    "lesson": 17,
+    "wk": true,
+    "ex": {
+      "no": "Jeg hostet hele natta.",
+      "de": "Ich habe die ganze Nacht gehustet."
+    }
+  },
+  {
+    "id": "w17_kaste_opp",
+    "no": "kaste opp",
+    "de": "sich übergeben",
+    "pos": "verb",
+    "vf": [
+      "kaster opp",
+      "kastet opp/kasta opp",
+      "kastet opp/kasta opp",
+      "kast opp"
+    ],
+    "vg": "1",
+    "lesson": 17,
+    "wk": true,
+    "ex": {
+      "no": "Jeg tror jeg må kaste opp.",
+      "de": "Ich glaube, ich muss mich übergeben."
+    }
+  },
+  {
+    "id": "w17_holde_senga",
+    "no": "holde senga",
+    "de": "das Bett hüten",
+    "pos": "phrase",
+    "lesson": 17,
+    "wk": true,
+    "ex": {
+      "no": "Legen sa at jeg skulle holde senga.",
+      "de": "Die Ärztin sagte, dass ich im Bett bleiben sollte."
+    }
+  },
+  {
+    "id": "w17_sjosyk",
+    "no": "sjøsyk",
+    "de": "seekrank",
+    "pos": "adj",
+    "forms": [
+      "sjøsyk",
+      "sjøsykt",
+      "sjøsyke"
+    ],
+    "lesson": 17,
+    "wk": true,
+    "ex": {
+      "no": "Susanne ble sjøsyk på Hurtigruta.",
+      "de": "Susanne wurde auf der Hurtigruta seekrank."
+    }
+  },
+  {
+    "id": "w17_sjosyke",
+    "no": "sjøsyke",
+    "de": "die Seekrankheit",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "sjøsyke",
+      "sjøsyken"
+    ],
+    "lesson": 17,
+    "wk": true,
+    "ex": {
+      "no": "Har du en tablett mot sjøsyke?",
+      "de": "Hast du eine Tablette gegen Seekrankheit?"
+    }
+  },
+  {
+    "id": "w17_kvalm",
+    "no": "kvalm",
+    "de": "übel (mir ist übel)",
+    "pos": "adj",
+    "forms": [
+      "kvalm",
+      "kvalmt",
+      "kvalme"
+    ],
+    "lesson": 17,
+    "wk": true,
+    "ex": {
+      "no": "Jeg er kvalm.",
+      "de": "Mir ist übel."
+    },
+    "note": "Jeg er kvalm = mir ist übel (kein Dativ wie im Deutschen)."
+  },
+  {
+    "id": "w17_svimmel",
+    "no": "svimmel",
+    "de": "schwindelig",
+    "pos": "adj",
+    "forms": [
+      "svimmel",
+      "svimmelt",
+      "svimle"
+    ],
+    "lesson": 17,
+    "wk": true,
+    "ex": {
+      "no": "Hun ble svimmel og måtte sette seg.",
+      "de": "Ihr wurde schwindelig, und sie musste sich setzen."
+    }
+  },
+  {
+    "id": "w17_forkjolet",
+    "no": "forkjølet",
+    "de": "erkältet",
+    "pos": "adj",
+    "forms": [
+      "forkjølet",
+      "forkjølet",
+      "forkjølede"
+    ],
+    "lesson": 17,
+    "wk": true,
+    "ex": {
+      "no": "Inga er forkjølet og blir hjemme.",
+      "de": "Inga ist erkältet und bleibt zu Hause."
+    }
+  },
+  {
+    "id": "w17_saar",
+    "no": "sår",
+    "de": "wund, schmerzend",
+    "pos": "adj",
+    "forms": [
+      "sår",
+      "sårt",
+      "såre"
+    ],
+    "lesson": 17,
+    "wk": true,
+    "ex": {
+      "no": "Jeg har sår hals.",
+      "de": "Ich habe Halsschmerzen."
+    },
+    "note": "Auch Substantiv: et sår = eine Wunde."
+  },
+  {
+    "id": "w17_sykmeldt",
+    "no": "sykmeldt",
+    "de": "krankgeschrieben",
+    "pos": "adj",
+    "forms": [
+      "sykmeldt",
+      "sykmeldt",
+      "sykmeldte"
+    ],
+    "lesson": 17,
+    "wk": true,
+    "ex": {
+      "no": "Hun er sykmeldt resten av uka.",
+      "de": "Sie ist den Rest der Woche krankgeschrieben."
+    }
+  },
+  {
+    "id": "w17_feber",
+    "no": "feber",
+    "de": "das Fieber",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "feber",
+      "feberen"
+    ],
+    "lesson": 17,
+    "wk": true,
+    "ex": {
+      "no": "Jeg har høy feber.",
+      "de": "Ich habe hohes Fieber."
+    }
+  },
+  {
+    "id": "w17_influensa",
+    "no": "influensa",
+    "de": "die Grippe",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "influensa",
+      "influensaen"
+    ],
+    "lesson": 17,
+    "wk": true,
+    "ex": {
+      "no": "Halve klassen har influensa.",
+      "de": "Die halbe Klasse hat Grippe."
+    }
+  },
+  {
+    "id": "w17_skip",
+    "no": "skip",
+    "de": "das Schiff",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "skip",
+      "skipet",
+      "skip",
+      "skipa/skipene"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Skipet kommer til Tromsø på lørdag.",
+      "de": "Das Schiff kommt am Samstag nach Tromsø."
+    }
+  },
+  {
+    "id": "w17_dekk",
+    "no": "dekk",
+    "de": "das Deck; der Reifen",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "dekk",
+      "dekket",
+      "dekk",
+      "dekka/dekkene"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Hun sto ute på dekk og så på havet.",
+      "de": "Sie stand draußen an Deck und schaute aufs Meer."
+    },
+    "note": "på dekk = an Deck (ohne Artikel)"
+  },
+  {
+    "id": "w17_om_bord",
+    "no": "om bord",
+    "de": "an Bord",
+    "pos": "adv",
+    "lesson": 17,
+    "ex": {
+      "no": "Erik jobber om bord på Hurtigruta.",
+      "de": "Erik arbeitet an Bord der Hurtigruta."
+    },
+    "note": "gå om bord = an Bord gehen"
+  },
+  {
+    "id": "w17_salong",
+    "no": "salong",
+    "de": "der Salon, der Aufenthaltsraum",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "salong",
+      "salongen",
+      "salonger",
+      "salongene"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Hun la seg på en benk i salongen.",
+      "de": "Sie legte sich im Salon auf eine Bank."
+    }
+  },
+  {
+    "id": "w17_benk",
+    "no": "benk",
+    "de": "die Bank (zum Sitzen)",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "benk",
+      "benken",
+      "benker",
+      "benkene"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Vi satt på en benk ved havna.",
+      "de": "Wir saßen auf einer Bank am Hafen."
+    },
+    "note": "Die Bank (Geld) = en bank."
+  },
+  {
+    "id": "w17_bolge",
+    "no": "bølge",
+    "de": "die Welle",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "bølge",
+      "bølgen",
+      "bølger",
+      "bølgene"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Bølgene var høye i natt.",
+      "de": "Die Wellen waren heute Nacht hoch."
+    }
+  },
+  {
+    "id": "w17_horisont",
+    "no": "horisont",
+    "de": "der Horizont",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "horisont",
+      "horisonten",
+      "horisonter",
+      "horisontene"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Se på horisonten, ikke på bølgene.",
+      "de": "Schau auf den Horizont, nicht auf die Wellen."
+    }
+  },
+  {
+    "id": "w17_uniform",
+    "no": "uniform",
+    "de": "die Uniform",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "uniform",
+      "uniformen",
+      "uniformer",
+      "uniformene"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "En ung mann i uniform kom bort til henne.",
+      "de": "Ein junger Mann in Uniform kam zu ihr."
+    }
+  },
+  {
+    "id": "w17_kjeks",
+    "no": "kjeks",
+    "de": "der Keks",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "kjeks",
+      "kjeksen",
+      "kjeks",
+      "kjeksene"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Tørre kjeks hjelper mot sjøsyke.",
+      "de": "Trockene Kekse helfen gegen Seekrankheit."
+    }
+  },
+  {
+    "id": "w17_teppe",
+    "no": "teppe",
+    "de": "die Decke; der Teppich",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "teppe",
+      "teppet",
+      "tepper",
+      "teppene"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Han hentet et teppe til henne.",
+      "de": "Er holte ihr eine Decke."
+    }
+  },
+  {
+    "id": "w17_vakt",
+    "no": "vakt",
+    "de": "die Schicht, die Wache",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "vakt",
+      "vakta/vakten",
+      "vakter",
+      "vaktene"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Erik begynte på vakta si klokka åtte.",
+      "de": "Erik trat seine Schicht um acht Uhr an."
+    }
+  },
+  {
+    "id": "w17_rapport",
+    "no": "rapport",
+    "de": "der Bericht",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "rapport",
+      "rapporten",
+      "rapporter",
+      "rapportene"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Inga måtte skrive ferdig en rapport.",
+      "de": "Inga musste einen Bericht fertig schreiben."
+    }
+  },
+  {
+    "id": "w17_brak",
+    "no": "bråk",
+    "de": "der Lärm; der Ärger",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "bråk",
+      "bråket"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Det var mye bråk i restauranten.",
+      "de": "Im Restaurant war es sehr laut."
+    }
+  },
+  {
+    "id": "w17_havn",
+    "no": "havn",
+    "de": "der Hafen",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "havn",
+      "havna/havnen",
+      "havner",
+      "havnene"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Vi gikk langs havna i mørket.",
+      "de": "Wir gingen im Dunkeln am Hafen entlang."
+    }
+  },
+  {
+    "id": "w17_kyst",
+    "no": "kyst",
+    "de": "die Küste",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "kyst",
+      "kysten",
+      "kyster",
+      "kystene"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Hurtigruta går langs kysten.",
+      "de": "Die Hurtigruta fährt die Küste entlang."
+    }
+  },
+  {
+    "id": "w17_rute",
+    "no": "rute",
+    "de": "die Route, die Linie; die Fensterscheibe",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "rute",
+      "ruta/ruten",
+      "ruter",
+      "rutene"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Ruta går fra Bergen til Kirkenes.",
+      "de": "Die Linie führt von Bergen nach Kirkenes."
+    }
+  },
+  {
+    "id": "w17_forbindelse",
+    "no": "forbindelse",
+    "de": "die Verbindung",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "forbindelse",
+      "forbindelsen",
+      "forbindelser",
+      "forbindelsene"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Båten var den viktigste forbindelsen til byen.",
+      "de": "Das Boot war die wichtigste Verbindung zur Stadt."
+    }
+  },
+  {
+    "id": "w17_vare",
+    "no": "vare",
+    "de": "die Ware",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "vare",
+      "varen",
+      "varer",
+      "varene"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Skipene fraktet post og varer.",
+      "de": "Die Schiffe beförderten Post und Waren."
+    }
+  },
+  {
+    "id": "w17_passasjer",
+    "no": "passasjer",
+    "de": "der Passagier",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "passasjer",
+      "passasjeren",
+      "passasjerer",
+      "passasjerene"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Mange passasjerer ble sjøsyke.",
+      "de": "Viele Passagiere wurden seekrank."
+    }
+  },
+  {
+    "id": "w17_landsdel",
+    "no": "landsdel",
+    "de": "der Landesteil",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "landsdel",
+      "landsdelen",
+      "landsdeler",
+      "landsdelene"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Nord-Norge er en stor landsdel.",
+      "de": "Nordnorwegen ist ein großer Landesteil."
+    }
+  },
+  {
+    "id": "w17_befolkning",
+    "no": "befolkning",
+    "de": "die Bevölkerung",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "befolkning",
+      "befolkningen/befolkninga"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Under ti prosent av befolkningen bor i Nord-Norge.",
+      "de": "Weniger als zehn Prozent der Bevölkerung leben in Nordnorwegen."
+    }
+  },
+  {
+    "id": "w17_polarsirkel",
+    "no": "polarsirkel",
+    "de": "der Polarkreis",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "polarsirkel",
+      "polarsirkelen"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Tromsø ligger nord for polarsirkelen.",
+      "de": "Tromsø liegt nördlich des Polarkreises."
+    }
+  },
+  {
+    "id": "w17_nordlys",
+    "no": "nordlys",
+    "de": "das Nordlicht, das Polarlicht",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "nordlys",
+      "nordlyset",
+      "nordlys",
+      "nordlysa/nordlysene"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "I kveld kan vi kanskje se nordlys.",
+      "de": "Heute Abend können wir vielleicht Nordlicht sehen."
+    }
+  },
+  {
+    "id": "w17_midnattssol",
+    "no": "midnattssol",
+    "de": "die Mitternachtssonne",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "midnattssol",
+      "midnattssola/midnattssolen"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Om sommeren er det midnattssol i Tromsø.",
+      "de": "Im Sommer gibt es in Tromsø Mitternachtssonne."
+    }
+  },
+  {
+    "id": "w17_morketid",
+    "no": "mørketid",
+    "de": "die Polarnacht, die dunkle Zeit",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "mørketid",
+      "mørketida/mørketiden"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "I mørketida kommer ikke sola over horisonten.",
+      "de": "In der Polarnacht steigt die Sonne nicht über den Horizont."
+    }
+  },
+  {
+    "id": "w17_oygruppe",
+    "no": "øygruppe",
+    "de": "die Inselgruppe",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "øygruppe",
+      "øygruppen",
+      "øygrupper",
+      "øygruppene"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Lofoten er en øygruppe i Nordland.",
+      "de": "Die Lofoten sind eine Inselgruppe in Nordland."
+    }
+  },
+  {
+    "id": "w17_fiskevaer",
+    "no": "fiskevær",
+    "de": "das Fischerdorf",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "fiskevær",
+      "fiskeværet",
+      "fiskevær",
+      "fiskeværa/fiskeværene"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Om vinteren er det travelt i fiskeværene.",
+      "de": "Im Winter herrscht Hochbetrieb in den Fischerdörfern."
+    }
+  },
+  {
+    "id": "w17_fisker",
+    "no": "fisker",
+    "de": "der Fischer",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "fisker",
+      "fiskeren",
+      "fiskere",
+      "fiskerne"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Bestefaren til Erik var fisker.",
+      "de": "Eriks Großvater war Fischer."
+    }
+  },
+  {
+    "id": "w17_torsk",
+    "no": "torsk",
+    "de": "der Dorsch, der Kabeljau",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "torsk",
+      "torsken",
+      "torsk",
+      "torskene"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Om våren henger det tusenvis av torsk på hjellene.",
+      "de": "Im Frühling hängen Tausende von Dorschen auf den Gestellen."
+    }
+  },
+  {
+    "id": "w17_skrei",
+    "no": "skrei",
+    "de": "der Skrei (Winterkabeljau)",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "skrei",
+      "skreien"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Skreien kommer til Lofoten om vinteren.",
+      "de": "Der Skrei kommt im Winter zu den Lofoten."
+    }
+  },
+  {
+    "id": "w17_torrfisk",
+    "no": "tørrfisk",
+    "de": "der Stockfisch",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "tørrfisk",
+      "tørrfisken"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Italia kjøper mye tørrfisk fra Lofoten.",
+      "de": "Italien kauft viel Stockfisch von den Lofoten."
+    }
+  },
+  {
+    "id": "w17_hjell",
+    "no": "hjell",
+    "de": "das Trockengestell (für Fisch)",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "hjell",
+      "hjellen",
+      "hjeller",
+      "hjellene"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Hjellene sto tomme i november.",
+      "de": "Die Trockengestelle standen im November leer."
+    }
+  },
+  {
+    "id": "w17_rorbu",
+    "no": "rorbu",
+    "de": "die Rorbu (Fischerhütte am Wasser)",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "rorbu",
+      "rorbua/rorbuen",
+      "rorbuer",
+      "rorbuene"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Vi bodde i en rød rorbu ved sjøen.",
+      "de": "Wir wohnten in einer roten Fischerhütte am Wasser."
+    }
+  },
+  {
+    "id": "w17_fiskesuppe",
+    "no": "fiskesuppe",
+    "de": "die Fischsuppe",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "fiskesuppe",
+      "fiskesuppen/fiskesuppa",
+      "fiskesupper",
+      "fiskesuppene"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Fiskesuppa her er den beste i byen.",
+      "de": "Die Fischsuppe hier ist die beste der Stadt."
+    }
+  },
+  {
+    "id": "w17_vikingtid",
+    "no": "vikingtid",
+    "de": "die Wikingerzeit",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "vikingtid",
+      "vikingtida/vikingtiden"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Allerede i vikingtida handlet man med tørrfisk.",
+      "de": "Schon in der Wikingerzeit handelte man mit Stockfisch."
+    }
+  },
+  {
+    "id": "w17_i_fjor",
+    "no": "i fjor",
+    "de": "letztes Jahr",
+    "pos": "adv",
+    "lesson": 17,
+    "ex": {
+      "no": "I fjor var Inga forelsket i en fyr fra Bodø.",
+      "de": "Letztes Jahr war Inga in einen Typen aus Bodø verliebt."
+    }
+  },
+  {
+    "id": "w17_i_aar",
+    "no": "i år",
+    "de": "dieses Jahr",
+    "pos": "adv",
+    "lesson": 17,
+    "ex": {
+      "no": "I år feirer Susanne jul i Tromsø.",
+      "de": "Dieses Jahr feiert Susanne Weihnachten in Tromsø."
+    }
+  },
+  {
+    "id": "w17_neste_aar",
+    "no": "neste år",
+    "de": "nächstes Jahr",
+    "pos": "adv",
+    "alt": [
+      "til neste år"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Neste år vil Erik studere i Tromsø.",
+      "de": "Nächstes Jahr will Erik in Tromsø studieren."
+    }
+  },
+  {
+    "id": "w17_i_morges",
+    "no": "i morges",
+    "de": "heute Morgen (vorbei)",
+    "pos": "adv",
+    "lesson": 17,
+    "ex": {
+      "no": "Svaret kom i morges.",
+      "de": "Die Antwort kam heute Morgen."
+    },
+    "note": "Nur für die Vergangenheit; für die Zukunft: i morgen tidlig (morgen früh)."
+  },
+  {
+    "id": "w17_i_natt",
+    "no": "i natt",
+    "de": "heute Nacht, letzte Nacht",
+    "pos": "adv",
+    "lesson": 17,
+    "ex": {
+      "no": "I natt gikk vi fra Tromsø.",
+      "de": "Heute Nacht sind wir von Tromsø abgefahren."
+    }
+  },
+  {
+    "id": "w17_i_gaar_kveld",
+    "no": "i går kveld",
+    "de": "gestern Abend",
+    "pos": "adv",
+    "lesson": 17,
+    "ex": {
+      "no": "I går kveld sendte jeg ham en melding.",
+      "de": "Gestern Abend habe ich ihm eine Nachricht geschickt."
+    }
+  },
+  {
+    "id": "w17_i_morgen_tidlig",
+    "no": "i morgen tidlig",
+    "de": "morgen früh",
+    "pos": "adv",
+    "lesson": 17,
+    "ex": {
+      "no": "Jeg ringer ham i morgen tidlig.",
+      "de": "Ich rufe ihn morgen früh an."
+    }
+  },
+  {
+    "id": "w17_for_siden",
+    "no": "for … siden",
+    "de": "vor … (zeitlich)",
+    "pos": "phrase",
+    "lesson": 17,
+    "ex": {
+      "no": "Hun kom til Norge for tre måneder siden.",
+      "de": "Sie kam vor drei Monaten nach Norwegen."
+    }
+  },
+  {
+    "id": "w17_om_tid",
+    "no": "om",
+    "de": "in (Zukunft: om et år); im (regelmäßig: om vinteren)",
+    "pos": "prep",
+    "lesson": 17,
+    "ex": {
+      "no": "Om et år vil han studere. Om vinteren er det mørkt.",
+      "de": "In einem Jahr will er studieren. Im Winter ist es dunkel."
+    }
+  },
+  {
+    "id": "w17_ikke_engang",
+    "no": "ikke engang",
+    "de": "nicht einmal",
+    "pos": "adv",
+    "lesson": 17,
+    "ex": {
+      "no": "Jeg kunne ikke engang drikke vann.",
+      "de": "Ich konnte nicht einmal Wasser trinken."
+    }
+  },
+  {
+    "id": "w17_med_en_gang",
+    "no": "med en gang",
+    "de": "sofort",
+    "pos": "phrase",
+    "lesson": 17,
+    "ex": {
+      "no": "Jeg burde ha skjønt det med en gang.",
+      "de": "Ich hätte es sofort merken sollen."
+    }
+  },
+  {
+    "id": "w17_uansett",
+    "no": "uansett",
+    "de": "egal, auf jeden Fall",
+    "pos": "adv",
+    "lesson": 17,
+    "ex": {
+      "no": "Han måtte ut på havet uansett vær.",
+      "de": "Er musste bei jedem Wetter aufs Meer hinaus."
+    },
+    "note": "uansett vær = bei jedem Wetter; uansett hva = egal, was"
+  },
+  {
+    "id": "w17_saerlig",
+    "no": "særlig",
+    "de": "besonders",
+    "pos": "adv",
+    "lesson": 17,
+    "ex": {
+      "no": "Det er særlig mørkt i desember.",
+      "de": "Im Dezember ist es besonders dunkel."
+    }
+  },
+  {
+    "id": "w17_nettopp",
+    "no": "nettopp",
+    "de": "gerade, genau; soeben",
+    "pos": "adv",
+    "lesson": 17,
+    "ex": {
+      "no": "Jeg har nettopp kommet hjem.",
+      "de": "Ich bin gerade nach Hause gekommen."
+    }
+  },
+  {
+    "id": "w17_plutselig",
+    "no": "plutselig",
+    "de": "plötzlich",
+    "pos": "adv",
+    "lesson": 17,
+    "ex": {
+      "no": "Plutselig hadde Erik ikke tid.",
+      "de": "Plötzlich hatte Erik keine Zeit."
+    }
+  },
+  {
+    "id": "w17_egentlig",
+    "no": "egentlig",
+    "de": "eigentlich",
+    "pos": "adv",
+    "lesson": 17,
+    "ex": {
+      "no": "Inga skulle egentlig være med.",
+      "de": "Inga sollte eigentlich mitkommen."
+    }
+  },
+  {
+    "id": "w17_kraftig",
+    "no": "kraftig",
+    "de": "kräftig, stark",
+    "pos": "adj",
+    "forms": [
+      "kraftig",
+      "kraftig",
+      "kraftige",
+      "kraftigere",
+      "kraftigst"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Det blåste kraftig.",
+      "de": "Es wehte ein starker Wind."
+    }
+  },
+  {
+    "id": "w17_torr",
+    "no": "tørr",
+    "de": "trocken",
+    "pos": "adj",
+    "forms": [
+      "tørr",
+      "tørt",
+      "tørre",
+      "tørrere",
+      "tørrest"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Han hentet tørre kjeks til henne.",
+      "de": "Er holte ihr trockene Kekse."
+    }
+  },
+  {
+    "id": "w17_tom",
+    "no": "tom",
+    "de": "leer",
+    "pos": "adj",
+    "forms": [
+      "tom",
+      "tomt",
+      "tomme"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Hjellene sto tomme.",
+      "de": "Die Trockengestelle standen leer."
+    }
+  },
+  {
+    "id": "w17_spiss",
+    "no": "spiss",
+    "de": "spitz",
+    "pos": "adj",
+    "forms": [
+      "spiss",
+      "spisst",
+      "spisse"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Lofoten har høye, spisse fjell.",
+      "de": "Die Lofoten haben hohe, spitze Berge."
+    }
+  },
+  {
+    "id": "w17_travel",
+    "no": "travel",
+    "de": "beschäftigt; hektisch",
+    "pos": "adj",
+    "forms": [
+      "travel",
+      "travelt",
+      "travle"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Erik har det travelt på jobben.",
+      "de": "Erik hat viel zu tun bei der Arbeit."
+    },
+    "note": "Det er travelt = Es ist viel los."
+  },
+  {
+    "id": "w17_lokal",
+    "no": "lokal",
+    "de": "örtlich, lokal",
+    "pos": "adj",
+    "forms": [
+      "lokal",
+      "lokalt",
+      "lokale"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Mange lokale reiser med Hurtigruta.",
+      "de": "Viele Einheimische reisen mit der Hurtigruta."
+    }
+  },
+  {
+    "id": "w17_ha_fri",
+    "no": "ha fri",
+    "de": "frei haben",
+    "pos": "phrase",
+    "lesson": 17,
+    "ex": {
+      "no": "Erik hadde fri på lørdag.",
+      "de": "Erik hatte am Samstag frei."
+    }
+  },
+  {
+    "id": "w17_ha_rett",
+    "no": "ha rett",
+    "de": "recht haben",
+    "pos": "phrase",
+    "lesson": 17,
+    "ex": {
+      "no": "Han hadde rett: Det hjalp å spise.",
+      "de": "Er hatte recht: Essen half."
+    }
+  },
+  {
+    "id": "w17_alt_mulig",
+    "no": "alt mulig",
+    "de": "alles Mögliche",
+    "pos": "phrase",
+    "lesson": 17,
+    "ex": {
+      "no": "Vi snakket om alt mulig.",
+      "de": "Wir redeten über alles Mögliche."
+    }
+  },
+  {
+    "id": "w17_sove_paa_det",
+    "no": "sove på det",
+    "de": "eine Nacht darüber schlafen",
+    "pos": "phrase",
+    "lesson": 17,
+    "ex": {
+      "no": "Jeg vil sove på det før jeg bestemmer meg.",
+      "de": "Ich will eine Nacht darüber schlafen, bevor ich mich entscheide."
+    }
+  },
+  {
+    "id": "w17_ja_vel",
+    "no": "ja vel",
+    "de": "na gut, aha, ach so",
+    "pos": "interj",
+    "lesson": 17,
+    "ex": {
+      "no": "– Jeg spiser med en venn. – Ja vel.",
+      "de": "– Ich esse mit einem Freund. – Aha."
+    },
+    "note": "Kann – je nach Tonfall – kühl oder beleidigt klingen."
+  },
+  {
+    "id": "w17_god_bedring",
+    "no": "god bedring",
+    "de": "gute Besserung",
+    "pos": "phrase",
+    "lesson": 17,
+    "wk": true,
+    "ex": {
+      "no": "Du er syk? God bedring!",
+      "de": "Du bist krank? Gute Besserung!"
+    }
+  },
+  {
+    "id": "w17_fastlege",
+    "no": "fastlege",
+    "de": "der Hausarzt / die Hausärztin",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "fastlege",
+      "fastlegen",
+      "fastleger",
+      "fastlegene"
+    ],
+    "lesson": 17,
+    "wk": true,
+    "ex": {
+      "no": "Jeg må bestille time hos fastlegen.",
+      "de": "Ich muss einen Termin beim Hausarzt machen."
+    }
+  },
+  {
+    "id": "w17_legevakt",
+    "no": "legevakt",
+    "de": "der ärztliche Notdienst",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "legevakt",
+      "legevakta/legevakten",
+      "legevakter",
+      "legevaktene"
+    ],
+    "lesson": 17,
+    "wk": true,
+    "ex": {
+      "no": "Om natta må du ringe legevakta.",
+      "de": "Nachts musst du den ärztlichen Notdienst anrufen."
+    }
+  },
+  {
+    "id": "w17_apotek",
+    "no": "apotek",
+    "de": "die Apotheke",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "apotek",
+      "apoteket",
+      "apotek",
+      "apoteka/apotekene"
+    ],
+    "lesson": 17,
+    "wk": true,
+    "ex": {
+      "no": "Hvor er nærmeste apotek?",
+      "de": "Wo ist die nächste Apotheke?"
+    }
+  },
+  {
+    "id": "w17_resept",
+    "no": "resept",
+    "de": "das Rezept (vom Arzt)",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "resept",
+      "resepten",
+      "resepter",
+      "reseptene"
+    ],
+    "lesson": 17,
+    "wk": true,
+    "ex": {
+      "no": "Legen skrev ut en resept.",
+      "de": "Die Ärztin stellte ein Rezept aus."
+    },
+    "note": "Ein Kochrezept heißt en oppskrift."
+  },
+  {
+    "id": "w17_tablett",
+    "no": "tablett",
+    "de": "die Tablette",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "tablett",
+      "tabletten",
+      "tabletter",
+      "tablettene"
+    ],
+    "lesson": 17,
+    "wk": true,
+    "ex": {
+      "no": "Ta en tablett tre ganger om dagen.",
+      "de": "Nimm dreimal am Tag eine Tablette."
+    }
+  },
+  {
+    "id": "w17_hals",
+    "no": "hals",
+    "de": "der Hals",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "hals",
+      "halsen",
+      "halser",
+      "halsene"
+    ],
+    "lesson": 17,
+    "wk": true,
+    "ex": {
+      "no": "Jeg har vondt i halsen.",
+      "de": "Ich habe Halsschmerzen."
+    }
+  },
+  {
+    "id": "w17_vondt",
+    "no": "vondt",
+    "de": "weh, schmerzhaft",
+    "pos": "adv",
+    "lesson": 17,
+    "wk": true,
+    "ex": {
+      "no": "Det gjør vondt her.",
+      "de": "Hier tut es weh."
+    },
+    "note": "ha vondt i … = Schmerzen haben in …; det gjør vondt = es tut weh"
+  },
+  {
+    "id": "w17_fole_seg",
+    "no": "føle seg",
+    "de": "sich fühlen",
+    "pos": "verb",
+    "vf": [
+      "føler seg",
+      "følte seg",
+      "følt seg",
+      "føl deg"
+    ],
+    "vg": "2",
+    "lesson": 17,
+    "wk": true,
+    "ex": {
+      "no": "Jeg føler meg ikke bra.",
+      "de": "Ich fühle mich nicht gut."
+    }
+  },
+  {
+    "id": "w17_skrive_ut",
+    "no": "skrive ut",
+    "de": "ausstellen (Rezept); ausdrucken",
+    "pos": "verb",
+    "vf": [
+      "skriver ut",
+      "skrev ut",
+      "skrevet ut",
+      "skriv ut"
+    ],
+    "vg": "sterk",
+    "lesson": 17,
+    "wk": true,
+    "ex": {
+      "no": "Kan du skrive ut en resept?",
+      "de": "Kannst du ein Rezept ausstellen?"
+    }
+  }
+]

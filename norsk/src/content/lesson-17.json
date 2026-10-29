@@ -1,0 +1,1302 @@
+{
+  "n": 17,
+  "level": "B2",
+  "title": "Lunefull kjærlighet",
+  "titleDe": "Launische Liebe",
+  "place": "Hurtigruta, Tromsø – Lofoten",
+  "goals": [
+    "Du kannst von einer Reise mit der Hurtigruta und von Gefühlen wie Verliebtheit und Enttäuschung erzählen.",
+    "Du kannst sagen, wie es dir geht, wenn du krank bist, und Beschwerden beschreiben.",
+    "Du verwendest Zeitausdrücke wie i fjor, i morges, om vinteren, på lørdag, for et år siden und om et år richtig.",
+    "Du bildest Modalverben in der Vergangenheit: måtte, kunne, har måttet, burde ha ringt.",
+    "Du drückst eine Zukunft in der Vergangenheit aus: Hun visste at hun skulle reise."
+  ],
+  "text": {
+    "id": "t17",
+    "title": "Lunefull kjærlighet",
+    "titleDe": "Launische Liebe",
+    "kind": "prose",
+    "intro": "Mitte November fährt Susanne übers Wochenende mit der Hurtigruta von Tromsø nach Svolvær auf den Lofoten. Sie schreibt Tagebuch.",
+    "lines": [
+      {
+        "no": "Lørdag formiddag, om bord på Hurtigruta. I natt gikk vi fra Tromsø. Jeg har drømt om denne turen siden jeg var femten år og så et program om Hurtigruta på tysk tv. Inga skulle egentlig være med, men hun måtte skrive ferdig en rapport i helga, så jeg reiste alene.",
+        "de": "Samstagvormittag, an Bord der Hurtigruta. Heute Nacht sind wir von Tromsø abgefahren. Ich habe von dieser Reise geträumt, seit ich fünfzehn war und im deutschen Fernsehen eine Sendung über die Hurtigruta gesehen habe. Inga sollte eigentlich mitkommen, aber sie musste am Wochenende einen Bericht fertig schreiben, also bin ich allein gefahren."
+      },
+      {
+        "no": "Jeg hadde tenkt å stå ute på dekk hele natta og se etter nordlys. Men det blåste kraftig, og allerede etter en time begynte skipet å rulle i de store bølgene. Jeg ble kvalm og svimmel, og til slutt måtte jeg legge meg på en benk i salongen. Jeg kunne ikke engang drikke vann.",
+        "de": "Ich hatte vorgehabt, die ganze Nacht draußen an Deck zu stehen und nach Nordlicht Ausschau zu halten. Aber es wehte ein starker Wind, und schon nach einer Stunde begann das Schiff in den hohen Wellen zu schaukeln. Mir wurde übel und schwindelig, und schließlich musste ich mich im Salon auf eine Bank legen. Ich konnte nicht einmal Wasser trinken."
+      },
+      {
+        "no": "Da kom en ung mann i uniform bort til meg. «Første gang på Hurtigruta?» spurte han og smilte. Han het Erik, var fra Svolvær og jobbet i kafeen om bord. Han hentet te, tørre kjeks og et teppe til meg.",
+        "de": "Da kam ein junger Mann in Uniform zu mir. „Zum ersten Mal auf der Hurtigruta?“, fragte er und lächelte. Er hieß Erik, kam aus Svolvær und arbeitete im Café an Bord. Er holte mir Tee, trockene Kekse und eine Decke."
+      },
+      {
+        "no": "«Se på horisonten, ikke på bølgene,» sa han. «Og spis litt, selv om du ikke har lyst. Det hjelper, jeg lover.»",
+        "de": "„Schau auf den Horizont, nicht auf die Wellen“, sagte er. „Und iss etwas, auch wenn du keine Lust hast. Das hilft, versprochen.“"
+      },
+      {
+        "no": "Han hadde rett. I morges var jeg mye bedre, og vi drakk kaffe sammen før han måtte begynne på vakta si.",
+        "de": "Er hatte recht. Heute Morgen ging es mir viel besser, und wir tranken zusammen Kaffee, bevor er seine Schicht antreten musste."
+      },
+      {
+        "no": "Lørdag kveld, Svolvær. Vi kom fram til Svolvær i kveld, og Erik hadde fri. Han ville vise meg byen sin, så vi gikk langs havna i mørket. Hjellene sto tomme, men om våren, forklarte Erik, henger det tusenvis av torsk der og tørker i vinden.",
+        "de": "Samstagabend, Svolvær. Heute Abend sind wir in Svolvær angekommen, und Erik hatte frei. Er wollte mir seine Stadt zeigen, also gingen wir im Dunkeln am Hafen entlang. Die Trockengestelle standen leer, aber im Frühling, erklärte Erik, hängen dort Tausende von Dorschen und trocknen im Wind."
+      },
+      {
+        "no": "Han fortalte om skreien, som kommer til Lofoten hvert år fra januar til april, og om bestefaren sin, som var fisker i over femti år. «Om vinteren var han nesten aldri hjemme,» sa Erik. «Han måtte ut på havet hver dag, uansett vær.»",
+        "de": "Er erzählte vom Skrei, der jedes Jahr von Januar bis April zu den Lofoten kommt, und von seinem Großvater, der über fünfzig Jahre lang Fischer war. „Im Winter war er fast nie zu Hause“, sagte Erik. „Er musste jeden Tag aufs Meer hinaus, bei jedem Wetter.“"
+      },
+      {
+        "no": "Vi spiste fiskesuppe på en liten restaurant ved havna. Erik er morsom og sjarmerende, og han stiller mange spørsmål. Han har jobbet på Hurtigruta i tre år, og om et år vil han kanskje begynne å studere i Tromsø.",
+        "de": "Wir aßen Fischsuppe in einem kleinen Restaurant am Hafen. Erik ist lustig und charmant, und er stellt viele Fragen. Er arbeitet seit drei Jahren auf der Hurtigruta, und in einem Jahr will er vielleicht in Tromsø anfangen zu studieren."
+      },
+      {
+        "no": "Midt i middagen ringte Matthias fra Bergen. Han hadde trodd at jeg skulle være hjemme i helga, og han hørte at det var mye bråk rundt meg. Da jeg fortalte at jeg spiste middag med en ny venn fra båten, ble han helt stille.",
+        "de": "Mitten im Abendessen rief Matthias aus Bergen an. Er hatte gedacht, dass ich am Wochenende zu Hause sein würde, und er hörte, dass es um mich herum ziemlich laut war. Als ich erzählte, dass ich mit einem neuen Freund vom Schiff zu Abend aß, wurde er ganz still."
+      },
+      {
+        "no": "«Ja vel. Jeg skulle bare høre hvordan du har det,» sa han. Etter to minutter la han på.",
+        "de": "„Na gut. Ich wollte nur hören, wie es dir geht“, sagte er. Nach zwei Minuten legte er auf."
+      },
+      {
+        "no": "Søndag, Svolvær. I dag skulle Erik og jeg gå opp på et fjell ved byen, men det regnet og blåste så mye at vi måtte avlyse turen. I stedet satt vi på en kafé i fire timer og snakket om alt mulig. Da jeg sa at jeg gjerne ville se ham igjen, svarte han: «Selvfølgelig! Skipet mitt kommer til Tromsø på lørdag. Jeg ringer deg.»",
+        "de": "Sonntag, Svolvær. Heute wollten Erik und ich auf einen Berg bei der Stadt steigen, aber es regnete und stürmte so sehr, dass wir die Tour absagen mussten. Stattdessen saßen wir vier Stunden in einem Café und redeten über alles Mögliche. Als ich sagte, dass ich ihn gern wiedersehen würde, antwortete er: „Natürlich! Mein Schiff kommt am Samstag nach Tromsø. Ich ruf dich an.“"
+      },
+      {
+        "no": "Fredag, Tromsø. Siden jeg kom hjem mandag, har jeg nesten ikke kunnet tenke på noe annet. Erik har ikke ringt, så i går kveld sendte jeg ham en melding. Svaret kom i morges: «Beklager, har dessverre ikke tid på lørdag. Masse jobb. En annen gang!»",
+        "de": "Freitag, Tromsø. Seit ich am Montag nach Hause gekommen bin, habe ich an fast nichts anderes denken können. Erik hat nicht angerufen, also habe ich ihm gestern Abend eine Nachricht geschickt. Die Antwort kam heute Morgen: „Sorry, habe am Samstag leider keine Zeit. Viel Arbeit. Ein andermal!“"
+      },
+      {
+        "no": "Inga leste meldingen og ristet på hodet. «I fjor var jeg forelsket i en fyr fra Bodø i tre uker,» sa hun. «Han var også sjarmerende. Mot alle.» Vi lo begge to, men jeg var skuffet.",
+        "de": "Inga las die Nachricht und schüttelte den Kopf. „Letztes Jahr war ich drei Wochen lang in einen Typen aus Bodø verliebt“, sagte sie. „Der war auch charmant. Zu allen.“ Wir lachten beide, aber ich war enttäuscht."
+      },
+      {
+        "no": "Jeg burde ha skjønt det med en gang. Og Matthias? Han har ikke ringt siden den kvelden i Svolvær. Kanskje han burde ha sagt noe. Kanskje jeg burde ringe ham i kveld. Eller i morgen tidlig, når jeg har sovet på det.",
+        "de": "Ich hätte es sofort merken sollen. Und Matthias? Er hat seit jenem Abend in Svolvær nicht mehr angerufen. Vielleicht hätte er etwas sagen sollen. Vielleicht sollte ich ihn heute Abend anrufen. Oder morgen früh, wenn ich eine Nacht darüber geschlafen habe."
+      }
+    ],
+    "glossary": [
+      {
+        "no": "Lunefull",
+        "de": "launisch, wechselhaft"
+      },
+      {
+        "no": "om bord på",
+        "de": "an Bord (von)"
+      },
+      {
+        "no": "I natt",
+        "de": "heute Nacht, letzte Nacht"
+      },
+      {
+        "no": "drømt om",
+        "de": "geträumt von"
+      },
+      {
+        "no": "skulle egentlig være med",
+        "de": "sollte eigentlich mitkommen"
+      },
+      {
+        "no": "skrive ferdig",
+        "de": "fertig schreiben"
+      },
+      {
+        "no": "rapport",
+        "de": "Bericht"
+      },
+      {
+        "no": "i helga",
+        "de": "am Wochenende"
+      },
+      {
+        "no": "Jeg hadde tenkt å",
+        "de": "Ich hatte vor, zu …"
+      },
+      {
+        "no": "på dekk",
+        "de": "an Deck"
+      },
+      {
+        "no": "se etter nordlys",
+        "de": "nach Nordlicht Ausschau halten"
+      },
+      {
+        "no": "det blåste kraftig",
+        "de": "es wehte ein starker Wind"
+      },
+      {
+        "no": "rulle",
+        "de": "schaukeln, rollen (Schiff)"
+      },
+      {
+        "no": "bølgene",
+        "de": "die Wellen"
+      },
+      {
+        "no": "kvalm",
+        "de": "übel (mir ist übel)"
+      },
+      {
+        "no": "svimmel",
+        "de": "schwindelig"
+      },
+      {
+        "no": "benk",
+        "de": "Bank (zum Sitzen)"
+      },
+      {
+        "no": "salongen",
+        "de": "der Salon (Aufenthaltsraum auf dem Schiff)"
+      },
+      {
+        "no": "ikke engang",
+        "de": "nicht einmal"
+      },
+      {
+        "no": "kjeks",
+        "de": "Kekse"
+      },
+      {
+        "no": "teppe",
+        "de": "Decke"
+      },
+      {
+        "no": "horisonten",
+        "de": "der Horizont"
+      },
+      {
+        "no": "jeg lover",
+        "de": "versprochen, ich verspreche es"
+      },
+      {
+        "no": "I morges",
+        "de": "heute Morgen (schon vorbei)"
+      },
+      {
+        "no": "vakta si",
+        "de": "seine Schicht"
+      },
+      {
+        "no": "kom fram til",
+        "de": "kamen an in"
+      },
+      {
+        "no": "hadde fri",
+        "de": "hatte frei"
+      },
+      {
+        "no": "Hjellene",
+        "de": "die Trockengestelle (für Fisch)"
+      },
+      {
+        "no": "tusenvis av",
+        "de": "Tausende von"
+      },
+      {
+        "no": "tørker",
+        "de": "trocknen"
+      },
+      {
+        "no": "skreien",
+        "de": "der Skrei (Winterkabeljau)"
+      },
+      {
+        "no": "uansett vær",
+        "de": "bei jedem Wetter"
+      },
+      {
+        "no": "bråk",
+        "de": "Lärm"
+      },
+      {
+        "no": "Ja vel",
+        "de": "Na gut, aha"
+      },
+      {
+        "no": "la han på",
+        "de": "legte er auf"
+      },
+      {
+        "no": "avlyse",
+        "de": "absagen"
+      },
+      {
+        "no": "alt mulig",
+        "de": "alles Mögliche"
+      },
+      {
+        "no": "ristet på hodet",
+        "de": "schüttelte den Kopf"
+      },
+      {
+        "no": "fyr",
+        "de": "Typ, Kerl"
+      },
+      {
+        "no": "sovet på det",
+        "de": "eine Nacht darüber geschlafen"
+      }
+    ]
+  },
+  "extra": [
+    {
+      "id": "x17a",
+      "title": "Hurtigruta og Nord-Norge",
+      "titleDe": "Die Hurtigruta und Nordnorwegen",
+      "kind": "info",
+      "intro": "Ein Schiff, das seit über hundert Jahren die Küste verbindet – und ein Landesteil mit Polarnacht, Mitternachtssonne und Skrei.",
+      "lines": [
+        {
+          "no": "Hurtigruta går langs kysten mellom Bergen og Kirkenes og stopper i 34 havner på veien. Den første turen var i 1893. Da startet skipsrederen Richard With en fast rute fra Trondheim til Hammerfest. Før den tida var det vanskelig å reise langs kysten, særlig om vinteren, når det var mørkt nesten hele døgnet.",
+          "de": "Die Hurtigruta fährt die Küste entlang zwischen Bergen und Kirkenes und hält unterwegs in 34 Häfen. Die erste Fahrt war 1893. Damals richtete der Reeder Richard With eine feste Linie von Trondheim nach Hammerfest ein. Vor dieser Zeit war es schwierig, entlang der Küste zu reisen, besonders im Winter, wenn es fast den ganzen Tag dunkel war."
+        },
+        {
+          "no": "I mange år var Hurtigruta den viktigste forbindelsen for folk langs kysten. Skipene fraktet post, varer og passasjerer, og mange kalte ruta «riksvei 1». I dag kan man kjøre bil eller fly til de fleste stedene, men skipene går fortsatt hver dag, både for lokale reisende og for turister fra hele verden.",
+          "de": "Viele Jahre lang war die Hurtigruta die wichtigste Verbindung für die Menschen an der Küste. Die Schiffe beförderten Post, Waren und Passagiere, und viele nannten die Linie „Reichsstraße 1“. Heute kann man an die meisten Orte mit dem Auto fahren oder fliegen, aber die Schiffe fahren immer noch jeden Tag, sowohl für Einheimische als auch für Touristen aus aller Welt."
+        },
+        {
+          "no": "Nord-Norge består av Nordland, Troms og Finnmark. Landsdelen er stor, men under ti prosent av befolkningen bor der. Tromsø er den største byen, og Bodø er nummer to. Når Hurtigruta seiler nordover, krysser den polarsirkelen i Nordland. Nord for polarsirkelen går sola ikke ned midt på sommeren, og midt på vinteren kommer den ikke opp: Det er midnattssol om sommeren og mørketid om vinteren.",
+          "de": "Nordnorwegen besteht aus Nordland, Troms und Finnmark. Der Landesteil ist groß, aber weniger als zehn Prozent der Bevölkerung leben dort. Tromsø ist die größte Stadt, Bodø die zweitgrößte. Wenn die Hurtigruta nach Norden fährt, überquert sie in Nordland den Polarkreis. Nördlich des Polarkreises geht die Sonne mitten im Sommer nicht unter, und mitten im Winter geht sie nicht auf: Im Sommer gibt es Mitternachtssonne und im Winter Polarnacht."
+        },
+        {
+          "no": "Lofoten er en øygruppe i Nordland med høye, spisse fjell rett opp av havet. Svolvær er den største byen. Hvert år fra januar til april kommer skreien, en stor torsk fra Barentshavet, til Lofoten for å gyte. Da er det travelt i fiskeværene, og fisken henger til tørk på hjeller i flere måneder.",
+          "de": "Die Lofoten sind eine Inselgruppe in Nordland mit hohen, spitzen Bergen, die direkt aus dem Meer aufsteigen. Svolvær ist die größte Stadt. Jedes Jahr von Januar bis April kommt der Skrei, ein großer Kabeljau aus der Barentssee, zum Laichen zu den Lofoten. Dann herrscht Hochbetrieb in den Fischerdörfern, und der Fisch hängt mehrere Monate lang zum Trocknen auf Gestellen."
+        },
+        {
+          "no": "Allerede i vikingtida reiste tørrfisk fra Lofoten sørover til Europa, og i dag er Italia det viktigste markedet. Mange turister bor i rorbuer, små røde hus på pæler ved sjøen, der fiskerne bodde i gamle dager.",
+          "de": "Schon in der Wikingerzeit ging Stockfisch von den Lofoten nach Süden nach Europa, und heute ist Italien der wichtigste Markt. Viele Touristen wohnen in Rorbuer, kleinen roten Häusern auf Pfählen am Wasser, in denen früher die Fischer wohnten."
+        },
+        {
+          "no": "Om vinteren kan man se nordlys over hele Nord-Norge når himmelen er klar og mørk. Mange turister reiser med Hurtigruta nettopp for å oppleve det grønne lyset som danser over himmelen.",
+          "de": "Im Winter kann man in ganz Nordnorwegen Nordlicht sehen, wenn der Himmel klar und dunkel ist. Viele Touristen reisen gerade deshalb mit der Hurtigruta, um das grüne Licht zu erleben, das über den Himmel tanzt."
+        }
+      ],
+      "glossary": [
+        {
+          "no": "langs kysten",
+          "de": "entlang der Küste"
+        },
+        {
+          "no": "havner",
+          "de": "Häfen"
+        },
+        {
+          "no": "skipsrederen",
+          "de": "der Reeder"
+        },
+        {
+          "no": "fast rute",
+          "de": "feste Linie"
+        },
+        {
+          "no": "særlig",
+          "de": "besonders"
+        },
+        {
+          "no": "døgnet",
+          "de": "Tag und Nacht (24 Stunden)"
+        },
+        {
+          "no": "forbindelsen",
+          "de": "die Verbindung"
+        },
+        {
+          "no": "fraktet",
+          "de": "beförderten, transportierten"
+        },
+        {
+          "no": "varer",
+          "de": "Waren"
+        },
+        {
+          "no": "riksvei 1",
+          "de": "Reichsstraße 1 (Spitzname)"
+        },
+        {
+          "no": "lokale reisende",
+          "de": "Einheimische, die reisen"
+        },
+        {
+          "no": "består av",
+          "de": "besteht aus"
+        },
+        {
+          "no": "Landsdelen",
+          "de": "der Landesteil"
+        },
+        {
+          "no": "befolkningen",
+          "de": "die Bevölkerung"
+        },
+        {
+          "no": "seiler",
+          "de": "fährt (mit dem Schiff), segelt"
+        },
+        {
+          "no": "krysser",
+          "de": "überquert"
+        },
+        {
+          "no": "polarsirkelen",
+          "de": "den Polarkreis"
+        },
+        {
+          "no": "midnattssol",
+          "de": "Mitternachtssonne"
+        },
+        {
+          "no": "mørketid",
+          "de": "Polarnacht, dunkle Zeit"
+        },
+        {
+          "no": "øygruppe",
+          "de": "Inselgruppe"
+        },
+        {
+          "no": "spisse",
+          "de": "spitze"
+        },
+        {
+          "no": "rett opp av havet",
+          "de": "direkt aus dem Meer"
+        },
+        {
+          "no": "gyte",
+          "de": "laichen"
+        },
+        {
+          "no": "travelt",
+          "de": "viel los, hektisch"
+        },
+        {
+          "no": "fiskeværene",
+          "de": "die Fischerdörfer"
+        },
+        {
+          "no": "til tørk",
+          "de": "zum Trocknen"
+        },
+        {
+          "no": "vikingtida",
+          "de": "die Wikingerzeit"
+        },
+        {
+          "no": "tørrfisk",
+          "de": "Stockfisch (getrockneter Kabeljau)"
+        },
+        {
+          "no": "markedet",
+          "de": "der Markt"
+        },
+        {
+          "no": "rorbuer",
+          "de": "Rorbuer (Fischerhütten)"
+        },
+        {
+          "no": "pæler",
+          "de": "Pfähle"
+        },
+        {
+          "no": "i gamle dager",
+          "de": "früher, in alten Zeiten"
+        },
+        {
+          "no": "nettopp",
+          "de": "gerade, eben"
+        },
+        {
+          "no": "oppleve",
+          "de": "erleben"
+        }
+      ]
+    }
+  ],
+  "wk": {
+    "title": "Jeg er så syk!",
+    "titleDe": "Mir geht es so schlecht!",
+    "phrases": [
+      {
+        "no": "Jeg føler meg ikke bra.",
+        "de": "Ich fühle mich nicht gut."
+      },
+      {
+        "no": "Jeg er kvalm.",
+        "de": "Mir ist übel.",
+        "note": "Norwegisch: Ich BIN übel (jeg er kvalm) – ohne „mir“."
+      },
+      {
+        "no": "Jeg er sjøsyk.",
+        "de": "Ich bin seekrank."
+      },
+      {
+        "no": "Jeg er svimmel.",
+        "de": "Mir ist schwindelig."
+      },
+      {
+        "no": "Jeg har vondt i hodet.",
+        "de": "Ich habe Kopfschmerzen.",
+        "note": "Ebenso: vondt i magen (Bauchschmerzen), vondt i ryggen (Rückenschmerzen)."
+      },
+      {
+        "no": "Jeg har sår hals.",
+        "de": "Ich habe Halsschmerzen."
+      },
+      {
+        "no": "Jeg har feber.",
+        "de": "Ich habe Fieber."
+      },
+      {
+        "no": "Jeg er forkjølet.",
+        "de": "Ich bin erkältet."
+      },
+      {
+        "no": "Jeg hoster hele natta.",
+        "de": "Ich huste die ganze Nacht."
+      },
+      {
+        "no": "Jeg tror jeg har fått influensa.",
+        "de": "Ich glaube, ich habe die Grippe bekommen."
+      },
+      {
+        "no": "Jeg må kaste opp.",
+        "de": "Ich muss mich übergeben."
+      },
+      {
+        "no": "Det gjør vondt her.",
+        "de": "Hier tut es weh."
+      },
+      {
+        "no": "Jeg må holde senga i dag.",
+        "de": "Ich muss heute im Bett bleiben."
+      },
+      {
+        "no": "Jeg må bestille time hos fastlegen.",
+        "de": "Ich muss einen Termin beim Hausarzt machen.",
+        "note": "Jeder Einwohner Norwegens hat einen festen Hausarzt, den fastlege."
+      },
+      {
+        "no": "Om natta og i helgene ringer man legevakta.",
+        "de": "Nachts und am Wochenende ruft man den ärztlichen Notdienst an.",
+        "note": "Legevakt: Telefon 116 117. Notruf für medizinische Notfälle: 113."
+      },
+      {
+        "no": "Kan du skrive ut en resept?",
+        "de": "Kannst du ein Rezept ausstellen?",
+        "note": "Ärzte werden in Norwegen meist geduzt."
+      },
+      {
+        "no": "Hvor er nærmeste apotek?",
+        "de": "Wo ist die nächste Apotheke?"
+      },
+      {
+        "no": "Ta en tablett tre ganger om dagen.",
+        "de": "Nimm dreimal am Tag eine Tablette."
+      },
+      {
+        "no": "Jeg er sykmeldt resten av uka.",
+        "de": "Ich bin den Rest der Woche krankgeschrieben."
+      },
+      {
+        "no": "God bedring!",
+        "de": "Gute Besserung!"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g17_tidsuttrykk",
+      "title": "Zeitausdrücke mit Präpositionen",
+      "titleNo": "tidsuttrykk",
+      "summary": "i fjor, i morges, i kveld, på lørdag, på lørdager, om vinteren, for et år siden, om et år, i tre uker, på tre uker – die Präposition zeigt, ob etwas vorbei ist, kommt oder sich wiederholt.",
+      "sections": [
+        {
+          "h": "Vergangenheit – Gegenwart – Zukunft",
+          "body": "Viele Zeitangaben haben drei Formen. Achte besonders auf **i morges** (heute früh, schon vorbei) und **i natt**, das je nach Zusammenhang „letzte Nacht“ oder „heute Nacht“ bedeutet.",
+          "table": [
+            [
+              "vorbei",
+              "jetzt / heute",
+              "kommend"
+            ],
+            [
+              "**i fjor** (letztes Jahr)",
+              "**i år** (dieses Jahr)",
+              "**til neste år** / **neste år** (nächstes Jahr)"
+            ],
+            [
+              "**i går** (gestern)",
+              "**i dag** (heute)",
+              "**i morgen** (morgen)"
+            ],
+            [
+              "**i går kveld** (gestern Abend)",
+              "**i kveld** (heute Abend)",
+              "**i morgen kveld** (morgen Abend)"
+            ],
+            [
+              "**i morges** (heute Morgen)",
+              "**nå** (jetzt)",
+              "**i morgen tidlig** (morgen früh)"
+            ],
+            [
+              "**(sist) mandag** (letzten Montag)",
+              "**i dag**",
+              "**på mandag** (kommenden Montag)"
+            ],
+            [
+              "**for et år siden** (vor einem Jahr)",
+              "–",
+              "**om et år** (in einem Jahr)"
+            ]
+          ]
+        },
+        {
+          "h": "Einmal oder immer wieder?",
+          "body": "• **på lørdag** = (am) kommenden Samstag – **på lørdager** = samstags, jeden Samstag\n• **i sommer** = diesen Sommer (der gerade war oder der kommt) – **om sommeren** = im Sommer, jeden Sommer\n• **i natt** = diese Nacht – **om natta** = nachts (immer)\n• Feste: **i jula** (an Weihnachten), **i påsken** (an Ostern) – **til jul** (zu Weihnachten, bis Weihnachten)\n\nTypischer Fehler: *I vinteren er det mørkt.* Richtig ist **Om vinteren er det mørkt.** (regelmäßig)."
+        },
+        {
+          "h": "Zeitdauer: i, på, for … siden, om",
+          "body": "• **i tre uker** = drei Wochen lang: **Hun var forelsket i tre uker.**\n• **på tre timer** = innerhalb von drei Stunden: **Han leste boka på tre timer.**\n• In verneinten Sätzen bedeutet **på** „seit“: **Han har ikke ringt på en uke.** (Er hat seit einer Woche nicht angerufen.)\n• **for … siden** = vor (Vergangenheit): **for tre måneder siden**\n• **om …** = in (Zukunft): **om et år**, **om to timer**\n\nAchtung: Das deutsche „in“ bei Zeitangaben ist meist **om** (Zukunft), nie *i et år*, wenn „in einem Jahr“ gemeint ist."
+        }
+      ],
+      "drills": [
+        {
+          "prompt": "Vi var i Lofoten ___ fjor. (letztes Jahr)",
+          "de": "Wir waren letztes Jahr auf den Lofoten.",
+          "answer": [
+            "i"
+          ],
+          "explain": "i fjor = letztes Jahr."
+        },
+        {
+          "prompt": "Jeg ringer deg ___. (morgen früh)",
+          "de": "Ich rufe dich morgen früh an.",
+          "answer": [
+            "i morgen tidlig"
+          ],
+          "explain": "morgen früh = i morgen tidlig."
+        },
+        {
+          "prompt": "Svaret kom ___. (heute Morgen, schon vorbei)",
+          "de": "Die Antwort kam heute Morgen.",
+          "answer": [
+            "i morges"
+          ],
+          "explain": "Heute Morgen, wenn er schon vorbei ist: i morges."
+        },
+        {
+          "prompt": "Skipet kommer til Tromsø ___ lørdag. (kommenden Samstag)",
+          "de": "Das Schiff kommt am Samstag nach Tromsø.",
+          "answer": [
+            "på"
+          ],
+          "explain": "på + Wochentag = der kommende Tag."
+        },
+        {
+          "prompt": "Inga har forelesning ___ mandager. (jeden Montag)",
+          "de": "Inga hat montags Vorlesung.",
+          "answer": [
+            "på"
+          ],
+          "explain": "på + Wochentag im Plural = jede Woche an diesem Tag."
+        },
+        {
+          "prompt": "___ vinteren kommer skreien til Lofoten. (jeden Winter)",
+          "de": "Im Winter kommt der Skrei zu den Lofoten.",
+          "answer": [
+            "Om"
+          ],
+          "explain": "Regelmäßig, jedes Jahr: om vinteren."
+        },
+        {
+          "prompt": "Jeg skal til Lofoten igjen ___ sommer. (diesen Sommer)",
+          "de": "Ich fahre diesen Sommer wieder auf die Lofoten.",
+          "answer": [
+            "i"
+          ],
+          "explain": "Ein bestimmter Sommer (dieser): i sommer."
+        },
+        {
+          "prompt": "Susanne kom til Norge ___ tre måneder siden. (vor drei Monaten)",
+          "de": "Susanne kam vor drei Monaten nach Norwegen.",
+          "answer": [
+            "for"
+          ],
+          "explain": "vor … = for … siden."
+        },
+        {
+          "prompt": "Erik vil begynne å studere ___ et år. (in einem Jahr)",
+          "de": "Erik will in einem Jahr anfangen zu studieren.",
+          "answer": [
+            "om"
+          ],
+          "explain": "Zukunft: om et år (in einem Jahr)."
+        },
+        {
+          "prompt": "Hun ble i Svolvær ___ to netter. (zwei Nächte lang)",
+          "de": "Sie blieb zwei Nächte in Svolvær.",
+          "answer": [
+            "i"
+          ],
+          "explain": "Dauer: i to netter."
+        },
+        {
+          "prompt": "Matthias har ikke ringt ___ en uke. (seit einer Woche, verneint)",
+          "de": "Matthias hat seit einer Woche nicht angerufen.",
+          "answer": [
+            "på"
+          ],
+          "explain": "Im verneinten Satz: på en uke = seit einer Woche."
+        },
+        {
+          "prompt": "Han leste hele boka ___ tre timer. (innerhalb von drei Stunden)",
+          "de": "Er las das ganze Buch in drei Stunden.",
+          "answer": [
+            "på"
+          ],
+          "explain": "innerhalb einer Zeit: på."
+        }
+      ]
+    },
+    {
+      "id": "g17_modal_fortid",
+      "title": "Modalverben in der Vergangenheit",
+      "titleNo": "modale hjelpeverb i fortid",
+      "summary": "måtte, kunne, ville, skulle, burde im Präteritum; har måttet, har kunnet usw. im Perfekt; burde ha + Partizip = hätte … sollen.",
+      "sections": [
+        {
+          "h": "Die Formen",
+          "body": "Modalverben haben wie andere Verben ein Präteritum und ein Perfekt. Danach folgt immer der Infinitiv **ohne å**.",
+          "table": [
+            [
+              "Infinitiv",
+              "Präsens",
+              "Präteritum",
+              "Perfekt",
+              "Deutsch"
+            ],
+            [
+              "**kunne**",
+              "**kan**",
+              "**kunne**",
+              "**har kunnet**",
+              "können"
+            ],
+            [
+              "**ville**",
+              "**vil**",
+              "**ville**",
+              "**har villet**",
+              "wollen"
+            ],
+            [
+              "**skulle**",
+              "**skal**",
+              "**skulle**",
+              "**har skullet**",
+              "sollen, werden"
+            ],
+            [
+              "**måtte**",
+              "**må**",
+              "**måtte**",
+              "**har måttet**",
+              "müssen"
+            ],
+            [
+              "**burde**",
+              "**bør**",
+              "**burde**",
+              "**har burdet**",
+              "sollte(n)"
+            ]
+          ]
+        },
+        {
+          "h": "Gebrauch",
+          "body": "• Präteritum: **Hun måtte legge seg.** (Sie musste sich hinlegen.) **Jeg kunne ikke engang drikke vann.**\n• Perfekt: **Jeg har ikke kunnet tenke på noe annet.** (Ich habe an nichts anderes denken können.) Anders als im Deutschen steht hier das Partizip (**kunnet**), nicht der Infinitiv: Deutsch „habe … denken können“, Norwegisch **har … kunnet tenke**.\n• Bei kunne, ville, skulle, måtte und burde sehen Infinitiv und Präteritum gleich aus – nur das Präsens ist anders (kan, vil, skal, må, bør)."
+        },
+        {
+          "h": "burde ha + Partizip: hätte … sollen",
+          "body": "Für etwas, das man hätte tun sollen (aber nicht getan hat), sagt man **burde ha** + Partizip Perfekt:\n\n• **Han burde ha ringt.** (Er hätte anrufen sollen.)\n• **Jeg burde ha skjønt det med en gang.** (Ich hätte es sofort merken sollen.)\n\nEbenso: **kunne ha** (hätte … können): **Du kunne ha sagt det!** (Du hättest es sagen können!) Das Norwegische braucht dafür keinen Konjunktiv."
+        }
+      ],
+      "drills": [
+        {
+          "prompt": "Susanne ble sjøsyk og ___ legge seg på en benk. (må, preteritum)",
+          "de": "Susanne wurde seekrank und musste sich auf eine Bank legen.",
+          "answer": [
+            "måtte"
+          ],
+          "explain": "Präteritum von må: måtte."
+        },
+        {
+          "prompt": "Hun ___ ikke engang drikke vann. (kan, preteritum)",
+          "de": "Sie konnte nicht einmal Wasser trinken.",
+          "answer": [
+            "kunne"
+          ],
+          "explain": "Präteritum von kan: kunne."
+        },
+        {
+          "prompt": "Erik ___ vise henne byen sin. (vil, preteritum)",
+          "de": "Erik wollte ihr seine Stadt zeigen.",
+          "answer": [
+            "ville"
+          ],
+          "explain": "Präteritum von vil: ville."
+        },
+        {
+          "prompt": "Bestefaren ___ ut på havet hver dag. (må, preteritum)",
+          "de": "Der Großvater musste jeden Tag aufs Meer hinaus.",
+          "answer": [
+            "måtte"
+          ],
+          "explain": "Präteritum: måtte. Bei Bewegungsrichtungen fällt das Verb oft weg (måtte ut = musste hinaus)."
+        },
+        {
+          "prompt": "Jeg har ikke ___ sove hele natta. (kan, perfektum)",
+          "de": "Ich habe die ganze Nacht nicht schlafen können.",
+          "answer": [
+            "kunnet"
+          ],
+          "explain": "Perfekt: har kunnet + Infinitiv."
+        },
+        {
+          "prompt": "Inga har ___ jobbe hele helga. (må, perfektum)",
+          "de": "Inga hat das ganze Wochenende arbeiten müssen.",
+          "answer": [
+            "måttet"
+          ],
+          "explain": "Perfekt: har måttet + Infinitiv."
+        },
+        {
+          "prompt": "Susanne har alltid ___ reise med Hurtigruta. (vil, perfektum)",
+          "de": "Susanne hat schon immer mit der Hurtigruta reisen wollen.",
+          "answer": [
+            "villet"
+          ],
+          "explain": "Perfekt: har villet + Infinitiv."
+        },
+        {
+          "prompt": "Du ___ ha ringt meg! (bør + ha)",
+          "de": "Du hättest mich anrufen sollen!",
+          "answer": [
+            "burde"
+          ],
+          "explain": "hätte … sollen = burde ha + Partizip."
+        },
+        {
+          "prompt": "Han burde ha ___ noe. (si)",
+          "de": "Er hätte etwas sagen sollen.",
+          "answer": [
+            "sagt"
+          ],
+          "explain": "Nach burde ha steht das Partizip Perfekt: sagt."
+        },
+        {
+          "prompt": "Jeg burde ha ___ det med en gang. (skjønne)",
+          "de": "Ich hätte es sofort merken sollen.",
+          "answer": [
+            "skjønt"
+          ],
+          "explain": "Partizip von skjønne: skjønt."
+        },
+        {
+          "prompt": "Vi ___ ikke gå på fjellet fordi det regnet så mye. (kan, preteritum)",
+          "de": "Wir konnten nicht auf den Berg gehen, weil es so viel regnete.",
+          "answer": [
+            "kunne"
+          ],
+          "explain": "Präteritum von kan: kunne."
+        },
+        {
+          "prompt": "Hun ___ ha tatt en tablett mot sjøsyke før turen. (bør + ha)",
+          "de": "Sie hätte vor der Reise eine Tablette gegen Seekrankheit nehmen sollen.",
+          "answer": [
+            "burde"
+          ],
+          "explain": "burde ha + Partizip (tatt)."
+        }
+      ]
+    },
+    {
+      "id": "g17_fremtid_fortid",
+      "title": "Zukunft in der Vergangenheit",
+      "titleNo": "fremtid i fortid",
+      "summary": "skulle, ville und kom til å + Infinitiv drücken aus, was aus Sicht der Vergangenheit noch kommen sollte: Hun visste at hun skulle reise.",
+      "sections": [
+        {
+          "h": "skal → skulle, vil → ville, kommer til å → kom til å",
+          "body": "Erzählt man in der Vergangenheit, wird die Zukunft „mitverschoben“:\n\n• **«Jeg skal reise til Lofoten.»** → **Hun visste at hun skulle reise til Lofoten.** (Plan)\n• **«Jeg vil ringe deg.»** → **Han sa at han ville ringe.** (Absicht, Vorhersage)\n• **«Det kommer til å regne.»** → **Hun trodde at det kom til å regne.** (Vorhersage)\n\nDas Deutsche verwendet hier oft „würde“: Er sagte, er würde anrufen. Norwegisch hat keinen Konjunktiv – man nimmt einfach das Präteritum der Zukunftsform."
+        },
+        {
+          "h": "Pläne, aus denen nichts wurde",
+          "body": "**skulle** im Präteritum zeigt oft einen Plan, der nicht verwirklicht wurde – meist mit **men** oder **egentlig**:\n\n• **Vi skulle gå på fjellet, men det regnet.** (Wir wollten auf den Berg, aber es regnete.)\n• **Inga skulle egentlig være med.** (Inga sollte eigentlich mitkommen.)\n• **Jeg skulle bare høre hvordan du har det.** (Ich wollte nur hören, wie es dir geht – typische Telefonfloskel.)\n\nDeutsch sagt hier meist „wollte“ oder „sollte“ – auf Norwegisch ist **skulle** am natürlichsten."
+        }
+      ],
+      "drills": [
+        {
+          "prompt": "Hun visste at hun ___ reise til Lofoten på fredag. (Plan: hun skal reise)",
+          "de": "Sie wusste, dass sie am Freitag auf die Lofoten fahren würde.",
+          "answer": [
+            "skulle"
+          ],
+          "explain": "skal → skulle (Plan, aus der Vergangenheit gesehen)."
+        },
+        {
+          "prompt": "«Jeg vil ringe deg.» → Han sa at han ___ ringe meg.",
+          "de": "„Ich werde dich anrufen.“ → Er sagte, dass er mich anrufen würde.",
+          "answer": [
+            "ville"
+          ],
+          "explain": "vil → ville."
+        },
+        {
+          "prompt": "«Jeg skal komme til Tromsø i jula.» → Erik sa at han ___ komme til Tromsø i jula.",
+          "de": "Erik sagte, dass er an Weihnachten nach Tromsø kommen würde.",
+          "answer": [
+            "skulle"
+          ],
+          "explain": "skal → skulle."
+        },
+        {
+          "prompt": "«Det kommer til å regne.» → Hun trodde at det ___ til å regne.",
+          "de": "Sie glaubte, dass es regnen würde.",
+          "answer": [
+            "kom"
+          ],
+          "explain": "kommer til å → kom til å."
+        },
+        {
+          "prompt": "Vi ___ gå på fjellet, men det regnet for mye. (Plan, der nicht klappte)",
+          "de": "Wir wollten auf den Berg gehen, aber es regnete zu sehr.",
+          "answer": [
+            "skulle"
+          ],
+          "explain": "Ein Plan, aus dem nichts wurde: skulle."
+        },
+        {
+          "prompt": "«Du vil like Lofoten.» → Inga sa at jeg ___ like Lofoten.",
+          "de": "Inga sagte, dass mir die Lofoten gefallen würden.",
+          "answer": [
+            "ville"
+          ],
+          "explain": "vil (Vorhersage) → ville."
+        },
+        {
+          "prompt": "Hun ante ikke at turen ___ til å forandre så mye. (kommer til å → Vergangenheit)",
+          "de": "Sie ahnte nicht, dass die Reise so viel verändern würde.",
+          "answer": [
+            "kom"
+          ],
+          "explain": "kommer til å → kom til å."
+        },
+        {
+          "prompt": "«Jeg skal treffe deg igjen.» → Erik lovet at han ___ treffe meg igjen.",
+          "de": "Erik versprach, dass er mich wiedersehen würde.",
+          "answer": [
+            "skulle"
+          ],
+          "explain": "skal → skulle."
+        },
+        {
+          "prompt": "I går kveld ___ jeg egentlig skrive dagbok, men jeg sovnet. (Plan)",
+          "de": "Gestern Abend wollte ich eigentlich Tagebuch schreiben, aber ich bin eingeschlafen.",
+          "answer": [
+            "skulle"
+          ],
+          "explain": "Plan, aus dem nichts wurde: skulle egentlig."
+        },
+        {
+          "prompt": "Matthias visste ikke at Susanne ___ være i Lofoten i helga. (Plan)",
+          "de": "Matthias wusste nicht, dass Susanne am Wochenende auf den Lofoten sein würde.",
+          "answer": [
+            "skulle"
+          ],
+          "explain": "Plan aus Sicht der Vergangenheit: skulle."
+        },
+        {
+          "prompt": "«Han kommer til å ringe.» → Jeg trodde at han ___ til å ringe.",
+          "de": "Ich glaubte, dass er anrufen würde.",
+          "answer": [
+            "kom"
+          ],
+          "explain": "kommer til å → kom til å."
+        }
+      ]
+    }
+  ],
+  "tf": [
+    {
+      "s": "Inga reiste sammen med Susanne til Lofoten.",
+      "de": "Inga fuhr zusammen mit Susanne auf die Lofoten.",
+      "a": false,
+      "why": "Inga sollte eigentlich mitkommen, musste aber einen Bericht fertig schreiben; Susanne fuhr allein."
+    },
+    {
+      "s": "Susanne ble sjøsyk den første natta.",
+      "de": "Susanne wurde in der ersten Nacht seekrank.",
+      "a": true,
+      "why": "Das Schiff schaukelte in den Wellen, ihr wurde übel und schwindelig."
+    },
+    {
+      "s": "Erik jobbet i kafeen om bord.",
+      "de": "Erik arbeitete im Café an Bord.",
+      "a": true,
+      "why": "„… jobbet i kafeen om bord.“"
+    },
+    {
+      "s": "Erik kommer fra Bodø.",
+      "de": "Erik kommt aus Bodø.",
+      "a": false,
+      "why": "Erik kommt aus Svolvær. Der Typ aus Bodø war Ingas Schwarm im letzten Jahr."
+    },
+    {
+      "s": "Hjellene i Svolvær var fulle av tørrfisk.",
+      "de": "Die Trockengestelle in Svolvær waren voller Stockfisch.",
+      "a": false,
+      "why": "Die Gestelle standen leer; Fisch hängt dort erst im Frühling."
+    },
+    {
+      "s": "Bestefaren til Erik var fisker.",
+      "de": "Eriks Großvater war Fischer.",
+      "a": true,
+      "why": "Er war über fünfzig Jahre lang Fischer."
+    },
+    {
+      "s": "Matthias ble glad da han hørte om den nye vennen.",
+      "de": "Matthias freute sich, als er von dem neuen Freund hörte.",
+      "a": false,
+      "why": "Er wurde ganz still und legte nach zwei Minuten auf."
+    },
+    {
+      "s": "Erik hadde ikke tid til å treffe Susanne i Tromsø.",
+      "de": "Erik hatte keine Zeit, Susanne in Tromsø zu treffen.",
+      "a": true,
+      "why": "Er schrieb: „Beklager, har dessverre ikke tid på lørdag.“"
+    }
+  ],
+  "questions": [
+    {
+      "q": "Hvorfor reiste Susanne alene?",
+      "qDe": "Warum fuhr Susanne allein?",
+      "answer": "Fordi Inga måtte skrive ferdig en rapport i helga.",
+      "answerDe": "Weil Inga am Wochenende einen Bericht fertig schreiben musste.",
+      "keywords": [
+        [
+          "rapport",
+          "rapporten"
+        ],
+        [
+          "måtte",
+          "skrive",
+          "jobbe"
+        ]
+      ]
+    },
+    {
+      "q": "Hva gjorde Erik da Susanne var sjøsyk?",
+      "qDe": "Was tat Erik, als Susanne seekrank war?",
+      "answer": "Han hentet te, kjeks og et teppe til henne.",
+      "answerDe": "Er holte ihr Tee, Kekse und eine Decke.",
+      "keywords": [
+        [
+          "te",
+          "kjeks",
+          "teppe"
+        ],
+        [
+          "hentet",
+          "ga"
+        ]
+      ]
+    },
+    {
+      "q": "Hva fortalte Erik om skreien?",
+      "qDe": "Was erzählte Erik über den Skrei?",
+      "answer": "Han fortalte at skreien kommer til Lofoten hvert år fra januar til april.",
+      "answerDe": "Er erzählte, dass der Skrei jedes Jahr von Januar bis April zu den Lofoten kommt.",
+      "keywords": [
+        [
+          "skreien",
+          "skrei",
+          "torsk"
+        ],
+        [
+          "januar",
+          "april",
+          "hvert år",
+          "vinteren"
+        ]
+      ]
+    },
+    {
+      "q": "Hvorfor ble Matthias stille i telefonen?",
+      "qDe": "Warum wurde Matthias am Telefon still?",
+      "answer": "Fordi Susanne fortalte at hun spiste middag med en ny venn fra båten.",
+      "answerDe": "Weil Susanne erzählte, dass sie mit einem neuen Freund vom Schiff zu Abend aß.",
+      "keywords": [
+        [
+          "venn",
+          "Erik",
+          "mann"
+        ],
+        [
+          "middag",
+          "spiste"
+        ]
+      ]
+    },
+    {
+      "q": "Hva svarte Erik på meldingen fra Susanne?",
+      "qDe": "Was antwortete Erik auf Susannes Nachricht?",
+      "answer": "Han skrev at han dessverre ikke hadde tid på lørdag.",
+      "answerDe": "Er schrieb, dass er am Samstag leider keine Zeit hatte.",
+      "keywords": [
+        [
+          "tid"
+        ],
+        [
+          "lørdag",
+          "jobb"
+        ]
+      ]
+    },
+    {
+      "q": "Hva tenker Susanne om Matthias på slutten?",
+      "qDe": "Was denkt Susanne am Ende über Matthias?",
+      "answer": "Hun tenker at hun kanskje burde ringe ham.",
+      "answerDe": "Sie denkt, dass sie ihn vielleicht anrufen sollte.",
+      "keywords": [
+        [
+          "ringe",
+          "ringer"
+        ],
+        [
+          "burde",
+          "kanskje"
+        ]
+      ]
+    }
+  ],
+  "find": [
+    {
+      "de": "an Bord",
+      "answer": [
+        "om bord"
+      ]
+    },
+    {
+      "de": "Mir wurde übel.",
+      "answer": [
+        "Jeg ble kvalm"
+      ]
+    },
+    {
+      "de": "nicht einmal",
+      "answer": [
+        "ikke engang"
+      ]
+    },
+    {
+      "de": "heute Morgen (vorbei)",
+      "answer": [
+        "I morges",
+        "i morges"
+      ]
+    },
+    {
+      "de": "bei jedem Wetter",
+      "answer": [
+        "uansett vær"
+      ]
+    },
+    {
+      "de": "legte er auf",
+      "answer": [
+        "la han på"
+      ]
+    },
+    {
+      "de": "schüttelte den Kopf",
+      "answer": [
+        "ristet på hodet"
+      ]
+    },
+    {
+      "de": "sofort",
+      "answer": [
+        "med en gang"
+      ]
+    }
+  ],
+  "translate": [
+    {
+      "de": "Letztes Jahr war ich drei Wochen auf den Lofoten.",
+      "no": [
+        "I fjor var jeg i Lofoten i tre uker.",
+        "Jeg var i Lofoten i tre uker i fjor."
+      ]
+    },
+    {
+      "de": "Mir wurde übel, und ich musste mich hinlegen.",
+      "no": [
+        "Jeg ble kvalm, og jeg måtte legge meg.",
+        "Jeg ble kvalm og måtte legge meg."
+      ]
+    },
+    {
+      "de": "Ich konnte nicht einmal Wasser trinken.",
+      "no": [
+        "Jeg kunne ikke engang drikke vann."
+      ]
+    },
+    {
+      "de": "Er hätte anrufen sollen.",
+      "no": [
+        "Han burde ha ringt."
+      ]
+    },
+    {
+      "de": "Sie wusste, dass sie am Samstag nach Svolvær fahren würde.",
+      "no": [
+        "Hun visste at hun skulle reise til Svolvær på lørdag.",
+        "Hun visste at hun skulle dra til Svolvær på lørdag."
+      ]
+    },
+    {
+      "de": "Wir wollten auf einen Berg steigen, aber es regnete.",
+      "no": [
+        "Vi skulle gå opp på et fjell, men det regnet.",
+        "Vi skulle gå på et fjell, men det regnet.",
+        "Vi ville gå opp på et fjell, men det regnet."
+      ],
+      "hint": "Plan, aus dem nichts wurde → skulle"
+    },
+    {
+      "de": "Er sagte, dass er mich anrufen würde.",
+      "no": [
+        "Han sa at han skulle ringe meg.",
+        "Han sa at han ville ringe meg."
+      ]
+    },
+    {
+      "de": "Ich habe dich seit einer Woche nicht gesehen.",
+      "no": [
+        "Jeg har ikke sett deg på en uke."
+      ]
+    },
+    {
+      "de": "Im Winter kommt der Skrei zu den Lofoten.",
+      "no": [
+        "Om vinteren kommer skreien til Lofoten.",
+        "Skreien kommer til Lofoten om vinteren."
+      ]
+    },
+    {
+      "de": "Ich habe die ganze Nacht nicht schlafen können.",
+      "no": [
+        "Jeg har ikke kunnet sove hele natta.",
+        "Jeg har ikke kunnet sove hele natten."
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "prompt": "Susanne reiser med ___ fra Tromsø til Svolvær.",
+      "de": "Susanne fährt mit der Hurtigruta von Tromsø nach Svolvær.",
+      "answer": [
+        "Hurtigruta",
+        "Hurtigruten"
+      ]
+    },
+    {
+      "prompt": "Den første natta blir hun ___ og må legge seg i salongen.",
+      "de": "In der ersten Nacht wird sie seekrank und muss sich im Salon hinlegen.",
+      "answer": [
+        "sjøsyk",
+        "kvalm"
+      ]
+    },
+    {
+      "prompt": "Erik, som jobber om ___, tar seg av henne.",
+      "de": "Erik, der an Bord arbeitet, kümmert sich um sie.",
+      "answer": [
+        "bord"
+      ]
+    },
+    {
+      "prompt": "I Svolvær viser Erik henne ___ sin.",
+      "de": "In Svolvær zeigt Erik ihr seine Stadt.",
+      "answer": [
+        "byen"
+      ]
+    },
+    {
+      "prompt": "Da Matthias ringer og hører om den nye vennen, blir han helt ___.",
+      "de": "Als Matthias anruft und von dem neuen Freund hört, wird er ganz still.",
+      "answer": [
+        "stille"
+      ]
+    },
+    {
+      "prompt": "Senere har Erik plutselig ikke ___ til å treffe henne.",
+      "de": "Später hat Erik plötzlich keine Zeit, sie zu treffen.",
+      "answer": [
+        "tid"
+      ]
+    }
+  ],
+  "dictation": [
+    3,
+    4,
+    9
+  ],
+  "writing": {
+    "prompt": "Du bist auf einer Reise krank geworden (seekrank, erkältet …). Schreibe einen Tagebucheintrag: Was ist passiert? Was musstest du tun, was konntest du nicht tun? Was hättest du anders machen sollen? Verwende Zeitausdrücke (i går kveld, i natt, i morges …) und Modalverben in der Vergangenheit (måtte, kunne, burde ha …).",
+    "minWords": 130,
+    "useWords": [
+      "måtte",
+      "kunne ikke",
+      "burde ha",
+      "i morges",
+      "i natt"
+    ],
+    "checklist": [
+      {
+        "de": "Zeitausdrücke (i går kveld, i natt, i morges …)",
+        "keywords": [
+          "i går kveld",
+          "i natt",
+          "i morges"
+        ]
+      },
+      {
+        "de": "Beschwerden (kvalm, vondt, feber …)",
+        "keywords": [
+          "kvalm",
+          "vondt",
+          "feber",
+          "sjøsyk",
+          "svimmel"
+        ]
+      },
+      {
+        "de": "Modalverben in der Vergangenheit",
+        "keywords": [
+          "måtte",
+          "kunne"
+        ]
+      },
+      {
+        "de": "Was du hättest tun sollen (burde ha …)",
+        "keywords": [
+          "burde ha"
+        ]
+      }
+    ],
+    "model": "Søndag kveld, Bergen\nI går kveld reiste jeg med båt fra Stavanger til Bergen. Det blåste kraftig, og etter en halvtime ble jeg sjøsyk. Jeg måtte gå ut på dekk flere ganger, og jeg kunne ikke spise noe. I natt sov jeg nesten ikke fordi jeg hadde vondt i magen og var svimmel. I morges hadde jeg også feber, så jeg måtte ringe legevakta. Legen sa at jeg skulle drikke mye vann og holde senga i to dager. Nå har jeg ligget i senga hele dagen, og jeg har ikke kunnet gjøre noe av det jeg hadde planlagt. Jeg burde ha tatt en tablett mot sjøsyke før turen, og jeg burde ha spist litt før vi gikk om bord. Neste gang skal jeg ta toget i stedet! Heldigvis kom en venninne med suppe og en god bok i kveld.",
+    "modelDe": "Sonntagabend, Bergen\nGestern Abend bin ich mit dem Schiff von Stavanger nach Bergen gefahren. Es wehte ein starker Wind, und nach einer halben Stunde wurde ich seekrank. Ich musste mehrmals an Deck gehen, und ich konnte nichts essen. Heute Nacht habe ich fast nicht geschlafen, weil ich Bauchschmerzen hatte und mir schwindelig war. Heute Morgen hatte ich auch Fieber, also musste ich den ärztlichen Notdienst anrufen. Die Ärztin sagte, dass ich viel Wasser trinken und zwei Tage im Bett bleiben sollte. Jetzt liege ich schon den ganzen Tag im Bett und habe nichts von dem tun können, was ich geplant hatte. Ich hätte vor der Reise eine Tablette gegen Seekrankheit nehmen sollen, und ich hätte etwas essen sollen, bevor wir an Bord gingen. Nächstes Mal nehme ich stattdessen den Zug! Zum Glück kam heute Abend eine Freundin mit Suppe und einem guten Buch vorbei."
+  }
+}

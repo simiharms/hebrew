@@ -1,0 +1,401 @@
+{
+  "n": 19,
+  "level": "B2",
+  "title": "Telefonsamtale og påskeplaner",
+  "titleDe": "Ein Telefongespräch und Osterpläne",
+  "place": "Tromsø – Trondheim (am Telefon)",
+  "goals": [
+    "Du kannst wiedergeben, was jemand gesagt oder gefragt hat (indirekte Rede mit at, om und Fragewörtern).",
+    "Du kannst am Telefon ein Gespräch führen, eine Nachricht hinterlassen und dich verabschieden.",
+    "Du lernst få als Hilfsverb: etwas schaffen (fikk levert), dürfen (fikk være med), erfahren (fikk vite).",
+    "Du kannst mit „Det står en mann ved døra“ Neues einführen und mit „Det var Anna som ringte“ etwas hervorheben.",
+    "Du erfährst etwas über Trondheim und den Nidarosdom."
+  ],
+  "text": {
+    "id": "t19",
+    "title": "Telefonsamtale og påskeplaner",
+    "titleDe": "Ein Telefongespräch und Osterpläne",
+    "kind": "dialog",
+    "intro": "Anfang März: Susanne sitzt in ihrer Wohnung in Tromsø, als Anna aus Trondheim anruft, wo sie ein Praktikum im Krankenhaus macht. Später kommt Inga nach Hause und will wissen, worüber die beiden so lange gesprochen haben.",
+    "speakers": {
+      "s": { "name": "Susanne", "gender": "f" },
+      "a": { "name": "Anna", "gender": "f" },
+      "i": { "name": "Inga", "gender": "f" }
+    },
+    "lines": [
+      { "s": "s", "no": "Hei, Anna! Så hyggelig at du ringer!", "de": "Hallo, Anna! Wie schön, dass du anrufst!" },
+      { "s": "a", "no": "Hei, Susanne! Har du tid til å prate litt? Jeg har endelig en fridag.", "de": "Hallo, Susanne! Hast du Zeit, ein bisschen zu plaudern? Ich habe endlich einen freien Tag." },
+      { "s": "s", "no": "Alltid! Hvordan går det i Trondheim? Er det like mye snø der som her?", "de": "Immer! Wie läuft es in Trondheim? Liegt dort genauso viel Schnee wie hier?" },
+      { "s": "a", "no": "Nei da, her er det mest slaps og regn. Men praksisen på St. Olavs hospital er kjempespennende. Det skjer noe nytt hver eneste dag.", "de": "Ach nein, hier gibt es vor allem Schneematsch und Regen. Aber das Praktikum im St. Olavs Hospital ist total spannend. Jeden einzelnen Tag passiert etwas Neues." },
+      { "s": "s", "no": "Hva sier veilederen din? Er hun fornøyd med deg?", "de": "Was sagt deine Betreuerin? Ist sie zufrieden mit dir?" },
+      { "s": "a", "no": "Jeg tror det. I går sa hun at jeg var flink med pasientene, men at jeg måtte skrive journalene raskere. Hun spurte også om jeg hadde tenkt på å bli barnelege.", "de": "Ich glaube schon. Gestern hat sie gesagt, ich könne gut mit den Patienten umgehen, müsse die Krankenakten aber schneller schreiben. Sie hat mich auch gefragt, ob ich schon daran gedacht hätte, Kinderärztin zu werden." },
+      { "s": "s", "no": "Barnelege! Det passer jo perfekt. Og pasientene, hva sier de?", "de": "Kinderärztin! Das passt doch perfekt. Und die Patienten, was sagen die?" },
+      { "s": "a", "no": "Alt mulig! En eldre mann spurte meg om jeg var gammel nok til å være lege. Og ei dame lurte på hvor jeg kom fra, fordi jeg ikke snakker trøndersk.", "de": "Alles Mögliche! Ein älterer Mann hat mich gefragt, ob ich alt genug sei, um Ärztin zu sein. Und eine Dame wollte wissen, woher ich komme, weil ich kein Trøndersk spreche." },
+      { "s": "s", "no": "Ha ha! Det med alderen var sikkert ment som et kompliment. Har du fått være med på noe spennende denne uka?", "de": "Haha! Das mit dem Alter war bestimmt als Kompliment gemeint. Durftest du diese Woche bei etwas Spannendem dabei sein?" },
+      { "s": "a", "no": "Ja! I går fikk jeg være med på en operasjon for første gang. Det var overlegen selv som spurte om jeg ville se på.", "de": "Ja! Gestern durfte ich zum ersten Mal bei einer Operation dabei sein. Der Oberarzt selbst war es, der gefragt hat, ob ich zuschauen möchte." },
+      { "s": "s", "no": "Så spennende! Men du høres litt sliten ut.", "de": "Wie spannend! Aber du klingst ein bisschen müde." },
+      { "s": "a", "no": "Det er jeg også. Jeg har nesten ikke fått sove, og jeg har ikke fått vasket klær på to uker. Det ligger en hel haug med skittentøy midt på gulvet!", "de": "Das bin ich auch. Ich bin kaum zum Schlafen gekommen, und seit zwei Wochen habe ich es nicht geschafft, Wäsche zu waschen. Mitten auf dem Boden liegt ein ganzer Haufen Schmutzwäsche!" },
+      { "s": "s", "no": "Stakkars deg! Jeg fikk endelig levert semesteroppgaven min i går, så nå kan jeg puste ut.", "de": "Du Arme! Gestern habe ich endlich meine Semesterarbeit abgegeben, jetzt kann ich durchatmen." },
+      { "s": "a", "no": "Så flott! Men jeg hører på stemmen din at det er noe du ikke har fortalt meg.", "de": "Toll! Aber ich höre an deiner Stimme, dass es da etwas gibt, was du mir noch nicht erzählt hast." },
+      { "s": "s", "no": "Det gjelder Erik, han fra Hurtigruta. Han skrev til meg i forrige uke, etter tre måneder uten et eneste ord.", "de": "Es geht um Erik, den von der Hurtigruten. Er hat mir letzte Woche geschrieben, nach drei Monaten ohne ein einziges Wort." },
+      { "s": "a", "no": "Nei, ikke Erik! Hva skrev han?", "de": "Oh nein, nicht Erik! Was hat er geschrieben?" },
+      { "s": "s", "no": "Han skrev at han hadde tenkt mye på meg, og at skipet hans skulle komme til Tromsø neste lørdag. Han lurte på om vi kunne ta en kaffe sammen.", "de": "Er hat geschrieben, dass er viel an mich gedacht habe und dass sein Schiff nächsten Samstag nach Tromsø komme. Er wollte wissen, ob wir zusammen einen Kaffee trinken könnten." },
+      { "s": "a", "no": "Typisk! Først er han borte i tre måneder, og så skal alt være som før. Har du svart ham?", "de": "Typisch! Erst ist er drei Monate lang verschwunden, und dann soll alles wie früher sein. Hast du ihm geantwortet?" },
+      { "s": "s", "no": "Ikke ennå. Jeg vet rett og slett ikke hva jeg skal svare.", "de": "Noch nicht. Ich weiß einfach nicht, was ich antworten soll." },
+      { "s": "a", "no": "Tenk deg godt om før du svarer. Forresten, det var egentlig påsken jeg ringte om. Jeg fikk vite i dag at jeg har fri hele påskeuka!", "de": "Denk gut nach, bevor du antwortest. Übrigens habe ich eigentlich wegen Ostern angerufen. Ich habe heute erfahren, dass ich die ganze Osterwoche frei habe!" },
+      { "s": "s", "no": "Så deilig! Skal du hjem til Oslo?", "de": "Wie schön! Fährst du nach Hause nach Oslo?" },
+      { "s": "a", "no": "Nei, på hytta i Gudbrandsdalen. Og mamma og pappa lurer på om du vil være med!", "de": "Nein, zur Hütte im Gudbrandsdal. Und Mama und Papa fragen, ob du mitkommen möchtest!" },
+      { "s": "s", "no": "Så gjerne! Jeg har hørt så mye om den hytta. Hvem er det som kommer?", "de": "Sehr gern! Ich habe schon so viel von dieser Hütte gehört. Wer kommt denn alles?" },
+      { "s": "a", "no": "Hele familien: mamma, pappa, Ola, bestemor og selvfølgelig Bamse. Og mamma spurte om ikke Matthias også ville bli med. Det er plass til mange.", "de": "Die ganze Familie: Mama, Papa, Ola, Oma und natürlich Bamse. Und Mama hat gefragt, ob Matthias nicht auch mitkommen möchte. Es ist Platz für viele." },
+      { "s": "s", "no": "Matthias? Det blir han sikkert glad for. Han sa i forrige uke at han ikke hadde noen planer for påsken.", "de": "Matthias? Darüber freut er sich bestimmt. Er hat letzte Woche gesagt, dass er für Ostern noch keine Pläne habe." },
+      { "s": "a", "no": "Perfekt! Han kan sitte på med mamma og pappa fra Oslo. Og hvis du flyr til Trondheim, kan vi ta toget sammen gjennom Gudbrandsdalen.", "de": "Perfekt! Er kann bei Mama und Papa ab Oslo mitfahren. Und wenn du nach Trondheim fliegst, können wir zusammen mit dem Zug durchs Gudbrandsdal fahren." },
+      { "s": "s", "no": "Det høres flott ut! Da kan du vise meg Nidarosdomen også.", "de": "Das klingt toll! Dann kannst du mir auch den Nidarosdom zeigen." },
+      { "s": "a", "no": "Supert! Nå må jeg løpe, det er noen som banker på døra. Hils Inga! Vi snakkes!", "de": "Super! Jetzt muss ich los, da klopft jemand an die Tür. Grüß Inga! Wir hören uns!" },
+      { "s": "i", "no": "Hvem var det du snakket med så lenge? Jeg hørte deg le helt ute i gangen.", "de": "Mit wem hast du denn so lange gesprochen? Ich habe dich bis draußen im Flur lachen hören." },
+      { "s": "s", "no": "Det var Anna. Hun sa at hun hadde det travelt på sykehuset, men at hun trivdes godt i Trondheim.", "de": "Das war Anna. Sie hat gesagt, sie habe im Krankenhaus viel zu tun, aber es gefalle ihr sehr gut in Trondheim." },
+      { "s": "i", "no": "Så bra! Fortalte hun noe mer?", "de": "Wie schön! Hat sie noch mehr erzählt?" },
+      { "s": "s", "no": "Hun fortalte at en pasient hadde spurt om hun var gammel nok til å være lege!", "de": "Sie hat erzählt, ein Patient habe sie gefragt, ob sie alt genug sei, um Ärztin zu sein!" },
+      { "s": "i", "no": "Kult! Spurte hun om Erik også?", "de": "Cool! Hat sie auch nach Erik gefragt?" },
+      { "s": "s", "no": "Ja, hun lurte på hva han hadde skrevet. Hun sa at jeg burde tenke meg godt om før jeg svarte ham.", "de": "Ja, sie wollte wissen, was er geschrieben hatte. Sie meinte, ich solle gut nachdenken, bevor ich ihm antworte." },
+      { "s": "i", "no": "Klok jente. Og påsken?", "de": "Kluges Mädchen. Und Ostern?" },
+      { "s": "s", "no": "Familien Nygård har invitert meg med på hytta i Gudbrandsdalen! Og Kari spurte om Matthias også ville bli med.", "de": "Die Familie Nygård hat mich auf ihre Hütte im Gudbrandsdal eingeladen! Und Kari hat gefragt, ob Matthias auch mitkommen möchte." },
+      { "s": "i", "no": "Aha! Så det er Matthias som skal på hyttetur, og ikke Erik? Da vet jeg hva du kommer til å svare.", "de": "Aha! Dann ist es also Matthias, der mit zur Hütte fährt, und nicht Erik? Dann weiß ich, was du antworten wirst." },
+      { "s": "s", "no": "Inga! Det er ikke det det handler om … Men kanskje du har litt rett.", "de": "Inga! Darum geht es doch gar nicht … Aber vielleicht hast du ein bisschen recht." }
+    ],
+    "glossary": [
+      { "no": "prate", "de": "plaudern, sich unterhalten" },
+      { "no": "fridag", "de": "freier Tag" },
+      { "no": "Nei da", "de": "ach nein, aber nein" },
+      { "no": "slaps", "de": "Schneematsch" },
+      { "no": "praksisen", "de": "das Praktikum" },
+      { "no": "St. Olavs hospital", "de": "Universitätsklinik in Trondheim" },
+      { "no": "kjempespennende", "de": "total spannend" },
+      { "no": "Det skjer", "de": "es passiert" },
+      { "no": "hver eneste dag", "de": "jeden einzelnen Tag" },
+      { "no": "veilederen", "de": "die Betreuerin, der Betreuer" },
+      { "no": "fornøyd med", "de": "zufrieden mit" },
+      { "no": "flink med pasientene", "de": "gut im Umgang mit den Patienten" },
+      { "no": "journalene", "de": "die Krankenakten" },
+      { "no": "barnelege", "de": "Kinderarzt, Kinderärztin" },
+      { "no": "Alt mulig", "de": "alles Mögliche" },
+      { "no": "lurte på", "de": "wollte wissen, fragte sich" },
+      { "no": "trøndersk", "de": "Trøndersk (Dialekt der Gegend um Trondheim)" },
+      { "no": "ment som et kompliment", "de": "als Kompliment gemeint" },
+      { "no": "fått være med", "de": "dabei sein dürfen" },
+      { "no": "overlegen", "de": "der Oberarzt" },
+      { "no": "se på", "de": "zuschauen" },
+      { "no": "høres litt sliten ut", "de": "klingst ein bisschen müde" },
+      { "no": "nesten ikke fått sove", "de": "kaum zum Schlafen gekommen" },
+      { "no": "fått vasket klær", "de": "es geschafft, Wäsche zu waschen" },
+      { "no": "en hel haug med skittentøy", "de": "ein ganzer Haufen Schmutzwäsche" },
+      { "no": "Stakkars deg!", "de": "Du Arme(r)!" },
+      { "no": "levert", "de": "abgegeben" },
+      { "no": "semesteroppgaven", "de": "die Semesterarbeit" },
+      { "no": "puste ut", "de": "durchatmen" },
+      { "no": "Det gjelder", "de": "es geht um" },
+      { "no": "Hurtigruta", "de": "die Hurtigruten (Postschiffroute an der Küste)" },
+      { "no": "rett og slett", "de": "einfach, schlicht und einfach" },
+      { "no": "Tenk deg godt om", "de": "Denk gut nach, überleg es dir gut" },
+      { "no": "Forresten", "de": "übrigens" },
+      { "no": "påskeuka", "de": "die Osterwoche" },
+      { "no": "sitte på", "de": "(im Auto) mitfahren" },
+      { "no": "Hils Inga!", "de": "Grüß Inga!" },
+      { "no": "Vi snakkes!", "de": "Wir hören uns! Bis bald!" },
+      { "no": "hadde det travelt", "de": "viel zu tun hatte" }
+    ]
+  },
+  "extra": [
+    {
+      "id": "x19a",
+      "title": "Trondheim og Nidarosdomen",
+      "titleDe": "Trondheim und der Nidarosdom",
+      "kind": "info",
+      "intro": "Trondheim ist die Stadt des heiligen Olav, der Studenten und des Nidarosdoms.",
+      "lines": [
+        { "no": "Trondheim er Norges tredje største by. Den ligger ved Trondheimsfjorden, der Nidelva renner ut i fjorden. Byen ble grunnlagt av vikingkongen Olav Tryggvason i 997, og i middelalderen het den Nidaros – «munningen av Nid». I lange perioder var byen et viktig sentrum for både konge og kirke.", "de": "Trondheim ist die drittgrößte Stadt Norwegens. Sie liegt am Trondheimsfjord, dort, wo der Fluss Nidelva in den Fjord mündet. Die Stadt wurde 997 vom Wikingerkönig Olav Tryggvason gegründet, und im Mittelalter hieß sie Nidaros – „Mündung der Nid“. Lange Zeit war die Stadt ein wichtiges Zentrum für König und Kirche." },
+        { "no": "Det mest kjente bygget i byen er Nidarosdomen. Den er bygget over graven til kong Olav Haraldsson, som falt i slaget på Stiklestad i 1030. Etter hans død begynte folk å fortelle om mirakler, og kongen ble kjent som Olav den hellige. I flere hundre år kom pilegrimer fra hele Nord-Europa for å besøke graven hans.", "de": "Das bekannteste Bauwerk der Stadt ist der Nidarosdom. Er wurde über dem Grab von König Olav Haraldsson errichtet, der 1030 in der Schlacht von Stiklestad fiel. Nach seinem Tod begannen die Leute, von Wundern zu erzählen, und der König wurde als Olav der Heilige bekannt. Mehrere hundert Jahre lang kamen Pilger aus ganz Nordeuropa, um sein Grab zu besuchen." },
+        { "no": "Byggingen av katedralen begynte rundt 1070. Nidarosdomen er verdens nordligste middelalderkatedral og en av de største middelalderbygningene i Norden. Mange kaller den Norges nasjonalhelligdom. Kirken har brent flere ganger, og i 1869 begynte en stor restaurering som varte i over hundre år. På den rikt dekorerte vestfronten står mange steinfigurer av personer fra Bibelen og fra norsk kirkehistorie.", "de": "Mit dem Bau der Kathedrale wurde um 1070 begonnen. Der Nidarosdom ist die nördlichste mittelalterliche Kathedrale der Welt und eines der größten mittelalterlichen Bauwerke Skandinaviens. Viele nennen ihn das Nationalheiligtum Norwegens. Die Kirche hat mehrmals gebrannt, und 1869 begann eine große Restaurierung, die über hundert Jahre dauerte. An der reich geschmückten Westfassade stehen viele Steinfiguren von Gestalten aus der Bibel und aus der norwegischen Kirchengeschichte." },
+        { "no": "Nidarosdomen er fortsatt viktig for kongehuset: Her ble kong Harald og dronning Sonja signet i 1991. Hvert år rundt olsok, 29. juli, arrangeres Olavsfestdagene med konserter, gudstjenester og marked. Fremdeles kommer mange pilegrimer til fots, for eksempel langs Gudbrandsdalsleden, som går fra Oslo gjennom hele Gudbrandsdalen til Trondheim.", "de": "Für das Königshaus ist der Nidarosdom bis heute wichtig: Hier wurden König Harald und Königin Sonja 1991 gesegnet. Jedes Jahr um Olsok, den 29. Juli, finden die Olavsfesttage mit Konzerten, Gottesdiensten und Markt statt. Noch immer kommen viele Pilger zu Fuß, zum Beispiel auf dem Gudbrandsdalsleden, der von Oslo durch das ganze Gudbrandsdal nach Trondheim führt." },
+        { "no": "Trondheim er også en ekte studentby. NTNU, Norges teknisk-naturvitenskapelige universitet, har mange tusen studenter. På Bakklandet finnes det koselige kafeer mellom gamle, fargerike trehus, og fra Gamle bybro ser man de kjente bryggene langs elva. Folk her snakker trøndersk, en dialekt med mange korte ord: «Æ e trønder» betyr «Jeg er trønder». Og skal du sykle opp den bratte bakken der, kan du prøve verdens første sykkelheis!", "de": "Trondheim ist auch eine echte Studentenstadt. Die NTNU, die Technisch-Naturwissenschaftliche Universität Norwegens, hat viele tausend Studierende. In Bakklandet gibt es gemütliche Cafés zwischen alten, bunten Holzhäusern, und von der Alten Stadtbrücke aus sieht man die bekannten Speicherhäuser am Fluss. Die Leute hier sprechen Trøndersk, einen Dialekt mit vielen kurzen Wörtern: „Æ e trønder“ bedeutet „Ich bin Trønder“. Und wenn du dort den steilen Hang hinaufradeln willst, kannst du den ersten Fahrradlift der Welt ausprobieren!" }
+      ],
+      "glossary": [
+        { "no": "tredje største", "de": "drittgrößte" },
+        { "no": "renner ut i", "de": "mündet in" },
+        { "no": "grunnlagt", "de": "gegründet" },
+        { "no": "middelalderen", "de": "das Mittelalter" },
+        { "no": "munningen", "de": "die Mündung" },
+        { "no": "bygget", "de": "das Gebäude, Bauwerk; (auch:) gebaut" },
+        { "no": "graven", "de": "das Grab" },
+        { "no": "falt i slaget", "de": "fiel in der Schlacht" },
+        { "no": "mirakler", "de": "Wunder" },
+        { "no": "Olav den hellige", "de": "Olav der Heilige" },
+        { "no": "pilegrimer", "de": "Pilger" },
+        { "no": "Byggingen", "de": "der Bau" },
+        { "no": "nordligste", "de": "nördlichste" },
+        { "no": "middelalderkatedral", "de": "mittelalterliche Kathedrale" },
+        { "no": "Norden", "de": "der Norden (Skandinavien und Finnland)" },
+        { "no": "nasjonalhelligdom", "de": "Nationalheiligtum" },
+        { "no": "har brent", "de": "hat gebrannt" },
+        { "no": "restaurering", "de": "Restaurierung" },
+        { "no": "rikt dekorerte", "de": "reich geschmückte" },
+        { "no": "vestfronten", "de": "die Westfassade" },
+        { "no": "steinfigurer", "de": "Steinfiguren" },
+        { "no": "kongehuset", "de": "das Königshaus" },
+        { "no": "signet", "de": "gesegnet (feierliche Segnung statt Krönung)" },
+        { "no": "olsok", "de": "Olavstag (29. Juli)" },
+        { "no": "arrangeres", "de": "wird veranstaltet" },
+        { "no": "gudstjenester", "de": "Gottesdienste" },
+        { "no": "til fots", "de": "zu Fuß" },
+        { "no": "Gudbrandsdalsleden", "de": "Pilgerweg durch das Gudbrandsdal" },
+        { "no": "fargerike", "de": "bunte, farbenfrohe" },
+        { "no": "Gamle bybro", "de": "die Alte Stadtbrücke" },
+        { "no": "bryggene", "de": "die Speicherhäuser am Wasser" },
+        { "no": "bakken", "de": "der Hang, die Steigung" },
+        { "no": "Æ e trønder", "de": "Ich bin Trønder (Dialekt: æ = jeg, e = er)" },
+        { "no": "sykkelheis", "de": "Fahrradlift" }
+      ]
+    }
+  ],
+  "wk": {
+    "title": "I telefonen",
+    "titleDe": "Am Telefon",
+    "phrases": [
+      { "no": "Hallo, det er Susanne.", "de": "Hallo, hier ist Susanne.", "note": "Am Telefon sagt man „det er …“, nicht „jeg er …“." },
+      { "no": "Hvem snakker jeg med?", "de": "Mit wem spreche ich?" },
+      { "no": "Kan jeg få snakke med Anna?", "de": "Kann ich bitte Anna sprechen?" },
+      { "no": "Et øyeblikk, så skal jeg hente henne.", "de": "Einen Moment, ich hole sie." },
+      { "no": "Hun er ikke her akkurat nå.", "de": "Sie ist gerade nicht da." },
+      { "no": "Vil du legge igjen en beskjed?", "de": "Möchtest du eine Nachricht hinterlassen?" },
+      { "no": "Kan du be henne ringe meg tilbake?", "de": "Kannst du ihr sagen, dass sie mich zurückrufen soll?" },
+      { "no": "Beklager, du har slått feil nummer.", "de": "Tut mir leid, du hast dich verwählt." },
+      { "no": "Det er opptatt.", "de": "Es ist besetzt." },
+      { "no": "Jeg hører deg veldig dårlig.", "de": "Ich höre dich sehr schlecht." },
+      { "no": "Jeg har nesten ikke dekning her.", "de": "Ich habe hier kaum Empfang." },
+      { "no": "Samtalen ble brutt.", "de": "Das Gespräch ist abgebrochen." },
+      { "no": "Jeg ringer deg opp igjen om fem minutter.", "de": "Ich rufe dich in fünf Minuten noch einmal an." },
+      { "no": "Batteriet mitt er nesten tomt.", "de": "Mein Akku ist fast leer." },
+      { "no": "Legg igjen en beskjed etter pipetonen.", "de": "Hinterlass eine Nachricht nach dem Signalton.", "note": "So klingt die Ansage auf vielen Anrufbeantwortern." },
+      { "no": "Kan du sende meg en melding?", "de": "Kannst du mir eine Nachricht schicken?", "note": "melding = SMS oder Chatnachricht; man sagt auch „sende en sms“." },
+      { "no": "Skal vi ta en videosamtale?", "de": "Sollen wir videotelefonieren?" },
+      { "no": "Takk for praten!", "de": "Danke fürs Gespräch!", "note": "Typischer Abschluss eines privaten Telefonats." },
+      { "no": "Hils Inga fra meg!", "de": "Grüß Inga von mir!" },
+      { "no": "Vi snakkes!", "de": "Wir hören uns! Bis bald!", "note": "Ein s-Verb mit der Bedeutung „einander“ – mehr dazu in Lektion 21." }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g19_indirekte_tale",
+      "title": "Die indirekte Rede",
+      "titleNo": "indirekte tale",
+      "summary": "Was jemand gesagt oder gefragt hat, gibst du mit at, om oder einem Fragewort wieder – ohne Konjunktiv und ohne Verb am Satzende.",
+      "sections": [
+        {
+          "h": "Aussagen mit at",
+          "body": "Eine Aussage wird mit **at** (dass) wiedergegeben. Pronomen und Orts- oder Zeitangaben passen sich an, wie im Deutschen:\n\n• **Anna: «Jeg er sliten.»** → **Anna sier at hun er sliten.**\n• **Erik: «Jeg kommer til Tromsø.»** → **Erik skriver at han kommer til Tromsø.**\n\nDer at-Satz ist ein ganz normaler Nebensatz: Subjekt – Verb – Rest. Das Verb wandert **nie** ans Ende: **…at hun trives i Trondheim** (nicht *at hun i Trondheim trives).\n\nIn der gesprochenen Sprache fällt **at** oft weg: **Hun sier (at) hun kommer.**"
+        },
+        {
+          "h": "Fragen mit om oder Fragewort",
+          "body": "Ja/Nein-Fragen werden mit **om** (ob) eingeleitet, W-Fragen behalten ihr Fragewort. Im Nebensatz gibt es **keine Inversion**:\n\n• **«Kommer du?»** → **Hun spør om jeg kommer.**\n• **«Hvor bor du?»** → **Hun spør hvor jeg bor.** (nicht *hvor bor jeg)\n\nIst das Fragewort selbst das Subjekt, kommt **som** dazu:\n\n• **«Hvem kommer?»** → **Hun spør hvem som kommer.**\n• **«Hva skjedde?»** → **Han lurer på hva som skjedde.**\n\nSehr häufig ist **lure på** (sich fragen, wissen wollen): **Hun lurte på om jeg ville være med.**",
+          "table": [
+            ["direkte Rede", "indirekte Rede"],
+            ["«Jeg er syk.»", "Han sier at han er syk."],
+            ["«Er du syk?»", "Hun spør om jeg er syk."],
+            ["«Hvor er du?»", "Hun spør hvor jeg er."],
+            ["«Hvem ringte?»", "Hun spør hvem som ringte."]
+          ]
+        },
+        {
+          "h": "Zeitverschiebung, ikke – und kein Konjunktiv",
+          "body": "Steht das einleitende Verb in der Vergangenheit (**sa, spurte, skrev, fortalte, lurte på**), rückt die Zeit meist eine Stufe zurück:\n\n• Präsens → Präteritum: **«Jeg er syk.»** → **Han sa at han var syk.**\n• Präteritum/Perfekt → Plusquamperfekt: **«Jeg har ringt.»** → **Hun sa at hun hadde ringt.**\n• **skal / vil / kan / må** → **skulle / ville / kunne / måtte**: **Han skrev at han skulle komme.**\n\nWas immer noch gilt, darf im Präsens bleiben: **Hun sa at hun ikke snakker trøndersk.**\n\nEinen Konjunktiv wie im Deutschen (er sei, er habe, er komme) gibt es nicht – die normale Zeitform genügt.\n\nSatzadverbien wie **ikke, aldri, alltid, også** stehen im Nebensatz **vor** dem Verb: **Hun sa at hun ikke kunne komme.** **Han skrev at han aldri hadde glemt meg.**",
+          "table": [
+            ["direkt gesagt", "wiedergegeben nach sa/spurte"],
+            ["er, kommer", "var, kom"],
+            ["har ringt, ringte", "hadde ringt"],
+            ["skal, vil, kan, må", "skulle, ville, kunne, måtte"]
+          ]
+        }
+      ],
+      "drills": [
+        { "prompt": "Anna sier ___ hun trives i Trondheim.", "de": "Anna sagt, dass es ihr in Trondheim gefällt.", "answer": ["at"], "explain": "Eine Aussage wird mit at (dass) eingeleitet." },
+        { "prompt": "Inga spør ___ Susanne vil ha en kopp te.", "de": "Inga fragt, ob Susanne eine Tasse Tee möchte.", "answer": ["om"], "explain": "Eine Ja/Nein-Frage wird mit om (ob) wiedergegeben." },
+        { "prompt": "Anna lurte på ___ Erik hadde skrevet. (was)", "de": "Anna wollte wissen, was Erik geschrieben hatte.", "answer": ["hva"], "explain": "W-Fragen behalten ihr Fragewort: hva = was." },
+        { "prompt": "Kari spør hvem ___ vil være med på hytta.", "de": "Kari fragt, wer mit zur Hütte kommen will.", "answer": ["som"], "explain": "Ist das Fragewort (hvem) selbst Subjekt, braucht die indirekte Frage som." },
+        { "prompt": "«Jeg er sliten.» – Anna sa at hun ___ sliten. (være)", "de": "„Ich bin müde.“ – Anna sagte, sie sei müde.", "answer": ["var"], "explain": "Nach sa rückt das Präsens ins Präteritum: er → var." },
+        { "prompt": "«Jeg har ikke sovet.» – Hun sa at hun ___ sovet. (ikke, ha)", "de": "„Ich habe nicht geschlafen.“ – Sie sagte, sie habe nicht geschlafen.", "answer": ["ikke hadde"], "explain": "Perfekt wird zu Plusquamperfekt (hadde sovet), und ikke steht im Nebensatz vor dem Verb." },
+        { "prompt": "«Jeg skal ringe deg.» – Erik skrev at han ___ ringe meg. (skal)", "de": "„Ich werde dich anrufen.“ – Erik schrieb, er werde mich anrufen.", "answer": ["skulle"], "explain": "Nach einem Verb in der Vergangenheit wird skal zu skulle." },
+        { "prompt": "«Kan du komme i påsken?» – Kari spurte om jeg ___ komme i påsken. (kan)", "de": "„Kannst du an Ostern kommen?“ – Kari fragte, ob ich an Ostern kommen könne.", "answer": ["kunne"], "explain": "kan wird nach spurte zu kunne." },
+        { "prompt": "«Er du sulten?» – Matthias spurte om jeg ___ sulten. (være)", "de": "„Hast du Hunger?“ – Matthias fragte, ob ich Hunger hätte.", "answer": ["var"], "explain": "Präsens → Präteritum nach spurte; om leitet die Ja/Nein-Frage ein." },
+        { "prompt": "«Hvor bor du?» – Damen spurte hvor ___. (jeg, bo)", "de": "„Wo wohnst du?“ – Die Dame fragte, wo ich wohne.", "answer": ["jeg bodde", "jeg bor"], "explain": "Keine Inversion im Nebensatz: hvor jeg bodde (nicht hvor bodde jeg). Da es noch gilt, ist auch „jeg bor“ möglich." },
+        { "prompt": "«Hvorfor svarer du ikke?» – Erik spurte hvorfor jeg ___ svarte.", "de": "„Warum antwortest du nicht?“ – Erik fragte, warum ich nicht antwortete.", "answer": ["ikke"], "explain": "ikke steht im Nebensatz vor dem Verb." },
+        { "prompt": "«Når går toget?» – Susanne spurte ___ toget gikk. (wann)", "de": "„Wann fährt der Zug?“ – Susanne fragte, wann der Zug fährt.", "answer": ["når"], "explain": "Das Fragewort når bleibt in der indirekten Frage erhalten." }
+      ]
+    },
+    {
+      "id": "g19_faa",
+      "title": "få als Hilfsverb",
+      "titleNo": "få som hjelpeverb",
+      "summary": "få + Partizip heißt „etwas schaffen, erledigt bekommen“, få + Infinitiv heißt „dürfen“, få vite heißt „erfahren“.",
+      "sections": [
+        {
+          "h": "få + Partizip: etwas schaffen",
+          "body": "**få** + Partizip Perfekt bedeutet, dass man etwas (endlich) erledigt bekommt – oder eben nicht dazu kommt:\n\n• **Jeg fikk endelig levert oppgaven.** (Ich habe die Arbeit endlich abgegeben.)\n• **Anna har ikke fått vasket klær på to uker.** (Anna ist seit zwei Wochen nicht dazu gekommen, Wäsche zu waschen.)\n• **Du må få gjort leksene før kampen!** (Du musst die Hausaufgaben vor dem Spiel erledigen!)\n\nBesonders oft verneint: **Jeg fikk ikke sagt ha det.** (Ich kam nicht mehr dazu, mich zu verabschieden.) Das Partizip bleibt unverändert: **fikk vasket, fikk gjort, fikk skrevet**."
+        },
+        {
+          "h": "få + Infinitiv: dürfen",
+          "body": "**få** + Infinitiv **ohne å** bedeutet „dürfen, die Erlaubnis oder Gelegenheit bekommen“:\n\n• **Anna fikk være med på en operasjon.** (Anna durfte bei einer Operation dabei sein.)\n• **Får jeg låne telefonen din?** (Darf ich dein Telefon leihen?)\n• **Barna fikk ikke gå ut.** (Die Kinder durften nicht hinaus.)\n\nMit **lov til** steht **å**: **Hun fikk lov til å se på.** (Sie durfte zuschauen.)\n\nVorsicht: **Jeg fikk ikke sove** heißt „Ich konnte nicht schlafen“ – mit „bekommen“ hat das nichts zu tun."
+        },
+        {
+          "h": "få vite, få høre, få se",
+          "body": "Einige Verbindungen lernst du am besten als Ganzes:\n\n• **få vite** = erfahren: **Jeg fikk vite i dag at jeg har fri.** **Hvordan fikk du vite det?**\n• **få høre** = zu hören bekommen: **Det fikk han høre!** (Das musste er sich anhören!)\n• **få se** = zu sehen bekommen: **Det får vi se!** (Das werden wir sehen!)\n\nZur Erinnerung die Formen: **få – får – fikk – har fått**.",
+          "table": [
+            ["Bau", "Bedeutung", "Beispiel"],
+            ["få + Partizip", "schaffen, erledigt bekommen", "Jeg fikk ikke gjort leksene."],
+            ["få + Infinitiv", "dürfen", "Får jeg låne bilen?"],
+            ["få lov til å + Infinitiv", "die Erlaubnis bekommen", "Hun fikk lov til å se på."],
+            ["få vite", "erfahren", "Jeg fikk vite det i går."]
+          ]
+        }
+      ],
+      "drills": [
+        { "prompt": "Jeg ___ endelig levert semesteroppgaven i går. (få)", "de": "Gestern habe ich endlich meine Semesterarbeit abgegeben.", "answer": ["fikk"], "explain": "Präteritum von få ist fikk; få + Partizip = etwas erledigt bekommen." },
+        { "prompt": "Anna har ikke fått ___ klær på to uker. (vaske)", "de": "Anna ist seit zwei Wochen nicht dazu gekommen, Wäsche zu waschen.", "answer": ["vasket", "vaska"], "explain": "Nach fått steht hier das Partizip: vasket." },
+        { "prompt": "___ jeg låne telefonen din? Batteriet mitt er tomt. (få, presens)", "de": "Darf ich dein Telefon leihen? Mein Akku ist leer.", "answer": ["Får"], "explain": "få + Infinitiv = dürfen; die höfliche Frage beginnt mit dem Verb." },
+        { "prompt": "I går fikk Anna ___ med på en operasjon. (være)", "de": "Gestern durfte Anna bei einer Operation dabei sein.", "answer": ["være"], "explain": "få + Infinitiv ohne å = dürfen." },
+        { "prompt": "Hvordan fikk du ___ at Erik hadde skrevet? (erfahren)", "de": "Wie hast du erfahren, dass Erik geschrieben hatte?", "answer": ["vite"], "explain": "få vite = erfahren." },
+        { "prompt": "Ola fikk ikke ___ leksene sine før kampen. (gjøre)", "de": "Ola kam vor dem Spiel nicht dazu, seine Hausaufgaben zu machen.", "answer": ["gjort"], "explain": "få + Partizip: fikk ikke gjort = kam nicht dazu, es zu machen." },
+        { "prompt": "Anna fikk lov ___ å se på operasjonen.", "de": "Anna durfte bei der Operation zuschauen.", "answer": ["til"], "explain": "Die feste Wendung heißt få lov til å + Infinitiv." },
+        { "prompt": "Vi har ikke ___ takket for invitasjonen ennå. (få)", "de": "Wir sind noch nicht dazu gekommen, uns für die Einladung zu bedanken.", "answer": ["fått"], "explain": "Perfekt von få: har fått; dann das Partizip takket." },
+        { "prompt": "Matthias fikk ikke ___ billetten før fredag. (bestille)", "de": "Matthias kam erst am Freitag dazu, das Ticket zu buchen.", "answer": ["bestilt"], "explain": "få + Partizip: fikk bestilt = schaffte es zu buchen." },
+        { "prompt": "Barna ___ ikke gå ut i snøstormen. (få, preteritum)", "de": "Die Kinder durften im Schneesturm nicht hinausgehen.", "answer": ["fikk"], "explain": "få + Infinitiv = dürfen; Präteritum fikk." },
+        { "prompt": "Kommer Erik til Tromsø? Det ___ vi se! (få, presens)", "de": "Kommt Erik nach Tromsø? Das werden wir sehen!", "answer": ["får"], "explain": "Det får vi se = Das werden wir sehen." }
+      ]
+    },
+    {
+      "id": "g19_presentering",
+      "title": "Präsentierende Sätze mit det",
+      "titleNo": "presentering",
+      "summary": "Mit det + Verb + unbestimmtem Subjekt führst du etwas Neues ein: Det står en mann ved døra.",
+      "sections": [
+        {
+          "h": "Der Bau",
+          "body": "Wird etwas Neues, noch Unbekanntes eingeführt, beginnt der Satz gern mit **det** als formalem Subjekt. Das eigentliche Subjekt steht **unbestimmt** hinter dem Verb:\n\n• **Det står en mann ved døra.** (Da steht ein Mann an der Tür.)\n• **Det bor mange studenter i Trondheim.** (In Trondheim wohnen viele Studenten.)\n• **Det kommer et brev i morgen.** (Morgen kommt ein Brief.)\n\n**En mann står ved døra** ist nicht falsch, klingt aber wie aus einer Erzählung. Mit bestimmten, bekannten Subjekten geht der Bau nicht: **Anna står ved døra** (nicht *Det står Anna ved døra)."
+        },
+        {
+          "h": "Typische Verben",
+          "body": "Meist sind es Verben des Daseins, der Lage oder der Bewegung: **være, finnes, stå, sitte, ligge, bo, komme, gå, skje, mangle, henge**.\n\n• **Det ligger en haug med skittentøy på gulvet.**\n• **Det skjer noe nytt hver dag.**\n• **Det finnes mange koselige kafeer på Bakklandet.**\n• **Det mangler to stoler.**\n\n**Det er** und **det finnes** entsprechen oft dem deutschen „es gibt“: **Det er mye snø i år.** (Dieses Jahr gibt es viel Schnee.)"
+        },
+        {
+          "h": "Wortstellung: det bleibt!",
+          "body": "**det** verhält sich wie jedes andere Subjekt. Bei Inversion steht es direkt hinter dem Verb:\n\n• **I går kom det et brev fra Erik.** (Gestern kam ein Brief von Erik.)\n• **På hytta er det ikke innlagt vann.** (In der Hütte gibt es kein fließendes Wasser.)\n\nIm Deutschen fällt „es“ bei Inversion weg (Gestern kam ein Brief) – im Norwegischen muss **det** stehen bleiben! Satzadverbien stehen wie gewohnt: **Det bor ikke mange folk her.** Im Nebensatz: **…fordi det ikke er plass til flere.**"
+        }
+      ],
+      "drills": [
+        { "prompt": "___ står en mann ved døra.", "de": "Da steht ein Mann an der Tür.", "answer": ["Det"], "explain": "det als formales Subjekt führt etwas Neues ein." },
+        { "prompt": "I Trondheim bor ___ mange studenter.", "de": "In Trondheim wohnen viele Studenten.", "answer": ["det"], "explain": "Bei Inversion steht det hinter dem Verb – es darf nicht wegfallen." },
+        { "prompt": "I går kom ___ et brev fra Erik.", "de": "Gestern kam ein Brief von Erik.", "answer": ["det"], "explain": "Anders als im Deutschen bleibt det auch bei Inversion stehen." },
+        { "prompt": "Det ligger ___ haug med skittentøy på gulvet.", "de": "Auf dem Boden liegt ein Haufen Schmutzwäsche.", "answer": ["en"], "explain": "Das Subjekt im präsentierenden Satz ist unbestimmt: en haug." },
+        { "prompt": "Det ___ mange koselige kafeer på Bakklandet. (geben)", "de": "In Bakklandet gibt es viele gemütliche Cafés.", "answer": ["finnes", "er"], "explain": "„es gibt“ = det finnes oder det er." },
+        { "prompt": "På hytta ___ det ikke innlagt vann. (være)", "de": "In der Hütte gibt es kein fließendes Wasser.", "answer": ["er"], "explain": "Inversion nach På hytta: Verb – det – ikke." },
+        { "prompt": "Det bor ___ mange folk i denne dalen. (nicht)", "de": "In diesem Tal wohnen nicht viele Leute.", "answer": ["ikke"], "explain": "ikke steht im Hauptsatz direkt nach dem Verb." },
+        { "prompt": "Anna sier at ___ ikke er plass til flere i bilen.", "de": "Anna sagt, dass im Auto kein Platz mehr ist.", "answer": ["det"], "explain": "Auch im Nebensatz braucht der Satz det als Subjekt." },
+        { "prompt": "Det skjedde ___ rart på sykehuset i går. (etwas)", "de": "Gestern ist im Krankenhaus etwas Seltsames passiert.", "answer": ["noe"], "explain": "Das echte Subjekt ist unbestimmt: noe rart." },
+        { "prompt": "I natt ___ det en halv meter snø i Tromsø. (falle, preteritum)", "de": "Letzte Nacht ist in Tromsø ein halber Meter Schnee gefallen.", "answer": ["falt"], "explain": "falle – falt; nach I natt folgt Inversion: falt det." },
+        { "prompt": "Det ___ to stoler, så Ola må sitte på gulvet. (mangle, presens)", "de": "Es fehlen zwei Stühle, also muss Ola auf dem Boden sitzen.", "answer": ["mangler"], "explain": "Det mangler … = Es fehlt / Es fehlen …" }
+      ]
+    },
+    {
+      "id": "g19_utbrytning",
+      "title": "Spaltsätze",
+      "titleNo": "utbrytning",
+      "summary": "Mit Det er/var … som … hebst du einen Satzteil hervor: Det var Anna som ringte.",
+      "sections": [
+        {
+          "h": "Der Bau",
+          "body": "Um einen Satzteil zu betonen, „bricht“ man ihn aus dem Satz heraus und stellt ihn in den Rahmen **det er/var … som …**:\n\n• **Anna ringte.** → **Det var Anna som ringte.** (Anna war es, die angerufen hat.)\n• **Matthias blir med.** → **Det er Matthias som blir med, ikke Erik.**\n\n**er** oder **var** richtet sich nach der Zeit des restlichen Satzes. Im Deutschen betont man oft nur mit der Stimme („ANNA hat angerufen“) – im Norwegischen ist der Spaltsatz dafür das normale Mittel, auch in der gesprochenen Sprache."
+        },
+        {
+          "h": "Was kann man hervorheben?",
+          "body": "• Subjekt – **som** ist Pflicht: **Det var overlegen som spurte.**\n• Objekt – **som** kann wegfallen: **Det var påsken (som) jeg ringte om.**\n• Zeit und Ort – meist ohne Bindewort: **Det er i påsken vi skal på hytta.** **Det var i Trondheim hun bodde.**\n\nEine Präposition bleibt am Ende stehen, wie im Relativsatz: **Det var påsken jeg ringte om.** (Ich habe wegen Ostern angerufen.)\n\nVerneint: **Det er ikke det det handler om.** (Darum geht es nicht.)"
+        },
+        {
+          "h": "In Fragen",
+          "body": "In Fragen ist der Spaltsatz sehr häufig und oft kaum betont – er klingt einfach natürlich:\n\n• **Hvem er det som har spist kaka?** (Wer hat den Kuchen gegessen?)\n• **Hva er det som skjer?** (Was ist los?)\n• **Hvem var det du snakket med?** (Mit wem hast du gesprochen?)\n• **Hvor er det du bor nå?** (Wo wohnst du jetzt?)\n\nIst das Fragewort Subjekt, braucht man **som** (**Hvem er det som ringer?**), sonst nicht (**Hva er det du vil?**)."
+        }
+      ],
+      "drills": [
+        { "prompt": "Det var Anna ___ ringte i går.", "de": "Anna war es, die gestern angerufen hat.", "answer": ["som"], "explain": "Wird das Subjekt hervorgehoben, ist som Pflicht." },
+        { "prompt": "Hvem er det ___ har spist kaka?", "de": "Wer hat den Kuchen gegessen?", "answer": ["som"], "explain": "hvem ist hier Subjekt – deshalb som." },
+        { "prompt": "Det ___ i påsken vi skal på hytta. (være, presens)", "de": "An Ostern fahren wir zur Hütte.", "answer": ["er"], "explain": "Der Rest steht im Präsens (skal), also det er." },
+        { "prompt": "Det ___ Erik som skrev til Susanne i forrige uke. (være)", "de": "Erik war es, der Susanne letzte Woche geschrieben hat.", "answer": ["var"], "explain": "Der Rest steht in der Vergangenheit (skrev), also det var." },
+        { "prompt": "Det er ikke jeg ___ bestemmer det.", "de": "Ich bin es nicht, die das bestimmt.", "answer": ["som"], "explain": "Hervorgehobenes Subjekt (jeg) → som." },
+        { "prompt": "Inga laget middag. – ___ var Inga som laget middag.", "de": "Inga hat das Abendessen gekocht. – Inga war es, die gekocht hat.", "answer": ["Det"], "explain": "Der Spaltsatz beginnt immer mit Det er/var." },
+        { "prompt": "Det var påsken jeg ringte ___. (wegen)", "de": "Ich habe wegen Ostern angerufen.", "answer": ["om"], "explain": "ringe om noe – die Präposition bleibt am Satzende." },
+        { "prompt": "Hvem var det du snakket ___ så lenge?", "de": "Mit wem hast du so lange gesprochen?", "answer": ["med"], "explain": "snakke med noen – die Präposition steht am Ende." },
+        { "prompt": "Hva er det ___ skjer her?", "de": "Was ist hier los?", "answer": ["som"], "explain": "hva ist Subjekt von skjer – deshalb som." },
+        { "prompt": "Hvor er ___ du bor nå?", "de": "Wo wohnst du jetzt?", "answer": ["det"], "explain": "Spaltsatz in der Frage: Hvor er det …?" },
+        { "prompt": "Det ___ Kari som inviterte Matthias. (være)", "de": "Kari war es, die Matthias eingeladen hat.", "answer": ["var"], "explain": "inviterte steht im Präteritum, also det var." }
+      ]
+    }
+  ],
+  "tf": [
+    { "s": "Anna ringer fordi hun endelig har en fridag.", "de": "Anna ruft an, weil sie endlich einen freien Tag hat.", "a": true, "why": "Anna sagt: „Jeg har endelig en fridag.“" },
+    { "s": "Det ligger mye snø i Trondheim.", "de": "In Trondheim liegt viel Schnee.", "a": false, "why": "In Trondheim gibt es vor allem Schneematsch und Regen." },
+    { "s": "Veilederen sa at Anna var flink med pasientene.", "de": "Die Betreuerin sagte, Anna könne gut mit den Patienten umgehen.", "a": true, "why": "Das hat die Betreuerin gestern gesagt – aber Anna soll die Krankenakten schneller schreiben." },
+    { "s": "En pasient syntes at Anna var for gammel til å være lege.", "de": "Ein Patient fand, Anna sei zu alt, um Ärztin zu sein.", "a": false, "why": "Ein älterer Mann fragte, ob sie alt genug sei – er fand sie also eher zu jung." },
+    { "s": "Anna har ikke fått vasket klær på to uker.", "de": "Anna ist seit zwei Wochen nicht zum Wäschewaschen gekommen.", "a": true, "why": "Auf dem Boden liegt ein ganzer Haufen Schmutzwäsche." },
+    { "s": "Erik har skrevet til Susanne hver uke siden november.", "de": "Erik hat Susanne seit November jede Woche geschrieben.", "a": false, "why": "Er hat drei Monate lang kein einziges Wort geschrieben." },
+    { "s": "Kari spurte om Matthias også ville være med på hytta.", "de": "Kari hat gefragt, ob Matthias auch mit zur Hütte kommen möchte.", "a": true, "why": "Anna erzählt, dass ihre Mutter nach Matthias gefragt hat." },
+    { "s": "Susanne og Anna skal kjøre bil fra Trondheim til hytta.", "de": "Susanne und Anna fahren mit dem Auto von Trondheim zur Hütte.", "a": false, "why": "Sie wollen zusammen mit dem Zug durchs Gudbrandsdal fahren." }
+  ],
+  "questions": [
+    { "q": "Hvor har Anna praksis?", "qDe": "Wo macht Anna ihr Praktikum?", "answer": "Hun har praksis på St. Olavs hospital i Trondheim.", "answerDe": "Sie macht ihr Praktikum im St. Olavs Hospital in Trondheim.", "keywords": [["hospital", "sykehus", "sykehuset"], ["Trondheim"]] },
+    { "q": "Hva fikk Anna være med på i går?", "qDe": "Wobei durfte Anna gestern dabei sein?", "answer": "Hun fikk være med på en operasjon for første gang.", "answerDe": "Sie durfte zum ersten Mal bei einer Operation dabei sein.", "keywords": [["operasjon", "operasjonen"]] },
+    { "q": "Hva skrev Erik til Susanne?", "qDe": "Was hat Erik Susanne geschrieben?", "answer": "Han skrev at han hadde tenkt mye på henne, og lurte på om de kunne ta en kaffe sammen.", "answerDe": "Er schrieb, dass er viel an sie gedacht habe, und wollte wissen, ob sie zusammen einen Kaffee trinken könnten.", "keywords": [["tenkt", "tenke", "tenkte"], ["kaffe"]] },
+    { "q": "Hvorfor ringte Anna egentlig?", "qDe": "Warum hat Anna eigentlich angerufen?", "answer": "Hun ringte for å invitere Susanne med på hytta i påsken.", "answerDe": "Sie rief an, um Susanne über Ostern auf die Hütte einzuladen.", "keywords": [["påsken", "påske"], ["hytta", "hytte", "hyttetur"]] },
+    { "q": "Hvordan skal Susanne og Anna reise til hytta?", "qDe": "Wie wollen Susanne und Anna zur Hütte reisen?", "answer": "Susanne flyr til Trondheim, og så tar de toget sammen gjennom Gudbrandsdalen.", "answerDe": "Susanne fliegt nach Trondheim, und dann fahren sie zusammen mit dem Zug durchs Gudbrandsdal.", "keywords": [["toget", "tog"], ["Trondheim", "Gudbrandsdalen"]] },
+    { "q": "Hva tror Inga at Susanne kommer til å svare Erik?", "qDe": "Was glaubt Inga, wird Susanne Erik antworten?", "answer": "Hun tror at Susanne kommer til å si nei, fordi det er Matthias som skal på hyttetur.", "answerDe": "Sie glaubt, dass Susanne Nein sagen wird, weil Matthias mit zur Hütte fährt.", "keywords": [["nei"], ["Matthias"]] }
+  ],
+  "find": [
+    { "de": "ein freier Tag", "answer": ["en fridag"] },
+    { "de": "Schneematsch", "answer": ["slaps"] },
+    { "de": "jeden einzelnen Tag", "answer": ["hver eneste dag"] },
+    { "de": "Kinderärztin", "answer": ["barnelege"] },
+    { "de": "der Oberarzt", "answer": ["overlegen"] },
+    { "de": "Schmutzwäsche", "answer": ["skittentøy"] },
+    { "de": "übrigens", "answer": ["Forresten"] },
+    { "de": "(im Auto) mitfahren", "answer": ["sitte på"] }
+  ],
+  "translate": [
+    { "de": "Anna sagte, dass sie keine Zeit habe.", "no": ["Anna sa at hun ikke hadde tid.", "Anna sa at hun ikke hadde noe tid."], "hint": "Nach sa: Präteritum; ikke vor das Verb." },
+    { "de": "Kari fragt, ob Matthias auch mitkommen will.", "no": ["Kari spør om Matthias også vil bli med.", "Kari spør om Matthias vil bli med også.", "Kari lurer på om Matthias også vil bli med."] },
+    { "de": "Er fragte, wer angerufen hatte.", "no": ["Han spurte hvem som hadde ringt."], "hint": "hvem ist Subjekt – denk an som." },
+    { "de": "Ich bin nicht dazu gekommen, Wäsche zu waschen.", "no": ["Jeg fikk ikke vasket klær.", "Jeg har ikke fått vasket klær.", "Jeg fikk ikke vasket klærne.", "Jeg har ikke fått vasket klærne."], "hint": "få + Partizip" },
+    { "de": "Darf ich dein Telefon leihen?", "no": ["Får jeg låne telefonen din?", "Kan jeg få låne telefonen din?"] },
+    { "de": "Wie hast du das erfahren?", "no": ["Hvordan fikk du vite det?", "Hvordan har du fått vite det?"] },
+    { "de": "Vor der Tür steht ein Mann.", "no": ["Det står en mann utenfor døra.", "Utenfor døra står det en mann.", "Det står en mann utenfor døren.", "Utenfor døren står det en mann."], "hint": "präsentierender Satz mit det" },
+    { "de": "In Trondheim wohnen viele Studenten.", "no": ["Det bor mange studenter i Trondheim.", "I Trondheim bor det mange studenter."] },
+    { "de": "Matthias war es, der angerufen hat.", "no": ["Det var Matthias som ringte.", "Det var Matthias som hadde ringt."] },
+    { "de": "Mit wem hast du gesprochen?", "no": ["Hvem var det du snakket med?", "Hvem var det du snakka med?", "Hvem er det du har snakket med?", "Hvem snakket du med?"], "hint": "am natürlichsten als Spaltsatz" }
+  ],
+  "summary": [
+    { "prompt": "Anna ringer til Susanne fra ___, der hun har praksis på et sykehus.", "de": "Anna ruft Susanne aus Trondheim an, wo sie ein Praktikum in einem Krankenhaus macht.", "answer": ["Trondheim"] },
+    { "prompt": "Veilederen sa at Anna ___ flink med pasientene.", "de": "Die Betreuerin sagte, Anna könne gut mit den Patienten umgehen.", "answer": ["var"] },
+    { "prompt": "I går fikk Anna være med på en ___ for første gang.", "de": "Gestern durfte Anna zum ersten Mal bei einer Operation dabei sein.", "answer": ["operasjon"] },
+    { "prompt": "Erik har skrevet og lurer på om de kan ta en ___ sammen.", "de": "Erik hat geschrieben und will wissen, ob sie zusammen einen Kaffee trinken können.", "answer": ["kaffe"] },
+    { "prompt": "Familien Nygård har invitert Susanne med på ___ i påsken.", "de": "Die Familie Nygård hat Susanne über Ostern auf die Hütte eingeladen.", "answer": ["hytta", "hytten"] },
+    { "prompt": "Etterpå forteller Susanne ___ om samtalen.", "de": "Danach erzählt Susanne Inga von dem Gespräch.", "answer": ["Inga"] }
+  ],
+  "dictation": [9, 18, 24, 29],
+  "writing": {
+    "prompt": "Deine Freundin Elin aus Göteborg hat dich angerufen, aber deine Mitbewohnerin Inga war nicht da. Schreib Inga eine Nachricht: Was hat Elin erzählt und gefragt? Gib es in indirekter Rede wieder (sa at …, spurte om …, lurte på …) und erwähne auch die Osterpläne.",
+    "minWords": 120,
+    "useWords": ["sa at", "spurte om", "lurte på", "fikk"],
+    "checklist": [
+      { "de": "Aussagen mit at wiedergegeben", "keywords": ["sa at", "fortalte at"] },
+      { "de": "Fragen mit om oder Fragewort wiedergegeben", "keywords": ["spurte om", "lurte på"] },
+      { "de": "Osterpläne erwähnt", "keywords": ["påsken", "påske"] }
+    ],
+    "model": "Hei Inga!\nElin ringte meg nettopp fra Göteborg. Hun sa at hun hadde fått en ny jobb i et forlag, og at hun skulle begynne allerede i april. Hun fortalte også at hun hadde flyttet til en mindre leilighet i sentrum, fordi den gamle var altfor dyr. Så spurte hun om vi hadde noen planer for påsken. Jeg sa at jeg skulle på hytta med familien Nygård, men at jeg ikke visste hva du skulle gjøre. Hun lurte på om hun kunne besøke oss en helg i juni. Hun har aldri sett midnattssola, og det er det hun drømmer om! Jeg fikk ikke spurt hvor lenge hun ville bli, for samtalen ble brutt. Hun hilste så mye til deg og sa at hun gledet seg til å bli kjent med deg. Kan du ringe henne i kveld?\nKlem fra Susanne",
+    "modelDe": "Hallo Inga!\nElin hat mich gerade aus Göteborg angerufen. Sie hat gesagt, sie habe eine neue Stelle in einem Verlag bekommen und fange schon im April an. Sie hat auch erzählt, dass sie in eine kleinere Wohnung im Zentrum gezogen sei, weil die alte viel zu teuer war. Dann hat sie gefragt, ob wir schon Pläne für Ostern hätten. Ich habe gesagt, dass ich mit der Familie Nygård auf die Hütte fahre, aber nicht wisse, was du vorhast. Sie wollte wissen, ob sie uns an einem Wochenende im Juni besuchen könne. Sie hat noch nie die Mitternachtssonne gesehen, und genau davon träumt sie! Ich bin nicht mehr dazu gekommen zu fragen, wie lange sie bleiben will, denn das Gespräch ist abgebrochen. Sie lässt dich herzlich grüßen und hat gesagt, sie freue sich darauf, dich kennenzulernen. Kannst du sie heute Abend anrufen?\nUmarmung, Susanne"
+  }
+}

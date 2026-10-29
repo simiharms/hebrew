@@ -1,0 +1,1589 @@
+{
+  "n": 1,
+  "level": "A1",
+  "title": "På språkkurs i Oslo",
+  "titleDe": "Im Sprachkurs in Oslo",
+  "place": "Oslo, Blindern",
+  "goals": [
+    "Du kannst dich vorstellen: Name, Herkunft, Wohnort und was du machst.",
+    "Du kannst einfache Fragen stellen und beantworten: Hva heter du? Hvor bor du?",
+    "Du lernst die Personalpronomen und das Präsens: eine Form für alle Personen.",
+    "Du lernst die drei Geschlechter mit en, ei und et.",
+    "Du kannst Länder, Sprachen und Nationalitäten auf Norwegisch nennen."
+  ],
+  "text": {
+    "id": "t01",
+    "title": "På språkkurs i Oslo",
+    "titleDe": "Im Sprachkurs in Oslo",
+    "kind": "dialog",
+    "intro": "Erster Tag im Sommer-Sprachkurs an der Universität Oslo in Blindern. Die Lehrerin Torunn Haugen begrüßt die Gruppe, und alle stellen sich vor.",
+    "speakers": {
+      "torunn": {
+        "name": "Torunn",
+        "gender": "f"
+      },
+      "susanne": {
+        "name": "Susanne",
+        "gender": "f"
+      },
+      "matthias": {
+        "name": "Matthias",
+        "gender": "m"
+      },
+      "elin": {
+        "name": "Elin",
+        "gender": "f"
+      },
+      "mads": {
+        "name": "Mads",
+        "gender": "m"
+      }
+    },
+    "lines": [
+      {
+        "s": "torunn",
+        "no": "Hei, og velkommen til kurset! Jeg heter Torunn Haugen, og jeg er lærer her på Blindern. Hva heter du?",
+        "de": "Hallo und willkommen zum Kurs! Ich heiße Torunn Haugen und bin hier in Blindern Lehrerin. Wie heißt du?"
+      },
+      {
+        "s": "susanne",
+        "no": "Hei! Jeg heter Susanne Becker. Jeg kommer fra Tyskland, fra Freiburg.",
+        "de": "Hallo! Ich heiße Susanne Becker. Ich komme aus Deutschland, aus Freiburg."
+      },
+      {
+        "s": "torunn",
+        "no": "Velkommen, Susanne! Hva gjør du i Oslo?",
+        "de": "Willkommen, Susanne! Was machst du in Oslo?"
+      },
+      {
+        "s": "susanne",
+        "no": "Jeg er student. Jeg studerer skandinavistikk i Freiburg. Jeg leier en hybel hos familien Nygård på Sagene.",
+        "de": "Ich bin Studentin. Ich studiere Skandinavistik in Freiburg. Ich miete ein Zimmer bei Familie Nygård in Sagene."
+      },
+      {
+        "s": "torunn",
+        "no": "Så fint! Og hvem er du?",
+        "de": "Wie schön! Und wer bist du?"
+      },
+      {
+        "s": "matthias",
+        "no": "Jeg heter Matthias Steiner. Jeg kommer fra Sveits, fra Bern. Jeg er ingeniør.",
+        "de": "Ich heiße Matthias Steiner. Ich komme aus der Schweiz, aus Bern. Ich bin Ingenieur."
+      },
+      {
+        "s": "torunn",
+        "no": "Snakker du fransk, Matthias?",
+        "de": "Sprichst du Französisch, Matthias?"
+      },
+      {
+        "s": "matthias",
+        "no": "Ja, litt. Jeg snakker tysk, fransk og engelsk. Og jeg lærer norsk, selvfølgelig!",
+        "de": "Ja, ein bisschen. Ich spreche Deutsch, Französisch und Englisch. Und ich lerne Norwegisch, natürlich!"
+      },
+      {
+        "s": "torunn",
+        "no": "Bra! Hvor bor du i Oslo?",
+        "de": "Gut! Wo wohnst du in Oslo?"
+      },
+      {
+        "s": "matthias",
+        "no": "Jeg bor på Majorstuen. Det er ikke langt fra Blindern.",
+        "de": "Ich wohne in Majorstuen. Das ist nicht weit von Blindern."
+      },
+      {
+        "s": "elin",
+        "no": "Hei, alle sammen! Jeg heter Elin Lindqvist. Jeg er svensk, fra Göteborg.",
+        "de": "Hallo zusammen! Ich heiße Elin Lindqvist. Ich bin Schwedin, aus Göteborg."
+      },
+      {
+        "s": "torunn",
+        "no": "Velkommen, Elin! Studerer du også?",
+        "de": "Willkommen, Elin! Studierst du auch?"
+      },
+      {
+        "s": "elin",
+        "no": "Ja, jeg studerer historie i Göteborg. Og jeg forstår mye norsk!",
+        "de": "Ja, ich studiere Geschichte in Göteborg. Und ich verstehe viel Norwegisch!"
+      },
+      {
+        "s": "mads",
+        "no": "Og jeg heter Mads Kjær. Jeg kommer fra Danmark, fra Aarhus.",
+        "de": "Und ich heiße Mads Kjær. Ich komme aus Dänemark, aus Aarhus."
+      },
+      {
+        "s": "torunn",
+        "no": "Hva gjør du, Mads?",
+        "de": "Was machst du, Mads?"
+      },
+      {
+        "s": "mads",
+        "no": "Jeg jobber på et hotell i sentrum. Norsk er lett å lese, men vanskelig å snakke!",
+        "de": "Ich arbeite in einem Hotel im Zentrum. Norwegisch ist leicht zu lesen, aber schwer zu sprechen!"
+      },
+      {
+        "s": "torunn",
+        "no": "Ikke noe problem! Vi snakker mye norsk her. Velkommen, alle sammen!",
+        "de": "Kein Problem! Wir sprechen hier viel Norwegisch. Willkommen, ihr alle!"
+      }
+    ],
+    "glossary": [
+      {
+        "no": "velkommen til kurset",
+        "de": "willkommen zum Kurs"
+      },
+      {
+        "no": "Jeg heter",
+        "de": "ich heiße"
+      },
+      {
+        "no": "er lærer",
+        "de": "ist Lehrer/in (Beruf, ohne Artikel)"
+      },
+      {
+        "no": "her på Blindern",
+        "de": "hier in Blindern (Campus der Universität Oslo)"
+      },
+      {
+        "no": "Hva heter du?",
+        "de": "Wie heißt du?"
+      },
+      {
+        "no": "kommer fra",
+        "de": "komme aus / kommt aus"
+      },
+      {
+        "no": "Tyskland",
+        "de": "Deutschland"
+      },
+      {
+        "no": "Hva gjør du",
+        "de": "Was machst du"
+      },
+      {
+        "no": "student",
+        "de": "Student/in"
+      },
+      {
+        "no": "studerer",
+        "de": "studiere / studiert"
+      },
+      {
+        "no": "skandinavistikk",
+        "de": "Skandinavistik"
+      },
+      {
+        "no": "leier",
+        "de": "miete"
+      },
+      {
+        "no": "en hybel",
+        "de": "ein (möbliertes) Zimmer zur Miete, eine Studentenbude"
+      },
+      {
+        "no": "hos familien Nygård",
+        "de": "bei Familie Nygård"
+      },
+      {
+        "no": "på Sagene",
+        "de": "in Sagene (Stadtteil von Oslo)"
+      },
+      {
+        "no": "Så fint!",
+        "de": "Wie schön!"
+      },
+      {
+        "no": "Hvem er du?",
+        "de": "Wer bist du?"
+      },
+      {
+        "no": "Sveits",
+        "de": "die Schweiz"
+      },
+      {
+        "no": "ingeniør",
+        "de": "Ingenieur/in"
+      },
+      {
+        "no": "Snakker du",
+        "de": "Sprichst du"
+      },
+      {
+        "no": "fransk",
+        "de": "Französisch"
+      },
+      {
+        "no": "litt",
+        "de": "ein bisschen"
+      },
+      {
+        "no": "engelsk",
+        "de": "Englisch"
+      },
+      {
+        "no": "lærer norsk",
+        "de": "lerne Norwegisch"
+      },
+      {
+        "no": "selvfølgelig",
+        "de": "natürlich, selbstverständlich"
+      },
+      {
+        "no": "Bra!",
+        "de": "Gut!"
+      },
+      {
+        "no": "Hvor bor du",
+        "de": "Wo wohnst du"
+      },
+      {
+        "no": "på Majorstuen",
+        "de": "in Majorstuen (Stadtteil von Oslo)"
+      },
+      {
+        "no": "Det er ikke langt fra",
+        "de": "Das ist nicht weit von"
+      },
+      {
+        "no": "alle sammen",
+        "de": "alle zusammen, ihr alle"
+      },
+      {
+        "no": "svensk",
+        "de": "schwedisch; hier: Schwedin"
+      },
+      {
+        "no": "også",
+        "de": "auch"
+      },
+      {
+        "no": "historie",
+        "de": "Geschichte"
+      },
+      {
+        "no": "forstår mye norsk",
+        "de": "verstehe viel Norwegisch"
+      },
+      {
+        "no": "Danmark",
+        "de": "Dänemark"
+      },
+      {
+        "no": "jobber på et hotell",
+        "de": "arbeite in einem Hotel"
+      },
+      {
+        "no": "i sentrum",
+        "de": "im Zentrum, in der Innenstadt"
+      },
+      {
+        "no": "lett å lese",
+        "de": "leicht zu lesen"
+      },
+      {
+        "no": "vanskelig å snakke",
+        "de": "schwer zu sprechen"
+      },
+      {
+        "no": "Ikke noe problem!",
+        "de": "Kein Problem!"
+      }
+    ]
+  },
+  "extra": [
+    {
+      "id": "x01a",
+      "title": "Hva kan man gjøre i Norge?",
+      "titleDe": "Was kann man in Norwegen machen?",
+      "kind": "info",
+      "intro": "Ein kurzer Infotext für Neuankömmlinge: Was kann man in Norwegen erleben?",
+      "lines": [
+        {
+          "no": "Norge er et land i Nord-Europa. Norge har mye natur: fjell, fjorder, skog og sjø. Mange turister kommer til Norge. Hva kan man gjøre her?",
+          "de": "Norwegen ist ein Land in Nordeuropa. Norwegen hat viel Natur: Berge, Fjorde, Wald und Meer. Viele Touristen kommen nach Norwegen. Was kann man hier machen?"
+        },
+        {
+          "no": "Man kan gå på tur. Nordmenn går på tur hele året, i fjellet og i skogen. Man kan bo på en hytte og gå på ski om vinteren.",
+          "de": "Man kann wandern gehen. Die Norweger gehen das ganze Jahr wandern, in den Bergen und im Wald. Man kann in einer Hütte wohnen und im Winter Ski fahren."
+        },
+        {
+          "no": "Man kan se nordlys i Nord-Norge om vinteren. Det er lyst hele natta i Nord-Norge om sommeren. Sola går ikke ned. Det heter midnattssol.",
+          "de": "Im Winter kann man in Nordnorwegen Nordlicht sehen. Im Sommer ist es in Nordnorwegen die ganze Nacht hell. Die Sonne geht nicht unter. Das heißt Mitternachtssonne."
+        },
+        {
+          "no": "Man kan ta båt på en fjord, for eksempel på Sognefjorden eller Geirangerfjorden. Sognefjorden er veldig lang og dyp.",
+          "de": "Man kann mit dem Boot auf einem Fjord fahren, zum Beispiel auf dem Sognefjord oder dem Geirangerfjord. Der Sognefjord ist sehr lang und tief."
+        },
+        {
+          "no": "Og i Oslo? Man kan besøke museer, gå på taket av Operaen eller sitte på en kafé ved sjøen. Og man kan lære norsk, selvfølgelig!",
+          "de": "Und in Oslo? Man kann Museen besuchen, auf dem Dach der Oper spazieren oder in einem Café am Meer sitzen. Und man kann natürlich Norwegisch lernen!"
+        }
+      ],
+      "glossary": [
+        {
+          "no": "Hva kan man gjøre",
+          "de": "Was kann man machen"
+        },
+        {
+          "no": "Man kan",
+          "de": "Man kann"
+        },
+        {
+          "no": "Nord-Europa",
+          "de": "Nordeuropa"
+        },
+        {
+          "no": "mye natur",
+          "de": "viel Natur"
+        },
+        {
+          "no": "fjell",
+          "de": "Berge, Gebirge"
+        },
+        {
+          "no": "fjorder",
+          "de": "Fjorde"
+        },
+        {
+          "no": "skog",
+          "de": "Wald"
+        },
+        {
+          "no": "sjø",
+          "de": "Meer, See"
+        },
+        {
+          "no": "Mange turister",
+          "de": "viele Touristen"
+        },
+        {
+          "no": "gå på tur",
+          "de": "wandern gehen, einen Ausflug machen"
+        },
+        {
+          "no": "Nordmenn",
+          "de": "Norweger (Plural)"
+        },
+        {
+          "no": "hele året",
+          "de": "das ganze Jahr"
+        },
+        {
+          "no": "i fjellet",
+          "de": "in den Bergen"
+        },
+        {
+          "no": "i skogen",
+          "de": "im Wald"
+        },
+        {
+          "no": "bo på en hytte",
+          "de": "in einer Hütte wohnen"
+        },
+        {
+          "no": "gå på ski",
+          "de": "Ski fahren (Langlauf)"
+        },
+        {
+          "no": "om vinteren",
+          "de": "im Winter"
+        },
+        {
+          "no": "se nordlys",
+          "de": "Nordlicht sehen"
+        },
+        {
+          "no": "Nord-Norge",
+          "de": "Nordnorwegen"
+        },
+        {
+          "no": "lyst",
+          "de": "hell"
+        },
+        {
+          "no": "hele natta",
+          "de": "die ganze Nacht"
+        },
+        {
+          "no": "om sommeren",
+          "de": "im Sommer"
+        },
+        {
+          "no": "Sola går ikke ned",
+          "de": "Die Sonne geht nicht unter"
+        },
+        {
+          "no": "Det heter",
+          "de": "Das heißt, das nennt man"
+        },
+        {
+          "no": "midnattssol",
+          "de": "Mitternachtssonne"
+        },
+        {
+          "no": "ta båt",
+          "de": "mit dem Boot fahren"
+        },
+        {
+          "no": "for eksempel",
+          "de": "zum Beispiel"
+        },
+        {
+          "no": "veldig lang og dyp",
+          "de": "sehr lang und tief"
+        },
+        {
+          "no": "besøke museer",
+          "de": "Museen besuchen"
+        },
+        {
+          "no": "på taket av Operaen",
+          "de": "auf dem Dach der Oper"
+        },
+        {
+          "no": "sitte på en kafé",
+          "de": "in einem Café sitzen"
+        },
+        {
+          "no": "ved sjøen",
+          "de": "am Meer, am Wasser"
+        }
+      ]
+    }
+  ],
+  "wk": {
+    "title": "Hvem er du?",
+    "titleDe": "Wer bist du?",
+    "phrases": [
+      {
+        "no": "Hei! / Hallo!",
+        "de": "Hallo!"
+      },
+      {
+        "no": "God dag!",
+        "de": "Guten Tag!",
+        "note": "Etwas förmlicher als »Hei!«."
+      },
+      {
+        "no": "Hva heter du?",
+        "de": "Wie heißt du?",
+        "note": "Nicht »hvordan«: Auf Norwegisch fragt man »was« (hva) heißt du."
+      },
+      {
+        "no": "Jeg heter Susanne.",
+        "de": "Ich heiße Susanne."
+      },
+      {
+        "no": "Hvem er du?",
+        "de": "Wer bist du?"
+      },
+      {
+        "no": "Hvor kommer du fra?",
+        "de": "Woher kommst du?",
+        "note": "Die Präposition »fra« steht am Ende der Frage."
+      },
+      {
+        "no": "Jeg kommer fra Tyskland.",
+        "de": "Ich komme aus Deutschland."
+      },
+      {
+        "no": "Hvor bor du?",
+        "de": "Wo wohnst du?"
+      },
+      {
+        "no": "Jeg bor i Oslo, på Sagene.",
+        "de": "Ich wohne in Oslo, in Sagene.",
+        "note": "»i« für Städte und Länder, »på« für viele Stadtteile."
+      },
+      {
+        "no": "Hva gjør du?",
+        "de": "Was machst du (beruflich)?"
+      },
+      {
+        "no": "Jeg er student.",
+        "de": "Ich bin Student/in.",
+        "note": "Bei Berufen steht kein Artikel."
+      },
+      {
+        "no": "Jeg jobber på et hotell.",
+        "de": "Ich arbeite in einem Hotel."
+      },
+      {
+        "no": "Snakker du norsk?",
+        "de": "Sprichst du Norwegisch?"
+      },
+      {
+        "no": "Ja, litt.",
+        "de": "Ja, ein bisschen."
+      },
+      {
+        "no": "Unnskyld, jeg forstår ikke.",
+        "de": "Entschuldigung, ich verstehe nicht."
+      },
+      {
+        "no": "Hyggelig å hilse på deg!",
+        "de": "Schön, dich kennenzulernen!",
+        "note": "Feste Wendung beim ersten Treffen. Antwort: »I like måte!« (Gleichfalls!)"
+      },
+      {
+        "no": "Ha det bra!",
+        "de": "Mach's gut! Tschüs!",
+        "note": "Kurz: »Ha det!«"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01_pronomen",
+      "title": "Personalpronomen (Subjektform)",
+      "titleNo": "personlige pronomen",
+      "summary": "jeg, du, han, hun, den, det, vi, dere, de: Wer tut etwas? Und in Norwegen sagt man fast immer du.",
+      "sections": [
+        {
+          "h": "Die Pronomen im Überblick",
+          "body": "Die Personalpronomen in der Subjektform zeigen, wer etwas tut: **Jeg heter Susanne.** **Hun kommer fra Tyskland.**\n\nAussprache: **jeg** klingt wie »jäi«, **de** wie »di« und **dere** wie »dere«.",
+          "table": [
+            [
+              "Norwegisch",
+              "Deutsch",
+              "Beispiel"
+            ],
+            [
+              "**jeg**",
+              "ich",
+              "**Jeg** bor i Oslo."
+            ],
+            [
+              "**du**",
+              "du",
+              "Hvor bor **du**?"
+            ],
+            [
+              "**han**",
+              "er (Person)",
+              "**Han** heter Matthias."
+            ],
+            [
+              "**hun**",
+              "sie (Person)",
+              "**Hun** heter Elin."
+            ],
+            [
+              "**den**",
+              "er/sie (Sache: en-/ei-Wort)",
+              "Jeg har en hybel. **Den** er på Sagene."
+            ],
+            [
+              "**det**",
+              "es (Sache: et-Wort); es, das",
+              "Mads har et hotell. **Det** er i sentrum."
+            ],
+            [
+              "**vi**",
+              "wir",
+              "**Vi** lærer norsk."
+            ],
+            [
+              "**dere**",
+              "ihr",
+              "Hvor kommer **dere** fra?"
+            ],
+            [
+              "**de**",
+              "sie (Plural)",
+              "**De** bor i Oslo."
+            ],
+            [
+              "**De**",
+              "Sie (Höflichkeitsform, heute selten)",
+              "Snakker **De** tysk?"
+            ]
+          ]
+        },
+        {
+          "h": "du ist normal",
+          "body": "In Norwegen duzt man fast alle: die Lehrerin, den Chef, ältere Menschen, Fremde auf der Straße. **Torunn, hvor bor du?** ist ganz normal und höflich.\n\nDie alte Höflichkeitsform **De** (immer groß geschrieben) hörst du heute kaum noch – vielleicht bei sehr alten Menschen oder in sehr förmlichen Briefen. Du brauchst sie fast nie.\n\n• Höflich bist du auf Norwegisch mit freundlichen Wörtern (**takk**, **unnskyld**), nicht mit »Sie«."
+        },
+        {
+          "h": "han/hun für Personen, den/det für Sachen",
+          "body": "Für Personen nimmst du **han** (er) und **hun** (sie). Für Sachen und Tiere nimmst du **den** oder **det** – je nach Geschlecht des Wortes:\n\n• en-Wort oder ei-Wort → **den**: **en hybel → den**\n• et-Wort → **det**: **et hotell → det**\n\nAchtung: Im Deutschen sagst du »der Tisch – er«. Auf Norwegisch ist eine Sache nie **han** oder **hun**, sondern **den** oder **det**. Mehr dazu in Lektion 5."
+        }
+      ],
+      "drills": [
+        {
+          "prompt": "___ heter Matthias. (er)",
+          "de": "Er heißt Matthias.",
+          "answer": [
+            "Han"
+          ],
+          "explain": "»er« für eine Person = han."
+        },
+        {
+          "prompt": "___ kommer fra Göteborg. (sie: Elin)",
+          "de": "Sie kommt aus Göteborg.",
+          "answer": [
+            "Hun"
+          ],
+          "explain": "»sie« für eine Frau = hun."
+        },
+        {
+          "prompt": "___ bor på Sagene. (ich)",
+          "de": "Ich wohne in Sagene.",
+          "answer": [
+            "Jeg"
+          ],
+          "explain": "»ich« = jeg (gesprochen »jäi«)."
+        },
+        {
+          "prompt": "Hvor bor ___? (du)",
+          "de": "Wo wohnst du?",
+          "answer": [
+            "du"
+          ],
+          "explain": "»du« heißt auch auf Norwegisch du."
+        },
+        {
+          "prompt": "___ lærer norsk. (wir)",
+          "de": "Wir lernen Norwegisch.",
+          "answer": [
+            "Vi"
+          ],
+          "explain": "»wir« = vi."
+        },
+        {
+          "prompt": "Elin og Mads, hvor kommer ___ fra? (ihr)",
+          "de": "Elin und Mads, woher kommt ihr?",
+          "answer": [
+            "dere"
+          ],
+          "explain": "»ihr« = dere."
+        },
+        {
+          "prompt": "Susanne og Matthias? ___ snakker tysk. (sie, Plural)",
+          "de": "Susanne und Matthias? Sie sprechen Deutsch.",
+          "answer": [
+            "De"
+          ],
+          "explain": "»sie« (Plural) = de, gesprochen »di«."
+        },
+        {
+          "prompt": "Torunn er lærer. ___ bor i Oslo. (sie: Torunn)",
+          "de": "Torunn ist Lehrerin. Sie wohnt in Oslo.",
+          "answer": [
+            "Hun"
+          ],
+          "explain": "Torunn ist eine Frau: hun."
+        },
+        {
+          "prompt": "Susanne leier en hybel. ___ er på Sagene. (Pronomen: en hybel)",
+          "de": "Susanne mietet ein Zimmer. Es liegt in Sagene.",
+          "answer": [
+            "Den"
+          ],
+          "explain": "en hybel ist ein en-Wort, also den – nie han oder hun für Sachen."
+        },
+        {
+          "prompt": "Mads jobber på et hotell. ___ er i sentrum. (Pronomen: et hotell)",
+          "de": "Mads arbeitet in einem Hotel. Es liegt im Zentrum.",
+          "answer": [
+            "Det"
+          ],
+          "explain": "et hotell ist ein et-Wort, also det."
+        }
+      ]
+    },
+    {
+      "id": "g01_praesens",
+      "title": "Infinitiv und Präsens",
+      "titleNo": "infinitiv og presens",
+      "summary": "Präsens = Infinitiv + -r, für alle Personen gleich: jeg snakker, du snakker, de snakker.",
+      "sections": [
+        {
+          "h": "Der Infinitiv mit å",
+          "body": "Vor dem Infinitiv steht oft **å** (wie deutsch »zu«): **å snakke** (sprechen), **å bo** (wohnen), **å være** (sein), **å ha** (haben). **å** spricht man wie ein langes »o«.\n\nDie meisten Infinitive enden auf **-e**: **snakke, komme, lære, studere**. Kurze Verben enden auf einen anderen Vokal: **bo, gå, ha, forstå**.\n\nIm Wörterbuch und in der Wortliste steht der Infinitiv ohne å: **snakke**."
+        },
+        {
+          "h": "Präsens: Infinitiv + -r",
+          "body": "Das Präsens ist ganz einfach: Infinitiv + **-r**. Und die Form ist für **alle Personen gleich**!\n\nIm Deutschen sagst du »ich spreche, du sprichst, er spricht«. Auf Norwegisch heißt es immer **snakker**. Typischer Fehler: »jeg snakke« oder »han bo« (falsch!) – da fehlt das -r.",
+          "table": [
+            [
+              "Person",
+              "snakke (sprechen)",
+              "bo (wohnen)"
+            ],
+            [
+              "jeg",
+              "**snakker**",
+              "**bor**"
+            ],
+            [
+              "du",
+              "**snakker**",
+              "**bor**"
+            ],
+            [
+              "han / hun",
+              "**snakker**",
+              "**bor**"
+            ],
+            [
+              "vi",
+              "**snakker**",
+              "**bor**"
+            ],
+            [
+              "dere",
+              "**snakker**",
+              "**bor**"
+            ],
+            [
+              "de",
+              "**snakker**",
+              "**bor**"
+            ]
+          ]
+        },
+        {
+          "h": "Einige Verben sind unregelmäßig",
+          "body": "Ein paar sehr häufige Verben bilden das Präsens anders. Sie sind trotzdem für alle Personen gleich: **jeg er, du er, vi er …** Lerne sie auswendig:",
+          "table": [
+            [
+              "Infinitiv",
+              "Präsens",
+              "Deutsch"
+            ],
+            [
+              "å være",
+              "**er**",
+              "sein: ich bin, du bist …"
+            ],
+            [
+              "å ha",
+              "**har**",
+              "haben"
+            ],
+            [
+              "å gjøre",
+              "**gjør**",
+              "machen, tun"
+            ],
+            [
+              "å si",
+              "**sier**",
+              "sagen"
+            ],
+            [
+              "å vite",
+              "**vet**",
+              "wissen"
+            ],
+            [
+              "å spørre",
+              "**spør**",
+              "fragen"
+            ]
+          ]
+        }
+      ],
+      "drills": [
+        {
+          "prompt": "Jeg ___ Susanne. (hete)",
+          "de": "Ich heiße Susanne.",
+          "answer": [
+            "heter"
+          ],
+          "explain": "hete + r = heter."
+        },
+        {
+          "prompt": "Matthias ___ fra Sveits. (komme)",
+          "de": "Matthias kommt aus der Schweiz.",
+          "answer": [
+            "kommer"
+          ],
+          "explain": "komme + r = kommer – auch bei han/hun keine andere Endung."
+        },
+        {
+          "prompt": "Vi ___ norsk på Blindern. (lære)",
+          "de": "Wir lernen Norwegisch in Blindern.",
+          "answer": [
+            "lærer"
+          ],
+          "explain": "lære + r = lærer, für alle Personen gleich."
+        },
+        {
+          "prompt": "Susanne ___ på Sagene. (bo)",
+          "de": "Susanne wohnt in Sagene.",
+          "answer": [
+            "bor"
+          ],
+          "explain": "bo + r = bor."
+        },
+        {
+          "prompt": "Torunn ___ lærer. (være)",
+          "de": "Torunn ist Lehrerin.",
+          "answer": [
+            "er"
+          ],
+          "explain": "være ist unregelmäßig: er (für alle Personen)."
+        },
+        {
+          "prompt": "Mads ___ en jobb på et hotell. (ha)",
+          "de": "Mads hat einen Job in einem Hotel.",
+          "answer": [
+            "har"
+          ],
+          "explain": "ha + r = har."
+        },
+        {
+          "prompt": "Hva ___ du i Oslo? (gjøre)",
+          "de": "Was machst du in Oslo?",
+          "answer": [
+            "gjør"
+          ],
+          "explain": "gjøre ist unregelmäßig: gjør."
+        },
+        {
+          "prompt": "Torunn ___ «Velkommen!» (si)",
+          "de": "Torunn sagt »Willkommen!«",
+          "answer": [
+            "sier"
+          ],
+          "explain": "si ist unregelmäßig: sier."
+        },
+        {
+          "prompt": "Jeg ___ ikke. (vite)",
+          "de": "Ich weiß nicht.",
+          "answer": [
+            "vet"
+          ],
+          "explain": "vite ist unregelmäßig: vet."
+        },
+        {
+          "prompt": "Torunn ___ Mads: «Hva gjør du?» (spørre)",
+          "de": "Torunn fragt Mads: »Was machst du?«",
+          "answer": [
+            "spør"
+          ],
+          "explain": "spørre ist unregelmäßig: spør."
+        }
+      ]
+    },
+    {
+      "id": "g01_wortstellung",
+      "title": "Wortstellung im einfachen Hauptsatz",
+      "titleNo": "ordstilling i helsetninger",
+      "summary": "Das Verb steht an zweiter Stelle; Ja/Nein-Fragen beginnen mit dem Verb, W-Fragen mit dem Fragewort.",
+      "sections": [
+        {
+          "h": "Aussagesatz: Subjekt – Verb – Rest",
+          "body": "Im einfachen Aussagesatz kommt zuerst das Subjekt, dann das Verb, dann der Rest: **Jeg bor i Oslo.** **Matthias kommer fra Bern.**\n\nDas Verb steht an **zweiter Stelle** (man sagt: V2). Das ist wie im Deutschen.",
+          "table": [
+            [
+              "1 (Subjekt)",
+              "2 (Verb)",
+              "Rest"
+            ],
+            [
+              "**Jeg**",
+              "**bor**",
+              "i Oslo."
+            ],
+            [
+              "**Susanne**",
+              "**studerer**",
+              "skandinavistikk."
+            ],
+            [
+              "**Vi**",
+              "**lærer**",
+              "norsk."
+            ]
+          ]
+        },
+        {
+          "h": "Ja/Nein-Fragen: Verb zuerst",
+          "body": "Bei einer Frage, auf die man mit **ja** oder **nei** antwortet, steht das Verb ganz vorn – genau wie im Deutschen:\n\n• **Bor du i Oslo?** – Wohnst du in Oslo?\n• **Snakker du norsk?** – Sprichst du Norwegisch?\n• **Er Elin svensk?** – Ist Elin Schwedin?"
+        },
+        {
+          "h": "Fragen mit Fragewort",
+          "body": "Bei W-Fragen steht das Fragewort vorn, dann das Verb, dann das Subjekt: **Hvor bor du?** **Hva heter du?** **Hvem er du?**\n\nAchtung, hier ist Norwegisch anders als Deutsch:\n\n• »Wie heißt du?« = **Hva heter du?** (wörtlich: Was heißt du?)\n• »Woher kommst du?« = **Hvor kommer du fra?** Die Präposition **fra** steht am Ende.\n\nDas h in **hv-** spricht man nicht: **hva** klingt wie »wa«, **hvor** wie »wur«.",
+          "table": [
+            [
+              "Fragewort",
+              "Deutsch",
+              "Beispiel"
+            ],
+            [
+              "**hva**",
+              "was",
+              "**Hva** gjør du?"
+            ],
+            [
+              "**hvem**",
+              "wer",
+              "**Hvem** er du?"
+            ],
+            [
+              "**hvor**",
+              "wo",
+              "**Hvor** bor du?"
+            ],
+            [
+              "**hvor … fra**",
+              "woher",
+              "**Hvor** kommer du **fra**?"
+            ]
+          ]
+        }
+      ],
+      "drills": [
+        {
+          "prompt": "___ du i Oslo? (bo – Ja/Nein-Frage)",
+          "de": "Wohnst du in Oslo?",
+          "answer": [
+            "Bor"
+          ],
+          "explain": "Ja/Nein-Frage: Das Verb steht ganz vorn."
+        },
+        {
+          "prompt": "___ Mads dansk? (snakke – Ja/Nein-Frage)",
+          "de": "Spricht Mads Dänisch?",
+          "answer": [
+            "Snakker"
+          ],
+          "explain": "Ja/Nein-Frage: Verb zuerst, dann das Subjekt."
+        },
+        {
+          "prompt": "___ heter du? (Fragewort: wie)",
+          "de": "Wie heißt du?",
+          "answer": [
+            "Hva"
+          ],
+          "explain": "Auf Norwegisch fragt man »Was heißt du?«: Hva heter du?"
+        },
+        {
+          "prompt": "___ bor du? – På Majorstuen. (Fragewort)",
+          "de": "Wo wohnst du? – In Majorstuen.",
+          "answer": [
+            "Hvor"
+          ],
+          "explain": "Nach dem Ort fragt man mit hvor (wo)."
+        },
+        {
+          "prompt": "___ er du? – Jeg er Elin. (Fragewort)",
+          "de": "Wer bist du? – Ich bin Elin.",
+          "answer": [
+            "Hvem"
+          ],
+          "explain": "Nach einer Person fragt man mit hvem (wer)."
+        },
+        {
+          "prompt": "Hvor kommer du ___? – Fra Danmark.",
+          "de": "Woher kommst du? – Aus Dänemark.",
+          "answer": [
+            "fra"
+          ],
+          "explain": "»woher« = hvor … fra: Die Präposition steht am Ende der Frage."
+        },
+        {
+          "prompt": "Hvor ___ Elin fra? (komme)",
+          "de": "Woher kommt Elin?",
+          "answer": [
+            "kommer"
+          ],
+          "explain": "Nach dem Fragewort kommt das Verb (Position 2), dann das Subjekt."
+        },
+        {
+          "prompt": "Hva ___ du? – Jeg er ingeniør. (gjøre)",
+          "de": "Was machst du? – Ich bin Ingenieur.",
+          "answer": [
+            "gjør"
+          ],
+          "explain": "Fragewort – Verb – Subjekt: Hva gjør du?"
+        },
+        {
+          "prompt": "Studerer ___ også, Elin? (du)",
+          "de": "Studierst du auch, Elin?",
+          "answer": [
+            "du"
+          ],
+          "explain": "In der Frage steht das Subjekt direkt nach dem Verb."
+        },
+        {
+          "prompt": "___ du norsk? – Ja, litt. (forstå – Ja/Nein-Frage)",
+          "de": "Verstehst du Norwegisch? – Ja, ein bisschen.",
+          "answer": [
+            "Forstår"
+          ],
+          "explain": "Ja/Nein-Frage: Verb zuerst. forstå + r = forstår."
+        }
+      ]
+    },
+    {
+      "id": "g01_genus",
+      "title": "Die drei Geschlechter und der unbestimmte Artikel",
+      "titleNo": "kjønn og ubestemt artikkel",
+      "summary": "en (maskulin), ei (feminin, auch en erlaubt), et (neutrum): Lerne jedes Substantiv mit seinem Artikel.",
+      "sections": [
+        {
+          "h": "en, ei, et",
+          "body": "Norwegisch hat drei Geschlechter, wie das Deutsche. Du erkennst sie am unbestimmten Artikel:",
+          "table": [
+            [
+              "Geschlecht",
+              "Artikel",
+              "Beispiele",
+              "Deutsch"
+            ],
+            [
+              "maskulin",
+              "**en**",
+              "**en mann, en bil, en hybel**",
+              "ein Mann, ein Auto, ein Zimmer"
+            ],
+            [
+              "feminin",
+              "**ei**",
+              "**ei jente, ei bok, ei hytte**",
+              "ein Mädchen, ein Buch, eine Hütte"
+            ],
+            [
+              "neutrum",
+              "**et**",
+              "**et hus, et land, et språk**",
+              "ein Haus, ein Land, eine Sprache"
+            ]
+          ]
+        },
+        {
+          "h": "ei oder en?",
+          "body": "Jedes feminine Wort darf auch **en** bekommen: **ei jente** oder **en jente**, **ei bok** oder **en bok** – beides ist richtig. Viele Norweger (zum Beispiel in Bergen) sagen und schreiben bei Feminina fast immer **en**.\n\nIn diesem Kurs schreiben wir **ei**, aber **en** zählt in allen Übungen auch als richtig. Die wichtigste Entscheidung ist also: **en** oder **et**?"
+        },
+        {
+          "h": "Deutsch hilft (leider) nicht",
+          "body": "Das norwegische Geschlecht ist oft anders als das deutsche:\n\n• **et hus** = das Haus (passt)\n• **en bil** = **das** Auto\n• **et språk** = **die** Sprache\n• **ei bok** = **das** Buch\n• **en by** = **die** Stadt\n\nLerne darum jedes Substantiv mit Artikel: nicht »bil«, sondern **en bil**. Tipp: Die meisten Substantive sind maskulin. Wenn du raten musst, nimm **en**."
+        }
+      ],
+      "drills": [
+        {
+          "prompt": "Susanne leier ___ hybel.",
+          "de": "Susanne mietet ein Zimmer.",
+          "answer": [
+            "en"
+          ],
+          "hint": "hybel ist maskulin.",
+          "explain": "en hybel (maskulin)."
+        },
+        {
+          "prompt": "Mads jobber på ___ hotell.",
+          "de": "Mads arbeitet in einem Hotel.",
+          "answer": [
+            "et"
+          ],
+          "hint": "hotell ist ein Neutrum.",
+          "explain": "et hotell (neutrum)."
+        },
+        {
+          "prompt": "Familien Nygård har ___ jente og en gutt.",
+          "de": "Familie Nygård hat ein Mädchen und einen Jungen.",
+          "answer": [
+            "ei",
+            "en"
+          ],
+          "hint": "jente ist feminin.",
+          "explain": "ei jente (feminin) – en jente ist auch richtig."
+        },
+        {
+          "prompt": "Matthias er ___ mann fra Sveits.",
+          "de": "Matthias ist ein Mann aus der Schweiz.",
+          "answer": [
+            "en"
+          ],
+          "explain": "en mann (maskulin)."
+        },
+        {
+          "prompt": "Oslo er ___ by i Norge.",
+          "de": "Oslo ist eine Stadt in Norwegen.",
+          "answer": [
+            "en"
+          ],
+          "hint": "Achtung: die Stadt, aber auf Norwegisch maskulin.",
+          "explain": "en by – anders als im Deutschen (die Stadt)."
+        },
+        {
+          "prompt": "Tysk er ___ språk i Sveits.",
+          "de": "Deutsch ist eine Sprache in der Schweiz.",
+          "answer": [
+            "et"
+          ],
+          "hint": "Achtung: die Sprache, aber auf Norwegisch neutrum.",
+          "explain": "et språk – anders als im Deutschen (die Sprache)."
+        },
+        {
+          "prompt": "Susanne har ___ bok på norsk.",
+          "de": "Susanne hat ein Buch auf Norwegisch.",
+          "answer": [
+            "ei",
+            "en"
+          ],
+          "hint": "bok ist feminin.",
+          "explain": "ei bok (feminin) – en bok ist auch richtig."
+        },
+        {
+          "prompt": "Norge er ___ land i Nord-Europa.",
+          "de": "Norwegen ist ein Land in Nordeuropa.",
+          "answer": [
+            "et"
+          ],
+          "explain": "et land (neutrum) – wie im Deutschen: das Land."
+        },
+        {
+          "prompt": "Familien Nygård har ___ hus på Sagene.",
+          "de": "Familie Nygård hat ein Haus in Sagene.",
+          "answer": [
+            "et"
+          ],
+          "explain": "et hus (neutrum) – wie im Deutschen: das Haus."
+        },
+        {
+          "prompt": "Matthias har ___ bil i Bern.",
+          "de": "Matthias hat ein Auto in Bern.",
+          "answer": [
+            "en"
+          ],
+          "hint": "Achtung: das Auto, aber auf Norwegisch maskulin.",
+          "explain": "en bil – anders als im Deutschen (das Auto)."
+        }
+      ]
+    },
+    {
+      "id": "g01_nasjonalitet",
+      "title": "Länder, Sprachen und Nationalitäten",
+      "titleNo": "land, språk og nasjonalitet",
+      "summary": "Tyskland – tysk – en tysker: Länder schreibt man groß, Sprachen, Adjektive und Personen klein.",
+      "sections": [
+        {
+          "h": "Land – Sprache/Adjektiv – Person",
+          "body": "Zu jedem Land gibt es ein Adjektiv (das ist oft auch der Name der Sprache) und ein Wort für die Person:",
+          "table": [
+            [
+              "Land",
+              "Adjektiv / Sprache",
+              "Person",
+              "Deutsch"
+            ],
+            [
+              "**Norge**",
+              "**norsk**",
+              "**en nordmann** (Pl. nordmenn)",
+              "Norwegen – norwegisch – Norweger/in"
+            ],
+            [
+              "**Tyskland**",
+              "**tysk**",
+              "**en tysker**",
+              "Deutschland – deutsch – Deutsche/r"
+            ],
+            [
+              "**Sveits**",
+              "**sveitsisk**",
+              "**en sveitser**",
+              "Schweiz – schweizerisch – Schweizer/in"
+            ],
+            [
+              "**Østerrike**",
+              "**østerriksk**",
+              "**en østerriker**",
+              "Österreich – österreichisch – Österreicher/in"
+            ],
+            [
+              "**Sverige**",
+              "**svensk**",
+              "**en svenske**",
+              "Schweden – schwedisch – Schwede/Schwedin"
+            ],
+            [
+              "**Danmark**",
+              "**dansk**",
+              "**en danske**",
+              "Dänemark – dänisch – Däne/Dänin"
+            ],
+            [
+              "**England**",
+              "**engelsk**",
+              "**en engelskmann**",
+              "England – englisch – Engländer/in"
+            ],
+            [
+              "**Frankrike**",
+              "**fransk**",
+              "**en franskmann**",
+              "Frankreich – französisch – Franzose/Französin"
+            ]
+          ]
+        },
+        {
+          "h": "Groß oder klein?",
+          "body": "Nur die **Länder** schreibt man groß: **Norge, Tyskland, Sveits**.\n\nSprachen, Adjektive und Personen schreibt man **klein** – anders als im Deutschen:\n\n• **Jeg snakker tysk.** – Ich spreche Deutsch.\n• **Elin er svenske.** – Elin ist Schwedin.\n\n**sveitsisk** ist keine Sprache: Matthias spricht **tysk** (Schweizerdeutsch) und **fransk**."
+        },
+        {
+          "h": "Ohne Artikel",
+          "body": "Wie im Deutschen steht bei der Nationalität kein Artikel. Du kannst das Adjektiv oder das Personenwort nehmen:\n\n• **Jeg er tysk.** / **Jeg er tysker.** – Ich bin Deutsche/r.\n• **Mads er dansk.** / **Mads er danske.** – Mads ist Däne.\n\nDas Personenwort gilt für Männer und Frauen. Bei Frauen hört man aber meist das Adjektiv: **Torunn er norsk.**\n\nWoher? **Jeg kommer fra Sveits.** – Ich komme aus **der** Schweiz. Norwegisch braucht hier keinen Artikel."
+        }
+      ],
+      "drills": [
+        {
+          "prompt": "Susanne kommer fra ___. (Deutschland)",
+          "de": "Susanne kommt aus Deutschland.",
+          "answer": [
+            "Tyskland"
+          ],
+          "explain": "Deutschland = Tyskland, groß geschrieben (Land)."
+        },
+        {
+          "prompt": "Matthias kommer fra ___. (die Schweiz)",
+          "de": "Matthias kommt aus der Schweiz.",
+          "answer": [
+            "Sveits"
+          ],
+          "explain": "fra Sveits – ohne Artikel, anders als »aus der Schweiz«."
+        },
+        {
+          "prompt": "Elin snakker ___. (Schwedisch)",
+          "de": "Elin spricht Schwedisch.",
+          "answer": [
+            "svensk"
+          ],
+          "explain": "Sprachen schreibt man klein: svensk."
+        },
+        {
+          "prompt": "Matthias er ___. (Schweizer)",
+          "de": "Matthias ist Schweizer.",
+          "answer": [
+            "sveitsisk",
+            "sveitser"
+          ],
+          "explain": "Adjektiv (sveitsisk) oder Person (sveitser), ohne Artikel und klein geschrieben."
+        },
+        {
+          "prompt": "Mads er ___. (Land: Danmark)",
+          "de": "Mads ist Däne.",
+          "answer": [
+            "dansk",
+            "danske"
+          ],
+          "explain": "Adjektiv (dansk) oder Person (danske), ohne Artikel."
+        },
+        {
+          "prompt": "Torunn er ___. (Norwegerin)",
+          "de": "Torunn ist Norwegerin.",
+          "answer": [
+            "norsk",
+            "nordmann"
+          ],
+          "explain": "Meist sagt man bei Frauen das Adjektiv: norsk. nordmann ist aber auch richtig."
+        },
+        {
+          "prompt": "En person fra Østerrike er en ___.",
+          "de": "Eine Person aus Österreich ist ein Österreicher.",
+          "answer": [
+            "østerriker"
+          ],
+          "explain": "Østerrike – østerriksk – en østerriker."
+        },
+        {
+          "prompt": "Jeg snakker ___ og fransk. (Deutsch)",
+          "de": "Ich spreche Deutsch und Französisch.",
+          "answer": [
+            "tysk"
+          ],
+          "explain": "Die Sprache heißt tysk – klein geschrieben."
+        },
+        {
+          "prompt": "Familien Nygård bor i ___. (Norwegen)",
+          "de": "Familie Nygård wohnt in Norwegen.",
+          "answer": [
+            "Norge"
+          ],
+          "explain": "Norwegen = Norge."
+        },
+        {
+          "prompt": "Elin er fra ___. (Schweden)",
+          "de": "Elin ist aus Schweden.",
+          "answer": [
+            "Sverige"
+          ],
+          "explain": "Schweden = Sverige (gesprochen etwa »Swärje«)."
+        }
+      ]
+    }
+  ],
+  "tf": [
+    {
+      "s": "Torunn er lærer.",
+      "de": "Torunn ist Lehrerin.",
+      "a": true,
+      "why": "Torunn sagt: »Jeg er lærer her på Blindern.«"
+    },
+    {
+      "s": "Susanne kommer fra Sveits.",
+      "de": "Susanne kommt aus der Schweiz.",
+      "a": false,
+      "why": "Susanne kommt aus Deutschland, aus Freiburg. Matthias kommt aus der Schweiz."
+    },
+    {
+      "s": "Susanne leier en hybel hos familien Nygård.",
+      "de": "Susanne mietet ein Zimmer bei Familie Nygård.",
+      "a": true,
+      "why": "»Jeg leier en hybel hos familien Nygård på Sagene.«"
+    },
+    {
+      "s": "Matthias er student.",
+      "de": "Matthias ist Student.",
+      "a": false,
+      "why": "Matthias ist Ingenieur: »Jeg er ingeniør.«"
+    },
+    {
+      "s": "Elin kommer fra Danmark.",
+      "de": "Elin kommt aus Dänemark.",
+      "a": false,
+      "why": "Elin ist Schwedin aus Göteborg. Mads kommt aus Dänemark."
+    },
+    {
+      "s": "Mads jobber på et hotell.",
+      "de": "Mads arbeitet in einem Hotel.",
+      "a": true,
+      "why": "»Jeg jobber på et hotell i sentrum.«"
+    }
+  ],
+  "questions": [
+    {
+      "q": "Hvor bor Susanne?",
+      "qDe": "Wo wohnt Susanne?",
+      "answer": "Hun bor hos familien Nygård på Sagene.",
+      "answerDe": "Sie wohnt bei Familie Nygård in Sagene.",
+      "keywords": [
+        [
+          "Sagene",
+          "Nygård"
+        ],
+        [
+          "bor",
+          "leier",
+          "hybel"
+        ]
+      ]
+    },
+    {
+      "q": "Hva gjør Matthias?",
+      "qDe": "Was macht Matthias (beruflich)?",
+      "answer": "Han er ingeniør.",
+      "answerDe": "Er ist Ingenieur.",
+      "keywords": [
+        [
+          "ingeniør"
+        ]
+      ]
+    },
+    {
+      "q": "Hvor kommer Elin fra?",
+      "qDe": "Woher kommt Elin?",
+      "answer": "Hun kommer fra Göteborg i Sverige.",
+      "answerDe": "Sie kommt aus Göteborg in Schweden.",
+      "keywords": [
+        [
+          "Göteborg",
+          "Gøteborg",
+          "Sverige"
+        ]
+      ]
+    },
+    {
+      "q": "Hvor jobber Mads?",
+      "qDe": "Wo arbeitet Mads?",
+      "answer": "Han jobber på et hotell i sentrum.",
+      "answerDe": "Er arbeitet in einem Hotel im Zentrum.",
+      "keywords": [
+        [
+          "hotell"
+        ]
+      ]
+    }
+  ],
+  "find": [
+    {
+      "de": "willkommen",
+      "answer": [
+        "velkommen"
+      ]
+    },
+    {
+      "de": "Ingenieur",
+      "answer": [
+        "ingeniør"
+      ]
+    },
+    {
+      "de": "ein bisschen",
+      "answer": [
+        "litt"
+      ]
+    },
+    {
+      "de": "natürlich",
+      "answer": [
+        "selvfølgelig"
+      ]
+    },
+    {
+      "de": "nicht weit von",
+      "answer": [
+        "ikke langt fra"
+      ]
+    },
+    {
+      "de": "schwer zu sprechen",
+      "answer": [
+        "vanskelig å snakke"
+      ]
+    }
+  ],
+  "translate": [
+    {
+      "de": "Ich heiße Susanne.",
+      "no": [
+        "Jeg heter Susanne."
+      ]
+    },
+    {
+      "de": "Wie heißt du?",
+      "no": [
+        "Hva heter du?"
+      ],
+      "hint": "Achtung: nicht »hvordan«."
+    },
+    {
+      "de": "Ich komme aus Deutschland.",
+      "no": [
+        "Jeg kommer fra Tyskland.",
+        "Jeg er fra Tyskland."
+      ]
+    },
+    {
+      "de": "Wo wohnst du?",
+      "no": [
+        "Hvor bor du?"
+      ]
+    },
+    {
+      "de": "Sprichst du Norwegisch?",
+      "no": [
+        "Snakker du norsk?"
+      ]
+    },
+    {
+      "de": "Matthias ist Schweizer.",
+      "no": [
+        "Matthias er sveitsisk.",
+        "Matthias er sveitser."
+      ]
+    },
+    {
+      "de": "Wir lernen Norwegisch.",
+      "no": [
+        "Vi lærer norsk."
+      ]
+    },
+    {
+      "de": "Mads arbeitet in einem Hotel.",
+      "no": [
+        "Mads jobber på et hotell.",
+        "Mads arbeider på et hotell."
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "prompt": "Torunn Haugen er ___ på Blindern.",
+      "de": "Torunn Haugen ist Lehrerin in Blindern.",
+      "answer": [
+        "lærer"
+      ]
+    },
+    {
+      "prompt": "Susanne ___ fra Freiburg i Tyskland.",
+      "de": "Susanne kommt aus Freiburg in Deutschland.",
+      "answer": [
+        "kommer",
+        "er"
+      ]
+    },
+    {
+      "prompt": "Hun leier en ___ hos familien Nygård.",
+      "de": "Sie mietet ein Zimmer bei Familie Nygård.",
+      "answer": [
+        "hybel"
+      ]
+    },
+    {
+      "prompt": "Matthias er ___ fra Bern.",
+      "de": "Matthias ist Ingenieur aus Bern.",
+      "answer": [
+        "ingeniør"
+      ]
+    },
+    {
+      "prompt": "Elin er ___, og Mads er dansk.",
+      "de": "Elin ist Schwedin, und Mads ist Däne.",
+      "answer": [
+        "svensk",
+        "svenske"
+      ]
+    }
+  ],
+  "dictation": [
+    1,
+    5,
+    9,
+    13
+  ],
+  "writing": {
+    "prompt": "Stell dich in einer kurzen Nachricht der neuen Kursgruppe vor: Wie heißt du, woher kommst du, wo wohnst du, was machst du, und welche Sprachen sprichst du?",
+    "minWords": 30,
+    "useWords": [
+      "heter",
+      "kommer fra",
+      "bor",
+      "snakker",
+      "studerer"
+    ],
+    "checklist": [
+      {
+        "de": "Name",
+        "keywords": [
+          "heter"
+        ]
+      },
+      {
+        "de": "Herkunft",
+        "keywords": [
+          "kommer fra",
+          "er fra"
+        ]
+      },
+      {
+        "de": "Wohnort",
+        "keywords": [
+          "bor"
+        ]
+      },
+      {
+        "de": "Sprachen",
+        "keywords": [
+          "snakker"
+        ]
+      }
+    ],
+    "model": "Hei, alle sammen! Jeg heter Claudia, og jeg kommer fra Tyskland, fra Hamburg. Jeg bor i Oslo nå. Jeg leier en hybel på Majorstuen. Jeg er student, og jeg studerer norsk på Blindern. Jeg snakker tysk og engelsk, og litt norsk. Hilsen Claudia",
+    "modelDe": "Hallo zusammen! Ich heiße Claudia und komme aus Deutschland, aus Hamburg. Ich wohne jetzt in Oslo. Ich miete ein Zimmer in Majorstuen. Ich bin Studentin und studiere Norwegisch in Blindern. Ich spreche Deutsch und Englisch und ein bisschen Norwegisch. Viele Grüße, Claudia"
+  }
+}

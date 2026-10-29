@@ -1,0 +1,1820 @@
+[
+  {
+    "id": "w16_universitet",
+    "no": "universitet",
+    "de": "die Universität",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "universitet",
+      "universitetet",
+      "universiteter",
+      "universitetene"
+    ],
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Susanne studerer ved Universitetet i Tromsø.",
+      "de": "Susanne studiert an der Universität Tromsø."
+    },
+    "note": "Man sagt på universitetet (an der Uni) oder ved universitetet."
+  },
+  {
+    "id": "w16_utveksling",
+    "no": "utveksling",
+    "de": "der Austausch",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "utveksling",
+      "utvekslingen/utvekslinga",
+      "utvekslinger",
+      "utvekslingene"
+    ],
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Susanne er på utveksling i Tromsø.",
+      "de": "Susanne ist im Austausch in Tromsø."
+    }
+  },
+  {
+    "id": "w16_utvekslingsstudent",
+    "no": "utvekslingsstudent",
+    "de": "der Austauschstudent / die Austauschstudentin",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "utvekslingsstudent",
+      "utvekslingsstudenten",
+      "utvekslingsstudenter",
+      "utvekslingsstudentene"
+    ],
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Det er mange utvekslingsstudenter på campus.",
+      "de": "Auf dem Campus gibt es viele Austauschstudierende."
+    }
+  },
+  {
+    "id": "w16_semester",
+    "no": "semester",
+    "de": "das Semester",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "semester",
+      "semesteret",
+      "semestre/semestere",
+      "semestrene"
+    ],
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Semesteret slutter før jul.",
+      "de": "Das Semester endet vor Weihnachten."
+    }
+  },
+  {
+    "id": "w16_semesteravgift",
+    "no": "semesteravgift",
+    "de": "die Semestergebühr",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "semesteravgift",
+      "semesteravgifta/semesteravgiften",
+      "semesteravgifter",
+      "semesteravgiftene"
+    ],
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Du må betale semesteravgifta før fristen.",
+      "de": "Du musst die Semestergebühr vor Ablauf der Frist bezahlen."
+    }
+  },
+  {
+    "id": "w16_forelesning",
+    "no": "forelesning",
+    "de": "die Vorlesung",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "forelesning",
+      "forelesningen/forelesninga",
+      "forelesninger",
+      "forelesningene"
+    ],
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Forelesningen begynner kvart over ti.",
+      "de": "Die Vorlesung beginnt um Viertel nach zehn."
+    }
+  },
+  {
+    "id": "w16_foreleser",
+    "no": "foreleser",
+    "de": "der/die Vortragende, Dozent(in)",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "foreleser",
+      "foreleseren",
+      "forelesere",
+      "foreleserne"
+    ],
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Foreleseren snakket nordnorsk.",
+      "de": "Der Dozent sprach Nordnorwegisch."
+    }
+  },
+  {
+    "id": "w16_professor",
+    "no": "professor",
+    "de": "der Professor / die Professorin",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "professor",
+      "professoren",
+      "professorer",
+      "professorene"
+    ],
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Professoren kom fra Senja.",
+      "de": "Der Professor kam aus Senja."
+    }
+  },
+  {
+    "id": "w16_emne",
+    "no": "emne",
+    "de": "der Kurs, das Modul (an der Uni); das Thema",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "emne",
+      "emnet",
+      "emner",
+      "emnene"
+    ],
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Hvilke emner tar du dette semesteret?",
+      "de": "Welche Kurse belegst du dieses Semester?"
+    }
+  },
+  {
+    "id": "w16_studiepoeng",
+    "no": "studiepoeng",
+    "de": "der Leistungspunkt (ECTS)",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "studiepoeng",
+      "studiepoenget",
+      "studiepoeng",
+      "studiepoenga/studiepoengene"
+    ],
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Emnet gir ti studiepoeng.",
+      "de": "Der Kurs bringt zehn Leistungspunkte."
+    }
+  },
+  {
+    "id": "w16_eksamen",
+    "no": "eksamen",
+    "de": "die Prüfung, das Examen",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "eksamen",
+      "eksamenen",
+      "eksamener",
+      "eksamenene"
+    ],
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Hun tar eksamen i desember.",
+      "de": "Sie legt im Dezember die Prüfung ab."
+    },
+    "note": "ta eksamen = eine Prüfung ablegen; bestå eksamen = bestehen; stryke på eksamen = durchfallen."
+  },
+  {
+    "id": "w16_pensum",
+    "no": "pensum",
+    "de": "der Prüfungsstoff, die Pflichtlektüre",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "pensum",
+      "pensumet"
+    ],
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Har du lest hele pensum?",
+      "de": "Hast du die ganze Pflichtlektüre gelesen?"
+    }
+  },
+  {
+    "id": "w16_pensumliste",
+    "no": "pensumliste",
+    "de": "die Literaturliste (Pflichtlektüre)",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "pensumliste",
+      "pensumlista/pensumlisten",
+      "pensumlister",
+      "pensumlistene"
+    ],
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Professoren ga henne pensumlista.",
+      "de": "Der Professor gab ihr die Literaturliste."
+    }
+  },
+  {
+    "id": "w16_semesteroppgave",
+    "no": "semesteroppgave",
+    "de": "die Semesterarbeit",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "semesteroppgave",
+      "semesteroppgava/semesteroppgaven",
+      "semesteroppgaver",
+      "semesteroppgavene"
+    ],
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Hun skal skrive semesteroppgaven sin om nordnorsk.",
+      "de": "Sie wird ihre Semesterarbeit über Nordnorwegisch schreiben."
+    }
+  },
+  {
+    "id": "w16_frist",
+    "no": "frist",
+    "de": "die Frist",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "frist",
+      "fristen",
+      "frister",
+      "fristene"
+    ],
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Fristen er på fredag.",
+      "de": "Die Frist läuft am Freitag ab."
+    }
+  },
+  {
+    "id": "w16_innleveringsfrist",
+    "no": "innleveringsfrist",
+    "de": "der Abgabetermin",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "innleveringsfrist",
+      "innleveringsfristen",
+      "innleveringsfrister",
+      "innleveringsfristene"
+    ],
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Når er innleveringsfristen?",
+      "de": "Wann ist der Abgabetermin?"
+    }
+  },
+  {
+    "id": "w16_seminar",
+    "no": "seminar",
+    "de": "das Seminar",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "seminar",
+      "seminaret",
+      "seminarer",
+      "seminarene"
+    ],
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Jeg tok notater på seminaret.",
+      "de": "Ich habe mir im Seminar Notizen gemacht."
+    }
+  },
+  {
+    "id": "w16_lesesal",
+    "no": "lesesal",
+    "de": "der Lesesaal",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "lesesal",
+      "lesesalen",
+      "lesesaler",
+      "lesesalene"
+    ],
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Før eksamen sitter hun på lesesalen hele dagen.",
+      "de": "Vor der Prüfung sitzt sie den ganzen Tag im Lesesaal."
+    }
+  },
+  {
+    "id": "w16_bibliotek",
+    "no": "bibliotek",
+    "de": "die Bibliothek",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "bibliotek",
+      "biblioteket",
+      "bibliotek",
+      "biblioteka/bibliotekene"
+    ],
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Biblioteket har store vinduer.",
+      "de": "Die Bibliothek hat große Fenster."
+    }
+  },
+  {
+    "id": "w16_bibliotekar",
+    "no": "bibliotekar",
+    "de": "der Bibliothekar / die Bibliothekarin",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "bibliotekar",
+      "bibliotekaren",
+      "bibliotekarer",
+      "bibliotekarene"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Bibliotekaren viste henne hvordan hun kunne låne bøker.",
+      "de": "Die Bibliothekarin zeigte ihr, wie sie Bücher ausleihen konnte."
+    }
+  },
+  {
+    "id": "w16_studentkort",
+    "no": "studentkort",
+    "de": "der Studentenausweis",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "studentkort",
+      "studentkortet",
+      "studentkort",
+      "studentkorta/studentkortene"
+    ],
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Hun hentet studentkortet sitt.",
+      "de": "Sie holte ihren Studentenausweis ab."
+    }
+  },
+  {
+    "id": "w16_informasjonsmote",
+    "no": "informasjonsmøte",
+    "de": "die Infoveranstaltung",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "informasjonsmøte",
+      "informasjonsmøtet",
+      "informasjonsmøter",
+      "informasjonsmøtene"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Informasjonsmøtet begynte klokka ti.",
+      "de": "Die Infoveranstaltung begann um zehn Uhr."
+    }
+  },
+  {
+    "id": "w16_campus",
+    "no": "campus",
+    "de": "der Campus",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "campus",
+      "campusen",
+      "campuser",
+      "campusene"
+    ],
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Biblioteket ligger midt på campus.",
+      "de": "Die Bibliothek liegt mitten auf dem Campus."
+    },
+    "note": "Man sagt på campus (ohne Artikel)."
+  },
+  {
+    "id": "w16_notat",
+    "no": "notat",
+    "de": "die Notiz",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "notat",
+      "notatet",
+      "notater",
+      "notatene"
+    ],
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Begge to tok mange notater.",
+      "de": "Beide machten sich viele Notizen."
+    },
+    "note": "ta notater = sich Notizen machen"
+  },
+  {
+    "id": "w16_notatbok",
+    "no": "notatbok",
+    "de": "das Notizbuch",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "notatbok",
+      "notatboka/notatboken",
+      "notatbøker",
+      "notatbøkene"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Hun skrev en liste i notatboka si.",
+      "de": "Sie schrieb eine Liste in ihr Notizbuch."
+    }
+  },
+  {
+    "id": "w16_kollokviegruppe",
+    "no": "kollokviegruppe",
+    "de": "die Lerngruppe (von Studierenden)",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "kollokviegruppe",
+      "kollokviegruppen",
+      "kollokviegrupper",
+      "kollokviegruppene"
+    ],
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Jeg leser til eksamen sammen med kollokviegruppen min.",
+      "de": "Ich lerne mit meiner Lerngruppe für die Prüfung."
+    }
+  },
+  {
+    "id": "w16_stipend",
+    "no": "stipend",
+    "de": "das Stipendium",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "stipend",
+      "stipendet",
+      "stipend/stipender",
+      "stipenda/stipendene"
+    ],
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Hun får lån og stipend fra Lånekassen.",
+      "de": "Sie bekommt Darlehen und Stipendium von der Lånekassen."
+    }
+  },
+  {
+    "id": "w16_karakter",
+    "no": "karakter",
+    "de": "die Note; der Charakter",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "karakter",
+      "karakteren",
+      "karakterer",
+      "karakterene"
+    ],
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Hun fikk en god karakter på eksamen.",
+      "de": "Sie bekam eine gute Note in der Prüfung."
+    },
+    "note": "Noten von A (beste) bis F (nicht bestanden)."
+  },
+  {
+    "id": "w16_spraakvitenskap",
+    "no": "språkvitenskap",
+    "de": "die Sprachwissenschaft",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "språkvitenskap",
+      "språkvitenskapen"
+    ],
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Hun studerer nordisk språkvitenskap.",
+      "de": "Sie studiert Nordische Sprachwissenschaft."
+    }
+  },
+  {
+    "id": "w16_tema",
+    "no": "tema",
+    "de": "das Thema",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "tema",
+      "temaet",
+      "temaer",
+      "temaene"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Temaet for forelesningen var dialekter.",
+      "de": "Das Thema der Vorlesung waren Dialekte."
+    }
+  },
+  {
+    "id": "w16_artikkel",
+    "no": "artikkel",
+    "de": "der Artikel",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "artikkel",
+      "artikkelen",
+      "artikler",
+      "artiklene"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Hun fant mange artikler på nettet.",
+      "de": "Sie fand viele Artikel im Internet."
+    }
+  },
+  {
+    "id": "w16_nett",
+    "no": "nett",
+    "de": "das Netz, das Internet",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "nett",
+      "nettet",
+      "nett",
+      "netta/nettene"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Jeg fant artikkelen på nettet.",
+      "de": "Ich habe den Artikel im Internet gefunden."
+    },
+    "note": "på nettet = im Internet"
+  },
+  {
+    "id": "w16_ko",
+    "no": "kø",
+    "de": "die (Warte-)Schlange",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "kø",
+      "køen",
+      "køer",
+      "køene"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Køen var så lang at hun måtte vente i en time.",
+      "de": "Die Schlange war so lang, dass sie eine Stunde warten musste."
+    },
+    "note": "stå i kø = Schlange stehen"
+  },
+  {
+    "id": "w16_registrere_seg",
+    "no": "registrere seg",
+    "de": "sich registrieren, sich einschreiben",
+    "pos": "verb",
+    "vf": [
+      "registrerer seg",
+      "registrerte seg",
+      "registrert seg",
+      "registrer deg"
+    ],
+    "vg": "2",
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Alle må registrere seg før fristen.",
+      "de": "Alle müssen sich vor Ablauf der Frist registrieren."
+    }
+  },
+  {
+    "id": "w16_melde_seg_opp",
+    "no": "melde seg opp",
+    "de": "sich (zur Prüfung) anmelden",
+    "pos": "verb",
+    "vf": [
+      "melder seg opp",
+      "meldte seg opp",
+      "meldt seg opp",
+      "meld deg opp"
+    ],
+    "vg": "2",
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Jeg må melde meg opp til eksamen.",
+      "de": "Ich muss mich zur Prüfung anmelden."
+    }
+  },
+  {
+    "id": "w16_laane",
+    "no": "låne",
+    "de": "(aus)leihen",
+    "pos": "verb",
+    "vf": [
+      "låner",
+      "lånte",
+      "lånt",
+      "lån"
+    ],
+    "vg": "2",
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Kan jeg låne denne boka?",
+      "de": "Kann ich dieses Buch ausleihen?"
+    },
+    "note": "låne = sich etwas leihen; låne bort / låne ut = verleihen"
+  },
+  {
+    "id": "w16_levere",
+    "no": "levere",
+    "de": "abgeben, liefern",
+    "pos": "verb",
+    "vf": [
+      "leverer",
+      "leverte",
+      "levert",
+      "lever"
+    ],
+    "vg": "2",
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Jeg skal levere oppgaven i morgen.",
+      "de": "Ich gebe die Arbeit morgen ab."
+    }
+  },
+  {
+    "id": "w16_bestaa",
+    "no": "bestå",
+    "de": "bestehen (Prüfung)",
+    "pos": "verb",
+    "vf": [
+      "består",
+      "besto/bestod",
+      "bestått",
+      "bestå"
+    ],
+    "vg": "sterk",
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Hun besto eksamen med A.",
+      "de": "Sie hat die Prüfung mit A bestanden."
+    }
+  },
+  {
+    "id": "w16_stryke",
+    "no": "stryke",
+    "de": "durchfallen (stryke på eksamen); bügeln",
+    "pos": "verb",
+    "vf": [
+      "stryker",
+      "strøk",
+      "strøket",
+      "stryk"
+    ],
+    "vg": "sterk",
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Han strøk på eksamen i fjor.",
+      "de": "Er ist letztes Jahr durch die Prüfung gefallen."
+    }
+  },
+  {
+    "id": "w16_vaakne",
+    "no": "våkne",
+    "de": "aufwachen",
+    "pos": "verb",
+    "vf": [
+      "våkner",
+      "våknet/våkna",
+      "våknet/våkna",
+      "våkn"
+    ],
+    "vg": "1",
+    "lesson": 16,
+    "ex": {
+      "no": "Da hun våknet, var det mørkt.",
+      "de": "Als sie aufwachte, war es dunkel."
+    }
+  },
+  {
+    "id": "w16_skjonne",
+    "no": "skjønne",
+    "de": "verstehen, begreifen",
+    "pos": "verb",
+    "vf": [
+      "skjønner",
+      "skjønte",
+      "skjønt",
+      "skjønn"
+    ],
+    "vg": "2",
+    "lesson": 16,
+    "ex": {
+      "no": "Susanne skjønte ikke hvorfor de lo.",
+      "de": "Susanne verstand nicht, warum sie lachten."
+    },
+    "note": "Im Alltag oft statt forstå: Skjønner du?"
+  },
+  {
+    "id": "w16_puste",
+    "no": "puste",
+    "de": "atmen",
+    "pos": "verb",
+    "vf": [
+      "puster",
+      "pustet/pusta",
+      "pustet/pusta",
+      "pust"
+    ],
+    "vg": "1",
+    "lesson": 16,
+    "ex": {
+      "no": "Mange i Nord-Norge sier ja mens de puster inn.",
+      "de": "Viele in Nordnorwegen sagen beim Einatmen ja."
+    },
+    "note": "puste inn = einatmen, puste ut = ausatmen"
+  },
+  {
+    "id": "w16_lande",
+    "no": "lande",
+    "de": "landen",
+    "pos": "verb",
+    "vf": [
+      "lander",
+      "landet/landa",
+      "landet/landa",
+      "land"
+    ],
+    "vg": "1",
+    "lesson": 16,
+    "ex": {
+      "no": "Flyet landet i Tromsø om kvelden.",
+      "de": "Das Flugzeug landete am Abend in Tromsø."
+    }
+  },
+  {
+    "id": "w16_dele",
+    "no": "dele",
+    "de": "teilen",
+    "pos": "verb",
+    "vf": [
+      "deler",
+      "delte",
+      "delt",
+      "del"
+    ],
+    "vg": "2",
+    "lesson": 16,
+    "ex": {
+      "no": "Susanne deler leilighet med Inga.",
+      "de": "Susanne teilt sich eine Wohnung mit Inga."
+    },
+    "note": "dele inn i = einteilen in"
+  },
+  {
+    "id": "w16_hente",
+    "no": "hente",
+    "de": "(ab)holen",
+    "pos": "verb",
+    "vf": [
+      "henter",
+      "hentet/henta",
+      "hentet/henta",
+      "hent"
+    ],
+    "vg": "1",
+    "lesson": 16,
+    "ex": {
+      "no": "Hun hentet studentkortet sitt.",
+      "de": "Sie holte ihren Studentenausweis ab."
+    }
+  },
+  {
+    "id": "w16_samle",
+    "no": "samle",
+    "de": "sammeln",
+    "pos": "verb",
+    "vf": [
+      "samler",
+      "samlet/samla",
+      "samlet/samla",
+      "saml"
+    ],
+    "vg": "1",
+    "lesson": 16,
+    "ex": {
+      "no": "Ivar Aasen samlet ord fra dialektene.",
+      "de": "Ivar Aasen sammelte Wörter aus den Dialekten."
+    }
+  },
+  {
+    "id": "w16_kalle",
+    "no": "kalle",
+    "de": "nennen, rufen",
+    "pos": "verb",
+    "vf": [
+      "kaller",
+      "kalte",
+      "kalt",
+      "kall"
+    ],
+    "vg": "2",
+    "lesson": 16,
+    "ex": {
+      "no": "I dag kaller vi det bokmål.",
+      "de": "Heute nennen wir es Bokmål."
+    }
+  },
+  {
+    "id": "w16_gi_ut",
+    "no": "gi ut",
+    "de": "herausgeben, veröffentlichen",
+    "pos": "verb",
+    "vf": [
+      "gir ut",
+      "ga/gav ut",
+      "gitt ut",
+      "gi ut"
+    ],
+    "vg": "sterk",
+    "lesson": 16,
+    "ex": {
+      "no": "Aasen ga ut en ordbok i 1850.",
+      "de": "Aasen gab 1850 ein Wörterbuch heraus."
+    }
+  },
+  {
+    "id": "w16_bety",
+    "no": "bety",
+    "de": "bedeuten",
+    "pos": "verb",
+    "vf": [
+      "betyr",
+      "betydde",
+      "betydd",
+      "bety"
+    ],
+    "vg": "4",
+    "lesson": 16,
+    "ex": {
+      "no": "Hva betyr «æ»? Det betyr «jeg».",
+      "de": "Was bedeutet „æ“? Es bedeutet „ich“."
+    }
+  },
+  {
+    "id": "w16_le",
+    "no": "le",
+    "de": "lachen",
+    "pos": "verb",
+    "vf": [
+      "ler",
+      "lo",
+      "ledd",
+      "le"
+    ],
+    "vg": "sterk",
+    "lesson": 16,
+    "ex": {
+      "no": "Professoren lo mye.",
+      "de": "Der Professor lachte viel."
+    }
+  },
+  {
+    "id": "w16_sno",
+    "no": "snø",
+    "de": "schneien",
+    "pos": "verb",
+    "vf": [
+      "snør",
+      "snødde",
+      "snødd",
+      "snø"
+    ],
+    "vg": "4",
+    "lesson": 16,
+    "ex": {
+      "no": "Det hadde begynt å snø.",
+      "de": "Es hatte angefangen zu schneien."
+    }
+  },
+  {
+    "id": "w16_foreslaa",
+    "no": "foreslå",
+    "de": "vorschlagen",
+    "pos": "verb",
+    "vf": [
+      "foreslår",
+      "foreslo",
+      "foreslått",
+      "foreslå"
+    ],
+    "vg": "sterk",
+    "lesson": 16,
+    "ex": {
+      "no": "Professoren foreslo et tema for oppgaven.",
+      "de": "Der Professor schlug ein Thema für die Arbeit vor."
+    }
+  },
+  {
+    "id": "w16_spent",
+    "no": "spent",
+    "de": "gespannt, aufgeregt",
+    "pos": "adj",
+    "forms": [
+      "spent",
+      "spent",
+      "spente"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Hun var så spent at hun ikke kunne sove.",
+      "de": "Sie war so aufgeregt, dass sie nicht schlafen konnte."
+    }
+  },
+  {
+    "id": "w16_ryddig",
+    "no": "ryddig",
+    "de": "ordentlich, aufgeräumt",
+    "pos": "adj",
+    "forms": [
+      "ryddig",
+      "ryddig",
+      "ryddige",
+      "ryddigere",
+      "ryddigst"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Rommet til Inga er alltid ryddig.",
+      "de": "Ingas Zimmer ist immer ordentlich."
+    }
+  },
+  {
+    "id": "w16_nordlig",
+    "no": "nordlig",
+    "de": "nördlich",
+    "pos": "adj",
+    "forms": [
+      "nordlig",
+      "nordlig",
+      "nordlige",
+      "nordligere",
+      "nordligst"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "UiT kaller seg verdens nordligste universitet.",
+      "de": "Die UiT nennt sich die nördlichste Universität der Welt."
+    }
+  },
+  {
+    "id": "w16_arktisk",
+    "no": "arktisk",
+    "de": "arktisch",
+    "pos": "adj",
+    "forms": [
+      "arktisk",
+      "arktisk",
+      "arktiske"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "UiT Norges arktiske universitet ligger i Tromsø.",
+      "de": "Die UiT – Norwegens arktische Universität liegt in Tromsø."
+    }
+  },
+  {
+    "id": "w16_internasjonal",
+    "no": "internasjonal",
+    "de": "international",
+    "pos": "adj",
+    "forms": [
+      "internasjonal",
+      "internasjonalt",
+      "internasjonale"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Det var et møte for internasjonale studenter.",
+      "de": "Es war ein Treffen für internationale Studierende."
+    }
+  },
+  {
+    "id": "w16_snodekt",
+    "no": "snødekt",
+    "de": "schneebedeckt",
+    "pos": "adj",
+    "forms": [
+      "snødekt",
+      "snødekt",
+      "snødekte"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Fra biblioteket ser hun snødekte fjell.",
+      "de": "Von der Bibliothek aus sieht sie schneebedeckte Berge."
+    }
+  },
+  {
+    "id": "w16_vant",
+    "no": "vant",
+    "de": "gewohnt (vant til = gewohnt an)",
+    "pos": "adj",
+    "forms": [
+      "vant",
+      "vant",
+      "vante"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Jeg er ikke vant til dialekten.",
+      "de": "Ich bin den Dialekt nicht gewohnt."
+    }
+  },
+  {
+    "id": "w16_lys",
+    "no": "lys",
+    "de": "hell",
+    "pos": "adj",
+    "forms": [
+      "lys",
+      "lyst",
+      "lyse",
+      "lysere",
+      "lysest"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Biblioteket er stort og lyst.",
+      "de": "Die Bibliothek ist groß und hell."
+    },
+    "note": "Auch Substantiv: et lys = ein Licht, eine Kerze."
+  },
+  {
+    "id": "w16_offisiell",
+    "no": "offisiell",
+    "de": "offiziell",
+    "pos": "adj",
+    "forms": [
+      "offisiell",
+      "offisielt",
+      "offisielle"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Norge har to offisielle skriftspråk.",
+      "de": "Norwegen hat zwei offizielle Schriftsprachen."
+    }
+  },
+  {
+    "id": "w16_muntlig",
+    "no": "muntlig",
+    "de": "mündlich",
+    "pos": "adj",
+    "forms": [
+      "muntlig",
+      "muntlig",
+      "muntlige"
+    ],
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Eksamen er muntlig.",
+      "de": "Die Prüfung ist mündlich."
+    }
+  },
+  {
+    "id": "w16_skriftlig",
+    "no": "skriftlig",
+    "de": "schriftlich",
+    "pos": "adj",
+    "forms": [
+      "skriftlig",
+      "skriftlig",
+      "skriftlige"
+    ],
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Vi har en skriftlig eksamen i desember.",
+      "de": "Wir haben im Dezember eine schriftliche Prüfung."
+    }
+  },
+  {
+    "id": "w16_nordnorsk",
+    "no": "nordnorsk",
+    "de": "nordnorwegisch",
+    "pos": "adj",
+    "forms": [
+      "nordnorsk",
+      "nordnorsk",
+      "nordnorske"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Professoren snakket nordnorsk.",
+      "de": "Der Professor sprach Nordnorwegisch."
+    }
+  },
+  {
+    "id": "w16_samisk",
+    "no": "samisk",
+    "de": "samisch",
+    "pos": "adj",
+    "forms": [
+      "samisk",
+      "samisk",
+      "samiske"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Bidos er en samisk rett.",
+      "de": "Bidos ist ein samisches Gericht."
+    },
+    "note": "Als Sprache: samisk (Samisch); eine Person: en same (ein Same / eine Samin)."
+  },
+  {
+    "id": "w16_nordisk",
+    "no": "nordisk",
+    "de": "nordisch (skandinavisch)",
+    "pos": "adj",
+    "forms": [
+      "nordisk",
+      "nordisk",
+      "nordiske"
+    ],
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Hun studerer nordisk språk og litteratur.",
+      "de": "Sie studiert Nordische Sprache und Literatur."
+    }
+  },
+  {
+    "id": "w16_ulik",
+    "no": "ulik",
+    "de": "unterschiedlich, verschieden",
+    "pos": "adj",
+    "forms": [
+      "ulik",
+      "ulikt",
+      "ulike"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Mange ord har ulik form på bokmål og nynorsk.",
+      "de": "Viele Wörter haben auf Bokmål und Nynorsk unterschiedliche Formen."
+    }
+  },
+  {
+    "id": "w16_lik",
+    "no": "lik",
+    "de": "gleich, ähnlich",
+    "pos": "adj",
+    "forms": [
+      "lik",
+      "likt",
+      "like"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Bokmål og nynorsk er ganske like.",
+      "de": "Bokmål und Nynorsk sind ziemlich ähnlich."
+    }
+  },
+  {
+    "id": "w16_flytur",
+    "no": "flytur",
+    "de": "der Flug",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "flytur",
+      "flyturen",
+      "flyturer",
+      "flyturene"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Flyturen fra Oslo til Tromsø gikk fint.",
+      "de": "Der Flug von Oslo nach Tromsø verlief gut."
+    }
+  },
+  {
+    "id": "w16_koffert",
+    "no": "koffert",
+    "de": "der Koffer",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "koffert",
+      "kofferten",
+      "kofferter",
+      "koffertene"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Rommet var fullt av kofferter.",
+      "de": "Das Zimmer war voller Koffer."
+    }
+  },
+  {
+    "id": "w16_bygning",
+    "no": "bygning",
+    "de": "das Gebäude",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "bygning",
+      "bygningen",
+      "bygninger",
+      "bygningene"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Hun fant ikke den riktige bygningen.",
+      "de": "Sie fand das richtige Gebäude nicht."
+    }
+  },
+  {
+    "id": "w16_utsikt",
+    "no": "utsikt",
+    "de": "die Aussicht, der Blick",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "utsikt",
+      "utsikten",
+      "utsikter",
+      "utsiktene"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Biblioteket har utsikt mot fjellene.",
+      "de": "Die Bibliothek hat Blick auf die Berge."
+    }
+  },
+  {
+    "id": "w16_vits",
+    "no": "vits",
+    "de": "der Witz",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "vits",
+      "vitsen",
+      "vitser",
+      "vitsene"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Professoren fortalte mange vitser.",
+      "de": "Der Professor erzählte viele Witze."
+    },
+    "note": "Hva er vitsen? = Was soll das (für einen Sinn haben)?"
+  },
+  {
+    "id": "w16_gryterett",
+    "no": "gryterett",
+    "de": "der Eintopf, das Schmorgericht",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "gryterett",
+      "gryteretten",
+      "gryteretter",
+      "gryterettene"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Bidos er en samisk gryterett.",
+      "de": "Bidos ist ein samischer Eintopf."
+    }
+  },
+  {
+    "id": "w16_reinkjott",
+    "no": "reinkjøtt",
+    "de": "das Rentierfleisch",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "reinkjøtt",
+      "reinkjøttet"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Inga lagde middag med reinkjøtt.",
+      "de": "Inga kochte ein Abendessen mit Rentierfleisch."
+    },
+    "note": "en rein = ein Rentier"
+  },
+  {
+    "id": "w16_halvpart",
+    "no": "halvpart",
+    "de": "die Hälfte",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "halvpart",
+      "halvparten",
+      "halvparter",
+      "halvpartene"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Jeg forsto bare halvparten.",
+      "de": "Ich habe nur die Hälfte verstanden."
+    },
+    "note": "Fast immer bestimmt: halvparten av …"
+  },
+  {
+    "id": "w16_dialekt",
+    "no": "dialekt",
+    "de": "der Dialekt",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "dialekt",
+      "dialekten",
+      "dialekter",
+      "dialektene"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "I Norge snakker folk dialekt overalt.",
+      "de": "In Norwegen sprechen die Leute überall Dialekt."
+    }
+  },
+  {
+    "id": "w16_skriftspraak",
+    "no": "skriftspråk",
+    "de": "die Schriftsprache",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "skriftspråk",
+      "skriftspråket",
+      "skriftspråk",
+      "skriftspråka/skriftspråkene"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Bokmål og nynorsk er to skriftspråk.",
+      "de": "Bokmål und Nynorsk sind zwei Schriftsprachen."
+    }
+  },
+  {
+    "id": "w16_talespraak",
+    "no": "talespråk",
+    "de": "die gesprochene Sprache",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "talespråk",
+      "talespråket",
+      "talespråk",
+      "talespråka/talespråkene"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Talespråket er ofte annerledes enn skriftspråket.",
+      "de": "Die gesprochene Sprache ist oft anders als die Schriftsprache."
+    }
+  },
+  {
+    "id": "w16_ordbok",
+    "no": "ordbok",
+    "de": "das Wörterbuch",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "ordbok",
+      "ordboka/ordboken",
+      "ordbøker",
+      "ordbøkene"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Hun slår opp ordet i ordboka.",
+      "de": "Sie schlägt das Wort im Wörterbuch nach."
+    }
+  },
+  {
+    "id": "w16_grammatikk",
+    "no": "grammatikk",
+    "de": "die Grammatik",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "grammatikk",
+      "grammatikken",
+      "grammatikker",
+      "grammatikkene"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Norsk grammatikk er ikke så vanskelig.",
+      "de": "Die norwegische Grammatik ist nicht so schwer."
+    }
+  },
+  {
+    "id": "w16_spraakforsker",
+    "no": "språkforsker",
+    "de": "der Sprachforscher / die Sprachforscherin",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "språkforsker",
+      "språkforskeren",
+      "språkforskere",
+      "språkforskerne"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Ivar Aasen var en kjent språkforsker.",
+      "de": "Ivar Aasen war ein bekannter Sprachforscher."
+    }
+  },
+  {
+    "id": "w16_union",
+    "no": "union",
+    "de": "die Union",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "union",
+      "unionen",
+      "unioner",
+      "unionene"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Norge var i union med Danmark fram til 1814.",
+      "de": "Norwegen war bis 1814 in einer Union mit Dänemark."
+    }
+  },
+  {
+    "id": "w16_rot",
+    "no": "rot",
+    "de": "die Wurzel",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "rot",
+      "rota/roten",
+      "røtter",
+      "røttene"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Bokmål har røtter i dansk.",
+      "de": "Bokmål hat Wurzeln im Dänischen."
+    },
+    "note": "Achtung: et rot = die Unordnung (anderes Wort)."
+  },
+  {
+    "id": "w16_hovedmaal",
+    "no": "hovedmål",
+    "de": "die Hauptsprache (in der Schule)",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "hovedmål",
+      "hovedmålet",
+      "hovedmål",
+      "hovedmåla/hovedmålene"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "De fleste elever har bokmål som hovedmål.",
+      "de": "Die meisten Schüler haben Bokmål als Hauptsprache."
+    }
+  },
+  {
+    "id": "w16_sidemaal",
+    "no": "sidemål",
+    "de": "die zweite Schriftsprache (Schulfach)",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "sidemål",
+      "sidemålet",
+      "sidemål",
+      "sidemåla/sidemålene"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Ola synes sidemål er vanskelig.",
+      "de": "Ola findet die zweite Schriftsprache schwierig."
+    }
+  },
+  {
+    "id": "w16_fag",
+    "no": "fag",
+    "de": "das Fach",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "fag",
+      "faget",
+      "fag",
+      "faga/fagene"
+    ],
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Biologi er Ingas favorittfag.",
+      "de": "Biologie ist Ingas Lieblingsfach."
+    }
+  },
+  {
+    "id": "w16_same",
+    "no": "same",
+    "de": "der Same / die Samin",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "same",
+      "samen",
+      "samer",
+      "samene"
+    ],
+    "lesson": 16,
+    "ex": {
+      "no": "Inga er same og snakker nordsamisk.",
+      "de": "Inga ist Samin und spricht Nordsamisch."
+    }
+  },
+  {
+    "id": "w16_da",
+    "no": "da",
+    "de": "als (einmal, in der Vergangenheit)",
+    "pos": "conj",
+    "lesson": 16,
+    "ex": {
+      "no": "Da hun kom hjem, var det mørkt.",
+      "de": "Als sie nach Hause kam, war es dunkel."
+    },
+    "note": "Nur für ein einzelnes Ereignis in der Vergangenheit; sonst når."
+  },
+  {
+    "id": "w16_naar",
+    "no": "når",
+    "de": "wenn (immer wenn; Zukunft)",
+    "pos": "conj",
+    "lesson": 16,
+    "ex": {
+      "no": "Når jeg kommer hjem, ringer jeg deg.",
+      "de": "Wenn ich nach Hause komme, rufe ich dich an."
+    }
+  },
+  {
+    "id": "w16_mens",
+    "no": "mens",
+    "de": "während",
+    "pos": "conj",
+    "lesson": 16,
+    "ex": {
+      "no": "Mens de spiste, skrev hun en liste.",
+      "de": "Während sie aßen, schrieb sie eine Liste."
+    }
+  },
+  {
+    "id": "w16_etter_at",
+    "no": "etter at",
+    "de": "nachdem",
+    "pos": "conj",
+    "lesson": 16,
+    "ex": {
+      "no": "Etter at møtet var slutt, gikk hun til biblioteket.",
+      "de": "Nachdem die Veranstaltung zu Ende war, ging sie in die Bibliothek."
+    }
+  },
+  {
+    "id": "w16_saa_snart",
+    "no": "så snart",
+    "de": "sobald",
+    "pos": "conj",
+    "lesson": 16,
+    "ex": {
+      "no": "Han svarte så snart han hadde lest meldingen.",
+      "de": "Er antwortete, sobald er die Nachricht gelesen hatte."
+    }
+  },
+  {
+    "id": "w16_siden",
+    "no": "siden",
+    "de": "seit(dem); da (Grund)",
+    "pos": "conj",
+    "lesson": 16,
+    "ex": {
+      "no": "Siden du ikke forstår dialekten, kan du spørre Inga.",
+      "de": "Da du den Dialekt nicht verstehst, kannst du Inga fragen."
+    }
+  },
+  {
+    "id": "w16_selv_om",
+    "no": "selv om",
+    "de": "obwohl, auch wenn",
+    "pos": "conj",
+    "lesson": 16,
+    "ex": {
+      "no": "Det var mørkt, selv om klokka bare var fire.",
+      "de": "Es war dunkel, obwohl es erst vier Uhr war."
+    }
+  },
+  {
+    "id": "w16_som_om",
+    "no": "som om",
+    "de": "als ob",
+    "pos": "conj",
+    "lesson": 16,
+    "ex": {
+      "no": "Han lo som om han fortalte vitser.",
+      "de": "Er lachte, als ob er Witze erzählte."
+    }
+  },
+  {
+    "id": "w16_for_at",
+    "no": "for at",
+    "de": "damit",
+    "pos": "conj",
+    "lesson": 16,
+    "ex": {
+      "no": "Hun snakker langsomt for at alle skal forstå.",
+      "de": "Sie spricht langsam, damit alle verstehen."
+    }
+  },
+  {
+    "id": "w16_fortsatt",
+    "no": "fortsatt",
+    "de": "noch (immer), weiterhin",
+    "pos": "adv",
+    "lesson": 16,
+    "ex": {
+      "no": "Det var fortsatt mørkt ute.",
+      "de": "Draußen war es noch dunkel."
+    }
+  },
+  {
+    "id": "w16_gradvis",
+    "no": "gradvis",
+    "de": "allmählich, nach und nach",
+    "pos": "adv",
+    "lesson": 16,
+    "ex": {
+      "no": "Språket ble gradvis mer norsk.",
+      "de": "Die Sprache wurde nach und nach norwegischer."
+    }
+  },
+  {
+    "id": "w16_omtrent",
+    "no": "omtrent",
+    "de": "ungefähr, etwa",
+    "pos": "adv",
+    "lesson": 16,
+    "ex": {
+      "no": "Omtrent ni av ti elever skriver bokmål.",
+      "de": "Etwa neun von zehn Schülern schreiben Bokmål."
+    }
+  },
+  {
+    "id": "w16_innen",
+    "no": "innen",
+    "de": "bis (spätestens), innerhalb",
+    "pos": "prep",
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Du må levere oppgaven innen fredag.",
+      "de": "Du musst die Arbeit bis Freitag abgeben."
+    }
+  },
+  {
+    "id": "w16_ta_eksamen",
+    "no": "ta eksamen",
+    "de": "eine Prüfung ablegen",
+    "pos": "phrase",
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Du må registrere deg før du kan ta eksamen.",
+      "de": "Du musst dich registrieren, bevor du die Prüfung ablegen kannst."
+    }
+  },
+  {
+    "id": "w16_lese_til_eksamen",
+    "no": "lese til eksamen",
+    "de": "für eine Prüfung lernen",
+    "pos": "phrase",
+    "lesson": 16,
+    "wk": true,
+    "ex": {
+      "no": "Hun leser til eksamen hele helga.",
+      "de": "Sie lernt das ganze Wochenende für die Prüfung."
+    }
+  },
+  {
+    "id": "w16_det_gjor_ingenting",
+    "no": "det gjør ingenting",
+    "de": "das macht nichts",
+    "pos": "phrase",
+    "lesson": 16,
+    "ex": {
+      "no": "– Unnskyld! – Det gjør ingenting.",
+      "de": "– Entschuldigung! – Das macht nichts."
+    }
+  },
+  {
+    "id": "w16_naar_det_gjelder",
+    "no": "når det gjelder",
+    "de": "was … betrifft",
+    "pos": "phrase",
+    "lesson": 16,
+    "ex": {
+      "no": "Når det gjelder dialekter, er Norge et spesielt land.",
+      "de": "Was Dialekte betrifft, ist Norwegen ein besonderes Land."
+    }
+  },
+  {
+    "id": "w16_paa_grunnlag_av",
+    "no": "på grunnlag av",
+    "de": "auf der Grundlage von",
+    "pos": "phrase",
+    "lesson": 16,
+    "ex": {
+      "no": "Aasen laget nynorsk på grunnlag av dialektene.",
+      "de": "Aasen schuf Nynorsk auf der Grundlage der Dialekte."
+    }
+  },
+  {
+    "id": "w16_i_det_hele_tatt",
+    "no": "i det hele tatt",
+    "de": "überhaupt",
+    "pos": "phrase",
+    "lesson": 16,
+    "ex": {
+      "no": "Jeg forsto ikke noe i det hele tatt.",
+      "de": "Ich habe überhaupt nichts verstanden."
+    }
+  }
+]

@@ -1,0 +1,1318 @@
+{
+  "n": 16,
+  "level": "B1",
+  "title": "Susannes første dag på Universitetet i Tromsø",
+  "titleDe": "Susannes erster Tag an der Universität Tromsø",
+  "place": "Tromsø, UiT Norges arktiske universitet",
+  "goals": [
+    "Du kannst vom ersten Tag an einer Universität erzählen: Infoveranstaltung, Einschreibung, Bibliothek, Vorlesung.",
+    "Du drückst Zugehörigkeit mit Präpositionen aus: rommet til Inga, taket på huset, Universitetet i Tromsø, en venn av meg.",
+    "Du verbindest Sätze mit Zeitkonjunktionen wie da, når, mens, før, etter at und så snart – und achtest auf die Inversion danach.",
+    "Du begründest und schränkst ein mit fordi, siden, hvis, for at, så at, selv om und som om.",
+    "Du erfährst, warum Norwegen zwei Schriftsprachen und so viele Dialekte hat."
+  ],
+  "text": {
+    "id": "t16",
+    "title": "Susannes første dag på Universitetet i Tromsø",
+    "titleDe": "Susannes erster Tag an der Universität Tromsø",
+    "kind": "prose",
+    "intro": "Anfang November ist Susanne von Oslo nach Tromsø gezogen. Heute beginnt ihr Austauschsemester an der UiT Norges arktiske universitet.",
+    "lines": [
+      {
+        "no": "Da Susanne våknet mandag morgen, var det fortsatt mørkt ute. Hun hadde sovet dårlig fordi hun var så spent. Kvelden før hadde hun landet i Tromsø etter flyturen fra Oslo, og alt var nytt: byen, leiligheten og den kalde, klare lufta.",
+        "de": "Als Susanne am Montagmorgen aufwachte, war es draußen noch dunkel. Sie hatte schlecht geschlafen, weil sie so aufgeregt war. Am Abend davor war sie nach dem Flug aus Oslo in Tromsø gelandet, und alles war neu: die Stadt, die Wohnung und die kalte, klare Luft."
+      },
+      {
+        "no": "Susanne delte leilighet med Inga Eira, en samisk jente på 23 år fra Kautokeino. Inga studerte biologi og hadde allerede bodd i Tromsø i to år. Rommet til Inga var lite og ryddig, mens rommet til Susanne var fullt av kofferter og klær.",
+        "de": "Susanne teilte sich eine Wohnung mit Inga Eira, einer 23-jährigen Samin aus Kautokeino. Inga studierte Biologie und wohnte schon seit zwei Jahren in Tromsø. Ingas Zimmer war klein und ordentlich, während Susannes Zimmer voller Koffer und Kleider war."
+      },
+      {
+        "no": "«Bare spør hvis du trenger noe,» sa Inga mens hun lagde frokost til dem begge. Før Susanne gikk, viste Inga henne veien til bussen.",
+        "de": "„Frag einfach, wenn du etwas brauchst“, sagte Inga, während sie für sie beide Frühstück machte. Bevor Susanne ging, zeigte Inga ihr den Weg zum Bus."
+      },
+      {
+        "no": "Klokka ti begynte informasjonsmøtet for internasjonale studenter. En dame fra det internasjonale kontoret ønsket alle velkommen til «verdens nordligste universitet». Hun forklarte at alle måtte registrere seg og betale semesteravgifta før de kunne ta eksamen. Susanne satt ved siden av en student fra Italia, og begge to tok mange notater.",
+        "de": "Um zehn Uhr begann die Infoveranstaltung für internationale Studierende. Eine Frau vom International Office hieß alle an der „nördlichsten Universität der Welt“ willkommen. Sie erklärte, dass sich alle registrieren und die Semestergebühr bezahlen müssten, bevor sie Prüfungen ablegen könnten. Susanne saß neben einem Studenten aus Italien, und beide machten sich viele Notizen."
+      },
+      {
+        "no": "Etter at møtet var slutt, hentet hun studentkortet sitt. Køen var så lang at hun måtte vente i nesten en time. Så snart hun hadde fått kortet, gikk hun til biblioteket. Det var stort og lyst, med store vinduer og utsikt mot snødekte fjell. En hyggelig bibliotekar viste henne hvordan hun kunne låne bøker og finne artikler på nettet.",
+        "de": "Nachdem die Veranstaltung zu Ende war, holte sie ihren Studentenausweis ab. Die Schlange war so lang, dass sie fast eine Stunde warten musste. Sobald sie den Ausweis bekommen hatte, ging sie in die Bibliothek. Sie war groß und hell, mit großen Fenstern und Blick auf schneebedeckte Berge. Eine freundliche Bibliothekarin zeigte ihr, wie sie Bücher ausleihen und Artikel im Internet finden konnte."
+      },
+      {
+        "no": "Den første forelesningen hennes var i nordisk språkvitenskap. Temaet var norske dialekter, og professoren, en eldre mann fra Senja, snakket selv nordnorsk. Han snakket fort og lo mye, som om han fortalte vitser hele tiden. De andre studentene lo også, men Susanne skjønte ikke hvorfor. Han brukte mange ord som hun aldri hadde hørt før.",
+        "de": "Ihre erste Vorlesung war in Nordischer Sprachwissenschaft. Das Thema waren norwegische Dialekte, und der Professor, ein älterer Mann aus Senja, sprach selbst Nordnorwegisch. Er sprach schnell und lachte viel, als ob er die ganze Zeit Witze erzählte. Die anderen Studierenden lachten auch, aber Susanne verstand nicht, warum. Er benutzte viele Wörter, die sie noch nie gehört hatte."
+      },
+      {
+        "no": "Etter forelesningen gikk hun bort til professoren. «Unnskyld, jeg forsto ikke alt fordi jeg ikke er vant til dialekten,» sa hun.",
+        "de": "Nach der Vorlesung ging sie zum Professor. „Entschuldigung, ich habe nicht alles verstanden, weil ich den Dialekt nicht gewohnt bin“, sagte sie."
+      },
+      {
+        "no": "Professoren smilte. «Det gjør ingenting. Når du har bodd her i noen måneder, kommer du til å forstå mye mer.»",
+        "de": "Der Professor lächelte. „Das macht nichts. Wenn du ein paar Monate hier gewohnt hast, wirst du viel mehr verstehen.“"
+      },
+      {
+        "no": "Så ga han henne pensumlista. «Og hvis du vil, kan du skrive semesteroppgaven din om nordnorsk!» sa han.",
+        "de": "Dann gab er ihr die Literaturliste. „Und wenn du willst, kannst du deine Semesterarbeit über Nordnorwegisch schreiben!“, sagte er."
+      },
+      {
+        "no": "Da hun kom ut av bygningen, var det allerede mørkt, selv om klokka bare var fire. Det hadde begynt å snø, og lysene i byen glitret i mørket. Hjemme hadde Inga laget bidos, en samisk gryterett med reinkjøtt, poteter og gulrøtter.",
+        "de": "Als sie aus dem Gebäude kam, war es schon dunkel, obwohl es erst vier Uhr war. Es hatte angefangen zu schneien, und die Lichter der Stadt glitzerten in der Dunkelheit. Zu Hause hatte Inga Bidos gekocht, einen samischen Eintopf mit Rentierfleisch, Kartoffeln und Möhren."
+      },
+      {
+        "no": "Mens de spiste, skrev Susanne en liste i notatboka si. «Det forsto jeg: hvor biblioteket ligger, hvordan jeg låner bøker, og at jeg må registrere meg før fristen. Det forsto jeg ikke: halvparten av forelesningen, navnet på bygningen der neste forelesning skal være, og hvorfor folk her sier ja mens de puster inn.»",
+        "de": "Während sie aßen, schrieb Susanne eine Liste in ihr Notizbuch. „Das habe ich verstanden: wo die Bibliothek ist, wie ich Bücher ausleihe und dass ich mich vor Ablauf der Frist registrieren muss. Das habe ich nicht verstanden: die Hälfte der Vorlesung, den Namen des Gebäudes, in dem die nächste Vorlesung sein soll, und warum die Leute hier beim Einatmen ‚ja‘ sagen.“"
+      },
+      {
+        "no": "Inga lo da hun leste lista. «Det siste gjør vi uten å tenke på det. Det er helt vanlig i Nord-Norge,» sa hun.",
+        "de": "Inga lachte, als sie die Liste las. „Das Letzte machen wir, ohne darüber nachzudenken. Das ist in Nordnorwegen ganz normal“, sagte sie."
+      },
+      {
+        "no": "Før hun la seg, sendte Susanne en melding til Matthias i Bergen: «Første dag er over. Jeg forsto bare halvparten, men jeg har det kjempefint her!»",
+        "de": "Bevor sie schlafen ging, schickte Susanne Matthias in Bergen eine Nachricht: „Der erste Tag ist vorbei. Ich habe nur die Hälfte verstanden, aber mir geht es hier super!“"
+      },
+      {
+        "no": "Han svarte så snart han hadde lest den: «Halvparten er bra. Jeg forstår fortsatt ikke halvparten av det fru Solheim sier.»",
+        "de": "Er antwortete, sobald er sie gelesen hatte: „Die Hälfte ist gut. Ich verstehe immer noch nicht die Hälfte von dem, was Frau Solheim sagt.“"
+      }
+    ],
+    "glossary": [
+      {
+        "no": "våknet",
+        "de": "wachte auf"
+      },
+      {
+        "no": "fortsatt",
+        "de": "noch (immer)"
+      },
+      {
+        "no": "spent",
+        "de": "gespannt, aufgeregt"
+      },
+      {
+        "no": "flyturen",
+        "de": "der Flug"
+      },
+      {
+        "no": "lufta",
+        "de": "die Luft"
+      },
+      {
+        "no": "delte leilighet med",
+        "de": "teilte sich eine Wohnung mit"
+      },
+      {
+        "no": "ryddig",
+        "de": "ordentlich, aufgeräumt"
+      },
+      {
+        "no": "kofferter",
+        "de": "Koffer (Plural)"
+      },
+      {
+        "no": "Bare spør",
+        "de": "Frag einfach"
+      },
+      {
+        "no": "lagde frokost",
+        "de": "machte Frühstück"
+      },
+      {
+        "no": "til dem begge",
+        "de": "für sie beide"
+      },
+      {
+        "no": "informasjonsmøtet",
+        "de": "die Infoveranstaltung"
+      },
+      {
+        "no": "ønsket alle velkommen",
+        "de": "hieß alle willkommen"
+      },
+      {
+        "no": "verdens nordligste universitet",
+        "de": "die nördlichste Universität der Welt"
+      },
+      {
+        "no": "registrere seg",
+        "de": "sich registrieren, sich einschreiben"
+      },
+      {
+        "no": "semesteravgifta",
+        "de": "die Semestergebühr"
+      },
+      {
+        "no": "ta eksamen",
+        "de": "eine Prüfung ablegen"
+      },
+      {
+        "no": "begge to",
+        "de": "beide"
+      },
+      {
+        "no": "tok mange notater",
+        "de": "machten sich viele Notizen"
+      },
+      {
+        "no": "studentkortet",
+        "de": "den Studentenausweis"
+      },
+      {
+        "no": "Køen",
+        "de": "die (Warte-)Schlange"
+      },
+      {
+        "no": "Så snart",
+        "de": "sobald"
+      },
+      {
+        "no": "utsikt mot",
+        "de": "Blick auf"
+      },
+      {
+        "no": "snødekte",
+        "de": "schneebedeckte"
+      },
+      {
+        "no": "nordisk språkvitenskap",
+        "de": "Nordische Sprachwissenschaft"
+      },
+      {
+        "no": "en eldre mann",
+        "de": "ein älterer Mann"
+      },
+      {
+        "no": "som om",
+        "de": "als ob"
+      },
+      {
+        "no": "vitser",
+        "de": "Witze"
+      },
+      {
+        "no": "skjønte",
+        "de": "verstand"
+      },
+      {
+        "no": "vant til",
+        "de": "gewohnt an"
+      },
+      {
+        "no": "Det gjør ingenting",
+        "de": "Das macht nichts"
+      },
+      {
+        "no": "pensumlista",
+        "de": "die Literaturliste (Pflichtlektüre)"
+      },
+      {
+        "no": "semesteroppgaven",
+        "de": "die Semesterarbeit"
+      },
+      {
+        "no": "glitret",
+        "de": "glitzerten"
+      },
+      {
+        "no": "bidos",
+        "de": "Bidos (samischer Eintopf)"
+      },
+      {
+        "no": "gryterett",
+        "de": "Eintopf, Schmorgericht"
+      },
+      {
+        "no": "reinkjøtt",
+        "de": "Rentierfleisch"
+      },
+      {
+        "no": "halvparten av",
+        "de": "die Hälfte von"
+      },
+      {
+        "no": "puster inn",
+        "de": "einatmen"
+      },
+      {
+        "no": "la seg",
+        "de": "ging schlafen"
+      }
+    ]
+  },
+  "extra": [
+    {
+      "id": "x16a",
+      "title": "Bokmål, nynorsk og norske dialekter",
+      "titleDe": "Bokmål, Nynorsk und norwegische Dialekte",
+      "kind": "info",
+      "intro": "Warum gibt es in Norwegen zwei Schriftsprachen – und warum spricht jeder anders?",
+      "lines": [
+        {
+          "no": "Norge har to offisielle skriftspråk: bokmål og nynorsk. Begge er norsk, og de er ganske like, men mange ord har ulik form. Det som heter «jeg», «ikke» og «hva» på bokmål, heter «eg», «ikkje» og «kva» på nynorsk.",
+          "de": "Norwegen hat zwei offizielle Schriftsprachen: Bokmål und Nynorsk. Beide sind Norwegisch und einander ziemlich ähnlich, aber viele Wörter haben unterschiedliche Formen. Was auf Bokmål „jeg“, „ikke“ und „hva“ heißt, heißt auf Nynorsk „eg“, „ikkje“ und „kva“."
+        },
+        {
+          "no": "Bokmål har røtter i dansk. Norge var i union med Danmark i rundt 400 år, fram til 1814, og i den tida skrev man dansk i Norge. Etter 1814 ble skriftspråket gradvis mer norsk, og i dag kaller vi det bokmål.",
+          "de": "Bokmål hat seine Wurzeln im Dänischen. Norwegen war rund 400 Jahre lang, bis 1814, in einer Union mit Dänemark, und in dieser Zeit schrieb man in Norwegen Dänisch. Nach 1814 wurde die Schriftsprache nach und nach norwegischer, und heute nennen wir sie Bokmål."
+        },
+        {
+          "no": "Nynorsk har en annen historie. Språkforskeren Ivar Aasen (1813–1896) reiste rundt i landet og samlet ord fra dialektene. På grunnlag av dem laget han et nytt skriftspråk. Han ga ut en grammatikk i 1848 og en ordbok i 1850. Først het språket landsmål, men siden 1929 har det hett nynorsk.",
+          "de": "Nynorsk hat eine andere Geschichte. Der Sprachforscher Ivar Aasen (1813–1896) reiste durch das Land und sammelte Wörter aus den Dialekten. Auf dieser Grundlage schuf er eine neue Schriftsprache. 1848 gab er eine Grammatik heraus und 1850 ein Wörterbuch. Zuerst hieß die Sprache Landsmål, aber seit 1929 heißt sie Nynorsk."
+        },
+        {
+          "no": "I dag har omtrent ni av ti elever bokmål som hovedmål. Nynorsk er mest vanlig på Vestlandet. På skolen lærer alle elever begge skriftspråkene, og mange synes at det andre språket, sidemålet, er et vanskelig fag.",
+          "de": "Heute haben etwa neun von zehn Schülerinnen und Schülern Bokmål als Hauptsprache. Nynorsk ist am häufigsten in Westnorwegen. In der Schule lernen alle beide Schriftsprachen, und viele finden die andere Sprache, das „Sidemål“, ein schwieriges Fach."
+        },
+        {
+          "no": "Når det gjelder talespråket, har Norge ingen offisiell standard. Folk snakker dialekten sin overalt: på jobben, på universitetet, på tv og i Stortinget. Man deler ofte dialektene inn i fire hovedgrupper: østnorsk, vestnorsk, trøndersk og nordnorsk.",
+          "de": "Was die gesprochene Sprache betrifft, hat Norwegen keinen offiziellen Standard. Die Leute sprechen überall ihren Dialekt: bei der Arbeit, an der Universität, im Fernsehen und im Parlament (Storting). Man teilt die Dialekte oft in vier Hauptgruppen ein: Ostnorwegisch, Westnorwegisch, Trøndisch und Nordnorwegisch."
+        },
+        {
+          "no": "I Nord-Norge kan du for eksempel høre disse dialektordene: «æ» (jeg), «ka» (hva), «kor» (hvor), «mæ» og «dæ» (meg og deg) og «dokker» (dere). Mange sier også infinitiv uten -e: «Æ ska snakk med dæ» (dialekt) betyr «Jeg skal snakke med deg» på bokmål.",
+          "de": "In Nordnorwegen kannst du zum Beispiel diese Dialektwörter hören: „æ“ (ich), „ka“ (was), „kor“ (wo), „mæ“ und „dæ“ (mich und dich) und „dokker“ (ihr). Viele sprechen den Infinitiv auch ohne -e: „Æ ska snakk med dæ“ (Dialekt) bedeutet auf Bokmål „Jeg skal snakke med deg“ (Ich will mit dir reden)."
+        },
+        {
+          "no": "Samisk er også et offisielt språk i Norge, og mange samer snakker både samisk og norsk. Så hvis du hører et språk i Tromsø som du ikke forstår i det hele tatt, kan det godt være nordsamisk.",
+          "de": "Samisch ist ebenfalls eine offizielle Sprache in Norwegen, und viele Samen sprechen sowohl Samisch als auch Norwegisch. Wenn du also in Tromsø eine Sprache hörst, die du überhaupt nicht verstehst, kann es gut Nordsamisch sein."
+        }
+      ],
+      "glossary": [
+        {
+          "no": "offisielle",
+          "de": "offizielle"
+        },
+        {
+          "no": "skriftspråk",
+          "de": "Schriftsprache(n)"
+        },
+        {
+          "no": "ganske like",
+          "de": "ziemlich ähnlich"
+        },
+        {
+          "no": "ulik form",
+          "de": "unterschiedliche Form"
+        },
+        {
+          "no": "røtter",
+          "de": "Wurzeln"
+        },
+        {
+          "no": "i union med",
+          "de": "in einer Union mit"
+        },
+        {
+          "no": "fram til",
+          "de": "bis (zu)"
+        },
+        {
+          "no": "gradvis",
+          "de": "nach und nach, allmählich"
+        },
+        {
+          "no": "kaller",
+          "de": "nennen"
+        },
+        {
+          "no": "Språkforskeren",
+          "de": "der Sprachforscher"
+        },
+        {
+          "no": "samlet",
+          "de": "sammelte"
+        },
+        {
+          "no": "På grunnlag av dem",
+          "de": "auf ihrer Grundlage"
+        },
+        {
+          "no": "ga ut",
+          "de": "gab heraus, veröffentlichte"
+        },
+        {
+          "no": "ordbok",
+          "de": "Wörterbuch"
+        },
+        {
+          "no": "landsmål",
+          "de": "Landsmål (alter Name für Nynorsk)"
+        },
+        {
+          "no": "har det hett",
+          "de": "heißt es (seit …)"
+        },
+        {
+          "no": "hovedmål",
+          "de": "Hauptsprache (in der Schule)"
+        },
+        {
+          "no": "sidemålet",
+          "de": "die zweite Schriftsprache (Nebensprache in der Schule)"
+        },
+        {
+          "no": "fag",
+          "de": "Fach"
+        },
+        {
+          "no": "Når det gjelder",
+          "de": "Was … betrifft"
+        },
+        {
+          "no": "talespråket",
+          "de": "die gesprochene Sprache"
+        },
+        {
+          "no": "Stortinget",
+          "de": "das Storting (norwegisches Parlament)"
+        },
+        {
+          "no": "deler",
+          "de": "teilt (ein)"
+        },
+        {
+          "no": "hovedgrupper",
+          "de": "Hauptgruppen"
+        },
+        {
+          "no": "trøndersk",
+          "de": "Trøndisch (Dialekt um Trondheim)"
+        },
+        {
+          "no": "dialektordene",
+          "de": "die Dialektwörter"
+        },
+        {
+          "no": "betyr",
+          "de": "bedeutet"
+        },
+        {
+          "no": "samer",
+          "de": "Samen (das samische Volk)"
+        },
+        {
+          "no": "i det hele tatt",
+          "de": "überhaupt"
+        },
+        {
+          "no": "kan det godt være",
+          "de": "kann es gut sein"
+        }
+      ]
+    }
+  ],
+  "wk": {
+    "title": "Studier",
+    "titleDe": "Studium",
+    "phrases": [
+      {
+        "no": "Hva studerer du?",
+        "de": "Was studierst du?"
+      },
+      {
+        "no": "Jeg studerer nordisk språk og litteratur.",
+        "de": "Ich studiere Nordische Sprache und Literatur."
+      },
+      {
+        "no": "Jeg er utvekslingsstudent her i ett semester.",
+        "de": "Ich bin hier für ein Semester Austauschstudentin."
+      },
+      {
+        "no": "Jeg tar en bachelor i biologi.",
+        "de": "Ich mache einen Bachelor in Biologie."
+      },
+      {
+        "no": "Hvilke emner tar du dette semesteret?",
+        "de": "Welche Kurse belegst du dieses Semester?",
+        "note": "et emne = ein Kurs, ein Modul an der Universität"
+      },
+      {
+        "no": "Emnet gir ti studiepoeng.",
+        "de": "Der Kurs bringt zehn Leistungspunkte.",
+        "note": "studiepoeng entsprechen den ECTS-Punkten."
+      },
+      {
+        "no": "Jeg må melde meg opp til eksamen innen fristen.",
+        "de": "Ich muss mich bis zum Ablauf der Frist zur Prüfung anmelden.",
+        "note": "innen = bis spätestens"
+      },
+      {
+        "no": "Når er innleveringsfristen?",
+        "de": "Wann ist der Abgabetermin?"
+      },
+      {
+        "no": "Jeg skal levere semesteroppgaven i morgen.",
+        "de": "Ich gebe morgen die Semesterarbeit ab."
+      },
+      {
+        "no": "Jeg leser til eksamen.",
+        "de": "Ich lerne für die Prüfung.",
+        "note": "lese til eksamen = für eine Prüfung lernen (nicht nur „lesen“)."
+      },
+      {
+        "no": "Jeg sitter på lesesalen hele dagen.",
+        "de": "Ich sitze den ganzen Tag im Lesesaal."
+      },
+      {
+        "no": "Har du lest pensum?",
+        "de": "Hast du die Pflichtlektüre gelesen?",
+        "note": "pensum = der Prüfungsstoff, die Pflichtliteratur eines Kurses"
+      },
+      {
+        "no": "Forelesningen begynner kvart over.",
+        "de": "Die Vorlesung beginnt um Viertel nach.",
+        "note": "Wie in Deutschland gibt es das akademische Viertel: Vorlesungen beginnen oft um Viertel nach."
+      },
+      {
+        "no": "Jeg tok notater på seminaret.",
+        "de": "Ich habe mir im Seminar Notizen gemacht."
+      },
+      {
+        "no": "Jeg er med i en kollokviegruppe.",
+        "de": "Ich bin in einer Lerngruppe.",
+        "note": "en kollokviegruppe = eine Gruppe von Studierenden, die zusammen lernen"
+      },
+      {
+        "no": "Hun besto eksamen med A.",
+        "de": "Sie hat die Prüfung mit A bestanden.",
+        "note": "Noten gehen von A (beste) bis F (nicht bestanden)."
+      },
+      {
+        "no": "Han strøk på eksamen.",
+        "de": "Er ist durch die Prüfung gefallen."
+      },
+      {
+        "no": "Jeg får lån og stipend fra Lånekassen.",
+        "de": "Ich bekomme Darlehen und Stipendium von der Lånekassen.",
+        "note": "Lånekassen = die staatliche Studienfinanzierung in Norwegen"
+      },
+      {
+        "no": "Kan jeg låne denne boka?",
+        "de": "Kann ich dieses Buch ausleihen?",
+        "note": "låne = (aus)leihen; låne bort / låne ut = verleihen"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g16_genitiv_omskriving",
+      "title": "Genitiv mit Präpositionen",
+      "titleNo": "genitiv med preposisjon",
+      "summary": "Statt Genitiv-s verwendet man oft eine Präposition: rommet til Inga, taket på huset, Universitetet i Tromsø, en venn av meg.",
+      "sections": [
+        {
+          "h": "til bei Personen und Besitzern",
+          "body": "Im gesprochenen Norwegisch sagt man selten **Ingas rom**. Viel häufiger ist: Substantiv in der **bestimmten Form** + **til** + Besitzer:\n\n• **rommet til Inga** = Ingas Zimmer\n• **faren til Anna** = Annas Vater\n• **bilen til naboen** = das Auto des Nachbarn\n\nAchtung: Nach dem Genitiv-s ist das Substantiv unbestimmt (**Ingas rom**), mit **til** ist es bestimmt (**rommet til Inga**). Nach **til** steht ein Pronomen in der Objektform: **boka til ham**, **kofferten til henne** – meist sagt man aber einfach **boka hans**, **kofferten hennes**.",
+          "table": [
+            [
+              "mit -s",
+              "mit Präposition",
+              "Deutsch"
+            ],
+            [
+              "**Ingas rom**",
+              "**rommet til Inga**",
+              "Ingas Zimmer"
+            ],
+            [
+              "**Pers bil**",
+              "**bilen til Per**",
+              "Pers Auto"
+            ],
+            [
+              "**professorens kontor**",
+              "**kontoret til professoren**",
+              "das Büro des Professors"
+            ]
+          ]
+        },
+        {
+          "h": "på, i und av bei Dingen, Orten und Mengen",
+          "body": "Bei Dingen benutzt man fast nie -s, sondern eine Präposition. Welche, hängt von der Bedeutung ab:\n\n• **på** für Teile und Eigenschaften einer Sache: **taket på huset** (das Dach des Hauses), **prisen på boka** (der Preis des Buches), **navnet på gata** (der Name der Straße), **døra på kjøleskapet**\n• **i** für Orte und Institutionen an einem Ort: **Universitetet i Tromsø**, **lysene i byen**, **ordføreren i Bergen**\n• **av** für „einer von / ein Teil von“ und für Bilder: **en venn av meg** (ein Freund von mir), **en av studentene**, **halvparten av forelesningen**, **slutten av filmen**, **et bilde av Inga**\n\nDie Wahl der Präposition muss man teilweise einfach lernen – das Deutsche hilft hier wenig, denn dort steht meist der Genitiv oder „von“."
+        },
+        {
+          "h": "Typische Fehler",
+          "body": "• Nicht **Inga sitt rom** schreiben – das hört man zwar oft im Gespräch, aber in der Schriftsprache heißt es **rommet til Inga** oder **Ingas rom**.\n• Nach dem -s nie die bestimmte Form: **Annas bror**, nicht *Annas broren*.\n• „Ein Freund von mir“ heißt **en venn av meg**, nicht *en venn fra meg*."
+        }
+      ],
+      "drills": [
+        {
+          "prompt": "Rommet ___ Inga er lite og ryddig.",
+          "de": "Ingas Zimmer ist klein und ordentlich.",
+          "answer": [
+            "til"
+          ],
+          "explain": "Besitzer ist eine Person: bestimmte Form + til (rommet til Inga)."
+        },
+        {
+          "prompt": "Det ligger mye snø på taket ___ biblioteket.",
+          "de": "Auf dem Dach der Bibliothek liegt viel Schnee.",
+          "answer": [
+            "på"
+          ],
+          "explain": "Teil einer Sache: på (taket på biblioteket)."
+        },
+        {
+          "prompt": "Susanne studerer ved Universitetet ___ Tromsø.",
+          "de": "Susanne studiert an der Universität Tromsø.",
+          "answer": [
+            "i"
+          ],
+          "explain": "Institution an einem Ort: i (Universitetet i Tromsø)."
+        },
+        {
+          "prompt": "Hva er prisen ___ boka?",
+          "de": "Was kostet das Buch? (Wie hoch ist der Preis des Buches?)",
+          "answer": [
+            "på"
+          ],
+          "explain": "Preis, Name, Farbe einer Sache: på (prisen på boka)."
+        },
+        {
+          "prompt": "Hun forsto bare halvparten ___ forelesningen.",
+          "de": "Sie verstand nur die Hälfte der Vorlesung.",
+          "answer": [
+            "av"
+          ],
+          "explain": "Ein Teil von etwas: av (halvparten av forelesningen)."
+        },
+        {
+          "prompt": "Vet du navnet ___ gata der Inga bor?",
+          "de": "Weißt du den Namen der Straße, in der Inga wohnt?",
+          "answer": [
+            "på"
+          ],
+          "explain": "Der Name einer Sache: navnet på gata."
+        },
+        {
+          "prompt": "Mora ___ Inga bor fortsatt i Kautokeino.",
+          "de": "Ingas Mutter wohnt immer noch in Kautokeino.",
+          "answer": [
+            "til"
+          ],
+          "explain": "Person als Besitzer: mora til Inga."
+        },
+        {
+          "prompt": "Inga viste Susanne et bilde ___ familien sin.",
+          "de": "Inga zeigte Susanne ein Bild ihrer Familie.",
+          "answer": [
+            "av"
+          ],
+          "explain": "Ein Bild von jemandem: et bilde av …"
+        },
+        {
+          "prompt": "Han er en god venn ___ meg.",
+          "de": "Er ist ein guter Freund von mir.",
+          "answer": [
+            "av"
+          ],
+          "explain": "„Ein Freund von mir“ = en venn av meg (einer aus der Gruppe meiner Freunde)."
+        },
+        {
+          "prompt": "Døra ___ kjøleskapet var åpen hele natta.",
+          "de": "Die Kühlschranktür stand die ganze Nacht offen.",
+          "answer": [
+            "på"
+          ],
+          "explain": "Teil eines Gegenstands: på (døra på kjøleskapet)."
+        },
+        {
+          "prompt": "Dette er en ___ de beste bøkene om dialekter.",
+          "de": "Das ist eines der besten Bücher über Dialekte.",
+          "answer": [
+            "av"
+          ],
+          "explain": "„Eines von / einer von“: en av, et av."
+        },
+        {
+          "prompt": "Lysene ___ byen glitret i mørket.",
+          "de": "Die Lichter der Stadt glitzerten in der Dunkelheit.",
+          "answer": [
+            "i"
+          ],
+          "explain": "Etwas, das sich an einem Ort befindet: i (lysene i byen)."
+        }
+      ]
+    },
+    {
+      "id": "g16_tid_konjunksjoner",
+      "title": "Temporale Konjunktionen",
+      "titleNo": "tidskonjunksjoner",
+      "summary": "da, når, mens, før, etter at, til, siden und så snart leiten Zeitsätze ein; steht der Nebensatz vorn, folgt im Hauptsatz die Inversion.",
+      "sections": [
+        {
+          "h": "da oder når?",
+          "body": "Das deutsche „als“ und „wenn“ entsprechen nicht genau **da** und **når**:\n\n• **da** = als: einmal, in der Vergangenheit. **Da Susanne kom til Tromsø, var det mørkt.**\n• **når** = wenn: immer wieder (Vergangenheit oder Gegenwart) und in der Zukunft. **Når jeg kommer hjem, ringer jeg deg.** **Når det snødde, gikk vi på ski.** (jedes Mal, wenn)\n\nFaustregel: Nur ein einziges Mal in der Vergangenheit → **da**. Alles andere → **når**. Typischer Fehler: *Når jeg var liten, …* ist nur richtig, wenn man „immer wenn“ meint; für die Kindheit als Zeitraum sagt man **Da jeg var liten, bodde jeg i Freiburg.**"
+        },
+        {
+          "h": "Weitere Zeitkonjunktionen",
+          "body": "Alle Zeitkonjunktionen leiten einen Nebensatz ein. Achte auf **etter at** (zwei Wörter) und auf **til** und **siden**, die auch Präpositionen sind (**til jul**, **siden mandag**).",
+          "table": [
+            [
+              "Norwegisch",
+              "Deutsch",
+              "Beispiel"
+            ],
+            [
+              "**mens**",
+              "während",
+              "**Mens de spiste, skrev hun en liste.**"
+            ],
+            [
+              "**før**",
+              "bevor",
+              "**Før hun gikk, viste Inga henne veien.**"
+            ],
+            [
+              "**etter at**",
+              "nachdem",
+              "**Etter at møtet var slutt, hentet hun kortet.**"
+            ],
+            [
+              "**til**",
+              "bis",
+              "**Hun ventet til det var hennes tur.**"
+            ],
+            [
+              "**siden**",
+              "seit(dem)",
+              "**Siden hun kom, har det snødd hver dag.**"
+            ],
+            [
+              "**så snart**",
+              "sobald",
+              "**Så snart hun hadde fått kortet, gikk hun.**"
+            ]
+          ]
+        },
+        {
+          "h": "Wortstellung: Inversion nach dem Nebensatz",
+          "body": "Im Nebensatz steht das Verb **nicht** am Ende (anders als im Deutschen): **da hun kom hjem** (als sie nach Hause kam).\n\nSteht der Nebensatz am Anfang, zählt er als erstes Satzglied. Im Hauptsatz kommt dann sofort das Verb, danach das Subjekt – genau wie im Deutschen:\n\n• **Da hun kom hjem, var det mørkt.** (Als sie heimkam, war es dunkel.)\n• **Etter at møtet var slutt, gikk hun til biblioteket.**\n\nSatzadverbien wie **ikke** stehen im Nebensatz vor dem Verb: **Da hun ikke fant bussen, gikk hun til fots.** (Als sie den Bus nicht fand, ging sie zu Fuß.)"
+        }
+      ],
+      "drills": [
+        {
+          "prompt": "___ Susanne kom til Tromsø, var det mørkt. (als – ein einziges Mal)",
+          "de": "Als Susanne nach Tromsø kam, war es dunkel.",
+          "answer": [
+            "Da"
+          ],
+          "explain": "Ein einzelnes Ereignis in der Vergangenheit: da."
+        },
+        {
+          "prompt": "___ jeg er ferdig med forelesningen, ringer jeg deg. (wenn – Zukunft)",
+          "de": "Wenn ich mit der Vorlesung fertig bin, rufe ich dich an.",
+          "answer": [
+            "Når"
+          ],
+          "explain": "Zukunft: når."
+        },
+        {
+          "prompt": "___ det er mørketid, tenner folk mange lys. (wenn – immer wieder)",
+          "de": "Wenn Polarnacht ist, zünden die Leute viele Lichter an.",
+          "answer": [
+            "Når"
+          ],
+          "explain": "Wiederholung (jedes Mal, wenn): når."
+        },
+        {
+          "prompt": "___ jeg var liten, bodde jeg i Freiburg. (als)",
+          "de": "Als ich klein war, wohnte ich in Freiburg.",
+          "answer": [
+            "Da"
+          ],
+          "explain": "Ein abgeschlossener Zeitraum in der Vergangenheit: da."
+        },
+        {
+          "prompt": "Inga lagde kaffe ___ Susanne pakket ut. (gleichzeitig)",
+          "de": "Inga kochte Kaffee, während Susanne auspackte.",
+          "answer": [
+            "mens"
+          ],
+          "explain": "Gleichzeitigkeit: mens."
+        },
+        {
+          "prompt": "Du må registrere deg ___ du kan ta eksamen. (bevor)",
+          "de": "Du musst dich registrieren, bevor du die Prüfung ablegen kannst.",
+          "answer": [
+            "før"
+          ],
+          "explain": "bevor = før."
+        },
+        {
+          "prompt": "___ møtet var slutt, gikk hun til biblioteket. (nachdem)",
+          "de": "Nachdem die Veranstaltung zu Ende war, ging sie in die Bibliothek.",
+          "answer": [
+            "Etter at"
+          ],
+          "explain": "nachdem = etter at (zwei Wörter)."
+        },
+        {
+          "prompt": "Hun ventet i køen ___ det var hennes tur. (bis)",
+          "de": "Sie wartete in der Schlange, bis sie an der Reihe war.",
+          "answer": [
+            "til"
+          ],
+          "explain": "bis = til (als Konjunktion)."
+        },
+        {
+          "prompt": "Inga har bodd i Tromsø ___ hun begynte å studere. (seit)",
+          "de": "Inga wohnt in Tromsø, seit sie angefangen hat zu studieren.",
+          "answer": [
+            "siden"
+          ],
+          "explain": "seit(dem) = siden; dazu Perfekt im Hauptsatz (har bodd)."
+        },
+        {
+          "prompt": "Matthias svarte ___ han hadde lest meldingen. (sobald)",
+          "de": "Matthias antwortete, sobald er die Nachricht gelesen hatte.",
+          "answer": [
+            "så snart"
+          ],
+          "explain": "sobald = så snart."
+        },
+        {
+          "prompt": "Da hun kom hjem, ___ mørkt. (det, være, preteritum)",
+          "de": "Als sie nach Hause kam, war es dunkel.",
+          "answer": [
+            "var det"
+          ],
+          "explain": "Der Nebensatz steht vorn → Inversion: Verb vor dem Subjekt (var det)."
+        },
+        {
+          "prompt": "Mens Susanne spiste, ___ en liste. (hun, skrive, preteritum)",
+          "de": "Während Susanne aß, schrieb sie eine Liste.",
+          "answer": [
+            "skrev hun"
+          ],
+          "explain": "Nach dem vorangestellten Nebensatz: Verb – Subjekt (skrev hun)."
+        }
+      ]
+    },
+    {
+      "id": "g16_konjunksjoner",
+      "title": "Kausale, konditionale und andere Konjunktionen",
+      "titleNo": "underordnende konjunksjoner",
+      "summary": "fordi/siden (Grund), hvis/om (Bedingung), for at (Zweck), så (at) (Folge), selv om (Gegensatz), som om/enn (Vergleich) – im Nebensatz: Subjekt – ikke – Verb.",
+      "sections": [
+        {
+          "h": "Die Konjunktionen im Überblick",
+          "body": "Diese Konjunktionen leiten Nebensätze ein. **siden** kann „seit“ (Zeit) oder „da, weil“ (Grund) bedeuten; **om** kann „wenn, falls“ oder „ob“ bedeuten – der Zusammenhang entscheidet.",
+          "table": [
+            [
+              "Bedeutung",
+              "Norwegisch",
+              "Deutsch",
+              "Beispiel"
+            ],
+            [
+              "Grund",
+              "**fordi**, **siden**",
+              "weil, da",
+              "**Hun var sliten fordi hun hadde sovet dårlig.**"
+            ],
+            [
+              "Bedingung",
+              "**hvis**, **om**",
+              "wenn, falls",
+              "**Hvis du vil, kan du skrive om nordnorsk.**"
+            ],
+            [
+              "Zweck",
+              "**for at**",
+              "damit",
+              "**Inga snakker langsomt for at Susanne skal forstå.**"
+            ],
+            [
+              "Folge",
+              "**så (at)**",
+              "sodass, so … dass",
+              "**Køen var så lang at hun måtte vente.**"
+            ],
+            [
+              "Gegensatz",
+              "**selv om**",
+              "obwohl",
+              "**Det var mørkt, selv om klokka bare var fire.**"
+            ],
+            [
+              "Vergleich",
+              "**som om**, **enn**",
+              "als ob, als",
+              "**Han lo som om han fortalte vitser.**"
+            ]
+          ]
+        },
+        {
+          "h": "Wortstellung im Nebensatz: Subjekt – ikke – Verb",
+          "body": "Im Nebensatz steht das Verb nie am Ende. Satzadverbien wie **ikke**, **aldri**, **alltid**, **ofte**, **bare** stehen **vor** dem gebeugten Verb:\n\n• Hauptsatz: **Hun forsto ikke alt.**\n• Nebensatz: **… selv om hun ikke forsto alt.** (… obwohl sie nicht alles verstand.)\n• **… fordi jeg ikke er vant til dialekten.**\n\nTypischer Fehler deutscher Lernender: *fordi jeg er ikke vant til dialekten* (Hauptsatz-Stellung) oder *fordi jeg dialekten ikke vant er* (deutsche Stellung)."
+        },
+        {
+          "h": "fordi oder for? så oder så at?",
+          "body": "• **fordi** (weil) leitet einen Nebensatz ein. **for** (denn) verbindet zwei Hauptsätze (Lektion 14): **Hun gikk hjem, for hun var sliten.**\n• **så** allein (also, deshalb) verbindet zwei Hauptsätze: **Det var lang kø, så hun måtte vente.** Mit **så … at** (so … dass) steht **så** vor einem Adjektiv oder Adverb: **Han snakket så fort at hun ikke forsto noe.**\n• **hvis** und **om** sind beide richtig; **hvis** ist im Bedingungssatz häufiger."
+        }
+      ],
+      "drills": [
+        {
+          "prompt": "Susanne var sliten ___ hun hadde sovet dårlig. (weil)",
+          "de": "Susanne war müde, weil sie schlecht geschlafen hatte.",
+          "answer": [
+            "fordi",
+            "siden"
+          ],
+          "explain": "Grund: fordi (auch siden ist möglich)."
+        },
+        {
+          "prompt": "___ det regner i morgen, blir vi hjemme. (wenn, falls)",
+          "de": "Wenn es morgen regnet, bleiben wir zu Hause.",
+          "answer": [
+            "Hvis",
+            "Om"
+          ],
+          "explain": "Bedingung: hvis oder om."
+        },
+        {
+          "prompt": "Inga snakket langsomt ___ Susanne kunne forstå henne. (damit)",
+          "de": "Inga sprach langsam, damit Susanne sie verstehen konnte.",
+          "answer": [
+            "for at"
+          ],
+          "explain": "Zweck: for at (damit)."
+        },
+        {
+          "prompt": "Det var lang kø, ___ hun måtte vente i en time. (deshalb, sodass)",
+          "de": "Es war eine lange Schlange, sodass sie eine Stunde warten musste.",
+          "answer": [
+            "så",
+            "så at"
+          ],
+          "explain": "Folge: så (at)."
+        },
+        {
+          "prompt": "Professoren snakket så fort ___ Susanne ikke forsto noe. (dass)",
+          "de": "Der Professor sprach so schnell, dass Susanne nichts verstand.",
+          "answer": [
+            "at"
+          ],
+          "explain": "so … dass = så … at."
+        },
+        {
+          "prompt": "Hun gikk på forelesningen ___ hun var forkjølet. (obwohl)",
+          "de": "Sie ging in die Vorlesung, obwohl sie erkältet war.",
+          "answer": [
+            "selv om"
+          ],
+          "explain": "Gegensatz: selv om (obwohl)."
+        },
+        {
+          "prompt": "Han lo ___ han fortalte vitser hele tiden. (als ob)",
+          "de": "Er lachte, als ob er die ganze Zeit Witze erzählte.",
+          "answer": [
+            "som om"
+          ],
+          "explain": "Vergleich, nicht wirklich: som om (als ob). Kein Konjunktiv wie im Deutschen nötig."
+        },
+        {
+          "prompt": "Tromsø er mye mindre ___ Oslo. (als)",
+          "de": "Tromsø ist viel kleiner als Oslo.",
+          "answer": [
+            "enn"
+          ],
+          "explain": "Vergleich nach dem Komparativ: enn."
+        },
+        {
+          "prompt": "Hun var glad, selv om hun ___. (ikke, forstå alt, preteritum)",
+          "de": "Sie war froh, obwohl sie nicht alles verstand.",
+          "answer": [
+            "ikke forsto alt",
+            "ikke skjønte alt"
+          ],
+          "explain": "Im Nebensatz steht ikke vor dem Verb: selv om hun ikke forsto alt."
+        },
+        {
+          "prompt": "Jeg spør Inga fordi jeg ___. (ikke, være vant til dialekten, presens)",
+          "de": "Ich frage Inga, weil ich den Dialekt nicht gewohnt bin.",
+          "answer": [
+            "ikke er vant til dialekten"
+          ],
+          "explain": "Nebensatz: Subjekt – ikke – Verb (fordi jeg ikke er …)."
+        },
+        {
+          "prompt": "Du kan låne bøkene mine ___ du trenger dem. (wenn, falls)",
+          "de": "Du kannst meine Bücher ausleihen, wenn du sie brauchst.",
+          "answer": [
+            "hvis",
+            "om"
+          ],
+          "explain": "Bedingung: hvis oder om."
+        }
+      ]
+    }
+  ],
+  "tf": [
+    {
+      "s": "Susanne sov godt natta før den første dagen.",
+      "de": "Susanne schlief in der Nacht vor dem ersten Tag gut.",
+      "a": false,
+      "why": "Sie hatte schlecht geschlafen, weil sie so aufgeregt war."
+    },
+    {
+      "s": "Inga kommer fra Kautokeino og studerer biologi.",
+      "de": "Inga kommt aus Kautokeino und studiert Biologie.",
+      "a": true,
+      "why": "Inga ist eine 23-jährige Samin aus Kautokeino und studiert Biologie."
+    },
+    {
+      "s": "Rommet til Susanne var lite og ryddig.",
+      "de": "Susannes Zimmer war klein und ordentlich.",
+      "a": false,
+      "why": "Ingas Zimmer war klein und ordentlich; Susannes Zimmer war voller Koffer und Kleider."
+    },
+    {
+      "s": "Susanne måtte vente i nesten en time for å få studentkortet.",
+      "de": "Susanne musste fast eine Stunde warten, um den Studentenausweis zu bekommen.",
+      "a": true,
+      "why": "Die Schlange war so lang, dass sie fast eine Stunde warten musste."
+    },
+    {
+      "s": "Professoren kom fra Bergen.",
+      "de": "Der Professor kam aus Bergen.",
+      "a": false,
+      "why": "Er war ein älterer Mann aus Senja und sprach Nordnorwegisch."
+    },
+    {
+      "s": "Susanne forsto alt professoren sa.",
+      "de": "Susanne verstand alles, was der Professor sagte.",
+      "a": false,
+      "why": "Sie verstand nur die Hälfte der Vorlesung, weil sie den Dialekt nicht gewohnt war."
+    },
+    {
+      "s": "Inga hadde laget en samisk rett til middag.",
+      "de": "Inga hatte ein samisches Gericht zum Abendessen gekocht.",
+      "a": true,
+      "why": "Sie hatte Bidos gekocht, einen samischen Eintopf mit Rentierfleisch."
+    },
+    {
+      "s": "Matthias svarte på meldingen først neste dag.",
+      "de": "Matthias antwortete erst am nächsten Tag auf die Nachricht.",
+      "a": false,
+      "why": "Er antwortete, sobald er die Nachricht gelesen hatte."
+    }
+  ],
+  "questions": [
+    {
+      "q": "Hvorfor hadde Susanne sovet dårlig?",
+      "qDe": "Warum hatte Susanne schlecht geschlafen?",
+      "answer": "Hun hadde sovet dårlig fordi hun var så spent.",
+      "answerDe": "Sie hatte schlecht geschlafen, weil sie so aufgeregt war.",
+      "keywords": [
+        [
+          "spent",
+          "nervøs"
+        ]
+      ]
+    },
+    {
+      "q": "Hva forklarte damen på informasjonsmøtet?",
+      "qDe": "Was erklärte die Frau bei der Infoveranstaltung?",
+      "answer": "Hun forklarte at alle måtte registrere seg og betale semesteravgifta.",
+      "answerDe": "Sie erklärte, dass sich alle registrieren und die Semestergebühr bezahlen mussten.",
+      "keywords": [
+        [
+          "registrere",
+          "registrert"
+        ],
+        [
+          "semesteravgift",
+          "semesteravgifta",
+          "semesteravgiften",
+          "betale"
+        ]
+      ]
+    },
+    {
+      "q": "Hva gjorde Susanne etter informasjonsmøtet?",
+      "qDe": "Was machte Susanne nach der Infoveranstaltung?",
+      "answer": "Hun hentet studentkortet sitt og gikk til biblioteket.",
+      "answerDe": "Sie holte ihren Studentenausweis ab und ging in die Bibliothek.",
+      "keywords": [
+        [
+          "studentkort",
+          "studentkortet"
+        ],
+        [
+          "bibliotek",
+          "biblioteket"
+        ]
+      ]
+    },
+    {
+      "q": "Hvorfor forsto ikke Susanne alt i forelesningen?",
+      "qDe": "Warum verstand Susanne in der Vorlesung nicht alles?",
+      "answer": "Fordi professoren snakket fort og brukte nordnorsk dialekt.",
+      "answerDe": "Weil der Professor schnell sprach und nordnorwegischen Dialekt benutzte.",
+      "keywords": [
+        [
+          "dialekt",
+          "nordnorsk"
+        ],
+        [
+          "fort",
+          "raskt"
+        ]
+      ]
+    },
+    {
+      "q": "Hva foreslo professoren for Susanne?",
+      "qDe": "Was schlug der Professor Susanne vor?",
+      "answer": "Han foreslo at hun kunne skrive semesteroppgaven sin om nordnorsk.",
+      "answerDe": "Er schlug vor, dass sie ihre Semesterarbeit über Nordnorwegisch schreiben könnte.",
+      "keywords": [
+        [
+          "oppgave",
+          "semesteroppgave",
+          "semesteroppgaven"
+        ],
+        [
+          "nordnorsk",
+          "dialekt"
+        ]
+      ]
+    },
+    {
+      "q": "Hva skrev Susanne i notatboka si om kvelden?",
+      "qDe": "Was schrieb Susanne am Abend in ihr Notizbuch?",
+      "answer": "Hun skrev en liste over det hun forsto og det hun ikke forsto.",
+      "answerDe": "Sie schrieb eine Liste über das, was sie verstand, und das, was sie nicht verstand.",
+      "keywords": [
+        [
+          "liste",
+          "lista"
+        ],
+        [
+          "forsto",
+          "forstå",
+          "skjønte"
+        ]
+      ]
+    }
+  ],
+  "find": [
+    {
+      "de": "ordentlich, aufgeräumt",
+      "answer": [
+        "ryddig"
+      ]
+    },
+    {
+      "de": "die nördlichste Universität der Welt",
+      "answer": [
+        "verdens nordligste universitet"
+      ]
+    },
+    {
+      "de": "die (Warte-)Schlange",
+      "answer": [
+        "Køen"
+      ]
+    },
+    {
+      "de": "sobald",
+      "answer": [
+        "Så snart",
+        "så snart"
+      ]
+    },
+    {
+      "de": "schneebedeckte Berge",
+      "answer": [
+        "snødekte fjell"
+      ]
+    },
+    {
+      "de": "als ob",
+      "answer": [
+        "som om"
+      ]
+    },
+    {
+      "de": "gewohnt an",
+      "answer": [
+        "vant til"
+      ]
+    },
+    {
+      "de": "die Hälfte der Vorlesung",
+      "answer": [
+        "halvparten av forelesningen"
+      ]
+    }
+  ],
+  "translate": [
+    {
+      "de": "Als ich nach Tromsø kam, war es dunkel.",
+      "no": [
+        "Da jeg kom til Tromsø, var det mørkt."
+      ],
+      "hint": "einmal in der Vergangenheit → da; danach Inversion"
+    },
+    {
+      "de": "Ingas Zimmer ist klein und ordentlich.",
+      "no": [
+        "Rommet til Inga er lite og ryddig.",
+        "Ingas rom er lite og ryddig."
+      ]
+    },
+    {
+      "de": "Ich habe nicht alles verstanden, weil der Professor Dialekt gesprochen hat.",
+      "no": [
+        "Jeg forsto ikke alt fordi professoren snakket dialekt.",
+        "Jeg skjønte ikke alt fordi professoren snakket dialekt."
+      ]
+    },
+    {
+      "de": "Während Inga kochte, schrieb Susanne eine Liste.",
+      "no": [
+        "Mens Inga lagde mat, skrev Susanne en liste.",
+        "Mens Inga laget mat, skrev Susanne en liste."
+      ]
+    },
+    {
+      "de": "Bevor du die Prüfung ablegen kannst, musst du dich registrieren.",
+      "no": [
+        "Før du kan ta eksamen, må du registrere deg."
+      ]
+    },
+    {
+      "de": "Sie ist eine Freundin von mir.",
+      "no": [
+        "Hun er en venninne av meg.",
+        "Hun er ei venninne av meg.",
+        "Hun er en venn av meg."
+      ]
+    },
+    {
+      "de": "Weißt du den Namen der Straße?",
+      "no": [
+        "Vet du navnet på gata?",
+        "Vet du navnet på gaten?"
+      ]
+    },
+    {
+      "de": "Ich lerne Norwegisch, damit ich mit Inga sprechen kann.",
+      "no": [
+        "Jeg lærer norsk for at jeg skal kunne snakke med Inga.",
+        "Jeg lærer norsk for at jeg kan snakke med Inga.",
+        "Jeg lærer norsk for å kunne snakke med Inga."
+      ]
+    },
+    {
+      "de": "Sobald ich die Nachricht gelesen hatte, rief ich dich an.",
+      "no": [
+        "Så snart jeg hadde lest meldingen, ringte jeg deg."
+      ]
+    },
+    {
+      "de": "Es war dunkel, obwohl es erst vier Uhr war.",
+      "no": [
+        "Det var mørkt, selv om klokka bare var fire.",
+        "Det var mørkt selv om klokka bare var fire.",
+        "Det var mørkt, selv om klokken bare var fire."
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "prompt": "Susanne deler leilighet med Inga, som studerer ___.",
+      "de": "Susanne teilt sich eine Wohnung mit Inga, die Biologie studiert.",
+      "answer": [
+        "biologi"
+      ]
+    },
+    {
+      "prompt": "På informasjonsmøtet hører studentene at de må ___ seg før fristen.",
+      "de": "Bei der Infoveranstaltung hören die Studierenden, dass sie sich vor Ablauf der Frist registrieren müssen.",
+      "answer": [
+        "registrere"
+      ]
+    },
+    {
+      "prompt": "Etterpå venter Susanne nesten en time i ___ for å få studentkortet.",
+      "de": "Danach wartet Susanne fast eine Stunde in der Schlange, um den Studentenausweis zu bekommen.",
+      "answer": [
+        "køen"
+      ]
+    },
+    {
+      "prompt": "I biblioteket viser en bibliotekar henne hvordan hun kan ___ bøker.",
+      "de": "In der Bibliothek zeigt ihr eine Bibliothekarin, wie sie Bücher ausleihen kann.",
+      "answer": [
+        "låne"
+      ]
+    },
+    {
+      "prompt": "Professoren snakker nordnorsk, så Susanne forstår bare ___ av forelesningen.",
+      "de": "Der Professor spricht Nordnorwegisch, deshalb versteht Susanne nur die Hälfte der Vorlesung.",
+      "answer": [
+        "halvparten"
+      ]
+    },
+    {
+      "prompt": "Om kvelden skriver hun en ___ over det hun har forstått og ikke forstått.",
+      "de": "Am Abend schreibt sie eine Liste über das, was sie verstanden und nicht verstanden hat.",
+      "answer": [
+        "liste"
+      ]
+    }
+  ],
+  "dictation": [
+    2,
+    6,
+    7,
+    13
+  ],
+  "writing": {
+    "prompt": "Schreibe eine E-Mail an Torunn, deine Lehrerin aus dem Sprachkurs in Oslo, über deinen ersten Tag an einer neuen Universität. Was hast du gemacht? Was hast du verstanden und was nicht? Verwende mindestens zwei Zeitkonjunktionen (da, når, mens, etter at, så snart) und selv om oder fordi.",
+    "minWords": 90,
+    "useWords": [
+      "da",
+      "etter at",
+      "selv om",
+      "forelesningen",
+      "biblioteket"
+    ],
+    "checklist": [
+      {
+        "de": "Was du gemacht hast (Bibliothek, Vorlesung, Ausweis …)",
+        "keywords": [
+          "biblioteket",
+          "forelesningen",
+          "studentkortet"
+        ]
+      },
+      {
+        "de": "Eine Zeitkonjunktion",
+        "keywords": [
+          "da",
+          "etter at",
+          "så snart",
+          "mens"
+        ]
+      },
+      {
+        "de": "Was du (nicht) verstanden hast",
+        "keywords": [
+          "forsto",
+          "skjønte"
+        ]
+      },
+      {
+        "de": "Ein Gegensatz oder Grund (selv om / fordi)",
+        "keywords": [
+          "selv om",
+          "fordi"
+        ]
+      }
+    ],
+    "model": "Hei, Torunn!\nNå har jeg vært i Tromsø i en uke, og i dag hadde jeg min første dag på universitetet. Da jeg våknet, var det fortsatt mørkt. Etter at jeg hadde vært på informasjonsmøtet, hentet jeg studentkortet mitt og gikk til biblioteket. Der lånte jeg tre bøker om norske dialekter. Den første forelesningen var i nordisk språkvitenskap. Professoren snakket nordnorsk, og jeg forsto bare halvparten, selv om jeg hørte godt etter. Men professoren var veldig hyggelig. Han sa at jeg kommer til å forstå mer når jeg har bodd her en stund. Takk for alt du lærte meg i Oslo!\nHilsen Susanne",
+    "modelDe": "Hallo, Torunn!\nJetzt bin ich seit einer Woche in Tromsø, und heute hatte ich meinen ersten Tag an der Universität. Als ich aufwachte, war es noch dunkel. Nachdem ich bei der Infoveranstaltung gewesen war, holte ich meinen Studentenausweis ab und ging in die Bibliothek. Dort lieh ich drei Bücher über norwegische Dialekte aus. Die erste Vorlesung war in Nordischer Sprachwissenschaft. Der Professor sprach Nordnorwegisch, und ich verstand nur die Hälfte, obwohl ich gut zuhörte. Aber der Professor war sehr nett. Er sagte, dass ich mehr verstehen werde, wenn ich eine Weile hier gewohnt habe. Danke für alles, was du mir in Oslo beigebracht hast!\nViele Grüße, Susanne"
+  }
+}

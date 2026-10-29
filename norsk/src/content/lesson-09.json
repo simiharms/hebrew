@@ -1,0 +1,395 @@
+{
+  "n": 9,
+  "level": "A2",
+  "title": "Karl Johan eller Champs-Élysées?",
+  "titleDe": "Karl Johan oder Champs-Élysées?",
+  "place": "Oslo, Karl Johans gate",
+  "goals": [
+    "Du kannst Dinge genauer beschreiben: den store byen, det gamle huset, de nye kontorene.",
+    "Du zeigst mit den/det/de (+ her/der) auf etwas: den bygningen der.",
+    "Du bildest den Plural von Wörtern auf -el: en sykkel – sykler.",
+    "Du drückst Besitz mit dem Genitiv aus: Annas sykkel, Norges hovedstad.",
+    "Du stellst Fragen mit der Präposition am Ende: Hva tenker du på?"
+  ],
+  "text": {
+    "id": "t09",
+    "title": "Karl Johan eller Champs-Élysées?",
+    "titleDe": "Karl Johan oder Champs-Élysées?",
+    "kind": "dialog",
+    "intro": "Matthias hat zwei Angebote bekommen und muss sich entscheiden. Auf einem Spaziergang über die Karl Johans gate, vom Hauptbahnhof Oslo S bis zum Schloss, spricht er mit Susanne darüber.",
+    "speakers": {
+      "s": { "name": "Susanne", "gender": "f" },
+      "m": { "name": "Matthias", "gender": "m" }
+    },
+    "lines": [
+      { "s": "s", "no": "Her er vi: Oslo S. Hva vil du snakke med meg om?", "de": "Hier sind wir: Oslo S. Worüber willst du mit mir reden?" },
+      { "s": "m", "no": "Jeg har fått to tilbud: en praksisplass i et lite ingeniørfirma i Bergen og en jobb i Paris.", "de": "Ich habe zwei Angebote bekommen: ein Praktikum in einer kleinen Ingenieurfirma in Bergen und eine Stelle in Paris." },
+      { "s": "s", "no": "Paris! Champs-Élysées i stedet for Karl Johan? Hvem har du snakket med om det?", "de": "Paris! Die Champs-Élysées statt der Karl Johan? Mit wem hast du darüber gesprochen?" },
+      { "s": "m", "no": "Med foreldrene. Mamma sier Paris, pappa sier Bergen.", "de": "Mit meinen Eltern. Mama sagt Paris, Papa sagt Bergen." },
+      { "s": "s", "no": "Se, den kirken der borte er Domkirken. Der giftet kong Harald og dronning Sonja seg i 1968. Men fortell: Hvordan er det store firmaet i Paris?", "de": "Schau, die Kirche dort drüben ist der Dom. Dort haben König Harald und Königin Sonja 1968 geheiratet. Aber erzähl: Wie ist die große Firma in Paris?" },
+      { "s": "m", "no": "Det har tre tusen ansatte, og det nye kontoret ligger i et høyhus. Lønnen er god.", "de": "Sie hat dreitausend Angestellte, und das neue Büro liegt in einem Hochhaus. Das Gehalt ist gut." },
+      { "s": "s", "no": "Og det lille firmaet i Bergen?", "de": "Und die kleine Firma in Bergen?" },
+      { "s": "m", "no": "Det har tolv ansatte og bygger bruer og tunneler på Vestlandet. Og jeg kan bo i et gammelt trehus i Sandviken, med utsikt over havna.", "de": "Sie hat zwölf Angestellte und baut Brücken und Tunnel in Westnorwegen. Und ich kann in einem alten Holzhaus in Sandviken wohnen, mit Blick auf den Hafen." },
+      { "s": "s", "no": "Det gamle trehuset høres koselig ut. Se, den gule bygningen der er Stortinget, Norges nasjonalforsamling.", "de": "Das alte Holzhaus klingt gemütlich. Schau, das gelbe Gebäude da ist das Storting, Norwegens Parlament." },
+      { "s": "m", "no": "Det er ikke så stort for et parlament.", "de": "Für ein Parlament ist es nicht sehr groß." },
+      { "s": "s", "no": "Norge er et lite land. Og her til høyre ligger de gamle universitetsbygningene. Hva tenker du på når du ser dem?", "de": "Norwegen ist ein kleines Land. Und hier rechts liegen die alten Universitätsgebäude. Woran denkst du, wenn du sie siehst?" },
+      { "s": "m", "no": "På karakterer! I Sveits er seks en toppkarakter.", "de": "An Noten! In der Schweiz ist eine Sechs eine Spitzennote." },
+      { "s": "s", "no": "I Tyskland er det motsatt: Én er topp, og seks er en katastrofe.", "de": "In Deutschland ist es umgekehrt: Eine Eins ist super, und eine Sechs ist eine Katastrophe." },
+      { "s": "m", "no": "Og i Norge?", "de": "Und in Norwegen?" },
+      { "s": "s", "no": "Her er seks topp, som i Sveits. Men i den norske barneskolen får elevene ikke karakterer i det hele tatt.", "de": "Hier ist die Sechs die beste Note, wie in der Schweiz. Aber in der norwegischen Grundschule bekommen die Schüler überhaupt keine Noten." },
+      { "s": "m", "no": "Det norske systemet liker jeg. Og Bergen ligger jo i Norge …", "de": "Das norwegische System gefällt mir. Und Bergen liegt ja in Norwegen …" },
+      { "s": "s", "no": "Matthias, hva er du egentlig redd for?", "de": "Matthias, wovor hast du eigentlich Angst?" },
+      { "s": "m", "no": "For å velge feil. Paris er fantastisk, men jeg vil ikke sitte i et høyhus hele dagen.", "de": "Davor, falsch zu wählen. Paris ist fantastisch, aber ich will nicht den ganzen Tag in einem Hochhaus sitzen." },
+      { "s": "s", "no": "Og i Bergen?", "de": "Und in Bergen?" },
+      { "s": "m", "no": "Der kan jeg for eksempel sykle til jobben. Jeg trenger bare en sykkel og en god regnjakke.", "de": "Dort kann ich zum Beispiel mit dem Fahrrad zur Arbeit fahren. Ich brauche nur ein Fahrrad und eine gute Regenjacke." },
+      { "s": "s", "no": "Se, der er kongens slott! Hvem er den mannen på hesten der?", "de": "Schau, da ist das Schloss des Königs! Wer ist der Mann auf dem Pferd da?" },
+      { "s": "m", "no": "Kong Karl Johan. Han het egentlig Jean-Baptiste Bernadotte og kom fra Frankrike.", "de": "König Karl Johan. Eigentlich hieß er Jean-Baptiste Bernadotte und kam aus Frankreich." },
+      { "s": "s", "no": "Så Karl Johan er litt fransk likevel! Men hva har du bestemt deg for nå?", "de": "Dann ist die Karl Johan ja doch ein bisschen französisch! Aber wofür hast du dich jetzt entschieden?" },
+      { "s": "m", "no": "For Bergen: det lille firmaet, det gamle huset og regnet. Og du kan besøke meg med Bergensbanen.", "de": "Für Bergen: die kleine Firma, das alte Haus und den Regen. Und du kannst mich mit der Bergenbahn besuchen." },
+      { "s": "s", "no": "Avtale! Skal vi feire med en kaffe?", "de": "Abgemacht! Wollen wir mit einem Kaffee feiern?" },
+      { "s": "m", "no": "Gjerne. Men ikke på den kafeen der – den er for dyr for en fattig praktikant.", "de": "Gern. Aber nicht in dem Café da – das ist zu teuer für einen armen Praktikanten." }
+    ],
+    "glossary": [
+      { "no": "Oslo S", "de": "Oslo Sentralstasjon, der Hauptbahnhof" },
+      { "no": "Hva vil du snakke med meg om?", "de": "Worüber willst du mit mir reden?" },
+      { "no": "tilbud", "de": "Angebote" },
+      { "no": "praksisplass", "de": "der Praktikumsplatz, das Praktikum" },
+      { "no": "ingeniørfirma", "de": "die Ingenieurfirma" },
+      { "no": "i stedet for", "de": "statt, anstelle von" },
+      { "no": "foreldrene", "de": "die Eltern" },
+      { "no": "den kirken der borte", "de": "die Kirche dort drüben" },
+      { "no": "Domkirken", "de": "der Dom (Oslo domkirke)" },
+      { "no": "giftet", "de": "heirateten (gifte seg = heiraten)" },
+      { "no": "dronning", "de": "Königin" },
+      { "no": "ansatte", "de": "Angestellte" },
+      { "no": "høyhus", "de": "das Hochhaus" },
+      { "no": "Lønnen", "de": "das Gehalt" },
+      { "no": "bruer", "de": "Brücken" },
+      { "no": "Vestlandet", "de": "Westnorwegen (die Region um Bergen)" },
+      { "no": "trehus", "de": "das Holzhaus" },
+      { "no": "med utsikt over havna", "de": "mit Blick auf den Hafen" },
+      { "no": "høres koselig ut", "de": "klingt gemütlich" },
+      { "no": "nasjonalforsamling", "de": "die Nationalversammlung, das Parlament" },
+      { "no": "universitetsbygningene", "de": "die Universitätsgebäude" },
+      { "no": "karakterer", "de": "Noten (in der Schule)" },
+      { "no": "toppkarakter", "de": "die Bestnote, Spitzennote" },
+      { "no": "motsatt", "de": "umgekehrt" },
+      { "no": "barneskolen", "de": "die Grundschule (1.–7. Klasse)" },
+      { "no": "elevene", "de": "die Schüler" },
+      { "no": "i det hele tatt", "de": "überhaupt" },
+      { "no": "egentlig", "de": "eigentlich" },
+      { "no": "velge feil", "de": "falsch wählen" },
+      { "no": "sykle", "de": "Rad fahren" },
+      { "no": "regnjakke", "de": "die Regenjacke" },
+      { "no": "likevel", "de": "trotzdem, doch" },
+      { "no": "hva har du bestemt deg for", "de": "wofür hast du dich entschieden" },
+      { "no": "Bergensbanen", "de": "die Bergenbahn (Zug Oslo – Bergen)" },
+      { "no": "Avtale!", "de": "Abgemacht!" },
+      { "no": "feire", "de": "feiern" },
+      { "no": "kongens slott", "de": "das Schloss des Königs" },
+      { "no": "den mannen på hesten der", "de": "der Mann auf dem Pferd da" },
+      { "no": "for dyr", "de": "zu teuer" },
+      { "no": "fattig praktikant", "de": "armer Praktikant" }
+    ]
+  },
+  "extra": [
+    {
+      "id": "x09a",
+      "title": "Karl Johans gate",
+      "titleDe": "Die Karl Johans gate",
+      "kind": "info",
+      "intro": "Die bekannteste Straße Oslos – vom Bahnhof bis zum Schloss.",
+      "lines": [
+        { "no": "Karl Johans gate er hovedgata i Oslo. Den går fra Oslo S, den store jernbanestasjonen, opp til Slottet. En del av gata er gågate, med butikker, kafeer og gatemusikanter.", "de": "Die Karl Johans gate ist die Hauptstraße Oslos. Sie führt vom großen Bahnhof Oslo S hinauf zum Schloss. Ein Teil der Straße ist Fußgängerzone, mit Geschäften, Cafés und Straßenmusikanten." },
+        { "no": "Gata har navn etter kong Karl Johan, som var konge i Norge og Sverige fra 1818 til 1844. Han het egentlig Jean-Baptiste Bernadotte og var en fransk marskalk under Napoleon.", "de": "Die Straße ist nach König Karl Johan benannt, der von 1818 bis 1844 König von Norwegen und Schweden war. Eigentlich hieß er Jean-Baptiste Bernadotte und war ein französischer Marschall unter Napoleon." },
+        { "no": "Langs gata ligger mange kjente bygninger: Stortinget fra 1866, de gamle universitetsbygningene og Nationaltheatret fra 1899. Mellom Stortinget og teateret ligger en liten park, Studenterlunden. Om vinteren kan man gå på skøyter der.", "de": "An der Straße liegen viele bekannte Gebäude: das Storting von 1866, die alten Universitätsgebäude und das Nationaltheatret von 1899. Zwischen dem Storting und dem Theater liegt ein kleiner Park, der Studenterlunden. Im Winter kann man dort Schlittschuh laufen." },
+        { "no": "Oppe på en liten høyde ligger Slottet. Det sto ferdig i 1849, og det er kongens bolig i Oslo. Foran Slottet står en statue av Karl Johan på hest.", "de": "Oben auf einem kleinen Hügel liegt das Schloss. Es wurde 1849 fertiggestellt und ist der Wohnsitz des Königs in Oslo. Vor dem Schloss steht eine Reiterstatue von Karl Johan." },
+        { "no": "På nasjonaldagen, 17. mai, går tusenvis av barn i barnetoget opp Karl Johan. Kongefamilien står på balkongen på Slottet og vinker.", "de": "Am Nationalfeiertag, dem 17. Mai, ziehen Tausende Kinder im Kinderumzug die Karl Johan hinauf. Die Königsfamilie steht auf dem Balkon des Schlosses und winkt." }
+      ],
+      "glossary": [
+        { "no": "hovedgata", "de": "die Hauptstraße" },
+        { "no": "den store jernbanestasjonen", "de": "der große Bahnhof" },
+        { "no": "En del av gata", "de": "ein Teil der Straße" },
+        { "no": "gågate", "de": "die Fußgängerzone" },
+        { "no": "gatemusikanter", "de": "Straßenmusikanten" },
+        { "no": "har navn etter", "de": "ist benannt nach" },
+        { "no": "Sverige", "de": "Schweden" },
+        { "no": "marskalk", "de": "der Marschall" },
+        { "no": "under Napoleon", "de": "unter Napoleon" },
+        { "no": "Langs gata", "de": "an der Straße entlang" },
+        { "no": "kjente bygninger", "de": "bekannte Gebäude" },
+        { "no": "Mellom", "de": "zwischen" },
+        { "no": "gå på skøyter", "de": "Schlittschuh laufen" },
+        { "no": "Oppe på en liten høyde", "de": "oben auf einem kleinen Hügel" },
+        { "no": "sto ferdig", "de": "wurde fertig, war fertiggestellt" },
+        { "no": "kongens bolig", "de": "der Wohnsitz des Königs" },
+        { "no": "på hest", "de": "zu Pferd" },
+        { "no": "nasjonaldagen", "de": "der Nationalfeiertag" },
+        { "no": "tusenvis av barn", "de": "Tausende von Kindern" },
+        { "no": "barnetoget", "de": "der Kinderumzug" },
+        { "no": "Kongefamilien", "de": "die Königsfamilie" },
+        { "no": "balkongen", "de": "der Balkon" },
+        { "no": "vinker", "de": "winkt" }
+      ]
+    }
+  ],
+  "wk": {
+    "title": "I byen",
+    "titleDe": "In der Stadt",
+    "phrases": [
+      { "no": "Unnskyld, hvor ligger Nationaltheatret?", "de": "Entschuldigung, wo liegt das Nationaltheatret?" },
+      { "no": "Hvordan kommer jeg til Slottet?", "de": "Wie komme ich zum Schloss?" },
+      { "no": "Er det langt herfra?", "de": "Ist es weit von hier?" },
+      { "no": "Nei, det er bare fem minutter å gå.", "de": "Nein, es sind nur fünf Minuten zu Fuß." },
+      { "no": "Gå rett fram.", "de": "Geh geradeaus." },
+      { "no": "Ta til venstre ved Stortinget.", "de": "Bieg beim Storting links ab." },
+      { "no": "Ta til høyre i lyskrysset.", "de": "Bieg an der Ampel rechts ab." },
+      { "no": "Kafeen ligger på høyre side.", "de": "Das Café liegt auf der rechten Seite." },
+      { "no": "Butikken ligger på den andre siden av gata.", "de": "Der Laden liegt auf der anderen Straßenseite." },
+      { "no": "Det ligger rett rundt hjørnet.", "de": "Es ist gleich um die Ecke." },
+      { "no": "Kan du vise meg det på kartet?", "de": "Kannst du es mir auf dem Stadtplan zeigen?" },
+      { "no": "Jeg har gått meg vill.", "de": "Ich habe mich verlaufen." },
+      { "no": "Hvilken trikk går til Frognerparken?", "de": "Welche Straßenbahn fährt zum Frognerpark?" },
+      { "no": "Hvor går bussen til Sagene fra?", "de": "Wo fährt der Bus nach Sagene ab?", "note": "Die Präposition steht am Ende der Frage." },
+      { "no": "Karl Johan er en gågate.", "de": "Die Karl Johan ist eine Fußgängerzone." },
+      { "no": "Butikkene stenger klokka åtte.", "de": "Die Geschäfte schließen um acht Uhr." },
+      { "no": "Skal vi ta en kaffe i byen?", "de": "Wollen wir in der Stadt einen Kaffee trinken?" },
+      { "no": "Jeg venter på deg foran Nationaltheatret.", "de": "Ich warte vor dem Nationaltheatret auf dich." }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g09_bestemt_adjektiv",
+      "title": "Die bestimmte Form des Adjektivs",
+      "titleNo": "bestemt form av adjektivet",
+      "summary": "den store byen – det store huset – de store byene: Artikel vorne, Endung hinten (doppelte Bestimmtheit), Adjektiv auf -e.",
+      "sections": [
+        {
+          "h": "Doppelte Bestimmtheit",
+          "body": "Steht ein Adjektiv vor einem bestimmten Substantiv, wird die Bestimmtheit zweimal ausgedrückt: vorne mit **den / det / de**, hinten mit der Endung des Substantivs. Das Adjektiv endet immer auf **-e**:\n• **den store byen** – die große Stadt\n• **det gamle huset** – das alte Haus\n• **de nye kontorene** – die neuen Büros\n\nIm Deutschen gibt es nur einen Artikel (das alte Haus). Typische Fehler: »det gamle hus« oder »gamle huset« – im Norwegischen braucht man beides: **det gamle huset**.",
+          "table": [
+            ["", "unbestimmt", "bestimmt"],
+            ["m", "en stor by", "den store byen"],
+            ["f", "ei gammel bru", "den gamle brua"],
+            ["n", "et nytt kontor", "det nye kontoret"],
+            ["Plural", "store byer", "de store byene"]
+          ]
+        },
+        {
+          "h": "liten und andere Besonderheiten",
+          "body": "**liten** hat eine eigene bestimmte Form: **den lille byen, det lille firmaet**; im Plural heißt es **små**: **små byer, de små byene**.\n\nAdjektive auf -el, -en und -er verlieren das e wie im Plural (Lektion 6): **den gamle kirken, det vakre slottet, de sultne studentene**.\n\nAdjektive auf -e bleiben gleich: **det moderne kontoret**. Bei **blå** und **grå** sind beide Formen möglich: **den blå / blåe sykkelen**."
+        },
+        {
+          "h": "Nach være und bli: unbestimmt",
+          "body": "Nach **være** und **bli** steht das Adjektiv in der unbestimmten Form – auch wenn das Substantiv bestimmt ist:\n• **Byen er stor.** (nicht »store«)\n• **Huset er gammelt.**\n• **Kontorene er nye.**\n\nDie -e-Form mit den/det/de gibt es nur direkt vor dem Substantiv."
+        }
+      ],
+      "drills": [
+        { "prompt": "Den ___ byen er dyr. (stor)", "de": "Die große Stadt ist teuer.", "answer": ["store"], "explain": "Bestimmte Form: den + Adjektiv auf -e + byen." },
+        { "prompt": "Det ___ firmaet har bare tolv ansatte. (liten)", "de": "Die kleine Firma hat nur zwölf Angestellte.", "answer": ["lille"], "explain": "liten → bestimmt: lille." },
+        { "prompt": "De ___ byene på Vestlandet er fine. (liten)", "de": "Die kleinen Städte in Westnorwegen sind schön.", "answer": ["små"], "explain": "liten → Plural: små (auch bestimmt)." },
+        { "prompt": "Matthias liker det ___ trehuset. (gammel)", "de": "Matthias mag das alte Holzhaus.", "answer": ["gamle"], "explain": "gammel → gamle: das e fällt weg, mm wird zu m." },
+        { "prompt": "Kontoret i Paris er ___. (ny)", "de": "Das Büro in Paris ist neu.", "answer": ["nytt"], "explain": "Nach være: unbestimmte Form. et kontor → nytt." },
+        { "prompt": "___ gata går fra Oslo S til Slottet. (lang)", "de": "Die lange Straße führt vom Hauptbahnhof zum Schloss.", "answer": ["Den lange"], "explain": "ei gate → den lange gata." },
+        { "prompt": "Vi går forbi det ___ teateret. (berømt)", "de": "Wir gehen an dem berühmten Theater vorbei.", "answer": ["berømte"], "explain": "Bestimmte Form: -e." },
+        { "prompt": "Den gamle ___ er fra 1697. (kirke)", "de": "Die alte Kirche ist von 1697.", "answer": ["kirken", "kirka"], "explain": "Auch das Substantiv steht in der bestimmten Form: kirken (oder kirka)." },
+        { "prompt": "Jeg vil kjøpe den ___ sykkelen. (blå)", "de": "Ich will das blaue Fahrrad kaufen.", "answer": ["blå", "blåe"], "explain": "blå: bestimmt blå oder blåe." },
+        { "prompt": "De ___ studentene spiser pizza. (sulten)", "de": "Die hungrigen Studenten essen Pizza.", "answer": ["sultne"], "explain": "sulten → sultne: das e der Endung -en fällt weg." }
+      ]
+    },
+    {
+      "id": "g09_den_det_de",
+      "title": "Das Demonstrativpronomen den, det, de",
+      "titleNo": "demonstrativpronomenet den, det, de",
+      "summary": "Betontes den/det/de + bestimmtes Substantiv = dieser/jener; oft mit her oder der: den bygningen der.",
+      "sections": [
+        {
+          "h": "Zeigen mit den, det, de",
+          "body": "Betontes **den / det / de** + bestimmtes Substantiv (ohne Adjektiv) bedeutet »dieser, diese, dieses« oder »jener«:\n• **Den kirken er gammel.** – Diese (jene) Kirche ist alt.\n• **Det huset vil jeg se.** – Dieses Haus will ich sehen.\n• **De skoene er fine.** – Diese Schuhe sind schön.\n\nDer Unterschied zur doppelten Bestimmtheit: Hier steht kein Adjektiv, und **den / det / de** wird betont."
+        },
+        {
+          "h": "Mit her und der",
+          "body": "Sehr oft zeigt man mit **her** (hier) oder **der** (da, dort). Sie stehen nach dem Substantiv:\n• **den bygningen der** – das Gebäude da\n• **det huset her** – dieses Haus hier\n• **de skoene der** – die Schuhe da\n\nIn der gesprochenen Sprache ersetzt **den her / det her / de her** oft **denne / dette / disse** (Lektion 7). Mit **der** zeigt man auf etwas weiter weg.",
+          "table": [
+            ["", "hier (nah)", "da (weiter weg)"],
+            ["m/f", "denne kirken / den kirken her", "den kirken der"],
+            ["n", "dette huset / det huset her", "det huset der"],
+            ["Plural", "disse skoene / de skoene her", "de skoene der"]
+          ]
+        }
+      ],
+      "drills": [
+        { "prompt": "___ bygningen der er Stortinget.", "de": "Das Gebäude da ist das Storting.", "answer": ["Den"], "explain": "en bygning → den bygningen der." },
+        { "prompt": "___ huset der er over hundre år gammelt.", "de": "Das Haus da ist über hundert Jahre alt.", "answer": ["Det"], "explain": "et hus → det huset der." },
+        { "prompt": "___ skoene der er dyre.", "de": "Die Schuhe da sind teuer.", "answer": ["De"], "explain": "Plural → de skoene der." },
+        { "prompt": "Hvem er ___ mannen på hesten der?", "de": "Wer ist der Mann auf dem Pferd da?", "answer": ["den"], "explain": "en mann → den mannen der." },
+        { "prompt": "Jeg vil kjøpe ___ boka der.", "de": "Ich will das Buch da kaufen.", "answer": ["den"], "explain": "ei bok → den boka der (auch wenn es im Deutschen »das Buch« heißt)." },
+        { "prompt": "Ser du ___ høyhuset der?", "de": "Siehst du das Hochhaus da?", "answer": ["det"], "explain": "et høyhus → det høyhuset der." },
+        { "prompt": "___ studentene der kommer fra Tyskland.", "de": "Die Studenten da kommen aus Deutschland.", "answer": ["De"], "explain": "Plural → de." },
+        { "prompt": "Kan du ta et bilde av ___ statuen der?", "de": "Kannst du ein Foto von der Statue da machen?", "answer": ["den"], "explain": "en statue → den statuen der." },
+        { "prompt": "Liker du ___ jakken der?", "de": "Gefällt dir die Jacke da?", "answer": ["den"], "explain": "en jakke → den jakken der." },
+        { "prompt": "Hvor gammelt er ___ slottet der?", "de": "Wie alt ist das Schloss da?", "answer": ["det"], "explain": "et slott → det slottet der." }
+      ]
+    },
+    {
+      "id": "g09_el",
+      "title": "Substantive auf -el",
+      "titleNo": "substantiv på -el",
+      "summary": "en sykkel – sykkelen – sykler – syklene: Vor -er und -ene fällt das e weg, Doppelkonsonanten werden einfach.",
+      "sections": [
+        {
+          "h": "Das e fällt weg",
+          "body": "Bei Substantiven auf unbetontes **-el** fällt das e weg, wenn eine Endung mit Vokal folgt (Plural **-er**, **-ene**). Ein Doppelkonsonant davor wird dann einfach:\n• **en sykkel – sykkelen – sykler – syklene**\n• **en nøkkel – nøkkelen – nøkler – nøklene**\n• **en onkel – onkelen – onkler – onklene**\n\nIm bestimmten Singular bleibt das e: **sykkelen, nøkkelen**. Das kennst du schon von den Adjektiven: **gammel – gamle** (Lektion 6).",
+          "table": [
+            ["unbestimmt", "bestimmt", "Plural", "bestimmt Plural"],
+            ["en sykkel", "sykkelen", "sykler", "syklene"],
+            ["en nøkkel", "nøkkelen", "nøkler", "nøklene"],
+            ["en regel", "regelen", "regler", "reglene"],
+            ["en himmel", "himmelen", "himler", "himlene"],
+            ["en artikkel", "artikkelen", "artikler", "artiklene"],
+            ["et eksempel", "eksempelet", "eksempler", "eksemplene"]
+          ]
+        },
+        {
+          "h": "Neutra und Ausnahmen",
+          "body": "Auch Neutra auf -el folgen der Regel: **et eksempel – eksempelet – eksempler – eksemplene** (im bestimmten Singular geht auch **eksemplet**).\n\nIst die letzte Silbe betont, bleibt das e: **en tunnel – tunneler**, **en modell – modeller**. Hör also auf die Betonung: **SYK-kel** (das e fällt weg), aber **tun-NEL** (das e bleibt)."
+        }
+      ],
+      "drills": [
+        { "prompt": "Matthias har to ___. (sykkel, Plural)", "de": "Matthias hat zwei Fahrräder.", "answer": ["sykler"], "explain": "sykkel → sykler: e fällt weg, kk wird k." },
+        { "prompt": "Hvor er ___? Jeg finner dem ikke. (nøkkel, bestimmt Plural)", "de": "Wo sind die Schlüssel? Ich finde sie nicht.", "answer": ["nøklene"], "explain": "nøkkel → nøkler → nøklene." },
+        { "prompt": "Susanne har tre ___ i Freiburg. (onkel, Plural)", "de": "Susanne hat drei Onkel in Freiburg.", "answer": ["onkler"], "explain": "onkel → onkler." },
+        { "prompt": "I Sveits er det mange ___. (regel, Plural)", "de": "In der Schweiz gibt es viele Regeln.", "answer": ["regler"], "explain": "regel → regler." },
+        { "prompt": "Kan du gi meg noen ___? (eksempel, Plural)", "de": "Kannst du mir ein paar Beispiele geben?", "answer": ["eksempler"], "explain": "et eksempel → eksempler." },
+        { "prompt": "___ er gammel, men den går fint. (sykkel, bestimmt Singular)", "de": "Das Fahrrad ist alt, aber es fährt gut.", "answer": ["Sykkelen"], "explain": "Im bestimmten Singular bleibt das e: sykkelen." },
+        { "prompt": "Vi kjørte gjennom mange ___ på Vestlandet. (tunnel, Plural)", "de": "Wir sind in Westnorwegen durch viele Tunnel gefahren.", "answer": ["tunneler"], "explain": "tun-NEL: Die letzte Silbe ist betont, das e bleibt." },
+        { "prompt": "___ er blå i dag. (himmel, bestimmt Singular)", "de": "Der Himmel ist heute blau.", "answer": ["Himmelen"], "explain": "Bestimmter Singular: himmelen (mit e)." },
+        { "prompt": "Ola har lest alle ___ i boka. (eksempel, bestimmt Plural)", "de": "Ola hat alle Beispiele im Buch gelesen.", "answer": ["eksemplene"], "explain": "eksempel → eksempler → eksemplene." },
+        { "prompt": "Jeg har lest to ___ om Bergen. (artikkel, Plural)", "de": "Ich habe zwei Artikel über Bergen gelesen.", "answer": ["artikler"], "explain": "artikkel → artikler: e fällt weg, kk wird k." }
+      ]
+    },
+    {
+      "id": "g09_genitiv",
+      "title": "Der Genitiv mit -s",
+      "titleNo": "genitiv",
+      "summary": "Annas sykkel, Norges hovedstad, kongens slott: -s ohne Apostroph; danach steht das Substantiv unbestimmt.",
+      "sections": [
+        {
+          "h": "Besitzer + s",
+          "body": "Den Besitzer zeigt man mit **-s** – ohne Apostroph, wie im Deutschen bei Namen:\n• **Annas sykkel** – Annas Fahrrad\n• **Norges hovedstad** – Norwegens Hauptstadt\n• **Oslos gater** – Oslos Straßen\n\nAnders als im Deutschen geht das bei allen Substantiven, und der Besitzer steht immer vorne: **kongens slott** (das Schloss des Königs), **byens hovedgate** (die Hauptstraße der Stadt), **firmaets kontor** (das Büro der Firma)."
+        },
+        {
+          "h": "Danach: unbestimmte Form",
+          "body": "Das Substantiv nach dem Genitiv steht in der **unbestimmten Form** – der Genitiv macht es schon bestimmt:\n• **kongens slott** (nicht »kongens slottet«)\n• **Annas kjæreste** (nicht »Annas kjæresten«)\n\nEndet ein Name auf -s, -x oder -z, schreibt man nur einen Apostroph: **Matthias' tilbud, Jonas' pizza**.\n\nIn der gesprochenen Sprache hört man oft eine Umschreibung: **sykkelen til Anna** (mehr dazu in Lektion 16)."
+        }
+      ],
+      "drills": [
+        { "prompt": "___ kjæreste heter Jonas. (Anna)", "de": "Annas Freund heißt Jonas.", "answer": ["Annas"], "explain": "Name + s, ohne Apostroph." },
+        { "prompt": "Oslo er ___ hovedstad. (Norge)", "de": "Oslo ist Norwegens Hauptstadt.", "answer": ["Norges"], "explain": "Norge + s = Norges." },
+        { "prompt": "Slottet er ___ hjem. (kongen)", "de": "Das Schloss ist das Zuhause des Königs.", "answer": ["kongens"], "explain": "Auch bestimmte Substantive bekommen -s: kongen → kongens." },
+        { "prompt": "___ tilbud fra Paris er godt. (Matthias)", "de": "Matthias' Angebot aus Paris ist gut.", "answer": ["Matthias'"], "explain": "Namen auf -s bekommen nur einen Apostroph: Matthias'." },
+        { "prompt": "Karl Johans gate er ___ hovedgate. (byen)", "de": "Die Karl Johans gate ist die Hauptstraße der Stadt.", "answer": ["byens"], "explain": "byen + s = byens." },
+        { "prompt": "___ bror heter Arne. (Kari)", "de": "Karis Bruder heißt Arne.", "answer": ["Karis"], "explain": "Name + s, ohne Apostroph." },
+        { "prompt": "___ mor heter Kari. (Ola)", "de": "Olas Mutter heißt Kari.", "answer": ["Olas"], "explain": "Name + s, ohne Apostroph." },
+        { "prompt": "Vi har sett ___ «Et dukkehjem». (Ibsen)", "de": "Wir haben Ibsens »Et dukkehjem« gesehen.", "answer": ["Ibsens"], "explain": "Ibsen + s = Ibsens." },
+        { "prompt": "Kongens ___ ligger på en liten høyde. (slott)", "de": "Das Schloss des Königs liegt auf einem kleinen Hügel.", "answer": ["slott"], "explain": "Nach dem Genitiv steht die unbestimmte Form: kongens slott." },
+        { "prompt": "___ kontor ligger i et høyhus. (firmaet)", "de": "Das Büro der Firma liegt in einem Hochhaus.", "answer": ["Firmaets"], "explain": "firmaet + s = firmaets." }
+      ]
+    },
+    {
+      "id": "g09_prep_sporreord",
+      "title": "Fragewort und Präposition",
+      "titleNo": "spørreord og preposisjon",
+      "summary": "Die Präposition steht am Ende der Frage: Hvem snakker du med? – Mit wem sprichst du?",
+      "sections": [
+        {
+          "h": "Die Präposition wandert ans Ende",
+          "body": "Im Deutschen steht die Präposition am Anfang der Frage (**Mit wem** sprichst du?) oder sie verbindet sich mit »wo(r)-« (**Woran** denkst du?). Im Norwegischen steht das Fragewort vorne und die Präposition am **Ende**:\n• **Hvem snakker du med?** – Mit wem sprichst du?\n• **Hva tenker du på?** – Woran denkst du?\n• **Hvor kommer du fra?** – Woher kommst du?\n• **Hva er du redd for?** – Wovor hast du Angst?\n\nDas kennst du schon vom Relativsatz (Lektion 7): **huset som vi bor i**.",
+          "table": [
+            ["Deutsch", "Norwegisch"],
+            ["Mit wem …?", "Hvem … med?"],
+            ["Für wen …?", "Hvem … til?"],
+            ["Bei wem …?", "Hvem … hos?"],
+            ["Worüber …?", "Hva … om?"],
+            ["Woran / Worauf …?", "Hva … på?"],
+            ["Wovor …?", "Hva … for?"],
+            ["Woher …?", "Hvor … fra?"]
+          ]
+        },
+        {
+          "h": "Welche Präposition?",
+          "body": "Die Präposition gehört zum Verb oder Adjektiv – lerne sie immer mit: **snakke med / om**, **tenke på**, **vente på**, **drømme om**, **være redd for**, **være sjalu på**, **bestemme seg for**.\n\nIn einer kurzen Antwort steht die Präposition dagegen vorne: **Hva tenker du på? – På Bergen.** **Hvem snakket du med? – Med foreldrene.**"
+        }
+      ],
+      "drills": [
+        { "prompt": "Hvem snakker du ___? (mit wem)", "de": "Mit wem sprichst du?", "answer": ["med"], "explain": "snakke med → Hvem snakker du med?" },
+        { "prompt": "Hva tenker du ___? (woran)", "de": "Woran denkst du?", "answer": ["på"], "explain": "tenke på → Hva tenker du på?" },
+        { "prompt": "Hvor kommer Matthias ___? (woher)", "de": "Woher kommt Matthias?", "answer": ["fra"], "explain": "komme fra → Hvor kommer han fra?" },
+        { "prompt": "Hva er du redd ___? (wovor)", "de": "Wovor hast du Angst?", "answer": ["for"], "explain": "være redd for → Hva er du redd for?" },
+        { "prompt": "Hva venter vi ___? (worauf)", "de": "Worauf warten wir?", "answer": ["på"], "explain": "vente på → Hva venter vi på?" },
+        { "prompt": "Hva er Susanne glad ___? (gern haben)", "de": "Was hat Susanne gern?", "answer": ["i"], "explain": "være glad i = gern haben → Hva er hun glad i?" },
+        { "prompt": "Hvem er Jonas sjalu ___? (auf wen)", "de": "Auf wen ist Jonas eifersüchtig?", "answer": ["på"], "explain": "sjalu på → Hvem er han sjalu på?" },
+        { "prompt": "Hvem har du fått et tilbud ___? (von wem)", "de": "Von wem hast du ein Angebot bekommen?", "answer": ["fra"], "explain": "få noe fra noen → Hvem … fra?" },
+        { "prompt": "Hva drømmer du ___? (wovon)", "de": "Wovon träumst du?", "answer": ["om"], "explain": "drømme om → Hva drømmer du om?" },
+        { "prompt": "Hvem bor Susanne ___? (bei wem)", "de": "Bei wem wohnt Susanne?", "answer": ["hos"], "explain": "bo hos noen → Hvem bor hun hos?" }
+      ]
+    }
+  ],
+  "tf": [
+    { "s": "Matthias har fått to tilbud.", "de": "Matthias hat zwei Angebote bekommen.", "a": true, "why": "Ein Praktikum in Bergen und eine Stelle in Paris." },
+    { "s": "Firmaet i Bergen har tre tusen ansatte.", "de": "Die Firma in Bergen hat dreitausend Angestellte.", "a": false, "why": "Die Firma in Bergen hat zwölf Angestellte; die Firma in Paris hat dreitausend." },
+    { "s": "Kong Harald og dronning Sonja giftet seg i Domkirken.", "de": "König Harald und Königin Sonja haben im Dom geheiratet.", "a": true, "why": "»Der giftet kong Harald og dronning Sonja seg i 1968.«" },
+    { "s": "Stortinget er en gul bygning.", "de": "Das Storting ist ein gelbes Gebäude.", "a": true, "why": "»den gule bygningen der er Stortinget«" },
+    { "s": "I Tyskland er seks en toppkarakter.", "de": "In Deutschland ist eine Sechs eine Spitzennote.", "a": false, "why": "In Deutschland ist es umgekehrt: Eine Eins ist super, eine Sechs eine Katastrophe." },
+    { "s": "I den norske barneskolen får elevene mange karakterer.", "de": "In der norwegischen Grundschule bekommen die Schüler viele Noten.", "a": false, "why": "Sie bekommen überhaupt keine Noten." },
+    { "s": "Matthias velger jobben i Paris.", "de": "Matthias entscheidet sich für die Stelle in Paris.", "a": false, "why": "Er entscheidet sich für Bergen: die kleine Firma, das alte Haus und den Regen." }
+  ],
+  "questions": [
+    { "q": "Hvilke to tilbud har Matthias fått?", "qDe": "Welche zwei Angebote hat Matthias bekommen?", "answer": "Han har fått en praksisplass i Bergen og en jobb i Paris.", "answerDe": "Er hat ein Praktikum in Bergen und eine Stelle in Paris bekommen.", "keywords": [["Bergen"], ["Paris"]] },
+    { "q": "Hva bygger firmaet i Bergen?", "qDe": "Was baut die Firma in Bergen?", "answer": "Det bygger bruer og tunneler.", "answerDe": "Sie baut Brücken und Tunnel.", "keywords": [["bruer", "bru", "broer"], ["tunneler", "tunnel"]] },
+    { "q": "Hvor kan Matthias bo i Bergen?", "qDe": "Wo kann Matthias in Bergen wohnen?", "answer": "Han kan bo i et gammelt trehus i Sandviken.", "answerDe": "Er kann in einem alten Holzhaus in Sandviken wohnen.", "keywords": [["trehus", "trehuset", "hus"], ["Sandviken"]] },
+    { "q": "Hvem var kong Karl Johan egentlig?", "qDe": "Wer war König Karl Johan eigentlich?", "answer": "Han het Jean-Baptiste Bernadotte og kom fra Frankrike.", "answerDe": "Er hieß Jean-Baptiste Bernadotte und kam aus Frankreich.", "keywords": [["Bernadotte"], ["Frankrike", "fransk"]] },
+    { "q": "Hva har Matthias bestemt seg for?", "qDe": "Wofür hat sich Matthias entschieden?", "answer": "Han har bestemt seg for Bergen.", "answerDe": "Er hat sich für Bergen entschieden.", "keywords": [["Bergen"]] }
+  ],
+  "find": [
+    { "de": "Worüber willst du mit mir reden?", "answer": ["Hva vil du snakke med meg om?"] },
+    { "de": "statt", "answer": ["i stedet for"] },
+    { "de": "falsch wählen", "answer": ["velge feil"] },
+    { "de": "Angestellte", "answer": ["ansatte"] },
+    { "de": "mit Blick auf den Hafen", "answer": ["med utsikt over havna"] },
+    { "de": "klingt gemütlich", "answer": ["høres koselig ut"] },
+    { "de": "überhaupt", "answer": ["i det hele tatt"] },
+    { "de": "Abgemacht!", "answer": ["Avtale!"] }
+  ],
+  "translate": [
+    { "de": "Das alte Haus liegt in Sandviken.", "no": ["Det gamle huset ligger i Sandviken."] },
+    { "de": "Die kleine Firma hat zwölf Angestellte.", "no": ["Det lille firmaet har tolv ansatte."] },
+    { "de": "Das Gebäude da ist das Storting.", "no": ["Den bygningen der er Stortinget."] },
+    { "de": "Annas Fahrrad ist alt.", "no": ["Annas sykkel er gammel."], "hint": "Genitiv + unbestimmte Form; Prädikativ unbestimmt." },
+    { "de": "Oslo ist Norwegens Hauptstadt.", "no": ["Oslo er Norges hovedstad."] },
+    { "de": "Woran denkst du?", "no": ["Hva tenker du på?"] },
+    { "de": "Mit wem hast du gesprochen?", "no": ["Hvem har du snakket med?", "Hvem snakket du med?"] },
+    { "de": "Ich habe zwei Fahrräder und viele Schlüssel.", "no": ["Jeg har to sykler og mange nøkler."] }
+  ],
+  "summary": [
+    { "prompt": "Matthias har fått to ___: en praksisplass i Bergen og en jobb i Paris.", "de": "Matthias hat zwei Angebote bekommen: ein Praktikum in Bergen und eine Stelle in Paris.", "answer": ["tilbud"] },
+    { "prompt": "Det ___ firmaet i Paris har tre tusen ansatte.", "de": "Die große Firma in Paris hat dreitausend Angestellte.", "answer": ["store"] },
+    { "prompt": "Susanne synes at det ___ trehuset i Sandviken høres koselig ut.", "de": "Susanne findet, dass das alte Holzhaus in Sandviken gemütlich klingt.", "answer": ["gamle"] },
+    { "prompt": "Foran Slottet ser de en statue av kong Karl Johan på ___.", "de": "Vor dem Schloss sehen sie eine Statue von König Karl Johan zu Pferd.", "answer": ["hest", "hesten"] },
+    { "prompt": "Til slutt bestemmer Matthias seg ___ Bergen.", "de": "Am Ende entscheidet sich Matthias für Bergen.", "answer": ["for"] }
+  ],
+  "dictation": [5, 8, 19, 25],
+  "writing": {
+    "prompt": "Du musst dich entscheiden – zwischen zwei Wohnungen, zwei Jobs oder zwei Städten. Schreib einer Freundin eine Nachricht: Beschreib beide Möglichkeiten mit Adjektiven in der bestimmten Form (den nye …, det gamle …), schreib, wofür du dich entschieden hast und warum, und frag sie nach ihrer Meinung.",
+    "minWords": 60,
+    "useWords": ["den nye", "den gamle", "fordi", "bestemt meg for"],
+    "checklist": [
+      { "de": "Zwei Möglichkeiten mit bestimmtem Adjektiv", "keywords": ["den nye", "den gamle", "det nye", "det gamle", "den store", "den lille", "det store", "det lille"] },
+      { "de": "Deine Entscheidung", "keywords": ["bestemt meg for", "velger"] },
+      { "de": "Eine Begründung", "keywords": ["fordi"] },
+      { "de": "Eine Frage an die Freundin", "keywords": ["hva synes du", "hva tenker du"] }
+    ],
+    "model": "Hei, Elin! Jeg har sett på to leiligheter. Den nye leiligheten ligger i sentrum, men den er dyr og ganske liten. Den gamle leiligheten ligger på Sagene. Den er billig, og kjøkkenet er stort. Jeg har bestemt meg for den gamle leiligheten fordi jeg vil bo i et rolig område med mange parker. Og derfra kan jeg sykle til jobben! Hva synes du? Hilsen Mads",
+    "modelDe": "Hallo Elin! Ich habe mir zwei Wohnungen angesehen. Die neue Wohnung liegt im Zentrum, aber sie ist teuer und ziemlich klein. Die alte Wohnung liegt in Sagene. Sie ist billig, und die Küche ist groß. Ich habe mich für die alte Wohnung entschieden, weil ich in einer ruhigen Gegend mit vielen Parks wohnen will. Und von dort kann ich mit dem Fahrrad zur Arbeit fahren! Was meinst du? Viele Grüße, Mads"
+  }
+}

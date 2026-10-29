@@ -1,0 +1,2131 @@
+[
+  {
+    "id": "w22_nasjonaldag",
+    "no": "nasjonaldag",
+    "de": "der Nationalfeiertag",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "nasjonaldag",
+      "nasjonaldagen",
+      "nasjonaldager",
+      "nasjonaldagene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "17. mai er Norges nasjonaldag.",
+      "de": "Der 17. Mai ist Norwegens Nationalfeiertag."
+    }
+  },
+  {
+    "id": "w22_grunnlovsdag",
+    "no": "grunnlovsdag",
+    "de": "der Verfassungstag",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "grunnlovsdag",
+      "grunnlovsdagen",
+      "grunnlovsdager",
+      "grunnlovsdagene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "På grunnlovsdagen går barna i tog.",
+      "de": "Am Verfassungstag gehen die Kinder im Umzug."
+    }
+  },
+  {
+    "id": "w22_gratulerer_med_dagen",
+    "no": "gratulerer med dagen",
+    "de": "herzlichen Glückwunsch",
+    "deAlt": [
+      "alles Gute zum Geburtstag"
+    ],
+    "pos": "phrase",
+    "lesson": 22,
+    "ex": {
+      "no": "Gratulerer med dagen, alle sammen!",
+      "de": "Herzlichen Glückwunsch, alle zusammen!"
+    },
+    "note": "Sagt man zum Geburtstag – und am 17. Mai zu allen."
+  },
+  {
+    "id": "w22_champagne",
+    "no": "champagne",
+    "de": "der Champagner",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "champagne",
+      "champagnen"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Mange drikker champagne til frokost på 17. mai.",
+      "de": "Viele trinken am 17. Mai Champagner zum Frühstück."
+    },
+    "note": "Aussprache: [sjam-PANJ-e]."
+  },
+  {
+    "id": "w22_rundstykke",
+    "no": "rundstykke",
+    "de": "das Brötchen",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "rundstykke",
+      "rundstykket",
+      "rundstykker",
+      "rundstykkene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Kari har bakt rundstykker til frokost.",
+      "de": "Kari hat Brötchen zum Frühstück gebacken."
+    }
+  },
+  {
+    "id": "w22_nybakt",
+    "no": "nybakt",
+    "de": "frisch gebacken",
+    "pos": "adj",
+    "forms": [
+      "nybakt",
+      "nybakt",
+      "nybakte"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Det lukter nybakte rundstykker på kjøkkenet.",
+      "de": "In der Küche riecht es nach frisch gebackenen Brötchen."
+    }
+  },
+  {
+    "id": "w22_duk",
+    "no": "duk",
+    "de": "die Tischdecke",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "duk",
+      "duken",
+      "duker",
+      "dukene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Kari legger en hvit duk på bordet.",
+      "de": "Kari legt eine weiße Tischdecke auf den Tisch."
+    }
+  },
+  {
+    "id": "w22_stryke",
+    "no": "stryke",
+    "de": "bügeln",
+    "deAlt": [
+      "streichen",
+      "durchfallen"
+    ],
+    "pos": "verb",
+    "vf": [
+      "stryker",
+      "strøk",
+      "strøket",
+      "stryk"
+    ],
+    "vg": "sterk",
+    "lesson": 22,
+    "ex": {
+      "no": "Per strøk skjorta si før frokost.",
+      "de": "Per bügelte vor dem Frühstück sein Hemd."
+    },
+    "note": "Auch: stryke til eksamen = durch die Prüfung fallen."
+  },
+  {
+    "id": "w22_nystroket",
+    "no": "nystrøket",
+    "de": "frisch gebügelt",
+    "pos": "adj",
+    "forms": [
+      "nystrøket",
+      "nystrøket",
+      "nystrøkne"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Han har på seg en nystrøket skjorte.",
+      "de": "Er trägt ein frisch gebügeltes Hemd."
+    }
+  },
+  {
+    "id": "w22_pynte",
+    "no": "pynte",
+    "de": "schmücken",
+    "deAlt": [
+      "dekorieren"
+    ],
+    "pos": "verb",
+    "vf": [
+      "pynter",
+      "pyntet/pynta",
+      "pyntet/pynta",
+      "pynt"
+    ],
+    "vg": "1",
+    "lesson": 22,
+    "ex": {
+      "no": "Vi pyntet huset med flagg.",
+      "de": "Wir schmückten das Haus mit Fahnen."
+    },
+    "note": "pynte seg = sich schick machen."
+  },
+  {
+    "id": "w22_vekke",
+    "no": "vekke",
+    "de": "wecken",
+    "pos": "verb",
+    "vf": [
+      "vekker",
+      "vekket/vekka",
+      "vekket/vekka",
+      "vekk"
+    ],
+    "vg": "1",
+    "lesson": 22,
+    "ex": {
+      "no": "Korpset vekket hele nabolaget.",
+      "de": "Die Kapelle weckte die ganze Nachbarschaft."
+    }
+  },
+  {
+    "id": "w22_korps",
+    "no": "korps",
+    "de": "die Blaskapelle",
+    "deAlt": [
+      "das Musikkorps",
+      "die Kapelle"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "korps",
+      "korpset",
+      "korps",
+      "korpsa/korpsene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Korpset spiller foran skolen.",
+      "de": "Die Kapelle spielt vor der Schule."
+    },
+    "note": "Aussprache: [korps] – das p und s spricht man."
+  },
+  {
+    "id": "w22_skolekorps",
+    "no": "skolekorps",
+    "de": "die Schulkapelle",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "skolekorps",
+      "skolekorpset",
+      "skolekorps",
+      "skolekorpsa/skolekorpsene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Ola spilte trompet i skolekorpset.",
+      "de": "Ola spielte Trompete in der Schulkapelle."
+    },
+    "note": "Viele norwegische Grundschulen haben eine eigene Blaskapelle."
+  },
+  {
+    "id": "w22_revelje",
+    "no": "revelje",
+    "de": "der Weckruf (Morgenmusik)",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "revelje",
+      "reveljen",
+      "reveljer",
+      "reveljene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Korpset går revelje klokka sju.",
+      "de": "Die Kapelle zieht um sieben Uhr mit Weckmusik durch die Straßen."
+    }
+  },
+  {
+    "id": "w22_tradisjon",
+    "no": "tradisjon",
+    "de": "die Tradition",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "tradisjon",
+      "tradisjonen",
+      "tradisjoner",
+      "tradisjonene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Det er en gammel tradisjon å spise is på 17. mai.",
+      "de": "Es ist eine alte Tradition, am 17. Mai Eis zu essen."
+    }
+  },
+  {
+    "id": "w22_barneskole",
+    "no": "barneskole",
+    "de": "die Grundschule",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "barneskole",
+      "barneskolen",
+      "barneskoler",
+      "barneskolene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Ola gikk på barneskolen i Sagene.",
+      "de": "Ola ging in Sagene in die Grundschule."
+    },
+    "note": "1.–7. Klasse; danach ungdomsskole (8.–10.)."
+  },
+  {
+    "id": "w22_raad",
+    "no": "råd",
+    "de": "der Rat",
+    "deAlt": [
+      "der Ratschlag"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "råd",
+      "rådet",
+      "råd",
+      "råda/rådene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Matthias fulgte rådet til Per.",
+      "de": "Matthias befolgte Pers Rat."
+    },
+    "note": "følge et råd = einen Rat befolgen; ha råd til = sich leisten können."
+  },
+  {
+    "id": "w22_dress",
+    "no": "dress",
+    "de": "der Anzug",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "dress",
+      "dressen",
+      "dresser",
+      "dressene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Per går i dress på 17. mai.",
+      "de": "Per trägt am 17. Mai einen Anzug."
+    },
+    "note": "gå i dress = einen Anzug tragen."
+  },
+  {
+    "id": "w22_slips",
+    "no": "slips",
+    "de": "die Krawatte",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "slips",
+      "slipset",
+      "slips",
+      "slipsa/slipsene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Matthias har på seg et rødt slips.",
+      "de": "Matthias trägt eine rote Krawatte."
+    },
+    "note": "Falscher Freund: ein slips ist kein Slip!"
+  },
+  {
+    "id": "w22_bunad",
+    "no": "bunad",
+    "de": "die (norwegische) Tracht",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "bunad",
+      "bunaden",
+      "bunader",
+      "bunadene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Kari har på seg bunaden sin fra Sunnmøre.",
+      "de": "Kari trägt ihre Tracht aus Sunnmøre."
+    },
+    "note": "Jede Region hat ihre eigene Bunad; man trägt sie am 17. Mai, bei Hochzeiten und Konfirmationen."
+  },
+  {
+    "id": "w22_haandsydd",
+    "no": "håndsydd",
+    "de": "handgenäht",
+    "pos": "adj",
+    "forms": [
+      "håndsydd",
+      "håndsydd",
+      "håndsydde"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "En håndsydd bunad er veldig dyr.",
+      "de": "Eine handgenähte Tracht ist sehr teuer."
+    }
+  },
+  {
+    "id": "w22_sy",
+    "no": "sy",
+    "de": "nähen",
+    "pos": "verb",
+    "vf": [
+      "syr",
+      "sydde",
+      "sydd",
+      "sy"
+    ],
+    "vg": "4",
+    "lesson": 22,
+    "ex": {
+      "no": "Bestemor sydde bunaden selv.",
+      "de": "Oma hat die Tracht selbst genäht."
+    }
+  },
+  {
+    "id": "w22_solje",
+    "no": "sølje",
+    "de": "die Trachtenbrosche",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "sølje",
+      "sølja",
+      "søljer",
+      "søljene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Sølja er laget av sølv.",
+      "de": "Die Trachtenbrosche ist aus Silber."
+    },
+    "note": "Runder Silberschmuck, der zur Bunad gehört."
+  },
+  {
+    "id": "w22_solv",
+    "no": "sølv",
+    "de": "das Silber",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "sølv",
+      "sølvet"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Kari arvet sølvet etter mormoren sin.",
+      "de": "Kari erbte das Silber von ihrer Großmutter."
+    }
+  },
+  {
+    "id": "w22_arve",
+    "no": "arve",
+    "de": "erben",
+    "pos": "verb",
+    "vf": [
+      "arver",
+      "arvet/arva",
+      "arvet/arva",
+      "arv"
+    ],
+    "vg": "1",
+    "lesson": 22,
+    "ex": {
+      "no": "Anna skal arve bunaden til bestemor.",
+      "de": "Anna wird Omas Tracht erben."
+    },
+    "note": "arve noe etter noen = etwas von jemandem erben."
+  },
+  {
+    "id": "w22_familiehistorie",
+    "no": "familiehistorie",
+    "de": "die Familiengeschichte",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "familiehistorie",
+      "familiehistoria",
+      "familiehistorier",
+      "familiehistoriene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Bestemor forteller gjerne om familiehistoria.",
+      "de": "Oma erzählt gern von der Familiengeschichte."
+    }
+  },
+  {
+    "id": "w22_se_ut_som",
+    "no": "se ut som",
+    "de": "aussehen wie",
+    "pos": "phrase",
+    "lesson": 22,
+    "ex": {
+      "no": "Bunaden ser ut som ny.",
+      "de": "Die Tracht sieht aus wie neu."
+    }
+  },
+  {
+    "id": "w22_skaal_for",
+    "no": "skål for",
+    "de": "Prost auf",
+    "pos": "phrase",
+    "lesson": 22,
+    "ex": {
+      "no": "Skål for Norge!",
+      "de": "Prost auf Norwegen!"
+    }
+  },
+  {
+    "id": "w22_barnetog",
+    "no": "barnetog",
+    "de": "der Kinderumzug",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "barnetog",
+      "barnetoget",
+      "barnetog",
+      "barnetoga/barnetogene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Barnetoget går opp Karl Johan til Slottet.",
+      "de": "Der Kinderumzug geht die Karl Johan hinauf zum Schloss."
+    },
+    "note": "tog = Zug, aber auch Umzug, Festzug."
+  },
+  {
+    "id": "w22_gaa_i_tog",
+    "no": "gå i tog",
+    "de": "im Umzug mitgehen",
+    "pos": "phrase",
+    "lesson": 22,
+    "ex": {
+      "no": "Alle skolebarna går i tog.",
+      "de": "Alle Schulkinder gehen im Umzug mit."
+    }
+  },
+  {
+    "id": "w22_slott",
+    "no": "slott",
+    "de": "das Schloss",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "slott",
+      "slottet",
+      "slott",
+      "slotta/slottene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Kongen bor på Slottet i Oslo.",
+      "de": "Der König wohnt im Schloss in Oslo."
+    },
+    "note": "Slottet (groß geschrieben) = das Königliche Schloss in Oslo."
+  },
+  {
+    "id": "w22_kongefamilie",
+    "no": "kongefamilie",
+    "de": "die Königsfamilie",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "kongefamilie",
+      "kongefamilien",
+      "kongefamilier",
+      "kongefamiliene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Kongefamilien vinker fra balkongen.",
+      "de": "Die Königsfamilie winkt vom Balkon."
+    }
+  },
+  {
+    "id": "w22_balkong",
+    "no": "balkong",
+    "de": "der Balkon",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "balkong",
+      "balkongen",
+      "balkonger",
+      "balkongene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Leiligheten har en liten balkong.",
+      "de": "Die Wohnung hat einen kleinen Balkon."
+    }
+  },
+  {
+    "id": "w22_vinke",
+    "no": "vinke",
+    "de": "winken",
+    "pos": "verb",
+    "vf": [
+      "vinker",
+      "vinket/vinka",
+      "vinket/vinka",
+      "vink"
+    ],
+    "vg": "1",
+    "lesson": 22,
+    "ex": {
+      "no": "Barna vinket til kongen.",
+      "de": "Die Kinder winkten dem König zu."
+    }
+  },
+  {
+    "id": "w22_slitsom",
+    "no": "slitsom",
+    "de": "anstrengend",
+    "pos": "adj",
+    "forms": [
+      "slitsom",
+      "slitsomt",
+      "slitsomme"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Det er slitsomt å vinke i tre timer.",
+      "de": "Es ist anstrengend, drei Stunden lang zu winken."
+    }
+  },
+  {
+    "id": "w22_feiring",
+    "no": "feiring",
+    "de": "die Feier",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "feiring",
+      "feiringa/feiringen",
+      "feiringer",
+      "feiringene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Feiringa varte hele dagen.",
+      "de": "Die Feier dauerte den ganzen Tag."
+    },
+    "note": "Auch maskulin: en feiring – feiringen."
+  },
+  {
+    "id": "w22_fane",
+    "no": "fane",
+    "de": "die Fahne, das Banner",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "fane",
+      "fanen",
+      "faner",
+      "fanene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Hver skole har sin egen fane i barnetoget.",
+      "de": "Jede Schule hat im Kinderumzug ihre eigene Fahne."
+    },
+    "note": "fane = großes Banner mit Stange; flagg = Flagge."
+  },
+  {
+    "id": "w22_rope",
+    "no": "rope",
+    "de": "rufen",
+    "pos": "verb",
+    "vf": [
+      "roper",
+      "ropte",
+      "ropt",
+      "rop"
+    ],
+    "vg": "2",
+    "lesson": 22,
+    "ex": {
+      "no": "Barna ropte «Hurra!».",
+      "de": "Die Kinder riefen „Hurra!“."
+    }
+  },
+  {
+    "id": "w22_forklaring",
+    "no": "forklaring",
+    "de": "die Erklärung",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "forklaring",
+      "forklaringa/forklaringen",
+      "forklaringer",
+      "forklaringene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Per ga Matthias en kort forklaring.",
+      "de": "Per gab Matthias eine kurze Erklärung."
+    },
+    "note": "Von forklare (erklären); auch maskulin: forklaringen."
+  },
+  {
+    "id": "w22_union",
+    "no": "union",
+    "de": "die Union",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "union",
+      "unionen",
+      "unioner",
+      "unionene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Unionen med Sverige ble oppløst i 1905.",
+      "de": "Die Union mit Schweden wurde 1905 aufgelöst."
+    }
+  },
+  {
+    "id": "w22_finne_seg_i",
+    "no": "finne seg i",
+    "de": "sich gefallen lassen",
+    "deAlt": [
+      "hinnehmen"
+    ],
+    "pos": "verb",
+    "vf": [
+      "finner seg i",
+      "fant seg i",
+      "funnet seg i",
+      "finn deg i"
+    ],
+    "vg": "sterk",
+    "lesson": 22,
+    "ex": {
+      "no": "Det vil jeg ikke finne meg i!",
+      "de": "Das lasse ich mir nicht gefallen!"
+    }
+  },
+  {
+    "id": "w22_grunnlov",
+    "no": "grunnlov",
+    "de": "die Verfassung",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "grunnlov",
+      "grunnloven",
+      "grunnlover",
+      "grunnlovene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Grunnloven ble skrevet på Eidsvoll i 1814.",
+      "de": "Die Verfassung wurde 1814 in Eidsvoll geschrieben."
+    },
+    "note": "Grunnloven von 1814 ist eine der ältesten noch geltenden Verfassungen der Welt."
+  },
+  {
+    "id": "w22_underskrive",
+    "no": "underskrive",
+    "de": "unterschreiben",
+    "deAlt": [
+      "unterzeichnen"
+    ],
+    "pos": "verb",
+    "vf": [
+      "underskriver",
+      "underskrev",
+      "underskrevet",
+      "underskriv"
+    ],
+    "vg": "sterk",
+    "lesson": 22,
+    "ex": {
+      "no": "Grunnloven ble underskrevet den 17. mai 1814.",
+      "de": "Die Verfassung wurde am 17. Mai 1814 unterzeichnet."
+    },
+    "note": "Auch: skrive under."
+  },
+  {
+    "id": "w22_storting",
+    "no": "storting",
+    "de": "das Parlament (Norwegens)",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "storting",
+      "stortinget",
+      "storting",
+      "stortinga/stortingene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Stortinget ligger midt i Oslo.",
+      "de": "Das Parlament liegt mitten in Oslo."
+    },
+    "note": "Meist bestimmt und groß: Stortinget."
+  },
+  {
+    "id": "w22_beholde",
+    "no": "beholde",
+    "de": "behalten",
+    "pos": "verb",
+    "vf": [
+      "beholder",
+      "beholdt",
+      "beholdt",
+      "behold"
+    ],
+    "vg": "sterk",
+    "lesson": 22,
+    "ex": {
+      "no": "Du kan beholde boka.",
+      "de": "Du kannst das Buch behalten."
+    }
+  },
+  {
+    "id": "w22_selvstendig",
+    "no": "selvstendig",
+    "de": "unabhängig",
+    "deAlt": [
+      "selbständig",
+      "selbstständig"
+    ],
+    "pos": "adj",
+    "forms": [
+      "selvstendig",
+      "selvstendig",
+      "selvstendige"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Norge ble helt selvstendig i 1905.",
+      "de": "Norwegen wurde 1905 ganz unabhängig."
+    }
+  },
+  {
+    "id": "w22_opplose",
+    "no": "oppløse",
+    "de": "auflösen",
+    "pos": "verb",
+    "vf": [
+      "oppløser",
+      "oppløste",
+      "oppløst",
+      "oppløs"
+    ],
+    "vg": "2",
+    "lesson": 22,
+    "ex": {
+      "no": "Unionen ble oppløst uten krig.",
+      "de": "Die Union wurde ohne Krieg aufgelöst."
+    }
+  },
+  {
+    "id": "w22_krig",
+    "no": "krig",
+    "de": "der Krieg",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "krig",
+      "krigen",
+      "kriger",
+      "krigene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Heldigvis ble det ingen krig.",
+      "de": "Zum Glück gab es keinen Krieg."
+    }
+  },
+  {
+    "id": "w22_prins",
+    "no": "prins",
+    "de": "der Prinz",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "prins",
+      "prinsen",
+      "prinser",
+      "prinsene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Haakon 7. var en dansk prins.",
+      "de": "Haakon VII. war ein dänischer Prinz."
+    }
+  },
+  {
+    "id": "w22_barnebarn",
+    "no": "barnebarn",
+    "de": "das Enkelkind",
+    "deAlt": [
+      "der Enkel",
+      "die Enkelin"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "barnebarn",
+      "barnebarnet",
+      "barnebarn",
+      "barnebarna/barnebarnene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Bestemor Ingrid har tre barnebarn.",
+      "de": "Oma Ingrid hat drei Enkelkinder."
+    }
+  },
+  {
+    "id": "w22_baal",
+    "no": "bål",
+    "de": "das Feuer (im Freien)",
+    "deAlt": [
+      "das Lagerfeuer"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "bål",
+      "bålet",
+      "bål",
+      "båla/bålene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Vi satt rundt bålet og grillet pølser.",
+      "de": "Wir saßen ums Feuer und grillten Würstchen."
+    }
+  },
+  {
+    "id": "w22_fyrverkeri",
+    "no": "fyrverkeri",
+    "de": "das Feuerwerk",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "fyrverkeri",
+      "fyrverkeriet",
+      "fyrverkerier",
+      "fyrverkeriene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "I Sveits er det fyrverkeri 1. august.",
+      "de": "In der Schweiz gibt es am 1. August Feuerwerk."
+    }
+  },
+  {
+    "id": "w22_tale",
+    "no": "tale",
+    "de": "die Rede",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "tale",
+      "talen",
+      "taler",
+      "talene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Kongen holder en tale på nyttårsaften.",
+      "de": "Der König hält an Silvester eine Rede."
+    },
+    "note": "holde en tale = eine Rede halten."
+  },
+  {
+    "id": "w22_beskjeden",
+    "no": "beskjeden",
+    "de": "bescheiden",
+    "pos": "adj",
+    "forms": [
+      "beskjeden",
+      "beskjedent",
+      "beskjedne"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Sveitsere er ofte ganske beskjedne.",
+      "de": "Schweizer sind oft ziemlich bescheiden."
+    }
+  },
+  {
+    "id": "w22_komplisert",
+    "no": "komplisert",
+    "de": "kompliziert",
+    "pos": "adj",
+    "forms": [
+      "komplisert",
+      "komplisert",
+      "kompliserte"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Historien er litt komplisert.",
+      "de": "Die Geschichte ist etwas kompliziert."
+    }
+  },
+  {
+    "id": "w22_forsiktig",
+    "no": "forsiktig",
+    "de": "vorsichtig",
+    "pos": "adj",
+    "forms": [
+      "forsiktig",
+      "forsiktig",
+      "forsiktige"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Vær forsiktig med kniven!",
+      "de": "Sei vorsichtig mit dem Messer!"
+    }
+  },
+  {
+    "id": "w22_nasjonal",
+    "no": "nasjonal",
+    "de": "national",
+    "pos": "adj",
+    "forms": [
+      "nasjonal",
+      "nasjonalt",
+      "nasjonale"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Bunaden er et nasjonalt symbol.",
+      "de": "Die Tracht ist ein nationales Symbol."
+    }
+  },
+  {
+    "id": "w22_folelse",
+    "no": "følelse",
+    "de": "das Gefühl",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "følelse",
+      "følelsen",
+      "følelser",
+      "følelsene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Jeg fikk en god følelse i magen.",
+      "de": "Ich bekam ein gutes Gefühl im Bauch."
+    }
+  },
+  {
+    "id": "w22_nasjonalfolelse",
+    "no": "nasjonalfølelse",
+    "de": "das Nationalgefühl",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "nasjonalfølelse",
+      "nasjonalfølelsen"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Nordmenn har en sterk nasjonalfølelse.",
+      "de": "Norweger haben ein starkes Nationalgefühl."
+    }
+  },
+  {
+    "id": "w22_fridag",
+    "no": "fridag",
+    "de": "der freie Tag",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "fridag",
+      "fridagen",
+      "fridager",
+      "fridagene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "17. mai er en fridag for alle.",
+      "de": "Der 17. Mai ist für alle ein freier Tag."
+    }
+  },
+  {
+    "id": "w22_militaerparade",
+    "no": "militærparade",
+    "de": "die Militärparade",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "militærparade",
+      "militærparaden",
+      "militærparader",
+      "militærparadene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "I Norge er det ingen militærparade på nasjonaldagen.",
+      "de": "In Norwegen gibt es am Nationalfeiertag keine Militärparade."
+    }
+  },
+  {
+    "id": "w22_soldat",
+    "no": "soldat",
+    "de": "der Soldat",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "soldat",
+      "soldaten",
+      "soldater",
+      "soldatene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Soldatene står vakt foran Slottet.",
+      "de": "Die Soldaten halten vor dem Schloss Wache."
+    }
+  },
+  {
+    "id": "w22_stolt",
+    "no": "stolt",
+    "de": "stolz",
+    "pos": "adj",
+    "forms": [
+      "stolt",
+      "stolt",
+      "stolte"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Per er stolt av barnetoget.",
+      "de": "Per ist stolz auf den Kinderumzug."
+    },
+    "note": "stolt av = stolz auf."
+  },
+  {
+    "id": "w22_nettopp",
+    "no": "nettopp",
+    "de": "genau",
+    "deAlt": [
+      "gerade (eben)"
+    ],
+    "pos": "adv",
+    "lesson": 22,
+    "ex": {
+      "no": "Det er nettopp det jeg mener.",
+      "de": "Genau das meine ich."
+    },
+    "note": "Auch zeitlich: Han kom nettopp. = Er ist gerade gekommen."
+  },
+  {
+    "id": "w22_losning",
+    "no": "løsning",
+    "de": "die Lösung",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "løsning",
+      "løsninga/løsningen",
+      "løsninger",
+      "løsningene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Vi må finne en løsning på problemet.",
+      "de": "Wir müssen eine Lösung für das Problem finden."
+    },
+    "note": "løsning på noe = Lösung für etwas."
+  },
+  {
+    "id": "w22_i_stedet_for",
+    "no": "i stedet for",
+    "de": "statt",
+    "deAlt": [
+      "anstelle von"
+    ],
+    "pos": "phrase",
+    "lesson": 22,
+    "ex": {
+      "no": "Vi spiser is i stedet for kake.",
+      "de": "Wir essen Eis statt Kuchen."
+    }
+  },
+  {
+    "id": "w22_vaapen",
+    "no": "våpen",
+    "de": "die Waffe",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "våpen",
+      "våpenet",
+      "våpen",
+      "våpna/våpnene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Barna går i tog uten våpen.",
+      "de": "Die Kinder gehen ohne Waffen im Umzug."
+    }
+  },
+  {
+    "id": "w22_til_og_med",
+    "no": "til og med",
+    "de": "sogar",
+    "pos": "adv",
+    "lesson": 22,
+    "ex": {
+      "no": "Til og med Matthias spiste tre pølser.",
+      "de": "Sogar Matthias aß drei Würstchen."
+    }
+  },
+  {
+    "id": "w22_gjeng",
+    "no": "gjeng",
+    "de": "die Gruppe",
+    "deAlt": [
+      "die Clique",
+      "die Bande"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "gjeng",
+      "gjengen",
+      "gjenger",
+      "gjengene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Ola er ute med gjengen sin.",
+      "de": "Ola ist mit seiner Clique unterwegs."
+    }
+  },
+  {
+    "id": "w22_russ",
+    "no": "russ",
+    "de": "der/die Russ (feiernde Abiturienten)",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "russ",
+      "russen",
+      "russ",
+      "russene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Russen feirer fra slutten av april til 17. mai.",
+      "de": "Die Russ feiern von Ende April bis zum 17. Mai."
+    },
+    "note": "Schüler im letzten Jahr der videregående skole; Rot ist die häufigste Farbe, Blau steht für Wirtschaft. russen = auch „die Russ“ als Gruppe."
+  },
+  {
+    "id": "w22_russebukse",
+    "no": "russebukse",
+    "de": "die Russ-Hose (Latzhose der Russ)",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "russebukse",
+      "russebuksa",
+      "russebukser",
+      "russebuksene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Venninnene skrev navnene sine på russebuksa til Ida.",
+      "de": "Die Freundinnen schrieben ihre Namen auf Idas Russ-Hose."
+    }
+  },
+  {
+    "id": "w22_russebuss",
+    "no": "russebuss",
+    "de": "der Russ-Bus",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "russebuss",
+      "russebussen",
+      "russebusser",
+      "russebussene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "En gammel russebuss kjørte forbi.",
+      "de": "Ein alter Russ-Bus fuhr vorbei."
+    }
+  },
+  {
+    "id": "w22_videregaaende_skole",
+    "no": "videregående skole",
+    "de": "die weiterführende Schule (Oberstufe)",
+    "pos": "phrase",
+    "lesson": 22,
+    "ex": {
+      "no": "Ola går på videregående skole.",
+      "de": "Ola geht auf die weiterführende Schule."
+    },
+    "note": "Drei Jahre nach der 10. Klasse, allgemeinbildend oder berufsbildend; oft nur: videregående."
+  },
+  {
+    "id": "w22_feste",
+    "no": "feste",
+    "de": "feiern, Party machen",
+    "pos": "verb",
+    "vf": [
+      "fester",
+      "festet/festa",
+      "festet/festa",
+      "fest"
+    ],
+    "vg": "1",
+    "lesson": 22,
+    "ex": {
+      "no": "Russen har festet i flere uker.",
+      "de": "Die Russ feiern schon seit Wochen."
+    },
+    "note": "feste = Party machen; feire = einen Anlass feiern. feste heißt auch „befestigen“."
+  },
+  {
+    "id": "w22_lompe",
+    "no": "lompe",
+    "de": "der Kartoffelfladen",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "lompe",
+      "lompa",
+      "lomper",
+      "lompene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Jeg vil ha pølse i lompe.",
+      "de": "Ich möchte ein Würstchen im Kartoffelfladen."
+    }
+  },
+  {
+    "id": "w22_sennep",
+    "no": "sennep",
+    "de": "der Senf",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "sennep",
+      "sennepen"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Vil du ha sennep eller ketsjup?",
+      "de": "Möchtest du Senf oder Ketchup?"
+    }
+  },
+  {
+    "id": "w22_tross_alt",
+    "no": "tross alt",
+    "de": "schließlich",
+    "deAlt": [
+      "immerhin",
+      "trotz allem"
+    ],
+    "pos": "phrase",
+    "lesson": 22,
+    "ex": {
+      "no": "Det er tross alt nasjonaldagen.",
+      "de": "Es ist schließlich der Nationalfeiertag."
+    }
+  },
+  {
+    "id": "w22_forelsket",
+    "no": "forelsket",
+    "de": "verliebt",
+    "pos": "adj",
+    "forms": [
+      "forelsket",
+      "forelsket",
+      "forelskede"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Matthias er forelsket i Susanne.",
+      "de": "Matthias ist in Susanne verliebt."
+    },
+    "note": "forelsket i noen = verliebt in jemanden."
+  },
+  {
+    "id": "w22_konstitusjonell",
+    "no": "konstitusjonell",
+    "de": "konstitutionell",
+    "pos": "adj",
+    "forms": [
+      "konstitusjonell",
+      "konstitusjonelt",
+      "konstitusjonelle"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Norge er et konstitusjonelt monarki.",
+      "de": "Norwegen ist eine konstitutionelle Monarchie."
+    }
+  },
+  {
+    "id": "w22_monarki",
+    "no": "monarki",
+    "de": "die Monarchie",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "monarki",
+      "monarkiet",
+      "monarkier",
+      "monarkiene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Norge, Sverige og Danmark er monarkier.",
+      "de": "Norwegen, Schweden und Dänemark sind Monarchien."
+    }
+  },
+  {
+    "id": "w22_regjering",
+    "no": "regjering",
+    "de": "die Regierung",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "regjering",
+      "regjeringa/regjeringen",
+      "regjeringer",
+      "regjeringene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Det er regjeringen som styrer landet, ikke kongen.",
+      "de": "Die Regierung regiert das Land, nicht der König."
+    },
+    "note": "Auch maskulin: regjeringen (in Nachrichten üblich)."
+  },
+  {
+    "id": "w22_makt",
+    "no": "makt",
+    "de": "die Macht",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "makt",
+      "makta/makten"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Kongen har ingen politisk makt.",
+      "de": "Der König hat keine politische Macht."
+    }
+  },
+  {
+    "id": "w22_statsoverhode",
+    "no": "statsoverhode",
+    "de": "das Staatsoberhaupt",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "statsoverhode",
+      "statsoverhodet",
+      "statsoverhoder",
+      "statsoverhodene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Kongen er Norges statsoverhode.",
+      "de": "Der König ist Norwegens Staatsoberhaupt."
+    }
+  },
+  {
+    "id": "w22_ta_stilling_til",
+    "no": "ta stilling til",
+    "de": "Stellung nehmen zu",
+    "pos": "phrase",
+    "lesson": 22,
+    "ex": {
+      "no": "Kongen tar ikke stilling til politiske spørsmål.",
+      "de": "Der König nimmt zu politischen Fragen keine Stellung."
+    }
+  },
+  {
+    "id": "w22_kongedomme",
+    "no": "kongedømme",
+    "de": "das Königreich",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "kongedømme",
+      "kongedømmet",
+      "kongedømmer",
+      "kongedømmene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Norge ble et selvstendig kongedømme i 1905.",
+      "de": "Norwegen wurde 1905 ein unabhängiges Königreich."
+    }
+  },
+  {
+    "id": "w22_folkeavstemning",
+    "no": "folkeavstemning",
+    "de": "die Volksabstimmung",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "folkeavstemning",
+      "folkeavstemninga/folkeavstemningen",
+      "folkeavstemninger",
+      "folkeavstemningene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "I Sveits er det ofte folkeavstemninger.",
+      "de": "In der Schweiz gibt es oft Volksabstimmungen."
+    }
+  },
+  {
+    "id": "w22_stemme",
+    "no": "stemme",
+    "de": "abstimmen",
+    "deAlt": [
+      "wählen",
+      "stimmen"
+    ],
+    "pos": "verb",
+    "vf": [
+      "stemmer",
+      "stemte",
+      "stemt",
+      "stem"
+    ],
+    "vg": "2",
+    "lesson": 22,
+    "ex": {
+      "no": "Nesten fire av fem stemte ja.",
+      "de": "Fast vier von fünf stimmten mit Ja."
+    },
+    "note": "Det stemmer! = Das stimmt! en stemme = eine Stimme."
+  },
+  {
+    "id": "w22_dronning",
+    "no": "dronning",
+    "de": "die Königin",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "dronning",
+      "dronninga/dronningen",
+      "dronninger",
+      "dronningene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Dronning Sonja går gjerne på tur i fjellet.",
+      "de": "Königin Sonja wandert gern in den Bergen."
+    }
+  },
+  {
+    "id": "w22_kronprins",
+    "no": "kronprins",
+    "de": "der Kronprinz",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "kronprins",
+      "kronprinsen",
+      "kronprinser",
+      "kronprinsene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Kronprins Haakon blir konge en dag.",
+      "de": "Kronprinz Haakon wird eines Tages König."
+    }
+  },
+  {
+    "id": "w22_kronprinsesse",
+    "no": "kronprinsesse",
+    "de": "die Kronprinzessin",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "kronprinsesse",
+      "kronprinsessa/kronprinsessen",
+      "kronprinsesser",
+      "kronprinsessene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Kronprinsessen vinket fra balkongen.",
+      "de": "Die Kronprinzessin winkte vom Balkon."
+    }
+  },
+  {
+    "id": "w22_tronarving",
+    "no": "tronarving",
+    "de": "der Thronfolger",
+    "deAlt": [
+      "die Thronfolgerin"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "tronarving",
+      "tronarvingen",
+      "tronarvinger",
+      "tronarvingene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Kronprinsen er tronarving.",
+      "de": "Der Kronprinz ist Thronfolger."
+    }
+  },
+  {
+    "id": "w22_trone",
+    "no": "trone",
+    "de": "der Thron",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "trone",
+      "tronen",
+      "troner",
+      "tronene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Tronen går til det eldste barnet.",
+      "de": "Der Thron geht an das älteste Kind."
+    }
+  },
+  {
+    "id": "w22_kongelig",
+    "no": "kongelig",
+    "de": "königlich",
+    "pos": "adj",
+    "forms": [
+      "kongelig",
+      "kongelig",
+      "kongelige"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Dronning Sonja kommer ikke fra en kongelig familie.",
+      "de": "Königin Sonja stammt nicht aus einer königlichen Familie."
+    }
+  },
+  {
+    "id": "w22_forbudt",
+    "no": "forbudt",
+    "de": "verboten",
+    "pos": "adj",
+    "forms": [
+      "forbudt",
+      "forbudt",
+      "forbudte"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Det er forbudt å røyke her.",
+      "de": "Rauchen ist hier verboten."
+    }
+  },
+  {
+    "id": "w22_valgspraak",
+    "no": "valgspråk",
+    "de": "der Wahlspruch",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "valgspråk",
+      "valgspråket",
+      "valgspråk",
+      "valgspråka/valgspråkene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Kongens valgspråk er «Alt for Norge».",
+      "de": "Der Wahlspruch des Königs lautet „Alles für Norwegen“."
+    }
+  },
+  {
+    "id": "w22_oppgave",
+    "no": "oppgave",
+    "de": "die Aufgabe",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "oppgave",
+      "oppgava/oppgaven",
+      "oppgaver",
+      "oppgavene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Kongen har mange oppgaver.",
+      "de": "Der König hat viele Aufgaben."
+    }
+  },
+  {
+    "id": "w22_statsbesok",
+    "no": "statsbesøk",
+    "de": "der Staatsbesuch",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "statsbesøk",
+      "statsbesøket",
+      "statsbesøk",
+      "statsbesøka/statsbesøkene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Kongeparet reiste på statsbesøk til Tyskland.",
+      "de": "Das Königspaar reiste zu einem Staatsbesuch nach Deutschland."
+    }
+  },
+  {
+    "id": "w22_symbol",
+    "no": "symbol",
+    "de": "das Symbol",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "symbol",
+      "symbolet",
+      "symboler",
+      "symbolene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Flagget er et symbol på landet.",
+      "de": "Die Flagge ist ein Symbol für das Land."
+    }
+  },
+  {
+    "id": "w22_samle",
+    "no": "samle",
+    "de": "sammeln",
+    "deAlt": [
+      "vereinen",
+      "versammeln"
+    ],
+    "pos": "verb",
+    "vf": [
+      "samler",
+      "samlet/samla",
+      "samlet/samla",
+      "saml"
+    ],
+    "vg": "1",
+    "lesson": 22,
+    "ex": {
+      "no": "17. mai samler hele familien.",
+      "de": "Der 17. Mai bringt die ganze Familie zusammen."
+    }
+  },
+  {
+    "id": "w22_opplevelse",
+    "no": "opplevelse",
+    "de": "das Erlebnis",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "opplevelse",
+      "opplevelsen",
+      "opplevelser",
+      "opplevelsene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Barnetoget var en stor opplevelse for Susanne.",
+      "de": "Der Kinderumzug war ein großes Erlebnis für Susanne."
+    }
+  },
+  {
+    "id": "w22_demonstrasjon",
+    "no": "demonstrasjon",
+    "de": "die Demonstration",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "demonstrasjon",
+      "demonstrasjonen",
+      "demonstrasjoner",
+      "demonstrasjonene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Det var en demonstrasjon foran Stortinget.",
+      "de": "Vor dem Parlament gab es eine Demonstration."
+    }
+  },
+  {
+    "id": "w22_invitasjon",
+    "no": "invitasjon",
+    "de": "die Einladung",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "invitasjon",
+      "invitasjonen",
+      "invitasjoner",
+      "invitasjonene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Takk for invitasjonen!",
+      "de": "Danke für die Einladung!"
+    }
+  },
+  {
+    "id": "w22_kjop",
+    "no": "kjøp",
+    "de": "der Kauf",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "kjøp",
+      "kjøpet",
+      "kjøp",
+      "kjøpa/kjøpene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Bunaden var et godt kjøp.",
+      "de": "Die Tracht war ein guter Kauf."
+    }
+  },
+  {
+    "id": "w22_diskusjon",
+    "no": "diskusjon",
+    "de": "die Diskussion",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "diskusjon",
+      "diskusjonen",
+      "diskusjoner",
+      "diskusjonene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Vi hadde en lang diskusjon om flagg.",
+      "de": "Wir hatten eine lange Diskussion über Fahnen."
+    }
+  },
+  {
+    "id": "w22_uttale",
+    "no": "uttale",
+    "de": "die Aussprache",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "uttale",
+      "uttalen",
+      "uttaler",
+      "uttalene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Uttalen hennes er nesten perfekt.",
+      "de": "Ihre Aussprache ist fast perfekt."
+    },
+    "note": "Das Verb heißt genauso: å uttale = aussprechen."
+  },
+  {
+    "id": "w22_saerskriving",
+    "no": "særskriving",
+    "de": "die Getrenntschreibung",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "særskriving",
+      "særskrivinga/særskrivingen"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Særskriving er en vanlig feil.",
+      "de": "Getrenntschreibung ist ein häufiger Fehler."
+    }
+  },
+  {
+    "id": "w22_arbeidsdag",
+    "no": "arbeidsdag",
+    "de": "der Arbeitstag",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "arbeidsdag",
+      "arbeidsdagen",
+      "arbeidsdager",
+      "arbeidsdagene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Arbeidsdagen begynner klokka åtte.",
+      "de": "Der Arbeitstag beginnt um acht Uhr."
+    }
+  },
+  {
+    "id": "w22_hverdagsliv",
+    "no": "hverdagsliv",
+    "de": "das Alltagsleben",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "hverdagsliv",
+      "hverdagslivet"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Hverdagslivet i Norge er ganske rolig.",
+      "de": "Das Alltagsleben in Norwegen ist ziemlich ruhig."
+    }
+  },
+  {
+    "id": "w22_flaggstang",
+    "no": "flaggstang",
+    "de": "die Fahnenstange",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "flaggstang",
+      "flaggstanga/flaggstangen",
+      "flaggstenger",
+      "flaggstengene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Mange hus har en flaggstang i hagen.",
+      "de": "Viele Häuser haben eine Fahnenstange im Garten."
+    },
+    "wk": true
+  },
+  {
+    "id": "w22_flagg",
+    "no": "flagg",
+    "de": "die Flagge",
+    "deAlt": [
+      "die Fahne"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "flagg",
+      "flagget",
+      "flagg",
+      "flagga/flaggene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Det norske flagget er rødt, hvitt og blått.",
+      "de": "Die norwegische Flagge ist rot, weiß und blau."
+    },
+    "wk": true
+  },
+  {
+    "id": "w22_heise",
+    "no": "heise",
+    "de": "hissen",
+    "pos": "verb",
+    "vf": [
+      "heiser",
+      "heiste",
+      "heist",
+      "heis"
+    ],
+    "vg": "2",
+    "lesson": 22,
+    "ex": {
+      "no": "Per heiste flagget klokka åtte.",
+      "de": "Per hisste die Flagge um acht Uhr."
+    },
+    "wk": true
+  },
+  {
+    "id": "w22_vifte",
+    "no": "vifte",
+    "de": "schwenken",
+    "deAlt": [
+      "wedeln"
+    ],
+    "pos": "verb",
+    "vf": [
+      "vifter",
+      "viftet/vifta",
+      "viftet/vifta",
+      "vift"
+    ],
+    "vg": "1",
+    "lesson": 22,
+    "ex": {
+      "no": "Barna viftet med flaggene.",
+      "de": "Die Kinder schwenkten die Fahnen."
+    },
+    "wk": true
+  },
+  {
+    "id": "w22_nasjonalsang",
+    "no": "nasjonalsang",
+    "de": "die Nationalhymne",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "nasjonalsang",
+      "nasjonalsangen",
+      "nasjonalsanger",
+      "nasjonalsangene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Nasjonalsangen begynner med «Ja, vi elsker».",
+      "de": "Die Nationalhymne beginnt mit „Ja, vi elsker“."
+    },
+    "wk": true
+  },
+  {
+    "id": "w22_patriotisk",
+    "no": "patriotisk",
+    "de": "patriotisch",
+    "pos": "adj",
+    "forms": [
+      "patriotisk",
+      "patriotisk",
+      "patriotiske"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "På 17. mai er alle litt patriotiske.",
+      "de": "Am 17. Mai sind alle ein bisschen patriotisch."
+    },
+    "wk": true
+  },
+  {
+    "id": "w22_avslappet",
+    "no": "avslappet",
+    "de": "entspannt",
+    "pos": "adj",
+    "forms": [
+      "avslappet",
+      "avslappet",
+      "avslappede"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Nordmenn har et avslappet forhold til flagget.",
+      "de": "Norweger haben ein entspanntes Verhältnis zur Flagge."
+    },
+    "wk": true
+  },
+  {
+    "id": "w22_forhold",
+    "no": "forhold",
+    "de": "das Verhältnis",
+    "deAlt": [
+      "die Beziehung"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "forhold",
+      "forholdet",
+      "forhold",
+      "forholda/forholdene"
+    ],
+    "lesson": 22,
+    "ex": {
+      "no": "Susanne og Matthias har et godt forhold.",
+      "de": "Susanne und Matthias haben eine gute Beziehung."
+    },
+    "wk": true
+  },
+  {
+    "id": "w22_kjenne_seg",
+    "no": "kjenne seg",
+    "de": "sich fühlen",
+    "pos": "verb",
+    "vf": [
+      "kjenner seg",
+      "kjente seg",
+      "kjent seg",
+      "kjenn deg"
+    ],
+    "vg": "2",
+    "lesson": 22,
+    "ex": {
+      "no": "På 17. mai kjente Susanne seg nesten norsk.",
+      "de": "Am 17. Mai fühlte sich Susanne fast norwegisch."
+    },
+    "wk": true
+  },
+  {
+    "id": "w22_borte_bra_hjemme_best",
+    "no": "borte bra, men hjemme best",
+    "de": "die Fremde ist schön, aber zu Hause ist es am besten",
+    "pos": "phrase",
+    "lesson": 22,
+    "ex": {
+      "no": "Etter ferien sa Per: «Borte bra, men hjemme best.»",
+      "de": "Nach dem Urlaub sagte Per: „Die Fremde ist schön, aber zu Hause ist es am besten.“"
+    },
+    "wk": true
+  },
+  {
+    "id": "w22_brekke",
+    "no": "brekke",
+    "de": "brechen",
+    "pos": "verb",
+    "vf": [
+      "brekker",
+      "brakk",
+      "brukket",
+      "brekk"
+    ],
+    "vg": "sterk",
+    "lesson": 22,
+    "ex": {
+      "no": "Ola brakk beinet da han spilte fotball.",
+      "de": "Ola brach sich beim Fußballspielen das Bein."
+    }
+  }
+]

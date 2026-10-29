@@ -1,0 +1,1501 @@
+{
+  "n": 12,
+  "level": "B1",
+  "title": "Er det mulig å bli enig?",
+  "titleDe": "Kann man sich einigen?",
+  "place": "Oslo: Vigelandsparken, Bygdøy, Munchmuseet",
+  "goals": [
+    "Du kannst Dinge vergleichen: dyrere enn, like interessant som, ikke så sentralt som.",
+    "Du kannst Adjektive steigern: billig – billigere – billigst, mer interessant.",
+    "Du kannst Aussagen verstärken oder abschwächen: veldig, altfor, ganske, kjempe-.",
+    "Du benutzt Adjektive als Adverbien: Hun snakker godt norsk.",
+    "Du kannst in einer Diskussion Vorschläge machen, zustimmen und widersprechen – und du erfährst etwas über Munch und Vigeland."
+  ],
+  "text": {
+    "id": "t12",
+    "title": "Er det mulig å bli enig?",
+    "titleDe": "Kann man sich einigen?",
+    "kind": "dialog",
+    "intro": "Matthias ist für ein Wochenende in Oslo. Am Samstagabend sitzen Susanne, Matthias, Anna und Jonas in der Küche der Nygårds und planen den Sonntag. Einfach ist das nicht.",
+    "speakers": {
+      "a": {
+        "name": "Anna",
+        "gender": "f"
+      },
+      "j": {
+        "name": "Jonas",
+        "gender": "m"
+      },
+      "s": {
+        "name": "Susanne",
+        "gender": "f"
+      },
+      "m": {
+        "name": "Matthias",
+        "gender": "m"
+      }
+    },
+    "lines": [
+      {
+        "s": "a",
+        "no": "Ok, hva skal vi gjøre i morgen? Matthias er bare her til søndag kveld, så vi må bestemme oss raskt.",
+        "de": "Okay, was machen wir morgen? Matthias ist nur bis Sonntagabend hier, also müssen wir uns schnell entscheiden."
+      },
+      {
+        "s": "j",
+        "no": "Jeg foreslår at vi sover lenge.",
+        "de": "Ich schlage vor, dass wir lange schlafen."
+      },
+      {
+        "s": "a",
+        "no": "Jonas! Du er latere enn Ola. Vær litt seriøs.",
+        "de": "Jonas! Du bist fauler als Ola. Sei mal ein bisschen ernst."
+      },
+      {
+        "s": "s",
+        "no": "Jeg har tre forslag: Vigelandsparken, museene på Bygdøy eller Munchmuseet.",
+        "de": "Ich habe drei Vorschläge: den Vigelandpark, die Museen auf Bygdøy oder das Munch-Museum."
+      },
+      {
+        "s": "m",
+        "no": "Hva er forskjellen? Jeg vil gjerne se noe typisk norsk.",
+        "de": "Was ist der Unterschied? Ich würde gern etwas typisch Norwegisches sehen."
+      },
+      {
+        "s": "s",
+        "no": "Vigelandsparken er billigst – den er gratis. Og skulpturene er mye finere i virkeligheten enn på bilder.",
+        "de": "Der Vigelandpark ist am billigsten – er kostet nichts. Und die Skulpturen sind in Wirklichkeit viel schöner als auf Bildern."
+      },
+      {
+        "s": "j",
+        "no": "Men den er ute. Ifølge værmeldingen blir det regn i morgen tidlig. Jeg vil ikke stå i regnet og se på nakne mennesker av stein.",
+        "de": "Aber er ist draußen. Laut Wetterbericht gibt es morgen früh Regen. Ich will nicht im Regen stehen und nackte Menschen aus Stein anschauen."
+      },
+      {
+        "s": "a",
+        "no": "Oslo er ikke våtere enn Bergen, Jonas. Matthias er vant til regn.",
+        "de": "Oslo ist nicht nasser als Bergen, Jonas. Matthias ist an Regen gewöhnt."
+      },
+      {
+        "s": "m",
+        "no": "Det stemmer. I Bergen er regn bare vær. Men jeg er like glad i museer som i parker.",
+        "de": "Stimmt. In Bergen ist Regen einfach Wetter. Aber ich mag Museen genauso gern wie Parks."
+      },
+      {
+        "s": "j",
+        "no": "Da sier jeg Bygdøy. Frammuseet er mer spennende enn alle de andre museene til sammen. Polarskuta Fram har vært både i Arktis og i Antarktis!",
+        "de": "Dann sage ich Bygdøy. Das Fram-Museum ist spannender als alle anderen Museen zusammen. Das Polarschiff Fram war sowohl in der Arktis als auch in der Antarktis!"
+      },
+      {
+        "s": "s",
+        "no": "Og på Folkemuseet kan vi se gamle hus fra hele landet og en stavkirke fra middelalderen.",
+        "de": "Und im Volksmuseum können wir alte Häuser aus dem ganzen Land sehen und eine Stabkirche aus dem Mittelalter."
+      },
+      {
+        "s": "a",
+        "no": "Men museene på Bygdøy ligger ikke så sentralt som Munchmuseet, og to museer er dyrere enn ett.",
+        "de": "Aber die Museen auf Bygdøy liegen nicht so zentral wie das Munch-Museum, und zwei Museen sind teurer als eins."
+      },
+      {
+        "s": "j",
+        "no": "Dyrere, ja, men også mye morsommere!",
+        "de": "Teurer, ja, aber auch viel lustiger!"
+      },
+      {
+        "s": "a",
+        "no": "For deg, kanskje. Jeg synes Munchmuseet er mer interessant. Og det er inne, så der blir vi i hvert fall ikke våte.",
+        "de": "Für dich vielleicht. Ich finde das Munch-Museum interessanter. Und es ist drinnen, da werden wir jedenfalls nicht nass."
+      },
+      {
+        "s": "s",
+        "no": "Munchmuseet er en god idé. Det nye bygget ved fjorden skal visst være kjempefint. Har du vært der, Anna?",
+        "de": "Das Munch-Museum ist eine gute Idee. Das neue Gebäude am Fjord soll ja super sein. Warst du schon dort, Anna?"
+      },
+      {
+        "s": "a",
+        "no": "Ja, to ganger. Bygget har tretten etasjer, og utsikten fra toppen er utrolig fin.",
+        "de": "Ja, zweimal. Das Gebäude hat dreizehn Stockwerke, und die Aussicht von oben ist unglaublich schön."
+      },
+      {
+        "s": "j",
+        "no": "Tretten etasjer? Det er altfor mange for en søndag morgen. Dere er mye sprekere enn meg.",
+        "de": "Dreizehn Stockwerke? Das sind viel zu viele für einen Sonntagmorgen. Ihr seid viel fitter als ich."
+      },
+      {
+        "s": "m",
+        "no": "Kan vi ikke bare stemme? Det er mest demokratisk.",
+        "de": "Können wir nicht einfach abstimmen? Das ist am demokratischsten."
+      },
+      {
+        "s": "a",
+        "no": "Godt forslag. Hvem vil til Vigelandsparken? Susanne. Bygdøy? Jonas, selvfølgelig. Munchmuseet? Det er meg. Matthias, du må bestemme!",
+        "de": "Guter Vorschlag. Wer will in den Vigelandpark? Susanne. Bygdøy? Jonas, natürlich. Munch-Museum? Das bin ich. Matthias, du musst entscheiden!"
+      },
+      {
+        "s": "m",
+        "no": "Å nei. Det er like vanskelig som å velge mellom sveitsisk ost og sveitsisk sjokolade.",
+        "de": "Oh nein. Das ist genauso schwer, wie zwischen Schweizer Käse und Schweizer Schokolade zu wählen."
+      },
+      {
+        "s": "s",
+        "no": "Men hva har du mest lyst til?",
+        "de": "Aber worauf hast du am meisten Lust?"
+      },
+      {
+        "s": "m",
+        "no": "Ærlig talt? Det spiller ingen rolle for meg, bare vi gjør det sammen.",
+        "de": "Ehrlich gesagt? Das ist mir egal, solange wir es zusammen machen."
+      },
+      {
+        "s": "j",
+        "no": "Åh, så romantisk!",
+        "de": "Oh, wie romantisch!"
+      },
+      {
+        "s": "a",
+        "no": "Jonas! Hør her, jeg har en idé. Det skal regne på formiddagen, men på ettermiddagen blir det litt penere vær.",
+        "de": "Jonas! Hör mal, ich habe eine Idee. Am Vormittag soll es regnen, aber am Nachmittag wird das Wetter etwas schöner."
+      },
+      {
+        "s": "s",
+        "no": "Da går vi på Munchmuseet først, mens det regner, og til Vigelandsparken etterpå, når det er tørrere. Det passer perfekt!",
+        "de": "Dann gehen wir zuerst ins Munch-Museum, während es regnet, und danach in den Vigelandpark, wenn es trockener ist. Das passt perfekt!"
+      },
+      {
+        "s": "j",
+        "no": "Og Bygdøy da?",
+        "de": "Und was ist mit Bygdøy?"
+      },
+      {
+        "s": "m",
+        "no": "Bygdøy tar vi neste gang. Jeg kommer gjerne tilbake – Oslo er jo nærmere enn Paris.",
+        "de": "Bygdøy machen wir nächstes Mal. Ich komme gern wieder – Oslo ist ja näher als Paris."
+      },
+      {
+        "s": "a",
+        "no": "Da er vi enige! Klokka ti ved Munchmuseet?",
+        "de": "Dann sind wir uns einig! Um zehn am Munch-Museum?"
+      },
+      {
+        "s": "j",
+        "no": "Halv elleve. Jeg sa jo at jeg ville sove lenge.",
+        "de": "Halb elf. Ich habe doch gesagt, dass ich lange schlafen will."
+      },
+      {
+        "s": "s",
+        "no": "Greit, halv elleve. Det var et ekte kompromiss!",
+        "de": "Okay, halb elf. Das war ein echter Kompromiss!"
+      }
+    ],
+    "glossary": [
+      {
+        "no": "bestemme oss",
+        "de": "uns entscheiden (bestemme seg)"
+      },
+      {
+        "no": "raskt",
+        "de": "schnell (Adverb von rask)"
+      },
+      {
+        "no": "Jeg foreslår",
+        "de": "ich schlage vor (foreslå – foreslo – foreslått)"
+      },
+      {
+        "no": "latere enn",
+        "de": "fauler als (lat – latere – latest)"
+      },
+      {
+        "no": "seriøs",
+        "de": "ernst, ernsthaft"
+      },
+      {
+        "no": "forslag",
+        "de": "Vorschläge (et forslag)"
+      },
+      {
+        "no": "forskjellen",
+        "de": "der Unterschied"
+      },
+      {
+        "no": "billigst",
+        "de": "am billigsten"
+      },
+      {
+        "no": "i virkeligheten",
+        "de": "in Wirklichkeit"
+      },
+      {
+        "no": "i morgen tidlig",
+        "de": "morgen früh"
+      },
+      {
+        "no": "nakne",
+        "de": "nackte (naken – naket – nakne)"
+      },
+      {
+        "no": "våtere",
+        "de": "nasser (våt – våtere – våtest)"
+      },
+      {
+        "no": "vant til",
+        "de": "gewöhnt an"
+      },
+      {
+        "no": "Det stemmer",
+        "de": "Das stimmt"
+      },
+      {
+        "no": "like glad i museer som i parker",
+        "de": "mag Museen genauso gern wie Parks (være glad i = mögen)"
+      },
+      {
+        "no": "til sammen",
+        "de": "zusammen, insgesamt"
+      },
+      {
+        "no": "Polarskuta",
+        "de": "das Polarschiff (ei skute = ein Segelschiff)"
+      },
+      {
+        "no": "stavkirke",
+        "de": "Stabkirche (mittelalterliche Holzkirche)"
+      },
+      {
+        "no": "middelalderen",
+        "de": "das Mittelalter"
+      },
+      {
+        "no": "ligger ikke så sentralt som",
+        "de": "liegen nicht so zentral wie"
+      },
+      {
+        "no": "morsommere",
+        "de": "lustiger, unterhaltsamer"
+      },
+      {
+        "no": "i hvert fall",
+        "de": "jedenfalls, auf jeden Fall"
+      },
+      {
+        "no": "bygget",
+        "de": "das Gebäude"
+      },
+      {
+        "no": "skal visst være",
+        "de": "soll angeblich sein"
+      },
+      {
+        "no": "kjempefint",
+        "de": "super, riesig schön"
+      },
+      {
+        "no": "utrolig fin",
+        "de": "unglaublich schön"
+      },
+      {
+        "no": "altfor mange",
+        "de": "viel zu viele"
+      },
+      {
+        "no": "sprekere enn meg",
+        "de": "fitter als ich (sprek = fit, sportlich)"
+      },
+      {
+        "no": "stemme",
+        "de": "abstimmen"
+      },
+      {
+        "no": "mest demokratisk",
+        "de": "am demokratischsten"
+      },
+      {
+        "no": "velge mellom",
+        "de": "wählen zwischen"
+      },
+      {
+        "no": "mest lyst til",
+        "de": "am meisten Lust auf"
+      },
+      {
+        "no": "Ærlig talt",
+        "de": "ehrlich gesagt"
+      },
+      {
+        "no": "Det spiller ingen rolle for meg",
+        "de": "das ist mir egal"
+      },
+      {
+        "no": "bare vi gjør det sammen",
+        "de": "solange wir es zusammen machen"
+      },
+      {
+        "no": "på formiddagen",
+        "de": "am Vormittag"
+      },
+      {
+        "no": "penere vær",
+        "de": "schöneres Wetter"
+      },
+      {
+        "no": "mens",
+        "de": "während"
+      },
+      {
+        "no": "nærmere enn",
+        "de": "näher als"
+      },
+      {
+        "no": "et ekte kompromiss",
+        "de": "ein echter Kompromiss"
+      }
+    ]
+  },
+  "extra": [
+    {
+      "id": "x12a",
+      "title": "To norske kunstnere",
+      "titleDe": "Zwei norwegische Künstler",
+      "kind": "info",
+      "intro": "Edvard Munch und Gustav Vigeland: der Maler und der Bildhauer, deren Werke man in Oslo überall sieht.",
+      "lines": [
+        {
+          "no": "Ingen norske kunstnere er mer kjent enn Edvard Munch og Gustav Vigeland. De levde på samme tid: Munch ble født i 1863 og Vigeland i 1869. Begge bodde mange år i Kristiania, som Oslo het fram til 1925.",
+          "de": "Kein norwegischer Künstler ist bekannter als Edvard Munch und Gustav Vigeland. Sie lebten zur selben Zeit: Munch wurde 1863 geboren und Vigeland 1869. Beide wohnten viele Jahre in Kristiania, wie Oslo bis 1925 hieß."
+        },
+        {
+          "no": "Munch var maler. Moren hans døde da han var fem år, og senere døde også søsteren Sophie. Sykdom, død, angst og kjærlighet ble viktige temaer i bildene hans. Men han malte også lyse bilder, for eksempel det store maleriet «Solen» i Universitetets aula i Oslo. Bildet «Skrik» fra 1893 kjenner nesten alle. Munch laget flere versjoner av bildet, og i dag finnes noen av dem i Nasjonalmuseet og i Munchmuseet.",
+          "de": "Munch war Maler. Seine Mutter starb, als er fünf Jahre alt war, und später starb auch seine Schwester Sophie. Krankheit, Tod, Angst und Liebe wurden wichtige Themen in seinen Bildern. Aber er malte auch helle Bilder, zum Beispiel das große Gemälde „Die Sonne“ in der Aula der Universität Oslo. Das Bild „Der Schrei“ von 1893 kennt fast jeder. Munch schuf mehrere Versionen des Bildes, und heute befinden sich einige davon im Nationalmuseum und im Munch-Museum."
+        },
+        {
+          "no": "Munch døde i 1944. I testamentet ga han Oslo kommune tusenvis av malerier og tegninger. Derfor har byen i dag et helt museum for ham: Munchmuseet, som siden 2021 ligger i et høyt bygg ved fjorden i Bjørvika.",
+          "de": "Munch starb 1944. In seinem Testament vermachte er der Stadt Oslo Tausende von Gemälden und Zeichnungen. Deshalb hat die Stadt heute ein ganzes Museum für ihn: das Munch-Museum, das seit 2021 in einem hohen Gebäude am Fjord in Bjørvika liegt."
+        },
+        {
+          "no": "Vigeland var billedhugger. I 1921 gjorde han en avtale med byen: Han fikk et stort atelier, og til gjengjeld fikk byen verkene hans. I dag er atelieret Vigelandmuseet.",
+          "de": "Vigeland war Bildhauer. 1921 schloss er einen Vertrag mit der Stadt: Er bekam ein großes Atelier, und im Gegenzug bekam die Stadt seine Werke. Heute ist das Atelier das Vigeland-Museum."
+        },
+        {
+          "no": "Hovedverket hans er Vigelandsparken i Frognerparken. Her står over 200 skulpturer i bronse, granitt og jern. Monolitten er over 14 meter høy og viser 121 mennesker. Steinhoggere hogg den ut av én eneste granittblokk. Mest populær er kanskje Sinnataggen, en liten, sint gutt i bronse. Vigeland døde i 1943, før parken var helt ferdig.",
+          "de": "Sein Hauptwerk ist der Vigelandpark im Frognerpark. Hier stehen über 200 Skulpturen aus Bronze, Granit und Eisen. Der Monolith ist über 14 Meter hoch und zeigt 121 Menschen. Steinmetze haben ihn aus einem einzigen Granitblock gehauen. Am beliebtesten ist vielleicht Sinnataggen, ein kleiner, wütender Junge aus Bronze. Vigeland starb 1943, bevor der Park ganz fertig war."
+        }
+      ],
+      "glossary": [
+        {
+          "no": "kunstnere",
+          "de": "Künstler (en kunstner)"
+        },
+        {
+          "no": "mer kjent enn",
+          "de": "bekannter als"
+        },
+        {
+          "no": "på samme tid",
+          "de": "zur selben Zeit"
+        },
+        {
+          "no": "ble født",
+          "de": "wurde geboren"
+        },
+        {
+          "no": "Kristiania",
+          "de": "alter Name von Oslo (bis 1925)"
+        },
+        {
+          "no": "maler",
+          "de": "Maler"
+        },
+        {
+          "no": "senere",
+          "de": "später"
+        },
+        {
+          "no": "Sykdom, død, angst og kjærlighet",
+          "de": "Krankheit, Tod, Angst und Liebe"
+        },
+        {
+          "no": "temaer",
+          "de": "Themen (et tema)"
+        },
+        {
+          "no": "Universitetets aula",
+          "de": "die Aula der Universität"
+        },
+        {
+          "no": "Skrik",
+          "de": "„Der Schrei“"
+        },
+        {
+          "no": "finnes",
+          "de": "befinden sich, gibt es"
+        },
+        {
+          "no": "testamentet",
+          "de": "das Testament"
+        },
+        {
+          "no": "Oslo kommune",
+          "de": "die Stadt Oslo (als Gemeinde)"
+        },
+        {
+          "no": "tusenvis av",
+          "de": "Tausende von"
+        },
+        {
+          "no": "malerier og tegninger",
+          "de": "Gemälde und Zeichnungen"
+        },
+        {
+          "no": "billedhugger",
+          "de": "Bildhauer"
+        },
+        {
+          "no": "avtale",
+          "de": "Vereinbarung, Vertrag"
+        },
+        {
+          "no": "atelier",
+          "de": "Atelier"
+        },
+        {
+          "no": "til gjengjeld",
+          "de": "im Gegenzug"
+        },
+        {
+          "no": "verkene hans",
+          "de": "seine Werke"
+        },
+        {
+          "no": "Hovedverket",
+          "de": "das Hauptwerk"
+        },
+        {
+          "no": "bronse, granitt og jern",
+          "de": "Bronze, Granit und Eisen"
+        },
+        {
+          "no": "Monolitten",
+          "de": "der Monolith (Steinsäule)"
+        },
+        {
+          "no": "Steinhoggere",
+          "de": "Steinmetze"
+        },
+        {
+          "no": "hogg den ut av",
+          "de": "hauten ihn aus (hogge – hogg – hogd)"
+        },
+        {
+          "no": "én eneste granittblokk",
+          "de": "ein einziger Granitblock"
+        },
+        {
+          "no": "Mest populær",
+          "de": "am beliebtesten"
+        },
+        {
+          "no": "Sinnataggen",
+          "de": "„der Trotzkopf“: Statue eines wütenden kleinen Jungen"
+        },
+        {
+          "no": "sint",
+          "de": "wütend, böse"
+        },
+        {
+          "no": "helt ferdig",
+          "de": "ganz fertig"
+        }
+      ]
+    }
+  ],
+  "wk": {
+    "title": "Å diskutere",
+    "titleDe": "Diskutieren",
+    "phrases": [
+      {
+        "no": "Hva synes du?",
+        "de": "Was meinst du? / Wie findest du das?"
+      },
+      {
+        "no": "Jeg synes at vi bør gå på museum.",
+        "de": "Ich finde, wir sollten ins Museum gehen."
+      },
+      {
+        "no": "Etter min mening er det for dyrt.",
+        "de": "Meiner Meinung nach ist das zu teuer."
+      },
+      {
+        "no": "Jeg er enig med deg.",
+        "de": "Ich bin deiner Meinung."
+      },
+      {
+        "no": "Jeg er helt uenig.",
+        "de": "Ich bin ganz anderer Meinung."
+      },
+      {
+        "no": "Det har du rett i.",
+        "de": "Da hast du recht."
+      },
+      {
+        "no": "Det kommer an på været.",
+        "de": "Das kommt aufs Wetter an."
+      },
+      {
+        "no": "På den ene siden …, på den andre siden …",
+        "de": "Einerseits …, andererseits …"
+      },
+      {
+        "no": "Ja, men tenk på …",
+        "de": "Ja, aber denk an …"
+      },
+      {
+        "no": "Jeg foreslår at vi tar bussen.",
+        "de": "Ich schlage vor, dass wir den Bus nehmen."
+      },
+      {
+        "no": "Kan vi ikke heller gå på kino?",
+        "de": "Können wir nicht lieber ins Kino gehen?"
+      },
+      {
+        "no": "Det spiller ingen rolle for meg.",
+        "de": "Das ist mir egal."
+      },
+      {
+        "no": "Godt poeng!",
+        "de": "Guter Punkt!"
+      },
+      {
+        "no": "Du overdriver.",
+        "de": "Du übertreibst."
+      },
+      {
+        "no": "Jeg skjønner hva du mener, men …",
+        "de": "Ich verstehe, was du meinst, aber …"
+      },
+      {
+        "no": "La oss stemme over det.",
+        "de": "Lass uns darüber abstimmen."
+      },
+      {
+        "no": "Vi må finne et kompromiss.",
+        "de": "Wir müssen einen Kompromiss finden."
+      },
+      {
+        "no": "Da er vi enige!",
+        "de": "Dann sind wir uns einig!"
+      },
+      {
+        "no": "Er det mulig å bli enig?",
+        "de": "Kann man sich einigen?",
+        "note": "bli enig = sich einigen; være enig = einer Meinung sein."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g12_gradbøying",
+      "title": "Die Steigerung des Adjektivs",
+      "titleNo": "gradbøying av adjektiv",
+      "summary": "Regelmäßig mit -ere und -est (billig – billigere – billigst); lange Adjektive steigert man mit mer und mest.",
+      "sections": [
+        {
+          "h": "Die Grundregel: -ere, -est",
+          "body": "Wie im Deutschen hat das Adjektiv drei Stufen: Grundform (Positiv), Komparativ und Superlativ. Die meisten Adjektive bekommen **-ere** und **-est**:\n\n• **varm – varmere – varmest** (warm – wärmer – am wärmsten)\n• **dyr – dyrere – dyrest**\n• **fin – finere – finest**\n\nAnders als im Deutschen gibt es keinen Umlaut: **kald – kaldere** (kalt – kälter). Ein einfacher Konsonant nach kurzem Vokal wird verdoppelt: **morsom – morsommere**.",
+          "table": [
+            [
+              "Positiv",
+              "Komparativ",
+              "Superlativ",
+              "Deutsch"
+            ],
+            [
+              "**billig**",
+              "**billigere**",
+              "**billigst**",
+              "billig"
+            ],
+            [
+              "**kald**",
+              "**kaldere**",
+              "**kaldest**",
+              "kalt"
+            ],
+            [
+              "**våt**",
+              "**våtere**",
+              "**våtest**",
+              "nass"
+            ],
+            [
+              "**pen**",
+              "**penere**",
+              "**penest**",
+              "hübsch, schön"
+            ],
+            [
+              "**morsom**",
+              "**morsommere**",
+              "**morsomst**",
+              "lustig"
+            ],
+            [
+              "**interessant**",
+              "**mer interessant**",
+              "**mest interessant**",
+              "interessant"
+            ]
+          ]
+        },
+        {
+          "h": "-ig, -lig, -som: Superlativ nur mit -st",
+          "body": "Adjektive auf **-ig**, **-lig** und **-som** bekommen im Superlativ nur **-st** (ohne e): **billig – billigst, hyggelig – hyggeligst, morsom – morsomst**. Der Komparativ ist regelmäßig: **billigere, hyggeligere, morsommere**.\n\nDer prädikative Superlativ steht ohne Artikel und ohne Endung: **Vigelandsparken er billigst.** (Der Vigelandpark ist am billigsten.)"
+        },
+        {
+          "h": "Lange Adjektive: mer und mest",
+          "body": "Lange Adjektive, Adjektive auf **-isk** und auf **-e** sowie Partizipien steigert man mit **mer** und **mest**. Das Deutsche macht das nie (✗ „mehr interessant“) – das Norwegische oft:\n\n• **interessant – mer interessant – mest interessant**\n• **praktisk – mer praktisk – mest praktisk**\n• **spennende – mer spennende – mest spennende**\n• **kjent – mer kjent – mest kjent**\n\nBei manchen Adjektiven ist beides möglich (**interessantere / mer interessant**). Mit **mer/mest** liegst du bei langen Wörtern immer richtig."
+        },
+        {
+          "h": "Ein paar unregelmäßige Formen",
+          "body": "Einige häufige Adjektive sind unregelmäßig – du lernst sie in Lektion 14 genauer: **god – bedre – best, stor – større – størst, liten – mindre – minst, gammel – eldre – eldst, mye – mer – mest**.\n\nIm Text kommen schon **mindre** (weniger) und **mest** vor: **Hva har du mest lyst til?**"
+        }
+      ],
+      "drills": [
+        {
+          "prompt": "Munchmuseet er ___ enn parken når det regner. (varm, komparativ)",
+          "de": "Das Munch-Museum ist wärmer als der Park, wenn es regnet.",
+          "answer": [
+            "varmere"
+          ],
+          "explain": "varm – varmere – varmest: regelmäßig mit -ere."
+        },
+        {
+          "prompt": "To museer er ___ enn ett. (dyr, komparativ)",
+          "de": "Zwei Museen sind teurer als eins.",
+          "answer": [
+            "dyrere"
+          ],
+          "explain": "dyr – dyrere – dyrest."
+        },
+        {
+          "prompt": "Vigelandsparken er ___. (billig, superlativ)",
+          "de": "Der Vigelandpark ist am billigsten.",
+          "answer": [
+            "billigst"
+          ],
+          "explain": "Adjektive auf -ig: Superlativ nur mit -st."
+        },
+        {
+          "prompt": "Jonas synes Bygdøy er ___ enn Munchmuseet. (morsom, komparativ)",
+          "de": "Jonas findet Bygdøy lustiger als das Munch-Museum.",
+          "answer": [
+            "morsommere"
+          ],
+          "explain": "morsom – morsommere: Das m wird vor der Endung verdoppelt."
+        },
+        {
+          "prompt": "Anna synes kunst er ___ enn skip. (interessant, komparativ)",
+          "de": "Anna findet Kunst interessanter als Schiffe.",
+          "answer": [
+            "mer interessant",
+            "interessantere"
+          ],
+          "explain": "Lange Adjektive steigert man meist mit mer: mer interessant."
+        },
+        {
+          "prompt": "På ettermiddagen blir det ___. (tørr, komparativ)",
+          "de": "Am Nachmittag wird es trockener.",
+          "answer": [
+            "tørrere"
+          ],
+          "explain": "tørr – tørrere – tørrest."
+        },
+        {
+          "prompt": "Skulpturene er mye ___ i virkeligheten enn på bilder. (fin, komparativ)",
+          "de": "Die Skulpturen sind in Wirklichkeit viel schöner als auf Bildern.",
+          "answer": [
+            "finere"
+          ],
+          "explain": "fin – finere – finest."
+        },
+        {
+          "prompt": "Hvilket museum er ___? (spennende, superlativ)",
+          "de": "Welches Museum ist am spannendsten?",
+          "answer": [
+            "mest spennende"
+          ],
+          "explain": "Adjektive auf -e steigert man mit mer/mest."
+        },
+        {
+          "prompt": "Av alle forslagene var dette ___. (praktisk, superlativ)",
+          "de": "Von allen Vorschlägen war dieser am praktischsten.",
+          "answer": [
+            "mest praktisk"
+          ],
+          "explain": "Adjektive auf -isk: mer/mest praktisk."
+        },
+        {
+          "prompt": "For Matthias er Oslo ___ enn Paris. (nær, komparativ)",
+          "de": "Für Matthias ist Oslo näher als Paris.",
+          "answer": [
+            "nærmere"
+          ],
+          "explain": "nær – nærmere – nærmest."
+        },
+        {
+          "prompt": "Av alle kafeene var den lille ___. (hyggelig, superlativ)",
+          "de": "Von allen Cafés war das kleine am gemütlichsten.",
+          "answer": [
+            "hyggeligst"
+          ],
+          "explain": "Adjektive auf -lig: Superlativ mit -st (hyggeligst)."
+        }
+      ]
+    },
+    {
+      "id": "g12_sammenligning",
+      "title": "Vergleiche: enn, like … som, så … som",
+      "titleNo": "sammenligning",
+      "summary": "dyrere enn = teurer als, like dyr som = genauso teuer wie, ikke så dyr som = nicht so teuer wie.",
+      "sections": [
+        {
+          "h": "enn = als",
+          "body": "Nach dem Komparativ steht **enn**: **Oslo er nærmere enn Paris. To museer er dyrere enn ett.**\n\nTypischer Fehler deutscher Lerner: ✗ **dyrere som**. Das kommt daher, dass **som** in anderen Sätzen „als“ heißt – aber nur im Sinn von „in der Rolle von“: **Han jobber som ingeniør** (Er arbeitet als Ingenieur). Nach dem Komparativ immer **enn**!\n\n„weniger … als“ heißt **mindre … enn**: **Jonas er mindre interessert i kunst enn Anna.**",
+          "table": [
+            [
+              "Norwegisch",
+              "Deutsch"
+            ],
+            [
+              "**varmere enn**",
+              "wärmer als"
+            ],
+            [
+              "**mer interessant enn**",
+              "interessanter als"
+            ],
+            [
+              "**mindre … enn**",
+              "weniger … als"
+            ],
+            [
+              "**like varm som**",
+              "genauso warm wie"
+            ],
+            [
+              "**ikke så varm som**",
+              "nicht so warm wie"
+            ]
+          ]
+        },
+        {
+          "h": "Gleich und ungleich: like … som, så … som",
+          "body": "• **like … som** = genauso … wie: **Matthias er like glad i museer som i parker.**\n• **ikke så … som** = nicht so … wie: **Museene på Bygdøy ligger ikke så sentralt som Munchmuseet.**\n\nHier heißt „wie“ **som**, nicht **enn**. Merke: Komparativ → **enn**, Grundform → **som**."
+        },
+        {
+          "h": "Pronomen nach enn und som",
+          "body": "Nach **enn** und **som** steht im Alltag meist die Objektform, in sorgfältiger Sprache auch die Subjektform:\n\n• **Dere er sprekere enn meg.** / **…enn jeg.**\n• **Hun er like lat som ham.** / **…som han.**\n\nFolgt noch ein Verb, geht nur die Subjektform: **Anna er sprekere enn jeg er.**"
+        }
+      ],
+      "drills": [
+        {
+          "prompt": "To museer er dyrere ___ ett.",
+          "de": "Zwei Museen sind teurer als eins.",
+          "answer": [
+            "enn"
+          ],
+          "explain": "Nach dem Komparativ steht immer enn."
+        },
+        {
+          "prompt": "Jonas er like lat ___ Ola.",
+          "de": "Jonas ist genauso faul wie Ola.",
+          "answer": [
+            "som"
+          ],
+          "explain": "like … som = genauso … wie."
+        },
+        {
+          "prompt": "Museene på Bygdøy ligger ikke ___ sentralt som Munchmuseet.",
+          "de": "Die Museen auf Bygdøy liegen nicht so zentral wie das Munch-Museum.",
+          "answer": [
+            "så"
+          ],
+          "explain": "ikke så … som = nicht so … wie."
+        },
+        {
+          "prompt": "Matthias er ___ glad i museer som i parker. (genauso)",
+          "de": "Matthias mag Museen genauso gern wie Parks.",
+          "answer": [
+            "like"
+          ],
+          "explain": "genauso = like."
+        },
+        {
+          "prompt": "Dere er sprekere enn ___. (jeg)",
+          "de": "Ihr seid fitter als ich.",
+          "answer": [
+            "meg",
+            "jeg"
+          ],
+          "explain": "Nach enn ist im Alltag die Objektform üblich (meg); jeg ist auch richtig."
+        },
+        {
+          "prompt": "Jonas er ___ interessert i kunst enn Anna. (weniger)",
+          "de": "Jonas interessiert sich weniger für Kunst als Anna.",
+          "answer": [
+            "mindre"
+          ],
+          "explain": "weniger … als = mindre … enn."
+        },
+        {
+          "prompt": "Det er like vanskelig ___ å velge mellom ost og sjokolade.",
+          "de": "Das ist genauso schwer, wie zwischen Käse und Schokolade zu wählen.",
+          "answer": [
+            "som"
+          ],
+          "explain": "like … som – auch vor einem Infinitiv."
+        },
+        {
+          "prompt": "Susanne er ikke så sliten som ___. (han)",
+          "de": "Susanne ist nicht so müde wie er.",
+          "answer": [
+            "ham",
+            "han"
+          ],
+          "explain": "Nach som: Objektform ham (oder han)."
+        },
+        {
+          "prompt": "Anna synes Munchmuseet er ___ interessant enn Bygdøy. (mehr)",
+          "de": "Anna findet das Munch-Museum interessanter als Bygdøy.",
+          "answer": [
+            "mer"
+          ],
+          "explain": "Lange Adjektive: mer + Grundform + enn."
+        },
+        {
+          "prompt": "Vigelandsparken er ikke så dyr ___ Bygdøy.",
+          "de": "Der Vigelandpark ist nicht so teuer wie Bygdøy.",
+          "answer": [
+            "som"
+          ],
+          "explain": "ikke så … som: Nach der Grundform steht som, nicht enn."
+        }
+      ]
+    },
+    {
+      "id": "g12_forsterkende",
+      "title": "Verstärkende Adverbien",
+      "titleNo": "forsterkende adverb",
+      "summary": "veldig, altfor, ganske, litt, utrolig, kjempe- … verstärken oder schwächen ein Adjektiv – Vorsicht: ganske heißt „ziemlich“, nicht „ganz“.",
+      "sections": [
+        {
+          "h": "Von „ein bisschen“ bis „viel zu“",
+          "body": "Diese Wörter stehen direkt vor dem Adjektiv oder Adverb und bleiben immer gleich:",
+          "table": [
+            [
+              "Norwegisch",
+              "Deutsch",
+              "Beispiel"
+            ],
+            [
+              "**litt**",
+              "ein bisschen",
+              "**litt kaldt**"
+            ],
+            [
+              "**ganske / nokså / temmelig**",
+              "ziemlich",
+              "**ganske fint**"
+            ],
+            [
+              "**veldig / svært**",
+              "sehr",
+              "**veldig gøy**"
+            ],
+            [
+              "**utrolig**",
+              "unglaublich",
+              "**utrolig fin**"
+            ],
+            [
+              "**kjempe-**",
+              "riesig, super-",
+              "**kjempefin**"
+            ],
+            [
+              "**helt**",
+              "ganz, völlig",
+              "**helt enig**"
+            ],
+            [
+              "**for**",
+              "zu",
+              "**for dyrt**"
+            ],
+            [
+              "**altfor**",
+              "viel zu",
+              "**altfor mange**"
+            ]
+          ]
+        },
+        {
+          "h": "Achtung, falsche Freunde",
+          "body": "• **ganske** heißt „ziemlich“, nicht „ganz“! **Det er ganske dyrt** = Das ist ziemlich teuer. „Ganz“ heißt **helt**: **Du har helt rett.**\n• **for** + Adjektiv = zu: **for dyrt**. **altfor** = viel zu: **altfor dyrt**.\n• **svært** ist etwas formeller als **veldig**. **temmelig** klingt oft leicht negativ: **temmelig kjedelig**.\n• Umgangssprachlich hörst du auch **skikkelig** (richtig): **skikkelig godt**."
+        },
+        {
+          "h": "kjempe- schreibt man zusammen",
+          "body": "**kjempe-** (von **en kjempe** = ein Riese) wird mit dem Adjektiv zusammengeschrieben: **kjempefin, kjempegod, kjempestor**. Das Adjektiv wird ganz normal gebeugt: **Bygget er kjempefint. Bollene var kjempegode.**"
+        }
+      ],
+      "drills": [
+        {
+          "prompt": "Tretten etasjer er ___ mange for en søndag morgen. (viel zu)",
+          "de": "Dreizehn Stockwerke sind viel zu viele für einen Sonntagmorgen.",
+          "answer": [
+            "altfor"
+          ],
+          "explain": "viel zu = altfor."
+        },
+        {
+          "prompt": "Utsikten fra toppen er ___ fin. (unglaublich)",
+          "de": "Die Aussicht von oben ist unglaublich schön.",
+          "answer": [
+            "utrolig"
+          ],
+          "explain": "unglaublich = utrolig."
+        },
+        {
+          "prompt": "Det nye bygget er ___. (kjempe- + fin)",
+          "de": "Das neue Gebäude ist super schön.",
+          "answer": [
+            "kjempefint"
+          ],
+          "explain": "kjempe- wird zusammengeschrieben, und das Adjektiv richtet sich nach bygget (Neutrum): kjempefint."
+        },
+        {
+          "prompt": "Jeg er ___ trøtt i dag. (ein bisschen)",
+          "de": "Ich bin heute ein bisschen müde.",
+          "answer": [
+            "litt"
+          ],
+          "explain": "ein bisschen = litt."
+        },
+        {
+          "prompt": "Du har ___ rett, Anna. (ganz)",
+          "de": "Du hast ganz recht, Anna.",
+          "answer": [
+            "helt"
+          ],
+          "explain": "ganz, völlig = helt (nicht ganske!)."
+        },
+        {
+          "prompt": "Museet var ___ fullt. (ziemlich)",
+          "de": "Das Museum war ziemlich voll.",
+          "answer": [
+            "ganske",
+            "nokså",
+            "temmelig"
+          ],
+          "explain": "ziemlich = ganske, nokså oder temmelig."
+        },
+        {
+          "prompt": "Det var ___ gøy på Bygdøy! (sehr)",
+          "de": "Es war sehr lustig auf Bygdøy!",
+          "answer": [
+            "veldig",
+            "svært"
+          ],
+          "explain": "sehr = veldig (svært ist formeller)."
+        },
+        {
+          "prompt": "Kaffen på museet er ___ dyr. (zu)",
+          "de": "Der Kaffee im Museum ist zu teuer.",
+          "answer": [
+            "for"
+          ],
+          "explain": "zu = for; viel zu = altfor."
+        },
+        {
+          "prompt": "Filmen var ___ kjedelig. (ziemlich)",
+          "de": "Der Film war ziemlich langweilig.",
+          "answer": [
+            "temmelig",
+            "ganske",
+            "nokså"
+          ],
+          "explain": "temmelig passt besonders gut zu etwas Negativem."
+        },
+        {
+          "prompt": "Skillingsbollene var ___. (kjempe- + god)",
+          "de": "Die Zimtschnecken waren super lecker.",
+          "answer": [
+            "kjempegode"
+          ],
+          "explain": "Plural: kjempe- + gode = kjempegode."
+        }
+      ]
+    },
+    {
+      "id": "g12_adverb",
+      "title": "Das Adjektiv als Adverb",
+      "titleNo": "adjektiv brukt som adverb",
+      "summary": "Als Adverb nimmst du die Neutrumform des Adjektivs: Hun snakker godt norsk. Vi må bestemme oss raskt.",
+      "sections": [
+        {
+          "h": "Neutrum = Adverb",
+          "body": "Im Deutschen sieht das Adverb aus wie die Grundform (Sie spricht gut). Im Norwegischen nimmst du die **Neutrumform** mit **-t**:\n\n• **god → godt: Matthias snakker godt norsk.**\n• **rask → raskt: Vi må bestemme oss raskt.**\n• **pen → pent: Hun synger pent.**\n• **fin → fint: Det gikk fint.**\n\nTypischer Fehler: ✗ **Det gikk fin.** → ✓ **Det gikk fint.**"
+        },
+        {
+          "h": "Adjektive ohne -t",
+          "body": "Wenn das Adjektiv im Neutrum kein **-t** bekommt, bleibt auch das Adverb gleich:\n\n• auf **-ig/-lig**: **Vi hadde det hyggelig. Hun svarte høflig.**\n• auf **-sk**: **Han tenker praktisk.**\n• auf **-t** und unveränderliche: **Det passer perfekt. Snakk sakte! Sitt stille!**"
+        },
+        {
+          "h": "Wo steht das Adverb?",
+          "body": "Das Adverb beschreibt ein Verb und steht meist danach oder am Satzende: **Han kjører fort. Det regnet kraftig hele morgenen.**\n\nVor einem Adjektiv steht es direkt davor: **Det var utrolig fint.**\n\n**fort** (schnell) ist nur Adverb – das Adjektiv dazu ist **rask**: **Toget er raskt. Toget kjører fort.**"
+        }
+      ],
+      "drills": [
+        {
+          "prompt": "Matthias snakker ___ norsk. (god)",
+          "de": "Matthias spricht gut Norwegisch.",
+          "answer": [
+            "godt"
+          ],
+          "explain": "Adverb = Neutrumform: god → godt."
+        },
+        {
+          "prompt": "Vi må bestemme oss ___. (rask)",
+          "de": "Wir müssen uns schnell entscheiden.",
+          "answer": [
+            "raskt"
+          ],
+          "explain": "rask → raskt."
+        },
+        {
+          "prompt": "Det gikk ___ med Matthias i Bergen. (fin)",
+          "de": "Mit Matthias in Bergen ist es gut gelaufen.",
+          "answer": [
+            "fint"
+          ],
+          "explain": "fin → fint."
+        },
+        {
+          "prompt": "Vi hadde det ___ i parken. (hyggelig)",
+          "de": "Wir hatten es schön im Park.",
+          "answer": [
+            "hyggelig"
+          ],
+          "explain": "Adjektive auf -ig bekommen kein -t – auch nicht als Adverb."
+        },
+        {
+          "prompt": "Snakk ___, er du snill! (langsom)",
+          "de": "Sprich bitte langsam!",
+          "answer": [
+            "langsomt"
+          ],
+          "explain": "langsom → langsomt (ein m am Wortende)."
+        },
+        {
+          "prompt": "Hun svarte ___ på spørsmålet. (høflig)",
+          "de": "Sie beantwortete die Frage höflich.",
+          "answer": [
+            "høflig"
+          ],
+          "explain": "-lig: keine Endung."
+        },
+        {
+          "prompt": "Det passer ___! (perfekt)",
+          "de": "Das passt perfekt!",
+          "answer": [
+            "perfekt"
+          ],
+          "explain": "Adjektive auf -t bekommen kein weiteres t."
+        },
+        {
+          "prompt": "Hun synger ___. (vakker)",
+          "de": "Sie singt schön.",
+          "answer": [
+            "vakkert"
+          ],
+          "explain": "vakker → vakkert."
+        },
+        {
+          "prompt": "Det regnet ___ hele morgenen. (kraftig)",
+          "de": "Es regnete den ganzen Morgen heftig.",
+          "answer": [
+            "kraftig"
+          ],
+          "explain": "-ig: keine Endung."
+        },
+        {
+          "prompt": "Susanne smilte ___ til Matthias. (varm)",
+          "de": "Susanne lächelte Matthias herzlich an.",
+          "answer": [
+            "varmt"
+          ],
+          "explain": "varm → varmt."
+        }
+      ]
+    }
+  ],
+  "tf": [
+    {
+      "s": "Matthias er i Oslo hele uka.",
+      "de": "Matthias ist die ganze Woche in Oslo.",
+      "a": false,
+      "why": "Er ist nur bis Sonntagabend da."
+    },
+    {
+      "s": "Jonas vil helst sove lenge.",
+      "de": "Jonas möchte am liebsten lange schlafen.",
+      "a": true,
+      "why": "„Jeg foreslår at vi sover lenge.“ – und am Ende will er erst um halb elf los."
+    },
+    {
+      "s": "Det koster ingenting å gå i Vigelandsparken.",
+      "de": "Es kostet nichts, in den Vigelandpark zu gehen.",
+      "a": true,
+      "why": "Susanne sagt: „den er gratis“."
+    },
+    {
+      "s": "Jonas synes det er fint å stå i regnet og se på skulpturer.",
+      "de": "Jonas findet es schön, im Regen zu stehen und Skulpturen anzuschauen.",
+      "a": false,
+      "why": "Er will gerade nicht im Regen stehen und Steinfiguren anschauen."
+    },
+    {
+      "s": "Anna har vært i det nye Munchmuseet.",
+      "de": "Anna war schon im neuen Munch-Museum.",
+      "a": true,
+      "why": "„Ja, to ganger.“"
+    },
+    {
+      "s": "Matthias vil helst til Bygdøy.",
+      "de": "Matthias will am liebsten nach Bygdøy.",
+      "a": false,
+      "why": "Ihm ist es egal, solange sie es zusammen machen."
+    },
+    {
+      "s": "Ifølge Anna blir været penere på ettermiddagen.",
+      "de": "Laut Anna wird das Wetter am Nachmittag schöner.",
+      "a": true,
+      "why": "Vormittags soll es regnen, nachmittags wird das Wetter etwas schöner."
+    },
+    {
+      "s": "De begynner dagen på Bygdøy.",
+      "de": "Sie beginnen den Tag auf Bygdøy.",
+      "a": false,
+      "why": "Zuerst geht es ins Munch-Museum, dann in den Vigelandpark; Bygdøy kommt nächstes Mal."
+    }
+  ],
+  "questions": [
+    {
+      "q": "Hvorfor må de bestemme seg raskt?",
+      "qDe": "Warum müssen sie sich schnell entscheiden?",
+      "answer": "Fordi Matthias bare er i Oslo til søndag kveld.",
+      "answerDe": "Weil Matthias nur bis Sonntagabend in Oslo ist.",
+      "keywords": [
+        [
+          "Matthias"
+        ],
+        [
+          "søndag"
+        ]
+      ]
+    },
+    {
+      "q": "Hvorfor vil ikke Jonas gå i Vigelandsparken?",
+      "qDe": "Warum will Jonas nicht in den Vigelandpark?",
+      "answer": "Fordi parken er ute, og det blir regn.",
+      "answerDe": "Weil der Park draußen ist und es Regen gibt.",
+      "keywords": [
+        [
+          "ute"
+        ],
+        [
+          "regn",
+          "regne",
+          "regner"
+        ]
+      ]
+    },
+    {
+      "q": "Hva kan man se på Folkemuseet?",
+      "qDe": "Was kann man im Volksmuseum sehen?",
+      "answer": "Man kan se gamle hus fra hele landet og en stavkirke.",
+      "answerDe": "Man kann alte Häuser aus dem ganzen Land und eine Stabkirche sehen.",
+      "keywords": [
+        [
+          "hus",
+          "husene",
+          "husa"
+        ],
+        [
+          "stavkirke",
+          "stavkirka",
+          "kirke"
+        ]
+      ]
+    },
+    {
+      "q": "Hvorfor vil Anna til Munchmuseet?",
+      "qDe": "Warum will Anna ins Munch-Museum?",
+      "answer": "Hun synes det er mer interessant, og det er inne.",
+      "answerDe": "Sie findet es interessanter, und es ist drinnen.",
+      "keywords": [
+        [
+          "interessant"
+        ],
+        [
+          "inne"
+        ]
+      ]
+    },
+    {
+      "q": "Hva blir planen til slutt?",
+      "qDe": "Wie sieht der Plan am Ende aus?",
+      "answer": "De går på Munchmuseet først og til Vigelandsparken etterpå.",
+      "answerDe": "Sie gehen zuerst ins Munch-Museum und danach in den Vigelandpark.",
+      "keywords": [
+        [
+          "Munchmuseet",
+          "Munch"
+        ],
+        [
+          "Vigelandsparken",
+          "Vigeland"
+        ]
+      ]
+    },
+    {
+      "q": "Hvorfor kommer Matthias gjerne tilbake til Oslo?",
+      "qDe": "Warum kommt Matthias gern wieder nach Oslo?",
+      "answer": "Fordi Oslo er nærmere enn Paris, og han vil se Bygdøy neste gang.",
+      "answerDe": "Weil Oslo näher ist als Paris und er nächstes Mal Bygdøy sehen will.",
+      "keywords": [
+        [
+          "nærmere",
+          "nær"
+        ],
+        [
+          "Bygdøy",
+          "Paris"
+        ]
+      ]
+    }
+  ],
+  "find": [
+    {
+      "de": "ich schlage vor",
+      "answer": [
+        "Jeg foreslår"
+      ]
+    },
+    {
+      "de": "in Wirklichkeit",
+      "answer": [
+        "i virkeligheten"
+      ]
+    },
+    {
+      "de": "laut Wetterbericht",
+      "answer": [
+        "Ifølge værmeldingen"
+      ]
+    },
+    {
+      "de": "jedenfalls",
+      "answer": [
+        "i hvert fall"
+      ]
+    },
+    {
+      "de": "viel zu viele",
+      "answer": [
+        "altfor mange"
+      ]
+    },
+    {
+      "de": "ehrlich gesagt",
+      "answer": [
+        "Ærlig talt"
+      ]
+    },
+    {
+      "de": "das ist mir egal",
+      "answer": [
+        "Det spiller ingen rolle for meg"
+      ]
+    },
+    {
+      "de": "ein echter Kompromiss",
+      "answer": [
+        "et ekte kompromiss"
+      ]
+    }
+  ],
+  "translate": [
+    {
+      "de": "Das Museum ist wärmer als der Park.",
+      "no": [
+        "Museet er varmere enn parken."
+      ]
+    },
+    {
+      "de": "Das Munch-Museum ist genauso interessant wie das Fram-Museum.",
+      "no": [
+        "Munchmuseet er like interessant som Frammuseet."
+      ]
+    },
+    {
+      "de": "Das ist viel zu teuer!",
+      "no": [
+        "Det er altfor dyrt!"
+      ]
+    },
+    {
+      "de": "Sie spricht gut Norwegisch.",
+      "no": [
+        "Hun snakker godt norsk.",
+        "Hun snakker god norsk."
+      ]
+    },
+    {
+      "de": "Anna ist fitter als ich.",
+      "no": [
+        "Anna er sprekere enn meg.",
+        "Anna er sprekere enn jeg.",
+        "Anna er sprekere enn jeg er."
+      ]
+    },
+    {
+      "de": "Ich bin ganz deiner Meinung.",
+      "no": [
+        "Jeg er helt enig med deg.",
+        "Jeg er helt enig."
+      ]
+    },
+    {
+      "de": "Der Vigelandpark ist am billigsten.",
+      "no": [
+        "Vigelandsparken er billigst."
+      ]
+    },
+    {
+      "de": "Das neue Gebäude ist super schön.",
+      "no": [
+        "Det nye bygget er kjempefint.",
+        "Den nye bygningen er kjempefin."
+      ]
+    },
+    {
+      "de": "Das Wetter ist nicht so schön wie gestern.",
+      "no": [
+        "Været er ikke så fint som i går.",
+        "Været er ikke så pent som i går."
+      ]
+    },
+    {
+      "de": "Wir müssen uns schnell entscheiden.",
+      "no": [
+        "Vi må bestemme oss raskt.",
+        "Vi må bestemme oss fort."
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "prompt": "Susanne, Matthias, Anna og Jonas må bestemme hva de skal gjøre på ___.",
+      "de": "Susanne, Matthias, Anna und Jonas müssen entscheiden, was sie am Sonntag machen.",
+      "answer": [
+        "søndag"
+      ]
+    },
+    {
+      "prompt": "Vigelandsparken er ___ – den er gratis.",
+      "de": "Der Vigelandpark ist am billigsten – er kostet nichts.",
+      "answer": [
+        "billigst"
+      ]
+    },
+    {
+      "prompt": "Jonas vil ikke dit, fordi parken er ___.",
+      "de": "Jonas will nicht dorthin, weil der Park draußen ist.",
+      "answer": [
+        "ute"
+      ]
+    },
+    {
+      "prompt": "Jonas vil heller til museene på ___.",
+      "de": "Jonas will lieber zu den Museen auf Bygdøy.",
+      "answer": [
+        "Bygdøy"
+      ]
+    },
+    {
+      "prompt": "Anna synes Munchmuseet er mer ___.",
+      "de": "Anna findet das Munch-Museum interessanter.",
+      "answer": [
+        "interessant"
+      ]
+    },
+    {
+      "prompt": "Til slutt går de på Munchmuseet først og til Vigelandsparken ___.",
+      "de": "Am Ende gehen sie zuerst ins Munch-Museum und danach in den Vigelandpark.",
+      "answer": [
+        "etterpå"
+      ]
+    }
+  ],
+  "dictation": [
+    3,
+    8,
+    26
+  ],
+  "writing": {
+    "prompt": "Du und deine Freunde wollt am Wochenende etwas unternehmen. Schreib eine Nachricht in den Gruppenchat: Vergleiche zwei oder drei Möglichkeiten (billiger, interessanter, wärmer …), benutze verstärkende Wörter und mach einen Kompromissvorschlag.",
+    "minWords": 90,
+    "useWords": [
+      "enn",
+      "mer",
+      "altfor",
+      "foreslår",
+      "kompromiss"
+    ],
+    "checklist": [
+      {
+        "de": "Vergleich mit Komparativ + enn",
+        "keywords": [
+          "enn"
+        ]
+      },
+      {
+        "de": "Superlativ oder like … som",
+        "keywords": [
+          "billigst",
+          "mest",
+          "like"
+        ]
+      },
+      {
+        "de": "Verstärkendes Adverb",
+        "keywords": [
+          "veldig",
+          "altfor",
+          "ganske",
+          "utrolig",
+          "litt",
+          "helt"
+        ]
+      },
+      {
+        "de": "Vorschlag / Kompromiss",
+        "keywords": [
+          "foreslår",
+          "kompromiss"
+        ]
+      }
+    ],
+    "model": "Hei alle sammen! Hva skal vi gjøre på lørdag? Jeg har tre forslag. Vi kan gå på kino, men det er ganske dyrt. Vi kan gå tur i skogen – det er billigst, og det er mye sunnere enn å sitte inne. Men ifølge værmeldingen blir det altfor kaldt. Det tredje forslaget er å lage mat hjemme hos meg. Det er like koselig som en restaurant, og det er ikke så dyrt. Jeg foreslår et kompromiss: Først går vi en kort tur, og så lager vi pizza hos meg. Det blir mer avslappende enn kino. Hva synes dere? Svar raskt! Hilsen Lena",
+    "modelDe": "Hallo zusammen! Was machen wir am Samstag? Ich habe drei Vorschläge. Wir können ins Kino gehen, aber das ist ziemlich teuer. Wir können im Wald spazieren gehen – das ist am billigsten, und es ist viel gesünder, als drinnen zu sitzen. Aber laut Wetterbericht wird es viel zu kalt. Der dritte Vorschlag ist, bei mir zu Hause zu kochen. Das ist genauso gemütlich wie ein Restaurant, und es ist nicht so teuer. Ich schlage einen Kompromiss vor: Zuerst machen wir einen kurzen Spaziergang, und dann machen wir bei mir Pizza. Das wird entspannter als Kino. Was meint ihr? Antwortet schnell! Viele Grüße, Lena"
+  }
+}

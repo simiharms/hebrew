@@ -1,0 +1,326 @@
+{
+  "n": 15,
+  "level": "B1",
+  "title": "En vanlig hverdag hos familien Nygård",
+  "titleDe": "Ein ganz normaler Alltag bei Familie Nygård",
+  "place": "Oslo, Sagene: bei Familie Nygård",
+  "goals": [
+    "Du kannst mit sin/si/sitt/sine und hans/hennes eindeutig sagen, wem etwas gehört.",
+    "Du kannst Indefinitpronomen wie alle, hver, begge, noen, ingen und ingenting richtig einsetzen.",
+    "Du kannst Meinungen und Vermutungen mit synes, tro und tenke unterscheiden.",
+    "Du kannst über Verwandtschaft und den Familienalltag sprechen und weißt, wie Familie und Arbeit in Norwegen zusammengehen."
+  ],
+  "text": {
+    "id": "t15",
+    "title": "En vanlig hverdag hos familien Nygård",
+    "titleDe": "Ein ganz normaler Alltag bei Familie Nygård",
+    "kind": "prose",
+    "intro": "Susannes letzte Woche in Oslo. Bevor sie nach Tromsø zieht, beschreibt sie in ihrem Tagebuch einen ganz normalen Dienstag bei Familie Nygård – vom Wecker bis Mitternacht.",
+    "lines": [
+      { "no": "Om en uke flytter jeg til Tromsø, og jeg kommer til å savne familien Nygård. Derfor vil jeg skrive ned hvordan en helt vanlig tirsdag ser ut her på Sagene. Alle i huset har sine faste vaner, men ingen dag er helt lik en annen.", "de": "In einer Woche ziehe ich nach Tromsø, und ich werde die Familie Nygård vermissen. Deshalb will ich aufschreiben, wie ein ganz normaler Dienstag hier in Sagene aussieht. Alle im Haus haben ihre festen Gewohnheiten, aber kein Tag ist genau wie der andere." },
+      { "no": "Klokka seks ringer Karis vekkerklokke. Kari er alltid den første som står opp.", "de": "Um sechs Uhr klingelt Karis Wecker. Kari steht immer als Erste auf." },
+      { "no": "Hun lager kaffe og leser avisa på nettbrettet sitt ved kjøkkenbordet. Hun synes at den stille morgentimen er den beste i hele døgnet.", "de": "Sie kocht Kaffee und liest am Küchentisch die Zeitung auf ihrem Tablet. Sie findet, dass die stille Morgenstunde die schönste des ganzen Tages ist." },
+      { "no": "Halv sju kommer Per ned. Han smører matpakken sin – alltid to brødskiver med brunost – og går tur med Bamse. Per tror at Bamse kan klokka, for hunden venter ved døra klokka halv sju hver eneste morgen.", "de": "Um halb sieben kommt Per herunter. Er schmiert sich sein Pausenbrot – immer zwei Scheiben Brot mit Braunkäse – und geht mit Bamse Gassi. Per glaubt, dass Bamse die Uhr lesen kann, denn der Hund wartet jeden Morgen um halb sieben an der Tür." },
+      { "no": "Ola er vanskeligst å få ut av senga. Kari roper på ham tre ganger, og Per banker på døra hans. Til slutt kommer han ned, med håret til alle kanter. Han finner aldri nøklene sine eller mobilladeren sin, og han spiser frokosten sin på bussen. Ola går på videregående, og han tenker å bli ingeniør – eller fotballproff.", "de": "Ola ist am schwersten aus dem Bett zu kriegen. Kari ruft dreimal nach ihm, und Per klopft an seine Tür. Schließlich kommt er herunter, die Haare stehen in alle Richtungen ab. Er findet nie seine Schlüssel oder sein Handyladegerät, und sein Frühstück isst er im Bus. Ola geht auf die weiterführende Schule und hat vor, Ingenieur zu werden – oder Fußballprofi." },
+      { "no": "Anna har praksis på Ullevål sykehus denne uka, og hun går nattevakter. Når vi andre spiser frokost, kommer hun hjem og legger seg. Alle prøver å være stille, men ingen klarer det helt. Bamse bjeffer nemlig på alle som går forbi huset.", "de": "Anna hat diese Woche ein Praktikum im Krankenhaus Ullevål und macht Nachtdienste. Wenn wir anderen frühstücken, kommt sie nach Hause und legt sich schlafen. Alle versuchen, leise zu sein, aber niemand schafft es ganz. Bamse bellt nämlich jeden an, der am Haus vorbeigeht." },
+      { "no": "Bestemor Ingrid er på besøk fra Lillehammer. Hun sover på gjesterommet og har strikketøyet sitt med seg overalt. Nå strikker hun ei lue til meg. «Jeg tror ikke du vet hvor kaldt det blir der oppe», sier hun. Om ettermiddagen forteller hun Ola historier om troll. Han synes at han er for gammel for troll, men jeg tror han liker dem likevel.", "de": "Oma Ingrid ist aus Lillehammer zu Besuch. Sie schläft im Gästezimmer und hat ihr Strickzeug überall dabei. Gerade strickt sie mir eine Mütze. „Ich glaube nicht, dass du weißt, wie kalt es da oben wird“, sagt sie. Am Nachmittag erzählt sie Ola Trollgeschichten. Er findet, dass er zu alt für Trolle ist, aber ich glaube, er mag sie trotzdem." },
+      { "no": "Klokka fire er Per hjemme igjen, for han har fleksitid i kommunen. Kari kommer litt senere, for hun retter prøvene til elevene sine på skolen. Hos familien Nygård har hver voksen sin faste middagsdag. I dag er det Pers tur, og han lager fiskegrateng. Ola lager middag på fredager – og da blir det alltid taco.", "de": "Um vier ist Per wieder zu Hause, denn er hat bei der Stadtverwaltung Gleitzeit. Kari kommt etwas später, denn sie korrigiert in der Schule die Klassenarbeiten ihrer Schüler. Bei Familie Nygård hat jeder Erwachsene seinen festen Kochtag. Heute ist Per dran, und er macht Fischgratin. Ola kocht freitags – und dann gibt es immer Tacos." },
+      { "no": "Etter middagen vasker Per opp, og Kari hjelper Ola med matteleksene hans. Begge to blir litt irriterte. Bestemor ringer til venninna si i Lillehammer, og Bamse legger seg på teppet sitt foran peisen.", "de": "Nach dem Abendessen spült Per ab, und Kari hilft Ola bei seinen Mathehausaufgaben. Beide werden ein bisschen gereizt. Oma ruft ihre Freundin in Lillehammer an, und Bamse legt sich auf seine Decke vor dem Kamin." },
+      { "no": "Klokka halv ti sykler Anna til sykehuset med matpakken sin. Per og Kari ser en serie sammen, og bestemor legger seg tidlig. Ola sier at han skal sove, men jeg hører at han spiller på datamaskinen sin til midnatt. Ingen sier noe – i hvert fall ikke i kveld.", "de": "Um halb zehn radelt Anna mit ihrem Pausenbrot zum Krankenhaus. Per und Kari schauen zusammen eine Serie, und Oma geht früh ins Bett. Ola sagt, dass er schlafen geht, aber ich höre, dass er bis Mitternacht an seinem Computer spielt. Niemand sagt etwas – jedenfalls nicht heute Abend." },
+      { "no": "Jeg synes familien Nygård er helt vanlig og helt spesiell på samme tid.", "de": "Ich finde, die Familie Nygård ist ganz normal und zugleich ganz besonders." },
+      { "no": "I Tromsø kommer jeg til å tenke på dem hver dag. Men Kari sier at døra deres alltid står åpen for meg.", "de": "In Tromsø werde ich jeden Tag an sie denken. Aber Kari sagt, dass ihre Tür immer für mich offen steht." }
+    ],
+    "glossary": [
+      { "no": "kommer til å savne", "de": "werde vermissen" },
+      { "no": "skrive ned", "de": "aufschreiben" },
+      { "no": "ser ut", "de": "aussieht" },
+      { "no": "sine faste vaner", "de": "ihre festen Gewohnheiten" },
+      { "no": "ingen dag er helt lik en annen", "de": "kein Tag ist genau wie der andere" },
+      { "no": "vekkerklokke", "de": "Wecker" },
+      { "no": "den første som står opp", "de": "die Erste, die aufsteht" },
+      { "no": "nettbrettet sitt", "de": "ihr (eigenes) Tablet" },
+      { "no": "morgentimen", "de": "die Morgenstunde" },
+      { "no": "døgnet", "de": "der Tag (24 Stunden)" },
+      { "no": "smører matpakken sin", "de": "schmiert sich sein Pausenbrot" },
+      { "no": "brødskiver", "de": "Brotscheiben" },
+      { "no": "går tur med Bamse", "de": "geht mit Bamse Gassi" },
+      { "no": "kan klokka", "de": "kann die Uhr lesen" },
+      { "no": "hver eneste morgen", "de": "jeden einzelnen Morgen" },
+      { "no": "vanskeligst å få ut av senga", "de": "am schwersten aus dem Bett zu kriegen" },
+      { "no": "roper på ham", "de": "ruft nach ihm" },
+      { "no": "banker på døra hans", "de": "klopft an seine Tür" },
+      { "no": "Til slutt", "de": "Schließlich" },
+      { "no": "med håret til alle kanter", "de": "mit Haaren, die in alle Richtungen abstehen" },
+      { "no": "mobilladeren", "de": "das Handyladegerät" },
+      { "no": "går på videregående", "de": "geht auf die weiterführende Schule (Oberstufe)" },
+      { "no": "tenker å bli", "de": "hat vor zu werden" },
+      { "no": "fotballproff", "de": "Fußballprofi" },
+      { "no": "har praksis", "de": "hat ein Praktikum" },
+      { "no": "går nattevakter", "de": "macht Nachtdienste" },
+      { "no": "vi andre", "de": "wir anderen" },
+      { "no": "klarer det", "de": "schafft es" },
+      { "no": "bjeffer nemlig på alle som går forbi", "de": "bellt nämlich jeden an, der vorbeigeht" },
+      { "no": "på besøk", "de": "zu Besuch" },
+      { "no": "strikketøyet sitt", "de": "ihr Strickzeug" },
+      { "no": "likevel", "de": "trotzdem" },
+      { "no": "fleksitid", "de": "Gleitzeit" },
+      { "no": "retter prøvene", "de": "korrigiert die Klassenarbeiten" },
+      { "no": "hver voksen sin faste middagsdag", "de": "jeder Erwachsene seinen festen Kochtag" },
+      { "no": "det Pers tur", "de": "ist Per dran" },
+      { "no": "matteleksene hans", "de": "seine Mathehausaufgaben" },
+      { "no": "Begge to", "de": "Beide" },
+      { "no": "venninna si", "de": "ihre Freundin" },
+      { "no": "på samme tid", "de": "zugleich" }
+    ]
+  },
+  "extra": [
+    {
+      "id": "x15a",
+      "title": "Familie og arbeidsliv i Norge",
+      "titleDe": "Familie und Arbeitsleben in Norwegen",
+      "kind": "info",
+      "intro": "Beide Eltern berufstätig, Kindergarten ab einem Jahr, Papa mit Kinderwagen: wie Norweger Familie und Arbeit verbinden.",
+      "lines": [
+        { "no": "I Norge jobber de fleste kvinner og menn utenfor hjemmet. Det er helt vanlig at begge foreldrene har jobb, men mange kvinner jobber deltid. For mange er en vanlig arbeidsuke 37,5 timer. Arbeidsdagen begynner ofte klokka åtte og slutter klokka fire, og mange har fleksitid. Da kan de hente barna i barnehagen om ettermiddagen.", "de": "In Norwegen arbeiten die meisten Frauen und Männer außer Haus. Es ist ganz normal, dass beide Eltern berufstätig sind, aber viele Frauen arbeiten Teilzeit. Für viele hat eine normale Arbeitswoche 37,5 Stunden. Der Arbeitstag beginnt oft um acht und endet um vier, und viele haben Gleitzeit. So können sie die Kinder am Nachmittag aus dem Kindergarten abholen." },
+        { "no": "De fleste barn mellom ett og fem år går i barnehage. Skolen begynner det året barna fyller seks. Etter skolen kan de yngste elevene være på SFO, skolefritidsordningen, resten av ettermiddagen.", "de": "Die meisten Kinder zwischen einem und fünf Jahren gehen in den Kindergarten. Die Schule beginnt in dem Jahr, in dem die Kinder sechs werden. Nach dem Unterricht können die jüngsten Schüler den Rest des Nachmittags in der SFO verbringen, der Nachmittagsbetreuung der Schule." },
+        { "no": "Når et barn blir født, kan både mor og far ta foreldrepermisjon med lønn. En del av permisjonen er bare for far – fedrekvoten. Norge innførte fedrekvoten allerede i 1993. I dag er det helt vanlig å se fedre med barnevogn midt på dagen.", "de": "Wenn ein Kind geboren wird, können Mutter und Vater bezahlte Elternzeit nehmen. Ein Teil der Elternzeit ist nur für den Vater da – die Väterquote. Norwegen hat die Väterquote schon 1993 eingeführt. Heute ist es ganz normal, mitten am Tag Väter mit Kinderwagen zu sehen." },
+        { "no": "Mange familier spiser middag tidlig, rundt klokka fem. Etterpå er det trening, korps eller lekser, og mange foreldre kjører barna sine hit og dit hele kvelden. Besteforeldrene hjelper ofte til, for eksempel når et barn er sykt.", "de": "Viele Familien essen früh zu Abend, gegen fünf Uhr. Danach gibt es Training, Musikkapelle oder Hausaufgaben, und viele Eltern fahren ihre Kinder den ganzen Abend hin und her. Die Großeltern helfen oft mit, zum Beispiel, wenn ein Kind krank ist." },
+        { "no": "Familiene ser også forskjellige ut. Mange par er ikke gift, men bor sammen som samboere. Mange barn har to hjem, og i nye familier snakker man om bonusbarn, bonusmamma og bonuspappa. Likestilling – at kvinner og menn skal ha de samme mulighetene – er en viktig verdi i Norge.", "de": "Die Familien sehen auch unterschiedlich aus. Viele Paare sind nicht verheiratet, sondern leben als samboere (Lebenspartner) zusammen. Viele Kinder haben zwei Zuhause, und in Patchworkfamilien spricht man von Bonuskindern, Bonusmama und Bonuspapa. Gleichstellung – dass Frauen und Männer die gleichen Chancen haben sollen – ist in Norwegen ein wichtiger Wert." }
+      ],
+      "glossary": [
+        { "no": "utenfor hjemmet", "de": "außer Haus" },
+        { "no": "deltid", "de": "Teilzeit" },
+        { "no": "arbeidsuke", "de": "Arbeitswoche" },
+        { "no": "Arbeidsdagen", "de": "Der Arbeitstag" },
+        { "no": "fleksitid", "de": "Gleitzeit" },
+        { "no": "hente barna", "de": "die Kinder abholen" },
+        { "no": "barnehagen", "de": "der Kindergarten" },
+        { "no": "fyller seks", "de": "sechs werden" },
+        { "no": "de yngste elevene", "de": "die jüngsten Schüler" },
+        { "no": "SFO", "de": "Nachmittagsbetreuung an der Schule" },
+        { "no": "skolefritidsordningen", "de": "die Nachmittagsbetreuung der Schule" },
+        { "no": "resten av ettermiddagen", "de": "den Rest des Nachmittags" },
+        { "no": "blir født", "de": "geboren wird" },
+        { "no": "foreldrepermisjon med lønn", "de": "bezahlte Elternzeit" },
+        { "no": "fedrekvoten", "de": "die Väterquote (Teil der Elternzeit nur für Väter)" },
+        { "no": "innførte", "de": "führte ein" },
+        { "no": "fedre", "de": "Väter" },
+        { "no": "barnevogn", "de": "Kinderwagen" },
+        { "no": "midt på dagen", "de": "mitten am Tag" },
+        { "no": "trening", "de": "Training" },
+        { "no": "hit og dit", "de": "hin und her" },
+        { "no": "hjelper ofte til", "de": "helfen oft mit" },
+        { "no": "forskjellige", "de": "unterschiedlich" },
+        { "no": "par", "de": "Paare" },
+        { "no": "samboere", "de": "unverheiratete Lebenspartner" },
+        { "no": "bonusbarn", "de": "Bonuskind (Stiefkind)" },
+        { "no": "Likestilling", "de": "Gleichstellung" },
+        { "no": "mulighetene", "de": "die Möglichkeiten, Chancen" },
+        { "no": "verdi", "de": "Wert" }
+      ]
+    }
+  ],
+  "wk": {
+    "title": "Slekt og familie",
+    "titleDe": "Verwandtschaft und Familie",
+    "phrases": [
+      { "no": "Hvor mange søsken har du?", "de": "Wie viele Geschwister hast du?", "note": "søsken = Geschwister; ein Wort für Brüder und Schwestern zusammen." },
+      { "no": "Jeg har en bror og ei søster.", "de": "Ich habe einen Bruder und eine Schwester." },
+      { "no": "Jeg er enebarn.", "de": "Ich bin Einzelkind." },
+      { "no": "Er dere i slekt?", "de": "Seid ihr verwandt?" },
+      { "no": "Vi er i slekt på morssiden.", "de": "Wir sind mütterlicherseits verwandt." },
+      { "no": "Farmor er fars mor, og mormor er mors mor.", "de": "Farmor ist die Mutter des Vaters, mormor die Mutter der Mutter.", "note": "Im Norwegischen siehst du sofort, ob Oma und Opa von der Vater- oder der Mutterseite sind: farmor, farfar, mormor, morfar." },
+      { "no": "Hun er kusina mi, og han er fetteren min.", "de": "Sie ist meine Cousine, und er ist mein Cousin." },
+      { "no": "De er samboere.", "de": "Sie leben unverheiratet zusammen.", "note": "samboer = Lebensgefährte, Lebensgefährtin – in Norwegen sehr verbreitet." },
+      { "no": "Hun er gift, og han er skilt.", "de": "Sie ist verheiratet, und er ist geschieden.", "note": "Falscher Freund: gift (Adjektiv) = verheiratet. Das Substantiv en gift bedeutet dagegen wirklich »Gift«." },
+      { "no": "Han er svigersønnen deres.", "de": "Er ist ihr Schwiegersohn." },
+      { "no": "De har tre barnebarn.", "de": "Sie haben drei Enkelkinder." },
+      { "no": "Hun venter barn.", "de": "Sie bekommt ein Kind / ist schwanger." },
+      { "no": "Han ligner på faren sin.", "de": "Er sieht seinem Vater ähnlich." },
+      { "no": "Eplet faller ikke langt fra stammen.", "de": "Der Apfel fällt nicht weit vom Stamm." },
+      { "no": "Blod er tykkere enn vann.", "de": "Blut ist dicker als Wasser." },
+      { "no": "Hun er bonusmammaen min.", "de": "Sie ist meine Stiefmutter.", "note": "bonus- ist das freundliche Wort für die Stieffamilie: bonusbarn, bonuspappa, bonussøsken." },
+      { "no": "Hele slekta kommer i bryllupet.", "de": "Die ganze Verwandtschaft kommt zur Hochzeit." },
+      { "no": "Vi er tvillinger.", "de": "Wir sind Zwillinge." },
+      { "no": "Hils familien din!", "de": "Grüß deine Familie!" }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g15_sin",
+      "title": "Das reflexive Possessivpronomen sin",
+      "titleNo": "refleksivt eiendomspronomen",
+      "summary": "sin/si/sitt/sine zeigt auf das Subjekt desselben Satzes zurück: Per vasker bilen sin (sein eigenes Auto) – Per vasker bilen hans (das Auto eines anderen).",
+      "sections": [
+        {
+          "h": "sin oder hans?",
+          "body": "Im Deutschen ist »Per wäscht sein Auto« mehrdeutig – sein eigenes oder das eines anderen? Das Norwegische unterscheidet genau:\n\n• **Per vasker bilen sin.** – Per wäscht sein (eigenes) Auto.\n• **Per vasker bilen hans.** – Per wäscht sein Auto (das eines anderen Mannes, z. B. Olas).\n• **Kari leser boka si.** – Kari liest ihr (eigenes) Buch.\n• **Kari leser boka hennes.** – Kari liest ihr Buch (das einer anderen Frau, z. B. Annas).\n\n**sin** benutzt du nur, wenn der Besitzer das **Subjekt desselben Satzes** und eine **3. Person** ist (han, hun, den, det, de, ein Name, ein Substantiv). Bei **jeg, du, vi, dere** bleibt alles wie in Lektion 13: **Jeg vasker bilen min. Vi vasker bilen vår. Vasker dere bilen deres?**\n\n**sin** richtet sich wie **min** nach dem Ding: **sin** (en-Wort), **si** (ei-Wort), **sitt** (et-Wort), **sine** (Plural). **si** gehört zur a-Form (**boka si**); mit der en-Form heißt es **boken sin**, und auch **boka sin** ist erlaubt.",
+          "table": [
+            ["", "en-Wort", "ei-Wort", "et-Wort", "Plural"],
+            ["eigenes (reflexiv)", "**bilen sin**", "**boka si**", "**huset sitt**", "**skoene sine**"],
+            ["eines anderen", "**bilen hans / hennes / deres**", "**boka hans / hennes / deres**", "**huset hans / hennes / deres**", "**skoene hans / hennes / deres**"]
+          ]
+        },
+        {
+          "h": "Nie im Subjekt",
+          "body": "**sin** zeigt auf das Subjekt zurück – darum kann es nie selbst im Subjekt stehen:\n\n• **Kari og broren hennes snakker i telefonen.** (nicht *broren sin*)\n• **Ola og søstera hans ser på TV.**\n• **Døra deres står alltid åpen.**\n\nIm Nebensatz zählt das Subjekt des Nebensatzes:\n\n• **Kari er sur fordi Per har gitt bort jakka hennes.** – Subjekt im Nebensatz ist Per; die Jacke gehört Kari → hennes.\n• **Ola sier at han ikke finner nøklene sine.** – Subjekt im Nebensatz ist han (= Ola) → sine.\n\nUnd im Objekt einer anderen Person: **Kari hjelper Ola med matteleksene hans.** – Die Hausaufgaben gehören Ola, nicht dem Subjekt Kari → hans."
+        },
+        {
+          "h": "Plural, hver sin und hvem sin",
+          "body": "Bei einem Subjekt im Plural heißt **sin** »ihr eigener / ihre eigenen«: **Barna gjør leksene sine.** – Die Kinder machen ihre Hausaufgaben. Dagegen: **Barna gjør leksene deres** – die Kinder machen die Hausaufgaben von anderen (oder: von euch!).\n\nPraktisch ist **hver sin** = jeder sein eigenes: **De har hver sin telefon.** – Jeder hat sein eigenes Telefon. **Hos familien Nygård har hver voksen sin faste middagsdag.**\n\nUmgangssprachlich hörst du **sin** auch als Genitiv: **Kari sin jakke** (Karis Jacke), **Hvem sin jakke er det?** (Wessen Jacke ist das?). Schriftlich nimmt man lieber **Karis jakke** oder **jakka til Kari**."
+        }
+      ],
+      "drills": [
+        { "prompt": "Per smører matpakken ___ hver morgen. (seine eigene)", "de": "Per schmiert sich jeden Morgen sein Pausenbrot.", "answer": ["sin"], "explain": "Besitzer = Subjekt Per → reflexiv: matpakken sin (en-Wort)." },
+        { "prompt": "Kari retter prøvene til elevene ___. (ihre eigenen Schüler)", "de": "Kari korrigiert die Klassenarbeiten ihrer Schüler.", "answer": ["sine"], "explain": "Die Schüler gehören zum Subjekt Kari → elevene sine (Plural)." },
+        { "prompt": "Ola finner aldri nøklene ___. (seine eigenen)", "de": "Ola findet nie seine Schlüssel.", "answer": ["sine"], "explain": "Subjekt Ola ist der Besitzer → sine (Plural)." },
+        { "prompt": "Anna sover etter nattevakta ___. (ihre eigene)", "de": "Anna schläft nach ihrer Nachtschicht.", "answer": ["si", "sin"], "explain": "ei nattevakt – nattevakta → si; sin ist auch erlaubt." },
+        { "prompt": "Bestemor har alltid strikketøyet ___ med seg. (ihr eigenes)", "de": "Oma hat immer ihr Strickzeug dabei.", "answer": ["sitt"], "explain": "et strikketøy → sitt." },
+        { "prompt": "Jonas låner sykkelen ___. (= Olas Fahrrad)", "de": "Jonas leiht sich sein Fahrrad (Olas Fahrrad).", "answer": ["hans"], "explain": "Das Fahrrad gehört Ola, nicht dem Subjekt Jonas → hans." },
+        { "prompt": "Kari og broren ___ snakker i telefonen hver søndag. (Karis Bruder)", "de": "Kari und ihr Bruder telefonieren jeden Sonntag.", "answer": ["hennes"], "explain": "sin kann nie im Subjekt stehen. broren hennes ist Teil des Subjekts." },
+        { "prompt": "Jeg pakker tingene ___. (meine)", "de": "Ich packe meine Sachen.", "answer": ["mine"], "explain": "sin gibt es nur in der 3. Person. Bei jeg: mine." },
+        { "prompt": "Barna gjør leksene ___ ved kjøkkenbordet. (ihre eigenen)", "de": "Die Kinder machen ihre Hausaufgaben am Küchentisch.", "answer": ["sine"], "explain": "Subjekt barna (3. Person Plural) ist der Besitzer → sine. leksene deres hieße: die Hausaufgaben von anderen." },
+        { "prompt": "Kari er sur fordi Per har gitt bort jakka ___. (= Karis Jacke)", "de": "Kari ist sauer, weil Per ihre Jacke verschenkt hat.", "answer": ["hennes"], "explain": "Im Nebensatz ist Per das Subjekt; die Jacke gehört Kari → hennes." },
+        { "prompt": "Vi besøker besteforeldrene ___ i påsken. (unsere)", "de": "Wir besuchen über Ostern unsere Großeltern.", "answer": ["våre"], "explain": "1. Person Plural → våre, nie sin." },
+        { "prompt": "Familien Nygård reiser til hytta ___ i påsken. (ihre eigene)", "de": "Familie Nygård fährt über Ostern zu ihrer Hütte.", "answer": ["si", "sin"], "explain": "Subjekt familien Nygård ist der Besitzer; ei hytte – hytta → si (sin ist auch erlaubt)." }
+      ]
+    },
+    {
+      "id": "g15_ubestemte_pronomen",
+      "title": "Indefinitpronomen",
+      "titleNo": "ubestemte pronomen",
+      "summary": "all/alt/alle, hver/hvert, begge, annen/annet/andre, noen/noe, ingen/ingenting – und warum es »Jeg har ikke sett noen« heißt.",
+      "sections": [
+        {
+          "h": "all, hver, begge",
+          "body": "• **all** (en/ei-Wort), **alt** (et-Wort), **alle** (Plural): **all maten, alt brødet, alle barna**. Allein stehend: **Alt er klart.** (Alles ist fertig.) **Alle er hjemme.** (Alle sind zu Hause.)\n• Meist folgt die **bestimmte Form**: **alle barna** = alle (diese) Kinder; **alle barn** = alle Kinder überhaupt.\n• »den ganzen Tag« heißt **hele dagen**, nicht *all dagen*: **hele uka, hele familien**.\n• **hver** (en/ei-Wort), **hvert** (et-Wort) = jeder, jede, jedes – mit **unbestimmtem** Substantiv im Singular: **hver dag, hver morgen, hvert år**. Verstärkt: **hver eneste dag** – jeden einzelnen Tag.\n• **begge** = beide: **begge barna, begge foreldrene, begge to** (alle beide), **begge deler** (beides)."
+        },
+        {
+          "h": "annen, noen, noe",
+          "body": "• **annen** (en/ei-Wort), **annet** (et-Wort), **andre** (Plural und bestimmt): **en annen gang, et annet sted, andre folk, den andre dagen, vi andre** (wir anderen). Achtung: **andre** heißt auch »zweiter« (Lektion 11).\n• **noen** = jemand; einige (Zählbares): **Er det noen hjemme? Jeg har noen venner i Bergen.**\n• **noe** = etwas; vor Unzählbarem: **Vil du ha noe å drikke? Har du noe melk?**\n• In Fragen steht **noen/noe** oft dort, wo das Deutsche gar kein Wort braucht: **Har du noen søsken?** – Hast du Geschwister?",
+          "table": [
+            ["", "Personen / Zählbares", "Dinge / Menge"],
+            ["positiv", "**noen** (jemand, einige)", "**noe** (etwas)"],
+            ["negativ", "**ingen** = ikke noen", "**ingenting** = ikke noe"],
+            ["alle / alles", "**alle**", "**alt**"]
+          ]
+        },
+        {
+          "h": "ingen, ingenting – und ikke noen",
+          "body": "**ingen** = niemand, kein(e); **ingenting** = nichts. Sie bedeuten dasselbe wie **ikke noen / ikke noe**:\n\n• **Ingen er hjemme.** = **Det er ikke noen hjemme.**\n• **Jeg har ingen penger.** = **Jeg har ikke noen penger.**\n• **Jeg forstår ingenting.** = **Jeg forstår ikke noe.**\n\nWichtige Regel: Gibt es ein Hilfs- oder Modalverb (Perfekt, kan, vil, må …), steht **ingen/ingenting** normalerweise nicht als Objekt hinter dem Partizip oder Infinitiv. Dann sagt man **ikke … noen / noe**:\n\n• **Jeg har ikke sett noen.** – Ich habe niemanden gesehen. (nicht *Jeg har sett ingen*)\n• **Ola har ikke gjort noe i dag.** – Ola hat heute nichts gemacht.\n• **Vi kan ikke gjøre noe.** – Wir können nichts machen."
+        }
+      ],
+      "drills": [
+        { "prompt": "___ foreldrene jobber. (beide)", "de": "Beide Eltern arbeiten.", "answer": ["Begge"], "explain": "begge = beide, mit bestimmter Form: begge foreldrene." },
+        { "prompt": "Per går tur med Bamse ___ morgen. (jeden)", "de": "Per geht jeden Morgen mit Bamse Gassi.", "answer": ["hver"], "explain": "en morgen → hver morgen (unbestimmter Singular)." },
+        { "prompt": "___ år reiser familien til hytta i påsken. (jedes)", "de": "Jedes Jahr fährt die Familie über Ostern zur Hütte.", "answer": ["Hvert"], "explain": "et år → hvert år." },
+        { "prompt": "Hvem har drukket ___ melka? (die ganze)", "de": "Wer hat die ganze Milch getrunken?", "answer": ["all"], "hint": "all / alt / alle", "explain": "melk ist ein en/ei-Wort und unzählbar → all melka." },
+        { "prompt": "Er det ___ hjemme? (jemand)", "de": "Ist jemand zu Hause?", "answer": ["noen"], "explain": "noen = jemand." },
+        { "prompt": "Vil du ha ___ å spise? (etwas)", "de": "Möchtest du etwas zu essen?", "answer": ["noe"], "explain": "noe = etwas." },
+        { "prompt": "Det er ___ hjemme. (niemand)", "de": "Es ist niemand zu Hause.", "answer": ["ingen", "ikke noen"], "explain": "ingen = ikke noen = niemand." },
+        { "prompt": "Ola har ikke gjort ___ i dag. (nichts)", "de": "Ola hat heute nichts gemacht.", "answer": ["noe"], "explain": "Mit Hilfsverb (har gjort) sagt man ikke … noe, nicht *har gjort ingenting." },
+        { "prompt": "Jeg har ikke sett ___ i dag. (niemanden)", "de": "Ich habe heute niemanden gesehen.", "answer": ["noen"], "explain": "ikke … noen = niemand(en); mit Perfekt nicht *har sett ingen." },
+        { "prompt": "Kari og Ola går ikke på samme skole. Kari jobber på ___ skole. (einer anderen)", "de": "Kari und Ola sind nicht an derselben Schule. Kari arbeitet an einer anderen Schule.", "answer": ["en annen"], "explain": "en skole → en annen skole." },
+        { "prompt": "___ dag er helt lik. (kein)", "de": "Kein Tag ist genau gleich.", "answer": ["Ingen"], "explain": "ingen = kein(e), für alle Geschlechter." },
+        { "prompt": "Jeg forstår ___! (nichts)", "de": "Ich verstehe nichts!", "answer": ["ingenting", "ikke noe"], "explain": "ingenting = ikke noe = nichts. Ohne Hilfsverb geht beides." }
+      ]
+    },
+    {
+      "id": "g15_synes_tro_tenke",
+      "title": "synes, tro und tenke",
+      "titleNo": "synes, tro og tenke",
+      "summary": "synes = finden (aus eigener Erfahrung), tro = glauben, vermuten, tenke = denken, nachdenken – und tenke å = vorhaben.",
+      "sections": [
+        {
+          "h": "Drei Verben für »denken«",
+          "body": "Im Deutschen sagt man oft »ich denke«, wo das Norwegische genau unterscheidet:\n\n• **synes**: Du hast es selbst erlebt, gesehen, geschmeckt – es ist dein Urteil oder Geschmack: **Jeg synes Tromsø er vakker.** Fragen: **Hva synes du om …?** – Was hältst du von …?\n• **tro**: Du weißt es nicht sicher, oder es geht um die Zukunft: **Jeg tror bussen er sen.** Auch: glauben an – **Tror du på troll?**\n• **tenke**: denken, nachdenken: **Hva tenker du på?** – Woran denkst du? **tenke seg om** = überlegen. **tenke å** = vorhaben: **Jeg tenker å reise hjem i jula.**",
+          "table": [
+            ["Verb", "Bedeutung", "Beispiel"],
+            ["**synes**", "finden, meinen (eigene Erfahrung)", "**Jeg synes filmen er god.** – Ich finde den Film gut."],
+            ["**tro**", "glauben, vermuten", "**Jeg tror det regner i morgen.** – Ich glaube, morgen regnet es."],
+            ["**tenke på**", "denken an", "**Hun tenker på familien.** – Sie denkt an die Familie."],
+            ["**tenke å**", "vorhaben", "**Ola tenker å bli ingeniør.** – Ola hat vor, Ingenieur zu werden."]
+          ]
+        },
+        {
+          "h": "Formen und typische Fehler",
+          "body": "**synes** ist ein s-Verb: Infinitiv und Präsens sind gleich (**å synes, jeg synes**), Präteritum **syntes**, Perfekt **har syntes**. **tro – trodde – har trodd**, **tenke – tenkte – har tenkt**.\n\n• *Jeg tenker at filmen er god* hört man heute im Alltag, aber für dein Urteil ist **synes** richtig: **Jeg synes at filmen er god.**\n• *Jeg synes det blir regn* – über die Zukunft hast du keine Erfahrung: **Jeg tror det blir regn.**\n• Hast du etwas nicht selbst erlebt, nimm **tro**: **Er filmen god? – Jeg tror det, men jeg har ikke sett den.**\n• **at** kann nach allen drei Verben wegfallen: **Jeg tror (at) han kommer.**\n• Verneint: **Jeg synes ikke det.** – Das finde ich nicht. **Jeg tror ikke det.** – Das glaube ich nicht.\n\nDazu kommt **mene** = meinen, der Ansicht sein (oft bei Argumenten): **Kari mener at alle må hjelpe til hjemme.**"
+        }
+      ],
+      "drills": [
+        { "prompt": "Jeg ___ at Pers fiskegrateng er veldig god. (finde)", "de": "Ich finde, dass Pers Fischgratin sehr gut ist.", "answer": ["synes"], "explain": "Eigene Erfahrung (du hast es gegessen) → synes. Achtung: finne heißt nur »finden« im Sinne von entdecken." },
+        { "prompt": "Jeg ___ det blir regn i morgen. (glaube)", "de": "Ich glaube, morgen gibt es Regen.", "answer": ["tror"], "explain": "Vermutung über die Zukunft → tro." },
+        { "prompt": "Susanne ___ ofte på Matthias. (denkt an)", "de": "Susanne denkt oft an Matthias.", "answer": ["tenker"], "explain": "tenke på = denken an." },
+        { "prompt": "Ola ___ å bli ingeniør. (hat vor)", "de": "Ola hat vor, Ingenieur zu werden.", "answer": ["tenker"], "explain": "tenke å + Infinitiv = vorhaben, planen." },
+        { "prompt": "Hva ___ du om den nye læreren? (findest)", "de": "Was hältst du von dem neuen Lehrer?", "answer": ["synes"], "explain": "Nach der Meinung fragen: Hva synes du om …?" },
+        { "prompt": "___ du på troll, bestemor? (glaubst)", "de": "Glaubst du an Trolle, Oma?", "answer": ["Tror"], "explain": "tro på = glauben an." },
+        { "prompt": "Kari ___ at middagen var for salt i går. (fand)", "de": "Kari fand, dass das Essen gestern zu salzig war.", "answer": ["syntes"], "explain": "Präteritum von synes: syntes." },
+        { "prompt": "Anna ___ at nøklene lå på bordet, men de lå i jakka. (glaubte)", "de": "Anna glaubte, dass die Schlüssel auf dem Tisch lagen, aber sie lagen in der Jacke.", "answer": ["trodde"], "explain": "tro – trodde – trodd (Klasse 4)." },
+        { "prompt": "Har du ___ på hva du vil gjøre etter skolen? (nachgedacht)", "de": "Hast du darüber nachgedacht, was du nach der Schule machen willst?", "answer": ["tenkt"], "explain": "tenke på = nachdenken über; Perfekt: har tenkt." },
+        { "prompt": "Er filmen god? – Jeg ___ det, men jeg har ikke sett den. (glaube)", "de": "Ist der Film gut? – Ich glaube schon, aber ich habe ihn nicht gesehen.", "answer": ["tror"], "explain": "Ohne eigene Erfahrung → tro, nicht synes." },
+        { "prompt": "Bestemor fryser. Hun ___ at det er kaldt i stua. (findet)", "de": "Oma friert. Sie findet, dass es im Wohnzimmer kalt ist.", "answer": ["synes"], "explain": "Eigene Empfindung → synes." }
+      ]
+    }
+  ],
+  "tf": [
+    { "s": "Kari står opp først i familien.", "de": "Kari steht als Erste in der Familie auf.", "a": true, "why": "„Kari er alltid den første som står opp.“" },
+    { "s": "Per smører matpakken til Ola hver morgen.", "de": "Per schmiert jeden Morgen Olas Pausenbrot.", "a": false, "why": "Per schmiert sein eigenes Pausenbrot (matpakken sin)." },
+    { "s": "Per tror at Bamse kan klokka.", "de": "Per glaubt, dass Bamse die Uhr lesen kann.", "a": true, "why": "Der Hund wartet jeden Morgen um halb sieben an der Tür." },
+    { "s": "Ola finner alltid nøklene sine.", "de": "Ola findet immer seine Schlüssel.", "a": false, "why": "Er findet nie seine Schlüssel oder sein Ladegerät." },
+    { "s": "Anna går nattevakter på sykehuset denne uka.", "de": "Anna macht diese Woche Nachtdienste im Krankenhaus.", "a": true, "why": "Sie hat Praktikum im Krankenhaus Ullevål und schläft tagsüber." },
+    { "s": "Bestemor Ingrid strikker en genser til Ola.", "de": "Oma Ingrid strickt Ola einen Pullover.", "a": false, "why": "Sie strickt Susanne eine Mütze für den Winter in Tromsø." },
+    { "s": "Ola lager middag på fredager.", "de": "Ola kocht freitags.", "a": true, "why": "Und dann gibt es immer Tacos." },
+    { "s": "Ola legger seg tidlig og sover hele natta.", "de": "Ola geht früh ins Bett und schläft die ganze Nacht.", "a": false, "why": "Er sagt, dass er schläft, spielt aber bis Mitternacht am Computer." }
+  ],
+  "questions": [
+    { "q": "Hva gjør Kari før de andre står opp?", "qDe": "Was macht Kari, bevor die anderen aufstehen?", "answer": "Hun lager kaffe og leser avisa på nettbrettet sitt.", "answerDe": "Sie kocht Kaffee und liest die Zeitung auf ihrem Tablet.", "keywords": [["kaffe"], ["avisa", "avis", "avisen"]] },
+    { "q": "Hvorfor tror Per at Bamse kan klokka?", "qDe": "Warum glaubt Per, dass Bamse die Uhr lesen kann?", "answer": "Bamse venter ved døra klokka halv sju hver morgen.", "answerDe": "Bamse wartet jeden Morgen um halb sieben an der Tür.", "keywords": [["venter", "vente", "sitter"], ["døra", "døren", "dør"]] },
+    { "q": "Hva tenker Ola å bli?", "qDe": "Was hat Ola vor zu werden?", "answer": "Han tenker å bli ingeniør eller fotballproff.", "answerDe": "Er hat vor, Ingenieur oder Fußballprofi zu werden.", "keywords": [["ingeniør", "fotballproff", "fotballspiller"]] },
+    { "q": "Hvorfor er det ikke helt stille i huset når Anna sover?", "qDe": "Warum ist es im Haus nicht ganz still, wenn Anna schläft?", "answer": "Bamse bjeffer på alle som går forbi huset.", "answerDe": "Bamse bellt jeden an, der am Haus vorbeigeht.", "keywords": [["Bamse", "hunden"], ["bjeffer", "bjeffe"]] },
+    { "q": "Hvem lager middag hos familien Nygård?", "qDe": "Wer kocht bei Familie Nygård?", "answer": "Hver voksen har sin faste middagsdag, og Ola lager taco på fredager.", "answerDe": "Jeder Erwachsene hat seinen festen Kochtag, und Ola macht freitags Tacos.", "keywords": [["hver", "alle"], ["dag", "middagsdag", "fredager", "fredag"]] },
+    { "q": "Hva sier Kari til Susanne?", "qDe": "Was sagt Kari zu Susanne?", "answer": "Hun sier at døra deres alltid står åpen for henne.", "answerDe": "Sie sagt, dass ihre Tür immer für sie offen steht.", "keywords": [["døra", "døren", "dør"], ["åpen"]] }
+  ],
+  "find": [
+    { "de": "ihre festen Gewohnheiten", "answer": ["sine faste vaner"] },
+    { "de": "auf ihrem Tablet", "answer": ["på nettbrettet sitt"] },
+    { "de": "sein Pausenbrot", "answer": ["matpakken sin"] },
+    { "de": "an seine Tür", "answer": ["på døra hans"] },
+    { "de": "seine Schlüssel", "answer": ["nøklene sine"] },
+    { "de": "wir anderen", "answer": ["vi andre"] },
+    { "de": "jeder Erwachsene", "answer": ["hver voksen"] },
+    { "de": "beide", "answer": ["Begge to"] }
+  ],
+  "translate": [
+    { "de": "Per wäscht sein Auto.", "no": ["Per vasker bilen sin."], "hint": "sein eigenes Auto" },
+    { "de": "Kari wäscht sein Auto.", "no": ["Kari vasker bilen hans."], "hint": "Das Auto gehört Per." },
+    { "de": "Ola und seine Schwester sehen fern.", "no": ["Ola og søstera hans ser på TV.", "Ola og søsteren hans ser på TV.", "Ola og søster hans ser på TV.", "Ola og søstera hans ser TV.", "Ola og søsteren hans ser TV."] },
+    { "de": "Sie denkt oft an ihre Familie.", "no": ["Hun tenker ofte på familien sin."], "hint": "ihre eigene Familie" },
+    { "de": "Alle Kinder gehen zur Schule.", "no": ["Alle barna går på skolen.", "Alle barn går på skole.", "Alle barna går på skole."] },
+    { "de": "Ich glaube, es regnet morgen.", "no": ["Jeg tror det regner i morgen.", "Jeg tror at det regner i morgen.", "Jeg tror det kommer til å regne i morgen.", "Jeg tror at det kommer til å regne i morgen.", "Jeg tror det blir regn i morgen."] },
+    { "de": "Ich finde, das Essen ist gut.", "no": ["Jeg synes maten er god.", "Jeg synes at maten er god."] },
+    { "de": "Niemand ist zu Hause.", "no": ["Ingen er hjemme.", "Det er ingen hjemme.", "Det er ikke noen hjemme."] },
+    { "de": "Hast du etwas gegessen?", "no": ["Har du spist noe?"] },
+    { "de": "Ich habe niemanden gesehen.", "no": ["Jeg har ikke sett noen.", "Jeg så ingen.", "Jeg så ikke noen."] }
+  ],
+  "summary": [
+    { "prompt": "Kari står opp først og leser avisa på nettbrettet ___.", "de": "Kari steht als Erste auf und liest die Zeitung auf ihrem Tablet.", "answer": ["sitt"] },
+    { "prompt": "Per ___ at Bamse kan klokka.", "de": "Per glaubt, dass Bamse die Uhr lesen kann.", "answer": ["tror"] },
+    { "prompt": "Ola finner aldri nøklene ___.", "de": "Ola findet nie seine Schlüssel.", "answer": ["sine"] },
+    { "prompt": "Anna sover om dagen, for hun går ___ på sykehuset.", "de": "Anna schläft tagsüber, denn sie macht im Krankenhaus Nachtdienste.", "answer": ["nattevakter"] },
+    { "prompt": "Ola ___ at han er for gammel for bestemors trollhistorier.", "de": "Ola findet, dass er für Omas Trollgeschichten zu alt ist.", "answer": ["synes"] },
+    { "prompt": "Etter middagen hjelper Kari Ola med leksene ___.", "de": "Nach dem Abendessen hilft Kari Ola bei seinen Hausaufgaben.", "answer": ["hans"] }
+  ],
+  "dictation": [1, 2, 10, 11],
+  "writing": {
+    "prompt": "Beschreibe einen ganz normalen Tag in deiner Familie oder deiner WG (90–110 Wörter): Wer steht wann auf? Wer macht was im Haushalt? Benutze sin/si/sitt/sine, hans/hennes und Wörter wie alle, hver, ingen. Sag auch, was du darüber denkst (synes, tror).",
+    "minWords": 90,
+    "useWords": ["sin", "sitt", "hver", "ingen", "synes"],
+    "checklist": [
+      { "de": "sin/si/sitt/sine", "keywords": ["sin", "sitt", "sine"] },
+      { "de": "Indefinitpronomen", "keywords": ["alle", "hver", "ingen", "noen", "begge", "ingenting"] },
+      { "de": "Meinung mit synes oder tror", "keywords": ["synes", "tror"] }
+    ],
+    "model": "Hos oss er hverdagen ganske rolig. Mamma står opp først og drikker kaffen sin på balkongen. Pappa sykler på jobb, og han tar alltid med seg matpakken sin. Lillebroren min går på skolen. Han glemmer ofte gymtøyet sitt, så mamma kjører det til skolen hans. Om kvelden spiser vi middag sammen, og hver person forteller noe fra dagen sin. Ingen får bruke mobilen ved bordet. Jeg synes det er en god regel, men broren min synes den er kjedelig. Etter middagen vasker pappa opp, og alle andre rydder. Jeg tror vi er en helt vanlig familie – men jeg synes vi er ganske spesielle!",
+    "modelDe": "Bei uns ist der Alltag ziemlich ruhig. Mama steht als Erste auf und trinkt ihren Kaffee auf dem Balkon. Papa fährt mit dem Rad zur Arbeit und nimmt immer sein Pausenbrot mit. Mein kleiner Bruder geht zur Schule. Er vergisst oft seine Sportsachen, deshalb fährt Mama sie zu seiner Schule. Abends essen wir zusammen, und jeder erzählt etwas von seinem Tag. Niemand darf am Tisch das Handy benutzen. Ich finde, das ist eine gute Regel, aber mein Bruder findet sie langweilig. Nach dem Essen spült Papa ab, und alle anderen räumen auf. Ich glaube, wir sind eine ganz normale Familie – aber ich finde, wir sind ziemlich besonders!"
+  }
+}

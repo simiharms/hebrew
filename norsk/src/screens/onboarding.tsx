@@ -27,7 +27,7 @@ export function Onboarding() {
     <main class="page onboarding">
       {step === 0 && (
         <div class="center">
-          <div class="hero">🌌</div>
+          <img class="app-icon" src="./icons/icon-192.png" alt="" width="96" height="96" />
           <h1>Velkommen!</h1>
           <p class="lead">Willkommen bei Nordlys – deiner Norwegisch-App zum Lehrbuch »Et år i Norge«.</p>
           {DEDICATION && <div class="card accent dedication">{DEDICATION}</div>}

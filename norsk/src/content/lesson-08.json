@@ -1,0 +1,341 @@
+{
+  "n": 8,
+  "level": "A2",
+  "title": "Middag med provokasjon",
+  "titleDe": "Abendessen mit Provokation",
+  "place": "Oslo, Sagene – bei Familie Nygård",
+  "goals": [
+    "Du kannst die wichtigsten unregelmäßigen Verben im Präteritum und Perfekt benutzen.",
+    "Du kannst nach der Uhrzeit fragen und sie sagen: Hvor mye er klokka?",
+    "Du verwendest Zeitangaben mit om, for … siden, i und på richtig.",
+    "Du kennst die norwegischen Tischsitten: Vær så god, Takk for maten, Velbekomme.",
+    "Du kannst höflich, aber bestimmt widersprechen."
+  ],
+  "text": {
+    "id": "t08",
+    "title": "Middag med provokasjon",
+    "titleDe": "Abendessen mit Provokation",
+    "kind": "prose",
+    "intro": "Sonntagsessen bei Familie Nygård: Karis Bruder, Onkel Arne aus Ålesund, ist zu Besuch – und er provoziert gern.",
+    "lines": [
+      { "no": "Søndag fikk familien Nygård besøk av onkel Arne fra Ålesund. Kari og Arne er bror og søster, men de er veldig forskjellige.", "de": "Am Sonntag bekam Familie Nygård Besuch von Onkel Arne aus Ålesund. Kari und Arne sind Bruder und Schwester, aber sie sind sehr verschieden." },
+      { "no": "Kari sa til Susanne: «Arne har ikke vært i Oslo på to år. Han liker å provosere, men han er snill innerst inne.»", "de": "Kari sagte zu Susanne: »Arne war seit zwei Jahren nicht in Oslo. Er provoziert gern, aber im Grunde ist er lieb.«" },
+      { "no": "Middagen var klokka fem, men Arne kom kvart over fem. Han ga Kari en pose klippfisk og så på Susanne. «Så du er tyskeren! Da var du sikkert presis klokka fem?»", "de": "Das Essen war um fünf Uhr, aber Arne kam um Viertel nach fünf. Er gab Kari eine Tüte Klippfisch und sah Susanne an. »Du bist also die Deutsche! Dann warst du sicher pünktlich um fünf da?«" },
+      { "no": "Susanne smilte. «På fredag kom jeg en halv time for sent til kurset. Men i dag kom du kvart over, Arne. Er det typisk for folk fra Ålesund?» Alle lo, og Arne gjorde store øyne.", "de": "Susanne lächelte. »Am Freitag kam ich eine halbe Stunde zu spät zum Kurs. Aber heute bist du um Viertel nach gekommen, Arne. Ist das typisch für Leute aus Ålesund?« Alle lachten, und Arne machte große Augen." },
+      { "no": "Fem på halv seks sa Kari: «Vær så god, maten er klar!» Det var laks og poteter.", "de": "Um fünf vor halb sechs sagte Kari: »Bitte zu Tisch, das Essen ist fertig!« Es gab Lachs und Kartoffeln." },
+      { "no": "Ola så på tallerkenen og sukket: «Fisk igjen?» «Der ser du», sa Arne. «Ungdommen i dag spiser aldri fisk. Da jeg var gutt, spiste vi fisk fem dager i uka!» «Det var for femti år siden, Arne», sa Per.", "de": "Ola sah auf seinen Teller und seufzte: »Schon wieder Fisch?« »Da siehst du's«, sagte Arne. »Die Jugend von heute isst nie Fisch. Als ich ein Junge war, haben wir an fünf Tagen in der Woche Fisch gegessen!« »Das war vor fünfzig Jahren, Arne«, sagte Per." },
+      { "no": "Arne drakk vin og begynte å snakke om olje. «Alle vil til Norge nå fordi vi har så mye oljepenger», sa han.", "de": "Arne trank Wein und fing an, über Öl zu reden. »Alle wollen jetzt nach Norwegen, weil wir so viel Ölgeld haben«, sagte er." },
+      { "no": "Susanne la fra seg gaffelen. «Jeg kom til Norge for å lære norsk, Arne. Jeg betaler husleie og mat selv, og jeg har ikke fått en eneste krone av oljepengene.»", "de": "Susanne legte die Gabel weg. »Ich bin nach Norwegen gekommen, um Norwegisch zu lernen, Arne. Ich bezahle Miete und Essen selbst, und ich habe keine einzige Krone vom Ölgeld bekommen.«" },
+      { "no": "Arne visste ikke hva han skulle si. Kari spurte: «Hvem vil ha saus?»", "de": "Arne wusste nicht, was er sagen sollte. Kari fragte: »Wer möchte Soße?«" },
+      { "no": "Halv sju kom desserten: en eplekake som Susanne bakte på lørdag. Arne tok to stykker. «Tysk eplekake? Den er faktisk ikke så verst.» Etterpå sa Kari: «Fra Arne er det nesten en kjærlighetserklæring.»", "de": "Um halb sieben kam der Nachtisch: ein Apfelkuchen, den Susanne am Samstag gebacken hatte. Arne nahm zwei Stücke. »Deutscher Apfelkuchen? Der ist tatsächlich gar nicht so schlecht.« Später sagte Kari: »Von Arne ist das fast eine Liebeserklärung.«" },
+      { "no": "De satt ved bordet i nesten tre timer. Bamse lå under bordet. Klokka sju reiste Ola seg. «Takk for maten! Jeg må gjøre lekser.» «Velbekomme», svarte Kari.", "de": "Sie saßen fast drei Stunden am Tisch. Bamse lag unter dem Tisch. Um sieben stand Ola auf. »Danke fürs Essen! Ich muss Hausaufgaben machen.« »Wohl bekomm's«, antwortete Kari." },
+      { "no": "Halv ti ringte Arne etter en taxi. «Den kommer om et kvarter.»", "de": "Um halb zehn rief Arne ein Taxi. »Es kommt in einer Viertelstunde.«" },
+      { "no": "Kvart på ti sto han i døra. «Takk for i kveld. Og Susanne – du er grei, du, for å være tysker.» Susanne lo: «Og du er hyggelig – for å være fra Ålesund.»", "de": "Um Viertel vor zehn stand er in der Tür. »Danke für den Abend. Und Susanne – du bist in Ordnung, für eine Deutsche.« Susanne lachte: »Und du bist nett – für jemanden aus Ålesund.«" },
+      { "no": "Klokka elleve gikk Susanne og la seg. Hun var trøtt, men fornøyd.", "de": "Um elf ging Susanne ins Bett. Sie war müde, aber zufrieden." }
+    ],
+    "glossary": [
+      { "no": "fikk familien Nygård besøk", "de": "bekam Familie Nygård Besuch" },
+      { "no": "bror og søster", "de": "Bruder und Schwester" },
+      { "no": "forskjellige", "de": "verschieden" },
+      { "no": "på to år", "de": "seit zwei Jahren (nach Verneinung)" },
+      { "no": "provosere", "de": "provozieren" },
+      { "no": "innerst inne", "de": "im Grunde, tief im Innern" },
+      { "no": "kvart over fem", "de": "Viertel nach fünf" },
+      { "no": "en pose klippfisk", "de": "eine Tüte Klippfisch (getrockneter Salzkabeljau, eine Spezialität aus Ålesund)" },
+      { "no": "så på Susanne", "de": "sah Susanne an" },
+      { "no": "tyskeren", "de": "die Deutsche (en tysker: ein Deutscher / eine Deutsche)" },
+      { "no": "presis", "de": "pünktlich" },
+      { "no": "en halv time for sent", "de": "eine halbe Stunde zu spät" },
+      { "no": "lo", "de": "lachten (le – lo – har ledd)" },
+      { "no": "gjorde store øyne", "de": "machte große Augen" },
+      { "no": "Fem på halv seks", "de": "fünf vor halb sechs (17.25 Uhr)" },
+      { "no": "Vær så god", "de": "Bitte schön! (hier: Bitte zu Tisch!)" },
+      { "no": "maten er klar", "de": "das Essen ist fertig" },
+      { "no": "tallerkenen", "de": "den Teller" },
+      { "no": "sukket", "de": "seufzte" },
+      { "no": "Der ser du", "de": "Da siehst du's" },
+      { "no": "Ungdommen i dag", "de": "die Jugend von heute" },
+      { "no": "fem dager i uka", "de": "an fünf Tagen in der Woche" },
+      { "no": "for femti år siden", "de": "vor fünfzig Jahren" },
+      { "no": "oljepenger", "de": "Ölgeld (Einnahmen aus dem Erdöl)" },
+      { "no": "la fra seg gaffelen", "de": "legte die Gabel weg" },
+      { "no": "husleie", "de": "die Miete" },
+      { "no": "en eneste krone", "de": "eine einzige Krone" },
+      { "no": "visste ikke hva han skulle si", "de": "wusste nicht, was er sagen sollte" },
+      { "no": "Halv sju", "de": "halb sieben" },
+      { "no": "desserten", "de": "der Nachtisch" },
+      { "no": "ikke så verst", "de": "gar nicht so schlecht" },
+      { "no": "kjærlighetserklæring", "de": "die Liebeserklärung" },
+      { "no": "reiste Ola seg", "de": "stand Ola auf" },
+      { "no": "Takk for maten!", "de": "Danke für das Essen!" },
+      { "no": "Velbekomme", "de": "Wohl bekomm's! (Antwort auf »Takk for maten«)" },
+      { "no": "ringte Arne etter en taxi", "de": "rief Arne ein Taxi" },
+      { "no": "om et kvarter", "de": "in einer Viertelstunde" },
+      { "no": "grei", "de": "nett, in Ordnung" },
+      { "no": "for å være tysker", "de": "für eine Deutsche (dafür, dass du Deutsche bist)" },
+      { "no": "gikk Susanne og la seg", "de": "ging Susanne ins Bett" }
+    ]
+  },
+  "extra": [
+    {
+      "id": "x08a",
+      "title": "Takk for maten!",
+      "titleDe": "Danke für das Essen!",
+      "kind": "info",
+      "intro": "Wann isst man in Norwegen, und was sagt man bei Tisch?",
+      "lines": [
+        { "no": "I Norge spiser mange fire måltider om dagen: frokost, lunsj, middag og kveldsmat. Til frokost spiser man ofte brødskiver med ost, syltetøy eller brunost.", "de": "In Norwegen essen viele vier Mahlzeiten am Tag: Frühstück, Lunch, Middag und Kveldsmat. Zum Frühstück isst man oft Brotscheiben mit Käse, Marmelade oder Brunost." },
+        { "no": "Lunsj spiser mange rundt klokka elleve eller tolv. Pausen er kort, ofte bare en halvtime, og mange har med seg matpakke hjemmefra.", "de": "Lunch essen viele gegen elf oder zwölf Uhr. Die Pause ist kurz, oft nur eine halbe Stunde, und viele bringen ein Lunchpaket von zu Hause mit." },
+        { "no": "Middag spiser nordmenn tidlig, ofte mellom klokka fire og seks. Det er et varmt måltid, for eksempel fisk eller kjøtt med poteter og grønnsaker. Om kvelden, rundt klokka åtte eller ni, spiser mange litt kveldsmat.", "de": "Middag, die warme Hauptmahlzeit, essen Norweger früh, oft zwischen vier und sechs Uhr. Es ist ein warmes Essen, zum Beispiel Fisch oder Fleisch mit Kartoffeln und Gemüse. Abends, gegen acht oder neun Uhr, essen viele noch eine Kleinigkeit: Kveldsmat." },
+        { "no": "Når maten er klar, sier verten: «Vær så god!» Da kan alle sette seg og begynne. Ved bordet sender man fatene rundt, og alle forsyner seg selv. Hvis potetene står langt unna, spør du: «Kan du sende meg potetene?»", "de": "Wenn das Essen fertig ist, sagt der Gastgeber: »Vær så god!« Dann können sich alle setzen und anfangen. Am Tisch reicht man die Schüsseln herum, und alle bedienen sich selbst. Wenn die Kartoffeln weit weg stehen, fragst du: »Kannst du mir die Kartoffeln reichen?«" },
+        { "no": "Etter måltidet sier alle «Takk for maten» – også barna, og også hjemme i familien. Svaret er «Velbekomme». Og når du treffer verten igjen etter noen dager, sier du: «Takk for sist!»", "de": "Nach dem Essen sagen alle »Takk for maten« – auch die Kinder und auch zu Hause in der Familie. Die Antwort ist »Velbekomme«. Und wenn du den Gastgeber nach ein paar Tagen wiedertriffst, sagst du: »Takk for sist!« (Danke für das letzte Mal!)" }
+      ],
+      "glossary": [
+        { "no": "måltider", "de": "Mahlzeiten" },
+        { "no": "om dagen", "de": "am Tag, pro Tag" },
+        { "no": "frokost", "de": "das Frühstück" },
+        { "no": "lunsj", "de": "der Lunch, das (kalte) Mittagessen" },
+        { "no": "middag", "de": "die warme Hauptmahlzeit (am Nachmittag)" },
+        { "no": "kveldsmat", "de": "das Abendbrot (spät am Abend)" },
+        { "no": "brødskiver", "de": "Brotscheiben" },
+        { "no": "syltetøy", "de": "die Marmelade" },
+        { "no": "rundt klokka elleve", "de": "gegen elf Uhr" },
+        { "no": "kort", "de": "kurz" },
+        { "no": "en halvtime", "de": "eine halbe Stunde" },
+        { "no": "matpakke", "de": "das Lunchpaket (belegte Brote)" },
+        { "no": "hjemmefra", "de": "von zu Hause" },
+        { "no": "nordmenn", "de": "Norweger" },
+        { "no": "mellom klokka fire og seks", "de": "zwischen vier und sechs Uhr" },
+        { "no": "et varmt måltid", "de": "eine warme Mahlzeit" },
+        { "no": "kjøtt", "de": "das Fleisch" },
+        { "no": "verten", "de": "der Gastgeber" },
+        { "no": "sette seg", "de": "sich setzen" },
+        { "no": "fatene", "de": "die Schüsseln, die Platten" },
+        { "no": "forsyner seg", "de": "bedienen sich" },
+        { "no": "langt unna", "de": "weit weg" },
+        { "no": "Kan du sende meg", "de": "Kannst du mir … reichen" },
+        { "no": "Svaret", "de": "die Antwort" },
+        { "no": "treffer", "de": "triffst" },
+        { "no": "Takk for sist", "de": "Danke für das letzte Mal" }
+      ]
+    }
+  ],
+  "wk": {
+    "title": "Måltider",
+    "titleDe": "Mahlzeiten",
+    "phrases": [
+      { "no": "Hva skal vi ha til middag?", "de": "Was gibt es zum Essen?", "note": "middag = warme Hauptmahlzeit, meist zwischen 16 und 18 Uhr – nicht »Mittag«!" },
+      { "no": "Når spiser dere middag?", "de": "Wann esst ihr warm?" },
+      { "no": "Maten er klar!", "de": "Das Essen ist fertig!" },
+      { "no": "Vær så god!", "de": "Bitte zu Tisch! / Bitte schön!", "note": "Der Gastgeber bittet zu Tisch. Auch beim Überreichen von etwas." },
+      { "no": "Forsyn deg!", "de": "Bedien dich!", "note": "Zu mehreren: Forsyn dere!" },
+      { "no": "Kan du sende meg saltet?", "de": "Kannst du mir das Salz reichen?" },
+      { "no": "Skål!", "de": "Prost!" },
+      { "no": "Det smaker deilig.", "de": "Das schmeckt köstlich." },
+      { "no": "Vil du ha litt til?", "de": "Möchtest du noch etwas?" },
+      { "no": "Ja takk, gjerne.", "de": "Ja, gern." },
+      { "no": "Nei takk, jeg er god og mett.", "de": "Nein danke, ich bin richtig satt." },
+      { "no": "Jeg er sulten som en ulv.", "de": "Ich habe einen Bärenhunger.", "note": "Wörtlich: hungrig wie ein Wolf." },
+      { "no": "Jeg har ikke spist på hele dagen.", "de": "Ich habe den ganzen Tag nichts gegessen." },
+      { "no": "Takk for maten!", "de": "Danke für das Essen!", "note": "Sagt man nach jeder Mahlzeit – auch in der Familie." },
+      { "no": "Velbekomme!", "de": "Wohl bekomm's!", "note": "Die Antwort auf »Takk for maten«." },
+      { "no": "Takk for i kveld!", "de": "Danke für den schönen Abend!" },
+      { "no": "Takk for sist!", "de": "Danke für das letzte Mal!", "note": "Beim nächsten Treffen mit dem Gastgeber." },
+      { "no": "Kan jeg hjelpe til?", "de": "Kann ich helfen?" },
+      { "no": "Vi dekker bordet.", "de": "Wir decken den Tisch." },
+      { "no": "Hvem tar oppvasken?", "de": "Wer spült ab?" }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g08_sterke_verb",
+      "title": "Starke und unregelmäßige Verben (Teil 1)",
+      "titleNo": "sterke og uregelmessige verb",
+      "summary": "Die häufigsten Verben sind unregelmäßig – Präsens, Präteritum und Perfekt lernst du am besten als Reihe.",
+      "sections": [
+        {
+          "h": "Starke Verben – wie im Deutschen",
+          "body": "Wie im Deutschen (trinken – trank – getrunken) ändern viele häufige Verben ihren Vokal und bekommen im Präteritum keine Endung: **drikke – drakk – har drukket**. Oft hilft dir das Deutsche: **komme – kom** (kam), **gå – gikk** (ging), **ligge – lå** (lag), **sitte – satt** (saß).\n\nWie bei allen Verben gilt: eine Form für alle Personen (**jeg kom, vi kom**), und das Perfekt steht immer mit **har**: **Arne har kommet.**"
+        },
+        {
+          "h": "Die wichtigsten Formen",
+          "body": "Lerne die Verben immer als Reihe, am besten laut: **gå – går – gikk – har gått**.",
+          "table": [
+            ["Infinitiv", "Präsens", "Präteritum", "Perfekt", "Deutsch"],
+            ["være", "er", "var", "har vært", "sein"],
+            ["ha", "har", "hadde", "har hatt", "haben"],
+            ["gjøre", "gjør", "gjorde", "har gjort", "machen, tun"],
+            ["si", "sier", "sa", "har sagt", "sagen"],
+            ["gå", "går", "gikk", "har gått", "gehen"],
+            ["komme", "kommer", "kom", "har kommet", "kommen"],
+            ["se", "ser", "så", "har sett", "sehen"],
+            ["ta", "tar", "tok", "har tatt", "nehmen"],
+            ["gi", "gir", "ga (gav)", "har gitt", "geben"],
+            ["få", "får", "fikk", "har fått", "bekommen"],
+            ["drikke", "drikker", "drakk", "har drukket", "trinken"],
+            ["sitte", "sitter", "satt", "har sittet", "sitzen"],
+            ["ligge", "ligger", "lå", "har ligget", "liegen"],
+            ["vite", "vet", "visste", "har visst", "wissen"],
+            ["spørre", "spør", "spurte", "har spurt", "fragen"]
+          ]
+        },
+        {
+          "h": "Stolpersteine",
+          "body": "• Unregelmäßiges Präsens: **er, har, gjør, sier, vet, spør** – nicht »viter« oder »spørrer«.\n• **ga** und **gav** sind beide richtig.\n• **så** ist das Präteritum von **se** (sah) – und bedeutet außerdem »so« oder »dann«.\n• **få** heißt »bekommen«, nicht »fangen«: **Jeg fikk en gave.** (Ich bekam ein Geschenk.)\n• **vite** (wissen) ist nicht **kjenne** (kennen): **Jeg vet svaret. Jeg kjenner Arne.**\n• **spørre** ist schwach, aber unregelmäßig: **spurte – har spurt**."
+        }
+      ],
+      "drills": [
+        { "prompt": "Arne ___ kvart over fem. (komme, preteritum)", "de": "Arne kam um Viertel nach fünf.", "answer": ["kom"], "explain": "komme – kom – har kommet." },
+        { "prompt": "Per ___ Arne et glass vin. (gi, preteritum)", "de": "Per gab Arne ein Glas Wein.", "answer": ["ga", "gav"], "explain": "gi – ga/gav – har gitt." },
+        { "prompt": "Arne ___ to stykker eplekake. (ta, preteritum)", "de": "Arne nahm zwei Stücke Apfelkuchen.", "answer": ["tok"], "explain": "ta – tok – har tatt." },
+        { "prompt": "Bamse ___ under bordet hele kvelden. (ligge, preteritum)", "de": "Bamse lag den ganzen Abend unter dem Tisch.", "answer": ["lå"], "explain": "ligge – lå – har ligget (wie »lag«)." },
+        { "prompt": "Vi ___ ved bordet i tre timer. (sitte, preteritum)", "de": "Wir saßen drei Stunden lang am Tisch.", "answer": ["satt"], "explain": "sitte – satt – har sittet (wie »saß«)." },
+        { "prompt": "Susanne ___ ikke svaret. (vite, preteritum)", "de": "Susanne wusste die Antwort nicht.", "answer": ["visste"], "explain": "vite – vet – visste – har visst." },
+        { "prompt": "Ola har ___ to glass melk. (drikke, Partizip)", "de": "Ola hat zwei Gläser Milch getrunken.", "answer": ["drukket"], "explain": "drikke – drakk – har drukket (wie trinken – getrunken)." },
+        { "prompt": "Hva ___ du? Jeg hørte det ikke. (si, preteritum)", "de": "Was hast du gesagt? Ich habe es nicht gehört.", "answer": ["sa"], "explain": "si – sier – sa – har sagt." },
+        { "prompt": "Susanne ___ Arne om Ålesund. (spørre, preteritum)", "de": "Susanne fragte Arne nach Ålesund.", "answer": ["spurte"], "explain": "spørre – spør – spurte – har spurt." },
+        { "prompt": "Har du ___ brevet fra Arne? (få, Partizip)", "de": "Hast du den Brief von Arne bekommen?", "answer": ["fått"], "explain": "få – får – fikk – har fått." }
+      ]
+    },
+    {
+      "id": "g08_klokka",
+      "title": "Die Uhrzeit",
+      "titleNo": "Hvor mye er klokka?",
+      "summary": "halv fire = halb vier (3.30) wie im Deutschen; dazu kvart over / kvart på und fem på / fem over halv.",
+      "sections": [
+        {
+          "h": "Fragen und antworten",
+          "body": "• **Hvor mye er klokka?** oder **Hva er klokka?** – Wie spät ist es?\n• **Klokka er tre.** – Es ist drei Uhr.\n• **Når kommer du? – Klokka fem.** – Um fünf.\n\nFür »um« brauchst du keine Präposition: **Middagen er klokka fem.** (nicht »om fem«). Statt **klokka** kannst du auch **klokken** sagen."
+        },
+        {
+          "h": "Viertel und halb",
+          "body": "**halv fire** bedeutet wie im Deutschen »halb vier« (3.30) – die halbe Stunde vor vier, nicht nach vier wie im Englischen.\n\nMinuten rund um die halbe Stunde zählt man von **halv** aus: **fem på halv fire** (3.25), **fem over halv fire** (3.35). Für 3.20 und 3.40 sagt man **ti på halv fire** / **ti over halv fire**; man hört aber auch **tjue over tre** und **tjue på fire**.",
+          "table": [
+            ["Uhr", "Norwegisch"],
+            ["3.00", "klokka tre"],
+            ["3.05", "fem over tre"],
+            ["3.10", "ti over tre"],
+            ["3.15", "kvart over tre"],
+            ["3.20", "ti på halv fire"],
+            ["3.25", "fem på halv fire"],
+            ["3.30", "halv fire"],
+            ["3.35", "fem over halv fire"],
+            ["3.40", "ti over halv fire"],
+            ["3.45", "kvart på fire"],
+            ["3.50", "ti på fire"],
+            ["3.55", "fem på fire"]
+          ]
+        },
+        {
+          "h": "Die offizielle Uhrzeit",
+          "body": "Im Fahrplan, im Radio oder bei Öffnungszeiten benutzt man die 24-Stunden-Uhr und liest einfach die Zahlen: **klokka 15.30** (femten tretti), **kl. 20.40** (tjue førti).\n\nIm Alltag sagt man meist die 12-Stunden-Zeit und ergänzt, wenn nötig, die Tageszeit: **klokka sju om kvelden** (19 Uhr), **klokka sju om morgenen** (7 Uhr)."
+        }
+      ],
+      "drills": [
+        { "prompt": "Klokka er ___. (4.30)", "de": "Es ist halb fünf.", "answer": ["halv fem"], "explain": "halv fem = halb fünf – wie im Deutschen die halbe Stunde VOR fünf." },
+        { "prompt": "Arne kom klokka ___. (17.15)", "de": "Arne kam um Viertel nach fünf.", "answer": ["kvart over fem", "sytten femten"], "explain": "kvart over = Viertel nach. Im Alltag: kvart over fem." },
+        { "prompt": "Kari sa «Vær så god» klokka ___. (17.25)", "de": "Kari sagte um 17.25 Uhr »Vær så god«.", "answer": ["fem på halv seks", "sytten tjuefem"], "explain": "fem på halv seks = fünf vor halb sechs." },
+        { "prompt": "Desserten kom klokka ___. (18.30)", "de": "Der Nachtisch kam um halb sieben.", "answer": ["halv sju", "halv syv", "atten tretti"], "explain": "halv sju = halb sieben (sju oder syv)." },
+        { "prompt": "Arne gikk klokka ___. (21.45)", "de": "Arne ging um Viertel vor zehn.", "answer": ["kvart på ti", "tjueen førtifem"], "explain": "kvart på = Viertel vor." },
+        { "prompt": "Toget går klokka ___. (8.35)", "de": "Der Zug fährt um 8.35 Uhr.", "answer": ["fem over halv ni", "åtte trettifem"], "explain": "fem over halv ni = fünf nach halb neun." },
+        { "prompt": "Hvor mye er klokka? – Den er ___. (2.50)", "de": "Wie spät ist es? – Es ist zehn vor drei.", "answer": ["ti på tre"], "explain": "ti på tre = zehn vor drei." },
+        { "prompt": "Ola må være hjemme klokka ___. (22.20)", "de": "Ola muss um 22.20 Uhr zu Hause sein.", "answer": ["ti på halv elleve", "tjue over ti", "tjueto tjue"], "explain": "ti på halv elleve = zehn vor halb elf; man hört auch tjue over ti." },
+        { "prompt": "Flyet til Ålesund går klokka ___. (20.40, offiziell)", "de": "Das Flugzeug nach Ålesund geht um 20.40 Uhr.", "answer": ["tjue førti"], "explain": "Offizielle Zeit: Stunden und Minuten einfach als Zahlen." },
+        { "prompt": "___ er klokka? – Klokka er sju.", "de": "Wie spät ist es? – Es ist sieben.", "answer": ["Hvor mye", "Hva"], "explain": "Hvor mye er klokka? oder Hva er klokka? – beides ist richtig." }
+      ]
+    },
+    {
+      "id": "g08_tid",
+      "title": "Zeitangaben: om, for … siden, i, på",
+      "titleNo": "tidsuttrykk",
+      "summary": "om = in (Zukunft), for … siden = vor, i = Dauer, på = innerhalb von / nach Verneinung »seit«.",
+      "sections": [
+        {
+          "h": "Vier kleine Wörter",
+          "body": "Das deutsche »in« und »vor« bei Zeitangaben haben im Norwegischen verschiedene Entsprechungen:\n• **om** + Zeitraum = in (Zukunft): **Maten er klar om ti minutter.**\n• **for** … **siden** = vor: **Arne kom for to timer siden.** Der Zeitraum steht in der Mitte!\n• **i** + Zeitraum = wie lange: **De satt ved bordet i tre timer.**\n• **på** + Zeitraum = wie lange es dauert, bis etwas fertig ist: **Kari lagde middagen på en time.**\n• Nach einer Verneinung: **på** = seit: **Arne har ikke vært i Oslo på to år.**\n\nTypischer Fehler: »in zwei Stunden« (Zukunft) ist nie »i to timer«, sondern **om to timer**.",
+          "table": [
+            ["Norwegisch", "Deutsch"],
+            ["om to timer", "in zwei Stunden (Zukunft)"],
+            ["for to timer siden", "vor zwei Stunden"],
+            ["i to timer", "zwei Stunden (lang)"],
+            ["på to timer", "in / innerhalb von zwei Stunden"],
+            ["ikke … på to år", "seit zwei Jahren nicht"]
+          ]
+        },
+        {
+          "h": "Tageszeiten: om morgenen oder i morgen?",
+          "body": "Regelmäßig (immer wieder) mit **om** und bestimmter Form: **om morgenen** (morgens), **om formiddagen**, **om ettermiddagen**, **om kvelden** (abends), **om natta** (nachts): **Om kvelden ser Per på TV.**\n\nHeute, gestern, morgen mit **i** und unbestimmter Form: **i dag, i kveld** (heute Abend), **i natt**, **i morges** (heute früh), **i går, i går kveld, i morgen** (morgen), **i morgen tidlig** (morgen früh).\n\nAchtung: **i morgen** = morgen (der nächste Tag), **om morgenen** = morgens."
+        }
+      ],
+      "drills": [
+        { "prompt": "Middagen er klar ___ ti minutter.", "de": "Das Essen ist in zehn Minuten fertig.", "answer": ["om"], "explain": "Zukunft: om + Zeitraum = in." },
+        { "prompt": "Arne kom ___ to timer siden.", "de": "Arne kam vor zwei Stunden.", "answer": ["for"], "explain": "vor = for … siden." },
+        { "prompt": "Susanne kom til Norge for to måneder ___.", "de": "Susanne kam vor zwei Monaten nach Norwegen.", "answer": ["siden"], "explain": "vor = for … siden." },
+        { "prompt": "De satt ved bordet ___ tre timer.", "de": "Sie saßen drei Stunden lang am Tisch.", "answer": ["i"], "explain": "Dauer (wie lange?): i + Zeitraum." },
+        { "prompt": "Kari lagde middagen ___ en time.", "de": "Kari hat das Essen in einer Stunde gekocht.", "answer": ["på"], "explain": "Wie lange hat es gedauert, bis es fertig war? → på." },
+        { "prompt": "Arne har ikke vært i Oslo ___ to år.", "de": "Arne war seit zwei Jahren nicht in Oslo.", "answer": ["på"], "explain": "Verneinung + Zeitraum bis jetzt → på (Deutsch: seit)." },
+        { "prompt": "___ morgenen drikker Per alltid kaffe.", "de": "Morgens trinkt Per immer Kaffee.", "answer": ["Om"], "explain": "Regelmäßig: om morgenen = morgens." },
+        { "prompt": "Arne flyr hjem til Ålesund ___ morgen.", "de": "Arne fliegt morgen nach Hause nach Ålesund.", "answer": ["i"], "explain": "i morgen = morgen (der nächste Tag)." },
+        { "prompt": "Ola gjør lekser ___ kvelden.", "de": "Ola macht abends Hausaufgaben.", "answer": ["om"], "explain": "om kvelden = abends (regelmäßig); i kveld = heute Abend." },
+        { "prompt": "Taxien kommer ___ et kvarter.", "de": "Das Taxi kommt in einer Viertelstunde.", "answer": ["om"], "explain": "Zukunft: om et kvarter = in einer Viertelstunde." }
+      ]
+    }
+  ],
+  "tf": [
+    { "s": "Arne og Kari er bror og søster.", "de": "Arne und Kari sind Bruder und Schwester.", "a": true, "why": "»Kari og Arne er bror og søster.«" },
+    { "s": "Arne kom presis klokka fem.", "de": "Arne kam pünktlich um fünf.", "a": false, "why": "Er kam um Viertel nach fünf." },
+    { "s": "Susanne kommer alltid presis.", "de": "Susanne kommt immer pünktlich.", "a": false, "why": "Am Freitag kam sie eine halbe Stunde zu spät zum Kurs." },
+    { "s": "Det var laks til middag.", "de": "Es gab Lachs zum Essen.", "a": true, "why": "»Det var laks med poteter og brokkoli.«" },
+    { "s": "Ola er glad for å få fisk.", "de": "Ola freut sich über den Fisch.", "a": false, "why": "Er seufzt: »Fisk igjen?«" },
+    { "s": "Susanne har ikke fått penger fra oljen.", "de": "Susanne hat kein Geld aus dem Öl bekommen.", "a": true, "why": "»… jeg har ikke fått en eneste krone av oljepengene.«" },
+    { "s": "Arne liker eplekaka.", "de": "Arne mag den Apfelkuchen.", "a": true, "why": "Er nimmt zwei Stücke und sagt: »Den er faktisk ikke så verst.«" }
+  ],
+  "questions": [
+    { "q": "Når kom Arne?", "qDe": "Wann kam Arne?", "answer": "Han kom kvart over fem.", "answerDe": "Er kam um Viertel nach fünf.", "keywords": [["kvart over fem", "sytten femten"]] },
+    { "q": "Hva sier Arne om ungdommen i dag?", "qDe": "Was sagt Arne über die Jugend von heute?", "answer": "Han sier at ungdommen aldri spiser fisk.", "answerDe": "Er sagt, dass die Jugend nie Fisch isst.", "keywords": [["aldri", "ikke"], ["fisk"]] },
+    { "q": "Hvorfor kom Susanne til Norge?", "qDe": "Warum ist Susanne nach Norwegen gekommen?", "answer": "Hun kom for å lære norsk.", "answerDe": "Sie ist gekommen, um Norwegisch zu lernen.", "keywords": [["lære", "lærer", "studere"], ["norsk"]] },
+    { "q": "Hva fikk de til dessert?", "qDe": "Was gab es zum Nachtisch?", "answer": "De fikk eplekake som Susanne bakte.", "answerDe": "Sie bekamen Apfelkuchen, den Susanne gebacken hatte.", "keywords": [["eplekake", "eplekaka", "eplekaken", "kake"]] },
+    { "q": "Hva svarer Kari når Ola sier «Takk for maten»?", "qDe": "Was antwortet Kari, als Ola »Takk for maten« sagt?", "answer": "Hun svarer «Velbekomme».", "answerDe": "Sie antwortet »Velbekomme«.", "keywords": [["velbekomme", "vel bekomme"]] }
+  ],
+  "find": [
+    { "de": "der Besuch", "answer": ["besøk"] },
+    { "de": "im Grunde (tief im Innern)", "answer": ["innerst inne"] },
+    { "de": "pünktlich", "answer": ["presis"] },
+    { "de": "machte große Augen", "answer": ["gjorde store øyne"] },
+    { "de": "seufzte", "answer": ["sukket"] },
+    { "de": "legte die Gabel weg", "answer": ["la fra seg gaffelen"] },
+    { "de": "gar nicht so schlecht", "answer": ["ikke så verst"] },
+    { "de": "eine Liebeserklärung", "answer": ["en kjærlighetserklæring"] }
+  ],
+  "translate": [
+    { "de": "Arne kam um Viertel nach fünf.", "no": ["Arne kom kvart over fem.", "Arne kom klokka kvart over fem.", "Arne kom klokken kvart over fem."] },
+    { "de": "Wir saßen drei Stunden lang am Tisch.", "no": ["Vi satt ved bordet i tre timer."], "hint": "Dauer → i" },
+    { "de": "Das Essen ist in zehn Minuten fertig.", "no": ["Maten er klar om ti minutter.", "Middagen er klar om ti minutter.", "Maten er ferdig om ti minutter.", "Middagen er ferdig om ti minutter."], "hint": "Zukunft → om" },
+    { "de": "Ich habe seit zwei Tagen keinen Fisch gegessen.", "no": ["Jeg har ikke spist fisk på to dager."], "hint": "Verneinung + Zeitraum → på" },
+    { "de": "Es ist halb sieben.", "no": ["Klokka er halv sju.", "Klokka er halv syv.", "Klokken er halv sju.", "Klokken er halv syv."] },
+    { "de": "Sie kam vor einer Stunde.", "no": ["Hun kom for en time siden."] },
+    { "de": "Er nahm zwei Stücke Kuchen und trank ein Glas Wein.", "no": ["Han tok to stykker kake og drakk et glass vin."] },
+    { "de": "Danke für das Essen! – Wohl bekomm's!", "no": ["Takk for maten! – Velbekomme!"] }
+  ],
+  "summary": [
+    { "prompt": "Onkel Arne kom ___ over fem.", "de": "Onkel Arne kam um Viertel nach fünf.", "answer": ["kvart"] },
+    { "prompt": "Arne sa at ungdommen aldri ___ fisk.", "de": "Arne sagte, dass die Jugend nie Fisch isst.", "answer": ["spiser"] },
+    { "prompt": "Susanne svarte at hun betaler husleie og mat ___.", "de": "Susanne antwortete, dass sie Miete und Essen selbst bezahlt.", "answer": ["selv"] },
+    { "prompt": "Til dessert ___ Arne to stykker eplekake.", "de": "Zum Nachtisch nahm Arne zwei Stücke Apfelkuchen.", "answer": ["tok", "spiste"] },
+    { "prompt": "Etter maten sa Ola «Takk for maten», og Kari svarte «___».", "de": "Nach dem Essen sagte Ola »Takk for maten«, und Kari antwortete »Velbekomme«.", "answer": ["Velbekomme", "Vel bekomme"] }
+  ],
+  "dictation": [4, 8, 11, 13],
+  "writing": {
+    "prompt": "Du warst gestern bei Freunden zum Essen eingeladen. Schreib der Gastgeberin eine Nachricht: Bedank dich (Takk for i går!), schreib, was es gab und wie es geschmeckt hat, wie lange ihr am Tisch gesessen habt und wann du nach Hause gekommen bist (Uhrzeit in Worten).",
+    "minWords": 50,
+    "useWords": ["takk for i går", "smakte", "klokka", "timer"],
+    "checklist": [
+      { "de": "Dank", "keywords": ["takk for i går", "tusen takk", "takk for maten"] },
+      { "de": "Was es gab und wie es geschmeckt hat", "keywords": ["smakte", "deilig", "god"] },
+      { "de": "Wie lange ihr am Tisch gesessen habt (i … timer)", "keywords": ["timer"] },
+      { "de": "Uhrzeit in Worten", "keywords": ["klokka", "klokken"] }
+    ],
+    "model": "Hei, Kari! Tusen takk for i går! Fiskesuppa smakte deilig, og kaka var også veldig god. Vi satt ved bordet i nesten fire timer, men tiden gikk så fort! Jeg kom hjem klokka kvart over elleve og sov godt. Neste gang vil jeg gjerne lage svensk mat til dere. Klem fra Elin",
+    "modelDe": "Hallo Kari! Vielen Dank für gestern! Die Fischsuppe hat köstlich geschmeckt, und der Kuchen war auch sehr gut. Wir haben fast vier Stunden am Tisch gesessen, aber die Zeit ist so schnell vergangen! Ich bin um Viertel nach elf nach Hause gekommen und habe gut geschlafen. Nächstes Mal möchte ich gern schwedisches Essen für euch kochen. Liebe Grüße, Elin"
+  }
+}

@@ -1,0 +1,1716 @@
+[
+  {
+    "id": "w05_frokost",
+    "no": "frokost",
+    "de": "das Frühstück",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "frokost",
+      "frokosten",
+      "frokoster",
+      "frokostene"
+    ],
+    "wk": true,
+    "lesson": 5,
+    "ex": {
+      "no": "Frokosten er klar!",
+      "de": "Das Frühstück ist fertig!"
+    }
+  },
+  {
+    "id": "w05_klar",
+    "no": "klar",
+    "de": "fertig",
+    "deAlt": [
+      "bereit",
+      "klar"
+    ],
+    "pos": "adj",
+    "forms": [
+      "klar",
+      "klart",
+      "klare"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Er du klar? Vi går nå.",
+      "de": "Bist du fertig? Wir gehen jetzt."
+    }
+  },
+  {
+    "id": "w05_liste",
+    "no": "liste",
+    "de": "die Liste",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "liste",
+      "lista",
+      "lister",
+      "listene"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Susanne skriver en liste.",
+      "de": "Susanne schreibt eine Liste."
+    }
+  },
+  {
+    "id": "w05_typisk",
+    "no": "typisk",
+    "de": "typisch",
+    "pos": "adj",
+    "forms": [
+      "typisk",
+      "typisk",
+      "typiske"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Brunost er typisk norsk.",
+      "de": "Braunkäse ist typisch norwegisch."
+    },
+    "note": "Mehrsilbig auf -sk: kein -t im Neutrum."
+  },
+  {
+    "id": "w05_hjelpe",
+    "no": "hjelpe",
+    "de": "helfen",
+    "pos": "verb",
+    "vf": [
+      "hjelper",
+      "hjalp",
+      "hjulpet",
+      "hjelp"
+    ],
+    "vg": "sterk",
+    "lesson": 5,
+    "ex": {
+      "no": "Kan dere hjelpe meg?",
+      "de": "Könnt ihr mir helfen?"
+    },
+    "note": "Mit Objektform: hjelpe meg = mir helfen."
+  },
+  {
+    "id": "w05_brunost",
+    "no": "brunost",
+    "de": "der Braunkäse",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "brunost",
+      "brunosten",
+      "brunoster",
+      "brunostene"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Brunosten er søt og brun.",
+      "de": "Der Braunkäse ist süß und braun."
+    }
+  },
+  {
+    "id": "w05_sot",
+    "no": "søt",
+    "de": "süß",
+    "pos": "adj",
+    "forms": [
+      "søt",
+      "søtt",
+      "søte"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Kaka er veldig søt.",
+      "de": "Der Kuchen ist sehr süß."
+    },
+    "note": "Auch: niedlich (en søt hund)."
+  },
+  {
+    "id": "w05_brun",
+    "no": "brun",
+    "de": "braun",
+    "pos": "adj",
+    "forms": [
+      "brun",
+      "brunt",
+      "brune"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Bamse er en brun hund.",
+      "de": "Bamse ist ein brauner Hund."
+    }
+  },
+  {
+    "id": "w05_ostehovel",
+    "no": "ostehøvel",
+    "de": "der Käsehobel",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "ostehøvel",
+      "ostehøvelen",
+      "ostehøvler",
+      "ostehøvlene"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Ostehøvelen er en norsk oppfinnelse.",
+      "de": "Der Käsehobel ist eine norwegische Erfindung."
+    }
+  },
+  {
+    "id": "w05_oppfinnelse",
+    "no": "oppfinnelse",
+    "de": "die Erfindung",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "oppfinnelse",
+      "oppfinnelsen",
+      "oppfinnelser",
+      "oppfinnelsene"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Det er en god oppfinnelse.",
+      "de": "Das ist eine gute Erfindung."
+    }
+  },
+  {
+    "id": "w05_matpakke",
+    "no": "matpakke",
+    "de": "das Lunchpaket",
+    "deAlt": [
+      "die Brotdose",
+      "das Pausenbrot"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "matpakke",
+      "matpakka",
+      "matpakker",
+      "matpakkene"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Ola glemmer matpakka.",
+      "de": "Ola vergisst sein Lunchpaket."
+    },
+    "note": "Belegte Brote, in Papier gewickelt: das typische norwegische Mittagessen."
+  },
+  {
+    "id": "w05_smore",
+    "no": "smøre",
+    "de": "schmieren",
+    "deAlt": [
+      "streichen",
+      "belegen"
+    ],
+    "pos": "verb",
+    "vf": [
+      "smører",
+      "smurte",
+      "smurt",
+      "smør"
+    ],
+    "vg": "uregelm",
+    "lesson": 5,
+    "ex": {
+      "no": "Vi smører brødskiver om morgenen.",
+      "de": "Wir schmieren morgens Brote."
+    }
+  },
+  {
+    "id": "w05_brodskive",
+    "no": "brødskive",
+    "de": "die Brotscheibe",
+    "deAlt": [
+      "das belegte Brot"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "brødskive",
+      "brødskiva",
+      "brødskiver",
+      "brødskivene"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Jeg spiser to brødskiver til lunsj.",
+      "de": "Ich esse mittags zwei Brote."
+    }
+  },
+  {
+    "id": "w05_lunsj",
+    "no": "lunsj",
+    "de": "das Mittagessen",
+    "deAlt": [
+      "der Lunch"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "lunsj",
+      "lunsjen",
+      "lunsjer",
+      "lunsjene"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Til lunsj spiser vi matpakke.",
+      "de": "Mittags essen wir unser Lunchpaket."
+    },
+    "note": "Meist kalt und klein; warm isst man am Nachmittag (middag)."
+  },
+  {
+    "id": "w05_hver",
+    "no": "hver",
+    "de": "jeder",
+    "deAlt": [
+      "jede",
+      "jedes"
+    ],
+    "pos": "pron",
+    "lesson": 5,
+    "ex": {
+      "no": "Hver søndag går vi på tur.",
+      "de": "Jeden Sonntag gehen wir wandern."
+    },
+    "note": "Neutrum: hvert (hvert år)."
+  },
+  {
+    "id": "w05_glede_seg",
+    "no": "glede seg",
+    "de": "sich freuen",
+    "pos": "verb",
+    "vf": [
+      "gleder seg",
+      "gledet seg",
+      "gledet seg",
+      "gled deg"
+    ],
+    "vg": "1",
+    "lesson": 5,
+    "ex": {
+      "no": "Jeg gleder meg til turen.",
+      "de": "Ich freue mich auf die Wanderung."
+    },
+    "note": "glede seg til = sich freuen auf."
+  },
+  {
+    "id": "w05_ta_av_seg",
+    "no": "ta av seg",
+    "de": "ausziehen",
+    "deAlt": [
+      "sich ausziehen"
+    ],
+    "pos": "verb",
+    "vf": [
+      "tar av seg",
+      "tok av seg",
+      "tatt av seg",
+      "ta av deg"
+    ],
+    "vg": "sterk",
+    "wk": true,
+    "lesson": 5,
+    "ex": {
+      "no": "Alle tar av seg skoene i gangen.",
+      "de": "Alle ziehen im Flur die Schuhe aus."
+    }
+  },
+  {
+    "id": "w05_sur",
+    "no": "sur",
+    "de": "sauer",
+    "deAlt": [
+      "schlecht gelaunt"
+    ],
+    "pos": "adj",
+    "forms": [
+      "sur",
+      "surt",
+      "sure"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Mamma blir sur.",
+      "de": "Mama wird sauer."
+    }
+  },
+  {
+    "id": "w05_hvis",
+    "no": "hvis",
+    "de": "wenn",
+    "deAlt": [
+      "falls"
+    ],
+    "pos": "conj",
+    "lesson": 5,
+    "ex": {
+      "no": "Hvis det regner, blir vi hjemme.",
+      "de": "Wenn es regnet, bleiben wir zu Hause."
+    }
+  },
+  {
+    "id": "w05_egentlig",
+    "no": "egentlig",
+    "de": "eigentlich",
+    "pos": "adv",
+    "lesson": 5,
+    "ex": {
+      "no": "Hva er egentlig kos?",
+      "de": "Was ist eigentlich „kos“?"
+    }
+  },
+  {
+    "id": "w05_kos",
+    "no": "kos",
+    "de": "die Gemütlichkeit",
+    "deAlt": [
+      "das gemütliche Beisammensein"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "kos",
+      "kosen"
+    ],
+    "wk": true,
+    "lesson": 5,
+    "ex": {
+      "no": "Kos er stearinlys, kakao og gode venner.",
+      "de": "Kos – das sind Kerzen, Kakao und gute Freunde."
+    }
+  },
+  {
+    "id": "w05_sammen",
+    "no": "sammen",
+    "de": "zusammen",
+    "pos": "adv",
+    "lesson": 5,
+    "ex": {
+      "no": "Vi spiser frokost sammen.",
+      "de": "Wir frühstücken zusammen."
+    }
+  },
+  {
+    "id": "w05_stearinlys",
+    "no": "stearinlys",
+    "de": "die Kerze",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "stearinlys",
+      "stearinlyset",
+      "stearinlys",
+      "stearinlysa/stearinlysene"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Om kvelden har vi stearinlys på bordet.",
+      "de": "Abends haben wir Kerzen auf dem Tisch."
+    },
+    "note": "Kurz auch: lys (et lys = Licht, Kerze)."
+  },
+  {
+    "id": "w05_dugnad",
+    "no": "dugnad",
+    "de": "der Gemeinschaftseinsatz",
+    "deAlt": [
+      "die gemeinsame Arbeit"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "dugnad",
+      "dugnaden",
+      "dugnader",
+      "dugnadene"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "På lørdag er det dugnad i hagen.",
+      "de": "Am Samstag ist Gemeinschaftsarbeit im Garten."
+    },
+    "note": "Unbezahlte Arbeit, die Nachbarn, Vereine oder Schulen zusammen erledigen."
+  },
+  {
+    "id": "w05_nabo",
+    "no": "nabo",
+    "de": "der Nachbar",
+    "deAlt": [
+      "die Nachbarin"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "nabo",
+      "naboen",
+      "naboer",
+      "naboene"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Naboene jobber sammen.",
+      "de": "Die Nachbarn arbeiten zusammen."
+    }
+  },
+  {
+    "id": "w05_gratis",
+    "no": "gratis",
+    "de": "kostenlos",
+    "deAlt": [
+      "umsonst",
+      "gratis"
+    ],
+    "pos": "adj",
+    "forms": [
+      "gratis",
+      "gratis",
+      "gratis"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Kaffen er gratis.",
+      "de": "Der Kaffee ist umsonst."
+    },
+    "note": "Unveränderlich."
+  },
+  {
+    "id": "w05_hage",
+    "no": "hage",
+    "de": "der Garten",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "hage",
+      "hagen",
+      "hager",
+      "hagene"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Familien har en liten hage.",
+      "de": "Die Familie hat einen kleinen Garten."
+    }
+  },
+  {
+    "id": "w05_sortere",
+    "no": "sortere",
+    "de": "sortieren",
+    "deAlt": [
+      "trennen"
+    ],
+    "pos": "verb",
+    "vf": [
+      "sorterer",
+      "sorterte",
+      "sortert",
+      "sorter"
+    ],
+    "vg": "2",
+    "lesson": 5,
+    "ex": {
+      "no": "Vi sorterer søppel.",
+      "de": "Wir trennen den Müll."
+    }
+  },
+  {
+    "id": "w05_soppel",
+    "no": "søppel",
+    "de": "der Müll",
+    "deAlt": [
+      "der Abfall"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "søppel",
+      "søppelet"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Ola tar ut søppelet.",
+      "de": "Ola bringt den Müll raus."
+    }
+  },
+  {
+    "id": "w05_sokk",
+    "no": "sokk",
+    "de": "die Socke",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "sokk",
+      "sokken",
+      "sokker",
+      "sokkene"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Jeg har varme sokker.",
+      "de": "Ich habe warme Socken."
+    }
+  },
+  {
+    "id": "w05_gaa_med",
+    "no": "gå med",
+    "de": "tragen",
+    "deAlt": [
+      "anhaben"
+    ],
+    "pos": "verb",
+    "vf": [
+      "går med",
+      "gikk med",
+      "gått med",
+      "gå med"
+    ],
+    "vg": "sterk",
+    "lesson": 5,
+    "ex": {
+      "no": "Jeg går aldri med sokker i sandaler.",
+      "de": "Ich trage nie Socken in Sandalen."
+    },
+    "note": "Kleidung: gå med / ha på (seg)."
+  },
+  {
+    "id": "w05_troll",
+    "no": "troll",
+    "de": "der Troll",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "troll",
+      "trollet",
+      "troll",
+      "trolla/trollene"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Trollet bor på fjellet.",
+      "de": "Der Troll wohnt auf dem Berg."
+    },
+    "note": "Neutrum: et troll – also det, nicht han."
+  },
+  {
+    "id": "w05_hore",
+    "no": "høre",
+    "de": "hören",
+    "pos": "verb",
+    "vf": [
+      "hører",
+      "hørte",
+      "hørt",
+      "hør"
+    ],
+    "vg": "2",
+    "lesson": 5,
+    "ex": {
+      "no": "Vil du høre en historie?",
+      "de": "Willst du eine Geschichte hören?"
+    }
+  },
+  {
+    "id": "w05_fjell",
+    "no": "fjell",
+    "de": "der Berg",
+    "deAlt": [
+      "das Gebirge"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "fjell",
+      "fjellet",
+      "fjell",
+      "fjella/fjellene"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Høyt oppe på fjellet bor et troll.",
+      "de": "Hoch oben auf dem Berg wohnt ein Troll."
+    }
+  },
+  {
+    "id": "w05_gammel",
+    "no": "gammel",
+    "de": "alt",
+    "pos": "adj",
+    "forms": [
+      "gammel",
+      "gammelt",
+      "gamle"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Det er et gammelt troll.",
+      "de": "Das ist ein alter Troll."
+    },
+    "note": "Plural: gamle (mehr dazu in Lektion 6)."
+  },
+  {
+    "id": "w05_graa",
+    "no": "grå",
+    "de": "grau",
+    "pos": "adj",
+    "forms": [
+      "grå",
+      "grått",
+      "grå/gråe"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Trollet er stort og grått.",
+      "de": "Der Troll ist groß und grau."
+    },
+    "note": "Neutrum mit -tt: grått."
+  },
+  {
+    "id": "w05_hode",
+    "no": "hode",
+    "de": "der Kopf",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "hode",
+      "hodet",
+      "hoder",
+      "hodene"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Trollet har tre hoder.",
+      "de": "Der Troll hat drei Köpfe."
+    }
+  },
+  {
+    "id": "w05_natt",
+    "no": "natt",
+    "de": "die Nacht",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "natt",
+      "natta",
+      "netter",
+      "nettene"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Om natta er det mørkt.",
+      "de": "Nachts ist es dunkel."
+    },
+    "note": "om natta = nachts; Plural mit Umlaut: netter."
+  },
+  {
+    "id": "w05_sau",
+    "no": "sau",
+    "de": "das Schaf",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "sau",
+      "sauen",
+      "sauer",
+      "sauene"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Det er mange sauer i Norge.",
+      "de": "Es gibt viele Schafe in Norwegen."
+    }
+  },
+  {
+    "id": "w05_gaard",
+    "no": "gård",
+    "de": "der Bauernhof",
+    "deAlt": [
+      "der Hof"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "gård",
+      "gården",
+      "gårder",
+      "gårdene"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Trollet tar sauer fra gården.",
+      "de": "Der Troll holt Schafe vom Hof."
+    }
+  },
+  {
+    "id": "w05_taale",
+    "no": "tåle",
+    "de": "vertragen",
+    "deAlt": [
+      "aushalten",
+      "ertragen"
+    ],
+    "pos": "verb",
+    "vf": [
+      "tåler",
+      "tålte",
+      "tålt",
+      "tål"
+    ],
+    "vg": "2",
+    "lesson": 5,
+    "ex": {
+      "no": "Troll tåler ikke sol.",
+      "de": "Trolle vertragen keine Sonne."
+    }
+  },
+  {
+    "id": "w05_stein",
+    "no": "stein",
+    "de": "der Stein",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "stein",
+      "steinen",
+      "steiner",
+      "steinene"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Trollet blir til stein.",
+      "de": "Der Troll wird zu Stein."
+    }
+  },
+  {
+    "id": "w05_bli_til",
+    "no": "bli til",
+    "de": "werden zu",
+    "pos": "verb",
+    "vf": [
+      "blir til",
+      "ble til",
+      "blitt til",
+      "bli til"
+    ],
+    "vg": "sterk",
+    "lesson": 5,
+    "ex": {
+      "no": "I sola blir trollet til stein.",
+      "de": "In der Sonne wird der Troll zu Stein."
+    }
+  },
+  {
+    "id": "w05_fortelle",
+    "no": "fortelle",
+    "de": "erzählen",
+    "pos": "verb",
+    "vf": [
+      "forteller",
+      "fortalte",
+      "fortalt",
+      "fortell"
+    ],
+    "vg": "uregelm",
+    "lesson": 5,
+    "ex": {
+      "no": "Bestemor forteller en historie.",
+      "de": "Oma erzählt eine Geschichte."
+    }
+  },
+  {
+    "id": "w05_samme",
+    "no": "samme",
+    "de": "derselbe",
+    "deAlt": [
+      "dieselbe",
+      "dasselbe",
+      "gleich"
+    ],
+    "pos": "adj",
+    "forms": [
+      "samme",
+      "samme",
+      "samme"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Du forteller alltid den samme historien!",
+      "de": "Du erzählst immer dieselbe Geschichte!"
+    },
+    "note": "den samme, det samme, de samme."
+  },
+  {
+    "id": "w05_kjent",
+    "no": "kjent",
+    "de": "bekannt",
+    "pos": "adj",
+    "forms": [
+      "kjent",
+      "kjent",
+      "kjente"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Troll er kjente figurer.",
+      "de": "Trolle sind bekannte Figuren."
+    }
+  },
+  {
+    "id": "w05_eventyr",
+    "no": "eventyr",
+    "de": "das Märchen",
+    "deAlt": [
+      "das Abenteuer"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "eventyr",
+      "eventyret",
+      "eventyr",
+      "eventyra/eventyrene"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "I eventyret er trollet dumt.",
+      "de": "Im Märchen ist der Troll dumm."
+    }
+  },
+  {
+    "id": "w05_samling",
+    "no": "samling",
+    "de": "die Sammlung",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "samling",
+      "samlinga/samlingen",
+      "samlinger",
+      "samlingene"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Samlingen er fra 1800-tallet.",
+      "de": "Die Sammlung stammt aus dem 19. Jahrhundert."
+    }
+  },
+  {
+    "id": "w05_stygg",
+    "no": "stygg",
+    "de": "hässlich",
+    "pos": "adj",
+    "forms": [
+      "stygg",
+      "stygt",
+      "stygge"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Et troll er stort og stygt.",
+      "de": "Ein Troll ist groß und hässlich."
+    },
+    "note": "Neutrum mit einem g: stygt."
+  },
+  {
+    "id": "w05_skog",
+    "no": "skog",
+    "de": "der Wald",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "skog",
+      "skogen",
+      "skoger",
+      "skogene"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Troll bor i skogen.",
+      "de": "Trolle wohnen im Wald."
+    }
+  },
+  {
+    "id": "w05_sterk",
+    "no": "sterk",
+    "de": "stark",
+    "pos": "adj",
+    "forms": [
+      "sterk",
+      "sterkt",
+      "sterke"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Troll er sterke.",
+      "de": "Trolle sind stark."
+    }
+  },
+  {
+    "id": "w05_smart",
+    "no": "smart",
+    "de": "schlau",
+    "deAlt": [
+      "klug",
+      "clever"
+    ],
+    "pos": "adj",
+    "forms": [
+      "smart",
+      "smart",
+      "smarte"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Askeladden er smart.",
+      "de": "Askeladden ist schlau."
+    }
+  },
+  {
+    "id": "w05_lure",
+    "no": "lure",
+    "de": "überlisten",
+    "deAlt": [
+      "hereinlegen",
+      "austricksen"
+    ],
+    "pos": "verb",
+    "vf": [
+      "lurer",
+      "lurte",
+      "lurt",
+      "lur"
+    ],
+    "vg": "2",
+    "lesson": 5,
+    "ex": {
+      "no": "Askeladden lurer trollet.",
+      "de": "Askeladden überlistet den Troll."
+    },
+    "note": "lure på = sich fragen; lur (Adj.) = schlau, nicht „lauern“."
+  },
+  {
+    "id": "w05_fattig",
+    "no": "fattig",
+    "de": "arm",
+    "pos": "adj",
+    "forms": [
+      "fattig",
+      "fattig",
+      "fattige"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Askeladden er en fattig gutt.",
+      "de": "Askeladden ist ein armer Junge."
+    }
+  },
+  {
+    "id": "w05_gutt",
+    "no": "gutt",
+    "de": "der Junge",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "gutt",
+      "gutten",
+      "gutter",
+      "guttene"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Ola er en glad gutt.",
+      "de": "Ola ist ein fröhlicher Junge."
+    }
+  },
+  {
+    "id": "w05_modig",
+    "no": "modig",
+    "de": "mutig",
+    "pos": "adj",
+    "forms": [
+      "modig",
+      "modig",
+      "modige"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Askeladden er smart og modig.",
+      "de": "Askeladden ist schlau und mutig."
+    }
+  },
+  {
+    "id": "w05_skinne",
+    "no": "skinne",
+    "de": "scheinen",
+    "pos": "verb",
+    "vf": [
+      "skinner",
+      "skinte",
+      "skint",
+      "skinn"
+    ],
+    "vg": "2",
+    "lesson": 5,
+    "ex": {
+      "no": "Sola skinner i dag.",
+      "de": "Heute scheint die Sonne."
+    }
+  },
+  {
+    "id": "w05_sprekke",
+    "no": "sprekke",
+    "de": "platzen",
+    "deAlt": [
+      "zerspringen",
+      "reißen"
+    ],
+    "pos": "verb",
+    "vf": [
+      "sprekker",
+      "sprakk",
+      "sprukket",
+      "sprekk"
+    ],
+    "vg": "sterk",
+    "lesson": 5,
+    "ex": {
+      "no": "I sola sprekker trollet.",
+      "de": "In der Sonne platzt der Troll."
+    }
+  },
+  {
+    "id": "w05_sted",
+    "no": "sted",
+    "de": "der Ort",
+    "deAlt": [
+      "die Stelle",
+      "der Platz"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "sted",
+      "stedet",
+      "steder",
+      "stedene"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Trolltunga er et kjent sted.",
+      "de": "Trolltunga ist ein bekannter Ort."
+    }
+  },
+  {
+    "id": "w05_passe_paa",
+    "no": "passe på",
+    "de": "aufpassen",
+    "pos": "verb",
+    "vf": [
+      "passer på",
+      "passet på",
+      "passet på",
+      "pass på"
+    ],
+    "vg": "1",
+    "lesson": 5,
+    "ex": {
+      "no": "Pass på! Trollet kommer!",
+      "de": "Pass auf! Der Troll kommt!"
+    }
+  },
+  {
+    "id": "w05_hjemme",
+    "no": "hjemme",
+    "de": "zu Hause",
+    "pos": "adv",
+    "wk": true,
+    "lesson": 5,
+    "ex": {
+      "no": "Hei, jeg er hjemme!",
+      "de": "Hallo, ich bin wieder da!"
+    },
+    "note": "Ort: hjemme (zu Hause); Richtung: hjem (nach Hause)."
+  },
+  {
+    "id": "w05_fole_seg",
+    "no": "føle seg",
+    "de": "sich fühlen",
+    "pos": "verb",
+    "vf": [
+      "føler seg",
+      "følte seg",
+      "følt seg",
+      "føl deg"
+    ],
+    "vg": "2",
+    "wk": true,
+    "lesson": 5,
+    "ex": {
+      "no": "Føl deg som hjemme!",
+      "de": "Fühl dich wie zu Hause!"
+    }
+  },
+  {
+    "id": "w05_sette_seg",
+    "no": "sette seg",
+    "de": "sich setzen",
+    "pos": "verb",
+    "vf": [
+      "setter seg",
+      "satte seg",
+      "satt seg",
+      "sett deg"
+    ],
+    "vg": "uregelm",
+    "wk": true,
+    "lesson": 5,
+    "ex": {
+      "no": "Sett deg, Susanne!",
+      "de": "Setz dich, Susanne!"
+    }
+  },
+  {
+    "id": "w05_dekke_paa",
+    "no": "dekke på",
+    "de": "den Tisch decken",
+    "deAlt": [
+      "decken"
+    ],
+    "pos": "verb",
+    "vf": [
+      "dekker på",
+      "dekket på",
+      "dekket på",
+      "dekk på"
+    ],
+    "vg": "1",
+    "wk": true,
+    "lesson": 5,
+    "ex": {
+      "no": "Ola dekker på bordet.",
+      "de": "Ola deckt den Tisch."
+    }
+  },
+  {
+    "id": "w05_oppvask",
+    "no": "oppvask",
+    "de": "der Abwasch",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "oppvask",
+      "oppvasken"
+    ],
+    "wk": true,
+    "lesson": 5,
+    "ex": {
+      "no": "Hvem tar oppvasken?",
+      "de": "Wer spült ab?"
+    }
+  },
+  {
+    "id": "w05_middag",
+    "no": "middag",
+    "de": "das Abendessen",
+    "deAlt": [
+      "die warme Hauptmahlzeit",
+      "das Mittagessen"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "middag",
+      "middagen",
+      "middager",
+      "middagene"
+    ],
+    "wk": true,
+    "lesson": 5,
+    "ex": {
+      "no": "Vi spiser middag klokka fem.",
+      "de": "Wir essen um fünf Uhr zu Abend."
+    },
+    "note": "Die warme Mahlzeit am späten Nachmittag; „Mittagessen“ ist meist lunsj."
+  },
+  {
+    "id": "w05_koselig",
+    "no": "koselig",
+    "de": "gemütlich",
+    "deAlt": [
+      "nett",
+      "schön"
+    ],
+    "pos": "adj",
+    "forms": [
+      "koselig",
+      "koselig",
+      "koselige"
+    ],
+    "wk": true,
+    "lesson": 5,
+    "ex": {
+      "no": "Så koselig!",
+      "de": "Wie gemütlich!"
+    }
+  },
+  {
+    "id": "w05_kose_seg",
+    "no": "kose seg",
+    "de": "es sich gemütlich machen",
+    "deAlt": [
+      "genießen",
+      "Spaß haben"
+    ],
+    "pos": "verb",
+    "vf": [
+      "koser seg",
+      "koste seg",
+      "kost seg",
+      "kos deg"
+    ],
+    "vg": "2",
+    "wk": true,
+    "lesson": 5,
+    "ex": {
+      "no": "Kos deg i helgen!",
+      "de": "Mach dir ein schönes Wochenende!"
+    }
+  },
+  {
+    "id": "w05_legge_seg",
+    "no": "legge seg",
+    "de": "ins Bett gehen",
+    "deAlt": [
+      "sich hinlegen",
+      "schlafen gehen"
+    ],
+    "pos": "verb",
+    "vf": [
+      "legger seg",
+      "la seg",
+      "lagt seg",
+      "legg deg"
+    ],
+    "vg": "uregelm",
+    "wk": true,
+    "lesson": 5,
+    "ex": {
+      "no": "Jeg legger meg nå. God natt!",
+      "de": "Ich gehe jetzt ins Bett. Gute Nacht!"
+    }
+  },
+  {
+    "id": "w05_sove",
+    "no": "sove",
+    "de": "schlafen",
+    "pos": "verb",
+    "vf": [
+      "sover",
+      "sov",
+      "sovet",
+      "sov"
+    ],
+    "vg": "sterk",
+    "wk": true,
+    "lesson": 5,
+    "ex": {
+      "no": "Sov godt!",
+      "de": "Schlaf gut!"
+    }
+  },
+  {
+    "id": "w05_sende",
+    "no": "sende",
+    "de": "schicken",
+    "deAlt": [
+      "reichen",
+      "senden"
+    ],
+    "pos": "verb",
+    "vf": [
+      "sender",
+      "sendte",
+      "sendt",
+      "send"
+    ],
+    "vg": "2",
+    "wk": true,
+    "lesson": 5,
+    "ex": {
+      "no": "Kan du sende meg brunosten?",
+      "de": "Kannst du mir den Braunkäse reichen?"
+    },
+    "note": "Bei Tisch: etwas reichen."
+  },
+  {
+    "id": "w05_vaske_seg",
+    "no": "vaske seg",
+    "de": "sich waschen",
+    "pos": "verb",
+    "vf": [
+      "vasker seg",
+      "vasket seg",
+      "vasket seg",
+      "vask deg"
+    ],
+    "vg": "1",
+    "lesson": 5,
+    "ex": {
+      "no": "Jeg vasker meg om morgenen.",
+      "de": "Ich wasche mich morgens."
+    }
+  },
+  {
+    "id": "w05_kle_paa_seg",
+    "no": "kle på seg",
+    "de": "sich anziehen",
+    "pos": "verb",
+    "vf": [
+      "kler på seg",
+      "kledde på seg",
+      "kledd på seg",
+      "kle på deg"
+    ],
+    "vg": "4",
+    "lesson": 5,
+    "ex": {
+      "no": "Det er kaldt. Kle godt på deg!",
+      "de": "Es ist kalt. Zieh dich warm an!"
+    }
+  },
+  {
+    "id": "w05_blaa",
+    "no": "blå",
+    "de": "blau",
+    "pos": "adj",
+    "forms": [
+      "blå",
+      "blått",
+      "blå/blåe"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Ola har et blått pledd.",
+      "de": "Ola hat eine blaue Wolldecke."
+    },
+    "note": "Neutrum mit -tt: blått."
+  },
+  {
+    "id": "w05_ny",
+    "no": "ny",
+    "de": "neu",
+    "pos": "adj",
+    "forms": [
+      "ny",
+      "nytt",
+      "nye"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Anna har et nytt skjerf.",
+      "de": "Anna hat einen neuen Schal."
+    },
+    "note": "Neutrum mit -tt: nytt."
+  },
+  {
+    "id": "w05_fri",
+    "no": "fri",
+    "de": "frei",
+    "pos": "adj",
+    "forms": [
+      "fri",
+      "fritt",
+      "frie"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Er bordet fritt?",
+      "de": "Ist der Tisch frei?"
+    },
+    "note": "ha fri = frei haben."
+  },
+  {
+    "id": "w05_rod",
+    "no": "rød",
+    "de": "rot",
+    "pos": "adj",
+    "forms": [
+      "rød",
+      "rødt",
+      "røde"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Familien har et rødt hus.",
+      "de": "Die Familie hat ein rotes Haus."
+    }
+  },
+  {
+    "id": "w05_pledd",
+    "no": "pledd",
+    "de": "die Wolldecke",
+    "deAlt": [
+      "die Decke"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "pledd",
+      "pleddet",
+      "pledd",
+      "pledda/pleddene"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Et pledd i sofaen er koselig.",
+      "de": "Eine Wolldecke auf dem Sofa ist gemütlich."
+    }
+  },
+  {
+    "id": "w05_skjerf",
+    "no": "skjerf",
+    "de": "der Schal",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "skjerf",
+      "skjerfet",
+      "skjerf",
+      "skjerfa/skjerfene"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Skjerfet er blått.",
+      "de": "Der Schal ist blau."
+    }
+  },
+  {
+    "id": "w05_gronn",
+    "no": "grønn",
+    "de": "grün",
+    "pos": "adj",
+    "forms": [
+      "grønn",
+      "grønt",
+      "grønne"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Bestemor spiser et grønt eple.",
+      "de": "Oma isst einen grünen Apfel."
+    },
+    "note": "Neutrum mit einem n: grønt."
+  },
+  {
+    "id": "w05_tynn",
+    "no": "tynn",
+    "de": "dünn",
+    "pos": "adj",
+    "forms": [
+      "tynn",
+      "tynt",
+      "tynne"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Pleddet er tynt.",
+      "de": "Die Decke ist dünn."
+    }
+  },
+  {
+    "id": "w05_trygg",
+    "no": "trygg",
+    "de": "sicher",
+    "pos": "adj",
+    "forms": [
+      "trygg",
+      "trygt",
+      "trygge"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Det er trygt å gå på tur her.",
+      "de": "Es ist sicher, hier zu wandern."
+    }
+  },
+  {
+    "id": "w05_dum",
+    "no": "dum",
+    "de": "dumm",
+    "pos": "adj",
+    "forms": [
+      "dum",
+      "dumt",
+      "dumme"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Det er ikke et dumt spørsmål.",
+      "de": "Das ist keine dumme Frage."
+    },
+    "note": "Kein Doppel-m am Wortende, aber: dumme."
+  },
+  {
+    "id": "w05_rom",
+    "no": "rom",
+    "de": "das Zimmer",
+    "deAlt": [
+      "der Raum"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "rom",
+      "rommet",
+      "rom",
+      "romma/rommene"
+    ],
+    "lesson": 5,
+    "ex": {
+      "no": "Rommet er lite, men koselig.",
+      "de": "Das Zimmer ist klein, aber gemütlich."
+    }
+  },
+  {
+    "id": "w05_huske",
+    "no": "huske",
+    "de": "sich erinnern",
+    "deAlt": [
+      "nicht vergessen",
+      "denken an"
+    ],
+    "pos": "verb",
+    "vf": [
+      "husker",
+      "husket",
+      "husket",
+      "husk"
+    ],
+    "vg": "1",
+    "lesson": 5,
+    "ex": {
+      "no": "Husk matpakka!",
+      "de": "Denk an dein Lunchpaket!"
+    },
+    "note": "Nicht reflexiv: Jeg husker det. = Ich erinnere mich daran."
+  },
+  {
+    "id": "w05_regne",
+    "no": "regne",
+    "de": "regnen",
+    "pos": "verb",
+    "vf": [
+      "regner",
+      "regnet",
+      "regnet",
+      "regn"
+    ],
+    "vg": "1",
+    "lesson": 5,
+    "ex": {
+      "no": "Det regner i dag.",
+      "de": "Es regnet heute."
+    }
+  },
+  {
+    "id": "w05_meg",
+    "no": "meg",
+    "de": "mich",
+    "deAlt": [
+      "mir"
+    ],
+    "pos": "pron",
+    "lesson": 5,
+    "ex": {
+      "no": "Kan du hjelpe meg?",
+      "de": "Kannst du mir helfen?"
+    }
+  },
+  {
+    "id": "w05_deg",
+    "no": "deg",
+    "de": "dich",
+    "deAlt": [
+      "dir"
+    ],
+    "pos": "pron",
+    "lesson": 5,
+    "ex": {
+      "no": "Jeg ringer deg i kveld.",
+      "de": "Ich rufe dich heute Abend an."
+    }
+  },
+  {
+    "id": "w05_ham",
+    "no": "ham",
+    "de": "ihn",
+    "deAlt": [
+      "ihm"
+    ],
+    "pos": "pron",
+    "lesson": 5,
+    "ex": {
+      "no": "Alle liker ham.",
+      "de": "Alle mögen ihn."
+    },
+    "note": "Auch han ist als Objektform erlaubt."
+  },
+  {
+    "id": "w05_henne",
+    "no": "henne",
+    "de": "sie",
+    "deAlt": [
+      "ihr"
+    ],
+    "pos": "pron",
+    "lesson": 5,
+    "ex": {
+      "no": "Susanne snakker med henne.",
+      "de": "Susanne spricht mit ihr."
+    }
+  },
+  {
+    "id": "w05_oss",
+    "no": "oss",
+    "de": "uns",
+    "pos": "pron",
+    "lesson": 5,
+    "ex": {
+      "no": "Vil du bli med oss?",
+      "de": "Willst du mit uns kommen?"
+    }
+  },
+  {
+    "id": "w05_dem",
+    "no": "dem",
+    "de": "sie (Plural, Objekt)",
+    "deAlt": [
+      "sie",
+      "ihnen"
+    ],
+    "pos": "pron",
+    "lesson": 5,
+    "ex": {
+      "no": "Vi spiser dem til lunsj.",
+      "de": "Wir essen sie mittags."
+    }
+  },
+  {
+    "id": "w05_seg",
+    "no": "seg",
+    "de": "sich",
+    "pos": "pron",
+    "lesson": 5,
+    "ex": {
+      "no": "Ola kler på seg.",
+      "de": "Ola zieht sich an."
+    }
+  }
+]

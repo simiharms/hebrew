@@ -1,0 +1,321 @@
+{
+  "n": 21,
+  "level": "B2",
+  "title": "Biltur og krangel på Sørlandskysten",
+  "titleDe": "Autofahrt und Streit an der Südküste",
+  "place": "Kristiansand – Lillesand – Mandal – Stavanger (Preikestolen)",
+  "goals": [
+    "Du kannst von einer Autofahrt erzählen und die wichtigsten Wörter rund um Auto und Verkehr verwenden.",
+    "Du lernst egen/eget/egne: min egen bil, sitt eget kart, mine egne regler.",
+    "Du kannst „einander“ ausdrücken: Vi sees! De møttes. De så på hverandre.",
+    "Du lernst das Partizip Präsens: en sovende baby, overraskende stille, Han kom løpende.",
+    "Du erfährst etwas über Sørlandet, Stavanger und den Preikestolen."
+  ],
+  "text": {
+    "id": "t21",
+    "title": "Biltur og krangel på Sørlandskysten",
+    "titleDe": "Autofahrt und Streit an der Südküste",
+    "kind": "prose",
+    "intro": "Im Mai mieten Susanne und Matthias ein Auto und fahren ein langes Wochenende die Südküste entlang – von Kristiansand bis Stavanger. Es wird eine Reise mit Hindernissen.",
+    "lines": [
+      { "no": "Det var Matthias som hadde foreslått turen. «En langhelg på Sørlandet i mai, bare du og jeg og en leiebil,» hadde han skrevet. Susanne hadde sagt ja med en gang. Hun hadde aldri vært på Sørlandet, og hun hadde lest mye om de hvite trehusene og den vakre skjærgården.", "de": "Matthias war es gewesen, der die Reise vorgeschlagen hatte. „Ein langes Wochenende an der Südküste im Mai, nur du und ich und ein Mietwagen“, hatte er geschrieben. Susanne hatte sofort Ja gesagt. Sie war noch nie in Sørlandet gewesen und hatte viel über die weißen Holzhäuser und die schönen Schären gelesen." },
+      { "no": "De møttes på flyplassen i Kristiansand fredag morgen. Matthias hadde bestilt en liten elbil for flere uker siden, og han hadde selvfølgelig tatt med sitt eget kart, selv om bilen hadde GPS. «Et papirkart går aldri tom for strøm,» sa han. Susanne himlet med øynene, men hun smilte.", "de": "Sie trafen sich am Freitagmorgen am Flughafen in Kristiansand. Matthias hatte schon vor mehreren Wochen ein kleines Elektroauto gemietet, und natürlich hatte er seine eigene Landkarte mitgebracht, obwohl das Auto ein Navi hatte. „Einer Papierkarte geht nie der Strom aus“, sagte er. Susanne verdrehte die Augen, aber sie lächelte." },
+      { "no": "Den første dagen kjørte de østover til Lillesand. Den lille byen var overraskende stille, og de hvite husene rundt havna lå skinnende i sola. De gikk rundt i de smale gatene og spiste ferske reker på brygga. «Hver by her har sin egen sjarm,» sa Susanne. Om ettermiddagen kjørte de vestover igjen, forbi Kristiansand og videre mot Mandal, Norges sørligste by.", "de": "Am ersten Tag fuhren sie ostwärts nach Lillesand. Das kleine Städtchen war überraschend still, und die weißen Häuser rund um den Hafen leuchteten in der Sonne. Sie spazierten durch die engen Gassen und aßen frische Krabben auf dem Kai. „Jede Stadt hier hat ihren eigenen Charme“, sagte Susanne. Am Nachmittag fuhren sie wieder westwärts, an Kristiansand vorbei und weiter nach Mandal, der südlichsten Stadt Norwegens." },
+      { "no": "Allerede på veien dit begynte problemene. Matthias kjørte nøyaktig sytti der fartsgrensen var sytti, og bremset før hver eneste sving. Bak dem vokste en lang kø av irriterte bilister. «Kan du ikke kjøre litt fortere?» spurte Susanne. «Jeg kjører etter reglene,» svarte Matthias uten å se på henne.", "de": "Schon auf dem Weg dorthin begannen die Probleme. Matthias fuhr genau siebzig, wo siebzig erlaubt war, und bremste vor jeder einzelnen Kurve. Hinter ihnen wuchs eine lange Schlange gereizter Autofahrer. „Kannst du nicht ein bisschen schneller fahren?“, fragte Susanne. „Ich fahre nach den Regeln“, antwortete Matthias, ohne sie anzusehen." },
+      { "no": "Neste morgen ville de ta ferja ut til en liten øy i skjærgården. Veien ned til kaia var så smal at Matthias måtte rygge inn på en møteplass for hver møtende bil. GPS-en viste én vei, kartet hans en annen, og de kranglet så lenge om kartet at de kom fram akkurat idet ferja la fra kai. «Hvis du hadde hørt på meg …» begynte Matthias. «Hvis du hadde kjørt litt fortere …» svarte Susanne.", "de": "Am nächsten Morgen wollten sie die Fähre zu einer kleinen Insel in den Schären nehmen. Die Straße hinunter zum Kai war so schmal, dass Matthias bei jedem entgegenkommenden Auto in eine Ausweichstelle zurücksetzen musste. Das Navi zeigte einen Weg, seine Karte einen anderen, und sie stritten so lange über die Karte, dass sie genau in dem Moment ankamen, als die Fähre ablegte. „Wenn du auf mich gehört hättest …“, begann Matthias. „Wenn du ein bisschen schneller gefahren wärst …“, antwortete Susanne." },
+      { "no": "Etter det ville Susanne kjøre selv. Ti minutter senere blinket det i en fotoboks. Matthias sa ingenting, men smilet hans sa mer enn tusen ord. Så surret telefonen hennes. Matthias kastet et blikk på skjermen. «Erik,» leste han. «Dere snakker visst fortsatt sammen.» «Det er da ikke din sak hvem jeg snakker med!» svarte Susanne skarpt.", "de": "Danach wollte Susanne selbst fahren. Zehn Minuten später wurde sie geblitzt. Matthias sagte nichts, aber sein Lächeln sagte mehr als tausend Worte. Dann summte ihr Handy. Matthias warf einen Blick auf den Bildschirm. „Erik“, las er. „Ihr redet also immer noch miteinander.“ „Das geht dich doch nichts an, mit wem ich rede!“, antwortete Susanne scharf." },
+      { "no": "Resten av veien til Stavanger snakket de ikke med hverandre. Susanne stirret på veien, og Matthias stirret ut av vinduet.", "de": "Den Rest der Strecke bis Stavanger sprachen sie nicht miteinander. Susanne starrte auf die Straße, und Matthias starrte aus dem Fenster." },
+      { "no": "Neste morgen gikk de opp til Preikestolen. Stien var bratt og steinete, og de gikk lenge uten å si et ord. Rundt dem var det fullt av folk: pesende pensjonister, syngende skoleklasser og en far med en sovende baby på ryggen. Etter to timer sto de endelig på det flate fjellplatået, rundt seks hundre meter over Lysefjorden. Susanne ble stående helt stille.", "de": "Am nächsten Morgen stiegen sie zum Preikestolen hinauf. Der Pfad war steil und steinig, und sie gingen lange, ohne ein Wort zu sagen. Um sie herum war es voller Menschen: keuchende Rentner, singende Schulklassen und ein Vater mit einem schlafenden Baby auf dem Rücken. Nach zwei Stunden standen sie endlich auf dem flachen Felsplateau, rund sechshundert Meter über dem Lysefjord. Susanne blieb ganz still stehen." },
+      { "no": "Matthias kom gående bort til henne. «Jeg har vært dum,» sa han. «Du har rett, jeg kjører som en bestefar. Og hvem du skriver med, er din egen sak.» Susanne satte seg på en stein, et godt stykke fra kanten. «Og du hadde rett om kartet. GPS-en mistet dekningen tre ganger i går.» Hun tok fram telefonen og viste ham svaret hun hadde sendt Erik: «Takk, men nei takk. Lykke til videre.»", "de": "Matthias kam zu ihr herübergegangen. „Ich war dumm“, sagte er. „Du hast recht, ich fahre wie ein Großvater. Und mit wem du schreibst, ist deine eigene Sache.“ Susanne setzte sich auf einen Stein, ein gutes Stück vom Rand entfernt. „Und du hattest recht mit der Karte. Das Navi hat gestern dreimal den Empfang verloren.“ Sie holte ihr Handy heraus und zeigte ihm die Antwort, die sie Erik geschickt hatte: „Danke, aber nein danke. Alles Gute weiterhin.“" },
+      { "no": "Matthias så lenge på henne, og så begynte de begge å le. «Vi er visst ikke så flinke til å krangle,» sa han.", "de": "Matthias sah sie lange an, und dann fingen beide an zu lachen. „Wir können wohl nicht besonders gut streiten“, sagte er." },
+      { "no": "«Nei,» svarte Susanne, «men vi er ganske flinke til å bli venner igjen.» De satt der lenge, tett inntil hverandre, og så utover fjorden.", "de": "„Nein“, antwortete Susanne, „aber wir können ziemlich gut wieder Freunde werden.“ Sie saßen lange dort, dicht aneinander, und schauten über den Fjord." },
+      { "no": "«Vi sees i Oslo til 17. mai?» spurte Matthias da de skiltes på flyplassen dagen etter. «Vi sees,» sa Susanne og smilte.", "de": "„Sehen wir uns am 17. Mai in Oslo?“, fragte Matthias, als sie sich am nächsten Tag am Flughafen trennten. „Wir sehen uns“, sagte Susanne und lächelte." }
+    ],
+    "glossary": [
+      { "no": "Sørlandskysten", "de": "die Küste von Sørlandet (Südnorwegen)" },
+      { "no": "foreslått", "de": "vorgeschlagen" },
+      { "no": "langhelg", "de": "langes Wochenende" },
+      { "no": "leiebil", "de": "Mietwagen" },
+      { "no": "med en gang", "de": "sofort" },
+      { "no": "skjærgården", "de": "die Schären (Inseln vor der Küste)" },
+      { "no": "møttes", "de": "trafen sich" },
+      { "no": "elbil", "de": "Elektroauto" },
+      { "no": "sitt eget kart", "de": "seine eigene Karte" },
+      { "no": "går aldri tom for strøm", "de": "geht nie der Strom aus" },
+      { "no": "himlet med øynene", "de": "verdrehte die Augen" },
+      { "no": "østover", "de": "ostwärts" },
+      { "no": "overraskende", "de": "überraschend" },
+      { "no": "lå skinnende i sola", "de": "leuchteten in der Sonne" },
+      { "no": "reker", "de": "Krabben, Garnelen" },
+      { "no": "sin egen sjarm", "de": "ihren eigenen Charme" },
+      { "no": "sørligste", "de": "südlichste" },
+      { "no": "nøyaktig", "de": "genau" },
+      { "no": "fartsgrensen", "de": "das Tempolimit" },
+      { "no": "bremset", "de": "bremste" },
+      { "no": "irriterte bilister", "de": "gereizte Autofahrer" },
+      { "no": "rygge", "de": "zurücksetzen, rückwärtsfahren" },
+      { "no": "møteplass", "de": "Ausweichstelle" },
+      { "no": "møtende bil", "de": "entgegenkommendes Auto" },
+      { "no": "idet", "de": "in dem Moment, als" },
+      { "no": "la fra kai", "de": "legte ab" },
+      { "no": "blinket det i en fotoboks", "de": "blitzte ein Blitzer (wurde sie geblitzt)" },
+      { "no": "surret", "de": "summte, vibrierte" },
+      { "no": "kastet et blikk på", "de": "warf einen Blick auf" },
+      { "no": "Det er da ikke din sak", "de": "Das geht dich doch nichts an" },
+      { "no": "skarpt", "de": "scharf" },
+      { "no": "med hverandre", "de": "miteinander" },
+      { "no": "steinete", "de": "steinig" },
+      { "no": "pesende pensjonister", "de": "keuchende Rentner" },
+      { "no": "ble stående", "de": "blieb stehen" },
+      { "no": "kom gående", "de": "kam herübergegangen" },
+      { "no": "et godt stykke fra kanten", "de": "ein gutes Stück vom Rand entfernt" },
+      { "no": "Lykke til videre", "de": "Alles Gute weiterhin" },
+      { "no": "tett inntil hverandre", "de": "dicht aneinander" },
+      { "no": "skiltes", "de": "trennten sich" }
+    ]
+  },
+  "extra": [
+    {
+      "id": "x21a",
+      "title": "Sørlandet og Stavanger",
+      "titleDe": "Sørlandet und Stavanger",
+      "kind": "info",
+      "intro": "Weiße Holzhäuser, Schären, Öl und ein berühmter Felsen: Norwegens Süden und Südwesten.",
+      "lines": [
+        { "no": "Sørlandet er landsdelen helt sør i Norge, langs kysten fra Risør i øst til Flekkefjord i vest. For mange nordmenn er Sørlandet selve sommerlandet: Her er det mange soltimer, en skjærgård med tusenvis av holmer og skjær, og små byer med hvite trehus. Mange av byene ble rike på skipsfart og trelast på 1700- og 1800-tallet. Det sies at husene ble malt hvite fordi hvit maling var dyr – fargen skulle vise at eieren hadde penger.", "de": "Sørlandet ist der Landesteil ganz im Süden Norwegens, entlang der Küste von Risør im Osten bis Flekkefjord im Westen. Für viele Norweger ist Sørlandet das Sommerland schlechthin: Hier gibt es viele Sonnenstunden, Schären mit Tausenden von kleinen Inseln und Klippen und kleine Städte mit weißen Holzhäusern. Viele dieser Städte wurden im 18. und 19. Jahrhundert durch Schifffahrt und Holzhandel reich. Man sagt, die Häuser seien weiß gestrichen worden, weil weiße Farbe teuer war – die Farbe sollte zeigen, dass der Besitzer Geld hatte." },
+        { "no": "Kristiansand er den største byen på Sørlandet. Den ble grunnlagt av kong Christian 4. i 1641, og sentrum, Kvadraturen, har fortsatt rette gater som i et rutenett. Øst for Kristiansand ligger Lillesand og Grimstad, der den unge Henrik Ibsen var lærling på et apotek. Mandal, vest for Kristiansand, er Norges sørligste by og kjent for den lange sandstranda Sjøsanden. Ikke langt unna står Lindesnes fyr, på det sørligste punktet på fastlandet.", "de": "Kristiansand ist die größte Stadt in Sørlandet. Sie wurde 1641 von König Christian IV. gegründet, und das Zentrum, Kvadraturen, hat bis heute gerade Straßen wie in einem Gitternetz. Östlich von Kristiansand liegen Lillesand und Grimstad, wo der junge Henrik Ibsen Lehrling in einer Apotheke war. Mandal, westlich von Kristiansand, ist die südlichste Stadt Norwegens und bekannt für den langen Sandstrand Sjøsanden. Nicht weit davon steht der Leuchtturm Lindesnes fyr am südlichsten Punkt des norwegischen Festlands." },
+        { "no": "Stavanger ligger lenger nordvest, i Rogaland, og hører egentlig til Vestlandet. Etter at man fant olje i Nordsjøen i 1969, vokste byen raskt, og i dag kalles den ofte «oljehovedstaden». Likevel har Stavanger mye gammelt: I Gamle Stavanger står over hundre små, hvite trehus fra 1700- og 1800-tallet, og domkirken er fra middelalderen. Sør for byen ligger Jæren, et flatt jordbruksområde med lange sandstrender.", "de": "Stavanger liegt weiter nordwestlich, in Rogaland, und gehört eigentlich schon zu Westnorwegen. Nachdem man 1969 in der Nordsee Öl gefunden hatte, wuchs die Stadt schnell, und heute wird sie oft „Ölhauptstadt“ genannt. Trotzdem hat Stavanger viel Altes: In Gamle Stavanger stehen über hundert kleine weiße Holzhäuser aus dem 18. und 19. Jahrhundert, und der Dom stammt aus dem Mittelalter. Südlich der Stadt liegt Jæren, ein flaches Agrargebiet mit langen Sandstränden." },
+        { "no": "Den mest kjente turen i området går til Preikestolen, et nesten flatt fjellplatå som ligger rundt 600 meter over Lysefjorden. Turen tar omtrent fire timer fram og tilbake, og stien er bratt flere steder, så gode sko er viktig. Hvert år går flere hundre tusen mennesker opp. Innerst i Lysefjorden ligger også Kjeragbolten, en stor stein som sitter fast mellom to fjellvegger – for dem som tør.", "de": "Die bekannteste Wanderung der Gegend führt zum Preikestolen, einem fast flachen Felsplateau, das rund 600 Meter über dem Lysefjord liegt. Hin und zurück dauert die Tour etwa vier Stunden, und der Pfad ist an mehreren Stellen steil, deshalb sind gute Schuhe wichtig. Jedes Jahr steigen mehrere hunderttausend Menschen hinauf. Ganz hinten im Lysefjord liegt außerdem der Kjeragbolten, ein großer Stein, der zwischen zwei Felswänden eingeklemmt ist – für alle, die sich trauen." },
+        { "no": "Og i Hafrsfjord, like ved Stavanger, står tre store sverd i fjellet. Monumentet «Sverd i fjell» minner om slaget i Hafrsfjord, der Harald Hårfagre ifølge tradisjonen samlet Norge til ett rike rundt år 872.", "de": "Und am Hafrsfjord, ganz in der Nähe von Stavanger, stecken drei große Schwerter im Fels. Das Denkmal „Sverd i fjell“ (Schwerter im Fels) erinnert an die Schlacht im Hafrsfjord, in der Harald Schönhaar der Überlieferung nach um das Jahr 872 Norwegen zu einem Reich vereinte." }
+      ],
+      "glossary": [
+        { "no": "landsdelen", "de": "der Landesteil" },
+        { "no": "selve sommerlandet", "de": "das Sommerland schlechthin" },
+        { "no": "soltimer", "de": "Sonnenstunden" },
+        { "no": "holmer og skjær", "de": "kleine Inseln und Klippen" },
+        { "no": "skipsfart", "de": "Schifffahrt" },
+        { "no": "trelast", "de": "Bauholz, Holzhandel" },
+        { "no": "Det sies", "de": "Man sagt" },
+        { "no": "maling", "de": "Farbe (zum Streichen)" },
+        { "no": "eieren", "de": "der Besitzer" },
+        { "no": "Christian 4.", "de": "Christian IV. (dänisch-norwegischer König)" },
+        { "no": "rutenett", "de": "Gitternetz" },
+        { "no": "lærling", "de": "Lehrling" },
+        { "no": "apotek", "de": "Apotheke" },
+        { "no": "sandstranda", "de": "der Sandstrand" },
+        { "no": "fyr", "de": "Leuchtturm" },
+        { "no": "fastlandet", "de": "das Festland" },
+        { "no": "hører egentlig til", "de": "gehört eigentlich zu" },
+        { "no": "Nordsjøen", "de": "die Nordsee" },
+        { "no": "kalles", "de": "wird genannt" },
+        { "no": "oljehovedstaden", "de": "die Ölhauptstadt" },
+        { "no": "jordbruksområde", "de": "Agrargebiet" },
+        { "no": "fjellplatå", "de": "Felsplateau" },
+        { "no": "fram og tilbake", "de": "hin und zurück" },
+        { "no": "Innerst i", "de": "ganz hinten in" },
+        { "no": "fjellvegger", "de": "Felswände" },
+        { "no": "for dem som tør", "de": "für alle, die sich trauen" },
+        { "no": "sverd", "de": "Schwerter" },
+        { "no": "minner om", "de": "erinnert an" },
+        { "no": "Harald Hårfagre", "de": "Harald Schönhaar (erster König über ganz Norwegen)" },
+        { "no": "ifølge tradisjonen", "de": "der Überlieferung nach" },
+        { "no": "rike", "de": "Reich" }
+      ]
+    }
+  ],
+  "wk": {
+    "title": "Bil og trafikk",
+    "titleDe": "Auto und Verkehr",
+    "phrases": [
+      { "no": "Har du førerkort?", "de": "Hast du einen Führerschein?" },
+      { "no": "Vi har leid en bil for hele helgen.", "de": "Wir haben für das ganze Wochenende ein Auto gemietet." },
+      { "no": "Husk å ta på setebeltet!", "de": "Denk daran, dich anzuschnallen!", "note": "Die Gurtpflicht gilt auf allen Plätzen." },
+      { "no": "Fartsgrensen er 80 her.", "de": "Hier gilt Tempo 80.", "note": "Außerhalb geschlossener Ortschaften meist 80 km/h, innerorts 50 km/h." },
+      { "no": "Jeg ble tatt i fotoboks.", "de": "Ich bin geblitzt worden." },
+      { "no": "Vi må lade bilen.", "de": "Wir müssen das Auto laden.", "note": "Bei einem Benziner: Vi må fylle bensin." },
+      { "no": "Hvor er nærmeste ladestasjon?", "de": "Wo ist die nächste Ladestation?" },
+      { "no": "Ta andre avkjørsel i rundkjøringen.", "de": "Nimm im Kreisverkehr die zweite Ausfahrt." },
+      { "no": "Du har vikeplikt.", "de": "Du musst die Vorfahrt beachten.", "note": "Wenn nichts anderes beschildert ist, gilt rechts vor links (høyreregelen)." },
+      { "no": "Kjør inn på møteplassen!", "de": "Fahr in die Ausweichstelle!", "note": "Auf schmalen Straßen gibt es Ausweichstellen, markiert mit einem M-Schild." },
+      { "no": "Vi må rygge litt.", "de": "Wir müssen ein Stück zurücksetzen." },
+      { "no": "Ikke kjør forbi i svingen!", "de": "Überhol nicht in der Kurve!" },
+      { "no": "Det er kø på E18.", "de": "Auf der E18 ist Stau." },
+      { "no": "Ferja går hver halvtime.", "de": "Die Fähre fährt jede halbe Stunde." },
+      { "no": "Vi rakk ikke ferja.", "de": "Wir haben die Fähre verpasst.", "note": "rekke (rakk, rukket) = rechtzeitig erreichen, schaffen" },
+      { "no": "Vi har fått punktering.", "de": "Wir haben einen Platten." },
+      { "no": "Hvor kan vi parkere?", "de": "Wo können wir parken?" },
+      { "no": "Jeg fikk parkeringsbot.", "de": "Ich habe einen Strafzettel fürs Falschparken bekommen." },
+      { "no": "Vi kjørte gjennom en bomstasjon.", "de": "Wir sind durch eine Mautstelle gefahren.", "note": "Die Maut (bompenger) wird meist automatisch über das Kennzeichen abgerechnet." },
+      { "no": "Kjør forsiktig!", "de": "Fahr vorsichtig!" }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g21_egen",
+      "title": "egen",
+      "titleNo": "egen",
+      "summary": "egen/eget/egne heißt „eigen“: min egen bil, sitt eget kart, mine egne regler – nach dem Possessiv im Singular ohne -e!",
+      "sections": [
+        {
+          "h": "Die Formen",
+          "body": "**egen** (m/f), **eget** (n), **egne** (Plural):\n\n• **min egen bil**, **mi egen hytte**, **mitt eget rom**, **mine egne barn**\n• **hans egen idé**, **hennes eget kart**, **deres egne regler**\n\n**egen** steht vor dem Substantiv, das Substantiv bleibt unbestimmt. Aber Achtung, eine Ausnahme: Nach einem Possessiv bekommen normale Adjektive ein **-e** (**min nye bil**), **egen** im Singular aber nicht: **min egen bil** (nicht *min egne bil), **mitt eget rom** (nicht *mitt egne rom). Nur im Plural steht **egne**.",
+          "table": [
+            ["", "maskulin/feminin", "neutrum", "Plural"],
+            ["nach Possessiv", "min egen bil", "mitt eget kart", "mine egne regler"],
+            ["mit sin/si/sitt/sine", "sin egen sjarm", "sitt eget kart", "sine egne meninger"],
+            ["unbestimmt", "en egen inngang", "et eget rom", "egne rom"]
+          ]
+        },
+        {
+          "h": "Mit sin und ohne Possessiv",
+          "body": "Mit dem reflexiven Possessiv (Lektion 15): **Matthias hadde med sitt eget kart.** **Hver by har sin egen sjarm.** **De har sine egne meninger.**\n\nAuch mit unbestimmtem Artikel oder ganz ohne Artikel, oft im Sinn von „separat, für sich“: **et eget rom** (ein eigenes Zimmer), **en egen inngang** (ein separater Eingang), **Hun har egen bil.** (Sie hat ein eigenes Auto – ohne Artikel, wie **ha bil**.)"
+        },
+        {
+          "h": "Feste Wendungen",
+          "body": "• **på egen hånd** = auf eigene Faust\n• **for egen regning** = auf eigene Kosten\n• **med egne øyne** = mit eigenen Augen\n• **Det er din egen sak.** = Das ist deine Sache. / Das geht nur dich etwas an.\n• **hver sin / hvert sitt eget …** = jeder sein eigenes …: **Barna har hvert sitt eget rom.**"
+        }
+      ],
+      "drills": [
+        { "prompt": "Matthias hadde med seg sitt ___ kart. (egen)", "de": "Matthias hatte seine eigene Karte dabei.", "answer": ["eget"], "explain": "et kart ist Neutrum → eget; nach dem Possessiv kein -e." },
+        { "prompt": "«Hver by her har sin ___ sjarm,» sa Susanne. (egen)", "de": "„Jede Stadt hier hat ihren eigenen Charme“, sagte Susanne.", "answer": ["egen"], "explain": "en sjarm ist maskulin → egen (nicht egne)." },
+        { "prompt": "Matthias og Susanne har sine ___ meninger om kjøring. (egen)", "de": "Matthias und Susanne haben ihre eigenen Meinungen übers Autofahren.", "answer": ["egne"], "explain": "Plural → egne." },
+        { "prompt": "Inga har sitt ___ rom i leiligheten. (egen)", "de": "Inga hat ihr eigenes Zimmer in der Wohnung.", "answer": ["eget"], "explain": "et rom ist Neutrum → eget." },
+        { "prompt": "Leiligheten har en ___ inngang. (egen)", "de": "Die Wohnung hat einen separaten Eingang.", "answer": ["egen"], "explain": "en inngang → en egen inngang (eigener, separater Eingang)." },
+        { "prompt": "Jeg så det med mine ___ øyne. (egen)", "de": "Ich habe es mit eigenen Augen gesehen.", "answer": ["egne"], "explain": "Plural (øyne) → egne." },
+        { "prompt": "Hvem du skriver med, er din ___ sak. (egen)", "de": "Mit wem du schreibst, ist deine eigene Sache.", "answer": ["egen"], "explain": "ei/en sak, Singular nach Possessiv → egen." },
+        { "prompt": "Matthias ville helst kjøre sin ___ bil. (egen)", "de": "Matthias wäre am liebsten sein eigenes Auto gefahren.", "answer": ["egen"], "explain": "en bil → sin egen bil." },
+        { "prompt": "Barna har fått hvert sitt ___ rom. (egen)", "de": "Die Kinder haben jedes ein eigenes Zimmer bekommen.", "answer": ["eget"], "explain": "hvert sitt eget rom – Neutrum Singular." },
+        { "prompt": "Vi reiste rundt på ___ hånd. (egen)", "de": "Wir sind auf eigene Faust herumgereist.", "answer": ["egen"], "explain": "Feste Wendung: på egen hånd = auf eigene Faust." },
+        { "prompt": "«Mitt ___ kart er bedre enn GPS-en,» sa Matthias. (egen)", "de": "„Meine eigene Karte ist besser als das Navi“, sagte Matthias.", "answer": ["eget"], "explain": "mitt kart → mitt eget kart." }
+      ]
+    },
+    {
+      "id": "g21_resiproke",
+      "title": "Reziproke s-Verben und hverandre",
+      "titleNo": "resiproke verb og hverandre",
+      "summary": "„einander, sich (gegenseitig)“ drückst du mit einem s-Verb aus (Vi sees! De møttes.) oder mit hverandre (De så på hverandre).",
+      "sections": [
+        {
+          "h": "s-Verben mit gegenseitiger Bedeutung",
+          "body": "Einige Verben bekommen mit **-s** die Bedeutung „einander, sich gegenseitig“. Das Subjekt steht immer im Plural:\n\n• **møte → møtes** (sich treffen): **Vi møtes på flyplassen.**\n• **se → sees/ses** (sich sehen): **Vi sees i morgen!**\n• **treffe → treffes** (sich treffen): **Når kan vi treffes?**\n• **snakke → snakkes**: **Vi snakkes!** (Wir hören uns!)\n• **høre → høres**: **Vi høres!** (Wir hören voneinander!)\n• **skille → skilles** (sich trennen): **De skiltes på flyplassen.**\n\nDie Form sieht aus wie das s-Passiv (Lektion 18), hat aber eine aktive, gegenseitige Bedeutung."
+        },
+        {
+          "h": "Die Zeitformen",
+          "body": "Präsens und Infinitiv sind gleich: **vi møtes, vi sees, de skilles**. Im Präteritum sind vor allem **møttes, traffes** und **skiltes** häufig: **De møttes i Kristiansand.** (Sie trafen sich in Kristiansand.)\n\nIm Perfekt und bei anderen Verben nimmt man meist **hverandre**: **Vi har ikke sett hverandre på lenge.** (Wir haben uns lange nicht gesehen.)\n\n**Vi snakkes!**, **Vi sees!** und **Vi høres!** sind feste Abschiedsformeln – sehr häufig am Telefon und in Nachrichten."
+        },
+        {
+          "h": "hverandre = einander",
+          "body": "Bei allen anderen Verben steht **hverandre** (einander). Es ist unveränderlich:\n\n• **De så på hverandre.** (Sie sahen einander an.)\n• **De kranglet med hverandre.** (Sie stritten miteinander.)\n• **Vi hjelper hverandre.** (Wir helfen uns gegenseitig.)\n\nPräpositionen stehen davor: **med hverandre** (miteinander), **ved siden av hverandre** (nebeneinander), **fra hverandre** (auseinander). Genitiv: **hverandres**: **De låner hverandres klær.**\n\nAchtung: Wo das Deutsche „sich“ sagt, musst du unterscheiden: **De vasker seg** (jeder sich selbst) – **De vasker hverandre** (einer den anderen). **seg** ist nur reflexiv, nie gegenseitig."
+        }
+      ],
+      "drills": [
+        { "prompt": "Susanne og Matthias ___ på flyplassen fredag morgen. (møtes, preteritum)", "de": "Susanne und Matthias trafen sich am Freitagmorgen am Flughafen.", "answer": ["møttes"], "explain": "Präteritum von møtes: møttes." },
+        { "prompt": "Ha det, vi ___ i Oslo! (se)", "de": "Tschüss, wir sehen uns in Oslo!", "answer": ["sees", "ses"], "explain": "Vi sees/ses = Wir sehen uns; beide Schreibweisen sind richtig." },
+        { "prompt": "Vi ___! Ring meg i morgen. (snakke)", "de": "Wir hören uns! Ruf mich morgen an.", "answer": ["snakkes"], "explain": "Feste Abschiedsformel: Vi snakkes!" },
+        { "prompt": "De kranglet med ___ hele veien til Stavanger.", "de": "Sie stritten sich den ganzen Weg bis Stavanger miteinander.", "answer": ["hverandre"], "explain": "krangle med hverandre = miteinander streiten." },
+        { "prompt": "De så lenge på ___ uten å si noe.", "de": "Sie sahen einander lange an, ohne etwas zu sagen.", "answer": ["hverandre"], "explain": "se på hverandre = einander ansehen." },
+        { "prompt": "Når kan vi ___ igjen? (treffe)", "de": "Wann können wir uns wieder treffen?", "answer": ["treffes"], "explain": "treffe + s = treffes (sich treffen); nach kan der Infinitiv." },
+        { "prompt": "De ___ på flyplassen dagen etter. (skilles, preteritum)", "de": "Sie trennten sich am nächsten Tag am Flughafen.", "answer": ["skiltes"], "explain": "Präteritum von skilles: skiltes." },
+        { "prompt": "Inga og Susanne hjelper ___ med leksene.", "de": "Inga und Susanne helfen sich gegenseitig bei den Hausaufgaben.", "answer": ["hverandre"], "explain": "„sich gegenseitig“ = hverandre, nicht seg." },
+        { "prompt": "Inga og Susanne låner ofte ___ klær.", "de": "Inga und Susanne leihen oft gegenseitig ihre Kleider aus.", "answer": ["hverandres"], "explain": "Genitiv: hverandres = des/der anderen." },
+        { "prompt": "Matthias og Susanne satt ved siden av ___ i bilen.", "de": "Matthias und Susanne saßen im Auto nebeneinander.", "answer": ["hverandre"], "explain": "ved siden av hverandre = nebeneinander." },
+        { "prompt": "Skal vi ___ ved kaia klokka sju? (møte, gegenseitig)", "de": "Sollen wir uns um sieben am Kai treffen?", "answer": ["møtes"], "explain": "møtes = sich treffen; nach skal der Infinitiv." }
+      ]
+    },
+    {
+      "id": "g21_presens_partisipp",
+      "title": "Das Partizip Präsens",
+      "titleNo": "presens partisipp",
+      "summary": "Mit -ende bildest du das Partizip Präsens (kjørende, sovende). Es ist unveränderlich und steht als Adjektiv, als Adverb und nach bli oder komme.",
+      "sections": [
+        {
+          "h": "Bildung",
+          "body": "Infinitiv + **-ende**; ein End-e fällt weg:\n\n• **kjøre → kjørende**, **sove → sovende**, **smile → smilende**, **overraske → overraskende**\n• einsilbige Verben: **gå → gående**, **stå → stående**, **bo → boende**, **se → seende**\n\nDas Partizip ist **unveränderlich**: **en sovende baby, et sovende barn, sovende barn**."
+        },
+        {
+          "h": "Als Adjektiv, Adverb und Substantiv",
+          "body": "• Adjektiv: **en sovende baby** (ein schlafendes Baby), **møtende trafikk** (Gegenverkehr), **syngende skoleklasser** (singende Schulklassen)\n• ohne Artikel in Zeitangaben: **kommende helg** (nächstes Wochenende), **kommende uke**\n• Adverb, meist vor einem Adjektiv: **Det var overraskende stille.** (überraschend still) Auch: **Hun snakker flytende norsk.** (Sie spricht fließend Norwegisch.)\n• Substantiv: **de reisende** (die Reisenden), **en forbipasserende** (ein Passant)\n\nIm Deutschen sind lange Partizipkonstruktionen üblich („der im Auto sitzende Mann“). Im Norwegischen nimmt man dafür einen Relativsatz: **mannen som sitter i bilen**."
+        },
+        {
+          "h": "Mit bli und komme",
+          "body": "**bli + Partizip Präsens** (nur mit Verben der Lage: **sitte, stå, ligge, bo**) = in dieser Lage bleiben:\n\n• **Hun ble sittende i bilen.** (Sie blieb im Auto sitzen.)\n• **Susanne ble stående helt stille.** (Susanne blieb ganz still stehen.)\n• **Mange blir boende i Tromsø.** (Viele bleiben in Tromsø wohnen.)\n\n**komme + Partizip Präsens** = auf eine bestimmte Art herankommen:\n\n• **Han kom løpende.** (Er kam angelaufen.)\n• **Matthias kom gående bort til henne.** (Matthias kam zu ihr herübergegangen.)\n\nAchtung: Das Deutsche sagt „angelaufen kommen“ mit Partizip Perfekt – das Norwegische nimmt das Partizip **Präsens**."
+        }
+      ],
+      "drills": [
+        { "prompt": "Matthias kom ___ bort til henne. (gå)", "de": "Matthias kam zu ihr herübergegangen.", "answer": ["gående"], "explain": "komme + Partizip Präsens: kom gående." },
+        { "prompt": "Susanne ble ___ helt stille på fjellplatået. (stå)", "de": "Susanne blieb auf dem Felsplateau ganz still stehen.", "answer": ["stående"], "explain": "bli + Partizip Präsens: ble stående = blieb stehen." },
+        { "prompt": "En far bar en ___ baby på ryggen. (sove)", "de": "Ein Vater trug ein schlafendes Baby auf dem Rücken.", "answer": ["sovende"], "explain": "Als Adjektiv: sove → sovende (unveränderlich)." },
+        { "prompt": "Den lille byen var ___ stille. (overraske)", "de": "Das kleine Städtchen war überraschend still.", "answer": ["overraskende"], "explain": "Als Adverb vor einem Adjektiv: overraskende stille." },
+        { "prompt": "Matthias måtte rygge for hver ___ bil. (møte)", "de": "Matthias musste bei jedem entgegenkommenden Auto zurücksetzen.", "answer": ["møtende"], "explain": "møtende bil = entgegenkommendes Auto." },
+        { "prompt": "Bamse kom ___ da han hørte bilen. (løpe)", "de": "Bamse kam angelaufen, als er das Auto hörte.", "answer": ["løpende"], "explain": "kom løpende = kam angelaufen (Partizip Präsens!)." },
+        { "prompt": "Hun ble ___ i bilen mens han kjøpte kaffe. (sitte)", "de": "Sie blieb im Auto sitzen, während er Kaffee kaufte.", "answer": ["sittende"], "explain": "ble sittende = blieb sitzen." },
+        { "prompt": "Inga snakker ___ samisk. (flyte)", "de": "Inga spricht fließend Samisch.", "answer": ["flytende"], "explain": "flytende = fließend (auch bei Sprachen)." },
+        { "prompt": "Vi skal gå til Preikestolen ___ helg. (komme)", "de": "Nächstes Wochenende wandern wir zum Preikestolen.", "answer": ["kommende"], "explain": "kommende helg = nächstes Wochenende, ohne Artikel." },
+        { "prompt": "Rundt dem var det fullt av ___ skoleklasser. (synge)", "de": "Um sie herum waren viele singende Schulklassen.", "answer": ["syngende"], "explain": "Unveränderlich, auch im Plural: syngende skoleklasser." },
+        { "prompt": "Mange studenter blir ___ i Tromsø etter studiene. (bo)", "de": "Viele Studierende bleiben nach dem Studium in Tromsø wohnen.", "answer": ["boende"], "explain": "bli boende = wohnen bleiben." },
+        { "prompt": "De ___ ble bedt om å gå om bord på ferja. (reise)", "de": "Die Reisenden wurden gebeten, an Bord der Fähre zu gehen.", "answer": ["reisende"], "explain": "Als Substantiv: de reisende = die Reisenden." }
+      ]
+    }
+  ],
+  "tf": [
+    { "s": "Det var Susanne som foreslo turen til Sørlandet.", "de": "Susanne war es, die die Reise nach Sørlandet vorgeschlagen hat.", "a": false, "why": "Matthias hatte die Reise vorgeschlagen." },
+    { "s": "Matthias hadde tatt med sitt eget kart.", "de": "Matthias hatte seine eigene Karte mitgebracht.", "a": true, "why": "Obwohl das Auto ein Navi hatte, brachte er eine Papierkarte mit." },
+    { "s": "Husene i Lillesand er hvite.", "de": "Die Häuser in Lillesand sind weiß.", "a": true, "why": "Die weißen Häuser rund um den Hafen leuchteten in der Sonne." },
+    { "s": "Matthias kjørte altfor fort på veien til Mandal.", "de": "Matthias fuhr auf dem Weg nach Mandal viel zu schnell.", "a": false, "why": "Er fuhr genau so schnell wie erlaubt und bremste vor jeder Kurve – hinter ihnen bildete sich eine Schlange." },
+    { "s": "De rakk ikke ferja ut til øya.", "de": "Sie haben die Fähre zur Insel nicht erreicht.", "a": true, "why": "Sie kamen genau in dem Moment an, als die Fähre ablegte." },
+    { "s": "Det var Matthias som ble tatt i fotoboks.", "de": "Matthias war es, der geblitzt wurde.", "a": false, "why": "Susanne saß am Steuer, als es blitzte." },
+    { "s": "På veien til Stavanger snakket de ikke med hverandre.", "de": "Auf dem Weg nach Stavanger sprachen sie nicht miteinander.", "a": true, "why": "Susanne starrte auf die Straße, Matthias aus dem Fenster." },
+    { "s": "På Preikestolen innrømmet Matthias at han kjører som en bestefar.", "de": "Auf dem Preikestolen gab Matthias zu, dass er wie ein Großvater fährt.", "a": true, "why": "„Du har rett, jeg kjører som en bestefar.“" }
+  ],
+  "questions": [
+    { "q": "Hvorfor hadde Matthias tatt med et papirkart?", "qDe": "Warum hatte Matthias eine Papierkarte mitgebracht?", "answer": "Fordi et papirkart aldri går tom for strøm.", "answerDe": "Weil einer Papierkarte nie der Strom ausgeht.", "keywords": [["papirkart", "kart"], ["strøm"]] },
+    { "q": "Hvordan var Lillesand?", "qDe": "Wie war Lillesand?", "answer": "Byen var overraskende stille, og de hvite husene rundt havna skinte i sola.", "answerDe": "Die Stadt war überraschend still, und die weißen Häuser rund um den Hafen leuchteten in der Sonne.", "keywords": [["stille"], ["hvite", "hvit", "husene", "hus"]] },
+    { "q": "Hvorfor rakk de ikke ferja?", "qDe": "Warum haben sie die Fähre nicht erreicht?", "answer": "De kranglet så lenge om kartet og GPS-en at de kom for sent.", "answerDe": "Sie stritten so lange über die Karte und das Navi, dass sie zu spät kamen.", "keywords": [["kranglet", "krangle", "krangel"], ["kartet", "kart", "GPS-en"]] },
+    { "q": "Hvorfor ble Susanne sint på Matthias?", "qDe": "Warum wurde Susanne wütend auf Matthias?", "answer": "Fordi han leste meldingen fra Erik og kommenterte den.", "answerDe": "Weil er die Nachricht von Erik las und einen Kommentar dazu machte.", "keywords": [["Erik"], ["meldingen", "melding", "telefonen", "skjermen"]] },
+    { "q": "Hvem gikk opp til Preikestolen samtidig med dem?", "qDe": "Wer stieg gleichzeitig mit ihnen zum Preikestolen hinauf?", "answer": "Det var fullt av folk, for eksempel pensjonister, skoleklasser og en far med en baby.", "answerDe": "Es waren viele Leute da, zum Beispiel Rentner, Schulklassen und ein Vater mit einem Baby.", "keywords": [["pensjonister", "pensjonist"], ["skoleklasser", "skoleklasse", "baby", "far"]] },
+    { "q": "Hva hadde Susanne svart Erik?", "qDe": "Was hatte Susanne Erik geantwortet?", "answer": "Hun hadde svart «Takk, men nei takk» – hun ville ikke treffe ham.", "answerDe": "Sie hatte „Danke, aber nein danke“ geantwortet – sie wollte ihn nicht treffen.", "keywords": [["nei"]] }
+  ],
+  "find": [
+    { "de": "ein Mietwagen", "answer": ["en leiebil"] },
+    { "de": "verdrehte die Augen", "answer": ["himlet med øynene"] },
+    { "de": "die engen Gassen", "answer": ["de smale gatene"] },
+    { "de": "das Tempolimit", "answer": ["fartsgrensen"] },
+    { "de": "eine Ausweichstelle", "answer": ["en møteplass"] },
+    { "de": "ein Blitzer", "answer": ["en fotoboks"] },
+    { "de": "überraschend still", "answer": ["overraskende stille"] },
+    { "de": "ein schlafendes Baby", "answer": ["en sovende baby"] }
+  ],
+  "translate": [
+    { "de": "Er fährt am liebsten sein eigenes Auto.", "no": ["Han kjører helst sin egen bil.", "Helst kjører han sin egen bil."] },
+    { "de": "Sie hat ein eigenes Zimmer.", "no": ["Hun har sitt eget rom.", "Hun har et eget rom.", "Hun har eget rom."] },
+    { "de": "Wir sehen uns morgen!", "no": ["Vi sees i morgen!", "Vi ses i morgen!"] },
+    { "de": "Sie trafen sich am Flughafen.", "no": ["De møttes på flyplassen.", "De møtte hverandre på flyplassen.", "De traff hverandre på flyplassen."] },
+    { "de": "Drei Stunden lang sprachen sie nicht miteinander.", "no": ["I tre timer snakket de ikke med hverandre.", "De snakket ikke med hverandre på tre timer.", "De snakket ikke med hverandre i tre timer.", "På tre timer snakket de ikke med hverandre."] },
+    { "de": "Sie sahen einander an.", "no": ["De så på hverandre."] },
+    { "de": "Er kam angelaufen.", "no": ["Han kom løpende."] },
+    { "de": "Sie blieb im Auto sitzen.", "no": ["Hun ble sittende i bilen."] },
+    { "de": "Auf dem Preikestolen war es überraschend kalt.", "no": ["Det var overraskende kaldt på Preikestolen.", "På Preikestolen var det overraskende kaldt."] },
+    { "de": "Wir mussten bei jedem entgegenkommenden Auto zurücksetzen.", "no": ["Vi måtte rygge for hver møtende bil."] }
+  ],
+  "summary": [
+    { "prompt": "Susanne og Matthias møttes på ___ i Kristiansand.", "de": "Susanne und Matthias trafen sich am Flughafen in Kristiansand.", "answer": ["flyplassen"] },
+    { "prompt": "Matthias hadde tatt med sitt eget ___.", "de": "Matthias hatte seine eigene Karte mitgebracht.", "answer": ["kart", "papirkart"] },
+    { "prompt": "I Lillesand lå de hvite husene skinnende i ___.", "de": "In Lillesand leuchteten die weißen Häuser in der Sonne.", "answer": ["sola", "solen"] },
+    { "prompt": "De kranglet så lenge at de ikke rakk ___.", "de": "Sie stritten so lange, dass sie die Fähre nicht erreichten.", "answer": ["ferja", "ferjen", "fergen", "ferga"] },
+    { "prompt": "Da Susanne kjørte, ble hun tatt i ___.", "de": "Als Susanne fuhr, wurde sie geblitzt.", "answer": ["fotoboks", "fotoboksen"] },
+    { "prompt": "På Preikestolen ble de ___ igjen.", "de": "Auf dem Preikestolen wurden sie wieder Freunde.", "answer": ["venner"] }
+  ],
+  "dictation": [6, 9, 10, 11],
+  "writing": {
+    "prompt": "Nach einem Streit auf einer Reise schreibst du deiner Freundin oder deinem Freund eine versöhnliche Nachricht. Was ist passiert? Gib zu, worin der/die andere recht hatte, und schlag ein neues Treffen vor. Verwende egen, hverandre und ein s-Verb wie møtes oder sees.",
+    "minWords": 130,
+    "useWords": ["egen", "hverandre", "møtes", "sees"],
+    "checklist": [
+      { "de": "Erzählt, worum es im Streit ging", "keywords": ["kranglet", "krangel", "krangle"] },
+      { "de": "Zugegeben, dass der/die andere recht hatte", "keywords": ["rett"] },
+      { "de": "Ein neues Treffen vorgeschlagen", "keywords": ["møtes", "sees", "treffes"] }
+    ],
+    "model": "Hei Matthias!\nNå er jeg tilbake i Tromsø, og jeg tenker mye på helgen vår. Vi kranglet mer enn noen gang, men jeg tror vi lærte mye om hverandre. Du hadde rett: Det var dumt å stole bare på GPS-en, og jeg burde ikke ha kjørt så fort. Boten fra fotoboksen kommer sikkert snart … Egentlig likte jeg at du tok med ditt eget kart, selv om jeg himlet med øynene. Og takk for at du hørte på meg på Preikestolen. Vi har begge våre egne vaner, og det er greit. Og du vet jo allerede hva jeg svarte Erik. Jeg gleder meg til at vi møtes i Oslo til 17. mai. Da skal du få kjøre, og jeg skal ikke si et eneste ord om farten. Takk for en tur jeg aldri kommer til å glemme! Vi sees!\nKlem fra Susanne",
+    "modelDe": "Hallo Matthias!\nJetzt bin ich wieder in Tromsø und denke viel an unser Wochenende. Wir haben uns mehr gestritten als je zuvor, aber ich glaube, wir haben viel übereinander gelernt. Du hattest recht: Es war dumm, sich nur auf das Navi zu verlassen, und ich hätte nicht so schnell fahren sollen. Der Bußgeldbescheid vom Blitzer kommt bestimmt bald … Eigentlich fand ich es gut, dass du deine eigene Karte mitgebracht hast, auch wenn ich die Augen verdreht habe. Und danke, dass du mir auf dem Preikestolen zugehört hast. Wir haben beide unsere eigenen Gewohnheiten, und das ist in Ordnung. Und was ich Erik geantwortet habe, weißt du ja schon. Ich freue mich darauf, dass wir uns am 17. Mai in Oslo treffen. Dann darfst du fahren, und ich werde kein einziges Wort über die Geschwindigkeit sagen. Danke für eine Reise, die ich nie vergessen werde! Wir sehen uns!\nUmarmung, Susanne"
+  }
+}

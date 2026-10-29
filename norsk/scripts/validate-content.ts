@@ -45,7 +45,8 @@ function checkDrill(where: string, d: Drill) {
     }
     if (d.answer.some((a) => normalize(a) === '')) err(where, 'empty answer after normalising');
   }
-  checkNorwegian(where, d.prompt);
+  // The cue in parentheses at the end may be German (»Vorhersage«, »Präteritum«).
+  checkNorwegian(where, d.prompt.replace(/\s*\([^()]*\)\s*$/, ''));
 }
 
 function textOf(t: LessonText): string {

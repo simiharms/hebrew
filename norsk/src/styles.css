@@ -1064,3 +1064,9 @@ details.card summary {
 .item .sub .progress {
   margin-top: 6px;
 }
+.app-icon {
+  border-radius: 22px;
+  margin: 12px auto 4px;
+  display: block;
+  box-shadow: 0 4px 16px rgba(10, 30, 60, 0.25);
+}

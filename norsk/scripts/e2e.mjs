@@ -16,7 +16,15 @@ const lessons = readdirSync('src/content')
   .sort()
   .map((f) => JSON.parse(readFileSync(`src/content/${f}`, 'utf8')));
 
-const server = spawn('npx', ['vite', 'preview', '--port', String(PORT), '--strictPort'], { stdio: 'pipe' });
+const server = spawn('npx', ['vite', 'preview', '--port', String(PORT), '--strictPort'], { stdio: 'pipe', detached: true });
+// npx starts vite as a child: stop the whole process group.
+const stopServer = () => {
+  try {
+    process.kill(-server.pid, 'SIGTERM');
+  } catch {
+    // already gone
+  }
+};
 await new Promise((resolve, reject) => {
   const t = setTimeout(() => reject(new Error('preview did not start')), 20000);
   server.stdout.on('data', (d) => {
@@ -25,6 +33,14 @@ await new Promise((resolve, reject) => {
       resolve();
     }
   });
+});
+
+// Stop the preview server however this script ends.
+process.on('exit', stopServer);
+process.on('uncaughtException', (e) => {
+  console.error(e);
+  stopServer();
+  process.exit(1);
 });
 
 const browser = await chromium.launch({ executablePath: process.env.CHROME ?? '/opt/pw-browsers/chromium' });
@@ -74,7 +90,7 @@ await expect('.sheet', 'gloss sheet');
 await shot('gloss');
 const glossText = await page.locator('.sheet').innerText();
 if (/noch nicht im Wörterbuch/.test(glossText)) problems.push(`gloss: tapped word not in dictionary: ${glossText.split('\n')[0]}`);
-await page.click('.sheet-backdrop');
+await page.click('.sheet-backdrop', { position: { x: 20, y: 20 } });
 
 // Word session: flip cards
 await visit('lernen/lektion/1');
@@ -148,7 +164,7 @@ await visit('lektion/3/text');
 await shot('text-dark-big');
 
 await browser.close();
-server.kill();
+stopServer();
 if (problems.length) {
   console.log(`✗ ${problems.length} problem(s):`);
   for (const p of [...new Set(problems)]) console.log('  - ' + p);

@@ -1,0 +1,1504 @@
+{
+  "n": 22,
+  "level": "B2",
+  "title": "Hurra for 17. mai!",
+  "titleDe": "Hurra für den 17. Mai!",
+  "place": "Oslo, Karl Johans gate und das Schloss",
+  "goals": [
+    "Du kannst über den 17. Mai erzählen: Frühstück, Bunad, Kinderumzug, Russ, Eis und Würstchen.",
+    "Du kennst die wichtigsten Daten der norwegischen Geschichte: 1814 (Verfassung von Eidsvoll) und 1905.",
+    "Du bildest Verbalsubstantive (feiring, opplevelse, demonstrasjon) und zusammengesetzte Substantive (barnetog, nasjonaldag).",
+    "Du verwendest das Partizip Perfekt als Adjektiv: en pyntet buss, de pyntede bussene, et skrevet brev.",
+    "Du kannst über Nationalgefühl in Norwegen, Deutschland und der Schweiz sprechen."
+  ],
+  "text": {
+    "id": "t22",
+    "title": "Hurra for 17. mai!",
+    "titleDe": "Hurra für den 17. Mai!",
+    "kind": "dialog",
+    "intro": "Susanne und Matthias sind zum Nationalfeiertag nach Oslo gekommen und feiern den 17. Mai mit Familie Nygård – vom Frühstück in Sagene bis zum Kinderumzug auf der Karl Johans gate.",
+    "speakers": {
+      "k": {
+        "name": "Kari",
+        "gender": "f"
+      },
+      "s": {
+        "name": "Susanne",
+        "gender": "f"
+      },
+      "o": {
+        "name": "Ola",
+        "gender": "m"
+      },
+      "p": {
+        "name": "Per",
+        "gender": "m"
+      },
+      "m": {
+        "name": "Matthias",
+        "gender": "m"
+      },
+      "a": {
+        "name": "Anna",
+        "gender": "f"
+      }
+    },
+    "lines": [
+      {
+        "s": "k",
+        "no": "God morgen, alle sammen, og gratulerer med dagen! Frokosten står klar, og champagnen er kald.",
+        "de": "Guten Morgen, alle zusammen, und herzlichen Glückwunsch zum Feiertag! Das Frühstück ist fertig, und der Champagner ist kalt."
+      },
+      {
+        "s": "s",
+        "no": "Gratulerer med dagen! Så fint dere har pyntet! Flagg i alle vinduene, en nystrøket duk og nybakte rundstykker.",
+        "de": "Herzlichen Glückwunsch! Wie schön ihr geschmückt habt! Fahnen in allen Fenstern, eine frisch gebügelte Tischdecke und frisch gebackene Brötchen."
+      },
+      {
+        "s": "o",
+        "no": "Jeg ble vekket av skolekorpset klokka sju. Hvorfor må de spille så høyt utenfor huset vårt?",
+        "de": "Ich wurde um sieben von der Schulkapelle geweckt. Warum müssen die so laut vor unserem Haus spielen?"
+      },
+      {
+        "s": "p",
+        "no": "Det kalles revelje, Ola, og det er en gammel tradisjon. Du spilte jo selv i korpset da du gikk på barneskolen.",
+        "de": "Das nennt man „revelje“ (Weckmusik), Ola, und das ist eine alte Tradition. Du hast doch selbst in der Kapelle gespielt, als du in der Grundschule warst."
+      },
+      {
+        "s": "m",
+        "no": "Jeg fulgte rådet ditt, Per, og tok på meg dress og slips. Men jeg føler meg litt grå ved siden av alle disse bunadene.",
+        "de": "Ich habe deinen Rat befolgt, Per, und Anzug und Krawatte angezogen. Aber neben all diesen Trachten fühle ich mich ein bisschen grau."
+      },
+      {
+        "s": "p",
+        "no": "Ta det med ro, jeg går i dress, jeg også. Men se på Kari! Hun har på seg bunaden sin fra Sunnmøre.",
+        "de": "Keine Sorge, ich trage auch einen Anzug. Aber schau dir Kari an! Sie trägt ihre Tracht aus Sunnmøre."
+      },
+      {
+        "s": "k",
+        "no": "Den er håndsydd, og sølvsølja er arvet etter mormor. For meg er bunaden en viktig del av familiehistorien.",
+        "de": "Sie ist handgenäht, und die silberne Brosche habe ich von meiner Großmutter geerbt. Für mich ist die Tracht ein wichtiger Teil der Familiengeschichte."
+      },
+      {
+        "s": "a",
+        "no": "Og jeg har lånt bunaden til bestemor Ingrid. Den er gammel, men den ser ut som ny.",
+        "de": "Und ich habe mir Oma Ingrids Tracht geliehen. Sie ist alt, sieht aber aus wie neu."
+      },
+      {
+        "s": "s",
+        "no": "Dere er så flotte! Skål for Norge – og for årets beste frokost!",
+        "de": "Ihr seht so toll aus! Prost auf Norwegen – und auf das beste Frühstück des Jahres!"
+      },
+      {
+        "s": "s",
+        "no": "Hvor skal vi stå for å se barnetoget? Det er jo allerede folk overalt på Karl Johan.",
+        "de": "Wo sollen wir stehen, um den Kinderumzug zu sehen? Es sind ja schon überall Leute auf der Karl Johan."
+      },
+      {
+        "s": "p",
+        "no": "Vi går opp mot Slottet. Der står kongefamilien på balkongen og vinker til barna i flere timer.",
+        "de": "Wir gehen hinauf zum Schloss. Dort steht die Königsfamilie auf dem Balkon und winkt den Kindern stundenlang zu."
+      },
+      {
+        "s": "m",
+        "no": "I flere timer? Det må være en ganske slitsom feiring for kongen.",
+        "de": "Stundenlang? Das muss ein ziemlich anstrengendes Fest für den König sein."
+      },
+      {
+        "s": "a",
+        "no": "Sikkert, men han ser alltid glad ut. Se, nå kommer de første skolene med korpsene og fanene sine!",
+        "de": "Sicher, aber er sieht immer fröhlich aus. Schau, jetzt kommen die ersten Schulen mit ihren Kapellen und Fahnen!"
+      },
+      {
+        "s": "s",
+        "no": "Så mange barn, og alle har flagg! Noen er bare tre–fire år gamle, og de roper «Hurra!» så høyt de kan.",
+        "de": "So viele Kinder, und alle haben Fähnchen! Manche sind erst drei, vier Jahre alt, und sie rufen „Hurra!“, so laut sie können."
+      },
+      {
+        "s": "m",
+        "no": "Per, kan du gi meg en kort forklaring? Hva var det egentlig som skjedde i 1814?",
+        "de": "Per, kannst du mir eine kurze Erklärung geben? Was ist 1814 eigentlich passiert?"
+      },
+      {
+        "s": "p",
+        "no": "I over fire hundre år hadde Norge vært i union med Danmark. Men i januar 1814 måtte den danske kongen gi Norge til Sverige.",
+        "de": "Über vierhundert Jahre lang war Norwegen in einer Union mit Dänemark gewesen. Aber im Januar 1814 musste der dänische König Norwegen an Schweden abtreten."
+      },
+      {
+        "s": "p",
+        "no": "Det ville nordmennene ikke finne seg i. Våren 1814 møttes over hundre menn på Eidsvoll og skrev en egen grunnlov for Norge.",
+        "de": "Das wollten sich die Norweger nicht gefallen lassen. Im Frühjahr 1814 trafen sich über hundert Männer in Eidsvoll und schrieben eine eigene Verfassung für Norwegen."
+      },
+      {
+        "s": "p",
+        "no": "Grunnloven ble underskrevet den 17. mai 1814. Samme høst kom Norge i union med Sverige, men landet beholdt grunnloven sin og fikk sitt eget storting.",
+        "de": "Die Verfassung wurde am 17. Mai 1814 unterzeichnet. Im Herbst desselben Jahres kam Norwegen in eine Union mit Schweden, aber das Land behielt seine Verfassung und bekam sein eigenes Parlament."
+      },
+      {
+        "s": "m",
+        "no": "Og når ble Norge helt selvstendig?",
+        "de": "Und wann wurde Norwegen ganz unabhängig?"
+      },
+      {
+        "s": "p",
+        "no": "I 1905. Da ble unionen med Sverige oppløst, heldigvis uten krig, og Norge fikk sin egen konge, Haakon den sjuende.",
+        "de": "1905. Da wurde die Union mit Schweden aufgelöst, zum Glück ohne Krieg, und Norwegen bekam einen eigenen König, Haakon VII."
+      },
+      {
+        "s": "a",
+        "no": "Han var forresten en dansk prins. Kong Harald, som står på balkongen der oppe, er barnebarnet hans.",
+        "de": "Er war übrigens ein dänischer Prinz. König Harald, der dort oben auf dem Balkon steht, ist sein Enkel."
+      },
+      {
+        "s": "k",
+        "no": "Hvordan feirer dere nasjonaldagen hjemme, Matthias?",
+        "de": "Wie feiert ihr bei euch den Nationalfeiertag, Matthias?"
+      },
+      {
+        "s": "m",
+        "no": "I Sveits feirer vi 1. august. Det er bål på fjellene, fyrverkeri og taler, men ikke noe barnetog. Vi er nok litt mer beskjedne.",
+        "de": "In der Schweiz feiern wir den 1. August. Es gibt Feuer auf den Bergen, Feuerwerk und Reden, aber keinen Kinderumzug. Wir sind wohl etwas bescheidener."
+      },
+      {
+        "s": "s",
+        "no": "I Tyskland er det enda mer komplisert. På grunn av historien er mange av oss forsiktige med flagg og store nasjonale følelser.",
+        "de": "In Deutschland ist es noch komplizierter. Wegen der Geschichte sind viele von uns vorsichtig mit Fahnen und großen nationalen Gefühlen."
+      },
+      {
+        "s": "s",
+        "no": "Bare når det er fotball-VM, henger flaggene plutselig overalt. Nasjonaldagen vår, den tredje oktober, er for de fleste bare en fridag.",
+        "de": "Nur wenn Fußball-WM ist, hängen plötzlich überall Fahnen. Unser Nationalfeiertag, der dritte Oktober, ist für die meisten nur ein freier Tag."
+      },
+      {
+        "s": "p",
+        "no": "Men 17. mai er ingen militærparade. Det er barna som går i tog, ikke soldatene. Det er nettopp det jeg er stolt av.",
+        "de": "Aber der 17. Mai ist keine Militärparade. Es sind die Kinder, die im Umzug gehen, nicht die Soldaten. Genau darauf bin ich stolz."
+      },
+      {
+        "s": "m",
+        "no": "Det er en god løsning. Nasjonalfølelse med is og pølser i stedet for våpen – det kan til og med en sveitser like.",
+        "de": "Das ist eine gute Lösung. Nationalgefühl mit Eis und Würstchen statt Waffen – das kann sogar ein Schweizer mögen."
+      },
+      {
+        "s": "o",
+        "no": "Se, der kommer en hel gjeng med russ, alle i rødt!",
+        "de": "Schau, da kommt eine ganze Gruppe Russ, alle in Rot!"
+      },
+      {
+        "s": "s",
+        "no": "Hvorfor har de på seg de røde buksene med navn og tegninger på?",
+        "de": "Warum tragen sie diese roten Hosen mit Namen und Zeichnungen darauf?"
+      },
+      {
+        "s": "o",
+        "no": "Det er russebukser. Russen er elever som snart er ferdige med videregående skole, og de har festet i flere uker. Om to år er det min tur!",
+        "de": "Das sind Russ-Hosen. Die Russ sind Schüler, die bald mit der Oberstufe fertig sind, und sie feiern schon seit Wochen. In zwei Jahren bin ich dran!"
+      },
+      {
+        "s": "a",
+        "no": "Nå trenger jeg en is. På 17. mai får barna spise så mye is og så mange pølser de vil.",
+        "de": "Jetzt brauche ich ein Eis. Am 17. Mai dürfen die Kinder so viel Eis und so viele Würstchen essen, wie sie wollen."
+      },
+      {
+        "s": "s",
+        "no": "Jeg tar en pølse i lompe med sennep, takk. Og en is etterpå. Det er tross alt 17. mai!",
+        "de": "Ich nehme ein Würstchen im Kartoffelfladen mit Senf, bitte. Und danach ein Eis. Es ist schließlich der 17. Mai!"
+      },
+      {
+        "s": "o",
+        "no": "Vent litt … Holder dere hverandre i hånda? Er dere kjærester nå, eller?",
+        "de": "Moment mal … Haltet ihr euch an der Hand? Seid ihr jetzt ein Paar, oder was?"
+      },
+      {
+        "s": "s",
+        "no": "Kanskje. Det har vært en lang vei fra språkkurset i august, ikke sant, Matthias?",
+        "de": "Vielleicht. Es war ein langer Weg vom Sprachkurs im August bis heute, nicht wahr, Matthias?"
+      },
+      {
+        "s": "m",
+        "no": "Lang, men godt planlagt. Nå har jeg i hvert fall en god forklaring på hvorfor jeg tok fly helt fra Bergen for å se et barnetog.",
+        "de": "Lang, aber gut geplant. Jetzt habe ich jedenfalls eine gute Erklärung dafür, warum ich extra aus Bergen hergeflogen bin, um einen Kinderumzug zu sehen."
+      },
+      {
+        "s": "k",
+        "no": "Hipp hipp hurra! Dette er en 17. mai vi aldri kommer til å glemme.",
+        "de": "Hipp, hipp, hurra! Das ist ein 17. Mai, den wir nie vergessen werden."
+      }
+    ],
+    "glossary": [
+      {
+        "no": "gratulerer med dagen",
+        "de": "herzlichen Glückwunsch (am 17. Mai: zum Nationalfeiertag)"
+      },
+      {
+        "no": "champagnen",
+        "de": "der Champagner (Sekt zum 17.-Mai-Frühstück ist Tradition)"
+      },
+      {
+        "no": "pyntet",
+        "de": "geschmückt (pynte = schmücken)"
+      },
+      {
+        "no": "nystrøket",
+        "de": "frisch gebügelt"
+      },
+      {
+        "no": "duk",
+        "de": "die Tischdecke"
+      },
+      {
+        "no": "nybakte",
+        "de": "frisch gebackene"
+      },
+      {
+        "no": "skolekorpset",
+        "de": "die Schulkapelle (Blasmusik einer Schule)"
+      },
+      {
+        "no": "revelje",
+        "de": "der Weckruf: Musikkapellen ziehen früh am Morgen durch die Straßen"
+      },
+      {
+        "no": "barneskolen",
+        "de": "die Grundschule (1.–7. Klasse)"
+      },
+      {
+        "no": "fulgte rådet ditt",
+        "de": "habe deinen Rat befolgt"
+      },
+      {
+        "no": "tok på meg",
+        "de": "zog mir an (ta på seg = anziehen)"
+      },
+      {
+        "no": "slips",
+        "de": "die Krawatte"
+      },
+      {
+        "no": "går i dress",
+        "de": "trage einen Anzug"
+      },
+      {
+        "no": "håndsydd",
+        "de": "handgenäht"
+      },
+      {
+        "no": "sølvsølja",
+        "de": "die silberne Trachtenbrosche (ei sølje)"
+      },
+      {
+        "no": "arvet etter mormor",
+        "de": "von der Großmutter (mütterlicherseits) geerbt"
+      },
+      {
+        "no": "ser ut som ny",
+        "de": "sieht aus wie neu"
+      },
+      {
+        "no": "Skål for",
+        "de": "Prost auf"
+      },
+      {
+        "no": "årets",
+        "de": "des Jahres"
+      },
+      {
+        "no": "Slottet",
+        "de": "das Königliche Schloss in Oslo"
+      },
+      {
+        "no": "vinker",
+        "de": "winkt (vinke)"
+      },
+      {
+        "no": "slitsom",
+        "de": "anstrengend"
+      },
+      {
+        "no": "fanene",
+        "de": "die Fahnen, Banner (jede Schule hat ihre Fahne)"
+      },
+      {
+        "no": "finne seg i",
+        "de": "sich gefallen lassen, hinnehmen"
+      },
+      {
+        "no": "Eidsvoll",
+        "de": "Ort nördlich von Oslo, wo 1814 die Verfassung entstand"
+      },
+      {
+        "no": "beholdt",
+        "de": "behielt (beholde)"
+      },
+      {
+        "no": "storting",
+        "de": "das norwegische Parlament (Stortinget)"
+      },
+      {
+        "no": "oppløst",
+        "de": "aufgelöst"
+      },
+      {
+        "no": "Haakon den sjuende",
+        "de": "Haakon VII. (geschrieben: Haakon 7.), König 1905–1957"
+      },
+      {
+        "no": "bål på fjellene",
+        "de": "Feuer auf den Bergen (die Höhenfeuer am 1. August)"
+      },
+      {
+        "no": "beskjedne",
+        "de": "bescheiden"
+      },
+      {
+        "no": "fotball-VM",
+        "de": "die Fußball-WM (VM = verdensmesterskap)"
+      },
+      {
+        "no": "militærparade",
+        "de": "die Militärparade"
+      },
+      {
+        "no": "går i tog",
+        "de": "gehen im Umzug mit"
+      },
+      {
+        "no": "i stedet for",
+        "de": "statt, anstelle von"
+      },
+      {
+        "no": "til og med",
+        "de": "sogar"
+      },
+      {
+        "no": "gjeng med russ",
+        "de": "Gruppe von Russ (Abiturienten, die feiern)"
+      },
+      {
+        "no": "videregående skole",
+        "de": "die weiterführende Schule (Oberstufe, 11.–13. Klasse)"
+      },
+      {
+        "no": "pølse i lompe",
+        "de": "Würstchen in einem weichen Kartoffelfladen"
+      },
+      {
+        "no": "tross alt",
+        "de": "schließlich, immerhin"
+      }
+    ]
+  },
+  "extra": [
+    {
+      "id": "x22a",
+      "title": "Kongen og kongefamilien",
+      "titleDe": "Der König und die Königsfamilie",
+      "kind": "info",
+      "intro": "Norwegen ist eine Monarchie – aber was macht der König eigentlich? Ein kurzer Überblick über das norwegische Königshaus seit 1905.",
+      "lines": [
+        {
+          "no": "Norge er et konstitusjonelt monarki. Det betyr at landet har en konge, men at det er Stortinget og regjeringen som har den politiske makten. Kongen er statsoverhode, men han tar ikke stilling i politiske spørsmål.",
+          "de": "Norwegen ist eine konstitutionelle Monarchie. Das bedeutet, dass das Land einen König hat, aber dass das Parlament und die Regierung die politische Macht haben. Der König ist Staatsoberhaupt, aber er bezieht in politischen Fragen keine Stellung."
+        },
+        {
+          "no": "Da Norge ble helt selvstendig i 1905, var det ikke sikkert at landet skulle bli et kongedømme. Den danske prins Carl ville bare bli konge hvis folket ønsket det, og derfor ble det holdt en folkeavstemning. Nesten fire av fem stemte ja.",
+          "de": "Als Norwegen 1905 ganz unabhängig wurde, war es nicht sicher, dass das Land ein Königreich werden würde. Der dänische Prinz Carl wollte nur König werden, wenn das Volk es wünschte, und deshalb wurde eine Volksabstimmung abgehalten. Fast vier von fünf stimmten mit Ja."
+        },
+        {
+          "no": "Prins Carl tok navnet Haakon 7., og kona hans, den britiske prinsesse Maud, ble Norges dronning. Den lille sønnen deres, Alexander, fikk det norske navnet Olav.",
+          "de": "Prinz Carl nahm den Namen Haakon VII. an, und seine Frau, die britische Prinzessin Maud, wurde Norwegens Königin. Ihr kleiner Sohn Alexander bekam den norwegischen Namen Olav."
+        },
+        {
+          "no": "Olav 5. var konge fra 1957 til 1991 og ble kalt «folkekongen». Mange nordmenn kjenner bildet fra oljekrisen i 1970-årene: Da det var forbudt å kjøre privatbil i helgene, tok kongen Holmenkollbanen for å gå på ski – og han ville betale for billetten som alle andre.",
+          "de": "Olav V. war von 1957 bis 1991 König und wurde „Volkskönig“ genannt. Viele Norweger kennen das Bild aus der Ölkrise der 1970er-Jahre: Als es verboten war, am Wochenende mit dem Privatauto zu fahren, nahm der König die Holmenkollbahn, um Ski zu fahren – und er wollte wie alle anderen seine Fahrkarte bezahlen."
+        },
+        {
+          "no": "Kong Harald 5., sønnen til kong Olav, ble konge i 1991. Han er gift med dronning Sonja, som ikke kommer fra en kongelig familie. Paret måtte vente i ni år før de fikk gifte seg, fordi mange mente at en kronprins burde gifte seg med en prinsesse. Bryllupet var i 1968. Kongens valgspråk er «Alt for Norge».",
+          "de": "König Harald V., der Sohn von König Olav, wurde 1991 König. Er ist mit Königin Sonja verheiratet, die nicht aus einer königlichen Familie stammt. Das Paar musste neun Jahre warten, bevor es heiraten durfte, weil viele meinten, ein Kronprinz solle eine Prinzessin heiraten. Die Hochzeit war 1968. Der Wahlspruch des Königs lautet „Alles für Norwegen“."
+        },
+        {
+          "no": "Kongen har mange oppgaver: Han åpner Stortinget hver høst, leder statsrådet på Slottet, tar imot utenlandske gjester og reiser på statsbesøk. På nyttårsaften holder han en tale til hele folket. Dronning Sonja er kjent for sin store interesse for kunst og friluftsliv.",
+          "de": "Der König hat viele Aufgaben: Er eröffnet jeden Herbst das Parlament, leitet den Staatsrat im Schloss, empfängt ausländische Gäste und reist zu Staatsbesuchen. An Silvester hält er eine Rede an das ganze Volk. Königin Sonja ist für ihr großes Interesse an Kunst und am Leben in der Natur bekannt."
+        },
+        {
+          "no": "Kronprins Haakon er tronarving. Han er gift med kronprinsesse Mette-Marit. Etter en grunnlovsendring i 1990 går tronen til det eldste barnet, enten det er en gutt eller ei jente. Derfor kommer kronprinsens datter, prinsesse Ingrid Alexandra, etter ham.",
+          "de": "Kronprinz Haakon ist Thronfolger. Er ist mit Kronprinzessin Mette-Marit verheiratet. Seit einer Verfassungsänderung 1990 geht der Thron an das älteste Kind, egal ob Junge oder Mädchen. Deshalb kommt die Tochter des Kronprinzen, Prinzessin Ingrid Alexandra, nach ihm."
+        },
+        {
+          "no": "For mange nordmenn er kongefamilien et symbol som samler landet – særlig på 17. mai, når den står på slottsbalkongen og vinker til barnetoget.",
+          "de": "Für viele Norweger ist die Königsfamilie ein Symbol, das das Land zusammenhält – besonders am 17. Mai, wenn sie auf dem Schlossbalkon steht und dem Kinderumzug zuwinkt."
+        }
+      ],
+      "glossary": [
+        {
+          "no": "konstitusjonelt monarki",
+          "de": "konstitutionelle Monarchie"
+        },
+        {
+          "no": "regjeringen",
+          "de": "die Regierung"
+        },
+        {
+          "no": "politiske makten",
+          "de": "die politische Macht"
+        },
+        {
+          "no": "statsoverhode",
+          "de": "das Staatsoberhaupt"
+        },
+        {
+          "no": "tar ikke stilling",
+          "de": "bezieht keine Stellung"
+        },
+        {
+          "no": "kongedømme",
+          "de": "das Königreich"
+        },
+        {
+          "no": "folkeavstemning",
+          "de": "die Volksabstimmung"
+        },
+        {
+          "no": "stemte ja",
+          "de": "stimmten mit Ja"
+        },
+        {
+          "no": "Haakon 7.",
+          "de": "Haakon VII. (gelesen: Haakon den sjuende)"
+        },
+        {
+          "no": "kona hans",
+          "de": "seine Frau"
+        },
+        {
+          "no": "folkekongen",
+          "de": "der Volkskönig"
+        },
+        {
+          "no": "oljekrisen",
+          "de": "die Ölkrise"
+        },
+        {
+          "no": "forbudt",
+          "de": "verboten"
+        },
+        {
+          "no": "privatbil",
+          "de": "das Privatauto"
+        },
+        {
+          "no": "Holmenkollbanen",
+          "de": "die Holmenkollbahn (Bahn von Oslo hinauf zum Holmenkollen)"
+        },
+        {
+          "no": "kongelig",
+          "de": "königlich"
+        },
+        {
+          "no": "paret",
+          "de": "das Paar"
+        },
+        {
+          "no": "fikk gifte seg",
+          "de": "heiraten durften"
+        },
+        {
+          "no": "bryllupet",
+          "de": "die Hochzeit"
+        },
+        {
+          "no": "valgspråk",
+          "de": "der Wahlspruch"
+        },
+        {
+          "no": "oppgaver",
+          "de": "die Aufgaben"
+        },
+        {
+          "no": "statsrådet",
+          "de": "der Staatsrat (König und Regierung tagen gemeinsam)"
+        },
+        {
+          "no": "tar imot",
+          "de": "empfängt"
+        },
+        {
+          "no": "statsbesøk",
+          "de": "der Staatsbesuch"
+        },
+        {
+          "no": "nyttårsaften",
+          "de": "Silvester"
+        },
+        {
+          "no": "friluftsliv",
+          "de": "das Leben und Wandern in der Natur"
+        },
+        {
+          "no": "tronarving",
+          "de": "der Thronfolger"
+        },
+        {
+          "no": "grunnlovsendring",
+          "de": "die Verfassungsänderung"
+        },
+        {
+          "no": "enten det er en gutt eller ei jente",
+          "de": "egal, ob es ein Junge oder ein Mädchen ist"
+        },
+        {
+          "no": "symbol som samler landet",
+          "de": "Symbol, das das Land vereint"
+        },
+        {
+          "no": "slottsbalkongen",
+          "de": "der Schlossbalkon"
+        }
+      ]
+    }
+  ],
+  "wk": {
+    "title": "Norsk nasjonalfølelse",
+    "titleDe": "Norwegisches Nationalgefühl",
+    "phrases": [
+      {
+        "no": "Gratulerer med dagen!",
+        "de": "Herzlichen Glückwunsch!",
+        "note": "Am 17. Mai gratuliert man sich gegenseitig – wie zum Geburtstag."
+      },
+      {
+        "no": "Hipp hipp hurra!",
+        "de": "Hipp, hipp, hurra!"
+      },
+      {
+        "no": "Hurra for 17. mai!",
+        "de": "Hurra für den 17. Mai!"
+      },
+      {
+        "no": "Ja, vi elsker dette landet",
+        "de": "Ja, wir lieben dieses Land",
+        "note": "Die erste Zeile der Nationalhymne; der Text ist von Bjørnstjerne Bjørnson."
+      },
+      {
+        "no": "å gå i barnetoget",
+        "de": "im Kinderumzug mitgehen"
+      },
+      {
+        "no": "å heise flagget",
+        "de": "die Flagge hissen"
+      },
+      {
+        "no": "å vifte med flagget",
+        "de": "die Fahne schwenken"
+      },
+      {
+        "no": "å gå i bunad",
+        "de": "Tracht tragen",
+        "note": "Auch: å ha på seg bunad."
+      },
+      {
+        "no": "17. mai er barnas dag.",
+        "de": "Der 17. Mai ist der Tag der Kinder."
+      },
+      {
+        "no": "Jeg er stolt av å være norsk.",
+        "de": "Ich bin stolz darauf, Norweger(in) zu sein."
+      },
+      {
+        "no": "Alt for Norge",
+        "de": "Alles für Norwegen",
+        "note": "Wahlspruch von König Haakon VII. und König Harald V."
+      },
+      {
+        "no": "Norge i rødt, hvitt og blått",
+        "de": "Norwegen in Rot, Weiß und Blau",
+        "note": "Titel eines beliebten Liedes, das man am 17. Mai singt."
+      },
+      {
+        "no": "Det er typisk norsk å være god.",
+        "de": "Es ist typisch norwegisch, gut zu sein.",
+        "note": "Berühmter Satz aus der Neujahrsansprache von Ministerpräsidentin Gro Harlem Brundtland (1992); heute oft ironisch zitiert."
+      },
+      {
+        "no": "Nordmenn er født med ski på beina.",
+        "de": "Norweger werden mit Skiern an den Füßen geboren.",
+        "note": "Scherzhafte Redensart."
+      },
+      {
+        "no": "Ut på tur, aldri sur.",
+        "de": "Wer wandern geht, ist nie schlecht gelaunt.",
+        "note": "Bekannter Spruch: Draußen in der Natur ist man nicht „sauer“."
+      },
+      {
+        "no": "Borte bra, men hjemme best.",
+        "de": "Die Fremde ist schön, aber zu Hause ist es am besten."
+      },
+      {
+        "no": "å ha et avslappet forhold til flagget",
+        "de": "ein entspanntes Verhältnis zur Flagge haben"
+      },
+      {
+        "no": "å kjenne seg norsk",
+        "de": "sich norwegisch fühlen"
+      },
+      {
+        "no": "å være glad i landet sitt",
+        "de": "sein Land lieben",
+        "note": "glad i = gern haben, lieben (nicht: froh)."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g22_verbalsubstantiv",
+      "title": "Verbalsubstantive",
+      "titleNo": "verbalsubstantiv",
+      "summary": "Aus vielen Verben bildest du Substantive mit -ing/-ning, -else, -sjon oder mit dem bloßen Stamm – und die Endung verrät oft das Geschlecht.",
+      "sections": [
+        {
+          "h": "-ing und -ning",
+          "body": "Die häufigste Endung ist **-ing**. Sie kommt an den Stamm des Verbs (Infinitiv ohne -e): **feire → feiring** (Feier), **forklare → forklaring** (Erklärung), **bestille → bestilling** (Bestellung), **trene → trening** (Training). Bei manchen Verben heißt die Endung **-ning**: **løse → løsning** (Lösung), **åpne → åpning** (Öffnung), **tegne → tegning** (Zeichnung).\n\nOft entspricht **-ing** dem deutschen **-ung**: Erklärung – **forklaring**, Lösung – **løsning**.\n\n• Geschlecht: maskulin **oder** feminin, beides ist korrekt: **en/ei løsning – løsningen/løsninga**, **en/ei feiring – feiringen/feiringa**.\n• Der Plural endet immer auf **-er**: **feiringer, løsninger, forklaringer**."
+        },
+        {
+          "h": "-else und -sjon",
+          "body": "**-else** bildet meist abstrakte Wörter: **oppleve → en opplevelse** (Erlebnis), **føle → en følelse** (Gefühl), **forstå → en forståelse** (Verständnis), **hende → en hendelse** (Ereignis).\n\n**-sjon** gehört zu den Fremdwörtern auf **-ere**: **demonstrere → en demonstrasjon**, **invitere → en invitasjon**, **informere → en informasjon**. Manchmal ändert sich der Stamm: **diskutere → en diskusjon**.\n\n• Verbalsubstantive auf **-else** und **-sjon** sind maskulin: **følelsen, invitasjonen**. (Eine bekannte Ausnahme ist **et spøkelse**, das Gespenst.)\n• Achtung, Rechtschreibung: Norwegisch schreibt **-sjon**, nicht -tion: **en nasjon**, **en tradisjon**."
+        },
+        {
+          "h": "Der bloße Stamm",
+          "body": "Manche Verben bilden ein Substantiv ganz ohne Endung, oft ein Neutrum: **kjøpe → et kjøp** (Kauf), **besøke → et besøk** (Besuch), **hoppe → et hopp** (Sprung), **smile → et smil** (Lächeln). Es gibt aber auch maskuline: **starte → en start**, **drømme → en drøm**, **uttale → en uttale** (Aussprache).\n\nHier hilft nur: das Geschlecht mitlernen. Im Deutschen ist es ähnlich (kaufen – der Kauf).",
+          "table": [
+            [
+              "Verb",
+              "Substantiv",
+              "Geschlecht",
+              "Deutsch"
+            ],
+            [
+              "**feire**",
+              "**feiring**",
+              "m/f",
+              "die Feier"
+            ],
+            [
+              "**løse**",
+              "**løsning**",
+              "m/f",
+              "die Lösung"
+            ],
+            [
+              "**oppleve**",
+              "**opplevelse**",
+              "m",
+              "das Erlebnis"
+            ],
+            [
+              "**føle**",
+              "**følelse**",
+              "m",
+              "das Gefühl"
+            ],
+            [
+              "**invitere**",
+              "**invitasjon**",
+              "m",
+              "die Einladung"
+            ],
+            [
+              "**besøke**",
+              "**besøk**",
+              "n",
+              "der Besuch"
+            ],
+            [
+              "**kjøpe**",
+              "**kjøp**",
+              "n",
+              "der Kauf"
+            ]
+          ]
+        }
+      ],
+      "drills": [
+        {
+          "prompt": "Matthias ber Per om en kort ___. (forklare)",
+          "de": "Matthias bittet Per um eine kurze Erklärung.",
+          "answer": [
+            "forklaring"
+          ],
+          "explain": "forklare + -ing → forklaring (wie Erklärung)."
+        },
+        {
+          "prompt": "17. mai i Oslo var en fantastisk ___ for Susanne. (oppleve)",
+          "de": "Der 17. Mai in Oslo war ein fantastisches Erlebnis für Susanne.",
+          "answer": [
+            "opplevelse"
+          ],
+          "explain": "oppleve + -else → opplevelse (maskulin)."
+        },
+        {
+          "prompt": "Det er ikke lett å finne en god ___ på problemet. (løse)",
+          "de": "Es ist nicht leicht, eine gute Lösung für das Problem zu finden.",
+          "answer": [
+            "løsning"
+          ],
+          "explain": "løse + -ning → løsning."
+        },
+        {
+          "prompt": "___ på Karl Johan varer i mange timer. (feire, bestimmte Form)",
+          "de": "Die Feier auf der Karl Johan dauert viele Stunden.",
+          "answer": [
+            "Feiringa",
+            "Feiringen"
+          ],
+          "explain": "feire → feiring; als m/f-Wort geht feiringa oder feiringen."
+        },
+        {
+          "prompt": "Tusen takk for ___ til festen! (invitere, bestimmte Form)",
+          "de": "Vielen Dank für die Einladung zum Fest!",
+          "answer": [
+            "invitasjonen"
+          ],
+          "explain": "invitere → invitasjon (-ere → -sjon), maskulin: invitasjonen."
+        },
+        {
+          "prompt": "Da barna ropte «Hurra!», fikk Susanne en rar ___ i magen. (føle)",
+          "de": "Als die Kinder „Hurra!“ riefen, bekam Susanne ein seltsames Gefühl im Bauch.",
+          "answer": [
+            "følelse"
+          ],
+          "explain": "føle + -else → følelse."
+        },
+        {
+          "prompt": "Det var en stor ___ foran Stortinget i går. (demonstrere)",
+          "de": "Gestern gab es eine große Demonstration vor dem Parlament.",
+          "answer": [
+            "demonstrasjon"
+          ],
+          "explain": "demonstrere → demonstrasjon; geschrieben mit -sjon."
+        },
+        {
+          "prompt": "Takk for ___ i Bergen! Det var veldig hyggelig. (besøke, bestimmte Form)",
+          "de": "Danke für den Besuch in Bergen! Es war sehr schön.",
+          "answer": [
+            "besøket"
+          ],
+          "explain": "besøke → et besøk (bloßer Stamm, Neutrum) → besøket."
+        },
+        {
+          "prompt": "Bunaden var et dyrt ___, men den varer hele livet. (kjøpe)",
+          "de": "Die Tracht war ein teurer Kauf, aber sie hält ein ganzes Leben.",
+          "answer": [
+            "kjøp"
+          ],
+          "explain": "kjøpe → et kjøp (Neutrum, ohne Endung)."
+        },
+        {
+          "prompt": "Vi hadde en lang ___ om nasjonalfølelse. (diskutere)",
+          "de": "Wir hatten eine lange Diskussion über Nationalgefühl.",
+          "answer": [
+            "diskusjon"
+          ],
+          "explain": "diskutere → diskusjon: hier ändert sich der Stamm (-t- fällt weg)."
+        },
+        {
+          "prompt": "Den norske ___ er ikke alltid lett for tyskere. (uttale, bestimmte Form)",
+          "de": "Die norwegische Aussprache ist für Deutsche nicht immer leicht.",
+          "answer": [
+            "uttalen"
+          ],
+          "explain": "uttale (Verb) → en uttale (Substantiv, gleiche Form) → uttalen."
+        },
+        {
+          "prompt": "Hun hadde ___ fin opplevelse på 17. mai. (en/ei/et)",
+          "de": "Sie hatte ein schönes Erlebnis am 17. Mai.",
+          "answer": [
+            "en"
+          ],
+          "explain": "Wörter auf -else sind maskulin: en opplevelse."
+        }
+      ]
+    },
+    {
+      "id": "g22_sammensatte_ord",
+      "title": "Zusammengesetzte Substantive",
+      "titleNo": "sammensatte ord",
+      "summary": "Zusammengesetzte Substantive schreibst du wie im Deutschen in einem Wort; Geschlecht und Endungen bestimmt das letzte Glied.",
+      "sections": [
+        {
+          "h": "Ein Wort, nicht zwei",
+          "body": "Wie im Deutschen schreibt man Zusammensetzungen in einem Wort: **nasjonaldag**, **barnetog**, **juletre**, **flaggstang**. Getrenntschreibung (**særskriving**) gilt in Norwegen als typischer Fehler, vor allem unter dem Einfluss des Englischen – und sie kann den Sinn verändern:\n\n• **lammelår** = Lammkeule, aber **lamme lår** = gelähmte Oberschenkel\n• **røykfritt** = rauchfrei, aber **røyk fritt** = rauch ungehindert!\n• **en engelsklærer** = ein Englischlehrer, aber **en engelsk lærer** = ein englischer Lehrer\n\nMit Zahlen und Abkürzungen steht ein Bindestrich: **17. mai-feiring**, **fotball-VM**, **e-post**."
+        },
+        {
+          "h": "Fugenlaute: -s- und -e-",
+          "body": "Wie im Deutschen (Arbeit**s**tag) steht zwischen den Teilen oft ein Fugenlaut:\n\n• **-s-**: **arbeidsdag**, **hverdagsliv**, **grunnlovsdag**, **fødselsdag**\n• **-e-**: **barnetog**, **juletre**, **russebuss**\n• ohne Fuge: **nasjonaldag**, **flaggstang**, **sølvsølje**, **skolekorps** (skole endet schon auf -e)\n\nEine feste Regel gibt es nicht – lerne die Wörter als Ganzes. Nach **-ing**, **-sjon** und **-het** steht aber fast immer **-s-**: **regjeringssjef**, **informasjonsmøte**, **sikkerhetsbelte**."
+        },
+        {
+          "h": "Das letzte Glied entscheidet",
+          "body": "Geschlecht und Beugung kommen – wie im Deutschen – vom letzten Teil:\n\n• **et tog → et barnetog – barnetoget – barnetog – barnetoga/barnetogene**\n• **en dag → en nasjonaldag – nasjonaldagen – nasjonaldager**\n• **ei stang → ei flaggstang – flaggstanga – flaggstenger**\n• **en buss → en russebuss – russebussen – russebusser**\n\nVorsicht: Das norwegische Geschlecht ist oft anders als das deutsche, z. B. **et barnetog** (der Kinderumzug), **et juletre** (der Weihnachtsbaum).",
+          "table": [
+            [
+              "erstes Glied",
+              "letztes Glied",
+              "Zusammensetzung",
+              "Deutsch"
+            ],
+            [
+              "barn",
+              "et tog",
+              "**et barnetog**",
+              "der Kinderumzug"
+            ],
+            [
+              "nasjonal",
+              "en dag",
+              "**en nasjonaldag**",
+              "der Nationalfeiertag"
+            ],
+            [
+              "grunnlov",
+              "en dag",
+              "**en grunnlovsdag**",
+              "der Verfassungstag"
+            ],
+            [
+              "flagg",
+              "ei stang",
+              "**ei flaggstang**",
+              "die Fahnenstange"
+            ],
+            [
+              "hverdag",
+              "et liv",
+              "**et hverdagsliv**",
+              "das Alltagsleben"
+            ]
+          ]
+        }
+      ],
+      "drills": [
+        {
+          "prompt": "I år var det ___ veldig langt barnetog. (en/ei/et)",
+          "de": "Dieses Jahr war es ein sehr langer Kinderumzug.",
+          "answer": [
+            "et"
+          ],
+          "explain": "Das letzte Glied entscheidet: et tog → et barnetog."
+        },
+        {
+          "prompt": "Kongefamilien vinker til ___ fra balkongen. (barn + tog, bestimmte Form)",
+          "de": "Die Königsfamilie winkt dem Kinderumzug vom Balkon aus zu.",
+          "answer": [
+            "barnetoget"
+          ],
+          "explain": "barn + e + tog = barnetog, bestimmt: barnetoget."
+        },
+        {
+          "prompt": "17. mai er Norges ___. (nasjonal + dag)",
+          "de": "Der 17. Mai ist Norwegens Nationalfeiertag.",
+          "answer": [
+            "nasjonaldag"
+          ],
+          "explain": "In einem Wort, ohne Fugenlaut; nach dem Genitiv unbestimmt."
+        },
+        {
+          "prompt": "Per kom sent hjem etter en lang ___. (arbeid + dag)",
+          "de": "Per kam nach einem langen Arbeitstag spät nach Hause.",
+          "answer": [
+            "arbeidsdag"
+          ],
+          "explain": "Mit Fugen-s wie im Deutschen: arbeidsdag (Arbeitstag)."
+        },
+        {
+          "prompt": "Ola gikk i ___ til han var seks år. (barn + hage, bestimmte Form)",
+          "de": "Ola ging in den Kindergarten, bis er sechs Jahre alt war.",
+          "answer": [
+            "barnehagen"
+          ],
+          "explain": "barn + e + hage = barnehage (Fugen-e), bestimmt: barnehagen."
+        },
+        {
+          "prompt": "Flagget henger på ___ i hagen. (flagg + stang, bestimmte Form)",
+          "de": "Die Fahne hängt an der Fahnenstange im Garten.",
+          "answer": [
+            "flaggstanga",
+            "flaggstangen"
+          ],
+          "explain": "ei stang → ei flaggstang → flaggstanga (oder flaggstangen)."
+        },
+        {
+          "prompt": "Kari har festet ___ på bunaden. (sølv + sølje, bestimmte Form)",
+          "de": "Kari hat die Silberbrosche an der Tracht befestigt.",
+          "answer": [
+            "sølvsølja",
+            "sølvsøljen"
+          ],
+          "explain": "ei sølje → ei sølvsølje → sølvsølja (oder sølvsøljen)."
+        },
+        {
+          "prompt": "Russen kjører rundt i den røde ___. (russ + buss, bestimmte Form)",
+          "de": "Die Russ fahren in dem roten Russ-Bus herum.",
+          "answer": [
+            "russebussen"
+          ],
+          "explain": "Mit Fugen-e: russebuss; nach den rote steht die bestimmte Form: russebussen."
+        },
+        {
+          "prompt": "Det norske ___ er roligere enn det tyske. (hverdag + liv, bestimmte Form)",
+          "de": "Das norwegische Alltagsleben ist ruhiger als das deutsche.",
+          "answer": [
+            "hverdagslivet"
+          ],
+          "explain": "hverdag + s + liv = hverdagsliv (Neutrum, wegen et liv) → hverdagslivet."
+        },
+        {
+          "prompt": "Matthias spiste tre ___ til frokost. (rund + stykke, Plural)",
+          "de": "Matthias aß drei Brötchen zum Frühstück.",
+          "answer": [
+            "rundstykker"
+          ],
+          "explain": "et rundstykke – rundstykker: der Plural richtet sich nach et stykke."
+        },
+        {
+          "prompt": "På ___ går barna i tog. (grunnlov + dag, bestimmte Form)",
+          "de": "Am Verfassungstag gehen die Kinder im Umzug.",
+          "answer": [
+            "grunnlovsdagen"
+          ],
+          "explain": "grunnlov + s + dag = grunnlovsdag, bestimmt: grunnlovsdagen."
+        },
+        {
+          "prompt": "Mange tyskere har ikke så sterk ___ som nordmenn. (nasjonal + følelse)",
+          "de": "Viele Deutsche haben kein so starkes Nationalgefühl wie die Norweger.",
+          "answer": [
+            "nasjonalfølelse"
+          ],
+          "explain": "In einem Wort: nasjonalfølelse (maskulin wie en følelse)."
+        }
+      ]
+    },
+    {
+      "id": "g22_perfektum_partisipp",
+      "title": "Das Partizip Perfekt als Adjektiv",
+      "titleNo": "perfektum partisipp som adjektiv",
+      "summary": "Das Partizip Perfekt kann wie ein Adjektiv vor dem Substantiv stehen; Partizipien auf -et bekommen im Plural und in der bestimmten Form -ede.",
+      "sections": [
+        {
+          "h": "Die schwachen Verben",
+          "body": "Wie im Deutschen (der geschmückte Bus) kann das Partizip Perfekt vor einem Substantiv stehen: **en pyntet buss**, **et dekket bord**, **nybakte rundstykker**. Die Endungen hängen von der Verbklasse ab:\n\n• Klasse 1 (**-et**): im Singular unverändert, im Plural und in der bestimmten Form **-ede**: **en pyntet buss – pyntede busser – den pyntede bussen**. Mit der a-Form bleibt alles gleich: **pynta busser**.\n• Klassen 2–4 (**-t**, **-d**): wie ein normales Adjektiv, Plural und bestimmte Form **-e**: **kjøpte kaker**, **den håndsydde bunaden**.\n• Im Neutrum kommt **kein** zusätzliches -t dazu: **et pyntet hus**, **et kjøpt brød**, **et håndsydd skjørt**.",
+          "table": [
+            [
+              "Klasse",
+              "en/ei",
+              "et",
+              "Plural / bestimmt"
+            ],
+            [
+              "1: pynte",
+              "**pyntet**",
+              "**pyntet**",
+              "**pyntede**"
+            ],
+            [
+              "2: kjøpe",
+              "**kjøpt**",
+              "**kjøpt**",
+              "**kjøpte**"
+            ],
+            [
+              "3: prøve",
+              "**prøvd**",
+              "**prøvd**",
+              "**prøvde**"
+            ],
+            [
+              "4: sy",
+              "**sydd**",
+              "**sydd**",
+              "**sydde**"
+            ]
+          ]
+        },
+        {
+          "h": "Die starken Verben",
+          "body": "Starke Partizipien enden auf **-et**. Im Plural und in der bestimmten Form fällt das e weg, und die Endung ist **-ne**:\n\n• **skrive – skrevet**: **et skrevet brev – det skrevne språket – skrevne regler**\n• **stjele – stjålet**: **en stjålet sykkel – den stjålne sykkelen**\n• **brekke – brukket**: **et brukket bein – brukne ribbein**\n\nIm Singular unbestimmt bleibt die Form also gleich: **en stjålet sykkel**, **et stjålet kamera**."
+        },
+        {
+          "h": "Nach være und bli",
+          "body": "Nach **være** und **bli** steht das Partizip prädikativ: **Bordet er dekket.** **Bunaden er håndsydd.** Im Plural ist die unveränderte Form üblich: **Bussene er pyntet.** Bei den Klassen 2–4 geht auch **-e**: **Butikkene er stengt/stengte.**\n\n• **være** + Partizip = Zustand: **Bordet er dekket** (ist gedeckt).\n• **bli** + Partizip = Vorgang, also Passiv (Lektion 18): **Bordet ble dekket** (wurde gedeckt).\n• Viele Partizipien sind feste Adjektive geworden: **gift** (verheiratet), **kjent** (bekannt), **opptatt** (beschäftigt), **forelsket** (verliebt)."
+        }
+      ],
+      "drills": [
+        {
+          "prompt": "På 17. mai ser man mange ___ busser i byen. (pynte)",
+          "de": "Am 17. Mai sieht man viele geschmückte Busse in der Stadt.",
+          "answer": [
+            "pyntede",
+            "pynta"
+          ],
+          "explain": "Klasse 1 im Plural: pyntet → pyntede (mit a-Form: pynta)."
+        },
+        {
+          "prompt": "Den ___ bunaden til Kari er fra Sunnmøre. (hånd + sy)",
+          "de": "Karis handgenähte Tracht ist aus Sunnmøre.",
+          "answer": [
+            "håndsydde"
+          ],
+          "explain": "Bestimmte Form: håndsydd + -e → den håndsydde bunaden."
+        },
+        {
+          "prompt": "Til frokost spiste vi ___ rundstykker. (ny + bake)",
+          "de": "Zum Frühstück aßen wir frisch gebackene Brötchen.",
+          "answer": [
+            "nybakte"
+          ],
+          "explain": "Klasse 2 (bake – bakt) im Plural: nybakte."
+        },
+        {
+          "prompt": "Bordet er ___, og champagnen er kald. (dekke)",
+          "de": "Der Tisch ist gedeckt, und der Champagner ist kalt.",
+          "answer": [
+            "dekket",
+            "dekka"
+          ],
+          "explain": "være + Partizip = Zustand; Singular Neutrum: dekket (oder dekka)."
+        },
+        {
+          "prompt": "Et ___ brød er ikke like godt som et hjemmebakt. (kjøpe)",
+          "de": "Ein gekauftes Brot ist nicht so gut wie ein selbst gebackenes.",
+          "answer": [
+            "kjøpt"
+          ],
+          "explain": "Neutrum: kjøpt – kein zusätzliches -t."
+        },
+        {
+          "prompt": "Han fant den ___ sykkelen sin bak stasjonen. (stjele)",
+          "de": "Er fand sein gestohlenes Fahrrad hinter dem Bahnhof.",
+          "answer": [
+            "stjålne"
+          ],
+          "explain": "Starkes Verb, bestimmte Form: stjålet → den stjålne sykkelen."
+        },
+        {
+          "prompt": "Susanne fikk et ___ brev fra Matthias. (hånd + skrive)",
+          "de": "Susanne bekam einen handgeschriebenen Brief von Matthias.",
+          "answer": [
+            "håndskrevet"
+          ],
+          "explain": "Singular unbestimmt: håndskrevet, auch im Neutrum ohne Änderung."
+        },
+        {
+          "prompt": "Det ___ språket i Norge er bokmål eller nynorsk. (skrive)",
+          "de": "Die geschriebene Sprache in Norwegen ist Bokmål oder Nynorsk.",
+          "answer": [
+            "skrevne"
+          ],
+          "explain": "Starkes Partizip in der bestimmten Form: skrevet → det skrevne språket."
+        },
+        {
+          "prompt": "Ola har et ___ bein og kan ikke gå i toget. (brekke)",
+          "de": "Ola hat ein gebrochenes Bein und kann nicht im Umzug mitgehen.",
+          "answer": [
+            "brukket"
+          ],
+          "explain": "Singular unbestimmt: brekke – brukket → et brukket bein."
+        },
+        {
+          "prompt": "Mange butikker er ___ på 17. mai. (stenge)",
+          "de": "Viele Geschäfte sind am 17. Mai geschlossen.",
+          "answer": [
+            "stengt",
+            "stengte"
+          ],
+          "explain": "Prädikativ im Plural: meist unverändert stengt, bei Klasse 2 geht auch stengte."
+        },
+        {
+          "prompt": "Kari er stolt av den ___ sølvsølja. (arve)",
+          "de": "Kari ist stolz auf die geerbte Silberbrosche.",
+          "answer": [
+            "arvede",
+            "arva"
+          ],
+          "explain": "Klasse 1, bestimmte Form: arvet → den arvede sølvsølja (mit a-Form: arva)."
+        },
+        {
+          "prompt": "Ola ser at Matthias er ___ i Susanne. (forelske)",
+          "de": "Ola sieht, dass Matthias in Susanne verliebt ist.",
+          "answer": [
+            "forelsket",
+            "forelska"
+          ],
+          "explain": "forelsket ist ein festes Adjektiv geworden: være forelsket i noen."
+        }
+      ]
+    }
+  ],
+  "tf": [
+    {
+      "s": "Kari har på seg en bunad fra Gudbrandsdalen.",
+      "de": "Kari trägt eine Tracht aus Gudbrandsdalen.",
+      "a": false,
+      "why": "Karis Tracht ist aus Sunnmøre; Anna trägt die Tracht von Oma Ingrid."
+    },
+    {
+      "s": "Ola ble vekket av skolekorpset om morgenen.",
+      "de": "Ola wurde am Morgen von der Schulkapelle geweckt.",
+      "a": true,
+      "why": "„Jeg ble vekket av skolekorpset klokka sju.“"
+    },
+    {
+      "s": "Matthias har på seg bunad.",
+      "de": "Matthias trägt eine Tracht.",
+      "a": false,
+      "why": "Er trägt Anzug und Krawatte und fühlt sich neben den Trachten „ein bisschen grau“."
+    },
+    {
+      "s": "Kongefamilien står på balkongen og vinker til barna.",
+      "de": "Die Königsfamilie steht auf dem Balkon und winkt den Kindern zu.",
+      "a": true,
+      "why": "Per: „Der står kongefamilien på balkongen og vinker til barna i flere timer.“"
+    },
+    {
+      "s": "Grunnloven ble underskrevet i 1905.",
+      "de": "Die Verfassung wurde 1905 unterzeichnet.",
+      "a": false,
+      "why": "Sie wurde am 17. Mai 1814 unterzeichnet; 1905 wurde die Union mit Schweden aufgelöst."
+    },
+    {
+      "s": "Kong Harald er barnebarnet til Haakon den sjuende.",
+      "de": "König Harald ist der Enkel von Haakon VII.",
+      "a": true,
+      "why": "Anna: „Kong Harald … er barnebarnet hans.“"
+    },
+    {
+      "s": "I Sveits feirer man nasjonaldagen med et stort barnetog.",
+      "de": "In der Schweiz feiert man den Nationalfeiertag mit einem großen Kinderumzug.",
+      "a": false,
+      "why": "Am 1. August gibt es Feuer, Feuerwerk und Reden, aber keinen Kinderumzug."
+    },
+    {
+      "s": "Susanne sier at mange tyskere er forsiktige med flagg.",
+      "de": "Susanne sagt, dass viele Deutsche vorsichtig mit Fahnen sind.",
+      "a": true,
+      "why": "„På grunn av historien er mange av oss forsiktige med flagg …“"
+    }
+  ],
+  "questions": [
+    {
+      "q": "Hva står på frokostbordet hos familien Nygård?",
+      "qDe": "Was steht bei Familie Nygård auf dem Frühstückstisch?",
+      "answer": "Det står champagne og nybakte rundstykker på bordet.",
+      "answerDe": "Auf dem Tisch stehen Champagner und frisch gebackene Brötchen.",
+      "keywords": [
+        [
+          "champagne",
+          "champagnen"
+        ],
+        [
+          "rundstykker",
+          "rundstykke"
+        ]
+      ]
+    },
+    {
+      "q": "Hvorfor er bunaden viktig for Kari?",
+      "qDe": "Warum ist die Tracht für Kari wichtig?",
+      "answer": "Den er en del av familiehistorien hennes, og sølvsølja er arvet etter mormoren.",
+      "answerDe": "Sie ist ein Teil ihrer Familiengeschichte, und die Silberbrosche ist von ihrer Großmutter geerbt.",
+      "keywords": [
+        [
+          "familiehistorien",
+          "familiehistorie",
+          "familien"
+        ],
+        [
+          "arvet",
+          "arve",
+          "arv"
+        ]
+      ]
+    },
+    {
+      "q": "Hva skjedde i 1814?",
+      "qDe": "Was geschah 1814?",
+      "answer": "Over hundre menn skrev en egen grunnlov på Eidsvoll, og den ble underskrevet den 17. mai.",
+      "answerDe": "Über hundert Männer schrieben in Eidsvoll eine eigene Verfassung, und sie wurde am 17. Mai unterzeichnet.",
+      "keywords": [
+        [
+          "grunnlov",
+          "grunnloven"
+        ],
+        [
+          "Eidsvoll",
+          "17. mai"
+        ]
+      ]
+    },
+    {
+      "q": "Hva skjedde i 1905?",
+      "qDe": "Was geschah 1905?",
+      "answer": "Unionen med Sverige ble oppløst, og Norge fikk sin egen konge.",
+      "answerDe": "Die Union mit Schweden wurde aufgelöst, und Norwegen bekam einen eigenen König.",
+      "keywords": [
+        [
+          "unionen",
+          "union"
+        ],
+        [
+          "Sverige"
+        ],
+        [
+          "konge",
+          "kongen",
+          "selvstendig"
+        ]
+      ]
+    },
+    {
+      "q": "Hvordan feirer sveitserne nasjonaldagen sin?",
+      "qDe": "Wie feiern die Schweizer ihren Nationalfeiertag?",
+      "answer": "De feirer 1. august med bål på fjellene, fyrverkeri og taler.",
+      "answerDe": "Sie feiern den 1. August mit Feuern auf den Bergen, Feuerwerk und Reden.",
+      "keywords": [
+        [
+          "bål"
+        ],
+        [
+          "fyrverkeri"
+        ],
+        [
+          "taler",
+          "tale"
+        ]
+      ]
+    },
+    {
+      "q": "Hvorfor er Per stolt av 17. mai?",
+      "qDe": "Warum ist Per stolz auf den 17. Mai?",
+      "answer": "Fordi det er barna som går i tog, ikke soldatene.",
+      "answerDe": "Weil die Kinder im Umzug gehen und nicht die Soldaten.",
+      "keywords": [
+        [
+          "barna",
+          "barn"
+        ],
+        [
+          "soldatene",
+          "soldater",
+          "militærparade"
+        ]
+      ]
+    }
+  ],
+  "find": [
+    {
+      "de": "frisch gebackene",
+      "answer": [
+        "nybakte"
+      ]
+    },
+    {
+      "de": "die Tischdecke",
+      "answer": [
+        "duk"
+      ]
+    },
+    {
+      "de": "(ich) wurde geweckt",
+      "answer": [
+        "ble vekket"
+      ]
+    },
+    {
+      "de": "Anzug und Krawatte",
+      "answer": [
+        "dress og slips"
+      ]
+    },
+    {
+      "de": "handgenäht",
+      "answer": [
+        "håndsydd"
+      ]
+    },
+    {
+      "de": "anstrengend",
+      "answer": [
+        "slitsom"
+      ]
+    },
+    {
+      "de": "sich gefallen lassen",
+      "answer": [
+        "finne seg i"
+      ]
+    },
+    {
+      "de": "sogar",
+      "answer": [
+        "til og med"
+      ]
+    }
+  ],
+  "translate": [
+    {
+      "de": "Herzlichen Glückwunsch zum Nationalfeiertag!",
+      "no": [
+        "Gratulerer med nasjonaldagen!",
+        "Gratulerer med dagen!"
+      ]
+    },
+    {
+      "de": "Die Tracht ist handgenäht und sieht aus wie neu.",
+      "no": [
+        "Bunaden er håndsydd og ser ut som ny."
+      ]
+    },
+    {
+      "de": "Wir gehen hinauf zum Schloss, um den Kinderumzug zu sehen.",
+      "no": [
+        "Vi går opp mot Slottet for å se barnetoget.",
+        "Vi går opp til Slottet for å se barnetoget."
+      ]
+    },
+    {
+      "de": "Die Verfassung wurde 1814 unterzeichnet.",
+      "no": [
+        "Grunnloven ble underskrevet i 1814.",
+        "Grunnloven ble skrevet under i 1814.",
+        "I 1814 ble grunnloven underskrevet."
+      ]
+    },
+    {
+      "de": "1905 wurde die Union mit Schweden aufgelöst.",
+      "no": [
+        "I 1905 ble unionen med Sverige oppløst.",
+        "Unionen med Sverige ble oppløst i 1905."
+      ]
+    },
+    {
+      "de": "Das war ein fantastisches Erlebnis.",
+      "no": [
+        "Det var en fantastisk opplevelse."
+      ]
+    },
+    {
+      "de": "Viele Deutsche sind vorsichtig mit Fahnen.",
+      "no": [
+        "Mange tyskere er forsiktige med flagg."
+      ]
+    },
+    {
+      "de": "Die geschmückten Busse fahren durch die Stadt.",
+      "no": [
+        "De pyntede bussene kjører gjennom byen.",
+        "De pynta bussene kjører gjennom byen."
+      ]
+    },
+    {
+      "de": "Kannst du mir eine kurze Erklärung geben?",
+      "no": [
+        "Kan du gi meg en kort forklaring?",
+        "Kan du gi meg ei kort forklaring?"
+      ]
+    },
+    {
+      "de": "Es sind die Kinder, die im Umzug gehen, nicht die Soldaten.",
+      "no": [
+        "Det er barna som går i tog, ikke soldatene.",
+        "Det er barna som går i toget, ikke soldatene."
+      ],
+      "hint": "Spaltsatz: Det er … som …"
+    }
+  ],
+  "summary": [
+    {
+      "prompt": "Familien Nygård feirer 17. mai med champagne og ___ rundstykker.",
+      "de": "Familie Nygård feiert den 17. Mai mit Champagner und frisch gebackenen Brötchen.",
+      "answer": [
+        "nybakte"
+      ]
+    },
+    {
+      "prompt": "Kari har på seg ___ sin fra Sunnmøre.",
+      "de": "Kari trägt ihre Tracht aus Sunnmøre.",
+      "answer": [
+        "bunaden"
+      ]
+    },
+    {
+      "prompt": "Kongefamilien står på balkongen og ___ til barnetoget.",
+      "de": "Die Königsfamilie steht auf dem Balkon und winkt dem Kinderumzug zu.",
+      "answer": [
+        "vinker"
+      ]
+    },
+    {
+      "prompt": "Per forteller at grunnloven ble ___ den 17. mai 1814.",
+      "de": "Per erzählt, dass die Verfassung am 17. Mai 1814 unterzeichnet wurde.",
+      "answer": [
+        "underskrevet",
+        "skrevet under"
+      ]
+    },
+    {
+      "prompt": "I 1905 ble unionen med Sverige ___.",
+      "de": "1905 wurde die Union mit Schweden aufgelöst.",
+      "answer": [
+        "oppløst"
+      ]
+    },
+    {
+      "prompt": "Til slutt ser Ola at Susanne og Matthias holder ___ i hånda.",
+      "de": "Zum Schluss sieht Ola, dass Susanne und Matthias sich an der Hand halten.",
+      "answer": [
+        "hverandre"
+      ]
+    }
+  ],
+  "dictation": [
+    0,
+    9,
+    14,
+    25
+  ],
+  "writing": {
+    "prompt": "Stell dir vor, du hast den 17. Mai in Norwegen erlebt. Schreib einer norwegischen Freundin eine E-Mail: Was hast du gesehen und erlebt, wie hast du dich gefühlt, und wie feiert man den Nationalfeiertag in deinem Land?",
+    "minWords": 130,
+    "useWords": [
+      "barnetog",
+      "bunad",
+      "opplevelse",
+      "nasjonaldag",
+      "pyntet"
+    ],
+    "checklist": [
+      {
+        "de": "Was du am 17. Mai gesehen hast",
+        "keywords": [
+          "barnetog",
+          "barnetoget",
+          "bunad",
+          "kongefamilien"
+        ]
+      },
+      {
+        "de": "Ein Erlebnis oder Gefühl",
+        "keywords": [
+          "opplevelse",
+          "følelse"
+        ]
+      },
+      {
+        "de": "Der Nationalfeiertag in deinem Land",
+        "keywords": [
+          "nasjonaldag",
+          "nasjonaldagen",
+          "3. oktober",
+          "1. august"
+        ]
+      }
+    ],
+    "model": "Kjære Sigrid!\nNå har jeg endelig feiret 17. mai i Norge, og det var en fantastisk opplevelse. Om morgenen ble vi vekket av et korps som spilte utenfor vinduet. Etter frokosten gikk vi ned til sentrum. Byen var pyntet med flagg overalt, og mange hadde på seg bunad. Jeg så barnetoget på Karl Johan og kongefamilien som vinket fra balkongen. Barna ropte «Hurra!», og jeg fikk en rar følelse i magen – jeg ble nesten litt norsk.\nHjemme i Tyskland har vi nasjonaldagen den 3. oktober, men den feirer vi ikke på samme måte. Det er ingen barnetog, og de fleste har bare fri. Kanskje er vi litt for forsiktige med flagget vårt. Etter denne dagen forstår jeg bedre hvorfor nordmenn er så glade i 17. mai.\nHilsen fra Freiburg",
+    "modelDe": "Liebe Sigrid!\nJetzt habe ich endlich den 17. Mai in Norwegen gefeiert, und es war ein fantastisches Erlebnis. Am Morgen wurden wir von einer Kapelle geweckt, die vor dem Fenster spielte. Nach dem Frühstück gingen wir hinunter ins Zentrum. Die Stadt war überall mit Fahnen geschmückt, und viele trugen Tracht. Ich sah den Kinderumzug auf der Karl Johan und die Königsfamilie, die vom Balkon winkte. Die Kinder riefen „Hurra!“, und ich bekam ein seltsames Gefühl im Bauch – ich wurde fast ein bisschen norwegisch.\nZu Hause in Deutschland haben wir den Nationalfeiertag am 3. Oktober, aber den feiern wir nicht auf dieselbe Weise. Es gibt keinen Kinderumzug, und die meisten haben einfach frei. Vielleicht sind wir ein bisschen zu vorsichtig mit unserer Fahne. Nach diesem Tag verstehe ich besser, warum die Norweger den 17. Mai so sehr lieben.\nGrüße aus Freiburg"
+  }
+}

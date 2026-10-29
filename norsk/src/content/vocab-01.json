@@ -1,0 +1,1723 @@
+[
+  {
+    "id": "w01_hei",
+    "no": "hei",
+    "de": "hallo",
+    "deAlt": [
+      "hi",
+      "servus",
+      "grüß dich"
+    ],
+    "pos": "interj",
+    "lesson": 1,
+    "wk": true,
+    "ex": {
+      "no": "Hei! Jeg heter Susanne.",
+      "de": "Hallo! Ich heiße Susanne."
+    }
+  },
+  {
+    "id": "w01_velkommen",
+    "no": "velkommen",
+    "de": "willkommen",
+    "pos": "interj",
+    "lesson": 1,
+    "wk": true,
+    "ex": {
+      "no": "Velkommen til kurset!",
+      "de": "Willkommen zum Kurs!"
+    }
+  },
+  {
+    "id": "w01_jeg",
+    "no": "jeg",
+    "de": "ich",
+    "pos": "pron",
+    "lesson": 1,
+    "ex": {
+      "no": "Jeg bor i Oslo.",
+      "de": "Ich wohne in Oslo."
+    },
+    "note": "Gesprochen etwa »jäi«."
+  },
+  {
+    "id": "w01_du",
+    "no": "du",
+    "de": "du",
+    "pos": "pron",
+    "lesson": 1,
+    "ex": {
+      "no": "Hvor bor du?",
+      "de": "Wo wohnst du?"
+    },
+    "note": "In Norwegen sagt man fast immer du, auch zur Lehrerin."
+  },
+  {
+    "id": "w01_han",
+    "no": "han",
+    "de": "er (Person)",
+    "deAlt": [
+      "er"
+    ],
+    "pos": "pron",
+    "lesson": 1,
+    "ex": {
+      "no": "Han heter Matthias.",
+      "de": "Er heißt Matthias."
+    }
+  },
+  {
+    "id": "w01_hun",
+    "no": "hun",
+    "de": "sie (Person, Singular)",
+    "deAlt": [
+      "sie"
+    ],
+    "pos": "pron",
+    "lesson": 1,
+    "ex": {
+      "no": "Hun kommer fra Tyskland.",
+      "de": "Sie kommt aus Deutschland."
+    }
+  },
+  {
+    "id": "w01_den",
+    "no": "den",
+    "de": "er/sie/es (Sache, en-/ei-Wort)",
+    "deAlt": [
+      "er",
+      "sie",
+      "es"
+    ],
+    "pos": "pron",
+    "lesson": 1,
+    "ex": {
+      "no": "Jeg har en hybel. Den er på Sagene.",
+      "de": "Ich habe ein Zimmer. Es liegt in Sagene."
+    }
+  },
+  {
+    "id": "w01_det",
+    "no": "det",
+    "de": "es, das",
+    "deAlt": [
+      "es",
+      "das"
+    ],
+    "pos": "pron",
+    "lesson": 1,
+    "ex": {
+      "no": "Det er ikke langt fra Blindern.",
+      "de": "Das ist nicht weit von Blindern."
+    },
+    "note": "Auch für Sachen, die et-Wörter sind: et hotell – det."
+  },
+  {
+    "id": "w01_vi",
+    "no": "vi",
+    "de": "wir",
+    "pos": "pron",
+    "lesson": 1,
+    "ex": {
+      "no": "Vi lærer norsk.",
+      "de": "Wir lernen Norwegisch."
+    }
+  },
+  {
+    "id": "w01_dere",
+    "no": "dere",
+    "de": "ihr",
+    "pos": "pron",
+    "lesson": 1,
+    "ex": {
+      "no": "Hvor kommer dere fra?",
+      "de": "Woher kommt ihr?"
+    }
+  },
+  {
+    "id": "w01_de",
+    "no": "de",
+    "de": "sie (Plural)",
+    "deAlt": [
+      "sie"
+    ],
+    "pos": "pron",
+    "lesson": 1,
+    "ex": {
+      "no": "De snakker tysk.",
+      "de": "Sie sprechen Deutsch."
+    },
+    "note": "Gesprochen »di«. Großgeschrieben (De) ist es die alte Höflichkeitsform »Sie«."
+  },
+  {
+    "id": "w01_man",
+    "no": "man",
+    "de": "man",
+    "pos": "pron",
+    "lesson": 1,
+    "ex": {
+      "no": "Man kan gå på tur.",
+      "de": "Man kann wandern gehen."
+    }
+  },
+  {
+    "id": "w01_hete",
+    "no": "hete",
+    "de": "heißen",
+    "pos": "verb",
+    "vf": [
+      "heter",
+      "het",
+      "hett",
+      ""
+    ],
+    "vg": "sterk",
+    "lesson": 1,
+    "wk": true,
+    "ex": {
+      "no": "Hva heter du?",
+      "de": "Wie heißt du?"
+    }
+  },
+  {
+    "id": "w01_vaere",
+    "no": "være",
+    "de": "sein",
+    "pos": "verb",
+    "vf": [
+      "er",
+      "var",
+      "vært",
+      "vær"
+    ],
+    "vg": "uregelm",
+    "lesson": 1,
+    "ex": {
+      "no": "Jeg er student.",
+      "de": "Ich bin Student."
+    },
+    "note": "Präsens: er – für alle Personen."
+  },
+  {
+    "id": "w01_ha",
+    "no": "ha",
+    "de": "haben",
+    "pos": "verb",
+    "vf": [
+      "har",
+      "hadde",
+      "hatt",
+      "ha"
+    ],
+    "vg": "uregelm",
+    "lesson": 1,
+    "ex": {
+      "no": "Mads har en jobb på et hotell.",
+      "de": "Mads hat einen Job in einem Hotel."
+    }
+  },
+  {
+    "id": "w01_komme",
+    "no": "komme",
+    "de": "kommen",
+    "pos": "verb",
+    "vf": [
+      "kommer",
+      "kom",
+      "kommet",
+      "kom"
+    ],
+    "vg": "sterk",
+    "lesson": 1,
+    "wk": true,
+    "ex": {
+      "no": "Jeg kommer fra Tyskland.",
+      "de": "Ich komme aus Deutschland."
+    }
+  },
+  {
+    "id": "w01_bo",
+    "no": "bo",
+    "de": "wohnen",
+    "pos": "verb",
+    "vf": [
+      "bor",
+      "bodde",
+      "bodd",
+      "bo"
+    ],
+    "vg": "4",
+    "lesson": 1,
+    "wk": true,
+    "ex": {
+      "no": "Susanne bor på Sagene.",
+      "de": "Susanne wohnt in Sagene."
+    }
+  },
+  {
+    "id": "w01_gjore",
+    "no": "gjøre",
+    "de": "machen, tun",
+    "deAlt": [
+      "machen",
+      "tun"
+    ],
+    "pos": "verb",
+    "vf": [
+      "gjør",
+      "gjorde",
+      "gjort",
+      "gjør"
+    ],
+    "vg": "uregelm",
+    "lesson": 1,
+    "ex": {
+      "no": "Hva gjør du i Oslo?",
+      "de": "Was machst du in Oslo?"
+    }
+  },
+  {
+    "id": "w01_si",
+    "no": "si",
+    "de": "sagen",
+    "pos": "verb",
+    "vf": [
+      "sier",
+      "sa",
+      "sagt",
+      "si"
+    ],
+    "vg": "uregelm",
+    "lesson": 1,
+    "ex": {
+      "no": "Torunn sier «Velkommen!».",
+      "de": "Torunn sagt »Willkommen!«."
+    }
+  },
+  {
+    "id": "w01_vite",
+    "no": "vite",
+    "de": "wissen",
+    "pos": "verb",
+    "vf": [
+      "vet",
+      "visste",
+      "visst",
+      "vit"
+    ],
+    "vg": "uregelm",
+    "lesson": 1,
+    "ex": {
+      "no": "Jeg vet ikke.",
+      "de": "Ich weiß nicht."
+    }
+  },
+  {
+    "id": "w01_sporre",
+    "no": "spørre",
+    "de": "fragen",
+    "pos": "verb",
+    "vf": [
+      "spør",
+      "spurte",
+      "spurt",
+      "spør"
+    ],
+    "vg": "uregelm",
+    "lesson": 1,
+    "ex": {
+      "no": "Torunn spør: «Hvem er du?»",
+      "de": "Torunn fragt: »Wer bist du?«"
+    }
+  },
+  {
+    "id": "w01_snakke",
+    "no": "snakke",
+    "de": "sprechen",
+    "deAlt": [
+      "reden"
+    ],
+    "pos": "verb",
+    "vf": [
+      "snakker",
+      "snakket/snakka",
+      "snakket/snakka",
+      "snakk"
+    ],
+    "vg": "1",
+    "lesson": 1,
+    "wk": true,
+    "ex": {
+      "no": "Snakker du norsk?",
+      "de": "Sprichst du Norwegisch?"
+    }
+  },
+  {
+    "id": "w01_laere",
+    "no": "lære",
+    "de": "lernen",
+    "deAlt": [
+      "lehren",
+      "beibringen"
+    ],
+    "pos": "verb",
+    "vf": [
+      "lærer",
+      "lærte",
+      "lært",
+      "lær"
+    ],
+    "vg": "2",
+    "lesson": 1,
+    "ex": {
+      "no": "Vi lærer norsk på Blindern.",
+      "de": "Wir lernen Norwegisch in Blindern."
+    },
+    "note": "lærer ist auch das Substantiv »Lehrer«: Torunn er lærer."
+  },
+  {
+    "id": "w01_studere",
+    "no": "studere",
+    "de": "studieren",
+    "pos": "verb",
+    "vf": [
+      "studerer",
+      "studerte",
+      "studert",
+      "studer"
+    ],
+    "vg": "2",
+    "lesson": 1,
+    "wk": true,
+    "ex": {
+      "no": "Elin studerer historie.",
+      "de": "Elin studiert Geschichte."
+    }
+  },
+  {
+    "id": "w01_leie",
+    "no": "leie",
+    "de": "mieten",
+    "deAlt": [
+      "vermieten"
+    ],
+    "pos": "verb",
+    "vf": [
+      "leier",
+      "leide",
+      "leid",
+      "lei"
+    ],
+    "vg": "3",
+    "lesson": 1,
+    "ex": {
+      "no": "Susanne leier en hybel.",
+      "de": "Susanne mietet ein Zimmer."
+    }
+  },
+  {
+    "id": "w01_jobbe",
+    "no": "jobbe",
+    "de": "arbeiten",
+    "deAlt": [
+      "jobben"
+    ],
+    "pos": "verb",
+    "vf": [
+      "jobber",
+      "jobbet/jobba",
+      "jobbet/jobba",
+      "jobb"
+    ],
+    "vg": "1",
+    "lesson": 1,
+    "wk": true,
+    "ex": {
+      "no": "Mads jobber på et hotell.",
+      "de": "Mads arbeitet in einem Hotel."
+    },
+    "note": "Umgangssprachlich und sehr häufig; etwas formeller: arbeide."
+  },
+  {
+    "id": "w01_arbeide",
+    "no": "arbeide",
+    "de": "arbeiten",
+    "pos": "verb",
+    "vf": [
+      "arbeider",
+      "arbeidet/arbeidde",
+      "arbeidet/arbeidd",
+      "arbeid"
+    ],
+    "vg": "1",
+    "lesson": 1,
+    "ex": {
+      "no": "Torunn arbeider på Blindern.",
+      "de": "Torunn arbeitet in Blindern."
+    }
+  },
+  {
+    "id": "w01_forstaa",
+    "no": "forstå",
+    "de": "verstehen",
+    "pos": "verb",
+    "vf": [
+      "forstår",
+      "forsto/forstod",
+      "forstått",
+      "forstå"
+    ],
+    "vg": "sterk",
+    "lesson": 1,
+    "wk": true,
+    "ex": {
+      "no": "Elin forstår mye norsk.",
+      "de": "Elin versteht viel Norwegisch."
+    }
+  },
+  {
+    "id": "w01_lese",
+    "no": "lese",
+    "de": "lesen",
+    "pos": "verb",
+    "vf": [
+      "leser",
+      "leste",
+      "lest",
+      "les"
+    ],
+    "vg": "2",
+    "lesson": 1,
+    "ex": {
+      "no": "Norsk er lett å lese.",
+      "de": "Norwegisch ist leicht zu lesen."
+    }
+  },
+  {
+    "id": "w01_gaa",
+    "no": "gå",
+    "de": "gehen",
+    "pos": "verb",
+    "vf": [
+      "går",
+      "gikk",
+      "gått",
+      "gå"
+    ],
+    "vg": "sterk",
+    "lesson": 1,
+    "ex": {
+      "no": "Nordmenn går på tur.",
+      "de": "Norweger gehen wandern."
+    }
+  },
+  {
+    "id": "w01_hva",
+    "no": "hva",
+    "de": "was",
+    "pos": "pron",
+    "lesson": 1,
+    "wk": true,
+    "ex": {
+      "no": "Hva heter du?",
+      "de": "Wie heißt du?"
+    },
+    "note": "»Wie heißt du?« = Hva heter du? Das h spricht man nicht."
+  },
+  {
+    "id": "w01_hvem",
+    "no": "hvem",
+    "de": "wer",
+    "pos": "pron",
+    "lesson": 1,
+    "wk": true,
+    "ex": {
+      "no": "Hvem er du?",
+      "de": "Wer bist du?"
+    }
+  },
+  {
+    "id": "w01_hvor",
+    "no": "hvor",
+    "de": "wo",
+    "pos": "adv",
+    "lesson": 1,
+    "wk": true,
+    "ex": {
+      "no": "Hvor bor du?",
+      "de": "Wo wohnst du?"
+    },
+    "note": "Woher? = Hvor … fra? (Hvor kommer du fra?)"
+  },
+  {
+    "id": "w01_ja",
+    "no": "ja",
+    "de": "ja",
+    "pos": "interj",
+    "lesson": 1,
+    "ex": {
+      "no": "Ja, jeg snakker litt norsk.",
+      "de": "Ja, ich spreche ein bisschen Norwegisch."
+    }
+  },
+  {
+    "id": "w01_nei",
+    "no": "nei",
+    "de": "nein",
+    "pos": "interj",
+    "lesson": 1,
+    "ex": {
+      "no": "Nei, jeg er ikke student.",
+      "de": "Nein, ich bin kein Student."
+    }
+  },
+  {
+    "id": "w01_og",
+    "no": "og",
+    "de": "und",
+    "pos": "conj",
+    "lesson": 1,
+    "ex": {
+      "no": "Jeg snakker tysk og fransk.",
+      "de": "Ich spreche Deutsch und Französisch."
+    },
+    "note": "Gesprochen meist »å«."
+  },
+  {
+    "id": "w01_men",
+    "no": "men",
+    "de": "aber",
+    "pos": "conj",
+    "lesson": 1,
+    "ex": {
+      "no": "Norsk er lett å lese, men vanskelig å snakke.",
+      "de": "Norwegisch ist leicht zu lesen, aber schwer zu sprechen."
+    }
+  },
+  {
+    "id": "w01_fra",
+    "no": "fra",
+    "de": "aus, von",
+    "deAlt": [
+      "aus",
+      "von"
+    ],
+    "pos": "prep",
+    "lesson": 1,
+    "wk": true,
+    "ex": {
+      "no": "Matthias kommer fra Sveits.",
+      "de": "Matthias kommt aus der Schweiz."
+    }
+  },
+  {
+    "id": "w01_i",
+    "no": "i",
+    "de": "in",
+    "pos": "prep",
+    "lesson": 1,
+    "ex": {
+      "no": "Jeg bor i Oslo.",
+      "de": "Ich wohne in Oslo."
+    }
+  },
+  {
+    "id": "w01_paa",
+    "no": "på",
+    "de": "auf, in, an",
+    "deAlt": [
+      "auf",
+      "in",
+      "an"
+    ],
+    "pos": "prep",
+    "lesson": 1,
+    "ex": {
+      "no": "Susanne bor på Sagene.",
+      "de": "Susanne wohnt in Sagene."
+    },
+    "note": "Bei vielen Stadtteilen und Arbeitsorten steht på: på Sagene, på et hotell."
+  },
+  {
+    "id": "w01_hos",
+    "no": "hos",
+    "de": "bei",
+    "pos": "prep",
+    "lesson": 1,
+    "ex": {
+      "no": "Susanne bor hos familien Nygård.",
+      "de": "Susanne wohnt bei Familie Nygård."
+    }
+  },
+  {
+    "id": "w01_ogsaa",
+    "no": "også",
+    "de": "auch",
+    "pos": "adv",
+    "lesson": 1,
+    "ex": {
+      "no": "Studerer du også?",
+      "de": "Studierst du auch?"
+    }
+  },
+  {
+    "id": "w01_litt",
+    "no": "litt",
+    "de": "ein bisschen, etwas",
+    "deAlt": [
+      "ein bisschen",
+      "etwas",
+      "ein wenig"
+    ],
+    "pos": "adv",
+    "lesson": 1,
+    "wk": true,
+    "ex": {
+      "no": "Jeg snakker litt norsk.",
+      "de": "Ich spreche ein bisschen Norwegisch."
+    }
+  },
+  {
+    "id": "w01_mye",
+    "no": "mye",
+    "de": "viel",
+    "pos": "adv",
+    "lesson": 1,
+    "ex": {
+      "no": "Elin forstår mye norsk.",
+      "de": "Elin versteht viel Norwegisch."
+    }
+  },
+  {
+    "id": "w01_her",
+    "no": "her",
+    "de": "hier",
+    "pos": "adv",
+    "lesson": 1,
+    "ex": {
+      "no": "Vi snakker mye norsk her.",
+      "de": "Wir sprechen hier viel Norwegisch."
+    }
+  },
+  {
+    "id": "w01_ikke",
+    "no": "ikke",
+    "de": "nicht",
+    "pos": "adv",
+    "lesson": 1,
+    "ex": {
+      "no": "Det er ikke langt fra Blindern.",
+      "de": "Das ist nicht weit von Blindern."
+    }
+  },
+  {
+    "id": "w01_selvfolgelig",
+    "no": "selvfølgelig",
+    "de": "natürlich, selbstverständlich",
+    "deAlt": [
+      "natürlich",
+      "selbstverständlich"
+    ],
+    "pos": "adv",
+    "lesson": 1,
+    "ex": {
+      "no": "Jeg lærer norsk, selvfølgelig!",
+      "de": "Ich lerne natürlich Norwegisch!"
+    }
+  },
+  {
+    "id": "w01_kurs",
+    "no": "kurs",
+    "de": "der Kurs",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "kurs",
+      "kurset",
+      "kurs",
+      "kursa/kursene"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Velkommen til kurset!",
+      "de": "Willkommen zum Kurs!"
+    }
+  },
+  {
+    "id": "w01_laerer",
+    "no": "lærer",
+    "de": "der Lehrer, die Lehrerin",
+    "deAlt": [
+      "der Lehrer",
+      "die Lehrerin"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "lærer",
+      "læreren",
+      "lærere",
+      "lærerne"
+    ],
+    "lesson": 1,
+    "wk": true,
+    "ex": {
+      "no": "Torunn er lærer.",
+      "de": "Torunn ist Lehrerin."
+    },
+    "note": "Gleiches Wort für Männer und Frauen. Beim Beruf kein Artikel: Hun er lærer."
+  },
+  {
+    "id": "w01_student",
+    "no": "student",
+    "de": "der Student, die Studentin",
+    "deAlt": [
+      "der Student",
+      "die Studentin"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "student",
+      "studenten",
+      "studenter",
+      "studentene"
+    ],
+    "lesson": 1,
+    "wk": true,
+    "ex": {
+      "no": "Susanne er student.",
+      "de": "Susanne ist Studentin."
+    }
+  },
+  {
+    "id": "w01_ingenior",
+    "no": "ingeniør",
+    "de": "der Ingenieur, die Ingenieurin",
+    "deAlt": [
+      "der Ingenieur",
+      "die Ingenieurin"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "ingeniør",
+      "ingeniøren",
+      "ingeniører",
+      "ingeniørene"
+    ],
+    "lesson": 1,
+    "wk": true,
+    "ex": {
+      "no": "Matthias er ingeniør.",
+      "de": "Matthias ist Ingenieur."
+    }
+  },
+  {
+    "id": "w01_jobb",
+    "no": "jobb",
+    "de": "der Job, die Arbeit",
+    "deAlt": [
+      "der Job",
+      "die Arbeit",
+      "die Stelle"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "jobb",
+      "jobben",
+      "jobber",
+      "jobbene"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Mads har en jobb på et hotell.",
+      "de": "Mads hat einen Job in einem Hotel."
+    }
+  },
+  {
+    "id": "w01_historie",
+    "no": "historie",
+    "de": "die Geschichte",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "historie",
+      "historien",
+      "historier",
+      "historiene"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Elin studerer historie.",
+      "de": "Elin studiert Geschichte."
+    }
+  },
+  {
+    "id": "w01_hybel",
+    "no": "hybel",
+    "de": "das (möblierte) Zimmer zur Miete",
+    "deAlt": [
+      "die Studentenbude",
+      "das Zimmer"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "hybel",
+      "hybelen",
+      "hybler",
+      "hyblene"
+    ],
+    "lesson": 1,
+    "wk": true,
+    "ex": {
+      "no": "Susanne leier en hybel på Sagene.",
+      "de": "Susanne mietet ein Zimmer in Sagene."
+    },
+    "note": "Typisch für Studenten: ein Zimmer, oft mit eigenem Eingang, in einem Privathaus."
+  },
+  {
+    "id": "w01_familie",
+    "no": "familie",
+    "de": "die Familie",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "familie",
+      "familien",
+      "familier",
+      "familiene"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Susanne bor hos familien Nygård.",
+      "de": "Susanne wohnt bei Familie Nygård."
+    },
+    "note": "en familie – maskulin!"
+  },
+  {
+    "id": "w01_hotell",
+    "no": "hotell",
+    "de": "das Hotel",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "hotell",
+      "hotellet",
+      "hoteller",
+      "hotellene"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Mads jobber på et hotell.",
+      "de": "Mads arbeitet in einem Hotel."
+    },
+    "note": "Mit zwei l."
+  },
+  {
+    "id": "w01_spraak",
+    "no": "språk",
+    "de": "die Sprache",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "språk",
+      "språket",
+      "språk",
+      "språka/språkene"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Norsk er et språk i Skandinavia.",
+      "de": "Norwegisch ist eine Sprache in Skandinavien."
+    },
+    "note": "et språk – Neutrum, anders als »die Sprache«."
+  },
+  {
+    "id": "w01_land",
+    "no": "land",
+    "de": "das Land",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "land",
+      "landet",
+      "land",
+      "landa/landene"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Norge er et land i Nord-Europa.",
+      "de": "Norwegen ist ein Land in Nordeuropa."
+    }
+  },
+  {
+    "id": "w01_by",
+    "no": "by",
+    "de": "die Stadt",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "by",
+      "byen",
+      "byer",
+      "byene"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Oslo er en by i Norge.",
+      "de": "Oslo ist eine Stadt in Norwegen."
+    },
+    "note": "en by – maskulin, anders als »die Stadt«."
+  },
+  {
+    "id": "w01_mann",
+    "no": "mann",
+    "de": "der Mann",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "mann",
+      "mannen",
+      "menn",
+      "mennene"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Matthias er en mann fra Sveits.",
+      "de": "Matthias ist ein Mann aus der Schweiz."
+    },
+    "note": "Plural unregelmäßig: menn."
+  },
+  {
+    "id": "w01_jente",
+    "no": "jente",
+    "de": "das Mädchen",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "jente",
+      "jenta",
+      "jenter",
+      "jentene"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Familien Nygård har ei jente og en gutt.",
+      "de": "Familie Nygård hat ein Mädchen und einen Jungen."
+    }
+  },
+  {
+    "id": "w01_gutt",
+    "no": "gutt",
+    "de": "der Junge",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "gutt",
+      "gutten",
+      "gutter",
+      "guttene"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Ola er en gutt på seksten år.",
+      "de": "Ola ist ein sechzehnjähriger Junge."
+    }
+  },
+  {
+    "id": "w01_hus",
+    "no": "hus",
+    "de": "das Haus",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "hus",
+      "huset",
+      "hus",
+      "husa/husene"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Familien Nygård har et hus på Sagene.",
+      "de": "Familie Nygård hat ein Haus in Sagene."
+    }
+  },
+  {
+    "id": "w01_bil",
+    "no": "bil",
+    "de": "das Auto",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "bil",
+      "bilen",
+      "biler",
+      "bilene"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Matthias har en bil i Bern.",
+      "de": "Matthias hat ein Auto in Bern."
+    },
+    "note": "en bil – maskulin, anders als »das Auto«."
+  },
+  {
+    "id": "w01_bok",
+    "no": "bok",
+    "de": "das Buch",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "bok",
+      "boka",
+      "bøker",
+      "bøkene"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Susanne har ei bok på norsk.",
+      "de": "Susanne hat ein Buch auf Norwegisch."
+    },
+    "note": "Plural unregelmäßig: bøker."
+  },
+  {
+    "id": "w01_nordmann",
+    "no": "nordmann",
+    "de": "der Norweger, die Norwegerin",
+    "deAlt": [
+      "der Norweger",
+      "die Norwegerin"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "nordmann",
+      "nordmannen",
+      "nordmenn",
+      "nordmennene"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Torunn er nordmann.",
+      "de": "Torunn ist Norwegerin."
+    },
+    "note": "Klein geschrieben. Plural wie mann: nordmenn."
+  },
+  {
+    "id": "w01_tysker",
+    "no": "tysker",
+    "de": "der Deutsche, die Deutsche",
+    "deAlt": [
+      "der Deutsche",
+      "die Deutsche"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "tysker",
+      "tyskeren",
+      "tyskere",
+      "tyskerne"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Susanne er tysker.",
+      "de": "Susanne ist Deutsche."
+    }
+  },
+  {
+    "id": "w01_sveitser",
+    "no": "sveitser",
+    "de": "der Schweizer, die Schweizerin",
+    "deAlt": [
+      "der Schweizer",
+      "die Schweizerin"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "sveitser",
+      "sveitseren",
+      "sveitsere",
+      "sveitserne"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Matthias er sveitser.",
+      "de": "Matthias ist Schweizer."
+    }
+  },
+  {
+    "id": "w01_osterriker",
+    "no": "østerriker",
+    "de": "der Österreicher, die Österreicherin",
+    "deAlt": [
+      "der Österreicher",
+      "die Österreicherin"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "østerriker",
+      "østerrikeren",
+      "østerrikere",
+      "østerrikerne"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "En østerriker kommer fra Østerrike.",
+      "de": "Ein Österreicher kommt aus Österreich."
+    }
+  },
+  {
+    "id": "w01_svenske",
+    "no": "svenske",
+    "de": "der Schwede, die Schwedin",
+    "deAlt": [
+      "der Schwede",
+      "die Schwedin"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "svenske",
+      "svensken",
+      "svensker",
+      "svenskene"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Elin er svenske.",
+      "de": "Elin ist Schwedin."
+    }
+  },
+  {
+    "id": "w01_danske",
+    "no": "danske",
+    "de": "der Däne, die Dänin",
+    "deAlt": [
+      "der Däne",
+      "die Dänin"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "danske",
+      "dansken",
+      "dansker",
+      "danskene"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Mads er danske.",
+      "de": "Mads ist Däne."
+    }
+  },
+  {
+    "id": "w01_norge",
+    "no": "Norge",
+    "de": "Norwegen",
+    "pos": "name",
+    "lesson": 1,
+    "ex": {
+      "no": "Oslo er i Norge.",
+      "de": "Oslo liegt in Norwegen."
+    }
+  },
+  {
+    "id": "w01_tyskland",
+    "no": "Tyskland",
+    "de": "Deutschland",
+    "pos": "name",
+    "lesson": 1,
+    "ex": {
+      "no": "Susanne kommer fra Tyskland.",
+      "de": "Susanne kommt aus Deutschland."
+    }
+  },
+  {
+    "id": "w01_sveits",
+    "no": "Sveits",
+    "de": "die Schweiz",
+    "deAlt": [
+      "Schweiz"
+    ],
+    "pos": "name",
+    "lesson": 1,
+    "ex": {
+      "no": "Matthias kommer fra Sveits.",
+      "de": "Matthias kommt aus der Schweiz."
+    },
+    "note": "Ohne Artikel: fra Sveits = aus der Schweiz."
+  },
+  {
+    "id": "w01_osterrike",
+    "no": "Østerrike",
+    "de": "Österreich",
+    "pos": "name",
+    "lesson": 1,
+    "ex": {
+      "no": "Wien er i Østerrike.",
+      "de": "Wien liegt in Österreich."
+    }
+  },
+  {
+    "id": "w01_sverige",
+    "no": "Sverige",
+    "de": "Schweden",
+    "pos": "name",
+    "lesson": 1,
+    "ex": {
+      "no": "Elin kommer fra Sverige.",
+      "de": "Elin kommt aus Schweden."
+    },
+    "note": "Gesprochen etwa »Swärje«."
+  },
+  {
+    "id": "w01_danmark",
+    "no": "Danmark",
+    "de": "Dänemark",
+    "pos": "name",
+    "lesson": 1,
+    "ex": {
+      "no": "Mads kommer fra Danmark.",
+      "de": "Mads kommt aus Dänemark."
+    }
+  },
+  {
+    "id": "w01_norsk",
+    "no": "norsk",
+    "de": "norwegisch; Norwegisch",
+    "deAlt": [
+      "norwegisch",
+      "Norwegisch"
+    ],
+    "pos": "adj",
+    "forms": [
+      "norsk",
+      "norsk",
+      "norske"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Vi lærer norsk.",
+      "de": "Wir lernen Norwegisch."
+    },
+    "note": "Sprachen und Nationalitäten schreibt man klein."
+  },
+  {
+    "id": "w01_tysk",
+    "no": "tysk",
+    "de": "deutsch; Deutsch",
+    "deAlt": [
+      "deutsch",
+      "Deutsch"
+    ],
+    "pos": "adj",
+    "forms": [
+      "tysk",
+      "tysk",
+      "tyske"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Susanne er tysk.",
+      "de": "Susanne ist Deutsche."
+    }
+  },
+  {
+    "id": "w01_sveitsisk",
+    "no": "sveitsisk",
+    "de": "schweizerisch",
+    "deAlt": [
+      "Schweizer"
+    ],
+    "pos": "adj",
+    "forms": [
+      "sveitsisk",
+      "sveitsisk",
+      "sveitsiske"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Matthias er sveitsisk.",
+      "de": "Matthias ist Schweizer."
+    },
+    "note": "Keine Sprache! In der Schweiz spricht man tysk, fransk, italiensk und retoromansk."
+  },
+  {
+    "id": "w01_osterriksk",
+    "no": "østerriksk",
+    "de": "österreichisch",
+    "pos": "adj",
+    "forms": [
+      "østerriksk",
+      "østerriksk",
+      "østerrikske"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Er du østerriksk?",
+      "de": "Bist du Österreicher/in?"
+    }
+  },
+  {
+    "id": "w01_svensk",
+    "no": "svensk",
+    "de": "schwedisch; Schwedisch",
+    "deAlt": [
+      "schwedisch",
+      "Schwedisch"
+    ],
+    "pos": "adj",
+    "forms": [
+      "svensk",
+      "svensk",
+      "svenske"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Elin snakker svensk.",
+      "de": "Elin spricht Schwedisch."
+    }
+  },
+  {
+    "id": "w01_dansk",
+    "no": "dansk",
+    "de": "dänisch; Dänisch",
+    "deAlt": [
+      "dänisch",
+      "Dänisch"
+    ],
+    "pos": "adj",
+    "forms": [
+      "dansk",
+      "dansk",
+      "danske"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Mads er dansk.",
+      "de": "Mads ist Däne."
+    }
+  },
+  {
+    "id": "w01_engelsk",
+    "no": "engelsk",
+    "de": "englisch; Englisch",
+    "deAlt": [
+      "englisch",
+      "Englisch"
+    ],
+    "pos": "adj",
+    "forms": [
+      "engelsk",
+      "engelsk",
+      "engelske"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Matthias snakker engelsk.",
+      "de": "Matthias spricht Englisch."
+    }
+  },
+  {
+    "id": "w01_fransk",
+    "no": "fransk",
+    "de": "französisch; Französisch",
+    "deAlt": [
+      "französisch",
+      "Französisch"
+    ],
+    "pos": "adj",
+    "forms": [
+      "fransk",
+      "fransk",
+      "franske"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Snakker du fransk?",
+      "de": "Sprichst du Französisch?"
+    }
+  },
+  {
+    "id": "w01_lett",
+    "no": "lett",
+    "de": "leicht, einfach",
+    "deAlt": [
+      "leicht",
+      "einfach"
+    ],
+    "pos": "adj",
+    "forms": [
+      "lett",
+      "lett",
+      "lette"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Norsk er lett å lese.",
+      "de": "Norwegisch ist leicht zu lesen."
+    }
+  },
+  {
+    "id": "w01_vanskelig",
+    "no": "vanskelig",
+    "de": "schwer, schwierig",
+    "deAlt": [
+      "schwer",
+      "schwierig"
+    ],
+    "pos": "adj",
+    "forms": [
+      "vanskelig",
+      "vanskelig",
+      "vanskelige"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Norsk er vanskelig å snakke.",
+      "de": "Norwegisch ist schwer zu sprechen."
+    }
+  },
+  {
+    "id": "w01_fin",
+    "no": "fin",
+    "de": "schön, fein",
+    "deAlt": [
+      "schön",
+      "fein",
+      "hübsch"
+    ],
+    "pos": "adj",
+    "forms": [
+      "fin",
+      "fint",
+      "fine"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Så fint!",
+      "de": "Wie schön!"
+    }
+  },
+  {
+    "id": "w01_bra",
+    "no": "bra",
+    "de": "gut",
+    "pos": "adj",
+    "forms": [
+      "bra",
+      "bra",
+      "bra"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Bra! Hvor bor du?",
+      "de": "Gut! Wo wohnst du?"
+    },
+    "note": "Unveränderlich. Falscher Freund: bra heißt »gut«, nicht »brav«."
+  },
+  {
+    "id": "w01_fjell",
+    "no": "fjell",
+    "de": "der Berg, das Gebirge",
+    "deAlt": [
+      "der Berg",
+      "das Gebirge"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "fjell",
+      "fjellet",
+      "fjell",
+      "fjella/fjellene"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Norge har mye fjell.",
+      "de": "Norwegen hat viele Berge."
+    },
+    "note": "i fjellet = in den Bergen."
+  },
+  {
+    "id": "w01_fjord",
+    "no": "fjord",
+    "de": "der Fjord",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "fjord",
+      "fjorden",
+      "fjorder",
+      "fjordene"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Norge har mange fjorder.",
+      "de": "Norwegen hat viele Fjorde."
+    }
+  },
+  {
+    "id": "w01_tur",
+    "no": "tur",
+    "de": "der Ausflug, die Wanderung",
+    "deAlt": [
+      "der Ausflug",
+      "die Wanderung",
+      "die Tour"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "tur",
+      "turen",
+      "turer",
+      "turene"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Nordmenn går på tur.",
+      "de": "Norweger gehen wandern."
+    },
+    "note": "gå på tur = wandern gehen, einen Ausflug machen."
+  },
+  {
+    "id": "w01_hytte",
+    "no": "hytte",
+    "de": "die Hütte",
+    "deAlt": [
+      "das Ferienhaus"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "hytte",
+      "hytta",
+      "hytter",
+      "hyttene"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Familien Nygård har ei hytte.",
+      "de": "Familie Nygård hat eine Hütte."
+    }
+  },
+  {
+    "id": "w01_vinter",
+    "no": "vinter",
+    "de": "der Winter",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "vinter",
+      "vinteren",
+      "vintrer",
+      "vintrene"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Vi går på ski om vinteren.",
+      "de": "Im Winter fahren wir Ski."
+    }
+  },
+  {
+    "id": "w01_sommer",
+    "no": "sommer",
+    "de": "der Sommer",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "sommer",
+      "sommeren",
+      "somrer",
+      "somrene"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Det er lyst hele natta om sommeren.",
+      "de": "Im Sommer ist es die ganze Nacht hell."
+    }
+  },
+  {
+    "id": "w01_sol",
+    "no": "sol",
+    "de": "die Sonne",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "sol",
+      "sola",
+      "soler",
+      "solene"
+    ],
+    "lesson": 1,
+    "ex": {
+      "no": "Sola går ikke ned.",
+      "de": "Die Sonne geht nicht unter."
+    }
+  },
+  {
+    "id": "w01_alle_sammen",
+    "no": "alle sammen",
+    "de": "alle zusammen, ihr alle",
+    "pos": "phrase",
+    "lesson": 1,
+    "wk": true,
+    "ex": {
+      "no": "Hei, alle sammen!",
+      "de": "Hallo zusammen!"
+    }
+  },
+  {
+    "id": "w01_unnskyld",
+    "no": "unnskyld",
+    "de": "Entschuldigung",
+    "deAlt": [
+      "Entschuldigung",
+      "entschuldige",
+      "Verzeihung"
+    ],
+    "pos": "interj",
+    "lesson": 1,
+    "wk": true,
+    "ex": {
+      "no": "Unnskyld, jeg forstår ikke.",
+      "de": "Entschuldigung, ich verstehe nicht."
+    }
+  },
+  {
+    "id": "w01_hyggelig_aa_hilse_paa_deg",
+    "no": "hyggelig å hilse på deg",
+    "de": "schön, dich kennenzulernen",
+    "pos": "phrase",
+    "lesson": 1,
+    "wk": true,
+    "ex": {
+      "no": "Hei, Elin! Hyggelig å hilse på deg!",
+      "de": "Hallo, Elin! Schön, dich kennenzulernen!"
+    }
+  },
+  {
+    "id": "w01_ha_det_bra",
+    "no": "ha det bra",
+    "de": "mach's gut, tschüs",
+    "deAlt": [
+      "tschüs",
+      "auf Wiedersehen"
+    ],
+    "pos": "phrase",
+    "lesson": 1,
+    "wk": true,
+    "ex": {
+      "no": "Ha det bra, Torunn!",
+      "de": "Mach's gut, Torunn!"
+    },
+    "note": "Kurz: Ha det!"
+  }
+]

@@ -1,0 +1,1679 @@
+[
+  {
+    "id": "w04_venn",
+    "no": "venn",
+    "de": "der Freund",
+    "deAlt": [
+      "die Freundin"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "venn",
+      "vennen",
+      "venner",
+      "vennene"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Elin og Mads er gode venner.",
+      "de": "Elin und Mads sind gute Freunde."
+    },
+    "note": "Auch für Frauen: Hun er en god venn. (Freundin = venninne)"
+  },
+  {
+    "id": "w04_skandinavisk",
+    "no": "skandinavisk",
+    "de": "skandinavisch",
+    "pos": "adj",
+    "forms": [
+      "skandinavisk",
+      "skandinavisk",
+      "skandinaviske"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Vi snakker «skandinavisk».",
+      "de": "Wir sprechen „Skandinavisch“."
+    },
+    "note": "Mehrsilbig auf -sk: kein -t im Neutrum."
+  },
+  {
+    "id": "w04_park",
+    "no": "park",
+    "de": "der Park",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "park",
+      "parken",
+      "parker",
+      "parkene"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Frognerparken er en stor park i Oslo.",
+      "de": "Der Frognerpark ist ein großer Park in Oslo."
+    }
+  },
+  {
+    "id": "w04_sol",
+    "no": "sol",
+    "de": "die Sonne",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "sol",
+      "sola",
+      "soler",
+      "solene"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Her er det sol.",
+      "de": "Hier ist Sonne."
+    }
+  },
+  {
+    "id": "w04_hit",
+    "no": "hit",
+    "de": "hierher",
+    "deAlt": [
+      "her"
+    ],
+    "pos": "adv",
+    "lesson": 4,
+    "ex": {
+      "no": "Kom hit, alle sammen!",
+      "de": "Kommt her, alle zusammen!"
+    },
+    "note": "Richtung: hit (hierher); Ort: her (hier)."
+  },
+  {
+    "id": "w04_alle_sammen",
+    "no": "alle sammen",
+    "de": "alle zusammen",
+    "deAlt": [
+      "alle"
+    ],
+    "pos": "phrase",
+    "lesson": 4,
+    "ex": {
+      "no": "Hei, alle sammen!",
+      "de": "Hallo zusammen!"
+    }
+  },
+  {
+    "id": "w04_jordbaer",
+    "no": "jordbær",
+    "de": "die Erdbeere",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "jordbær",
+      "jordbæret",
+      "jordbær",
+      "jordbæra/jordbærene"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Norske jordbær er veldig gode.",
+      "de": "Norwegische Erdbeeren sind sehr gut."
+    }
+  },
+  {
+    "id": "w04_kake",
+    "no": "kake",
+    "de": "der Kuchen",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "kake",
+      "kaka",
+      "kaker",
+      "kakene"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Ta en kake!",
+      "de": "Nimm ein Stück Kuchen!"
+    }
+  },
+  {
+    "id": "w04_bakeri",
+    "no": "bakeri",
+    "de": "die Bäckerei",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "bakeri",
+      "bakeriet",
+      "bakerier",
+      "bakeriene"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Mads har kaker fra et dansk bakeri.",
+      "de": "Mads hat Kuchen aus einer dänischen Bäckerei."
+    }
+  },
+  {
+    "id": "w04_ta",
+    "no": "ta",
+    "de": "nehmen",
+    "pos": "verb",
+    "vf": [
+      "tar",
+      "tok",
+      "tatt",
+      "ta"
+    ],
+    "vg": "sterk",
+    "lesson": 4,
+    "ex": {
+      "no": "Ta en kake, Matthias!",
+      "de": "Nimm ein Stück Kuchen, Matthias!"
+    }
+  },
+  {
+    "id": "w04_sjenert",
+    "no": "sjenert",
+    "de": "schüchtern",
+    "pos": "adj",
+    "forms": [
+      "sjenert",
+      "sjenert",
+      "sjenerte"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Ikke vær så sjenert!",
+      "de": "Sei nicht so schüchtern!"
+    },
+    "note": "Endet schon auf -t: kein weiteres -t im Neutrum."
+  },
+  {
+    "id": "w04_forstaa",
+    "no": "forstå",
+    "de": "verstehen",
+    "pos": "verb",
+    "vf": [
+      "forstår",
+      "forsto",
+      "forstått",
+      "forstå"
+    ],
+    "vg": "sterk",
+    "lesson": 4,
+    "ex": {
+      "no": "Svensk forstår jeg ganske godt.",
+      "de": "Schwedisch verstehe ich ziemlich gut."
+    }
+  },
+  {
+    "id": "w04_hverandre",
+    "no": "hverandre",
+    "de": "einander",
+    "deAlt": [
+      "sich gegenseitig"
+    ],
+    "pos": "pron",
+    "lesson": 4,
+    "ex": {
+      "no": "Elin og Mads forstår hverandre.",
+      "de": "Elin und Mads verstehen einander."
+    }
+  },
+  {
+    "id": "w04_vanskelig",
+    "no": "vanskelig",
+    "de": "schwierig",
+    "deAlt": [
+      "schwer"
+    ],
+    "pos": "adj",
+    "forms": [
+      "vanskelig",
+      "vanskelig",
+      "vanskelige"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Det er ikke så vanskelig.",
+      "de": "Das ist nicht so schwer."
+    },
+    "note": "Auf -ig: kein -t im Neutrum."
+  },
+  {
+    "id": "w04_lik",
+    "no": "lik",
+    "de": "ähnlich",
+    "deAlt": [
+      "gleich"
+    ],
+    "pos": "adj",
+    "forms": [
+      "lik",
+      "likt",
+      "like"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Svensk, dansk og norsk er veldig like.",
+      "de": "Schwedisch, Dänisch und Norwegisch sind sehr ähnlich."
+    }
+  },
+  {
+    "id": "w04_sakte",
+    "no": "sakte",
+    "de": "langsam",
+    "pos": "adv",
+    "lesson": 4,
+    "ex": {
+      "no": "Vi snakker bare sakte.",
+      "de": "Wir sprechen einfach langsam."
+    }
+  },
+  {
+    "id": "w04_bruke",
+    "no": "bruke",
+    "de": "benutzen",
+    "deAlt": [
+      "verwenden",
+      "brauchen"
+    ],
+    "pos": "verb",
+    "vf": [
+      "bruker",
+      "brukte",
+      "brukt",
+      "bruk"
+    ],
+    "vg": "2",
+    "lesson": 4,
+    "ex": {
+      "no": "Vi bruker ikke vanskelige ord.",
+      "de": "Wir benutzen keine schwierigen Wörter."
+    },
+    "note": "Falscher Freund: bruke = benutzen; „brauchen“ (nötig haben) = trenge."
+  },
+  {
+    "id": "w04_ord",
+    "no": "ord",
+    "de": "das Wort",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "ord",
+      "ordet",
+      "ord",
+      "orda/ordene"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Jeg forstår ikke alle ord.",
+      "de": "Ich verstehe nicht alle Wörter."
+    },
+    "note": "Einsilbiges Neutrum: Plural ohne Endung (mange ord)."
+  },
+  {
+    "id": "w04_alltid",
+    "no": "alltid",
+    "de": "immer",
+    "pos": "adv",
+    "lesson": 4,
+    "ex": {
+      "no": "Matthias vil alltid vite alt.",
+      "de": "Matthias will immer alles wissen."
+    }
+  },
+  {
+    "id": "w04_ganske",
+    "no": "ganske",
+    "de": "ziemlich",
+    "pos": "adv",
+    "lesson": 4,
+    "ex": {
+      "no": "Jeg forstår svensk ganske godt.",
+      "de": "Ich verstehe Schwedisch ziemlich gut."
+    },
+    "note": "Falscher Freund: ganske = ziemlich, nicht „ganz“ (= helt)."
+  },
+  {
+    "id": "w04_noen",
+    "no": "noen",
+    "de": "einige",
+    "deAlt": [
+      "manche",
+      "jemand"
+    ],
+    "pos": "pron",
+    "lesson": 4,
+    "ex": {
+      "no": "Noen ord er falske venner.",
+      "de": "Manche Wörter sind falsche Freunde."
+    }
+  },
+  {
+    "id": "w04_falsk",
+    "no": "falsk",
+    "de": "falsch",
+    "pos": "adj",
+    "forms": [
+      "falsk",
+      "falskt",
+      "falske"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "«Rolig» er en falsk venn.",
+      "de": "„Rolig“ ist ein falscher Freund."
+    },
+    "note": "Einsilbig auf -sk: Neutrum mit -t (et falskt ord)."
+  },
+  {
+    "id": "w04_for_eksempel",
+    "no": "for eksempel",
+    "de": "zum Beispiel",
+    "pos": "phrase",
+    "lesson": 4,
+    "ex": {
+      "no": "Noen ord er like, for eksempel «hus».",
+      "de": "Manche Wörter sind gleich, zum Beispiel „hus“."
+    },
+    "note": "Abkürzung: f.eks."
+  },
+  {
+    "id": "w04_bety",
+    "no": "bety",
+    "de": "bedeuten",
+    "pos": "verb",
+    "vf": [
+      "betyr",
+      "betydde",
+      "betydd",
+      "bety"
+    ],
+    "vg": "4",
+    "wk": true,
+    "lesson": 4,
+    "ex": {
+      "no": "Hva betyr «rolig»?",
+      "de": "Was bedeutet „rolig“?"
+    }
+  },
+  {
+    "id": "w04_rolig",
+    "no": "rolig",
+    "de": "ruhig",
+    "deAlt": [
+      "still"
+    ],
+    "pos": "adj",
+    "forms": [
+      "rolig",
+      "rolig",
+      "rolige"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Torunn er en rolig lærer.",
+      "de": "Torunn ist eine ruhige Lehrerin."
+    },
+    "note": "Falscher Freund: Auf Schwedisch heißt rolig „lustig“, auf Norwegisch „ruhig“."
+  },
+  {
+    "id": "w04_morsom",
+    "no": "morsom",
+    "de": "lustig",
+    "deAlt": [
+      "witzig",
+      "unterhaltsam"
+    ],
+    "pos": "adj",
+    "forms": [
+      "morsom",
+      "morsomt",
+      "morsomme"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Mads er veldig morsom.",
+      "de": "Mads ist sehr lustig."
+    },
+    "note": "Plural mit Doppel-m: morsomme."
+  },
+  {
+    "id": "w04_stille",
+    "no": "stille",
+    "de": "still",
+    "deAlt": [
+      "ruhig",
+      "leise"
+    ],
+    "pos": "adj",
+    "forms": [
+      "stille",
+      "stille",
+      "stille"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Det er stille i parken.",
+      "de": "Es ist still im Park."
+    },
+    "note": "Unveränderlich."
+  },
+  {
+    "id": "w04_det_finnes",
+    "no": "det finnes",
+    "de": "es gibt",
+    "pos": "phrase",
+    "lesson": 4,
+    "ex": {
+      "no": "Hvor mange falske venner finnes det?",
+      "de": "Wie viele falsche Freunde gibt es?"
+    },
+    "note": "Auch: det er (Det er mye sol her)."
+  },
+  {
+    "id": "w04_spoerre",
+    "no": "spørre",
+    "de": "fragen",
+    "pos": "verb",
+    "vf": [
+      "spør",
+      "spurte",
+      "spurt",
+      "spør"
+    ],
+    "vg": "uregelm",
+    "wk": true,
+    "lesson": 4,
+    "ex": {
+      "no": "Matthias, du spør og spør!",
+      "de": "Matthias, du fragst und fragst!"
+    },
+    "note": "Präsens ohne -r am Ende: jeg spør."
+  },
+  {
+    "id": "w04_slappe_av",
+    "no": "slappe av",
+    "de": "sich entspannen",
+    "pos": "verb",
+    "vf": [
+      "slapper av",
+      "slappet av",
+      "slappet av",
+      "slapp av"
+    ],
+    "vg": "1",
+    "lesson": 4,
+    "ex": {
+      "no": "Slapp av og spis en kake til!",
+      "de": "Entspann dich und iss noch ein Stück Kuchen!"
+    }
+  },
+  {
+    "id": "w04_til",
+    "no": "til",
+    "de": "noch (ein)",
+    "pos": "adv",
+    "lesson": 4,
+    "ex": {
+      "no": "Kan jeg få en kaffe til?",
+      "de": "Kann ich noch einen Kaffee bekommen?"
+    },
+    "note": "Nachgestellt: en kake til = noch ein Stück Kuchen, en gang til = noch einmal.",
+    "deAlt": [
+      "noch"
+    ]
+  },
+  {
+    "id": "w04_alt",
+    "no": "alt",
+    "de": "alles",
+    "pos": "pron",
+    "lesson": 4,
+    "ex": {
+      "no": "Matthias vil vite alt.",
+      "de": "Matthias will alles wissen."
+    }
+  },
+  {
+    "id": "w04_jo",
+    "no": "jo",
+    "de": "ja, doch",
+    "deAlt": [
+      "doch"
+    ],
+    "pos": "adv",
+    "wk": true,
+    "lesson": 4,
+    "ex": {
+      "no": "Han er jo ingeniør.",
+      "de": "Er ist ja Ingenieur."
+    },
+    "note": "Als Antwort auf eine verneinte Frage = doch: Kommer du ikke? – Jo!"
+  },
+  {
+    "id": "w04_riktig",
+    "no": "riktig",
+    "de": "richtig",
+    "pos": "adj",
+    "forms": [
+      "riktig",
+      "riktig",
+      "riktige"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Det er riktig.",
+      "de": "Das stimmt."
+    }
+  },
+  {
+    "id": "w04_system",
+    "no": "system",
+    "de": "das System",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "system",
+      "systemet",
+      "systemer",
+      "systemene"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "En ingeniør må forstå systemet.",
+      "de": "Ein Ingenieur muss das System verstehen."
+    }
+  },
+  {
+    "id": "w04_helg",
+    "no": "helg",
+    "de": "das Wochenende",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "helg",
+      "helgen",
+      "helger",
+      "helgene"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Hva skal dere gjøre i helgen?",
+      "de": "Was habt ihr am Wochenende vor?"
+    },
+    "note": "i helgen = am (diesem) Wochenende. Auch feminin: helga."
+  },
+  {
+    "id": "w04_tur",
+    "no": "tur",
+    "de": "der Ausflug",
+    "deAlt": [
+      "die Wanderung",
+      "die Tour"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "tur",
+      "turen",
+      "turer",
+      "turene"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Turen er lang, men fin.",
+      "de": "Die Wanderung ist lang, aber schön."
+    }
+  },
+  {
+    "id": "w04_gaa_paa_tur",
+    "no": "gå på tur",
+    "de": "wandern",
+    "deAlt": [
+      "einen Ausflug machen"
+    ],
+    "pos": "phrase",
+    "lesson": 4,
+    "ex": {
+      "no": "I morgen skal jeg gå på tur i Nordmarka.",
+      "de": "Morgen gehe ich in der Nordmarka wandern."
+    },
+    "note": "Typisch norwegisch: Am Wochenende geht man på tur in Wald und Berge."
+  },
+  {
+    "id": "w04_bli_med",
+    "no": "bli med",
+    "de": "mitkommen",
+    "deAlt": [
+      "mitmachen"
+    ],
+    "pos": "verb",
+    "vf": [
+      "blir med",
+      "ble med",
+      "blitt med",
+      "bli med"
+    ],
+    "vg": "sterk",
+    "lesson": 4,
+    "ex": {
+      "no": "Vil dere bli med?",
+      "de": "Wollt ihr mitkommen?"
+    }
+  },
+  {
+    "id": "w04_dessverre",
+    "no": "dessverre",
+    "de": "leider",
+    "pos": "adv",
+    "lesson": 4,
+    "ex": {
+      "no": "I morgen kan jeg dessverre ikke.",
+      "de": "Morgen kann ich leider nicht."
+    }
+  },
+  {
+    "id": "w04_jobbe",
+    "no": "jobbe",
+    "de": "arbeiten",
+    "pos": "verb",
+    "vf": [
+      "jobber",
+      "jobbet",
+      "jobbet",
+      "jobb"
+    ],
+    "vg": "1",
+    "lesson": 4,
+    "ex": {
+      "no": "Mads må jobbe hele helgen.",
+      "de": "Mads muss das ganze Wochenende arbeiten."
+    },
+    "note": "Umgangssprachlich; neutraler: arbeide."
+  },
+  {
+    "id": "w04_hel",
+    "no": "hel",
+    "de": "ganz",
+    "pos": "adj",
+    "forms": [
+      "hel",
+      "helt",
+      "hele"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Jeg må jobbe hele helgen.",
+      "de": "Ich muss das ganze Wochenende arbeiten."
+    },
+    "note": "hele + bestimmte Form: hele dagen, hele helgen."
+  },
+  {
+    "id": "w04_sondag",
+    "no": "søndag",
+    "de": "der Sonntag",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "søndag",
+      "søndagen",
+      "søndager",
+      "søndagene"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "På søndag må Elin lese.",
+      "de": "Am Sonntag muss Elin lernen."
+    },
+    "note": "Wochentage klein: mandag, tirsdag … på søndag = am (kommenden) Sonntag."
+  },
+  {
+    "id": "w04_lese",
+    "no": "lese",
+    "de": "lesen",
+    "deAlt": [
+      "lernen"
+    ],
+    "pos": "verb",
+    "vf": [
+      "leser",
+      "leste",
+      "lest",
+      "les"
+    ],
+    "vg": "2",
+    "lesson": 4,
+    "ex": {
+      "no": "På søndag må jeg lese.",
+      "de": "Am Sonntag muss ich lernen."
+    },
+    "note": "Auch: für eine Prüfung lernen (lese til eksamen)."
+  },
+  {
+    "id": "w04_lenge",
+    "no": "lenge",
+    "de": "lange",
+    "pos": "adv",
+    "lesson": 4,
+    "ex": {
+      "no": "Hvor lenge skal vi gå?",
+      "de": "Wie lange wandern wir?"
+    },
+    "note": "Nur für Zeit; „lang“ (Länge) = lang."
+  },
+  {
+    "id": "w04_ta_med",
+    "no": "ta med",
+    "de": "mitnehmen",
+    "deAlt": [
+      "mitbringen"
+    ],
+    "pos": "verb",
+    "vf": [
+      "tar med",
+      "tok med",
+      "tatt med",
+      "ta med"
+    ],
+    "vg": "sterk",
+    "lesson": 4,
+    "ex": {
+      "no": "Hva bør jeg ta med?",
+      "de": "Was sollte ich mitnehmen?"
+    }
+  },
+  {
+    "id": "w04_regnjakke",
+    "no": "regnjakke",
+    "de": "die Regenjacke",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "regnjakke",
+      "regnjakka",
+      "regnjakker",
+      "regnjakkene"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Du bør ha en regnjakke.",
+      "de": "Du solltest eine Regenjacke haben."
+    }
+  },
+  {
+    "id": "w04_spise_opp",
+    "no": "spise opp",
+    "de": "aufessen",
+    "pos": "verb",
+    "vf": [
+      "spiser opp",
+      "spiste opp",
+      "spist opp",
+      "spis opp"
+    ],
+    "vg": "2",
+    "lesson": 4,
+    "ex": {
+      "no": "Vi må spise opp kakene.",
+      "de": "Wir müssen die Kuchen aufessen."
+    }
+  },
+  {
+    "id": "w04_kunne",
+    "no": "kunne",
+    "de": "können",
+    "pos": "verb",
+    "vf": [
+      "kan",
+      "kunne",
+      "kunnet",
+      ""
+    ],
+    "vg": "modal",
+    "lesson": 4,
+    "ex": {
+      "no": "Jeg kan ikke komme i morgen.",
+      "de": "Ich kann morgen nicht kommen."
+    }
+  },
+  {
+    "id": "w04_ville",
+    "no": "ville",
+    "de": "wollen",
+    "pos": "verb",
+    "vf": [
+      "vil",
+      "ville",
+      "villet",
+      ""
+    ],
+    "vg": "modal",
+    "lesson": 4,
+    "ex": {
+      "no": "Vil dere bli med?",
+      "de": "Wollt ihr mitkommen?"
+    },
+    "note": "vil = will, nicht „wird“! Jeg vil gjerne … = Ich möchte gern …"
+  },
+  {
+    "id": "w04_skulle",
+    "no": "skulle",
+    "de": "sollen",
+    "deAlt": [
+      "vorhaben",
+      "werden"
+    ],
+    "pos": "verb",
+    "vf": [
+      "skal",
+      "skulle",
+      "skullet",
+      ""
+    ],
+    "vg": "modal",
+    "lesson": 4,
+    "ex": {
+      "no": "I morgen skal jeg gå på tur.",
+      "de": "Morgen gehe ich wandern."
+    },
+    "note": "skal drückt meist einen Plan oder die Zukunft aus."
+  },
+  {
+    "id": "w04_maatte",
+    "no": "måtte",
+    "de": "müssen",
+    "pos": "verb",
+    "vf": [
+      "må",
+      "måtte",
+      "måttet",
+      ""
+    ],
+    "vg": "modal",
+    "lesson": 4,
+    "ex": {
+      "no": "Jeg må jobbe hele helgen.",
+      "de": "Ich muss das ganze Wochenende arbeiten."
+    },
+    "note": "Achtung: må ikke = darf nicht! „muss nicht“ = trenger ikke å."
+  },
+  {
+    "id": "w04_burde",
+    "no": "burde",
+    "de": "sollte",
+    "deAlt": [
+      "sollen"
+    ],
+    "pos": "verb",
+    "vf": [
+      "bør",
+      "burde",
+      "burdet",
+      ""
+    ],
+    "vg": "modal",
+    "lesson": 4,
+    "ex": {
+      "no": "Du bør ha gode sko.",
+      "de": "Du solltest gute Schuhe haben."
+    }
+  },
+  {
+    "id": "w04_aldri",
+    "no": "aldri",
+    "de": "nie",
+    "deAlt": [
+      "niemals"
+    ],
+    "pos": "adv",
+    "lesson": 4,
+    "ex": {
+      "no": "Elin drikker aldri kaffe.",
+      "de": "Elin trinkt nie Kaffee."
+    }
+  },
+  {
+    "id": "w04_ofte",
+    "no": "ofte",
+    "de": "oft",
+    "pos": "adv",
+    "lesson": 4,
+    "ex": {
+      "no": "Vi går ofte på tur.",
+      "de": "Wir wandern oft."
+    }
+  },
+  {
+    "id": "w04_bare",
+    "no": "bare",
+    "de": "nur",
+    "deAlt": [
+      "einfach",
+      "bloß"
+    ],
+    "pos": "adv",
+    "lesson": 4,
+    "ex": {
+      "no": "Vi snakker bare sakte.",
+      "de": "Wir sprechen einfach langsam."
+    }
+  },
+  {
+    "id": "w04_gjerne",
+    "no": "gjerne",
+    "de": "gern",
+    "deAlt": [
+      "gerne"
+    ],
+    "pos": "adv",
+    "lesson": 4,
+    "ex": {
+      "no": "Jeg blir gjerne med!",
+      "de": "Ich komme gern mit!"
+    },
+    "note": "Adverb, kein Verb: Jeg spiser gjerne kake = Ich esse gern Kuchen."
+  },
+  {
+    "id": "w04_ogsaa",
+    "no": "også",
+    "de": "auch",
+    "pos": "adv",
+    "lesson": 4,
+    "ex": {
+      "no": "Jeg blir også med.",
+      "de": "Ich komme auch mit."
+    }
+  },
+  {
+    "id": "w04_hvem",
+    "no": "hvem",
+    "de": "wer",
+    "deAlt": [
+      "wen",
+      "wem"
+    ],
+    "pos": "pron",
+    "wk": true,
+    "lesson": 4,
+    "ex": {
+      "no": "Hvem er det?",
+      "de": "Wer ist das?"
+    },
+    "note": "Falscher Freund: hvem = wer, nicht „wem“."
+  },
+  {
+    "id": "w04_hvordan",
+    "no": "hvordan",
+    "de": "wie",
+    "pos": "adv",
+    "wk": true,
+    "lesson": 4,
+    "ex": {
+      "no": "Hvordan kan dere forstå hverandre?",
+      "de": "Wie könnt ihr einander verstehen?"
+    }
+  },
+  {
+    "id": "w04_naar",
+    "no": "når",
+    "de": "wann",
+    "deAlt": [
+      "wenn"
+    ],
+    "pos": "adv",
+    "wk": true,
+    "lesson": 4,
+    "ex": {
+      "no": "Når begynner kurset?",
+      "de": "Wann fängt der Kurs an?"
+    }
+  },
+  {
+    "id": "w04_hvorfor",
+    "no": "hvorfor",
+    "de": "warum",
+    "deAlt": [
+      "wieso"
+    ],
+    "pos": "adv",
+    "wk": true,
+    "lesson": 4,
+    "ex": {
+      "no": "Hvorfor er dansk så vanskelig?",
+      "de": "Warum ist Dänisch so schwierig?"
+    }
+  },
+  {
+    "id": "w04_hvor_mye",
+    "no": "hvor mye",
+    "de": "wie viel",
+    "pos": "phrase",
+    "wk": true,
+    "lesson": 4,
+    "ex": {
+      "no": "Hvor mye koster kaka?",
+      "de": "Wie viel kostet der Kuchen?"
+    }
+  },
+  {
+    "id": "w04_hvor_mange",
+    "no": "hvor mange",
+    "de": "wie viele",
+    "pos": "phrase",
+    "wk": true,
+    "lesson": 4,
+    "ex": {
+      "no": "Hvor mange språk snakker du?",
+      "de": "Wie viele Sprachen sprichst du?"
+    }
+  },
+  {
+    "id": "w04_hvor_gammel",
+    "no": "hvor gammel",
+    "de": "wie alt",
+    "pos": "phrase",
+    "wk": true,
+    "lesson": 4,
+    "ex": {
+      "no": "Hvor gammel er Ola?",
+      "de": "Wie alt ist Ola?"
+    }
+  },
+  {
+    "id": "w04_hvor_lenge",
+    "no": "hvor lenge",
+    "de": "wie lange",
+    "pos": "phrase",
+    "wk": true,
+    "lesson": 4,
+    "ex": {
+      "no": "Hvor lenge skal vi gå?",
+      "de": "Wie lange wandern wir?"
+    }
+  },
+  {
+    "id": "w04_hva_slags",
+    "no": "hva slags",
+    "de": "was für ein(e)",
+    "pos": "phrase",
+    "wk": true,
+    "lesson": 4,
+    "ex": {
+      "no": "Hva slags ost er det?",
+      "de": "Was für ein Käse ist das?"
+    }
+  },
+  {
+    "id": "w04_skandinavia",
+    "no": "Skandinavia",
+    "de": "Skandinavien",
+    "pos": "name",
+    "lesson": 4,
+    "ex": {
+      "no": "Norge, Sverige og Danmark er Skandinavia.",
+      "de": "Norwegen, Schweden und Dänemark sind Skandinavien."
+    }
+  },
+  {
+    "id": "w04_norden",
+    "no": "Norden",
+    "de": "die nordischen Länder",
+    "deAlt": [
+      "der Norden"
+    ],
+    "pos": "name",
+    "lesson": 4,
+    "ex": {
+      "no": "Finland og Island er også en del av Norden.",
+      "de": "Finnland und Island gehören auch zu den nordischen Ländern."
+    }
+  },
+  {
+    "id": "w04_felles",
+    "no": "felles",
+    "de": "gemeinsam",
+    "pos": "adj",
+    "forms": [
+      "felles",
+      "felles",
+      "felles"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Landene har mye felles historie.",
+      "de": "Die Länder haben viel gemeinsame Geschichte."
+    },
+    "note": "Unveränderlich."
+  },
+  {
+    "id": "w04_historie",
+    "no": "historie",
+    "de": "die Geschichte",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "historie",
+      "historien",
+      "historier",
+      "historiene"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Bestemor forteller en historie.",
+      "de": "Die Großmutter erzählt eine Geschichte."
+    }
+  },
+  {
+    "id": "w04_samarbeide",
+    "no": "samarbeide",
+    "de": "zusammenarbeiten",
+    "pos": "verb",
+    "vf": [
+      "samarbeider",
+      "samarbeidet",
+      "samarbeidet",
+      "samarbeid"
+    ],
+    "vg": "1",
+    "lesson": 4,
+    "ex": {
+      "no": "De nordiske landene samarbeider mye.",
+      "de": "Die nordischen Länder arbeiten eng zusammen."
+    }
+  },
+  {
+    "id": "w04_annerledes",
+    "no": "annerledes",
+    "de": "anders",
+    "pos": "adj",
+    "forms": [
+      "annerledes",
+      "annerledes",
+      "annerledes"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Finsk er helt annerledes.",
+      "de": "Finnisch ist ganz anders."
+    },
+    "note": "Unveränderlich."
+  },
+  {
+    "id": "w04_offisiell",
+    "no": "offisiell",
+    "de": "offiziell",
+    "pos": "adj",
+    "forms": [
+      "offisiell",
+      "offisielt",
+      "offisielle"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Finland har to offisielle språk.",
+      "de": "Finnland hat zwei Amtssprachen."
+    },
+    "note": "Neutrum mit einem l: offisielt."
+  },
+  {
+    "id": "w04_kongedomme",
+    "no": "kongedømme",
+    "de": "das Königreich",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "kongedømme",
+      "kongedømmet",
+      "kongedømmer",
+      "kongedømmene"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Norge er et kongedømme.",
+      "de": "Norwegen ist ein Königreich."
+    }
+  },
+  {
+    "id": "w04_konge",
+    "no": "konge",
+    "de": "der König",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "konge",
+      "kongen",
+      "konger",
+      "kongene"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Norge har en konge.",
+      "de": "Norwegen hat einen König."
+    }
+  },
+  {
+    "id": "w04_dronning",
+    "no": "dronning",
+    "de": "die Königin",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "dronning",
+      "dronninga/dronningen",
+      "dronninger",
+      "dronningene"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Kongen og dronninga bor i Oslo.",
+      "de": "Der König und die Königin wohnen in Oslo."
+    },
+    "note": "Sehr oft auch: dronningen."
+  },
+  {
+    "id": "w04_republikk",
+    "no": "republikk",
+    "de": "die Republik",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "republikk",
+      "republikken",
+      "republikker",
+      "republikkene"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Finland er en republikk.",
+      "de": "Finnland ist eine Republik."
+    }
+  },
+  {
+    "id": "w04_betale",
+    "no": "betale",
+    "de": "bezahlen",
+    "pos": "verb",
+    "vf": [
+      "betaler",
+      "betalte",
+      "betalt",
+      "betal"
+    ],
+    "vg": "2",
+    "lesson": 4,
+    "ex": {
+      "no": "I Finland betaler man med euro.",
+      "de": "In Finnland bezahlt man mit Euro."
+    }
+  },
+  {
+    "id": "w04_forskjellig",
+    "no": "forskjellig",
+    "de": "verschieden",
+    "deAlt": [
+      "unterschiedlich"
+    ],
+    "pos": "adj",
+    "forms": [
+      "forskjellig",
+      "forskjellig",
+      "forskjellige"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Det er tre forskjellige valutaer.",
+      "de": "Es sind drei verschiedene Währungen."
+    }
+  },
+  {
+    "id": "w04_valuta",
+    "no": "valuta",
+    "de": "die Währung",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "valuta",
+      "valutaen",
+      "valutaer",
+      "valutaene"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Norsk valuta heter krone.",
+      "de": "Die norwegische Währung heißt Krone."
+    }
+  },
+  {
+    "id": "w04_hovedstad",
+    "no": "hovedstad",
+    "de": "die Hauptstadt",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "hovedstad",
+      "hovedstaden",
+      "hovedsteder",
+      "hovedstedene"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Oslo er hovedstaden i Norge.",
+      "de": "Oslo ist die Hauptstadt von Norwegen."
+    },
+    "note": "Plural mit Umlaut: hovedsteder."
+  },
+  {
+    "id": "w04_million",
+    "no": "million",
+    "de": "die Million",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "million",
+      "millionen",
+      "millioner",
+      "millionene"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Sverige har over ti millioner innbyggere.",
+      "de": "Schweden hat über zehn Millionen Einwohner."
+    }
+  },
+  {
+    "id": "w04_innbygger",
+    "no": "innbygger",
+    "de": "der Einwohner",
+    "deAlt": [
+      "die Einwohnerin"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "innbygger",
+      "innbyggeren",
+      "innbyggere",
+      "innbyggerne"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Oslo har mange innbyggere.",
+      "de": "Oslo hat viele Einwohner."
+    }
+  },
+  {
+    "id": "w04_rundt",
+    "no": "rundt",
+    "de": "etwa",
+    "deAlt": [
+      "ungefähr",
+      "um … herum"
+    ],
+    "pos": "adv",
+    "lesson": 4,
+    "ex": {
+      "no": "Norge har rundt fem millioner innbyggere.",
+      "de": "Norwegen hat etwa fünf Millionen Einwohner."
+    }
+  },
+  {
+    "id": "w04_gjenta",
+    "no": "gjenta",
+    "de": "wiederholen",
+    "pos": "verb",
+    "vf": [
+      "gjentar",
+      "gjentok",
+      "gjentatt",
+      "gjenta"
+    ],
+    "vg": "sterk",
+    "wk": true,
+    "lesson": 4,
+    "ex": {
+      "no": "Kan du gjenta det?",
+      "de": "Kannst du das wiederholen?"
+    }
+  },
+  {
+    "id": "w04_sporsmaal",
+    "no": "spørsmål",
+    "de": "die Frage",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "spørsmål",
+      "spørsmålet",
+      "spørsmål",
+      "spørsmåla/spørsmålene"
+    ],
+    "wk": true,
+    "lesson": 4,
+    "ex": {
+      "no": "Godt spørsmål!",
+      "de": "Gute Frage!"
+    },
+    "note": "Neutrum: et spørsmål."
+  },
+  {
+    "id": "w04_svar",
+    "no": "svar",
+    "de": "die Antwort",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "svar",
+      "svaret",
+      "svar",
+      "svara/svarene"
+    ],
+    "wk": true,
+    "lesson": 4,
+    "ex": {
+      "no": "Matthias vil ha svar på alt.",
+      "de": "Matthias will auf alles eine Antwort."
+    },
+    "note": "Neutrum: et svar."
+  },
+  {
+    "id": "w04_mene",
+    "no": "mene",
+    "de": "meinen",
+    "pos": "verb",
+    "vf": [
+      "mener",
+      "mente",
+      "ment",
+      "men"
+    ],
+    "vg": "2",
+    "wk": true,
+    "lesson": 4,
+    "ex": {
+      "no": "Hva mener du?",
+      "de": "Was meinst du?"
+    }
+  },
+  {
+    "id": "w04_selvfolgelig",
+    "no": "selvfølgelig",
+    "de": "natürlich",
+    "deAlt": [
+      "selbstverständlich"
+    ],
+    "pos": "adv",
+    "wk": true,
+    "lesson": 4,
+    "ex": {
+      "no": "Selvfølgelig blir jeg med!",
+      "de": "Natürlich komme ich mit!"
+    }
+  },
+  {
+    "id": "w04_kanskje",
+    "no": "kanskje",
+    "de": "vielleicht",
+    "pos": "adv",
+    "wk": true,
+    "lesson": 4,
+    "ex": {
+      "no": "Kanskje blir Mads med.",
+      "de": "Vielleicht kommt Mads mit."
+    }
+  },
+  {
+    "id": "w04_tro",
+    "no": "tro",
+    "de": "glauben",
+    "pos": "verb",
+    "vf": [
+      "tror",
+      "trodde",
+      "trodd",
+      "tro"
+    ],
+    "vg": "4",
+    "wk": true,
+    "lesson": 4,
+    "ex": {
+      "no": "Jeg tror ikke det.",
+      "de": "Ich glaube nicht."
+    }
+  },
+  {
+    "id": "w04_unnskyld",
+    "no": "unnskyld",
+    "de": "Entschuldigung",
+    "deAlt": [
+      "entschuldige"
+    ],
+    "pos": "interj",
+    "wk": true,
+    "lesson": 4,
+    "ex": {
+      "no": "Unnskyld, hva sier du?",
+      "de": "Entschuldigung, was sagst du?"
+    }
+  },
+  {
+    "id": "w04_glemme",
+    "no": "glemme",
+    "de": "vergessen",
+    "pos": "verb",
+    "vf": [
+      "glemmer",
+      "glemte",
+      "glemt",
+      "glem"
+    ],
+    "vg": "2",
+    "lesson": 4,
+    "ex": {
+      "no": "Ikke glem regnjakka!",
+      "de": "Vergiss die Regenjacke nicht!"
+    },
+    "note": "Imperativ glem: kein Doppel-m am Wortende."
+  },
+  {
+    "id": "w04_aapne",
+    "no": "åpne",
+    "de": "öffnen",
+    "deAlt": [
+      "aufmachen"
+    ],
+    "pos": "verb",
+    "vf": [
+      "åpner",
+      "åpnet",
+      "åpnet",
+      "åpne"
+    ],
+    "vg": "1",
+    "lesson": 4,
+    "ex": {
+      "no": "Åpne vinduet, er du snill!",
+      "de": "Öffne bitte das Fenster!"
+    }
+  },
+  {
+    "id": "w04_vindu",
+    "no": "vindu",
+    "de": "das Fenster",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "vindu",
+      "vinduet",
+      "vinduer",
+      "vinduene"
+    ],
+    "lesson": 4,
+    "ex": {
+      "no": "Huset har store vinduer.",
+      "de": "Das Haus hat große Fenster."
+    }
+  },
+  {
+    "id": "w04_vaer_saa_snill",
+    "no": "vær så snill",
+    "de": "bitte",
+    "deAlt": [
+      "sei so lieb"
+    ],
+    "pos": "phrase",
+    "lesson": 4,
+    "ex": {
+      "no": "Vær så snill og snakk sakte!",
+      "de": "Sprich bitte langsam!"
+    },
+    "note": "Auch nachgestellt: …, er du snill."
+  },
+  {
+    "id": "w04_trenge",
+    "no": "trenge",
+    "de": "brauchen",
+    "deAlt": [
+      "benötigen"
+    ],
+    "pos": "verb",
+    "vf": [
+      "trenger",
+      "trengte",
+      "trengt",
+      "treng"
+    ],
+    "vg": "2",
+    "lesson": 4,
+    "ex": {
+      "no": "Du trenger ikke å komme.",
+      "de": "Du musst nicht kommen."
+    },
+    "note": "trenger ikke å … = muss nicht … (må ikke = darf nicht!)."
+  },
+  {
+    "id": "w04_gang",
+    "no": "gang",
+    "de": "das Mal",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "gang",
+      "gangen",
+      "ganger",
+      "gangene"
+    ],
+    "wk": true,
+    "lesson": 4,
+    "ex": {
+      "no": "Kan du si det en gang til?",
+      "de": "Kannst du das noch einmal sagen?"
+    },
+    "note": "en gang til = noch einmal; to ganger = zweimal."
+  }
+]

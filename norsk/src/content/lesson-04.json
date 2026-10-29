@@ -1,0 +1,1439 @@
+{
+  "n": 4,
+  "level": "A1",
+  "title": "Skandinaviske venner",
+  "titleDe": "Skandinavische Freunde",
+  "place": "Oslo, Frognerparken",
+  "goals": [
+    "Du kannst über die skandinavischen Sprachen sprechen und erklären, was „falsche Freunde“ sind.",
+    "Du kannst ikke, aldri, alltid, ofte, også, bare und gjerne an die richtige Stelle im Satz setzen.",
+    "Du kannst Aufforderungen geben: Kom hit! Ta en kake! Ikke spør så mye!",
+    "Du kannst Fragen mit hva, hvem, hvor, hvordan, når, hvorfor, hvor mange … stellen.",
+    "Du kannst sagen, was du kannst, willst, vorhast, musst und solltest: kan, vil, skal, må, bør."
+  ],
+  "text": {
+    "id": "t04",
+    "title": "Skandinaviske venner",
+    "titleDe": "Skandinavische Freunde",
+    "kind": "dialog",
+    "intro": "Ein sonniger Freitagnachmittag Ende August. Nach dem Kurs machen Susanne, Matthias, Elin und Mads ein Picknick im Frognerpark.",
+    "speakers": {
+      "d": {
+        "name": "Mads",
+        "gender": "m"
+      },
+      "s": {
+        "name": "Susanne",
+        "gender": "f"
+      },
+      "m": {
+        "name": "Matthias",
+        "gender": "m"
+      },
+      "e": {
+        "name": "Elin",
+        "gender": "f"
+      }
+    },
+    "lines": [
+      {
+        "s": "d",
+        "no": "Kom hit, alle sammen! Her er det sol.",
+        "de": "Kommt her, alle zusammen! Hier ist Sonne."
+      },
+      {
+        "s": "s",
+        "no": "Så fint! Jeg har brød, ost og jordbær.",
+        "de": "Wie schön! Ich habe Brot, Käse und Erdbeeren."
+      },
+      {
+        "s": "d",
+        "no": "Og jeg har kaker fra et dansk bakeri. Ta en kake, Matthias! Ikke vær så sjenert!",
+        "de": "Und ich habe Kuchen aus einer dänischen Bäckerei. Nimm ein Stück Kuchen, Matthias! Sei nicht so schüchtern!"
+      },
+      {
+        "s": "m",
+        "no": "Elin, du snakker svensk, og Mads snakker dansk. Hvordan kan dere forstå hverandre?",
+        "de": "Elin, du sprichst Schwedisch, und Mads spricht Dänisch. Wie könnt ihr einander verstehen?"
+      },
+      {
+        "s": "e",
+        "no": "Det er ikke så vanskelig. Svensk, dansk og norsk er veldig like. Vi sier at vi snakker «skandinavisk».",
+        "de": "Das ist nicht so schwer. Schwedisch, Dänisch und Norwegisch sind sehr ähnlich. Wir sagen, dass wir „Skandinavisch“ sprechen."
+      },
+      {
+        "s": "d",
+        "no": "Vi snakker bare sakte og bruker ikke vanskelige ord.",
+        "de": "Wir sprechen einfach langsam und benutzen keine schwierigen Wörter."
+      },
+      {
+        "s": "m",
+        "no": "Forstår du alltid Elin, Mads?",
+        "de": "Verstehst du Elin immer, Mads?"
+      },
+      {
+        "s": "d",
+        "no": "Nei, ikke alltid! Svensk forstår jeg ganske godt, men noen ord er falske venner.",
+        "de": "Nein, nicht immer! Schwedisch verstehe ich ziemlich gut, aber manche Wörter sind falsche Freunde."
+      },
+      {
+        "s": "e",
+        "no": "Ja, for eksempel «rolig». På svensk betyr det «morsom», men på norsk betyr det «stille».",
+        "de": "Ja, zum Beispiel „rolig“. Auf Schwedisch bedeutet es „lustig“, aber auf Norwegisch bedeutet es „ruhig“."
+      },
+      {
+        "s": "m",
+        "no": "Hvor mange falske venner finnes det? Hvorfor er dansk så vanskelig?",
+        "de": "Wie viele falsche Freunde gibt es? Warum ist Dänisch so schwierig?"
+      },
+      {
+        "s": "d",
+        "no": "Matthias, du spør og spør! Slapp av og spis en kake til!",
+        "de": "Matthias, du fragst und fragst! Entspann dich und iss noch ein Stück Kuchen!"
+      },
+      {
+        "s": "s",
+        "no": "Matthias vil alltid vite alt. Han er jo ingeniør.",
+        "de": "Matthias will immer alles wissen. Er ist ja Ingenieur."
+      },
+      {
+        "s": "m",
+        "no": "Riktig. En ingeniør må forstå systemet.",
+        "de": "Richtig. Ein Ingenieur muss das System verstehen."
+      },
+      {
+        "s": "e",
+        "no": "Hva skal dere gjøre i helgen?",
+        "de": "Was habt ihr am Wochenende vor?"
+      },
+      {
+        "s": "s",
+        "no": "I morgen skal jeg gå på tur i Nordmarka. Vil dere bli med?",
+        "de": "Morgen mache ich eine Wanderung in der Nordmarka. Wollt ihr mitkommen?"
+      },
+      {
+        "s": "d",
+        "no": "I morgen kan jeg dessverre ikke. Jeg må jobbe hele helgen.",
+        "de": "Morgen kann ich leider nicht. Ich muss das ganze Wochenende arbeiten."
+      },
+      {
+        "s": "e",
+        "no": "Jeg blir gjerne med! Men på søndag må jeg lese.",
+        "de": "Ich komme gern mit! Aber am Sonntag muss ich lernen."
+      },
+      {
+        "s": "m",
+        "no": "Jeg blir også med. Hvor lenge skal vi gå? Hva bør jeg ta med?",
+        "de": "Ich komme auch mit. Wie lange wandern wir? Was sollte ich mitnehmen?"
+      },
+      {
+        "s": "s",
+        "no": "Du bør ha gode sko og en regnjakke. Og du må ikke spørre så mye!",
+        "de": "Du solltest gute Schuhe und eine Regenjacke haben. Und du darfst nicht so viel fragen!"
+      },
+      {
+        "s": "d",
+        "no": "Nei, ikke spør mer, Matthias! Spis!",
+        "de": "Nein, frag nicht mehr, Matthias! Iss!"
+      }
+    ],
+    "glossary": [
+      {
+        "no": "Skandinaviske venner",
+        "de": "skandinavische Freunde"
+      },
+      {
+        "no": "Kom hit",
+        "de": "komm(t) her"
+      },
+      {
+        "no": "alle sammen",
+        "de": "alle zusammen"
+      },
+      {
+        "no": "sol",
+        "de": "Sonne"
+      },
+      {
+        "no": "jordbær",
+        "de": "Erdbeeren"
+      },
+      {
+        "no": "bakeri",
+        "de": "Bäckerei"
+      },
+      {
+        "no": "Ta en kake",
+        "de": "nimm ein Stück Kuchen"
+      },
+      {
+        "no": "Ikke vær så sjenert",
+        "de": "sei nicht so schüchtern"
+      },
+      {
+        "no": "hverandre",
+        "de": "einander, sich (gegenseitig)"
+      },
+      {
+        "no": "vanskelig",
+        "de": "schwierig, schwer"
+      },
+      {
+        "no": "like",
+        "de": "ähnlich, gleich (Plural)"
+      },
+      {
+        "no": "skandinavisk",
+        "de": "Skandinavisch, skandinavisch"
+      },
+      {
+        "no": "sakte",
+        "de": "langsam"
+      },
+      {
+        "no": "bruker",
+        "de": "benutzen, verwenden"
+      },
+      {
+        "no": "falske venner",
+        "de": "falsche Freunde (Wörter, die gleich aussehen, aber etwas anderes bedeuten)"
+      },
+      {
+        "no": "for eksempel",
+        "de": "zum Beispiel"
+      },
+      {
+        "no": "betyr",
+        "de": "bedeutet"
+      },
+      {
+        "no": "morsom",
+        "de": "lustig, witzig"
+      },
+      {
+        "no": "stille",
+        "de": "still, ruhig"
+      },
+      {
+        "no": "finnes det",
+        "de": "gibt es"
+      },
+      {
+        "no": "spør",
+        "de": "fragst"
+      },
+      {
+        "no": "Slapp av",
+        "de": "entspann dich"
+      },
+      {
+        "no": "en kake til",
+        "de": "noch ein Stück Kuchen"
+      },
+      {
+        "no": "jo",
+        "de": "ja, doch (Betonung: das weißt du doch)"
+      },
+      {
+        "no": "Riktig",
+        "de": "richtig, das stimmt"
+      },
+      {
+        "no": "systemet",
+        "de": "das System"
+      },
+      {
+        "no": "i helgen",
+        "de": "am Wochenende"
+      },
+      {
+        "no": "gå på tur",
+        "de": "wandern, eine Wanderung machen"
+      },
+      {
+        "no": "Nordmarka",
+        "de": "großes Wald- und Wandergebiet im Norden von Oslo"
+      },
+      {
+        "no": "bli med",
+        "de": "mitkommen"
+      },
+      {
+        "no": "dessverre",
+        "de": "leider"
+      },
+      {
+        "no": "hele helgen",
+        "de": "das ganze Wochenende"
+      },
+      {
+        "no": "Jeg blir gjerne med",
+        "de": "ich komme gern mit"
+      },
+      {
+        "no": "lese",
+        "de": "hier: lernen (für eine Prüfung)"
+      },
+      {
+        "no": "Hvor lenge",
+        "de": "wie lange"
+      },
+      {
+        "no": "ta med",
+        "de": "mitnehmen"
+      },
+      {
+        "no": "bør",
+        "de": "sollte(st)"
+      },
+      {
+        "no": "regnjakke",
+        "de": "Regenjacke"
+      },
+      {
+        "no": "du må ikke",
+        "de": "du darfst nicht (nicht: du musst nicht!)"
+      }
+    ]
+  },
+  "extra": [
+    {
+      "id": "x04a",
+      "title": "Norge, Sverige, Danmark og Finland",
+      "titleDe": "Norwegen, Schweden, Dänemark und Finnland",
+      "kind": "info",
+      "intro": "Ein kurzer Überblick über die nordischen Nachbarländer: Sprachen, Staatsform, Geld und Hauptstädte.",
+      "lines": [
+        {
+          "no": "Norge, Sverige og Danmark kaller vi Skandinavia. Sammen med Finland og Island heter de Norden. Landene har mye felles historie, og de samarbeider mye.",
+          "de": "Norwegen, Schweden und Dänemark nennen wir Skandinavien. Zusammen mit Finnland und Island heißen sie „Norden“, die nordischen Länder. Die Länder haben viel gemeinsame Geschichte, und sie arbeiten eng zusammen."
+        },
+        {
+          "no": "Norsk, svensk og dansk er nordgermanske språk, akkurat som islandsk og færøysk. Finsk er helt annerledes. Det er ikke et germansk språk, og en nordmann forstår ikke finsk. Men Finland har to offisielle språk: finsk og svensk.",
+          "de": "Norwegisch, Schwedisch und Dänisch sind nordgermanische Sprachen, genau wie Isländisch und Färöisch. Finnisch ist ganz anders. Es ist keine germanische Sprache, und ein Norweger versteht kein Finnisch. Aber Finnland hat zwei Amtssprachen: Finnisch und Schwedisch."
+        },
+        {
+          "no": "Norge, Sverige og Danmark er kongedømmer. De har en konge eller en dronning. Finland og Island er republikker og har en president.",
+          "de": "Norwegen, Schweden und Dänemark sind Königreiche. Sie haben einen König oder eine Königin. Finnland und Island sind Republiken und haben einen Präsidenten oder eine Präsidentin."
+        },
+        {
+          "no": "I Norge, Sverige og Danmark betaler man med kroner, men det er tre forskjellige valutaer. I Finland betaler man med euro.",
+          "de": "In Norwegen, Schweden und Dänemark bezahlt man mit Kronen, aber es sind drei verschiedene Währungen. In Finnland bezahlt man mit Euro."
+        },
+        {
+          "no": "Hovedstedene heter Oslo, Stockholm, København og Helsingfors, på finsk Helsinki. Sverige har over ti millioner innbyggere. I Norge, Danmark og Finland bor det rundt fem–seks millioner mennesker i hvert land.",
+          "de": "Die Hauptstädte heißen Oslo, Stockholm, Kopenhagen und Helsingfors, auf Finnisch Helsinki. Schweden hat über zehn Millionen Einwohner. In Norwegen, Dänemark und Finnland leben jeweils etwa fünf bis sechs Millionen Menschen."
+        }
+      ],
+      "glossary": [
+        {
+          "no": "kaller vi",
+          "de": "nennen wir"
+        },
+        {
+          "no": "Skandinavia",
+          "de": "Skandinavien"
+        },
+        {
+          "no": "Sammen med",
+          "de": "zusammen mit"
+        },
+        {
+          "no": "Island",
+          "de": "Island"
+        },
+        {
+          "no": "Norden",
+          "de": "der Norden: die nordischen Länder"
+        },
+        {
+          "no": "Landene",
+          "de": "die Länder"
+        },
+        {
+          "no": "felles historie",
+          "de": "gemeinsame Geschichte"
+        },
+        {
+          "no": "samarbeider",
+          "de": "arbeiten zusammen"
+        },
+        {
+          "no": "nordgermanske",
+          "de": "nordgermanisch"
+        },
+        {
+          "no": "akkurat som",
+          "de": "genau wie"
+        },
+        {
+          "no": "islandsk",
+          "de": "Isländisch"
+        },
+        {
+          "no": "færøysk",
+          "de": "Färöisch"
+        },
+        {
+          "no": "Finsk",
+          "de": "Finnisch"
+        },
+        {
+          "no": "helt annerledes",
+          "de": "ganz anders"
+        },
+        {
+          "no": "germansk",
+          "de": "germanisch"
+        },
+        {
+          "no": "offisielle språk",
+          "de": "Amtssprachen, offizielle Sprachen"
+        },
+        {
+          "no": "kongedømmer",
+          "de": "Königreiche"
+        },
+        {
+          "no": "konge",
+          "de": "König"
+        },
+        {
+          "no": "dronning",
+          "de": "Königin"
+        },
+        {
+          "no": "republikker",
+          "de": "Republiken"
+        },
+        {
+          "no": "president",
+          "de": "Präsident(in)"
+        },
+        {
+          "no": "betaler man",
+          "de": "bezahlt man"
+        },
+        {
+          "no": "forskjellige",
+          "de": "verschiedene"
+        },
+        {
+          "no": "valutaer",
+          "de": "Währungen"
+        },
+        {
+          "no": "Hovedstedene",
+          "de": "die Hauptstädte"
+        },
+        {
+          "no": "København",
+          "de": "Kopenhagen"
+        },
+        {
+          "no": "Helsingfors",
+          "de": "Helsinki (schwedischer und traditioneller norwegischer Name)"
+        },
+        {
+          "no": "millioner",
+          "de": "Millionen"
+        },
+        {
+          "no": "innbyggere",
+          "de": "Einwohner"
+        },
+        {
+          "no": "bor det",
+          "de": "wohnen, leben (es wohnen …)"
+        },
+        {
+          "no": "rundt",
+          "de": "etwa, ungefähr"
+        },
+        {
+          "no": "i hvert land",
+          "de": "in jedem Land"
+        }
+      ]
+    }
+  ],
+  "wk": {
+    "title": "Spørsmål og svar",
+    "titleDe": "Fragen und Antworten",
+    "phrases": [
+      {
+        "no": "Hva betyr «rolig»?",
+        "de": "Was bedeutet „rolig“?"
+      },
+      {
+        "no": "Hvordan sier man «Erdbeere» på norsk?",
+        "de": "Wie sagt man „Erdbeere“ auf Norwegisch?"
+      },
+      {
+        "no": "Hvordan skriver man det?",
+        "de": "Wie schreibt man das?"
+      },
+      {
+        "no": "Kan du gjenta det?",
+        "de": "Kannst du das wiederholen?"
+      },
+      {
+        "no": "Kan du snakke litt saktere?",
+        "de": "Kannst du etwas langsamer sprechen?",
+        "note": "saktere = langsamer (Steigerung, Lektion 12) – hier als feste Wendung."
+      },
+      {
+        "no": "Unnskyld, hva sier du?",
+        "de": "Entschuldigung, was sagst du? / Wie bitte?"
+      },
+      {
+        "no": "Jeg forstår ikke.",
+        "de": "Ich verstehe nicht."
+      },
+      {
+        "no": "Det vet jeg ikke.",
+        "de": "Das weiß ich nicht."
+      },
+      {
+        "no": "Hva mener du?",
+        "de": "Was meinst du?"
+      },
+      {
+        "no": "Godt spørsmål!",
+        "de": "Gute Frage!"
+      },
+      {
+        "no": "Har du et spørsmål?",
+        "de": "Hast du eine Frage?"
+      },
+      {
+        "no": "Ja, gjerne!",
+        "de": "Ja, gern!"
+      },
+      {
+        "no": "Nei takk.",
+        "de": "Nein danke."
+      },
+      {
+        "no": "Jo!",
+        "de": "Doch!",
+        "note": "Antwort auf eine verneinte Frage, wie deutsch „doch“: Snakker du ikke svensk? – Jo!"
+      },
+      {
+        "no": "Selvfølgelig!",
+        "de": "Natürlich! Selbstverständlich!"
+      },
+      {
+        "no": "Kanskje.",
+        "de": "Vielleicht."
+      },
+      {
+        "no": "Det tror jeg.",
+        "de": "Das glaube ich."
+      },
+      {
+        "no": "Jeg tror ikke det.",
+        "de": "Ich glaube nicht."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g04_ikke",
+      "title": "ikke und andere Satzadverbien im Hauptsatz",
+      "titleNo": "setningsadverbialer",
+      "summary": "ikke, aldri, alltid, ofte, også, bare und gjerne stehen im Hauptsatz direkt nach dem konjugierten Verb.",
+      "sections": [
+        {
+          "h": "ikke steht direkt nach dem Verb",
+          "body": "Im norwegischen Hauptsatz steht **ikke** (nicht) direkt nach dem konjugierten Verb, also gleich nach Platz 2:\n\n• **Jeg snakker ikke svensk.** – Ich spreche kein Schwedisch.\n• **Mads kommer ikke i dag.** – Mads kommt heute nicht.\n\nIm Deutschen rutscht „nicht“ oft weit nach hinten („Mads kommt heute nicht“). Im Norwegischen bleibt **ikke** fest hinter dem Verb. ✗ Mads kommer i dag ikke.\n\nNorwegisch hat kein eigenes Wort für „kein“. Meistens nimmst du einfach **ikke**: **Jeg har ikke bil.** – Ich habe kein Auto. **Vi bruker ikke vanskelige ord.** – Wir benutzen keine schwierigen Wörter."
+        },
+        {
+          "h": "Andere Satzadverbien",
+          "body": "Diese kleinen Wörter verhalten sich alle wie **ikke**: Sie stehen direkt nach dem konjugierten Verb. Stehen zwei zusammen, kommt **ikke** meist zuletzt: **Jeg kan dessverre ikke.** – Ich kann leider nicht.\n\nAchtung: **gjerne** (gern) ist ein Adverb, kein Verb. „Ich esse gern Kuchen“ heißt **Jeg spiser gjerne kake.** **Jeg vil gjerne …** ist die höfliche Form für „ich möchte …“.",
+          "table": [
+            [
+              "Norwegisch",
+              "Deutsch",
+              "Beispiel"
+            ],
+            [
+              "**ikke**",
+              "nicht",
+              "**Jeg forstår ikke.**"
+            ],
+            [
+              "**aldri**",
+              "nie",
+              "**Elin drikker aldri kaffe.**"
+            ],
+            [
+              "**alltid**",
+              "immer",
+              "**Matthias spør alltid.**"
+            ],
+            [
+              "**ofte**",
+              "oft",
+              "**Vi går ofte på tur.**"
+            ],
+            [
+              "**også**",
+              "auch",
+              "**Jeg blir også med.**"
+            ],
+            [
+              "**bare**",
+              "nur, einfach",
+              "**Vi snakker bare sakte.**"
+            ],
+            [
+              "**gjerne**",
+              "gern",
+              "**Jeg blir gjerne med.**"
+            ],
+            [
+              "**dessverre**",
+              "leider",
+              "**Jeg kan dessverre ikke.**"
+            ],
+            [
+              "**jo**",
+              "ja, doch",
+              "**Han er jo ingeniør.**"
+            ]
+          ]
+        },
+        {
+          "h": "Nach Inversion und mit Modalverb",
+          "body": "Steht etwas anderes als das Subjekt am Satzanfang, tauschen Verb und Subjekt die Plätze (Inversion, Lektion 2). **ikke** kommt dann nach dem Subjekt:\n\n• **I dag kommer han ikke.** – Heute kommt er nicht.\n• **Svensk forstår jeg ikke.** – Schwedisch verstehe ich nicht.\n\nMit einem Modalverb steht **ikke** nach dem Modalverb und vor dem Infinitiv:\n\n• **Jeg kan ikke komme i morgen.** – Ich kann morgen nicht kommen.\n• **I morgen kan jeg ikke komme.** – Morgen kann ich nicht kommen.\n\nZur Erinnerung: Im Nebensatz steht **ikke** VOR dem Verb: **…fordi jeg ikke har tid.**"
+        }
+      ],
+      "drills": [
+        {
+          "prompt": "Jeg ___ dansk. (snakker, ikke)",
+          "de": "Ich spreche kein Dänisch.",
+          "answer": [
+            "snakker ikke"
+          ],
+          "explain": "ikke steht direkt nach dem konjugierten Verb."
+        },
+        {
+          "prompt": "Elin ___ kaffe. (drikker, aldri)",
+          "de": "Elin trinkt nie Kaffee.",
+          "answer": [
+            "drikker aldri"
+          ],
+          "explain": "aldri steht wie ikke direkt nach dem Verb."
+        },
+        {
+          "prompt": "I morgen ___ jobbe. (må, jeg, ikke)",
+          "de": "Morgen muss ich nicht arbeiten.",
+          "answer": [
+            "må jeg ikke"
+          ],
+          "explain": "Inversion nach „I morgen“: Verb – Subjekt – ikke – Infinitiv."
+        },
+        {
+          "prompt": "Vi ___ på tur i Nordmarka. (går, ofte)",
+          "de": "Wir wandern oft in der Nordmarka.",
+          "answer": [
+            "går ofte"
+          ],
+          "explain": "ofte steht direkt nach dem Verb."
+        },
+        {
+          "prompt": "Matthias ___ komme i dag. (kan, ikke)",
+          "de": "Matthias kann heute nicht kommen.",
+          "answer": [
+            "kan ikke"
+          ],
+          "explain": "Mit Modalverb: Modalverb – ikke – Infinitiv."
+        },
+        {
+          "prompt": "I helgen ___ hjemme. (er, hun, ikke)",
+          "de": "Am Wochenende ist sie nicht zu Hause.",
+          "answer": [
+            "er hun ikke"
+          ],
+          "explain": "Inversion: Verb vor dem Subjekt, ikke nach dem Subjekt."
+        },
+        {
+          "prompt": "Mads ___ dansk med Elin. (snakker, bare)",
+          "de": "Mads spricht mit Elin nur Dänisch.",
+          "answer": [
+            "snakker bare"
+          ],
+          "explain": "bare steht direkt nach dem Verb."
+        },
+        {
+          "prompt": "Susanne ___ med på tur. (vil, gjerne, bli)",
+          "de": "Susanne möchte gern mit auf die Wanderung kommen.",
+          "answer": [
+            "vil gjerne bli"
+          ],
+          "explain": "gjerne steht nach dem Modalverb, der Infinitiv folgt danach."
+        },
+        {
+          "prompt": "Svensk ___ så godt. (forstår, jeg, ikke)",
+          "de": "Schwedisch verstehe ich nicht so gut.",
+          "answer": [
+            "forstår jeg ikke"
+          ],
+          "explain": "Das Objekt steht vorn, also Inversion: Verb – Subjekt – ikke."
+        },
+        {
+          "prompt": "Jeg ___ med. (blir, også)",
+          "de": "Ich komme auch mit.",
+          "answer": [
+            "blir også"
+          ],
+          "explain": "også steht direkt nach dem Verb."
+        }
+      ]
+    },
+    {
+      "id": "g04_imperativ",
+      "title": "Der Imperativ",
+      "titleNo": "imperativ",
+      "summary": "Der Imperativ ist der Infinitiv ohne -e (snakke → snakk!) und hat nur eine Form für eine und für mehrere Personen.",
+      "sections": [
+        {
+          "h": "So bildest du den Imperativ",
+          "body": "Nimm den Infinitiv und streiche das unbetonte **-e** am Ende:\n\n• **komme → Kom hit!** – Komm her! / Kommt her!\n• **spise → Spis!** – Iss! / Esst!\n• **snakke → Snakk sakte!** – Sprich langsam!\n• **spørre → Spør Torunn!** – Frag Torunn!\n\nEinsilbige Verben bleiben, wie sie sind: **gå → Gå!**, **ta → Ta en kake!**, **se → Se!**, **si → Si det!**, **bli → Bli med!**\n\nDer Imperativ hat nur eine Form, für eine Person und für viele: **Kom hit, Matthias!** und **Kom hit, alle sammen!** Im Deutschen unterscheidest du „komm“ und „kommt“, im Norwegischen nicht.",
+          "table": [
+            [
+              "Infinitiv",
+              "Imperativ",
+              "Deutsch"
+            ],
+            [
+              "**komme**",
+              "**kom!**",
+              "komm! / kommt!"
+            ],
+            [
+              "**spise**",
+              "**spis!**",
+              "iss! / esst!"
+            ],
+            [
+              "**snakke**",
+              "**snakk!**",
+              "sprich! / sprecht!"
+            ],
+            [
+              "**spørre**",
+              "**spør!**",
+              "frag! / fragt!"
+            ],
+            [
+              "**ta**",
+              "**ta!**",
+              "nimm! / nehmt!"
+            ],
+            [
+              "**gå**",
+              "**gå!**",
+              "geh! / geht!"
+            ],
+            [
+              "**være**",
+              "**vær!**",
+              "sei! / seid!"
+            ],
+            [
+              "**glemme**",
+              "**glem!**",
+              "vergiss! / vergesst!"
+            ]
+          ]
+        },
+        {
+          "h": "Kleine Schreibregeln",
+          "body": "• Ein **m** wird am Wortende nie verdoppelt: **komme → kom!**, **glemme → glem!** (mehr dazu in Lektion 5).\n• Andere Doppelkonsonanten bleiben: **snakke → snakk!**, **slappe av → slapp av!**\n• Wäre das Wort ohne -e nicht aussprechbar, bleibt das -e: **åpne → Åpne vinduet!**, **sykle → Sykle forsiktig!**\n• **være → Vær!** ist leicht unregelmäßig, wie deutsch „sei“."
+        },
+        {
+          "h": "Verneinung und Höflichkeit",
+          "body": "Verneint wird mit **ikke** VOR dem Imperativ: **Ikke spør så mye!** – Frag nicht so viel! **Ikke vær så sjenert!** – Sei nicht so schüchtern!\n\nUnter Freunden ist der Imperativ ganz normal und klingt nicht unhöflich. Norwegisch hat aber kein Wort, das genau „bitte“ entspricht. Höflicher wird es so:\n\n• **Snakk sakte, er du snill!** / **Vær så snill og snakk sakte!** – Sprich bitte langsam!\n• **Kan du snakke sakte?** – Kannst du langsam sprechen?\n• **Ta gjerne en kake!** – Nimm ruhig ein Stück Kuchen!\n\n**Vær så god!** sagst du, wenn du jemandem etwas gibst („bitte schön“)."
+        }
+      ],
+      "drills": [
+        {
+          "prompt": "___ hit, Matthias! (komme)",
+          "de": "Komm her, Matthias!",
+          "answer": [
+            "Kom"
+          ],
+          "explain": "komme ohne -e = kom; ein m wird am Wortende nicht verdoppelt."
+        },
+        {
+          "prompt": "___ en kake! (ta)",
+          "de": "Nimm ein Stück Kuchen!",
+          "answer": [
+            "Ta"
+          ],
+          "explain": "Einsilbiges Verb: Der Imperativ ist gleich dem Infinitiv."
+        },
+        {
+          "prompt": "___ sakte, er du snill! (snakke)",
+          "de": "Sprich bitte langsam!",
+          "answer": [
+            "Snakk"
+          ],
+          "explain": "snakke ohne -e = snakk; kk bleibt."
+        },
+        {
+          "prompt": "___ nå, alle sammen! (spise)",
+          "de": "Esst jetzt, alle zusammen!",
+          "answer": [
+            "Spis"
+          ],
+          "explain": "Eine Form für eine und für mehrere Personen."
+        },
+        {
+          "prompt": "Ikke ___ så mye! (spørre)",
+          "de": "Frag nicht so viel!",
+          "answer": [
+            "spør"
+          ],
+          "explain": "spørre ohne -e = spør; ikke steht vor dem Imperativ."
+        },
+        {
+          "prompt": "___ av! Det er helg! (slappe)",
+          "de": "Entspann dich! Es ist Wochenende!",
+          "answer": [
+            "Slapp"
+          ],
+          "explain": "slappe av → slapp av; pp bleibt."
+        },
+        {
+          "prompt": "Ikke ___ så sjenert! (være)",
+          "de": "Sei nicht so schüchtern!",
+          "answer": [
+            "vær"
+          ],
+          "explain": "være → vær."
+        },
+        {
+          "prompt": "Ikke ___ regnjakka! (glemme)",
+          "de": "Vergiss die Regenjacke nicht!",
+          "answer": [
+            "glem"
+          ],
+          "explain": "glemme → glem: Kein Doppel-m am Wortende."
+        },
+        {
+          "prompt": "___ med på tur! (bli)",
+          "de": "Komm mit auf die Wanderung!",
+          "answer": [
+            "Bli"
+          ],
+          "explain": "Einsilbiges Verb: bli bleibt bli."
+        },
+        {
+          "prompt": "___ vinduet, er du snill! (åpne)",
+          "de": "Öffne bitte das Fenster!",
+          "answer": [
+            "Åpne"
+          ],
+          "explain": "„åpn“ kann man nicht aussprechen, darum bleibt das -e."
+        }
+      ]
+    },
+    {
+      "id": "g04_sporreord",
+      "title": "Fragewörter",
+      "titleNo": "spørreord",
+      "summary": "Die meisten Fragewörter beginnen mit hv- (das h ist stumm); direkt danach folgt das Verb.",
+      "sections": [
+        {
+          "h": "Die wichtigsten Fragewörter",
+          "body": "Nach dem Fragewort kommt sofort das Verb (Platz 2), dann das Subjekt: **Hvor bor du?** **Hva skal dere gjøre i helgen?**",
+          "table": [
+            [
+              "Norwegisch",
+              "Deutsch",
+              "Beispiel"
+            ],
+            [
+              "**hva**",
+              "was",
+              "**Hva heter du?**"
+            ],
+            [
+              "**hvem**",
+              "wer, wen, wem",
+              "**Hvem er det?**"
+            ],
+            [
+              "**hvor**",
+              "wo",
+              "**Hvor bor du?**"
+            ],
+            [
+              "**hvor … fra**",
+              "woher",
+              "**Hvor kommer du fra?**"
+            ],
+            [
+              "**hvordan**",
+              "wie",
+              "**Hvordan går det?**"
+            ],
+            [
+              "**når**",
+              "wann",
+              "**Når kommer du?**"
+            ],
+            [
+              "**hvorfor**",
+              "warum",
+              "**Hvorfor er dansk så vanskelig?**"
+            ],
+            [
+              "**hvor mye**",
+              "wie viel",
+              "**Hvor mye koster det?**"
+            ],
+            [
+              "**hvor mange**",
+              "wie viele",
+              "**Hvor mange språk snakker du?**"
+            ],
+            [
+              "**hvor gammel**",
+              "wie alt",
+              "**Hvor gammel er du?**"
+            ],
+            [
+              "**hvor lenge**",
+              "wie lange",
+              "**Hvor lenge skal vi gå?**"
+            ],
+            [
+              "**hva slags**",
+              "was für ein(e)",
+              "**Hva slags kake er det?**"
+            ]
+          ]
+        },
+        {
+          "h": "Aussprache und falsche Freunde",
+          "body": "Das **h** in **hv-** sprichst du nicht: **hva** klingt wie „wa“, **hvem** wie „wemm“, **hvor** wie „wur“.\n\nVorsicht, diese Wörter sehen deutsch aus, bedeuten aber etwas anderes:\n\n• **hvem** = wer (nicht „wem“): **Hvem er det?** – Wer ist das?\n• **hvor** = wo (nicht „wer“): **Hvor er Mads?** – Wo ist Mads?\n• **når** = wann: **Når begynner kurset?** – Wann fängt der Kurs an?\n\nBei „woher?“ steht die Präposition am Ende: **Hvor kommer du fra?** – Woher kommst du?"
+        },
+        {
+          "h": "hvor mye, hvor mange, hva slags",
+          "body": "**hvor mye** fragt nach einer Menge, die man nicht zählt (Geld, Kaffee, Zeit), **hvor mange** nach zählbaren Dingen im Plural:\n\n• **Hvor mye kaffe drikker du?** – Wie viel Kaffee trinkst du?\n• **Hvor mange kaker har du?** – Wie viele Kuchen hast du?\n\nNach dem Preis fragst du mit **Hva koster …?** oder **Hvor mye koster …?**\n\n**hva slags** = was für ein(e). Danach steht kein Artikel: **Hva slags ost er det?** – Was für ein Käse ist das?\n\nMit **hvor** + Adjektiv fragst du nach dem Grad: **hvor gammel** (wie alt), **hvor stor** (wie groß), **hvor lenge** (wie lange)."
+        }
+      ],
+      "drills": [
+        {
+          "prompt": "___ heter du? – Jeg heter Elin.",
+          "de": "Wie heißt du? – Ich heiße Elin.",
+          "answer": [
+            "Hva"
+          ],
+          "explain": "Nach dem Namen fragt man mit hva (wörtlich: Was heißt du?)."
+        },
+        {
+          "prompt": "___ er det? – Det er Mads.",
+          "de": "Wer ist das? – Das ist Mads.",
+          "answer": [
+            "Hvem"
+          ],
+          "explain": "hvem = wer."
+        },
+        {
+          "prompt": "___ bor du? – På Sagene.",
+          "de": "Wo wohnst du? – In Sagene.",
+          "answer": [
+            "Hvor"
+          ],
+          "explain": "hvor = wo."
+        },
+        {
+          "prompt": "___ skal vi gå på tur? – I morgen.",
+          "de": "Wann gehen wir wandern? – Morgen.",
+          "answer": [
+            "Når"
+          ],
+          "explain": "når = wann."
+        },
+        {
+          "prompt": "___ går det? – Bra, takk!",
+          "de": "Wie geht es? – Gut, danke!",
+          "answer": [
+            "Hvordan"
+          ],
+          "explain": "hvordan = wie (auf welche Art)."
+        },
+        {
+          "prompt": "___ er dansk så vanskelig? – Fordi dansker snakker fort.",
+          "de": "Warum ist Dänisch so schwierig? – Weil Dänen schnell sprechen.",
+          "answer": [
+            "Hvorfor"
+          ],
+          "explain": "hvorfor = warum; die Antwort beginnt mit fordi."
+        },
+        {
+          "prompt": "___ språk snakker du? – Tre: tysk, engelsk og norsk.",
+          "de": "Wie viele Sprachen sprichst du? – Drei: Deutsch, Englisch und Norwegisch.",
+          "answer": [
+            "Hvor mange"
+          ],
+          "explain": "Zählbares im Plural: hvor mange."
+        },
+        {
+          "prompt": "___ koster en kaffe? – Tretti kroner.",
+          "de": "Wie viel kostet ein Kaffee? – Dreißig Kronen.",
+          "answer": [
+            "Hvor mye",
+            "Hva"
+          ],
+          "explain": "Nach dem Preis fragt man mit hvor mye oder hva."
+        },
+        {
+          "prompt": "___ er Ola? – Han er seksten år.",
+          "de": "Wie alt ist Ola? – Er ist sechzehn Jahre alt.",
+          "answer": [
+            "Hvor gammel"
+          ],
+          "explain": "hvor gammel = wie alt."
+        },
+        {
+          "prompt": "___ kake er det? – Det er en sjokoladekake.",
+          "de": "Was für ein Kuchen ist das? – Das ist ein Schokoladenkuchen.",
+          "answer": [
+            "Hva slags"
+          ],
+          "explain": "hva slags = was für ein; danach kein Artikel."
+        }
+      ]
+    },
+    {
+      "id": "g04_modal",
+      "title": "Modalverben",
+      "titleNo": "modale hjelpeverb",
+      "summary": "kan, vil, skal, må und bør stehen mit dem Infinitiv ohne å, und der Infinitiv wandert nicht ans Satzende.",
+      "sections": [
+        {
+          "h": "Die fünf Modalverben",
+          "body": "Modalverben haben im Präsens nur eine Form für alle Personen: **jeg kan, du kan, vi kan, de kan**. Danach folgt der Infinitiv OHNE **å**: **Jeg vil spise.** ✗ Jeg vil å spise.\n\nDer Infinitiv steht direkt nach dem Modalverb (oder nach ikke), nicht am Satzende wie im Deutschen: **Jeg må jobbe hele helgen.** – Ich muss das ganze Wochenende arbeiten.\n\nDie Infinitive (kunne, ville, skulle, måtte, burde) brauchst du im Moment kaum.",
+          "table": [
+            [
+              "Infinitiv",
+              "Präsens",
+              "Bedeutung",
+              "Beispiel"
+            ],
+            [
+              "**kunne**",
+              "**kan**",
+              "können",
+              "**Jeg kan ikke komme.**"
+            ],
+            [
+              "**ville**",
+              "**vil**",
+              "wollen",
+              "**Matthias vil vite alt.**"
+            ],
+            [
+              "**skulle**",
+              "**skal**",
+              "Plan, Zukunft; sollen",
+              "**Jeg skal gå på tur.**"
+            ],
+            [
+              "**måtte**",
+              "**må**",
+              "müssen",
+              "**Jeg må jobbe.**"
+            ],
+            [
+              "**burde**",
+              "**bør**",
+              "sollte (Rat)",
+              "**Du bør ha gode sko.**"
+            ]
+          ]
+        },
+        {
+          "h": "skal und vil",
+          "body": "• **skal** drückt meistens einen Plan oder die Zukunft aus: **I morgen skal jeg gå på tur.** – Morgen gehe ich wandern. **Hva skal dere gjøre i helgen?** – Was habt ihr am Wochenende vor?\n• **vil** heißt „wollen“, nicht „werden“: **Vil dere bli med?** – Wollt ihr mitkommen?\n• **vil ha** = haben wollen: **Jeg vil ha en kaffe.** Höflicher: **Jeg vil gjerne ha en kaffe.** – Ich hätte gern einen Kaffee.\n• Modalverben gehen auch ohne Infinitiv: **Jeg kan ikke.** – Ich kann nicht. **Jeg vil ikke.** – Ich will nicht."
+        },
+        {
+          "h": "Achtung: må ikke = darf nicht!",
+          "body": "Die größte Falle für Deutschsprachige: **må ikke** heißt „darf nicht“, nicht „muss nicht“.\n\n• **Du må ikke spørre så mye!** – Du darfst nicht so viel fragen!\n• „Du musst nicht …“ heißt **Du trenger ikke å …**: **Du trenger ikke å komme.** – Du musst nicht kommen.\n\n**bør** ist ein freundlicher Rat, wie „solltest“: **Du bør ta med en regnjakke.** – Du solltest eine Regenjacke mitnehmen."
+        }
+      ],
+      "drills": [
+        {
+          "prompt": "Jeg ___ ikke komme i morgen. (kunne)",
+          "de": "Ich kann morgen nicht kommen.",
+          "answer": [
+            "kan"
+          ],
+          "explain": "Präsens von kunne: kan, für alle Personen gleich."
+        },
+        {
+          "prompt": "Matthias ___ alltid vite alt. (ville)",
+          "de": "Matthias will immer alles wissen.",
+          "answer": [
+            "vil"
+          ],
+          "explain": "Präsens von ville: vil."
+        },
+        {
+          "prompt": "I morgen ___ vi gå på tur. (skulle)",
+          "de": "Morgen gehen wir wandern.",
+          "answer": [
+            "skal"
+          ],
+          "explain": "skal drückt einen Plan für die Zukunft aus."
+        },
+        {
+          "prompt": "Elin ___ lese på søndag. (måtte)",
+          "de": "Elin muss am Sonntag lernen.",
+          "answer": [
+            "må"
+          ],
+          "explain": "Präsens von måtte: må."
+        },
+        {
+          "prompt": "Du ___ ha gode sko. (burde)",
+          "de": "Du solltest gute Schuhe haben.",
+          "answer": [
+            "bør"
+          ],
+          "explain": "bør = sollte, ein Rat."
+        },
+        {
+          "prompt": "Jeg vil gjerne ___ en kaffe. (ha)",
+          "de": "Ich hätte gern einen Kaffee.",
+          "answer": [
+            "ha"
+          ],
+          "explain": "Nach dem Modalverb steht der Infinitiv ohne å: vil gjerne ha."
+        },
+        {
+          "prompt": "Kan du ___ det en gang til? (si)",
+          "de": "Kannst du das noch einmal sagen?",
+          "answer": [
+            "si"
+          ],
+          "explain": "Infinitiv ohne å direkt nach dem Modalverb."
+        },
+        {
+          "prompt": "Mads må ___ hele helgen. (jobbe)",
+          "de": "Mads muss das ganze Wochenende arbeiten.",
+          "answer": [
+            "jobbe"
+          ],
+          "explain": "Infinitiv ohne å, nicht „jobber“ und nicht „å jobbe“."
+        },
+        {
+          "prompt": "Du ___ ikke ta kaka! Den er til Anna. (måtte)",
+          "de": "Du darfst den Kuchen nicht nehmen! Er ist für Anna.",
+          "answer": [
+            "må"
+          ],
+          "explain": "må ikke = darf nicht.",
+          "hint": "Gemeint ist: Du darfst nicht …"
+        },
+        {
+          "prompt": "___ dere bli med? (ville)",
+          "de": "Wollt ihr mitkommen?",
+          "answer": [
+            "Vil"
+          ],
+          "explain": "Ja/Nein-Frage: Das Modalverb steht am Anfang."
+        }
+      ]
+    }
+  ],
+  "tf": [
+    {
+      "s": "Mads har kaker fra et dansk bakeri.",
+      "de": "Mads hat Kuchen aus einer dänischen Bäckerei.",
+      "a": true,
+      "why": "Mads sagt: „Og jeg har kaker fra et dansk bakeri.“"
+    },
+    {
+      "s": "Elin snakker dansk.",
+      "de": "Elin spricht Dänisch.",
+      "a": false,
+      "why": "Elin spricht Schwedisch, Mads spricht Dänisch."
+    },
+    {
+      "s": "Elin sier at svensk, dansk og norsk er veldig like.",
+      "de": "Elin sagt, dass Schwedisch, Dänisch und Norwegisch sehr ähnlich sind.",
+      "a": true,
+      "why": "„Svensk, dansk og norsk er veldig like.“"
+    },
+    {
+      "s": "«Rolig» betyr «morsom» på norsk.",
+      "de": "„Rolig“ bedeutet auf Norwegisch „lustig“.",
+      "a": false,
+      "why": "Auf Schwedisch bedeutet „rolig“ „lustig“, auf Norwegisch „still, ruhig“."
+    },
+    {
+      "s": "Susanne skal gå på tur i Nordmarka i morgen.",
+      "de": "Susanne geht morgen in der Nordmarka wandern.",
+      "a": true,
+      "why": "„I morgen skal jeg gå på tur i Nordmarka.“"
+    },
+    {
+      "s": "Mads blir med på tur.",
+      "de": "Mads kommt mit auf die Wanderung.",
+      "a": false,
+      "why": "Mads kann nicht, er muss das ganze Wochenende arbeiten."
+    }
+  ],
+  "questions": [
+    {
+      "q": "Hvordan kan Elin og Mads forstå hverandre?",
+      "qDe": "Wie können Elin und Mads einander verstehen?",
+      "answer": "De snakker sakte og bruker ikke vanskelige ord.",
+      "answerDe": "Sie sprechen langsam und benutzen keine schwierigen Wörter.",
+      "keywords": [
+        [
+          "sakte",
+          "langsomt"
+        ],
+        [
+          "vanskelige",
+          "vanskelig"
+        ]
+      ]
+    },
+    {
+      "q": "Hva betyr «rolig» på svensk?",
+      "qDe": "Was bedeutet „rolig“ auf Schwedisch?",
+      "answer": "På svensk betyr «rolig» «morsom».",
+      "answerDe": "Auf Schwedisch bedeutet „rolig“ „lustig“.",
+      "keywords": [
+        [
+          "morsom",
+          "morsomt"
+        ]
+      ]
+    },
+    {
+      "q": "Hvorfor kan Mads ikke bli med på tur?",
+      "qDe": "Warum kann Mads nicht mit auf die Wanderung kommen?",
+      "answer": "Han må jobbe hele helgen.",
+      "answerDe": "Er muss das ganze Wochenende arbeiten.",
+      "keywords": [
+        [
+          "jobbe",
+          "jobber",
+          "arbeide",
+          "arbeider"
+        ],
+        [
+          "helgen",
+          "helg",
+          "lørdag"
+        ]
+      ]
+    },
+    {
+      "q": "Hva bør Matthias ta med på tur?",
+      "qDe": "Was sollte Matthias auf die Wanderung mitnehmen?",
+      "answer": "Han bør ha gode sko og en regnjakke.",
+      "answerDe": "Er sollte gute Schuhe und eine Regenjacke haben.",
+      "keywords": [
+        [
+          "sko"
+        ],
+        [
+          "regnjakke",
+          "regnjakka",
+          "jakke"
+        ]
+      ]
+    }
+  ],
+  "find": [
+    {
+      "de": "einander",
+      "answer": [
+        "hverandre"
+      ]
+    },
+    {
+      "de": "falsche Freunde",
+      "answer": [
+        "falske venner"
+      ]
+    },
+    {
+      "de": "Entspann dich!",
+      "answer": [
+        "Slapp av"
+      ]
+    },
+    {
+      "de": "leider",
+      "answer": [
+        "dessverre"
+      ]
+    },
+    {
+      "de": "mitkommen",
+      "answer": [
+        "bli med"
+      ]
+    },
+    {
+      "de": "Sei nicht so schüchtern!",
+      "answer": [
+        "Ikke vær så sjenert"
+      ]
+    }
+  ],
+  "translate": [
+    {
+      "de": "Ich spreche kein Schwedisch.",
+      "no": [
+        "Jeg snakker ikke svensk."
+      ]
+    },
+    {
+      "de": "Morgen kann ich leider nicht.",
+      "no": [
+        "I morgen kan jeg dessverre ikke.",
+        "Jeg kan dessverre ikke i morgen."
+      ]
+    },
+    {
+      "de": "Komm her und nimm ein Stück Kuchen!",
+      "no": [
+        "Kom hit og ta en kake!",
+        "Kom hit og ta et stykke kake!"
+      ]
+    },
+    {
+      "de": "Wo wohnst du, und woher kommst du?",
+      "no": [
+        "Hvor bor du, og hvor kommer du fra?"
+      ]
+    },
+    {
+      "de": "Am Wochenende muss ich arbeiten.",
+      "no": [
+        "I helgen må jeg jobbe.",
+        "Jeg må jobbe i helgen.",
+        "I helgen må jeg arbeide.",
+        "Jeg må arbeide i helgen."
+      ]
+    },
+    {
+      "de": "Wollt ihr mitkommen?",
+      "no": [
+        "Vil dere bli med?"
+      ]
+    },
+    {
+      "de": "Du darfst nicht so viel fragen!",
+      "no": [
+        "Du må ikke spørre så mye!"
+      ],
+      "hint": "„darf nicht“ = må ikke."
+    },
+    {
+      "de": "Was bedeutet „rolig“ auf Norwegisch?",
+      "no": [
+        "Hva betyr «rolig» på norsk?"
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "prompt": "Mads har kaker fra et dansk ___.",
+      "de": "Mads hat Kuchen aus einer dänischen Bäckerei.",
+      "answer": [
+        "bakeri"
+      ]
+    },
+    {
+      "prompt": "Elin og Mads kan forstå ___.",
+      "de": "Elin und Mads können einander verstehen.",
+      "answer": [
+        "hverandre"
+      ]
+    },
+    {
+      "prompt": "På svensk betyr «rolig» ___.",
+      "de": "Auf Schwedisch bedeutet „rolig“ „lustig“.",
+      "answer": [
+        "morsom",
+        "«morsom»"
+      ]
+    },
+    {
+      "prompt": "Matthias ___ alltid vite alt.",
+      "de": "Matthias will immer alles wissen.",
+      "answer": [
+        "vil"
+      ]
+    },
+    {
+      "prompt": "Mads kan ikke bli med på tur. Han må ___ hele helgen.",
+      "de": "Mads kann nicht mit auf die Wanderung kommen. Er muss das ganze Wochenende arbeiten.",
+      "answer": [
+        "jobbe",
+        "arbeide"
+      ]
+    }
+  ],
+  "dictation": [
+    5,
+    13,
+    15,
+    18
+  ],
+  "writing": {
+    "prompt": "Schreib Elin eine kurze Nachricht: Was hast du am Wochenende vor? Was kannst du nicht, was musst du tun? Lade sie zu etwas ein.",
+    "minWords": 30,
+    "useWords": [
+      "skal",
+      "vil",
+      "kan",
+      "må",
+      "bli med"
+    ],
+    "checklist": [
+      {
+        "de": "Ein Plan fürs Wochenende (skal)",
+        "keywords": [
+          "skal"
+        ]
+      },
+      {
+        "de": "Eine Einladung",
+        "keywords": [
+          "bli med",
+          "vil du"
+        ]
+      },
+      {
+        "de": "Was du nicht kannst",
+        "keywords": [
+          "kan ikke",
+          "kan jeg ikke"
+        ]
+      },
+      {
+        "de": "Was du tun musst",
+        "keywords": [
+          "må"
+        ]
+      }
+    ],
+    "model": "Hei Elin! I morgen skal jeg gå på tur i Nordmarka med Matthias. Vil du bli med? Vi tar med brød, ost og jordbær. På søndag kan jeg dessverre ikke. Jeg må lese hele dagen, og jeg vil også ringe mamma. Hilsen Susanne",
+    "modelDe": "Hallo Elin! Morgen wandere ich mit Matthias in der Nordmarka. Willst du mitkommen? Wir nehmen Brot, Käse und Erdbeeren mit. Am Sonntag kann ich leider nicht. Ich muss den ganzen Tag lernen, und ich will auch Mama anrufen. Viele Grüße, Susanne"
+  }
+}

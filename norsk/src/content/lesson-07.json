@@ -1,0 +1,409 @@
+{
+  "n": 7,
+  "level": "A2",
+  "title": "Teater og sjalusi",
+  "titleDe": "Theater und Eifersucht",
+  "place": "Oslo, Nationaltheatret",
+  "goals": [
+    "Du kannst über Erlebnisse sprechen und danach fragen: »Har du noen gang …?«",
+    "Du lernst das Perfekt (har + Partizip) und wann man Präteritum oder Perfekt benutzt.",
+    "Du fragst mit hvilken/hvilket/hvilke nach und zeigst mit denne/dette/disse auf etwas.",
+    "Du verbindest Sätze mit dem Relativpronomen som.",
+    "Du kannst Gefühle ausdrücken: glad, sint, sjalu, lei seg."
+  ],
+  "text": {
+    "id": "t07",
+    "title": "Teater og sjalusi",
+    "titleDe": "Theater und Eifersucht",
+    "kind": "dialog",
+    "intro": "Susanne, Matthias, Anna und ihr Freund Jonas sehen im Nationaltheatret Ibsens »Et dukkehjem«. Zuerst stehen sie in der Pause im Foyer, später, nach der Vorstellung, draußen vor dem Theater.",
+    "speakers": {
+      "a": { "name": "Anna", "gender": "f" },
+      "m": { "name": "Matthias", "gender": "m" },
+      "j": { "name": "Jonas", "gender": "m" },
+      "s": { "name": "Susanne", "gender": "f" }
+    },
+    "lines": [
+      { "s": "a", "no": "Endelig pause! Hva synes dere om stykket så langt?", "de": "Endlich Pause! Wie findet ihr das Stück bis jetzt?" },
+      { "s": "m", "no": "Jeg synes det er fantastisk. Har du sett «Et dukkehjem» før, Anna?", "de": "Ich finde es fantastisch. Hast du »Et dukkehjem« schon einmal gesehen, Anna?" },
+      { "s": "a", "no": "Ja, jeg har sett det to ganger. Vi leste det også på videregående.", "de": "Ja, ich habe es zweimal gesehen. Wir haben es auch auf dem Gymnasium gelesen." },
+      { "s": "m", "no": "Jeg har lest det på tysk, men jeg har aldri sett det på en scene. Og denne skuespilleren som spiller Nora, er utrolig god!", "de": "Ich habe es auf Deutsch gelesen, aber ich habe es noch nie auf einer Bühne gesehen. Und diese Schauspielerin, die Nora spielt, ist unglaublich gut!" },
+      { "s": "a", "no": "Ja, hun er veldig flink. Jeg har sett henne i mange filmer også.", "de": "Ja, sie ist sehr gut. Ich habe sie auch schon in vielen Filmen gesehen." },
+      { "s": "j", "no": "Her er kaffe til alle. Jeg har stått i kø i ti minutter.", "de": "Hier ist Kaffee für alle. Ich habe zehn Minuten in der Schlange gestanden." },
+      { "s": "s", "no": "Takk, Jonas, så snilt av deg!", "de": "Danke, Jonas, wie lieb von dir!" },
+      { "s": "m", "no": "Anna, hvilken rolle vil du spille: Nora eller fru Linde?", "de": "Anna, welche Rolle möchtest du spielen: Nora oder Frau Linde?" },
+      { "s": "a", "no": "Nora, selvfølgelig! Jeg har alltid likt henne. Hun er sterk, men hun vet det ikke ennå.", "de": "Nora natürlich! Ich habe sie immer gemocht. Sie ist stark, aber sie weiß es noch nicht." },
+      { "s": "m", "no": "Akkurat! Og Torvald behandler henne som et lite barn. Men vent til slutten, Susanne …", "de": "Genau! Und Torvald behandelt sie wie ein kleines Kind. Aber warte bis zum Schluss, Susanne …" },
+      { "s": "s", "no": "Ikke si noe! Jeg har ikke lest stykket, og jeg vil ikke vite hvordan det slutter.", "de": "Sag nichts! Ich habe das Stück nicht gelesen, und ich will nicht wissen, wie es ausgeht." },
+      { "s": "j", "no": "Hallo? Anna, kaffen blir kald.", "de": "Hallo? Anna, der Kaffee wird kalt." },
+      { "s": "a", "no": "Ja, ja. Oi, nå ringer det. Kom, vi må gå inn igjen!", "de": "Ja, ja. Oh, jetzt klingelt es. Kommt, wir müssen wieder hinein!" },
+      { "s": "s", "no": "For en slutt! Nora går ut og smeller igjen døra.", "de": "Was für ein Schluss! Nora geht hinaus und knallt die Tür zu." },
+      { "s": "m", "no": "Folk har snakket om dette smellet siden 1879.", "de": "Über diesen Knall reden die Leute seit 1879." },
+      { "s": "s", "no": "Jeg har aldri sett et stykke som er så gammelt og så moderne samtidig.", "de": "Ich habe noch nie ein Stück gesehen, das so alt und zugleich so modern ist." },
+      { "s": "a", "no": "Jonas, du har ikke sagt et ord siden pausen. Hva er det?", "de": "Jonas, du hast seit der Pause kein Wort gesagt. Was ist los?" },
+      { "s": "j", "no": "Ingenting. Du og Matthias har jo hatt det så hyggelig i kveld.", "de": "Nichts. Du und Matthias, ihr hattet es heute Abend ja so nett." },
+      { "s": "a", "no": "Jonas! Er du sjalu?", "de": "Jonas! Bist du eifersüchtig?" },
+      { "s": "j", "no": "Kanskje litt. Dere snakket i et kvarter, og jeg sto der med fire kaffekopper.", "de": "Vielleicht ein bisschen. Ihr habt eine Viertelstunde lang geredet, und ich stand da mit vier Kaffeetassen." },
+      { "s": "m", "no": "Unnskyld, Jonas. Vi snakket bare om Ibsen, jeg lover.", "de": "Entschuldige, Jonas. Wir haben nur über Ibsen geredet, versprochen." },
+      { "s": "s", "no": "Har du noen gang vært sjalu på en forfatter som har vært død i over hundre år?", "de": "Warst du schon einmal eifersüchtig auf einen Schriftsteller, der seit über hundert Jahren tot ist?" },
+      { "s": "j", "no": "Ha ha! Nei, det har jeg aldri vært før.", "de": "Haha! Nein, das war ich noch nie." },
+      { "s": "a", "no": "Du er dum, men jeg er glad i deg.", "de": "Du bist doof, aber ich hab dich lieb." },
+      { "s": "j", "no": "Unnskyld, Anna. Jeg har vært sur hele kvelden. Har dere lyst på pizza? Jeg spanderer.", "de": "Entschuldige, Anna. Ich war den ganzen Abend schlecht gelaunt. Habt ihr Lust auf Pizza? Ich lade euch ein." },
+      { "s": "m", "no": "Gjerne! Men hvilken restaurant er åpen så sent?", "de": "Gern! Aber welches Restaurant hat so spät noch offen?" },
+      { "s": "a", "no": "Jeg kjenner en liten pizzarestaurant som ligger like ved Stortinget. Kom!", "de": "Ich kenne eine kleine Pizzeria, die ganz in der Nähe des Stortings liegt. Kommt!" },
+      { "s": "s", "no": "Matthias, har du noen gang vært sjalu?", "de": "Matthias, warst du schon einmal eifersüchtig?" },
+      { "s": "m", "no": "Kanskje. Det forteller jeg deg en annen gang.", "de": "Vielleicht. Das erzähle ich dir ein andermal." }
+    ],
+    "glossary": [
+      { "no": "Endelig", "de": "endlich" },
+      { "no": "så langt", "de": "bis jetzt, bisher" },
+      { "no": "stykket", "de": "das (Theater-)Stück" },
+      { "no": "Et dukkehjem", "de": "»Ein Puppenheim« – Ibsens Drama (auf Deutsch meist »Nora«)" },
+      { "no": "på videregående", "de": "auf dem Gymnasium (in der Oberstufe)" },
+      { "no": "på en scene", "de": "auf einer Bühne" },
+      { "no": "skuespilleren", "de": "die Schauspielerin (en skuespiller: Schauspieler/in)" },
+      { "no": "utrolig", "de": "unglaublich" },
+      { "no": "flink", "de": "gut, tüchtig, begabt" },
+      { "no": "har stått i kø", "de": "habe in der Schlange gestanden" },
+      { "no": "så snilt av deg", "de": "wie lieb von dir" },
+      { "no": "fru Linde", "de": "Frau Linde (eine Figur im Stück)" },
+      { "no": "ennå", "de": "noch" },
+      { "no": "Akkurat!", "de": "Genau!" },
+      { "no": "behandler", "de": "behandelt" },
+      { "no": "vent til slutten", "de": "warte bis zum Schluss" },
+      { "no": "Ikke si noe!", "de": "Sag nichts!" },
+      { "no": "hvordan det slutter", "de": "wie es ausgeht" },
+      { "no": "nå ringer det", "de": "jetzt klingelt es (die Pausenglocke)" },
+      { "no": "inn igjen", "de": "wieder hinein" },
+      { "no": "For en slutt!", "de": "Was für ein Schluss!" },
+      { "no": "smeller igjen døra", "de": "knallt die Tür zu" },
+      { "no": "smellet", "de": "der Knall" },
+      { "no": "samtidig", "de": "gleichzeitig, zugleich" },
+      { "no": "Hva er det?", "de": "Was ist los?" },
+      { "no": "Ingenting", "de": "nichts" },
+      { "no": "har jo hatt det så hyggelig", "de": "hattet es ja so nett" },
+      { "no": "sjalu", "de": "eifersüchtig" },
+      { "no": "et kvarter", "de": "eine Viertelstunde" },
+      { "no": "kaffekopper", "de": "Kaffeetassen" },
+      { "no": "jeg lover", "de": "versprochen (wörtlich: ich verspreche)" },
+      { "no": "sjalu på", "de": "eifersüchtig auf" },
+      { "no": "forfatter", "de": "der Schriftsteller" },
+      { "no": "død", "de": "tot" },
+      { "no": "glad i deg", "de": "(ich) hab dich lieb" },
+      { "no": "sur", "de": "schlecht gelaunt, sauer" },
+      { "no": "Jeg spanderer", "de": "Ich lade euch ein (ich bezahle)" },
+      { "no": "like ved", "de": "ganz in der Nähe von" },
+      { "no": "Stortinget", "de": "das Storting (das norwegische Parlament)" },
+      { "no": "en annen gang", "de": "ein andermal" }
+    ]
+  },
+  "extra": [
+    {
+      "id": "x07a",
+      "title": "Henrik Ibsen",
+      "titleDe": "Henrik Ibsen",
+      "kind": "info",
+      "intro": "Henrik Ibsen ist der bekannteste Dramatiker Norwegens. Ein kurzer Blick auf sein Leben.",
+      "lines": [
+        { "no": "Henrik Ibsen ble født i Skien i 1828. Familien ble fattig da han var liten. Da han var femten år gammel, flyttet han til Grimstad. Der arbeidet han på et apotek, og om kvelden skrev han dikt og skuespill.", "de": "Henrik Ibsen wurde 1828 in Skien geboren. Die Familie wurde arm, als er klein war. Als er fünfzehn Jahre alt war, zog er nach Grimstad. Dort arbeitete er in einer Apotheke, und abends schrieb er Gedichte und Theaterstücke." },
+        { "no": "Etterpå arbeidet Ibsen i mange år ved teatre i Bergen og i Christiania, som Oslo het den gangen. I 1864 reiste han ut av Norge. Han bodde i Italia og Tyskland i 27 år, og der skrev han «Peer Gynt», «Et dukkehjem», «Hedda Gabler» og mange andre stykker.", "de": "Danach arbeitete Ibsen viele Jahre an Theatern in Bergen und in Christiania – so hieß Oslo damals. 1864 verließ er Norwegen. Er lebte 27 Jahre lang in Italien und Deutschland, und dort schrieb er »Peer Gynt«, »Et dukkehjem«, »Hedda Gabler« und viele andere Stücke." },
+        { "no": "«Et dukkehjem» kom ut i 1879. Stykket handler om Nora, som forlater mannen og barna. Mange ble sinte og sjokkerte. For et teater i Tyskland skrev Ibsen en annen slutt: Der blir Nora hjemme hos barna. Men selv likte han den ikke.", "de": "»Et dukkehjem« erschien 1879. Das Stück handelt von Nora, die ihren Mann und ihre Kinder verlässt. Viele waren wütend und schockiert. Für ein Theater in Deutschland schrieb Ibsen einen anderen Schluss: Darin bleibt Nora zu Hause bei den Kindern. Aber er selbst mochte ihn nicht." },
+        { "no": "I 1891 flyttet Ibsen hjem til Norge igjen. Hver dag gikk han til Grand Café i Karl Johans gate, alltid på samme tid. Folk sa at de kunne stille klokka etter ham. Ibsen døde i 1906.", "de": "1891 zog Ibsen wieder nach Norwegen zurück. Jeden Tag ging er ins Grand Café an der Karl Johans gate, immer zur selben Zeit. Die Leute sagten, sie könnten ihre Uhr nach ihm stellen. Ibsen starb 1906." },
+        { "no": "Foran Nationaltheatret i Oslo står to statuer: Henrik Ibsen og Bjørnstjerne Bjørnson. Og teatre over hele verden spiller Ibsen ennå i dag.", "de": "Vor dem Nationaltheatret in Oslo stehen zwei Statuen: Henrik Ibsen und Bjørnstjerne Bjørnson. Und Theater auf der ganzen Welt spielen Ibsen noch heute." }
+      ],
+      "glossary": [
+        { "no": "ble født", "de": "wurde geboren" },
+        { "no": "ble fattig", "de": "wurde arm" },
+        { "no": "flyttet", "de": "zog (um)" },
+        { "no": "apotek", "de": "die Apotheke" },
+        { "no": "dikt", "de": "Gedichte" },
+        { "no": "skuespill", "de": "Theaterstücke, Schauspiele" },
+        { "no": "Etterpå", "de": "danach" },
+        { "no": "teatre", "de": "Theater (Plural)" },
+        { "no": "som Oslo het den gangen", "de": "so hieß Oslo damals" },
+        { "no": "reiste han ut av Norge", "de": "verließ er Norwegen (reiste ins Ausland)" },
+        { "no": "kom ut", "de": "erschien" },
+        { "no": "handler om", "de": "handelt von" },
+        { "no": "forlater", "de": "verlässt" },
+        { "no": "sinte", "de": "wütend (Plural)" },
+        { "no": "sjokkerte", "de": "schockiert (Plural)" },
+        { "no": "en annen slutt", "de": "einen anderen Schluss" },
+        { "no": "hjemme hos barna", "de": "zu Hause bei den Kindern" },
+        { "no": "selv", "de": "selbst" },
+        { "no": "hjem til Norge igjen", "de": "wieder nach Norwegen zurück" },
+        { "no": "alltid på samme tid", "de": "immer zur selben Zeit" },
+        { "no": "stille klokka etter ham", "de": "die Uhr nach ihm stellen" },
+        { "no": "døde", "de": "starb" },
+        { "no": "Foran", "de": "vor" },
+        { "no": "statuer", "de": "Statuen" },
+        { "no": "over hele verden", "de": "auf der ganzen Welt" },
+        { "no": "ennå i dag", "de": "noch heute" }
+      ]
+    }
+  ],
+  "wk": {
+    "title": "Følelser",
+    "titleDe": "Gefühle",
+    "phrases": [
+      { "no": "Hvordan føler du deg?", "de": "Wie fühlst du dich?" },
+      { "no": "Jeg er så glad!", "de": "Ich bin so froh!", "note": "glad = froh, fröhlich – nicht »glatt«!" },
+      { "no": "Jeg er glad i deg.", "de": "Ich hab dich lieb.", "note": "glad i = gern haben, lieben – für Familie, Freunde und Partner." },
+      { "no": "Jeg elsker deg.", "de": "Ich liebe dich.", "note": "Stärker als »glad i«; Norweger sagen es eher selten." },
+      { "no": "Hun er forelsket i ham.", "de": "Sie ist in ihn verliebt." },
+      { "no": "Er du sjalu?", "de": "Bist du eifersüchtig?" },
+      { "no": "Jonas er sjalu på Matthias.", "de": "Jonas ist eifersüchtig auf Matthias.", "note": "sjalu på = eifersüchtig auf" },
+      { "no": "Hun er sint på meg.", "de": "Sie ist wütend auf mich.", "note": "sint = wütend, böse (nicht »sind«!)" },
+      { "no": "Jeg er lei meg.", "de": "Ich bin traurig. / Es tut mir leid.", "note": "være lei seg = traurig sein, etwas bedauern" },
+      { "no": "Ikke vær lei deg!", "de": "Sei nicht traurig!" },
+      { "no": "Jeg er lei av regnet.", "de": "Ich habe den Regen satt.", "note": "være lei av = etwas satthaben" },
+      { "no": "Jeg er redd for hunder.", "de": "Ich habe Angst vor Hunden.", "note": "redd for = Angst haben vor" },
+      { "no": "Jeg er så nervøs!", "de": "Ich bin so nervös!" },
+      { "no": "Jeg er skuffet.", "de": "Ich bin enttäuscht." },
+      { "no": "Jeg er stolt av deg.", "de": "Ich bin stolz auf dich.", "note": "stolt av – mit av, nicht på!" },
+      { "no": "Jeg kjeder meg.", "de": "Ich langweile mich." },
+      { "no": "Han er sur i dag.", "de": "Er ist heute schlecht gelaunt.", "note": "sur = sauer: schlecht gelaunt, aber auch saure Milch" },
+      { "no": "Jeg er så lettet!", "de": "Ich bin so erleichtert!" },
+      { "no": "Det var veldig rørende.", "de": "Das war sehr rührend." },
+      { "no": "Jeg føler meg ensom.", "de": "Ich fühle mich einsam." }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g07_perfektum",
+      "title": "Das Perfekt",
+      "titleNo": "perfektum",
+      "summary": "Perfekt = har + Partizip – bei fast allen Verben, auch bei Verben der Bewegung.",
+      "sections": [
+        {
+          "h": "Bildung: har + Partizip",
+          "body": "Das Perfekt wird wie im Deutschen mit einem Hilfsverb und dem Partizip gebildet: **Jeg har sett stykket.** (Ich habe das Stück gesehen.)\n\nAber: Im Norwegischen steht fast immer **har** – auch bei Verben der Bewegung, bei denen das Deutsche »sein« verwendet:\n• **Jeg har vært i Bergen.** – Ich bin in Bergen gewesen.\n• **Hun har reist til Paris.** – Sie ist nach Paris gereist.\n• **Vi har gått hele veien.** – Wir sind den ganzen Weg gegangen.\n\nDas Partizip steht nicht am Satzende, sondern direkt nach **har** (oder nach **ikke**): **Jeg har ikke lest boka.** **Vi har sett «Et dukkehjem» to ganger.**"
+        },
+        {
+          "h": "Das Partizip der regelmäßigen Verben",
+          "body": "Wenn du das Präteritum kennst (Lektion 6), ist das Partizip leicht:\n• Klasse 1: Partizip = Präteritum: **snakket – har snakket**\n• Klasse 2: Präteritum ohne -e: **spiste – har spist**\n• Klasse 3: Präteritum ohne -e: **prøvde – har prøvd**\n• Klasse 4: Präteritum ohne -e: **bodde – har bodd**\n\nBei Klasse 1 ist auch die Form auf -a richtig: **har snakka**.",
+          "table": [
+            ["Klasse", "Infinitiv", "Präteritum", "Perfekt"],
+            ["1", "snakke", "snakket", "har snakket"],
+            ["2", "spise", "spiste", "har spist"],
+            ["3", "prøve", "prøvde", "har prøvd"],
+            ["4", "bo", "bodde", "har bodd"]
+          ]
+        },
+        {
+          "h": "Wichtige unregelmäßige Formen",
+          "body": "Einige Partizipien musst du einfach lernen (mehr in Lektion 8):\n• **være – var – har vært** (sein)\n• **ha – hadde – har hatt** (haben)\n• **gjøre – gjorde – har gjort** (machen, tun)\n• **se – så – har sett** (sehen)\n• **si – sa – har sagt** (sagen)\n• **gå – gikk – har gått** (gehen)\n• **stå – sto – har stått** (stehen)\n• **skrive – skrev – har skrevet** (schreiben)"
+        },
+        {
+          "h": "er + Partizip: ein Zustand",
+          "body": "Bei einigen Verben der Bewegung und Veränderung (reise, dra, komme, bli) kann statt **har** auch **er** stehen. Dann geht es um das Ergebnis, den Zustand jetzt:\n• **Han er reist.** – Er ist weg (abgereist).\n• **Sommeren er kommet.** – Der Sommer ist da.\n\nFür dich gilt: **har** ist immer richtig. **Han har reist til Bergen.** **Jonas har kommet.**"
+        }
+      ],
+      "drills": [
+        { "prompt": "Jeg ___ «Et dukkehjem» to ganger. (se, perfektum)", "de": "Ich habe »Et dukkehjem« zweimal gesehen.", "answer": ["har sett"], "explain": "se ist unregelmäßig: se – så – har sett." },
+        { "prompt": "Matthias ___ stykket på tysk. (lese, perfektum)", "de": "Matthias hat das Stück auf Deutsch gelesen.", "answer": ["har lest"], "explain": "lese gehört zu Klasse 2: leste – har lest." },
+        { "prompt": "Vi ___ om Ibsen hele kvelden. (snakke, perfektum)", "de": "Wir haben den ganzen Abend über Ibsen gesprochen.", "answer": ["har snakket", "har snakka"], "explain": "Klasse 1: Das Partizip ist gleich dem Präteritum: snakket." },
+        { "prompt": "Har du ___ brunost? (prøve, Partizip)", "de": "Hast du schon einmal Brunost probiert?", "answer": ["prøvd"], "explain": "Klasse 3: prøvde – har prøvd." },
+        { "prompt": "Anna ___ i Oslo hele livet. (bo, perfektum)", "de": "Anna wohnt schon ihr ganzes Leben in Oslo.", "answer": ["har bodd"], "explain": "Klasse 4: bodde – har bodd." },
+        { "prompt": "Jonas ___ i kø i ti minutter. (stå, perfektum)", "de": "Jonas hat zehn Minuten in der Schlange gestanden.", "answer": ["har stått"], "explain": "stå – sto – har stått. Im Süddeutschen und in der Schweiz sagt man »ist gestanden«, im Norwegischen immer har." },
+        { "prompt": "Har du noen gang ___ i Bergen? (være, Partizip)", "de": "Bist du schon einmal in Bergen gewesen?", "answer": ["vært"], "explain": "være – var – har vært. Deutsch »bist … gewesen«, Norwegisch »har … vært«." },
+        { "prompt": "Jonas har ikke ___ et ord siden pausen. (si, Partizip)", "de": "Jonas hat seit der Pause kein Wort gesagt.", "answer": ["sagt"], "explain": "si – sa – har sagt." },
+        { "prompt": "Hva ___ du i dag? (gjøre, perfektum)", "de": "Was hast du heute gemacht?", "answer": ["har gjort"], "explain": "gjøre – gjorde – har gjort." },
+        { "prompt": "Susanne ___ til Norge for å lære norsk. (reise, perfektum)", "de": "Susanne ist nach Norwegen gereist, um Norwegisch zu lernen.", "answer": ["har reist", "er reist"], "explain": "Auch bei Bewegung normalerweise har: har reist (er reist ist auch möglich)." }
+      ]
+    },
+    {
+      "id": "g07_pret_perf",
+      "title": "Präteritum oder Perfekt?",
+      "titleNo": "preteritum eller perfektum?",
+      "summary": "Präteritum für eine abgeschlossene Zeit (i går, i fjor), Perfekt für Erfahrungen ohne Zeitpunkt und für das, was bis jetzt andauert.",
+      "sections": [
+        {
+          "h": "Präteritum: Die Zeit ist vorbei",
+          "body": "Wenn die Zeit vorbei ist und genannt wird (oder klar ist), steht das **Präteritum**:\n• **I går så vi «Et dukkehjem».** – Gestern haben wir »Et dukkehjem« gesehen.\n• **Ibsen skrev stykket i 1879.**\n• **For to år siden bodde jeg i Bern.**\n• **Da jeg var barn, gikk jeg ofte i teateret.**\n\nTypischer Fehler: Im Deutschen erzählt man mündlich fast alles im Perfekt (»Gestern haben wir … gesehen«). Im Norwegischen ist das falsch – also nicht »I går har vi sett …«, sondern **I går så vi …**"
+        },
+        {
+          "h": "Perfekt: Erfahrung und Ergebnis",
+          "body": "Ohne Zeitpunkt – es geht um das Erlebnis, nicht um das Wann:\n• **Har du sett «Peer Gynt»?** – Hast du »Peer Gynt« (schon einmal) gesehen?\n• **Har du noen gang vært sjalu?** – Warst du schon einmal eifersüchtig?\n• **Jeg har aldri vært i Paris.** – Ich war noch nie in Paris.\n\nAuch wenn das Ergebnis jetzt wichtig ist: **Jeg har glemt billetten!** (Ich habe die Karte vergessen – jetzt habe ich sie nicht.)\n\nSobald das Wann genannt wird, wechselt man ins Präteritum: **Har du vært i Bergen? – Ja, jeg var der i fjor.**"
+        },
+        {
+          "h": "Perfekt: Es dauert bis jetzt",
+          "body": "Wenn etwas in der Vergangenheit begonnen hat und noch andauert, steht das Perfekt. Das Deutsche nimmt hier Präsens + »seit«:\n• **Jeg har bodd i Oslo i tre uker.** – Ich wohne seit drei Wochen in Oslo.\n• **Jeg har kjent Anna siden august.** – Ich kenne Anna seit August.\n• **Jeg har vært sur hele kvelden.** – Ich war den ganzen Abend schlecht gelaunt (und der Abend ist noch nicht vorbei).\n\nDauer mit **i**, Zeitpunkt mit **siden**. Vergleiche: **Jeg bodde i Bern i fem år.** – Ich habe fünf Jahre in Bern gewohnt (jetzt nicht mehr).",
+          "table": [
+            ["Präteritum", "Perfekt"],
+            ["i går, i fjor, i 1879", "noen gang, aldri, ikke ennå"],
+            ["for to år siden", "allerede, nettopp"],
+            ["da jeg var barn", "i tre uker (bis jetzt), siden august"]
+          ]
+        }
+      ],
+      "drills": [
+        { "prompt": "I går ___ vi «Et dukkehjem». (se)", "de": "Gestern haben wir »Et dukkehjem« gesehen.", "answer": ["så"], "explain": "»i går« ist ein abgeschlossener Zeitpunkt → Präteritum." },
+        { "prompt": "Ibsen ___ «Et dukkehjem» i 1879. (skrive)", "de": "Ibsen schrieb »Et dukkehjem« 1879.", "answer": ["skrev"], "explain": "Jahreszahl in der Vergangenheit → Präteritum. skrive – skrev – har skrevet." },
+        { "prompt": "Vi ___ i Oslo i tre uker nå. (bo)", "de": "Wir wohnen jetzt seit drei Wochen in Oslo.", "answer": ["har bodd"], "explain": "Es dauert bis jetzt → Perfekt (Deutsch: Präsens + seit)." },
+        { "prompt": "Da jeg var barn, ___ jeg i Bern. (bo)", "de": "Als ich ein Kind war, habe ich in Bern gewohnt.", "answer": ["bodde"], "explain": "»Da jeg var barn« ist vorbei → Präteritum." },
+        { "prompt": "Anna og Jonas ___ kjærester i to år, og de er fortsatt sammen. (være)", "de": "Anna und Jonas sind seit zwei Jahren ein Paar, und sie sind immer noch zusammen.", "answer": ["har vært"], "explain": "Sie sind immer noch zusammen → es dauert an → Perfekt." },
+        { "prompt": "For to år siden ___ Anna stykket i Bergen. (se)", "de": "Vor zwei Jahren hat Anna das Stück in Bergen gesehen.", "answer": ["så"], "explain": "»for to år siden« = abgeschlossene Zeit → Präteritum." },
+        { "prompt": "Jeg ___ Anna siden august. (kjenne)", "de": "Ich kenne Anna seit August.", "answer": ["har kjent"], "explain": "siden + Zeitpunkt, und es dauert bis jetzt → Perfekt." },
+        { "prompt": "Har du noen gang vært i Paris? – Ja, jeg ___ der i fjor. (være)", "de": "Warst du schon einmal in Paris? – Ja, ich war letztes Jahr dort.", "answer": ["var"], "explain": "Die Frage fragt nach Erfahrung (Perfekt), die Antwort nennt die Zeit (i fjor) → Präteritum." },
+        { "prompt": "Har du lest «Peer Gynt»? – Nei, ikke ennå. Men jeg ___ «Et dukkehjem». (lese)", "de": "Hast du »Peer Gynt« gelesen? – Nein, noch nicht. Aber ich habe »Et dukkehjem« gelesen.", "answer": ["har lest"], "explain": "Erfahrung ohne Zeitpunkt → Perfekt." },
+        { "prompt": "I går kveld ___ Jonas sjalu. (være)", "de": "Gestern Abend war Jonas eifersüchtig.", "answer": ["var"], "explain": "»i går kveld« → Präteritum." }
+      ]
+    },
+    {
+      "id": "g07_hvilken",
+      "title": "Das Fragepronomen hvilken",
+      "titleNo": "spørrepronomenet hvilken",
+      "summary": "hvilken / hvilket / hvilke = welcher, welche, welches – die Form richtet sich nach dem Substantiv.",
+      "sections": [
+        {
+          "h": "hvilken, hvilket, hvilke",
+          "body": "**hvilken** (welcher, welche, welches) richtet sich nach dem Substantiv, das folgt:\n• en- und ei-Wörter: **Hvilken buss tar du?** **Hvilken bok leser du?**\n• et-Wörter: **Hvilket teater liker du?**\n• Plural: **Hvilke skuespillere spiller i stykket?**\n\nDas Substantiv steht in der unbestimmten Form – wie im Deutschen: **hvilken buss** (welcher Bus), nicht »hvilken bussen«.\n\nAchtung: Das deutsche Geschlecht hilft nicht. »Welches Buch?« heißt **Hvilken bok?**, weil bok ein ei-Wort ist.",
+          "table": [
+            ["", "Form", "Beispiel"],
+            ["m/f", "hvilken", "Hvilken buss? Hvilken bok?"],
+            ["n", "hvilket", "Hvilket teater?"],
+            ["Plural", "hvilke", "Hvilke billetter?"]
+          ]
+        },
+        {
+          "h": "Ohne Substantiv und in der Umgangssprache",
+          "body": "hvilken kann auch allein stehen: **Her er to kjoler. Hvilken vil du ha?** (Welches willst du?)\n\nIm Gespräch hört man oft **hva for en / et / noen**: **Hva for en buss tar du? Hva for et stykke har du sett? Hva for noen sko kjøpte du?** Das klingt wie das deutsche »was für ein«, bedeutet aber meistens einfach »welcher«.\n\nEine Präposition steht am Ende der Frage: **Hvilken restaurant går vi på?**"
+        }
+      ],
+      "drills": [
+        { "prompt": "___ teater ligger ved Karl Johans gate?", "de": "Welches Theater liegt an der Karl Johans gate?", "answer": ["Hvilket"], "explain": "et teater → hvilket." },
+        { "prompt": "___ buss tar du hjem?", "de": "Welchen Bus nimmst du nach Hause?", "answer": ["Hvilken"], "explain": "en buss → hvilken." },
+        { "prompt": "___ skuespillere har du sett før?", "de": "Welche Schauspieler hast du schon einmal gesehen?", "answer": ["Hvilke"], "explain": "Plural → hvilke." },
+        { "prompt": "___ rolle spiller hun?", "de": "Welche Rolle spielt sie?", "answer": ["Hvilken"], "explain": "en rolle → hvilken." },
+        { "prompt": "___ stykke av Ibsen liker du?", "de": "Welches Stück von Ibsen magst du?", "answer": ["Hvilket"], "explain": "et stykke → hvilket." },
+        { "prompt": "___ bøker av Ibsen har du lest?", "de": "Welche Bücher von Ibsen hast du gelesen?", "answer": ["Hvilke"], "explain": "bøker ist Plural → hvilke." },
+        { "prompt": "___ restaurant vil dere gå på?", "de": "In welches Restaurant wollt ihr gehen?", "answer": ["Hvilken"], "explain": "en restaurant → hvilken. Die Präposition (på) steht am Ende." },
+        { "prompt": "___ kjole skal du ha på deg i kveld?", "de": "Welches Kleid ziehst du heute Abend an?", "answer": ["Hvilken"], "explain": "en kjole → hvilken (auch wenn es im Deutschen »das Kleid« heißt)." },
+        { "prompt": "Hva for ___ teater går dere i?", "de": "In welches Theater geht ihr?", "answer": ["et"], "explain": "Umgangssprachlich: hva for en/et/noen. teater ist ein et-Wort." }
+      ]
+    },
+    {
+      "id": "g07_denne",
+      "title": "Das Demonstrativpronomen denne",
+      "titleNo": "demonstrativpronomenet denne",
+      "summary": "denne / dette / disse + bestimmte Form: denne billetten, dette huset, disse stolene.",
+      "sections": [
+        {
+          "h": "denne, dette, disse",
+          "body": "**denne** (en- und ei-Wörter), **dette** (et-Wörter) und **disse** (Plural) bedeuten »dieser, diese, dieses«. Danach steht das Substantiv in der **bestimmten Form** – anders als im Deutschen:\n• **denne bussen** – dieser Bus\n• **denne døra** – diese Tür\n• **dette teateret** – dieses Theater\n• **disse billettene** – diese Karten\n\nTypischer Fehler: »denne buss«. Merke: denne + Endung!",
+          "table": [
+            ["", "Form", "Beispiel"],
+            ["m", "denne", "denne skuespilleren"],
+            ["f", "denne", "denne døra"],
+            ["n", "dette", "dette smellet"],
+            ["Plural", "disse", "disse billettene"]
+          ]
+        },
+        {
+          "h": "Dette er … – Das ist …",
+          "body": "Wenn du etwas vorstellst oder zeigst, sagst du **Dette er …** – egal, welches Geschlecht oder welche Zahl folgt (wie deutsch »Das ist …«):\n• **Dette er Jonas.**\n• **Dette er Nationaltheatret.**\n• **Dette er billettene.**\n\nAuch bei Zeitangaben: **denne uka** (diese Woche), **denne måneden** (diesen Monat), **dette året** (dieses Jahr)."
+        }
+      ],
+      "drills": [
+        { "prompt": "Jeg vil se ___ stykket. (denne/dette/disse)", "de": "Ich will dieses Stück sehen.", "answer": ["dette"], "explain": "et stykke → dette." },
+        { "prompt": "___ billettene er dyre. (denne/dette/disse)", "de": "Diese Karten sind teuer.", "answer": ["Disse"], "explain": "Plural → disse." },
+        { "prompt": "Hvem er ___ skuespilleren? (denne/dette/disse)", "de": "Wer ist diese Schauspielerin?", "answer": ["denne"], "explain": "en skuespiller → denne." },
+        { "prompt": "Har du lest ___ boka? (denne/dette/disse)", "de": "Hast du dieses Buch gelesen?", "answer": ["denne"], "explain": "ei bok → denne. Im Deutschen »dieses Buch«, aber bok ist feminin!" },
+        { "prompt": "___ er Jonas. Han studerer økonomi. (denne/dette/disse)", "de": "Das ist Jonas. Er studiert Wirtschaft.", "answer": ["Dette"], "explain": "Beim Vorstellen: Dette er … – für alle Geschlechter." },
+        { "prompt": "Kaffen på ___ kafeen er god. (denne/dette/disse)", "de": "Der Kaffee in diesem Café ist gut.", "answer": ["denne"], "explain": "en kafé → denne kafeen." },
+        { "prompt": "___ stolene er ikke gode å sitte på. (denne/dette/disse)", "de": "Auf diesen Stühlen sitzt man nicht gut.", "answer": ["Disse"], "explain": "Plural → disse." },
+        { "prompt": "Vi har mye å gjøre ___ uka. (denne/dette/disse)", "de": "Wir haben diese Woche viel zu tun.", "answer": ["denne"], "explain": "ei uke → denne uka." },
+        { "prompt": "Denne ___ er fantastisk. (scene)", "de": "Diese Szene ist fantastisch.", "answer": ["scenen"], "explain": "Nach denne steht die bestimmte Form: en scene → scenen." },
+        { "prompt": "Disse ___ er fra Bergen. (skuespiller)", "de": "Diese Schauspieler sind aus Bergen.", "answer": ["skuespillerne"], "explain": "en skuespiller – skuespilleren – skuespillere – skuespillerne (Lektion 6)." }
+      ]
+    },
+    {
+      "id": "g07_som",
+      "title": "Das Relativpronomen som",
+      "titleNo": "relativpronomenet som",
+      "summary": "som = der, die, das, welche – eine Form für alles; ohne Präposition davor.",
+      "sections": [
+        {
+          "h": "Eine Form für alles",
+          "body": "Wo das Deutsche der, die, das, den oder dem braucht, sagt man im Norwegischen immer **som**:\n• **skuespilleren som spiller Nora** – die Schauspielerin, die Nora spielt\n• **huset som vi bor i** – das Haus, in dem wir wohnen\n• **billettene som jeg har kjøpt** – die Karten, die ich gekauft habe\n\nIm Relativsatz gilt die Nebensatz-Wortstellung aus Lektion 2: kein Verb am Ende, und **ikke** steht vor dem Verb: **et stykke som jeg ikke har sett** (ein Stück, das ich nicht gesehen habe)."
+        },
+        {
+          "h": "som weglassen",
+          "body": "Wenn **som** nicht das Subjekt des Relativsatzes ist, darf es wegfallen:\n• **filmen (som) vi så** – der Film, den wir gesehen haben\n• **boka (som) jeg leser** – das Buch, das ich lese\n\nWenn **som** das Subjekt ist, muss es stehen: **mannen som står der** (der Mann, der dort steht).\n\nTest: Steht nach som noch ein Subjekt (vi, jeg, Anna …)? Dann kannst du som weglassen."
+        },
+        {
+          "h": "Die Präposition steht am Ende",
+          "body": "Im Deutschen steht die Präposition vor dem Relativpronomen (das Haus, **in** dem …). Im Norwegischen wandert sie ans Ende des Relativsatzes:\n• **huset (som) vi bor i** – das Haus, in dem wir wohnen\n• **stolen (som) jeg sitter på** – der Stuhl, auf dem ich sitze\n• **mannen (som) Jonas er sjalu på** – der Mann, auf den Jonas eifersüchtig ist\n\nNie: »i som« oder »på som«."
+        }
+      ],
+      "drills": [
+        { "prompt": "Skuespilleren ___ spiller Nora, er veldig flink.", "de": "Die Schauspielerin, die Nora spielt, ist sehr gut.", "answer": ["som"], "explain": "som ist hier das Subjekt des Relativsatzes → es muss stehen." },
+        { "prompt": "Det er huset som familien Nygård bor ___.", "de": "Das ist das Haus, in dem Familie Nygård wohnt.", "answer": ["i"], "explain": "Die Präposition steht am Ende: bo i → huset som de bor i." },
+        { "prompt": "Stolen som jeg sitter ___, er ikke god.", "de": "Der Stuhl, auf dem ich sitze, ist nicht gut.", "answer": ["på"], "explain": "sitte på → stolen som jeg sitter på." },
+        { "prompt": "Mannen ___ står ved døra, heter Jonas.", "de": "Der Mann, der an der Tür steht, heißt Jonas.", "answer": ["som"], "explain": "som ist Subjekt (»der steht«) → es muss stehen." },
+        { "prompt": "Matthias er mannen som Jonas er sjalu ___.", "de": "Matthias ist der Mann, auf den Jonas eifersüchtig ist.", "answer": ["på"], "explain": "sjalu på → die Präposition steht am Ende." },
+        { "prompt": "Det er et stykke som jeg ___. (ikke ha sett)", "de": "Das ist ein Stück, das ich nicht gesehen habe.", "answer": ["ikke har sett"], "explain": "Im Relativsatz steht ikke vor dem Verb, und das Verb kommt nicht ans Ende." },
+        { "prompt": "Jeg har en venn ___ bor i Paris.", "de": "Ich habe einen Freund, der in Paris wohnt.", "answer": ["som"], "explain": "som ist Subjekt → es muss stehen." },
+        { "prompt": "Filmen som vi snakket ___, går på kino nå.", "de": "Der Film, über den wir gesprochen haben, läuft jetzt im Kino.", "answer": ["om"], "explain": "snakke om → die Präposition steht am Ende." },
+        { "prompt": "Dette er Matthias, ___ kommer fra Bern.", "de": "Das ist Matthias, der aus Bern kommt.", "answer": ["som"], "explain": "som ist Subjekt → es muss stehen." },
+        { "prompt": "Boka som jeg ___ nå, er av Ibsen. (lese, presens)", "de": "Das Buch, das ich gerade lese, ist von Ibsen.", "answer": ["leser"], "explain": "Im Relativsatz steht das Verb direkt nach dem Subjekt: som jeg leser – nicht am Ende wie im Deutschen (»das ich lese«)." }
+      ]
+    }
+  ],
+  "tf": [
+    { "s": "Anna har sett «Et dukkehjem» før.", "de": "Anna hat »Et dukkehjem« schon einmal gesehen.", "a": true, "why": "Sie sagt: »Ja, jeg har sett det to ganger.«" },
+    { "s": "Matthias har sett stykket på en scene i Bern.", "de": "Matthias hat das Stück in Bern auf einer Bühne gesehen.", "a": false, "why": "Er hat es nur auf Deutsch gelesen, aber noch nie auf einer Bühne gesehen." },
+    { "s": "Jonas henter kaffe til alle i pausen.", "de": "Jonas holt in der Pause Kaffee für alle.", "a": true, "why": "»Her er kaffe til alle. Jeg har stått i kø i ti minutter.«" },
+    { "s": "Anna vil spille fru Linde.", "de": "Anna möchte Frau Linde spielen.", "a": false, "why": "Sie möchte Nora spielen: »Nora, selvfølgelig!«" },
+    { "s": "Susanne vil vite hvordan stykket slutter.", "de": "Susanne will wissen, wie das Stück ausgeht.", "a": false, "why": "Sie sagt: »Ikke si noe! … jeg vil ikke vite hvordan det slutter.«" },
+    { "s": "Jonas har vært sjalu på en død forfatter før.", "de": "Jonas war schon einmal eifersüchtig auf einen toten Schriftsteller.", "a": false, "why": "»Nei, det har jeg aldri vært før.«" },
+    { "s": "Til slutt vil Jonas spandere pizza.", "de": "Am Ende will Jonas Pizza spendieren.", "a": true, "why": "»Har dere lyst på pizza? Jeg spanderer.«" }
+  ],
+  "questions": [
+    { "q": "Hvor mange ganger har Anna sett «Et dukkehjem»?", "qDe": "Wie oft hat Anna »Et dukkehjem« gesehen?", "answer": "Hun har sett det to ganger.", "answerDe": "Sie hat es zweimal gesehen.", "keywords": [["to"], ["ganger", "gang"]] },
+    { "q": "Hvorfor er Jonas sjalu?", "qDe": "Warum ist Jonas eifersüchtig?", "answer": "Fordi Anna snakket med Matthias i et kvarter.", "answerDe": "Weil Anna eine Viertelstunde lang mit Matthias geredet hat.", "keywords": [["snakket", "snakker", "pratet"], ["Matthias"]] },
+    { "q": "Hva gjør Nora på slutten av stykket?", "qDe": "Was macht Nora am Ende des Stücks?", "answer": "Hun går ut og smeller igjen døra.", "answerDe": "Sie geht hinaus und knallt die Tür zu.", "keywords": [["går", "gikk", "forlater"], ["døra", "døren", "dør", "smeller"]] },
+    { "q": "Hva sier Anna til Jonas når han er sjalu?", "qDe": "Was sagt Anna zu Jonas, als er eifersüchtig ist?", "answer": "Hun sier at han er dum, men at hun er glad i ham.", "answerDe": "Sie sagt, dass er doof ist, aber dass sie ihn lieb hat.", "keywords": [["glad i"]] },
+    { "q": "Hva vil Jonas gjøre etter teateret?", "qDe": "Was will Jonas nach dem Theater machen?", "answer": "Han vil spandere pizza på de andre.", "answerDe": "Er will den anderen Pizza spendieren.", "keywords": [["pizza"], ["spandere", "spanderer", "betale"]] }
+  ],
+  "find": [
+    { "de": "endlich", "answer": ["Endelig"] },
+    { "de": "bis jetzt", "answer": ["så langt"] },
+    { "de": "habe in der Schlange gestanden", "answer": ["har stått i kø"] },
+    { "de": "wie lieb von dir", "answer": ["så snilt av deg"] },
+    { "de": "knallt die Tür zu", "answer": ["smeller igjen døra"] },
+    { "de": "gleichzeitig", "answer": ["samtidig"] },
+    { "de": "eifersüchtig", "answer": ["sjalu"] },
+    { "de": "Ich lade euch ein.", "answer": ["Jeg spanderer"] }
+  ],
+  "translate": [
+    { "de": "Hast du schon einmal »Peer Gynt« gesehen?", "no": ["Har du noen gang sett «Peer Gynt»?", "Har du sett «Peer Gynt» før?", "Har du sett «Peer Gynt»?"] },
+    { "de": "Ich war noch nie in Bergen.", "no": ["Jeg har aldri vært i Bergen."], "hint": "Erfahrung ohne Zeitpunkt → Perfekt mit har." },
+    { "de": "Gestern haben wir ein Stück von Ibsen gesehen.", "no": ["I går så vi et stykke av Ibsen.", "Vi så et stykke av Ibsen i går."], "hint": "»gestern« → Präteritum!" },
+    { "de": "Ich wohne seit drei Wochen in Oslo.", "no": ["Jeg har bodd i Oslo i tre uker."], "hint": "seit + Dauer → har … i …" },
+    { "de": "Welches Theater ist das?", "no": ["Hvilket teater er det?", "Hvilket teater er dette?", "Hva for et teater er det?"] },
+    { "de": "Diese Schauspielerin ist sehr gut.", "no": ["Denne skuespilleren er veldig god.", "Denne skuespilleren er veldig flink.", "Denne skuespilleren er svært god."] },
+    { "de": "Der Mann, der dort steht, heißt Jonas.", "no": ["Mannen som står der, heter Jonas.", "Mannen som står der borte, heter Jonas."] },
+    { "de": "Jonas ist eifersüchtig auf Matthias.", "no": ["Jonas er sjalu på Matthias."] }
+  ],
+  "summary": [
+    { "prompt": "I pausen sier Anna at hun ___ stykket to ganger før.", "de": "In der Pause sagt Anna, dass sie das Stück schon zweimal gesehen hat.", "answer": ["har sett"] },
+    { "prompt": "Matthias har lest stykket, men han har aldri ___ det på en scene.", "de": "Matthias hat das Stück gelesen, aber er hat es noch nie auf einer Bühne gesehen.", "answer": ["sett"] },
+    { "prompt": "Jonas henter kaffe og ___ i kø i ti minutter.", "de": "Jonas holt Kaffee und steht zehn Minuten in der Schlange.", "answer": ["står"] },
+    { "prompt": "Etter stykket er Jonas ___ fordi Anna har snakket så mye med Matthias.", "de": "Nach dem Stück ist Jonas eifersüchtig, weil Anna so viel mit Matthias geredet hat.", "answer": ["sjalu"] },
+    { "prompt": "Til slutt sier Anna at hun er glad ___ ham, og Jonas spanderer pizza.", "de": "Am Ende sagt Anna, dass sie ihn lieb hat, und Jonas spendiert Pizza.", "answer": ["i"] }
+  ],
+  "dictation": [5, 13, 20, 23],
+  "writing": {
+    "prompt": "Du warst gestern im Theater oder im Kino. Schreib einer Freundin eine kurze Nachricht: Was hast du gesehen, mit wem warst du dort, und wie hat es dir gefallen? Frag sie auch, ob sie schon einmal etwas Ähnliches gesehen hat.",
+    "minWords": 50,
+    "useWords": ["i går", "noen gang", "som", "denne"],
+    "checklist": [
+      { "de": "Was du gestern gemacht hast (Präteritum)", "keywords": ["i går"] },
+      { "de": "Wie es dir gefallen hat", "keywords": ["likte", "fantastisk", "synes", "syntes"] },
+      { "de": "Eine Frage nach Erfahrung (Perfekt)", "keywords": ["noen gang", "har du sett", "har du vært"] }
+    ],
+    "model": "Hei, Elin! I går var jeg på Nationaltheatret med Anna, Jonas og Matthias. Vi så «Et dukkehjem» av Ibsen. Skuespilleren som spilte Nora, var fantastisk, og jeg likte stykket veldig godt. Men denne slutten! Jeg har aldri hørt en dør som smeller så høyt. Har du noen gang sett et stykke av Ibsen? Hvis du vil, kan vi gå sammen neste gang. Hilsen Susanne",
+    "modelDe": "Hallo Elin! Gestern war ich mit Anna, Jonas und Matthias im Nationaltheatret. Wir haben »Et dukkehjem« von Ibsen gesehen. Die Schauspielerin, die Nora gespielt hat, war fantastisch, und mir hat das Stück sehr gut gefallen. Aber dieser Schluss! Ich habe noch nie eine Tür so laut knallen hören. Hast du schon einmal ein Stück von Ibsen gesehen? Wenn du willst, können wir das nächste Mal zusammen gehen. Viele Grüße, Susanne"
+  }
+}

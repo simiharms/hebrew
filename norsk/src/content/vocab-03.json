@@ -1,0 +1,1721 @@
+[
+  {
+    "id": "w03_hallo",
+    "no": "hallo",
+    "de": "hallo (auch am Telefon)",
+    "deAlt": [
+      "hallo"
+    ],
+    "pos": "interj",
+    "lesson": 3,
+    "ex": {
+      "no": "Hallo, det er Anna.",
+      "de": "Hallo, hier ist Anna."
+    }
+  },
+  {
+    "id": "w03_ringe",
+    "no": "ringe",
+    "de": "anrufen",
+    "deAlt": [
+      "telefonieren",
+      "klingeln"
+    ],
+    "pos": "verb",
+    "vf": [
+      "ringer",
+      "ringte",
+      "ringt",
+      "ring"
+    ],
+    "vg": "2",
+    "lesson": 3,
+    "ex": {
+      "no": "Susanne ringer til Anna.",
+      "de": "Susanne ruft Anna an."
+    },
+    "note": "ringe til noen = jemanden anrufen."
+  },
+  {
+    "id": "w03_skje",
+    "no": "skje",
+    "de": "geschehen, passieren",
+    "deAlt": [
+      "geschehen",
+      "passieren",
+      "los sein"
+    ],
+    "pos": "verb",
+    "vf": [
+      "skjer",
+      "skjedde",
+      "skjedd",
+      ""
+    ],
+    "vg": "4",
+    "lesson": 3,
+    "ex": {
+      "no": "Hva skjer?",
+      "de": "Was gibt's? / Was ist los?"
+    }
+  },
+  {
+    "id": "w03_lage",
+    "no": "lage",
+    "de": "machen, zubereiten",
+    "deAlt": [
+      "machen",
+      "zubereiten",
+      "kochen"
+    ],
+    "pos": "verb",
+    "vf": [
+      "lager",
+      "laget/lagde",
+      "laget/lagd",
+      "lag"
+    ],
+    "vg": "1",
+    "lesson": 3,
+    "ex": {
+      "no": "Vi lager middag sammen.",
+      "de": "Wir kochen zusammen das Abendessen."
+    },
+    "note": "lage mat = kochen."
+  },
+  {
+    "id": "w03_vente",
+    "no": "vente",
+    "de": "warten",
+    "pos": "verb",
+    "vf": [
+      "venter",
+      "ventet/venta",
+      "ventet/venta",
+      "vent"
+    ],
+    "vg": "1",
+    "lesson": 3,
+    "ex": {
+      "no": "Susanne venter ved butikken.",
+      "de": "Susanne wartet am Laden."
+    },
+    "note": "vente på noen = auf jemanden warten."
+  },
+  {
+    "id": "w03_handle",
+    "no": "handle",
+    "de": "einkaufen",
+    "deAlt": [
+      "einkaufen gehen"
+    ],
+    "pos": "verb",
+    "vf": [
+      "handler",
+      "handlet/handla",
+      "handlet/handla",
+      "handle"
+    ],
+    "vg": "1",
+    "lesson": 3,
+    "wk": true,
+    "ex": {
+      "no": "Anna og Susanne handler i butikken.",
+      "de": "Anna und Susanne kaufen im Laden ein."
+    }
+  },
+  {
+    "id": "w03_se",
+    "no": "se",
+    "de": "sehen",
+    "deAlt": [
+      "schauen"
+    ],
+    "pos": "verb",
+    "vf": [
+      "ser",
+      "så",
+      "sett",
+      "se"
+    ],
+    "vg": "sterk",
+    "lesson": 3,
+    "ex": {
+      "no": "Se, her er fersk laks!",
+      "de": "Schau, hier gibt es frischen Lachs!"
+    }
+  },
+  {
+    "id": "w03_skrelle",
+    "no": "skrelle",
+    "de": "schälen",
+    "pos": "verb",
+    "vf": [
+      "skreller",
+      "skrelte",
+      "skrelt",
+      "skrell"
+    ],
+    "vg": "2",
+    "lesson": 3,
+    "ex": {
+      "no": "Susanne skreller potetene.",
+      "de": "Susanne schält die Kartoffeln."
+    }
+  },
+  {
+    "id": "w03_lukte",
+    "no": "lukte",
+    "de": "riechen",
+    "pos": "verb",
+    "vf": [
+      "lukter",
+      "luktet/lukta",
+      "luktet/lukta",
+      "lukt"
+    ],
+    "vg": "1",
+    "lesson": 3,
+    "ex": {
+      "no": "Det lukter godt på kjøkkenet.",
+      "de": "In der Küche riecht es gut."
+    }
+  },
+  {
+    "id": "w03_prove",
+    "no": "prøve",
+    "de": "probieren, versuchen",
+    "deAlt": [
+      "probieren",
+      "versuchen",
+      "anprobieren"
+    ],
+    "pos": "verb",
+    "vf": [
+      "prøver",
+      "prøvde",
+      "prøvd",
+      "prøv"
+    ],
+    "vg": "3",
+    "lesson": 3,
+    "ex": {
+      "no": "Susanne prøver brunost.",
+      "de": "Susanne probiert Brunost."
+    }
+  },
+  {
+    "id": "w03_mat",
+    "no": "mat",
+    "de": "das Essen",
+    "deAlt": [
+      "die Nahrung",
+      "die Lebensmittel"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "mat",
+      "maten"
+    ],
+    "lesson": 3,
+    "wk": true,
+    "ex": {
+      "no": "Norsk mat er god.",
+      "de": "Norwegisches Essen ist gut."
+    }
+  },
+  {
+    "id": "w03_middag",
+    "no": "middag",
+    "de": "das (warme) Abendessen",
+    "deAlt": [
+      "das Abendessen",
+      "das Mittagessen",
+      "die Hauptmahlzeit"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "middag",
+      "middagen",
+      "middager",
+      "middagene"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Vi lager middag i kveld.",
+      "de": "Wir kochen heute Abend."
+    },
+    "note": "Die warme Hauptmahlzeit, meist am späten Nachmittag (16–18 Uhr)."
+  },
+  {
+    "id": "w03_frokost",
+    "no": "frokost",
+    "de": "das Frühstück",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "frokost",
+      "frokosten",
+      "frokoster",
+      "frokostene"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Brunost spiser vi til frokost.",
+      "de": "Brunost essen wir zum Frühstück."
+    }
+  },
+  {
+    "id": "w03_lunsj",
+    "no": "lunsj",
+    "de": "das Mittagessen",
+    "deAlt": [
+      "der Lunch"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "lunsj",
+      "lunsjen",
+      "lunsjer",
+      "lunsjene"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Til lunsj spiser jeg brødskiver.",
+      "de": "Zum Mittagessen esse ich Brotscheiben."
+    },
+    "note": "Meist eine kleine, kalte Mahlzeit um 11–12 Uhr."
+  },
+  {
+    "id": "w03_fisk",
+    "no": "fisk",
+    "de": "der Fisch",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "fisk",
+      "fisken",
+      "fisker",
+      "fiskene"
+    ],
+    "lesson": 3,
+    "wk": true,
+    "ex": {
+      "no": "Vi lager fisk og poteter.",
+      "de": "Wir machen Fisch und Kartoffeln."
+    }
+  },
+  {
+    "id": "w03_laks",
+    "no": "laks",
+    "de": "der Lachs",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "laks",
+      "laksen",
+      "lakser",
+      "laksene"
+    ],
+    "lesson": 3,
+    "wk": true,
+    "ex": {
+      "no": "Laksen er fersk, men dyr.",
+      "de": "Der Lachs ist frisch, aber teuer."
+    }
+  },
+  {
+    "id": "w03_torsk",
+    "no": "torsk",
+    "de": "der Dorsch, der Kabeljau",
+    "deAlt": [
+      "der Dorsch",
+      "der Kabeljau"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "torsk",
+      "torsken",
+      "torsker",
+      "torskene"
+    ],
+    "lesson": 3,
+    "wk": true,
+    "ex": {
+      "no": "Torsken er på tilbud i dag.",
+      "de": "Der Dorsch ist heute im Angebot."
+    }
+  },
+  {
+    "id": "w03_potet",
+    "no": "potet",
+    "de": "die Kartoffel",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "potet",
+      "poteten",
+      "poteter",
+      "potetene"
+    ],
+    "lesson": 3,
+    "wk": true,
+    "ex": {
+      "no": "Vi trenger store poteter.",
+      "de": "Wir brauchen große Kartoffeln."
+    }
+  },
+  {
+    "id": "w03_gulrot",
+    "no": "gulrot",
+    "de": "die Karotte, die Möhre",
+    "deAlt": [
+      "die Karotte",
+      "die Möhre",
+      "die Mohrrübe"
+    ],
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "gulrot",
+      "gulrota",
+      "gulrøtter",
+      "gulrøttene"
+    ],
+    "lesson": 3,
+    "wk": true,
+    "ex": {
+      "no": "Gulrøttene er søte.",
+      "de": "Die Karotten sind süß."
+    },
+    "note": "Plural unregelmäßig: gulrøtter (wie ei rot – røtter)."
+  },
+  {
+    "id": "w03_gronnsak",
+    "no": "grønnsak",
+    "de": "das Gemüse",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "grønnsak",
+      "grønnsaken",
+      "grønnsaker",
+      "grønnsakene"
+    ],
+    "lesson": 3,
+    "wk": true,
+    "ex": {
+      "no": "Vi spiser fisk med grønnsaker.",
+      "de": "Wir essen Fisch mit Gemüse."
+    },
+    "note": "Meist im Plural: grønnsaker = Gemüse."
+  },
+  {
+    "id": "w03_brod",
+    "no": "brød",
+    "de": "das Brot",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "brød",
+      "brødet",
+      "brød",
+      "brøda/brødene"
+    ],
+    "lesson": 3,
+    "wk": true,
+    "ex": {
+      "no": "Et grovt brød, takk.",
+      "de": "Ein Vollkornbrot, bitte."
+    }
+  },
+  {
+    "id": "w03_ost",
+    "no": "ost",
+    "de": "der Käse",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "ost",
+      "osten",
+      "oster",
+      "ostene"
+    ],
+    "lesson": 3,
+    "wk": true,
+    "ex": {
+      "no": "Brunost er en søt ost.",
+      "de": "Brunost ist ein süßer Käse."
+    }
+  },
+  {
+    "id": "w03_brunost",
+    "no": "brunost",
+    "de": "der Brunost (brauner Molkenkäse)",
+    "deAlt": [
+      "der Brunost",
+      "der braune Käse"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "brunost",
+      "brunosten"
+    ],
+    "lesson": 3,
+    "wk": true,
+    "ex": {
+      "no": "Brunost spiser vi til frokost.",
+      "de": "Brunost essen wir zum Frühstück."
+    },
+    "note": "Süßlich-karamelliger Käse aus Molke, sehr typisch norwegisch."
+  },
+  {
+    "id": "w03_smor",
+    "no": "smør",
+    "de": "die Butter",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "smør",
+      "smøret"
+    ],
+    "lesson": 3,
+    "wk": true,
+    "ex": {
+      "no": "En pakke smør, takk.",
+      "de": "Ein Päckchen Butter, bitte."
+    },
+    "note": "et smør – Neutrum."
+  },
+  {
+    "id": "w03_egg",
+    "no": "egg",
+    "de": "das Ei",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "egg",
+      "egget",
+      "egg",
+      "egga/eggene"
+    ],
+    "lesson": 3,
+    "wk": true,
+    "ex": {
+      "no": "Vi trenger seks egg.",
+      "de": "Wir brauchen sechs Eier."
+    }
+  },
+  {
+    "id": "w03_eple",
+    "no": "eple",
+    "de": "der Apfel",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "eple",
+      "eplet",
+      "epler",
+      "eplene"
+    ],
+    "lesson": 3,
+    "wk": true,
+    "ex": {
+      "no": "Eplet er søtt.",
+      "de": "Der Apfel ist süß."
+    },
+    "note": "et eple – Neutrum."
+  },
+  {
+    "id": "w03_tomat",
+    "no": "tomat",
+    "de": "die Tomate",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "tomat",
+      "tomaten",
+      "tomater",
+      "tomatene"
+    ],
+    "lesson": 3,
+    "wk": true,
+    "ex": {
+      "no": "Tomatene er billige i dag.",
+      "de": "Die Tomaten sind heute billig."
+    }
+  },
+  {
+    "id": "w03_agurk",
+    "no": "agurk",
+    "de": "die Gurke",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "agurk",
+      "agurken",
+      "agurker",
+      "agurkene"
+    ],
+    "lesson": 3,
+    "wk": true,
+    "ex": {
+      "no": "En agurk koster tjueni kroner.",
+      "de": "Eine Gurke kostet neunundzwanzig Kronen."
+    }
+  },
+  {
+    "id": "w03_kjott",
+    "no": "kjøtt",
+    "de": "das Fleisch",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "kjøtt",
+      "kjøttet"
+    ],
+    "lesson": 3,
+    "wk": true,
+    "ex": {
+      "no": "Spiser du kjøtt eller fisk?",
+      "de": "Isst du Fleisch oder Fisch?"
+    }
+  },
+  {
+    "id": "w03_skinke",
+    "no": "skinke",
+    "de": "der Schinken",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "skinke",
+      "skinka",
+      "skinker",
+      "skinkene"
+    ],
+    "lesson": 3,
+    "wk": true,
+    "ex": {
+      "no": "Jeg spiser brød med skinke.",
+      "de": "Ich esse Brot mit Schinken."
+    }
+  },
+  {
+    "id": "w03_paalegg",
+    "no": "pålegg",
+    "de": "der Brotbelag",
+    "deAlt": [
+      "der Belag",
+      "der Aufschnitt"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "pålegg",
+      "pålegget"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Ost og skinke er vanlig pålegg.",
+      "de": "Käse und Schinken sind ein üblicher Brotbelag."
+    },
+    "note": "Alles, was man aufs Brot legt: Käse, Wurst, Marmelade …"
+  },
+  {
+    "id": "w03_salat",
+    "no": "salat",
+    "de": "der Salat",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "salat",
+      "salaten",
+      "salater",
+      "salatene"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Vi lager en stor salat.",
+      "de": "Wir machen einen großen Salat."
+    }
+  },
+  {
+    "id": "w03_pasta",
+    "no": "pasta",
+    "de": "die Pasta, die Nudeln",
+    "deAlt": [
+      "die Pasta",
+      "die Nudeln"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "pasta",
+      "pastaen"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Vi lager pasta med laks.",
+      "de": "Wir machen Pasta mit Lachs."
+    }
+  },
+  {
+    "id": "w03_faarikaal",
+    "no": "fårikål",
+    "de": "Fårikål (Lamm mit Kohl)",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "fårikål",
+      "fårikålen"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Mange spiser fårikål om høsten.",
+      "de": "Viele essen im Herbst Fårikål."
+    },
+    "note": "Norwegisches Nationalgericht: Lammfleisch und Weißkohl, im Topf geschmort."
+  },
+  {
+    "id": "w03_maaltid",
+    "no": "måltid",
+    "de": "die Mahlzeit",
+    "deAlt": [
+      "das Essen"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "måltid",
+      "måltidet",
+      "måltider",
+      "måltidene"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Frokost er et viktig måltid.",
+      "de": "Das Frühstück ist eine wichtige Mahlzeit."
+    }
+  },
+  {
+    "id": "w03_dessert",
+    "no": "dessert",
+    "de": "der Nachtisch, das Dessert",
+    "deAlt": [
+      "der Nachtisch",
+      "das Dessert"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "dessert",
+      "desserten",
+      "desserter",
+      "dessertene"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Hva spiser vi til dessert?",
+      "de": "Was essen wir zum Nachtisch?"
+    }
+  },
+  {
+    "id": "w03_butikk",
+    "no": "butikk",
+    "de": "der Laden, das Geschäft",
+    "deAlt": [
+      "der Laden",
+      "das Geschäft",
+      "der Supermarkt"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "butikk",
+      "butikken",
+      "butikker",
+      "butikkene"
+    ],
+    "lesson": 3,
+    "wk": true,
+    "ex": {
+      "no": "Susanne venter ved butikken.",
+      "de": "Susanne wartet am Laden."
+    }
+  },
+  {
+    "id": "w03_handleliste",
+    "no": "handleliste",
+    "de": "die Einkaufsliste",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "handleliste",
+      "handlelista",
+      "handlelister",
+      "handlelistene"
+    ],
+    "lesson": 3,
+    "wk": true,
+    "ex": {
+      "no": "Her er handlelista.",
+      "de": "Hier ist die Einkaufsliste."
+    }
+  },
+  {
+    "id": "w03_pakke",
+    "no": "pakke",
+    "de": "die Packung, das Paket",
+    "deAlt": [
+      "die Packung",
+      "das Paket",
+      "das Päckchen"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "pakke",
+      "pakken",
+      "pakker",
+      "pakkene"
+    ],
+    "lesson": 3,
+    "wk": true,
+    "ex": {
+      "no": "En pakke torsk koster sekstini kroner.",
+      "de": "Eine Packung Dorsch kostet neunundsechzig Kronen."
+    }
+  },
+  {
+    "id": "w03_kilo",
+    "no": "kilo",
+    "de": "das Kilo",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "kilo",
+      "kiloen/kiloet",
+      "kilo",
+      "kiloene/kiloa"
+    ],
+    "lesson": 3,
+    "wk": true,
+    "ex": {
+      "no": "Hva koster en kilo poteter?",
+      "de": "Was kostet ein Kilo Kartoffeln?"
+    },
+    "note": "en oder et kilo – beides ist richtig."
+  },
+  {
+    "id": "w03_liter",
+    "no": "liter",
+    "de": "der Liter",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "liter",
+      "literen",
+      "liter",
+      "literne"
+    ],
+    "lesson": 3,
+    "wk": true,
+    "ex": {
+      "no": "En liter melk, takk.",
+      "de": "Einen Liter Milch, bitte."
+    }
+  },
+  {
+    "id": "w03_tilbud",
+    "no": "tilbud",
+    "de": "das Angebot",
+    "deAlt": [
+      "das Sonderangebot"
+    ],
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "tilbud",
+      "tilbudet",
+      "tilbud",
+      "tilbuda/tilbudene"
+    ],
+    "lesson": 3,
+    "wk": true,
+    "ex": {
+      "no": "Torsken er på tilbud.",
+      "de": "Der Dorsch ist im Angebot."
+    },
+    "note": "på tilbud = im Angebot."
+  },
+  {
+    "id": "w03_kasse",
+    "no": "kasse",
+    "de": "die Kasse",
+    "pos": "noun",
+    "gender": "f",
+    "forms": [
+      "kasse",
+      "kassa",
+      "kasser",
+      "kassene"
+    ],
+    "lesson": 3,
+    "wk": true,
+    "ex": {
+      "no": "Hvor er kassa?",
+      "de": "Wo ist die Kasse?"
+    }
+  },
+  {
+    "id": "w03_pose",
+    "no": "pose",
+    "de": "die Tüte",
+    "deAlt": [
+      "der Beutel"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "pose",
+      "posen",
+      "poser",
+      "posene"
+    ],
+    "lesson": 3,
+    "wk": true,
+    "ex": {
+      "no": "Trenger du pose?",
+      "de": "Brauchst du eine Tüte?"
+    }
+  },
+  {
+    "id": "w03_kjokken",
+    "no": "kjøkken",
+    "de": "die Küche",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "kjøkken",
+      "kjøkkenet",
+      "kjøkken",
+      "kjøkkena/kjøkkenene"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Familien Nygård har et stort kjøkken.",
+      "de": "Familie Nygård hat eine große Küche."
+    },
+    "note": "et kjøkken – Neutrum. In der Küche = på kjøkkenet."
+  },
+  {
+    "id": "w03_kniv",
+    "no": "kniv",
+    "de": "das Messer",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "kniv",
+      "kniven",
+      "kniver",
+      "knivene"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Hvor er kniven?",
+      "de": "Wo ist das Messer?"
+    }
+  },
+  {
+    "id": "w03_skuff",
+    "no": "skuff",
+    "de": "die Schublade",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "skuff",
+      "skuffen",
+      "skuffer",
+      "skuffene"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Kniven er i skuffen.",
+      "de": "Das Messer ist in der Schublade."
+    }
+  },
+  {
+    "id": "w03_hjorne",
+    "no": "hjørne",
+    "de": "die Ecke",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "hjørne",
+      "hjørnet",
+      "hjørner",
+      "hjørnene"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Butikken er på hjørnet.",
+      "de": "Der Laden ist an der Ecke."
+    },
+    "note": "et hjørne – Neutrum. Das h spricht man nicht."
+  },
+  {
+    "id": "w03_lesesal",
+    "no": "lesesal",
+    "de": "der Lesesaal",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "lesesal",
+      "lesesalen",
+      "lesesaler",
+      "lesesalene"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Anna er på lesesalen.",
+      "de": "Anna ist im Lesesaal."
+    }
+  },
+  {
+    "id": "w03_universitet",
+    "no": "universitet",
+    "de": "die Universität",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "universitet",
+      "universitetet",
+      "universiteter",
+      "universitetene"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Anna studerer på universitetet.",
+      "de": "Anna studiert an der Universität."
+    },
+    "note": "et universitet – Neutrum; an der Uni = på universitetet."
+  },
+  {
+    "id": "w03_medisinstudent",
+    "no": "medisinstudent",
+    "de": "der Medizinstudent, die Medizinstudentin",
+    "deAlt": [
+      "der Medizinstudent",
+      "die Medizinstudentin"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "medisinstudent",
+      "medisinstudenten",
+      "medisinstudenter",
+      "medisinstudentene"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Anna er medisinstudent.",
+      "de": "Anna ist Medizinstudentin."
+    }
+  },
+  {
+    "id": "w03_kokk",
+    "no": "kokk",
+    "de": "der Koch, die Köchin",
+    "deAlt": [
+      "der Koch",
+      "die Köchin"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "kokk",
+      "kokken",
+      "kokker",
+      "kokkene"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "I kveld er Anna kokk.",
+      "de": "Heute Abend ist Anna Köchin."
+    }
+  },
+  {
+    "id": "w03_person",
+    "no": "person",
+    "de": "die Person",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "person",
+      "personen",
+      "personer",
+      "personene"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Vi er fem personer.",
+      "de": "Wir sind fünf Personen."
+    }
+  },
+  {
+    "id": "w03_pappa",
+    "no": "pappa",
+    "de": "der Papa",
+    "deAlt": [
+      "der Vater"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "pappa",
+      "pappaen",
+      "pappaer",
+      "pappaene"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Ikke i kveld, pappa!",
+      "de": "Heute Abend nicht, Papa!"
+    }
+  },
+  {
+    "id": "w03_mamma",
+    "no": "mamma",
+    "de": "die Mama",
+    "deAlt": [
+      "die Mutter"
+    ],
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "mamma",
+      "mammaen",
+      "mammaer",
+      "mammaene"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Mamma er lærer.",
+      "de": "Mama ist Lehrerin."
+    },
+    "note": "Bestimmte Form selten; meist ohne Artikel wie ein Name: Mamma er hjemme."
+  },
+  {
+    "id": "w03_telefonnummer",
+    "no": "telefonnummer",
+    "de": "die Telefonnummer",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "telefonnummer",
+      "telefonnummeret",
+      "telefonnumre",
+      "telefonnumrene"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Hva er telefonnummeret ditt?",
+      "de": "Wie ist deine Telefonnummer?"
+    }
+  },
+  {
+    "id": "w03_ord",
+    "no": "ord",
+    "de": "das Wort",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "ord",
+      "ordet",
+      "ord",
+      "orda/ordene"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "«Kos» er et norsk ord.",
+      "de": "»Kos« ist ein norwegisches Wort."
+    }
+  },
+  {
+    "id": "w03_brev",
+    "no": "brev",
+    "de": "der Brief",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "brev",
+      "brevet",
+      "brev",
+      "breva/brevene"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Kari skriver et kort brev.",
+      "de": "Kari schreibt einen kurzen Brief."
+    }
+  },
+  {
+    "id": "w03_skjerf",
+    "no": "skjerf",
+    "de": "der Schal",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "skjerf",
+      "skjerfet",
+      "skjerf",
+      "skjerfa/skjerfene"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Susanne har et svart skjerf.",
+      "de": "Susanne hat einen schwarzen Schal."
+    }
+  },
+  {
+    "id": "w03_kyst",
+    "no": "kyst",
+    "de": "die Küste",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "kyst",
+      "kysten",
+      "kyster",
+      "kystene"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Norge har en lang kyst.",
+      "de": "Norwegen hat eine lange Küste."
+    }
+  },
+  {
+    "id": "w03_stor",
+    "no": "stor",
+    "de": "groß",
+    "pos": "adj",
+    "forms": [
+      "stor",
+      "stort",
+      "store"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Dere har et stort kjøkken.",
+      "de": "Ihr habt eine große Küche."
+    }
+  },
+  {
+    "id": "w03_fersk",
+    "no": "fersk",
+    "de": "frisch",
+    "pos": "adj",
+    "forms": [
+      "fersk",
+      "ferskt",
+      "ferske"
+    ],
+    "lesson": 3,
+    "wk": true,
+    "ex": {
+      "no": "Her er fersk laks!",
+      "de": "Hier gibt es frischen Lachs!"
+    },
+    "note": "»frisch« bei Lebensmitteln. Achtung: frisk heißt meist »gesund«."
+  },
+  {
+    "id": "w03_frisk",
+    "no": "frisk",
+    "de": "gesund; frisch (Luft)",
+    "deAlt": [
+      "gesund",
+      "frisch"
+    ],
+    "pos": "adj",
+    "forms": [
+      "frisk",
+      "friskt",
+      "friske"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Er du frisk igjen?",
+      "de": "Bist du wieder gesund?"
+    },
+    "note": "Falscher Freund: Brot und Fisch sind fersk, nicht frisk."
+  },
+  {
+    "id": "w03_brun",
+    "no": "brun",
+    "de": "braun",
+    "pos": "adj",
+    "forms": [
+      "brun",
+      "brunt",
+      "brune"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Brunost er brun og søt.",
+      "de": "Brunost ist braun und süß."
+    }
+  },
+  {
+    "id": "w03_sot",
+    "no": "søt",
+    "de": "süß",
+    "deAlt": [
+      "niedlich"
+    ],
+    "pos": "adj",
+    "forms": [
+      "søt",
+      "søtt",
+      "søte"
+    ],
+    "lesson": 3,
+    "wk": true,
+    "ex": {
+      "no": "Eplet er søtt.",
+      "de": "Der Apfel ist süß."
+    },
+    "note": "Neutrum mit tt: søtt."
+  },
+  {
+    "id": "w03_grov",
+    "no": "grov",
+    "de": "grob; Vollkorn-",
+    "deAlt": [
+      "grob",
+      "Vollkorn"
+    ],
+    "pos": "adj",
+    "forms": [
+      "grov",
+      "grovt",
+      "grove"
+    ],
+    "lesson": 3,
+    "wk": true,
+    "ex": {
+      "no": "Et grovt brød, takk.",
+      "de": "Ein Vollkornbrot, bitte."
+    },
+    "note": "et grovt brød = ein dunkles Vollkornbrot."
+  },
+  {
+    "id": "w03_hvit",
+    "no": "hvit",
+    "de": "weiß",
+    "pos": "adj",
+    "forms": [
+      "hvit",
+      "hvitt",
+      "hvite"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Familien Nygård har et hvitt hus.",
+      "de": "Familie Nygård hat ein weißes Haus."
+    },
+    "note": "Neutrum mit tt: hvitt. Das h spricht man nicht."
+  },
+  {
+    "id": "w03_svart",
+    "no": "svart",
+    "de": "schwarz",
+    "pos": "adj",
+    "forms": [
+      "svart",
+      "svart",
+      "svarte"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Susanne har et svart skjerf.",
+      "de": "Susanne hat einen schwarzen Schal."
+    }
+  },
+  {
+    "id": "w03_kort",
+    "no": "kort",
+    "de": "kurz",
+    "pos": "adj",
+    "forms": [
+      "kort",
+      "kort",
+      "korte"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Det er et kort brev.",
+      "de": "Das ist ein kurzer Brief."
+    }
+  },
+  {
+    "id": "w03_lang",
+    "no": "lang",
+    "de": "lang",
+    "pos": "adj",
+    "forms": [
+      "lang",
+      "langt",
+      "lange"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Norge har en lang kyst.",
+      "de": "Norwegen hat eine lange Küste."
+    }
+  },
+  {
+    "id": "w03_praktisk",
+    "no": "praktisk",
+    "de": "praktisch",
+    "pos": "adj",
+    "forms": [
+      "praktisk",
+      "praktisk",
+      "praktiske"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Et praktisk kjøkken!",
+      "de": "Eine praktische Küche!"
+    },
+    "note": "Kein -t im Neutrum."
+  },
+  {
+    "id": "w03_typisk",
+    "no": "typisk",
+    "de": "typisch",
+    "pos": "adj",
+    "forms": [
+      "typisk",
+      "typisk",
+      "typiske"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Fisk og poteter er typisk norsk.",
+      "de": "Fisch und Kartoffeln sind typisch norwegisch."
+    }
+  },
+  {
+    "id": "w03_hyggelig",
+    "no": "hyggelig",
+    "de": "nett, gemütlich, angenehm",
+    "deAlt": [
+      "nett",
+      "gemütlich",
+      "angenehm",
+      "freundlich"
+    ],
+    "pos": "adj",
+    "forms": [
+      "hyggelig",
+      "hyggelig",
+      "hyggelige"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Det er et hyggelig hotell.",
+      "de": "Das ist ein nettes Hotel."
+    },
+    "note": "Kein -t im Neutrum."
+  },
+  {
+    "id": "w03_vanlig",
+    "no": "vanlig",
+    "de": "normal, üblich, gewöhnlich",
+    "deAlt": [
+      "normal",
+      "üblich",
+      "gewöhnlich"
+    ],
+    "pos": "adj",
+    "forms": [
+      "vanlig",
+      "vanlig",
+      "vanlige"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Fisk med poteter er en vanlig middag.",
+      "de": "Fisch mit Kartoffeln ist ein normales Abendessen."
+    }
+  },
+  {
+    "id": "w03_ferdig",
+    "no": "ferdig",
+    "de": "fertig",
+    "pos": "adj",
+    "forms": [
+      "ferdig",
+      "ferdig",
+      "ferdige"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Jeg er snart ferdig.",
+      "de": "Ich bin bald fertig."
+    }
+  },
+  {
+    "id": "w03_populaer",
+    "no": "populær",
+    "de": "beliebt",
+    "deAlt": [
+      "populär"
+    ],
+    "pos": "adj",
+    "forms": [
+      "populær",
+      "populært",
+      "populære"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Taco er veldig populært i Norge.",
+      "de": "Tacos sind in Norwegen sehr beliebt."
+    }
+  },
+  {
+    "id": "w03_tradisjonell",
+    "no": "tradisjonell",
+    "de": "traditionell",
+    "pos": "adj",
+    "forms": [
+      "tradisjonell",
+      "tradisjonelt",
+      "tradisjonelle"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Fårikål er tradisjonell norsk mat.",
+      "de": "Fårikål ist traditionelles norwegisches Essen."
+    },
+    "note": "Neutrum mit einem l: tradisjonelt."
+  },
+  {
+    "id": "w03_tretti",
+    "no": "tretti",
+    "de": "dreißig",
+    "pos": "num",
+    "lesson": 3,
+    "ex": {
+      "no": "Brødet koster tretti kroner.",
+      "de": "Das Brot kostet dreißig Kronen."
+    }
+  },
+  {
+    "id": "w03_forti",
+    "no": "førti",
+    "de": "vierzig",
+    "pos": "num",
+    "lesson": 3,
+    "ex": {
+      "no": "En pakke smør koster førti kroner.",
+      "de": "Ein Päckchen Butter kostet vierzig Kronen."
+    }
+  },
+  {
+    "id": "w03_femti",
+    "no": "femti",
+    "de": "fünfzig",
+    "pos": "num",
+    "lesson": 3,
+    "ex": {
+      "no": "Kari er femtito år.",
+      "de": "Kari ist zweiundfünfzig Jahre alt."
+    }
+  },
+  {
+    "id": "w03_seksti",
+    "no": "seksti",
+    "de": "sechzig",
+    "pos": "num",
+    "lesson": 3,
+    "ex": {
+      "no": "Torsken koster sekstini kroner.",
+      "de": "Der Dorsch kostet neunundsechzig Kronen."
+    }
+  },
+  {
+    "id": "w03_sytti",
+    "no": "sytti",
+    "de": "siebzig",
+    "pos": "num",
+    "lesson": 3,
+    "ex": {
+      "no": "Det koster sytti kroner.",
+      "de": "Das kostet siebzig Kronen."
+    }
+  },
+  {
+    "id": "w03_aatti",
+    "no": "åtti",
+    "de": "achtzig",
+    "pos": "num",
+    "lesson": 3,
+    "ex": {
+      "no": "Bestemor Ingrid er åtti år.",
+      "de": "Oma Ingrid ist achtzig Jahre alt."
+    }
+  },
+  {
+    "id": "w03_nitti",
+    "no": "nitti",
+    "de": "neunzig",
+    "pos": "num",
+    "lesson": 3,
+    "ex": {
+      "no": "Laksen koster nittini kroner.",
+      "de": "Der Lachs kostet neunundneunzig Kronen."
+    }
+  },
+  {
+    "id": "w03_hundre",
+    "no": "hundre",
+    "de": "hundert",
+    "pos": "num",
+    "lesson": 3,
+    "ex": {
+      "no": "Vi trenger hundre gram smør.",
+      "de": "Wir brauchen hundert Gramm Butter."
+    }
+  },
+  {
+    "id": "w03_snart",
+    "no": "snart",
+    "de": "bald",
+    "pos": "adv",
+    "lesson": 3,
+    "ex": {
+      "no": "Anna er snart ferdig.",
+      "de": "Anna ist bald fertig."
+    }
+  },
+  {
+    "id": "w03_sammen",
+    "no": "sammen",
+    "de": "zusammen",
+    "pos": "adv",
+    "lesson": 3,
+    "ex": {
+      "no": "Vi lager middag sammen.",
+      "de": "Wir kochen zusammen."
+    }
+  },
+  {
+    "id": "w03_kanskje",
+    "no": "kanskje",
+    "de": "vielleicht",
+    "pos": "adv",
+    "lesson": 3,
+    "ex": {
+      "no": "Fisk og poteter, kanskje?",
+      "de": "Fisch und Kartoffeln vielleicht?"
+    }
+  },
+  {
+    "id": "w03_etterpaa",
+    "no": "etterpå",
+    "de": "danach, hinterher",
+    "deAlt": [
+      "danach",
+      "hinterher",
+      "nachher"
+    ],
+    "pos": "adv",
+    "lesson": 3,
+    "ex": {
+      "no": "Etterpå spiser vi dessert.",
+      "de": "Danach essen wir Nachtisch."
+    }
+  },
+  {
+    "id": "w03_i_kveld",
+    "no": "i kveld",
+    "de": "heute Abend",
+    "pos": "adv",
+    "lesson": 3,
+    "ex": {
+      "no": "Har du tid i kveld?",
+      "de": "Hast du heute Abend Zeit?"
+    }
+  },
+  {
+    "id": "w03_tidlig",
+    "no": "tidlig",
+    "de": "früh",
+    "pos": "adv",
+    "lesson": 3,
+    "ex": {
+      "no": "Nordmenn spiser middag tidlig.",
+      "de": "Norweger essen früh zu Abend."
+    }
+  },
+  {
+    "id": "w03_der",
+    "no": "der",
+    "de": "da, dort",
+    "deAlt": [
+      "da",
+      "dort"
+    ],
+    "pos": "adv",
+    "lesson": 3,
+    "ex": {
+      "no": "Kniven er der, i skuffen.",
+      "de": "Das Messer ist da, in der Schublade."
+    }
+  },
+  {
+    "id": "w03_ha_lyst_til",
+    "no": "ha lyst til",
+    "de": "Lust haben zu",
+    "pos": "phrase",
+    "lesson": 3,
+    "ex": {
+      "no": "Har du lyst til å lage middag?",
+      "de": "Hast du Lust zu kochen?"
+    },
+    "note": "Danach å + Infinitiv: ha lyst til å …"
+  },
+  {
+    "id": "w03_paa_tilbud",
+    "no": "på tilbud",
+    "de": "im Angebot",
+    "pos": "phrase",
+    "lesson": 3,
+    "wk": true,
+    "ex": {
+      "no": "Er kaffen på tilbud?",
+      "de": "Ist der Kaffee im Angebot?"
+    }
+  },
+  {
+    "id": "w03_ha_en_fin_dag",
+    "no": "ha en fin dag",
+    "de": "einen schönen Tag noch",
+    "pos": "phrase",
+    "lesson": 3,
+    "wk": true,
+    "ex": {
+      "no": "Takk! Ha en fin dag!",
+      "de": "Danke! Einen schönen Tag noch!"
+    }
+  }
+]

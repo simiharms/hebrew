@@ -204,7 +204,7 @@
       "summary": "halv fire = halb vier (3.30) wie im Deutschen; dazu kvart over / kvart på und fem på / fem over halv.",
       "sections": [
         {
-          "h": "Fragen und antworten",
+          "h": "Fragen und Antworten",
           "body": "• **Hvor mye er klokka?** oder **Hva er klokka?** – Wie spät ist es?\n• **Klokka er tre.** – Es ist drei Uhr.\n• **Når kommer du? – Klokka fem.** – Um fünf.\n\nFür »um« brauchst du keine Präposition: **Middagen er klokka fem.** (nicht »om fem«). Statt **klokka** kannst du auch **klokken** sagen."
         },
         {
@@ -232,13 +232,13 @@
         }
       ],
       "drills": [
-        { "prompt": "Klokka er ___. (4.30)", "de": "Es ist halb fünf.", "answer": ["halv fem"], "explain": "halv fem = halb fünf – wie im Deutschen die halbe Stunde VOR fünf." },
+        { "prompt": "Klokka er ___. (4.30)", "de": "Es ist halb fünf.", "answer": ["halv fem", "fire tretti"], "explain": "halv fem = halb fünf – wie im Deutschen die halbe Stunde VOR fünf." },
         { "prompt": "Arne kom klokka ___. (17.15)", "de": "Arne kam um Viertel nach fünf.", "answer": ["kvart over fem", "sytten femten"], "explain": "kvart over = Viertel nach. Im Alltag: kvart over fem." },
         { "prompt": "Kari sa «Vær så god» klokka ___. (17.25)", "de": "Kari sagte um 17.25 Uhr »Vær så god«.", "answer": ["fem på halv seks", "sytten tjuefem"], "explain": "fem på halv seks = fünf vor halb sechs." },
         { "prompt": "Desserten kom klokka ___. (18.30)", "de": "Der Nachtisch kam um halb sieben.", "answer": ["halv sju", "halv syv", "atten tretti"], "explain": "halv sju = halb sieben (sju oder syv)." },
         { "prompt": "Arne gikk klokka ___. (21.45)", "de": "Arne ging um Viertel vor zehn.", "answer": ["kvart på ti", "tjueen førtifem"], "explain": "kvart på = Viertel vor." },
         { "prompt": "Toget går klokka ___. (8.35)", "de": "Der Zug fährt um 8.35 Uhr.", "answer": ["fem over halv ni", "åtte trettifem"], "explain": "fem over halv ni = fünf nach halb neun." },
-        { "prompt": "Hvor mye er klokka? – Den er ___. (2.50)", "de": "Wie spät ist es? – Es ist zehn vor drei.", "answer": ["ti på tre"], "explain": "ti på tre = zehn vor drei." },
+        { "prompt": "Hvor mye er klokka? – Den er ___. (2.50)", "de": "Wie spät ist es? – Es ist zehn vor drei.", "answer": ["ti på tre", "to femti"], "explain": "ti på tre = zehn vor drei." },
         { "prompt": "Ola må være hjemme klokka ___. (22.20)", "de": "Ola muss um 22.20 Uhr zu Hause sein.", "answer": ["ti på halv elleve", "tjue over ti", "tjueto tjue"], "explain": "ti på halv elleve = zehn vor halb elf; man hört auch tjue over ti." },
         { "prompt": "Flyet til Ålesund går klokka ___. (20.40, offiziell)", "de": "Das Flugzeug nach Ålesund geht um 20.40 Uhr.", "answer": ["tjue førti"], "explain": "Offizielle Zeit: Stunden und Minuten einfach als Zahlen." },
         { "prompt": "___ er klokka? – Klokka er sju.", "de": "Wie spät ist es? – Es ist sieben.", "answer": ["Hvor mye", "Hva"], "explain": "Hvor mye er klokka? oder Hva er klokka? – beides ist richtig." }
@@ -285,7 +285,7 @@
     { "s": "Arne og Kari er bror og søster.", "de": "Arne und Kari sind Bruder und Schwester.", "a": true, "why": "»Kari og Arne er bror og søster.«" },
     { "s": "Arne kom presis klokka fem.", "de": "Arne kam pünktlich um fünf.", "a": false, "why": "Er kam um Viertel nach fünf." },
     { "s": "Susanne kommer alltid presis.", "de": "Susanne kommt immer pünktlich.", "a": false, "why": "Am Freitag kam sie eine halbe Stunde zu spät zum Kurs." },
-    { "s": "Det var laks til middag.", "de": "Es gab Lachs zum Essen.", "a": true, "why": "»Det var laks med poteter og brokkoli.«" },
+    { "s": "Det var laks til middag.", "de": "Es gab Lachs zum Essen.", "a": true, "why": "»Det var laks og poteter.«" },
     { "s": "Ola er glad for å få fisk.", "de": "Ola freut sich über den Fisch.", "a": false, "why": "Er seufzt: »Fisk igjen?«" },
     { "s": "Susanne har ikke fått penger fra oljen.", "de": "Susanne hat kein Geld aus dem Öl bekommen.", "a": true, "why": "»… jeg har ikke fått en eneste krone av oljepengene.«" },
     { "s": "Arne liker eplekaka.", "de": "Arne mag den Apfelkuchen.", "a": true, "why": "Er nimmt zwei Stücke und sagt: »Den er faktisk ikke så verst.«" }

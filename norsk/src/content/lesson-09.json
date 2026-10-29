@@ -364,7 +364,7 @@
   "translate": [
     { "de": "Das alte Haus liegt in Sandviken.", "no": ["Det gamle huset ligger i Sandviken."] },
     { "de": "Die kleine Firma hat zwölf Angestellte.", "no": ["Det lille firmaet har tolv ansatte."] },
-    { "de": "Das Gebäude da ist das Storting.", "no": ["Den bygningen der er Stortinget."] },
+    { "de": "Das Gebäude da ist das Storting.", "no": ["Den bygningen der er Stortinget.", "Den bygningen der borte er Stortinget."] },
     { "de": "Annas Fahrrad ist alt.", "no": ["Annas sykkel er gammel."], "hint": "Genitiv + unbestimmte Form; Prädikativ unbestimmt." },
     { "de": "Oslo ist Norwegens Hauptstadt.", "no": ["Oslo er Norges hovedstad."] },
     { "de": "Woran denkst du?", "no": ["Hva tenker du på?"] },

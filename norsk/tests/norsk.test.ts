@@ -24,6 +24,8 @@ describe('expandVariants and splitAlt', () => {
   it('splits whole-form alternatives', () => {
     expect(splitAlt('gledet seg/gleda seg')).toEqual(['gledet seg', 'gleda seg']);
     expect(splitAlt('husa/husene')).toEqual(['husa', 'husene']);
+    expect(splitAlt('kastet/kasta opp')).toEqual(['kastet opp', 'kasta opp']);
+    expect(expandVariants('kastet opp/kasta opp')).toEqual(['kastet opp', 'kasta opp']);
   });
 });
 

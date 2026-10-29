@@ -76,6 +76,10 @@ export function expandVariants(answer: string): string[] {
     });
   }
   variants = variants.flatMap((v) => {
+    // "kastet opp/kasta opp": whole alternatives with the same number of words.
+    const whole = wholeAlternatives(v);
+    if (whole) return whole;
+    // "en/ei bok", "kastet/kasta opp": alternatives for one word.
     let acc: string[] = [''];
     for (const tok of v.split(' ')) {
       const options = tok.includes('/') && !/^\/|\/$/.test(tok) ? tok.split('/') : [tok];
@@ -87,12 +91,17 @@ export function expandVariants(answer: string): string[] {
   return [...new Set(variants.filter(Boolean))];
 }
 
-/** Alternatives of a whole form: "kastet/kasta", "gledet seg/gleda seg". */
+/** Splits "gledet seg/gleda seg" into whole forms when every part has the same (> 1) number of words. */
+function wholeAlternatives(v: string): string[] | null {
+  if (!v.includes('/')) return null;
+  const parts = v.split('/').map((x) => x.trim());
+  const counts = parts.map((p) => p.split(/\s+/).length);
+  return counts[0] > 1 && counts.every((c) => c === counts[0]) ? parts : null;
+}
+
+/** Alternatives of a form, in either notation: "kastet/kasta", "gledet seg/gleda seg", "kastet/kasta opp". */
 export function splitAlt(form: string): string[] {
-  return form
-    .split('/')
-    .map((x) => x.trim())
-    .filter(Boolean);
+  return expandVariants(form);
 }
 
 export type Verdict = 'correct' | 'close' | 'wrong' | 'empty';

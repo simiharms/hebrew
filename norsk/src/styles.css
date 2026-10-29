@@ -1070,3 +1070,10 @@ details.card summary {
   display: block;
   box-shadow: 0 4px 16px rgba(10, 30, 60, 0.25);
 }
+/* A main button that stays reachable under a long list. */
+.sticky-cta {
+  position: sticky;
+  bottom: 0;
+  padding: 12px 0 calc(12px + env(safe-area-inset-bottom, 0px));
+  background: linear-gradient(to bottom, transparent, var(--bg) 30%);
+}

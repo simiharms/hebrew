@@ -66,9 +66,11 @@ export function Onboarding() {
               </span>
             </label>
           )}
-          <button class="btn primary block mt" onClick={() => setStep(2)}>
-            Weiter
-          </button>
+          <div class="sticky-cta">
+            <button class="btn primary block" onClick={() => setStep(2)}>
+              Weiter mit Lektion {lesson}
+            </button>
+          </div>
         </>
       )}
       {step === 2 && (

@@ -32,7 +32,7 @@ export function Onboarding() {
           <p class="lead">Willkommen bei Nordlys – deiner Norwegisch-App zum Lehrbuch »Et år i Norge«.</p>
           {DEDICATION && <div class="card accent dedication">{DEDICATION}</div>}
           <div class="card left">
-            <p>Die App geht mit dir durch alle 23 Lektionen des Buches – mit denselben Themen, Orten und derselben Grammatik in derselben Reihenfolge:</p>
+            <p>Die App geht mit dir durch die 23 Lektionen des Buches – mit seinen Themen, Orten und seiner Grammatik, in seiner Reihenfolge:</p>
             <ul>
               <li>📖 ein Text zu jeder Lektion zum Lesen und Anhören – tippe auf ein Wort, und du siehst, was es heißt</li>
               <li>🗂️ der Wortschatz als Lernkarten, die zur richtigen Zeit wiederkommen</li>

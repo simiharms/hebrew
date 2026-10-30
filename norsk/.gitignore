@@ -6,3 +6,6 @@ dist-single
 dist-offline
 release
 __pycache__/
+
+# scratch scripts
+scripts/_*

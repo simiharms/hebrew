@@ -2,7 +2,7 @@ import { useEffect, useState } from 'preact/hooks';
 import { ConfirmButton, Item, Seg, TopBar, toast } from '../components/ui.tsx';
 import { go } from '../lib/router.ts';
 import { PLAN } from '../lib/plan.ts';
-import { exportState, importState, resetState, setState, useAppState } from '../lib/store.ts';
+import { type AppState, exportState, parseBackup, resetState, setState, useAppState } from '../lib/store.ts';
 import { norwegianVoices, speak, ttsSupported } from '../lib/tts.ts';
 
 export function SettingsPage() {
@@ -23,8 +23,9 @@ export function SettingsPage() {
       try {
         await nav.share({ files: [file], title: 'Nordlys-Sicherung' });
         return;
-      } catch {
-        // cancelled: fall back to a download
+      } catch (err) {
+        // Cancelled by the user: nothing more to do. Any other error: offer a download instead.
+        if ((err as Error)?.name === 'AbortError') return;
       }
     }
     const a = document.createElement('a');
@@ -34,15 +35,22 @@ export function SettingsPage() {
     setTimeout(() => URL.revokeObjectURL(a.href), 5000);
   };
 
+  // A chosen backup is shown with its date first; it replaces the progress only when confirmed.
+  const [pending, setPending] = useState<{ state: AppState; exportedAt?: string } | null>(null);
   const doImport = (e: Event) => {
-    const f = (e.target as HTMLInputElement).files?.[0];
+    const input = e.target as HTMLInputElement;
+    const f = input.files?.[0];
+    input.value = '';
     if (!f) return;
     f.text()
-      .then((t) => {
-        importState(t);
-        toast('Sicherung geladen');
-      })
+      .then((t) => setPending(parseBackup(t)))
       .catch((err: Error) => toast(err.message || 'Die Datei konnte nicht gelesen werden.'));
+  };
+  const confirmImport = () => {
+    if (!pending) return;
+    setState((st) => Object.assign(st, pending.state));
+    setPending(null);
+    toast('Sicherung geladen');
   };
 
   return (
@@ -219,6 +227,22 @@ export function SettingsPage() {
               <input type="file" accept="application/json,.json" style={{ display: 'none' }} onChange={doImport} />
             </label>
           </div>
+          {pending && (
+            <div class="card tight accent mt">
+              <p class="small">
+                Sicherung {pending.exportedAt ? `vom ${new Date(pending.exportedAt).toLocaleDateString('de-DE')}` : ''} laden? Dein jetziger Fortschritt wird dadurch
+                ersetzt.
+              </p>
+              <div class="btn-row">
+                <button class="btn primary" onClick={confirmImport}>
+                  Laden
+                </button>
+                <button class="btn" onClick={() => setPending(null)}>
+                  Abbrechen
+                </button>
+              </div>
+            </div>
+          )}
           <div class="mt">
             <ConfirmButton label="Alles zurücksetzen" confirmLabel="Wirklich allen Fortschritt löschen?" onConfirm={() => (resetState(), go('willkommen'))} />
           </div>

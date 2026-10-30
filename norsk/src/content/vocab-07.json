@@ -1522,5 +1522,44 @@
       "de": "Wir haben gestern einen norwegischen Film gesehen."
     },
     "lesson": 7
+  },
+  {
+    "id": "w07_reise",
+    "no": "reise",
+    "de": "reisen",
+    "deAlt": [
+      "fahren"
+    ],
+    "pos": "verb",
+    "vf": [
+      "reiser",
+      "reiste",
+      "reist",
+      "reis"
+    ],
+    "vg": "2",
+    "lesson": 7,
+    "ex": {
+      "no": "I 1864 reiste Ibsen til Italia.",
+      "de": "1864 reiste Ibsen nach Italien."
+    },
+    "note": "Nicht verwechseln: reise seg = aufstehen; ei reise = die Reise. Perfekt mit har oder er: Han har reist / Han er reist."
+  },
+  {
+    "id": "w07_regn",
+    "no": "regn",
+    "de": "der Regen",
+    "pos": "noun",
+    "gender": "n",
+    "forms": [
+      "regn",
+      "regnet"
+    ],
+    "lesson": 7,
+    "ex": {
+      "no": "Jeg er lei av regnet.",
+      "de": "Ich habe den Regen satt."
+    },
+    "note": "Nicht verwechseln: det regnet = es regnete / es hat geregnet (Verb regne)."
   }
 ]

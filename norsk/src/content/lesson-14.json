@@ -71,7 +71,8 @@
       { "no": "flest svar", "de": "die meisten Antworten" },
       { "no": "enn noen gang", "de": "als je zuvor" },
       { "no": "gnagsår", "de": "Blasen (vom Scheuern)" },
-      { "no": "Blir du med?", "de": "Kommst du mit?" }
+      { "no": "Blir du med?", "de": "Kommst du mit?" },
+      { "no": "møtte", "de": "trafen (møte = treffen)" }
     ]
   },
   "extra": [
@@ -123,7 +124,8 @@
         { "no": "tenne bål", "de": "ein Lagerfeuer machen" },
         { "no": "Ta hensyn til", "de": "Nimm Rücksicht auf" },
         { "no": "søppelet ditt", "de": "deinen Müll" },
-        { "no": "friluftsloven", "de": "das Gesetz über das Leben in der freien Natur" }
+        { "no": "friluftsloven", "de": "das Gesetz über das Leben in der freien Natur" },
+        { "no": "vidderne", "de": "die Hochebenen (alte Schreibweise von viddene)" }
       ]
     }
   ],

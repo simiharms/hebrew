@@ -4,7 +4,7 @@ import { AnswerInput } from '../components/answer.tsx';
 import { Seg, SpeakBtn, TopBar, useEnterKey } from '../components/ui.tsx';
 import { normalize } from '../lib/norsk.ts';
 import { clockWords, dateWords, MONTHS, numberVariants, numberWords, ordinalWords, pad2, sameNumberWords, yearWords } from '../lib/numbers.ts';
-import { addMistake } from '../lib/store.ts';
+import { addMistake, clearMistake } from '../lib/store.ts';
 import { speak } from '../lib/tts.ts';
 
 type Mode = 'hear' | 'write' | 'clock' | 'date';
@@ -58,7 +58,10 @@ export function NumbersPage() {
     setResult(ok);
     setScore((x) => ({ right: x.right + (ok ? 1 : 0), total: x.total + 1 }));
     if (!ok) addMistake({ kind: 'number', ref: `${mode}:${task.say}`, prompt: task.show || task.say, answer: task.digits ? task.answers[0] : task.answers[0], given: value });
-    else if (!task.digits) speak(task.say);
+    else {
+      clearMistake('number', `${mode}:${task.say}`);
+      if (!task.digits) speak(task.say);
+    }
   };
   const next = () => {
     setRound(round + 1);

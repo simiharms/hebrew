@@ -147,7 +147,9 @@
         { "no": "både", "de": "sowohl (både … og = sowohl … als auch)" },
         { "no": "handel", "de": "Handel, Einkaufen" },
         { "no": "gjenbruk", "de": "Wiederverwendung" },
-        { "no": "på samme tid", "de": "zugleich, gleichzeitig" }
+        { "no": "på samme tid", "de": "zugleich, gleichzeitig" },
+        { "no": "pølser", "de": "Würstchen (en pølse = ein Würstchen)" },
+        { "no": "mot", "de": "gegen; nach, in Richtung (mot slutten = gegen Ende)" }
       ]
     }
   ],

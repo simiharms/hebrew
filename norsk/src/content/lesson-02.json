@@ -449,6 +449,14 @@
         {
           "no": "bare normalt",
           "de": "einfach normal"
+        },
+        {
+          "no": "fremmede",
+          "de": "Fremde, fremde Menschen"
+        },
+        {
+          "no": "etter",
+          "de": "nach (Etter kurset = nach dem Kurs; dagen etter = am Tag danach)"
         }
       ]
     }

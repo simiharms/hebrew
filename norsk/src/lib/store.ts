@@ -81,9 +81,17 @@ export function defaultState(): AppState {
 }
 
 /** Fills in fields that older saved states don't have yet. */
+/** Fills in fields that older saved states don't have, and replaces any of the wrong type. */
 function withDefaults(saved: AppState): AppState {
-  const base = defaultState();
-  return { ...base, ...saved, settings: { ...base.settings, ...saved.settings } };
+  const base = defaultState() as unknown as Record<string, unknown>;
+  const raw = saved as unknown as Record<string, unknown>;
+  const kind = (v: unknown) => (Array.isArray(v) ? 'array' : v === null ? 'null' : typeof v);
+  const out: Record<string, unknown> = { ...raw };
+  for (const [k, v] of Object.entries(base)) if (kind(raw[k]) !== kind(v)) out[k] = v;
+  const settings = { ...(base.settings as Settings) } as unknown as Record<string, unknown>;
+  for (const [k, v] of Object.entries((raw.settings as Record<string, unknown>) ?? {})) if (k in settings ? kind(v) === kind(settings[k]) : true) settings[k] = v;
+  out.settings = settings;
+  return out as unknown as AppState;
 }
 
 export function isAppState(x: unknown): x is AppState {
@@ -195,11 +203,22 @@ export function exportState(): string {
   return JSON.stringify({ app: 'nordlys', exportedAt: new Date().toISOString(), state }, null, 1);
 }
 
-export function importState(json: string): void {
-  const parsed = JSON.parse(json);
+/** Reads a backup file; throws a German message if it isn't one. */
+export function parseBackup(json: string): { state: AppState; exportedAt?: string } {
+  let parsed: { state?: unknown; exportedAt?: string } | null;
+  try {
+    parsed = JSON.parse(json);
+  } catch {
+    throw new Error('Diese Datei ist keine Nordlys-Sicherung.');
+  }
   const incoming = parsed?.state ?? parsed;
   if (!isAppState(incoming)) throw new Error('Diese Datei ist keine Nordlys-Sicherung.');
-  setState((s) => Object.assign(s, withDefaults(incoming)));
+  return { state: withDefaults(incoming), exportedAt: parsed?.exportedAt };
+}
+
+export function importState(json: string): void {
+  const { state: incoming } = parseBackup(json);
+  setState((s) => Object.assign(s, incoming));
 }
 
 export function resetState(): void {

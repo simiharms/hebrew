@@ -1487,5 +1487,23 @@
       "de": "Im Fernsehen sprechen die Leute Dialekt."
     },
     "note": "på tv = im Fernsehen; man schreibt tv oder TV."
+  },
+  {
+    "id": "w16_forklare",
+    "no": "forklare",
+    "de": "erklären",
+    "pos": "verb",
+    "vf": [
+      "forklarer",
+      "forklarte",
+      "forklart",
+      "forklar"
+    ],
+    "vg": "2",
+    "lesson": 16,
+    "ex": {
+      "no": "Damen forklarte at alle måtte registrere seg.",
+      "de": "Die Frau erklärte, dass sich alle registrieren mussten."
+    }
   }
 ]

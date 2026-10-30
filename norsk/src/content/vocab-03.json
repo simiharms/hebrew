@@ -1810,5 +1810,34 @@
       "no": "Takk! Ha en fin dag!",
       "de": "Danke! Einen schönen Tag noch!"
     }
+  },
+  {
+    "id": "w03_uten",
+    "no": "uten",
+    "de": "ohne",
+    "pos": "prep",
+    "lesson": 3,
+    "ex": {
+      "no": "Jeg drikker kaffe uten melk.",
+      "de": "Ich trinke Kaffee ohne Milch."
+    },
+    "note": "uten å + Infinitiv = ohne zu …: uten å si et ord = ohne ein Wort zu sagen."
+  },
+  {
+    "id": "w03_lyst",
+    "no": "lyst",
+    "de": "die Lust",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "lyst",
+      "lysten"
+    ],
+    "lesson": 3,
+    "ex": {
+      "no": "Jeg har ikke lyst på fisk i dag.",
+      "de": "Ich habe heute keine Lust auf Fisch."
+    },
+    "note": "ha lyst til å … = Lust haben, etwas zu tun; ha lyst på … = Lust haben auf … Nicht verwechseln mit lyst = hell (Neutrum von lys)."
   }
 ]

@@ -403,6 +403,18 @@
         {
           "no": "lever av rein",
           "de": "lebt von Rentieren"
+        },
+        {
+          "no": "vegne",
+          "de": "på vegne av = im Namen von"
+        },
+        {
+          "no": "fest",
+          "de": "das Fest (til fest = zu festlichen Anlässen)"
+        },
+        {
+          "no": "lov",
+          "de": "die Erlaubnis (få lov til å = dürfen)"
         }
       ]
     }

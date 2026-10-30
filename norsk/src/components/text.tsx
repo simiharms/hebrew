@@ -8,10 +8,11 @@ import { useAppState } from '../lib/store.ts';
 import { speak } from '../lib/tts.ts';
 import { toast } from './ui.tsx';
 
-let openGloss: ((w: { word: string; start: boolean } | null) => void) | null = null;
+type Tap = { word: string; start: boolean; context: string };
+let openGloss: ((w: Tap | null) => void) | null = null;
 
-export function showGloss(word: string, start = false) {
-  openGloss?.({ word, start });
+export function showGloss(word: string, start = false, context = '') {
+  openGloss?.({ word, start, context });
 }
 
 /** Whether each word opens a sentence (then its capital letter means nothing). */
@@ -36,7 +37,7 @@ export function NoText({ text, size = 'md', tap = true, cls = '' }: { text: stri
     <div class={`no no-${size} ${cls}`} lang="nb">
       {parts.map((p, i) =>
         p.isWord ? (
-          <span class="w" onClick={(e) => (e.stopPropagation(), showGloss(p.w, starts[i]))}>
+          <span class="w" onClick={(e) => (e.stopPropagation(), showGloss(p.w, starts[i], text))}>
             {p.w}
           </span>
         ) : (
@@ -48,7 +49,7 @@ export function NoText({ text, size = 'md', tap = true, cls = '' }: { text: stri
 }
 
 export function GlossSheet() {
-  const [tapped, setWord] = useState<{ word: string; start: boolean } | null>(null);
+  const [tapped, setWord] = useState<Tap | null>(null);
   const word = tapped?.word ?? null;
   useAppState();
   useEffect(() => {
@@ -61,7 +62,7 @@ export function GlossSheet() {
     if (word) speak(word);
   }, [word]);
   if (!word) return null;
-  const res = lookup(word, tapped?.start);
+  const res = lookup(word, tapped?.start, tapped?.context);
   const close = () => setWord(null);
   const enc = encodeURIComponent(word.toLowerCase());
 
@@ -76,8 +77,7 @@ export function GlossSheet() {
       <div class="sheet" role="dialog" aria-label={`Bedeutung von ${word}`}>
         <div class="grabber" />
         <div class="row">
-          <div class="no no-xl">{word}</div>
-          <div class="spacer" />
+          <div class="no no-xl grow">{word}</div>
           <button class="btn small" onClick={() => speak(word)} aria-label="Anhören">
             🔊
           </button>

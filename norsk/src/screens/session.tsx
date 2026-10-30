@@ -182,7 +182,7 @@ function CardView({ card, item, onNext }: { card: CardRef; item: QItem; onNext: 
     const w = card.word;
     let r: CheckResult;
     if (dir === 'de2no') {
-      r = checkAnswer(value, acceptedNo(w, s.extraAnswers[card.id] ?? []));
+      r = checkAnswer(value, acceptedNo(w, s.extraAnswers[`${card.id}|${dir}`] ?? []));
       // A wrong article with the right word: almost right.
       if (r.verdict === 'wrong' && w.pos === 'noun') {
         const [art, ...rest] = normalize(value).split(' ');
@@ -190,9 +190,10 @@ function CardView({ card, item, onNext }: { card: CardRef; item: QItem; onNext: 
           r = { verdict: 'close', expected: display(w), note: `Das Wort stimmt – aber es heißt »${ARTICLE[w.gender ?? 'm']} ${w.no}«.` };
         }
       }
-    } else r = checkGerman(value, [w.de, ...(w.deAlt ?? []), ...(s.extraAnswers[card.id] ?? [])]);
+    } else r = checkGerman(value, [w.de, ...(w.deAlt ?? []), ...(s.extraAnswers[`${card.id}|${dir}`] ?? [])]);
     setResult(r);
-    const g: Rating = r.verdict === 'correct' ? 3 : r.verdict === 'close' ? 2 : 1;
+    // Right but for æ ø å counts as right; a real typo or a wrong article as »Schwer«.
+    const g: Rating = r.verdict === 'correct' || r.keyboard ? 3 : r.verdict === 'close' ? 2 : 1;
     setRating(g);
     setPhase('answer');
     if (g === 1) addMistake({ kind: 'word', ref: card.id, prompt: dir === 'de2no' ? w.de : display(w), answer: dir === 'de2no' ? display(w) : w.de, given: value });
@@ -201,7 +202,8 @@ function CardView({ card, item, onNext }: { card: CardRef; item: QItem; onNext: 
 
   const override = () => {
     setState((st) => {
-      st.extraAnswers[card.id] = [...(st.extraAnswers[card.id] ?? []), value.trim()];
+      const key = `${card.id}|${dir}`;
+      st.extraAnswers[key] = [...(st.extraAnswers[key] ?? []), value.trim()];
     });
     clearMistake('word', card.id);
     setRating(3);

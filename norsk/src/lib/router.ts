@@ -18,6 +18,8 @@ export function useRoute(): string[] {
       window.scrollTo(0, 0);
     };
     window.addEventListener('hashchange', f);
+    // A change that happened before this listener existed (right after loading).
+    if (parse().join('/') !== route.join('/')) setRoute(parse());
     return () => window.removeEventListener('hashchange', f);
   }, []);
   return route;

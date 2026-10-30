@@ -26,16 +26,32 @@ function drillOf(ref: string): Drill | undefined {
   return L.grammar.find((g) => g.id === m[2])?.drills[Number(m[3])];
 }
 
+/** One grammar mistake to try again; stays on screen after answering, with »Nochmal«. */
+function RetryDrill({ m }: { m: Mistake }) {
+  const [round, setRound] = useState(0);
+  const [answered, setAnswered] = useState(false);
+  return (
+    <div>
+      <DrillCard key={round} drill={drillOf(m.ref)!} refId={m.ref} onDone={() => setAnswered(true)} />
+      {answered && (
+        <button class="btn small ghost" onClick={() => (setRound(round + 1), setAnswered(false))}>
+          Nochmal
+        </button>
+      )}
+    </div>
+  );
+}
+
 export function MistakesPage() {
   const s = useAppState();
-  const [retry, setRetry] = useState<string | null>(null);
   const list = [...s.mistakes].reverse();
-  const drills = list.filter((m) => m.kind === 'drill' && drillOf(m.ref));
+  // The drills to retry are fixed when the page opens, so a solved one stays visible.
+  const [drills] = useState(() => list.filter((m) => m.kind === 'drill' && drillOf(m.ref)).slice(0, 15));
   return (
     <>
       <TopBar title="Fehler wiederholen" backTo="ueben" />
       <main class="page">
-        {list.length === 0 ? (
+        {list.length === 0 && drills.length === 0 ? (
           <div class="card center">
             <div class="hero">🌿</div>
             <p>Keine offenen Fehler. Was du falsch beantwortest, landet hier – und verschwindet, sobald du es richtig machst.</p>
@@ -49,8 +65,8 @@ export function MistakesPage() {
             {drills.length > 0 && (
               <>
                 <div class="section-title">Grammatik nochmal · {drills.length}</div>
-                {drills.slice(0, 15).map((m) => (
-                  <DrillCard key={m.ref + (retry ?? '')} drill={drillOf(m.ref)!} refId={m.ref} onDone={() => setRetry(null)} />
+                {drills.map((m) => (
+                  <RetryDrill key={m.ref} m={m} />
                 ))}
               </>
             )}

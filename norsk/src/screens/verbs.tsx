@@ -82,7 +82,7 @@ export function VerbPage({ id }: { id: string }) {
   ];
   return (
     <>
-      <TopBar title={`å ${v.no}`} backTo="verben" />
+      <TopBar title={`å ${v.no}`} backTo={true} />
       <main class="page">
         <div class="card">
           <div class="row wrap">

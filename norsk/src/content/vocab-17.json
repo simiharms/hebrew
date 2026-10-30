@@ -1311,5 +1311,62 @@
     },
     "note": "Unveränderlich: Hun er alene. De bor alene.",
     "lesson": 17
+  },
+  {
+    "id": "w17_bestefar",
+    "no": "bestefar",
+    "de": "der Großvater",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "bestefar",
+      "bestefaren",
+      "bestefedre",
+      "bestefedrene"
+    ],
+    "lesson": 17,
+    "ex": {
+      "no": "Bestefaren til Erik var fisker i over femti år.",
+      "de": "Eriks Großvater war über fünfzig Jahre lang Fischer."
+    },
+    "note": "Wie far: en far – faren – fedre – fedrene. Auch: farfar (Vater des Vaters), morfar (Vater der Mutter)."
+  },
+  {
+    "id": "w17_henge",
+    "no": "henge",
+    "de": "hängen",
+    "pos": "verb",
+    "vf": [
+      "henger",
+      "hang",
+      "hengt",
+      "heng"
+    ],
+    "vg": "sterk",
+    "lesson": 17,
+    "ex": {
+      "no": "Om våren henger det torsk på hjellene.",
+      "de": "Im Frühling hängt Dorsch an den Trockengestellen."
+    },
+    "note": "Etwas aufhängen: henge – hengte – hengt (Hun hengte opp bildet)."
+  },
+  {
+    "id": "w17_holde",
+    "no": "holde",
+    "de": "halten",
+    "pos": "verb",
+    "vf": [
+      "holder",
+      "holdt",
+      "holdt",
+      "hold"
+    ],
+    "vg": "uregelm",
+    "lesson": 17,
+    "ex": {
+      "no": "Kan du holde sekken min et øyeblikk?",
+      "de": "Kannst du kurz meinen Rucksack halten?"
+    },
+    "note": "holde en tale = eine Rede halten; holde senga = das Bett hüten; holde på med = gerade dabei sein."
   }
 ]

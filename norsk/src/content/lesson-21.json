@@ -239,6 +239,18 @@
       {
         "no": "inntil",
         "de": "dicht an, bis an"
+      },
+      {
+        "no": "syngende",
+        "de": "singend"
+      },
+      {
+        "no": "ryggen",
+        "de": "der Rücken (på ryggen = auf dem Rücken)"
+      },
+      {
+        "no": "vokste",
+        "de": "wuchs (vokse = wachsen)"
       }
     ]
   },
@@ -411,6 +423,10 @@
         {
           "no": "øst",
           "de": "Osten, östlich"
+        },
+        {
+          "no": "Monumentet",
+          "de": "das Denkmal"
         }
       ]
     }

@@ -239,6 +239,30 @@
       {
         "no": "tolvtiden",
         "de": "die Mittagszeit (ved tolvtiden = gegen zwölf Uhr)"
+      },
+      {
+        "no": "helst",
+        "de": "am liebsten (noe som helst = überhaupt etwas)"
+      },
+      {
+        "no": "langfredag",
+        "de": "der Karfreitag"
+      },
+      {
+        "no": "gårde",
+        "de": "av gårde = los, fort"
+      },
+      {
+        "no": "tide",
+        "de": "i tide = rechtzeitig"
+      },
+      {
+        "no": "hoppet",
+        "de": "sprang, hüpfte (hoppe = springen)"
+      },
+      {
+        "no": "Lunsj-papiret",
+        "de": "das Papier (die Verpackung) eines Kvikk Lunsj"
       }
     ]
   },
@@ -411,6 +435,14 @@
         {
           "no": "på sitt beste",
           "de": "vom Feinsten"
+        },
+        {
+          "no": "Fosse",
+          "de": "Jon Fosse (norwegischer Schriftsteller, Nobelpreis 2023)"
+        },
+        {
+          "no": "TV-kanalene",
+          "de": "die Fernsehsender"
         }
       ]
     }

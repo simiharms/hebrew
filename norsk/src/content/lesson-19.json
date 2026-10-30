@@ -102,7 +102,9 @@
       { "no": "sitte på", "de": "(im Auto) mitfahren" },
       { "no": "Hils Inga!", "de": "Grüß Inga!" },
       { "no": "Vi snakkes!", "de": "Wir hören uns! Bis bald!" },
-      { "no": "hadde det travelt", "de": "viel zu tun hatte" }
+      { "no": "hadde det travelt", "de": "viel zu tun hatte" },
+      { "no": "Kult", "de": "cool!, toll! (Jugendsprache)" },
+      { "no": "slett", "de": "rett og slett = schlicht und einfach" }
     ]
   },
   "extra": [
@@ -160,7 +162,8 @@
         { "no": "juli", "de": "Juli" },
         { "no": "fots", "de": "(nur in: til fots = zu Fuß)" },
         { "no": "teknisk-naturvitenskapelige", "de": "technisch-naturwissenschaftliche" },
-        { "no": "bybro", "de": "Stadtbrücke" }
+        { "no": "bybro", "de": "Stadtbrücke" },
+        { "no": "Fremdeles", "de": "immer noch, nach wie vor" }
       ]
     }
   ],

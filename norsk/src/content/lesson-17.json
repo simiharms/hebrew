@@ -247,6 +247,10 @@
       {
         "no": "april",
         "de": "April"
+      },
+      {
+        "no": "Masse",
+        "de": "jede Menge, viel (umgangssprachlich: masse jobb = viel Arbeit)"
       }
     ]
   },
@@ -427,6 +431,10 @@
         {
           "no": "nummer to",
           "de": "Nummer zwei, die zweitgrößte"
+        },
+        {
+          "no": "post",
+          "de": "die Post (Briefe und Pakete)"
         }
       ]
     }

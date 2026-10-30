@@ -286,6 +286,14 @@
       {
         "no": "Ikke noe problem!",
         "de": "Kein Problem!"
+      },
+      {
+        "no": "en",
+        "de": "ein, eine (unbestimmter Artikel)"
+      },
+      {
+        "no": "Oslo",
+        "de": "Oslo, die Hauptstadt Norwegens"
       }
     ]
   },

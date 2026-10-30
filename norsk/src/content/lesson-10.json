@@ -227,6 +227,18 @@
       {
         "no": "Hils",
         "de": "Grüß (hilse = grüßen)"
+      },
+      {
+        "no": "Fløyen",
+        "de": "der Fløyen (Hausberg von Bergen)"
+      },
+      {
+        "no": "Hilsen",
+        "de": "Gruß (am Briefende: Viele Grüße)"
+      },
+      {
+        "no": "PS",
+        "de": "PS (Nachsatz am Briefende)"
       }
     ]
   },
@@ -351,6 +363,26 @@
         {
           "no": "nynorsk",
           "de": "Nynorsk, die zweite norwegische Schriftsprache"
+        },
+        {
+          "no": "nest",
+          "de": "zweit- (den nest største = die zweitgrößte)"
+        },
+        {
+          "no": "1200-tallet",
+          "de": "das 13. Jahrhundert (die 1200er-Jahre)"
+        },
+        {
+          "no": "1300-tallet",
+          "de": "das 14. Jahrhundert (die 1300er-Jahre)"
+        },
+        {
+          "no": "Komponisten",
+          "de": "der Komponist"
+        },
+        {
+          "no": "Olav",
+          "de": "Olav (Name vieler norwegischer Könige: Olav Kyrre, Olav Tryggvason, Olav der Heilige, Olav V.)"
         }
       ]
     }

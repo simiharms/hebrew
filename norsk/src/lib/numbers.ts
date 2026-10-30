@@ -34,7 +34,8 @@ export function numberVariants(n: number, opts: { ett?: boolean } = {}): string[
   const out = new Set<string>();
   for (const b of base) {
     out.add(b);
-    out.add(b.replace(/\bhundre\b/, 'ett hundre').replace(/^tusen/, 'ett tusen'));
+    // »ett hundre« only where hundre stands alone (100, 1100 = tusen ett hundre), never »to ett hundre«
+    out.add(b.replace(/(^|tusen )hundre/, '$1ett hundre').replace(/^tusen/, 'ett tusen'));
     out.add(b.replace(/sju/g, 'syv'));
   }
   return [...out];

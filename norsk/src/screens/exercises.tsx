@@ -58,19 +58,24 @@ export function ExercisesPage({ n }: { n: number }) {
             ))}
           </div>
         )}
-        <div key={part}>
-          {part === 'tf' && <TrueFalseSet id={`L${n}:tf`} items={L.tf} />}
-          {part === 'q' && (
-            <>
-              <div class="section-title">Fragen zum Text · antworte auf Norwegisch</div>
-              {L.questions.map((q, i) => (
-                <OpenQuestion q={q} n={i + 1} onDone={(v) => onQuestion(i, v)} />
-              ))}
-            </>
-          )}
-          {part === 'find' && <FindSet id={`L${n}:find`} items={L.find} text={fullText} />}
-          {part === 'translate' && <TranslateSet id={`L${n}:translate`} items={L.translate} />}
-          {part === 'summary' && <DrillSet id={`L${n}:summary`} drills={L.summary} title="Ergänze die Zusammenfassung" />}
+        {/* All parts stay mounted, so switching tabs keeps what was answered. */}
+        <div hidden={part !== 'tf'}>
+          <TrueFalseSet id={`L${n}:tf`} items={L.tf} />
+        </div>
+        <div hidden={part !== 'q'}>
+          <div class="section-title">Fragen zum Text · antworte auf Norwegisch</div>
+          {L.questions.map((q, i) => (
+            <OpenQuestion q={q} n={i + 1} onDone={(v) => onQuestion(i, v)} />
+          ))}
+        </div>
+        <div hidden={part !== 'find'}>
+          <FindSet id={`L${n}:find`} items={L.find} text={fullText} />
+        </div>
+        <div hidden={part !== 'translate'}>
+          <TranslateSet id={`L${n}:translate`} items={L.translate} />
+        </div>
+        <div hidden={part !== 'summary'}>
+          <DrillSet id={`L${n}:summary`} drills={L.summary} title="Ergänze die Zusammenfassung" />
         </div>
         <div class="btn-row">
           {PARTS.findIndex((p) => p.v === part) < PARTS.length - 1 ? (

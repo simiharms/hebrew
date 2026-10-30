@@ -90,7 +90,9 @@
       { "no": "kongens slott", "de": "das Schloss des Königs" },
       { "no": "den mannen på hesten der", "de": "der Mann auf dem Pferd da" },
       { "no": "for dyr", "de": "zu teuer" },
-      { "no": "fattig praktikant", "de": "armer Praktikant" }
+      { "no": "fattig praktikant", "de": "armer Praktikant" },
+      { "no": "Harald", "de": "Harald V., König von Norwegen seit 1991 (kong Harald)" },
+      { "no": "de", "de": "die (vor Adjektiv: de gamle husene = die alten Häuser)" }
     ]
   },
   "extra": [

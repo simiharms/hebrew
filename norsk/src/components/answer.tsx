@@ -112,7 +112,7 @@ export function OpenQuestion({ q, n, onDone }: { q: Question; n: number; onDone:
   const kw = scoreKeywords(text, q.keywords);
   const suggestion = kw.score >= 0.66 ? 1 : kw.score >= 0.34 ? 0.5 : 0;
   const rate = (v: number) => {
-    if (self === null) onDone(v);
+    onDone(v); // a changed mind counts too
     setSelf(v);
   };
   return (
@@ -187,16 +187,21 @@ export function WritingBox({ task, id }: { task: WritingTask; id: string }) {
   const words = wordCount(text);
   const enough = words >= task.minWords;
 
+  const save = (t: string) => {
+    if (t !== (getState().writings[id]?.text ?? '')) {
+      setState((s) => {
+        s.writings[id] = { ...(s.writings[id] ?? {}), text: t, at: Date.now() };
+      });
+    }
+  };
+  const latest = useRef(text);
+  latest.current = text;
   useEffect(() => {
-    const t = setTimeout(() => {
-      if (text !== (getState().writings[id]?.text ?? '')) {
-        setState((s) => {
-          s.writings[id] = { ...(s.writings[id] ?? {}), text, at: Date.now() };
-        });
-      }
-    }, 600);
+    const t = setTimeout(() => save(text), 600);
     return () => clearTimeout(t);
   }, [text]);
+  // Leaving the page saves at once, including the last keystrokes.
+  useEffect(() => () => save(latest.current), []);
 
   const rate = (v: number) => {
     setSelf(v);

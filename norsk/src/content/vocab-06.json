@@ -1572,5 +1572,27 @@
       "no": "Familien eier en hytte.",
       "de": "Die Familie besitzt eine Hütte."
     }
+  },
+  {
+    "id": "w06_vaske",
+    "no": "vaske",
+    "de": "waschen",
+    "deAlt": [
+      "putzen"
+    ],
+    "pos": "verb",
+    "vf": [
+      "vasker",
+      "vasket",
+      "vasket",
+      "vask"
+    ],
+    "vg": "1",
+    "lesson": 6,
+    "ex": {
+      "no": "Ola vasket sykkelen sin i går.",
+      "de": "Ola hat gestern sein Fahrrad gewaschen."
+    },
+    "note": "Auch: putzen (vaske trappa = die Treppe putzen). vaske seg = sich waschen, vaske opp = abspülen."
   }
 ]

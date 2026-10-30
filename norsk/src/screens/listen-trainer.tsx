@@ -25,7 +25,8 @@ function sentences(upTo: number): Sentence[] {
         // Prose lines are paragraphs: take their sentences one by one.
         const parts = t.kind === 'dialog' ? [[l.no, l.de]] : splitPair(l.no, l.de);
         for (const [no, de] of parts) {
-          if (no.length >= 12 && no.length <= 110) out.push({ no, de, gender: l.s ? t.speakers?.[l.s]?.gender : undefined, lesson: L.n });
+          // whole sentences only: no fragments that start in lower case
+          if (no.length >= 12 && no.length <= 110 && /^["«„“]?[A-ZÆØÅ]/.test(no)) out.push({ no, de, gender: l.s ? t.speakers?.[l.s]?.gender : undefined, lesson: L.n });
         }
       }
     }
@@ -33,11 +34,28 @@ function sentences(upTo: number): Sentence[] {
   return out;
 }
 
+/**
+ * Splits a paragraph into sentences: at . ! ? (and a closing quote) followed by
+ * a capital letter or an opening quote – not after numbers like »17. mai«.
+ */
+function splitSentences(s: string): string[] {
+  const out: string[] = [];
+  let start = 0;
+  const re = /[.!?]+["»“”]?\s+(?=["«„“]?[A-ZÆØÅÄÖÜ])/g;
+  for (const m of s.matchAll(re)) {
+    const end = (m.index ?? 0) + m[0].length;
+    if (/\d\.$/.test(s.slice(start, (m.index ?? 0) + 1))) continue;
+    out.push(s.slice(start, end).trim());
+    start = end;
+  }
+  out.push(s.slice(start).trim());
+  return out.filter(Boolean);
+}
+
 /** Splits a paragraph and its translation into sentences when both have the same number of them. */
 function splitPair(no: string, de: string): string[][] {
-  const split = (s: string) => s.match(/[^.!?]+[.!?]+["»«]?\s*/g)?.map((x) => x.trim()) ?? [s];
-  const a = split(no);
-  const b = split(de);
+  const a = splitSentences(no);
+  const b = splitSentences(de);
   return a.length === b.length ? a.map((x, i) => [x, b[i]]) : [[no, de]];
 }
 
@@ -49,7 +67,13 @@ export function ListenTrainer() {
   const items = useMemo(() => shuffle(pool).slice(0, 8), [pool, round, mode]);
   const [i, setI] = useState(0);
   const [right, setRight] = useState(0);
+  const [scored, setScored] = useState<Set<number>>(new Set());
   const item = items[i];
+  const score = (ok: boolean) => {
+    if (scored.has(i)) return; // only the first try counts
+    setScored(new Set(scored).add(i));
+    if (ok) setRight((x) => x + 1);
+  };
 
   return (
     <>
@@ -61,7 +85,7 @@ export function ListenTrainer() {
             { v: 'mc', label: 'Verstehen' },
             { v: 'dict', label: 'Diktat' },
           ]}
-          onChange={(v) => (setMode(v), setI(0), setRight(0))}
+          onChange={(v) => (setMode(v), setI(0), setRight(0), setScored(new Set()))}
         />
         <p class="small muted">Sätze aus den Texten der Lektionen 1–{s.lesson}.</p>
         {!item ? (
@@ -71,7 +95,7 @@ export function ListenTrainer() {
                 <h2>
                   {right} von {items.length}
                 </h2>
-                <button class="btn primary" onClick={() => (setRound(round + 1), setI(0), setRight(0))}>
+                <button class="btn primary" onClick={() => (setRound(round + 1), setI(0), setRight(0), setScored(new Set()))}>
                   Neue Runde
                 </button>
               </>
@@ -81,13 +105,13 @@ export function ListenTrainer() {
           </div>
         ) : mode === 'dict' ? (
           <>
-            <Dictation key={`${round}-${i}`} text={item.no} gender={item.gender} onDone={(v) => v >= 0.9 && setRight((x) => x + 1)} />
+            <Dictation key={`${round}-${i}`} text={item.no} gender={item.gender} onDone={(v) => score(v >= 0.9)} />
             <button class="btn primary block" onClick={() => setI(i + 1)}>
               Nächster Satz
             </button>
           </>
         ) : (
-          <Choice key={`${round}-${i}`} item={item} pool={pool} onDone={(ok) => (ok && setRight((x) => x + 1), setI(i + 1))} />
+          <Choice key={`${round}-${i}`} item={item} pool={pool} onDone={(ok) => (score(ok), setI(i + 1))} />
         )}
       </main>
     </>

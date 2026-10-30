@@ -8,7 +8,7 @@ import { acceptedNo, display, lessonByN, wordsOfLesson } from '../lib/content.ts
 import { type CheckResult, checkAnswer, normalize } from '../lib/norsk.ts';
 import { PLAN } from '../lib/plan.ts';
 import { go } from '../lib/router.ts';
-import { addMistake, markDone, setState, useAppState } from '../lib/store.ts';
+import { addMistake, clearMistake, markDone, setState, useAppState } from '../lib/store.ts';
 import { speak } from '../lib/tts.ts';
 
 type CheckItem = { kind: 'drill'; drill: Drill; ref: string } | { kind: 'word'; word: Word } | { kind: 'translate'; t: Translate };
@@ -78,14 +78,17 @@ export function LessonCheck({ n }: { n: number }) {
     if (item.kind === 'drill') {
       const r = checkAnswer(value, item.drill.answer, { strict: true });
       const ok = r.verdict !== 'wrong';
-      if (ok) speak(fillGap(item.drill.prompt, r.expected));
-      else addMistake({ kind: 'drill', ref: item.ref, prompt: item.drill.prompt, answer: item.drill.answer[0], given: value });
+      if (ok) {
+        speak(fillGap(item.drill.prompt, r.expected));
+        clearMistake('drill', item.ref);
+      } else addMistake({ kind: 'drill', ref: item.ref, prompt: item.drill.prompt, answer: item.drill.answer[0], given: value });
       setResult({ ok, r, expected: r.expected });
       if (ok) setRight((x) => x + 1);
     } else if (item.kind === 'word') {
       const r = checkAnswer(value, acceptedNo(item.word));
       const ok = r.verdict !== 'wrong';
-      if (!ok) addMistake({ kind: 'word', ref: `w:${item.word.id}`, prompt: item.word.de, answer: display(item.word), given: value });
+      if (ok) clearMistake('word', `w:${item.word.id}`);
+      else addMistake({ kind: 'word', ref: `w:${item.word.id}`, prompt: item.word.de, answer: display(item.word), given: value });
       setResult({ ok, r: { ...r, expected: display(item.word) }, expected: display(item.word) });
       if (ok) setRight((x) => x + 1);
     } else {

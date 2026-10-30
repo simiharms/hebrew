@@ -27,15 +27,47 @@ self.addEventListener('fetch', (event) => {
   if (url.origin !== self.location.origin) return;
 
   if (req.mode === 'navigate') {
-    // Network first so updates arrive; fall back to the cached shell offline.
+    // Network first so updates arrive, but never wait long and never show an
+    // error page (404, captive Wi-Fi login) instead of the app. The cached shell
+    // is only ever written at install, together with its assets, so it can't
+    // end up pointing at scripts that aren't cached.
     event.respondWith(
-      fetch(req)
-        .then((res) => {
-          const copy = res.clone();
-          caches.open(CACHE).then((c) => c.put('./', copy));
-          return res;
-        })
-        .catch(() => caches.match('./', { ignoreSearch: true })),
+      new Promise((resolve) => {
+        let settled = false;
+        const fallback = () =>
+          caches.match('./', { ignoreSearch: true }).then((hit) => {
+            if (settled) return;
+            if (hit) {
+              settled = true;
+              resolve(hit);
+            }
+          });
+        const timer = setTimeout(fallback, 3500);
+        fetch(req)
+          .then((res) => {
+            if (settled) return;
+            if (res.ok && res.type === 'basic') {
+              settled = true;
+              clearTimeout(timer);
+              resolve(res);
+            } else {
+              clearTimeout(timer);
+              caches.match('./', { ignoreSearch: true }).then((hit) => {
+                if (settled) return;
+                settled = true;
+                resolve(hit || res);
+              });
+            }
+          })
+          .catch(() => {
+            clearTimeout(timer);
+            caches.match('./', { ignoreSearch: true }).then((hit) => {
+              if (settled) return;
+              settled = true;
+              resolve(hit || Response.error());
+            });
+          });
+      }),
     );
     return;
   }
@@ -45,7 +77,7 @@ self.addEventListener('fetch', (event) => {
       (hit) =>
         hit ||
         fetch(req).then((res) => {
-          if (res.ok) {
+          if (res.ok && res.type === 'basic') {
             const copy = res.clone();
             caches.open(CACHE).then((c) => c.put(req, copy));
           }

@@ -84,6 +84,9 @@ const ADJ_FORMS = ['Grundform', 'Neutrum', 'Plural / bestimmt', 'Komparativ', 'S
 const VERB_FORMS = ['Präsens', 'Präteritum', 'Perfekt (Partizip)', 'Imperativ'];
 
 const dict = new Map<string, DictEntry[]>();
+// Multi-word phrases (glossary, Wörterkiste, vocabulary phrases): found when the
+// tapped word stands in that phrase in the sentence it was tapped in.
+const phrases: { norm: string; e: DictEntry }[] = [];
 let built = false;
 
 function add(key: string, e: DictEntry) {
@@ -94,15 +97,20 @@ function add(key: string, e: DictEntry) {
   dict.set(k, list);
 }
 
-/** Adds every spelling variant; a phrase is also found from its first word. */
+/** Adds every spelling variant. Verbs and nouns of several words are found from their first word. */
 function addForm(form: string, e: DictEntry) {
   for (const v of splitAlt(form)) {
     const parts = normalize(v).split(' ');
     if (parts.length === 1) add(v, e);
     else if (e.pos === 'verb' || e.pos === 'noun') add(parts[0], e); // "glede seg", "stå opp"
     else if (e.pos === 'adj') add(parts[parts.length - 1], e); // "mer praktisk": found from "praktisk", not "mer"
-    else if (parts[0].length >= 3) add(parts[0], { ...e, form: e.form ?? 'Wendung' });
+    else addPhrase(v, e);
   }
+}
+
+function addPhrase(text: string, e: DictEntry) {
+  const norm = normalize(text);
+  if (norm.includes(' ') && !phrases.some((p) => p.norm === norm && p.e.de === e.de)) phrases.push({ norm, e: { ...e, form: e.form ?? 'Wendung' } });
 }
 
 export function buildDictionary(): void {
@@ -139,7 +147,12 @@ export function buildDictionary(): void {
     }
   }
   addFunctionWords();
-  const gloss = (no: string, de: string) => addForm(no, { no, de, gloss: true });
+  const gloss = (no: string, de: string) => {
+    for (const v of splitAlt(no)) {
+      if (normalize(v).includes(' ')) addPhrase(v, { no: v, de, gloss: true });
+      else add(v, { no: v, de, gloss: true });
+    }
+  };
   for (const L of lessons) {
     for (const t of [L.text, ...L.extra]) t.glossary.forEach((g) => gloss(g.no, g.de));
     L.wk.phrases.forEach((p) => gloss(p.no, p.de));
@@ -175,6 +188,12 @@ const FUNCTION_WORDS: [string, string, string?][] = [
   ['de', 'sie (Plural); die'],
   ['dem', 'sie, ihnen (Objektform von de)'],
   ['én', 'ein, eine (betont: genau einer, eine)'],
+  ['ved', 'bei, an, neben'],
+  ['kvart', 'Viertel (kvart over fem = Viertel nach fünf, kvart på fem = Viertel vor fünf)'],
+  ['midt', 'mitten (midt i = mitten in)'],
+  ['enda', 'noch (enda mer = noch mehr); sogar'],
+  ['kjære', 'liebe, lieber (Anrede im Brief)'],
+  ['resten', 'der Rest'],
   ['oi', 'oh! hoppla!', 'Ausruf'],
   ['åh', 'ach! oh!', 'Ausruf'],
   ['aha', 'aha!', 'Ausruf'],
@@ -225,27 +244,38 @@ function addFunctionWords() {
   }
   add('tusen', { no: 'tusen', de: '1000', form: 'Zahl' });
   for (const [no, de, form] of FUNCTION_WORDS) {
-    if (!dict.has(no)) add(no, { no, de, form });
+    // Always added: »en« is the article as well as the number in the vocabulary.
+    add(no, { no, de, form });
     // weekdays also with -en / -er: mandagen, mandager
     if (/dag$/.test(no)) for (const f of ['en', 'er', 'ene', 's']) if (!dict.has(no + f)) add(no + f, { no, de, form });
   }
 }
 
-/** sentenceStart: the word opens a sentence, so a capital letter says nothing about it being a name. */
-export function lookup(word: string, sentenceStart = false): LookupResult {
+/**
+ * What a tapped word means.
+ * sentenceStart: the word opens a sentence, so a capital letter says nothing about it being a name.
+ * context: the sentence or text it was tapped in, to recognise phrases (»i tide«, »har lyst til«).
+ */
+export function lookup(word: string, sentenceStart = false, context = ''): LookupResult {
   buildDictionary();
   const k = normalize(word);
-  const capital = /^[A-ZÆØÅ]/.test(word) && !sentenceStart;
+  const capital = /^[A-ZÆØÅ]/.test(word);
+  const inPhrase = context ? phrasesIn(k, context) : [];
+  const withPhrases = (list: DictEntry[]) => collapse([...inPhrase, ...sortEntries(list)]);
   const person = capital ? PEOPLE[k] : undefined;
   const exact = dict.get(k);
-  if (person) return { entries: [person, ...sortEntries(exact ?? [])] };
-  if (exact) return { entries: sortEntries(exact) };
-  for (const s of stems(k)) {
-    const hit = dict.get(s);
-    if (hit) return { entries: sortEntries(hit) };
+  if (person) return { entries: [person, ...withPhrases(exact ?? [])] };
+  if (exact) return { entries: withPhrases(exact) };
+  // Written with a capital inside a sentence and not a known word: a name (Fløyen, Fosse, Aker).
+  if (capital && !sentenceStart) return inPhrase.length ? { entries: inPhrase } : { entries: [], name: true };
+  const num = numberCompound(k);
+  if (num) return { entries: [num] };
+  for (const st of stems(k)) {
+    const hit = dict.get(st);
+    // The form label of another form (»Plural«) would be wrong for this one.
+    if (hit) return { entries: withPhrases(hit.map((e) => ({ ...e, form: undefined }))) };
   }
-  // A capitalised unknown word is most likely a name (Aker, Finland), not a compound.
-  if (capital) return { entries: [], name: true };
+  if (inPhrase.length) return { entries: inPhrase };
   // tv-kanalene: the parts are known words
   if (k.includes('-')) {
     const [a, ...rest] = k.split('-');
@@ -255,7 +285,39 @@ export function lookup(word: string, sentenceStart = false): LookupResult {
   }
   const parts = compound(k);
   // Unknown and written with a capital at the start of a sentence: a name (Henrik, Bergen).
-  return { entries: [], parts, name: !parts && /^[A-ZÆØÅ]/.test(word) };
+  return { entries: [], parts, name: !parts && capital };
+}
+
+/** Phrases that contain the word and occur in the context, longest first. */
+function phrasesIn(k: string, context: string): DictEntry[] {
+  const c = ` ${normalize(context)} `;
+  const seen = new Set<string>();
+  return phrases
+    .filter((p) => p.norm.split(' ').includes(k) && c.includes(` ${p.norm} `))
+    .sort((a, b) => b.norm.length - a.norm.length)
+    .filter((p) => !seen.has(p.norm) && !!seen.add(p.norm))
+    .slice(0, 2)
+    .map((p) => p.e);
+}
+
+/** One card per meaning: »Präteritum« and »Perfekt« of the same verb become one. */
+function collapse(list: DictEntry[]): DictEntry[] {
+  const out: DictEntry[] = [];
+  for (const e of list) {
+    const same = out.find((x) => x.no === e.no && x.de === e.de);
+    if (!same) out.push({ ...e });
+    else if (e.form && same.form && !same.form.split(' / ').includes(e.form)) same.form = `${same.form} / ${e.form}`;
+  }
+  return out;
+}
+
+/** »1200-tallet«, »1970-årene«: centuries and decades. */
+function numberCompound(k: string): DictEntry | undefined {
+  const m = k.match(/^(\d{2,4})-(tallet|tallets|årene|åra)$/);
+  if (!m) return undefined;
+  const n = Number(m[1]);
+  const de = n % 100 === 0 && m[2].startsWith('tall') ? `das ${n / 100 + 1}. Jahrhundert (die ${n}er)` : `die ${n}er-Jahre`;
+  return { no: k, de, form: 'Zeitraum' };
 }
 
 // The people of the story, so that tapping a name says who it is.
@@ -283,8 +345,12 @@ const PEOPLE: Record<string, DictEntry> = Object.fromEntries(
 );
 
 // Vocabulary entries first, then single-word glossary entries, then phrases.
+// The word itself first (vocabulary, then glossary and built-in words), phrases
+// that merely start with it ("for eksempel" for »for«) last.
 function sortEntries(list: DictEntry[]): DictEntry[] {
-  const rank = (e: DictEntry) => (e.wordId ? 0 : e.no.includes(' ') ? 2 : 1);
+  const words = (e: DictEntry) => normalize(e.no).replace(/^(en|ei|et|å) /, '').split(' ').length;
+  // the single word (vocabulary, then glossary and built-in words), then »gå videre«, »sette seg«, then phrases
+  const rank = (e: DictEntry) => (words(e) > 1 ? (e.pos === 'verb' || e.pos === 'noun' ? 2 : 3) : e.wordId ? 0 : 1);
   return [...list].sort((a, b) => rank(a) - rank(b));
 }
 
@@ -299,7 +365,11 @@ function compound(w: string): [DictEntry, DictEntry] | undefined {
     const headHit = [...(dict.get(head) ?? []), ...stems(head).flatMap((s) => dict.get(s) ?? [])].find(headOk);
     if (!headHit) continue;
     const mod = w.slice(0, i);
-    const modHit = [...(dict.get(mod) ?? []), ...(/[se]$/.test(mod) ? dict.get(mod.slice(0, -1)) ?? [] : [])].find(modOk);
+    // The first part is a dictionary form (barn-e-tog), not an inflected one (*klarte-…).
+    const base = (e: DictEntry, m: string) => normalize(e.no).replace(/^(en|ei|et|å) /, '') === m;
+    const modHit =
+      (dict.get(mod) ?? []).find((e) => modOk(e) && base(e, mod)) ??
+      (/[se]$/.test(mod) ? (dict.get(mod.slice(0, -1)) ?? []).find((e) => modOk(e) && base(e, mod.slice(0, -1))) : undefined);
     if (modHit) return [modHit, headHit];
   }
   return undefined;

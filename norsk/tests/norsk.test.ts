@@ -135,3 +135,14 @@ describe('genitive apostrophe', () => {
     expect(normalize("'hei'")).toBe('hei');
   });
 });
+
+describe('review fixes', () => {
+  it('marks answers that only lack æ ø å', () => {
+    expect(checkAnswer('gaar', ['går']).keyboard).toBe(true);
+    expect(checkAnswer('snakkket', ['snakket']).keyboard).toBeUndefined();
+  });
+  it('never accepts »to ett hundre«', () => {
+    expect(numberVariants(250)).not.toContain('to ett hundre og femti');
+    expect(numberVariants(100)).toContain('ett hundre');
+  });
+});

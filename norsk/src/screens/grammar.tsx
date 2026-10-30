@@ -19,7 +19,7 @@ export function GrammarTopicPage({ n, id }: { n: number; id: string }) {
 
   return (
     <>
-      <TopBar title={g.title} backTo={`lektion/${n}`} />
+      <TopBar title={g.title} backTo={true} />
       <main class="page">
         <div class="card">
           <div class="small muted">Leksjon {n} · Grammatik</div>

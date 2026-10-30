@@ -232,6 +232,7 @@ await visit('einstellungen');
 const [download] = await Promise.all([page.waitForEvent('download'), page.click('text=Sicherung speichern')]);
 const backupPath = await download.path();
 await page.setInputFiles('input[type=file]', backupPath);
+await page.click('button:text-is("Laden")');
 await page.waitForTimeout(200);
 if (!(await page.locator('text=Sicherung geladen').isVisible().catch(() => false))) problems.push('backup import gave no confirmation');
 
@@ -240,6 +241,19 @@ for (const L of lessons) {
   const n = L.n;
   await visit(`lektion/${n}`);
   await visit(`lektion/${n}/text`);
+  // The longest word of the text: its sheet must keep the close button on screen.
+  const longest = await page.evaluate(() => {
+    const ws = [...document.querySelectorAll('.text-card .w')];
+    let best = 0;
+    ws.forEach((w, i) => {
+      if ((w.textContent ?? '').length > (ws[best].textContent ?? '').length) best = i;
+    });
+    return best;
+  });
+  await page.locator('.text-card .w').nth(longest).click();
+  const box = await page.locator('.sheet .icon-btn').first().boundingBox();
+  if (!box || box.x + box.width > 390) problems.push(`L${n}: close button of the word sheet is off screen`);
+  await page.click('.sheet-backdrop', { position: { x: 20, y: 20 } });
   for (const x of L.extra) await visit(`lektion/${n}/lesen/${x.id}`);
   for (const gr of L.grammar) await visit(`lektion/${n}/grammatik/${gr.id}`);
   await visit(`lektion/${n}/uebungen`);

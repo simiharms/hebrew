@@ -107,8 +107,9 @@ export function DrillCard({ drill, n, refId, onDone }: { drill: Drill; n?: numbe
 
 function useScores(n: number, onAll: (avg: number) => void) {
   const [scores, setScores] = useState<(number | undefined)[]>(() => Array(n).fill(undefined));
-  const set = (i: number, v: number) => {
-    if (scores[i] !== undefined) return;
+  /** upgrade: a later, better score for an item already answered (»Meine Version stimmt auch«). */
+  const set = (i: number, v: number, upgrade = false) => {
+    if (scores[i] !== undefined && !(upgrade && v > (scores[i] ?? 0))) return;
     const next = [...scores];
     next[i] = v;
     setScores(next);
@@ -241,13 +242,13 @@ export function TranslateSet({ id, items }: { id: string; items: Translate[] }) 
         Übersetze ins Norwegische · {answered}/{items.length}
       </div>
       {items.map((t, i) => (
-        <TranslateCard t={t} n={i + 1} refId={`${id}#${i}`} onDone={(v) => set(i, v)} />
+        <TranslateCard t={t} n={i + 1} refId={`${id}#${i}`} onDone={(v, upgrade) => set(i, v, upgrade)} />
       ))}
     </>
   );
 }
 
-export function TranslateCard({ t, n, refId, onDone }: { t: Translate; n: number; refId: string; onDone: (score: number) => void }) {
+export function TranslateCard({ t, n, refId, onDone }: { t: Translate; n: number; refId: string; onDone: (score: number, upgrade?: boolean) => void }) {
   const [value, setValue] = useState('');
   const [res, setRes] = useState<{ score: number; best: string; diff: ReturnType<typeof wordDiff> } | null>(null);
   const [override, setOverride] = useState(false);
@@ -305,7 +306,14 @@ export function TranslateCard({ t, n, refId, onDone }: { t: Translate; n: number
             </div>
           ))}
           {verdict !== 'ok' && (
-            <button class="btn small ghost mt" onClick={() => setOverride(true)}>
+            <button
+              class="btn small ghost mt"
+              onClick={() => {
+                setOverride(true);
+                clearMistake('translate', refId);
+                onDone(1, true);
+              }}
+            >
               Meine Version stimmt auch
             </button>
           )}

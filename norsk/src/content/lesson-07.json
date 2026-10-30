@@ -94,7 +94,8 @@
       { "no": "Jeg spanderer", "de": "Ich lade euch ein (ich bezahle)" },
       { "no": "like ved", "de": "ganz in der Nähe von" },
       { "no": "Stortinget", "de": "das Storting (das norwegische Parlament)" },
-      { "no": "en annen gang", "de": "ein andermal" }
+      { "no": "en annen gang", "de": "ein andermal" },
+      { "no": "fru", "de": "Frau (Anrede vor dem Nachnamen: fru Linde)" }
     ]
   },
   "extra": [
@@ -138,7 +139,8 @@
         { "no": "Foran", "de": "vor" },
         { "no": "statuer", "de": "Statuen" },
         { "no": "over hele verden", "de": "auf der ganzen Welt" },
-        { "no": "ennå i dag", "de": "noch heute" }
+        { "no": "ennå i dag", "de": "noch heute" },
+        { "no": "Karl", "de": "Karl Johan: König von Norwegen und Schweden (1818–1844); nach ihm heißt die Straße Karl Johans gate" }
       ]
     }
   ],

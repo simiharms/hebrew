@@ -1800,5 +1800,24 @@
       "no": "Etter dugnaden griller vi pølser.",
       "de": "Nach dem Arbeitseinsatz grillen wir Würstchen."
     }
+  },
+  {
+    "id": "w13_farge",
+    "no": "farge",
+    "de": "die Farbe",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "farge",
+      "fargen",
+      "farger",
+      "fargene"
+    ],
+    "lesson": 13,
+    "wk": true,
+    "ex": {
+      "no": "Hvilken farge liker du best?",
+      "de": "Welche Farbe magst du am liebsten?"
+    }
   }
 ]

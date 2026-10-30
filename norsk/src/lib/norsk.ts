@@ -112,6 +112,7 @@ export interface CheckResult {
   verdict: Verdict;
   expected: string; // the accepted answer closest to the input
   note?: string; // German
+  keyboard?: boolean; // right except for æ ø å: counts as right
 }
 
 const KEYBOARD_NOTE = 'Richtig – achte nur auf æ, ø und å.';
@@ -130,7 +131,7 @@ export function checkAnswer(input: string, acceptedRaw: string[], opts: { strict
   for (const a of accepted) if (normalize(a) === n) return { verdict: 'correct', expected: a };
   const f = fold(raw);
   for (const a of accepted) {
-    if (fold(a) === f) return { verdict: 'close', expected: a, note: KEYBOARD_NOTE };
+    if (fold(a) === f) return { verdict: 'close', expected: a, note: KEYBOARD_NOTE, keyboard: true };
   }
   let best = first;
   let bestD = Infinity;
@@ -203,14 +204,15 @@ export function stems(word: string): string[] {
     if (w.endsWith(e) && w.length - e.length >= 2) {
       const stem = w.slice(0, -e.length);
       out.add(stem);
-      out.add(stem + 'e');
+      if (e !== 't' && e !== 's') out.add(stem + 'e'); // kjøpte → kjøpe, but not post → *pose
       // Double consonants: simplified before t (grønn → grønt), m doubled before a vowel (dum → dumme).
       if (e === 't' && /[lmnps]$/.test(stem) && !/(.)\1$/.test(stem)) out.add(stem + stem.slice(-1));
       if (/^[aeiouyæøå]/.test(e) && /mm$/.test(stem)) out.add(stem.slice(0, -1));
     }
   }
   out.delete(w);
-  return [...out];
+  // The longest stems first: the shortest ending is the likeliest (tide → tid, not ti).
+  return [...out].sort((a, b) => b.length - a.length);
 }
 
 function tokenMatches(t: string, k: string): boolean {

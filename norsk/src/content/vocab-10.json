@@ -854,7 +854,7 @@
       "no": "Han la nøkkelen på bordet.",
       "de": "Er legte den Schlüssel auf den Tisch."
     },
-    "note": "Nicht verwechseln: ligge – lå – ligget (liegen)."
+    "note": "Nicht verwechseln: ligge – lå – ligget (liegen). Gleich geschrieben: la = lass (la oss … = lass uns …)."
   },
   {
     "id": "w10_sette",
@@ -1394,5 +1394,22 @@
       "no": "Etter turen var vi våte til skinnet.",
       "de": "Nach dem Ausflug waren wir nass bis auf die Haut."
     }
+  },
+  {
+    "id": "w10_sno",
+    "no": "snø",
+    "de": "der Schnee",
+    "pos": "noun",
+    "gender": "m",
+    "forms": [
+      "snø",
+      "snøen"
+    ],
+    "lesson": 10,
+    "ex": {
+      "no": "Oppe på fjellet lå det allerede snø.",
+      "de": "Oben in den Bergen lag schon Schnee."
+    },
+    "note": "Verb: det snør = es schneit."
   }
 ]

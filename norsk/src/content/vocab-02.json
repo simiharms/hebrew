@@ -171,7 +171,8 @@
     "ex": {
       "no": "Vann er gratis.",
       "de": "Wasser ist gratis."
-    }
+    },
+    "note": "Auch: der See (små vann = kleine Seen, vanna = die Seen)."
   },
   {
     "id": "w02_glass",
@@ -1293,7 +1294,8 @@
     "ex": {
       "no": "Vær så god, her er kaffen.",
       "de": "Bitte schön, hier ist der Kaffee."
-    }
+    },
+    "note": "Achtung: vær allein ist oft das Nomen et vær = das Wetter (dårlig vær = schlechtes Wetter)."
   },
   {
     "id": "w02_kan_jeg_faa",
@@ -1699,5 +1701,20 @@
       "de": "Ein Kaffee kostet zwanzig Kronen."
     },
     "note": "tj spricht man wie »ch« in »ich«."
+  },
+  {
+    "id": "w02_for",
+    "no": "for",
+    "de": "für",
+    "deAlt": [
+      "zu"
+    ],
+    "pos": "prep",
+    "lesson": 2,
+    "ex": {
+      "no": "Det er dyrt, selv for en sveitser!",
+      "de": "Das ist teuer, sogar für einen Schweizer!"
+    },
+    "note": "Vor Adjektiven auch »zu«: for sent = zu spät, for lenge = zu lange. Als Konjunktion: for = denn."
   }
 ]

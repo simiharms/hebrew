@@ -1443,6 +1443,17 @@ select.select {
   bottom: 0;
   background: var(--bg);
 }
+/* a soft edge where the card scrolls under the buttons */
+.result-actions::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 100%;
+  height: 18px;
+  background: linear-gradient(to bottom, transparent, var(--bg));
+  pointer-events: none;
+}
 .result-actions .btn:disabled {
   opacity: 1;
 }

@@ -49,6 +49,8 @@ export default defineConfig(({ mode }) => {
       target: 'es2020',
       chunkSizeWarningLimit: 2000,
     },
-    test: { include: ['tests/**/*.test.ts'] },
+    // Content sweeps (every verb, every drill, seeds 1..200) take seconds each;
+    // the 5 s default made them flaky when the machine is busy.
+    test: { include: ['tests/**/*.test.ts'], testTimeout: 30_000 },
   };
 });

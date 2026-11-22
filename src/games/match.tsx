@@ -64,9 +64,15 @@ export function shortGloss(en: string, max = MAX_EN): string {
 
 const fitsHe = (he: string) => !he.includes('/') && he.trim().length <= MAX_HE && he.trim().split(/\s+/).length <= 2;
 
-/** Two candidates that can't share a wave: one English tile could fit both, or the Hebrew is the same. */
-export function clash(a: Pick<Cand, 'he' | 'alt' | 'en' | 'enAlt' | 'show'>, b: Pick<Cand, 'he' | 'alt' | 'en' | 'enAlt' | 'show'>): boolean {
-  const gloss = (c: typeof a) => ({ en: c.en, enAlt: c.enAlt }) as Pick<VocabItem, 'en' | 'enAlt'> as VocabItem;
+type Pairable = Pick<Cand, 'he' | 'alt' | 'en' | 'enAlt' | 'show'>;
+
+/**
+ * Two candidates that can't share a wave: one English tile could fit both (a
+ * shared gloss, counting the shortened tile text too), or the Hebrew is the
+ * same once finals, points and doubled ו/י are set aside (כ and ך included).
+ */
+export function clash(a: Pairable, b: Pairable): boolean {
+  const gloss = (c: Pairable) => ({ en: c.en, enAlt: [...c.enAlt, c.show] }) as Pick<VocabItem, 'en' | 'enAlt'> as VocabItem;
   if (sameGloss(gloss(a), gloss(b)) || normalizeEn(a.show) === normalizeEn(b.show)) return true;
   const hb = new Set([b.he, ...b.alt].map(lenient));
   return [a.he, ...a.alt].some((x) => hb.has(lenient(x)));
@@ -142,19 +148,39 @@ export function matchVariant(s: AppState): MatchItem['kind'] {
 
 /**
  * Splits candidates (best first) into waves of about five with no clash in a
- * wave. Wave sizes are even (27 → 5 5 5 4 4 4); a candidate that clashes with
- * every wave that has room waits for a later one or is left out.
+ * wave. Wave sizes are even (27 → 5 5 5 4 4 4). A candidate that clashes with
+ * every wave that has room swaps in for a pair that can move to one (so the
+ * whole alphabet fits, each final away from its letter); failing that it
+ * waits for a later wave or is left out.
  */
-export function assignWaves<C extends Pick<Cand, 'he' | 'alt' | 'en' | 'enAlt' | 'show'>>(cands: C[], n: number): C[][] {
+export function assignWaves<C extends Pairable>(cands: C[], n: number): C[][] {
   const total = Math.min(n, cands.length);
   if (total < 2) return [];
   const count = Math.ceil(total / WAVE);
   const sizes = Array.from({ length: count }, (_, i) => Math.floor(total / count) + (i < total % count ? 1 : 0));
   const waves: C[][] = sizes.map(() => []);
+  const fits = (c: C, w: number, but?: C) => waves[w].length - (but ? 1 : 0) < sizes[w] && !waves[w].some((x) => x !== but && clash(x, c));
+  const place = (c: C): boolean => {
+    const w = waves.findIndex((_, i) => fits(c, i));
+    if (w >= 0) {
+      waves[w].push(c);
+      return true;
+    }
+    for (let x = 0; x < waves.length; x++) {
+      for (const y of waves[x]) {
+        if (!fits(c, x, y)) continue;
+        const z = waves.findIndex((_, i) => i !== x && fits(y, i));
+        if (z < 0) continue;
+        waves[x][waves[x].indexOf(y)] = c;
+        waves[z].push(y);
+        return true;
+      }
+    }
+    return false;
+  };
   for (const c of cands) {
     if (waves.every((w, i) => w.length >= sizes[i])) break;
-    const w = waves.findIndex((wave, i) => wave.length < sizes[i] && !wave.some((x) => clash(x, c)));
-    if (w >= 0) waves[w].push(c);
+    place(c);
   }
   return waves.filter((w) => w.length >= 2);
 }
@@ -166,19 +192,24 @@ export function assignWaves<C extends Pick<Cand, 'he' | 'alt' | 'en' | 'enAlt' |
 export function buildMatchItems(s: AppState, n = ROUND, rnd: () => number = Math.random): MatchItem[] {
   const variant = matchVariant(s);
   let cands = variant === 'verb' ? verbCands(s, rnd) : variant === 'letter' ? letterCands(s, rnd) : wordCands(s, n, rnd);
-  // One tile per Hebrew spelling in a round.
+  // Words come in topic runs: put them best first again (the sort is stable).
+  if (variant === 'word') cands = [...cands].sort((a, b) => a.rank - b.rank);
+  // One tile per Hebrew spelling in a round, the better one kept. Letters go by
+  // the letter itself: a final (ך) is its own card, though lenient() reads it
+  // as כ (the wave rule still keeps the two apart).
   const seen = new Set<string>();
   cands = cands.filter((c) => {
-    const k = lenient(c.he);
+    const k = variant === 'letter' ? c.he : lenient(c.he);
     if (seen.has(k)) return false;
     seen.add(k);
     return true;
   });
   if (variant === 'word') {
-    // The best n, then back in topic runs so a wave tends to share a topic.
-    const best = new Set([...cands].sort((a, b) => a.rank - b.rank).slice(0, n + WAVE));
-    const topics = [...new Set(cands.filter((c) => best.has(c)).map((c) => c.topic))];
-    cands = [...topics.flatMap((t) => cands.filter((c) => best.has(c) && c.topic === t)), ...cands.filter((c) => !best.has(c))];
+    // The best n in topic runs, so a wave tends to share a topic; the rest
+    // stand by, best first, for places a clash leaves open.
+    const best = cands.slice(0, n);
+    const topics = [...new Set(best.map((c) => c.topic))];
+    cands = [...topics.flatMap((t) => best.filter((c) => c.topic === t)), ...cands.slice(n)];
   }
   return assignWaves(cands, n).flatMap((wave, w) =>
     wave.map((c) => ({ key: c.key, he: c.he, en: c.show, cardId: c.cardId, wave: w, kind: c.kind, ...(c.tr ? { tr: c.tr } : {}), ...(c.sub ? { sub: c.sub } : {}) })),
@@ -208,38 +239,43 @@ export function MatchGame({ mode }: GameProps) {
   });
   // Which pairs are matched and which had a miss: the round only says how many,
   // so they are kept here (and read back from the saved round on resume).
-  const book = useRef<{ items: MatchItem[]; done: Set<string>; missed: Set<string> } | null>(null);
+  const book = useRef<{ id: number; items: MatchItem[]; done: Set<string>; missed: Set<string> } | null>(null);
   if (!book.current || book.current.items !== round.items) {
     const saved = round.resumed ? loadRound<MatchItem>('match', mode) : null;
     const same = !!saved && saved.items.length === round.items.length && saved.items.every((x, i) => x.key === round.items[i]?.key);
     book.current = {
+      id: (book.current?.id ?? 0) + 1,
       items: round.items,
       done: new Set(same ? round.items.filter((_, i) => saved!.results[i]).map((x) => x.key) : []),
       missed: new Set(same ? saved!.missed.map((i) => round.items[i]?.key).filter(Boolean) : []),
     };
   }
-  const { done, missed } = book.current;
-  const [sel, setSel] = useState<{ side: Side; key: string; wave: number } | null>(null);
-  const [wrong, setWrong] = useState<{ he: string; en: string } | null>(null);
-  const [last, setLast] = useState<{ key: string; ok: boolean } | null>(null);
+  const { id: rid, done, missed } = book.current;
+  // Tap state, tagged with its round so nothing carries over into Again.
+  const [selAt, setSel] = useState<{ rid: number; side: Side; key: string; wave: number } | null>(null);
+  const [wrongAt, setWrong] = useState<{ rid: number; he: string; en: string } | null>(null);
+  const [lastAt, setLast] = useState<{ rid: number; key: string; ok: boolean } | null>(null);
   const [live, setLive] = useState('');
+  const sel = selAt?.rid === rid ? selAt : null;
+  const wrong = wrongAt?.rid === rid ? wrongAt : null;
+  const last = lastAt?.rid === rid ? lastAt : null;
   const it = round.item;
   const wave = it?.wave ?? -1;
-  const fresh = useBumpGuard(`${round.items.length}:${wave}`);
+  const fresh = useBumpGuard(`${rid}:${wave}`);
   const waves = round.items.length ? round.items[round.items.length - 1].wave + 1 : 0;
   const tiles = round.items.map((x, i) => ({ x, i })).filter(({ x }) => x.wave === wave);
   const left = tiles.filter(({ x }) => !done.has(x.key)).length;
   const english = englishOrder(tiles.map(({ x }) => x));
   const cleared = !!it && round.status === true && left === 0;
   const locked = fresh || round.status !== null || !!round.summary;
-  const pick = sel && sel.wave === wave ? sel : null;
+  const pick = sel && sel.wave === wave && !done.has(sel.key) ? sel : null;
 
   // A wrong pair shakes for a moment.
   useEffect(() => {
-    if (!wrong) return;
+    if (!wrongAt) return;
     const t = setTimeout(() => setWrong(null), 450);
     return () => clearTimeout(t);
-  }, [wrong]);
+  }, [wrongAt]);
 
   const evidence = (x: MatchItem, ok: boolean): Evidence[] => [{ tier: 'tap', ok, skill: skillOf(x), cardId: x.cardId }];
 
@@ -251,7 +287,7 @@ export function MatchGame({ mode }: GameProps) {
     if (heKey === enKey) {
       const clean = !missed.has(heKey);
       done.add(heKey);
-      setLast({ key: heKey, ok: true });
+      setLast({ rid, key: heKey, ok: true });
       setLive(`${x.he} = ${x.en}. ${left - 1 ? `${left - 1} left.` : 'Wave cleared!'}`);
       round.answer({ index: i, ok: true, evidence: clean ? evidence(x, true) : undefined, miss: `${x.he} → ${x.en}` }, left <= 1 ? 'auto' : 'now');
       say(spoken(x));
@@ -259,8 +295,8 @@ export function MatchGame({ mode }: GameProps) {
     }
     const other = round.items.find((y) => y.key === enKey);
     missed.add(heKey);
-    setWrong({ he: heKey, en: enKey });
-    setLast({ key: heKey, ok: false });
+    setWrong({ rid, he: heKey, en: enKey });
+    setLast({ rid, key: heKey, ok: false });
     setLive(`Not a pair: ${x.he} isn't ${other?.en ?? ''}.`);
     round.miss(evidence(x, false), i);
   };
@@ -275,7 +311,7 @@ export function MatchGame({ mode }: GameProps) {
       setSel(null);
       return;
     }
-    setSel({ side, key, wave });
+    setSel({ rid, side, key, wave });
     const x = round.items.find((y) => y.key === key);
     setLive(x ? `${side === 'he' ? x.he : x.en} picked: now its pair.` : '');
   };
@@ -297,7 +333,14 @@ export function MatchGame({ mode }: GameProps) {
     ]
       .filter(Boolean)
       .join(' ');
-    if (gone) return <span key={`${side}:${x.key}`} class={cls} style={{ gridRow: n + 1 }} aria-hidden="true" data-gone={x.key} />;
+    // A matched tile keeps its cell (nothing shifts under the thumb) and fades out.
+    if (gone) {
+      return (
+        <span key={`${side}:${x.key}`} class={cls} style={{ gridRow: n + 1 }} aria-hidden="true" data-gone={x.key} lang={side === 'he' ? 'he' : undefined} dir={side === 'he' ? 'rtl' : undefined}>
+          {side === 'he' ? x.he : x.en}
+        </span>
+      );
+    }
     return (
       <button
         key={`${side}:${x.key}`}
@@ -375,7 +418,7 @@ export function MatchGame({ mode }: GameProps) {
   } else if (!round.total) prompt = <p class="muted">No words to match yet: learn a few in Words first.</p>;
 
   const controls = it && (
-    <div class="match-board" key={`${round.items.length}:${wave}`} role="group" aria-label={`Wave ${wave + 1}: ${left} pairs left`} style={{ gridTemplateRows: `repeat(${tiles.length}, minmax(56px, auto))` }}>
+    <div class="match-board" key={`${rid}:${wave}`} role="group" aria-label={`Wave ${wave + 1}: ${left} pairs left`} style={{ gridTemplateRows: `repeat(${tiles.length}, minmax(56px, auto))` }}>
       {english.map((x, n) => tile('en', x, n))}
       {tiles.map(({ x }, n) => tile('he', x, n))}
     </div>

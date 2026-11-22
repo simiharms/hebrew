@@ -50,6 +50,24 @@ export function echoItemFor(v: Verb, i: number, rnd: () => number = Math.random)
 }
 
 /**
+ * What a pick records: tap evidence on the verb (a miss only pulls its c: card
+ * forward; a command or an infinitive has no card) and, when the sentence was
+ * really heard in Hebrew, a light listening record.
+ */
+export function echoEvidence(it: EchoItem, ok: boolean, listening: boolean, binyan?: string): Evidence[] {
+  return [
+    ...(listening ? [{ tier: 'tap' as const, ok, skill: 'listening' as const, weight: 0.3 }] : []),
+    {
+      tier: 'tap',
+      ok,
+      skill: 'verbs',
+      topics: [...(binyan ? [`binyan:${binyan}`] : []), ...(it.tense ? [`tense:${it.tense}`] : [])],
+      cardId: it.tense && it.tense !== 'imp' ? `c:${it.verbId}:${it.tense}` : null,
+    },
+  ];
+}
+
+/**
  * Eight sentences near the learner's level whose verb form is in a tense they
  * play (the form's first reading). About five come from verbs they have
  * started; one sentence per verb while there are enough.
@@ -157,16 +175,7 @@ export function EchoGame({ mode }: GameProps) {
     stopSpeaking();
     setSpeaking(false);
     const v = verbById.get(it.verbId);
-    const evidence: Evidence[] = [
-      ...(listening ? [{ tier: 'tap' as const, ok: c.ok, skill: 'listening' as const, weight: 0.3 }] : []),
-      {
-        tier: 'tap',
-        ok: c.ok,
-        skill: 'verbs',
-        topics: [...(v ? [`binyan:${v.binyan}`] : []), ...(it.tense ? [`tense:${it.tense}`] : [])],
-        cardId: it.tense && it.tense !== 'imp' ? `c:${it.verbId}:${it.tense}` : null,
-      },
-    ];
+    const evidence = echoEvidence(it, c.ok, listening, v?.binyan);
     const label = it.tense ? TENSE_LABEL[it.tense].he : 'שם הפועל';
     round.answer({ ok: c.ok, evidence, miss: `${v?.inf ?? ''} · ${label} → ${it.form}`, verbId: it.verbId }, 'hold');
   };

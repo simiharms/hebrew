@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import type { Level } from '../src/content/types.ts';
-import { buildEchoItems, type EchoItem, echoItemFor } from '../src/games/echo.tsx';
-import { allowedTenses, levelOk, sameForm, seeded } from '../src/games/kit.ts';
+import { buildEchoItems, echoEvidence, type EchoItem, echoItemFor } from '../src/games/echo.tsx';
+import { allowedTenses, applyEvidence, levelOk, sameForm, seeded } from '../src/games/kit.ts';
 import { verbById, verbs } from '../src/lib/content.ts';
 import { lenient } from '../src/lib/hebrew.ts';
 import { drillable, TENSES } from '../src/lib/session.ts';
@@ -39,6 +39,9 @@ function checkItem(it: EchoItem) {
   expect(v).toBeTruthy();
   expect(it.gap).toContain('___');
   expect(it.gap.split('___')).toHaveLength(2);
+  // the blank is exactly the form: filling it gives the sentence back, and the form isn't left elsewhere to give it away
+  expect(it.gap.replace('___', it.form)).toBe(it.he);
+  expect(it.gap.split(/[\s.,!?:;"״׳]+/).map((w) => lenient(w))).not.toContain(lenient(it.form));
   expect(it.options).toHaveLength(3);
   expect(it.options).toContain(it.form);
   // exactly one option is the form, and no two options read alike
@@ -135,5 +138,38 @@ describe('buildEchoItems', () => {
   it('is deterministic for a seed', () => {
     const s = stateAt('B1', 3);
     expect(buildEchoItems(s, 8, seeded(11))).toEqual(buildEchoItems(s, 8, seeded(11)));
+  });
+});
+
+describe('Echo evidence', () => {
+  const likhtov = verbById.get('verb_likhtov')!;
+  const it8 = echoItemFor(likhtov, likhtov.exs!.findIndex((e) => e.form === 'כתבה'), seeded(1))!;
+
+  it('records listening only when a Hebrew voice really spoke, and taps on the verb card', () => {
+    const heard = echoEvidence(it8, true, true, likhtov.binyan);
+    expect(heard).toHaveLength(2);
+    expect(heard[0]).toEqual({ tier: 'tap', ok: true, skill: 'listening', weight: 0.3 });
+    expect(heard[1]).toMatchObject({ tier: 'tap', ok: true, skill: 'verbs', cardId: 'c:verb_likhtov:past', topics: ['binyan:paal', 'tense:past'] });
+    const read = echoEvidence(it8, false, false, likhtov.binyan);
+    expect(read.map((e) => e.skill)).toEqual(['verbs']);
+    expect(read.every((e) => e.tier === 'tap' && !e.mistake && e.grade === undefined)).toBe(true);
+    expect(echoEvidence({ ...it8, tense: 'imp' }, true, true)[1].cardId).toBeNull();
+    expect(echoEvidence({ ...it8, tense: null }, true, true)[1].cardId).toBeNull();
+  });
+
+  it('a right pick leaves the card alone, a wrong one only pulls it forward, and no card is created', () => {
+    const now = Date.now();
+    const card = { due: now + 4 * DAY, s: 6, d: 5, reps: 3, lapses: 0, last: now - DAY };
+    restoreState({ ...defaultState(), onboarded: true, level: 'B1', cards: { 'c:verb_likhtov:past': card } });
+    expect(applyEvidence(echoEvidence(it8, true, true), new Set(), now)).toBe(0);
+    expect(getState().cards['c:verb_likhtov:past']).toEqual(card);
+    applyEvidence(echoEvidence(it8, false, true), new Set(), now);
+    expect(getState().cards['c:verb_likhtov:past']).toEqual({ ...card, due: now });
+    expect(getState().profile.skills.listening?.n).toBeGreaterThan(0);
+    restoreState({ ...defaultState(), onboarded: true, level: 'B1' });
+    applyEvidence(echoEvidence(it8, false, false), new Set(), now);
+    expect(getState().cards).toEqual({});
+    expect(getState().mistakes).toHaveLength(0);
+    expect(getState().profile.skills.listening).toBeUndefined();
   });
 });

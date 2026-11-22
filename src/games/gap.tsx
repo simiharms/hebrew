@@ -368,9 +368,11 @@ export function GapGame({ mode }: GameProps) {
             </span>
           </div>
         )}
-        <div class={`gap-card ${status === true ? 'ok' : status === false ? 'bad' : ''}`} key={it.key} lang="he">
+        <div class={`gap-card ${status === true ? 'ok' : status === false ? 'bad' : ''}`} key={it.key} lang="he" data-key={it.key}>
           {renderPrompt(it.prompt, status !== null ? it.answer : undefined)}
-          <div class="gap-en">{it.en}</div>
+          <div class="gap-en" lang="en">
+            {it.en}
+          </div>
         </div>
         <div class="gap-after" aria-live="off">
           {status === null ? (

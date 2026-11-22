@@ -1,7 +1,8 @@
 import { describe, expect, it } from 'vitest';
 import type { Level } from '../src/content/types.ts';
-import { formOf, pronounsFor, sameForm, seeded } from '../src/games/kit.ts';
-import { buildSixSlots, openDaily, sixCheck, sixComplete, sixItems, sixShareText, sixSlotsFor } from '../src/games/six.tsx';
+import { applyEvidence, formOf, pronounsFor, sameForm, seeded } from '../src/games/kit.ts';
+import { buildSixSlots, openDaily, type SixItem, sixCheck, sixComplete, sixEvidence, sixItems, sixMark, sixShareText, sixSlotsFor } from '../src/games/six.tsx';
+import { review } from '../src/lib/fsrs.ts';
 import { levelRank, verbById, verbs } from '../src/lib/content.ts';
 import { drillable, TENSES, verbCardOrder } from '../src/lib/session.ts';
 import { type AppState, defaultState, getState, restoreState, setState } from '../src/lib/store.ts';
@@ -178,10 +179,61 @@ describe('Daily Six state', () => {
     expect(v).toBeTruthy();
   });
 
+  it("lets the row's own pronoun through in front of the form, and nothing else", () => {
+    expect(sixCheck('אני כתבתי', 'כתבתי', 'אני').verdict).toBe('correct');
+    expect(sixCheck('  אני   כתבתי ', 'כתבתי', 'אני').verdict).toBe('correct');
+    expect(sixCheck('הם כתבתי', 'כתבתי', 'אני').verdict).toBe('wrong');
+    expect(sixCheck('אני כתבנו', 'כתבתי', 'אני').verdict).toBe('wrong');
+    expect(sixCheck('אני', 'כתבתי', 'אני').verdict).toBe('wrong');
+    expect(sixCheck('אני כתבתי', 'כתבתי').verdict).toBe('wrong'); // no pronoun given: graded as typed
+  });
+
   it('shares a Wordle-style line', () => {
     const d = { date: DATE, verbId: 'verb_likhtov', slots: sixSlotsFor(verbById.get('verb_likhtov')!), marks: ['g', 'g', 'y', 'g', 'r', 'g'] as ('' | 'g' | 'y' | 'r')[], tries: [1, 1, 2, 1, 2, 1], rated: [] };
     expect(sixShareText(d, 'לכתוב')).toBe('Shoresh · פועל היום 2026-11-22\nלכתוב 🟩🟩🟨🟩🟥🟩 5/6');
     expect(sixComplete(d)).toBe(true);
     expect(sixItems(d)).toHaveLength(0);
+  });
+});
+
+describe('Daily Six evidence', () => {
+  const likhtov = verbById.get('verb_likhtov')!;
+  const rows = (): SixItem[] => sixItems({ date: DATE, verbId: likhtov.id, slots: sixSlotsFor(likhtov), marks: ['', '', '', '', '', ''], tries: [0, 0, 0, 0, 0, 0], rated: [] });
+
+  it('marks 🟩 first try, 🟨 second try, 🟥 two misses', () => {
+    expect(sixMark(true, 1)).toBe('g');
+    expect(sixMark(true, 2)).toBe('y');
+    expect(sixMark(false, 2)).toBe('r');
+  });
+
+  it('grades typed evidence 3 / 2 / 1, with no card for the command row', () => {
+    const items = rows();
+    expect(items.map((x) => x.tense)).toEqual(['past', 'present', 'future', 'imp', 'past', 'future']);
+    const [past, , , imp] = items;
+    expect(sixEvidence(past, likhtov, 'g', 'כתבתי')[0]).toMatchObject({ tier: 'typed', ok: true, grade: 3, skill: 'verbs', cardId: 'c:verb_likhtov:past', topics: ['binyan:paal', 'tense:past'] });
+    expect(sixEvidence(past, likhtov, 'y', 'כתבתי')[0]).toMatchObject({ ok: true, grade: 2 });
+    const r = sixEvidence(past, likhtov, 'r', 'כתבנו')[0];
+    expect(r).toMatchObject({ ok: false, grade: 1 });
+    expect(r.mistake).toMatchObject({ kind: 'verb', ref: 'verb_likhtov:past:1s', answer: 'כתבתי', given: 'כתבנו' });
+    expect(sixEvidence(imp, likhtov, 'g', 'כתוב')[0].cardId).toBeNull();
+  });
+
+  it('a 🟨 on a due card equals review(card, 2); a card is reviewed once a day and never created', () => {
+    const now = Date.now();
+    const card = 'c:verb_likhtov:past';
+    const due = { due: now - DAY, s: 3, d: 5, reps: 2, lapses: 0, last: now - 5 * DAY };
+    const [past, , , imp, past3p] = rows();
+    restoreState({ ...defaultState(), onboarded: true, level: 'B1', cards: { [card]: due } });
+    const rated = new Set<string>();
+    expect(applyEvidence(sixEvidence(past, likhtov, 'y', 'כתבתי'), rated, now)).toBe(1);
+    expect(getState().cards[card]).toEqual(review(due, 2, now, getState().settings.retention));
+    expect(getState().mistakes.map((m) => m.ref)).toEqual(['verb_likhtov:past:1s']); // a second try is worth another look
+    // the הם row is the same card: already rated today, so no second review
+    const after = getState().cards[card];
+    expect(applyEvidence(sixEvidence(past3p, likhtov, 'g', 'כתבו'), rated, now)).toBe(0);
+    expect(getState().cards[card]).toEqual(after);
+    // the command row has no card, and nothing is created for the tenses without one
+    applyEvidence(sixEvidence(imp, likhtov, 'r', 'כתבי'), new Set(), now);
+    expect(Object.keys(getState().cards)).toEqual([card]);
   });
 });

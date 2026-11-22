@@ -179,8 +179,11 @@
   font-weight: 600;
 }
 .gender-surprise {
+  max-width: 100%;
   padding: 4px 12px;
-  border-radius: 999px;
+  border-radius: 14px;
+  line-height: 1.35;
+  text-wrap: balance;
   background: var(--accent-soft);
   color: var(--accent);
   font-size: 14px;

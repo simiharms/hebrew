@@ -8,7 +8,7 @@ import { useEffect, useRef, useState } from 'preact/hooks';
 import { AnswerInput } from '../components/answer.tsx';
 import type { Verb } from '../content/types.ts';
 import { levelRank, verbById, verbs } from '../lib/content.ts';
-import { checkHebrew } from '../lib/hebrew.ts';
+import { checkHebrew, lenient } from '../lib/hebrew.ts';
 import { go } from '../lib/router.ts';
 import { drillable, verbCardOrder } from '../lib/session.ts';
 import { weakTopics } from '../lib/skills.ts';
@@ -133,9 +133,39 @@ export function sixItems(d: SixDaily): SixItem[] {
   });
 }
 
-/** Typed answers are graded strictly: a one-letter slip is a miss here. */
-export function sixCheck(input: string, answer: string): ReturnType<typeof checkHebrew> {
-  return checkHebrew(input, [answer], { strict: true });
+/**
+ * Typed answers are graded strictly: a one-letter slip is a miss here. The
+ * row's own pronoun typed in front ("אני כתבתי") is let through, since forms
+ * are single words.
+ */
+export function sixCheck(input: string, answer: string, pronoun?: string): ReturnType<typeof checkHebrew> {
+  const words = input.trim().split(/\s+/);
+  const bare = pronoun && words.length > 1 && lenient(words[0]) === lenient(pronoun) ? words.slice(1).join(' ') : input;
+  return checkHebrew(bare, [answer], { strict: true });
+}
+
+/** The square for a finished row: right first try 🟩, right on the second try 🟨, two misses 🟥. */
+export function sixMark(ok: boolean, tries: number): Exclude<SixMark, ''> {
+  return ok ? (tries <= 1 ? 'g' : 'y') : 'r';
+}
+
+/**
+ * Typed evidence for a finished row (call once, after its last try): g 3 / 2 / 1
+ * on the tense's c: card (none for a command, which has no card), and what was
+ * typed for the mistake bank.
+ */
+export function sixEvidence(it: SixItem, v: Verb, mark: Exclude<SixMark, ''>, given: string): Evidence[] {
+  return [
+    {
+      tier: 'typed',
+      ok: mark !== 'r',
+      grade: mark === 'g' ? 3 : mark === 'y' ? 2 : 1,
+      skill: 'verbs',
+      topics: [`binyan:${v.binyan}`, `tense:${it.tense}`],
+      cardId: it.tense === 'imp' ? null : `c:${it.verbId}:${it.tense}`,
+      mistake: { kind: 'verb', ref: `${it.verbId}:${it.tense}:${it.person}`, prompt: `${it.pronoun} (${it.pronounEn}) · ${v.inf} · ${TENSE_LABEL[it.tense].he}`, answer: it.answer, given },
+    },
+  ];
 }
 
 export function sixShareText(d: SixDaily, inf: string): string {
@@ -200,7 +230,7 @@ export function SixGame({ mode }: GameProps) {
 
   const check = () => {
     if (!it || !daily || !verb || status !== null) return;
-    const r = sixCheck(value, it.answer);
+    const r = sixCheck(value, it.answer, it.pronoun);
     if (r.verdict === 'empty') return nudge();
     if (r.verdict === 'latin') {
       setNote({ key: it.key, text: r.note ?? 'Switch to the Hebrew keyboard.', tone: 'hint' });
@@ -216,19 +246,10 @@ export function SixGame({ mode }: GameProps) {
       setNote({ key: it.key, text: close ? (/vowel/.test(r.note!) ? 'Very close: check the vowel letters (י, ו).' : 'Very close: check the ending.') : 'Not quite. One more try.', tone: close ? 'close' : 'bad' });
       return nudge();
     }
-    const mark: SixMark = ok ? (tries === 1 ? 'g' : 'y') : 'r';
-    const evidence: Evidence[] = [
-      {
-        tier: 'typed',
-        ok,
-        grade: mark === 'g' ? 3 : mark === 'y' ? 2 : 1,
-        skill: 'verbs',
-        topics: [`binyan:${verb.binyan}`, `tense:${it.tense}`],
-        cardId: it.tense === 'imp' ? null : `c:${it.verbId}:${it.tense}`,
-        mistake: { kind: 'verb', ref: `${it.verbId}:${it.tense}:${it.person}`, prompt: `${it.pronoun} (${it.pronounEn}) · ${verb.inf} · ${TENSE_LABEL[it.tense].he}`, answer: it.answer, given: value.trim() },
-      },
-    ];
-    round.answer({ ok, evidence, xpScale: mark === 'y' ? 0.5 : 1, miss: `${it.pronoun} · ${TENSE_LABEL[it.tense].he} → ${it.answer}`, verbId: it.verbId }, ok ? 'auto' : 'hold');
+    const mark = sixMark(ok, tries);
+    const evidence = sixEvidence(it, verb, mark, value.trim());
+    // The try count lives on the grid, so a second try stays a second try even if the round was lost meanwhile.
+    round.answer({ ok, firstTry: mark === 'g', evidence, xpScale: mark === 'y' ? 0.5 : 1, miss: `${it.pronoun} · ${TENSE_LABEL[it.tense].he} → ${it.answer}`, verbId: it.verbId }, ok ? 'auto' : 'hold');
     saveDaily(it, { tries, mark, rated: [...round.rated] });
     setLast({ key: it.key, given: value.trim() });
     setNote(ok && r.note ? { key: it.key, text: r.note, tone: 'hint' } : null);

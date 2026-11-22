@@ -70,10 +70,21 @@ export default async function six(t) {
   const share = await page.locator('.six-share').getAttribute('data-share');
   const inf = verbs.find((v) => v.id === first.v.id)?.inf;
   check(share === `Shoresh · פועל היום ${date}\n${inf} 🟩🟩🟩🟩🟩🟩 6/6`, `the share line (${JSON.stringify(share)})`);
+  // Share: the share sheet when the device has one, else the clipboard and a note.
+  // Both are stubbed so the check sees exactly what would be shared.
+  await page.evaluate(() => {
+    window.__shared = null;
+    window.__copied = null;
+    Object.defineProperty(navigator, 'share', { configurable: true, value: async (d) => void (window.__shared = d?.text ?? null) });
+    Object.defineProperty(navigator, 'clipboard', { configurable: true, value: { writeText: async (x) => void (window.__copied = x) } });
+  });
   await page.getByRole('button', { name: /Share today/ }).click();
-  await page.waitForTimeout(300);
-  const msg = (await page.locator('.six-share-msg').textContent().catch(() => ''))?.trim() ?? '';
-  check(/Copied|Press and hold/.test(msg) || (await page.evaluate(() => typeof navigator.share === 'function')), `Share copies the line or explains how (${msg})`);
+  await page.waitForFunction(() => window.__shared !== null, null, { timeout: 3000 }).catch(() => {});
+  check((await page.evaluate(() => window.__shared)) === share && (await page.locator('.six-share-msg').count()) === 0, 'Share opens the share sheet with the line');
+  await page.evaluate(() => Object.defineProperty(navigator, 'share', { configurable: true, value: undefined }));
+  await page.getByRole('button', { name: /Share today/ }).click();
+  const msg = ((await page.locator('.six-share-msg').textContent({ timeout: 3000 }).catch(() => '')) ?? '').trim();
+  check((await page.evaluate(() => window.__copied)) === share && /Copied/.test(msg), `without a share sheet it copies the line and says so (${msg})`);
   s = await readState(page);
   check(s.play.daily.marks.join('') === 'gggggg' && s.days.find((d) => d.date === date)?.tasks.includes('play:six'), 'the grid and the day’s task are saved');
   await shot('play-six-result');

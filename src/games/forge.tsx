@@ -40,6 +40,34 @@ export function forgeCheck(it: Pick<ForgeItem, 'stem' | 'answer'>, pre: string, 
   return sameForm(pre + it.stem + suf, it.answer);
 }
 
+/**
+ * What a Check records: build-tier evidence on the table's c: card (reviewed
+ * only when due, g 3 right / 1 wrong) and, on a miss, the built word for the
+ * mistake bank.
+ */
+export function forgeEvidence(it: ForgeItem, pre: string, suf: string, binyan?: string): { ok: boolean; evidence: Evidence[] } {
+  const ok = forgeCheck(it, pre, suf);
+  return {
+    ok,
+    evidence: [
+      {
+        tier: 'build',
+        ok,
+        skill: 'verbs',
+        topics: [...(binyan ? [`binyan:${binyan}`] : []), `tense:${it.tense}`],
+        cardId: `c:${it.verbId}:${it.tense}`,
+        mistake: {
+          kind: 'verb',
+          ref: `${it.verbId}:${it.tense}:${it.person}`,
+          prompt: `${it.pronoun} (${it.pronounEn}) · ${it.inf} · ${TENSE_LABEL[it.tense].he}`,
+          answer: it.answer,
+          given: finalize(pre + it.stem + suf),
+        },
+      },
+    ],
+  };
+}
+
 /** A row of chips is only shown when it offers a choice (most past and present tables have no prefix). */
 export const rowShown = (chunks: string[]): boolean => !(chunks.length === 1 && chunks[0] === '');
 
@@ -129,24 +157,7 @@ export function ForgeGame({ mode }: GameProps) {
 
   const check = () => {
     if (!it || status !== null || pre === null || suf === null) return;
-    const ok = forgeCheck(it, pre, suf);
-    const v = verbById.get(it.verbId);
-    const evidence: Evidence[] = [
-      {
-        tier: 'build',
-        ok,
-        skill: 'verbs',
-        topics: [...(v ? [`binyan:${v.binyan}`] : []), `tense:${it.tense}`],
-        cardId: `c:${it.verbId}:${it.tense}`,
-        mistake: {
-          kind: 'verb',
-          ref: `${it.verbId}:${it.tense}:${it.person}`,
-          prompt: `${it.pronoun} (${it.pronounEn}) · ${it.inf} · ${TENSE_LABEL[it.tense].he}`,
-          answer: it.answer,
-          given: finalize(pre + it.stem + suf),
-        },
-      },
-    ];
+    const { ok, evidence } = forgeEvidence(it, pre, suf, verbById.get(it.verbId)?.binyan);
     round.answer({ ok, evidence, miss: `${it.pronoun} · ${TENSE_LABEL[it.tense].he} → ${it.answer}`, verbId: it.verbId }, ok ? 'auto' : 'hold');
     say(it.answer, FEMININE.has(it.pronoun) || /\(f/.test(it.pronounEn) ? 'f' : 'm');
   };

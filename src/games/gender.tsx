@@ -216,7 +216,7 @@ export function GenderGame({ mode }: GameProps) {
             </>
           )}
         </div>
-        <div class={`gender-scale ${it.kind} ${tilt ? `tilt-${tilt}` : ''} ${status === true ? 'ok' : status === false ? 'bad' : ''}`} key={it.key}>
+        <div class={`gender-scale ${it.kind} ${tilt ? `tilt-${tilt}` : ''} ${status === true ? 'ok' : status === false ? 'bad' : ''}`} key={it.key} data-vocab={it.vocabId} data-kind={it.kind}>
           <div class="gender-word">
             <div class="he-game" lang="he" dir="rtl">
               {it.he}

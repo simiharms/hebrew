@@ -1,7 +1,8 @@
 import { describe, expect, it } from 'vitest';
 import type { Level } from '../src/content/types.ts';
-import { buildForgeItems, type ForgeItem, forgeCheck, forgeItemFor, forgeParts, rowShown } from '../src/games/forge.tsx';
-import { allowedTenses, finalize, levelOk, pronounsFor, sameForm, seeded, splitTable } from '../src/games/kit.ts';
+import { buildForgeItems, type ForgeItem, forgeCheck, forgeEvidence, forgeItemFor, forgeParts, rowShown } from '../src/games/forge.tsx';
+import { allowedTenses, applyEvidence, finalize, levelOk, pronounsFor, sameForm, seeded, splitTable } from '../src/games/kit.ts';
+import { review } from '../src/lib/fsrs.ts';
 import { verbById, verbs } from '../src/lib/content.ts';
 import { drillable, TENSES } from '../src/lib/session.ts';
 import { type AppState, defaultState, getState, restoreState } from '../src/lib/store.ts';
@@ -194,5 +195,63 @@ describe('buildForgeItems', () => {
     expect(rowShown(forgeItemFor(likhtov, 'past', '1s')!.pre)).toBe(false);
     expect(rowShown(forgeItemFor(likhtov, 'future', '1s')!.pre)).toBe(true);
     expect(rowShown(forgeItemFor(likhtov, 'present', 'ms')!.pre)).toBe(false);
+  });
+});
+
+describe('Forge evidence', () => {
+  const likhtov = verbById.get('verb_likhtov')!;
+  const card = 'c:verb_likhtov:past';
+  const at = (due: number) => ({ due, s: 3, d: 5, reps: 2, lapses: 0, last: due - 4 * DAY });
+  const wrongSuf = (it: ForgeItem) => it.suf.find((x) => !forgeCheck(it, it.okPre, x))!;
+
+  it('builds a build-tier record on the c: card, with the built word for the mistake bank', () => {
+    const it = forgeItemFor(likhtov, 'past', '2mp', seeded(1))!;
+    const right = forgeEvidence(it, it.okPre, it.okSuf, likhtov.binyan);
+    expect(right.ok).toBe(true);
+    expect(right.evidence).toHaveLength(1);
+    const e = right.evidence[0];
+    expect(e).toMatchObject({ tier: 'build', ok: true, skill: 'verbs', cardId: card, topics: ['binyan:paal', 'tense:past'] });
+    expect(e.grade).toBeUndefined(); // build is 3 or 1, never 4
+    expect(e.mistake).toMatchObject({ kind: 'verb', ref: 'verb_likhtov:past:2mp', answer: 'כתבתם', given: 'כתבתם' });
+    expect(e.mistake!.prompt).toBe(`${it.pronoun} (${it.pronounEn}) · לכתוב · עבר`);
+    const wrong = forgeEvidence(it, it.okPre, wrongSuf(it));
+    expect(wrong.ok).toBe(false);
+    expect(wrong.evidence[0].ok).toBe(false);
+    expect(wrong.evidence[0].mistake!.given).toBe(finalize(it.okPre + it.stem + wrongSuf(it)));
+    expect(wrong.evidence[0].mistake!.given).not.toMatch(/[כמנפצ]$/);
+  });
+
+  it('reviews a due card once (g 3 right, g 1 wrong) and never creates or credits a card that is not due', () => {
+    const now = Date.now();
+    const a = forgeItemFor(likhtov, 'past', '1s', seeded(2))!;
+    const b = forgeItemFor(likhtov, 'past', '3p', seeded(3))!;
+    // due, right: one review at g 3, then the second item on the same card changes nothing
+    restoreState({ ...defaultState(), onboarded: true, level: 'B1', cards: { [card]: at(now - DAY) } });
+    const before = getState().cards[card];
+    const rated = new Set<string>();
+    expect(applyEvidence(forgeEvidence(a, a.okPre, a.okSuf).evidence, rated, now)).toBe(1);
+    expect(getState().cards[card]).toEqual(review(before, 3, now, getState().settings.retention));
+    expect(getState().days[getState().days.length - 1].reviews).toBe(1);
+    expect(getState().mistakes).toHaveLength(0);
+    const reviewed = getState().cards[card];
+    expect(applyEvidence(forgeEvidence(b, b.okPre, b.okSuf).evidence, rated, now)).toBe(0);
+    expect(getState().cards[card]).toEqual(reviewed);
+    // due, wrong: a g 1 review and the miss in the mistake bank
+    restoreState({ ...defaultState(), onboarded: true, level: 'B1', cards: { [card]: at(now - DAY) } });
+    expect(applyEvidence(forgeEvidence(a, a.okPre, wrongSuf(a)).evidence, new Set(), now)).toBe(0);
+    expect(getState().cards[card]).toEqual(review(at(now - DAY), 1, now, getState().settings.retention));
+    expect(getState().mistakes.map((m) => m.ref)).toEqual(['verb_likhtov:past:1s']);
+    // not due: right leaves it alone, wrong only makes it due now
+    restoreState({ ...defaultState(), onboarded: true, level: 'B1', cards: { [card]: at(now + 3 * DAY) } });
+    applyEvidence(forgeEvidence(a, a.okPre, a.okSuf).evidence, new Set(), now);
+    expect(getState().cards[card]).toEqual(at(now + 3 * DAY));
+    applyEvidence(forgeEvidence(a, a.okPre, wrongSuf(a)).evidence, new Set(), now);
+    expect(getState().cards[card]).toEqual({ ...at(now + 3 * DAY), due: now });
+    // no card: nothing is created
+    restoreState({ ...defaultState(), onboarded: true, level: 'B1' });
+    applyEvidence(forgeEvidence(a, a.okPre, a.okSuf).evidence, new Set(), now);
+    applyEvidence(forgeEvidence(b, b.okPre, wrongSuf(b)).evidence, new Set(), now);
+    expect(getState().cards).toEqual({});
+    expect(getState().mistakes).toHaveLength(1);
   });
 });

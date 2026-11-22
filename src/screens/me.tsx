@@ -10,10 +10,12 @@ import { SkillBar } from './assessment.tsx';
 import { go } from '../lib/router.ts';
 import { folderStatus, watchFolderStatus } from '../lib/localsave.ts';
 import { loadSemantic, semanticReady } from '../lib/semantic.ts';
-import { exportState, type Focus, importState, resetState, setState, streak, useAppState } from '../lib/store.ts';
+import { exportState, type Focus, importState, resetState, setState, streak, today, useAppState } from '../lib/store.ts';
 import { hebrewVoices, speak, ttsSupported } from '../lib/tts.ts';
 import { setupHelp } from '../lib/platform.ts';
 import { drillable, TENSES } from '../lib/session.ts';
+import { primeAudio, sfx } from '../games/kit.ts';
+import { planRide } from '../games/ride.ts';
 
 declare const __SINGLE__: boolean;
 declare const __HOSTED__: boolean;
@@ -107,6 +109,15 @@ export function MePage() {
     .map((t) => grammar.find((g) => g.id === t.topic))
     .filter(Boolean) as typeof grammar;
   const verbFocus = verbFocusLabel(s);
+  const rideToday = s.play.ride && s.play.ride.date === today() ? s.play.ride : null;
+  const rideStarted = !!rideToday && (rideToday.done.length > 0 || rideToday.terminus);
+  // A line nobody has ridden yet takes the new length today; one under way keeps its stops.
+  const setStops = (n: number) =>
+    set((st) => {
+      st.settings.rideStops = n;
+      const r = st.play.ride;
+      if (r && r.date === today() && !r.done.length && !r.terminus) r.plan = planRide(st, r.date);
+    });
 
   const [exported, setExported] = useState<string | null>(null);
   const doExport = async () => {
@@ -371,6 +382,58 @@ export function MePage() {
               )}
             </>
           )}
+        </div>
+
+        <div class="section-title">Games</div>
+        <div class="card">
+          <label class="row" style={{ cursor: 'pointer' }}>
+            <input
+              type="checkbox"
+              checked={s.settings.sound}
+              onClick={(e) => {
+                const on = (e.target as HTMLInputElement).checked;
+                set((st) => void (st.settings.sound = on));
+                // Inside the tap, so iOS lets the sound play.
+                if (on) {
+                  primeAudio();
+                  sfx('tap');
+                }
+              }}
+            />
+            <span class="grow">
+              🔈 Sound effects <span class="small muted">· soft blips for right, wrong and combos</span>
+            </span>
+          </label>
+          <label class="row mt" style={{ cursor: ttsSupported() ? 'pointer' : 'default' }}>
+            <input
+              type="checkbox"
+              checked={s.settings.gameVoice && ttsSupported()}
+              disabled={!ttsSupported()}
+              onChange={(e) => set((st) => void (st.settings.gameVoice = (e.target as HTMLInputElement).checked))}
+            />
+            <span class="grow">
+              🗣️ Speak Hebrew in games{' '}
+              <span class="small muted">
+                ·{' '}
+                {!ttsSupported()
+                  ? "speech isn't available in this browser"
+                  : voices.length
+                    ? 'answers are read aloud, and Echo can join the ride'
+                    : 'no Hebrew voice found on this device yet'}
+              </span>
+            </span>
+          </label>
+          <label class="row mt" style={{ cursor: 'pointer' }}>
+            <input type="checkbox" checked={s.settings.calm} onChange={(e) => set((st) => void (st.settings.calm = (e.target as HTMLInputElement).checked))} />
+            <span class="grow">
+              🐢 Calm motion <span class="small muted">· no confetti, bounces or shakes</span>
+            </span>
+          </label>
+          <div class="small muted mt">Stops per ride</div>
+          <Seg value={s.settings.rideStops} options={[2, 3, 4].map((n) => ({ v: n, label: `${n} stops` }))} onChange={setStops} />
+          <div class="small muted mt">
+            {rideStarted ? `Today's line keeps its ${rideToday!.plan.length} stops; the new length starts tomorrow.` : 'Each stop is one short round of a minute or two.'}
+          </div>
         </div>
 
         {__HOSTED__ && <div class="section-title">Experimental: on-device AI grading</div>}

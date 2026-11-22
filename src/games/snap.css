@@ -1,0 +1,111 @@
+/* Who's talking? (snap): the form in a speech bubble, pronoun keys below */
+.snap-stage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.snap-bubble {
+  --bb: var(--line);
+  --bf: var(--surface);
+  position: relative;
+  min-width: 220px;
+  max-width: 100%;
+  padding: 18px 28px 14px;
+  border: 2px solid var(--bb);
+  border-radius: 28px;
+  background: var(--bf);
+  box-shadow: 0 4px 0 var(--bb);
+  animation: pop 160ms ease-out;
+}
+/* the bubble's tail, pointing down at whoever says it */
+.snap-bubble::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -11px;
+  width: 18px;
+  height: 18px;
+  margin-left: -9px;
+  border-right: 2px solid var(--bb);
+  border-bottom: 2px solid var(--bb);
+  border-bottom-right-radius: 4px;
+  background: var(--bf);
+  transform: rotate(45deg);
+}
+.snap-bubble.ok {
+  --bb: var(--good);
+  --bf: var(--good-soft);
+  animation: pop 160ms ease-out;
+}
+.snap-bubble.bad {
+  --bb: var(--bad);
+  --bf: var(--bad-soft);
+  animation: shake 180ms ease-in-out;
+}
+.snap-bubble .he-game {
+  line-height: 1.15;
+}
+.snap-en {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 15px;
+}
+.snap-who {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 72px;
+  margin-top: 6px;
+}
+.snap-reveal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  min-width: 0;
+}
+.snap-ask {
+  color: var(--muted);
+  font-size: 15px;
+  font-style: italic;
+}
+.snap-say {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px 8px;
+  animation: pop 160ms ease-out;
+}
+.snap-say .he {
+  font-size: 24px;
+  font-weight: 600;
+}
+.snap-say b {
+  color: var(--primary);
+}
+.snap-mark {
+  font-weight: 800;
+  color: var(--good);
+}
+.snap-tr {
+  color: var(--muted);
+  font-size: 13px;
+  font-style: italic;
+}
+.snap-also {
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 16px;
+  font-weight: 600;
+}
+.snap-grid .opt {
+  min-height: 72px;
+}
+.snap-grid .opt .he {
+  font-size: 26px;
+}

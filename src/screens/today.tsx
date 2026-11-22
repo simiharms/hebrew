@@ -1,12 +1,16 @@
 import { Item, Progress, TopBar } from '../components/ui.tsx';
+import { LineMap, Shorshi } from '../games/kit-ui.tsx';
+import { GAMES } from '../games/kit.ts';
+import { rideStatus, sixStatus } from '../games/ride.ts';
 import { allVocab } from '../lib/content.ts';
 import { currentUnit, UNITS, unitProgress } from '../lib/course.ts';
 import { strength } from '../lib/fsrs.ts';
 import { levelUpSuggestion, todaysPlan } from '../lib/plan.ts';
 import { SKILLS, weakestSkills } from '../lib/skills.ts';
 import { go } from '../lib/router.ts';
-import { setState, streak, today, useAppState } from '../lib/store.ts';
+import { type AppState, setState, streak, today, useAppState } from '../lib/store.ts';
 import { isMac } from '../lib/platform.ts';
+import { Dock, RankChip, SixSquares } from './play.tsx';
 
 const TIPS = [
   ...(isMac ? [] : ['Answer by voice: tap the 🎤 on the Hebrew keyboard and speak — it trains pronunciation and iOS types it for you.']),
@@ -25,6 +29,51 @@ function greeting(): string {
   if (h < 12) return 'בוקר טוב';
   if (h < 17) return 'צהריים טובים';
   return 'ערב טוב';
+}
+
+/** Shoresh Play at a glance: today's line, the next stop and the Verb of the Day squares. */
+function PlayHero({ s }: { s: AppState }) {
+  const st = rideStatus(s);
+  const six = sixStatus(s);
+  const next = st.next ? GAMES.find((g) => g.id === st.next) : null;
+  return (
+    <section class="card hero-card" aria-label="Today's line">
+      <button class="hero-top" onClick={() => go('play')}>
+        <Shorshi mood={st.met ? 'cheer' : 'idle'} size={48} />
+        <span class="hero-txt">
+          <span class="hero-title">
+            Today's line · {st.done.length}/{st.goal} stops
+          </span>
+          <span class="hero-next">
+            {next ? (
+              <>
+                Next:{' '}
+                <span class="he" lang="he" dir="rtl">
+                  {next.titleHe}
+                </span>{' '}
+                · {next.title}
+              </>
+            ) : st.terminusOpen ? (
+              '👑 Terminus open · XP ×2'
+            ) : (
+              '✓ Line finished · a new one tomorrow'
+            )}
+          </span>
+        </span>
+        <RankChip xp={s.play.xp} />
+      </button>
+      <LineMap plan={st.plan} done={st.done} terminusOpen={st.terminusOpen} terminusDone={st.terminusDone} />
+      {six.open && (
+        <button class="hero-six" onClick={() => go('play/six')} aria-label={`Verb of the Day: ${six.marks.filter(Boolean).length} of 6${six.done ? ', done' : ''}`}>
+          <span class="he" lang="he" dir="rtl">
+            פועל היום
+          </span>
+          <SixSquares marks={six.marks} />
+          <span class="hero-six-go">{six.done ? 'Done ✓' : six.started ? 'Keep going' : 'Verb of the Day'} ›</span>
+        </button>
+      )}
+    </section>
+  );
 }
 
 export function Today() {
@@ -53,7 +102,7 @@ export function Today() {
           </button>
         }
       />
-      <main class="page">
+      <main class="page has-dock">
         <div class="row">
           <div class="grow">
             <div class="he he-lg" style={{ textAlign: 'left' }}>
@@ -64,6 +113,7 @@ export function Today() {
             </div>
           </div>
         </div>
+        <PlayHero s={s} />
         <div class="stats mt">
           <div class="stat">
             <div class="num">{st}🔥</div>
@@ -155,6 +205,7 @@ export function Today() {
           💡 <span>{tip}</span>
         </div>
       </main>
+      <Dock />
     </>
   );
 }

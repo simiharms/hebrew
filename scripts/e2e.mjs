@@ -2,7 +2,7 @@
 // through the main flows, typing correct answers taken from the content files.
 // Usage: node scripts/e2e.mjs [baseUrl] [screenshotDir]
 import { chromium } from 'playwright-core';
-import { mkdirSync, readdirSync, readFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readdirSync, readFileSync } from 'node:fs';
 
 const base = process.argv[2] ?? 'http://localhost:4173/';
 const out = process.argv[3];
@@ -60,6 +60,30 @@ await page.getByText(/Start at B1/).click();
 await page.waitForTimeout(200);
 check(await page.getByText("Today's plan").isVisible(), 'onboarding leads to Today');
 await shot('e2e-today');
+
+// --- play: Shoresh Play. Each scripts/e2e-play/<name>.mjs exports
+// `default async (t) => …`; a file that isn't there yet is skipped with a note.
+{
+  const { playTap } = await import('./e2e-play/helpers.mjs');
+  const t = { page, check, nav, playTap: (hash, max) => playTap(page, hash, max), shot, verbs, vocab, grammar, readings, scenes };
+  page.setDefaultTimeout(8000);
+  for (const name of ['shell', 'snap', 'sort', 'smash', 'forge', 'six', 'echo', 'match', 'gender', 'gap', 'ride']) {
+    const file = new URL(`./e2e-play/${name}.mjs`, import.meta.url);
+    if (!existsSync(file)) {
+      console.log(`skip play/${name}: scripts/e2e-play/${name}.mjs not written yet`);
+      continue;
+    }
+    try {
+      const { default: run } = await import(file.href);
+      await run(t);
+    } catch (e) {
+      check(false, `play/${name}: ${String(e?.message ?? e).split('\n')[0]}`);
+    }
+    // Leave the page as the next block expects it.
+    await page.emulateMedia({ reducedMotion: null, colorScheme: null }).catch(() => {});
+  }
+  await nav('#/today');
+}
 
 // --- word session: answer every prompt correctly
 await nav('#/session/words');

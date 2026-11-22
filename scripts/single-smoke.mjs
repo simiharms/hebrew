@@ -11,7 +11,7 @@ await page.goto('file:///home/user/hebrew/dist-single/index.html');
 await page.getByText("Let's set up").click();
 await page.getByText('Next →').click();
 await page.getByText(/Start at/).click();
-await page.getByRole('button', { name: 'Read', exact: true }).click();
+await page.getByRole('button', { name: 'Stories', exact: true }).click();
 await page.locator('.item').nth(1).click();
 const title = await page.locator('.topbar h1').textContent();
 await page.getByRole('button', { name: 'Back' }).click();

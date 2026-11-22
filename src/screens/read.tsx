@@ -2,7 +2,7 @@ import { useState } from 'preact/hooks';
 import { OpenQuestion, WritingBox } from '../components/answer.tsx';
 import { FindSet, SummarySet, TrueFalseSet } from '../components/exercises.tsx';
 import { HeText, learnGlossary } from '../components/hebrew.tsx';
-import { Item, LevelBadge, SpeakBtn, TopBar } from '../components/ui.tsx';
+import { Item, LevelBadge, SpeakBtn, StoriesSwitch, TopBar } from '../components/ui.tsx';
 import type { Level, Question } from '../content/types.ts';
 import { LEVELS } from '../content/types.ts';
 import { levelRank, readings, scenes } from '../lib/content.ts';
@@ -32,8 +32,9 @@ export function ReadList() {
   const order = [...LEVELS].sort((a, b) => Math.abs(levelRank(a) - levelRank(s.level)) - Math.abs(levelRank(b) - levelRank(s.level)));
   return (
     <>
-      <TopBar title="Read" />
+      <TopBar title="Stories" />
       <main class="page">
+        <StoriesSwitch active="read" />
         <div class="card primary small">
           Tap any word for its meaning, root and prefixes. Answer the questions <strong>in Hebrew</strong> — that's where the learning happens.
         </div>

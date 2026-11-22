@@ -1,0 +1,342 @@
+/* Verb of the Day (six): a Wordle-style grid of six rows, typed answers.
+   Compact so the grid and the input both fit above the iOS keyboard. */
+.six-stage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+.six-board {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.six-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.six-inf {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.15;
+  text-align: center;
+}
+.six-meta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 14px;
+}
+.six-binyan {
+  padding: 0 8px;
+  border-radius: 999px;
+  background: var(--surface-2);
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+/* The grid; rows read right to left: pronoun, tense, the form, its square */
+.six-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.six-row {
+  display: grid;
+  grid-template-columns: 76px 50px minmax(0, 1fr) 34px;
+  align-items: center;
+  gap: 6px;
+  min-height: 46px;
+  padding: 3px 8px;
+  border: 2px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+  text-align: right;
+}
+.six-row.now {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px var(--primary-soft);
+}
+.six-row.g {
+  border-color: var(--good);
+  background: var(--good-soft);
+}
+.six-row.y {
+  border-color: var(--gold);
+  background: var(--gold-soft);
+}
+.six-row.r {
+  border-color: var(--bad);
+  background: var(--bad-soft);
+}
+.six-who {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+  line-height: 1.1;
+}
+.six-who .he {
+  font-size: 19px;
+  font-weight: 700;
+}
+.six-who-en {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--muted);
+  font-size: 11px;
+}
+.six-tense {
+  --tc: var(--muted);
+  justify-self: start;
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: var(--surface-2);
+  background: color-mix(in srgb, var(--tc) 15%, var(--surface));
+  color: var(--tc);
+  font-family: var(--he-font);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.six-tense.past {
+  --tc: var(--tense-past);
+}
+.six-tense.present {
+  --tc: var(--tense-present);
+}
+.six-tense.future {
+  --tc: var(--tense-future);
+}
+.six-tense.imp {
+  --tc: var(--tense-imp);
+}
+.six-cell {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  min-height: 34px;
+  overflow: hidden;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+.six-row.g .six-cell,
+.six-row.y .six-cell,
+.six-row.r .six-cell {
+  animation: sixFlip 300ms ease-out;
+}
+.six-row.g .six-form {
+  color: var(--good);
+}
+.six-row.r .six-form {
+  color: var(--text);
+}
+.six-given {
+  color: var(--bad);
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration-thickness: 2px;
+}
+.six-typed {
+  color: var(--primary);
+}
+.six-caret {
+  display: inline-block;
+  width: 2px;
+  height: 26px;
+  margin-right: -6px;
+  border-radius: 1px;
+  background: var(--primary);
+  animation: sixBlink 1s steps(1) infinite;
+}
+
+/* Squares: colour plus a ✓ ~ ✕ sign */
+.sq {
+  justify-self: end;
+  width: 30px;
+  height: 30px;
+  border: 2px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--surface);
+  font: 800 16px/1 var(--ui-font);
+}
+.sq.g {
+  border-color: var(--good);
+  background: var(--good);
+}
+.sq.y {
+  border-color: var(--gold);
+  background: var(--gold);
+  color: #1b1f27;
+  font-size: 22px;
+}
+.sq.r {
+  border-color: var(--bad);
+  background: var(--bad);
+}
+.six-row.g .sq,
+.six-row.y .sq,
+.six-row.r .sq {
+  animation: pop 220ms ease-out;
+}
+
+/* The done grid fills in row by row */
+.six-board.done .six-row .six-cell,
+.six-board.done .six-row .sq {
+  animation-delay: calc(var(--i, 0) * 90ms);
+  animation-fill-mode: both;
+}
+
+.six-note {
+  min-height: 22px;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 600;
+}
+.six-note.close {
+  color: var(--warn);
+}
+.six-note.bad {
+  color: var(--bad);
+}
+.six-note.hint {
+  color: var(--primary);
+}
+
+/* Top-anchored: the input follows the grid instead of the screen's bottom edge.
+   It is still in the bottom half, but high enough that iOS barely scrolls when
+   the keyboard comes up, so the grid stays in view while typing. */
+.game[data-game='six']:not(.six-done) > .game-stage {
+  flex: 0 0 auto;
+  justify-content: flex-start;
+  padding-top: 12px;
+  padding-bottom: 6px;
+}
+.game[data-game='six']:not(.six-done) > .game-controls {
+  margin-top: 0;
+  padding-top: 4px;
+}
+
+/* Input and Check side by side: one row less to fit above the keyboard */
+.six-entry {
+  display: flex;
+  gap: 8px;
+}
+.six-entry .answer {
+  flex: 1;
+  min-width: 0;
+  min-height: 56px;
+  border-radius: 16px;
+  font-size: 24px;
+}
+.btn.six-go {
+  flex: none;
+  min-width: 104px;
+  min-height: 56px;
+  border-radius: 16px;
+  font-size: 17px;
+  touch-action: manipulation;
+}
+/* The Check button turns into Next after a miss, so the input keeps the keyboard up. */
+.game[data-game='six'] .game-continue {
+  display: none;
+}
+
+/* Share */
+.six-share {
+  width: 100%;
+  max-width: 400px;
+  margin: 14px auto 0;
+  padding: 14px;
+  border-radius: 16px;
+  background: var(--surface-2);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+.six-done .six-share {
+  margin-top: 4px;
+}
+.six-share-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: left;
+}
+.six-share-title {
+  font-size: 18px;
+  font-weight: 800;
+}
+.six-share-title .he {
+  font-size: 22px;
+}
+.six-share-sub {
+  color: var(--muted);
+  font-size: 13px;
+}
+.six-squares {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.six-squares .sq {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  font-size: 20px;
+  animation: pop 240ms ease-out both;
+  animation-delay: calc(var(--i, 0) * 70ms);
+}
+.six-share-msg {
+  color: var(--good);
+  font-size: 14px;
+  font-weight: 700;
+}
+.six-share-text {
+  margin: 0;
+  padding: 10px;
+  border-radius: 10px;
+  background: var(--surface);
+  font: 14px/1.5 var(--ui-font);
+  white-space: pre-wrap;
+  -webkit-user-select: all;
+  user-select: all;
+}
+
+@keyframes sixFlip {
+  0% {
+    opacity: 0.2;
+    transform: rotateX(90deg);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes sixBlink {
+  50% {
+    opacity: 0;
+  }
+}

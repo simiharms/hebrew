@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'preact/hooks';
 import { Dictation } from '../components/answer.tsx';
 import { HeText, learnGlossary } from '../components/hebrew.tsx';
-import { Item, LevelBadge, Seg, TopBar } from '../components/ui.tsx';
+import { Item, LevelBadge, Seg, StoriesSwitch, TopBar } from '../components/ui.tsx';
 import { LEVELS } from '../content/types.ts';
 import { levelRank, scenes } from '../lib/content.ts';
 import { go } from '../lib/router.ts';
@@ -31,10 +31,11 @@ export function ListenList() {
   const order = [...LEVELS].sort((a, b) => Math.abs(levelRank(a) - levelRank(s.level)) - Math.abs(levelRank(b) - levelRank(s.level)));
   return (
     <>
-      <TopBar title="Listen" />
+      <TopBar title="Stories" />
       <main class="page">
+        <StoriesSwitch active="listen" />
         <div class="card primary small">
-          Short TV-style scenes in real spoken Hebrew — slang, interruptions, office talk. Listen <strong>without the text</strong>
+          Short TV-style scenes in real spoken Hebrew — slang, interruptions, office talk. Listen <strong>without the text</strong>{' '}
           first, answer in Hebrew, then check the transcript.
         </div>
         {!ttsSupported() && <div class="card accent small">This browser has no speech output. On iPhone use Safari.</div>}

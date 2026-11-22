@@ -1,7 +1,11 @@
+import { useEffect } from 'preact/hooks';
 import { GlossSheet } from './components/hebrew.tsx';
 import { TabBar, ToastHost } from './components/ui.tsx';
+import { GAMES, type GameMode } from './games/kit.ts';
+import { GAME_COMPONENTS } from './games/registry.ts';
+import { startRide } from './games/ride.ts';
 import { useRoute } from './lib/router.ts';
-import { useAppState } from './lib/store.ts';
+import { type GameId, useAppState } from './lib/store.ts';
 import { AssessmentPage } from './screens/assessment.tsx';
 import { CoursePage, UnitCheck, UnitPage } from './screens/course.tsx';
 import { GrammarLessonPage, GrammarList } from './screens/grammar.tsx';
@@ -11,6 +15,7 @@ import { MistakesPage } from './screens/mistakes.tsx';
 import { NumbersPage } from './screens/numbers.tsx';
 import { Onboarding } from './screens/onboarding.tsx';
 import { OwnList, OwnText } from './screens/own.tsx';
+import { CollectionPage, PlayHub } from './screens/play.tsx';
 import { PracticeHub, Resources } from './screens/practice.tsx';
 import { ReadList, Reader } from './screens/read.tsx';
 import { WordSession } from './screens/session-words.tsx';
@@ -33,9 +38,10 @@ const TAB_OF: Record<string, string> = {
   verb: 'words',
   decks: 'words',
   deck: 'words',
+  play: 'play',
   read: 'read',
   own: 'read',
-  listen: 'listen',
+  listen: 'read',
   numbers: 'practice',
   practice: 'practice',
   grammar: 'practice',
@@ -43,6 +49,25 @@ const TAB_OF: Record<string, string> = {
   mistakes: 'practice',
   resources: 'practice',
 };
+
+// #/play/<game>/<mode>: a mode the game doesn't have (a sprint of Who's
+// talking?, a terminus that isn't Table Smash) plays as free play.
+function gameMode(id: GameId, mode: string | undefined): GameMode {
+  if (mode === 'ride') return 'ride';
+  if (mode === 'sprint' && GAMES.find((g) => g.id === id)?.sprint) return 'sprint';
+  if (mode === 'terminus' && id === 'smash') return 'terminus';
+  return 'free';
+}
+
+function GameRoute({ id, mode }: { id: GameId; mode: GameMode }) {
+  const Game = GAME_COMPONENTS[id];
+  // A stop opened straight from a link still starts today's ride, so the line keeps its plan.
+  useEffect(() => {
+    if (mode === 'ride') startRide();
+  }, [mode]);
+  // Keyed by route: ride → terminus on the same game is a new round with fresh local state.
+  return <Game key={`${id}/${mode}`} mode={mode} />;
+}
 
 function screen(route: string[]) {
   const [a = 'today', b, c] = route;
@@ -83,6 +108,11 @@ function screen(route: string[]) {
     case 'listen':
       if (b === 'train') return <ListenTrainer />;
       return b ? <ScenePlayer id={b} /> : <ListenList />;
+    case 'play':
+      if (!b) return <PlayHub />;
+      if (b === 'collection') return <CollectionPage />;
+      if (!GAMES.some((g) => g.id === b)) return <PlayHub />;
+      return <GameRoute id={b as GameId} mode={gameMode(b as GameId, c)} />;
     case 'practice':
       return <PracticeHub />;
     case 'grammar':
@@ -109,7 +139,10 @@ export function App() {
   const s = useAppState();
   const first = route[0] ?? 'today';
   const effective = !s.onboarded && first !== 'placement' && first !== 'assessment' ? ['onboarding'] : route;
-  const focusMode = ['session', 'onboarding', 'placement', 'assessment'].includes(effective[0] ?? '') || (effective[0] === 'unit' && effective[2] === 'check');
+  const focusMode =
+    ['session', 'onboarding', 'placement', 'assessment'].includes(effective[0] ?? '') ||
+    (effective[0] === 'unit' && effective[2] === 'check') ||
+    (effective[0] === 'play' && GAMES.some((g) => g.id === effective[1]));
   return (
     <div class="app">
       <div key={effective.join('/')} style={{ display: 'contents' }}>

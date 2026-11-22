@@ -19,11 +19,12 @@ export function TopBar({ title, backTo, right }: { title: string; backTo?: strin
   );
 }
 
+// Play sits in the middle, in easy thumb reach; Stories holds Read and Listen.
 const TABS = [
   { id: 'today', label: 'Today', ico: '☀️' },
   { id: 'words', label: 'Words', ico: '🌱' },
-  { id: 'read', label: 'Read', ico: '📰' },
-  { id: 'listen', label: 'Listen', ico: '📺' },
+  { id: 'play', label: 'Play', ico: '🚌' },
+  { id: 'read', label: 'Stories', ico: '📚' },
   { id: 'practice', label: 'Practice', ico: '✍️' },
 ];
 
@@ -32,13 +33,36 @@ export function TabBar({ active }: { active: string }) {
     <nav class="tabbar">
       <div class="tabbar-inner">
         {TABS.map((t) => (
-          <button class={`tab ${active === t.id ? 'active' : ''}`} onClick={() => go(t.id)} aria-label={t.label}>
-            <span class="ico">{t.ico}</span>
+          <button
+            class={`tab tab-${t.id} ${active === t.id ? 'active' : ''}`}
+            onClick={() => go(t.id)}
+            aria-label={t.label}
+            aria-current={active === t.id ? 'page' : undefined}
+          >
+            <span class="ico" aria-hidden="true">
+              {t.ico}
+            </span>
             {t.label}
           </button>
         ))}
       </div>
     </nav>
+  );
+}
+
+/** Read ↔ Listen at the top of the Stories lists. */
+export function StoriesSwitch({ active }: { active: 'read' | 'listen' }) {
+  return (
+    <div class="stories-switch">
+      <Seg
+        value={active}
+        options={[
+          { v: 'read', label: '📰 Read' },
+          { v: 'listen', label: '📺 Listen' },
+        ]}
+        onChange={(v) => v !== active && go(v)}
+      />
+    </div>
   );
 }
 
@@ -109,7 +133,7 @@ export function Seg<T extends string | number>({
   return (
     <div class="seg" role="group">
       {options.map((o) => (
-        <button class={o.v === value ? 'on' : ''} onClick={() => onChange(o.v)}>
+        <button class={o.v === value ? 'on' : ''} aria-pressed={o.v === value} onClick={() => onChange(o.v)}>
           {o.label}
         </button>
       ))}

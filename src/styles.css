@@ -1824,3 +1824,598 @@ select.select {
 .game[data-calm] * {
   animation: none !important;
 }
+
+/* ===== Play hub, dock, Today hero and tabs ===== */
+
+/* Dock: icon · label and next step · go */
+.dock {
+  bottom: calc(66px + env(safe-area-inset-bottom, 0px));
+  padding: 8px 10px 8px 8px;
+  animation: rise 200ms ease-out;
+}
+.dock .dock-ico {
+  flex: none;
+  width: 42px;
+  height: 42px;
+  border-radius: 13px;
+  background: rgba(255, 255, 255, 0.16);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 23px;
+  line-height: 1;
+}
+.dock .dock-txt {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.25;
+}
+.dock .dock-label,
+.dock .sub {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.dock .dock-go {
+  flex: none;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--primary-ink);
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  padding-left: 2px;
+}
+.dock.dock-terminus {
+  background: var(--gold);
+  color: #1b1f27;
+}
+.dock.dock-terminus .dock-go {
+  background: #1b1f27;
+  color: var(--gold);
+}
+.dock.dock-six {
+  background: var(--good);
+  color: var(--primary-ink);
+}
+.dock.dock-six .dock-go {
+  background: var(--primary-ink);
+  color: var(--good);
+}
+.dock.dock-resume .dock-ico {
+  background: var(--accent);
+}
+
+/* Rank chip (Today hero, hub header) */
+.rank-chip {
+  flex: none;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--gold-soft);
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 800;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Verb of the Day squares */
+.six-strip {
+  display: inline-flex;
+  gap: 4px;
+  direction: ltr;
+  vertical-align: middle;
+}
+.six-strip i {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  border: 2px solid var(--line);
+  background: var(--surface);
+}
+.six-strip i.g {
+  border-color: var(--good);
+  background: var(--good);
+}
+.six-strip i.y {
+  border-color: var(--gold);
+  background: var(--gold);
+}
+.six-strip i.r {
+  border-color: var(--bad);
+  background: var(--bad);
+}
+
+/* Today: one compact card for Shoresh Play */
+.hero-card {
+  padding: 12px 14px 8px;
+}
+.hero-top {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
+  cursor: pointer;
+}
+.hero-txt {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+}
+.hero-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+.hero-next {
+  font-size: 13px;
+  color: var(--muted);
+}
+.hero-next .he {
+  font-size: 15px;
+  color: var(--text);
+}
+.hero-card .line-map {
+  margin: 10px 0 4px;
+}
+.hero-six {
+  width: 100%;
+  min-height: 44px;
+  margin: 2px 0 0;
+  padding: 6px 0 0;
+  border: 0;
+  border-top: 1px solid var(--line);
+  background: transparent;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.hero-six .he {
+  font-size: 16px;
+  font-weight: 600;
+}
+.hero-six-go {
+  margin-left: auto;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--primary);
+  white-space: nowrap;
+}
+
+/* Hub: today's line */
+.ride-card {
+  margin: 10px 0;
+  padding: 14px 14px 16px;
+  border: 1px solid transparent;
+  border-color: color-mix(in srgb, var(--primary) 22%, transparent);
+  border-radius: 20px;
+  background: var(--primary-soft);
+}
+.ride-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.ride-head .grow {
+  flex: 1;
+  min-width: 0;
+}
+.ride-head h2 {
+  margin: 0;
+  font-size: 18px;
+}
+.ride-sub {
+  font-size: 13px;
+  color: var(--muted);
+}
+.ride-count {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--primary);
+  font-variant-numeric: tabular-nums;
+}
+.ride-card .line-map {
+  margin: 14px 0 10px;
+}
+.ride-next {
+  margin: 0 0 12px;
+  font-size: 15px;
+}
+.ride-next .he {
+  font-size: 17px;
+}
+.ride-next .small {
+  margin-top: 2px;
+}
+.ride-done {
+  padding: 10px 4px 2px;
+  text-align: center;
+  color: var(--good);
+  font-weight: 600;
+}
+.btn.gold {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: #1b1f27;
+}
+
+/* Hub: level and this week */
+.level-card .lv-num {
+  font-size: 22px;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+.level-card .lv-rank {
+  flex: 1;
+  min-width: 0;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.level-card .lv-rank .he {
+  font-size: 16px;
+}
+.level-card .lv-total {
+  font-size: 13px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.level-card .lvl-bar {
+  height: 10px;
+  margin: 8px 0 4px;
+}
+.lv-to {
+  font-size: 12px;
+  color: var(--muted);
+}
+.week {
+  display: flex;
+  align-items: flex-end;
+  gap: 14px;
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid var(--line);
+}
+.week-bars {
+  display: flex;
+  align-items: stretch;
+  gap: 5px;
+  height: 46px;
+}
+.week-bars .wb {
+  width: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+.week-bars .wb i {
+  flex: 1;
+  width: 100%;
+  border-radius: 3px;
+  background: var(--primary);
+  opacity: 0.45;
+  transform-origin: bottom center;
+}
+.week-bars .wb.today i {
+  opacity: 1;
+}
+.week-bars .wb small {
+  font-size: 10px;
+  line-height: 1;
+  color: var(--muted);
+}
+.week-empty {
+  flex: 1.4;
+  line-height: 1.35;
+}
+.week-txt {
+  flex: 1;
+  min-width: 0;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+.week-txt .up {
+  color: var(--good);
+}
+.week-txt .down {
+  color: var(--bad);
+}
+
+/* Hub: Verb of the Day card */
+.six-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--text);
+  text-align: left;
+  cursor: pointer;
+}
+.six-card .grow {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+.six-card .six-ico {
+  font-size: 28px;
+  line-height: 1;
+}
+.six-card .six-title {
+  font-weight: 700;
+}
+.six-card .six-title .he {
+  font-size: 16px;
+}
+.six-card.done {
+  border-color: transparent;
+  background: var(--good-soft);
+}
+.six-card:active,
+.hero-top:active,
+.hero-six:active {
+  opacity: 0.8;
+}
+
+/* Hub: game tiles (a cell holds the tile and, for sort and match, a Sprint button) */
+.game-cell {
+  position: relative;
+  display: flex;
+  min-width: 0;
+}
+.game-cell .game-tile {
+  flex: 1;
+  min-width: 0;
+  min-height: 150px;
+}
+/* An odd last tile takes the whole row instead of leaving a hole. */
+.game-grid > .game-cell:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+}
+.game-grid > .game-cell:last-child:nth-child(odd) .game-tile {
+  min-height: 0;
+}
+.game-tile .title {
+  line-height: 1.25;
+}
+.game-tile .pitch {
+  margin-top: 3px;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--muted);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.game-tile .tile-foot {
+  margin-top: auto;
+  padding-top: 8px;
+  min-height: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+.game-cell.has-sprint .tile-foot {
+  min-height: 44px;
+}
+.game-tile .tile-foot .best {
+  margin-top: 0;
+}
+.game-tile .best .off {
+  color: var(--line);
+}
+.game-tile .tag {
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: var(--surface-2);
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.game-tile.locked .tag.lock {
+  background: var(--warn-soft);
+  color: var(--warn);
+}
+.tile-flag {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+.game-sprint {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  min-height: 44px;
+  padding: 0 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.15;
+  border: 0;
+  border-radius: 12px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 800;
+  white-space: nowrap;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+.game-sprint small {
+  font-size: 11px;
+  font-weight: 700;
+  opacity: 0.85;
+  font-variant-numeric: tabular-nums;
+}
+.game-sprint:active {
+  transform: scale(0.96);
+}
+.game-sprint:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+/* Hub: bus settings */
+.play-prefs .chip {
+  min-height: 44px;
+  padding: 8px 16px;
+  font-size: 15px;
+}
+.chip:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.prefs-note {
+  margin: 8px 4px 12px;
+}
+
+/* Verb collection */
+.coll-big {
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+}
+.coll-medals {
+  display: flex;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.coll-note {
+  margin: 10px 0 0;
+}
+.badge-shelf {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+.badge-tile {
+  padding: 10px 6px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  text-align: center;
+  opacity: 0.55;
+}
+.badge-tile .b-emoji {
+  font-size: 26px;
+  line-height: 1.2;
+  filter: grayscale(1);
+}
+.badge-tile .he {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+}
+.badge-tile .b-en {
+  font-size: 11px;
+  line-height: 1.25;
+  color: var(--muted);
+}
+.badge-tile.on {
+  border-color: transparent;
+  background: var(--gold-soft);
+  opacity: 1;
+}
+.badge-tile.on .b-emoji {
+  filter: none;
+}
+.vchips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  direction: rtl;
+}
+.vchip {
+  min-height: 40px;
+  padding: 4px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+.vchip .he {
+  font-size: 17px;
+}
+.vchip .vm {
+  font-size: 14px;
+  color: var(--muted);
+}
+.vchip.m1 {
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--line));
+}
+.vchip.m2 {
+  border-color: color-mix(in srgb, var(--primary) 45%, var(--line));
+  background: var(--primary-soft);
+}
+.vchip.m3 {
+  border-color: var(--gold);
+  background: var(--gold-soft);
+}
+.vchip:active {
+  transform: scale(0.97);
+}
+.vchip:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+/* Stories: Read ↔ Listen */
+.stories-switch {
+  margin: 2px 0 10px;
+}
+.stories-switch .seg {
+  display: flex;
+  width: 100%;
+}
+.stories-switch .seg button {
+  flex: 1;
+  min-height: 40px;
+  font-size: 15px;
+}
+
+.session-xp {
+  padding: 4px 12px;
+  font-size: 15px;
+}

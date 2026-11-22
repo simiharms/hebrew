@@ -1,0 +1,144 @@
+/* Gap Dash (gap): the sentence on a card, three answers stacked below */
+.gap-stage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 12px;
+}
+.gap-lesson {
+  align-self: center;
+  max-width: 100%;
+  display: inline-flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2px 8px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: var(--primary-soft);
+  color: var(--primary);
+  font-size: 13px;
+  font-weight: 700;
+}
+.gap-lesson .he {
+  font-size: 15px;
+  text-align: center;
+}
+.gap-lesson-en {
+  font-weight: 600;
+  opacity: 0.85;
+}
+.gap-card {
+  --gc: var(--line);
+  padding: 18px 16px 14px;
+  border: 2px solid var(--gc);
+  border-radius: 20px;
+  background: var(--surface);
+  box-shadow: 0 4px 0 var(--gc);
+  animation: pop 160ms ease-out;
+}
+.gap-card .he-lg {
+  font-size: 25px;
+  line-height: 1.6;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+.gap-card.ok {
+  --gc: var(--good);
+  background: var(--good-soft);
+}
+.gap-card.bad {
+  --gc: var(--bad);
+  background: var(--bad-soft);
+  animation: shake 180ms ease-in-out;
+}
+/* the filled gap takes the verdict colour (renderPrompt styles it inline) */
+.gap-card.ok .he-lg span {
+  color: var(--good) !important;
+  border-bottom-color: var(--good) !important;
+  font-weight: 700;
+}
+.gap-card.bad .he-lg span {
+  color: var(--good) !important;
+  border-bottom-color: var(--good) !important;
+  font-weight: 700;
+}
+.gap-en {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.35;
+  text-align: center;
+}
+.gap-after {
+  min-height: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  text-align: center;
+}
+.gap-hint-btn,
+.gap-flag {
+  min-height: 44px;
+  padding: 6px 16px;
+  border: 1px dashed var(--line);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+.gap-hint-btn:focus-visible,
+.gap-flag:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+.gap-hint {
+  padding: 8px 14px;
+  border-radius: 12px;
+  background: var(--warn-soft);
+  color: var(--text);
+  font-size: 15px;
+  animation: pop 160ms ease-out;
+}
+.gap-verdict {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4px 8px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--muted);
+  animation: pop 160ms ease-out;
+}
+.gap-answer {
+  font-size: 22px;
+  color: var(--good);
+}
+.gap-explain {
+  margin: 0;
+  max-width: 34em;
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.45;
+}
+.gap-flag {
+  margin-top: 2px;
+  font-size: 13px;
+}
+.gap-flagged {
+  margin: 2px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+.gap-opts .opt {
+  min-height: 60px;
+}
+.gap-opts .opt .he {
+  font-size: 24px;
+}

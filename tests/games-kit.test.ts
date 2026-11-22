@@ -862,6 +862,17 @@ describe('round machine (useRound without Preact)', () => {
     expect(stored()!.results.filter(Boolean).length).toBe(11);
     expect(stored()!.xp).toBe(xp);
   });
+  it("gives a right answer with a note ('read') 1.8 s on screen, and a wrong one still holds", () => {
+    const m = make();
+    m.view().answer({ ok: true }, 'read');
+    vi.advanceTimersByTime(1799);
+    expect(m.view()).toMatchObject({ status: true, index: 0 });
+    vi.advanceTimersByTime(1);
+    expect(m.view()).toMatchObject({ status: null, index: 1 });
+    m.view().answer({ ok: false }, 'read');
+    vi.advanceTimersByTime(5000);
+    expect(m.view()).toMatchObject({ status: false, index: 1, shell: { hold: true, ready: true } });
+  });
   it('holds a wrong answer on Continue, taking taps after 400 ms', () => {
     const m = make();
     m.view().answer({ ok: true }, 'now');

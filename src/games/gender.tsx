@@ -189,7 +189,7 @@ export function GenderGame({ mode }: GameProps) {
     setPick({ key: it.key, k: c.k });
     const evidence: Evidence[] = [{ tier: 'tap', ok: c.ok, skill: 'grammar', topics: [TOPIC], cardId: null }];
     const miss = it.kind === 'gender' ? `${it.he} → ${NAME[it.gender]}` : `${it.he} → ${it.plural}`;
-    round.answer({ ok: c.ok, evidence, miss });
+    round.answer({ ok: c.ok, evidence, miss }, it.surprise ? 'read' : 'auto');
     say(it.kind === 'gender' ? `${it.he} ${ONE[it.gender]}` : `${it.he}, ${it.plural}`, it.gender);
   };
 

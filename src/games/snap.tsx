@@ -104,7 +104,7 @@ export function SnapGame({ mode }: GameProps) {
         cardId: it.tense === 'imp' ? null : `c:${it.verbId}:${it.tense}`,
       },
     ];
-    round.answer({ ok: c.ok, evidence, miss: `${it.also.join(' / ')} · ${TENSE_LABEL[it.tense].he} → ${it.form}`, verbId: it.verbId });
+    round.answer({ ok: c.ok, evidence, miss: `${it.also.join(' / ')} · ${TENSE_LABEL[it.tense].he} → ${it.form}`, verbId: it.verbId }, it.also.length > 1 ? 'read' : 'auto');
     say(`${right} ${it.form}`, voiceOf(it, right));
   };
 

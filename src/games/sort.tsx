@@ -138,7 +138,7 @@ export function SortGame({ mode }: GameProps) {
     const evidence: Evidence[] = [
       { tier: 'tap', ok: c.ok, skill: 'verbs', topics: [`tense:${it.shownTense}`], cardId: it.shownTense === 'imp' ? null : `c:${it.verbId}:${it.shownTense}` },
     ];
-    round.answer({ ok: c.ok, evidence, miss: `${it.form} → ${rightLanes.map((t) => TENSE_LABEL[t].he).join(' / ')}`, verbId: it.verbId });
+    round.answer({ ok: c.ok, evidence, miss: `${it.form} → ${rightLanes.map((t) => TENSE_LABEL[t].he).join(' / ')}`, verbId: it.verbId }, rightLanes.length > 1 && mode !== 'sprint' ? 'read' : 'auto');
     say(it.form);
   };
 

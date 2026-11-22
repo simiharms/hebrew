@@ -63,8 +63,9 @@ export interface Round<I> {
   rated: Set<string>; // cards already reviewed this round (seed it to carry one over, e.g. Daily Six)
   // Applies evidence, XP, combo and sfx, saves the snapshot and returns the XP gained.
   //   'auto' (default): right moves on after 450 ms; wrong shows Continue (live after 400 ms).
+  //   'read': like 'auto', but a right answer stays 1.8 s so a teaching note can be read.
   //   'now': moves on at once. 'hold': always shows Continue.
-  answer(o: Outcome, advance?: 'auto' | 'now' | 'hold'): number;
+  answer(o: Outcome, advance?: Advance): number;
   miss(evidence?: Evidence[], index?: number): void; // a wrong try that doesn't end the item (Match, Smash)
   next(): void; // what Continue does
   restart(): void; // a fresh round (Again)
@@ -109,7 +110,10 @@ interface Live<I> {
   last: number | null; // when the sprint clock last ticked (null: paused)
 }
 
+export type Advance = 'auto' | 'read' | 'now' | 'hold';
+
 const AUTO_MS = 450; // a right answer moves on by itself
+const READ_MS = 1800; // … or after this long when it shows a note worth reading
 const CONTINUE_MS = 400; // Continue ignores taps this long after an answer
 const COMBO_STEPS = [3, 6, 10];
 const PRAISE: Record<number, string> = { 3: 'יופי!', 6: 'אש!', 10: 'וואלה!' };
@@ -238,7 +242,7 @@ export function createRound<I extends { key: string }>(o: RoundOpts<I>, onChange
     if (i >= 0) l.index = i;
     onChange();
   };
-  const answer = (out: Outcome, advance: 'auto' | 'now' | 'hold' = 'auto'): number => {
+  const answer = (out: Outcome, advance: Advance = 'auto'): number => {
     const { snap } = l;
     const i = out.index ?? l.index;
     if (l.finished || i < 0 || i >= snap.items.length || snap.results[i]) return 0;
@@ -272,7 +276,7 @@ export function createRound<I extends { key: string }>(o: RoundOpts<I>, onChange
         mine.ready = true;
         onChange();
       }, CONTINUE_MS);
-    } else autoT = setTimeout(next, AUTO_MS);
+    } else autoT = setTimeout(next, advance === 'read' ? READ_MS : AUTO_MS);
     onChange();
     return gain;
   };

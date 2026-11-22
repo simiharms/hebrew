@@ -17,6 +17,10 @@ export interface Settings {
   dailyMinutes: number;
   deckDir: 'he2en' | 'en2he'; // which side of a flash card you see first
   verbsOnly: boolean; // the daily plan is all verb practice
+  sound: boolean; // game sound effects
+  gameVoice: boolean; // games speak Hebrew
+  calm: boolean; // games without animation
+  rideStops: number; // rounds in a daily ride (2–4)
 }
 
 export interface DoneEntry {
@@ -39,6 +43,22 @@ export interface DayLog {
   correct: number;
   newWords: number;
   tasks: string[]; // ids of plan items done today
+  xp?: number; // game XP earned today
+  stops?: number; // ride and terminus rounds finished today
+}
+
+export type GameId = 'snap' | 'sort' | 'forge' | 'smash' | 'six' | 'echo' | 'match' | 'gender' | 'gap';
+export interface GameBest { stars: 0 | 1 | 2 | 3; score: number; combo: number; at: number }
+export interface SixSlot { tense: 'present' | 'past' | 'future' | 'imp'; person: string; pronoun: string; pronounEn: string }
+export interface PlayState {
+  xp: number; // lifetime
+  best: Record<string, GameBest>; // key GameId or `${GameId}:sprint`; score = round XP or sprint count
+  plays: Record<string, number>; // rounds finished per GameId
+  ride: { date: string; plan: GameId[]; done: GameId[]; terminus: boolean } | null;
+  daily: { date: string; verbId: string; slots: SixSlot[]; marks: ('' | 'g' | 'y' | 'r')[]; tries: number[]; rated: string[] } | null;
+  medals: Record<string, 1 | 2 | 3>; // highest medal already celebrated, per verbId
+  badges: string[]; // badge ids already celebrated
+  flagged: string[]; // Gap Dash item keys reported "both fit" (cap 300)
 }
 
 export interface OwnText {
@@ -66,6 +86,7 @@ export interface AppState {
   profile: Profile; // skill estimates (see skills.ts)
   courseUnit: number; // index of the course unit the learner is on
   courseVersion?: number; // 2 = the A1–C1 course (see migrate)
+  play: PlayState; // Shoresh Play: XP, bests, today's ride and Daily Six
   updatedAt?: number; // time of the last change (ms), to tell which saved copy is newer
 }
 
@@ -86,6 +107,10 @@ export function defaultState(): AppState {
       dailyMinutes: 20,
       deckDir: 'he2en',
       verbsOnly: false,
+      sound: false,
+      gameVoice: false,
+      calm: false,
+      rideStops: 3,
     },
     cards: {},
     custom: [],
@@ -100,6 +125,7 @@ export function defaultState(): AppState {
     profile: { skills: {}, topics: {} },
     courseUnit: 0,
     courseVersion: 2,
+    play: { xp: 0, best: {}, plays: {}, ride: null, daily: null, medals: {}, badges: [], flagged: [] },
   };
 }
 
@@ -131,6 +157,7 @@ function withDefaults(saved: AppState): AppState {
     courseVersion: saved.courseVersion,
     settings: { ...base.settings, ...saved.settings },
     profile: { ...base.profile, ...saved.profile },
+    play: { ...base.play, ...saved.play },
   });
 }
 

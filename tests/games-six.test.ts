@@ -1,11 +1,12 @@
 import { describe, expect, it } from 'vitest';
 import type { Level } from '../src/content/types.ts';
-import { applyEvidence, formOf, pronounsFor, sameForm, seeded } from '../src/games/kit.ts';
-import { buildSixSlots, openDaily, type SixItem, sixCheck, sixComplete, sixEvidence, sixItems, sixMark, sixShareText, sixSlotsFor } from '../src/games/six.tsx';
+import { applyEvidence, clearRound, formOf, pronounsFor, sameForm, seeded } from '../src/games/kit.ts';
+import { createRound } from '../src/games/kit-ui.tsx';
+import { buildSixSlots, openDaily, type SixItem, sixCheck, sixComplete, sixEvidence, sixItems, sixEdited, type SixFirstMiss, sixMark, sixPrior, sixResend, sixShareText, sixSlotsFor } from '../src/games/six.tsx';
 import { review } from '../src/lib/fsrs.ts';
 import { levelRank, verbById, verbs } from '../src/lib/content.ts';
 import { drillable, TENSES, verbCardOrder } from '../src/lib/session.ts';
-import { type AppState, defaultState, getState, restoreState, setState } from '../src/lib/store.ts';
+import { type AppState, defaultState, getState, restoreState, setState, today } from '../src/lib/store.ts';
 
 const DAY = 86_400_000;
 const LEVELS: Level[] = ['A1', 'A2', 'B1', 'C1'];
@@ -188,11 +189,79 @@ describe('Daily Six state', () => {
     expect(sixCheck('אני כתבתי', 'כתבתי').verdict).toBe('wrong'); // no pronoun given: graded as typed
   });
 
+  it('refuses another form of the verb that the lenient spelling check would take (יישנו for ישנו)', () => {
+    const lishon = verbById.get('verb_lishon')!;
+    const row = sixSlotsFor(lishon).findIndex((sl) => sl.tense === 'past' && sl.person === '3p');
+    expect(row).toBeGreaterThanOrEqual(0);
+    expect(formOf(lishon, 'past', '3p')).toBe('ישנו');
+    expect(formOf(lishon, 'future', '3p')).toBe('יישנו');
+    for (const typed of ['יישנו', 'הם יישנו']) {
+      const r = sixCheck(typed, 'ישנו', 'הם', lishon);
+      expect(r.verdict, typed).toBe('wrong');
+      expect(r.note).toMatch(/another form/);
+    }
+    expect(sixCheck('ישנו', 'ישנו', 'הם', lishon).verdict).toBe('correct');
+    expect(sixCheck('יישן', 'ישן', 'הוא', lishon).verdict).toBe('wrong'); // future הוא for past הוא
+    // a final-letter slip is still only a spelling note, not another form
+    const likhtov = verbById.get('verb_likhtov')!;
+    expect(sixCheck('כתבתמ', 'כתבתם', 'אתם', likhtov)).toMatchObject({ verdict: 'correct' });
+    // every slot form of every verb is still accepted as itself with the verb given
+    for (const verb of verbs.filter((x) => drillable(x, 'past') && drillable(x, 'future'))) {
+      for (const sl of sixSlotsFor(verb)) {
+        const f = formOf(verb, sl.tense, sl.person)!;
+        expect(sixCheck(f, f, sl.pronoun, verb).verdict, `${verb.id} ${f}`).toBe('correct');
+        expect(sixCheck(`${sl.pronoun} ${f}`, f, sl.pronoun, verb).verdict, `${verb.id} ${sl.pronoun} ${f}`).toBe('correct');
+      }
+    }
+  });
+
+  it('a bumped second Check, or the answer sent again untouched, never uses up the second try', () => {
+    const first: SixFirstMiss = { key: 'row0', text: 'אבגד', changed: false };
+    expect(sixResend(null, 'row0')).toBe(false);
+    expect(sixResend(first, 'row0')).toBe(true); // a double tap, a doubled or held Enter, a resend
+    expect(sixResend(first, 'row1')).toBe(false); // another row
+    expect(sixEdited(first, ' אבגד ')).toBe(first); // an input event that changes nothing
+    expect(sixResend(sixEdited(first, 'אבג'), 'row0')).toBe(false); // edited: the second try counts
+    // cleared and typed back the same: deliberate, so it counts too
+    expect(sixResend(sixEdited(sixEdited(first, ''), 'אבגד'), 'row0')).toBe(false);
+    expect(sixEdited(null, 'x')).toBeNull();
+  });
+
   it('shares a Wordle-style line', () => {
     const d = { date: DATE, verbId: 'verb_likhtov', slots: sixSlotsFor(verbById.get('verb_likhtov')!), marks: ['g', 'g', 'y', 'g', 'r', 'g'] as ('' | 'g' | 'y' | 'r')[], tries: [1, 1, 2, 1, 2, 1], rated: [] };
     expect(sixShareText(d, 'לכתוב')).toBe('Shoresh · פועל היום 2026-11-22\nלכתוב 🟩🟩🟨🟩🟥🟩 5/6');
     expect(sixComplete(d)).toBe(true);
     expect(sixItems(d)).toHaveLength(0);
+  });
+});
+
+describe('a Daily Six grid split over two rounds', () => {
+  it('counts the rows of a lost round in the stars: a grid with a 🟥 is never ★★★', () => {
+    restoreState({ ...defaultState(), onboarded: true, level: 'A2' });
+    const date = today();
+    openDaily(date);
+    const opts = { game: 'six' as const, mode: 'free' as const, tier: 'typed' as const, build: () => sixItems(openDaily(date)!), prior: () => sixPrior(getState().play.daily, date) };
+    const a = createRound<SixItem>(opts, () => {});
+    // row 0 two misses, rows 1–2 right first try, marked on the grid as SixGame does
+    a.view().answer({ ok: false, firstTry: false }, 'now');
+    const mark = (i: number, m: 'g' | 'r') =>
+      setState((s) => {
+        s.play.daily!.marks[i] = m;
+      });
+    mark(0, 'r');
+    a.view().answer({ ok: true }, 'now');
+    mark(1, 'g');
+    a.view().answer({ ok: true }, 'now');
+    mark(2, 'g');
+    a.dispose();
+    clearRound(); // lost: more than 6 h went by
+    expect(sixPrior(getState().play.daily, date)).toEqual({ total: 3, firstTry: 2 });
+    const b = createRound<SixItem>(opts, () => {});
+    expect(b.view().total).toBe(3);
+    for (let i = 0; i < 3; i++) b.view().answer({ ok: true }, 'now');
+    expect(b.view().summary).toMatchObject({ total: 6, firstTry: 5, stars: 2 });
+    expect(getState().play.badges).not.toContain('perfect');
+    expect(sixPrior(getState().play.daily, '2000-01-01')).toEqual({ total: 0, firstTry: 0 }); // another day's grid
   });
 });
 

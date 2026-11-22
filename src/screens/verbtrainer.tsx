@@ -18,6 +18,7 @@ import {
   BINYAN_CHOICES,
   buildVerbSetTrainer,
   buildVerbTrainer,
+  otherFormOf,
   personChoices,
   PRODUCTION,
   tableOf,
@@ -30,6 +31,7 @@ import {
   type VTask,
 } from '../lib/verbdrill.ts';
 import { renderPrompt } from './grammar.tsx';
+import { XP } from '../games/kit.ts';
 import { SessionDone } from './session-words.tsx';
 import { BINYAN_LABEL, TENSE_HE, VerbTables } from './verbs.tsx';
 
@@ -69,6 +71,7 @@ export function VerbSession({ mode }: { mode: VerbMode }) {
   const [showTable, setShowTable] = useState(false);
   const verdicts = useMemo(() => new Map<string, Rating>(), []);
   const [right, setRight] = useState(0);
+  const [tapRight, setTapRight] = useState(0); // of which picked from choices (identify, binyan)
   const back = mode.type === 'deck' ? `deck/${mode.id}` : mode.type === 'verb' ? `verb/${mode.id}` : 'verbs';
 
   if (!tasks.length) {
@@ -83,7 +86,8 @@ export function VerbSession({ mode }: { mode: VerbMode }) {
   }
   if (idx >= tasks.length) {
     const doneId = doneIdFor(mode);
-    return <SessionDone task={doneId ?? 'verbs'} right={right} total={tasks.length} doneId={doneId} />;
+    // Typed answers pay the typed rate, picks from choices the tap rate.
+    return <SessionDone task={doneId ?? 'verbs'} right={right} total={tasks.length} doneId={doneId} xp={(right - tapRight) * XP.typed + tapRight * XP.tap} />;
   }
 
   const t = tasks[idx];
@@ -94,8 +98,10 @@ export function VerbSession({ mode }: { mode: VerbMode }) {
     const topics = [`binyan:${t.verb.binyan}`, `tense:${t.tense}`];
     record('verbs', g >= 3 ? 1 : g === 2 ? 0.6 : 0, topics, PRODUCTION.includes(t.kind) ? 1 : 0.5);
     if (t.kind === 'listen') record('listening', g >= 3 ? 1 : 0, [], 0.3);
-    if (g >= 3) setRight((n) => n + 1);
-    else
+    if (g >= 3) {
+      setRight((n) => n + 1);
+      if (t.kind === 'identify' || t.kind === 'binyan') setTapRight((n) => n + 1);
+    } else
       addMistake({
         kind: 'verb',
         ref: `${t.verb.id}:${t.tense}:${t.person}`,
@@ -191,7 +197,11 @@ function TypedTask({ idx, t, onAnswer, onContinue }: { idx: number; t: VTask; on
 
   const check = (given = value) => {
     if (!given.trim()) return;
-    const r = checkHebrew(given, accepted, { strict: true });
+    let r = checkHebrew(given, accepted, { strict: true });
+    // Another form of the verb spelled with יי for י (יישנו for ישנו) is that form, not a variant.
+    if (t.kind !== 'infinitive' && r.verdict === 'correct' && r.note && otherFormOf(t.verb, given, r.expected)) {
+      r = { verdict: 'wrong', expected: accepted[0], note: 'That is another form of this verb: check the tense and person.' };
+    }
     setResult(r);
     if (r.verdict === 'latin') return;
     onAnswer(r.verdict === 'correct' ? 3 : r.verdict === 'close' ? 2 : 1, given);

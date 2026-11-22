@@ -119,6 +119,28 @@ export default async function gap(t) {
   await page.waitForTimeout(700);
   check((await page.locator('.result-card .star.on').count()) === 3, 'all right first try gives ★★★');
 
+  // A right answer stays up long enough to read its explanation, and the
+  // lesson title (some end in Hebrew) is isolated from its count.
+  await nav('#/play');
+  await nav('#/play/gap');
+  await page.waitForSelector('.gap-opts .opt[data-ok="true"]:not([disabled])');
+  check((await page.locator('.gap-lesson-en bdi').count()) === 1 && (await page.locator('.gap-lesson-en [dir="ltr"]').count()) === 1, 'the lesson title is isolated from its count');
+  await page.locator('.gap-opts .opt[data-ok="true"]').click();
+  await page.waitForTimeout(1000);
+  check((await page.locator('.gap-card.ok').count()) === 1 && (await page.locator('.gap-explain').isVisible()), 'a right answer keeps its explanation on screen');
+  // A short screen (an iPhone SE Home-Screen app): Continue scrolls into view after a miss.
+  await page.setViewportSize({ width: 375, height: 647 });
+  await page.waitForSelector('.gap-opts .opt:not([data-ok]):not([disabled])', { timeout: 4000 });
+  await page.evaluate(() => scrollTo(0, 0));
+  await page.locator('.gap-opts .opt:not([data-ok]):not([disabled])').first().click();
+  await page.waitForSelector('.game-continue');
+  await page.waitForTimeout(200);
+  const cb = await page.evaluate(() => Math.round(document.querySelector('.game-continue').getBoundingClientRect().bottom));
+  check(cb <= 647, `on a short screen Continue is in view after a miss (bottom ${cb}/647)`);
+  await shot('play-gap-short');
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.evaluate((k) => localStorage.removeItem(k), ROUND_KEY);
+
   // Leave the flags as they were for the checks that follow.
   await nav('#/today');
   const end = await readState(page);

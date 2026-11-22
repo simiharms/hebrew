@@ -37,6 +37,21 @@ function otherForms(v: Verb, form: string, n: number, rnd: () => number): string
   return out;
 }
 
+/**
+ * Forms that could also fill a "you" or command gap: every you-form of the
+ * tense, and a command and a future you-form can stand for each other (חכי /
+ * תחכי). With no voice the English clue can't tell them apart ("Wait!"), so
+ * they are never offered as wrong answers.
+ */
+export function youForms(v: Verb, tense: TenseKey, person: string): string[] {
+  if (tense !== 'imp' && !person.startsWith('2')) return [];
+  const you = (t: TenseKey) =>
+    Object.entries(tableOf(v, t) ?? {})
+      .filter(([p]) => t === 'imp' || p.startsWith('2'))
+      .map(([, f]) => f[0]);
+  return [...you(tense), ...(tense === 'imp' ? you('future') : tense === 'future' ? you('imp') : [])];
+}
+
 /** The item for example `i` of a verb, or null if the form can't be blanked out. */
 export function echoItemFor(v: Verb, i: number, rnd: () => number = Math.random): EchoItem | null {
   const e = v.exs?.[i];
@@ -44,7 +59,7 @@ export function echoItemFor(v: Verb, i: number, rnd: () => number = Math.random)
   const gap = blankForm(e.he, e.form);
   if (!gap) return null;
   const a = analyses(v, e.form)[0];
-  const wrong = a ? confuserForms(v, a.tense, a.person, 2, rnd, [e.form]) : otherForms(v, e.form, 2, rnd);
+  const wrong = a ? confuserForms(v, a.tense, a.person, 2, rnd, [e.form, ...youForms(v, a.tense, a.person)]) : otherForms(v, e.form, 2, rnd);
   if (wrong.length < 2) return null;
   return { key: `${v.id}#${i}`, verbId: v.id, tense: a?.tense ?? null, he: e.he, en: e.en, gap, form: e.form, options: shuffle([e.form, ...wrong], rnd) };
 }

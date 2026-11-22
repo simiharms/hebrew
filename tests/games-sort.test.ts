@@ -3,10 +3,10 @@ import type { Level } from '../src/content/types.ts';
 import { buildSortItems, LANE_ORDER, sortCorrect, sortItemFor, sortLanes, spread } from '../src/games/sort.tsx';
 import { allowedTenses, levelOk, seeded } from '../src/games/kit.ts';
 import { verbById, verbs } from '../src/lib/content.ts';
-import { lenient } from '../src/lib/hebrew.ts';
+import { exactKey, lenient } from '../src/lib/hebrew.ts';
 import { drillable, TENSES } from '../src/lib/session.ts';
 import { type AppState, defaultState, getState, restoreState } from '../src/lib/store.ts';
-import { analyses, tableOf, type TenseKey } from '../src/lib/verbdrill.ts';
+import { tableOf, type TenseKey } from '../src/lib/verbdrill.ts';
 
 const DAY = 86_400_000;
 const LEVELS: Level[] = ['A1', 'A2', 'B1', 'C1'];
@@ -32,9 +32,23 @@ function stateAt(level: Level, seed: number): AppState {
   return getState();
 }
 
-const tensesOf = (v: NonNullable<ReturnType<typeof verbById.get>>, form: string) => new Set(analyses(v, form).map((a) => a.tense));
+// The tables holding this exact spelling (niqqud and final letters aside; יי ≠ י).
+const tensesOf = (v: NonNullable<ReturnType<typeof verbById.get>>, form: string) =>
+  new Set(ALL.filter((t) => Object.values(tableOf(v, t) ?? {}).some((f) => exactKey(f[0]) === exactKey(form))));
 
 describe('Time Machine items', () => {
+  it('sends a form only to the tables it is spelled exactly in (יישן future, ישן present and past)', () => {
+    const lishon = verbById.get('verb_lishon')!;
+    const likhyot = verbById.get('verb_likhyot')!;
+    expect(lishon.future!['3ms'][0]).toBe('יישן');
+    expect(sortItemFor(lishon, 'future', '3ms')!.tenses).toEqual(['future']);
+    expect(sortItemFor(lishon, 'future', '3p')!.tenses).toEqual(['future']); // יישנו
+    expect(new Set(sortItemFor(lishon, 'present', 'ms')!.tenses)).toEqual(new Set(['present', 'past'])); // ישן
+    expect(sortItemFor(lishon, 'past', '1p')!.tenses).toEqual(['past']); // ישנו
+    expect(sortItemFor(likhyot, 'imp', 'fs')!.tenses).toEqual(['imp']); // חיי
+    expect(new Set(sortItemFor(likhyot, 'present', 'ms')!.tenses)).toEqual(new Set(['present', 'past'])); // חי
+    for (const lane of ALL) expect(sortCorrect(sortItemFor(lishon, 'future', '3ms')!, lane)).toBe(lane === 'future');
+  });
   it('grades every form of every table by all the tables it is in', () => {
     let n = 0;
     let multi = 0;
@@ -99,7 +113,7 @@ describe('buildSortItems', () => {
           expect(levelOk(v.level, s)).toBe(true);
           expect(it.en).toBe(v.en);
           expect(it.tenses).toContain(it.shownTense);
-          // tenses ⊇ the analyses tenses ∩ lanes
+          // tenses ⊇ the exact-spelling tenses ∩ lanes
           for (const t of tensesOf(v, it.form)) if (lanes.includes(t)) expect(it.tenses).toContain(t);
           for (const t of it.tenses) expect(tensesOf(v, it.form).has(t)).toBe(true);
           // at least one lane is right

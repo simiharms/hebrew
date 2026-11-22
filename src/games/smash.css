@@ -198,6 +198,50 @@
   }
 }
 
+/* Short screens (a Home-Screen app loses the status bar and the home
+   indicator): a tighter wall and bank, so the whole bank fits */
+@media (max-height: 820px) {
+  .game[data-game='smash'] .game-stage {
+    padding: 8px 0 6px;
+  }
+  .smash-stage {
+    gap: 6px;
+  }
+  .smash-inf {
+    font-size: 26px;
+  }
+  .smash-table .row {
+    min-height: 27px;
+  }
+  .smash-table .row:not(.done) .cell {
+    height: 21px;
+    line-height: 19px;
+  }
+  .smash-bank {
+    gap: 6px;
+  }
+  .opt.smash-chip {
+    min-height: 48px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+}
+@media (max-height: 700px) {
+  .smash-table {
+    padding: 4px;
+  }
+  .smash-table .row {
+    min-height: 25px;
+  }
+  .smash-table .row:not(.done) .cell {
+    height: 20px;
+    line-height: 18px;
+  }
+  .opt.smash-chip {
+    min-height: 46px;
+  }
+}
+
 /* On the result card: the way to full credit */
 .smash-credit {
   margin-top: 14px;

@@ -7,6 +7,7 @@ import { go } from '../lib/router.ts';
 import { record } from '../lib/skills.ts';
 import { type AppState, getState, setState, todayLog, useAppState } from '../lib/store.ts';
 import { speak } from '../lib/tts.ts';
+import { XP } from '../games/kit.ts';
 import { SessionDone } from './session-words.tsx';
 
 function deckStats(deck: Deck, s: AppState, now = Date.now()) {
@@ -236,7 +237,8 @@ export function FlipSession({ id }: { id: string }) {
       </>
     );
   }
-  if (idx >= queue.length) return <SessionDone task={`deck:${id}`} right={stats.right} total={stats.total} doneId={`deck:${id}`} />;
+  // Self-rated flip cards pay like taps, not like typed answers.
+  if (idx >= queue.length) return <SessionDone task={`deck:${id}`} right={stats.right} total={stats.total} doneId={`deck:${id}`} xp={stats.right * XP.tap} />;
 
   const front = heFirst ? (
     <div class={`he ${deck.kind === 'letters' ? 'he-xl' : 'he-lg'}`} style={deck.kind === 'letters' ? { fontSize: 96, lineHeight: 1.1 } : undefined}>

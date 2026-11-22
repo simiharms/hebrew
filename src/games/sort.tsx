@@ -1,13 +1,14 @@
 // Time Machine (מכונת זמן): a form flies in; send it to its tense lane. Lanes
 // run right to left like Hebrew time: עבר | הווה | עתיד | ציווי. A form that
-// lives in two tables (נכנס: present and past) is right in either lane.
+// lives in two tables (נכנס: present and past) is right in either lane. Lanes
+// go by the exact spelling: יישן is future only, ישן present and past.
 import './sort.css';
 import { useState } from 'preact/hooks';
 import type { Verb } from '../content/types.ts';
 import { verbById } from '../lib/content.ts';
-import { lenient } from '../lib/hebrew.ts';
+import { exactKey, lenient } from '../lib/hebrew.ts';
 import { type AppState, getState } from '../lib/store.ts';
-import { analyses, tableOf, type TenseKey } from '../lib/verbdrill.ts';
+import { tableOf, type TenseKey } from '../lib/verbdrill.ts';
 import { allowedTenses, type Evidence, type GameProps, pickVerbTenses, pronounsFor, say, shuffle, TENSE_LABEL } from './kit.ts';
 import { type Choice, ChoiceGrid, GameShell, useRound } from './kit-ui.tsx';
 
@@ -17,7 +18,7 @@ export interface SortItem {
   form: string;
   en: string;
   shownTense: TenseKey; // the table the form was taken from
-  tenses: TenseKey[]; // every table it is in (analyses); a lane is right if it is here
+  tenses: TenseKey[]; // every table it is in, spelled exactly so; a lane is right if it is here
 }
 
 /** Lanes in reading order, right to left. */
@@ -53,11 +54,22 @@ export function spread<T>(xs: T[], key: (x: T) => string, rnd: () => number = Ma
   return out;
 }
 
-/** The item for one form; `tenses` is every table the form is in (analyses). */
+// The verb's cells spelled exactly like `form` (niqqud and final letters aside;
+// not lenient: lenient() takes יי for י, which would put יישן in the past too).
+function cellsOf(v: Verb, form: string): { tense: TenseKey; person: string }[] {
+  const k = exactKey(form);
+  return LANE_ORDER.flatMap((tense) =>
+    Object.entries(tableOf(v, tense) ?? {})
+      .filter(([, f]) => exactKey(f[0]) === k)
+      .map(([person]) => ({ tense, person })),
+  );
+}
+
+/** The item for one form; `tenses` is every table the form is in (spelled exactly so). */
 export function sortItemFor(v: Verb, t: TenseKey, person: string): SortItem | null {
   const form = tableOf(v, t)?.[person]?.[0];
   if (!form) return null;
-  return { key: `${v.id}:${t}:${person}`, verbId: v.id, form, en: v.en, shownTense: t, tenses: [...new Set(analyses(v, form).map((a) => a.tense))] };
+  return { key: `${v.id}:${t}:${person}`, verbId: v.id, form, en: v.en, shownTense: t, tenses: [...new Set(cellsOf(v, form).map((a) => a.tense))] };
 }
 
 /**
@@ -89,7 +101,7 @@ export function buildSortItems(s: AppState, n = 15, rnd: () => number = Math.ran
 function whoSays(it: SortItem, t: TenseKey): string {
   const v = verbById.get(it.verbId);
   if (!v) return '';
-  const who = analyses(v, it.form)
+  const who = cellsOf(v, it.form)
     .filter((a) => a.tense === t)
     .flatMap((a) => pronounsFor(t, a.person).map(([he]) => he));
   return [...new Set(who)].join(' / ');

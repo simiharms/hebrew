@@ -67,6 +67,7 @@ export default async function six(t) {
   await page.waitForTimeout(700);
   check((await page.locator('.result-card .six-share .sq.g').count()) === 6, 'six 🟩 on the result card');
   check((await page.locator('.result-card .star.on').count()) === 3, 'six right first try gives ★★★');
+  check((await page.locator('.result-card').getByRole('button', { name: /Again/ }).count()) === 0, 'Verb of the Day offers no Again (once a day)');
   const share = await page.locator('.six-share').getAttribute('data-share');
   const inf = verbs.find((v) => v.id === first.v.id)?.inf;
   check(share === `Shoresh · פועל היום ${date}\n${inf} 🟩🟩🟩🟩🟩🟩 6/6`, `the share line (${JSON.stringify(share)})`);
@@ -111,6 +112,16 @@ export default async function six(t) {
   check((await page.locator('.game').getAttribute('data-answered')) === '0' && (await page.locator('.six-row.now:not(.g):not(.y):not(.r)').count()) === 1, 'a first miss reveals nothing and keeps the row open');
   check(/Not quite|Very close/.test((await page.locator('.six-note').textContent()) ?? ''), `a hint for the second try (${(await page.locator('.six-note').textContent())?.trim()})`);
   await shot('play-six-retry');
+  // A bump: Enter again and a double tap on Check with the same answer don't use up the second try.
+  await page.keyboard.press('Enter');
+  await page.locator('.six-go').click();
+  await page.locator('.six-go').click();
+  await page.waitForTimeout(150);
+  s = await readState(page);
+  check(
+    (await page.locator('.game').getAttribute('data-answered')) === '0' && s.play.daily.tries[0] === 1 && s.play.daily.marks[0] === '' && /Same as your first try/.test((await page.locator('.six-note').textContent()) ?? ''),
+    `the same answer sent again keeps the second try (tries ${s.play.daily.tries[0]}, mark '${s.play.daily.marks[0]}')`,
+  );
   await page.locator('input.answer').fill('');
   await typeEnter(page, w.form);
   await nextRow(page, 0);

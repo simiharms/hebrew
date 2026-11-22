@@ -4,7 +4,7 @@
 // update the skill profile.
 import type { Binyan, Form, Verb } from '../content/types.ts';
 import { verbById, verbs } from './content.ts';
-import { lenient, splitWords } from './hebrew.ts';
+import { exactKey, lenient, splitWords } from './hebrew.ts';
 import {
   buildVerbSession,
   drillable,
@@ -53,6 +53,19 @@ export function analyses(v: Verb, form: string): { tense: TenseKey; person: stri
     for (const [person, f] of Object.entries(tableOf(v, t) ?? {})) if (lenient(f[0]) === key) out.push({ tense: t, person });
   }
   return out;
+}
+
+/**
+ * Whether a typed answer is spelled exactly like a different form of the verb
+ * than the expected one. checkHebrew's lenient pass takes יי for י, so it lets
+ * יישנו (future הם) through for ישנו (past הם); such an answer is the other
+ * form, not a spelling variant. Compares the last word (a pronoun may come first).
+ */
+export function otherFormOf(v: Verb, given: string, expected: string): boolean {
+  const last = (x: string) => exactKey(x).split(' ').pop() ?? '';
+  const g = last(given);
+  if (!g || g === last(expected)) return false;
+  return (['present', 'past', 'future', 'imp'] as TenseKey[]).some((t) => Object.values(tableOf(v, t) ?? {}).some((f) => last(f[0]) === g));
 }
 
 const TIME_CUE: Record<Tense, [string, string]> = {

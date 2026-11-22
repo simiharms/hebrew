@@ -91,6 +91,8 @@ export interface AppState {
 }
 
 const KEY = 'shoresh-state-v1';
+/** Where Shoresh Play keeps its half-played rounds (src/games/kit.ts). */
+export const PLAY_ROUND_KEY = 'shoresh-play-round-v1';
 
 export function defaultState(): AppState {
   return {
@@ -224,20 +226,29 @@ export function useAppState(): AppState {
   return state;
 }
 
-export function today(): string {
-  const d = new Date();
+/** A local date as YYYY-MM-DD. */
+export function dateKey(d: Date = new Date()): string {
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 }
 
-export function todayLog(s: AppState): DayLog {
-  const t = today();
-  let log = s.days.find((d) => d.date === t);
+export function today(): string {
+  return dateKey();
+}
+
+/** The log of a day (YYYY-MM-DD), created if missing; the logs stay in date order. */
+export function logFor(s: AppState, date: string): DayLog {
+  let log = s.days.find((d) => d.date === date);
   if (!log) {
-    log = { date: t, reviews: 0, correct: 0, newWords: 0, tasks: [] };
+    log = { date, reviews: 0, correct: 0, newWords: 0, tasks: [] };
     s.days.push(log);
+    if (s.days.length > 1 && s.days[s.days.length - 2].date > date) s.days.sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0));
     if (s.days.length > 400) s.days.splice(0, s.days.length - 400);
   }
   return log;
+}
+
+export function todayLog(s: AppState): DayLog {
+  return logFor(s, today());
 }
 
 export function markTask(task: string): void {
@@ -272,11 +283,9 @@ export function clearMistake(kind: Mistake['kind'], ref: string): void {
 export function streak(s: AppState): number {
   const active = new Set(s.days.filter((d) => d.reviews > 0 || d.tasks.length > 0).map((d) => d.date));
   const d = new Date();
-  const fmt = (x: Date) =>
-    `${x.getFullYear()}-${String(x.getMonth() + 1).padStart(2, '0')}-${String(x.getDate()).padStart(2, '0')}`;
-  if (!active.has(fmt(d))) d.setDate(d.getDate() - 1);
+  if (!active.has(dateKey(d))) d.setDate(d.getDate() - 1);
   let n = 0;
-  while (active.has(fmt(d))) {
+  while (active.has(dateKey(d))) {
     n++;
     d.setDate(d.getDate() - 1);
   }
@@ -287,13 +296,26 @@ export function exportState(): string {
   return JSON.stringify({ app: 'shoresh', exportedAt: new Date().toISOString(), state }, null, 1);
 }
 
+// A half-played game round belongs to the progress it was played in: when the
+// whole state is replaced, it goes too (or it would book its XP and stop into
+// the new progress).
+function dropPlayRounds(): void {
+  try {
+    localStorage.removeItem(PLAY_ROUND_KEY);
+  } catch {
+    // storage unavailable: nothing was saved
+  }
+}
+
 export function importState(json: string): void {
   const parsed = JSON.parse(json);
   const incoming = parsed?.state ?? parsed;
   if (!isAppState(incoming)) throw new Error('This file is not a Shoresh backup.');
   replaceState(withDefaults(incoming));
+  dropPlayRounds();
 }
 
 export function resetState(): void {
   replaceState(defaultState());
+  dropPlayRounds();
 }

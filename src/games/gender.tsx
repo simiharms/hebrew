@@ -75,16 +75,28 @@ function homographIndex() {
 }
 
 /**
+ * Whether the note gives the noun's other-gender form and it is spelled like
+ * the noun ("Feminine: מתחרה (same spelling)" on a masculine noun): מורה is a
+ * man or a woman. ("Feminine: רוח חזקה" on a feminine noun is just an example.)
+ */
+export function otherGenderSameSpelling(v: Pick<VocabItem, 'he' | 'gender' | 'note'>): boolean {
+  const label = v.gender === 'm' ? 'feminine' : v.gender === 'f' ? 'masculine' : null;
+  const m = label ? new RegExp(`\\b${label}:\\s*([א-ת׳'"]+)`, 'i').exec(v.note ?? '') : null;
+  return !!m && lenient(m[1]) === lenient(v.he);
+}
+
+/**
  * Nouns the game can ask about: one word, a gender, at the learner's level.
- * Left out: nouns whose gender the content gives as either (פנים), words that
- * are plural in form with no singular (מים, משקפיים, חבר׳ה), and spellings
- * shared with a noun of the other gender.
+ * Left out: nouns whose gender the content gives as either (פנים) or whose
+ * other gender is spelled the same (מורה), words that are plural in form with
+ * no singular (מים, משקפיים, חבר׳ה), and spellings shared with a noun of the
+ * other gender.
  */
 export function genderPool(s: AppState): VocabItem[] {
   const { genders } = homographIndex();
   return vocab.filter((v) => {
     if (v.pos !== 'noun' || !v.gender || !isSingleWord(v.he) || !levelOk(v.level, s)) return false;
-    if (/feminine or masculine|masculine or feminine|either gender/i.test(v.note ?? '')) return false;
+    if (/feminine or masculine|masculine or feminine|either gender/i.test(v.note ?? '') || otherGenderSameSpelling(v)) return false;
     if (!v.plural && (/(im|ot|ayim)$/.test(bare(v.tr)) || /plural in (form|meaning)|always plural/i.test(v.note ?? ''))) return false;
     return (genders.get(lenient(v.he))?.size ?? 0) <= 1;
   });

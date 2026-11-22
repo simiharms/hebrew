@@ -88,12 +88,12 @@ export default async function sort(t) {
   }
   await shot('play-sort-sprint');
   await nav('#/today');
-  const saved = await page.evaluate((k) => JSON.parse(localStorage.getItem(k) ?? 'null'), ROUND_KEY);
+  const saved = await page.evaluate((k) => JSON.parse(localStorage.getItem(k) ?? 'null')?.rounds?.['sort:sprint'], ROUND_KEY);
   check(saved?.mode === 'sprint' && saved.timeLeftMs > 0 && saved.timeLeftMs <= 60000, `leaving keeps the sprint's time left (${saved?.timeLeftMs} ms)`);
   await page.evaluate((k) => {
-    const r = JSON.parse(localStorage.getItem(k));
-    r.timeLeftMs = 1500;
-    localStorage.setItem(k, JSON.stringify(r));
+    const all = JSON.parse(localStorage.getItem(k)); // { v: 2, rounds: { 'game:mode': snapshot } }
+    all.rounds['sort:sprint'].timeLeftMs = 1500;
+    localStorage.setItem(k, JSON.stringify(all));
   }, ROUND_KEY);
   await nav('#/play/sort/sprint');
   await page.waitForSelector('.game[data-mode="sprint"]');

@@ -6,7 +6,9 @@ import { vocab, verbById, verbs } from '../src/lib/content.ts';
 import { type CardState, review } from '../src/lib/fsrs.ts';
 import { lenient } from '../src/lib/hebrew.ts';
 import { drillable, type Tense, TENSES } from '../src/lib/session.ts';
-import { type AppState, defaultState, getState, importState, restoreState, setState, subscribe, today } from '../src/lib/store.ts';
+import { type AppState, dateKey, defaultState, exportState, getState, importState, resetState, restoreState, setState, subscribe, today } from '../src/lib/store.ts';
+import { weakestSkills, weakTopics } from '../src/lib/skills.ts';
+import { sixStatus } from '../src/games/ride.ts';
 import { tableOf, type TenseKey } from '../src/lib/verbdrill.ts';
 import {
   allowedTenses,
@@ -431,6 +433,33 @@ describe('evidence', () => {
     applyEvidence([{ tier: 'tap', ok: false, skill: 'listening', weight: 0.3 }], new Set());
     expect(getState().profile.skills.listening).toMatchObject({ n: 0.3, score: 0 });
   });
+  it('a tap moves an established skill score much less than a typed answer', () => {
+    const start = (): AppState =>
+      fresh({ profile: { skills: { verbs: { score: 0.45, n: 60, at: 0 } }, topics: { 'binyan:piel': { score: 0.4, n: 30, at: 0 } } } });
+    const gain: Record<string, number> = {};
+    for (const tier of ['tap', 'build', 'typed'] as const) {
+      start();
+      for (let i = 0; i < 24; i++) applyEvidence([{ tier, ok: true, skill: 'verbs', topics: ['binyan:piel', 'tense:past'] }], new Set());
+      gain[tier] = getState().profile.skills.verbs!.score - 0.45;
+    }
+    expect(gain.tap).toBeLessThan(gain.typed / 2);
+    expect(gain.tap).toBeLessThan(gain.build);
+    expect(gain.build).toBeLessThan(gain.typed);
+    // a verb-weak learner's plan stays on verbs after a couple of easy tap rounds
+    start();
+    setState((s) => {
+      s.profile.skills.grammar = { score: 0.6, n: 40, at: 0 };
+      s.profile.skills.vocab = { score: 0.7, n: 40, at: 0 };
+    });
+    for (let i = 0; i < 24; i++) applyEvidence([{ tier: 'tap', ok: true, skill: 'verbs', topics: ['binyan:piel'] }], new Set());
+    expect(weakestSkills(getState())[0]).toBe('verbs');
+    expect(weakTopics('binyan:', getState()).map((w) => w.topic)).toContain('binyan:piel');
+    // weight ≥ 1 behaves as before, and a weight-0 record never turns a score into NaN
+    fresh();
+    applyEvidence([{ tier: 'typed', ok: true, skill: 'verbs', weight: 0 }], new Set());
+    applyEvidence([{ tier: 'typed', ok: false, skill: 'verbs', weight: 0 }], new Set());
+    expect(Number.isFinite(getState().profile.skills.verbs!.score)).toBe(true);
+  });
   it('writes once for a batch and not at all for an empty one', () => {
     fresh();
     let writes = 0;
@@ -452,6 +481,19 @@ describe('state', () => {
     expect(s.settings.calm).toBe(false);
     expect(s.settings.rideStops).toBe(3);
     expect(s.settings.newPerDay).toBe(5);
+  });
+  it('reset and import drop the half-played rounds (they belong to the old progress)', () => {
+    fresh();
+    const backup = exportState();
+    const live = (game: GameId) => ({ v: 1 as const, game, mode: 'ride' as GameMode, date: today(), startedAt: Date.now(), savedAt: Date.now(), items: [{}, {}, {}, {}], results: [{ ok: true, firstTry: true }, null, null, null], missed: [], xp: 10, combo: 1, bestCombo: 1, strengthened: 0, rated: [], misses: [], verbIds: [] });
+    saveRound(live('forge'));
+    expect(peekRound()).toMatchObject({ game: 'forge', answered: 1 });
+    resetState();
+    expect(peekRound()).toBeNull();
+    expect(loadRound('forge', 'ride')).toBeNull();
+    saveRound(live('snap'));
+    importState(backup);
+    expect(peekRound()).toBeNull();
   });
   it('keeps saved play fields and fills new ones', () => {
     restoreState({ ...defaultState(), play: { xp: 120, best: {} } } as unknown as AppState);
@@ -663,6 +705,133 @@ describe('rounds', () => {
     expect(loadRound('snap', 'free')).not.toBeNull();
     expect(peekRound()).toBeNull();
   });
+  it('keeps one round per game and mode: playing another game never wipes a paused one', () => {
+    const ride = snap({ mode: 'ride', results: [...done(4), ...Array(8).fill(null)], savedAt: Date.now() - 60_000 });
+    saveRound(ride);
+    saveRound(snap({ game: 'gender', items: Array(15).fill({}), results: [...done(1), ...Array(14).fill(null)] }));
+    expect(loadRound('snap', 'ride')).toEqual(ride);
+    expect(peekRound()).toEqual({ game: 'gender', mode: 'free', answered: 1, total: 15 }); // the latest
+    clearRound('gender', 'free');
+    expect(loadRound('gender', 'free')).toBeNull();
+    expect(peekRound()).toEqual({ game: 'snap', mode: 'ride', answered: 4, total: 12 });
+    // at most four are kept, the most recently saved
+    for (const [i, game] of (['sort', 'forge', 'match', 'gap'] as GameId[]).entries()) saveRound(snap({ game, savedAt: Date.now() + i, results: [...done(1), ...Array(11).fill(null)] }));
+    expect(loadRound('snap', 'ride')).toBeNull();
+    expect(loadRound('gap', 'free')).not.toBeNull();
+    clearRound();
+    expect(peekRound()).toBeNull();
+    expect(localStorage.getItem('shoresh-play-round-v1')).toBeNull();
+  });
+  it('still reads a round saved in the first format (one snapshot)', () => {
+    const r = snap({ game: 'forge', mode: 'ride', results: [...done(3), ...Array(9).fill(null)] });
+    localStorage.setItem('shoresh-play-round-v1', JSON.stringify(r));
+    expect(loadRound('forge', 'ride')).toEqual(r);
+    expect(peekRound()).toMatchObject({ game: 'forge', mode: 'ride', answered: 3 });
+    saveRound(snap({ results: [...done(1), ...Array(11).fill(null)] }));
+    expect(loadRound('forge', 'ride')).toEqual(r);
+  });
+  it('resumes a round begun last night after midnight (within 6 h) and books it on its own day', () => {
+    vi.useFakeTimers();
+    try {
+      vi.setSystemTime(new Date(2026, 10, 21, 23, 50));
+      const night = dateKey();
+      fresh();
+      saveRound(snap({ date: night, startedAt: Date.now(), savedAt: Date.now(), results: [...done(11), null] }));
+      vi.setSystemTime(new Date(2026, 10, 22, 0, 5));
+      expect(today()).not.toBe(night);
+      const r = loadRound('snap', 'free');
+      expect(r).not.toBeNull();
+      const sum = finishRound({ ...r!, results: done(12), xp: 120 });
+      const days = getState().days;
+      expect(days.find((d) => d.date === night)!.tasks).toEqual(['play:snap']);
+      expect(days.find((d) => d.date === today())?.tasks ?? []).toEqual([]);
+      expect(days.map((d) => d.date)).toEqual([...days.map((d) => d.date)].sort()); // logs stay in date order
+      expect(sum.xp).toBe(120 + XP.round + XP.perfect);
+      // two days old is too old, whatever its savedAt says
+      saveRound(snap({ date: '2026-11-20', savedAt: Date.now(), results: [...done(1), ...Array(11).fill(null)] }));
+      expect(loadRound('snap', 'free')).toBeNull();
+    } finally {
+      vi.useRealTimers();
+    }
+  });
+  it("a Verb of the Day grid finished after midnight is yesterday's: today's verb isn't done", () => {
+    vi.useFakeTimers();
+    try {
+      vi.setSystemTime(new Date(2026, 10, 21, 23, 58));
+      const night = dateKey();
+      fresh();
+      setState((s) => {
+        s.play.daily = { date: night, verbId: 'verb_likhtov', slots: [], marks: ['g', 'g', 'g', 'g', 'g', ''], tries: [1, 1, 1, 1, 1, 0], rated: [] };
+      });
+      vi.setSystemTime(new Date(2026, 10, 22, 0, 1));
+      finishRound(snap({ game: 'six', date: night, items: [{}], results: done(1), xp: 20 }));
+      expect(getState().days.find((d) => d.date === night)!.tasks).toContain('play:six');
+      expect(sixStatus(getState())).toMatchObject({ done: false, started: false });
+      // ...even if today's log says play:six (e.g. written by an older version)
+      setState((s) => {
+        s.days.push({ date: today(), reviews: 0, correct: 0, newWords: 0, tasks: ['play:six'] });
+      });
+      expect(sixStatus(getState()).done).toBe(false);
+    } finally {
+      vi.useRealTimers();
+    }
+  });
+  it('a terminus round finished after midnight spends last night\'s terminus, not tomorrow\'s', () => {
+    vi.useFakeTimers();
+    try {
+      vi.setSystemTime(new Date(2026, 10, 21, 23, 59));
+      const night = dateKey();
+      fresh();
+      setState((s) => {
+        s.play.ride = { date: night, plan: ['snap', 'forge'], done: ['snap', 'forge'], terminus: false };
+      });
+      vi.setSystemTime(new Date(2026, 10, 22, 0, 0, 30));
+      finishRound(snap({ game: 'smash', mode: 'terminus', double: true, date: night, items: [{}], results: done(1), xp: 20 }));
+      expect(getState().play.ride).toEqual({ date: night, plan: ['snap', 'forge'], done: ['snap', 'forge'], terminus: true });
+      expect(getState().days.find((d) => d.date === night)!.stops).toBe(1);
+      // a ride stop from last night doesn't create today's ride either
+      setState((s) => {
+        s.play.ride = null;
+      });
+      const r = finishRound(snap({ mode: 'ride', date: night, results: done(12), xp: 10 }));
+      expect(getState().play.ride).toBeNull();
+      expect(r.nextStop).toBeNull();
+    } finally {
+      vi.useRealTimers();
+    }
+  });
+  it('counts the rows done before a lost round in the stars (a split Daily Six grid)', () => {
+    // rows 0–2 were played in a round since lost: row 0 🟥, rows 1–2 🟩; this round plays rows 3–5 right first try
+    const sum = finishRound(snap({ game: 'six', items: [{}, {}, {}], results: done(3), xp: 60, prior: { total: 3, firstTry: 2 } }));
+    expect(sum).toMatchObject({ total: 6, firstTry: 5, stars: 2, practised: 3 });
+    expect(sum.bonuses.map((b) => b.label)).toEqual(['Round finished']);
+    expect(getState().play.badges).not.toContain('perfect');
+  });
+  it('books only the XP a round has not banked yet', () => {
+    setState((s) => {
+      s.play.xp = 300; // 130 of it banked by this round's answers
+    });
+    const sum = finishRound(snap({ results: done(12), xp: 150, banked: 130 }));
+    expect(sum.xp).toBe(150 + XP.round + XP.perfect);
+    expect(getState().play.xp).toBe(300 + 20 + XP.round + XP.perfect);
+    expect(sum.level).toEqual({ before: levelFromXp(170), after: levelFromXp(370) }); // the level-up shows from where the round began
+  });
+  it('books a terminus round as the terminus only if it started while the ×2 was due', () => {
+    setState((s) => {
+      s.play.ride = { date: today(), plan: ['snap'], done: ['snap'], terminus: true };
+    });
+    // opened from a stale link after the terminus was spent: plain free play
+    const sum = finishRound(snap({ game: 'smash', mode: 'terminus', double: false, items: [{}], results: done(1), xp: 10 }));
+    expect(getState().play.best.smash).toMatchObject({ score: 10 + XP.round + XP.perfect });
+    expect(log().stops).toBeUndefined();
+    expect(sum.nextStop).toBeNull();
+    // opened before the line was finished: no ride is touched or created, no stop counted
+    fresh();
+    finishRound(snap({ game: 'smash', mode: 'terminus', items: [{}], results: done(1), xp: 10 }));
+    expect(getState().play.ride).toBeNull();
+    expect(log().stops).toBeUndefined();
+    expect(getState().play.plays.smash).toBe(1);
+  });
 
   it('books a free round in one write', () => {
     let writes = 0;
@@ -725,7 +894,7 @@ describe('rounds', () => {
     const again = finishRound(snap({ game: 'match', mode: 'ride', items: [{}], results: done(1), xp: 10 }));
     expect(again.goalJustMet).toBe(false);
     expect(again.bonuses.map((b) => b.label)).not.toContain('Line finished');
-    const t = finishRound(snap({ game: 'smash', mode: 'terminus', items: [{}], results: done(1), xp: 20 }));
+    const t = finishRound(snap({ game: 'smash', mode: 'terminus', double: true, items: [{}], results: done(1), xp: 20 }));
     expect(t.nextStop).toBeNull();
     expect(t.xp).toBe(20 + XP.round + XP.perfect); // item XP came ×2 already; bonuses are not doubled
     expect(getState().play.best.smash).toMatchObject({ score: 10 + XP.round + XP.perfect }); // bests count plain item XP
@@ -1051,6 +1220,61 @@ describe('round machine (useRound without Preact)', () => {
     const again = make({ game: 'smash', mode: 'terminus' });
     expect(again.view().shell!.double).toBe(false);
     expect(again.view().answer({ ok: true }, 'now')).toBe(XP.tap);
+  });
+  it("one answer in another game leaves a paused ride stop, and the XP it showed, alone", () => {
+    const stop = make({ game: 'snap', mode: 'ride', n: 12 });
+    for (let i = 0; i < 4; i++) stop.view().answer({ ok: true }, 'now');
+    const xp = stop.view().xp;
+    expect(getState().play.xp).toBe(xp); // banked as earned
+    expect(getState().days.find((d) => d.date === today())!.xp).toBe(xp);
+    stop.dispose();
+    make({ game: 'gender', n: 15 }).view().answer({ ok: true }, 'now');
+    make({ game: 'six', mode: 'free', tier: 'typed', n: 6 }).view().answer({ ok: false }, 'now');
+    const again = make({ game: 'snap', mode: 'ride', n: 12 });
+    expect(again.view()).toMatchObject({ resumed: true, answered: 4, xp });
+    expect(getState().play.xp).toBe(xp + XP.tap); // the gender answer, banked too; nothing lost
+    // finishing books only the rest: lifetime XP ends at exactly the round's total
+    for (let i = 0; i < 8; i++) again.view().answer({ ok: true }, 'now');
+    const sum = again.view().summary!;
+    expect(getState().play.xp).toBe(sum.xp + XP.tap);
+    expect(sum.xp).toBe(again.view().xp + sum.bonuses.reduce((a, b) => a + b.xp, 0));
+  });
+  it('banks XP and evidence in one write per answer', () => {
+    fresh({ cards: { [id]: card({ due: Date.now() - 1000 }) } });
+    const m = make({ game: 'forge', tier: 'build', n: 3 });
+    let writes = 0;
+    const off = subscribe(() => writes++);
+    m.view().answer({ ok: true, evidence: [build()] }, 'now');
+    expect(writes).toBe(1);
+    m.view().answer({ ok: false }, 'now'); // no XP, no evidence: no write
+    expect(writes).toBe(1);
+    off();
+    expect(getState().play.xp).toBe(XP.build);
+    // an abandoned round keeps what it earned
+    m.dispose();
+    expect(getState().play.xp).toBe(XP.build);
+  });
+  it('keeps a terminus round\'s ×2 with the round, so finishing it or a reload can\'t change it', () => {
+    setState((s) => {
+      s.play.ride = { date: today(), plan: ['snap'], done: ['snap'], terminus: false };
+    });
+    const m = make({ game: 'smash', mode: 'terminus', n: 3 });
+    expect(m.view().answer({ ok: true }, 'now')).toBe(2 * XP.tap);
+    m.dispose();
+    expect(stored('smash', 'terminus')!.double).toBe(true);
+    // a resumed round keeps its ×2
+    const r = make({ game: 'smash', mode: 'terminus', n: 3 });
+    expect(r.view()).toMatchObject({ resumed: true, shell: { double: true } });
+    r.view().answer({ ok: true }, 'now');
+    r.view().answer({ ok: true }, 'now');
+    expect(getState().play.ride!.terminus).toBe(true);
+    expect(getState().days.find((d) => d.date === today())!.stops).toBe(1);
+    // the next terminus round (Back, a stale link) is free play: full best, no stop
+    const later = make({ game: 'smash', mode: 'terminus', n: 1 });
+    expect(later.view().shell!.double).toBe(false);
+    later.view().answer({ ok: true }, 'now');
+    expect(getState().days.find((d) => d.date === today())!.stops).toBe(1);
+    expect(later.view().summary).toMatchObject({ xp: XP.tap + XP.round + XP.perfect, mode: 'terminus' });
   });
   it('restarts with a fresh build', () => {
     const m = make();

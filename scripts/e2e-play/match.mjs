@@ -75,11 +75,15 @@ export default async function match(t) {
   await page.locator(`.match-tile.he[data-pair="${a}"]`).click();
   check((await page.locator(`.match-tile.he.sel[data-pair="${a}"][aria-pressed="true"]`).count()) === 1, 'a tapped tile waits for its twin');
   await page.locator(`.match-tile.en[data-pair="${b}"]`).click();
+  // A bump: the wrong English tile tapped again while it shakes picks nothing (or the next tap would be blamed).
+  await page.locator(`.match-tile.en[data-pair="${b}"]`).click();
   await page.waitForSelector('.match-tile.bad');
   check(
     (await page.locator(`.match-tile.he.bad[data-pair="${a}"], .match-tile.en.bad[data-pair="${b}"]`).count()) === 2 && (await answered(page)) === 0 && (await page.locator('.match-board button.match-tile').count()) === 10,
     'a wrong pair shakes both tiles and matches nothing',
   );
+  check((await page.locator('.match-tile.sel').count()) === 0, 'a bumped second tap on the wrong tile picks nothing');
+  await page.waitForTimeout(500); // the shake is over
   await shot('play-match-miss');
 
   // Match every pair: Hebrew tile, then its English twin, wave after wave.
@@ -127,12 +131,12 @@ export default async function match(t) {
   for (let k = 0; k < 2; k++) await matchPair(page, await nextPair(page));
   await shot('play-match-sprint');
   await nav('#/today');
-  const saved = await page.evaluate((k) => JSON.parse(localStorage.getItem(k) ?? 'null'), ROUND_KEY);
+  const saved = await page.evaluate((k) => JSON.parse(localStorage.getItem(k) ?? 'null')?.rounds?.['match:sprint'], ROUND_KEY);
   check(saved?.game === 'match' && saved.mode === 'sprint' && saved.timeLeftMs > 0 && saved.timeLeftMs <= 60000, `leaving keeps the sprint's time left (${saved?.timeLeftMs} ms)`);
   await page.evaluate((k) => {
-    const r = JSON.parse(localStorage.getItem(k));
-    r.timeLeftMs = 3000;
-    localStorage.setItem(k, JSON.stringify(r));
+    const all = JSON.parse(localStorage.getItem(k)); // { v: 2, rounds: { 'game:mode': snapshot } }
+    all.rounds['match:sprint'].timeLeftMs = 3000;
+    localStorage.setItem(k, JSON.stringify(all));
   }, ROUND_KEY);
   await nav('#/play/match/sprint');
   await page.waitForSelector('.game[data-mode="sprint"] .match-board');

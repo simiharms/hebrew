@@ -38,8 +38,10 @@ export interface Profile {
 
 function update(stat: Stat | undefined, value: number, weight: number): Stat {
   const n = (stat?.n ?? 0) + weight;
-  // Early observations count more; later ones form a moving average of roughly the last 25.
-  const alpha = Math.max(0.04, Math.min(1, weight / n));
+  // Early observations count more; later ones form a moving average of roughly
+  // the last 25. The floor scales with the weight, so a light answer (a tap at
+  // 0.25) moves an established score a quarter as far as a typed one.
+  const alpha = n > 0 ? Math.min(1, Math.max(0.04 * Math.min(weight, 1), weight / n)) : 1;
   const score = stat ? stat.score + alpha * (value - stat.score) : value;
   return { score: Math.max(0, Math.min(1, score)), n, at: Date.now() };
 }

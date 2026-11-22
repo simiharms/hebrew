@@ -174,6 +174,32 @@ describe('Gap Dash: hard cases', () => {
     expect(answerVerb(lesson('g_nifal').drills.find((x) => x.answer[0] === 'נשאר')!, 'g_nifal')?.tense).toBe('past');
     expect(answerVerb(lesson('g_a1_present').drills.find((x) => x.answer[0] === 'גר')!, 'g_a1_present')?.tense).toBe('present');
   });
+  it("takes the tense from the hint when nothing else names it (נרשמת, נכשל: past, not present)", () => {
+    for (const a of ['נרשמת', 'נכשל']) {
+      const i = lesson('g_nifal').drills.findIndex((x) => x.answer[0] === a);
+      const d = lesson('g_nifal').drills[i];
+      expect(d.hint).toMatch(/past/);
+      expect(answerVerb(d, 'g_nifal'), a).toMatchObject({ tense: 'past', sure: true });
+      for (let seed = 1; seed <= 5; seed++) expect(gapItemFor(lesson('g_nifal'), i, seeded(seed))!.verb!.tense, a).toBe('past');
+    }
+  });
+  it('records no verb evidence when the tense of a two-tense form is unknown', () => {
+    for (const g of grammar) {
+      g.drills.forEach((d, i) => {
+        const hit = answerVerb(d, g.id);
+        const it = gapItemFor(g, i, seeded(1));
+        if (!hit || !it) return;
+        const tenses = new Set(analyses(hit.verb, hit.form).map((a) => a.tense));
+        if (!hit.sure) {
+          expect(tenses.size, `${g.id}#${i}`).toBeGreaterThan(1);
+          expect(it.verb, `${g.id}#${i}`).toBeUndefined();
+        } else expect(it.verb, `${g.id}#${i}`).toEqual({ verbId: hit.verb.id, tense: hit.tense });
+      });
+    }
+    // "it seems" (נראה): present or past, and nothing in the drill says which
+    const hedge = lesson('g_c1_hedging').drills.findIndex((x) => x.answer[0] === 'נראה');
+    expect(gapItemFor(lesson('g_c1_hedging'), hedge, seeded(1))?.verb).toBeUndefined();
+  });
 });
 
 describe('buildGapItems', () => {

@@ -164,6 +164,18 @@ export function SmashGame({ mode }: GameProps) {
     return () => clearTimeout(t);
   }, [wrong]);
 
+  // On a short screen (an iPhone SE Home-Screen app) the bank can run under the
+  // bottom edge: scroll it into view, but never past the row being filled.
+  useEffect(() => {
+    if (typeof document === 'undefined' || typeof window === 'undefined') return;
+    const bank = document.querySelector('.smash-bank');
+    const row = document.querySelector('.smash-table .row.now');
+    if (!bank || !row) return;
+    const over = bank.getBoundingClientRect().bottom + 12 - window.innerHeight;
+    const room = row.getBoundingClientRect().top - 8;
+    if (over > 0 && room > 0) window.scrollBy({ top: Math.min(over, room), behavior: calm() ? 'auto' : 'smooth' });
+  }, [round.index, table]);
+
   const evidence = (x: SmashItem, ok: boolean): Evidence[] => {
     const vb = verbById.get(x.verbId);
     return [
@@ -178,7 +190,8 @@ export function SmashGame({ mode }: GameProps) {
   };
 
   const onTap = (c: SmashChip, el: HTMLElement) => {
-    if (!it || round.status !== null || locked || used.has(c.k)) return;
+    // A chip flashing red ignores taps: a bumped double tap is one miss, not two (which would light the answer).
+    if (!it || round.status !== null || locked || used.has(c.k) || wrong === c.k) return;
     if (sameForm(c.form, it.form)) {
       tapped.current.keys.add(c.k);
       const clean = (round.shell?.misses ?? 0) === 0;

@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import type { Level } from '../src/content/types.ts';
-import { buildEchoItems, echoEvidence, type EchoItem, echoItemFor } from '../src/games/echo.tsx';
+import { buildEchoItems, echoEvidence, type EchoItem, echoItemFor, youForms } from '../src/games/echo.tsx';
 import { allowedTenses, applyEvidence, levelOk, sameForm, seeded } from '../src/games/kit.ts';
 import { verbById, verbs } from '../src/lib/content.ts';
 import { lenient } from '../src/lib/hebrew.ts';
@@ -84,6 +84,32 @@ describe('echoItemFor', () => {
       expect(wrong.some((f) => tensesOf(f).includes('past'))).toBe(true);
       expect(wrong.some((f) => tensesOf(f).some((t) => t !== 'past'))).toBe(true);
     }
+  });
+
+  it('never offers another you-form next to a you-form or a command: the English clue cannot tell them apart', () => {
+    // חכה רגע: חכי, חכו and תחכי would all fit; תישארי בארץ?: תישאר, תישארו too.
+    const lechakot = verbs.find((v) => v.exs?.some((e) => e.he.startsWith('חכי רגע')))!;
+    expect(new Set(youForms(lechakot, 'imp', 'fs').map(lenient))).toEqual(
+      new Set([...Object.values(tableOf(lechakot, 'imp') ?? {}), ...Object.entries(tableOf(lechakot, 'future') ?? {}).flatMap(([p, f]) => (p.startsWith('2') ? [f] : []))].map((f) => lenient(f[0]))),
+    );
+    expect(youForms(lechakot, 'past', '1s')).toEqual([]);
+    let n = 0;
+    for (const v of verbs) {
+      (v.exs ?? []).forEach((e, i) => {
+        const a = analyses(v, e.form)[0];
+        if (!a || (a.tense !== 'imp' && !a.person.startsWith('2'))) return;
+        n++;
+        const you = youForms(v, a.tense, a.person);
+        for (let seed = 1; seed <= 10; seed++) {
+          const it = echoItemFor(v, i, seeded(seed))!;
+          expect(it, `${v.id} #${i}`).not.toBeNull();
+          const wrong = it.options.filter((o) => !sameForm(o, it.form));
+          expect(wrong).toHaveLength(2);
+          for (const o of wrong) expect(you.some((y) => sameForm(y, o)), `${v.id} #${i} ${e.he}: ${o}`).toBe(false);
+        }
+      });
+    }
+    expect(n).toBeGreaterThan(100);
   });
 
   it('handles the two sentences that use the infinitive', () => {

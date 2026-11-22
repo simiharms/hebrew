@@ -1,8 +1,8 @@
 # Shoresh — Hebrew from A1 to C1
 
 A free Hebrew course that runs on your iPhone and your Mac. It goes from the alphabet to formal and literary
-Hebrew, with every answer typed in Hebrew. There are card decks, a verbs-only mode for people who find verbs
-hard, and reading and listening at every level.
+Hebrew. Production answers are typed in Hebrew; on the bus you can tap through short games instead. There are
+card decks, a verbs-only mode for people who find verbs hard, and reading and listening at every level.
 
 It runs entirely on your device. There's no account, no subscription, no server and no AI service. Progress
 stays on the device, and you can export a backup.
@@ -13,6 +13,7 @@ stays on the device, and you can export a backup.
 | --- | --- |
 | **Course** | **36 units from A1 to C1**, in the order of a university course book such as Etzion's *Routledge Introductory Course in Modern Hebrew*: letters and sounds → pronouns → gender and plural → present tense → יש/אין/של → prepositions → numbers → infinitive → past → questions → future → imperative → comparison → feelings with ל → roots and binyanim → … → passive → formal syntax → pu'al and huf'al → hedging → idioms → argument. Each unit has a grammar lesson, a text, a scene, verbs, often a card deck and a writing task, then a unit check. |
 | **Placement** | A skills check (about 10–15 minutes) rates vocabulary, verbs, grammar, listening, reading and writing from A1 to C1. It places you in the course and tailors the daily plan. Every exercise then keeps a live profile, including weak spots by grammar topic, binyan and tense. |
+| **Stories** | The **Stories** tab holds Reading and Listening, below. |
 | **Reading** | **72 texts at all seven levels**: signs, menus, chats, emails, recipes, reviews, stories, articles, essays, a court ruling, an academic abstract and literary prose. Tap any word for its meaning, root, prefixes and dictionary form. Each text has **true/false**, **open questions answered in Hebrew**, **find the word in the text**, **complete the summary** and a **writing task**. |
 | **Listening** | **About 57 scenes at all levels**: the ulpan, the shuk, the pharmacy, phone calls, meetings, a tour guide, radio interviews, a court hearing and a comedy podcast. Listen without the text, answer **true/false** and open questions, read the transcript, then do a dictation. **Listening practice** gives short sentences at any level: type what you hear, or pick what it means. |
 | **Card decks** | Flip cards with spaced repetition (rate Again / Hard / Good / Easy, or press 1–4 on a Mac). Decks: **the alphabet**, words by topic (40+ topics), words by level (A1–C1), verbs by binyan, essential verbs, irregular verbs, verbs + preposition, plus your ⭐ starred cards and the cards you keep forgetting. Word decks can also be practised by typing. |
@@ -22,6 +23,7 @@ stays on the device, and you can export a backup.
 | **Grammar** | **41 lessons** with **570+ typed drills**, from the alphabet to pu'al and huf'al, hedging and rhetoric. |
 | **Writing** | About 20 realistic tasks, from introducing yourself in the ulpan WhatsApp group to a formal complaint, with a live checklist and a model answer. |
 | **Numbers** | Prices, phone numbers, times and years by ear, plus writing numbers with the right gender. |
+| **Play (on the bus)** | **Shoresh Play**: nine short, tap-first games that work one-handed and survive interruptions. *Who's talking?*, *Time Machine* (past, present or future?), *Verb Forge* (build the form from its stem and endings), *Table Smash*, *Echo* (hear a sentence, pick the verb), *Match Rush*, *He or She?* and *Gap Dash*, plus **Verb of the Day**: six typed forms of one verb, once a day, with a shareable grid. Each day has a **line** of 2–4 stops (one short round each) and a 👑 **terminus** round at double XP once the line is done. The big button above the tab bar offers what's next, including **Resume** for a round left half-way: it keeps for 6 hours, so a stop or a call doesn't lose it. Taps never strengthen a card: only built (Verb Forge) and typed answers (Verb of the Day, and the typed practice everywhere else) review a due card, and the 🥉🥈🥇 verb medals come from those reviews. |
 
 All texts, scenes and exercises were written for this app; nothing is copied from a book. Speech uses the
 device's built-in Hebrew voice.
@@ -67,7 +69,11 @@ code and lessons, none of your data.
 - **Hebrew keyboard:** Settings → General → Keyboard → Keyboards → Add New Keyboard → Hebrew. Switch to it
   with the 🌐 key.
 - **Better Hebrew voice:** Settings → Accessibility → Spoken Content → Voices → Hebrew → Carmit → download
-  the **Enhanced** version.
+  the **Enhanced** version. The Echo game needs a Hebrew voice; without one it plays by reading, with the
+  English as the clue.
+- **Games:** sound effects and spoken Hebrew in games are **off** at first. Turn them on in ⚙️ (🔈 Sound
+  effects, 🗣️ Speak Hebrew in games), along with 🐢 Calm motion (no confetti or shakes) and the number of
+  stops per ride.
 - **First launch:** take the skills check, or pick your level. Then turn on **🎯 Verbs only** on Today
   whenever you want a verb day.
 - **Backups:** progress lives only on the phone. Now and then use ⚙️ → Backup → Export backup and save it

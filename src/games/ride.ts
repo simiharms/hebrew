@@ -99,8 +99,9 @@ export function sixStatus(s: AppState): { marks: SixMark[]; started: boolean; do
   const t = today();
   const d = s.play.daily && s.play.daily.date === t ? s.play.daily : null;
   const marks: SixMark[] = d && d.marks.length ? [...d.marks] : ['', '', '', '', '', ''];
-  const logged = !!s.days.find((x) => x.date === t)?.tasks.includes('play:six');
-  const done = logged || (!!d && d.marks.length > 0 && d.marks.every(Boolean));
+  // Only today's grid says whether today's verb is done (a grid begun last
+  // night and finished after midnight is yesterday's).
+  const done = !!d && d.marks.length > 0 && d.marks.every(Boolean);
   // Daily Six is an A2 game (it needs past, future and the imperative).
   return { marks, started: marks.some(Boolean), done, open: levelRank(s.level) >= 1 };
 }

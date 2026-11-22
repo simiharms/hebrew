@@ -8,7 +8,7 @@ import { type CardState, isDue, type Rating, review, strength } from '../lib/fsr
 import { lenient, normalizeEn } from '../lib/hebrew.ts';
 import { drillable, FUTURE_PRONOUNS, PERSON_PRONOUNS, PRESENT_PRONOUNS, type Tense, TENSES, verbCardOrder } from '../lib/session.ts';
 import { applyRecord, type Skill, weakTopics } from '../lib/skills.ts';
-import { type AppState, type GameId, getState, type Mistake, setState, today, todayLog } from '../lib/store.ts';
+import { type AppState, dateKey, type GameId, getState, logFor, type Mistake, PLAY_ROUND_KEY, setState, today, todayLog } from '../lib/store.ts';
 import { speak, ttsSupported } from '../lib/tts.ts';
 import { tableOf, type TenseKey } from '../lib/verbdrill.ts';
 
@@ -156,9 +156,24 @@ function pushMistake(s: AppState, m: Omit<Mistake, 'at'>, now: number): void {
  * Cards are never created. Build/typed answers below g 3 go to the mistake bank.
  */
 export function applyEvidence(list: Evidence[], rated: Set<string>, now = Date.now()): number {
-  if (!list.length) return 0;
+  return bookAnswer(list, rated, 0, today(), now);
+}
+
+/**
+ * One answer in one write: its evidence (as applyEvidence) and its item XP,
+ * banked at once into play.xp and the log of `date` (the round's day), so XP
+ * shown during a round is never lost with the round.
+ */
+export function bookAnswer(list: Evidence[], rated: Set<string>, xp: number, date: string = today(), now = Date.now()): number {
+  const gain = Math.max(0, Math.round(xp));
+  if (!list.length && !gain) return 0;
   let strengthened = 0;
   setState((s) => {
+    if (gain) {
+      s.play.xp += gain;
+      const day = logFor(s, date);
+      day.xp = (day.xp ?? 0) + gain;
+    }
     for (const e of list) {
       const g: Rating = e.tier === 'typed' && e.grade ? (Math.max(1, Math.min(3, e.grade)) as Rating) : e.ok ? 3 : 1;
       const value = e.tier === 'tap' ? (e.ok ? 1 : 0) : g >= 3 ? 1 : g === 2 ? 0.6 : 0;
@@ -194,13 +209,14 @@ export interface RoundSnapshot<I = unknown> {
   v: 1;
   game: GameId;
   mode: GameMode;
-  date: string;
+  date: string; // the day the round started: it is booked on that day
   startedAt: number;
   savedAt: number;
   items: I[];
   results: ({ ok: boolean; firstTry: boolean } | null)[];
   missed: number[];
-  xp: number;
+  xp: number; // item XP earned in the round
+  banked?: number; // ...of which already added to play.xp (missing: none)
   combo: number;
   bestCombo: number;
   strengthened: number;
@@ -208,50 +224,90 @@ export interface RoundSnapshot<I = unknown> {
   misses: string[];
   verbIds: string[];
   timeLeftMs?: number;
+  double?: boolean; // a terminus round opened while the ×2 was still due (set when it starts)
+  prior?: { total: number; firstTry: number }; // answers from before this round that its stars count (Daily Six rows)
 }
 
-const ROUND_KEY = 'shoresh-play-round-v1';
+const ROUND_KEY = PLAY_ROUND_KEY;
 const ROUND_TTL = 6 * 3600_000;
+const MAX_ROUNDS = 4; // kept per game and mode, the most recent first
 
-// The saved round, if it can still be resumed (any game).
-function readRound(): RoundSnapshot | null {
-  try {
-    if (typeof localStorage === 'undefined') return null;
-    const raw = localStorage.getItem(ROUND_KEY);
-    if (!raw) return null;
-    const r = JSON.parse(raw) as RoundSnapshot;
-    if (!r || r.v !== 1 || !Array.isArray(r.items) || !Array.isArray(r.results) || r.results.length !== r.items.length) return null;
-    if (r.date !== today() || !(Date.now() - r.savedAt <= ROUND_TTL)) return null;
-    if (r.results.every(Boolean)) return null;
-    if (r.timeLeftMs !== undefined && r.timeLeftMs <= 0) return null;
-    return r;
-  } catch {
-    return null;
-  }
+const roundId = (game: GameId, mode: GameMode) => `${game}:${mode}`;
+
+function yesterday(): string {
+  const d = new Date();
+  d.setDate(d.getDate() - 1);
+  return dateKey(d);
 }
 
-export function saveRound(r: RoundSnapshot): void {
+// A round that can still be resumed: whole, begun today or (across midnight)
+// yesterday, saved in the last 6 h, with something left to answer.
+function resumable(x: unknown): x is RoundSnapshot {
+  const r = x as RoundSnapshot | null;
+  if (!r || r.v !== 1 || typeof r.game !== 'string' || typeof r.mode !== 'string' || !Array.isArray(r.items) || !Array.isArray(r.results) || r.results.length !== r.items.length) return false;
+  if ((r.date !== today() && r.date !== yesterday()) || !(Date.now() - r.savedAt <= ROUND_TTL)) return false;
+  if (r.results.every(Boolean)) return false;
+  return !(r.timeLeftMs !== undefined && r.timeLeftMs <= 0);
+}
+
+// Every saved round, one per game and mode, so playing one game never wipes
+// another's paused round. Reads the first format (a single snapshot) too.
+function readRounds(): Record<string, RoundSnapshot> {
+  const out: Record<string, RoundSnapshot> = {};
   try {
-    if (typeof localStorage !== 'undefined') localStorage.setItem(ROUND_KEY, JSON.stringify(r));
+    if (typeof localStorage === 'undefined') return out;
+    const raw = localStorage.getItem(ROUND_KEY);
+    if (!raw) return out;
+    const x = JSON.parse(raw);
+    const list: unknown[] = x && x.v === 2 && x.rounds && typeof x.rounds === 'object' ? Object.values(x.rounds) : [x];
+    for (const r of list) if (resumable(r)) out[roundId(r.game, r.mode)] = r;
+  } catch {
+    // unreadable: nothing to resume
+  }
+  return out;
+}
+
+function writeRounds(rounds: Record<string, RoundSnapshot>): void {
+  try {
+    if (typeof localStorage === 'undefined') return;
+    const keep = Object.values(rounds)
+      .sort((a, b) => b.savedAt - a.savedAt)
+      .slice(0, MAX_ROUNDS);
+    if (!keep.length) localStorage.removeItem(ROUND_KEY);
+    else localStorage.setItem(ROUND_KEY, JSON.stringify({ v: 2, rounds: Object.fromEntries(keep.map((r) => [roundId(r.game, r.mode), r])) }));
   } catch {
     // storage full or unavailable; the round just won't resume
   }
 }
 
+export function saveRound(r: RoundSnapshot): void {
+  const id = roundId(r.game, r.mode);
+  const rest = readRounds();
+  delete rest[id];
+  writeRounds({ [id]: r, ...rest }); // the newest first, so it wins a savedAt tie
+}
+
 export function loadRound<I>(game: GameId, mode: GameMode): RoundSnapshot<I> | null {
-  const r = readRound();
-  return r && r.game === game && r.mode === mode ? (r as RoundSnapshot<I>) : null;
+  return (readRounds()[roundId(game, mode)] as RoundSnapshot<I> | undefined) ?? null;
 }
 
-/** The round to offer as "Resume" (null when nothing was answered yet). */
+/** The round to offer as "Resume": the most recently played one with an answer. */
 export function peekRound(): { game: GameId; mode: GameMode; answered: number; total: number } | null {
-  const r = readRound();
-  if (!r) return null;
-  const answered = r.results.filter(Boolean).length;
-  return answered ? { game: r.game, mode: r.mode, answered, total: r.items.length } : null;
+  const r = Object.values(readRounds())
+    .filter((x) => x.results.some(Boolean))
+    .sort((a, b) => b.savedAt - a.savedAt)[0];
+  return r ? { game: r.game, mode: r.mode, answered: r.results.filter(Boolean).length, total: r.items.length } : null;
 }
 
-export function clearRound(): void {
+/** Drops the saved round of one game and mode, or (no arguments) every saved round. */
+export function clearRound(game?: GameId, mode?: GameMode): void {
+  if (game && mode) {
+    const all = readRounds();
+    if (!all[roundId(game, mode)]) return;
+    delete all[roundId(game, mode)];
+    writeRounds(all);
+    return;
+  }
   try {
     if (typeof localStorage !== 'undefined') localStorage.removeItem(ROUND_KEY);
   } catch {
@@ -280,20 +336,26 @@ export interface FinishSummary {
 }
 
 /**
- * Books a finished round in one write: XP and bonuses (item XP was already ×2
- * in terminus), best, plays, the day log, the ride, medals and badges.
+ * Books a finished round in one write, on the day it started: the XP not
+ * banked yet and the bonuses (item XP was already ×2 in terminus), best,
+ * plays, the day log, the ride, medals and badges. Only a round that started
+ * while the terminus ×2 was due (`double`) counts as the terminus; any other
+ * terminus round is free play.
  * In a sprint `total` is the number answered and stars go by the number right.
  */
 export function finishRound(r: RoundSnapshot): FinishSummary {
   const sprint = r.mode === 'sprint';
   const answered = r.results.filter(Boolean) as { ok: boolean; firstTry: boolean }[];
   const right = answered.filter((x) => x.ok).length;
-  const firstTry = answered.filter((x) => x.ok && x.firstTry).length;
-  const total = sprint ? answered.length : r.items.length;
+  const prior = !sprint && r.prior ? r.prior : { total: 0, firstTry: 0 };
+  const firstTry = answered.filter((x) => x.ok && x.firstTry).length + prior.firstTry;
+  const total = sprint ? answered.length : r.items.length + prior.total;
   const stars = starsFor(sprint ? right : firstTry, total, sprint);
+  const banked = Math.max(0, Math.min(r.xp, r.banked ?? 0));
   const bonuses: { label: string; xp: number }[] = [];
   if (answered.length) bonuses.push({ label: 'Round finished', xp: XP.round });
   if (answered.length && stars === 3) bonuses.push({ label: '★★★', xp: XP.perfect });
+  const startLevel = (xp: number) => levelFromXp(Math.max(0, xp - banked));
   const summary: FinishSummary = {
     game: r.game,
     mode: r.mode,
@@ -307,37 +369,40 @@ export function finishRound(r: RoundSnapshot): FinishSummary {
     practised: answered.length,
     strengthened: r.strengthened,
     misses: [...new Set(r.misses)].slice(0, 5),
-    level: { before: levelFromXp(getState().play.xp), after: levelFromXp(getState().play.xp) },
+    level: { before: startLevel(getState().play.xp), after: levelFromXp(getState().play.xp) },
     medals: [],
     badges: [],
     goalJustMet: false,
     nextStop: null,
   };
   if (!answered.length) return summary; // a sprint that ran out untouched
+  const terminus = r.mode === 'terminus' && !!r.double;
   setState((s) => {
     const p = s.play;
-    const log = todayLog(s);
-    const before = levelFromXp(p.xp);
+    const log = logFor(s, r.date || today());
+    const before = startLevel(p.xp);
     // A terminus round paid item XP ×2; its best counts the plain item XP so bests stay comparable.
-    const score = sprint ? right : (r.mode === 'terminus' ? Math.round(r.xp / 2) : r.xp) + bonuses.reduce((a, b) => a + b.xp, 0);
-    if (r.mode === 'ride' || r.mode === 'terminus') {
+    const score = sprint ? right : (terminus ? Math.round(r.xp / 2) : r.xp) + bonuses.reduce((a, b) => a + b.xp, 0);
+    if (r.mode === 'ride' || terminus) {
       log.stops = (log.stops ?? 0) + 1;
-      if (!p.ride || p.ride.date !== log.date) p.ride = { date: log.date, plan: ridePlan(s, log.date), done: [], terminus: false };
-      const ride = p.ride;
-      if (r.mode === 'terminus') ride.terminus = true;
-      else {
+      // A stop finished today without a ride saved starts today's ride; one
+      // begun yesterday fills yesterday's ride if that is still the saved one.
+      if (r.mode === 'ride' && log.date === today() && (!p.ride || p.ride.date !== log.date)) p.ride = { date: log.date, plan: ridePlan(s, log.date), done: [], terminus: false };
+      const ride = p.ride && p.ride.date === log.date ? p.ride : null;
+      if (ride && terminus) ride.terminus = true;
+      else if (ride) {
         if (ride.plan.includes(r.game) && !ride.done.includes(r.game)) ride.done.push(r.game);
         if (ride.plan.every((id) => ride.done.includes(id)) && !log.tasks.includes('ride')) {
           log.tasks.push('ride');
           bonuses.push({ label: 'Line finished', xp: XP.goal });
           summary.goalJustMet = true;
         }
-        summary.nextStop = ride.plan.find((id) => !ride.done.includes(id)) ?? null;
+        summary.nextStop = log.date === today() ? (ride.plan.find((id) => !ride.done.includes(id)) ?? null) : null;
       }
     }
     const xp = r.xp + bonuses.reduce((a, b) => a + b.xp, 0);
-    p.xp += xp;
-    log.xp = (log.xp ?? 0) + xp;
+    p.xp += xp - banked;
+    log.xp = (log.xp ?? 0) + xp - banked;
     summary.xp = xp;
     const key = sprint ? `${r.game}:sprint` : r.game;
     const prev = p.best[key];

@@ -27,7 +27,7 @@ export interface GapItem {
   options: string[]; // the answer and two distractors, shuffled
   hint?: string;
   explain?: string;
-  verb?: { verbId: string; tense: TenseKey }; // when the answer is a verb form
+  verb?: { verbId: string; tense: TenseKey }; // when the answer is a verb form whose tense is known
 }
 
 const ROUND = 10;
@@ -35,12 +35,13 @@ const MAX_LESSONS = 3;
 const FLAG_CAP = 300;
 const THIRD = ['הוא', 'היא', 'הם', 'הן'];
 const ALL_TENSES: TenseKey[] = ['present', 'past', 'future', 'imp'];
-// What names a tense: the cue (עתיד), the lesson (g_a2_past_paal), a time word.
+// What names a tense: the cue (עתיד), the lesson (g_a2_past_paal), the hint
+// ("past, את → -ת"), a time word.
 const TENSE_WORD: [RegExp, TenseKey][] = [
-  [/(^|\s)עבר(\s|$)|_past/, 'past'],
-  [/(^|\s)עתיד(\s|$)|_future/, 'future'],
-  [/(^|\s)הווה(\s|$)|_present/, 'present'],
-  [/(^|\s)ציווי(\s|$)|imperative/, 'imp'],
+  [/(^|\s)עבר(\s|$)|_past|\bpast\b/, 'past'],
+  [/(^|\s)עתיד(\s|$)|_future|\bfuture\b/, 'future'],
+  [/(^|\s)הווה(\s|$)|_present|\bpresent\b/, 'present'],
+  [/(^|\s)ציווי(\s|$)|imperative|\bcommand\b/, 'imp'],
 ];
 const NOT_A_TABLE_FORM = /passive|pu'?al|huf'?al|participle|verbal noun|smichut|פועל|הופעל/i;
 const TIME_WORD: [RegExp, TenseKey][] = [
@@ -120,8 +121,10 @@ function rootInPrompt(v: Verb, prompt: string): boolean {
  * the prompt, or its gloss is in a cue. Many answers only look like verb forms
  * (אתן "you", נשים "women", לך "to you", ספרנו "our book"). When verbs share
  * a spelling (אלמד: ללמוד / ללמד) the infinitive wins, then the root, then the gloss.
+ * `sure` is false when the form is in more than one tense (נרשמת: present or
+ * past) and nothing in the drill says which.
  */
-export function answerVerb(d: Drill, lessonId = ''): { verb: Verb; tense: TenseKey; person: string; form: string; prefix: string } | null {
+export function answerVerb(d: Drill, lessonId = ''): { verb: Verb; tense: TenseKey; person: string; form: string; prefix: string; sure: boolean } | null {
   const idx = formIndex();
   const a = d.answer[0].trim();
   let prefix = '';
@@ -145,11 +148,12 @@ export function answerVerb(d: Drill, lessonId = ''): { verb: Verb; tense: TenseK
     verbsHit.find((v) => promptWords.has(lenient(v.inf))) ?? verbsHit.find((v) => rootInPrompt(v, d.prompt)) ?? verbsHit.find((v) => glossInCue(v, cue));
   if (!verb) return null;
   const mine = hits.filter((h) => h.verbId === verb.id);
-  // The tense the cue or the lesson names, else a time word's (אתמול), else the first reading.
+  // The tense the cue, the lesson or the hint names, else a time word's (אתמול), else the first reading.
   const fits = (list: [RegExp, TenseKey][], text: string) => list.find(([re, t]) => re.test(text) && mine.some((h) => h.tense === t))?.[1];
-  const named = fits(TENSE_WORD, normalize(`${cue} ${lessonId}`)) ?? fits(TIME_WORD, normalize(d.prompt));
+  const named = fits(TENSE_WORD, normalize(`${cue} ${lessonId} ${d.hint ?? ''}`)) ?? fits(TIME_WORD, normalize(d.prompt));
   const pick = mine.find((h) => h.tense === named) ?? mine[0];
-  return { verb, tense: pick.tense, person: pick.person, form, prefix };
+  const sure = !!named || new Set(mine.map((h) => h.tense)).size === 1;
+  return { verb, tense: pick.tense, person: pick.person, form, prefix, sure };
 }
 
 // Drills tied to drill i through a shared accepted answer, transitively: their
@@ -240,7 +244,8 @@ export function gapItemFor(lesson: GrammarLesson, i: number, rnd: () => number =
     options: shuffle([answer, ...picked.slice(0, 2)], rnd),
     hint: d.hint,
     explain: d.explain,
-    verb: hit ? { verbId: hit.verb.id, tense: hit.tense } : undefined,
+    // Verb evidence only when the tense is known: a guessed one would land on the wrong c: card.
+    verb: hit?.sure ? { verbId: hit.verb.id, tense: hit.tense } : undefined,
   };
 }
 
@@ -343,7 +348,8 @@ export function GapGame({ mode }: GameProps) {
         cardId: it.verb.tense === 'imp' ? null : `c:${it.verb.verbId}:${it.verb.tense}`,
       });
     }
-    round.answer({ ok: c.ok, evidence, miss: missLabel(it), verbId: it.verb?.verbId });
+    // A right answer stays up long enough to read its explanation.
+    round.answer({ ok: c.ok, evidence, miss: missLabel(it), verbId: it.verb?.verbId }, it.explain ? 'read' : 'auto');
     say(spoken(it));
   };
 
@@ -363,8 +369,9 @@ export function GapGame({ mode }: GameProps) {
             <span class="he" lang="he" dir="rtl">
               {lesson.titleHe}
             </span>
+            {/* Isolated: a title ending in Hebrew (…with ל) would pull the count into its run. */}
             <span class="gap-lesson-en">
-              {lesson.title} · {nInLesson}/{fromLesson.length}
+              <bdi>{lesson.title}</bdi> · <span dir="ltr">{nInLesson}/{fromLesson.length}</span>
             </span>
           </div>
         )}

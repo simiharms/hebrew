@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import type { Level } from '../src/content/types.ts';
-import { buildGenderItems, genderItemFor, genderPool, isPluralSurprise, isSurprise, pluralItemFor, pluralSwap } from '../src/games/gender.tsx';
+import { buildGenderItems, genderItemFor, genderPool, isPluralSurprise, isSurprise, otherGenderSameSpelling, pluralItemFor, pluralSwap } from '../src/games/gender.tsx';
 import { isSingleWord, levelOk, sameForm, seeded } from '../src/games/kit.ts';
 import { vocab } from '../src/lib/content.ts';
 import { lenient } from '../src/lib/hebrew.ts';
@@ -72,6 +72,19 @@ describe('He or She? helpers', () => {
       expect(isSingleWord(v.he)).toBe(true);
       expect(genders.get(lenient(v.he))!.size).toBe(1);
     }
+  });
+
+  it('leaves out nouns whose other gender is spelled the same (מורה, מתחרה, מנחה)', () => {
+    const same = ['va1t_more', 'vb_mitkhare', 'vc1c_mankhe'];
+    // only those: "Feminine: רוח חזקה" on a feminine noun is an example, not the other gender
+    expect(vocab.filter((v) => v.pos === 'noun' && otherGenderSameSpelling(v)).map((v) => v.id).sort()).toEqual([...same].sort());
+    for (const level of ['A1', 'A2', 'A2+', 'B1', 'B2', 'C1'] as Level[]) {
+      const ids = new Set(genderPool(stateAt(level)).map((v) => v.id));
+      for (const id of same) expect(ids.has(id), `${id} at ${level}`).toBe(false);
+      for (let seed = 1; seed <= 20; seed++) expect(buildGenderItems(stateAt(level, seed), 15, seeded(seed)).some((x) => same.includes(x.vocabId))).toBe(false);
+    }
+    // "Feminine: אצבע אחת" on the feminine אצבע keeps it in
+    expect(genderPool(stateAt('C1')).some((v) => v.he === 'אצבע')).toBe(true);
   });
 
   it('a gender item has the two fixed keys, נקבה then זכר', () => {

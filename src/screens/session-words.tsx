@@ -118,10 +118,13 @@ export function WordSession({ deck }: { deck?: string }) {
   );
 }
 
-export function SessionDone({ task, right, total, doneId }: { task: string; right: number; total: number; doneId?: string }) {
-  // Typed answers pay Shoresh Play XP too, once per finished session (the mount
-  // effect runs once; re-renders don't pay again).
-  const [xp] = useState(() => Math.max(0, right) * XP.typed);
+/**
+ * The end of a session. It pays Shoresh Play XP once (the mount effect runs
+ * once; re-renders don't pay again): `xp`, or XP.typed per right answer for a
+ * typed session. Sessions with taps or self-ratings pass their own amount.
+ */
+export function SessionDone({ task, right, total, doneId, xp: pay }: { task: string; right: number; total: number; doneId?: string; xp?: number }) {
+  const [xp] = useState(() => Math.max(0, Math.round(pay ?? right * XP.typed)));
   useEffect(() => {
     markTask(doneId ?? task);
     if (doneId) markDone(doneId, total ? right / total : 1);

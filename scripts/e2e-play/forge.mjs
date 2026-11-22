@@ -96,6 +96,36 @@ export default async function forge(t) {
   check(strengthened === 1 && s.cards[card].reps === 3 && s.cards[card].due > now, `the due card is reviewed once (Strengthened ${strengthened}, reps ${s.cards[card].reps})`);
   check(await page.locator('.result-card .star.on').count() === 3, 'all right first try gives ★★★');
 
+  // Keyboard (Mac): Enter on a focused chip picks it, even when a pick is in;
+  // Enter on the chip already picked hammers.
+  await page.evaluate((k) => localStorage.removeItem(k), ROUND_KEY);
+  await nav('#/play');
+  await nav('#/play/forge');
+  await page.waitForSelector('.game[data-game="forge"] .forge-anvil');
+  const kRows = page.locator('.game-controls .tile-row');
+  const nk = await kRows.count();
+  for (let r = 0; r < nk - 1; r++) await pickIn(page, kRows.nth(r), true);
+  const lastRow = kRows.nth(nk - 1);
+  await page.waitForTimeout(350);
+  await lastRow.locator('.tile:not([data-ok])').first().focus();
+  await page.keyboard.press('Enter');
+  await page.waitForTimeout(350);
+  await lastRow.locator('.tile[data-ok="true"]').focus();
+  await page.keyboard.press('Enter');
+  await page.waitForTimeout(350);
+  check(
+    (await page.locator('.game').getAttribute('data-answered')) === '0' && (await lastRow.locator('.tile[data-ok="true"][aria-pressed="true"]').count()) === 1,
+    'Enter on a focused chip changes the pick instead of checking the old one',
+  );
+  await lastRow.locator('.tile[data-ok="true"]').focus();
+  await page.keyboard.press('Enter');
+  const hammered = await page.waitForSelector('.forge-anvil.ok', { timeout: 2000 }).then(
+    () => true,
+    () => false,
+  );
+  check(hammered && (await page.locator('.game').getAttribute('data-answered')) === '1', 'Enter on the picked chip hammers the right build');
+  await page.evaluate((k) => localStorage.removeItem(k), ROUND_KEY);
+
   // Leave the cards and mistakes as they were for the checks that follow.
   s.cards = start.cards;
   s.mistakes = start.mistakes;

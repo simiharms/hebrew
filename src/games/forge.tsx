@@ -13,7 +13,7 @@ import type { Tense } from '../lib/session.ts';
 import { type AppState, getState, useAppState } from '../lib/store.ts';
 import { tableOf } from '../lib/verbdrill.ts';
 import { calm, type Evidence, finalize, type GameProps, pickVerbTenses, pronounsFor, sameForm, say, shuffle, splitTable, TENSE_LABEL } from './kit.ts';
-import { GameShell, TenseBand, TileRow, useBumpGuard, useRound } from './kit-ui.tsx';
+import { GameShell, interactive, TenseBand, TileRow, useBumpGuard, useRound } from './kit-ui.tsx';
 
 export interface ForgeItem {
   key: string;
@@ -166,7 +166,10 @@ export function ForgeGame({ mode }: GameProps) {
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.key !== 'Enter' || e.repeat || e.metaKey || e.ctrlKey || e.altKey || status !== null || !ready || guard) return;
-      if (e.target instanceof HTMLElement && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) return;
+      // A focused chip, ✕ or the sound toggle handles its own Enter (a focused
+      // Check clicks itself); only on the chip already picked does Enter hammer.
+      const pickedChip = e.target instanceof HTMLElement && e.target.closest('.tile')?.getAttribute('aria-pressed') === 'true';
+      if (interactive(e.target) && !pickedChip) return;
       e.preventDefault();
       check();
     };

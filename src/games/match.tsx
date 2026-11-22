@@ -302,7 +302,9 @@ export function MatchGame({ mode }: GameProps) {
   };
 
   const tap = (side: Side, key: string) => {
-    if (locked || done.has(key)) return;
+    // The two tiles of a wrong pair ignore taps while they shake: a bumped
+    // double tap would otherwise pick one again and blame the next tile.
+    if (locked || done.has(key) || (wrong && wrong[side] === key)) return;
     if (pick && pick.side !== side) {
       attempt(side === 'he' ? key : pick.key, side === 'en' ? key : pick.key);
       return;

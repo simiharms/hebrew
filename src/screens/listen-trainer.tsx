@@ -8,6 +8,7 @@ import { distractors, pickSentences, type Sentence } from '../lib/listening.ts';
 import { record } from '../lib/skills.ts';
 import { getState } from '../lib/store.ts';
 import { speak } from '../lib/tts.ts';
+import { XP } from '../games/kit.ts';
 import { SessionDone } from './session-words.tsx';
 
 const ROUND = 10;
@@ -60,7 +61,8 @@ export function ListenTrainer() {
     );
   }
 
-  if (idx >= items.length) return <SessionDone task="listen-train" right={right} total={items.length} />;
+  // Typing what you hear pays the typed rate; picking a meaning is a tap.
+  if (idx >= items.length) return <SessionDone task="listen-train" right={right} total={items.length} xp={right * (mode === 'type' ? XP.typed : XP.tap)} />;
 
   const s = items[idx];
   const next = () => {

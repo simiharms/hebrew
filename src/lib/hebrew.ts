@@ -37,6 +37,14 @@ export function normalize(s: string): string {
     .trim();
 }
 
+/**
+ * A spelling as written, ignoring only niqqud, punctuation and final-letter
+ * forms. Unlike lenient(), יי and י stay apart: יישן (future) is not ישן (past).
+ */
+export function exactKey(s: string): string {
+  return normalize(s).replace(FINALS_RE, (c) => UNFINAL[c]);
+}
+
 /** Lenient form: also ignores final-letter forms, geresh and doubled vav/yod. */
 export function lenient(s: string): string {
   return normalize(s)

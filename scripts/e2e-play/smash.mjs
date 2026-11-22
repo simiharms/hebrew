@@ -24,8 +24,13 @@ export default async function smash(t) {
 
   // A wrong chip: it flashes ✕, the row stays open.
   await page.waitForSelector('.smash-bank button:not([data-ok]):not([disabled])');
-  await page.locator('.smash-bank button:not([data-ok]):not([disabled])').first().click();
-  check((await page.locator('.game').getAttribute('data-answered')) === '0' && (await page.locator('.smash-chip.bad').count()) === 1, 'a wrong chip is a miss and the row stays open');
+  const badChip = page.locator('.smash-bank button:not([data-ok]):not([disabled])').first();
+  const badText = await badChip.textContent();
+  await badChip.click();
+  // A bump: the same chip again while it flashes is still one miss, so the answer doesn't light up.
+  await page.locator('.smash-bank button.bad').click();
+  check((await page.locator('.game').getAttribute('data-answered')) === '0' && (await page.locator('.smash-chip.bad').count()) === 1, `a wrong chip is a miss and the row stays open (${badText})`);
+  check((await page.locator('.smash-chip.hint').count()) === 0, 'a bumped double tap on a wrong chip counts one miss (no glowing answer yet)');
   await shot('play-smash-miss');
 
   // Fill both tables (each tap fills one row; a row with a twin chip takes either twin).
@@ -48,4 +53,26 @@ export default async function smash(t) {
   check(((await page.locator('.game-title .sub').textContent()) ?? '').includes('Terminus'), `the terminus is marked (${(await page.locator('.game-title .sub').textContent())?.trim()})`);
   const tTotal = Number(await page.locator('.game').getAttribute('data-total'));
   check(await playTap(null, tTotal * 3), 'a terminus round plays to the result card');
+
+  // Short screens: a Home-Screen app on a 6.1" iPhone (797 px, 34 px home
+  // indicator) and on an SE (647 px): the whole bank and the row being filled are on screen.
+  for (const [w, h, pad] of [[390, 797, 50], [375, 647, 16]]) {
+    await page.setViewportSize({ width: w, height: h });
+    const inset = await page.addStyleTag({ content: `.game-controls{padding-bottom:${pad}px !important}` });
+    await page.evaluate((k) => localStorage.removeItem(k), ROUND_KEY);
+    await nav('#/play');
+    await nav('#/play/smash');
+    await page.waitForSelector('.smash-bank button');
+    await page.waitForTimeout(700);
+    const fit = await page.evaluate(() => {
+      const bottom = Math.max(...[...document.querySelectorAll('.smash-bank > *')].map((e) => e.getBoundingClientRect().bottom));
+      const row = document.querySelector('.smash-table .row.now')?.getBoundingClientRect();
+      return { bottom: Math.round(bottom), ih: innerHeight, row: Math.round(row?.top ?? -1) };
+    });
+    check(fit.bottom <= fit.ih && fit.row >= 0, `at ${w}×${h} the whole chip bank and the row being filled are on screen (bank ends at ${fit.bottom}/${fit.ih}, row at ${fit.row})`);
+    await shot(`play-smash-${w}x${h}`);
+    await inset.evaluate((e) => e.remove());
+  }
+  await page.setViewportSize({ width: 390, height: 844 });
+  await nav('#/today');
 }

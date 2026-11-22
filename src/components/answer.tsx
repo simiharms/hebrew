@@ -43,7 +43,8 @@ export function AnswerInput({ value, onInput, onEnter, status = '', placeholder,
       onKeyDown={(e) => {
         if (e.key === 'Enter') {
           e.preventDefault();
-          onEnter?.();
+          // A held Enter repeats: only the first press checks.
+          if (!e.repeat) onEnter?.();
         }
       }}
     />

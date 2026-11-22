@@ -13,6 +13,7 @@ import type { TenseKey } from '../lib/verbdrill.ts';
 import {
   applyEvidence,
   BADGES,
+  bookAnswer,
   calm,
   clearRound,
   comboMultiplier,
@@ -88,6 +89,9 @@ export interface RoundOpts<I> {
   tier: Tier;
   build: () => I[];
   sprintSec?: number;
+  // Answers from before this round that its stars count (Daily Six: rows of
+  // today's grid done in a round since lost). Read once, when a round is built.
+  prior?: () => { total: number; firstTry: number } | undefined;
 }
 
 interface Live<I> {
@@ -144,6 +148,7 @@ function begin<I>(o: RoundOpts<I>, resume: boolean): Live<I> {
       results: items.map(() => null),
       missed: [],
       xp: 0,
+      banked: 0,
       combo: 0,
       bestCombo: 0,
       strengthened: 0,
@@ -152,13 +157,18 @@ function begin<I>(o: RoundOpts<I>, resume: boolean): Live<I> {
       verbIds: [],
     };
     if (o.sprintSec) snap.timeLeftMs = o.sprintSec * 1000;
+    const prior = o.prior?.();
+    if (prior && prior.total > 0) snap.prior = prior;
   }
+  // Whether a terminus round pays ×2 is decided once, when it starts, and kept
+  // with it: finishing it spends the terminus, and a resumed round keeps its own.
+  if (o.mode === 'terminus' && snap.double === undefined) snap.double = terminusOpen();
   return {
     snap,
     rated: new Set(snap.rated),
     resumed: !!saved,
     saved: !!saved,
-    double: o.mode === 'terminus' && terminusOpen(),
+    double: o.mode === 'terminus' && !!snap.double,
     index: Math.max(0, firstOpen(snap.results)),
     status: null,
     hold: false,
@@ -225,7 +235,7 @@ export function createRound<I extends { key: string }>(o: RoundOpts<I>, onChange
     l.finished = true;
     const sum = finishRound(l.snap);
     // Only drop the stored round if it is this one (an untouched round never saved).
-    if (l.saved) clearRound();
+    if (l.saved) clearRound(l.snap.game, l.snap.mode);
     sfx('done');
     return sum;
   };
@@ -248,11 +258,19 @@ export function createRound<I extends { key: string }>(o: RoundOpts<I>, onChange
     if (l.finished || i < 0 || i >= snap.items.length || snap.results[i]) return 0;
     const firstTry = out.ok && (out.firstTry ?? !snap.missed.includes(i));
     snap.results[i] = { ok: out.ok, firstTry };
-    if (out.evidence?.length) snap.strengthened += applyEvidence(out.evidence, l.rated);
-    noteVerbs(snap, out.verbId, out.evidence);
     snap.combo = firstTry ? snap.combo + 1 : 0;
     snap.bestCombo = Math.max(snap.bestCombo, snap.combo);
     const gain = out.ok ? itemXp(out.xpTier ?? opts.tier, snap.combo, out.xpScale, l.double) : 0;
+    // Item XP is banked with the answer's evidence (one write), so it stays
+    // earned even if the round is never finished; the last answer's goes in
+    // with finishRound's one write.
+    if (snap.results.every(Boolean)) {
+      if (out.evidence?.length) snap.strengthened += applyEvidence(out.evidence, l.rated);
+    } else {
+      snap.strengthened += bookAnswer(out.evidence ?? [], l.rated, gain, snap.date);
+      snap.banked = (snap.banked ?? 0) + gain;
+    }
+    noteVerbs(snap, out.verbId, out.evidence);
     snap.xp += gain;
     if (out.miss && !firstTry) snap.misses.push(out.miss);
     l.lastGain = gain;
@@ -296,7 +314,7 @@ export function createRound<I extends { key: string }>(o: RoundOpts<I>, onChange
   };
   const restart = () => {
     stopTimers();
-    if (l.saved && !l.finished) clearRound();
+    if (l.saved && !l.finished) clearRound(l.snap.game, l.snap.mode);
     l = begin(opts, false);
     onChange();
   };
@@ -373,7 +391,7 @@ export function createRound<I extends { key: string }>(o: RoundOpts<I>, onChange
  * reveal. The sprint clock stops while the page is hidden. A new game or mode
  * (ride → terminus on the same screen) starts a new round.
  */
-export function useRound<I extends { key: string }>(o: { game: GameId; mode: GameMode; tier: Tier; build: () => I[]; sprintSec?: number }): Round<I> {
+export function useRound<I extends { key: string }>(o: RoundOpts<I>): Round<I> {
   const [, force] = useState(0);
   const ref = useRef<RoundMachine<I> | null>(null);
   if (ref.current?.id !== `${o.game}:${o.mode}`) {
@@ -432,8 +450,8 @@ export function useBumpGuard(dep: unknown, ms = 250): boolean {
 const ItemKey = createContext('');
 
 const typing = (t: EventTarget | null) => t instanceof HTMLElement && (t.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName));
-// A focused control handles its own Enter (a disabled one, e.g. the option just picked, doesn't).
-function interactive(t: EventTarget | null): boolean {
+/** A focused control handles its own Enter (a disabled one, e.g. the option just picked, doesn't). */
+export function interactive(t: EventTarget | null): boolean {
   const el = t instanceof HTMLElement ? t.closest('input, textarea, select, button, a[href], [contenteditable]') : null;
   return !!el && !(el as HTMLButtonElement).disabled;
 }
@@ -456,7 +474,7 @@ export function GameShell(p: {
   prompt: ComponentChildren;
   controls: ComponentChildren;
   live?: string;
-  onAgain?: () => void;
+  onAgain?: (() => void) | null; // null: no Again (Verb of the Day is once a day)
   result?: ComponentChildren; // extra lines on the result card
 }): JSX.Element {
   const s = useAppState();
@@ -480,6 +498,17 @@ export function GameShell(p: {
       stopSpeaking();
     };
   }, []);
+
+  // Continue must be in view when it shows: on a short screen (an iPhone SE
+  // Home-Screen app) it can land under the bottom edge, and a miss looks stuck.
+  // The controls' bottom padding (the home indicator) comes into view with it.
+  useEffect(() => {
+    if (!sh.hold || typeof document === 'undefined') return;
+    const el = document.querySelector('.game-continue');
+    const box = el?.closest('.game-controls') ?? el;
+    if (!el || !box || typeof box.scrollIntoView !== 'function') return;
+    if (el.getBoundingClientRect().bottom > window.innerHeight) box.scrollIntoView({ block: 'end' });
+  }, [sh.hold]);
 
   // Keyboard: Enter or Space continues after a miss.
   useEffect(() => {
@@ -526,7 +555,7 @@ export function GameShell(p: {
   let body: ComponentChildren;
   if (sum) {
     const onNext = p.mode !== 'ride' ? undefined : sum.nextStop ? () => go(`play/${sum.nextStop}/ride`) : sum.goalJustMet ? () => go('play/smash/terminus') : undefined;
-    const onAgain = p.mode === 'free' || p.mode === 'sprint' ? (p.onAgain ?? r.restart) : undefined;
+    const onAgain = p.onAgain === null ? undefined : p.mode === 'free' || p.mode === 'sprint' ? (p.onAgain ?? r.restart) : undefined;
     body = (
       <ResultCard summary={sum} onNext={onNext} onAgain={onAgain} onDone={() => go(home)}>
         {p.result}

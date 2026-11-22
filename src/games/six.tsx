@@ -8,12 +8,12 @@ import { useEffect, useRef, useState } from 'preact/hooks';
 import { AnswerInput } from '../components/answer.tsx';
 import type { Verb } from '../content/types.ts';
 import { levelRank, verbById, verbs } from '../lib/content.ts';
-import { checkHebrew, lenient } from '../lib/hebrew.ts';
+import { checkHebrew, lenient, normalize } from '../lib/hebrew.ts';
 import { go } from '../lib/router.ts';
 import { drillable, verbCardOrder } from '../lib/session.ts';
 import { weakTopics } from '../lib/skills.ts';
 import { type AppState, getState, type PlayState, setState, type SixSlot, today, useAppState } from '../lib/store.ts';
-import { BINYAN_CHOICES, type TenseKey } from '../lib/verbdrill.ts';
+import { BINYAN_CHOICES, otherFormOf, type TenseKey } from '../lib/verbdrill.ts';
 import { calm, daySeed, type Evidence, formOf, type GameProps, levelOk, personsFor, pronounsFor, sameForm, say, seeded, TENSE_LABEL } from './kit.ts';
 import { GameShell, Shorshi, useRound } from './kit-ui.tsx';
 
@@ -123,6 +123,16 @@ export function openDaily(date: string = today()): SixDaily | null {
 
 export const sixComplete = (d: SixDaily): boolean => d.marks.length === 6 && d.marks.every(Boolean);
 
+/**
+ * Rows already marked on the day's grid when a round is built: done in a round
+ * since lost (more than 6 h ago, say). They count toward the new round's stars,
+ * so a grid with a 🟥 never ends ★★★.
+ */
+export function sixPrior(d: SixDaily | null | undefined, date: string): { total: number; firstTry: number } {
+  const marked = d && d.date === date ? d.marks.filter(Boolean) : [];
+  return { total: marked.length, firstTry: marked.filter((m) => m === 'g').length };
+}
+
 /** The rows still open on today's grid. */
 export function sixItems(d: SixDaily): SixItem[] {
   const v = verbById.get(d.verbId);
@@ -133,15 +143,21 @@ export function sixItems(d: SixDaily): SixItem[] {
   });
 }
 
+const OTHER_FORM = 'That is another form of this verb: check the tense.';
+
 /**
  * Typed answers are graded strictly: a one-letter slip is a miss here. The
  * row's own pronoun typed in front ("אני כתבתי") is let through, since forms
- * are single words.
+ * are single words. With the verb given, an answer spelled exactly like
+ * another of its forms is a miss too, even where the lenient spelling check
+ * would take it (יישנו, future, for ישנו, past).
  */
-export function sixCheck(input: string, answer: string, pronoun?: string): ReturnType<typeof checkHebrew> {
+export function sixCheck(input: string, answer: string, pronoun?: string, v?: Verb): ReturnType<typeof checkHebrew> {
   const words = input.trim().split(/\s+/);
   const bare = pronoun && words.length > 1 && lenient(words[0]) === lenient(pronoun) ? words.slice(1).join(' ') : input;
-  return checkHebrew(bare, [answer], { strict: true });
+  const r = checkHebrew(bare, [answer], { strict: true });
+  if (v && r.verdict === 'correct' && r.note && otherFormOf(v, bare, answer)) return { verdict: 'wrong', expected: answer, note: OTHER_FORM };
+  return r;
 }
 
 /** The square for a finished row: right first try 🟩, right on the second try 🟨, two misses 🟥. */
@@ -186,6 +202,27 @@ function saveDaily(it: SixItem, patch: { tries?: number; mark?: SixMark; rated?:
 
 const binyanLabel = (v: Verb) => BINYAN_CHOICES.find(([b]) => b === v.binyan)?.[1] ?? v.binyan;
 
+/** A row's first miss, and whether the answer box was changed since. */
+export interface SixFirstMiss {
+  key: string;
+  text: string;
+  changed: boolean;
+}
+
+/** Notes an edit of the answer box after a first miss (typing the same text back counts as a change). */
+export function sixEdited(first: SixFirstMiss | null, value: string): SixFirstMiss | null {
+  return first && !first.changed && normalize(value) !== normalize(first.text) ? { ...first, changed: true } : first;
+}
+
+/**
+ * Whether a Check after a row's first miss comes with the answer untouched
+ * since: a bumped double tap on Check, a doubled or held Enter, or a resend.
+ * That is not the second try, so it can't use it up.
+ */
+export function sixResend(first: SixFirstMiss | null, key: string): boolean {
+  return !!first && first.key === key && !first.changed;
+}
+
 export function SixGame({ mode }: GameProps) {
   const s = useAppState();
   const [date] = useState(today);
@@ -199,10 +236,14 @@ export function SixGame({ mode }: GameProps) {
       const d = levelRank(getState().level) >= 1 ? openDaily(date) : null;
       return d ? sixItems(d) : [];
     },
+    prior: () => sixPrior(getState().play.daily, date),
   });
   const [value, setValue] = useState('');
   const [note, setNote] = useState<{ key: string; text: string; tone: 'close' | 'bad' | 'hint' } | null>(null);
   const [last, setLast] = useState<{ key: string; given: string } | null>(null);
+  // The first miss on the row on screen: a bumped second tap or Enter, or the
+  // same answer sent again, must not use up the last try.
+  const firstMiss = useRef<SixFirstMiss | null>(null);
   const entry = useRef<HTMLDivElement>(null);
   const it = round.item;
   const verb = daily ? verbById.get(daily.verbId) : undefined;
@@ -230,7 +271,11 @@ export function SixGame({ mode }: GameProps) {
 
   const check = () => {
     if (!it || !daily || !verb || status !== null) return;
-    const r = sixCheck(value, it.answer, it.pronoun);
+    if (sixResend(firstMiss.current, it.key)) {
+      setNote({ key: it.key, text: 'Same as your first try: change something first.', tone: 'hint' });
+      return nudge();
+    }
+    const r = sixCheck(value, it.answer, it.pronoun, verb);
     if (r.verdict === 'empty') return nudge();
     if (r.verdict === 'latin') {
       setNote({ key: it.key, text: r.note ?? 'Switch to the Hebrew keyboard.', tone: 'hint' });
@@ -240,10 +285,12 @@ export function SixGame({ mode }: GameProps) {
     const ok = r.verdict === 'correct';
     if (!ok && tries < 2) {
       // First miss: a hint, nothing revealed, one more try.
+      firstMiss.current = { key: it.key, text: value, changed: false };
       round.miss();
       saveDaily(it, { tries });
       const close = !!r.note;
-      setNote({ key: it.key, text: close ? (/vowel/.test(r.note!) ? 'Very close: check the vowel letters (י, ו).' : 'Very close: check the ending.') : 'Not quite. One more try.', tone: close ? 'close' : 'bad' });
+      const text = r.note === OTHER_FORM ? OTHER_FORM : close ? (/vowel/.test(r.note!) ? 'Very close: check the vowel letters (י, ו).' : 'Very close: check the ending.') : 'Not quite. One more try.';
+      setNote({ key: it.key, text, tone: close ? 'close' : 'bad' });
       return nudge();
     }
     const mark = sixMark(ok, tries);
@@ -303,6 +350,7 @@ export function SixGame({ mode }: GameProps) {
         value={value}
         onInput={(v) => {
           setValue(v);
+          firstMiss.current = sixEdited(firstMiss.current, v);
           if (note?.tone === 'hint') setNote(null);
         }}
         onEnter={act}
@@ -333,7 +381,8 @@ export function SixGame({ mode }: GameProps) {
         ? `Not quite. It's ${it.answer}.`
         : undefined;
 
-  return <GameShell game="six" mode={mode} round={round} prompt={prompt} controls={controls} result={result || undefined} live={live} />;
+  // No Again: the grid is once a day (Share and Done stay on the result card).
+  return <GameShell game="six" mode={mode} round={round} prompt={prompt} controls={controls} result={result || undefined} live={live} onAgain={null} />;
 }
 
 function SixBoard({ daily, verb, active, typed, given, done }: { daily: SixDaily; verb: Verb; active: number; typed: string; given?: string; done?: boolean }) {

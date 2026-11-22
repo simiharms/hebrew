@@ -22,7 +22,7 @@ const grammar = load('grammar');
 const byEn = new Map();
 for (const v of vocab) if (!byEn.has(v.en)) byEn.set(v.en, v);
 
-const browser = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
+const browser = await chromium.launch({ executablePath: process.env.CHROMIUM ?? '/opt/pw-browsers/chromium' });
 const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true });
 // Remember what the app reads aloud, so listening exercises can be answered.
 await ctx.addInitScript(() => {

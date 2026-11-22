@@ -6,7 +6,7 @@ import { mkdirSync } from 'node:fs';
 const base = process.argv[2] ?? 'http://localhost:4173/';
 const out = process.argv[3] ?? 'screenshots';
 mkdirSync(out, { recursive: true });
-const browser = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
+const browser = await chromium.launch({ executablePath: process.env.CHROMIUM ?? '/opt/pw-browsers/chromium' });
 const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true });
 const page = await ctx.newPage();
 const errors = [];

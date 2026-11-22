@@ -1,0 +1,265 @@
+/* Table Smash (smash): a wall of bricks, one per row; tap forms to break them */
+.smash-stage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.smash-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.smash-inf {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+}
+.smash-en {
+  color: var(--muted);
+  font-size: 14px;
+}
+.smash-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.smash-count {
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--surface-2);
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.smash-board {
+  position: relative;
+  width: 100%;
+  max-width: 380px;
+  margin-top: 2px;
+}
+.smash-board.smashed .smash-table {
+  animation: pop 240ms ease-out;
+}
+.smash-table {
+  list-style: none;
+  margin: 0;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  border: 2px solid var(--line);
+  border-radius: 18px;
+  background: var(--surface);
+  box-shadow: 0 4px 0 var(--line);
+}
+.smash-table .row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 10px;
+  min-height: 31px;
+  padding: 1px 12px;
+  border-radius: 10px;
+}
+.smash-table .who {
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.2;
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.smash-table .cell {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: right;
+}
+/* an unbroken brick */
+.smash-table .row:not(.done) .cell {
+  height: 23px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background-color: var(--accent-soft);
+  /* mortar joints between bricks */
+  background-image: linear-gradient(90deg, transparent 31%, var(--line) 31%, var(--line) calc(31% + 2px), transparent calc(31% + 2px), transparent 68%, var(--line) 68%, var(--line) calc(68% + 2px), transparent calc(68% + 2px));
+  box-shadow: inset 0 -3px 0 var(--surface-2);
+  color: var(--accent);
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 21px;
+  text-align: center;
+}
+/* every other course of bricks is offset, like a real wall */
+.smash-table .row:nth-child(even):not(.done) .cell {
+  background-image: linear-gradient(90deg, transparent 14%, var(--line) 14%, var(--line) calc(14% + 2px), transparent calc(14% + 2px), transparent 50%, var(--line) 50%, var(--line) calc(50% + 2px), transparent calc(50% + 2px), transparent 85%, var(--line) 85%, var(--line) calc(85% + 2px), transparent calc(85% + 2px));
+}
+/* the brick to break now: no joints, a question mark */
+.smash-table .row.now:nth-child(n):not(.done) .cell {
+  background-image: none;
+}
+.smash-table .row.now {
+  background: var(--primary-soft);
+  box-shadow: inset 0 0 0 2px var(--primary);
+}
+.smash-table .row.now .who {
+  color: var(--primary);
+  font-weight: 700;
+}
+.smash-table .row.now .cell {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+.smash-table .row.done .cell {
+  color: var(--good);
+  animation: pop 160ms ease-out;
+}
+.smash-boom {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+.boom-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 16px 6px 10px;
+  border: 2px solid var(--gold);
+  border-radius: 999px;
+  background: var(--gold-soft);
+  box-shadow: var(--shadow);
+  font-size: 24px;
+  font-weight: 800;
+  animation: pop 240ms ease-out;
+}
+
+/* The chip bank */
+.smash-help {
+  min-height: 18px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+}
+.smash-bank {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+.smash-chip {
+  min-height: 54px;
+  padding: 6px 4px;
+  font-family: var(--he-font);
+  font-size: 22px;
+}
+.smash-chip.long {
+  font-size: 18px;
+}
+/* a used chip keeps its place so nothing shifts under the thumb */
+.smash-chip.gone {
+  display: block;
+  visibility: hidden;
+}
+/* the shake comes from the tap handler, so it restarts on every wrong tap */
+.smash-chip.bad {
+  animation: none;
+}
+.smash-chip.hint {
+  border-color: var(--primary);
+  box-shadow:
+    0 0 0 3px var(--primary-soft),
+    0 3px 0 var(--primary);
+}
+/* the glow pulses on a ring around the chip; the chip itself stays put */
+.smash-chip.hint::after {
+  content: '';
+  position: absolute;
+  inset: -6px;
+  border: 3px solid var(--primary);
+  border-radius: 20px;
+  pointer-events: none;
+  animation: smashGlow 900ms ease-in-out infinite;
+}
+@keyframes smashGlow {
+  0%,
+  100% {
+    opacity: 0.15;
+  }
+  50% {
+    opacity: 0.9;
+  }
+}
+
+/* Short screens (a Home-Screen app loses the status bar and the home
+   indicator): a tighter wall and bank, so the whole bank fits */
+@media (max-height: 820px) {
+  .game[data-game='smash'] .game-stage {
+    padding: 8px 0 6px;
+  }
+  .smash-stage {
+    gap: 6px;
+  }
+  .smash-inf {
+    font-size: 26px;
+  }
+  .smash-table .row {
+    min-height: 27px;
+  }
+  .smash-table .row:not(.done) .cell {
+    height: 21px;
+    line-height: 19px;
+  }
+  .smash-bank {
+    gap: 6px;
+  }
+  .opt.smash-chip {
+    min-height: 48px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+}
+@media (max-height: 700px) {
+  .smash-table {
+    padding: 4px;
+  }
+  .smash-table .row {
+    min-height: 25px;
+  }
+  .smash-table .row:not(.done) .cell {
+    height: 20px;
+    line-height: 18px;
+  }
+  .opt.smash-chip {
+    min-height: 46px;
+  }
+}
+
+/* On the result card: the way to full credit */
+.smash-credit {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+}
+.smash-credit p {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.4;
+}
+.smash-credit .he {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
+}
+.smash-credit .btn {
+  min-height: 48px;
+  border-radius: 14px;
+}

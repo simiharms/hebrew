@@ -1,0 +1,343 @@
+/* Verb Forge (forge): the stem on an anvil, prefix and suffix chips below.
+   Affixes wear the tense colour, so the eye learns which chips mark a tense. */
+.forge-stage,
+.forge-controls {
+  --tc: var(--primary);
+}
+.forge-stage[data-tense='past'],
+.forge-controls[data-tense='past'] {
+  --tc: var(--tense-past);
+}
+.forge-stage[data-tense='present'],
+.forge-controls[data-tense='present'] {
+  --tc: var(--tense-present);
+}
+.forge-stage[data-tense='future'],
+.forge-controls[data-tense='future'] {
+  --tc: var(--tense-future);
+}
+
+.forge-stage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+.forge-ask {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0 10px;
+  margin-top: 6px;
+  direction: rtl;
+}
+.forge-pro {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.15;
+  text-align: center;
+}
+.forge-gender {
+  align-self: center;
+  padding: 1px 8px;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 1.4;
+}
+.forge-gender.f {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+.forge-gender.m {
+  background: var(--primary-soft);
+  color: var(--primary);
+}
+.forge-dot {
+  color: var(--line);
+  font-size: 28px;
+}
+.forge-inf {
+  font-size: 26px;
+  font-weight: 500;
+  color: var(--muted);
+  text-align: center;
+}
+.forge-en {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+/* The anvil and the word on it */
+.forge-anvil {
+  position: relative;
+  min-width: 232px;
+  max-width: 100%;
+  margin: 14px 0 12px;
+  padding: 14px 20px;
+  border: 2px solid var(--line);
+  border-radius: 22px;
+  background: var(--surface);
+  box-shadow: 0 5px 0 var(--line);
+  transition:
+    transform 120ms ease-out,
+    opacity 150ms;
+}
+/* the anvil's foot */
+.forge-anvil::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -14px;
+  width: 38%;
+  height: 9px;
+  border-radius: 0 0 10px 10px;
+  background: var(--line);
+  transform: translateX(-50%);
+}
+.forge-anvil.full {
+  border-color: var(--tc);
+  border-color: color-mix(in srgb, var(--tc) 60%, var(--line));
+}
+.forge-anvil.ok {
+  border-color: var(--good);
+  background: var(--good-soft);
+  box-shadow: 0 5px 0 var(--good);
+  animation: pop 200ms ease-out;
+}
+.forge-anvil.ok::after {
+  background: var(--good);
+}
+.forge-anvil.bad {
+  border-color: var(--bad);
+  background: var(--bad-soft);
+  box-shadow: 0 5px 0 var(--bad);
+  animation: shake 180ms ease-in-out 120ms;
+}
+.forge-anvil.bad::after {
+  background: var(--bad);
+}
+
+.forge-word {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  min-height: 62px;
+  font-family: var(--he-font);
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 1.15;
+  white-space: nowrap;
+}
+.forge-part {
+  display: inline-block;
+}
+.forge-part.slot {
+  width: 44px;
+  height: 54px;
+  margin: 0 3px;
+  border: 2.5px dashed var(--line);
+  border-color: color-mix(in srgb, var(--tc) 55%, var(--line));
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--tc) 7%, transparent);
+  animation: forgeWait 1.6s ease-in-out infinite;
+}
+.forge-part.fill {
+  padding: 0 4px;
+  border-radius: 10px;
+  background: var(--surface-2);
+  background: color-mix(in srgb, var(--tc) 15%, transparent);
+  color: var(--tc);
+  animation: forgeSnap 170ms ease-out;
+}
+.forge-anvil.ok .forge-part {
+  color: var(--good);
+}
+/* forged: the pieces close up into one word */
+.forge-anvil.ok .forge-word {
+  gap: 0;
+}
+.forge-anvil.ok .forge-part.fill {
+  padding: 0;
+  background: transparent;
+}
+.forge-anvil.bad .forge-part {
+  color: var(--bad);
+}
+.forge-anvil.bad .forge-part.fill {
+  background: transparent;
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+}
+
+/* 🔨 strikes once on Check */
+.forge-hammer {
+  position: absolute;
+  top: -16px;
+  left: -30px;
+  font-size: 34px;
+  line-height: 1;
+  transform-origin: 80% 85%;
+  transform: rotate(-8deg);
+  pointer-events: none;
+  animation: forgeStrike 260ms cubic-bezier(0.3, 1.4, 0.6, 1) both;
+}
+.forge-sparks {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
+.forge-sparks i {
+  position: absolute;
+  left: -4px;
+  top: -4px;
+  width: 9px;
+  height: 9px;
+  border-radius: 2px;
+  background: var(--gold);
+  opacity: 0;
+  animation: forgeSpark 420ms ease-out both;
+}
+.forge-sparks i:nth-child(3n) {
+  background: var(--accent);
+}
+
+.forge-verdict {
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.forge-yes {
+  color: var(--good);
+  font-size: 20px;
+  font-weight: 700;
+  animation: pop 160ms ease-out;
+}
+.forge-yes .he {
+  font-size: 22px;
+}
+.forge-fix {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 2px 14px;
+  border-radius: 14px;
+  background: var(--good-soft);
+  animation: pop 160ms ease-out;
+}
+.forge-fix-lbl {
+  color: var(--good);
+  font-size: 14px;
+  font-weight: 700;
+}
+.forge-word.mini {
+  min-height: 0;
+  font-size: 30px;
+}
+.forge-word.mini .forge-part {
+  color: var(--text);
+}
+.forge-word.mini .forge-part.fill {
+  color: var(--good);
+  background: transparent;
+  animation: none;
+}
+
+/* Chips: the picked one wears the tense colour until the reveal */
+.forge-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.forge-controls .tiles {
+  gap: 8px;
+}
+.forge-controls .tile {
+  min-width: 60px;
+  min-height: 58px;
+  font-size: 26px;
+}
+.forge-controls .tile.sel:not(.ok):not(.bad) {
+  border-color: var(--tc);
+  background: var(--surface-2);
+  background: color-mix(in srgb, var(--tc) 14%, var(--surface));
+  color: var(--tc);
+  box-shadow: 0 3px 0 var(--tc);
+}
+.forge-controls .tile.bad {
+  color: var(--bad);
+}
+.forge-controls .tile.ok {
+  color: var(--good);
+}
+.forge-check:disabled.ready {
+  opacity: 1;
+}
+.forge-check:not(.ready) {
+  opacity: 0.45;
+}
+
+.forge-note {
+  margin-top: 14px;
+  padding: 12px;
+  border-radius: 14px;
+  background: var(--surface-2);
+  text-align: left;
+}
+.forge-note p {
+  margin: 0 0 10px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+@keyframes forgeSnap {
+  0% {
+    opacity: 0;
+    transform: translateY(-14px) scale(1.15);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes forgeWait {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.55;
+  }
+}
+@keyframes forgeStrike {
+  0% {
+    opacity: 0;
+    transform: rotate(-60deg);
+  }
+  55% {
+    opacity: 1;
+    transform: rotate(14deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(-8deg);
+  }
+}
+@keyframes forgeSpark {
+  0% {
+    opacity: 1;
+    transform: rotate(var(--a)) translateY(-14px) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(var(--a)) translateY(calc(-1 * var(--d, 56px))) scale(0.4);
+  }
+}

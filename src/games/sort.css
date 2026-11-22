@@ -1,0 +1,188 @@
+/* Time Machine (sort): one form on a ticket, tense lanes along the bottom */
+.sort-stage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.sort-hint {
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 600;
+}
+.sort-card {
+  --lane: calc(min(100vw - 32px, 528px) / var(--n, 4));
+  position: relative;
+  min-width: 220px;
+  max-width: 100%;
+  padding: 20px 28px 16px;
+  border: 2px solid var(--line);
+  border-radius: 22px;
+  background: var(--surface);
+  box-shadow: 0 4px 0 var(--line);
+  animation: sortIn 200ms ease-out;
+}
+/* ticket notches */
+.sort-card::before,
+.sort-card::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 14px;
+  height: 14px;
+  margin-top: -7px;
+  border: 2px solid var(--line);
+  border-radius: 50%;
+  background: var(--bg);
+}
+.sort-card::before {
+  left: -8px;
+  clip-path: inset(0 0 0 50%);
+}
+.sort-card::after {
+  right: -8px;
+  clip-path: inset(0 50% 0 0);
+}
+.sort-card.ok {
+  border-color: var(--good);
+  background: var(--good-soft);
+  box-shadow: 0 4px 0 var(--good);
+}
+.sort-card.ok::before,
+.sort-card.ok::after {
+  border-color: var(--good);
+}
+.sort-card.bad {
+  border-color: var(--bad);
+  background: var(--bad-soft);
+  box-shadow: 0 4px 0 var(--bad);
+  animation: shake 180ms ease-in-out;
+}
+.sort-card.bad::before,
+.sort-card.bad::after {
+  border-color: var(--bad);
+}
+/* a right answer nudges the ticket toward its lane */
+.sort-card.go {
+  animation: sortGo 260ms ease-out forwards;
+}
+.sort-en {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 15px;
+}
+.sort-reveal {
+  min-height: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+.sort-both {
+  color: var(--accent);
+  font-size: 16px;
+  font-weight: 800;
+  animation: pop 200ms ease-out;
+}
+.sort-both .he {
+  font-size: 18px;
+}
+.sort-who {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+}
+.sort-chip {
+  --tc: var(--muted);
+  padding: 3px 12px;
+  border: 1px solid var(--tc);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--tc);
+  font-family: var(--he-font);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Lanes */
+.sort-lane.past,
+.sort-chip.past,
+.sort-lanes .opt:has(.sort-lane.past) {
+  --tc: var(--tense-past);
+}
+.sort-lane.present,
+.sort-chip.present,
+.sort-lanes .opt:has(.sort-lane.present) {
+  --tc: var(--tense-present);
+}
+.sort-lane.future,
+.sort-chip.future,
+.sort-lanes .opt:has(.sort-lane.future) {
+  --tc: var(--tense-future);
+}
+.sort-lane.imp,
+.sort-chip.imp,
+.sort-lanes .opt:has(.sort-lane.imp) {
+  --tc: var(--tense-imp);
+}
+.sort-lanes .opt {
+  min-height: 124px;
+  padding: 10px 4px 8px;
+  border-top-width: 6px;
+}
+.sort-lanes .opt:not(.ok):not(.bad) {
+  border-top-color: var(--tc, var(--line));
+  background: var(--surface);
+  background: color-mix(in srgb, var(--tc, var(--line)) 9%, var(--surface));
+}
+.sort-lane {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+.sort-lanes .opt .lane-he {
+  color: var(--tc);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.15;
+  text-align: center;
+}
+.sort-lanes.n4 .opt .lane-he {
+  font-size: 22px;
+}
+.lane-en {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 600;
+}
+.lane-cue {
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: var(--surface-2);
+  color: var(--text);
+  font-family: var(--he-font);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+@keyframes sortIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-14px) scale(0.96);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes sortGo {
+  0% {
+    transform: none;
+  }
+  100% {
+    transform: translate(calc((var(--i, 0) - (var(--n, 1) - 1) / 2) * var(--lane) * 0.3), 16px) scale(0.95);
+  }
+}

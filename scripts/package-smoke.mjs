@@ -77,7 +77,7 @@ check('quit needs the Shoresh header', (await http('POST', '/__shoresh/quit')).s
 check('no stray progress file', !existsSync(progressFile));
 
 // The app: first visit, progress lands in the folder
-const browser = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
+const browser = await chromium.launch({ executablePath: process.env.CHROMIUM ?? '/opt/pw-browsers/chromium' });
 const errors = [];
 const newContext = async () => {
   const ctx = await browser.newContext({ viewport: { width: 1100, height: 800 } });

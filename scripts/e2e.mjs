@@ -2,7 +2,7 @@
 // through the main flows, typing correct answers taken from the content files.
 // Usage: node scripts/e2e.mjs [baseUrl] [screenshotDir]
 import { chromium } from 'playwright-core';
-import { mkdirSync, readdirSync, readFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readdirSync, readFileSync } from 'node:fs';
 
 const base = process.argv[2] ?? 'http://localhost:4173/';
 const out = process.argv[3];
@@ -22,7 +22,7 @@ const grammar = load('grammar');
 const byEn = new Map();
 for (const v of vocab) if (!byEn.has(v.en)) byEn.set(v.en, v);
 
-const browser = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
+const browser = await chromium.launch({ executablePath: process.env.CHROMIUM ?? '/opt/pw-browsers/chromium' });
 const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true });
 // Remember what the app reads aloud, so listening exercises can be answered.
 await ctx.addInitScript(() => {
@@ -60,6 +60,30 @@ await page.getByText(/Start at B1/).click();
 await page.waitForTimeout(200);
 check(await page.getByText("Today's plan").isVisible(), 'onboarding leads to Today');
 await shot('e2e-today');
+
+// --- play: Shoresh Play. Each scripts/e2e-play/<name>.mjs exports
+// `default async (t) => …`; a file that isn't there yet is skipped with a note.
+{
+  const { playTap } = await import('./e2e-play/helpers.mjs');
+  const t = { page, check, nav, playTap: (hash, max) => playTap(page, hash, max), shot, verbs, vocab, grammar, readings, scenes };
+  page.setDefaultTimeout(8000);
+  for (const name of ['shell', 'snap', 'sort', 'smash', 'forge', 'six', 'echo', 'match', 'gender', 'gap', 'ride']) {
+    const file = new URL(`./e2e-play/${name}.mjs`, import.meta.url);
+    if (!existsSync(file)) {
+      console.log(`skip play/${name}: scripts/e2e-play/${name}.mjs not written yet`);
+      continue;
+    }
+    try {
+      const { default: run } = await import(file.href);
+      await run(t);
+    } catch (e) {
+      check(false, `play/${name}: ${String(e?.message ?? e).split('\n')[0]}`);
+    }
+    // Leave the page as the next block expects it.
+    await page.emulateMedia({ reducedMotion: null, colorScheme: null }).catch(() => {});
+  }
+  await nav('#/today');
+}
 
 // --- word session: answer every prompt correctly
 await nav('#/session/words');

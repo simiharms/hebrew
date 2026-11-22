@@ -1,0 +1,222 @@
+/* He or She? (gender): the noun on a balance that tips to its gender, ♀ | ♂ keys */
+.gender-stage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+.gender-ask {
+  color: var(--muted);
+  font-size: 15px;
+}
+.gender-ask .he {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text);
+}
+.gender-scale {
+  --gc: var(--line);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  animation: pop 160ms ease-out;
+}
+.gender-word {
+  min-width: 220px;
+  max-width: 100%;
+  padding: 16px 26px 12px;
+  border: 2px solid var(--gc);
+  border-radius: 24px;
+  background: var(--surface);
+  box-shadow: 0 4px 0 var(--gc);
+  transition: transform 260ms cubic-bezier(0.3, 1.4, 0.6, 1);
+}
+.gender-scale.ok {
+  --gc: var(--good);
+}
+.gender-scale.ok .gender-word {
+  background: var(--good-soft);
+}
+.gender-scale.bad {
+  --gc: var(--bad);
+}
+.gender-scale.bad .gender-word {
+  background: var(--bad-soft);
+  animation: shake 180ms ease-in-out;
+}
+/* the word slides toward its side of the scale */
+.gender-scale.tilt-f .gender-word {
+  transform: translateX(-14px) rotate(-2deg);
+}
+.gender-scale.tilt-m .gender-word {
+  transform: translateX(14px) rotate(2deg);
+}
+.gender-en {
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4px 8px;
+  color: var(--muted);
+  font-size: 15px;
+}
+.gender-tag {
+  padding: 1px 9px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.gender-tag.m {
+  background: var(--primary-soft);
+  color: var(--primary);
+}
+.gender-tag.f {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+/* the balance: נקבה pan on the left, זכר on the right, like the keys below */
+.gender-beam {
+  position: relative;
+  width: 240px;
+  height: 52px;
+}
+.gender-beam .beam {
+  position: absolute;
+  inset: 0 0 auto;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transform-origin: 50% 20px;
+  transition: transform 300ms cubic-bezier(0.3, 1.5, 0.6, 1);
+}
+.gender-beam .bar {
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  top: 17px;
+  height: 6px;
+  border-radius: 3px;
+  background: var(--line);
+}
+.gender-beam .pan {
+  position: relative;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  border: 2px solid var(--line);
+  border-radius: 50%;
+  background: var(--surface);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 700;
+  transition:
+    background 200ms,
+    border-color 200ms;
+}
+.gender-beam .pan.f {
+  color: var(--accent);
+}
+.gender-beam .pan.m {
+  color: var(--primary);
+}
+.gender-beam .pivot {
+  position: absolute;
+  left: 50%;
+  top: 22px;
+  width: 0;
+  height: 0;
+  margin-left: -12px;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 26px solid var(--line);
+}
+.tilt-f .gender-beam .beam {
+  transform: rotate(-9deg);
+}
+.tilt-m .gender-beam .beam {
+  transform: rotate(9deg);
+}
+.tilt-f .gender-beam .pan.f {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+.tilt-m .gender-beam .pan.m {
+  border-color: var(--primary);
+  background: var(--primary-soft);
+}
+.game[data-calm] .gender-word,
+.game[data-calm] .gender-beam .beam {
+  transition: none;
+}
+
+.gender-reveal {
+  min-height: 76px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+.gender-hint {
+  color: var(--muted);
+  font-size: 15px;
+  font-style: italic;
+}
+.gender-say {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  animation: pop 160ms ease-out;
+}
+.gender-say .he {
+  font-size: 24px;
+  font-weight: 600;
+}
+.gender-surprise {
+  max-width: 100%;
+  padding: 4px 12px;
+  border-radius: 14px;
+  line-height: 1.35;
+  text-wrap: balance;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  animation: pop 200ms ease-out;
+}
+
+/* the two keys: big, half-width, always in the same place */
+.gender-keys .opt {
+  min-height: 104px;
+}
+.gender-key {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+.gender-key .sym {
+  font-size: 30px;
+  line-height: 1;
+}
+.gender-key.f .sym {
+  color: var(--accent);
+}
+.gender-key.m .sym {
+  color: var(--primary);
+}
+.gender-key .he {
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+}
+.gender-keys.plural .opt .he {
+  font-size: 28px;
+}

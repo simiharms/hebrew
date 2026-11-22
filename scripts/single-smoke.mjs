@@ -1,7 +1,7 @@
 // Smoke test for the single-file build (in-memory routing, no service worker).
 // Usage: npm run build:single && node scripts/single-smoke.mjs
 import { chromium } from 'playwright-core';
-const browser = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
+const browser = await chromium.launch({ executablePath: process.env.CHROMIUM ?? '/opt/pw-browsers/chromium' });
 const page = await (await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true })).newPage();
 const errors = [];
 page.on('pageerror', (e) => errors.push(e.message));
@@ -11,7 +11,7 @@ await page.goto('file:///home/user/hebrew/dist-single/index.html');
 await page.getByText("Let's set up").click();
 await page.getByText('Next →').click();
 await page.getByText(/Start at/).click();
-await page.getByRole('button', { name: 'Read', exact: true }).click();
+await page.getByRole('button', { name: 'Stories', exact: true }).click();
 await page.locator('.item').nth(1).click();
 const title = await page.locator('.topbar h1').textContent();
 await page.getByRole('button', { name: 'Back' }).click();

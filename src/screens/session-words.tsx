@@ -11,6 +11,7 @@ import { deckById } from '../lib/decks.ts';
 import { acceptedHebrew, buildDeckWordSession, buildWordSession, findCloze, pickNewWords, type WordTask } from '../lib/session.ts';
 import { record } from '../lib/skills.ts';
 import { getState, markDone, markTask, setState, todayLog } from '../lib/store.ts';
+import { grantXp, XP } from '../games/kit.ts';
 import { speak } from '../lib/tts.ts';
 
 const POS_LABEL: Record<string, string> = {
@@ -117,10 +118,17 @@ export function WordSession({ deck }: { deck?: string }) {
   );
 }
 
-export function SessionDone({ task, right, total, doneId }: { task: string; right: number; total: number; doneId?: string }) {
+/**
+ * The end of a session. It pays Shoresh Play XP once (the mount effect runs
+ * once; re-renders don't pay again): `xp`, or XP.typed per right answer for a
+ * typed session. Sessions with taps or self-ratings pass their own amount.
+ */
+export function SessionDone({ task, right, total, doneId, xp: pay }: { task: string; right: number; total: number; doneId?: string; xp?: number }) {
+  const [xp] = useState(() => Math.max(0, Math.round(pay ?? right * XP.typed)));
   useEffect(() => {
     markTask(doneId ?? task);
     if (doneId) markDone(doneId, total ? right / total : 1);
+    grantXp(xp);
   }, []);
   return (
     <>
@@ -131,6 +139,11 @@ export function SessionDone({ task, right, total, doneId }: { task: string; righ
           <p>
             {right} / {total} correct on the first try.
           </p>
+          {xp > 0 && (
+            <p>
+              <span class="badge good session-xp">+{xp} XP</span>
+            </p>
+          )}
           <div class="btn-row">
             <button class="btn primary" onClick={() => go('today')}>
               Back to Today

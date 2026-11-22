@@ -1,0 +1,252 @@
+/* Match Rush (match): English on the left, Hebrew on the right, a wave of five at a time */
+.match-stage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+/* one dot per wave: done waves green, the current one a longer blue pill */
+.match-waves {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.match-waves li {
+  width: 10px;
+  height: 10px;
+  border: 2px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  transition: transform 200ms ease-out;
+}
+.match-waves li.now {
+  width: 24px;
+  border-color: var(--primary);
+  background: var(--primary-soft);
+}
+.match-waves li.done {
+  border-color: var(--good);
+  background: var(--good);
+}
+.match-waves li.done.now {
+  transform: scale(1.15);
+}
+
+/* Shorshi and the last thing that happened: a pair, a miss, a cleared wave */
+.match-echo {
+  min-height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  max-width: 100%;
+  animation: pop 160ms ease-out;
+}
+.match-ask {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  color: var(--muted);
+  font-size: 15px;
+  font-style: italic;
+  text-align: left;
+}
+.match-ask-sub {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+}
+.match-pair {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+  text-align: left;
+}
+.match-pair .he-game {
+  font-size: 36px;
+  color: var(--good);
+}
+.match-pair .he-game.letter {
+  font-size: 48px;
+  line-height: 1;
+}
+.match-pair-en {
+  color: var(--muted);
+  font-size: 15px;
+}
+.match-pair-en b {
+  color: var(--text);
+}
+.match-tr {
+  font-style: italic;
+}
+.match-sub {
+  margin-top: 4px;
+  padding: 1px 10px;
+  border-radius: 999px;
+  background: var(--surface-2);
+  color: var(--muted);
+  font-size: 15px;
+}
+.match-nope {
+  max-width: 240px;
+  color: var(--bad);
+  font-size: 15px;
+  font-weight: 600;
+  text-align: left;
+}
+.match-nope b {
+  font-family: var(--he-font);
+  font-size: 19px;
+}
+.match-cleared {
+  color: var(--good);
+  font-size: 17px;
+  font-weight: 800;
+}
+.match-cleared .he {
+  font-size: 26px;
+}
+
+/* The board: two columns of tiles that keep their places; a new wave slides in */
+.match-board {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  direction: ltr;
+  animation: matchIn 220ms ease-out;
+}
+.match-tile {
+  position: relative;
+  min-width: 0;
+  min-height: 56px;
+  padding: 6px 10px;
+  border: 2px solid var(--line);
+  border-radius: 16px;
+  background: var(--surface);
+  color: var(--text);
+  box-shadow: 0 3px 0 var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  overflow-wrap: anywhere;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  user-select: none;
+  transition: transform 90ms ease-out;
+}
+.match-tile.en {
+  grid-column: 1;
+  /* full colour and size: the app's .en gloss class would mute it */
+  color: var(--text);
+  font-size: 16px;
+}
+.match-tile.he {
+  grid-column: 2;
+  font-family: var(--he-font);
+  font-size: 23px;
+}
+.match-tile.en.long {
+  font-size: 14px;
+}
+.match-tile.he.long {
+  font-size: 18px;
+}
+.match-tile.he.letter {
+  font-size: 34px;
+  line-height: 1;
+}
+.match-tile:active:not(:disabled) {
+  transform: translateY(3px);
+  box-shadow: 0 0 0 var(--line);
+}
+.match-tile:disabled {
+  cursor: default;
+}
+.match-tile:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+/* the first tile of a pair, waiting for its twin */
+.match-tile.sel {
+  border-color: var(--primary);
+  background: var(--primary-soft);
+  box-shadow: 0 3px 0 var(--primary);
+  animation: pop 120ms ease-out;
+}
+/* a wrong pair: both tiles shake, with a ✕ so colour is never the only sign */
+.match-tile.bad {
+  border-color: var(--bad);
+  background: var(--bad-soft);
+  box-shadow:
+    inset 0 0 0 1px var(--bad),
+    0 3px 0 var(--bad);
+  animation: shake 180ms ease-in-out;
+}
+.match-tile.bad::after,
+.match-tile.gone::after {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 0 2px var(--bg);
+  color: var(--surface);
+  font: 800 13px/1 var(--ui-font);
+  pointer-events: none;
+}
+.match-tile.bad::after {
+  content: '✕';
+  background: var(--bad);
+}
+/* a matched pair turns green with a ✓ and fades out in 200 ms; its cell stays empty */
+.match-tile.gone {
+  border-color: var(--good);
+  background: var(--good-soft);
+  box-shadow: 0 3px 0 var(--good);
+  color: var(--good);
+  opacity: 0;
+  pointer-events: none;
+  cursor: default;
+  animation: matchGone 200ms ease-in;
+}
+.match-tile.gone::after {
+  content: '✓';
+  background: var(--good);
+}
+@keyframes matchGone {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+}
+@keyframes matchIn {
+  0% {
+    opacity: 0;
+    transform: translateX(28px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}

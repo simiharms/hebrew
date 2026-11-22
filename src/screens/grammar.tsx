@@ -61,7 +61,7 @@ export function renderPrompt(prompt: string, filled?: string) {
           {p}
           {i < parts.length - 1 && (
             <span style={{ borderBottom: '2px solid var(--primary)', padding: filled ? '0 4px' : '0 28px', color: 'var(--primary)' }}>
-              {filled ?? ' '}
+              {filled ?? '\u00a0'}
             </span>
           )}
         </>

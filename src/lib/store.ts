@@ -17,6 +17,10 @@ export interface Settings {
   dailyMinutes: number;
   deckDir: 'he2en' | 'en2he'; // which side of a flash card you see first
   verbsOnly: boolean; // the daily plan is all verb practice
+  sound: boolean; // game sound effects
+  gameVoice: boolean; // games speak Hebrew
+  calm: boolean; // games without animation
+  rideStops: number; // rounds in a daily ride (2–4)
 }
 
 export interface DoneEntry {
@@ -39,6 +43,22 @@ export interface DayLog {
   correct: number;
   newWords: number;
   tasks: string[]; // ids of plan items done today
+  xp?: number; // game XP earned today
+  stops?: number; // ride and terminus rounds finished today
+}
+
+export type GameId = 'snap' | 'sort' | 'forge' | 'smash' | 'six' | 'echo' | 'match' | 'gender' | 'gap';
+export interface GameBest { stars: 0 | 1 | 2 | 3; score: number; combo: number; at: number }
+export interface SixSlot { tense: 'present' | 'past' | 'future' | 'imp'; person: string; pronoun: string; pronounEn: string }
+export interface PlayState {
+  xp: number; // lifetime
+  best: Record<string, GameBest>; // key GameId or `${GameId}:sprint`; score = round XP or sprint count
+  plays: Record<string, number>; // rounds finished per GameId
+  ride: { date: string; plan: GameId[]; done: GameId[]; terminus: boolean } | null;
+  daily: { date: string; verbId: string; slots: SixSlot[]; marks: ('' | 'g' | 'y' | 'r')[]; tries: number[]; rated: string[] } | null;
+  medals: Record<string, 1 | 2 | 3>; // highest medal already celebrated, per verbId
+  badges: string[]; // badge ids already celebrated
+  flagged: string[]; // Gap Dash item keys reported "both fit" (cap 300)
 }
 
 export interface OwnText {
@@ -66,10 +86,13 @@ export interface AppState {
   profile: Profile; // skill estimates (see skills.ts)
   courseUnit: number; // index of the course unit the learner is on
   courseVersion?: number; // 2 = the A1–C1 course (see migrate)
+  play: PlayState; // Shoresh Play: XP, bests, today's ride and Daily Six
   updatedAt?: number; // time of the last change (ms), to tell which saved copy is newer
 }
 
 const KEY = 'shoresh-state-v1';
+/** Where Shoresh Play keeps its half-played rounds (src/games/kit.ts). */
+export const PLAY_ROUND_KEY = 'shoresh-play-round-v1';
 
 export function defaultState(): AppState {
   return {
@@ -86,6 +109,10 @@ export function defaultState(): AppState {
       dailyMinutes: 20,
       deckDir: 'he2en',
       verbsOnly: false,
+      sound: false,
+      gameVoice: false,
+      calm: false,
+      rideStops: 3,
     },
     cards: {},
     custom: [],
@@ -100,6 +127,7 @@ export function defaultState(): AppState {
     profile: { skills: {}, topics: {} },
     courseUnit: 0,
     courseVersion: 2,
+    play: { xp: 0, best: {}, plays: {}, ride: null, daily: null, medals: {}, badges: [], flagged: [] },
   };
 }
 
@@ -131,6 +159,7 @@ function withDefaults(saved: AppState): AppState {
     courseVersion: saved.courseVersion,
     settings: { ...base.settings, ...saved.settings },
     profile: { ...base.profile, ...saved.profile },
+    play: { ...base.play, ...saved.play },
   });
 }
 
@@ -197,20 +226,29 @@ export function useAppState(): AppState {
   return state;
 }
 
-export function today(): string {
-  const d = new Date();
+/** A local date as YYYY-MM-DD. */
+export function dateKey(d: Date = new Date()): string {
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 }
 
-export function todayLog(s: AppState): DayLog {
-  const t = today();
-  let log = s.days.find((d) => d.date === t);
+export function today(): string {
+  return dateKey();
+}
+
+/** The log of a day (YYYY-MM-DD), created if missing; the logs stay in date order. */
+export function logFor(s: AppState, date: string): DayLog {
+  let log = s.days.find((d) => d.date === date);
   if (!log) {
-    log = { date: t, reviews: 0, correct: 0, newWords: 0, tasks: [] };
+    log = { date, reviews: 0, correct: 0, newWords: 0, tasks: [] };
     s.days.push(log);
+    if (s.days.length > 1 && s.days[s.days.length - 2].date > date) s.days.sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0));
     if (s.days.length > 400) s.days.splice(0, s.days.length - 400);
   }
   return log;
+}
+
+export function todayLog(s: AppState): DayLog {
+  return logFor(s, today());
 }
 
 export function markTask(task: string): void {
@@ -245,11 +283,9 @@ export function clearMistake(kind: Mistake['kind'], ref: string): void {
 export function streak(s: AppState): number {
   const active = new Set(s.days.filter((d) => d.reviews > 0 || d.tasks.length > 0).map((d) => d.date));
   const d = new Date();
-  const fmt = (x: Date) =>
-    `${x.getFullYear()}-${String(x.getMonth() + 1).padStart(2, '0')}-${String(x.getDate()).padStart(2, '0')}`;
-  if (!active.has(fmt(d))) d.setDate(d.getDate() - 1);
+  if (!active.has(dateKey(d))) d.setDate(d.getDate() - 1);
   let n = 0;
-  while (active.has(fmt(d))) {
+  while (active.has(dateKey(d))) {
     n++;
     d.setDate(d.getDate() - 1);
   }
@@ -260,13 +296,26 @@ export function exportState(): string {
   return JSON.stringify({ app: 'shoresh', exportedAt: new Date().toISOString(), state }, null, 1);
 }
 
+// A half-played game round belongs to the progress it was played in: when the
+// whole state is replaced, it goes too (or it would book its XP and stop into
+// the new progress).
+function dropPlayRounds(): void {
+  try {
+    localStorage.removeItem(PLAY_ROUND_KEY);
+  } catch {
+    // storage unavailable: nothing was saved
+  }
+}
+
 export function importState(json: string): void {
   const parsed = JSON.parse(json);
   const incoming = parsed?.state ?? parsed;
   if (!isAppState(incoming)) throw new Error('This file is not a Shoresh backup.');
   replaceState(withDefaults(incoming));
+  dropPlayRounds();
 }
 
 export function resetState(): void {
   replaceState(defaultState());
+  dropPlayRounds();
 }
